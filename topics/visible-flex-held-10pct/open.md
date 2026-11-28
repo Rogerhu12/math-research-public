@@ -56,6 +56,8 @@
 
 [新QR final-H完整几何/活动矩入口](notes/2026-11-28-tail-qr-finalH-geometry-and-activity-entry.md)已经修复旧raw-H/旧width/source/phase硬锁：仍须新场同完整bundle、真实共同cut、全谱/mean/两jet和原连续证明。活动矩区间两种符号均可排零，未计算新阳性。
 
+[R96完整二维帽界](results/R96-complete-marker-hessian-two-variable-psd.md)将同完整有理帽Hessian上界从17/2改为23/10；只提高未来幅度的曲率充分预算，尚未选择新帽。若采用，必须在最终fixed-g之前冻结真实r/eps，并在所有图/metric/几何/活动矩/mesh/time入口绑定同一合同，另付高度/support与全图门。
+
 ## 5. 交付及强目标
 
 达到全部门后给多个t的完整网格生成命令、参数和SHA；按根§15可再生网格不入Git/Release，单个生成网格<5MB。说明数值与严格存在的具体差距。基础完成后继续提高held/D、δE/D并报告reach/D，不能为了结束降低标准。

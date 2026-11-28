@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `f22cc8fbce9a54488e3226aecfe5e9d64161d7f9`（2026-11-28 18:36 UTC）。
+- 最近实际pull后双README已读锚 `4c463f2f670730345fa93a36ba726cb189bbf707`（2026-11-28 18:37 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -44,6 +44,7 @@
 [R91](results/R91-period-mean-compensation-and-wider-core-box.md)给A≤8/9盒及全λ κ<3723/314；[R94](results/R94-binary64-core-window-period-budget.md)付真实S*/b*舍入仍同预算。
 [R95](results/R95-actual-core-normalization-from-positive-inverse-average.md)用完整字面支持系数正权逆函数平均/全二阶余项包真beta，原λ.128/M24实例GL12/24格误差<9.207e−5，代数曲率<11.85678<12.3。只付归一化标量；真核心位置/导数继续原warm零phase oracle，新λ1须付自己的A与全图。
 [R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)任意N=3J有限明确相位≤2π/9<4/5、至少一柱长活动矩非零，以及full-E(3)显式表面距离界。实际新λ1的矩/帽/全几何尚欠。
+[R96](results/R96-complete-marker-hessian-two-variable-psd.md)完整有理三重帽Hessian范数≤23/10：4个全二维主子式、8矩形准确整数Bernstein，主证0.150s、6512系数交叉核真0。仅改进导数界，未选新r/eps或改g；新幅度还须实际support/高度/全图预算。
 [R92](results/R92-complete-refined-chord-space-and-residual.md)全维细网格弦准确可逆运输及完整逆残差；旧880点仿射DN前缀通过但未启新native，旧J/V不能移到新λ1。
 旧λ.002/q=.06的R82/R89/R90几何/full-E3/全时metric已付（详历史档）；非λ1/final-H/同g精化。旧失败及未知回执保留，数组不可读，不重算1152段。
 

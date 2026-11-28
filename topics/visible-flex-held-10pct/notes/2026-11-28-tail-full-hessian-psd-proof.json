@@ -1,0 +1,188 @@
+{
+  "status": "complete_exact_unit_marker_Hessian_bound_23_over_10_proved_and_independently_checked",
+  "actual_records": {
+    "proof": {
+      "reference": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/unit-marker-full-hessian-psd-20261128-a/summary.json",
+        "sha256": "e9d04cd6bcdfac4db07964f4f76494266d6f7730e2eff83395ecc81db2e52bed"
+      },
+      "content": {
+        "status": "complete_unit_marker_Cartesian_Hessian_operator_bound_certified",
+        "unit_Hessian_operator_upper_exact": "23/10",
+        "full_two_variable_domain": {
+          "radius": [
+            "0",
+            "1"
+          ],
+          "cos3theta": [
+            "-1",
+            "1"
+          ]
+        },
+        "all_angles_and_all_harmonics_included": true,
+        "finite_sampling_used_as_a_proof": false,
+        "exact_integer_Bernstein_arithmetic": true,
+        "complete_exact_single_cover": true,
+        "independently_collapsed_full_binary_partition": true,
+        "exact_rectangle_area_sum": "2",
+        "matrix_test": "Both K I + D^2 phi and K I - D^2 phi: positive first principal minor and positive determinant.",
+        "Hessian_itself_claimed_positive_semidefinite": false,
+        "definition": {
+          "marker": "(1-|z|^2)^3 Re(z^3/(1-z^3/2))",
+          "polar_function": "2 r^3 (1-r^2)^3 (2 c-r^3)/(4-4 r^3 c+r^6)",
+          "polar_variables": "r=|z|, c=cos(3 theta)",
+          "positive_D": "4-4 r^3 c+r^6 >= (2-r^3)^2 >= 1",
+          "orthonormal_polar_Hessian": "D^(-3) [[A,sin(3 theta) T],[sin(3 theta) T,C]]",
+          "original_Hessian_entries": {
+            "A": "phi_rr",
+            "C": "phi_r/r+phi_thetatheta/r^2",
+            "offdiag": "phi_rtheta/r-phi_theta/r^2"
+          },
+          "numerator_polynomial_sha256": {
+            "D": "1b090241e9355ec2756a881991900d43d05fd0a687bd536d6a0eac238b7d9c49",
+            "P": "b58ebce0f4458cd2e11986226391dd253bef5f878104cc243fd75f7de9ca09d8",
+            "A": "dd7205d2146200637db967e8259c03f8ee2baa4327753a30b13f339827f232e1",
+            "C": "49aa23e39030695d91324d6ff7582ce66d43ab82c05bcc75cccf3d08e6a5e08b",
+            "T": "c3a80a3dce65d7bbe7e4325e08d5c36cfc1f463dc9516e842720b5c09366b880"
+          },
+          "numerator_degrees": {
+            "A": [
+              22,
+              3
+            ],
+            "C": [
+              22,
+              3
+            ],
+            "T": [
+              19,
+              1
+            ]
+          },
+          "exact_polar_removable_singularities_checked": true,
+          "exact_origin_Hessian_zero": true,
+          "exact_boundary_zero_two_jet": true,
+          "source_function_is_smooth_rational_in_x_y_inside_disk": true
+        },
+        "polynomial_proofs": [
+          {
+            "polynomial": "radial_minor_plus",
+            "bidegree": [
+              22,
+              3
+            ],
+            "original_power_polynomial_sha256": "b59b39d21cf80b91ff5d13dd9f639d11c9e2f6f2153c663b2c18df96d184582f",
+            "minimum_Bernstein_coefficient_exact": "23/10",
+            "all_coefficients_strictly_positive": true
+          },
+          {
+            "polynomial": "determinant_plus",
+            "bidegree": [
+              44,
+              6
+            ],
+            "original_power_polynomial_sha256": "95ebc1e32b3924a69d1d3db99d216d2c5be65fe5282c55c06797e063f82ba30a",
+            "minimum_Bernstein_coefficient_exact": "529/100",
+            "all_coefficients_strictly_positive": true
+          },
+          {
+            "polynomial": "radial_minor_minus",
+            "bidegree": [
+              22,
+              3
+            ],
+            "original_power_polynomial_sha256": "708fc42d77aba2ca235477ecbfa69f56ad2bfcda2ed74340b48741416f0fe146",
+            "minimum_Bernstein_coefficient_exact": "6771674038660002462344969/265963680315218418435358720",
+            "all_coefficients_strictly_positive": true
+          },
+          {
+            "polynomial": "determinant_minus",
+            "bidegree": [
+              44,
+              6
+            ],
+            "original_power_polynomial_sha256": "6393f1b1bbe3381c07e372b1baf3d8107e7c22d5d2c36b698cdff041a57b42f2",
+            "minimum_Bernstein_coefficient_exact": "51624412585843371279312825048978263726700646560042293/276516109783006832124137170349920747318902437131059200",
+            "all_coefficients_strictly_positive": true
+          }
+        ],
+        "attempted_boxes": 15,
+        "positive_boxes": 8,
+        "subdivisions": 7,
+        "maximum_depth": 7,
+        "full_leaf_record": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/unit-marker-full-hessian-psd-20261128-a/positive-rectangles.jsonl",
+          "sha256": "4dc913d997f420ad6b5b783e424ceb8e19fa5c1bea73f7e8aa785a8c7d40fa9a"
+        },
+        "physical_scaling": "||D^2 [epsilon phi((x+iy)/radius)]||op <= K epsilon/radius^2",
+        "any_existing_surface_or_frozen_metric_changed": false,
+        "new_physical_marker_parameters_selected": false,
+        "old_low_lambda_geometry_recomputed": false,
+        "seconds": 0.14976743700026418,
+        "source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/unit_marker_full_hessian_psd.py",
+          "sha256": "18160306c11257d3a1a989192e6ed160e3122b6206ea708dde268c47b9e8e5ef"
+        },
+        "requested_bound_exact": "23/10",
+        "max_depth": 20
+      }
+    },
+    "observer": {
+      "reference": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/unit-marker-full-hessian-psd-20261128-a.observer.json",
+        "sha256": "5af326a8db5ee8399b08c7eff230246dbbb2ff8268804a37e3cebd974c23fee1"
+      },
+      "content": {
+        "status": "actual_child_return_observed",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/unit_marker_full_hessian_psd.py",
+          "--bound",
+          "23/10",
+          "--outdir",
+          "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/unit-marker-full-hessian-psd-20261128-a"
+        ],
+        "actual_returncode": 0,
+        "wall_seconds": 0.26714008699946135,
+        "child_peak_rss_kib": 12672,
+        "source_sha256": "18160306c11257d3a1a989192e6ed160e3122b6206ea708dde268c47b9e8e5ef",
+        "earlier_time_wrapper_exit": 127,
+        "earlier_failure_reason": "/usr/bin/time absent; mathematical process not started by that command"
+      }
+    },
+    "independent": {
+      "reference": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/unit-marker-full-hessian-psd-20261128-a/independent-check.json",
+        "sha256": "3952e212432e5dbf4060d1055b89e66712ef7c22aafeeb036c2b4283fa4013a4"
+      },
+      "content": {
+        "status": "independent_exact_unit_marker_PSD_check_passed",
+        "source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/check_unit_marker_full_hessian_psd.py",
+          "sha256": "fe335312ffe06815065ad49c77274905c5f1e040d2280a4e6122a0019da4232c"
+        },
+        "certificate": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/unit-marker-full-hessian-psd-20261128-a/summary.json",
+          "sha256": "e9d04cd6bcdfac4db07964f4f76494266d6f7730e2eff83395ecc81db2e52bed"
+        },
+        "proof_source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/unit_marker_full_hessian_psd.py",
+          "sha256": "18160306c11257d3a1a989192e6ed160e3122b6206ea708dde268c47b9e8e5ef"
+        },
+        "sympy_version": "1.14.0",
+        "symbolic_rational_Hessian_numerators_identical": true,
+        "direct_affine_Bernstein_all_coefficients_identical": true,
+        "full_exact_rectangle_sweep_without_gap_or_overlap": true,
+        "actual_rectangles": 8,
+        "polynomials_per_rectangle": 4,
+        "exact_coefficients_checked": 6512,
+        "unit_Hessian_operator_upper_exact": "23/10",
+        "finite_sampling_used_as_a_proof": false,
+        "new_field_or_metric_selected": false,
+        "seconds": 5.067308028000298
+      }
+    }
+  },
+  "new_physical_marker_or_metric_selected": false,
+  "old_closed_field_recomputed": false
+}
