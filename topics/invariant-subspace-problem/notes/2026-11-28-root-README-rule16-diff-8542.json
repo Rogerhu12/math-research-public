@@ -1,0 +1,10 @@
+{
+  "path": "README.md",
+  "oldBlob": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+  "newBlob": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+  "head": "fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d",
+  "removed": "",
+  "added": "16. **子代理的模型和推理强度（作者要求，2026-11-28 起，对所有课题有效）**：派子代理（subagent）时，一律显式指定模型（model）为 `gpt-6.2-astra`、推理强度（reasoning effort）为 `ultra`。作者原话：\"把subagent指定为gpt-6.2-astra，推理强度指定为ultra\"。",
+  "applied": "All new subagent spawns explicitly model gpt-6.2-astra and reasoning_effort ultra, fork_turns none as tool requires; existing running subtasks continue.",
+  "readUtc": "2026-11-28 09:43:38 UTC"
+}
