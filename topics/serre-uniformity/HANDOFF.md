@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：d4b4b76db587abdd085d0a851c932f19ea7ade6a**（2026-11-28 09:47 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：69b10ba8993f785379ab63a4395353386a1cf172**（2026-11-28 09:53 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:10:35 Asia/Taipei，Actions run46091738995/job140813986118，blob:none浅clone真实pull --rebase至fba6b41d，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:00、pull≤10:10。本地09:10仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -66,7 +66,7 @@ R1135 §§12–17付同一heat/Hasse/Katz forcing及实际Cartier/有限Gauss，
 
 R1135 §§16–17付原安全伴随ℓ与Gauss对，准确Δ_low=160(J70M3−3J72M1)/(11β_G¹¹)=8(3bc−td)/(4455r_Gβ_G²)。Q⁶顶项unit不代det；完整尺度、≤p−5安全jet和Wronskian余项沿文，继续实际非零。
 
-R1154 §§1–11付同源Legendre/finite-log全部carry与actual mask。原H_p=0精确锁q_p(2)=Qν；三移位核保所有Pν权和端点，Δ=4{Cν(q)+(3/8)Bp−3D2}/(13365rβ²aν⁸)。D2为Pν⁸真实截断部分和，Cν二次；尚未付Cν(Qν)=0或D2unit，不以无权Bernoulli单位排余对。原全尺度/零带/安全jet沿文，继续实际联合消去。新增Actions仅探1000<p<1100的Cν(Qν)/D2，待实际run；不重跑旧窗口。
+R1154 §§1–11付原Legendre/finite-log全部carry与三移位核：H_p0锁q_p(2)=Qν，Δ=4{Cν(q)+(3/8)Bp−3D2}/(13365rβ²aν⁸)。真实D2截断保留。新Actions run46094809839已以p1019否定无条件Cν(Qν)=0；该例不满足q=Q，条件联合约束仍开。[回执](notes/2026-11-28-new-weighted-Legendre-probe.md)；停止该捷径，转原Newton余核差分，不扩扫。
 
 ## 已成、禁止重做与其它入口
 

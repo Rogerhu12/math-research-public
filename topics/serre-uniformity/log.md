@@ -742,3 +742,8 @@
 ### 2026-11-28 09:47 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1147 §16付原generic兼容整塔的全部noncusp惯性消失与唯一补点；weight argument用于无挠整塔，未错误套单层modp，generic stack descent与原H¹0接口明确。root核连续cocycle/decomposition作用/纯度后即推，旧1–15逐字保留。
 - 真实filling整cochain仍继续，不称形式Manin填充已为算术塔；无数学程序。
+
+
+### 2026-11-28 09:56 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 新Legendre探针run46094809839/job140823622844实际success；p1019给Cν(Qν)=828，明确否定无条件消去式，停止该捷径。root核实际源/请求/JSON hash；数学全在公开Actions，不保存可重算raw。
+- 原首条件在该例不成立，未否定条件联合目标；不扩扫，转原Newton/finite-log差分。主目标OPEN。

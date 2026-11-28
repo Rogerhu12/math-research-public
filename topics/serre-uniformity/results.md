@@ -10,7 +10,7 @@
 
 - **R1153（已证明）**：[原Kummer与有限FL坐标的准确校准](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)：真实Fp generic SS点付两比较单位U/U²、完整Miller相位、原两槽及所有q_t可见F0条目；r/s的原Bernoulli尺度与中央减法全保。独立C_SS与C_cyc取max；中央z12、最高组合非零和whole盘仍开。
 
-- **R1154（已证明，§§1–11）**：[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。Cν(Qν)消失/D2单位仍待付；原good β3单位不能单独排除此式，继续同一Legendre ODE的联合消去。
+- **R1154（已证明，§§1–11）**：[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。无条件Cν(Qν)=0已被[新Actions反例](notes/2026-11-28-new-weighted-Legendre-probe.md)否定；条件于q=Qν的联合排除及D2单位仍待付，原good β3单位不能单独排除此式。
 
 - **R1152（已证明，§§1–13）**：[原全局中心的权八Frobenius与准确有限读数](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)：原Θ∞/finiteFL/MT(Z)、全尾与完整Ihara词表付r=2β3/3、s=24β5/5、z=48(Har_p(1,3,4)+2β3β5)/25。绝对阶乘/符号及全部退化分支已付；κ与实际中央减法明确，原F0组合非零仍开。
 

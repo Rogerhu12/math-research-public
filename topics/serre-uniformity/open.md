@@ -168,3 +168,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原兼容整塔的水平补点
 
 [R1147 §16](results/R1147-original-canonical-moment-Heisenberg-lift.md)付真正兼容generic integral G∞-tower的水平补点：原quotient已延伸使每个内点惯性落Z∞，G_k等变性给H⁰(k,Z∞(−1))；weight−14在无挠整格上迫零，逐层正规化/stack descent唯一，再用原universal H¹Z_n0识别P∞。不要求各层删点有有限共同并集；单层finite或rational lift不足。指定四线/Manin的实际兼容整cochain仍须构造，不把本准则称作该输入已成。
+
+
+### 新加权探针的准确否定边界
+
+[实际回执](notes/2026-11-28-new-weighted-Legendre-probe.md)：公开Actions run46094809839/job140823622844在新1000<p<1100窗口成功。p1019的Cν(Qν)=828非零，故不再追无条件Cν(Qν)=0；同时q=724≠Qν=928，原H_p0前提未满足，条件联合排除仍OPEN。七个D2非零不代一般证明，不扩扫；继续原actual-good Newton余核与finite-log差分。
