@@ -443,3 +443,22 @@ The reproducer reads the complete original request and queue by their Git identi
   }
 ]
 ```
+
+## 2026-11-28 13:00:02 UTC — 33 原四分步的真实统计返回
+
+原同一模型/driver 的 restoration 四分步 α=0.25，点 `1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e` 于 Actions 2026-11-28T12:39:58.461058Z 返回 Phi=693.2773822139695、Gram=0.4068851236763789。其完整几何尚未返回，trial_accepted=null；不以统计代替完整试步。已完成半步的 reach g=7.789641579575506、accepted=false 保持原登记。current 仍为原初点 `7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47`，accepted_directions=0，完整科学报告未返，原全预算与自然返回后 pure 流程不变。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md",
+    "bytes": 60397,
+    "sha256": "c340a09a3f6f612527e1c6ee788f95601f624049066642823eca5cf029170d03",
+    "git_blob_sha": "3c6e991961760539ce253e45dca97a56c87ebe83",
+    "fixed_commit": "7954d1865977816d7ac8ae6f7d3c6eb7d5a6deaa",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

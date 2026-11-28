@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 19–32终态与各自README核查异常保固定全文和[独立日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)。不重做登记结论；自然science返回才whole pure，trial不作accepted/final，异source/model不借同坐标费用。
 
-[33 retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，source bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；全步291f394完整g16.64809271107871/reach拒，半步8e3194c完整reachg7.789641579575506拒；四分步1ea6125已启、未返。自然science返才pure62854，138角色/原全预算不变。
+[33 retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，source bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；全步291f394完整g16.64809271107871/reach拒，半步8e3194c完整reachg7.789641579575506拒；四分步1ea6125统计Phi693.2773822139695/Gram.4068851236763789，完整几何待。自然science返才pure62854，138角色/原全预算不变。
 [34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，source c3228e9d/PID3687/model989fec。初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，完整reachg4033.8205903217813/K33159.051287192604；首全步b36a1d已返Phi94493.88817291798/Gram6.837434750273205，完整几何待。139角色/24runtime/全原预算保，自然返才pure66120。
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，source2c8739ed/PID3435/model726006。初7e06/accepted0，完整reachg601.642125582291/K4938.754785337882；首全步5f0a784统计Phi6298065.183785643/Gram11.226395028133968，几何待。139角色/24runtime、1,333,370 outer全自由、713/719+64live及原预算保；自然返才pure74162。
 
