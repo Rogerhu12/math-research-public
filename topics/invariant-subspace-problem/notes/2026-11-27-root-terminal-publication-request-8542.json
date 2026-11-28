@@ -1,19 +1,15 @@
 {
-  "message": "ISP: corrected whole Phi nonzero weight support and normalized dimension at most one",
-  "parentCommit": "f8f98158b141106bd27cf05a6949555b463b29df",
+  "message": "ISP: actual five whole W original cubics retain every raw determinant zero fiber",
+  "parentCommit": "f9ff5a8685fad08bf1fce295a17325fc51ce2625",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-nonzero-weight-support-and-whole-dimension-one.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-corrected-whole-dimension-one-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-fixed-lambda-returned-small-Bezout-read-check-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-whole-adjugate-five-pure-cubics-original-return-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-five-cubics-actual-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-1034-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-whole-dimension-one-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-dimension-one-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-whole-adjugate-five-original-pure-cubic-conditions.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-whole-adjugate-five-pure-cubics-original-return-8542-root-review.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-five-cubics-actual-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-five-cubics-actual-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
