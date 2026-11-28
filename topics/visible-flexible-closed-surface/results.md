@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R269：HF64 实际圈的九点有理相似变换障碍](results/R269-actual-ringwise-similarity-and-angular-clock-obstruction.md)（2026-11-28）：8列秩8、增广秩9；任意逐圈相似/角重参的必要微分残差≥1.7718527881，未称C⁰度量下界。
+
 - [R268：完整物理材料时钟成本的严格凸性](results/R268-strictly-convex-physical-meridian-clock.md)（2026-11-28）：保真实 ds 权、14行、全部 quartic cross 与面积障碍；新总长度输入及固定新 g 的三步已实际完成。
 
 - [R266：准确侧射线原度量与必要半径总变差](results/R266-accurate-polar-ray-metric-and-radius-variation.md)（2026-11-28）：原加权场误差>.93572118；固定同射线半径的任何单调高度和径向目标仍>.43150655；过 B 须增加径向 TV>.19574768。
