@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R754（已证明：整闭厚几何、准确同g左翼及两个冻结中央反证）**：[上下相干墙与整左翼](results/R754-coherent-mirrored-wall-motion-and-same-metric-rigid-left-wing.md) — θ≤.90完整闭像reach≥.132、D0<4.01、grip≥1.4、held>1.09，四固定球柱标记付δE>0；刚性左翼分支的中央、两完整左滚肩、双帽对应x≤0整域同初g。原两墙左弦1.09>初真路径1.074，修正分支的右弓又越过另一初真帽捷径，故两族冻结整个中央均不能全闭等距。完整证明保全部条件，未冒全g；[五份源、原三层七相全图计算](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)同步刊行，实际返回待。
+
 - **R751 实际曲率矛盾仍未解**：[原两次返回与原调用顺序复算](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md) — 原46150384106最细帽K370.7886/247.3521；追加46151602924完整42帽得到3.9124/2.6101且同次graph/SVD相合，但没有重现原峰。现公开运行未改原入口的全raw逐字节遍历、原展平峰定位和峰处Cartesian/SVD；不将新小值替换旧值或归因为舍入，全帽g仍未付。
 
 - **R753（已证明，移动空间中央柱和两个独立完整端帽的准确等距自由）**：[rectifying柱与直纹fan帽](results/R753-spatial-rectifying-cylinder-and-independent-ruled-cap-fans.md) — 真实闭空间单位速曲线给C_s=T、C_y=B，平直/反曲点不用Frenet除法；整个周期中央精确ds²+dy²且真握持不动。两个独立无极点圆锥fan在完整材料帽上严格保持平面初g，各另有六个刚体位姿。三种材料运输与双全卷三物理方向经真实四缝C²拼接，初相位严格同R752新g。命名微量幅度付全闭reach≥.107、D0<3.49、grip≥.72、held>1.521与0<δE≤1.1e−7；较大control几何另验；现独立证明全|a|≤2⁻²¹中央空间pulse仍支付全闭初距离的所有中央弦，浅层单位速边曲线、深层E0<1e−5及>.01余量，任意帽位姿无此保证。两整卷g三行仍欠。[全部六jet源](scripts/resume_20261126/r753_rectifying_cylinder_and_cap_fans.py)给41真实联合求解，未冒全闭等距解。

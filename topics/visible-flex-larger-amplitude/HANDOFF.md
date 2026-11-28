@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，真实V8换实例后pwd仍missing-server，恢复即pull。云核至`f0e442299310b671903e461b3b96f9b9f073ed82`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；至少每小时真pull并只读变化diff。§16已读至bb51f8b60c8c5907662959bc45f62ca9cdb40ed3：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，真实V8换实例后pwd仍missing-server，恢复即pull。云核至`b3d236af17b2b67a14f41e24b6330beb2d80c5dc`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；至少每小时真pull并只读变化diff。§16已读至bb51f8b60c8c5907662959bc45f62ca9cdb40ed3：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF立即rebase，终端失效用freshHEAD完整整合重推，禁force/冒pull；令牌仅CLI。仅公开Actions科学，raw仅runner。完整源参/run/whole身份/失败未知保各note，不加准入审查、不缩预算。题≤200MB，文件<5MB，MD<100KB，H<10KB，open<30KB；先metadata，不整读≥100KB/binary；根§15可重算数据只留源参/run/SHA，旧退出件须完整复现及固定Git恢复，不退活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入/全t强C²/同固定g，固定有内点H且diam≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D及relative metric算子≤1e−6；D为整F0直径。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻全mesh，继而提高三比值。
 
@@ -30,6 +30,8 @@ R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g，真�
 
 
 [41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md) 46151180968/job140997950457/PID2553：五粗全返，选15537e0f omega-shortened-cap，Gram.5255541408830331/K266.9027055；中央/两帽约1e−13、四缝二jet≤2.274e−13，余双卷未付。原4/8/16区间精化继续。
+
+[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：完整两墙/刚性左翼同初g0，reach≥.132/D0<4.01/grip1.4/held>1.09/δE>0；修正整左翼与双帽对应x≤0全同g。原左肩和修正右弓分别违真帽捷径，两种全锁中央均不可补齐；两支原3层×7相×9图实际测量触发，继续改中央/初g。
 
 ## 数学范围与完整输入
 
@@ -59,6 +61,6 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
-<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46151602924-1.json) 双README真pull 845214fe52935e71a65a6fe5b4f08c4c474ded87
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 4d9124cb4f45770cce237f49cdcf7b9c9f11dc2d
+<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46151602924-1.json) 双README真pull 845214fe52935e71a65a6fe5b4f08c4c474ded87
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 6db3a29fd73aa18b009bedf22219cacce6383612

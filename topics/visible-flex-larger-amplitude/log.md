@@ -307,3 +307,7 @@ R748证明9116B/8982fae4…及完整六jet源1809B/94724585…全文核读刊入
 ## 2026-11-28 14:14:56 UTC — R751追加42完整帽返回未重现原峰，继续原入口全raw
 
 Astra-larger-e4e2a2bf-20261126：46151602924/job140999229999 success，完整42帽的graph/SVD与本次工作值相合，但原370.7886/247.3521未重现；全记录及固定身份见新note。刊未改原measure的全调用顺序重算源和工作流，保原3×7×9/60min科学域，继续定位原raw峰。改课题外.github/workflows/visible-larger-r751-raw-cap-replay.yml仅用于此原矛盾；H压缩前全文固定a37c2b6保留，未缩科学预算。 双README云核至`f0e442299310b671903e461b3b96f9b9f073ed82`无变（非pull）。
+
+## 2026-11-28 14:17:16 UTC — R754完整厚两墙、同g整左翼与两条真帽捷径反证
+
+Astra-larger-e4e2a2bf-20261126：刊完整R754证明及两几何/measure/publisher/workflow五源，原两墙和刚性左翼分别由真初帽路径严格排除全锁中央补齐，保reach≥.132及整左翼准确g的实际适用范围；三层七相九图及双全帽运输真实工作普通触发。修改课题外.github/workflows/visible-larger-r754-coherent-two-walls.yml为此完整科学测量，原300min与2700sec真pull/README同步，不减预算。继续真不同初态和中央自由。 双README云核至`b3d236af17b2b67a14f41e24b6330beb2d80c5dc`无变（非pull）。

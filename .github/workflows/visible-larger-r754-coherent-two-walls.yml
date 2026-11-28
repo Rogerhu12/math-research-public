@@ -1,0 +1,100 @@
+name: Compute R754 coherent closed walls, complete cap registrations and path bounds
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/measure_r754_coherent_two_walls.py
+      - .github/workflows/visible-larger-r754-coherent-two-walls.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-r754-coherent-two-walls
+  cancel-in-progress: false
+
+jobs:
+  actual_closed_atlas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r754_coherent_mirror_bowed_walls_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r754_translate_complete_cap_bridge.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/measure_r754_coherent_two_walls.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r754_coherent_two_walls.py
+            /topics/visible-flex-larger-amplitude/notes/r754-actual-coherent-two-walls-*.json
+      - name: Pull main and check both current README texts
+        run: python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r754_coherent_two_walls.py sync
+      - name: Install the array runtime
+        run: python -m pip install numpy==2.2.6
+      - name: Compute all three resolution levels, seven phases and all nine material charts
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_dir=topics/visible-flex-larger-amplitude/scripts/resume_20261126
+          summary="$RUNNER_TEMP/r754-actual-report.json"
+          export R754_SOURCE_COMMIT="$(git rev-parse HEAD)"
+          export R754_FROZEN_DIR="$RUNNER_TEMP/r754-frozen-complete-sources"
+          mkdir -p "$R754_FROZEN_DIR"
+          for f in r740_rolled_disk_seed.py r742_tilted_disk_two_jets.py r744_extruded_closed_two_jets.py r754_coherent_mirror_bowed_walls_two_jets.py r754_translate_complete_cap_bridge.py measure_r754_coherent_two_walls.py publish_r734_exact_conclusion.py publish_r754_coherent_two_walls.py; do
+            git show "$R754_SOURCE_COMMIT:$source_dir/$f" > "$R754_FROZEN_DIR/$f"
+          done
+          python -u - <<'PY'
+          import os
+          from pathlib import Path
+          import subprocess
+          import sys
+          frozen=Path(os.environ["R754_FROZEN_DIR"])
+          tmp=Path(os.environ["RUNNER_TEMP"])
+          science=subprocess.Popen([sys.executable,"-u",str(frozen/"measure_r754_coherent_two_walls.py"),
+                                    "--raw",str(tmp/"r754-actual-six-jets.raw"),"--report",str(tmp/"r754-actual-report.json")])
+          print("R754 frozen source",os.environ["R754_SOURCE_COMMIT"],"actual PID",science.pid,flush=True)
+          interval=2700
+          while True:
+              try:
+                  status=science.wait(timeout=interval)
+              except subprocess.TimeoutExpired:
+                  before=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()
+                  observed=subprocess.run([sys.executable,"-u",str(frozen/"publish_r754_coherent_two_walls.py"),"sync"])
+                  after=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()
+                  subprocess.run(["git","diff",before,after,"--","README.md","topics/visible-flex-larger-amplitude/README.md"],check=True)
+                  print("R754 continuing original PID",science.pid,"README sync",observed.returncode,before,after,flush=True)
+                  interval=2700 if observed.returncode==0 else 60
+              else:
+                  sys.exit(status)
+          PY
+          echo R754_COMPLETE_REPORT_BEGIN
+          if test "$(wc -c < "$summary")" -lt 100000; then
+            cat "$summary"
+          else
+            wc -c "$summary"
+            sha256sum "$summary"
+          fi
+          echo R754_COMPLETE_REPORT_END
+      - name: Publish complete finite conclusions and checked handoff
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r754_coherent_two_walls.py
+          publish --summary "$RUNNER_TEMP/r754-actual-report.json"

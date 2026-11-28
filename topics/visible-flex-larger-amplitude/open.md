@@ -124,6 +124,8 @@ R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g，真�
 
 19–32原终态及README异常、36–39各全部原阶段自然返回和未付费用，均保[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/c11e0a47491ac945e65cc3c7e24a5ea6a6e16955/topics/visible-flex-larger-amplitude/HANDOFF.md)、原独立日志与各ownnote。39的原11点没有实际flow；39b重生11点全异，三组全148轨线是新冻结b02763f0的真实结果，不混借旧39。
 
+[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：完整两墙/刚性左翼同初g0，reach≥.132/D0<4.01/grip1.4/held>1.09/δE>0；修正整左翼与双帽对应x≤0全同g。原左肩和修正右弓分别违真帽捷径，两种全锁中央均不可补齐；两支原3层×7相×9图实际测量触发，继续改中央/初g。
+
 ### 数学输入与整域责任
 
 R724–750完整结论见[结果索引](results.md)与逐条proof/note，全部原范围保此前固定全文。R738同g厚浸入不冒整片厚嵌入；R744–748的全厚闭参考和局部准确中央/帽不代二维全g；R749–750的非线性CK正宽与26片极小明确宽不付全周期、曲入口或完整端帽。R741自由Killing/Haar仍需原全部条件，R743微小商距不冒宏观。已登记结论不重做。
