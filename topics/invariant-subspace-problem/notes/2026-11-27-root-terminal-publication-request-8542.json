@@ -1,16 +1,16 @@
 {
-  "message": "ISP: exclude positive-k e-one center via original D-over-M identity and valuation gap",
-  "parentCommit": "045a6a8a9a54918231410f6219fe7bd2816f8373",
+  "message": "ISP: first original Phi complete-NV t-head moment input with terminal three-source return",
+  "parentCommit": "209d8fe32a5151468eb46ab3ba7b1673a58bfa5c",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-k-e-one-center-original-D-over-M-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-e-one-DM-exclusion-2050-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-e-one-DM-exclusion-2050-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-W-e-one-DM-exclusion-2050-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-W-e-one-DM-exclusion-2050-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-first-NV-t-head-original-moments-and-value-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-first-NV-t-head-original-moments-and-value-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-first-nv-t-head-original-moments.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-first-Phi-NV-t-head-2055-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-Phi-NV-t-head-2055-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-first-nv-t-head-original-moments.yml"
+  ]
 }
