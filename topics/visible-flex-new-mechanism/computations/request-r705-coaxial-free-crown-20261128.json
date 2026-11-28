@@ -1,0 +1,77 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r705-coaxial-free-crown-v1",
+  "public_rules_read_commit": "5a552256091238c450be87084ad79273ce2601f1",
+  "private_rules_read_commit": "8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r705_coaxial_free_crown_solve_20261128.py",
+  "workflow": ".github/workflows/visible-r705-coaxial-free-crown-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r705-coaxial-free-crown-20261128.json",
+    "max_seconds": 2400
+  },
+  "lanes": {
+    "coaxial-window": {}
+  },
+  "scope": {
+    "actual_R693_coaxial_source": true,
+    "original_R688_cost_retained": true,
+    "source_q_predictor_only": true,
+    "required_ode_or_collar_evolution": false,
+    "actual_R697_crown_travel": true,
+    "ordered_proper_rotation_increments": true,
+    "all_140_admissible_cartesian_columns": true,
+    "frozen_metric": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/computations/r705-coaxial-free-crown-20261128.json": "88a9c36671086cead0ebadb0ce391898303505ea22f2e4d2dccd831580e4dd3f",
+    "topics/visible-flex-new-mechanism/computations/r705-inherited-r688-archive-manifest-20261128.json": "8f3d4dac6e1d6a4e15c4cc1767fc928e329d32e35740e8097ec0b7827d7766d4",
+    "topics/visible-flex-new-mechanism/computations/r705-inherited-r688-literal-final-20261128.json": "07748f399b96a317eb16819900cf8996f1b7960d449797bf14ff6a892866e697",
+    "topics/visible-flex-new-mechanism/computations/request-r688-annular-compatibility-20261128.json": "0218265a5a3cd1fb41d1544308679580c7618bfe07f0fbc043d8f43d8951ea63",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r705-coaxial-free-crown-scope.md": "06a59bb94b0905f72a8cb5b1482c0936643c93cefcd1a174506b9ecb62d438d2",
+    "topics/visible-flex-new-mechanism/results/R681-two-rigid-positive-crowns-and-one-reflected-window.md": "38ee71a0ee6ce58817c9f6513d345ec276422fbd2cac73625c67dae2546e789c",
+    "topics/visible-flex-new-mechanism/results/R684-directional-gauss-degree-and-two-solid-window-crowns.md": "cb5d52edeff0fbfb3fc9af42fd758d5b85b66381df4da62158000ca95a18e2e5",
+    "topics/visible-flex-new-mechanism/results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md": "f1307ad304addba405d38c32eff01697592458b5fb8a113bb5b70224aaac6be2",
+    "topics/visible-flex-new-mechanism/results/R688-crown-to-primary-material-paths-and-window-projection-rows.md": "4f2738061accd5fd62f4fe2361120523aabc49ec19b9fb0b5912ee2ff3ce7233",
+    "topics/visible-flex-new-mechanism/results/R690-window-short-material-path-and-moving-central-crown-poses.md": "3d8ed5403adec3338f13eb7e77b185a1c0b2cbdc819a830bdf5fd04bcee0d448",
+    "topics/visible-flex-new-mechanism/results/R693-coaxial-half-turn-windows-and-one-relative-displacement-row.md": "a26ccd3a4fa2509aa53fcf94195b7fe8bd59d36027766d3990f313051709090e",
+    "topics/visible-flex-new-mechanism/results/R696-two-pulse-ramp-support-and-whole-moving-window-diameter.md": "b2eb0dc00a6b951297b5a42cb857b9da88888270b6435f9ee32f8643858fe078",
+    "topics/visible-flex-new-mechanism/results/R697-free-axial-crown-translation-and-curl-only-window.md": "66e27fb19206c0d1af103396cc148daf4e0f0b497aa385550750c660a1ff9624",
+    "topics/visible-flex-new-mechanism/results/R699-all-point-principal-curvature-of-the-real-wide-cap-shoulder.md": "79c491f021108141eb7c1df1ddc6c56aafba9fda34d448d15c6a07c3b58af901",
+    "topics/visible-flex-new-mechanism/results/R700-global-normal-tube-of-the-actual-old-cap-and-cylindrical-shoulder.md": "4b2c49904e7e1067187468dd8a211473bcb61a88dbec9f0daf755c85e1d99f48",
+    "topics/visible-flex-new-mechanism/results/R704-two-controlled-developable-shoulders-and-exact-central-window.md": "7015d37f9a18e97b57491a076f664a22b1e3d519bdb5ad179ddacac6e08c94ae",
+    "topics/visible-flex-new-mechanism/results/R705-coaxial-half-turn-free-crowns-and-the-actual-Cartesian-window.md": "59e5695cc2700ea26c8c4f54d69df4250e0b03b76a54a0af3d4893348f00ef73",
+    "topics/visible-flex-new-mechanism/results/R706-two-sided-ball-clearance-from-the-real-old-caps-to-all-moving-sheets.md": "8d49effce0f6dd8e08b9d5df713fecc63297ba5a01f50241452da2a54eb7829c",
+    "topics/visible-flex-new-mechanism/results/R709-explicit-double-pulse-collar-and-physical-spline-normal-transfer.md": "113a258d0aa8b87ba54450d8e993b84ba3cd688b12d93fd0fad154caabb0b40c",
+    "topics/visible-flex-new-mechanism/results/R712-global-normal-chords-of-all-prescribed-double-pulse-components.md": "c6e0bc5133fbfba1750e436578c745e168cd70a64e1a363d09668cab9f2d745d",
+    "topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py": "45f3ee532fc4cddc086131ec841e02e534eefff6bab29ccdf7b396c197d33df2",
+    "topics/visible-flex-new-mechanism/scripts/r688_annular_compatibility_solve_20261128.py": "04214c0205bdb02dbdf9d2d5cbbd15b4ac1e10857b7e1772afbff5582b5767bc",
+    "topics/visible-flex-new-mechanism/scripts/r688_closed_shell_observer.py": "325711283f372863d7d50963ff9c08dce37dd991db8885e58b110dad362adaef",
+    "topics/visible-flex-new-mechanism/scripts/r688_joint_window_field.py": "ebecb61d63859e774e952a4e388d8e4bfff701056b95a98cfd9dea1c62416592",
+    "topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py": "df8cd3a7e7caf99dc32b2c4c50c84955097c75a813124f22486d932b67f5e973",
+    "topics/visible-flex-new-mechanism/scripts/r688_two_port_material_atlas.py": "dd897d8e9252211dea23409d5f960224139a9c4920b805486f63200ca5d14184",
+    "topics/visible-flex-new-mechanism/scripts/r705_coaxial_free_crown_solve_20261128.py": "eef6082e0ac112caf64b1398dcc04b93ecda685c45935792fbec31091c33c936",
+    "topics/visible-flex-new-mechanism/scripts/r705_equivariant_window_field.py": "73e78d9bc5bc6cd88644d1455a6d4326d1233b277e9000df6948fa30246cb615",
+    "topics/visible-flex-new-mechanism/scripts/r705_paid_coaxial_geometry.py": "c1f70e351fb0b52191e0d12902bf7c6014caf491df811f3c9467aabef6b499bb",
+    "topics/visible-flex-new-mechanism/scripts/r709_paid_physical_spline_strip_bound.py": "273b4c15a61a6400ffdba9ae91ae02ddf03aa2511c3f57d60025158c3428d3ab",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r705-coaxial-free-crown-20261128.yml": "c702b1aaa10a1183b854d99af79416b770f74ae6453488982d174266cb48797e"
+  }
+}

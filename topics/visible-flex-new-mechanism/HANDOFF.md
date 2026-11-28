@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **5ee4bf1ae4a9870a7d627db4f713c19d35acbeb5**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **5a552256091238c450be87084ad79273ce2601f1**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入；全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -52,11 +52,9 @@ R698两curl/R701真材料Φ与正质量根由R703实际1604态落实。新四源
 
 ## G：活动整圈到真正闭帽
 
-R637/R642/R644/R652双核/全频gap欠宏观，R652/R657旧ODE不重播。R660仅排旧窄带；R666/R670/R661/R664仍有边。R676真盘/领尚欠Bτ=m=0、净∫K=2π及全法管。
+R637–R676旧局部双核/三矩/反射桥仍欠宏观、闭性及全窗；R681/R684真双帽/四负领固定近帽，R682真椭圆盘虽D<2.49/hold.52/dH>.85/reach>.099仍有边，完整旧任务及费用见归档。
 
-R681双真帽/四负领固定近帽；R684方向Gauss/真冠锥口需未知窗正曲率预算。R682真同g椭圆盘D<2.49/hold.52/dH>.85/reach>.099仍有边，三矩/闭转不代全窗g。
-
-R686源窗/完整SO3、curl/周期/两真锚与实际g/二jet误差传递；R690实路径<.775/固定冠弦>.830排旧姿，共移冠桥到r=.20真圈、自身reach> .0961。旧件余量仅原材料。[R688](results/R688-crown-to-primary-material-paths-and-window-projection-rows.md)run46148075849/job140988404437/source5374a681，真负领/宽肩/共移桥及全窗源三列+全SO3，实际六jet/两口/周期/Gram/全壳门；有限恢复不授连续同g/全法球，必要现场数组留Actions续接。
+R690原实路径<.775/固定冠弦>.830已排，改共移冠桥和r=.20真内圈只付刚中央件。 [R705](notes/2026-11-28-r705-coaxial-free-crown-scope.md)接R688真终态2352.468441649秒/8恢复接受/9J2700列/72trial，300q86f9fda4，独立范数385.6173/κ218.588/法弦146.42977未解。固定artifact15266032481的8真dense NPZ/ZIP双验、17收据及全部费用保留，不重旧ODE/collar/J。新同轴半转源和整冠真实σ、全部140列、三curl/真两口/周期/五导/全壳独立读；原q只初猜，source raw不假0，实际角点/两带保全。2400秒新科学，源g未冻；R709真Spline条带系数门不授结迹/C²/全相位。
 
 [R696](results/R696-two-pulse-ramp-support-and-whole-moving-window-diameter.md)真实提升并集D<3.012/源支持<.374/端>1.4299；ρ+.6δ+2.6e≤.1522可付宏观/握持，真实全域e须支付，消费者绑R688真实身份。
 

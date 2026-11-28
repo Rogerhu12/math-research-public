@@ -1,0 +1,168 @@
+{
+  "parent": {
+    "run": 46148075849,
+    "job": 140988404437,
+    "source": "5374a6817d9761fbea489d44803e4728ddc22d0b",
+    "request_sha256": "0218265a5a3cd1fb41d1544308679580c7618bfe07f0fbc043d8f43d8951ea63"
+  },
+  "full_completed_log": {
+    "bytes": 505463,
+    "sha256": "f918045e3c18fc0a7df86a2f4e8af9bfa4d0c30ec498a4357c7b69c0c4e9b56c"
+  },
+  "final": {
+    "name": "r705-inherited-r688-literal-final-20261128.json",
+    "bytes": 21246,
+    "sha256": "07748f399b96a317eb16819900cf8996f1b7960d449797bf14ff6a892866e697"
+  },
+  "artifact": {
+    "name": "visible-r688-paid-state-46148075849-1",
+    "id": 15266032481,
+    "run_attempt": 1,
+    "bytes": 16339559,
+    "digest": "sha256:3def582c3b5fc2e9ceb582272e53824439a915624aed812c5e695de91b232513"
+  },
+  "required_dense_for_R705": [
+    "true-reference.npz",
+    "actual-line-collars-0.0.npz",
+    "actual-line-collars-0.15.npz",
+    "actual-line-collars-0.3.npz",
+    "actual-line-collars-0.475.npz",
+    "actual-line-collars-0.65.npz",
+    "actual-line-collars-0.825.npz",
+    "actual-line-collars-1.0.npz"
+  ],
+  "objects": {
+    "true-reference.npz": {
+      "name": "true-reference.npz",
+      "bytes": 829072,
+      "sha256": "4de7b86dea7202097d219927cf261ad615c5c31803eb4e120c169be686b76619"
+    },
+    "actual-line-collars-0.0.npz": {
+      "name": "actual-line-collars-0.0.npz",
+      "bytes": 1599437,
+      "sha256": "226bdaa49cc17267f5003a571745437b3ae528d00c57ae22a894fa29b8f8523b"
+    },
+    "actual-line-collars-0.15.npz": {
+      "name": "actual-line-collars-0.15.npz",
+      "bytes": 2279766,
+      "sha256": "e5be7bedc03371e510c8a165de858cf04f519ece1aa7a952aeb24df0f33f05e0"
+    },
+    "actual-line-collars-0.3.npz": {
+      "name": "actual-line-collars-0.3.npz",
+      "bytes": 2304498,
+      "sha256": "e4ce2d5a97db126338ad9541394857bf7562817f278154674c99ebafe08de93c"
+    },
+    "actual-line-collars-0.475.npz": {
+      "name": "actual-line-collars-0.475.npz",
+      "bytes": 2314849,
+      "sha256": "171d680a070552dacef8dfc4fbec0c1a18c636927eb83dcf7d142b93ddeb21f6"
+    },
+    "actual-line-collars-0.65.npz": {
+      "name": "actual-line-collars-0.65.npz",
+      "bytes": 2320920,
+      "sha256": "9620c7ed89d18d5ba0cda9059efb8a451d0153dc7b352cb95bf0dec375317607"
+    },
+    "actual-line-collars-0.825.npz": {
+      "name": "actual-line-collars-0.825.npz",
+      "bytes": 2323388,
+      "sha256": "1fc381b2054c64509a6b9451ba823269ed2bd4a2d6b4de28da1622810a065fe0"
+    },
+    "actual-line-collars-1.0.npz": {
+      "name": "actual-line-collars-1.0.npz",
+      "bytes": 2324831,
+      "sha256": "fd75d84a0daa6321e94b8c0ef3c424254621271c473e0b413f5af84dc139bada"
+    },
+    "last-full-Normal.npz": {
+      "name": "last-full-Normal.npz",
+      "bytes": 1057130,
+      "sha256": "2ceb6b153cc2c3b2b56a7fc4a105f15645d9ee6e50c47a72df6541343481423e"
+    }
+  },
+  "all_original_receipts_in_order": [
+    {
+      "name": "true-reference.npz",
+      "bytes": 829072,
+      "sha256": "4de7b86dea7202097d219927cf261ad615c5c31803eb4e120c169be686b76619"
+    },
+    {
+      "name": "actual-line-collars-0.0.npz",
+      "bytes": 1599437,
+      "sha256": "226bdaa49cc17267f5003a571745437b3ae528d00c57ae22a894fa29b8f8523b"
+    },
+    {
+      "name": "actual-line-collars-0.15.npz",
+      "bytes": 2279766,
+      "sha256": "e5be7bedc03371e510c8a165de858cf04f519ece1aa7a952aeb24df0f33f05e0"
+    },
+    {
+      "name": "actual-line-collars-0.3.npz",
+      "bytes": 2304498,
+      "sha256": "e4ce2d5a97db126338ad9541394857bf7562817f278154674c99ebafe08de93c"
+    },
+    {
+      "name": "actual-line-collars-0.475.npz",
+      "bytes": 2314849,
+      "sha256": "171d680a070552dacef8dfc4fbec0c1a18c636927eb83dcf7d142b93ddeb21f6"
+    },
+    {
+      "name": "actual-line-collars-0.65.npz",
+      "bytes": 2320920,
+      "sha256": "9620c7ed89d18d5ba0cda9059efb8a451d0153dc7b352cb95bf0dec375317607"
+    },
+    {
+      "name": "actual-line-collars-0.825.npz",
+      "bytes": 2323388,
+      "sha256": "1fc381b2054c64509a6b9451ba823269ed2bd4a2d6b4de28da1622810a065fe0"
+    },
+    {
+      "name": "actual-line-collars-1.0.npz",
+      "bytes": 2324831,
+      "sha256": "fd75d84a0daa6321e94b8c0ef3c424254621271c473e0b413f5af84dc139bada"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1019305,
+      "sha256": "1ba27217b3388053cfac83865e420871443c83c9e4755cb08b71e64dbf1be691"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1055085,
+      "sha256": "5f13708d20e0c92a0604831fd3158954c4d3ec38b515574c1cfcaf034b6b1939"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1055284,
+      "sha256": "d34d41987ba546aab3baf735ba5583110ee024688337e1e60703c9bd93f04017"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1055074,
+      "sha256": "3c81d531366c77063dfa2953a63dae8db8631261253415550cf796e45035c12c"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1055228,
+      "sha256": "8bb0af0ce1790e447912c8753c6d6629c6a8804cdbe9360be4c53df9c6f539c8"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1056936,
+      "sha256": "375c285f621b8835a8b97531254bfcc655346a0b15db54b230c544e9bb7c47ac"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1056704,
+      "sha256": "bf75e468482c9915721ed8da17cb50b2622cf824886935412230a0f225163b7b"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1056307,
+      "sha256": "2127765e1d406fe1e2ab3df6bc6408a04a2b87cb4194aa5a8d26bd0d28b571ce"
+    },
+    {
+      "name": "last-full-Normal.npz",
+      "bytes": 1057130,
+      "sha256": "2ceb6b153cc2c3b2b56a7fc4a105f15645d9ee6e50c47a72df6541343481423e"
+    }
+  ]
+}

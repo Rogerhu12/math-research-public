@@ -1,0 +1,103 @@
+name: visible-flex coaxial half-turn and free rigid crown
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r705-coaxial-free-crown-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r705-coaxial-free-crown-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Solve the coaxial annular source and all free crown poses
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r705-coaxial-free-crown-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r705-coaxial-free-crown-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r705-coaxial-free-crown-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r705-inherited-r688-archive-manifest-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r705-inherited-r688-literal-final-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r688-annular-compatibility-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r705-coaxial-free-crown-scope.md
+            /topics/visible-flex-new-mechanism/results/R681-two-rigid-positive-crowns-and-one-reflected-window.md
+            /topics/visible-flex-new-mechanism/results/R684-directional-gauss-degree-and-two-solid-window-crowns.md
+            /topics/visible-flex-new-mechanism/results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md
+            /topics/visible-flex-new-mechanism/results/R688-crown-to-primary-material-paths-and-window-projection-rows.md
+            /topics/visible-flex-new-mechanism/results/R690-window-short-material-path-and-moving-central-crown-poses.md
+            /topics/visible-flex-new-mechanism/results/R693-coaxial-half-turn-windows-and-one-relative-displacement-row.md
+            /topics/visible-flex-new-mechanism/results/R696-two-pulse-ramp-support-and-whole-moving-window-diameter.md
+            /topics/visible-flex-new-mechanism/results/R697-free-axial-crown-translation-and-curl-only-window.md
+            /topics/visible-flex-new-mechanism/results/R699-all-point-principal-curvature-of-the-real-wide-cap-shoulder.md
+            /topics/visible-flex-new-mechanism/results/R700-global-normal-tube-of-the-actual-old-cap-and-cylindrical-shoulder.md
+            /topics/visible-flex-new-mechanism/results/R704-two-controlled-developable-shoulders-and-exact-central-window.md
+            /topics/visible-flex-new-mechanism/results/R705-coaxial-half-turn-free-crowns-and-the-actual-Cartesian-window.md
+            /topics/visible-flex-new-mechanism/results/R706-two-sided-ball-clearance-from-the-real-old-caps-to-all-moving-sheets.md
+            /topics/visible-flex-new-mechanism/results/R709-explicit-double-pulse-collar-and-physical-spline-normal-transfer.md
+            /topics/visible-flex-new-mechanism/results/R712-global-normal-chords-of-all-prescribed-double-pulse-components.md
+            /topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py
+            /topics/visible-flex-new-mechanism/scripts/r688_annular_compatibility_solve_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r688_closed_shell_observer.py
+            /topics/visible-flex-new-mechanism/scripts/r688_joint_window_field.py
+            /topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py
+            /topics/visible-flex-new-mechanism/scripts/r688_two_port_material_atlas.py
+            /topics/visible-flex-new-mechanism/scripts/r705_coaxial_free_crown_solve_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r705_equivariant_window_field.py
+            /topics/visible-flex-new-mechanism/scripts/r705_paid_coaxial_geometry.py
+            /topics/visible-flex-new-mechanism/scripts/r709_paid_physical_spline_strip_bound.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Recover the hash-bound naturally completed public R688 archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/15266032481" > "$RUNNER_TEMP/r705-artifact.json"
+          python - "$RUNNER_TEMP/r705-artifact.json" <<'PY'
+          import json, sys
+          from pathlib import Path
+          artifact = json.loads(Path(sys.argv[1]).read_bytes())
+          assert artifact['id'] == 15266032481 and artifact['name'] == 'visible-r688-paid-state-46148075849-1'
+          assert artifact['workflow_run']['id'] == 46148075849 and artifact['workflow_run']['head_sha'] == '5374a6817d9761fbea489d44803e4728ddc22d0b'
+          assert artifact['size_in_bytes'] == 16339559 and artifact['digest'] == 'sha256:3def582c3b5fc2e9ceb582272e53824439a915624aed812c5e695de91b232513' and not artifact['expired']
+          PY
+          archive="$RUNNER_TEMP/r705-parent.zip"
+          curl --fail --silent --show-error --location --retry 3 -H "Authorization: Bearer $GH_TOKEN" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/artifacts/15266032481/zip" -o "$archive"
+          test "$(stat -c %s "$archive")" = 16339559
+          echo "3def582c3b5fc2e9ceb582272e53824439a915624aed812c5e695de91b232513  $archive" | sha256sum --check --status
+          unzip -q "$archive" 'true-reference.npz' 'actual-line-collars-*.npz' -d r705-parent-paid
+      - name: Read both rule sets and solve on the actual public source
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r705-coaxial-free-crown-20261128.json --lane coaxial-window
+      - name: Preserve true dense collars, source sections and current solver state
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r705-paid-state-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r705-paid-state/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
