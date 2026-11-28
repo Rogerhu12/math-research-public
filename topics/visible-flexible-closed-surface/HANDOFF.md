@@ -30,7 +30,7 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 前会话polar v2最后为5292列第11态，原97节点metric .63576/κ32.995并非连续界。本轮重生原gap105/v045源、target-zero和11态，原master/target SHA相同，恢复不计新改善。R248全前缀空间真实扩到12789列，保旧场/全部原行；205节点自身基线发现metric1.57258/κ4050.87/σ.2034，见[实际准备](notes/2026-11-28-2ecf-polar-full-prefix-warm-hidden-peaks.md)。prepared `e8803bd9fd40c5e1edb298af42ed3b78585ebb02914e4aee26cf75a79daf8a03`。
 
-原205节点完整14行新暖支持续真实接受，1–8已有各note；第15态训练R14².00999668/metric.180637/κ19.5606/σ.888196仍不合格。新[第三独立观察](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)已自然0：236径点×256半格错移角，直接真实求六jet；同一15态metric1.2189606/κ52181.5379/σ.1392603。新的极值原位重取样背景差0，两基本形式独立复算同峰；修正Xs近抵消背景且Xss约1034.85。训练改善不能继承几何。
+原205节点完整14行新暖支持续真实接受，1–8已有各note；[第9–15步](notes/2026-11-28-2ecf-polar-full-prefix-actual-steps-nine-fifteen.md)均自然0并各自全目标下降，单项非单调已列。第15态训练R14².00999668/metric.180637/κ19.5606/σ.888196仍不合格。新[第三独立观察](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)已自然0：236径点×256半格错移角，直接真实求六jet；同一15态metric1.2189606/κ52181.5379/σ.1392603。新的极值原位重取样背景差0，两基本形式独立复算同峰；修正Xs近抵消背景且Xss约1034.85。训练改善不能继承几何。
 
 同prepared[零W独立支前三步](notes/2026-11-28-2ecf-polar-full-prefix-independent-zero-first-three.md)全自然0，自身R14²97.0901→29.9983而κ707.41；零6的第三观察κ2080.489/σ.47118，亦漏峰。两个旧稀训练支自然结束后封存；新G10每span加密、保原205/第三236全部径点，合958径点、每span至少15内部点，128/192角源直接补算正在运行。新quadrature单列基线/接受；进入训练的原G3径点不再称新模型的径向独立观察。
 
@@ -44,4 +44,4 @@ R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不�
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:07:22 UTC；已读公开 main `c72ca08045647ebfad782022bc8996c7e901fda5`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:08:29 UTC；已读公开 main `9635d2b62f696e9cfe7d7d936361f47b76598083`，根/课题 README 逐差无变化。
