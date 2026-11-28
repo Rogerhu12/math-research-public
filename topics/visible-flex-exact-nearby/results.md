@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GXM：势支持外两条真比值的有向平移](results/R149-supplement-signed-exterior-translation-of-both-genuine-first-ray-ratios.md)：真实B_n=λ_n/√−T，原两ray只作rσ→rσ+σλ_n，保根剪切/两真列/原均值/原输入n及非局部次序，完整外域局部源为S^V(f)+S^V(g)diagλ。全频|λ|<27/5；新13自然带含无穷尾，真实次数129 cutoff以Beta偶矩和全二项尾积分，原13有向势系数与二阶余交叠。14pins首发已核，数值待。
+
 - [GNJ：完整非局部与物理均值的两个有向圆周残差](results/R149-supplement-signed-two-circle-residual-for-complete-nonlocal-and-mean-sources.md)：G.12–13同一RQ J先精确合为−RQ J(ED−Bf)，保五个旧mean和独立physical mean。任意合格trial的q=Av°−e、p=At°−k给g1=t°−Jp+J RQ Jq及g2差−2βmΠuJq，明确H^-8/3→H^-5/3→H^-2/3窗口。同旧背景全六场/物理r和φ jets新读取器保全Taylor/解析余。完整数值残差仍待；不得将有限逆充J。
 
 - [ASQ26：沿真实参数积分的负侧Newton基点转移](results/R149-supplement-correlated-base-to-selected-negative-Newton-response.md)：固定同一真Aδ*，−fδ*+f0=∫s_t dt；NW同原窗线性|t|费先积分保1/2，再接真实NRO/NHT：ordinary差<1.019e−15、raw腰<2.12e−15、Θ<9.67e−16、恢复<9.70e−16、每mean<1.45e−15，合格背景真实return差<5.49e−15。六whole/16新Fraction一次全保；真实−f0/所有独立边界仍待。
