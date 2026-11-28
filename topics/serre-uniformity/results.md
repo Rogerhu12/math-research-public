@@ -1,6 +1,6 @@
 # 结论索引
 
-- **原Hahn谱导数的实际偶companion（已证明，R1194 §9）**：[R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付，普通second-kind源不同，未据此宣互素。
+- **原Hahn谱导数的实际偶companion（已证明，R1194 §9）**：[R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付；HC.21–24以自足望远镜给两条终止balanced4F3。普通second-kind源不同，未据此宣互素。
 
 - **原完整有限角与准确一个p拼接模（已证明）**：[R1195](results/R1195-original-full-integral-normalizer-corner-and-one-p-gluing.md)完整有限角准确为全部奇r的{(x,y)∈Zp²:x≡y modp}乘积，p1mod4另加二次St的一元角。各Er整，U_r=p e_cusp,r e_N满足U²=pU；任意真实稳定格的pure型拼接商恰im(U modp)，指数p^rank，单cusp投影整 iff U modp=0。原几何两行/PS碰撞保全，不把packet单位传给C。
 

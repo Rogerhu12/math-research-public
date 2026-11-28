@@ -114,7 +114,7 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 [R1194](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原零谱核扩大为M=4N+2的对称Hahn块，原q_j(0)全左半无权范数准确为−ℓ!/[2(M+1)(M!)²]单位。原短谱仍读Σq_j²/(3j+2)，e0给三切点/四段；未把新全范数替成K4，继续实际权重运输。
 
-[R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付，普通second-kind源不同，未据此宣互素。
+[R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付；HC.21–24以自足望远镜给两条终止balanced4F3。普通second-kind源不同，未据此宣互素。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
