@@ -6,13 +6,13 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `32ad9f22a1b73d8aa2b6fbe79262f5605eee6b87`（2026-11-28 08:30 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:02 UTC再次pull到 `5ebe514c233484e8a9dc90764705e38f1a1d3d73`，根规则空diff且QUEUE仍本会话。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `b0e5dbcc91e880c0ed5dd720c64394801974f354`（2026-11-28 08:43 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:02 UTC再次pull到 `5ebe514c233484e8a9dc90764705e38f1a1d3d73`，根规则空diff且QUEUE仍本会话。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
 ## 最新真实断点（比旧H更新）
 
-1. **原R53 δ-design完整割线已到λ=.128/M48。** [真实末投影提取](notes/2026-11-28-design-previous-frontier.json)，原run45821850836，source a0151c8df0c893d8d7dab9b6a02c5ad28db9fcfa。晚返.08/.096/M40全门过；.128/M40只有metric1.2405088e−6未门，原完整lift后.128/M48全门过：1219点、RMS9.19597442076e−7、metric1.59049982984e−7、BC4.14243638022e−13、δ=.06412830439644338、mean2320；run518163de/raw26f89213/physicalf802804a。后.256域异常、.192 MemoryError无raw；worker截止attempt011未知。不能继续把.064当最高锚，也不能把资源异常称不存在。原直接链最高晚返.044/M32，仅属另一分支。
+1. **旧最高设计接受λ=.128/M48。** [原晚返真实提取](notes/2026-11-28-design-previous-frontier.json)，run45821850836/source a0151c8…；.08/.096/M40全门、.128/M40仅metric1.24051e−6未门，完整lift后.128/M48全门（1219点/RMS9.19598e−7/metric1.59050e−7/BC4.143e−13/δ.06412830439644338/mean2320）。原.256域失败、.192 MemoryError无raw、attempt011未知，不重定性。源/全SHA见原记录；不能把.064当旧最高锚。
 2. **真实低模尾已full-H，但仍只有M8。** [原run45849403133终态](notes/2026-11-28-tail-low-modes-actual-terminal.md)：来自λ.002/M24原631点前缀，M8/N128暖因子.25/.5/.75/.9/1全原门过；full factor1 residual1.8949786217e−9、sample metric2.9133693236e−8、formalK8.38502633、normalizedFullDefect.0003086785，packet52f92191。随后M16/N256收到worker failed包97fd2b60；具体字符串未发布，不归因为已知某一域错误。M24 full-H/J未执行。
 3. **v2/v3/v4固定g暖链已结束且失败，不重跑。** v5首.004/M24、.003/M24只metric未门；M32在splu MemoryError。[旧v5续入末态已补读](notes/2026-11-28-v5-previous-terminal.md)：.003/M32 RMS.00100269失败、.0025/M24 metric4.43225e−6未门、.0025/M32 RMS.00411025失败，真接受仍.002；原.002接受锚与metric-only未接受seed严格分开。所有旧细节见继承H/原notes，不晋级失败场。
 
@@ -23,7 +23,8 @@
 - analytic_construction：[真M24完整λ/logq响应](notes/2026-11-28-analytic-material-lambda-tangent-and-q-schur.md)已运行：64191维同一原J/因子，解析Fλ与完整FD差3.2314e−10，dδ/dλ=−3.92049e−5；δ替logq的完整Schur=2.469619216e−5，两h相对差4.055e−7，原线性残差≤8.36e−16。非区间逆证书；λ004预测仅初猜。[首个原support fixed=True精化已真过](notes/2026-11-28-analytic-original-fixed-support-actual-refinement.md)：同λ/δ/g/mean1168/nt768，M24 tol2e−7，879→1032点，RMS1.99629e−7、metric6.53252e−7、physicalBC1.886e−18。[完整C²差诊断](notes/2026-11-28-analytic-fixed-support-complete-c2-comparisons.md)已返：3294截面双角网格，Fss差2.65435e−4不称Cauchy。[M32首进程exit137](notes/2026-11-28-analytic-fixed-support-m32-interrupted.md)，无raw/physical/最终audit；只有1272内部midpoint完整分量，不能称nodal返回。OOM原因未证；同g完整未接受初猜恢复及旧factor释放继续，真锚仍M24。
 - root：[R67有理三重帽](notes/2026-11-28-r67-rational-marker-implementation.md)经75位导数核过；闭图reader保完整R53 lift及声明的新均值，待fullH，中心柱总长≤.01。完整块QR在真M8/M16/M24原J对照方向已核，最高64191维rel9.502e−13、162.6MB因子（[记录](notes/2026-11-28-block-qr-actual-m16.md)）；同一核心已用于fixed-g实际BVP，不是无限维逆证书。新闭图不搬旧数值常数。
 
-- **R73新图连续几何已付**：[新879点场的945节点Cartesian图](results/R73-new-common-cartesian-prefix-continuous-geometry.md)，944×1024全角闭盒零未决：support>.6445、norm<1.1901、area>.2974、准确|κ|≤123/10。直接包围最终rep+完整真实R53 lift；最终/中间均值非同一函数，二阶减源primitive仍1.32332e−4。未附尾/cut，连续metric尚欠；不能继承旧R62。root接同图连续metric与实际闭图预算。
+- **R73/R74同一新图连续界已付**：[R73几何](results/R73-new-common-cartesian-prefix-continuous-geometry.md)给support>.6445、norm<1.1901、area>.2974、K≤123/10；[R74 metric](results/R74-same-new-cartesian-prefix-continuous-metric.md)完整1467径向叶×1536三重扇区角格，精确上界<99/1e8；十组定义数组逐位同，最终有限均值/完整真实R53 lift未换。均仅新879点λ.002源的最终Cartesian前缀/桥，未附尾/cut。root接真正闭图cut及全尾新界，不搬旧R62。
+
 - [完整尾切向初猜](notes/2026-11-28-tail-full-state-tangent-predictor.md)在真M16末次fresh全J实核：1153×32未知全部保留，原线性backward-error5.53e−28；仅未接受f1初猜。M24真末J已接fullH原求解；首次/末次native实耗527.832s/801.900s，不再用早期外推估计。初猜仍不等于新接受。
 
 - [完整解析δ列](notes/2026-11-28-analytic-complete-delta-column.md)已在真M24全部879节点/64191行含midpoint链核过，原FD相对差5.06e−10/9.75e−10、BC差0、恢复逐位同；独立入口未装活solver，非区间导数/新解。

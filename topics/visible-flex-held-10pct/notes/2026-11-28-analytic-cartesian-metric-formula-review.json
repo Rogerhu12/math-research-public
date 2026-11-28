@@ -1,0 +1,22 @@
+{
+  "status": "independent_read_only_formula_review",
+  "mathematical_algebra_error_found": false,
+  "continuous_metric_certificate_recomputed": false,
+  "solver_or_live_source_changed": false,
+  "reviewed_source_hashes": {
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_target.py": "a8bb9135d8ad56a0589db3c5d582a91cc85a8c4b1fd5a5632264cccf53d7ca77",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/r53_validated_material_core.py": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/certify_bridge_metric_fourier_taylor.py": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2"
+  },
+  "scope": "Same actual Cartesian defining jets, full exact-core lift, center repair, chart, frozen target, angular three-jets and radial/angular interpolation inequalities. This is not an independent numerical rerun or a completed surface certificate.",
+  "one_sided_regularities": [
+    "The shared Cartesian and chart functions are globally C2 and only piecewise C3. Third derivatives used in the radial Taylor bound are taken from the corresponding closed polynomial pieces.",
+    "FrozenTarget point call at the prefix/bridge join chooses zero for a third derivative that can have distinct one-sided values. The metric evaluator uses only the radius and its first two derivatives. The unused fourth slot does not affect this metric bound."
+  ]
+}

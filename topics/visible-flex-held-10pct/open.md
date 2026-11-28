@@ -14,7 +14,7 @@
 
 本次新源已通过完整M24/N512/f=.5原门和audit（[实际记录](notes/2026-11-28-tail-m24-mild-return.md)），已从其真正末次完整J生成全未知初猜直试fullH/J；半幅不是本题完整尾，原8outer和共同接缝继续待付。
 
-两侧须同一完整g、真实primitive、字面源mean、完整高度非零模与零模。R12/R14已证明精确高度二jet+度量一jet的Cartesian接缝机制；实际仍须同一两jet，不能用小残差、单侧formalRR或不同mean代替。R58–R62旧λ.002场连续界、旧.25尾cell7/deep及若干stage不重铺；新场单独付连续界。本次R73已付新879点源的最终Cartesian前缀/短桥连续几何（support>.6445、norm<1.1901、K≤12.3）；同图连续metric及附尾/cut后的新界仍欠。
+两侧须同一完整g、真实primitive、字面源mean、完整高度非零模与零模。R12/R14已证明精确高度二jet+度量一jet的Cartesian接缝机制；实际仍须同一两jet，不能用小残差、单侧formalRR或不同mean代替。R58–R62旧λ.002场连续界、旧.25尾cell7/deep及若干stage不重铺；新场单独付连续界。本次R73已付新879点源的最终Cartesian前缀/短桥连续几何（support>.6445、norm<1.1901、K≤12.3）；R74又付同图全连续metric<99/1e8，准确三重协变覆盖全角/全相位；附尾/cut后的新图仍须自己的连续界。
 
 ## 3. 同一完整问题的精化
 

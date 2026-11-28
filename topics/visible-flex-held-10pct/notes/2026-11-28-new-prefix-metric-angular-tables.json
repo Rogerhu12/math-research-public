@@ -1,0 +1,149 @@
+{
+  "status": "complete_angular_three_jet_interval_tables",
+  "scope": "Validated angular three-jets for the actual NEW Cartesian R53 prefix.\n\nThese are interval inputs, not a metric certificate. The exact threefold\ncovariance reduces scalar Gram verification to [0,2*pi/3]. Every closed box\nin that sector and its left endpoint are enclosed; no sampled maximum is\nsubstituted for a continuous derivative bound. All arrays stay outside Git.\n",
+  "metric_certified": false,
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "old_numeric_bounds_reused": false,
+  "whole_surface": false,
+  "modes": 24,
+  "physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+  "homotopy": 0.002,
+  "mean_nodes": 1168,
+  "radial_spans": 944,
+  "chart": {
+    "definition": "Shared radial two-jet quintic e(s); theta=psi-e(s)sin(3psi)/3.",
+    "exact_absolute_e_upper": {
+      "numerator": "4323455642275677",
+      "denominator": "9007199254740992",
+      "display_only": 0.4800000000000001
+    },
+    "exact_rho_lower": {
+      "numerator": "4683743612465315",
+      "denominator": "9007199254740992",
+      "display_only": 0.5199999999999999
+    },
+    "radial_spans": 944,
+    "exact_center_two_jet": true,
+    "exact_zero_cut_two_jet": true,
+    "numerical_source_chart_difference_orders_0_1_2": [
+      9.577110208210078e-15,
+      3.511374524478583e-11,
+      1.8107244581337667e-08
+    ],
+    "geometry_coefficients_changed": false,
+    "metric_reaudited_in_this_query": false
+  },
+  "defining_jets": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/exact-defining-jets.npz",
+    "sha256": "3a44cc61181fb6ebdde51c5f5e7feae3b418ed0492b5275d50fa478bcc70768c"
+  },
+  "progress": {
+    "stage": "new_map_metric_angular_tables",
+    "completed": 1536,
+    "total": 1536,
+    "material_parts": 4170
+  },
+  "seconds": 237.04888547799965,
+  "angular_sector": "[0,2*pi/3]",
+  "angular_boxes_per_sector": 1536,
+  "full_circle_box_equivalent": 4608,
+  "exact_threefold_covariance": "pm=1 mod 3, hm=0 mod 3, the exact R53 core is threefold, and every radial coefficient, lift and center repair preserves X(s,psi+2*pi/3)=R_(2*pi/3) X(s,psi); normalized Gram is periodic",
+  "right_sector_endpoint_gram_equals_left_exactly": true,
+  "angular_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/continuous-angular-three-jets.npz",
+    "sha256": "fae2e2143371b8bdca681bb75f06a94f1a425716561c5fac30d3e46dc57a00b8"
+  },
+  "oracle": {
+    "core_kind": "true-R65-supported-phase-integral",
+    "phase_basis_family": "full_period_sine_v1",
+    "anchor_support_exact": [
+      "1080863910568919/18014398509481984",
+      "579920315453815/1152921504606846976",
+      "-3007561987672999/73786976294838206464",
+      "-2007626649558593/1180591620717411303424",
+      "5374117957276761/9444732965739290427392",
+      "1328885329131963/1180591620717411303424",
+      "-2940431885136769/18889465931478580854784",
+      "-3513158225293773/9444732965739290427392",
+      "3239112860174971/18889465931478580854784",
+      "8731607510533203/75557863725914323419136",
+      "-4466923441715595/37778931862957161709568",
+      "-5656797181392575/302231454903657293676544",
+      "5041317966602535/75557863725914323419136",
+      "-3937001686223551/302231454903657293676544",
+      "-1159851929960045/37778931862957161709568",
+      "1252903170406263/75557863725914323419136",
+      "3815655611855551/302231454903657293676544",
+      "-1199862345935723/75557863725914323419136",
+      "3374158325491523/151115727451828646838272",
+      "-7798807452909593/151115727451828646838272",
+      "3473249566308131/18889465931478580854784",
+      "7221385168844871/151115727451828646838272",
+      "-4128417160308651/151115727451828646838272",
+      "-1711144480758463/151115727451828646838272"
+    ],
+    "phase_controls_exact": [
+      "0"
+    ],
+    "true_period": "2*pi/3",
+    "true_sector_halfperiod": "pi/3",
+    "frequencies_lower_exact": [
+      "3"
+    ],
+    "frequencies_upper_exact": [
+      "3"
+    ],
+    "homotopy_exact": "1152921504606847/576460752303423488",
+    "S_exact": "1/2",
+    "b_exact": "3602879701896397/18014398509481984",
+    "k_exact": "3602879701896397/18014398509481984",
+    "rho_lower_exact": "37480285624898675630617/75557863725914323419136",
+    "support_complex_radius_exact": "1/16",
+    "support_complex_B_upper_exact": "2498611578423495/4503599627370496",
+    "inverse_radius_exact": "6014964146841003/288230376151711744",
+    "position_radius_exact": "6014964146841003/288230376151711744",
+    "complex_kappa_bound_exact": "639589313734525/281474976710656",
+    "beta_abs_coarse_exact": "5486333368394517/2251799813685248",
+    "beta_interval": [
+      0.7287691583137267,
+      0.7287691583138957
+    ],
+    "phase_l1_rational_upper_bounds": {
+      "phase": "0",
+      "kappa": "0",
+      "kappa_u": "0",
+      "kappa_uu": "0"
+    },
+    "source_float_frequencies_not_used_as_true_constants": true,
+    "global_phase_basis_regular_order_at_least": 4,
+    "global_curve_regular_order_at_least": 5,
+    "cells_per_unit": 256,
+    "inverse_degree": 24,
+    "inverse_seed_max_width": 3.0399313313932445e-75,
+    "source_float_inverse_used_only_as_seed": true,
+    "old_small_lambda_numeric_bounds_reused": false,
+    "old_core_or_prefix_certificate_reused": false,
+    "frequency_definition": "3*j",
+    "normalizations_exact": [
+      "18380315979205837/3602879701896397"
+    ],
+    "queried_core_kind": "true-R53-material-support",
+    "zero_phase_specialization": true,
+    "source_field_relabelled": false,
+    "source_supported_phase_controls_added": false
+  },
+  "maximum_material_parts": 6,
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/r53_validated_material_core.py": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_r59_fixed_mean_ranges.py": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7"
+  }
+}

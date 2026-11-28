@@ -175,3 +175,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R73. 新公共 Cartesian C² 前缀的连续几何
 
 [完整证明](results/R73-new-common-cartesian-prefix-continuous-geometry.md)。本次真实879节点λ.002/M24场的新945节点最终Cartesian图，保完整真实R53 lift及声明的新有限均值；944径向×1024全角闭盒共966656盒零未决。全前缀/短桥连续support>.6445、norm<1.1901、area>.2974，PSD余量加精确有理收紧给|κ|≤123/10；适用于全部相位刚性旋转/重参数化。未附尾/cut，连续metric/λ1/完整闭族/固定g收敛未付，不继承R62旧数字。
+
+## R74. R73 同一新图的连续度量界
+
+[完整证明](results/R74-same-new-cartesian-prefix-continuous-metric.md)。最终rep/完整真核lift/中心修补与R73十组定义数组逐位同；相同共同phase-chart，原固定轮廓/真桥及唯一R58目标修补。1467径向叶×1536扇区角格全覆盖，准确三重covariance覆盖全角/全相位；连续相对metric算子上界9.899331346061255e−7，精确有理核验小于99/100000000。完整三阶jet与R56径向Taylor/角插值余项均实际支付，无旧数字或mean替换；仍未附尾/cut、无λ1/完整闭族/同g精化完成声明。

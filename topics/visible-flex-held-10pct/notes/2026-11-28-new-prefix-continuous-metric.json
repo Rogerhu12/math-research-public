@@ -1,0 +1,85 @@
+{
+  "scope": "Continuous relative metric of the SAME final shared-Cartesian R53 map.\n\nThe finite mean is read from the final defining jets. Complete true-core and\ncenter corrections are included. Radial Taylor bounds and angular linear\ninterpolation use genuine complete three-jets on closed pieces. This pays no\ntail, full-surface embedding/reach, lambda-one held set, or refinement claim.\n",
+  "status": "continuous_new_cartesian_prefix_metric_certified",
+  "metric_certified": true,
+  "whole_surface": false,
+  "table_report": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/summary.json",
+  "table_report_sha256": "5872e2cb713de30d30778043114b4b2ebc8fdb0d3ae08f428d5f8040f139b995",
+  "target": 9.9e-07,
+  "accepted": 1467,
+  "splits": 503,
+  "attempts": 1970,
+  "peak": 9.899331346061255e-07,
+  "exact_target_definition": {
+    "metric": "ds^2+a_hat(s)^2 dtheta^2",
+    "prefix": "Original exact multistage amplitude profile, normalized to the literal prefix endpoint",
+    "prefix_end_exact": "8909514997820819/18014398509481984",
+    "end_exact": "6418844109525009/4503599627370496",
+    "bridge": "Unique true primitive of minus sine of the frozen literal ShortBridge phase, a(entry)=1",
+    "bridge_phase": {
+      "peak": "1696654979225785/1125899906842624",
+      "eps": "71904458781325/4503599627370496",
+      "L1": "5089964937677355/9007199254740992",
+      "L2": "3137403257756151/9007199254740992",
+      "L3": "4978000790595297/288230376151711744",
+      "terminal_u_exact": "4978000790595280/4978000790595297",
+      "terminal_phase_exact": "41598487956797436580137925137267039543177099065/27900353489261779174029500072862300371121340416",
+      "a_start_exact": "1"
+    },
+    "true_tail_R_exact": "5404319552844595/18014398509481984",
+    "true_tail_w_exact": "5764607523034235/72057594037927936",
+    "true_tail_wR_exact": "-8070450532247929/4323455642275676",
+    "patch_length_exact": "1/1000",
+    "correction": "sum_j (-L)^j h_j((end-s)/L) d_j on [end-L,end], zero elsewhere",
+    "endpoint_coefficients": "Unique true-tail radius two-jet minus unique true bridge endpoint two-jet",
+    "coefficient_midpoints_chosen": false,
+    "independent_of_field_and_M": true
+  },
+  "initial_radial_cells": 964,
+  "angular_boxes_per_sector": 1536,
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_target.py": "a8bb9135d8ad56a0589db3c5d582a91cc85a8c4b1fd5a5632264cccf53d7ca77",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_bridge_metric_fourier_taylor.py": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_r59_fixed_mean_ranges.py": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_m3_prefix_pieces.py": "dd353c3306ea35dd068e25951917fd8d204635b9e4cc07a41f7957834cbee01d",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_certify_true_cut_height.py": "998509f9463e0d377dc6dcde42ae71c62dcc0c02e77d6e1ec24bb634050a5b7c",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_bridge_endpoint_primitive.py": "ac9c07f3022f3b271a873acad100dc779f421d44fe1397ccd75612597ac8b7a1",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_bridge_cut_trace.py": "c77e8e5bb37d4469f6dd7f7a21ec7301721c2eaf979109e249630cd54880b32b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_certify_bridge_geometry.py": "bd471b11edbae3c1309dfbc9dd9ebab00fbae40b0e0909f78f6571c4b6ccff56",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7"
+  },
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "defining_jets": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/exact-defining-jets.npz",
+    "sha256": "3a44cc61181fb6ebdde51c5f5e7feae3b418ed0492b5275d50fa478bcc70768c"
+  },
+  "full_core_and_center_repair": true,
+  "final_Cartesian_mean_used": true,
+  "source_mean_primitive_substituted": false,
+  "radius_lower": 0.29999842582195335,
+  "rho_lower": 0.5199999999999991,
+  "peak_interval": [
+    0.2939328968327126,
+    0.29571430832866846
+  ],
+  "peak_details": {
+    "radius_lower": 1.063476498288127,
+    "rho_lower": 0.8120917632918933,
+    "point_operator": 2.6092614671326674e-07,
+    "radial_first": 4.158534271234941e-06,
+    "radial_second": 1.5516862223668302,
+    "angular_second": 0.47237697412170127,
+    "radial_taylor_upper": 8.801505303705863e-07,
+    "angular_interpolation_upper": 1.0978260423553893e-07
+  },
+  "seconds": 789.2517835600001,
+  "full_radial_range": [
+    "0",
+    "6418844109525009/4503599627370496"
+  ],
+  "full_angular_range": "[0,2*pi], by exact threefold covariance",
+  "all_phase_prefix_metric": true,
+  "phase_reason": "Rotation and material-angle translation preserve the frozen radial target metric",
+  "complete_leaves_sha256": "5be33b76c7f0f00eec32b535f4cbf8cd43835187ea71659da9a21b3a59540514"
+}

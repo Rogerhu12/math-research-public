@@ -1,0 +1,42 @@
+{
+  "status": "complete_exact_leaf_cover_and_R73_same_map_binding_verified",
+  "source_sha256": "3fb78344c798456dfde233a44c7664da4c77d1a5628e2e2db140a69d68dbfddc",
+  "metric_report": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-continuous-metric-20261128-v1/summary.json",
+  "metric_report_sha256": "b762fae9126112612ad2078f1222f4616f0607deec06a4f87d5bb9c5aa143646",
+  "geometry_report": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-interval-20261128-v2/summary.json",
+  "geometry_report_sha256": "afc6d7b3f2688aea7d38b9a90805f65fd54983c61b9a5df8d9705dd0904f8bf4",
+  "metric_complete": true,
+  "radial_leaves": 1467,
+  "angular_sector_boxes": 1536,
+  "sector_boxes": 2253312,
+  "full_circle_equivalent_boxes": 6759936,
+  "exact_cover": true,
+  "radial_left_exact": "0",
+  "radial_right_exact": "6418844109525009/4503599627370496",
+  "maximum_binary_upper_exact": "1168706763786513/1180591620717411303424",
+  "exact_rational_metric_budget": "99/100000000",
+  "exact_remaining_margin": "30836220204761871/461168601842738790400000000",
+  "R73_defining_file": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-interval-20261128-v2/actual-prefix-exact-defining-jets.npz",
+    "sha256": "02bba64a6afc45903b95ed159daa5d761d3f3d5121dbf980caac94d0e2b1fa10"
+  },
+  "new_defining_file": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/exact-defining-jets.npz",
+    "sha256": "3a44cc61181fb6ebdde51c5f5e7feae3b418ed0492b5275d50fa478bcc70768c"
+  },
+  "every_R73_defining_array_identical": {
+    "knots": true,
+    "jets": true,
+    "lift_jets": true,
+    "planar_modes": true,
+    "height_modes": true,
+    "source_initial": true,
+    "E0": true,
+    "Epp": true,
+    "q": true,
+    "center_width": true
+  },
+  "chart_is_additional_definition": true,
+  "tail_or_cut_lift_included": false,
+  "closed_surface": false
+}
