@@ -120,7 +120,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 [46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：46168504031完整12stage/双69相/各7闭网全返，末同点整网g1.42695/1.42194、K883724/36017，有限细化失败；原初几何/参考经向与全源参仍保。
-[R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：同R764初g全转角重分，完整normalized参考held≥.88但固定E界全帽短路排除；贯穿E+L的真实S²射击释E、两真帽随实际积分端，四支/三层/24整报告原预算启动，余g/全管仍欠。
+[R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：原四支三层24科学报告全返并独立登记；末全帽Gram3.26e5–8.99e6，shoot端残差.0141/.0191，未完成全g/厚度。完整源/系数/相位/25文三身份保原note；最终真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee。
 [R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：同R764 g全经线唯一B>0凸根、全gvv/两端/固定领准确，.42整像δE≥.0315；两支各3层可行形变+十一图全场原预算启动，余g/正相管欠。
 [R772/48](notes/2026-11-28-R772-and-run48-complete-coherent-shear-launch.md)：原12阶段及两组69相/七网全部返回；最终同g误差.284705/.556472，未达标。全16报告三身份及各真物理点已独立登记；参考厚管不传给拟合场。最终真pull e316b72d5286f11b2ee174e18fb4c51f16181911。
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
