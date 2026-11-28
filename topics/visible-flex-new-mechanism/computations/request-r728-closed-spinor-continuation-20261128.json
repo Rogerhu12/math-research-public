@@ -17,7 +17,7 @@
     "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
     "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
   },
-  "private_rules_read_commit": "3e7c6871779bfdfbb55d551f55a48ed706834c98",
+  "private_rules_read_commit": "96cb57bc44d1d575e34a3a5ee87ee933938902fd",
   "schema": "r728-closed-spinor-continuation-v1",
   "public_rules_read_commit": "14d683fa3cecbc5eb00e039cc2a091ec45ca8d32",
   "entry_point": "topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py",
@@ -42,7 +42,20 @@
     "paid_column_factor_trial_and_readout_checkpoint": true,
     "administrative_receipt_io_separate_from_science": true,
     "old_science_replayed": false,
-    "continuous_metric_or_README_completion_claim": false
+    "continuous_metric_or_README_completion_claim": false,
+    "prior_R728_naturally_failed_before_original_field_reconstruction": {
+      "run": 46162054661,
+      "job": 141031317083,
+      "head": "2a16c3639689b179b77bba4ef84810352beae33c",
+      "original_literal_authenticated": true,
+      "administrative_io_seconds": 1.86873602,
+      "scientific_process_seconds_including_imports": 1.026369,
+      "failure": "exact original JSON byte member rejected by an accidental first-key assumption",
+      "original_field_reconstructions": 0,
+      "new_Jacobians": 0,
+      "new_trials": 0,
+      "prior_artifact_count": 0
+    }
   },
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py": "2c278f0a0351e81290a23173e67a70fd3a9cea34db0035b2fda4f54a083d4144",
@@ -67,11 +80,11 @@
     "topics/visible-flex-new-mechanism/results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md": "08b1c51dd10966176cd40f24895a7a9d3abc958df62914decbbb6315df1f176a",
     "topics/visible-flex-new-mechanism/results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md": "3a11b26a6f063c4f2f9a5f8fccabb5424ec80727f692981e7f8b732708ee8966",
     "topics/visible-flex-new-mechanism/results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md": "b15974fb40bd79acf33b46bf3f65a663ed1ca8f851ef2fedfa113a556d5c6eb3",
-    "topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py": "d17d2183c2f86faf490eef4b676a6f241d49b55d6543f97a77ad08d37d2abcfb",
+    "topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py": "935cab58072196f195077ceb3d9583455346f935f1cc3fd7f638faf3c7e7c3fe",
     "topics/visible-flex-new-mechanism/scripts/r726_paid_half_projection.py": "a171f489e043308b835eecda8b2b1cd5959b2ed08e57023c359d0024613a8804",
     "topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_hermite.py": "48aa4bab066abe828ebf69f4de611a30d593d40c7183ecf39c6b3403edc521e8",
     "topics/visible-flex-new-mechanism/scripts/r728_full_spinor_geometry.py": "cf02dbdec14a3621a2efc0e1b79bdedd275187a4eed49627a67b5e486453b41a",
-    "topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_input.py": "bdc6933f6de946f8165fe2dcfbadf1c8d5b1f29a73340bfc4fb24f9e6728cdc1",
+    "topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_input.py": "48ef601004ae85a015cdcb69345e535219bcb502a7e290adb808b937a5ca6c8d",
     "topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py": "61f1aea0d0c6820b89fa350342ae5a8dcbc18a68af88e2d7cd60329653fe68cd",
     "topics/visible-flex-new-mechanism/computations/r728-actual-closed-spinor-20261128.json": "49b325d24b26b7e1374e611f601d7a56806221fa58b17fbe70c331b956757afc",
     "topics/visible-flex-new-mechanism/notes/2026-11-28-r728-actual-closed-spinor-continuation-scope.md": "9609ee3681f7b48ed998b6cb20b13484854b84357bc2c369f3c15921ef6db4e3",

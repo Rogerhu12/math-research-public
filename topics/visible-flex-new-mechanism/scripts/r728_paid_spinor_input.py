@@ -166,6 +166,10 @@ def stage(opt):
         raise ValueError('The source final member is not the paid 39163-byte literal.')
     output=Path(os.environ['RUNNER_TEMP'])/'r728-r703-natural-final.json'
     output.write_bytes(final)
+    # Preserve the already paid administrative receipt even if the later
+    # scientific entry rejects before it creates its ledger.
+    historical.parent.mkdir(parents=True,exist_ok=True)
+    historical.write_bytes(final)
     print(json.dumps(dict(kind='verified_historical_receipt',receipt_run=rid,artifact_id=aid,
               zip_sha256=cert['zip_sha256'],actual_member_list=members,member=cert['member'],literal_bytes=len(final),
               literal_sha256=hashlib.sha256(final).hexdigest(),administrative_io_seconds=time.monotonic()-io_started,

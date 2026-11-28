@@ -4,13 +4,13 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **5bf561beda2bbd7f725ec9025e0be490b14a3514**；本次恢复后已实际 pull/rebase，并核至当前已发布源。私库最近成功终端 pull 为 2026-11-28 15:27 UTC、**3e7c6871779bfdfbb55d551f55a48ed706834c98**，根未变，QUEUE 仍为本会话。14:32 磁盘满、之后环境不可用的失败 pull 未冒成功；其间 GitHub API 小文本续接保留在旧H。15:25 后环境恢复，继续至少每小时实际 pull，根/课题 README 有变只读差异并立即执行。
+公开最近成功的终端 pull/双 README 检查为 **b1454f0bf73cf073e5dba40025659188c39442d2**；本次恢复后已实际 pull/rebase，并核至当前已发布源。私库最近成功终端 pull 为 2026-11-28 15:27 UTC、**3e7c6871779bfdfbb55d551f55a48ed706834c98**，根未变，QUEUE 仍为本会话。14:32 磁盘满、之后环境不可用的失败 pull 未冒成功；其间 GitHub API 小文本续接保留在旧H。15:25 后环境恢复，继续至少每小时实际 pull，根/课题 README 有变只读差异并立即执行。
 
 公开根 blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 均未变。根16已读。子代理均显式 **gpt-6.2-astra / ultra**，当前三名都无下级。每条结论立即提交推送；NFF 立即 pull/rebase、查规则、重推至成功，不强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
 
 ## 正在推进的真实输入
 
-**闭纬圈 R728。** [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md) 给全时全角共同 E 精确区间及真实材料二jet；[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md) 给双复半频的准确闭圈、完整 RA/RB、同g/曲率/图门的全角多项式。原圆族 K0 已排，非圆完整列继续。R728正式request/WF现发布，实际run编号待元数据。从R703自然39163B入图，保同φ六jet与原生有限插值差，不重播原63J；全部列以真实支撑块/完整Householder TSQR续算，未截奇异方向。已付源投影、列块、QR、方向、实际试步、各网及冻结读数持久保存并从准确下一键继续。3450秒为单作业协作预算，主研究不停；仅三网同E与全部壳/端/材料门过后冻结并同E精化。
+**闭纬圈 R728。** [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md) 给全时全角共同 E 精确区间及真实材料二jet；[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md) 给双复半频的准确闭圈、完整 RA/RB、同g/曲率/图门的全角多项式。原圆族 K0 已排，非圆完整列继续。R728首run46162054661自然失败：原literal已核但入口误设JSON首键，原场/J/试步均未开始；I/O1.86873602s与进程1.026369s保账。已修完整literal适配及预取留档，重绑请求继续。从R703自然39163B入图，保同φ六jet与原生有限插值差，不重播原63J；全部列以真实支撑块/完整Householder TSQR续算，未截奇异方向。已付源投影、列块、QR、方向、实际试步、各网及冻结读数持久保存并从准确下一键继续。3450秒为单作业协作预算，主研究不停；仅三网同E与全部壳/端/材料门过后冻结并同E精化。
 
 **四外盘方向。** [R724](results/R724-comoving-central-crowns-and-four-outer-pulses.md) 的中央四肩/两整冠全幅共平移、已给负领与混对真法管成立；未知外窗未授资格。[R727](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md) 已给一真实盘的三curl、四开带二jet、真投影与 h⁴Q 薄领缩放。
 

@@ -18,7 +18,9 @@ def r703_paid(raw, run, job, source, conclusion):
     if (run, job, source, conclusion) != (46151140087, 140997832329,
             '1b2ba533d51b4f4b416d30dcee1aaa516b2c64be', 'success'):
         raise ValueError('The named R703 job has not naturally succeeded at the bound source.')
-    start = raw.find(b'{"actual_accepted"')
+    # The recovered member is the exact original JSON literal. Its producer's
+    # key order is not a semantic condition; retain the full byte identity gate.
+    start = 0 if len(raw) == 39163 and hashlib.sha256(raw).hexdigest() == expected else raw.find(b'{"actual_accepted"')
     while start >= 0:
         data = raw[start:start + 39163]
         if hashlib.sha256(data).hexdigest() == expected:
