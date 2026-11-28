@@ -112,7 +112,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [19](notes/2026-11-28-run19-complete-return-normal-fee-failure-and-continuation.md) | 20d617/accepted4/g.9662472339877322；N1无report，官方success非数学完成。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | cancelled；e70a/accepted3/g.9658357818598327，a6b304仅统计。 |
 | [21](notes/2026-11-28-run21-official-cancellation-and-last-complete-observation.md) | cancelled；初7e06/accepted0/g2.541916739245917，359c4仅统计。 |
-| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | e906e/accepted2/reachg.5237169415657044；b34824仅统计。 |
+| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | b34824/accepted3/reachg.5235597907246015/distplus.11392305204890485；report未返。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 87c076/accepted2/g.9678293850088526；6a101仅统计。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | ff7dc8/accepted2/reachg.6115910089638068；f725c仅统计。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | science0/9668.217378869s，a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518；whole report51804983B/c1be2382；原pure同runner接续。 |

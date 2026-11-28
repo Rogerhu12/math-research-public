@@ -854,3 +854,69 @@ Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：re
   }
 ]
 ```
+
+## 2026-11-28 06:00:39 UTC — 22第三个完整恢复步实际接受
+
+05:38:09.646582Z，b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d真实accepted3，Phi681.6470516175362/Gram.40616529581758637，reachg.5235597907246015、distance_plus .11392305204890485仍正。全六族如下；同25某组标量相等不把不同point/source当同一证据。至05:42:57完整report/自然退出未返。
+
+```json
+{
+  "math_at": "2026-11-28T05:38:09.646582+00:00",
+  "math_event": "current-geometry-returned",
+  "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
+  "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_Phi": 681.6517423825409,
+  "initial_Gram": 0.40616525311769985,
+  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_violation": 0.5305849371949052,
+  "initial_geometry_complete": true,
+  "current_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+  "current_Phi": 681.6470516175362,
+  "current_Gram": 0.40616529581758637,
+  "current_geometry_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+  "current_violation": 0.5235597907246015,
+  "current_geometry_complete": true,
+  "current_state": "accepted restoration checkpoint returned; final report not inferred",
+  "trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+  "trial_Phi": 681.6470516175362,
+  "trial_Gram": 0.40616529581758637,
+  "trial_geometry_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+  "trial_violation": 0.5235597907246015,
+  "trial_geometry_complete": true,
+  "trial_accepted": true,
+  "accepted_directions": 3,
+  "complete_report": false,
+  "stop_reason": null,
+  "observer_failures": 0,
+  "current_g_reach": 0.5235597907246015,
+  "current_g_body_diameter": -0.038136386569002756,
+  "current_g_distance_plus": 0.11392305204890485,
+  "current_g_distance_minus": -3.093633727173847,
+  "current_g_cap_diameter": -0.06715168866958865,
+  "current_g_height_floor": -1.0411711268457509,
+  "previous_completed_trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+  "previous_completed_trial_g": 0.5235597907246015,
+  "previous_completed_trial_accepted": true,
+  "previous_completed_trial_maximum_families": "reach",
+  "previous_completed_trial_Phi": 681.6470516175362,
+  "previous_completed_trial_Gram": 0.40616529581758637
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+    "bytes": 47995,
+    "sha256": "9e6e7b1376d0459ccd4592b7c8cf7d4e9d5feb1c3120620289d6cc99329690ea",
+    "git_blob_sha": "dd95d4fe4c3a2f0b0e156a2f948ca7972a7d6d42",
+    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
