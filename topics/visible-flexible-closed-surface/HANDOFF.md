@@ -24,43 +24,36 @@
 
 R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](notes/2026-11-28-2ecf-m12-h503-all-stages-true-ancestor-union.md)及其他有限分支各自留档，不互借证书。
 
-## 强幅度：真正位置和当前分支
+## 强幅度：当前完整位置与新输入
 
-原全G10=958径点×(128+192角)、4291840物理行；G11=668径点×256错移角，其中540径点不在训练。旧漏峰/失败保留。R219充分预算使用完整D≤3.2、held≥.64、δE≥.1609、reach≥.097；guide held.65/κ9.5更严，不能删行。当前强全闭支均还缺完整达到容差的度量、全闭reach和同g收敛，局部片/轴曲线/新g设计不算完成。
+原G10=958径×(128+192角)、4291840物理行；G11=668径×256移位角，540原训练外径点。R219充分预算为完整D≤3.2、held≥.64、δE≥.1609、reach≥.097；guide held.65/κ9.5。位置、g、输入改变均不借旧接受/几何。分片、E=1或固定g有限步不代整闭精度/厚度。
 
-[R261](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)原强g准确H17→H33→H65真正h加密，全域H65 U<6.535566e−10、κ<9.805926、全前缀reach>.1013；真端口b差3/2^58已用S5材料图支付。R259/R263原前缀短coast reach及R264原cut/S排硬保到.081保留。
+<!-- 2ecf-target-curvature --> [R267新gap.92前缀](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)全域metric<5e−10、reach≥5/38；[R281正解析中央](results/R281-positive-support-central-cylinder-at-full-gap.md)给真实大gap非椭圆源；当前p32/r=.25/v=.012进入全位置。
 
-<!-- 2ecf-target-curvature --> [R267新gap.92前缀](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)全域metric<5e−10、reach≥5/38；[R281新解析中央](results/R281-positive-support-central-cylinder-at-full-gap.md)周长2π、gap>1.05、中央κ<6.977、reach>.1433，真H65节点κ8.33735。各自不同g/新源。
+<!-- 2ecf-live-g10 --> [主动约束六步](notes/2026-11-28-2ecf-ridge-active-held-and-curvature-full-steps.md)独立末 .321722/κ16.90235/held .6400646；现在换真正材料u的三维单位速率和严格端位闭合。
 
-<!-- 2ecf-live-g10 --> [高弯真5292主动约束六步](notes/2026-11-28-2ecf-ridge-active-held-and-curvature-full-steps.md)：训练保held .64/κ16.5；独立末 .321722/κ16.90235/held .6400646，转真正材料u三维单位速率连接。
+<!-- 2ecf-HF-both-material-clocks --> [936真实新径](notes/2026-11-28-2ecf-strong-hf-new936-genuine-refined-grid.md)原完整行加成7227136行，14820位置独立最佳 .08128793/κ18.07564/held .65901；旧HF场未满足精度/厚度。
 
-<!-- 2ecf-r265-polar --> [R270完整HF64后缀](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)909312闭盒严格嵌入；[径钟](notes/2026-11-28-2ecf-strong-hf-true-radial-material-clock.md)保图像、G11 .12051。HF64×80保原6615W且准确两端函数，冻结design3 g；强实际XYZ及全核跨片继续。
+<!-- 2ecf-R271-components --> [R273上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)、[R282回折双控尾](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)中央/两尾/固定帽三分量全时reach≥.097，仍缺两个连接带。
 
+<!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)整闭两强形状比例；[R277](results/R277-first-explicit-full-closed-normal-tube-for-R272.md)极小正法管；[R279](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md)严格reach/D<.014832，须改XYZ。
 
-[R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)原极坐标连接连续嵌入；R266单调高度射线TV缺口/R269逐圈相似必要障碍限定各自前提，不排全位置新解。改变g/源/基底不得借旧接受或几何；旧失败均按各notes保留。
+<!-- 2ecf-R274 --> [R274全角目标](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)及[真剪切见证](notes/2026-11-28-2ecf-strong-HF-exact-diagonal-shear-floor.md)限定原场换对角g的能力，位置/角识别仍可改变。
 
+<!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)混合K圆面；[R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)有限阶平尾的正则一阶退化，原非圆源及真实无限振荡尾继续。
 
-<!-- 2ecf-HF-xyz --> [原g真实own3后两次双钟](notes/2026-11-28-2ecf-hf-xyz3-frozen-g-two-actual-double-chart-steps.md)：G11 .152624→.116619，物理图像保持、κ约17.36；真XYZ旧态全部保留。
+<!-- 2ecf-r278-Minkowski --> [R278](results/R278-R262-true-convex-central-support-and-noncircular-width-continuation.md)原真实中央全角凸、等周长及真实两方向宽差；双锁完整中央的原g加密继续。
 
-<!-- 2ecf-R271-components --> [R273上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)、[R282回折双控尾](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)各自中央/两尾/固定帽三分量全相位reach≥.097；R282端高/切向独立，完整连接仍待。
+旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-
-<!-- 2ecf-HF-both-material-clocks --> [同g14820位置加936真新径成7227136行；独立G11最佳 .08128793/18.07564/held .659011。](notes/2026-11-28-2ecf-strong-hf-new936-genuine-refined-grid.md)
-
-<!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)两强形状比例已付；[R277](results/R277-first-explicit-full-closed-normal-tube-for-R272.md)有极小完整正法管；[R279](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md)严格 reach/D<.014832，须改XYZ。
-
-<!-- 2ecf-R274 --> [R274全角目标](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)；[实际双钟/75步XYZ严格见证](notes/2026-11-28-2ecf-strong-HF-exact-diagonal-shear-floor.md)对任意共同对角g误差>.09811/.08359，须改变位置或角识别。
-
-<!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)准确混合K圆面有整闭reach；[R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)证明其有限阶零点仍迫正则 gap 一阶导数为零，继续实际非圆源。
-
-<!-- 2ecf-r278-Minkowski --> [R278](results/R278-R262-true-convex-central-support-and-noncircular-width-continuation.md) 将 R262 原场继续至真实非圆新中央，单锁小步移位峰 1.25e−5、双锁 2.36e−4，η=1/32 单锁 1.03e−4；全角凸性、周长及支撑增益严格，强指标待解。
+<!-- 2ecf-live-stadium --> [R281 实际非椭圆整图+新 S，14820 位置终态 G11 .09630/12.2682/held .64718。](notes/2026-11-28-2ecf-stadium-H65-real-complete-field.md)
 
 ## 工作位置与接续
 
-公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong新尾/喉完整位置，m12新正解析曲率半径中央及真Γ95，exact从R262释放混合频率并锁真实中央宽差；root构扩大真平领的新整场。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
+公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong真单位材料速度/强几何完整位置，m12正解析中央/真Γ95与适配支撑平面，exact真实无限m2尾/新短前缀与非线性幅度；root扩大平领的完整新场及同g实际位置。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
 源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:18:58 UTC；已读公开 main `4c844288e458afef1228c173457e435448b82262`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:36:40 UTC；已读公开 main `15acdfe8a01b11382f28b0863ea3d05d39c461af`，根/课题 README 逐差无变化。
