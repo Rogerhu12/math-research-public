@@ -1,0 +1,85 @@
+{
+  "scope": "Compare streaming diagnostics on a saved complete actual collocation J.",
+  "status": "all_actual_complete_M16_checks_passed",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/check_block_qr_streaming.py",
+    "sha256": "8547594eec208bd8f33b56b246c5ad328009f1575d3bf30e6ac49e5454f22ea6"
+  },
+  "old_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr.py",
+    "sha256": "ad93895f46ca1acfca45a1e43245513d7d4bbedc43c3526c764584ffc2ce9bb5"
+  },
+  "new_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py",
+    "sha256": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8"
+  },
+  "wrapper_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py",
+    "sha256": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3"
+  },
+  "actual_matrix": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/actual_jacobian.npz",
+    "sha256": "a9d655651b6170f1eb8097fe61606dc7a89b40fd181b042ef8e1af305fad4bef"
+  },
+  "actual_residual": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/actual_residual.npy",
+    "sha256": "5adf39dd101f6adcd8ec57e7a89337bd6ce034e124fca887a2c3cfd22fafe423"
+  },
+  "actual_source_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/summary.json",
+    "sha256": "3a44c9d73bfdf408a5bd77f729adeb5383c7e3e0941996d0ea6f679456640fba"
+  },
+  "shape": [
+    43087,
+    43087
+  ],
+  "n": 49,
+  "nodes": 879,
+  "k": 16,
+  "all_original_entries_in_factor_retained": true,
+  "checks": {
+    "core_methods_source_identical": true,
+    "complete_direction_bitwise_identical": true,
+    "complete_backward_denominator_bitwise_identical": true,
+    "original_matrix_infinity_norm_bitwise_identical": true,
+    "all_original_factor_and_solve_stats_identical": true,
+    "no_full_absolute_matrix_retained": true
+  },
+  "removed_persistent_absolute_matrix_bytes": 55523204,
+  "diagnostic_block_rows": 2048,
+  "actual_original_matrix_residual_max": 1.066670079402443e-20,
+  "original_stats": {
+    "equations": 43087,
+    "state_size": 49,
+    "nodes": 879,
+    "parameters": 16,
+    "internal_nodes_eliminated": 877,
+    "levels": 10,
+    "minimum_relative_R_diagonal": 0.00013001025635714594,
+    "solve_calls": 1,
+    "maximum_componentwise_backward_error": 1.0,
+    "maximum_normwise_backward_error": 2.4970900493918317e-29,
+    "refinement_steps": 2,
+    "stored_factor_bytes": 73397884
+  },
+  "new_stats": {
+    "equations": 43087,
+    "state_size": 49,
+    "nodes": 879,
+    "parameters": 16,
+    "internal_nodes_eliminated": 877,
+    "levels": 10,
+    "minimum_relative_R_diagonal": 0.00013001025635714594,
+    "solve_calls": 1,
+    "maximum_componentwise_backward_error": 1.0,
+    "maximum_normwise_backward_error": 2.4970900493918317e-29,
+    "refinement_steps": 2,
+    "stored_factor_bytes": 73397884
+  },
+  "wall_seconds": 4.466876545999185,
+  "maximum_rss_kib": 348484,
+  "peak_scope": "both original and new comparisons in one process; not a production peak bound",
+  "nonlinear_problem_or_gates_changed": false,
+  "new_BVP_invoked": false,
+  "complete_surface": false
+}
