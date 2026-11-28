@@ -171,3 +171,6 @@ PWA96R：34whole全部原validator过；只对固定APHI三whole与真实run/eve
 
 
 GMI：GNF三幅伴随保全部mean，以全原1/1024幅条和真G.16作64次整圆积分；不对真振荡波假设复角小。|j|≥2^20+1/两sign/双真Airy列含shear的整HS级数严格给pointwise<1e−55、全collar普通L1<4e−61、共同C97<1e−56。34whole/26新Fraction根首次全过，第一行nonlocal仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ27R：真46149703541/1 child1/rc1且0cells/0targets，首异常被suffix二次save掩盖，不能推nan/奇异。56whole新入口先全193trace/六有向decimal/validator/atomic后计数，并保原traceback；非有限flat仅可用原有限解析sup²×真最高权，独立计数。原全部3073/65/193/η0及同Aδ*不改。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
