@@ -1,0 +1,13 @@
+// Complete publication helper for immutable bounded observations; no scientific computation or credentials.
+export async function publishCompactObservation(env,cfg){
+const {tools,load,store,text}=env,p="topics/visible-flex-larger-amplitude/",len=new Function("input",load("utf8LengthBody")),h=new Function("input",load("sha256jsBody")),s1=new Function("input",load("sha1jsBody")),gb=b=>s1("blob "+len(b)+"\0"+b);
+const old=load(cfg.note_record_key);if(!old?.body)throw Error("old note absent");const identities=cfg.evidence_record_keys.map(k=>{const r=load(k);if(!r?.body||len(r.body)!==r.bytes||gb(r.body)!==r.sha)throw Error("evidence identity "+k);return {path:r.path,bytes:r.bytes,sha256:h(r.body),git_blob_sha:r.sha,fixed_commit:r.ref,scope:"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."};});
+const now=await tools.clock__curr_time({}),note=old.body+"\n## "+now.current_time+" — "+cfg.title+"\n\n"+cfg.detail+"\n\n原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。\n\n\x60\x60\x60json\n"+JSON.stringify(identities,null,2)+"\n\x60\x60\x60\n";
+const nr={path:old.path,body:note,bytes:len(note),sha256:h(note),sha:gb(note)};if(nr.bytes>=100000)throw Error("note too large");
+const base=load("run18-current-handoff-capacity-publish-documents"),planned={...base};
+for(const[a,b]of cfg.handoff_replacements??[]){if(!planned[p+"HANDOFF.md"].includes(a))throw Error("H target");planned[p+"HANDOFF.md"]=planned[p+"HANDOFF.md"].replace(a,b);}
+for(const[a,b]of cfg.open_replacements??[]){if(!planned[p+"open.md"].includes(a))throw Error("open target");planned[p+"open.md"]=planned[p+"open.md"].replace(a,b);}
+planned[p+"log.md"]+="\n## "+now.current_time+" — "+cfg.title+"\n\n"+cfg.log+" 全部原对象及固定完整证据身份保[本轮note]("+old.path.slice(p.length)+")。双README云核至\x60__FRESH_HEAD__\x60无变（非pull）。\n";
+const task=cfg.task;store(task+"-publish-base-documents",base);store(task+"-publish-planned-documents",planned);store(task+"-publish-added-records",[]);store(task+"-publish-delete-records",[]);store(task+"-publish-replace-records",[{path:old.path,bytes:old.bytes,sha:old.sha}]);store(task+"-publish-entries",[{path:old.path,mode:"100644",type:"blob",content:note},...Object.entries(planned).map(([path,content])=>({path,mode:"100644",type:"blob",content}))]);store(task+"-publish-message",cfg.message);
+const pub=new Function("return ("+load("root-topic-publisher-source")+");")();const r=await pub(env,task);store("run18-current-handoff-capacity-publish-documents",load(task+"-publish-documents"));store(cfg.note_record_key,nr);return r;
+}

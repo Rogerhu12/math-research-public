@@ -290,3 +290,7 @@ run46062343475/1与job140719355272实际completed/cancelled、updated02:05:35Z�
 ## 2026-11-28 02:09:48 UTC — 24官方真实启动
 
 run46096380016/1/workflow433333276/job140828543967，head431b54a096c89b81637a3634fd99a1dcda0cf487，02:05:58Z启动/in_progress；checkout/setup/deps success、原研究步骤运行。两input/新science/model/point/geometry尚未实际读取。完整官方run/jobs保24note；无重复启动或force。双README云核至`9c8676019bc37ae59d4a3719c8ac12de8f2643f2`无变（非pull）。
+
+## 2026-11-28 02:13:27 UTC — 02:10实际环境重置后从已刊完整记录恢复
+
+root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动、fb8a3545原18终态和19–23最新真实记录均从main完整恢复，未重触发或重算。02:10:58新信号后唯一终端pwd仍明确No usable execution environment，云核不称pull，活19–24原controller真pull继续保H。已保护的22/23准确后继完整manifest从原blob取回；新增小型完整观测发布源用于以后重置恢复，不执行数学或添验收门。双README云核至`f120a228630149a1c414125fe2c320d3202a4a61`原字未变。
