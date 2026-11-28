@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 n=2 的完整显式 theta/source（已证明）**：[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)由真正 norm 固定 Θ=Δ/(16y⁴)、Θ_C=ΘR_C² 与全部平移常数；原三函数 filling 成为27项，保6/−2/2权及−1/256。R1158–1159实际输入可取n2；两个交换商系数皆unit，中央v2仅43/127例外，实际unsmoothing未冒称已付。
+
 - **R1159（已证明）**：[原 correlation 到完整 Hecke 上链的实际比较](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付两个 crossed projection 同伦、单矩 norm 的全部根相位及 J_n，给指定 hV=hCorr+J_n 与 dhV=−V_nΩ。实际 unsmoothing 还须 dB_n=(V_n−v_n)Ω；未把 cohom scalar 单位当一次上链除法。
 
 - **原 formal Frobenius 的实际 carry 与第八 jet（已证明）**：[R1155 §12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)在同一有限椭圆坐标固定 ψz=z^p，计算 ε=ε0−u0L 和三槽完整运输；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50 为单位。保未知常数 carry，不代分歧 torsion 的 field Frobenius，原加权中央值继续。

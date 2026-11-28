@@ -43,6 +43,8 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 当前还缺实际B_n满足dB_n=(V_n−v_n)Ω，其中v_n=n⁻¹¹(n−1)(n¹⁴−1)；取得它才有h0=(hV+B_n)/v_n。固定n5在p>5¹⁴−1时scalar单位，不等于已经完成此上链接口。H¹唯一性和quasi-isomorphism不代实际B_n或原F0读取。
 
+[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)已把原source扩到n=2并锁定全部常数：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²，4θ₂=[Θ]、4θ′₂,Ci=[Θ_i]。原K3三函数式仅27项，权为6/−2/2、总系数−1/256，字面norm/平移关系及全部根相位均保。R1158与R1159直接适用；κ4=63/16、κ8=1023/256在p>37均unit，v2=3·43·127/2¹¹仅p43/127例外。它简化实际source与交换商，尚未构造dB₂=(V₂−v₂)Ω；SS四线坏参数不删。
+
 ### 原实际 finite Frobenius 与尚待原 F0 中央读数
 
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。

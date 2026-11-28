@@ -460,3 +460,251 @@ $\bigoplus_{g\in G}\mathbf Z_p(2)$。
 - o2_high_coefficient 已独立纸核原 rank/marginal、$n^4$
   contraction、三个留数的号与 $n^8$ 总尺度。
   无新数学程序执行，未加入任何数值非零或 $z_{12}$ 读数断言。
+
+
+## 10. 辅助数 2：保原常数的三个显式单位和 27 项 filling
+
+### 10.1. 原来源确允许 2
+
+本节把前文的辅助范围扩到 $n=2$，并保留所有原规范。
+这不是另换一个只有相同 divisor 的 theta。
+
+Sharifi–Venkatesh §6.3.1 在系数
+$\mathbb Z[1/30]$ 中对任意辅助素数 $n\nmid N$ 定义
+$\theta_n,\theta'_{n,C}$。该节脚注 19 特别说明：
+Kato 在 $\mathbb Z$ 系数下排除 $2,3$；
+本处已反除的 $24$ 则使 trace-fixed divisor 的提升存在且唯一。
+因此 (1157.4)–(1157.7) 的原 theta 和范数恒等式适用于 $n=2$。
+
+前文其余代数证明只反除 $n,2,3$。在本节
+$|{\rm GL}_2(\mathbb F_2)|=6$，所以二扭点 splitting field
+的次数也 prime-to-$p$。于是 §§2–8 的原三项上链、
+固定函数整塔与 noncusp 延伸都继续成立。
+特别不需将原 $E[p]$ 标记升级为 $E[p^r]$。
+
+### 10.2. 从真正 norm 确定 theta 的全部常数
+
+先在二扭点 splitting field 上写
+$$
+E:\quad y^2=(x-e_1)(x-e_2)(x-e_3),\qquad
+A_i=(e_i,0),\qquad
+K_i=\prod_{j\ne i}(e_i-e_j).
+$$
+采用原 Weierstrass 判别式
+$$
+\Delta=16\prod_{i<j}(e_i-e_j)^2=-16K_1K_2K_3.
+\tag{1157.24}
+$$
+这里只使用 characteristic zero 的非退化纤维，三个 $K_i$ 都非零。
+
+二扭点平移的实际坐标公式是
+$$
+x(T+A_i)=e_i+\frac{K_i}{x(T)-e_i},\qquad
+y(T+A_i)=-\frac{K_i\,y(T)}{(x(T)-e_i)^2}.
+\tag{1157.25}
+$$
+第一式来自原加法律；对其微分并使用
+$dx/(2y)$ 的平移不变性，得到第二式，故其负号固定。
+
+记 $t=[\theta_2]$ 为乘法群中的加法类。因为
+$\operatorname{div}(-[y])=4[O]-[E[2]]$，两者仅相差一个
+来自基域的常数类，该常数在平移比值中消失。
+于是
+$$
+R_i(T):=-\frac{(x(T)-e_i)^2}{K_i},\qquad
+t(T+A_i)-t(T)=[R_i(T)].
+\tag{1157.26}
+$$
+$R_i$ 是实际函数，方括号才表示其 $K_1$ 类。
+本节不把乘法比值与其加法类混写。
+
+精确函数等式给
+$$
+\prod_{i=1}^3R_i(T)=\frac{16y(T)^4}{\Delta}.
+$$
+另一方面，原 (1157.7) 的全 $E[2]$ norm 为零，故
+$4t+\sum_i[R_i]=0$。因此原 trace-fixed theta 的实际四次方
+代表完全确定为
+$$
+\boxed{\quad
+4[\theta_2]=[\Theta],\qquad
+\Theta(T)=\frac{\Delta}{16y(T)^4}.
+\quad}
+\tag{1157.27}
+$$
+这一步使用实际 norm，而不只比较 divisor；
+$\Delta$ 和 $16$ 都不能省去。
+
+令 $C_i=\{O,A_i\}$。同一原范数式
+$2[\theta'_{2,C_i}](T)=t(T)+t(T+A_i)$ 给
+$$
+\boxed{\quad
+4[\theta'_{2,C_i}]=[\Theta_i],\qquad
+\Theta_i(T)=\Theta(T)R_i(T)^2
+ =\frac{\Delta(x(T)-e_i)^4}{16y(T)^4K_i^2}.
+\quad}
+\tag{1157.28}
+$$
+所以无需另选 $K_i$ 的平方根，也没有新留待校准的 theta 常数。
+
+$\Theta,\Theta_i$ 均为真实 weight-zero 函数：
+在 Weierstrass 变换 $x\mapsto u^2x,\ y\mapsto u^3y$ 下，
+$\Delta\mapsto u^{12}\Delta$、$K_i\mapsto u^4K_i$，
+两式的权恰相消。它们在非退化族的 $E-E[2]$ 上为单位。
+非零 $p$-扭点代入因而给原全 noncusp 标记曲线上的实际单位，
+而非未消 Hodge 权的单个 division polynomial。
+
+### 10.3. 可直接用于兼容根的精确函数关系
+
+上述代表满足以下字面上的乘法恒等式：
+$$
+\begin{aligned}
+\prod_iR_i(T)&=\Theta(T)^{-1},\\
+\Theta(T+A_i)&=\Theta(T)R_i(T)^4,\\
+\Theta_i(T)^2&=\Theta(T)\Theta(T+A_i),\\
+\prod_i\Theta_i(T)&=\Theta(T),\\
+\prod_{A\in E[2]}\Theta(T+A)&=1.
+\end{aligned}
+\tag{1157.29}
+$$
+例如第二式由 (1157.25) 直接给出；第三、四、五式
+再分别由 (1157.28) 和第一式得到。
+对平移比值还精确有
+$$
+R_i(T+A_i)=R_i(T)^{-1},\qquad
+R_j(T+A_i)=\frac{R_k(T)}{R_i(T)}
+\quad(i,j,k\text{ 两两不同}).
+\tag{1157.30}
+$$
+后一式也可直接写成
+$y(T+A_i)/y(T+A_i+A_j)$，不需重新选择常数。
+
+因此可以从 $\Theta,\Theta_i,R_i$ 的同一兼容
+$p^\infty$ 根塔开始，按 $4\in\mathbb Z_p^\times$ 的逆映射
+恢复原 $\theta_2,\theta'_{2,C_i}$ Kummer 塔。
+每个 (1157.29)–(1157.30) 等于 $1$ 的乘积仍记录其实际根相位；
+它们作为 R1156 的 $d\rho$ 输入，而非被假设在任意选根下为零。
+这些原关系只涉及二扭点 splitting field，不要求另加平方根。
+
+### 10.4. 原三角形成为 27 个完全指定的三函数项
+
+仍取前文的非零 $P,Q,-P-Q\in E[p]$，
+并令 $B_0=0,B_1=P,B_2=P+Q$。
+(1157.13) 的原函数此时就是
+$$
+f_{A_i}^{(j)}(T)=[R_i(T-B_j)],\qquad f_0^{(j)}=0
+$$
+的加法记号。故 (1157.14) 完全变为
+$$
+\boxed{\displaystyle
+\mathcal K_{2;P,Q}
+ =-\frac1{256}\sum_{i,j,k=1}^3 w_{ijk}\,
+ [R_i(T)]\wedge[R_j(T-P)]\wedge[R_k(T-P-Q)],
+}
+\tag{1157.31}
+$$
+其中
+$$
+w_{ijk}=
+\begin{cases}
+6,&i=j=k,\\
+-2,&\text{恰有两个下标相同},\\
+2,&i,j,k\text{ 两两不同}.
+\end{cases}
+\tag{1157.32}
+$$
+这是 $w(A_j-A_i,A_k-A_j)$ 的原 rank 表：
+三下标全同给 rank 0；恰两同给 rank 1；
+三个非零二扭点全异时两差独立，给 rank 2。
+所以仍保原 $-2^{-8}$，不能凭函数中的平方另猜一个总尺度。
+
+三个支持陪集仍两两不交；原 §5 的全部分母和负 base 点
+消去逐字适用。因此
+$$
+\operatorname{Res}\mathcal K_{2;P,Q}
+ =B_2(P,Q)+B_2(Q,-P-Q)+B_2(-P-Q,P).
+\tag{1157.33}
+$$
+把 (1157.31) 的实际函数代入 R1156 四线程序，给出同一
+原三项的连续整 primitive，并保全部常数 $-K_i^{-1}$。
+不能把每个 $R_i$ 擅自换成 $(x-e_i)^2$：
+常数在 $K_3$ 三槽中的交叉项仍属于原有限关系见证。
+
+27 项只是三函数源的项数，不是声称最终四线展开恰有 27 项。
+所有辅助二、三次域、Cor/res 同伦和完整兼容根规范仍照原文保留。
+
+### 10.5. 接到已成的最高矩相关 torsor
+
+[R1158](R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)
+已将 §9 当时保留的共同商、完整 ordered 双线性 pushout
+及算术下降全部支付。
+它的显式 S/U polynomial filling 也只反除 $2,3$，
+因此以本节 $n=2$ 的原 raw primitive 作输入后，
+同样给真实 $\mathcal G_2^{\rm corr}$-torsor。
+rank-one 项仍完整；需要零 theta 的三项权仍严格为零。
+
+R1158 (1158.21)–(1158.24) 的原 theta 比较和根 gauge 给
+$$
+\begin{aligned}
+X_{2,4}&=\frac{63}{16}\mathsf M_4,&
+X_{2,8}&=\frac{1023}{256}\mathsf M_8,\\
+X'_{2,C,d}&=2\mathsf M_d^{\,C}-2^{-d}\mathsf M_d,
+&&d=4,8.
+\end{aligned}
+\tag{1157.34}
+$$
+这里仍是按 $\operatorname{Sym}^d(\psi_C^{-1})$ 运输的
+原 $2$-isogeny quotient，Tate factor 不另改规范。
+由于 $63=3^2\cdot7$、$1023=3\cdot11\cdot31$，
+两个显示平滑系数对所有 $p>37$ 都是单位。
+这是实际交换商的简化，不是中央 cochain 的反除。
+
+还可准确记录后继中央比较的几何标量。
+相同 theta 范数对 $d=12$ 给
+$$
+T_2\mathsf M_{12}=(2+2^{-12})\mathsf M_{12}.
+\tag{1157.35}
+$$
+事实上，$\sum_CX'_{2,C,12}=X_{2,12}$；代入
+$X'_{2,C,12}=2\mathsf M_{12}^{\,C}-2^{-12}\mathsf M_{12}$
+和 $X_{2,12}=(4-2^{-12})\mathsf M_{12}$，
+再除唯一的单位 $2$，即得此式。
+原 $\mathsf M_{12}$ 的几何 cusp residue 是 $1/12$，所以
+(1157.35) 确给最高 $\operatorname{Sym}^{12}\mathcal H(2)$
+一维几何 $H^1$ 的同一 eigenvalue。
+
+因此在该一维层上
+$$
+\begin{aligned}
+V_2&=16-4T_2+2^{-11},\\
+v_{\rm top,2}
+ &=16-4(2+2^{-12})+2^{-11}
+   =\frac{16383}{2048}
+   =\frac{3\cdot43\cdot127}{2^{11}}.
+\end{aligned}
+\tag{1157.36}
+$$
+对 $p>37$，其且仅可能在 $p=43,127$ 失去单位性。
+本式不声称已经构造 $V_2-v_{\rm top,2}$ 的算术链同伦。
+尤其不能只由 (1157.36) 将 (1157.31) 给的相关中央 primitive
+除以这个数，并称所得就是原未平滑 $z_{12}$。
+
+### 10.6. 实际使用范围
+
+本节给出了原 $n=2$ 来源的全部 theta 常数、严格平移关系、
+27 项三函数式和可直接复用的原 moment/root 接口。
+新证明仅使用 SV 原允许的 $n=2$ 及明确函数代数；
+没有执行数学程序。
+
+在 supersingular $p$-进退化中，原 $p$-扭点可同时趋向原点。
+故合法的 characteristic-zero 四线展开仍可能出现
+cross-ratio 的约化为 $0,1,\infty$。
+本节没有据此把所有四线参数都宣成 R1155 的 good-unit 输入，
+也没有删去坏参数的相位、局部或五项修正。
+同样，(1157.36) 只记录真正几何 Hecke 标量；
+算术路径修正和未平滑中央读数仍各自保留。
+
+o2_high_coefficient 已独立纸核本节的函数符号、四次方常数、
+27 项权、两个平滑系数和 $v_{\rm top,2}$ 的显示标量。
+
+root 已亲读 SV §6.3.1 与脚注19，并逐式核准二扭平移、Δ/16 的实际 norm 常数、五条严格乘法关系及所有27项的权；原各前节保留，n=2 的范围由本节明确扩展。原算术 Hecke 上链的后继接口已由 R1159 给出完整 J_n，未平滑同伦仍继续。

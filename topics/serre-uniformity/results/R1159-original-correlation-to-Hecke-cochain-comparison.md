@@ -20,6 +20,7 @@ $\Pi:A\otimes B\to Z$ 为原 $\Pi_0$，不改 symmetric-power 尺度。
 记为 $G$；以下都是有限模 $p$ 系数的连续 inhomogeneous cochains。
 
 选 R1157–1158 的合法辅助素数 $3<n<p$；$n=5$ 始终可用。
+R1157 §10 已完整支付 $n=2$ 的原来源，本篇所有上链公式也适用于 $n=2$。
 令 $H\subset G$ 为真实 cyclic-$n$ cover 的 stabilizer，$[G:H]=n+1$。
 选定 quotient correspondence 的同一基点路径，
 $\psi_C^{-1}$ 运输后的原两个 moment cocycles 记为
@@ -284,7 +285,9 @@ v_n=n^4+n^{-11}-n^2(n+n^{-12})
 \tag{1159.17}
 $$
 例如固定 $n=5$，$p>5^{14}-1$ 时 $v_n$ 确为单位。
-这只是同一原 cohomology 的 scalar 结论。
+另由 R1157 §10 的同一来源可取 $n=2$，此时
+$v_2=3\cdot43\cdot127/2^{11}$，对 $p>37$ 仅在 $p=43,127$ 失去单位性。
+这些都只是同一原 cohomology 的 scalar 结论。
 
 由 (1159.16) **不能**直接把 $h_{\mathcal V_n}/v_n$
 称作原 $\Omega$ 的 primitive：

@@ -70,3 +70,8 @@
 ### 2026-11-28 11:16 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1159付两个crossed projection-formula实际同伦、单矩norm根相位和完整J_n，得到指定hV=hCorr+J_n。root按相同右coset逐式核dR/dL、Cor–res差、两次杯积符号和scalar；即推。
 - 未平滑门精确为实际dB_n=(V_n−v_n)Ω，不能以H² scalar或quasi-isomorphism代替。原SS参数退化和F0继续；无数学执行。
+
+
+### 2026-11-28 11:18 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1157 §10付原n=2 trace-fixed theta全部常数和27项source，根规范/字面norm/二扭平移全部准确。root亲读SV§6.3.1/脚注19并核完整函数式，o2独核；旧1–9逐字保留，即推。
+- 同步R1158/1159的真实n2适用范围，κ4/κ8与v2准确边界保留；算术Hecke同伦、SS坏参数及原F0继续，无数学执行。

@@ -7,6 +7,7 @@
 ## 1. 结论和实际目标群
 
 固定 $p>37$ 及辅助素数 $3<n<p$，可始终取 $n=5$。
+后继 R1157 §10 已付同一 trace-fixed 来源的 $n=2$；本篇全部构造同样适用该辅助数。
 在 $\mathcal M=\mathcal M_{1,1,\mathbb Q}$ 上记
 $\mathcal H=\mathcal E[p]$、$L_r=\mu_p^{\otimes r}$。
 $\mathcal C_n\to\mathcal M$ 是真正的阶 $n$ 循环子群 cover，
