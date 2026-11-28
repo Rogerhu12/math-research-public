@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 当前真实数值
 
-同固定Fejer g/M160/J923/N2048/32stage，157/7 argv、458/445 formal、48live/全部变量/域/预算保。12–18官方cancelled，原因不猜；末真pull和未返科学保终态note。18–24均未返完整report，进度不能接准确费用。
+同固定Fejer g/M160/J923/N2048/32stage，157/7 argv、458/445 formal、48live/全部变量/域/预算保。12–18官方cancelled，原因不猜；末真pull和未返科学保终态note。18–25均未返完整report，进度不能接准确费用。
 
 | run及完整记录 | 最后实际返回边界 |
 |---|---|
@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 新机制与未付后继
 
-[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/控制器/请求/队列已刊，同22完整数值；137角色4变133保/19runtime，157/7 argv、458/445 formal、48+16live/原5CLI及12external保。初三步74384B，science+pure118548B/四步126669B>95000，真自然返后整接pure52394B；原所有准确费及固定参数精化责任保。普通push触发，官方run/新场待返；缓存不宣trial几何加速。
+[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/控制器/请求/队列已刊，同22完整数值；137角色4变133保/19runtime，157/7 argv、458/445 formal、48+16live/原5CLI及12external保。初三步74384B，science+pure118548B/四步126669B>95000，真自然返后整接pure52394B；原所有准确费及固定参数精化责任保。官方46099929359/1于02:49:28Z启动，新场待返；缓存不宣trial几何加速。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³接合/两根扰动/shape分解已证，ε1/8显式转向15/b→64/(7b)，高阶代价/存在条件保，不推wholeK/reach。[完整新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊；八cut真入working mean，26全上层/准确WholeMean cutoff及radial/leaf未付，原bubble/lift/外层Gauss保。
 

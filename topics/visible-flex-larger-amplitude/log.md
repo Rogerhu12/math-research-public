@@ -346,3 +346,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:49:19 UTC — 25完整独立科学启动包
 
 [25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)六件153959B（controller先已刊），全源/参数已先main；同22全数值/域/预算，157/7、458/445、64live、原5CLI与12external完整保。初三步74384B，science+pure118548B/四步126669B>95000，真自然返后整接pure52394B；完整旧24 request66字段保整53547B原件，当前32k请求未混5/8旧值。真实push触发唯一新workflow，尚无官方run/数值假定；H/open旧字固定a8bf533d43fe8ff406a3e341037b5ef465dad4b2、§1–6不动。双README云核至`dc83df06aa87745dff2d2b16cc1bef1f446a14c0`无变（非pull）。
+
+## 2026-11-28 02:50:29 UTC — 25官方真实启动
+
+run46099929359/1、workflow433356137、job140839831948，head007348e5c8bd943a13704d7761cf9d4d6b06fea6，于02:49:28Z实际created/start/in_progress。checkout/setup成功，依赖安装中、原研究步骤pending；input/model/point/geometry仍未返，完整官方对象保25note，无重复启动。双README云核至`d58b1a12e0bafdc59acc60696c0d72d8f66c80b6`无变（非pull）。

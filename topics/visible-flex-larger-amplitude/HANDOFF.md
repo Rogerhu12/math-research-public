@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`dc83df06aa87745dff2d2b16cc1bef1f446a14c0`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`d58b1a12e0bafdc59acc60696c0d72d8f66c80b6`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -27,11 +27,11 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 22=46090913581 | 两input0；初7e06/g.5305849371949052/accepted0，六族返；trial97fbb统计返Phi681.6511710299278/Gram.4061652579029476，几何/决定未知；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 | 23=46094430214 | 两input0；b31c/f2a9/PID3652/model0abfbf，初7e06/g.968424994209506，六族返/accepted0；triald86d统计返Phi3825.0583176123996/Gram.6460503022350718，几何/策略未返。 |
 
-所有source/model/point/六族/事件/原失败保[open§7](open.md)所链各完整run note与固定旧H；18–24完整科学report未返，当前点不可行。
+所有source/model/point/六族/事件/原失败保[open§7](open.md)所链各完整run note与固定旧H；18–25完整科学report未返，当前点不可行。
 
 ## 新机制及完整后继
 
-[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/新controller/workflow/queue/request已刊：同22数值，137pair4变133保/19runtime；157/7、458/445、48+16live，原5CLI/12external保。初三步74384B；科学+pure118548B须真自然返后整接。普通push触发，官方run待实际返回。
+[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/新controller/workflow/queue/request已刊：同22数值，137pair4变133保/19runtime；157/7、458/445、48+16live，原5CLI/12external保。初三步74384B；科学+pure118548B须真自然返后整接。官方46099929359/1/job140839831948于02:49:28Z启动，输入/新场待返。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach；[完整seed](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，26上层和准确链继续。
 
