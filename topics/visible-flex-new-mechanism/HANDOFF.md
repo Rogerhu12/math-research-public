@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **28a262991a569a691f32ead0dd7a59bf65d539d7**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **780f4a6db48b1be39f3436576397bc4afa185876**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -38,22 +38,20 @@ R648–R653全尾三jet/真C²正collar/法管仍欠，R658无穷差不代分母
 
 [当前原路径](notes/2026-11-28-r631-b7e0-macro-continuation.md)run46133637169/sourcedf0c9896，源6673.02691023秒/51接受119拒、μ0/J48/b7e0η2.48671e−5；52J51QR未存末J留债。续P/Pdot/λ1e−14/全部1451→1707→2219列、μ、fine，不重旧步。R640的R.8/球1.032/reach.062只在R646同一实际μ1 P全域门后可用，仍需冻结同g精化。
 
-## F：真实有限角、闭厚几何与固定g
+## F：有限角、闭厚几何与同g精化
 
-R655/R662条件几何D<1/hold≥.201/dH≥.3/reach≥.03要求同候选全域双轴法向正、|κ|≤100/3/真盘包络，样本不授reach。
+R655/R662条件几何D<1/hold≥.201/dH≥.3/reach≥.03，须同候选全域双轴正法向、|κ|≤100/3/真盘包络；样本不授reach。[R659](notes/2026-11-28-r659-finite-angle-actual-terminal.md)与[R669](notes/2026-11-28-r669-actual-curvature-continuation-terminal.md)真实全部费用/参数/未冻E保原文，后者1014.069021158秒/189接受/η.10054/κ80.9505，旧步不重跑。R665弦超额、R671饱和两线、R679椭圆二基符号排除了相应旧输入；R673弓形g+仅做同支，不能用精确反射两端。
 
-[R659](notes/2026-11-28-r659-finite-angle-actual-terminal.md)147.440342538秒/144接受/810列，η.01698539/κ117.45498未冻E。[R669真终态](notes/2026-11-28-r669-actual-curvature-continuation-terminal.md)run46138497837：1014.069021158秒/189接受/191JQR，934末态η.1005403856/κ80.95052/闭合.00137690，R665长差−.000540649、trust9.742e−11，无E冻结。正在换真实proper相位输入；物理和fine过门才冻E并同g精化。
+[R680](results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md)真proper相位厚锚sinθ=.27/偏心帽.56，κ<32.8/reach.03/D<1/hold.201/dH.3024已付，但E_sharp仅长度必要量，不是同g。[R683真末态](notes/2026-11-28-r683-proper-phase-metric-transport-natural-terminal.md)279.610253657秒/112接受/1058列，η.0304898/κ28.7128/余长−.00110094，迭代上限非停滞，E未冻；R687换完整帧输入。
 
-R665排1.01倍裸弦超额；母线余长不代二维相容。R667真闭宏观参考中间误差>.05；R671饱和两线使旧g仅±θ。R673弓形g+参考κ<32.3，但精确反射两端被R679椭圆点二基符号排除，必须同支。[R675真终态](notes/2026-11-28-r675-bowed-endpoint-response-natural-terminal.md)run46141399411/23.076369974秒/五全QR5620列；末细应变.01060004、矩−.00137253、二基25459，未触二阶。仅同支非镜像目标，有限余距不授无限维排除。
-
-[R680](results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md)新sinθ=.27、偏心外帽.56及C′=−1.01pQe_z真proper相位：全κ<32.8/同号椭圆/全reach.03/D<1/握持.201/整像.3024已付。E_sharp支付所有弦及全β端切长度但不是诱导同g；[R683](results/R683-proper-phase-angular-metric-transport-from-a-thick-surface.md)已发布新输入：真厚锚点、934全列、g±.03b光滑保护及双网实际全壳；[真终态](notes/2026-11-28-r683-proper-phase-metric-transport-natural-terminal.md)279.610253657秒/112接受，1058列/η.0304898/κ28.7128/余长−.00110094；迭代上限非停滞，E未冻结。R687换完整帧输入，不重旧步。
+[R675](notes/2026-11-28-r675-bowed-endpoint-response-natural-terminal.md)五真响应23.076369974秒、末应变.0106/矩−.0013725/二基25459未到二阶。[R685](results/R685-small-unit-pose-strain-with-exact-moment-and-diverging-bending-cost.md)证准确矩仍可小应变/二基发散；[真有限末态](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/12全步，3152列q−.004/η4.45883e−5/κ29.0581。R691从此同g加密，五旧响应/四硬矩/三角站不重跑，站间连续族未付。
 
 ## G：活动整圈到真正闭帽
 
-R637/R642/R644/R652双核/全频gap仍欠宏观q；R652/R657已付ODE/几何不重播。R660只排原窄带，R666另参考cosh/球二模、R670固定开盘小幅双端不授宏观闭族，R661/R664仍两开帽口。
+R637/R642/R644/R652双核/全频gap仍欠宏观q；R652/R657已付ODE/几何不重播。R660只排旧窄带；R666另参考二模、R670小幅双端不授宏观闭族，R661/R664仍开口。[R676](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)真弯盘/整圈同g领后仍欠Bτ=m=0、净∫K=2π、嵌入/全法管/支撑。
 
-[R676](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)真有限弯盘及整圈非平同g领；反射闭桥须终圈Bτ=m=0、净∫K=2π、单侧嵌入和全法管/支撑。
+[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)双真帽/双平带/四负领，近帽固定；[R684](results/R684-directional-gauss-degree-and-two-solid-window-crowns.md)逐方向Gauss补±.96/.11球冠/真锥口及帽肩，旧件D<3.15/hold.80/支撑>1.01，不借给未知窗。[R682](results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md)同g椭圆盘/正桥D<2.49/hold.52/dH>.85/reach>.099仍有边；闭转2π/周期及点态g未解，真实二jet三矩输入不代同g。
 
-[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)两真实刚性正帽+双平度量弯带+四负领，固定近帽，远帽纯平移Δ支撑>1.01，外件D≤3.15/开握持.80。剩余镜像四边窗保全部真位置/二jet；全点同g与全闭reach未付。总曲率预算不代逐方向Gauss重数，[R684](results/R684-directional-gauss-degree-and-two-solid-window-crowns.md)已逐方向补实际±.96球心/.11刚冠、>.105真锥口和帽肩，每半窗负领至多一次；全外件D<3.15/支撑>1.01。[R686](results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md)真源环带/完整SO3的curl、周期、两实锚及真实度量/二jet/曲率误差传递已给；源S肩支撑/全法管仍欠。[R682](results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md)真实同g有边盘D<2.49/hold.52/dH>.85/reach>.099及正桥已付，闭合仍欠2π与周期；真实外件二jet和三矩输入不代点态g。[R685](results/R685-small-unit-pose-strain-with-exact-moment-and-diverging-bending-cost.md)已证小应变+准确矩仍可二基发散；[真末态](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/12全步，3152列q−.004/η4.45883e−5/κ29.0581；R691从此同g加密继续，五旧响应/四硬矩/三角站不重跑，站间连续族未付。
+[R686](results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md)给真源环带/完整SO3 curl、非收缩周期、两真锚与实际度量/二jet/曲率误差传递，源S肩支撑/全法管未付。[R690](results/R690-window-short-material-path-and-moving-central-crown-poses.md)实路径<.775/固定冠末弦>.830排该源旧姿态；共平移真冠/整中央桥至r=.20平圈，整片同g/二jet及自身reach> .0961，和旧件净空/径/支撑已付。R688按此真边界解剩外窗全相位/全壳reach，不授其他源资格。
 
-R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g相位且δE可0。完整同g全时、真实多t网格、存在差距等门均仍未完成，继续实际新输入。
+旧任务和全部失败/费用见[完整open归档](open-archive-through-R690-20261128.md)及各原文。R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g且δE可0。连续同g全时、真实多t全网格/存在差距/全完成门仍未付，继续实际新输入。
