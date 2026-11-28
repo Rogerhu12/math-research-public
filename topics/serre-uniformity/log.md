@@ -120,3 +120,8 @@
 ### 2026-11-28 12:03 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原genus4 §15.4付共同负p主部、原e/K4在同一B上的两Laurent读数及完整norm最高单位；另付b6的Rcal³B精确来源。root核坐标/主部、两次Wilson和原J.7/J.9–10；o2核主要相位，完成即推。
 - 两个实际低读数共同零继续；顶单位及b6未当原K4非零，无数学执行。
+
+
+### 2026-11-28 12:03 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1154 §14付Darboux commutator的完整单位对角、formal τ首边界、双权有限读取和原B/U/V全部一次补项；固定ν阶数递推保τ0/±1。root核Laurent留数adjoint、尾投影、加权scalar交叉项与清分母递推；o1核边界核心，完成即推。
+- 仍须原good-mask/变化次数与真正两根运输，未将eν²0用于删scalar乘积，无数学执行。

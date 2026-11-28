@@ -123,6 +123,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §13](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)实际Fν,τ=AτJν,τ的一阶参数列恰−Vν；完整(Lν−τ²)F=(τ−τ^p)(jτw^(p−2)−kτw^(p−1))，故LνVν=aνw^(p−1)。Green核为(1−(τ+σ)^(p−1))(kτjσ−jτkσ)/(τ−σ)，形式τ不得先取Fp值。所有原Pν⁴/wPν⁶等权都由同E读取：M0=1−η^(p−1)、M1=−E(η/2)/η、M_(j+1)=M_(j−1)+ηM_j/j，保Mp=0、M_(p−2)=η的真实cutoff。变化次数r−1的Jacobi端点准确还原原q_r(R)，但还没有保原二根与固定ν权重的intertwiner；actual-good共同纤维仍开。
 
+[R1154 §14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)支付Darboux的完整被截边界：Eν=[Tν,w^p]/p mod(p,w^p)为A/(wν)至w^(p−ν)A的同构，单位对角显式；TνAτ=(−1)^νν!Fντ−(τ−τ^p)EνAτ，故ν!Vν=TνLp+Eν1。全双权边界为有限前ν jet和，原B/U/V保一次项；eν²0不消两个已读取标量的6b∂u∂。固定ν的τ±1/±2递推已清分母保全部退化点，X²=−x；原good-mask不因此封闭，变化r−1仍不当固定ν，实际二根排除继续。
+
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。

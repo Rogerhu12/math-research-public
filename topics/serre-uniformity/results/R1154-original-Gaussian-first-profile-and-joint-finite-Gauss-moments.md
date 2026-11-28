@@ -1538,3 +1538,237 @@ $P_\nu^4,wP_\nu^6$ 权重作算子等同，
 全节为纸面证明，没有数学程序执行。
 
 root 全文逐式核准形式参数的p/p+1边界、Green相减号、M_j递推至真实j=p端点、所有原Pν权重与Newton尺度。特别未在参数微分前使用τ^p=τ，也未把固定ν与变化r−1等同；o1独核完整Green核。无数学程序执行。
+
+
+## 14. Darboux 运输的完整最高 jet 与固定次数的阶数递推
+
+本节继续 §13 的同一个有限代数、配对和形式参数。
+将 Jacobi 族写成 Darboux 运输时，截掉次数 $p$ 以上的项并不与微分算子交换。
+下面计算这个差，而不是只在 $\tau\in\mathbf F_p$ 上比较后再求参数导数。
+
+### 14.1. 一个明确的 $\nu$ 阶边界
+
+仍记 $q=1-w^2$、$\mathcal D=q\,d/dw$，并置
+$$
+A_j=\mathcal D-jw,\qquad B_j=\mathcal D+jw,\qquad
+\mathcal T_\nu=A_\nu A_{\nu-1}\cdots A_1 .
+$$
+算子的乘积从右向左作用；相对于 (1154.54) 前的配对，
+$A_j^*=-B_j$。
+在特征零的安全有理系数环中，Jacobi 的有限二项式式给
+$$
+(\mathcal D+\tau-jw)J_{j-1,\tau}=-jJ_{j,\tau}.
+$$
+所以逐步作用，得到完整恒等式
+$$
+\mathcal T_\nu e^{\tau\operatorname{atanh}w}
+=(-1)^\nu\nu!\,
+ e^{\tau\operatorname{atanh}w}J_{\nu,\tau}.
+\tag{1154.65}
+$$
+这里不先约化无限指数级数。
+
+先在 $\mathbf Z_{(p)}[w,d/dw]$ 定义，再约化
+$$
+\mathfrak E_\nu=
+\frac{[\mathcal T_\nu,w^p]}p
+\pmod{(p,w^p)}.
+\tag{1154.66}
+$$
+这是实际整微分算子：$\nu<p$，而
+$d^a(w^p)/dw^a$ 对 $1\le a\le\nu$ 都被 $p$ 整除。
+它在 $\mathcal A=\mathbf F_p[w]/(w^p)$ 上有定义。
+对单项式的最低项准确为
+$$
+\boxed{
+\begin{aligned}
+\mathfrak E_\nu(w^i)
+&=(-1)^{\nu-i-1}i!(\nu-i-1)!
+  w^{p-\nu+i}
+  +\text{更高次项},
+&&0\le i<\nu,\\
+\mathfrak E_\nu(w^i)&=0,
+&&\nu\le i<p.
+\end{aligned}}
+\tag{1154.67}
+$$
+确实 $\mathcal T_\nu$ 的最高导数项为 $q^\nu(d/dw)^\nu$；
+只有它能给显示的最低次数，其系数是
+$(p+i)(p+i-1)\cdots(p+i-\nu+1)/p$ 的约化。
+其它项只能提高次数。
+因此
+$$
+\ker\mathfrak E_\nu=(w^\nu),\qquad
+\operatorname{im}\mathfrak E_\nu=w^{p-\nu}\mathcal A,
+\qquad \operatorname{rank}\mathfrak E_\nu=\nu.
+$$
+这是前 $\nu$ 个 jet 到最高 $\nu$ 个 jet 的同构，不能把它整体删去。
+特别 $\nu$ 为奇数时，
+$\mathfrak E_\nu(1)=(\nu-1)!w^{p-\nu}+\cdots$，
+显示首项为单位。
+
+### 14.2. 原 companion 的全部修正
+
+若 $a_j=[w^j]e^{\tau\operatorname{atanh}w}$，则 §13 的首次边界还给
+$$
+pa_{p+j}\equiv(\tau-\tau^p)a_j\pmod p
+\qquad(0\le j<\nu).
+$$
+由 $pa_p=\tau-\tau^p$ 和原一阶方程，
+对 $j$ 归纳即可；所有递推除数 $1,\ldots,\nu-1$ 都是单位。
+在这些次数内只有一次 $p$ 分母。
+次数至少 $p+\nu$ 的项不可能经 $\mathcal T_\nu$ 落到 $w^p$ 以下。
+
+于是 (1154.65) 约化后的完整式是
+$$
+\boxed{
+\mathcal T_\nu A_\tau
+=(-1)^\nu\nu!F_{\nu,\tau}
+-(\tau-\tau^p)\mathfrak E_\nu(A_\tau).}
+\tag{1154.68}
+$$
+这里 $\mathfrak E_\nu(A_\tau)$ 只需要 $A_\tau$ 的前 $\nu$ 个系数，
+所以是定义明确的有限多项式。
+对形式参数在零处微分，利用 $\nu$ 为奇数与 (1154.55)，得到
+$$
+\boxed{\qquad
+\nu!V_\nu=\mathcal T_\nu\mathcal L_p+\mathfrak E_\nu(1).
+\qquad}
+\tag{1154.69}
+$$
+逐点的 $\tau^p=\tau$ 不能消掉本式最后一项。
+
+边界还有无需重建高次多项式的双权读取。
+对任意 $f,g\in\mathcal A$，
+$$
+\boxed{
+\langle f,\mathfrak E_\nu g\rangle
+=\sum_{j=1}^{\nu}
+ \bigl(A_{j+1}^*\cdots A_\nu^*f\bigr)(0)\,
+ \bigl(A_{j-1}\cdots A_1g\bigr)(0).}
+\tag{1154.70}
+$$
+空乘积为恒等。
+证明可在 Laurent 算子中直接进行：
+$$
+w^{-p}\mathcal T_\nu w^p
+=\prod_{j=\nu,\ldots,1}(A_j+p q/w).
+$$
+减去 $\mathcal T_\nu$、除以 $p$ 后，只保一次插入 $q/w$。
+在留数配对中把其左侧算子逐个移到 $f$ 上，
+而 $(q/w)\,dw/q=dw/w$；最后只读两正规函数的常数项。
+这同时保留了所有符号与两端 jet。
+
+记 $e_\nu=\mathfrak E_\nu(1)$，
+并令 $\operatorname{bd}_\nu(f)=\langle f,e_\nu\rangle$。
+因为
+$A_{j-1}\cdots A_1(1)=(-1)^{j-1}(j-1)!\mathsf P_{j-1}$，
+且 $\nu$ 为奇数，(1154.70) 化为
+$$
+\operatorname{bd}_\nu(f)=
+\sum_{\substack{1\le j\le\nu\\j\ {\rm odd}}}
+ (j-1)!\mathsf P_{j-1}(0)\,
+ (B_{j+1}\cdots B_\nu f)(0).
+$$
+它只读 $f$ 的前 $\nu$ 个 jet；
+没有以这个有限和的存在断言其值为单位。
+
+### 14.3. 原四个 weighted 读取中的一次边界
+
+仅在本小节置 $\mathsf K_\nu=\mathcal T_\nu\mathcal L_p$，
+并仍写 $P=\mathsf P_\nu$。
+由于 $2(p-\nu)\ge p$，在 $\mathcal A$ 中有 $e_\nu^2=0$。
+因此 (1154.69) 代入原四个 moments，恰给
+$$
+\boxed{\begin{aligned}
+a_\nu^2\mathsf h
+&=\frac{\langle wP^3,\mathsf K_\nu\rangle+
+               \operatorname{bd}_\nu(wP^3)}{\nu!},\\
+\mathbf B_\nu
+&=\frac{\langle P^4,\mathsf K_\nu^2\rangle+
+               2\operatorname{bd}_\nu(P^4\mathsf K_\nu)}
+              {(\nu!)^2},\\
+\mathbf U_\nu
+&=\frac{\langle wP^7,\mathsf K_\nu\rangle+
+               \operatorname{bd}_\nu(wP^7)}{\nu!},\\
+\mathbf V_\nu
+&=\frac{\langle wP^5,\mathsf K_\nu^3\rangle+
+               3\operatorname{bd}_\nu(wP^5\mathsf K_\nu^2)}
+              {(\nu!)^3}.
+\end{aligned}}
+\tag{1154.71}
+$$
+这些仍是 §10 的同一 $\mathbf B_\nu,\mathbf U_\nu,\mathbf V_\nu$，
+没有将 $P^4$、$wP^6$ 或高端 cutoff 换成无权端点。
+
+例如记上面三个分子的非边界部分为
+$B^\circ,U^\circ,V^\circ$，相应一次读取为
+$b^\partial=\operatorname{bd}_\nu(P^4\mathsf K_\nu)$、
+$u^\partial=\operatorname{bd}_\nu(wP^7)$、
+$v^\partial=\operatorname{bd}_\nu(wP^5\mathsf K_\nu^2)$，则实际 minor 的完整分子是
+$$
+(\nu!)^3(3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu)
+=3(B^\circ+2b^\partial)(U^\circ+u^\partial)
+  -V^\circ-3v^\partial .
+$$
+其中 $6b^\partial u^\partial$ 是两个已读取标量的乘积，
+不能由函数恒等式 $e_\nu^2=0$ 删掉。
+本节固定了真正的边界计算，没有证明右边非零。
+
+### 14.4. 固定 $\nu$ 的阶数递推与它的边界
+
+同一个有限二项式定义还直接给
+$$
+\begin{aligned}
+(\nu-\tau)J_{\nu,\tau+1}
+ &=-(1-w)J_{\nu,\tau}'-\tau J_{\nu,\tau},\\
+(\nu+\tau)J_{\nu,\tau-1}
+ &=(1+w)J_{\nu,\tau}'+\tau J_{\nu,\tau}.
+\end{aligned}
+$$
+可逐项用 Pascal 恒等式核准；这里的次数一直是固定的 $\nu$。
+若把它写成对有限 $F_{\nu,\tau}$ 的微分作用，
+(1154.60) 前的一阶边界必须保留：
+$$
+\boxed{\begin{aligned}
+(\nu-\tau)\sqrt q\,F_{\nu,\tau+1}
+ &=-(\mathcal D+\tau w)F_{\nu,\tau}
+   -(\tau-\tau^p)j_\tau w^{p-1},\\
+(\nu+\tau)\sqrt q\,F_{\nu,\tau-1}
+ &=(\mathcal D-\tau w)F_{\nu,\tau}
+   +(\tau-\tau^p)j_\tau w^{p-1}.
+\end{aligned}}
+\tag{1154.72}
+$$
+$\sqrt q$ 始终取常数一的有限平方根。
+两式相加时上述边界确实相消。
+令 $X=w/\sqrt q$，得到
+$$
+(\nu-\tau)F_{\nu,\tau+1}
+ +2\tau X F_{\nu,\tau}
+ +(\nu+\tau)F_{\nu,\tau-1}=0.
+$$
+再次使用这条式子，并先清分母，有
+$$
+\boxed{\begin{aligned}
+4\tau(\tau^2-1)X^2 F_{\nu,\tau}
+={}&(\tau-1)(\nu-\tau)(\nu-\tau-1)F_{\nu,\tau+2}\\
+ &+2\tau\{\nu(\nu+1)+1-\tau^2\}F_{\nu,\tau}\\
+ &+(\tau+1)(\nu+\tau)(\nu+\tau-1)F_{\nu,\tau-2}.
+\end{aligned}}
+\tag{1154.73}
+$$
+它在 $\mathcal A[\tau]$ 中成立，因而也保留
+$\tau=0,\pm1,\pm\nu$ 的退化边界；
+不得在这些位置反除显示的因子。
+同时 $X^2=w^2/(1-w^2)=-x$，
+正是 §7 的同一有限 Gauss 变量，并非新引入的自由坐标。
+
+(1154.73) 支付原固定次数族中 $X^2$ 乘法的三项运输。
+它仍不表示原 Bernoulli good-mask 在 $\tau\mapsto\tau\pm2$ 下封闭，
+也没有把 (1154.64) 中变化的次数 $r-1$ 认成 $\nu$。
+后续要由此排除两个实际 coarse 点，仍须证明运输保留原二根系数和实际可用行。
+本节新增的可用来源是 (1154.67) 的精确边界同构、
+(1154.70)–(1154.71) 的原 weighted 读取和
+(1154.72)–(1154.73) 保退化项的阶数递推。
+全节为纸面证明，无数学程序执行。

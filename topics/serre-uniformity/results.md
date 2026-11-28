@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Darboux的完整边界与固定次数递推（已证明）**：[R1154 §14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)精确Eν是前ν至最高ν jet同构，完整formal τ缺陷给原Vν和所有weighted补项；固定ν阶数递推保τ0/±1及全部清分母边界。两个scalar边界乘积仍保，未宣原minor或good-mask闭合。
+
 - **原e/K4的同一quadric源两读数（已证明）**：[原genus4 §15.4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)共同主部c0与原Dixon算子锁定e/K4⇔B及(U/v)DB的两个指定Laurent槽同零；norm最高边界精确为(ρ²−1)/(b0²δ²)单位。第六层b6保为不同cubic moment，未借顶unit排两低读数。
 
 - **原坏参数的实际有限 Frobenius 读取（已证明）**：[R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)浅退化κ≤1/3保完整首p修正及尾界；共同log-preserving提升支付任意深near0，完整Coleman S/J支付实际near1/∞运输。非整坐标误差及原共同提升条件均保留，未把分歧fibres当同点FL。
