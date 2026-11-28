@@ -1,5 +1,15 @@
 # 公开 run12 的真实取消终态：完整科学步骤未自然回传
 
+## RET86：终态导读与完整历史记录
+
+**已知终态：** run12 官方 completed/cancelled，原因未知。两必要输入实际返回 0；完整科学没有观察到自然返回，report/final/typed/pure 均不能据取消补成已完成。下文全部 48 原观察字段保其固定完整记录。
+
+本版保留原笔记全部非 JSON 叙述、数值表、公式、时间顺序、来源与参数链接、接受/拒绝及错误/未知原文。4 个重复嵌入的 JSON 改为各自固定全文和精确行号引用；它们的所有原字段、命令、标量、缺值和 whole 身份仍在同一完整旧文件中。这里没有把原 JSON 重编码成数值载体，也没有改动科学源、request、ready、实际输入、checkpoint 或报告。
+
+**完整旧文件：** 22062 字节；SHA256 `ef9e35d7a5280c8ace4680530952a58374db9745caa4657492c3e739f4d376d2`；Git blob `54b339f3c1ff338aac2378c84f48d7371617cc8c`；固定提交 `0ff96dc0001b35cac2301f942e55292fe0f808ed`。[完整旧版](https://github.com/Rogerhu12/math-research-public/blob/0ff96dc0001b35cac2301f942e55292fe0f808ed/topics/visible-flex-larger-amplitude/notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md)。旧 whole-hash 读者应从该提交恢复原件；当前紧凑笔记有独立新身份，不能冒旧字节。逐块对应与恢复说明见[RET86 完整交付表](../computations/terminal-run10-14-narrative-retention-86-complete-delivery.json)。
+
+下文“当前”“未返”“准备”均保各原节的时间作用域；旧 running 不覆盖已知官方终态。原文所称“以下完整对象”现在由紧接其后的固定完整记录链接承接，不是声称该 JSON 仍内嵌于当前正文。首次准备的 null 也不覆盖后面真正返回的事实。
+
 ## 1. 已核终态
 
 在 **2026-11-27 19:48:01 UTC** 的实际只读观察中，公开运行 [46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225) 的官方 API 为 `completed / cancelled`。Job `140547455454` 及其第 5 个 research step 也为 `completed / cancelled`。这是运行终态，不是原完整求解器的正常完成记录。
@@ -8,94 +18,8 @@
 
 完整官方 job 包装返回及准确 run 字段投影如下；字段投影不是完整 raw API 响应的别名：
 
-```json
-{
-  "observed_at_utc": "2026-11-27 19:48:01 UTC",
-  "official_run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225",
-  "official_api_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46011377225",
-  "official_run_fields": {
-    "id": 46011377225,
-    "name": "Visible larger amplitude predetermined complete fixed input 20261127 12",
-    "head_sha": "ed9fbfec354330d11b0e46ef61a4d0565b88dfc6",
-    "path": ".github/workflows/visible-larger-20261127-parallel12.yml",
-    "run_number": 1,
-    "event": "push",
-    "status": "completed",
-    "conclusion": "cancelled",
-    "workflow_id": 432798115,
-    "created_at": "2026-11-27T13:56:02Z",
-    "updated_at": "2026-11-27T19:46:23Z",
-    "run_started_at": "2026-11-27T13:56:02Z",
-    "run_attempt": 1,
-    "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225",
-    "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46011377225/jobs"
-  },
-  "complete_job_wrapper_response": {
-    "jobs": [
-      {
-        "id": 140547455454,
-        "name": "Construct the predetermined fixed input and run complete-field research",
-        "status": "completed",
-        "conclusion": "cancelled",
-        "run_id": 46011377225,
-        "logs_url": null,
-        "steps": [
-          {
-            "name": "Set up job",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 1
-          },
-          {
-            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 2
-          },
-          {
-            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 3
-          },
-          {
-            "name": "Install the recorded numerical and automatic differentiation dependencies",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 4
-          },
-          {
-            "name": "Execute public research and publish independent compact records",
-            "status": "completed",
-            "conclusion": "cancelled",
-            "number": 5
-          },
-          {
-            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-            "status": "completed",
-            "conclusion": "skipped",
-            "number": 9
-          },
-          {
-            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 10
-          },
-          {
-            "name": "Complete job",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 11
-          }
-        ]
-      }
-    ]
-  },
-  "job_detail_timestamp_not_returned_by_available_wrapper": true,
-  "cancellation_reason_not_established_by_this_record": true
-}
-```
+> **原 JSON 01：官方终态投影与完整 jobs。** [固定旧版完整记录，第 11–98 行](https://github.com/Rogerhu12/math-research-public/blob/0ff96dc0001b35cac2301f942e55292fe0f808ed/topics/visible-flex-larger-amplitude/notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md#L11-L98)。
+
 
 ## 2. 原公共小卷仍只有两个真实输入返回
 
@@ -106,22 +30,8 @@
 
 这两记录的原完整命令、全部实际输入、输出 record、source commit、完整输出 SHA 和紧凑数值仍逐字在下列原分卷内。本次未修改、删除或重新执行这些输入阶段，也未把终态当作新的科学返回。
 
-```json
-{
-  "last_index": {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46011377225-1.md",
-    "bytes": 9684,
-    "sha256": "5d4d4d3367e7e272fa9f21de47022de3ef708ed24db63889325fcf84bf085451",
-    "git_blob_sha": "2da2e686db6e3f63f5afc16e7ca5e89c6556becd"
-  },
-  "complete_returned_part": {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46011377225-1-part-001.md",
-    "bytes": 16600,
-    "sha256": "5c093747e64ca227983e72590db4f5fc9bcc6fc950889504ee85edc8df30472a",
-    "git_blob_sha": "2daddb631388db54dd4309857297294c332faf1a"
-  }
-}
-```
+> **原 JSON 02：原索引和完整返回分卷身份。** [固定旧版完整记录，第 109–124 行](https://github.com/Rogerhu12/math-research-public/blob/0ff96dc0001b35cac2301f942e55292fe0f808ed/topics/visible-flex-larger-amplitude/notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md#L109-L124)。
+
 
 完整公开路径：
 
@@ -130,165 +40,8 @@
 
 原分卷的两个 JSON 对象均完整存在；未见第三个自然返回对象或第二卷。其完整返回对象的关键实际字段如下，其余完整原字段以以上固定整 blob 为准：
 
-```json
-[
-  {
-    "name": "followup:prepare-complete-fixed-fejer-r690-inputs-20261127",
-    "state": "completed",
-    "returncode": 0,
-    "seconds": 5.893721085999999,
-    "scope": "Necessary complete deterministic new mathematical input. Restore the exact accepted099 scalar-parameter source; extract the whole e640 projection; construct the fixed seven-mode RN-even Fejer chart, all 923 exact affine nodes and complete FullHold node/radius error ledger. No warm/BVP/pulse field, old core, old final, F/J/normal root or geometric certificate is used. This is a new fixed target; original branches and old literal-address provenance are retained explicitly.",
-    "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
-    "source_commit": "97051366b05adc2a6aa27c845f712c5b79edfdff",
-    "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
-    "command": [
-      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
-      "-u",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0001-167d7c1a5813-97051366b05a/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
-      "--repo",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0001-167d7c1a5813-97051366b05a",
-      "--outdir",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs",
-      "--panels",
-      "128"
-    ],
-    "input_files": [
-      {
-        "role": "source",
-        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
-        "commit": "97051366b05adc2a6aa27c845f712c5b79edfdff",
-        "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60"
-      },
-      {
-        "role": "followup_queue",
-        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-12.json",
-        "path_commit": "ed9fbfec354330d11b0e46ef61a4d0565b88dfc6",
-        "checkout_commit": "97051366b05adc2a6aa27c845f712c5b79edfdff",
-        "sha256": "6abc9ba8570ef97dbc957955958e4c314632cec33b1f3687a5aad305417e8e1b"
-      }
-    ],
-    "outputs": [
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/report.json",
-        "sha256": "255094e105fcddf87f35c326dce107f8524e83961bc21ee09153ba7af56aec32",
-        "bytes": 65332
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
-        "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
-        "bytes": 4334
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
-        "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
-        "bytes": 144306
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
-        "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
-        "bytes": 40488
-      }
-    ],
-    "missing_outputs": [],
-    "summary_errors": []
-  },
-  {
-    "name": "followup:prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run12",
-    "state": "completed",
-    "returncode": 0,
-    "seconds": 430.2165345,
-    "scope": "Necessary complete reference construction for the one predeclared Fejer RN-even64 chart and complete original R690 scalar. Consume all real fixed-input products from the independent formula maker, preserve all 923 exact nodes, 7377 positive observations and every eight-Gauss/reference scalar jet. The scalar integer table uses a predeclared 2218-leaf rule; H is the original complete normalized-c Gauss seed and remains free. Reinterpret the full ordered eleven-payload historical literals explicitly on the new target and mesh, without claiming same physical s/point or inheriting unknown old history, field values, certificates, or completion. This is necessary input construction, not a scientific fixture or proof.",
-    "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run12",
-    "source_commit": "6e7fc7dc687960599e398087f9e1f574bdc2a738",
-    "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
-    "command": [
-      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
-      "-u",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
-      "--repo",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879",
-      "--fixed-input",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
-      "--fixed-input-report",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/report.json",
-      "--node-report",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
-      "--scalar-input",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
-      "--manifest",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json",
-      "--outdir",
-      "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference",
-      "--angles",
-      "2048",
-      "--seed-integration-order",
-      "8",
-      "--panels",
-      "128",
-      "--scalar-leaf-count",
-      "2218",
-      "--scalar-integral-tolerance",
-      "1e-18",
-      "--scalar-tail-cutoff",
-      "1/8"
-    ],
-    "input_files": [
-      {
-        "role": "source",
-        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
-        "commit": "6e7fc7dc687960599e398087f9e1f574bdc2a738",
-        "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
-      },
-      {
-        "role": "followup_queue",
-        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-12.json",
-        "path_commit": "ed9fbfec354330d11b0e46ef61a4d0565b88dfc6",
-        "checkout_commit": "97051366b05adc2a6aa27c845f712c5b79edfdff",
-        "sha256": "6abc9ba8570ef97dbc957955958e4c314632cec33b1f3687a5aad305417e8e1b"
-      }
-    ],
-    "outputs": [
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/report.json",
-        "sha256": "a35e7ed22d3453d69cc746ff6b706735717bb74131d43ece0b7ddda440403900",
-        "bytes": 84966
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/reference.npz",
-        "sha256": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
-        "bytes": 894879
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/observations.npz",
-        "sha256": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
-        "bytes": 205842
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/locations.json",
-        "sha256": "ba4cd7ba201044b950dab70f4ea5606d79a6202c8ef5b534bb4a611d014eb5a7",
-        "bytes": 106771
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/supplied-location-provenance.json",
-        "sha256": "e5526478ae6f6e6a141ebdb67636e4231f37862bb5b5b260c09c5830f0ade329",
-        "bytes": 223955
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/fixed-target-definition.json",
-        "sha256": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
-        "bytes": 30919
-      },
-      {
-        "path": "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
-        "sha256": "a6992516e83b53e153bf5d2b9ef8985f7542bff615e2b3edd6e467a2d105f52b",
-        "bytes": 35712
-      }
-    ],
-    "missing_outputs": [],
-    "summary_errors": []
-  }
-]
-```
+> **原 JSON 03：两个必要输入的完整实际记录。** [固定旧版完整记录，第 133–291 行](https://github.com/Rogerhu12/math-research-public/blob/0ff96dc0001b35cac2301f942e55292fe0f808ed/topics/visible-flex-larger-amplitude/notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md#L133-L291)。
+
 
 ## 3. 未自然返回的真实科学 child
 
@@ -312,80 +65,8 @@
 
 以下保留这一完整已发布观察对象，含真实小文件 byte/SHA 与全部 48 个被选标量，不从其他运行补字段：
 
-```json
-{
-  "step_id": "complete-fixed-fejer-immutable-point-first-20261127-run12",
-  "scientific_source_commit": "a3df4eae39988724cca2cc3c38927e583c24eb2e",
-  "scientific_source_sha256": "0c1ff0aa2de30fcd490efb4bddd1972613c0f0afb1257d1af0170ac7e60bb5bf",
-  "pid": 3347,
-  "observations": {
-    "fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-27 19:41:20 UTC",
-      "point": "507253778ce58f9025ca9078abb81bcecd3698e2f540c6bfaeaec9c06ab34902",
-      "stage": null,
-      "scope_order": 2,
-      "scope_angles": 1,
-      "cached_angle_roots": 1228,
-      "observer_scientific_calls": 0,
-      "scientific_complete_inferred": false,
-      "closure_logical_requests": 1769743,
-      "closure_logical_returns": 1769743,
-      "closure_logical_failures": 0,
-      "closure_original_attempts": 848643,
-      "closure_original_returns": 848643,
-      "closure_original_failures": 0,
-      "closure_original_angle_jet_requests": 3299853,
-      "closure_original_angle_jet_returns": 3299853,
-      "closure_cache_hits": 921100,
-      "closure_cache_hit_angle_jets": 1609476,
-      "closure_cache_misses": 635190,
-      "closure_forced_original_requests": 203610,
-      "closure_forced_stage_rereads": 197440,
-      "closure_forced_endpoint_rereads": 6170,
-      "closure_bypass_no_scope": 9843,
-      "closure_bypass_caller_environment": 0,
-      "closure_bypass_current_environment": 0,
-      "closure_bypass_tensor_or_data_tracking": 0,
-      "closure_bypass_optional_failure": 0,
-      "closure_binding_failures": 0,
-      "closure_key_checks": 1556290,
-      "closure_point_word_checks": 12341,
-      "closure_stored_values": 635190,
-      "closure_optional_cache_failures": 0,
-      "closure_scopes_started": 6171,
-      "closure_scopes_closed": 6170,
-      "closure_scopes_with_exception": 0,
-      "closure_scopes_disabled_at_entry": 0,
-      "closure_scope_stage_completions": 197440,
-      "closure_progress_writes": 12346,
-      "closure_progress_write_failures": 0,
-      "closure_progress_events": 12346,
-      "closure_peak_cache_entries": 130,
-      "closure_peak_cache_bytes": 112320,
-      "closure_immutable_point_entry_checks": 6171,
-      "closure_immutable_point_key_checks": 1556290,
-      "closure_immutable_point_exit_checks": 6170,
-      "closure_original_closure_seconds": 4718.555816532234,
-      "closure_binding_and_key_seconds": 425.37479448285956
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json",
-      "bytes": 3403,
-      "sha256": "d1b1a68a6f94f4d222b543d4cd1b86a4117a528f0fff9f26d59d166786f3e76c",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "1c90a22ed7c883fca76c60acfcf194ce6120223efc6733865f952875ca60fca9",
-  "observed_utc": "2026-11-27T19:41:22Z"
-}
-```
+> **原 JSON 04：最后完整同点进度观察。** [固定旧版完整记录，第 315–388 行](https://github.com/Rogerhu12/math-research-public/blob/0ff96dc0001b35cac2301f942e55292fe0f808ed/topics/visible-flex-larger-amplitude/notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md#L315-L388)。
+
 
 ## 5. 未返报告、checkpoint 和历史的处理
 
