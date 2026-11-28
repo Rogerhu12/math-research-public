@@ -1,0 +1,74 @@
+name: Propagate R766 actual periodic metric rings and audit both full closed cap joins
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/solve_r766_cyclic_pre_rolls_and_closed_caps.py
+      - .github/workflows/visible-larger-r766-cyclic-metric-rings.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-r766-cyclic-metric-rings
+  cancel-in-progress: false
+
+jobs:
+  four_original_physical_fits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r754_coherent_mirror_bowed_walls_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r756_return_elbows_preloaded_exact_rolls.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r758_curved_outer_collars_and_fixed_elliptical_crowns.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r760_cartesian_curved_crown_and_lower_rate_walls.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r764_corrugated_pre_roll_and_movable_complete_caps.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/solve_r764_corrugated_whole_sphere.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r766_positive_boundary_curvature_and_exact_signed_ribbons.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/solve_r766_cyclic_pre_rolls_and_closed_caps.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/run_r766_all_cyclic_metric_rings.py
+            /topics/visible-flex-larger-amplitude/notes/r766-cyclic-ring-*.json
+      - name: Pull and read both current project rules
+        shell: bash
+        run: |
+          set -euo pipefail
+          src=topics/visible-flex-larger-amplitude/scripts/resume_20261126
+          bootstrap="$RUNNER_TEMP/r766-bootstrap"
+          mkdir -p "$bootstrap"
+          for file in run_r766_all_cyclic_metric_rings.py publish_r734_exact_conclusion.py; do
+            git show "$GITHUB_SHA:$src/$file" > "$bootstrap/$file"
+          done
+          python -u "$bootstrap/run_r766_all_cyclic_metric_rings.py" sync
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the pinned numerical runtime
+        run: python -m pip install numpy==2.2.6 scipy==1.15.3
+      - name: Freeze sources, run all four independent original fits and supervise both README pulls
+        run: python -u "$RUNNER_TEMP/r766-bootstrap/run_r766_all_cyclic_metric_rings.py" run
+      - name: Publish all naturally returned logical branch reports and their small complete index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -u "$RUNNER_TEMP/r766-bootstrap/run_r766_all_cyclic_metric_rings.py" publish

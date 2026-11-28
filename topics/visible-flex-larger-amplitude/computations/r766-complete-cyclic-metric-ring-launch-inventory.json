@@ -1,0 +1,239 @@
+{
+  "schema": "R766-complete-fixed-metric-and-cyclic-propagation-launch-inventory-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_directory": "topics/visible-flex-larger-amplitude/scripts/resume_20261126",
+  "existing_parents_at": "19838609475e0c097e6d86d60a050b9063490332",
+  "identity_columns": [
+    "path",
+    "utf8_bytes",
+    "sha256",
+    "git_blob"
+  ],
+  "scientific_and_controller_sources": [
+    [
+      "publish_r734_exact_conclusion.py",
+      10589,
+      "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+      "c07d8a51f944dbacddabd127522d673174498839"
+    ],
+    [
+      "r740_rolled_disk_seed.py",
+      10834,
+      "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    ],
+    [
+      "r742_tilted_disk_two_jets.py",
+      9706,
+      "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "eacaa69d88eae15963aee90d948391abfb9c745a"
+    ],
+    [
+      "r744_extruded_closed_two_jets.py",
+      10327,
+      "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "729efd888029dbaf9953617edfde81c0c7394fdd"
+    ],
+    [
+      "r754_coherent_mirror_bowed_walls_two_jets.py",
+      9754,
+      "aedac63cfc0ecab05108b7d1d8ea62d5fcc0ee48e3a60c09c6fe7214e829eb96",
+      "0f20d4a812f5f3c32526277548fc641b75864ddd"
+    ],
+    [
+      "r756_return_elbows_preloaded_exact_rolls.py",
+      8933,
+      "39e166b6482078f39dc8bd2ee360a7a42ec02650145c85f5ebd78d7e32ec5a38",
+      "3daf3aa1a455c8886cd7dd92ab2f3ff0f541883d"
+    ],
+    [
+      "r758_curved_outer_collars_and_fixed_elliptical_crowns.py",
+      6352,
+      "54554808a73d93149a297a7302093d0afcd0b8d433b2d119223a2a2792ff40bf",
+      "c88481deaffb78453316a31bd6e607ca774226ab"
+    ],
+    [
+      "r760_cartesian_curved_crown_and_lower_rate_walls.py",
+      10422,
+      "a20f2ee98d901cadb6290edbbb8ad1f8a52d5b6035e6507c171ddea93febf919",
+      "ec2e06753824f38d3c8ace40a8cf4deec0e51f23"
+    ],
+    [
+      "r764_corrugated_pre_roll_and_movable_complete_caps.py",
+      4270,
+      "17f6462df8b5760a187c0ba4fe9271ea11b19998701af5dc08f8e3891a3bcf9e",
+      "9e0082c53f021ad637ebdb1b71a636d750af5c82"
+    ],
+    [
+      "solve_r764_corrugated_whole_sphere.py",
+      18757,
+      "09cb262a9103d3350a9f51d65410238c63b05df5b6349c11028f8cb403d35a36",
+      "24a5484e5e06afa09f265730fa6017dfafbd35ba"
+    ],
+    [
+      "r766_positive_boundary_curvature_and_exact_signed_ribbons.py",
+      7769,
+      "df177787c3e825258d480a9a1134f3652ef2dfebe2eae3fe2aa3026b20f26454",
+      "b570f579890526fa8f72fff691589f83ceeadc4c"
+    ],
+    [
+      "solve_r766_cyclic_pre_rolls_and_closed_caps.py",
+      17628,
+      "d1f24002e6efcf31ec6cb32994da3633a9067164d49e5a76d77c72c26c12060f",
+      "cf7bde1f74306aae93401e528b647f30651823fe"
+    ],
+    [
+      "run_r766_all_cyclic_metric_rings.py",
+      11758,
+      "4bee0fc20ff2ca4fa522ce8837200d0d0680c7cbbd045fa16044b85fd52494df",
+      "59b3979bebba3091f3d4216b4fc3ddc6746b88f9"
+    ]
+  ],
+  "workflow": [
+    ".github/workflows/visible-larger-r766-cyclic-metric-rings.yml",
+    3885,
+    "edf8f5680fe58821b1d1ded4627d27247799a5ebd28f8f213072e252a5fcafb6",
+    "223dd094abca34db8dfab0bcbd462201ac01e3e8"
+  ],
+  "proof": [
+    "topics/visible-flex-larger-amplitude/results/R766-critical-curvature-zero-and-common-right-cauchy-ribbons.md",
+    21216,
+    "d9a8ce7dffcf3a87d3482d04db202438eb86c2cdbac73b67d27fe3b1389a2b4e",
+    "cd5a00e4818f929d438f8c82f40100579a621cbc"
+  ],
+  "fixed_target": {
+    "definition": "Exact induced metric of the complete zero-phase R764 corrugated reference, on the full marked cylinder, both pre-rolls, both standard rolls and both true curved cap disks.",
+    "pre_roll_length": 0.44,
+    "central_half_height": 0.88,
+    "corrugation_angle_amplitude": 0.0025,
+    "unchanged_initial_reach_lower": 0.132,
+    "initial_diameter_upper": 4.386,
+    "phase_interval": [
+      0,
+      0.9
+    ],
+    "marked_grip_angle_interval": [
+      0.18,
+      0.96
+    ],
+    "marked_grip_transverse_interval": [
+      -0.7,
+      0.7
+    ]
+  },
+  "runtime": {
+    "workflow_timeout_minutes": 355,
+    "python": "3.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "independent_processes": 4,
+    "threads_per_process": 1,
+    "rules_pull_seconds": 2700,
+    "source_revision": "GITHUB_SHA",
+    "rules_revision": "separately recorded true pulled main HEAD",
+    "publish": "ordinary push with non-fast-forward pull/rebase/retry, full topic tree byte count",
+    "runner_only": "Complete per-ring floating records and displacement words only on runner; publish complete per-resolution logical reports and whole identities; no raw, release or artifact upload."
+  },
+  "parameters": {
+    "patterns": [
+      "forward",
+      "alternating"
+    ],
+    "guide_retreats": [
+      0.13,
+      0.14
+    ],
+    "signed_ends": [
+      -1,
+      1
+    ],
+    "levels_columns": [
+      "base_angular_intervals",
+      "full_pre_roll_intervals",
+      "physical_quadrature_order",
+      "cyclic_nonlinear_evaluations_per_pass"
+    ],
+    "levels": [
+      [
+        96,
+        12,
+        16,
+        16
+      ],
+      [
+        192,
+        24,
+        24,
+        24
+      ],
+      [
+        384,
+        48,
+        32,
+        32
+      ]
+    ],
+    "physical_reference_refinement": [
+      64,
+      96,
+      144
+    ],
+    "physical_reference_transverse_check": [
+      12,
+      18,
+      26
+    ],
+    "integrated_phases": [
+      0,
+      0.075,
+      0.15,
+      0.225,
+      0.3,
+      0.375,
+      0.45,
+      0.525,
+      0.6,
+      0.675,
+      0.75,
+      0.825,
+      0.9
+    ],
+    "independent_time_interpolation_phases": [
+      0.0375,
+      0.1125,
+      0.1875,
+      0.2625,
+      0.3375,
+      0.4125,
+      0.4875,
+      0.5625,
+      0.6375,
+      0.7125,
+      0.7875,
+      0.8625
+    ],
+    "initial_circle_branch_regularizations": [
+      0.001,
+      0
+    ],
+    "trf_linear_iterations": 180,
+    "trf_linear_atol_btol": 1e-11,
+    "circle_ftol_xtol_gtol": 1e-13,
+    "cartesian_ftol_xtol_gtol": 1e-12,
+    "cartesian_max_nfev": "twice corresponding original level budget",
+    "positive_boundary_preload": ".025+.975*exp(-(theta/.025)^2)",
+    "right_original_turn_cut": "pi-.38",
+    "smooth_cauchy_fields": "periodic cubic in section coordinate, clamped quintic in transverse coordinate, quintic interpolation in phase",
+    "full_audit_charts": 11
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "job": null,
+    "source_commit": null,
+    "rules_read_commit": null,
+    "natural_process_codes": null,
+    "stage_reports": null,
+    "physical_values": null
+  }
+}

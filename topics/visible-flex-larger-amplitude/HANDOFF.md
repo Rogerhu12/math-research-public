@@ -31,6 +31,8 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 [R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：初reach.132/D<4.386、原基场结论保留；46162184631四整球12层/84拟合72中相全返，free末g.845/.868且K505/271，rigid末g>1/弦价正；这四有限拟合失败，非全自由类否定。
 [R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：同R757 g有符号λκt=κ0令全meridian准确；2+2支96.3%卷面积准确但K>17.2排厚。新2+3低峰中央K<8.84/held>.705、内帽同g/四缝二jet，全过渡费与法管未付；全SO3闭一形式为准确等价，45求实际共场。
 
+[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：K~v²排旧硬平trace；同R764初g真实闭曲线、共动右零曲率段/两整预带卷域及两整帽三g准确，互补仍欠。四周期三边原3层13相+12中相、全C²整壳独查启动。
+
 ## 全部旧责任
 
 全部旧终态/条件/未访见[results](results.md)/[open](open.md)/原proof、notes和固定H链，已登记不重做。RET100H/I/J/K/L逐字恢复已闭生成件，保父/活源参/唯一值；K/L净释1055572/1109759B。新输入各自重付，每子问题完即下一个。
@@ -47,8 +49,8 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 并行35规则核查：2026-11-28 16:27:29 UTC，真实pull至`60a6952217549a7aa9ac6b36f5d130a4fd93980f`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull cf93a19b1265bdfc4a4c22bb3ee7c03771fdfc28
-<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
-<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 05661384ffc794e7fb403faccb5e023e0f24e074
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 34ae8974556271bcab74ebc406d562238f48fd49
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 5e8a9dfd56532e19ddd16a1e6940741db05c2cbf
+<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
+<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
