@@ -159,3 +159,6 @@ GRT：以完整MF⁻¹MG而非仅Airy根迹作角依赖Lcal；同真D0/J/独立z
 
 
 ASQ29：原SP完整正变差加q0/qc精确log恒等式给真reverse<3.24；整mixed两mean传播→腰<40.72/joint<82.4。前J物理输出分频获high≤.126‖Lg‖H⁻²ᐟ³+80.58‖Ug‖H⁻⁵ᐟ³；每次完整传播/角变换/mean均保。GIC∞natural<.0146/common<.182/ASQhigh<.015；GLW全finite Ai<237/两列<454仍未闭，6whole20新比较只执行一次。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+AGDC：实际46144819361/1 failure，原81后第82格真分母>.2095498并完成；下一格充分分母下界约−3.13036，非奇异。actual74069B1aadbe23…/最终execution72930Ba2e0a2d9…全准入，原89packet/82history/83frame/248matrix whole全保；低193逆/四source未成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

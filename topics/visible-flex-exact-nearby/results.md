@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGDC：真实82格前缀保全并转完整两端问题](results/R149-supplement-actual-82-cell-chronological-prefix-and-full-shooting-input.md)：实际46144819361/1 failure，原81后第82格真分母>.2095498并完成；下一格充分分母下界约−3.13036，非奇异。actual74069B1aadbe23…/最终execution72930Ba2e0a2d9…全准入，原89packet/82history/83frame/248matrix whole全保；低193逆/四source未成。
+
 - [ASQ29：真实strict cut与同高腰两物理输出窗](results/R149-supplement-true-strict-cut-and-two-physical-output-windows.md)：原SP完整正变差加q0/qc精确log恒等式给真reverse<3.24；整mixed两mean传播→腰<40.72/joint<82.4。前J物理输出分频获high≤.126‖Lg‖H⁻²ᐟ³+80.58‖Ug‖H⁻⁵ᐟ³；每次完整传播/角变换/mean均保。GIC∞natural<.0146/common<.182/ASQhigh<.015；GLW全finite Ai<237/两列<454仍未闭，6whole20新比较只执行一次。
 
 - [GRT：两真物理根Cauchy状态的全角匹配首发](results/R149-supplement-full-angular-genuine-root-trace-matching-on-both-negative-state-rows.md)：以完整MF⁻¹MG而非仅Airy根迹作角依赖Lcal；同真D0/J/独立zero-root mean两状态差严格零，δh*=0只对同whole trial。n⁸ᐟ³(Lcal−L)保完整signed两矩阵/真实J0；19whole首次全角Wiener/复频square+23原cells导数0..4首发，真实有向门待。

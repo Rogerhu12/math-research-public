@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 14:15:49 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 14:20:39 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至feb68d14c130d24a5cf76d8c63ff6a723ff0c934；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至bcf9df3bf87a3304257e2621d5e1e39f3aaae460（13:45:20 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至50579576c6d70964ab1243fb5782dcc0a69077b4；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至bcf9df3bf87a3304257e2621d5e1e39f3aaae460（13:45:20 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META14新200未引用legacy JSON只删字符串外空白，净1213006B，原19f16ba8e6/receipt94830B SHA ad194569…保完整literal与身份；META1–13原receipt全保且禁重。每pull核所有new hash及changed/untracked引用，继承完整reference scan。
 
@@ -25,7 +25,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 - GXW46151646115/1 event07f0575…真实进行；ASQ27R46152299586/1 event93ae76e…/ASQ25R46152326101/1 eventd587c0c…真实进行。原ASQ27 accepted0、首异常unknown，原ASQ25C reserve前science0均保；新checkpoint和保真53历史transport不更改3073/193或旧宽球。
 - GJOR46150669215/1已实际全1973外缝成功，common<5.043e−9，576根接口另仅计一次；原GJO科学0入口错保。GLW46146513475/1全656行/41带成功但共同上界204457.18989563518、原5.5门false；不是下界。新逐原频带两physical output窗接收推进，旧927/656结果不重算。
 - ASQ23负侧signed腰值46144609049/1全3073/两目标真success；11955B8532bb42…/24626Bc0669b2e…原raw腰error约39.71/24.74保，不冒充小真解。ASQ27R推进同固定算子的−f0轨迹。
-- TC46117170011/1实际因新README#16门终止，3612/7724 accepted、连续1952，全matrix唯一成功。TCF46140528952/1只补4112缺格/18互斥≤6并行；13:52 API 0/1/2/3/5/6/7/11 success，4/10/13失败，6进行1排队；4CPU门science0，10/13原因待核。全18终态后仅补真缺，不放宽CPU/96列/4whole/5窗。
+- TC46117170011/1实际因新README#16门终止，3612/7724 accepted、连续1952，全matrix唯一成功。TCF46140528952/1只补4112缺格/18互斥≤6并行；14:15 API 0/1/2/3/5/6/7/8/9/11 success，4/10/13失败，5进行0排队；4CPU门science0，10/13原因待核。全18终态后仅补真缺，不放宽CPU/96列/4whole/5窗。
 - H96R46135898111/1已全2847/七目标成功，原728不重算；actual31652Ba49119d5…/execution43566B73d78ed9…；joint .1387156385/.2154269254真宽界保。PWA96R46151738667/1 event07847baf…13:52:50真实success/7targets，whole14765B082f02c8…/execution15179Bdc6b6515…，同ρ接收及CFC尚需全SC3。
 - DCP18 run46124617641/1全18已实际成功，322whole/原validator/原admit_complete_inputs已过；actual26046B2f90550a…/execution30740B5ceba0c5…；完整应用ADCP，旧science0。TF81/旧GG/失败恢复和GRQ/WSS各全成功身份保持此前完整H及独立proof，不能补写未成全inverse。
 
@@ -42,6 +42,8 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 - GRT：全角物理MF⁻¹MG根匹配新首发19whole，n⁸ᐟ³差全matrix/真J0保，真实两Cauchy状态等号；首次实际Wiener门待，不授positiveBi/整个全响应。
 
 - ASQ29：真cut reverse<3.24/全腰mixed<40.72，前J物理两输出窗.126/80.58；GIC∞ASQhigh<.015。GLW全Ai<237仍宽，逐原带接收继续；6whole20新比较只一次。
+
+- AGDC：GDC真实第82格已付，下一格充分界false；89packet/82history与全帧矩阵whole保，full low193/四source仍待独立全两端MSS，不重试旧格。
 
 ## 后继和完整尾部义务
 

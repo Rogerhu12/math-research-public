@@ -1,0 +1,218 @@
+{
+  "accepted_new_cell": {
+    "complete_additive_defect_upper": {
+      "decimal_exponent": "-52",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "61339596410410059019102941132034084649299211630229416",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "complete_denominator_centre_defect": {
+      "decimal_exponent": "-53",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8182641942914358052686811446350926770927041657872983",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "complete_effective_denominator_lower": {
+      "decimal_exponent": "-53",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "20954980191854631942781994240061736225540100786320796",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "complete_new_denominator_lower": {
+      "decimal_exponent": "-53",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "20954980191854631942781994240061736225540100786320796",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "complete_new_graph_radius_upper": {
+      "decimal_exponent": "-52",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "75137177063024560163089240397412036014436336358389230",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "complete_nominal_residual_upper": {
+      "decimal_exponent": "-53",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8182641942914312229041579402923735614976560245770574",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "complete_previous_radius_upper": {
+      "decimal_exponent": "-52",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "13799158404424323176584721295512281358242034912109375",
+      "radius_integer": "0",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "full_transported_B_E_P_upper": {
+      "decimal_exponent": "-53",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "70862377865231010004531194313587337003532857555806219",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "linear_transfer_upper": {
+      "decimal_exponent": "-52",
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "13797580652614501143986299265377951365137124728159814",
+      "radius_integer": "2",
+      "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+    },
+    "old_Grassmann_scalar_gate_recomputed": false,
+    "used_original_denominator_witness": false
+  },
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:56:18Z",
+        "conclusion": "failure",
+        "head_sha": "1a91ec19410f9a31a60f56fd201da69f652a5925",
+        "id": 140978417543,
+        "name": "certify",
+        "started_at": "2026-11-28T12:28:22Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "failure",
+      "head_sha": "1a91ec19410f9a31a60f56fd201da69f652a5925",
+      "id": 46144819361,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T12:28:20Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:56:18Z"
+    },
+    "jobs_API": {
+      "bytes": 2380,
+      "sha256": "30385e5ca0aaef2c2bedbd202eb9a8977e09c37ebfe9afb62bc93c42518c4afb"
+    },
+    "observed_at": "2026-11-28T14:08:46.863356+00:00",
+    "run_API": {
+      "bytes": 13303,
+      "sha256": "1041a9a08981982213c5fa95fe56ab832e9873eb6d12e74c7d2507fa7db34ec6"
+    }
+  },
+  "actual_operator_singularity_inferred": false,
+  "complete_private_history": {
+    "detail": {
+      "complete_history": {
+        "bytes": 4114331,
+        "complete_blocks": [
+          64,
+          16,
+          2
+        ],
+        "completed_chronological_cells": 82,
+        "sha256": "0c2288aea5900ab748e8bd0b99f42d9f84c4cbf25076e97b3ba667580be1ebd2",
+        "whole_private_filename": "left-terminal-history.json"
+      },
+      "complete_packets_and_frames": {
+        "whole_cell_carrier_index_sha256": "a64b34280dc6adad784589085ba6039c7f8cc19077be988aee15a35ad26c8e52",
+        "whole_cell_count": 89,
+        "whole_frame_count": 83,
+        "whole_frame_index_sha256": "1c8fd30bb131da4c7b04c2d3e7dff1d5cba9176f154524589d8dfb878a4c7601"
+      },
+      "complete_private_matrices": {
+        "all_matrix_writes": 248,
+        "arrays_published_to_git_Release_or_artifact": false,
+        "each_whole_matrix_readback_hash_checked": true,
+        "maximum_live_bytes": 37117629,
+        "whole_live_bytes": 37117629,
+        "whole_live_matrices": 248,
+        "whole_live_matrix_index_sha256": "41ad712d3fcf71fc4cbd446a08605cf18fe500e8a97ed1d9ce018a4de343533a",
+        "whole_write_journal_sha256": "cb2f3612617bcebc15db7f92ada2466e68edaee043df67c7bcbd6335f12347d3"
+      },
+      "direction": "left",
+      "next_cell": 82
+    },
+    "stage": "GDC_terminal_private_history"
+  },
+  "earlier_whole_execution": {
+    "bytes": 72080,
+    "sha256": "9f56171893e593c3f2d2e537befd0cfd4388c6b694f89261894e423e31fed89b"
+  },
+  "entire_original_input_qualification": {
+    "accepted_chronological_cells": 82,
+    "current_whole_inputs": 120,
+    "first_new_GDC_target": [
+      "signed_GDC_positive_physical_cell_82"
+    ],
+    "historical_whole_inputs": 21,
+    "new_or_old_scientific_targets_recomputed": 0,
+    "scientific_modules_imported": false,
+    "source_and_actual_manifest_whole_identity_verified": true
+  },
+  "last_actual_denominator_observation": {
+    "actual": {
+      "complete_denominator_centre_defect": {
+        "decimal_exponent": "-53",
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "7916159836066849350488162778307788263279119295929562",
+        "radius_integer": "2",
+        "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+      },
+      "complete_new_denominator_lower": {
+        "decimal_exponent": "-52",
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "-31303594760680534561293713454697903316821691386917657",
+        "radius_integer": "2",
+        "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+      },
+      "complete_nominal_residual_upper": {
+        "decimal_exponent": "-53",
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "7916159836066833454621561356502542819406532175841821",
+        "radius_integer": "2",
+        "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+      },
+      "complete_previous_radius_upper": {
+        "decimal_exponent": "-52",
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "75137177063024562784221416222862899303436279296875000",
+        "radius_integer": "0",
+        "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+      },
+      "full_transported_B_E_P_upper": {
+        "decimal_exponent": "-52",
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "40511978777073849626244897176867124490493779457324700",
+        "radius_integer": "2",
+        "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+      },
+      "linear_transfer_upper": {
+        "decimal_exponent": "-52",
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "75121631357012393495343959548994186006080659307315717",
+        "radius_integer": "2",
+        "semantics": "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+      },
+      "old_Grassmann_scalar_gate_recomputed": false
+    },
+    "direction": "left",
+    "index": 82
+  },
+  "only_execution_publication_metadata_changed": [
+    "final_capacity_metadata",
+    "publication_attempts",
+    "readme_check_count",
+    "readme_checks",
+    "readme_receipt_chain_sha256"
+  ],
+  "whole_actual": {
+    "bytes": 74069,
+    "sha256": "1aadbe2385062b7ff1920d27c0dabcd7eb2fd0ddac145ea8c5fccd357a33ddb8"
+  },
+  "whole_final_execution": {
+    "bytes": 72930,
+    "sha256": "a2e0a2d9c4e46a5fe29887f096518549543f8497de8482f8c9c5d3980c358032"
+  },
+  "whole_log": {
+    "bytes": 293066,
+    "sha256": "027e29b12a8ed9cb6b09b57c064e96940150012a92ff268b8b99191a59460203"
+  }
+}
