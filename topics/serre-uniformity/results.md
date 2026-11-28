@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原二同源的实际切线与并发分支（已证明）**：[R1157 §11](results/R1157-original-integral-SV-Manin-triangle-filling.md)非零五扭点统一分离所有rank-one支撑，完整常数的两切线比给有限四线展开；真正三线并发另给参考线三个Bloch值。SS整性与模p才并发的坏参数严格分开，原根相位/ordered修正全保。
+
 - **R1160（已证明）**：[原 Hecke 平滑的显式算术下降与未平滑 primitive](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)以原C2/C3有阶lift、复共轭的实际Eisenstein修正及两幺幂有限反差分构造B_n，准确dB_n=(V_n−v_n)Ω；h0=(hV+B_n)/v_n给原最高canonical lift，n2/n5覆盖全部p>37。一般Frob的同一conjugating path值和F0中央仍须计算，未将该程序当数值非零。
 
 - **原 n=2 的完整显式 theta/source（已证明）**：[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)由真正 norm 固定 Θ=Δ/(16y⁴)、Θ_C=ΘR_C² 与全部平移常数；原三函数 filling 成为27项，保6/−2/2权及−1/256。R1158–1159实际输入可取n2；两个交换商系数皆unit，中央v2仅43/127例外，实际unsmoothing未冒称已付。

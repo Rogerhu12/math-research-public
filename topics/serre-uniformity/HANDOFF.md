@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：aca611dcad3d9b505b29bbf41dd7574e03db3967**（2026-11-28 11:37 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：148c7e90befdf515f2bf3725fab9a1b7b586c66f**（2026-11-28 11:41 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 11:19:13 Asia/Taipei，Actions run46102253397/job140847085965，blob:none浅clone后真实pull --rebase至10f20b88；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:09、pull≤12:19。本地11:18仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -26,7 +26,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
 
-[R1157 §§1–10](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n的K3残数、整cochain、全noncusp/GL2 raw下降均付，不除p稳定子。§10原n2 source完全显式：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²；27项权6/−2/2和−1/256全保，根相位/常数不删。R1158同适用n2；四线SS坏参数仍须运输。
+[R1157 §§1–11](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n的K3残数、整cochain、全noncusp/GL2 raw下降均付，不除p稳定子。§10原n2 source完全显式：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²；27项权6/−2/2和−1/256全保，根相位/常数不删。§11非零E5点统一切线embedding，完整Ri(T−Bj)=Ri(T0−Bj)(ℓj,i/ℓj,0)²保全rank1；真并发给参考线三值Bloch见证。切线/常数SS整，modp并发坏参数仍须运输。
 
 [R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)最高Sym12 smoothed Gcorr已成：真实even单位共同商、S/U权、Weil restriction与全ordered bracket保rank1/correlation/算术下降。X_d=k_d(n)M_d、X′_C,d=nM_d^C−n⁻dM_d；根ρ和中央gauge全给，完整M的H¹Z0后唯一。n2的κ4/κ8在p>37全unit，未以此反除中央primitive。
 
