@@ -1,0 +1,123 @@
+{
+  "schema": "isp-8542-original-ell-pole-complete-paper-and-first-residue-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-29",
+  "result": "entire v(e)>0, k residue -2, ell pole excluded in current p1009 original valuation analysis",
+  "originalDefinitionBlob": "47281af16fdd0ad7500ecda377c3cb9f9d65e725",
+  "newSourceBlob": "3f9e586d76911d47f0530239480a56bc07d79c42",
+  "newSourceSHA256": "7a09280436c64f609c275c24b0574d0741956557066081902b07844f72a47f52",
+  "inputSHA256": "aa437b2d7c5583af5741aca70130c2709c7759543d68ec19b043227b844d4d8e",
+  "run": 46171289266,
+  "job": 141060069093,
+  "budgetSeconds": 30,
+  "budgetBytes": 268435456,
+  "outerSeconds": 45,
+  "actual": {
+    "elapsed_seconds": 0.030981101000008948,
+    "max_child_rss_kib": 38012,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8c4936f3ea7c1fd8caaee057fce69b783dd05475",
+        "before": "353e51efa21d5005d7af50679f8f148b9b95c5d8",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T17:35:39.212843+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46171289266",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "353e51efa21d5005d7af50679f8f148b9b95c5d8",
+    "source_exit_code": 0,
+    "source_git_blob": "3f9e586d76911d47f0530239480a56bc07d79c42",
+    "source_sha256": "7a09280436c64f609c275c24b0574d0741956557066081902b07844f72a47f52",
+    "stdout_bytes": 1826,
+    "stdout_sha256": "171e7f6743ea4a2185be48a405b17bf7801fecb22c4acb82ac8c5fff81472d11",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "originalDefinitionsBlob": "47281af16fdd0ad7500ecda377c3cb9f9d65e725",
+      "place": 1009,
+      "branch": "v(beta)=v(e)>0; r=bar(beta/e)!=0,-1; A2!=0; mu integral",
+      "sameOriginal_q2": "r*(3*mu^2+8*mu+9)+mu^2-1",
+      "q2Substitution": "r=(1-mu^2)/(3*mu^2+8*mu+9)",
+      "R6Scale": "R6/ell^5",
+      "N5Scale": "complete_N5/ell^4",
+      "paidResidualProduct": "(1-mu^2)*(3*mu^2+8*mu+9)*A2",
+      "fullOriginalRationalIdentitiesReturned": true,
+      "FR": {
+        "degree": 6,
+        "terms": 7,
+        "sha256": "94bb557676fb318c4208806a81e79bba9b496a3346b17b0251f9139d0ce6ecfb"
+      },
+      "FN": {
+        "degree": 7,
+        "terms": 8,
+        "sha256": "3ea0be5aceb5c6665f9fc3e9fe05156f7ec5444e8cdc0585a7a605d4988535fb"
+      },
+      "FRFormula": "775 + 74*mu^1 + 366*mu^2 + 87*mu^3 + 793*mu^4 + 8*mu^5 + 253*mu^6",
+      "FNFormula": "452 + 251*mu^1 + 46*mu^2 + 68*mu^3 + 253*mu^4 + 416*mu^5 + 487*mu^6 + 503*mu^7",
+      "stage": "new_original_ell_pole_common_center",
+      "seconds": 0.005931239000005917
+    },
+    {
+      "gcd": {
+        "degree": 0,
+        "terms": 1,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      },
+      "gcdFormula": "1",
+      "leftMultiplier": {
+        "degree": 6,
+        "terms": 7,
+        "sha256": "12d4c9c2764382ce6331334478aa74823bfba5d17595349a7bf4d5e2f7453445"
+      },
+      "rightMultiplier": {
+        "degree": 5,
+        "terms": 6,
+        "sha256": "0b78a9a557fba34892a8aa97408023f49732b938791bd990f444956283865832"
+      },
+      "paidTargetFactor": {
+        "degree": 2,
+        "terms": 3,
+        "sha256": "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba"
+      },
+      "leftFormula": "116 + 682*mu^1 + 173*mu^2 + 589*mu^3 + 732*mu^4 + 13*mu^5 + 263*mu^6",
+      "rightFormula": "540 + 503*mu^1 + 206*mu^2 + 491*mu^3 + 884*mu^4 + 636*mu^5",
+      "paidTargetFormula": "1 + 2*mu^1 + 1*mu^2",
+      "wholeIdentityReturned": true,
+      "onlyProvedNonzeroResidualFactorsRemoved": true,
+      "residueCenterExcluded": true,
+      "noOtherEllOrWeightCenterClaim": true,
+      "counts": {
+        "divisions": 531,
+        "bezoutReturns": 153,
+        "originalRationalReturns": 4
+      },
+      "stage": "new_two_original_residue_bezout_complete",
+      "seconds": 0.007347121000009338
+    }
+  ],
+  "paperCoverage": [
+    "b<a full q2/R6",
+    "b>a both mu residues",
+    "b=a mu pole",
+    "b=a r0=-1 arbitrary deep M via exact D=MS",
+    "b=a r0!=0,-1 full original q2/R6/N5 plus actual two-source identity"
+  ],
+  "newUnpaidInverse": false,
+  "noDInverse": true,
+  "noQQLift": true,
+  "remaining": [
+    "positive-e k=-2 ell unit",
+    "positive-e k residue different from -2 and unit lambda",
+    "interior and original paid-denominator DVR boundaries"
+  ],
+  "ordinaryISPCompleted": false
+}

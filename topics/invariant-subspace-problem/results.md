@@ -30,6 +30,8 @@
 
 ## 新增结论
 
+- [R150：正e、k−2整个ell极点的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-ell-pole-original-exclusion.md)：vβ与ve三段、μ极点与任意深M全保；等阶一般中心完整N5/ell⁴与R6/ell⁵，经唯一3f9e实际0.030981101秒/0返两原Bézout(μ+1)²。k−2只余ell单位，整个W/有限DVR未付。
+
 - [R150：W/b0 正e负k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-negative-k-entire-diagonal-ray-exclusion.md)：Q一般只余1/3被完整N5排；Q1时δ与e²的全部相对阶、mu极点、H=1/3/−3与lambda双根相消全覆盖。原余788/254/16及同K矩矛盾，无新运行；当前仅余(1,0)和内部/DVR边界。
 
 - [R150：第二NV头二十完整同点列与原lambda五、六、六次式](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)：d20唯一4.379637371秒/0；真自由四元环境上20原来源/80坐标，三个固定cofactor全部反传七原分子。实际λ5/6/6、总40/36/39，21末分母全旧付；未付头35/30/33，无单位/gcd或整支排除。
