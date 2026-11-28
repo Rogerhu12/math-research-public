@@ -1453,3 +1453,187 @@ $H+2-v_p(a_{r,s})$ 的绝对精度即够；
 
 本附节是原精确乘法、整形式群和全阶递推的纸面证明；
 没有数学执行，也没有另开任何作业。
+
+
+## 20. 同一完整图群和的首 graded 字符与一个确切非零槽
+
+本节固定原已登记的代数规范负源 $D_-$ 与正源 $S$：
+$N_-=102,a_-=4$、$N_+=34,a_+=6$，两首系数均为1。
+原 Fourier/raw 幅度在返回全来源时仍按原式乘入；
+这里不把这些幅度任意重定标或另赋 $p$ 进单位性。
+只处理(13)的这一个明确 seed 及其全部图群和，
+随后说明与完整临界读者的边界。
+
+记 $\Delta=p^2-1$、$A=(p+1)\kappa_\sigma\in\mathcal O^\times$，
+保持(C7)的实际 good 参数 $w=x^{-1/2}$。
+先从已付全阶式提取其准确首层，不以它替代高尾。
+
+### 20.1 原 Miller 根的剩余类和完整单字首项
+
+(C8)在 $Q\ne O$ 处给
+$Dr_p(Q)=pU(w_Q)/w_Q^{p^2}$。
+因 $N=34,102$ 均为偶数，(C4)准确推出
+$$
+ \left(\frac{b_{N,\widetilde Q}}{w_Q^N}\right)^{p^2}
+     =U(w_Q)^{-N}.
+ \tag{D1}
+$$
+右侧在剩余域为1，而特征 $p$ 中 Frobenius 的 $p^2$ 次幂单射，
+故 $b_{N,\widetilde Q}/w_Q^N\equiv1\pmod{\mathfrak m}$。
+原 compatible lift 的 $\mu_{p^2}$ 相位也全部约化为1。
+这里仅提取剩余类；没有将实际根改成一个任意选取的
+$U^{-N/p^2}$ 整幂级数，也没有将其 wild 系数域降到 tame 域。
+
+对满足(C14)首项条件的原 $s_N$，(C13)、(C15)及
+$R_N(Q)w_Q^{N-a}\equiv1$ 合并，给所有 $m\ge0$：
+$$
+ \boxed{
+ \frac{D_{z'}^m(\mathsf W_T[p]^*s_N)(0)}
+      {(NA)^m w_Q^{\,a+pm}}
+ \equiv1\pmod{\mathfrak m}.
+ }
+ \tag{D2}
+$$
+其分子是(C5)的完整导数，所有较低 $Z$ 次数已由(C15)
+严格估值排除；不是删去它们后定义另一个 source。
+若原首系数为其它指定单位，右侧相应为该单位。
+
+### 20.2 真实反 CM 标记给出的全有限域和
+
+选定一个 $Q_0\in E[p]\setminus\{O\}$，记 $w_0=w(Q_0)$。
+通过实际 $\mathcal O_K/p\simeq\mathbf F_{p^2}$，
+所有非零点唯一写成 $Q_u=[u]Q_0$。
+CM endomorphism 在 good 参数中的线性项为 $u$，所以
+$$
+ \frac{w(Q_u)}{w_0}\equiv u\pmod{\mathfrak m}.
+$$
+必须使用本题的 $\gamma=\gamma_{102,p}$，而不是直接改用34层。
+由(9)--(10)，$\gamma$ 为反 CM 且 $\gamma^2=[3]$。
+设 $\gamma Q_0=[g]Q_0$，则
+$$
+ g\in\mathbf F_{p^2}^{\times},\qquad g^{p+1}=3,\qquad
+ \frac{w(\gamma Q_u)}{w_0}\equiv g\,u^p
+       \pmod{\mathfrak m}.
+ \tag{D3}
+$$
+这个范数3是负 $\delta$ 的真实费用。
+
+令 $T_m(Q)$ 为(C5)负侧 $m$ 阶与正侧 $m+2$ 阶
+两个**覆盖导数**的乘积，使用同一原 graph lift。
+取任一 $g$ 的整单位 lift $\widetilde g$，置
+$$
+ B_m=(102A)^m(34A)^{m+2}
+     \widetilde g^{\,6+p(m+2)}
+     w_0^{\,10+2p(m+1)} .
+$$
+(D2)--(D3)给准确的 normalized graded 首项
+$$
+ \boxed{
+ \frac{T_m(Q_u)}{B_m}
+   \equiv u^{\,4+pm+p(6+p(m+2))}
+   =u^{(p+1)(m+6)}
+          \pmod{\mathfrak m}.
+ }
+ \tag{D4}
+$$
+最后一个等号使用 $u^{p^2-1}=1$；两个指数之差恰为
+$(p^2-1)(m+2)$。
+于是整个 $p^2-1$ 项和为
+$$
+ \boxed{
+ \frac{\sum_{Q\ne O}T_m(Q)}{B_m}
+ \equiv
+ \begin{cases}
+ -1,&m+6\equiv0\pmod{p-1},\\
+ 0,&m+6\not\equiv0\pmod{p-1}.
+ \end{cases}}
+ \tag{D5}
+$$
+证明是有限循环群的完整角色和；没有只取一个点或一半 Norm。
+这里的 $-1$ 是 $p^2-1$ 在剩余域的值。
+
+特别，若 $m+6\equiv0\pmod{p-1}$，
+$$
+ v_p\!\left(p^{-2}\sum_{Q\ne O}T_m(Q)\right)
+  =-2+\frac{10+2p(m+1)}{\Delta}.
+ \tag{D6}
+$$
+其它 $m$ 的这个和则严格高于显示的单项基准估值，
+也可能为零；不据首层相消推整个和为零。
+
+### 20.3 首次首层存活的差二槽
+
+设 $\widehat{\mathcal J}_{r,s}=p^{r+s}\mathcal J_{r,s}$，
+即(C18)返回覆盖两变量后的完整图群导数。
+取
+$m_*=p-7$，则 $m_*+6=p-1$，
+是 $m\ge0$ 中首个满足(D5)非零条件的整数。
+注意这是**首 graded 层**的首个存活槽，
+不是声称全部较低 Taylor 系数都严格为零。
+
+$Q=O$ 对 $\widehat{\mathcal J}_{m_*,m_*+2}$ 的贡献为
+$$
+ p^{2m_*}d_{-,m_*}\,d_{+,m_*+2}.
+$$
+两下标 $p-7,p-5$ 都小于 $p$。
+原固定 $D_-,S$ 的 rational 系数在本范围整，
+而 R301 的 $W=z^2x$ 及 $\log(\sigma/z)$ 低窗表明
+这两个未平移 jet 亦整：
+所需 sigma 相对次数严格小于首非整次数 $p+1$，
+指数展开分母也小于 $p$。
+因此该 $Q=O$ 项的估值至少 $2m_*$。
+
+另一方面，(D6)在 $m=m_*$ 给
+$$
+ -2+\frac{10+2p(p-6)}{p^2-1}
+       =-\frac{12}{p+1}<0 .
+$$
+故 $Q=O$ 不可能抵消完整非零 $Q$ 和。
+两阶乘 $(p-7)!,(p-5)!$ 均为单位，得到
+$$
+ \boxed{
+ \begin{aligned}
+ v_p\bigl(\widehat{\mathcal J}_{p-7,p-5}\bigr)
+      &=-\frac{12}{p+1},\\
+ v_p\!\left([z_-^{p-7}z_+^{p-5}]
+                    \Pi_{\Gamma_p}s_0\right)
+      &=-\frac{12}{p+1}.
+ \end{aligned}}
+ \tag{D7}
+$$
+第二行使用原两条覆盖 Lie 变量，保(13)的 $p^{-2}$。
+它没有混用原物理参数；若返回物理导数，
+仍须除以 $p^{2p-12}$。
+
+因此这个指定 seed 的形式差二投影
+$P_2F=\int h^{-2}F(h^{-1}z_-,hz_+)\,dh$ 非零：
+(D7)的整个 monomial 被该投影原样保留。
+这付出了一个明确槽及准确估值，
+比仅有未投影 section 非零更具体。
+它仍不是对完整 $\mathfrak T_{\rm orig}$ 的所有字求和后的非零结论。
+
+### 20.4 临界分量的首层确实相消
+
+对真正临界 tame 类 $m\equiv-2\pmod{p-1}$，
+有 $m+6\equiv4$。
+因 $p>211$，(D5)在这个类上准确为零：
+$$
+ \sum_{u\in\mathbf F_{p^2}^{\times}}
+        u^{(p+1)(m+6)}=0 .
+ \tag{D8}
+$$
+所以(D7)不能直接充作临界值或斜率证书。
+原 $c_Q$ 的真实 wild 根、$Z_Q$ 的全部高项、
+源的较高 $w^6$ 系数及(C2)全部低 $Z$ 项继续保留。
+首层被杀以后，它们可能在不同估值层参与，不能只从
+$Z$ 次数损失猜定下一个非零项。
+
+最后，(D1)--(D8)均在已指定的代数 theta frame、
+同一个原 $D_-\otimes S$ seed 及原 graph lift 上成立。
+完整 finite/$h$/tame/Artin 操作、proper $\gamma_i$ 与
+$-6\delta/\sqrt6$、冻结 $\Lambda_i(-2),\Lambda_i'(-2)$
+仍须按 R1060 返回。
+也不能额外加入一个 compact $p$ 平均后再称其为同一个 reader。
+尚未由本节证明原 canonical $J'_S(0)\ne0$，
+也没有将某个随 $p$ 改变的 quotient 曲线作为主目标的固定曲线。
+本节为纸面完整有限和证明，无新增数学执行。

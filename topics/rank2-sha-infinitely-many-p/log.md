@@ -168,3 +168,12 @@ R1061§§16–19把每个真实translated source的全阶jet写进原division fi
 root独核sigma乘法的二阶/一阶比、C2各导子和不能在torsion商中先求D的范围，直接读R301(5)–(13)核同一参数与首分母。核U的Weierstrass整性、Frob²=−p、低d窗及全部高尾比较，all-m整Laurent pole归纳、两p幂、Legendre准确数字和及Q0/全和精度。新增一句原点数和为0的自含理由。全纸证，无数学执行；主无限p目标未完成。
 
 R1061 §§11–15已重试成功推送ca48f4c54411365d8e78c84df1a60aaff89e36d2。推前actual readonly run46075603971/job140839502128：公开2026-11-28 02:48:12 UTC至466d9607a54fcf5e3c76d53d3ea484398608e2a0；私库2026-11-28 02:48:18 UTC至47633f7ed43dd611dda140007bf755eac9f946c3。四README与02:46已读版相同，QUEUE/认领未变；日志14894B/hashc0600ace8f93c11da70dbfa6e25710bbd2b7469da67defccc78eaa422a93ecb1，库存3171/44777200B/tree252a9e651da4f639adc85d951324aee05515b7c6，无>5MB，三旧必要gzip未变。
+
+
+## 2026-11-28 02:53:52 UTC：实际图群的全首层与指定差二槽
+
+R1061§20消费同一Miller全jet，付实际γ102的Norm(g)=3及全部p²−1点的graded首和Σu^((p+1)(m+6))。完整图群平均在指定D−⊗S代数规范的(p−7,p−5)槽exact估值−12/(p+1)，Q0低窗与两阶乘全保，故该specified source的形式差2投影确非零。与此同时critical tame m≡−2的首层准确相消；实际wild根、高项、全h/finite/tame/Artin和冻结外权仍须原样消费，不把这个不同槽的非零冒原canonical斜率证书。
+
+root由C4/C8先证明(b_N/w_Q^N)^p²=U(Q)^−N，只取剩余类，不作非法wild根整级数。逐式核反CM点标记gNorm3、全部幂指数及完整Fp²×和，核m=p−7的Q0整低窗/两阶乘及准确估值，另明证critical tame−2首层全消。geometry独立核点方向/Norm3/原中心剩余类；全部纸证，无数学执行。不能将规范模型的非零未经whole period/full h运输改名为m_i或目标reader。
+
+R1061 C1–19已成功推送f99d90466b46013d682874831850ad064ed51b0b。推前actual readonly run46075603971/job140840311160：公开2026-11-28 02:51:33 UTC至c4debf0dd8cf43a8a6547bf9d6bbd1d087704417；私库2026-11-28 02:51:39 UTC至72c40ebe2fc7d07972e79c77603c41b759625bbc。四README与02:48已读版相同，QUEUE/认领未变；日志14894B/hash4c7775ded1dc48563a2c827f2e1ae21537f4935c8a1238a7f12bc414d0b0aded，库存3171/44793466B/tree57a9a78310505f040ccdc8eb6691208389235135，无>5MB，三旧必要gzip不变。

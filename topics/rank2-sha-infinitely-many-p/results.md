@@ -315,3 +315,10 @@ R1061§§11–15把实际反线性图的全部level34来源反写到两条确切
 R1061§§16–19把每个真实translated source的全阶jet写进原division field：Z_Q=−r_p″/(2p²r_p′)、独立Z变量的全导子递推及所有中心/Q0均保。由原R301首sigma分母与整U≡1modp，精确得vZ_Q=−1+p/(p²−1)，没有在挠点代原点sigma/zeta级数。全m最高Z项严格支配，故每原归一源cover导数估值a/(p²−1)+mp/(p²−1)，各自真实Lie半径及边界不Tate已付。全p²和/物理参数返回及finite reader精度明确，单项非零不替完整投影或原canonical行非零。
 
 [完整证明](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，C1–C19。
+
+
+### R1061 §20：完整图群首和与明确差二非零槽
+
+R1061§20消费同一Miller全jet，付实际γ102的Norm(g)=3及全部p²−1点的graded首和Σu^((p+1)(m+6))。完整图群平均在指定D−⊗S代数规范的(p−7,p−5)槽exact估值−12/(p+1)，Q0低窗与两阶乘全保，故该specified source的形式差2投影确非零。与此同时critical tame m≡−2的首层准确相消；实际wild根、高项、全h/finite/tame/Artin和冻结外权仍须原样消费，不把这个不同槽的非零冒原canonical斜率证书。
+
+[完整证明](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，D1–D8。
