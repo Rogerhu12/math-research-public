@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GPM：全部真实截断不完全矩与四阶导的有向接收](results/R149-supplement-complete-signed-partial-cutoff-averages-on-the-genuine-frequency-contours.md)：真实Beta65,65截断经下不完全矩精确递推，原13有向系数及全Taylor余；整个x∈[0,1]两边界与Vext0..3/B0..4保。四真实输入组+完整复轮廓共52×256=13312闭格，18whole首发；实B>190/复B<276均待真实科学，不拿GXM整标量代替部分积分。
+
 - [GXW：全真实势支持外域的普通波与两物理窗口](results/R149-supplement-whole-genuine-ordinary-wave-outside-the-potential-support.md)：原[0,r−−1/5000]上65/193真三次片与完整GRQ3056×128真两ray同侧相接，保GXM非零λ中点+右对角半宽。原g/f两source先有向合成，再两次H^-2换元与5/6真尺度插值，原192/2039/.719/12.4各一次。54whole首发含原GRQ必要同SHA恢复，原输出全部角导0..2私留；外域nonlocal/端口另待。
 
 - [GNF：完整非局部与独立物理均值的真圆周双逆](results/R149-supplement-complete-root-collar-nonlocal-source-with-both-physical-circle-inverses.md)：同n*w0+w1V五场先合符号，真JI两次完整实现，根D与实际JCR交叠。两块物理频率表示、97..128零频例外单列、全解析条余/π8 primitive/全HS接收保；物理mean三幅伴随精确恒等与原g2相交。16闭径格/97..2^20/双真列/两sign，g1 H^-2/3与独立scalar按PW→2039/.719/12.4各一次，H^-5/3单独诊断，local0。43whole/112原输入首发，真实数值待。

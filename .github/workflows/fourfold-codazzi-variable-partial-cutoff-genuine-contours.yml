@@ -1,0 +1,94 @@
+name: Entire variable genuine cutoff on physical and complex frequency sectors
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-variable-partial-cutoff-genuine-contours.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-variable-cutoff-genuine-contours-20261128
+  cancel-in-progress: false
+jobs:
+  signed-variable-cutoff:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 25
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_collar_reference.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+            /topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exterior_signed_potential_moment.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-exterior-translation-of-both-genuine-first-ray-ratios.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_variable_cutoff_moments.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_variable_cutoff_owner.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-five-halves-contour-bound-for-the-true-frequency-dependent-forcing.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-complete-signed-partial-cutoff-averages-on-the-genuine-frequency-contours.md
+      - name: Verify complete historical inputs and strong source formulas
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7  scripts/fourfold_codazzi_common_radial_potential_budget.py
+          2f7f1b88e411726b9098ce98264d6e7778b03dbc7dbdb557bb6537fd6a16af53  scripts/fourfold_codazzi_correlated_collar_reference.py
+          9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b  scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          6586b4b034a34e733319e039b53852c72db0cdf13634ae9f2735eaf1e1dc38ab  scripts/fourfold_codazzi_true_ratio_live_rules.py
+          fcc08a0e5f8769b0c215ee25e61d6ecaf73c308d14adb24d68b39bc6328833a3  scripts/fourfold_codazzi_true_ratio_prefix.py
+          d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9  notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+          6b6db11ba57bb1273bc84d352fc2318cc69bb982a5a4803e662903932a41cbf1  results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+          9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad  results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md
+          d7ab6241aabc17f85eab1c8c4af49ed8c5f2f45eee85e96080a48f8491ad3e4d  results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+          38c5f45903f17c44bb49552db64cbd46d65b9239cc4ac0392bb687905bc13df5  scripts/fourfold_codazzi_exterior_signed_potential_moment.py
+          d49a5b1701266b2c05e1d0e47d678464db3521e48d828e0c81047440230e0949  results/R149-supplement-signed-exterior-translation-of-both-genuine-first-ray-ratios.md
+          f787065335f51c5ea3464eea46a8af70ac6bd6da566564d658a34d6e93d05556  scripts/fourfold_codazzi_variable_cutoff_moments.py
+          879c9b611baab0b87a8f067aeff855b983baf5c7448c1c8b6c77ffb054d67f7f  scripts/fourfold_codazzi_variable_cutoff_owner.py
+          3eb6a9f6e614b79b41a88a83a6f296ab6195b595c289fd66ae3eabd1c27d5cd2  results/R149-supplement-five-halves-contour-bound-for-the-true-frequency-dependent-forcing.md
+          73371ebd7418bb706fe50eeab7b16754e7b02d77d45e34fc9579fc0e26c1d825  results/R149-supplement-complete-signed-partial-cutoff-averages-on-the-genuine-frequency-contours.md
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+      - name: Receive the entire variable cutoff and partial signed integral on every actual contour
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          root=topics/visible-flex-exact-nearby/scripts
+          python "$root/fourfold_codazzi_true_ratio_live_rules.py" python "$root/fourfold_codazzi_variable_cutoff_owner.py" --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/gpm" --receipt "$RUNNER_TEMP/gpm-receipt.json"
+      - name: Retain the complete small result or last natural physical prefix
+        if: always()
+        run: |
+          python - <<'PYEND'
+          import hashlib,json,os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"gpm-receipt.json"
+          if p.is_file():
+              b=p.read_bytes()
+              if not 0<len(b)<100000:raise ValueError("qualified small GPM record")
+              print("GPM_FINAL_SMALL_OR_PREFIX",len(b),hashlib.sha256(b).hexdigest(),b.decode().strip(),flush=True)
+          PYEND
