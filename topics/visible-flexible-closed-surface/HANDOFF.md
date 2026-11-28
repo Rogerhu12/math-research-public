@@ -32,7 +32,7 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 <!-- 2ecf-target-curvature --> [R267新gap.92](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)：新实际源64格/真Γ95端口metric<5e−10、κ<7.6、含边界reach≥5/38。该图自己的周长/g不得冒原g精化。
 
-<!-- 2ecf-live-g10 --> [gap.92固定g own4/4](notes/2026-11-28-2ecf-gap-092-original-fixed-target-four-suffix-steps.md)：G11 metric .262344/κ16.6673/held .633511；strong正在变真R205振幅/固定帽高度后实际求解。
+<!-- 2ecf-live-g10 --> [gap.92真实A/Z十五案](notes/2026-11-28-2ecf-gap092-complete-r205-tail-amplitude-and-real-cuff-height.md)选原A、Z=.52，G11 .202342/κ19.5550/held .642218；新实际后缀求解继续。
 
 <!-- 2ecf-r265-polar --> [R270完整HF64后缀](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)909312闭盒严格嵌入；[径钟](notes/2026-11-28-2ecf-strong-hf-true-radial-material-clock.md)保图像、G11 .12051。HF64×80保原6615W且准确两端函数，冻结design3 g；强实际XYZ及全核跨片继续。
 
@@ -52,4 +52,4 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:26:13 UTC；已读公开 main `55ded99ef7ffb88da998985a328a1dd818dd0fa2`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:26:34 UTC；已读公开 main `3ce1b5344a7049a39be36164f74a8ab40183bcf1`，根/课题 README 逐差无变化。
