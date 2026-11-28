@@ -1,0 +1,334 @@
+{
+  "schema": "held10-native-pow2-projection-comparison-v1",
+  "observed_utc": "2026-11-28T07:58:33.096623+00:00",
+  "scope": "Actual engineering timing/byte comparison on saved accepted M12 native inputs; no new tail or surface acceptance. Six angular divisions only, original numerator/summation order unchanged.",
+  "comparison_scope": "Every production binary64 state and full Jacobian byte plus every non-timing diagnostic byte; optional canonical 80-bit buffers are not emitted by this CLI and were not compared.",
+  "v1_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-pow2-probe-20261128-a/summary.json",
+    "sha256": "9bba8fca52b693cdec93bc4295ae5b6fbd5e5b99fcc275b15b3bf4b5ef615153"
+  },
+  "v2_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-pow2-probe-v2-20261128-a/summary.json",
+    "sha256": "dcadddadd6cb0ccf8e3c52a63e011cb467e13dfa6850f30cf3ffa51b784d3d5e"
+  },
+  "v1_per_element_finite_guard": {
+    "status": "completed_all_requested_byte_comparisons",
+    "driver": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/native_pow2_projection_probe.py",
+      "sha256": "01e91351b0ce216cdb2b812dfd73db14161fcd97ed8e87e9aed8e91dac60f82a",
+      "bytes": 13604
+    },
+    "original_cpp": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf",
+      "bytes": 29468
+    },
+    "candidate_cpp": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-pow2-probe-20261128-a/frozen_flow_pow2_projection.cpp",
+      "sha256": "6577e229b82852bc9880ea343cb315c953351ed0e7c4cdaaf7fdcb59f0e73b4f",
+      "bytes": 29989
+    },
+    "candidate_native": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-pow2-probe-20261128-a/frozen_flow_pow2_projection",
+      "sha256": "7f561dd8b43bb4b602aa6e837cdac957fc88ad495f7fadd4c5ead0c34e4f76c0",
+      "bytes": 125248
+    },
+    "original_native": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94",
+      "bytes": 125248
+    },
+    "selected_stages": [
+      0,
+      22,
+      80,
+      813,
+      1151
+    ],
+    "selection": {
+      "labels": {
+        "first": 0,
+        "deepest": 1151,
+        "smallest_original_minA": 80,
+        "smallest_original_minD": 22,
+        "largest_background_curvature_secant": 813
+      },
+      "curvature_secant_value": 7.994920332547881,
+      "curvature_selection_scope": "Adjacent frozen radius/slope secants select a stressed region; not a curvature certificate"
+    },
+    "timing_totals": {
+      "original": {
+        "repetitions": 3,
+        "cpu_seconds": 2.2671849999999996,
+        "wall_seconds": 4.8351294279991635
+      },
+      "candidate": {
+        "repetitions": 3,
+        "cpu_seconds": 2.709243,
+        "wall_seconds": 5.006748538001375
+      }
+    },
+    "candidate_to_original_cpu_ratio": 1.1949810006682298,
+    "live_solver_binary_changed": false,
+    "comparison_by_scope": {
+      "selected_actual_M12_J_stages": {
+        "stage_count": 5,
+        "jacobian": true,
+        "compared_bytes": 26408,
+        "expected_nontiming_sha256": "2599937b5c2adaf5edde5dc158937aacd4175b11aca5e0d608dc89be0d512177",
+        "actual_nontiming_sha256": "2599937b5c2adaf5edde5dc158937aacd4175b11aca5e0d608dc89be0d512177",
+        "state_J_and_all_nontiming_diagnostics_byte_equal": true
+      },
+      "actual_nonpowerN_original_division_fallback": {
+        "stage_count": 2,
+        "jacobian": true,
+        "compared_bytes": 10616,
+        "expected_nontiming_sha256": "6c9f21c48f80b0582866cd74f281cd5ce93f4a6d64c71d494fe2be265496020e",
+        "actual_nontiming_sha256": "6c9f21c48f80b0582866cd74f281cd5ce93f4a6d64c71d494fe2be265496020e",
+        "state_J_and_all_nontiming_diagnostics_byte_equal": true
+      },
+      "all_actual_M12_J_stages": {
+        "stage_count": 1152,
+        "jacobian": true,
+        "compared_bytes": 6064216,
+        "expected_nontiming_sha256": "60ac45e1736ba2ade555c265d6c25c5ddc58f437ba844d4de01d18bd528b9667",
+        "actual_nontiming_sha256": "60ac45e1736ba2ade555c265d6c25c5ddc58f437ba844d4de01d18bd528b9667",
+        "state_J_and_all_nontiming_diagnostics_byte_equal": true
+      }
+    },
+    "individual_measurements": [
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 0,
+        "wall_seconds": 1.4210592049994375,
+        "user_seconds": 0.8006469999999997,
+        "system_seconds": 0.004018999999999967
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 0,
+        "wall_seconds": 1.1163213110003198,
+        "user_seconds": 0.9657400000000003,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 1,
+        "wall_seconds": 2.009479236000516,
+        "user_seconds": 0.9049909999999999,
+        "system_seconds": 0.0034740000000000326
+      },
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 1,
+        "wall_seconds": 1.731216633999793,
+        "user_seconds": 0.7274370000000001,
+        "system_seconds": 0.003935999999999995
+      },
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 2,
+        "wall_seconds": 1.682853588999933,
+        "user_seconds": 0.7311459999999999,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 2,
+        "wall_seconds": 1.8809479910005393,
+        "user_seconds": 0.835038,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "actual_nonpowerN_original_division_fallback",
+        "wall_seconds": 0.26677407900024264,
+        "user_seconds": 0.11225699999999961,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "all_actual_M12_J_stages",
+        "wall_seconds": 210.2147833630006,
+        "user_seconds": 187.356321,
+        "system_seconds": 0.5385769999999999
+      }
+    ]
+  },
+  "v2_configuration_only_guard": {
+    "status": "completed_all_requested_byte_comparisons",
+    "driver": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/native_pow2_projection_v2_probe.py",
+      "sha256": "5610217e7532aad096357e15ce5989e51cc7bafff5030c951195205b473740e5",
+      "bytes": 7668
+    },
+    "original_cpp": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf",
+      "bytes": 29468
+    },
+    "candidate_cpp": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-pow2-probe-v2-20261128-a/frozen_flow_pow2_projection_v2.cpp",
+      "sha256": "73f7f84c5f7be7e7b69717c19ce78b63ca674cb82ad1b2c88f93a79cbb2f2d0f",
+      "bytes": 29961
+    },
+    "candidate_native": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-pow2-probe-v2-20261128-a/frozen_flow_pow2_projection_v2",
+      "sha256": "dc45b289737ec5e5699ca306801d65dd63b5f157280317339a448f222e9de255",
+      "bytes": 125256
+    },
+    "original_native": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94",
+      "bytes": 125248
+    },
+    "selected_stages": [
+      0,
+      22,
+      80,
+      813,
+      1151
+    ],
+    "selection": {
+      "labels": {
+        "first": 0,
+        "deepest": 1151,
+        "smallest_original_minA": 80,
+        "smallest_original_minD": 22,
+        "largest_background_curvature_secant": 813
+      },
+      "curvature_secant_value": 7.994920332547881,
+      "curvature_selection_scope": "Adjacent frozen radius/slope secants select a stressed region; not a curvature certificate"
+    },
+    "timing_totals": {
+      "original": {
+        "repetitions": 5,
+        "cpu_seconds": 4.176496000000001,
+        "wall_seconds": 4.719621821000146
+      },
+      "candidate": {
+        "repetitions": 5,
+        "cpu_seconds": 4.613504999999998,
+        "wall_seconds": 5.332874032000291
+      }
+    },
+    "candidate_to_original_cpu_ratio": 1.10463532109213,
+    "live_solver_binary_changed": false,
+    "comparison_by_scope": {
+      "selected_actual_M12_J_stages": {
+        "stage_count": 5,
+        "jacobian": true,
+        "compared_bytes": 26408,
+        "expected_nontiming_sha256": "2599937b5c2adaf5edde5dc158937aacd4175b11aca5e0d608dc89be0d512177",
+        "actual_nontiming_sha256": "2599937b5c2adaf5edde5dc158937aacd4175b11aca5e0d608dc89be0d512177",
+        "state_J_and_all_nontiming_diagnostics_byte_equal": true
+      },
+      "actual_nonpowerN_original_division_fallback": {
+        "stage_count": 2,
+        "jacobian": true,
+        "compared_bytes": 10616,
+        "expected_nontiming_sha256": "6c9f21c48f80b0582866cd74f281cd5ce93f4a6d64c71d494fe2be265496020e",
+        "actual_nontiming_sha256": "6c9f21c48f80b0582866cd74f281cd5ce93f4a6d64c71d494fe2be265496020e",
+        "state_J_and_all_nontiming_diagnostics_byte_equal": true
+      }
+    },
+    "individual_measurements": [
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 0,
+        "wall_seconds": 0.9578566129994215,
+        "user_seconds": 0.8592040000000001,
+        "system_seconds": 0.0022149999999999948
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 0,
+        "wall_seconds": 0.9996083820005879,
+        "user_seconds": 0.8681089999999996,
+        "system_seconds": 0.003826999999999997
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 1,
+        "wall_seconds": 1.1257958239993968,
+        "user_seconds": 0.9877580000000004,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 1,
+        "wall_seconds": 0.9974077440001565,
+        "user_seconds": 0.8788640000000001,
+        "system_seconds": 0.0038529999999999953
+      },
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 2,
+        "wall_seconds": 1.038500003000081,
+        "user_seconds": 0.8868830000000001,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 2,
+        "wall_seconds": 1.1550341989996014,
+        "user_seconds": 0.9340079999999995,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 3,
+        "wall_seconds": 1.0112032570004885,
+        "user_seconds": 0.8894929999999999,
+        "system_seconds": 7.90000000000235e-05
+      },
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 3,
+        "wall_seconds": 0.9055249769999136,
+        "user_seconds": 0.8183500000000006,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "original",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 4,
+        "wall_seconds": 0.8203324840005735,
+        "user_seconds": 0.723293,
+        "system_seconds": 0.0038339999999999763
+      },
+      {
+        "label": "candidate",
+        "scope": "selected_actual_M12_J_stages",
+        "repetition": 4,
+        "wall_seconds": 1.0412323700002162,
+        "user_seconds": 0.9302309999999991,
+        "system_seconds": 0.0
+      },
+      {
+        "label": "candidate",
+        "scope": "actual_nonpowerN_original_division_fallback",
+        "wall_seconds": 0.11798409699986223,
+        "user_seconds": 0.11000500000000102,
+        "system_seconds": 0.0
+      }
+    ]
+  },
+  "decision": "Neither candidate reduces measured CPU cost; retain the original native kernel for the active M24 continuation and successor requests. No V2 complete 1152-stage replay was run.",
+  "new_mathematical_tail_acceptance": false,
+  "complete_surface": false
+}

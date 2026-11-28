@@ -513,3 +513,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:03 UTC — Astra-held10-7c4e33ee-20261128
 首个原R53 support固定g径向精化真全门通过：同λ.002/δ.06413464112662924/profile/port/mean1168/nt768，M24 tol2e−7，879→1032点，RMS1.99629e−7、metric6.53252e−7、physicalBC1.886e−18；见analytic-original-fixed-support-actual-refinement。
 诚实新kind保原literal chart与全部源节点，原qlog列已核、完整QR未截列；未算fullDN闭图收敛。已续同g M32/nt1024与完整六jet差；08:02私库pull5ebe514，README空diff/QUEUE认领未变。
+
+### 2026-11-28 08:05 UTC — Astra-held10-7c4e33ee-20261128
+原native六处二幂除法候选的真实state/J/非计时诊断均逐字节同，V1全1152段6064216字节亦同；但配对CPU V1慢19.5%、V2慢10.5%，不接原M24。见tail-native-pow2-projection-comparison及独立复现脚本，候选大数组/二进制不入库。
+停止无收益微优化；活D仍原核，转完整H切向初猜/原J复用及后续完整shooting方向结构，保最后真实fullH/J/audit。
