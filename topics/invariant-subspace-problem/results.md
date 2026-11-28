@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R150：全 W 同一个 f 的纯 lambda,T 原 I6／I11 与 b0 23088 点](results/R150-appendix-unit211-W-pure-weight-f-head-exact-lambda-T-original-ideal.md)：已付整头给双向原理想，整个Vlow由N5精确替换且无D逆；整b0规范不同点5772×2×2，旧46176保。首次新同f十一式与F99原纤维分开执行。
+
 - [R150：W 原 I4 六行、整个 f 头支付及唯一恢复](results/R150-appendix-unit211-W-original-I4-six-rows-entire-paid-f-head-and-unique-recovery.md)：2.732694879秒/0，原hf+a全返回；两个剩余因子精确为2e+1与旧整G36，支付后整W唯一f=−g及四纯值坐标原条件成立。三pair/三norm全返，均不冒称充分或空。
 
 - [R150：正确 Φ 的整个 α=0 原支排除](results/R150-appendix-unit211-Phi-zero-true-entire-alpha-zero-original-exclusion.md)：0.433170338秒/0，U42完整1/1/6三QQ域同Q gcd为4/4/1，全部整除原已付单位；12/24重数经幂零提升保全，当前物理D非零图可支付α。
