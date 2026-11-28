@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-integer-graph-traces-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-seventeen-5640-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保，旧848/578撤回。真t0/S0/对称u1闭。正确Δ0/Pf非零图≤722基点、全部Q纤维≤2；[完整Loww三次纤维](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Loww-fibers-8664-cover.md)常数−2P02λ²(2λ−1)²/B非零，无首项逆，含两ρ完整有序规范点≤8664。原点排空/Pf0仍开，dc888冻。首次a12ac固定u十七阶λ结式只接正确M与独立P，全部首项零保，180秒4GiB未预报。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保，旧848/578撤回。真t0/S0/对称u1闭；[正确17阶实际覆盖](results/R150-appendix-unit211-h-equals-k-corrected-fixed-seventeen-lambda-cover-and-5640-points.md)3.066秒/0，λ716次仅剥付支持后470，因子1^19/2^14/4^6/99/300。不同λ≤406，Vandermonde与局部det阶给≤470(λ,u)，全Q≤2/Loww z≤3/两ρ给≤5640完整有序规范点。候选原排空/Pf0续核，dc888冻，不借错链。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头1,T,z非自由、旧错链/bf3冻；正确t0/A0及[整个fu](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)已闭，当前D非零Phi图可付t/z/A/f−u。四整QQ原纤维4/12/12/54维全返1，合C17/u2关闭fu。B[C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)的原二次闭，余34/40≤74权对；d825分别在完整QQ常数域首次原I4余子式/首一λ关系，再按实际结果入完整原NP有限商，各120秒1GiB，全部嵌入/重数保。一般G面仍开，不借旧583。
+真四头1,T,z非自由、旧错链/bf3冻；正确t0/A0/[整个fu](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)闭，当前D非零Phi图付t/z/A/η。B C76原二次闭，34/40≤74权保；[d825两整域准确边界](notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-constant-first-resource-boundary-8542.md)均返首一λ6与408/480完整必要环境，51.047/72.487秒触1GiB退出−6，原理想秩/正目标全未返，整矩阵门冻结。新22a整α0由原R付m/θ、f/t唯一，原EBo头4uθ/M²付首一V2，首次120秒1GiB；一般G面开。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

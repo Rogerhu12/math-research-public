@@ -1,0 +1,260 @@
+{
+  "schema": "isp-original-fixed-u17-lambda-cover-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "source": {
+    "basename": "2026-11-28-unit211-h-equals-k-corrected-fixed-u-seventeen-lambda-cover-8542.py",
+    "git_blob": "a12ac66b99fb8bc239cd303259c21a705dd02fab",
+    "sha256": "4a8f1140c851838930c7b3992ff318ddda2b1f9ec8da90f08d46bd614749cd25",
+    "bytes": 10330
+  },
+  "run": {
+    "run_id": "46124405008",
+    "job_id": 140915684956,
+    "elapsed_seconds": 3.0661821529999997,
+    "max_child_rss_kib": 69464,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "2ece92b92b5775dcbb7bfe17f32ad9e92ee52a41",
+        "before": "ce00b012b6db58ea4b1c8125a005efe078cdce96",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T08:08:45.285621+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "ce00b012b6db58ea4b1c8125a005efe078cdce96",
+    "source_exit_code": 0,
+    "source_git_blob": "a12ac66b99fb8bc239cd303259c21a705dd02fab",
+    "source_sha256": "4a8f1140c851838930c7b3992ff318ddda2b1f9ec8da90f08d46bd614749cd25",
+    "stdout_bytes": 7651,
+    "stdout_sha256": "b87cf6a4a2a543f13b916f9582880056d3ef1a9530ae171ea5e64d3f58598f9e",
+    "stop_reason": null
+  },
+  "input_definition": {
+    "independentP": {
+      "degrees": [
+        28,
+        3
+      ],
+      "sha256": "8af7c105334af350ef5047ee49cf27a5aadbfa204a11b64f9b7f7b8a352dd49c"
+    },
+    "correctedM": {
+      "degrees": [
+        110,
+        14
+      ],
+      "sha256": "65d420e901bd60b711d76ad23699daab655414b0595383a19a93d13180f30663"
+    },
+    "necessaryPrefixBytes": 6055,
+    "necessaryPrefixSHA256": "09e0b44a9b6f244d0e2a11c1361b5382219aa5cad609efc3ae08fd370d318c7b",
+    "oldPAndMQQGCDNotExecuted": true,
+    "old722PointGateNotExecuted": true,
+    "oldDTProjectionNotExecuted": true,
+    "wrongMNeverDecoded": true,
+    "inputDefinitionRegenerationNotANewConclusion": true,
+    "allFixedULeadingZeroFibersKept": true,
+    "stage": "new_fixed_u17_original_inputs_ready",
+    "seconds": 1.407269166999999
+  },
+  "fixed_matrix": {
+    "matrixShape": [
+      17,
+      17
+    ],
+    "originalUDegrees": [
+      3,
+      14
+    ],
+    "originalLambdaDegrees": [
+      28,
+      110
+    ],
+    "lambdaDegreeUpperBound": 722,
+    "nonzeroRationalInputScalingsReturned": true,
+    "noULeadingCoefficientInverted": true,
+    "completeFixedCommonFiniteRootNecessary": true,
+    "stage": "new_fixed_u17_sylvester_defined",
+    "seconds": 1.4228431730000004
+  },
+  "raw": {
+    "raw": {
+      "degree": 716,
+      "nonzeroCoefficients": 712,
+      "bytes": 155438,
+      "sha256": "0d8d4b94832c4ae4cfab823dd16c6b361e62028010d780e4ee3767826a45aeb7"
+    },
+    "fixedSylvesterSize": 17,
+    "nonzero": true,
+    "allLeadingZeroFibersRetained": true,
+    "onlyOriginalConstantScalingsUsed": true,
+    "stage": "new_fixed_u17_original_lambda_resultant",
+    "seconds": 2.6341173210000015
+  },
+  "remaining": {
+    "rawDegree": 716,
+    "remaining": {
+      "degree": 470,
+      "nonzeroCoefficients": 471,
+      "bytes": 98375,
+      "sha256": "bb12a30297f6e3e40cd6bc3c06eddc1f653164e8cd80a3fbd22dec017cf665e6"
+    },
+    "onlyAlreadyPaidLambdaSupportRemoved": [
+      {
+        "originalPaidLambdaSupport": "A",
+        "gcdLayers": 89
+      },
+      {
+        "originalPaidLambdaSupport": "B",
+        "gcdLayers": 18
+      },
+      {
+        "originalPaidLambdaSupport": "physical_lambda",
+        "gcdLayers": 5
+      },
+      {
+        "originalPaidLambdaSupport": "independent_physical_two_lambda_minus_one",
+        "gcdLayers": 15
+      }
+    ],
+    "allUnpaidLambdaFactorsAndMultiplicitiesKept": true,
+    "allOriginalUQGramFibersStillNeedTheirOriginalReturns": true,
+    "wholeNamedPfDeltaChartExcluded": false,
+    "PfZeroChartUnchanged": true,
+    "stage": "new_fixed_u17_complete_necessary_lambda_cover",
+    "seconds": 2.8087979070000024
+  },
+  "factorization": {
+    "factors": [
+      {
+        "index": 0,
+        "multiplicity": 19,
+        "irreducibleFactor": {
+          "degree": 1,
+          "nonzeroCoefficients": 2,
+          "bytes": 10,
+          "sha256": "1fa1f30d60b5195a920cd9a68370231ccdd314c1cf5245eb80f5bb78541a427e"
+        }
+      },
+      {
+        "index": 1,
+        "multiplicity": 14,
+        "irreducibleFactor": {
+          "degree": 2,
+          "nonzeroCoefficients": 3,
+          "bytes": 14,
+          "sha256": "76c6537baea2267477ffc856f1865cc27d5c76cab43f750c63a88cbbdccbf3ab"
+        }
+      },
+      {
+        "index": 2,
+        "multiplicity": 6,
+        "irreducibleFactor": {
+          "degree": 4,
+          "nonzeroCoefficients": 5,
+          "bytes": 26,
+          "sha256": "c14fdb1890f27b1190806fa0896a5ba77917ef0a5802802eb5b9f65d067aaf26"
+        }
+      },
+      {
+        "index": 3,
+        "multiplicity": 1,
+        "irreducibleFactor": {
+          "degree": 99,
+          "nonzeroCoefficients": 100,
+          "bytes": 3069,
+          "sha256": "e422b38e5f712eb9237d85ad116dfcdf8ec94f3886a7d97d210b48e3ce6a5a7e"
+        }
+      },
+      {
+        "index": 4,
+        "multiplicity": 1,
+        "irreducibleFactor": {
+          "degree": 300,
+          "nonzeroCoefficients": 301,
+          "bytes": 26690,
+          "sha256": "5bfbc9ddc3b558dbef77fc19cd495175a1c8ad16461e6166c44cb982a1dca7ea"
+        }
+      }
+    ],
+    "entireQQFactorProductReturned": true,
+    "remainingDegree": 470,
+    "squareFreeNecessary": {
+      "degree": 406,
+      "nonzeroCoefficients": 407,
+      "bytes": 68518,
+      "sha256": "2993b72bd08c047be8fc98f68589856bf94d969629d39a2caf86e4a91ff3af07"
+    },
+    "allIrreducibleQQFactorsRetained": true,
+    "lambdaCandidateValuesAtMost": 406,
+    "allUSpecializationsAndQLeadingZerosRetained": true,
+    "noModularEmptyOrNumericRootInference": true,
+    "wholeNamedPfDeltaChartExcluded": false,
+    "noClaimEntireCollisionExcluded": true,
+    "stage": "new_fixed_u17_entire_QQ_factor_cover",
+    "seconds": 2.9780075470000007
+  },
+  "statistics": {
+    "inputRationalScalingCoefficients": 1779,
+    "exactDivisionProducts": 1623,
+    "bareissDivisionProducts": 1496,
+    "bareissRowSwaps": 0,
+    "paidSupportProducts": 127,
+    "factorProductReturns": 1
+  },
+  "small_factor_identification": {
+    "ascending_integer_coefficients": [
+      [
+        "-1",
+        "3"
+      ],
+      [
+        "1",
+        "-3",
+        "3"
+      ],
+      [
+        "3",
+        "-12",
+        "24",
+        "-24",
+        "8"
+      ]
+    ],
+    "sha256": [
+      "1fa1f30d60b5195a920cd9a68370231ccdd314c1cf5245eb80f5bb78541a427e",
+      "76c6537baea2267477ffc856f1865cc27d5c76cab43f750c63a88cbbdccbf3ab",
+      "c14fdb1890f27b1190806fa0896a5ba77917ef0a5802802eb5b9f65d067aaf26"
+    ],
+    "identification_did_not_rerun_any_projection": true
+  },
+  "deduced_distinct_point_bounds": {
+    "lambda": 406,
+    "lambda_u": 470,
+    "lambda_u_Q": 940,
+    "lambda_u_Q_z": 2820,
+    "complete_ordered_normalized_coordinates": 5640,
+    "reason": "At every physical lambda, independent Vandermonde kernel columns are bounded by the order of the fixed determinant; paid stripping is a local unit. Then use already proved complete Q degree2, Loww degree3 nonzero fibers and rho degree2.",
+    "not_a_new_global_scheme_length_bound": true
+  },
+  "scope": {
+    "h_equals_k": true,
+    "Delta_zero": true,
+    "Pf_nonzero": true,
+    "all_unpaid_lambda_factors_retained": true,
+    "all_u_Q_and_Gram_leading_zero_fibers_retained": true,
+    "Pf_zero_unchanged": true,
+    "whole_chart_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "storage": {
+    "no_large_recomputable_coefficient_payload_saved": true,
+    "no_encoded_chunks": true
+  }
+}

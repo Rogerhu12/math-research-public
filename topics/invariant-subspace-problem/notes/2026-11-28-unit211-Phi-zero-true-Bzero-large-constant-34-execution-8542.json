@@ -1,0 +1,175 @@
+{
+  "schema": "isp-corrected-Phi-B-large-constant-frozen-first-execution-v1",
+  "date": "2026-11-28",
+  "scope": "corrected Phi=0, current physical Dval!=0",
+  "degree": 34,
+  "job_id": 140916062651,
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-constant-original-fiber-8542.py",
+  "execution": {
+    "elapsed_seconds": 51.046880607999995,
+    "max_child_rss_kib": 1019568,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9cc61847416e7e1dfcb8133e4e0c055c53227dd3",
+        "before": "3b6440264391329c3c5af0a86c393d49f74240cd",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T08:10:12.196638+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46124520657",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "3b6440264391329c3c5af0a86c393d49f74240cd",
+    "source_exit_code": -6,
+    "source_git_blob": "d8259998597c4779610c182854305d4e4e0af2f4",
+    "source_sha256": "a44a8fc4ca4842d97c4d94215250e8399f5988407c3971bdc68ffe96b3b77a48",
+    "stdout_bytes": 2480,
+    "stdout_sha256": "6097440baa3ad3ea935d723665439f5b5f988b3507a39b308e160f71e001f41a",
+    "stop_reason": null
+  },
+  "completed_stages": [
+    {
+      "constantDegree": 34,
+      "exactFactorSHA256": "b593d2770a0337dcaf2f4908e51cfc9feb3c5890ce21e5c3c6c1707ff98187ff",
+      "existingC76SHA256": "5eb0b13c682928e24c8449fa7dbbfa7a890fd72438897a4ae98de523ae778242",
+      "noCoefficientPayloadPrinted": true,
+      "oldC76ProofAndClassificationNotRunAsGate": true,
+      "oldFullMultiplierIdentitiesNotExecuted": true,
+      "originalSixRowDefinitionPrefixSHA256": "44f288f6b65f5c59e99daae0de10b56e94ba13ec8b9307f3c70c71953eece6e0",
+      "parameterDefinitionSourceSHA256": "73d4dd4167d48b5a5878338bdfe85dc6c59a194b97fa2ae23309e2c2226eac35",
+      "parameterTextSHA256": "5197bf5e92667bf0dadb750be5db1ed43755669d823e4a51685803b85ef526cc",
+      "seconds": 0.43289695100000003,
+      "stage": "new_B_large_constant_exact_parameter_defined"
+    },
+    {
+      "allComplexEmbeddingsKept": true,
+      "allFourActualOriginalRowsReturned": true,
+      "allOriginalWeightAndCoordinateDenominatorsWholeUnitsReturned": true,
+      "constantDegree": 34,
+      "fourOriginalRowLambdaDegrees": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "monicOmegaCoefficientLambdaDegrees": [
+        2,
+        1,
+        0
+      ],
+      "seconds": 0.5511900720000007,
+      "stage": "new_B_complete_large_constant_I4_input"
+    },
+    {
+      "cofactorDegree": 6,
+      "completedMonicGCDDegree": 6,
+      "constantDegree": 34,
+      "originalPair": [
+        0,
+        3
+      ],
+      "seconds": 0.5832836109999988,
+      "stage": "new_B_large_constant_I4_lambda_gcd_checkpoint"
+    },
+    {
+      "cofactorDegree": 6,
+      "completedMonicGCDDegree": 6,
+      "constantDegree": 34,
+      "originalPair": [
+        1,
+        3
+      ],
+      "seconds": 0.6091885139999995,
+      "stage": "new_B_large_constant_I4_lambda_gcd_checkpoint"
+    },
+    {
+      "cofactorDegree": 6,
+      "completedMonicGCDDegree": 6,
+      "constantDegree": 34,
+      "originalPair": [
+        2,
+        3
+      ],
+      "seconds": 0.625946399,
+      "stage": "new_B_large_constant_I4_lambda_gcd_checkpoint"
+    },
+    {
+      "bothCompleteOriginalCombinationCoordinatesReturned": true,
+      "constantDegree": 34,
+      "monicOriginalLambdaRelation": {
+        "coefficientBytes": 30479,
+        "constantDegree": 34,
+        "lambdaDegree": 6,
+        "sha256": "f2d41bd0b2b1623745f9e0fd69a0cb488650f07bcd264a3f18b4a63bf8188b0c"
+      },
+      "seconds": 0.6341589590000005,
+      "stage": "new_B_large_constant_complete_I4_lambda_Bezout",
+      "usedOriginalPairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "wholeFactorExcluded": false
+    },
+    {
+      "allSixOriginalRowsPresent": true,
+      "constantDegree": 34,
+      "fullQQAlgebraDimension": 408,
+      "lambdaAndOmegaNilpotentsKept": true,
+      "monicLambdaDegree": 6,
+      "monicOmegaDegree": 2,
+      "noDOrLambdaOrTInverse": true,
+      "seconds": 0.8683745429999981,
+      "stage": "new_B_large_constant_complete_original_NP_in_finite_model"
+    }
+  ],
+  "actual_error": "FLINT exception (General error): Unable to allocate memory (832320).",
+  "failure_classification": "fixed 1 GiB memory boundary; source SIGABRT (-6); not timeout",
+  "exact_failed_statement_not_identified_by_log": true,
+  "original_ideal_rank_returned": false,
+  "positive_target_returned": false,
+  "whole_factor_excluded": false,
+  "weight_point_bound_74_unchanged": true,
+  "freeze": "No rerun, larger resource, reordered same full rational matrix, or repetition of completed proof gates.",
+  "coefficient_payload_saved": false,
+  "ordinary_isp_claim": false
+}
