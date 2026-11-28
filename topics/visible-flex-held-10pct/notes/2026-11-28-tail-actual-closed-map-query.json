@@ -1,0 +1,96 @@
+{
+  "schema": "held10-actual-fullH-closed-map-query-result-v1",
+  "status": "actual_frozen_complete_map_query_returned",
+  "actual_returncode": 0,
+  "report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-fullH-20261128-b/report.json",
+    "sha256": "374b6d60e7baaa48f57c3e2912ab3e9d448a8a6cc8018ba4c36e540d02903d0b"
+  },
+  "execution": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-fullH-20261128-b/execution.json",
+    "sha256": "dfebda8d08a391b085c3ed6d26704ad93b7cfb91a4af63a31dc0ad1de818042b"
+  },
+  "rendering": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-fullH-20261128-b/report-rendering.json",
+    "sha256": "49dfb5dd3f1995986b397f8675314f26131ca4eccbf87f46d0988c563a636eea"
+  },
+  "mathematical_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py",
+    "sha256": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5"
+  },
+  "diagnostic_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_numeric_report_v3.py",
+    "sha256": "e304820a26b5b6de4630679d37bcfcba081f1f580647854ce82848f62b5228ca"
+  },
+  "earlier_failed_execution": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-fullH-20261128-a/execution.json",
+    "sha256": "10fb8be0a17c7b5fd466940ed6502a8343d3d9615bcbb8897133ef2685d7ca55"
+  },
+  "earlier_real_exit_code": 1,
+  "earlier_wall_seconds_including_disk_wait": 71.67062375300156,
+  "earlier_pure_compute_seconds_measured": false,
+  "actual_wall_seconds": 25.103583432999585,
+  "observed_child_maxrss_KiB": 252024,
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "assembly_observation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/complete-map-assembly-observation.json",
+    "sha256": "319086f04a628d76dfc453ecdb3be91e3246df98bbcadada999f64049c72fb80"
+  },
+  "source_design_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "source_homotopy": 0.002,
+  "modes": 24,
+  "source_height_role": "full raw candidate_H; not final coupled physical H",
+  "complete_finite_stage_count": 1152,
+  "verified_full_node_index": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-fullH-20261128-b/report-verified-node-index.json",
+    "sha256": "e9cb47aef29e77e2c2e5af2a335e942c8933ae2a952b31fed37883ab25e0911b"
+  },
+  "cut_jet_query_count": 30,
+  "cut_phases": [
+    0.0,
+    0.17,
+    1.0471975511965976
+  ],
+  "shared_cut_six_jet_sampled_errors": [
+    2.5438405243138006e-16,
+    2.2366973658179873e-16,
+    5.289967607552062e-16,
+    8.326674449340461e-17,
+    1.2412670766236366e-16,
+    2.9307840470773572e-16
+  ],
+  "sampled_error_order": [
+    "F",
+    "F_s",
+    "F_ss",
+    "F_theta",
+    "F_theta_theta",
+    "F_s_theta"
+  ],
+  "tail_query_count": 42,
+  "finite_queries_all_finite": true,
+  "cap_height_approx": 0.8699871644620787,
+  "cap_height_definition": "zcut + mu_cut + true integral from cuff a to physical Rc of w(R) dR; numerical Zcap is an evaluator, not a separately rounded defining constant",
+  "tail_cut_radius_delta_numeric": 0.0,
+  "cylinder_half_length": 0.0,
+  "central_cylinder_comparison_executed": false,
+  "central_zero_array_is_not_new_evidence": true,
+  "marker": 0.0,
+  "scalar_display_conversion_counts": {
+    "longdouble": 12
+  },
+  "diagnostic_conversion_is_outward_bound": false,
+  "continuous_metric_certificate": false,
+  "reach_certificate": false,
+  "held_set_gate": false,
+  "delta_E_proved": false,
+  "fixed_problem_convergence": false,
+  "README_completion": false,
+  "large_payloads_in_git": false
+}

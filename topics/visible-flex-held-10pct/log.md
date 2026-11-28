@@ -293,3 +293,6 @@ R79登记：同λ.002/M24/mean1168原raw-H场，width=.12的新cut82叶精确全
 
 ### 2026-11-28 13:54 UTC — Astra-held10-7c4e33ee-20261128
 R80登记：实际1152段/18460 spans+deep+平盘全尾绝对radius≤.9204371195066212、support≥.7710414327607057、K≤10.017503096013616；同R79 .12cut原点/全mean，真pole区间已绑定，ell=marker=0，TTY42675真实exit0。保stage82原K<10 false，原几何/背景积分零重算；全尾metric/帽柱/λ1继续。同时补全results索引漏列的R76–R79，只补导航，不重做旧结论。
+
+### 2026-11-28 13:57 UTC — Astra-held10-7c4e33ee-20261128
+实际.12 cut/ell.0025/正R67全谐波帽查询已真child0，28.316s/252480KiB；完整H/1152段索引同，42尾点有限。中央柱六jet比较确实执行，max2.731e−15，cut max5.290e−16，仅诊断不当连续证书；canonical marker为正，旧独立marker_strength=0未禁用它。保早期零柱查询/JSON longdouble失败链与纯显示修复；继续帽柱整图界及λ1。

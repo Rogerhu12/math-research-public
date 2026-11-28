@@ -1,0 +1,131 @@
+{
+  "schema": "held10-actual-width012-positive-cylinder-canonical-marker-query-v1",
+  "credibility": "actual execution and sampled numerical diagnostics; not a continuous certificate",
+  "session": "Astra-held10-7c4e33ee-20261128",
+  "actual_tool_session": 95236,
+  "execution": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-width012-marker-cylinder-20261128/execution.json",
+    "sha256": "bca37ed389ed6b6e4b0cfcb078d53578715301368446c6f71d1840275581d8ae"
+  },
+  "actual_child_returncode": 0,
+  "actual_wall_seconds": 28.315726109001844,
+  "child_peak_RSS_KiB": 252480,
+  "report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-width012-marker-cylinder-20261128/closed-map-query.json",
+    "sha256": "877e68d97868524ed3cde4bca1090fbe8a4a207370e7b6c761da2b5963378cab"
+  },
+  "rendering": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-width012-marker-cylinder-20261128/closed-map-query-rendering.json",
+    "sha256": "e9eee1dac0e9c07d3c694733976bc23ab095b3a7d42e6faaeb60d231addeb8ba"
+  },
+  "actual_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_numeric_report_v3.py",
+    "--source-run",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "--geometry-bundle",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "--cut-width",
+    ".12",
+    "--cylinder-half-length",
+    ".0025",
+    "--canonical-r67-marker",
+    "--out",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-width012-marker-cylinder-20261128/closed-map-query.json"
+  ],
+  "mathematical_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py",
+    "sha256": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5"
+  },
+  "numeric_serialization_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_numeric_report_v3.py",
+    "sha256": "e304820a26b5b6de4630679d37bcfcba081f1f580647854ce82848f62b5228ca"
+  },
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "verified_complete_node_index": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-width012-marker-cylinder-20261128/closed-map-query-verified-node-index.json",
+    "sha256": "e9cb47aef29e77e2c2e5af2a335e942c8933ae2a952b31fed37883ab25e0911b"
+  },
+  "modes": 24,
+  "source_homotopy": 0.002,
+  "complete_finite_stage_count": 1152,
+  "height_identity_checked": true,
+  "source_height_role": "entire raw candidate_H, not eight-outer final physical-H",
+  "cut_width": 0.12,
+  "cylinder_half_length": 0.0025,
+  "central_cylinder_comparison_actually_executed": true,
+  "shared_cut_six_jet_sampled_errors": [
+    2.5438405243138006e-16,
+    2.2366973658179873e-16,
+    5.289967607552062e-16,
+    8.326674449340461e-17,
+    1.2412670766236366e-16,
+    2.9307840470773572e-16
+  ],
+  "central_cylinder_six_jet_sampled_errors": [
+    4.002966042486721e-16,
+    8.881784197001252e-16,
+    2.6645352591003757e-15,
+    5.551115123125783e-16,
+    2.7307875685720004e-15,
+    4.6617313165942265e-29
+  ],
+  "sampled_jet_order": [
+    "F",
+    "F_s",
+    "F_ss",
+    "F_theta",
+    "F_theta_theta",
+    "F_s_theta"
+  ],
+  "tail_sampled_points": 42,
+  "finite_queries_all_finite": true,
+  "canonical_r67_marker": true,
+  "legacy_separate_marker_strength": 0.0,
+  "legacy_zero_strength_does_not_remove_canonical_marker": true,
+  "canonical_marker_metadata": {
+    "definition": "epsilon*(1-|z/r|^2)_+^3*Re((z/r)^3/(1-(z/r)^3/2))",
+    "radius": 0.024999999999999994,
+    "radius_exact_binary": "900719925474099/36028797018963968",
+    "amplitude": 6.249999999999997e-08,
+    "amplitude_exact_binary": "4722366482869643/75557863725914323419136",
+    "exact_amplitude_upper": "811296384146066456669919861801/12980742146337069071326240823050240000",
+    "amplitude_bound_checked_exactly": true,
+    "all_harmonics_retained_by_rational_function": true,
+    "symmetry_order": 3,
+    "boundary_cartesian_two_jet_exactly_zero": true,
+    "height_absolute_upper_exact": "4722366482869643/37778931862957161709568",
+    "gradient_norm_upper_exact": "4722366482869643/78706108047827402752",
+    "hessian_operator_upper_exact": "2271629875608986022613876736/90144042682896272963324429089",
+    "diameter_increase_upper_exact": "4722366482869643/18889465931478580854784",
+    "cap_principal_curvature_upper_exact": "2271629875608986022613876736/90144042682896272963324429089",
+    "first_cap_moment_divided_by_pi_exact": "2799680927722250842524733234942527057312709978992242043386525692379821875833040918202561857/642179612477220023251029850684584343423038196967118714646524875028338405304775746259605194870835192235294720",
+    "analytical_source": "results/R67-universal-threefold-marker-and-euclidean-noncongruence.md",
+    "numerical_evaluation_is_outward_rounded": false,
+    "complete_surface_geometry_paid": false,
+    "activity_moment_or_noncircular_core_verified": false,
+    "euclidean_noncongruence_paid": false
+  },
+  "canonical_marker_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/universal_threefold_marker.py",
+    "sha256": "06c97cc20934e08b217dfa04891145e61e1f926c35a8a1c88eee05cd1c8c1060"
+  },
+  "cap_height_without_cylinder_approx": 0.8699871644620787,
+  "upper_pole_height_approx": 0.8724871644620786,
+  "cap_height_is_actual_background_expression_not_rounded_constant": true,
+  "metric_recomputed_in_query": false,
+  "continuous_metric_certificate": false,
+  "reach_certificate": false,
+  "delta_E_proved": false,
+  "held_set_gate_proved": false,
+  "fixed_problem_convergence_proved": false,
+  "README_completion": false
+}

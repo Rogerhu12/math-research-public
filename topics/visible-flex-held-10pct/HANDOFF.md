@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `0b533dc0e16d28c896a89b2baa9e07edae54d26b`（2026-11-28 13:55 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `321a3a3e40aaee68f7ef737bc0c1b978acfc7910`（2026-11-28 13:58 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12/13/15/16照做：授权直接提交/Actions，可再生产物不存Git/Release；新spawn显式gpt-6.2-astra/ultra/forknone。H<10KB、单MD<100KB、课题<200MB。改外部workflow记本题log。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -37,7 +37,9 @@
 
 [R80实际整尾placement](results/R80-actual-complete-tail-absolute-geometry.md)已付：1152段/18460 spans+deep+平盘，|F|≤.9204371195066212、F·n≥.7710414327607057、K≤10.017503096013616；真实pole区间[.8699871644491405,.8699871644766567]。同.12 cut原点、原完整mean，ell=marker=0；TTY42675/exit0，不重算原积分/多项式。
 
-默认完整图查询JSON修复后真exit0/42尾点有限，零柱/marker0初始化不作验收。[.04/.01真实点反例](notes/2026-11-28-actual-short-cut-point-obstructions.md)已付，改[.12 cut的R79](results/R79-actual-width012-cut-prefix-continuous-metric-geometry.md)后82叶+未改补集全metric<99/1e8、support>.6445、radius<1.19001、K≤123/10。首加载−9零叶保留，fresh门后TTY86889父/子0，47.829s；root源/精确覆盖/有理门已核。实际图入口须显式--cut-width .12，不能混默认.04。
+[真实.12 cut+正柱+规范帽查询](notes/2026-11-28-actual-width012-cylinder-marker-query.md)TTY95236/child0，28.316s；42尾点有限，中央柱六jet比较实际执行，max2.731e−15，cut max5.290e−16。ell=.0025，canonical marker正幅6.25e−8（旧独立marker_strength=0不代表无帽）；仅数值诊断，连续门/δE/held/收敛均未冒称。
+
+[.04/.01真实点反例](notes/2026-11-28-actual-short-cut-point-obstructions.md)已付；[R79 .12 cut](results/R79-actual-width012-cut-prefix-continuous-metric-geometry.md)82叶与未改补集全metric<99/1e8、support>.6445、radius<1.19001、K≤123/10。首加载−9零叶保留，成功47.829s。所有实际图入口须显式--cut-width .12，不能混默认.04。
 
 [严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过。最终coupled图须独立绑定binding.candidate_H，不能搬raw-H尾证书；现尚无8outer最终physical-H。
 
