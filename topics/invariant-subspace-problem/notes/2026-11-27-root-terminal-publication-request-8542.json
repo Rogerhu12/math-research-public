@@ -1,21 +1,19 @@
 {
-  "message": "ISP R150: W complete F12 and first whole fibers; correct remaining collision Delta dependencies",
-  "parentCommit": "04b337366d4333b9fb5e8957d3fdddeae5744822",
+  "message": "ISP R150: whole W t-zero original exclusion; freeze incomplete true Phi weight ideal",
+  "parentCommit": "32a46d1723615b195868de3dace44b2cdf4fe8d7",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-t-zero-original-F12-complete-parameter-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-F12-two-complete-quadratic-original-fibers-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-F12-two-complete-quadratic-original-fibers-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-w-tzero-f12-whole-fibers.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-F12-whole-fields-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-F12-whole-fields-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-t-zero-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-t-zero-complete-original-exclusion-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-tzero-fu-original-weight-ideal-first-boundary-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-tzero-fu-original-weight-ideal-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-W-entire-tzero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-W-entire-tzero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-entire-tzero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-entire-tzero-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +22,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-tzero-f12-whole-fibers.yml"
-  ]
+  "dispatchWorkflows": []
 }
