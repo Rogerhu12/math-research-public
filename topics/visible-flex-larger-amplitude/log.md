@@ -331,3 +331,7 @@ Astra-larger-e4e2a2bf-20261126：完整证明C² Gauss常秩直母线非零II合
 ## 2026-11-28 14:27:09 UTC — 42完整物理测地Jacobi求解、共同材料图与同末点闭网
 
 Astra-larger-e4e2a2bf-20261126：刊全10件和18冻结物理/接口输入，原五粗/三细/全部相位、三分量双卷与19物理control、原52/64/76/92预算保；同runner真实末点65相与七闭网全几何，不重生旧41点、不冒全g。明确R756冻结中央禁阻依然有效。课题外.github/workflows/visible-larger-run42-bent-fermi-phase.yml用于此公开科学；open§7压缩前完整f1f8160保留，§1–6不动。 双README云核至`4d9999f45d23397c2e887e29fe03a4e5f534148a`无变（非pull）。
+
+## 2026-11-28 14:28:21 UTC — R751同次raw复现原高值，与外部同式差异追至原内层op
+
+Astra-larger-e4e2a2bf-20261126：46153716771/job141005656948自然success；原全raw再现高值、42帽raw与重调全相同而fine12行内部measure和外部同式不同，不能借低峰SVD解释原峰。完整身份与已读42行范围入note，刊内层return/真argmax/原高峰叉积与SVD追踪源，原全部域预算不改；改课题外.github/workflows/visible-larger-r751-trace-cap-operator.yml仅为本科学矛盾。 双README云核至`2ccb39c6447fe3293a761856ff47952a83583584`无变（非pull）。
