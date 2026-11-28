@@ -1,0 +1,225 @@
+{
+  "schema": "isp-original-residual-result-and-small-parameter-identity-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46172447384,
+  "job_id": 141063667692,
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46172447384/job/141063667692",
+  "source_blob": "2e9d9c38bb70bec13d2d93334996102d1d9d5a8e",
+  "source_sha256": "05729636d358e7de52c2424e938c392b42d4e527c6479dd9e89b6993795af0c5",
+  "input_blob": "47d38e4e2f9fbddd7427f08b09a4d9ceac734b3f",
+  "execution": {
+    "elapsed_seconds": 0.06338729800000209,
+    "max_child_rss_kib": 39532,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6ad9f9132c197496df8f9ee8759c57cef4c72b2c",
+        "before": "22ca9049ebd082513149c453f56818521228443f",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T17:48:47.348588+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46172447384",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "22ca9049ebd082513149c453f56818521228443f",
+    "source_exit_code": 0,
+    "source_git_blob": "2e9d9c38bb70bec13d2d93334996102d1d9d5a8e",
+    "source_sha256": "05729636d358e7de52c2424e938c392b42d4e527c6479dd9e89b6993795af0c5",
+    "stdout_bytes": 2714,
+    "stdout_sha256": "37188cc15c536c3e797ea7c149dae381b78e7aa8fca325b36cffb48dac9ad308",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "parameterPrime": 1009,
+      "finiteMuOnly": true,
+      "excludedResidueSupports": [
+        "L",
+        "L-1",
+        "2L-1",
+        "L-3"
+      ],
+      "qqNumerators": [
+        {
+          "degrees": [
+            4,
+            2
+          ],
+          "terms": 15,
+          "bytes": 224,
+          "sha256": "7d13934bc5b274ab5880a72881f4b0e5505ca426d06f460961194d2f6e1c03b8"
+        },
+        {
+          "degrees": [
+            11,
+            6
+          ],
+          "terms": 61,
+          "bytes": 1067,
+          "sha256": "5db9aab90519350abeb683448a21c03c96609d06b5cc83a0ac8621ab095e6ecd"
+        },
+        {
+          "degrees": [
+            10,
+            5
+          ],
+          "terms": 54,
+          "bytes": 954,
+          "sha256": "719098b17d8e14ce26cbd7b3eb10a31629b03caead052052b7a9d07dc3dde388"
+        }
+      ],
+      "qqDenominators": [
+        {
+          "degrees": [
+            2,
+            0
+          ],
+          "terms": 3,
+          "bytes": 38,
+          "sha256": "53b66bfe4ca1fab4c0d4b62741140c8aef25110ee241e89298542386fc8f63d3"
+        },
+        {
+          "degrees": [
+            6,
+            0
+          ],
+          "terms": 7,
+          "bytes": 101,
+          "sha256": "4196edce5a0bbbc5e2edc1e3afcc77064c37c8a866c681ef75d1961c82473249"
+        },
+        {
+          "degrees": [
+            6,
+            0
+          ],
+          "terms": 7,
+          "bytes": 107,
+          "sha256": "71e49cec7c79299bc418c2ca57e5b27b19d480b938f0895574166d77c92ff4f7"
+        }
+      ],
+      "modOriginalNumerators": [
+        {
+          "degree": 2,
+          "bytes": 69,
+          "sha256": "8cb967e2c2674bd975d804ca78ea1705a6c7446af20dc5b31d6da43a79e16faa"
+        },
+        {
+          "degree": 6,
+          "bytes": 290,
+          "sha256": "8d07055169c285522802e2d2358c96e1faa983c5f5952f3ff58316ffc3f22e9c"
+        },
+        {
+          "degree": 5,
+          "bytes": 247,
+          "sha256": "589d5f28d383237250d2d9949b5be905fee5e682ca9e6afa366046dca609be51"
+        }
+      ],
+      "completeOriginalNV": true,
+      "noPhysicalFZero": true,
+      "noOldProjectionOrInitialIdeal": true,
+      "stage": "new_finite_mu_complete_original_residual_model",
+      "seconds": 0.004143800999997893
+    },
+    {
+      "label": "q2_R6",
+      "capacities": [
+        2,
+        6
+      ],
+      "matrixOrder": 8,
+      "determinant": {
+        "degree": 46,
+        "bytes": 171,
+        "sha256": "e57354314c1e431b01b6cc54cf2bf1d16d5f5af7651217abc7b87a2b0742cd57"
+      },
+      "fullPolynomialCoordinates": true,
+      "allLeadingDropAndPivotZeroFacesRetained": true,
+      "stage": "new_fixed_mu_resultant_complete_original_return",
+      "seconds": 0.005147747999998842
+    },
+    {
+      "label": "q2_complete_N5",
+      "capacities": [
+        2,
+        5
+      ],
+      "matrixOrder": 7,
+      "determinant": {
+        "degree": 40,
+        "bytes": 146,
+        "sha256": "96e4212c1b26d25664b599024b39dae739fc302a57c0afdc27595d71d7a2e094"
+      },
+      "fullPolynomialCoordinates": true,
+      "allLeadingDropAndPivotZeroFacesRetained": true,
+      "stage": "new_fixed_mu_resultant_complete_original_return",
+      "seconds": 0.005819394999996064
+    },
+    {
+      "gcd": {
+        "degree": 23,
+        "bytes": 81,
+        "sha256": "f5c5f38c1ba262a0598e074d96d70127636c86678975e0c3aaecee26553a0211"
+      },
+      "completeThreeOriginalNumeratorsReturned": true,
+      "stage": "new_three_original_residual_Bezout",
+      "seconds": 0.006011087999993947
+    },
+    {
+      "remaining": {
+        "degree": 2,
+        "bytes": 11,
+        "sha256": "8e2efd085ece0776ffaad8d6ff519a9fe163f794c297c24d511acb8711d85204"
+      },
+      "paidSupportGcdLayers": 10,
+      "fullResidualZeroSetRetained": true,
+      "noEmptyConclusion": true,
+      "statistics": {
+        "qqOriginalReturns": 5,
+        "exactPolynomialProducts": 305,
+        "sylvesterCoordinates": 15,
+        "newThreeSourceCoordinates": 16,
+        "univariateBezoutProducts": 1,
+        "paidSupportProducts": 14
+      },
+      "stage": "new_generic_finite_mu_unpaid_residue_cover",
+      "seconds": 0.0060945990000007555
+    }
+  ],
+  "small_parameter_identity": {
+    "coefficients": [
+      969,
+      806,
+      1
+    ],
+    "canonical": "[969,806,1]",
+    "sha256": "8e2efd085ece0776ffaad8d6ff519a9fe163f794c297c24d511acb8711d85204",
+    "method": "canonical 11-byte parameter identity only; no polynomial/resultant/gcd recomputation"
+  },
+  "paper_specialization": {
+    "factor": "(L-3/5)^2 over F_1009",
+    "q2_factors": "(mu+2)(11mu+34)",
+    "other_mu_R6_numerator": "151182936",
+    "other_mu_R6_numerator_mod1009": 430,
+    "remaining_residue": {
+      "L": "3/5",
+      "mu": "-2",
+      "lambda": "1/2",
+      "T": "-1/2"
+    }
+  },
+  "scope": {
+    "only_actual_p1009_valuation_residue_model": true,
+    "generic_source_excluded_L_zero_one_half_one_three": true,
+    "special_L_branches_in_formal_paper": true,
+    "no_full_ray_exclusion": true,
+    "no_QQ_parameter_fiber_exclusion": true,
+    "no_old_gate_replay": true,
+    "no_coefficients_cache": true
+  }
+}
