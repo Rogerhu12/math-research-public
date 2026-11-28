@@ -57,5 +57,5 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 <!-- visible-larger-parallel-47:start -->
 Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46171090151)；[全阶段记录](notes/2026-11-28-public-actions-46171090151-1.md)。running；已返0，exit=未返。
-并行47规则核查：2026-11-28 17:34:22 UTC，真实pull至`9bcfe4e4923eb02b1aaca16b243f326c67c8cafc`，双README无变化。
+并行47规则核查：2026-11-28 17:34:25 UTC，真实pull至`d9f441760127c875d7b6b8be165c526922a61c7d`，双README无变化。
 <!-- visible-larger-parallel-47:end -->
