@@ -1,0 +1,91 @@
+{
+  "status": "actual_lambda064_complete_prefix_continuous_geometry_and_rational_curvature_certified",
+  "scope": "Only this actual new uncut Cartesian prefix/bridge; no tail, full surface, continuous metric or fixed-g refinement",
+  "original_execution_exit_code": 0,
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/run.json",
+    "sha256": "05e9ad770c7f55f3738fad0f7ed5e3525cb98e1edbb40363a3a6f78b4f4d3711"
+  },
+  "physical_file": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/physical.npz",
+    "sha256": "b3dfb8b6be98255805cc46b08ce11d42a265d94ef2cf6a146cb01ab9c3b1c3ff"
+  },
+  "complete_geometry_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-geometry-20261128/summary.json",
+    "sha256": "f493ee686fce163a8676e5eebde5ef00a9f0417d5031fe69a89e1e76f63b2eea"
+  },
+  "rational_curvature_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-geometry-20261128/rational-curvature.json",
+    "sha256": "ae0a982c1fefbd6430b0f23b0d1ef42a8e7354b2b8c4fef0a730dea0fafdc2f1"
+  },
+  "defining_jets": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-geometry-20261128/actual-prefix-exact-defining-jets.npz",
+    "sha256": "d61579a07f32bbe6cf8c54c3252043d30e2be03dd22251867df6beb9fe7d0544"
+  },
+  "true_core_angular_ranges": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-geometry-20261128/actual-prefix-true-core-angular-ranges.npz",
+    "sha256": "bf24b9eadb11f45940fe77c5c627b76f6ee11031f997bc44be159a53437fa88e"
+  },
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/r53_validated_material_core.py": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_r59_fixed_mean_ranges.py": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7"
+  },
+  "modes": 40,
+  "homotopy_exact": "1152921504606847/18014398509481984",
+  "delta": 0.06413190791686303,
+  "mean_nodes": 1936,
+  "radial_spans": 1017,
+  "radial_range_exact": [
+    "0",
+    "3209374592944335/2251799813685248"
+  ],
+  "angular_boxes": 1024,
+  "full_angular_range": "[0,2*pi]",
+  "boxes": 1041408,
+  "failed_boxes": 0,
+  "actual_outward_bounds": {
+    "support_lower": 0.6237685943277864,
+    "radius_upper": 1.1902739365918915,
+    "area_lower": 0.29751196619551207,
+    "curvature_psd_diagonal_lower": 1.0730074881504506,
+    "curvature_psd_determinant_lower": 11.521232397810197
+  },
+  "convenient_rational_bounds": {
+    "support_strict_lower": "6237/10000",
+    "radius_strict_upper": "11903/10000",
+    "area_strict_lower": "2975/10000",
+    "curvature_upper": "123/10"
+  },
+  "exact_curvature_postprocess": {
+    "complete_metric_trace_integer_upper": 12,
+    "exact_threshold_decrease": "1/1407374883553280",
+    "exact_remaining_psd_lower": "47541982957193449866960411033/1218132998656814260869482414080"
+  },
+  "true_core_oracle": {
+    "queried_core_kind": "true-R53-material-support",
+    "zero_phase_specialization": true,
+    "rho_lower_exact": "14630738886624552833744167/38685626227668133590597632",
+    "support_complex_radius_exact": "1/32",
+    "inverse_radius_exact": "9074700441264471/1152921504606846976",
+    "position_radius_exact": "9074700441264471/1152921504606846976",
+    "complex_kappa_bound_exact": "8258874033021163/2251799813685248",
+    "cells_per_unit": 512,
+    "inverse_degree": 24,
+    "old_small_lambda_numeric_bounds_reused": false
+  },
+  "geometry_seconds": 456.27589382800033,
+  "original_case_recomputed": false,
+  "old_numeric_bounds_reused": false,
+  "source_primitive_substituted": false,
+  "tail_attached": false,
+  "continuous_metric_certified": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false
+}

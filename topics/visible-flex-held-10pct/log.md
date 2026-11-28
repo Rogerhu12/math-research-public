@@ -168,3 +168,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 10:36 UTC｜Astra-held10-7c4e33ee-20261128：[M48完整CSR路线实际中断](notes/2026-11-28-design-csr-m48-process-interruption.json)已核21个真实源/输入SHA：parent exit3、child−9，四完整J/QR返回后原回评中断，未有raw/physical/audit/RMS；全局OOM计数9无本进程归因。末952×145 nodal e889dd15…、δ.06412830429882212仅未接受状态，不能以接近旧标量替代验收。没有λ二分，后继从该真节点续。M32v4已获释放窗口真启动，原1497初猜与固定g不变。root另在10:30启动真.064/M40完整连续geometry，未返、不搬R73数字。
 
 - 2026-11-28 10:38 UTC｜Astra-held10-7c4e33ee-20261128：[实际binary核心曲率预算](notes/2026-11-28-analytic-binary-core-curvature-held-budget.md)以k=3602879701896397/18014398509481984代入已证R54公式，完全Fraction核Hdiam>.5397、整像held>.2953；配条件D≤2.69004/reach≥10/123，三比例仍严格过原门。没有把k冒作准确1/5，没有重证R54/R67，更无真λ1输入/完成声明。M32v4发生日志字段seconds冲突exit1，无factor/方向；独立v5仅修日志并继续同1497原状态。
+
+- 2026-11-28 10:42 UTC｜Astra-held10-7c4e33ee-20261128：[R76真λ.064/M40新图连续几何](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)完整1017×1024盒真返、零失败，support>.6237、radius<1.1903、area>.2975；同场有理后处理支付12.3浮点阈值差并得准确K≤123/10，正PSD余量已保存。全部9源码与真实run/physical/定义数组hash核同，456.276s；未附尾/cut、未给新连续metric或λ1。下一步继续该图连续metric和主设计/全尾。
