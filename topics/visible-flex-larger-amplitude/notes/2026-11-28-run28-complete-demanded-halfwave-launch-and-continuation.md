@@ -1054,3 +1054,34 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 ]
 ```
+
+## 2026-11-28 08:01:16 UTC — 28完整pure自然返回及首QP自身停止证据
+
+真实run46108296054/1的全pure exit0，用时348.8245757200002s，actual source b211fcf021fe6e9dbc3a4a514a00f2906b3eaf57、reader8631ae6ba1b20480465b96d2c4b71c419253a736e24ecba9cae967d01cb955d2；whole readout8681463B/SHA4d543b0c7d2ab5a090d5406a8e48a5e6905956a13e9e9d68a09040b259d66cea仍在runner。原445选择器实返423值和22原错误、missing_outputs空；全字段/错误/命令/来源与final绑定保下列whole分卷，不以本段替代完整结果。
+
+本run的actual_metric_directions计数0、actual_restoration_directions4，accepted0/4；whole final25d9e9a7868e51d0e96509ee61606fdb068ef58fd63513b1fe294c380b3317fb与typed13/b0f7d5a2346b27ada6e6619877da8d2c3ad05ab1f6345dfd00405356d3f86ed3按本pure验证。当前a28ae/Gram.40616533555531326/最大reachg.5225620087197518仍不可行。退出0仅为原流程完成，连续费用/闭曲面标准没有因此成立。
+
+本28**首个**恢复QP现在由自身pure返回：dependent_blocker_at_zero_step、actual_advances2、旧face Pg .529460169023458、原tol5.305849371949155e−7；物理选中行192+11幅度+10envelope=213，公共slack最后行另算。prefix2165392880B未重写、rowcache2272062480B、首轮typed5、实际建row9.430499293999901s。其数值与25首QP相同是本次独立返回事实，不借25的report；具体阻挡行仍未知，也不把首QP停止推广至全部四方向。R729当前修复针对该已实证机制，32与后续原28物理母体的独立接线继续。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1.md",
+    "bytes": 34509,
+    "sha256": "7ce9382b07be8e2ace90048910ff9b16a5e7bf06927e8e5db469af0eb6b92bdb",
+    "git_blob_sha": "3230076f41b658feee82aacd4b6a7a40f427f572",
+    "fixed_commit": "62de25c019a922ec661de5da59f5fbd9b69d0087",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1-part-002.md",
+    "bytes": 32987,
+    "sha256": "208937df3fc07468949757e57960eca6f3549f9c40ebd0670b623eb3a0db8017",
+    "git_blob_sha": "68a8ad5d6c64d0ed835f3b1bb74c8694f44b6773",
+    "fixed_commit": "62de25c019a922ec661de5da59f5fbd9b69d0087",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

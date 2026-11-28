@@ -116,10 +116,10 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 原science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同run续跑新accepted0，b4d1 reachg.5225595596253128拒，cf441半步仅统计。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0/g.13346402986277572；5a9e四分之一reachg2.1657936243197677拒，4e4d八分之一仅统计。 |
 | [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 939ea/accepted2/g.7001895470631601；12d82 alpha1仅自身统计748.4181663644251/.487646571786265。 |
-| [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | science0/10456.963s，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同run整pure46813B已排。 |
+| [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | science/pure0；a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；首QP2advance/dependent-zero。 |
 | [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | bc818/accepted1/distplus.13820228685007474/reachg−.03475313540129943；ba2b/4b4c reachg22.107165815378092/10.324385214244415拒，eb34四分之一仅开始。 |
 
-25 [完整同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)已启f250c578/PID12394；父全report c1be/13final de44/typed13保，137/19源字不变。140/7、458/445/64live、新4/64/15、两μ.01全保；science整队58022B，真实返后原ID整pure46891B。23官方cancelled且science未自然返；24取消且science未自然返；26/27/29仍待自然返，28完整pure已排。
+25 [完整同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)已启f250c578/PID12394；父全report c1be/13final de44/typed13保，137/19源字不变。140/7、458/445/64live、新4/64/15、两μ.01全保；science整队58022B，真实返后原ID整pure46891B。23官方cancelled且science未自然返；24取消且science未自然返；26/27/29仍待自然返，28完整pure0、423值/22原错误已返。
 29原46110194444容量failure/科学未启、46111548660只读诊断，现真run46112781312 activeID visible-larger-resume-20261128-29-retry1；全queue74379B已修parent，science自然返后整pure46915B。
 
 ### 完整新构造与求解修复
