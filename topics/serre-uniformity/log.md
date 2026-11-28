@@ -677,3 +677,7 @@
 
 ### 2026-11-28 08:21 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原genus4 §8付primitive互反/交换的完整p次补偿、123/114高插入全部极部，以及A3/A9准确回原Dixon两读数；未把新写法或r1单位报成临界非零。root逐式核完即推，旧1–7逐字保留，无数学执行；继续reciprocal Padé与原cross。
+
+### 2026-11-28 08:25 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1151：构造全部p³个finiteFL Heis坐标并用local cohom计数付全双射；原Θ scaling给全global像(rx,sy,zxy)、s=T0及完整零r/s分支。真正中央减法rs h−zab、Gaussian/cubic最高组合全保，明确首数字条件不代whole p-disc。
+- H/open前态归档并压缩，原中央F0/Θ实际值、深盘和full Nns继续；全文纸推，无数学程序，不重做既有global scaling结论。

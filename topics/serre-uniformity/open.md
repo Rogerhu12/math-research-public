@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-exact-relative-Eisenstein-forms.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -22,7 +22,7 @@
 
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)全S0唯一p⁴²源、规范proper Heis与compatible p^n塔全付；原primitive norm/phase/arith transfer给v_d∞=(1−p^d)B_(d+2)/(d+2)、λ∞=21(1+p⁴)/11。每个good E fibre crystalline；未分歧底上原43格幅14的FL准确恢复原modp Heis。Cartan I未升，SS整首jet仍开。
 
-[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)已刊LZ/DLLZ付同一原43塔相对filtered/log连接及唯一Hodge截面：Fil0W→O严格iso；右action b(v_h,v)及矩阵b(α,−)完整。η=α_L5=0但原Π/λ∞迭代项不零。§§8–10真实Tate正号/KS与M6/M10一维给α4=(1−p⁴)E6ν⁴τKS/252、α8=(1−p⁸)E10ν⁸τKS/132，且α8=λ∞E4ν⁴α4。相对Frobenius由R1150续付，Cartan I仍只modp。
+[R1149–50](results.md)原43塔相对Hodge连接、准确E6/E10/λ∞、原Tate a5=u5及全局log Frobenius同源已付。完整finite Cartan/短盘三槽见下；仍只在原未分歧整格及有限I范围使用。
 
 [R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付p>691同一canonical cusp fibre φ_h(Ξ_5,9;14)：Tate整支撑/低偶权消失/q_h奇项全付。ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4；self补项全消，六次幂同cusp判据与逐label密度准确，原abelian−1整支未反改。
 
@@ -33,7 +33,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 ### 原完整 47：已完成，只消费
 
-[R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-exact-relative-Eisenstein-forms.md](open-archive-2026-11-28-before-exact-relative-Eisenstein-forms.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。
+[R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。
 
 ## O1：全p同一真实本原标签的临界非零
 
@@ -158,8 +158,13 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 
 [R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)证明 u=pt 下完整整 Taylor：Φ(t)D modp=C0 exp(t^pN_-)，幅14的所有尾项估值保留。同一原 rational associatedness 已由R1150付。真有限 q_t 的 λ/σ/binomial 及参考F0不删，原Heis三槽为 a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，其中 a3=2δc_g²A*/3、b5=8δ²c_g⁴B*/5、h8=2δ³c_g⁶A*B*/5；参考多项式次数≤2/4/6。Gaussian粗盘次数≤1/2/3，cubic≤1/1/2且a首槽斜率16δc_g²B0/7单位。仍须原F0中央条目和同一global lift subtraction；不从形式次数推出排点，不扩其它twist/未分歧σ。
 
-[R1150](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)已付原43塔的相对rational Frobenius及全尖点log同源。∇uV=α′−α，∇uZ=b(uV,α′)−b(α,uV)；同一Tate原γ5比较给a5=u5，使中央res=(0,0,v8(a5−u5))0。rigid residue一维给唯一overconvergent primitive，负Laurent项全消，Frobenius收缩付log convergence；horizontal period gauge和proper-log下降后，以H¹etZ0锁同一原tower。弱Faltings filtration/Frobenius同构未被当连接同构。R1149短盘应用的rational门关闭，继续真实F0 z12与原global中央差；不升Cartan I、不扩ramified格、不据次数宣排点。
+[R1150](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)以完整中央res消去、horizontal period gauge、proper-log下降及H¹etZ0关闭同一原relative associatedness；实际F0中央常数仍由原源读取。
 
 ### R1135 §15：原 Frobenius 常数与指定 Gaussian 主部
 
 [R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原 Π0=1−A^(−2p)B^(p−1) 满足 Π0(f_r/A^r)=(f_r/A)^p，来自同一固定Δ Tate尺度及原U_p=1；逆B准确指数p−r−1，完整forcing保留。Wω的角色和pole<p迫Cartier恒零，不能再拿它求Gaussian值；Fω的真实coefficient functional已给。指定TG的XiG=½dlog(X−rG)有residues(1,−1)，WXiG=W(TG)XiG+dJ的全部分母<p，故C(WXiG)=W(TG)XiG′且W(TG)=−ResO(WXiG)。下一步实际forcing/Serre dual pairing须读取该值；第三类检测存在不代单位，actual-good mask及两twist范围不变。
+
+
+### R1151：实际全局 Frobenius subtraction 与退化分支
+
+[R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付所有p>37的H¹(Qp,Heis)↔Fp³ finiteFL坐标全双射；p>Ccyc的全部global像准确(rx,sy,zxy)，其中(r,s,z)来自同一Θ，s=T0=u5modp。r/s为零时使用原文七行完整条件，不能除去或以单quadric代替。rs非零的真实中央差为h−zab/(rs)，通用八次系数a3b5(3rs/8−z)。Gaussian/cubic最高项分别16δ³c_g⁶(rs z12−z x4y8)、16δ³c_g⁶(rs z12−z λA*y7/6)；需证明这些同源组合而非raw z12单位。全局CM点给常数项0，有限根完整分类；cubic r0的单位首槽仅迫u∈p²Zp，不付whole盘。继续指定Θ/F0值、深盘与其余全范围。

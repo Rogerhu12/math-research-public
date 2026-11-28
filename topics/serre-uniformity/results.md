@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1151（已证明）**：[原finite Frobenius全局减法](results/R1151-original-finite-Frobenius-global-subtraction.md)原local Heis的finiteFL坐标全双射、全global像(rx,sy,zxy)与零局部化七分支已付。实际障碍rs h−zab及Gaussian/cubic最高中央组合完整；有限数字不代whole盘，原Θ/F0值与深盘仍开。
+
 - **原Fermat6交换补偿与Dixon回接（已证明）**：[原genus4 §8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)实际坐标交换的完整p次primitive补偿、全部高极系数及A3/A9与原qN0/qN′0尺度已付；r1单位不代指定双读数非同时零，18 cross仍保。
 
 - **R1150（已证明）**：[原相对log Frobenius与同源](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)原43塔的完整矩阵、Tate常数a5=u5及中央留数消去付rational relative crystalline/log实现；horizontal period gauge、proper-log下降及H¹etZ0识别同一tower。R1149短盘associatedness门已关，F0中央值与global subtraction继续。
