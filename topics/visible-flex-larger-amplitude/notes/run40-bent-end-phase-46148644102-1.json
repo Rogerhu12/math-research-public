@@ -190,13 +190,265 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T13:14:57Z",
-  "phase": "scientific-entry",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2569,
   "child_returncode": null,
-  "latest_observed_scalar_line": null,
-  "scientific_summary": null,
+  "latest_observed_scalar_line": {
+    "ordinal": 3,
+    "utc": "2026-11-28T13:15:52Z",
+    "original": {
+      "event": "stage",
+      "stage": 0,
+      "point": "6fb78b46b0983a07d5183a821ebaf3c2dd691f94a4c40bbec8969d706d9cd2c9",
+      "score": 2818.339538370984,
+      "gram": 9.135032045701506,
+      "K": 38287.37226017895,
+      "support": -1.0637522960275003
+    }
+  },
+  "scientific_summary": {
+    "file": {
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/field/summary.json",
+      "bytes": 4902,
+      "sha256": "411456a509654d1f5c7594bf53d11492a634e1f0da909be59ec661776266628d"
+    },
+    "complete_small_json": {
+      "elapsed_seconds": 45.30468688299999,
+      "in_progress": {
+        "call": 1,
+        "cost": 42.69633928796229,
+        "design": "offset-cap-only-free",
+        "knot_index": 1,
+        "phase": 0.7853981633974483,
+        "point_sha256": "641088987f5f2c244a4a925160ff63e443cd935518f89d1526949d9d65cd953a",
+        "stage": 1
+      },
+      "numpy": "2.3.5",
+      "params_sha256": "d9a5c7e543b187fc6ce00cad5b0ed1661a74ad6c9054d623b0f51675e708b4bd",
+      "schema": "direct-finite-axial-flex/v1",
+      "scipy": "1.17.0",
+      "scope": "Actual finite phase geometry and Gram estimates on complete spatial chart grids and independent time refinements. Continuous exact isometry, tube bounds for corrected fields, and convergence require separate evidence.",
+      "source_sha256": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701",
+      "sources": {
+        "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+        "bent_end_phase_fields.py": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+        "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+        "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+        "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+        "r746_axial_translation_closed_two_jets.py": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+        "r747_offset_arclength_closed_two_jets.py": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+        "r748_developable_axial_caps.py": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46"
+      },
+      "stages": [
+        {
+          "all_time_check": {
+            "K": {
+              "chart": "end-",
+              "index": 10953,
+              "phase": 1.5707963267948966,
+              "u": 5.2987508541658,
+              "v": 0.1141193550663743,
+              "value": 38287.37226017895
+            },
+            "area_min": {
+              "chart": "cap-",
+              "index": 16351,
+              "phase": 1.5707963267948966,
+              "u": 2.2571193300256,
+              "v": 0.007,
+              "value": 3.9475925928472435e-05
+            },
+            "gram": {
+              "chart": "cylinder",
+              "index": 1866,
+              "phase": 1.5707963267948966,
+              "u": 2.4611193300256,
+              "v": -0.71,
+              "value": 9.135032045701506
+            },
+            "max_physical_correction": {
+              "chart": "end+",
+              "index": 7964,
+              "phase": 1.5707963267948966,
+              "u": 6.7188651784632,
+              "v": 0.1505792129150562,
+              "value": 0.4922123839079797
+            },
+            "support": {
+              "chart": "end+",
+              "index": 6900,
+              "phase": 1.5707963267948966,
+              "u": 4.3673961049922,
+              "v": 0.053352925318571165,
+              "value": -1.0637522960275003
+            }
+          },
+          "check_phase_columns": [
+            "phase",
+            "max_gram",
+            "rms_gram",
+            "max_abs_principal",
+            "min_support"
+          ],
+          "check_phases": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              9.259259259259263,
+              0.1337907860455484
+            ],
+            [
+              0.39269908169872414,
+              3.2372415688022493,
+              0.28594939703555106,
+              225.12146226611205,
+              -0.6072579367293994
+            ],
+            [
+              0.7853981633974483,
+              3.3399830288100407,
+              0.500051726961044,
+              792.3667214796465,
+              -0.7792403205370103
+            ],
+            [
+              1.1780972450961724,
+              6.488063544251405,
+              0.7869682528570578,
+              1766.7596925671508,
+              -0.7464263217172468
+            ],
+            [
+              1.5707963267948966,
+              9.135032045701506,
+              1.2690608572722641,
+              38287.37226017895,
+              -1.0637522960275003
+            ]
+          ],
+          "coefficient_count_per_phase": 282,
+          "configuration": {
+            "cap_degree": 3,
+            "check": [
+              69,
+              21,
+              15,
+              13
+            ],
+            "degree": 3,
+            "extra_check": false,
+            "id": "all-five-coarse",
+            "inner": 85,
+            "intervals": 2,
+            "max_nfev": 52,
+            "mesh": [
+              27,
+              11,
+              8,
+              7
+            ],
+            "regularizer": 7e-06,
+            "roll_modes": 3,
+            "roll_spans": 3
+          },
+          "design": {
+            "angle": "legacy",
+            "central": "free",
+            "id": "legacy-named-free",
+            "mode": "named"
+          },
+          "knots": [
+            {
+              "adjoint_abs": 3.122502256758253e-17,
+              "cost": 3.6211203395398366,
+              "directional_fd_relative": 7.956282142767494e-08,
+              "index": 1,
+              "nfev": 52,
+              "njev": 51,
+              "optimality": 0.15914127463995642,
+              "phase": 0.7853981633974483,
+              "point_sha256": "5f9b87be6b64f944085499a23a82266b2c6dee14380c5a7aca88ad32370983d7",
+              "status": 0,
+              "train_gram": 4.253636251331377
+            },
+            {
+              "adjoint_abs": 1.0547118733938987e-15,
+              "cost": 14.701530140912448,
+              "directional_fd_relative": 3.2860670326312976e-07,
+              "index": 2,
+              "nfev": 48,
+              "njev": 32,
+              "optimality": 3188.8712610107195,
+              "phase": 1.5707963267948966,
+              "point_sha256": "7c17987aee5feb6a01cc5e0b10783d94a773bd7d7d3e3731ef44053836c6defd",
+              "status": 3,
+              "train_gram": 7.292437548482917
+            }
+          ],
+          "npz_bytes": 7314,
+          "npz_sha256": "bfd806a1b11f8ff5f6565366def6d3578d27b02b204201706099adef96a801df",
+          "point_sha256": "6fb78b46b0983a07d5183a821ebaf3c2dd691f94a4c40bbec8969d706d9cd2c9",
+          "previous_point_sha256": null,
+          "score": 2818.339538370984,
+          "shape": [
+            3,
+            282
+          ],
+          "stage": 0,
+          "time_data_sha256": "0d7d31e13447bbb5b53f61053604003afd523dffb09d2a496ecca66fd551327a",
+          "worst_gram_by_chart": {
+            "cap+": [
+              0.7892879709902884,
+              1.5707963267948966,
+              6.1102447537643,
+              1.0
+            ],
+            "cap-": [
+              0.7951881489137689,
+              1.5707963267948966,
+              6.1102447537643,
+              1.0
+            ],
+            "cap-cartesian+": [
+              0.00016194905934593153,
+              1.5707963267948966,
+              0.59502,
+              0.0
+            ],
+            "cap-cartesian-": [
+              0.5852535863223274,
+              1.5707963267948966,
+              0.59502,
+              0.0
+            ],
+            "cylinder": [
+              9.135032045701506,
+              1.5707963267948966,
+              2.4611193300256,
+              -0.71
+            ],
+            "end+": [
+              8.606326148710597,
+              1.5707963267948966,
+              5.3130155540114,
+              0.08981278316725305
+            ],
+            "end-": [
+              8.318046552625189,
+              1.5707963267948966,
+              1.7484650434224,
+              0.1141193550663743
+            ]
+          },
+          "zero_phase_sixjet_difference": 0.0
+        }
+      ],
+      "target": "The R747 common initial physical pullback on every original material point, no masks omitted in verification. This g, material chart and [0,pi/2] are identical in every design and refinement."
+    }
+  },
   "whole_runner_field_files": null,
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
@@ -224,5 +476,7 @@
     "OMP_NUM_THREADS": "1",
     "MKL_NUM_THREADS": "1"
   },
-  "child_started_utc": "2026-11-28T13:15:06Z"
+  "child_started_utc": "2026-11-28T13:15:06Z",
+  "observed_utc": "2026-11-28T13:16:00Z",
+  "original_scalar_line_count": 3
 }
