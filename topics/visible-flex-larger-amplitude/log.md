@@ -297,3 +297,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:15:55 UTC — 32完整参数六件与launch七件实际启动
 
 32全13件464036B普通刊：全参数6/245295B＋launch7/218741B，连已刊source8为全21件齐。原157/7及458/445和64live、全数值/全域/原预算保；新R729诊断575/564明确旧CG与新方向归属。active/parent同visible-larger-resume-20261128-32，整三步78678B已排，natural science返后整pure61349B。题外新增.github/workflows/visible-larger-20261128-parallel32.yml按原360min/完整capacity-wait公开启动；所有source current24/138全齐，未添审批/fixture门。实际run/job/输入/field尚待观察，完整[启动/接续](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)保全原身份。 双README云核至`922135141364b3b2d22ded56f8d64b07d81f99da`无变（非pull）。
+
+## 2026-11-28 08:23:24 UTC — RET83：完整保留旧前缀缓存身份来源后退出两个历史身份副本
+
+按完整 [RET83 来源账本](computations/legacy-prefix-cache-identity-retention-83-provenance.json) 和[操作说明](notes/2026-11-28-prefix-cache-identities-retention-83.md)，仅退出 q096/q122 两个历史 identity.json 副本（合281565字节），完整原件仍可按 a7ee59c79535235b4161da7780b77556e9760940/path/blob 恢复。新增三件合113990字节，净回收167575字节（不含本日志）。57条当前完整来源/参数/资源/恢复守卫逐条原样保留；所有数值cache条目、科学输入和原证据不在删除项。q096真实检查、q122有限精度接受、原清理范围和未找到的单次copy/cleanup来源均完整保留，不把未知补成已知。旧archive/cache读者须先恢复完整原身份文件，不能把另一runtime冒充旧身份；未读取这两个≥100KB原体。此为有整文件恢复关系的容量整理，不是新科学结果。 双README云核至`8b07a72a4ebea8596122628928c9fadeafea0a45`无变（非pull）。
