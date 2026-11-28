@@ -30,7 +30,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R271-components --> [R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)长短两真端方向独立、完整三分量reach≥.097；R273/R282旧尾仍可用。两完整连接的新metric/法管均另付。
 
-<!-- 2ecf-r278-Minkowski --> [真 .32 平领低帽新输入](notes/2026-11-28-2ecf-similar-infinite-tails-and-true-low-wide-cap-physical-states.md) 以原无穷尾准确相似换到 R215 接口；大幅 p32 状态64段实测球1.453、slab .948、曲率13.66。
+<!-- 2ecf-r278-Minkowski --> [R289](results/R289-two-strong-shape-ratios-for-the-true-infinite-low-cuff-core.md) 给真实准确 .32 无限平领、Z∈[.5630,.5970]，全相位闭像 δhold/D≥.203125、δE/D≥.05073291；真实位置独立峰 .1321421，曲率12.156，嵌入/reach及强度量仍待。
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
@@ -52,4 +52,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:15:22 UTC；已读公开 main `7546b941c11d2cd60b7c8b79b24f18a54abf17e1`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:16:43 UTC；已读公开 main `7b580db50176a7db0e270865c130f941d391b12b`，根/课题 README 逐差无变化。

@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R289：准确无穷尾和低宽帽材料图的两个强形变比例](results/R289-two-strong-shape-ratios-for-the-true-infinite-low-cuff-core.md)（2026-11-28）：完整帽与全核给握持比 ≥.203125、无标签刚体商差比 ≥.05073291；强固定度量精度、嵌入及厚度待解。
+
 - [R288：正交不交双翼、独立真实两端方向和三分量法管](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)（已证明；全盘平面度量、三分量全时 reach≥.097；准确E=1可接全材料图，其F/G、嵌入及全核法管另付）。
 
 - [R286：两种保向空间开像同时保证整闭材料像的两强比例](results/R286-actual-smooth-images-enforcing-both-strong-shape-ratios.md)（已证明；D≤3.2、held/D≥.203125、含反射 δE/D≥.05028125；两端开邻域恒等，整图嵌入、reach 与新度量另付）。
