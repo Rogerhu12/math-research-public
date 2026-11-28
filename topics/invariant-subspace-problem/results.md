@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：整个W的α/chi原多项式图与首一二次环境](results/R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md)：t=−αχ/(mRw)−2δell/m，全部原恢复只纯权分母、α一次/χ至多二次；t局部化双向，α0保。新11完整整数身份6ms；native六规则给三头Bézout1及首一α²完整纸证，不称物理商自由或W空。
+
 - [R150 unit211：正确Phi的fu单y原恢复与Ψ(6,3)曲线](results/R150-appendix-unit211-Phi-zero-true-fu-single-y-common-weight-curve.md)：自由t完整R身份和原Gram五行，三个实际3/4/4阶cofactor分别Ψ/4、9Ψ/64、Ψ/64。Ψ对Q首一3，只给每u至多3Q，全部权曲线/整y纤维保；b8cfe真.207064155秒/40804KiB/0。
 
 - [R150 unit211：正确整B的C315原理想二十二次幂覆盖](results/R150-appendix-unit211-Phi-zero-true-Bzero-C315-original-ideal-weight-cover.md)：全十二原两列模经97节点/95消去，泛型行度(0,0)；实际24可达节点清344次分母得C^22∈I6、degC315。至多315权点，所有原λ/f/t纤维保，不称整B空。780d真1.547025334秒/43412KiB/0。

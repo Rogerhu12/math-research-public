@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "proof_blob": "2b41c8b09e4806b94192509be203b14046773930",
+    "source_blob": "ec8fc5fd3a2856627881dfcea34a6c2c86422ebc",
+    "complete_root_source_proof_receipt_read": true,
+    "checks": [
+      "Corrected full R identity and A1",
+      "m and Rw only current W paid weight units; H_old correct branch theorem",
+      "Bidirectional coordinates require t localization, with all displayed polynomial identities preserving alpha=0",
+      "All original scalars affine in alpha, chi degree at most two",
+      "Native six rules on L_alpha^3 yield a full polynomial Bezout for three quadratic heads; no claimed new displayed coefficient run",
+      "Rank-two monic environment is before further physical localization, not a freeness claim for the physical quotient"
+    ],
+    "rerun": false,
+    "ordinary_isp_claim": false
+  },
+  "newTenRows": {
+    "source_blob": "a96d94c6305d08fc5802ca19b42acd23d81eebcf",
+    "source_sha256": "18101a4af587253e1dad49cee60d188c60db401ed34b13cf73edeb4e09b6d42b",
+    "input_blob": "2d81fc047f9441b1aefe8bd3d1a50361e6dc10c5",
+    "entire_source_input_read": true,
+    "scope": "New global polynomial alpha,chi coordinates, pure paid weight denominators only; actual homogeneous cubic source to monic quadratic, native NS/PS degree two, complete original I6 ten rows. Three new fixed pairs, no replay of old gamma/five/nine/failed tail.",
+    "status": "not yet executed"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema": "isp-W-original-alpha-chi-coordinate-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "source": {
+    "basename": "2026-11-28-unit211-W-original-alpha-chi-polynomial-coordinate-identities-8542.js",
+    "bytes": 5236,
+    "sha256": "511e1b5dded4fb4ca77ef1e41230329db451e5846623b8d8a8d68ae9a0d58b49"
+  },
+  "execution": {
+    "runtime": "functions.exec V8",
+    "actualExecution": true,
+    "exitStatus": "completed",
+    "elapsed_milliseconds": 6,
+    "maxBudgetMilliseconds": 30000,
+    "memoryRSSMeasured": false
+  },
+  "actual": {
+    "schema": "isp-W-original-alpha-chi-polynomial-coordinate-identities-v1",
+    "variables": [
+      "u",
+      "ell",
+      "Q",
+      "f",
+      "t",
+      "A1",
+      "e",
+      "k",
+      "alpha",
+      "chi"
+    ],
+    "elapsed_milliseconds": 6,
+    "integerPolynomialProducts": 174,
+    "checks": [
+      {
+        "name": "weight_identity_UhatZ_minus_MC",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "weight_identity_2uZ_plus_mT0",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "full_original_R_A1_linear_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "A1_from_original_Gram_after_new_map",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "same_alpha_recovered",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "same_chi_recovered_without_dividing_t",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "full_original_R_return_after_new_map",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "original_weighted_V_reconstruction",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "original_weighted_W1_reconstruction",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "original_f_from_E0_reconstruction",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "entire_W_Rw_equals_minus_u_e2_H_over_Vbar",
+        "fullIntegerPolynomialDifferenceZero": true
+      }
+    ],
+    "numeratorAlphaDegrees": {
+      "t": 1,
+      "f": 1,
+      "V": 1,
+      "A1": 1,
+      "x": 1,
+      "y": 1
+    },
+    "numeratorChiDegrees": {
+      "t": 1,
+      "f": 1,
+      "V": 2,
+      "A1": 2,
+      "x": 2,
+      "y": 2
+    },
+    "coordinateDenominators": "only rational constants and delta*m*Rw*M; Rw=-u*e^2*H_old/Vbar on W",
+    "inverseMapRequiresOnlyPreviouslyPaidT": true,
+    "alphaZeroKeptByPolynomialIdentities": true,
+    "noGammaOrNewParameterHeadInverted": true,
+    "allOriginalValuesStillRequired": true,
+    "noNewExclusionClaim": true,
+    "ordinaryISPClaim": false,
+    "actualExecution": "pure V8 BigInt exact integer polynomial arithmetic"
+  },
+  "scope": {
+    "currentWOnly": true,
+    "mPaidByWholeEqualWeightsInCurrentDNonzeroDomain": true,
+    "RwPaidByOriginalWholeW_H_zeroTheorem": true,
+    "noAlphaOrGammaInverse": true,
+    "inverseMapUsesPreviouslyPaidT": true,
+    "allFurtherOriginalValuesRetained": true,
+    "newMonicAlphaTwoPaperLemmaProved": true,
+    "newMonicAlphaTwoCoefficientsExecuted": false,
+    "noNewExclusionClaim": true,
+    "ordinaryISPClaim": false
+  }
+}
