@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [同P快速整函数逆源及全部原旗的最大闭分式场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)：明确>4次系数衰减支付实际级数；同Q归一dyadic幂与Jensen/Poisson付所有非零分子全旗quasi。最大图本身作为原旗支付真实参数核心、自然和积闭包、同循环空间；忠实场由零阶奇偶排平方根，场外来源仍开。
+
+- [Phi原paid行列内容与完整729维整权模型](results/R150-appendix-unit211-Phi-zero-original-paid-contents-and-complete-integral-weight-model-729.md)：d457实际8.488759866秒/0，全484身份/924除返；U_u60/Q32/总64，真QQ及固定模均729。37块保全部重数；282/291/156只作实际模块分类，不删除QQ分量。
+
 - [同一正锥分母的定量全逆与逐个固定来源的严格超四次费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)：新连续块qν=256ν²，原收缩强积/同强*单位/全旗重付；log||C^−rP||≤Kr⁴exp(300log(2+r)^(2/3))，每个非零平坦p完整log||C^−rp||/r⁴→∞，双log幂指数精确4。尚无分数根来源。
 
 - [全W原D双列取消、纯k覆盖与完整规范界616824](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)：a29实际13.166233637秒/0，整L0/H1980保，P′双度93/119，唯一原comm行完整Bezout1；固定303阶结式非零且k度≤51402，权交长≤51402，完整重数及有限原返回保留。

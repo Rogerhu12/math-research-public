@@ -1,5 +1,6 @@
 {
-  "schema": "isp-small-original-paid-content-actual-v1",
+  "schema": "isp-small-original-paid-content-model729-v1",
+  "date": "2026-11-28 Asia/Taipei",
   "run_id": 46100506092,
   "job_id": 140841638162,
   "execution": {
@@ -30,495 +31,368 @@
     "stdout_sha256": "78e3837de3d36f63c1a1ed4cc05c9dcc93d59595827095b542755f0a3c03b2bd",
     "stop_reason": null
   },
-  "exact_identity": {
-    "originalQQDegreeAlreadyPaid": 789,
-    "removedPaidProductUDegree": 60,
-    "removedPaidProductQDegree": 32,
-    "removedPaidProductTotalDegree": 64,
-    "exactReducedQQ_uDegree": 729,
-    "exactReducedQQ_Q2AndMod1009Degree": 729,
-    "reducedMod1009LeadingCoefficient": 702,
-    "wholeQQMatrixFactorizationReturns": 484,
-    "originalThreeCoordinateClearReturns": 66,
-    "allMatrixDivisionReturns": 924,
-    "originalDeterminantIdentity": "P=product(rowunits)*product(colunits)*det(C)",
-    "everyRemovedFactorOriginalPhysicalUnit": true,
-    "allReducedQQCoefficients1009Integral": true,
-    "finiteFreeRankOverLocalZ1009Q2": 729,
-    "wholeH42ZeroRetained": true,
-    "noPhysicalDInverse": true,
-    "noWholePhiExclusionClaim": true,
-    "stage": "new_exact_reduced_original_weight_model_before_modular_input",
-    "seconds": 7.868738303999976
-  },
-  "complete_block_model": {
+  "result": {
+    "original_degree": 789,
+    "removed_product_u_degree": 60,
+    "removed_product_Q_degree": 32,
+    "removed_product_total_degree": 64,
+    "reduced_exact_QQ_degree": 729,
+    "reduced_exact_Q2_QQ_and_mod_degree": 729,
     "prime": 1009,
     "Q": 2,
-    "actualReducedPolynomial": {
-      "degree": 729,
-      "sha256": "ca632b1fc0b2d69fa810a11f19a759908dd6bf6a5151b045967dc6930653f0a6"
+    "mod_leading": 702,
+    "matrix_identity_returns": 484,
+    "matrix_division_and_identity_returns": 924,
+    "new_modular_Bareiss_returns": 3311,
+    "complete_primary_count": 37,
+    "eligible_primary_count": 23,
+    "eligible_weight_rank": 282,
+    "original_unit_bad_primary_count": 12,
+    "original_unit_bad_weight_rank": 291,
+    "head_bad_primary_count": 2,
+    "head_bad_weight_rank": 156,
+    "all_bad_blocks_retained": true,
+    "no_QQ_factor_identification": true,
+    "no_QQ_dimension_282_claim": true,
+    "whole_H42_retained": true,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "actual_modular_polynomial": {
+    "degree": 729,
+    "sha256": "ca632b1fc0b2d69fa810a11f19a759908dd6bf6a5151b045967dc6930653f0a6"
+  },
+  "primary_blocks": [
+    {
+      "degree": 1,
+      "sha256": "122c463a488d38069231ad134087d4679d2bb3b894d305fe4dc0ceaeaa075de3",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
     },
-    "exactReducedQQ_uDegree": 729,
-    "actualModularLeadingCoefficient": 702,
-    "fixedNew22BareissDivisionReturns": 3311,
-    "rowSwaps": 2,
-    "fullFactorizationMultiplicationReturned": true,
-    "wholePrimaryBlocks": [
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "122c463a488d38069231ad134087d4679d2bb3b894d305fe4dc0ceaeaa075de3"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "1b08e218b9365ffd5de1fc8b666f29ee435f665789e76ad373452991556a4b44"
-        },
-        "multiplicity": 25,
-        "completeWeightBlockRank": 25,
-        "originalWeightNonunitsModuloP": [
-          "ell",
-          "P02",
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": false,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "268d6f4e141b0d9efe18a3ca42e8a451f1d8c998a71a5ae697ffe9a93bf033d2"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "3d3773756853247cc588dab2e492c7fc570889ebab78c19d8c4144e9fe615476"
-        },
-        "multiplicity": 21,
-        "completeWeightBlockRank": 21,
-        "originalWeightNonunitsModuloP": [
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "3fabd9bd9ddd0624f6db3060b65fff54a0e25d6cece74d99f73973b4b39e856d"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "463f2998327eb3a694145e6014444480b2235be84aa6cfd57871cc64f1cd816c"
-        },
-        "multiplicity": 4,
-        "completeWeightBlockRank": 4,
-        "originalWeightNonunitsModuloP": [
-          "u"
-        ],
-        "wholeC6HeadIsModUnit": false,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "491d7e209f7cc26b003fde096f07f5c2a3bc33fc3346665eb7f896041c51f867"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80"
-        },
-        "multiplicity": 39,
-        "completeWeightBlockRank": 39,
-        "originalWeightNonunitsModuloP": [
-          "u-1",
-          "u-ell",
-          "J-Q",
-          "P02"
-        ],
-        "wholeC6HeadIsModUnit": false,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "6b8efb2dc0b1934c825393454ddd004606e3e74ad752ece802d70e8f59ea1a21"
-        },
-        "multiplicity": 14,
-        "completeWeightBlockRank": 14,
-        "originalWeightNonunitsModuloP": [
-          "M",
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "8e50fab9fc7755f75e420bcec052d1ea4ba08054b24ee35de20da6d67bf1584a"
-        },
-        "multiplicity": 21,
-        "completeWeightBlockRank": 21,
-        "originalWeightNonunitsModuloP": [
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "986bb6790f123044421f4e0f97e9920ba1108eaf7d1f71eb5cc215b6a9bd475d"
-        },
-        "multiplicity": 14,
-        "completeWeightBlockRank": 14,
-        "originalWeightNonunitsModuloP": [
-          "M",
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "b754f7289f245a77253a10933e3ae1b9b90f9d55a8c55322b7d21e98a46a7c25"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "bc2f854fc455c95b34f5586177563911a182fc53141b2aa7bc0f57d95d6ecb6d"
-        },
-        "multiplicity": 25,
-        "completeWeightBlockRank": 25,
-        "originalWeightNonunitsModuloP": [
-          "ell",
-          "P02",
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": false,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "c02cbd4631d9e470be6c1dbdcaa0ea5e26531e78aaf6d7bb4cd4e98c4ba46245"
-        },
-        "multiplicity": 16,
-        "completeWeightBlockRank": 16,
-        "originalWeightNonunitsModuloP": [
-          "T0"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "cfbb26a59bd915b5b00f81836f15ddc02fad20e5bd4843e11005946307119d30"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "d75ae71839133747c2076ad68256f7afce2d2e31b13a5ebffac2870b156efa87"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "e56069f3fe12b447399c2e28879450e18d4054d8c4934d6001a88117f247f0f2"
-        },
-        "multiplicity": 14,
-        "completeWeightBlockRank": 14,
-        "originalWeightNonunitsModuloP": [
-          "M",
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "eee21029dbc047ef1d7d3153965d57cc3d05785ccc26a450e50a9472fed6f006"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "faff6695016a0402a2be3826f112381249934154d45d4154ae0d29ffd31cc0b1"
-        },
-        "multiplicity": 14,
-        "completeWeightBlockRank": 14,
-        "originalWeightNonunitsModuloP": [
-          "M",
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 1,
-          "sha256": "fe4a58e3223477796088f77a272219962b01584ad8d6631c3eb9f207575fd40e"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 1,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 2,
-          "sha256": "6f24873aa376bf19539498bdcfaa2171499108b469a671f386a2317f7c125261"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 2,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 3,
-          "sha256": "83d8fbf23f82414b33f463bdbd49e8d28fb658b372b9f3873b24c05989ea4c2e"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 3,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 4,
-          "sha256": "035b97ab028527d8800f6cd4425b5534b42de85cfacd3dd955e9d2628f305ac2"
-        },
-        "multiplicity": 21,
-        "completeWeightBlockRank": 84,
-        "originalWeightNonunitsModuloP": [
-          "whole_Phi_first_head_now_paid"
-        ],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 4,
-          "sha256": "20e6d8f10867850ddec7f19ab067d2a153d748ee7069dd9752b2a7bc7c0e126f"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 4,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 4,
-          "sha256": "c2fe0e62641d5dfeb718e78d8e0bebaca9720f4a0c9dc7323483eebe097a260b"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 4,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 4,
-          "sha256": "eebb2d7dc3df2d5631c81c834e1e56aeb7626388f1b37283d8bbd6ec4ee67db6"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 4,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 6,
-          "sha256": "9a26612484a06e48be6ffa8e835f39a79a0bb43459c2a6a4da56bd448d087c09"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 6,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 8,
-          "sha256": "f983da907929f984295cb491dfcd489c41a10f5a1d88725e2cb1f97d6b19f9cf"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 8,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 12,
-          "sha256": "93984f03a09e3a3f5e35ac1febe40229dd9e70a390f64cd165580d2a334c3cf7"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 12,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 16,
-          "sha256": "761e2429ab2e8f45b3a741c12fede1acd5f7d9f2c51256e6f56c269a04103d42"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 16,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 16,
-          "sha256": "f93923308865028647a02c126d2c1476bf3dae1b565cb4145d190a83182edfa0"
-        },
-        "multiplicity": 4,
-        "completeWeightBlockRank": 64,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": false,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 22,
-          "sha256": "3d4582d556b8a04aa50649ce81e89dfc8b4f9fd39da14adf188c7d6b931adfc1"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 22,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 22,
-          "sha256": "cda091d488b2583e96264ee7ef87c6ac5e938d57522e97670c7bc017386c4a30"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 22,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 23,
-          "sha256": "898c15be2ccf56370623a08ad0ce33461cc4261d3246b1569483b24a805d4713"
-        },
-        "multiplicity": 4,
-        "completeWeightBlockRank": 92,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": false,
-        "originalLambdaSixModelEligible": false
-      },
-      {
-        "factor": {
-          "degree": 37,
-          "sha256": "948411fb8c8fbe878f7bda2a05bac0544e6b585e8250d2ebf7537929aad86bb7"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 37,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 40,
-          "sha256": "33244c474c04b104ad70f7a17319ffe557e2f21e431ce3ec2b3548ac7980c87a"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 40,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      },
-      {
-        "factor": {
-          "degree": 93,
-          "sha256": "eba4dac2dac708a13c3aa9c196be986f7c2d280d3b23e4877d3688ed14f3e56e"
-        },
-        "multiplicity": 1,
-        "completeWeightBlockRank": 93,
-        "originalWeightNonunitsModuloP": [],
-        "wholeC6HeadIsModUnit": true,
-        "originalLambdaSixModelEligible": true
-      }
-    ],
-    "totalCompleteWeightRank": 729,
-    "eligibleOriginalLambdaSixWeightRank": 282,
-    "badOrHeadZeroBlocksRetainedInFull": true,
-    "noModularFactorIdentifiedAsQQFactor": true,
-    "noPhysicalUnitDroppedSolelyByModularNonunit": true,
-    "oldDeterminantOnlyReplacedByNecessaryNewCoefficientInput": true,
-    "wholeH42ZeroRetained": true,
-    "wholePhiExcluded": false,
-    "ordinaryISPClaim": false,
-    "noRecomputableMatrixOrPolynomialPayloadSaved": true,
-    "peakRSSKiB": 73256,
-    "stage": "new_reduced_original_modular_coefficient_input_and_complete_blocks",
-    "seconds": 8.431637596999963
-  }
+    {
+      "degree": 1,
+      "sha256": "1b08e218b9365ffd5de1fc8b666f29ee435f665789e76ad373452991556a4b44",
+      "multiplicity": 25,
+      "weight_rank": 25,
+      "weight_nonunits": [
+        "ell",
+        "P02",
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": false
+    },
+    {
+      "degree": 1,
+      "sha256": "268d6f4e141b0d9efe18a3ca42e8a451f1d8c998a71a5ae697ffe9a93bf033d2",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "3d3773756853247cc588dab2e492c7fc570889ebab78c19d8c4144e9fe615476",
+      "multiplicity": 21,
+      "weight_rank": 21,
+      "weight_nonunits": [
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "3fabd9bd9ddd0624f6db3060b65fff54a0e25d6cece74d99f73973b4b39e856d",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "463f2998327eb3a694145e6014444480b2235be84aa6cfd57871cc64f1cd816c",
+      "multiplicity": 4,
+      "weight_rank": 4,
+      "weight_nonunits": [
+        "u"
+      ],
+      "head_unit": false
+    },
+    {
+      "degree": 1,
+      "sha256": "491d7e209f7cc26b003fde096f07f5c2a3bc33fc3346665eb7f896041c51f867",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+      "multiplicity": 39,
+      "weight_rank": 39,
+      "weight_nonunits": [
+        "u-1",
+        "u-ell",
+        "J-Q",
+        "P02"
+      ],
+      "head_unit": false
+    },
+    {
+      "degree": 1,
+      "sha256": "6b8efb2dc0b1934c825393454ddd004606e3e74ad752ece802d70e8f59ea1a21",
+      "multiplicity": 14,
+      "weight_rank": 14,
+      "weight_nonunits": [
+        "M",
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "8e50fab9fc7755f75e420bcec052d1ea4ba08054b24ee35de20da6d67bf1584a",
+      "multiplicity": 21,
+      "weight_rank": 21,
+      "weight_nonunits": [
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "986bb6790f123044421f4e0f97e9920ba1108eaf7d1f71eb5cc215b6a9bd475d",
+      "multiplicity": 14,
+      "weight_rank": 14,
+      "weight_nonunits": [
+        "M",
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "b754f7289f245a77253a10933e3ae1b9b90f9d55a8c55322b7d21e98a46a7c25",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "bc2f854fc455c95b34f5586177563911a182fc53141b2aa7bc0f57d95d6ecb6d",
+      "multiplicity": 25,
+      "weight_rank": 25,
+      "weight_nonunits": [
+        "ell",
+        "P02",
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": false
+    },
+    {
+      "degree": 1,
+      "sha256": "c02cbd4631d9e470be6c1dbdcaa0ea5e26531e78aaf6d7bb4cd4e98c4ba46245",
+      "multiplicity": 16,
+      "weight_rank": 16,
+      "weight_nonunits": [
+        "T0"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "cfbb26a59bd915b5b00f81836f15ddc02fad20e5bd4843e11005946307119d30",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "d75ae71839133747c2076ad68256f7afce2d2e31b13a5ebffac2870b156efa87",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "e56069f3fe12b447399c2e28879450e18d4054d8c4934d6001a88117f247f0f2",
+      "multiplicity": 14,
+      "weight_rank": 14,
+      "weight_nonunits": [
+        "M",
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "eee21029dbc047ef1d7d3153965d57cc3d05785ccc26a450e50a9472fed6f006",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "faff6695016a0402a2be3826f112381249934154d45d4154ae0d29ffd31cc0b1",
+      "multiplicity": 14,
+      "weight_rank": 14,
+      "weight_nonunits": [
+        "M",
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 1,
+      "sha256": "fe4a58e3223477796088f77a272219962b01584ad8d6631c3eb9f207575fd40e",
+      "multiplicity": 1,
+      "weight_rank": 1,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 2,
+      "sha256": "6f24873aa376bf19539498bdcfaa2171499108b469a671f386a2317f7c125261",
+      "multiplicity": 1,
+      "weight_rank": 2,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 3,
+      "sha256": "83d8fbf23f82414b33f463bdbd49e8d28fb658b372b9f3873b24c05989ea4c2e",
+      "multiplicity": 1,
+      "weight_rank": 3,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 4,
+      "sha256": "035b97ab028527d8800f6cd4425b5534b42de85cfacd3dd955e9d2628f305ac2",
+      "multiplicity": 21,
+      "weight_rank": 84,
+      "weight_nonunits": [
+        "whole_Phi_first_head_now_paid"
+      ],
+      "head_unit": true
+    },
+    {
+      "degree": 4,
+      "sha256": "20e6d8f10867850ddec7f19ab067d2a153d748ee7069dd9752b2a7bc7c0e126f",
+      "multiplicity": 1,
+      "weight_rank": 4,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 4,
+      "sha256": "c2fe0e62641d5dfeb718e78d8e0bebaca9720f4a0c9dc7323483eebe097a260b",
+      "multiplicity": 1,
+      "weight_rank": 4,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 4,
+      "sha256": "eebb2d7dc3df2d5631c81c834e1e56aeb7626388f1b37283d8bbd6ec4ee67db6",
+      "multiplicity": 1,
+      "weight_rank": 4,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 6,
+      "sha256": "9a26612484a06e48be6ffa8e835f39a79a0bb43459c2a6a4da56bd448d087c09",
+      "multiplicity": 1,
+      "weight_rank": 6,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 8,
+      "sha256": "f983da907929f984295cb491dfcd489c41a10f5a1d88725e2cb1f97d6b19f9cf",
+      "multiplicity": 1,
+      "weight_rank": 8,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 12,
+      "sha256": "93984f03a09e3a3f5e35ac1febe40229dd9e70a390f64cd165580d2a334c3cf7",
+      "multiplicity": 1,
+      "weight_rank": 12,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 16,
+      "sha256": "761e2429ab2e8f45b3a741c12fede1acd5f7d9f2c51256e6f56c269a04103d42",
+      "multiplicity": 1,
+      "weight_rank": 16,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 16,
+      "sha256": "f93923308865028647a02c126d2c1476bf3dae1b565cb4145d190a83182edfa0",
+      "multiplicity": 4,
+      "weight_rank": 64,
+      "weight_nonunits": [],
+      "head_unit": false
+    },
+    {
+      "degree": 22,
+      "sha256": "3d4582d556b8a04aa50649ce81e89dfc8b4f9fd39da14adf188c7d6b931adfc1",
+      "multiplicity": 1,
+      "weight_rank": 22,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 22,
+      "sha256": "cda091d488b2583e96264ee7ef87c6ac5e938d57522e97670c7bc017386c4a30",
+      "multiplicity": 1,
+      "weight_rank": 22,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 23,
+      "sha256": "898c15be2ccf56370623a08ad0ce33461cc4261d3246b1569483b24a805d4713",
+      "multiplicity": 4,
+      "weight_rank": 92,
+      "weight_nonunits": [],
+      "head_unit": false
+    },
+    {
+      "degree": 37,
+      "sha256": "948411fb8c8fbe878f7bda2a05bac0544e6b585e8250d2ebf7537929aad86bb7",
+      "multiplicity": 1,
+      "weight_rank": 37,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 40,
+      "sha256": "33244c474c04b104ad70f7a17319ffe557e2f21e431ce3ec2b3548ac7980c87a",
+      "multiplicity": 1,
+      "weight_rank": 40,
+      "weight_nonunits": [],
+      "head_unit": true
+    },
+    {
+      "degree": 93,
+      "sha256": "eba4dac2dac708a13c3aa9c196be986f7c2d280d3b23e4877d3688ed14f3e56e",
+      "multiplicity": 1,
+      "weight_rank": 93,
+      "weight_nonunits": [],
+      "head_unit": true
+    }
+  ]
 }
