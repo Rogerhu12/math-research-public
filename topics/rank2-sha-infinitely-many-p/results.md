@@ -528,3 +528,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §103：原全域奇偶读者及完整χ野Jordan准确亏数
 
 已证明：原三阶截断的纯log奇偶两行保全部103/Tate权；预选惰性参考素分别保留原1与δ坐标。真实完整χ的野块长度精确为max(0,p^(j−1)−r_p)，µ零给r_p有限，尚不控制无穷p的r_p≤2。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §104：完整全域喷流降到固定Q有理函数及全阿贝尔短列表独立
+
+已证明：原周期相位、全f/p Tate权和Kato函数精确降为唯一固定M∈Q(E17)，二变量保完整平滑unit c²−c[g_c]。M对每个实际CM Frobenius严格范数相容，原十八邻支保留；任意固定短列表的M挠值对充分大惰性p在K^ab乘法模p独立，未偷换增长的完整角向和。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。

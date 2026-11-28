@@ -687,3 +687,174 @@ $(1+X)^{-(N-1)}=1+X$，得到
               D^{p-3}v_2\ne0\quad\Longleftrightarrow\quad r_p\le2
 \]
 是§102整全域三阶截断非零的充分测试。特征零条件$A_Z\le2$允许模$p$头格因$p$整除而延后，故全部$k$的(BS1)仍是无损判据。深层非零和准确亏数没有证明$r_p\le2$或$A_Z\le2$发生于无穷多个$p$。
+
+## 104. 原全域增广喷流的一条固定有理函数
+
+保持(BP1)–(BP4)的目标$E=E_{17}$、$\mathfrak f=34\delta$、$j=k+1$、$c=103$、$b=c^2-c$及原Betti基$\varpi_{17}$。写$A_j=(\mathcal O_K/p^j)^\times$、$A_f=(\mathcal O_K/\mathfrak f)^\times$。在$L_j=K(\mathfrak fp^j)$的模$p^k$ Kummer张量中用加法记号，置
+\[
+ \mathcal U_{r,k}
+   =\sum_{b'\in B_j}\rho(b')^{-1}\binom{-s(b')}r[b']u_j,
+ \qquad r=0,1,2,
+\]
+其中$u_j=(\;{}_c\theta)^{-1}(\varpi_{17}/(\mathfrak fp^j))$。函数的点值在加法式中表示其乘法Kummer类。常、一次喷流消失时下一系数的全域识别依§§99–103。
+
+R303(10)给
+$\varpi_{17}=(1-\omega)^{-1}\Omega_{17}$、
+$\bar\varpi_{17}=-\omega\varpi_{17}$，其中$\Omega_{17}$为实周期。
+置$T_t=[t]\varpi_{17}/\mathfrak f$，故
+$\bar T_t=T_{\omega\bar t}$。定义
+\[
+ A_t=\varepsilon(t)+\bar\varepsilon(t),\qquad
+ B_t=(\varepsilon(t)-\bar\varepsilon(t))/\delta,\qquad
+ I_t=(A_t+3B_t)/2\in\{\pm1,\pm2\}.
+\]
+有唯一$M\in\mathbb Q(E)^\times$满足
+\[
+ \operatorname{div}M=\sum_{t\in A_f}I_t[T_t],
+                   \qquad M(O)=1. \tag{BT1}
+\]
+写$P_w=[\mathfrak f^{-1}w]\varpi_{17}/p^j$，其中逆取模$p^j$。
+原三个行准确为
+\[
+ \boxed{\quad
+ \mathcal U_{r,k}/b
+    =\frac{\varepsilon(p)^j(1+\omega)}6
+      \sum_{w\in A_j}w^{-1}\binom{-s(w)}r\,M(P_w).
+ \quad} \tag{BT2}
+\]
+原惰性范围$\varepsilon(p)=-1$。$M$的零极全为固定primitive $\mathfrak f$挠点，上述值均有定义；$I_{-t}=-I_t$给
+$M(-P)=M(P)^{-1}$。
+
+### 固定函数的有理下降及原周期相位
+
+负号给(BT1)除子的次数零。$G_K$的原CM标量模$\mathfrak f$是$a/\varepsilon(a)$，其$\varepsilon$值为一，故保持$I_t$。原有理曲线的Hecke共轭相容性给
+$\varepsilon(\bar t)=\bar\varepsilon(t)$。于$t\mapsto\omega\bar t$，
+\[
+ A'=(-A+3B)/2,\qquad B'=(A+B)/2,\qquad I'=I .
+\]
+所以此除子在$\mathbb Q$上定义，其Picard类是有理挠点。
+
+这里$E_{17}(\mathbb Q)_{\rm tor}=0$可直接验证：五处立方为置换，故约化有六点；七处$17=3$，非零立方$\pm1$各三次，$3\pm1$都是非零平方而$3$非平方，故约化有十三点。两处均好，且$p>2$的第一形式群在$p\mathbb Z_p$无挠，故有理挠点在两处皆单射约化。六与十三互素，所述Picard类为零。于有理原点定标给唯一$M$并实现有理下降。没有把$\varpi_{17}$误当实周期。
+
+### 保留完整CRT、原Kato函数及所有Tate权
+
+Ray CRT给$B_j=(A_j\times A_f)/\mu_6$。两标签$w,t$满足
+$\rho(b')=w/\varepsilon(t)\bmod p^j$、$s(b')=s(w)$。
+规范$(\;{}_c\theta)^{-1}$在$\mu_6$下不变，故真实共轭评价点是
+$T_{p^{-j}t}+P_w$，即$[a]\varpi_{17}/(\mathfrak fp^j)$的两个CRT分量。
+
+该函数与
+$\psi_c(z)=\sigma(cz)/\sigma(z)^{c^2}$同除子，差为常数。这里始终是Kato原函数；(AN2)的Rubin函数另有十二次幂。配对$t,-t$后，偶性给
+$\psi_c(P_w+T)/\psi_c(P_w-T)$的半个带权和，常数消失。再除对角$\mu_6$的重数得$1/12$；重标$t\mapsto p^{-j}t$提出$\varepsilon(p)^j$。
+
+$\mathfrak f\cap\mathbb Z=102\mathbb Z$，故$m=102$为每个$T_t$的准确整数阶。令
+$\operatorname{div}h_T=m[-T]-m[T]$、$h_T(O)=1$。
+$cT=T$给准确函数恒等式
+\[
+ \left(\frac{\psi_c(P+T)}{\psi_c(P-T)}\right)^m
+       =\frac{h_T([c]P)}{h_T(P)^{c^2}}. \tag{BT3}
+\]
+比较除子后在$P=O$比较，两边均一。在$w\mapsto cw$重排中
+$s(c)=0$，逆Tate权多$c$，因此
+\[
+ \mathcal U_{r,k}/b
+    =-\frac{\varepsilon(p)^j}{12m}
+       \sum_{w,t}w^{-1}\binom{-s(w)}r
+                   \varepsilon(t)h_{T_t}(P_w). \tag{BT4}
+\]
+所有分母对当前$p$可逆。
+
+(BT1)和奇性给
+$\prod_t h_{T_t}(P)^{I_t}=M(P)^{-2m}$，常数仍在$O$定标。
+又$I_{\omega t}=(A_t-3B_t)/2$，所以
+\[
+ \varepsilon(t)=\frac12\left(
+       (1+\delta/3)I_t+(1-\delta/3)I_{\omega t}\right).
+\]
+第二项重标$t$把$M(P)$变为$M([\omega]P)$，因为
+$h_{T_t}(P)=h_{T_{\omega t}}([\omega]P)$。再重排$w\mapsto\omega w$，逆Tate权多$\omega$，而$s(\omega)=0$。代入
+$1+\delta/3+\omega(1-\delta/3)=2(1+\omega)$即证(BT2)。
+
+### 固定十八条同源上的完整各支
+
+置$C_t=\langle2T_t\rangle$、$q_t:E\to E'_t=E/C_t$、
+$\phi_t=q_t^\vee$。$\phi_t^*([-T_t]-[T_t])$的Picard类为
+$q_t(-2T_t)=O$，故有唯一$g_t$以该除子为除子、且$g_t(O')=1$。
+有
+\[
+                  g_t^m=\phi_t^*h_{T_t}.
+\]
+$P_w$的唯一$p^j$挠提升为
+$[51^{-1}\bmod p^j]q_t(P_w)$，仍在同一全域。因此(BT4)可用各$g_t$的完整和，只余分母十二。
+
+$C_t=E[\delta]\oplus L_t$，其中$L_t$为$E[17]$的一条
+$\mathbb F_{17}$线；$17$惰性，primitive标签走尽十八条。三处的CM理想同源不改局部极大环，十七处邻格缩放后为
+$\mathbb Z_{17}+17\mathcal O_{17}$，其它处原格不变，所以邻曲线端环为$\mathbb Z+17\mathcal O_K$。各向相位已在(BT2)合成，未指定任何单支非零。
+
+### 真正二变量整体和所有好素的范数相容
+
+令$G_j=(1+p\mathcal O)/(1+p^j\mathcal O)$、
+$g_w=\langle w\rangle\in G_j$。把(BT2)的测试权换成有限群环中的
+$w^{-1}[g_w]^{-1}$。因$\varepsilon(t)\in\mu_6$，有
+$g_{\rho(b')}=g_w$。同一除子证明逐项给
+\[
+ \sum_{b'\in B_j}\rho(b')^{-1}[g_{\rho(b')}]^{-1}[b']u_j
+   =\frac{\varepsilon(p)^j(1+\omega)}6\,
+      (c^2-c[g_c])
+       \sum_{w\in A_j}w^{-1}[g_w]^{-1}M(P_w). \tag{BT5}
+\]
+左侧$[b']u_j$是Galois共轭，其余$[g]$是群环基。确实，
+$w\mapsto cw$使系数多$c[g_c]$，而$w\mapsto\omega w$仍只多$\omega$。
+$c^2-c[g_c]$在$p$群的有限局部群环为单位，其增广为
+$c^2-c\in\mathcal O^\times$。反圆限制$[g_c]=1$恢复(BT2)；
+二变量喷流中必须保留整个单位，不能仅除常数$b$。
+
+还有固定函数的精确范数恒等式。对任意
+$\alpha\in\mathcal O_K$、$(\alpha,\mathfrak f)=1$，函数域范数满足
+\[
+ [\alpha]_*M=M\circ[\varepsilon(\alpha)^{-1}]. \tag{BT6}
+\]
+推前除子的$T_t$系数为$I_{\alpha^{-1}t}$，它只依赖
+$\varepsilon(\alpha)^{-1}\varepsilon(t)$，正是右侧拉回除子的系数。
+原点处的范数值是$\prod_{Q\in E[\alpha]}M(Q)=1$：
+核的阶为奇数、与原零极支撑不交，$Q,-Q$两两抵消，$M(O)=1$。
+所以比较除子后的常数准确为一。
+
+特别对任何原好素理想$\mathfrak p$，
+$\pi=\psi_{17}(\mathfrak p)=\alpha/\varepsilon(\alpha)$满足
+$\varepsilon(\pi)=1$，故$[\pi]_*M=M$。在惰性处$\pi=-p$，在普通分裂处取同一实际CM Frobenius。这是同一个固定$\mathbb Q$函数的真实Coleman范数系统；普通处的完整Tate分量识别仍须保其所选嵌入，不以范数恒等式代替该识别。
+
+### 任意固定短列表在全阿贝尔域中的模$p$独立性
+
+任取固定相异正整数$a_1,\ldots,a_r$。对所有充分大的本节惰性$p$、
+每个$j\ge1$及每个本原$P\in E[p^j]$，有
+\[
+ M([a_1]P),\ldots,M([a_r]P)
+ \quad\text{在}\quad
+ (K^{\rm ab})^\times/((K^{\rm ab})^\times)^p
+ \quad\text{中}\quad\mathbb F_p\text{线性独立}. \tag{BT7}
+\]
+各点及点值在$K^{\rm ab}$中，来自原CM射线作用。挠点的$x$高度一致有界，因为$h(x)-2\widehat h$有界；曲线方程与固定有理函数高度不等式给全部这些非零有限$M$值统一高度上界$H$。
+
+若有非零关系，在$[0,p)^r$中取其$p$个标量倍的整代表，分入
+$N^r<p$个等盒，其中$N\asymp p^{1/r}$。两点同盒给一个非零标量倍的整提升
+$|n_i|\ll_r p^{1-1/r}$；$r=1$直接取一。置
+$F(Z)=\prod_iM([a_i]Z)^{n_i}$。则
+$F(P)=\beta^p$、$\beta\in(K^{\rm ab})^\times$，且
+$h(\beta)\ll_{r,H}p^{-1/r}$。
+
+Amoroso–Zannier，*A relative Dobrowolski lower bound over abelian extensions*，Ann. Scuola Norm. Sup. Pisa 29 (2000), 711–727，印页712 Theorem 1.1取$D=1$，给固定$K$的阿贝尔扩张中非单位根的正高度下界；见[原刊全文](https://www.numdam.org/item/ASNSP_2000_4_29_3_711_0.pdf)。因此充分大$p$时$\beta$必为单位根。
+
+原$p$处CM惯性走尽$(\mathcal O_K/p^j)^\times$。所以$P$的$G_K$轨包括至少$p^{j-1}(p-1)$个实本原点
+$[u]\Omega_{17}/p^j$，其中$u\in(\mathbb Z/p^j)^\times$、
+$\Omega_{17}=(1-\omega)\varpi_{17}$。因$F\in\mathbb Q(E)$，这些点的$F$值都是实单位根$\pm1$。若$F$非恒定，两纤维总点数不超过
+\[
+ 2\deg F\le2\deg M\sum_i|n_i|a_i^2
+                 \ll_{(a_i)}p^{1-1/r},
+\]
+与前述实点数矛盾。
+
+最后$F$确实非恒定：取$n_i\ne0$中最大$a=a_i$，选择整数阶恰为$102a$的$Z$且$[a]Z=T_1$。这可在$(\mathbb Q/\mathbb Z)^2$中将阶102的$T_1$写成$(1/102,0)$后直接取到。每个较小$b<a$满足
+$\operatorname{ord}([b]Z)=102a/\gcd(102a,b)>102$，故只有$a$项在$Z$有零极，且阶数非零。矛盾证明(BT7)。
+
+(BT7)已包含完整原驯源；(BT5)角向全和的长度随$p$增长，不能以固定短列表独立宣称其增广喷流跨$p$非零。尚需付此最后的完整非抵消。
