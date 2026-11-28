@@ -1,18 +1,21 @@
 {
-  "message": "ISP: preserve six entire b0 original weight returns and freeze failed first PRS",
-  "parentCommit": "b551a70472de8789d3d726edd3b74d51528ba26d",
+  "message": "ISP: first whole W six original NP cofactors and entire Phi ell-half positive targets",
+  "parentCommit": "557ac8922f7c3dd8db120f9137232e1db5fa6111",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-inverse-slope-five-original-quadrics-six-weight-conditions.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-inverse-slope-five-original-quadrics-and-u-cover-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-inverse-slope-five-original-quadrics-and-u-cover-8542-actual-root-review.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-inverse-slope-five-original-quadrics-and-u-cover-8542-formal-root-review.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-operator-literature-primary-reading-scope-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-b0-six-returns-PRS-frozen-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-b0-six-returns-PRS-frozen-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-inverse-weight-six-small-same-f-NP-original-cofactors-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-inverse-weight-six-small-same-f-NP-original-cofactors-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-inverse-weight-six-small-same-f-NP-original-cofactors-8542-root-review.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-entire-ell-half-original-positive-targets-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-entire-ell-half-original-positive-targets-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-entire-ell-half-original-positive-targets-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-w-inverse-six-np.yml",
+    ".github/workflows/invariant-subspace-8542-phi-entire-ell-half-positive-targets.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-W-six-NP-Phi-ell-half-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-W-six-NP-Phi-ell-half-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,5 +24,8 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-inverse-six-np.yml",
+    "invariant-subspace-8542-phi-entire-ell-half-positive-targets.yml"
+  ]
 }
