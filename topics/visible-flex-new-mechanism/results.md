@@ -177,3 +177,7 @@
 ## R636实际中心高度边界的完整活动面续接
 
 [完整范围](notes/2026-11-28-r636-original-center-cone-resume-scope.md)从e4521e28真实32接受态继续，以同一全行全列欧氏LM在h(0)/L向内锥上枚举至多四面；非零准确解为原merit下降方向，实际浮点仍保原Armijo/物理/真端门。四场outward细分保同固定背景，仅准确结构零跳过累加；非零乘积下溢仍包围。源12端恢复和已付同态fine不重放，改变的真实曲线做新冻结fine；完整3300秒公开请求保全部费用，暂无新根资格。
+
+## R648：完整自由均值的连续内尾 G、S 与真实度量界
+
+[完整证明](results/R648-complete-unsolved-mean-true-tail-connection-and-position-bounds.md)将固定E′保留为W|W′|和W²，仅对固定已付seed使用κW，推得任意新mean的全真尾R/G界；连续primitive的π/4、π/2范数保留完整F/G相位项，给S、η≤3S+S²及正平面Jac充分条件。原pre-tanh/全部样条/forced的rr与rθ预算明确包含；消费者只复用同实际对象及已付receipt，无新root/ODE/J/FFT/位置查询。原七类源误差未闭时结论仍条件性，不授全连接、曲率或reach资格。
