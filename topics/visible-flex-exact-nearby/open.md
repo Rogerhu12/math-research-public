@@ -149,7 +149,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 - SL45917913526/1与PS充分门均false，不推奇异。新[TF真实low193 flow](results/R149-supplement-true-low193-local-flow-and-direct-response.md)采用真变量矩阵Peano–Baker/1424格/4273完整97/96枢轴，另算真Green四source maps及原body+193atoms二类逆。首manifest68583B/9bee97cd…、86current/21history/12bound source已齐，待唯一run。对象仍原WVC hybrid，full-family η/repair/mean/真根保，非全DF或CFB。
 - TC2677唯一run46117170011/1消费原45928452441整2677/7724cells、连续1605及游标1605/3788/6000，只续5047缺格；同四whole arrays、matrix、waist均不重。见[续接入口](notes/2026-11-28-TC-complete2677-union-continuation.md)，positive/negative96全残差仍待。
-- UDRC21 45933303391/1全21成，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)原Θ96坐标逆<12.588/ρ≈.799597509。TQ/kerΘ图已可用，lowerror≈.31698不能替global≈850.945862，完整high/physical/mean/ν反馈与fullSchur待。
+- UDRC21 45933303391/1全21成，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)原Θ96坐标逆<12.588/ρ≈.799597509。TQ/kerΘ图已可用，lowerror≈.31698不能替global；WMA原全空间新候选<6.957962、原850.945862候选保，完整high/physical/mean/ν反馈与fullSchur待。
 - DWTB9 45935081577/1全9成，[DBRA](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)完整w∞/w2/row费用均保。BNC旧45941963989历史路径失败、0新目标；[native-path入口](notes/2026-11-28-BNC-native-path-recovery.md)唯一46117248905/1仅修relative basename/后缀/兄弟目录，原7目标/全a相位/joint费不变。
 - [BGR3入口](notes/2026-11-28-BGR-first-actual-entry.md)唯一46117818798/1算新全9216 signed Gram/∞产品/whole rowerror。BNC完后只复制全部96centers和四旧整费，加新费完整求和，不从旧upper相减。[BFP19](notes/2026-11-28-full-target-nu-forward-first-entry.md)唯一46118996598/1已06:57:53启动，全512forward/2560image/8192pullback/真正Θ列，manifest96504B/363c2116…；global/flow/w/PDE/alias/means全保。
 - APHI仍只是NP严格particular；PP/CP全regular补偿/mean/raw E′a保。AP96 run45926971089/1全6成、joint96radius<.000227442，true_PDE_corrected_columns=false。[HP](results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md)实际height-first比率(-1.543,-1.5208)、physical98误差<.001663，完整r◦/chart/world端口不删；非Θ或全Schur。root继续同一TC96的新完整height行，不能以phase行替代。
@@ -160,7 +160,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 2026-11-28 HN2已支付真strict second source与full弱二阶解、actual short height Hessian及HP mean/phase quotient导数；不删除full regular二阶response、一般moving cap二阶端口、全tame inverse/可求和迭代义务。见R147 HN2，首算57新exact组合，旧科学0。TF唯一run46120139018/1正运行，尚无success gate。
 
-WMT14完整新公式与实际入口已齐，原global850完整候选保、14新目标待run；BNC46117248905全7成、全96 target coordinates联合误差<.001383111，但不是完整Θ列，双mean与未付full512/infinite/coupling保。原SC/JF接受TP同schema全58/224/32之后仍须TC all7724。
+WMT14完整新公式与run46122573619全14 actual已成，原global850完整候选保、新global<6.957962；BNC46117248905全7成、全96 target coordinates联合误差<.001383111，但不是完整Θ列，双mean与未付full512/infinite/coupling保。原SC/JF接受TP同schema全58/224/32之后仍须TC all7724。
 
 H96已完成原TC96 whole-height与消高phase的公式/完整公开入口（114/51、7新目标），九新有理比较一次全过。全RHI/TC carrier恢复只核旧whole SHA，新积分只在Actions；未知angular error用2/5。actual待run，truePDE修正、全physical高列及means/world ports未删；成功后可消费完整canonical/G/H按更强已证actual-anchor界重组合，不能重积分。
 

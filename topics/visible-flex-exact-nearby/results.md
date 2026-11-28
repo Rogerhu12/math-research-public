@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WMA：同一全Θ实际误差<6.957962](results/R149-supplement-actual-complete-weighted-model-Theta-receiver.md)：run46122573619/1全14目标已成、全145输入和原UACT21/newWMT validator过；actual12593B/587ec4c2…、execution8924B/1b022e58…。所有96×8192/2048、4个全Gram和原model1..1048576及无限尾齐，旧科学0；完整global候选由850.945862…改善到6.9579617772…，原候选和finite-only .31698保。只在BFP19整成功后替其同一global槽，不冒ν整列/全Schur。
+
 - [ABNC：真正target-normalized strictν的实际完整列](results/R147-supplement-actual-complete-target-normalized-strict-nu-column.md)：run46117248905/1全7目标/192observations成功，全部96 exact rational centres+whole joint error<.001383111；五整费、真phase、两mean保。原238输入/validator准入；actual70893B/2df0e900…、execution36848B/081c3c4b…。必要旧carrier恢复1次、旧科学0；该列是E96^{a*}B⁻¹Fν，不能补零称完整Θν，也不授fullSchur。
 
 - [H96：原始全96 trial的完整高度行](results/R149-supplement-complete-height-row-on-original-finite-trials.md)：精确SO3先化简，原RHI全格/实Nyquist的unrestricted C0误差完整支付；保waist Jacobian变化、两个means、实际cap q/f锚和独立world ports。原全TC septic径向moments精确配对，AP96只在完整height后消元。9新有理比较一次过；全7新数值首入口114current/51history、61916B/0bf3e4ab…，尚无actual成功，未授truePDE/fullSchur。[执行入口](notes/2026-11-28-H96-complete-height-row-public-entry.md)。
