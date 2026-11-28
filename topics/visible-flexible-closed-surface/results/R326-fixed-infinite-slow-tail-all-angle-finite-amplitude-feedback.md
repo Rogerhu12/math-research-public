@@ -1,0 +1,42 @@
+# R326. Finite-amplitude angular feedback on one infinite slow Prüfer tail
+
+On the exact R325 radial metric there are two explicitly regenerated C² annuli with nonzero, fixed outer vertical second harmonic. Their full continuous relative Gram errors, from the flat cuff through the outermost packet, are respectively below $8.30\,10^{-12}$ and $8.34\,10^{-12}$. On an independent shifted grid the errors decrease from $3.796\,10^{-19}$ to $9.417\,10^{-20}$ under actual radial and angular refinement. These are shell results. The finite measurements do not establish a zero-error limiting immersion or supply the large closed core.
+
+## One target and the actual positions
+
+Let $r_*$ be the exact R325 outer radius. Set $R=r/r_*$ and $R_c=.371/r_* > .64$. In physical units the target is $r_*^2[(1+w^2)dR^2+R^2du^2]$. The clock and slope are R325's exact infinite sequence, $q=3/2$, $d_n=.018q^{-n}$, $w=.00014q^{-3n}d_n/(R^7p)$. The radius at native phase $\phi$ of layer $n$ is $\exp[-(\sum_{j<n}\ell_j+\ell_n-x_n(\phi))/\sqrt{12}]$. It uses no lower truncation. The fixed normalized displacement amplitude is $e=3.5\,10^{-10}$ in every state and equals the actual normalized vertical second harmonic at $R=1$. This specifies the branch in units of the true outer radius. In these units the cuff height is $.5724/r_*$. The physical position equals $r_*$ times its normalized position.
+
+Start with R325's exact mean-corrected field $Y$, recomputing its $F,U,h,W$ at this $e$. Use its actual axis height $.5724/r_*+\int_{R_c}^R W$. Add a real cylindrical displacement with components $\sum_m a_m(R)\cos(mu)$, $\sum_m b_m(R)\sin(mu)$, $\sum_m c_m(R)\cos(mu)$, for $m=0,2,\ldots,M$. Each radial coefficient on each binary64 knot interval is the unique quintic of the generated endpoint position, first derivative and second derivative. Extend all corrections by zero below the first knot. All three inner jets vanish exactly and the outer $c_2$ correction is exactly zero. Thus the analytic background includes every physical layer to the cuff, and its C² join to the flat cuff is preserved. The rounded phase quadrature is used to choose knots and coefficients. The continuous estimate below concerns those binary fields added to the exact background. It needs neither an identity between quadrature and the exact clock nor an identification of the first binary knot with an exact layer boundary.
+
+The update evaluates the complete nonlinear Gram matrix, including every quadratic product and cross component. For one nonconstant Fourier residual $(E,F_\times,G)$ of the unnormalized Gram, put $L=-G/(2R)$. The rotation linearization gives $b=(L-a)/m$, $a'=L'-L/R-(m^2-1)a/R-m^2wc/R+mF_\times/R$, $c'=(-E/2-a')/w$. Each mode solves a two-point multiple shooting system with internal radial and external vertical conditions at opposite ends. Lobatto collocation, differentiated endpoint equations and a quintic cutoff over two inner layers supply real physical two-jets. A step is accepted by evaluating complete nonlinear Gram errors. No target parameters are optimized. The independent observer interpolates the frozen quintics and reevaluates the mean field on 8,640 new physical phase nodes, with 71 azimuths shifted by .417 of a sample. The radial within-panel shift is .371.
+
+| Represented outer layers | Physical radial knots | Maximum cylindrical Fourier order | Accepted steps | Initial sampled norm | Final training norm | Independent norm | Strict continuous upper bound |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+|20|6,481|8|7|$2.096\,10^{-16}$|$3.016\,10^{-19}$|$3.796\,10^{-19}$|$8.30\,10^{-12}$|
+|20|12,961|10|10|$2.112\,10^{-16}$|$7.385\,10^{-20}$|$9.417\,10^{-20}$|$8.34\,10^{-12}$|
+
+The independent entries are floating observations of small residuals evaluated in cancellation-resistant form. The rigorous envelopes use separate absolute-value estimates and need not decrease between rows.
+
+## All radii, all angles and the accumulating part
+
+In layer $n$ put $t=65e(q/13)^n$. R325 gives $|Q|\le1.06\,13^{-n}$ and $|\Pi|\le.30\,13^{-n}$. Substituting $F=eR^4Q$, $F'=eR^3(4Q-\sqrt{12}p\Pi)$ and $U'=-wF'$ bounds $|F'|,|F|/R,|U'|,|U|/R$ by $t$. The ratios $|F'|/w<.7161$, $|F|/(Rw)<.01225$ and $|U|/(Rw)<1.01\,10^{-8}$ follow from R325's same estimates, since $e<2.8\,10^{-9}(.572)^3$. Also $w<.0029$. Consequently the mean-square root satisfies $.70<W^2/w^2<1.06$. In the latter bound use positivity of $e_0$, $|y|/w^2<.01756$ and $x/w^2<.000301$ in R325's signed radicand.
+
+The R325 variables obey $x\le3.125t^2$, $|y|\le3.125t^2$, $e_0\le1.125t^2$. From the square roots, $|h-R|/R\le2t^2$, $|h'-1|\le10t^2$ and $|W-w|\le12t^2/w$. The pointwise quadratic parts of the first mode in $E,F_\times/R,G/R^2$ are bounded by $2t^2,3.5t^2,6.25t^2$. Their diagonal averages are canceled by $h,W$. More explicitly, the oscillatory diagonal quadratic terms are constant multiples of $\cos(2u)^2-1/2$ or $\sin(2u)^2-1/2$. The additional linear $E$ term satisfies $2|(h'-1)U'+(W-w)F'|\le20t^3+24(.7161)t^2$. In $F_\times/R$ the additional terms have size at most $1.5(10t^2)t+2(12t^2)(.01225)+(2t^2)t/2$. The angular linear term of $G$ vanishes since $a+\partial_u b=0$ for the seed. These estimates give component bounds $(21,4,10)t^2$, hence operator bound $26t^2$, allowing for division by $\sqrt{1+w^2}\ge1$. This holds on the whole infinite background. For example it is less than $4.13\,10^{-52}$ on layers $n\ge20$ before the added finite correction. The true tangent component envelopes in the orthonormal cylindrical frame are $P= (1.000001,10^{-9},.004)$ for $Y_R$ and $Q=(10^{-7},1.000001,10^{-7})$ for $Y_u/R$, directly by the same estimates and the displayed seed modes.
+
+For each frozen correction, on each interval of width $h_0$, its first three quintic Bernstein controls are $v_l$, $v_l+h_0d_l/5$, $v_l+2h_0d_l/5+h_0^2dd_l/20$. The three right controls use reversed jets. Derivative controls are $5(B_{j+1}-B_j)/h_0$. The certificate encloses every primitive binary operation outward, takes componentwise maxima over every interval, then sums individual Fourier coefficient bounds as exact rational numbers. Write $p$ for the resulting three absolute bounds for $\Delta X_R$ and $s$ for those of $\Delta X_u/R$. The latter includes rotation of the cylindrical frame, with components $(a_u-b,a+b_u,c_u)/R$ and $1/R<1/.64$. Additional normalized $E,F_\times,G$ error is bounded respectively by $2P\cdot p+p\cdot p$, $P\cdot s+Q\cdot p+p\cdot s$, $2Q\cdot s+s\cdot s$. Add $26(65e)^2$ to the maximum diagonal bound plus the cross bound. This is a full relative operator estimate. The certificate compares exact rational numbers with $B=2\,10^{-9}$. The estimates in the table also imply immersion everywhere. They certify local tail accuracy at fixed amplitude. They do not certify the disappearance of the remaining nonlinear modes under unlimited refinement, closed-surface reach, or a compact isometric attachment.
+
+## Reproduction
+
+Use the published R325 slow packet and exact-mean sources in the same directory as the three R326 scripts. Run the following from that directory. Only the scripts, scalar results and field identities are archived.
+
+```sh
+node 2ecf-prufer-fixed-normalized-nodes.mjs coarse.json 20 3
+node 2ecf-prufer-fixed-normalized-nodes.mjs fine.json 20 6
+node 2ecf-prufer-fixed-normalized-nodes.mjs check.json 20 4 .371
+OPENBLAS_NUM_THREADS=1 python 2ecf-prufer-normalized-harmonic-feedback.py coarse.json coarse.npz --order 8 --steps 10 --verify check.json
+OPENBLAS_NUM_THREADS=1 python 2ecf-prufer-normalized-harmonic-feedback.py fine.json fine.npz --order 10 --steps 12 --verify check.json
+OPENBLAS_NUM_THREADS=1 python 2ecf-prufer-full-harmonic-certificate.py coarse.json coarse.npz
+OPENBLAS_NUM_THREADS=1 python 2ecf-prufer-full-harmonic-certificate.py fine.json fine.npz
+```
+
+Canonical SHA256 hashes of the C-order little-endian binary64 arrays follow in order of knots, correction values, first derivatives and second derivatives. Coarse: `77848e0688f80f0d1b786b715fee238dce05d1db53d438a7ff7e1549ea63b72f`, `24e2cf103d8626ce58c68b7c15a615d33dc1c10ba1e7176caaccb3273fd26abe`, `8df23d1e32ae0e838d3d1bd06a6c7231dc733edbd1278e2772d7b78cde44061d`, `366093e4950ec16bbc76b19ad88e51fed44e5268bf1c2c45a4519cad81321185`. Fine: `0e72dbb7cf197cdcd3d4801416d145a6bc001709a681e37a35a6bd5dac7acb01`, `a4e214557f3454eaa43bd55e278de98cf1beb16dd79468e563620f43c49d8df1`, `0712dfaecded2e5948f21f20c4480651929a444c74a2cdc1892e7c311c7a26e6`, `a9ac578a12a5a8defffbee990e2a90a13d03ad1c3844b1a901efbf1ac502d30f`.

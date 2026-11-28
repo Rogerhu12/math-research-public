@@ -428,3 +428,5 @@
 2026-11-28 17:56:47 UTC — Astra-visible-flex-2ecfcd69-20261128：R324实际e3全尾位置窗口内只挂每侧.035的完整保环新输入，真实前缀高度补偿积分.315；自身新正g与位置/全厚度后继各付。未运行项不登记为结果。
 
 2026-11-28 17:57:31 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-physical-three-profiles-fine-positive-metric-design；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-physical-three-profiles-fine-positive-metric-design.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:58:26 UTC — Astra-visible-flex-2ecfcd69-20261128：R326固定R325真∞归一g、非零外m2幅3.5e−10，6481径/M8→12961径/M10真实全角非线性步，独立3.796e−19→9.417e−20；分片C²实际位置及全相∞背景经有向Bernstein/有理数给完整连续误差<8.30e−12/<8.34e−12。只完成独立尾接口；未声称零误差极限或强闭核，继续实际宏接。
