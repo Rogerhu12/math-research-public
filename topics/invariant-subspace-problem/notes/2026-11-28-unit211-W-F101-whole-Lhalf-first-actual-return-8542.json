@@ -1,0 +1,76 @@
+{
+  "elapsed_seconds": 23.034741738000005,
+  "max_child_rss_kib": 158328,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "bc65a667609ad2cb227f69b06a35467bf9be86f3",
+      "before": "bc65a667609ad2cb227f69b06a35467bf9be86f3",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T03:53:05.970221+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46104932037",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "bc65a667609ad2cb227f69b06a35467bf9be86f3",
+  "source_exit_code": 0,
+  "source_git_blob": "8e57f35b2a0bb1a7a7a08ddd5c1146d40b0961b6",
+  "source_sha256": "d5be6f7eaa25eb1520ab6cb549938d86886b78ba82a43fead922c41552694f0d",
+  "stdout_bytes": 23210,
+  "stdout_sha256": "aa3a620ca3303d4d0c5bc65fe2d53cf10e2ac93a7214a41bbccb9dd552044049",
+  "stop_reason": null,
+  "job_id": 140855440829,
+  "new_result": {
+    "all_QQ_factor_degrees_and_multiplicities": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        68,
+        1
+      ]
+    ],
+    "whole_paid_factor_excluded_index": 1,
+    "remaining_full_rank_pairs": [
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        204,
+        204
+      ],
+      [
+        816,
+        816
+      ]
+    ],
+    "all_both_inverse_and_original_D_target_products_returned": true,
+    "all_original_multiplicities_restored": true,
+    "whole_Lhalf_physical_branch_excluded": true,
+    "whole_W_excluded": false
+  }
+}
