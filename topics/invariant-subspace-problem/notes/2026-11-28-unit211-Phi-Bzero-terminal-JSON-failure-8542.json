@@ -1,0 +1,231 @@
+{
+  "schema": "isp-Phi-Bzero-terminal-JSON-failure-v1",
+  "execution": {
+    "elapsed_seconds": 0.09359800999999379,
+    "max_child_rss_kib": 40240,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "dc647b15d7d2c901d4639ba97e35fb5af4cdf535",
+        "before": "0d16e65e5bc276e25f56a39400af8c4ddc60e915",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T05:32:11.254774+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46112526572",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0d16e65e5bc276e25f56a39400af8c4ddc60e915",
+    "source_exit_code": 1,
+    "source_git_blob": "a15cbf3a0bd940fc9ba7f4c292bf19b0948c7b22",
+    "source_sha256": "f027f52d63a345ce89b05ecbce7276093256eaf5a4b0ff9bf59da0e123a5f835",
+    "stdout_bytes": 3765,
+    "stdout_sha256": "f974c430b2697a4d126342124c2d0833b1575ba0d6b8e755ba6b955445c77479",
+    "stop_reason": null
+  },
+  "job_id": 140879029009,
+  "completedPrintedRecords": [
+    {
+      "dependency": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads-8542.py",
+      "stagedInRunnerTemporaryDirectory": true,
+      "historical": false,
+      "payloadPrintedOrRecommitted": false
+    },
+    {
+      "Q": "4(x^2-x+1)/3",
+      "allRationalParameterIdentitiesReturned": true,
+      "originalCoefficientDenominatorsOnlyIntrinsicPaidUnits": true,
+      "originalFourQuadraticsRebuiltWithoutOldHeadTests": true,
+      "originalHeadAAutomaticallyNonzero": true,
+      "originalInverse": "x=Q/(4(u-1))",
+      "originalPhiExcluded": false,
+      "seconds": 0.033432491999974445,
+      "stage": "true_whole_B_original_rational_parameter",
+      "u": "(x+1)^2/(3x)"
+    },
+    {
+      "completeThreeRuleAndOmittedOriginalTraceReturned": true,
+      "head": {
+        "denominator": {
+          "degrees": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "34416ab1c02af82ee9bd7928062eb490c45eb437ff64cc42cfc8cbf340a1b986",
+          "terms": 1
+        },
+        "numerator": {
+          "degrees": [
+            34,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "fc05b36195752c27d5809905c7c949423b04e2a2c01e7ff0fd827903f89e077a",
+          "terms": 35
+        }
+      },
+      "headUnpaidSupport": {
+        "constant": "25088000/387420489",
+        "factors": [
+          {
+            "degrees": [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "11*u^3 - 18*u^2 + 6*u - 1",
+            "power": 1,
+            "sha256": "9d91dddc539de5c1a2127a7aa945bd73cbbf7b7c529a552bf0f64f46155fa2a3",
+            "terms": 4
+          }
+        ],
+        "fullProductReturned": true
+      },
+      "noParameterOnlyExclusionClaim": true,
+      "omittedOriginalRow": "original_Obar",
+      "originalLinearDegrees": [
+        2,
+        1,
+        1
+      ],
+      "seconds": 0.04476143400000865,
+      "selectedOriginalRows": [
+        "corrected_Rbar",
+        "original_W4",
+        "original_N1"
+      ],
+      "slope": {
+        "denominator": {
+          "degrees": [
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "5a27c8873adf24d8f4d8f10eb5e5975c3ec98b8330791ad5aeabfc7b4a71f5c4",
+          "terms": 7
+        },
+        "numerator": {
+          "degrees": [
+            37,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "6cef56e572e5f91ec264035949fa96a1b79fd996d48b43c9d0587b7b5e89fb7d",
+          "terms": 38
+        }
+      },
+      "slopeFullNumerator": {
+        "constant": "256/15625959723",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "2*u - 1",
+            "power": 1,
+            "sha256": "e9280b10191f0bd264db452dfc19bff862a1464f70c181519b8710bfba5a4adc",
+            "terms": 2
+          },
+          {
+            "degrees": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "23*u^2 - 11*u + 2",
+            "power": 1,
+            "sha256": "4b92e9013dad3aa61a5cade68500c9ea98b4e9d08f6b613c61bc69df63b08807",
+            "terms": 3
+          },
+          {
+            "degrees": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "7*u^2 - 4*u + 1",
+            "power": 3,
+            "sha256": "16139646b036448a4cd9f35d8ef0357bee801cbcd3fb48409b744ae7c0e3c76e",
+            "terms": 3
+          },
+          {
+            "degrees": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "5*u - 1",
+            "power": 5,
+            "sha256": "a0ae18dbab86a3be1bc8c5ff713de1b59811ed9dfd0f72d86a8b42476df7257d",
+            "terms": 2
+          },
+          {
+            "degrees": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "u^2 - u + 1",
+            "power": 7,
+            "sha256": "cec5a591d3a421c3ef08ca2dc687d87dd52799e24fb77bf2600f2ac1354bab4d",
+            "terms": 3
+          },
+          {
+            "degrees": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "polynomial": "u + 1",
+            "power": 9,
+            "sha256": "a900aaa81002bff067b59e525d664e80ba0526b6812534614450c34b14a69ce4",
+            "terms": 2
+          }
+        ],
+        "fullProductReturned": true
+      },
+      "stage": "new_true_B_original_linear_remainder",
+      "wholeHeadZeroFibersRetained": true,
+      "wholeSlopeZeroFibersRetained": true
+    }
+  ],
+  "failure": "TypeError: Object of type fmpz is not JSON serializable",
+  "tracebackLocation": "source line 202, final say('new_true_B_exact_six_by_two_original_model'); say line 38 json.dumps",
+  "scopeFromFrozenControlFlow": "All preceding same-original rules, centered monic quadratic, six full row identities and final denominator checks completed before terminal metadata serialization. Final lambda-degree/profile JSON was not emitted; no exit-zero claim and no full-B exclusion claim.",
+  "newNecessarySupports": {
+    "head": "11*x^3-18*x^2+6*x-1",
+    "slopeAfterPaidFactors": "23*x^2-11*x+2"
+  },
+  "mathematicalExecutionNotRepeated": true,
+  "ordinaryISPClaim": false
+}
