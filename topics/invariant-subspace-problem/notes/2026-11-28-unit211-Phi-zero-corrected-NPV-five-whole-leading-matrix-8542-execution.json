@@ -1,0 +1,440 @@
+{
+  "schema": "isp-correct-Phi-NPV-five-whole-leading-matrix-v1",
+  "run_id": 46145840181,
+  "job_id": 140981610633,
+  "source_basename": "2026-11-28-unit211-Phi-zero-corrected-NPV-five-whole-leading-matrix-8542.py",
+  "driver": {
+    "elapsed_seconds": 1.8937330440000153,
+    "max_child_rss_kib": 51384,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d3a1f7fa699941dea6f475d6488c480d32eee9fd",
+        "before": "54f54cfe8231d7b059a6960594206dbd4cfc5431",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T12:40:45.553678+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46145840181",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "54f54cfe8231d7b059a6960594206dbd4cfc5431",
+    "source_exit_code": 0,
+    "source_git_blob": "6a1cabbe181ccd109c5b36f59ef588f57d734387",
+    "source_sha256": "b77bf975afb7cf3a84487c3c8543f8b467822356025bb4787bb610c100667023",
+    "stdout_bytes": 6190,
+    "stdout_sha256": "077ad8a953de38cedaa7436a42d5249b876e43b8483f2bbeccf175ebd7075e60",
+    "stop_reason": null
+  },
+  "mathematical_records": [
+    {
+      "coefficientProfiles": [
+        [
+          {
+            "denominator": {
+              "degrees": [
+                22,
+                16,
+                0,
+                0,
+                0
+              ],
+              "sha256": "36f8ffdec45c360f0393a49de39d8bc33f4e3ff0eb48a79aa774609450c5d897",
+              "terms": 224,
+              "totalDegree": 27
+            },
+            "numerator": {
+              "degrees": [
+                25,
+                17,
+                0,
+                0,
+                0
+              ],
+              "sha256": "51f144ce778e4094342c1514b5cda8ca196c0c0d8bc65c853c3c383d8d0d03b3",
+              "terms": 311,
+              "totalDegree": 29
+            }
+          },
+          {
+            "denominator": {
+              "degrees": [
+                25,
+                18,
+                0,
+                0,
+                0
+              ],
+              "sha256": "42d1719d6fdb10a8ac0d7130513a745149d2547ecefa299c2b814cf14d3ee251",
+              "terms": 285,
+              "totalDegree": 30
+            },
+            "numerator": {
+              "degrees": [
+                28,
+                19,
+                0,
+                0,
+                0
+              ],
+              "sha256": "85b2c163d6169eb750c64bbf88d6238b8a953ec8701d05cf8c483822c33c5c65",
+              "terms": 384,
+              "totalDegree": 33
+            }
+          },
+          {
+            "denominator": {
+              "degrees": [
+                19,
+                18,
+                0,
+                0,
+                0
+              ],
+              "sha256": "67ac7aaad35cddf4dbfa22aec77d350bba052875ac104da73ae0f490333785c9",
+              "terms": 200,
+              "totalDegree": 27
+            },
+            "numerator": {
+              "degrees": [
+                24,
+                17,
+                0,
+                0,
+                0
+              ],
+              "sha256": "f897003698b2971059f3751a735c7cc7e352f401b87e6e76046ff3b34a950329",
+              "terms": 306,
+              "totalDegree": 29
+            }
+          }
+        ],
+        [
+          {
+            "denominator": {
+              "degrees": [
+                26,
+                18,
+                0,
+                0,
+                0
+              ],
+              "sha256": "bf76d6d15c7f7123c0f30433c5654c1b872701d3cbeba4b539013b9f7493a3fe",
+              "terms": 290,
+              "totalDegree": 31
+            },
+            "numerator": {
+              "degrees": [
+                29,
+                19,
+                0,
+                0,
+                0
+              ],
+              "sha256": "9c87b207edc9262541a3cab9d9ce34daa9db13d235a0136931aba5fd730b37ea",
+              "terms": 389,
+              "totalDegree": 34
+            }
+          },
+          {
+            "denominator": {
+              "degrees": [
+                29,
+                20,
+                0,
+                0,
+                0
+              ],
+              "sha256": "9c43422121c7b7079fb80304f40ab7a6630831e3c01486f03ba7f5f09cd848a7",
+              "terms": 359,
+              "totalDegree": 34
+            },
+            "numerator": {
+              "degrees": [
+                32,
+                21,
+                0,
+                0,
+                0
+              ],
+              "sha256": "9c9f7b0b281a4ac1c50a92c15dc64b831829be08c66c0dd5881e6c95927c7ad3",
+              "terms": 467,
+              "totalDegree": 36
+            }
+          },
+          {
+            "denominator": {
+              "degrees": [
+                25,
+                21,
+                0,
+                0,
+                0
+              ],
+              "sha256": "572f9b6fc8c28ecb41083545137d1ef25f0fb9288ec8de3421983bc99d9277fa",
+              "terms": 299,
+              "totalDegree": 33
+            },
+            "numerator": {
+              "degrees": [
+                30,
+                20,
+                0,
+                0,
+                0
+              ],
+              "sha256": "cff0aca9195bd4a924253cba0e32113c00c430ef2c139b4f1e284e21c958ce3b",
+              "terms": 423,
+              "totalDegree": 34
+            }
+          }
+        ],
+        [
+          {
+            "denominator": {
+              "degrees": [
+                19,
+                16,
+                0,
+                0,
+                0
+              ],
+              "sha256": "a6b6d99181269ddcc9e0e047b964fcb48dfc16f6186cbb1b4cfe304212840306",
+              "terms": 179,
+              "totalDegree": 26
+            },
+            "numerator": {
+              "degrees": [
+                27,
+                17,
+                0,
+                0,
+                0
+              ],
+              "sha256": "90aaf6e99f9499949c1b20295b48b475d2546f15ca0ab0c52b4b98dac138b7e7",
+              "terms": 319,
+              "totalDegree": 31
+            }
+          },
+          {
+            "denominator": {
+              "degrees": [
+                22,
+                18,
+                0,
+                0,
+                0
+              ],
+              "sha256": "14fe62805d1f0a67595fb93741e102b592cb0d1ae96b7df003ded0fbcb58c31f",
+              "terms": 234,
+              "totalDegree": 29
+            },
+            "numerator": {
+              "degrees": [
+                30,
+                19,
+                0,
+                0,
+                0
+              ],
+              "sha256": "9aae3d8c545e9bb79c3a46ef213cc327d2c014cd1b49847702002a38d8fcb288",
+              "terms": 391,
+              "totalDegree": 33
+            }
+          },
+          {
+            "denominator": {
+              "degrees": [
+                16,
+                18,
+                0,
+                0,
+                0
+              ],
+              "sha256": "ecf653d001dc6866d117d8e7422de1e61b7d318676fb32d922f8e796fb648b11",
+              "terms": 157,
+              "totalDegree": 26
+            },
+            "numerator": {
+              "degrees": [
+                26,
+                17,
+                0,
+                0,
+                0
+              ],
+              "sha256": "82850282ad9969a5d6bd7a3ef8114a240623c3fdcd8b33b5b4f26eba818d777e",
+              "terms": 314,
+              "totalDegree": 30
+            }
+          }
+        ]
+      ],
+      "completeOriginalN4AndP2HighestParts": true,
+      "generatorWeights": [
+        0,
+        1,
+        1
+      ],
+      "inputGrades": [
+        5,
+        5,
+        5
+      ],
+      "labels": [
+        "individual_Nlow_highest",
+        "individual_Plow_highest",
+        "entire_N4_Vlow_highest"
+      ],
+      "leadingFunctorLambdaOneNotValueSpecialization": true,
+      "newDAGNodes": 162,
+      "noD2OrPhysicalDOrGeometricLeadingInverse": true,
+      "noOldFullValueDAGOrTwoDecicCofactorExecuted": true,
+      "originalCurrentI10AllConditionsRetained": true,
+      "seconds": 0.7326592480000045,
+      "stage": "new_correct_three_full_grade_five_original_value_rows",
+      "statistics": {
+        "exactDivisionProducts": 423,
+        "newHomogeneousExtractions": 5,
+        "newProductCoordinates": 159,
+        "newTopMeanIdentityCoordinates": 3,
+        "newWholeAdjugateCoordinates": 0
+      }
+    },
+    {
+      "actualNineMultiplierCommon": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "allNineFinalPaidRingCoordinatesReturned": true,
+      "allNinePrimitiveAdjugateCoordinatesReturned": true,
+      "entireNewCoverZeroLocusKept": true,
+      "filteredLeadingRelations": [
+        "C*lambda^5",
+        "C*lambda^4*T",
+        "C*lambda^4*z"
+      ],
+      "finiteGeneratorBoundOnCoverComplement": 13,
+      "fullMatrixIdentity": "J*leading(Nlow,Plow,Vlow)=C*I3",
+      "monicLambdaPolynomialDegreeUpperBoundOnCoverComplement": 13,
+      "originalThreeGeneratorModuleNotAssumedFree": true,
+      "physicalDLocalizationOnlyPreservesFiberFiniteness": true,
+      "rawCommonScalarDenominator": {
+        "degrees": [
+          5,
+          5,
+          0,
+          0,
+          0
+        ],
+        "sha256": "199367083c90ca94cd93ed603afc33ab3339af36f7c94557ee3341d475822cd4",
+        "terms": 27,
+        "totalDegree": 7
+      },
+      "rawCommonScalarNumerator": {
+        "degrees": [
+          70,
+          46,
+          0,
+          0,
+          0
+        ],
+        "sha256": "8684cd3bc3c29e9207ed9458a044cfefe27ac492d6cdcdca20dfaa0fb7f04fa5",
+        "terms": 2139,
+        "totalDegree": 81
+      },
+      "retainedWholeWeightCover": {
+        "degrees": [
+          66,
+          44,
+          0,
+          0,
+          0
+        ],
+        "sha256": "98f2741c270a49024a4f9129bba79db629b1690dcef6eb5f2a322eaed4bc827d",
+        "terms": 1951,
+        "totalDegree": 77
+      },
+      "seconds": 1.8307758779999972,
+      "stage": "new_correct_full_three_grade_five_original_leading_certificate",
+      "statistics": {
+        "exactDivisionProducts": 516,
+        "newHomogeneousExtractions": 5,
+        "newProductCoordinates": 159,
+        "newTopMeanIdentityCoordinates": 3,
+        "newWholeAdjugateCoordinates": 18
+      },
+      "wholeCurrentEllHalfOriginalExclusionUsed": true,
+      "wholePhiExcluded": false
+    },
+    {
+      "constant": "1/118192468620711297024",
+      "factorZeroFibersAllRetained": true,
+      "factors": [
+        {
+          "degrees": [
+            66,
+            44,
+            0,
+            0,
+            0
+          ],
+          "multiplicity": 1,
+          "sha256": "4000e84820f5abbc5f25f2faf196f00f74cba7b7e4103c3d6346fe443751b240",
+          "terms": 1951,
+          "totalDegree": 77
+        }
+      ],
+      "fullExactProductReturned": true,
+      "noOldHeadFactorGateReplayed": true,
+      "seconds": 1.8511200099999883,
+      "stage": "new_grade_five_whole_matrix_weight_cover_factorization"
+    },
+    {
+      "necessaryOriginalSourceSHA256": "5ee86ff89db7c8babaf3a22c7d72570dcdfbbf92646f56adf37bff854a87ace7",
+      "necessaryPrefixSHA256": "dd105b713040712dad7cebeefb489c8e1cf53f56cb5fce8ff0de0bf681d6c669",
+      "newDAGNodes": 162,
+      "noCoefficientPayloadOrChunksSaved": true,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 50516,
+      "seconds": 1.8512966389999974,
+      "sourceSHA256": "b77bf975afb7cf3a84487c3c8543f8b467822356025bb4787bb610c100667023",
+      "stage": "new_correct_grade_five_whole_matrix_input_finished",
+      "statistics": {
+        "exactDivisionProducts": 516,
+        "newHomogeneousExtractions": 5,
+        "newProductCoordinates": 159,
+        "newTopMeanIdentityCoordinates": 3,
+        "newWholeAdjugateCoordinates": 18
+      }
+    }
+  ],
+  "result_scope": {
+    "whole_C77_complement_original_necessary_module_generators": 13,
+    "whole_C77_zero_locus_retained": true,
+    "C77_total_degree": 77,
+    "C77_degrees_u_Q": [
+      66,
+      44
+    ],
+    "C77_QQ_irreducible": true,
+    "absolute_irreducibility_claim": false,
+    "whole_Phi_excluded": false,
+    "physical_D_localization_not_claimed_finite_over_weights": true,
+    "coordinate_bound_scope": "necessary lambda,T,z algebra; not a full independent U0 scale length",
+    "no_old_wrong_compact_result_restored": true
+  }
+}
