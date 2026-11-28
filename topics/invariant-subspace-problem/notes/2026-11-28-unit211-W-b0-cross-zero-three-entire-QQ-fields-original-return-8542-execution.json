@@ -1,0 +1,450 @@
+{
+  "schema": "isp-new-original-three-entire-weight-fields-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_utc": "2026-11-28",
+  "source": {
+    "basename": "2026-11-28-unit211-W-b0-cross-zero-three-entire-QQ-fields-original-return-8542.py",
+    "key": "W0_new_bzero_crosszero_three_domains_source_final",
+    "suffix": "source",
+    "blob": "cb71afd8110144442d76adac3039d1cbf64d083f",
+    "bytes": 21236,
+    "sha256": "b5e9d1e1c19e15041f039f808b8cb65e26bd48cc4374ed84e6081f3b7afeb31c"
+  },
+  "input": {
+    "key": "W0_new_bzero_crosszero_three_domains_input",
+    "suffix": "input",
+    "blob": "f28088ec0dd0afd60bed5b1b1d2c5985298273e2",
+    "bytes": 9369,
+    "sha256": "3fe97287cf1905acd16a9a25b0c6daf90f14b3c900c215888b4581c316c1d4df"
+  },
+  "run_id": 46146501483,
+  "job_id": 140983618445,
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46146501483/job/140983618445",
+  "execution": {
+    "elapsed_seconds": 0.772347632999999,
+    "max_child_rss_kib": 42776,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d55e01b236738ef8ee24dc521f92c1fe3544acdf",
+        "before": "4e7c32d3af61136a65750e9761e3ab08b73b00fd",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T12:49:02.035953+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46146501483",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4e7c32d3af61136a65750e9761e3ab08b73b00fd",
+    "source_exit_code": 0,
+    "source_git_blob": "cb71afd8110144442d76adac3039d1cbf64d083f",
+    "source_sha256": "b5e9d1e1c19e15041f039f808b8cb65e26bd48cc4374ed84e6081f3b7afeb31c",
+    "stdout_bytes": 8764,
+    "stdout_sha256": "e2f864460cf02afb502f033397a007f66b0ec4fe05b2123c728a9596dd99dc41",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "necessaryPrefixBytes": 10695,
+      "necessaryPrefixSHA256": "ceecdcd9fcc81892ea2ad0c2918423ae283d1afbe63a2198583189e2b1e4ebeb",
+      "rawFiveNames": [
+        "E1",
+        "EBe",
+        "EBo",
+        "N1",
+        "q2"
+      ],
+      "rawFiveDegrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "noOldNuProjectionOrCoverGcdRegenerated": true,
+      "stage": "new_crosszero_three_fields_original_definitions_ready",
+      "seconds": 0.5520025779999997
+    },
+    {
+      "factors": [
+        {
+          "name": "linear_minus_five_quarters",
+          "degree": 1,
+          "terms": 2,
+          "bytes": 37,
+          "sha256": "9b702a5320030eb66ea9572167b2589cb503a6035fd67b350256e6248dcbe9ec"
+        },
+        {
+          "name": "linear_one_sixth",
+          "degree": 1,
+          "terms": 2,
+          "bytes": 38,
+          "sha256": "c708effec8346a565d2ecf2264cb6635e4adeffe15c1ec12f222a57378d441ed"
+        },
+        {
+          "name": "entire_cubic",
+          "degree": 3,
+          "terms": 4,
+          "bytes": 77,
+          "sha256": "bf8d54f313b63c7f42b5f24b2bfc31e789f1c65ca2b4c5fd5bf3b8be236675b2"
+        }
+      ],
+      "product": {
+        "degree": 5,
+        "terms": 6,
+        "bytes": 134,
+        "sha256": "9f9544b1500bc385df9f8a04d4693c3895655712721661a109854be0845ea8d2"
+      },
+      "allFourPublishedParameterSHAsMatch": true,
+      "noOldFactorizationOrProjectionRun": true,
+      "stage": "new_crosszero_exact_three_small_parameters",
+      "seconds": 0.5522725289999997
+    },
+    {
+      "factor": "linear_minus_five_quarters",
+      "inputIndex": 0,
+      "head": {
+        "nuDegree": 8,
+        "constantFieldDegree": 1,
+        "bytes": 157,
+        "sha256": "87ea8c408e6ae3d8be7acaca4af283e7cbb4e18dcd27a252cedb844db3cf04ea"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.5628429990000008
+    },
+    {
+      "factor": "linear_minus_five_quarters",
+      "inputIndex": 1,
+      "head": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 39,
+        "sha256": "7ca473919952f14eaa205d1d978053c9f4c3ebd5db703eadbc7ab9f6f4808a93"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.5662766960000027
+    },
+    {
+      "factor": "linear_minus_five_quarters",
+      "inputIndex": 2,
+      "head": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 39,
+        "sha256": "7ca473919952f14eaa205d1d978053c9f4c3ebd5db703eadbc7ab9f6f4808a93"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.5675131310000019
+    },
+    {
+      "factor": "linear_minus_five_quarters",
+      "originalHead": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 39,
+        "sha256": "7ca473919952f14eaa205d1d978053c9f4c3ebd5db703eadbc7ab9f6f4808a93"
+      },
+      "retainedNu": {
+        "nuDegree": 0,
+        "constantFieldDegree": 1,
+        "bytes": 7,
+        "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104"
+      },
+      "removedOldPaidComponents": [
+        {
+          "paidSupport": "original_ell",
+          "gcdLayers": 1
+        },
+        {
+          "paidSupport": "original_P02",
+          "gcdLayers": 1
+        }
+      ],
+      "allRetainedNuMultiplicitiesIncluded": true,
+      "stage": "new_crosszero_whole_field_complete_paid_component_return",
+      "seconds": 0.5835741720000023
+    },
+    {
+      "factor": "linear_minus_five_quarters",
+      "oldPaidPositiveTarget": {
+        "nuDegree": 4,
+        "constantFieldDegree": 1,
+        "bytes": 74,
+        "sha256": "5257d27ab2ebe1362b14ec6c498030cbd698243e2abb2fced0afcef25fce8e5f"
+      },
+      "completeThreeOriginalRationalHeadsReturned": true,
+      "wholeFieldExcluded": true,
+      "noNewNuOrGeometricInverse": true,
+      "statistics": {
+        "constantInverseProducts": 120,
+        "nuDivisionProducts": 43,
+        "nuBezoutProducts": 16,
+        "originalThreeHeadReturns": 5,
+        "oldPaidComponentProducts": 4,
+        "weightAlgebraInverseProducts": 0,
+        "fullOriginalFCoordinates": 0,
+        "QQInverseCoordinates": 0,
+        "wholeOriginalMatrixCoordinates": 0,
+        "targetMatrixCoordinates": 0,
+        "fullOriginalTargetCoordinates": 0
+      },
+      "stage": "new_crosszero_whole_u_field_original_paid_unit_return",
+      "seconds": 0.5961497090000023
+    },
+    {
+      "factor": "linear_one_sixth",
+      "inputIndex": 0,
+      "head": {
+        "nuDegree": 8,
+        "constantFieldDegree": 1,
+        "bytes": 128,
+        "sha256": "eb0baa417af54d34743ef2e21596ee80563c572eef5b7408dee643b063881183"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.6098731900000018
+    },
+    {
+      "factor": "linear_one_sixth",
+      "inputIndex": 1,
+      "head": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 40,
+        "sha256": "40bf983610cfe4e088ce1e0e7ebf448915d35fd9c9a1e990da9d0a4470e71f42"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.6128921110000007
+    },
+    {
+      "factor": "linear_one_sixth",
+      "inputIndex": 2,
+      "head": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 40,
+        "sha256": "40bf983610cfe4e088ce1e0e7ebf448915d35fd9c9a1e990da9d0a4470e71f42"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.6139613980000007
+    },
+    {
+      "factor": "linear_one_sixth",
+      "originalHead": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 40,
+        "sha256": "40bf983610cfe4e088ce1e0e7ebf448915d35fd9c9a1e990da9d0a4470e71f42"
+      },
+      "retainedNu": {
+        "nuDegree": 0,
+        "constantFieldDegree": 1,
+        "bytes": 7,
+        "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104"
+      },
+      "removedOldPaidComponents": [
+        {
+          "paidSupport": "inverse_coordinate_d",
+          "gcdLayers": 1
+        },
+        {
+          "paidSupport": "original_P02",
+          "gcdLayers": 1
+        }
+      ],
+      "allRetainedNuMultiplicitiesIncluded": true,
+      "stage": "new_crosszero_whole_field_complete_paid_component_return",
+      "seconds": 0.6298537280000005
+    },
+    {
+      "factor": "linear_one_sixth",
+      "oldPaidPositiveTarget": {
+        "nuDegree": 3,
+        "constantFieldDegree": 1,
+        "bytes": 46,
+        "sha256": "58160aec37c3bc6a8e17e8d159fa24fa5b933887cd73a308d8c5220ed908c4bf"
+      },
+      "completeThreeOriginalRationalHeadsReturned": true,
+      "wholeFieldExcluded": true,
+      "noNewNuOrGeometricInverse": true,
+      "statistics": {
+        "constantInverseProducts": 116,
+        "nuDivisionProducts": 41,
+        "nuBezoutProducts": 16,
+        "originalThreeHeadReturns": 5,
+        "oldPaidComponentProducts": 4,
+        "weightAlgebraInverseProducts": 0,
+        "fullOriginalFCoordinates": 0,
+        "QQInverseCoordinates": 0,
+        "wholeOriginalMatrixCoordinates": 0,
+        "targetMatrixCoordinates": 0,
+        "fullOriginalTargetCoordinates": 0
+      },
+      "stage": "new_crosszero_whole_u_field_original_paid_unit_return",
+      "seconds": 0.6420683189999998
+    },
+    {
+      "factor": "entire_cubic",
+      "inputIndex": 0,
+      "head": {
+        "nuDegree": 8,
+        "constantFieldDegree": 3,
+        "bytes": 329,
+        "sha256": "57ecae0f63f14078da6e196bcb1eac976fd56e0d296cb5abfe8506dc85393a8f"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.654739548000002
+    },
+    {
+      "factor": "entire_cubic",
+      "inputIndex": 1,
+      "head": {
+        "nuDegree": 3,
+        "constantFieldDegree": 3,
+        "bytes": 86,
+        "sha256": "4244eb73d6e4fcf3f4e9104b2c41b2099d6b61615b0111b9cc8421b7140b71bc"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.6604813210000025
+    },
+    {
+      "factor": "entire_cubic",
+      "inputIndex": 2,
+      "head": {
+        "nuDegree": 3,
+        "constantFieldDegree": 3,
+        "bytes": 86,
+        "sha256": "4244eb73d6e4fcf3f4e9104b2c41b2099d6b61615b0111b9cc8421b7140b71bc"
+      },
+      "allNuLeadingDropsRetained": true,
+      "exactThreeNumeratorCombinationReturned": true,
+      "stage": "new_crosszero_whole_field_three_head_nu_gcd",
+      "seconds": 0.6618732770000015
+    },
+    {
+      "factor": "entire_cubic",
+      "originalHead": {
+        "nuDegree": 3,
+        "constantFieldDegree": 3,
+        "bytes": 86,
+        "sha256": "4244eb73d6e4fcf3f4e9104b2c41b2099d6b61615b0111b9cc8421b7140b71bc"
+      },
+      "retainedNu": {
+        "nuDegree": 0,
+        "constantFieldDegree": 3,
+        "bytes": 15,
+        "sha256": "b18dc5bfc8a9128436d09525f6d09d9be9e9df1042309f01d9535a3b65948cfe"
+      },
+      "removedOldPaidComponents": [
+        {
+          "paidSupport": "original_delta",
+          "gcdLayers": 1
+        },
+        {
+          "paidSupport": "original_P02",
+          "gcdLayers": 1
+        }
+      ],
+      "allRetainedNuMultiplicitiesIncluded": true,
+      "stage": "new_crosszero_whole_field_complete_paid_component_return",
+      "seconds": 0.6858815240000027
+    },
+    {
+      "factor": "entire_cubic",
+      "oldPaidPositiveTarget": {
+        "nuDegree": 3,
+        "constantFieldDegree": 3,
+        "bytes": 141,
+        "sha256": "40d8b49cf6ea61733dde8cf1ec3c6f567a6e38f04d091f9ab00d80ec44efb766"
+      },
+      "completeThreeOriginalRationalHeadsReturned": true,
+      "wholeFieldExcluded": true,
+      "noNewNuOrGeometricInverse": true,
+      "statistics": {
+        "constantInverseProducts": 116,
+        "nuDivisionProducts": 41,
+        "nuBezoutProducts": 16,
+        "originalThreeHeadReturns": 5,
+        "oldPaidComponentProducts": 4,
+        "weightAlgebraInverseProducts": 0,
+        "fullOriginalFCoordinates": 0,
+        "QQInverseCoordinates": 0,
+        "wholeOriginalMatrixCoordinates": 0,
+        "targetMatrixCoordinates": 0,
+        "fullOriginalTargetCoordinates": 0
+      },
+      "stage": "new_crosszero_whole_u_field_original_paid_unit_return",
+      "seconds": 0.7042461440000025
+    },
+    {
+      "sourceSHA256": "b5e9d1e1c19e15041f039f808b8cb65e26bd48cc4374ed84e6081f3b7afeb31c",
+      "fields": [
+        {
+          "factor": "linear_minus_five_quarters",
+          "excluded": true,
+          "reason": "complete_original_heads_paid_unit"
+        },
+        {
+          "factor": "linear_one_sixth",
+          "excluded": true,
+          "reason": "complete_original_heads_paid_unit"
+        },
+        {
+          "factor": "entire_cubic",
+          "excluded": true,
+          "reason": "complete_original_heads_paid_unit"
+        }
+      ],
+      "wholeCurrentCrossZeroExcluded": true,
+      "originalG5HasAllThreeSimpleQQFactors": true,
+      "noWholeBzeroOrWholeWEmptinessClaim": true,
+      "allUnreturnedFieldsRetained": true,
+      "maxRssKiB": 42776,
+      "noOldProjectionFactorOrPositiveTargetReplayed": true,
+      "noLargeCoefficientPayloadOrCacheWritten": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_crosszero_three_entire_constant_fields_finished",
+      "seconds": 0.7066807780000026
+    }
+  ],
+  "exact_scope": {
+    "chart": "current correct W distinct-singleton physical D != 0, existing paid weight chart, b0 = 0",
+    "whole_cross_zero_excluded": true,
+    "three_original_weight_heads_generate_unit_ideal": true,
+    "proof": "previous G in the original three-head ideal, three full QQ factors each returned an old-paid unit; CRT then gives 1 in that ideal",
+    "global_CRT_coefficients_expanded_in_this_run": false,
+    "det_one_full_bzero_I4_presentation": "I4=(f+g,g^2-q1*g+q0,mu.A,wtilde.A-lambda*g), wtilde.B0=0 and wtilde.B1=1",
+    "whole_bzero_excluded": false,
+    "whole_W_excluded": false,
+    "ordinary_ISP_claim": false,
+    "new_point_bound_claim": false,
+    "downstream_finite_weight_algebra_started": false,
+    "downstream_lambda_matrix_started": false,
+    "downstream_five_original_row_target_started": false,
+    "downstream_D_power_target_started": false
+  },
+  "coefficient_policy": {
+    "large_coefficients_or_matrix_cache": false,
+    "only_source_parameter_definitions_hashes_and_small_records": true
+  }
+}

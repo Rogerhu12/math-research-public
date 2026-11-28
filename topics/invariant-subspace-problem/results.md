@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- [R150：W/b0整个交叉头零支排除与全局det=1原I4](results/R150-appendix-unit211-W-b0-cross-zero-complete-original-weight-unit-and-global-det-one-I4.md)：cb71首次0.772347633秒/0，三个完整常数域中原三B1的ν-gcd均8→3→3，旧paid支持删尽后实际原单位返回。结合旧G5用CRT得(B11,B21,B31)=A_W；纯权可逆行变换给全b0四式精确呈示，不反演G或几何头。b0仍未排空。
+
 - [R150：正确Phi的整NPV五次最高矩阵C77与十三生成图](results/R150-appendix-unit211-Phi-zero-corrected-NPV-five-whole-leading-C77-and-thirteen-generators.md)：首次实际1.893733044秒/0，九伴随乘子、十八坐标及QQ因式完整返回；C77总77、双度66/44、1951项，QQ不可约且重数一。C开图必要(λ,T,z)代数十三生成、λ首一次数≤13，C0整曲线保留；独立U0另计。
 
 - [R150：h=k/Δ0的约化399维权基与4788维Artin包络](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)：固定17行列式单赋值、P的u³头λ度≤28给必要基代数K99×K300；Q²头度8为整域单位，倒z三次/ρ二次给含重数长度≤4788。仅明列比值/Gram坐标，独立U0另添三次≤14364；两域尚未排空。
