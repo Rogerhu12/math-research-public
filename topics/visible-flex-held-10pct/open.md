@@ -8,7 +8,7 @@
 
 原v2/v3/v4失败链不原样重跑；v5以δ替首phase的metric-only输入不能晋级。R72兼容标量及实际δ/Robin响应仍可改变设计，入口基Gram可逆不替完整边值问题。λ<1没有准确圆弧保护H，δ/mean变化是设计而非固定g精化。
 
-新合法设计输入：[三重b=.5宽过渡](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，S=.5/k=.2与原R54握持窗不变；条件完整support盒A≤2/3给全λ核心κ<11.4，真实小q锚A<.1。只有小标量BigInt已运行，新核心/BVP未启动。由真21d676/3bc1c05 raw作新宽窗λ.002初猜，同b下取.004第二锚后续原全λ/谱门；新g若最终全标准通过可选为终态，不强制回旧q/b。[高k旧profile实筛](notes/2026-11-28-design-higher-k-old-profile-screen.md)已排除k=.4/.5所选经典支，k=.45用R57；只属R5/C³类。后续改物理profile，不再跑这几条已排旧支。 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)已给六段单缓坡新profile，k=.5/S=.675/b=.3/α=.8，原r≤1.1盒的连续核心/首圆片/全首周期尺寸与条件held/reach预算已付。[新r≤1.15盒](notes/2026-11-28-design-single-gentle-r115-extension.md)与[原Python线性根](notes/2026-11-28-design-single-gentle-linear-root-actual.md)已实付，δ=.06809451565377872；现在接同新profile的原λ0全BVP及λ1，线性校准与条件几何本身不作完成。
+新合法设计输入：[三重b=.5宽过渡](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，S=.5/k=.2与原R54握持窗不变；条件完整support盒A≤2/3给全λ核心κ<11.4，真实小q锚A<.1。只有小标量BigInt已运行，新核心/BVP未启动。由真21d676/3bc1c05 raw作新宽窗λ.002初猜，同b下取.004第二锚后续原全λ/谱门；新g若最终全标准通过可选为终态，不强制回旧q/b。[高k旧profile实筛](notes/2026-11-28-design-higher-k-old-profile-screen.md)已排除k=.4/.5所选经典支，k=.45用R57；只属R5/C³类。后续改物理profile，不再跑这几条已排旧支。 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)已给六段单缓坡新profile，k=.5/S=.675/b=.3/α=.8，原r≤1.1盒的连续核心/首圆片/全首周期尺寸与条件held/reach预算已付。[新r≤1.15盒](notes/2026-11-28-design-single-gentle-r115-extension.md)与[原Python线性根](notes/2026-11-28-design-single-gentle-linear-root-actual.md)已实付，δ=.06809451565377872；现在接同新profile的原λ0全BVP及λ1，线性校准与条件几何本身不作完成。[R91](results/R91-period-mean-compensation-and-wider-core-box.md)又以准确总曲率把核心充分盒扩为A≤8/9、全λ κ<3723/314；实际新场仍须自行付其余门。
 
 ## 2. 完整非线性尾及共同接缝
 

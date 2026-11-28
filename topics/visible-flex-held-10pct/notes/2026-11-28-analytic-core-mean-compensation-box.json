@@ -1,0 +1,90 @@
+{
+  "scope": "R91 exact scalar proof, no field recomputation",
+  "actual_terminal": {
+    "exec_chunk": "286b1f",
+    "exit_code": 0
+  },
+  "actual_record": {
+    "status": "proved_exact_scalar_core_budget",
+    "source_sha256": "8278c20e4a06596133361f620954e7382682ce5734eda685b4619fe2e7d2780a",
+    "scope": "Only the exact R53 core curvature for the R87 rational window and curvature_blend=1; no new field or complete-surface claim",
+    "source_definitions": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R53-material-flattening-homotopy-and-positive-domain.md": "93ddfd16d31300516aa9299c13482e9bf7054c5c58ef77c488410fd89faf516e",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R87-single-gentle-ramp-half-curvature-held-window.md": "a761567e983fe24d4f1c2840a8ecef837d71396aa57085d19aeac6bfbd80397b",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20"
+    },
+    "rational_parameters": {
+      "weighted_support_sum_upper": "8/9",
+      "target_curvature": "1/2",
+      "halfwidth": "27/40",
+      "transition": "3/10",
+      "window_integral": "33/20",
+      "period_lower_strict": "111/53",
+      "homotopy_interval": [
+        "0",
+        "1"
+      ]
+    },
+    "pi_lower_witness": {
+      "method": "Machin identity and four-term alternating lower atan(1/5), upper atan(1/239)<1/239",
+      "exact_tan_4atan5": "120/119",
+      "lower": "1231847548/392109375",
+      "lower_minus_333_over_106": "3418213/41563593750"
+    },
+    "original_window": {
+      "coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "126",
+        "-420",
+        "540",
+        "-315",
+        "70"
+      ],
+      "integral": "1/2",
+      "derivative": "630*t^4*(1-t)^4; nonnegative on [0,1]"
+    },
+    "exact_margins": {
+      "material_window_fit": "153/2120",
+      "period_minus_window": "471/1060",
+      "original_curvature_above_target": "1/34",
+      "core_curvature_ceiling": "348/785"
+    },
+    "exact_conclusions": {
+      "original_rho_interval": [
+        "1/9",
+        "17/9"
+      ],
+      "original_curvature_interval": [
+        "9/17",
+        "9"
+      ],
+      "compensation_lower": "0",
+      "compensation_upper_strict": "897/314",
+      "full_homotopy_curvature_lower": "1/2",
+      "full_homotopy_curvature_upper_strict": "3723/314",
+      "old_support_sum_gate": "2/3",
+      "enlarged_support_sum_gate": "8/9"
+    },
+    "actual_field_recomputed": false,
+    "binary64_quadrature_core_certified": false,
+    "BVP_gates_changed": false,
+    "true_tail_or_fixed_g_refinement": false,
+    "full_surface_geometry_or_held_completed": false
+  },
+  "actual_output": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r91-core-mean-compensation-exact-20261128.json",
+    "sha256": "4b01359061dbb73bfef48eee30a85b44de94b2db068d6287e2d9b5c74d5e7cf9"
+  },
+  "proof": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R91-period-mean-compensation-and-wider-core-box.md",
+    "sha256": "4fccb7f19a330c0832e6480bfb88cd1924e433b0549453eba49e1e74cee5e1e4"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/certify_core_mean_compensation_box.py",
+    "sha256": "8278c20e4a06596133361f620954e7382682ce5734eda685b4619fe2e7d2780a"
+  }
+}

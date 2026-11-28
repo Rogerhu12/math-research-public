@@ -247,3 +247,7 @@ R86 后续实际入口：[当前CLI修复与真实完整构造器](notes/2026-11
 ## R90. 同一实际完整闭图的全域、全相位连续 metric
 
 [完整证明](results/R90-complete-closed-all-phase-metric.md)。原1152段/18460 spans 已全部覆盖：17644旧成功证书直接复用、816原缺项由817个同图 Taylor 叶付清；3122文件身份核同。canonical和R89各自固定目标均有全metric≤9.97128585114805e−7<1e−6，真实v4/collector/传递全部exit0。旧λ.002/raw-H、原audit和K<10 false保持，准确λ1/held10%及同g精化仍未付。
+
+## R91. 总曲率约束扩大核心支持盒
+
+[完整证明](results/R91-period-mean-compensation-and-wider-core-box.md)。用原扇区准确总曲率而非逐点最大值得β<897/314；R87的k=1/2、S=27/40、b=3/10下，只需A≤8/9便有所有λ的1/2≤κ<3723/314<12.3，严格余量348/785。原窗口/定义不改，全Fraction源真实exit0；这是原核心充分盒扩大，不代替具体binary64误差、完整曲面或固定g精化。
