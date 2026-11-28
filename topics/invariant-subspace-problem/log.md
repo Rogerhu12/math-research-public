@@ -73,3 +73,9 @@
 - d20becf/e91a全文根静核：真dual Gram的E1/EB/EC、完整N1/E3/NV来源；qs/qt两旧单位首一，先t后sigma普通除法的完整tag正确，二十列每列四坐标返回，三个事前固定adj e0无主元逆。
 - 首次120秒/1GiB外135，七真实原分子反传后才公共取消，保头零；无第一头gcd/二Q/旧门重放。新增题外workflow .github/workflows/invariant-subspace-8542-phi-second-nv-t-head-four-generator-columns.yml 仅运行本题新源，未执行前不报实际次数/单位。
 - 负e正k整对角纸稿正在全文原式核，最后正e负k对角、正e零k余中心和Haar实际双源继续；普通ISP未完成。
+
+2026-11-29 01:24 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2105实际main 7655c08e832cc748f1fa63c4487b3f8b2a07f5c5，run46170024143/job141056104319；17:21:43 UTC pull ff062c58895525d81177803b3efebc730c5df269两README无变，私库QUEUE核进行中，新Phi四元首派dispatch204。
+- aacd84整对角稿全文根纸核：Q一般由原B3及q2得n²+n+1与q2(10+n)/13，完整N5同K首值再原R6余850；Q−2以β保全部V下降，唯一ell/e4=9/8被N5极项排。
+- Q2的L=ell/u全部估值、B=M/u²下降wB与a所有比较、C*全部相消通过原D=MS保；最深M/u=−4L²后R6排μpole，完整N5/R6的整μ两式经同源代数得275μ+493与2μ²+7μ+7，余863。无新运行/分母首项假设。
+- 只余正e负k对角、正e零k剩余中心和内部/分母DVR；新Phi run46170068898显示完成，待实际日志不以绿色报数学成功。Haar真实双源继续；普通ISP未完成。
