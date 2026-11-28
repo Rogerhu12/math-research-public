@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原超奇异Brandt格的两个Hecke共同核（已证明）**：[R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)晶体整格保原倒向同源，Bℓ=ℓ^dTℓ；具体有限整序提升至权14/10的p-new形式，Saito/Caruso惯性界排ω¹⁴⊕ω⁻¹及ω¹²⊕ω⁻³，故余有限算子族生成单位理想。一般原Z0有实际s¹⁴提升依赖；有限格实现与足够实际辅助素数尚需证明，未据非齐次方程宣Z0=0。
+
 - **原Gaussian八次矩前两槽的完整Appell读取（已证明）**：[高窗 §9](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原R3/R4函数身份保全部乘积和常数，严格安全窗给G_(p²−8p−1)=−d1/β、G_(p²−6p−3)=−6c3/β³。代入原binomial与基得到−d1/β·η⁸−56c3/β·ω²η⁶；余三槽、联合非零及未平滑继续。
 
 - **原第二中央Π2的完整raw源与实际Frobenius（已证明）**：[R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)degree8 S/U恒等式乘原Weil²构造同根correlation；原nonlinear SDR后完整BCH/ordered读数由R1168同核B_kl经实际Π2给出。isogeny额外n⁻²使V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，n2的v_n,2仅含3/5/7/13；完整crossed/arith未平滑已接上，但局部B_n及最低Π4/λ仍保。

@@ -68,7 +68,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原全部cone的SDR/H0=H2=0已付，只读normal0/t+k。§§10–11原V′_i直接给c_dk=binom(d,k)b_E^k/(k+1)、m_dk=p²−1−pd+(p−1)k，A=(4−2⁻d)cG_m，A′i=c(2σG_m(E/C_i)−2⁻dG_m)；商用实际Vélu ω_i且σ保留，不套同CM基。ΣA′=A，故B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}。全部高G整性、original/primed尺度及原最高corr加权值已成，未宣单位；原未平滑和Π2/4继续。
 
-[原Gaussian高窗 §§1–9](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)两位carry、实际Ψ/ζ桥和安全窗已付；G_(3p−1)=−a/(6β)单位，G_(p²−4p−1)=−H_p/(2β)。§9完整Appell三/四次身份保常数，原M8前两槽实为−d1/β·η⁸−56c3/β·ω²η⁶。其它高槽、原H_p/Δlow零支及全mask继续，不越安全界或宣未证单位。
+[原Gaussian高窗 §§1–9](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整carry/实际Ψ桥/安全窗已付；G_(p²−4p−1)=−H_p/(2β)，M8前两槽为−d1/β·η⁸−56c3/β·ω²η⁶。其余槽、H_p/Δlow联合零支及全mask保留。
 
 原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
 
@@ -89,6 +89,8 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 [R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2有完整degree8 S/U填充：Q8=R·XY(X−Y)(X²−XY+Y²)，A=f/2−Q8/28、B=Q8/42，再乘原Weil²。最高corr双线性权原样用于Π2(Uk,Ul)，actual normal q=k+l+2、J0=0；全部输入即R1168 B_kl。原isogeny中心n⁻²Sym⁸ψ⁻¹，故Zcorr=(n⁴+n⁻¹¹)Z2−ΣSym⁸ψ⁻¹Z2(E/C)；v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2对全p>37单位。实际h2=(hCorr+J_n,2+B_n,2)/v，未把算术局部值设零；Π4/λ与原F0继续。
 
 原raw第二中心及其全部matrix系数已付，不能重列为source缺口。实际未平滑仍有J_n,2/B_n,2的同源局部读取；Π4最低中心保λ∞ a4γ5，尚未由此完成。
+
+[R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格的Bℓ=ℓ^dTℓ保原归一；具体整Hecke序提升及半稳定惯性界给最高/Π2余有限算子族单位理想。只对有限格成立；原Z0一般有s¹⁴提升差，须以同abelian中央差或完整affine常数实现，且补足实际辅助素数族，不能直接令Z0=0。
 
 ## O1：原两 jet 的实际临界非零
 
