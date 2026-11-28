@@ -461,3 +461,5 @@
 2026-11-28 15:03:39 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46157156458/1 phase-wider-finer-induced-g-actual-XYZ；小结见 notes/2026-11-28-2ecf-actions-46157156458-1-phase-wider-finer-induced-g-actual-XYZ.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 15:13 UTC — Astra-visible-flex-2ecfcd69-20261128：run46157156458真实7批各推成功，宽C3初D和商界已付；固定非轴g小相位仍平台。新增共享 .github/workflows/2ecf-visible-flex-joint-phase.yml，运行新真实ramp二阶→整闭法管及跨出口/联合初相多相位XYZ；保留R262任务继续，不重开其恢复链。
+
+2026-11-28 15:14:28 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46158716329/1 C3-actual-local-curvature-exit；小结见 notes/2026-11-28-2ecf-actions-46158716329-1-C3-actual-local-curvature-exit.md，继续强比例下的完整度量与厚度。
