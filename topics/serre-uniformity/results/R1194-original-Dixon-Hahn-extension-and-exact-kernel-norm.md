@@ -1336,3 +1336,418 @@ $$
 
 本节全为纸面推导，无数学程序执行。O2 已独核 (HA.14) 与第一条 (HA.16)；
 其余显示来源由本节逐式给出，未将尚未完成的配对排除写成结论。
+
+### 9.12. 原 literal-$N$ 双和的全部相邻项：$0\le j\le N$ 的完整安全运输
+
+日期：2026-11-28。**已证明。** 本节全为纸面恒等式，没有执行数学程序；不附加原 $e,K_4$ 非同时零断言。
+
+沿用 R1194 §9.10–9.11 的
+$$
+p=6N+5\ge41,\qquad k=N+1,\qquad
+C_N=\frac{(2/3)_N}{N!},
+$$
+$$
+c_n=\frac{(-N)_n(5/6)_n(2/3)_n}
+{(4/3)_n(7/6)_n n!},\quad
+a_n=\frac{(1/6)_n}{n!},\quad
+b_n=\frac{(n!)^2}{(3/2)_n(5/3)_n},\quad
+h_n=\sum_{s=0}^n b_s a_{n-s}.
+$$
+下文无星的系数在 $\mathbb F_p$ 中读取。
+$h_{N+1}$ 仍由这个原有限卷积或原递推定义，其所有分母为单位。
+记 $H=\sum_{n=0}^N c_nh_n$、
+$H_q=\sum c_nh_n/(n+q)$、$A_q=\sum c_na_n/(n+q)$。
+
+#### 不先约化参数的有限 Whipple 恒等式
+
+对整数 $K\ge0$，固定原有理双和
+$
+W_K=\sum_{\substack{r,s\ge0\\r+s\le K}}
+u_r\frac{(-K+r)_s\,s!\,(2/3)_s}
+{(r+4/3)_s(3/2)_s(5/3)_s},
+\qquad
+u_r=\frac{(2/3)_r(1/6)_r(1/2)_r}{(4/3)_r(r!)^2}.
+$
+这是本课题
+[双 WZ 方法 DW.1](../notes/2026-11-28-original-hahn-companion-double-wz-method.md)
+的同一输入；$-K+r$ 按 literal 整数参数保留，不先约化为 $5/6+r$。
+在 $\mathbb Q$ 中定义
+$$
+C_K^*=\frac{(7/6)_K(5/6)_K}{(K!)^2},\qquad
+c_n^{[K]}=
+\frac{(-K)_n(5/6)_n(2/3)_n}
+{(4/3)_n(7/6)_n(1/6-K)_n},
+$$
+$$
+b_s^{[K]}=
+\frac{(-K)_s(s!)^2}
+{(3/2)_s(5/3)_s(5/6)_s},\qquad
+h_n^{[K]}=\sum_{s=0}^n b_s^{[K]}a_{n-s}.
+$$
+则有真正的有限恒等式
+$$
+\boxed{W_K=C_K^*\sum_{n=0}^K c_n^{[K]}h_n^{[K]}.}
+\tag{DA.1}
+$$
+
+证明：在上式固定内指标 $s$ 后，原 $r$ 和是
+$$
+{}_4F_3\!\left(
+\begin{matrix}-K+s,\;2/3,\;1/6,\;1/2\\
+-K,\;4/3+s,\;1
+\end{matrix};1\right),
+$$
+外因子为
+$$
+\frac{(-K)_s\,s!\,(2/3)_s}
+{(4/3)_s(3/2)_s(5/3)_s}.
+$$
+在 HC.31 的有限 balanced Whipple 中取
+$m=K-s,\ a=1/6,\ d=4/3+s,\ e=-K,\ f=1$。
+其 prefactor 与变换后的内和分别为
+$$
+\frac{(-K-1/6)_{K-s}(5/6)_{K-s}}
+{(-K)_{K-s}(K-s)!},
+$$
+$$
+{}_4F_3\!\left(
+\begin{matrix}-K+s,\;1/6,\;s+2/3,\;s+5/6\\
+s+4/3,\;s+7/6,\;s+1/6-K
+\end{matrix};1\right).
+$$
+没有读到 $(-K)_{K+1}$。
+将 $n=r+s$ 换序，用
+$(-K-1/6)_K=(-1)^K(7/6)_K$，
+原外因子合并成 $C_K^*c_s^{[K]}b_s^{[K]}$；
+其内第 $r$ 项恰为
+$c_{r+s}^{[K]}a_r/c_s^{[K]}$。
+全部 $0\le s\le n\le K$ 的端点均保留，得 (DA.1)。
+
+#### $K=N+1$ 的唯一真实端项
+
+先在 $\mathbb Q$ 中合并 (DA.1) 的各项，再模 $p$。
+$C_{N+1}^*$ 有一个 $p$ 因子，且
+$$
+\frac{C_{N+1}^*}{p}\equiv2C_N.
+$$
+对 $1\le n\le N$，
+$$
+C_{N+1}^*c_n^{[N+1]}
+\equiv2C_N\frac{n c_n}{n-1/6},
+\qquad
+b_s^{[N+1]}\equiv\frac{b_s}{1-6s}\quad(0\le s\le N).
+$$
+令
+$$
+t_n=\sum_{s=0}^n\frac{b_s}{1-6s}a_{n-s},
+\qquad 0\le n\le N.
+$$
+$n=0$ 行为零；$n=N+1,s<N+1$ 的合并项仍含 $p$，所以为零。
+但 $n=s=N+1$ 不能删除。它在特征零严格相消为
+$$
+E_k=\frac{(-1)^k(k!)^2(2/3)_k}
+{(4/3)_k(3/2)_k(5/3)_k},
+$$
+其中使用了
+$(1/6-k)_k=(-1)^k(5/6)_k$。
+所以
+$$
+\boxed{W_{N+1}\equiv
+E_k+2C_N\sum_{n=1}^N\frac{n c_n}{n-1/6}t_n.}
+\tag{DA.2}
+$$
+这里 $E_k$ 确为单位，但下节中它会被另一个必须保留的边界精确抵消。
+
+#### 有限伴随和首个共振项必须一起处理
+
+在特征零把 $a_n,b_n$ 保持原有理值，暂将 $t_n$ 延至 $n=k$。
+由生成式
+$$
+\sum h_nz^n=(1-z)^{-1/6}\sum b_nz^n,\qquad
+(1-6\theta)\sum\frac{b_nz^n}{1-6n}=\sum b_nz^n
+$$
+严格得到
+$$
+h_n-h_{n-1}=(1-6n)t_n+6(n-1)t_{n-1}.
+\tag{DA.3}
+$$
+在 $n=k$，$t_k$ 只有 $s=k$ 的一项有 $p$ 分母，
+故
+$$
+-p\,t_k\equiv b_k,\qquad
+h_k-h_N=b_k+6N t_N.
+\tag{DA.4}
+$$
+
+以下伴随系数直接在有限域中定义：
+$$
+q_0=0,\qquad q_{n+1}=(n+2/3)c_n\quad(0\le n\le N).
+$$
+仅在 $1\le n\le N$，可以改写
+$$
+q_n=c_n\frac{n(n+1/3)(n+1/6)}{(n-1/6)^2}.
+$$
+特别是 $q_{N+1}=-c_N/6$ 来自上述直接定义。
+**不把它说成 literal characteristic-zero
+$c_{N+1}F(N+1)$ 的值**：该截断源的 $(-N)_{N+1}$ 本来严格为零。
+对 $0\le n\le N$，直接有
+$$
+(1-6n)q_n+6nq_{n+1}
+=-\frac{n c_n}{n-1/6}.
+$$
+将 (DA.3) 作完整有限分部，再使用 (DA.4)，得
+$$
+\sum_{n=1}^N\frac{n c_n}{n-1/6}t_n
+=-\sum_{n=0}^N(n+2/3)c_n(h_{n+1}-h_n)
++(N+2/3)c_Nb_k.
+$$
+另一方面
+$$
+c_N=(-1)^N\frac{N!}{(4/3)_N},\qquad
+E_k=\frac{C_Nc_Nb_k}{3},\qquad
+2(N+2/3)=-\frac13.
+$$
+故两个端项在 (DA.2) 中准确抵消，最终
+$$
+\boxed{
+W_{N+1}\equiv
+-2C_N\sum_{n=0}^N(n+2/3)c_n(h_{n+1}-h_n)\pmod p.
+}
+\tag{DA.5}
+$$
+这不是删除端项的结果，而是两项已合并后才得到的恒等式。
+
+#### 与原有限 shifted moments 的直接接口
+
+原递推给
+$$
+h_{n+1}=
+\frac{(n+7/6)^2h_n+a_{n+1}/3}
+{(n+3/2)(n+5/3)},\qquad
+a_{n+1}=\frac{n+1/6}{n+1}a_n.
+$$
+分母在 $0\le n\le N$ 全为单位。
+将此代入 (DA.5) 并作有理部分分式，得到
+$$
+\boxed{
+\frac{W_{N+1}}{2C_N}
+=\frac56H+\frac59H_{3/2}-\frac32H_{5/3}
+-\frac5{18}A_1+\frac{40}{9}A_{3/2}
+-\frac92A_{5/3}.
+}
+\tag{DA.6}
+$$
+所用的两条分式是
+$$
+\frac{(n+2/3)(30n+41)}
+{36(n+3/2)(n+5/3)}
+=\frac56+\frac5{9(n+3/2)}-\frac3{2(n+5/3)},
+$$
+$$
+\frac{(n+2/3)(n+1/6)}
+{(n+1)(n+3/2)(n+5/3)}
+=\frac5{6(n+1)}-\frac{40}{3(n+3/2)}
++\frac{27}{2(n+5/3)}.
+$$
+
+因此即便 $e=K_4=0$、即 $U=H=0$，此邻项仍含
+$H_{3/2},H_{5/3},A_{3/2},A_{5/3}$。
+不能把 (DA.2) 的单位端项单独留下，不能把 (DA.5) 当作原第一/第四谱 jet 已排除。
+它提供的是未来 literal-$N$ telescoper 的第一个真正相邻源比较。
+
+
+#### 直到 $W_{2N}$ 的统一运输
+
+上面的首个相邻式可推广为全部安全的有限窗。对
+$0\le j\le N$，有
+$$
+\boxed{
+W_{N+j}\equiv
+\frac{(-1)^jC_N}{(1/2)_j}
+\sum_{n=0}^N(n+2/3)_j c_n\,\Delta_+^j h_n
+\pmod p,
+\qquad \Delta_+h_n=h_{n+1}-h_n.
+}
+\tag{DA.7}
+$$
+所有右端 $h$ 只读到 $N+j\le2N$。
+$j=0$ 是原 (HA.8)，$j=1$ 是 (DA.5)。
+这条恒等式保持同一素数 $p$，并未把相邻 $N+j$ 认成另一素数的原源。
+
+以下给出自足证明。写
+$$
+a=\frac56,\quad b=\frac16,\quad
+\bar c_n=\frac{(a)_n^2(2/3)_n}
+{(4/3)_n(7/6)_n n!},\quad
+R_j(n)=\frac{n^{\underline j}}{(n+a-j)_j},\quad
+d_j=(a-j)_j=(-1)^j(b)_j.
+$$
+$\bar c_n\equiv c_n$ 对 $0\le n\le N$ 成立。
+令
+$$
+t_n^{[j]}=
+[z^n](1-z)^{-1/6}
+\sum_{s\ge0}b_s\frac{(a-j)_s}{(a)_s}z^s.
+$$
+这里先在 $\mathbb Q$ 中定义；若 $n>N$，它允许一个 $p$ 分母。
+
+对 $1\le j\le N$，将 (DA.1) 的 $K=N+j$ 各项完整合并后，有
+$$
+\boxed{
+W_{N+j}\equiv
+C_N\frac{(1/3)_j}{(1/6)_j}
+\sum_{n=j}^{N+j}\bar c_nR_j(n)t_n^{[j]}
+\pmod p.
+}
+\tag{DA.8}
+$$
+等式两边各个**合并乘积**均为 $p$ 整，不能先把 $n>N$ 的
+$\bar c_n$ 约化成零。
+
+为核此范围，记 $\lambda_K=1/6-K=1-j-p/6$。
+对 $j\le n\le K$，
+$$
+\frac{C_K^*}{p}\equiv
+C_N\frac{(1/3)_j(j-1)!}{6(1/6)_j^2},\qquad
+\frac{(\lambda_K)_n}{p}
+\equiv\frac{(-1)^j(j-1)!(n-j)!}{6}.
+$$
+此外 $(-K)_n/(a-j)_n\equiv1$，两边分子因子在所读范围均为单位。
+利用
+$$
+\bar c_nR_j(n)=
+\frac{(a)_n(a-j)_n(2/3)_n}
+{d_j(4/3)_n(7/6)_n(n-j)!}
+$$
+可知 $C_K^*c_n^{[K]}$ 与右端合并权的比为 $1$ 模 $p$。
+同理 $h_n^{[K]}-t_n^{[j]}$ 对 $n\le N$ 在 $p\mathbb Z_p$ 中，
+对 $N<n\le K$ 至少在 $\mathbb Z_p$ 中。
+后一范围的合并权有一个 $p$ 零，故误差仍在 $p\mathbb Z_p$。
+$n<j$ 的原项有 $C_K^*$ 的 $p$ 零，而其余因子均整，故为零。
+
+具体地，在 $n\le K\le2N$ 范围，
+$$
+v_p(\bar c_n)=
+\begin{cases}0,&n\le N,\\2,&N<n\le K,\end{cases}
+\qquad
+v_p(R_j(n))=
+\begin{cases}0,&j\le n\le N,\\-1,&N<n\le K,\end{cases}
+$$
+且 $v_p(t_n^{[j]})\ge-1$。
+这明确支付了 (DA.8) 的全部高端合并项。
+
+#### 一个真正终止的 Saalschütz 伴随
+
+置 $\Delta_-=1-E^-$，并对序列定义
+$$
+\mathcal T_j=(n-j)\Delta_-,
+\qquad
+\mathcal T_j^*=(n-j)-(n+1-j)E^+.
+$$
+这两个算子是完整有限求和的相互伴随，边界在下节单独处理。
+定义
+$$
+q_n^{(j)}=
+\begin{cases}
+0,&0\le n<j,\\
+(n+2/3-j)_j\,\bar c_{n-j},&n\ge j.
+\end{cases}
+$$
+则有精确的有理恒等式
+$$
+\boxed{
+(\mathcal T_j^*+a)_j q^{(j)}
+=(1/2)_j(1/3)_j\,\bar c_nR_j(n).
+}
+\tag{DA.9}
+$$
+
+证明：左端展开为
+$$
+\sum_{r=0}^j(-1)^r\binom jr
+(n+a-j+r)_{j-r}(n+1-j)_r q_{n+r}^{(j)}.
+$$
+代入 $q$ 的比并合并后，它等于
+$q_n^{(j)}(n+a-j)_j$ 乘
+$$
+{}_3F_2\!\left(
+\begin{matrix}-j,\ n+2/3,\ n+a-j\\
+n+4/3-j,\ n+7/6-j
+\end{matrix};1\right).
+$$
+第二下参数严格是
+$1+(n+2/3)+(n+a-j)-(n+4/3-j)-j=n+7/6-j$，
+所以是一个真正终止的 Saalschütz 和。其值为
+$$
+\frac{(1/2)_j(1/3)_j}
+{(n+4/3-j)_j(n+7/6-j)_j}.
+$$
+再用
+$$
+q_n^{(j)}
+=\bar c_n
+\frac{n^{\underline j}(n+4/3-j)_j(n+7/6-j)_j}
+{(n+a-j)_j^2}
+$$
+得 (DA.9)。$n<j$ 时使用展开的合并式，其各个可能越过 $j$ 的项
+都带 $(n+1-j)_r$ 的零，故两边均为零；没有除该零因子。
+
+另一方面有精确的系数恒等式
+$$
+\boxed{
+(\mathcal T_j+a)_j t^{[j]}
+=d_j\,\Delta_-^j h.
+}
+\tag{DA.10}
+$$
+先由 $(\theta+a-j)B^{[j]}=(a-j)B^{[j-1]}$ 及
+$t^{[j]}=(1-z)^{-1/6}B^{[j]}$ 读出
+$$
+((n-j)\Delta_-+a)t_n^{[j]}
+=(a-j)\Delta_-t_n^{[j-1]}.
+$$
+恒等式
+$$
+\Delta_-\big((n-j)\Delta_-+a\big)
+=\big((n-j-1)\Delta_-+a+1\big)\Delta_-
+$$
+逐次给出 (DA.10)，所有 factors 是同一个 $\mathcal T_j$ 加常数，次序相容。
+
+#### 全部高端补偿在有限 Green 式中消失
+
+对 (DA.9) 与 $t_n^{[j]}$ 在 $0\le n\le K=N+j$ 上配对。
+下端 $q_0^{(j)},\ldots,q_{j-1}^{(j)}$ 都为零。
+上端每一个 Green 项都含
+$$
+q_{K+r}^{(j)}
+=(N+r+2/3)_j\,\bar c_{N+r},\qquad1\le r\le j.
+$$
+其中 $\bar c_{N+r}$ 有两个 $p$ 零，而所乘 $t$ 只读到 $K$，
+至多一个 $p$ 极。因此**每一个完整上端项都在 $p\mathbb Z_p$ 中**。
+这不同于在 (DA.8) 内提前删除有 $p$ 零的单个因子。
+
+所以 (DA.9)–(DA.10) 给
+$$
+(1/2)_j(1/3)_j
+\sum_{n=j}^{K}\bar c_nR_j(n)t_n^{[j]}
+\equiv
+d_j\sum_{n=j}^{K}q_n^{(j)}\Delta_-^jh_n.
+$$
+令 $m=n-j$，右端正是
+$$
+d_j\sum_{m=0}^{N}(m+2/3)_j c_m\Delta_+^j h_m.
+$$
+与 (DA.8) 合并，并用 $d_j=(-1)^j(1/6)_j$，得到 (DA.7)。
+
+全部参数范围是实质条件。$j\le N$ 使 $K\le2N$，
+$b_s$ 的下参数三倍因子至多 $6N+2=p-3$，两倍因子也小于 $p$；
+其他所除 Pochhammer、阶乘和 $(1/2)_j(1/3)_j$ 都是单位。
+到 $j=N+1$ 已碰到下一真实分母，本文没有延长该范围。
+
+(DA.7) 将双 WZ 请求中每个 $j\le4$ 的相邻项付到同一原 $h$ 的有限读取。
+这些行是已知系数的实际线性泛函，仍须将未来精确 recurrence 代入后核清全部强迫。
+不能从这个同源运输本身推出 $H\ne0$ 或原 $e,K_4$ 非同时零。
+
+本节主线已由 root 全文逐式复核；O2 已独核首相邻的合并端项与有限分部积分，
+并明确指出 literal 截断系数不能冒充所定义的伴随端值。
+实际双 WZ 运行与此纸面运输是两个不同结论；本节不预报该运行的证书或非零结果。

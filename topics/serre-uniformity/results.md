@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原literal双和全部安全相邻源的完整有限运输（已证明，R1194 §9.12）**：[R1194 §9.12](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)保持同一p=6N+5的literal W_K，全部0≤j≤N准确有W_(N+j)=(-1)^j C_N/(1/2)_j·Σ_(n=0)^N(n+2/3)_j c_n Δ_+^j h_n。先Q中完整Whipple；首邻唯一unit端项与首p共振边界抵消。一般j的真实balanced Saalschütz伴随及T_j对偶付全Green式，外端两个p零×至多一p极严格在pZp。h只读到2N，j=N+1不延；这给WZ全部安全shift的同原Newton矩接口，不宣两jet非同时零。
+
 - **原非标量CM辅助付principal与完整总p对角（已证明，R1179 §15）**：[R1179 §§14–15](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，现付全部奇3≤s≤p−2的c_s=βE_(s−1)Bp−s/(2sC^(s−1))，包括m₀=(p−1)/2。新取原CM α≡1 mod12、n=Nα非平方，真实一般isogeny θ_α有κ=n−n^(−m₀+1)=2n单位；全ray norm/同根/全嵌入与原normal保同一常数。先K后restrict原局部F，不添2。完整Z_p已统一含principal及−βTU^(p−3)/3+βU^(p−2)/6两carry；不除Euler/Bernoulli。principal差仍无mask，低偶R仍乘原(1−B_(p+1−2R)^(p−1))；完整Fay/邻行与actual共同纤维继续。
 
 - **原最高惯性角色全部 deck 的尖点投影整性（已证明，R1211）**：[R1211](results/R1211-original-whole-highest-character-projector-integrality.md)原q的整性现扩至整个最高σ权m²角色格Γ_all，含正/负/旧deck。R1202尾全normal消去不依deck；新增centre h=1·db/u在SS准确产生normal m、pole m的非零项，higher h只给低pole，故不能残留于UΩ modp。高PS中心分支沿原degree界同样排除，得Γ_all=qΓ_all⊕(1−q)Γ_all。正deck的πdb/u允许方向仍保，不能照搬负底单射；未宣整个R-Hodge/BT已split，继续同原Π/Φ/极化。

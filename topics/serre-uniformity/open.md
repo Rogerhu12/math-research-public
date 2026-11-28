@@ -76,6 +76,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 [R1194 §§9.10–9.11](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽统一为c_na_n/c_nh_n，e点值桥不微分。两准确Saalschütz moments、完整两条二次分母伴随及端点付HA.14–16。原有限Cauchy伴随f的极点全在求和格外，右端D零及左端B双零均保；完整u_N尾给Ag=−4u_N/9−𝒰/2+𝒰/[3(n+4/3)]。故e0时同一个原w(−1/2)=K C_N I(MZ)/(16u_N)，K₄=−3δ²Γ K C_N I(MZ)/(32v₀²u_N)，外因子全unit。I只在deg≤2N定义；Z的真实三阶强迫ζ₀/27和M的四阶伴随不同，首共振2N+1未略。共同零准确剩M(1)=I(MZ)=0，继续实际Green/contiguous余项；不以强迫或Dixon导数unit冒认配对非零。
 
+[R1194 §9.12](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)保持同一p=6N+5的literal W_K，全部0≤j≤N准确有W_(N+j)=(-1)^j C_N/(1/2)_j·Σ_(n=0)^N(n+2/3)_j c_n Δ_+^j h_n。先Q中完整Whipple；首邻唯一unit端项与首p共振边界抵消。一般j的真实balanced Saalschütz伴随及T_j对偶付全Green式，外端两个p零×至多一p极严格在pZp。h只读到2N，j=N+1不延；这给WZ全部安全shift的同原Newton矩接口，不宣两jet非同时零。
+
 [原Hahn双WZ公开请求](notes/2026-11-28-original-hahn-companion-double-wz-method.md)固定literal-N双和W_N，HC.21给w(−1/2)=−K W_N/12；换s,t三角坐标后全边界已付。仅在QQ(N)[s,t]求阶1–4的exact证书，最大210×246，两份独立恒等校验后才作固定小N转录审计；不扫prime/拟合。预算3600/90秒，完整source/request/method pins见请求。已推12fab4ff；公开run46182457620/job141094852232正在exact证书阶段，尚无数学结论，原双零仍开。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维

@@ -797,3 +797,10 @@
 - o2原源推导、o1独立CM/指数/尺度核验、root亲读Flach §§2.2.2–2.2.3及逐式核CD.5–10；纯纸面，无数学程序或旧窗口。旧R1179 §§1–14前缀逐字保留；H/open压缩前逐字归档before-principal-CM-auxiliary。
 - WZ真实公开run46182457620/job141094852232仍在exact证书阶段；运行登记已推d63a2fbbe1dec9aba4a8fca440ec0d6e968b30c0，19:43:11UTC真实pull读727df7af4e7d2d5e40beb57ad03840a8e5740ca4，两README diff空。
 - 本push规则：本地真实pull至 80d92e98a5d3bb9f817e8580ab41a381b6a8c7b3（2026-11-28T19:54:58Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1194 §9.12/DA.1–10：same p=6N+5下literal W_(N+j)全部0≤j≤N准确运输为原h的Newton差分矩。完整Q-Whipple先保n=N+1…N+j；j1的unit端项与第一p共振carry严格抵消。一般j由真的balanced终止Saalschütz付伴随，Green上边每项是p²零×至多p⁻¹极，合并后才约化；h至2N、参数所有分母界全付。
+- root独立逐式核DA1–10（全部Pochhammer、有限算子交换、外边及末系数）；o2此前核j1。候选94abe2816ad84efe860d8f80e1eebf7768433593、blob b7f0e0588eb1c566588a719915f9eefa5cc130bd；旧R1194前缀逐字保留，完整53251B。无数学程序、无新prime窗，不将同源运输或旁unit代e/K4非同时零。
+- R1179 §15已真实推0f0e663890dcefce1f26799964f95fb0bb2e10f4；19:54:58UTC真实pull读80d92e98a5d3bb9f817e8580ab41a381b6a8c7b3，双README diff空。H压缩前逐字归档before-all-Hahn-adjacent。WZ run46182457620仍运行，按真实证书回执继续。
+- 本push规则：本地真实pull至 0afc1812edd26aac51cd78e2ea2ce4202fd8dc4d（2026-11-28T19:57:45Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
