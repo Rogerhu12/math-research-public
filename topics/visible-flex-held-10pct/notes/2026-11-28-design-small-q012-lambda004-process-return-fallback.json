@@ -1,0 +1,118 @@
+{
+  "record_kind": "post_executor_disconnection_transcription_of_actual_tool_observations",
+  "original_report_bytes_recreated": false,
+  "original_large_arrays_read_or_uploaded": false,
+  "new_numerical_execution_performed_by_this_transcription": false,
+  "original_finite_design_only": true,
+  "full_nonlinear_DN_paid": false,
+  "continuous_closed_family_claimed": false,
+  "topic_completion_claimed": false,
+  "executor_unavailable_after_the_observed_terminals": true,
+  "status": "actual_q012_lambda004_M24_engineering_interruption_without_mathematical_terminal",
+  "original_local_note_json": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-design-small-q012-lambda004-process-return.json",
+    "sha256": "307d0f084bf2d25d2a69460e93956989745cd8663ec3658310828edd41c82f6f",
+    "full_text_available_in_transcription": false
+  },
+  "original_local_note_md_sha256": "a1f9ef83c74e0f5521b49039e610eacf28610834b368159ef01f8b761e69ca03",
+  "actual_command_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda004-bootstrap-command.json",
+    "sha256": "b1a2ddbfe8af4183742d5442bc053f87e9b93ecd64e2d9e92f61b01ad5cd2614"
+  },
+  "actual_controller_argv_printed_at_observer_start": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_qr_dispatch_v5.py",
+    "--controller",
+    "bootstrap",
+    "--repo",
+    "/workspace/scratch/7c4e33ee17de/math-research-public",
+    "--work",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work",
+    "--source-run",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda002_m24-literal-recovery/run.json",
+    "--outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda004-bootstrap",
+    "--qr-min-modes",
+    "1",
+    "--qr-rhs-block",
+    "32",
+    "--memory-margin-mib",
+    "512",
+    "--targets",
+    ".004",
+    "--mode-levels",
+    "24",
+    "32"
+  ],
+  "actual_numeric_driver": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py",
+    "base_driver": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_budget_driver_v2.py",
+    "rhs_block": 32,
+    "original_equations_and_all_gates_retained": true
+  },
+  "source_hashes_observed": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_budget_driver_v2.py": "bb654d72f04cc119633eaed94c8de93ba5935d39ea50a7f03c22c9346e589a47",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/observe_owned_original_command.py": "6e688fa31403e9aea5d2fc72322e8822bd3460d10fd6e9613f10399715ff37aa",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53"
+  },
+  "source_true_accepted_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda002_m24-literal-recovery/run.json",
+    "sha256": "21d676daa274a14d2fc64af746f42fcafdaa3f85b6d06201e464d7b2a359924a"
+  },
+  "actual_unfinished_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda004-bootstrap/attempt-000/run.json",
+    "sha256": "27c24a2eee17daaa8ba224cf15fc17b72be1baecf3f92999feafe32109fde361"
+  },
+  "last_full_nodal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda004-bootstrap/attempt-000/unaccepted-nodal-before-jac-0001.npz",
+    "sha256": "0fdf914d92a9dc84b45cb8ab3e3f7d92ec66c4b0faa908fbad88b161fc5add37",
+    "nodes": 615,
+    "state_components": 73,
+    "parameters": 24,
+    "parameter_scales": 23,
+    "ordinal": 1
+  },
+  "homotopy": 0.004,
+  "q": 0.012,
+  "warp_reference": 0.012,
+  "modes": 24,
+  "angular": 768,
+  "actual_resource_gate": {
+    "waited_seconds": 45,
+    "allowed": true,
+    "MemAvailable_bytes": 1945116672,
+    "required_additional_bytes": 1883198500,
+    "gate_not_lowered": true
+  },
+  "actual_original_complete_QR": {
+    "factor_count": 1,
+    "last_solve_calls": 6,
+    "newton_accepted_step_count_not_returned": true
+  },
+  "actual_original_numeric_child_returncode": -9,
+  "actual_controller_returncode": 3,
+  "tool_session_id": 22231,
+  "observer": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/small-q012-material-design-20261128/lambda004-bootstrap-observer/latest.json",
+    "actual_terminal_utc": "2026-11-28T14:21:24.077782+00:00",
+    "seconds": 135.5334943630005,
+    "kernel_joined_children_maxRSS_KiB": 524404,
+    "kernel_joined_children_user_seconds": 83.555034,
+    "kernel_joined_children_system_seconds": 1.319382,
+    "maximum_sampled_single_process_RSS_bytes": 531333120,
+    "remaining_owned_live_members": 0,
+    "leader_reaped_only_after_session_cleanup": true
+  },
+  "actual_raw_return_present": false,
+  "final_RMS_present": false,
+  "final_metric_present": false,
+  "mathematical_failure_inferred": false,
+  "lambda_bisection_performed": false,
+  "OOM_or_512MiB_limit_proven": false,
+  "kernel_peak_near_512MiB_is_only_a_followup_observation": true,
+  "latest_true_accepted_homotopy": 0.002,
+  "next_prepared_RHS16_command_was_never_spawned_before_executor_became_unavailable": true
+}

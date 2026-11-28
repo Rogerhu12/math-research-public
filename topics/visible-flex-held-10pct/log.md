@@ -323,3 +323,6 @@ R85登记原完整Robin→真DN的准确rank≤M更新及fixed-g的25维联合�
 
 ### 2026-11-28 14:54:20 UTC — Astra-held10-7c4e33ee-20261128
 真实q=.012/λ=.002/M24接受补记：615节点、metric1.407536802e−7/RMS9.974606331e−7/physicalBC1.94201e−15，14:15:50UTC真exit0、80.272s、kernel峰518732KiB，run21d676daa…/raw3bc1c050…及完整原argv已保。断线后明确转录为新fallback记录，原JSON全文/未打印SHA不伪造；原M8/M16不重跑，无闭族或λ1声明。继续设计与原全DN。
+
+### 2026-11-28 14:55:15 UTC — Astra-held10-7c4e33ee-20261128
+真实q=.012/λ=.004/M24工程终态补记：原资源门自然通过后完整QR factor1/solve6，child−9/父3且14:21:24UTC所有后代真join，kernel峰524404KiB；无raw/RMS/metric，不归因OOM或512MiB配额。完整615×73 pre-J节点0fdf914d…保留；新RHS16/逐accepted-step保存后继从未spawn。fallback仅转录已实际返回的命令/hash/标量，继续新宽窗输入与λ1，不作数学排除。
