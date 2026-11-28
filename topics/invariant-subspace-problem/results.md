@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：完整二进双和平方可除与新的闭稳定交换域](results/R12-appendix-explicit-dyadic-square-divisibility-and-new-closed-stable-commuting-domain.md)：原范数双和准确给W²=C²Z，完整喷射排W,Z∈C C′；L=C⁻¹W最大自然域真稠闭稳定，平方Z、RanC图核心。此域包含RanC也被精确排作原根域，不误把Z换成C。
+
 - [R12：原整数图迹的 Abel 连续来源与迹类拟亲和](results/R12-appendix-actual-graph-trace-abel-continuous-quasiaffinities.md)：同βn规范给实际Xρ:E→H单射稠值、连续输出与精确缩放交织；非零常数迹给原循环向量，同H图闭包却恰H²，不能当闭H交织或根。
 
 - [R150：完整NV已付M四次的原六列、两列及两个新标量](results/R150-appendix-unit211-W-full-NV-paid-M-quartic-two-columns-and-two-scalars.md)：完整原C4/Vlow组合降四次，已付M三因子乘回；native全迹、六基12系数收缩及原EW/EBo两个χ8组合全返，122.127592445秒/0。保b0与乘子公因子零面，未得新权覆盖或排空。
