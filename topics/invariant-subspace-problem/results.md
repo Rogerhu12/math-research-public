@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：整b0五原二次与六个完整权条件，PRS准确冻结](results/R150-appendix-unit211-W-b0-inverse-slope-five-original-quadrics-six-weight-conditions.md)：六原组合至124.419秒全部返回；180.082295470秒/−14，无PRS终端或纯u覆盖。保原5772权/23088点和全部零面，改接全W新NSPS输入。
+
 - [R150：三pair/三同f norm完整呈示全W原I4](results/R150-appendix-unit211-W-three-pairs-three-same-f-norms-complete-original-I4-presentation.md)：从已付纯权四源R取得ΣviBi=1，明确15项组合恢复P0，补足六核全部原理想包含方向；任意额外F的三cofactor接口亦完整等价，无新执行、无新排空。
 
 - [R150：正确Phi的完整个别N/P、全NV及二十七列I10](results/R150-appendix-unit211-Phi-zero-corrected-individual-NP-full-NV-I10-and-two-decics.md)：四原值行、八动作列、两个λ10的正式原身份和完整实际来源；16.083766749秒/0，全部头零纤维保，非有限/空。

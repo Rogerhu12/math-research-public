@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-six-scalar-complete-I4-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-b0-six-returns-PRS-frozen-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保，旧尾冻，F2或同λ F14/G13保。c0十一式/cebfb五三次全返，I11/rawBdet零面保。[六核完整原I4呈示](results/R150-appendix-unit211-W-three-pairs-three-same-f-norms-complete-original-I4-presentation.md)由同一个R=f+g、ΣviBi=1及15项平方组合证明，全部零面保；任意新F的三个同f cofactor同样完整等价，无新执行。整b0权5772/点23088未空；10ab真Gram四式+q2六固定投影/纯u PRS正幂cover唯一首次待返，180秒4GiB，不倒首项/未知u内容。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保，F2或同λ F14/G13保；c0十一式/cebfb五三次及原零面保。六核加R完整呈示I4、新F三cofactor等价已证。[10ab整b0新五二次/六权式](results/R150-appendix-unit211-W-b0-inverse-slope-five-original-quadrics-six-weight-conditions.md)末124.419秒全返，总次76/80/90/104/118/108；180.082295470秒185644KiB/−14冻结。无PRS checkpoint/终端/u-cover，不猜步数或新点界；5772权/23088规范点未空。续全W、T自由的NSPS新六原cofactor，不逆仅b0所付nu+2，不续旧PRS。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

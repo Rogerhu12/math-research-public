@@ -1,0 +1,57 @@
+{
+  "receipt": {
+    "elapsed_seconds": 180.08229547,
+    "max_child_rss_kib": 185644,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3deee59a97590d5b1e1a0380b43f120a9292de86",
+        "before": "331c0d0b37e15a6dca76e699e3ccffb40f38b2a2",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:07:12.017901+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46138332456",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "331c0d0b37e15a6dca76e699e3ccffb40f38b2a2",
+    "source_exit_code": -14,
+    "source_git_blob": "10ab59d7689994bdc5c143424ee15d942616ac2c",
+    "source_sha256": "f76c399bfccd3a6c011c8a832a251a7796a2f341f5656331011b8b334dd49f5f",
+    "stdout_bytes": 7165,
+    "stdout_sha256": "d668794ae03c509bdf66415a5bbc7bad6344f222a9c367d00a6dcb08eec349f3",
+    "stop_reason": null
+  },
+  "runId": 46138332456,
+  "jobId": 140958528347,
+  "entireActualStageLogRead": true,
+  "budgetFailureFrozen": true,
+  "completed": [
+    "All forward/inverse whole weight chart identities and original five quadrics,monic qf and q2 paid coefficient combination returned at0.3950228s",
+    "Three original pair and three same-f norm pure-lambda conditions each returned against all five original sources",
+    "All six fixed lambda projections returned against the five original sources; their degree(u,nu)/total pairs are48,61/76;52,65/80;58,73/90;66,80/104;76,90/118;68,86/108",
+    "Last completed mathematical checkpoint is sixth whole original weight projection at124.418568341s",
+    "Every reported complete projection preserved q2/head/pivot/content zero fibers and used only old paid inverses"
+  ],
+  "notReturned": [
+    "any PRS progress checkpoint",
+    "terminal PRS remainder",
+    "pure-u cover",
+    "cover power identity",
+    "QQ cover factorization",
+    "final whole-source completion stage"
+  ],
+  "noNewPointBound": true,
+  "wholeB0Excluded": false,
+  "prior5772Weights23088PointsRetained": true,
+  "notAllowed": [
+    "restart or resume this gate",
+    "larger resource budget",
+    "reordered or wrapped same failed PRS"
+  ]
+}
