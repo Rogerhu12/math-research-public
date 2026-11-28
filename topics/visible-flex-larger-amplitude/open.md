@@ -122,7 +122,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 机制及完整后继
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解已证。ε1/8显式15/b→64/(7b)，高阶代价/存在条件保，不推wholeK。[新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，八cut进working mean；26全上层和准确WholeMean cutoff/radial/leaf续作，原bubble/lift/外层Gauss保。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解已证。ε1/8显式15/b→64/(7b)，高阶代价/存在条件保，不推wholeK。[新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，八cut进working mean；[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)已刊，137pair18变119保、22runtime中20新。ε1/8/八cut/Q全定义/新校准及纯reader全plan已真接；准确WholeMean/radial/leaf续作，原bubble/lift/外层Gauss保。
 
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层已完整证明：急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet及跨机制扰动。显式转向θ替2tan(θ/2)，不推wholeK；未实施，不混25/26或继承旧凸势/校准。
 

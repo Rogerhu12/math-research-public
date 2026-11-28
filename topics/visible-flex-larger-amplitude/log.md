@@ -390,3 +390,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:22:54 UTC — 六早期终态输出完整来源ret63
 
 43 exact index/parts毛1852233B；五完整新件224124B，净1628109B。六真实run01/02/03b/04/05/06分别success/cancelled/success/cancelled/cancelled/success；官方不冒子科学成功。272原返回逐fence全SHA/字节及固定5358ca0c0a2e48f66af6be474ba1a202d6a935c3 whole恢复，158followup完整argv/entrypoint对应162保留全step，55实际queue版本/158实际入口source/59全小源参归档结论保。04 pair50/05 seed19未返、06 stage42 science0/pure1与未知typed独立保；活19以后不动，无scientific rerun。全部源表/定位/provenance/note见ret63总表。双README云核至`43a5d2a100a8a74a57d9527a6bab51afb1f16faf`无变（非pull）。
+
+## 2026-11-28 03:23:25 UTC — 26完整R725科学源码家族直接发表
+
+24全件1259411B：20新runtime1061662B，加57985B完整binding、90817B完整逐字再生、23785B说明及25162B总表。137当前角色18变119保，22runtime包含已刊seed1533deac和observer4b63c9ab；driver e1d3b068/99234B、reader3f7c9861/92783B、normalc3c07e96和helper ef1f6913双pin、Q重建完整epsilon/八cut/12端片/全模型。原均值与校准须实际重做；旧半波/aux12/bubble/lift/外Gauss保。原reader8012B整函数移入原pure binder并保所有成功/失败/partial/38snapshot；driver save_report到EOF21481B/d3396f32原字。生成Node构造未独立执行，原前后全字反演文本已闭；无AST/fixture/新门，不声称实际run/model/点/费。25不改，26参数及启动接续。双README云核至`5acad496dd3057e173ae7febe6a34cca0b382b16`无变（非pull）。
