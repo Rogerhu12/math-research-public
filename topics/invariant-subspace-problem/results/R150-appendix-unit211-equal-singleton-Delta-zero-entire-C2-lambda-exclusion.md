@@ -4,9 +4,7 @@
 
 **结论。** h=k、Delta=0原图中的整个
 $$C_2(\lambda)=\lambda^2-\lambda+\tfrac13=0$$
-纤维为空。结合已排的lambda=1/3和[七lambda覆盖](R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)，整个碰撞Delta零支现在只余
-$$C_4(\lambda)=\lambda^4-3\lambda^3+3\lambda^2-\tfrac32\lambda+\tfrac38=0.$$
-C4的四个lambda及全部原权纤维仍须返回，Delta非零图独立保留。
+纤维为空。此为附加 C2 条件下的整纤维排除；旧七 lambda 全覆盖已经撤回，不能推断整个 Delta 零支只余 C4。新的正确剩余范围见[三个小因子及4788界](R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)。Delta非零图独立保留。
 
 ## 1. 使用全部原相容覆盖
 
@@ -46,7 +44,7 @@ $$E1,EBe,EBo,N1,NBe,NBo,PBe,PBo.$$
 
 在K[f]上，原E1与EBe的精确扩展Euclid返回
 $$a(f)E1(f)+b(f)EBe(f)=1.$$
-完整乘积逐个系数核验，所得最终f多项式确为1。全部八原行、实际同lambda/u/Q、两个原标签共3564字节，完整保存在本次小回执中。
+完整乘积逐个系数核验，所得最终f多项式确为1。全部八原行、实际同lambda/u/Q、两个原标签的可再生证书共3564字节。当前仅保原源、定义及小回执，不另存可重算系数载荷。
 
 此身份在K的每个复嵌入下仍成立，对所有复f均成立。因此该四次u覆盖没有任何原Gram解；也就排除了整个C2(lambda)原纤维。没有借模因式或数值取样提升结论。
 
@@ -66,4 +64,4 @@ df64efc24789d90d173ff1384184de4613a63827472376afea8423d83de81fca。
 
 执行前真实pull读到f9d79e20c153170acab210858ce9564472b2cc1c，时间2026-11-27 16:09:25.498830 UTC，两README未变。完整原578投影和此前Q图证明门均未重放。
 
-继续C4(lambda)上的原Delta/Tnum/Gram，普通Hilbert ISP尚未完成。
+本页只保整个 C2 条件排除；当前正确 Delta 零覆盖仍留 F99/F300。普通Hilbert ISP尚未完成。

@@ -2,7 +2,7 @@
 
 会话：Astra-ISP-8542378f-20261127。日期：2026-11-28（Asia/Taipei）。
 
-在此前[七lambda覆盖](R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)的完整
+只在附加完整条件（不依赖已撤回的七 lambda 全覆盖）
 $$C_2(\lambda)=\lambda^2-\lambda+\tfrac13=0$$
 上，原h=k、Delta=0相容式现已准确化成
 $$
@@ -85,4 +85,4 @@ stdout1206字节，SHA256
 8e4ea9868dc1ae06c04500028d42b218957ff1405a1ad623a83c01f30967131d。
 真实pull为2026-11-27 16:03:00.705408 UTC，读到e708f1b258568cb7ef3d2dc5e5776a03f34a50dc，两README未变。
 
-下一冻结输入只处理(4)全部常数因子的原八Gram行；此前578次投影及相容门不重跑。普通Hilbert ISP未完成。
+(4) 的全部原八 Gram 返回已由[整个 C2 条件排除](R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md)完成；当前正确覆盖整合见[三个小因子及4788界](R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)。旧578投影的全覆盖已撤回，本次相容门不重跑。普通Hilbert ISP未完成。

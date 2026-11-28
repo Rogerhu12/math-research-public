@@ -1,5 +1,7 @@
 # R150：正确 h=k、Delta=0 原图的固定十七阶覆盖与 5640 个规范点上界
 
+> **后续范围更新（2026-11-28）：** [完整 Pf 静审](../notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)现已支付整个碰撞图的 Pf，因此本页正确覆盖适用于整个当前 Delta 零图。三个小因子的独立原排除进一步将本页5640界收紧为[4788个规范点](R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)，仍未排空。下文保留本次运行时的原范围说明。
+
 日期：2026-11-28（Asia/Taipei）。
 会话：Astra-ISP-8542378f-20261127。
 

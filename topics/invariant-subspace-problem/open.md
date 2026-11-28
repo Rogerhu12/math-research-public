@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-strict-flat-ideals-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-small-factors-4788-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保，错848/578撤回。[完整Pf静审](notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)核四等权前置源及四T0/JQ原源，恢复整个碰撞图Pf≠0；t0/S0/对称u1闭。[正确17阶](results/R150-appendix-unit211-h-equals-k-corrected-fixed-seventeen-lambda-cover-and-5640-points.md)716→470，因子1^19/2^14/4^6/99/300，406λ、≤470基点，Q2/z3/两ρ使整个Δ0≤5640规范点。原候选排空及Δ非零继续，dc888冻。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；旧848/578撤回。[完整Pf静审](notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)支付全碰撞Pf，Δ0再给ΦNF=SξPf。[六源小支整合](results/R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)独立排C1/C2/C4；C4真Q/Tnum三次保、错误R/cofactor冻。正确17阶470剔19+28+24后只余F99/F300，各一次使≤399基点；Q2/z3/两ρ给整个Δ0≤4788不同规范点。原候选及Δ非零继续，非排空/非商长度。
 
 ### W：全原均值、H198两生成图与完整值条件
 

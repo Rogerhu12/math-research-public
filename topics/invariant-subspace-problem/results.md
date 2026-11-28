@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确 h=k 的小因子排除与4788个规范点](results/R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)：六源完整静审保C1/C2/C4真Gram排除，独立隔离C4错误紧凑R；正确470覆盖仅余F99/F300各一次，399基点乘完整Q2/z3/ρ2给4788，未排空。
+
 - [R12：全喷射平坦理想严格大于实际全幂共同理想](results/R12-appendix-strict-flat-jet-and-common-power-ideals-and-actual-inverse-topology.md)：I∩CⁿC′=CⁿI且后者非闭，F⊊I、CF=F、F非范数闭；全部实际整数逆费用定义完整非范数化Fréchet代数，原同分母平方根仍未构造。
 
 - [R150：正确 Φ 整个 B=0 排除与首三真均值三生成](results/R150-appendix-unit211-Phi-zero-true-entire-Bzero-original-exclusion.md)：全K40原六式Bézout1在15.431740162秒返回，结合C76其余完整因子排尽B；真实头成为单位，得到1,T,z生成，未称自由或一般Φ空。
