@@ -492,3 +492,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §66：同一G81的全层单位、1008范数与原权归一
 
 旧G81–85整性与carry不重登记。新增同一D=S1/G(√17z)的1008倍严格全层范数及Klein原值无Teich精确S,p-unit；原Hall保G因子，同C下的正参考付全部17权缩放。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1071 §20：同一G3的标量pencil与全W8回原图
+
+原(1,u)全域生成O(F)，H¹(F)=0给W3=W2+uW2；每端八个完整2449系数W8返回加原标量t³u即得W12。九文件独立软件源已固定，40pins及真实原owner均静核，尚无1156/306运行结果。 [同编号全文](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。

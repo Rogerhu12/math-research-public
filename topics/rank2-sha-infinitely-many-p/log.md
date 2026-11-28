@@ -373,3 +373,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:38:07 UTC到4d417c06ebc1a722902b1ce4aab5b9640cbbc9a7，私库2026-11-28 13:38:01 UTC到fd1e12807e4d81554782c657b66f6e92edae75f6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47441453B/treeaa0f1c9190cd28902ddd8abbedb964be24944482，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:38:22 UTC到dfc2ab4ab7d8c8125d9ff9f94145b84285575497，私库2026-11-28 13:38:15 UTC到f519737c21b4429cd47571678404f59965debc23；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47441453B/treeaa0f1c9190cd28902ddd8abbedb964be24944482，无>5MB。
+
+## 2026-11-28 13:43:40 UTC：R1071 §20：同一G3的标量pencil与全W8回原图
+
+根手核(1,u)的所有几何点及厚极阶、完整pencil正合列与H¹(F)=0、W2/W3同一recipe的高精度延长、t⁶W2的原W8完整2449窗和t³u多项式。九个最终文件、40实际源、AST/JSON/YAML/bash逐字核；仅独立小软件工作流，原heavy路径无匹配，15+1及pending的并发仍低于20。完整H原样归档后压缩，所有旧结论及回执保留。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:43:57 UTC到c4d25c8b967b9b1523501bc60b595578ad2be333，私库2026-11-28 13:43:48 UTC到16d6a3d952d77d0d948b409d4fa3b052c362163f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47448581B/treeaf2fc5021c1006209616d8c72a8abb79956f6dba，无>5MB。
