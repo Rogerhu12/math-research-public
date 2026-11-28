@@ -1,0 +1,97 @@
+{
+  "schema": "actual-QR-final-physical-height-geometry-activity-entry-check-v1",
+  "status": "all_seven_current_source_compile_help_checks_and_mathematical_reuse_checks_passed",
+  "checks": [
+    {
+      "file": "qr_tail_actual_placement.py",
+      "source_sha256": "ff9928e281c5c7d541c2d9e994908117dfe9f21db953a20c21f2e66f19cf7be2",
+      "bytes": 19115,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 0.9993854250001277,
+      "stderr": "",
+      "usage": "usage: qr_tail_actual_placement.py [-h] --geometry-bundle GEOMETRY_BUNDLE",
+      "inherit_same_source_help_check": true
+    },
+    {
+      "file": "qr_closed_map_numeric_report.py",
+      "source_sha256": "7e10f4e7ebdcae188c94be42889fe2990d1e08dd36b66474200a14deb66c5b4b",
+      "bytes": 3578,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 1.0610855779998474,
+      "stderr": "",
+      "usage": "usage: qr_closed_map_numeric_report.py [-h] --source-run SOURCE_RUN",
+      "inherit_same_source_help_check": true
+    },
+    {
+      "file": "qr_closed_map_marker_cylinder_geometry.py",
+      "source_sha256": "6ae95abb2341a7edf80c340c47fb53f29ae2097cb0813a46951b121c1b10ed5d",
+      "bytes": 14749,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 1.2943561069996576,
+      "stderr": "",
+      "usage": "usage: qr_closed_map_marker_cylinder_geometry.py [-h] --cut-prefix-report",
+      "inherit_same_source_help_check": false,
+      "changed_from_actual_initial_sha256": "a7560ac925d7c1e2ebdc68c52bda644c526fb54beeedbc9f807e82b451d91320"
+    },
+    {
+      "file": "qr_tail_third_activity_flux_bound.py",
+      "source_sha256": "987222cc93099100cbaef63c2388cfb931b877dcaa67a361996353470dc8b530",
+      "bytes": 9303,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 1.2308813069998905,
+      "stderr": "",
+      "usage": "usage: qr_tail_third_activity_flux_bound.py [-h] --placement-report",
+      "inherit_same_source_help_check": true
+    },
+    {
+      "file": "qr_cartesian_third_activity_moment.py",
+      "source_sha256": "33143db55427c527b7e5bea9916009a0d484f95cc1dfcfd60b0a7039b322e164",
+      "bytes": 17471,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 1.6696736999999757,
+      "stderr": "",
+      "usage": "usage: qr_cartesian_third_activity_moment.py [-h] --tables TABLES --outdir",
+      "inherit_same_source_help_check": true
+    },
+    {
+      "file": "qr_cartesian_third_activity_moment_durable.py",
+      "source_sha256": "a5fad89bcaf381261a554ae43c89bd44e50b1c7c8b6423d61bb6fca8522719bd",
+      "bytes": 3515,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 1.9624491399999897,
+      "stderr": "",
+      "usage": "usage: qr_cartesian_third_activity_moment_durable.py [-h] --tables TABLES",
+      "inherit_same_source_help_check": true
+    },
+    {
+      "file": "qr_combine_closed_third_activity.py",
+      "source_sha256": "af6059bc941c7eba594a104673246c4af886caf21ac93c0b40b92a407359ee98",
+      "bytes": 12770,
+      "compiled": true,
+      "help_returncode": 0,
+      "wall_seconds": 1.390517309000188,
+      "stderr": "",
+      "usage": "usage: qr_combine_closed_third_activity.py [-h] --prefix-moment-report",
+      "inherit_same_source_help_check": false,
+      "changed_from_actual_initial_sha256": "fc860828c9505aa15d664209aff4a6c36598237f819b8439339b3c6cbc93ae06"
+    }
+  ],
+  "initial_actual_checks": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/qr-finalH-geometry-entry-check-20261128/summary.json",
+    "sha256": "0f647f01935fc5466dab50e1bacd1e41de3219ad0d6bda2a924d64f6bcc3e75d"
+  },
+  "unchanged_mathematical_blocks": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/qr-finalH-geometry-entry-check-20261128/unchanged-mathematical-blocks.json",
+    "sha256": "67cd05a4090c57322b38c62b35b29e24d92c164172a7630bcb4f458bd046ff43"
+  },
+  "mathematical_block_comparisons": 15,
+  "new_BVP_native_geometry_or_moment_executed": false,
+  "new_positive_QR_field_or_certificate_claimed": false,
+  "old_R82_R90_numeric_bounds_reused": false
+}

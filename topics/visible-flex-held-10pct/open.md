@@ -48,6 +48,8 @@
 
 [R93有限高阶相位及E(3)界](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)已将R67某个非零高阶矩接口变成有限明确相位及可代入距离系数。新λ1须真实认证其mN/AN/帽与完整R、σ；不要求预先假设m3非零，不搬旧λ.002活动矩。柱长/帽一经选定即冻结为同一g再精化。
 
+[新QR final-H完整几何/活动矩入口](notes/2026-11-28-tail-qr-finalH-geometry-and-activity-entry.md)已经修复旧raw-H/旧width/source/phase硬锁：仍须新场同完整bundle、真实共同cut、全谱/mean/两jet和原连续证明。活动矩区间两种符号均可排零，未计算新阳性。
+
 ## 5. 交付及强目标
 
 达到全部门后给多个t的完整网格生成命令、参数和SHA；按根§15可再生网格不入Git/Release，单个生成网格<5MB。说明数值与严格存在的具体差距。基础完成后继续提高held/D、δE/D并报告reach/D，不能为了结束降低标准。
