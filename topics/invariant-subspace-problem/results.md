@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi完整Vlow的第二非零纯权支持与公共曲线双次界](results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md)：079cc唯一3.530707191秒/0，新固定G14非零/总度≤730；F双次402/222、G的Q371和u642..643。两条完整模切片与保度通过整闭局部Gauss环严格给QQ公共gcd双次≤41/68，公共曲线及孤立交点继续保留。
+
 - [R150：正确Phi原N1最高极化单位与完整I6全权十三生成](results/R150-appendix-unit211-Phi-zero-corrected-original-N1-highest-unit-and-whole-I6-thirteen-generators.md)：完整六项极化在已控幂零商中为零，原N1校正−4s⁴/P02为单位；不加R6即排全部最高方向。(2,2,3)与固定21行degree5满射给原I6的13个指定单项式全权生成，物理局部化与原权曲线仍保范围。
 
 - [R12：首位符号、实际平方分式零因子与单前向列直接超不变桥](results/R12-appendix-first-bit-gauge-zero-divisors-and-single-forward-column-hyperinvariants.md)：V²=CP²给两个非零有界零因子；原连续J对称形式使An²→C与一条首位本征强列直接返回同尾超不变空间，实际PtΩ源经有界单位准确归约，含m0=0。全尾乘积余项有范数bN/4界；实际列紧性仍开。

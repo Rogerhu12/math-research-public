@@ -1,0 +1,219 @@
+{
+  "schema": "isp-corrected-phi-second-weight-support-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46156015273,
+  "job_id": 141012730204,
+  "run_attempt": 1,
+  "source": {
+    "blob": "079cc6744ab5ac9d95cc9ea649d94e7a34af9f3c",
+    "sha256": "060d321f863b93ef8d1825ca3dc86d41f12573101257b1ace3c3a6ac8e24e2f7",
+    "source_commit": "cf226ce2333689bc8202a3eacb751347cc4bd42f",
+    "input_blob": "5478dcafd3ed7a1472faad567079397d2fd6f722",
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-Vlow-second-weight-support-two-axis-comparison-8542.py"
+  },
+  "execution": {
+    "elapsed_seconds": 3.5307071910000047,
+    "mathematical_seconds": 3.455845476999997,
+    "max_child_rss_kib": 64972,
+    "source_exit_code": 0,
+    "stdout_bytes": 11684,
+    "stdout_sha256": "991fd157a07150cce8d8aa0e0cd23d3f19938f7c1d304ca5d45d2f596af38d3f",
+    "stop_reason": null,
+    "rules_reads": [
+      {
+        "after": "0481a16fa180ef7d977814267edd981ac330f4ab",
+        "before": "cf226ce2333689bc8202a3eacb751347cc4bd42f",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T14:42:26.629998+00:00"
+      }
+    ]
+  },
+  "necessary_weight_support": {
+    "ideal": "I6+(complete Vlow)",
+    "definition": "Fixed 14 by 14 Sylvester_t(integer C6,integer C8N), capacities 6,8; original ideal identity is universal adjugate.",
+    "total_degree_upper": 730,
+    "nonzero": true,
+    "retains_all_leading_zero_fibers": true,
+    "exact_Q_degree": 371,
+    "u_degree_lower": 642,
+    "u_degree_upper": 643
+  },
+  "original_F": {
+    "definition": "Previously defined fixed 12 by 12 original lambda Sylvester",
+    "total_degree_upper": 444,
+    "exact_u_degree": 402,
+    "exact_Q_degree": 222
+  },
+  "leading_witnesses": [
+    {
+      "support": "F12_original_I6",
+      "variable": "u",
+      "other_coordinate": 2,
+      "prime": 1009,
+      "QQ_degree_upper": 402,
+      "rank": 12,
+      "det_mod": 564,
+      "global_and_slice_degree_preserved": true,
+      "returned_coordinates": 144
+    },
+    {
+      "support": "G14_complete_Vlow",
+      "variable": "u",
+      "other_coordinate": 2,
+      "prime": 1009,
+      "QQ_degree_upper": 643,
+      "rank": 13,
+      "det_mod": 0,
+      "global_and_slice_degree_preserved": false,
+      "returned_coordinates": 196
+    },
+    {
+      "support": "F12_original_I6",
+      "variable": "Q",
+      "other_coordinate": 2,
+      "prime": 1009,
+      "QQ_degree_upper": 222,
+      "rank": 12,
+      "det_mod": 992,
+      "global_and_slice_degree_preserved": true,
+      "returned_coordinates": 144
+    },
+    {
+      "support": "G14_complete_Vlow",
+      "variable": "Q",
+      "other_coordinate": 2,
+      "prime": 1009,
+      "QQ_degree_upper": 371,
+      "rank": 14,
+      "det_mod": 592,
+      "global_and_slice_degree_preserved": true,
+      "returned_coordinates": 196
+    }
+  ],
+  "fixed_axis_comparisons": [
+    {
+      "variable": "u",
+      "other_coordinate": 2,
+      "prime": 1009,
+      "polynomials": [
+        {
+          "support": "F12_original_I6",
+          "profile": {
+            "bytes": 1574,
+            "degree": 402,
+            "nonzeroTerms": 403,
+            "sha256": "8859c3e01f8fceafadf4e8f38dc2f960f6c37136d4b35286918683018d1d6aaf"
+          },
+          "QQ_global_degree_and_slice_preserved": true
+        },
+        {
+          "support": "G14_complete_Vlow",
+          "profile": {
+            "bytes": 2504,
+            "degree": 642,
+            "nonzeroTerms": 643,
+            "sha256": "0d42e68b3224438ce9adf01bfb89c5c9b61d178d9a43922ab4f59c41219c44ba"
+          },
+          "QQ_global_degree_and_slice_preserved": false
+        }
+      ],
+      "gcd_profile": {
+        "bytes": 164,
+        "degree": 41,
+        "nonzeroTerms": 42,
+        "sha256": "78de5139abb1c11d3c503f80f376c3b5457bdc99d1d5a3cf369571c505a8cd52"
+      },
+      "bezout_multiplier_profiles": [
+        {
+          "bytes": 2339,
+          "degree": 600,
+          "nonzeroTerms": 601,
+          "sha256": "c9be25941c3c0edc2ff78539935eb7f0b5a843e111bce0660e77e1d040b30d73"
+        },
+        {
+          "bytes": 1405,
+          "degree": 360,
+          "nonzeroTerms": 361,
+          "sha256": "27197f0574a670b9e869b5bfe2498f6c5436209ac761580b3d96db1ffd588853"
+        }
+      ],
+      "complete_two_support_bezout_returned": true,
+      "no_modular_paid_factor_removed": true,
+      "strict_QQ_positive_degree_common_factor_exclusion": false
+    },
+    {
+      "variable": "Q",
+      "other_coordinate": 2,
+      "prime": 1009,
+      "polynomials": [
+        {
+          "support": "F12_original_I6",
+          "profile": {
+            "bytes": 745,
+            "degree": 222,
+            "nonzeroTerms": 157,
+            "sha256": "4c71fa60064f3ea0f8f77b3f0e0742f54f33b3df43f0621e662abeddd194d8c6"
+          },
+          "QQ_global_degree_and_slice_preserved": true
+        },
+        {
+          "support": "G14_complete_Vlow",
+          "profile": {
+            "bytes": 1261,
+            "degree": 371,
+            "nonzeroTerms": 274,
+            "sha256": "3605258e00ec2e49a01371c27dfa4d74ffb9c3137eb60b72e40eda1113dc7d71"
+          },
+          "QQ_global_degree_and_slice_preserved": true
+        }
+      ],
+      "gcd_profile": {
+        "bytes": 140,
+        "degree": 68,
+        "nonzeroTerms": 3,
+        "sha256": "63a175cbb4ebf53179e30818700b10f95b46bf070c47f02eeb3fe1f0341af495"
+      },
+      "bezout_multiplier_profiles": [
+        {
+          "bytes": 1174,
+          "degree": 302,
+          "nonzeroTerms": 303,
+          "sha256": "5164ab2955857968d7f923881e3d5830cee7c8591f5ff044ffa46ca73916fa71"
+        },
+        {
+          "bytes": 604,
+          "degree": 153,
+          "nonzeroTerms": 154,
+          "sha256": "a9bd83416685cb39f3e790f6fd52f66a6048a1047494f389b591bb7f7cb4eafe"
+        }
+      ],
+      "complete_two_support_bezout_returned": true,
+      "no_modular_paid_factor_removed": true,
+      "strict_QQ_positive_degree_common_factor_exclusion": false
+    }
+  ],
+  "statistics": {
+    "newHighestMatrixCoordinates": 680,
+    "newPolynomialBareissProducts": 2650,
+    "newPolynomialEuclideanProducts": 519
+  },
+  "paper_consequence": {
+    "reason": "Monic factor integrality in each fixed local p-Gauss coefficient ring, using the original F global and modular degree witnesses.",
+    "QQ_bivariate_common_gcd_u_degree_upper": 41,
+    "QQ_bivariate_common_gcd_Q_degree_upper": 68,
+    "not_identification_of_modular_factors": true
+  },
+  "boundary": {
+    "QQ_no_common_curve_proved": false,
+    "finite_weight_point_bound": null,
+    "whole_Phi_excluded": false,
+    "pure_Q_content_excluded": false,
+    "all_unproved_support_fibers_retained": true,
+    "coefficient_payload_saved": false,
+    "ordinary_ISP_claim": false
+  }
+}

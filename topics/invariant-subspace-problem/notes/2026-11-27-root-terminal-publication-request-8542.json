@@ -1,20 +1,15 @@
 {
-  "message": "ISP: prove whole original Phi I6 thirteen generators and dispatch two new original inputs",
-  "parentCommit": "61c0de3f0d3ad56f74b3afdff0b6cbe49c4c1cc8",
+  "message": "ISP: publish complete Vlow second weight support and rigorous common-curve bidegree bounds",
+  "parentCommit": "c237764afe63e4db357a4f28e50c66c7bb4c076b",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-original-N1-highest-unit-and-whole-I6-thirteen-generators.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-ell-half-Cramer-cubic-whole-six-field-original-Q-return-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-ell-half-Cramer-cubic-whole-six-field-original-Q-return-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-hk-ellhalf-six-field-q.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-six-retained-rays-three-original-initial-ideals-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-six-retained-rays-three-original-initial-ideals-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-six-rays-original-initial.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-I6-thirteen-hk-W-1940-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-I6-thirteen-hk-W-1940-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-Vlow-second-weight-support-two-axis-comparison-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-second-support-1945-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-second-support-1945-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,8 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-hk-ellhalf-six-field-q.yml",
-    "invariant-subspace-8542-w-six-rays-original-initial.yml"
-  ]
+  "dispatchWorkflows": []
 }
