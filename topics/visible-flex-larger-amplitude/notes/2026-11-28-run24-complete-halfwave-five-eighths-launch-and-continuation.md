@@ -567,3 +567,22 @@ current仍7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，acc
   }
 ]
 ```
+
+## 2026-11-28 05:46:57 UTC — 24后续试步的实际统计返回
+
+真实trial `f725cbad0fe278d63d46bf22946fc79b344fbe2e0aa52283dc7b1190d812316f` 于05:23:34.123673Z仅返回统计Phi=886.6498768143834、Gram=0.472966161836316。当前仍ff7dc8/accepted2/g.6115910089638068，完整已登记六族和source/model不变。至05:32:33Z该trial的完整geometry、接受和最终report未返，不能把目标统计改善当接受。原观察没有alpha，不推方向号或步长。全部实际原字段、完整请求、进度错误和源/point身份由下面固定whole索引保留；没有读取或改动runner raw，也未中断原child。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 59889,
+    "sha256": "90099fdbe6ce89d17c0a54dd54a239bf226a3f88d182d25236c841a0aa034117",
+    "git_blob_sha": "81d31c5d46baeb38347ed5a334c2ee83afba9feb",
+    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

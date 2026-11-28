@@ -41,3 +41,7 @@
 ## 2026-11-28 05:46:52 UTC — 23后续试步的实际统计返回
 
 23 6a101d6仅新统计Phi3824.6264079942416/Gram0.6461163646720337；当前仍87c076/accepted2/g.9678293850088526，至05:34:13Z新几何/接受/完整report未返。alpha未知不推。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`25278e10a39ec1b589c597de1858151d49a525b3`无变（非pull）。
+
+## 2026-11-28 05:46:57 UTC — 24后续试步的实际统计返回
+
+24 f725cba仅新统计Phi886.6498768143834/Gram0.472966161836316；当前仍ff7dc8/accepted2/g.6115910089638068，至05:32:33Z新几何/接受/完整report未返。alpha未知不推。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`f5d669e209013fd2ced53010c56839ccdc9116c8`无变（非pull）。
