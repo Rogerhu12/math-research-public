@@ -14,7 +14,7 @@
 
 [R319](results/R319-adjacent-low-ports-0350-central-belt-with-true-cubic-return.md)真平段|z|≤.235、.235→.335宽.100三次回窗、.335→.350真柱；221184闭盒给K<8.65、support>.58082、reach≥.115。真臂最外|z|<.348。R317两实体臂、紧相直径<3.75396、半径<2.19365、扩相见证距>4.24617。若同一外核norm≤1.915及(2.194+rho)²+(.233+|z|)²≤3.830²，并自身全reach≥.115，则整D≤3.830、held/D>.21726、δE/D>.05432、diamH/D>.38108、reach/D>.03002。没有额外rho门槛，不能只用采样或中央界代完整外核。
 
-**公开run46164243725/job141038130820**于17:20:16 UTC恢复完原4场，末场再次为e3e6640b…；已进入真实新cut，临时数组留同job。scripts/2ecf-r262-live-work-orders.json每项后重读当前main：新相邻低口真cut→固定其g每实际span≥6训练/≥9不同径行h1、769普通角+6窄法角窗；整像和原前缀连续位置；真实N/k、原X+C+W口差、ez/k²三列同g更新。06d2六jet消费者覆盖这三列、全部原W/新XYZ和冻结g；首次只算明列外单元，不冒全域。run46168298645的24阶法角矩含严格余项已成功，96测试盒不是全外核证明。
+**公开run46164243725/job141038130820**于17:20:16 UTC恢复完原4场，末场再次为e3e6640b…；已得c3b6b1ff…粗态与104a884…h1，真正全span独立峰.00750402→.00501448、κ8.66372、support.59541、norm1.89320；临时数组留同job。scripts/2ecf-r262-live-work-orders.json每项后重读当前main：新相邻低口真cut→固定其g每实际span≥6训练/≥9不同径行h1、769普通角+6窄法角窗；整像和原前缀连续位置；真实N/k、原X+C+W口差、ez/k²三列同g更新。06d2六jet消费者覆盖这三列、全部原W/新XYZ和冻结g；首次只算明列外单元，不冒全域。run46168298645的24阶法角矩含严格余项已成功，96测试盒不是全外核证明。
 
 另加正Jackson逆曲率热轨道、真实入口抬升/角依赖高度与一个物理热增益；heat专用状态键，不借旧native/profile证。R321真.040两矩轮廓保持R317圆心/周长及全臂同位，κ<5.16807、N/κ两导<8761.54；run46169273350真原74最大位差.00692926、切差.06968505、κ差.57603095。另单独选择.060更缓真实输入，源/状态/新g均独立；design后再固定新g精化。尚未运行项均不算结果。sources/params/实际SHA随每项推送，失败继续后项。
 
@@ -44,10 +44,10 @@ R314真Prüfer无限C²平领及非零二次无穷小模、增益>10、真四次
 
 root独占main；三子代理exact_analysis_ultra、strong_geometry_ultra、m12_solver_ultra均显式gpt-6.2-astra/ultra。每结论一推；至少每小时两库literal pull，读根/题README差并登记；NFF立即pull --rebase再推至成功，禁force。根§12不增独审/重跑/冻结/驻值门，§13公开Actions，§15只留源/参数/run/SHA/小结论。H≤10KB、md<100KB、topic<200MB、不写根LOG。所有比例分母是整初相D。
 
-本执行器14:34 UTC失联，17:05重试仍unavailable；API/Actions继续。旧partial clone根/workspace/scratch/2ecfcd6930d6保留，恢复即literal pull查规则差。原2400字节未恢复，60d6d3c/a8069be只记来源恢复。API查规则不是literal pull；最新真实两库同步见末行。
+本执行器14:34 UTC失联；17:26新主机入口恢复，旧session目录/数据不在新视图。已在原路径重新partial/sparse clone（另加depth1），17:32真实pull成功，根/题无差异；原科学数组继续保在Actions，不重生已成功结果。原2400字节未恢复，60d6d3c/a8069be只记来源恢复。API查规则不是literal pull；最新真实两库同步见末行。
 
-最新API已读公开 f6d5b3190da29d2409ebfe03514da7ce56b5765d，根/课题README与完整已读版本无差异。
+最新API已读公开 e0f5d542cdbf51e5276b654d334a5b86bc4e4e95，根/课题README与完整已读版本无差异。
 
-<!-- 2ecf-rules --> 本机停摆前最后真实pull：2026-11-28 14:30:28 UTC，公开a8bb8583083f13d9aaafb0366447b8e5911acc45，根/题README无差异。
+<!-- 2ecf-rules --> 本机恢复后的真实 pull/rebase：2026-11-28 17:33:58 UTC，公开已读 e0f5d542cdbf51e5276b654d334a5b86bc4e4e95，根/课题 README 无变化；新 partial/sparse checkout /workspace/scratch/2ecfcd6930d6/public。
 
 <!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 17:33:42 UTC；公开已读 7dad0803eba88a02d4304fcd0efc315d020819ee，根/课题 README 无变化。 私库真实 pull 2026-11-28 17:31:46 UTC、已读 4a1f372f43d6ffe83cbfcb40543bbe0e47ead073，私根无变化。
