@@ -65,5 +65,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 38423678fd19c866ec9facc094b406b228cfb59a
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 662e9f2adce5369e874a3c478db00c1e2ef53b06
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 14a63190edbbda4c52b15a3d293983080ca826a1
-<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 75def395fbe9bd76647b0dc510bf82dc1a785a2b
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 2a4556434f28f51a968452c337cbeff42528dd90
+<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull e73c5c54788b87b43288cf890d9f395c238d4496
