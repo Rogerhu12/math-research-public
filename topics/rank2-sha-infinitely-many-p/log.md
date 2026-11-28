@@ -107,3 +107,15 @@ root手核Vélu与sigma加法的全部符号、目标quasiperiod差、原theta�
 根核BHKO原4.2/4.9(b)/4.10(i)的固定常数与signed绝对平方，保原参考5/双13；逐审七乘法36M因子、所有地方统一清分母、完整实cardinal权、Ramanujan迹修正及固定范数的严格检测。原正整数最终非零与Cp^(20i)界均不代无限p中央检出。主缺口继续。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:46:46 UTC到d084c8b1330ae1d57ef67a3ad039b92030c73062，私库2026-11-28 12:46:37 UTC到3405429418c5f6d4380e71e64ee8057b0d6b8539；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47071410B/treeef1069b1cffb2acbe44e880da9981f16bccc5d06，无>5MB。
+
+## 2026-11-28 12:48:18 UTC：R1071§13同一A0素域回嵌及历史附块
+
+根读原fraction_bridge逐常数共轭和A0标签身份，逐审Ni/Di完整交叉、两真实图、原D可能非单位、π扩常数可分裂和每一整图行的18次帽。所有降域使用仍须同次回原对象，不改变A1二次域，也不将数学恒等式当生产返回。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:49:00 UTC到f445e391675d64d0e9b3abf82a0099fb13ffd719，私库2026-11-28 12:48:48 UTC到f53207efb24f96af74825fc38abdb05abcc2f815；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47083174B/treeb090eb69a2768fb6643308fc1eab39fd36680760，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:49:14 UTC到cfd82be0c3d6cd8a15a3dab77d658e66768cafd8，私库2026-11-28 12:49:10 UTC到f44a868ebf34e6627a1d863d9ac940ebc80737df；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47083174B/treeb090eb69a2768fb6643308fc1eab39fd36680760，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:49:27 UTC到7ed70fa5eb63b0d2aaf4000baa8544018be898d7，私库2026-11-28 12:49:23 UTC到6e269d66b7ddfd56b8810339e8acd61d53c0eb95；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47083174B/treeb090eb69a2768fb6643308fc1eab39fd36680760，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 12:49:41 UTC到1710d366bec871ab84d4f6f0b7db8b62cb120d27，私库2026-11-28 12:49:37 UTC到0ac2addfc36de7baf99aeb3416a317af026ebeb6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47083174B/treeb090eb69a2768fb6643308fc1eab39fd36680760，无>5MB。

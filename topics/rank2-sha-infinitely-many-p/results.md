@@ -176,3 +176,7 @@ source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713的
 ### R1073 §5：原参考全层清分母与正整数中央证书
 
 同一原signed参考的绝对平方U为整单位，消去全变层L分母；固定七乘法及全部原torsion来源给统一固定分母D。完整奇层实Lagrange权加真高迹倍数后严格为正，所得普通整数I_bi≡−DU(0)u_bmodp^i；(5/p)=−1时Ni=5I65²−I8125²的vp<2i准确检测固定二元族。Ni最终非零，但已付普通界Cp^(20i)尚未压过p^(2i)整除，未据正性完成主目标。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1071 §13：原A0真实素域分式与每一步完整附块度帽
+
+原A0被逐常数Frobenius固定，原N=N0+αN1、D=D0+αD1的同号非零分量满足NiD=NDi；两图按原权12交叉回核后可在F29求同一个G13，再全原域/原N,D/完整外门验证。真实好不可约π度≤3，厚总度21/22；原D的3670度及其纤维单位不转嫁。有限图U1还严格限制每个Popov旧行、商乘行及更新附块次数≤18，不仅最终行；不作RSS或执行PASS主张。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
