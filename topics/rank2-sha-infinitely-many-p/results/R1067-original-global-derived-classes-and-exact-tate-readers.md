@@ -992,3 +992,158 @@ Nekovář奇偶适用全部奇$p$，所以(BU2)–(BU4)在该原分量也成立�
 这同时保留两个ordinary位的当地限制，没有把某个单侧Taylor格当作完整全域六行。
 
 本节扩大了真实坏$p$必须满足的条件，还没有证明这些条件在无穷$p$中被违反。
+
+## 106. 全部野方向的原始迹与同一驯微分五个单独必要零
+
+置$q=p^2$、$b=q-1$，取任一充分大的惰性$p$。本节假设
+$\Sha(E_{17}/\mathbb Q)[p^\infty]$无限，使用§105真正完整的六个全域行零。
+保持原$E_1,\nu,r_2,\varepsilon$，以$s$为严格LT变量，$\omega_1=ds\bmod p$，
+$Y=s^b$。这里没有将仅$a_2=0$当成假设，也不需原$(17/p)=1$子列。
+
+### 物理模型、周期相位和同一原样本
+
+惰性给$6\mid p+1$，所以
+$\mathbb F_p^\times\subset(\mathbb F_{p^2}^\times)^6$。Hensel提升得到
+$\theta=17^{1/6}\in\mathcal O_\Phi^\times$。同一所选代数根给
+\[
+ i_\theta:E_{17}\longrightarrow E_1,\qquad
+ (x,y)\longmapsto(x/\theta^2,y/\theta^3),\qquad
+ i_\theta^*\omega_1=\theta\omega_{17}.
+\]
+所有驯、野标记同时运输，CM作用可交换。用同一LT对数及各自归一不变微分，
+\[
+ s_1(i_\theta P)=[\theta]_{\rm LT}s_{17}(P).
+\]
+这是导数为单位的完整形式群作用，不能将一般$\theta$静默当成Teichmüller标量。
+运输使原野标签乘同一单位，外部逆Tate权及所有jet一起只改可逆标量和群环元。
+因此先把真实物理源运到规范$E_1$，再在该模型上取下述系数；不预设两模型的单格相等。
+
+若代数根改为$u\theta$、$u\in\mu_6$，同一标记重排及
+$\varepsilon(ut)=u\varepsilon(t)$与对角$\mu_6$相容。
+原第三种微分满足$[u]^*\kappa_{uP}=\kappa_P$，因为$X(uP)=u^{-1}X(P)$、
+斜率同权而$\omega_1$乘$u$；故$[u]^*\nu=u\nu$。
+在$s\mapsto us$下，下面各$[s^{jb}]\nu/ds$至多乘非零单位。
+两模型的$q$-Frobenius均为$[-p]$，而$\bar\theta^q=\bar\theta$，
+所以原Frobenius重标和$\varepsilon(-p)=1$完全保持。
+
+还须核对全射线规范。$L_2=K(\mathfrak fp^2)$上的CM对
+$(\mathbb C/(\mathfrak fp^2\mathcal O_K),1)$经原周期及上述同一模型运输，
+评价于$\varpi/(\mathfrak fp^2)$。主要理想的CM互反使$[(t,a)]$评价于
+$x_0\varpi/(\mathfrak fp^2)$，其中$x_0\equiv t\bmod\mathfrak f$、
+$x_0\equiv a\bmod p^2$。CRT准确给
+\[
+                  T_{p^{-2}t}+[\mathfrak f^{-1}a]Q_2 .
+\]
+整个群迹是全双和除六，原外权仍为
+$\varepsilon(t)\tau(a)^{-1}$。$\mathfrak f^{-1}$是一个完整野/驯群元，
+与各差分交换；移入六项截断时乘可逆群环元，不能只抽一个二次项而删掉较低项的搬移。
+
+真Kato $\;{}_{103}\theta$的除子是
+$103^2[O]-\sum_{E[103]}[P]$；(AN2)原Rubin函数为其十二倍除子。
+二者之比的常数被完整驯权或外部$\Delta$投影杀掉，逆theta源因此保留
+$-1/12$的准确转换。可先在未分歧驯分裂域操作，随后按原$[-p]$和
+$\varepsilon(-p)=1$下降。后一恒等式也直接来自$E_{17}$的好惰性约化
+$a_p=0$、$\psi_{17}((p))=-p$，并非额外假设$\sqrt{17}\in\mathbb Q_p$。
+
+### 任一方向的真实范数都消去头三格
+
+取$h,l\in\mathbb F_q$对$\mathbb F_p$线性独立，在第一主单位层取
+$g_h=1+ph,g_l=1+pl$。置
+\[
+ N_h=\sum_{i=0}^{p-1}g_h^i,\qquad Z_l=g_l-1,\qquad
+ F_h=\Phi_2^{\langle g_h\rangle},\quad
+ y_h=N_h r_2,\quad t_h=N_hs .
+\]
+§105取$k=1$，并在两个整变量中任意可逆换基。完整一次、二次行零与
+§76的有限群环恒等式给
+\[
+                  Z_l^{p-2}y_h=Z_l^{p-3}y_h=0
+           \quad\text{于模 }p\text{ 的真实Kummer张量}. \tag{BV1}
+\]
+其中$g_l$、$\Delta$与$\mathfrak f^{-1}$的剩余因子皆可逆。限制
+$F_h\to\Phi_2$在$e_\tau$中无核：可能的循环$p$ Kummer核型为
+$\tau^{p+1}$，与此型不同。故(BV1)在$F_h$本身成立。
+
+$t_h$是素元，且$[a]t_h=a^pt_h$对$a\in\Delta$成立。
+$\Phi_2/\Phi_1$的每个非零野元有同一下断点$b$；§77的different塔公式
+对任意$h$给$F_h/\Phi_1$亦只有这个断点。因此
+\[
+ g_lt_h=t_h(1+\lambda_l t_h^b+\cdots),\qquad\lambda_l\ne0.
+\]
+原$r_2\in U_2$由$L(E_{17},1)=0$给出；该零在上面的完整模型运输中保留。
+§79的$N_hU_2\subset U_2(F_h)$只用这个断点，故对全部$h$适用。
+
+在原$e_\tau$的乘法嵌入中，$d\log y_h$只容
+$t_h^{p+ib-1}dt_h$。记其头三格为$L_0,L_1,L_2$。
+$U_2$与Cartier恒等式先给$L_0=0$。再对(BV1)分别取微分并读
+$t_h^{(p-1)q}dt_h$：§§78–79的最低项乘子只把原非零$\lambda$
+换成$\lambda_l$，先后给$L_1=L_2=0$。乘积中的因子分别为
+$-2,\ldots,-(p-1)$及$-3,\ldots,-(p-1)$，均可逆。
+
+拉回$\Phi_2$，有$t_h=s^p+\cdots$及
+$v_{\Phi_2}(dt_h/ds)=(p-1)q$。后一阶数也可由
+$t_h'/t_h=\sum_i(g_h^is)^{-1}$、首差$-hs^q$及
+$(p-1)!\ne0$核出。于是原完整方向迹
+\[
+ T_hB=\sum_{i=0}^{p-1} B([1+pih]s),
+              \qquad B\,ds=e_\tau d\log r_2 ,
+\]
+至$s^{3pb}$含该项全部为零。对应$L_i$的首可能次数恰为
+$p(i+1)b$，所以没有漏掉低阶补偿。
+
+同窗中原函数恒等式给
+\[
+ T_hB=12(c^2-[c]^*)\,T_h\operatorname{proj}_{\Delta}\nu .
+\]
+若右边未平滑微分的第一个非零项为$s^{n-1}ds$，
+则$\Delta$型强制$n\equiv1\bmod b$，在该首项上的对角因子为
+$12(c^2-c^n)=12(c^2-c)\ne0\bmod p$。
+依次数递推可反平滑整个窗，故$\nu$的每个$\Delta$方向迹也在此窗全零；
+不只消掉四槽某个总和。
+
+### 两个低次多项式分离五个原系数
+
+记
+\[
+                       B'_j=[s^{jb}]\,\nu/ds.
+\]
+$B'_0=0$来自同一中央值，$C^2\nu=\nu$再给$B'_1=0$。
+取$r=h^{p-1}\in\mu_{p+1}$。同一LT加法与§81的逐幂展开给
+\[
+ \frac{[1+pih]s}{s}
+    =1-ihY-ih^pY^{p+1}
+      +(D_hi-i^2h^{2p}/2)Y^{2p+1}
+                  +O(Y^{3p+1}), \tag{BV2}
+\]
+其中$D_h$不必另求。模$p^2$相同的两个单位作用之差从$s^{q^2}$开始，
+高于此窗；$Y^{p+1}$来自加法律的$s^{q-p}([pih]s)^p$项，
+$Y^{2p+1}$的二次极化为$-ijh^{2p}$，其余部分对$i$可加。
+
+取$[Y^{2p}]$，通常幂的次数$p-1,2p-2$分别保留$j=p+1,2$；
+含一个高项的唯一余项含已零的$B'_1$。有限域幂和故准确给
+\[
+                   -rB'_{p+1}+r^2B'_2=0
+                     \qquad(\forall r\in\mu_{p+1}).
+\]
+因此$B'_{p+1}=B'_2=0$。
+
+再取$[Y^{3p}]$。全部含$Y^{p+1}$或$Y^{2p+1}$的列仅可能带
+$B'_{p+1},B'_2,B'_1$，此时均已零；$D_h$项也在其中。
+通常幂的次数$p-1,2p-2,3p-3$分别给
+\[
+       -rB'_{2p+1}+2r^2B'_{p+2}-r^3B'_3=0
+                     \qquad(\forall r\in\mu_{p+1}).
+\]
+$p>3$，次数至多三的多项式有$p+1$个根，只能各系数为零。
+故得到五个**同一物理微分的单独必要零**
+\[
+ \boxed{\quad
+ \Sha(E_{17}/\mathbb Q)[p^\infty]\text{无限}
+ \ \Longrightarrow\
+ B'_2=B'_3=B'_{p+1}=B'_{p+2}=B'_{2p+1}=0 .
+ \quad} \tag{BV3}
+\]
+按§88在(BD1)前已付的准确Frobenius重标，两次Cartier后的原四行逐个为零。
+每行内部的$H,H^2,D_{ij}$及其全部混项仍在，不能由(BV3)删掉它们或直接宣称
+固定联络的所有$p$曲率为零。任一这些真实单格在无穷惰性$p$非零已足主目标，
+该跨素数非零仍待继续证明。

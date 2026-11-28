@@ -536,3 +536,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §105：原二变量det使全Sha无限迫全部混合二次全域行零
 
 已证明：JLK实际源行列式经基域usual/strict维数给极小R^s→R^(s−1)，真实Z的有符号极大子式在I^(s−1)。usual全Sha无限迫全部六个I³系数截断整零，每个p^k精度保全部源；分裂处用已证完整Ω定理保双p位。未把系数像零误写成I³H¹整除。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §106：真实全局六行零分离原微分五个野系数
+
+已证明：付六次扭转、原周期/CRT/Kato十二倍规范后，通常全Sha无限在每个惰性p迫任意野方向的原迹低窗零。随h^(p−1)的二/三次多项式分别给B₂、B₃、B_{p+1}、B_{p+2}、B_{2p+1}单独零；每个BD1行内全部H混项仍保留，尚不等价全曲率零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
