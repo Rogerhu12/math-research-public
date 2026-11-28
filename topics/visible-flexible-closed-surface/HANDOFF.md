@@ -58,4 +58,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:24:22 UTC；已读公开 main `e16efa0fd17eeef825a03a34c68a0b271026acf0`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:29:54 UTC；已读公开 main `c6042e9d5bdbc46a169a749a8ad9744da22a2f88`，根/课题 README 逐差无变化。
