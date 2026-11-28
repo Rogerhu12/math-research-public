@@ -497,3 +497,6 @@ R95已正式发布9a1bf6a7…并补齐日志/open与短H：原λ.128/M24全部�
 
 ### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
 较严原.002/M16真实全门恢复：1051点/RMS1.994973875e−7/metric4.979823887e−8/physicalBC1.9891e−19/mean784，4全步零拒、两mesh，TTY44020/child真0且剩余0，175.22s/406104KiB。run754987d8…、raw/physical完整SHA核同，componentwise线性残差1.0保留。18:31:00唯一连续链73924真起，M24起/.256≥32，直续.032至1；低λ恢复不冒超过历史.128新前沿。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+登记现成真实final-H完整认证依赖：一次fullH与同场prefix tables/全bundle/全部mean，两类source各用自己入口；原逐段成功span复用，仅补真实metric未付项，再原placement/fullgeometry/metric/活动矩。全角协变付全phase，t精化诊断另做；own fixed不可重贴anchor标签。无新数值或重复框架。

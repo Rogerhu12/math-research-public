@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `c5d43d992684702f56c80b2b24a32d630313db2d`（2026-11-28 18:36 UTC）。
+- 最近实际pull后双README已读锚 `f22cc8fbce9a54488e3226aecfe5e9d64161d7f9`（2026-11-28 18:36 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -28,6 +28,8 @@
 [正式stage-control v2](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)保真stage后nonce/outdir/scope控制、先完活BVP/同步锚；资源/信号独立工程退出不λ二分。observer v3可在原owner内显式request并实际cleanup/join，和旧未知Ctrl-C回执分开。
 
 ## 4. 真λ1之后的现成执行入口
+
+[同场执行次序](notes/2026-11-28-tail-qr-final-field-certificate-execution-order.md)明确一次定义/原成功span复用、全角覆盖全phase；无新调度框架或阳性。
 
 - [完整QR-DN八源](notes/2026-11-28-tail-lambda-one-complete-qr-resource-entry.md)：原native4/chord3/完整H/freshJ/heightJ/audit/8outer，全prefix CSR/QR。真正内层summary/result.run为源，最终只绑saved physical-H，raw另列，mean取实际，不锁1168。现无真λ1/fullDN阳性。
 - [fresh全尾小块](notes/2026-11-28-tail-fresh-qr-complete-chunk-geometry-entry.md)：真final-H→原stage0→默认8段小块，全谱/同global mean/共享两jet/全merge/index/连续门；已付stage不重跑，不制造旧−9。
