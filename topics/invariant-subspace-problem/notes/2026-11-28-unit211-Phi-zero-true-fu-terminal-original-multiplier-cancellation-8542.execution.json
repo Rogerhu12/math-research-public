@@ -1,0 +1,240 @@
+{
+  "elapsed_seconds": 0.33060748099998705,
+  "max_child_rss_kib": 41876,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "4562d8c809f3ced3a5e8668928702e1b47bb50b3",
+      "before": "ebfa29f5ace357092d4c69329028afb9741c9e02",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T07:28:34.108726+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46121349236",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "ebfa29f5ace357092d4c69329028afb9741c9e02",
+  "source_exit_code": 0,
+  "source_git_blob": "c58584beb4f195d70e9183c116eed89304d9c317",
+  "source_sha256": "ff50d323eb8f8b04572baf077cccb8554b529daf0e74b974337e2010e863ae01",
+  "stdout_bytes": 4437,
+  "stdout_sha256": "fd405046406c3cedd37cf6dcb1c8b4a2fe3fae8ec5d7c3f88730889c41aef306",
+  "stop_reason": null,
+  "job_id": 140906375035,
+  "mathematical_result": {
+    "actual_original_once_cover": true,
+    "cover_degree": 17,
+    "cover_exponent": 1,
+    "cover_sha256": "82805c6529f521837e116b0aac2aeb726328c0a85316ff724d8bb6d71ae1547c",
+    "radical_degree": 16,
+    "remaining_different_weight_bound": 48,
+    "final_original_multiplier_unpaid_denominator_degrees": [
+      17,
+      17,
+      14
+    ],
+    "all_factor_zero_fibers_retained": true,
+    "source_complete_point_finiteness_claim": false,
+    "paper_composed_point_bounds": {
+      "lambda_T_t": 96,
+      "ordered_Gram": 192,
+      "complete_normalized": 384
+    },
+    "whole_fu_excluded": false,
+    "whole_Phi_excluded": false
+  },
+  "actual_mathematical_records": [
+    {
+      "actuallyUsedPrefixSHA256": "3e1cd20e6519adece6cac09927b07570aab52e993997ab3e6597a4c95045f45b",
+      "definitionDAGNodes": 78,
+      "necessaryOriginalColumns": 18,
+      "nestedActuallyUsedOriginalPrefixSHA256": "45a56600012bd8ec17151cd28abbcc5d85064bbdfb8edc626d820c3c4be77bd3",
+      "noNSPSDefinitionsOrLastSixColumns": true,
+      "noOldC92LCMOrFactorSupportGate": true,
+      "originalFullSourceSHA256": "e35e019e9ee84448b8e4e5afc31c81f449b8b515598329e2fb8c2e38d4870aa6",
+      "originalNecessaryPrefixSHA256": "290887ebfb96cd9e1a48008acd4084e6358b714940beef54fa98cb2390173a19",
+      "seconds": 0.1944834530000037,
+      "stage": "new_fu_only_fixed_eighteen_original_definition_input"
+    },
+    {
+      "actualCoefficientDenominatorDegrees": [
+        34,
+        36,
+        36,
+        34,
+        35,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        31,
+        32,
+        32,
+        32,
+        35,
+        35
+      ],
+      "allTwelveCoordinatesReturned": true,
+      "noCoarseDAGLCMComputed": true,
+      "nonzeroOriginalCoefficients": 12,
+      "reachableDefinitionNodes": 60,
+      "seconds": 0.21877719500000126,
+      "stage": "new_fu_terminal_eighteen_actual_original_coefficients"
+    },
+    {
+      "allEONCompletePolynomialMultipliersReturned": true,
+      "fiveOriginalMultipliersWithNSPSExactlyZero": true,
+      "fullOriginalPolynomialPsiDivisionReturned": true,
+      "necessaryPsiOriginalThreeByThreeSourceReturned": true,
+      "noOldThreeCofactorOrGCDGate": true,
+      "noTemporaryDeterminantDeclaredPhysicalUnit": true,
+      "seconds": 0.2663805939999975,
+      "stage": "new_fu_full_original_terminal_multipliers_returned"
+    },
+    {
+      "actualOriginalMultiplierDenominators": [
+        {
+          "fullWeightDenominatorDegrees": [
+            40,
+            1,
+            0,
+            0,
+            0
+          ],
+          "unpaidPureUDenominator": {
+            "degree": 17,
+            "sha256": "82805c6529f521837e116b0aac2aeb726328c0a85316ff724d8bb6d71ae1547c"
+          }
+        },
+        {
+          "fullWeightDenominatorDegrees": [
+            41,
+            1,
+            0,
+            0,
+            0
+          ],
+          "unpaidPureUDenominator": {
+            "degree": 17,
+            "sha256": "82805c6529f521837e116b0aac2aeb726328c0a85316ff724d8bb6d71ae1547c"
+          }
+        },
+        {
+          "fullWeightDenominatorDegrees": [
+            34,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unpaidPureUDenominator": {
+            "degree": 14,
+            "sha256": "2418bbbc2489cb6897e88a17fd9024c4e3a277d12b912f969f155e279fdeeeb7"
+          }
+        }
+      ],
+      "allFullPolynomialMultiplierProductsReturned": true,
+      "allNewPureUZeroFibersKept": true,
+      "completeOriginalPointFinitenessClaim": false,
+      "differentUPointUpperBound": 17,
+      "differentWeightPairUpperBound": 51,
+      "exponent": 1,
+      "fullOriginalIdentity": "Cnew=sum_i Omega_i*Fi in the paid original ring; NS/PS multipliers zero",
+      "independentlyPaidUZeroSource": "R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md",
+      "newExactDenominatorDivisions": 52,
+      "noYHeadOrPhysicalDInverse": true,
+      "ordinaryISPClaim": false,
+      "originalDefinitionStatistics": {
+        "QMonicShortDivisions": 19,
+        "QShortDivisionSteps": 103,
+        "containerCoordinateReturns": 228,
+        "edgeCoordinateReturns": 720,
+        "exactPolynomialDivisions": 6301,
+        "seedCoordinateReturns": 216,
+        "targetCoordinateReturns": 12,
+        "zeroEdgeCoordinateReturns": 72
+      },
+      "retainedPureUCover": {
+        "degree": 17,
+        "sha256": "82805c6529f521837e116b0aac2aeb726328c0a85316ff724d8bb6d71ae1547c"
+      },
+      "seconds": 0.2762256519999937,
+      "stage": "new_fu_final_original_once_cover",
+      "thetaNewUnitUsed": false,
+      "wholeFuExcluded": false,
+      "wholePhiExcluded": false
+    },
+    {
+      "allFactorZeroFibersKept": true,
+      "completeOriginalPointFinitenessClaim": false,
+      "completeQQFactorProductAndRadicalPowerDivisionReturned": true,
+      "differentUPointUpperBound": 16,
+      "differentWeightPairUpperBound": 48,
+      "factors": [
+        {
+          "factor": {
+            "degree": 1,
+            "polynomial": "2*x + (-1)",
+            "sha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 2,
+            "polynomial": "2*x^2 + (-4)*x + 1",
+            "sha256": "d71f9f52598e4818424f94e5562be3fab6a6071b552da03fd909bd55a4ac3e44"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 3,
+            "polynomial": "2*x^3 + (-8)*x^2 + 12*x + (-7)",
+            "sha256": "b9c3ec80ceb4b466f4b39ea1095275a7a4b0e2ba228b2d48dfa5cc3c69aba074"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 9,
+            "polynomial": "32*x^9 + (-320)*x^8 + 1440*x^7 + (-3848)*x^6 + 6870*x^5 + (-8886)*x^4 + 8828*x^3 + (-6650)*x^2 + 3296*x + (-763)",
+            "sha256": "0408395e626084fa988e7ce51d692bf1417ebdb7b21c2b28a107e4123e51d62c"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 1,
+            "polynomial": "x + (-2)",
+            "sha256": "65262326e5ebbb4b87059ad3110cca2a0bc7a9222c93ac25c558dee70e3c011e"
+          },
+          "multiplicity": 2
+        }
+      ],
+      "maximumMultiplicity": 2,
+      "ordinaryISPClaim": false,
+      "radical": {
+        "degree": 16,
+        "sha256": "3f7a33d09b946a16b3a19e3d48d7e99a5b6a969306e94f15aa98fc79e7ecb731"
+      },
+      "seconds": 0.2767159240000012,
+      "stage": "new_fu_terminal_exact_factor_support",
+      "wholeFuExcluded": false,
+      "wholePhiExcluded": false
+    }
+  ],
+  "unexecuted_draft": {
+    "blob": "db5f5b2edbce431fe70a25814e698e31ca511949",
+    "status": "not executed",
+    "only_correction": "qreduce receiver changed to remainder,quotient; no actual failure"
+  }
+}

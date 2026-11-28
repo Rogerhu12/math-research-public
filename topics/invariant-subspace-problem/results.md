@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确fu终端一次C17原理想覆盖](results/R150-appendix-unit211-Phi-zero-true-fu-terminal-C17-once-original-ideal-cover.md)：十八必要列反传与完整Psi原来源合成后，仅最终原乘子分母17/17/14得到C17一次；唯一.330607秒/0，因子1/2/3/9/1²、rad16⇒≤48权对。合已刊中心二次得≤384完整规范不同点，全零纤维保。
+
 - [R150：正确fu中心v首一二次与两mean的Psi来源](results/R150-appendix-unit211-Phi-zero-true-fu-centered-v-monic-quadratic-and-two-mean-source.md)：全原odd以既有单位右边支付Hf，所有权纤维至多二几何值，原均值给QΨ精确组合；旧261权对因此≤2088完整规范不同点。仅两纯权整数身份新2ms检查，完整Gram来源为已刊原式的纸面展开。
 
 - [R150：正确Phi/B终端二次权因子整原值排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-quadratic-complete-original-exclusion.md)：全QQ二次域、g=(λ−1/2)²和首一ω保完整8维代数，8×48原理想rank4，1未返但λtD一次返，物理整支闭。唯一.343445秒/0，剩34/40因子、≤74不同权对。
