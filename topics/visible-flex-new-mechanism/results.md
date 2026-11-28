@@ -551,3 +551,7 @@
 ## R633：真实全平Morse双核与全域共同参考逆
 
 [完整证明](results/R633-flat-ended-morse-double-kernel-global-reference.md)把左正规Morse截段接上同一真实双平尾；四正区控制保径向Cauchy数据后，两紧支撑参数恢复二/三双核。逐项支付全部整数频率、中心j²损失及尾Robin组装，得到共同加权逆；非线性状态相关返回/校正和本背景非零端口仍待支付。
+
+## B030实际终态6482及未完metric J续接
+
+[真实结果](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run46119106791新增4metric+1restore，真实η.195138934664774/g0，1724fine已合格。末新J仅20块、无自然return，保trust与实际H/pending；[后继范围](notes/2026-11-28-r566-6482-metric-resume-scope.md)继续当前完整库，旧8635仍未执行。未宣固定g/宏观完成。

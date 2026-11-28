@@ -33,15 +33,13 @@
 
 [实际新模型及消费者](notes/2026-11-28-r618-hard-total-trace-actual-model.md)已实现：首同P用原接受态六jets直接评价；完整1449列及外部P方向同根链；禁用1449零向量的旧tau0捷径；真尾以A=B=0支持恒等式消费原producer并保原误差。自然终态入口只取run46117718197的actual_response，不取pending。源码尚未实算，无新请求；先依据真实终态attainer和余量选下一范围。
 
-## O2b-C：B030真实d59fa，以已知违反推进原库交换
+## O2b-C：B030真实6482，恢复后继续metric
 
-[cc117原自然终态](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：run45930250772/job140280968908/sourcee553b6fb，2370.3419954749997秒，5metric+1restore、18J/1320块、48coarse/15fine/14完整localizer。真实d59fa5cf…在1672×3072及2467已闭峰上η.1966187824246114、物理V0。
+[d59fa→6482自然终态](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run **46119106791** / job140899461067/source41cf3c8f，07:39:35 UTC完成；新增2370.041308173秒，4metric+1restore接受。真实q **6482fbfda68f034db9b23bbb47a3e0103f24368cece129059c21e7b2d5bde375**，已合格1724×3072 η **.195138934664774**、准确g=0，metric/trust.45050811767578125。
 
-当前840coarse/1682fine/1882物理/380work，pending物理与working各1；g5.42723195661168e−5/e.010054272319566116有准确原记录，trust.45050811767578125/geometry，原trust后决策未做。H签名20757…已属于restoration，不借旧cc117输入的metric505f语义。
+当前870coarse/1742required fine/1943physical/695work，pending0；1724资格不转给1742。末369e完整876定位后η.19780607039034218更差已拒，无待补队列。旧309b8的8635仍未执行、0重放，完整旧来源/费用保留。
 
-末309b8dbc…的已闭4465峰中已有curvature_plus=4.805549391305973e−6>e0+1e−8，单个真实违反即否定原合取接受门。[新已知违反早退策略](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)据此拒绝并从d59fa应用现有pending各1；8635剩余括号完整保留为未执行，不重付该已知失败trial。原outer15/16累计5metric+1restore相同，末outer0接受且有pending，完成原trust后决策为保持.45050811767578125。未来库序列可能与补完8635不同，不能冒原partial逐步重演；每个新接受仍需完整coarse/fine/nested/localizer。准确margin、H和全部旧费用保持；恢复成功回metric仍按原helper重置，不冒完整workspace已保存。
-
-此线设计g仍在变，不与R618 target合并；[固定圆参考接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)要求全部源/mean/高度/轴/primitive一致，新δ/α/K须本场支付。
+15完整J/1112方向块含末未完20块，16backend但15native；末outer15构J时达科学边界，无自然return，不缩trust。真实82维H/3403LDL/metric505f签名及22pending乘子全保。[实际6482后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)本次push触发，当前完整值库已付但J矩阵未存，必要重建与旧20块分记；完整原接受门不变。仍为变量g静态设计，未达宏观闭族。
 
 ## O4：从stored状态改为真实C²曲线及完整历史目标
 
