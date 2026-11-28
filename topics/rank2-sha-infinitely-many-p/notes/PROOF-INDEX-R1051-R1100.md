@@ -123,3 +123,10 @@ R1053§§8–11付真正十三维四jet修改、原全39维B12长十二修改及
 R1054§9把第一输出字逐式接到真实CM类：Chan行矩阵Pg_t^TP/h=bar t给t/bar t，整球固定绝对scalar；实际核tC0对应idèle t^-1。真Tate基的det/degree、极化cup/KS与三个微分全部保，g2²基准无额外p幂。逐点正权式保(1−p^-2)旧项；非平凡wild整和准确消旧，全部p+1 tame分量由真实单位矩阵相接。只用共同tame cover的局部GM/marked评价，AI全局Heegner条件另保；未赋原canonical坏条件给新ramified字。
 
 [完整证明](../results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)，tags32–51。后继须用同源有界Amice极限付负二全germ，并补原canonical坏条件到新增ramified读者的关系；局部矩阵可逆不替此授权。
+
+
+## R1059 — 原p²来源与局部AI的完整临界germ
+
+R1059用同一实际裸bounded Q来源和显式tensor外权，证明原p²剔除来源与局部AI marked评价的整个负二解析germ相等，精确保留(1−p^-2)旧germ。Tate/cup/KS给真实正权身份，固定Teich分量的非负整数逼近及完整Maass尾给极限；实际v(C)=2以2i−v(i!)付Tate收敛。全部unit-period、det/tensor、外权、log和Maass斜率费用保留；非平凡wild或R1052只能消已经识别的完整旧和。各t的权不吞入测度，局部p+1单位矩阵可逆不赋新canonical零。
+
+[完整证明](../results/R1059-original-p-square-source-and-complete-critical-germ.md)，A0a–A19；来源为R1054§9、R1056完整Maass、R1052原旧和、R1058实际CM运输及AI局部GM/marked评价。后继是同一primitive/原有限图和canonical斜率；不以本比较声称无穷p主目标完成。

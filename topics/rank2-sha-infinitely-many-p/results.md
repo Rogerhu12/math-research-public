@@ -19,6 +19,8 @@ Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交�
 
 ## 当前新增结论
 
+- [R1059：同一p²来源的完整临界germ与全斜率](results/R1059-original-p-square-source-and-complete-critical-germ.md)：R1059用同一实际裸bounded Q来源和显式tensor外权，证明原p²剔除来源与局部AI marked评价的整个负二解析germ相等，精确保留(1−p^-2)旧germ。Tate/cup/KS给真实正权身份，固定Teich分量的非负整数逼近及完整Maass尾给极限；实际v(C)=2以2i−v(i!)付Tate收敛。全部unit-period、det/tensor、外权、log和Maass斜率费用保留；非平凡wild或R1052只能消已经识别的完整旧和。各t的权不吞入测度，局部p+1单位矩阵可逆不赋新canonical零。
+
 - [R1054§9：实际CM类、cup与同源正权向量](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)：R1054§9把第一输出字逐式接到真实CM类：Chan行矩阵Pg_t^TP/h=bar t给t/bar t，整球固定绝对scalar；实际核tC0对应idèle t^-1。真Tate基的det/degree、极化cup/KS与三个微分全部保，g2²基准无额外p幂。逐点正权式保(1−p^-2)旧项；非平凡wild整和准确消旧，全部p+1 tame分量由真实单位矩阵相接。只用共同tame cover的局部GM/marked评价，AI全局Heegner条件另保；未赋原canonical坏条件给新ramified字。
 
 - [R1053§§8–11：原P10配对与真实连接阻碍](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)：R1053§§8–11付真正十三维四jet修改、原全39维B12长十二修改及完整canonical首行到同一P10的39字符配对。实际Gα=rα^10·P2^195/(P10∘α)的全除子、二挠三次极帽和非齐次连接费用均保。原source390与target10的p曲率极支撑不相同，排除任何免费scalar CM/Miller交织，且相应水平Hom为零；这不产生新canonical零或终端非零。

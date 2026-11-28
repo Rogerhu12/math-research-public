@@ -26,7 +26,9 @@ g_1^*((p\delta)^nA)
 
 R1054§9现付完整finite intertwiner与真实核/class方向、Tate determinant/cup/KS、三个微分、准确旧项差和全部p+1单位矩阵的正权向量。非平凡wild全和消旧不赋原坏条件给新增ramified字；投回第二输出旧线则新字消失。原惰性2/full9不自动满足AI全局Heegner假设；这里只用同一prime-to-p full-level cover的局部GM/marked构造，classical k=3的局部半径允许p²，不能套two-variable n≥3或直接套全局Thm7.1。
 
-**下一实质门：**从这些正权恒等式作有界Amice的真实全临界germ比较，并给新ramified covectors与原固定canonical斜率的实际未平均关系。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。下一可用同源正权恒等式与R1056的真实flat逼近比较负端点，但须精确保原AI avatar、Teich分量和完整旧项；不能由群阶相同认分支，也不将p^n当解析函数。
+[R1059](results/R1059-original-p-square-source-and-complete-critical-germ.md)现已给同一来源的完整负二germ及斜率：各点裸bounded Q_t输入不变，随权tensor因子j_t留在外权Λ=λj_t；真实Teich逼近与全部Maass尾、v(C)=2的Tate范数收敛支付同一解析恒等。精确保p^-4单位周期及(1−p^-2)旧germ；只有同一full-avatar wild和或R1052原完整germ可去旧。斜率保log、全部Maass、period、det与外权导数。
+
+**下一实质门：**把该真实负二局部AI评价接到同一个Coleman primitive/原有限图，并给新增ramified covectors到原固定canonical斜率的实际未平均关系。当前仅局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，保原avatar/Teich/旧项；进一步实际图身份继续。不能由群阶相同认分支，也不将p^n当解析函数。
 
 [R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)提供真正可用的同源读者：临界值是单位 inverse-square 矩，斜率保 log、全部 Maass 修正和外权导数；正 KS/正杯积 Bol 与 R997 一致。直接整 Newton 的值读者用至 \(pH-1\) 阶，斜率用 \(O(p(H+\log_p(H+1)+1))\) 阶及准确额外精度；旧 Stirling 路径另付 \(v_p(N!)\)。R1054 的负端点仍是原 Coleman 的 \(p^{-6}\) 真 \(Q\) 平均，不是已经识别的 CM 图 trace。
 
