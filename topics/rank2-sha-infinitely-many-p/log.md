@@ -67,3 +67,13 @@ root手核原倒数不变环逐次消元、系数共轭固定、全部实旋分�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:30:11 UTC到8739245af42bc6ea5929bd7b28f492d86dd4a5e7，私库2026-11-28 12:30:02 UTC到6f66661bfb19a6b1a0dda252aed1e82330ab1435；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47016056B/tree63cb8002a9226fef4551630187248d7017f30bc2，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:30:25 UTC到78431ea8c1989f7e47fb9bed4c02d9d572b7d1d4，私库2026-11-28 12:30:20 UTC到7c0f08a789512045a2a6155f1dcacb214887b054；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47016056B/tree63cb8002a9226fef4551630187248d7017f30bc2，无>5MB。
+
+## 2026-11-28 12:32:28 UTC — R1067 真实目标微分/质量与完整单位导数
+
+root手核Vélu与sigma加法的全部符号、目标quasiperiod差、原theta倍公式强制j0的非零质量证明、e_D完整八挠点与Lagrange反演精度；整数权有限卷积和Tate尾付r_D^u I的整盘身份及全部分母赋值。原中央只转到两个完整单位导数，不删除I自身的导数。小软件host修复已实推6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3（12:30:30 UTC），此前磁盘索引问题已以sparse-index恢复并完成双pull/一次非FF循环；四README未变。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:32:39 UTC到b2406ffb6476623cfc46c7c10c25245dd394a818，私库2026-11-28 12:32:34 UTC到7ac0742d437a550dc841c836a7d1bf49c83e40e5；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:32:58 UTC到4a13a2b4ef997a9bc23998d3dd8ffa0658ba2a73，私库2026-11-28 12:32:49 UTC到e0cbfde6105aea1610631440dddaec336293eace；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:33:11 UTC到75bd97622bc0092fd6939e16302165c9e84fd934，私库2026-11-28 12:33:07 UTC到1fe610fb49895d28eea72d2f5f6453a4a41c20df；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e，无>5MB。

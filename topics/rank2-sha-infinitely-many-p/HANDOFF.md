@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:30:25 UTC实际pull --rebase，读取main 78431ea8c1989f7e47fb9bed4c02d9d572b7d1d4；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:30:20 UTC实际pull --rebase至7c0f08a789512045a2a6155f1dcacb214887b054；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 12:33:11 UTC实际pull --rebase，读取main 75bd97622bc0092fd6939e16302165c9e84fd934；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:33:07 UTC实际pull --rebase至1fe610fb49895d28eea72d2f5f6453a4a41c20df；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3261/47016056B/tree63cb8002a9226fef4551630187248d7017f30bc2；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -30,12 +30,11 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 原共同两/三位与十七同源：R1067
 
 [R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[§§37起](results/R1067-original-first-wild-fixed-geometric-tail.md)保全部原Kato/ν/physical/参考。g1=aEN/p、g2=(pbEd−γaEN)/p²必须全f/mixed、EN三位/Ed两位，尾−3aIp/γ不能删。固定两I12边界/Taylor及整比较给T/p²全V整，Π度≤p−1由原branch全主部唯一恢复。§§44–49原全Paley/Singer/标记/∞号/Γ68与参考RS，消λ、付P9/P14及κ=−(pcσ)²、c/p=−1/κ、γa u0 c/p=−b；Q6全回原第四物理权，非独立Gaussian条件。§50p≡137 mod204互补射线同样成立。§51原全Z首剩余R3在r≤h同构，后段核为(1−x)^(h+1)倍数；j1坏/j2单位R4与全部首剩余jets相容，仍须真实高位pC/全局来源。
-§52真实冻结f17精确分解为九条有标记十七同源；µ3三轨道为{∞,14,7}/{13,3,5}/{1,8,16}，九线独立并保全标量，三个目标端环均O17。全原物理Gaussian/degree34截面各自付Tate尾，原Jp=3Σ三个原分支读者；只将完整中央坏写成三个导数和零，不赋各支原Selmer身份。
+§52真实冻结f17精确分解为九条有标记十七同源；µ3三轨道为{∞,14,7}/{13,3,5}/{1,8,16}，九线独立并保全标量，三个目标端环均O17。全原物理Gaussian/degree34截面各自付Tate尾，原Jp=3Σ三个原分支读者；只将完整中央坏写成三个导数和零，不赋各支原Selmer身份。§53 Vélu原微分给c_D=17c+e_D、r_D∈1+pO；theta倍公式排九质量为零，J[H_j]=r_D^u I_j。原J′/3=B1(logV1)′+B2(logV2)′，保全部目标导数，V_i(k)为真物理系数比。
 
 ## 原中央、全层及 Rubin 整平方：R1070
 
-[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)原E17/m34,72、完整B/j和η=A/Ā。M=(Tη−1)/W整等距逆，CηΣc_nX^n=Σc_n(Tη−1)^n1是整线性等距而非乘法；L=Cη^-1M^-1B、L0=j/(dlogη)、Cη(XL)=WB。原全primitive奇层谱、两Eisenstein商、Hall物理/Norm17 gauge/原Klein全标签和Yang绝对period均付，µB34=0、λ=2(1+ord B̄34)。
-J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，保全部权germ与原参考。旧普通阶乘cross不连续更正优先；首Hall零≥2p，中央bad≥2p+2。§§21–23同一原椭圆单位类/Betti/ω、复共轭及实际τ(T)=(1+T)^(-1/b)−1给A_p=6κ0ϑ^-1(1+τ)^−sJ_a(τ)^2于全O[[T]]，κ0=48940416；非算术零亦偶重。原中央J′非零仍待跨p输入；完整旧叙述已逐字保于上方H归档。
+[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)原E17/m34,72、完整B/j和η=A/Ā。M=(Tη−1)/W整等距逆；CηΣc_nX^n=Σc_n(Tη−1)^n1为线性而非乘法。L=Cη^-1M^-1B、L0=j/(dlogη)、Cη(XL)=WB；原全primitive谱/两Eisenstein商及全部物理周期给µB34=0、λ=2(1+ord B̄34)。J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，全原类/Betti/ω/共轭与τ=(1+T)^(-1/b)−1给A=6κ0θ^-1(1+τ)^−sJ_a(τ)^2，κ0=48940416。保旧普通阶乘cross不连续更正；首Hall零λ≥2p、中央坏≥2p+2。原中央J′跨p非零仍待证。
 
 ## 原全导子量化：R1072
 

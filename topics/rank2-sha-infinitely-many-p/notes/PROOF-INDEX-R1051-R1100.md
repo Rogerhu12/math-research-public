@@ -658,3 +658,7 @@ R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四
 ### R1073 §4：同一二阶的有理数及固定实二次域证书
 
 在原倒数不变参数S=T²/(1+T)中，θ_b sym(A_b)=S H_b且H_b∈Zp[[S]]。全部真实奇层实节点给有理Lagrange数R_bi≡θ_bA_b,2 modp^i，合并后位于同一固定Q(√5)；范数vp<2i正好检出固定二元族。首层完整实迹又给非负有理V_b,p≡−(p−1)θ_bA_b,2/2 modp。复正性和固定数域均未控制其p整除；原参考L分母仍完整保留。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1067 §53：三个真实目标周期与两个完整单位读者
+
+真实Vélu微分和sigma加法式给九分支的目标二次指数及全部八个17挠点贡献；原参考theta零会迫目标j=0，故九个原质量均非零。三个目标c_D=17c+e_D、e_D整，原读者J[H]=r_D^u I在全Tate盘准确成立；由三质量和零，中央J′/3=B1(logV1)′+B2(logV2)′。两个单位保完整目标自带导数，所有整数权取真实物理系数比，未把其极限当单个全局代数数的p对数。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。

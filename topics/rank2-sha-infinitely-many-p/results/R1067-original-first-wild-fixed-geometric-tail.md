@@ -1417,3 +1417,141 @@ $$
 三个分支的解析整性都在同一完整物理来源上证明；未给任何单独
 分支赋予 R303 的椭圆单位或 Selmer 身份。中央坏的真正含义恰是
 (S6)右侧三个导数之和为零。证明中没有使任一单独导数消失。
+
+## 53. 三个真实导子十七中心的 Vélu 微分、非零质量与原中央的两个归一对数导数
+
+沿用(S1)–(S6)。取物理格 $\Lambda=\Omega(\mathbf Z+s\mathbf Z)$，
+各分支核记为 $D$，十七次商格取 $\Lambda_D=\Lambda+D$，
+在 $\mathbf C$ 的同一 $z$ 上用商微分 $dz$。无穷支的本原实周期是
+$\Omega/17$，有限支可用 $\Omega$。相应规范函数写
+$x_D=\wp_{\Lambda_D}$、$\sigma_D'(0)=1$。定义
+$$
+ Q_D(X)=\prod_{T\in(D-0)/\{\pm1\}}(X-x(T)),\qquad
+ s_D=\sum_{T\in D-0}x(T).
+$$
+两个量都在固定的十七挠点域中。完整的物理 frame 与真实目标行是
+$$
+ \begin{split}
+ x_D(z)&=x(z)+\sum_{T\ne0}\bigl(x(z+T)-x(T)\bigr),\qquad T\in D,\\
+ \sigma(z)^{17}Q_D(x(z))&=e^{-s_Dz^2/2}\sigma_D(z),\\
+ H_j(z)&=e^{-s_Dz^2}\sigma_D(z)^2(A_j+B_jx_D(z)),\\
+ B_j&=H_j(0),\qquad A_j=[z^2]H_j+s_DB_j.
+ \end{split}\tag{U1}
+$$
+第一式由极与常数项确定。由 sigma 加法式，
+$(\log(x(z)-x(T)))''=2x(z)-x(z+T)-x(z-T)$。于是第二式两边的
+二阶对数导数同为 $-x_D-s_D$，原点首项均为 $z$ 且两边都是奇的，
+故等式准确。比较真实周期 $\Omega$ 的线性指数得到
+$q_D=17q+s_D$，这里
+$q_D=\eta^{D}_{\Omega}/\Omega,\ q=\eta_{\Omega}/\Omega$。
+无穷支换成本原周期也给同一比值。因此(S2)的共同物理指数
+$17qz^2$ 与该目标 degree-two reduced frame 的差准确为
+$-s_Dz^2$。其余固定倍率保留在 $H_j$ 中。目标偶截面除以
+$\sigma_D^2$ 的基是 $1,x_D$，比较 $z^0,z^2$ 即给后两式；
+两个系数的代数性亦由(S3)直接成立。
+
+九个 $B_j$ 均非零，这里能直接利用原 $b=(1,t_2e_8^{-1})$，
+无需猜测 CM 值。若 $\Theta_g(\tau',0)=0$，记
+$r=\theta_2(2\tau')/\theta_3(2\tau')$，则
+$r=-e_8/t_2$，因为 $\vartheta_{2,0}(\tau',0)=\theta_3(2\tau')$、
+$\vartheta_{2,1}(\tau',0)=\theta_2(2\tau')$，而 $\theta_3$ 在上
+半平面由 Jacobi 乘积不为零。由 theta 二倍公式，
+$\lambda(\tau')=4r^2/(1+r^2)^2$。于是
+$$
+ 1-\lambda(\tau')+\lambda(\tau')^2
+     ={1+14r^4+r^8\over (1+r^2)^4}=0,\qquad
+ r^4=-t_2^{-4}=-7+4\sqrt3.                            \tag{U2}
+$$
+椭圆 $j$ 公式给 $j(\tau')=0$，这要求端环为最大
+$\mathcal O_{\mathbf Q(\sqrt{-3})}$。而(S2)九个目标都具严格
+子序 $\mathbf Z+17\mathcal O_K$，矛盾。
+固定有限坏集外，全部 $B_j$、$C,D$ 为单位，且 $Q_D,A_j$
+各系数及 $s_D$ 整。由(S5)原质量零，准确有
+$B_\infty+B_{13}+B_1=0$。
+
+令 $d=p+1$，$c=[z^d]\log(\sigma/z)$，取同一惰性好素数。
+由(U1)在原 $z$ 上取对数，
+$$
+ \begin{split}
+ c_D&=[z^d]\log(\sigma_D/z)=17c+e_D,\qquad
+ e_D=[z^d]\log(z^{16}Q_D(x(z)))\in\mathcal O,\\
+ r_D&=c_D/(17c)\in1+p\mathcal O .
+ \end{split}                                                    \tag{U3}
+$$
+确实 $z^{16}Q_D(x)=\prod_{T/\pm}(W-x(T)z^2)$，$W=z^2x(z)$
+在 $d<p^2-1$ 这一窗内整，积的常数为一、非恒项从 $z^2$ 起。
+读 $z^d$ 的对数只用到 $(p+1)/2<p$ 的分母。最后用
+$v_p(c)=-1$。这里 $e_D$ 保留全部八个 $x(T)$。
+
+其模 $p$ 值也有原 $E_1$ 的有限公式。在 R301 的参数
+$x=t^{-2}$、$z=tL(t)$ 下，令
+$$
+ L(t)=\sum_{n\ge0}{(-1)^n\binom{2n}n\over4^n(6n+1)}t^{6n}.
+$$
+在至 $d$ 次的窗内整，$L(0)=1$。由
+$z^{16}Q_D(x)=L(t)^{16}\prod_{T/\pm}(1-x(T)t^2)$ 与
+Lagrange 反演，在 $\mathcal O/p$ 内有
+$$
+ e_D\equiv-16[t^d]L^{-1}
+       -{2\over d}\sum_{T/\pm}x(T)
+        [t^{d-2}]{L(t)^{-1}\over1-x(T)t^2}\pmod p.              \tag{U4}
+$$
+反演先给导数乘 $L^{-d}/d$ 的 $[t^{d-1}]$，而
+$L^{p}\equiv1\bmod(p,t^d)$：首个可能非恒项在 $6p$ 次。第一项
+$L'/L^2=-(L^{-1})'$，故(U4)两项的符号及 $d$ 的分母如示。
+所用精度及固定坏集全部针对物理曲线。由于 $\sum B_j=0$，三中心
+加权后的(U4)中第一项准确消去模 $p$。
+
+现在在各真实目标定义
+$$
+ \mathcal I_j(u)=\sum_{h\ge0}(2c_D)^{-h}
+  [z^{dh}]\{e^{-s_Dz^2}\sigma_D^2(A_j+B_jx_D)e^{-2c_Dz^d}\}(u)_h .
+$$
+它用了(U1)的**全部**目标二次修正。由(U3)，该 regularized
+级数的被抽系数函数等于
+$(H_j e^{-34cz^d})e^{-2e_Dz^d}$。前因子在 R301 的
+$R=p^{-1/(2p)}$ 圆盘中范数至多一；后因子及其逆在那里收敛且
+范数一，因 $v_p(e_D)+d/(2p)>1/(p-1)$。由于 $v_p(c_D)=-1$，
+$h\ge1$ 的 Newton 系数的赋值至少
+$\lceil h(p-1)/(2p)\rceil$。特别
+$$
+  \mathcal I_j(u)/B_j\in1+p\mathcal O\langle u\rangle,\qquad
+  J_p[H_j](u)=r_D^u\,\mathcal I_j(u).                           \tag{U5}
+$$
+后一准确恒等式可先在每个 $k\ge0$ 用有限卷积比较：
+两个非 regularized 分子同为 $k![z^{dk}]H_j$，分母之比是
+$r_D^{k}$。再由非负整数的稠密性成立于整盘。
+
+用 $j_0=\infty,j_1=13,j_2=1$ 仅表示三个分支标记；
+以下 $B_i,D_i,\mathcal I_i$ 按此顺序。定义两个整 Tate 单位
+$$
+ V_i(u)=(r_{D_i}/r_{D_0})^u
+      {\mathcal I_i(u)/B_i\over\mathcal I_0(u)/B_0},\quad i=1,2.
+$$
+由(U5)二者在 $u=0$ 均值一。对(S6)取导数并用 $\sum B_i=0$，
+得到同一个规范中央导数
+$$
+ {J_p'(0)\over3}=
+ B_1(\log V_1)'(0)+B_2(\log V_2)'(0).                          \tag{U6}
+$$
+其中各项准确为
+$(\log V_i)'(0)=\log(r_{D_i}/r_{D_0})+
+\mathcal I_i'(0)/B_i-\mathcal I_0'(0)/B_0$。
+所以(U4)所给的目标 Gaussian 比确实进入第一位；单个
+$\log(r_{D_i}/r_{D_0})$ 仍含 $d=p+1$，并且目标自身的两个
+单位导数留在(U6)中。即使在互补的 $p\equiv137\pmod{204}$
+（$\mathbf Q(\sqrt{-17})$ 普通），三个实际目标仍是
+$\mathbf Q(\sqrt{-3})$ 超奇异纤维。两个(U6)对数导数的固定
+代数全局单位来源及其非相消，均未由(U1)–(U6)证明。
+
+在正整数 $k$ 上还有连续分母均非零的读法。由(U5)及有限卷积，
+每一个实际标记都满足
+$$
+ v_p([z^{dk}]H_j)=-k-v_p(k!),\qquad
+ V_i(k)={B_0[z^{dk}]H_i\over B_i[z^{dk}]H_0}\in1+p\mathcal O .
+ \tag{U7}
+$$
+其中 $H_0$ 表示选定的 $H_\infty$。因此(U6)中每个对数导数
+也是固定代数 Jacobi 系数比的真实极限
+$\lim_{l\to\infty}p^{-l}\log(V_i(p^l))$。该极限使用随 $l$
+变化的代数数，不能直接作为某一个固定全局数的 $p$ 进对数。
