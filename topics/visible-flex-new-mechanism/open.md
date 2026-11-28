@@ -63,3 +63,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R647 新低η中心的实际输入
 
 [R647](results/R647-positive-liouville-gauge-finite-morse-profile.md)以新(2,3)/(3,5)激发对和正σ保完整谱，Tricomi正积分给全线径向合法性；新核有节点但都在同一负组件，额外整数零模必须按R639实际修复。四τ/高度1/2/固定buffer的[公开范围](notes/2026-11-28-r647-positive-liouville-finite-input-scope.md)只消费各自profile的真端数据、端口与曲率。完成输出后直接选择有限连接/有限角输入，不能移交旧R637符号，不能把线性Q/D采样半径当成非线性存在半径。
+
+### R646 同一宏观核心的真实有限误差
+
+[完整规则及消费者](results/R646-actual-finite-core-composition-certificate.md)只接自然完成的R631 μ1实际checkpoint与全部原binary64系数；法向角变量下直接包围P_J∘Ξ−(ρ²/R²−e*)/2，完整组合jet的有理Taylor上界逐区间闭合≤1/50000。已付常数/primitive/点jet/闭前缀和未闭栈可接续，真点反例只否定本比较门。当前未得到可消费的μ1，不启动虚拟核心；比较通过也只支付R640核心输入，连接的R645全部假设仍须自己闭合。

@@ -374,3 +374,7 @@
 ### 2026-11-28 09:19 UTC — R647低η新双核的实际有限profile
 
 全文核对谱值/两Laguerre核、全区间Tricomi积分不等式、Wronskian径向合法性、曲率/高度身份及端口变换；保额外零模及R639修复条件。代码四支各取自己同一σ/高度规范和端口，9绑定/AST一致；新增题外.github/workflows/visible-r647-positive-liouville-finite-input-20261128.yml，不重跑旧Morse范围。H旧详数转完整原note，未撤旧条件/费用。
+
+### 2026-11-28 09:21 UTC — R646实际宏观P的连续组合球消费者
+
+逐式核对法向角换元、ρ/e*/周长常数、sin/cos/平方根正规化jet及有理Taylor余项；按官方acb文档转发两平方根analytic标志。实现绑定原core schema/μ/全部偶系数，修正fmpq与Fraction比较，部分初始化/点jet也保paid状态。仅AST/来源接口检查，未本地科学、未开假核心范围。H仍保实际宏观源及全部完成义务。

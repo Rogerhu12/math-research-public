@@ -189,3 +189,7 @@
 ## R647：新有理激发双核与正Liouville因子的全径向中心
 
 [完整证明](results/R647-positive-liouville-gauge-finite-morse-profile.md)给s11/5、η²37/100、B3/100及(2,3)/(3,5)准确双核、交错节点、非零谱量子1/100；Tricomi正积分给u+η>0，正σ的Wronskian单调性给全线r_X>0。全部Cauchy/高度/主曲率和自己完整端口公式保同profile；额外整数零模仍须实际统一修复。[四个有限输入范围](notes/2026-11-28-r647-positive-liouville-finite-input-scope.md)已发布，50位普通求积和512区间读取不冒连续证书、真平尾或有限非线性角。
+
+## R646：同一实际有限P的连续组合误差规则
+
+[完整证明](results/R646-actual-finite-core-composition-certificate.md)把R640的全域2e−5误差门写成同一法向角区间上的完整差；真积分/正规化导数jet/有理Taylor比较给有限充分规则，逐左前缀闭合并保未闭栈。消费者绑定真实R631 μ1 checkpoint和原binary64系数，支持部分常数与完整点jet接续，不投影、不重拟或替换实际P。当前只证明验证规则和备妥实现，未执行、未授实际核心或全连接资格。

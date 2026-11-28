@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **da759a95964356fdb1a1bd10b9223982d2242dd4**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **74c501131c4f3b5c61493e7dc1fb669bb11d5c7d**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -48,7 +48,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [R631核心](results/R631-thick-core-at-radius-four-fifths.md)固定R=.8/ε.05，当前球1.032/reach.062预算保持，严格核心精化见R640。[硬核模型](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)保1451列、真实H/F2；.85旧资格不移用。
 
-[实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。完整J48/64/96、全部原行列，同J两RHS预测/求根、自动μ→1；fine及真Y双差分保留，已付fine复用。18000秒含1800末预留，每55分实际public pull查规则并恢复同source；主会话继续私库每小时pull。设计E可变，工作η1e−7/宏观fine2e−9只是阶段门；取得候选后冻结g精化，有限P误差/完整几何待付。
+[实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。保全部原行列、同J两RHS自动μ→1，fine/真Y差分及同态复用保持。18000秒含1800末预留，55分public实pull规则照查。设计E可变，取得候选后仍须冻结g精化/完整几何。[R646](results/R646-actual-finite-core-composition-certificate.md)给实际μ1有限P误差2e−5的完整组合Taylor球规则/接续源码，未执行，不重拟P。
 
 ## F：双核端口已得到准确非线性局部族
 
