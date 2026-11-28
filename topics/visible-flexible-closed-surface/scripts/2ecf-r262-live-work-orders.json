@@ -391,6 +391,72 @@
       "description": "在同一个实际R319三入口列状态与固定g上，加入正Jackson初密度的真实逆曲率热轨道、准确入口抬升、角依赖补偿高度及晚段C²门。完整XYZ/三列与一个物理热增益共同更新，真实完整Gram/曲率决定接受；独立621均匀角加六窗47真角。保存heat专用状态键，旧native/profile几何消费者拒收；先报告热增益1的真实完整观察，即使最后热步不接受。"
     },
     {
+      "id": "R319-actual-0350-two-free-scalars-all-full-rings",
+      "after": [
+        "R262-adjacent-low-ports-actual-frozen-metric-h1"
+      ],
+      "requires": [
+        "{W}/adjacent-low/fixed-h1.npz"
+      ],
+      "script": "2ecf-r262-adjacent-two-open-scalars-full-angular-target.py",
+      "sources": [
+        "2ecf-r262-adjacent-two-open-scalars-full-angular-target.py",
+        "2ecf-r262-centred-full-ring-height-and-angle.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--cut",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--adjacent-source",
+        "{S}/2ecf-r262-adjacent-cut-true-normal-angle-cauchy-refinement.py",
+        "--two-scalar-source",
+        "{S}/2ecf-r262-centred-full-ring-height-and-angle.py",
+        "--parent",
+        "{W}/adjacent-low/fixed-h1.npz",
+        "--angular-families",
+        "12",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/adjacent-low/h1-two-open-scalars.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/h1-two-open-scalars.json"
+      ],
+      "report": "{W}/adjacent-low/h1-two-open-scalars.json",
+      "fields": [
+        "schema",
+        "entrySHA",
+        "twoScalarSHA",
+        "parentSHA",
+        "seedSHA",
+        "stateSHA",
+        "fieldSHA",
+        "angularStrength",
+        "freePhysicalScalars",
+        "frozenMetricVariables",
+        "radialSpans",
+        "grid",
+        "initial",
+        "initialSecondary",
+        "accepted",
+        "physicalJacobianCheck",
+        "projectedInitialHoldout",
+        "independent",
+        "scope"
+      ],
+      "description": "R319同一冻结g上真正自由的逐环高度Z与水平切角β，由全D3中心化角原函数重建三维闭环，目标角速度进入完整E/F及所有交块带状求解；每span不同径行、16/27/49真法角。母场、投影初值、优化场在三网分别报；CubicSpline角积分及Pqq角导是有限求值，准确连续定义的G恒等式不冒作当前有限插值场证书。新专用状态需自身全几何。"
+    },
+    {
       "id": "R319-wider-two-moment-actual-full-cut-design",
       "after": [],
       "script": "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
@@ -678,6 +744,72 @@
         "scope"
       ],
       "description": "R321新实际三入口列状态的首个原外W单元，全三扇区真实六jet、冻结g、曲率/支撑/高度与两位置条件；解析24阶法角矩重新有向解准确a,b，三入口列自己的链导数。只登记本明列局部闭盒，不冒全外核。"
+    },
+    {
+      "id": "R321-two-moment-two-free-scalars-all-full-rings",
+      "after": [
+        "R321-two-moment-actual-frozen-full-span-h1"
+      ],
+      "requires": [
+        "{W}/adjacent-two-moment/fixed-h1.npz"
+      ],
+      "script": "2ecf-r262-adjacent-two-open-scalars-full-angular-target.py",
+      "sources": [
+        "2ecf-r262-adjacent-two-open-scalars-full-angular-target.py",
+        "2ecf-r262-centred-full-ring-height-and-angle.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+        "--cut",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--adjacent-source",
+        "{S}/2ecf-r321-two-moment-inlet-profiles-all-span-banded.py",
+        "--two-scalar-source",
+        "{S}/2ecf-r262-centred-full-ring-height-and-angle.py",
+        "--parent",
+        "{W}/adjacent-two-moment/fixed-h1.npz",
+        "--angular-families",
+        "12",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/adjacent-two-moment/h1-two-open-scalars.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/h1-two-open-scalars.json"
+      ],
+      "report": "{W}/adjacent-two-moment/h1-two-open-scalars.json",
+      "fields": [
+        "schema",
+        "entrySHA",
+        "twoScalarSHA",
+        "parentSHA",
+        "seedSHA",
+        "stateSHA",
+        "fieldSHA",
+        "angularStrength",
+        "freePhysicalScalars",
+        "frozenMetricVariables",
+        "radialSpans",
+        "grid",
+        "initial",
+        "initialSecondary",
+        "accepted",
+        "physicalJacobianCheck",
+        "projectedInitialHoldout",
+        "independent",
+        "scope"
+      ],
+      "description": "R321新两矩母线自己的冻结g上真正自由的逐环高度Z与水平切角β，由全D3中心化角原函数重建三维闭环，目标角速度进入完整E/F及所有交块带状求解；每span不同径行、16/27/49真法角。母场、投影初值、优化场在三网分别报；CubicSpline角积分及Pqq角导是有限求值，准确连续定义的G恒等式不冒作当前有限插值场证书。新专用状态需自身全几何。"
     },
     {
       "id": "R262-recover-actual-low35-cut",
