@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`90d55da207bd34dd2e9a03013601e75b8cc29305`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`43a5d2a100a8a74a57d9527a6bab51afb1f16faf`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[原观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -38,7 +38,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret62](computations/terminal-public-actions-retention-62-complete-delivery.json)退终态12–18的15旧index/parts，净225385B；全部24原返回/14历史queue/终态note/完整源参/精确5358ca恢复保。ret61两批净718241B、ret60净1929467B及ret59前链保旧H和总表。活输入/未知/parent91/ports/Nelder不猜删。
+[ret63](computations/early-terminal-public-actions-retention-63-complete-delivery.json)六早期终态43旧index/parts净1628109B；272原返回/55历史queue/158真实source及全源参/未知/5358ca逐字恢复齐。ret62净225385B、ret61净718241B、ret60净1929467B及ret59前链保各总表与旧H；活输入/未知/parent91/ports/Nelder不猜删。
 root真求解与26参数；construction容量；geometry R725准确全链；solver等价加速候选不混25/26。
 
 <!-- visible-larger-parallel-19:start -->

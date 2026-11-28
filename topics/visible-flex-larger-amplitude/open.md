@@ -133,6 +133,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 容量及完成
 
-[ret62](computations/terminal-public-actions-retention-62-complete-delivery.json)终态12–18旧index/parts15件毛338248B/新3件112863B/净225385B；全24原返回、14历史queue、终态notes/源参和5358ca精确恢复保。ret61两批净718241B、ret60净1929467B及ret59前链保各总表与旧open。原false/未知不补；旧reader恢复whole字输入，活输入/parent91/ports/Nelder不猜删。
+[ret63](computations/early-terminal-public-actions-retention-63-complete-delivery.json)六早期终态43旧index/parts毛1852233B/新5全件224124B/净1628109B；272原返回、55历史queue、158实际source、全部源参/结论/失败/未知及5358ca逐字恢复齐。ret62净225385B、ret61净718241B、ret60净1929467B及ret59前链保各总表与旧open。原false/未知不补，旧reader恢复whole原字；活输入/parent91/ports/Nelder不猜删。
 
 README全部标准未完成；时长、阶段、失败和输入困难都不是终点。新raw仅runner/scratch；保全源码/配方、run/whole SHA及真结论，继续求解和固定目标精化。

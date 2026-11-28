@@ -386,3 +386,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:17:34 UTC — R726球面端层完整条件定理
 
 完整27362B证明：球面弧光滑及O3协变，固定b显式速度θ替2tan(θ/2)；共同急角全均值强单调m≥b/4、b非扩张；k>b、k sinη>s*、k−c*<Lc给球冠内部唯一正根，s*≤b sin(θ*/2)、c*≥b(1+cosθ*)/2。全三维切向逆/两角链式账/中央幅度/两个真根扰动/完整位置和held前缀责任均证明。不推当前满足条件，不改25/26，不把旧R709/R722专用公式冒新机制。结果全文及单行索引直接发表，无新增审核/fixture门。双README云核至`90d55da207bd34dd2e9a03013601e75b8cc29305`无变（非pull）。
+
+## 2026-11-28 03:22:54 UTC — 六早期终态输出完整来源ret63
+
+43 exact index/parts毛1852233B；五完整新件224124B，净1628109B。六真实run01/02/03b/04/05/06分别success/cancelled/success/cancelled/cancelled/success；官方不冒子科学成功。272原返回逐fence全SHA/字节及固定5358ca0c0a2e48f66af6be474ba1a202d6a935c3 whole恢复，158followup完整argv/entrypoint对应162保留全step，55实际queue版本/158实际入口source/59全小源参归档结论保。04 pair50/05 seed19未返、06 stage42 science0/pure1与未知typed独立保；活19以后不动，无scientific rerun。全部源表/定位/provenance/note见ret63总表。双README云核至`43a5d2a100a8a74a57d9527a6bab51afb1f16faf`无变（非pull）。
