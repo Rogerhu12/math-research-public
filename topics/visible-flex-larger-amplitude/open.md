@@ -120,9 +120,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 [46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：46168504031完整12stage/双69相/各7闭网全返，末同点整网g1.42695/1.42194、K883724/36017，有限细化失败；原初几何/参考经向与全源参仍保。
-[R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：原四支三层24科学报告全返并独立登记；末全帽Gram3.26e5–8.99e6，shoot端残差.0141/.0191，未完成全g/厚度。完整源/系数/相位/25文三身份保原note；最终真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee。
-[R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：两支三层18科学报告全返；最高root约3e−13却高阶端残差9.85e−8/2.90e−5，全帽Gram79257.9/47203.4，未达标。全19文/18源/系数/相位核同；最后发布真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24。
-[R772/48](notes/2026-11-28-R772-and-run48-complete-coherent-shear-launch.md)：原12阶段及两组69相/七网全部返回；最终同g误差.284705/.556472，未达标。全16报告三身份及各真物理点已独立登记；参考厚管不传给拟合场。最终真pull e316b72d5286f11b2ee174e18fb4c51f16181911。
+[R769/R771/48已完整登记](https://github.com/Rogerhu12/math-research-public/blob/b30c290c42c366f3eaccfaebb6500e2ade231d1c/topics/visible-flex-larger-amplitude/HANDOFF.md)：原全部报告/源/系数/相位三身份和各最后真pull保ownnote；三任务有限同g误差均未达标，已闭marker退休，原解析局部范围不扩张。
+
+
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。 [49完整两族](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)15源/六初点+双4/8/16及双终网启动，真全像位移底限直接入场。
 
@@ -139,3 +139,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 闭连通C²嵌入/全t强C²、同固定g；D整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻整mesh；仅靠渐近参数压固定缺陷不算。根§15完整源参/run/whole identities、raw留runner。先全标准，再提高三比值。
 
 19–32全部终态、36–39完整阶段、39未访flow/39b异点及R724–750条件保原proof/notes/固定旧链。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit和7步不减，35原pure74162未返；RET100H–M旧完整恢复链保留。[N](notes/2026-11-28-RET100N-complete-closed-parameter-recovery.md)111整参/61父；[O](notes/2026-11-28-RET100O-complete-closed-source-recovery.md)118整源/40父ROOT逐字三身份同，19run/38job终态、698保护全文核完，净释4474077B。
+
+[R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。

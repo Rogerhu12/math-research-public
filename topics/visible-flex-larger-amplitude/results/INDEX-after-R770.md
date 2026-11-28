@@ -19,3 +19,5 @@
 - [R778：同R776 g的完整有限频率近等距族与厚度费用](R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)，[九图二jet](../scripts/resume_20261126/r778_normal_periodic_closed_corrugation.py)。全相相对Gram≤2(16000/n)+(16000/n)²；n=4×10^10可过1e−6，n≥2×10^6全闭嵌入，真曲率>100n使reach趋零。明确不能支付题目第5条/厚度，转入可动锚低频全场。
 
 - [50：R776固定g三族完整全场求解](../notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)。九粗起点、三族各4/8/16共18阶段，各69相/七闭网；两谱曲率不等式与最坏96个全Gram点入真实目标，仍独立支付拟合后的全部标准。
+
+- [R781](R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新真圆三波闭球，同g有限径向改动全时reach≥1/24.45、D<1.362、held>.320、含反射商距>.096；全域Gram上界改善>.013仍非准确。自由整空间环无短胞锚、三个最坏环全g，其他轴向/混合及整管待付。
