@@ -4,7 +4,7 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `e3816d230ee1d0d0a7c06d68f218afa0c1591cf0`（2026-11-28 16:19 UTC）。
+- 最近实际pull后双README已读锚 `a445d5f43384dab190db463206a188cb9d00894e`（2026-11-28 16:36 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 6c4bb67a33d0cd7ef5aeb9c38860c1f169f35a17，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
@@ -24,9 +24,9 @@
 ## 2. 旧 λ.002/raw-H 的完整闭图与连续证书
 
 实际879点source run1ad16826…/physicalb9a61ae8…；[完整fullH/J/audit](notes/2026-11-28-tail-actual-complete-fullH.md)packet81f6eb0f…：1152段/55344未知、residual3.65238e−10、1776 heightJ，normalizedFullDefect1.964293876e−5保留。
-[完整C² bundle](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)3b312be5…含170平面/25高度模、18460 spans、1151公共两jet、global mean161eec0d…；未换场/均值。原全几何遍全域，metric17644已付/816待补，Kmax10.017503096；stage82内部K<10 false保留，deep与投影单射已付。
+[完整C² bundle](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)3b312be5…含170平面/25高度模、18460 spans、1151公共两jet、global mean161eec0d…；未换场/均值。原全几何遍全域，Kmax10.017503096；stage82内部K<10 false保留，deep与投影单射已付。
 
-[v4恢复](notes/2026-11-28-tail-metric-recovered-state-and-v4-resumption.md)保原79580返回码未知及62完整stage、526旧文件hash；独立D目录继承全部62段后从stage62续原Taylor，快照86段，TTY47300继续。原失败/ancestor/leaf身份不删，metric门仍1e−6。[collector](scripts/resume_20261128/tail/closed_map_complete_metric.py)SHA4a2a799b…已恢复发布，未收总成功。
+[R90完整metric](results/R90-complete-closed-all-phase-metric.md)现真闭合：1152段/18460 spans中17644旧证直接复用、816由817 Taylor叶补清；3122文件核同。v4 TTY47300与collector/R89传递TTY45524均真exit0，全域/全phase界9.97128585114805e−7<1e−6；canonical与新盘各自固定g适用。原79580返回码仍未知、原audit/失败不改；非最终coupled-H或λ1。
 
 R79实际width=.12完整cut前缀metric<99/1e8，.04/.01真点反例已排，所有图显式--cut-width .12。R80付同原点整尾/deep/盘几何，R81付双尾第三通量；完整r(R)=R/r′1/r″0及真正背景高度见原小note，不搬旧场界。
 [R82](results/R82-actual-marked-closed-family-all-time-geometry.md)取真实binary(.0025)半柱和正canonical帽，全时C²嵌入，D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123，reach/D>.03408815。总ell非精确1/200。

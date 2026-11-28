@@ -1,0 +1,183 @@
+{
+  "status": "R90_actual_complete_closed_all_phase_metric_and_R89_fixed_disk_target_certified",
+  "observed_UTC": "2026-11-28T16:14:18.424213+00:00",
+  "complete_finite_tail": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-d/summary.json",
+    "sha256": "d06869756f00b1ca37efcd5e67b61da906f5d483aead4d8f8aace9f9e69a6ab6",
+    "bytes": 533226
+  },
+  "complete_original_canonical_closed_metric": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/closed-complete-metric-recovery-20261128-a/summary.json",
+    "sha256": "57ef6e7a86ab6ad6206df6134be31c8c9b174858a69482ac7a4c7b0fba49286a",
+    "bytes": 10148
+  },
+  "complete_R89_closed_metric": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/complete-metric.json",
+    "sha256": "8f02cdd036a5ddc06662691365a77de485392ba33c84b6a346346bf7f6d16d54",
+    "bytes": 4504
+  },
+  "finite_controller_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/finite-metric-v4-terminal.json",
+    "sha256": "2b2e0f2c734ffcc4b4e8cc7c975f34505a45e8309777856bfd0b9d2a920e0714",
+    "bytes": 1253
+  },
+  "successor_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/complete-metric-successor-terminal.json",
+    "sha256": "22d6d33e2c2a6ec98bf5a0c6d6ce1e44cac92f2f81a66b561a9b1ba6cdb2cd72",
+    "bytes": 5158
+  },
+  "finite_controller_actual_returncode": 0,
+  "canonical_collector_actual_returncode": 0,
+  "R89_transfer_actual_returncode": 0,
+  "finite_controller_stage_loop_seconds": 2020.789238448,
+  "canonical_collector_actual_wall_seconds": 1.5857060979978996,
+  "R89_transfer_actual_wall_seconds": 0.03894778300309554,
+  "predecessor_v3_actual_returncode_still_unknown": true,
+  "complete_finite_stage_count": 1152,
+  "complete_literal_span_count": 18460,
+  "original_passed_spans_reused_unchanged": 17644,
+  "original_unpaid_spans_paid_by_same_map_Taylor": 816,
+  "Taylor_proof_leaf_count": 817,
+  "proof_subdivision_only": [
+    {
+      "stage": 22,
+      "original_span": 16,
+      "leaf_count": 2,
+      "exact_proof_partition": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "actual_complete_previous_stages_inherited": 62,
+  "actual_prior_durable_files_hash_checked": 526,
+  "immutable_proof_files_checked_by_final_collector": 3122,
+  "prefix_metric_operator_upper": {
+    "upper": 9.899331346061255e-07,
+    "upper_exact": "1168706763786513/1180591620717411303424"
+  },
+  "finite_tail_metric_operator_upper": {
+    "upper": 9.97128585114805e-07,
+    "upper_exact": "352373167283915878642769742048146729928583323001162610457636353416629463782464725075730745883114220084591668999029648199/353387890533040178113381578125177740001105311530730266394825021409972856707600811564636873774314101999460097341611580797747200"
+  },
+  "deep_collar_metric_operator_upper": {
+    "upper": 1.4617380072747594e-29,
+    "upper_exact": "91358625454672460725879633314342053032640847934852617353858561516569231404335635660850008874520450112682269077525650255818531088177885879557929704045754375929146169633889/6250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "complete_closed_metric_operator_upper": {
+    "upper": 9.97128585114805e-07,
+    "upper_exact": "352373167283915878642769742048146729928583323001162610457636353416629463782464725075730745883114220084591668999029648199/353387890533040178113381578125177740001105311530730266394825021409972856707600811564636873774314101999460097341611580797747200"
+  },
+  "largest_original_passed_bound": {
+    "stage": 94,
+    "original_span": 12,
+    "upper_exact": "352373167283915878642769742048146729928583323001162610457636353416629463782464725075730745883114220084591668999029648199/353387890533040178113381578125177740001105311530730266394825021409972856707600811564636873774314101999460097341611580797747200"
+  },
+  "largest_Taylor_bound": {
+    "stage": 22,
+    "original_span": 16,
+    "upper_exact": "73216696436737382873505150355326409835452543611582544111498356037546497824453230993684554805832992417288538926322456869126566626018635556950294275149027312240715410616473587306283389418410981852359415454074184322722630351612105958055925299665280489897/90438385497151994685465824138407972842321410295135018598963094640026940057935921558518242548814505225012500890519585496496337987599231130362271915985039876877951464478116786456448226384644668978609854522374873460189032444730124648861282124770366117327667200"
+  },
+  "exact_metric_gate": "1/1000000",
+  "same_field_source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "same_full_unscaled_raw_height_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+    "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+  },
+  "same_complete_geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "same_entire_mean": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/original-native-mean-chain.json",
+    "sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9"
+  },
+  "true_physical_radius_identity": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fullheight-lambda002-complete-radius-identity-20261128/radius-identity.json",
+    "sha256": "20c20e5ce9205290d9ac13d59717ce105eabda4fb588c871f407d74d6efa8891"
+  },
+  "same_actual_cut_prefix": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/summary.json",
+    "sha256": "39ac427fb4cfcfcd0803cf3f49af1d0c631e9e665067e8ca586cbff942a4a97c"
+  },
+  "same_actual_complete_geometry": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/closed-marker-column-geometry-20261128-a/summary.json",
+    "sha256": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c"
+  },
+  "original_allocation_failures_preserved": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-certificates-001/summary.json",
+    "sha256": "824fc92ebdd98f1ff04a311a2aaeaf525291f8e2ba4a7efbd103166f963b44ee"
+  },
+  "spectrum": {
+    "finite_M": 24,
+    "native_angular_samples": 512,
+    "all_planar_modes": 170,
+    "all_height_modes_including_mean": 25,
+    "declared_finite_degree": 254,
+    "original_Gram_frequency_bound": 508,
+    "continuous_source_projection_error_assumed_zero": false,
+    "quadratic_mode_cutoff": 12,
+    "all_higher_quadratic_products_kept_in_rigorous_remainder": true
+  },
+  "source_files": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_true_w_taylor.py",
+      "sha256": "9b3a6d07cf27149e6af48fb1280d2fbb02a6964af8e00f8cbee4a159edea3e3c",
+      "bytes": 14902
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_v2.py",
+      "sha256": "ad10604269a322d33f26f5e9e926d68d06b6ca8f836437ecf0ed585384abd115",
+      "bytes": 22786
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_storage_v3.py",
+      "sha256": "b627b46fe8e75bb1672bb6d2de0a7e2e7d3d3c99e799d7fa22d01c9ccbae4e55",
+      "bytes": 21213
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_recovery_v4.py",
+      "sha256": "3c266b03dcb1d33b1bb581d10a41a5f6491f92cf7823b8b8bedf7da19ec0f3e9",
+      "bytes": 26560
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/closed_map_complete_metric_recovery_v2.py",
+      "sha256": "dcec6b1957c481aab03e6d8446d198e55b2f7e1d51919944907f772f8773057f",
+      "bytes": 18147
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/sharp_marker_complete_metric_transfer.py",
+      "sha256": "7c335db9aa785dad79403772a62f1b3580df6c7bf4dbf3c5dda3f00a55bfdca0",
+      "bytes": 6857
+    }
+  ],
+  "same_canonical_target_kept_through_supplement": true,
+  "R89_target_changed_only_once_on_two_fixed_disks": true,
+  "each_target_fixed_on_whole_surface_for_every_phase": true,
+  "new_cylinder_and_marker_metric_error_exact": "0",
+  "all_angles_all_radii_all_phases_included": true,
+  "geometric_map_mean_spectrum_or_parameters_changed_by_supplement": false,
+  "already_passed_Gram_Taylor_or_geometric_bounds_recomputed": false,
+  "original_K_less_than_10_false_record_changed": false,
+  "current_full_geometry_K_upper_exact": "123/10",
+  "family_scope": "The declared R82 lambda .002/M24 879-node raw-H family and the R89 fixed-cap replacement; not the unfinished generic 8-outer physical-H family.",
+  "exact_lambda_one_or_ten_percent_held_region_claimed": false,
+  "fixed_complete_problem_refinement_convergence_claimed": false,
+  "exact_isometric_limit_claimed": false,
+  "README_completion_claimed": false,
+  "formal_proof": {
+    "path": "results/R90-complete-closed-all-phase-metric.md",
+    "sha256": "7574a514e8e4609846d163c5f272e33712a425d3e1b442b9ef3b28b0bca09be4",
+    "previous_draft_note_sha256": "3bd60f9d1b1ae0e053622209bf2b2419b396b21e3a1bc05c9b614fa09f42de65",
+    "display_only_prefix_upper_rounded_outward": "9.899331346061256e-7"
+  }
+}

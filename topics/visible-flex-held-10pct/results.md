@@ -243,3 +243,7 @@ R86 后续实际入口：[当前CLI修复与真实完整构造器](notes/2026-11
 ## R89. 更紧的完整谐波帽界与增强固定标记
 
 [完整证明](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)。四个准确正多项式/九个Bernstein叶给单位帽高度≤1/15、gradient≤4/5、Hessian≤17/2；在原真实完整平盘取准确ε=56000ε82，新帽K≤11.9并保持R82全部D/support/reach界。端点张量差为R86准确35倍，R88给全E(3) dE>7e−17、δE/D>7/(2.4e17)；准确证书和完整构造器真实exit0。只变固定盘g，非旧g精化或λ1完成。
+
+## R90. 同一实际完整闭图的全域、全相位连续 metric
+
+[完整证明](results/R90-complete-closed-all-phase-metric.md)。原1152段/18460 spans 已全部覆盖：17644旧成功证书直接复用、816原缺项由817个同图 Taylor 叶付清；3122文件身份核同。canonical和R89各自固定目标均有全metric≤9.97128585114805e−7<1e−6，真实v4/collector/传递全部exit0。旧λ.002/raw-H、原audit和K<10 false保持，准确λ1/held10%及同g精化仍未付。
