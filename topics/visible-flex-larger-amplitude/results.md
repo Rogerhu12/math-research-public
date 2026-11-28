@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R745（已证明，等长极子午与完整横向Jacobi返回）**：[厚闭球的真等长倾镜与物理Jacobi走廊](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md) — 真平滑转角方程在γ∈(.47,.50)有唯一根；完整厚闭参考全相位D<3.45、held≥.717、单一固定上握持diam≥.75、reach≥.108，0<δE≤.002。贯穿|y|<1的真实曲率修正精确给带标t=0参考的同长极子午与整个4ℓ周期横Jacobi值/导数，三固定标记支撑严格离开该测地线。过渡环和完整端/盖的二维同g、Killing与真精化仍待解，不能用一维返回冒完整柔性族。
+
 - **R744（已证明，完整厚闭参考及真实曲率修正）**：[完整挤出闭球、全像法管与曲率缺口](results/R744-closed-extruded-bent-disk-global-reach-and-curvature-gap.md) — 全相位闭C²嵌入、D<3.40、held≥.719、grip>.689、δE>0、全有序对reach≥.108；两真弯盘、完整端环/盖与精确支撑/主曲率给全局法管。真实有限法图引入内禀曲率且保全部几何界，但仍留贯穿平周期带，不能延拓握盘旋转Killing；左/右子午长也不匹配。只作已付全几何的实际初场，过渡环全同g未付。
 
 - **R743（已证明，含反射的欧氏商判据及机制上界）**：[三固定标记、完整体矩与刚体商幅度](results/R743-three-fixed-markers-rigid-quotient-and-centred-body-moment.md) — 对实际闭嵌入全像，中心极矩给Jπ−J0=4CxBx/V，37只需同点完整Cx排零；另一条允许三大接缝的C³非C⁴整圆判据锁定全部E(3)。同旋转未标像/固定小图机制恒有δE≤hmax，故37理想场δE/D≤1e−5。均为条件证明，当前候选的全闭几何、真held和严谨Cx还须支付，微小商距不冒宏观去刚体变形。

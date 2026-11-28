@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`65f08e1bdfa52520251bdd9762408b5676f5295d`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`571053c9e323382de548b9f0b645e4446a28051e`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -32,6 +32,8 @@ R724–739全部范围/源参/实际失败保[索引](results.md)、固定H及�
 [R743](results/R743-three-fixed-markers-rigid-quotient-and-centred-body-moment.md)全E(3)体矩/三标记条件给δE>0；同旋转未标像机制δE≤hmax，37理想场δE/D≤1e−5。完整Cx/几何未付，继续改善商距。
 [R744](results/R744-closed-extruded-bent-disk-global-reach-and-curvature-gap.md)完整厚闭参考已付全相位reach≥.108、D<3.40/held≥.719/grip>.689/δE>0，完整六jet现刊；所有所列有限法图仍有贯穿平带Killing障碍，过渡环同g及真实精化未付。
 
+[R745](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md)新等长倾镜闭参考，带标t=0真实子午Jacobi全周期返回；全相位D<3.45/held≥.717/grip≥.75/reach≥.108，0<δE≤.002。三标记已离y=0，完整source现刊；二维同g/圆端Killing与真精化仍未付。
+
 R732完整准确13件与下游14件已main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤不减，待35同点whole费用。R726–730所有旧准确包完整保护，原路径及费用保open§7和固定全文。
 
 <!-- visible-larger-parallel-33:start -->
@@ -52,5 +54,5 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r738-publish-->R738 [415片](notes/r738-actual-gap-46139897443-1.json) 双README真pull a9c5431fa8eef03034309c5cad77f7accac022a0
 <!--run36-bent-disk-->36 [实测](notes/run36-bent-disk-46141466656-1.json) 双README真pull 04a84e37dd4e5046ea8e95b2d012a62fb6da4872
 <!--run37-bent-disk-arclength-->37 [实测](notes/run37-bent-disk-arclength-46142745238-1.json) 双README真pull 7cbc888f2f2ce772dcf3c99fe45dd0da3d6c0f29
-<!--r742-publish-->R742 [13设计全六jet](notes/r742-actual-two-jet-46145500268-1.json) 双README真pull 7eba9af2a6cf5d15e042552f19b99d2221f2297d
 <!--run38-bent-disk-killing-->38 [实测](notes/run38-bent-disk-killing-46145189191-1.json) 双README真pull b9c53af246850cad3e9d2784c381391b4104eb38
+<!--r742-publish-->R742 [13设计全六jet](notes/r742-actual-two-jet-46145500268-1.json) 双README真pull 7eba9af2a6cf5d15e042552f19b99d2221f2297d
