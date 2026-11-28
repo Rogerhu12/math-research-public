@@ -4,7 +4,7 @@
 
 ## 规则、访问和来源
 
-公开最近成功的终端 pull/双 README 检查为 **3bbf2a55692c7986dfdb391fc46b4c4593cfd2d5**；环境失效前最后本课题终端推送 R715 为 **14438fb45fb7e617c4eae0c230396ab4b305600e**。私库最近成功的终端 pull 为 2026-11-28 13:40:01 UTC、**8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**。14:32 私库 pull 因磁盘满失败，随后执行环境不可用；不能登记为成功 pull。
+公开最近成功的终端 pull/双 README 检查为 **91d8280df9abff6565dbd75fb3e5a1f6a10acf57**；环境失效前最后本课题终端推送 R715 为 **14438fb45fb7e617c4eae0c230396ab4b305600e**。私库最近成功的终端 pull 为 2026-11-28 13:40:01 UTC、**8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**。14:32 私库 pull 因磁盘满失败，随后执行环境不可用；不能登记为成功 pull。
 
 终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **986755576586b6f3a03e0e5e237050dcb5e80b6c**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
 

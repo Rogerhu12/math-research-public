@@ -1,0 +1,50 @@
+name: Read completed physical fields and recover the R714 terminal
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/visible-completed-receipt-detail-20261128.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-completed-receipt-detail-20261128
+  cancel-in-progress: false
+jobs:
+  recover:
+    name: Read the bound terminal archive and the completed R714 receipt
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /topics/visible-flex-new-mechanism/scripts/completed_receipt_recovery_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/completed_receipt_detail_20261128.py
+      - name: Check the exact detail receiver source
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          p=Path('topics/visible-flex-new-mechanism/scripts/completed_receipt_detail_20261128.py')
+          b=p.read_bytes()
+          if len(b)!=23648 or hashlib.sha256(b).hexdigest()!='7f32ba4b50cfc92731980e55878bed2c7b252652850629d7729996b746296ecc':
+              raise SystemExit('Detail receiver source binding differs')
+          PY
+      - name: Recover verified finite fields and remaining original terminal
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/visible-flex-new-mechanism/scripts/completed_receipt_detail_20261128.py
+      - name: Preserve observations and the exact R714 continuation state
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-completed-receipt-detail-${{ github.run_id }}-${{ github.run_attempt }}
+          path: completed-receipt-details/
+          retention-days: 30
+          if-no-files-found: error
