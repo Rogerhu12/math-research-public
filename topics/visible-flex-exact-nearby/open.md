@@ -171,3 +171,6 @@ NRO：同一完整raw strict任意反向两点L2增益<8.22，mean rank的正交
 
 
 ASQ1：原phase realization将waist amplitude作为输出；WOB已消费完整97/96/mean边界。严格particular两scalar列(cP,0;cH,1)可精确消，剩余D−dH−(r−dcH)P/cP。实际有限槽J+97与完整nonmean phase保；CFC100×97并非方阵，high吸收后须另核pivot。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ2：同真selected尾部fB=FB wγ，完整切迹微分T=FB Vγ P⊥DCQ；whole函数图行消元为A+BT与f−Be，全部source/world读出同回代。joined界面只有一个共同λ，span为输出或独立兼容条件；不能将旧97-row小费冒成任意WOB逆。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

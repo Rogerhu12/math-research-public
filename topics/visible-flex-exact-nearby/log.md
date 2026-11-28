@@ -308,3 +308,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 09:55:35 UTC / visible-exact-astra-b0d5a16-20261128：ASQ1。原phase realization将waist amplitude作为输出；WOB已消费完整97/96/mean边界。严格particular两scalar列(cP,0;cH,1)可精确消，剩余D−dH−(r−dcH)P/cP。实际有限槽J+97与完整nonmean phase保；CFC100×97并非方阵，high吸收后须另核pivot。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actualsquare-phase-amplitude-and-single-world-height.md","bytes":9137,"sha256":"46d63f261d527dc07c66ea464361c091688221d278ff91055f082750beb2790d"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actualsquare_phase_height.py","bytes":2274,"sha256":"297a83a0150e8cd47f6f600d299d8fb31a1142e29e26232707027fb1f4bc9b08"}]。
+
+
+2026-11-28 09:55:47 UTC / visible-exact-astra-b0d5a16-20261128：ASQ2。同真selected尾部fB=FB wγ，完整切迹微分T=FB Vγ P⊥DCQ；whole函数图行消元为A+BT与f−Be，全部source/world读出同回代。joined界面只有一个共同λ，span为输出或独立兼容条件；不能将旧97-row小费冒成任意WOB逆。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actualsquare-selected-far-graph-and-height-span.md","bytes":6446,"sha256":"24a5a0634c692e6f732aa2fd237fd1b451b188ef54a5cf821b0ea726bbfeacb1"}]。
