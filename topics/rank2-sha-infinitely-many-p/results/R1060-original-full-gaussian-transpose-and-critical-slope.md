@@ -79,12 +79,12 @@ $H_{{\rm an},i}(Z,W)$ 是实际 adelic word 作用后的完整
 
 在所选经典坐标完成该 word 的实际 graded arch 运输以后，
 完整未分离核可明确写成
-$
+$$
  H_{{\rm an},i}(Z,W)=\mathcal T_i\!\left[
   e^{-c(\operatorname{Im}\tau)ZW}
   e^{Z\bar z+Wz}e^{2\pi i a|z|^2\tau}\right]_{\tau=\tau_i}.
  \tag{3a}
-$
+$$
 这里 $\mathcal T_i$ 是同一固定 finite-Schwartz、格点及
 $h$-角色操作；所有运输的系数、变量作用和权因子先按该
 graded 运输保留，不把一个尚依赖 $\tau$ 的 arch 操作
@@ -310,20 +310,20 @@ $H_i^\Delta$ 证明新的 $p$-adic 收敛半径。
 ## 4.1. 同一个二维核上的真实 p-adic cross Gaussian
 
 由于 $\rho_i\ne0$，置
-$
+$$
  \beta_i=-C_i/\rho_i,\qquad
  \widetilde H_i(Z,W)=e^{\beta_iZW}H_i(Z,W).
  \tag{16a}
-$
+$$
 在形式幂级数环中，每个固定二元槽的乘积只有有限项。
 于是(15)等价于
-$
+$$
  \boxed{
  m_{i,n}=\Omega_i^3\rho_i^n n!(n+2)!
            [Z^nW^{n+2}]\widetilde H_i .
  }
  \tag{16b}
-$
+$$
 确实，右端的第 $\ell$ 项含
 $\rho_i^n\beta_i^{n-\ell}/(n-\ell)!
  =\rho_i^\ell(-C_i)^{n-\ell}/(n-\ell)!$，
@@ -334,7 +334,7 @@ $\rho_i^n\beta_i^{n-\ell}/(n-\ell)!
 $v_p(\Omega_i)=-\tau$、$\tau=p/(p^2-1)$，
 $v_p(\kappa_i)=0$、$v_p(C_i)=2$，且 $a=17/2$ 为单位。
 故
-$
+$$
  \boxed{
  v_p(\rho_i)=2-2\tau,\qquad
  v_p(\beta_i)=2\tau,\qquad
@@ -342,7 +342,7 @@ $
  \ge \frac{r}{p+1}\quad(r\ge0).
  }
  \tag{16c}
-$
+$$
 最后用 $v_p(r!)\le r/(p-1)$ 及
 $2p/(p^2-1)-1/(p-1)=1/(p+1)$。
 因此 $e^{\beta_iZW}$ 和 $e^{-\beta_iZW}$ 都属于完整闭
@@ -482,12 +482,12 @@ Haar/Weil/Artin 系数也计入同一个误差门。
 (24)以(23)的原显示系数精确保留为前提。
 若系数也以近似值计算，令其误差为 $\Delta B$、槽误差为
 $\Delta h$，还须逐项保持
-$
+$$
  v_p(\Delta B)+v_p(h)\ge m_*+H,\qquad
  v_p(B)+v_p(\Delta h)\ge m_*+H,\qquad
  v_p(\Delta B)+v_p(\Delta h)\ge m_*+H .
  \tag{25}
-$
+$$
 这同时保原 $\Omega_i$ 等实际 $p$-adic 常数的输入精度；
 没有把一个未计算 period 当成免费精确数。
 (24)--(25)仅需有限个真实槽；它们没有要求每个分量的

@@ -93,6 +93,8 @@ R1049完整 proper FP/Čech/Frob、全NS与CM Hodge、FL局部格均付：\(AJ(Y
 
 R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留。R979固定7993 Selbal/strict核与R940全双新κ不判端点，Artin/fine Selmer及已核外部定理负边界沿完整归档，不重做已排输入。
 
+R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36点非零；不能由此赋P2(T)非零或删全native连接项。后继仍用实际非齐次配对及同M高尾。
+
 ## O厚点：唯一原完整 v13，持续消费真实终门
 
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。

@@ -151,3 +151,10 @@ R1060把同一裸Q2来源的完整临界斜率逐word转置到原双Gaussian核�
 R1060§4.1把同一inverse-Maass精确写成真实p-adic cross Gaussian：β_i=−C_i/ρ_i，m_n=Ω_i³ρ_i^n n!(n+2)![Z^nW^(n+2)]e^(β_iZW)H_i。原最大阶单位基给vβ=2p/(p²−1)、系数至少r/(p+1)，所以该Gaussian及逆为整闭单位双盘Tate单位。没有认复c/γ²或原z^(p+1) canonical completion，也不据此给H_i及各rank-one分量范数、删尾或新零；全部精度仍由原whole测度支付。
 
 [完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)。
+
+
+### R1053 §12：同一 Z 的全部三十九核点
+
+R1053§12将原M=1参数Z在α=δ(4+ω)的全部39核点逐点定清：零集恰为kerδ，其余36点非零。原十三核的定向fπ、真实λ_U及两种±S addition给两个固定resultant，坏素因子仅含原小集及19、31、43；p>13^4的既定范围全适用。保原ρ_pc_p=1、完整torsion模型与全部分母，不据此给P2(T)单位、降二挠极帽或拆canonical trace零。
+
+[完整证明](../results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)，(Z1)–(Z9)。

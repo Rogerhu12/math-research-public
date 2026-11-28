@@ -12,12 +12,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则和认领
 
-readonly run46075603971/job140823640994，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 01:46:50UTC实际partial clone/pull至d4b4b76db587abdd085d0a851c932f19ea7ade6a。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库01:46:55UTC实际至e336dbff8347f32a6fb12a8bf25279fe09978f2f。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与01:43已读版相同，无差异。QUEUE blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行已直接核为本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
-- 日志14886B/SHA256 6a62e239c3a7b9121a50056b07975a9d6b45fa1cb152345a6d76e34fd0daf89f；库存3168blobs/44,644,813B，treee57c9136d9daf912c5fad0049f66a05dff732adb，无>5MB，三旧必要gzip不变。
-- 每推前重跑最新成功readonly job并消费。最迟2026-11-28 02:46UTC再次实际pull两库。ref竞争先本地pull，无环境则CI实际pull，读新差异后继续，不用API比较冒pull。
+readonly run46075603971/job140825198519，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 01:53:03UTC实际partial clone/pull至e0f9972ec3e6dbd5b3511d6cc3740f4a9f8dc66b。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库01:53:07UTC实际至c192c559e58f0138eaca7f862a94fa641931d587。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与01:46已读版相同，无差异。QUEUE blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行已直接核为本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
+- 日志14887B/SHA256 0b5836dd30f7b16048071c522d33b92f13a81e20f3a3ee610193071e22a0ce2a；库存3168blobs/44,650,022B，treee1531deaf11da60b53797bb84e2cf71bfc976571，无>5MB，三旧必要gzip不变。
+- 每推前重跑最新成功readonly job并消费。最迟2026-11-28 02:53UTC再次实际pull两库。ref竞争先本地pull，无环境则CI实际pull，读新差异后继续，不用API比较冒pull。
 - 本地07:20失联，01:46推送竞争后实际pull --rebase重试仍无环境；末次本地07:12至1cf10ac。API、CI、本地分记。
 
 ## 唯一原完整厚几何v13
@@ -50,7 +50,7 @@ readonly run46075603971/job140823640994，workflow source e5309ee152260aa4aef389
 
 [R1026§9](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)所有H≤p−6保H+1精度/非零质量/两Gaussian；[R1028§9](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)全权差cpA^p²Tt^p，全39核点≥p(Ht+1)，原c≤4逐纤维无留数；c<6t盲，c6/t1仅候选，不预付非零。
 
-[R1053](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)付原B12商/全324投影、原E3969必要首行、全部Miller/零极及39支trace。新增§§8–11付13维4jet与全39维长12修改，真正P10配对保Gα=rα^10P2^195/(P10∘α)的全极/连接费用。其二挠极194d_p−8p，几何4/12jet不是native极帽。source390/target10的p曲率不匹配，排免费scalar CM/Miller gauge，水平Hom=0；完整非齐次配对仍有效。c6端点的表面六极被投影六零抵消；不由一条canonical trace迫39个Hom分量零。geometry回A18同M高尾消元。
+[R1053](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)付原B12商/全324投影、原E3969必要首行、全部Miller/零极及39支trace。新增§§8–11付13维4jet与全39维长12修改，真正P10配对保Gα=rα^10P2^195/(P10∘α)的全极/连接费用。其二挠极194d_p−8p，几何4/12jet不是native极帽。source390/target10的p曲率不匹配，排免费scalar CM/Miller gauge，水平Hom=0；完整非齐次配对仍有效。c6端点的表面六极被投影六零抵消；不由一条canonical trace迫39个Hom分量零。§12全39核的Z零集恰kerδ，余36点非零；两个固定resultant已付，仍不认P2(T)单位。geometry回A18同M高尾消元。
 
 [R1055](results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)付A24两级trace/mixed除p并保degree12/new余项/低卷积；附录给H102及全部五伙伴、两条乘积关系、原E3969完整加权平方根行。只原物理/PD前缀整，同R全carry，不添乘积零或自由第五轴。下一真A18 Schur约束。
 

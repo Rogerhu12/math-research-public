@@ -275,10 +275,10 @@ $$
 =\mathcal D_2-3O.
 $$
 因此 $\operatorname{Norm}_{[\alpha]}(y)=c_\alpha y$。这也逐点核定了 infinity 规范：以 target 的原微分参数 $z$ 写完整39个局部分支，过 $O$ 的分支首项是 $z/\alpha$，其余分支以 $T\in\ker[\alpha]-\{O\}$ 起始。由 $y=-z^{-3}+\cdots$，准确有
-$
+$$
 c_\alpha=\alpha^3\prod_{0\ne T\in\ker[\alpha]}y(T)\ne0.
 \tag{20a}
-$
+$$
 每个非零核点都不是二挠点，故乘积确实非零；常数的值不进入 $d\log$。在每个二挠点，pushforward 除子系数恰为一，因为 $[\alpha]$ 在完整 $E[2]$ 上是双射，且所有同源分支未分歧。保全部39支后，
 $$
 \boxed{
@@ -638,11 +638,11 @@ torsion flat twist 的曲率全为同一个 $-10H_t^p$。
 故不存在把这个完整 pushforward 连接认成该 scalar 连接直和的
 有理矩阵 gauge；有限层 scalar trace 或另一个基也不能改变
 其曲率特征多项式。事实上还有准确的
-$
+$$
 \operatorname{Hom}_{\nabla}
 \bigl([\alpha]_*(\nabla_{390}),\,\nabla_{10}\otimes\mathcal L_\chi\bigr)=0
 \tag{44}
-$
+$$
 （$\mathcal L_\chi$ 为上述固定 flat twist）。
 拉回原 cover 后，右边的 scalar 曲率在
 $[\alpha]^{-1}\mathcal D_2$ 全部117个点有极，
@@ -659,3 +659,166 @@ $\mathcal G_{\alpha,p}$ 是两个指定非齐次解之间的实际比值，
 并非连接 gauge。继续使用它时必须保留(40)全部费用，
 或在同一原 $M$ 中直接消元。这里没有据曲率不等推出
 任何 canonical 导数或目标 $\Sha[p^\infty]$ 的非零/有限性。
+
+
+## 12. 原三十九核点上的 M=1 参数 Z：准确三零与全部固定非零常数
+
+日期：2026-11-28 UTC。保持 R1053/R1028 的同一个
+$$
+E_0:y^2=x^3+1,\quad \omega_E=dx/(2y),\quad
+D=d/dz,\quad \pi=4+\omega,\quad \alpha=\delta\pi,\quad
+\delta^2=-3,\quad \omega^2+\omega+1=0 .
+$$
+本文只确定原 R887 的 $M=1$ 参数 $Z$ 在这一个完整 $39$ 核上的实际值。
+没有将 $\mathcal P_2(T)$、theta multiplier 或单个 trace 字的中央值赋为单位。
+
+### 12.1. 原全部 torsion 规范
+
+对固定 prime-to-$p$ torsion 点 $T$，令
+$$
+\lambda_T=\zeta(z_T)-\eta(Nz_T)/N,\qquad
+r(T)=x(T)^2/y(T).
+$$
+这沿原 sigma 刚性化，改变 torsion lift 不改变 $\lambda_T$。
+R887(54)准确给
+$$
+Z(T)=\bigl(-\rho_p(\lambda_T+r(T))\bigr)^p,\qquad
+\rho_pc_p=1 .
+\tag{Z1}
+$$
+本段在有限 torsion 域及其原好剩余域内使用(Z1)，不换到 target 参数。
+固定 $p\equiv-1\pmod6$、$p>13^4$；这同时排除下文所有固定小分母。
+所有点与同源都按原有限 étale torsion 模型约化。
+
+写 $S=(0,1)$。$\ker\delta=\{O,S,-S\}$，$\lambda_{\pm S}=0$：
+因为 $[\omega]S=S$，而同一 $\lambda$ 在 $[\omega]$ 下乘 $\omega^{-1}$。
+故 $Z(S)=Z(-S)=0$；$Z$ 在这两点及 $O$ 为原已付简单零。
+
+由于 $(\delta,\pi)=1$，每个 $\ker\alpha$ 点唯一为
+$$
+U+\varepsilon S,\qquad U\in\ker\pi,\quad
+\varepsilon\in\{0,1,-1\}.
+\tag{Z2}
+$$
+以下完整处理所有 $12\times3=36$ 个 $U\ne O$ 的点。
+
+### 12.2. 原十二个十三核点
+
+令 $X=x(U)^3$。R1053(26)的定向 division polynomial 是
+$$
+f_\pi(X)=X^2+(8+12\omega)X+(64+48\omega)/13.
+\tag{Z3}
+$$
+这里是 $\pi=4+\omega$，不是其共轭。因 $[3]U=[\omega^2]U$，
+$\lambda_{3U}=\omega\lambda_U$。原
+$\psi_3=3x(X+4)$ 与
+$D\log\psi_3=3\zeta(3z)-9\zeta(z)$ 给
+$$
+(\omega-3)\lambda_U=\tfrac13D\log\psi_3(U),\qquad
+\lambda_U=\frac{8y(X+1)}{3x(X+4)(\omega-3)}.
+\tag{Z4}
+$$
+因此
+$$
+\lambda_U+r(U)
+=\frac{Q(X)}{3xy(X+4)(\omega-3)},\qquad
+Q=(3\omega-1)X^2+(12\omega-20)X+8 .
+\tag{Z5}
+$$
+$x,y,X+4$ 不为零：相应的零点分别属于三挠、二挠、三挠，
+与非零十三挠不交。$\operatorname N(\omega-3)=13$，故该常数也为单位。
+
+在原二次代数 $K[X]/(f_\pi)$ 中直接相除，
+$$
+Q\equiv12((2+3\omega)X+2),
+$$
+$$
+\operatorname{Res}(f_\pi,Q)
+=\frac{5184}{13}(3-14\omega),\qquad
+\operatorname N(3-14\omega)=247=13\cdot19 .
+\tag{Z6}
+$$
+故在所有本篇允许剩余域中，两个 $X$ 根及其全部 $\mu_6$ 点都满足
+$\lambda_U+r(U)\ne0$。由(Z1)，$Z(U)\ne0$。
+
+为使 resultant 可直接核对，置 $k=2+3\omega$，
+$a=8+12\omega$、$b=(64+48\omega)/13$。
+则
+$$
+\operatorname{Res}(f_\pi,Q)=144(k^2b-2ka+4),
+\quad
+k^2=-5+3\omega,\quad ka=-20+12\omega,
+$$
+代入即为(Z6)；这里未使用数值根。
+
+### 12.3. 全部二十四个三挠平移
+
+原 addition 和准周期同时给
+$$
+\lambda_{U+S}=\lambda_U+\frac{y-1}{x},\qquad
+\lambda_{U-S}=\lambda_U+\frac{y+1}{x}.
+$$
+其真正点坐标为
+$$
+\begin{aligned}
+x(U+S)&=-2x/(y+1),&
+y(U+S)&=(y-3)/(y+1),\\
+x(U-S)&=2x/(y-1),&
+y(U-S)&=-(y+3)/(y-1).
+\end{aligned}
+$$
+所以全部 rational corrections 准确相消为
+$$
+\boxed{\lambda_{U+S}+r(U+S)=\lambda_U+\frac{x^2}{y-3},\qquad
+\lambda_{U-S}+r(U-S)=\lambda_U+\frac{x^2}{y+3}.}
+\tag{Z7}
+$$
+$y=\pm1$ 是三挠情形；$y=\pm3$、$X=8$ 是六挠情形。
+它们均不含非零十三挠 $U$，在所删固定坏集之外亦如此。
+因此(Z7)所有显示分母是真正可逆的 torsion 坐标，没有只清分母而丢点。
+
+若(Z7)任一式为零，则由(Z4)–(Z5)必有
+$$
+Q(X)\mp24y(X+1)=0 .
+$$
+两种可能的乘积，模 $f_\pi$ 后为 $144P(X)$，其中
+$$
+P(X)=((2+3\omega)X+2)^2-4(X+1)^3.
+$$
+直接除式及 resultant 是
+$$
+P\equiv\frac{660(10+\omega)}{13}X+
+       \frac{48(31-32\omega)}{13}\pmod{f_\pi},
+$$
+$$
+\operatorname{Res}(f_\pi,P)
+=-\frac{20736}{13^3}(1741+61\omega),\qquad
+\operatorname N(1741+61\omega)=13^3\cdot31\cdot43 .
+\tag{Z8}
+$$
+例如对上式线性余式 $uX+v$，
+$\operatorname{Res}(f_\pi,uX+v)=u^2b-uva+v^2$，直接得到(Z8)。
+因此 $P$ 在原全部十三核的两个 $X$ 根上均非零，
+(Z7)两式皆非零，继而 $Z(U+S),Z(U-S)\ne0$。
+
+### 12.4. 对同一 native 返回的准确结论
+
+合并全部分支，得到
+$$
+\boxed{
+\{T\in\ker[\alpha]:Z(T)=0\}=\ker[\delta]
+=\{O,S,-S\}
+}
+\tag{Z9}
+$$
+于全部 $p\equiv-1\pmod6$、$p>13^4$ 的原好范围成立。
+这不是挑选 Frobenius 根或只处理几条轨道；(Z2)覆盖所有三十九点。
+
+故 R1053 的完整 source factor $Z^{-p-2}$ 在其余三十六核点没有极。
+在三处真正 $Z$ 零点，仍必须保原 $\mathcal P_2^{189}$ 与来源实际零阶；
+target $Z\circ[\alpha]$ 在全部三十九点的零并未与 source $Z$ 相认。
+特别(Z9)不支付 $\mathcal P_2(T)\ne0$、不删全二挠极
+$194d_p-8p$，也不将完整 canonical trace 零拆成各点零。
+后继仍须消费原非齐次配对及同一个 Schur/饱和修正。
+
+全部推导为纸证，未执行数学脚本，也未重复原 division-polynomial 输入。
