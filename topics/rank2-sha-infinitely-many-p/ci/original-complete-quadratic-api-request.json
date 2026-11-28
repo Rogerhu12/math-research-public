@@ -1,14 +1,13 @@
 {
-  "request_id": "2026-11-28-original-scalar-primary-return-v2-current-projector-binding",
-  "kind": "original-scalar-primary-return-software-check",
-  "reason": "Compare the exact complete scalar primary ideal return with the untouched original primary_block. Verify explicit two-way polynomial Bezout matrix products, the dynamic original full remainder, complete HNF, determinant and nonreduced lengths. Cover degree-two irreducible primes over quadratic constants, thicknesses one/two/three, multiple primes, absent-prime and unit branches, five invalid-input refusals, and a rank-306 scalar software fixture with original exponent 918. Bind only the support session subclass and call the full unchanged pinned seven-case support checker, retaining all residue coordinates, embeddings, registry and infinity gates. This check does not execute original geometry or modify the production request. The v1 software comparison passed publicly in run 46109303246. Production review found that the unchanged original projector legitimately installs its own complete_primary wrapper after preparation. Preserve current generic function identities across each scalar call while retaining fixed Engine/session identities; additionally install the exact pinned original wrapper body in the software check, compare a full original primary return, and verify that no generic wrapper execution is fabricated.",
-  "check_script": "scripts/check-original-scalar-primary-return.py",
-  "check_sha256": "30cb33209c8d9e11838aaba41255081f3901dd51f95b12b012c2114e1001a591",
-  "binding_script": "scripts/original_scalar_primary_return.py",
-  "binding_sha256": "d8d4f90b667d2d66346636e69d764207c84de1ebb5d82c4cfa55d4ca7a87c7d3",
+  "request_id": "2026-11-28-original-function-field-denominator-return-v1",
+  "kind": "original-function-field-denominator-return-software-check",
+  "reason": "Compare the entire polynomial paired graph with the untouched original implementation, using Sage 10.6's official function-field reversed Hermite routine with its actual full U matrix. Verify U*MD=H and every original row's exact dynamic remainder, then use the same H/U in this graph only: C*H=Y*MN, X=C*U, X*MD=Y*MN. Keep the original complete preimage, all source coordinates and full nonreduced lengths. Exercise nonprime quadratic coefficients, nontrivial polynomial transforms, exact prime descent, repeated irreducible factors, units, a zero numerator, and invalid full-matrix returns. Bind only the A0 y0 and A1 y0 direct endpoint labels; the actual F label still executes the original attached-transpose-HNF path. Retain the previously verified scalar-primary helper. This request is a small software check, with no original geometric computation or rank-306 performance claim.",
+  "check_script": "scripts/check-original-function-field-denominator-return.py",
+  "check_sha256": "266e53526f771bf7746fe97f5a9006a8980cdf8a676c83e01b932ee5f719a013",
+  "binding_script": "scripts/original_function_field_denominator_return.py",
+  "binding_sha256": "11875739148b591c1b4faf725d13970682bc7e8af6bf613a26e1e55a56fd9242",
   "source_files": [
     "check-original-complete-quadratic-api.py",
-    "check-original-scalar-primary-return.py",
     "original_scalar_primary_return.py",
     "check-original-scalar-base-divisor-support.py",
     "original_scalar_base_divisor_support.py",
@@ -31,13 +30,14 @@
     "original_section_ring_embedding.py",
     "original_w_ideal_transport.py",
     "original_projector_hermite.py",
-    "produce-original-projector-artinian-shadow.py"
+    "check-original-function-field-denominator-return.py",
+    "original_function_field_denominator_return.py",
+    "original_complete_quadratic_polynomials.pyx",
+    "original_complete_quadratic_returns.py"
   ],
   "math_runs_only_in_public_actions": true,
   "original_geometric_input_executed": false,
   "recomputable_outputs_persisted": false,
-  "source_dependency_scope": "Fixed selector, v2 checker, pinned old checker, pinned actual original projector wrapper source, and the exact union of helper SOURCE_DEPENDENCIES; the producer main is not executed.",
-  "software_time_budget_seconds": 420,
-  "previous_software_run_id": 46109303246,
-  "previous_software_result_sha256": "580953e53f7122755247c6ac24362173b42b5d74bdbff94da82e0b1c15930573"
+  "source_dependency_scope": "Fixed selector, the reviewed denominator checker and helper, the pinned original scalar fixture, the full inherited original triangular/support dependencies, the fixed complete quadratic backend, and the already verified scalar-primary helper.",
+  "software_time_budget_seconds": 420
 }

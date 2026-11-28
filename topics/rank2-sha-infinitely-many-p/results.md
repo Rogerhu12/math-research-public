@@ -455,3 +455,10 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 R1066 N1–19从原严格c_q恒等式固定c1^Δ/p^p的Teich部分为1，保真正p^(-p p^h)及physical p²，以完整a_N逆连接构造1+p^(p−2)中的统一Tate测试。同一合法正整数序列准确返回全部Miller负二值和斜率，log与连接导数均保；只给每个实际新字裸逆矩的确切非零估值。Z1–22在同一完成整tensor及真实Cp标量扩张上付共同单位基/全移位gauge界，原coherent S_-C与完整Maass S_C经绝对收敛双卷积严格互逆。端点、整个log−E及两外权/旧项/Haar/17^-2/fullh均返回；finite正权raw与flat极限仍区别。新ordinary移位族不冒原already-Maass germ，Z21a明确全式。原严格Hall单位门和无穷canonical联合非零仍未完成。
 
 [完整证明](results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)，N1–19、Z1–22/Z21a；全部为原来源手证，没有新增数学执行。
+
+
+### 原完整分母行模的隔离实现与软件请求
+
+针对v13真实A0 MD瓶颈，新隔离helper以固定Sage10.6官方完整HNF返回实际U·MD=H与全部反向余数；同一次原Y完整preimage后，以C·H=Y·MN、X=C·U、X·MD=Y·MN返回同一完整配对图。仅A0/A1 y0两个标签使用，F_y真实旧attached-HNF门不改。七组全X/Y/HNF/厚长比较、十拒绝及原绑定/scalar兼容已请求固定27源公开软件检查，未返不记PASS。新回执明确旧算法未执行，未预报rank306性能或数学终门。
+
+[完整实现证明、源码与范围](notes/2026-11-28-original-whole-denominator-software-and-production.md)。

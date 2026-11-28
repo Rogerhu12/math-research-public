@@ -347,7 +347,7 @@ root按原输出字符串重核新旧两个结果hash、全部23源和原7组/6p
 推前actual pull run46073965457/job140870459729：公开2026-11-28 04:55:46 UTC至de041c7640293c911b0122f61d72e6646406c91f，私库2026-11-28 04:55:51 UTC至365012d0f355e1794f86da170b2eee27651ed5cc；四README与04:50相同，QUEUE未变。日志14894B/hash4854b06e1fb0d75c6db40512d306591ed55cc8a60d11a48c7e0976dcdace580e；库存3186blobs/45198676B/treeadd651961ba633bfa69a004458a3f402c7784be9，三旧必要gzip未变且无>5MB。v13 04:55:28仍in_progress，未假定超时；新W1–26已推97e32da0ef26143963f474fd7bf98cd06458126a。继续实际connection负幂/完整Gaussian交织与下一唯一heavy的真实接合。
 
 
-## 2026-11-28 05:13 UTC：v13 实际终日志及第二次软件 PASS
+## 2026-11-28 05:12 UTC：v13 实际终日志及第二次软件 PASS
 
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。下一同一MD的完整U/坐标复用仅准备，全部原F_y专门验收保留，当前无heavy。
 
@@ -356,10 +356,19 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 推前actual双pull run46073965457/job140871590641：公开05:00:52 UTC至b97f9db98409b6e4c2e8c1476865f72cefc7714c，私库05:00:58 UTC至9b2e2b8318d7be2b97fde04f7eab3a528a79479a；四README与04:55同blob、QUEUE未变。日志14889B/hash25813c0930995a9d513ca8279837ff12134aad8137865a795166efa2d4d44fd3；库存3187/45214876B/tree3cf673e99b3dbde47e0acc0ff047a273f05dc0ac，三旧必要输入不变、无>5MB。原H9907B/hash35775e35a55be96cad111b9589b72a4b60846def712667f856f81ad23640823a逐字归档至notes/2026-11-28-handoff-before-v13-terminal.md。R1066实际负权连接及全Gaussian germ已收到完整稿，root审读后按结论推；主目标仍未完成，继续。
 
 
-## 2026-11-28 05:16 UTC：R1066 同一新来源的完整负权与 Gaussian 返回
+## 2026-11-28 05:15 UTC：R1066 同一新来源的完整负权与 Gaussian 返回
 
 R1066 N1–19从原严格c_q恒等式固定c1^Δ/p^p的Teich部分为1，保真正p^(-p p^h)及physical p²，以完整a_N逆连接构造1+p^(p−2)中的统一Tate测试。同一合法正整数序列准确返回全部Miller负二值和斜率，log与连接导数均保；只给每个实际新字裸逆矩的确切非零估值。Z1–22在同一完成整tensor及真实Cp标量扩张上付共同单位基/全移位gauge界，原coherent S_-C与完整Maass S_C经绝对收敛双卷积严格互逆。端点、整个log−E及两外权/旧项/Haar/17^-2/fullh均返回；finite正权raw与flat极限仍区别。新ordinary移位族不冒原already-Maass germ，Z21a明确全式。原严格Hall单位门和无穷canonical联合非零仍未完成。
 
 root全文审中央N稿和geometry Z稿，回读R588(3/4/8)、R639(11–13)、R663严格坐标/原对数、R1061(C5/C13)及R1060(1–3/16b/18)。逐项核c_q号与q!单位、floor/ceil真格、全部connection/falling factorial、共同Δe1p^e分支及two physical p费用；Z21a补清原M_A是already-Maass，不能将新ordinary M_T直接代末式。完整双卷积后保Λ′，并明确T_i展开原p处输入不再额外投影。central另审finiteh/common frame/差2角投影，尾界保持；整germ不从有限raw正权免费外推flat。
 
 完整文件33377B/hasha25f6d2f8d1fb09cb804ddb46bbe1cea2cbdb18fd042d8680785cb054fa185e4。此前实际终态及软件回执已推cc3304c76d4b470a398b2de6896dad1598ef76b7。推前actual pull run46073965457/job140874442664：公开2026-11-28 05:12:45 UTC至345fc610eaa131b092ca6d0316ff5a6b4ef70c7d，私库2026-11-28 05:12:50 UTC至a801d83bd511459dfd09d7596ff0d72fdef51f08；四README与05:00同blob、QUEUE未变。日志14887B/hash600f9ce58dd8e4399ff84853565f8ae0c2ea39071a7997f3fe3cfe0043ae3b64；库存3189blobs/45233235B/tree82ca86456306f64fa49bbc5c17c7356dc67b4de0，三旧必要输入不变、无>5MB。当前无heavy；arith继续针对真实MD的完整U/同H坐标返回，软件先核全部旧门。主目标继续，不以本篇中间结果结束。
+
+
+## 2026-11-28 05:19 UTC：同一完整分母返回的软件请求
+
+针对v13真实A0 MD瓶颈，新隔离helper以固定Sage10.6官方完整HNF返回实际U·MD=H与全部反向余数；同一次原Y完整preimage后，以C·H=Y·MN、X=C·U、X·MD=Y·MN返回同一完整配对图。仅A0/A1 y0两个标签使用，F_y真实旧attached-HNF门不改。七组全X/Y/HNF/厚长比较、十拒绝及原绑定/scalar兼容已请求固定27源公开软件检查，未返不记PASS。新回执明确旧算法未执行，未预报rank306性能或数学终门。
+
+root全文核helper/checker及原graph/F_y下游，核官方10.6源码hashe5ebac6e…、全部U反序和动态引用。只补checker拒绝捕获ArithmeticError，实际checker21655B/hash266e53526f771bf7746fe97f5a9006a8980cdf8a676c83e01b932ee5f719a013；helper22715B/hash11875739148b591c1b4faf725d13970682bc7e8af6bf613a26e1e55a56fd9242。固定selector仅增明确kind/hash，旧分支和default全保；27源request3041B/hashfc7c246d0f4f6452eba4a1589efdfb6b77e29d9780fc17a8d47e79411161880d。R1066已推dac018546a21691278f9c0be8dc04be045f14f3c。按真实commit时间将前两记录标题分别校至05:12和05:15，不改其内容。
+
+推前actual双pull run46073965457/job140875615341：公开2026-11-28 05:17:37 UTC至19f7a05ff66b0bb6038f8eb2237409a17c9b3c6b，私库2026-11-28 05:17:43 UTC至bfe95e2d6be57102eec6a58fcceeecbf976e3e17；四README与05:12同blob、QUEUE未变。日志14889B/hash77248820129e31e3a9cce1cc85293f9a9dadb2b239f76afa483116818414e7f5；库存3190/45271839B/tree1629553fc4ad39f90ee6cba49e5a9bd59d41eb25，三旧必要输入不变、无>5MB。当前无heavy，新v15候选另审；主数学继续原完整Hall低系数及有限source关系。
