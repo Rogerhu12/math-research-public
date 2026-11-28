@@ -218,3 +218,7 @@ run46090913581/1、job140811337445真实in_progress，01:00:48Z/head18081452；c
 ## 2026-11-28 01:19:08 UTC — 20第二试步真实拒绝与下一统计返回
 
 20第二d346真g.970243177977179/reach/拒绝；下一0f4d真Phi3824.9895336084514/Gram.646051041919538，几何/决定未知。current初7e06/accepted0/reportfalse；原初六族及source/model保。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`0bcd1e3593af18ff3b66cc909e9f99e575385d3f`无变（非pull）。
+
+## 2026-11-28 01:19:24 UTC — 21首试步实际拒绝与下一试步开始
+
+21首df8d真g2.541904432457273/最大reach且拒绝，原统计保；下一700e于01:05:14.368451开始，统计/几何未知。current仍初7e06/accepted0/reportfalse，未把略降g冒接受。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`b038816a52170f306ecd1786027096ca5fbc640c`无变（非pull）。
