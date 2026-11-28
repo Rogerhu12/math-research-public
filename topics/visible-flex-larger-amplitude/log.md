@@ -207,3 +207,7 @@ source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reach
 ## 2026-11-28 13:00:02 UTC — 33 原四分步的真实统计返回
 
 33 四分步1ea6125真实统计Phi693.2773822139695/Gram.4068851236763789；几何尚未知，原点未动/accepted0。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-section16-retry.md)。双README云核至`32cd752bae0a63d665776ad7f4f861cfdb8cdcfa`无变（非pull）。
+
+## 2026-11-28 13:00:07 UTC — 35 首完整试步真实拒绝并继续原半步
+
+35 原全步5f0a784完整reachg1735.2651699360226/accepted=false；原半步65983a0继续，初点未动/accepted0。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R732-R729-run35-complete-launch.md)。双README云核至`315436744c13c043c885f217f18b6724ba78fa11`无变（非pull）。

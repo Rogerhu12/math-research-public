@@ -148,3 +148,22 @@ source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reach
   }
 ]
 ```
+
+## 2026-11-28 13:00:07 UTC — 35 首完整试步真实拒绝并继续原半步
+
+原同一模型/driver 的首全步点 `5f0a7844ae793e2ab676df827283410ed300d1db6dcbbe850fd734946a7bfedb` 已返回完整几何，最大违约 g=1735.2651699360226，最大族 reach，accepted=false；其原真实统计Phi=6298065.183785643、Gram=11.226395028133968 同属此点。Actions 2026-11-28T12:47:15.199743Z 已自然开始 α=0.5 原半步，点 `65983a0d92fc8eb2edf51313df39425bad92daf1517b241d11d907a2ee127543`，统计与几何尚未返回。current仍原初7e06、accepted_directions=0；完整科学报告与自然返回后pure仍待，不更换原参数、不缩减预算。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46137993293-1.md",
+    "bytes": 55536,
+    "sha256": "50eda1b91c03c4f3e944ddaf1bddc7956ed22c2b983abd2b09d7cbed64478efd",
+    "git_blob_sha": "f58b728e63a9247b7e597c3e96a3d69a761fcaf5",
+    "fixed_commit": "7954d1865977816d7ac8ae6f7d3c6eb7d5a6deaa",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
