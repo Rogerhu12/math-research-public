@@ -65,3 +65,7 @@ R716完整证明与独立recovered消费者已发表；共结真二jet、真实S
 ## 2026-11-28 16:02:48 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R711-terminal
 
 登记 R711 已自然结束的实际参数身份、全部继承费用、真实几何读数和未完状态，详见 notes/2026-11-28-r711-real6016-fixed-g-terminal-natural-terminal.md。原同g双细η2.563914e−5，未过1e−6；6016参数及前割线保留。 本次仅已完成日志解析，无新科学。
+
+## 2026-11-28 16:02:53 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R643-terminal
+
+登记 R643 已自然结束的实际参数身份、全部继承费用、真实几何读数和未完状态，详见 notes/2026-11-28-r643-fixed-source12-and-paid-partial-readout-natural-terminal.md。细网条件η2.206112e−7；真细网/均高已付，直接位置部分未闭。 本次仅已完成日志解析，无新科学。

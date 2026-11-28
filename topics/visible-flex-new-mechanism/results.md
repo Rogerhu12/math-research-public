@@ -31,3 +31,5 @@
 - [R702 自然终态：十端对齐而全 ruling 仍未闭](notes/2026-11-28-r702-paid113-and-material-frontiers-natural-terminal.md)。113累计接受；端口已对齐、ruling未闭，608未完前沿保留。
 
 - [R711 自然终态：6016 列原固定度量的自然终态](notes/2026-11-28-r711-real6016-fixed-g-terminal-natural-terminal.md)。原同g双细η2.563914e−5，未过1e−6；6016参数及前割线保留。
+
+- [R643 自然终态：固定源细网误差及未完位置读数](notes/2026-11-28-r643-fixed-source12-and-paid-partial-readout-natural-terminal.md)。细网条件η2.206112e−7；真细网/均高已付，直接位置部分未闭。
