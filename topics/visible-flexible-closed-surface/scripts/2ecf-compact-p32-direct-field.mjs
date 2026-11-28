@@ -51,6 +51,7 @@ function jets(data,row,z){
 }
 function gramTarget(Y,N){let E=0,G=0;for(let n=0;n<N;n++){let p=18*n;for(let k=0;k<3;k++){E+=Y[p+3+k]**2;G+=Y[p+6+k]**2;}}return [E/N,G/N];}
 function evaluate(data,z,o={},external=null){
+ const heldAxis=o.centralMark??centralA;
  let grad=new Float64Array(dim),cost=0,metric=0,curvature=0,held=Infinity,diamHalf=0,width=0,height=0,area=Infinity,guide=Array(7).fill(0),bad=false;
  let metricSharp=o.metricSharp??9,kgoal=o.kgoal??9.5,kw=o.kw??.3,gw=o.gw??200,baseCost=0,metricAt=[],curvAt=[];
  const deriv=o.deriv!==false, N=data.N,R=data.R;
@@ -82,11 +83,11 @@ function evaluate(data,z,o={},external=null){
     const dv=cross(U,nb),du=cross(nb,V);for(let k=0;k<3;k++){bar[p+3+k]+=dv[k];bar[p+6+k]+=du[k];}
    }
    if(deriv)for(let k=0;k<3;k++){bar[p+3+k]+=2*dE*V[k]+dF*U[k];bar[p+6+k]+=dF*V[k]+2*dG*U[k];}
-   const rr=norm(P),rp=Math.hypot(P[0],P[1]-centralA,P[2]),rm=Math.hypot(P[0],P[1]+centralA,P[2]),cyl=Math.hypot(P[0],P[1]),l=Math.max(0,Math.min(1,(cyl-.52)/.02)),allow=.0195*l**3*(10+l*(-15+6*l)),allowR=.0195*30*(l*(1-l))**2/.02;
+   const rr=norm(P),rp=Math.hypot(P[0],P[1]-heldAxis,P[2]),rm=Math.hypot(P[0],P[1]+heldAxis,P[2]),cyl=Math.hypot(P[0],P[1]),l=Math.max(0,Math.min(1,(cyl-.52)/.02)),allow=.0195*l**3*(10+l*(-15+6*l)),allowR=.0195*30*(l*(1-l))**2/.02;
    held=Math.min(held,rp,rm);diamHalf=Math.max(diamHalf,rr);width=Math.max(width,Math.abs(P[1]));height=Math.max(height,Math.abs(P[2]));
    const signed=[rr-1.59,P[1]-(o.wgoal??.885),-P[1]-(o.wgoal??.885),P[2]-endZ-allow,-P[2]-endZ-allow,(o.hgoal??.65)-rp,(o.hgoal??.65)-rm];
    for(let j=0;j<7;j++){const v=signed[j];guide[j]=Math.max(guide[j],v);if(v<=0)continue;cost+=gw*v*v;
-    if(deriv){const w=2*gw*v, gg=j===0?P.map(xx=>xx/rr):j===1?[0,1,0]:j===2?[0,-1,0]:j===3||j===4?[-allowR*P[0]/cyl,-allowR*P[1]/cyl,j===3?1:-1]:[-P[0]/(j===5?rp:rm),-(P[1]+(j===5?-centralA:centralA))/(j===5?rp:rm),-P[2]/(j===5?rp:rm)]; for(let k=0;k<3;k++)bar[p+k]+=w*gg[k];}
+    if(deriv){const w=2*gw*v, gg=j===0?P.map(xx=>xx/rr):j===1?[0,1,0]:j===2?[0,-1,0]:j===3||j===4?[-allowR*P[0]/cyl,-allowR*P[1]/cyl,j===3?1:-1]:[-P[0]/(j===5?rp:rm),-(P[1]+(j===5?-heldAxis:heldAxis))/(j===5?rp:rm),-P[2]/(j===5?rp:rm)]; for(let k=0;k<3;k++)bar[p+k]+=w*gg[k];}
    }
   }
   if(!deriv)continue;
