@@ -783,3 +783,107 @@ $$
 $\sum\bar\varepsilon xy,\ -c_p^{-1}\sum\bar\varepsilon Xx^2,\
 c_p^{-2}\sum\bar\varepsilon X^2y$，每个点均为 $-T_t$。
 本节未把这些首许可系数的非零、或其余混合 $H$ 项的总和非零作为已证结论。
+
+## 87. 原十七加权的两个固定代数矩与三条第一 Cartier 首项
+
+**已证明。** 沿用(AY2)的原椭圆曲线、LT模型及既定CM嵌入。写 $P_t=-T_t$，指标跑遍 $t\in(\mathcal O_K/f)^\times$，$f=34\delta,\ \delta=\sqrt{-3}$。横杠在特征零中表示选定的复共轭。定义
+$$
+ M_1=\sum_t\varepsilon(t)x(P_t)\overline{X(P_t)},\qquad
+ M_2=\sum_t\bar\varepsilon(t)\overline{y(P_t)}X(P_t)^2. \tag{BC1}
+$$
+这两个都是原标记点的固定代数数。另定义
+$\Psi_0=\sum\bar\varepsilon xy,\ \Psi_1=\sum\bar\varepsilon Xx^2,\
+\Psi_2=\sum\bar\varepsilon X^2y$，每个因子均取同一个 $P_t$。五数均非零。
+
+取标准Weierstrass统一化 $x=\wp,y=\wp'/2$，周期格 $\Lambda=\varpi\mathcal O_K$。实解析函数
+$Z(z)=\zeta_\Lambda(z)-(\pi/\operatorname{area}(\mathbb C/\Lambda))\bar z$
+为格周期函数：六次旋转令全纯准周期修正为零，Legendre关系给出所写反全纯项。
+对 $m=103$，sigma乘法公式给
+$m^{-1}D\log\psi_m=Z(mz)-mZ(z)$。因 $m\equiv1\bmod f$，在每个原点 $P_t$ 这给 $X(P_t)=Z(P_t)$，其中
+$X=(1-m)^{-1}m^{-1}D\log\psi_m$ 为固定有理函数。
+缩放到短向量长一的 $\mathcal O_K$，所有同一和式的项仅共同乘固定非零常数。此时反全纯修正系数是 $2\pi/\sqrt3<4$，令 $F=|f|=34\sqrt3$。
+每个原剩余类在最近六边形取一代表，$z=-t/f$ 满足
+$r=|z|\le1/\sqrt3,\ |t|\le34$；边上的任选固定代表。写
+$t=a+b e^{i\pi/3}$，$j=\max(|a|,|b|,|a+b|)$。
+每壳恰 $6j$ 元，$\sqrt3j/2\le|t|\le j$。
+六单位为六个不同的原点，均在最近壳。
+
+由壳计数
+$S_6=\sum_{\lambda\ne0}|\lambda|^{-6}\le6(2/\sqrt3)^6(1+1/32+1/64)<15$。
+故 $|G_{6n}|\le S_6$。以 $w=r^6\le1/27$，从
+$\zeta=z^{-1}-\sum_{n\ge1}G_{6n}z^{6n-1}$ 及其导数得
+$$
+ |zZ-1|\le4r^2+16w,\quad
+ |z^2x-1|\le90w/(1-w)^2<98w,\quad
+ |z^3y+1|\le270w(1+w)/(1-w)^3. \tag{BC2}
+$$
+全域有 $r|Z|<3,r^2|x|<5,r^3|y|<13$。
+在 $j\le8$ 时 $r<1/7$，三误差依次小于 $1/10,1/100,1/100$。
+因此对 $V=y\bar Z^2,yZ^2,x^2Z,xy$，近壳
+$4/5<r^5|V|<5/4$，全域 $r^5|V|<117$。
+在 $\overline{M_2}=\sum\varepsilon y\bar Z^2$ 中，六单位的项完全同相，由
+$\varepsilon(ut)=u\varepsilon(t),\ y(uz)=u^{-3}y(z),\
+Z(uz)=u^{-1}Z(z)$ 可见。
+三个 $\Psi_r$ 的完整项各自旋转权均为 $-6$，六项亦分别同相。
+每和的这六项模大于 $24F^5/5$。
+去掉单位，$2\le j\le8$ 项和的绝对值除 $F^5$ 至多
+$(5/4)6(2/\sqrt3)^5\sum_{j\ge2}j^{-4}<5/3$，这里尾级数至多 $5/48$；
+$j\ge9$ 项的相同上界为
+$117\cdot6(2/\sqrt3)^5\int_8^\infty u^{-4}du<117/120<1$。
+故 $M_2\Psi_0\Psi_1\Psi_2\ne0$。
+
+对于 $M_1$ 比较原加权函数与极项 $z^{-2}\bar z^{-1}$。
+其单位六项同相，模为 $6F^3$。非单位原代表为所有与 $2\delta$ 互素的非单位格向量的一个子集。
+Eisenstein整数类数一、有六单位，$2,\delta$ 素理想范数为 $4,3$，故
+$$
+ \sum_{(t,2\delta)=1}|t|^{-3}
+ =6(1-4^{-3/2})(1-3^{-3/2})\zeta(3/2)L(3/2,\chi_{-3}). \tag{BC3}
+$$
+交错项界给 $L<1-2^{-3/2}+1/8<4/5$，积分界给
+$\zeta<1+2^{-3/2}+\sqrt2<14/5$。
+另有 $1-3^{-3/2}<5/6,\ 1-4^{-3/2}=7/8$。
+故除去六单位后，所有极项尾部绝对值小于 $19F^3/5$。
+由(BC2)与 $r|Z|<3$，
+$|z^2\bar z\,x\bar Z-1|\le4r^2+310r^6$。
+原代表至多 $Nf=3468$ 个、只有 $j\le39$，故
+$\sum|t|^{-1}\le6(2/\sqrt3)39<312$，
+$\sum|t|^3\le3468\cdot34^3$。
+全部椭圆误差除 $F^3$ 至多
+$$
+ {4\cdot312\over3468}
+ +{310\cdot3468\cdot34^3\over(34\sqrt3)^6}<2/5+11/10=3/2 .
+$$
+因 $6-19/5-3/2>0$，有 $M_1\ne0$。
+
+令有限Galois扩张 $L/\mathbb Q$ 含所用全部挠点坐标、$\varepsilon,X$、
+其复共轭、$\mu_{204}$ 及 $\sqrt{17}$。
+Chebotarev用选定复共轭 $c$ 的共轭类，并在每个这样的素数上选择Frobenius恰为 $c$ 的一个素位。
+所用标准定理见 Andrew V. Sutherland, *Global class field theory, the Chebotarev density theorem*,
+18.785 Lecture 28 (2019), Theorem 28.9, p.6，
+[原讲义](https://math.mit.edu/classes/18.785/2019fa/LectureNotes28.pdf)。
+此列有无穷多 $p\equiv-1\bmod204$，故 $p$ 在 $K$ 惰性且在
+$\mathbb Q(\sqrt{17})$ 分裂，$\beta=\sqrt{17}\in\mathbb Q_p$。
+去掉有限坏素位、分母及五个非零数的范数因子，此列每个 $p>211$ 上
+$p$ 次方在所有真正标记的代数数上是所选复共轭，$q=p^2$ 次方固定它们。
+结合 $G(P_t)=X(P_t)^p$、$g=G/c_p$、$c_p\in\mathbb F_p^\times$
+与 $\ell_{17}(U_1)=0$，(AY2)的两个精确输出为
+$$
+ \sum_t\varepsilon(t)A(P_t)^p=-M_1/c_p\ne0,\qquad
+ \ell_{17}(U_2)^{1/p}
+ =\sum_t\bar\varepsilon(t)\bigl(C(P_t)+X(P_t)B(P_t)/c_p\bigr)
+  +M_2/c_p^2. \tag{BC4}
+$$
+第一式按 $x(P_t)^q=x(P_t)$ 使用 $U_1=x^qg+A^p$；
+第二式来自原 $U_2=y^qg^2+B^pg+C^p$ 逐项取唯一 $p$ 次根。
+于是若 $a_2=0\bmod p$，原 $B,C$ 对合和必须恰等于
+$-M_2/c_p^2\ne0$。这是第三分量与第一原函数所强迫的补偿值。
+排除第二式整体抵消仍是原非消失问题。
+
+另由§86的(BB1)及其初始消失格，$r=0,1,2$ 的首非零系数
+（除去 $\omega$）依次确为
+$\Psi_0$ 在 $s^4$、$-c_p^{-1}\Psi_1$ 在 $s^3$、
+$c_p^{-2}\Psi_2$ 在 $s^2$。
+这个第一Cartier首项结论在一切充分大的原允许惰性素数上成立：
+所用五数固定非零，排除其分母与范数因子只排除有限多个有理素数。
+$\Psi_2$ 中是 $y$，(BC4)的 $M_2$ 中是 $\bar y$，二者的角色与来源各自保留。
+以上没有宣称 $\ell_{17}(U_2)$ 或 $a_2$ 已非零。

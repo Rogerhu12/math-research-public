@@ -161,3 +161,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §86：原完整驯微分的三个第一次 Cartier 像
 
 已证明：原三个Cartier像严格为固定标记核(BB1)，O点极及正则歧义由实际µ6权消除；(BB2)保留所有H混项，三条首许可系数准确给定，未推整体非零。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §87：原五个固定代数矩严格非零及共同 Frobenius 子列
+
+已证明：六单位主项与全六边形壳界严格证明M₁、M₂、Ψ₀/₁/₂非零；Chebotarev给同一无穷p子列上原A及B/C的准确补偿值(BC4)，三条第一Cartier首项在充分大原p非零。仍须排除完整第三分量抵消。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
