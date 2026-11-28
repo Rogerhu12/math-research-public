@@ -57,5 +57,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R779/R782/R783完整已闭范围](results/INDEX-after-R770.md)：各原证明/源/条件原字保留，微幅下降、角解析夹持、四扇几何不冒全题完成。
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429/PID2658实际exit1、零科学阶段，J幂运算错误。仅两同多项式乘法修正及身份重签，24源/18阶段/三末网全部原预算恢复；硬帽正误差范围不变，新实际待返。
-<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 3a2ebf63bb0f459717d5e95af596599a6bad0367
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 2931f7834c7708757ecfde8874dd8b2430a0f4e3
+<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 198e8683acef8fe2416ee1284902ac516feb4832
