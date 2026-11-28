@@ -39,7 +39,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 7d70fcbfdde305c582dac1ee91de08ed517a48e1
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull b394d7a2421fcd0c0909b044810a0f10f93d0656
 
@@ -60,3 +59,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学源/三族18阶段，原GN加真实应力负方向；硬固定.0024领不能加密至零，仅作完整原预算对照。两free-rim族仍可修，全末网原预算；实际run/PID待返。
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182255429-1.json) 双README真pull 7b44f696b781703d813d8fc0b999580bd2a278f4
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 0d0c0d3fba5d8f18d85ff170663d0ae9d1a97456
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull e30989d6bca7020d94f225109bdc37623b800ef8
