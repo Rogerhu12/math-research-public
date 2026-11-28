@@ -4,7 +4,7 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `1b7389a036fedbe880ebd2cd8519e495eda90513`（2026-11-28 16:40 UTC）。
+- 最近实际pull后双README已读锚 `b61afcb307ede06aaa4b90aa81783cb6e9341293`（2026-11-28 16:40 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 6c4bb67a33d0cd7ef5aeb9c38860c1f169f35a17，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
@@ -35,6 +35,7 @@
 [R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)原完整64191维Robin→真DN rank≤24更新、fixed-g 25块及8outer精确剩余；[补充](results/R85-supplement-complete-residual-and-small-block-validation.md)给完整回代误差和literal逆合同。
 [真实全24列](notes/2026-11-28-analytic-complete-terminal-response-basis-actual.md)原CSR1814497d…/旧J c9c4906f…，6.976s/401576KiB；max残差1.19905e−14，原componentwise error1.0保留。与accepted raw4f503380…完整x/pscale逐位同、y/p不同，只能旧点chord。
 [真实全端口初猜](notes/2026-11-28-analytic-boundary-dn-initializer-actual.md)全64191行port-forcing残差5.4210e−18，δ=.06413464148574244；literal小S Fraction逆已付，旧F_L4.3983e−11/current-J差/非线性域仍欠，未冒完整Newton。
+[真实q列/25联合块](notes/2026-11-28-analytic-complete-fixed-q-dn-chord-actual.md)已真exit0/93.415s：原接受点全q列与完整F_L实回评，旧J混合点χN=2.47108106147e−5；保全F_L的固定δ仿射方向完整残差1.362e−18。字面末行×2^15小块Fraction逆有界，未付当前物理J逆。
 原未改generic8outer于15:33真启动TTY80294/out lambda002-actual-dn-memoized-20261128-a，原门已过、第一outer首mesh879→880；最终physical-H尚未返回。未将新未接受初猜偷换进旧wrapper。
 
 fixed actual-DN五源+必要memory-budget已发布为[独立准备入口](notes/2026-11-28-analytic-original-support-fixed-actual-dn-entry.md)，[四geometry reader](notes/2026-11-28-analytic-fixed-actual-geometry-consumers.md)亦已发布；仅旧compile/help，无模型/全尾/新BVP/λ1返回，不改KIND伪过旧门。

@@ -1,0 +1,365 @@
+{
+  "status": "actual_complete_mixed_point_25_dimensional_DN_chord_study_returned",
+  "actual_tool_session": 53092,
+  "actual_tool_exit_code": 0,
+  "report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/joint-block.json",
+    "sha256": "413aa6c2191d7467171bc22a1429d4ed71ab6f2a76e260a86a940282ed897d90"
+  },
+  "observed": {
+    "scope": "Actual complete log-support-q column and the 25-dimensional DN chord block.\n\nThe complete Robin matrix and its 24 response columns are the saved OLD point.\nThe newly evaluated q column and the genuine DN G are at the accepted raw\npoint. This is an explicitly mixed-point frozen-chord study, not a current\nJacobian or a fixed-g BVP return. No new Jacobian or native request is made.\n",
+    "status": "actual_complete_25_dimensional_mixed_point_fixed_q_DN_chord_returned",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_dn_chord_block.py",
+      "sha256": "d1a31ff589cb4e8d75850bcbd59ce1e56f3d435fcebd7c70884b5e18a13b9d95"
+    },
+    "complete_J_assembled": false,
+    "new_native_request": false,
+    "BVP_solved": false,
+    "fixed_g_field_accepted": false,
+    "complete_Newton_step": false,
+    "current_full_J_inverse_certified": false,
+    "complete_surface": false,
+    "progress": [
+      {
+        "event": "accepted_complete_Robin_residual_returned",
+        "seconds": 15.958673116998398,
+        "max": 4.3983177284010555e-11,
+        "l2": 8.526117482241262e-11
+      },
+      {
+        "event": "complete_primary_log_q_residual_returned",
+        "seconds": 31.296529562001524,
+        "step": 1e-05,
+        "actual_primary": 0.060000600003000004,
+        "max": 9.943014638302827e-06,
+        "l2": 1.048541093413432e-05
+      },
+      {
+        "event": "complete_primary_log_q_residual_returned",
+        "seconds": 47.012193798000226,
+        "step": -1e-05,
+        "actual_primary": 0.05999940000299999,
+        "max": 9.942895708769939e-06,
+        "l2": 1.0485287594630704e-05
+      },
+      {
+        "event": "complete_primary_log_q_residual_returned",
+        "seconds": 62.17131217499991,
+        "step": 5e-06,
+        "actual_primary": 0.06000030000075,
+        "max": 4.971501996520189e-06,
+        "l2": 5.2426990627672975e-06
+      },
+      {
+        "event": "complete_primary_log_q_residual_returned",
+        "seconds": 77.0028494979997,
+        "step": -5e-06,
+        "actual_primary": 0.05999970000074999,
+        "max": 4.971453178903573e-06,
+        "l2": 5.242650204862426e-06
+      },
+      {
+        "event": "complete_q_column_returned_before_old_factor",
+        "seconds": 91.12505959100235,
+        "coarse_fine_relative": 6.217328342495664e-10
+      },
+      {
+        "event": "saved_complete_old_matrix_factored",
+        "seconds": 92.4198060330018,
+        "equations": 64191
+      }
+    ],
+    "seconds": 93.4151611979978,
+    "prelaunch": {
+      "MemAvailable_bytes": 7189467136,
+      "disk_free_bytes": 415948800,
+      "minimum_available_bytes": 1073741824,
+      "minimum_disk_bytes": 33554432,
+      "no_automatic_wait": true,
+      "estimate_not_memory_guarantee": true
+    },
+    "inputs": {
+      "initializer_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-boundary-dn-initializer-20261128-a/initializer.json",
+        "sha256": "4221fb99169ecbd936b9f78604340e6ecdb12be6d4fb117208e58211d782842b"
+      },
+      "basis_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-basis.json",
+        "sha256": "e066c3d1a1d509d0955eedd1427fb1849018930b42faeef5b8b2e5b2af2940f7"
+      },
+      "source_run": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+        "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+      },
+      "source_raw": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/inner-00.npz",
+        "sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616"
+      },
+      "source_physical": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/physical.npz",
+        "sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0"
+      },
+      "matrix": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csr-m24-20261128/actual_direct_csr.npz",
+        "sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c"
+      },
+      "matrix_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m24_jac_input.npz",
+        "sha256": "c9c4906fb944a82d59f752d74332157dc564b841d269148de20206d937a4edde"
+      },
+      "old_full_H_packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+        "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+      },
+      "original_definition_sources": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+      },
+      "original_definition_inputs": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_profile_linear_root.json": "3f4042ffe0666bf8ba5b09dca3d056f9b0604b8e4ab3367e537d924bb7b0cfcc",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-linear-port.json": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/complete_lift_to_m24/initial.npz": "c9c4906fb944a82d59f752d74332157dc564b841d269148de20206d937a4edde",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_wide_circle_lambda0p002.json": "5ed9c06fd52c2162304560722f71751287c81497cd15967820e1f223c7283223"
+      },
+      "memo_proof": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda002-actual-dn-memo-preflight-20261128/memo-proof.json",
+        "sha256": "6ac65c5d969fa7d3db2ff999021e5c083df047e7492c0489abfec64affcde20b"
+      },
+      "derivative_point": "accepted raw; same point as genuine DN G",
+      "matrix_point": "different c9c4906f old point; mixed-point chord only"
+    },
+    "complete_log_q_column": {
+      "column_point": "actual_accepted_raw_4f503380",
+      "source_primary": 0.06,
+      "frozen_gauge_q": 0.06,
+      "frozen_warp_reference_q": 0.06,
+      "source_mean_nodes": 1168,
+      "original_additive_delta": -9.683937550986032e-06,
+      "actual_fixed_delta": 0.06413464112662924,
+      "derivative_parameter": "eta=log(actual_support_primary/source_primary)",
+      "original_F_L": {
+        "max": 4.3983177284010555e-11,
+        "l2": 8.526117482241262e-11
+      },
+      "saved_node_rhs_difference": {
+        "max": 8.673617379884035e-19,
+        "l2": 1.2270102059565786e-18
+      },
+      "original_off_midpoint_RMS_domain_samples_preserved": true,
+      "full_collocation_midpoint_chain": true,
+      "full_inlet_and_terminal_rows": true,
+      "new_global_J_assembled": false,
+      "prepare_sys_or_COO_indices_created": false,
+      "changing_seed_invalidates_core_flow_exact_lift_and_jets": true,
+      "all_original_higher_physical_support_controls_fixed": true,
+      "C_q_zero_because_gauge_is_fixed": true,
+      "physical_tail_P_at_fixed_H_has_no_primary_support_argument": true,
+      "full_target_profile_and_literal_chart_fixed": true,
+      "finite_mean_rule_fixed_not_independently_differentiated_in_a_new_physical_audit": true,
+      "coarse_step": 1e-05,
+      "fine_step": 5e-06,
+      "complete_coarse_fine_relative": 6.217328342495664e-10,
+      "original_base_residual_byte_restored": true,
+      "finite_difference_trials": [
+        {
+          "log_primary_change": 1e-05,
+          "actual_primary": 0.060000600003000004,
+          "original_domain_passed": true,
+          "E_W_D_C_H_and_complete_target_identity": true
+        },
+        {
+          "log_primary_change": -1e-05,
+          "actual_primary": 0.05999940000299999,
+          "original_domain_passed": true,
+          "E_W_D_C_H_and_complete_target_identity": true
+        },
+        {
+          "log_primary_change": 5e-06,
+          "actual_primary": 0.06000030000075,
+          "original_domain_passed": true,
+          "E_W_D_C_H_and_complete_target_identity": true
+        },
+        {
+          "log_primary_change": -5e-06,
+          "actual_primary": 0.05999970000074999,
+          "original_domain_passed": true,
+          "E_W_D_C_H_and_complete_target_identity": true
+        }
+      ],
+      "exact_terminal_column_zero_observed": true,
+      "centered_differences_not_interval_bounds": true,
+      "radial_batch_statistics": {
+        "rhs_calls": 24,
+        "jacobian_calls": 0,
+        "rhs_blocks": 672,
+        "jacobian_blocks": 0,
+        "collections": 672,
+        "collected_objects": 0,
+        "collection_seconds": 12.90567849699437,
+        "exception_blocks": 0,
+        "exception_types": {},
+        "maximum_rss_kib": 253400,
+        "successful_and_exceptional_short_calls_collected": true,
+        "live_caches_cleared": false,
+        "original_exceptions_suppressed": false,
+        "original_numerical_calls_or_arithmetic_changed": false
+      },
+      "fourier_table_cache_statistics": {
+        "hits": 0,
+        "misses": 0,
+        "key_seconds": 0.0,
+        "build_seconds": 0.0,
+        "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+        "full_basis_and_frequency_bytes_bound": true,
+        "live_flow_or_physical_response_cached": false,
+        "shared_diagnostic_dictionary": false
+      },
+      "actual_original_module_sources": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/notes/fixed_metric_mode3_bvp.py": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20"
+      }
+    },
+    "joint_block": {
+      "equation": "[[I+G C V,G C wq],[e^T V,e^T wq]]",
+      "dimension": 25,
+      "original_delta_coordinate": 64167,
+      "current_complete_q_column_old_matrix_chord_response": 2.471194976987832e-05,
+      "corrected_DN_chord_chi": 2.471081061471873e-05,
+      "coarse_corrected_chi": 2.471082063681317e-05,
+      "chi_coarse_fine_relative": 4.0557530054505983e-07,
+      "whole_wq_coarse_fine_relative": 3.31058436832683e-07,
+      "original_full_J_q_residual": {
+        "max": 3.3306690738754696e-16,
+        "l2": 1.5124199267577401e-15
+      },
+      "original_full_J_q_coarse_residual": {
+        "max": 2.644365357763786e-16,
+        "l2": 1.4702617038657287e-15
+      },
+      "literal_matrix_inverse_check": {
+        "object": "Only the literal rounded 25-dimensional mixed-point joint matrix",
+        "exact_rational_residual": {
+          "numerator": "1770270652543967902454332795691",
+          "denominator": "2854495385411919762116571938898990272765493248"
+        },
+        "less_than_one": true,
+        "full_original_J_inverse_certified": false,
+        "current_physical_derivative_certified": false,
+        "complete_response_errors_enclosed": false,
+        "inverse_norm_inf_upper": {
+          "numerator": "8885879901787646645973612852356785511930502578176",
+          "denominator": "219576568108609076295839953456237524494822889"
+        },
+        "condition_inf_upper": {
+          "numerator": "345813458422689654126482367949595861174432110617305",
+          "denominator": "2342150059825163480488959503533200261278110816"
+        }
+      },
+      "current_full_DN_or_fixed_g_inverse_proved": false,
+      "old_J_vs_current_J_and_complete_response_error_unpaid": true
+    },
+    "complete_affine_chord_direction": {
+      "complete_F_L_recomputed_and_retained": {
+        "max": 4.3983177284010555e-11,
+        "l2": 8.526117482241262e-11
+      },
+      "complete_actual_source_F_N": {
+        "max": 0.0010942059056917477,
+        "l2": 0.0011257279317829826
+      },
+      "complete_affine_residual": {
+        "max": 1.362028979184915e-18,
+        "l2": 1.7007673447494863e-18
+      },
+      "fixed_delta_constraint_residual": 0.0,
+      "small_system_residual": {
+        "max": 1.3552527156068805e-20,
+        "l2": 1.8250582776419508e-20
+      },
+      "actual_log_q_direction": 1.4991713675388688e-05,
+      "all_original_state_and_higher_parameters_retained": true,
+      "no_nonlinear_trial_or_fixed_model_acceptance": true,
+      "current_point_internal_J_difference_unpaid": true,
+      "finite_difference_and_tail_DP_errors_not_interval_enclosed": true
+    },
+    "complete_saved_vectors": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/complete-q-and-chord-vectors.npz",
+      "sha256": "0b12d40f34e478f917f4325c92a79c327d5534efaa593c7a2c4b2258a39c817c"
+    },
+    "factor_stats": {
+      "equations": 64191,
+      "state_size": 73,
+      "nodes": 879,
+      "parameters": 24,
+      "internal_nodes_eliminated": 877,
+      "levels": 10,
+      "minimum_relative_R_diagonal": 5.5954091728240306e-05,
+      "solve_calls": 3,
+      "maximum_componentwise_backward_error": 1.0,
+      "maximum_normwise_backward_error": 1.4535367103982207e-22,
+      "refinement_steps": 3,
+      "stored_factor_bytes": 162613340
+    },
+    "resource_observation": {
+      "max_rss_KiB": 444564
+    },
+    "actual_sources": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_dn_chord_block.py": "d1a31ff589cb4e8d75850bcbd59ce1e56f3d435fcebd7c70884b5e18a13b9d95",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_boundary_dn_initializer.py": "726dc2123f24be7ad9735bbac813307fffdea5d7fa2fd019cb07992e03f3cdb8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_lambda_tangent_predictor.py": "acd94b154e2e0e6422e626af6e80a820d50e7c1f8dca1e1f793d79378c7dc14f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8"
+    },
+    "collocation_source_sha256": "3709e1b0cb8b726eda0b9dd6f6271d3caacd3e84ce97db31ae4d7dfea88e8b72"
+  },
+  "row_scaled_literal_check_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/row-scaled-joint-block.json",
+    "sha256": "4481bc1e0710fe4c7cfbd468d9dbed66f505a48817315e1e207b6c08ea595f0b"
+  },
+  "row_scaled_literal_check": {
+    "status": "actual_exact_dyadic_row_scaled_literal_joint_matrix_inverse_check",
+    "joint_report": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/joint-block.json",
+      "sha256": "413aa6c2191d7467171bc22a1429d4ed71ab6f2a76e260a86a940282ed897d90"
+    },
+    "joint_data": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/complete-q-and-chord-vectors.npz",
+      "sha256": "0b12d40f34e478f917f4325c92a79c327d5534efaa593c7a2c4b2258a39c817c"
+    },
+    "operation": "left multiply by diag(I_24,2**15); all unknowns/equations retained",
+    "last_row_scale_exact": 32768,
+    "exact_dyadic_scaling_roundtrip_checked": true,
+    "certificate": {
+      "object": "Only the literal 25-dimensional chord matrix after exact last-row multiplication by 2**15",
+      "exact_rational_residual": {
+        "numerator": "1770270652543967902454332795691",
+        "denominator": "2854495385411919762116571938898990272765493248"
+      },
+      "less_than_one": true,
+      "full_original_J_inverse_certified": false,
+      "current_physical_derivative_certified": false,
+      "complete_response_errors_enclosed": false,
+      "inverse_norm_inf_upper": {
+        "numerator": "4117125759041870493502198670482157708997820416",
+        "denominator": "951498461803972663948639798310362606144232519"
+      },
+      "condition_inf_upper": {
+        "numerator": "15021277224705906194658593907507338799964139520",
+        "denominator": "951498461803972663948639798310362606144232519"
+      }
+    },
+    "no_new_F_or_J_or_BVP": true,
+    "current_physical_inverse_proved": false
+  },
+  "full_vectors_in_scratch_only": true,
+  "scientific_arrays_committed": false
+}

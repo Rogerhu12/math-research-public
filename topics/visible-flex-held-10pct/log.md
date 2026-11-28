@@ -398,3 +398,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:39 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.256/M24真实848点BVP/RMS/BC通过、metric8.841396910e−5未过，481.975s/690168KiB；run81bfd18c…、全raw5e6fe410…保留。原链真exit2 requires_more_modes，保.128接受锚；原场直接完整升M32，不重复M24或误作λ失败。
 
 - 2026-11-28 16:39 UTC｜Astra-held10-7c4e33ee-20261128：发布已闭metric-only场的窄升模续接源ff5b646b…：逐项核最后失败场/真接受锚/完整family/SHA后接原exact-lift，全部数学门与RAM门不变，增加真实256MiB盘余量。准备记录仅compile/help；其后89083已真实开始.256/M32，完整初猜与原Newton活算，尚无新接受。
+
+- 2026-11-28 16:40 UTC｜Astra-held10-7c4e33ee-20261128：完整q列、24V及固定δ的25维DN块真exit0/93.415s/444564KiB；原全部879/73/24变量保持，终端q列准确0，混合点χN=2.47108106147e−5。保F_L的完整仿射残差1.362e−18，literal行缩放小逆有Fraction证书；旧J/current-point差与物理尾非线性不冒付。
