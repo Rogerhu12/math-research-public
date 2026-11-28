@@ -222,3 +222,7 @@ run46090913581/1、job140811337445真实in_progress，01:00:48Z/head18081452；c
 ## 2026-11-28 01:19:24 UTC — 21首试步实际拒绝与下一试步开始
 
 21首df8d真g2.541904432457273/最大reach且拒绝，原统计保；下一700e于01:05:14.368451开始，统计/几何未知。current仍初7e06/accepted0/reportfalse，未把略降g冒接受。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`b038816a52170f306ecd1786027096ca5fbc640c`无变（非pull）。
+
+## 2026-11-28 01:28:06 UTC — 22初始完整六族几何实际返回
+
+22初始完整六族返：reach.5305849371949052、distance_plus.11391238912344381仍正，余四负；Phi681.6517423825409/Gram.40616525311769985、accepted0/reportfalse。同参数19原全波g/Phi/Gram更大而distplus更小，只作真实工作值比较；不冒连续证书。澄清22science+pure两步103752B，全四步110351B；原完整队列不变。 完整原对象及小文件全身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`6e402f5ab4db9613c47653db450996dd3444c0ee`无变（非pull）。
