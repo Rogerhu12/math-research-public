@@ -261,3 +261,6 @@ AHD：负轴同s的两Airy行保相关，π行模积≤2/√3；真cutoff积分�
 
 
 ASQ11R：原46136643646/1在首metadata列表vs整数门失败、尚无新分组；新首add/attempt1严绑原terminal/job/event和完整198234B日志，唯一AST条件改核11个完整passed对象，全部native/公式/原SHA不变。新actual例外仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+AGPR：46135620219/1实际success，3026/3026全格与4个1/64门全过；真标签相对同一连续比较的strict角H1<1.164e−10、全域角H1<1.084e−5、含r导H1<1.576e−4。176whole10624293B/root metadata再准入通过、旧science0；原53.688MB/100.890MB载体双SHA全保，仅小receipt公开。后继GRQ实际接入，非整个high响应。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
