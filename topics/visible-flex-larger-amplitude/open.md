@@ -128,7 +128,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 R757同固定初g、R759负胞两轨与R751别名证据的范围见原proof及旧完整open，不重做。所有尚未支付的三Gram、全相嵌入/法管/非合同及精化要求仍真实欠账，局部准确/程序成功不代整壳。
 
-[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：K~v²排旧硬平trace；同R764初g真实闭曲线、共动右零曲率段/两整预带卷域及两整帽三g准确，互补仍欠。四周期三边原3层13相+12中相、全C²整壳独查启动。
+[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：严格共动右域保留；46165595977四自然0/12层/24报告全返，末连续g为1.35e5–4.57e5、K约1e5–4e5；离散首边准确不付余边/整roll，四有限拟合失败已闭。
 
 [R767–768](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：新固定初g全reach.08/D<2.57、握>.528/中央held>.55；整桥单位速/真实两帽二jet。旧.18硬端斜路<.768却末弦>.784，任何内场g误差>.042，已闭；改真实外边界续做，正相全管/余g仍欠。
 

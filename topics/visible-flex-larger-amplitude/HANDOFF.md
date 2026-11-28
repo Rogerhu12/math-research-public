@@ -31,7 +31,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 [R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：初reach.132/D<4.386、原基场结论保留；46162184631四整球12层/84拟合72中相全返，free末g.845/.868且K505/271，rigid末g>1/弦价正；这四有限拟合失败，非全自由类否定。
 [R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：同R757 g有符号λκt=κ0令全meridian准确；2+2支96.3%卷面积准确但K>17.2排厚。新2+3低峰中央K<8.84/held>.705、内帽同g/四缝二jet，全过渡费与法管未付；全SO3闭一形式为准确等价，45求实际共场。
 
-[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：K~v²排旧硬平trace；同R764初g真实闭曲线、共动右零曲率段/两整预带卷域及两整帽三g准确，互补仍欠。四周期三边原3层13相+12中相、全C²整壳独查启动。
+[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：严格共动右域保留；46165595977四自然0/12层/24报告全返，末连续g为1.35e5–4.57e5、K约1e5–4e5；离散首边准确不付余边/整roll，四有限拟合失败已闭。
 
 [R767–768](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：新固定初g全reach.08/D<2.57、握>.528/中央held>.55；整桥单位速/真实两帽二jet。旧.18硬端斜路<.768却末弦>.784，任何内场g误差>.042，已闭；改真实外边界续做，正相全管/余g仍欠。
 
