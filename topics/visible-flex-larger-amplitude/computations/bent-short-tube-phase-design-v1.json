@@ -1,0 +1,214 @@
+{
+  "schema": "r776-short-tube-normal-swing-phase-design-v1",
+  "fixed_metric": "Exactly the R776 phase-zero closed shell g0, including both end rolls and both complete disks; central tensor dx^2+(1-k Z0)^2 de^2. Identical at every iteration, phase and refinement across the three independent branches.",
+  "defining_order": 20,
+  "geometry": {
+    "R776": "46b625f50b341c60c8629ddda386e0d245a51d5349d0d4c1109701788d091f22",
+    "R778": "a1426dce994b0103b11a1c28f2d79a2da742254ed50152737dab5082f6877fbe",
+    "normal_swing": "c21f095a4ef167bfb447a4a46b1fa7cd2511e60c367e8632d4fe325c41eb5bc0",
+    "shape_companion_quadrature": 20,
+    "inherited_initial_world_columns": "Use the initial-world geometry from the working quadrature on each training or check grid. The canonical final field uses order 20.",
+    "axial_floor_slack": 0.008,
+    "world": "Fixed right full physical head, R776 actual translated left head in hard and normal-swing branches; free-left has full three-channel corrections. Every defining base sits above the original analytic axial floor at every positive phase and after the strictly positive axial transformation.",
+    "physical_fields": "Uniformly short, R776 spatial arc, R778 periodic n=1 or n=2, and the independent broad normal swing with a scalar chord equation. A fraction blends the true six material jets before fitting."
+  },
+  "families": {
+    "hard_heads": [
+      [
+        "short",
+        {
+          "heads": "both",
+          "profile": "short",
+          "harmonics": 1,
+          "fraction": 0,
+          "seed": []
+        }
+      ],
+      [
+        "length-arc",
+        {
+          "heads": "both",
+          "profile": "arc",
+          "harmonics": 1,
+          "fraction": 0.42,
+          "seed": []
+        }
+      ],
+      [
+        "one-normal-wave",
+        {
+          "heads": "both",
+          "profile": "normal",
+          "harmonics": 1,
+          "fraction": 0.08,
+          "seed": []
+        }
+      ]
+    ],
+    "free_left": [
+      [
+        "short-left",
+        {
+          "heads": "right",
+          "profile": "short",
+          "harmonics": 1,
+          "fraction": 0,
+          "seed": [
+            [
+              [
+                "rim",
+                0,
+                0,
+                0
+              ],
+              2,
+              0.015
+            ]
+          ]
+        }
+      ],
+      [
+        "one-wave",
+        {
+          "heads": "right",
+          "profile": "normal",
+          "harmonics": 1,
+          "fraction": 0.06,
+          "seed": []
+        }
+      ],
+      [
+        "two-wave",
+        {
+          "heads": "right",
+          "profile": "normal",
+          "harmonics": 2,
+          "fraction": 0.04,
+          "seed": []
+        }
+      ]
+    ],
+    "normal_arc": [
+      [
+        "wide-quarter",
+        {
+          "heads": "both",
+          "profile": "swing",
+          "harmonics": 1,
+          "fraction": 0.25,
+          "seed": []
+        }
+      ],
+      [
+        "wide-half",
+        {
+          "heads": "both",
+          "profile": "swing",
+          "harmonics": 1,
+          "fraction": 0.55,
+          "seed": []
+        }
+      ],
+      [
+        "complete-normal-arc",
+        {
+          "heads": "both",
+          "profile": "swing",
+          "harmonics": 1,
+          "fraction": 1,
+          "seed": []
+        }
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.7,
+    "area_weight": 3,
+    "curvature_bound": 20,
+    "curvature_weight": 0.024,
+    "jac_chunk": 32,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.03,
+    "step_tangent": 0.2,
+    "line_trials": 9,
+    "pair_weight": 0.5,
+    "worst_pairs": 144,
+    "distinct_material_distance": 0.018,
+    "chord_smoothing": 0.0004,
+    "radius": 0.0465,
+    "neighbor_ranks": [
+      2,
+      4,
+      7,
+      10,
+      16,
+      24,
+      36,
+      50,
+      70,
+      96
+    ],
+    "principal_weight": 0.035,
+    "gram_peak_count": 96,
+    "gram_peak_weight": 0.65
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 24,
+    "nv": 14,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 5,
+    "check_ns": 33,
+    "check_nv": 19,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 20,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 25,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 28,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 35,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 38,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 47,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "The shape companion columns use order 20. Inherited initial-world columns take the working quadrature on training and check grids. The canonical final field is evaluated at order 20.",
+    "Nine physical coarse candidates, three independent 4/8/16 space/time refinement chains and three complete same-runner 65+7 phase-union terminal meshes/geometry indexes. No corrugation frequency is increased on a refinement chain. All use the same R776 initial metric, phase interval and material sphere.",
+    "The full three Gram coefficients, a log-area barrier, four directional normal curvatures, both actual spectral inequalities ±II <=20g, the 96 worst true Gram Frobenius losses, and changing finite ordered normal ball inequalities enter the shape field objective. Exact metric, all-time injectivity and reach remain mathematical costs after fitting. The independent terminal scans its own finite mesh and full ordered pairs.",
+    "The global axial floor retains a genuine entire-image displacement above .315 for the intended integral field at the last phase. The right physical head is fixed at every time; the independently released left head is spatially variable. Volume and a sufficient normal-ball certificate of any optimized point remain separate.",
+    "The high-frequency R778 theorem is separate. Its rigorous best theoretical strain bound trades away quantitative reach; this run uses finite low-frequency fields and true varying physical coefficients only, with the same selected frequency throughout each continuation. All numerical readouts are finite-grid values. Raw NPZ and 3 x 7 binary meshes stay on the runner."
+  ]
+}

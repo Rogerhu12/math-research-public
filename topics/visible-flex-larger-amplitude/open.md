@@ -132,6 +132,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
 
+[50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
+
 ### 完成与保留责任
 
 闭连通C²嵌入/全t强C²、同固定g；D整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻整mesh；仅靠渐近参数压固定缺陷不算。根§15完整源参/run/whole identities、raw留runner。先全标准，再提高三比值。

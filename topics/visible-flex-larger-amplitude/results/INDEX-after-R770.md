@@ -17,3 +17,5 @@
 - [R776：新固定g的全相短映射厚闭球](R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)，[完整九图六jet](../scripts/resume_20261126/r776_short_inward_tube_and_spatial_corners.py)。整g_t≤g0故所有物料端对弦弱短；各法层及混图全管reach≥.05、D<1.55、握≥.68/held>.323、δE≥.020。余曲角角长未准；另一个全角长准确的非平伴随场需重付xx/xe及全管，不能借短参考的几何。
 
 - [R778：同R776 g的完整有限频率近等距族与厚度费用](R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)，[九图二jet](../scripts/resume_20261126/r778_normal_periodic_closed_corrugation.py)。全相相对Gram≤2(16000/n)+(16000/n)²；n=4×10^10可过1e−6，n≥2×10^6全闭嵌入，真曲率>100n使reach趋零。明确不能支付题目第5条/厚度，转入可动锚低频全场。
+
+- [50：R776固定g三族完整全场求解](../notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)。九粗起点、三族各4/8/16共18阶段，各69相/七闭网；两谱曲率不等式与最坏96个全Gram点入真实目标，仍独立支付拟合后的全部标准。
