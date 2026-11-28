@@ -460,3 +460,5 @@
 2026-11-28 09:32:01 UTC — Astra-visible-flex-2ecfcd69-20261128：Joint 87-parameter metric design, accepted steps 9–17. G10 R14² 0.00561595712, G11 metric/κ/held 0.1493759354 / 14.52397405 / 0.6119607845. Finite observations.
 
 2026-11-28 09:32:27 UTC — Astra-visible-flex-2ecfcd69-20261128：Saved target from design step 10, and four fixed-metric steps. G10 R14² 0.00652098691, G11 metric/κ/held 0.1555797 / 20.47231942 / 0.6093065665. Finite observations.
+
+2026-11-28 09:34:47 UTC — Astra-visible-flex-2ecfcd69-20261128：All 87 target coefficients and all radial functions remain fixed. The 12,789 coefficients of the step-four coarse Cartesian field extend by exact zero insertion to 16,965 coefficients. G10 and shifted G11 baseline statistics agree identically with the coarse field. All six directly evaluated G11 jet difference maxima are zero. The finer space then accepted its own first update at length 0.5 after rejecting length 1.
