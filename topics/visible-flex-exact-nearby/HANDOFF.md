@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 09:10:09 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 09:22:32 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至1bb35752adf1da7672d7230f3f7f785f34f83626；每次pull后只读两README差异并立即遵行，至少每小时，迄今无diff。私库读至2a3f23a459a8a2f4341da5b012ea49939cd68276（08:55 pull/README无diff）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至b8a21948e9cdd1d2814cdb85c8dbee5c277feaa1；每次pull后只读两README差异并立即遵行，至少每小时，迄今无diff。私库读至2a3f23a459a8a2f4341da5b012ea49939cd68276（08:55 pull/README无diff）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
-topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10全160无当前引用旧manifest只去字符串外空白，净省956083B；原6fd4325b3/receipt86645B SHA52fd82fa…保存每个literal/whole身份，科学0。META1–9完整账在旧H，全部禁止重做。
+topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META11新200件无当前引用旧manifest只去字符串外空白，净1180728B；原05b945b8f/receipt94784B SHAec28724d…保所有literal/whole身份，科学0。META1–10完整账/receipt保旧H，禁重做；本批每pull核changed/untracked+全200新hash，承接此前全reference scan。
 
 ## 同一对象、完整旧账与完成标准
 
@@ -22,7 +22,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 - H96原46122740303 science前reserve不符失败、0目标；唯一修复0ed00cf19，原7目标46123190757/1（07:52:31）09:07仍in_progress，manifest60f1e7ca…114current/51history。全TC/RHI/8192grid/C0无界频/waist G96/means/world保；不是true PDE列。全actual后立刻接PWA96，旧积分不重。
 - DCP18 run46124617641/1（08:11:11）09:07仍in_progress；BFP19全actual准入，manifest98658B/d85c0d55…322输入269/53。原真密度H−1/2、2560/8192/2048+无限异号tail、96signed/means/WMT全保。
 - TF46120139018/1于08:31:39真实failure，数学4669.906695433s非timeout。left0..80通过，index81在4→8→16→32→64 cuts仍failed；right/node/maps与两whole目标均未成，不推真实奇异。actual57359B/5f1b15db…、execution63045B/2dbb23e3…，86输入/完整ledger核过。原314059632B packed、4955126B canonical、842453B gzip三whole SHA必要恢复合同已推a4ee9d41e但未执行；不能凭指数续算。新正交Householder联合球图表另推进，保193/97/full source，具体见TF诊断note。
-- RCS新首次入口：13整件size/SHA/Gitblob/AST核过，manifest7157B/ebabcc59b13f23b17b80da2c5516b8ef637f08ae80437ee7f83bc26ffc926c8a；原TCXV184current/32history/40parts全准入在原prefix执行，停在旧reservation/science前。新whole strict60系数jets+5Lt+5J+2正下界，共72槽/1自然目标；128-cell private全chunk读回，oldscience0。当前首次workflow待实际run；不授true全域phase/Bgap/uniform高响应。
+- RCS新首次入口：13整件size/SHA/Gitblob/AST核过，manifest7157B/ebabcc59b13f23b17b80da2c5516b8ef637f08ae80437ee7f83bc26ffc926c8a；原TCXV184current/32history/40parts全准入在原prefix执行，停在旧reservation/science前。新whole strict60系数jets+5Lt+5J+2正下界，共72槽/1自然目标；128-cell private全chunk读回，oldscience0。首次run46129196297/1已09:10:19实际启动，event05b945b8fa7efd96e6cf0e2776cffbb9e5092609；不授true全域phase/Bgap/uniform高响应。
 
 ## 真实成功与已付组件（whole身份与全费用见旧H/各proof）
 
