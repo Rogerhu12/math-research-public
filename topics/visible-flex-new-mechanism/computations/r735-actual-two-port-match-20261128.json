@@ -1,0 +1,54 @@
+{
+  "paid_r734": {
+    "run": 46164643330,
+    "job": 141039363519,
+    "head": "df08b6a9be5cd73386323f253b7e56ac27fcd906",
+    "artifact": 15270773103,
+    "artifact_bytes": 2210591,
+    "artifact_sha256": "3fea0c6612e098159a5ea42540810a60ca4b215285a638b2ea8ea6001bf953a9",
+    "terminal_bytes": 144011,
+    "terminal_sha256": "a220b21fab92536d5a50bedc6d69b43c301b2eeda9827bdacadf663b2313134c",
+    "journal_bytes": 7643515,
+    "journal_sha256": "4db22d7323c1ba41df6ad28bfb5c8fd5bc1f81f738050b97b6d472c5afccd2cc",
+    "journal_unique_keys": 8558,
+    "scientific_fingerprint": "49974e9a223b472eae325e552d99c16880a2fb2d4dd98147e04af31141d24eb6",
+    "weight": ".03125",
+    "relative_width": ".025",
+    "receiver": {
+      "run": 46166444893,
+      "job": 141044922067,
+      "head": "2d72a416489a734aca57bd2cd2c43e28ce2e6cf6",
+      "artifact": 15272300475,
+      "zip_bytes": 4897727,
+      "zip_sha256": "8fe3fb1988e07479e747186261daa662a33dc1e926cb85e3bff917d2ad22c4e0",
+      "journal_member": "R734/tail.jsonl",
+      "terminal_member": "R734/final.json",
+      "io_seconds": 19.983584276,
+      "new_scientific_evaluations": 0
+    }
+  },
+  "maximum_depth": 11,
+  "maximum_head": 128,
+  "head_schedule": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "smoothing_exponents": [
+    52,
+    68,
+    86,
+    110
+  ]
+}
