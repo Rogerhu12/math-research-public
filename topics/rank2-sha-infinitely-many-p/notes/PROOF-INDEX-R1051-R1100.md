@@ -622,3 +622,7 @@ BHKO真实signed归一与R1070精确Artin比给Θ17²=C*Θ1²·A·A∘ι，原ra
 ### R1067 §51：全部变形阶的真实首剩余范围
 
 Moore行列式恒定及全根幂和准确解出原Paley两径向块的全部Z阶共同首剩余：次数≤h时R3是同构，h<r≤d−2时核恰(1−x)^(h+1)倍数。原j1坏、j2/p²单位对应的真实R4二次剩余与所有变形阶相容，故在该首剩余阶继续增加jets不能造矛盾；未宣称任意剩余可提升为原特征零模函数。下一位完整pC及原全局来源仍保留。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1071 §10：原两图的权13整基及21阶厚纤维
+
+真实G_m=H0(mP∞−P)、g559/degP∞306/degP2256给G13维1164并生成整个原图；带权领先矩阵付反图全部s饱和，306行权≤13且总和3120。一个D可逆的原厚纤维只需底总度21，零极完整次数比较即准确恢复G13；保3420未知量、3006约束和原全坐标回代，不以约化点替厚度。低权投影的完整多链Hermite及原两ideal/全X outer均保，实际返回306行还可用RR维数独立认证。尚无本方法实际软件或306生产PASS。 [同编号全文](../results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。

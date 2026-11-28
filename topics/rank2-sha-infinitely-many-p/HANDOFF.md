@@ -12,17 +12,17 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:51:26 UTC实际pull --rebase，读取main fe15a1eebff8de48a1ae4c841007e9aef3110981；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:51:21 UTC实际pull --rebase至be5aa0e04bac6e64c579e1207ceceabc123ed4c0；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:55:20 UTC实际pull --rebase，读取main 1b72f959e84a2b77de6109d1c3ba36776c74f86d；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:55:13 UTC实际pull --rebase至cc957d60d00f99137d8c867d4b8e3003cb5859a8；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bee3692a9c661d21f286c6799449901acca6583f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3246/46799683B/treef438eacc5b396f21901b2bdf34ac8ebe061b06d0；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3246/46806832B/tree6529dacc1eafd1f5c0f98eb0875a617e7fbaf08a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
 
 [v16完整终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，failure。完整log4026180B/SHA52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0，8120记录；旧前缀准确扩展。两F/P、T/v正负及9scalar支撑完成；A0有限两次Popov det3670。quotient solve后转原fallback，11:06:54.1538954Z明报800万transcript系数耗尽，elapsed8954.748600139s，solver/host1；不是OS OOM、137或deadline。零selected image/graph/outer及后门PASS，F_y仍旧attached。旧源/参数/回执沿来源注与完整H保留。
 
-[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原D·W=qN、完整逐坐标Y核≤306列终止；全部Laurent多项式X/低残量/已造ideal后的完整X外门。原双极度2256、重建总度>4512。§9真实A0有限U=1、P∞∈{1,2}、全球公共零长1416；真实LRU单j键/单调δ给单对象驻留窗口≤1251846，不界整X/RSS。
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原D·W=qN、完整逐坐标Y核≤306列终止；全部Laurent多项式X/低残量/已造ideal后的完整X外门。原双极度2256、重建总度>4512。§9真实A0有限U=1、P∞∈{1,2}、全球公共零长1416；真实LRU单j键/单调δ给单对象驻留窗口≤1251846，不界整X/RSS。 §10原两图G13=H0(13P∞−P)维1164，306低权行ρ≤13/Σρ3120；反图领先满秩付全s饱和。一个原D单位厚纤维总度21即足唯一恢复全图；RR维数可独立核实际返回，未有新软件/生产PASS。
 [软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
@@ -34,9 +34,8 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 原中央、全层及 Rubin 整平方：R1070
 
-[R1070全文](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)：原E17/m34,72、完整B,j与η=A/Ā。M=(Tη−1)/W整等距逆；CηΣc_nX^n=Σc_n(Tη−1)^n1整线性等距，L=Cη^-1M^-1B、Cη(XL)=WB、L0=j/(dlogη)。全primitive奇层谱/两Eisenstein整商等距给全层vL=vB与µλ；全部Q^ℓ/jet/p项迹/原Hall物理因子和norm17 gauge保留。
-全Klein标签、原正交与Yang绝对period付vA_p(tν)=2v((λ−1)L)、µB34=0、λ_p=2(1+ord B̄34)。J(η^(du)−1)=17^-1(17/a^d)^u J_p/J0,p；所有Hermite本征λη^k返同一全germ。旧普通阶乘cross不连续更正仍优先。首Hall零≥2p，中央bad≥2p+2，非零首Hall原R707高度界已付。
-§§21–23原Klein剩余阶|8、norm17同模8逼近、精确D_a与复共轭J_ā=(1+X)^−sJ_a；BKO同一原单位类/Betti/ω及实际Artinτ(T)=(1+T)^(-1/b)−1给A_p=6κ0ϑ^-1(1+τ)^−sJ_a(τ)^2全O[[T]]。所有非算术权零亦偶重；原中央J′非零仍未证。
+[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)原E17/m34,72、完整B/j和η=A/Ā。M=(Tη−1)/W整等距逆，CηΣc_nX^n=Σc_n(Tη−1)^n1是整线性等距而非乘法；L=Cη^-1M^-1B、L0=j/(dlogη)、Cη(XL)=WB。原全primitive奇层谱、两Eisenstein商、Hall物理/Norm17 gauge/原Klein全标签和Yang绝对period均付，µB34=0、λ=2(1+ord B̄34)。
+J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，保全部权germ与原参考。旧普通阶乘cross不连续更正优先；首Hall零≥2p，中央bad≥2p+2。§§21–23同一原椭圆单位类/Betti/ω、复共轭及实际τ(T)=(1+T)^(-1/b)−1给A_p=6κ0ϑ^-1(1+τ)^−sJ_a(τ)^2于全O[[T]]，κ0=48940416；非算术零亦偶重。原中央J′非零仍待跨p输入；完整旧叙述已逐字保于上方H归档。
 
 ## 原全导子量化：R1072
 

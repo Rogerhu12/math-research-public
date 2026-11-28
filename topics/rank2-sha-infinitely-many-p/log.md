@@ -444,3 +444,9 @@ root亲核BHKO Defs4.1/4.6、Prop4.7完整BT证明、Th4.9b和Rem4.10i，与R107
 root完整手核加法Y方程及D^p=−D常数、R1全根到2d−2幂和、Paley矩阵/Y幂的额外X因子、η=b_(d−1)u0和R3核，逐项代Q5/Q1得到R4及j2单位。只登记同一首剩余的真实无约束范围，不以抽象解宣称原特征零提升。R1072 §§7–9已实推50804081faaa5aab9d6acef8a7db8d02612b9601（11:50:15 UTC），一次非FF立即双pull/rebase，四README不变。arithmetic 11:50:39.9503916UTC实际v17日志仍BlobNotFound，无实际pins/PASS新增。无本地数学执行。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:51:26 UTC到fe15a1eebff8de48a1ae4c841007e9aef3110981，私库2026-11-28 11:51:21 UTC到be5aa0e04bac6e64c579e1207ceceabc123ed4c0；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3246/46799683B/treef438eacc5b396f21901b2bdf34ac8ebe061b06d0，无>5MB。
+
+## 2026-11-28 11:53:50 UTC — R1071 原低权整图和短厚纤维
+
+root全文手核G_m线丛、维数与乘t交、306低权生成、反图直和/全s饱和、Σρ3120、21阶厚纤维零极比较、L19/20准确余空间。复核R925的r29权4/full360前提与原完整整闭基，R883端点2256，并亲读fraction bridge的原A0/A1 y0及后续才作Frobenius；未把F_y或29次极度输入偷换。新增输出自身的RR维数完整证书，实际算术尚待公开软件。H压缩的R1070旧叙述已逐字保于既有归档。R1067 §51已实推37c20e3f0afc750139a1d5e709ba6ba317e25fce（11:51:32 UTC），四README未变。无本地数学执行；v17部署未动。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:55:20 UTC到1b72f959e84a2b77de6109d1c3ba36776c74f86d，私库2026-11-28 11:55:13 UTC到cc957d60d00f99137d8c867d4b8e3003cb5859a8；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3246/46806832B/tree6529dacc1eafd1f5c0f98eb0875a617e7fbaf08a，无>5MB。
