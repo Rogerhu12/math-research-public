@@ -289,3 +289,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:03:44 UTC — 32独立R729完整源码八件
 
 完整8件431128B刊出：4新runtime269947B＋全138角色/24runtime binding50082B、整再生器76965B、说明22321B、总表11813B；20共享runtime及原137角色完整保。原QP先完整执行，仅restoration两个dependent状态触发；剩余64减原advance分配全行CCD sweep，单位明确，新旧完整report与旧Pg归属分开，原全C最终重读/外层screen与所有数值原预算保。pure pointer已准确为actual_restoration_directions，旧少actual_的准备metadata未刊；四运行体未变。有限gap不是严格证书。原31父实际闭包8591已main、其12非runtime附件仍待刊；本32参数/launch继续，实际run/model/点尚未知。见[完整八件总表](computations/fixed-fejer-r728-R729-common-slack-complete-source-delivery.json)。 双README云核至`10d6dc401daccca09fe527ff6b088440172d4612`无变（非pull）。
+
+## 2026-11-28 08:11:05 UTC — 104完整ready参数只整理字符串外空白
+
+完整读148份ready，104仅删除字符串外四类JSON空白、44原字不变；42 half/r725/r726/r728等全排除。全部参数文件同路径保，原数值token/所有字段/来源/完整历史/预算/458等选择器不减，不把parsed Number重写；活queue/request/runtime/binding/实际CLI输入不动。毛减495096B，新whole映射75232B/再生器3688B/说明3962B，文件净减412214B（另计本条及H/open）。原whole字节固定6c07ca0，旧hash参数继承/再生器先恢复整原文件，现格式只按current新身份；所有旧内部身份保持历史语义。三次完整格式历史与恢复见[总引](notes/2026-11-28-complete-ready-json-lexical-format.md)，未增科学门或raw载体。 双README云核至`c1da88994f48c908055120f9f8a0de6e3e463d62`无变（非pull）。
