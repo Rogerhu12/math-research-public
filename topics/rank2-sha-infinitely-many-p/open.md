@@ -82,6 +82,8 @@ R1067§15（53）–（58）已付actual δ_k的1≤k≤p−2全Bell差分界及
 
 R1062§11现支付原中心：全scheme唯一对称lift使C34,T/C2,T′=ε_Q Cβ(Q)，Cβ为真实径向整单位；J在全厚一级群的commutator精确为Fermat-17类，原指定lift相位和λ/λ′全保。G62/G63只在G[p²]完整输入成立，高jet仍用G50；下一消费这个实际有限算子和bare Katz/Frobenius，而非假定q_p(17)对无穷p非零。§12的全translated相对核现已付：ordinary系数和(m)_k给γ_k≥kη，η=1−1/(p−1)，全Δ块/carry及逆均保；a<η仅是算子可作用范围，shifted参考输入的大盘延拓仍未付，未赋whole Hall新半径。须继续原中心/全外权下的实际Euler或canonical读者，不由单字单位核推加权和非零。
 
+R1067§21已把实际比较单位精确化：原b_j/ζ/e_m方块系数1，deRham才一次产生θ^−(2m+1)，故U=U0·17^−m；β尺度后为U0(Normβ/17)^m。λ17的Fermat余类是完整Euler的一项，不能独立判非零。继续与R1062实际中心/full kernel合并；geometry正在核N(a)=17且a≡β modp的真实CM除法规范，须保aT−βT及全部连接，不先将其报作抵消或主非零。
+
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
 [R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。

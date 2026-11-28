@@ -77,3 +77,9 @@ root核R1062§11全scheme对称section的显式c=B/A^((q+1)/2)、q阶和reflecti
 root全读R1062§12并回核R1065(W20)–(W22)：u=pz(v)、P(v)=v(u)使所有p/δ恰留；Kβ的Tg/F/Norm分解支付全部sigma连接，R_T/首值的六重零及strict R_E等距代换给全系数界。μ6使J线性Q次数≥5，Dv(Q)=1+O(p²)，故准确线性6/vQ。原参考a_Q/u_Q保全source，所有Δ块而非仅p−1块保任意k carry，物理Leibniz给(m)_k且普通系数不再除k!；双和绝对收敛给真逆和Π共轭。附节8107B/hash77eaa7f2aa8fdee3e4692c5d9b9abfe90f2bb2cfc6bc9cdef389803b39f72fd4；全文70746B/hash797edc67463a668f473befef979b7a359408a68a94dcee9939aef182043d05d9。仅核作用盘，未证明更大输入盘或whole Hall非零。
 
 推前actual run46073965457/job140911632469：公开2026-11-28 07:51:19 UTC至ed94128d96972c6c20d6219805fb69adcf9cea60，私库2026-11-28 07:51:24 UTC至7f89d35136aeea9750e63469c8356d4f51d2cf5a；四README与07:47同blob、QUEUE本题不变，日志14887B/hash9994793881c34bfb184b383617b923183551855e17409d63fe3c31cf1616e2f8，库存3213/45886425B/tree54a43497cd7d085907a24038df5d14f99971dc46。无>5MB，三旧必要gzip不变；H更新actual heads/已读规则。唯一v15未改；未来v16仍未挂ref/未运行。
+
+## 2026-11-28 07:54:23 UTC — 实际相对 period 的原 tensor 方块及模型 Norm 权
+
+root全读R303(9)–(21)与Kato印257原ηψ/per/模数独立性，实开Theorem12.5(1)及印272的原临界式，并逐项核§21共同K_common。b_j/ζ/e_m方块在原相容Betti/Tate基系数1，排再乘θ^(2m)；deRham的θ^−w只计一次。共同有理标记1与primitive lattice generator 34δp²分清。参考17 Euler准确18/17；全部p²、Artin投影、Gauss、Γ/m!同留后取比，原相对κ在求值前固定。式(89)–(92)的βTeich/principal、Norm和anti-Lie Frobenius符号逐式核。修正文稿独立数学定界，不改公式；附节9437B/hash1af645c5c5c0464fddb561034681baa242436b62eec12a6b8bc3e8e8583a26d9，全文90168B/hash0e8ca0f2130ff617d32567717f4718896da4499331b3b8ffa59925eedabbef73。未单独把q_p17项作矛盾，继续全部mixed与actual中心。
+
+推前actual run46073965457/job140911913096：公开2026-11-28 07:52:33 UTC至0ed00cf191cf6ce8366db09769f6ad377ab66257，私库2026-11-28 07:52:38 UTC至d82efe1b1f13df3a71cf48db39b6a3979c1a4dc1；四README与07:51同blob、QUEUE本题不变。日志14886B/hash565877ad33e89b22576591ff7f5761a9e8bdd760d1213707d624598bcad6084d，库存3213/45897688B/treed097180097c51637ad6a3c700efdbaa849862abc；无>5MB，三旧必要gzip不变。H记actual heads及已读规则。v16未来源码已静态核原69 pins/全部参数及新增5源，但唯一v15仍运行，不另开heavy。

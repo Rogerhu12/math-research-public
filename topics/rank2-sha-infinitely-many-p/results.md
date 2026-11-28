@@ -566,3 +566,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1062 §12：完整 translated 比值及全部整数权块的相对算子
 
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G64）–（G72）将原W20–W22的全部连接、physical p尺度、真实中心和G46整下降逐式合并，给 F34,T(u)=F2,T′(βu)·R_T(v(u))Kβ(v(u))。相对常数完整保留，归一比值及逆在每个strict R_E盘norm1；线性项准确为6/v_Q加深项，未删Γ。普通Taylor系数给归一γ_k≥k(1−1/(p−1))，全部Δ个整数权块和carry以(m)_k卷积，无额外k!；逆核真实返回，换Π按对角共轭。该核可作用于a<1−1/(p−1)的已解析输入，未证明shifted参考向量在此大盘延拓，也未赋whole Hall比值新半径或非零。
+
+
+### R1067 §21：原 CM tensor 方块的精确相对权与模型 Norm
+
+[R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)（83）–（92）按Kato印257的定义性下降与period图，保R303原Betti/Tate基及同一反圆分角色的完整tensor方块。共同34δp²模数、p²/Artin/Gamma、辅助与参考17的18/17因子逐项定位后，原ε_r(m)=κ_rθ^−(2m+1)，固定κ_r在椭圆单位求值前确定；原U=U0·17^−m。β尺度后Uβ=U0(Normβ/17)^m，真实log连接λ17=−(p−1)²log17，其全p阶Euler缺陷余类为2p^p q_p(17)。不重复模型费用、不把该项单独视为forcing；全mixed Katz商、原中心和lift相位仍须合并。

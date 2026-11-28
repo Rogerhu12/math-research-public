@@ -2089,3 +2089,204 @@ $\psi M_N=0$ 的来源陈述本身不杀这一组合；
 本节没有将不同 Galois 对偶的对数测试认作 $\mathbf Z_p$-测度。
 后继仍须对同一完整 $\mathcal U_r(M_{34}/M_2)^2$ 判断其
 Frobenius 费用，不能把(82)误称为全部(74)已经自动。
+
+
+## 21. 同一 CM-pair 上的实际相对 period 与 Fermat-$17$ 权因子
+
+本节把§16的原比较标量按其定义性图展开。始终使用 R303 的
+$F_\vartheta^*\xi_{17}=\mathcal A_p\xi_1$ 和原 primitive Betti/Tate 基；
+不作新的 signed $\Lambda$-基变换。下文的固定常数在椭圆单位取值
+以前定义，因此即使目标 Hall 值为零也不以该值作除数。
+
+### 21.1 先在代数 CM 线上 tensor，再施原 period 图
+
+置 $w=2m+1$，$6\mid m$。Kato 的负型角色为
+$\Psi_{j,m}=\psi_j^{-w}\nu_r^{-1}$。
+取共同 $\mathfrak f=(34\delta p^2)$ 的 canonical CM-pair $E_{\mathfrak f}$，
+并在含原模型同构的共同有限域上取与原 CM Betti 基相容的
+$q_j:E_{\mathfrak f}\simeq E_j$。记
+$e_j=q_j^*\omega_j$。在复一致化中两图分别是
+$$
+ \mathbf C/\mathfrak f\longrightarrow
+ \mathbf C/(\varpi_j\mathcal O_K),\qquad
+ z\longmapsto \frac{\varpi_j}{34\delta p^2}\,z .
+ \tag{83}
+$$
+式(83)中的 $1$ 只指定共同的有理 Betti 标记；完整格的生成元是
+$34\delta p^2$，它准确映到两模型各自的 primitive 标记 $\varpi_j$。
+式(83)只标记实际代数同构和这些 Betti 基；没有把复 period 嵌入
+$\mathbf C_p$。由 $q_{17}=F_\vartheta q_1$，
+$$
+ e_{17}=\vartheta^{-1}e_1.
+ \tag{84}
+$$
+
+还须核原反圆分特化与 $w$ 次 tensor 的同一基方块。
+令 $b_j\in T_j^{-1}$ 是 R303 已固定的相容基，
+$F_\vartheta^*b_{17}=b_1$，$\zeta$ 是共同 cyclotomic Tate 基。
+在同一个 $\chi_m^{-1}$ 线上固定 $e_m$，用原身份
+$\chi_m^{-1}=T_j^{-2m}(m)$ 将它送到 $b_j^{2m}\zeta^m$。
+于是实际识别 $I_{j,m}$ 满足
+$$
+ \begin{aligned}
+ I_{j,m}:(T_j^{-1}(1))\otimes\chi_m^{-1}
+       &\longrightarrow T_j^{-w}(1+m),\\
+ I_{j,m}(b_j\zeta\otimes e_m)&=b_j^w\zeta^{m+1},\\
+ (F_\vartheta^*)^{\otimes w}I_{17,m}
+       &=I_{1,m}(F_\vartheta^*\otimes\mathrm{id}_{e_m}).
+ \end{aligned}
+ \tag{84a}
+$$
+最后一式在显示的完整 Betti/Tate 基上系数为1。
+所以 tensor 同一 $\chi_m^{-1}$ 后的原映射确是
+$F_\vartheta^*$ 的 $w$ 次 tensor；没有另一个
+$\vartheta^{2m}$ 重新识别费用。
+在 de Rham 后用原 Néron tensor 读取该图时，才由(84)一次产生
+$\vartheta^{-w}$。若改用两模型各自的 Néron tensor 来规范
+$\chi_m^{-1}$ 的基，必须同时运输 $e_m$；不能将该改基因子再
+乘到(84a)已固定的原方块上。共同 $\nu_r^{-1}$ tensor 对此式不作改变。
+
+
+这里可以直接核原下降，不需要在每个权另选一个 primitive minor。
+Kato 印刷 p.257 的定义是
+$\eta_\Psi=\Psi(\mathfrak a)^{-1}(\eta_{\mathfrak a}^*)^{\otimes w}$。
+在 $w=1$ 的原模型线上，$e_j$ 与实际 Hecke 角色的下降相容。
+将这个等式逐字取 $w$ 次 tensor，并 tensor 同一个
+$\nu_r^{-1}$ Artin 基，恰得到 $\Psi_{j,m}$ 的下降：
+$$
+ \eta_{\Psi_{j,m},g}
+   =\eta_{\psi_j^{-1},g}^{\otimes w}
+      \otimes\eta_{\nu_r^{-1},g}.
+ \tag{85}
+$$
+因此 $e_j^{\otimes w}$ 连同该同一 Artin 线就是本次使用的
+descended CM 基。有限比角色
+$\chi_{17}=\psi_{17}/\psi_1$ 的阶整除6，且
+$\chi_{17}^{w}=\chi_{17}$；两模型间仍是(84)的同一个
+$F_\vartheta$，而非随 $m$ 新换的 twist。
+临界 Tate tensor 的 Norm 作用两边相同，也在(85)的完整 tensor
+中同取。把固定 $288$ 下降写成有限矩阵时，那些矩阵只是(85)
+在所选标记中的表达，不再产生额外的相对归一因子。
+
+Kato 同页的 $\operatorname{per}_\Psi$ 正是原椭圆
+$\operatorname{coLie}\to H^1_B$ period map 的 tensor。
+以原 primitive Betti 双基 $\gamma_j$ 表示，去掉两边同一个临界
+Tate tensor后，它准确给
+$$
+ \operatorname{per}_{\Psi_{j,m}}
+   (\omega_j^{\otimes w}\otimes e_{\nu,\mathrm{dR}})
+   =\varpi_j^w g_\nu\,
+           \gamma_j^{\otimes w}\otimes e_{\nu,B}.
+ \tag{86}
+$$
+$g_\nu$ 是同一实际分歧 Artin period。
+(86)先是原代数 CM 线与其复 period 的比较；只有得到该代数线上的
+临界系数后才取既定的 $p$-adic 嵌入。
+
+### 21.2 公共因子的逐项位置
+
+对§4.1的两条实际路径使用同一个 dual exponential。
+§16.1已经逐图支付 $a_m\to s_m\to b_m\to b_m^{-1}$，
+故没有残留一个未标记的 modular $a_m/b_m$ 比值。
+原 Kato Theorem 12.5(1) 在
+$k=2m+2,r_{\mathrm{crit}}=m+1$ 给出的复因子是
+$(2\pi i)^m L_{\{p\}}$；它不含 level 的额外 $N^m$。
+下面列出本次所有可能影响两图相对权的项。
+
+| 项目 | 在原图中的位置与取消 |
+|---|---|
+| 共同非 $p$ 模数 $34\delta$ | (83)把 canonical Betti 标记 $1$ 送到两条 primitive 标记的同一 $(34\delta p^2)^{-1}$ 倍；coLie 与 Betti 经同一 $q_j$ 运输。Kato p.257末至p.258首的模数独立性按这些实际同源识别，故没有一边另留下 $17^m$ |
+| $p^2$ Betti/Tate 费用 | Kato p.258 的 $p^2\beta$ 原始 Tate 基给共同 $p^{-2w}$；保持后在两式取比时取消 |
+| 固定 finite $\nu_r^{-1}$ | 同一个 $p^{-1}$ 字符投影、Artin 基、$g_\nu$、Gauss 和及导子归一；均先保再同消 |
+| 临界 Tate/Gamma | 将 $(2\pi i)^m L/\varpi_j^w$ 写成本文 $\mathscr E_{j,\nu_r,m}$，共同因子准确为 $\delta^m m!$；不把 $m!$ 当单位 |
+| 辅助 smoothing | 原共同惰性辅助理想的 $\ell^2+\ell^{-1}$，与 $m$ 无关，最后同除 |
+| $2,3$ primitive 因子及有限投影 | 两边均用各自原角色。比较的公共层保同一 $2,3$ 支持；$\chi_{17}^w=\chi_{17}$ 使相对有限标记不随合法权变化。其实际固定基倍率只进下面的常数 |
+| 参考 $17$ 因子 | 共同模数暂删后按原 primitive 值乘回。因 $\psi_1((17))=-17$、$N(17)=17^2$、$\nu_r((17))=1$，因子恒为 $1-(-17)^w/17^{2m+2}=18/17$ |
+| $p$ Euler 与 Yang 平方中的 $p^{-1}$ | $\nu_r$ 分歧，局部 $L$ 因子为1；两份完整 Hall 平方另有同一个 $p^{-1}$，它已在(19)中，不另混入 period 比较 |
+| 原 signed 整基 | $\xi_j$ 与 $F_\vartheta$ 一次固定；原始基与上述原 CM tensor 标签的固定倍率保留，不作逐权或新的 $\Lambda^\times$ 换基 |
+
+因而在原代数基中，若 $y_{j,m}$ 表示这一实际临界
+dual-exponential 向量，有
+$$
+ y_{j,m}
+  =k_{j,r}\,K_{\mathrm{common}}(m)\,
+       \mathscr E_{j,\nu_r,m}\,\eta_{j,m},
+ \qquad
+ F_\vartheta^*\eta_{17,m}
+       =\vartheta^{-w}\eta_{1,m}.
+ \tag{87}
+$$
+$K_{\mathrm{common}}(m)$ 依次包含表中公共 $p^2$、Artin、Gamma、
+Tate 费用，允许为非单位；$k_{j,r}\in\mathcal O_F^\times$
+只含已固定的 primitive/有限标记与基的常数倍率。
+(83)--(86)说明这是两条具体原图上的等式，不能用任意
+“逐权单位”代替 $k_{j,r}$。
+原类的两次特化由R303(19)及本篇(21)给
+$F_\vartheta^*y_{17,m}=\mathcal A_p(x_m)y_{1,m}$。
+先取消同一个 $K_{\mathrm{common}}(m)$，即得
+$$
+ \boxed{\epsilon_r(m)=\kappa_r\vartheta^{-(2m+1)},
+ \qquad \kappa_r=k_{17,r}/k_{1,r}\in\mathcal O_F^\times.}
+ \tag{88}
+$$
+该恒等式是在原基下的比较；若事后改变 signed 基，必须再显写
+那一份固定 $\Lambda^\times$ 的评价，不得仍称其为常数。
+
+### 21.3 原 $\mathcal U_r$ 的真实权与参考 $\beta$ 缩放
+
+代回已发表的(63)，所有物理与 theta 费用仍只计一次：
+$$
+ \mathcal U_r(t)
+   =U_{r,0}\,17^{-Mt},\qquad
+ U_{r,0}=\frac{6\kappa_0\kappa_r}{17^2\vartheta}
+        \in\mathcal O_F^\times .
+ \tag{89}
+$$
+这里 $\vartheta^{-4Mt}$ 来自原全权平方及模型；
+$\vartheta^{-2Mt}$ 来自(88)，所以总和才是 $17^{-Mt}$。
+没有另外再乘一个 $17^{-m}$。
+
+现保持§18的实际 $\beta^{p+1}=17$、$N\bar\beta=17$，
+并置 $\nu_\beta=N_{L/\mathbf Q_p}\beta$。
+参考的 physical 变量换成 $\beta z$ 后，germ乘 $\beta^{Mt}$，
+所以同一平方比较的单位变为
+$$
+ \mathcal U_r^\beta(t)=U_{r,0}(\nu_\beta/17)^{Mt}.
+ \tag{90}
+$$
+$\beta^{2Mt}=\nu_\beta^{Mt}$ 在当前合法权支严格成立：
+$\beta/\bar\beta$ 是阶整除 $p+1$ 的 Teich 单位。
+(90)不把 $\beta$ 当全局同源，也不将 $\nu_\beta$ 设成17。
+
+最后写 $\beta=bz$，$b$ 为其 Teich 余类提升。实际
+$z^{p+1}=17/\widehat{17}$ 且 $z\in1+p\mathbf Z_p$，从而
+$\log\nu_\beta=2\log17/(p+1)$。
+以原 $\partial=b_M^{-1}d/dt$，(90)的常数 log 连接为
+$$
+ \lambda_{17}
+   =\Delta\log(\nu_\beta/17)
+   =-(p-1)^2\log17,\qquad
+ \lambda_{17}/p\equiv q_p(17)\pmod p .
+ \tag{91}
+$$
+另一方面 $c=\Delta\log q_{\rm ac}$ 属于 $L$ 的反不变 Lie 线，
+$v_pc=1$，故 $(c/p)^{p-1}\equiv-1\pmod p$。
+于是原单位本身的 $p$ 阶 Frobenius 缺陷准确为
+$$
+ \boxed{
+ \lambda_{17}^p-c^{p-1}\lambda_{17}
+       \equiv2p^p q_p(17)\pmod{p^{p+1}}.}
+ \tag{92}
+$$
+所有混合项仍须保留：将(73)用于 $\beta$-scaled 的实际商，
+应作用的是
+$(\partial+\lambda_{17})^p-c^{p-1}(\partial+\lambda_{17})$。
+(92)只明确其中的原单位费用，未单独将其当作非零矛盾；
+同源 Katz 商、原中心与实际 lift 差的贡献必须一并评价。
+
+一手定位：Kato，
+[印刷p.257的下降与椭圆period定义](https://www.numdam.org/article/AST_2004__295__117_0.pdf)、
+[pp.257--258的模数独立性及canonical CM-pair基](https://www.numdam.org/article/AST_2004__295__117_0.pdf)、
+[Theorem12.5(1)，印刷p.221](https://www.numdam.org/article/AST_2004__295__117_0.pdf)；
+其无额外level幂的临界公式亦在印刷p.272再次原样显示。
+本节只消费这些原图；不调用 ordinary $D_{\mathrm{cris}}$ 结论。
