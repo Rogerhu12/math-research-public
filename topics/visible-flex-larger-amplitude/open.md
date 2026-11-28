@@ -126,7 +126,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数/位置账和[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解全证。ε1/8显式15/b→64/(7b)，高阶及根存在条件保，不推wholeK。[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)137pair18变119保/22runtime，epsilon/八cut/12片/Q全定义/新校准和pure全plan真接，原bubble/lift/外Gauss保。[26全参数](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)157/7、458/445、64live、5CLI+13external逐字可逆保。26初三步74270B；science+pure118380/all4 126501>95000，自然science返后完整pure52340B接续，不删字段或预算。
 
-[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)急角球面均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet/跨机制扰动全证。显式转向θ替2tan(θ/2)，不推wholeK；实际Slerp源实施中，不混25/26，不继旧Euclidean凸势/校准。完整旋转/第二角等价候选另存，原回退/有限性证明齐，尚无实测加速。
+[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)急角球面均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet/跨机制扰动全证。显式转向θ替2tan(θ/2)，不推wholeK；实际Slerp源实施中，不混25/26，不继旧Euclidean凸势/校准。[旋转/角2全22件](computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json)已刊：17新runtime/137角色14变123保，完整有限性/原回退齐，另备28，无实测加速。
 
 22/24宽度、23恢复policy、25dk缓存的全源参/预算/peer保各note；[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)全文责任保。N/G首次绝对源路径、whole稳定report/snapshot；N变另G目录，R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed；136+4词/模式/peer/预算保，CLI不继末μ。
 

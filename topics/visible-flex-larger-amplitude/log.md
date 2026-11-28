@@ -474,3 +474,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 04:01:14 UTC — ret66六份旧生成准备描述完整来源保全
 
 6旧生成描述毛732004B，4完整新件161505B，净570499B；65完整小source/40全源参资源结论/35直接与伴随恢复齐。六wholeSHA均来自真实原小清单，大体未读；原writer准备前写、5prepare-only exit0与q126实际完整exit0/原接受但非闭面reach分开，完整argv/resource与历史路径/旧client责任保。固定c5be3d5556d8a4f5d1200574567d30d764e4b72c精确原字恢复；所有配置/raw/数值报告/源码/ret65canonical/活19–27不动，无科学重跑或新门。双README云核至`cebdddee8b09a13334f2e55c7f0d226d06c2b0bd`无变（非pull）。
+
+## 2026-11-28 04:07:21 UTC — 完整按需旋转与第二角frame源发表
+
+22全件1286484B：17新runtime1024567B、binding65101B/931425f1、两全文再生72931/30979、证明35978B/26ebf455与总表56928B/6c8880e6。137角色14变123保，19runtime含原校准/observer；driver d1c99f55、reader8631ae6b、launcher2a94d33f、normalfbb17bbc、frame477a501d全绑定。仅plain/nativefloat64已知无tracking/AD/autocast环境按实际需要省未消费旋转阵列；32stage同branch/同point/精确previous-control词保，第二角只尾六列复用，不借别stage低阶行。原仍需check的丢弃低阶frame已完整证明有限：原全数据/控制≤2^12、系数及导数实查≤2^704，逐原运算/积分计数给<2^960；不合适/可选失败回原全方法，原硬错误不吞。原全输出/预算/末重读不动、38snapshot各自计数保；不称Python/科学/AST/benchmark已跑，无新准入门。物理仍25原半波S5，不混26/27R725或R726；完整28参数和实际运行接续。双README云核至`a53594d32abd7523047a82f615b782cb459ebc39`无变（非pull）。
