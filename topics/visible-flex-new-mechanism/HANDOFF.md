@@ -6,7 +6,7 @@
 
 公开最近成功的终端 pull/双 README 检查为 **3bbf2a55692c7986dfdb391fc46b4c4593cfd2d5**；环境失效前最后本课题终端推送 R715 为 **14438fb45fb7e617c4eae0c230396ab4b305600e**。私库最近成功的终端 pull 为 2026-11-28 13:40:01 UTC、**8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**。14:32 私库 pull 因磁盘满失败，随后执行环境不可用；不能登记为成功 pull。
 
-终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **fa9eab4803b9e0a000d9ab9475f1fa0e24afb4fa**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
+终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **986755576586b6f3a03e0e5e237050dcb5e80b6c**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
 
 根16已读；所有子代理显式 gpt-6.2-astra/ultra，当前三名均无下级。每结论独立提交推送；非快进先读新 head、保留他人变化重新接续，禁止强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析。根12不重复机械审核；根15不存可重算大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -26,7 +26,7 @@ R723 真去同片镜像与新长座仍在推进。[R724](results/R724-comoving-c
 
 ## 环境中断时未发布的真实稿件
 
-R716 论文/消费者原稿已完整读过，尚未发布：规范共结二jet、源真实端trace、全条带Hessian、同g误差转移；没有实际数值资格。原论文 SHA69c2306febe4c9818fbeb705c16cc3a2584345d9651fe65895e3d071b6ab0b51，脚本487928256cdc0bffd2aef6b5259dbb546e54dc604e4779032ba3ec4e5837f869。以原字节可恢复为准，不凭摘要伪造。
+[R716](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md)已发表规范共享二jet/全条带Hessian与同材料metric改量。独立重构源码 r716_canonical_paid_strip_recovered.py 为12060B、83de2a0a65b34da6514be8a8ee8217b870413c9c651fecc2dee9097cf2d07b58，世界D0保h*−h_bin；未执行。原丢失论文69c2306f…/源码48792825…身份不冒已恢复。
 
 R717 真实R636原速度续接包已完成源码审阅但未发布。原脚本664923147b2df0573433ca5efaa1e64b6125a4d33684a0ee1cef9cb2ab606465；原请求187828B、9d6a46e75f33072a0ea6901f782982f597e950d3079c69091a77d0d265b346dd，超过集成传输限制，不分块传送。真R636 run46145970226/job140982002231/source3d0aa274542bc7e2132b5a495918fbcf7e662568：新3597.401352018秒/88接受、总207，257q 51dc60ef7642baa7ac65de7efd2a5166ff73f94ec092b6e0c340df7188cb5790；十端.01500077/ruling1.1487e14仍未根。402真多项式键可复用，旧90J未保存。原solve/257列/18块/正势/Armijo/绝对门不变，144步6600/240；新实际cache/operator仅artifact，不把输出大数组入库。原源日志和旧费用保留，不重播。
 
