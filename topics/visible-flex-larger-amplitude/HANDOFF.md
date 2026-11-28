@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`dbbcd99a1c6c15f25224f57424985d8ac2ccf01c`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活18–24通常5分钟真pull，已读commit保末槽；终态12–17末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`2d553802c3ab5a933a230954e56f5ace5c881ff6`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 
@@ -20,14 +20,14 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | run | 真实边界 |
 |---|---|
 | 12–17 | 官方cancelled，原因不猜；全部已返/末真pull/未返科学保终态notes及旧H；17末e2c1ad7/accepted3仍不可行，未付高配精化。 |
-| 18=46062343475 | 两input0、前三science1及三reader0；current2b1c/accepted3/g2.0441496553824883；完整六族返，仍不可行。 |
+| 18=46062343475 | 官方cancelled@02:05:35Z；原8已返及未返science保18note。末2b1c/accepted3/g2.0441496553824883，下一8fb0统计返、几何未知。 |
 | 19=46076669320 | 两input0；currentd761/accepted1/g.9679630392005261；末7af04真g.9691295883291671已拒，下一b6a06开始、统计/几何未知。 |
 | 20=46079535427 | 两input0；current初7e06/accepted0/g.9684249942095058；第二d346真g.970243177977179已拒，下一0f4d统计返、几何未知。 |
 | 21=46084442413 | 两input0；初7e06真g2.541916739245917/accepted0；首df8d真g2.541904432457273已拒，下一700e开始。 |
 | 22=46090913581 | 两input0；初7e06/g.5305849371949052/accepted0，六族返；trial97fbb统计返Phi681.6511710299278/Gram.4061652579029476，几何/决定未知；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 | 23=46094430214 | 两input0；scienceb31c/f2a9/PID3652运行；新model/point/策略结果未返；完整19件及实际输入保23note。 |
 
-全source/model/point/六族/事件/原失败保：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。18–23均未返完整report，当前点不可行。
+全source/model/point/六族/事件/原失败保：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。18–24均未返完整report，当前点不可行。
 
 ## 新机制及完整后继
 
@@ -48,11 +48,6 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 [ret60第一子批](computations/legacy-exact-generated-outputs-retention-60-part1-complete-delivery.json)19旧数值净909466B，全部源参/run/结论/原SHA与Git恢复保；[ret59](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)及前链保。未知/活输入/parent91/ports/Nelder不猜删。root接实际求解；construction续容量，solver等价加速，geometry半波曲率分析。
 
 [24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)11完整件已刊，沿22全137/18源，仅宽度变；δ/g/预算保。初三步72996B，两步science+pure116887B/四步125008B>95k，自然返后整接pure；实际run/场待核。
-
-<!-- visible-larger-parallel-18:start -->
-Actions18：[run 46062343475/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46062343475)；[全阶段记录](notes/2026-11-27-public-actions-46062343475-1.md)。running；已返8，exit=未返。
-并行18规则核查：2026-11-28 02:01:11 UTC，真实pull至`a9b3727d49f4dfb0f80523a3810275530843af02`，双README无变化。
-<!-- visible-larger-parallel-18:end -->
 
 <!-- visible-larger-parallel-19:start -->
 Actions19：[run 46076669320/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46076669320)；[全阶段记录](notes/2026-11-27-public-actions-46076669320-1.md)。running；已返2，exit=未返。

@@ -105,11 +105,11 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 当前真实数值
 
-同固定Fejer g/M160/J923/N2048/32stage；原157/7、458/445、48live/全变量/域/预算保。12–17官方cancelled，已返/末真pull/未返科学保终态note；17末accepted3仍不可行，无高配精化。
+同固定Fejer g/M160/J923/N2048/32stage；原157/7、458/445、48live/全变量/域/预算保。12–18官方cancelled，已返/末真pull/未返科学保终态note；17末accepted3仍不可行，无高配精化。
 
 | 实际run/机制 | 当前真实状态（完整数值及来源见链接） |
 |---|---|
-| [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | 原三science失败/三reader0/两input0保；model9ec211/2b1c/accepted3，六族返，reach2.0441496553824883与distplus仍正。 |
+| [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | 官方cancelled@02:05:35Z；原8已返保。末2b1c/accepted3/g2.0441496553824883；下一8fb0真实统计返，几何/决定未返，无完整report。 |
 | [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)，全波b1/2/δ1/32/两μ.01 | model0abfbf/d761/accepted1/reach.9679630392005261；b622与7af04已拒，后者g.9691295883291671；下一b6a06仅开始，中间b90d几何/决定未取。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，仅恢复μ.001 | 初7e06/accepted0/g.9684249942095058；345906及d346拒，后者g.970243177977179；下一0f4d统计已返，几何未知。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)，仅b5/8 | model9387/初7e06/accepted0/reach2.541916739245917，余五负；首df8d真g2.541904432457273已拒，下一700e仅开始。 |
@@ -117,7 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 22初场g/Phi/Gram较19低而distplus较大，仅是实际工作值比较，非wholeK/reach单调定理。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保未知排序；全部逐值保各完整note和上引旧open。
 
-全point/model/source/六族/时刻/缺值失败保原note和固定索引；统计不代几何，同坐标异model不冒同场，alpha未知不推方向号。18–23未返完整report，不以进度接准确费。
+全point/model/source/六族/时刻/缺值失败保原note和固定索引；统计不代几何，同坐标异model不冒同场，alpha未知不推方向号。18–24未返完整report，不以进度接准确费。
 
 ### 新机制与全部未付后继
 
