@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：原Haar同一稳定域的两个闭因子](results/R12-appendix-actual-haar-same-stable-domain-two-closed-factors.md)：全Walsh分支真实小首行/末列及X入域支付有界伴随来源；同DomR上S=T U、TS=C|DomR、SV=T，S单射/T核Ω且同稠值，与R差迹类。全域乘积闭包等C，非交换中间V不能删。
+
 - [R150：正确h=k、Δ0图完整Loww纤维与8664规范点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Loww-fibers-8664-cover.md)：每个(λ,u,Q)上原全Loww对z至多三次，常数−2P02λ²(2λ−1)²/B非零，保全部首项退化；1444×3×2给完整有序不同点≤8664。已付z非零还给倒变量首一三次必要环境；不重冻结z结式。
 
 - [R12：物理中位双区间与完整carry的准确原值域](results/R12-appendix-physical-median-two-intervals-and-actual-carry-range-rank-one-residue.md)：全高行两整数区间、两条真实出流；包括常数列的Da⁻¹全行是r倍酉的迹类小扰动，完整RanC∩Y保逆权费用。CL=K+Ωψ，原C⁻¹K自然域恰kerψ；V满射核CΩ，CV=D−Ωψ。

@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-Loww-8664-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-same-domain-factors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar同P/双Q/T²/负P与移位圆费用保归档；全部Walsh根/普通P本质距1。全median gap、ΠR−F与真酉W−I迹类保。[双区间与原carry实际范围](results/R12-appendix-physical-median-two-intervals-and-actual-carry-range-rank-one-residue.md)给F准确整数端点、两出流和完整跨块；Da⁻¹全行可逆范数≤2，RanC∩Y保a_j⁻¹费用及一个准确常数约束。CL=K+Ωψ、Dom(C⁻¹K)=kerψ，V满射核CΩ、CV=D−Ωψ；不交换，不给根。非全域/无界角、随动源/无限尾重数、双变量quasi、场外Y²=CQ²继续。
+原Haar同P/双Q/T²/负P与移位圆费用保；Walsh根/普通P本质距1。全median gap/双区间及ΠR−F迹类保，原RanC∩Y逆权图、CL=K+Ωψ、V满射核CΩ已付。[同一稳定域两个闭因子](results/R12-appendix-actual-haar-same-stable-domain-two-closed-factors.md)完整返回TS=C|DomR、SV=T：S单射、T核Ω、同稠值，二者与R差有界迹类。U/V自然逆像域及全部伴随行真费已付；非交换V不可删，未造原根。不同真实闭域/场外二次分子/普通格桥继续。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头1,T,z非自由、旧错链/bf3冻；正确t0/A0及[整个fu](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)已闭，当前D非零Phi图可付t/z/A/f−u。新92a13真3.829887秒/0，四整QQ原纤维维数4/12/12/54，完整N1/NS/PS理想全返1；合C17/u2关闭全部fu，不重旧矩阵。B的[C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)及[原二次整支](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-quadratic-complete-original-exclusion.md)保，余34/40、≤74权对；一般G斜率零面仍开，旧583不恢复。
+真四头1,T,z非自由、旧错链/bf3冻；正确t0/A0及[整个fu](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)已闭，当前D非零Phi图可付t/z/A/f−u。四整QQ原纤维4/12/12/54维全返1，合C17/u2关闭fu。B[C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)的原二次闭，余34/40≤74权对；d825分别在完整QQ常数域首次原I4余子式/首一λ关系，再按实际结果入完整原NP有限商，各120秒1GiB，全部嵌入/重数保。一般G面仍开，不借旧583。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
