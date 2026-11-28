@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [MSS：完整物理1424两端打靶及四源首发](results/R149-supplement-full-physical-multiple-shooting-with-dyadic-signed-propagators.md)：全1425×193 square，97/96块，dyadic U/V/P/R/S与原两边界，11392局部block+4边界、完整signed产品后二端2850weighted rows统一θ<1才授逆；四source193/193/193/128的HS/op/triangle和signed真实残差全保。原89whole packets仅精确恢复，1335新缺格；120whole/21history首发，实际三target仍待。
+
 - [AGDC：真实82格前缀保全并转完整两端问题](results/R149-supplement-actual-82-cell-chronological-prefix-and-full-shooting-input.md)：实际46144819361/1 failure，原81后第82格真分母>.2095498并完成；下一格充分分母下界约−3.13036，非奇异。actual74069B1aadbe23…/最终execution72930Ba2e0a2d9…全准入，原89packet/82history/83frame/248matrix whole全保；低193逆/四source未成。
 
 - [ASQ29：真实strict cut与同高腰两物理输出窗](results/R149-supplement-true-strict-cut-and-two-physical-output-windows.md)：原SP完整正变差加q0/qc精确log恒等式给真reverse<3.24；整mixed两mean传播→腰<40.72/joint<82.4。前J物理输出分频获high≤.126‖Lg‖H⁻²ᐟ³+80.58‖Ug‖H⁻⁵ᐟ³；每次完整传播/角变换/mean均保。GIC∞natural<.0146/common<.182/ASQhigh<.015；GLW全finite Ai<237/两列<454仍未闭，6whole20新比较只执行一次。
