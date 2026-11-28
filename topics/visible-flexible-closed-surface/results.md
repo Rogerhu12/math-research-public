@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R279：源HF64+全W真实径向法曲率>602/25，整闭reach/D<125/8428；新g及实际双材料钟准确全环双射，R272两强变化量及此失败全时转移。](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md)（2026-11-28）。
+
 - [R276：有限阶抛物圈的有界一阶唯一性](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)（2026-11-28）：允许内部角主曲率变号，真实 R275 圆点仍有 gap 一阶退化；不排有限幅或非可微分支。
 
 - [R275：混合 Gaussian 曲率的准确圆种子与整闭 reach](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)（2026-11-28）：真双端完整零幅面；核 reach≥1/7.37，真实固定帽整闭 reach≥.097；作为非圆继续的起点。
