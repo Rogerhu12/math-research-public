@@ -1,0 +1,833 @@
+{
+  "schema": "isp-original-eleven-initial-target-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "completed_original_boundary_return_not_ray_exclusion",
+  "source": {
+    "bytes": 21072,
+    "sha256": "9f16b2f6490f948211850595d653166c20fbc4d452e5b5848c0cc26c99083187",
+    "basename": "2026-11-28-unit211-W-b0-negative-e-full-I11-original-initial-two-positive-targets-8542.py",
+    "blob": "c55c2aa7a11099914626844ce203f2a64c726b91",
+    "input": {
+      "basename": "2026-11-28-unit211-W-b0-negative-e-full-I11-original-initial-two-positive-targets-8542-input.md",
+      "bytes": 8627,
+      "sha256": "233c2e42eb618422f21a558da325359160b899a614bfeee03073b83615dbd8cd",
+      "blob": "9f2308d54dc441dfdc1d5dd17e24c2a0498dbd92"
+    }
+  },
+  "run": {
+    "id": 46162974839,
+    "job": 141034199881,
+    "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46162974839",
+    "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46162974839/job/141034199881"
+  },
+  "execution": {
+    "elapsed_seconds": 3.3264957650000007,
+    "max_child_rss_kib": 60380,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "b88647b2c2b422c21488bc2b479cd266076d82db",
+        "before": "c8bfd50d7c0b1018445e6733b0286be486a83a02",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T16:02:24.028854+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46162974839",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c8bfd50d7c0b1018445e6733b0286be486a83a02",
+    "source_exit_code": 0,
+    "source_git_blob": "c55c2aa7a11099914626844ce203f2a64c726b91",
+    "source_sha256": "9f16b2f6490f948211850595d653166c20fbc4d452e5b5848c0cc26c99083187",
+    "stdout_bytes": 66447,
+    "stdout_sha256": "e6915c4a0d0ad780a6bd00f0c7a2917a4208882f15e51dd0deaa591976b08b41",
+    "stop_reason": null
+  },
+  "original_definition": {
+    "stage": "new_eleven_complete_original_boundary_definitions",
+    "seconds": 1.460679453000001,
+    "names": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS",
+      "b0_original_q2",
+      "R6",
+      "Nlow",
+      "Plow",
+      "complete_Vlow"
+    ],
+    "profiles": [
+      {
+        "bytes": 27252,
+        "degrees_e_k_lambda_t": [
+          14,
+          18,
+          2,
+          2
+        ],
+        "sha256": "93101d1901fb7140a728bd947f58ab3c95c5242c9345664ad04fcec3557d38bd",
+        "terms": 1161,
+        "totalDegree": 27
+      },
+      {
+        "bytes": 27549,
+        "degrees_e_k_lambda_t": [
+          14,
+          18,
+          2,
+          2
+        ],
+        "sha256": "39d85abade4300e63e07fcb1b5a0591bac20edfa85fab19a6e6a4e0a9632d817",
+        "terms": 1186,
+        "totalDegree": 27
+      },
+      {
+        "bytes": 28010,
+        "degrees_e_k_lambda_t": [
+          15,
+          17,
+          2,
+          2
+        ],
+        "sha256": "f41defa5dc7e678d3467e6742d73bc5c4aea86401b10105d5b79d5c8eb752f10",
+        "terms": 1205,
+        "totalDegree": 28
+      },
+      {
+        "bytes": 26837,
+        "degrees_e_k_lambda_t": [
+          14,
+          17,
+          2,
+          2
+        ],
+        "sha256": "ea7616e95aa6b82e56db1410409b107042e22c31c914242c5ea66cbc467d262b",
+        "terms": 1147,
+        "totalDegree": 27
+      },
+      {
+        "bytes": 98775,
+        "degrees_e_k_lambda_t": [
+          20,
+          24,
+          3,
+          3
+        ],
+        "sha256": "3d82f2cedf8391dae34d27006c97a50044e91575803710001f37a31b752e21f8",
+        "terms": 3658,
+        "totalDegree": 38
+      },
+      {
+        "bytes": 121591,
+        "degrees_e_k_lambda_t": [
+          22,
+          27,
+          3,
+          3
+        ],
+        "sha256": "2db33c4db6e9909f12a03bc159d8e06d8684a8e7713d709bf75fbc6dbf467f64",
+        "terms": 4339,
+        "totalDegree": 41
+      },
+      {
+        "bytes": 3053,
+        "degrees_e_k_lambda_t": [
+          7,
+          9,
+          2,
+          0
+        ],
+        "sha256": "64f248a1c5eab042f9bb501ac3a6339e674dd9ac379846b5243e81d5a1a97a1a",
+        "terms": 163,
+        "totalDegree": 15
+      },
+      {
+        "bytes": 27388,
+        "degrees_e_k_lambda_t": [
+          13,
+          15,
+          6,
+          0
+        ],
+        "sha256": "ecca8a08773903dc55f115bb9855982f000b4d08db4db4fca37c46825c210714",
+        "terms": 1141,
+        "totalDegree": 29
+      },
+      {
+        "bytes": 276148,
+        "degrees_e_k_lambda_t": [
+          25,
+          28,
+          5,
+          3
+        ],
+        "sha256": "4d27f10b4f8c9b2e04f106bf96fb991d5ac75550a2c02dc269e36e20b84b9f2b",
+        "terms": 9370,
+        "totalDegree": 48
+      },
+      {
+        "bytes": 329053,
+        "degrees_e_k_lambda_t": [
+          26,
+          31,
+          5,
+          3
+        ],
+        "sha256": "533734e35fd09addc41ade92a34ae7041d8bbcc67eaceacc6cd05eb5187b903c",
+        "terms": 10778,
+        "totalDegree": 51
+      },
+      {
+        "bytes": 76044,
+        "degrees_e_k_lambda_t": [
+          17,
+          20,
+          5,
+          1
+        ],
+        "sha256": "600760c51f36483f91c36a1a9600f78ca02e9673b1ed1ae949eb66bb9753c45d",
+        "terms": 2972,
+        "totalDegree": 35
+      }
+    ],
+    "Z_profiles": [
+      {
+        "bytes": 11535,
+        "degrees_e_k_lambda_t": [
+          9,
+          10,
+          3,
+          1
+        ],
+        "sha256": "88756b2de44e6856b784750f21308e642685c69c5a36d3fff3919f712b5ec209",
+        "terms": 568,
+        "totalDegree": 19
+      },
+      {
+        "bytes": 2843,
+        "degrees_e_k_lambda_t": [
+          7,
+          7,
+          2,
+          0
+        ],
+        "sha256": "8eddce6d4e5052c0627cff6647c8807b826c80efd9847b19d55a4599472a7450",
+        "terms": 151,
+        "totalDegree": 13
+      },
+      {
+        "bytes": 5396,
+        "degrees_e_k_lambda_t": [
+          10,
+          11,
+          1,
+          1
+        ],
+        "sha256": "034c13c5aa7f888afae84f8eebce8d3e027b033049e5f87f7a94a1b77dce39a8",
+        "terms": 278,
+        "totalDegree": 18
+      }
+    ],
+    "all_old_paid_scales_returned": true,
+    "D_not_inverted": true
+  },
+  "new_partition": {
+    "allRationalRatiosCovered": true,
+    "cells": [
+      {
+        "hi": "-1",
+        "kind": "open interval",
+        "lo": null,
+        "sample": "-2"
+      },
+      {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": "-1",
+        "sample": "-1/2"
+      },
+      {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "sample": "1"
+      },
+      {
+        "kind": "point",
+        "sample": "-1",
+        "value": "-1"
+      },
+      {
+        "kind": "point",
+        "sample": "0",
+        "value": "0"
+      }
+    ],
+    "fixedTargetExponents": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "lambdaNonzero": true,
+    "lambdaValuationExactlyZero": true,
+    "newValueSeedOrder": [
+      7,
+      8,
+      9,
+      10,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "ray": [
+      -1,
+      0
+    ],
+    "recomputedFromAllElevenOriginalInputs": true,
+    "seconds": 1.467925931,
+    "stage": "new_eleven_original_t_valuation_partition",
+    "tExactlyZeroSeparate": true
+  },
+  "six_scope_actual": [
+    {
+      "cell": 0,
+      "partition": {
+        "hi": "-1",
+        "kind": "open interval",
+        "lo": null,
+        "sample": "-2"
+      },
+      "seconds": 1.656020668,
+      "unit_returned": false,
+      "face_count": 11,
+      "all_minimum_faces_have_p_unit": true,
+      "basis_size": 7,
+      "targets": [
+        {
+          "target": "k_plus_two",
+          "returned_power": null,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "0c9883dfc31e7edd3359420e2a69bda168213a9b7484385ab5cc31e255b6d76e"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 3,
+              "remainder_sha256": "2ba147ef8d44be16139c17fb58d3eca8e319ecb56ffc73de345f39db0255d440"
+            },
+            {
+              "power": 3,
+              "remainder_terms": 2,
+              "remainder_sha256": "2971adc5aa4888493327262f7690afaa30388c8b9faf7d8676fc22a99aa42129"
+            },
+            {
+              "power": 4,
+              "remainder_terms": 3,
+              "remainder_sha256": "99232ebca1e2b9b407ef25a6c9f32abaa1f1ab70466f9c058b7cd27394cb8ee5"
+            }
+          ]
+        },
+        {
+          "target": "two_lambda_minus_three",
+          "returned_power": 2,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "7e8deebc387b67b9c019352ae1e17ce280c8057acc8dea439192c3091c6abc78"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 0,
+              "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ],
+          "nonzero_original_multipliers": [
+            {
+              "index": 6,
+              "profile": {
+                "bytes": 15,
+                "maxExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+                "terms": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cell": 1,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": "-1",
+        "sample": "-1/2"
+      },
+      "seconds": 1.8532741239999986,
+      "unit_returned": false,
+      "face_count": 11,
+      "all_minimum_faces_have_p_unit": true,
+      "basis_size": 8,
+      "targets": [
+        {
+          "target": "k_plus_two",
+          "returned_power": null,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "0c9883dfc31e7edd3359420e2a69bda168213a9b7484385ab5cc31e255b6d76e"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 2,
+              "remainder_sha256": "8e9d7645ebd18549c7406a5fb28802bbc02d4084093414c4abfe92cb7e9d9978"
+            },
+            {
+              "power": 3,
+              "remainder_terms": 2,
+              "remainder_sha256": "2971adc5aa4888493327262f7690afaa30388c8b9faf7d8676fc22a99aa42129"
+            },
+            {
+              "power": 4,
+              "remainder_terms": 2,
+              "remainder_sha256": "d5737040951a18244c3051b33133c01f1caf9d275d6189366ab50efa26e1f6bf"
+            }
+          ]
+        },
+        {
+          "target": "two_lambda_minus_three",
+          "returned_power": 2,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "7e8deebc387b67b9c019352ae1e17ce280c8057acc8dea439192c3091c6abc78"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 0,
+              "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ],
+          "nonzero_original_multipliers": [
+            {
+              "index": 6,
+              "profile": {
+                "bytes": 15,
+                "maxExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+                "terms": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cell": 2,
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "sample": "1"
+      },
+      "seconds": 2.063415781,
+      "unit_returned": false,
+      "face_count": 11,
+      "all_minimum_faces_have_p_unit": true,
+      "basis_size": 10,
+      "targets": [
+        {
+          "target": "k_plus_two",
+          "returned_power": null,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "0c9883dfc31e7edd3359420e2a69bda168213a9b7484385ab5cc31e255b6d76e"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 2,
+              "remainder_sha256": "8e9d7645ebd18549c7406a5fb28802bbc02d4084093414c4abfe92cb7e9d9978"
+            },
+            {
+              "power": 3,
+              "remainder_terms": 2,
+              "remainder_sha256": "2971adc5aa4888493327262f7690afaa30388c8b9faf7d8676fc22a99aa42129"
+            },
+            {
+              "power": 4,
+              "remainder_terms": 2,
+              "remainder_sha256": "d5737040951a18244c3051b33133c01f1caf9d275d6189366ab50efa26e1f6bf"
+            }
+          ]
+        },
+        {
+          "target": "two_lambda_minus_three",
+          "returned_power": 2,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "7e8deebc387b67b9c019352ae1e17ce280c8057acc8dea439192c3091c6abc78"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 0,
+              "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ],
+          "nonzero_original_multipliers": [
+            {
+              "index": 6,
+              "profile": {
+                "bytes": 15,
+                "maxExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+                "terms": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cell": 3,
+      "partition": {
+        "kind": "point",
+        "sample": "-1",
+        "value": "-1"
+      },
+      "seconds": 2.926206382,
+      "unit_returned": false,
+      "face_count": 11,
+      "all_minimum_faces_have_p_unit": true,
+      "basis_size": 15,
+      "targets": [
+        {
+          "target": "k_plus_two",
+          "returned_power": null,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "0c9883dfc31e7edd3359420e2a69bda168213a9b7484385ab5cc31e255b6d76e"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 3,
+              "remainder_sha256": "2ba147ef8d44be16139c17fb58d3eca8e319ecb56ffc73de345f39db0255d440"
+            },
+            {
+              "power": 3,
+              "remainder_terms": 3,
+              "remainder_sha256": "3f4274ab59e2bc6a169551bdd8425c037157ff9e824608ddffcef038a809b6a7"
+            },
+            {
+              "power": 4,
+              "remainder_terms": 3,
+              "remainder_sha256": "99232ebca1e2b9b407ef25a6c9f32abaa1f1ab70466f9c058b7cd27394cb8ee5"
+            }
+          ]
+        },
+        {
+          "target": "two_lambda_minus_three",
+          "returned_power": 2,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "7e8deebc387b67b9c019352ae1e17ce280c8057acc8dea439192c3091c6abc78"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 0,
+              "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ],
+          "nonzero_original_multipliers": [
+            {
+              "index": 6,
+              "profile": {
+                "bytes": 15,
+                "maxExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+                "terms": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cell": 4,
+      "partition": {
+        "kind": "point",
+        "sample": "0",
+        "value": "0"
+      },
+      "seconds": 3.140000025999999,
+      "unit_returned": false,
+      "face_count": 11,
+      "all_minimum_faces_have_p_unit": true,
+      "basis_size": 10,
+      "targets": [
+        {
+          "target": "k_plus_two",
+          "returned_power": null,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "0c9883dfc31e7edd3359420e2a69bda168213a9b7484385ab5cc31e255b6d76e"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 2,
+              "remainder_sha256": "8e9d7645ebd18549c7406a5fb28802bbc02d4084093414c4abfe92cb7e9d9978"
+            },
+            {
+              "power": 3,
+              "remainder_terms": 2,
+              "remainder_sha256": "2971adc5aa4888493327262f7690afaa30388c8b9faf7d8676fc22a99aa42129"
+            },
+            {
+              "power": 4,
+              "remainder_terms": 2,
+              "remainder_sha256": "d5737040951a18244c3051b33133c01f1caf9d275d6189366ab50efa26e1f6bf"
+            }
+          ]
+        },
+        {
+          "target": "two_lambda_minus_three",
+          "returned_power": 2,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "7e8deebc387b67b9c019352ae1e17ce280c8057acc8dea439192c3091c6abc78"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 0,
+              "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ],
+          "nonzero_original_multipliers": [
+            {
+              "index": 6,
+              "profile": {
+                "bytes": 15,
+                "maxExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+                "terms": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cell": "t_exactly_zero",
+      "partition": {
+        "kind": "t exactly zero"
+      },
+      "seconds": 3.2491087620000023,
+      "unit_returned": false,
+      "face_count": 11,
+      "all_minimum_faces_have_p_unit": true,
+      "basis_size": 10,
+      "targets": [
+        {
+          "target": "k_plus_two",
+          "returned_power": null,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "0c9883dfc31e7edd3359420e2a69bda168213a9b7484385ab5cc31e255b6d76e"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 2,
+              "remainder_sha256": "8e9d7645ebd18549c7406a5fb28802bbc02d4084093414c4abfe92cb7e9d9978"
+            },
+            {
+              "power": 3,
+              "remainder_terms": 2,
+              "remainder_sha256": "2971adc5aa4888493327262f7690afaa30388c8b9faf7d8676fc22a99aa42129"
+            },
+            {
+              "power": 4,
+              "remainder_terms": 2,
+              "remainder_sha256": "d5737040951a18244c3051b33133c01f1caf9d275d6189366ab50efa26e1f6bf"
+            }
+          ]
+        },
+        {
+          "target": "two_lambda_minus_three",
+          "returned_power": 2,
+          "tested": [
+            {
+              "power": 1,
+              "remainder_terms": 2,
+              "remainder_sha256": "7e8deebc387b67b9c019352ae1e17ce280c8057acc8dea439192c3091c6abc78"
+            },
+            {
+              "power": 2,
+              "remainder_terms": 0,
+              "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ],
+          "nonzero_original_multipliers": [
+            {
+              "index": 6,
+              "profile": {
+                "bytes": 15,
+                "maxExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0,
+                  0
+                ],
+                "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+                "terms": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "identified_final_multiplier": {
+    "definition": "63*k_lead^(-6)",
+    "canonical": "[[[-6,0,0],63]]",
+    "bytes": 15,
+    "sha256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+    "expectedSHA256": "cc9e35c040d798e735c5802fd0b64ec3d014b5296c6b777e616a8fa9d8a50581",
+    "match": true,
+    "method": "15-byte canonical parameter identity only; no original source or target replay"
+  },
+  "final_statistics": {
+    "allNewTargetClaimsRequireCompleteElevenSourceReturn": true,
+    "allUnknownTargetAndMinimumFaceCellsRetained": true,
+    "excludedNonzeroTCells": 0,
+    "noCharacteristicZeroLiftOfResidueTargetPowers": true,
+    "noCoefficientPayloadSaved": true,
+    "noFiniteDVRModelClaim": true,
+    "noOldSevenRowInitialAlgorithmOrCofactorGateReplayed": true,
+    "noWholeWExclusionClaim": true,
+    "nonzeroTCells": 5,
+    "originalISPClaim": false,
+    "originalLambdaZeroAndNonzeroValuationAlreadyExcludedByPriorTheorem": true,
+    "otherFiveRaysUnchanged": true,
+    "peakRSSKiB": 60380,
+    "physicalDNotInverted": true,
+    "ray": [
+      -1,
+      0
+    ],
+    "seconds": 3.249418410999997,
+    "sourceSHA256": "9f16b2f6490f948211850595d653166c20fbc4d452e5b5848c0cc26c99083187",
+    "stage": "new_eleven_original_negative_e_unit_k_boundary_finished",
+    "statistics": {
+      "composedElevenSourceReturns": 6,
+      "identicallyZeroOriginalInputs": 0,
+      "laurentPolynomialProducts": 4423,
+      "newBasisElements": 60,
+      "newSPairs": 269,
+      "newSourceReturns": 383,
+      "nonunitInitialFacesRetained": 0,
+      "paidPolynomialReturns": 240,
+      "primitiveIntegerReturns": 11,
+      "targetAttempts": 36,
+      "targetReturns": 6,
+      "unitCells": 0,
+      "unitInitialFaces": 66
+    },
+    "tExactlyZeroExcluded": false,
+    "wholePreviouslyRetainedRayExcluded": false
+  },
+  "precise_conclusion": {
+    "every_scope_returns_two_lambda_minus_three_squared": true,
+    "exact_unscaled_initial_identity": "(2*lambda_bar-3)^2 = 63*k_bar^(-6) * in(q2_hat), in F1009 Laurent algebra; only original coordinate 6 is nonzero",
+    "lambda_first_power_not_returned_by_fixed_algorithm": true,
+    "k_plus_two_powers_one_through_four_not_returned": true,
+    "nonmembership_of_failed_targets_not_claimed": true,
+    "current_ray_retained": true,
+    "no_residue_point_existence_claim": true,
+    "whole_lambda_three_halves_original_branch_previously_excluded": true,
+    "new_allowed_center": "mu=2*lambda-3 is nonzero on original W; its valuation is strictly positive on this remaining (-1,0) ray",
+    "no_bare_mod_to_QQ_ideal_lift": true,
+    "no_finite_integral_model_or_whole_W_exclusion": true,
+    "no_coefficient_or_basis_payload_saved": true
+  },
+  "ordinary_ISP_claim": false
+}
