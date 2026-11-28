@@ -1107,3 +1107,52 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 06:29:56 UTC — 25续跑在真实父点的初始统计已返回
+
+同run restart-01的自身初统计已实际返回：完整点a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf，Phi681.6450227773521、Gram.40616533555531326，与前完整终点的直接观察相同。新调用accepted=0，父调用accepted4保在父报告，不相加冒当前计数。新初几何尚未返回，旧父g不会回填；full report/final/pure仍未知。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128",
+  "scientific_source_commit": "f250c57887597755b6aa9cc67afa7e1da9c8959f",
+  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
+  "pid": 12394,
+  "observed_utc": "2026-11-28T06:23:58Z",
+  "new_actual_observation": {
+    "math_at": "2026-11-28T06:19:14.424630+00:00",
+    "math_event": "initial-statistics-returned",
+    "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
+    "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+    "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+    "initial_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+    "initial_Phi": 681.6450227773521,
+    "initial_Gram": 0.40616533555531326,
+    "current_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+    "current_Phi": 681.6450227773521,
+    "current_Gram": 0.40616533555531326,
+    "current_state": "initial statistics returned; no accepted direction",
+    "accepted_directions": 0,
+    "complete_report": false,
+    "stop_reason": null,
+    "observer_failures": 0
+  },
+  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 47407,
+    "sha256": "dc4e2c33d0b67728c0a3a49a9396fcfef0b88bd2993a1b53588c588a1864bcfc",
+    "git_blob_sha": "50ea87175ba5da9cec10ba5b2a5f84d519853279",
+    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

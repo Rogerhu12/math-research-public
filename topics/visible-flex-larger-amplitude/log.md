@@ -133,3 +133,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:23:13 UTC — 25同源续跑在真实父点的normal进度返回
 
 25 restart-01/source f250c578/PID12394在06:18:52实际normal_chain_enter/点a28ae、cached480/原closure7860/fail0；math仍prepared/accepted0/新统计几何未返。原47提取错误保，不把求根进度当新结果。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`ba9c766f01c2b90166a7f5c0b86c058e490f4a89`无变（非pull）。
+
+## 2026-11-28 06:29:56 UTC — 25续跑在真实父点的初始统计已返回
+
+25 restart-01在a28ae自身初Phi681.6450227773521/Gram.40616533555531326真实返回，新accepted0，几何未返；父4次记录独立保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`9ef5faabf8583bbb7c7ade07c2da17ab6126f426`无变（非pull）。
