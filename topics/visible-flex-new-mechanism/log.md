@@ -179,3 +179,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 18:57:19 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R757全方向首工单
 
 **R757 首个全方向曲率预算已装订。** [原424材料积分的完整消费](notes/2026-11-28-r757-first-original-material-all-direction-budget.md)，eta=0/Mc=100/3，4姿与全方向真实区间；每姿首12盒、所有新单位持久保存，旧543行账本与FINAL SHA绑定，旧积分/RHS/J不重。通过必要门不授曲面或族。
+
+## 2026-11-28 18:58:54 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R746原7步自然终态
+
+**R746 原7步自然终态已登记。** [14全J/10689列与真实末圆角失格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，run46172869144/job141064971057，2339.03675621秒；只0相位fit，.2已付qualification但curl/metric/曲率仍失败，原next forced_sleeve保持。六次资格1854.982037943秒不得重付。3.4GB/2024成员原artifact15276016206和四原元数据SHA已绑定，R754以330/1371全列及真宽轴候选接续原q。
