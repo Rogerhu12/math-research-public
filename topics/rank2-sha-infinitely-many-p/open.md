@@ -24,7 +24,7 @@ g_1^*((p\delta)^nA)
 \(p^{-2}\zeta_{p^2}^{(51/2)(A^2-4AB+B^2)}\)
 分成 \(p^{-2}v_0\otimes v_0\) 及全部 wild 逆角色对；旧新混合块为零。每条局部块非零，全局 Hermite/六根/tame 投影仍可能消零。有限环投影保 \(1/[p(p+1)]\)，不能称整幂等元；新 \(p\)-torus 不算入原 full54。
 
-R1054§10现付K的六阶CM Weil绝对相位、字/Haar配对差、完整p² Weyl和及逐h真Jacobi/[p]覆盖字。[R1061](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)进一步给实际反CM p⁴图群、(34,102)下降、固定δ三盖及非分裂genus2 principal商；完整Miller和c_Q估值、两非平凡3角色/普通trace零、真实periodbasis/positive[-1]均付。下一用实际两twisted theta source和原finite/PD读者相接；未circle字的非零不能推whole临界非零，H也不自动是固定曲面的全局theta截面。
+R1054§10现付K的六阶CM Weil绝对相位、字/Haar配对差、完整p² Weyl和及逐h真Jacobi/[p]覆盖字。[R1061](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)进一步给实际反CM p⁴图群、(34,102)下降、固定δ三盖及非分裂genus2 principal商；完整Miller和c_Q估值、两非平凡3角色/普通trace零、真实periodbasis/positive[-1]均付。§§11–15进一步付全部34²列到两conductor-p²/level68来源的准确加法及反写、实际二/三characteristic、full h/冻结χ及mixed heat；下一须消费其真实Miller系数与原finite/PD读者，未circle字的非零不能推whole临界非零，H也不自动是固定曲面的全局theta截面。
 
 R1054§9现付完整finite intertwiner与真实核/class方向、Tate determinant/cup/KS、三个微分、准确旧项差和全部p+1单位矩阵的正权向量。非平凡wild全和消旧不赋原坏条件给新增ramified字；投回第二输出旧线则新字消失。原惰性2/full9不自动满足AI全局Heegner假设；这里只用同一prime-to-p full-level cover的局部GM/marked构造，classical k=3的局部半径允许p²，不能套two-variable n≥3或直接套全局Thm7.1。
 

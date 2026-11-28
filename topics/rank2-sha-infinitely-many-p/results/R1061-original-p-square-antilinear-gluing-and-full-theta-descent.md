@@ -635,3 +635,456 @@ $H_t(Z,\chi W)$ 表达此真实重标；
 - E. Kani, *The number of curves of genus two with elliptic differentials*，
   J. reine angew. Math. 485 (1997)，§1 Remark1.3/Example1.4；
   [原文页98](https://gdz.sub.uni-goettingen.de/fulltext/PPN243919689_0485/00000104?_format=xml)。
+
+
+## 11. 实际 source 进入标准周期矩阵时的两项费用
+
+以下继续使用§6的实际格、原正实 $\Omega_0$、
+$\lambda_*=\Omega_0/\delta$ 及 $n=p^2$。
+只对每个尚未作完整 circle 积分的实际 theta 字操作。
+原 $h$、有限角色、三挠词及 Miller 均按原来源保留。
+
+首先，§6为把物理 $\gamma=\omega c$ 改写成 swap，
+对正 factor 作了实际 $[-1]$。在 R1054 的正有限模型中，
+它是 $R_+f(B)=f(-B)$。因此进入该周期模型的矩阵准确为
+$$
+ K^{\rm sw}_{A,B}=K_{A,-B}
+   =p^{-2}\zeta^{51(A^2+4AB+B^2)/2},
+ \qquad
+ K^{\rm sw}=\frac1p
+       (1\otimes\rho_+(-t_0))\mathcal C,
+ \qquad -t_0=\omega^2.
+ \tag{B1}
+$$
+它同时将 $W_+(a,b)$ 改为 $W_+(-a,-b)$。
+原 $v_0$ 固定，但各个已经平移的来源不因此逐字固定；
+不能只用未平移 $S$ 为偶函数就省去(B1)。
+
+还须保不同 symplectic 周期基之间的实际 source 矩阵。
+记§6的矩阵为 $\tau_g$，另一份基若给
+$\tau_r=\tau_g-nJ$，其中
+$J=\left(\begin{smallmatrix}0&1\\1&0\end{smallmatrix}\right)$，
+则对完整 level-$N$ theta basis，定义
+$$
+ \Theta^{N}_{\mu;\alpha,\beta}(z;\tau)
+ =\sum_{m\in\mathbf Z^2+\alpha+\mu/N}
+   \exp\{\pi iN m^T\tau m+2\pi iN m^T(z+\beta)\},
+ \quad \mu\in(\mathbf Z/N)^2 .
+$$
+这里的 characteristic 是原实际刚性化所规定的有理数，
+不任意约化后删去相位。完整基变为
+$$
+ \boxed{
+ \Theta^N_{\mu;\alpha,\beta}(z;\tau_g)
+ =
+ \exp\!\left[
+ \pi i\left(\frac{\mu^T(nJ)\mu}{N}
+                -N\alpha^T(nJ)\alpha\right)\right]
+ \Theta^N_{\mu;\alpha,\beta+nJ\alpha}(z;\tau_r).
+ }
+ \tag{B2}
+$$
+证明只需写 $m=k+\alpha+\mu/N$。
+$N k^T(nJ)k$ 是偶整数，且 $k^T(nJ)\mu$ 是整数；
+其余两项恰给显示的 characteristic 和常数。
+特别 $\alpha=0$ 时，相位为
+$\exp(2\pi in\mu_1\mu_2/N)$。
+若 $\mathfrak s=\sum_\mu c_\mu^{(g)}\Theta_\mu(\tau_g)$，
+则按显示的 $\beta\mapsto\beta+nJ\alpha$ 后，
+$c_\mu^{(r)}$ 等于(B2)的显示相位乘 $c_\mu^{(g)}$；
+反向运输才取其逆。$N=34$ 的全部 $34^2$ 系数均须如此运输，
+不是仅比较两个周期矩阵就可使用同一系数列。
+
+## 12. 两条真正 conductor-p² 椭圆曲线及源变量
+
+写
+$$
+ \tau_g=\begin{pmatrix}a&b\\b&a\end{pmatrix},\qquad
+ \tau_+=a+b=\frac{n(1+\delta)}2,\qquad
+ \tau_-=a-b=\frac{n(-1+\delta/3)}2.
+ \tag{B3}
+$$
+两者均在上半平面。它们分别满足 primitive quadratic
+equations
+$x^2-nx+n^2=0$ 和 $3x^2+3nx+n^2=0$；
+两 discriminants 都是 $-3n^2$，所以实际 CM 阶恰为
+$\mathcal O_n$，不是原最大阶。
+
+这也给原 cyclic-$p^2$ 点的具体格模型。
+$\Lambda_+=\mathbf Z+\tau_+\mathbf Z
+=\mathbf Z+n\omega\mathbf Z=\mathcal O_n$。
+置 $s=\delta\omega=-(2+\omega)$，则
+$s\Lambda_-=n\mathbf Z+s\mathbf Z$。
+从源 $\mathbf C/\mathcal O_K$ 出发，两实际解析同源为
+$$
+ z\longmapsto nz\quad\hbox{到 }E_{\tau_+},
+ \qquad
+ z\longmapsto(n/s)z\quad\hbox{到 }E_{\tau_-},
+ \tag{B4}
+$$
+其循环核分别是 $\langle1/n\rangle$、$\langle s/n\rangle$。
+例如第二个目标拉回格为
+$\mathbf Z+(s/n)\mathbf Z
+ =\mathcal O_K+(s/n)\mathbf Z$，index 为 $n$。
+还严格有 $3\tau_-=\tau_+-2n$。
+因此 $\Lambda_+\subset\Lambda_-$、index 为3，恒等映射还给
+$E_{\tau_+}\to E_{\tau_-}$ 的原标记 degree3 同源；
+其核由 $\tau_-\bmod\Lambda_+$ 生成，拉回解析微分是恒等。
+这里的解析微分倍率须与原整微分、AI 标记微分及 period
+逐一比较；(B4)不把两份 Néron 微分或两个 $u_{C_1}$ 认成相同。
+
+令
+$R=\left(\begin{smallmatrix}1&1\\1&-1\end{smallmatrix}\right)$。
+真正的 degree4 同源为
+$$
+ f:E_{\tau_+}\times E_{\tau_-}\longrightarrow C_p,
+ \qquad f(u,v)=R(u,v)^T .
+ \tag{B5}
+$$
+其四个核点由
+$(1/2,1/2)$ 与 $(\tau_+/2,\tau_-/2)$ 生成。
+$R\mathbf Z^2$ 在 $\mathbf Z^2$ 的 index 为2，
+同样的 index 出现在另一半周期格，故 degree 为4；
+直接拉回 Riemann form 给
+$f^*\Theta_p=\mathcal L_2\boxtimes\mathcal L_2$。
+以下完整 theta 公式将保持这四个核点，而不是只取其 reduced
+support 或略去一半的 isogeny。
+
+这里还要支付实际 principal 根的二挠特征。
+记 $\Theta_g$ 为 $\tau_g$ 的零 characteristic theta 线丛，
+$\beta_0=(1/2,1/2)^T$，并令
+$\mathcal P_g(T)=\tau_T^*\Theta_g\otimes\Theta_g^{-1}$。
+原 $\mathcal O_{E_0}(O)$ 在 $(1,\omega)$ 两条纯基上的
+Appell--Humbert half-character 均为 $-1$。
+在§6的 $(u,v;f_1,f_2)$ 基中，$q_p^*\Theta_g$ 在
+$nu-f_2,nv-f_1,f_1,f_2$ 四条原纯基上的 half-character 均为 $+1$，
+而 $q_p^*\mathcal P_g(\beta_0)$ 在它们上面均为 $-1$。
+由此，保原刚性化的实际根为
+$
+ \Theta_p=\Theta_g\otimes\mathcal P_g(\beta_0).
+ \tag{B5a}
+$
+原 symmetric Weyl level 在 $[-1]$ 下稳定，故该下降根为对称线丛。
+上述根与它的可能差同时属于 $\ker q_p^*$ 的奇数 $p$ 幂挠群
+及二挠群，所以差为零。
+$f^\dagger$ 的解析矩阵为 $R$，而
+$R\beta_0=(1,0)^T$ 是 product 周期，故
+$f^*\mathcal P_g(\beta_0)=\mathcal O$。
+因此(B5)后的线丛等式确实保持原 $\Theta_p$，
+不仅是 Riemann form 的数值相等。
+
+
+为锁定原 coherent 变量，先仍在原 $\tau=\omega$ frame
+并保全部已付 arch 运输。
+原负侧回34层后的物理参数和正侧参数分别为
+$q_-=\Omega_0h_\infty T_-$、$q_+=\Omega_0h_\infty T_+$。
+原 $[p]$ 覆盖的点变量为 $P_1=q_-/p,P_2=q_+/p$；
+不能把 argument $q_j$ 直接当成这个覆盖点。
+使用§6的 $A$ 周期矩阵，
+$$
+ \binom uv
+ =\frac1{2\lambda_*}R A^{-1}
+       \binom{P_1}{-P_2}
+ =
+ \binom{\displaystyle
+  \frac{p\delta h_\infty}{2(1+\omega)}(T_--T_+)}
+ {\displaystyle
+  \frac{p\delta h_\infty}{2(1-\omega)}(T_-+T_+)} .
+ \tag{B6}
+$$
+负侧在这里已按原 $\delta$ 拉回返回34层，正侧负号正是(B1)。
+再用原两参数 $T_-=-ibZ,\ T_+=-ibW$，
+$h_\infty=\sqrt G/(204\pi i)$、
+$b=2(\omega-1)/\sqrt G$，得到
+$$
+ \boxed{
+ u=\frac{p}{68\pi}(Z-W),\qquad
+ v=\frac{p\delta}{204\pi}(Z+W).
+ }
+ \tag{B7}
+$$
+其中 $\delta(1-\omega)=3(1+\omega)$ 固定了第一项的号。
+这只是该实际 native arch frame 的明确变量矩阵。
+R1060(8)的 $-6\delta$、$Z/\sqrt6,W/\sqrt6$，
+以及(10)的实际 graded period，仍须随后按原字运输。
+(B7)没有把复数 $\pi$ 或复 period 本身嵌入 $\mathbf C_p$。
+
+## 13. 原全部 level34 系数到两条 level68 来源的精确反写
+
+定义一维的同规范 basis
+$$
+ \theta^{L}_{j;\alpha,\beta}(u;\tau)
+ =\sum_{r\in\mathbf Z+\alpha+j/L}
+       \exp\{\pi iL\tau r^2+2\pi iLr(u+\beta)\}.
+$$
+对任意已固定的 rational characteristics，置
+$\alpha_\pm=(\alpha_1\pm\alpha_2)/2$、
+$\beta_\pm=(\beta_1\pm\beta_2)/2$。
+直接换两个整数求和变量，得到
+$$
+ \boxed{
+ \begin{split}
+ &\Theta^N_{\mu;\alpha,\beta}(R(u,v)^T;\tau_g)\\
+ &\quad=
+ \sum_{\epsilon=0}^1
+ \theta^{2N}_{\,\mu_1+\mu_2+N\epsilon;\alpha_+,\beta_+}
+        (u;\tau_+)\,
+ \theta^{2N}_{\,\mu_1-\mu_2+N\epsilon;\alpha_-,\beta_-}
+        (v;\tau_-).
+ \end{split}
+ }
+ \tag{B8}
+$$
+确切地，若 $m=k+\alpha+\mu/N$，则 $k_1+k_2$ 与
+$k_1-k_2$ 同奇偶；分别写成 $2r+\epsilon,2s+\epsilon$。
+二次型变成
+$N\{\tau_+(m_1+m_2)^2+\tau_-(m_1-m_2)^2\}/2$，
+线性项也同时返回(B8)。
+因此没有额外的 $1/2$、$1/4$ 或可调 theta-null 常数。
+两项是这个完整整数和的奇偶分解，不是少取了(B5)的四核平均。
+
+这是一张显式、可逆返回到其 image 的固定系数矩阵。
+在 $N=34$ 时，每个原 $\mu$ 产生两个 level68 index pairs
+$$
+ (\nu_+,\nu_-)
+ =(\mu_1+\mu_2,\mu_1-\mu_2)
+       +34\epsilon(1,1)\pmod {68}.
+ \tag{B9}
+$$
+image 的系数在 $\nu_+\not\equiv\nu_-\pmod2$ 时为0，
+在同时加 $(34,34)$ 时不变；
+其余 pair 的原列由
+$\mu_1=(\nu_++\nu_-)/2\bmod34$、
+$\mu_2=(\nu_+-\nu_-)/2\bmod34$ 唯一返回。
+故全部 $34^2$ 列被原样保存。
+characteristic 非零时，四核的 theta-group lift 也按(B8)
+运输；不能另用 untwisted lift 删除其相位。
+
+这里的系数不是新增自由参数。
+对§3、§9已经构造的实际下降 section，先使用(B1)、
+原 Miller 和(B2)进入其确定的 theta frame，再写
+$$
+ \mathfrak s_{\sigma,h}(z)
+    =\sum_{\mu\bmod34}
+        c_{\mu,\sigma,h}\,
+        \Theta^{34}_{\mu;\alpha_\sigma,\beta_\sigma}(z;\tau_g).
+ \tag{B10}
+$$
+这唯一规定全部 $c_{\mu,\sigma,h}$。
+(B5a)的二挠换框也在这份实际系数列中：
+若三挠 characteristic 为 $(\alpha_\sigma,\beta_\sigma)$，
+从 $\beta_\sigma+\beta_0$ 返回(B10)的 $\beta_\sigma$ 时，
+每列的准确对角因子为
+$
+ \exp\!\left(2\pi i\,34
+       (\alpha_\sigma+\mu/34)^T\beta_0\right)
+ =(-1)^{\mu_1+\mu_2}\omega^{-17\sigma p}
+ =(-1)^{\mu_1+\mu_2}\omega^{-\sigma}.
+ \tag{B10a}
+$
+最后两式使用下节(B12)以及 $p\equiv2\pmod3$。
+没有把实际 principal 根免费认成零 characteristic；
+这个号与原 Miller/Gaussian 一起进入 $c_{\mu,\sigma,h}$。
+若要逐个提取，可令
+$t_\mu=\alpha_\sigma+\mu/34$，取原 section 的
+$\exp(2\pi i(34\alpha_\sigma+\mu)^Tz)$ Fourier 系数，
+再乘
+$\exp(-34\pi i t_\mu^T\tau_gt_\mu
+          -68\pi i t_\mu^T\beta_\sigma)$。
+这是同一实际 theta 来源的系数提取，不是拟合另一份来源。
+(B8)--(B9)于是给它的全部 level68 系数及逆返回。
+
+## 14. 两个原三挠词的实际 characteristic
+
+本段固定平移约定：
+$\mathcal P_D(T)=\tau_T^*\Theta_D\otimes\Theta_D^{-1}$，
+始终用同一个 $\tau_T(P)=P+T$。
+原 $S_3=-\Omega_0/3$；
+由于 $34S_3=S_3$，$[p]$ 拉回后的负侧正号三挠词在
+$X_0$ 上的 flat line 正是
+$\mathcal P_{X_0}((pS_3,0))$。
+$ q_p^\dagger q_p=[n]$，而 $n\equiv1\bmod3$，
+所以在 $C_p$ 上的点准确为
+$$
+ t_+=q_p(pS_3,0),\qquad t_-=-t_+.
+ \tag{B11}
+$$
+这支付§9的两条 $\kappa^{\pm p}$；
+若用 Cartier-dual character 的另一记号，仍以原
+$\mathsf T_{+S_3}$、$\mathsf T_{-S_3}$ 锁定这两列，不猜交换号。
+
+在(B1)后的标准格中，
+$(S_3/\lambda_*,0)=(-\delta/3,0)$。
+用§6的 $u,v;f_1,f_2$ 基，严格有
+$$
+ (-\delta/3,0)=-(n/3)u-(2/3)f_1+(1/3)f_2.
+$$
+因此(B11)的两个实际 characteristic 可保持为以下有理 lift：
+$$
+ \boxed{
+ \alpha_\sigma=\sigma p(-2/3,1/3)^T,\qquad
+ \beta_\sigma=\sigma p(-n/3,0)^T,\qquad
+ t_\sigma=\tau_g\alpha_\sigma+\beta_\sigma,\quad
+ \sigma=\pm1 .
+ }
+ \tag{B12}
+$$
+不先把这些分数改为模1代表后丢掉其 Weyl phase。
+因 $34\equiv1\bmod3$，这个 point 也可直接用于
+$\Theta_p^{34}$ 的平移：其 flat twist 正是所需的一条。
+所用 characteristic basis 与字面平移之间的完整关系是
+$$
+ \Theta^N_{\mu;\alpha,\beta}(z;\tau)
+ =
+ e^{\,\pi iN\alpha^T\tau\alpha+2\pi iN\alpha^T(z+\beta)}
+       \Theta^N_{\mu;0,0}(z+\tau\alpha+\beta;\tau).
+ \tag{B13}
+$$
+这给转换 Gaussian 的确切式。
+原§7--§9的实际 sigma/Miller lift 仍须通过(B13)转换，
+不能因识别了 flat line 就省略其幅度或中心。
+
+代入(B8)，两 elliptic factors 的 characteristic 准确为
+$$
+ \alpha_{\sigma,+}=-\sigma p/6,\qquad
+ \alpha_{\sigma,-}=-\sigma p/2,\qquad
+ \beta_{\sigma,+}=\beta_{\sigma,-}=-\sigma pn/6.
+ \tag{B14}
+$$
+它们是原两个三挠词在这个 degree4 同源下的完整返回；
+出现的 half-characteristic 是四核 lift 的组成部分，
+不是额外选择 dyadic 本征线。
+全部 $2\cdot34^2$ 个实际 twisted 系数均保。
+ordinary $\delta$-trace 为0仍只是§9的角色结论，
+不能把(B10)--(B14)或其完整 $h$/Artin 加权和设为0。
+
+原 bad 输入中的 $-w_0$ 继续按 R1054/R1059 的实际来源保留。
+它没有仅凭本节被认成 $C_p$ 上的第三个 untwisted section；
+原整球 tensor 本身也不能被擅自当成已经做过
+$\widetilde\Gamma_p$ 平均。
+
+## 15. 全 h 投影、冻结权与真正局部 mixed-heat 读者
+
+在任何(B8)的应用中，先保该实际 $h$ 字的全部系数、
+characteristics、变量与刚性化，然后才取原积分。
+令 $U=Z-W,V=Z+W$。
+源圆周的真实作用 $(Z,W)\mapsto(h^{-1}Z,hW)$ 变为
+$$
+ \binom{U_h}{V_h}
+ =
+ \begin{pmatrix}
+ (h+h^{-1})/2&(h^{-1}-h)/2\\
+ (h^{-1}-h)/2&(h+h^{-1})/2
+ \end{pmatrix}
+ \binom UV .
+ \tag{B15}
+$$
+它保持 $V^2-U^2=4ZW$。
+这解释了原 cross Gaussian 可以保在整个积分外，
+但一般 $h$ 会混合两条 elliptic theta 变量；
+(B15)不是固定 $E_{\tau_+}\times E_{\tau_-}$ 的全局
+endomorphism。任意连续 $h$ 也不获得新的 $p$-adic embedding。
+只有整个既定积分的系数在原 period 比较后使用
+$\overline{\mathbf Q}\hookrightarrow\mathbf C_p$。
+
+冻结标记的 $W\mapsto\chi W$ 则给
+$$
+ \binom{U'}{V'}
+ =
+ \frac12\begin{pmatrix}1+\chi&1-\chi\\1-\chi&1+\chi\end{pmatrix}
+ \binom UV,\qquad
+ V'^2-U'^2=\chi(V^2-U^2).
+ \tag{B16}
+$$
+这与 R1060 的 $\beta_t\chi=\beta_0$ 完全相符。
+$\lambda'$、$-\lambda\log\langle\chi\rangle P_2$、
+实际 $\Omega,\kappa$ 和全部 lower-Maass 槽都继续保留。
+在已经完成的 whole PD 模型中，
+$U=Z-W,V=Z+W$ 及其逆的系数在 $\mathbf Z_p$，det 为单位；
+故该线性变换是相应 bounded PD 代数的等距自同构。
+这不为两个单独 theta factors 另立范数。
+
+还可以给原有限 reader 一张显式矩阵。
+若 $P(U,V)=H((V+U)/2,(V-U)/2)$，则
+$$
+ [Z^nW^{n+2}]H
+ =
+ \sum_{a=0}^{2n+2} d_{n,a}
+      [U^aV^{2n+2-a}]P,\qquad
+ d_{n,a}=
+ \sum_j(-1)^{a-j}\binom aj
+                  \binom{2n+2-a}{n-j}.
+ \tag{B17}
+$$
+越界 binomial 取0。所有 $d_{n,a}$ 是明确整数；
+因此可将(B8)的**全部**两点 theta 系数送进
+R1060(15)、(19)--(25)的同一有限读者。
+(B17)不是只保其中两个特征方向，也没有换入新的正权外权。
+
+最后，把原一变量算子
+$L=x\partial_x^2+3\partial_x$ 落实到当前同一个双核。
+对 $\iota(F)=W^2F(ZW)$，
+$$
+ \boxed{
+ \partial_Z\partial_W\,\iota(F)=\iota(LF),
+ \qquad
+ \partial_Z\partial_W=\partial_V^2-\partial_U^2.
+ }
+ \tag{B18}
+$$
+所以在原 unit chart 上，临界值测试和斜率测试分别是
+$$
+ \iota(x^{-2})=Z^{-2}=\frac4{(U+V)^2},\qquad
+ \iota(x^{-2}\log x)
+ =\frac4{(U+V)^2}\log\!\left(\frac{V^2-U^2}{4}\right).
+ \tag{B19}
+$$
+这里取 $Z,W\ne0$ 且 $x=ZW$ 属于原固定 Teich 分量的
+unit chart；对数是原 $\log\langle x\rangle$ 分支。
+这只用来运输原测试函数，尚不把 $x$ 宣称为两条椭圆曲线上的
+全局函数。直接微分给 $Lx^{-2}=0$，并对 $r\ge1$ 给
+$$
+ \frac1{r!}L^r(x^{-2}\log x)
+   =-(r+1)(r-1)!\,x^{-2-r}.
+ \tag{B20}
+$$
+故同一个 $e^{CL}$ 正确返回 R1056 的完整
+$\log-E(C/x)$ 斜率核。
+这没有声称 $L$ 在整个 $C(\mathbf Z_p)$ 上有界。
+
+在(B7)的 native frame，令 $a_p=p/(68\pi)$，
+则 mixed operator 在两 elliptic 变量中为
+$$
+ \partial_Z\partial_W
+ =-a_p^2\left(\partial_u^2+\frac13\partial_v^2\right).
+ \tag{B21}
+$$
+对(B8)的 level68 theta **basis**，
+直接微分其定义得到
+$\partial_u^2\theta^{68}=4\pi i\cdot68\,\partial_{\tau_+}
+\theta^{68}$，另一条同理。
+所以在保持该实际 theta 坐标列与 characteristic 固定时，
+(B21)等于
+$$
+ -\frac{i p^2}{17\pi}
+       \left(\partial_{\tau_+}+\frac13\partial_{\tau_-}\right).
+ \tag{B22}
+$$
+这是两条确切 conductor-$p^2$ 曲线上的 heat 方向。
+而且它沿 $t\mapsto(\tau_++t,\tau_-+t/3)$，
+保持 $3\tau_--\tau_+=-2n$，正切于上述真实 degree3 同源族。
+它不自动等于原来源随 moduli 变化的全导数：
+若实际 Miller/Gaussian frame 为 $J$，原普通导数作用于
+$J\mathfrak s$ 时必须保
+$(\partial_Z+\partial_Z\log J)
+ (\partial_W+\partial_W\log J)$ 的全部项；
+真实 source 系数若随 moduli 运输，其连接项也仍在。
+R1060的 proper $-6\delta/\sqrt6$ 与 graded period
+同样按其原式运输，不以(B22)删掉。
+
+因此本节确将原 coevaluation 的全部系数送到了两条明确
+conductor-$p^2$ theta 来源，并给临界有限转置的具体
+mixed-heat 形式。尚未把它识别为一个已规范的全球 Green 函数，
+也未由 theta-null、genus2 不分裂或某个单字非零推出
+canonical $J'(0)$ 非零。真正后继仍须在(B10)、(B15)--(B22)
+的整个原来源、全部权和原坏条件之间建立同一读者的关系。

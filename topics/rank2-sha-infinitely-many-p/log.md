@@ -147,3 +147,15 @@ R1061从同一inverse Jacobi与原周期格给实际反CM图γ34=ω·conj，原�
 root逐式核实际格Ω0/δ·OK、inverse Jacobi线性/中心项、γ34/γ102方向、p⁴图/p²coset/Haar费用、34次根level与类型；用M=q†Pq的两个端点及kδ杀E[n]独核复合p²不分裂。核完整periodmatrix、Miller准周期/首常数及整形式参数估值，arithmetic独核二阶pullback/δ恒等。对Haar对偶句明确未扭曲基，运输后是扭曲coeval，并改正两3词的内部引用；数学主式不改。root另实际打开Mumford1966§1 Prop1及Kani1997§1 Remark1.3/Example1.4原文核其适用条件。全纸证，无新增数学运行。
 
 R1060§13.1已成功推送8f8c2caf7b6580cb7ebb89670a634cf014793171。推前actual readonly run46075603971/job140834945104：公开2026-11-28 02:30:15 UTC至91ecb6cb858ffafe71f09b21492061c3da8d1c62；私库2026-11-28 02:30:20 UTC至3072cdbbec2aa2e93f6b82cebc2b9216f371478d。四README与02:28已读版完全相同，QUEUE/认领未变；日志14887B/hash84166b6c7c4b7618baf788584f5c2c045ba8a9279f2bccb34059ed7a42dbff5b，库存3169/44719983B/tree83d7fbc1709479ce37f4b6f13945d9f68c579719，无>5MB，三旧必要gzip不变。
+
+
+## 2026-11-28 02:46:08 UTC：两条实际 conductor-p² theta 与完整半特征运输
+
+R1061§§11–15把实际反线性图的全部level34来源反写到两条确切conductor-p²椭圆曲线的level68 theta：保positive[-1]、period基变及全部34²列/两parity和精确逆。两真实3词的point/characteristic及Miller全幅度明确；实际principal根的二挠characteristicβ0=(1/2,1/2)和level34对角号也付，degree4 pullback线丛不是仅数值相认。原全h混合、冻结χ与log、完整有限系数转置保留；mixed heat沿实际degree3同源族，仍只作原unit chart/完整连接运输，不冒全球Green或canonical非零。
+
+root逐式核两primitive quadratic equations/CMorder、两真循环p²同源、degree4四核、B6覆盖p倍、全部parity和系数逆、真实三挠α/β、finite-coefficient矩阵及heat常数。额外以四条原纯基的half-character核实际Θp=Θg⊗P(β0)，f†β0为周期；与central核对后加入B5a/B10a及其准确对角号，明确B2系数运输方向。全纸证，无数学执行。
+
+推前actual readonly run46075603971/job140838437649：公开2026-11-28 02:43:50 UTC至238f4f2dce9d2d162828556d52f9785e81edc966；私库2026-11-28 02:43:56 UTC至965a13805cb0d07f2c1b97d0e6aba4253c3a6528。四README与02:30已读版相同，QUEUE/认领不变。日志14887B/hash1ec24dd5b5eee38ba451dfcfdd27352ee4365863b8b86abc7eab512d31d175b1；库存3170/44747717B/tree5c215ec9d38c63a0088fc14c65ca126d7c895474，无>5MB，三旧必要gzip不变。旧H逐字归档notes/2026-11-28-handoff-before-actual-miller-jet.md（9444B/dfd3888fd9852db77526d8c87c9e32c88f1afceeac9f90600c91747fdf8de9cc），全部旧失败与参数可追。
+
+
+本条首次ref更新02:46:16UTC返GraphQL错误；attempt 5d515c16d0ab8ec68145215b907d1757b87b65b5与actual main 7e527749e2bac983d21846051d560f7c36c694de比较为diverged，未误报成功。立即尝试本地git pull --rebase仍无环境，继以readonly job140839069050实际双pull：公开2026-11-28 02:46:24 UTC至7e527749e2bac983d21846051d560f7c36c694de，私库2026-11-28 02:46:29 UTC至879963dcb3939d6af2555a7615111c7b4be89180。四README与02:43已读版相同，QUEUE/认领及库存tree5c215ec9d38c63a0088fc14c65ca126d7c895474不变。重拉日志14887B/hash1f6ba549912aa1c84cd6d266c24f3134eb17916a46da2673bb57bb965104315a；据新actual main继续非force推送。
