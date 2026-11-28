@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：0f7fb164251c366da78ab0116968ce9acd0b0e35**（2026-11-28 08:50 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：ec0b64752060385ff2f857bc9e76d53cfa8e29f2**（2026-11-28 09:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 08:28:21 Asia/Taipei，Actions run46088030307/job140802126576，blob:none浅clone真实pull --rebase至9055c2a9，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤09:18、pull≤09:28。本地08:27仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -60,13 +60,11 @@ R1152付原Θ∞与MT(Z)权八商同源，finiteFL坐标逐pⁿ兼容；rs非零
 
 [R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原两低good支至多一非对角pair，另一支Δ_low/48待unit；norm2完整V3/V4和CM gauge未删。§10两下降线真正运输给Π′(z′)=Π(−z′)，同component统一z∈Fp，保S0/P0。§11 actual-good代数仅A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d；d0或非平方已分Fp点，非零平方须实际O_R(d)≠0。旧Δ/(2Gp−7)即该导子类；向量场闭性仍未付。
 
-同文§12付3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，原bad Bp−7支q阶1/2首系数unit，Gaussian取值仍开。
-
-R1135 §13付原固定Δ曲线Y²=X³−Δ/27及∂/Hasse导子；bad Bp−7时W准确极界与最高系数−315/−243，指定Gaussian零⇔b²整除全权W。Hasse unit不代W(TG)。
-
-R1135 §§14–15付原Katz forcing/有界唯一、Π0(f/A^r)=(f/A)^p及逆B指数p−r−1。Wω Cartier恒0；指定XiG=½dlog(X−rG)给C(WXiG)=W(TG)XiG′，值非零未付。
+R1135 §§12–15付完整heat/Hasse/Katz forcing及XiG实际Cartier读数；Wω恒Cartier零、全权W非零均不能代W(TG)单位，原bad Bp−7边界沿文。
 
 R1135 §§16–17用原Hasse伴随ℓ读准确forcing/消曲率，Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)。同源Gauss对L=F(1/12,1/12;1/2)、Q=F(7/12,7/12;3/2)，Q⁶真多项式N=(p−7)/2；完整Y-residue付Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)。只≤p−5 jet，t_N单位不代det，Wronskian全部余项保留，继续实际非零。
+
+R1154把原首标签H_p准确读为4χ(r_G)E_H/(63β_G)，E_H=[x^(N+1)](xT′−NT)(L/Q)²。反序T/t_N的<p前缀为F(1/12,7/12;1)^6，保完整零带；minor两边界抵消为4(3b e†−t f†)/(13365 r_G β_G²)。实际余对须原两moment同时零；未宣不可能，继续同一Gauss源/完整mask。
 
 ## 已成、禁止重做与其它入口
 

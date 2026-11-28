@@ -118,3 +118,7 @@ R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β
 ### R1152：原全局中心常数的指定权八 Frobenius 读数
 
 [R1152](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)将原Θ∞的compatible finiteFL坐标与MT(Z)实际权八Heis商同源。正向Φp,1=τ(p)φ(1)取Ihara g∘f=g f(X,g⁻¹Yg)，词X⁴YX²Y=5h−5ab；所有Tate/两独立generator缩放在h/(ab)抵消。仅rs非零分支，原κ=z/(rs)等于整个已证整比值1+ζp,1(3,5)/(5ζp,1(3)ζp,1(5))的约化。实际Gaussian/cubic组合仍为z12−κx4y8、z12−κλA*y7/6；不约单个period分母，不宣κ固定值或其非零。继续指定双period有限读数、原F0中央项与深盘；零r/s完整七分支保R1151。
+
+### R1154：原首标签与 minor 的联合有限 Gauss moment
+
+[R1154](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)以同一r5 forcing付H_p=4χ(r_G)E_H/(63β_G)，E_H=[x^(N+1)](xT′−NT)(L/Q)²。原T=Q⁶反序列精确为F(1/12,7/12;1)^6 mod y^p；N<j<p全零、xT′−NT下一首项−7t_N/24单位，但不代指定moment。完整Wronskian/分部积分给c=t/8+e†/6、d=3b/8+f†/6，故Δ_low=4(3b e†−t f†)/(13365 r_G β_G²)。Bp−3好时非对角余对强迫E_H0；再在Bp−7坏/Bp−5好分支还须同一minor0。全部矩均同一L/Q，保实际good mask、两twist、S0/P0；继续排完整联合等式，不把不存在的高行补进mask。
