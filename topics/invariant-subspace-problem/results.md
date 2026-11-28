@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R150：同σ二生成原值商、16个完整原minors与消元平方夹逼](results/R150-appendix-unit211-same-sigma-two-by-eight-original-value-presentation-and-sixteen-minors.md)：四条同点线性余式的真2×8乘法列完整呈示值商，28子式由4范数/6交叉/6混合生成且均返原式；J²⊂Fitt0⊂J。固定全部系数复点等价原值方程有共同σ，保D0双数；不替其他均值或推出权有限性。
+
 - [R150：W/b0十一原首项的实际返回与λ=3/2剩余中心](results/R150-appendix-unit211-W-b0-eleven-original-initials-and-lambda-three-halves-residue-center.md)：唯一run46162974839，3.326495765秒/0；完整五t估值cell及t0都由原q2乘子63k^-6返(2λ−3)²。0单位、k+2四幂未返，未关射线；只付μ=2λ−3非零且正估值的新中心，特征零λ并未被设为3/2。
 
 - [R150：完整个别奇N/P的两条直接六次范数](results/R150-appendix-unit211-general-original-odd-NP-two-direct-sextic-norms.md)：E_i=a_i+b_iσ+c_iq的完整q乘子和C_i=M a_i²−D b_i²的原(q,E_i)身份显示，无D逆/正D清除；比较旧Low的4m²D²身份，保D0非约化与同σ条件，未宣称独立范数足够。
