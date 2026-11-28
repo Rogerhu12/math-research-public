@@ -82,3 +82,10 @@ checker的输入快照、故意不同对象及可变修改用例也改用copy，
 | original-complete-quadratic-api-request.json | 3680 | 16033ed5cc6575b5ab6b52aab4991abf200cd6530db6d8232e6f332bfb37b8e1 |
 
 request为2026-11-28-original-function-field-denominator-return-v2-private-mutable-workspaces。推前实际双pull run46073965457/job140876684554：公开2026-11-28 05:22:07 UTC至30da3bbaaf7282b565986876be1fdc7d80dece23，私库2026-11-28 05:22:12 UTC至bb579f0f8b3be9c7323c05a94023380ece571046；四README与05:17同blob、QUEUE未变。日志14887B/hash060d958704ee1138cdda80fa818ab63393629d6d4d57a3405b2a399682b846c9；库存3193/45327408B/tree55a0f86ba676e30744afa18fa5f2414e0e9816cd，无>5MB，三旧必要输入不变。原H逐字保于[本次归档](2026-11-28-handoff-before-denominator-workspace-fix.md)。当前无heavy；下一v15所有helper pins同步此真实修补版本后，仍须先消费软件回执。
+
+
+## 7. v2 真实完整软件回执
+
+同一分母软件v2已实际PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，2026-11-28 05:26:48 UTC返回；结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa，完整日志85133B/hashdccc3d14cda880532840f18613a61cd0fc03c2810c5c3ffc79ce2ec559973a96。主体4.589509695999993秒，实际九次新图返回；七组完整X/Y/HNF/厚长/输入状态比较、十拒绝均通过，真实F标签仍走原image/division各一次并保attached-HNF。scalar-primary v2完整对照及当前合法包装器引用保持也通过。root已核全部实际source_file_sha256；27源请求中结果记录26源码，selector另由固定入口核验。没有执行原几何main、rank306性能实验或宣称数学终门。
+
+当前无heavy。下一v15同步helper/producer/request的实际SHA，保两char0 pins、原65源和四交/一般Norm/18×9/九对/all-requested；软件PASS不替代原完整生产结果。

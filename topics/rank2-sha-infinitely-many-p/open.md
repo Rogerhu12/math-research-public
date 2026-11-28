@@ -42,7 +42,7 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)进一步付每个实际平移源的全m二项式Tate族、两槽全部非单位费用相消后的单位底数、共同合法子列及精确负二值/斜率。指定Norm纤维的seed endpoint真非零；此输入只能在已付actual graded返回的字使用，未付部分保原T_orig及R1060有限Newton。真正R716 Hall还需负侧tame0，不能以Norm纤维非零略去它。§7现给实际period半线性作用及raw全部jets独立，但canonical读者须消费准确Ω(R′−logU*R)；若完整临界值为零，此法不排canonical斜率零。whole bare µ的Galois作用另保完整Maass三角T_((c²−1)C)D_(c²)，不能仅以LT线缩放替换它。
 
-[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8现付原Newton五层有限除p jet、完整Ec单位及δ整对数；bad只杀Acan常数，余四项未知。§9现付完整non-p/h/Artin整列、十八原商的γ_i/17^(-3−n)、Norm/avatar对偶与全部外权导数，以及原c0/ell单位；其负二返回准确为p^-6Ω^-1×单位×两Hall。单图仍不免费分离；同一单Hall仍需v<2/(p−1)才排canonical坏，正Hall的全五层或有限非零并不完成无穷严格界。原period与actual LT测度/有限域返回正继续接同一斜率，普通disc固定不冒ST扭曲下降。
+[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8付原Newton五层；§10 L1–10以完整zeta连接与R618强尾扩大到全部p−1层。最高层修正为−(2γ_+/3)Acan(0)W^(p−2)，原bad使它和常数同时消失，余p−2阶除p jet未被赋零。首个非零jet给paired估值k/(p−1)，仍不自动给原单Hall严格门。§9现付完整non-p/h/Artin整列、十八原商的γ_i/17^(-3−n)、Norm/avatar对偶与全部外权导数，以及原c0/ell单位；其负二返回准确为p^-6Ω^-1×单位×两Hall。单图仍不免费分离；同一单Hall仍需v<2/(p−1)才排canonical坏，正Hall的全五层或有限非零并不完成无穷严格界。原period与actual LT测度/有限域返回正继续接同一斜率，普通disc固定不冒ST扭曲下降。
 
 [R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)现付原book/dual-LT精确单位、全Galois方向及actual whole µ的全LT盘lift。完整Maass和log−E读者保留；有限F真正bounded字符函数的所有trace-dual坐标返测度；§10结合已发表Fourier等距消去最终different损，actual lift精确等距。§11已构造原单位测度的等距quadratic lift，付P10单位restriction、负一次/负二次低矩、完整Möbius及局部热作用范围；一般Dirac反例不排原actualsource。下一继续原fullMaass来源的全盘/ψ整性与准确下降；普通LT系数固定不是ST扭曲下降，去period完成矩候选若真LA分布反迫flat整分量零。Colović全文已核；本二次域无损返回由BSS加Berger等距已付。原Mahler前缀有明确affinoid精度。§12现付actual A(Q_E)的完整ψ核平均与原单位cut、负二/全log−E及Λ′的无损有界测试；它只用于已有原测度的Fourier像。§13保同一whole系数的F-Tate编码、数字和读者成本与完整斜率有限精度；ordinary H±不因此被认作原单Q提升，实际tensor/连接仍须支付。
 
@@ -118,7 +118,7 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。下一同一MD的完整U/坐标复用仅准备，全部原F_y专门验收保留，当前无heavy。
 
-[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1在私有矩阵反序因immutable失败，v2显式copy并核输入状态；须消费新真实回执，随后接下一唯一heavy；不扩大资源或以稀疏/半单影子代全非约化行模。
+[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1因immutable失败，v2显式copy并核输入状态；v2 run46112089371/job140877645107已实际PASS，七对照/十拒绝/原F/scalar完整门保留，结果hash5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa。下一v15同步真实helper和producer pins后启动唯一heavy；不扩大资源或以稀疏/半单影子代全非约化行模。
 
 软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 

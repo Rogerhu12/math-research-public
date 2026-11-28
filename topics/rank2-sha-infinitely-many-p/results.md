@@ -469,3 +469,16 @@ R1066 N1–19从原严格c_q恒等式固定c1^Δ/p^p的Teich部分为1，保真�
 原分母软件v1 run46111621787/job140876205973真实failure：首个新image在反序前因Sage矩阵不可变拒绝，未得到PASS。v2仅将私有scratch/快照改为明确copy，checker另核caller mutability与真实不同对象；全部完整图、十拒绝及原F/scalar门保留。固定27源/420秒新请求已发，生产v15仍未活动。
 
 [完整记录与新源码hash](notes/2026-11-28-original-whole-denominator-software-and-production.md)，§6。
+
+
+### R1063 §10：整个首剩余窗与同源长 Newton jet
+
+R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口：严格不变微分给g∈1+pv^Δ，原zeta的一次分母相消，完整h连接消去后仅最高W^(p−2)层有明确修正。原Newton有限端点p、p+1的系数消失，h≥2p−1全部尾由R618第二实际盘一致支付；不误删h=2p−1的非零系数。全部p−2阶除p jet准确返回同一个Acan，保实际中心、17^-2模型、Haar及全部外权。bad只消常数及该末层修正，余p−2层不赋零；首个非零jet给paired Hall确切估值，仍不代R716单Hall严格门或无穷非零。
+
+[完整证明](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，L1–L10；先比较有限整系数，再在W^(p−1)=p中求值，不把非整Ec高项分别放到边界。
+
+### 同一完整分母软件 v2 实际通过
+
+同一分母软件v2已实际PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，2026-11-28 05:26:48 UTC返回；结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa，完整日志85133B/hashdccc3d14cda880532840f18613a61cd0fc03c2810c5c3ffc79ce2ec559973a96。主体4.589509695999993秒，实际九次新图返回；七组完整X/Y/HNF/厚长/输入状态比较、十拒绝均通过，真实F标签仍走原image/division各一次并保attached-HNF。scalar-primary v2完整对照及当前合法包装器引用保持也通过。root已核全部实际source_file_sha256；27源请求中结果记录26源码，selector另由固定入口核验。没有执行原几何main、rank306性能实验或宣称数学终门。
+
+[完整来源与范围](notes/2026-11-28-original-whole-denominator-software-and-production.md)，§7；下一完整生产尚未活动。

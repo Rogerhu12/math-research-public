@@ -1433,3 +1433,390 @@ integral-basis 比较给
 - R1054 §§8--10；R1059 全临界 germ；R1060 全有限转置与实际 graded 比较。
 - R1061 §§21--22(E/F)；R1062 G1--G14；
   R1063 原 Miller--Hall 精确根与五层归一。
+
+## 10. 原负二 Hall 的全部首剩余窗与同一 Newton 长 jet
+
+本节使用 L 标签。保持本篇(H1)–(H27)、(J1)–(J10)和§9
+的实际来源、中心、模型比较、Haar 及完整外权。新结论把原五层
+比较扩大到实际首挠点环的整个模 \(p\) 窗，并列出末层唯一的
+连接修正。这里不增加任何 canonical 坏条件。
+
+### 10.1 严格 LT 微分与 zeta 的一次分母相消
+
+仍置 \(q=p^2,\Delta=q-1,d=p+1\)，使用原严格坐标
+\([p](v)=pv-v^q\)。令 \(g(v)=z'(v)\) 为不变微分的系数。
+它在原好模型的整形式群中属于
+\(1+v\mathcal O_L[[v]]\)。对
+\(z([p]v)=pz(v)\) 微分，得
+\[
+ g(v)=(1-pv^\Delta)g(pv-v^q).
+\]
+约化后 \( \bar g(v)=\bar g(-v^q)\)；
+若存在最低正次数，它在右侧的次数会扩大 \(q\) 倍，矛盾。
+再用严格 LT 的 \(\mu_\Delta\) 型，准确得到
+\[
+ \boxed{g(v)\in1+pv^\Delta\mathcal O_L[[v^\Delta]],
+ \qquad D=g(v)^{-1}\partial_v\equiv\partial_v\pmod p.}
+ \tag{L1}
+\]
+
+令
+\[
+ \Xi_v(v)=\Xi(w(v))
+       =v^{-1}+\sum_{n\ge1}\xi_n v^n .
+\]
+(H8)已经证明它在所有实际非零首挠点满足
+\(\Xi_v(v_Q)=Z_Q\)。其导数是同一整 Laurent 函数
+\[
+ \partial_v\Xi_v=-x(v)g(v).
+\]
+因此 \(n\xi_n\in\mathcal O_L\)，并且只在
+\(n\equiv-1\pmod6\) 有项。
+
+复用 R887§11（(47)前，引用R856(6)、(21)）的原特征 \(p\)
+\(D^{p-1}x=-c_p\) 常数身份。由(L1)，在完整局部约化中
+\(\partial_v^{p-1}\bar x\) 是常数。
+所以 \([v^{kp-1}]x(v)\equiv0\pmod p\) 对 \(k\ne1\) 成立。
+当 \(v_p(n)=1,\ n=kp\ne p\) 时，\(k\) 是单位，
+而 \(g\equiv1\pmod p\)，故
+\[
+ \boxed{\xi_n\in\mathcal O_L
+       \quad\text{若 }v_p(n)\le1,\ n\ne p;\qquad
+       v_p(\xi_n)\ge-v_p(n)\quad(n\ge1).}
+ \tag{L2}
+\]
+这是在原严格坐标中的系数结论。它解释了原 \(7p,13p,\ldots\)
+的一次分母为何相消；没有另选一个 zeta primitive。
+
+置
+\[
+ \kappa_*:=dp c_\sigma,\qquad
+ c_\sigma=[z^d]\log(\sigma/z).
+\]
+由于 \(z(v)=v+O(v^q)\)，在次数 \(p<q-2\) 精确有
+\(\xi_p=dc_\sigma=\kappa_*/p\)。
+原 Hasse 归一给 \(\kappa_*\in\mathcal O_L^\times\)，且
+\(\kappa_*\equiv\kappa_0\pmod p\)。
+这里的 \(\kappa_*\) 是原指定系数，不替换为任意同余单位。
+
+若 \(v_p(n)=a\ge2\)，\(\mu_6\) 型使最小可能的正 \(n\)
+至少为 \(5p^a\)（\(a\) 偶）或 \(p^a\)（\(a\) 奇）。
+结合(L2)及 \(v_p(v_Q)=1/\Delta\)，这些全部高分母项收敛，
+且比下式显示的余界更深。于是
+\[
+ \boxed{
+ Z_Q=\frac{\kappa_*}{p}v_Q^p(1+\epsilon_Q),
+ \qquad v_p(\epsilon_Q)\ge
+ \eta:=1-\frac1{p-1}.
+ }
+ \tag{L3}
+\]
+最低余项来自 \(\Xi_v\) 的 \(v^{-1}\)：
+其相对估值为
+\(1-(p+1)/\Delta=\eta\)。
+其它整项至少从 \(v^5\) 起；高分母项按上述 \(a\) 分类全部保留。
+这把(H9)的粗界加强到同一个实际 \(Z_Q\) 的完整界。
+
+### 10.2 完整 h-gauge 消去及其真正的下一项
+
+保持
+\[
+ h(v)=v/T_{\rm g}(w(v)),\qquad f_N=h^NR_N,
+ \qquad N=102,\quad f_N\in v^4\mathcal O_L[[v]].
+\]
+定义实际连接余项
+\[
+ \Gamma(v):=\Xi_v(v)-D\log h(v)-\frac{\kappa_*}{p}v^p.
+ \tag{L4}
+\]
+不能把(L4)只写成 \(D\log E_{\rm c}\)：
+准确的形式恒等式是
+\[
+ \Xi_v-D\log h
+ =D\log(z(v)/v)+D\log E_{\rm c}(z(v)).
+\]
+其中两个式子在 \(v^{q-2}\) 可以分别出现一次分母，
+但它们的真实和由(L2)及整 \(D\log h\) 支付。
+
+原 \(E_{\rm c}\) 只含 \(z^d\)，
+\(z(v)/v\) 只含 \(v^\Delta\)，故(L4)是 \(\mu_d\) 型 \(-1\)。
+它没有极项；其 \(v^p\) 项已经准确减掉。
+因此首个可能次数为 \(2d-1\)。
+\(D\log h\) 是整 Laurent 级数，故(L2)同样控制(L4)的
+全部高系数。对所有实际 \(Q\ne O\)，得到
+\[
+ \boxed{v_p(\Gamma(v_Q))\ge(2d-1)/\Delta.}
+ \tag{L5}
+\]
+例如 \(a=2\) 的高分母项估值至少
+\(5q/\Delta-2\)，而 \(a\ge3\) 的估值至少
+\(p^a/\Delta-a\)；二者均严格高于(L5)。
+这里无需在首挠点代入不收敛的裸 sigma 级数。
+
+用 R1062(G4)–(G8)的同一函数：
+\[
+ \mathcal F_{N,Q}(-2)
+ =1-\frac{2}{NZ_Q}\frac{DR_N(Q)}{R_N(Q)}
+       +O_{\ge2\eta}.
+\]
+这一式保完整第一个落阶项；其余项的界来自
+\(\binom{-2}{k}=(-1)^k(k+1)\) 及原 \(a_{Q,k}\) 的
+\(k\eta\) 界，不用新的有限截断假设。
+将它与(L3)的逆平方一起展开，准确的一次修正为
+\[
+ \begin{aligned}
+ f_N(v_Q)&-\frac{2p}{N\kappa_*}v_Q^{-p}Df_N(v_Q)\\
+ &-\frac{2p}{\kappa_*}v_Q^{-p}\Gamma(v_Q)f_N(v_Q).
+ \end{aligned}
+ \tag{L6}
+\]
+这是因为
+\[
+ \Xi_v-\kappa_*v^p/p+\frac1N D\log R_N
+       =\frac1N D\log f_N+\Gamma .
+\]
+所以 h 的全部导数确实相消；没有先删掉 \(T_{\rm g}\)。
+
+### 10.3 在实际首挠点环中的完整模 p 比较
+
+令 \(\mathcal O_H\) 为原首挠点域的 Hall 固定整数环。
+避开既定有限常数域的坏位后，
+\(\mathcal O_H=\mathcal O_0[W]\)，
+\(W=v_Q^d,\ W^{p-1}=p\)，\(\mathcal O_0\) 在 \(p\) 非分歧。
+所有中心先按(H16)提出来，剩余式确在这个 Hall 固定环中。
+以下同余是在 \(\mathcal O_H/p\)，
+即实际的 \((\mathcal O_0/p)[W]/(W^{p-1})\) 中，
+不是自由形式变量 \(W\) 上的无界断言。
+
+按本篇原来源定义
+\[
+ \mathcal P_-(W):=
+ \frac{N^2\kappa_*^2W}{\mathscr C_{N,T}p^2}
+              \mathcal H_-^{[-2]}(T).
+\]
+(L3)–(L6)表明该值整。
+归一后的二次及以上余项估值至少
+\[
+ \frac{5-p}{\Delta}+2\eta
+       =\frac{2p^2-3p+1}{\Delta}>1.
+\]
+\(\Gamma\) 项由(L5)给至少 \(1+6/\Delta>1\)。
+(L1)允许把一次导数 \(D f_N\) 换成 \(\partial_v f_N\)；
+其误差也严格高于1。全部这些余项仍在同一个 Hall 固定环。
+
+写 \(b_{-,j}=[v^{(j+1)d-2}]f_N\)，即(H19)的真实系数。
+Hall 正交逐项给
+\[
+ \frac1d\sum_{h\in\mu_d}v_{hQ}^{d-2p}f_N(v_{hQ})
+        =\mathcal B_-(W),
+\]
+\[
+ \frac1d\sum_{h\in\mu_d}v_{hQ}^{d-3p}
+           \partial_vf_N(v_{hQ})
+   =W^{-1}\{(d-2)\mathcal B_-(W)+dW\mathcal B_-'(W)\}.
+\]
+于是完整结论为
+\[
+ \boxed{
+ \begin{aligned}
+ \mathcal P_-(W)
+ &\equiv\mathcal B_-(W)
+ -\frac{2p}{N\kappa_*}W^{-1}
+       \{(d-2)\mathcal B_-+dW\mathcal B_-'\}\\
+ &\equiv\mathcal B_-(W)
+       -\frac{2(p-1)}{N\kappa_*}
+                      b_{-,0}W^{p-2}
+       \pmod{p\mathcal O_H}.
+ \end{aligned}}
+ \tag{L7}
+\]
+原负二 primitive 至此保到整个首剩余窗。
+它的最后一层并不一般为零；(L7)明确给出了该层连接修正。
+若改回(H20)的 \(\kappa_0\) 显示方式，须保
+\((\kappa_0/\kappa_*)^2\) 的真实常数；
+它模 \(p\) 为1，所以不改变(L7)。
+
+正 Hall 保(H23)的精确式和(H24)的
+\(W_+=\widehat3 W\)。令
+\(\mathcal P(W)=\mathcal B_{34}(\widehat3W)\mathcal P_-(W)\)。
+原 paired 值准确是它乘
+\[
+ \Omega_A^3\rho_A^{-2}\,
+ \frac{d\,c_0^{(0)}L_-^{-2}\widehat3}
+             {102^2\kappa_*^2}\,
+ \mathscr C_{102,T}\mathscr C_{34,T_+};
+\]
+这是(H25)、(H26)、(I18a)的同一 Haar 与 E0 frame，未改
+\(c_0^{(0)}=\vartheta^{-10}c_0,\ L_-=\vartheta\ell_-\)。
+因此
+\[
+ \boxed{
+ \mathcal P(W)\equiv
+  \mathcal B_-(W)\mathcal B_{34}(\widehat3W)
+ -\frac{2(p-1)}{102\kappa_*}
+       b_{-,0}b_{+,0}W^{p-2}\pmod p .
+ }
+ \tag{L8}
+\]
+
+### 10.4 原 Newton 两个端点尾与 p−2 阶除 p jet
+
+本节继续(J1)的同一个 \(J_-,J_S,K_-,L_S\)。
+对全部 \(0\le r\le p-2\)，仍准确有
+\[
+ \boxed{
+ \frac{K_-^{(r)}(0)}{r!p^r}
+       \equiv \frac{g^-_{r+1}}{\gamma_-^{r+1}},\qquad
+ \frac{L_S^{(r)}(0)}{r!p^r}
+       \equiv \frac{g^+_{r+1}}{\gamma_+^{r+1}}
+       \pmod p .
+ }
+ \tag{L9}
+\]
+这里须支付(J2)五阶范围之外的尾端，而非直接外推。
+
+原 \(1\le h\le p-1\) 的全部整窗仍给 \(p^h\)；
+\(h=p\) 给 \(p^{p-1}\)；
+\(p+1\le h\le2p-2\) 给 \(p^{h-2}\)。
+除去 \(pu\) 后再除 \(p^r\)，仅 \(r=p-2\) 时的
+\(h=p,p+1\) 可能未自动多一位 \(p\)。
+但它们的真实多项式满足
+\[
+ \frac{(u)_p}{u}\equiv u^{p-1}-1,\qquad
+ \frac{(u)_{p+1}}u\equiv u^p-u\pmod p .
+\]
+两者的 \(u^{p-2}\) 系数都是0，恰给所需的额外一位。
+对全部 \(h\ge2p-1\)，必须用同一原来源的较强实际盘，
+而不能仅外推本篇§8.1的短 jet 叙述。
+令 R618(12)的
+\[
+ \tau_2=\frac{2p-1}{p(p^2-1)},\qquad
+ R_2=p^{-\tau_2},\qquad
+ \eta_p=1-d\tau_2>0,\qquad
+ U=(\sigma/z)e^{-c_\sigma z^d}.
+\]
+原单参数 Newton 注(7)准确给
+\[
+ z^2D_-e^{-102c_\sigma z^d}
+ =z^6U^{102}\sum_{\ell=0}^{16}
+     u_\ell z^{6(16-\ell)}W_0^{3\ell+1},
+ \qquad W_0=z^2x,\quad u_{16}=1.
+\]
+全部 \(u_\ell\) 在当前素数处整，所有显示次数非负。
+这里的 \(W_0\) 与本节首挠点 \(W=v_Q^d\) 不同。
+原 \(Se^{-34c_\sigma z^d}\) 也准确为 \(z^6U^{34}\)
+乘整的非负 \(z^6,W_0\) 幂多项式。
+R618§§4–5已付：在每个严格内闭盘 \(R<R_2\)，
+\(U,W_0\) 范数至多1。因此这两个**实际**分子的范数
+至多 \(R^6\)，包括负侧原 charge102 和首阶4经 \(z^2\)
+补齐的全部费用。
+对每个系数取 \(R\uparrow R_2\)，再乘原 \(C_\pm^{-h}\)，得
+\[
+ v_p(a_h),\,v_p(b_h)\ge
+       \left\lceil h\eta_p+6\tau_2\right\rceil
+          \qquad(h\ge1).
+\]
+这只是消费 R618 同一原 \(U\) 的内盘范数，
+不把102次来源额外断言为新的最大半径。
+在 \(h=2p-1\) 处，括号精确为
+\[
+ (2p-1)\eta_p+6\tau_2
+ =2p-5+\frac{11p-7}{p(p^2-1)};
+\]
+故其 ceiling 为 \(2p-4\)，此后随 \(h\) 单调且趋于无穷。
+\((u)_h/u\) 的全部系数整，所以对 \(r\le p-2\)，
+整个 \(h\ge2p-1\) 尾在除去 \(p^{r+1}\) 后至少有
+\[
+ 2p-4-(r+1)\ge p-3\ge1
+\]
+位 \(p\)，并一致收敛。
+特别 \(h=2p-1\) 的 \(u^{p-2}\) 系数虽模 \(p\) 非零，
+其真实 \(a_h,b_h\) 仍已足够深。
+这证明(L9)，包括实际端点和全部无限尾。
+
+定义
+\(\operatorname{Jet}_{p-2}^{[p]}F(X)
+=\sum_{r=0}^{p-2}F^{(r)}(0)X^r/(r!p^r)\)。
+只在模 \(X^{p-1}\) 下使用它；这不是把 \(F(X/p)\)
+免费延长到新解析盘。Leibniz 仍给这个有限 jet 的乘法性。
+
+本次坐标比较也仍在实际整窗内：负侧最大所读次数为
+\((p-1)d-2=q-3\)，正侧为 \((p-1)d=q-1\)。
+准确的 \(z(v)=v+O(v^q)\) 和
+\(f_N=(v/z(v))^NE_{\rm c}(z(v))^{-N}F_N(z(v))\)
+表明，负、正来源首阶分别为4、6时，
+这两个坐标误差首次在 \(q+3,q+5\)；
+故均不进入所读窗口。
+这里只用特征零形式次数，没有把 \(v^q\) 的原一次分母认成单位。
+
+原 \(\mathcal B_-,\mathcal B_{34}\) 的全部系数整，故先在形式级数中取模 \(W^{p-1}\)，再代实际 \(W^{p-1}=p\)，准确决定模 \(p\) 的值。这里不把 \(E_{\rm c}\) 的各非整高项分别在边界求值或删掉；下面只比较完整乘积的有限系数。
+
+在此窗口只需 \(f_2,\ldots,f_{p-2}\)，其中
+\(f_j=[z^{jd}]\log(\sigma/z)\)。
+R614 的真实分母 \(jd(jd-1)\) 在
+\(2\le j\le p-2\) 都为单位，且 \(js<(q-1)/6\)，
+故这些系数全整。
+不使用首个端点 \(f_{p-1}\) 的整性。
+令
+\[
+ U_{p-1}(W)=
+ \exp\!\left[-\sum_{j=2}^{p-2}
+          (102+34\widehat3^{\,j})f_jW^j\right]\pmod{W^{p-1}} .
+\]
+这里所有实际阶乘小于 \(p\)，所以这是常数1的整单位。
+(J5)–(J9)的全部系数证明随(L9)准确给
+\[
+ \overline{\mathcal B_-\mathcal B_{34}(\widehat3W)}
+ =-\bar\gamma_+^2\bar U_{p-1}(W)
+       e^{\bar\lambda_\delta\bar\gamma_-W}
+       \overline{\operatorname{Jet}_{p-2}^{[p]}
+                      \mathcal A_{\rm can}}(\bar\gamma_-W)
+        \pmod{W^{p-1}},
+\]
+其中 \(\lambda_\delta=\log q_\delta/p\) 和
+\(\mathcal A_{\rm can}=-3q_\delta^{-u}K_-L_S\) 都仍为(J8)原值。
+由 \(\gamma_-=3\gamma_+\)、\(102\kappa_*=d\gamma_-\)，
+(L8)最终成为
+\[
+ \boxed{
+ \begin{aligned}
+ \overline{\mathcal P}(W)
+ ={}&-\bar\gamma_+^2\bar U_{p-1}(W)
+       e^{\bar\lambda_\delta\bar\gamma_-W}
+       \overline{\operatorname{Jet}_{p-2}^{[p]}
+                   \mathcal A_{\rm can}}(\bar\gamma_-W)\\
+ &-\frac{2\bar\gamma_+}{3}\,
+          \overline{\mathcal A_{\rm can}(0)}\,W^{p-2}
+       \qquad\text{于 }(\mathcal O_0/p)[W]/(W^{p-1}).
+ \end{aligned}}
+ \tag{L10}
+\]
+
+### 10.5 首个实际未消项与原坏条件
+
+原必要条件仍仅为 \(J_S'(0)=0\)。它给
+\(\mathcal A_{\rm can}(0)=0\)，并由(L9)给
+\(b_{+,0}=s_{p+1}\equiv0\pmod p\)。
+因此(L10)中的末层连接修正和首层同时消失；
+其余 \(p-2\) 个有限 jet 没有被赋零。
+
+若在同一实际输入上，\(1\le k\le p-2\) 是
+\[
+ \overline{\mathcal A_{\rm can}^{(k)}(0)/(k!p^k)}\ne0
+\]
+的首个位置，则所有已显示单位的常数项都为1，
+所以原归一 paired Hall 的首层系数准确为
+\[
+ -\bar\gamma_+^2\bar\gamma_-^{\,k}\,
+       \overline{\mathcal A_{\rm can}^{(k)}(0)/(k!p^k)}.
+\]
+在实际 \(W^{p-1}=p\) 上，其估值严格是 \(k/(p-1)\)。
+若整个有限 jet 都为零，本节只给该归一读数属于 \(p\mathcal O_H\)。
+
+这支付了全部首剩余窗及唯一末层修正，
+并把首个未消项定位在同一个 canonical Newton 函数中。
+它没有证明该位置必为0或1，也不把 paired 估值替换成
+R716 的单 Hall 严格阈值。
+原 fixed sources、所有 finite/\(h\)/Artin/Cor、真实 period、
+\(\Lambda,\Lambda'\) 和 old 列仍按前文保留。
+本节全部为原完整来源的手证，没有新增数学运行或素数扫描。
