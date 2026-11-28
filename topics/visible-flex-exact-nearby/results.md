@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ24：真实Sobolev相位选择及规范光滑族](results/R149-supplement-physical-Sobolev-rotation-selection-and-normalized-smooth-family.md)：在原|δ*+k|<1e−10内，|k|≤6e−12，实际实态差E≤5e−14给唯一|k|≤114E；整regular路径斜率≤.005且E(0)≤2e−14给唯一|k|≤260E(0)。原R31 7whole和40新有理比较一次保，真实twist>.048、路径>.021；Yoccoz/Benhenda及真差商给规范C2连续和smooth参数。实际regular路径/强范数/值与tame仍须付。
+
 - [GJR：根窗全部576接缝的两真实参考列接收](results/R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md)：原1079 whole中576负侧原缝保全65/193跳及独立均值；以GJS物理跳、GAF两真参考列与原J和SP点注入，在全n≥388接到腰。首发17pins/AST已核，原旧Airy算子不复算；其余1973负侧接口另付。
 
 - [GJS：全负域真实接缝化为两个有向系数](results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md)：同一物理点先加两真ray，所有比值幅和p±分母精确相消，接缝只余B,C两个原cubic一阶跳及独立mean。全3070接口中521同片细分精确零、其余2549逐个保，原V修正C1和两端口不混入；真实数值接收另付。
