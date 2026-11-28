@@ -1,0 +1,36 @@
+{
+  "status": "new_complete_fixed_field_time_interpolation_entry_compile_help_checked",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_time_refinement.py",
+    "sha256": "231a6726b6c4d3aecd4767dbcedd97889f3272a76f5407e8d9bf3fe57aad9364"
+  },
+  "actual_checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "py_compile",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_time_refinement.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.11416551000002073,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_time_refinement.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 1.340855595999983,
+      "stdout_sha256": "7b8dc034013d21ac859d4761d3bb68eb306785722cc05b810b8446fa7b4d3724",
+      "stderr": ""
+    }
+  ],
+  "actual_fixed_source_available": false,
+  "positive_field_evaluation_executed": false,
+  "BVP_or_native_executed": false,
+  "continuous_bound_or_convergence_claimed": false
+}

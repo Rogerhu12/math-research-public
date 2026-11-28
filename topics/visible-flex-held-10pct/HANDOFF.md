@@ -4,7 +4,7 @@
 
 ## 规则与当前入口
 
-- 最近实际pull后双README已读锚 `d85466fb7a54263fc83018922e0209d979f8cb3a`（2026-11-28 18:06 UTC）。
+- 最近实际pull后双README已读锚 `6ee258d4e975a4f78245665d55adaaa148b0c5ca`（2026-11-28 18:10 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论实际pull/核双README差异/推送；NFF立即rebase循环至成功，不force。根§12无额外审批或独立复核门；§15只源/参数/hash/小标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H有内点且diamH≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D；全metric≤1e−6且固定问题的谱/径向/时间精化降至机器或求解容差；多个t小网格复现和严格存在差距说明。λ<1非准确圆弧H；换δ/profile/帽非同g精化；完成后继续改善比例。
@@ -18,7 +18,7 @@
 重置前最高全门接受[λ=.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw现在不可读。
 λ=.256/M24和M32分别metric8.84140e−5、1.28584e−6未门；[M40恢复实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)952点/RMS9.69144e−7/BC5.89278e−11/mean1936/δ=.06810713649643507，但metric1.248439224e−6仍未接受。M32→40平台仅给试严格径向tol的理由。旧M48无完整raw，原89083真exit1原因未知，不称数学失败。
 
-[必要输入及正式控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已真完成70源/port/chart/初猜恢复；原全部hash核同，初猜415×25仍未接受。新λ0/M8/tol2e−7于17:30:22 UTC真启动TTY81483，最新765点出现原accepted步长1/8192→1/131072，未读到终态；[七节点δ真核](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)已返回：首诊断构造器不适用λ0真exit1，v2真exit0/4.792s；原λ0无V5解析δ安装，独立δ解析对原h2e−7 FD相对差3.33993e−9，全state/support/RHS逐位同。未组装全J或接受新场；末support尺度1e−9使原FD物理步约2e−14，另行核原support导数。[后继v2正式控制](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…已compile/help：.256:32明确mode-floor、真双锚升模用原完整两源lift；metric-only源仍原单源lift，ENOSPC/MemoryError/信号独立工程退出不λ二分。保全部门，真锚到来即继续λ1。controller afe8e548…已compile/help，真实stage后nonce/outdir/scope停请求、锚同步、活child先完成；工程exit4独立于数学失败。
+[必要输入及正式控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已真完成70源/port/chart/初猜恢复；原全部hash核同，初猜415×25仍未接受。新λ0/M8/tol2e−7原TTY81483从765点极小accepted步又真增至812点，随后工具Ctrl-C真exit1/再次Unknown process id；内部child码及cleanup未观测，不作数学失败。最新完整812点raw a9104450…保留为未接受初猜；同F解析support重启准备就绪。[七节点δ真核](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)已返回：首诊断构造器不适用λ0真exit1，v2真exit0/4.792s；原λ0无V5解析δ安装，独立δ解析对原h2e−7 FD相对差3.33993e−9，全state/support/RHS逐位同。未组装全J或接受新场；末support尺度1e−9使原FD物理步约2e−14，另行核原support导数。[后继v2正式控制](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…已compile/help：.256:32明确mode-floor、真双锚升模用原完整两源lift；metric-only源仍原单源lift，ENOSPC/MemoryError/信号独立工程退出不λ二分。保全部门，真锚到来即继续λ1。controller afe8e548…已compile/help，真实stage后nonce/outdir/scope停请求、锚同步、活child先完成；工程exit4独立于数学失败。
 
 ## 2. 真λ1后的完整DN、几何与固定g入口
 
@@ -26,7 +26,7 @@
 [fresh完整尾小块入口](notes/2026-11-28-tail-fresh-qr-complete-chunk-geometry-entry.md)从真final-H门接原stage0、8段一块、完整共享mean/谱/每条两jet、merge/index/连续门；不制造旧−9。compile/help与递归Python→Node I/O真过，未跑新几何。[新final-H几何/活动矩七源](notes/2026-11-28-tail-qr-finalH-geometry-and-activity-entry.md)已发布：原height primitive/placement、逐span/deep全几何、真实cutwidth、全时4/5、完整prefix/tail活动矩严格同场；原15数学块核同、compile/help真过。Re A3可正或负排零，含零不通过；未传旧界，无新阳性。
 
 [QR首锚固定g九源](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)已发布，新KIND与QR源诚实绑定；原支持族fixed=True保全部未知，固定δ/profile/字面chart/gauge/warp/mean/尾背景，完整祖先链/最终physical-H/原8outer保持。原九源未动，新九源compile/help已过；新mesh必传phase-end4/5，held-width27/50，保全谱/拓扑/5MB。首次应从内层actual-dn summary取真run/port/baseline/M-specific manifest，独立runtime只改checkpoint/trace/chordMaxCorrections；首同M严格径向后再升模，所有原门仍需实付。
-[固定g完整尾C²比较入口](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)已准备：真QR锚/真fixed完整g重构核同、完整共同半径分割/全部谱/共享两jet沿用原比较，切口高程用各自定义零模及全mean，不做平移；原2242B主循环逐字同、compile/help真0，无真实pair或新界。
+[固定g全尾C²比较](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)与[同g时间插值诊断](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)均已prepare/compile/help真0。前者保真pair完整g、全部共分割/谱/均值/绝对高度；后者在同时间域用同一线性样条插全空间两jet，报告原场metric底线及真实时间近似误差，不把采样加密冒收敛。无真pair/诊断阳性或新连续界。
 [显式材料圆弧相位合同](notes/2026-11-28-explicit-full-phase-mesh-entry.md)已发布；旧9/20与旧k.2/S.5 held-frame不能覆盖本设计。
 
 ## 3. 原低λ成果与有限弦理论：不可冒新场
