@@ -121,3 +121,151 @@ R729原核2dfe85c4…保持原字。原QP先运行并保完整report；只对两
 新的 binding `/post_publication_script_path_correction` 全部保留原 10 件交付总表、旧 binding、两原 ready、旧再生器与说明的准确 whole 记录，连同正式出版提交、原守卫身份、完整已观察错误 note 和根的真实队列修复提交。新 ready 以 whole record + JSON pointer 引用该记录；没有裁掉旧参数或 peer 责任。新再生器在相同四完整父源和完整 33 参数上采用这一精确脚本路径，四运行体整段补丁原样。
 
 已完整读 33 的 science blob 8631722f6367d98f4515adce383f49226f69c3cd 和 pure blob 86116e5b0605b3fc5d24cf8b998695bf65939401：其 `/steps/0/script` 原本已有完整 topic 前缀，因此 33 不需要这项修正，原 157/7 词不动。R730 后续计划也将采用完整 repo 相对路径。这是对已发生接口错误的直接修复，没有更改控制器守卫，没有新增数值、AST、fixture、benchmark 或审核前门；修后科学启动、父场读取和新结果仍须等真实 Actions 返回。
+
+## 2026-11-28 10:06:13 UTC — run28官方failure与最后自身完整状态
+
+官方run 46108296054/1、job 140865899880已 completed/failure，job completed_at=2026-11-28T09:40:01Z，研究step completed_at=2026-11-28T09:39:52Z。这是官方job/编排终态，不等于其子科学过程自然写完报告。此处尚无该run自身完整异常证据，失败原因保持未知，不能外推33的README异常或按运行时长推断。
+
+原science与pure已自然返回0（原source/model/a28ae/accepted4及13final/typed、全423值22错不改）。本次是同一runner上新增R729跨source接续：source689954e129445ed4fa54ba0bfa41a5d103173ee5/PID14760，launcher a0f1cbca2a5734963a189d8493fd1e04d633d96f397c0af2b17c7f588812450b，driver7599dda1a80450556f152d261479e70bc48599d4b8e20950919bb896ea89e186。09:19:38索引证其已started，但两个小进度文件尚不存在；新model/point/geometry/report/final/typed/pure均未返回。不能把父final或数值当新R729结果。
+
+下方保留官方完整jobs响应与全部最后观察字段、缺失值、读取错误及身份；原完整参数/源/预算/field/current定义继续有效。未返回的final、typed、pure和严格证书不补造。继续新34及33新版规则运行，旧终态槽移除。
+
+```json
+{
+  "official_jobs": {
+    "total_count": 1,
+    "jobs": [
+      {
+        "id": 140865899880,
+        "run_id": 46108296054,
+        "workflow_name": "Visible larger amplitude complete demanded half-wave 20261128 28",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46108296054",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVt5L2s8AAAAgzEMNaA",
+        "head_sha": "cf2e5c85247af2d0314256654f357a6936cdecbe",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140865899880",
+        "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46108296054/job/140865899880",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-11-28T04:35:57Z",
+        "started_at": "2026-11-28T04:35:59Z",
+        "completed_at": "2026-11-28T09:40:01Z",
+        "name": "Construct the same fixed target and solve the complete demanded half-wave",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-11-28T04:36:00Z",
+            "completed_at": "2026-11-28T04:36:00Z"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-11-28T04:36:00Z",
+            "completed_at": "2026-11-28T04:36:06Z"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-11-28T04:36:06Z",
+            "completed_at": "2026-11-28T04:36:11Z"
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-11-28T04:36:11Z",
+            "completed_at": "2026-11-28T04:36:32Z"
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 5,
+            "started_at": "2026-11-28T04:36:32Z",
+            "completed_at": "2026-11-28T09:39:52Z"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9,
+            "started_at": "2026-11-28T09:39:52Z",
+            "completed_at": "2026-11-28T09:39:52Z"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10,
+            "started_at": "2026-11-28T09:39:52Z",
+            "completed_at": "2026-11-28T09:39:52Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11,
+            "started_at": "2026-11-28T09:39:52Z",
+            "completed_at": "2026-11-28T09:39:52Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140865899880",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000012560,
+        "runner_name": "GitHub Actions 1000012560",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      }
+    ]
+  },
+  "complete_latest_observation": {
+    "step_id": "complete-run28-R729-explicit-final-continuation-20261128",
+    "scientific_source_commit": "689954e129445ed4fa54ba0bfa41a5d103173ee5",
+    "scientific_source_sha256": "a0f1cbca2a5734963a189d8493fd1e04d633d96f397c0af2b17c7f588812450b",
+    "pid": 14760,
+    "observations": {},
+    "complete_small_progress_file_identities": [],
+    "observation_errors": [
+      {
+        "report": "fixed-fejer-halfwave-demanded-run28-R729-continuation-01/actual-normal-evaluation-progress.json",
+        "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46108296054-1/research/fixed-fejer-halfwave-demanded-run28-R729-continuation-01/actual-normal-evaluation-progress.json'"
+      },
+      {
+        "report": "fixed-fejer-halfwave-demanded-run28-R729-continuation-01/actual-mathematical-progress.json",
+        "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46108296054-1/research/fixed-fejer-halfwave-demanded-run28-R729-continuation-01/actual-mathematical-progress.json'"
+      }
+    ],
+    "child_exit_code": null,
+    "child_natural_return_not_observed": true,
+    "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+    "observation_identity_sha256": "40cee39e3789231b4131ac278ca4bc47d941a34054729703774528e32d76369a",
+    "observed_utc": "2026-11-28T09:19:38Z"
+  }
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1.md",
+    "bytes": 36266,
+    "sha256": "88f5fe23fbe9ddf74988f009dcd635b52f837040def5f013b0cb43f45e44778a",
+    "git_blob_sha": "768dab515a1d055ab91b5773da689fbd0d51aefe",
+    "fixed_commit": "404d36570aa1322799cfeb651743ac57cae29690",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
