@@ -25,7 +25,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing
 ## 数学与当前新输入
 
 [R752–759](results.md)：旧中央/平帽/正K边界障碍和R758原初厚度失败全已登记；R757真新初g及R759配对轨道为43–44父，全部范围/原值见proof、ownnote和固定旧H，已登记不重做。
-[R760](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)：真Cartesian初帽/低曲率右墙，新初reach.132/D<4.01/grip1.40，活动两卷/曲领全相同g；46158942274原四路全返待ownnote补，末metric约1.1e5仍败，继续改全帽/全卷。
+[R760](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)：46158942274四路84拟合/72中相全返，末metric107170–124934/K至4.84e8、弦价仍正，失败。原尖Gauss37566.86→真新初−2.17e−7，初reach.132有效，全g仍欠；改长曲率预卷新输入。
 [R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：同R757初g的全闭成对场全相reach.106/D<3.50，.78/j2 grip.72/held>.739、真实体积差>.156⇒δE>.004。全帽g与负胞角行未付，法管仅覆规定场。
 [R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：同R760 g正弧长C²坐标六jet/720局部标量×三向，四路三层7+6相与两份39行gauge-only原预算；12Python冻结，真Gram/曲率另测，固定护领旧残差仍在，启动未作完成。
 
@@ -60,10 +60,10 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull da5a5d292188a13f0df8b9383645cc57dc01696e
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 双README真pull c4c854f728d235424eac3fc4301597665f039d24
+<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull ebfcb382ad5da7ba7f6376965101ba837ba11c69
 <!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
 <!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 834e4d3031b88caea3da121c582306cca49c1c9c
 <!--r758-publish-->R758 [双弯帽四项实际拟合](notes/r758-curved-crown-46156613563-1-index.json) 双README真pull e34c3291c61540ba09c2c2361a24467e6782144a
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 89aa6294a0a6ad05c4628fd73f00fc045226f590
 <!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull cf93a19b1265bdfc4a4c22bb3ee7c03771fdfc28
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 89aa6294a0a6ad05c4628fd73f00fc045226f590
-<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull ebfcb382ad5da7ba7f6376965101ba837ba11c69
