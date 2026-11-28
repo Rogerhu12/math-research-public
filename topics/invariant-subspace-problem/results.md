@@ -28,6 +28,8 @@
 
 ## 新增结论
 
+- [R150：完整NV第一t头的原小三次、三个标量与冻结gcd边界](results/R150-appendix-unit211-Phi-zero-corrected-first-NV-t-head-original-cubics-scalars-and-frozen-gcd-boundary.md)：e362唯一120.073936225秒/−14；原Gram完整NV小三次、E2首一λ2、两个短除及三个原σ标量6/5/6均已完整返回。只σ6首种子，不是共同gcd；无合并/最终三原cover/排空，原120秒门冻结转新输入。
+
 - [R150：W/b0正k的e首值负一全分层原排除](results/R150-appendix-unit211-W-b0-positive-k-e-minus-one-complete-original-valuation-exclusion.md)：vu与vk全部比例、μ零/整值/各极点均由原q2/R6/N5覆盖，最后Z=bar(kμ)须同时满足R6三次及Z=−4/−16，矛盾。结合一般中心与E1论文关闭整个正k射线；仅余其它四ray和内部/整权模型，不宣全W空性。
 
 - [R150：W/b0正k的e首值一中心由原D/M身份排除](results/R150-appendix-unit211-W-b0-positive-k-e-one-center-original-D-over-M-exclusion.md)：原q2直接给D=M[A*A2−ellQ(3−4λ)]/(4uQδell)，分母旧已付。E1时S首值3/8、γ=vM>−a，vK=−2a；R6两项γ−4a与3γ−2a严格不同，所有M高阶相消皆含，无新计算。
