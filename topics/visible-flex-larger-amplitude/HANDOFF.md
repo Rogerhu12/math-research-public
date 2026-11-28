@@ -10,12 +10,12 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 ## 原实际计算
 
-[33](notes/2026-11-28-run33-section16-retry.md)46133839513：官方cancelled；末完整1f0c5699 accepted1 g.49660239，二轮全步25eef仅Phi/Gram返、几何未返；32阶段/pure62854未完成，原预算保留。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：官方cancelled；accepted0，1/8完整g4084.59459拒，1/16 d0c53aa7仅统计返/几何未知；139源/原预算/32stage/pure66120未完成状态保全。
-[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：1/8点498c首accepted1 g562.38861，Phi/Gram升；原二轮继续。139角色/1333370外变量，返后才pure74162。
+[33](notes/2026-11-28-run33-section16-retry.md)46133839513：cancelled；accepted1 g.496602，二方向仅统计返；完整32stage/pure62854未返。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：cancelled；accepted0，1/8拒、1/16几何未知；139源/原32stage/pure66120未返。
+[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：cancelled；第二半步70bd6791真accepted2，g550.5543/K4539.73；139源/32stage/pure74162未返。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
-[41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：官方success/自然0，原8阶段/65相全返；96585489全g.4934703/K266.499，三细化误差不降，有限拟合失败已闭；七完整点云非七mesh。
-[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：原八阶段、29cefe69相/七整mesh全返；Gram精化5.52→8.26→16.56→24.83，裸场校准与覆盖失败，已闭。
+[41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8stage全返，65相g.49347/K266.50，细化失败；七点云非七mesh。
+[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：8stage/69相/七mesh全返，g精化5.52→24.83；覆盖失败已闭。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
@@ -47,15 +47,12 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 并行34规则核查：2026-11-28 16:25:20 UTC，真实pull至`1435d658d2ec821955607b9e70cc01777f740608`，双README无变化。 官方取消；末数学观察与全部缺项见ownnote。
 
-<!-- visible-larger-parallel-35:start -->
-Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46137993293)；[全阶段记录](notes/2026-11-28-public-actions-46137993293-1.md)。running；已返2，exit=未返。
-并行35规则核查：2026-11-28 16:57:44 UTC，真实pull至`e29e4af88e6769456127b4cfa39b60f56516bf99`，双README无变化。
-<!-- visible-larger-parallel-35:end -->
+并行35规则核查：2026-11-28 16:57:44 UTC，真实pull至`e29e4af88e6769456127b4cfa39b60f56516bf99`，双README无变化。 官方取消/原阶段未返，见35 ownnote。
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 7ff0a9ad787b0e6f9464493599d230c116f8ab28
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull d541d52dac7a3572e0a3ccc4f7e39701311760a2
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 5222eecc2f6762eee075a565e7b6b42500e7f8e1
 <!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--r766-publish-->R766 [双卷整周保边与整壳实际](notes/r766-cyclic-ring-46165595977-1-index.json) 双README真pull 51164b05684d069eba92b573472eb73d4f4c9141
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull 729d75a549fddd6033dfe2b7bc5c2778457f7478
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 5222eecc2f6762eee075a565e7b6b42500e7f8e1
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 7ff0a9ad787b0e6f9464493599d230c116f8ab28

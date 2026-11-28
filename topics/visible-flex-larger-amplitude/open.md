@@ -105,12 +105,12 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 原实际任务
 
-[33](notes/2026-11-28-run33-section16-retry.md)46133839513：官方cancelled；末完整1f0c5699 accepted1 g.49660239，二轮全步25eef仅Phi/Gram返、几何未返；32阶段/pure62854未完成，原预算保留。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：官方cancelled；accepted0，1/8完整g4084.59459拒，1/16 d0c53aa7仅统计返/几何未知；139源/原预算/32stage/pure66120未完成状态保全。
-[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：1/8点498c首accepted1 g562.38861，Phi/Gram升；原二轮继续。139角色/1333370外变量，返后才pure74162。
+[33](notes/2026-11-28-run33-section16-retry.md)46133839513：cancelled；accepted1 g.496602，二方向仅统计返；完整32stage/pure62854未返。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：cancelled；accepted0，1/8拒、1/16几何未知；139源/原32stage/pure66120未返。
+[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：cancelled；第二半步70bd6791真accepted2，g550.5543/K4539.73；139源/32stage/pure74162未返。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
-[41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：官方success/自然0，原8阶段/65相全返；96585489全g.4934703/K266.499，三细化误差不降，有限拟合失败已闭；七完整点云非七mesh。
-[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：原八阶段、29cefe69相/七整mesh全返；Gram精化5.52→8.26→16.56→24.83，裸场校准与覆盖失败，已闭。
+[41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8stage全返，65相g.49347/K266.50，细化失败；七点云非七mesh。
+[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：8stage/69相/七mesh全返，g精化5.52→24.83；覆盖失败已闭。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
