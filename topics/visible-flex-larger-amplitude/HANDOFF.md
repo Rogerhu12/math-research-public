@@ -10,7 +10,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 ## 原实际计算
 
-[33](notes/2026-11-28-run33-section16-retry.md)46133839513：1/16点1f0c5699首accepted1 g.49660239，Phi/Gram略升；原二轮继续。138角色原预算，返后才pure62854。
+[33](notes/2026-11-28-run33-section16-retry.md)46133839513：官方cancelled；末完整1f0c5699 accepted1 g.49660239，二轮全步25eef仅Phi/Gram返、几何未返；32阶段/pure62854未完成，原预算保留。
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：1/8点723e77d7 g4084.59459拒，1/16 d0c53aa7原步继续。139角色原预算，返后才pure66120。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：1/8点498c首accepted1 g562.38861，Phi/Gram升；原二轮继续。139角色/1333370外变量，返后才pure74162。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
@@ -36,7 +36,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 全部旧终态/条件/未访见[results](results.md)/[open](open.md)/原proof、notes和固定H链，已登记不重做。RET100H/I/J/K/L逐字恢复已闭生成件，保父/活源参/唯一值；K/L净释1055572/1109759B。新输入各自重付，每子问题完即下一个。
 
 <!-- visible-larger-parallel-33:start -->
-Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。
+Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。官方cancelled；已返2，科学子进程未自然返；仅最后实际记录，非最终数学报告。
 并行33规则核查：2026-11-28 16:09:06 UTC，真实pull至`f0e56017df20980d7adaeb41cf67322aa506f316`，双README无变化。
 <!-- visible-larger-parallel-33:end -->
 
@@ -65,8 +65,8 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull cf93a19b1265bdfc4a4c22bb3ee7c03771fdfc28
 <!--r762-publish-->R762 [双帽正弧长与四路真实拟合](notes/r762-gauged-crown-46161216634-1-index.json) 双README真pull c9a75159677e9fbacb855e315d210e5164965797
-<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
-<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull e0d45e6892186fdd00baca02dadc42e3d2285aca
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull cafd6a12e9daa88670e4eab29cec729c427f1121
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 52a17f916b5fd88719595d1ebd572d3da3c404e8
+<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
+<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952

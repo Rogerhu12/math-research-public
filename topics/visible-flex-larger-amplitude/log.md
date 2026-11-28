@@ -455,3 +455,7 @@ ROOT已全文读45 main/fields/system/params/observer/workflow，26科学输入�
 ## 2026-11-28 16:16:07 UTC — R762原四路与两正弧长检查全部返回，固定护领全g失败
 
 七份原件逐字核取于1bfa1b4d6126ca5f5884005d0b86ae00abcd631e；官方46161216634/1 job141028730635全部success。84拟合/72中相、两gauge39行，原nfev12/20/30俱全；全g106287–110362、护领193.701，末弦价>.21955。换坐标material vv改善未支付frame22或全g；完整失败/来源/whole identities见ownnote，继续R764/R766。 双README云核至`c49673aba5a16029112f028a6ede9de83730389e`无变（非pull）。
+
+## 2026-11-28 16:18:00 UTC — 33官方取消，第二方向几何及原终报告未返
+
+run46133839513/1 job140944661119官方cancelled；末索引60415B/6d29ff60af79e2e7789ee6bea04682edc189d7bbeb0e1a99c885e14cdb8f7fb2（固定1bfa1b4）。末完整接受仍1f0c5699；25eef只返Phi735.01879/Gram.40885893，几何与接受未知，未返阶段/pure不算失败。没有raw可伪造同点续跑，具体取消诱因未获官方注释；保原预算/整身份，继续其他科学方向。 双README云核至`f3dee052feb188370a95049fbd78fcd6b0e8fb3b`无变（非pull）。

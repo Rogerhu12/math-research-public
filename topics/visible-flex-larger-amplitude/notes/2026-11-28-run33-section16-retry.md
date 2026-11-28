@@ -594,3 +594,20 @@ The reproducer reads the complete original request and queue by their Git identi
 原Phi=684.515514370657、Gram=0.40627341748996043，均略高于初681.6517423825408/0.4061652531176999，本次接受依据原完整restoration准则，不能写成metric收敛。其余完整几何约束：body_diameter=-0.037873298441807535，distance_plus=0.10676021246196543，distance_minus=-3.0936082014757185，cap_diameter=-0.06687948326167703，height_floor=-1.0415132927871797。正distance_plus仍未付。
 
 driver `a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3`、model `61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7`，source `4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94`、target `957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9` 均在该真实记录。complete_report=false、stop_reason=null、observer_failures=0；首accepted checkpoint不是最终解。138原角色、全部原科学预算与后继pure62854责任保留，只有原science自然返回才继续其原完整pure。本课题未完成，不能停在这一步。
+
+## 官方取消终态：原第二恢复方向尚未返回
+
+官方 [46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513) 已为 completed/cancelled，官方 run 的 updated_at 为 `2026-11-28T16:10:08Z`，trigger `993d07aa8dc89bff8b8f5ad49c52b64cef960741`。job `140944661119` 同为 completed/cancelled；五个前置/清理成功步骤之外，唯一实际科学步骤 `Execute public research and publish independent compact records` 为 cancelled，post-python skipped，post-checkout及complete-job success。原工作流360分钟限制与经过时间相符，但目前没有读到官方取消原因注释，**不把时间接近当作已证的取消原因**。
+
+ROOT读取的最终分卷索引固定于 `1bfa1b4d6126ca5f5884005d0b86ae00abcd631e`：
+`topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md`，60415B，SHA256 `6d29ff60af79e2e7789ee6bea04682edc189d7bbeb0e1a99c885e14cdb8f7fb2`，Git blob `9602eceb4bf280bdf22cdbe6b2f26f5f991a1a5f`。它是在16:09:06 UTC发布的最后实际观察，不是官方取消后的自然返回报告；其 `child_exit_code` 未返、`child_natural_return_not_observed` 为真、`complete_report=false`、`stop_reason=null` 必须原样保留。两项原输入准备阶段已自然返回；完整R729恢复、32阶段最终报告及后继pure62854均未从本次实际记录返回。
+
+最后一个**完整接受点**仍是此前已登记的
+`1f0c5699d7bbca0b9f1c143fad76fc07b6363b6df140b11c1fbe9f8e2396b91f`：
+accepted_directions=1，Phi `684.515514370657`、Gram `.40627341748996043`、g `.4966023946693483`、K `12.050328618743315`；这些不是一项新数学结果，也未满足完成标准。
+
+第二方向整步试点
+`25eefb17268f44213b242180180a575c243ef42f8122f4fdf82f01eaa4223850`
+在15:44:00.909093 UTC实际返回了 Phi `735.0187907208319`、Gram `.4088589347137102`。最终观察中它的 `trial_accepted=null`，完整几何没有返回；因此该点既不能称接受，也不能依据仅有两项统计称作一次完整拒绝，更不能说这方向已做完。完整模型、driver、初点、同目标、所有之前拒绝与原预算仍由本note各前节及完整最终索引保持。
+
+官方artifact列表为空，原系数、全部几何工作数组及恢复NPZ仅在runner；现在只有点哈希及小统计，**没有可直接接续同一数学循环的完整坐标与状态交付**。不得以一个哈希、一个步长或另一模型点伪装恢复。未来若选择该方向，必须真实再生同源/同参数前缀并核点身份，同时重现已执行几何检查追加的状态；当前没有声称已恢复。现阶段保留这一资源终态，继续仍在实际运行的不同公开方向及新的几何输入，不盲目再次启动相同六小时原样回放。本课题未完成，工作不中止。
