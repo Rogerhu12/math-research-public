@@ -255,3 +255,7 @@ R86 后续实际入口：[当前CLI修复与真实完整构造器](notes/2026-11
 ## R92. 完整径向细网格的弦算子、可逆运输与残差
 
 [完整证明](results/R92-complete-refined-chord-space-and-residual.md)。在保所有新增状态/子区间方程/参数/边界行的完整空间上，显式S/T给Bfine=T⁻¹diag(B,I)S；可逆性等价、逆范数≤dmax||B⁻¹||+β、完整右残差≤dmaxε/左≤ε、单右端回代∞不增，浮点预算另列。旧λ.002真实v3的880点/64264维仿射前缀已过原RMS/BC/metric，恢复小回执诚实标记源/数组当前不可读；非当前J逆、真DN或λ1。
+
+## R93. 高阶活动矩的有限相位见证和全欧氏群距离界
+
+[完整证明](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)。R67的N=3J最高权通过Chebyshev有限差分给J个明确αj≤2π/9<4/5中的定量差值；两允许柱长至少一|AN|≥|mN|/400。改进Steiner平移界为3d/2，再对任意完整秩N中心体积矩证明全E(3)表面dE≥min(σ/3,ΔI/KN)，含反射与任意平移。J1–8 Fraction小证书真0，未算新λ1矩或全图几何，不继承旧低λ数值。

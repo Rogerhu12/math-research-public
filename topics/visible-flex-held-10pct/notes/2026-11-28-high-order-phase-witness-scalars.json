@@ -1,0 +1,345 @@
+{
+  "schema": "R93-exact-high-order-finite-phase-and-E3-scalar-contract-v1",
+  "status": "exact_scalar_identities_passed_no_new_surface",
+  "source_sha256": "7c0cac014311c4a615ba4c365649840b79d5c5160a2ff85154c7e3b57970d332",
+  "proved_source_references": {
+    "results/R67-universal-threefold-marker-and-euclidean-noncongruence.md": "56cba676773b61d6f89e23f8a5ca7c51f2795c2f9892662ac32d04f863e18cc1",
+    "results/R87-single-gentle-ramp-half-curvature-held-window.md": "a761567e983fe24d4f1c2840a8ecef837d71396aa57085d19aeac6bfbd80397b",
+    "results/R88-quantitative-euclidean-hausdorff-from-third-moment.md": "b9c50c2da3011ab7536c368374d7e72afbbfb6dd0f42af5c7777f45482d97080"
+  },
+  "radius_upper": "27/10",
+  "positive_support_lower": "41/500",
+  "translation_bound_per_surface_Hausdorff_distance": "3/2",
+  "phase_upper": "2*pi/9",
+  "phase_upper_rational_bound": "44/63",
+  "margin_below_R87_phase_end": "32/315",
+  "lengths": [
+    "1/200",
+    "1/100"
+  ],
+  "activity_lower_per_absolute_core_moment": "1/400",
+  "orders": [
+    {
+      "j": 1,
+      "tensor_order": 3,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        -1,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0
+      ],
+      "top_chebyshev_finite_difference": "-3/2",
+      "gap_per_absolute_activity_times_cap_moment": "3/4",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "3/1600",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "68287019574843194224953337/10296125000000000000",
+        "invariant_difference_coefficient": "97004565225473848818162458683313241/4504554687500000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "2815346679687500000000/32334855075157949606054152894437747"
+    },
+    {
+      "j": 2,
+      "tensor_order": 6,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "1/4",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        1,
+        -2,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1
+      ],
+      "top_chebyshev_finite_difference": "9/4",
+      "gap_per_absolute_activity_times_cap_moment": "3/64",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "3/25600",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "1406850107871317891145679201756155077/10296125000000000000000000000",
+        "invariant_difference_coefficient": "39336266362569774997496782508793382999000621539663/4504554687500000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "175959167480468750000000000000000/13112088787523258332498927502931127666333540513221"
+    },
+    {
+      "j": 3,
+      "tensor_order": 9,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "1/2",
+        "0",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        -1,
+        3,
+        -3,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1,
+        2
+      ],
+      "top_chebyshev_finite_difference": "-3",
+      "gap_per_absolute_activity_times_cap_moment": "3/896",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "3/358400",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "28983939974822802386137333183690208340979091617/10296125000000000000000000000000000000",
+        "invariant_difference_coefficient": "15951224299967522168033003919569154487795564279030388710300718409/4504554687500000000000000000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "12568511962890625000000000000000000000000000/5317074766655840722677667973189718162598521426343462903433572803"
+    },
+    {
+      "j": 4,
+      "tensor_order": 12,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "5/8",
+        "1/4",
+        "-1/8",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        1,
+        -4,
+        6,
+        -4,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "top_chebyshev_finite_difference": "243/64",
+      "gap_per_absolute_activity_times_cap_moment": "81/327680",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "81/131072000",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "597127315485196833532765238092190493147727051650582458957/10296125000000000000000000000000000000000000000",
+        "invariant_difference_coefficient": "6468369657077186495876402937182194930849744475573568456837916285773320865016287/4504554687500000000000000000000000000000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "34367024898529052734375000000000000000000000000000000/79856415519471438220696332557804875689503018216957635269603904762633590926127"
+    },
+    {
+      "j": 5,
+      "tensor_order": 15,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "7/10",
+        "2/5",
+        "1/10",
+        "-1/5",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        -1,
+        5,
+        -10,
+        10,
+        -5,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "top_chebyshev_finite_difference": "-2916/625",
+      "gap_per_absolute_activity_times_cap_moment": "729/39680000",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "729/15872000000",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "12302018577629127365363702430379730950573349989072427787210108873097/10296125000000000000000000000000000000000000000000000000",
+        "invariant_difference_coefficient": "2622983531284037938953506232052775872114354257457508276614535279803981142077045485805737072441/4504554687500000000000000000000000000000000000000000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "8797958374023437500000000000000000000000000000000000000000000000/111539766076550310161260210142161936948621374459784302572085862378495768730299602277061521599"
+    },
+    {
+      "j": 6,
+      "tensor_order": 18,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "3/4",
+        "1/2",
+        "1/4",
+        "0",
+        "-1/4",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        1,
+        -6,
+        15,
+        -20,
+        15,
+        -6,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "top_chebyshev_finite_difference": "45/8",
+      "gap_per_absolute_activity_times_cap_moment": "5/3670016",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "1/293601280",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "253446175539243080504776354394242363838409918421206126805135669529698633270037/10296125000000000000000000000000000000000000000000000000000000000",
+        "invariant_difference_coefficient": "1063643817211696002468048340525182093132745353522246373563123308538959354632446654387507102703434969038545263/4504554687500000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "15342421829700469970703125000000000000000000000000000000000000000000000000000/1063643817211696002468048340525182093132745353522246373563123308538959354632446654387507102703434969038545263"
+    },
+    {
+      "j": 7,
+      "tensor_order": 21,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "11/14",
+        "4/7",
+        "5/14",
+        "1/7",
+        "-1/14",
+        "-2/7",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        -1,
+        7,
+        -21,
+        35,
+        -35,
+        21,
+        -7,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "top_chebyshev_finite_difference": "-787320/117649",
+      "gap_per_absolute_activity_times_cap_moment": "98415/979201097728",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "19683/78336087818240",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "5221496958571500124173401674132225184374410261395089332969830690802170419143959009305777/10296125000000000000000000000000000000000000000000000000000000000000000000",
+        "invariant_difference_coefficient": "431317222253072710953990222604716945973532624254509133572891508663615553928742554087793038769513884980772347783049450439209/4504554687500000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "2504885196685791015625000000000000000000000000000000000000000000000000000000000000000000/954560255985678014625146984041257678379975341419025167279821521561538238311738779587377562456881285558473009286054824497403"
+    },
+    {
+      "j": 8,
+      "tensor_order": 24,
+      "phase_definition": "alpha_k = arccos(x_k)/3, k=0,...,j",
+      "exact_x_nodes": [
+        "1",
+        "13/16",
+        "5/8",
+        "7/16",
+        "1/4",
+        "1/16",
+        "-1/8",
+        "-5/16",
+        "-1/2"
+      ],
+      "finite_difference_weights": [
+        1,
+        -8,
+        28,
+        -56,
+        70,
+        -56,
+        28,
+        -8,
+        1
+      ],
+      "lower_chebyshev_orders_annihilated": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "top_chebyshev_finite_difference": "2066715/262144",
+      "gap_per_absolute_activity_times_cap_moment": "137781/18691697672192",
+      "gap_per_absolute_core_moment_times_cap_after_two_lengths": "137781/7476679068876800",
+      "euclidean_rational_constants": {
+        "small_distance_cutoff": "41/1500",
+        "extended_radius": "2741/1000",
+        "radial_difference_coefficient": "40106767/11767",
+        "symmetric_difference_volume_coefficient": "3314579280310397/10296125000",
+        "volume_upper": "72171/875",
+        "tensor_difference_coefficient": "107573237728911589071014537412070624094746038369157985973475778008702471107441678047989319043756317/10296125000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "invariant_difference_coefficient": "174903017795237313296024717984828733669465364420304149846517973793148861700296222437147596494890141598832913948231491797159133835681650687/4504554687500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "distance_per_absolute_core_moment_times_cap_before_cutoff": "71695200887234022957272827625274658203125000000000000000000000000000000000000000000000000000000/151061896180411234366327297959766726229787694718547505329005007086497518107251728975842561622371203941480441859469357341447201910612613"
+    }
+  ],
+  "finite_scalar_orders_only": true,
+  "all_order_statement_is_in_full_proof": true,
+  "actual_core_moment_or_activity_supplied": false,
+  "new_lambda_one_or_BVP_or_tail_or_mesh": false,
+  "new_surface_geometry_certified": false,
+  "completion_claimed": false
+}
