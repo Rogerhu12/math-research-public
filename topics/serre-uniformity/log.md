@@ -673,3 +673,10 @@
 - root逐节核完整Dickson/terminal、jet kernel和代表单位、generic/CM全极界及global centre排除；保同底lift差经π^−pUΨ返回，未将packet单位传给C。o2独核有限jet，均无数学运行。
 - R1201已真实推209d8fe32a5151468eb46ab3ba7b1673a58bfa5c，非快进/锁ref失败均立即pull --rebase后第三次成功。终端于17:10 UTC前再次报exec-server缺失，沿已存在公开Actions真实git流程续推；不把API读取冒称pull。H压缩前逐字归档before-pure-cuspidal-integrality。
 - 本push规则：公开Actions真实pull至 6b9f18a6cc8ad2626658a0021520df1583636887（2026-11-28T17:22:54.020036+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1203：同一原有限群环元素在 Sym^(3p−1)det^(m−1) 上准确等于 −iq₂/4；Frobenius monomial 同构、唯一 Hom、矩阵系数左理想及完整 rank-one 群和均自证。原 N 固定二维矩阵非零秩一、平方零，保 Cartan 系数的 Frobenius 交换。
+- root/global 独立算常数并全文交叉核对，未执行数学程序。只付真实有限算子；原 PS 第 p 个 normal 的输入、几何尺度及指定 C/whole MW 两列继续读取。H 压缩前逐字归档 before-critical-PS-operator。
+- R1202 已真实推 e55649b2db013f3142ec27a335bec7718a3b1245，run46170134910/job141056445405；17:22:54 UTC 真实 pull，读 6b9f18a6cc8ad2626658a0021520df1583636887，两 README diff 空。终端仍不可用，沿现有公开 Actions 实际 git 流程继续。
+- 本push规则：待公开Actions真实pull/rebase检查并写入读过提交；主目标OPEN。

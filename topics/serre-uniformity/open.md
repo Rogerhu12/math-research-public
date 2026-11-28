@@ -156,6 +156,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1202](results/R1202-original-highest-character-cuspidal-projection-integrality.md)原每个实际负deck、最高权整Ω满足U_mΩ∈pΛ，故qΩ整且同惯性W格Γ由q整分裂。原M_N全部0≤N≤p的Ubar消去已付，临界两份W由极化jet的实际直和处理，中心π^(e0−p)返回由全SS节点排掉。仍须保实际Ω：同底lift差π^(e0−p)Ψ_high经q可返回π^−pUΨ，不可先定义A(L)或将R1201单位传C。当前继续实际PS的n=p Frobenius/Cartier源及q后两列。
 
+[R1203](results/R1203-original-PS-critical-transvectant-and-cuspidal-operator.md)原临界有限模 M=Sym^(3p−1)det^(m−1) 上，Ubar=−iq₂/4；普通二阶transvectant不除2!，Frobenius回嵌i(H)=(X^pY−XY^p)²H。完整rank-one群和锁常数−1/4，原N固定基(F₀,F₁)的矩阵为[[1/4,1/8],[−1/2,−1/4]]，非零秩一且平方零。实际PS的n=p系数与此模的几何识别正在逐项读取，不以极阶/同型替来源；指定C两列及whole MW仍开。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
