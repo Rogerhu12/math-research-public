@@ -1,0 +1,174 @@
+{
+  "status": "conditional_binary_curvature_R54_R67_rational_budgets_verified",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_binary_curvature_held_budget.py",
+    "sha256": "7bdd73a31d5e9d367b6faf6bb4ccfaff8fe1fc9c4a9009e460475e5809d14b54"
+  },
+  "formula_sources": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R54-transverse-held-arc-and-short-cylinder-window.md",
+      "sha256": "d7dea7f4a8515d0ce4e5c9d034037a22cdeb64ab699972b4be17cae93d0f1274"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R67-universal-threefold-marker-and-euclidean-noncongruence.md",
+      "sha256": "56cba676773b61d6f89e23f8a5ca7c51f2795c2f9892662ac32d04f863e18cc1"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-20-m24-r53-true-core-jet-certificate.md",
+      "sha256": "9526c41c076075ef77740872755fa7c1d1684302c678593e1dfe626a75e9468e"
+    }
+  ],
+  "scope": "Existing R54 chord/held formulas and conditional R67 diameter/reach budgets; no new surface or lambda-one solution",
+  "existing_result_reproved": false,
+  "only_parameter_definition_rounding_paid": true,
+  "lambda_one_field_available_or_constructed": false,
+  "nonlinear_solve_executed": false,
+  "new_continuous_metric_or_geometry_certificate": false,
+  "completion_criteria_passed": false,
+  "k": {
+    "exact": "3602879701896397/18014398509481984",
+    "display_only": 0.2
+  },
+  "decimal_one_fifth": {
+    "exact": "1/5",
+    "display_only": 0.2
+  },
+  "k_minus_one_fifth": {
+    "exact": "1/90071992547409920",
+    "display_only": 1.1102230246251566e-17
+  },
+  "target_curvature_is_exact_literal_binary_not_one_fifth": true,
+  "material_halfwidth": {
+    "exact": "1/2",
+    "display_only": 0.5
+  },
+  "held_material_width": {
+    "exact": "27/50",
+    "display_only": 0.54
+  },
+  "phase_endpoint": {
+    "exact": "9/20",
+    "display_only": 0.45
+  },
+  "pi_enclosure": {
+    "lower": "3",
+    "upper": "22/7",
+    "both_strict": true,
+    "source": "Classical rational bounds already used in R54"
+  },
+  "sqrt3_enclosure": {
+    "lower": "433/250",
+    "upper": "7/4",
+    "both_strict": true,
+    "lower_square": "187489/62500",
+    "upper_square": "49/16"
+  },
+  "sine_bound": "For 0<x<1, x-x^3/6 < sin(x) < x; no numerical trigonometric calls",
+  "chord_argument": {
+    "exact": "97277751951202719/1801439850948198400",
+    "display_only": 0.054000000000000006
+  },
+  "chord_sine_lower": {
+    "exact": "631061862135189197931412953272251799076868151930926347/11692013098647223345629478661730264157247460343808000000",
+    "display_only": 0.053973756000000005
+  },
+  "chord_sine_upper": {
+    "exact": "97277751951202719/1801439850948198400",
+    "display_only": 0.054000000000000006
+  },
+  "held_argument": {
+    "exact": "32425917317067573/720575940379279360",
+    "display_only": 0.045000000000000005
+  },
+  "held_sine_lower": {
+    "exact": "33661633087372120001655223560125960451431181758647761/748288838313422294120286634350736906063837462003712000",
+    "display_only": 0.044984812500000006
+  },
+  "held_sine_upper": {
+    "exact": "32425917317067573/720575940379279360",
+    "display_only": 0.045000000000000005
+  },
+  "arc_center_absolute_lower": {
+    "exact": "124173248925859313512/32760985129343937921",
+    "display_only": 3.7902782360057183
+  },
+  "held_positive_coefficient_lower": {
+    "exact": "62086624462929656756/9457559217478042125",
+    "display_only": 6.564761904761904
+  },
+  "H_diameter_strict_lower": {
+    "exact": "175154852326328314943271882155481303351/324518553658426726783156020576256000000",
+    "display_only": 0.53973756
+  },
+  "held_strict_lower": {
+    "exact": "48339507681511667954222079686775322683992966891808228219/163688183381061126838812701264223698201464444813312000000",
+    "display_only": 0.29531458339285716
+  },
+  "H_diameter_threshold": {
+    "exact": "5397/10000",
+    "display_only": 0.5397
+  },
+  "held_threshold": {
+    "exact": "2953/10000",
+    "display_only": 0.2953
+  },
+  "H_diameter_strict_margin": {
+    "exact": "12188916875410498402577850475940151/324518553658426726783156020576256000000",
+    "display_only": 3.755999999999997e-05
+  },
+  "held_strict_margin": {
+    "exact": "2387129084317198720689003450064605100516338437194619/163688183381061126838812701264223698201464444813312000000",
+    "display_only": 1.4583392857137615e-05
+  },
+  "assumed_complete_initial_diameter_upper": {
+    "exact": "67251/25000",
+    "display_only": 2.69004
+  },
+  "assumed_complete_all_time_reach_lower": {
+    "exact": "10/123",
+    "display_only": 0.08130081300813008
+  },
+  "ratio_lower": {
+    "H_diameter": {
+      "exact": "8995/44834",
+      "display_only": 0.20062898692956238
+    },
+    "held": {
+      "exact": "14765/134502",
+      "display_only": 0.10977531932610668
+    },
+    "reach": {
+      "exact": "250000/8271873",
+      "display_only": 0.030222901149473645
+    }
+  },
+  "ratio_strict_margins": {
+    "H_diameter": {
+      "exact": "141/224170",
+      "display_only": 0.0006289869295623857
+    },
+    "held": {
+      "exact": "3287/336255",
+      "display_only": 0.009775319326106676
+    },
+    "reach": {
+      "exact": "184381/827187300",
+      "display_only": 0.000222901149473644
+    }
+  },
+  "protected_material_swept_interval_relative_center": [
+    "-99/200",
+    "99/200"
+  ],
+  "protected_material_margin_each_end": "1/200",
+  "noncircular_core_reason": "A positive-curvature unit-speed circle of perimeter 2*pi has curvature 1; the actual protected arc has k != 1",
+  "noncircular_core_statement_conditional_on_actual_lambda_one_core": true,
+  "exact_held_frame": "R_(-(1-k)*alpha) G_alpha + O - R_(k*alpha) O, with this exact binary k and the true arc center",
+  "finite_cap_amplitude_and_cylinder_costs_not_recertified": true,
+  "pending_actual_obligations": [
+    "lambda-one original complete field",
+    "true nonlinear full-height tail and shared Cartesian two-jets",
+    "complete D/support/curvature/reach hypotheses at every time",
+    "same-problem refinement"
+  ]
+}
