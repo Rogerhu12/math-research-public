@@ -1100,3 +1100,118 @@ Fuchs–Pham 的 $p$ 进椭圆对数线性独立性因此使(AN3)对应的完整
 使用 *Some applications of the p-adic analytic subgroup theorem* (2016), Theorem 2.1；
 [原刊全文](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)。
 该断言仅针对(AN3)的真实全权张量；原模 $p$ 输入是 $G(\bar Q_P)$，完整中央还有其它项，不由此宣布中央非零。
+
+## 32. 普通原 degree390 一阶矩的全局微分与完整连通挠点迹
+
+取 R959 §§13–16、R981 §6 的物理 $E_B:y^2=x^3+B$、
+$\omega_B=dx/(2y)$ 及对应原来源；特别可取固定 $B=65,8125$。
+保持各自已付的整缩放、六阶首系数、普通周期、局部原角色及两个
+Katz Euler 因子。记 $N=390$，
+$$
+ \widehat\Phi_B(z)=\sigma_B(z)^NP_B(x_B(z))
+   =\sum_{j\ge6}\widehat s_{B,j}z^j,\qquad
+ P_B(x)=\sum_{h=0}^{64}\widehat c_{B,h}B^{64-h}x^{3h}. \tag{AO1}
+$$
+设 $p>211$ 为好普通素数，$p\equiv1\bmod3$。
+按原嵌入取 $\pi=\psi_B(\mathfrak p)$、$\bar\pi=\psi_B(\bar{\mathfrak p})$，
+$v_p(\pi)=1$，$F=[\pi]$ 约化为原 $\mathbf F_p$ Frobenius，
+$V=[\bar\pi]$，$\pi\bar\pi=p$。全局原参数
+$t=-x/y$ 的形式对数 $u=\ell(t)$ 满足 $du=\omega_B$、$\ell(t)=t+\cdots$。
+
+令 $v=\bar\pi^2$。同一 Miller 规范给
+$$
+ \begin{aligned}
+ \psi_v(P)&=\frac{\sigma_B(vz)}{\sigma_B(z)^{p^2}},\\
+ R_2(P)&=\psi_v(P)^NP_B(x(V^2P)),\\
+ H_2(P)&=t(P)^{Np^2}R_2(P).
+ \end{aligned} \tag{AO2}
+$$
+$\operatorname{div}\psi_v=(V^2)^*(O)-p^2(O)$，首项为
+$v\,t^{1-p^2}$。$V^2$ 在整模型上 étale，其非零核点的
+$x$ 坐标整，因此
+$\psi_v=v\prod_{U\in(\ker V^2-\{O\})/\{\pm1\}}(x-x(U))$
+是整多项式。$A_v=x(V^2P)\psi_v^2$ 也是整多项式：
+显示除子消去所有非 $O$ 的水平极，良约化同源的延拓及
+$\psi_v$ 的整性消去纵向泛点的极，再用光滑整模型的正规性。
+也可从 $O$ 的 $x$ 首项一逐次读出整系数。
+$\deg_xP_B=192$，每个实际项剩余 $\psi_v$ 指数
+$N-6h\ge6$，所以 $R_2$ 仅在 $O$ 有 $Np^2-6$ 阶极；
+$H_2$ 在 $O$ 有六阶零，在整模型去掉三个非零二挠截面的开集上正则。
+
+定义原曲线上的全局有理微分
+$$
+ \mathcal D_{B,p}=\pi^pH_2(P)F^*(t^{-p})\omega_B. \tag{AO3}
+$$
+则原一阶矩满足
+$$
+ \bar\pi^{\,2(p-1)}\widehat s_{B,p-1}
+       \equiv\operatorname{Res}_O\mathcal D_{B,p}\pmod{p^2}. \tag{AO4}
+$$
+证明从左边的准确表达
+$\operatorname{Res}_O\widehat\Phi_B(\bar\pi^2u)\omega_B/u^p$ 开始。
+记 $H_\sigma(t)=\sigma_B(\ell(t))/t$、$L(t)=\ell(t)/t$、
+$t_F=t(FP)$。Miller 等式及 $\ell(t_F)=\pi\ell(t)$ 将被积式准确写成
+$$
+ \mathcal D_{B,p}\,H_\sigma(t)^{Np^2}L(t_F)^{-p}.
+$$
+原普通 sigma 整性已由 R959 §13 的 CM 常数零证明，
+故 $H_\sigma\in1+t\mathcal O[[t]]$。$\ell'= \omega_B/dt$ 整，
+所以 $L$ 在次数不超过 $p-7$ 的窗内系数整。
+又 $t_F=\pi t+\cdots\equiv t^p\bmod p$，故
+$\pi t/t_F$ 在这一截断环是整单位。
+$t^p\mathcal D_{B,p}/dt$ 从六阶起，留数仅使用相对窗
+$0\le j\le p-7$。在此窗中
+$H_\sigma^{Np^2}\equiv1\bmod p^2$，因为所有非常项的二项指标小于 $p$；
+$t_F\in p(t)$ 亦给 $L(t_F)\in1+p(t)$，
+于是 $L(t_F)^{-p}\equiv1\bmod p^2$。这就证明(AO4)。
+辅助的 $H_\sigma$ 只用于证明，最终 $H_2$ 是(AO2)的实际有理函数。
+
+(AO3)的全部可能极恰包含于三个非零二挠点与
+$F^{-1}\{O,(0,\sqrt B),(0,-\sqrt B)\}$。
+二挠处极阶至多 $Np^2-p$，$O$ 处至多 $p-6$，
+其余显示原象处至多 $p$；因为 $t$ 的三个简单零是
+$O,(0,\pm\sqrt B)$，三个简单极是非零二挠点。
+每个非零二挠点 $A$ 满足
+$\operatorname{Res}_A\mathcal D_{B,p}\in p^p\mathcal O$：
+在相应未分歧扩张，Laurent 展开整，$x(FA)$ 为单位，
+$F^*(t^{-p})$ 正则整，外面的 $\pi^p$ 完整保留。
+
+对 $S=O,(0,\pm\sqrt B)$，整个原象纤维有准确迹恒等式及整性
+$$
+ \sum_{FT=S}\operatorname{Res}_T\mathcal D_{B,p}
+   =\pi^{p-1}\operatorname{Res}_S
+       \bigl((\operatorname{Tr}_FH_2)t^{-p}\omega_B\bigr)
+   \in p^p\mathcal O. \tag{AO5}
+$$
+$\operatorname{Tr}_F$ 是未归一函数迹；$F^*\omega_B=\pi\omega_B$
+付出唯一的 $\pi^{-1}$。去掉三个二挠点的靶开集，其逆像避开
+$H_2$ 的极。有限平坦同源给整的正则迹，且迹与约化交换；
+特殊纤维函数域纯不可分次数为 $p$，函数迹恒零。因此
+$\operatorname{Tr}_FH_2$ 局部属于 $p\mathcal O$。
+$S$ 的整参数中 $t^{-p}\omega_B$ 有整 Laurent 系数，得到(AO5)。
+
+任取非零 $T\in E_B[\pi]$，在原局部基域 $k=K_{\mathfrak p}$，
+$$
+ \boxed{\quad
+ \bar\pi^{\,2(p-1)}\widehat s_{B,p-1}
+   \equiv-\operatorname{Tr}_{k(T)/k}
+                \operatorname{Res}_T\mathcal D_{B,p}\pmod{p^2}.
+ \quad} \tag{AO6}
+$$
+这直接由(AO5)在 $S=O$ 的完整纤维和除去 $O$ 得到。
+$t_F/t\bmod p=t^{p-1}$，常数为 $\pi$；其 Weierstrass
+多项式 Eisenstein，次数 $p-1$。所有非零 $\pi$ 挠点都在
+形式盘中，且组成这一条完整 Galois 轨道，故和确为显示的域迹。
+没有把其中各个留数规定为零。
+
+原普通有界测度、$\widehat G_{B,p}(0)=0$ 及非单位矩误差给
+$$
+ \widehat G'_{B,p}(0)
+   \equiv-\Omega_{p,B}^{\,p-1}(p-1)!
+                  \frac{\widehat s_{B,p-1}}p\pmod p.
+$$
+因此(AO6)右侧完整迹的赋值恰为一，就使原首导数非零，
+并由 R959、R981 已付的通常全 Selmer 比较得到
+$\Sha(E_B/\mathbf Q)[p^\infty]$ 有限。
+该迹保留原全部 degree390 系数和全部非零 $\pi$ 挠点；
+无穷素数上赋值恰一仍待证明。

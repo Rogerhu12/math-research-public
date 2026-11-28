@@ -225,3 +225,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §96：原完整倒数权的二型对数非代数性
 
 已证明：在实际非平凡加性扩张中确定第二种积分为代数切线基的群对数；用一般p进解析子群定理证明共轭K平衡张量映射单射，给真实全驯倒数权二型母量非代数及其精确惰性首格，未将超越性充当模p非零。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §32：普通完整degree390原矩的有理微分与连通挠点全迹
+
+已证明：在同一普通来源上以V²的真实Miller式消尽sigma和形式对数尾，原ŝ_{p−1}模p²准确成为全局有理微分的O留数；付所有极及纯不可分约化迹整性，转为全部非零π挠点的一个未删项域迹。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
