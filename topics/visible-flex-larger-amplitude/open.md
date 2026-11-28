@@ -126,3 +126,6 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 [ret57](computations/legacy-small-core-request-metadata-retention-57-complete-delivery.json)独立精退13旧pre-execution包装净200328B，完整原请求/73来源/13workflow与命令/15输入父status/失败及真实request78读者恢复保；原数值、源、配置、请求和活22均不退。
 
 README未完成；时长、阶段、失败和输入困难均非终点，继续真实求解与全固定目标精化。raw仅runner/scratch，保完整源码/配方/真实run与SHA。
+
+
+22[完整启动包](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊：新workflow/controller/request/63721B三整步queue，完整19数值仅换半波20源；157/7及458/445/48全保，纯步须science真自然返后整接。当前官方run/输入/模型/点未返；启动说明及之后真实记录见[22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。

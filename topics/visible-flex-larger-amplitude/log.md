@@ -188,3 +188,9 @@ run46053911348/1及job140691661221 completed/cancelled@00:53:34Z，明确原因�
 只退13 exact pre-execution包装452401B，6完整保全件252073B，净200328B；全部原嵌套字段/73源/13workflow和保留命令/15输入父status/真实失败/旧request78读者合同保，固定f81da9c6 Git原字恢复。数值raw/报告/checkpoint/source/config/spec/原请求/22全源参不退，接完整22启动。
 
 双README云核至`65fa581ed617e3c283278bedde248941e91299b6`无变（非pull），实际活runner末pull保H；本整理不是数学完成。
+
+## 2026-11-28 01:00:39 UTC — 完整22半波请求正式启动
+
+新增课题外.github/workflows/visible-larger-20261128-parallel22.yml及完整22controller/request/queue/manifest/note；35原控制pins、全部同步/预算/执行流保，仅槽/日期/真实源路径变。新请求触发公开Actions，两完整input+157词科学；原7词pure真返回后整接，63721/110351/95000B全队列责任明确。已刊7d34全20源及637fc六参数；13旧包装ret57腾空间，17官方终态保54ac；未来22值全null，继续实际核实。
+
+双README云核至`077f0990d2e052f0a4805ee9e5efa75fb25204a8`无变（非pull）；课题外改动限本已授权运行工作流，不新增科学前门，不减目标/原预算。
