@@ -546,3 +546,119 @@ $\log^+|I_{k,p,m}|=O((n+1)\log(np)+\log p)$，
 $O(i^2p\log(ip^2))$ 界。
 此界超过要比较的 $(i+2)\log p$；
 本节未由有理性、实性或这个高度界推出无穷 $p$ 的中央非零。
+
+## 27. 原中央两位的两列固定有理除点导数
+
+**已证明。** 沿(AF1)–(AH8)；取物理 $E_1:y^2=x^3+1$
+的原微分、严格坐标 $Z=t+O(t^2)$，设 $q=p^2,\Delta_0=q-1$。
+用 $A=[a]Q_{c_k}$、$s_a=\epsilon_k(\bar a)^{-1}$，
+并令 $e_A=\mathcal E_1^*(A)$。
+下式 $z$ 为该微分的特征零不变对数，$z_A$ 为任一复格代表，
+$\eta_A$ 为其补偿准周期，二者同步变换。
+置 $e_A(z)=\zeta(z+z_A)-\eta_A$，
+$x_A(z)=\wp(z+z_A),y_A(z)=\wp'(z+z_A)/2$。
+定义两条固定序列
+$$
+\begin{aligned}
+ U_k(z)&=6\sum_a s_a e_A(z),\\
+ V_k(z)&=-6\sum_a s_a\bigl(y_A(z)+x_A(z)e_A(z)\bigr)
+       =3\frac d{dz}\sum_a s_a(e_A(z)^2-x_A(z)).
+\end{aligned} \tag{AJ1}
+$$
+$(u_{k,m},v_{k,m})=[z^m](U_k,V_k)$。
+$Dx=2y,\ Dy=3x^2$，$D$ 表示原不变导数。
+对 $m\ge1$，
+$$
+\begin{aligned}
+ u_{k,m}&=-\frac6{m!}\sum_a s_aD^{m-1}x(A),\\
+ v_{k,m}&=-\frac6{m!}\sum_a s_a\left(
+ \frac12D^{m+1}x(A)+e_AD^m x(A)
+ -\sum_{h=1}^m\binom mh D^{m-h}x(A)D^{h-1}x(A)\right).
+\end{aligned} \tag{AJ2}
+$$
+这由 $e_A'=-x_A$ 的完整乘积求导得到。
+$e_A=-D^2\psi_c(A)/(2c^2D\psi_c(A))$ 含全部除函数，
+亦可用(AH3)的相应正阶。全保原 $a$、$5$、
+两个 $13$ 及参考自己的 $c_1=6$。
+
+(AJ2)两条序列都除 $(1-\omega^2)\theta_k$ 后落在 $\mathbb Q$。
+对 $\sigma\in G_K$，按(J)的源标量 $s$ 换 $a\mapsto sa$，
+得到 $\epsilon_k(s)^{-1}=\sigma\theta_k/\theta_k$。
+复共轭 $Q_c\mapsto[-\omega]Q_c$，
+换 $a\mapsto-\omega\bar a$ 给共同因子
+$-\omega=\overline{1-\omega^2}/(1-\omega^2)$；
+导子、$e$ 的代数式均有理。
+各乘 $m!$ 后在所有原充分大 $p$ 处整，
+亦可由 $D$ 在同一好曲线及(AJ2)逐项见出。
+只需排除原固定有限个素数，与 $m$ 无关。
+
+在物理形式盘中，按(AG8),(AG9)把 $e_A(z)$ 真实实现为
+$$
+ e_A^{\rm phys}(R)=\zeta_E(R)+e_A+
+                 \frac{y_R-y_A}{x_R-x_A}. \tag{AJ3}
+$$
+$R=O$ 的极相消，其Laurent胚芽为 $e_A(\log_E R)$。
+在原非零 $p$ 挠点它等于复合点的真实 $e(R+A)$。
+代(AH8)全部 $h,a$ 及(AH4)的 $\dot e=-y-xe$，
+得到(AH5)实际两列正是 $U_k$ 的 $\xi$ 和 $V_k$ 的 $\xi^2$
+全采样，第二列带 $p$。
+$6=7-1$ 只在原全和重标后产生；
+(AJ1)未在每个物理点把原 $F_7$ 先改为 $6e$。
+
+(AJ3)中 $\zeta_E=-H-x_R^2/y_R$。
+去 $-H$ 后的剩余是每个 $A$ 各自的整Taylor式：
+$x_R=t^{-2},\ y_R=-t^{-3}\sqrt{1+t^6}$，
+分母 $1-x_At^2$ 为整单位，两个 $t^{-1}$ 主部相消。
+$\sum_as_a=0$，故 $U_k$ 的物理式整；
+$V_k$ 的非整处至多 $H$ 乘整式，其余全整。
+依(AH7)，第二列 $[Z^N]$ 估值至少 $-\lfloor\log_pN\rfloor$，
+$N<5p^2$ 时至少 $-1$。第一列保(AF5)全开盘整界。
+两列在原 $z_*^{\Delta_0}=p$ 处均可逐项取完整有限Fourier。
+对 $\nu=0,1$ 分别用
+$n_i=(\nu+1)(p-1)+i\Delta_0$，
+并记 $a_{k,m}^{(0)}=u_{k,m},\ a_{k,m}^{(1)}=v_{k,m}$。
+于是 $N_{k,\nu}$ 模 $p^4$ 只须前四个物理系数，各乘 $p^{i+\nu}$；
+尾项估值沿(AF5),(AH7)，未截任一原伙伴。
+
+令 $\ell(Z)=\log_{E_1}(Z)=\sum_{j\ge0}c_jZ^{1+j\Delta_0}$，
+$c_0=1$；稀疏来自Teich作用，严格性给首项正一。
+由 $\ell(-pZ+Z^q)=-p\ell(Z)$ 逐项有
+$$
+ ((-p)^{1+j\Delta_0}+p)c_j
+ =-\!\!\sum_{\substack{0\le h<j\\j-h\le1+h\Delta_0}}
+ c_h\binom{1+h\Delta_0}{j-h}(-p)^{1+h\Delta_0-j+h}. \tag{AJ4}
+$$
+故 $c_1=(p^q-p)^{-1}$，
+$pc_1\equiv-1\bmod p^{\Delta_0}$，
+$v_p(c_2),v_p(c_3)\ge q-3$。
+在 $i\le3$ 的真正四窗中，$[Z^{n_i}]$ 只会取本列
+$a_{k,n_h}^{(\nu)},0\le h\le i$，且至多取三个非首 $\ell$ 因子。
+(AJ2)给
+$v_p(a_{k,n_h}^{(\nu)})\ge-v_p(n_h!)\ge-(4p+5)$。
+因此含 $c_2,c_3$ 的任何项、或把 $pc_1$ 换成 $-1$ 的全部误差，
+均有至少四位。
+
+用 $c_1$ 取 $i-h$ 次的乘数为 $\binom{n_h}{i-h}$。
+每个 $p^{i+\nu}a_{k,n_i}^{(\nu)}$ 都整：
+原物理系数同样归一后整，以上三角展开用 $pc_1$ 为单位
+逐 $i$ 归纳即可。
+系数合并使用
+$\sum_{l=0}^M(-1)^l\binom nl=(-1)^M\binom{n-1}M$，
+得到
+$$
+ X_{k,\nu}=\sum_{i=0}^3(-1)^{3-i}\binom{n_i-1}{3-i}
+               p^{i+\nu}a_{k,n_i}^{(\nu)}
+       \equiv N_{k,\nu}\pmod{p^4}. \tag{AJ5}
+$$
+两个 $X_{1,\nu}$ 都是单位。对每个真实 $b$，
+$$
+ [T^2]\mathcal A_b\equiv
+ \frac{\lambda_{b,p}}{65\lambda_{1,p}}\,
+ \frac{(1+r)^3X_{b,0}X_{1,1}-X_{b,1}X_{1,0}}
+ {r(1+r)^2(r-1)^2X_{1,0}X_{1,1}}\pmod{p^2},
+ \qquad r=\rho^{-1}. \tag{AJ6}
+$$
+这两位只用(AJ2)的固定有理数列、原Frobenius单位及原发生器，
+分母净花两位。若真实中央坏，两列各在模 $p^4$ 为零；
+联合坏使两条固定曲线分别满足全部四个条件。
+无穷不同 $p$ 上的违背尚待证明。

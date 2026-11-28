@@ -444,3 +444,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §26：原二次扭曲负权的有理节点与完整分母
 
 已证明：原负权全Hecke公式及共同二次p角色给真实有理节点(AI5)，普通有限差分读原a₂任意固定精度；逐项构造整数及单位参考，实际高度O(i²p log(ip²))不足以推出无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1073 §27：原中央两位的固定有理除点导数列
+
+已证明：全部原Gauss两行化为固定扭点的两条有理导数列(AJ2)，严格LT四窗及完整尾界给(AJ5)模p⁴；两单位参考与原λ/r保真读a₂模p²，仍需联合无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
