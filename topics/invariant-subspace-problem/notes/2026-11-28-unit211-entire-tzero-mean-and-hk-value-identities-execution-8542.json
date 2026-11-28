@@ -1,0 +1,44 @@
+{
+  "schema": "isp-original-tzero-whole-mean-and-collision-value-identities-v1",
+  "variables": [
+    "b",
+    "c",
+    "p",
+    "q",
+    "X",
+    "Y",
+    "eta"
+  ],
+  "t": 0,
+  "f": "u+eta",
+  "elapsedMilliseconds": 1,
+  "integerPolynomialProducts": 170,
+  "checks": [
+    {
+      "name": "entire_original_tzero_mean_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "half_total_weight_first_two_value_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "lambda_half_collision_three_moments_force_h_zero",
+      "fullIntegerPolynomialDifferenceZero": true
+    }
+  ],
+  "exactOriginalMeanIdentity": "E1-(b*EB+c*EC)+(1-ell)*E0=4*(f-u)*A1",
+  "trueDualSquare": true,
+  "noPhiWOrPfAssumption": true,
+  "separateFormalValueVariables": [
+    "lambda",
+    "h",
+    "w"
+  ],
+  "valueIdentity": "m2-(h+2lambda-1)m1+2(2lambda-1)-2(3-h-2lambda)w=0",
+  "halfLambdaIdentity": "m3-(h+2)m2+(2h+1)m1=h",
+  "noOldNPOrProjectionGateReexecuted": true,
+  "ordinaryISPClaim": false,
+  "sourceSHA256": "614240007765bc41732006cf2b792e888566428267ac0a8ebad37d5399047980",
+  "sourceBytes": 3813
+}
