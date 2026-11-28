@@ -878,3 +878,230 @@ $$
 $r_1$ 的单位性不能替代 $q_N(0)$ 或 $q_N'(0)$ 的非同时零；
 §6 的十八个 cross 槽也没有因此被自动消掉。
 本节为纸面代数证明，无数学程序执行。
+
+
+## 9. 原 $114$ 第二插入的实际椭圆原函数与同一 Padé 多项式
+
+本节给 (G4.31) 的同一个 $\Lambda_p$ 一个完整几何来源：
+先由原 Fermat 六次曲线下降到一个实际 genus-two 商，
+再由该商的第二条椭圆映射，读取一个极阶恰为 $p-2$ 的
+唯一奇多项式原函数。其反序多项式与
+[R1137 §2](../results/R1137-original-Lame-conjugation-with-complete-boundaries.md)
+的同一个 $G_N,D_N$ 准确相接。这里没有另换原 $P=P_{2,2}$ 的
+未定常数，也没有证明 $\Lambda_p$ 为单位。
+
+### 9.1. 原 Fermat 曲线上的两个实际下降
+
+继续 $Z:x^6+y^6=1$，令
+$$
+r=xy,\qquad W=2x^6-1.
+$$
+则得到实际映射
+$$
+Z\longrightarrow C_*:\quad W^2=1-4r^6,\qquad
+\alpha=-\frac{dr}{W},\qquad h_*=r\alpha .
+\tag{G4.41}
+$$
+这是一个光滑 genus-two 曲线。函数 $r,W$ 对
+$(x,y)\mapsto(\xi x,\xi^{-1}y)$、$\xi^6=1$ 不变；
+反过来 $x^6=(1+W)/2$、$y=r/x$，所以这是 degree-six 商。
+在加入六次单位根后，该群的六个实际自同构也直接核准次数；
+$6$ 与 $p$ 互素，映射可分。映射及显示模型本身都在 $\mathbf F_p$ 上。
+
+直接对 $r=xy$ 求导，使用 $y^5dy=-x^5dx$，有
+$$
+dr=(y^6-x^6)\frac{dx}{y^5}=-W\frac{dx}{y^5}.
+$$
+因此 (G4.41) 的原微分没有未定尺度：
+$$
+\boxed{\quad
+\alpha\longmapsto\omega_{1,1},\qquad
+h_*\longmapsto\omega_{2,2}.
+\quad}
+\tag{G4.42}
+$$
+原 $P=x^2y^{-2p}\mathsf R(x^6)$ 也确实下降，其在 $C_*$ 上的函数为
+$$
+P=r^2\left(\frac{1-W}{2}\right)^{-2k}
+       \mathsf R\left(\frac{1+W}{2}\right),\qquad dP=h_* .
+$$
+这里使用 $p+1=6k$，而不是只比较微分的字符。
+
+第二条实际映射为
+$$
+\boxed{\quad
+\pi_*:C_*\longrightarrow E_*:\ 
+z=r^{-2},\quad w=Wr^{-3},\qquad
+E_*:w^2=z^3-4,\qquad
+\omega_*=\frac{dz}{2w},\quad
+\pi_*^*\omega_*=\alpha .
+\quad}
+\tag{G4.43}
+$$
+这是一条 degree-two 可分映射；显示函数恒等式支付其在光滑完备模型上的
+延拓。特别，下面使用的是这个已固定商的微分 $\omega_*$，
+不是凭两条曲线同为 $j=0$ 便将它们的标架等同。
+
+### 9.2. 极阶 $p-2$ 的唯一奇多项式原函数
+
+令 $N=k-1$、$m=3k-1$，并在 $E_*$ 上以
+$$
+D_*=\omega_*^{-1}d,\qquad D_*z=2w,\quad D_*w=3z^2
+$$
+作导数。定义次数恰为 $N$ 的多项式
+$$
+A_N(T)=\sum_{j=0}^N a_jT^j,\qquad
+a_N=-\frac12,\qquad
+\frac{a_{j+1}}{a_j}=\frac{2j+1}{8(j+1)}
+\quad(0\le j<N).
+\tag{G4.44}
+$$
+所有分子、分母都是单位，所以每个 $a_j$ 非零。
+递推的全部内容等价于
+$$
+3A_N+6(T-4)A_N'=T^N.
+$$
+确实，较低 $T^j$ 系数为
+$(6j+3)a_j-24(j+1)a_{j+1}=0$；
+最高项为 $(6N+3)a_N=(-2)(-1/2)=1$。
+于是实际函数
+$$
+\boxed{\quad
+H_*=wA_N(z^3),\qquad
+D_*H_*=z^m,\qquad
+dH_*=z^m\omega_*,\qquad
+\operatorname{div}_\infty(H_*)=(p-2)O .
+\quad}
+\tag{G4.45}
+$$
+最后的极阶是 $3+6N=p-2$，最高系数非零。
+在 $L((p-2)O)$ 内它是唯一的奇原函数：
+两个解之差导数为零，故属于 $\mathbf F_p(E_*)^p$；
+极阶小于 $p$ 又排除任何非恒定的 $p$ 次幂。
+常数被 $w\mapsto-w$ 的奇性排除。这里底域是完美的 $\mathbf F_p$，
+没有在非完美参数底域上擅取 $p$ 次根。
+
+拉回 (G4.45)，有
+$$
+d(r^pH_*)=r^p z^m\alpha=r^{p-2m}\alpha=r\alpha=h_*.
+$$
+所以在 $\mathbf F_p(C_*)$ 中存在一个实际有理函数 $B_*$，使
+$$
+\boxed{\quad P-r^pH_*=B_*^p.\quad}
+\tag{G4.46}
+$$
+这里 $r^pH_*$ 是拉回后的函数。差的导数为零，
+而一变量光滑函数域的导数核正是其 $p$ 次幂子域，
+故 (G4.46) 支付了完整 primitive 补偿，不只是一条局部导数身份。
+
+### 9.3. 原 $\Lambda_p$ 的全部 Cartier 尺度与唯一指数
+
+本小节先用绝对 Cartier；全部模型与显示多项式的系数在 $\mathbf F_p$，
+因此最终标量亦在 $\mathbf F_p$。
+§6 的精确字符表已给
+$$
+C(\alpha)=0,\qquad C(P\alpha)=0.
+$$
+它们可由 $Z$ 下降到 $C_*$，因为 Cartier 与可分拉回相容且拉回微分单射。
+因此 (G4.46) 的二次 primitive 补偿准确相消：
+$$
+C(P^2\alpha)=C(r^{2p}H_*^2\alpha)
+             =r^2\pi_*^*C(H_*^2\omega_*).
+$$
+左边正是 (G4.31) 的 $\Lambda_p\alpha$。
+由于 $r^2=z^{-1}$，得到完整原式
+$$
+\boxed{\quad
+C(H_*^2\omega_*)=\Lambda_p\,z\omega_*.
+\quad}
+\tag{G4.47}
+$$
+等价地，相对 Cartier 写作
+$C_{\rm rel}(H_*^2\omega_*)=\Lambda_p\,z'\omega_*'$。
+这里的 prime 是实际 Frobenius twist，不是求导；
+并没有将扩域上的一般常数都按底域线性搬出绝对 Cartier。
+
+还可独立核定 (G4.47) 的唯一系数。因为
+$$
+H_*^2\omega_*=
+\left(\frac1{2w}\right)^p
+ (z^3-4)^{m+1}A_N(z^3)^2\,dz,
+$$
+括号中的多项式关于 $z$ 的次数为
+$3(m+1)+6N=15k-6<3p-1$，且所有指数均为三的倍数。
+$p-1\not\equiv0\pmod3$、$2p-1=3(4k-1)$，
+所以唯一合法 Cartier 指数是 $2p-1$。
+常数 $\Lambda_p\in\mathbf F_p$ 的绝对 $p$ 次根仍是自身，准确给
+$$
+\boxed{\quad
+\Lambda_p=[T^{4k-1}](T-4)^{3k}A_N(T)^2 .
+\quad}
+\tag{G4.48}
+$$
+这同时排除了一个未定的 $\omega_*$ 全纯补项。
+$H_*^2\omega_*$ 的唯一极点也在 $O$，极阶为 $2p-4$；
+所读 $z\omega_*$ 的二阶极与此完全一致。
+
+### 9.4. 同一原 Padé 多项式的明确有限 functional
+
+(G4.44) 直接给
+$$
+A_N(T)=a_0\sum_{j=0}^N
+       \frac{(1/2)_j}{4^j j!}T^j,\qquad
+\frac{a_{N-j}}{a_N}
+=4^j\frac{(-N)_j}{(1/2-N)_j}.
+$$
+因而
+$$
+\boxed{\quad
+A_N(T)=-\frac12T^N G_N(4/T),\qquad
+G_N(x)={}_2F_1(1,-N;1/2-N;x)
+       ={}_2F_1(1,5/6;4/3;x)\quad\bmod p .
+\quad}
+\tag{G4.49}
+$$
+两边都表示次数 $N$ 的同一个终止多项式。
+所有下参数在 $0\le j\le N$ 均为单位。
+右边恰是 R1137 (T47)、(T52) 中原 $S(-v^2x)/a_0$ 的
+归一多项式；这里靠的是准确系数递推，未改动那个原 Padé 对。
+
+在 (G4.48) 中反转最高次数
+$3k+2N=5k-2$，剩余指数是 $N=k-1$。
+由于 $3k\equiv1/2\pmod p$，仅在这个安全前缀读取二项式，得到
+$$
+\boxed{\begin{aligned}
+\Lambda_p
+ &=4^{N-1}[x^N](1-x)^{1/2}G_N(x)^2\\
+ &=4^{N-1}[x^N](1-x)^{-1/2}D_N(x),
+\end{aligned}}
+\tag{G4.50}
+$$
+其中保持 R1137 (T52) 的完整首共振：
+$$
+(1-x)G_N^2=D_N-g_N^2x^{2N+1},\qquad
+D_N=\sum_{j=0}^N\frac{2g_j}{3j+2}x^j .
+$$
+第二行只读 $x^N$，故首共振项在本次 coefficient 中不贡献；
+它没有从整个多项式恒等式中被删除。
+尤其可把同一标量明确写为
+$$
+\Lambda_p
+=4^{N-1}\sum_{j=0}^N
+ \frac{2g_j}{3j+2}\,
+ \frac{(1/2)_{N-j}}{(N-j)!}.
+\tag{G4.51}
+$$
+全部系数均已由原有限输入固定，但不能因为各因子为单位便断言其和为单位。
+
+与 (G4.31) 合并还给一个带完整尺度的安全身份：
+$$
+[t^N](1-t)^N F_D(t)^2
+=4^N[x^N](1-x)^{-1/2}D_N(x).
+\tag{G4.52}
+$$
+这次新增比较支付的是原 $114$ 第二插入及 (G4.38) 的全部高极系数，
+使它们可以在同一个实际椭圆原函数和原 Padé 范数多项式上消费。
+它不把 $\Lambda_p$ 认作 $e$、$K_4$ 或某个已付 Hurwitz 单位，
+也没有消去 §6 的十八个一阶 cross 配对。
+即使假设原 $e=K_4=0$，R1137 (T54) 的有界 Pell 余式仍须保留；
+(G4.50) 本身没有将其变成矛盾。本节为纯纸面证明，无数学程序执行。

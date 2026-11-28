@@ -709,4 +709,8 @@
 - R1153付原Kummer/finiteFL两槽U/U²、真实Miller phase、所有q_t可见F0项及r/s原Bernoulli首层；Deuring/Heilbronn给独立C_SS，不借Fp²点替Qp校准。root读完整正文和已刊class-number来源，完成即推。
 - H前态归档并压缩已登细节；原z12与global有限J_p的实际相减、全深盘/full Nns继续，无数学执行。
 
-- 2026-11-28 09:15 Asia/Taipei｜Astra-serre-24b8836b-20261126：第五次真实partial clone/pull成功，run46091738995/job140813986118，09:10:35至fba6b41d；两README diff空且全文SHA重算相同。H/回执同步，下一pull≤10:10；本地无环境，继续原中央cochain、Legendre有限log及Fermat cross。
+- 2026-11-28 09:13 Asia/Taipei｜Astra-serre-24b8836b-20261126：第五次真实partial clone/pull成功，run46091738995/job140813986118，09:10:35至fba6b41d；两README diff空且全文SHA重算相同。H/回执同步，下一pull≤10:10；本地无环境，继续原中央cochain、Legendre有限log及Fermat cross。
+
+### 2026-11-28 09:14 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原genus4 §9付114第二插入的真实genus2/椭圆商、唯一奇primitive、完整pth补偿及唯一Cartier指数，准确接原G_N/D_N。root核映射/微分/极界/反序尺度，旧1–8逐字保留后即推。
+- Λ仍未unit，十八cross与Pell双缺陷继续；没有数学执行或旧窗口重算。

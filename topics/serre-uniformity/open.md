@@ -130,3 +130,9 @@ R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β
 [R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)用实际Fp超奇异校准reference的两非零顶项，完整证明两个读数单位分别U★=4δc_g,★²β★²、U★²；实际Miller相位a_E=γ_E/γ★给U_E=U★a_E²。原两槽全为a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+ks，不除Bernoulli。Deuring计数/Heilbronn增长提供独立C_SS，需global生成时范围为p>max(C_SS,C_cyc)。原r=(2/3)U★γ★⁻²β3、s=(24/5)U★²γ★⁻⁴β5，零分支与R1152同。
 
 原q_t可见x2..4与y4..8已逐项从同一旧profile读出；不可见x0/1与y0..3未冒称恢复。Gaussian顶障碍=16δ³c_g⁶rs z12−z U_E³q1,2 q2,4；cubic顶障碍=16δ³c_g⁶rs z12−z a3 U_E²q2,3。主要局部未知现在是同一原F0中央项z12及较低中央coefficient；继续它与R1152有限J_p的准确相减和深盘，两个top profile单位不代该组合非零。
+
+### 原 Fermat6 §9：114 第二插入与原 Padé 的同源桥
+
+[同文§9](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)以r=xy、W=2x⁶−1付真实degree6 genus2商，再由z=r⁻²、w=Wr⁻³得degree2 E*:w²=z³−4及精确微分。唯一奇原函数H*=wA_N(z³)满足dH*=z^((p−1)/2)ω*、极阶p−2；原P−r^pH*是真pth补偿，完整Cartier给C(H*²ω*)=Λ zω*且唯一指数2p−1。
+
+A_N(T)=−T^N G_N(4/T)/2恰接同一原R1137；故Λ=4^(N−1)[x^N](1−x)^−1/2D_N，保完整首共振。已付的是原114第二插入及高极系数的准确来源；未证Λ单位，不删十八cross或原Pell双缺陷。继续该有限functional与原短flag的实际关系。

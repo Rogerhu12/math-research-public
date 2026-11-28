@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：bd3f017ef9399a93a8a7a441ac56f50bdc7dec4f**（2026-11-28 09:13 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：f03239c456951e8d963d2ff1675dd618b882c0a5**（2026-11-28 09:14 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:10:35 Asia/Taipei，Actions run46091738995/job140813986118，blob:none浅clone真实pull --rebase至fba6b41d，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:00、pull≤10:10。本地09:10仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -48,7 +48,7 @@ R1152 §§1–12付原Θ∞/MT(Z)/正向Frobenius同源及完整finite harmonic�
 
 [原固定Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)§§1–10付D^(p−5)η、原Fermat/同Dixon生成式、Hesse全Frel/Schur谱。normal=12tr(adjQ A²)不等spectral=tr(adjQ)，全Jordan不代指定中列；原双零未排。R1145八带系统仅标量、旧5372/十五Euler/Prym/六CM/normal-FM均只消费，不重跑。
 
-[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付Fermat6完整十维/45槽和B22,12=−c^(2k−1)e/δ。e0后123六维第0…3插入全零，第4准确C(P⁴ω12)=4c^(2k−2)K4·ω32/δ²；e=K4=0 iff222+123七维第0…4全零。两个真实Cartier指数3p−1/9p−1必须全保，e0才有A9=−A3；114第二层Λp完整有限式未unit，高插入可有极。V4仍留18 cross，继续原临界非零。 §8付完整交换P↦−P+(r1/x²y²)^p及全部高极；A3=−2r1³qN0−3qN′0/2，回原Dixon，未添unit。
+[原genus4 §§6–9](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)同Fermat6十维45槽、e0的七维第0…4插入、K4完整尺度及primitive交换已付；A3/A9回原Dixon。§9付实际genus2→E*:w²=z³−4商，奇原函数H*=wA_N(z³)极p−2及P−r^pH*=pth补偿；114第二层Λ=4^(N−1)[x^N](1−x)^−1/2 D_N。Λ未unit、18 cross与高插入极仍保；继续指定双零排除，勿由椭圆商换标架。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

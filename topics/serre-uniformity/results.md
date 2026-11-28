@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原114第二插入的同一椭圆/Padé来源（已证明）**：[原genus4 §9](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree6/2两商、唯一极p−2奇原函数及完整pth补偿给Λ=4^(N−1)[x^N](1−x)^−1/2D_N；保首共振/全部Cartier尺度。Λ单位、18 cross与原双缺陷仍开。
+
 - **R1153（已证明）**：[原Kummer与有限FL坐标的准确校准](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)：真实Fp generic SS点付两比较单位U/U²、完整Miller相位、原两槽及所有q_t可见F0条目；r/s的原Bernoulli尺度与中央减法全保。独立C_SS与C_cyc取max；中央z12、最高组合非零和whole盘仍开。
 
 - **R1154（已证明）**：[原Gaussian首标签与联合Gauss moment](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原H_p的r5 forcing/尺度、反序Hasse共同Gauss前缀与零带、minor两共同边界抵消全付。真实余对须同源两moment同时零，保actual good mask；联合不可能性继续。
