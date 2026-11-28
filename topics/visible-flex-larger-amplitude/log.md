@@ -393,3 +393,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:13:03 UTC — 28原runner完整末状态转入R729的全部来源参数与真实续接
 
 完整10件595754B及同一shared pure-only helper7796B共603550B全部同刊；总表21838B/db6d949d71e3f53ac7bf80350e97d93df91cf6bcb1be7a4aab69c0fdfa811ff0/blob92cd8f9b856f6398f681637cd409d4d93751490d，137原来源逐字真读、13final/13typed及whole model相等，不删字段；完整旧same-source 772字守卫不变。新driver全function体同33 R729，旧driver/report/command/pure完整身份绑定，实际两final damping读取独立归因，不猜未公开mu。官方28 job140865899880仍in_progress；原ID visible-larger-resume-20261128-28把全science队列74381B/SHA2563d161b59f79d1c650d462fea4021c5b615f4d0f321563a9ccd38820657c7518d/blobc22ab7f3362261d76b19a1b6f8eecf06ac74ce15排入，finishfalse，不重复两input。完整142/7 argv、587/568 formal、原64live、全4/64/15/32stage/全域不减；新namespace fixed-fejer-halfwave-demanded-run28-R729-continuation-01。下一whole pure63168B仅科学自然返后排，不以准备完冒真实运行。原28全summary错误和typed证据保；当前F/J/root/geometry/acceptance全部重算。H旧全文固定ff75保全部原责任，§1–6不动。 双README云核至`a6c74a411b991758c0393190234cc8b2b3f7a3a0`无变（非pull）。
+
+## 2026-11-28 09:14:58 UTC — RET91 全部旧source-plan的代码字符串与参数token保留
+
+51份完整旧R495–R617/request217–251 source-plan中50份只删字符串外ASCII空白，1本已紧凑不动；所有完整代码字符串、patch顺序/正文、来源pins、数值字面及旧参数原字保。完整30610B/c8870a0cd68852d91078005b128893310fc7eb190e5ed0a62d6d5bcbf3562b0c映射、3705B再生器、4494B说明同刊；固定9c32ec31ec8bf8c61da0774a37e4cfdda48de791 whole恢复供旧hash消费者。毛308463B、附件38809B、净269654B，不改科学运行源或活CLI/ready/request/输入，不借格式化冒科学结论。 双README云核至`1265654fb8b5ac1f82d97a72759fb8fa20335a19`无变（非pull）。
