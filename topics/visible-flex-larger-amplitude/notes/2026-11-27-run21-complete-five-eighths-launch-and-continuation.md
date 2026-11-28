@@ -1517,3 +1517,24 @@ maker步骤真实returncode=0，总6.160448841999994秒，实际source bce727d65
   "observed_utc": "2026-11-28T01:12:57Z"
 }
 ```
+
+## 2026-11-28 02:08:32 UTC — 21第二观测试点实际拒绝及下一统计返回
+
+同science00102534c51acf39f0e6f27bc34d37db3bebd6ec/PID3644、driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f、model9387a145b382e2afc2eaca4f68f7370b91697008e0720e1d8202d22bf878fd63。此前仅开始的700e41888de5d77a8f49fcb0405b9e47af383188985b4f7d4e926b7f34e6d6a6现真实完成：Phi3233.3855440681737/Gram.6568825785908023、actual_positive_physical_g2.5419057471738853、最大reach、accepted=false。小于初g2.541916739245917不等于通过原接受规则；alpha/选中预测等未返，不推其方向号或拒绝机制。
+
+下一trial1b3b620acf659c388cc66933702465447fca5bf1b1b9ad3a6b9d331ef3b2190f于01:59:51.715709+00:00真实统计Phi3233.3855466914256/Gram.6568825771697846，02:03:11Z尚无几何/决定。current仍初7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、accepted0/Phi3233.3855489912225/Gram.6568825757487662及原完整六族；complete_report=false、child_exit_code=null。首df8d真实拒绝也保前文。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1.md",
+    "bytes": 57855,
+    "sha256": "f33015a6a4ab448a135fa46d58310d03922e3399a2b62016115d39a03bb99f2d",
+    "git_blob_sha": "06d1457ebc2327e480da608558ccd12dceab962c",
+    "fixed_commit": "dbbcd99a1c6c15f25224f57424985d8ac2ccf01c",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

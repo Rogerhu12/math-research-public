@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`be8d2cd29183e4059820dc8c8196f1726fc3146e`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`944463db45f69034145ade1e8ce02e3d187ae665`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 
@@ -23,7 +23,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 18=46062343475 | 官方cancelled@02:05:35Z；原8已返及未返science保18note。末2b1c/accepted3/g2.0441496553824883，下一8fb0统计返、几何未知。 |
 | 19=46076669320 | 两input0；currentb6a06/accepted2/g.9674426000792542，六族返仍不可行；下一b0f8开始，统计/几何未知。 |
 | 20=46079535427 | 两input0；current0f4d/accepted1/g.9680716975090076，六族返；下一b6cb统计返，几何/决定未知。 |
-| 21=46084442413 | 两input0；初7e06真g2.541916739245917/accepted0；首df8d真g2.541904432457273已拒，下一700e开始。 |
+| 21=46084442413 | 两input0；current初7e06/g2.541916739245917/accepted0；700e真g2.5419057471738853拒，下一1b3b统计返。 |
 | 22=46090913581 | 两input0；初7e06/g.5305849371949052/accepted0，六族返；trial97fbb统计返Phi681.6511710299278/Gram.4061652579029476，几何/决定未知；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 | 23=46094430214 | 两input0；scienceb31c/f2a9/PID3652运行；新model/point/策略结果未返；完整19件及实际输入保23note。 |
 
