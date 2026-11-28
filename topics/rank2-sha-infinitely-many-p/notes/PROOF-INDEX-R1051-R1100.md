@@ -694,3 +694,7 @@ source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713的
 ### R1071 §12：短厚纤维完整两图的生产接续
 
 R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四完整图，全部后理想原X与既有下游均保；实际Sage线程与凭据边界由host验证。既有heavy group取消关闭，等待v17；尚无实际生产返回。 [完整生产来源](../notes/2026-11-28-original-short-global-graph-production-v18.md)。
+
+### R1071 §15：原A4商和反图三倍极的完整回接
+
+三条原映射逐特征零等变下降到X0(289)，两个物理端点在Z=X0(1156)均为度564。Y→Z忘3度4非Galois；u=(t⁴+18t²−27)/(8t³)及各完整纤维给反图负2253/正2256/U3、配对20次帽。原商整基尚未执行。 [同编号全文](../results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
