@@ -102,3 +102,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32恢复初猜](notes/2026-11-28-analytic-fixed-support-m32-recovery-initializer.md)真保97状态/32参数/原1032已接受节点，1272中点推得1273节点仅未接受初猜；原BC6.08024e−6未门。独立v2实际prepared后停资源gate，旧已绑定入口原字节恢复，未作新BVP接受。
 
 - 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[λ.128/M40完整割线进程](notes/2026-11-28-design-lambda128-process-interruption.json)在第一完整QR方向返回后child−9，无raw/physical/audit；终止原因未知，不能判数学失败。旧控制器已自动分到.096，活算保持，其下一次启动前有显式目录屏障。独立后继不会用信号/MemoryError作λ二分。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[真M40解析δ适配](notes/2026-11-28-design-analytical-delta-adapter-m40.json)16真实节点全121×161列：RHS/dy/其余参数列逐位同，δ列相对FD差7.866e−10；[V5完整加载](notes/2026-11-28-design-v5-loader-probe-m40.json)952节点初始域真过、22.56s/510832KiB，无BVP/J/factor。新入口保完整nodal快照和资源退出，未来显式选择独立无环QR v2；不称新Newton已通过。
