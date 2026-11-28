@@ -1,0 +1,109 @@
+{
+  "radii": [
+    0.075,
+    0.22
+  ],
+  "ramp": 0.032,
+  "height": 0.0036,
+  "sine": 0.36,
+  "T": 0.03,
+  "peak_weight": 0.65,
+  "cone_weight": 0.025,
+  "guard_fraction": 0.88,
+  "smooth_width": 0.0007,
+  "mu_min": 3e-08,
+  "mu_max": 0.00016,
+  "fine_order": 13,
+  "fine_angles": 163,
+  "final_order": 19,
+  "final_angles": 277,
+  "numerical_goal": 1e-08,
+  "reserve_seconds": 105,
+  "input_state": "topics/visible-flex-new-mechanism/computations/r685-natural-finite-correction-for-r691-20261128.json",
+  "stages": [
+    {
+      "K": 16,
+      "inner_subdivisions": [],
+      "order": 8,
+      "angles": 43,
+      "iterations": 24
+    },
+    {
+      "K": 16,
+      "inner_subdivisions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "angles": 47,
+      "iterations": 32
+    },
+    {
+      "K": 18,
+      "inner_subdivisions": [
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "angles": 53,
+      "iterations": 32
+    },
+    {
+      "K": 18,
+      "inner_subdivisions": [
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "order": 9,
+      "angles": 59,
+      "iterations": 20
+    },
+    {
+      "K": 18,
+      "inner_subdivisions": [
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "order": 9,
+      "angles": 59,
+      "iterations": 20,
+      "new_q": -0.006
+    }
+  ]
+}
