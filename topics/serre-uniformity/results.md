@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原两abelian矩的无Bernoulli门有限重建（已证明）**：[R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02小偶权半稳定分类排惯性端点1⊕ω^(d+1)，原Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)于同μ6外辅助族生成单位理想。实际Norm点与已知Δ给非齐次W A=D，右端只含coefficient crystal、quotient modp²位置及实际同源；有限证书恢复全部SS参考X/Y。原Tate-five值24Bp−5/5另由abelian比较付p>37，中央实际corr及全局非零仍开；未运行数值重建。
+
 - **原三二同源商全部primed高矩的低heat表达（已证明）**：[Gaussian高窗 §12](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原完整核trace锁定商Appell反射与βε=2β；共同τ安全到全部顶槽，保系数p次及R1168所需σ。实际A′_{ε,d,i}=−d!/((d−i)!β)(2⁻ⁱFhat_{ε,d,i}−2⁻ᵈF_{d,i})，Fhat为原G_(p−5)/G_(p−9)低heat列的明确CM gauge。same-ε Bkl连同odd–odd完整保留，原共同纤维排除仍开。
 
 - **原三槽共同辅助族与最低仿射平移（已证明）**：[R1171 §13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)最低BCH平移保−λ∞ΔX T/2，actual corrected correlation给第三仿射式。共同族ℓ⁶≠1 mod p同时支付全部原来源、k4单位及三Hecke单位理想；允许vℓ,4为零且不误作反除，μ6外迹由Cayley–Hamilton补全。仍须独立读取一般SS右端与最低cyclotomic源。
