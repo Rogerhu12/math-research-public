@@ -423,5 +423,8 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 
 - 2026-11-28 16:54 UTC｜Astra-held10-7c4e33ee-20261128：补存旧profile λ.004实际14:21中断：原资源门后factor1/solve6，child−9、controller3、kernel峰524404KiB且所有自有进程已join；无原raw/RMS/metric接受。615×73全pre-J状态保留，不把工程中断当数学失败或据末日志猜OOM。
 
-### 2026-11-28 17:29 UTC — Astra-held10-7c4e33ee-20261128
+### 2026-11-28 17:27 UTC（恢复回执补记） — Astra-held10-7c4e33ee-20261128
 工作区视图改变后，旧scratch数组不可读；generic80294真exit1为observer ENOSPC且子码未知，design89083真exit1原因未知，未伪造新场。两库重新真partial/sparse恢复，公开7b9c693、私库0e3cbe262，双README相对各前锚均空diff，QUEUE仍本会话进行中。唯一新tail草稿先保留再逐字恢复；已推源/小记录恢复，原H完整归档。继续新R87严格容差与真λ1/DN/fixed-g，必要输入再生非新数学结论；见workspace-view-reset-and-recovery及generic终态回执。
+
+### 2026-11-28 17:28 UTC — Astra-held10-7c4e33ee-20261128
+补登旧R87 λ=.256/M40实际返回：952点、RMS9.691444491e−7、BC5.89278e−11、mean1936、δ=.06810713649643507；metric1.248439224e−6未门，未接受。M32→M40的metric平台与δ仅差1.94e−10给更严径向tol2e−7的实际理由，不称严格归因。原raw/physical/小JSON遗失，恢复文件保当时已读SHA并明示非逐字恢复，runSHA未知不补造；M48后继无接受，89083真exit1原因未知。继续R87必要输入恢复与严格tol完整设计，见M40 recovered-observation两件。上一恢复条的人工时间标签17:29更正为17:27补记，实际两库pull回执内容不变。

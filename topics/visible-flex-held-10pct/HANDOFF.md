@@ -4,8 +4,8 @@
 
 ## 规则、认领与完成线
 
-- 最近实际pull后双README已读锚 `be723d13880edec71d693330c0a8c67090cbfb3b`（2026-11-28 17:27 UTC）。
-- 私库原QUEUE认领 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 `0e3cbe262f95c04561fec3c56e64347eb6801d25`（2026-11-28 17:29 UTC），相对前已读501598ec双README空diff，QUEUE仍本会话/2026-11-28进行中。
+- 最近实际pull后双README已读锚 `e97e14f214903f676e8a29d1a4fac27596ff066d`（2026-11-28 17:28 UTC）。
+- 私库原QUEUE认领 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 `0e3cbe262f95c04561fec3c56e64347eb6801d25`（2026-11-28恢复后已实返，17:27 UTC核记），相对前已读501598ec双README空diff，QUEUE仍本会话/2026-11-28进行中。
 - 每结论先pull核双README差异再push；至少每小时实际pull。NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 前沿与完整历史见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[R90后快照](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)、[工作区变化前H](notes/2026-11-28-handoff-before-workspace-view-reset.md)。不重做已登记结论；必要输入再生不计新数学结果。
 - 完成须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H内点且diamH≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D；全metric≤1e−6且固定问题的谱/径向/时间精化降至机器或求解容差；多个t小网格可复现，并说明严格存在差距。λ<1非准确圆弧H，换δ/profile/帽非同g精化。完成后继续提高比例。
@@ -16,7 +16,7 @@
 [独立r≤1.15盒](notes/2026-11-28-design-single-gentle-r115-extension.md)首片support>.0978059；[实际线性根](notes/2026-11-28-design-single-gentle-linear-root-actual.md)δ=.06809451565377872、r=1.1349085942296453、core_z/core_R=−5.2781e−13。其原完整calibration/root-profile已由公开记录逐字恢复、SHA核同，无重跑线性校准。
 
 重置前最高全原门接受仍[λ=.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。相应raw当前丢失；后继恢复只作为必要输入。
-[λ=.256/M24](notes/2026-11-28-design-single-gentle-lambda256-m24-metric.md)及[M32](notes/2026-11-28-design-single-gentle-lambda256-m32-metric.md)分别metric8.84140e−5、1.28584e−6未门。M40已实返952点/RMS9.69144e−7但metric1.24844e−6仍未接受，恢复小记录待登记。M48只有999点前的迭代观察；原TTY89083实际exit1、输出遗失，原因未知，无完整raw/接受结论。
+[λ=.256/M24](notes/2026-11-28-design-single-gentle-lambda256-m24-metric.md)及[M32](notes/2026-11-28-design-single-gentle-lambda256-m32-metric.md)分别metric8.84140e−5、1.28584e−6未门。[M40真实返回恢复记录](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)已登记：952点/RMS9.691444491e−7、BC5.89278e−11、mean1936、δ=.06810713649643507，但metric1.248439224e−6仍未接受；M32→M40平台仅支持试更严径向tol，非严格误差归因。M48只有999点前的迭代观察；原TTY89083实际exit1、输出遗失，原因未知，无完整raw/接受结论。
 当前design仅恢复新R87必需70源/port/chart，随后严格tol2e−7全BVP；不再生旧q=.06链，也不重复已知低模失败。新控制器用正式stop-after-stages/nonce stop-request、TTY与真实子进程生命周期，不制造未来日志错误。
 
 真λ1后必须完整DN/native4/chord3/全部H/J/audit/8outer，并绑定最终saved physical-H。QR高模8源与独立QR首锚fixed-g9源已准备，尚无正向λ1输入，登记后见相应note。新图保全部模式及真实mean，不锁旧1168。[显式相位入口](notes/2026-11-28-explicit-full-phase-mesh-entry.md)已发布，R87用4/5与27/50；旧9/20和旧k.2握持guard不适用。

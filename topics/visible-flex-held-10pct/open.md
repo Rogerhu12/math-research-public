@@ -12,6 +12,8 @@
 
 新合法设计输入：[三重b=.5宽过渡](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，S=.5/k=.2与原R54握持窗不变；条件完整support盒A≤2/3给全λ核心κ<11.4，真实小q锚A<.1。只有小标量BigInt已运行，新核心/BVP未启动。由真21d676/3bc1c05 raw作新宽窗λ.002初猜，同b下取.004第二锚后续原全λ/谱门；新g若最终全标准通过可选为终态，不强制回旧q/b。[高k旧profile实筛](notes/2026-11-28-design-higher-k-old-profile-screen.md)已排除k=.4/.5所选经典支，k=.45用R57；只属R5/C³类。后续改物理profile，不再跑这几条已排旧支。 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)已给六段单缓坡新profile，k=.5/S=.675/b=.3/α=.8，原r≤1.1盒的连续核心/首圆片/全首周期尺寸与条件held/reach预算已付。[新r≤1.15盒](notes/2026-11-28-design-single-gentle-r115-extension.md)与[原Python线性根](notes/2026-11-28-design-single-gentle-linear-root-actual.md)已实付，δ=.06809451565377872；现在接同新profile的原λ0全BVP及λ1，线性校准与条件几何本身不作完成。[R91](results/R91-period-mean-compensation-and-wider-core-box.md)又以准确总曲率把核心充分盒扩为A≤8/9、全λ κ<3723/314；实际新场仍须自行付其余门。
 
+[新R87 λ=.256/M40实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)仅metric1.24844e−6未门，M48未知。M32→40平台支持从同一新profile收紧径向tol2e−7，保原全部门；最高原真接受仍λ=.128/M24。
+
 ## 2. 完整非线性尾及共同接缝
 
 [原低模真实末态](notes/2026-11-28-tail-low-modes-actual-terminal.md)已达λ.002来源的M8 full-H；sample metric2.9133693236e−8、residual1.8949786217e−9，不含来源剩余16模。M8full→M16首请求收到失败包，具体字符串未知。新路线在较低幅度逐步升模或更细模式阶梯；最终必须原M24或最终λ1源的全部H，保原audit/完整J/native4/chord3及8outer。失败包checkpoint不作接受场。
