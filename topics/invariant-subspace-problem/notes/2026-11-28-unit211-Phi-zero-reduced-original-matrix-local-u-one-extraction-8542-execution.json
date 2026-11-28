@@ -1,0 +1,138 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "date_taipei": "2026-11-28",
+  "repository": "Rogerhu12/math-research-public",
+  "job_id": 140848941986,
+  "elapsed_seconds": 71.641008419,
+  "max_child_rss_kib": 1031800,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "96fdb194b9ebed8be4cce2c907529415813cb583",
+      "before": "96fdb194b9ebed8be4cce2c907529415813cb583",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T03:26:27.027331+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46102836565",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "96fdb194b9ebed8be4cce2c907529415813cb583",
+  "source_exit_code": -6,
+  "source_git_blob": "5bd0b9e98b2508e8581379400e2ac1a732153c2a",
+  "source_sha256": "fd0d1bbbfa7727b0e720666282ca38f794c3422c4ecd3c60ab42d1e7f489439a",
+  "stdout_bytes": 28723,
+  "stdout_sha256": "9c2a56c8f19c051d0e1d0eb32483c0db3ff201584554ada03bdaf43bfef7df18",
+  "stop_reason": null,
+  "observed_stderr": "GNU MP: Cannot reallocate memory (old_size=384 new_size=8664)",
+  "resource_limit": {
+    "absolute_seconds": 120,
+    "address_space_bytes": 1073741824
+  },
+  "mathematics": {
+    "same_F_det_C22": true,
+    "completed_exact_QQ_u_minus_one_order_lower_bound": 30,
+    "published_integral_mod_upper_bound": 39,
+    "exact_order_not_proved": true,
+    "target39_not_claimed": true,
+    "completed_rounds": [
+      {
+        "round": 1,
+        "precisionBefore": 40,
+        "precisionAfter": 39,
+        "extractedOrderBefore": 0,
+        "extractedOrderAfter": 13,
+        "constantRank": 9,
+        "zeroRows": 13,
+        "completeEH0Returns": 968,
+        "fullZeroRowJetDivisionReturns": 286,
+        "nextConstantMatrix": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 51,
+          "sha256": "5e5e72761b0ae61aaea7f0f12106ecedd414905107b593c4b2ec8a09398681ad"
+        },
+        "retainedDeterminantPrecisionAtLeast": 52,
+        "seconds": 17.982470422
+      },
+      {
+        "round": 2,
+        "precisionBefore": 39,
+        "precisionAfter": 38,
+        "extractedOrderBefore": 13,
+        "extractedOrderAfter": 21,
+        "constantRank": 14,
+        "zeroRows": 8,
+        "completeEH0Returns": 968,
+        "fullZeroRowJetDivisionReturns": 176,
+        "nextConstantMatrix": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 83,
+          "sha256": "4fbadc92f10b8c6ce3e34c2647f4c6a54a113c93ced5764780c21704b2e53e12"
+        },
+        "retainedDeterminantPrecisionAtLeast": 59,
+        "seconds": 20.410007196000002
+      },
+      {
+        "round": 3,
+        "precisionBefore": 38,
+        "precisionAfter": 37,
+        "extractedOrderBefore": 21,
+        "extractedOrderAfter": 27,
+        "constantRank": 16,
+        "zeroRows": 6,
+        "completeEH0Returns": 968,
+        "fullZeroRowJetDivisionReturns": 132,
+        "nextConstantMatrix": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 110,
+          "sha256": "3e5635f50d7e79662062e11b2ca5ce41cb7d0ffccf786bdc0793de2c09ef25fc"
+        },
+        "retainedDeterminantPrecisionAtLeast": 64,
+        "seconds": 28.563068559999998
+      },
+      {
+        "round": 4,
+        "precisionBefore": 37,
+        "precisionAfter": 36,
+        "extractedOrderBefore": 27,
+        "extractedOrderAfter": 30,
+        "constantRank": 19,
+        "zeroRows": 3,
+        "completeEH0Returns": 968,
+        "fullZeroRowJetDivisionReturns": 66,
+        "nextConstantMatrix": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 152,
+          "sha256": "5d89432ea7a9290b05051f09b9951ef9e9ba49b20932596eea535abea7fea109"
+        },
+        "retainedDeterminantPrecisionAtLeast": 66,
+        "seconds": 58.161172177999994
+      }
+    ],
+    "original_monic_truncation_returns": 484,
+    "original_inverse_shift_returns": 484,
+    "completed_constant_EH0_returns": 3872,
+    "completed_zero_row_jet_returns": 660,
+    "combined_with_previously_proved_u4": true,
+    "complete_remaining_polynomial_degree": 695,
+    "same_QQ_Q2_and_mod1009_degree": 695,
+    "modular_leading_coefficient": 702,
+    "remaining_nine_mod_multiplicities_not_removed": true,
+    "all_other_bad_blocks_retained": true,
+    "no_whole_Phi_exclusion": true
+  },
+  "freeze": {
+    "rerun_same_gate": false,
+    "raise_memory": false,
+    "restart_with_shorter_jet": false,
+    "continue_only_different_mathematical_input": true
+  }
+}

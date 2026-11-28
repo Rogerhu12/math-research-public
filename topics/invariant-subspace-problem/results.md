@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 / Phi 真(u−1)^30因子与完整695模型：** [证明及冻结边界](results/R150-appendix-unit211-Phi-zero-u-minus-one-thirtieth-factor-695-model-and-frozen-memory-boundary.md)。四轮QQ核完整付30阶下界，合先前u⁴给695次整模型；精确39未证，余九模重数保。唯一71.641秒/−6内存失败冻结，不加内存或缩jet重跑。
+
 - **R150 / Phi 原 u⁴ 精确因子与完整725次整模型：** [证明](results/R150-appendix-unit211-Phi-zero-exact-u-four-factor-and-complete-integral-weight-model-725.md)。同原C22两轮真QQ核各nullity2，完整jet与首一Gauss付ord_uF=4；只用既有完整模上界付精确性，所有Q主元零点与余坏块保留。原必要方程保度725，未排整Phi。
 
 - [原Haar全整数幂的函数正序交换子必零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)：对任意有界T，用真实标量WOT返回和正望远镜端点证明[C^r,T]有一个锥符号即0；全部有限放大和aC^r+bI同。双侧正半交换锥精确等于正交换锥，不自动传给无格结构的普通子商。
