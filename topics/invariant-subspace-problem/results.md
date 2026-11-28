@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R267：固定共同分子、实际分母与奇倍率切口收缩](results/R267-appendix-fixed-numerator-actual-denominators-and-odd-cut-contractions.md)：YN QN=Pt、DN QN²=C⁻¹P2t；奇倍率有收缩比值及强*误差。若实际QN有强子列极限即构原闭稳定根，原even费用与强紧性仍开。
+
 - [R150：全 W 同一个 f 的纯 lambda,T 原 I6／I11 与 b0 23088 点](results/R150-appendix-unit211-W-pure-weight-f-head-exact-lambda-T-original-ideal.md)：已付整头给双向原理想，整个Vlow由N5精确替换且无D逆；整b0规范不同点5772×2×2，旧46176保。首次新同f十一式与F99原纤维分开执行。
 
 - [R150：W 原 I4 六行、整个 f 头支付及唯一恢复](results/R150-appendix-unit211-W-original-I4-six-rows-entire-paid-f-head-and-unique-recovery.md)：2.732694879秒/0，原hf+a全返回；两个剩余因子精确为2e+1与旧整G36，支付后整W唯一f=−g及四纯值坐标原条件成立。三pair/三norm全返，均不冒称充分或空。

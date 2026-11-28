@@ -1,23 +1,15 @@
 {
-  "message": "ISP: global same-f exact I11 and b0 23088-point bound; first new W and whole F99 inputs",
-  "parentCommit": "f69e30d1593f93655b801bb52dfe983ad1ae33c5",
+  "message": "ISP: fixed common Haar numerator, actual Q denominators and odd-cut contractions",
+  "parentCommit": "a86ae89b4bca2186754138bfb700d409199cef5a",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-pure-weight-f-head-exact-lambda-T-original-ideal.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-same-f-entire-pure-lambda-T-I11-original-return-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-same-f-entire-pure-lambda-T-I11-original-return-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-same-f-pure-i11.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-same-f-entire-pure-lambda-T-I11-original-return-8542-root-review.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-pure-I11-paper-and-23088-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-Delta-zero-F99-original-fibers-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-Delta-zero-F99-original-fibers-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-Delta-zero-F99-original-fibers-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-hk-f99-original-fibers.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-global-I11-and-first-F99-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-global-I11-and-first-F99-8542.md",
+    "topics/invariant-subspace-problem/results/R267-appendix-fixed-numerator-actual-denominators-and-odd-cut-contractions.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-fixed-numerator-denominators-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-fixed-numerator-QN-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-fixed-numerator-QN-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,8 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-same-f-pure-i11.yml",
-    "invariant-subspace-8542-hk-f99-original-fibers.yml"
-  ]
+  "dispatchWorkflows": []
 }
