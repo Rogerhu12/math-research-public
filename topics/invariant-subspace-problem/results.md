@@ -2,9 +2,13 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-three-heads-and-Walsh-angle-source-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi794-flat-quotient-W-QQ-family-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [R150：Phi 原22列最高矩阵秩14及794真实上界](results/R150-appendix-unit211-Phi-zero-original-highest-rank-fourteen-and-degree-upper-bound-794.md)：真实QQ(Q)秩与完整EH返回给八阶消失，仍有五阶保度缺口。
+
+- [R12：同一flat分母的最大闭稳定平方根与全部原旗图核心](results/R12-appendix-same-flat-denominator-maximal-stable-root-and-all-flag-cores.md)：真实交换二次式付域稳定，指定R267强单位付图核心/唯一性/商图；实际平方分子仍开。
 
 - [R150：W两完整残余商的精确长2+2、模双数结构及QQ(k)长≤4](results/R150-appendix-unit211-W-P164-two-complete-residual-quotients-and-generic-length-four.md)：765d真18.421982811秒/0，两24×264全原商rank22，模λ偏差恰二阶幂零、D等真0；只长度经Nakayama升QQ，不将模D0升QQ，完整规范泛型≤8。
 
@@ -65,21 +69,3 @@
 - [R150：全 W 真正 λ 本原八次与六范数准确边界](results/R150-appendix-unit211-W-original-primitive-lambda-eight-and-first-norm-boundary.md)：原共乘子全部三列消去、权内容全已付，P8 本身属于原 I8；首一余式与六列完成，范数及 cofactor 未返回，不据此宣权排除。
 
 - [R150：Phi 的整 H1 原图完整排除](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：真 QQ 五次点与 Dixon 极点识别最后完成块，整回缩证明整个必要商 D=0；合此前全块排除，包含旧 b 零分支。当前 Phi 余图可全付第一二次头，整个 Phi 和普通 ISP 仍开放。
-
-- [R271：最大单独位减 pair 来源的完整 S2 严格余量](results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md)：真正同源的完整上下费用及交叉项，五闭域含所有碰撞；后续 n1 仅参数、没有正性证书，整个 S2 与七位 glue 仍开。
-
-- [R150：W 原值四次的 C8 与首一六次商中的五次必要式](results/R150-appendix-unit211-W-original-value-quartics-fixed-cofactor-and-lambda-five.md)：原 N1、qT4、rT3 完整八式迹给非零 C8，首一 χ 除法返真 R5；无 λ/D 或新头逆，全部未付内容零支保留。
-
-- [R150：原 F9 极点与实际头整提升，四个完成块全闭](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)：新 QQ D8 专门化全零、原源分母互素，证 F9|P201；整实际 h Bézout、完整 1/1/3/4 模式及导数单位提升 Q=qh，四块接原 h0 排除。仅第五块尚余，完整点≤10。
-
-- [R150：第五完成块的真实 λ 与原几何关系](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)：全 λ 幂原关系、完整 Tv 九种子闭包 K-rank 2，余商 5 维。独立运行给 167/334 界；随后 F9 原特征零桥已闭前四块，当前余图仅 5/5/5/10。
-
-- [R271：一对加四独立原 S2 严格总迹缺陷](results/R271-appendix-one-pair-four-independent-s2-strict-trace-deficit.md)：真实全源第一谱系数在五个闭域严格正，给对称四维 Tr 费用 <4、完整五维 <14/3。实际 180 秒仅 c1 完成，完整 S2 与七位联合仍未付。
-
-- [R150：真实 Q 关系、同 λ 原商与完整 354 点界](results/R150-appendix-unit211-Phi-zero-H1-original-Q-relations-same-lambda-and-354-points.md)：五块原 Q 幂关系全返回；末 5 块的同 λ 原商为 5 维，其余四块完整保留。给 14/59/177/354 界，不将模头零提升为特征零头零。
-
-- [R271：一对加四独立完整九维加强 S1](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：原三叶 companion 的三 Schur 谱系数在全部五闭域严格正；实际 57.527394568 秒全返回，碰撞由原连续谱覆盖。仍未支付 S2、七位联合或同 W 无限费用。
-
-- [H1同Q原权商≤14、完整规范点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：保全部五块的Q4和三原λ结式元素，真实秩均3d；有限整矩阵给通用维数上界，14/252/504不同点界。五块均未全闭，原同λ继续。
-
-- [全余W三生成元：十五行精确原关系表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)：四个二次矩阵缺陷字面落两comm行，一次15行闭包严格稳定；双向循环模同构精确等于同一六式商，不仅必要环境。同时记录首一λ6实际六系数成功。

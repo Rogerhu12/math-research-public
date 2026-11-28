@@ -1,41 +1,6 @@
 # 研究日志
 
-本次压缩前的全部日志及更早归档链见[完整日志快照](notes/2026-11-28-log-before-Phi-three-heads-and-Walsh-angle-source-8542.md)。以下保最近条目；归档不改变任何结论或开放范围。
-
-2026-11-28 08:28 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 新结论：原尾/所有实际非零旗子商的移位解析q根在任一完整射线上，每个固定非零源及固定左右P都无有限多项式费用界；自含零阶整函数/完整2π PL证明付齐，严格limsup，转真正随动非局部来源。
-- 新Phi两个独立首次输入：321647从原D2=0缩至整ell半/t1权曲线，四原最高式QQ(u)[s]全Bézout及最后分母清回，60秒/1GiB；47aaa从既有两个原支持作QQ gcd，120秒/1GiB。只保源码/定义/小回执，历史P6载荷仅runner临时取。
-- W ecf383真实14.074930164秒/0全15×2及两λ本原C6返回，正式结果稿续推，整H198零与未付头/个别值保留。两新Phi工作流 .github/workflows/invariant-subspace-8542-phi-d2-infinity.yml 和 invariant-subspace-8542-phi-highest-intersection.yml 为必要课题外改动；公私pull/规则差异继续记录。
-
-2026-11-28 08:33 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 两条新结论即推：W ecf383完整15×2/两λ本原C6规范证明与小回执；Phi321647真0.120667964秒/39880KiB/0，原D2=0整支缩ell半/t1，四原最高式C16清回/剩C6=F4·F1²，候选权对≤5，未判五纤维空。
-- 整H198/P164新原整模型 b9d649 首次180秒/4GiB，固定p1009/k3，先全QQ矩阵及H系数p整/H本原，再6阶模det和真实余式；双计时钳原截止。旧6aadb未执行；只更正资源接口，数学目标未变。
-- 必要新工作流 .github/workflows/invariant-subspace-8542-w-h198-native-integral.yml；公私实际pull/README差异与进行中QUEUE持续记录。普通ISP未完成，继续原个别值、余权支和原Haar桥。
-
-2026-11-28 08:42 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 新结论：47aaa唯一实际1.218746428秒/49176KiB/0，C*与原P6头H19完整QQ互素，两有限环境共同失效权集≤1634；其余每权必要环境≤21。范围精确证明与小回执即推。
-- 两个真正新Phi输入首次：297a59三对固定二次cofactor及QQ[u]原Bézout/已付整头，60秒/1GiB；e79738斜率补图完整I4等于首一二次加3线性余式、六行两列及3小原目标，120秒/1GiB。对应两个 .github/workflows/invariant-subspace-8542-phi-d2-weight-unit.yml、invariant-subspace-8542-phi-slope-six-two.yml 为必要题外改动。
-- 1055原发布46088511758仅公共pull超时180秒，未派数学；同prepared commit重走终端46089033333已成功push73d062e…，两README无变、QUEUE已真核。H198唯一数学46089073211真11.840896530秒/0付不整除与4100/24600/49200长度，正式稿续推，未判空。
-
-2026-11-28 08:53 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 新完整排除：297a59唯一0.115540560秒/40008KiB/0，三原二次cofactor的QQ[u] Bézout返回(u−1)^10(u−2)^8；全D2=0最高方向闭，原五候选页已标后续关闭。与物理D0严格分开。
-- W整H198原有限性完整推入：b9d649唯一11.840896530秒/90232KiB/0，41148原系数p整、H本原、固定余式度13头540付QQ不整除；权长4100、全7坐标49200，未判空。
-- 新cea506完整原I11二十行两列首派180秒/4GiB，先3mean多项式DAG再单次斜率换基，保R6/NP/整个NV及两个新cofactor。新.github/workflows/invariant-subspace-8542-w-full-values-twenty-two.yml为本题首派必要题外改动。Phi e797唯一97.787519007秒/0亦已核全返回，下一次完整稿接续。
-
-2026-11-28 08:54 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- e797唯一实际97.787519007秒/330620KiB/0：完整原I4与首一平方加3线性余式严格双向等价，六行两列全封闭；三个原λ8全来源乘回，全部未付头/内容留。H19交补图必要环境每权≤12。正式完整证明和小回执即推。
-- W纯权可逆平移的完整纸证即推：x/y对λ一次，首一平方两系数λ≤2，新R6/Vlow及Nlow/Plow两cofactor分别≤11/10。无新逆/新运行，不能用来重跑任何旧目标。
-- 新8c21完整六原值NS/PS/R6/Nlow/Plow/整个Vlow首次120秒/1GiB，先原三mean固定DAG末一次Δ换基，新增12行接既成6行给精确I10十八×二；只构造新行，不尝试旧三λ8或新大cofactor。对应.github/workflows/invariant-subspace-8542-phi-full-values-eighteen-two.yml为本题必要首派改动。
-
-2026-11-28 09:04 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 完整新结论即推：8c21唯一run46090465136/job140809921057，10.941668497秒/107468KiB/0，3662原DAG节点；I6十行于2.259秒，I10十八行于10.899秒全部返回。原个别B/C N/P及整个N4(V)在D≠0准确恢复，新代数不倒置D或其范数。
-- 全文保精确I10而非自由模块或原admissibility自动；整斜率零/全部未付头内容留。最高λ,T,z缩放的孤立均值不为0且Gram规范退化，不能冒接已闭零孤立均值分支。
-- W cea506亦已核唯一128.939929339秒/711164KiB/0，全I11二十×二及新λ11/10标量全部返回；完整稿接续推。公私真实pull与两README读号继续由实际Actions记录，不以只读API代替。
-
-2026-11-28 09:07 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- cea506完整正式稿即推：原三均值/N1双向理想、I6十行、五完整新值和I11二十行均实际返回；两cofactor只从实际两乘子取消共同因子，全零纤维留。C11=(76,106,11)、C10=(80,110,10)，不误称本原或首一。
-- 新3bbbb唯一首次120秒/1GiB：完整NS/PS原定义必要前缀、无新逆中心化后λ≤3，单个新cofactor、共乘子取消、全部三原列回乘及真实λ内容/头。全部未付头/内容零面留；新.github/workflows/invariant-subspace-8542-phi-centered-nsps.yml为本题必要运行改动。
-- 01:06:51 UTC本地终端复探仍报No usable execution environment is available；继续实际Actions部分克隆/pull --rebase/push，两README差异及QUEUE都按实际回执核，不宣本地恢复。
+本次压缩前的全部日志及更早归档链见[完整日志快照](notes/2026-11-28-log-before-Phi794-flat-quotient-W-QQ-family-8542.md)。以下保最近条目；归档不改变任何结论或开放范围。
 
 2026-11-28 09:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新完整结论即推：NSPS的真实原C6双权53/27、λ6、5716项，λ内容1，真头剥旧单位余H42总42/540项；不把两个多项式乘子误作整斜率零已经覆盖。完整证明/小回执保存。
@@ -86,3 +51,9 @@
 2026-11-28 10:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - ad6新最高QQ(Q)矩阵首次120秒/1GiB：同22原列及已付完整对偶，增广[H|I]每个fraction-free除法和末484项EH返回；只真rank9才付13行u逆消阶并合既成模789得到全QQ保度。所有Q主元仅用于函数域秩，不当物理权单位。
 - 未复算旧Hungarian、模22det或18选择，未作高阶核lift。新增.github/workflows/invariant-subspace-8542-phi-highest22-rank.yml为本题必要首派；02:05本地终端复探仍无可用环境，继续真实Actions部分克隆/pull/rebase/push。
+
+2026-11-28 10:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- ad6唯一run46096502771/job140828946157真5.769411546秒/60016KiB/0：最高QQ(Q)秩14，484 EH与7172除法返回，原P的u度789≤deg≤794。只付八阶消失，未付789保度；实际pull fb8a3545dbcff0dd03bd91b8b83a644a193d4a4c，两README无变。完整稿与小回执已登记。
+- 新同P最大商闭根定理：明确CP/ CY/ PY交换，Y²=CP²直接付闭稳定域；R267的Wn∈原多项式范数闭包和收缩强单位付RanP图核心、J自伴、唯一性及全部原旗上的闭图返回。无实际Y，非存在定理。
+- fdaea唯一首派180秒/4GiB：整个QQ(k)二次权代数的双数四维族，完整I6、同N1/qZ、五个D清分母原值及全部真权逆返回；只有成功满射再合旧≤4可付泛型D0。旧P/chi身份沿用且系数单位重新实际支付，不重跑旧primary/det。
+- 新增.github/workflows/invariant-subspace-8542-W-QQ-dual-family.yml仅本题必要首派。公私库真实pull/rebase及拒推循环继续；未完成普通ISP。

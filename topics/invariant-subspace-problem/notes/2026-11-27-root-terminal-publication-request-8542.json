@@ -1,16 +1,21 @@
 {
-  "message": "ISP R150: start the exact QQ highest-matrix rank for the original Phi degree gap",
-  "parentCommit": "c7a7c891fe67553d108a544bb8d92a49671bca75",
+  "message": "ISP R150/R12: publish exact Phi rank fourteen and stable flat quotients; start true W dual family",
+  "parentCommit": "68c3d71c3438a78838a3450f585a8d7a111dd50e",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-twenty-two-QQ-highest-rank-degree-789-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-twenty-two-QQ-highest-rank-degree-789-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-highest22-rank.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-Phi-highest22-QQ-rank-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-Phi-highest22-QQ-rank-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-original-highest-rank-fourteen-and-degree-upper-bound-794.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-highest-rank14-794-execution-8542.json",
+    "topics/invariant-subspace-problem/results/R12-appendix-same-flat-denominator-maximal-stable-root-and-all-flag-cores.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-true-QQ-dual-family-complete-original-return-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-true-QQ-dual-family-complete-original-return-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-W-QQ-dual-family.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi794-flat-quotient-W-QQ-family-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi794-flat-quotient-W-QQ-family-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi794-flat-quotient-W-QQ-family-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi794-flat-quotient-W-QQ-family-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +25,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-highest22-rank.yml"
+    "invariant-subspace-8542-W-QQ-dual-family.yml"
   ]
 }
