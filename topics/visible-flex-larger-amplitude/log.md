@@ -87,3 +87,7 @@
 ## 2026-11-28 11:34:38 UTC — 35自身实际run、两输入与R732模型已准备
 
 35实际46137993293/1/job140957485768，原两input均0；自己的science 2c8739ed/PID3435/model726006 prepared，自身完整初始统计和几何仍未返。normal进度不冒field/final/accepted，64live缺字段错误全保；仍待science自然返回才pure。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R732-R729-run35-complete-launch.md)。双README云核至`0030fd3c152a4324e77a5429b3f4e52a69f679fa`无变（非pull）。
+
+## 2026-11-28 11:36:25 UTC — R732实际自由场的闭相位与完整十二通量源包
+
+4件90459B现刊：68970B全源码再生器/1b03dc841bd5a352e8a10f8ed34e6358fbdc80abf598b2f7b2e650663bd75534，5992B完整校正场端口证明/da317e0e199adf725329bc21cc460a26e24e3f89a11b1b15447edfb424a06b6f，3418B完整半转与全十二矩分支证明/022110d24ac1dd5f0e07b0a9ce8705c81b9745ca522f7733ab45fdb0e492d5fa，12079B全manifest/913f02a8ccc24b3153f72ce96fdf4cb678456c3109a0ac63149c7b884872cbab。从main R722/R723完整父按8+8+15+5全文双向patch重建4完整运行源，旧全算法/预算不删。新端口只用真正单点SO3边界行、原lift一二阶消失及compact interior法控；不约束正宽末带。全部139源/32stage/当前H/core/两proof和marked allphase、独立unmarked tube/R716 sidecar均保。π-shift每对原角job与32步唯一性盒包含仍逐一付，十二通量积分不截全圆。尚无本次closed/moment/tube/δE实际费用，均依赖35自然science/pure与完整同点N/G。 双README云核至`5dfc3f84fd47a6bba0d12c6756019ba222762a02`无变（非pull）。
