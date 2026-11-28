@@ -53,3 +53,5 @@
 **R732 自然终态。** [完整八姿的原始场、算子与物理失败](notes/2026-11-28-r732-eight-actual-disks-natural-terminal.md)：49全 J/2856列，40接受，八姿全完成而七非零全失败，末η4.428300e6/curl147.935965；完整原账与必要归档绑定，退出成功不授数学资格。
 
 **R728 自然保留态。** [27接受与已付全TSQR根](notes/2026-11-28-r728-paid27-complete-tsqr-root-natural-partial.md)：η.0258398334481、目标长度margin负、E未冻；29全J/46814列/3085.945901秒，原733MB checkpoint逐块核后仅续下个SVD。
+
+**R736（已证明的指定族排除）。** [真实 U 平袖母线、全部末倾角和刚平移障碍](results/R736-tilted-isometric-core-and-the-complete-annulus-chord-screen.md)：局部已给件几何保留，但指定 β=A、D_y=0 的完整内盘族没有同g延拓；.320改姿同样排除，区间脚本未执行。
