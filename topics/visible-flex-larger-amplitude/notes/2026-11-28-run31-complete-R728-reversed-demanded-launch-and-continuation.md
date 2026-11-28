@@ -60,3 +60,144 @@ request46194B / SHAce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761
 准确后继R728 N/G14件和closed/R723/P/U/mesh24件已完整保护，必须使用本次真实完整场和自己的根/报告，N变G新目录，全部原fee/domain/late-failure合同不减。新的R730解析构造研究与R729完整全行恢复方法继续，不把它们冒本次已运行。
 
 本次无新fixture/AST/独审/数值前门；没有裁变量、行、角域、选择器或预算，没有跨runner搬raw。root继续普通提交、规则检查和逐真实结论推进。
+
+## 2026-11-28 07:53:17 UTC — 31真实公开运行、两完整输入返回及独立science启动
+
+实际官方run46122200592/attempt1由main8591fc4c0ce0a3e4ec26e9e1d0728f95b5b28d48于2026-11-28T07:39:20Z启动；job140908938124于07:39:22Z启动，research步骤07:40:07Z进入in_progress。控制器实际d244d3a4669a07bd15113f781591fd076426ceaaea1a43d9e960dbd5ec25f712，请求ce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761538，未将准备null当实际。
+
+两完整输入均exit0：maker source42037306d3d927d57833a8c16ec51554ce880d94/6.18306045300001s，原whole report65320B/f8241809eef5b29e7f701586039f8f65007c270f6d6db0589d4dc537a47cdad3；reference sourceea6d5758e0de01c6851c6b1a6de71f80253232a3/519.8788747059999s，whole report84965B/6520ab5fac1a70126b3d03e1d9a6ffd2a63d30640cafa302ad7fd1105eba512c。原2218叶/全tail保，accuracy_reached=false如实保；这些输入构造不是已经得到完整场/精化证书。reference212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb、carrier84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e、全部实际文件/原命令/绑定在完整分卷；该run material binding为527896e7eedc7d6e0bc6a6953840632e22c140fd3f8f64862ae10853b051b784，locations/provenance也按本31实际字段保。
+
+完整science实际source dfbbc306245b99e0e84400c55697aebe584bb22b，launcher ce61668b5f24ba4c49556256c40f305561d6b6512d78617d691d4b84e9a509aa，PID4131。07:49:26Z尚未自然返回，自己的normal/math进度文件尚不存在，完整FileNotFoundError保在原索引；未据缺文件猜运行失败。自身science model/point/Phi/Gram/geometry/accepted尚未知，输入reference_model不得冒science model。全157词/458formal/64live及4/64/15等原预算继续，science自然返后同ID整pure46851B；12份非运行附件仍整blob保护待补刊。
+
+官方首次jobs接口完整读回对象（这个读取时点的状态，后继状态不回填）：
+
+```json
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 140908938124,
+      "run_id": 46122200592,
+      "workflow_name": "Visible larger amplitude R728 reversed demanded 20261128 31",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46122200592",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVt5L2s8AAAAgztPDjA",
+      "head_sha": "8591fc4c0ce0a3e4ec26e9e1d0728f95b5b28d48",
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140908938124",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46122200592/job/140908938124",
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-11-28T07:39:20Z",
+      "started_at": "2026-11-28T07:39:22Z",
+      "completed_at": null,
+      "name": "Construct the same fixed target and solve the complete reversed spherical boundary",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T07:39:23Z",
+          "completed_at": "2026-11-28T07:39:24Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T07:39:24Z",
+          "completed_at": "2026-11-28T07:39:30Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T07:39:30Z",
+          "completed_at": "2026-11-28T07:39:36Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T07:39:36Z",
+          "completed_at": "2026-11-28T07:40:07Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 5,
+          "started_at": "2026-11-28T07:40:07Z",
+          "completed_at": null
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "pending",
+          "conclusion": null,
+          "number": 9,
+          "started_at": null,
+          "completed_at": null
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "pending",
+          "conclusion": null,
+          "number": 10,
+          "started_at": null,
+          "completed_at": null
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140908938124",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012713,
+      "runner_name": "GitHub Actions 1000012713",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1.md",
+    "bytes": 47571,
+    "sha256": "c6c1169cae602ca512de96e3086d8f020c1caf3057a86c7ff534f02f1d08666f",
+    "git_blob_sha": "693770b1558a73100c9899d65ded10b724bae70e",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1-part-001.md",
+    "bytes": 5755,
+    "sha256": "c7b8d186aca5caef547ccadce8f81d1efa960fed2900da33e2ddd740637d1de4",
+    "git_blob_sha": "135dca8749a68f3f2e7723f5c22c52b4a2d7cf09",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1.md",
+    "bytes": 49167,
+    "sha256": "e30b04f7230258e08935554364e0367cfb53ec4b1ae41aaffdba6b3a05a66b38",
+    "git_blob_sha": "e806ca0226bdf601599c6bc04b5733020900c95f",
+    "fixed_commit": "bac04724add48148fe74c389830f36c2fcd99e8e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1-part-001.md",
+    "bytes": 16604,
+    "sha256": "9f9c8b528b659f91135066638b0caadec18e4c3876ac2425a98ba3b26fad99b5",
+    "git_blob_sha": "3769c1d8b665d88630d8889151defedf792002ea",
+    "fixed_commit": "bac04724add48148fe74c389830f36c2fcd99e8e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
