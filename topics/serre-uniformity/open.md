@@ -101,6 +101,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [同文 §15.4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已将原K4接到上述同一个B：同原exact µ6参数τ、x(O)=1支，P12/P32共同负p主部c0=−ρ/(b0δ)。故C0=ρ²/(b0²δ²)，W的U^p系数(ρ²−1)/(b0²δ²)unit；[τ⁻²]B=2ρe/(b0δ²)，e0时[τ⁻⁵]A=−8ρK4/(b0δ³)。原双零准确等价于B及(U/v)DB的这两个线性Laurent读数同零。另一方面C(Rcal Bω)=−αU′ω′/δ、C(Rcal²Bω)=0、C(Rcal³Bω)=b6ω′/(8δ³)，所以第六层是不同的cubic源，不能换名K4；继续用完整quadric/norm比较。
 
+[原quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)现给三个实际单位三角积分A=D³I，I∈UK[U³]且pole≤p−3。a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4，完整原kernel的4ve修正给a3=2ρδK4/b0−4vα，α=−2ρe/(b0δ)。所以原双零恰α=a3=0；其真正有序absolute输出在e0时为C(P³P12ω32)=C(P³P32ω12)=ρK4 h*/(b0⁴δ²)，一般式保±2αV亚纯项。另C(P²W h*)=−a3h*/(3b0³δ³)。第0…5层同零仍允许第6层b6；下一步继续原Leibniz与Rcal³源，不以有界source的高moment强迫代指定jet排除。
+
 全部45槽中的κ–Serre型对角−6r_ab为单位，有限Thomae付全三张量Fp²交替、九mixed合一；e=δS_n/(ρs)、S_n=−9ρ²A_orig准确。σ来自三114循环，Λ来自同E* H_*²及原Padé D_N的有限functional，二者均未unit。e=K4=0仍恰222+123七维第0…4层消失/原q两jet共零；继续实际Leibniz、指定短源/有界primitive，不以perfectness、覆盖同构、全Jordan或旁列单位排除。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维

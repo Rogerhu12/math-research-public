@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：2b13747323ccb6a96df5c13775edcb436fe78792**（2026-11-28 12:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：ca9c1f5e73b70211461300c0a869727aeadc046c**（2026-11-28 12:36 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:04:54 Asia/Taipei，Actions run46105825986/job140858219823，blob:none浅clone后真实pull --rebase至18cf41b7；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:54、pull≤13:04。本地12:04仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-supersingular-parameter-orders.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-quadric-Cartier-continuation.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -38,7 +38,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原固定Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)同Dixon/Fermat源、Hesse/Schur/Jordan全付；normal=12tr(adjQ A²)不等spectral=tr(adjQ)，不能代指定中列。R1145八带仅标量，旧窗口/Prym/normal-FM只消费。
 
-[原genus4 §§6–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原Fermat45槽、κ–Serre单位对角/交替、三平移C的V4与三个同E*映射均已付。§13精确锁P=−Ψ(T−Q)/(b0δ)，全部B_j^p显式；114第0…4层保Λ和亚纯项。无条件A9=−4c^(2k−2)K4/δ²、A3+A9=8vc^(2k−2)e/δ⁴；q′0+2v²q0/(3δ³)=δr′0/(2Γ)。§14六个123的全函数式和全部p次补偿已锁，mixed删除仅按原已付消失；e/K4双零仍恰两谱jet共零，σ/Λ/mixed/123/T未unit。§15原quadric给A/B/W完整二阶源、B=UT(U³)全系数及F=P12P32的CpU^p边界；C(Bω)=αe、前五个Ψ mixed层只回e，第六层b6另为8δ³C(Rcal³Bω)/ω′。§15.4准确e/K4双零⇔[τ⁻²]B=[τ⁻⁵](U/v)DB=0；W的U^p系数(ρ²−1)/(b0²δ²)unit不代两低读数。
+[原genus4 §§6–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)锁定完整canonical P22、六个123映射/p次补偿、三平移V4与全部114高层；所有phase、A3/A9及谱jet一阶gauge沿文。原quadric A/B/W二阶源、B全系数、norm最高U^p单位和b6=8δ³C(Rcal³Bω)/ω′均付，顶unit不代指定低读数。
+
+[quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)实际三次有界积分A=D³I，给a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4。保完整4ve后，a3=2ρδK4/b0−4vα，α=−2ρe/(b0δ)，故原双零恰α=a3=0。已回原absolute有序槽：e0时两C(P³Piωj)=ρK4 h*/(b0⁴δ²)，C(P²W h*)=−a3h*/(3b0³δ³)。第0…5层双零、第6层b6仍保；继续真实Leibniz，σ/Λ/T和共同零未unit。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

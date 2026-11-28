@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原K4的有界三次primitive与有序mixed槽（已证明）**：[quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)实际A=D³I给a3=−δ⁴a−5/4，保完整e修正后a3=2ρδK4/b0−4vα；准确识别原P³P12ω32及对换槽、P²W的Cartier值。全部pth相位和亚纯项保留，第六层b6仍另有来源，未宣共同零排除。
+
 - **原全CM形式来源的共同Frobenius与整jet（已证明）**：[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)同一个ψ同时保全部参数边界，四种corner的三槽在取jet前整；N<p有限式保原常数carry、五项和有序半平方。实际Ep理想/FL比较仍须支付，具体PD normal项说明仅p误差不能被随意删。
 
 - **原二同源所有SS四线参数的精确阶（已证明）**：[R1157 §12](results/R1157-original-integral-SV-Manin-triangle-filling.md)三次辅助闭点防全部leading抵消，真实determinant/线值/α及七行双阶表覆盖所有依赖与独立点对；每坏参数阶为1/(p²−1)，全部R†原有限读取已适用。共同形式/真实Ep比较与全ordered权仍保，不以逐项读取冒F0。
