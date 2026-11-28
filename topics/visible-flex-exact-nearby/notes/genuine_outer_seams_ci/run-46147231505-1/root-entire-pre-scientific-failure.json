@@ -1,0 +1,159 @@
+{
+  "actual_complete_steps": [
+    {
+      "completed_at": "2026-11-28T12:58:03Z",
+      "conclusion": "success",
+      "name": "Set up job",
+      "number": 1,
+      "started_at": "2026-11-28T12:58:01Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T12:58:17Z",
+      "conclusion": "success",
+      "name": "Initialize containers",
+      "number": 2,
+      "started_at": "2026-11-28T12:58:03Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T12:58:22Z",
+      "conclusion": "success",
+      "name": "Install public read-only repository transport",
+      "number": 3,
+      "started_at": "2026-11-28T12:58:17Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T12:58:30Z",
+      "conclusion": "success",
+      "name": "Run actions/checkout@v4",
+      "number": 4,
+      "started_at": "2026-11-28T12:58:22Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T12:58:40Z",
+      "conclusion": "success",
+      "name": "Verify the entire original and new sources",
+      "number": 5,
+      "started_at": "2026-11-28T12:58:30Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T12:58:42Z",
+      "conclusion": "success",
+      "name": "Read the exact first successful GCS and GPR attempt observations and logs",
+      "number": 6,
+      "started_at": "2026-11-28T12:58:40Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:08:47Z",
+      "conclusion": "success",
+      "name": "Restore both necessary original private inputs to their whole SHA",
+      "number": 7,
+      "started_at": "2026-11-28T12:58:42Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:09:24Z",
+      "conclusion": "failure",
+      "name": "Recover the original verified full directional cubic and all fourteen native shards",
+      "number": 8,
+      "started_at": "2026-11-28T13:08:47Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:09:24Z",
+      "conclusion": "skipped",
+      "name": "Receive every exterior original one-sided polynomial interface in the true waist",
+      "number": 9,
+      "started_at": "2026-11-28T13:09:24Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:09:24Z",
+      "conclusion": "success",
+      "name": "Receive the entire small result or last completed physical seam prefix",
+      "number": 10,
+      "started_at": "2026-11-28T13:09:24Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:09:24Z",
+      "conclusion": "success",
+      "name": "Post Run actions/checkout@v4",
+      "number": 19,
+      "started_at": "2026-11-28T13:09:24Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:09:24Z",
+      "conclusion": "success",
+      "name": "Stop containers",
+      "number": 20,
+      "started_at": "2026-11-28T13:09:24Z",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-11-28T13:09:24Z",
+      "conclusion": "success",
+      "name": "Complete job",
+      "number": 21,
+      "started_at": "2026-11-28T13:09:24Z",
+      "status": "completed"
+    }
+  ],
+  "actual_failure": {
+    "file": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_outer_seam_input.py",
+    "line": 73,
+    "message": "'int' object is not callable",
+    "type": "TypeError"
+  },
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:09:26Z",
+        "conclusion": "failure",
+        "head_sha": "5faf18f2a1b110fb51a00d492b849408b5c72fb0",
+        "id": 140985856691,
+        "name": "all-1973-exterior-genuine-jumps",
+        "started_at": "2026-11-28T12:58:01Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "failure",
+      "head_sha": "5faf18f2a1b110fb51a00d492b849408b5c72fb0",
+      "id": 46147231505,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T12:57:59Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:09:27Z"
+    },
+    "jobs_API": {
+      "bytes": 3424,
+      "sha256": "5eda3c39c55cd883347e771261185b795320f77e6967758636cfe2aa9c72fd5a"
+    },
+    "observed_at": "2026-11-28T13:15:49.015917+00:00",
+    "run_API": {
+      "bytes": 13308,
+      "sha256": "1fa54ff3de37a29bcf46c87eba385414596966b0eeeda1dc9955dba3f560f199"
+    }
+  },
+  "completed_new_scientific_targets": 0,
+  "entire_negative_inverse_proved": false,
+  "kind": "actual_GJO_original_file_size_property_failure_v1",
+  "new_scientific_step_skipped": true,
+  "original_input_whole_checks_preserved": true,
+  "repair": {
+    "after_sha256": "033393a8753e0b73ba96b729d901126e84eb83e0d98c96410a469cd812cd6239",
+    "before_sha256": "6dc7252b56cc7360ab923dbf0772d0c641edae94d0103fa1e9e472dbbbb6b42e",
+    "change": "remove only the call parentheses after cubic.stat().st_size"
+  },
+  "whole_logs": {
+    "bytes": 87971,
+    "sha256": "b2db80cc1563a6f07de5df1bdd75ef716b5dbb28e4c7e3e9c69d3164aa47e4e4"
+  }
+}

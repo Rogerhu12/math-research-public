@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GJOR：原外缝入口整文件大小错误的实际修复](results/R149-supplement-actual-exterior-seam-input-size-failure-and-first-repaired-entry.md)：实际GJO46147231505/1 step8 TypeError：st_size属性误作调用，原完整输入/14shards/CPU/whole SHA已过，step9 scientific skipped，0新格。只删两个括号，source新5026B033393a8…；全87971B ZIP b2db80cc…保，46pins新首次入口待。
+
 - [AASQ23：3073格双负侧有符号腰值与全Gram实际完成](results/R149-supplement-actual-two-complete-negative-signed-waists-and-wide-residual-balls.md)：实际46144609049/1全3073/2目标完成，193×2真腰、strict/root两完整2×2 signed Gram/288+1024尾/独立mean保。整actual11955B8532bb42…、execution24626Bc0669b2e…和37957696B原私trial全身份核；raw腰误差约39.71/24.74，不能由小trial中心授小真解。可接ASQ25；ASQ27新−f0路径独立继续。
 
 - [AGLW：656有向Laurent真终端接收全部实际完成](results/R149-supplement-actual-complete-signed-Laurent-terminal-receiver.md)：实际46146513475/1全656/16格/41带、双真列/两sign/完整strip余完成；Ai/全两列公共上界106774.34957034967/204457.18989563518，5.5充分门false。927原自然Ai列17192B/6a3c2d3a…保；整1830B/034c7d25…及6078229/22314269B私件SHA完整。上界非下界，原输入与非局部仍待。

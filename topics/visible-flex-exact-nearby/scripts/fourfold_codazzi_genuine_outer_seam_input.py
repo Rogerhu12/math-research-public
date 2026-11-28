@@ -70,7 +70,7 @@ def inputs(repo,target):
     require(report['complete'] and report['whole_original_cubic_SHA_verified'] and
             report['old_QR_solve_called'] is False and report['old_residual_or_norm_targets_called']==0
             and len(report['complete_direction_input_receipts'])==14 and digest==NATIVE,'whole qualified cubic and all 14 shards')
-    info=dict(cubic=str(cubic.resolve()),bytes=cubic.stat().st_size(),sha256=digest,
+    info=dict(cubic=str(cubic.resolve()),bytes=cubic.stat().st_size,sha256=digest,
               original_nodal_sha256=plan['original_nodal_answer_sha256'],
               receipt_count=len(receipts),original_inputs_sha256=sha256(json.dumps(sorted(receipts),separators=(',',':')).encode()).hexdigest(),
               all14=report['complete_direction_input_receipts'],no_old_science=True)
