@@ -531,3 +531,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1062 §9：实际 CM 比较与完整 physical 比值
 
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G34）–（G39）从原j-zero、同微分的真正prime-to-p CM除法恒等式出发，保准周期和半特征，以α≡1mod2逼近指定β，证明F([β]v)/F(v)^(Normβ)为整单位。β^(p+1)=17而Normβ只需≡17modp；借已付R632/R635原p幂及本坐标的严格log界，全部sigma高尾和原S34/Theta2有理因子给归一physical比值及逆在每个严格R<R_E盘norm1、全系数v≥−floor(n/Δ)。p次幂半径明确复用，不计新结论；不声称闭边界、两个sigma各自收敛或Hall权比值，下一运输原中心/linear/Γ与全权块读者。
+
+
+### R1067 §19：同一整 Rubin 函数的全 p 阶 Euler 行
+
+[R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)（73）–（79）从原A_p整性准确给(∂^p−c^(p−1)∂)(U F²)∈p^(p+1)，c=Δlogq_ac；全部U/参考商Leibniz项保留。两原Hall最高导数准确返δ_p−pδ_(p+1)/2−γ_NΔ^p p!p(p+1)B_N/2，其中B_N是原ρ=p−2、t=−1块。全log尾、其余连接联合整格、唯一首连接负号及Π/β相位已付；不把(55)外推至δ_p，不将整性同余改成精确零。尚未证明该行相对已有完整来源独立，继续实际评价，不计新增forcing或无穷p。

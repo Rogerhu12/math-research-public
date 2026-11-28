@@ -1793,3 +1793,201 @@ $$
 $\mathbf{\mathcal G}^{\,c}_+$ 与
 $\mathbf{\mathcal G}^{\,c}_0$ 的实际共同关系；
 单字非零、单字 second-disc 范数或(71)的形式可逆性均不替代它。
+
+## 19. 同一整 Rubin 函数的 $p$ 阶 Euler 读者及完整首连接
+
+本节沿用(63)的实际 $G_{34,r}$、$G_{2,17r}$、$\mathcal U_r$，
+不另添坏条件。记
+$$
+ \partial=b_M^{-1}\frac d{dt},\qquad
+ c=\Delta\log q_{\rm ac},\qquad v_p(c)=1 .
+$$
+所有模 $p^{p+1}$ 的陈述均指原完成系数域的整格；
+不能只取点值的 fractional 下界后声称测度无损保持它。
+
+### 19.1 原整函数确切给出的 Euler 同余
+
+在任意特征 $p$ 系数环上，$D_T=(1+T)\partial_T$ 满足
+$D_T^p=D_T$。这不要求系数被 Frobenius 固定。
+更明确地，以第二类 Stirling 数记
+$$
+ D_T^p-D_T
+ =\sum_{j=2}^{p-1}S(p,j)(1+T)^j\partial_T^j
+       +(1+T)^p\partial_T^p .
+$$
+中间 $S(p,j)$ 被 $p$ 整除，而 $\partial_T^p/p=(p-1)!\partial_T^{[p]}$
+保持 $\mathcal O_L[[T]]$。所以
+$$
+ \mathscr Q_p(A):=(D_T^p-D_T)A/p\in\mathcal O_L[[T]]
+ \qquad(A\in\mathcal O_L[[T]]) .
+$$
+由 $\partial x_r=c(1+x_r)$，在本篇同一权盘上有准确恒等式
+$$
+ \boxed{
+ \partial^p(\mathcal U_rF^2)
+       -c^{p-1}\partial(\mathcal U_rF^2)
+   =p c^p\,\mathscr Q_p(\mathcal A_p)(x_r(t))
+      \in p^{p+1}\mathcal O_F\langle t\rangle ,
+ \qquad F=G_{34,r}/G_{2,17r}.
+ }
+ \tag{73}
+$$
+右端一般不为零。尤其不能由 $\operatorname{ord}_0\mathcal A_p\ge4$
+把它改成新的精确零等式。
+
+若 $U_i=\partial^i\mathcal U_r(0)$、$F_i=\partial^iF(0)$，(73)的实际
+点读者就是
+$$
+ \sum_{i+j+k=p}\frac{p!}{i!j!k!}\,U_iF_jF_k
+   -c^{p-1}(U_1F_0^2+2U_0F_0F_1)
+       \in p^{p+1}\mathcal O_F .
+ \tag{74}
+$$
+$U_p$ 和所有混合项均保留；(61)的 $v_pU_i\ge i$ 不允许
+在(74)中一律把它们删除。
+
+### 19.2 两条原 Hall 来源的 $p$ 阶连接只剩一个真实块
+
+以下 $N=34$ 取 norm-$r$ 来源，$N=2$ 取 norm-$17r$ 来源。
+$\mu_{H,N}$ 始终是原完整、已归一的单 Hall Katz 对偶，
+保全部字、角色、中心和 $d^{-1/2}$，并有整算子范数至多1。
+degree 2 的连接使用与 N7--N10 完全相同的
+$(z/v)^2E_{\rm c}^2$，无需新归一。
+
+记 $X=c_1$、$u=X^\Delta/p^p$、$\ell=\log u$，并定义真实高阶差分
+$$
+ \delta_{N,k}=\mu_{H,N}((u-1)^k).
+$$
+这里 $k=p,p+1$ 仍是同一原测度的实际读者；
+不把(55)仅证明到 $p-2$ 的估值外推到这两个指标。
+
+由 N7，原连接的首非零系数准确为
+$b_{N,d}=+Nc_\sigma$，$d=p+1$。不是反向 gauge 的负号。
+N8 的全部其余支撑满足 $r\ge2d$，其整格
+$$
+ r-\lfloor r\tau\rfloor-\lceil r\tau\rceil
+       \ge2p-3\ge p+1 .
+$$
+对权求导、整数平移和乘上 $\ell^a$ 都不降低这个界。
+因此对 $0\le k\le p$，令 $P(m)=(m)_{p+1}$，从原 N9 得
+$$
+ \partial^kG_N(0)\equiv
+ \mu_{H,N}\!\left[
+  \ell^k+Nc_\sigma p^dX^{-d}
+       \sum_{j=0}^k\binom kj\Delta^jP^{(j)}(0)\ell^{k-j}
+             \right]\pmod {p^{p+1}}.
+ \tag{75}
+$$
+这是原完整连接的有控制截断，不是预先把它换成首 Gaussian。
+
+对 $k=p$，$P(m)\equiv m^{p+1}-m^2\pmod p$。
+故 $3\le j\le p-1$ 的 $P^{(j)}(0)$ 至少被 $p$ 整除，
+并且 $\binom pj$ 再给一个 $p$。
+原联合点值界为
+$$
+ v_p(Nc_\sigma p^dX^{-d})=p-1-s,\qquad
+ v_p(\ell)\ge1-\tau .
+$$
+所以这些混合项至少为
+$p+2-s-\tau>p+1$。$j=1,2$ 因保留了至少 $p-2$ 个
+$\ell$，有更强的同一下界；$j=0$ 严格为0。
+先对整个等变测试取这个联合界，再进入整数 gauge，
+故积分以后确实模 $p^{p+1}$ 消失。
+
+唯一尚存项准确为
+$$
+ P^{(p)}(0)=-p!\sum_{a=0}^p a
+          =-\frac{p!\,p(p+1)}2 .
+$$
+特别这项的联合估值为 $p+1-s$，不能先删。
+
+### 19.3 对数幂与负块的有限返回
+
+在同一个整测试格中，
+$$
+ \ell^p\equiv(u-1)^p-\frac p2(u-1)^{p+1}
+                    \pmod {p^{p+1}\mathscr C^\times}.
+ \tag{76}
+$$
+证明如下。$\log(1+x)^p$ 的前两系数是 $1,-p/2$。
+在 $p+2\le n\le2p-2$ 时，产生 $x^n$ 的每个对数因子的次数均小于 $p$；
+模 $p$ 的 freshman 恒等式迫其系数被 $p$ 整除，
+故代 $x=u-1$ 后估值至少 $1+n(1-\tau)>p+1$。
+对 $n\ge2p-1$，系数是 $p!s(n,p)/n!$，这里 $s(n,p)$ 为整数。
+全尾估值至少
+$$
+ n(1-\tau)+1-v_p(n!)
+ \ge n(1-\tau-s)+1>p+1 .
+$$
+最后在 $n=2p-1$ 已比 $p+1$ 大 $p-5-3/\Delta>0$，
+以后线性增大。这也支付整尾收敛，而不只有限模计算。
+同理
+$c^{p-1}\ell\equiv c^{p-1}\{(u-1)-(u-1)^2/2\}\pmod {p^{p+1}\mathscr C^\times}$。
+
+沿§18同一 $\Pi^\Delta=p^p$，记未作 $\beta$ 缩放的原块
+$$
+ B_N=\mathcal G_{N,p-2}(-1),\qquad
+ \gamma_N=Nc_\sigma(p/\Pi)^d .
+$$
+因为 $d(p-2)-\Delta=-d$，原 N11 的同一合法极限给
+$$
+ B_N=\Pi^d\,
+       \mu_{H,N}\!\left[X^{-d}\mathcal A_N(-d;X)\right].
+$$
+例如取 $m_h=\Delta e p^h-d$，同时保原全部有限相位，
+准确归一为 $p^{-p e p^h}$；两边按 N5/N10 的全盘界取极限。
+这不是把某个新负槽值自由定义成 $B_N$。
+
+用 N10，去掉该式中的 $\mathcal A_N(-d)-1$ 所产生的误差，
+在乘回 $Nc_\sigma p^d\Delta^p p!p(p+1)/2$ 后至少为 $p^{2p-2}$。
+所以(75)--(76)给
+$$
+ \boxed{
+ \partial^pG_N(0)\equiv
+ \delta_{N,p}-\frac p2\delta_{N,p+1}
+   -\frac{\gamma_N\Delta^p p!p(p+1)}2 B_N
+           \pmod {p^{p+1}} .
+ }
+ \tag{77}
+$$
+若 $\Pi$ 换成 $\xi\Pi$、$\xi^\Delta=1$，
+$\gamma_NB_N$ 由§18的实际对角变基保持不变。
+对参考的已付 $\beta$ 缩放，
+$\mathcal G^{\beta}_{2,p-2}(-1)=17^{-1}B_2$，
+故 $\gamma_2B_2=\gamma_{34}\mathcal G^{\beta}_{2,p-2}(-1)$。
+这正是同一共同 Gaussian 的真实跨块费用。
+
+再用(42)的连接尾与对数二项式，得到
+$$
+ \boxed{
+ (\partial^p-c^{p-1}\partial)G_N(0)
+ \equiv \delta_{N,p}-\frac p2\delta_{N,p+1}
+       -c^{p-1}\left(\delta_{N,1}-\frac12\delta_{N,2}\right)
+       -\frac{\gamma_N\Delta^p p!p(p+1)}2B_N
+            \pmod {p^{p+1}} .
+ }
+ \tag{78}
+$$
+
+### 19.4 与原坏条件的关系
+
+(74)须使用同一个参考商。若 $g_j=\partial^jG_{34,r}(0)$、
+$r_j=\partial^jG_{2,17r}(0)$，则全部 $F_j$ 由准确递推
+$$
+ r_0F_j=g_j-\sum_{a=0}^{j-1}\binom ja F_a r_{j-a}
+ \qquad(1\le j\le p)
+ \tag{79}
+$$
+给出，其中 $r_0$ 是实际已付单位。
+(75)、(77)使最高行明确落回同一 Hall 高差分与第 $p-2$ 块；
+$\mathcal U_r$ 仍是(60)--(63)那份全矩阵构造的原单位，
+其导数不得由任意替代单位计算。
+
+R530和R1051已经有其它原格上的 Fermat/除幂机制；
+它们本身不识别(74)这一个 Hall 商读者。
+本节支付的是该读者的准确返回及全连接费用。
+(73)只使用原 $\mathcal A_p$ 的整性，尚未证明(74)
+与已有原来源关系独立，也未得到
+$J'_p(0)=0\Rightarrow H_r(0)=0$。
+要将这一行用于主结论，必须在同一完整来源中评价(74)，
+并保(77)的跨块项及所有参考、$\mathcal U_r$ 导数。

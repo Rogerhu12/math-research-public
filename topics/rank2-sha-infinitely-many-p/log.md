@@ -23,3 +23,11 @@ root已全读geometry候选及R1061(C7)–(C11)、R1065(W1)–(W3)、R663坐标�
 推前actual run46073965457/job140903540771：公开2026-11-28 07:16:34 UTC至16cbef8790b20cb9d8b11ee2149c3978c60c97d0；私库2026-11-28 07:16:40 UTC至77d0784077492649cfc17d21f72469cd0be0d1fd。四README与07:14同blob、QUEUE目标不变；log14887B/hash3c893ff3d0b8e42115a6b8d7c44ed83ca9e2a0abc99e3c17defc6ae7f0090e46；库存3210/45720003B/treeaf7460eff82ae04a81be313d2c8ba217590a79e5，无>5MB，三旧必要gzip不变。唯一v15不动，仍按实际已消费阶段而非预报登记。
 
 07:18:15首次ref更新返回GitHub UNKNOWN；候选b97201794a3d5e65d28af08d8c51145d085e3348未确认发布，后实读main860ad075ed7ef85cf160ce83c87ee116ed3c7869。立即实际pull --rebase仍无环境，随即实际CI双pull job140903979444：公开2026-11-28 07:18:25 UTC至0dd528515f122db212055353504bd8fab1748f53；私库2026-11-28 07:18:32 UTC至c8af1f87feb0a7eba8034bcd392560a226a91e7d。四README/QUEUE目标不变，日志14886B/hash8db9a5619788e5e533f86fea284ec7d57545cc19222c89d3c1c11564f1e71271，库存3210/45720003B/treeaf7460eff82ae04a81be313d2c8ba217590a79e5；更新H后依新head顺推，不force。
+
+## 2026-11-28 07:26 UTC — 原全 p 阶 Euler 读者与真实连接返回
+
+R1067§19附节6711B/hash0472b0425a785159d476a17b3304e7d788e118333d922d65273c96b9a9d09b78，全文77148B/hash6090abd793ba3da31bbeda4fc58fb9a6d67580d5741e234db62e768ed9963066。root逐式核D_T^p−D_T的Stirling整性、实际c坐标、全部U/参考Leibniz、log^p的两段无限尾、N8联合gauge、r=d唯一存活项P^(p)(0)=−p!p(p+1)/2及原ρ=p−2块/Π相位。A(-d)−1误差先保X^−d联合整数格，再乘原系数，至少2p−2；未用无损fractional读者。arith另核纯系数；数学仅纸笔。
+
+此行由原A整性无条件成立，不另造坏条件，尚未证明它相对完整来源独立。central继续按原有限CM单位幂/不分歧Frobenius、全参考商评价(74)，geometry继续完整kernel和实际共同J(w,Q)及保留的中心。唯一v15不改；direct-W软件仍在隔离源码准备。
+
+推前实际双pull run46073965457/job140905917990：公开2026-11-28 07:26:24 UTC至aea7924dada2d3ee945426afad6c415bcefae761，私库2026-11-28 07:26:28 UTC至ca925dbd2b2c33889e1fb95021ec3dbf98e3c5cc。四README与07:18已读版同blob、QUEUE本题认领不变。日志14886B/hashe8c80a4e28c5d721d406b1a34900380efe221f02ad540a147d5108b89f031e7f；库存3210/45734441B/treeac611f55255dd57d0926d5d23f56d9687225f6c4，无>5MB，三旧必要gzip不变。H更新全部实际头和已读规则blob。
