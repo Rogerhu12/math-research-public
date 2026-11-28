@@ -172,3 +172,10 @@ R1054§10把原全p⁴坐标核精确识别为六阶CM单位t0=(1+δ)/2的Weil�
 R1060§§8–11由完整source h∞角色投影证明whole H=W²HΔ(ZW)，并将原全部矩精确返Ω³·tildeH(ρX,Y)=Σm_n X^[n]Y^[n+2]。e^{±CXY}在bounded双PD格为等距单位，保全部Maass/阶乘/Haar而不推单rank1有界。整个核在rZ+rW>2+2/(p²−1)的真实闭盘有明确相同范数，边界不能仅由矩有界支付；挠点比较另须实际Néron参数倍率/半径。逐固定tame基字的t轨道上，冻结j(-2)准确给H_t(Z,χ_tW)、共同β0及−λlogχ·P2值端费用，全部finite字、χ实际lift和原K_H尾保留。
 
 [完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(26)–(38)。
+
+
+### R1060 §§12–13：完整角槽及真实 [p] completion
+
+R1060§§12–13付原D102/S34 completion的真实微分tensor与全circle次序：两个实际h幂保全部r/s低角槽，再与inverse-Maass合成有限q/r/s表；冻结χW同时运输positive completion。共同[p]的pull completion为p^dC，degree completion为p²C，整gauge仍保，非单位p权不作解析化。原完整Newton定义逐系数给J_pull=p^ℓJ_orig（ℓ=0或−2），故只有已识别的真实[p]*S可运输原坏条件。whole cover另有准确p^-2次数差与ρhat=ρ/p²、βhat=p²β，严格全核盘改为rZ′+rW′>2/(p²−1)，不与finite Haar p^-2混用，也不预付边界/挠点平移或新字canonical零。
+
+[完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(39)–(48)。

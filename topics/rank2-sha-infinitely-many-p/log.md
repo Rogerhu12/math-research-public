@@ -120,3 +120,12 @@ R1060§§8–11由完整source h∞角色投影证明whole H=W²HΔ(ZW)，并将
 root逐项核n0 z²/source角向号、两factorial的PD乘法、Gaussian逆/等距、Legendre数字和含n0及边界n=p^r。真实冻结j/Ω/ρ逐指数相消给χ^(ℓ+2)，导数保−logχ。审读时将全轨道共同常数限定为每一固定tame基字各取0，并显式用R1058(11)中心D=1付C_t=C0；未付的rank1/p²字到Néron参数倍率没有擅设单位，因此挠点盘比较改为明确条件和全部坐标费用。没有数学执行、没有新增canonical零。
 
 推前actual readonly run46075603971/job140829409489：公开2026-11-28 02:09:23 UTC至e2435f397f929a412801580ea6d70f6e51df8602；私库2026-11-28 02:09:28 UTC至891795b23fb9d21301a7295f8377d0db2bc6198f。四README与02:07已读版相同、QUEUE仍原blob及本会话进行中。日志14887B/hash517f1e1d2950d10e747415fcf4c9372e06a70e953d80e013a0589e2d5dfd7aba；库存3169/44682344B/tree93b72ff7a24d1c5e4a0de002563a24b8cad228bb，无>5MB，三旧必要gzip不变。唯一v13仍按02:01真实回执继续，不开第二heavy。
+
+
+## 2026-11-28 02:23:55 UTC：原 completion 全角槽与真实覆盖 Newton
+
+R1060§§12–13付原D102/S34 completion的真实微分tensor与全circle次序：两个实际h幂保全部r/s低角槽，再与inverse-Maass合成有限q/r/s表；冻结χW同时运输positive completion。共同[p]的pull completion为p^dC，degree completion为p²C，整gauge仍保，非单位p权不作解析化。原完整Newton定义逐系数给J_pull=p^ℓJ_orig（ℓ=0或−2），故只有已识别的真实[p]*S可运输原坏条件。whole cover另有准确p^-2次数差与ρhat=ρ/p²、βhat=p²β，严格全核盘改为rZ′+rW′>2/(p²−1)，不与finite Haar p^-2混用，也不预付边界/挠点平移或新字canonical零。
+
+root直接重读原psi4源§§7/9/10的D_−(Ω0hT/δ)、S(Ω0hT)、C102/34及qδ，逐项核completion h权与低槽差、q/r/s正负号、[p]全部p幂、PD次数差和严格盘。式(44)以形式B逐系数几何化后再代p-adic β，明确不单独嵌复period。全纸证，无数学运行。
+
+推前actual readonly run46075603971/job140831634332：公开2026-11-28 02:17:41 UTC至68c3d71c3438a78838a3450f585a8d7a111dd50e；私库2026-11-28 02:17:45 UTC至51ff24a5c47e6cc333a45a0869eec589bf3f36ed。四README与02:09已读版相同，QUEUE/认领未变。日志14892B/hashea3ca9b011b2087354db18fb2376bff796fd2a6d249567fec7e2c077dafbc29f；库存3169/44696855B/treeadba1e9f4a1d0dd4ac28c67922f7d3a4c8650557，无>5MB，三旧必要gzip不变。

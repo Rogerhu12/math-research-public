@@ -823,3 +823,339 @@ $\mathfrak j_t(-2)$ 为单位，所以本式继承(30)的完整 PD
 等距返回、严格闭盘范数以及冻结 $t$ 权的准确消费。
 这些结论并不把原 rank2 canonical 坏条件扩展成新的乘法零，
 也不以所得小盘代替仍待支付的实际挠点平移。
+
+
+## 12. 原 canonical completion 的真实 tensor 与圆周次序
+
+本节只在原已付 rank-one 分解及实际变量规范处使用
+$D_{102}$、$S_{34}$ 的名称。原 $p^2$ 新字及其有限和
+若尚未被识别成这些来源，就仍保自己的完整 theta 函数、
+Miller/Weil 作用及两极化；不依据此节给这些字另赋 canonical 零。
+
+### 12.1 两物理变量和 completion 系数一起运输
+
+置 $d=p+1$。原
+[psi4 来源](../notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)
+§§7、9、10 已付：在其固定 Hermite 参数中，两条物理变量为
+$$
+ z_-=\ell_{\rm coh}Z/\delta,\qquad
+ z_+=\ell_{\rm coh}W,\qquad
+ C_-=102c_\sigma,\quad C_+=34c_\sigma .
+$$
+$\ell_{\rm coh}$ 是该文的实际复 Hermite/period 倍率
+$\Omega_{0,\mathbf C}h_{\rm Hermite}$；
+此处它不指本篇的 book $p$-adic 周期 $\Omega_i$，
+也不被单独嵌入 $\mathbf C_p$。
+两式对 $Z,W$ 都是复线性的，没有再取复共轭。
+原两 Hermite 参数的相位、三处 similitude 和全部 raw 幅度
+已经在来源中支付，不在此重新选择。
+
+较一般地，在一个已经完整运输的 framed word 中，将实际倍率
+记为 $a_-,a_+$，定义 coherent completion 系数
+$$
+ u=C_-a_-^d,\qquad v=C_+a_+^d .
+ \tag{39}
+$$
+在上述原 canonical block 中，
+$a_-=\ell_{\rm coh}/\delta,\ a_+=\ell_{\rm coh}$，故
+$u/v=3/\delta^d=q_\delta^{-1}$。
+这是原 $102/34$ 的真实差别；$u,v$ 均不是(1)的 Maass 常数 $C_i$。
+
+以下核对它们的微分框架费用。若同一实际椭圆曲线的物理微分
+改为 $\omega'=e\omega$，则在相应参数中 $z'=ez$，原 sigma
+刚性化给
+$\sigma_{\omega'}(ez)=e\sigma_\omega(z)$。
+取 $\log(\sigma/z)$ 的第 $d$ 项，得到
+$$
+ c_\sigma(\omega')=e^{-d}c_\sigma(\omega),\qquad
+ \bigl(Nc_\sigma(\omega')\bigr)(z')^d
+       =\bigl(Nc_\sigma(\omega)\bigr)z^d .
+ \tag{40}
+$$
+原截面的其它 frame 倍率照旧保留。
+因此只搬 $c_\sigma$ 而不搬物理变量、period 的作法并不合法。
+
+对一个已由完整 Miller 身份识别的实际 $[p]^*s_N$，在良整物理
+参数 $z=pz'$ 中，原 completion 的拉回是
+$p^dNc_\sigma$；而覆盖线丛次数为 $Np^2$，其标准 degree
+completion 是 $p^2Nc_\sigma$。准确的两个完成源满足
+$$
+ \begin{split}
+ s_N(pz')e^{-p^dNc_\sigma(z')^d}
+ ={}&e^{-(p^d-p^2)Nc_\sigma(z')^d}\\
+ &\quad\cdot s_N(pz')e^{-p^2Nc_\sigma(z')^d}.
+ \end{split}
+ \tag{40a}
+$$
+对原 $N=34,102$、$p>211$，已付
+$v_p(c_\sigma)=-1$ 给
+$v_p((p^d-p^2)Nc_\sigma)=1$。
+故(40a)的指数及其逆在这个**良整物理参数**的闭单位盘
+为整 Tate 单位。改成 coherent 参数时仍须连同实际线性
+倍率运输，不能据此宣称每个新字在同一个 coherent 盘上为单位。
+
+即使在该物理盘，这个单位也不允许相认两个 Newton 读者。
+对任一实际共同槽偏移、正整数 $k$，原有限 Newton 消去显示
+$J_{\rm pull}(k)=p^{(2-d)k}J_{\rm degree}(k)$；
+它是两 completion 的 $C^{-k}$ 规范的准确比。
+不能把这个非单位幂当成一个已定义的解析权函数。
+以上只用于已付 $[p]$ 身份的字；没有把一般 cyclic-$p^2$
+theta 字先认作这样的 pullback。
+
+R1060(3a)中的 source $h_\infty\in U(1)$ 不改变固定的
+modular 字 $g_i$、其 CM 曲线 $E_i$ 或(9)的 $\gamma_i$。
+它在已付 coherent 参数上的实际作用是
+$(Z,W)\mapsto(h^{-1}Z,hW)$。
+所以在固定 base 物理微分中，真正拉回的 completion 为
+$$
+ \boxed{
+ E_h(Z,W)=
+ \exp\!\left(-u h^{-d}Z^d-vh^dW^d\right).
+ }
+ \tag{41}
+$$
+若另外采用随 $h$ 变化的物理 frame，令其倍率为 $e_\pm(h)$，
+则两物理参数分别乘 $e_\pm(h)$，而两 completion 系数分别乘
+$e_\pm(h)^{-d}$。由(40)这些额外变化准确抵消；
+(41)中的原 $h^{-d},h^d$ 不消失。
+这里没有把保持 $F(h^{-1}Z,hW)$ 的同时又令 completion
+系数不随 $h$ 变的不同操作冒称为原物理 completion。
+
+### 12.2 真正圆周投影保留完整双卷积
+
+先固定其它实际 finite/source 变量，记未作该圆周积分的
+完整 framed 核为
+$F(Z,W)=\sum f_{a,b}Z^aW^b$。
+如该处原分解已经支付，可写为完整两因子的乘积；
+此处不凭相同 Hecke 标签代换这两个因子。
+由(41)，canonical completion 的圆周返回准确为
+$$
+ \begin{split}
+ &\int_{|h|=1}h^{-2}
+  e^{-u h^{-d}Z^d-vh^dW^d}
+          F(h^{-1}Z,hW)\,d^\times h\\
+ &\hspace{12mm}=
+  \mathsf P_2\!\left(e^{-uZ^d-vW^d}F(Z,W)\right).
+ \end{split}
+ \tag{42}
+$$
+每个固定双槽只有有限项，故只需原有限 theta jets 的收敛，
+无需给单个 rank-one 函数另加 $p$-adic 范数。
+
+展开中 $f_{a,b}$ 与第 $(r,s)$ 个 completion 项的总圆周角色是
+$h^{\,b+ds-a-dr}$。因而保留的条件是
+$$
+ b+ds-a-dr=2 .
+$$
+特别对原 $(n,n+2)$ 输出，所有合法的 $r,s$ 都保留：
+$$
+ \boxed{
+ [Z^nW^{n+2}]\mathsf P_2(e^{-uZ^d-vW^d}F)
+ =\sum_{\substack{r,s\ge0\\dr\le n,\ ds\le n+2}}
+  \frac{(-u)^r(-v)^s}{r!s!}
+      f_{n-dr,n+2-ds}.
+ }
+ \tag{43}
+$$
+裸低槽的差是 $2+d(r-s)$；
+completion tensor 的 $h^{-d(r-s)}$ 正好补回原 source 角色2。
+所以 $r\ne s$ 项不被圆周投影自动杀掉，也不是凭空新增一条
+可赋中央零的来源。
+
+若先把 $F$ 换成已经投影的 $H=\mathsf P_2F$，
+然后再乘两个 completion 并再次投影，才会得到另一式
+$$
+ \mathsf P_2(e^{-uZ^d-vW^d}H)
+       =H\sum_{r\ge0}\frac{(uv)^r(ZW)^{dr}}{(r!)^2}.
+$$
+这是合法的 postprojection 恒等式，但一般不等于(42)。
+因此不能从§8已经得到的 $H=W^2H^\Delta(ZW)$，
+删除(43)中的非对角低槽或直接以这条 Bessel 型因子
+替代原 canonical completion。
+
+### 12.3 接回同一有限 Maass 读者
+
+令
+$F^{\rm can}=e^{-uZ^d-vW^d}F$，其普通系数记为
+$f^{\rm can}_{a,b}$。
+取负指标时该系数按零处理。
+先反转这两个实际 completion，再反转原 Maass Gaussian，
+由 $\mathsf P_2$ 与 $e^{\beta_iZW}$ 交换，得到每个 $n$ 的
+有限精确式
+$$
+ \boxed{
+ [Z^nW^{n+2}]
+   e^{\beta_iZW}\mathsf P_2F
+  =
+  \sum_{\substack{q,r,s\ge0\\q+dr\le n,\ q+ds\le n+2}}
+   \frac{\beta_i^q u^r v^s}{q!\,r!\,s!}\,
+      f^{\rm can}_{n-q-dr,\ n+2-q-ds}.
+ }
+ \tag{44}
+$$
+这里反转 canonical completion 的符号为正，
+而 $\beta_i=-C_i/\rho_i$ 保原 inverse-Maass 的负号。
+出现的低槽始终满足
+$b-a\equiv2\pmod d$；这不是仅保 $a=b-2$ 的单对角表。
+
+推导(44)时，先用独立形式参数 $B$ 代替 $\beta_i$，把它视为
+一个有限的 $B$ 多项式身份。对每个 $B^q$ 系数分别完成原
+完整来源及(9)--(11)的 graded 几何代数化，取原 $p$ 嵌入后，
+才在相应几何变量中代入 $B=\beta_i$。
+这里没有把 $p$-adic 的 $\beta_i$ 当成复常数。
+
+(44)按此意义先在原有限 theta jets 的 graded 来源中成立。
+其余全部 finite 字、$h$ 的有限部分、Haar、Artin/Cor 和
+frame 运输按原 $\mathcal T_i$ 作用于**整式**。
+如果 $u,v$ 随这些 framed 字变化，就把它们保在同一求和项内。
+完成原(9)--(11)的整体几何代数化后，再按原嵌入读为
+$p$-adic 公式；不单独把一个复 period 或未代数化被积项
+嵌入 $\mathbf C_p$。
+
+具体地，将(44)的完整返回乘
+$\Omega_i^3\rho_i^n n!(n+2)!$，就是(16b)的同一个 $m_{i,n}$。
+再乘(19)的 $w_{i,H,n}$，只需 $0\le n\le N_H$，
+便得到(21)的有限 canonical-completion 转置。
+全部三重和有限；原 whole 误差仍是 $p^{m_*+H}$。
+若这些输入以近似值给出，须对(44)的每个完整系数及来源项
+应用(24)--(25)的同一乘积误差规则。
+本式不给 $f^{\rm can}_{a,b}$ 各自一个额外有界测度或统一范数。
+
+冻结的实际 $t$ 权也必须连这个 completion 运输：
+当(36)使用 $F_t(Z,\chi_tW)$ 时，
+$v$ 同时变成 $v\chi_t^d$，而负侧 $u$ 保留；
+不能只缩放 theta 函数而固定其 positive completion。
+原 cross Gaussian 则依(37)统一为 $e^{\beta_0ZW}$。
+这两个不同的 Gaussian 运输一起保留(38)的
+$-\lambda_t\log\chi_t\,P_{2,H}$ 补项。
+
+本节给出的是原 completion 的真实 tensor、正确圆周次序，
+以及可直接送入原有限读者的三重系数表。
+它没有将整个 $p^2$ 新来源逐字认成 $D_{102}\times S_{34}$，
+也没有由一条 canonical Newton 零给这些有限低槽分别赋零。
+
+
+## 13. 共同 [p] 覆盖变量中的完整 PD 与严格盘界
+
+本节消费原共同覆盖的实际变量关系
+$z=pz'$，并始终保原 section 的首项和完整 Miller 乘子。
+若某个待比较的几何表达尚未被证明等于这一实际 pullback，
+以下等式不为它补上该几何身份。
+
+在两个已识别的 coherent 变量中，定义未重归一的覆盖核
+$$
+ \widehat H_i(Z',W')=H_i(pZ',pW'),\qquad
+ \widehat{\widetilde H}_i(Z',W')
+       =\widetilde H_i(pZ',pW').
+ \tag{45}
+$$
+整个有限 $p^2$ 字、Haar、source 积分和冻结权都仍在 $H_i$ 中。
+由§8的**whole** 支撑，
+$$
+ \widehat h_{i,n}=p^{2n+2}h_{i,n}.
+$$
+因此设置
+$\widehat\rho_i=\rho_i/p^2$、
+$\widehat\beta_i=p^2\beta_i$ 后，实际矩准确返回为
+$$
+ \boxed{
+ \begin{split}
+ m_{i,n}={}&p^{-2}\Omega_i^3\widehat\rho_i^{\,n}
+ n!(n+2)!\,
+ [Z'^nW'^{n+2}]
+       \bigl(e^{\widehat\beta_i Z'W'}\widehat H_i\bigr),\\
+ p^{-2}\Omega_i^3
+   e^{-C_iXY}\widehat H_i(\widehat\rho_iX,Y)
+  ={}&\sum_{n\ge0}m_{i,n}X^{[n]}Y^{[n+2]}
+   =\mathscr B_i(X,Y).
+ \end{split}
+ }
+ \tag{46}
+$$
+这里 $\widehat\beta_i\widehat\rho_i=-C_i$，
+所以原 Maass 常数没有改变。
+第二式也可直接由
+$H_i((\rho_i/p)X,pY)=p^2H_i(\rho_iX,Y)$ 核对。
+显示的 $p^{-2}$ 完全来自差为2的次数缩放；
+它不是再次施加 finite Haar 的 $p^{-2}$、图平均或 seed 归一。
+
+特别，若实际几何证明以未归一 Haar coevaluation 书写
+$K=p^{-2}(1\otimes\rho_+(t_0))\mathcal C_{\rm Haar}$，
+这个有限 $p^{-2}$ 仍是原 $K$ 的一部分。
+(46)只对整个相同核改变 coherent 变量，不修改其有限输入，
+也不因改用字坐标配对而增减一个 $p$。
+
+由(16c)，
+$$
+ v_p(\widehat\rho_i)=-2\tau,\qquad
+ v_p(\widehat\beta_i)=2+2\tau.
+$$
+取 $r_{Z'},r_{W'}\in\mathbf Q_{\ge0}$，若
+$$
+ r_{Z'}+r_{W'}>\frac2{p^2-1},
+$$
+则覆盖中的两个完整核都是该闭盘上的 Tate 函数，且
+$$
+ \boxed{
+ \|\widehat H_i\|_{r_{Z'},r_{W'}}
+ =\|\widehat{\widetilde H}_i\|_{r_{Z'},r_{W'}}
+ \le p^{-m_i-3\tau-2-2r_{W'}}.
+ }
+ \tag{47}
+$$
+证明直接将§10的 $r_Z,r_W$ 换成
+$1+r_{Z'},1+r_{W'}$；也可由(46)及(32)逐项证明。
+这里没有给两个 rank-one 因子分别作估值。
+
+对称阈值为
+$r_{Z'}=r_{W'}>1/(p^2-1)$。
+因此在另已支付与良整形式参数的单位切向比较时，
+本结论恰到非零 $p$ 挠点半径的严格内侧；
+exact-$p^2$ 挠点仍在更外层。
+如果实际 parameter 比有非单位倍率，须先按§10的完整
+frame 规则运输盘；不能把该倍率省掉。
+即使是单位倍率，也不能由(47)推出边界收敛：
+§10的 $m_n=1,n=p^r$ 检验在这个 rescaling 后仍给固定估值，
+所以这里保留严格不等式。
+
+还可在原定义中直接返回整个 canonical Newton 函数。
+对任一原实际槽偏移 $\ell$（本题为 $-2$ 或 $0$），写
+$$
+ J_{F,\ell}(v;C)=
+ \sum_{h\ge0}C^{-h}[z^{dh+\ell}]
+       (F(z)e^{-Cz^d})(v)_h .
+$$
+只要右边是原已付完整尾的来源，真实 $[p]$ 拉回便逐个 $h$ 给出
+$$
+ \boxed{
+ J_{F(p\,\cdot),\ell}(v;p^dC)
+       =p^\ell J_{F,\ell}(v;C).
+ }
+ \tag{48}
+$$
+证明是实际完成源
+$F(pz')e^{-p^dC(z')^d}=(Fe^{-Cz^d})(pz')$
+的第 $dh+\ell$ 系数恰乘 $p^{dh+\ell}$，再与
+$(p^dC)^{-h}$ 相消。负指标按零处理，故 $\ell=-2,h=0$
+也没有例外；全尾仅乘固定 $p^\ell$，原解析性准确继承。
+这不是对 $p^{dv}$ 作解析延拓。
+
+因此对已经完整识别的 positive $[p]^*S$，使用真实 pullback
+completion 时，原 $J_S'(0)=0$ 合法原样运输；
+negative 的偏移 $-2$ 则严格留下 $p^{-2}$。
+这一结论依赖实际来源及 completion 同时拉回，不能只由
+覆盖线丛次数或同一个有限角色得出。
+相反，采用 $p^2C$ 的 degree completion，只在正整数处直接有
+$J_{\rm degree}(k)=p^{(d-2)k+\ell}J_{F,\ell}(k;C)$。
+(40a)的整 gauge 本身不支付这个 degree 读者在整个
+$\mathbf Z_p$ 上的 Tate 收敛，也不支付将此非单位整数幂
+解析化。
+
+最后，(46)的 cross Gaussian 是 inverse-Maass 的二次项，
+与(40a)的 $z^{p+1}$ canonical completion 不同。
+把覆盖核继续送入原 $D_{102}/S_{34}$ completion 时，
+必须使用§12的实际 tensor、完整角槽和(40a)的准确 gauge，
+并保所有固定 $t$ 字中的
+$\widehat\beta_t\chi_t=\widehat\beta_0$。
+本节没有用共同覆盖的次数替换原实际 completion 权，
+也没有以变量缩放取得新的 canonical 零行。

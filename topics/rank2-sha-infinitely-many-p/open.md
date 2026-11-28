@@ -36,6 +36,8 @@ R1059§8现已付同一Frobenius-rigid primitive和实际有限图的值身份�
 
 R1060§§8–11已付whole circle支撑H=W²HΔ、原双PD等距、严格全核闭盘及冻结t的共同Gaussian/−logχ费用。全局theta下降仍先对未circle投影字成立，实际canonical completion必须保全部角槽和真实period/tensor次序；小盘不预付p²挠点平移或各rank1范数。
 
+R1060§§12–13现保completion全部角槽及有限q/r/s表，真实[p]pull的J=p^ℓJ_orig及全尾已付；degree completion另保p²C/p^dC差，不能解析非单位p权。wholecover严格盘至rZ′+rW′>2/(p²−1)，只对已识别[p]*S运输bad，不给新Weyl字零。
+
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 
 [R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)提供真正可用的同源读者：临界值是单位 inverse-square 矩，斜率保 log、全部 Maass 修正和外权导数；正 KS/正杯积 Bol 与 R997 一致。直接整 Newton 的值读者用至 \(pH-1\) 阶，斜率用 \(O(p(H+\log_p(H+1)+1))\) 阶及准确额外精度；旧 Stirling 路径另付 \(v_p(N!)\)。R1054 的负端点是原 Coleman 的 \(p^{-6}\) 真 \(Q\) 平均；R1059§8通过整个同源germ识别完整有限图读数，仍不逐根认同CM商点。
