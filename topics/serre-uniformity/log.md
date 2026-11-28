@@ -150,3 +150,8 @@
 ### 2026-11-28 12:37 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1154 §15付原P/V射影参数、准确留数Jacobian和含首p源的有限Ramanujan系统；全部原weighted系数及minor尺度直接导出。root纸推，o2逐项核边界、初值和全部a因子，完整即推。
 - 原首标签与minor共同零继续，最高强迫unit不代指定低组合，有限参数不冒真实Ep整形式坐标；无数学程序执行。
+
+
+### 2026-11-28 12:39 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1154 §16付原四权重的唯一多项式逆、全Sym²/³ forcing、m2与m3完整值；同Legendre无穷分支严格消无权q项，joint保固定3/8 Bernoulli系数及全低jet余项。root独核δP/residue/kernel、次数/奇偶/adjoint和真实cutoff，o1核核心同构；完成即推。
+- §§1–15完整保留；未除未知D2、未重提旧Cν(Qν)无条件零，实际joint不相容继续，无数学执行。

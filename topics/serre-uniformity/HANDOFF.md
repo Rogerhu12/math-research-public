@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：6eed218ccd2d58f447c164d01732f6f8d176c9a0**（2026-11-28 12:37 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：26a0d771019b4b15888b8c6ac94a2e387fcedfad**（2026-11-28 12:39 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:04:54 Asia/Taipei，Actions run46105825986/job140858219823，blob:none浅clone后真实pull --rebase至18cf41b7；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:54、pull≤13:04。本地12:04仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -30,7 +30,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1158–59](results.md)已付原最高Sym12 smoothed Gcorr：真实even单位共同商、S/U全ordered权、Weil restriction/rank1下降、原矩quotient与根ρ/中央gauge。crossed L/R、norm根ηd及J_n给Ωcorr=V_nΩ+dJ、hV=hCorr+J，V_n=(n⁴+n⁻¹¹)−n²T_n；全部式见open。R1160解开平滑，仍须原Frob数值。
 
-[R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)实付算术B_n：ζ=(V−v)Ω的C2/C3有限阶lift固定几何section，复共轭λ=−β(c)/2、原12M12及两个transvection的有限Newton反差分固定全部算术修正。dB=ζ，h0=(hV+B)/v是真原未平滑最高lift；n2除43/127、两例用n5，覆盖全p>37。一般Frob仍须读同一有限Galois/Belyi quotient中的b(q⁻¹T′q)，未当F0已知。§8以v_d∞⁻¹a_d的整截面、原21(1+p⁴)/11修正及d≤12的Newton式直接构造全部p^r三中心h_r，实际cochain严格约化兼容，识别同一原43格；Cartan I仍仅modp，一般路径值继续。
+[R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)已构造dB_n=(V_n−v_n)Ω的实际算术B_n：有限阶C2/C3 lifts、复共轭λ=−β(c)/2及Newton反差分固定全section，h0=(hV+B_n)/v_n为原未平滑最高lift；n2/n5覆盖p>37。§8以v_d∞单位residue截面直接构造全部p^r三中心h_r，保21(1+p⁴)/11且严格约化兼容，识别同一43格。一般Frob仍须读b(q⁻¹T′q)，原F0数值未付；Cartan I仅modp。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
@@ -48,9 +48,11 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两下降线Π′(z′)=Π(−z′)统一z∈Fp；actual-good代数A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d，d0/非平方分Fp点，非零平方余对须actual O_R(d)。原heat/Hasse/Katz、finiteGauss全部坏行/安全jet/余项付；Δ_low=8(3bc−td)/(4455rβ²)，Q⁶顶unit不代det，向量场闭性仍未付。原norm2/CM gauge/两twist与全尺度保文。
 
-[R1154 §§1–15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)同源Legendre/finite-log全carry、Newton边界、Jacobi Green/最高jet和Darboux全部weighted补项均付，详细式见open。原H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2；新p1019探针否定无条件Cν(Qν)0但q≠Q，不扩扫。原good差商长零带/顶unit不代矛盾，固定ν与变化r−1仍无真实intertwiner。
+[R1154 §§1–16](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)同源Legendre/finite-log全carry、Newton边界、Jacobi Green/最高jet和Darboux全部weighted补项均付，详细式见open。原H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2；新p1019探针否定无条件Cν(Qν)0但q≠Q，不扩扫。原good差商长零带/顶unit不代矛盾，固定ν与变化r−1仍无真实intertwiner。
 
 §15直接用原ξ=P/(a²V)、f=aV付留数Jacobian f²及完整有限Ramanujan系统：E2′=(E2²−E4)/6+6a²ξ^(p−1)，E4′=2(E2E4−E6)/3，E6′=E2E6−E4²。原h=−[ξp−4]E6，B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；共同零继续，不以最高强迫−36a²单位代minor。spectral §10–11完整C_pr/Euler核与首p分母沿文，不冒整形式群。
+
+§16另付原S₁/S₂/S₃的唯一多项式逆及全部forcing，四个权重准确变为四个低jet。无权m3的q项由同Legendre无穷分支严格消去，m3=M30−3Bp−3/8，原joint改成固定单位Bernoulli系数+完整低jet余项，不除D2；未把旧Cν(Qν)改零，实际不相容继续。
 
 ## 已成、禁止重做与其它入口
 

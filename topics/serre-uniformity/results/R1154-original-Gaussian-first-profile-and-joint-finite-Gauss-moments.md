@@ -1970,3 +1970,369 @@ $v-3a^6bu\ne0$，或消费其它真正可用的 good 行。
 (1154.74) 的有限参数也没有被认成真实 $E[p]$ 的整形式群参数。
 全节由原同一个 $P,V$ 纸面推导；
 o2_high_coefficient 独立核全部 Jacobian、边界及四个尺度，无数学程序执行。
+
+## 16. 原加权 moments 的唯一多项式余项与固定 Bernoulli 系数
+
+本节继续使用原 $P=\mathsf P_\nu$、
+$V=V_\nu=\mathsf W_{\nu-1}-P\mathcal L_p$，不更换 Legendre 次数。
+记
+$$
+a=a_\nu=P'(0),\qquad
+q=1-w^2,\qquad D=q\,d/dw,\qquad
+\lambda=\nu(\nu+1)=-\frac5{36}\quad\text{于 }\mathbf F_p.
+$$
+这里 $q$ 仍不是 Fermat quotient。
+原 $V(0)=a^{-1}$、$P$ 为奇多项式、$V$ 为偶元素，
+而 (1154.59) 的完整方程是
+$(D^2+\lambda q)V=a w^{p-1}$。
+
+新增结论是：三个实际对称幂算子在指定奇偶多项式空间上有唯一逆，
+因而原四个 weighted moments 可以读成四个确定多项式的低 jet
+与三个无权 moments。最后一个无权 moment 的
+$\mathrm B_{p-3}$ 系数准确为 $-3/8$；
+它的 Fermat-quotient 项由同一个 Legendre 无穷分支严格消去。
+这不会消去 §11 的原 $\mathfrak C_\nu(Q_\nu)$，
+也不假设这些低 jet 的组合为零或为单位。
+
+### 16.1. 保留首次边界的两个对称幂
+
+置 $\varphi=\lambda q$，并在 $\mathbf F_p[w]$ 上定义
+$$
+\boxed{\begin{aligned}
+\mathcal S_1&=D^2+\varphi,\\
+\mathcal S_2&=D^3+4\varphi D+2D\varphi,\\
+\mathcal S_3&=D^4+10\varphi D^2+10(D\varphi)D
+                 +9\varphi^2+3D^2\varphi .
+\end{aligned}}
+\tag{1154.90}
+$$
+式中 $D\varphi,D^2\varphi$ 表示系数函数；
+例如 $\mathcal S_2=D^3+4\lambda qD-4\lambda wq$。
+这些算子也作用于 $\mathcal A=\mathbf F_p[w]/(w^p)$。
+相对于 §13 的同一个配对，
+$\mathcal S_1,\mathcal S_3$ 自伴，$\mathcal S_2$ 反自伴。
+
+原伴随列的完整强制项给
+$$
+\boxed{\begin{aligned}
+\mathcal S_2(V^2)&=-2w^{p-2},&
+\mathcal S_2(PV)&=2a^2w^{p-1},&
+\mathcal S_2(P^2)&=0,\\
+\mathcal S_3(V^3)&=\frac6a w^{p-3}
+                   +\frac{9\lambda-6}{a}w^{p-1},&
+\mathcal S_3(PV^2)&=-4a w^{p-2},\\
+\mathcal S_3(P^2V)&=6a^3w^{p-1},&
+\mathcal S_3(P^3)&=0.
+\end{aligned}}
+\tag{1154.91}
+$$
+这些是 $\mathcal A$ 内的恒等式，所有显示的最高项均保留。
+为直接验证，若 $D^2y+\varphi y=s$，则
+$$
+\begin{aligned}
+\mathcal S_2(y^2)&=6(Dy)s+2yDs,\\
+\mathcal S_3(y^3)
+ &=36(Dy)^2s-9\varphi y^2s+18ys^2
+       +24y(Dy)Ds+3y^2D^2s.
+\end{aligned}
+$$
+代 $y=V+tP$、$s=aw^{p-1}$，只需
+$y(0)=a^{-1}$、$Dy(0)=ta$、$D^2y(0)=-\lambda/a$。
+第二式的结果为
+$$
+\frac6a w^{p-3}-12at\,w^{p-2}
+ +\left(\frac{9\lambda-6}{a}+18a^3t^2\right)w^{p-1}.
+$$
+读取 $t$ 的各次项就是 (1154.91)。
+因此本节没有把原 $V$ 误换成一个齐次解。
+
+### 16.2. 唯一多项式逆的自足证明
+
+先在有理函数域 $\mathbf F_p(w)$ 上置
+$$
+\delta_P=P^2D=qP^2\,d/dw .
+$$
+原 Legendre 多项式 $P$ 是平方自由的，且
+$P(1)=1,P(-1)=-1$。
+确实它的次数 $\nu<p$；在 $w\ne\pm1$ 的重根处，
+Legendre 方程的最低项会给一个非零的 $r(r-1)$，
+而在 $\pm1$ 的值已经非零。
+
+$\delta_P$ 在常数域 $\mathbf F_p(w^p)$ 上作用于一个 $p$ 维空间，
+其核为这个常数域。特征 $p$ 下 $\delta_P^p$ 仍是导子，
+故 $\delta_P^p=c\,\delta_P$。
+这里 $c$ 不为零。否则 $\delta_P$ 是核维数一的幂零算子，
+只有一个长度 $p$ 的 Jordan 块，因此存在有理函数 $h$ 满足
+$\delta_Ph=1$。
+这会给
+$$
+dh=\frac{dw}{qP^2},
+$$
+但右边在 $w=1,-1$ 的留数分别为 $-1/2,1/2$，
+与 exact 微分留数为零矛盾。
+
+由 $D^2P+\varphi P=0$ 直接展开，有
+$$
+\boxed{\qquad
+\mathcal S_r(P^rh)
+ =P^{-r-2}\delta_P^{\,r+1}h
+ \qquad(r=1,2,3).
+\qquad}
+\tag{1154.92}
+$$
+若 $\deg f<p$ 且 $\mathcal S_rf=0$，
+则 $\delta_P^{r+1}(f/P^r)=0$。
+因为 $r+1<p$，再用 $\delta_P^p=c\delta_P$、$c\ne0$，
+得到 $\delta_P(f/P^r)=0$。
+所以 $f/P^r$ 为一个 $p$ 次幂有理函数。
+它在 $P$ 的每个简单根处最多有 $r<p$ 阶极，
+不可能有非零的 $p$ 倍极阶，故没有有限极。
+再用 $\deg f<p$，这个多项式 $p$ 次幂只能是常数。
+因此
+$$
+\ker\bigl(\mathcal S_r\mid\mathbf F_p[w]_{\deg<p}\bigr)
+       =\mathbf F_p P^r .
+$$
+这一步是在实际有理函数域中证明的；
+没有从一个截断配对的非退化性推断指定输入非零。
+
+置
+$$
+j_2=p-2\nu-2,\qquad j_3=p-\nu-2.
+$$
+$j_2$ 为奇数，$j_3$ 为偶数。
+三个算子的最高项系数分别为
+$$
+\begin{array}{c|c|c}
+ &\text{可能的最高次数}&\text{该次系数}\\ \hline
+\mathcal S_1(w^j)&j+2&j(j+1)-\lambda\\
+\mathcal S_2(w^j)&j+3&-(j+1)(j-2\nu)(j+2\nu+2)\\
+\mathcal S_3(w^j)&j+4&
+ (j-3\nu)(j-\nu+1)(j+\nu+2)(j+3\nu+3).
+\end{array}
+$$
+全部输出被 $q$ 整除。
+在 $j=j_2,j_3$ 时显示的最高项为零；
+奇偶性使下一个可能次数分别为 $j_2+1,j_3+2$。
+上述核与源、目标的相同维数遂给三个实际同构
+$$
+\boxed{\begin{aligned}
+\mathcal S_1:\ 
+ \mathbf F_p[w]_{\mathrm{even},\,\deg\le p-3}
+ &\ \xrightarrow{\ \sim\ }\
+ q\,\mathbf F_p[w]_{\mathrm{even},\,\deg\le p-3},\\
+\mathcal S_2:\ 
+ \mathbf F_p[w]_{\mathrm{odd},\,\deg\le j_2}
+ &\ \xrightarrow{\ \sim\ }\
+ q\,\mathbf F_p[w]_{\mathrm{even},\,\deg\le j_2-1},\\
+\mathcal S_3:\ 
+ \mathbf F_p[w]_{\mathrm{even},\,\deg\le j_3}
+ &\ \xrightarrow{\ \sim\ }\
+ q\,\mathbf F_p[w]_{\mathrm{even},\,\deg\le j_3}.
+\end{aligned}}
+\tag{1154.93}
+$$
+所有目标次数均小于 $p$。特别，最后两行的逆无需选择常数、
+补加全纯项或反除某个未知 moment。
+
+### 16.3. 原四个权重对应的唯一低 jet
+
+令
+$$
+f_7(w)=[\,wP(w)^7\,]_{\deg<p},\qquad c_7=f_7(1).
+$$
+方括号只删次数至少 $p$ 的项。这些项确实不参与原配对；
+但 $c_7$ 不能改成完整多项式在一处的值。
+由 (1154.93) 唯一规定
+$$
+\boxed{\begin{aligned}
+\mathcal S_1H_1&=wP^3-1,&
+ \deg H_1&\le p-3,\quad H_1\ {\rm even},\\
+\mathcal S_1H_7&=f_7-c_7,&
+ \deg H_7&\le p-3,\quad H_7\ {\rm even},\\
+\mathcal S_2H_2&=P^4-1,&
+ \deg H_2&\le j_2,\quad H_2\ {\rm odd},\\
+\mathcal S_3H_3&=wP^5-1,&
+ \deg H_3&\le j_3,\quad H_3\ {\rm even}.
+\end{aligned}}
+\tag{1154.94}
+$$
+右边均在 $w=\pm1$ 为零。
+源次数的所需界只用 $6\nu\le p-1$；
+$wP^3,P^4,wP^5$ 均无需高次截断。
+
+记
+$$
+m_i=\langle1,V^i\rangle\quad(i=1,2,3),
+\qquad H_{3,2}=[w^2]H_3 .
+$$
+将 (1154.91) 与算子的伴随性用于 (1154.94)，准确得到
+$$
+\boxed{\begin{aligned}
+a^2\mathsf h&=m_1+aH_1(0),\\
+\mathbf B_\nu&=m_2+2H_2'(0),\\
+\mathbf U_\nu&=c_7m_1+aH_7(0),\\
+\mathbf V_\nu&=m_3+
+                 \frac{6H_{3,2}+9\lambda H_3(0)}a.
+\end{aligned}}
+\tag{1154.95}
+$$
+例如第三幂的强制项读取为
+$$
+\frac6a[w^2]\frac{H_3}{q}
+   +\frac{9\lambda-6}{a}H_3(0)
+=\frac{6H_{3,2}+9\lambda H_3(0)}a .
+$$
+所以 $q^{-1}$ 带来的常数修正没有丢失。
+这些是原加权值的等式，不是把原权重换成无权值。
+
+第二个无权值可完整读出。若 $n=(\nu-1)/2$，则
+$$
+\boxed{\qquad
+m_2=\sum_{j=0}^{n}\frac1{(2j+1)^2}
+       -\sum_{j=1}^{n}\frac1{(2j)^2}.
+\qquad}
+\tag{1154.96}
+$$
+证明是在 (1154.58) 中读取 $\tau\sigma$：
+若 $j_\tau=j_1\tau+j_3\tau^3+\cdots$、
+$k_\tau=k_0+k_2\tau^2+\cdots$，则
+$m_2=-k_0j_3+k_2j_1$。
+(1154.56) 给 $j_1k_0=-1$，
+而 $j_3/j_1,k_2/k_0$ 分别为对应偶、奇平方倒数和的负数。
+这证明显示公式，但不宣称其和非零。
+
+### 16.4. 无权三次 moment 的真实 Fermat 项消去
+
+为避免复用 $H_i$，本小节记
+$W=\mathsf W_{\nu-1}$，而普通 harmonic 数仍写 $H_\nu$。
+沿用 (1154.41) 的有限泛函，定义
+$$
+\begin{aligned}
+M_{3,0}
+ &=H_\nu^3-\frac32\mathfrak h_1(PW^2/w)
+       +3\mathfrak k_1(WP^2)
+       -\frac32\mathfrak j_2(P^3/w),\\
+M_{3,1}
+ &=-3H_\nu^2+6\mathfrak o_1(WP^2)
+       -3\mathfrak a_2(P^3/w).
+\end{aligned}
+$$
+这里 $PW^2/w,P^3/w$ 都是偶多项式。
+它们及 $WP^2$ 的次数至多 $3\nu-1$，
+严格落在 (1154.40) 的全部安全范围之内。
+因此原乘积 $V^3=(W-P\mathcal L_p)^3$ 的完整展开给
+$$
+m_3=M_{3,0}+M_{3,1}q_p(2)-\frac38\mathrm B_{p-3}.
+$$
+最后一项的系数是
+$-(3/8)(P^3/w)(1)=-3/8$，
+没有 $P^8$ 的高端部分和 $D_2$。
+
+这一次可以准确消去中间项：
+$$
+\boxed{\qquad
+M_{3,1}=0,\qquad
+m_3=M_{3,0}-\frac38\mathrm B_{p-3}.
+\qquad}
+\tag{1154.97}
+$$
+给出自足的同源证明。在特征零中取无穷处的正规 Laurent 分支
+$$
+L_\infty(w)=\sum_{j\ge0}\frac{w^{-2j-1}}{2j+1},
+\qquad V_\infty=W-PL_\infty .
+$$
+同一个 Legendre 对满足
+$$
+V_\infty(w)=-\frac12\int_{-1}^1
+ \frac{\mathsf P_\nu(t)}{w-t}\,dt
+            =O(w^{-\nu-1}).
+$$
+这里的积分仅是逐项积分有理多项式。
+第一式由多项式除法及 Legendre 三项递推确定
+$W$，初值为 $P_0=1,W_{-1}=0$ 与 $P_1=w,W_0=1$。
+第二式用 Rodrigues 公式分部积分，给
+$\int_{-1}^1t^jP_\nu(t)\,dt=0$ 对 $0\le j<\nu$。
+因此不需要选取解析对数的常数或跨过其分支切口。
+
+现在读取 $PV_\infty^2/q$ 的 $w^{-1}$ 系数。
+整个函数为 $O(w^{-\nu-4})$，所以该系数为零。
+三项展开准确是
+$$
+\boxed{\quad
+-H_\nu^2+2\mathfrak o_1(WP^2)
+          -\mathfrak a_2(P^3/w)=0 .
+\quad}
+\tag{1154.98}
+$$
+确实 $q^{-1}=-\sum_{j\ge1}w^{-2j}$；
+对 $w^{2s}L_\infty/q$ 读 $w^{-1}$ 得 $-o_s$，
+对 $w^{2s+1}L_\infty^2/q$ 同读得 $-A_s$，
+而 $PW^2/q$ 的该系数为 $-P(1)W(1)^2=-H_\nu^2$。
+所用 Laurent 系数有限，涉及的整数分母至多 $3\nu<p$，
+故这个特征零恒等式可安全约化。
+它正是 $M_{3,1}=0$。
+
+(1154.98) 消去的只是这个未加权 cubic 的 Fermat 项。
+它没有给 §11 中带 $P^4,wP^7,wP^5$ 权重的
+$\mathfrak C_\nu(Q_\nu)=0$；
+后者的无条件版本已被指定量回执排除，不能借此重新提出。
+
+### 16.5. 原联合条件的固定单位系数
+
+置
+$$
+\begin{aligned}
+\mathcal B_\nu&=m_2+2H_2'(0),\\
+\mathcal U_\nu&=a\bigl(H_7(0)-c_7H_1(0)\bigr),\\
+r_{3,\nu}&=\frac{6H_{3,2}+9\lambda H_3(0)}a .
+\end{aligned}
+$$
+这些数都由 (1154.94) 的四个唯一多项式和 (1154.96) 明确确定。
+当原首标签 $\mathsf h=0$ 时，(1154.95) 给
+$\mathbf B_\nu=\mathcal B_\nu$、
+$\mathbf U_\nu=\mathcal U_\nu$。因此
+$$
+\boxed{\quad
+3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu
+=3\mathcal B_\nu\mathcal U_\nu
+   -M_{3,0}-r_{3,\nu}
+   +\frac38\mathrm B_{p-3}
+\qquad(\mathsf h=0).
+\quad}
+\tag{1154.99}
+$$
+特别，在 §6 的原 actual-good 分支中，联合条件等价于
+$$
+\boxed{\qquad
+q_p(2)=Q_\nu,\qquad
+\mathrm B_{p-3}
+=\frac83\left(
+ M_{3,0}+r_{3,\nu}
+   -3\mathcal B_\nu\mathcal U_\nu\right).
+\qquad}
+\tag{1154.100}
+$$
+本式不需除以旧 $D_2$，也没有假设 $\mathrm B_{p-5}$
+或任何缺席角色可以加入原观测。
+其意义是将真实指定权重移到四个有唯一性的多项式逆；
+Bernoulli 的系数 $3/8$ 已固定为单位，
+全部其余项仍由原 Legendre 源完整保留。
+尚未证明括号为零或与原 $\mathrm B_{p-3}$ 不相容。
+
+还有一个直接的尺度核对。
+由 $m_1$ 的一次 finite-log 展开及 (1154.95)，有
+$$
+\boxed{\qquad
+aH_1(0)=\frac12
+ \left(\mathfrak h_1(P/w)-\mathfrak h_1(P^4)\right).
+\qquad}
+\tag{1154.101}
+$$
+所以本节的首标签消元与 (1154.36) 的 $Q_\nu$ 完全相同，
+并未用另一个局部参数替换原 $\mathsf h$。
+实际两点的 $S,P$ 范围、两 twist 的原标记、
+所有低角色出现条件与 §12 的 Bernoulli mask 继续保留。
+本节为纸面证明，没有数学程序执行。
+
+root 独立核全有理函数域的 δ_P 核与两个非零留数、三个真实多项式同构的最高次数/奇偶、S₂/S₃全部 forcing，以及原四个低 jet、无穷分支 q 项消去和固定 Bernoulli 系数。前 §§1–15 保持原文；不把无权 cubic 的消去外推到旧加权 Cν(Qν)。无数学程序执行。

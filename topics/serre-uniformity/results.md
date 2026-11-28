@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原weighted moments的唯一多项式余项（已证明）**：[R1154 §16](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)实际Sym¹/²/³算子和有理留数自证三个同构，全部原权重归到四个唯一低jet；同Legendre无穷分支只消无权cubic的Fermat项。原joint的Bernoulli系数固定为3/8，不需除D2，其完整余项仍保，未宣非零。
+
 - **原加权Legendre的射影坐标与有限Ramanujan系统（已证明）**：[R1154 §15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原P/V给实际留数Jacobian与三函数封闭系统，首p强迫6a²完整保留；原四moments成为E6、E4²、同E4E6的指定相邻系数。最高强迫unit不替代原minor，实际共同零继续。
 
 - **原K4的有界三次primitive与有序mixed槽（已证明）**：[quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)实际A=D³I给a3=−δ⁴a−5/4，保完整e修正后a3=2ρδK4/b0−4vα；准确识别原P³P12ω32及对换槽、P²W的Cartier值。全部pth相位和亚纯项保留，第六层b6仍另有来源，未宣共同零排除。
