@@ -48,7 +48,7 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；全32s
 
 <!-- visible-larger-parallel-18:start -->
 Actions18：[run 46062343475/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46062343475)；[全阶段记录](notes/2026-11-27-public-actions-46062343475-1.md)。running；已返8，exit=未返。
-并行18规则核查：2026-11-28 01:05:49 UTC，真实pull至`0d0385bcdf2882781497d9ee09b92e8bee5c4932`，双README无变化。
+并行18规则核查：2026-11-28 01:10:54 UTC，真实pull至`4a8970079049c696e46ed63ddcdf2a58a363f8ac`，双README无变化。
 <!-- visible-larger-parallel-18:end -->
 
 <!-- visible-larger-parallel-19:start -->
