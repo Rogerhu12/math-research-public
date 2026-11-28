@@ -1031,3 +1031,72 @@ $$
 因此两目标的中央模 $p$ 同时为零，
 恰是这两个真实泛函同时杀整个三维空间。
 本节没有由三维性本身推出任一目标非零。
+
+## 31. 真正全驯 $X(P)^2\sqrt{x(P)}$ 权的独立性和倒数张量
+
+令 $f=34\delta$ 或 $390$，$\Lambda=\varpi_1\mathcal O_K$，$P$ 跑遍全部 primitive $f$ 挠点；原负标记也属于此集。置
+$$
+ a_P=x(P),\quad b_P=y(P),\quad \lambda_P^2=a_P,\qquad
+ w_P=X(P)^2\lambda_P,\quad
+ Q_P=(a_P^{-1},b_P/\lambda_P^3). \tag{AN1}
+$$
+$X(P)$ 是原代数完成 $\zeta$ 值。对 E17，原第三类行
+$\nu_{20}=-c_p^{-2}\sum_P\varepsilon(P)X(P)^2\kappa_P$ 的
+$[\tau^{2p}]$ 格使用
+$[\tau^{2p}](\kappa_P/d\tau)=-b_P^pa_P^{-(p-1)/2}-\lambda_PG(\bar Q_P)$；
+故其中倒数点项的实际权为 $+c_p^{-2}\varepsilon(P)w_P$。返回完整中央仍须保留 $\tau\to s$、$H$ 和所有其它行。
+
+任取每一 $\mu_6$ 轨道的一个代表及一个平方根，则这些 $w_P$ 在 $K$ 上线性无关。证明使用同一复嵌入下的完整格和。将 $\Lambda$ 缩放至最小周期为一的 $\mathcal O_K$，取 $z$ 在 Voronoi 六边形内，$r=|z|\le1/\sqrt3$；物理 $|w_P|$ 是归一格相应值除 $|\varpi_1|^3$。
+对 $G_{6m}=\sum_{0\ne\lambda\in\mathcal O_K}\lambda^{-6m}$，
+$|G_{6m}|\le6\zeta_K(3)<8$，因为 $\zeta(3)<5/4$、
+$L(3,\chi_{-3})<1$。绝对收敛的 Weierstrass 展开给
+$$
+ \begin{aligned}
+ X(z)&=z^{-1}\left(1-\frac{2\pi}{\sqrt3}r^2-\sum_{m\ge1}G_{6m}z^{6m}\right),\\
+ x(z)&=z^{-2}\left(1+\sum_{m\ge1}(6m-1)G_{6m}z^{6m}\right).
+ \end{aligned}
+$$
+写 $h=r^6\le1/27$。有
+$|1-(2\pi/\sqrt3)r^2|\le1$，
+$\sum h^m\le(27/26)h$，
+$\sum(6m-1)h^m=h(5+h)/(1-h)^2$。因此
+$r|X|\le1+8.5h$、$r|\sqrt x|\le1+22h$；后者用
+$\sqrt{1+t}\le1+t/2$。再由
+$(1+8.5h)^2(1+22h)\le1+60h$，得到
+$$
+ |w(z)|\le r^{-3}+60r^3. \tag{AN2}
+$$
+唯一单位轨道的 $r=1/|f|<1/50$；下界
+$r|X|\ge1-4r^2-9r^6$、
+$r|\sqrt x|\ge\sqrt{1-44r^6}$ 给该轨道
+$|w|>.96|f|^3$。
+
+其余 primitive 标记取最短代表 $\alpha/f$。$\alpha$ 与 $f$ 互素，每个 $\mu_6$ 类只取一次；若两个所选分子相差单位，则标记本已同类，所以这些分子所属主理想相异。两种 $f$ 都禁止二、三处的素因子。其它轨道在(AN2)首项的总和不超过
+$$
+ |f|^3\{\zeta_K(3/2)(1-4^{-3/2})(1-3^{-3/2})-1\}
+ <.71|f|^3.
+$$
+这里 $\zeta(3/2)<3$，按相邻项配对给
+$L(3/2,\chi_{-3})<1-2^{-3/2}+4^{-3/2}<.8$。
+全部轨道数至多 $|f|^2/6$，所以余项 $60r^3$ 的总和至多
+$60|f|^2/(18\sqrt3)<.04|f|^3$。单位类严格大于其它全部类的绝对值之和。
+
+若存在 $K$ 线性关系，在其非零系数中选择复绝对值最大的一个。实际 CM 互反使 $G_K$ 在 primitive $f$ 标记模 $\mu_6$ 上传递：按指定可逆剩余类选理想生成元，其 Frobenius 在 $E_1[f]$ 上的标量只差 $\psi_1((\alpha))/\alpha\in\mu_6$。于是可取 $\sigma$ 将该最大系数对应的类送到单位类；$\sigma$ 固定所有 $K$ 系数，其余类仅置换。
+$w_{uP}=\pm u^{-3}w_P$，平方根与共轭的选择只带入绝对值一的因子。上述严格三角不等式排除该关系。此处最大系数的选择保证所有其它项也受到同一个系数上界控制。
+
+对 $C:v^2=\lambda^6+1$ 的点 $(\lambda_P,b_P)$，两自然椭圆投影是 $(P,Q_P)$。Voloch 证明两投影同时为挠点的点只有两无穷点、两 $\lambda=0$ 点和六 $v=0$ 点。高阶 primitive $P$ 排除这十点，所以每个 $Q_P$ 非挠。对 $f=34\delta$ 亦已有 R1067 §92 的独立证明。
+来源：J. F. Voloch, *Torsion points on $y^2=x^6+1$*, pp.1–2，
+[作者全文](https://www.math.canterbury.ac.nz/~f.voloch/Pdfs/genus2.pdf)。
+
+令 $\rho(P)$ 是各自原评价中的实际系数：E17 取 $\varepsilon_{17}$；曲线对取 $\varepsilon_b^{-1}$。这样始终 $\rho(uP)=u\rho(P)$，没有反转原 Hecke 方向。在
+$\overline{\mathbf Q}\otimes_K(E_1(\overline{\mathbf Q})\otimes_{\mathbf Z}\mathbf Q)$ 中，
+$$
+ \sum_P\rho(P)w_P\otimes Q_P\ne0. \tag{AN3}
+$$
+确实 $Q_{uP}=\pm[u^2]Q_P$，其符号与 $w_{uP}$ 相同；
+$u\cdot u^{-3}u^2=1$，故一轨六项同向。各代表的 $w_P$ 乘自己的非零 $K$ 角色值后仍 $K$ 线性无关，而各 $Q_P$ 在右因子非零，遂得(AN3)。
+
+Fuchs–Pham 的 $p$ 进椭圆对数线性独立性因此使(AN3)对应的完整一型加权椭圆对数在每个好 $p$ 不为零；先将有限组点以共同非零整数倍送入形式对数盘，再除回即可。
+使用 *Some applications of the p-adic analytic subgroup theorem* (2016), Theorem 2.1；
+[原刊全文](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)。
+该断言仅针对(AN3)的真实全权张量；原模 $p$ 输入是 $G(\bar Q_P)$，完整中央还有其它项，不由此宣布中央非零。

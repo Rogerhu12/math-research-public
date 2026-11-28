@@ -213,3 +213,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §94：固定双商两格恒等式与补偿项无穷素数非零
 
 已证明：固定属二双商给原两格在普通/惰性处的统一曲率公式；每个原倒数点的固定线联络借Bost可解结构群定理及已证非挠性，推出补偿项在无穷不同素数非零，但未限定分裂型或推出完整中央非零。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §31：真实全驯倒数权的K独立性和非零张量
+
+已证明：用原导子的完整六角格和严格主项界，证明各μ₆轨代表的X(P)²√x(P)在K上线性无关；结合两椭圆投影的非挠性及正确原角色方向，给真实全驯倒数张量和其一型p进对数非零，保留完整中央尚有其它项的边界。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
