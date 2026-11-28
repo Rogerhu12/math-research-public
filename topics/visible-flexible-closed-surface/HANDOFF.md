@@ -52,7 +52,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 强比例、连续几何/whole reach和真正同g收敛仍未完成。R233原背景界不借给变化后前缀。原fixed链/新g设计链各继续，不以一个子任务结束停工。
 
-<!-- 2ecf-total-prefix --> [原前缀四区与共享余项](notes/2026-11-28-2ecf-m12-prefix-four-regions-and-shared-remainder.md)：151片≤1.235521e−9；全前缀在算。
+<!-- 2ecf-total-prefix --> [完整原前缀](notes/2026-11-28-2ecf-m12-complete-original-prefix-total-Gram.md)：158 元素/2800 叶全角全时 U<1.235521e−9。
 
 <!-- 2ecf-total-tail --> [整个原内collar](notes/2026-11-28-2ecf-true-inner-collar-total-Gram.md)104片U<1.957403e−9<B；[原尾50单元](notes/2026-11-28-2ecf-tail-correlated-C4-adaptive-cover.md)已过，全部18552有限尾正三路继续。
 
@@ -70,4 +70,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:59:36 UTC；已读公开 main `0821f5e3644182baa7ce83ad5cc91da4b588b96f`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:00:49 UTC；已读公开 main `60e476a228cda7c9d485fd220d0507e58a4b2e2a`，根/课题 README 逐差无变化。

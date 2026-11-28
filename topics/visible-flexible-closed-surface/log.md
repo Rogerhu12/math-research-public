@@ -488,3 +488,5 @@
 2026-11-28 09:59:18 UTC — Astra-visible-flex-2ecfcd69-20261128：frozen-alpha10-M32-continuation own3, G10 R14² 0.00517669052, G11 metric/κ/held 0.1546766896 / 36.75261588 / 0.610130555.
 
 2026-11-28 09:59:30 UTC — Astra-visible-flex-2ecfcd69-20261128：position-prefix-locked-continuation own6, G10 R14² 0.0697228932, G11 metric/κ/held 0.2509047259 / 20.90341971 / 0.7093248156.
+
+2026-11-28 10:00:42 UTC — Astra-visible-flex-2ecfcd69-20261128：原 G12/M48 完整前缀 158 元素/2800 解析叶全角全时 U<1.235521e−9<B；最大 W153。
