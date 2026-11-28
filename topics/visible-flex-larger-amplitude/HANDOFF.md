@@ -1,6 +1,6 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续至README全部完成；阶段/时长/失败均不停止。** 本次仅缩导航，[1e301完整前态](https://github.com/Rogerhu12/math-research-public/blob/1e301254bf717cd2822680f3e4f5b88b3640d1af/topics/visible-flex-larger-amplitude/HANDOFF.md)及其8c0b/51c/70c旧链保全部源参/预算/真值/失败未知；proof/ownnote不减。
+Astra-larger-e4e2a2bf-20261126（AI），承接前会话。**未完成，持续至README全部完成；阶段/时长/失败不停止。** 本次仅缩导航，[3882完整前态](https://github.com/Rogerhu12/math-research-public/blob/3882b582ef0228b32da53489b2db1838c234824e/topics/visible-flex-larger-amplitude/HANDOFF.md)及其固定旧链保全部历史源参/预算/结论/失败未知/真pull；proof、ownnote及原输入不减。
 
 ## 规则与完成标准
 
@@ -18,7 +18,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 [42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：原八阶段、29cefe69相/七整mesh全返；Gram精化5.52→8.26→16.56→24.83，裸场校准与覆盖失败，已闭。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
-[45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)：26输入/13原阶段，R765低峰与参考各4/8/16；共同物理场极旋转+全时空LS，真curl/四缝/全Gram/法球，两个末点各65相及七整网；中央按各解析轨道，未有实际结果。
+[45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
 
 所有原点/model/driver/源参/拒绝与预算保各ownnote；trial非accepted/final，异model不借坐标费用。
 
@@ -35,10 +35,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 全部旧终态/条件/未访见[results](results.md)/[open](open.md)/原proof、notes和固定H链，已登记不重做。RET100H/I/J/K/L逐字恢复已闭生成件，保父/活源参/唯一值；K/L净释1055572/1109759B。新输入各自重付，每子问题完即下一个。
 
-<!-- visible-larger-parallel-33:start -->
-Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。官方cancelled；已返2，科学子进程未自然返；仅最后实际记录，非最终数学报告。
-并行33规则核查：2026-11-28 16:09:06 UTC，真实pull至`f0e56017df20980d7adaeb41cf67322aa506f316`，双README无变化。
-<!-- visible-larger-parallel-33:end -->
+33末真pull：2026-11-28 16:09:06 UTC `f0e56017df20980d7adaeb41cf67322aa506f316`，双README无变；官方取消及原末观察见ownnote。
 
 <!-- visible-larger-parallel-34:start -->
 Actions34：[run 46135301432/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46135301432)；[全阶段记录](notes/2026-11-28-public-actions-46135301432-1.md)。running；已返2，exit=未返。
@@ -49,24 +46,9 @@ Actions34：[run 46135301432/1](https://github.com/Rogerhu12/math-research-publi
 Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46137993293)；[全阶段记录](notes/2026-11-28-public-actions-46137993293-1.md)。running；已返2，exit=未返。
 并行35规则核查：2026-11-28 16:17:26 UTC，真实pull至`2da36c7d9613d54e967be16b713cbde6c9378748`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
-<!--r734-publish-->R734 [完整补录](notes/r734-actual-Hermite-46139111288-1.json)；双README真pull `f0c64cfc0a6eb6e1378c0b42bc38070378fbdcd0`。
-<!--r738-publish-->R738 [415片](notes/r738-actual-gap-46139897443-1.json) 双README真pull a9c5431fa8eef03034309c5cad77f7accac022a0
-<!--run36-bent-disk-->36 [实测](notes/run36-bent-disk-46141466656-1.json) 双README真pull 04a84e37dd4e5046ea8e95b2d012a62fb6da4872
-<!--run37-bent-disk-arclength-->37 [实测](notes/run37-bent-disk-arclength-46142745238-1.json) 双README真pull 7cbc888f2f2ce772dcf3c99fe45dd0da3d6c0f29
-<!--run38-bent-disk-killing-->38 [实测](notes/run38-bent-disk-killing-46145189191-1.json) 双README真pull b9c53af246850cad3e9d2784c381391b4104eb38
-<!--r742-publish-->R742 [13设计全六jet](notes/r742-actual-two-jet-46145500268-1.json) 双README真pull 7eba9af2a6cf5d15e042552f19b99d2221f2297d
-<!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
-<!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
-<!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
-<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 双README真pull c4c854f728d235424eac3fc4301597665f039d24
-<!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
-<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 834e4d3031b88caea3da121c582306cca49c1c9c
-<!--r758-publish-->R758 [双弯帽四项实际拟合](notes/r758-curved-crown-46156613563-1-index.json) 双README真pull e34c3291c61540ba09c2c2361a24467e6782144a
-<!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull cf93a19b1265bdfc4a4c22bb3ee7c03771fdfc28
-<!--r762-publish-->R762 [双帽正弧长与四路真实拟合](notes/r762-gauged-crown-46161216634-1-index.json) 双README真pull c9a75159677e9fbacb855e315d210e5164965797
-<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
-<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 500ab7536d58144ce7afc5c6bb9f5a10effc1a90
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 30bad7ad50aee4c51442667f4888e13c711328c0
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull e82e092f608f9ad6f14f0ba4833f404f663a7c06
+<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
+<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
