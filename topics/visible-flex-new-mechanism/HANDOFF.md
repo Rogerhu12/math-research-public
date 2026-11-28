@@ -6,7 +6,7 @@
 
 公开最近成功的终端 pull/双 README 检查为 **3bbf2a55692c7986dfdb391fc46b4c4593cfd2d5**；环境失效前最后本课题终端推送 R715 为 **14438fb45fb7e617c4eae0c230396ab4b305600e**。私库最近成功的终端 pull 为 2026-11-28 13:40:01 UTC、**8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**。14:32 私库 pull 因磁盘满失败，随后执行环境不可用；不能登记为成功 pull。
 
-终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **8e9e0c09bd7dab5aead36586cb388fdbd3432654**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
+终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **667fcea7ed9e387ce76d05fa2e2488a4b9d2623b**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
 
 根16已读；所有子代理显式 gpt-6.2-astra/ultra，当前三名均无下级。每结论独立提交推送；非快进先读新 head、保留他人变化重新接续，禁止强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析。根12不重复机械审核；根15不存可重算大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -14,7 +14,7 @@
 
 [R721](results/R721-global-flat-rulings-obstruct-the-symmetric-long-shoulder.md) 已证原完整平片在双脉冲和同片左右镜像下只能有水平非平母线，F=xA+B(v)。保原中央窄条实际刚姿则整中央主片固定，恢复 R713 的真短肩端切矛盾，λ≥.60、K≤10.4 不可行且任意σ无助。**R719 原镜像长肩 request/WF 未发布，不得触发这个已知不能全片延拓的输入。** R715/R704 的孤立小相位定理仍保留。
 
-[R720](results/R720-joint-source-normal-tube-of-four-shoulders-and-both-complete-crowns.md)已证完整源中央辅助面reach≥1/10.4及小相位全部中央混合对≥.0961。截断区没有同g主张，仍欠纵窗。R722 两个有符号材料矩的完整可达域、有限求积真实补项和定量根域正在登记。R723 真去同片镜像与新长座、R724 中央切角恒定而外纵段活动的真新源、R725 闭纬圈实物坐标/全时共用E可行区继续推进，不能借旧输入资格。
+[R720](results/R720-joint-source-normal-tube-of-four-shoulders-and-both-complete-crowns.md)已证完整源中央辅助面reach≥1/10.4及小相位全部中央混合对≥.0961。截断区没有同g主张，仍欠纵窗。[R722](results/R722-exact-range-of-signed-material-moments.md)已证两矩完整可达域/端部/目标积分范围和凸势根球；有限求积的真实总导数补项必须保留，未授实际场资格。R723 真去同片镜像与新长座、R724 中央切角恒定而外纵段活动的真新源、R725 闭纬圈实物坐标/全时共用E可行区继续推进，不能借旧输入资格。
 
 ## 环境中断时未发布的真实稿件
 
