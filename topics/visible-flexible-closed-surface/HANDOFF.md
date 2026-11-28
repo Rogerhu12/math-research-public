@@ -53,6 +53,8 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)准确混合K圆面有整闭reach；[R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)证明其有限阶零点仍迫正则 gap 一阶导数为零，继续实际非圆源。
 
+<!-- 2ecf-r278-Minkowski --> [R278](results/R278-R262-true-convex-central-support-and-noncircular-width-continuation.md) 将 R262 原场继续至真实非圆新中央，单锁小步移位峰 1.25e−5、双锁 2.36e−4，η=1/32 单锁 1.03e−4；全角凸性、周长及支撑增益严格，强指标待解。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong新尾/喉完整位置，m12新正解析曲率半径中央及真Γ95，exact从R262释放混合频率并锁真实中央宽差；root构扩大真平领的新整场。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -61,4 +63,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:10:07 UTC；已读公开 main `2924bb717c8fa5b72735125d349e704fc9add851`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:10:17 UTC；已读公开 main `ecb09f468aa52737fe305f712f905015064afd3c`，根/课题 README 逐差无变化。

@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R278：R262 真实中央凸性与保宽差非圆继续](results/R278-R262-true-convex-central-support-and-noncircular-width-continuation.md)（2026-11-28）：实际原中央及四个保存端口的连续凸性、保周长与方向增量；全整数角真场按原 g 求解。
+
 - [R277：R272同一真实闭族的显式全局法管](results/R277-first-explicit-full-closed-normal-tube-for-R272.md)（2026-11-28）：所有近弦、跨片和跨帽给 reach≥1/27224130085289464320000000；该保守正界不满足强厚度，R279严格失败同时保留。
 
 - [R279：源HF64+全W真实径向法曲率>602/25，整闭reach/D<125/8428；新g及实际双材料钟准确全环双射，R272两强变化量及此失败全时转移。](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md)（2026-11-28）。
