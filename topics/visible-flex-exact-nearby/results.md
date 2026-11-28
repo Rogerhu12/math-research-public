@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ15：原普通补空间的两个完整频率窗联合逆](results/R149-supplement-entire-ordinary-waist-complement-from-two-actual-frequency-windows.md)：全M=97..2^20和H>2^20的四个真误差块由[[.44+.1c,.71+9c],[.00004+.1h,.02+9h]]支配。真实同WPL输出c≤3,h≤1/32或c≤4,h≤1/64均足以逆整个ordinary补；完整low96、物理root96、两mean/phase/height同一重构，物理c,h仍未支付。
+
 - [ASQ13：真逆密度的相反符号输入估计](results/R149-supplement-opposite-density-inverse-on-original-high-frequency-inputs.md)：从S^{-1}=C′+D′的实际同号/异号块恒等式，得到D C^{-1}=−(C′)^{-1}D′及不交换P97的完整输入估计12d_E+.00132g1；原真复逆strip、全无限输入density极限及H^{-4/3}右因子均保。
 
 - [ASQ14：原百万完整WMA头在真实有符号逆中的同一范数](results/R149-supplement-original-WMA-head-on-the-true-signed-waist-inverse.md)：从原WMA完整14目标/139current逐字节及blob/6历史整件receipt读取同一signed实坐标，原1..1048576全部头的I G<.573；并非只前1023，原两私载体不重建，旧算术0。

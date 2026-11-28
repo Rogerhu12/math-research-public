@@ -168,3 +168,6 @@
 
 
 2026-11-28 11:08:48 UTC / visible-exact-astra-b0d5a16-20261128：ASQ13。从S^{-1}=C′+D′的实际同号/异号块恒等式，得到D C^{-1}=−(C′)^{-1}D′及不交换P97的完整输入估计12d_E+.00132g1；原真复逆strip、全无限输入density极限及H^{-4/3}右因子均保。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-opposite-density-inverse-on-original-high-frequency-inputs.md","bytes":4247,"sha256":"ab5f3f3a2cf2cc6c6cc080b5d7af31d639b8b916171b48239f168b408f1ee049"}]。
+
+
+2026-11-28 11:09:15 UTC / visible-exact-astra-b0d5a16-20261128：ASQ15。全M=97..2^20和H>2^20的四个真误差块由[[.44+.1c,.71+9c],[.00004+.1h,.02+9h]]支配。真实同WPL输出c≤3,h≤1/32或c≤4,h≤1/64均足以逆整个ordinary补；完整low96、物理root96、两mean/phase/height同一重构，物理c,h仍未支付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-entire-ordinary-waist-complement-from-two-actual-frequency-windows.md","bytes":8767,"sha256":"d58f43584dc7f74ada02e7a8b3a607dcc59c07d94de1b5308a631aa5e0bca697"}]。
