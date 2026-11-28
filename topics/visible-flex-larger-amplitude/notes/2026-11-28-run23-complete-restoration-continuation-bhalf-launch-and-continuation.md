@@ -801,3 +801,233 @@ The complete official run object and complete returned job wrapper are preserved
   }
 ]
 ```
+
+## 2026-11-28 07:36:40 UTC — 23官方取消及最后完整观察
+
+官方jobs实际为completed/cancelled：run46094430214/attempt1、job140822424469，起01:42:08Z、止07:32:27Z；research step在07:32:21Z取消。取消原因没有返回，不由预算/时长推断。最后完整控制器只读观察07:30:16Z仍为science未自然返回；只两个必要输入已0，完整science report/final/全部typed仍未知。
+
+当前仍87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f/accepted2，Phi3825.0581646753217/Gram.6460503043451958/g.9678293850088526；491dae g.9734004743711437已拒。下一344a0b仅自己的3824.9498851292506/.646051622709035统计，几何/接受未知。旧μ续接并没有因此给完整可行场；不补最后已接受数或父checkpoint。
+
+### 官方完整jobs
+
+```json
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 140822424469,
+      "run_id": 46094430214,
+      "workflow_name": "Visible larger amplitude complete restoration damping continuation 20261128 23",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVt5L2s8AAAAgyaurlQ",
+      "head_sha": "3d1f7b396e735e07f1dceca825aa69f963c105dc",
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140822424469",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46094430214/job/140822424469",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-28T01:42:06Z",
+      "started_at": "2026-11-28T01:42:08Z",
+      "completed_at": "2026-11-28T07:32:27Z",
+      "name": "Construct the same fixed target and solve the complete restoration continuation",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T01:42:09Z",
+          "completed_at": "2026-11-28T01:42:09Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T01:42:09Z",
+          "completed_at": "2026-11-28T01:42:17Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T01:42:17Z",
+          "completed_at": "2026-11-28T01:42:23Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T01:42:23Z",
+          "completed_at": "2026-11-28T01:42:53Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 5,
+          "started_at": "2026-11-28T01:42:53Z",
+          "completed_at": "2026-11-28T07:32:21Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2026-11-28T07:32:21Z",
+          "completed_at": "2026-11-28T07:32:21Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-28T07:32:21Z",
+          "completed_at": "2026-11-28T07:32:22Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-28T07:32:22Z",
+          "completed_at": "2026-11-28T07:32:22Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140822424469",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012463,
+      "runner_name": "GitHub Actions 1000012463",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
+```
+
+### 最后完整只读观察
+
+```json
+{
+  "step_id": "complete-fixed-fejer-restoration-continuation-bhalf-first-20261128",
+  "scientific_source_commit": "b31c3422a7f8f86954977988c8386208301a2942",
+  "scientific_source_sha256": "f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371",
+  "pid": 3652,
+  "observations": {
+    "fixed-fejer-restoration-continuation-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 07:30:03 UTC",
+      "point": "344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c",
+      "cached_angle_roots": 1297,
+      "closure_original_returns": 200215,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T06:53:38.351892+00:00",
+      "math_event": "trial-statistics-returned",
+      "math_driver": "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699",
+      "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 3825.0583894874153,
+      "initial_Gram": 0.6460503011117507,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.968424994209506,
+      "initial_geometry_complete": true,
+      "current_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
+      "current_Phi": 3825.0581646753217,
+      "current_Gram": 0.6460503043451958,
+      "current_geometry_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
+      "current_violation": 0.9678293850088526,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c",
+      "trial_Phi": 3824.9498851292506,
+      "trial_Gram": 0.646051622709035,
+      "trial_accepted": null,
+      "accepted_directions": 2,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.9678293850088526,
+      "current_g_body_diameter": -0.03813552770937323,
+      "current_g_distance_plus": 0.005863070400698112,
+      "current_g_distance_minus": -3.0936337267044083,
+      "current_g_cap_diameter": -0.06715131504375238,
+      "current_g_height_floor": -1.0411715965356552,
+      "previous_completed_trial_point": "491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55",
+      "previous_completed_trial_g": 0.9734004743711437,
+      "previous_completed_trial_accepted": false,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 3824.8418400694645,
+      "previous_completed_trial_Gram": 0.6460565739889155
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-restoration-continuation-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3400,
+      "sha256": "f21c75ce6049ce74a0c447238088a63257c547418e0ddd841cb3055321352f0a",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 11091,
+      "sha256": "73b26f96a2564b3ce5d2ec09cad37cfb5e41707f0e3c1e29e1226b2a4d3062fa",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "ce5c3f8517a1b7eeaed3ed94e2012c8cae736268f23b352aa3fcad0f097c5118",
+  "observed_utc": "2026-11-28T07:30:16Z"
+}
+```
+
+### 原已读规则槽
+
+<!-- visible-larger-parallel-23:start -->
+Actions23：[run 46094430214/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46094430214)；[全阶段记录](notes/2026-11-28-public-actions-46094430214-1.md)。running；已返2，exit=未返。
+并行23规则核查：2026-11-28 07:30:18 UTC，真实pull至`7588478671c1f733a31225fce654008d3c5b5a75`，双README无变化。
+<!-- visible-larger-parallel-23:end -->
+
+纯读取完整队列准备仍保，但本次科学未自然返回且runner已终态，不能标成已运行pure。继续第31组真实新输入和独立R729求解改法，全部原失败/未知保。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+    "bytes": 51483,
+    "sha256": "397fff1954aef96559446f2be6f17ce34c9a5ac5837ab4dfdb14145f094192d1",
+    "git_blob_sha": "c784647a90be8574b3ca81fe48920cce46100214",
+    "fixed_commit": "603d2d30678b9e9c40145af93f7f30c9af2c1d9b",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

@@ -229,3 +229,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:32:08 UTC — 完整旧保全JSON仅去字符串外空白
 
 87份旧metadata原token逐字不改，只去字符串外JSON空白；原文件毛减569032B，新增完整old/current整身份总表41637B、再生器3694B、说明3369B，文件净减520332B（另计本条/H/open）。原数字字面/字符串/键序/数组序/所有失败未知和原来源身份保，未用parse-reserialize；89份已紧凑者不写、4份byte-delta不动。原whole身份固定f687c963，历史hash reader先整Git恢复原文件，现字节按新映射，不冒旧SHA；无科学源/活queue/数值参数/证明变化。见[完整映射](computations/complete-retention-json-lexical-format-delivery.json)，没有新科学执行或准入门。双README云核至`70bfcad86e9fe288fe12ff94c6177ac739546669`无变（非pull）。
+
+## 2026-11-28 07:36:40 UTC — 23官方取消及最后完整观察
+
+23官方completed/cancelled至07:32:27Z（research07:32:21Z），原因未知。末观察07:30:16Z保87c076 accepted2/g.9678293850088526、491dae拒/344a0b仅统计；科学final/typed未自然返。完整官方对象/原观察/旧规则槽保，不假排pure，继续31和R729。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`2e93cf0d8af80b774daf5e0b44ebdeaa6574f45b`无变（非pull）。
