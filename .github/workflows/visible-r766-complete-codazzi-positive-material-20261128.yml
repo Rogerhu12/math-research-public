@@ -1,0 +1,94 @@
+name: visible-flex complete two-field Codazzi on positive fixed material
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r766-complete-codazzi-positive-material-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r766-complete-positive-fixed-material
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+      R766_REQUEST: topics/visible-flex-new-mechanism/computations/request-r766-complete-codazzi-positive-material-20261128.json
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r766-complete-codazzi-positive-material-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r766_gauss_codazzi_material_frame.py
+            /topics/visible-flex-new-mechanism/scripts/r764_positive_slope_material.py
+            /topics/visible-flex-new-mechanism/scripts/r738_real_macro_reference.py
+            /topics/visible-flex-new-mechanism/scripts/r738_negative_tail_and_macro_source.py
+            /topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py
+            /topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py
+            /topics/visible-flex-new-mechanism/scripts/r758_material_jet_and_angles.py
+            /topics/visible-flex-new-mechanism/scripts/r766_single_hermite_physical_surface.py
+            /topics/visible-flex-new-mechanism/scripts/r761_unrestricted_frame_and_solid.py
+            /topics/visible-flex-new-mechanism/scripts/r738_whole_material_macro_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r738_paid_true_native_input.py
+            /topics/visible-flex-new-mechanism/scripts/r738_macro_spline_space.py
+            /topics/visible-flex-new-mechanism/scripts/r738_deep_cap_bounds.py
+            /topics/visible-flex-new-mechanism/scripts/r735_paid_tail_beta_envelope.py
+            /topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r728_full_spinor_geometry.py
+            /topics/visible-flex-new-mechanism/scripts/r726_paid_half_projection.py
+            /topics/visible-flex-new-mechanism/scripts/r703_weighted_material_field.py
+            /topics/visible-flex-new-mechanism/scripts/r703_transported_lattice_anchor.py
+            /topics/visible-flex-new-mechanism/scripts/r687_darboux_frame_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py
+            /topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_input.py
+            /topics/visible-flex-new-mechanism/scripts/r703_real_material_mass_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_hermite.py
+            /topics/visible-flex-new-mechanism/scripts/r748_single_height_development.py
+            /topics/visible-flex-new-mechanism/scripts/r766_deep_so3_hermite_bounds.py
+            /topics/visible-flex-new-mechanism/scripts/r766_codazzi_physical_rows.py
+            /topics/visible-flex-new-mechanism/scripts/r748_nested_true_material_height.py
+            /topics/visible-flex-new-mechanism/scripts/r748_paid_material_height_projection.py
+            /topics/visible-flex-new-mechanism/scripts/r766_paid_positive_metric_source.py
+            /topics/visible-flex-new-mechanism/scripts/r766_actual_two_field_fixed_metric_20261128.py
+            /topics/visible-flex-new-mechanism/results/R766-positive-azimuthal-curvature-and-two-full-material-Codazzi-equations.md
+            /topics/visible-flex-new-mechanism/computations/r766-true-positive-curvature-GC-fixed-material-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r764-r738-source-angular64.json
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R764-positive-tail-metric-and-two-exact-periodic-curvature-zero-collars.md
+            /topics/visible-flex-new-mechanism/results/R767-the-two-high-circle-germs-and-unrestricted-material-development.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r766-first-complete-two-field-positive-material.md
+            /.github/workflows/visible-r766-complete-codazzi-positive-material-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and solve both complete physical Codazzi fields
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r766-complete-codazzi-positive-material-20261128.json
+          --lane actual-complete-two-fields
+      - name: Preserve the full material fields all physical columns and exact next operation
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r766-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/r766-paid/
+          retention-days: 30
+          if-no-files-found: error

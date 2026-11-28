@@ -241,3 +241,9 @@ R761末段原费用用语定点更正为wall880.705914869秒和原累计science 
 ## 2026-11-28 20:05:40 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R759原射线首严格双谷工单
 
 **R759 原射线的完整双谷严格包围首单已装订。** [原242732胞/四真实cut端口直接继承](notes/2026-11-28-r759-first-paid-projective-two-valley-scope.md)；224-bit/11阶完整变分Taylor及射影锥、两真谷Krawczyk，1500秒，原32射击/DOP/Peano不重。每个新矩阵/锥/试验及pending独立保存；严格双核即使过门也不授有限角族。
+
+## 2026-11-28 20:13:42 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R766两真材料场首单与R767局部覆盖
+
+**R766 完整两场Codazzi首单已装订。** [同R764新固定g的185→309→757全列](notes/2026-11-28-r766-first-complete-two-field-positive-material.md)，真实三中心、两Codazzi/全角连接、三Gram/两帽六jet/全深及独立径二分；同一明确C² Hermite实体出全部导数。根全文审6新源及论文，首2400秒。原610B角校准复用，其余新材料另付；参考宏观不授拟合场，连续/浮点界仍开。
+
+**R767 已排旧单径高圈表示，并证明完整径函数容纳真CK开领。** [固定非零角的二阶障碍与局部覆盖](results/R767-the-two-high-circle-germs-and-unrestricted-material-development.md)根全文审；不排R764新g。原有限Hermite H不派发，R767全径D后端正在接真物理消费者，局部正宽不冒全环延拓。

@@ -1,0 +1,72 @@
+{
+  "reserve_seconds": 35,
+  "tail_depths": [
+    7,
+    8,
+    9
+  ],
+  "radial_splits": [
+    1,
+    1,
+    2
+  ],
+  "radial_orders": [
+    2,
+    4,
+    5
+  ],
+  "angles": [
+    32,
+    48,
+    72
+  ],
+  "stages": [
+    {
+      "spans": 4,
+      "K": 3,
+      "log_pairs": 1,
+      "iterations": 6
+    },
+    {
+      "spans": 8,
+      "K": 4,
+      "log_pairs": 1,
+      "iterations": 8
+    },
+    {
+      "spans": 16,
+      "K": 6,
+      "log_pairs": 2,
+      "iterations": 8
+    }
+  ],
+  "initial_trust": 0.001,
+  "retarget_trust": 0.0006,
+  "max_trust": 0.025,
+  "column_block": 3,
+  "tsqr_radial_block": 40,
+  "trials": 8,
+  "fd_tolerance": 0.0003,
+  "prolong_gate": 2e-06,
+  "peak_scale": 0.25,
+  "geometry_weight": 4,
+  "cone_guard": 0.08,
+  "axis_guard": 0.3,
+  "length_weight": 3,
+  "goal": 1e-06,
+  "rim_tolerance": 2e-09,
+  "length_meridians": 24,
+  "length_directions": 128,
+  "initial_projection_detail": 1,
+  "theta": "arcsin(.27)",
+  "actual_projection_amplitudes": [
+    0.0,
+    0.15,
+    0.4,
+    0.7,
+    1.0
+  ],
+  "gc_weight": 0.45,
+  "connection_weight": 0.2,
+  "integration_goal": 2e-06
+}
