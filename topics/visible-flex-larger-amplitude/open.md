@@ -137,6 +137,6 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 
 ### 容量和继续标准
 
-[ret59全账](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)85可再生旧数值净860388B，原全源参/run/资源/输入/结论/消费者及Git恢复保；30已知SHA256/55历史未知及原修正、失败边界保。ret58及此前全账不删。根15准许此类退存，原源码/参数/证明、未知或活输入/parent91/ports/Nelder不猜删。
+[ret60第一子批](computations/legacy-exact-generated-outputs-retention-60-part1-complete-delivery.json)精退18个M94/M96数值检查点与R167完整旧有限读出，共1024195B，4完整件114729B/净909466B。全部原SHA已知，43输入/实际源码闭包/原run资源/失败及有限结论保；M94/M96 final与R96结果留树，自映射/收缩/全模式未付；R167不冒连续根或M20结果。完整恢复固定34317；[ret59](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)及前链不删。未知或活输入/parent91/ports/Nelder不猜删。
 
 README全部标准未完成；时长、阶段、失败和输入困难不是终点。新raw只runner/scratch，保全可复现代码/配方/真实运行与SHA，继续真实求解和全部固定目标精化。

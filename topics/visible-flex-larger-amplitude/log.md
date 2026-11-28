@@ -254,3 +254,7 @@ HANDOFF及open仅当前§7重新编排，完整旧版固定a5e459d4afc7d52804f25
 ## 2026-11-28 02:00:54 UTC — 23两个完整输入实际返回，恢复策略科学已进入
 
 23两完整input自然0，reference525.4031628839999s；实际science b31c3422/f2a9/PID3652已进入，01:52:16尚无progress/model/point/策略结果。全部输入命令与11输出全身份固定保原卷，不以输入complete冒场或准确积分完成。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`6be9a09f5108fc248f8bd98b5420b29a5d65cfca`无变（非pull）。
+
+## 2026-11-28 02:08 UTC — ret60第一子批完整旧数值来源保全
+
+普通精退19 exact生成输出1024195B：18 M94/M96中间数值检查点及R167有限根读出；4完整保全件114729B，净909466B。19原SHA全有小记录、全部Git身份固定34317，43完整输入/实际源码闭包/argv/env/资源/消费者及准确恢复保。原final/R96/证明/失败留树；有限输出不冒连续证书或自映射，原91目录未物化件不伪补。仅本19条，继续下一来源闭合子批及真正24对照。双README云核至`b7f434d2c2ec7ac118cb1c7111005539d087bb12`无变（非pull）。
