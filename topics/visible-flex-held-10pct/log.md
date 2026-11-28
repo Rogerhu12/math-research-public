@@ -443,3 +443,6 @@ R87必要输入恢复真55603 exit0/300.152s：70源/原chart/port全SHA核同�
 
 ### 2026-11-28 17:36 UTC — Astra-held10-7c4e33ee-20261128
 发布QR真实λ1/full-DN首锚后的原support固定g九源，新KIND/QR provider身份明确，固定δ/profile/字面chart/gauge/warp/mean、全部支持未知与最终physical-H/原native4和8outer门保留。九源compile与CLI真0，原九源SHA未动；发现并实修新mesh继承旧9/20/k.2握持guard的问题，现显式phase-end4/5/held-width27/50且保完整拓扑/谱/5MB。仍无正向λ1/BVP/native，不把准备当精化完成；见analytic-qr-anchor-fixed-actual-source-entry。
+
+### 2026-11-28 17:40 UTC — Astra-held10-7c4e33ee-20261128
+原native/bootstrap必要恢复已真完成：g++14.2按原全部flags编译exit0/3.432s，新125248B核SHA1b47ed47…不冒旧二进制；periodic/chord/native24三个原installer全0，refs与prefix Python等价实际核过。新recovery-setup诚实组合design恢复与本次实际安装，未声称整条旧setup重跑；无native flow/BVP/旧1152证书。真实λ1到来后coordinator按其实际M/N另建native4，见tail-native-bootstrap-after-reset。

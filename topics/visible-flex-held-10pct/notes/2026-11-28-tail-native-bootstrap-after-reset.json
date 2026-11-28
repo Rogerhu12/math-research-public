@@ -1,0 +1,393 @@
+{
+  "schema": "native-bootstrap-after-volume-reset-record-v1",
+  "status": "actual_compilation_and_original_preparation_completed",
+  "compilation": {
+    "schema": "original-generic-native-compiler-recovery-v1",
+    "status": "actual_compile_completed",
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-fexcess-precision=standard",
+      "-frounding-math",
+      "-DVF_BUILD_MAIN",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "-o",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "-lm"
+    ],
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf",
+      "bytes": 29468
+    },
+    "header": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356",
+      "bytes": 3370
+    },
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "UTC": "2026-11-28T17:24:17.311135+00:00",
+    "native_solve_executed": false,
+    "old_binary_identity_claimed": false,
+    "actual_child_pid": 7,
+    "actual_child_returncode": 0,
+    "actual_wall_seconds": 3.431765622000057,
+    "executable": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94",
+      "bytes": 125248
+    }
+  },
+  "preparation": {
+    "schema": "original-bootstrap-native-source-preparation-recovery-v1",
+    "status": "actual_source_preparation_completed",
+    "commands": [
+      {
+        "label": "periodic-install",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/install_periodic_quadrature.py",
+          "--source-topic",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-source",
+          "--manifest",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-install.json"
+        ],
+        "status": "complete",
+        "actual_pid": 6,
+        "actual_returncode": 0,
+        "wall_seconds": 0.04004131800002142,
+        "log": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/periodic-install.log",
+          "sha256": "408057f37160946f1275b9bebb8c51453370e81736fe9214eeb6ef5ca55bc270"
+        }
+      },
+      {
+        "label": "chord-install",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_bounded_chord_tail.py",
+          "--copy-from",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-source",
+          "--source-topic",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source",
+          "--manifest",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-install.json"
+        ],
+        "status": "complete",
+        "actual_pid": 7,
+        "actual_returncode": 0,
+        "wall_seconds": 0.15334650399995553,
+        "log": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/chord-install.log",
+          "sha256": "8a9941edc807d18844050c7eae66469a7ff0766f204c8f71728904212e857046"
+        }
+      },
+      {
+        "label": "bootstrap-native24-prepare",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/prepare_recovered_native.py",
+          "--source-topic",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source",
+          "--dest",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/native-tail24",
+          "--native-cli",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+          "--modes",
+          "24",
+          "--spacing",
+          "3",
+          "--quadrature",
+          "512",
+          "--steps",
+          "16",
+          "--workers",
+          "2"
+        ],
+        "status": "complete",
+        "actual_pid": 16,
+        "actual_returncode": 0,
+        "wall_seconds": 0.2517344860000321,
+        "log": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/bootstrap-native24-prepare.log",
+          "sha256": "8620a9ffe77eac7392b0f35e84b7786546d728b6704994993a6bbe79732f2a75"
+        }
+      }
+    ],
+    "actual_copy_operations": [
+      {
+        "source": "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+        "destination": "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-source",
+        "status": "copied_original_source"
+      }
+    ],
+    "BVP_executed": false,
+    "tail_executed": false,
+    "old_binary_recovered_claimed": false,
+    "shared_install": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-install.json",
+      "sha256": "547e357efa808fc32f793d4f5670117cdfa05e26e0d1dbe7ff67f527fb771b5e"
+    },
+    "periodic_install": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-install.json",
+      "sha256": "408057f37160946f1275b9bebb8c51453370e81736fe9214eeb6ef5ca55bc270"
+    },
+    "chord_install": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-install.json",
+      "sha256": "8a9941edc807d18844050c7eae66469a7ff0766f204c8f71728904212e857046"
+    },
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-tail24/native-manifest.json",
+      "sha256": "c1ddc4fee28a7d5c157a771a1276a0c57def8ab9483936725482ab191cfaed53"
+    },
+    "compiled_executable": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+    },
+    "build_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/summary.json",
+      "sha256": "78ae784db1b4936b2de58e15dce81d6353da153e6ce303362b2981c43a10e4b9"
+    }
+  },
+  "setup_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/recovery-setup.json",
+    "sha256": "3f5302c7186e823e16ac934824e3d507bfd56fa75958b980239573cdbcf0e8d8"
+  },
+  "setup": {
+    "schema": "necessary-shared-input-and-original-native-bootstrap-recovery-v1",
+    "status": "actual_source_and_native_bootstrap_ready",
+    "scope": "Actual design-owned 70-source/port/chart recovery plus independent original-flag kernel compilation and original periodic/chord/native source preparation. This is a new execution-provenance record, not a claim that the original all-in-one tail_recovery_setup.py ran.",
+    "commands": [
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/recover_m3_source.py",
+        "--repo",
+        "/workspace/scratch/7c4e33ee17de/math-research-public",
+        "--dest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/recovered-source"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/make_sparse_source.py",
+        "--source-recovery",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/recovered-source",
+        "--dest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_flat_profile.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flexible-closed-surface",
+        "--dest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_shared_tail_engines.py",
+        "--copy-from",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+        "--manifest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-install.json",
+        "--export-modules",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-modules"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/recovered_q021/export_original_worker_port.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+        "--config",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/baseline-tail.json",
+        "--out",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/baseline-port.json"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/recovered_q021/export_original_worker_port.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+        "--config",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-tail-settings.json",
+        "--out",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-linear-port.json"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/regenerate_m3_reference.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--profile",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/fast45-reference-profile.json",
+        "--port",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/baseline-port.json",
+        "--out",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference"
+      ],
+      [
+        "g++",
+        "-std=c++17",
+        "-O2",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fexcess-precision=standard",
+        "-frounding-math",
+        "-DVF_BUILD_MAIN",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+        "-o",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+        "-lm"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/install_periodic_quadrature.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-source",
+        "--manifest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-install.json"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_bounded_chord_tail.py",
+        "--copy-from",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/periodic-source",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source",
+        "--manifest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-install.json"
+      ],
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/prepare_recovered_native.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source",
+        "--dest",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/native-tail24",
+        "--native-cli",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+        "--modes",
+        "24",
+        "--spacing",
+        "3",
+        "--quadrature",
+        "512",
+        "--steps",
+        "16",
+        "--workers",
+        "2"
+      ]
+    ],
+    "generated": {
+      "inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+      "m24-tail-settings.json": "37bc9073d2dba1d110b165b5febbb054d1dd1a8ca09ec23b86e2d76c39f08f46",
+      "m24-linear-port.json": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+      "frozen_flow_batch": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94",
+      "native-tail24/native-manifest.json": "c1ddc4fee28a7d5c157a771a1276a0c57def8ab9483936725482ab191cfaed53"
+    },
+    "design_input_recovery": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-input-recovery-after-volume-reset.json",
+      "sha256": "49ff67e14179c31b2c0e3ceb067c131163e4e79e4f7cd819f7ce5fbec86fc4c2"
+    },
+    "actual_compilation": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/summary.json",
+      "sha256": "78ae784db1b4936b2de58e15dce81d6353da153e6ce303362b2981c43a10e4b9"
+    },
+    "actual_native_source_preparation": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/bootstrap-preparation.json",
+      "sha256": "360a64e619ce08968052b44608e24a08376e4f059e9d4956c5cd7e224655e1bc"
+    },
+    "original_setup_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/tail_recovery_setup.py",
+      "sha256": "3fbea8ebfa095bed3895601560b582f747d8adb75faf646693431d22a4ed5e3f"
+    },
+    "original_all_in_one_setup_executed": false,
+    "BVP_executed": false,
+    "tail_executed": false,
+    "old_binary_identity_claimed": false,
+    "bootstrap_native_scope": {
+      "M": 24,
+      "spacing": 3,
+      "quadrature": 512,
+      "steps": 16,
+      "workers": 2
+    },
+    "bootstrap_scope_is_final_field_scope": false,
+    "final_true_M_native4_scope_prepared_by_original_coordinator": true
+  },
+  "verification_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-recovery-build-20261128/bootstrap-verification.json",
+    "sha256": "adbed7eefee578795d741fb48b2b3bfd00ba4b036a27bedb056663a4d18af9e0"
+  },
+  "verification": {
+    "status": "actual_original_coordinator_bootstrap_source_checks_passed",
+    "coordinator": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/continue_original_actual_dn_qr.py",
+      "sha256": "d716cbf3d6c82c1bbe83675218efc7016a6f42c3ec67adb63e03187cefa5fafa"
+    },
+    "recovery_setup": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/recovery-setup.json",
+      "sha256": "3f5302c7186e823e16ac934824e3d507bfd56fa75958b980239573cdbcf0e8d8"
+    },
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-tail24/native-manifest.json",
+      "sha256": "c1ddc4fee28a7d5c157a771a1276a0c57def8ab9483936725482ab191cfaed53"
+    },
+    "native_reference_check": true,
+    "prefix_python_equivalence": {
+      "db6f-prefix-coupled.py": {
+        "original": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/db6f-prefix-coupled.py",
+          "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+        },
+        "replacement": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source/scripts/db6f-prefix-coupled.py",
+          "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+        },
+        "bytes_equal": true
+      },
+      "950f-prefix-adaptive-chart-bvp-v2.py": {
+        "original": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+        },
+        "replacement": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+        },
+        "bytes_equal": true
+      },
+      "950f-prefix-warped-bvp.py": {
+        "original": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-warped-bvp.py",
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+        },
+        "replacement": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source/scripts/950f-prefix-warped-bvp.py",
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+        },
+        "bytes_equal": true
+      },
+      "78718-prefix-fourier-jacobian.py": {
+        "original": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/78718-prefix-fourier-jacobian.py",
+          "sha256": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+        },
+        "replacement": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/chord-source/scripts/78718-prefix-fourier-jacobian.py",
+          "sha256": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+        },
+        "bytes_equal": true
+      }
+    },
+    "new_BVP_or_tail_executed": false
+  },
+  "new_mathematical_conclusion": false,
+  "old_tail_recomputed": false
+}

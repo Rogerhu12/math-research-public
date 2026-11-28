@@ -4,7 +4,7 @@
 
 ## 规则、认领与完成线
 
-- 最近实际pull后双README已读锚 `8383499c4ee9b7fe938e882265b17a9e5f017a08`（2026-11-28 17:37 UTC）。
+- 最近实际pull后双README已读锚 `0cf43ed06190c6c7fd57ef397d60c6f08fce3c69`（2026-11-28 17:40 UTC）。
 - 私库原QUEUE认领 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 `0e3cbe262f95c04561fec3c56e64347eb6801d25`（2026-11-28恢复后已实返，17:27 UTC核记），相对前已读501598ec双README空diff，QUEUE仍本会话/2026-11-28进行中。
 - 每结论先pull核双README差异再push；至少每小时实际pull。NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 前沿与完整历史见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[R90后快照](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)、[工作区变化前H](notes/2026-11-28-handoff-before-workspace-view-reset.md)。不重做已登记结论；必要输入再生不计新数学结果。
@@ -40,4 +40,4 @@
 
 [工作区变化和恢复](notes/2026-11-28-workspace-view-reset-and-recovery.md)保实际状态、两真实终态和两库partial/sparse恢复。新工作根仍为本会话held10-*；当前有足够空间，旧/tmp Git alternates亦不可用，两库已重新真实partial clone，不假定旧缓存仍存在。
 旧Git迁移/冷CSC/已完证据无损归档的已发布实际回执有效，但不代表其scratch现在还在。最后Git cache repack真实exit1：跨文件系统rename失败，原缓存当时未删；无成功释放声明。恢复阶段只保存源/小记录，无Git/Release/Library大数组。
-当前design恢复严格R87链；tail已真编译通用native核且仅准备后继，不提前猜最终M；analytic准备QR首锚fixed-g。root逐条推送已完成小结论并更新锚。继续open下一项，不能以阶段、时长或输入不足停；准确λ1、完整DN、闭图全部比例、同g频率/径向/时间精化仍未付。
+当前design恢复严格R87链；[native/bootstrap恢复](notes/2026-11-28-tail-native-bootstrap-after-reset.md)原flags编译与3原installer全真0、原refs/prefix等价核过；bootstrap M24非最终M，未跑新尾；analytic准备QR首锚fixed-g。root逐条推送已完成小结论并更新锚。继续open下一项，不能以阶段、时长或输入不足停；准确λ1、完整DN、闭图全部比例、同g频率/径向/时间精化仍未付。
