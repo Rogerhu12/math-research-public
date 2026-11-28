@@ -510,3 +510,9 @@ R1068 §§15–18逐原两三挠字给a³=−(u+1)、b³=−(u−1)、ab=t及真
 R1067续证 §§27–28 从原 S34 的固定水平质量及同一 GM 方程，准确返回两个 Riccati 系数 E_N、E_d；g1=a_p E_N/p，g2=(p b_p E_d−γ a_p E_N)/p²。完整 CM 三重型和 étale 整模型支付 d−3 窗口，E_N 须保二次 log 至模 p³，E_d 保一次至模 p²。原坏后的两槽为 2γX−Y 与 Y−γX，未分别赋零。两半权核的全 mixed 卷积又返真实权一周期读者及完整残数；没有将 GM 周期代数化或把该读者认成未付的 crystalline 矩阵元。
 
 [完整续证](../results/R1067-original-first-wild-rubin-native-euler-continuation.md)，(118)–(133)。该结论保全部原来源及 finite bad set，不将整首三阶非零改作指定高槽非零。
+
+### R1067 §§29–30：真实权三类、全混合层与 Hasse 框架
+
+R1067续证 §§29–30 从同一冻结水平质量给原η⁴Θ_fΘ_g固定权三cusp form，准确GM比较常数−4π²iΔ₀^(−1/6)及Petersson/Stokes证明支付该具体parabolic类非零。相邻p/d读者仍保ζ^p与B^(−2)。全mixed式(140)在特征零保e_{m,p}、全部p·Bockstein和中点；g1∈p时Ed/p的下一位须取模p²，不能只用首降阶。原Hasse frame缺陷V满足完整受迫方程，首55/12及所需整窗已付；EN必须保ℓ̂/V全部二次混合至p³，Ed保ℓ̂+2V至p²。固定类非零、首V单位均未替代canonical无穷p非零。
+
+[完整续证](../results/R1067-original-first-wild-rubin-native-euler-continuation.md)，(134)–(146)。

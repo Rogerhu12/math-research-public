@@ -1094,3 +1094,354 @@ Ahlgren--Raum--Richter,
 当前可直接消费的新输入是(127)--(130)的同源有限系数、
 共同 $p^2$ 分子和明确精度，以及(131)--(133)保全 mixed 项的真实权一返回。
 四个原 canonical 坏条件的共同不相容性仍须额外证明。
+
+## 29. 原全乘积的固定权三类与完整半权 Bockstein 层
+
+本节继续§§27--28的同一有限水平覆盖和同一所选点。
+记 $D=L_2$、$f=\mathfrak f$，并令 $g$ 是§28原参考
+$\Theta_2=\sigma_1^2x$ 的冻结水平质量。所有 $\mathsf T_r$ 没有上标时
+仍是 $k=1/2$ 的原算子；上标 $(1)$ 才表示完整权一卷积。
+不把本节的普通卷积换成 R66、R82 另一来源的 Hadamard 平方。
+
+### 29.1 一个明确非零的固定 parabolic de Rham 类
+
+用§27.1固定的原系数定义
+$$
+ \Theta_f(\tau)=\sum_a\gamma_a\vartheta_{34,a}(\tau,0),\qquad
+ \Theta_g(\tau)=\sum_b\delta_b\vartheta_{2,b}(\tau,0).
+$$
+$\delta_b$ 同样由原参考向量在同一 CM 纤维展开后固定，
+不是新选的质量一函数。
+原水平框架笔记(11)--(14)给
+$$
+ f=\sqrt{2\pi}\lambda^{-1/2}\Theta_f,\qquad
+ g=\sqrt{2\pi}\lambda^{-1/2}\Theta_g,\qquad
+ \Phi_{f,g}(\tau)=\eta(\tau)^4\Theta_f(\tau)\Theta_g(\tau).
+ \tag{134}
+$$
+这里 $\eta$ 是 Dedekind eta，$\lambda,\mu$ 是原有向完整周期，
+$\tau=\mu/\lambda$。
+也允许取 $g=f$，此时完整系数向量仍是同一个 $\gamma\otimes\gamma$。
+
+取杀掉原完整 theta/eta 矩阵和 $\eta^4$ 有限乘子的共同有限覆盖，
+再与一个固定无挠 full-level 覆盖交，得到固定无挠群 $\Gamma$。
+这个选择先于 $p$，保留原 $\gamma,\delta$ 和所有根相位；
+不声称只需 level68，也不从一个 projective 表示省去 eta 相位。
+在此覆盖上 $\Phi_{f,g}$ 是实际权三 cusp form：
+每个 cusp 处全部 theta 变换都是原有限 theta 向量的线性组合，
+各分量展开的阶非负；$\eta^4$ 在该 cusp 有严格正阶。
+若 $g=f$ 或上述实际参考，则两 theta 函数都不恒零，
+所以它们的乘积不恒零。
+
+这一形式是原固定 GM 系统中的一个明确代数来源。
+在参数覆盖上令
+$$
+ \mathcal E=H^1_{\rm dR}(E/\text{参数覆盖}),\qquad
+ e_0=[\omega],\quad e_1=[x\omega],\quad
+ \omega=dx/(2y).
+$$
+原周期公式 $D\lambda=-\eta_\lambda$、$D\eta_\lambda=a\lambda$
+和 Legendre 正规
+$\eta_\lambda\mu-\eta_\mu\lambda=2\pi i$
+给
+$$
+ \nabla e_0=e_1\,ds,\qquad \nabla e_1=-a e_0\,ds,\qquad
+ \langle e_0,e_1\rangle=1 .
+$$
+定义同一代数系数的一形式
+$\boldsymbol\omega_{f,g}=fg\,e_0\,ds$。
+其 Betti 比较不是未指明的比例；由
+$\Delta_0=(2\pi/\lambda)^{12}\eta^{24}$ 和
+$ds=\lambda^2d\tau/(2\pi i)$ 得
+$$
+ \boxed{
+ \operatorname{per}\boldsymbol\omega_{f,g}
+ =-4\pi^2i\,\Delta_0^{-1/6}
+       \Phi_{f,g}(\tau)\binom{1}{\tau}\,d\tau .
+ }
+ \tag{135}
+$$
+$\Delta_0=-432$ 的分支按原(10)固定。
+这是在复比较中写出的等式；没有把复周期本身送入 $\mathbf C_p$。
+交换两个固定 Betti 坐标后，右端就是标准
+$\Phi_{f,g}(\tau)(\tau,1)^t d\tau$。
+
+该 parabolic de Rham 类非零可以直接付清。
+对标准实二维局部系统使用行列式交替配对，有
+$$
+ \left\langle
+  \Phi(\tau)\binom{\tau}{1}d\tau
+  \wedge
+  \overline{\Phi(\tau)\binom{\tau}{1}d\tau}
+ \right\rangle
+ =4|\Phi(\tau)|^2y\,dx\wedge dy,\qquad \tau=x+iy.
+ \tag{136}
+$$
+积分为四倍实际权三 Petersson 范数，有限且严格正。
+若这个 parabolic 类为 exact，对基本域截去 cusp 后用 Stokes，
+成对边互相抵消，cusp 边因 cusp form 的指数衰减趋零。
+在每个 cusp 的平坦 Betti 框架中，原函数的导数正是指数衰减乘
+有限次 $\tau$ 多项式；逐项积分给一个平坦常数加同类衰减项。
+故即使保留该常数，也不足以留下边界贡献。
+于是(136)的正积分将为零，矛盾。
+由此支付的是(135)这个**具体固定来源**的非零，
+不是任意固定上同调空间中“存在某个非零类”。
+
+### 29.2 同一 moving 主部的两个相邻读者
+
+令 $h=fg$ 或 $h=f^2$，并保留原 $A,B$ 周期解
+$\mathsf A,\mathsf B$。置 $\zeta=\mathsf A/\mathsf B$；
+由(123)和 $d\zeta=-ds/\mathsf B^2$，有精确向量式
+$$
+ \boxed{
+ \binom{(\mathsf T_p^{(1)}h)(P)/p!}
+       {(\mathsf T_d^{(1)}h)(P)/d!}
+ =-\operatorname{Res}_{s=0}
+       h(P_s)\binom{\mathsf B(s)}{\mathsf A(s)}
+                      \zeta(s)^p\,d\zeta(s).
+ }
+ \tag{137}
+$$
+第一项是
+$\operatorname{Res}h\mathsf A^p\mathsf B^{-p-1}ds$，
+第二项是(133)。
+所以两项确来自同一 period 向量和同一个整数 $p$ 次主部。
+
+(137)尚不是(135)的 Frobenius 矩阵元：
+其相对于 $(\mathsf A,\mathsf B)h\,ds$ 另有真实
+$\mathsf B^{-2}$ 与 moving $\zeta^p$。
+对这些因子未付的替换不能以(136)的正定性补上。
+下面先把这个读者在原 theta 来源上的全部除 $p$ 层明确还回。
+
+### 29.3 原 Hurwitz 行给出的完整混合降阶
+
+仍记 $d=p+1$、$N=d/2$，并固定原特征零 Hasse 多项式
+$H=H_p$。令
+$$
+ C_0=(DH)(P)=(p+1)c_p^{\rm int},\qquad
+ c_p^{\rm int}=\binom{3s-1}{2s-1},\qquad p=6s-1.
+$$
+$C_0$ 是实际单位；以下模 $p$ 时仍用它的约化。
+原 R856(19)--(21)作用在同一物理截面上，给
+$$
+ (\mathsf T_{N+k}u)(P)
+ \equiv\varepsilon_u C_0(k+\tfrac12)
+                 (\mathsf T_ku)(P)\pmod p,\qquad 0\le k\le N,
+ \tag{138}
+$$
+其中 $u=f,g$ 分别来自 degree $m=34,2$，
+$\varepsilon_u=(\frac{2m}{p})$，故
+$\varepsilon_f=(\frac{17}{p})$、$\varepsilon_g=1$。
+证明直接将 Hurwitz 关系
+$j_{m,p+2k+1}\equiv mC_0(2k+1)j_{m,2k}$
+除以同一个 $(2m)^{N+k}$。
+它不是把两个不同物理尺度 $68,4$ 先行相同化。
+
+为不丢下一位，定义准确的原单位及指定缺陷
+$$
+ \begin{gathered}
+ e_{m,p}=(2m)^{-(p-1)/2},\\
+ \mathcal B_{u,k}
+ =\frac{(\mathsf T_{N+k}u)(P)
+       -e_{m,p}C_0(k+\tfrac12)(\mathsf T_ku)(P)}p
+ =(2m)^{-(N+k)}
+       \mathcal D_{m,p,\,2k+1}(R_u)\big|_P .
+ \end{gathered}
+ \tag{139}
+$$
+右端准确是 R856(39)的原整 Hurwitz 行：
+$R_u$ 为该原水平来源在 $P$ 的实际向量。
+故所有 $\mathcal B_{u,k}$ 都整并已由原来源指定，
+并非可以自由选择的 Bockstein 初值。
+$H(P)=0$ 在特征零精确成立，故(139)没有漏一个 $Hj$ 项。
+特别不能把 $e_{34,p},e_{2,p}$ 在模 $p^2$ 时直接换为两个 Legendre 符号；
+它们的完整下一位必须保留。
+
+以下所有 $\mathsf T_j u$ 均在 $P$ 取值。
+令 $b_j=\binom dj/p$，$2\le j\le p-1$，这些数全为整数。
+由 $f(P)=Df(P)=0$、$g(P)=1,Dg(P)=0$，
+完整乘法(131)逐项给**特征零**等式
+$$
+ \begin{aligned}
+ \frac{\mathsf T_d^{(1)}(fg)-\mathsf T_df}{p}
+ ={}&C_0\sum_{j=2}^{N-1}b_j(N-j+\tfrac12)
+     \left\{
+       e_{2,p}(\mathsf T_jf)(\mathsf T_{N-j}g)
+      +e_{34,p}(\mathsf T_{N-j}f)(\mathsf T_jg)
+     \right\}\\
+ &+p\sum_{j=2}^{N-1}b_j
+     \left\{
+       (\mathsf T_jf)\mathcal B_{g,N-j}
+       +\mathcal B_{f,N-j}(\mathsf T_jg)
+     \right\}\\
+ &+b_N(\mathsf T_Nf)(\mathsf T_Ng).
+ \end{aligned}
+ \tag{140}
+$$
+两端 $j=0,d$ 只留下 $\mathsf T_df$；
+$j=1,d-1$ 精确为零。
+每一对 $j,d-j$ 均在(140)中保留一次，中点 $j=N$ 另列；
+没有少一次系数二，也没有把中点吸收到两半和。
+
+只取第一位时，
+$b_j\equiv(-1)^j/(j(j-1))$、
+$N+\tfrac12\equiv1\pmod p$，
+且 $\mathsf T_Nf\equiv0$。
+因此
+$$
+ \begin{aligned}
+ \frac{\mathsf T_d^{(1)}(fg)-\mathsf T_df}{p}
+ &\equiv C_0\sum_{j=2}^{N-1}\frac{(-1)^{j+1}}j
+     \left\{
+       \varepsilon_g(\mathsf T_jf)(\mathsf T_{N-j}g)
+       +\varepsilon_f(\mathsf T_{N-j}f)(\mathsf T_jg)
+     \right\},\\
+ \frac{\mathsf T_d^{(1)}(f^2)}p
+ &\equiv2\varepsilon_f C_0
+       \sum_{j=2}^{N-1}\frac{(-1)^{j+1}}j
+           (\mathsf T_jf)(\mathsf T_{N-j}f)
+ \qquad\pmod p .
+ \end{aligned}
+ \tag{141}
+$$
+后一式的两个端点都因 $f(P)=0$ 消失。
+这确将原全 weight1 类的首除 $p$ 行接到实际低 half-jet 卷积；
+保留了所有 mixed 项，未认成 $(\mathsf T_Nf)^2$。
+
+对于原 $g_{2,p}$，仍要再保一位。
+(127)准确给
+$\mathsf T_df=d!E_d$，故
+$\mathsf T_df/p=(d!/p)E_d$。
+在 $g_1\in p$ 的原范围，
+$E_d\in p$、$\mathsf T_Nf=N!E_N\in p^2$。
+所以(140)的中点项在模 $p^2$ 已消，
+但整个第二行的 $p\mathcal B$ mixed 层一般仍须保留。
+真正要取得 $E_d/p\bmod p$，必须使用(140)模 $p^2$，
+不能只用(141)。
+(136)的非零类及(141)本身均未使这一中间层自动为零。
+
+## 30. 真实 Hasse 框架的第一完整修正
+
+本节把上一节的主部框架与 R856 已定的实际 Hasse 缺陷接合。
+它不更换§27的周期解，也不从一个模 $p$ 的解选取新的任意提升。
+
+### 30.1 由原非齐次项唯一给出的修正
+
+置
+$$
+ \mathcal R_p=\frac{D^2H+aH}{p},\qquad
+ \mathsf U_p=\frac{H(P_s)/C_0-\mathsf B(s)}p,\qquad
+ \mathsf V_p=\mathsf U_p/\mathsf B .
+ \tag{142}
+$$
+$\mathcal R_p$ 必须使用 R856(35)的完整多项式，
+包含其三项，而非仅在 CM 点的零值。
+它给
+$$
+ \begin{gathered}
+ \mathsf U_p''+a\mathsf U_p=\mathcal R_p(P_s)/C_0,\qquad
+ \mathsf U_p(0)=\mathsf U_p'(0)=0,\\
+ (\mathsf B^2\mathsf V_p')'
+       =\mathsf B\,\mathcal R_p(P_s)/C_0,\qquad
+ \mathsf V_p(0)=0 .
+ \end{gathered}
+ \tag{143}
+$$
+后一式由 $\mathsf U_p=\mathsf B\mathsf V_p$ 直接展开；
+等价的双积分按这两个零初值唯一确定，所以没有遗留积分常数。
+
+R856(36)--(38)给
+$\mathcal R_p(P_s)\in s^2\mathbf Q[[s^3]]$
+及 $[s^2]\mathcal R_p\equiv55c_p$。
+故
+$$
+ \mathsf U_p\in s^4F[[s^3]],\qquad
+ \mathsf V_p\in s^3F[[s^3]],\qquad
+ [s^3]\mathsf V_p\equiv\frac{55}{12}\pmod p .
+ \tag{144}
+$$
+这里 $p>211$，因此所示首系数确为单位。
+这是实际 frame 缺陷的首系数，不是目标高系数的非零结论。
+
+所需整性也由真实受迫方程支付。
+$\mathcal R_p$ 是原整参数多项式，因此按(124)，
+$\mathcal R_p(P_s)$ 在 $s$ 次数小于 $p^2$ 的窗口整。
+$\mathsf U_p$ 的 type1 受迫递推只除以 $n(n-1)$；
+第一次含 $p$ 的次数 $n=p,p+1$ 都是禁型，精确为零，
+到 $p+2$ 的分母再为单位。
+所以 $\mathsf U_p$ 至次数 $p+2$ 整；
+由 $\mathsf B=s\mathsf b$ 和(126)，
+$\mathsf V_p$ 至次数 $d$ 整。
+这证明(142)在本窗实际可以除 $p$，
+而非从形式上写出商就宣布整。
+
+### 30.2 两条原系数的精确框架运输
+
+定义
+$$
+ \widehat{\mathsf b}=\frac{H(P_s)}{C_0s}
+      =\mathsf b(1+p\mathsf V_p),\qquad
+ \widehat{\mathsf R}=\frac{\mathsf A}{\widehat{\mathsf b}},
+ \qquad \widehat\ell=\log\widehat{\mathsf R},
+ \qquad \widehat{\mathsf F}=f(P_s)\widehat{\mathsf b}^{-3/2}.
+$$
+这些是原 Hasse lift 和原 $\mathsf A,\mathsf B$ 唯一确定的量。
+$(1+p\mathsf V_p)$ 的常数为一，所有幂按原常数项取支。
+由(127)逐因子替换，得到准确式
+$$
+ \boxed{
+ \begin{aligned}
+ E_N&=[s^N]\widehat{\mathsf F}\,
+          \exp(p\widehat\ell/2)
+             (1+p\mathsf V_p)^{(p+3)/2},\\
+ E_d&=[s^d]\widehat{\mathsf F}\,
+          \widehat{\mathsf R}^{1/2}\exp(p\widehat\ell)
+             (1+p\mathsf V_p)^{p+2},\\
+ \frac{\mathsf T_d^{(1)}h(P)}{d!}
+      &=[s^d]h(P_s)\mathsf A\widehat{\mathsf b}^{-2}
+          \exp(p\widehat\ell)(1+p\mathsf V_p)^{p+2}.
+ \end{aligned}
+ }
+ \tag{145}
+$$
+第三行对 $h=fg,f^2$ 都成立。
+它明确保留了固定 GM 成分 $\mathsf A$、
+实际 Hasse 的二极以及同一 $\mathsf V_p$ 修正。
+不能先删最后一个因子，再以固定 cohomology 的结论补回。
+
+在(129)所需的相同精度，(145)成为
+$$
+ \begin{aligned}
+ E_N\equiv[s^N]\widehat{\mathsf F}
+  \bigg\{1+\frac p2(\widehat\ell+3\mathsf V_p)
+      +p^2\left(
+        \frac{\widehat\ell^2}{8}
+       +\frac{3\widehat\ell\mathsf V_p}{4}
+       +\frac{\mathsf V_p}{2}
+       +\frac{3\mathsf V_p^2}{8}\right)\bigg\}
+       &\pmod{p^3},\\
+ E_d\equiv[s^d]\widehat{\mathsf F}\widehat{\mathsf R}^{1/2}
+           \{1+p(\widehat\ell+2\mathsf V_p)\}
+       &\pmod{p^2},\\
+ \frac{\mathsf T_d^{(1)}h(P)}{d!}
+   \equiv[s^d]h(P_s)\mathsf A\widehat{\mathsf b}^{-2}
+           \{1+p(\widehat\ell+2\mathsf V_p)\}
+       &\pmod{p^2}.
+ \end{aligned}
+ \tag{146}
+$$
+模数均在原好整模型的系数环内读取。
+$f$ 从 $s^3$ 起，故所需 $\widehat\ell,\mathsf V_p$ 仍只到 $d-3$；
+所有对数、二项式和指数余项按§27.3--27.4的同一有限整窗估计。
+特别 $(1+pV)^{(p+3)/2}$ 的线性项是
+$3pV/2+p^2V/2$，二次项是 $3p^2V^2/8$；
+这两项都未以“mod $p$ Hasse 框架”省去。
+
+(134)--(146)支付了两个实际输入：
+原全 ordinary 乘积的一个明确非零固定 parabolic 类，
+以及同一原 $g_1,g_{2,p}$ 与该全乘积的完整 mixed Bockstein、
+Hasse 框架和所需精度之间的指定关系。
+尚未证明 moving 主部(137)的除 $p$ 值是这个非零固定类的一个非退化
+Frobenius 矩阵元；也没有把(144)的首系数、
+(136)的正范数或(141)的低卷积各自认成 canonical 非零。
+本节没有数学数值运行。
