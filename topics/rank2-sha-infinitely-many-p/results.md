@@ -380,3 +380,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1071 §21：原四标量图直接完整返回及v19实际生产部署
 
 复用R1050真T/v恒等式，在原306全坐标/真实unit和原MN/MD上直接付互素Bézout图及双HNF；完整原投影body、内外两独立全X和所有后续原门保留。合并已付G3模块成95pin v19独立workflow，尚未取得本实现或1156/306生产PASS。 [同编号全文](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。
+
+### R1067 §79：原中央消去低二格，单个实际邻点微分系数读原二阶
+
+已证明：原驯中央L值消失使真实Robert列可由U₂表示，真实Norm仍落U₂并由Cartier消L₀；原一次Kummer矩为零及可逆分次乘子再消L₁。原a₂模p准确为−λ^(p−3)/(34ρ)倍同一邻点dlog的唯一L₂，不预断该系数非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

@@ -35,3 +35,9 @@ P：run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185f
 2026-11-28 14:13:47 UTC根读公开in_progress17/queued0、私库0/0；v17在运行、v18 pending。新文件与旧v18 workflow push paths无匹配。独立workflow及concurrency group为rank2-original-descended-pencil-scalar-shadow-v19，cancel-in-progress=false；先实际启动v19，再取消尚未执行的旧v18，避免重复旧方法。v17由其原source继续。
 
 本次额外修改的是新增.github/workflows/rank2-sha-original-descended-pencil-scalar-shadow-v19.yml，目的是在账号20任务上限内直接执行本课题计算；旧共享workflow没有改动。实际source/run/job、95pins、F/P同次回执、完整返回与最终状态将在取得后追加。部署本身不等于新图或主目标完成。
+
+## 5. 实际启动元数据及未取消的旧候选
+
+2026-11-28 14:29:22 UTC根读API：source d61834ef33bbaf6b28b96c50999d71ad33e19c8c，run46154552030，job141008207171，第1–3步success、第4步in_progress。14:46:29代理独立job roster付job14:25:08Z、计算14:25:39Z启动；同一head实际95个Git blob与manifest复核相同，runner日志仍BlobNotFound。尚不能记本次实际F/P、四端点或终门PASS。
+
+旧v18 run46147595142根读pending且jobs为空。CLI带令牌只读API GET先返回HTTP403，取消POST尚未执行，故未取消；v17仍in_progress。平台环境随后明确unavailable，公开Actions独立继续；此处只记元数据，不保存可重算完整执行日志。
