@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确固定十七阶λ覆盖与5640完整规范点界](results/R150-appendix-unit211-h-equals-k-corrected-fixed-seventeen-lambda-cover-and-5640-points.md)：实际716次仅剥已付支持得470次，完整QQ因子1^19/2^14/4^6/99/300；406个λ候选，保消失阶给≤470基点，乘全部Q/z/ρ纤维给5640。3.066182153秒/0，1496次Bareiss精除乘回，不恢复旧错误覆盖。
+
 - [R12：真实整数图迹、均方采样和单条稠密边界链](results/R12-appendix-actual-walsh-graph-domain-integer-traces-sampling-and-single-boundary-chain.md)：同E图范数中精确近邻两块/远尾费用使整数迹分离并恢复原H范数；实际C_E伴随广义核维n且并稠。强高位交换有界像不能进入DomR，原不变闭图的真实域包含亦被排，保任意不同域开放。
 
 - [R12：原Haar同一稳定域的两个闭因子](results/R12-appendix-actual-haar-same-stable-domain-two-closed-factors.md)：全Walsh分支真实小首行/末列及X入域支付有界伴随来源；同DomR上S=T U、TS=C|DomR、SV=T，S单射/T核Ω且同稠值，与R差迹类。全域乘积闭包等C，非交换中间V不能删。
