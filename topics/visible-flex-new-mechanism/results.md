@@ -473,3 +473,5 @@
 - [十九态原射线自然stall](notes/2026-11-28-r625-original-ray-natural-terminal.md)：2接受后36正导数，定位W方向/未缩行接受失配；统一当前迭代W，原绝对完成门保持。
 
 - [R625同一冻结W的完整求解与真实Armijo](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)：正对角W/齐次活动约束下给完整下降恒等式，实际数值只按原绝对门验根；新策略直接消费dde0。
+
+- [R618完整Fourier背景消去恒等式](notes/2026-11-28-r618-fourier-centered-implicit-derivatives.md)：准确零均值方向先消常数，完整离解mean/connection/pointwise导数均保持；[真实19519575后继](notes/2026-11-28-r618-centered-actual-response-scope.md)直接实际求解，连续误差仍独立。

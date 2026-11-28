@@ -21,7 +21,7 @@
 
 [持续分拆真终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：run45923793283/job140260374411，5400.058385949001秒。冻结target86da8c60…、H.5188903877153482、amp1e−5/hardτ1；首950参考目标及完整工作场成功，真实response19519575…，1接受仅merit减1.416e−19、eta微升；2完整J/2全行QR、3拒绝+1未闭，fine/direct未作。
 
-原reference_coordinate_fraction=2.6025e34压步到3.8424e−36。原日志未存attainer，不把原因全部猜为舍入。源码允许把有限正偶角方向的准确零均值先作背景消去，避免单位常数舍入后再除极小W；下一采用完整等价稳定方向链，并保存attainer分项。Decimal根改用带真实符号检查的小括号Newton，连续E不变。保1473响应/1472自由列、121600行、950work/1728fine、全部旧口/六jets/完整2J及七类源误差。
+原reference_coordinate_fraction=2.6025e34压步到3.8424e−36。原日志未存attainer，不把原因全部猜为舍入。源码允许把有限正偶角方向的准确零均值先作背景消去，避免单位常数舍入后再除极小W；下一采用完整等价稳定方向链，并保存attainer分项。Decimal根改用带真实符号检查的小括号Newton，连续E不变。[新可运行范围](notes/2026-11-28-r618-centered-actual-response-scope.md)已实现、由本次push触发；保1473响应/1472自由列、121600行、950work/1728fine、全部旧口/六jets/完整2J及七类源误差。
 
 [R618](results/R618-fixed-metric-core-and-growing-post-response.md)及[完整模型](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)已给真实固定目标、隐式mean/core根、增长角响应及全平尾；[角误差接口](notes/2026-11-27-r618-same-fixed-E-angular-transport.md)只在其源误差/盒条件真正支付后消费。R617排固定有限pre-tanh+有限post的精确非圆根，R610排纯有限高度角带；不提供当前误差正下界，也不排增长极限。新响应必须到达rc=.22的真全平尾，不能只加远离帽口的compact列。
 

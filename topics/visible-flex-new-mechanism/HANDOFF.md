@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **9ab3509960909d18f9eb4151e3648098a8a4b07f**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
+公开最近实际pull/双README差异检查至 **d6620cb2f2ff913da4a44f2b760be03f95d8aae7**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -26,6 +26,8 @@
 [split原终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：run **45923793283** / job **140260374411** / source4e00e0fb，新增5400.058385949001秒。目标 **86da8c60…**、H.5188903877153482/amp1e−5/hardτ1；950参考目标和首完整工作场成功。真response SHA **19519575…**；1接受仅merit降1.416e−19、eta末位微升；2完整J/2全行QR、3拒绝+1未闭，无fine/direct。
 
 原reference-coordinate比例2.6025e34压步至3.8424e−36，未存attainer，故不把原因全部断为舍入。有限正偶角方向的零均值可先准确消去常数，再作极小W归一；正在实现等价稳定导数/attainer记录及有括号Newton收缩。完整E、1473/1472列、121600行及原误差义务保持。
+
+[新等价背景消去范围](notes/2026-11-28-r618-centered-actual-response-scope.md)已实现并本次push触发，源response19519575和完整旧费用直接继承；同根Newton需实际两端符号，点值背景/离解D项全部保留。
 
 R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g极限空间。τ1只修核心兼容，当前j2仍锁；宏观须[真实R579核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)，amp1e−5不授幅度。
 
