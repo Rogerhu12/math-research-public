@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [全W原D双列取消、纯k覆盖与完整规范界616824](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)：a29实际13.166233637秒/0，整L0/H1980保，P′双度93/119，唯一原comm行完整Bezout1；固定303阶结式非零且k度≤51402，权交长≤51402，完整重数及有限原返回保留。
+
+- [Phi完整三阶核为零、精确789及整权模型](results/R150-appendix-unit211-Phi-zero-complete-third-kernel-zero-exact-degree-789-and-integral-weight-model.md)：890实际10.546223899秒/0，两层三阶项各零，整QQ/Q2/p1009同度789；不付其它物理头或排空。
+
 - [R150：整H42原固定十二阶交点及23268权点界](results/R150-appendix-unit211-Phi-zero-whole-H42-original-fixed-twelve-intersection-and-23268-weight-bound.md)：原DG∈I10/QQ总度554、H42真实点模det311/Bézout1与Gauss付整曲线有限交；≤798个三头同时零余权点的λ纤维继续。
 
 - [R267：保持函数正锥的全部幂共同分母及其紧支配边界](results/R267-appendix-positivity-preserving-common-powers-and-no-compact-domination.md)：真实非零正锥强积、全部有界整数逆及同一强单位；高位comm预算排非零紧lattice支配，实际平方分子仍开。

@@ -1,19 +1,20 @@
 {
-  "message": "ISP R150: record exact Phi degree 789 and start whole W D column cancellation",
-  "parentCommit": "64f89794d6137139e8217e35173d8c9f8c708242",
+  "message": "ISP R150: whole W original D cover and 616824 bound; exact Phi789 and first paid content",
+  "parentCommit": "1ce5692c97acf7c8b1282097129b526f18e6b57c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-D-two-column-cancellation-first-finite-k-cover-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-D-two-column-cancellation-first-finite-k-cover-8542-input.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-D-column-finite-weight-cover-actual-receipt-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-complete-third-kernel-zero-exact-degree-789-and-integral-weight-model.md",
     "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-third-kernel-exact789-execution-8542.json",
-    ".github/workflows/invariant-subspace-8542-w-d-column-k-cover.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-exact-Phi789-first-W-D-column-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-exact-Phi789-first-W-D-column-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-exact-Phi789-first-W-D-column-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-exact-Phi789-first-W-D-column-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-paid-row-column-content-and-reduced-integral-weight-model-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-paid-row-column-content-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-paid-content-model.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-W-explicit-cover-Phi-paid-content-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-W-explicit-cover-Phi-paid-content-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +24,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-d-column-k-cover.yml"
+    "invariant-subspace-8542-phi-paid-content-model.yml"
   ]
 }
