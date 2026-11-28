@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R253：分区源二阶量与全时法向转移](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)（2026-11-28）：完整前缀/尾分别支付p与CX4461/26，准确切口超集覆盖和原全局法管条件保持；两实际场0/11.321、15.961s。首H2 reach/D>.03114912，后继C2场>.03114830，全部握持/嵌入/非全等保持；不改g/场，不代付metric或#5。
+
 - [R252：完整source-cross-Gram与首H2场全域度量](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)（2026-11-28）：保真实材料u/基底θ、18阶Laurent尾、B×W全部三项及径向相关、V余项/区间舍入，487元素/506子片实际0/156.746s，严格metric≤9.999199636e−7<1e−6。同b642场与R251合用全时几何/有限误差门槛均过；固定同g加密未完成，未含Q。
 
 - [R251：首H2实际场的局部二jet全时几何](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)（2026-11-28）：同b642保存场全487片/613子片/128角盒，实际0/584.307s；不改场而将reach/D证界由.02465恢复到>.03092835，held/D>.05278319、固定H、嵌入及含反射δE>0保持。连续metric三角界仍9.854614e−6未过，cross-Gram与同g真加密继续。
