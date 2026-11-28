@@ -69,3 +69,7 @@
 ### R1067 §87：原五个固定代数矩严格非零及共同 Frobenius 子列
 
 已证明：六单位主项与全六边形壳界严格证明M₁、M₂、Ψ₀/₁/₂非零；Chebotarev给同一无穷p子列上原A及B/C的准确补偿值(BC4)，三条第一Cartier首项在充分大原p非零。仍须排除完整第三分量抵消。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §88：原四项的第二次 Cartier 与完整源的真实下降
+
+已证明：κ_P为原对数微分，六个第二Cartier像逐点留数及O极严格确定；完整q-Frobenius须按t→−pt重标，得到原四槽(BD1)，只有一处需q+2p深窗，保所有H混项。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

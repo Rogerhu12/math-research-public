@@ -887,3 +887,82 @@ $c_p^{-2}\Psi_2$ 在 $s^2$。
 所用五数固定非零，排除其分母与范数因子只排除有限多个有理素数。
 $\Psi_2$ 中是 $y$，(BC4)的 $M_2$ 中是 $\bar y$，二者的角色与来源各自保留。
 以上没有宣称 $\ell_{17}(U_2)$ 或 $a_2$ 已非零。
+
+## 88. 原四项的第二次 Cartier 及固定标记系数的下降
+
+**已证明。** 记 $P_t=-T_t,w_t=X(P_t)$。对 $i+j\le2$ 置
+$$
+ \nu_{ij}=\mathcal C(g^i\nu_j),\qquad
+ D_{ij}=-c_p^{-i-j}\sum_t\varepsilon(t)w_t^i(w_t^j)^{1/p}\kappa_{P_t}.
+$$
+则 $\nu_{ij}=D_{ij}$，惟 $\nu_{11}=D_{11}+\kappa\omega$
+可有常数 $\kappa$。其中 $\nu_{00}=\nu$ 准确成立。
+
+先证 $\mathcal C(\kappa_P)=\kappa_P$。取 $mP=0$，$m$ 素于 $p$。
+在等边复格上，记面积除 $\pi$ 为 $A_\Lambda$，则
+$$
+ u_P(z)=\left(\frac{\sigma(z)}{\sigma(z-P)}\right)^m
+             \exp(-m\bar Pz/A_\Lambda)
+$$
+由 $mP$ 为格点及Legendre周期式是椭圆函数：
+平移 $\lambda$ 的倍数为
+$\exp(m(P\bar\lambda-\bar P\lambda)/A_\Lambda)=1$。
+其除子为 $m([O]-[P])$，且 $m^{-1}d\log u_P=\kappa_P$。
+函数比例不影响此等式，故可在原代数除子域选同除子的代数函数，
+再沿好约化约化。绝对Cartier固定对数微分及其 $\mathbb F_p$ 标量倍。
+因此(BB1)给 $\nu_{00}=\nu$。
+
+其余各对先在实际驯点把简单留数取 $p$ 根，得到 $D_{ij}$。
+在 $O$，$\nu_j$ 均正则，最多产生 $i$ 阶极点，实际权为
+$u^{1+j-i}$。当 $(i,j)=(1,0)$ 时，可能简单极的系数来自
+$c_p^{-1}s^{-p}\nu_0$；当 $(i,j)=(2,0)$ 时，可能双极的系数
+来自 $c_p^{-2}s^{-2p}\nu_0$。它们均由
+$$
+ [s^{p-1}](\nu_0/ds)=(\nu(O)/ds)^p=0
+$$
+消去。后一对的其余项不能贡献双极，简单极又被权 $u^{-1}$ 排除。
+其余各对没有容许的极阶。$D_{ij}$ 在 $O$ 的简单留数由同一
+单位权或 $\sum\varepsilon(t)w_t=0$ 排除。
+全局正则差的权只有 $i=j$ 才容 $\omega$；$(0,0)$ 已准确定出。
+
+$q$ 次系数Frobenius在 $E_1$ 的标记点上为 $[-p]$。
+$X(P_t)=K_{103}(P_t)/(1-103)$ 来自固定有理函数，
+$\varepsilon(-p)=1$，因此 $t\mapsto-pt$ 使上列每个完整和
+被 $q$ 次系数Frobenius固定。这也适用于 $w_t^{1/p}$，
+因为有限域根与Galois重标交换。
+$g,s,H$ 由原 $\mathbb F_p$ 模型及唯一主部、严格坐标下降。
+所以所用完整微分和最终标量的系数在 $\mathbb F_q$；
+没有逐点假设 $P_t$ 或 $w_t$ 在 $\mathbb F_q$。
+
+写 $R_m(\eta)=\operatorname{Res}_O s^{-m}\eta$。
+在§83将 $U_2$ 加 $U_1$ 并调 $U_0$ 不改 $\ell_{17}$，故容取
+$$
+ V_2=-L_{p(2q+p-2)}+2L_{p(q+2p-1)-1}
+                       -L_{3q-2}-2L_{2q-1}.
+$$
+因 $\nu$ 在 $O$ 正则，$L_n$ 可在任一
+$\operatorname{Res}_O L_n\nu$ 换为 $s^{-n}$。
+将 $n=p^2N-pr-e$，两次使用
+$R_{pm}(\eta)^{1/p}=R_m(\mathcal C\eta)$。
+由上段的完整源下降，两次 $p$ 根后最终值不变，得到
+$$
+\begin{aligned}
+ \operatorname{Res}_O V_2\nu={}&
+ -R_{2p+1}(\nu_{20}-2H\nu_{10}+H^2\nu_{00})\\
+ &+2R_{p+2}(\nu_{11}-H\nu_{01}-\mathcal C(sH\nu_0))\\
+ &-R_3(\nu_{02}-2\mathcal C(H\nu_1)+\mathcal C(H^2\nu_0))\\
+ &-2R_2(\nu_{01}-\mathcal C(H\nu_0)).
+\end{aligned} \tag{BD1}
+$$
+具体四个 $(N,pr+e)$ 依次是
+$(2p+1,2p),(p+2,p+1),(3,2),(2,1)$。
+用 $s=g-H^p$ 展开后恰给显示的全部混项。
+$\nu_{11}$ 的可能 $\kappa\omega$ 因 $p+2>1$ 不贡献。
+所有 $H$ 项中仅
+$R_{p+2}(\mathcal C(sH\nu_0))$ 触及 $q+2p$ 的窗；
+其余最多使用 $3p+1$。
+由全局留数及(AX1)，
+$$
+ 34f_1(1-\omega_K)a_2=(h-h^p)^{p-3}\operatorname{Res}_O V_2\nu.
+$$
+这仍是原完整二阶量；本节不给四项的总和非零。
