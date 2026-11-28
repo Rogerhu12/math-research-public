@@ -54,6 +54,8 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R274 --> [R274全角目标](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)；[实际双钟/75步XYZ严格见证](notes/2026-11-28-2ecf-strong-HF-exact-diagonal-shear-floor.md)对任意共同对角g误差>.09811/.08359，须改变位置或角识别。
 
+<!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)：新混合 Gaussian 精确圆参考有真实双端与整闭 reach，圆相位平凡；非圆继续的实际误差单列。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong实际新尾/喉，m12完整位置与共同度量，exact从含负K的准确圆形起点延拓；每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -62,4 +64,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:47:28 UTC；已读公开 main `c9a67ce1f1faa7cba795a089721c95915891610c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:47:50 UTC；已读公开 main `72f6257e5a4b22682917798b62eaa53cdc80aac7`，根/课题 README 逐差无变化。
