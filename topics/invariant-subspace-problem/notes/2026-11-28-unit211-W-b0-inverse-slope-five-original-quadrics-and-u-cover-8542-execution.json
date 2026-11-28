@@ -1,0 +1,411 @@
+{
+  "receipt": {
+    "elapsed_seconds": 180.08229547,
+    "max_child_rss_kib": 185644,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3deee59a97590d5b1e1a0380b43f120a9292de86",
+        "before": "331c0d0b37e15a6dca76e699e3ccffb40f38b2a2",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:07:12.017901+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46138332456",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "331c0d0b37e15a6dca76e699e3ccffb40f38b2a2",
+    "source_exit_code": -14,
+    "source_git_blob": "10ab59d7689994bdc5c143424ee15d942616ac2c",
+    "source_sha256": "f76c399bfccd3a6c011c8a832a251a7796a2f341f5656331011b8b334dd49f5f",
+    "stdout_bytes": 7165,
+    "stdout_sha256": "d668794ae03c509bdf66415a5bbc7bad6344f222a9c367d00a6dcb08eec349f3",
+    "stop_reason": null
+  },
+  "mathRecords": [
+    {
+      "weightCoordinates": [
+        "u",
+        "nu=beta/u"
+      ],
+      "allForwardInverseWeightIdentitiesReturned": true,
+      "noNewWeightChartDeleted": true,
+      "originalNames": [
+        "E1",
+        "EBe",
+        "EBo",
+        "N1",
+        "q2_from_entire_b0_values"
+      ],
+      "originalProfiles": [
+        {
+          "zero": false,
+          "degrees_u_nu_lambda_dummy_f": [
+            11,
+            13,
+            2,
+            0,
+            2
+          ],
+          "totalDegree": 19,
+          "terms": 651,
+          "bytes": 13737,
+          "sha256": "202461409715c8fa5572501f8e4c2388ec15fa89a45ea77f298b216f11a07504"
+        },
+        {
+          "zero": false,
+          "degrees_u_nu_lambda_dummy_f": [
+            14,
+            16,
+            2,
+            0,
+            2
+          ],
+          "totalDegree": 23,
+          "terms": 1030,
+          "bytes": 23490,
+          "sha256": "da97c1b0fb209cf0235aec47e5fdfd4d67a03975920ef1d915d88b53ff41d956"
+        },
+        {
+          "zero": false,
+          "degrees_u_nu_lambda_dummy_f": [
+            12,
+            15,
+            2,
+            0,
+            2
+          ],
+          "totalDegree": 21,
+          "terms": 820,
+          "bytes": 17761,
+          "sha256": "56fb0408e93d65834b41817436c26f20bd1e756e0295a57d95914b7e06d47c68"
+        },
+        {
+          "zero": false,
+          "degrees_u_nu_lambda_dummy_f": [
+            12,
+            13,
+            2,
+            0,
+            2
+          ],
+          "totalDegree": 20,
+          "terms": 716,
+          "bytes": 15248,
+          "sha256": "2689606455214e0140ef24c5ca2dad977c03c872cddd97113b2f1a501ba76339"
+        },
+        {
+          "zero": false,
+          "degrees_u_nu_lambda_dummy_f": [
+            10,
+            9,
+            2,
+            0,
+            0
+          ],
+          "totalDegree": 16,
+          "terms": 192,
+          "bytes": 3996,
+          "sha256": "b0fec181223ca503110acd1d229bff29c00eb2edf526fd02dd9abbd516b07b91"
+        }
+      ],
+      "allOriginalTotalLambdaFDegreesAtMostTwo": true,
+      "trueDualProductAndIndependentE1": true,
+      "qfMonicInF": true,
+      "q2TopCoefficientNotInverted": true,
+      "q2ThreeCoefficientPaidUnitCombinationReturned": true,
+      "q2NecessaryOnOriginalPhysicalDNonzeroBranch": true,
+      "allQ2DegreeDropFibersRetained": true,
+      "noOldC74C78OrFullSameFOrFiveCubicGateRun": true,
+      "stage": "new_b0_whole_inverse_weights_and_five_original_quadrics",
+      "seconds": 0.3950228000000209
+    },
+    {
+      "label": "pair_0_1",
+      "numerator": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          16,
+          21,
+          3,
+          0,
+          0
+        ],
+        "totalDegree": 27,
+        "terms": 1165,
+        "bytes": 30615,
+        "sha256": "b762aeee666a6a6cbd69a9d61ff4e4f808beb7f6806ae6edf5b1f09030b5aa12"
+      },
+      "nominalLambdaDegree": 3,
+      "completeFiveOriginalSourceReturn": true,
+      "onlyActualFiveMultiplierCommonCancelled": true,
+      "stage": "new_b0_original_same_lambda_condition",
+      "seconds": 0.49240329500000257
+    },
+    {
+      "label": "pair_0_1",
+      "fixedLambdaSylvesterSize": 5,
+      "necessaryPolynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          48,
+          61,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 76,
+        "terms": 2461,
+        "bytes": 107368,
+        "sha256": "fc4c0768f5a2a41faa18cf363b9203fb557daf7294e2fafaaa8ca57be84040dd"
+      },
+      "allFiveOriginalSourceCoefficientsReturned": true,
+      "noQ2OrSameLambdaLeadingInverse": true,
+      "allInstantaneousBareissPivotAndHeadZeroFibersRetained": true,
+      "allUnpaidEquationContentZeroFibersRetained": true,
+      "stage": "new_b0_complete_original_pure_weight_projection",
+      "seconds": 7.113972945
+    },
+    {
+      "label": "pair_0_2",
+      "numerator": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          17,
+          22,
+          3,
+          0,
+          0
+        ],
+        "totalDegree": 29,
+        "terms": 1303,
+        "bytes": 33669,
+        "sha256": "80ac22565131dbd2fbe7d2baec520f10ab7b6afc27d5a4db82652a216230c9a6"
+      },
+      "nominalLambdaDegree": 3,
+      "completeFiveOriginalSourceReturn": true,
+      "onlyActualFiveMultiplierCommonCancelled": true,
+      "stage": "new_b0_original_same_lambda_condition",
+      "seconds": 7.233233462000015
+    },
+    {
+      "label": "pair_0_2",
+      "fixedLambdaSylvesterSize": 5,
+      "necessaryPolynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          52,
+          65,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 80,
+        "terms": 2776,
+        "bytes": 123004,
+        "sha256": "b33b826fc2a0c71af91a320961e888631f1360ef2d48497a59ceb1c22b2d8d68"
+      },
+      "allFiveOriginalSourceCoefficientsReturned": true,
+      "noQ2OrSameLambdaLeadingInverse": true,
+      "allInstantaneousBareissPivotAndHeadZeroFibersRetained": true,
+      "allUnpaidEquationContentZeroFibersRetained": true,
+      "stage": "new_b0_complete_original_pure_weight_projection",
+      "seconds": 15.482727403000013
+    },
+    {
+      "label": "pair_1_2",
+      "numerator": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          20,
+          26,
+          3,
+          0,
+          0
+        ],
+        "totalDegree": 34,
+        "terms": 1793,
+        "bytes": 49321,
+        "sha256": "70ede46efe3712bbb4a002338558723c20a6e970ca002aa9f44c3dabcef1ce70"
+      },
+      "nominalLambdaDegree": 3,
+      "completeFiveOriginalSourceReturn": true,
+      "onlyActualFiveMultiplierCommonCancelled": true,
+      "stage": "new_b0_original_same_lambda_condition",
+      "seconds": 15.615346890000012
+    },
+    {
+      "label": "pair_1_2",
+      "fixedLambdaSylvesterSize": 5,
+      "necessaryPolynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          58,
+          73,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 90,
+        "terms": 3480,
+        "bytes": 164558,
+        "sha256": "b27f90d49c5edc787163e6ec4c3cb283a5bc82981fc4c8c61c40e88765349faf"
+      },
+      "allFiveOriginalSourceCoefficientsReturned": true,
+      "noQ2OrSameLambdaLeadingInverse": true,
+      "allInstantaneousBareissPivotAndHeadZeroFibersRetained": true,
+      "allUnpaidEquationContentZeroFibersRetained": true,
+      "stage": "new_b0_complete_original_pure_weight_projection",
+      "seconds": 25.664373688000012
+    },
+    {
+      "label": "same_f_norm_0",
+      "numerator": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          21,
+          26,
+          4,
+          0,
+          0
+        ],
+        "totalDegree": 36,
+        "terms": 2398,
+        "bytes": 68951,
+        "sha256": "739a539342dc8dbeed9d5c1fd4f4d6b742e57cc6b066c00ac47ca084f1f1a6a5"
+      },
+      "nominalLambdaDegree": 4,
+      "completeFiveOriginalSourceReturn": true,
+      "onlyActualFiveMultiplierCommonCancelled": true,
+      "stage": "new_b0_original_same_lambda_condition",
+      "seconds": 25.85622460800002
+    },
+    {
+      "label": "same_f_norm_0",
+      "fixedLambdaSylvesterSize": 6,
+      "necessaryPolynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          66,
+          80,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 104,
+        "terms": 4490,
+        "bytes": 239117,
+        "sha256": "a114e09677bd177c9d8d2bcb3b8e377400bce5c99ac9ebca8077318fffbfbb9f"
+      },
+      "allFiveOriginalSourceCoefficientsReturned": true,
+      "noQ2OrSameLambdaLeadingInverse": true,
+      "allInstantaneousBareissPivotAndHeadZeroFibersRetained": true,
+      "allUnpaidEquationContentZeroFibersRetained": true,
+      "stage": "new_b0_complete_original_pure_weight_projection",
+      "seconds": 53.43710625900002
+    },
+    {
+      "label": "same_f_norm_1",
+      "numerator": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          26,
+          31,
+          4,
+          0,
+          0
+        ],
+        "totalDegree": 43,
+        "terms": 3477,
+        "bytes": 106978,
+        "sha256": "f3ca442ccc41e721ce0191824b96ea70a053824a9225826b79a2299ca508ee3e"
+      },
+      "nominalLambdaDegree": 4,
+      "completeFiveOriginalSourceReturn": true,
+      "onlyActualFiveMultiplierCommonCancelled": true,
+      "stage": "new_b0_original_same_lambda_condition",
+      "seconds": 53.710852819000024
+    },
+    {
+      "label": "same_f_norm_1",
+      "fixedLambdaSylvesterSize": 6,
+      "necessaryPolynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          76,
+          90,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 118,
+        "terms": 5791,
+        "bytes": 328151,
+        "sha256": "3b116dfb76fb397bcf49a4a56e7a8430084e82300d989910dad6fc50c71b976d"
+      },
+      "allFiveOriginalSourceCoefficientsReturned": true,
+      "noQ2OrSameLambdaLeadingInverse": true,
+      "allInstantaneousBareissPivotAndHeadZeroFibersRetained": true,
+      "allUnpaidEquationContentZeroFibersRetained": true,
+      "stage": "new_b0_complete_original_pure_weight_projection",
+      "seconds": 90.57279657700002
+    },
+    {
+      "label": "same_f_norm_2",
+      "numerator": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          22,
+          29,
+          4,
+          0,
+          0
+        ],
+        "totalDegree": 38,
+        "terms": 2788,
+        "bytes": 80380,
+        "sha256": "5a858241f1092f5d8ea25414824e04def6b79a7794a162c08069fe7abea6214f"
+      },
+      "nominalLambdaDegree": 4,
+      "completeFiveOriginalSourceReturn": true,
+      "onlyActualFiveMultiplierCommonCancelled": true,
+      "stage": "new_b0_original_same_lambda_condition",
+      "seconds": 90.82009301800002
+    },
+    {
+      "label": "same_f_norm_2",
+      "fixedLambdaSylvesterSize": 6,
+      "necessaryPolynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_dummy_f": [
+          68,
+          86,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 108,
+        "terms": 4902,
+        "bytes": 262679,
+        "sha256": "f9b698cb49e81141063fc9d36e4f46f56651ad39c73eb756187d47066f0b48cc"
+      },
+      "allFiveOriginalSourceCoefficientsReturned": true,
+      "noQ2OrSameLambdaLeadingInverse": true,
+      "allInstantaneousBareissPivotAndHeadZeroFibersRetained": true,
+      "allUnpaidEquationContentZeroFibersRetained": true,
+      "stage": "new_b0_complete_original_pure_weight_projection",
+      "seconds": 124.41856834100003
+    }
+  ],
+  "runId": 46138332456,
+  "jobId": 140958528347,
+  "completedOriginalWeightProjections": 6,
+  "pureUCoverReturned": false,
+  "PRSCheckpointReturned": false,
+  "sourceBudgetFailureFrozen": true
+}
