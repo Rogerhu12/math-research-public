@@ -46,7 +46,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-<!-- 2ecf-live-stadium --> [p32/v=.012 新目标完整全尾，240 步 G11 终态 .10671/12.2297/held .61807。](notes/2026-11-28-2ecf-stadium-p32-real-complete-field.md)
+<!-- 2ecf-live-stadium --> [p32 同 g 在全部七个几何 guide 上压谱，288 步后 G11 .10546/12.6543/held .64580。](notes/2026-11-28-2ecf-stadium-p32-seven-physical-guides.md)
 
 ## 工作位置与接续
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:19 UTC；已读公开 main `d0fd18a810a18d2def81c0d1b5873aa802f759e1`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:34 UTC；已读公开 main `5cb0dffd8314d25c5efafa6941baba101a777a66`，根/课题 README 逐差无变化。
