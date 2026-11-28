@@ -1080,3 +1080,259 @@ $$
 因此当前准确差额仍是 (HA.11) 的两个移位矩。(HA.8) 与 (HA.3) 已保留原 $e,K_4$ 和 Dixon 的全部归一，尚未排除共同零。
 
 本节为纸面证明，无数学程序执行。o2 已亲读原 (HC.35) 与本节全文，独核 (HA.8) 的全部 Whipple 参数、两个三角端点，以及 (HA.9)–(HA.11) 的系数与上端余项。
+
+
+### 9.11. 两个 contiguous 单位、完整有理伴随与原 Beta 配对
+
+本节仍在 $p=6N+5\ge41$、$k=N+1$ 下使用 (HA.7) 的同一 $c_n,a_n,h_n$ 和 (HC.34) 的同一 $u_j$。所有有限和未注明时从 $0$ 到 $N$。记
+$$
+U=\sum c_na_n,\quad H=\sum c_nh_n,\quad
+A_q=\sum\frac{c_na_n}{n+q},\quad
+H_q=\sum\frac{c_nh_n}{n+q},\quad
+\mathcal U=\sum u_j=C_NU.
+\tag{HA.13}
+$$
+以下 $q=1,4/3,2,7/3$ 的分母均为单位。本节证明新的完整来源，不把 $A_q$ 的单位性当成 $H$ 的单位性。
+
+#### 两个原 $a$-moment 的单位及原 Dixon 单位的准确箭头
+
+有
+$$
+\boxed{\quad
+\sum\frac{6n+1}{n+1}c_na_n=6C_N,\qquad
+\sum\frac{6n+1}{n+4/3}c_na_n=\frac{C_N}{3}.
+\quad}
+\tag{HA.14}
+$$
+第一式的左端是
+$\,{}_3F_2(-N,5/6,2/3;4/3,2;1)$。
+为在约化前应用有限 Saalschütz，第二下参数取真正 balanced 的 $7/6-N$，它模 $p$ 为 $2$。
+右积为
+$(1/2)_N(2/3)_N/((4/3)_N(-1/6)_N)$。
+反序
+$(1/2)_N=(-1)^N(4/3)_N$、
+$(-1/6)_N=(-1)^N(N+1)!$
+给 $C_N/(N+1)=6C_N$。
+
+第二式的左端是
+$(3/4){}_3F_2(-N,5/6,2/3;7/3,1;1)$。
+真正 balanced 的第二下参数是 $1/6-N\equiv1$，故其右积为
+$$
+\frac34\,\frac{(3/2)_N(5/3)_N}{(7/3)_N(5/6)_N}.
+$$
+用
+$(3/2)_N/(1/2)_N=-2/3$、
+$(5/3)_N/(2/3)_N=-1/4$、
+$(7/3)_N/(4/3)_N=3/8$，
+再用 $(5/6)_N=(-1)^NN!$，即得 $C_N/3$。
+这些有限变换中没有终止因子被越界相消。
+
+原 R1061 §15 的单位也可准确送到第一式：
+$$
+\boxed{\quad
+4D_N'(1)+\frac43D_N(1)
+=\frac{N!}{12(4/3)_N}
+  \sum\frac{6n+1}{n+1}c_na_n
+=\frac{(2/3)_N}{2(4/3)_N}.
+\quad}
+\tag{HA.15}
+$$
+这里的导数仍是原 Dixon 变量导数。直接证明是对原 $d_j$ 使用有限 Dougall：
+加入 $(-N)_j/(5/3+N)_j$，它在所用范围内模 $p$ 为 $1$，则
+$$
+\sum(3j+1)d_j
+=\frac{(5/3)_N(5/6)_N}{N!(3/2)_N}
+=\frac38\frac{(2/3)_N}{(4/3)_N}.
+$$
+乘 $4/3$ 就是 (HA.15)，没有微分 (HA.3) 的点值身份。
+
+特别在原 $e=0$，即 $U=0$ 时，
+$$
+A_1=-\frac65C_N,\qquad A_{4/3}=-\frac1{21}C_N.
+$$
+但相应的完整 $h$ 伴随仍为
+$$
+\boxed{\begin{aligned}
+72A_1&=216H+37H_1+27H_{4/3}-490H_2,\\
+96A_{4/3}&=288H+H_1+184H_{4/3}-945H_{7/3}.
+\end{aligned}}
+\tag{HA.16}
+$$
+这由 (HA.10) 分别乘 $c_n/(n+1)$、$c_n/(n+4/3)$ 后有限分部求和得到。
+例如第二式的实际伴随系数是
+$$
+1+\frac1{288(n+1)}
++\frac{23}{36(n+4/3)}
+-\frac{105}{32(n+7/3)}.
+$$
+上端仍由 $c_{N+1}=0$ 消掉，分母在该端无极。
+因此在 $U=H=0$ 下，连同 (HA.11)，只能得到
+$$
+639H_{4/3}+490H_2=\frac{432}{5}C_N,\qquad
+166H_{4/3}-945H_{7/3}=-\frac{32}{7}C_N.
+$$
+显示的两个移位矩没有被删去。
+
+#### 一个完全显式、极点都在原窗口外的有理伴随
+
+令
+$$
+D(n)=(n+1/2)(n+2/3),\qquad
+B(n)=\frac{(n+7/6)(n+5/6)^2(n+2/3)}
+           {(n+4/3)(n+1)},
+\qquad
+\mathcal A f(n)=D(n)f(n)-B(n)f(n+1).
+$$
+这正是 (HA.10) 在原 $c_n$ 下的有限伴随。
+置
+$$
+\boxed{\quad
+\eta_j=(2j+1)(6j+1)u_j,\qquad
+f(n)=\sum_{j=0}^N\frac{\eta_j}{n-k-j},
+\qquad g(n)=f(n)-f(0).
+\quad}
+\tag{HA.17}
+$$
+$f$ 只有 $k,\ldots,2k-1$ 这些简单极，全部避开实际输入 $0,\ldots,N$。
+其留数递推准确为
+$$
+\frac{\eta_{j+1}}{\eta_j}
+=\frac{(j+2/3)(j+3/2)(j+7/6)}
+       {(j+4/3)(j+1)^2}
+=\frac{D(k+j)}{B(k+j)}.
+$$
+所以 $\mathcal A f$ 的相邻极部完全相消。
+右端最后一个极由 $D(2k-1)=0$ 消去；
+左端 $n=N$ 虽然 $f(n+1)$ 有简单极，$B(n)$ 却有二重零，故完整乘积 $B(n)f(n+1)$ 在该点正则且为零。
+这里没有给有极的 $f(N+1)$ 单独赋值，也没有删去未计算的 $0\cdot\infty$。
+
+其余可能的极只有 $n=-1,-4/3$。直接读取两个留数及无穷远常数，得到
+$$
+\boxed{\quad
+\mathcal A f(n)=
+\sum\eta_j+\frac{f(0)}{216(n+1)}
+             +\frac{f(-1/3)}{12(n+4/3)}.
+\quad}
+\tag{HA.18}
+$$
+事实上 $B$ 在这两点的留数分别为 $-1/216,-1/12$。
+而
+$$
+f(0)=-6\sum(2j+1)u_j,\qquad
+f(-1/3)=-2\sum(6j+1)u_j,\qquad
+f(-1/3)-f(0)=4\mathcal U.
+$$
+
+为准确锁定 (HA.18) 的常数，设 $\mathcal U(z)=\sum u_jz^j$。
+原截断 $\,{}_3F_2$ 的完整方程是
+$$
+\bigl[\theta^2(\theta+1/3)
+-z(\theta+2/3)(\theta+1/6)(\theta+1/2)\bigr]\mathcal U(z)
+=\frac{u_N}{27}z^{N+1},
+\qquad \theta=z\,d/dz.
+$$
+右端来自
+$-(N+2/3)(N+1/6)(N+1/2)u_N=u_N/27$，不能当成齐次方程。
+在 $z=1$，
+$$
+-\theta^2\mathcal U(1)-\frac{19}{36}\theta\mathcal U(1)
+-\frac1{18}\mathcal U(1)=\frac{u_N}{27}.
+$$
+连同 (HA.18) 和
+$\mathcal A1=-5/36+1/(216(n+1))+1/(12(n+4/3))$，
+严格给
+$$
+\boxed{\quad
+\mathcal A g(n)=
+-\frac49u_N-\frac12\mathcal U
++\frac{\mathcal U}{3(n+4/3)}.
+\quad}
+\tag{HA.19}
+$$
+尤其 $e=0$ 时 $\mathcal A g=-4u_N/9$ 是单位，且
+$g(0)=g(-1/3)=0$。这是原窗口外允许简单极的实际有理逆；它没有声称原 $H$ 已非零。
+
+#### 原 $K_4$ 的准确有限 Beta 配对
+
+(HA.17) 的极点不在实际求和区间内，且 (HA.19) 已整体处理上端，故有限伴随给
+$$
+\left(-\frac49u_N-\frac12\mathcal U\right)H
++\frac{\mathcal U}{3}H_{4/3}
+=\frac13\left(\sum c_na_nf(n)-f(0)U\right).
+\tag{HA.20}
+$$
+在 $e=0$ 分支，这准确化为
+$H=-3\sum c_na_nf(n)/(4u_N)$。
+
+令
+$$
+M(z)=\sum_{n=0}^Nc_na_nz^n,\qquad
+Z(z)=\sum_{j=0}^N\zeta_jz^j,\quad
+\zeta_j=\eta_{N-j},\qquad
+\mathcal I\left(\sum_r F_rz^r\right)
+=\sum_r\frac{F_r}{r+2/3}.
+$$
+本节只对次数不超过 $2N$ 的多项式使用 $\mathcal I$；所有分母均为单位，
+因为 $2\le3r+2\le p-3$。
+反序 (HA.17) 中的 $j$，利用 $2N+1=-2/3$，得
+$$
+\boxed{\quad
+\sum c_na_nf(n)
+=\sum_{n,j=0}^N\frac{c_na_n\zeta_j}{n+j+2/3}
+=\mathcal I(MZ).
+\quad}
+\tag{HA.21}
+$$
+这可记作形式 Beta 配对 $\int_0^1z^{-1/3}M(z)Z(z)\,dz$；
+含义就是上面的安全有限分母式，不诉诸有限域正性。
+
+沿原 (HC.8)、(HA.1) 和 (HA.8) 的全部尺度，在 $e=0$ 时
+$$
+\boxed{\quad
+w(-1/2)=\frac{K C_N}{16u_N}\,\mathcal I(MZ),
+\qquad
+K_4=-\frac{3\delta^2\Gamma K C_N}{32v_0^2u_N}\,
+          \mathcal I(MZ).
+\quad}
+\tag{HA.22}
+$$
+此处所有外部因子均为原已付单位。因而共同零的剩余命题准确是：
+在 $M(1)=0$ 时，能否排除这个指定的 $\mathcal I(MZ)=0$。
+
+最后，新的 $Z$ 也有完整、自足的低阶来源：
+$$
+\zeta_0=\frac83u_N,\qquad
+\frac{\zeta_j}{\zeta_0}
+=\frac{(1/2)_j(5/6)_j^2}
+       {(1/3)_j(2/3)_j(7/6)_j},
+$$
+$$
+\boxed{\quad
+\bigl[(\theta-2/3)(\theta-1/3)(\theta+1/6)
+-z(\theta+1/2)(\theta+5/6)^2\bigr]Z
+=\frac{\zeta_0}{27}.
+\quad}
+\tag{HA.23}
+$$
+系数递推直接证明此式；最高端的 $(N+5/6)^2$ 为零，所以没有遗漏的高端强迫。
+$\zeta_0/27$ 为单位，但未被当成 (HA.22) 的配对单位。
+
+原 $M$ 的完整多项式算子则是
+$$
+L_M=\bigl[\theta^2(\theta+1/3)
+-z(\theta+5/6)^2(\theta+2/3)\bigr](\theta+1/6).
+$$
+在权 $z^{-1/3}dz$ 下，形式上 $\theta^*=-\theta-2/3$，所以
+$$
+L_M^*=(\theta+2/3)^2(\theta+1/3)(\theta+1/2)
+-z(\theta+5/6)^2(\theta+1)(\theta+3/2).
+\tag{HA.24}
+$$
+它并不等于 (HA.23) 的三阶算子。
+此外，若后继 Green 运算产生次数 $2N+1$，则 $2N+1+2/3=p/3=0$；
+该首次共振不在 (HA.21) 的安全积分范围内，不能在分母为零处延长 $\mathcal I$。
+后续仍须支付准确的 contiguous/Green 余项和这个边界。
+本节没有把两个 $a$-moment、伴随常数或 $Z$ 的强迫单位移作原 $w$ 的非零证明。
+
+本节全为纸面推导，无数学程序执行。O2 已独核 (HA.14) 与第一条 (HA.16)；
+其余显示来源由本节逐式给出，未将尚未完成的配对排除写成结论。

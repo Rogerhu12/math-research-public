@@ -118,7 +118,7 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 [R1194 §§9.7–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)已付同原L的半步分解T₂T₁、短核/全格点核及全长Saalschütz空间导数单位；该导数未冒认谱导数。实际t_r=(2m−1)F_m′(0)/(24m)来自先终止后微分，Whipple后取消参数的调和余项完整保留；HC.34–35给同一个原w(-1/2)的加权导数/有限三角源。继续全部余项与边界到4D_N′(1)+(4/3)D_N(1)的实际箭头，指定双零仍未排。
 
-[R1194 §9.10](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽现同有限权重c_n：Σu=C_NΣc_na_n、Σut=−C_NΣc_nh_n/12。原e点值比较准确给Σu=(3/2)_N(2/3)_N D_N(1)/[(5/3)_N(7/6)_N]；不对点值身份微分。h的非齐次Gauss与完整伴随付Σch/(n+1)+18Σch/(n+4/3)−30Σch=72Σca，两个shifted moments仍保。第一p极在ℓ=2N+1、ph_ℓ单位，位于原终止三角形外，未插回原w；共同零继续。
+[R1194 §§9.10–9.11](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽统一为c_na_n/c_nh_n，e点值桥不微分。两准确Saalschütz moments、完整两条二次分母伴随及端点付HA.14–16。原有限Cauchy伴随f的极点全在求和格外，右端D零及左端B双零均保；完整u_N尾给Ag=−4u_N/9−𝒰/2+𝒰/[3(n+4/3)]。故e0时同一个原w(−1/2)=K C_N I(MZ)/(16u_N)，K₄=−3δ²Γ K C_N I(MZ)/(32v₀²u_N)，外因子全unit。I只在deg≤2N定义；Z的真实三阶强迫ζ₀/27和M的四阶伴随不同，首共振2N+1未略。共同零准确剩M(1)=I(MZ)=0，继续实际Green/contiguous余项；不以强迫或Dixon导数unit冒认配对非零。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

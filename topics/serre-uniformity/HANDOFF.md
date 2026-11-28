@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：865614fb2acff3077cafcc33d25de838ab46aa0f**（2026-11-28T18:46:08.795613+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：f84a2f1a31a65c4ff756b7b0bf81ef08bcee3776**（2026-11-28T18:52:24Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 旧repo路径消失后已重新真实部分克隆，终端可用；各次pull/readme检查和旧提交恢复沿逐字归档与log，不重演已推结论。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
@@ -26,7 +26,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1194 §§1–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原全左半Hahn无权范数单位；实际短和带1/(3j+2)。Lw=−v/a、w0=0，q_j′=w(a_j)−w(2)v(a_j)，双零iff P(1/4)=Q(1/4)=0。真实Casoratian/半步分解/全格点空间导数及HC.21–35终止4F3已付；t_r=(2m−1)F_m′(0)/(24m)保全部调和余项，普通second-kind不代原w。全公式沿逐字前态，不重做。
 
-[R1194 §9.10](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽现同有限权重c_n：Σu=C_NΣc_na_n、Σut=−C_NΣc_nh_n/12。原e点值比较准确给Σu=(3/2)_N(2/3)_N D_N(1)/[(5/3)_N(7/6)_N]；不对点值身份微分。h的非齐次Gauss与完整伴随付Σch/(n+1)+18Σch/(n+4/3)−30Σch=72Σca，两个shifted moments仍保。第一p极在ℓ=2N+1、ph_ℓ单位，位于原终止三角形外，未插回原w；共同零继续。
+[R1194 §§9.10–9.11](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽统一为c_na_n/c_nh_n，e点值桥不微分。两准确Saalschütz moments、完整两条二次分母伴随及端点付HA.14–16。原有限Cauchy伴随f的极点全在求和格外，右端D零及左端B双零均保；完整u_N尾给Ag=−4u_N/9−𝒰/2+𝒰/[3(n+4/3)]。故e0时同一个原w(−1/2)=K C_N I(MZ)/(16u_N)，K₄=−3δ²Γ K C_N I(MZ)/(32v₀²u_N)，外因子全unit。I只在deg≤2N定义；Z的真实三阶强迫ζ₀/27和M的四阶伴随不同，首共振2N+1未略。共同零准确剩M(1)=I(MZ)=0，继续实际Green/contiguous余项；不以强迫或Dixon导数unit冒认配对非零。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
