@@ -12,17 +12,17 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:55:20 UTC实际pull --rebase，读取main 1b72f959e84a2b77de6109d1c3ba36776c74f86d；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:55:13 UTC实际pull --rebase至cc957d60d00f99137d8c867d4b8e3003cb5859a8；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与已读版本同blob，未重读；QUEUE bee3692a9c661d21f286c6799449901acca6583f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3246/46806832B/tree6529dacc1eafd1f5c0f98eb0875a617e7fbaf08a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 公开2026-11-28 12:01:59 UTC实际pull --rebase，读取main 08f67f67cf965dad5dcd367043322f7ae8943029；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:01:50 UTC实际pull --rebase至d6785a525fa525ebd05e21ec7638e1ba18ecd127；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与已读版本同blob，未重读；QUEUE e58af89f749cd79e35c2c318fec6847d7ad53e8a，本题认领行未变，仍进行中。
+- 拉取的公开基线库存3246/46822273B/tree3a26a223a8a13afcab1f5364771854af4011e047；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
 
 [v16完整终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，failure。完整log4026180B/SHA52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0，8120记录；旧前缀准确扩展。两F/P、T/v正负及9scalar支撑完成；A0有限两次Popov det3670。quotient solve后转原fallback，11:06:54.1538954Z明报800万transcript系数耗尽，elapsed8954.748600139s，solver/host1；不是OS OOM、137或deadline。零selected image/graph/outer及后门PASS，F_y仍旧attached。旧源/参数/回执沿来源注与完整H保留。
 
-[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原D·W=qN、完整逐坐标Y核≤306列终止；全部Laurent多项式X/低残量/已造ideal后的完整X外门。原双极度2256、重建总度>4512。§9真实A0有限U=1、P∞∈{1,2}、全球公共零长1416；真实LRU单j键/单调δ给单对象驻留窗口≤1251846，不界整X/RSS。 §10原两图G13=H0(13P∞−P)维1164，306低权行ρ≤13/Σρ3120；反图领先满秩付全s饱和。一个原D单位厚纤维总度21即足唯一恢复全图；RR维数可独立核实际返回，未有新软件/生产PASS。
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原D·W=qN、完整逐坐标Y核≤306列终止；全部Laurent多项式X/低残量/已造ideal后的完整X外门。原双极度2256、重建总度>4512。§9真实A0有限U=1、P∞∈{1,2}、全球公共零长1416；真实LRU单j键/单调δ给单对象驻留窗口≤1251846，不界整X/RSS。 §10原两图G13=H0(13P∞−P)维1164，306低权行ρ≤13/Σρ3120；反图领先满秩付全s饱和。一个原D单位厚纤维总度21即足唯一恢复全图；RR维数可独立核实际返回，§11完整多链/δ0尾/原二次域与post-ideal双解全X接口已静审，单条X≤691866系数；反向用自身零除子。未有新软件/生产PASS。
 [软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
@@ -43,7 +43,6 @@ J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，保全部权germ与原参考。旧普通
 
 ## 更正、其它门与主前沿
 
-R1052仅原未改动whole flat/外权导数；旧full54/六线/ψ4共同F等按[原更正](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)条件化。R1062–66所有CM除法/Na17/fullh/old/period/Haar/负二/Δ carry保于归档，原字εF2(a u)H_a(v(u)⊕Q)、H_a∈v6O[[v]]不移出Hall。
-[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)原δ三同源、Lamé1/全deck未给各角独立bad；[R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定√17叶稠密r2、p闭密度3/4/α1/4饱和，Pell H¹±36/32及even两维固定不增canonical零。旧R736 normalizer2048值已全算仅0/2，不重跑。
-原五固定曲线及E3969 rank≥2/通常全Sha桥已付；**联合无穷p原canonical J′非零仍为主缺口**。O4 ordinary a≤1无穷p、O6固定Np/q_p=1、O7全来源非零未闭；R1051Smith、R1026/28全39支、R1053B12/P10、R1055五伙伴及旧接口依open/归档保持。
-central_ultra推进同一全f两/三位跨p；geometry_ultra推进原全导子量化/整Brandt二次矩；arithmetic_ultra推进真实306厚点。新代理均astra/ultra；达到README完整标准才收尾。
+R1052只杀原完整flat/外权germ；旧full54/六线/ψ4跨权按[更正](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)条件化。R1062–66全CM除法/Norm17/old/period/Haar/负二与Δ carry继续按原文/既有H归档保留，不将H_a∈v6O移出Hall。
+[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)原δ/Lamé/全deck不赋各角独立bad；[R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定√17叶稠密2、p闭3/4与α1/4饱和，Pell±36/32和even两维固定，不增canonical零；旧R736 normalizer2048仅0/2不重跑。
+**固定原rank≥2曲线族的联合无穷p canonical J′非零仍为主缺口**。O4 ordinary a≤1、O6固定Np/q_p=1、O7全来源、R1051Smith/R1026–28全39支/R1053B12/P10/R1055五伙伴等按open与归档持续。central_ultra追原全f/Paley跨p，geometry_ultra追完整中央矩/固定曲线pair，arithmetic_ultra追真实306厚图。全astra/ultra；达到README完整标准才收尾。

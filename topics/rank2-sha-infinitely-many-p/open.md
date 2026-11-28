@@ -320,3 +320,7 @@ Moore行列式恒定及全根幂和准确解出原Paley两径向块的全部Z阶
 ### R1071 §10：原两图的权13整基及21阶厚纤维
 
 真实G_m=H0(mP∞−P)、g559/degP∞306/degP2256给G13维1164并生成整个原图；带权领先矩阵付反图全部s饱和，306行权≤13且总和3120。一个D可逆的原厚纤维只需底总度21，零极完整次数比较即准确恢复G13；保3420未知量、3006约束和原全坐标回代，不以约化点替厚度。低权投影的完整多链Hermite及原两ideal/全X outer均保，实际返回306行还可用RR维数独立认证。尚无本方法实际软件或306生产PASS。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
+
+### R1071 §11：完整多链返回接口与逐行驻留界
+
+亲读原完整列Popov、全厚商乘t、δ=0尾、素域admission及真实坐标回代，给各原域的多链全关系和HNF双包含。原任一负源canonical行的全部X至多691866个原域系数；反向独立用零除子。不可变内表示与post-ideal实际两理想各自解出整条X，逐多项式比较并重验全N/D，不以摘要或低次残量代全等式。仅静态接口与证明，未新增软件/生产PASS。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
