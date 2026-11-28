@@ -32,7 +32,7 @@
 
 **当前实际工作**：M48 R236已返4.21217e−5三角上界；新局部cross用自身R226有效l1保底+每片准确R236 p/完整路径w_r，487→488子片，369.533s真0，完整说明/源码已推。root已完成同M48 R249全部629片/1385.963s真0，R253/完整三时刻网格均真0，全部同场证书已推；不能把有限门槛等同#5。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变；其[实际LM系统SIGKILL−9](notes/2026-11-28-2ecf-m12-g12-sigkill-and-preserved-input.md)612.993s、driver247，无完整新field；内存可疑但无历史RSS/cgroup证据，244包仅有事后ledger。[单band原位H2](notes/2026-11-28-2ecf-m12-one-band-complete-gram-fixture.md)非零121列/2304行真0，全Gram逐字、因子指针/λ重装独立核通过；同暖场G12新04r1已实际运行，旧04不覆盖，旧事后残包未重用。M64已准备但不照旧内存配置盲启动；须继续真角频和真物理h加密，G12仅积分不能冒h收敛。
 
-[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已准确规整全部18551有限尾内缝，原节点两jet零；指定R245场+Q的连续几何仍过。[准确Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)5177半径/204窗/88非零行真0，新增Qss误差<2.313e−20。新X+C+Q源独立身份，当前各非线性场未用Q，不能静默替换。R235只排过光滑有限修正的准确等距，不排C2极限。
+[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已准确规整全部18551有限尾内缝，原节点两jet零；指定R245场+Q的连续几何仍过。[准确Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)5177半径/204窗/88非零行真0，新增Qss误差<2.313e−20。[实际M48+Q全域转移](notes/2026-11-28-2ecf-m12-actual-m48-plus-Q-full-geometry.md)已真0，metric<9.963071e−7、reach/D>.0311647758481，W系数不变但新物理图独立身份e81f3ecf…。G12 Q接口13731半径/814非零行真0；各原非线性solver仍未用Q，无新接受或Q-STL，不能静默替换。R235只排过光滑有限修正的准确等距，不排C2极限。
 
 ## 强幅度：密训练、真正独立观察与新g设计
 
@@ -50,4 +50,4 @@
 
 11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:08:06 UTC；已读公开 main `a7ee59c79535235b4161da7780b77556e9760940`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:08:30 UTC；已读公开 main `ce00b012b6db58ea4b1c8125a005efe078cdce96`，根/课题 README 逐差无变化。
