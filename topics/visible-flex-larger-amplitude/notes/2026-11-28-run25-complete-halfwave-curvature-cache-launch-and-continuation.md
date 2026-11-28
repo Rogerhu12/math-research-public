@@ -1040,3 +1040,70 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 06:23:13 UTC — 25同源续跑在真实父点的normal进度返回
+
+原restart-01在06:18:56Z实际观察到normal进度进入真实父完整点a28ae的求根；这是同point的实际normal返回进度，尚未返回新初统计/几何或接受。math仍prepared，accepted=0/report=false。完整原47提取错误保在固定索引；prepared本身不宣称成功读入，normal的具体point单独作为真实运行观察登记。未来四方向、final及pure仍未知。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128",
+  "scientific_source_commit": "f250c57887597755b6aa9cc67afa7e1da9c8959f",
+  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
+  "pid": 12394,
+  "observed_utc": "2026-11-28T06:18:56Z",
+  "observations": {
+    "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 06:18:52 UTC",
+      "point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+      "cached_angle_roots": 480,
+      "closure_original_returns": 7860,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T06:13:57.178544+00:00",
+      "math_event": "prepared",
+      "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
+      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "current_state": "prepared; no field read or acceptance inferred",
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json",
+      "bytes": 3300,
+      "sha256": "793f8027ac60967c471c47234b373bb579dd43384fc0d2ba92a5a8ad84fe5e49",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json",
+      "bytes": 1692,
+      "sha256": "36cb4d0935bcfc9f563bcdc58e077841e32edc6c0bf84c79bf30aa000b04a7d4",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_error_count": 47
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 48449,
+    "sha256": "8c0a824be3d35f19ef63387ce5892975a93a0ce99d7505de69706cee15b0bfa4",
+    "git_blob_sha": "3a0b7a372528535898f23872d36e56b6e2ffe210",
+    "fixed_commit": "838e3575df13d5869479db4198769baff7685cac",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

@@ -129,3 +129,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:17:36 UTC — RET76旧q122八列合并报告完整保源退存
 
 [完整三件](computations/legacy-eight-control-assembly-retention-76-complete-delivery.json)47112B，准确复用RET75完整46/28源与109输入账，另保全原r2 plan、两resource、真实14.5K merger/7.5K identity bridge、20原向量与2真combined数组的603214恢复。只移100552B旧generated assembled-r2，whole SHA来自保留原21723B清单，未读大体；净53440B。固定7757ea4d325e8534124fa76596b2bbd82f348b91原path可精确恢复。r1失败/后r2成功、不重算旧六列、缺half forcing/组合half检查、线性非新解全部保；真实warm/BVP消费者必须先恢复whole报告，摘要不替其输入。q126 first3/6缺原resolved-plan仍保，不猜参数；无输入/source/config/数组删除。双README云核至`ec47fa7c243e3c7b80feb4484b208110fdcd9339`无变（非pull）。
+
+## 2026-11-28 06:23:13 UTC — 25同源续跑在真实父点的normal进度返回
+
+25 restart-01/source f250c578/PID12394在06:18:52实际normal_chain_enter/点a28ae、cached480/原closure7860/fail0；math仍prepared/accepted0/新统计几何未返。原47提取错误保，不把求根进度当新结果。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`ba9c766f01c2b90166a7f5c0b86c058e490f4a89`无变（非pull）。
