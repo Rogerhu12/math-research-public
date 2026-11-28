@@ -128,6 +128,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：真整双斜折片全g/K<1/.132，规定中心的任意整帽刚体被>.005链隙排除；两真整球+全片+全角区间四任务21源原预算启动，闭球余g/全管仍欠。
 
+[R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
+
 ### 完成与保留责任
 
 闭连通C²嵌入/全t强C²、同固定g；D整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻整mesh；仅靠渐近参数压固定缺陷不算。根§15完整源参/run/whole identities、raw留runner。先全标准，再提高三比值。
