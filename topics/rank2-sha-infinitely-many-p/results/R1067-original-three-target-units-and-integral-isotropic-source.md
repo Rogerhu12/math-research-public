@@ -1623,3 +1623,105 @@ $U_n\otimes T_\pi^{-1}$ 所需的有限 $\Delta$ 型后，均有无条件
 主单位方向有无限阶作用；(AM1)不把有限 $\tau$ 当作这整个
 局部角色，也不等同于 BKO §2.1.1(2.1)的 Coates–Wiles 空间
 导数 $\delta_\chi$ 或(AL6)的 native 二阶。
+
+## 72. 原平移单位在整的双变量 LT Kummer 模中的 Robert 单位比较
+
+令 $c=103$，则 $c\equiv1\bmod f$（$c-1=102$ 可被 $34\delta$
+整除），$p>211$。取 $L=K_p(E_1[f])$，由好约化及 $(p,f)=1$
+这是有限未分歧扩张。令 $L_j=L(E_1[p^j])$，$j\ge1$；
+$A_j^\times=(\mathcal O_K/p^j)^\times$ 为其相对 $L$ 的整个
+Galois 群，$[a]$ 表示在 $p$ 挠标记上的 $w\mapsto aw$。
+取 $Q_j=\varpi/p^j$，$T_{t,j}=[p^{-j}\bmod f]T_t$，则
+$[p](T_{t,j+1}+Q_{j+1})=T_{t,j}+Q_j$。用这样的 $+p$ 相容点
+选原像；若改用 $-p$ 的 Tate 基，同时将第 $j$ 个点乘
+$(-1)^j$，其原射线及 Tate 角色均按同一基运输。
+令 $\mathcal O=\mathcal O_{K_p}$，
+$V_j=e_\tau(U^1(L_j)\otimes_{\mathbf Z_p}\mathcal O)$。
+任何局部单位均先取主单位部分，写在加法记号的张量中。
+这里 $e_\tau=|\Delta|^{-1}\sum_{b\in\Delta}\tau(b)^{-1}[b]$，
+$\Delta=\mu_{p^2-1}$。定义
+$$
+ d_j=e_\tau\sum_t\varepsilon(t)\,
+                   D_{p^{-j}t}(Q_j),\qquad
+ r_j=e_\tau\sum_t\varepsilon(t)\,
+        \Theta_{E_1,(c)}(T_{t,j}+Q_j) .                            \tag{AN1}
+$$
+$D_{p^{-j}t}$ 是(AK1)的实际整主单位，$\Theta_{E_1,(c)}$ 为
+Rubin 的标准 Robert 函数。后者在此 primitive 混合导子挠点是
+实际全局单位（Rubin Th. 7.4(iii)），且 Th. 7.6、Cor. 7.7
+给逐层范数相容。因 $[p]$ 时指数 $j\ge1$，这里用的是同素数
+已分歧的那一行，无须额外插入第一未分歧 Euler 因子。
+Rubin Lemmas 7.5、7.10 的相反除子及十二次幂，在当前尺度为
+$$
+ \Theta_{E_1,(c)}(P)=\Delta(E_1)^{c^2-1}\psi_c(P)^{-12},
+ \qquad \psi_c(z)=\sigma(cz)/\sigma(z)^{c^2}.                    \tag{AN2}
+$$
+亦可从 Lemma 7.5 比较除子后，在零点比较其首 Laurent 系数。
+与 $p$ 挠标记无关的判别式常数被 $e_\tau$ 杀掉。
+[Rubin，§7](https://swc-math.github.io/aws/1999/99RubinCM.pdf)
+
+在 $e_\tau\mathcal O[[\mathcal O_{K_p}^\times]]
+\simeq\mathcal O[[1+p\mathcal O_{K_p}]]$ 中置
+$$
+ H=1+[\beta]+
+   \varepsilon(\gamma_7)^{-1}[\gamma_7]+
+   \varepsilon(\bar\gamma_7)^{-1}[\bar\gamma_7],
+ \qquad J=[c]-c^2 .                                                \tag{AN3}
+$$
+等式里相应 $e_\tau$ 是该直因子的幺元。则有
+$$
+ \boxed{\quad (d_j)_j=-\frac1{12}\,H J^{-1}(r_j)_j
+             \quad\text{在 }\varprojlim_j V_j\text{ 中，}\qquad
+                    H,J\in(e_\tau\mathcal O[[\mathcal O_{K_p}^\times]])^\times .
+       \quad}                                                       \tag{AN4}
+$$
+证明。对每个 $j$，暂以 $b(w)$ 记
+$\sum_t\varepsilon(t)\log_p\widehat\sigma(T_{t,j}+[w]Q_j)$
+的带标记列。原始各 $\log_p\widehat\sigma$ 是普通域元素：
+可先在包含这些代数点值的某有限局部扩域中工作，并把所有有限
+标量放在外部的 $\otimes_{\mathbf Q_p}K_p$。这保两个张量嵌入；
+不使用单个乘法映射 $L_j\otimes K_p\to\mathbf C_p$ 的单射性。
+以 $w\mapsto aw$ 作列的平移。(AM2)逐点在本层同样成立；
+$e_\tau$ 消去与 $w$ 无关的基值，全驯标记杀 $2,\delta,2\delta$
+及分母 $\delta$ 项，其余准确给 $H b$ 的 $e_\tau$ 分量。
+$\widehat\sigma(cP)/\widehat\sigma(P)^{c^2}=\psi_c(P)$，
+且 $cT_{t,j}=T_{t,j}$，格代表变化的根单位被对数杀掉。
+所以(Rubin)列为 $-12J b$ 的 $e_\tau$ 分量。消去 $b$ 后，
+两边只涉及来自 $L_j$ 本身的单位，并且在指标列上 $[a]$ 平移
+正是 $L_j/L$ 的 Galois 作用，每个 $T_{t,j}$ 固定。
+$J d_j=-(H/12)r_j$ 的对数关系于是成立在
+$L_j\otimes_{\mathbf Q_p}K_p$ 中。
+
+局部对数在主单位上的核为 $p$ 幂根。$\Delta$ 在这些根上
+通过 Weil 配对给 $N_{K_p/\mathbf Q_p}(b)=\tau(b)^{p+1}$，
+此型与 $\tau$ 不同。故 $e_\tau$ 杀全部该核，张量 $\mathcal O$
+平坦，所用对数在 $V_j$ 上单射。这样上述等式回到**整**
+Kummer 模，既未丢 $p$ 幂挠，也未在分量上擅除 $p$。
+(AN3)的增广剩余值分别为(AK3)已证的
+$1+\beta+\operatorname{Tr}(\gamma_7/\varepsilon(\gamma_7))$
+及 $c-c^2$；$c(c-1)=103\cdot102$，其素因子均小于 $211$。
+该完备局部群环中两者均可逆。$r_j$ 由原 Robert 分布相容，
+(AN3)与各层群环映射及范数交换，故 $d_j$ 亦整相容，证(AN4)。
+
+(AN4)可施整个 $T_\pi^{-1}$ 的 Tate 扭转，再取反圆分协不变量。
+在先有的单位列上作用 $[a]$、再张量固定对偶基，与先张量后作用
+$[a]$ 相比确切多 $a$，因为 $[a]$ 对该对偶基作用 $a^{-1}$。
+于是(AN3)分别变为
+$$
+ 1+\beta+\sum_{a=\gamma_7,\bar\gamma_7}
+                   \frac{a}{\varepsilon(a)}[a]_{\rm ac},
+       \qquad c-c^2 .                                             \tag{AN5}
+$$
+这里用二者的 $p$ 进有理标量方向：
+$\beta\in\mathbf Q_p^\times$，$c\in\mathbf Q^\times$，
+所以二者在反圆商均取平凡类。评于
+$[a]_{\rm ac}\mapsto\chi(a)^{-2}(a/\bar a)^{dj}$（$j$ 此时是
+权变量），得到的分子恰是(AL4)，不是只在剩余域一致。
+若作 BKO(3.1)的共轭/反演识别，应同步反演反圆群变量。
+(AH4)、(AL5)已经用原两条模型和 signed 基将 native 二阶
+返回 $J_p'(0)^2$；(AN4)另在整局部双变量类上给出原平移来源
+与实际 $c$-平滑 Robert 类的上述准确单位关系。它没有将
+R303 另一辅助惰性素数所用的 $\ell^2+\ell^{-1}$ 改写成
+$c^2-c$；两处使用各自的理想 Artin 与原平滑规范。
+(AM1)的有限层非零在完整 Tate 扭转及反圆取商前成立；
+(AN4)的单位比较仍容许两个类在反圆中央同时有高阶零。

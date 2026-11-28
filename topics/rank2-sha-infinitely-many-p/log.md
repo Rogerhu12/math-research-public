@@ -457,3 +457,13 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第5次）：公开2026-11-28 13:58:12 UTC到321a3a3e40aaee68f7ef737bc0c1b978acfc7910，私库2026-11-28 13:58:08 UTC到a3745ef7d3d41a5733ef6b27aabbe0537a15209d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
 
 推送前实际本地双pull（本次发布第6次）：公开2026-11-28 13:58:25 UTC到238f7c447764a8401f02a860b3106f270a733074，私库2026-11-28 13:58:21 UTC到48c21ac99af8a23b5b85a4896457d4f34c95e9ed；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
+
+## 2026-11-28 14:01:31 UTC：R1067 §72：同一原单位的整双变量LT Robert比较
+
+根逐字复核Rubin§7 Definition7.1、Th7.4(iii)、Lem7.5、Th7.6、Cor7.7已分歧行及Lem7.10首Laurent系数；核103≡1mod34δ、+p/−p基运输、真实标记作用与两外部张量嵌入、μp∞的Norm型被eτ杀、H/J剩余单位及整个T⁻¹的a因子。未把有限层非零当原中央非零。同步更正v17可见前缀措辞，不从同前缀推断作业卡住。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:01:48 UTC到d957f2537d7762e0b326325356bc6c5960a09667，私库2026-11-28 14:01:39 UTC到ce2ead7c210d9e6992b250c28545bbc17cf9af22；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47616425B/treed09e97c84dc0a80fe4e98768cb10e9369c9af34c，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:02:01 UTC到cc6d1d6875bd632b7fb7c52e91d9d94058b3ca81，私库2026-11-28 14:01:57 UTC到6056ba3f1afa7f81bcde7f9ac7039c2f5bdc1745；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47616425B/treed09e97c84dc0a80fe4e98768cb10e9369c9af34c，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:02:14 UTC到93d5c3121f31e58271f21938d41e2130af6ff522，私库2026-11-28 14:02:10 UTC到6056ba3f1afa7f81bcde7f9ac7039c2f5bdc1745；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47616425B/treed09e97c84dc0a80fe4e98768cb10e9369c9af34c，无>5MB。

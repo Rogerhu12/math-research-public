@@ -77,3 +77,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1073 §20：固定Fermat混积微分及真端点差非挠
 
 原Hesse标记/三级Δ比给λ³+μ³=1，唯一β∈μ8及绝对2592N/(δβ)将每个真实混积积分等于E16点log。原130点及每个首端点差皆非挠；各点非零未代原指定角色的完整二阶。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §72：同一原单位的整双变量LT Robert比较
+
+原平移列在完整整Kummer模恰为−H/(12J)乘实际c=103平滑Robert列，H及J均整可逆；p⁻ʲ驯基点付真实逐层范数，eτ杀对数的全部p幂根核。整个T⁻¹及反圆特化后准确返回AL4乘子，中央高阶零仍未排除。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
