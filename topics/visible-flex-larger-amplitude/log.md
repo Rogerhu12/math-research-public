@@ -197,3 +197,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:14:47 UTC — RET79 三早期终态Actions完整来源保留
 
 只退44748103105/44758209061/44772201880七旧整索引/分卷301981B；新增全源参40473B/实际来源84839B/完整说明10911B/总表5745B，净160013B。108原实际阶段、24整命令、17whole入口、10历史queue版本及9当前数学结论全保，41当前题内源参留存独立于历史/题外workflow。run1两失败和末95KB出版失败科学值未知、run2严格超标见证/PCG未停/SOC拒、run3独立warm不等原SHA及末曲率未返，全不抹去。固定恢复2036c522，精确七路径普通删除，不动活输入。见[总表](computations/terminal-a04-actions-retention-79-complete-delivery.json)。双README云核至`46b7c638a95453d1ec87c54e68ed1c04f60ad24e`无变（非pull）。
+
+## 2026-11-28 07:18:23 UTC — 23的491dae试点实际拒绝；344a0b自身统计返回
+
+同source b31c3422a7f8f86954977988c8386208301a2942、PID3652、模型0abfb，491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55实际完整trial返回，最大reach g=.9734004743711437，accepted=false。当前仍87c076/accepted2/g.9678293850088526。下一344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c在06:53:38.351892Z返回自身Phi3824.9498851292506/Gram.646051622709035；其几何和接受未返，alpha未投影不补。原6a101拒绝等全部历史保留。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`0dd528515f122db212055353504bd8fab1748f53`无变（非pull）。
