@@ -47,7 +47,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 [完整log-radius算子](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)12789XYZ+87alpha，alpha移动明确改变g；全normal跨块/metric/area导数保留。[全大场FD失败与尺度审计](notes/2026-11-28-2ecf-polar-full-design-derivative-failure-and-scale-audit.md)保exit1和全规模后继0，门未放宽。[分块源/算子身份](notes/2026-11-28-2ecf-polar-complete-streamed-memory-and-operator-identity.md)全物理行不删。
 
-<!-- 2ecf-live-design --> [只放后缀36α的首真步](notes/2026-11-28-2ecf-restricted-radius-first-actual-design-step.md)保前缀g，G11 metric .191818/held .710289；另起完整前缀位置固定的新构造。
+<!-- 2ecf-live-design --> [87α新g设计20态](notes/2026-11-28-2ecf-all-alpha-actual-18-20.md)已0，G11 metric .142739、κ24.239、held .616754；新后缀36α支另计。
 <!-- 2ecf-live-normal --> [完整稀疏jet正常矩阵](notes/2026-11-28-2ecf-polar-complete-sparse-jet-normal-actual-audit.md)全G10真核通过；显式迁移baseline逐值同，接受不重计。
 
 强比例、连续几何/whole reach和真正同g收敛仍未完成。R233原背景界不借给变化后前缀。原fixed链/新g设计链各继续，不以一个子任务结束停工。
@@ -68,4 +68,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:49:13 UTC；已读公开 main `fbf379d6b4a00f379ea6ad0157d16e6fa7268700`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:49:26 UTC；已读公开 main `bbc8c659227685b881559b48f7bf92c5722a642d`，根/课题 README 逐差无变化。

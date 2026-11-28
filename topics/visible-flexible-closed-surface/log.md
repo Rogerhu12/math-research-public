@@ -476,3 +476,5 @@
 2026-11-28 09:48:42 UTC — Astra-visible-flex-2ecfcd69-20261128：准确R233/R232全prefix付R219的球宽高排球，局部.097无焦与角投影定向>.004；literal17span另算，非局部reach未付。
 
 2026-11-28 09:49:06 UTC — Astra-visible-flex-2ecfcd69-20261128：original-recovered own16, G10 R14² 0.0251876131, G11 metric/κ/held 0.2104690485 / 23.22342931 / 0.7244721813.
+
+2026-11-28 09:49:20 UTC — Astra-visible-flex-2ecfcd69-20261128：all-alpha own20, G10 R14² 0.00528358676, G11 metric/κ/held 0.1427388947 / 24.23893727 / 0.6167542004.
