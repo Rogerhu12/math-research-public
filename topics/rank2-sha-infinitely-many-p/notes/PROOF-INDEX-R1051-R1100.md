@@ -590,3 +590,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1072 §1：原完整反圆分平均的显式无根区间
 
 对每个固定ε>0及充分大的原惰性p，令D=φ(p+1)/2，所有i≥(1/2+ε)D的确切阶p^(2i−1)原扭曲均非零，因而原A与B34在这些整层无旋分零。证明保持同一X=(51/π)p^(2i)的完整primitive差；非六次单位方向以相对范数给短向量下界，六个真短线逐一支付，primitive首线及其余格线给一致误差。实际平均趋18π/(17√3)>0，再用未分歧基上同层Galois传播。未由深层非零推中央simple。 [完整证明](../results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1072 §§2–4：原小整数行、准确λ阈值及真实二次矩
+
+原全tame整数行在每层均偶且|A_i,u|≤2(p+1)/3，旋分整基与小代表给非零原P_i严格v_p<1。BHKO Th3.12的真实双线性平方、完整旧项消去及Th4.14–15原period给v(P_i)=v(A_p)+S_i/D_i，故P_i非零恰λ_p<D_i−S_i，零层构成初始段。§1遂给无条件有限λ界；首层插值度恰p−1−λ，λ=2恰原Σu²A_1,u modp非零，原通常Sha桥适用。Weil弧界另给真√p节省；未把µ0或固定行界当中央非零。 [同编号全文](../results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
