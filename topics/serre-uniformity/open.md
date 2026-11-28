@@ -51,6 +51,8 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1157 §12](results/R1157-original-integral-SV-Manin-triangle-filling.md)已支付原Qp-good-SS二同源四线的全部坏参数阶：选约化exact orderM=p²−p+1的T0，其Fp²共轭三点共线，取实际三次闭点提升；无需加入E[M]，x(3T0)∉Fp²。原Ep各非零参数/差同阶1/(p²−1)、leading比在Fp²；三label determinant的一次项不能消，全同label为Vandermonde×unit阶3。全部线值、α_i和七行(u,1−u)精确阶表保重数/常数，每坏项经S/J有精确阶1/(p²−1)，故全部R†(u)=R_{u^p}(u)落§13浅域，ε=0首p修正仍保。没有取v=u，也没有构造同一真实Ep Frobenius。CM时Q=[α]P覆盖全部rank2，可给整形式源u/1−u=z^j unit；z→z^p一般不保Ep理想，FL/moment比较继续。更换旧E5分解仍保原有限根/五项gauge，非局部唯一性。
 
+[R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)自足有限化实际连续moment系数：Λr°→Ir由[P]↦[P]−[0]，binom(p^r,j)对1≤j≤D<p被p^r整除，故Ar/Ir^(D+1)=Rr[X,Y]/(X,Y)^(D+1)。截断log/exp给全GL2/Galois/同源等变J_D,r≅⊕_(d=1)^D Sym^dH_r；原mom_d=d!pr_d exp，原S/U双槽必须分别乘i!j!而非再乘12!。D12秩90，过渡严格兼容到TpE及原未分歧有限FL系数。这不来自有限标记permutation的rational moment map，也未将单层raw dilog式自动升为连续中央period；仍继续同一原源的PD/43格实际比较。
+
 ### 原实际 finite Frobenius 与尚待原 F0 中央读数
 
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。

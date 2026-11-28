@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原连续moment的有限整jet（已证明）**：[R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)零Dirac模商规范认到增广理想，截断log/exp给秩90的前十二次对称幂整系数，原单槽d!与双槽i!j!及所有过渡准确保留。只有限化实际系数，不删原中央period/PD比较。
+
 - **全部原Gaussian实际行的Bol–Legendre运输（已证明）**：[R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)自足Bol/固定权整q基及Wilson把完整原行送入同一固定Pν,Vν，保每个实际Eisenstein权Q_s、source尺度和Bernoulli mask；临时四次根逐项消去，s3精确回原首标签。待证明同一actual-good子集的两点分离，未以旁端点代joint。
 
 - **原Lamé高零模与两障碍的有界原函数（已证明）**：[quadric续篇 §§5–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)完整上下半段及有限二次恒等锁定Z；e检测原R0的唯一有界primitive，K4检测同K=UDR0的第三插入。全relative相位、三极和强迫列保留，未以高单位代指定两jet。

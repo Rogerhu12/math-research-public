@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：82215940a8257317adc61855398c84fadb5f9416**（2026-11-28 13:09 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：103387f94d0cae79f02ca34df235939b56281936**（2026-11-28 13:10 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:48:17 Asia/Taipei，Actions run46109203139/job140868723588，blob:none浅clone后真实pull --rebase至c6b1020c；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤13:38、pull≤13:48。本地12:47仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-all-row-Bol-transport.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-finite-integral-moment-jet.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -18,9 +18,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1131–46](results.md)原class4全cusp/phase、D(α)完整算术五项、原Eisenstein单位、proper修正杯积与proper Heis p³均沿[逐字前态](handoff-archive-2026-11-28-before-canonical-primitive-alignment.md)保全。Cor逐陪集乘积不变成Norm乘积；未修正非零socle、MW d0/1、twists=J(K)[p]ω⁻⁷及B16门未撤。R1156–60现付真正raw/最高矩来源及实际算术未平滑；一般Frob仍待读。
 
-[R1147 §§1–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及全noncusp已付。§§17–19以Λ°=lim Rr[E[p^r]]/Rr[0]的真实norm根塔给连续all-vector矩，Mprim_d=(1−p^d)Mtilde_d。原两路径反差分支付同根ρ和完整中央二次gauge；S/U整恒等式适用全部标记，完成Gcorr之后H0/H1Z0给唯一兼容过渡，原n2/n5算术未平滑识别最高整子商。未交换period/PD极限，Cartan I仍仅modp。
+[R1147 §§1–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及全noncusp已付。§§17–19以Λ°=lim Rr[E[p^r]]/Rr[0]的真实norm根塔给连续all-vector矩，Mprim_d=(1−p^d)Mtilde_d。原两路径反差分支付同根ρ和完整中央二次gauge；S/U整恒等式适用全部标记，完成Gcorr之后H0/H1Z0给唯一兼容过渡，原n2/n5算术未平滑识别最高整子商。§20新增Λ°≅I及D=12的整jet J=I/I¹³≅⊕₁¹²Sym^dH，自由秩90；log/exp全GL2等变、原mom_d=d!pr_d，双槽保i!j!，逐层兼容。只有限化系数，未交换raw period/PD极限或改变Cartan I仅modp。
 
-[R1148–53](results.md)原cusp/全global基、relative Hodge/log Frob和finiteFL减法均保于[open](open.md)及逐字前态：Ccyc=exp(9^(224·9⁴))，大Chebotarev affine真实存在，不代空集。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)给r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25；真障碍rs h−zab，七退化支全保。Gaussian/cubic最高同源组合、U/U²实际Miller/FL尺度、β底参数和所有nilpotents沿原文；两β都坏不外推η★=1，首数字0不代whole盘，F0中央与全深盘仍开。
+[R1148–53](results.md)原cusp/global基、relative Hodge/Frob、finiteFL尺度全沿open/逐字前态。Ccyc=exp(9^(224·9⁴))；大aux affine实际存在，不代空集。β3/β5及J=Har(1,3,4)给真障碍rs h−zab，七退化支、最高同源组合、U/U²尺度/β底参数全保；两β坏不外推η★=1，原F0/完整深盘继续。
 
 [R1155 §§1–15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK、强modpO_L有限dilog、S3和同五配置carry齐备。§11–14同原Gaussian单primitive单位jet、全部CM共享形式ψ、坏参数首p修正/全尾及整四corner公式均沿open，非整乘积须提精度。ψ不保Ep理想，PD强可除归一可留单位。
 
@@ -48,7 +48,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘；盘内须高度，余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
 
-[R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两下降线Π′(z′)=Π(−z′)统一z∈Fp；actual-good代数A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d，d0/非平方分Fp点，非零平方余对须actual O_R(d)。原heat/Hasse/Katz、finiteGauss全部坏行/安全jet/余项付；Δ_low=8(3bc−td)/(4455rβ²)，Q⁶顶unit不代det，向量场闭性仍未付。原norm2/CM gauge/两twist与全尺度保文。
+[R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两实际twist已统一z∈Fp；good代数Fp[W²,W(W²−d)]或Fp[W]，仅d非零平方余对待排。原heat/Hasse/Katz、fixed minor、norm2/CM gauge及全尺度见open/归档，顶unit不代det，向量场闭性未付。
 
 [R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原Legendre/finite-log/Jacobi/Darboux的全部weighted边界已付，原joint保四个唯一低jet和固定3/8 Bernoulli系数，详见open/归档。p1019只否无条件Cν(Qν)0，未否joint，不扩扫。原ξ=P/(a²V)、f=aV的Jacobian及首p forcing6a²完整保留；A(1,−w)=−P、A(γ)=−aξ、B0=−6a已锁符号。自足Xp公式和原端点校准不代指定minor，v−3a⁶bu继续。
 

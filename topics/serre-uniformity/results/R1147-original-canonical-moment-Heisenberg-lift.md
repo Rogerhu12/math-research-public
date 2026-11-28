@@ -1399,3 +1399,225 @@ R1158 §§2–7 的共同 quotient、全算术 Weil restriction
 R1159 的全部实际 cochain 修正；
 R1160 §§4、8 的整反差分、算术构造及约化自然性。
 本节全部为纸面证明，无数学程序执行。
+
+
+## 20. 原连续 moment 的有限整 jet 系数及准确阶乘
+
+本节把 §17 的系数端完全有限化。它不增加一个普通性
+假设，也不把 ramified 标记域当作 Fontaine–Laffaille
+的未分歧底域。
+
+### 20.1 模商与增广理想的规范同构
+
+令
+$$
+A_r=R_r[\mathcal H_r],\qquad
+\varepsilon_r:A_r\to R_r,\qquad
+I_r=\ker\varepsilon_r .
+$$
+$\varepsilon_r$ 是系数和；群环的单位是 $[0]$。
+有全算术等变的规范模同构
+$$
+\Lambda_r^\circ\xrightarrow{\sim}I_r,\qquad
+[P]\bmod R_r[0]\longmapsto[P]-[0].
+\tag{1147.74}
+$$
+一般元素的 map 是
+$x\mapsto x-\varepsilon_r(x)[0]$。
+其核恰为 $R_r[0]$，像恰为 $I_r$。
+这说明 §17 的模商可规范识别为增广理想，
+但没有把 $R_r[0]$ 误作可商掉的环理想。
+原 $[p]$ 过渡与 $\varepsilon_r$ 交换，故 (1147.74)
+保持全部层间箭头。
+
+取整数 $1\le D<p$，本篇实际使用 $D=12$，置
+$$
+J_{D,r}=I_r/I_r^{D+1}.
+\tag{1147.75}
+$$
+在一个实际 $R_r$-基 $(e_1,e_2)$ 下，
+令 $X=[e_1]-1,\ Y=[e_2]-1$，$N=p^r$。
+群环的两个关系是 $(1+X)^N-1$ 和 $(1+Y)^N-1$。
+对 $1\le j\le D$，
+$$
+\binom Nj=\frac Nj\binom{N-1}{j-1}\in p^r\mathbb Z_p,
+\tag{1147.76}
+$$
+因为 $j<p$。
+其余项都已在 $(X,Y)^{D+1}$ 中。
+因此
+$$
+A_r/I_r^{D+1}
+ \simeq R_r[X,Y]/(X,Y)^{D+1}.
+\tag{1147.77}
+$$
+这付完整的整自由性，不只是模 $p$ 维数。
+$J_{D,r}$ 的秩为 $(D+1)(D+2)/2-1$；
+$D=12$ 时准确为 $90$。
+
+### 20.2 无基选择的 truncated log/exp
+
+对任意 $P\in\mathcal H_r$，在 (1147.77) 中定义
+$$
+\mathcal L_r(P)=
+ \sum_{j=1}^{D}\frac{(-1)^{j+1}}j([P]-1)^j.
+$$
+所有分母均为 $p$ 单位。
+群环可交换，故整截断 log 身份给
+$\mathcal L_r(P+Q)=\mathcal L_r(P)+\mathcal L_r(Q)$。
+整数倍相容及 $p^r=0$ 又使它成为真正的 $R_r$-线性 map。
+
+令 $\operatorname{Sym}^{\le D}\mathcal H_r$
+表示乘积总次数超过 $D$ 即置零的截断对称代数。
+下列两个实际代数 maps 互逆：
+$$
+\begin{aligned}
+\mathcal E_{D,r}:\
+ A_r/I_r^{D+1}
+ &\longrightarrow
+       \operatorname{Sym}^{\le D}\mathcal H_r,
+&
+[P]&\longmapsto
+       \sum_{d=0}^{D}\frac{P^d}{d!},\\
+\mathcal L_{D,r}:\
+ \operatorname{Sym}^{\le D}\mathcal H_r
+ &\longrightarrow A_r/I_r^{D+1},
+&
+P&\longmapsto\mathcal L_r(P).
+\end{aligned}
+\tag{1147.78}
+$$
+第一式保持 $[P+Q]=[P][Q]$，由截断指数恒等式直接核；
+它也保持 $p^rP=0$。
+两种复合是同一 nilpotent ideal 上的
+$\exp(\log(1+x))=1+x$ 与 $\log(\exp x)=x$。
+这些恒等式在 $\mathbb Z[1/D!]$ 上成立，
+所以在 $R_r$ 上并未反除 $p$。
+
+定义只使用实际点的加法和群环运算，没有基选择。
+因此它保持 $\operatorname{GL}_2(R_r)$、
+原 Galois 作用、所有基变换，以及 prime-to-$p$
+isogeny 对标记的实际运输。
+限制到增广理想即得到整同构
+$$
+\boxed{\quad
+J_{D,r}\simeq
+ \bigoplus_{d=1}^{D}\operatorname{Sym}^d\mathcal H_r.
+\quad}
+\tag{1147.79}
+$$
+这里是 log/exp 给出的同构；
+不是把普通群环的单项式基直接当成对称幂基。
+
+### 20.3 原 moment 与两槽权的阶乘
+
+将 (1147.74) 和 (1147.78) 合成后，
+$[P]\bmod R_r[0]$ 的次数 $d$ 部分是 $P^d/d!$。
+所以原 (1147.58) 的规范准确为
+$$
+\boxed{\quad
+\operatorname{mom}_{d,r}
+ =d!\,\operatorname{pr}_d\mathcal E_{D,r}
+       \circ(\Lambda_r^\circ\to J_{D,r}),
+ \qquad 1\le d\le D.
+\quad}
+\tag{1147.80}
+$$
+特别没有将原 $P^d$ moment 悄然换成 divided-power
+moment 后仍沿用旧常数。
+
+把原根 torsor (1147.55) 推到 $J_{D,r}(1)$，
+记所得类为 $\mathbf j_{c,r}$。
+则每个实际分量满足
+$$
+\operatorname{pr}_d\mathcal E_{D,r*}(\mathbf j_{c,r})
+   =\frac{k_d(c)}{d!}\,
+                   \widetilde{\mathsf M}_{d,r}.
+\tag{1147.81}
+$$
+这是已固定 quotient maps 的关系；取同一纤维点时，
+相应 cocycles 也按这些 maps 逐项相等。
+它不免除与另一套原根比较时 §18 的实际 gauge。
+
+对于 R1158 的两个输入，$P^4Q^8$ 因而是两个指数
+分量乘 $4!8!$，再用原 $\Pi_0$ 相乘。
+更一般地，原 $A(P,Q),B(P,Q)$ 中每个
+$b_{ij}P^iQ^j$（$i+j=12$）都准确是
+$$
+b_{ij}\,i!\,j!\,
+ \operatorname{mult}\bigl(
+  \operatorname{pr}_i\mathcal E([P]-1)\otimes
+  \operatorname{pr}_j\mathcal E([Q]-1)\bigr).
+$$
+R1158 的这些单项式在两变量中的次数都为正，
+所以均由两个增广理想的有限 jet 读取。
+所有 $i!j!$ 都是单位；不能统一再加一个
+没有来源的 $12!$。
+这样原 S/U 权、完整 ordered bracket 和两个
+all-vector factor $2$ 都保持原规范。
+
+### 20.4 与整过渡及原有限 FL 系数相容
+
+实际层间 map $[P]\mapsto[pP]$ 同时运输 log 与 exp；
+截断次数保持不变。
+(1147.78) 的每一项因而与
+$\mathcal H_{r+1}\to\mathcal H_r$ 的原系数约化交换。
+这里 $pP$ 指实际较低层的点，
+并非在固定的较低层 frame 中额外乘一个标量 $p$。
+
+取逆极限得到有限自由系数
+$$
+J_{D,\infty}:=\varprojlim_rJ_{D,r}
+ \simeq\bigoplus_{d=1}^{D}
+                  \operatorname{Sym}^dT_p\mathcal E.
+\tag{1147.82}
+$$
+局部选一个兼容 Tate frame 后，
+$\mathbb Z_p[[T_pE]]\simeq\mathbb Z_p[[X,Y]]$，
+所以它也正是其增广理想的 $(D+1)$ 次截断。
+该描述不依赖 frame，由 (1147.78) 的全等变性粘合。
+这说明所需 coefficient maps 确可先因子化到有限整
+jet，再作同一个有限维 realization。
+
+对定义在未分歧 $F/\mathbb Q_p$ 上的 good elliptic
+curve，右边是原 $T_pE$ 的实际对称幂整格。
+$D\le12<p$ 时所有对称投影需要的阶乘都是单位；
+按 §§13–15 的原小权 tensor 规范，它们的有限 FL
+系数就是该整直和的有限系数。
+此处只处理 coefficient modules：
+未将一个 ramified full-$p^r$ 标记域冒作 FL 基域，
+也没有由此给中央 torsor 增加一个新的整比较。
+
+### 20.5 period 与中央读取仍须支付的部分
+
+(1147.82) 不来自某个固定有限标记 permutation
+representation 的 $\mathbb Q_p$-moment map。
+那些有限标记的 rational representation 有有限
+monodromy，而原 universal
+$\operatorname{Sym}^dT_pE\otimes\mathbb Q_p$
+的非零正次数部分并不如此。
+真正的箭头是在原整 $R_r$-coefficient maps、
+兼容过渡及有限 log 截断中构造，
+随后才反除 $p$。
+
+同样，本节没有从
+$\mathscr Q_{\ell,r}^{\rm corr}$ 的存在给一个新的
+$r$ 无关 classical-dilogarithm period 公式。
+raw 中央 cochains 的 norm/ordered gauges、
+与 (1147.82) 之同一有限 realization 的比较、
+以及 actual PD pullback 后的所需精度仍须保持。
+因此有限化了系数，并不自动交换原函数来源的
+period 极限，也不删除 R1155 的 normal carry。
+
+与 Kings, [*Eisenstein classes, elliptic Soulé elements
+and the $\ell$-adic elliptic polylogarithm*](https://arxiv.org/abs/1304.7161)，§2.5
+Definitions 2.5.2–2.5.3、Lemma 2.5.4 和 §2.6
+的 finite-level moment/trace 构造相同，
+本节的 moment 是 actual trace 后的 tautological
+tensor。这里另自证零 Dirac 模商、全部整截断及
+普通 symmetric-power 的精确阶乘；
+不引用该文的有理 logarithm-sheaf 比较来反除标记
+$p^r$，也不把 ordinary syntomic 测度公式搬到 SS 点。
+
+本节为纸面系数定理。一般 $p$ 主目标及原中央
+$F_0$ 的数值读取仍保持此前范围。
