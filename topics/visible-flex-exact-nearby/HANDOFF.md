@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 11:09:32 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 11:09:46 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至2dae1dbe706847a6dcb9aab74679c477aa15df8a；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至cad90c7180af10c7e22c2408f3e187242127c747（10:58:50 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至33feee48d704eec3bb443fd2a5082f8086e53726；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至cad90c7180af10c7e22c2408f3e187242127c747（10:58:50 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META12对新200件无当前引用legacy manifest仅删字符串外空白；净1169321B，原f9ff5a8685/receipt94763B SHA c36b2ed8…保全部literal与整件身份，科学0；META1–11完整历史/receipt均保、禁重。每pull重核全部新hash及changed/untracked references，继承此前完整reference scan。
 
@@ -35,17 +35,11 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 真实成功与已付组件
 
-全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/44a8158d5152bbd5ddc76d9218c34e1f75088c72/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
+全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/33feee48d704eec3bb443fd2a5082f8086e53726/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
 
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
 
-- ASQ14：原WMA actual run46122573619/1第12完整record覆盖全部至2^20，I G<.573；139whole/6history再准入0science，原96及全部物理边界仍保。
-
-- ASQ13：真opposite-density原input bound已证，保持P97与两反射实符号，有限或无限E都可用；非物理norm实际成功。
-
-- ASQ15：两窗完整无遗漏joint逆充分门已证，保物理两mean/phase等；未把给定c,h门当实际完成。
-
-- ASQ16：ASQ11R46137511117/1实际success，完整3803B/55ba27cc…、原1502全候选+无限尾：额外例外0。全n≥97坐标<.441、物理右<.1；仅须同WPL Cphys(97)≤5.5；实际物理门仍未成。
+- SPN：19whole原证据+32新Fraction比较一次全过；真选定邻域7端口/高源9ρ与完整负窗费用已付，ρ、X0/v0须从同一完整系统实际取得。
 
 ## 后继和完整尾部义务
 

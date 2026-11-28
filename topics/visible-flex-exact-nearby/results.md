@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SPN：真实selected邻域强七端口图与完整负窗费用](results/R149-supplement-true-positive-seven-port-graph-around-the-selected-member.md)：在原Qδ*加真实任意无穷A3修正ρ≤1e−7、外端≤9e−10邻域，重新比较真principal取得QN强弱7端口；已知强高ν源变化<9ρ、真exterior<3e−10。完整负窗≤25.95X0+2.86e−6v0+1.774e−5+5530ρ及三类原跳；连续X0≤.000169,v0≤1充分。真实匹配端口和非线性族仍未证明。
+
 - [ASQ16：实际零例外与整个普通高频的单一物理门](results/R149-supplement-actual-all-frequency-primitive-and-single-physical-gate.md)：实际46137511117/1 success，完整原1502候选/五有限窗/所有未列整数与无限同余尾，额外例外为空。全g1≤157286400/123298349<1.28；整普通n≥97坐标误差<.441、物理右因子<.1，故实际coupled Cphys(97)≤5.5足以全部逆，≤5时逆<1000/59。此物理门及原96+物理边界尚须完成。
 
 - [ASQ15：原普通补空间的两个完整频率窗联合逆](results/R149-supplement-entire-ordinary-waist-complement-from-two-actual-frequency-windows.md)：全M=97..2^20和H>2^20的四个真误差块由[[.44+.1c,.71+9c],[.00004+.1h,.02+9h]]支配。真实同WPL输出c≤3,h≤1/32或c≤4,h≤1/64均足以逆整个ordinary补；完整low96、物理root96、两mean/phase/height同一重构，物理c,h仍未支付。
