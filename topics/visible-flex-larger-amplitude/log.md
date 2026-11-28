@@ -245,3 +245,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:47:27 UTC — 28完整science自然返回并接完整pure
 
 本28全原458选择器实返439值/19原错误，science0/10456.962818394999s；a28ae accepted4/Gram.40616533555531326/g.5225620087197518仍不可行。报告53af35/whole final25d9e9/typed13完整身份及全部错误保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。原三整步固定48ce66；同ID整pure46813B/7词445选择器按原对象排入，未删原参数或预算，未冒pure实际结果。双README云核至`59fc533e9bfa4ca5be9d6a0322c0b637d9b7deda`无变（非pull）。
+
+## 2026-11-28 07:48:08 UTC — 29半步4b4c实际拒绝及四分之一eb34开始
+
+29同model半步4b4c先自身统计610.4769579141478/.42038070006972633，后真reachg10.324385214244415拒。eb34四分之一仅开始；current bc818 accepted1不变，正distance-plus仍未付。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`9d68492a561255156d2de71cdf8beca12bfec104`无变（非pull）。

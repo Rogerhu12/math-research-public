@@ -801,3 +801,30 @@
   }
 ]
 ```
+
+## 2026-11-28 07:48:08 UTC — 29半步4b4c实际拒绝及四分之一eb34开始
+
+真实46112781312/1、source b0a08bf069a5d1ade7fbb94446940a6bd6ea4031、PID3641、driver58630a875941be3612947e724aa25d9556b903c5ee1c392ff79f8def974e2813、modeld3d295815f0d81553c3aafadb5c009213d9b5ff5d16a33b664de13bf3e155207。4b4c3fff4d4ccbba1a88a533b4b0b4bc981eb25fa09380e18daec44a83b129de的07:15:18.381710Z自身统计Phi610.4769579141478/Gram.42038070006972633随后确实返回几何最大reach g10.324385214244415并被拒。07:41:07.956568Z下一eb34e240b1a6306d87e3170455db359fd7f889ae319e171a6693d0ff54520691以alpha.25开始，截至07:44:33Z尚无自身统计/几何/接受。当前bc818314e615936a46d485711daf1c0212f171118d2f3fc2f3af02a67656f74e、accepted1、Phi584.8125864670693/Gram.4179453237576573，reach−.03475313540129943而distance-plus仍+.13820228685007474；全六族/K/位置均保原整索引，不把trial当current。完整science未返，仍等自然返回后同原ID整pure46915B，全部原预算不缩。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 53517,
+    "sha256": "a47f609d4e97cbdba9924e71b5901e997e8c17d827c009dc7c0acf687799cc22",
+    "git_blob_sha": "63f32ee89e18cc7b7ded4e584b126f0015952fbf",
+    "fixed_commit": "44a3b1c28c79c2a3d2adc7ee1e86397a4aaba342",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 53856,
+    "sha256": "1be2a01a3a3e6a66eb00b78bf24e4572ebfd58cba88600689e889e0aa3fe378c",
+    "git_blob_sha": "0d4c6e242a3972d044d2293eb14018ef701b5cea",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
