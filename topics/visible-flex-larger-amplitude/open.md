@@ -129,3 +129,6 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 容量续求：ret54净1113720B全账保原链；[ret55全保全账](computations/legacy-launch-array-metadata-retention-55-complete-delivery.json)精退19旧描述JSON净446483B。18个M94/M96检查点、全数值report/输入、源/请求/spec不退；旧读者须先恢复原字，不计数学完成。
 
 21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方46084442413/1、job140790598810已真启动，两input实际0；科学001025/f600/PID3644/model9387初7e06统计返Phi3233.3855489912225/Gram.6568825757487662，初几何真reach2.541916739245917、其余五族负，accepted0/reportfalse；22改完整19半宽对照只换半波机制。科学/pure全包超95KB，真正返回后整步接pure，无删字段。
+
+
+[恢复阻尼完整策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)仅准备：原真接受全步且全线性预测与实际几何相符才降下一μ，失败仍原×4；保全部QP/回溯/预算，不保证改善，不混入22。

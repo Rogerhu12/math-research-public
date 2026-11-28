@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`f4e541320c4aed042c33cb750efcb98586b97928`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`50ee536d1e9cdac9a4760e8a853033eb9a342db8`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD整合循环，不冒pull或force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅公开Actions；raw只runner/scratch，不Git/Release/artifact/改名输入。全源/参数/真实run/whole输出/typed/未知/失败保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。不加AST/fixture/重跑/审查门，不减目标或原预算。
 
@@ -31,7 +31,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 
 ## 新机制、全源与未付责任
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已证：等长中央+/-h(t/2)跨段均值闭合、同准确幅度/两角根；同长度下中央|T_s|恰减半，中间位移及全jet账完整。不是wholeK/reach排序；新直径需位移账。首四完整seed/base/Q/calibration及再生器已刊，新20源全链与137roles正在接22；参考缺陷、全场Gram/geometry必须新算。seed计划含新六片cuts，外层原whole-cell Gauss/partial不改，积分误差仍未付。21加宽实际reach更差故22取19半宽对照。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已证：等长中央+/-h(t/2)跨段均值闭合、同准确幅度/两角根；同长度下中央|T_s|恰减半，中间位移及全jet账完整。不是wholeK/reach排序；新直径需位移账。首四完整seed/base/Q/calibration及再生器已刊，新20源全链与137roles正在接22；参考缺陷、全场Gram/geometry必须新算。seed计划含新六片cuts，外层原whole-cell Gauss/partial不改，积分误差仍未付。21加宽实际reach更差故22取19半宽对照。[恢复阻尼完整策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)另刊，未接运行，不混入22。
 
 在途17–21原源/预算不改：当前18–21 geometry5730/driver10fa/reader8027/launcherf600/137角色18源、157/7argv、458/445formal/48live。20只恢复μ.001；21只width5/8。所有原source/支持CLI/external未知保各全note和原H。新半波严格新来源，不偷接旧accepted/cache。
 
