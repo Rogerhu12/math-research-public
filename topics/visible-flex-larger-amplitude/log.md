@@ -61,3 +61,7 @@
 ## 2026-11-28 05:54:37 UTC — 25完整科学自然返回并接原pure
 
 science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382仅runner；a28ae/accepted4/Phi681.6450227773521/Gram.40616533555531326/reachg.5225620087197518，distplus.11392426792936117仍违约，stop为声明restoration预算且非可行。458读数实返439、19原summary_errors全保。自然返后换既刊完整pure唯一step7词/445读数，新wholequeue46860B/57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee；原parent/finish与全部参数原字保，同run原whole report，无取消/转raw/重做结论。[全记录](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。open仅§7压缩，全部旧文保25d72固定原件，§1–6全23359B/SHA1be136a8不动。双README云核至`ebfbe3b33e2588e1256cd35410944869adf1f007`无变（非pull）。
+
+## 2026-11-28 05:56:17 UTC — ret74三重复数学profile别名完整去重
+
+[完整三件](computations/legacy-duplicate-scalar-profiles-retention-74-complete-delivery.json)56511B/净146930B；只移三确切重复路径203441B，两完整canonical数学输入原字仍现存，尤其public-M96-099-recovery/profile.json不动。fresh HEAD逐一核全部alias与canonical的whole blob/bytes，不把真实profile说成可扔metadata。全23源/14原命令资源/严格reader guard与原ENOSPC/130/未完整状态保；旧命令先whole-byte复制canonical回原alias或从cf678eac1f7c63118f1eb3a7a8ae4178e3d90f2e恢复，不能解析重串或重算冒旧身份。原producer/alias-copy shell未知仍未知，不虚填；无数值编码、无source/params/unique/active input删除、无新科学执行。[完整说明](notes/2026-11-28-duplicate-scalar-profiles-retention-74.md)。双README云核至`3dc78d1eb1fb34097a3250872695717655c2977d`无变（非pull）。
