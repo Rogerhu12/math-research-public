@@ -1,0 +1,415 @@
+{
+  "schema": "complete-actual-R726-R727-spherical-mean-accurate-core-delivery-v1",
+  "status": "complete-protected-source-core-with-explicit-unpaid-downstream-branch-attribution",
+  "scientific_publication": "7acb89983fe616fbba85cef74811625b357942e4",
+  "source_role_registry_reference": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-current-complete-runtime-binding.json",
+    "bytes": 55517,
+    "sha256": "6e5480838f54ecb50ce8baa085ebabed37504a3ba759d1ed958ec28c6d9df059",
+    "git_blob_sha": "159d8c56b1b966cf5de5d19bceec68db3630144b",
+    "json_pointer": "/complete_source_role_registry",
+    "all_137_original_pairs_required": true
+  },
+  "complete_scientific_source_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-complete-scientific-source-delivery.json",
+    "bytes": 24238,
+    "sha256": "f3e2e6b31fa9b59af013c4a8fc048e55858eb32279638a4f11368cf2dd2917f9",
+    "git_blob_sha": "5200b7728c55e192821f0f4f29578bc5d22f4524"
+  },
+  "complete_current_scientific_sources": {
+    "seed_reference": {
+      "role": "seed_reference",
+      "name": "fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+      "bytes": 52457,
+      "sha256": "176484582f7bdd83d0efe300d4ce7efe868df9d50a29310d7fb3aedce9d0f20a",
+      "git_blob_sha": "231bad2fba5f80ade672703114fe5bd776512baf"
+    },
+    "seed_mean": {
+      "role": "seed_mean",
+      "name": "fixed_fejer_R726_spherical_seed_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R726_spherical_seed_mean_jets.py",
+      "bytes": 48226,
+      "sha256": "2513e4b0b8e6f895e4b9a53da2d938bb109937a3ab577e09c67558e37d128d23",
+      "git_blob_sha": "9f7ea1805326a317a281e8c3f6c7cb6ef9709890"
+    },
+    "meridian": {
+      "role": "meridian",
+      "name": "fixed_fejer_r726_meridian_operator.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_meridian_operator.py",
+      "bytes": 40841,
+      "sha256": "bb045b437c8b56407104262b77700710fe1a02b2f1a72e6f57683732e146ee37",
+      "git_blob_sha": "25de5386e8f450ea16eaaf21eb5ba098e1df196e"
+    },
+    "new_moment_input": {
+      "role": "new_moment_input",
+      "name": "fixed_fejer_r726_literal_zero_moment_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_literal_zero_moment_input.py",
+      "bytes": 43818,
+      "sha256": "b0b8d3fdffd587ac23b081f69201d9a7fcc52b0369ab483a0d5571fbadcac8b7",
+      "git_blob_sha": "bd8a61fb7315805c56c247224477964dd21eed9e"
+    },
+    "closure_values": {
+      "role": "closure_values",
+      "name": "fixed_fejer_r726_closure_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_closure_values.py",
+      "bytes": 59438,
+      "sha256": "6e35743a4bcff082b65054006dbcccf37783ffc9659416c345279678fee442b3",
+      "git_blob_sha": "57b1e908bbd6ea4ad2f9e5d9d6d980e8363d0a50"
+    },
+    "analytic_J3": {
+      "role": "analytic_J3",
+      "name": "fixed_fejer_r726_analytic_stage_jacobian.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_analytic_stage_jacobian.py",
+      "bytes": 25695,
+      "sha256": "81d532e6816c90e38eb5fe12e6202cc13e72a83d3260269648b3047ec0169eb4",
+      "git_blob_sha": "4168a22251e8664a141114076a764712717f9db8"
+    },
+    "analytic_frame": {
+      "role": "analytic_frame",
+      "name": "fixed_fejer_r726_analytic_normal_frame.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_analytic_normal_frame.py",
+      "bytes": 47429,
+      "sha256": "56c66f8b5130a4280ef68a0f4ef71b3fa60116fc2be3139daaa588e59f55610a",
+      "git_blob_sha": "a5443a021de35952db79f420144f5f71f746bc87"
+    },
+    "frame_C1": {
+      "role": "frame_C1",
+      "name": "fixed_fejer_r726_normal_frame_c1.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_normal_frame_c1.py",
+      "bytes": 37361,
+      "sha256": "2ffc3c0ca8567c3db082ce5ae047c2cfb5d3992128fe617826a7f6fe815793ac",
+      "git_blob_sha": "bbcb2f37c72951108a60329a88fac9f3314645c1"
+    },
+    "stage_matrices": {
+      "role": "stage_matrices",
+      "name": "fixed_fejer_r726_stage_matrices.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_stage_matrices.py",
+      "bytes": 61280,
+      "sha256": "4ba1195259862fe968a56df5484b321d19c92a81fcf720a32436c44d290f0c84",
+      "git_blob_sha": "c89d7d37bc133c4551a8703d8346b6e99797f766"
+    },
+    "adjacent_matrices": {
+      "role": "adjacent_matrices",
+      "name": "fixed_fejer_r726_adjacent_matrices.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_adjacent_matrices.py",
+      "bytes": 36766,
+      "sha256": "21968326848f975fa42e660400f270d3551542a1f26b8c09e9379c41a4b94062",
+      "git_blob_sha": "fe312ad5c70a67f961d78e8900fe1c5899dd4406"
+    },
+    "reference_calibration": {
+      "role": "reference_calibration",
+      "name": "fixed_fejer_r726_reference_calibration.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_reference_calibration.py",
+      "bytes": 11850,
+      "sha256": "1371d69aa40d467e4341cbd4064f950dcdc568441abe7c41c1f7353c5641148f",
+      "git_blob_sha": "0600eb0f58eae935c95a6632b64f274379bbbd68"
+    },
+    "detached_meridian_values": {
+      "role": "detached_meridian_values",
+      "name": "fixed_fejer_r726_detached_meridian_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_detached_meridian_values.py",
+      "bytes": 41124,
+      "sha256": "587dd1070f58a3a4fa0b036b7e4d22f7d2a7cdf413e2fdc2be3bef9b235be9d0",
+      "git_blob_sha": "30fac31454487f372536649b63fe4eed4cca704c"
+    },
+    "endpoint": {
+      "role": "endpoint",
+      "name": "fixed_fejer_r726_normal_lift.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_normal_lift.py",
+      "bytes": 96262,
+      "sha256": "335ec86217a058b4c1ba982f8ca6f774a139addb8b9f0115ceb4915a1d6842f9",
+      "git_blob_sha": "0d0ab3e7a6982ff50224adc9152fb78b2ae2f2bd"
+    },
+    "root_packets": {
+      "role": "root_packets",
+      "name": "fixed_fejer_r726_root_packets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_root_packets.py",
+      "bytes": 75687,
+      "sha256": "9da481209cd48d82cb297b213650cc94c4f2148c097602f3495d57ba8f4508fc",
+      "git_blob_sha": "960eba2300fb678725c68b3d93dbea14374a0cc9"
+    },
+    "analytic_J3_binding": {
+      "role": "analytic_J3_binding",
+      "name": "fixed_fejer_r726_source_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_source_binding.py",
+      "bytes": 52866,
+      "sha256": "77c4a98d8736f10edcb33e640749033499366e41acbe8b962a0877d304235cfa",
+      "git_blob_sha": "cd39a09167892c0aa184bd5ef5edb2e0029c36dd"
+    },
+    "envelope_transfer": {
+      "role": "envelope_transfer",
+      "name": "fixed_fejer_r726_memory_transfer.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_memory_transfer.py",
+      "bytes": 78993,
+      "sha256": "01e6f6a80b3556ec941d9f46431e7b5b6b6de7892865040c5f61a09117b5bc03",
+      "git_blob_sha": "42f9aea478cd403e63145faf56afab91964dcb58"
+    },
+    "geometry_selector": {
+      "role": "geometry_selector",
+      "name": "fullclosed_point_inequalities_v2_r726_curvature_cache.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullclosed_point_inequalities_v2_r726_curvature_cache.py",
+      "bytes": 35982,
+      "sha256": "4386ce195c9709e0bb204cd749b89429652a177bb497bbc2fcf2756564496253",
+      "git_blob_sha": "20c916cdc2d097c10684cc5851c1bbac11fc69c8"
+    },
+    "geometry": {
+      "role": "geometry",
+      "name": "so3_fixed_fejer_r726_dk_cache_geometry.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_r726_dk_cache_geometry.py",
+      "bytes": 88434,
+      "sha256": "b46cd96f5bfe019137b1332750ab3f81b3c100895cff33187898ab0e1daaaa65",
+      "git_blob_sha": "ae9427232abb807586cbe108ea8e825c78eff524"
+    },
+    "batched_geometry_binding": {
+      "role": "batched_geometry_binding",
+      "name": "fixed_fejer_r726_dk_cache_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_dk_cache_binding.py",
+      "bytes": 20516,
+      "sha256": "f24ff296f0a058d43a779c17d11916c4eec1fbcf26e337ede73f433b7db61422",
+      "git_blob_sha": "4a58b6f53d4eadc040e052e9d0732bebe85e1c52"
+    },
+    "driver": {
+      "role": "driver",
+      "name": "fullclosed_fixed_fejer_r726_dk_cache_qp.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_r726_dk_cache_qp.py",
+      "bytes": 99231,
+      "sha256": "58630a875941be3612947e724aa25d9556b903c5ee1c392ff79f8def974e2813",
+      "git_blob_sha": "cbbfa6975d4e7254c29e33d0be518175354bcbee"
+    },
+    "launcher": {
+      "role": "launcher",
+      "name": "launch_fixed_fejer_r726_dk_cache_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_r726_dk_cache_actions.py",
+      "bytes": 22121,
+      "sha256": "36a7a0a286c7a983cdec7bc1ed19299c1ec57901df7d0daea707e20891e412c1",
+      "git_blob_sha": "c29c5701be654fe87f28f6ddb9e47cb2208c4396"
+    },
+    "reader": {
+      "role": "reader",
+      "name": "read_fixed_fejer_r726_dk_cache_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_r726_dk_cache_report.py",
+      "bytes": 92808,
+      "sha256": "1aae949feefb2e6bfb457d755aaa6a16412d9b5333344fa351b4ab598287248c",
+      "git_blob_sha": "49fddb8ce5d1536cf6b64ebbf1a582c9f868f62d"
+    },
+    "scalar_progress": {
+      "role": "scalar_progress",
+      "name": "fixed_fejer_complete_geometry_location_progress.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_geometry_location_progress.py",
+      "bytes": 42637,
+      "sha256": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "git_blob_sha": "bad0be021443e7fa7a8fbfe4ee473f3e05ccadad",
+      "shared_previously_published": true
+    }
+  },
+  "files": [
+    {
+      "name": "fixed_fejer_r726_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_normal_packet_accurate_field_input.py",
+      "bytes": 52462,
+      "sha256": "4082fb95d3e90b90701c893236b7a958d16cd883e3af280f65714245c58c2fd5",
+      "git_blob_sha": "2c4ea794fd4bd2abfedbdb206f46d3ed0b8c64d7",
+      "role": "complete-actual-R726-source-point-packet-and-spherical-seed-binding"
+    },
+    {
+      "name": "fixed_fejer_R726_exact_spherical_boundary_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R726_exact_spherical_boundary_boxes.py",
+      "bytes": 15754,
+      "sha256": "c7ba94caa8a527981a6a41caf53af7f3e34e50946b90cf8247dc029710d29409",
+      "git_blob_sha": "bf22d7862c79b9598ca92c1be103d1a260158741",
+      "role": "complete-accurate-Slerp-value-angle2-radial-and-raw-v-Jacobian"
+    },
+    {
+      "name": "fixed_fejer_R727_posterior_spherical_mean_cap.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R727_posterior_spherical_mean_cap.py",
+      "bytes": 16340,
+      "sha256": "c110ecba9019818cc5922ba12611868e0f2ebc1ada4b7c57f26b607b19c18e1d",
+      "git_blob_sha": "3a88dc2b2d0e037060f52e046759dc0fd1d5bb0a",
+      "role": "complete-outward-R727-local-root-cap-and-directed-branch-containment"
+    },
+    {
+      "name": "fixed_fejer_r726_R727_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_R727_posterior_mean_jets.py",
+      "bytes": 80321,
+      "sha256": "bd252a0778e25ad04133c88a5b43d927bf17a4c5e2a5b09022b32198bfc63595",
+      "git_blob_sha": "04117790bdb6e14376e409a5fbeca55c7fb5e943",
+      "role": "complete-actual-Slerp-R727-local-root-and-direct-two-angle-jet-attribution"
+    },
+    {
+      "name": "fixed_fejer_r726_R727_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r726_R727_accurate_reference_control_radial_boxes.py",
+      "bytes": 62323,
+      "sha256": "67c1e38b2b0251dbafb5cb832f3400ade2b3c3baf5ab0decf6ff8ca003fb4e00",
+      "git_blob_sha": "76199393271708ed3d6a0a2653afff93ebc6eb36",
+      "role": "complete-Slerp-three-pass-whole-angle-mean-and-radial-six-control-oracle"
+    },
+    {
+      "name": "reproduce_fixed_fejer_r726_exact_spherical_foundations.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_r726_exact_spherical_foundations.mjs",
+      "bytes": 47169,
+      "sha256": "46252e1b0b3140ffe96f362866ab674226af1704e2ce17b51a11340d48c3e78a",
+      "git_blob_sha": "70e2908046215a696b78f4896942d2e267218f9c",
+      "role": "complete-reversible-text-only-source-reproduction"
+    },
+    {
+      "name": "reproduce_fixed_fejer_r726_R727_complete_mean_radial_sources.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_r726_R727_complete_mean_radial_sources.mjs",
+      "bytes": 82789,
+      "sha256": "a9b10dcb6cf397d0fd75ae2b14ecaa7caafe592daaf80ef95f441c19219e1aed",
+      "git_blob_sha": "9f8774384b64b4ea13a35edd114381597634e4eb",
+      "role": "complete-reversible-text-only-source-reproduction"
+    },
+    {
+      "name": "2026-11-28-R726-R727-complete-spherical-mean-accurate-core.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R726-R727-complete-spherical-mean-accurate-core.md",
+      "bytes": 16411,
+      "sha256": "718097904abf3d0c713e1f66b65ba1ec85b484bf7997b0e04d0f75a10c4379da",
+      "git_blob_sha": "0b73ecf02f379fe69c63991e165992b1ce6edf27",
+      "role": "complete-analytic-proof-interface-and-unpaid-global-branch-boundaries"
+    }
+  ],
+  "total_bytes_excluding_this_manifest": 373569,
+  "runtime_source_count": 5,
+  "reproduction_source_count": 2,
+  "original_complete_accurate_parents": [
+    {
+      "name": "fixed_fejer_r725_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r725_normal_packet_accurate_field_input.py",
+      "bytes": 46944,
+      "sha256": "6f279ee6eb65a946e1980a44020dfb3f11e42e6eb7bc99e4e9d336c19994e9d4",
+      "git_blob_sha": "82e337ae877428e2cd05fc6603f48bef6f989b0a"
+    },
+    {
+      "name": "fixed_fejer_r725_R722_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r725_R722_posterior_mean_jets.py",
+      "bytes": 70729,
+      "sha256": "e290512f974d96a02764722660c818519a926a9a7cfac1c0abd9639d9e2cdbd0",
+      "git_blob_sha": "5d56464731e8a4684070189e97648d5989ba2371"
+    },
+    {
+      "name": "fixed_fejer_r725_R722_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r725_R722_accurate_reference_control_radial_boxes.py",
+      "bytes": 54251,
+      "sha256": "4158a7f0ef6e76ff3f28cb52063045df34e8a960daf6370fd844db89c229ed88",
+      "git_blob_sha": "73c554768d79dee24701f14133c45d55154842a6"
+    }
+  ],
+  "shared_complete_accurate_mathematical_sources": [
+    {
+      "name": "fixed_fejer_reference_seed_angular_profile_error_bounds.py",
+      "bytes": 72182,
+      "sha256": "0471c626b7850fecf19513d68209e090f88830b89ff8ad7cc62c2d1709a75e5b",
+      "git_blob_sha": "c0d09245e9e156cb93516945b3eec84e93807bf7"
+    },
+    {
+      "name": "fixed_fejer_reference_accurate_mean_residuals.py",
+      "bytes": 41476,
+      "sha256": "ae67ecac9f205cdb2378a7f981d5d60fc723e1caadd5281dff54395d358564a0",
+      "git_blob_sha": "fdddb363e724ab45204854a2b3084fcb95cae4bc"
+    }
+  ],
+  "proofs": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R711-smooth-triangle-central-profile-and-geometric-comparison.md",
+      "bytes": 17893,
+      "sha256": "7df73fc19224cde3c315d31dfce053892f86ff9af03f376ecee62fdce47b9fe6",
+      "git_blob_sha": "50f3a918d93029605ca6eea54f8a9c67c6ab8d27"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R713-exact-smooth-triangle-moments-and-actual-fees.md",
+      "bytes": 10284,
+      "sha256": "ed9c96e7fd3ac2010f0cb82dc50ebb66d75a04e6683a0d918ff370f6767d7024",
+      "git_blob_sha": "0ae9ebe641b572686fb4a24b89c74ce60cc53142"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R724-paired-halfwave-central-seed-and-complete-source-identity.md",
+      "bytes": 25314,
+      "sha256": "fea22bde71c3780bead8b7448c5fc057e64f8e6429f97c1b3155e1d13e32f878"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md",
+      "bytes": 30079,
+      "sha256": "f40eb810c7c5c15583155335756a2ef3aa2c60155f319b6943725906e6171bc3",
+      "git_blob_sha": "872fda9c48d04db1e3b45bd855b041f5226ab002"
+    },
+    {
+      "bytes": 27362,
+      "sha256": "faa3e44cf1392e6f7e1fb4e04adb039afc54ac881ef3f99b0b4ca9810d9e226b",
+      "git_blob_sha": "1397c01f1155ebda224441039a3950ce03c2417a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md",
+      "bytes": 20494,
+      "sha256": "cee8be0bc6084ed4091cdc68b368311c58715560ddc87086c514e52d7acf1d0f",
+      "git_blob_sha": "dd61ad82ca2e982845214686f827035e3cee4dcd",
+      "fixed_commit": "aaf129e647711ababd3a89226a5ae714e6123da7"
+    }
+  ],
+  "construction": {
+    "method": "V8 complete source text only; fixed whole parents and complete literal analytic modules",
+    "AST_executed": false,
+    "compile_executed": false,
+    "scientific_module_imported": false,
+    "scientific_or_interval_arithmetic_executed": false,
+    "fixture_or_numerical_test_run": false,
+    "existing_scientific_runtime_modified": false,
+    "refs_or_queue_modified": false
+  },
+  "bindings": {
+    "actual_input_sha256": "4082fb95d3e90b90701c893236b7a958d16cd883e3af280f65714245c58c2fd5",
+    "exact_spherical_kernel_sha256": "c7ba94caa8a527981a6a41caf53af7f3e34e50946b90cf8247dc029710d29409",
+    "cap_kernel_sha256": "c110ecba9019818cc5922ba12611868e0f2ebc1ada4b7c57f26b607b19c18e1d",
+    "posterior_mean_sha256": "bd252a0778e25ad04133c88a5b43d927bf17a4c5e2a5b09022b32198bfc63595",
+    "radial_sha256": "67c1e38b2b0251dbafb5cb832f3400ade2b3c3baf5ab0decf6ff8ca003fb4e00",
+    "scientific_role_count": 137,
+    "current_M": 160,
+    "reference_M": 160,
+    "current_J": 923,
+    "reference_J": 923,
+    "current_N": 2048,
+    "reference_N": 2048,
+    "normal_stage_count": 32,
+    "root_domain": "R727 complete local posterior cap",
+    "boundary_function": "analytic infinite-series Slerp",
+    "boundary_cutoff": "R725 fixed epsilon1/8 all 8 cuts",
+    "central_pair": "R724 full six plus six physical halfwave pieces; original complete 12-piece auxiliary A",
+    "fixed_seed_H_not_current_free_H": true
+  },
+  "complete_radial_execution": {
+    "all_original_support_and_complement_and_scalar_tail_pieces_preserved": true,
+    "three_full_integral_passes": [
+      "complete candidate E0/E1/E2",
+      "complete true-root E1",
+      "complete true-root-and-first-jet E2"
+    ],
+    "complete_raw_normalized_reference_and_mean_graphs_retained": true,
+    "complete_material_derivative_included": true,
+    "existing_time_and_leaf_budget_shared": true,
+    "original_reference_maximum_splits_not_increased": true,
+    "no_working_mean_normal_or_F_J_calls": true
+  },
+  "profile_and_frame": {
+    "R711_exact_A_pi_zero_not_working_endpoint_zero": true,
+    "all_R713_moments_and_complete_remainders": true,
+    "full_profile_two_angle_error_bounds": true,
+    "independent_projected_frame_lower_bound": "sqrt(1-sup|e dot d|^2)",
+    "positive_mean_direction_z_assumed": false
+  },
+  "required_downstream_changes": {
+    "normal": "new explicit source and R727 mean-branch gluing; never reuse old R722 global-periodicity true flag",
+    "leaf": "pass complete_jet_residual_evidence to validate_root_domain_attribution and verify all 9 source/theorem records; same geometry/current point/source",
+    "periodic_mean": "prove source small root cap strictly contained in target unique cap at every shared endpoint and at period boundary with complete same-equation identity",
+    "geometry": "only consume fully validated new whole-circle/root journal and original full physical sixjet cover",
+    "R723_and_moments": "old whole-source and closed/allphase/latefailure obligations remain; none paid by local mean caps",
+    "mesh": "old source not rebound by namespace; full new actual constructor source and exact seed remain necessary"
+  },
+  "future_actual_report_sha256": null,
+  "future_actual_snapshot_sha256": null,
+  "future_actual_point_sha256": null,
+  "future_actual_model_sha256": null,
+  "future_accurate_mean_root_or_fee": null,
+  "whole_circle_mean_branch_paid": false,
+  "all_32_normal_stages_paid": false,
+  "full_geometry_or_closed_surface_paid": false
+}

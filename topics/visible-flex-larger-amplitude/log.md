@@ -53,3 +53,7 @@
 ## 2026-11-28 05:47:07 UTC — 27后续试步的实际统计返回
 
 27 a7ff7cb仅新统计Phi748.4181748662621/Gram0.48764641077933163；当前仍初7e06/accepted0/g.701239028437362，至05:34:53Z新几何/接受/完整report未返。实际alpha0.5。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`93485f94fe29926a7cb2a147d7db87b8b6836544`无变（非pull）。
+
+## 2026-11-28 05:47:56 UTC — R726/R727完整准确均值核心九件发表
+
+[全交付](computations/fixed-fejer-r726-R727-complete-accurate-mean-core-delivery.json)395065B：五全运行源input52462/4082fb95、Slerp15754/c7ba94ca、cap16340/c110ecba、mean80321/bd252a07、radial62323/67c1e38b，两全文可逆再生47169/46252e1b及82789/a9b10dcb、[全说明](notes/2026-11-28-R726-R727-complete-spherical-mean-accurate-core.md)16411/71809790、总表21496/a0b2bf9e。完整137/23科学source/全点/固定reference绑定；q<2无限正系数Slerp全尾，R0/R1/R2及全部归一化/全3D J/角2/混合保。三个完整积分pass分别候选E0、真根盒E1、真根+已付真vphi盒E2，乘真根完整J逆，不把R727 bound冒整Cartesian盒；固定seed H0/独立profile和w分母保，原shared budgets未增。全4边层8cut/双六片与12aux/全尾保。实际非圆Gamma使wholeK不为连续O2轨道，不能只付母角；小真根冠须真进入另一唯一冠接合，不继旧R722周期bool。N/leaf/G后继完整源继续，所有actual field/root/fee/branch/geometry仍null，不以源齐当数值或闭面证，无新Python/AST/fixture/重放门。双README云核至`6577954e3cf1f11c921823df02a0251e13f52d10`无变（非pull）。
