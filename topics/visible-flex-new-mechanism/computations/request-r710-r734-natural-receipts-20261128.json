@@ -1,0 +1,30 @@
+{
+  "schema": "completed-receipts-r710-r734-v1",
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r710_completed_terminal_receiver_20261128.py": "919bfbe8925145a92f8cc5afe19e90601b301e2a3af20aa4752ae02eee431f68",
+    "topics/visible-flex-new-mechanism/scripts/completed_receipt_recovery_20261128.py": "c4c11a492e0aa6c066a98b09e99b6615ca9d903502890034ce98f832bfd321e8",
+    "topics/visible-flex-new-mechanism/scripts/completed_receipt_detail_20261128.py": "7f32ba4b50cfc92731980e55878bed2c7b252652850629d7729996b746296ecc",
+    ".github/workflows/visible-r710-r734-natural-receipts-20261128.yml": "655425591df2a3a5ba135d49d5294c167b6278037b2299fa54d6c7fc83369846"
+  },
+  "target": [
+    "R710",
+    46152424706,
+    141001739618,
+    "12071581a715b36833640670ed5780014f73bc44",
+    "R710_PAID149_ORIGINAL_BRACKET_FACES_FINAL"
+  ],
+  "paid_r734": {
+    "run": 46164643330,
+    "job": 141039363519,
+    "head": "df08b6a9be5cd73386323f253b7e56ac27fcd906",
+    "terminal_bytes": 144011,
+    "terminal_sha256": "a220b21fab92536d5a50bedc6d69b43c301b2eeda9827bdacadf663b2313134c",
+    "artifact": 15270773103,
+    "artifact_bytes": 2210591,
+    "artifact_sha256": "3fea0c6612e098159a5ea42540810a60ca4b215285a638b2ea8ea6001bf953a9"
+  },
+  "new_scientific_evaluations": 0,
+  "prior_local_R734_artifact_download_failed_http": 403,
+  "prior_local_R734_artifact_bytes_accepted": 0,
+  "purpose": "Read the original R710 terminal once; transport the already completed and root-read R734 literal plus original paid journal for the next consumer. Preserve all historical costs."
+}

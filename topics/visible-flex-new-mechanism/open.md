@@ -68,3 +68,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 
 [完整终态](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261队列完整裁决并接受，旧30468不重播；本次2370.380567539秒，counts.accepted_metric_steps=7。现81q cb8b…，outer51真2031×3072+4701定位峰η.18196698661；outer52已需2039径，资格不能迁移，当前trust.6757621765。全J/自然返回未伪造，费用及不同辅助epigraph保留。
 
+
+**R734 已付端口消费。** 以[原终态](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)及原artifact15270773103的8558键为输入；原n≥0全部胞不重算。R735只补真实中央/归一全尾二次积与新模，R738只补负号胞和真厚新中央。归一短表不冒全tail积分，后继必须核完整ZIP、journal及原FINAL字节。

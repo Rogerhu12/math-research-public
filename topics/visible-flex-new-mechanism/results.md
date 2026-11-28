@@ -47,3 +47,5 @@
 **R732.** [提高真实脉冲基线的两盘源与自由全盘三curl](results/R732-stronger-source-pulses-and-the-physical-three-curl-disc.md)：实际新g的全部既给边弦、已给混法球、源法管及完整Cartesian材料标成立，负Gauss预算更正；真实位置由三curl重建。首[公开求解工单](notes/2026-11-28-r732-physical-three-curl-disks-scope.md)完整30→63列、八相位，实际全盘同g与连续全壳资格仍待实证。
 
 **R733.** [真实全周S与方向负Gauss](results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md)：完整新源reach>.10、负Gauss方向供给>4、全参考D<3.11；活动常κ S准确同g并付所有活动S互球。原强基线常κ末圆角>11.3明确不授法管；弱源对应<10.30但仍未全盘。独立强源接口保留未执行，R740用真弱源/更完整空间继续。
+
+**R734 自然终态。** [四个实际认证端口](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)：两侧j2/3均certified_tail_port且f(cut)=1，真无限锥n*=78/89，完整原半频两jet；3.074050073秒/8558单元。固定源指纹、144011B原FINAL、2.21MB原journal artifact都绑定。中央/全角非线性/宏观闭壳仍未授；后继只续真正未付项。
