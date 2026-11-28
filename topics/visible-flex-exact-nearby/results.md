@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGPM：全变截断势与复频格实际完成](results/R149-supplement-actual-full-variable-cutoff-and-complex-frequency-slabs.md)：真46151659061/1全52×256=13312闭格/4contours16arcs成功，whole1278Bf7616d0d…；real B lower208.61567607679524且whole complex<276，九原transverse上界及3435857/3868281B私件双SHA保。真实partial cutoff/势非零translation不删，GTW新ordinary receiver接续。
+
 - [MSS：完整物理1424两端打靶及四源首发](results/R149-supplement-full-physical-multiple-shooting-with-dyadic-signed-propagators.md)：全1425×193 square，97/96块，dyadic U/V/P/R/S与原两边界，11392局部block+4边界、完整signed产品后二端2850weighted rows统一θ<1才授逆；四source193/193/193/128的HS/op/triangle和signed真实残差全保。原89whole packets仅精确恢复，1335新缺格；120whole/21history首发，实际三target仍待。
 
 - [AGDC：真实82格前缀保全并转完整两端问题](results/R149-supplement-actual-82-cell-chronological-prefix-and-full-shooting-input.md)：实际46144819361/1 failure，原81后第82格真分母>.2095498并完成；下一格充分分母下界约−3.13036，非奇异。actual74069B1aadbe23…/最终execution72930Ba2e0a2d9…全准入，原89packet/82history/83frame/248matrix whole全保；低193逆/四source未成。

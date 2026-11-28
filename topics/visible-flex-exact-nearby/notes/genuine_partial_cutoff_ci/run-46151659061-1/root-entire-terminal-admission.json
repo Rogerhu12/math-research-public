@@ -1,0 +1,44 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:52:12Z",
+        "conclusion": "success",
+        "head_sha": "68cdd6ec16775a46d5106233c0c975d764389a9a",
+        "id": 140999402982,
+        "name": "signed-variable-cutoff",
+        "started_at": "2026-11-28T13:51:07Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "68cdd6ec16775a46d5106233c0c975d764389a9a",
+      "id": 46151659061,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T13:51:05Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:52:13Z"
+    },
+    "jobs_API": {
+      "bytes": 2806,
+      "sha256": "673e7a4c1c16f90f6b2625e49508a320dd9d31e618915e816d21fcf850901e08"
+    },
+    "observed_at": "2026-11-28T14:15:27.426304+00:00",
+    "run_API": {
+      "bytes": 13355,
+      "sha256": "b0c1c627deb3696d44902a04871b14f1cc9bc724f9de16ada8ef2a17b8713e1e"
+    }
+  },
+  "complete_physical_inverse_inferred": false,
+  "old_scientific_targets_recomputed": 0,
+  "two_complete_printed_copies_agree": true,
+  "whole_log": {
+    "bytes": 81223,
+    "sha256": "785bcfd267dca370b0a9b67aaae852e0084df858db934c2e318bbbb7ddbd898b"
+  },
+  "whole_scientific": {
+    "bytes": 1278,
+    "sha256": "f7616d0da343095a7c523996978a26db6af97538ea282ee7396cbbc2ceba6358"
+  }
+}

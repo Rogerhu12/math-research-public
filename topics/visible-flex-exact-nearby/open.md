@@ -165,3 +165,6 @@ AGDC：实际46144819361/1 failure，原81后第82格真分母>.2095498并完成
 
 
 MSS：全1425×193 square，97/96块，dyadic U/V/P/R/S与原两边界，11392局部block+4边界、完整signed产品后二端2850weighted rows统一θ<1才授逆；四source193/193/193/128的HS/op/triangle和signed真实残差全保。原89whole packets仅精确恢复，1335新缺格；120whole/21history首发，实际三target仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+AGPM：真46151659061/1全52×256=13312闭格/4contours16arcs成功，whole1278Bf7616d0d…；real B lower208.61567607679524且whole complex<276，九原transverse上界及3435857/3868281B私件双SHA保。真实partial cutoff/势非零translation不删，GTW新ordinary receiver接续。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
