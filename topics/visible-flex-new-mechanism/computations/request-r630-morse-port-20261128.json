@@ -1,0 +1,55 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "mpmath": "1.3.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r630-morse-port-and-finite-radius-request-v1",
+  "public_rules_read_commit": "c823d776f3798e85a3f38e57cc1ce01d5f1ed84f",
+  "private_rules_read_commit": "d678ea6ac0a0ae68f2c9a509fe5db739203f7715",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r630_morse_center_port_and_finite_radius_20261128.py",
+  "workflow": ".github/workflows/visible-r630-morse-port-20261128.yml",
+  "common_parameters": {
+    "dps": 50
+  },
+  "lanes": {
+    "morse-port": {}
+  },
+  "scope": {
+    "new_mathematical_background": "R630 explicit Morse double kernel",
+    "full_reference_radius": "left regular, normalized at X=0",
+    "full_reference_tmax": [
+      8,
+      12
+    ],
+    "finite_right_root_nu": [
+      0.005,
+      0.02,
+      0.1,
+      0.2
+    ],
+    "finite_branch_beta_is_incomplete_core_only": true,
+    "old_R628_beta_or_finite_geometry_transferred": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r630_morse_center_port_and_finite_radius_20261128.py": "94bf4be68cb0e9acde81022d5c47269c261a381f9adfe857864b625653abf911",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/results/R630-morse-double-kernel-all-frequency-center.md": "b09432d7135ac3e27a4ef6179d21ddbe7a1476d0d6657094d6cb8a229c8a8584",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r630-morse-actual-port-and-finite-radius-scope.md": "565c294eb0911b0c1cecdc7e7274214137cac88a55842347f2d99875a60ad6da"
+  }
+}
