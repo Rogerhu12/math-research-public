@@ -171,3 +171,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 **R755 首固定材料预算。** [完整向量面积/调和能量/真曲率消费](notes/2026-11-28-r755-first-actual-fixed-material-all-pose-budget.md)：原FINAL/64校准精确内联，424新径胞、C=0/原姿/四角全部矩阵及两姿全角曲率界，首300秒；不重旧RHS/J，真正违反才排源，通过必要门不授解。 原论文与代码全文已审；支撑相交和真帽字面角两个问题已修正并核差异。
 
 **连续证据与局部真修正。** [R744](results/R744-scalar-height-development-true-cap-correction-and-thick-core-mode-exclusion.md)给单高度真实展开及当前厚源j2无穷小模排除，未排有限幅解。[R749](results/R749-two-cap-Volterra-defects-and-reflection-axis-anchors.md)把同一高度的全域Darboux缺陷、两轴锚与真六迹传到完整Gram；[R751](results/R751-positive-curvature-latitude-mean-and-height-spectrum.md)由正K整纬圈及全向量谱给平均高度的严格必要下界；[R753](results/R753-exact-local-axis-length-correction-in-the-full-even-height-space.md)保全部偶角模和帽三迹，给两轴的独立局部精确长度修正与真实曲率条件；[R756](results/R756-two-boundary-material-curl-to-the-complete-physical-two-jet.md)把两真边原curl/端位移及全域角导传到实际同一代表的Gram、六jet/主曲率和有序法球。根已全文读这些论文，R756新消费者也全文核。所有条件全胞输入尚须从真实场补齐，未把有限网当连续证明。
+
+## 2026-11-28 18:47:35 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R755原材料预算自然终态
+
+**R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。 原字节/全部费用与严格范围见笔记，接更强全方向门。
