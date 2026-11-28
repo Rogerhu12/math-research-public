@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R268：完整物理材料时钟成本的严格凸性](results/R268-strictly-convex-physical-meridian-clock.md)（2026-11-28）：保真实 ds 权、14行、全部 quartic cross 与面积障碍；新总长度输入及固定新 g 的三步已实际完成。
+
 - [R266：准确侧射线原度量与必要半径总变差](results/R266-accurate-polar-ray-metric-and-radius-variation.md)（2026-11-28）：原加权场误差>.93572118；固定同射线半径的任何单调高度和径向目标仍>.43150655；过 B 须增加径向 TV>.19574768。
 
 - [R265：准确 Γ95/R205 正高度极坐标连接整环带嵌入](results/R265-accurate-weighted-polar-connector-global-embedding.md)（2026-11-28）：六角时钟、自由质量及全闭面积下界均已连续支付，收两端准确六 jets。
