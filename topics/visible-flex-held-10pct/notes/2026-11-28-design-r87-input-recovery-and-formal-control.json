@@ -1,0 +1,279 @@
+{
+  "record_kind": "necessary_R87_input_recovery_and_formal_control_preparation",
+  "record_UTC": "2026-11-28T17:32:41.861047+00:00",
+  "new_mathematical_conclusion": false,
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/restore_single_gentle_inputs.py": "7857739fa85f4117505f77bdd6496e0ce4d638cc93f2f209fcd4a5aceeaff36c",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_stage_control.py": "afe8e5482726507e844ac71aad6c75978ec5e5eb9aaa5f7bbdb288663bafbf0e"
+  },
+  "actual_static_recovery": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-input-recovery-after-volume-reset.json",
+    "sha256": "49ff67e14179c31b2c0e3ceb067c131163e4e79e4f7cd819f7ce5fbec86fc4c2",
+    "record": {
+      "status": "published_R87_inputs_exactly_recovered",
+      "scope": "Recover only the published R87 prefix inputs after scratch loss.\n\nThe original 70-source recovery reads immutable git objects.  Original source\ninstallers and port/chart exporters then restore the necessary definitions.\nThe already published linear calibration and root profile are serialized only\nwhen their full SHA-256 agrees with the original recorded file.  No root search,\nBVP, nonlinear tail, native compilation or old q=.06 branch is executed.\n",
+      "command": [
+        "topics/visible-flex-held-10pct/scripts/resume_20261128/design/restore_single_gentle_inputs.py",
+        "--repo",
+        "/workspace/scratch/7c4e33ee17de/math-research-public",
+        "--work",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work"
+      ],
+      "source_sha256": "7857739fa85f4117505f77bdd6496e0ce4d638cc93f2f209fcd4a5aceeaff36c",
+      "commands": [
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/recover_m3_source.py",
+            "--repo",
+            "/workspace/scratch/7c4e33ee17de/math-research-public",
+            "--dest",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/recovered-source"
+          ],
+          "source_sha256": "ec0cb9888e426cd44e4469d58d5a1ee8dc782366f7e73a35540cfb088a3a8f0a"
+        },
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/make_sparse_source.py",
+            "--source-recovery",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/recovered-source",
+            "--dest",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source"
+          ],
+          "source_sha256": "b47e44c3f3db325e69da1265fb782db199b34e376679769c157c7cf0ffe013a1"
+        },
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_flat_profile.py",
+            "--source-topic",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flexible-closed-surface",
+            "--dest",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source"
+          ],
+          "source_sha256": "887a8d04157dfcee504f80d8cc2e7b66d9ae430775b4bc1df0bfea70bd49ceed"
+        },
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_shared_tail_engines.py",
+            "--copy-from",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+            "--source-topic",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+            "--manifest",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-install.json",
+            "--export-modules",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-modules"
+          ],
+          "source_sha256": "578c8397f38acb63891095cdefa2490ea70182d538ab00937192eafeb4cddb66"
+        },
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/recovered_q021/export_original_worker_port.py",
+            "--source-topic",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+            "--config",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/baseline-tail.json",
+            "--out",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/baseline-port.json"
+          ],
+          "source_sha256": "d877903064fdee3760dde0e407c84b2500b21492b7365d4e6cf389d8a87cdddf"
+        },
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/recovered_q021/export_original_worker_port.py",
+            "--source-topic",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+            "--config",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-tail-settings.json",
+            "--out",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-linear-port.json"
+          ],
+          "source_sha256": "d877903064fdee3760dde0e407c84b2500b21492b7365d4e6cf389d8a87cdddf"
+        },
+        {
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/regenerate_m3_reference.py",
+            "--source-topic",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flexible-closed-surface",
+            "--short-bridge",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+            "--profile",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/fast45-reference-profile.json",
+            "--port",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/baseline-port.json",
+            "--out",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference"
+          ],
+          "source_sha256": "8bb53ebdbbaa3def9663df92fbbd213c724473ebddb9446836ea6e26e1e42cdf"
+        }
+      ],
+      "restored_small_original_files": [
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-20261128/calibration.json",
+          "sha256": "1f2ea915c659fdd944d1c2310e75081737504bb402c9bb6583f85d8afce21dec",
+          "bytes": 9275,
+          "published_source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-design-single-gentle-linear-first-return-observed.json",
+          "published_source_sha256": "99aa609fefc55225419ee682cff077b32719260b98bcdcc837b1d9039b192c2b"
+        },
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/calibration.json",
+          "sha256": "d2d00683ec1ef91ddc5b799835f57709f22315ba84a57faedc7b6979be0b1ad5",
+          "bytes": 13474,
+          "published_source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-design-single-gentle-linear-root-observed.json",
+          "published_source_sha256": "f5197ae5227416cadbf5bfd692195a6d6fce6c2a5d392ac861ce0a29239f31eb"
+        },
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json",
+          "sha256": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+          "bytes": 772,
+          "published_source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-design-single-gentle-linear-root-observed.json",
+          "published_source_sha256": "f5197ae5227416cadbf5bfd692195a6d6fce6c2a5d392ac861ce0a29239f31eb"
+        }
+      ],
+      "calibration_source_and_input_bindings_all_match": true,
+      "generated": {
+        "chart_sha256": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+        "m24_port_sha256": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+        "source_topic": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+        "shared_source": "/workspace/scratch/7c4e33ee17de/held10-design-work/shared-source",
+        "short_bridge": "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py"
+      },
+      "elapsed_seconds": 300.152428739,
+      "launcher_requested_threads": 2,
+      "original_modules_may_set_their_own_threads": true,
+      "new_root_search": false,
+      "new_mathematical_conclusion": false,
+      "BVP_executed": false,
+      "tail_executed": false,
+      "native_compiled": false
+    },
+    "tool_session": 55603,
+    "actual_joined_returncode": 0
+  },
+  "actual_seed_recovery": {
+    "record": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128/initialization.json",
+    "record_sha256": "356b0811fb2925d804718983d02e8d942328367f0559dca6b3bdb3c8e179de6b",
+    "launcher": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-launch-20261128.json",
+    "launcher_sha256": "8bad043283fbedef59a58847970148670539fc14d18f317d8bb6dc8dcdc2cf18",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prepare_single_gentle_linear_seed.py",
+      "--repo",
+      "/workspace/scratch/7c4e33ee17de/math-research-public",
+      "--source-topic",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+      "--short-bridge",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--calibration",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/calibration.json",
+      "--chart",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json",
+      "--port",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-port8-20261128/port.json",
+      "--core-config",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json",
+      "--outdir",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128",
+      "--amplitude",
+      ".012",
+      "--warp-reference",
+      ".012",
+      "--radial-block",
+      "16"
+    ],
+    "returncode": 0,
+    "seconds": 2.387569205999853,
+    "maxRSS_KiB": 84732,
+    "initial_raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128/initial.npz",
+    "initial_raw_sha256": "f368c3ad25af89f7ed518f3d81473be08ddcec888463ae2eff4a2bffb8f3116b",
+    "initial_nodes": 415,
+    "complete_state_shape": [
+      25,
+      415
+    ],
+    "same_bytes_as_old_unaccepted_initializer": true,
+    "accepted": false
+  },
+  "new_strict_lambda0": {
+    "command_record": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-command.json",
+    "command_record_sha256": "90fd46334accdc31e701e1c0b2800f888ec656132f4f453a03ea35620948fde1",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py",
+      "--literal-nodal-restart",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128/initial.npz",
+      "--base-driver",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_chord_checkpoint_driver.py",
+      "--rhs-block",
+      "16",
+      "--memory-external-margin-mib",
+      "512",
+      "--source-topic",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+      "--short-bridge",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--profile",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json",
+      "--chart",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json",
+      "--audit-angular",
+      "512",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "2e-7",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--port",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-port8-20261128/port.json",
+      "--amplitude",
+      ".012",
+      "--warp-reference",
+      ".012",
+      "--modes",
+      "8",
+      "--angular",
+      "256",
+      "--outdir",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8",
+      "--core-module",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+      "--core-config",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json",
+      "--raw-restart",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128/initial.npz"
+    ],
+    "observer_session": 81483,
+    "actual_started_UTC": "2026-11-28T17:30:22.932291+00:00",
+    "actual_tolerance": 2e-07,
+    "all_original_metric_boundary_domain_gates_retained": true,
+    "terminal_return_observed": false
+  },
+  "formal_control": {
+    "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_stage_control.py",
+    "source_sha256": "afe8e5482726507e844ac71aad6c75978ec5e5eb9aaa5f7bbdb288663bafbf0e",
+    "compile_exit_code": 0,
+    "help_exit_code": 0,
+    "BVP_executed_with_this_controller": false,
+    "stop_after_stages_option": true,
+    "matching_outdir_nonce_request": true,
+    "request_action": "stop_after_stage",
+    "active_child_finishes_original_solve_and_acceptance_before_stop": true,
+    "no_child_during_actual_stop": true,
+    "exit_code": 4,
+    "legacy_bootstrap_result_anchor_synchronized_at_formal_stop": true,
+    "no_future_log_or_directory_barrier": true
+  },
+  "all_reproducible_arrays_outside_git": true,
+  "complete_surface": false
+}

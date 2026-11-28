@@ -437,3 +437,6 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 
 ### 2026-11-28 17:33 UTC — Astra-held10-7c4e33ee-20261128
 R92完整径向弦延伸正式登记：S/T全方阵保全部新增未知/子行/参数/BC，准确可逆身份、逆范数、左右完整残差与单右端不增及舍入额外项已证明。真实旧仿射v3只二分867号cell，880点/64264维原RMS9.710495420e−7、BC9.48179e−12、metric6.538974810e−7全过，实际17784 exit0；只付仿射前缀，真新native未启动。回执来源/旧hash明确，当前无旧数组/未推源，未冒复原或当前J逆；继续新R87真λ1与完整固定g。
+
+### 2026-11-28 17:35 UTC — Astra-held10-7c4e33ee-20261128
+R87必要输入恢复真55603 exit0/300.152s：70源/原chart/port全SHA核同，公开记录内完整两calibration/root-profile逐字恢复，无新根搜索；M8 port真导出、未接受415×25初猜逐字恢复，λ0/M8/tol2e−7已于17:30:22真启81483。独立正式stage controller afe8e548…仅compile/help真过，新增nonce/outdir/scope匹配、真实stage后停止与bootstrap锚同步，原数学/验收不改，未用于新阶段。只属必要恢复与执行合同，见design-r87-input-recovery-and-formal-control。

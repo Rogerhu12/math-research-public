@@ -4,7 +4,7 @@
 
 ## 规则、认领与完成线
 
-- 最近实际pull后双README已读锚 `5538870311afb814eb332f2926b8c82eee1930e2`（2026-11-28 17:33 UTC）。
+- 最近实际pull后双README已读锚 `353e51efa21d5005d7af50679f8f148b9b95c5d8`（2026-11-28 17:35 UTC）。
 - 私库原QUEUE认领 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 `0e3cbe262f95c04561fec3c56e64347eb6801d25`（2026-11-28恢复后已实返，17:27 UTC核记），相对前已读501598ec双README空diff，QUEUE仍本会话/2026-11-28进行中。
 - 每结论先pull核双README差异再push；至少每小时实际pull。NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 前沿与完整历史见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[R90后快照](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)、[工作区变化前H](notes/2026-11-28-handoff-before-workspace-view-reset.md)。不重做已登记结论；必要输入再生不计新数学结果。
@@ -17,7 +17,7 @@
 
 重置前最高全原门接受仍[λ=.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。相应raw当前丢失；后继恢复只作为必要输入。
 [λ=.256/M24](notes/2026-11-28-design-single-gentle-lambda256-m24-metric.md)及[M32](notes/2026-11-28-design-single-gentle-lambda256-m32-metric.md)分别metric8.84140e−5、1.28584e−6未门。[M40真实返回恢复记录](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)已登记：952点/RMS9.691444491e−7、BC5.89278e−11、mean1936、δ=.06810713649643507，但metric1.248439224e−6仍未接受；M32→M40平台仅支持试更严径向tol，非严格误差归因。M48只有999点前的迭代观察；原TTY89083实际exit1、输出遗失，原因未知，无完整raw/接受结论。
-新R87必需70源/port/chart已全部按原SHA恢复；17:30 UTC真实TTY81483已启动λ0/M8严格tol2e−7全BVP，初始415×25与原SHA同；不再生旧q=.06链，也不重复已知低模失败。新控制器用正式stop-after-stages/nonce stop-request、TTY与真实子进程生命周期，不制造未来日志错误。
+新R87必需70源/port/chart已全部按原SHA恢复；17:30 UTC真实TTY81483已启动λ0/M8严格tol2e−7全BVP，初始415×25与原SHA同；不再生旧q=.06链，也不重复已知低模失败。[实际恢复及正式阶段控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已登记：55603真exit0、70源/校准/初猜逐字核同；新controller afe8e548…真compile/help过，使用stop-after-stages/nonce stop-request与真实生命周期，活BVP先完成，接受锚同步后工程停止exit4；未改原门，尚未用此controller启动阶段。
 
 真λ1后必须完整DN/native4/chord3/全部H/J/audit/8outer，并绑定最终saved physical-H。[QR高模完整DN八源](notes/2026-11-28-tail-lambda-one-complete-qr-resource-entry.md)已发布：原native4/chord3/8outer/全H/J/audit与全前缀CSR/QR保留，八源逐字恢复核SHA且compile/import/help实过；原真λ.128负向在任何native前拒绝。独立QR首锚fixed-g九源准备中，尚无正向λ1。新图保全部模式及真实mean，不锁旧1168。[fresh完整尾小块入口](notes/2026-11-28-tail-fresh-qr-complete-chunk-geometry-entry.md)已付实际compile/help/递归I/O检查：先真final-H门，原stage0后8段一块、共享mean/全谱/全部两jet、完整merge/index，无须制造旧−9。尚无新几何阳性。[显式相位入口](notes/2026-11-28-explicit-full-phase-mesh-entry.md)已发布，R87用4/5与27/50；旧9/20和旧k.2握持guard不适用。
 
