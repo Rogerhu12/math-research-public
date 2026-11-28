@@ -1,0 +1,128 @@
+{
+  "scope": "Compare the complete original additive-delta RHS column on an actual field.\n\nThis runs no nonlinear solve, no independent large Jacobian and no tail.\nSource acceptance and raw/physical identities are checked before the original\nmodel is loaded. The mathematical column retains every state component and\nthe literal moving computational chart; original centered RHS differences\nare the comparison. Core evaluation memoization has exact keys only.\n",
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "source_raw_sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616",
+  "source_physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+  "source_lambda": 0.002,
+  "source_delta": 0.06413464112662924,
+  "modes": 24,
+  "angular": 768,
+  "source_nodes": 879,
+  "evaluated_nodes": 879,
+  "all_state_components": 73,
+  "source_is_accepted_original": true,
+  "nonlinear_solver_invoked": false,
+  "original_solver_or_live_source_changed": false,
+  "angular_or_radial_directions_removed": false,
+  "analytical_column_seconds": 1.383610009000222,
+  "analytical_column_max": 71.3247116372662,
+  "analytical_column_l2": 1157.7577950489365,
+  "comparisons": [
+    {
+      "step": 1e-06,
+      "finite_difference_seconds": 10.497982718999992,
+      "maximum_difference": 1.7850401311111644e-08,
+      "relative_l2": 2.274782019930918e-10,
+      "maximum_location": {
+        "source_node": 765,
+        "t": 0.7925,
+        "component": 55
+      },
+      "fd_l2": 1157.7577950358884,
+      "fd_max": 71.32471163817655
+    },
+    {
+      "step": 5e-07,
+      "finite_difference_seconds": 7.852642220000234,
+      "maximum_difference": 3.815570521789548e-08,
+      "relative_l2": 4.3882549946786767e-10,
+      "maximum_location": {
+        "source_node": 790,
+        "t": 0.855,
+        "component": 63
+      },
+      "fd_l2": 1157.7577950299874,
+      "fd_max": 71.32471163551202
+    }
+  ],
+  "complete_collocation": {
+    "equations": 64191,
+    "all_nodes_and_midpoint_chain_and_boundary_rows": true,
+    "analytical_seconds": 4.18086412699995,
+    "comparisons": [
+      {
+        "step": 1e-06,
+        "finite_difference_seconds": 13.586784854000143,
+        "maximum_difference": 3.173600763594483e-11,
+        "relative_l2": 5.054893645682758e-10,
+        "maximum_row": 56780,
+        "boundary_difference_max": 0.0
+      },
+      {
+        "step": 5e-07,
+        "finite_difference_seconds": 12.332941503999791,
+        "maximum_difference": 6.893087543971371e-11,
+        "relative_l2": 9.745353667996284e-10,
+        "maximum_row": 55186,
+        "boundary_difference_max": 0.0
+      }
+    ],
+    "base_original_residual_restored_bitwise": true,
+    "boundary_partial_delta_is_zero": true,
+    "columns_sha256": "d652fd7762642f85c0e6323998a0453962e157fd75cf112a6661636d81a87a7d"
+  },
+  "base_RHS_restored_bitwise": true,
+  "base_RHS_restored_max_difference": 0.0,
+  "finite_difference_cross_comparisons": [
+    {
+      "first_step": 1e-06,
+      "second_step": 5e-07,
+      "maximum_difference": 4.2688122035954005e-08,
+      "relative_l2": 4.938645382557056e-10
+    }
+  ],
+  "original_core_evaluate_memo": {
+    "enabled": true,
+    "hits": 9,
+    "misses": 1,
+    "context_changes": 0,
+    "bypasses": 0,
+    "evictions": 0,
+    "context_key_seconds": 0.004053884999848378,
+    "original_evaluate_seconds": 0.5819107620000068,
+    "copy_seconds": 0.0022767800010115025,
+    "max_entries_per_core": 4,
+    "max_bytes_per_core": 134217728,
+    "peak_cached_bytes_one_core": 1425408,
+    "peak_entry_bytes": 1425408,
+    "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+    "complete_instance_state_bound": true,
+    "complete_theta_bytes_bound": true,
+    "original_output_cache_side_effects_restored": true,
+    "returned_arrays_are_independent_writable_copies": true,
+    "quadrature_or_model_changed": false
+  },
+  "fourier_assembly_cache": {
+    "hits": 0,
+    "misses": 0,
+    "key_seconds": 0.0,
+    "build_seconds": 0.0,
+    "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+    "full_basis_and_frequency_bytes_bound": true,
+    "live_flow_or_physical_response_cached": false,
+    "shared_diagnostic_dictionary": false
+  },
+  "maximum_rss_kib": 241044,
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_material_delta_column.py": "888b2ab9213fbc52782c140f261e76b7cd3955bafa9d09a6932be59827d2c942",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_lambda_tangent_predictor.py": "acd94b154e2e0e6422e626af6e80a820d50e7c1f8dca1e1f793d79378c7dc14f",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217"
+  },
+  "elapsed_seconds": 85.55956549999974,
+  "status": "actual_whole_RHS_delta_column_comparison_returned",
+  "column_installed_in_any_solver": false,
+  "interval_derivative_certificate": false,
+  "columns_sha256": "104e66747cf67493e0f26be3bc8bd9f6eddc06ba1b695ee787de484b3d775f14"
+}

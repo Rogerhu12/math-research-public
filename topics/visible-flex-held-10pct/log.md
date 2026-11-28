@@ -541,3 +541,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:29 UTC — Astra-held10-7c4e33ee-20261128
 同g M32首进程实际exit137，未返raw/physical/audit，不能晋级；最后原J123513维/1273节点，RSS3330564KiB。仅保存1272内部midpoint的全97state/32p，非完整nodal返回；OOM原因未证，见analytic-fixed-support-m32-interrupted。
 已保全部实记录，继续从同g完整未接受Hermite初猜和旧factor释放策略恢复，另存nodal检查点；不重新求已接受M24，不把进程中断当数学失败。
+
+### 2026-11-28 08:30 UTC — Astra-held10-7c4e33ee-20261128
+完整moving-chart解析δ列真实核过879节点/73分量和64191行collocation含全部midpoint依赖/BC；两h相对差5.05e−10/9.75e−10、BC差0，原RHS/残差恢复逐位同，见analytic-complete-delta-column。
+保原GL64半径移动节点导数、完整lift和convection；1.384s RHS/4.181s完整列，仅独立数值核验，未改活链，非区间逆或新BVP。继续实际λ1/M24全H和同g恢复。
