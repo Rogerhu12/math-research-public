@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ21：规范真物理phase fibre的全纯族与全阶jets](results/R149-supplement-holomorphic-normalized-physical-phase-fibre-and-all-order-jets.md)：原Z<2^-33000复输入，以固定真实R的非均值cohomology和真实〈B〉解每步，完整E′u作二次误差付；原tube与有向dyadic递推可求和。规范g、逆H、a=2H(0)和k真全纯，真实实解由固定旋转比较唯一识别；所有混合jet有(2m/Rz)^m界。独立ξ强径向窗及regular PDE/边界仍待。
+
 - [FHC：真实cut与选定远端高度的完整物理反馈](results/R149-supplement-selected-far-height-feedback-through-the-true-physical-cut.md)：全物理cut DC≤.11，所有高even迹≤3.6 Sbody；已知真选定基点SCAP两入域实际支付。WHN的height项可由1.360002Fext+2^-31223182完整独立变量和代替；必须另算同全正逆的单位height行及t<1，保显式cut变分、Z、共同world/两means。
 
 - [NPG：真非线性邻域的完整正侧物理逆接收](results/R149-supplement-nonlinear-neighbourhood-physical-inverse-and-received-columns.md)：真实无穷p的low变化≤112000ρ、high→low raw≤8500ρ/rough≤8.8e6ρ；原全193/独立97+96、两mean、所有源跳保。GG真图后独立验body、两个完整physical门并送同源signed解至WHN负窗；70000三角迹费含真Qδ+p。实际GG和global matched输入尚待。
