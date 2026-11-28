@@ -275,3 +275,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 08:49:08 UTC / visible-exact-astra-b0d5a16-20261128：JWS新全strict角向逆已证：原SJ whole两分量S,D不拆散，UV≤D(S−D/4)/4、UVφ≤D²/16，完整L2余项<3.711826；全频P0L<21/25与4η−L>5/7给同J0<7/5，∂J<28/5、H1<29/5。原mean分母保相关得DJ>3/8、aJ及逆A0<5/2。两个whole原件身份核过，15项新Fraction首次通过，临时3674B/19843e50…；无旧producer/科学/恢复，新proof及reader登记。新signedG owner直接绑定新有理常数，不重新运行这15项；负阶窗与positiveBVP/fullSchur仍独立，不用新L2界冒充。
+
+
+2026-11-28 08:55:45 UTC / visible-exact-astra-b0d5a16-20261128：登记TF46120139018/1真实left81失败。数学4669.906695433s、非timeout；原81成功prefix、所有86 current输入和全ledger chain已核，right/node/maps与两whole目标均未成，不能给TP逆。必要完整恢复合同保原314059632B packed prefix、4955126B canonical、842453B deterministic gzip三SHA；仅复制旧81结论，完整hash均实际重现前不导入，当前0恢复/0科学。后继新Householder图表须完整frame和source windows，不借改cuts重跑。JWS已推8f86936f8，全部NFF立即rebase至成功；每pull两README无diff。私库已pull至2a3f23a459a8a2f4341da5b012ea49939cd68276，README无diff、QUEUE仍本会话进行中。

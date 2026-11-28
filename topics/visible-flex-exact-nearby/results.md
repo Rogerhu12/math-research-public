@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [TF真实失败终态与完整载体恢复合同](notes/2026-11-28-TF-left81-failure-and-checkpoint-restoration.md)：run46120139018/1仅前81个left pivots通过，第82格4→64 cuts仍失败；两whole目标/右图/source maps未成，不推真实奇异。三完整载体SHA确定性恢复代码已齐、未执行；之后换严格Householder联合球图表，旧81结论不重授，0新科学。
+
 - [JWS：联合Wiener界与完整角向逆](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)：同一whole strict实族保两分量联合S,D，完整L2余项<3.711826、全频真收缩<21/25，得J0<7/5、L2→H1<29/5及原DJ>3/8；全部primitive/mean/频率保。15新有理组合一次过，旧science/恢复0；负阶窗另付对应multipliers，不授positiveBVP/fullSchur。
 
 - [CFC：完整归一化TC有限列和物理接口](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)：保全96列、2560/8192完整signed乘积、2048异号head及无限tail、SC原e96和PWA96共ρ；10个新自然目标的源码/准入已齐。只有SC3/DCP18/H96/PWA96全部真实成功才造manifest，当前0science；100×97观察表不冒作全方块，独立mean/ν/high/Robin义务仍在。

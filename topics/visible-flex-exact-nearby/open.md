@@ -147,7 +147,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 本节压缩前所有run、球/SHA、失败unknown、参数/域/mean/source/ports完整保[8a88b0710完整open](https://github.com/Rogerhu12/math-research-public/blob/8a88b07104e57da5994fdc2046ba366ad154ffd8/topics/visible-flex-exact-nearby/open.md)及递归前页。第1–7节义务不撤；旧成功不重；当前readSHA/运行全账见H。
 
-- 原SL/PS充分门false，不推奇异。TF46120139018/1实际真low193 flow/1424cells/4273实际枢轴/四完整source maps于08:31:39终态failure；先核实际accepted prefix及失败位置，未重跑。η/repair/mean/真根全保，非fullDF。
+- 原SL/PS充分门false，不推奇异。TF46120139018/1在left index81经4→64 cuts仍失败；前81通过，right/node/maps与两whole目标未成。不是timeout，也不证明真实奇异。完整原314059632B prefix与checkpoint双SHA的必要恢复合同已齐但未执行；全hash复原后才可接新Householder联合球图表，不原样重跑。详见[真实终态与载体恢复](notes/2026-11-28-TF-left81-failure-and-checkpoint-restoration.md)，原η/repair/mean/真根及TP全条件保。
 - [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)已证明TF到原58→224→32→PN56/CXN6的完整入口；full ΔAL/ΔC/GH/物理Robin与独立mean全付，必须新κB<1。TF完整成功前不生成未来manifest。signed RHS须whole-cell，right97仅一次Θ解权；norm maps和nodes不是signed解。原SC/JF接同schema，无重复入口。
 - TC46117170011/1仅续原2677/7724 whole accepted union后的5047缺格；96列、matrix、waist、四whole arrays不重。SC首次同一次原pure现保全root96 (d,z,e)供CFC，尚无SC actual。
 - UACT45933303391全21有限Θ96坐标逆<12.588/ρ≈.799597509，finite-only .31698非global。WMT46122573619全14实际新global<6.957962，原850候选保；全physical/high/两mean/ν/phase/height Schur未付。
