@@ -273,3 +273,7 @@
 ## R658：实际M25终端截断误差与源归一传递
 
 [完整证明](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)对当前86da合同的11个齐次模，准确比较M25边值问题与真无穷平尾，以单谷DtN收缩和原平衡能量给全尾三阶/W及连接A/C截断差；没有重算旧ODE。实际core A商和forced自身C商、原强迫源及core-back按完整链传递。[真实display与分母门](notes/2026-11-28-r658-actual-display-gauge-and-denominator-threshold.md)将原已付标尺选作准确共同坐标，给每模独立数值误差阈值及条件归一e−2000界。真实有限柱的共同域差和省略真尾严格分开，不把M25端点零值当平滑零延拓；观察到的浮点分母不能当已证正下界。两个消费者只接原合同/真实当前对象，保全部七行源误差。
+
+## R661：真正宏观活动环带及其完整闭盘边界
+
+[完整证明](results/R661-constant-perimeter-moving-wing-annulus-and-disk-boundary.md)将R660单侧弯片用两条真实平行线和固定转头闭成生成线，再用同一材料弧长挤出；得到固定平度量、全时C²嵌入、有固定开片的连通环带。逐类法球和非局部分隔给全时reach≥27/50，统一D<16，真实不对齐整像支撑差≥21/4。尚有两个闭边圈；对每张帽给出整圈位置/切平面/全部二jet及Gauss–Bonnet的∫K=2π。真实固定g圆盘与跨件reach仍未解决，带边结果不计课题完成。

@@ -137,3 +137,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R658 已付数学截断分量，真实有限分母与ODE精度继续
 
 [R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)不依赖新积分地支付准确M25至准确无限模型的差；[各模阈值](notes/2026-11-28-r658-actual-display-gauge-and-denominator-threshold.md)是真正原display下的精度需求，不是数值ODE证书。须从同一现有dense源验证实际有限A分母/forced另一个C分母及其余误差；不能重ODE/旧根、不能把浮点两邻居包围冒准确数。全7误差、forced背景/商/原scale、同g度量/全曲率后续保留。R663正做实际dense的连续残差与带符号转角增长接口。
+
+### R661 宏观同g环带后的两个真实圆盘
+
+[R661](results/R661-constant-perimeter-moving-wing-annulus-and-disk-boundary.md)已给带边实际族及全部全时几何比例；不再重做单侧活动板/抽象端姿。必须为同材料闭圈Γθ(s)构造一份固定圆盘度量和全角真实嵌入，精确付P(0,s)、Pt=±ex、Ptt=Pts=0、Pss=(0,Γθ″)及每帽总K=2π。之后还须全跨件法球/初像支撑/统一闭面D；纯平盘或普通厚背都不支付这些条件。R664正推非平整圈帽领与真实中心闭合，不将帽领当闭盘。

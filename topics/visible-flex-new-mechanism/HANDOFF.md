@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **210d5675e82ef33fa2c42258aa2835227027cfd8**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **9a703e617ce8dff06978ce0e8b3a43dac67e0598**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -40,7 +40,7 @@ R632/R636的原盒/18块576微包/全正势/全历史保持，ODE/ruling/history
 
 R651 [连续四端正输入已获](notes/2026-11-28-r651-certified-positive-four-end-actual-terminal.md)，run46132556094/source d7878cdb：.058493371秒、71候选、16球积分，四τ均正、L4.769735604，原全物理盒严格闭合；真实四端由准确V逆同时为零，完整ruling未付。R654释放所有旧停留及接点jets、当前四控制/移动时间全链已证；[实际全ruling范围](notes/2026-11-28-r654-positive-source-full-ruling-actions-scope.md)只补新C³短collar积分差，接全256列/18块/全正势/原绝对门和固定2305点fine。原V不代新q控制，未闭局部盒保前沿；R656暂停，未作科学。
 
-R660真R651实体D>15/2；原R598双侧固定微带/固定补件/精确端X+λYf在全时reach门下dH≤.4，无法.3D。仅此完成类，新R654须重付D。转真活动输出/宽主体；R661/664正做整圈与完整闭盘，未完成。
+R660真R651实体D>15/2；原R598双侧固定微带/固定补件/精确端X+λYf在全时reach门下dH≤.4，无法.3D。仅此完成类，新R654须重付D。[R661](results/R661-constant-perimeter-moving-wing-annulus-and-disk-boundary.md)已有真同g活动闭母线环带：D<16/reach≥.54/全像≥5.25/固定开片>4；仍有两边圈，整圈二jets及每帽∫K=2π必须补真实固定g圆盘，不能当闭面。R664继续非平帽领。
 
 ## E：宏观R=.8／b7e0真51接受
 
