@@ -161,4 +161,6 @@ DCP18由BFP19完整成功对象首次进入全密度逆particular作用：新hea
 
 [PWA](results/R147-supplement-physical-angle-cap-GW-and-small-vertical-world-anchors.md)进一步把实际竖直q/f锚降到3.649e−6/8.56e−6，H96可用新whole锚费；保原数值误差、均值、λ、角桥、raw defects和独立world ports。消费者只在whole H96成功后重合原canonical/G/H，不重积分。DCP唯一46124617641/1已08:11:11启动。
 
+FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
+
 全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。

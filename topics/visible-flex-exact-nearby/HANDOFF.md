@@ -1,17 +1,17 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:20:11 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:21:40 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至c49404561c9c21929668a96654a8f867321f4420；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至168ef58f16880f276a1d6661c51afe93bb5dd429；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9新增128件无引用旧JSON仅去字符串外ASCII空白；whole receipt notes/2026-11-28-legacy-native-metadata-whitespace-ninth.json，69521B/97dacd0d…；gross838380B/net768859B，原件7588478671c1f733a31225fce654008d3c5b5a75完整保留、科学0。每次pull重核新引用。META1–8全部账保此前H和原receipt；第8批842c46826净753508B不重做。
 
 ## 同一对象与完整旧账
 
-[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/29386f2b040a433f9ebd655e2daeadbea560cbcc/topics/visible-flex-exact-nearby/HANDOFF.md)及其8cd255/842c/260ee/5c94/2b35/f73d等递归前页，保全部原球/SHA、失败unknown、域/指数/units/mean/ports与未付条件；压缩只索引，不撤义务，不重成功。完整结果见results.md/open.md和各proof。
+[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/f6b405ad489bd029ed6f8d602572d31d2f9b6507/topics/visible-flex-exact-nearby/HANDOFF.md)及其8cd255/842c/260ee/5c94/2b35/f73d等递归前页，保全部原球/SHA、失败unknown、域/指数/units/mean/ports与未付条件；压缩只索引，不撤义务，不重成功。完整结果见results.md/open.md和各proof。
 raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47；Zdef6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04。
 α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904；真δ*隐式且|δ*|<9.368259853002e−11，不能替0/中点。
 最终须同一连通闭M、固定g、C²连续精确C²嵌入族；有内点H逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、全族reach≥.03D。geometry43584188751/26须同η0全core+caps moving-state C0≤1e−4、|δν|≤1e−5及全部matching，才给held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511、marker145..148。ν*/Γ*/η/metric一次冻结；purephase未加静态markers仅刚体。
@@ -30,10 +30,8 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 
 - SL45917913526/PS充分门false（约30027、64.097/64.855），不推奇异；旧成功不重，另走TF。
 - UACT45933303391全21：Θ96坐标逆<12.588、ρ≈.799597509、finite-only error≈.316981860；TQ/kerΘ图有效，全high/physical/mean/ν反馈未付。原global850与WMA6.957962均保。
-- DWTB45935081577全9：w∞error≈.347099250/w2≈.064636867/whole row≈.857445102；whole carrier/9球保DBRA，后BGR/BFP只付新目标。
 - NP/NH/PO/APA/ASB/PHI whole锁；APHI仅strict particular phase(.038736784,.038768096)/逆25.82，ASB amplitude(-.006275,-.006264)/physical high97<5.330e−5。PP/CP regular defect/mean/E′a保。AP96 45926971089全6 joint<.000227442，非true PDE columns。
 - RHI45933988440全4/18carrier/2847cells，Eu≈7.210855e−6/Ey≈9.750080e−6，relative I/0非world。WMR prechild45941738781失败保，45942597362全4；AWH whole14607B/ca718bb1…，ν height[-.0253702,-.0252298]及anchor差.031082487a0+.006877446p0。varying P_b不消。
-- CW实际M cap R→L→b锚a0<.002235/a1<.015072/b1<.04748/p0<.004288，保raw E/P；四弱源94600/6693/3024/8907。固定r≥b exterior的NP particular Kb=Yb=0、height(-.02547,-.02513)/逆<40；一般ports独立。
 - CG同M fixed point t<2.684e−6，physical角桥37t+repair<9.9309e−5；全cap moving-state C0达标，不是ambient位置误差，不授core/存在/匹配。
 - HP同NP height-first：cP/cH∈(-1.543,-1.5208)、cA/cH∈(.2459,.2498)，保r◦/E′a/chart/direct/mean/world。phase弱源148568/10512/4736/13989、physical98 joint<.001663，非Θ/fullSchur。
 - HN2真实strict二阶source L1H−1<87、全频zero-terminal primitive+means<667/waist<371；ordinary L2方向+waist/κ/world的actual短height Hessian H−3<2000/mean829，strong4300/1800；phase/height二阶5.65e6/1.65e6与HP quotient全mean保。57新有理组合一次过；保零阶残差的真二jet，非regular解/迭代。
@@ -48,6 +46,8 @@ PWA更强actual竖直锚已成：同物理角GW保e/E/P/jumps与末端角桥，a
 WBN首入口已齐：17个whole inputs/1新target，原两个成功父件与validator整件核；全部96exact centres/means保，旧science0，见notes/2026-11-28-WBN-whole-saved-column-first-entry.md。
 
 GBN首入口已齐：18个whole inputs/2新target，原两个成功父件与validator整件核；全部96exact centres/means保，旧science0，见notes/2026-11-28-GBN-whole-saved-column-first-entry.md。
+
+FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
 
 ## Tail与仍须完成
 
