@@ -256,39 +256,39 @@
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 25,
-    "utc": "2026-11-28T14:19:35Z",
+    "ordinal": 26,
+    "utc": "2026-11-28T14:23:33Z",
     "original": {
       "event": "solved_knot",
       "stage": 6,
-      "index": 5,
-      "phase": 0.9817477042468103,
-      "point_sha256": "cb0f7ba5b2776acbc9f93dc7dc9b37119a1942a39ab433e9a11ef2e6998c4685",
+      "index": 6,
+      "phase": 1.1780972450961724,
+      "point_sha256": "2e5b82cf4b183a8e744c87fc3595279bb146084020a2254e2e432f0a34bb0094",
       "nfev": 68,
-      "njev": 56,
+      "njev": 51,
       "status": 0,
-      "cost": 0.040085249945303505,
-      "optimality": 0.0013479388776219008,
-      "adjoint_abs": 3.5561831257524545e-17,
-      "directional_fd_relative": 8.284598606227871e-08,
-      "train_gram": 0.27921172062099386
+      "cost": 0.0575305615030079,
+      "optimality": 0.0007331506865461384,
+      "adjoint_abs": 2.862293735361732e-17,
+      "directional_fd_relative": 7.835663832018978e-08,
+      "train_gram": 0.2958659044365745
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run41-bent-end-fan-46151180968-1/field/summary.json",
-      "bytes": 31784,
-      "sha256": "3111c402be4316ec093dc356d1ddc7e1903cbf68f4e90277cbfb17646ec9f111"
+      "bytes": 31787,
+      "sha256": "b1d160a00558230a3eee3b5be3b737605692c94f87558cceebadf99fb90cde24"
     },
     "complete_small_json": {
-      "elapsed_seconds": 2223.468722825,
+      "elapsed_seconds": 2349.2514827620003,
       "in_progress": {
-        "call": 54,
-        "cost": 0.057632047742908664,
+        "call": 21,
+        "cost": 0.07810913049290857,
         "design": "omega-shortened-cap",
-        "knot_index": 6,
-        "phase": 1.1780972450961724,
-        "point_sha256": "666e7729539be1e6deb49949559b9eebd3d0b0df7af4eedf650949c251548199",
+        "knot_index": 7,
+        "phase": 1.3744467859455345,
+        "point_sha256": "25936d6c036d6d9a72b0ddd2c1639b5e1bc2be12cebaac469dbea89d82b06e80",
         "stage": 6
       },
       "numpy": "2.3.5",
@@ -2234,6 +2234,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:45:38Z",
-  "observed_utc": "2026-11-28T14:23:17Z",
-  "original_scalar_line_count": 25
+  "observed_utc": "2026-11-28T14:25:21Z",
+  "original_scalar_line_count": 26
 }
