@@ -1,0 +1,261 @@
+{
+  "schema": "isp-corrected-hk-Delta-zero-original-722-base-cover-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "blob": "4e80aedebd40af9b6bc877c0f164d69a2b13f294",
+    "bytes": 9871,
+    "sha256": "3fcc2e90677b7bbd0247d72c1922fc6ed0b60da4ced715a7cecbeae656aade33"
+  },
+  "execution": {
+    "elapsed_seconds": 1.1588408089999973,
+    "max_child_rss_kib": 68600,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "197b8125326cbeeb5ffc30c97bdb7814c31c9a88",
+        "before": "fc9e921ed2e0bc5000f5b67e2beb4e016b8359d5",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T07:12:44.473517+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46120122225",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "fc9e921ed2e0bc5000f5b67e2beb4e016b8359d5",
+    "source_exit_code": 0,
+    "source_git_blob": "4e80aedebd40af9b6bc877c0f164d69a2b13f294",
+    "source_sha256": "3fcc2e90677b7bbd0247d72c1922fc6ed0b60da4ced715a7cecbeae656aade33",
+    "stdout_bytes": 3663,
+    "stdout_sha256": "5a8ec2f31e8ddf356fdde752c631ef9eb6a358f8eb42a8a30dcbf0aa20549fb4",
+    "stop_reason": null
+  },
+  "actual_records": [
+    {
+      "originalTrueF61": {
+        "degrees": [
+          61,
+          17,
+          9
+        ],
+        "totalDegree": 79,
+        "terms": 5855,
+        "bytes": 206121,
+        "sha256": "69babd37fc45ade649b12b4b849151574080a2bf92c7c2266141d17be1a9d999"
+      },
+      "actualDelta": {
+        "degrees": [
+          12,
+          4,
+          2
+        ],
+        "totalDegree": 16,
+        "terms": 98,
+        "bytes": 1847,
+        "sha256": "6e482757458656b38ee447c7509286fe03dd15fb93d1e45e84fbbeaac0ed66ef"
+      },
+      "necessaryPrefixBytes": 5121,
+      "necessaryPrefixSHA256": "325c32cb81f37b3f31affd4e98f01c39fcee75b2cc0eae1d9cbb079edaf6d078",
+      "oldFiveRowCofactorGateNotExecuted": true,
+      "oldDeltaTnumProjectionNotExecuted": true,
+      "wrongRbadAndWrongSecondCurveNotUsed": true,
+      "physicalScope": "h=k, Delta=0, A*B*Q*(1-Q)*Pf*bc*P02 != 0",
+      "noDeltaInverse": true,
+      "allQLeadingZeroFibersKept": true,
+      "stage": "new_true_Delta_zero_RWO_projection_definitions",
+      "seconds": 0.7835885620000056
+    },
+    {
+      "fixedOriginalQDegrees": [
+        2,
+        9
+      ],
+      "fixedSylvesterSize": 11,
+      "raw": {
+        "degrees": [
+          213,
+          40,
+          0
+        ],
+        "totalDegree": 253,
+        "terms": 7349,
+        "bytes": 644832,
+        "sha256": "95599d7846ce16b022d82286b787ca0709b02ae3916ef49fb43f7c80bc417c7e"
+      },
+      "allLeadingZeroFibersRetained": true,
+      "noNewGeometryHeadInverted": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_corrected_Delta_RWO_fixed_Q_resultant",
+      "seconds": 0.8968904890000005
+    },
+    {
+      "necessaryCurve": {
+        "degrees": [
+          110,
+          14,
+          0
+        ],
+        "totalDegree": 124,
+        "terms": 1664,
+        "bytes": 104840,
+        "sha256": "003995ba2eeb0878723965b2404719f1c53ec0ae0f1e4b69da6b4fa38c66f3bc"
+      },
+      "onlyPaidQIndependentRemoval": [
+        [
+          "A",
+          5
+        ],
+        [
+          "B",
+          28
+        ],
+        [
+          "lambda",
+          4
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "symmetric_u_minus_one",
+          20
+        ],
+        [
+          "entire_original_S",
+          5
+        ]
+      ],
+      "symmetricUMinusOneUsesNew6516WholeOriginalProof": true,
+      "uZeroUsesIndependent347cTrueDualAndNonzeroScaling": true,
+      "SZeroUsesThreeOriginalStaticAudits": true,
+      "allUnpaidWeightFibersKept": true,
+      "wholeNamedDeltaChartExcluded": false,
+      "stage": "new_corrected_Delta_RWO_necessary_QQ_curve",
+      "seconds": 1.0777695740000013
+    },
+    {
+      "originalDTRun": 46025096446,
+      "originalDTJob": 140594347573,
+      "historicalCommit": "ac40c96b0cfb3758fbf8bd380d18ca288a23601f",
+      "independentP": {
+        "degrees": [
+          28,
+          3
+        ],
+        "totalDegree": 31,
+        "terms": 115,
+        "bytes": 2496,
+        "sha256": "8af7c105334af350ef5047ee49cf27a5aadbfa204a11b64f9b7f7b8a352dd49c"
+      },
+      "legacyWrongMNotDecodedOrUsed": true,
+      "oldDTSylvesterAndFactorizationNotExecuted": true,
+      "payloadPrintedSavedOrRecommitted": false,
+      "stage": "new_corrected_Delta_only_independent_legacy_input",
+      "seconds": 1.0877357850000067
+    },
+    {
+      "sharedCurve": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "independentResidual": {
+        "degrees": [
+          28,
+          3
+        ],
+        "totalDegree": 31,
+        "terms": 115,
+        "bytes": 2496,
+        "sha256": "8af7c105334af350ef5047ee49cf27a5aadbfa204a11b64f9b7f7b8a352dd49c"
+      },
+      "correctedResidual": {
+        "degrees": [
+          110,
+          14
+        ],
+        "totalDegree": 124,
+        "terms": 1664,
+        "bytes": 98184,
+        "sha256": "65d420e901bd60b711d76ad23699daab655414b0595383a19a93d13180f30663"
+      },
+      "exactCover": "sharedCurve=0 OR (independentResidual=0 AND correctedResidual=0)",
+      "allSharedAndLeadingZeroFibersKept": true,
+      "multivariateGCDOneNotTreatedAsEmpty": true,
+      "allOriginalPointFinitenessClaim": false,
+      "stage": "new_corrected_Delta_actual_two_curve_decomposition",
+      "seconds": 1.0951813020000003
+    },
+    {
+      "differentLambdaUPointsAtMost": 722,
+      "proof": "fixed u-Sylvester degree bound plus independent evaluation columns and determinant vanishing orders",
+      "completeQAndGramFibersStillRetained": true,
+      "ordinaryISPClaim": false,
+      "wholeNamedDeltaChartExcluded": false,
+      "stage": "new_corrected_Delta_finite_original_base_bound",
+      "seconds": 1.0952580880000085
+    },
+    {
+      "sourceSHA256": "3fcc2e90677b7bbd0247d72c1922fc6ed0b60da4ced715a7cecbeae656aade33",
+      "exactDivisionProducts": 246,
+      "oldFrozenLowZTargetsNotExecuted": true,
+      "noOldWrongCoverageRestored": true,
+      "noCoefficientCacheSaved": true,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 68600,
+      "stage": "new_corrected_Delta_Q_projection_finished",
+      "seconds": 1.0953748640000072
+    }
+  ],
+  "source_review": {
+    "source_blob": "4e80aedebd40af9b6bc877c0f164d69a2b13f294",
+    "source_sha256": "3fcc2e90677b7bbd0247d72c1922fc6ed0b60da4ced715a7cecbeae656aade33",
+    "input_blob": "1e07e6ca0dbfb2c1dbfa567361758c04f0ff0658",
+    "entire_root_source_input_read": true,
+    "only_corrected_RWO_definition_prefix_bytes": 5121,
+    "old_F61_input_only": true,
+    "old_Delta_Tnum_projection_replayed": false,
+    "old_independent_P_reused_only_from_pinned_git_history_in_runner": true,
+    "no_payload_transmitted_or_recommitted": true,
+    "scope": "Only original h=k Delta=0 with ABQ(1-Q)Pf bcP02 nonzero. New true F61 fixed Q projection, actual gcd with independently valid old P. Q-leading zeros and whole Pf-zero complement retained. No old wrong M or frozen low-z target.",
+    "execution": "reviewed before the sole recorded execution"
+  },
+  "independent_r150_entire_source_input_review": true,
+  "independent_Delta_Tnum_definition_static_comparison": {
+    "entire_coordinate_definition_byte_equal": true,
+    "metadata_receipt_blob": "7046530550bcbdcbac92f0eb4e9d7234664b1ea3",
+    "D2_extra_removals": [],
+    "Tnum_extra_removals": [
+      "Q",
+      "S"
+    ],
+    "old_P_Q_free_removals": [
+      "A",
+      "B",
+      "u",
+      "u_minus_one",
+      "S"
+    ],
+    "new_symmetric_u_one_source": "6516fb9c623da6becca59ad2f049ae35ba30ebc8"
+  },
+  "scope": {
+    "chart": "original h=k, Delta=0, ABQ(1-Q)Pf bcP02 nonzero",
+    "different_lambda_u_base_points_at_most": 722,
+    "full_Q_and_Gram_fibers_finite": false,
+    "Pf_zero_complement_retained": true,
+    "whole_hk_excluded": false,
+    "old_wrong_848_578_restored": false,
+    "ordinary_ISP_claim": false,
+    "no_recomputable_payload_saved": true
+  }
+}
