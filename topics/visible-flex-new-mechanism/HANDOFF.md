@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **fab94c76a858c2d8ba94a4d59db3f69328e29297**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **0e94d7b0776a5e43517a3a60a1b03f1e6135a0d3**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -70,4 +70,4 @@ R617排固定有限pre/post精确非圆根，不排增长极限。τ1当前j2锁
 旧59a4[单场reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)≥.0311710349107D，但η≈3.84e−5、宏观/同g未过，不转新q。R604/R622只同输入组合。
 R33可从一个真正完整旋转g连接得到全时相位族、开盘逐点固定、δE可0；同轴圆领不累积末帽姿态。真正缺大非圆核心至开圆帽的完整连接和其全部几何；已证局部/条件量不替该对象。
 
-[R640](results/R640-r631-support-height-and-complete-reflected-reach-reduction.md)已付同一R631核心球<1.014；全域P误差≤2e−5则有限核心位置差<.005，条件宏观≥155/516>.3。完整上半法弦加高度门可付全部镜下半/中央柱跨片；p<0及连续曲率界推出高度门。分层支撑球界保高度相关性，非零S须付真实位置误差；当前样本不授这些连续资格。
+[R640](results/R640-r631-support-height-and-complete-reflected-reach-reduction.md)已付同一R631核心球<1.014；全域P误差≤2e−5则有限核心位置差<.005，条件宏观≥155/516>.3。完整上半法弦加高度门可付全部镜下半/中央柱跨片；p<0及连续曲率界推出高度门。分层支撑球界保高度相关性，非零S须付真实位置误差；当前样本不授这些连续资格。[实际消费者](notes/2026-11-28-r640-actual-geometry-consumers-and-core-error-input.md)复用同态及已付双差分；核心严格比较用正常角组合误差。
