@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`aef52a801fb9d7d90b5e4ab6560db56e1de8709e`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活18–23通常5分钟真pull，已读commit保末槽；终态12–17末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`497cedc094f4a5c78e9c43027bc487c6a23a73d7`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活18–23通常5分钟真pull，已读commit保末槽；终态12–17末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 
@@ -21,24 +21,24 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 |---|---|
 | 12–16 | 官方cancelled；全已返输入/诊断、末真pull与未返科学保[16终态](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)及旧链，未付N4096/M320/J1845精化。 |
 | 17=46053911348 | 官方cancelled@00:53:34Z；两input0，science未自然返。末current e2c1ad7/accepted3/g2.0441496554550835，下一52bca仅开始；末真pull/完整终态保17note。 |
-| 18=46062343475 | 两input0、前三science1及三reader0；e3d2eb/10fa/f600/PID7515/model9ec211。current2b1c/accepted3/g2.0441496553824883；完整六族返，仍不可行。 |
-| 19=46076669320 | 两input0；36304a0d/f600/PID3240/model0abfbf。currentd761/accepted1/g.9679630392005261；末7af04真g.9691295883291671已拒，下一b6a06开始、统计/几何未知。 |
-| 20=46079535427 | 两input0；c592e434/f600/PID3277/model0abfbf。current初7e06/accepted0/g.9684249942095058；第二d346真g.970243177977179已拒，下一0f4d统计返、几何未知。 |
-| 21=46084442413 | 两input0；001025/f600/PID3644/model9387。初7e06真g2.541916739245917/accepted0；首df8d真g2.541904432457273已拒，下一700e开始。 |
-| 22=46090913581 | 两input0；c6517a/6fd57/PID3541/model6f3ae32。初7e06/Phi681.6517423825409/Gram.40616525311769985，六族返/g.5305849371949052/accepted0；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
+| 18=46062343475 | 两input0、前三science1及三reader0；current2b1c/accepted3/g2.0441496553824883；完整六族返，仍不可行。 |
+| 19=46076669320 | 两input0；currentd761/accepted1/g.9679630392005261；末7af04真g.9691295883291671已拒，下一b6a06开始、统计/几何未知。 |
+| 20=46079535427 | 两input0；current初7e06/accepted0/g.9684249942095058；第二d346真g.970243177977179已拒，下一0f4d统计返、几何未知。 |
+| 21=46084442413 | 两input0；初7e06真g2.541916739245917/accepted0；首df8d真g2.541904432457273已拒，下一700e开始。 |
+| 22=46090913581 | 两input0；初7e06/Phi681.6517423825409/Gram.40616525311769985，六族返/g.5305849371949052/accepted0；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 | 23=46094430214 | 官方in_progress/01:42:05Z/job140822424469，head3d1f7b；原全波仅恢复策略，完整19件已刊；两input/新模型/点/策略结果待读。 |
 
 全源/model/point/Phi/Gram/六族/事件时刻及原失败保：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。18–22均未有完整report；已返当前点均不可行。
 
 ## 新机制及完整后继
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已证半波配对准确均值/两角根、中央导数减半及全位置/jet账，不推wholeK/D/reach。[22完整20源](computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json)137角色/18runtime、17对改120同；6参数与全启动已刊见22note。六物理cuts与aux12均值分开，原whole-cell Gauss/partial未改，工作积分误差未付。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已证半波配对均值/两角根、中央导数减半及位置jet账，不推wholeK/D/reach。22全20源/6参/启动已刊见22note；137角色/18runtime、17对改120同。六物理cuts与aux12均值分开，原Gauss/partial未改，工作积分费未付。
 
 全科学157/纯7argv、458/445formal、48live、32stage/完整域/预算保。18–21仍10fa/8027/f600/geometry5730；20只恢复μ.001，21只b5/8。原5supported CLI和各external/P0/G/typed未知不可假空、假别源。22science+pure103752B/全四步110351B>95k，真自然返后整接pure；旧request计数标签纠正保22note。
 
 [恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原137对+policy=138/19runtime。仅原已完成的真实全步/全几何/选中预测可降下一恢复μ；原失败×4/metric/试步顺序保。未混22，实际效应待跑。
 
-19–21全部准确费用/R723/R716/mesh已刊，22准确17件及P/U/mesh18件已保护待容量。完整身份/参数/分支/未付责任见[open§7](open.md)及旧H；准备不冒结果。normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真。全32stage/圆周/径向+cuts/六jet/全尾/两帽/mixed/allphase/主副件及晚失败全须付。
+19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量。完整源参/分支与全连续义务见[open§7](open.md)/原H。准备不冒结果；normal.complete不代branch、mean J不代Cu，R709 bool及所有主副件/晚失败保。
 
 [续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原目录用首次绝对源路径和whole稳定report/snapshot；G续同whole N版本及自己的首次路径，N变SHA不原目录重绑；R723/mesh每次fresh。immutable required-angle packet可为trial但要完整report绑定，mutable progress不可。R718 markedσ与R716 unmarked管/正V/非零中心不变量独立；旧1782/新6047分支不可混，五t/15mesh/三级空间/频率/时间仍须实跑。
 
@@ -46,7 +46,9 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret59全账](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)精退85可再生旧数值净860388B，全24源/完整参数/run/82输入/30证据/消费者及精确Git恢复保；55历史SHA256未知照实，blob/bytes全定。ret58/57/56与更早全链保。construction续容量，未知/活输入/parent91/ports/Nelder不猜删；root接真实求解与23启动，solver23准确链，geometry22下一单参数构造。未完成不停。
+[ret59全账](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)85旧数值净860388B，全源参/run/输入/结论/消费者/Git恢复保，55历史SHA256未知照实；此前全链保。未知/活输入/parent91/ports/Nelder不猜删。root接实际求解；construction续容量，solver等价加速，geometry完整24参数。
+
+下一单变量对照选[半波b5/8](notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md)，δ及原g/137源/预算保；端层1/b前因子×4/5、中间长度×2/3，中央主项仍有3λnew/(2λ22)代价，不声称新reach/距离必改善。参数准备中，无实际24。
 
 <!-- visible-larger-parallel-18:start -->
 Actions18：[run 46062343475/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46062343475)；[全阶段记录](notes/2026-11-27-public-actions-46062343475-1.md)。running；已返8，exit=未返。

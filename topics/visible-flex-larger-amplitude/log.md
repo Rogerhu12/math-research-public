@@ -242,3 +242,7 @@ HANDOFF及open仅当前§7重新编排，完整旧版固定a5e459d4afc7d52804f25
 ## 2026-11-28 01:45:37 UTC — 23官方真实启动
 
 官方run46094430214/1/workflow433320427/job140822424469，head3d1f7b396e735e07f1dceca825aa69f963c105dc，于01:42:05Z启动/in_progress。checkout/setup/deps真实success，研究步骤in_progress；两输入完整返回与新science/model/point/policy尚未在本更新读取，保持未知。完整官方原run对象与jobs保[23原note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)，不冒科学完成。双README云核至`aef52a801fb9d7d90b5e4ab6560db56e1de8709e`无变（非pull），真实pull保各槽。
+
+## 2026-11-28 01:50:35 UTC — 半波下一单宽度对照及符号反转的真实边界
+
+启发式选择half b5/8、δ1/32，完整137源/g/预算保；引用R721/R724的端层4/5、中间长度2/3及中央3λnew/(2λ22)竞争，不重复登记旧证明，不声称whole reach/距离改善。完整源读出distance_plus为固定见证距离约束，符号反转位置/距离恒等式不代未标记E3排除或32stage结果。完整14958B说明已刊，24全参数在备、实际未跑。H/open当前重复状态收紧，原逐值完整note及e1bf旧open保、§1–6不动。双README云核至`497cedc094f4a5c78e9c43027bc487c6a23a73d7`无变（非pull）。
