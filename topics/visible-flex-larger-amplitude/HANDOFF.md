@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`4ab6101e63aacde4840d63b3f808b644d409792f`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`416629b91bf20cf905278f9b2e63a3b41248d072`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
 
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
@@ -20,7 +20,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 R724–729完整结果、源参和失败未知保[结论索引](results.md)及上述固定H；R729全行对偶/恢复只证明所列条件，不代真实可行。
 
-33[原启动](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)/[retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，science bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；首trial291f394完整g16.64809271107871/reach已拒，半步8e3194c已启、几何待付。自然science返才pure62854，138角色与所有原预算不变。
+33[原启动](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)/[retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，science bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；首trial291f394完整g16.64809271107871/reach已拒，半步8e3194c统计Phi705.3748228317756/Gram.4078179189091087已返、几何待付。自然science返才pure62854，138角色与所有原预算不变。
 
 [R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)参考径向unit/双held/D≤4.2，未付全Gram/reach。[34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，两input0，science c3228e9d/PID3687/model989fec；初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，完整reachg4033.8205903217813/K33159.051287192604；首恢复全步b36a1d已启、未返。139角色/24runtime、全部原预算保，最新几何见ownnote；自然返才pure66120。[R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)冻结参考reach<.016、D>3.88及小邻域障碍不外推自由outer。
 

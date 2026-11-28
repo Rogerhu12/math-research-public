@@ -333,3 +333,24 @@ The reproducer reads the complete original request and queue by their Git identi
   }
 ]
 ```
+
+## 2026-11-28 12:00:18 UTC — 33半步试探实际统计已返，仍待其全几何
+
+46133839513/1同原source bffd5bbf0e5b5be0ded252f50613e2ca88489558/PID3463/model61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7。11:45:20.621729+00:00恢复半步alpha.5点8e3194c153c542c010e1f54cb0f0b4b0d24b8f1f6da3d3a288215630f4771cb0实际统计Phi705.3748228317756/Gram.4078179189091087。当前接受点仍7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、accepted0，其原Phi681.6517423825408/Gram.4061652531176999和完整六族费用保。
+
+前一全步291f3943db2d5de24f7911923412fb8013b0d3cc739c09a0b5f6038a183151ad完整几何g16.64809271107871/reach、accepted=false不变。半步自己的完整几何尚未返回，不能用前全步或初点代它。11:50:53 normal_chain_enter为此半步、513 cached roots/66533 original closure returns/0 logical failures。所有原变量/观察/预算与自然science后whole pure62854继续。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md",
+    "bytes": 60395,
+    "sha256": "d0a9f8620d006ce1b8b5e79b3e1fbe6959065667f2de8af8ccce91d883687803",
+    "git_blob_sha": "37862f090b0a81eb23656e29fa30a407abb32bae",
+    "fixed_commit": "6552609ae10573a8c3dd46a6b4599c583d3bc329",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
