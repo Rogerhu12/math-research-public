@@ -29,16 +29,7 @@ R724–728完整证明/源参保results；R728真实w含高度项，最终seed4�
 
 R726/R727核心9件25d72已刊；旧准确N/G与下游全部完整保护，R728 N/G14及下游24的全路径/源参/身份保open§7和固定旧H；尚无actual费用。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- visible-larger-parallel-33:start -->
+Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返0，exit=未返。
+并行33规则核查：2026-11-28 10:10:54 UTC，真实pull至`156079620001587fc1030816d9a0c49c94653ce3`，双README无变化。
+<!-- visible-larger-parallel-33:end -->
