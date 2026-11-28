@@ -41,7 +41,7 @@ def ramp_ratio(s):
     return .0025*s*P/(5*P+s*Pp)
 
 
-def high_circle(r,w,side,edge,window):
+def high_circle(r,w,side,edge,window,*,with_plateau=False):
     """B,D and B_abs,D_abs for the real kth-order germs on both sides; D_r=1/window at the circle."""
     if not 0<window<=WINDOW:raise ValueError('High-order physical speed window too wide.')
     c=CENTERS[side];rho=RATIO[side];z=r-c
@@ -68,6 +68,10 @@ def high_circle(r,w,side,edge,window):
     D=(S+G*Sp).at(on,0.)
     # The two one-sided normalized slopes converge to this common value exactly.
     D=D.at(z!=0,J(np.zeros_like(r),dr=1/window))
+    if with_plateau:
+        chi=((1-q*q)**6).at(on,0.)
+        dchi=(chi-12*G*q*env/window).at(on,0.)
+        return S,D,1.,13.,chi,dchi,20.
     return S,D,1.,13.
 
 
