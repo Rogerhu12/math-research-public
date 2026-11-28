@@ -326,3 +326,13 @@ root全核L1–L6，实际level3盖无穷无分歧、通用uniform F–T拉回�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:03:44 UTC到e624c2d9fb7ead9d7b9ae295f9e614baf88a6d07，私库2026-11-28 11:03:30 UTC到1a46ecc44d0c2df85cde172e1277a7aab50110ff；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46565258B/tree8bd8cd54991b8fe890997a2ea0eb5630012e900c，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:04:13 UTC到0304618154defdd99ef73091d523c6f64b06d6fc，私库2026-11-28 11:04:06 UTC到9000ec455d3f3e5646b2629ee7f373f8dd86ab27；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46565258B/tree8bd8cd54991b8fe890997a2ea0eb5630012e900c，无>5MB。
+
+## 2026-11-28 11:07:08 UTC — R1067 §43 完整单branch重建
+
+root逐式手核M1–M7：真实j1728对角/反对角矩阵及det p、H/H_Y/DH单位，除后首列forcing从Y^(p−1)始、e11额外Y^p真奇偶，Qc全p窗、两个不同Taylor项与x^p替换精度、384和8·9216、M6幂32及M7已有整性下除p。没有用端点代完整卷积。H再近10KB，先逐字归档notes/2026-11-28-handoff-before-branch-reconstruction.md再按最新前沿压缩；所有旧回执/参数/纠错仍在链中。原v16仍继续、独立小软件PASS独立记载。数学仅手证/公开Actions。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:07:56 UTC到a0c88ee80ef82236ae25cafe02cc109c0750ca9b，私库2026-11-28 11:07:46 UTC到619d429f4dc2cbe8d2ec57ae256fac5b196f8465；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46580551B/treeaad8083b2d90ccf47791e34f2554db3cd56b7644，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:08:13 UTC到562d84287933210643129582095a868ead048a20，私库2026-11-28 11:08:08 UTC到3ae0a7ac8527e97cf1c37a8b36b7db0ef82e37b1；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46580551B/treeaad8083b2d90ccf47791e34f2554db3cd56b7644，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:08:29 UTC到ccfcb5da527b8c79eb553de27c0960305ac1d501，私库2026-11-28 11:08:23 UTC到15f0e1e1065eba49d9b2a6a2766a5077a933704e；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46580551B/treeaad8083b2d90ccf47791e34f2554db3cd56b7644，无>5MB。
