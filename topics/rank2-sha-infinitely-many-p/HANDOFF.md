@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140913766679，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 08:00:44 UTC实际partial clone/pull至b076311ca4daa0da033b555720b6e90abbee6e29；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 08:00:51 UTC至4ad91eca3886a61e7a976d1d766c45244da1505c；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与07:52同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14887B/hash934f15c3eec532595d7a3b3f600c18a9444c7d3a5ddd76e906179950dba9a617；库存3213/45910531B/treea7e5ceb645eee0fecd61dbe9902e69d452905704；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟09:00UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46073965457/job140915025525，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 08:05:50 UTC实际partial clone/pull至59e990f2ce095c7669a65d2f2c61552bda61c2e8；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 08:05:55 UTC至892361b6ada8a2ac53790a805647c7c6c53fefc0；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与08:00同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14887B/hashc021ad7b7facbd5bf7a165b66090ce408031855193d0638d4a539721354b1128；库存3213/45925802B/tree979b2788d87b955a13a5d52e38876a0cab1060ee；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟09:05UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日07:38:18实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
@@ -48,7 +48,7 @@ R1067§§9–14.1付首physical系数、actual P_H/µ_H、cover/原frame及先�
 R1067§15付actual δ_k在1≤k≤p−2的全Bell界、含质量二矩行及M2=a_2Δ−Δℓ_q a_Δ的真实1/p费用。exact0分支才给a_Δ≥3−1/(p−1)；(53)–(58)和完整旧界见原文，不赋bad。
 
 
-R1067§§16–17现付真实解析比值A(x)=U(G34/G2,17r)²。Kato a→s→b→b^-1在代数CM图消period，非p288下降每embedding有限unit幂；M补residue、primitive unit minor锚定，保U^(j)/b_M^j∈p^j。全部p²/Artin/Gamma先同消，raw physical p幂相消给U=(6κ0/17²)(θ^-4)^(Mt)ε。含H0/参考全导数门已付，低阶自动不算forcing。§18现付β^(p+1)=17的准确点重标/physical尺度、全部p−1块T_γ及逆、carry/Π共轭/参考17^ρ(17^(p−1))^t。它非0块乘法，不能从Hall比值删Gaussian；§19现付全p阶Euler（73）–（79），完整U/参考和log尾均保，唯一r=d连接返ρ=p−2负块；只为原整A必要同余，未证明独立。§20已证首连接在完整平方Euler内自动变深，不需bad；真正余项是U(M34/M2)²。§21原CM/Betti/Tate方块及全部p²/Artin/Gamma给ε=κθ^−(2m+1)、U=U0·17^−m；β尺度Uβ=U0(Normβ/17)^m，λ17=−(p−1)²log17。其Fermat缺陷非单独forcing；继续完整bare Katz/中心与N(a)=17规范，不计旧首连接。
+R1067§§16–17现付真实解析比值A(x)=U(G34/G2,17r)²。Kato a→s→b→b^-1在代数CM图消period，非p288下降每embedding有限unit幂；M补residue、primitive unit minor锚定，保U^(j)/b_M^j∈p^j。全部p²/Artin/Gamma先同消，raw physical p幂相消给U=(6κ0/17²)(θ^-4)^(Mt)ε。含H0/参考全导数门已付，低阶自动不算forcing。§18现付β^(p+1)=17的准确点重标/physical尺度、全部p−1块T_γ及逆、carry/Π共轭/参考17^ρ(17^(p−1))^t。它非0块乘法，不能从Hall比值删Gaussian；§19现付全p阶Euler（73）–（79），完整U/参考和log尾均保，唯一r=d连接返ρ=p−2负块；只为原整A必要同余，未证明独立。§20已证首连接在完整平方Euler内自动变深，不需bad；真正余项是U(M34/M2)²。§21原CM/Betti/Tate方块及全部p²/Artin/Gamma给ε=κθ^−(2m+1)、U=U0·17^−m；β尺度Uβ=U0(Normβ/17)^m，λ17=−(p−1)²log17。Na=17时U常数。[续证§§22–23](results/R1067-original-first-wild-rubin-native-euler-continuation.md)现付全p阶native窗口≤p+2及K_a首frame在完整平方Euler内自动深；余项是同一H_a全加法行(99)，继续实际评价，不计模型/首frame为forcing。
 
 [R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)付D102=B18C84/S34=B18C16、同点theta中心乘法和真实A84逆ψ0 dual；完整三卷积、d/6 Cartier全角与−26329/105保留。a_Δ额外p属旧actual域下降，不计forcing；逆不能移出Hall。全部连接/模型/old沿原文。
 

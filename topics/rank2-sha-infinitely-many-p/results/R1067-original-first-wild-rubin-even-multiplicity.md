@@ -2290,3 +2290,8 @@ $(\partial+\lambda_{17})^p-c^{p-1}(\partial+\lambda_{17})$。
 [Theorem12.5(1)，印刷p.221](https://www.numdam.org/article/AST_2004__295__117_0.pdf)；
 其无额外level幂的临界公式亦在印刷p.272再次原样显示。
 本节只消费这些原图；不调用 ordinary $D_{\mathrm{cris}}$ 结论。
+
+
+## 续证：完整 native Euler 窗口与 exact-norm 框架
+
+[§§22–23，式（93）–（101）](R1067-original-first-wild-rubin-native-euler-continuation.md)继续同一原来源：全部p阶jet只需实际H_a的首p+2槽；完整carry、Lagrange/阶乘及商导数均保，首Fermat frame在当前Euler精度自动变深。原文已近单文件大小上限，完整续证另存同编号；主无穷非零仍未完成。

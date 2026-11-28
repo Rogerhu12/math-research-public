@@ -474,3 +474,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1062 §13：精确 Norm17 规范与同一个全整平移核
 
 [R1062](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G73）–（G85）取a=Teich(β)(17/hat17)^(1/2)，Na=17、a/β∈1+pZp。真正全局CM除法和对称刚性化经完整finite-flat极限给全formal lift身份，原Cβ(Q)=K_a(Q)，指定T′及ε_Q未换。SL₂(Zp)标准球、完整整数代表律与同一χ_(2,17r)=χ_(34,r)准确支付λε=λ′；全部非p来源保持。原物理字遂为ε_Q F2,T′(a u)H_a(v(u)⊕Q)，H_a=K_a f34/f2a∈v6O[[v]]，仍在原加权和内部。K_a=k_a(v^d)全整，首k1≡−17(pcσ)q_p17，首p+2槽仅d/d+1有明确校正；没有宣布Fermat费用消失或Hall非零。另(17/p)=+1时固定a=√17给同一有理物理级数，尚未由此付跨p非零。
+
+
+### R1067 §§22–23：完整 native 窗口及 exact-norm 框架自动行
+
+[同编号续证](../results/R1067-original-first-wild-rubin-native-euler-continuation.md)（93）–（101）将所有k≤p的log测试按真实gauge截至δ_(p+3)，保最多一份1/p；严格LT逆代换给完整C_ji及vC≥i−2，j>p的三层阶乘与j=p分母均付。全部q-carry使所需R_T恰限0..p+2，由R1062 G85回同一H_a与两明确校正。再对实际整ψ0来源K_a(Pv)P_H逐项转置，含原商平方Aδ+Bδ²的全部交叉，证明首Fermat frame对Euler模p^(p+1)无条件自动变深。与Na=17下U常数合并后，真正剩余是式（99）的H_a全加法行；没有宣布该行自动或制造bad的新零。

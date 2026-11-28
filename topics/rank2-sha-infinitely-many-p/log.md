@@ -89,3 +89,9 @@ root全读R303(9)–(21)与Kato印257原ηψ/per/模数独立性，实开Theorem
 root全读§13并亲读R716完整(3)–(4)、(15)–(16)、(24)–(30)和R639全中央completion/真实CM乘法式；核K_a整性、μd全级数、globalα对称rigidification及有限平坦augmentation幂零的系数极限/一致Q尾。核a/β有理principal使两原half-pairing严格1；M_a行列式2Na/34=1、Weil逆转置及标准球绝对scalar，参考代表相位与ε方向相同。正文补明χ_(2,17r)=χ_(34,r)之Nr相等，其余不改。全部h/physical p/连接回G82–83；G85普通系数与不变D/k!只在k<q使用。附节11934B/hash6b45f03eff18ae3f1ba3594916457eebb91c47b53b43a750fb65fb50a47a9147；全文82681B/hash14e5b99b1bccd967dac87d3f7b4c1ffbed34b802f1db26edd1ec1eae80ca32b0。本次不以Fermat/形式叶/有限核代主无穷非零；继续真实H_a有限窗口和全球成本。
 
 推前actual run46073965457/job140913766679：公开2026-11-28 08:00:44 UTC至b076311ca4daa0da033b555720b6e90abbee6e29，私库2026-11-28 08:00:51 UTC至4ad91eca3886a61e7a976d1d766c45244da1505c；四README与07:52同blob、QUEUE本题未变，日志14887B/hash934f15c3eec532595d7a3b3f600c18a9444c7d3a5ddd76e906179950dba9a617。库存3213/45910531B/treea7e5ceb645eee0fecd61dbe9902e69d452905704，无>5MB，三旧必要gzip不变；H记录actual heads/已读rules。v15仍唯一heavy，08点前最新可读log仍07:02:54快照，不能据此判断当前真实阶段。
+
+## 2026-11-28 08:07:16 UTC — 同一全 bare Euler 的有限 native 返回与完整 frame 消去
+
+root手核(95)由z(Pv)=pz(v)的全部系数、h≥2的高估值、j≤p+3的Lagrange精确C_ji及三层Legendre；i/j分母由整逆系数支付，不丢j=p。所有k≤p的log尾使用原整gauge，n≥p+4统一≥p+1；G50的k=l+t保所有q-carry、t≤p+3−i/l≤i−1。式(100)先整数完整Leibniz再合法germ，h≥2d全尾联合gauge；首P_*的各阶和(100a)全部商交叉逐项已核。只修独立数学定界并加前文/实际来源链接。续证9864B/hash03be2e90a3b3e4cff6e78fab98b326001c4ab1d21b3618d206efa9da7e9e81cf；原主文件加同编号续证链接后90596B/hashc1a61675cbbfc18a63b75d92ad88149e57ed627b1bde3bf5757d6278ea17fcbd。不把式(99)其余项判自动或计新forcing；central/geometry继续消费实际H_a，arithmetic正核固定√17叶精确算术成本。
+
+推前actual run46073965457/job140915025525：公开2026-11-28 08:05:50 UTC至59e990f2ce095c7669a65d2f2c61552bda61c2e8；私库2026-11-28 08:05:55 UTC至892361b6ada8a2ac53790a805647c7c6c53fefc0。四README与08:00同blob、QUEUE本题未变；日志14887B/hashc021ad7b7facbd5bf7a165b66090ce408031855193d0638d4a539721354b1128；库存3213/45925802B/tree979b2788d87b955a13a5d52e38876a0cab1060ee，无>5MB，三旧必要gzip不变。H记录actual heads/已读规则；唯一路径v15及两原char0输入不改。
