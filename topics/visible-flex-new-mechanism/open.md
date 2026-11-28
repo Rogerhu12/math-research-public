@@ -124,3 +124,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R754 首轮HTTP403已保全原4步。** [7全J/8556列及准确next](notes/2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)，run46179020787/job141084139107自然failure但upload成功；625.551765814秒、4接纳，0/.002/.008三条完成，非零curl .216365/.866831仍未fit。下一phase .02/iteration0，active_operation=null。原artifact15277750701/2793862555B与全部费用已绑定；不回放三相位，科学前预接收R746父ZIP及本轮checkpoint，保持原cbe3599a…身份接续。
 
 **R754 原4步准确恢复单已装订。** [完整原ZIP预接收](notes/2026-11-28-r754-paid4-original-zip-exact-resume.md)，同cbe3599a…科学身份、全部330/1371列/原迭代设置不变；首1200秒从phase_index3/.02接续，0/.002/.008不重。公开Actions先全SHA核R746父ZIP与本轮checkpoint，再按原next执行，所有旧/新单位和失败终态保留。
+
+**R762 四尖点高零圈已严格排除。** [相邻正K强制整圈法曲率同一弱号](notes/2026-11-28-r762-positive-curvature-neighbor-excludes-the-four-cusp-high-zero-circles.md)；原四尖点在c=0下反强制该曲率换号，两子代理与根独立核定，不派该输入。只排这个有界重参/固定辅助径速零的表示；新的局域eV正则零面积圈正在以真实signed简单零、全深材料I和高零速度单元合并，尚未有完整c根。

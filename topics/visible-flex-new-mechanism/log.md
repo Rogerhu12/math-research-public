@@ -211,3 +211,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 19:29:31 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R754原4步准确恢复单
 
 **R754 原4步准确恢复单已装订。** [完整原ZIP预接收](notes/2026-11-28-r754-paid4-original-zip-exact-resume.md)，同cbe3599a…科学身份、全部330/1371列/原迭代设置不变；首1200秒从phase_index3/.02接续，0/.002/.008不重。公开Actions先全SHA核R746父ZIP与本轮checkpoint，再按原next执行，所有旧/新单位和失败终态保留。
+
+## 2026-11-28 19:30:56 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R762四尖点输入的真实正K排除
+
+**R762 四尖点高零圈已严格排除。** [相邻正K强制整圈法曲率同一弱号](notes/2026-11-28-r762-positive-curvature-neighbor-excludes-the-four-cusp-high-zero-circles.md)；原四尖点在c=0下反强制该曲率换号，两子代理与根独立核定，不派该输入。只排这个有界重参/固定辅助径速零的表示；新的局域eV正则零面积圈正在以真实signed简单零、全深材料I和高零速度单元合并，尚未有完整c根。

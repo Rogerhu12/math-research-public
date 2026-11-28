@@ -1,10 +1,10 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。完整候选尚未满足README。逐字旧账、全部原失败/已付状态及恢复债在[截至R748首工单交接](handoff-through-R748-first-launch-20261128.md)及其逐层原档链接；不得重做已登记科学或抹账。
+**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。完整候选尚未满足README。逐字旧账、全部原失败/已付状态及恢复债在[截至R754原4步恢复首单交接](handoff-through-R754-paid4-resume-launch-20261128.md)及其逐层原档链接；不得重做已登记科学或抹账。
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **dc3a48ecfac96c258ed1c7238c5c06f07a9c98c7**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **a78b5f95b9e286f2b905e22d02a6a31fe9eae9d8**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -20,23 +20,20 @@
 
 **R754 首轮HTTP403已保全原4步。** [7全J/8556列及准确next](notes/2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)，run46179020787/job141084139107自然failure但upload成功；625.551765814秒、4接纳，0/.002/.008三条完成，非零curl .216365/.866831仍未fit。下一phase .02/iteration0，active_operation=null。原artifact15277750701/2793862555B与全部费用已绑定；不回放三相位，科学前预接收R746父ZIP及本轮checkpoint，保持原cbe3599a…身份接续。
 
-**R754 原4步准确恢复单已装订。** [完整原ZIP预接收](notes/2026-11-28-r754-paid4-original-zip-exact-resume.md)，同cbe3599a…科学身份、全部330/1371列/原迭代设置不变；首1200秒从phase_index3/.02接续，0/.002/.008不重。公开Actions先全SHA核R746父ZIP与本轮checkpoint，再按原next执行，所有旧/新单位和失败终态保留。
+**R754 原4步恢复已启动 run46181463183。** head dd0075aa62b269242b3b883e9ba7ec7c70fd6056，request SHA c798f7be7368656ebd56c2ea394160922f90de6a96d46713647dd266c30672f9。 [完整原ZIP预接收](notes/2026-11-28-r754-paid4-original-zip-exact-resume.md)，同cbe3599a…科学身份、全部330/1371列/原迭代设置不变；首1200秒从phase_index3/.02接续，0/.002/.008不重。公开Actions先全SHA核R746父ZIP与本轮checkpoint，再按原next执行，所有旧/新单位和失败终态保留。
 
 **R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。
 
 **R757 全方向曲率必要门已严格完成。** [整个原中心矩形通过](notes/2026-11-28-r757-entire-center-rectangle-all-direction-curvature-gate.md)，run46178661481/job141083035943，9新单位/5.107658396秒；统一全球余量最小>.00636153564978，四姿无需方向细分、整个矩形true，原424材料积分/旧J/ODE重算0。不排源，不授实际等距场/族；本门不再重复，转实际相容性。
 
-[R758两个精确表示障碍](notes/2026-11-28-r758-two-exact-obstructions-in-the-shared-latitude-chart.md)已正式发表且根全文读：共享重复纬带强制刚转；单侧硬截断另生非零旋度。只排原有限表示、不排原g。R761改真材料生成式，R762独立研究非坍缩零面积Gauss圈。
+[R758两个精确表示障碍](notes/2026-11-28-r758-two-exact-obstructions-in-the-shared-latitude-chart.md)已正式发表且根全文读：共享重复纬带强制刚转；单侧硬截断另生非零旋度。只排原有限表示、不排原g。[R761真材料接口](results/R761-true-material-generators-and-internal-point-cap-qualification.md)根已全文审：原两个内部点帽触发R731，停用；新全深I、两高零真实除差/同角速度、全Cxyz实体和双帽六jet保留。
 
-## 最近自然终态和不可回放的原账
 
-**R747 原十盘终态已登记推送。** [80接纳/91全J/54831列](notes/2026-11-28-r747-paid80-ten-actual-disks-natural-terminal.md)，run46172916971/job141065120150；wall1058.172937231秒，只有零相位fit，九非零全失败。末curl6203.9758、metric10490.225、κ8847836，不能冒等距。artifact15275351283/11408117419B/SHA1b682d07c65f12c569a460e0f8d26826440ac29b8ff68161b0646f71a25f126a到12月28日18:12:04，取必要成员而不本地全下载；无inflight/10相位已结束，原J/格/谱/费用不重。R752微小锁带地板不解释这些大残差。
+**R762 四尖点高零圈已严格排除。** [相邻正K强制整圈法曲率同一弱号](notes/2026-11-28-r762-positive-curvature-neighbor-excludes-the-four-cusp-high-zero-circles.md)；原四尖点在c=0下反强制该曲率换号，两子代理与根独立核定，不派该输入。只排这个有界重参/固定辅助径速零的表示；新的局域eV正则零面积圈正在以真实signed简单零、全深材料I和高零速度单元合并，尚未有完整c根。
 
-**R738 原固定E14步终态。** [完整两深帽与中央失格](notes/2026-11-28-r738-fixed-g-paid14-and-complete-deep-caps-natural-terminal.md)：118→798→1882q、16J/20QR-SVD、215.57633394秒，细η≈.3277484/κ33.4501，中央/reach未过。41186新区间行+334继承行分账。完整artifact15274590266/481437487B/SHAebb897bc617788549d2f68738f080c7a3aa425f24bf8c076b0db27ee6fbd1d62。纯运输receiver46173599730/job141067245889另保151原成员及FINAL：artifact15274637249/25054290B/SHA8ca26ba4cd6ba76eab78c4c1e1ddc556591374dd98590c8aca088daf56840778；不是完整checkpoint。原FINAL64333B/SHA4a271c0f8df58456a66a71a59e003c5d887c07d54b8bb53290e7269625f3ff7e，ledger的latest terminal没有对应kept terminal.npz，勿假设存在。
+## 不可回放的原账
 
-**R735/R734原真核。** [R735](notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md)32370新胞/18.573390051秒、R7348558旧键复用；全β[3.32984289,3.33480649]与j4/5/6非共振过，但reach/D<1.936879e−30且非有限q根。[R734](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)四原真衰减端/8558胞/3.074050073秒不重。原artifact和全胞已链入R738输入。
-
-**R728/R710与更早终态。** [R728原31步](notes/2026-11-28-r728-paid31-complete-original-three-grids-natural-terminal.md)：2446q、η≈.02531、长度margin−.0013452、E未冻，新593.125601448秒/累计3679.061105621；原三fine已完。[R710原237](notes/2026-11-28-r710-paid237-and-original-fine-natural-terminal.md)：新增88步/4385.336626949秒，原128panels fine/h93已完成，十端.0121281/ruling1.48304e14、绝对门全false。八个更早R695/R702/R711/R643/R631/R707/R705/R714逐一终态、原文件恢复/旧费用债与不可回放事项均在逐字交接原链，不销账。
+R747原80步/91全J/十盘、R738原14步/16全J/全部41520区间行、R735/R734全部原胞、R728原31与R710原237，以及更早八个终态和17:09丢失后的恢复债，完整run/job/head/artifact/SHA/全部费用与确切next逐字保存在[上一交接](handoff-through-R754-paid4-resume-launch-20261128.md)及其原链。已付完整科学不得回放；未恢复的原件不能借重算抹账。R738完整ZIP、R748完整ZIP和两份原ledger在当前工作目录可纯字节读取。所有失败资格仍false。
 
 ## 证据边界与继续
 
