@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Phi-small-complete-NV-polarization-2165-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-complete-singleton-first-jets-2170-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保。五ray闭；正e一般k λunit/物理f及Gram整/±4闭。新2f951四原首阶真0.323524320秒/40120KiB/0：PB0和(NB−PB)/e非零，PC/e与NC/e准确零；首固定六阶全原返去旧支持后(L33,μ9,total42)必要式，无单位/排空，旧83e未重。k−2正ell/ellpole/整μpole已闭，仅有限(3/5,−2)；新719469两原(q2/4e,R6)对(μ,e)Jac det243/1562500单位、固定12jet完整N5首次120秒/1GiB。旧弱da659从未运行已替代；一般k/内部/已付分母DVR继续。
+W旧闭支/≤616824、b0≤23088与U0另3保。五ray闭；正e一般k λunit/物理f及Gram整/±4闭。新[完整singleton首阶/准确六元环境](results/R150-appendix-unit211-W-b0-positive-e-generic-k-complete-singleton-first-jets-and-six-generator-presentation.md)2f951真0.323524320秒/40120KiB/0，PB0及(NB−PB)/e非零，PC/e与NC/e零；固定六阶全原返余L33μ9总42，未单位。新已付qμ二次及PB首一f三次给真自由六元环境；完整q/P/P1/R6/N5商准确6×18呈示，后者尚未实际生成。k−2末有限中心719真0.911854271秒/39264KiB/0，Jac单位/N5二阶模733全中心闭，整k−2合成稿待推；内部/DVR继续，旧83e未重。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088与U0另3保。五ray闭；正e一般k λunit/�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-正确Phi全权10/每权≤9、QQ公共总45/u5、F*=−QdetM1、同σ16/C10保；第二头完整4×28和五必要式5/6/6/6/6保，所有头未付。新[幂等元极化/完整NV短三次](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-idempotent-polarization-and-small-complete-cubic.md)由真实dual代数六交叉逐项推，NV=P+σ²(n0+2sE0)，B2使t完整消项；新普通C_NV,2=4Qs²Kw NV几何≤3，最终无M/m/新头逆。与同点E2/E3等价保全部根/重数，物理t仍在mean/N1/个别NP；未因式/gcd/排空。第一头/两Q冻，接新小原输入。
+正确Phi全权10/每权≤9、QQ45/u5、F*=−QdetM1、同σ16/C10保；第二头4×28及五必要式5/6/6/6/6所有头未付。完整NV短三次保。新999dc原qλ=−(E3−(λ−3/2)E2)/2首一三次，原E2/E3/完整NV的准确3×6，两固定cofactor[0,1,3]/[0,3,4]首次120秒/1GiB；最终仅Q/s/Kw旧分母、全部三源反传后共同约消，未重20/8列或第一头门，无预报非零/排空。物理t与其余原值继续，第一头/两Q冻。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
