@@ -1,0 +1,157 @@
+{
+  "schema": "visible-larger-run37-actual-arclength-continuation-v1",
+  "run": "46142745238",
+  "attempt": "1",
+  "source_commit": "30a3a01f4fc249b44d7c63ed58db0aaa7b7bf600",
+  "initial_readme_checked_commit": "30a3a01f4fc249b44d7c63ed58db0aaa7b7bf600",
+  "command_identity_sha256": "e7b97a5345b509d65a5b554ccc98b07901198dfd4a10ab1a7b43407378743ce8",
+  "request": {
+    "path": "topics/visible-flex-larger-amplitude/computations/run37-bent-disk-arclength-request.json",
+    "bytes": 12882,
+    "sha256": "7fbe48c959fa3702c4799c1f9ae48ce9ffcd23df7643760d5c566d88e97c8d08"
+  },
+  "scientific_inputs": {
+    "script": {
+      "role": "Run37 complete arclength continued bent-disk and shoulder scientific program",
+      "name": "bent_disk_arclength.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_arclength.py",
+      "bytes": 22241,
+      "sha256": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6",
+      "git_blob_sha": "bcbeebda8cffcdd4e3ed9d3ad66d2c17af0de556"
+    },
+    "parameters": {
+      "role": "Run37 complete arclength shoulder parameters",
+      "name": "bent-disk-arclength-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json",
+      "bytes": 3743,
+      "sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c",
+      "git_blob_sha": "c953cc79105fd464e6cb1d28186d4c64ca787367"
+    },
+    "parent_script": {
+      "role": "complete Run36 scientific script",
+      "name": "bent_disk_shoulder.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca"
+    },
+    "parent_parameters": {
+      "role": "complete Run36 scientific parameters",
+      "name": "bent-disk-shoulder-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9"
+    },
+    "parent_terminal": {
+      "role": "original public complete run36 terminal physical return, archived scientific values and original artifact SHA records",
+      "name": "run36-bent-disk-46141466656-1.json",
+      "path": "topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json",
+      "bytes": 38615,
+      "sha256": "7dc72bdc10370460927f7774a0be25cd5770d3ba521c82b04f0965601d61f798",
+      "git_blob_sha": "438c82cafd20c79425da5d461bf2c19a4613893c"
+    },
+    "ellipse_source": {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    }
+  },
+  "actual_frozen_inputs": {
+    "script": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_arclength.py",
+      "git_blob_sha": "bcbeebda8cffcdd4e3ed9d3ad66d2c17af0de556",
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_arclength.py",
+      "bytes": 22241,
+      "sha256": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6"
+    },
+    "parameters": {
+      "original_path": "topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json",
+      "git_blob_sha": "c953cc79105fd464e6cb1d28186d4c64ca787367",
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json",
+      "bytes": 3743,
+      "sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c"
+    },
+    "parent_script": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca",
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e"
+    },
+    "parent_parameters": {
+      "original_path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9",
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372"
+    },
+    "parent_terminal": {
+      "original_path": "topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json",
+      "git_blob_sha": "438c82cafd20c79425da5d461bf2c19a4613893c",
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json",
+      "bytes": 38615,
+      "sha256": "7dc72bdc10370460927f7774a0be25cd5770d3ba521c82b04f0965601d61f798"
+    },
+    "ellipse_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece",
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f"
+    }
+  },
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_arclength.py",
+    "--params",
+    "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json",
+    "--parent-params",
+    "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+    "--parent-dir",
+    "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/original-36-inputs",
+    "--ellipse-source",
+    "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+    "--out",
+    "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field"
+  ],
+  "runner_scope": "public ubuntu-latest 4 vCPU 16 GB",
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "machine": "x86_64",
+  "system": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43",
+  "actual_logical_cpu_count": 4,
+  "actual_cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "setup_python_step": "success",
+  "run_started_utc": "2026-11-28T12:03:19Z",
+  "phase": "installing-declared-numerical-dependencies",
+  "terminal": false,
+  "child_started": false,
+  "parent_reproduction": null,
+  "child_pid": null,
+  "child_returncode": null,
+  "latest_observed_scalar_line": null,
+  "scientific_summary": null,
+  "whole_runner_field_files": null,
+  "scientific_sampled_success_inferred_by_launcher": false,
+  "exact_metric_or_global_geometry_inferred_by_launcher": false,
+  "dependency_command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--no-input",
+    "--only-binary=:all:",
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ]
+}
