@@ -132,10 +132,36 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:03:19Z",
-  "phase": "installing-declared-numerical-dependencies",
+  "phase": "reproducing-complete-36-input",
   "terminal": false,
   "child_started": false,
-  "parent_reproduction": null,
+  "parent_reproduction": {
+    "original_scientific_terminal": {
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json",
+      "bytes": 38615,
+      "sha256": "7dc72bdc10370460927f7774a0be25cd5770d3ba521c82b04f0965601d61f798"
+    },
+    "original_summary_reconstructed_byte_for_byte": {
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/original-36-inputs/summary.json",
+      "bytes": 19068,
+      "sha256": "ee4a781d8fd5a530335acc78543ade26ac6c3ae89edaedb5a044a9fc619063d1"
+    },
+    "original_summary_serialization": "all original nested JSON values, sorted compact keys and LF, compared with original recorded SHA-256",
+    "replay_command": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-u",
+      "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "--params",
+      "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "--out",
+      "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/full-36-replay"
+    ],
+    "started_utc": "2026-11-28T12:03:28Z",
+    "child_returncode": null,
+    "required_original_points_reproduced": false,
+    "stage_reproduction": [],
+    "complete_original_budget_and_domain": true
+  },
   "child_pid": null,
   "child_returncode": null,
   "latest_observed_scalar_line": null,
@@ -153,5 +179,10 @@
     "--only-binary=:all:",
     "numpy==2.3.5",
     "scipy==1.17.0"
-  ]
+  ],
+  "dependency_returncode": 0,
+  "actual_numeric_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
 }
