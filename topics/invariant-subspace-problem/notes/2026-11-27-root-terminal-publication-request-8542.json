@@ -1,16 +1,14 @@
 {
-  "message": "ISP: freeze first positive-e k-minus-two ell-pole original residue Bezout input",
-  "parentCommit": "fbc968ad005902e2dcd72419ac761cec2ade7e0d",
+  "message": "ISP: close entire positive-e negative-k diagonal including all delta and double-root centers",
+  "parentCommit": "a8af9f9bb438edc0066f92f75cc5591543ed07a1",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-positive-e-k-minus-two-ell-pole-original-residue-bezout-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-positive-e-k-minus-two-ell-pole-original-residue-bezout-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-positive-e-k-minus-two-ell-pole-residue.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-first-W-k-minus-two-ell-pole-2120-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-W-k-minus-two-ell-pole-2120-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-e-negative-k-entire-diagonal-ray-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-positive-e-negative-k-diagonal-2125-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-positive-e-negative-k-diagonal-2125-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-positive-e-k-minus-two-ell-pole-residue.yml"
-  ]
+  "dispatchWorkflows": []
 }

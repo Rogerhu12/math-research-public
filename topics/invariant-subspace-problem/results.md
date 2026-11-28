@@ -30,6 +30,8 @@
 
 ## 新增结论
 
+- [R150：W/b0 正e负k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-negative-k-entire-diagonal-ray-exclusion.md)：Q一般只余1/3被完整N5排；Q1时δ与e²的全部相对阶、mu极点、H=1/3/−3与lambda双根相消全覆盖。原余788/254/16及同K矩矛盾，无新运行；当前仅余(1,0)和内部/DVR边界。
+
 - [R150：第二NV头二十完整同点列与原lambda五、六、六次式](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)：d20唯一4.379637371秒/0；真自由四元环境上20原来源/80坐标，三个固定cofactor全部反传七原分子。实际λ5/6/6、总40/36/39，21末分母全旧付；未付头35/30/33，无单位/gcd或整支排除。
 
 - [R150：W/b0 负e正k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-negative-e-positive-k-entire-diagonal-ray-exclusion.md)：原q2/R6/完整N5，Q一般两三矩根余850；Q−2所有V相消只剩ell/e4=9/8后N5唯一极项；Q2完整L/M/C*降阶及μpole/整值深中心，末余863。无新运行，当前只余两权射线和内部/DVR边界。

@@ -91,3 +91,9 @@
 - 新k−2 ellpole输入源5622B SHA7a09280436c64f609c275c24b0574d0741956557066081902b07844f72a47f52；只用原q2解r=(1−μ²)/(3μ²+8μ+9)，完整R6/N5剩余按显示尺度返回两个新单变量式。
 - 只移除由该中心原q2/A2非零证明的(1−μ²)(3μ²+8μ+9)A2支持，完整两原Bézout实际乘回后才判单位。首次30秒/256MiB/外45，标准Python，未执行前不报gcd或整支闭。
 - 新增题外workflow .github/workflows/invariant-subspace-8542-w-positive-e-k-minus-two-ell-pole-residue.yml 仅运行新原输入；第五Wray纸稿待全文核，Phi完整odd NP与Haar实际双源继续，普通ISP未完成。
+
+2026-11-29 01:37 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2120实际main 353e51efa21d5005d7af50679f8f148b9b95c5d8，run46171239418/job141059910798；17:35:19 UTC pull 4b8f540bae4bb914fcea2337620ea2776459e237两README无变，私库QUEUE核进行中，ellpole新原首派dispatch204。
+- d770整正e负k稿全文根核：原一阶ell/κ与D/K展开、Q≠1 q1/3的完整N5首值−20/3，Q1时d与2a全部三段；高阶M和H=−3双根原q2/r³=16均保完整余项。
+- 临界H中mu≠−3以原D=MS排H1，完整N5及同K原R6给μ²3和μ²−9μ−21矛盾，5μ+12零单独余254；lambda零中心H1/3/−3全排。没有新执行或裸mod提升。
+- 第五ray已闭，只余正e零k、内部及已付分母DVR。新ellpole run46171289266已完成但待actual判读；Phi新odd NP及Haar实际双源继续，普通ISP未完成。
