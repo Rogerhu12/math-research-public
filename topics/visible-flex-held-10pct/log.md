@@ -164,3 +164,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 10:27 UTC｜Astra-held10-7c4e33ee-20261128：[真完整图多个t网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)已编译/CLI实际过、独立逐式审核：保持原完整源与全H/全谱/最终physical H，held默认严格λ1，R54刚体校正符号正确，R67帽不截谐波。所有mesh用同一闭球面环拓扑、double坐标、严格<5,000,000B；尚无真bundle故未正向导出/未付几何门。私库10:25:58 UTC实际pull到23bad9a0e36d5f4fd968ca8f0ee3b3fb9bca504d，双README空diff、QUEUE仍本会话。E iter7真norm3.78039247，后继0024原freshJ继续。
 
 - 2026-11-28 10:29 UTC｜Astra-held10-7c4e33ee-20261128：修正网格入口说明中写入字符串把 LaTeX alpha 转为控制字符的排版错误；公式恢复正常源文本，执行源码 SHA/数学定义/已完成检查均未改变。
+
+- 2026-11-28 10:36 UTC｜Astra-held10-7c4e33ee-20261128：[M48完整CSR路线实际中断](notes/2026-11-28-design-csr-m48-process-interruption.json)已核21个真实源/输入SHA：parent exit3、child−9，四完整J/QR返回后原回评中断，未有raw/physical/audit/RMS；全局OOM计数9无本进程归因。末952×145 nodal e889dd15…、δ.06412830429882212仅未接受状态，不能以接近旧标量替代验收。没有λ二分，后继从该真节点续。M32v4已获释放窗口真启动，原1497初猜与固定g不变。root另在10:30启动真.064/M40完整连续geometry，未返、不搬R73数字。

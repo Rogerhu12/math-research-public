@@ -1,0 +1,331 @@
+{
+  "scope": "Actual abrupt process interruption of the complete original .128/M48 solve. No mathematical failure, mesh RMS or accepted field was returned.",
+  "recorded_utc": "2026-11-28T10:34:41.602851+00:00",
+  "actual_controller_session": 53112,
+  "observed_controller_exit_code": 3,
+  "observed_child_returncode": -9,
+  "summary": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/summary.json",
+  "summary_sha256": "be0eb9e586e193578b6dcc032189cac3eb7f6bc03644dba0ee34c771f459bc08",
+  "original_unaccepted_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/run.json",
+  "original_unaccepted_run_sha256": "39f4fa3d725bb9f491c47f9b659596bedb4580419ae56ffb3810c09cc5b321d6",
+  "controller_interruption": {
+    "returncode": -9,
+    "error": null,
+    "target_lambda": 0.128,
+    "modes": 48,
+    "lambda_bisection_performed": false,
+    "mathematical_failure_inferred": false,
+    "complete_nodal_checkpoint": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/latest-unaccepted-nodal-checkpoint.json"
+  },
+  "actual_last_attempt": {
+    "name": "attempt-000",
+    "homotopy": 0.128,
+    "modes": 48,
+    "accepted": false,
+    "solver_success": false,
+    "error": null,
+    "metric": null,
+    "physical_bc_max": null,
+    "nodes": null,
+    "rms": null,
+    "raw_sha256": null,
+    "run_sha256": "39f4fa3d725bb9f491c47f9b659596bedb4580419ae56ffb3810c09cc5b321d6",
+    "physical_sha256": null,
+    "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/run.json",
+    "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/run.json",
+    "returncode": -9,
+    "initializer": {
+      "record": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-both-source-secant-20261128/predictor.json",
+      "record_sha256": "0a74c7a857350363db4116b3eb19826637a2a11400593c6f22eb35db99531133",
+      "record_kind": "unaccepted_complete_nodal_recovery_after_engineering_interrupt",
+      "target_lambda": 0.128,
+      "modes": 48,
+      "angular": 1536,
+      "nodes": 952,
+      "beta": 2.0,
+      "result": {
+        "initial_raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csc-streamed-qr-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0001.npz",
+        "initial_raw_sha256": "cfac99229ce26c75d57b14f61031a21e6cb69eca74dd458e353101aa8ad4c009",
+        "port": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-preparation-20261128/port-M48.json",
+        "port_sha256": "5a6e62c8fdff09ff7199c5b5cb65001ac40893694bf731be8d6943026f8e72bd"
+      },
+      "left_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-000/run.json",
+      "right_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/run.json",
+      "left_run_sha256": "652c3a343c3f64950db5f9486d1c98f387e92fc8fa2efd02e08f97dcbdeee2b4",
+      "right_run_sha256": "05e9ad770c7f55f3738fad0f7ed5e3525cb98e1edbb40363a3a6f78b4f4d3711",
+      "accepted_bvp": false,
+      "all_original_acceptance_gates_still_required": true,
+      "prior_two_source_initializer_result": {
+        "initial_raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-both-source-secant-20261128/initial.npz",
+        "initial_raw_sha256": "36ffb0fa969f3be5442a70e372fcfd2cd3555a51fa6fd321ee0585fa7bdc35e5",
+        "port": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-preparation-20261128/port-M48.json",
+        "port_sha256": "5a6e62c8fdff09ff7199c5b5cb65001ac40893694bf731be8d6943026f8e72bd"
+      },
+      "prior_unaccepted_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csc-streamed-qr-m48-20261128/attempt-000/run.json",
+      "prior_unaccepted_run_sha256": "e3dc6b5290add8a919faab12da5c7a414bffbb9f6f8e53d58d41a3f94932bd2f",
+      "nodal_pointer": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csc-streamed-qr-m48-20261128/attempt-000/latest-unaccepted-nodal-checkpoint.json",
+      "nodal_pointer_sha256": "0a33d366d9ebdd7c37f0a8d9ed465375e01b3a1481848d309f512e4abd31679c",
+      "literal_complete_nodal_checkpoint": true,
+      "mathematical_failure_inferred": false
+    },
+    "original_finite_checks": {
+      "tolerances": true,
+      "solver": false,
+      "rms": false,
+      "physical_bc": false,
+      "solver_and_boundary_pass": false
+    },
+    "complete_saved_initializer": false,
+    "metric_only_failure": false,
+    "domain_newton_stats": null,
+    "domain_error_counts": null,
+    "actual_delta": null,
+    "actual_audit_mean_nodes": null
+  },
+  "last_accepted_lambda": 0.064,
+  "last_full_nodal_pointer_sha256": "e2ef74d0047c74adc4281db3cdaa6ff1fb02255cbd567bde2356a66b3d7801cf",
+  "last_full_nodal": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0004.npz",
+  "last_full_nodal_sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+  "last_full_nodal_record": {
+    "kind": "unaccepted_complete_nodal_restart",
+    "file": "unaccepted-nodal-before-jac-0004.npz",
+    "sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+    "nodes": 952,
+    "state_components": 145,
+    "parameters": 48,
+    "mesh_min_spacing": 1.5823386880053913e-05,
+    "before_full_J_assembly": true,
+    "accepted_bvp": false,
+    "original_source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csc-streamed-qr-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0001.npz": "cfac99229ce26c75d57b14f61031a21e6cb69eca74dd458e353101aa8ad4c009",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000-core.json": "d5a428c9c0bd16af2e6f7b285d26752b1ca467bcfb55a68cd0dac89abddbcf77",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_profile_linear_root.json": "3f4042ffe0666bf8ba5b09dca3d056f9b0604b8e4ab3367e537d924bb7b0cfcc",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-preparation-20261128/port-M48.json": "5a6e62c8fdff09ff7199c5b5cb65001ac40893694bf731be8d6943026f8e72bd"
+    },
+    "checkpoint_ordinal": 4
+  },
+  "last_full_nodal_scalars": {
+    "nodes": 952,
+    "state_components": 145,
+    "parameters": 48,
+    "delta": 0.06412830429882212,
+    "max_parameter": 33162.00536921431,
+    "physical_support_control_l1": 0.004069351909574582
+  },
+  "complete_QR_factors": [
+    {
+      "factor": 1,
+      "n": 145,
+      "nodes": 952,
+      "parameters": 48,
+      "stored_entries": 46673744,
+      "start_seconds": 277.5195035979996,
+      "factor_return_seconds": 285.11968461299875,
+      "factor_return_maximum_rss_kib": 1639448,
+      "last_event": "solve_return",
+      "last_seconds": 704.6944678669988,
+      "last_observed_maximum_rss_kib": 2281316,
+      "last_stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.529531969006053e-06,
+        "solve_calls": 5,
+        "maximum_componentwise_backward_error": 1.0,
+        "maximum_normwise_backward_error": 6.7657468969850955e-25,
+        "refinement_steps": 10,
+        "stored_factor_bytes": 693709000
+      }
+    },
+    {
+      "factor": 2,
+      "n": 145,
+      "nodes": 952,
+      "parameters": 48,
+      "stored_entries": 46673744,
+      "start_seconds": 843.7996993049983,
+      "factor_return_seconds": 852.4510681779993,
+      "factor_return_maximum_rss_kib": 2281316,
+      "last_event": "solve_return",
+      "last_seconds": 1208.2876193039992,
+      "last_observed_maximum_rss_kib": 2300604,
+      "last_stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.701161809934504e-06,
+        "solve_calls": 3,
+        "maximum_componentwise_backward_error": 1.0,
+        "maximum_normwise_backward_error": 1.4567914580952938e-23,
+        "refinement_steps": 6,
+        "stored_factor_bytes": 693709000
+      }
+    },
+    {
+      "factor": 3,
+      "n": 145,
+      "nodes": 952,
+      "parameters": 48,
+      "stored_entries": 46673744,
+      "start_seconds": 1345.8871776259984,
+      "factor_return_seconds": 1350.7061927899995,
+      "factor_return_maximum_rss_kib": 2300604,
+      "last_event": "solve_return",
+      "last_seconds": 1721.2392541049994,
+      "last_observed_maximum_rss_kib": 2300604,
+      "last_stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.336832984592228e-06,
+        "solve_calls": 4,
+        "maximum_componentwise_backward_error": 1.0,
+        "maximum_normwise_backward_error": 4.98356606723836e-21,
+        "refinement_steps": 8,
+        "stored_factor_bytes": 693709000
+      }
+    },
+    {
+      "factor": 4,
+      "n": 145,
+      "nodes": 952,
+      "parameters": 48,
+      "stored_entries": 46673744,
+      "start_seconds": 1846.1560314669987,
+      "factor_return_seconds": 1854.7066971259992,
+      "factor_return_maximum_rss_kib": 2300604,
+      "last_event": "solve_return",
+      "last_seconds": 2011.0090730079992,
+      "last_observed_maximum_rss_kib": 2300604,
+      "last_stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.2735574286083482e-06,
+        "solve_calls": 2,
+        "maximum_componentwise_backward_error": 1.0,
+        "maximum_normwise_backward_error": 2.051024369755874e-19,
+        "refinement_steps": 4,
+        "stored_factor_bytes": 693709000
+      }
+    }
+  ],
+  "observed_pre_J_resource_gates": [
+    {
+      "ordinal": 1,
+      "current_memory": {
+        "available_bytes": 4884643840,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 189489152
+      },
+      "estimated_additional_required_bytes": 2070969720,
+      "process_peak_estimate_bytes": 1723587960,
+      "external_margin_bytes": 536870912,
+      "checkpoint_sha256": "cfac99229ce26c75d57b14f61031a21e6cb69eca74dd458e353101aa8ad4c009"
+    },
+    {
+      "ordinal": 2,
+      "current_memory": {
+        "available_bytes": 3657576448,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 1358848000
+      },
+      "estimated_additional_required_bytes": 2070969720,
+      "process_peak_estimate_bytes": 2892946808,
+      "external_margin_bytes": 536870912,
+      "checkpoint_sha256": "f954c9108a9fc0d062cadcc51b83baea8cf3080363a1de5790fc718921cd4e72"
+    },
+    {
+      "ordinal": 3,
+      "current_memory": {
+        "available_bytes": 3656744960,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 1358848000
+      },
+      "estimated_additional_required_bytes": 2070969720,
+      "process_peak_estimate_bytes": 2892946808,
+      "external_margin_bytes": 536870912,
+      "checkpoint_sha256": "420bf4e994335fc0aad1af4f632b3916d44ce8424ec7bc7028daad3c1fd4b71f"
+    },
+    {
+      "ordinal": 4,
+      "current_memory": {
+        "available_bytes": 3351531520,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 1369878528
+      },
+      "estimated_additional_required_bytes": 2070969720,
+      "process_peak_estimate_bytes": 2903977336,
+      "external_margin_bytes": 536870912,
+      "checkpoint_sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e"
+    }
+  ],
+  "original_scalar_events": [
+    {
+      "event": "initial_domain_pass",
+      "elapsed": 44.00070534000042,
+      "nodes": 952
+    },
+    {
+      "event": "domain_rejection",
+      "elapsed": 1013.4981776570003,
+      "kind": "Adaptive Frenet domain failure",
+      "count": 1,
+      "error": "Adaptive Frenet domain failure: -1.1303427287948672e-05"
+    },
+    {
+      "event": "domain_rejection",
+      "elapsed": 1045.5648545040003,
+      "kind": "Adaptive Frenet domain failure",
+      "count": 2,
+      "error": "Adaptive Frenet domain failure: -5.027043289113184e-06"
+    },
+    {
+      "event": "domain_rejection",
+      "elapsed": 1075.5013747529993,
+      "kind": "Adaptive Frenet domain failure",
+      "count": 3,
+      "error": "Adaptive Frenet domain failure: -3.288858452779619e-06"
+    },
+    {
+      "event": "domain_rejection",
+      "elapsed": 1614.0764134620003,
+      "kind": "Adaptive Frenet domain failure",
+      "count": 4,
+      "error": "Adaptive Frenet domain failure: -1.1074448462936623e-05"
+    }
+  ],
+  "original_outer_iteration_or_mesh_RMS_returned": false,
+  "original_full_nonlinear_RHS_and_domain_gates_retained": true,
+  "resource_history_scope": "The first complete factor/solve peaked at1644144 KiB. Later original trial evaluations while a full factor was retained raised the observed historical peak to2300604 KiB. The allocation causing that increase was not directly profiled. The final unobserved instant before signal9 may have had a higher peak.",
+  "budget_limit": "The initial estimate omitted the later full-factor plus RHS/Flow-evaluation overlap. These estimates are not memory guarantees and do not identify the cause of signal9.",
+  "OOM_attribution_established": false,
+  "host_oom_kill_counter_without_per_process_attribution": {
+    "oom_kill": 9
+  },
+  "no_lambda_bisection_performed": true,
+  "no_new_BVP_directory_created": true,
+  "future_predictor_barrier_present": true,
+  "next_execution": "The M32 fixed-g recovery owns the next prefix-J window. The later M48 continuation must restore this actual ordinal4 complete nodal state; no older secant or completed initial trajectory will be repeated.",
+  "complete_surface": false
+}
