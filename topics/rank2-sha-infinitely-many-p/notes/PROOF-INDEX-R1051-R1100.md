@@ -58,3 +58,8 @@
 ## R1052：原未改动来源的完整 toric flat 分支恒零
 
 [R1052](../results/R1052-original-unmodified-b2-toric-flat-vanishing.md)与[实际来源返回](2026-11-27-original-good-pullback-and-bad-source-return.md)支付原 $g_2^*F_0$ 在好点的完整有界性：书Lemma6.16作用于同一completed结构层germ，不要求新vector；实际中心给 $(pI)^*F_0=-F_0$，故同一坏点 $b=2$ 源为 $-F_0$。原书 $\omega_{\rm can}\Omega_p=\omega_0$、$v_p\Omega_p=-p/(p^2-1)$ 给正幂周期，完整双槽估值与未除幂 $n!(n+2)!$ 迫实际未flat全toric正槽沿合法逼近趋零；同一有界测度的直接极限于是证明原未改动来源的**完整toric flat分支及实际外权导数恒零**。只杀这一个完整和，不声称点级支撑、canonical $J'_S$、usual剔除、outward图或signed类为零。书版Bol的KS/杯积改回R997同一正号，向量primitive同步换号，临界标量公式不变。后继转真正导子$p$邻点来源 $g_1^*F_0$ 或直接proper返回，不再给已零分支造canonical必要行。
+
+
+### 原A24实际相对片的完整两级返回
+
+[原A24相对来源完整返回](2026-11-27-original-a24-relative-fiber-and-complete-two-trace.md)在同一个 $T=A_{24}H_{48}$ 中付全四纤维 $\mathrm T_{2,12}H_{48}=(4/3)\sigma^{12}X(X+b)$、$\mathrm T_{2,6}A_{24}=\sigma^6/14$；真实相对片 $R_{144}=A_{24}(2w)H_{48}(w)$ 的old部分是 $[2]^*C_{36}/3$。同一 $C_{36}$ 的全范数三像为 $-\sigma^{12}(13X+4b)/336$。据准确来源分解，将原 $J_{1,p}/p$ 化为这一degree12读者、两个明定new余项及完整低卷积，原 $J_{p,1}/p$ 同时保留。没有把trace与除$p$无缺陷交换，也不赋相对来源新canonical零；后继须实际支付余项的finite来源和算术返回。

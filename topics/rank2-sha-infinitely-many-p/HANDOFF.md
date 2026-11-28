@@ -12,12 +12,12 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 ## 最新实际pull和已读规则
 
-只读CI run46075603971/job140789992037，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-27 23:45:35UTC实际部分clone/pull至f5e4897c620dd9e924114ad9bfda52e8760e8223。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库23:45:41UTC实际至f1029ecdf21942eb51875ccf05413e612ce16b1d。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
-- 四README与23:35已读版本相同，无新差异；旧请求基线不冒充本次head。job日志14887B/hash8d18006b1a617f3492de6e2dc643debbae62ec902dd7e47bdfc7609105a52804，只记录不保存。
-- 库存3148blob/44,347,320B，treeb38b4364f7ff1e062c96165244ddb9f246e2bbfb，无>5MB，三旧必要gzip SHA不变。
-- 每推前重跑最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:45UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
+只读CI run46075603971/job140793617520，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-27 23:58:41UTC实际部分clone/pull至0e49679f27d61885d3565589603eebb16225e778。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库23:58:46UTC实际至78f2efb417e18de16ace92c8625c189c4bf02380。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 四README与23:45已读版本相同，无新差异；旧请求基线不冒充本次head。job日志14887B/hash5a859e213e54818cd7fd96c973eb3cc2f0aaaed41033e0e4f1a29fbc0f130352，只记录不保存。
+- 库存3151blob/44,383,251B，tree6f97ed36b9714fc83046df6a7478e8b32f1e9baa，无>5MB，三旧必要gzip SHA不变。
+- 每推前重跑最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:58UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
 - 本地07:20失联，23:12重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
 
 ## 当前唯一完整厚几何v13
@@ -57,6 +57,8 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 [Manin二挠Legendre](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)及Wilson完整重写已付，但辅助$q$无穷非零、原17有权返回未付；$q$单位倍规范值不读目标$p$饱和。geometry现在做原A24/四H伙伴/六sigma和mixed除$p$的真实返回，不停在环境分解。
 
 固定五条rank≥2曲线与通常全Sha桥已付；联合无穷$p$原$J'$非零仍为主门。R1042全环境左逆不代scalar Schur；不能横向微分CM坏条件；权二B6全toric零不重算。O4/O6/O7等所有旧门详见open/归档。
+
+[原A24实际相对片](notes/2026-11-27-original-a24-relative-fiber-and-complete-two-trace.md)现付全二挠/范数三old部分：$\mathrm T_2H_{48}=(4/3)\sigma^{12}X(X+b)$，$\mathrm T_2R_{144}=4C_{36}/3$，$\mathrm T_\delta C_{36}=-L_{12}/336$。原mixed除$p$完整保degree12、两个指定new余项与低卷积；不添canonical零。geometry继续其finite来源。root/arithmetic核R1026末六权的实际更高精度及R1028旧消失窗以外的终端项，不把Newton求和零拆成逐行零。
 
 ## 分工与持续执行
 
