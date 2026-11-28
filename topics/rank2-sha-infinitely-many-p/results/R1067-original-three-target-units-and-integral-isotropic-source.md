@@ -96,3 +96,116 @@ $$
 $b/(3B_0)$ 分别是 $3/2+\sqrt3\operatorname{Im}x$ 和
 $3/2-\sqrt3\operatorname{Im}x$，两者都严格正，证明(X3)。
 这个符号用的是原 Jacobi 及 Schwartz 标记的解析界。
+
+## 57. 两个实际秩零 Rubin 单位的共同一阶项与任意精度的纯对数层读取
+
+以 $E_{\rm base}:y^2=x^3+1$ 为共同局部整模型，令
+$E^{[k]}:y^2=x^3+17^k$，$k=1,3,5$。沿用(X2)的物理行，令
+$J_3,J_5$ 为 R308 §6 在共同 $E_{\rm base}$、同一 $c$ 与 charge
+$34$ 下的两个 Newton 函数。两者均有常数一，且属于
+$1+p\mathbf Z_p\langle u\rangle$。设
+$$
+ X=J_p/J_5,\quad Y=J_3/J_5,\quad t_i={\omega^ia\over9B_i},\quad
+ h_i={1\over9B_i}.
+$$
+由(X2)在同一个线性读者中逐项读出
+$$
+ J_p[Z_i]/(B_iJ_5)=1+t_i(Y-1)+h_iX.                            \tag{Y1}
+$$
+这里 $X(0)=0,Y(0)=1$。对(U6)中任取的基准轨道 $i_0$，
+$(\log V_i)'(0)$（$i\ne i_0$）准确为
+$$
+ (t_i-t_{i_0})Y'(0)+(h_i-h_{i_0})J_p'(0).                      \tag{Y2}
+$$
+可以在选择局部反射的固定轨道后重新标记；循环相位须随(X2)一起移动。
+
+令 $\mathcal O=\mathcal O_{K_p}$，$\Lambda_p=\mathcal O[[T]]$，
+$T=\gamma_{\rm ac}-1$。用各曲线的 primitive CM Betti 标记、实际
+Néron 微分及 R303(9),(14)相同的整图，把各自的标准椭圆单位
+局部类 $\xi_k$ 经 $F_{\theta^k}^*$ 送至共同 $M^+$。写
+$\widehat\xi_k=\mathcal A_k(T)\xi_{\rm base}$。
+两条 rank-zero 曲线的根数均正，R307(13)的 $L/\Omega=3,6$
+在 $p>211$ 为单位，$\varpi/\Omega=s$ 也为单位。BKO24
+Cor. 4.11(i)的原整基论证同 R303 §3 给
+$\mathcal A_3,\mathcal A_5\in\Lambda_p^\times$。这两个是真正标准
+局部椭圆单位类的坐标，而非事后选取的分析函数单位。定义
+$$
+ U_p(T)={\mathcal A_3(T)/\mathcal A_5(T)\over
+                \mathcal A_3(0)/\mathcal A_5(0)},\qquad
+ R_p(T)^2=U_p(T),\quad R_p(0)=1.
+$$
+因 $p$ 为奇数，$1+T\mathcal O[[T]]$ 中有唯一此平方根。
+
+在整个 $u$ 盘有
+$$
+ Y(u)=R_p(q_{\rm ac}^{du}-1),\qquad
+ Y'(0)=d\log(q_{\rm ac})R_p'(0).                                 \tag{Y3}
+$$
+证明是将(111)的同一 primitive tensor / dual exponential 比较直接
+用于 $E^{[3]},E^{[5]}$。两条导子均为 $(2\sqrt{-3}\,17)$；
+R306 已证各自的 tame 分量，$m=dn$ 时两条真正同一反圆分角色为
+$(\psi_k/\bar\psi_k)^m$。共同辅助 smoothing、同一 Gamma/Tate
+及 $p$ 处两份非单位 Euler 因子 $1+1/p$ 都先保后消；十七处两条
+均为 primitive 分歧行。唯一模型权因子是
+$(\theta^3/\theta^5)^{-(2m+1)}$，固定 Betti 单位之比记
+$\kappa_{35}$，同(111)在取临界值前由整基定下。R307(16)的临界
+比是
+$$
+ {3\over6}(\theta^3/\theta^5)^{2m}
+   \left({[z^m]H_3\over[z^m]H_5}\right)^2 .
+$$
+这里因质量均一，物理 $E^{[k]}$ 上的第 $m$ 次系数恰为
+$\theta^{km}[z^m]H_k$。故两个随 $m$ 的模型幂**全消**，留下
+$\kappa_{35}\theta^2/2$。两个 charge 都是 $34$，故 $d\mid m$
+时最后的系数比就是 $Y(n)$，连同其 Gaussian 与 $n!$ 一起成立。
+由正整数的稠密性先在整盘得到
+$(\mathcal A_3/\mathcal A_5)(q_{\rm ac}^{du}-1)
+       =\kappa_{35}\theta^2Y(u)^2/2$；置 $u=0$ 得它的准确归一，
+再用常数均一选定根，证明(Y3)。因此原中央坏等价于(Y2)两个真实
+对数导数均准确等于
+$(t_i-t_{i_0})d\log(q_{\rm ac})R_p'(0)$。反向甚至可只用其中一条，
+因为由(V2)，$h_i\ne h_{i_0}$。
+
+这一个原 Rubin 系数有纯有限层的 logarithm 读取。任选 $r$ 个
+不同的非平凡本原层 $n_1,\ldots,n_r$，使对应反圆分字符
+$\chi$ 都在 BKO24 的 $\Xi^-$（三条曲线的原符号为正）。
+写 $D(T)=\prod_{j=1}^r\Phi_{p^{n_j}}(1+T)$。在相应根
+$\eta=\chi(\gamma_{\rm ac})$，将定义 $U_p$ 的两个全局标准类的
+$\chi^{-1}$ 本征投影先局部化、再经各自 $F_{\theta^k}^*$ 送入
+**同一** $E_{\rm base}$ 局部整表示，记为 $\widehat z_{k,\chi^{-1}}$。
+以 $\lambda_{\rm base}$ 表示该共同微分及标记的 Bloch–Kato / 形式群
+对数。BKO24 Th. 3.16(a), (3.17) 给
+$$
+ U_p(\eta-1)
+ = {\lambda_{\rm base}(\widehat z_{3,\chi^{-1}})\over
+        \lambda_{\rm base}(\widehat z_{5,\chi^{-1}})}
+       {\mathcal A_5(0)\over\mathcal A_3(0)}.                    \tag{Y4}
+$$
+这里共同 $v_-,v_+$ 先由本地整同构配对，才取消同一
+$\delta_{\chi^{-1}}(v_-)$，故无独立选取的秩一周期。
+$\widehat z_5$ 是单位倍的共同基，(3.17)与非零互易因子保证
+分母非零。该公式是真实椭圆单位 Selmer 类的对数；只有另满足原文
+的秩一假设时才将它识别为代数点张量中的类。
+
+在同一 $\mathcal O$ 内准确有
+$$
+ 2R_p'(0)\equiv
+ -p^r\sum_{D(\eta-1)=0}{U_p(\eta-1)-1\over(\eta-1)^2D'(\eta-1)}
+       \pmod {p^r}.                                             \tag{Y5}
+$$
+确实 $f=(U_p-1)/T\in\mathcal O[[T]]$，$D$ 首一且 distinguished。
+其 Weierstrass 除法余式 $P$ 系数整且次数小于 $\deg D$，又
+$D(0)=p^r$，故 $f(0)\equiv P(0)\pmod{p^r}$。对所有简单非零根
+应用 Lagrange 插值即得(Y5)，无需给每一分项单独主张整性。于是对
+任意精度 $r$，(Y4)在**只有**反号层中已给一个真实的有限输入。
+同一(Y5)也可只用 $r$ 个 $\Xi^+$ 的非平凡层；这时由 BKO24
+Prop. 3.1(3.3) 读共同 dual exponential 的比，再乘
+$\mathcal A_5(0)/\mathcal A_3(0)$，原始临界值和各自实际微分如
+上述比较保留。任一取法均给同一个 $2R_p'(0)$ 模 $p^r$。
+
+原复函数方程中的反射将 R306 的单位化特征
+$\chi_k^{2m+1}$ 换至其逆，对应 $m'=-m-1$。
+当 $m\equiv0\pmod {p+1}$ 时 $m'\equiv-1\pmod {p+1}$；
+故该反射没有把(Y3)的同一 $u=0$ 槽赋为偶函数。BKO24 Th. 3.16
+的对数等式给有限特征的**值**，(Y5)把它们送入原一阶项所需的任意
+精度；其极限还没有被识别为单个固定全局代数点或全局单位的对数。

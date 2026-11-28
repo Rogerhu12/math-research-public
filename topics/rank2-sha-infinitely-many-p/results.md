@@ -204,3 +204,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §56：原Kummer三扭曲的真实Fourier分量
 
 真实六次域K(17^(1/6))给三投影9Zi=S1+ω^i aH3+ω^−i bH5，保实际两个秩零来源的全部系数与period。a/b=17^(1/6)/(3+√17)>0，原theta估计定两项同号，未由普通权非零推出原中央。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §57：两个原秩零单位与任意精度有限对数读者
+
+实际U=(A3/A5)/(A3/A5)(0)有唯一归一平方根R；三目标导数保真实Y′和J′两个分量。BKO Th3.16与完整全层Lagrange给R′的任意p精度有限全局elliptic-unit对数读者，未将其极限冒称有限全局对数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
