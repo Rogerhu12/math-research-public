@@ -85,3 +85,8 @@
 ## 第十六次真实 pull
 
 2026-11-28 09:13:02 UTC，即2026-11-28 17:13:02 Asia/Taipei；sourcea6c74a411b991758c0393190234cc8b2b3f7a3a0，[run46129390088](https://github.com/Rogerhu12/math-research-public/actions/runs/46129390088)，job140931017005，success。实际blob:none部分克隆后pull --rebase至a6c74a411b991758c0393190234cc8b2b3f7a3a0，与origin/main相同。相对已读ea1d6a0a05578e777c234781a711ab759f49b90a，两README diff为空，两个全文SHA与已读文本重新计算一致；shallow=true。实际结果JSON SHA-256为76790caf71bdc1d4c9634aa4b6749132164331199598c8bb82dbba94a9a15608，哈希对象沿首轮定义。下次请求不迟于18:03、实际pull不迟于18:13 Asia/Taipei；本地17:12仍无可用执行环境，恢复即pull。
+
+
+## 第十七次真实 pull
+
+2026-11-28 09:55:09 UTC，即2026-11-28 17:55:09 Asia/Taipei；sourced3e8e84a2fdd25be2638b1ae9b4788e0dfa1b3a5，[run46132674481](https://github.com/Rogerhu12/math-research-public/actions/runs/46132674481)，job140941081619，success。实际blob:none部分克隆后pull --rebase至d3e8e84a2fdd25be2638b1ae9b4788e0dfa1b3a5，与origin/main相同。相对已读3d0d2f69d7ae1fde97468c3903c371f653693620，两README diff为空；根第16条已在fb3965f7时单独读差异并执行，本次root全文SHA为539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444，topic全文SHA为6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5，均与已读文本重新计算一致；shallow=true。实际结果JSON SHA-256为1a33eb6879a9286a9f7933f630de6a20d32adba72a4e8b0e6a69980e2ffa952d，哈希对象沿首轮定义。下次请求不迟于18:45、实际pull不迟于18:55 Asia/Taipei；本地17:54仍无可用执行环境，恢复即pull。
