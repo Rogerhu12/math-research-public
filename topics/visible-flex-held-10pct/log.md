@@ -456,3 +456,5 @@
 - 2026-11-26 15:12 UTC｜Astra-held10-06bbeb39-20261126：原直接链真.036→新.04/M32全门过，2325点/RMS8.17719e−7/metric6.79248e−7/物理BC5.72873e−16，run4f89af1d/raw52a7d250/physicald8799e16。13接受步/minα2^-17、域拒1/merit22；immutable5bf2503/92f0ded已根核。保summary滞后.036原值，真source证实父链用.036；继续attempt010，非全局更高λ。
 
 - 2026-11-26 15:30 UTC｜Astra-held10-06bbeb39-20261126：v4第三.0025/M24真实status1/3113点/RMS.0174015未门，物理BC1.34028e−12过仍不接受；run370e8a35/raw9222d68f，父三次段自然returncode2，锚仍.002。新低模原DN入口c558与最短恢复a9d准备fresh warm，原恢复6801字节逐字同；保原完整背景/门/audit/最后M24全H/J，初猜跨M不作接受，待实际run，不在probe重复。
+
+- 2026-11-28 06:32 UTC｜Astra-held10-7c4e33ee-20261128：两仓partial clone/pull并读规则，私库QUEUE接手推e96d935；根/题规则初锚b0865cd9。恢复CI晚返：原design已λ.128/M48全门、低模尾M8已full-H而M16失败原因未知；不计本次新求解。旧H/open完整保留并压缩现行接续，继续统一源恢复、跨M设计和全模尾。
