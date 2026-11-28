@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WBN实际完整参数列后继](results/R147-supplement-actual-weighted-model-Theta-nu-column.md)：run46125286420/1全部1目标成、全17输入和原validator过；同一96exact centres/means，新的joint error0.001118590706097307…，旧各整候选和费用保。仅换whole global Θ槽。旧science/载体恢复0，非fullSchur。
+
 - [PWA96：完整高度行与单一共同相位比率的消费者](results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md)：以H96 whole canonical/G、P96 whole H/phase和APHI全列重合新height96与phase96，保共享ρ的joint误差及negative4/world2；7新目标完整接口已齐。完整H96实际成功前不生成manifest/workflow，旧积分/目标不重。
 
 - [FWT：有限cut的完整Wiener转移与更宽NG入口](results/R133-supplement-finite-cut-Wiener-transfer-and-reduced-NG-entry.md)：未知low96先以37倍L2进入完整逆角，重验中间基准全部J.4，得γ≤.065|δ|+4cL+hH/16；同δ*的新门64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11。19新有理比较一次全过；全collar/true residual0/mean/H8193及未知receivers义务保。

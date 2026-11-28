@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:26:59 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:28:28 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至0cb7569aeae5ef67f34a7de741e5e359a81d74b3；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至4b49703f17f80b9191e471661b706fe68878deca；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
-topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10新160件仅去JSON字符串外ASCII空白，净956083B；whole receipt86645B/52fd82fa…，原6fd4325b3全保、科学0。完整扫描后每次pull等价核changed/untracked与全160hash。META1–9全账见6fd4325b3完整H/原receipt，不重做。
+topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10新160件仅去JSON字符串外ASCII空白，净956083B；whole receipt86645B/52fd82fa…，原6fd4325b3全保、科学0。本批推送前完整扫描后每次pull等价核changed/untracked与全160hash。META1–9全账见6fd4325b3完整H/原receipt，不重做。
 
 ## 同一对象与完整旧账
 
@@ -43,7 +43,7 @@ LCW已成：原whole7722几何正累计值给较紧锚/NP高度/H96整槽，完�
 
 PWA更强actual竖直锚已成：同物理角GW保e/E/P/jumps与末端角桥，a0<3.649e−6/p0<8.56e−6/a1<.000466/b1<.001417。H96锚费.00005185H+.000011056G；同NP height(-.025370374,-.025229626)/逆<39.64，弱四源94013/6651/3001/8852。42新Fraction一次过、0旧science；原λ/mean/world与未知core准入保。
 
-WBN首入口已齐：17个whole inputs/1新target，原两个成功父件与validator整件核；全部96exact centres/means保，旧science0，见notes/2026-11-28-WBN-whole-saved-column-first-entry.md。
+WBN run46125286420/1全1成、17whole准入/原validator过，joint<.001118591；96exact centres/means和旧全候选保，0旧science/0载体恢复。完整应用R147 WBN。
 
 GBN首入口已齐：18个whole inputs/2新target，原两个成功父件与validator整件核；全部96exact centres/means保，旧science0，见notes/2026-11-28-GBN-whole-saved-column-first-entry.md。
 
