@@ -62,8 +62,8 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull cb0c31af40974216f2d6d4158d131157c85cecf4
-<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull b395bd32f13c2748d84ba6e8a245ec5749e62de2
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 78e2c12cc7fb886fefc2fd1373f28e737e1bf19f
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 387f9f704ac44f814321f004f4127169efc926f6
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull be2b35c6c1aa4b2671d45fd7431ac011cb9c73f7
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 32c4756e267886d26cba6a71939266ffbce4ff4f
+<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 27b07fa780c79668a188e1405f3c4d1038abd71c
