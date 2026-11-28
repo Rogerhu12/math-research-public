@@ -417,3 +417,24 @@ The complete official run object and complete returned job wrapper are preserved
   }
 ]
 ```
+
+## 2026-11-28 02:37:27 UTC — 23首个观测试点统计实际返回，策略效果尚未知
+
+同science b31c3422a7f8f86954977988c8386208301a2942、launcher f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371、PID3652、driver9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699、model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add。trial d86dcda4b4cba05807294d2d5c22e63ce0c6bc5f7465cda196e5bc1201cb5d51于02:22:23.254243+00:00已返回真实统计：Phi3825.0583176123996，max_relative_gram .6460503022350718。
+
+02:32:38Z完整索引尚无该trial几何、accepted或恢复policy实际更新；current仍初7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、accepted0、reach .968424994209506，六族原值保前文。alpha/方向类别和步长未返，不凭与其他run的数值接近猜测。normal当时为same trial、cached513、closure original28979/fail0；只是原normal已执行进度，未表示完整几何。完整report=false且子进程未自然返回。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+    "bytes": 52526,
+    "sha256": "2fa5a8e35456e29ade8b3dd84e6f61735e5c993c4f3a8cb1f0e5a59cd5568b69",
+    "git_blob_sha": "a4d1028fe69011a098f20a66629d465967abb639",
+    "fixed_commit": "17ed6ccae50001659c1bb8cf549075a538778f65",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

@@ -114,7 +114,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；current0f4d/accepted1/g.9680716975090076，distplus仍正；下一b6cb Phi3824.9619403696915/Gram.6460452977630746，几何未知。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；700e真实g2.5419057471738853拒，下一1b3b统计返。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2，两input0；model6f3ae32/初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985，reach.5305849371949052/distplus.11391238912344381仍正、余四负；trial97fbb Phi681.6511710299278/Gram.4061652579029476，几何/决定未知。 |
-| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 46094430214/1，01:42:05Z启动，两input0；b31c/f2a9/PID3652/model0abfbf/初7e06/六族返/g.968424994209506，accepted0；试步/策略效果未知。 |
+| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 46094430214/1，01:42:05Z启动，两input0；b31c/f2a9/PID3652/model0abfbf/初7e06/六族返/g.968424994209506，accepted0；triald86d Phi3825.0583176123996/Gram.6460503022350718，几何/策略未知。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 46096380016/1、02:05:58Z/head431b54a；仅沿22宽度b1/2→5/8。官方启动，输入/新场完整读取待续。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。22初场g/Phi/Gram较19低但distplus较大，只是工作值比较。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)完整条件及未知排序保，不推曲率/reach单调性。
