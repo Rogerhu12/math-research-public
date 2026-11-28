@@ -1159,3 +1159,104 @@ $\mathbf Z_p$ 上的 Tate 收敛，也不支付将此非单位整数幂
 $\widehat\beta_t\chi_t=\widehat\beta_0$。
 本节没有用共同覆盖的次数替换原实际 completion 权，
 也没有以变量缩放取得新的 canonical 零行。
+
+
+
+### 13.1 临界闭盘恰检测整个单位测度
+
+本小节仍只使用原 whole bounded Amice 测度 $\mu_i$、
+(45)--(46)的同一覆盖核及全部原 frame。
+固定
+$r_{Z'},r_{W'}\in\mathbf Q_{\ge0}$，现在取临界等号
+$$
+ r_{Z'}+r_{W'}=\frac2{p^2-1}.
+$$
+令 $\mathbb D_{\rm crit}$ 为对应的完整闭双盘。
+则有准确的充要判据
+$$
+ \boxed{
+ \widehat H_i\in\mathcal O(\mathbb D_{\rm crit})
+ \quad\Longleftrightarrow\quad
+ \widehat{\widetilde H}_i\in\mathcal O(\mathbb D_{\rm crit})
+ \quad\Longleftrightarrow\quad
+ \mu_i|_{\mathbf Z_p^\times}=0 .
+ }
+ \tag{49}
+$$
+$\mathcal O$ 在此指该闭盘的 Tate 代数，
+不是仅在每个严格小子盘上解析。
+右侧指整个单位部分的 bounded measure 为零；
+不是一条 Teich 分量、一项负矩或一条 canonical $J'(0)$ 为零。
+
+**证明。** 第一项与第二项等价，因为
+$e^{\pm\widehat\beta_iZ'W'}$ 在闭单位双盘中都是
+Gauss 范数1的 Tate 单位，故在 $\mathbb D_{\rm crit}$ 上亦然。
+由(27)、(45)及 Legendre 的准确等号，
+$\widehat{\widetilde H}_i$ 第 $(n,n+2)$ 项的加权系数估值恰为
+$$
+ \begin{split}
+ v_p(m_{i,n})+3\tau+2+2r_{W'}
+  +\frac{s_p(n)+s_p(n+2)-2}{p-1}.
+ \end{split}
+ \tag{50}
+$$
+若 $m_{i,n}=0$，相应估值按 $+\infty$ 处理。
+所以 Tate 收敛等价于(50)随 $n\to\infty$ 趋于 $+\infty$。
+
+先假设此收敛成立。固定任一整数 $j\ge0$，令
+$n_r=j+p^r$。对充分大的 $r$，有 $p^r>j+2$，于是
+$$
+ s_p(n_r)=1+s_p(j),\qquad
+ s_p(n_r+2)=1+s_p(j+2).
+$$
+(50)中的数字和部分因此与 $r$ 无关，
+Tate 收敛迫 $m_{i,j+p^r}\to0$。
+
+另一方面，记 $\operatorname{Teich}(x)$ 为
+$x\in\mathbf Z_p^\times$ 的 Teichmüller 部分。
+在整个 $\mathbf Z_p$ 上有一致极限
+$$
+ x^{j+p^r}\longrightarrow
+ {\bf1}_{\mathbf Z_p^\times}(x)\,
+          x^j\operatorname{Teich}(x),
+$$
+故原 bounded measure 给
+$$
+ \lim_{r\to\infty}m_{i,j+p^r}
+ =\int_{\mathbf Z_p^\times}
+       x^j\operatorname{Teich}(x)\,d\mu_i(x)=0
+ \qquad(j\ge0).
+ \tag{51}
+$$
+一致性可以直接核对：在 $p\mathbf Z_p$ 上，左边估值至少
+$j+p^r$；在单位上，
+$x^{p^r}=\operatorname{Teich}(x)\langle x\rangle^{p^r}$，
+且 $\langle x\rangle^{p^r}\to1$ 一致成立。
+这里积分换极限只使用同一个原 measure 的 bounded 范数。
+
+令
+$d\nu={\bf1}_{\mathbf Z_p^\times}\operatorname{Teich}(x)\,d\mu_i$。
+(51)说 $\nu$ 杀掉所有普通多项式。
+每个 Mahler 多项式 $\binom{x}{m}$ 都是有限个普通单项式的
+$\mathbf Q_p$ 线性组合；这些 Mahler 多项式的有限和在
+$C(\mathbf Z_p,\mathbf C_p)$ 中稠密。
+因此 $\nu=0$。
+在单位 clopen 集上乘回连续单位
+$\operatorname{Teich}(x)^{-1}$，得到
+$\mu_i|_{\mathbf Z_p^\times}=0$。
+
+反之，若这个单位部分为零，整个 measure 仅在
+$p\mathbf Z_p$ 上贡献。由原范数界，
+$v_p(m_{i,n})\ge m_i+n$。
+(50)的数字和修正非负，故其估值至少
+$m_i+n+3\tau+2+2r_{W'}$，趋于无穷。
+于是覆盖核在临界闭盘上为 Tate。证毕。
+
+(49)给§10的边界不足一个完整而精确的解释：
+对原非零单位读者，所缺的并不是把一个严格不等式草率地换成
+弱不等式；同一 coherent frame 的完整边界 Tate 延拓
+已经会迫整个单位测度消失。
+这个结论并不否定在其它几何坐标、线丛 frame 或图册中的
+正则延拓。良整形式参数中的 section 正则性、形式对数在
+挠点的退化，以及本篇这个 Lie/coherent 核的 Tate 延拓，
+仍是需要实付运输的不同断言。

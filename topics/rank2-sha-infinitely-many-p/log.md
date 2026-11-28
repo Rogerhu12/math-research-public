@@ -129,3 +129,12 @@ R1060§§12–13付原D102/S34 completion的真实微分tensor与全circle次序
 root直接重读原psi4源§§7/9/10的D_−(Ω0hT/δ)、S(Ω0hT)、C102/34及qδ，逐项核completion h权与低槽差、q/r/s正负号、[p]全部p幂、PD次数差和严格盘。式(44)以形式B逐系数几何化后再代p-adic β，明确不单独嵌复period。全纸证，无数学运行。
 
 推前actual readonly run46075603971/job140831634332：公开2026-11-28 02:17:41 UTC至68c3d71c3438a78838a3450f585a8d7a111dd50e；私库2026-11-28 02:17:45 UTC至51ff24a5c47e6cc333a45a0869eec589bf3f36ed。四README与02:09已读版相同，QUEUE/认领未变。日志14892B/hashea3ca9b011b2087354db18fb2376bff796fd2a6d249567fec7e2c077dafbc29f；库存3169/44696855B/treeadba1e9f4a1d0dd4ac28c67922f7d3a4c8650557，无>5MB，三旧必要gzip不变。
+
+
+## 2026-11-28 02:29:46 UTC：同一 whole 边界的完整测度判据
+
+R1060§13.1给同一whole覆盖核临界闭盘的准确充要：Tate延拓当且仅当原bounded测度的整个单位部分为零。Legendre准确数字和及n=j+p^r子列迫全部Teich加权矩零，再由Mahler稠密性得整单位测度零；反向由支撑pZp的n阶估值支付。保真实cross Gaussian及原frame，不把一条Teich分量、负矩或canonical J′零冒整个单位测度零，也不把其它几何坐标的正则性冒同coherent边界。
+
+root独核(50)全部p幂及Legendre等号、n=j+p^r数字和、整个Zp的一致极限及Cp值Mahler稠密性。全纸证，无数学运行。R1060§§12–13已成功推送da64df51fbd24fbd77478988e5e968e72d2e34a8，本条是在其全文后新增(49)–(51)。
+
+推前actual readonly run46075603971/job140834609557：公开2026-11-28 02:28:58 UTC至d7757aff6e1ad7e6c789718e8002c9a8b5f85f6a；私库2026-11-28 02:29:03 UTC至5361ddfdf550278e0d4123ee1dacf5770d9943b5。四README与02:17已读版相同，QUEUE/认领未变。日志14895B/hashb597b050beaad49bbec46bfc1f09759f6773cb5269323b5b9ca056c50aa4a4eb；库存3169/44713334B/tree27ebb37b21465d53fdc9c8bcc9a7ec12c13450fe，无>5MB，三旧必要gzip不变。最新02:29 v13仍in_progress，02:30日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，未收到新数学终门。

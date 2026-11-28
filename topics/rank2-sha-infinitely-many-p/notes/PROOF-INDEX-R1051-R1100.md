@@ -179,3 +179,10 @@ R1060§§8–11由完整source h∞角色投影证明whole H=W²HΔ(ZW)，并将
 R1060§§12–13付原D102/S34 completion的真实微分tensor与全circle次序：两个实际h幂保全部r/s低角槽，再与inverse-Maass合成有限q/r/s表；冻结χW同时运输positive completion。共同[p]的pull completion为p^dC，degree completion为p²C，整gauge仍保，非单位p权不作解析化。原完整Newton定义逐系数给J_pull=p^ℓJ_orig（ℓ=0或−2），故只有已识别的真实[p]*S可运输原坏条件。whole cover另有准确p^-2次数差与ρhat=ρ/p²、βhat=p²β，严格全核盘改为rZ′+rW′>2/(p²−1)，不与finite Haar p^-2混用，也不预付边界/挠点平移或新字canonical零。
 
 [完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(39)–(48)。
+
+
+### R1060 §13.1：完整边界恰检测单位测度
+
+R1060§13.1给同一whole覆盖核临界闭盘的准确充要：Tate延拓当且仅当原bounded测度的整个单位部分为零。Legendre准确数字和及n=j+p^r子列迫全部Teich加权矩零，再由Mahler稠密性得整单位测度零；反向由支撑pZp的n阶估值支付。保真实cross Gaussian及原frame，不把一条Teich分量、负矩或canonical J′零冒整个单位测度零，也不把其它几何坐标的正则性冒同coherent边界。
+
+[完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(49)–(51)。
