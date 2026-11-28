@@ -213,3 +213,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:19:05 UTC — 27真实接受939ea为第二点；12d82仅开始
 
 同source1547e23955e6f776336030966b6e204fadaca9d0/PID3303/modelc62737，939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29已真实accepted=true，接受数2，自身Phi748.4181748571943/Gram.48764641101863465/reachg=.7001895470631601/distplus=.08419920553930238。当前K13.71345148705317、Dlower4.113210907457668、cell466/u.03376524289842403/phi1.4266021327336462/branch0；s未知。下一12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd在07:08:13.163844Z仅trial-start、alpha1，没有自己的Phi/Gram/几何；当前值不得贴给它。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`202fc5d91f806a5dd878fa8474d6bcf384a1e107`无变（非pull）。
+
+## 2026-11-28 07:19:15 UTC — 28真实接受e1476为第三点；a28ae自己的试点统计
+
+同sourceb1a8554a9d88dc176f7295eab4bed9f73f65e3f2/PID3331/model61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7，e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf已真实accepted=true，接受数3，Phi681.6470516175361/Gram.40616529581758637/reachg=.5235597907246015/distplus=.11392305204890485；六族/K/位置完整如下。下一a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf为alpha1，07:07:13.120587Z仅自己的Phi681.6450227773521/Gram.40616533555531326返回；其几何/接受/完整报告未返。这个坐标名和两统计与25原final相同，但模型/源码不同，不能继承25几何或接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`739092969d672b677efb7ffce9e2257baee10ac5`无变（非pull）。
