@@ -233,3 +233,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:36:40 UTC — 23官方取消及最后完整观察
 
 23官方completed/cancelled至07:32:27Z（research07:32:21Z），原因未知。末观察07:30:16Z保87c076 accepted2/g.9678293850088526、491dae拒/344a0b仅统计；科学final/typed未自然返。完整官方对象/原观察/旧规则槽保，不假排pure，继续31和R729。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`2e93cf0d8af80b774daf5e0b44ebdeaa6574f45b`无变（非pull）。
+
+## 2026-11-28 07:39:11 UTC — 31完整实际运行依赖与原三整步启动
+
+出版20个新完整运行体，连同已有3体为全23runtime/137角色；当前完整来源绑定74756B、完整方法证明53236B、完整参数binding35050B和原三步queue65162B/全157词458formal64live一并刊。新独立31 controller/request/workflow保360min/21000s及全部原预算/父历史；题外新增.github/workflows/visible-larger-20261128-parallel31.yml以普通push启动完整R728反号+按需求解。实际run/输入/场尚未观察；12份非运行再生/重复ready481099B整blob全保稍后刊，不假称全部39文件已main，也无运行依赖留缺。完整边界见[本次note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`729946b85afd066323b1404a02a6263d89520915`无变（非pull）。

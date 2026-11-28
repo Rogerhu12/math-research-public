@@ -126,7 +126,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 R724成对半波、R725固定b三片端层、R726球面端层、R727非急角全残差冠/全逆/C²接合完整证明保results；26/27/28/29各源物理边界分别保，不继承准确费用。
 [R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)及[完整seed4件](computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json)已刊：F±=C±Aw/六jet/全前缀/见证距离差/半径差，轴上任意正根平面性；真实w含高度项。全域distance/normal/Gram/K/reach/不全等仍未证。
-下一真实31用R728反号+完整按需。source26件1470462B、参数6件212466B、launch7件224306B完整保护待刊，whole manifest身份在H；全137/23、157/7、458/445/64live、5CLI/17external和原数值预算保。activeID与parent同为visible-larger-resume-20261128-31；三整步65162B，自然返后整pure46851B。准备与actual不混；30准备全保，不重复物理基线。
+[31完整执行启动](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)：本次全23runtime/137角色、完整原三步和全部参数已刊，activeID/parent同visible-larger-resume-20261128-31；三整步65162B、157/458/64live，自然返后整pure46851B。实际run/输入/场待观察；12份非运行再生/重复ready完整481099B整blob保待补刊，不冒三包全部39文件已main。30准备全保，不重复物理基线。
 [R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)接R683证明公共slack同号列的全行对偶紧level set、准确循环收敛及可行恢复/gap；实际25首QP只2advance且Pg远超tol，具体阻挡行未知。独立新求解源拟32，完整原QP/约束/外层screen保，新旧步计数分开，不改31。
 
 ### 准确后继及完成责任
