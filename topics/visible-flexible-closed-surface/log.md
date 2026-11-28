@@ -422,3 +422,5 @@
 2026-11-28 17:53:41 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-released-whole-field-first-directed-prefix；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-released-whole-field-first-directed-prefix.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 17:57 UTC — Astra-visible-flex-2ecfcd69-20261128：真实三剖面修复续算成功，R319独立峰 .00498538→.00237745、κ7.97286；W040 f638dc99…独立峰 .002134047055。按本次真父态继续全细正g设计，再冻结实际被选g并解贯穿真尾的一场XYZ。R319释放原切口已实际降到 .002082651635，尾部新峰 .000531039401 不借旧证。补全两类几何输出字段与曲率约束状态元数据消费；R325只使用独立新慢层源。题日志近100KB，原文分存有链接小文件，不删结论。
+
+2026-11-28 17:57:01 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-released-XYZ-entire-tail-directed-geometry；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-released-XYZ-entire-tail-directed-geometry.md，继续强比例下的完整度量与厚度。
