@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f7de5493f1d2ae1953a9030092809bcc3e1b2716**（2026-11-28T16:33:17.556558+00:00；本终端真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：75cf27eb8c911316365740986b92a715281ee8c6**（2026-11-28T16:46:06.435187+00:00；本终端真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 2026-11-28 14:37–16:22 UTC终端不可用期间，以公开Actions真实部分克隆/pull/rebase/push续写，完整回执在log。终端现已恢复；旧b0417d0保在原本地main，新分支从公开main续接，不重演已恢复结论。后续用终端git；数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
@@ -52,15 +52,17 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1193/R1195](results.md)原最高r=m为τ_m+PS_(m−1)整packet；负首中心η=T_L db/(uA_p)，T_L∈k[b³],deg<m−1，全部原λ/ρ/κ保留。完整有限角为各奇r的模p同余对乘积，另保二次St；pure型拼接恰im(U_r modp)、U_r=p e_cusp,r e_N，不能把packet单位传C。
 
-[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同P=(p−1)D0先整E_m投影后深m²−1，模π^(m²+1)的首列为原Picard核的m次Čech有限log；非约化Frob相容杀该层p-return。同q_C惯性交织保β；ψ^a全部gap已定，低a regular消去/全节点仍须运输。
+[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同P=(p−1)D0先整E_m投影后深m²−1，模π^(m²+1)的首列为原Picard核的m次Čech有限log；非约化Frob相容杀该层p-return。同q_C惯性交织保β；ψ^a全部gap及后继R1199的低a regular/全节点运输均已付。
 
 [R1197](results/R1197-original-highest-packet-complete-CM-coefficient-flag.md)原最高负packet的全部CM轮廓按从高到低准确等价于T_L(1)…T_L^(2g−2)(1)旗标，各对角为显示原单位；完整Dickson过滤付每层整角像一维，故低极部/全纯及高中心返回均处理。轮廓秩2g−1，核恰T=c(b³−1)^(2g−1)一维；未标为CM算术线，指定C/同β全图列及深盘仍开。
 
-[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
+[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary全部a≤m的G²有限log由同target晶体/opposite/周期ODE及Lagrange反演给出，θ/分支/低a交叉全保；第五/七槽及最高Q_p系数沿原文，后继全配对已由R1199–1201支付。
 
-[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。相位现由R1200定标，实际值及指定C整运输仍开。
+[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal的整角一维像及全部交叉配对已付，完整收缩消opposite；T*三个CM支含node/flux首层全零，全图值恰全SS和。其相位/全和已由R1200–1201支付，指定C仍须运输。
 
-[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ_s=B_s²、C_s²=γ²/B_s^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。原有限算子P_m保全部reference权，V(T*)=−mc₀νΣP_m(T*)(s)/(r_s^(2g+1)A′_s²)；μ3全和仅留λ₁=−6b/r。新run46164785591/job141039795948给p59/71/83的V/ν=43/13/54；λ₁简单极部有27/33/39个非零，逐点消失路线已否，保完整trace继续。见[有限读数](notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md)，不扩大扫描或升为全p。
+[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ=B²、C²=γ²/B^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。完整有理算子及μ3消λ₀保reference尺度。新[有限读数](notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md)已否SS逐点simple零路线，不扩大扫描；其全和现由R1201纸证。
+
+[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
 
 ## 已成、禁止重做与其它入口
 

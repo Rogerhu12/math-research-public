@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高packet的CM核完整首log单位（已证明）**：[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
+
 - **原规范Igusa–Weil相位与最高packet有理算子（已证明）**：[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ_s=B_s²、C_s²=γ²/B_s^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。原有限算子P_m保全部reference权，V(T*)=−mc₀νΣP_m(T*)(s)/(r_s^(2g+1)A′_s²)；μ3全和仅留λ₁=−6b/r。全和/简单极部尚未取值；公开Actions请求仅探新p59/71/83此functional，不重旧窗口。
 
 - **原Hahn半步分解与真实取消参数导数（已证明，R1194 §§9.7–9.9）**：[R1194 §§9.7–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)已付同原L的半步分解T₂T₁、短核/全格点核及全长Saalschütz空间导数单位；该导数未冒认谱导数。实际t_r=(2m−1)F_m′(0)/(24m)来自先终止后微分，Whipple后取消参数的调和余项完整保留；HC.34–35给同一个原w(-1/2)的加权导数/有限三角源。继续全部余项与边界到4D_N′(1)+(4/3)D_N(1)的实际箭头，指定双零仍未排。
