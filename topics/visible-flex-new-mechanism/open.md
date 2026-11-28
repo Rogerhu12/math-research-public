@@ -29,13 +29,15 @@
 
 真正宏观放大按[同E→R579核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)：现τ只消兼容缺口，P0,j2仍锁−3/85000，须新增真实j2或硬总trace并保同E/全隐式链。R579真周长2π(.85)、canonical方向和ball1.05/strip.37/reach.063只是条件预算；连接、全域支持、跨片reach及固定g精化未付。
 
-## O2b-C：B030先消费cc117正常段
+## O2b-C：B030真实d59fa与剩余8635峰
 
-run45930250772/job140280968908/sourcee553b6fb已于2026-11-27 03:26:05 UTC自然结束；原日志已取，正在解析。不能用completed/success代数学结论。
+[cc117原自然终态](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：run45930250772/job140280968908/sourcee553b6fb，2370.3419954749997秒，5metric+1restore、18J/1320块、48coarse/15fine/14完整localizer。真实d59fa5cf…在1672×3072及2467已闭峰上η.1966187824246114、物理V0。
 
-[入口范围](notes/2026-11-27-r566-native-cc117-normal-scope-agent.md)保准确cc117/g=.00011692915997574185、geometry phase、817coarse/1636fine/1829物理/334work及原metric签名H。旧已合格1630不移当前网；helper按原目标语义reset，原工作/物理/fine/峰/nested门不改。已闭2561峰和原已拒5e199不重播。完成真实末态解析后，按其真实phase/当前库/未闭工作接续。
+当前840coarse/1682fine/1882物理/380work，pending物理与working各1；g5.42723195661168e−5/e.010054272319566116有准确原记录，trust.45050811767578125/geometry，原trust后决策未做。H签名20757…已属于restoration，不借旧cc117输入的metric505f语义。
 
-本线静态设计g仍在变，不能与R618的target合并；[固定圆参考接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)要求全部源/mean/高度/轴/primitive一致，新δ/α/K须本场支付。
+末309b8dbc…未接受；原完整coarse/fine/nested已经付费，13100峰已闭4465、剩8635，原partial/末态/q/1682网/oracle吻合。下一仅继续8635、合并旧4465再按原门决定，不重闭峰；准确margin、pending、H与完整旧费用保持。相同geometry语义可用H，若恢复成功回metric按原helper重置，不冒完整workspace已保存。
+
+此线设计g仍在变，不与R618 target合并；[固定圆参考接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)要求全部源/mean/高度/轴/primitive一致，新δ/α/K须本场支付。
 
 ## O4：十九态真实dde0，消除目标失配
 

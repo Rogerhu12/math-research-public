@@ -477,3 +477,5 @@
 - [R618完整Fourier背景消去恒等式](notes/2026-11-28-r618-fourier-centered-implicit-derivatives.md)：准确零均值方向先消常数，完整离解mean/connection/pointwise导数均保持；[真实19519575后继](notes/2026-11-28-r618-centered-actual-response-scope.md)直接实际求解，连续误差仍独立。
 
 - [97q真实83b0与原369库继续](notes/2026-11-28-r582-actual83b0-original369-continuation.md)：保16256原fine与原四pending，6新中点须新资格；仅更新真实输入与完整成本，原求解/阶段门保持。
+
+- [B030 cc117→真实d59fa与剩余8635峰](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：6接受、峰后η.1966187824；末309b8 trial只闭4465/13100，保持pending/准确g/restoration H并只补余项。数值观察，未完成。
