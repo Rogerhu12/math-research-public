@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi图的整个f=u原值全排除](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)：新四完整QQ因子保全嵌入与Q/v重数，原N1/NS/PS全理想矩阵4×12、12×36、12×36、54×162逐项返回1；3.829887秒/0。合C17与整u2闭合，当前正确Phi/D非零可付f−u；B34/40与一般斜率仍开。
+
 - [R150：正确fu的整个u=2原值排除](results/R150-appendix-unit211-Phi-zero-true-fu-entire-u-two-original-low-unit-exclusion.md)：真odd与t单位迫t4，N0保Psi误差，完整Lowλ+4EBe=−2Q²/[(1−Q)(Q−2)]给原单位矛盾；新1ms/250整数乘/四身份。C17余1/2/3/9四整因子、≤45权对/360完整规范不同点。
 
 - [R150：正确Delta的全部Q纤维与1444三参数点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Q-fibers-1444-cover.md)：原Δ三系数若整零则u*=−2H/B且F=G=0，新8/8次QQ Bézout实际1；2ms/49乘/9整除，无额外首项逆。每个722基点至多2个Q，包含全降次纤维；z/Gram/Pf0仍开。

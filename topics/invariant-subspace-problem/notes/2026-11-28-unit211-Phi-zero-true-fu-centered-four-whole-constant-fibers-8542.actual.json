@@ -1,0 +1,219 @@
+{
+  "schema": "isp-true-fu-four-complete-QQ-fibers-original-unit-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "run_id": 46122658831,
+  "job_id": 140910328595,
+  "execution": {
+    "elapsed_seconds": 3.829886557000002,
+    "max_child_rss_kib": 43184,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "43a487c4e92ad89cffac108e1eb8c34c3c73d8ea",
+        "before": "717b58238c4174784ffa481b4e3506bc3cc6e99c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T07:45:38.974887+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46122658831",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "717b58238c4174784ffa481b4e3506bc3cc6e99c",
+    "source_exit_code": 0,
+    "source_git_blob": "92a13aee42a5bc7545a6520124b9b64943742e55",
+    "source_sha256": "1f88fcd42c37dd94c5477e6acdaad4eee091055ef36c1001f22bf442e4b2944a",
+    "stdout_bytes": 9591,
+    "stdout_sha256": "413569e67a50a1d020be11e76964f52fc5cd64388b3772b4486b9ad32190d581",
+    "stop_reason": null
+  },
+  "factors": [
+    {
+      "name": "linear_half",
+      "constant_degree": 1,
+      "Q_degree": 2,
+      "dimension": 4,
+      "matrix_shape": [
+        4,
+        12
+      ],
+      "rank": 4,
+      "quotient_dimension": 0,
+      "target_power": 0,
+      "target": "1",
+      "whole_factor_excluded": true,
+      "statistics": {
+        "QBezoutReturns": 15,
+        "QDivisionReturns": 21075,
+        "QQInverseCoordinates": 32,
+        "allOriginalColumnCoordinates": 48,
+        "constantInverses": 21100,
+        "constantReductions": 214764,
+        "originalValueRows": 3,
+        "targetCoordinates": 4,
+        "vProductReturns": 2087,
+        "weightInverses": 7,
+        "weightProductReturns": 12565
+      },
+      "selection": {
+        "N1_basis_columns": [
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "name": "quadratic",
+      "constant_degree": 2,
+      "Q_degree": 3,
+      "dimension": 12,
+      "matrix_shape": [
+        12,
+        36
+      ],
+      "rank": 12,
+      "quotient_dimension": 0,
+      "target_power": 0,
+      "target": "1",
+      "whole_factor_excluded": true,
+      "statistics": {
+        "QBezoutReturns": 14,
+        "QDivisionReturns": 21783,
+        "QQInverseCoordinates": 288,
+        "allOriginalColumnCoordinates": 432,
+        "constantInverses": 21807,
+        "constantReductions": 340575,
+        "originalValueRows": 3,
+        "targetCoordinates": 12,
+        "vProductReturns": 2111,
+        "weightInverses": 7,
+        "weightProductReturns": 12709
+      },
+      "selection": {
+        "N1_basis_columns": [
+          0,
+          11
+        ]
+      }
+    },
+    {
+      "name": "cubic",
+      "constant_degree": 3,
+      "Q_degree": 2,
+      "dimension": 12,
+      "matrix_shape": [
+        12,
+        36
+      ],
+      "rank": 12,
+      "quotient_dimension": 0,
+      "target_power": 0,
+      "target": "1",
+      "whole_factor_excluded": true,
+      "statistics": {
+        "QBezoutReturns": 15,
+        "QDivisionReturns": 21784,
+        "QQInverseCoordinates": 288,
+        "allOriginalColumnCoordinates": 432,
+        "constantInverses": 21809,
+        "constantReductions": 229875,
+        "originalValueRows": 3,
+        "targetCoordinates": 12,
+        "vProductReturns": 2111,
+        "weightInverses": 7,
+        "weightProductReturns": 12709
+      },
+      "selection": {
+        "N1_basis_columns": [
+          0,
+          11
+        ]
+      }
+    },
+    {
+      "name": "degree_nine",
+      "constant_degree": 9,
+      "Q_degree": 3,
+      "dimension": 54,
+      "matrix_shape": [
+        54,
+        162
+      ],
+      "rank": 54,
+      "quotient_dimension": 0,
+      "target_power": 0,
+      "target": "1",
+      "whole_factor_excluded": true,
+      "statistics": {
+        "QBezoutReturns": 14,
+        "QDivisionReturns": 23379,
+        "QQInverseCoordinates": 5832,
+        "allOriginalColumnCoordinates": 8748,
+        "constantInverses": 23403,
+        "constantReductions": 385446,
+        "originalValueRows": 3,
+        "targetCoordinates": 54,
+        "vProductReturns": 2237,
+        "weightInverses": 7,
+        "weightProductReturns": 13465
+      },
+      "selection": {
+        "N1_basis_columns": [
+          0,
+          44
+        ],
+        "NS_basis_columns": [
+          0,
+          8
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "linear_half",
+      "removed": [
+        {
+          "paidUnit": "delta",
+          "removedQDegree": 1
+        }
+      ],
+      "retained_Q_degree": 2
+    },
+    {
+      "name": "quadratic",
+      "removed": [],
+      "retained_Q_degree": 3
+    },
+    {
+      "name": "cubic",
+      "removed": [
+        {
+          "paidUnit": "Q",
+          "removedQDegree": 1
+        }
+      ],
+      "retained_Q_degree": 2
+    },
+    {
+      "name": "degree_nine",
+      "removed": [],
+      "retained_Q_degree": 3
+    }
+  ],
+  "mathematical_conclusion": "All four complete QQ constant fibers excluded; together with the published C17 original cover and whole u=2 exclusion, the entire f=u branch is empty on the current correct Phi=0, Dval!=0 original chart.",
+  "boundaries": {
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false,
+    "old_wrong_compact_chain_used": false,
+    "modular_inference": false,
+    "D_lambda_t_inverse_used": false,
+    "rerun": false,
+    "large_coefficient_payload_saved": false
+  }
+}
