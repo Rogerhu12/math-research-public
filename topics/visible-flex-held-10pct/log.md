@@ -132,3 +132,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:31 UTC｜Astra-held10-7c4e33ee-20261128：[26seed候选在真M24三段的实测成本](notes/2026-11-28-tail-cached-period13-m24-cost.md)为原fullJ的1.597985倍，峰67596KiB；13完整单向仅为成本输入，不声称实际M24 GMRES步数。原fullJ/state重放字节同，方向严格逐分量门仍未全过如实保留；当前无收益，优化停止并保持生产链原样，E原freshJ继续。
 
 - 2026-11-28 09:33 UTC｜Astra-held10-7c4e33ee-20261128：[近cut真实R58背景界](notes/2026-11-28-nearcut-true-background-bounds.md)实际512外向source盒，4完整相邻片严格覆盖[.3−literal.02,.3]；W<.109、W1<361、W2<3217025708（w_R连续的一侧/a.e.导数），40.602s。归一化原证明复用、未采样缓存替换，源分割准确无隙；完整报告d93273ca…，尚非实际尾重参metric证书。
+
+- 2026-11-28 09:36 UTC｜Astra-held10-7c4e33ee-20261128：[R75逆图背景差](results/R75-inverse-radius-background-only-tail-transfer.md)逐式复核完成，原证明/背景/kernel/reader全部SHA吻合；只在真实旧域J使用完整V，物理g拉回比单独支付，K坐标不变不额外放大。w_R一侧/a.e.界经连续分片绝对连续给Lipschitz；512盒真背景输入已付。尚待实际fullH完整旧尾证书/cut误差代入，无闭族接受。

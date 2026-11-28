@@ -1,0 +1,31 @@
+{
+  "status": "conditional_complete_tail_inverse_chart_transfer_proved",
+  "new_tail_certificate_executed": false,
+  "actual_tail_selected_by_this_note": false,
+  "actual_background_W_bounds_computed_by_this_note": false,
+  "all_tail_modes_and_cumulative_height_mean_preserved": true,
+  "third_derivative_of_tail_perturbation_required": false,
+  "domain_contract": "0 < Rc-d < c <= Rc; old complete certificate covers [Rc-d,c]; true background bounds cover [Rc-d,Rc]",
+  "background_regularity_contract": "w is C1; w_R is continuous and piecewise absolutely continuous on a finite partition; W2 bounds its one-sided or almost-everywhere derivative",
+  "normalization_contract": "1 <= E_min <= inf_K (1+w^2); principal curvatures of the true R58 background <= 8",
+  "placement_contract": "old and new placement use the same C, or add the known absolute translation gap to Q0 only",
+  "no_new_acceptance_or_closure_claim": true,
+  "source_bindings": [
+    {
+      "file": "notes/2026-11-28-analytic-nearcut-background-transfer.md",
+      "sha256": "35fe676e345c7bfb3105a8fee6bea03f5f2ef3f6ed82186cb650ecb9a7175b36"
+    },
+    {
+      "file": "scripts/resume_n4/certify_q060_shared_r_tail_batch.py",
+      "sha256": "c646bd4a918aa467212870d437718f22451903a0141242fa5ebf3166ba376aac"
+    },
+    {
+      "file": "scripts/resume_20261128/tail/actual_closed_map_v2.py",
+      "sha256": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5"
+    },
+    {
+      "file": "results/R58-q060-valley-background-height-and-curvature.md",
+      "sha256": "6c85383d7e1f84a7c498fd904b6ee443582fe8557e10ca973f776c06b59b8ed2"
+    }
+  ]
+}

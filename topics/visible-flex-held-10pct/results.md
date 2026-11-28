@@ -179,3 +179,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R74. R73 同一新图的连续度量界
 
 [完整证明](results/R74-same-new-cartesian-prefix-continuous-metric.md)。最终rep/完整真核lift/中心修补与R73十组定义数组逐位同；相同共同phase-chart，原固定轮廓/真桥及唯一R58目标修补。1467径向叶×1536扇区角格全覆盖，准确三重covariance覆盖全角/全相位；连续相对metric算子上界9.899331346061255e−7，精确有理核验小于99/100000000。完整三阶jet与R56径向Taylor/角插值余项均实际支付，无旧数字或mean替换；仍未附尾/cut、无λ1/完整闭族/同g精化完成声明。
+
+## R75. 逆半径图的背景差转移
+
+[定理及完整证明入口](results/R75-inverse-radius-background-only-tail-transfer.md)。对0<Rc−d<c≤Rc的实际旧完整尾证书，物理重参图在逆坐标中准确等于旧图加真实背景差，全部尾模式/均值保留且不需扰动三阶导数。给一、二jet、目标比、连续metric、实际主曲率及支持函数转移；背景W/W1/W2已真512盒支付。仍须实际完整尾证书和真实cut误差代入，不称闭族完成。
