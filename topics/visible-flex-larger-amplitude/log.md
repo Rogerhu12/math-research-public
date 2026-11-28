@@ -101,3 +101,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:14:09 UTC — RET75四旧固定场响应及派生读数完整退存
 
 [四完整件](computations/legacy-fixed-control-responses-retention-75-complete-delivery.json)159356B，保46本题/28外题完整源、20真实report-source等号、109全原输入/切向量及精确固定Git或既有whole gzip配方、四全resource/argv和所有真实消费者；只移q122 missing-two、q126 nine-control及完整core-budget/pair四旧generated报告286334B，净126978B。[完整说明](notes/2026-11-28-fixed-control-responses-retention-75.md)。原q122六列失败、exit130无wait4未知、merger首次失败和bridge后成功、缺旧half forcing均保；q126 3x3条件数不冒BVP条件，预算/配对仅原保存线性模型。28外源恢复真实922382，869仅旧source label；4752client缺口不以8274冒替，原finite response不调用worker。fixed-view p与accepted p各真身份保；活输入/唯一状态/source/config/计划/数组不删。恢复原whole report用固定693d9e3bf30f1822e735bf1aa15c3aca4838340b原路径，旧consumer先恢复。双README云核至`3e63024f9cc6207f74644984f37b469e29b41db5`无变（非pull）。
+
+## 2026-11-28 06:16:07 UTC — 29新Slerp模型完整初几何与首试统计真实返回
+
+29初7e06完整六族：distance_plus .1399812067124947为唯一正最大，reachg−.03483574522714061，K7.764559816020585/Dlower4.109115766390888/cell891/u.03376524289842403/phiπ/2/branch1/s2.2617758886350425。bc818首试alpha1仅Phi584.8125864670693/Gram.4179453237576573，几何/接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`d7842271194c9285c8eba2cd06185e8d7d5c5b6c`无变（非pull）。

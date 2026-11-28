@@ -574,3 +574,79 @@
   }
 ]
 ```
+
+## 2026-11-28 06:16:07 UTC — 29新Slerp模型完整初几何与首试统计真实返回
+
+初始完整几何已返回；distance_plus 是当前唯一正的六族全局最大值，reach代理为负。该有限采样结论不证明连续reach或等距。首试alpha1仍只有其自己的统计，未返回该trial几何，未接受。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-r726-bhalf-first-20261128",
+  "scientific_source_commit": "b0a08bf069a5d1ade7fbb94446940a6bd6ea4031",
+  "scientific_source_sha256": "36a7a0a286c7a983cdec7bc1ed19299c1ec57901df7d0daea707e20891e412c1",
+  "pid": 3641,
+  "observed_utc": "2026-11-28T06:13:42Z",
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "mathematical_observation": {
+    "math_at": "2026-11-28T06:05:00.271360+00:00",
+    "math_event": "trial-statistics-returned",
+    "math_driver": "58630a875941be3612947e724aa25d9556b903c5ee1c392ff79f8def974e2813",
+    "math_model": "d3d295815f0d81553c3aafadb5c009213d9b5ff5d16a33b664de13bf3e155207",
+    "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+    "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_Phi": 584.1837411149863,
+    "initial_Gram": 0.41789030951309936,
+    "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_violation": 0.1399812067124947,
+    "initial_geometry_complete": true,
+    "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_Phi": 584.1837411149863,
+    "current_Gram": 0.41789030951309936,
+    "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_violation": 0.1399812067124947,
+    "current_geometry_complete": true,
+    "current_state": "initial statistics returned; no accepted direction",
+    "trial_point": "bc818314e615936a46d485711daf1c0212f171118d2f3fc2f3af02a67656f74e",
+    "trial_Phi": 584.8125864670693,
+    "trial_Gram": 0.4179453237576573,
+    "trial_accepted": null,
+    "accepted_directions": 0,
+    "complete_report": false,
+    "stop_reason": null,
+    "observer_failures": 0,
+    "current_g_reach": -0.03483574522714061,
+    "current_g_body_diameter": -0.041897694562113896,
+    "current_g_distance_plus": 0.1399812067124947,
+    "current_g_distance_minus": -3.0936337267043594,
+    "current_g_cap_diameter": -0.06715131487906445,
+    "current_g_height_floor": -1.0411715967426867,
+    "current_K": 7.764559816020585,
+    "current_D_point_lower": 4.109115766390888,
+    "current_K_cell": 891,
+    "current_K_u": 0.03376524289842403,
+    "current_K_phi": 1.5707963267948966,
+    "current_K_branch": 1,
+    "current_K_s": 2.2617758886350425,
+    "trial_alpha": 1,
+    "trial_phase": "restoration",
+    "current_distance_plus_phi": 1.5707963267948966
+  }
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 54453,
+    "sha256": "e45300467d9831e18a101f391b1febc5772d1a58cdc4509c74522b896f4fc377",
+    "git_blob_sha": "40181e1584e7eb7cfcb2780917d271c47bb0aaa7",
+    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
