@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ9：原完整腰补的精确稀疏消元和迹类尾](results/R149-supplement-arithmetic-sparsification-and-trace-ideal-of-physical-waist.md)：原J=2^4608内同时safe块收缩<1/4、逆4/3，保留rank<2^1126；真实二次无理数可精确Euclidean寻址，无频率大数组。原高尾homogeneous核迹<2^-27、coupled在明确A+门下<2^-26；完整低块/物理列/Θ/mean/world及full determinant仍待。
+
 - [WSS：全径向同一selected两列有符号普通源首入口](results/R149-supplement-whole-signed-selected-both-ordinary-sources.md)：完整[0,25/8]两列577有符号系数含真compact的Kν/Jν/ΔK及两mean、全部7721/6144原单侧片与根两端；只首算whole carrier和3真实窗口的signed polarization两个新目标。19current和原184/32/40parts全身份、原CPU/native SHA及当前规则门保；尚无actual，不赋全BVP或新范数。
 
 - [PWAH96R：真实高度接续的整父链接收](results/R149-supplement-PWA-height-phase-admission-of-the-whole728-successor.md)：PWA原全部7目标和完整math/3套validator保；只在新H96全成功、真实source/manifest/run/consumed、原载体和父terminal链全过后造入口。当前prepare真实ready=false；不冒充原run成功，不重算原PWA目标。

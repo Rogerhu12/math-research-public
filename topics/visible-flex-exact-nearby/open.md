@@ -243,3 +243,6 @@ PWAH96R：PWA原全部7目标和完整math/3套validator保；只在新H96全成
 
 
 WSS：完整[0,25/8]两列577有符号系数含真compact的Kν/Jν/ΔK及两mean、全部7721/6144原单侧片与根两端；只首算whole carrier和3真实窗口的signed polarization两个新目标。19current和原184/32/40parts全身份、原CPU/native SHA及当前规则门保；尚无actual，不赋全BVP或新范数。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ9：原J=2^4608内同时safe块收缩<1/4、逆4/3，保留rank<2^1126；真实二次无理数可精确Euclidean寻址，无频率大数组。原高尾homogeneous核迹<2^-27、coupled在明确A+门下<2^-26；完整低块/物理列/Θ/mean/world及full determinant仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
