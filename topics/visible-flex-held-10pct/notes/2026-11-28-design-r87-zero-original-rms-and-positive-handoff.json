@@ -1,0 +1,367 @@
+{
+  "kind": "actual_original_R87_lambda_zero_mesh_residual_and_explicit_handoff",
+  "original_full_residual_report": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-812-892-original-residuals-20261128/residuals.json",
+  "original_full_residual_report_sha256": "7c09ad9897debc416459d7290fa845ce92ee69a4c4825cb97b5eef9b599b4527",
+  "actual_full_residuals": {
+    "kind": "actual_original_unaccepted_full_residual_observations",
+    "scope": "Read original full RMS/BC on genuine saved unaccepted nodal checkpoints.\n\nNo Jacobian, Newton step, BVP solve or metric acceptance is performed. The\noriginal collocation/Hermite/off-midpoint RMS formulas are evaluated once per\nexplicit existing checkpoint. This resolves hidden buffered mesh diagnostics\nwithout changing or interrupting the live numerical process.\n",
+    "actual_command": [
+      "topics/visible-flex-held-10pct/scripts/resume_20261128/design/read_unaccepted_design_residuals.py",
+      "--repo",
+      "/workspace/scratch/7c4e33ee17de/math-research-public",
+      "--source-run",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-analytic-support/run.json",
+      "--checkpoint-ordinal",
+      "1",
+      "2",
+      "--rhs-block",
+      "16",
+      "--outdir",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-812-892-original-residuals-20261128"
+    ],
+    "source_run_observed": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-analytic-support/run.json",
+    "source_run_snapshot_sha256": "2ad09c5b631da17f50bddb7c354d49ec1e485296ebbbc06db6621269f70e9eb4",
+    "source_journal_observed": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-analytic-support/nodal-checkpoints.jsonl",
+    "source_journal_snapshot_sha256": "c5e747fff1c62433d292bc7e4af6dcc068d2989e04efeb8895ee0f815450dd32",
+    "checkpoint_ordinals": [
+      1,
+      2
+    ],
+    "observations": [
+      {
+        "checkpoint": {
+          "kind": "unaccepted_complete_nodal_restart",
+          "file": "unaccepted-nodal-before-jac-0001.npz",
+          "sha256": "45cbb0b40ef7ee721aa5be9d0818660321dea2487a0eb8c81fe4186b4b2e7126",
+          "nodes": 812,
+          "state_components": 25,
+          "parameters": 8,
+          "mesh_min_spacing": 3.472222222217214e-05,
+          "before_full_J_assembly": true,
+          "accepted_bvp": false,
+          "original_source_hashes": {
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/unaccepted-nodal-before-jac-0010.npz": "a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json": "c11495a40741c25b8272d4e0f07af952d67e92452fa003eee35a2f7f62264b35",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-port8-20261128/port.json": "2936d369ab1f97d792cf2552d05307c3eadff24d5d82f748797a9cd55ded4575"
+          },
+          "checkpoint_ordinal": 1
+        },
+        "checkpoint_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-analytic-support/unaccepted-nodal-before-jac-0001.npz",
+        "original_nodal_midpoint_and_RMS_sample_domains_passed": true,
+        "nodes": 812,
+        "delta": 0.06809573171284733,
+        "maximum_RMS": 5.431408116124505e-07,
+        "maximum_RMS_interval_index": 411,
+        "maximum_RMS_interval": [
+          0.30083333333333334,
+          0.3008854166666667
+        ],
+        "original_tol": 2e-07,
+        "intervals_above_original_tol": 80,
+        "maximum_collocation_residual": 4.556924796002542e-11,
+        "maximum_normalized_BC": 7.261613038863299e-15,
+        "maximum_original_physical_terminal_BC": 1.45232260777266e-16,
+        "original_bc_tol": 1e-07,
+        "original_physical_bc_tol": 2e-09,
+        "accepted_BVP_claimed": false,
+        "metric_audit_performed": false
+      },
+      {
+        "checkpoint": {
+          "kind": "unaccepted_complete_nodal_restart",
+          "file": "unaccepted-nodal-before-jac-0002.npz",
+          "sha256": "8a19268f36e1c00b14571095d60bfe48870f29f0e8af94ebbe156690080c0cd1",
+          "nodes": 892,
+          "state_components": 25,
+          "parameters": 8,
+          "mesh_min_spacing": 1.7361111111058314e-05,
+          "before_full_J_assembly": true,
+          "accepted_bvp": false,
+          "original_source_hashes": {
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/unaccepted-nodal-before-jac-0010.npz": "a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json": "c11495a40741c25b8272d4e0f07af952d67e92452fa003eee35a2f7f62264b35",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+            "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-port8-20261128/port.json": "2936d369ab1f97d792cf2552d05307c3eadff24d5d82f748797a9cd55ded4575"
+          },
+          "checkpoint_ordinal": 2
+        },
+        "checkpoint_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-analytic-support/unaccepted-nodal-before-jac-0002.npz",
+        "original_nodal_midpoint_and_RMS_sample_domains_passed": true,
+        "nodes": 892,
+        "delta": 0.06809573171284733,
+        "maximum_RMS": 5.515271586743775e-07,
+        "maximum_RMS_interval_index": 472,
+        "maximum_RMS_interval": [
+          0.30083333333333334,
+          0.30085937500000004
+        ],
+        "original_tol": 2e-07,
+        "intervals_above_original_tol": 157,
+        "maximum_collocation_residual": 2.711945937456696e-11,
+        "maximum_normalized_BC": 7.261613038925338e-15,
+        "maximum_original_physical_terminal_BC": 1.4523226077850677e-16,
+        "original_bc_tol": 1e-07,
+        "original_physical_bc_tol": 2e-09,
+        "accepted_BVP_claimed": false,
+        "metric_audit_performed": false,
+        "change_from_previous_observation": {
+          "previous_nodes": 812,
+          "shared_exact_nodes": 812,
+          "all_previous_nodes_retained": true,
+          "shared_Y_maximum_change": 2.0679515313825692e-25,
+          "all_parameters_bitwise_equal": true
+        }
+      }
+    ],
+    "source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/read_unaccepted_design_residuals.py": "b02bfd997d0f293009d11c3ba9c0e5ddb1e1f9c3fcabfb8b45624f8fffab9889",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes_v2.py": "e2f40bb254913f5731dd3ab7a792a2442bfaf857f538a9918f5e4e4556e37fce",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    "original_definition_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-port8-20261128/port.json": "2936d369ab1f97d792cf2552d05307c3eadff24d5d82f748797a9cd55ded4575",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/unaccepted-nodal-before-jac-0010.npz": "a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json": "c11495a40741c25b8272d4e0f07af952d67e92452fa003eee35a2f7f62264b35",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431"
+    },
+    "original_model_branch": {
+      "core_factory_has_jet_parameter_derivatives": false,
+      "original_analytic_core_parameter_install_called": false,
+      "live_V5_delta_install_called": false,
+      "actual_original_branch": "original full finite-difference parameter fallback",
+      "no_missing_factory_attribute_fabricated": true
+    },
+    "original_RHS_block": 16,
+    "actual_radial_batch_statistics": {
+      "rhs_calls": 8,
+      "jacobian_calls": 0,
+      "rhs_blocks": 428,
+      "jacobian_blocks": 0,
+      "collections": 428,
+      "collected_objects": 49,
+      "collection_seconds": 9.268167017004998,
+      "exception_blocks": 0,
+      "exception_types": {},
+      "maximum_rss_kib": 72944,
+      "successful_and_exceptional_short_calls_collected": true,
+      "live_caches_cleared": false,
+      "original_exceptions_suppressed": false,
+      "original_numerical_calls_or_arithmetic_changed": false
+    },
+    "actual_fourier_cache_statistics": {
+      "hits": 0,
+      "misses": 0,
+      "key_seconds": 0.0,
+      "build_seconds": 0.0,
+      "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+      "full_basis_and_frequency_bytes_bound": true,
+      "live_flow_or_physical_response_cached": false,
+      "shared_diagnostic_dictionary": false
+    },
+    "seconds": 14.377088189999995,
+    "maximum_RSS_KiB": 72944,
+    "live_process_or_source_changed": false,
+    "Jacobian_assembled": false,
+    "Newton_or_BVP_solver_invoked": false,
+    "metric_gate_or_accepted_BVP_claimed": false
+  },
+  "actual_probe_tool_exit_code": 0,
+  "actual_probe_tool_session": 92245,
+  "owner_request_record": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-to-positive-handoff-20261128/request-record.json",
+  "owner_request_record_sha256": "148b67ffcdc5999890392fd38d553d56ce948c47b92c2020ba074bee22e0ba55",
+  "actual_owner_join_record": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-to-positive-handoff-20261128/actual-joined-record.json",
+  "actual_owner_join_record_sha256": "0be6eb45de68c1fd631ab9e7d191095bb00d4b9cc686f2444fdfae8fec1ea884",
+  "actual_owner_join": {
+    "event": "actual_original_command_joined",
+    "utc": "2026-11-28T18:21:38.039623+00:00",
+    "seconds": 789.7279142419998,
+    "actual_returncode": -15,
+    "owned_session_cleanup": {
+      "leader": {
+        "pid": 5,
+        "state": "R",
+        "ppid": 2,
+        "pgid": 5,
+        "sid": 5,
+        "start_ticks": 362991,
+        "uid": 1000
+      },
+      "returncode": -15,
+      "initial_live_members": 1,
+      "remaining_live_members": 0,
+      "signals": [
+        {
+          "signal": 18,
+          "live_members_observed": 1,
+          "other_group_pidfds_signalled": 0
+        },
+        {
+          "signal": 15,
+          "live_members_observed": 1,
+          "other_group_pidfds_signalled": 0
+        }
+      ],
+      "leader_observed_with_WNOWAIT": true,
+      "leader_reaped_only_after_session_cleanup": true,
+      "all_signals_bound_to_original_owned_session": true
+    },
+    "explicit_termination_request": {
+      "scope": "held10-owned-original-command-control-v1",
+      "outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-analytic-support-observer",
+      "nonce": "R87-strict-lambda000-analytic-support-20261128",
+      "action": "terminate_owned_command",
+      "reason": "Explicit numerical-method/input handoff after original 812/892 full RMS diagnostic: refinement preserved parameters and did not reduce RMS. Preserve the latest genuine complete unaccepted nodal state and continue a small positive lambda with unchanged gates; not a mathematical failure."
+    },
+    "observer_exit_code": 4,
+    "actual_owner_cleanup_return_observed": true,
+    "observer_limits_after_join": {
+      "pid": 2,
+      "cgroup": {
+        "text": "0::/\n"
+      },
+      "actual_cgroup_mounts": [],
+      "mountinfo_read_error": {},
+      "limits": {
+        "text": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n"
+      },
+      "memory_files": {
+        "/sys/fs/cgroup/memory.max": {
+          "access_path": "/sys/fs/cgroup/memory.max",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max'"
+        },
+        "/sys/fs/cgroup/memory.high": {
+          "access_path": "/sys/fs/cgroup/memory.high",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.high'"
+        },
+        "/sys/fs/cgroup/memory.current": {
+          "access_path": "/sys/fs/cgroup/memory.current",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.current'"
+        },
+        "/sys/fs/cgroup/memory.peak": {
+          "access_path": "/sys/fs/cgroup/memory.peak",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.peak'"
+        },
+        "/sys/fs/cgroup/memory.events": {
+          "access_path": "/sys/fs/cgroup/memory.events",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.events'"
+        },
+        "/sys/fs/cgroup/memory.events.local": {
+          "access_path": "/sys/fs/cgroup/memory.events.local",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.events.local'"
+        },
+        "/sys/fs/cgroup/memory.swap.max": {
+          "access_path": "/sys/fs/cgroup/memory.swap.max",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.max'"
+        },
+        "/sys/fs/cgroup/memory.swap.current": {
+          "access_path": "/sys/fs/cgroup/memory.swap.current",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.current'"
+        },
+        "/sys/fs/cgroup/memory.limit_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.limit_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.limit_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.soft_limit_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.soft_limit_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.soft_limit_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.usage_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.usage_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.usage_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.max_usage_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.max_usage_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max_usage_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.failcnt": {
+          "access_path": "/sys/fs/cgroup/memory.failcnt",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.failcnt'"
+        },
+        "/sys/fs/cgroup/memory.oom_control": {
+          "access_path": "/sys/fs/cgroup/memory.oom_control",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.oom_control'"
+        }
+      },
+      "no_readable_cgroup_is_not_an_unlimited_memory_claim": true,
+      "limits_or_cgroup_changed": false
+    },
+    "kernel_joined_children_maxRSS_KiB": 141428,
+    "kernel_joined_children_user_seconds": 360.264574,
+    "kernel_joined_children_system_seconds": 3.990517,
+    "maximum_sampled_single_process_RSS_bytes": 145420288,
+    "one_numerical_leader_launched": true,
+    "mathematical_failure_inferred": false
+  },
+  "latest_retained_complete_unaccepted_nodal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-to-positive-handoff-20261128/unaccepted-nodal-before-jac-0003.npz",
+    "sha256": "384822c06b9f6e8b8ca5ab71ba68a028bcdf47d9fe9604544eaba55b1d2156a3",
+    "nodes": 1049,
+    "state_components": 25,
+    "parameters": 8
+  },
+  "interpretation": "The observed 812-to-892 refinement did not reduce maximum original RMS; shared original nodes and parameters were essentially unchanged. This supports changing the continuation input, not a theorem of nonexistence or an original solver terminal failure.",
+  "maximum_RMS_component_not_saved": true,
+  "Jacobian_or_Newton_solve_in_probe": false,
+  "next_actual_BVP_not_yet_started": true,
+  "mathematical_failure_inferred": false,
+  "accepted_BVP_claimed": false
+}
