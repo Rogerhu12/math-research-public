@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-weighted-omega-square-curve-2275-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Phi-five-generator-commutator-input-2280-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088与U0另3保；六ray/内部u闭，e,k,u单位�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-正确Phi全权10/每权≤9、QQ45/u5、F*=−QdetM1、同σ16/C10、第二头4×28与小λ3×6保；旧σ5/6头10/19未付门不重放。B2∩ell3/2已由c8e84真6.470644042秒/0整四次域/原u二次/真t²中128原列及三mean返1全闭，只B2付3−2ell。新[全第二头显示头单位及五生成原代数](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-global-four-head-unit-and-five-generator-algebra.md)从真Gram推N♯=NV+2fE2；xE2top/zE2top/E3top/NVtop矩阵det准确2P02mδ(3−2ell)，包括J0且不倒J。四完整三次降到≤2后只用E2末消σ²，五生成1,λ,σ,λ²,λσ；原生成映射付两monic5、真t²延拓十生成。保全权/重数/同点原条件，不假自由，不把D局部化后的模称有限。继续此小商完整原值；第一头/两Q资源冻结范围不变。
+正确Phi全权10/每权≤9、QQ45/u5、F*=−QdetM1、同σ16/C10、第二头4×28/小λ3×6保，旧σ5/6头10/19未付不重放。B2∩ell3/2全闭，只B2付3−2ell；完整N♯/四原头det=2P02mδ(3−2ell)包括J0，给五生成1,λ,σ,λ²,λσ及真t²十生成，不假free或D局部化模有限。新[d2de/3a4五生成完整原交换差](notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-five-generator-original-commutator-weight-support-8542-input.md)首次120秒/1GiB，十作用/五交换差/每DAG列都返E2/E3/NV；预定p1009,(u,Q)=(2,2)只挑真实五列，若满秩以整列B和普遍adj定义非零纯权detB支持，不展开QQdet、不换点/重gcd，保全部detB零纤维，未称全第二头空。第一头及两Q冻结范围保。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
