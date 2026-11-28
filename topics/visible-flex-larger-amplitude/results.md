@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R763（已证明：末圈定量障碍与共有边界的完整释放）**：[真实末rim度量/测地曲率与自由二jet](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)及[两整帽实际基线](scripts/resume_20261126/r763_translated_caps_and_shared_rim.py)给43三个成对启动最后相位在原角控制范围内不可由内部/pose消除的周向相对误差>.72。新两整帽刚移基线在四缝全g准确，所有相位每根对应弦<.95<L，仍不冒嵌入等距卷存在。开发整帽的法向延伸全谱误差<1.31e−7但非精化零极限。两卷/两帽整圈共用A,B,C三个三向二jet，后继44实际求完整全g与几何。
+
 - **R761（已证明：同初g的新完整厚形变与有限刚体商差）**：[全法管、真正帽材料流与体积证据](results/R761-paired-track-global-tube-and-positive-volume-gap.md)及[完整物理六jet](scripts/resume_20261126/r761_paired_tube_safe_nonflat_caps.py)用平面反向法线对排除、两整roll法偏移单射和两完整帽图degree-one投影，证明全相reach≥.106/D<3.50。命名.78/j2有固定grip≥.72、整初像held>.739；实际围体积差>.156与全管给含反射δE>.004。整个中央和两roll的vv/sv同g，负胞ss及全帽g仍未付；该严格几何属于规定完整场，不外借到自由优化点。
 
 - **R760（已证明的新初厚度与完整实际启动）**：[Cartesian初帽/较缓返回墙证明](results/R760-cartesian-cap-join-initial-global-reach-and-exact-active-ends.md)把原尖初帽换成真实新固定g，初全reach≥.132/D<4.01/grip≥1.40，基线held>1.09，两活动整卷与曲领全相精确同g且局部曲率有界；整个中环与全相reach仍欠。[四完整原预算拟合](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)加入真SE3内冠、全部24²初路径和30个局部三向模式，固定十源/三层七相+六中相，实际待返。
