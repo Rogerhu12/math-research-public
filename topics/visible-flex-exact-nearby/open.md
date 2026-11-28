@@ -1,6 +1,6 @@
 # 待解：同一个精确闭等距族的剩余实际接口
 
-更新2026-11-27（台北）。**总任务未完成，持续工作，不等用户。**
+更新2026-11-28（台北）。**总任务未完成，持续工作，不等用户。**
 本页及H全部递归前页见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45/40345/35475095；其内逐字保存共同sign补正、ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef及全部既有原球/域/单位/mean/失败/lost/恢复和未付义务。压缩仅索引，旧成功禁止重算。
 
 ## 1. 总验收与同一个对象
@@ -151,13 +151,13 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 - TCXV45928452441/1已结束：2677/7724完整cells、连续1605，原三片游标1605/3788/6000。新[TC2677入口](notes/2026-11-28-TC-complete2677-union-continuation.md)原owner/math完全不变，只续5047缺格；旧2677/matrix/waist不重，negative/positive96仍待。
 - UDRC21 45933303391/1于04:18:42全21成功，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)给原Θ96square逆<12.588、lowerror≈.316981860、ρ≈.799597509<1。TQ实际坐标同构/kerΘ图可用，完整high反馈PKE96T^-1ΘP保，非physical/fullSchur。ASR/IR/OT whole/巨旧误差不删、不重科学。
 - [DBRA](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)：DWTB9 45935081577/1于04:35:55全9成，e_w∞≈.347099250/e_w2≈.064636867，whole row eR≈.857445102，宽误差完整保。BNC45941963989/1恢复index路径失败、0新目标；[新native-paths入口](notes/2026-11-28-BNC-native-path-recovery.md)仅修原文件定位，原7目标/四whole父均保；全G/a相位及joint/alias/quadrature/composition费不删，PO配对不冒完整Θ列。
-- [BGR](results/R149-supplement-complete-target-B-trial-Gram-and-joint-row-error.md)给同一96×192完整trial的新9216-entry signed Gram、完整operator upper及新w∞产品/whole row error；原DBRA HS与BNC在跑7目标不改。[BGR3首实际入口](notes/2026-11-28-BGR-first-actual-entry.md)已齐，待新run完整输出；BNC完成后只复制全部96centers/四旧费，另形成新rowfee和whole candidate，禁止重配对或从旧upper相减。[BFP](results/R147-supplement-complete-target-normalized-nu-forward-column-by-pullback.md)另给全512 forward/2560输出、全圆pullback residual与真正Θν列，19新目标未actual；BNC低96不补零高频。
+- [BGR](results/R149-supplement-complete-target-B-trial-Gram-and-joint-row-error.md)给同一96×192完整trial的新9216-entry signed Gram、完整operator upper及新w∞产品/whole row error；原DBRA HS与BNC在跑7目标不改。[BGR3首实际入口](notes/2026-11-28-BGR-first-actual-entry.md)唯一run46117818798/1已启动，待完整输出；BNC完成后只复制全部96centers/四旧费，另形成新rowfee和whole candidate，禁止重配对或从旧upper相减。[BFP](results/R147-supplement-complete-target-normalized-nu-forward-column-by-pullback.md)另给全512 forward/2560输出、全圆pullback residual与真正Θν列，19新目标未actual；BNC低96不补零高频。
 - NP/NH/PO/APA/ASB/PHI whole锁；APHI只strict particular，PP/CP保regular补偿/mean/E′a。P96全6成，AP96 joint96radius<.000227442、首signed(.0028306,.0029694)，true_PDE_corrected_columns=false，非真96solution phase。
 - RHI45933988440/1于04:21:04全4成，[ARHI](results/R147-supplement-actual-complete-relative-parameter-frame-and-position.md)的whole18carrier/2847cells与true error齐；position均值第一负/第三正，u2真符号未成，relative I/0不当world锚。RRM完整原弱窗两mean、WMR全J y+δJx/原detQ=−1、WRC全reference高度及94000/6650/3000/8850 receiver已成。WMR4首45941738781/1真实prechild失败保；角色续45942597362/1四目标已成功，[AWH](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)给完整reference高度ν列[-.0253702,-.0252298]及actual锚预算.031082487a0+.006877446p0。独立varying端口P_b、实际cap匹配与全Schur仍待；旧四目标不重算。
 
 真实tail C1和全部高阶范围见第6节/H/results。[HL](results/R144-supplement-complete-L2-parameter-forcing-and-actual-second-seed-response.md)真L² forcing已成（全seed94/principal/三径mean），同source20..2898的2^-48000000/r，joint γA0/wE2960。[HLP](results/R144-supplement-complete-physical-readouts-for-L2-parameter-directions.md)已转完整partialγ scalar/vector真L²列；[SHL](results/R119-supplement-L2-response-of-the-actual-selected-tail-and-physical-readouts.md)现已完成同一实际选解L²→E20/高1164及fBH23响应，闭域uniform relativeL²余项、H8193方向operator的baseL²连续，未授L²operator连续；actual physical scalar/vector globalC²响应亦成，逐base余项/原H8193 C1。SCAP实际M(γ,fBγ)/完整97反馈已成见第4节，H_C0全无限像不截。真low/high/core、NG、所有matching/world与最终fixedmetric几何仍按第1–7节完整推进。
 
-环境失联后按根规8仅小文本GitHub集成，每次最新main核两README，非force拒旧父即重base；私库进行中/readSHA见H。第6批metadata45940225760/c92c87d9仅新128无引用旧JSON空白，真实net736134B，科学0。
+本会话终端已可用，按根规8 git提交推送；每次pull核两README，拒推即rebase循环；私库进行中/readSHA见H。META8新128无引用旧JSON仅删字符串外空白，完整receipt 69502B/00044d5d…，净释放753508B、科学0，前7批账保旧H。
 
 
 [CW实际cap锚](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已补RA→L→b：b端a0<.002235/a1<.015072/b1<.04748/p0<.004288；actual GW角向式保raw E/P缺陷，未由C0硬推C1。原弱窗新系数94600/6693/3024/8907。固定整个exterior的NP particular真实Kb=Yb=0，高度列(-.02547,-.02513)、逆<40；general varying端口、真实L曲率match、完整finite/high/ν Schur仍待，[CG](results/R133-supplement-actual-cap-in-final-geometry-C0-ball.md)现已由同一实际M方程得全cap pair sup<9.9309e-5<1e-4；final几何的cap状态球已付，未知core入M域、真实matching和core球仍待。原ACT/RA/CW证明及先前完整H保留。

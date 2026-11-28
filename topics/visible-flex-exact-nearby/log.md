@@ -219,3 +219,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 06:41 UTC — visible-exact-astra-b0d5a16-20261128：BGR3首次实际入口185current/51history、75836B/0205e488…；完整236输入非科学准入通过，只新算signed96×96 Gram/新∞产品/整rowerror，旧DWTB9/BNC/BFP目标不重。新增.github/workflows/fourfold-codazzi-target-B-Gram-public.yml及独立consumed marker，actual值待真实run；CW已ec82e05a1推送。
 
 2026-11-28 06:44 UTC — visible-exact-astra-b0d5a16-20261128：CG对同一已存在M cap从完整原固定点预算推出t<2.684e-6，mean-separated Wiener primitive/真逆角加已知参考导数得moving37t+repair<9.9309e-5<1e-4。七新有理组合一次通过，最终几何cap状态球已支付；未借此授unknown core准入/存在或matching。BGR3已a0a130784首次实际入口推送，旧目标不重。
+
+2026-11-28 06:54 UTC — visible-exact-astra-b0d5a16-20261128：META8选全新128个完整无引用legacy manifest，只删JSON字符串外ASCII空白；字符串/数值literal/次序及完整原件260ee6ac3全部保。gross823010B、完整receipt69502B/00044d5d95f6bd7000ad5a89837055082351caaef6d35b7ae3a8ade9ac27ed68，net753508B。新增引用扫描含当前未提交源和Markdown，pull后逐次重核；旧科学0。BGR唯一run46117818798/1已06:42:04实际启动。
