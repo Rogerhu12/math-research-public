@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-uniform-median-polarization-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-corrected-Delta-722-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四原NP核保，旧848/578/整Δ0撤回。真t0付t/z、S0三源核付S；[新整对称u1](results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md)6516真.516968秒/0，NV斜率零完整排除，5/4阶Q投影给65/49次QQ单位，付准确对称归一u−1。不借p1旧u1/D非零图；dc888180秒两个目标无完整返整门冻，整个Δ0仍保。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保，旧848/578撤回。真t0/S0/对称u1闭付t/z、S、u−1；[正确Δ0新722界](results/R150-appendix-unit211-h-equals-k-corrected-Delta-zero-722-base-cover.md)用真F61-Q结式核(110,14)与独立P(28,3)实际gcd1，固定17阶u矩阵计含首项退化的全部(λ,u)基点。4e80真1.158841秒/0；只在ABQδPf bcP02非零图，全Q/Gram纤维及Pf0保留。dc888两个z目标180秒无返整门冻；不借旧错误M或D非零图。
 
 ### W：全原均值、H198两生成图与完整值条件
 
