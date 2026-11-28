@@ -632,3 +632,22 @@ run46090913581/1的原science c6517a030888df2bf0ca51efade67b7693102785/launcher6
   "observed_utc": "2026-11-28T01:25:18Z"
 }
 ```
+
+## 2026-11-28 02:00:28 UTC — 22首个观测试点统计返回，几何与接受仍未知
+
+同一真实科学子进程 c6517a030888df2bf0ca51efade67b7693102785 / launcher 6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c / PID3541，driver095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec，model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef。首观测试点97fbb982b31c713cc71b8cb0d44f255127380185bcfb68be53e29dd19d9b579c在2026-11-28T01:43:47.960927+00:00实际返回Phi681.6511710299278及max_relative_gram0.4061652579029476。截至原索引01:50:33Z，trial geometry、trial_accepted与last_completed_trial均未返，原缺值TypeError照实保完整索引；不得从统计下降推接受。current仍初7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、Phi681.6517423825409、Gram.40616525311769985、g.5305849371949052、accepted0；原六族不变，complete_report=false、child_exit_code=null。normal进度01:50:31仍在该试点、cached_angle_roots513/closure_original_returns29014/logical_failures0；这些计数不付准确费用或连续根存在。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+    "bytes": 49478,
+    "sha256": "e9932381ed55a117ae442647956d699079f62ebd1ba8f393808d86f75d5b83f0",
+    "git_blob_sha": "f14788b54aef868f6a9d7186bc9ebf1163520d89",
+    "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

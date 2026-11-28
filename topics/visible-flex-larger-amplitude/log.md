@@ -246,3 +246,7 @@ HANDOFF及open仅当前§7重新编排，完整旧版固定a5e459d4afc7d52804f25
 ## 2026-11-28 01:50:35 UTC — 半波下一单宽度对照及符号反转的真实边界
 
 启发式选择half b5/8、δ1/32，完整137源/g/预算保；引用R721/R724的端层4/5、中间长度2/3及中央3λnew/(2λ22)竞争，不重复登记旧证明，不声称whole reach/距离改善。完整源读出distance_plus为固定见证距离约束，符号反转位置/距离恒等式不代未标记E3排除或32stage结果。完整14958B说明已刊，24全参数在备、实际未跑。H/open当前重复状态收紧，原逐值完整note及e1bf旧open保、§1–6不动。双README云核至`497cedc094f4a5c78e9c43027bc487c6a23a73d7`无变（非pull）。
+
+## 2026-11-28 02:00:28 UTC — 22首个观测试点统计返回，几何与接受仍未知
+
+22首97fbb实际统计01:43:47.960927返Phi681.6511710299278/Gram.4061652579029476；01:50:33原索引尚无trial几何/决定，current仍初7e06/accepted0/原六族，report未自然返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`d86fa31c26dea3110eaa91a9fec4941ab90f6edf`无变（非pull）。
