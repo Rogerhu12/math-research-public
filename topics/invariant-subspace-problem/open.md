@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-full-t-Vlow-octics-1910-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-D2-hk-ellhalf-1915-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整个正确h=k/Δ0终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)已刊：eb63f唯一2.70292276秒/0，经已成u/Q唯一约化、p1009两首个整模型点及倒z首一3/真E1九原Bézout1，有限DVR模/Nakayama排K99/K300所有复嵌入；合C1/C2/C4幂次提升及CRT闭当前整个Δ0。Pf/Φ前置单位沿真原来源，ad00冻不重跑；转Δ非零和其它一般LS，整个碰撞/ISP仍开。
+[整个正确h=k/Δ0终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)已刊：eb63f唯一2.70292276秒/0，两首DVR点/倒z首一3/真E1九原Bézout1排K99/K300全复嵌入，合C1/C2/C4幂次提升/CRT闭整Δ0。接新[整ellhalf输入](notes/2026-11-28-unit211-hk-entire-ell-half-constant-field-scaled-original-Q-cofactors-8542-input.md)：53d57ae零依赖，整K2两嵌入/同点H缩放八原式/固定Q cofactor/原八行终返，首次180秒4GiB已派、尚无执行结论；不借Phi/W排支，无D逆。独立全Pf图monic t³纸证在写。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0比值≤23088/U0另3及同h余34/CD50/三核/h0、C2/L
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-Phi旧闭支/维≤1/t三生成λ3/C77保，全六原C6跨H6/H8，H28开18生成/三头例外权≤392。[完整Vlow与两原t八次](results/R150-appendix-unit211-Phi-zero-corrected-t-complete-Vlow-original-mean-trace-and-two-octics.md)实际3.755020568秒/0，真N4三系数全部保、Vlow总5/r=(5,4,4)/三mean迹与两次三乘子返回已成；新式总71/75、头63/67全零保。最高D2/λ1纸面原单位接刊，完整最高理想仍需新原值。
+Phi旧闭支/维≤1/t三生成λ3/C77、全六原C6跨H6/H8/H28开18生成与三头例外权≤392保。完整Vlow总5/r=(5,4,4)/三mean迹、两原t8总71/75已刊。[最高D2与λ1原单位](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-D2-original-unit-ideal.md)现有保幂零整环证明，不从原几何非零外推最高项。新完整Loww最高系统与全权22生成稿已成接刊；原值排空仍待推进。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
