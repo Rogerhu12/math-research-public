@@ -58,3 +58,4 @@
     - 能由已提交的脚本和参数重新生成的证书、数据和 Actions 输出，一律不保存，仓库和 Release 都不放；只提交脚本、参数、run 编号和输出的 SHA-256。结论里引用计算时，写清用哪个脚本、什么参数、在哪次 run 得到什么结果。
     - 不要把文件切成 `.part001`、`.part002` 之类的分块，也不要用其他办法绕开 5 MB 上限。每个课题目录的总大小不超过 200 MB。
     - 2026-11-15 协调方已按作者决定，从 `main` 删除 `topics/invariant-subspace-problem/notes/` 下大目录里的 `.gz`、`.bin`、分块文件和 1 MB 以上的文件（约 9.6 GB），保留其中的小文本、脚本和清单。删除的文件仍在 git 历史里，确实需要时用 `git show <删除前的提交>:<路径>` 取回。同日又从 `topics/visible-flexible-closed-surface/notes/` 删除全部 `.gz` 和 `.npz`（1457 个，约 1.05 GB），清单在该课题的 `notes/DELETED_DATA_2026-11-15.md`。其他课题目录超过 200 MB 的，各自按本条删除可重算的数据，用普通提交删除，不改写历史，不要强推。
+16. **子代理的模型和推理强度（作者要求，2026-11-28 起，对所有课题有效）**：派子代理（subagent）时，一律显式指定模型（model）为 `gpt-6.2-astra`、推理强度（reasoning effort）为 `ultra`。作者原话："把subagent指定为gpt-6.2-astra，推理强度指定为ultra"。
