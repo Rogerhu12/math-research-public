@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824；已闭权/几何支保，1616/ad1b冻。全γ九二次/native五二次与真必要式保。[新α/chi原多项式图](results/R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md)只纯权分母，t局部化双向，首一α²纸证/6ms11身份返回。a96d新I6十×二三标量首次180秒4GiB，只有native必要定义，不重放γ旧尾；所有未付权和chi零保。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824；已闭权/几何支保，1616/ad1b冻。[αχ原图](results/R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md)仅纯权分母、t局部化双向；[新完整I6十×二](results/R150-appendix-unit211-W-alpha-chi-exact-original-ten-by-two-and-three-scalars.md)首一α²实际返，a96d101.965228秒/0，三核(85,89,8)/(134,143,12)/(75,77,8)。全部未知头/权零保，未付W排空；续原I11值行。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

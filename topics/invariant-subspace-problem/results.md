@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Haar-unbounded-four-corners-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-alpha-chi-ten-formal-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [R150 unit211：W新αχ完整原I6十×二及三标量](results/R150-appendix-unit211-W-alpha-chi-exact-original-ten-by-two-and-three-scalars.md)：纯权原图上实际首一α²，原NS/PS系数一反传，全部十行精确商；三新核(85,89,8)/(134,143,12)/(75,77,8)，所有未知头和共同乘子零保。a96d唯一101.965228秒/766372KiB/0，不付W空。
 
 - [R150 unit211：整个h=k对称u=1原纤维排除](results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md)：自由κ=bc t/ell真Gram给N4(V)/2=2(λ²+λ−1)(κ−h)+λh²，原λ与h单位先排整斜率零。仅两固定Q投影5/4阶得λ65/49次QQ Bézout1；6516真.516967781秒/40900KiB/0。只付对称u−1，不恢复旧Δ覆盖。
 
@@ -67,15 +69,3 @@
 - [W 的 t=0 三固定原投影与完整 F12](results/R150-appendix-unit211-W-t-zero-original-F12-complete-parameter-cover.md)：全20/23/29阶结式度165/188/270，真QQ Bézout给(k²−2k−16)²(k²+8k+8)^4；e7头k4付权≤28点/必要长≤84，非排空。两个整QQ常数域的原返回首次派发，保全部幂零。并续查补撤 h=k 旧848/578与整个Δ0的错误compact依赖。
 
 - [h=k 的正确五原行、三 cofactor 与物理因子](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)：原P1及完整N4(V)同点返回，无Δ逆；完整39项因子等于−4B⁴bc(1−Q)，λ半复用既存真实物理秩证明，留下三个规范必要多项式。所有未付图和原值保留；另首次派正确Phi t0/fu小原理想。
-
-- [正确 Phi 四头的全局单位理想与三生成元](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)：整A原U、整B原U^26拼成U^27，四极大子式全原图生成1；真实伴随左逆给1,T,z。原26维有限代数秩13的目标返回完整，不误称满秩/自由/λ有限，也不恢复旧错误Rbar链。
-
-- [同一双平坦来源的双圆相位与负逆级数忠实](results/R267-appendix-double-flat-two-torus-and-negative-inverse-source-faithfulness.md)：完整原高块/carry估计构造真实点范数T²作用，P/Q相位独立；Q不由旧来源任何非零有界分母表示，严格超出旧联合闭场。负P全Fourier抽取与临界C逆引理付双逆类全H忠实，整类平方来源不可能；未知旗整和quasi与一般场外根继续。
-
-- [W 的 t=0 原分支与整 V2=0 排除](results/R150-appendix-unit211-W-t-zero-mean-branches-and-V2-zero-complete-original-exclusion.md)：完整双二次原Gram返回三N/P线，真两列cofactor和S5A4+T3B6=2208给整支单位；余f=u/V2非零唯一几何与F7曲线保全。首次三同点固定e投影已准备，所有首项零保留。真Phi共同头首次整A/B已返回，小实际回执同步登记。
-
-- [一般 A1=t=0 的两条真实原 jet 身份](results/R150-appendix-unit211-original-bipartite-Gram-jets-force-value-discriminant-zero.md)：六自由参数完整原Gram，5ms/495整数乘法/三差返；N0/P1/N1与均值直接给T=−ell、A2=ell、D=0，无Phi/W/几何头逆。结合正确R2，D≠0归一图的整t=0只能f=u；D=0碰撞保留。
-
-- [原 N1/F6 十二基环境的独立范围更正](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：真N4极化及矩式保留；明确直接原单位U和正确Rbar，撤除旧§4隐含单位。h=k真五行首次实际完成，原共同头2e03首次派发；均未宣称原图排空。
-
-- [R150：修正后二重点 Phi 四个真实二次头](results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md)：自含f62真0.091190541秒/0，四个完整因式恒等式；原bc/P02/QδPf直接付前因子，共同头零恰为AB=F8=F10=F9=0。新开图三生成元仅按真头可逆使用，头零全保，不恢复旧错误H1/H42/583。
