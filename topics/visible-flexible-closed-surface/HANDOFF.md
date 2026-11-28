@@ -32,16 +32,16 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 原205节点完整14行新暖支持续真实接受，1–8已有各note；[第9–15步](notes/2026-11-28-2ecf-polar-full-prefix-actual-steps-nine-fifteen.md)均自然0并各自全目标下降，单项非单调已列。第15态训练R14².00999668/metric.180637/κ19.5606/σ.888196仍不合格。新[第三独立观察](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)已自然0：236径点×256半格错移角，直接真实求六jet；同一15态metric1.2189606/κ52181.5379/σ.1392603。新的极值原位重取样背景差0，两基本形式独立复算同峰；修正Xs近抵消背景且Xss约1034.85。训练改善不能继承几何。
 
-同prepared[零W独立支前三步](notes/2026-11-28-2ecf-polar-full-prefix-independent-zero-first-three.md)全自然0，自身R14²97.0901→29.9983而κ707.41；零6的第三观察κ2080.489/σ.47118，亦漏峰。[旧稀训练终态及32父态对照](notes/2026-11-28-2ecf-polar-g2-final-steps-independent-sweep-and-dense-input.md)已完成：暖20第三κ69268.25/σ.121675，零10第三κ3631.67；同一明确G3候选成本最低暖3，非新接受。两个旧支自然结束后封存；新G10每span加密、保原205/第三236全部径点，合958径点、每span至少15内部点，128/192角源直接补算正在运行。新quadrature单列基线/接受；进入训练的原G3径点不再称新模型的径向独立观察。
+同prepared[零W独立支前三步](notes/2026-11-28-2ecf-polar-full-prefix-independent-zero-first-three.md)全自然0，自身R14²97.0901→29.9983而κ707.41；零6的第三观察κ2080.489/σ.47118，亦漏峰。[旧稀训练终态及32父态对照](notes/2026-11-28-2ecf-polar-g2-final-steps-independent-sweep-and-dense-input.md)已完成：暖20第三κ69268.25/σ.121675，零10第三κ3631.67；同一明确G3候选成本最低暖3，非新接受。两个旧支自然结束后封存；新G10保原205/第三236全点及各span G10，合958径点。首128角补源1294s真实退出1：逆图残差1.56e−13/括宽8.88e−16碰原5e−14门；正式回执665/753新增行，不把667非零行冒完成，精度修复/恢复进行，G11第四独立源仍在跑。新quadrature单列基线/接受；进入训练的原G3径点不再称新模型的径向独立观察。
 
-R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不排完整XYZ。被释放前缀已改变，R233原背景证书不借给修正场。强目标held/D≥.2、δE/D≥.05及全时reach仍未完成。
+[全物理span的W两/三jet预算](notes/2026-11-28-2ecf-polar-continuous-correction-bernstein-budgets.md)已实际付暖3/20的全部系数及准确端迹，只W不冒总曲率。R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不排完整XYZ。被释放前缀已改变，R233原背景证书不借给修正场。强目标held/D≥.2、δE/D≥.05及全时reach仍未完成。
 
 ## 文献、同步与复现
 
 2026-11-28回查Hu *Smooth isometric bending of a closed sphere*，Hexagon2611.00534仍v1（11月16日）；小幅周期闭族未提供本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不能自动当连续弯曲。范围及恢复命令见接手note，不重复已登记障碍。
 
-根/题README完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`，私库根于`db8c308d5df4b018c12e225e2267064403f20208`；私库QUEUE本会话认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。每次literal pull立刻看双README差、至少每小时；非快进/ref竞争立即pull--rebase再推循环，不force、不改已发表历史。
+根/题README完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`，私库根于`db8c308d5df4b018c12e225e2267064403f20208`；私库QUEUE本会话认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。私库最近真实pull 2026-11-28 07:29:34 UTC，已读`671f1f91b2894f0f1e49705c436f64eaa9db71a1`根README逐差无变化、QUEUE认领仍在。每次literal pull立刻看双README差、至少每小时；非快进/ref竞争立即pull--rebase再推循环，不force、不改已发表历史。
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:26:23 UTC；已读公开 main `aea7924dada2d3ee945426afad6c415bcefae761`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:33:06 UTC；已读公开 main `a522a28f3c6e585aa6bbdb81d121c0fa8fa2f45e`，根/课题 README 逐差无变化。
