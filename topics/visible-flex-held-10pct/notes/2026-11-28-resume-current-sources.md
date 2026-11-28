@@ -4,7 +4,7 @@
 
 两仓库均以 blob:none / depth1 / sparse 部分克隆并真实 pull main；公共初始读规则提交 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，私库 `db8c308d5df4b018c12e225e2267064403f20208`。已读公共根完整授权和规矩、题README/HANDOFF/open、当前log及其指向的接续notes。私库QUEUE唯一一行改为本会话进行中；第一次push因main并发更新被拒，立即pull --rebase再推成功，提交 `e96d935de69d7e96381ba17732e6f92350654b2a`；私库根README相对初始版本无差异。
 
-旧06bbeb39和1b6d88ec的工作目录在当前 /workspace/scratch 与 /tmp 顶层未找到，旧runner原raw未取得。按已提交源必要再生，不把恢复算新结果。静态70源统一恢复至本会话scratch，三条并行任务分别负责实际设计延拓、full-H尾、端口解析；root独占git和共享索引。
+旧06bbeb39和1b6d88ec的工作目录在当前 /workspace/scratch 与 /tmp 顶层未找到，旧runner原raw未取得。2026-11-28用GitHub原生读取分别核run45821850836与45849403133的Actions artifacts，两者均返回空列表；warm job140011492229日志也未含被worker重定向的具体失败字符串。按已提交源必要再生，不把恢复算新结果。静态70源统一恢复至本会话scratch，三条并行任务分别负责实际设计延拓、full-H尾、端口解析；root独占git和共享索引。
 
 ## 比原H更新的真实输入
 

@@ -1,0 +1,116 @@
+{
+  "classification": "Necessary input regeneration and intentional execution handoff; no new mathematical frontier",
+  "original_q012": {
+    "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-20261128/q012_linear_m8/run.json",
+    "run_sha256": "082943ca03beabbbeea791955a4e0014a4ffa0ccb9b1f315479004d0959bbafa",
+    "solver_success": true,
+    "error": null,
+    "seconds": 875.4273410889998,
+    "gauge_q": 0.012,
+    "modes": 8,
+    "raw": {
+      "file": "inner-00.npz",
+      "sha256": "d115eab482b4823f4968a7b1befcf7fa91e70faa8b3ee3cb86e256c4bbea2d85",
+      "status": 0,
+      "success": true,
+      "rms": 9.793280840870611e-07,
+      "nodes": 603
+    },
+    "physical_sha256": "a3611087b1c35c68a44ca4ac42ffeef4b18f7630e5f79718b211b4bbae8ee077",
+    "checkpoint_sha256": "16477047fe403ec9b7a101a6afbd0c245e3ddca1dd561e77ee31238543354a6d",
+    "metric_l1": 1.1331834582129127e-08,
+    "physical_bc_max": 1.4512492073233018e-16,
+    "mean_nodes": 512,
+    "domain_newton_stats": {
+      "calls": 5,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 73,
+      "accepted_steps": 13,
+      "no_step": 1,
+      "minimum_alpha": 1.9073486328125e-06
+    },
+    "raw_actual_sha256": "d115eab482b4823f4968a7b1befcf7fa91e70faa8b3ee3cb86e256c4bbea2d85",
+    "physical_actual_sha256": "a3611087b1c35c68a44ca4ac42ffeef4b18f7630e5f79718b211b4bbae8ee077",
+    "checkpoint_actual_sha256": "16477047fe403ec9b7a101a6afbd0c245e3ddca1dd561e77ee31238543354a6d"
+  },
+  "old_parent": {
+    "summary_sha256": "00917fe0d18ce68734b63e0a4aab3e83fcf909f134c8d86661d884f35d3510ea",
+    "recorded_status": "declared_stage_failed",
+    "recorded_error": "RuntimeError('q020_linear_m8 returned 1')",
+    "reason": "Intentional q020 output-directory handoff barrier created before the stage existed; old portable stopped before a q020 equation call",
+    "barrier_sha256": "4645c47eb2a266940183a8e5d7f40e684f5decfaaf2b67aa7c4624641d999cae",
+    "mathematical_failure": false
+  },
+  "cancelled_snapshot_side_attempt": {
+    "snapshot_sha256": "ee8119d7cd966bdb43271ca64902980ae8ac6d1da70c143d13ec8ebbf65cceab",
+    "execution_sha256": "b29637f5f690aa404b420d293f0524926cc53c5a1a1dee0fe60bd9c81eace173",
+    "reason": "Old original q012 completed naturally while the separately requested unaccepted-snapshot restart was starting; cancel duplicate side attempt and retain the already advancing fast chain",
+    "terminal_exit_code_observed": 130,
+    "terminal_control": "write_stdin Ctrl-C on session95201",
+    "run_sha256": "88f3837bae7eab76f4ffdf0a07d05919e3e4b3fa02f5d6e3bef1b27897219ebc",
+    "solver_success": false,
+    "raw_return_saved": false,
+    "physical_return_saved": false,
+    "seconds": null,
+    "mathematical_failure": false
+  },
+  "fast_q020": {
+    "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-fast-20261128/q020_linear_m8/run.json",
+    "run_sha256": "0278942e859ce60fd403b28cf0f5a64ed2266b9d2aec692162b5ed9064e9b714",
+    "solver_success": true,
+    "error": null,
+    "seconds": 64.02860708600019,
+    "gauge_q": 0.02,
+    "modes": 8,
+    "raw": {
+      "file": "inner-00.npz",
+      "sha256": "bb3d079b27f6974c5d88f795e4cf6c0897baccf9cd1a881a6919d7839a7f60f9",
+      "status": 0,
+      "success": true,
+      "rms": 9.902730133544904e-07,
+      "nodes": 606
+    },
+    "physical_sha256": "fafe9d8ac781a0161c2dbcb1840701e29e950305d9b3020d0d1e29cd2a7f5a07",
+    "checkpoint_sha256": "9dfd5d85da92e6c895f3bacec90ee1ba3b0baac8f2aa911486e02053a9fe57b7",
+    "metric_l1": 1.9223574404578148e-08,
+    "physical_bc_max": 2.2725585806231902e-19,
+    "mean_nodes": 512,
+    "domain_newton_stats": {
+      "calls": 5,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 2,
+      "accepted_steps": 9,
+      "no_step": 0,
+      "minimum_alpha": 0.5
+    },
+    "raw_actual_sha256": "bb3d079b27f6974c5d88f795e4cf6c0897baccf9cd1a881a6919d7839a7f60f9",
+    "physical_actual_sha256": "fafe9d8ac781a0161c2dbcb1840701e29e950305d9b3020d0d1e29cd2a7f5a07",
+    "checkpoint_actual_sha256": "9dfd5d85da92e6c895f3bacec90ee1ba3b0baac8f2aa911486e02053a9fe57b7",
+    "radial_batch_provenance_sha256": "76b781de68dbd0be2b5c083675437f5c27cb6b8c6e683d9d70bbe234263ec514",
+    "rhs_block": 64,
+    "cache_provenance_sha256": "8ee798a0eef0550732ecb2bd52c57f152face043faf8142142cedd0ab9fd97b4",
+    "cache_stats": [
+      {
+        "hits": 122,
+        "misses": 1,
+        "key_seconds": 0.016684514999269595,
+        "build_seconds": 0.018454222999935155,
+        "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+        "full_basis_and_frequency_bytes_bound": true,
+        "live_flow_or_physical_response_cached": false,
+        "shared_diagnostic_dictionary": false
+      }
+    ]
+  },
+  "fast_execution_jsonl_sha256_at_capture": "e113bcc5e2dbbd43b520cfeebe165b51e37d2a54fe2f084ecbfa72ed179507ec",
+  "same_original_gate_values": {
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "max_nodes": 6000,
+    "original_outer_budget": 8
+  },
+  "old_q006_q012_recomputed_by_fast_chain": false,
+  "lambda_one_paid": false,
+  "complete_surface": false
+}
