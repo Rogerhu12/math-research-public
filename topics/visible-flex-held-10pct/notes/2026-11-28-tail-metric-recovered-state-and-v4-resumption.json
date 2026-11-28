@@ -1,0 +1,95 @@
+{
+  "status": "actual_recovered_metric_proof_prefix_and_independent_live_successor_observed",
+  "observed_UTC": "2026-11-28T15:38:05.088824+00:00",
+  "predecessor_session_id": 79580,
+  "predecessor_returncode": null,
+  "predecessor_actual_observation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/observation.json",
+    "sha256": "f4220977c7695cbecb7be809a058e07ba1cd6e3b2ec2657947537b6eb87f5509",
+    "bytes": 146213
+  },
+  "predecessor_summary_snapshot": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/predecessor-summary.json",
+    "sha256": "e9087e0557e79b4ce140345f6d0d0a3651f503b48eb9259faa388ee1c9b3305d",
+    "bytes": 32830
+  },
+  "complete_predecessor_stages": 62,
+  "predecessor_stage_ids": "0 through 61",
+  "complete_predecessor_file_inventory_count": 526,
+  "old_source_or_proof_files_modified": false,
+  "successor_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_recovery_v4.py",
+    "sha256": "3c266b03dcb1d33b1bb581d10a41a5f6491f92cf7823b8b8bedf7da19ec0f3e9",
+    "bytes": 26560
+  },
+  "original_prepared_collector_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/closed_map_complete_metric.py",
+    "sha256": "4a2a799b49f01d8eb70925b4cf406d7ef39192f1faf80448fbf73cf3216d6fad",
+    "bytes": 12936
+  },
+  "successor_contract": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-d/contract.json",
+    "sha256": "6e4ffbfab8d622aaacaf5588a7680feabc2122e91601ed18287c8beb5eb1fd1f",
+    "bytes": 7544
+  },
+  "successor_session_id": 47300,
+  "successor_tool_resume_observed_running": true,
+  "successor_returncode_at_observation": null,
+  "successor_summary_snapshot": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/successor-summary-push-observation.json",
+    "sha256": "0c38b70a66e41f3e8e09b66797dc1daddf5493a58b1632f12a15527f5d3f393d",
+    "bytes": 47539
+  },
+  "successor_durable_status": "running",
+  "successor_complete_stage_count_at_snapshot": 86,
+  "successor_latest_complete_stage": 85,
+  "whole_predecessor_stages_reused": 62,
+  "actual_new_small_file_guard": {
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/geometry_disk_guard.py",
+      "sha256": "be2b17d39083db9bb437cfe6732e5de2e342eab9a7c9189149a914898fd0926c"
+    },
+    "output_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-d",
+    "reserve_bytes": 16777216,
+    "guard": "free >= serialized new write bytes + reserve before every Path write",
+    "old_file_replacement_space_conservatively_counted_again": true,
+    "mathematical_producer_and_output_bytes_changed": false
+  },
+  "launch_attempts": [
+    {
+      "command_scope": "time wrapper before Python controller",
+      "returncode": 127,
+      "cause": "/usr/bin/time is absent in restored executor",
+      "console": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/successor-console.log",
+        "sha256": "3e737f6a9117cec194b02103b357f8668fae9adb86a8a8cd0bf25efab8948548",
+        "bytes": 60
+      },
+      "controller_started": false
+    },
+    {
+      "command_scope": "controller with manually reordered seed summaries",
+      "returncode": 1,
+      "cause": "strict predecessor mathematical-contract comparison rejected different seed-summary order before any proof write",
+      "console": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/successor-console-live.log",
+        "sha256": "e40adfa30e4c39e3db8a5a42ac9f79d95b65f16caf13ca44f60856bec557809b",
+        "bytes": 624
+      },
+      "empty_output_directory": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-c",
+      "mathematical_gate_relaxed": false
+    },
+    {
+      "command_scope": "same frozen controller with original source-contract seed order in independent D output",
+      "session_id": 47300,
+      "console_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-recovery-observed-20261128-c/successor-console-ordered.log",
+      "returncode_at_observation": null
+    }
+  ],
+  "later_process_name_filter_empty_is_not_terminal_evidence": true,
+  "mathematical_controller_and_all_field_parameters_unchanged": true,
+  "predecessor_paid_Gram_or_Taylor_proofs_recomputed": false,
+  "finite_chain_complete_claimed": false,
+  "complete_closed_metric_claimed": false,
+  "README_completion_claimed": false
+}
