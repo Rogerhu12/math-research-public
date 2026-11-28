@@ -79,3 +79,9 @@
 - 166f actual run46173434775/job141066781704完整5records与aaa1正式稿根读；0.662619788秒/39164KiB/0，3100B stdout SHA4ed4ff…准确。A首x4系数−2/3，B首x3系数38，规范小参数hash匹配，前阶QQ零及全整隐函数付齐。
 - 整ellunit μpole关闭，k−2只剩finite(3/5,−2)新2×2Jac方向；新一般k物理f已整，完整4个singleton首阶/三固定6阶原来源目标首次120秒/1GiB，源958f1b/input04cf18，旧投影不重跑。
 - 18:07:06 UTC实际终端pwd复探仍No usable execution environment，记录1807并将下次改19:07，Actions真实部分clone/pull/rebase继续。Phi新完整极化小式待发布，Haar实际双源继续，普通ISP未完成。
+
+2026-11-29 02:15 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2160实际main 92f3e866acacff93d72950b35d5b366fbf52d214，run46174468165/job141069936483；18:11:42 UTC pull 65f0b6c8f457dcd69284973b6b7f4ed4997a87fd两README无变，私库QUEUE进行中，新singleton首派204。
+- 76d2极化稿根全文核六交叉、E0系数、t精确消项及5项清分母；相对8e0仅美元格式改，数学无变。新C_NV,2=4Qs²Kw NV是真完整原值，没有M新逆或第二头空性。
+- 新一般k singleton run46174516962/job141070093707实际0.323524320秒/40120KiB/0，四原首阶及完整六阶返；仅PB0和差首阶非零，已付支持剥后(L33,μ9,total42)必要式未单位，正式稿在写。
+- 719469有限唯一中心新源/input全文根读，Jac243/1562500、所有原e尺度显式取消，唯一12jet完整N5首次120秒/1GiB；未执行弱da659已替代，不记失败。Haar实际双源继续，普通ISP未完成。
