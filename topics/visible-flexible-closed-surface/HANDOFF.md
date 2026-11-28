@@ -44,4 +44,4 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:33:06 UTC；已读公开 main `a522a28f3c6e585aa6bbdb81d121c0fa8fa2f45e`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:34:07 UTC；已读公开 main `32788128e20eaeba167037dbfbff7831a88970b7`，根/课题 README 逐差无变化。
