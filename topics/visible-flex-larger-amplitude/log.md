@@ -177,3 +177,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:06:29 UTC — RET78 完整闭源终态控制器输出退役
 
 只退19–21七精确旧索引/分卷264570B；新增完整来源台账/说明/总表114137B，净释放150433B。完整九实际阶段命令/输入输出身份/42+1原错误、137源角色、各原request/全部queue版本/6科学pure ready/N38参数与32whole留存记录保；全部metrics按原wholeGit及fence/member逐一固定，不把未返改空。19 job success不冒N成功，20/21取消不补原因/final/typed；现全launch/终态/异常证据留树。固定恢复c81a76206aa5627989fd1763cc7ff3639e457fe4；只精确七路径普通删除。完整恢复见[总表](computations/terminal-fejer-actions-retention-78-complete-delivery.json)。双README云核至`0d248aeb34028fc9a39d3ef47ea454d5bc9918d9`无变（非pull），活输入不动。
+
+## 2026-11-28 07:07:13 UTC — 25同源续跑自身初几何及b4d1试点统计实返
+
+25 restart-01真实初a28ae六族/K已返，最大reachg.5225620087197518，新accepted0；b4d1试点alpha1自己的Phi681.6450177984617/Gram.40616533565287705已返，几何/接受/报告未返。原父4次不冒新计数、完整64字段与所有原观测错误保固定索引。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`c1492cdc920b26a7c7eca16c370b7cd260de7ef1`无变（非pull）。

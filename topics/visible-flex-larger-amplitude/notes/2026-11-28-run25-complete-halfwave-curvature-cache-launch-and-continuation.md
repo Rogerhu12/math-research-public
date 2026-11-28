@@ -1156,3 +1156,74 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 07:07:13 UTC — 25同源续跑自身初几何及b4d1试点统计实返
+
+同一真实run46099929359/1、同active ID visible-larger-resume-20261128-25 的restart-01继续，source f250c57887597755b6aa9cc67afa7e1da9c8959f、PID12394、原driver7883d9/模型6f3ae不变。自身初始几何现已返回：a28ae、g=.5225620087197518、K=12.262152585881132、D_point_lower=4.117172734319764，六族和位置见下列完整64字段投影。K_s未返回，保null。新接受数仍0，父run原4次不计作新的4次。
+
+06:57:04.492431Z出现新的真实试点 b4d1d9645c45970536d6b4141b122fc21617e3749cd0697104188e43c58200ca，restoration alpha1，自己的Phi681.6450177984617/Gram.40616533565287705。其几何、是否接受以及完整报告未返回；不拿当前a28ae几何填试点。
+
+```json
+{
+  "math_at": "2026-11-28T06:57:04.492431+00:00",
+  "math_event": "trial-statistics-returned",
+  "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
+  "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+  "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+  "initial_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "initial_Phi": 681.6450227773521,
+  "initial_Gram": 0.40616533555531326,
+  "initial_geometry_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "initial_violation": 0.5225620087197518,
+  "initial_geometry_complete": true,
+  "current_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "current_Phi": 681.6450227773521,
+  "current_Gram": 0.40616533555531326,
+  "current_geometry_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "current_violation": 0.5225620087197518,
+  "current_geometry_complete": true,
+  "current_state": "initial statistics returned; no accepted direction",
+  "trial_point": "b4d1d9645c45970536d6b4141b122fc21617e3749cd0697104188e43c58200ca",
+  "trial_Phi": 681.6450177984617,
+  "trial_Gram": 0.40616533565287705,
+  "trial_accepted": null,
+  "accepted_directions": 0,
+  "complete_report": false,
+  "stop_reason": null,
+  "observer_failures": 0,
+  "current_g_reach": 0.5225620087197518,
+  "current_g_body_diameter": -0.03813680394177532,
+  "current_g_distance_plus": 0.11392426792936117,
+  "current_g_distance_minus": -3.0936337274168686,
+  "current_g_cap_diameter": -0.0671518843209028,
+  "current_g_height_floor": -1.0411708808898954,
+  "current_K": 12.262152585881132,
+  "current_D_point_lower": 4.117172734319764,
+  "current_K_cell": 885,
+  "current_K_u": 0.9662347571015759,
+  "current_K_phi": 1.5707963267948966,
+  "current_K_branch": 1,
+  "current_K_s": null,
+  "trial_alpha": 1,
+  "trial_phase": "restoration",
+  "current_distance_plus_phi": 1.5707963267948966
+}
+```
+
+完整观测错误、全部原请求/源角色/预算/输入与原返回身份由下面固定整索引保留；原parentreport及13个final/typed13沿已刊完整同源续跑包。不改变本子进程、参数或预算，真实自然返回后才接完整pure。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 42279,
+    "sha256": "dd8c950e4da04eb7061bba5124525fa24cffb2ad355151bf7a471763434e59c7",
+    "git_blob_sha": "8f1910da435c4c9d4a06c2a40637b90a639ec909",
+    "fixed_commit": "52c90c05f4974a1f50d4ed358634c04a01a627b6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
