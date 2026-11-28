@@ -261,3 +261,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:21:22 UTC到c07fba60b6ff9b2e00135b8bb8e2d66d97788d1b，私库2026-11-28 13:21:18 UTC到20cd788d437fec83a4111a41e17a400e90d5c959；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47307716B/treed3ed49fe748191d7b8c926c95c921c848a703db2，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:21:37 UTC到dfcc662cc7c3cdc8c892133acac0f04d0577bda7，私库2026-11-28 13:21:33 UTC到e62b83fb1c524ff23c85c4fad5de43c08b2a8492；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47307716B/treed3ed49fe748191d7b8c926c95c921c848a703db2，无>5MB。
+
+## 2026-11-28 13:23:26 UTC：R1067 §58：三个实际投影的绝对系数及Pell范数
+
+根已逐读R298(6)–(9)、R306(20)–(22)、R307(15)–(17)及实际来源系数，核同一中央period与全权尺度；手核真实theta首项负号界和三质量乘积，固定Pell单位不额外充作随权约束。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:23:37 UTC到819f2872b250cdef99eb805101a1ec1f87104465，私库2026-11-28 13:23:32 UTC到a5480743ae65cdac17520548a095c0918e76e4a2；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47313780B/tree0a04b3c2dcefb5445fb9a8af83f57557ab59f10e，无>5MB。

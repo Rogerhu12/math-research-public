@@ -428,3 +428,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1073 §12：两个真实五同源类的原三位拆分
 
 完整78父源与原5标签给c65=−3(c+−c−)、c8125=−3(c++c−)，两中央坏同时杀两个实际CM类三位读者。保μ3投影、原2/3/双13和准确负号，未给父源额外rank1身份。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1067 §58：三个实际投影的绝对系数及Pell范数
+
+原R298/306/307的同一period与平方常数准确给b=−1/(168θ²)、a=−1/[168θ(3+√17)]；原首系数theta界定绝对负号，全部三质量积含固定4+√17，不是新权指数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
