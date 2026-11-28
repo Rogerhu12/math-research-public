@@ -15,3 +15,5 @@
 - **R724（已证明的实际输入及条件宏观门）**：[中央整簇共移的四外脉冲](results/R724-comoving-central-crowns-and-four-outer-pulses.md)。中央四肩/两整冠全幅精确共平移；四真负领和所有已给件有序法弦≥1/10.4。参考并集D<3.004，真实ρ+.6δ+2.6e≤.065等条件给宏观门；四外盘同g/全时几何未解，Gauss旧重数不沿用。
 
 - **R726（已证明；源码未执行）**：[闭合双复傅里叶纬圈与完整同g残差](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md)。两组单位系数使闭合/周长严格成立，两个完整有限傅里叶残差等价同g；真实η、曲率平方和双轴图门可清正分母化为矩形多项式。K0圆族被严格排，中心消元须保全段兼容。两个小核心保存普通浮点/字面有限场差，R728续真实入图。
+
+- **R727（已证明的等价方程与真实输入）**：[一张物理盘、三curl和四开边二jet](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md)。R724余四窗由反射归一盘，给实际源/全相位正则边场；curl0准确等价同g，边差b′=−∫curl给保四真开带的实际投影和全域误差。分方向正则保非零残差C²，薄领以h⁴Q消差；R729尚待真实求解。
