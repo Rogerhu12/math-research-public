@@ -222,3 +222,24 @@ request46194B / SHAce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761
   }
 ]
 ```
+
+## 2026-11-28 08:25:27 UTC — 31自身初始完整几何已返，首trial只返统计
+
+真实46122200592/1仍在原science dfbbc306245b99e0e84400c55697aebe584bb22b/PID4131；当前driver549ca0f7cd038abc278a5ec20580f79609bae8328ba090e15a41e19133d8b3ee、model78717b20b1fa33db5ccc018be03ee6c9d93a0b89615fdfd25d1049492c0fce40。至08:19:39Z自身完整index：初始/当前点7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，accepted0，Phi14106.361942260944、Gram.822374918515021。其自身geometry已返：reach .7631911760908718、body_diameter −.04189769456408332、distance_plus −.09518118442527368、distance_minus −3.04023779712659、cap_diameter −.06715131487906445、height_floor −1.0411715967426867；最大族reach。自身K14.23819037053068、D_point_lower4.109115766386664，K位置cell509/u.6193095930415985/phi1.303883669702795/branch0，K_s未知(null)，distance_plus_phi=pi/2。
+
+首alpha1 trial337dc8a3bc00ffadf43eea6a420d1063fba528de19c2c03aa08345169730384a在08:19:34.603709只返自身统计Phi14106.362105626435、Gram.8223753558623952；geometry/是否接受尚未知。初始距离残差为负不等于连续强held已证，reach正且Gram远高于1e−6；未把31数据借给32。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1.md",
+    "bytes": 55275,
+    "sha256": "befc305427b3f7a16893e386dae1eb9d733af6e9df7b64d2e352874db78ae4c5",
+    "git_blob_sha": "d3a791b82eb72448b4d149905525808938319ea3",
+    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

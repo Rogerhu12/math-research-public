@@ -301,3 +301,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:23:24 UTC — RET83：完整保留旧前缀缓存身份来源后退出两个历史身份副本
 
 按完整 [RET83 来源账本](computations/legacy-prefix-cache-identity-retention-83-provenance.json) 和[操作说明](notes/2026-11-28-prefix-cache-identities-retention-83.md)，仅退出 q096/q122 两个历史 identity.json 副本（合281565字节），完整原件仍可按 a7ee59c79535235b4161da7780b77556e9760940/path/blob 恢复。新增三件合113990字节，净回收167575字节（不含本日志）。57条当前完整来源/参数/资源/恢复守卫逐条原样保留；所有数值cache条目、科学输入和原证据不在删除项。q096真实检查、q122有限精度接受、原清理范围和未找到的单次copy/cleanup来源均完整保留，不把未知补成已知。旧archive/cache读者须先恢复完整原身份文件，不能把另一runtime冒充旧身份；未读取这两个≥100KB原体。此为有整文件恢复关系的容量整理，不是新科学结果。 双README云核至`8b07a72a4ebea8596122628928c9fadeafea0a45`无变（非pull）。
+
+## 2026-11-28 08:25:27 UTC — 31自身初始完整几何已返，首trial只返统计
+
+31自身初始几何完整返：reachg.7631911760908718仍正，distance_plus−.09518118442527368；accepted0，首337dc只返自身统计，完整六族/K/位置与原whole身份保本轮note。未达度量/reach/连续整域标准。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`4482fcc2f767581c9b0e09ff0b086c08a204038e`无变（非pull）。
