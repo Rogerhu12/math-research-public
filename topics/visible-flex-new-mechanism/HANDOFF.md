@@ -5,9 +5,9 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **78010fa1368c31e733d2f8cdacfc53537de2c225**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **187f37188cf454254bf2f1690f30d2690bcb55e4**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
-每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
+每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
 [接手及四来源](notes/2026-11-28-takeover-sources-and-rules.md)已读，无可直接接收的合格对象；旧完整H/open及历史条件在b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c及其归档。压缩只转链接，不撤义务。
 
@@ -18,7 +18,7 @@
 ## A：真实97q 6e91／下一原390库
 
 [原383自然终态](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)run46121523891/job140906911350/source60cdf0c3于08:13:17结束，新增2515.759658948秒、4metric+1restore；11完整J/143块/60值/14fine，全部祖先费保留，非自然stall。
-真实q **6e91b58d61b2535ea4e262950d2177310a53ceb7fc50e87869d38e639949a334**，同p.181/0d材料；16290×3072 η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门。末raw5cf6及半步a938因原行/fine几何失败已拒，不换名重放。
+真实q **6e91b58d…**，同p.181/0d材料；16290×3072 η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门。末raw5cf6及半步a938因原行/fine几何失败已拒，不换名重放。
 385coarse+5pending→390，保全部fine并新加6中点成为16296，须本身资格；[实际续接](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2，08:25:30启动，trust2/metric，阶段约2.5e−7及p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
 
 ## B：R618同固定E自然终态／改造真实mean联立图
@@ -33,7 +33,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [6482→55be自然终态](notes/2026-11-28-r566-6482-to-55be-natural-terminal.md)run46123017949/job140911408687/sourcefe5224fb于08:30:26结束，新增2370.609989817秒、4metric+1restore。真q55be941c…，1786×3072及2719峰合格η.1932424342521748/g准确0；当前904coarse/1810fine，不能转资格，metric/trust.45050811767578125。
 
-末半步43015466…的coarse/1810fine/nested已付，η.19294084341286163/g0，有改善可能；2810定位已闭904、剩1906，尚无充分拒绝证据，必须只续真实剩余队列。2physical/8working pending暂不应用，完成原资格后才作接受/trust决策；82维H/3403LDL、23乘子、metric505f语义和全部费用保留。旧309b8的8635未执行、0重放；旧6482未完20J块仍留账。实际后继正在发布，仍为变量g静态设计。
+末半步43015466…的coarse/1810fine/nested已付，η.19294084341286163/g0，有改善可能；2810定位已闭904、剩1906，尚无充分拒绝证据，必须只续真实剩余队列。2physical/8working pending暂不应用，完成原资格后才作接受/trust决策；82维H/3403LDL、23乘子、metric505f语义和全部费用保留。旧309b8的8635未执行、0重放；旧6482未完20J块仍留账。[1906实际续接](notes/2026-11-28-r566-55be-partial1906-resume-scope.md)先完成原callback再续完整outer，仍是变量g设计。
 
 ## D：真全历史原BVP，已定位粗凸包墙
 
@@ -44,7 +44,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [R636显式输入](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)在全连续原盒内准确P/动能零、负B₂合法；[新完整求解](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)run **46123487783** / sourceb10baebe，07:56:34启动。准确五次背景+257原方向，不冒旧spline精确插值；首完整链复用、fine冻结背景/α/L/八中心A/三规范。与R632独立留账。
 
-[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)已发布。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
+[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818，08:43:56启动。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
 
 ## E：R=.8实际宏观核心自动推进在算
 
