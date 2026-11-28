@@ -101,39 +101,37 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前全原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/8040d1f8e0771c8589076ddce27ac7345627f653/topics/visible-flex-larger-amplitude/open.md)及a8bf/23728/e1bf/a5e/70b78链；§1–6不动。全部源/模型/点/六族/原失败/typed与peer未知保各完整note，不重做结论。
+此前全原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/4f80adb37306bd625c5e0ab7e4d1ce02dc4a8c65/topics/visible-flex-larger-amplitude/open.md)及8040/f44/23728链；§1–6原字不动。全部源/模型/点/六族/失败/typed和peer未知保各完整note。
 
-### 当前真实数值
+### 真实数值及独立比较
 
-固定Fejer g/M160/J923/N2048/32stage，原157/7词、458/445formal、48live/全变量/域/预算保。12–18官方cancelled原因未知；末真pull/未返科学保终态note。18–26完整report未返，进度不能接准确费。
+固定Fejer g/M160/J923/N2048/32stage；157/7词、458/445formal、全变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知，完整末态/末真pull保。19–26完整科学report未返，进度不能接准确费。
 
 | 完整记录 | 已登记实际边界 |
 |---|---|
-| [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；原8已返；末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计。 |
-| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2、两μ.01；b0f8/accepted3/g.9666075350730359，distplus仍正；下一20d617 Phi3824.990529790781/Gram.6460480621212836，仅统计。 |
-| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；b6cb真实current/accepted2，Phi3824.9619403696915/Gram.6460452977630746/g.966040127402165；六族返仍不可行，下一e70a仅开始。 |
-| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；1b3b真实g2.541911243209535拒，下一5f731 Phi3233.3855480813995/Gram.6568825764431082，仅统计。 |
-| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb真实current/accepted1，Phi681.6511710299278/Gram.4061652579029476，六族返，reach.5294703284893127/distplus.11391376026366629仍正；完整report未返。 |
-| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 真实46094430214；全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
-| [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 真实46096380016；半波b5/8；初7e06/accepted0/Phi886.6498886846562/Gram.47296582169113244，reach.6122924171813162/distplus.0608650756788609仍正；a464 Phi886.6498886762892/Gram.47296582200907233，仅统计。 |
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1；两input0，初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场；真实K与物理位置已返保note，trial/cache效果未知。 |
-| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725固定b1/2/ε1/8；实际46103106086/1/job140849792210于03:29:40Z启动，head a6c9c101；新场/费用未返。 |
+| [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计。 |
+| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2两μ.01；b0f8/accepted3/g.9666075350730359；下一20d617 Phi3824.990529790781/Gram.6460480621212836，仅统计。 |
+| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；b6cb/accepted2/Phi3824.9619403696915/Gram.6460452977630746/g.966040127402165，六族仍不可行；下一e70a仅开始。 |
+| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；1b3b真实拒，下一5f731 Phi3233.3855480813995/Gram.6568825764431082，仅统计。 |
+| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb/accepted1/Phi681.6511710299278/Gram.4061652579029476；reachg.5294703284893127/distplus.11391376026366629仍正。 |
+| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
+| [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 半波b5/8；初7e06/accepted0/g.6122924171813162；下一a464 Phi886.6498886762892/Gram.47296582200907233，仅统计。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 46099929359/1两input0；初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场；K12.32709940409259/s2.1573631007205925/phiπ/2真返；trial/cache效果未知。 |
+| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725 b1/2/ε1/8；46103106086/1/job140849792210于03:29:40Z从a6c9c101启动；新场未返。 |
 
-统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，不推曲率/reach单调性。
+统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，宽度不推曲率/reach单调性。27准备同R725源b5/8完整参数，其余原预算保；必须实际重算均值/校准/几何。
 
-### 机制及完整后继
+### 完整机制及后继
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解已证。ε1/8显式15/b→64/(7b)，高阶代价/存在条件保，不推wholeK。[新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，八cut进working mean；[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)已刊，137pair18变119保、22runtime中20新。ε1/8/八cut/Q全定义/新校准及纯reader全plan已真接；准确WholeMean/radial/leaf续作，原bubble/lift/外层Gauss保。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数/位置账和[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解全证。ε1/8显式15/b→64/(7b)，高阶及根存在条件保，不推wholeK。[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)137pair18变119保/22runtime，epsilon/八cut/12片/Q全定义/新校准和pure全plan真接，原bubble/lift/外Gauss保。[26全参数](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)157/7、458/445、64live、5CLI+13external逐字可逆保。26初三步74270B；science+pure118380/all4 126501>95000，自然science返后完整pure52340B接续，不删字段或预算。
 
-[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层已完整证明：急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet及跨机制扰动。显式转向θ替2tan(θ/2)，不推wholeK；未实施，不混25/26或继承旧凸势/校准。
+[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)急角球面均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet/跨机制扰动全证。显式转向θ替2tan(θ/2)，不推wholeK；实际Slerp源实施中，不混25/26，不继旧Euclidean凸势/校准。完整旋转/第二角等价候选另存，原回退/有限性证明齐，尚无实测加速。
 
-22/24半波宽度、23完整恢复策略、25dk缓存的全源参/原预算/peer/真实边界保各run note和[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/95801769a95b2940b14ad01fe7640581b2c2fb44/topics/visible-flex-larger-amplitude/open.md)。[26全参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)已刊：从25完整原step逐字可逆派生，157/7词、458/445formal、64live、5CLI+13external原责任齐；同b1/2/δ1/32/两μ.01，源固定ε1/8真变，无23policy/R726/旋转候选。26初三步74270B、science+pure118380B、pure单步52340B。所有超95000的queue仍须自然科学返回后整接完整pure；不删字段/预算，准确费责任保。
+22/24宽度、23恢复policy、25dk缓存的全源参/预算/peer保各note；[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)全文责任保。N/G首次绝对源路径、whole稳定report/snapshot；N变另G目录，R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed；136+4词/模式/peer/预算保，CLI不继末μ。
 
-[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G首次绝对源路径和whole稳定report/snapshot保，N变SHA另G目录；R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed史，136+4词/模式/peer/预算保，CLI不继承末μ。
-19–21准确全链已刊；22准确17+mesh18、23准确31完整源参已保护待容量。normal.complete不代连续branch，mean J不代Cu；R709/R722三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/两帽/mixed/allphase及晚失败全待付。R723新五角色不冒旧八；R718 marked与R716 unmarked法管/正V/非零中心不变量独立。旧1782 mesh34/6词与新6047半波各保。同g同参数五t/15science+5preview/三级空间/频率/时间真跑未付。
+19–21准确链已刊，22准确17+mesh18、23准确31、26准确37完整源参已保护待容量。normal.complete不代连续branch，mean J不代Cu；R709/R722三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/两帽/mixed/allphase及晚失败全待付。R723新五角色不冒旧八，R718 marked与R716 unmarked法管/正V/非零中心不变量独立；同g/参数五t/15science+5preview/三级空间/频率/时间真跑仍须付。
 
-### 容量及完成
+### 容量与持续求解
 
-[ret63](computations/early-terminal-public-actions-retention-63-complete-delivery.json)43旧终态输出净1628109B，全部272原返回/55queue/158source/失败未知与5358ca原字恢复保。ret62/61/60及此前完整账见各总表与[旧open](https://github.com/Rogerhu12/math-research-public/blob/f44e6c09210e7b616775a966ce89b03ccda25b9d/topics/visible-flex-larger-amplitude/open.md)。旧reader恢复whole原字；活输入/未知/parent91/ports/Nelder不猜删。
-
-README全部标准未完成；时长、阶段、失败和输入困难都不是终点。新raw仅runner/scratch；保全源码/配方、run/whole SHA及真结论，继续求解和固定目标精化。
+[ret64](computations/remaining-early-terminal-public-actions-retention-64-complete-delivery.json)14旧终态输出净200102B，31原返回/25完整argv/15queue/25source/11历史输入版本及43a5固定恢复齐；03发布失败不冒科学退出码，11真input1与发布失败分开。ret63净1628109B及更早完整账保各总表/[旧open](https://github.com/Rogerhu12/math-research-public/blob/4f80adb37306bd625c5e0ab7e4d1ce02dc4a8c65/topics/visible-flex-larger-amplitude/open.md)。whole旧reader逐字恢复；活输入/未知/parent91/ports/Nelder不猜删。
+README全部标准未完成；时长、阶段、失败和输入困难都不是终点。新raw仅runner/scratch，保全源/配方/run/wholeSHA及真结论，继续求解固定目标。

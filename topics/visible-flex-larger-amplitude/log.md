@@ -406,3 +406,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:32:05 UTC — 26官方实际启动确认
 
 46103106086/1，workflow433377608/job140849792210，03:29:40Z从a6c9c1011551cb0c84c458e603b6b691f66313f4真实启动。官方in_progress/null；checkout/Python/dependencies success，research in_progress。完整官方run和jobs原对象追加26note，不冒input/model/field/final或准确费。活源/队列不改。双README云核至`687d22ccb6b4d5a7d2bcdc571e68292cfce0590c`无变（非pull）。
+
+## 2026-11-28 03:43:22 UTC — ret64剩余早期终态完整整理
+
+14旧终态index/parts毛323489B，4完整新件123387B，净200102B。03/07/08/09/10/11官方终态独立保；31原返回/25全argv对应保留step、15实际queue/25实际入口source/45全小源参/11历史同path输入版本保。03自然子步骤退出后compact发布失败不补科学exit/result，03原request与03b分开；11真input1/report5149B/3a550与H发布失败分开，不猜compound guard子句。固定43a5d2a100a8a74a57d9527a6bab51afb1f16faf全部原字恢复；活19以后不动，无科学重跑或新增门。H/open§7完整先前措辞保4f80adb37306bd625c5e0ab7e4d1ce02dc4a8c65，open§1–6原23359B/SHA1be136a8abb5aa01164d08c59d3115fa8523cf68ab30c721b79daae2c8d8fbb0不变。双README云核至`ab86fe9efe299f8e038fbc0143ffee61a20a06f5`无变（非pull）。
