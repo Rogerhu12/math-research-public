@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GXW：全真实势支持外域的普通波与两物理窗口](results/R149-supplement-whole-genuine-ordinary-wave-outside-the-potential-support.md)：原[0,r−−1/5000]上65/193真三次片与完整GRQ3056×128真两ray同侧相接，保GXM非零λ中点+右对角半宽。原g/f两source先有向合成，再两次H^-2换元与5/6真尺度插值，原192/2039/.719/12.4各一次。54whole首发含原GRQ必要同SHA恢复，原输出全部角导0..2私留；外域nonlocal/端口另待。
+
 - [GNF：完整非局部与独立物理均值的真圆周双逆](results/R149-supplement-complete-root-collar-nonlocal-source-with-both-physical-circle-inverses.md)：同n*w0+w1V五场先合符号，真JI两次完整实现，根D与实际JCR交叠。两块物理频率表示、97..128零频例外单列、全解析条余/π8 primitive/全HS接收保；物理mean三幅伴随精确恒等与原g2相交。16闭径格/97..2^20/双真列/两sign，g1 H^-2/3与独立scalar按PW→2039/.719/12.4各一次，H^-5/3单独诊断，local0。43whole/112原输入首发，真实数值待。
 
 - [GCD：真实频率依赖整算子的四复盘接收](results/R149-supplement-five-halves-contour-bound-for-the-true-frequency-dependent-forcing.md)：保原Ψ_n/两sign/两真列/真正相位，仅幅与B_j在ζ=97/|j|上全纯。真H^V两次有序换元精确含所有势；原97、98..101、102..122、123..∞输入正交，经Cauchy与对角Parseval得到全算子费sqrt(C0²+25C1²/16+64C2²/39+9C3²/5)<5maxC/2。不假设不同输出正交、不把每列区间当同一个左乘子。
