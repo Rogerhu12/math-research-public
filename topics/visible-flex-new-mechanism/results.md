@@ -253,3 +253,7 @@
 ## R652真实小颈终态与R657准确颈比和宽相邻核
 
 [R652自然结果](notes/2026-11-28-r652-taper-matching-natural-terminal.md)支付4.29945秒、600匹配和6ODE，112个正候选的最宽样本a/b=.08488，曲率样本门内.05654；原有限35853能级的有向比较与无限段证明合成辅助全线gap≥1/3072。[R657证明](results/R657-sharp-inner-radius-and-wide-adjacent-morse-kernels.md)给任意合法正Cauchy/高度的严格上确界D1(A)/D0(A)，并构造(m,m+1)全频仅双核、每m统一gap、真实正buffer和颈比→1。高m不自动给有限角：同g经线弦长/角二阶曲率界仍约束实际幅度。[公开范围](notes/2026-11-28-r657-wide-adjacent-taper-matching-scope.md)先以新Kummer端值球筛G，再至多三个新m各36真实taper匹配/2ODE，复用同根读内禀K、斜经线和自己相邻端口；旧6ODE不重播，样本不冒完整有限N或非线性资格。
+
+## B030实际f2dda全资格接受与物理峰库容量继续
+
+[完整终态](notes/2026-11-28-r566-430-to-f2dda-peak-capacity-terminal.md)224.668336秒、1新接受至f2dda，1814×3072/2827定位得η.19280516441859985/g0；a61655在1834细库/947定位完全拒绝。现2046峰+3pending触原2048容量，25working亦未加，非数学失败。[后继](notes/2026-11-28-r566-f2dda-peak4096-continuation.md)仅将峰容量增4096，先原pending再扩库全值；原接受/约束/循环保持，实际trust完成、82维H/22待乘子保留原语义，缺失J/workspace不假恢复。源2J/186块/3774定位及未知旧费留链，仍变量g设计未达完成。

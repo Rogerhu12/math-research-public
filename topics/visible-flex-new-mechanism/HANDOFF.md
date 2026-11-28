@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **757107007c415abf7ad94c7042fd1d6ef5423338**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **3895f33a653ffdec7b029cc9b689525d325aaaa1**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff、立即执行、记SHA。每结论即push，NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核；根15只存源/参数/run/hash及真正必要续接输入。全部失败、未完和费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -28,9 +28,9 @@ R648全真尾R/G/S、η≤3S+S²及R650固定E″/seed s″/全trial三jet、真
 
 ## C：B030已到f2dda／当前库容量边界
 
-[430外部关停](notes/2026-11-28-r566-55be-to-430-runner-shutdown-terminal.md)的1906/904已闭，不重放；原真实H/J缺失与所有费用留链。[430后继](notes/2026-11-28-r566-430-shutdown-resume-scope.md)run46132003244/sourcef176c0d5自然结束224.668336秒，1次完整接受至f2dda793，η.19280516441859985/g0，1814fine/2827峰资格。
+[430外部关停](notes/2026-11-28-r566-55be-to-430-runner-shutdown-terminal.md)旧1906/904已闭、旧H/J缺失及未知费用保留。[实际f2dda终态](notes/2026-11-28-r566-430-to-f2dda-peak-capacity-terminal.md)run46132003244/sourcef176c0d5：224.668336秒/1接受，η.19280516441859985/g0，1814fine/2827峰全资格。现916coarse/1834fine、2046physical/650working仍缺3/25pending，1814资格不转1834；最后a61655在1834fine/947峰已完整拒绝。2J186块/3774定位及全部旧费留链。
 
-真正现库916coarse/1834fine、2046physical/650working，仍有3/25pending；1814资格不转1834。原2J186块/83.427919秒、3774定位全完成，旧费不删。终态reason=complete_physical_library_capacity_checkpoint，trust仍.45050811767578125；新完整H checkpoint已保留。fixed_metric_ultra正从实际末态扩真实库继续，不是数学失败；旧4465闭/8635未执行仍0重放。仍变量g设计。
+[f2dda容量4096直接后继](notes/2026-11-28-r566-f2dda-peak4096-continuation.md)只改max_extra_peaks2048→4096，原20其余参数/完整循环不改；先原pending交换再必要全粗值，trust完成且为.45050811767578125。实际82维packed3403/22待乘子复用原启发式，未存J/workspace不伪恢复，旧4465闭/8635未执行仍0重播。仍变量g设计。
 
 ## D：原完整BVP与真实四端新输入
 

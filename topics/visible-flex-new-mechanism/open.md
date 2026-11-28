@@ -117,3 +117,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R657 宽相邻模必须同时通过真实角度与曲率预算
 
 [R657](results/R657-sharp-inner-radius-and-wide-adjacent-morse-kernels.md)给中心的全gauge颈比上确界及明确高相邻核族；每个固定m有全频gap，但常数不在m上一致。[实际新范围](notes/2026-11-28-r657-wide-adjacent-taper-matching-scope.md)不重R652旧ODE/600匹配，先四端球评价G，再选最小至多三个能容许7/22的m，分别匹配自己的两模/物理规范/taper。对同一完整profile付弧长和两tip曲率，再读内禀Gauss必要条件、斜经线弦和自己有限核心端口；全尾port/有限N/完整非线性角仍欠。真有限角新系统R659继续，不能把βq²读数当成.36倾角。
+
+### B030 f2dda的真实库扩容
+
+[后继范围](notes/2026-11-28-r566-f2dda-peak4096-continuation.md)从真实f2dda/trust.45050811767578125/完整FINAL继续，唯一参数变更2048→4096额外物理峰。3physical/25working先按原规则应用，扩库当前完整数值为未知，必须新付；已接受1814fine不借给现1834fine。最后a61655是完整拒绝，不是pending。原82维H/22待乘子仅原启发式，所有缺失数组和实际费用保留。当前η.192805仍远未到度量门，宏观/同g/全reach仍欠。
