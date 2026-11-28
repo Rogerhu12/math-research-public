@@ -430,3 +430,8 @@
 - root亲读Voight/Katz/Yu指定primary并全文纸核；o2独核§§4–8。只扩大n2，不以一条T2方程替共同核，最低Tate及一般ℓsource继续；无数学程序执行，完成即推。
 
 - 同步main发现根README新增第16条（子代理显式gpt-6.2-astra/ultra），只读新增差异，已通知全部运行分支并立即适用于新派发；已读提交fb3965f7。H/open前态逐字归档。
+
+
+### 2026-11-28 17:47 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Gaussian高窗§14付全部四奇列原源、完整二次norm、pA_p=−2β的不可删除共振及u_(p−2)=χ(a)/β；H_p0与原Δ_low保全低卷积，最高/Π2实际corr配对保不等权11。
+- root全文纸核，o1独核全部尺度/Clausen递推/Lagrange/forcing和Π2配对；旧1–13逐字保留，完成即推。原joint未排，不以显示外单位或corr值增加vanishing；无数学程序执行。

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d**（2026-11-28 17:43 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:13 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：e3a095ed328d32aa9d08bd8232843537917e7059**（2026-11-28 17:47 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:13 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 17:13:02 Asia/Taipei，Actions run46129390088/job140931017005，blob:none浅clone后真实pull --rebase至a6c74a41且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤18:03、pull≤18:13。本地17:12仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -28,7 +28,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1166–68、R1174](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全部SS可取未分歧、Aut相容CM参考点；原n2 ordinary源与J0=0扩至全套，未知κ及实际反对角Frob单位严格消去。Bkl=A4kA8l−Σ同C A′C4kA′C8l；Π0/Π2 corr BCH=Σ(k−l)BklΠr/[2(k+l+2)]，ordered换(k+1)/(k+l+2)。A/A′由R1173及真实quotient增量读取；对应CM基diag(1/2,1)，返回参考基仍保完整shear/σ。一般ℓ及最低Tate源、中央非零仍开。
 
-[原Gaussian高窗 §§1–13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原/三quotient全部d4/8高槽由完整Appell与整τ降至G_(p−5)/G_(p−9)低heat列，σ/CM gauge/odd–odd及p carry全保。全同核Fay清除T−S/U+V两对角极，只需核总阶≤2p+15。原Π2 corr η8=(1519J_p d1−13068H_p c3)cω²/(8192β²)，H_p0时为unit·H_p''d1；原mask不要求该corr零，actual未平滑与联合排除仍开。
+[原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全部原/三quotient高槽降至低heat，σ/CM gauge/odd–odd及p carry保全；Fay只需核阶≤2p+15。原奇列由A=uC2、B=u(C4+12a/5)给，完整norm与pA_p=−2β强迫a[v^(p−2)](u²A+u)=β。H_p0后保所有低卷积，两个已付corr配对为−11a(b4a8−11a4b8)/(768β²)；实际mask不要求corr零，原joint/未平滑排除继续。
 
 [R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2 degree8 S/U×Weil²、Fil12及全部normal读数已付，BCH权(k−l)/(2(k+l+2))作用同核B_kl的Π2。V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2全p>37单位；原J/B局部读值仍保。
 

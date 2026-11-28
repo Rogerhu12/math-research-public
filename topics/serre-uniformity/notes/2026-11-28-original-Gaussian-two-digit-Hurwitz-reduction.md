@@ -1852,3 +1852,315 @@ R1171 的实际仿射同源运输必须保留；
 后继继续控制这些实际因子或原完整余对差值，
 不把完整矩消失加入原 good-mask 假设。
 全部为纸面推导，无数学程序执行。
+
+
+## 14. 原奇列的二同源消去、二次 norm 与首个 \(p\) 强迫
+
+本节仍使用同一个原 Gaussian 参数 $v$，所有撇号均表示
+固定 $a$ 后的 $d/dv$，不是模参数导子 $\partial$。
+把 §12 的四个实际奇列化回原 $C_2,C_4$，再给这两个
+指定函数的完整微分与首 $p$ 边界。
+这个边界是非零的；其余有限卷积仍保留，不把它缩成
+一个尚未证明的奇列单位。
+
+### 14.1. 两个非 Gaussian 商的奇 band
+
+令 $e^2=-a$、$e\ne0$，沿 (G2.57) 写
+$m_e=y/(x-e)$。原第五 Appell 多项式为
+$$
+\mathcal C_5(z)
+ =z^5-10xz^3-20yz^2-(15x^2+12a)z-4xy .
+$$
+这里仍包含原 sigma 分母；并非裸的 $\sigma^{(5)}/\sigma$。
+使用 $x_e=m_e^2-x-e$、
+$y_e=m_e(x-x_e)-y$，逐次幂直接得到
+$$
+\begin{aligned}
+\mathcal C_3(z+m_e;x_e,y_e)
+ &=z^3+3m_ez^2+3(x+e)z+y,\\
+\mathcal C_5(z+m_e;x_e,y_e)
+ &=z^5+5m_ez^4+10(x+e)z^3+10yz^2\\
+ &\qquad +(5x^2-10ex+3a)z+(x-5e)y .
+\end{aligned}
+\tag{G2.79}
+$$
+又 $m_e-m_{-e}=2ex/y$，所以两个完整差为
+$$
+\begin{aligned}
+C_{3,Q_e}-C_{3,Q_{-e}}
+ &=6e\left(\zeta+\frac xy\zeta^2\right),\\
+C_{5,Q_e}-C_{5,Q_{-e}}
+ &=10e\left(\frac xy\zeta^4+2\zeta^3-2x\zeta-y\right).
+\end{aligned}
+\tag{G2.80}
+$$
+这些是同一原特征零函数的身份，没有只比较首项。
+
+以下只在取实际奇 $i=1,3$ 的指定系数时，使用
+$\widehat F_{-e,d,i}=-\widehat F_{e,d,i}$。
+令 $Q_0=(0,0)$、$\lambda=1+i$，并取
+$$
+u(v)=x(v)^{-1/2}=v+O(v^5),\qquad
+\mathscr A(v)=uC_2(v),\quad
+\mathscr B(v)=u\left(C_4(v)+\frac{12a}{5}\right).
+$$
+由原 (1135.11) 及 $x_{Q_0}=a/x$，
+$$
+\begin{gathered}
+\zeta+\frac xy\zeta^2
+ =\frac i2\,\frac xy C_2(\lambda v),\\
+\frac xy\zeta^4+2\zeta^3-2x\zeta-y
+ =-\frac14\,\frac xy C_4(\lambda v)
+                  -\frac{3a}{5}\frac xy,\\
+\frac{x(v)}{y(v)}=-\frac{u(\lambda v)}{\lambda}.
+\end{gathered}
+\tag{G2.81}
+$$
+最后一式来自
+$x(\lambda v)=1/(2i(x/y)^2)$，原点首项固定其负号。
+第二式的常数 $3a/5$ 不能删掉。
+
+定义四个**原**系数
+$$
+a_4=[v^{p-4}]\mathscr A,\quad
+a_8=[v^{p-8}]\mathscr A,\qquad
+b_4=[v^{p-2}]\mathscr B,\quad
+b_8=[v^{p-6}]\mathscr B.
+$$
+在 (G2.59) 先取 $e,-e$ 的差，再除相应的 $3!,5!$，
+使用 $\lambda^{p+1}=2$，得到全部四个尺度
+$$
+\boxed{
+\begin{array}{c|cc}
+ &i=1&i=3\\ \hline
+d=4&\widehat F_{e,4,1}=e\,a_4/4
+   &\widehat F_{e,4,3}=-e\,b_4/12\\
+d=8&\widehat F_{e,8,1}=-e\,a_8/16
+   &\widehat F_{e,8,3}=e\,b_8/48 .
+\end{array}}
+\tag{G2.82}
+$$
+例如 $i=1$ 的一般因子是
+$-ie\lambda^{p-d-1}$，$i=3$ 的一般因子是
+$e\lambda^{p-d+1}/6$。本式只使用 §12 已付整性的
+低系数，所读次数均小于 $p$；
+不把相应 band 身份扩成一个没有投影的整函数等式。
+
+### 14.2. 指定两个函数的完整 norm 与微分方程
+
+写
+$$
+s=u'=\sqrt{1+au^4},\qquad
+\mathscr W=u\mathscr A'-s\mathscr A.
+$$
+原 $\zeta'=-u^{-2}$、$y=-s/u^3$ 给
+$$
+\boxed{
+\begin{gathered}
+\mathscr W=2(s/u-\zeta),\qquad
+\mathscr W'=2au^2,\qquad
+\mathscr A''=2au^2\mathscr A+2au,\\
+u\mathscr B=\mathscr A^2-\mathscr W^2+4au^2 .
+\end{gathered}}
+\tag{G2.83}
+$$
+证明可完全在原函数内完成：
+$C_2'=-2u^{-2}\zeta+2s/u^3=\mathscr W/u^2$，
+故第一、二式直接成立；对 $uC_2$ 求两次导数，
+其中所有一次 $\zeta$ 项严格相消，得第三式。
+最后原 Appell 恒等式
+$$
+C_4=C_2''+2\zeta C_2'+C_2^2-\frac{2a}{5}
+$$
+以及 $C_2'=\mathscr W/u^2$、$\mathscr W'=2au^2$
+给第四式。全部常数由原点首项核准：
+$$
+\mathscr A=\frac a3v^3+O(v^7),\qquad
+\mathscr W=\frac{2a}{3}v^3+O(v^7),\qquad
+\mathscr B=4av+O(v^5).
+$$
+这不是仅给一个抽象的相同微分方程；
+三个函数及其积分常数都由原 sigma 源固定。
+
+### 14.3. 首个 \(p\) 系数不能作为整系数约化
+
+$u(v)$ 在本节需要的次数 $\le p$ 内整。
+$\mathscr A,\mathscr W$ 的次数 $<p$ 也整，
+但它们的第 $p$ 项恰有一个必须保留的分母。
+由原 (G2.22) 的 $pG_{p+1}=\beta$，
+$$
+[v^{p-1}]C_2
+ =-(p+2)G_{p+1}
+     +\sum_{\substack{i+j=p+1\\i,j>0}}G_iG_j .
+$$
+和式中的非零 $i,j$ 都是四的倍数且不超过 $p-3$，
+所以其中全部项整。乘回原 $u=v+O(v^5)$ 后，
+其它贡献仍只使用安全系数。因此准确有
+$$
+\boxed{
+p[v^p]\mathscr A=-2\beta,\qquad
+p[v^p]\mathscr W=2\beta
+\quad\text{在 }\mathbb F_p\text{ 中}.
+}
+\tag{G2.84}
+$$
+第二式也直接由
+$\mathscr W=u\mathscr A'-u'\mathscr A$ 得到：
+可能不整的首项给 $(p-1)[v^p]\mathscr A$，
+其它系数均整。
+
+在 (G2.83) 的 $\mathscr A''$ 中读取 $v^{p-2}$，
+左边为 $p(p-1)[v^p]\mathscr A=2\beta$，并非零。
+故得到只含安全低系数的指定非零 forcing
+$$
+\boxed{\qquad
+a[v^{p-2}]\bigl(u^2\mathscr A+u\bigr)=\beta\ne0 .
+\qquad}
+\tag{G2.85}
+$$
+左边的 $\mathscr A$ 最高只读到 $v^{p-4}$。
+本式保留所有低卷积，不能将其改成
+$a\,a_4=\beta$ 或用模 $p$ 的形式求导先删掉
+(G2.84)。
+
+其中 $u$ 的边界本身也有准确原值：
+$$
+\boxed{\qquad [v^{p-2}]u=\frac{\chi(a)}{\beta},
+\qquad \chi(a)=a^{(p-1)/2}\in\{1,-1\}.\qquad}
+\tag{G2.86}
+$$
+给一个自足的有限证明。令
+$F(z)={}_2F_1(1/4,1/2;5/4;z)$、
+$b_j=[z^j]F(z)^2$。
+将 $F$ 的二阶方程代入其平方的三阶方程，系数递推为
+$$
+j(j+\tfrac12)(j+\tfrac14)b_j
+ =j(j-\tfrac12)(j-\tfrac14)b_{j-1},\qquad b_0=1.
+$$
+因此在 $0\le j\le h=(p-3)/4$ 的单位分母范围，
+$$
+b_h=\frac{(3/4)_h}{(2h+1)(5/4)_h}.
+$$
+真实 Lagrange 换元 $v=uF(-au^4)$ 给
+$$
+[v^{p-2}]u
+ =-\frac12(-a)^h b_h
+ =(-a)^h\frac{h!}{(1/2)_h}\pmod p.
+$$
+这里用 $F^{2-p}\equiv F^2$ 的次数 $4h<p$ 前缀，
+并用
+$(3/4)_h=(-1)^hh!$、
+$(5/4)_h=(-1)^h(1/2)_h$。
+再乘原 $R_h=\beta/a=(-a)^h(1/2)_h/h!$，
+得到 (G2.86)。所用所有阶乘、rising 因子均为单位；
+没有执行数学程序，也没有用未付的高阶 Clausen 截断。
+
+### 14.4. 原 mask 上的完整条件，及未消去的低卷积
+
+写
+$$
+u=vU(v^4),\qquad \mathscr A=v^3A_0(v^4),\qquad U(0)=1.
+$$
+原 (G2.73) 的 $\mathcal H_p=0$ 准确是
+$[t^{h-1}]A_0/U=0$。
+因此 (G2.85)–(G2.86) 在这个**实际**必要条件上给
+$$
+\boxed{\quad
+a[t^{h-1}](U^2-U^{-1})A_0
+ =\beta-\frac{a\chi(a)}{\beta},
+\qquad \mathcal H_p=0 .
+\quad}
+\tag{G2.87}
+$$
+$U=1+(a/10)t+\cdots$，故 $U^2-U^{-1}$ 的首项为
+$3at/10$。左边不再含 $a_4$，其最高 $\mathscr A$
+系数是 $a_8$，但所有更低系数仍须保留。
+右边的两个单位可能相消；这里没有称该差为单位。
+
+在 (G2.74) 的额外真实 Bernoulli 分支，
+令 $g=G_{p-7}$。同一对象中的 $\Delta_{\rm low}=0$ 还可
+准确写成
+$$
+\begin{gathered}
+[v^{p-5}]\frac{\mathscr A}{u}=0,\\
+2\left[v^{p-6}\right]
+       \frac{\mathscr A'-\mathscr W\mathscr A/2}{u}
+ \left[v^{p-9}\right]\frac{\mathscr A}{u}
+ +g\left[v^{p-7}\right]\frac{\mathscr B}{u}=0 .
+\end{gathered}
+\tag{G2.88}
+$$
+第一式就是原 $\mathcal H_p=0$，第二式是 $24\Delta_{\rm low}=0$。
+它使用
+$C_3=(\mathscr A'-\mathscr W\mathscr A/2)/u$；
+$\mathscr B/u$ 比原 $C_4$ 多的常数在该正次数不贡献。
+本式没有引入新的 good 行，也没有把 $\mathscr A$、
+$\mathscr B$ 的四个指定系数分别置零。
+(G2.83)、(G2.84)、(G2.87) 的 forcing
+必须连同这两个原条件一起消费。
+
+### 14.5. 原 odd–odd 配对及两个已付中央相关槽
+
+由 (G2.82)、$e^2=-a$ 和原 (G2.68)，准确得到
+$$
+\boxed{
+\begin{aligned}
+\widehat F_{e,4,3}\widehat F_{e,8,1}
+ -\widehat F_{e,4,1}\widehat F_{e,8,3}
+ &=-\frac a{192}(b_4a_8-a_4b_8),\\
+B_{3,1}&=\frac a{8\beta^2}b_4a_8,\qquad
+B_{1,3}=\frac{7a}{8\beta^2}a_4b_8 .
+\end{aligned}}
+\tag{G2.89}
+$$
+这里的 $B_{k,l}$ 是 R1168.51 的 actual same-kernel
+相关项，不是另外构造的 Hankel 矩阵。
+
+还可在两个已经付完整局部读取的中心之间，消掉一个
+共同的 even–even 项。定义同一原 frame 中的标量
+$$
+\mathcal Z_0=[\omega^4\eta^8]Z_{0,\rm corr}^{\rm BCH},
+\qquad
+\mathcal Z_2=c_\omega^{-2}
+               [\omega^2\eta^6]Z_{2,\rm corr}^{\rm BCH}.
+$$
+R1168、R1169 的 normalized contractions 准确给
+$$
+\begin{aligned}
+\mathcal Z_0&=\frac{B_{4,0}}3+\frac{B_{3,1}}6
+                    -\frac{B_{1,3}}6-\frac{B_{0,4}}3,\\
+\mathcal Z_2&=\frac{B_{4,0}}3+\frac{5B_{3,1}}{96}
+                    +\frac{3B_{1,3}}{224}-\frac{B_{0,4}}{14}.
+\end{aligned}
+\tag{G2.90}
+$$
+第二行可逐项由
+$(t-s)^2(t^2+12ts+15s^2)
+=t^4+10t^3s-8t^2s^2-18ts^3+15s^4$
+核准，并除原 $\binom4k\binom8l$。
+$k=l=2$ 的 BCH 因子为零，不要求 $B_{2,2}=0$。
+
+原 $\mathcal H_p=0$ 时 $B_{0,4}=0$：
+这由 §12 的 even-band trace 和 $F_{4,0}=0$ 得到，
+并非增加观测。于是 (G2.89)–(G2.90) 给
+$$
+\boxed{\qquad
+\mathcal Z_2-\mathcal Z_0
+ =-\frac{11a}{768\beta^2}
+       (b_4a_8-11a_4b_8),
+\qquad \mathcal H_p=0 .
+\qquad}
+\tag{G2.91}
+$$
+完整 odd–odd 权没有被换成不带权的单一 determinant。
+
+(G2.91) 是两个已登记 **correlation** 槽的具体原配对；
+原共同纤维并没有要求它们在参考 CM 点各自为零或相等。
+它也不替代 R1172 最低 $\Pi_4$ 槽的
+$\lambda_\infty X\gamma_5$、原 cyclotomic 端点和算术
+去平滑补项。
+本节新增的是指定奇列的完全原源、二次 norm、
+首 $p$ 非零 forcing 及其原 mask 下的有限约束；
+尚未证明 (G2.87)–(G2.88) 无共同解，
+不把任何一个显示的外单位当作最后的非零结论。
+全部为纸面推导，无数学程序执行。

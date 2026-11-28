@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian四奇列、完整norm与首p共振强迫（已证明）**：[高窗 §14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)实际两非Gaussian商奇列精确化为A=uC2、B=u(C4+12a/5)四系数；原uB=A²−W²+4au²与A''=2au²A+2au保常数。pA_p=−2β给真正单位forcing，u_(p−2)=χ(a)/β自足读取，H_p0后不删全部低卷积。原最高/Π2 corr配对准确为−11a(b4a8−11a4b8)/(768β²)，未外加vanishing或将Tate最低槽省略；原joint非零继续。
+
 - **全部超奇异CM参考点的实际二同源相关读取（已证明）**：[R1174](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)从原极大整序选p处极大CM作用，height-one与一般Serre–Tate给未分歧Aut相容参考；整CM双特征标架保μ=η+sω。原n2 source/normal支持延伸全部参考，未知κ及Frob单位在Π0/Π2双线性读式严格消去，右端由R1173实际A/A′给出。对应CM quotient运输diag(1/2,1)，返回预选参考仍保全部shear/Δ；一般ℓ和最低Tate读取继续。
 
 - **原同核Fay有限读取与Π2首槽的真实jet因子（已证明）**：[Gaussian高窗 §13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整三商乘积trace经Fay消去，清两对角极后只需核总阶≤2p+15，全部p carry保留。原Π2 corr的η8槽=(1519J_p d1−13068H_p c3)cω²/(8192β²)，在actual必要条件H_p0上为unit·H_p''d1。原Δ_low条件与Bernoulli分支逐条保留，不由相关槽增加未给vanishing，也不省未平滑算术项。
