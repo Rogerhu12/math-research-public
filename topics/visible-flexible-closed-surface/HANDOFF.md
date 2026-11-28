@@ -58,7 +58,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
 
-执行器失联后的 API 规则读取：公开 `a0f505f4477bb28bdcd58373a0c7634b3f9ca82f` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
+执行器失联后的 API 规则读取：公开 `705d1bc4e36778d058a7653616c92073c3d439bb` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
 
-<!-- 2ecf-actions-launch --> run46157156458：r299已成功逐推7项，r262仍实际计算；宽C3连续初D≤3.743027、δE/D≥.055596，held≥.78另有反向真见证，完整reach正绑定新H65。固定初相g小相位279→699变量仅.0005801→.0005712，未趋容差。新增joint-phase workflow继续全活动段与联合新g，45分钟literal规则同步保持。
+<!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。新true-geometric-input任务修769模入口整数分块并重新绑定宽C3法管；同时从原中央数据做D3三弧全角比较，随后用原R262真前缀替换中央高度。
 <!-- 2ecf-actions-rules --> Actions run 46158716329/1：真实 pull/rebase 2026-11-28 15:15:55 UTC；公开已读 6a5971bef971f37e7b651bc3bfa65c3bf974710f，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:14:12 UTC、已读 c4da261a4bb75db6a78f73df9ee61c874a5f7e90，私根无变化。

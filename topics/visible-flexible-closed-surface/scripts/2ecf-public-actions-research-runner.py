@@ -307,9 +307,49 @@ def r299_joint():
     else:
         publish("C3-multiphase-design-exit","共同新度量/初相设计退出 "+str(code)+"；未登记未完成状态。",[design])
 
+def r299_geometry():
+    S=SOURCE/"scripts"
+    W=WORK/"actual-geometry"
+    W.mkdir()
+    field=W/"r299-m383-h65.json"
+    py("2ecf-r299-short-phase-positive-curvature-arc-cauchy.py","--scripts",S,"--modes","383","--nodes","65","--length",".06","--speed",".006","--out",field)
+    proof=W/"true-ramp-second-jets.json"
+    code=py("2ecf-r299-whole-ramp-second-jets-and-true-central-simpson.py","--field",field.with_suffix(".npz"),"--quarter","2048","--out",proof,allow_failure=True)
+    geom=W/"C3-true-wide-closing-and-cap.json"
+    if not code:
+        code=execute(["node",S/"2ecf-r303-wide-closing-and-cap-directed.cjs","--ramp",proof,"--out",geom],allow_failure=True)
+    if not code and geom.exists():
+        g=obj(geom)
+        publish("C3-actual-whole-local-curvature","真实本次 H65 的全部径格、准确中央、末端三迹及两阶角导直接进入宽关闭段/完整帽的定向矩阵。新 field 身份只来自本次数据；是否同时满足已有整像覆盖的空间垫量如表。闭核的非局部法球由正文解析论证另行合成。"+
+                compact({k:g[k] for k in ("fieldSHA256","allLocalPiecesCertified","bindsPublishedShapeCover","shapeCoverEnvelope","rampPrincipalAbsoluteUpper","curvatureUpper","gate","remainder","cap","closedReachRadius")}),
+                [field,field.with_suffix(".npz"),proof,geom])
+    else:
+        publish("C3-actual-local-curvature-exit","本次真实入口/关闭段合成退出 "+str(code)+"；未登记未通过的全闭 reach。",[field,field.with_suffix(".npz"),proof,geom])
+
+    # Only the original central prefix is needed for this new inlet comparison;
+    # the expensive original R262 solver remains in its existing job.
+    import importlib.util
+    spec=importlib.util.spec_from_file_location("central_source_recovery",S/"2ecf-r262-four-field-reconstruction.py")
+    recovery=importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(recovery)
+    prefix=W/"m12-prefix-data.npz.gz"
+    recovery.fetch_blob(recovery.PREFIX_BLOB,3112330,recovery.PREFIX_SHA,prefix)
+    comparison=W/"true-three-arcs-material-comparison.json"
+    code=py("2ecf-r262-three-circular-arcs-material-comparison.py","--data",prefix,"--out",comparison,allow_failure=True)
+    if not code:
+        q=obj(comparison)
+        rows=[]
+        for t in q["observations"]:
+            rows.append({k:t[k] for k in ("uniformPhysicalAngles","rawMeanArcSpeed","sourceAxes","sourceCurvatureRange","targetHigh","targetLow","targetTransition","bestRmsAfterDescriptiveRigidAngularSearch")}|
+                        {"reflectionAnchors":[dict(anchor=r["anchor"],actualFullInput=r["levels"][-1]) for r in t["aligned"]]})
+        publish("R262-new-three-circular-arcs-true-material-comparison","原完整中央的原生 Fourier 场先变到真实等周长材料 u，再比较三段真圆弧输入。全部位置、切向和曲率是本次独立全角数值观察；不将插值微分或原 R262 的全闭几何证书转给新输入。"+
+                compact(dict(geometry=q["geometry"],observations=rows)),[prefix,comparison])
+    else:
+        publish("R262-three-circular-arcs-comparison-exit","真实等弧长中央比较退出 "+str(code)+"。",[prefix,comparison])
+
 if __name__=="__main__":
     p=argparse.ArgumentParser()
-    p.add_argument("--task",choices=("r299","r262","r299_joint"),required=True)
+    p.add_argument("--task",choices=("r299","r262","r299_joint","r299_geometry"),required=True)
     a=p.parse_args()
     git("config","user.name","Astra-visible-flex-2ecfcd69-20261128")
     git("config","user.email","41898282+github-actions[bot]@users.noreply.github.com")

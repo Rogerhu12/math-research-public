@@ -115,8 +115,12 @@ def inlet_errors(C,n):
         rc=np.asarray(cc,np.int64);ic=np.asarray(ci,np.int64)
         assert rc.shape==ic.shape and max(np.abs(rc).max(),np.abs(ic).max())<2**61
         bits=10
+        while 2*len(C)*wz*2**bits>=2**63:
+            bits-=1
+        assert bits>=1
+        limbs=(61+bits-1)//bits
         def digits(arr):
-            return [(np.sign(arr)*((np.abs(arr)>>(bits*p))%2**bits)).astype(np.int64) for p in range(7)]
+            return [(np.sign(arr)*((np.abs(arr)>>(bits*p))%2**bits)).astype(np.int64) for p in range(limbs)]
         rr,ii=digits(rc),digits(ic)
         # All limb dot-products and their differences fit signed 64 bit.
         assert 2*len(C)*wz*2**bits<2**63
@@ -126,7 +130,7 @@ def inlet_errors(C,n):
             w=seq[:,None]*waves[None,:]%nt
             sn,co=SN[w],CS[w]
             pol=np.zeros((len(seq),2),dtype=object)
-            for p in range(7):
+            for p in range(limbs):
                 if np.any(rr[p]) or np.any(ii[p]):
                     pol+=(co@rr[p]-sn@ii[p]).astype(object)*(2**(bits*p))
             for jj,i in enumerate(seq):
