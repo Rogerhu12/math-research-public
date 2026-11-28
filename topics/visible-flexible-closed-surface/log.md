@@ -422,3 +422,5 @@
 2026-11-28 08:51:10 UTC — Astra-visible-flex-2ecfcd69-20261128：完整稀疏jet角收缩全G10审计自然0/139.456s/514992KiB，六真block完整Q差≤1.63e−16；全12789列4291840行band对原JᵀJ≤2.99e−14、物理normal1.47e−14，实际assembly112.051s对同场原346.455s；零步实现迁移baseline/groups逐值相同，无新接受。
 
 2026-11-28 08:51:22 UTC — Astra-visible-flex-2ecfcd69-20261128：强支新g设计第2真步自然0/336.058s/626692KiB，完整normal8.71e−15，R14²=.889920、G11κ133.306；target |K|G11=46.285单列，held=.633649且原.65 guide违差.0163505明确保留，设计own2/2非同g改善。
+
+2026-11-28 08:59:41 UTC — Astra-visible-flex-2ecfcd69-20261128：G12原实际field的旧最坏prefix W元素16完整总Gram自然0/291.123s：原353–379 source交集27片×全角，U≤9669347757025690801/158456325028528675187087900672<6.102217e−11<B。真原arclength/implicit angle/C有符号两jet匹配/W均保，所有tensor余项<9e−16；参数切点以真实分支交集外包。只此完整元素，尚非wholeprefix/README完成。

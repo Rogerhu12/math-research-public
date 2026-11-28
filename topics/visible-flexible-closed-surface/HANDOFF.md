@@ -52,8 +52,10 @@ M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整1427
 
 强比例、连续几何/whole reach和真正同g收敛仍未完成。R233原背景界不借给变化后前缀。原fixed链/新g设计链各继续，不以一个子任务结束停工。
 
+<!-- 2ecf-total-prefix --> [完整prefix元素16](notes/2026-11-28-2ecf-m12-prefix16-correlated-total-Gram.md)真0/291.123s，全部27实际交集及全角U<6.102217e−11<B；真u、X+C+W同式，全部tensor余项已付；其余prefix/bridge/cutoff继续。
+
 ## 工作位置
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:51:39 UTC；已读公开 main `8132c0d399dbf49574bc6576492e02748f47a786`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:59:49 UTC；已读公开 main `2732b8ea34b0b90b0e4d1c86a06827ec84c95ce5`，根/课题 README 逐差无变化。
