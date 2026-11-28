@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：ec5c0bc19335d55abc3f19cd2f2d176dbe702158**（2026-11-28 11:53 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：8ab072512cf6a864868f3691cd65f042a55e249d**（2026-11-28 11:56 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 11:19:13 Asia/Taipei，Actions run46102253397/job140847085965，blob:none浅clone后真实pull --rebase至10f20b88；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:09、pull≤12:19。本地11:18仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -22,7 +22,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1148–53](results.md)原cusp/全global基、relative Hodge/log Frob和finiteFL减法均保于[open](open.md)及逐字前态：Ccyc=exp(9^(224·9⁴))，大Chebotarev affine真实存在，不代空集。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)给r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25；真障碍rs h−zab，七退化支全保。Gaussian/cubic最高同源组合、U/U²实际Miller/FL尺度、β底参数和所有nilpotents沿原文；两β都坏不外推η★=1，首数字0不代whole盘，F0中央与全深盘仍开。
 
-[R1155 §§1–12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK、强mod pO_L有限dilog及SS单位已付。§8 v=u^p+pε完整右运输保h=−ℓ2/(1−u^p)−ε²/{2u^p(1−u^p)}；§9全S3。§10同一五点配置的五个ε由两个base误差实际生成，Σalt h=e_Ce_D/(CD)、Σalt BCH=0，保全部carry/nilpotents。任意分歧仅fibres间运输；未分歧v=σu才actual同点。§11原Gaussian U_a的有限椭圆坐标jet给h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125单位；只属单primitive relative Frob，不删torsion高nilpotents。§12选定整形式ψz=z^p时ε=ε0−u0L，hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位；ψ不代分歧torsion的σ。原filling/Cor/moment与F0 z12继续。
+[R1155 §§1–13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK、强mod pO_L有限dilog及SS单位已付。§8 v=u^p+pε完整右运输保h=−ℓ2/(1−u^p)−ε²/{2u^p(1−u^p)}；§9全S3。§10同一五点配置的五个ε由两个base误差实际生成，Σalt h=e_Ce_D/(CD)、Σalt BCH=0，保全部carry/nilpotents。任意分歧仅fibres间运输；未分歧v=σu才actual同点。§11原Gaussian U_a的有限椭圆坐标jet给h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125单位；只属单primitive relative Frob，不删torsion高nilpotents。§12选定整形式ψz=z^p时ε=ε0−u0L，hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位；ψ不代分歧torsion的σ。§13浅坏参数κ≤1/3保Eulerian/Taylor首p项，深near0须同一v=u^p(1+pα)；exact Coleman S/J已付，非整误差不能任意群乘。原filling/Cor/moment与F0 z12继续。
 
 [R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
 

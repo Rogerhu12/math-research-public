@@ -1198,3 +1198,283 @@ $z$ 仍是椭圆点坐标而非模曲线参数，
 
 root 纸推；o2_high_coefficient 独核实际 carry、三槽中央修正及
 (1155.67) 的完整常数。无数学程序执行。
+
+
+## 13. 原坏参数的浅退化读取与 log-preserving 深分支
+
+本节保留 §8 的同一个原 KZ frame、右运输次序和实际参数。
+它扩大有限读取的适用域，但不在分歧域上另造 field Frobenius。
+特别，下面的浅退化式允许个别坐标具有负赋值；
+“模 $p\mathcal O_L$”始终指显示数与真实数之差属于该理想。
+
+### 13.1. 浅近零或近一的准确 Eulerian 尾
+
+设 $p>37$，$L/\mathbb Q_p$ 为任意有限扩张，赋值规范为
+$v_p(p)=1$。取
+$$
+u\in\mathcal O_L\setminus\{0\},\qquad
+w=u^p,\qquad d=1-w\ne0,\qquad
+\kappa=\max\{v_p(w),v_p(d)\}\le\frac13.
+\tag{1155.68}
+$$
+因 $w+d=1$，两者中至少一个是单位。
+沿 (1155.13) 定义 $\ell_{r,p}$，此处也使用 $r=3$；
+这些是 $\mathbb Z_p[U]$ 中的原多项式，不先将 $u$ 换成
+其 residue-field 常数。
+
+(1155.15) 的完整 Eulerian 展开在
+$|u|\le1,\ v_p(1-u^p)\le1/3$ 的 rational affinoid 上仍一致收敛。
+确实，第 $m$ 项的赋值至少为
+$$
+m-(m+1)v_p(d)\ \ge\ m-(m+1)\kappa.
+$$
+该下界趋于无穷。此 affinoid 是闭单位盘去掉包含全部
+$p$ 次单位根的一个开盘，因而几何连通；其上构造的函数与
+原 Coleman 函数在 $|u|<1$ 的子域相等。
+同 §5 的解析延拓遂识别为同一
+$\operatorname{Li}_r^\dagger$，没有改变 Coleman 常数。
+也可在任意较小 rational affinoid 上逐次作此论证。
+
+因为 $P_0=1,\ P_1(w)=w$，保留 $m=0,1$ 得
+$$
+\boxed{\quad
+\operatorname{Li}_r^\dagger(u)
+ \equiv \frac{\ell_{r,p}(u)}d
+       -\frac{r p w\,\ell_{r+1,p}(u)}{d^2}
+       \pmod{p\mathcal O_L},
+\qquad r=1,2.
+\quad}
+\tag{1155.69}
+$$
+被删去的 $m\ge2$ 项有赋值
+$m-(m+1)\kappa\ge1$，包括
+$m=2,\ \kappa=1/3$ 的端点。
+原单位域中的 $m=1$ 项可以略去；近一时本式显示它不一定可略。
+
+这里使用的解析输入仍是上列 Furusho Theorem 2.14、
+Example 2.16(1) 的同一个函数。
+新域、收敛界及有限截断由上述整数 Eulerian 递推直接证明。
+
+### 13.2. 浅退化短运输必须保留三次中央项
+
+取一个实际第二输入
+$$
+v=w+p\varepsilon,\qquad \varepsilon\in\mathcal O_L.
+\tag{1155.70}
+$$
+不要求它是分歧域的自同态像。
+(1155.68) 保证
+$v_p(p\varepsilon/w)>0$、
+$v_p(p\varepsilon/d)>0$，所以 (1155.21)–(1155.22)
+的实际短路径级数仍绝对收敛。
+
+将 $D_pH(w,v)$ 的三个坐标记为 $A_T,B_T,H_T$。
+逐项保留两个 logarithm 的一次、二次项，以及中央的二次、三次项，
+得到
+$$
+\boxed{\begin{aligned}
+A_T&\equiv-\frac{\varepsilon}{w}
+               +\frac{p\varepsilon^2}{2w^2},\\
+B_T&\equiv \frac{\varepsilon}{d}
+               +\frac{p\varepsilon^2}{2d^2},\\
+H_T&\equiv-\frac{\varepsilon^2}{2wd}
+        +\frac{p\varepsilon^3(1-3w)}{6w^2d^2}
+          \qquad \pmod{p\mathcal O_L}.
+\end{aligned}}
+\tag{1155.71}
+$$
+中央三次项的号可不借形式矩阵记忆，直接从
+$$
+p^{-2}h_H
+ =-p^{-2}\int_0^{p\varepsilon}
+       \frac{\log(1+t/w)}{d-t}\,dt
+$$
+读取：二次系数为 $-1/(2wd)$，三次系数为
+$(d-2w)/(6w^2d^2)=(1-3w)/(6w^2d^2)$。
+
+完整尾界如下。两个 log 的第 $n\ge3$ 项，在除 $p$ 后的
+赋值至少为
+$$
+n-1-n\kappa-v_p(n).
+$$
+中央的第 $n\ge4$ 项在除 $p^2$ 后，按 (1155.22) 的
+$1\le r<n$ 逐项估计，赋值至少为
+$$
+n-2-(n-1)\kappa-v_p(nr).
+\tag{1155.72}
+$$
+这里只出现 $(n-1)\kappa$，因为 $w,d$ 至多一者不是单位。
+当 $n<p$ 时两式的最小端点分别是
+$n=3$ 和 $n=4$，在 $\kappa=1/3$ 时恰为 $1$。
+当 $n\ge p$ 时，用
+$v_p(nr)\le v_p(n!)\le(n-1)/(p-1)$
+及 $p>37$，两条线性余量均严格大于 $1$ 并趋于无穷。
+所以本式控制全部尾，不是只把三次之后形式截掉。
+
+### 13.3. 同一个 relative Frobenius 的浅退化三槽
+
+沿 (1155.24) 的同一精确顺序
+$$
+R_v(u)=R^\dagger(u)\,D_pH(w,v)
+       =\mathcal H(a_v,b_v,h_v),
+$$
+结合 (1155.69)–(1155.71)，得到
+$$
+\boxed{\begin{aligned}
+a_v&\equiv-\frac{\varepsilon}{w}
+              +\frac{p\varepsilon^2}{2w^2},\\
+b_v&\equiv\frac{\varepsilon-\ell_{1,p}(u)}d
+       +\frac{p\bigl(w\ell_{2,p}(u)+\varepsilon^2/2\bigr)}{d^2},\\
+h_v&\equiv-\frac{\ell_{2,p}(u)}d
+       +\frac{2pw\ell_{3,p}(u)}{d^2}
+       -\frac{\varepsilon^2}{2wd}
+       +\frac{p\varepsilon^3(1-3w)}{6w^2d^2}
+       \qquad\pmod{p\mathcal O_L}.
+\end{aligned}}
+\tag{1155.73}
+$$
+原 $R^\dagger$ 的第一槽严格为零；
+故这次乘积没有把某个仅知属于 $p\mathcal O_L$ 的误差
+再乘上负赋值的第一槽。这是本式保持所声明精度的原因。
+
+(1155.73) 是三条在 $L$ 中的坐标同余，
+不宣称右边组成 $\mathcal H(\mathcal O_L/p)$ 的点。
+当 $w$ 或 $d$ 不是单位时，
+任意另一个群乘法、BCH 变换或 tensor contraction
+可能放大被删去的误差；不能仅凭本式已经写了“mod $p$”
+就任意连续做这些操作。
+
+实际组合可以先提高精度再相乘。
+例如，要把单项误差控制到 $p^h\mathcal O_L$，
+Eulerian 和保留 $m<M$，使
+$M-(M+1)\kappa\ge h$；
+log 与中央级数保留足够多的项，使 (1155.72)
+及其 log 版本在全部尾指标上至少为 $h$。
+取
+$$
+(N-1)\left(1-\kappa-\frac1{p-1}\right)-1\ge h
+$$
+即为两种运输尾从 $n=N$ 起的一个共同充分条件。
+斜率为正，因此这是有限明确的精度选择。
+随后按原矩阵乘法、固定陪集 Cor 及实际权逐步累计误差；
+未约化的 (1155.15)、(1155.21)–(1155.22)
+保留了全部同源数据。
+
+### 13.4. 原共同提升保留边界时，任意深的近零分支
+
+另设 $0\ne u\in\mathfrak m_L$，不再施加 (1155.68) 的深度上界。
+此时 $d=1-u^p$ 是单位。
+如果**同一个已经给出的实际提升**满足
+$$
+v=u^p(1+p\alpha),\qquad \alpha\in\mathcal O_L,
+\tag{1155.74}
+$$
+则在原坐标中直接有
+$$
+\boxed{\quad
+R_v(u)\equiv\mathcal H\left(
+-\alpha,\
+ \frac{u^p\alpha-\ell_{1,p}(u)}{1-u^p},\
+-\frac{\ell_{2,p}(u)}{1-u^p}
+-\frac{u^p\alpha^2}{2(1-u^p)}
+\right)\pmod{p\mathcal O_L}.
+\quad}
+\tag{1155.75}
+$$
+本式的三个坐标全为整的。
+
+证明可直接在 $|u|<1$ 用
+$\sum_{p\nmid n}u^n/n^r$，或用 $d$ 为单位的
+(1155.15)，得到
+$\operatorname{Li}_r^\dagger\equiv\ell_r/d$。
+运输中置 $\varepsilon=w\alpha$：
+两个相对增量分别为 $p\alpha$、$pw\alpha/d$。
+两个 log 除 $p$ 后的高次项都在 $p\mathcal O_L$；
+中央第 $n\ge3$ 项还带 $w^{n-r}$，其中 $n-r\ge1$，
+故全部除 $p^2$ 后的尾同样在 $p\mathcal O_L$。
+仅保中央二次项即得 (1155.75)。
+在与浅退化域重叠的范围内，
+(1155.73) 的额外 $p$ 项代入 $\varepsilon=w\alpha$
+也确实全部落入 $p\mathcal O_L$；
+这与直接的任意深证明一致。
+
+一个可核的共同 log-preserving 来源是：
+在某个已给出的形式底上，
+$u=z^m a$，$a$ 为整单位，
+$\psi(z)=z^p b$、$b\in1+p\mathcal O$，
+且 $\psi(a)/a^p\in1+p\mathcal O$。
+于是
+$\psi(u)/u^p=b^m\psi(a)/a^p\in1+p\mathcal O$，
+保留真实 $a$ 后就得到同一 $\alpha$。
+这是一条充分条件，不是为每个 primitive 自由选择一个新 $\psi$。
+
+近 $1$ 或 $\infty$ 时，可先在同一配置中使用
+$t=1-u$ 或 $t=u^{-1}$。
+必须将第二输入同时换成 $1-v$ 或 $v^{-1}$，
+核该实际 $t$ 满足 (1155.74)，再沿原参数 isomorphism 运输：
+分别保 (1155.33) 的
+$\mathcal H(b,a,ab-h)$ 或
+$\mathcal H(-a,b-a,-h+a^2/2)$，以及原根规范。
+这里使用的是同一 class-two path object 的参数变换；
+不把近一时 $1-v$ 擅自换成 $(1-u)^p$。
+由于 (1155.75) 已给整的三槽，这一分支的这些 polynomial
+群变换不会放大其 $p\mathcal O_L$ 误差。
+
+
+上述坏域的参数运输还可在约化前直接核准，避免把 §9 的单位域
+有限身份越界使用。Furusho，
+[*p-adic multiple zeta values I — p-adic multiple polylogarithms and the p-adic KZ equation*](https://arxiv.org/pdf/math/0304085)，
+Invent. Math. **155** (2004), 253–286，
+Example 2.19(a) 给原规范的 $\operatorname{Li}_2(1)=\zeta_p(2)=0$。
+在同一 Coleman branch 中，分别求导并取 $u\to0$、$u\to1$
+的切向常数，即得到两个完整身份
+$
+\operatorname{Li}_2(1-u)+\operatorname{Li}_2(u)
+=-\log u\,\log(1-u),\qquad
+\operatorname{Li}_2(u^{-1})+\operatorname{Li}_2(u)
+=-\frac12\log^2u.
+\tag{1155.76}
+$
+第二式使用 $\log(-1)=0$；
+两式的导数为零后，Coleman 唯一性把已核的常数带到整个定义域。
+于是对原 $G(u)=\mathcal H(\log u,\log(1-u),-\operatorname{Li}_2(u))$，
+严格有 $G(1-u)=S(G(u))$、$G(u^{-1})=J(G(u))$，
+其中 $S,J$ 就是显示的两个多项式群自同构。
+它们与 $D_p$ 交换，所以对任意同一实际两输入
+$R_v(u)=G(u)D_pG(v)^{-1}$，也严格有
+$R_{1-v}(1-u)=S(R_v(u))$、
+$R_{v^{-1}}(u^{-1})=J(R_v(u))$。
+因此近 $1,\infty$ 的使用先是完整特征零身份，
+随后才在已证明整性的坐标上约化。
+
+### 13.5. 对原二同源分解的具体接口和仍须读取的输入
+
+[R1157 §11](R1157-original-integral-SV-Manin-triangle-filling.md)
+已保原所有切线尺度、
+$R_i(T_0-B_j)$、$\Delta/K_i$、
+闭点以及实际有限 transfer。
+其 characteristic-zero 四线参数约化到 $0,1,\infty$
+时，不能再逐项套用旧单位域的 (1155.25)。
+
+本节给出两个实际可检验的替代入口：
+满足 (1155.68)–(1155.70) 时用 (1155.73)；
+满足同一提升的 (1155.74) 时用 (1155.75)。
+例如若已经证明某实际参数或其补参数为
+$c t^e(1+O(t))$，其中 $c$ 为单位、
+$v_p(t)=1/(p^2-1)$、$1\le e\le12$，
+则其相应浅退化量是
+$pe/(p^2-1)<1/3$，对 $p>37$ 落入第一入口。
+这里条件中的实际阶及 leading 单位需要原函数逐项证明，
+并未宣称全部四线参数自动满足它们。
+
+在完整 SS full-level 来源上构造共同 log-smooth 模型及
+共同 $\psi$，仍是另一件具体工作。
+尤其不能在分歧 $\mathcal O_L$ 上令 uniformizer 取 $p$ 次幂，
+又同时要求固定底层的 $p$，便称得到所需场 Frobenius。
+本节只消费已经给出的实际两 fibre；没有创造该算术映射，
+没有删掉相同配置的五项 carry 或 ordered 修正，
+也没有据单个有限公式宣布目标 $F_0$ 的 $z_{12}$ 已读。
+
+本节为纸面证明，无数学程序执行。
+o2_high_coefficient 独立核准浅退化 Eulerian 修正、
+中央三次项的符号和全部尾估值。

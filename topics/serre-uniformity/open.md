@@ -63,6 +63,8 @@ R1160中一般q的b(q⁻¹T′q)仍要从同一实际有限Galois/Belyi quotient
 
 同文§12固定实际整形式ψz=z^p，完整carry ε=ε0−u0L给hψ=h0+b0L−u0L²/{2(1−u0)}−u0L³/{6(1−u0)²}；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位。未指定ε0=0，未把ψ专化当分歧torsion的field Frobenius。此单块仍须经过真实weighted/Cor/moment。
 
+[R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2参数的实际阶/leading单位和full-level SS共同log-smooth提升仍须逐项支付，未当field Frobenius或F0数值。
+
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
 ### 原完整 47：已完成，只消费
