@@ -109,3 +109,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §77：原邻点Kummer输入的真实八个分次
 
 同一严格LT参数及Norm素元t使Δ作用精确a^p；实际different塔给下断点b=p²−1和Z每次升≥b。真实p次幂单位过滤及两个外部嵌入仅留八分次，保逐层提升和Z^(p−3)作用，未把八槽独立当坏条件。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §78：原秩零单位定标的三个真实邻点微分系数
+
+参考原E1的同规范Robert列付Z^(p−3)y=17a₂r₁⁰；真实different把r₁⁰的首非零dlog定位d₀=(p−1)p²。原a₂模p准确由同一邻点dlog的m=p,p+b,p+2b三项读出，末项乘子−λ^(p−3)/2非零而前两项未删。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

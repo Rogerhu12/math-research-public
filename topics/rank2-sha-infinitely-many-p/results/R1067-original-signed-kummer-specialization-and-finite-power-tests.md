@@ -297,3 +297,87 @@ $$
 $F$ 的赋值分次及剩余域乘法部分在 $e_\tau$ 内皆为零。
 这些是 $y$ 的 Kummer 输入的分次上界，求(AR1)时仍需保留
 $Z^{p-3}$ 在相继分次之间的实际提升。
+
+## 78. 用原秩零单位固定首读数，三项邻点对数微分给出原二阶系数模 $p$
+
+置 $f_1=2\delta$；在(AN1)的 $r_j$ 中把 $f,\varepsilon$
+换为 $f_1,\varepsilon_1$，仍用同一 $E_1,c,\varpi,\pi$，
+得 $r_j^0$。则按(AP1)的同一规范
+$$
+ (r^0)^{\rm ac}=72f_1(c^2-c)\xi_1 .
+$$
+对非平凡反圆角色的证明逐式为(AP2)，其中 $f_1$ 的反圆
+投影仍平凡。对平凡角色，完整 $j=1$ 和是
+$\pi^{-1}(-p-1)=1+1/p$ 乘在 $Q=0$ 的驯导数，此因子
+正是去 $(p)$ 的 Euler 因子，因为 $N(p)=p^2$ 且
+$\bar\psi_1((p))=-p$。R302(5)在实际 $\varpi$ 下给
+$L(E_1,1)/\varpi=(1-\omega)/6$。
+再以所有有限角色与 signed 直和唯一性即得断言。
+
+在 $F$ 的模 $p$ Kummer 张量中，(AR1)可加强为元素等式
+$$
+ Z^{p-3}y=17\, a_2\, r_1^0,\qquad
+                   a_2=[T^2]\mathcal A_p\bmod p.                 \tag{AT1}
+$$
+这里 $r_1^0$ 从 $\Phi_1$ 限制入 $F$。
+在(AQ3)对 $r$ 展开的二次项是
+$|\Delta|g_-Z^{p-3}y$。另一方面 $r^{\rm ac}=
+(f/f_1)\mathcal A_p(r^0)^{\rm ac}$，前两阶为零，而
+$(r^0)^{\rm ac}$ 的常数项是同一(AQ3)中的
+$|\Delta|N_{\Phi_2/\Phi_1}r_2^0=|\Delta|r_1^0$。
+两边的 $\Delta$ 正规化及 Tate 基完全相同。
+利用 $f/f_1=17$、$g_-r_1^0=r_1^0$，再用(AR1)中的限制单射
+即得(AT1)。
+
+把 $\Omega^1_{\mathcal O_F/\mathcal O}/p$ 中的系数张量
+$k\otimes_{\mathbf F_p}k$ 以当前选定的乘法嵌入读入 $k$。
+以 $t$ 为 §77 的素元，$v_1=P(t)$ 为 $F$ 中的整幂基表示，
+$d_0=(p-1)q$。则
+$$
+ v_F(P'(t))=d_0,\qquad
+ \rho=\overline{t^{-d_0}P'(t)}\,
+                  72f_1(c^2-c)\,(1-\omega)/6\in k^\times.
+$$
+确实 $\mathcal O_F=\mathcal O[t]$，
+$\Omega^1_{\mathcal O_F/\mathcal O}$ 由 $dt$ 生成，
+长度为绝对 different 指数
+$d_{F/\Phi}=d_0+p(b-1)$。商去 $dv_1=P'(t)dt$
+给 $\Omega^1_{\mathcal O_F/\mathcal O_{\Phi_1}}$，
+长度恰 $d_0<d_{F/\Phi}$，故得所示准确阶。
+又 $d_0<e<d_{F/\Phi}$，因此原绝对微分模 $p$ 在 $t$ 坐标
+正是 $k[t]dt/(t^e)$，$d_0$ 次首项可读。
+$r_1^0$ 对 $v_1$ 微分的常数项为
+$72f_1(c^2-c)L(E_1,1)/\varpi\bmod p$：沿(AP2)在 $z=0$
+求驯全和，用 $[\pi]^{-1}T_t$ 的置换不改带标记和，
+因为 $\varepsilon_1(-p)=1$。$\Delta$ 平均在常数导数上
+权与导数的 $a$ 作用准确相消，且严格 LT 参数导数为一。
+所有更高项乘 $P'(t)$ 后在 $t^{d_0+1}$ 内。
+$d\log$ 在模 $p$ 后杀所有 $p$ 次幂，故(AT1)给
+$$
+ 17\rho\, a_2=[t^{d_0}]\,
+       (g_-^*-1)^{p-3}\big(d\log y\big)/dt\quad\text{于 }k.       \tag{AT2}
+$$
+
+右侧只需 $(d\log y)/dt$ 的实际三项系数
+$$
+ L_i=[t^{p+ib-1}](d\log y)/dt,\qquad i=0,1,2.                   \tag{AT3}
+$$
+因为 $[a]t=a^pt$、$e_\tau$ 及所选乘法嵌入共同强迫
+非零的 $[t^{m-1}]$ 有 $pm\equiv1\bmod b$，即
+$m\equiv p\bmod b$。$g_-t=t(1+\lambda t^b+O(t^{2b}))$
+模 $p$，其中 $\lambda\in k^\times$ 由恰好一个断点保证，
+而 $\Delta$ 交换性保证其余指数也为 $1\bmod b$。
+每次 $(g_-^*-1)$ 至少将微分的 $t$ 次数提高 $b$。
+$d_0+1-(p-3)b=p+2b$，故只余(AT3)。
+更明确，令 $L(t)=\sum_{i=0}^2 L_i t^{p+ib-1}dt$，
+将(AT2)的输入换为 $L(t)$ 即为准确等式。
+末格 $L_2$ 的乘子是
+$$
+ \lambda^{p-3}\prod_{j=1}^{p-3}(p+(2+j)b)
+                 =-\lambda^{p-3}/2\quad\text{于 }k^\times,         \tag{AT4}
+$$
+因为 $t^{m-1}dt$ 的一次最低增阶项为
+$(m+b)\lambda t^{m+b-1}dt$，而 $b=-1\bmod p$。
+前两格的乘子也由同一 $g_-$ 的实际置换决定，不能由(AT4)
+丢掉。用(AR2)代入(AT2)所得是原三格的组合；
+右端非零仍是原 $a_2\ne0\bmod p$ 的充分且必要条件。

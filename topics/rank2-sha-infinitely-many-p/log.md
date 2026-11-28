@@ -523,3 +523,17 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:22:40 UTC到2ef6084053aa87ae353af74f71c7909e20cbe431，私库2026-11-28 14:22:35 UTC到41c0efcde53afd2424cd7c4f47a8e605433282fc；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47688774B/tree0de8aaa54305b8753a0f02c11b6135ed75402e93，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:22:58 UTC到83e698c1bb6b9e1fbc846aee8371eb0a6a408064，私库2026-11-28 14:22:50 UTC到f04b9ec4307a7ef603283292018cd72121736e23；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47688774B/tree0de8aaa54305b8753a0f02c11b6135ed75402e93，无>5MB。
+
+## 2026-11-28 14:23:05 UTC：R1067 §78：原秩零单位定标的三个真实邻点微分系数
+
+根核平凡参考Euler1+1/p与R302绝对L/varpi、全部AQ3 Δ/Tate同归一，f/f1=17；真实相对/绝对different与dv1=P′dt付首阶d₀，模p微分为k[t]dt/t^e。Δ精确a^p筛m≡p及p−3次真实微分差分仅需三槽；Wilson乘积给末−λ^(p−3)/2，不删其余两槽或预断中央非零。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:23:13 UTC到3bbf2a55692c7986dfdb391fc46b4c4593cfd2d5，私库2026-11-28 14:23:09 UTC到97a00a6398aceca5a8d77b24b669ee3d64673224；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:23:27 UTC到87b63bff5f7201896e8228a727edba9f5574e705，私库2026-11-28 14:23:22 UTC到e94a812aad9e2e6485a01b891916e20715c819f7；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:23:40 UTC到a5aff15cb9a6ac01534bf910f6fff6ceed89bdc5，私库2026-11-28 14:23:36 UTC到5f7356ba66cde0acaf9cb91c347a801b52740ef9；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 14:23:53 UTC到28bbf08e17ea867f69aff88f20b9305879644f9b，私库2026-11-28 14:23:48 UTC到2ae4326386f756a8ec3ae3aeb18baa44e9fb5e5c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
+
+推送前实际本地双pull（本次发布第5次）：公开2026-11-28 14:24:06 UTC到e0a4f90cc65f760a253973ede1bbc911ec8f0c56，私库2026-11-28 14:24:02 UTC到cc45ce4c53bdf4124f58e2717687c693a0affc1f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
