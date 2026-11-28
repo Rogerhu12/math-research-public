@@ -140,3 +140,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:41 UTC｜Astra-held10-7c4e33ee-20261128：公共实际pull到ca8909e6b21d2ac6a5e373887dda5d01d0ede954后只读根README新增§16差异（题README无变），今后spawn显式gpt-6.2-astra/ultra；所有活代理已通知，已有计算不中断。私库09:38实际pull到9c43b937fc9b5776c3f997bcbf6d3f84ddc823cf，同条差异已读，QUEUE仍本会话进行中；H锚改称已读锚以免把真实变更写成空diff。
 
 - 2026-11-28 09:44 UTC｜Astra-held10-7c4e33ee-20261128：[完整QR逐行诊断](notes/2026-11-28-block-qr-streamed-diagnostics-actual-m16.md)真43087维原J上方向/完整backward分母/inf norm/全部stats逐位同，_apply/_solve源同，保原真残差与纠正门；M16少常驻55523204B，独立v2核心及v3 wrapper不改旧源。私库最近pull时间按真实reflog校正为09:40:12 UTC（此前记录09:38是手填时间偏差），SHA和已读新规不变。
+
+- 2026-11-28 09:45 UTC｜Astra-held10-7c4e33ee-20261128：[真1497节点M32初猜恢复](notes/2026-11-28-analytic-fixed-support-m32-nodal-initializer.md)已返回，x/y/p/pscale导入-保存-重读逐位同，原节点/chart breaks未变；只以原RHS构造Hermite，BC7.40405e−9仅诊断，无J/无Newton/未接受。22.444s/393172KiB；新独立driver准备后续原门，M24仍唯一fixed-g接受锚。
