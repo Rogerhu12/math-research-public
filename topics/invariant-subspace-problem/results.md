@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-W-alpha-whole-exclusion-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Haar-maximal-essential-distance-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [全部原Walsh根图与任意普通不变投影的最大本质距离](results/R12-appendix-walsh-root-maximal-essential-distance-and-no-bounded-angle.md)：真实固定宽pattern及中位旗两次极限独立支付[P,U_jF_j]，直接D²展开构造距离1和±1弱零列。所有块根分支/固定有限吸收同；固定Julia完整Riccati没有任何有界解，原场外闭根仍开。
 
 - [整个当前W的α=0原支完整排除](results/R150-appendix-unit211-W-entire-alpha-zero-complete-original-exclusion.md)：完整QQ[k]/(k²+8k+8)五原八×二、两真实标量Bézout得g13且U^13完整返回；四重φ覆盖全部提升。run46113632943实际0.514844278秒/0，全W现在付α/γ；不外推h=k、不称W已空。
 
@@ -67,5 +69,3 @@
 - **优先更正／撤回原题推论：** [unit211二重点平方错误、真实R2与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。旧compact E1误用d1²；新七变量原乘法20ms/11零差付真R2。沿错误Rbar的Phi首头/H1/三生成/H42/C5/583等原必要性与排除撤回，45篇已加警示；旧定义矩阵实际记录保留。等单值compact后继亦隔离，正确W链及十三原单位/Haar/R271不受此错。
 
 - [R150 附录：原M整曲线恰十四阶与完整583整权模型](results/R150-appendix-unit211-Phi-zero-original-M-exact-fourteenth-factor-and-complete-583-model.md)：双向有理参数/真实横截面、原22矩阵三核轮次付Mn¹⁴ QQ整除，原模上界付恰14。合此前真因子得完整583/LC564；参数零与全部坏块保，u1/T/ell冻结门不续跑。
-
-- [R12 附录：原逆变量与同一平坦分母的联合解析场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)：统一双系数预算、真正P解析逆及L^q Jensen付全部原旗商非零分子quasi；最大闭图/原参数核心/闭包场忠实。实际P超越旧单变量场，e^P亦不在旧场(P)；最低w阶证明联合场仍无平方根，场外复来源继续。

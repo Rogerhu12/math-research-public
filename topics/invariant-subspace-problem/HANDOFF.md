@@ -7,12 +7,12 @@
 - **数据规矩8/15：** 本会话可重算编码/分片已从main移除，只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。旧输入仅终端临时读取，不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** d418d85dc88d60a5bde50b7918a1dbea1bb65e82（2026-11-28 06:01:16 UTC，Actions run46114630408实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46114630408-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 06:01:14 UTC/b6be9f0d9e43b59713ec1d2a26b4eb74332370c7，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** d353920947433a53d7de7cbe8b36e24123b2a031（2026-11-28 06:03:18 UTC，Actions run46114789414实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46114789414-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 06:03:15 UTC/82c883f1d29a4becbbb9e25e5020585f6be46ede，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 约07:20 UTC起不可用，05:03复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `7a0ad1d4021f55467beeea22b0fad9bd3a7a7551`（2026-11-28 06:00:37 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `4ad19a540236202b6617395db1c8d352015155c0`（2026-11-28 06:02:38 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-W-alpha-whole-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Haar-maximal-essential-distance-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -66,6 +66,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** 同P最大根/精确幂费、正P场无根、双平坦Q/T²忠实保。负P整类Σ|c_n|M_8n有限全真旗quasi，同向双负幂/商场真图核已付。新固定源移位根有整圆周超幂费，排所有连续复路径固定左右正则器；全尾有界移位根分类已付。双变量整和quasi、任意场外根仍开。
+- **原Haar普通格/根：** 同P最大根、正P场无根、双Q/T²保。负P整类全真旗quasi/商场图核、移位根整圆周费用/连续路径障碍已付。新全部Walsh根图与任意普通C⊕C不变投影本质距离1，非平凡P有±1弱零列；固定Julia完整Riccati无有界图角，含全部分支/有限吸收。双变量整和quasi、场外原闭根/无界图角仍开。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。

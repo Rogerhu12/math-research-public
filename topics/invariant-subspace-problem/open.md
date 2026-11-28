@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-alpha-whole-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-maximal-essential-distance-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar全旗/同P最大根、逆费及正P场结论保归档。[双Q/T²忠实](results/R267-appendix-double-flat-two-torus-and-negative-inverse-source-faithfulness.md)给独立P/Q相位及整双逆类无Y²=CQ²。[负P全旗quasi](results/R267-appendix-negative-flat-inverse-entire-sources-universal-range.md)Σ|c_n|M_8n有限、同向双负幂/商场真图核全付。[整圆周移位根费用](results/R12-appendix-actual-shifted-roots-whole-circle-cost-and-continuous-complex-paths.md)经零阶最小模+Baire，固定源/固定任意左右有界正则器在每条连续复路径均超多项式；单全尾有界移位根全分类。稀疏移位/随动源、一般双变量整和全旗quasi、任意场外Y²=CQ²及真正闭根继续，未知旗不假设保规范酉。
+原Haar全旗/同P最大根、正P场保归档。[双Q/T²](results/R267-appendix-double-flat-two-torus-and-negative-inverse-source-faithfulness.md)忠实及[负P全旗quasi](results/R267-appendix-negative-flat-inverse-entire-sources-universal-range.md)真图核已付。[整圆周移位根](results/R12-appendix-actual-shifted-roots-whole-circle-cost-and-continuous-complex-paths.md)排每条连续复路径固定左右正则器。[最大本质图距](results/R12-appendix-walsh-root-maximal-essential-distance-and-no-bounded-angle.md)对全部Walsh分支/固定有限吸收及任意普通C⊕C不变P精确为1，并构造±1弱零列；该Julia完整Riccati无任何有界图角。稀疏移位/随动源、一般双变量quasi、场外Y²=CQ²与非全域/无界图角继续。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
