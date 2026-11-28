@@ -681,3 +681,6 @@
 ### 2026-11-28 08:25 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1151：构造全部p³个finiteFL Heis坐标并用local cohom计数付全双射；原Θ scaling给全global像(rx,sy,zxy)、s=T0及完整零r/s分支。真正中央减法rs h−zab、Gaussian/cubic最高组合全保，明确首数字条件不代whole p-disc。
 - H/open前态归档并压缩，原中央F0/Θ实际值、深盘和full Nns继续；全文纸推，无数学程序，不重做既有global scaling结论。
+
+### 2026-11-28 08:26 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1149 §17付通用Hasse梯度与两个原CM short-chart参数的完整p²运输；root核R1071.57/R1082.9–10精确消费，区别Cartan δ与Deuring δ_Car。旧1–16逐字保留；读数单位与真实中央组合继续，无数学程序。

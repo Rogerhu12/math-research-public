@@ -168,3 +168,5 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 ### R1151：实际全局 Frobenius subtraction 与退化分支
 
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付所有p>37的H¹(Qp,Heis)↔Fp³ finiteFL坐标全双射；p>Ccyc的全部global像准确(rx,sy,zxy)，其中(r,s,z)来自同一Θ，s=T0=u5modp。r/s为零时使用原文七行完整条件，不能除去或以单quadric代替。rs非零的真实中央差为h−zab/(rs)，通用八次系数a3b5(3rs/8−z)。Gaussian/cubic最高项分别16δ³c_g⁶(rs z12−z x4y8)、16δ³c_g⁶(rs z12−z λA*y7/6)；需证明这些同源组合而非raw z12单位。全局CM点给常数项0，有限根完整分类；cubic r0的单位首槽仅迫u∈p²Zp，不付whole盘。继续指定Θ/F0值、深盘与其余全范围。
+
+R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β_CM t；coarse T*=β_CM^eT，e2/3。两CM β显式binomial unit，Gaussian β_CM=−δ_Car而非Cartan δ；这是底参数运输，不是旧Kummer读数到FL坐标的单位标定。继续同源中央组合。

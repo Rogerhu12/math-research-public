@@ -730,3 +730,147 @@ Definition 5.1、Proposition 5.3、§5.3。
 [R1150](R1150-original-relative-log-Frobenius-and-crystalline-identification.md)在同一 Hodge frame 构造完整 horizontal Frobenius：先由原 geometric rigid residue 同构解 abelian 方程，再以原 Tate arithmetic identity $a_5=u_5$ 消去三个中央 residue，得到唯一全局 log Frobenius。严格扩张的显式 horizontal period gauge、proper-log 全曲线下降及原中央 $H^1_{\rm et}=0$ 识别同一 R1147 tower。
 
 所以 §12 明确保留的同一 **rational relative associatedness** 前提现已支付。§§11–15 的整 Taylor、有限 Cartan $q_t$ 与三个原 Heisenberg 槽在其原未分歧短盘、小权、实际 integral frame 范围内可据此使用；没有把弱 filtration/Frobenius 同构代替连接同构。真实参考 $F_0$ 的中央条目、同一 global lift 的 subtraction、其余 twist/ramified 情形及全范围排点仍按 open.md 继续。
+
+
+## 17. 原 Hasse 梯度与两个 CM 小盘参数的精确换算
+
+本节把 R1071 的原 first-lift 参数 $t_*$ 与 §§13–15 的整参数
+$u=pt$ 对齐。只换同一实际曲线的底参数，不更换 differential、
+Weil root、Kummer generator 或 Frobenius frame。
+
+为避免混淆，本节仍以 $\delta$ 表示 (1149.35) 的 Cartan 非平方；
+Gaussian 原 Deuring primitive 的常数另记
+$\delta_{\rm Car}=D\Psi$。它们是不同来源的量。
+
+### 17.1 通用的有限多项式身份
+
+在 $\mathbf F_p[A,B,x]$ 中置
+$$
+m=(p-1)/2,\qquad f=x^3+Ax+B,
+$$
+$$
+H_p(A,B)=[x^{p-1}]f^m,\qquad
+\beta_p(A,B)=[x^{p-2}]f^m,\qquad
+\partial=6B\partial_A-\frac43A^2\partial_B.
+$$
+原 $\partial$ 与 (1149.26) 及 R1082 的 heat normalization 相同。
+准确有
+$$
+\boxed{\quad
+\partial(f^m)-xf^m
+=-2\frac{\partial}{\partial x}
+       \left((x^2+2A/3)f^m\right).
+\quad}
+\tag{1149.46}
+$$
+这是有限多项式恒等式。事实上 $m=-1/2$ 于 $\mathbf F_p$，
+两边除公共因子 $f^{m-1}$ 后都等于
+$$
+-x^4-Ax^2-4Bx+\frac23A^2.
+$$
+因此取 $x^{p-1}$ 系数时，右端是 $-2p$ 乘某系数，准确为零；
+左端的第二项是 $\beta_p$。得到
+$$
+\boxed{\quad \partial H_p=\beta_p.\quad}
+\tag{1149.47}
+$$
+这里没有对仅在 supersingular 点成立的值式求导，也没有
+characteristic-zero 高阶 series 的降模问题。
+
+在 $\mathbf F_p$ 方程及原 $\omega=dx/(2y)$ 下，
+$\beta_p$ 正是原 relative Cartier 读数
+$C_{\rm rel}(x\omega)=\beta_p\omega'$：写
+$x\omega=xf^m\,dx/(2y^p)$，分子次数小于 $2p-1$，
+Cartier 只读取 $x^{p-1}$ 项。这同时固定了此处的
+Cartier 系数方向；扩域后如改用 semilinear Cartier，
+必须保相应 Frobenius twist。
+
+### 17.2 在同一个 marked CM reference 上读取 first lift
+
+取 §13 的原 $\mathbb Q_p$ supersingular CM reference
+$E_0:y^2=x^3+A_0x+B_0$，保持其标记和 $\omega$。
+R1071 §17.1 的 tangent-one eigenparameter 与同一个 CM reference
+给 $t_*(E_0)=0$；对方程的 $p$-close 改变
+$(A_0+pa,B_0+pb)$，其已付准确身份是
+$$
+t_*\equiv H_{p,A}a+H_{p,B}b\pmod p.
+$$
+这里消费的是 R1071 (1071.57) 的完整 $p^2$ 精度及整 eigenparameter
+运输，不只消费 special fibre 的 Hasse 公式。
+
+Gaussian 情形固定 $A_0$，取本篇的
+$u=-3B/(4A_0^2)=pt$。于是
+$$
+a=0,\qquad b=-\frac43A_0^2t.
+$$
+cubic 情形固定 $B_0$，取
+$u=A/(6B_0)=pt$，于是
+$$
+a=6B_0t,\qquad b=0.
+$$
+这两组 first-lift 向量分别就是原 $\partial$ 在 $B_0=0$、
+$A_0=0$ 处的值乘以 $t$。由 (1149.47)，在同一个原标记下准确得到
+$$
+\boxed{\quad
+t_*=\beta_{\rm CM}t\quad\bmod p,\qquad
+\beta_{\rm CM}:=\beta_p(\bar A_0,\bar B_0).
+\quad}
+\tag{1149.48}
+$$
+本节的 $\beta_{\rm CM}$ 只表示上述 Cartier 值；它不是 R1071 中用于
+$p$-torsion 根的 $\beta_0$，不能将两者认同。
+同样，R1071 的 root-deformation 系数 $\lambda$ 与本篇
+$\mu=\varphi\nu=\lambda\mu_g$ 的 $\lambda$ 也不因记号相同而相等。
+
+两 CM 情形的 Cartier 值均有直接单位读数：
+$$
+\begin{array}{ll}
+B_0=0,\ p\equiv3\pmod4:
+&
+\displaystyle
+\beta_{\rm CM}=\binom{(p-1)/2}{(p-3)/4}\,
+              \bar A_0^{(p+1)/4}\ne0,
+\\[6pt]
+A_0=0,\ p\equiv2\pmod3:
+&
+\displaystyle
+\beta_{\rm CM}=\binom{(p-1)/2}{(p-2)/3}\,
+              \bar B_0^{(p+1)/6}\ne0.
+\end{array}
+\tag{1149.49}
+$$
+每个二项式的上下标都在 $0,\ldots,p-1$ 内，非零曲线系数为单位。
+Gaussian 情形又由 R1082 (1082.9)–(1082.10) 的同一原
+$\Psi$ 与 residue 归一得到 $\beta_{\rm CM}=-\delta_{\rm Car}$；
+该负号没有通过任意 period choice 消去。
+
+### 17.3 原全部标签在两个 coarse 参数间的运输
+
+记旧 profile 的 coarse 参数为 $T_*=t_*^e$，本篇为 $T=t^e$，
+其中 Gaussian 的 $e=2$，cubic 的 $e=3$。于是
+$$
+\boxed{\quad T_*=\beta_{\rm CM}^eT.\quad}
+\tag{1149.50}
+$$
+对旧 profile 的任何一个实际坐标
+$P(T_*)=\sum_i a_iT_*^i$，用本篇底参数读取的同一函数准确为
+$\sum_i a_i\beta_{\rm CM}^{ei}T^i$。因此原函数的 degree、最高系数是否为零
+及整套标签的共同 fibre 均只作这个已知单位的参数运输。
+Gaussian 情形的乘子是 $\delta_{\rm Car}^2$，而非 Cartan 的
+$\delta^2$；cubic 的乘子是 (1149.49) 第二行的三次幂。
+
+这是同一个 fine CM chart 内、同一个 marked differential 的身份。
+其它 twist chart 或扩域仍须按 §§13–15 同步运输原模型、相位和
+semilinear Frobenius。本节没有从一个 fine line 推出全部 coarse
+points 的覆盖。
+
+尤其，(1149.48)–(1149.50) 只支付底参数的准确同源桥；
+它们没有将旧 Kummer 的 leading readout 与新的有限
+Fontaine–Laffaille Frobenius 坐标之间的比较单位设为一，
+也没有读取 $F_0$ 的任何新中央条目。实际中央 local obstruction
+仍须减去同一 global torsor。全部证明为有限多项式与已付
+first-lift 公式的纸面推导，没有数学程序执行。
+
+来源：R1071 §17.1（原 eigenparameter、$p^2$ 精度和 Hasse 梯度）；
+R1082 §§2、5（同一 Cartier、Deuring primitive 和 heat 归一）；
+本篇 §§13–16（实际整参数及已付相对关联）。
