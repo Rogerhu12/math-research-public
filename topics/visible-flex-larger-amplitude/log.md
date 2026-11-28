@@ -458,3 +458,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:55:24 UTC — 27完整R725五分之八独立启动
 
 6全件158381B：controller19995/0c54bbe4只换26四槽label；workflow2216/aca6ac9b五literal组，原350min/依赖pins/partial clone/真pull规则保。request37563/dfe2e121保53当前key+51全父key与14外部责任，sciencefamily137pair/22runtime不改。queue74597/9f9def58整6/26/157词，reference仅id26→27；science+pure119013/all4 127134超95000，整pure52646在真正science自然返后接。唯一科学数值b1/2→5/8，源ε1/8/δ1/32/两μ.01及原预算保。最新19自然report和26实际child原note单列，不跨runner迁移。官方actualrun/job/model/point尚未知。H完整旧措辞保29b62396acbffeee96e514be5a342fbc434b93f4；open§1–6原字不动。双README云核至`845b8153d56c344e848a60160683e09bd5194765`无变（非pull），未加AST/fixture/新门。
+
+## 2026-11-28 03:56:58 UTC — 27官方实际启动确认
+
+46105138690/1，workflow433391338/job140856083740，03:55:38Z从a773d67267750078be498284d1fcd3cabe4f3ab3实际启动。完整官方run/jobs保note；checkout/Python成功，依赖in_progress/研究pending，实际input/model/point/费用未返。H完整前文保a773d672并缩当前索引以容真实新槽，不删证据。双README云核至`43c5ebd70bd8bb15fbf403a7f8ba21dbb89c635e`无变（非pull）。
