@@ -63,7 +63,7 @@ Actions27：[run 46105138690/1](https://github.com/Rogerhu12/math-research-publi
 
 <!-- visible-larger-parallel-28:start -->
 Actions28：[run 46108296054/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46108296054)；[全阶段记录](notes/2026-11-28-public-actions-46108296054-1.md)。running；已返2，exit=未返。
-并行28规则核查：2026-11-28 06:53:08 UTC，真实pull至`c1d742877be8722e899e5de8ee2b2f3dc21bbaae`，双README无变化。
+并行28规则核查：2026-11-28 07:03:12 UTC，真实pull至`36f8a1e0d7075affdeeb65f268c62e693b7c2757`，双README无变化。
 <!-- visible-larger-parallel-28:end -->
 
 <!-- visible-larger-parallel-29:start -->
