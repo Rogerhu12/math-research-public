@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/67b6d2129a0d29de281a1296221bca6fc4b96eef/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
+此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/037dd5055bf7df6fd2cd6307c1a05a708b3b6e2a/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
 
 ### 当前真实数值
 
@@ -135,6 +135,6 @@ normal.complete不代连续branch，mean J不代Cu，R709 bool保真；R722三�
 
 ### 容量和完成标准
 
-[ret60第二子批](computations/legacy-exact-generated-outputs-retention-60-part2-complete-delivery.json)33输出精退，毛1303692B/5完整件283691B/净1020001B，61源/269输入/32原resource与全部argv/失败/有限及条件结论/准确Git恢复齐；加首批19项净1929467B。全部原SHA已知，输出恢复34317、输入默认603214；旧reader先恢复原字及完整输入，不放宽guard。首批/ret59及前链保，活输入/未知/parent91/ports/Nelder不猜删。
+[ret61首批](computations/legacy-outward-outputs-retention-61-part1-complete-delivery.json)11显式maxstep旧轨道：毛395487B/三全件72691B/净322796B。原完整6798B源、全部config与重构argv、实际成功/异常、有限结论和全字恢复17ed齐；未记录的早期执行sourceSHA/原shell/环境仍null，不以后来cf163源冒替。旧reader须恢复完整原对象和输入。ret60两批净1929467B、ret59及此前完整链保旧open/各总表；未知/活输入/parent91/ports/Nelder不猜删。
 
 README全部标准未完成；时长、阶段、失败和输入困难不是终点。新raw只runner/scratch，保可复现全源码/配方、run/whole SHA及真实结论，继续真正求解和全部固定目标精化。

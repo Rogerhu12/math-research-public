@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难非终点。**
-此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/67b6d2129a0d29de281a1296221bca6fc4b96eef/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
+此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/037dd5055bf7df6fd2cd6307c1a05a708b3b6e2a/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`01e9394d6c31ef99a74bb821a9e3a2843813a0a6`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`1ef178c5087c8b06ebc23de2530c1316b6ea7483`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -27,7 +27,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 22=46090913581 | 两input0；初7e06/g.5305849371949052/accepted0，六族返；trial97fbb统计返Phi681.6511710299278/Gram.4061652579029476，几何/决定未知；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 | 23=46094430214 | 两input0；b31c/f2a9/PID3652/model0abfbf，初7e06/g.968424994209506，六族返/accepted0；triald86d统计返Phi3825.0583176123996/Gram.6460503022350718，几何/策略未返。 |
 
-全source/model/point/六族/事件/原失败保：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。18–24均未返完整report，当前点不可行。
+所有source/model/point/六族/事件/原失败保[open§7](open.md)所链各完整run note与固定旧H；18–24完整科学report未返，当前点不可行。
 
 ## 新机制及完整后继
 
@@ -43,7 +43,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret60第二子批](computations/legacy-exact-generated-outputs-retention-60-part2-complete-delivery.json)33旧输出毛1303692B/5全保全件283691B/净1020001B；61源/269输入/32原resource及全部argv/失败/条件结论/原SHA/确切Git恢复齐。加首批19项净1929467B，未重复。ret59及前链保；活输入/未知/parent91/ports/Nelder不猜删。root接真实求解；construction续容量，solver等价加速，geometry新cutoff。
+[ret61首批](computations/legacy-outward-outputs-retention-61-part1-complete-delivery.json)11旧显式步长轨道净322796B；完整旧源/参数/原失败与Git恢复保，早期执行sourceSHA未知不填。ret60两批净1929467B/ret59及前链保；活输入/未知/parent91/ports/Nelder不猜删。root真求解；construction容量，solver等价加速，geometry R725新全源。
 
 [24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)实际46096380016/1/job140828543967，两input0；science0f0bb/PID3575/model9e2d7，初7e06/g.6122924171813162/六族返/accepted0，trial未返。全137/18源同22，仅宽度变；原预算与完整pure续接保。
 
