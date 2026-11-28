@@ -200,3 +200,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 11:32 UTC — 完整 QR factor-only 映射真 M16 等价核过
 
 同已存43087维完整J的一次实际比较，解方向/每个后向分母/完整原J残差数组/CSR hash/全部原统计逐位同，原残差1.06667e−20。3514数组全部映射，GC禁用即释放；实测RSS223657984→112631808B，7.080s，构造峰不降。root完整读源并核7个直接绑定，不额外重复测试。见 [记录](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)。
+
+## 2026-11-28 11:34 UTC — 固定 g v6 完整预算仅准备，RAM 后继未启动
+
+原64/32批、1497点最新8c43完整初猜、全部原方程/门保持。逐mesh pre-J与有因子原RHS/solve预算源及8唯一原入口替换编译已核；没有实际模型/J/BVP，RAM路径明确不启动，改由独立已核factor-only存储后继。root读源并核12个输入/依赖绑定。见 [记录](notes/2026-11-28-analytic-fixed-support-v6-updated-nodal-budget-prepared.md)。
