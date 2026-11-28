@@ -1,0 +1,433 @@
+{
+  "schema": "visible-larger-run48-coherent-shear-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_number": 48,
+  "source_branch": "main",
+  "scientific_mode": "The coherent R772 phase-zero sphere fixes one metric. Six actual finite-phase families are fitted on the axial cylinder, the two complete rounded heads and both full caps. The right cap and its entire rounded head are held. Both optimized material maps and globally common Cartesian corrections enter the physical coordinates.",
+  "full_candidate_solution_or_accurate_certificate_assumed": false,
+  "scientific_inputs": {
+    "script": {
+      "role": "script",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coherent_shear_phase.py",
+      "name": "bent_coherent_shear_phase.py",
+      "bytes": 11204,
+      "sha256": "46f61d547dfc9adb0aad50784d8be570fd52906ecc1e1f6c4244078ffe08cbf9",
+      "git_blob_sha": "5936e1c3449f15d82c9b83b914373b119af36d2b"
+    },
+    "coherent_fields": {
+      "role": "coherent_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coherent_shear_fields.py",
+      "name": "bent_coherent_shear_fields.py",
+      "bytes": 5187,
+      "sha256": "57382dffa48bcb487282e0f4bad96553bad23d70e4e623712722108abf9c5906",
+      "git_blob_sha": "1f4b78387b3a28e0672f1b1dbb669c6de5b61801"
+    },
+    "parameters": {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-coherent-shear-phase-design-v1.json",
+      "name": "bent-coherent-shear-phase-design-v1.json",
+      "bytes": 3902,
+      "sha256": "46b681704e27e901feb84769b71d1e8a913530cedf7a95d65735c3d9f8e6ba9f",
+      "git_blob_sha": "326c7346688fcf4666259c8abcb4f4941573920a"
+    },
+    "geometry_source": {
+      "role": "geometry_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r772_coherent_developing_tube.py",
+      "name": "r772_coherent_developing_tube.py",
+      "bytes": 4692,
+      "sha256": "2afabacdbcf7d60c708bdceece3b3e994c6097abe1a911aa456a404c823521d6",
+      "git_blob_sha": "275353a285f77f1bc39248464ee6a0871a01982f"
+    },
+    "export_source": {
+      "role": "Complete run48 R772 single-head axial closed terminal and cross-chart checks",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+      "name": "closed_body_mesh_r772_terminal.py",
+      "bytes": 9174,
+      "sha256": "367ffae0ab86f6c50b5428c80849db9b96d1fe99243962d4c8def06cdc01d4ad",
+      "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+    },
+    "bridge_system": {
+      "role": "bridge_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_system.py",
+      "name": "bent_preloaded_bridge_system.py",
+      "bytes": 5861,
+      "sha256": "507c6a8036b9a86b32b3477a0b7f7622382f134239f47d82a5758f598b1d23ba",
+      "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+    },
+    "r740": {
+      "role": "r740",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "name": "r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    "r742": {
+      "role": "r742",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "name": "r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    "r767_profile": {
+      "role": "r767_profile",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_negative_track_profile.py",
+      "name": "r767_negative_track_profile.py",
+      "bytes": 4051,
+      "sha256": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+      "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+    },
+    "r767_cap": {
+      "role": "r767_cap",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_preloaded_cap_atlas.py",
+      "name": "r767_preloaded_cap_atlas.py",
+      "bytes": 4615,
+      "sha256": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+      "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+    },
+    "terminal_mesh": {
+      "role": "terminal_mesh",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+      "name": "closed_body_mesh_terminal.py",
+      "bytes": 16874,
+      "sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+      "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+    },
+    "mesh_geometry": {
+      "role": "mesh_geometry",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py",
+      "name": "closed_body_mesh_geometry.py",
+      "bytes": 8315,
+      "sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+      "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+    }
+  },
+  "source_commit": "the actual workflow triggering Git commit, retained in its immutable detached scientific worktree",
+  "original_arguments": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-coherent-shear-phase-design-v1.json",
+    "--geometry-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r772_coherent_developing_tube.py",
+    "--export-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+    "--out",
+    "{runner_temp}/run48-coherent-shear-{run}-{attempt}/field"
+  ],
+  "scientific_budget_source": "Full original bent-coherent-shear-phase-design-v1.json and its frozen two-family finite-phase solver.",
+  "scientific_protocol": "All three coherent starts and all three director starts run the full two-interval problem. Both physically distinct winners independently receive all 4, 8 and 16 interval refinements. The target, trust moves, CG and line-trial counts are fixed by the whole parameters. The closed-field exporter measures both endpoint fields on the same runner at 65 verification phases plus seven requested mesh phases, with four physical seams and three true material coordinate maps on each cap.",
+  "canonical_point_words": "The scientific identity routine hashes compact sorted JSON containing design and basis names, full coordinate shape, little-endian binary64 coordinate and time node hashes, all actual physical source identities, target metric, world prescription, temporal basis and defining integration order.",
+  "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+  "python": "3.12.14",
+  "dependencies": [
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ],
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numeric_environment_parent": {
+    "path": ".github/workflows/visible-larger-public-small-core-full3-trust.yml",
+    "bytes": 13971,
+    "git_blob_sha": "e846d64025a9661ab8bf1449f26c7c8325af94b2",
+    "sha256": "5280636f0f773af4132792cbf699b2a26a10077522050a4a9f4a473b37333424"
+  },
+  "observe_period_seconds": 8,
+  "minimum_publish_retry_seconds": 20,
+  "live_scalar_publish_period_seconds": 120,
+  "readme_pull_period_seconds": 2700,
+  "public_remote_topic_bytes_limit": 200000000,
+  "action_job_timeout_minutes": 360,
+  "no_child_wallclock_cutoff_added_by_launcher": true,
+  "control_only": {
+    "supervisor": {
+      "role": "Complete Run48 shared-stage and two-index public controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_coherent_shear_search.py",
+      "name": "observe_bent_coherent_shear_search.py",
+      "bytes": 1549,
+      "sha256": "bda60ac10585a28a78aed2c104cb37996a23dcbdc04e03c23da3bc3d90b0e1bb",
+      "git_blob_sha": "54eeb2977da1b855deccf2ada9c9fbff36aad355"
+    },
+    "workflow": {
+      "role": "Complete public Run48 frozen single-rounded-head workflow",
+      "path": ".github/workflows/visible-larger-run48-coherent-shear.yml",
+      "name": "visible-larger-run48-coherent-shear.yml",
+      "bytes": 3837,
+      "sha256": "47ba0e90273fc7c693d0083976a8783fa54899bf31ffeca243a58d792c19691d",
+      "git_blob_sha": "d91fb4101ccdb4058f5c9cc24b0adc9cf8a26551"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    "shared_full_publish_supervisor": {
+      "role": "Run48 complete independent observer with immediate checked-pull note and handoff publication",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_run48_readme_publications.py",
+      "name": "observe_run48_readme_publications.py",
+      "bytes": 18248,
+      "sha256": "747f42206a5d8540229869f5b3e5855fe24416eddaf688fa2c0096d2288a10c3",
+      "git_blob_sha": "856eebd00bb1905274bf02996fd71ca3a183f62e"
+    }
+  },
+  "attempt_note_prefix": "run48-coherent-shear",
+  "handoff_marker": "<!--run48-coherent-shear-->",
+  "actual_observation_schema": "visible-larger-run48-actual-coherent-shear-v1",
+  "scientific_path_arguments": [
+    [
+      "--geometry-source",
+      "geometry_source"
+    ],
+    [
+      "--export-source",
+      "export_source"
+    ]
+  ],
+  "direct_input_lineage": {
+    "domain": "The exact R772 coherent (world e_Z) phase-zero metric on the complete material sphere, including both whole terminal disks and rounded heads. X0=.01; X1=1.67; the outward normal-offset comparator has a different metric and is not used.",
+    "reference": "R772 coherent translation tube, rounded single head on each axial side and its full disks. The director, true ring material map and fitted shape corrections are independent finite-amplitude physical fields on the same material sphere.",
+    "frozen_inputs": [
+      {
+        "name": "bent_coherent_shear_phase.py",
+        "git_blob_sha": "5936e1c3449f15d82c9b83b914373b119af36d2b"
+      },
+      {
+        "name": "bent_coherent_shear_fields.py",
+        "git_blob_sha": "1f4b78387b3a28e0672f1b1dbb669c6de5b61801"
+      },
+      {
+        "name": "bent-coherent-shear-phase-design-v1.json",
+        "git_blob_sha": "326c7346688fcf4666259c8abcb4f4941573920a"
+      },
+      {
+        "name": "r772_coherent_developing_tube.py",
+        "git_blob_sha": "275353a285f77f1bc39248464ee6a0871a01982f"
+      },
+      {
+        "name": "closed_body_mesh_r772_terminal.py",
+        "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+      },
+      {
+        "name": "bent_preloaded_bridge_system.py",
+        "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+      },
+      {
+        "name": "r740_rolled_disk_seed.py",
+        "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+      },
+      {
+        "name": "r742_tilted_disk_two_jets.py",
+        "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+      },
+      {
+        "name": "r767_negative_track_profile.py",
+        "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+      },
+      {
+        "name": "r767_preloaded_cap_atlas.py",
+        "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+      },
+      {
+        "name": "closed_body_mesh_terminal.py",
+        "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+      },
+      {
+        "name": "closed_body_mesh_geometry.py",
+        "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+      }
+    ]
+  },
+  "scientific_parameter_summary": {
+    "schema": "r772-coherent-shear-phase-design-v1",
+    "fixed_metric": "The exact R772 coherent (world e_Z) phase-zero metric on the complete material sphere, including both whole terminal disks and rounded heads. X0=.01; X1=1.67; the outward normal-offset comparator has a different metric and is not used.",
+    "defining_order": 20,
+    "geometry": {
+      "R772": "2afabacdbcf7d60c708bdceece3b3e994c6097abe1a911aa456a404c823521d6",
+      "section_corner_radius": 0.27,
+      "axial_head_radius": 0.09,
+      "flat_width": 0.14,
+      "curve_blend": 0.001,
+      "amplitude_bounds": [
+        0.01,
+        1.67
+      ],
+      "held_material": "complete right terminal cap and its rounded head",
+      "terminal_world_axis": "y",
+      "analytic_reference": "coherent base only: reach>=1/21, held>.315, D<1.55, delta_E>=.019; fitted fields require independent costs"
+    },
+    "families": {
+      "coherent": [
+        [
+          "unwarped",
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          "material-ring",
+          [
+            0,
+            0.8,
+            0.2
+          ]
+        ],
+        [
+          "mixed-clock",
+          [
+            0.04,
+            0.5,
+            -1.35
+          ]
+        ]
+      ],
+      "director": [
+        [
+          "exact-mixed",
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          "partial-director",
+          [
+            0.19,
+            0.25,
+            0.75
+          ]
+        ],
+        [
+          "regular-director",
+          [
+            0.075,
+            0.75,
+            -0.55
+          ]
+        ]
+      ]
+    },
+    "solver": {
+      "area_floor": 0.7,
+      "area_weight": 2.5,
+      "curvature_bound": 20,
+      "curvature_weight": 0.018,
+      "jac_chunk": 48,
+      "damping": 0.0015,
+      "cg_tol": 0.0002,
+      "cg_max": 160,
+      "step_displacement": 0.033,
+      "step_tangent": 0.2,
+      "line_trials": 9
+    },
+    "coarse": {
+      "level": 0,
+      "ns": 24,
+      "nv": 14,
+      "time_intervals": 2,
+      "order": 8,
+      "iterations": 5,
+      "check_ns": 33,
+      "check_nv": 19,
+      "check_order": 12,
+      "check_phases": 7
+    },
+    "refine": [
+      {
+        "level": 1,
+        "ns": 28,
+        "nv": 20,
+        "time_intervals": 4,
+        "order": 10,
+        "iterations": 7,
+        "check_ns": 37,
+        "check_nv": 25,
+        "check_order": 14,
+        "check_phases": 17
+      },
+      {
+        "level": 2,
+        "ns": 38,
+        "nv": 28,
+        "time_intervals": 8,
+        "order": 12,
+        "iterations": 8,
+        "check_ns": 49,
+        "check_nv": 35,
+        "check_order": 16,
+        "check_phases": 33
+      },
+      {
+        "level": 3,
+        "ns": 50,
+        "nv": 38,
+        "time_intervals": 16,
+        "order": 16,
+        "iterations": 9,
+        "check_ns": 65,
+        "check_nv": 47,
+        "check_order": 20,
+        "check_phases": 65
+      }
+    ],
+    "limits": [
+      "All six independent coarse candidates fit all three entries of the same R772 metric. The best in each of the two physical families is separately refined through 4,8,16 positive-time intervals, with a complete same-runner closed mesh export for both.",
+      "The director rotates the full real cross-section about world X by lambda(q_t-q_0). The lambda=1 unwarped raw seed pays the mixed and ring entries identically, but need not immerse. Mixed axial/ring material maps and all positive-phase Cartesian displacements are physical evaluation inputs, not post hoc sample matching.",
+      "The shared material displacement dictionary covers every cylinder point outside the right grip and every chart of the left complete dome and disk. First and second world jets at all seams use the same actual material scalar functions. The physical base has the original two-jet right attachment.",
+      "The gold target is the one phase-zero coherent sphere. All dense phase scalar rows and two independent terminal data sets use finite quadrature and finite grids; no numerical line implies the strict whole reach or exact metric of the fitted points."
+    ]
+  },
+  "output_contract": {
+    "scientific_summary": "Publish each complete stage-NN-return.json, the original summary.json and both closed-geometry-index.json documents from the root and director/ output directories.",
+    "raw_fields": "Raw coordinate states, detailed per-phase geometry, and all fourteen addressed PLY.GZ meshes remain on the scientific worker. Each small public terminal index identifies its own full state and every returned mesh.",
+    "public_attempt": "notes/run48-coherent-shear-<run>-<attempt>.json and its compact original scientific documents. The observer pulls main and reads both READMEs before every ordinary report and on each 45-minute idle interval. Each successful publication records the actual fetched commit in the handoff and the complete pull observations since the preceding publication in its attempt note.",
+    "interpretation": "The quoted R772 geometric bounds apply to its analytic coherent reference. The fitted points have independent full-phase mesh and metric diagnostics. The director can satisfy two metric rows on its bare prescribed seed and still lose immersion."
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "source_commit": null,
+    "actual_model": null,
+    "initial_metric": null,
+    "coherent_point": null,
+    "director_point": null,
+    "phase_metrics": null,
+    "seams": null,
+    "curvature": null,
+    "held": null,
+    "diameter": null,
+    "pair_chords": null,
+    "body_moments": null,
+    "complete_meshes": null,
+    "strict_certificate": null
+  }
+}

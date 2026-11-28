@@ -1,0 +1,142 @@
+{
+  "schema": "r772-coherent-shear-phase-design-v1",
+  "fixed_metric": "The exact R772 coherent (world e_Z) phase-zero metric on the complete material sphere, including both whole terminal disks and rounded heads. X0=.01; X1=1.67; the outward normal-offset comparator has a different metric and is not used.",
+  "defining_order": 20,
+  "geometry": {
+    "R772": "2afabacdbcf7d60c708bdceece3b3e994c6097abe1a911aa456a404c823521d6",
+    "section_corner_radius": 0.27,
+    "axial_head_radius": 0.09,
+    "flat_width": 0.14,
+    "curve_blend": 0.001,
+    "amplitude_bounds": [
+      0.01,
+      1.67
+    ],
+    "held_material": "complete right terminal cap and its rounded head",
+    "terminal_world_axis": "y",
+    "analytic_reference": "coherent base only: reach>=1/21, held>.315, D<1.55, delta_E>=.019; fitted fields require independent costs"
+  },
+  "families": {
+    "coherent": [
+      [
+        "unwarped",
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "material-ring",
+        [
+          0,
+          0.8,
+          0.2
+        ]
+      ],
+      [
+        "mixed-clock",
+        [
+          0.04,
+          0.5,
+          -1.35
+        ]
+      ]
+    ],
+    "director": [
+      [
+        "exact-mixed",
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        "partial-director",
+        [
+          0.19,
+          0.25,
+          0.75
+        ]
+      ],
+      [
+        "regular-director",
+        [
+          0.075,
+          0.75,
+          -0.55
+        ]
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.7,
+    "area_weight": 2.5,
+    "curvature_bound": 20,
+    "curvature_weight": 0.018,
+    "jac_chunk": 48,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.033,
+    "step_tangent": 0.2,
+    "line_trials": 9
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 24,
+    "nv": 14,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 5,
+    "check_ns": 33,
+    "check_nv": 19,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 20,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 25,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 28,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 35,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 38,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 47,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "All six independent coarse candidates fit all three entries of the same R772 metric. The best in each of the two physical families is separately refined through 4,8,16 positive-time intervals, with a complete same-runner closed mesh export for both.",
+    "The director rotates the full real cross-section about world X by lambda(q_t-q_0). The lambda=1 unwarped raw seed pays the mixed and ring entries identically, but need not immerse. Mixed axial/ring material maps and all positive-phase Cartesian displacements are physical evaluation inputs, not post hoc sample matching.",
+    "The shared material displacement dictionary covers every cylinder point outside the right grip and every chart of the left complete dome and disk. First and second world jets at all seams use the same actual material scalar functions. The physical base has the original two-jet right attachment.",
+    "The gold target is the one phase-zero coherent sphere. All dense phase scalar rows and two independent terminal data sets use finite quadrature and finite grids; no numerical line implies the strict whole reach or exact metric of the fitted points."
+  ]
+}
