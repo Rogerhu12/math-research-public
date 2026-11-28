@@ -204,3 +204,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 11:34 UTC — 固定 g v6 完整预算仅准备，RAM 后继未启动
 
 原64/32批、1497点最新8c43完整初猜、全部原方程/门保持。逐mesh pre-J与有因子原RHS/solve预算源及8唯一原入口替换编译已核；没有实际模型/J/BVP，RAM路径明确不启动，改由独立已核factor-only存储后继。root读源并核12个输入/依赖绑定。见 [记录](notes/2026-11-28-analytic-fixed-support-v6-updated-nodal-budget-prepared.md)。
+
+## 2026-11-28 11:39 UTC — 真 M24/N512 fullH 原完整响应返回
+
+原iteration0 freshJ、全部1152段/55344未知、1776项heightJ及audit实际返；residual3.652377088977401e−10，packet81f6eb0f…，全state/J hash与audit全字段经root核。13个直接绑定通过；normalizedFullDefect1.96429e−5不隐藏、不充连续证书。继续全谱几何/原耦合，λ1与闭图未完成。见 [记录](notes/2026-11-28-tail-actual-complete-fullH.md)。

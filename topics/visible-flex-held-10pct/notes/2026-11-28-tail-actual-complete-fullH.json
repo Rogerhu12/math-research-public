@@ -1,0 +1,118 @@
+{
+  "status": "actual_complete_original_fullH_J_and_audit_returned",
+  "actual_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/summary.json",
+    "sha256": "a2c1b51d66f7e3777c0f769059cd4c7fee0ce878ba67c5de6caaf2815be617d0"
+  },
+  "actual_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+    "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/resume_full_height_from_ulp.py",
+    "sha256": "dc26effaaf10de80ec50dd12e95de38970b189c1f75e5c664047a8c9e5d723e0"
+  },
+  "initializer_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/summary.json",
+    "sha256": "93aad9b186f642ea17d4997787d09711299d83ed2ca1240b00a341983495a3c4"
+  },
+  "full_height_reference": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/height-reference.json",
+    "sha256": "d0451df8687ca28b8297d5e08336d646c15485727a0fc4eb4c546be133e977dd"
+  },
+  "native_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/native-manifest.json",
+    "sha256": "ca2331a3b6d586d0dd248bdf30b3714597e143bbf308bb0d457ddadb8735e7eb"
+  },
+  "actual_fresh_complete_native_J_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/native-runs/0001-jac-record.json",
+    "sha256": "22491c11e4971f72ad92186e7a35ebe1a8812ccb6362bdc1b81068559a3772c3"
+  },
+  "actual_fresh_native_input": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/native-runs/0001-jac-input.bin",
+    "sha256": "27fb385e8b002ebb8629ea6b72082800bd6264e62561409a338d42d87d3e019b"
+  },
+  "actual_fresh_native_output": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/native-runs/0001-jac-output.bin",
+    "sha256": "d8b43426207561ba8a86f405bc6f7bd1a95e3a76d612d73e013cd7c3f8c3b1a6"
+  },
+  "actual_static_metadata": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/native-runs/static-metadata.json.gz",
+    "sha256": "fb5dddba29f33c1dd666995f80cc4c2b464498e39ef30b542ac04fcaeeb07d83"
+  },
+  "original_worker_trace": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/worker-trace.jsonl",
+    "sha256": "84b604c6dd86e6f08d781c7e001e19824fa29069ae25f5f12d7d5e1b6c753a28"
+  },
+  "actual_worker_exit": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_worker_exit.json",
+    "sha256": "22b85bc34027245dbb6aa895c6690423357e5e64b77a4bceccdbb896771fb144"
+  },
+  "controller_exec_exit_code": 0,
+  "completed_utc": "2026-11-28T11:34:53.890240+00:00",
+  "source_prefix": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "source_homotopy": 0.002,
+  "factor": 1.0,
+  "modes": 24,
+  "quadrature": 512,
+  "spacing": 3,
+  "physical_depth": 8,
+  "shooting_parts": 16,
+  "stage_count": 1152,
+  "rk_steps": 16,
+  "audit_steps": 16,
+  "complete_unknown_count": 55344,
+  "complete_state_f64le_sha256": "db4be26e70a0c30926b918b2bceb750328f7d07c9e5b9a3f9f6f817e9ec6d768",
+  "literal_complete_initializer_preserved_in_returned_state": true,
+  "complete_original_height_count": 24,
+  "requested_jacobian": true,
+  "requested_audit": true,
+  "converged": true,
+  "original_residual": 3.652377088977401e-10,
+  "original_solve_tolerance": 2e-09,
+  "original_iteration_count": 1,
+  "last_original_iteration": {
+    "iteration": 0,
+    "norm": 3.652377088977401e-10,
+    "minA": 0.5559990629241173,
+    "minD": 0.9991573250502112,
+    "jacobianMode": "fresh-J",
+    "correctionsOnJacobian": 0,
+    "chordMaxCorrections": 3
+  },
+  "full_height_J_count": 1776,
+  "full_height_J_finite": true,
+  "full_height_J_f64le_sha256": "c04045bf303b020ef6f5eb3deb853510163411b254c0076a1ebddd6996fe963f",
+  "full_original_audit": {
+    "fullD": 7.189741049203119e-07,
+    "normalizedFullDefect": 1.964293875679799e-05,
+    "minLeading": 0.5559990629241172,
+    "minD": 0.9991573422405592,
+    "formalCurvature": 8.385038066890585,
+    "maxPhysicalPV": 0.00032211040508152867,
+    "actualMetric": 1.924760351121307e-11,
+    "holonomy": 3.9641307367623766e-19
+  },
+  "native_root_calls": 73840,
+  "native_root_updates": 85963,
+  "native_root_fallbacks": 0,
+  "native_minA": 0.5559990629241173,
+  "native_minD": 0.9991573250502112,
+  "original_terminal_trace": {
+    "time": "2026-11-28T11:34:53.375Z",
+    "event": "response",
+    "call": 1,
+    "elapsed_ms": 703448,
+    "converged": true,
+    "residual": 3.652377088977401e-10,
+    "maxChartCondition": 0
+  },
+  "original_finite_response_passed": true,
+  "continuous_metric_certificate_from_this_worker_claimed": false,
+  "prefix_tail_coupling_completed": false,
+  "lambda_one_reached": false,
+  "complete_surface": false
+}
