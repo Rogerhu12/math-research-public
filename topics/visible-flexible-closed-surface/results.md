@@ -183,3 +183,4 @@
 - [R310：半高.660的真双臂中央带](results/R310-shortened-0660-threefold-central-belt-and-complete-reach.md)（已证明）：轴回窗真移到.350..650，真实臂两侧球全高<.348，完整reach≥.115；每半省.120，母面support>.179/.198。
 - [R311：半高.545的真双臂中央带](results/R311-compact-0545-threefold-shoulder-belt-and-tangent-ball-sections.md)（已证明）：真实平修.235、回接.235..535、原柱至.545；肩口球截面和完整内球证明reach≥.115，每半省.235，母面support>.222/.239。
 - [R312](results/R312-true-threefold-arms-high-caps-and-complete-shape-conditions.md)（已证明）两真厚臂全部连续像及原高平帽强形变组合条件：D*=3.830/3.788时held/D>.2004/.2013、δE/D>.0583/.0501，前提是同实际新前缀三个明列形状界；新原场自己的尾与reach/metric仍须支付。
+- [R313](results/R313-compact-normal-graphs-full-embedding-and-two-strong-distances.md)（已证明）V44/V45/V46同实际法向图全时C²嵌入，37596连续叶未决0给半宽<.8955，D≤3.1644、held/D>.20279、δE/D>.05068；新reach与原g容差不继承。
