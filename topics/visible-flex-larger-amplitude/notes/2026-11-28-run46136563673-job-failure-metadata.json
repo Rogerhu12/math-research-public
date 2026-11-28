@@ -1,0 +1,135 @@
+{
+  "schema": "completed-public-job-failure-metadata-v1",
+  "scope": "Existing official job log only; no scientific rerun or inference of unreturned mathematical results.",
+  "observed_utc": "2026-11-28 10:59:06 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "original_official": {
+    "run": {
+      "id": 46136563673,
+      "run_attempt": 1,
+      "head_sha": "991129feca922798c16e0caa1fd4cd39ff80d424",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-28T10:44:06Z",
+      "run_started_at": "2026-11-28T10:44:06Z",
+      "updated_at": "2026-11-28T10:54:23Z",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46136563673"
+    },
+    "job": {
+      "id": 140953069476,
+      "run_id": 46136563673,
+      "run_attempt": 1,
+      "head_sha": "991129feca922798c16e0caa1fd4cd39ff80d424",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "started_at": "2026-11-28T10:44:08Z",
+      "completed_at": "2026-11-28T10:54:23Z",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46136563673/job/140953069476",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T10:44:08Z",
+          "completed_at": "2026-11-28T10:44:09Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T10:44:09Z",
+          "completed_at": "2026-11-28T10:44:11Z"
+        },
+        {
+          "name": "Recover the full original, calculate every piece and publish its compact conclusion",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 3,
+          "started_at": "2026-11-28T10:44:11Z",
+          "completed_at": "2026-11-28T10:54:20Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-11-28T10:54:20Z",
+          "completed_at": "2026-11-28T10:54:21Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-11-28T10:54:21Z",
+          "completed_at": "2026-11-28T10:54:21Z"
+        }
+      ]
+    }
+  },
+  "original_log": {
+    "bytes": 18486,
+    "sha256": "3595f4d19ebb04741828566f71363966118288db28126523d45ddbea811beb2f",
+    "line_count": 217,
+    "complete_log_only_on_runner": true,
+    "raw_log_committed_or_uploaded": false,
+    "decode_replacement_used": false
+  },
+  "complete_trace_segments": [],
+  "original_error_lines": [
+    {
+      "line_one_based": 198,
+      "full_text": "2026-11-28T10:54:20.8898538Z ##[error]The operation was canceled.\n"
+    }
+  ],
+  "complete_R734_calculation_summary_messages": [
+    {
+      "line_one_based": 189,
+      "complete_original_summary": {
+        "raw_runner_only": {
+          "bytes": 3242987,
+          "sha256": "59a9389f0d6ed14925dab88f6ca1730293f12d9f91eb04d05fa2be1c8e79efd3"
+        },
+        "complete_logical_conclusion": {
+          "bytes": 9486,
+          "sha256": "14a1b8f02a4f666e7e1648220c0dc4839b9aff91842c7c7b15c147cfaa218222"
+        },
+        "Tstar": "5521397077432451681258409557824411482972690257952444033354931/488878517691568319843930617133212784384276878761161962439432074732",
+        "whole_prefix_count": 0,
+        "frontier": {
+          "lower": "0",
+          "upper": "0",
+          "right_piece_left_endpoint_valid": false,
+          "failed_at_upper": [
+            "a*a_sss+3*a_s*a_ss>=0"
+          ],
+          "domain_note": "preceding pieces end at x; right-hand data already fail at x",
+          "approximate_endpoints": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  ],
+  "original_mathematical_results_not_reconstructed": true,
+  "original_producer": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/recover_public_run29_failure_metadata.py",
+    "git_blob_sha": "dea2cb7f003720de5b52a87cda869a54ef813e5d",
+    "fixed_commit": "d9112d40bd141ed3e29e531beaaa022e2ba51a29"
+  },
+  "actual_log_recovery_run": "46137684288",
+  "actual_log_recovery_attempt": "1",
+  "actual_log_recovery_head": "53df0cd5915b44b7b85e13deb4c82d7f6bfff75d",
+  "rules_read_commit": "53df0cd5915b44b7b85e13deb4c82d7f6bfff75d",
+  "rules_sha256": {
+    "README.md": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "capacity_scope": "Complete current origin/main topic tree blob.size metadata plus this whole new note; no sparse-checkout undercount or lazy git-ls-tree -l blob reads.",
+  "source_sha256": "33fa7af3328d5006c6c3a80c458f48016215a000ecaf6a7d4937eebafaf8e639",
+  "scientific_computation_executed": false,
+  "fixture_or_new_gate_added": false
+}
