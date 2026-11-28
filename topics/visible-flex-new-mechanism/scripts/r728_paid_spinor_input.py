@@ -7,6 +7,7 @@ from types import SimpleNamespace
 import argparse
 import io
 import struct
+import time
 from urllib import request,error,parse
 from zipfile import ZipFile
 
@@ -100,6 +101,7 @@ def transfer(opt,layout,prior,count,elapsed):
 
 
 def stage(opt):
+    io_started=time.monotonic()
     token=os.environ.get('GITHUB_TOKEN')
     if not token:raise RuntimeError('The public job needs its read-only Actions receipt token.')
     root='https://api.github.com/repos/Rogerhu12/math-research-public'
@@ -140,7 +142,8 @@ def stage(opt):
     output.write_bytes(final)
     print(json.dumps(dict(kind='verified_historical_receipt',receipt_run=rid,artifact_id=aid,
               zip_sha256=cert['zip_sha256'],actual_member_list=members,member=cert['member'],literal_bytes=len(final),
-              literal_sha256=hashlib.sha256(final).hexdigest()),sort_keys=True),flush=True)
+              literal_sha256=hashlib.sha256(final).hexdigest(),administrative_io_seconds=time.monotonic()-io_started,
+              new_scientific_evaluations=0),sort_keys=True),flush=True)
 
 
 if __name__=='__main__':
