@@ -619,3 +619,5 @@
 2026-11-28 17:12:40 UTC — Astra-visible-flex-2ecfcd69-20261128：为获得R321新真实输入的完整原74比较，更新本课题专用短Actions workflow并立即执行；先两库literal pull/规则差，完成后小结论单独pull-rebase-push。永久任务加入R321自己同g全span加密、完整原高帽/实臂整像、新三入口剖面与自己的连续六jet消费者；各新输入失败不阻塞其他分支。
 
 2026-11-28 17:13:40 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46169273350/1 R321-actual-original-two-moment-comparison；小结见 notes/2026-11-28-2ecf-actions-46169273350-1-R321-actual-original-two-moment-comparison.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:14:11 UTC — Astra-visible-flex-2ecfcd69-20261128：V56 R320真空间入口，原g和全无限尾固定，256/512全正负角Cauchy场加实际全闭连接；独立前缀误差.0200285→.00653348但κ升11.09→14.17，完整过渡误差.9397717→.9397596、κ约112.7未达，真实held约.511。完整行及失败保留，继续更温和空间输入。
