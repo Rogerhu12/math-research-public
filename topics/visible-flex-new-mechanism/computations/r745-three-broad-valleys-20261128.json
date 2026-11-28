@@ -1,0 +1,70 @@
+{
+  "donor_native_tolerance": 2e-12,
+  "starting_physical_valleys": [
+    [
+      0.26,
+      0.027
+    ],
+    [
+      0.027,
+      0.26
+    ],
+    [
+      0.14,
+      0.065
+    ],
+    [
+      0.065,
+      0.14
+    ]
+  ],
+  "work_tolerance": 2e-11,
+  "independent_tolerance": 2e-12,
+  "initial_logit_trust": 1.2,
+  "max_logit_trust": 3.2,
+  "maximum_logit": 16,
+  "iterations_per_actual_seed": 24,
+  "trials_per_model": 10,
+  "root_residual": 2e-9,
+  "beta_quadrature_orders": [
+    16,
+    36
+  ],
+  "validated_piece_depths": [
+    0,
+    1,
+    2,
+    4,
+    6
+  ],
+  "valley_box_absolute_radii": [
+    0.004,
+    0.018,
+    0.048
+  ],
+  "maximum_face_parts": 16,
+  "extra_negative_depth": 11,
+  "signed_cap_schedule": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      2,
+      16
+    ]
+  ],
+  "reserve_seconds": 110
+}
