@@ -1,0 +1,251 @@
+{
+  "status": "unaccepted_original_R53_tangent_initializer_ready",
+  "scope": "Unaccepted complete collocation tangent for the original R53 delta design.\n\nAt one genuinely accepted original raw field, form J=dF/d(Y,p), approximate\nF_lambda by centered differences of the COMPLETE original residual at fixed\ncomputational t, and solve J z_lambda=-F_lambda with BlockQR.  No boundary,\nprofile, domain, Fourier mode, parameter column, or original acceptance gate\nis removed.  p[0] remains the original additive physical delta increment.\nThe predicted raw field is only a starting guess for the original solver.\n",
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "source_raw_sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616",
+  "source_physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+  "source_lambda": 0.002,
+  "target_lambda": 0.004,
+  "original_source_metric": 6.534787765754473e-07,
+  "source_mean_nodes": 1168,
+  "solver_invoked": false,
+  "accepted_bvp": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false,
+  "source_delta": 0.06413464112662924,
+  "physical_mean_reconstructed_only_by_subsequent_original_audit": true,
+  "p0_meaning": "original additive physical delta increment",
+  "coordinate": "unchanged original computational t",
+  "progress": [
+    {
+      "event": "original_base_residual_checked",
+      "seconds": 35.9516582680003,
+      "states": 73,
+      "nodes": 879,
+      "controls": 24,
+      "rhs_difference": 8.673617379884035e-19,
+      "residual_max": 4.3983177284010555e-11
+    },
+    {
+      "event": "complete_lambda_difference_returned",
+      "seconds": 216.48117825400004,
+      "step": 5e-06,
+      "relative_difference": 3.6454628572163515e-10
+    },
+    {
+      "event": "analytical_lambda_comparison_returned",
+      "seconds": 222.7418200320003,
+      "relative_difference": 3.231331383610089e-10
+    },
+    {
+      "event": "complete_log_q_difference_returned",
+      "seconds": 378.107395643,
+      "step": 5e-06,
+      "relative_difference": 6.217328342495664e-10
+    },
+    {
+      "event": "original_global_jacobian_start",
+      "seconds": 411.033971328
+    },
+    {
+      "event": "original_global_jacobian_returned",
+      "seconds": 539.9615692409998,
+      "equations": 64191,
+      "nonzeros": 10912470
+    },
+    {
+      "event": "block_qr_factorization_returned",
+      "seconds": 540.8120869650002,
+      "minimum_relative_R_diagonal": 5.595409269501174e-05
+    },
+    {
+      "event": "complete_q_delta_schur_returned",
+      "seconds": 542.0051858930001,
+      "value": 2.4696192160526124e-05,
+      "coarse_relative_difference": 4.054726278458446e-07,
+      "linear_residual": 2.9346259328175067e-16
+    },
+    {
+      "event": "original_lambda_tangent_returned",
+      "seconds": 542.0427005290003,
+      "linear_residual": 8.355358610786112e-16,
+      "fd_tangent_relative": 7.04628417425203e-08,
+      "delta_derivative": -3.920492099326574e-05
+    },
+    {
+      "event": "target_initial_domain_passed",
+      "seconds": 573.2500736709999,
+      "residual_max": 1.73538684578034e-06
+    }
+  ],
+  "elapsed_seconds": 573.2565491470004,
+  "fourier_assembly_cache": {
+    "hits": 56,
+    "misses": 1,
+    "key_seconds": 0.10166787299885982,
+    "build_seconds": 0.3217719220001527,
+    "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+    "full_basis_and_frequency_bytes_bound": true,
+    "live_flow_or_physical_response_cached": false,
+    "shared_diagnostic_dictionary": false
+  },
+  "source_model_identity": {
+    "saved_cubic_rhs_difference": {
+      "max": 8.673617379884035e-19,
+      "l2": 1.2270102059565786e-18,
+      "finite": true
+    },
+    "original_bc": {
+      "max": 4.3983177284010555e-11,
+      "l2": 6.003726991251688e-11,
+      "finite": true
+    },
+    "collocation": {
+      "max": 6.219717743096841e-12,
+      "l2": 6.053919518419127e-11,
+      "finite": true
+    },
+    "original_parameter_scales": true
+  },
+  "lambda_difference": {
+    "coarse_step": 1e-05,
+    "used_step": 5e-06,
+    "coarse_fine_relative": 3.6454628572163515e-10,
+    "fine": {
+      "max": 1.5763455436523797,
+      "l2": 1.6871803366571518,
+      "finite": true
+    },
+    "guarded_rejections": [],
+    "complete_collocation_midpoint_chain": true,
+    "complete_inlet_and_terminal_rows": true,
+    "fixed_original_t": true,
+    "original_RMS_off_midpoint_domain_guard": true,
+    "radial_chart_literal_identity": true,
+    "base_residual_bitwise_restored": true
+  },
+  "analytical_lambda_comparison": {
+    "complete_residual_relative": 3.231331383610089e-10,
+    "maximum_difference": 1.6412138315047287e-10,
+    "fine_difference_step": 5e-06,
+    "direction_still_uses_complete_centered_difference": true,
+    "finite_Gauss_real_origin_full_lift_and_midpoint_chain": true
+  },
+  "q_difference": {
+    "coarse_step": 1e-05,
+    "used_step": 5e-06,
+    "coarse_fine_relative": 6.217328342495664e-10,
+    "source_primary": 0.06,
+    "gauge": 0.06,
+    "warp": 0.06,
+    "guarded_rejections": [],
+    "delta_and_full_g_fixed": true,
+    "all_high_support_physical_controls_fixed": true,
+    "original_p_vector_fixed": true,
+    "complete_core_flow_lift_cache_reset": true,
+    "original_mean_remains_reconstructed_by_original_audit": true,
+    "base_residual_bitwise_restored": true
+  },
+  "tangent": {
+    "linear_residual": {
+      "max": 8.355358610786112e-16,
+      "l2": 4.1400272452767175e-15,
+      "finite": true
+    },
+    "relative_linear_residual": 2.4538143050430792e-15,
+    "coarse_fine_relative": 7.04628417425203e-08,
+    "state": {
+      "max": 1.5757751160892064,
+      "l2": 27.07690510969689,
+      "finite": true
+    },
+    "controls": {
+      "max": 187119.42191747247,
+      "l2": 241024.3275224879,
+      "finite": true
+    },
+    "delta_derivative": -3.920492099326574e-05,
+    "factor_stats": {
+      "equations": 64191,
+      "state_size": 73,
+      "nodes": 879,
+      "parameters": 24,
+      "internal_nodes_eliminated": 877,
+      "levels": 10,
+      "minimum_relative_R_diagonal": 5.595409269501174e-05,
+      "solve_calls": 2,
+      "maximum_componentwise_backward_error": 1.0,
+      "maximum_normwise_backward_error": 6.88007510464601e-27,
+      "refinement_steps": 2,
+      "stored_factor_bytes": 162613340
+    },
+    "direction_is_exactly_certified": false
+  },
+  "q_delta_schur": {
+    "equation": "J_design w = dF/dlog(actual_support_primary/source_primary)",
+    "original_delta_coordinate": 64167,
+    "value": 2.4696192160526124e-05,
+    "coarse_value": 2.4696202174156057e-05,
+    "scalar_relative_difference": 4.054726278458446e-07,
+    "whole_direction_relative_difference": 3.148277546826878e-07,
+    "original_linear_residual": {
+      "max": 2.9346259328175067e-16,
+      "l2": 2.001289610912091e-15,
+      "finite": true
+    },
+    "relative_original_linear_residual": 1.9086532647443288e-15,
+    "same_complete_original_J_and_factor_reused": true,
+    "mathematical_meaning": "det(J with delta column replaced by log-q column)/det(J), if J is invertible",
+    "numerical_value_not_interval_certified": true,
+    "original_fixed_g_refinement_not_executed": true
+  },
+  "factor_stats_after_all_directions": {
+    "equations": 64191,
+    "state_size": 73,
+    "nodes": 879,
+    "parameters": 24,
+    "internal_nodes_eliminated": 877,
+    "levels": 10,
+    "minimum_relative_R_diagonal": 5.595409269501174e-05,
+    "solve_calls": 4,
+    "maximum_componentwise_backward_error": 1.0,
+    "maximum_normwise_backward_error": 4.0810827099037474e-26,
+    "refinement_steps": 4,
+    "stored_factor_bytes": 162613340
+  },
+  "direction_file": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-tangent-v1/direction.npz",
+    "sha256": "2022a844765a9557b2347334563cab6e6030bc95bb337e1cff5597353ddf2791"
+  },
+  "target_trial": {
+    "domain_passed": true,
+    "complete_residual": {
+      "max": 1.73538684578034e-06,
+      "l2": 2.2673927596069395e-06,
+      "finite": true
+    },
+    "boundary": {
+      "max": 1.73538684578034e-06,
+      "l2": 2.264039593799359e-06,
+      "finite": true
+    },
+    "actual_delta": 0.06413456271678726,
+    "original_RMS_off_midpoint_domain_guard": true,
+    "original_BVP_RMS_and_metric_gates_paid": false
+  },
+  "result": {
+    "initial_raw": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-tangent-v1/initial.npz",
+    "initial_raw_sha256": "ad439b68799a21872bec9023168699698a3a4c018018e4575c48218d55fe6f8e"
+  },
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_lambda_tangent_predictor.py": "acd94b154e2e0e6422e626af6e80a820d50e7c1f8dca1e1f793d79378c7dc14f",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr.py": "ad93895f46ca1acfca45a1e43245513d7d4bbedc43c3526c764584ffc2ce9bb5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_lambda_column.py": "b748fc592ab3a4b46697f9e15354efa2c991eb279f976d3f428ade44c139aece",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/material_design_secant_predictor.py": "60877969b981712f6d8c00219ae9eeb02f1e432b41cda4c96159a5b5a50d63bf",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/streamed_release_prefix_driver.py": "ae07d899554725cdeaec7fb1d79816895c410e1bc582c6eb3ba15b3afa1a950b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+  }
+}

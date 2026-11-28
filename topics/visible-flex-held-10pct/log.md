@@ -485,3 +485,7 @@
 
 ### 2026-11-28 07:37 UTC — Astra-held10-7c4e33ee-20261128
 补正新图均值诊断：初次读中间mean_spline，现直接取最终Cartesian两jet零模，二阶减source仍1.32331214434e−4；最终/中间35点差≤5.78e−15但不声称函数恒等。图定义类逐字未变，未重复全图采样；见tail-prefix-final-mean小记录。继续同一最终图连续几何及原fullH/设计链。
+
+### 2026-11-28 07:39 UTC — Astra-held10-7c4e33ee-20261128
+真λ.002/M24完整64191维原J/同一QR因子实际给λ切线和δ/logq Schur；解析完整Fλ/FD差3.2314e−10，dδ/dλ−3.92049e−5，S2.469619216e−5，两h稳定，原J residual≤8.36e−16。
+数值范围、完整公式/哈希及componentwise统计1保留于analytic-material-lambda-tangent-and-q-schur；不是区间逆/新BVP接受。继续原支持族同λ同g前缀精化，主设计/fullH并行。
