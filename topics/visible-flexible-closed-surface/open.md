@@ -34,6 +34,10 @@
 
 [R280](results/R280-complete-R262-ambient-cuff-enlargement-and-new-fixed-target.md) 给原R262整闭嵌入的大平领输入，但新g约.159且首次943位置0接受。下一大领输入改为真实无限尾整体相似缩放、准确新的接圆、重新设计低高度外连接；小帽δE上界仍需通过实际大固定帽改变。不能将旋转参考的κ<6当作非圆整场厚度。
 
+[R286](results/R286-actual-smooth-images-enforcing-both-strong-shape-ratios.md)已给端口邻域恒等的空间开像，保证全闭材料图像两强比例；[R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)又给真实长短轴独立开发翼和整三分量法管。实际释放原 .8 切圈到真 .4 内环后，全尾位置确已改变，并作同g富集。局部曲率和held可同时改善，但[R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)已准确证明两保存场的非局部reach/D分别<73/2800和1/40，均未达.03。继续真正抬开返回层和逐点双向法球优化，不靠局部κ或目标g改名修复原像。
+
+[R289](results/R289-two-strong-shape-ratios-for-the-true-infinite-low-cuff-core.md)实际保整真实无限尾并将cuff准确换至.32，低帽Z在R215窗；整个闭材料像held/D≥.203125、含反射δE/D≥.05073291，大固定开帽与D≤3.2均已付。对应实际新场独立metric约.13214、κ12.156，仍欠嵌入、完整reach和原容差。下一条实际正向输入用严格层高的真实凸截圈和同空间映射保嵌入，再作同g全位置改进。
+
 ## 2. 强目标最终必须同时具备
 
 1. 一个实际完整闭C2位置族，同一目标g及全域全时误差；完整中央、两端端口、全部尾、cuff和固定帽。

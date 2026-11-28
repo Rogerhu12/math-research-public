@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R290：两个真实释放平领场的严格非局部厚度障碍](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)（已证明；完整原系数两点法球反例给 reach/D<73/2800 与<1/40；必须改变两层真实位置，帽扩展和保像重参数不能修复）。
+
 - [R289：准确无穷尾和低宽帽材料图的两个强形变比例](results/R289-two-strong-shape-ratios-for-the-true-infinite-low-cuff-core.md)（2026-11-28）：完整帽与全核给握持比 ≥.203125、无标签刚体商差比 ≥.05073291；强固定度量精度、嵌入及厚度待解。
 
 - [R288：正交不交双翼、独立真实两端方向和三分量法管](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)（已证明；全盘平面度量、三分量全时 reach≥.097；准确E=1可接全材料图，其F/G、嵌入及全核法管另付）。
