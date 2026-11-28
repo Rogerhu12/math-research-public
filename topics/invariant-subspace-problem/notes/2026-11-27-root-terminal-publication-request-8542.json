@@ -1,18 +1,16 @@
 {
-  "message": "ISP R150: prove complete W residual lengths two plus two and record the Phi 22-column degree gap",
-  "parentCommit": "71c06864d36756d6073a73d9baa389624cd4e628",
+  "message": "ISP R150: start the exact QQ highest-matrix rank for the original Phi degree gap",
+  "parentCommit": "c7a7c891fe67553d108a544bb8d92a49671bca75",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-P164-two-complete-residual-quotients-and-generic-length-four.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-two-residual-complete-quotients-four-bound-actual-receipt-8542.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-unlowered-twenty-two-original-columns-and-802-789-degree-gap.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-unlowered-twenty-two-original-columns-degree-gap-execution-8542.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-full-residual-four-and-Phi-degree-gap-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-full-residual-four-and-Phi-degree-gap-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-twenty-two-QQ-highest-rank-degree-789-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-twenty-two-QQ-highest-rank-degree-789-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-highest22-rank.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-Phi-highest22-QQ-rank-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-Phi-highest22-QQ-rank-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-highest22-rank.yml"
+  ]
 }
