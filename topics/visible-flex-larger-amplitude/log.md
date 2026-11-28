@@ -518,3 +518,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:38:34 UTC — 27真实双输入、新模型与初始六约束
 
 27双输入自然0、实际source1547e239/PID3303，新modelc627/初7e06，Phi748.418190202661/Gram.48764611813702746。reachg.701239028437362、distplus.08419919835900014；K13.721956432061155/Dlower4.113210913280396、cell466/u.38069040695840156/phi1.4266021327336462/branch0/s=null。accepted0，16dfec只统计不代接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`146617b544747ef7b631c7b23665447f74c32b6c`无变（非pull）。
+
+## 2026-11-28 04:38:39 UTC — 25第二真实恢复接受与完整六族
+
+25第二真实0927d接受、Phi681.6473711639321/Gram.40616528955370923/reachg.5237169415657044，六族仍不可行。K12.271500016996072/Dlower4.117173775187578，cell885/u.9662347571015759/phiπ/2/branch1/s=null；下一e147626只统计。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`a57fe50da6fc04ccfc6dd05f36f38087839fbc2c`无变（非pull）。

@@ -541,3 +541,158 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 04:38:39 UTC — 25第二真实恢复接受与完整六族
+
+25当前0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98、accepted2；Phi681.6473711639321/Gram.40616528955370923，reachg.5237169415657044、distplus.11392286053783374仍正。K12.271500016996072、Dlower4.117173775187578，热点cell885/u.9662347571015759/phiπ/2/branch1/s=null。全六族与下一e147626c统计完整如下；下一geometry/accepted截至04:31:00未返，整report未返。原同22数值的首接受不覆盖新point，未推速度或全域几何。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-first-20261128",
+  "scientific_source_commit": "870e11a12df457bac9c538b8a4ec054d93cd572d",
+  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
+  "pid": 3219,
+  "observations": {
+    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 04:30:56 UTC",
+      "point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "cached_angle_roots": 513,
+      "closure_original_returns": 101456,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T04:30:35.471525+00:00",
+      "math_event": "trial-statistics-returned",
+      "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
+      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 681.6517423825409,
+      "initial_Gram": 0.40616525311769985,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.5305849371949052,
+      "initial_geometry_complete": true,
+      "current_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+      "current_Phi": 681.6473711639321,
+      "current_Gram": 0.40616528955370923,
+      "current_geometry_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+      "current_violation": 0.5237169415657044,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "trial_Phi": 681.6470516175361,
+      "trial_Gram": 0.40616529581758637,
+      "trial_accepted": null,
+      "accepted_directions": 2,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.5237169415657044,
+      "current_g_body_diameter": -0.038136317601933256,
+      "current_g_distance_plus": 0.11392286053783374,
+      "current_g_distance_minus": -3.0936337271355727,
+      "current_g_cap_diameter": -0.06715165785312127,
+      "current_g_height_floor": -1.0411711655855374,
+      "previous_completed_trial_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+      "previous_completed_trial_g": 0.5237169415657044,
+      "previous_completed_trial_accepted": true,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 681.6473711639321,
+      "previous_completed_trial_Gram": 0.40616528955370923,
+      "current_K": 12.271500016996072,
+      "current_D_point_lower": 4.117173775187578,
+      "current_K_cell": 885,
+      "current_K_u": 0.9662347571015759,
+      "current_K_phi": 1.5707963267948966,
+      "current_K_branch": 1,
+      "current_K_s": null,
+      "trial_alpha": 1,
+      "trial_phase": "restoration",
+      "current_distance_plus_phi": 1.5707963267948966
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3387,
+      "sha256": "65821c37c523813dc961ba725b0a3831def81fd45cdbde27f630854a83badf3c",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 13473,
+      "sha256": "99b2e9572060987b171e0cf1127ac0430ac30f288b82c38a25a8ec9d6ee9cf90",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.maximum_absolute_principal_curvature",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.cell",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.u",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.branch",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.s",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "7a8e95d4ee7292b88d210470a0a467e5f43343630888888972c4de154b17b6d7",
+  "observed_utc": "2026-11-28T04:30:58Z"
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 40852,
+    "sha256": "aed295b902a23d67abc68a9da30591eeda49e7c6fde8f020026b8405d82a18e4",
+    "git_blob_sha": "4325f1a545e386c197a2d31db51ec295451c91ce",
+    "fixed_commit": "7a8d853e1e795ba584980e72f23968d7cae537ef",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
