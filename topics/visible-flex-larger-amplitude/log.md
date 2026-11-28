@@ -401,3 +401,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:15:04 UTC — R730完整长度核、参考provider与真实后继接口
 
 五完整件130462B同刊：length核23326B/87be2efa7381f50bd419c0d91a3b0c5b1a762f9f1eb7d1f2f7a053f8bc93cfc2、provider25499B/53ebce095394a833d95a65b834ae889b4cb9554e06ef839fcb626bddcb8864b8、完整再生器56542B、接口说明15370B及总表9725B/8f59f54e5cffe473c88ae91b2847c763e3a58512ca195bdecf322419ea7e432d/blob1dc015fc0e7039be74be60810cd1036bf3184d4c。完整原e717 context/scalar/160 chart/923节点及新全16阶正权length积分、真实两角根/反弧长记录保留，固定η1/32、ξmax3/4、单脉冲k6与已刊R730 proof同源。T0四数组接口保形状但不伪造旧mean12数组；ell_work端点规范与unit T0积分可能有工作残差，全部false/未付误差明确，base/Q/calibration/normal/32stage必须新付。没有本包的实际科学运行、AST或新增审查门，geometry/solver继续完整新family接线。 双README云核至`da77b4ba198d7cbb53b72016ca2b74d0dbdb810e`无变（非pull）。
+
+## 2026-11-28 09:16:53 UTC — RET92 完整历史reader回执的全token空白整理
+
+32份旧actual64–99 identity/reader/static回执完整保留原数值、失败、未知、full-factor未导出边界和全部内部历史SHA，仅删字符串外空白。完整映射18805B/10dab8fbd40498e6aef9a6df753d6a504f382dc3c0bf682c5f2622a93c11fc3a、说明2406B，复用RET91原3705B再生器；固定9c32ec31ec8bf8c61da0774a37e4cfdda48de791 whole恢复，旧hash语义保。毛151018B、净129807B，不替换活输入/源码、不删除任何原字段或参数。 双README云核至`af228d204c729958237b225a36af0082a704d2d1`无变（非pull）。
