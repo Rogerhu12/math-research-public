@@ -462,3 +462,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:56:58 UTC — 27官方实际启动确认
 
 46105138690/1，workflow433391338/job140856083740，03:55:38Z从a773d67267750078be498284d1fcd3cabe4f3ab3实际启动。完整官方run/jobs保note；checkout/Python成功，依赖in_progress/研究pending，实际input/model/point/费用未返。H完整前文保a773d672并缩当前索引以容真实新槽，不删证据。双README云核至`43c5ebd70bd8bb15fbf403a7f8ba21dbb89c635e`无变（非pull）。
+
+## 2026-11-28 03:57:41 UTC — 19原完整pure真实返回及已付读取边界
+
+19原pure exit0/322.5631248630016s，输出8392178B/a8caef50仅runner。25snapshots无跨点补，0metric/4restoration，final geometry false。原dependent_blocker_at_zero_step/Pg.967670341594262等完整445字段及22缺项保，不推广或补值；N已排尚未观察自然返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。双README云核至`6b09abf79ef694c5a422b66d349d625eccd21ffa`无变（非pull）。

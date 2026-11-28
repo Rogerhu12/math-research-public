@@ -1533,3 +1533,103 @@ current仍b0f8f2b00d00956db896777f053e196fabc60c9b961f5193e725ddad4f19abee，acc
   "actual_normal_report_sha256": null
 }
 ```
+
+## 2026-11-28 03:57:41 UTC — 19原完整pure真实返回及已付读取边界
+
+原pure自然exit0，322.5631248630016s，实际source d854e9c2fbe289e9353e354fcfcbab162d2d8d69/reader8027ec35ea8ee74ab38468678683d798530e8c7a229ec3f9e8d5c631c75dde49。输出8392178B/a8caef504eb7ccbabcaa02e3b6a0c736c296075e3f6adefcecc4de228b38aabd，仅runner，不整读大body。全部445原formal和22summary_errors保固定原卷；25个snapshot按本点绑定，cross_point_backfill=false，不把未做metric步骤的空列表字段补成成功。
+
+真实0个metric方向、4个restoration方向均接受，final_geometry_passed=false。读取出的restoration_qp_status=`dependent_blocker_at_zero_step`，原Pg .967670341594262/容差9.68424994209515e-7等诊断如下；这是该readout对应的原记录，不自行推广所有方向或改算法结论。最终Gram.6460480621212836/reachg.9662472339877322仍不达标。N已完整排后继但尚未观察其自然返回；晚N的G必须新目录，P可同canonical/原physical流复用完整块，最终U仍绑定相同wholeN，不能误读为强制全部矩重算。
+
+```json
+{
+  "actual_return": {
+    "step_id": "actual-fixed-fejer-meridian-batched-bhalf-first-20261127",
+    "state": "completed",
+    "returncode": 0,
+    "seconds": 322.5631248630016,
+    "source_commit": "d854e9c2fbe289e9353e354fcfcbab162d2d8d69",
+    "source_sha256": "8027ec35ea8ee74ab38468678683d798530e8c7a229ec3f9e8d5c631c75dde49",
+    "outputs": [
+      {
+        "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/postprocess/fixed-fejer-meridian-batched-bhalf-first-readout.json",
+        "sha256": "a8caef504eb7ccbabcaa02e3b6a0c736c296075e3f6adefcecc4de228b38aabd",
+        "bytes": 8392178
+      }
+    ]
+  },
+  "selected_actual_readout": {
+    "reader": "8027ec35ea8ee74ab38468678683d798530e8c7a229ec3f9e8d5c631c75dde49",
+    "report": "ed1ea5db4d0b8961a954ccdd31d1f4662477537a64457db3d7c9eb8875ae3856",
+    "driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+    "complete": true,
+    "model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
+    "target": "d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160",
+    "bound_snapshots": 25,
+    "cross_point_backfill": false,
+    "initial_bundle": "15b8a4e77790e9ecf3c60b7b8ff183125216ca6106881f38f693a46441a114d3",
+    "final_bundle": "979986bc7b4deb2a62c5595c440f1ec73dcbf1cfde3a1fa47e15c4e520ed53fb",
+    "initial_Phi": 3825.0583894874153,
+    "final_Phi": 3824.990529790781,
+    "initial_max": 0.6460503011117507,
+    "final_max": 0.6460480621212836,
+    "initial_maxg": 0.9684249942095058,
+    "final_maxg": 0.9662472339877322,
+    "final_geometry_passed": false,
+    "metric_directions": 0,
+    "restoration_directions": 4,
+    "accepted_metric": 0,
+    "accepted_restoration": 4,
+    "root_angles_solved": 11584,
+    "root_failures": 0,
+    "jet_upgrades": 4104,
+    "normal_stage_count": 32,
+    "current_root_count": 1448,
+    "current_endpoint_residual": 1.669331981582143e-12,
+    "current_controls": 0.000013784509155492092,
+    "current_grid_second_jets": true,
+    "completed_stages": 32,
+    "final_mu": 0.01,
+    "stop": "declared_restoration_budget; actual_violation_remains_and_is_not_accepted",
+    "total_seconds": 17374.375222557,
+    "peak_RSS_KiB": 7557736,
+    "restoration_alpha": 1,
+    "restoration_qp_status": "dependent_blocker_at_zero_step",
+    "restoration_qp_advances": 2,
+    "restoration_qp_Pg": 0.967670341594262,
+    "restoration_qp_tolerance": 9.68424994209515e-7,
+    "restoration_original_rows": 192,
+    "restoration_amplitude_rows": 11,
+    "restoration_envelope_rows": 36,
+    "restoration_all_rows": 239,
+    "restoration_actual_typed_memory": 5,
+    "envelope_typed_memory": 29,
+    "envelope_typed_memory_hash": "84db079c953e69947fa1f538caf19d2bba5775cbda6e11d8898359904d6bbc4c",
+    "math_current_point": "20d617114ba603edf83e02f342ae26946054cc69a6f99d5f7a9bc474981af45f",
+    "math_original_report_complete": true
+  },
+  "all_original_445_fields_and22_errors_in_complete_evidence": true
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1.md",
+    "bytes": 28881,
+    "sha256": "a77056adda3a7dbe82b3961c6879b1b5de4c9d525e9fb6b831fb2ce0b0b4b611",
+    "git_blob_sha": "4df0024a891902394a1dc23378ceaab5c843ef4c",
+    "fixed_commit": "a773d67267750078be498284d1fcd3cabe4f3ab3",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1-part-002.md",
+    "bytes": 32633,
+    "sha256": "e4302b59a75e6ebe3f93130b08f1d09dc1600712a72aa312a4bb6e6a31f65708",
+    "git_blob_sha": "aca06d87ae8869eb2b30e94d801bb1e80acacc7a",
+    "fixed_commit": "a773d67267750078be498284d1fcd3cabe4f3ab3",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
