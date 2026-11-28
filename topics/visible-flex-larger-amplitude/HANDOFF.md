@@ -64,6 +64,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。
 <!--r769-publish-->R769 [全滚段与两真帽的四整球十二层实际](notes/r769-meridian-whole-46169013968-1-index.json) 双README真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull fd4ea3398e90816e4e201dc13c910a412b514fbb
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 611088bf980b07c451e230f2901eb2d1f2d64175
 <!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull 7daff77d723fc1bce83f81536382089a8db53358
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a4f987adc284160bb86a6da63d9abdf435017602
