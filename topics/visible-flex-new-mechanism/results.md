@@ -464,3 +464,10 @@
 ### B030：准确cc117正常恢复续接，不回放已闭局部峰
 
 [已审范围](notes/2026-11-27-r566-native-cc117-normal-scope-agent.md)绑定唯一原FINAL与准确当前g/e/q/817-1636库，保源1630资格及原已拒轨；全正常算法/common/模型身份不变。真实metric H/pending由原helper按新geometry语义重置，原25J/21partial及所有历史费用保留。新资格仅由真正新trial支付，未授固定g或连续族。
+
+
+### 2026-11-28：三条真实终态与新求解方向（数值观察）
+
+- [97q pending357→真实83b0](notes/2026-11-28-r582-pending357-natural-terminal.md)：8metric+4恢复接受，16256×3072 η3.3525727227e−5，下一369库；未过阶段门。
+- [固定E持续分拆首完整场](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：原入口已通，方向坐标门将步长压至3.84e−36；下一用等价背景消去导数，未有fine或根。
+- [十九态原射线自然stall](notes/2026-11-28-r625-original-ray-natural-terminal.md)：2接受后36正导数，定位W方向/未缩行接受失配；统一当前迭代W，原绝对完成门保持。
