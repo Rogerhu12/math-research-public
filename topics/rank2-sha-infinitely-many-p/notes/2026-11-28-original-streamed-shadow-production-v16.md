@@ -1,6 +1,6 @@
 # Original streamed denominator production v16: activation and exact acceptance scope
 
-**Status:** v15 has actually terminated with failure; the production v16 sources below are now published to the existing workflow as the next sole heavy computation. The actual v16 run/job/source and its returned receipts will be recorded after startup. No production PASS or rank-306 performance improvement is asserted.
+**Status:** v16 has actually terminated with failure. Its complete terminal evidence is recorded in §11. The failure is the original fallback's explicit transcript-coefficient budget, not an operating-system memory diagnosis or a timeout. No production PASS is asserted.
 
 The proposed implementation string is
 `complete-streamed-denominator-native-original-shadow-v16`.
@@ -464,3 +464,65 @@ and mathematical step is in progress. The first returned public log was not
 yet readable at this checkpoint. The source set was statically reviewed, but
 its actual host binding and both old PASS authentications will be recorded
 only after their real log records are readable. No mathematical PASS is claimed.
+
+## 11. Actual v16 terminal failure and completed scope
+
+Run [46126639698](https://github.com/Rogerhu12/math-research-public/actions/runs/46126639698),
+job `140922574854`, attempt 1, source
+`0b550a6b1818b7875ceb5674fd8a8b2c080203b4`, is now terminal. The root
+independently fetched the job steps and complete decoded log. Step 4 failed;
+checkout, image pull and cleanup succeeded. The complete log is **4026180
+bytes**, SHA256
+`52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0`.
+It contains 8120 well-formed JSON protocol records. The previously observed
+2101729-byte prefix, SHA256
+`e0e24b4565d45b59d8445515bba42820f6818d9898ab82429c2bbe8ebcea1f0e`,
+is exactly its prefix. That earlier unchanged prefix did not identify the
+then-current execution position. No recomputable log is committed.
+
+The actual host authenticated all 74 source pins, the workflow and request,
+and both unchanged original characteristic-zero PASS receipts. The actual
+source manifest SHA256 is
+`9656906262fe4310ee6e6c11af20904a0e344ffb98a689ca3abc5102d0134921`;
+the two-receipt envelope SHA256 is
+`b59c77ae691642aed2b8039b904e1280289eec879e16205b357b601fcc6cdb25`.
+
+Both original endpoint normalizations and the original representative
+equations were checked. The complete positive/negative scalar supports of
+the central functions returned: `T` at `09:54:19.5992355Z`, with lengths
+1836 and 1836, and `v` at `10:09:43.0527015Z`, with lengths 612 and 612.
+All nine requested scalar-base support constructions completed by
+`10:51:36.9618903Z`. Their six actual rank-306 fiber Frobenius computations
+and 24 complete maximal residue kernels were retained. There are eleven
+printed nonunit scalar-primary returns and the two original unit branches;
+these counts do not mean thirteen distinct nonunit fibers or four selected
+endpoint graph returns.
+
+For the first selected finite endpoint, original `A0 y0`, the complete
+rank-306 denominator Popov prefix returned at `10:55:27.8582092Z`: input
+entry degree 16, determinant degree 3670, final Popov entry degree 12,
+91248 additions and 46472 weak reductions. At `10:56:14.0750716Z` the
+complete native augmented quotient solve of dimension 3670 began. Its
+printed 184147144-byte estimate covers explicit native coefficients only,
+and is not measured peak memory. The algorithm then entered its unchanged
+original undivided-denominator fallback at `10:57:42.4463025Z`. No successful
+selected complete image, graph or post-ideal outer identity was returned.
+
+At **`2026-11-28T11:06:54.1538954Z`** the wrapper printed
+`RANK2_STREAMED_DENOMINATOR_RETURN_FAILED`, with elapsed time
+`8954.748600139` seconds and the exact error
+`MemoryError: The actual transcript-coefficient budget is exhausted.`
+The traceback reaches `CompleteRowOperationStream.append` in
+`original_row_operation_right_return.py`, at its explicit
+`max_stream_coefficients=8000000` admission check. It is not the separate
+operation-count or returned-output budget. The offline solver returned 1
+at `11:07:04.6728867Z`; the host explicitly reported an incomplete pipeline
+and exited 1. This is neither exit 137 nor the 21000-second timeout, and no
+operating-system OOM claim is made.
+
+The four selected endpoint images/graphs, their four post-ideal outer
+identities, the unchanged attached `F_y` calls, four intersections, eight
+scalar comparisons, 18-by-9 norm, nine pairs and final acceptance remain
+uncompleted. The independently checked R1071 adaptive single-right-side
+method is the next production route; its small software PASS does not
+constitute a rank-306 production PASS.

@@ -12,16 +12,16 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:08:29 UTC实际pull --rebase，读取main ccfcb5da527b8c79eb553de27c0960305ac1d501；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:08:23 UTC实际pull --rebase至15f0e1e1065eba49d9b2a6a2766a5077a933704e；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:17:29 UTC实际pull --rebase，读取main 388aec6f5a2fa8d1b71354136bfc98c3600f791f；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:17:20 UTC实际pull --rebase至7828795bdc6e31fe2e5417e524be9166f37fe58b；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3238/46580551B/treeaad8083b2d90ccf47791e34f2554db3cd56b7644；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3239/46598896B/tree8e143de377da91153217081583e234e9a9323aea；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
 
-[唯一v16生产全文](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，08:36:48 UTC创建。29/shadow/artinian/2453/batch64/minimal/preflight false；74源、21000s、4CPU16GB、固定Sage10.6/network none/source只读/token仅host。10:58:32独立读取仍step4 in_progress；root首次完整可见前缀2101729B/SHA e0e24b4565d45b59d8445515bba42820f6818d9898ab82429c2bbe8ebcea1f0e，末09:53:17.1519988Z。前缀不变不能定位当前执行位置，未有最终PASS。
-该前缀已真实支付两原F/P char0、两端点全部归一、32算子/36直接积、两central T完整306图及4operation-Hermite ideal；末可见entire infinity fiber74/306。未宣告全fiber、4选定端点图/4postideal outer、四交/八scalar/Norm18×9/九pairs/终门完成。F_y仍旧attached。v15首306 HNF solver137已failure，不判OOM/timeout；全部旧run/hash/pins在生产注及归档。
+[v16完整终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，已failure。29/shadow/artinian/2453/batch64/minimal/preflight false；74源、21000s、4CPU16GB、固定Sage10.6/network none/source只读/token仅host。root完整log4026180B/SHA52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0，8120协议记录；旧2101729B是其真前缀，前缀不变不定位执行点。
+两原F/P、端点归一、T/v正负与9scalar支撑实际完成。首A0有限denominator306整Popov给det度3670，完整quotient solve后转原fallback，11:06:54.1538954Z明报800万transcript系数预算耗尽，elapsed8954.748600139s；solver1/host1。不是OS OOM、137或deadline。零selected endpoint image/graph及outer/后续四交八scalar/Norm/九pairs/终门PASS；F_y仍旧attached。全部旧run/hash/pins见生产注及归档。
 
 [R1071完整算法](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)：原单右端D·W=qN、逐实际坐标完整Y核≤306列终止；全Laurent多项式部分X、低次残量及已造两ideal后全部X比较保留。原2256双极度、总度>4512，不以小例保证性能。
 [新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库，只有独立小workflow触发。原306生产未执行新方法。arithmetic_ultra备同heavy组v17完整部署于scratch，未启用；不可把不变前缀当已知卡点。
