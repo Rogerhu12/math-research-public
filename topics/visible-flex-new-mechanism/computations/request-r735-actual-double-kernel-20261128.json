@@ -1,0 +1,56 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r735-actual-double-kernel-v1",
+  "public_rules_read_commit": "9f5baafdb373929e28c064dbcce3a48c600a8a48",
+  "private_rules_read_commit": "d7a497b7d3f2c1628ff69deeb97817a02f997473",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r735_actual_two_port_match.py",
+  "workflow": ".github/workflows/visible-r735-actual-double-kernel-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r735-actual-two-port-match-20261128.json",
+    "max_seconds": 1000
+  },
+  "lanes": {
+    "actual-dyadic-double-kernel": {}
+  },
+  "paid_input_names": {
+    "terminal": "r735-source-final.json",
+    "journal": "r735-source-tail.jsonl",
+    "checkpoint_directory": "r735-paid"
+  },
+  "scope": {
+    "original_r734_units_replayed": false,
+    "original_completed_members_from_verified_receiver": true,
+    "full_actual_double_kernel_and_second_tilt_only": true,
+    "known_thin_core_macro_geometry_unqualified": true,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py": "5bdfd51f34c5ae6041480620fe506600c92d559102473ffbee7dd8131c55978f",
+    "topics/visible-flex-new-mechanism/scripts/r735_paid_tail_beta_envelope.py": "58dceba14d98fe24e2048a21a363ba01e5b3266c334602ca50da88e18e29a0ac",
+    "topics/visible-flex-new-mechanism/scripts/r735_actual_two_port_match.py": "312c40ee7f1de4211cac772df3824d7f22f3a1cc28fee72f186d0ca1467e0ce5",
+    "topics/visible-flex-new-mechanism/scripts/r734_completed_members_transport_20261128.py": "a9ffa26321838c4a4d67e3a28c3db1e566d061697e8b918ac8f1b99c4611bd1a",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r735-actual-two-port-match-20261128.json": "c5e33290d760f8d8522c50bd278d4632dbd2e55f1364da75ec9d02774a604222",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r735-actual-dyadic-tail-double-kernel-scope.md": "13381ef0dc79d3456d508a49b8531a4ad5a35b5b7fe31903ec0487d3464ac5f9",
+    "topics/visible-flex-new-mechanism/results/R735-explicit-double-kernel-core-and-true-second-order-tilt-with-dyadic-caps.md": "4fa711b70510b3a8009cb92dbe2ef8e6b8b2fa39f3e59046cfa20a719a626ce3",
+    "topics/visible-flex-new-mechanism/results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md": "57c499d3e5d92a8d4d4364d6090fd1a4845ebd442d66148ec65bb65827ceb3c2",
+    ".github/workflows/visible-r735-actual-double-kernel-20261128.yml": "12d97d0fd63c2419fbc0df1ea3587f410480e577de820014b14a9e18db20faac"
+  }
+}

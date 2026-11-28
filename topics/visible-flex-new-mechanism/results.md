@@ -57,3 +57,5 @@
 **R736（已证明的指定族排除）。** [真实 U 平袖母线、全部末倾角和刚平移障碍](results/R736-tilted-isometric-core-and-the-complete-annulus-chord-screen.md)：局部已给件几何保留，但指定 β=A、D_y=0 的完整内盘族没有同g延拓；.320改姿同样排除，区间脚本未执行。
 
 **R740（已证明的三输入排除；独立代码未执行）。** [弱源整圈局部预算与强迫跨盘短路](results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md)：包括完全自由盘，原R732、R733和R740均有末弦>.901却源路<.790/.893/.869的矛盾。保存真实210/651列空间和原始CSR接口，转R742/R743新实体材料，不重复已排源科学。
+
+**R735（结构证明与首次实际工单）。** [具体双核中央与真二阶帽倾](results/R735-explicit-double-kernel-core-and-true-second-order-tilt-with-dyadic-caps.md)给横截两核及完整二阶条件；[首实际消费范围](notes/2026-11-28-r735-actual-dyadic-tail-double-kernel-scope.md)使用原R734四认证端口/8558键，仅新增真实中央及全β尾积。薄中央宏观几何明确不合格；有限O(q³)不冒非线性根。
