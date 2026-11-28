@@ -474,3 +474,413 @@ LT Fourier 变换的对象另有其真实单位限制公式。
 本篇的 $\mu_\pm$ 则由(K3)、(K8)和 Berger Theorem A 独立确定，
 不是那条子线的同名重写。完整 whole 来源的实际
 $\lambda/\lambda'$、Maass 与 period 费用仍按 R1063/R1064 保留。
+
+
+
+## 8. 两个原 Katz 对偶的真实张量及全部系数域
+
+本节以下只使用(K10)已经构造的两份实际测度，不将原
+$\mathbf Z_p$ Amice 测度重新命名为它们。记
+$$
+ \mathscr A_2^\circ
+   =\mathscr C\widehat\otimes_{\mathcal O}\mathscr C,\qquad
+ \mathscr A^{(2)}=\mathscr A_2^\circ[1/p],
+ \tag{T1}
+$$
+第一式按 $p$-adic 整格完备化，第二式使用此格的 gauge 范数。另记单份 $\mathscr A=\mathscr C[1/p]$。
+$\mathscr C$ 仍是(K9)--(K10)的 Galois-equivariant 连续函数空间，
+不把它改成任意标量函数的空间。
+对 $f\in\mathscr C[1/p]$，这个整格 gauge 的估值是
+$\lfloor\inf_\xi v_p(f(\xi))\rfloor$，与可能取非整数的 pointwise
+sup 估值分开。乘法保整格，所以(T1)是 Banach 代数。
+$\mathscr C$ 在 $\mathcal O$ 上无挠，故其 tensor 无挠；再作分离完备化。
+
+两份实际 Katz 测度有唯一的连续张量泛函
+$$
+ \boldsymbol\mu=\mu_-\widehat\otimes\mu_+:
+       \mathscr A_2^\circ\longrightarrow\mathcal O,\qquad
+ \boldsymbol\mu(f\otimes g)=\mu_-(f)\mu_+(g).
+ \tag{T2}
+$$
+它延到(T1)的有理化，按上述整格 gauge 的算子范数至多1。
+证明是在代数整 tensor 上定义该泛函，它保每个 $p^m$ 倍整格，
+随后完备化。不能仅从 $\mu_\pm(\mathscr C)\subset\mathcal O$
+断言它对 fractional pointwise sup 范数的算子范数也为1。
+这里也不需要先断言(T1)等于所有二变量 Galois-equivariant 连续函数。
+
+对包含当前除点、Miller 中心、模型同构及全部有限系数的有限域
+$F/L$，以下取同一个完成的标量扩张
+$F\widehat\otimes_L\mathscr A^{(2)}$ 和
+$\boldsymbol\mu_F$。例如
+$$
+ \boldsymbol\mu_F\bigl(
+   (\mathbf e_Q-1)\otimes(\mathbf e_R-1)\bigr)
+  =(g_-(Q)-g_-(0))(g_+(R)-g_+(0)).
+ \tag{T3}
+$$
+两点可独立。式中 $Q,R$ 的系数运输准确使用(K11)，不能只将一个
+非基域点的 pairing 函数称为 $G_L$-equivariant。
+完整 Haar 对偶、相位、两独立 Hall 和及零点项继续按(K18)--(K20)。
+
+## 9. 原 E0、A4、E17 三个微分 frame 中的确切 Gaussian
+
+### 9.1 同一个 Cartier-dual Tate 生成元
+
+置 $t_4=2^{1/3}$、$\vartheta^6=17$，取原实际同构
+$$
+ j_4:E_0\longrightarrow A_4,\qquad
+ (x,y)\longmapsto(t_4^2x,t_4^3y),\qquad
+ j_4^*\omega_A=t_4^{-1}\omega_0 .
+ \tag{T4}
+$$
+将 R1063(I12)--(I13)的原 Tate 基 $\alpha_A$ 沿 $j_4^{-1}$
+拉回，定义 $\alpha_0$，并令
+$\xi_0=e_0(\alpha_{0,2},-)$。
+这是一个明确的实际 dual 生成元，不为取得单位另换一个比例。
+以原严格坐标的首项归一，$\omega_G=\omega_0$。
+写 $c_1(\xi_0)=\varpi_0$，则
+$c_1(a\xi_0)=a\varpi_0$；这里 Cartier dual 的
+$\mathcal O_L$ 作用按预复合定义。
+
+R1058(1)、(11)给同一个 CM 基
+$$
+ z_0=-\omega=\frac{1-\delta}{2},\qquad
+ \widehat z_0=-\omega^2=\frac{1+\delta}{2},\qquad
+ Y_A=\frac{\widehat z_0}{\delta},\qquad
+ Y_A^2=-\frac{\omega}{3}.
+ \tag{T5}
+$$
+R1064(R2)--(R5)的 HT/dlog 比较先沿(T4)拉回，遂准确有
+$$
+ \boxed{\quad \Omega_A\varpi_0=Y_A/t_4.\quad}
+ \tag{T6}
+$$
+具体地，$j_4^*s_A=s_0=\varpi_0\omega_0$，而
+$\omega_A=\Omega_A s_A/Y_A$；代入(T4)即得(T6)。
+因此没有把另一个形式参数的 $\lambda_G$ 默认为1，也没有将
+$E_{17}$ 的 book period 认成 $E_0$ 的 period。
+
+### 9.2 两槽与全部首项尺度
+
+R1063(I11)--(I13)的原函数及同源槽是
+$$
+ \begin{aligned}
+ D_{102,17}(z)&=\vartheta^{-4}D_{102,1}(\vartheta z),&
+ S_{17}(z)&=\vartheta^{-6}S_1(\vartheta z),\\
+ \ell_-\ell_+&=\frac{\delta\omega}{2\cdot51^2u^2},&
+ u&=\vartheta/t_4 .
+ \end{aligned}
+$$
+所以用本篇(K3)的两个 $E_0$ 来源表示同一个双字时，必须同时取
+$$
+ \boxed{
+ c_0^{(0)}=\vartheta^{-10}c_0,\qquad
+ L_-=\vartheta\ell_-,\quad L_+=\vartheta\ell_+,\qquad
+ L_-L_+=\frac{\delta\omega t_4^2}{2\cdot51^2}.
+ }
+ \tag{T7}
+$$
+原 degree17 word、两个 sign、十八核、Artin/Cor、实际 $h$ 及
+非 $p$ 幅度仍在 R1063(I12c)、(I14)所给的位置。
+(T7)仅改这两个实际 rank-one 函数的模型，未改变原来源。
+特别
+$$
+ \frac{c_0^{(0)}}{L_-^2}
+     =\vartheta^{-12}\frac{c_0}{\ell_-^2}
+     =17^{-2}\frac{c_0}{\ell_-^2}.
+ \tag{T8}
+$$
+这也逐槽等于 negative $m=-2$ 的 $\vartheta^{-6}$
+与 positive $m=0$ 的 $\vartheta^{-6}$ 之积。
+
+原最大阶基的参数为
+$$
+ C_A=-p^2Y_A/\widehat z_0=-p^2/\delta,\qquad
+ \rho_A=(17/2)p^2\kappa_A\Omega_A^2,\qquad
+ \beta_A=-C_A/\rho_A .
+$$
+若 $z_-=L_-Z,z_+=L_+W$ 是实际 $E_0$ Lie 槽，则原
+$\exp(\beta_A ZW)$ 的系数变成
+$$
+ \boxed{
+ \beta_0=\frac{\beta_A}{L_-L_+}
+       =-\frac{204}{\omega\kappa_A t_4^2\Omega_A^2}
+       =\frac{612\omega}{\kappa_A}\,\varpi_0^2 .
+ }
+ \tag{T9}
+$$
+第二个等号代入(T6)及 $Y_A^2=-\omega/3$。
+原参考基 $\kappa_A=1$；其它实际 frame 必须先按
+R1063(I12b)--(I12d)运输，不任意将其置一。
+$p>211$ 时 $612\omega/\kappa_A$ 是此原基中的单位。
+负102的 $\delta^{-1}$ 已在 $L_-$ 中，不能再乘第二次。
+
+## 10. 一份真实有界的双 Katz Gaussian 及其正确算子方向
+
+令 $b_0=612\omega/\kappa_A$。在(T1)上定义
+$$
+ \mathfrak G_{b_0}
+   =\sum_{r\ge0}\frac{b_0^r}{r!}\,
+                  c_1^r\otimes c_1^r .
+ \tag{T10}
+$$
+两份 $c_1$ 是同一 $E_0$ 的两个独立 Cartier-dual 变量；
+正、负 Weil 模型的反向点标记仍在实际 Hall 测试中，
+并未因(T10)而被删除。
+
+由(T6)和 R1064 的原 LT 周期赋值，
+$c_1$ 的 pointwise 范数是 $p^{-\tau}$，
+$\tau=p/(p^2-1)$。整 tensor 需要另行支付：
+$$
+ \boxed{
+ c_1^r\in p^{\lfloor r\tau\rfloor}\mathscr C,\qquad
+ v_{\rm gauge}\!\left(
+       \frac{b_0^r}{r!}c_1^r\otimes c_1^r\right)
+   \ge 2\lfloor r\tau\rfloor-v_p(r!)
+   \ge0 .
+ }
+ \tag{T11}
+$$
+最后的不等式可完全按整数证明。令 $m=\lfloor r/p\rfloor$；
+$\tau>1/p$ 给 $\lfloor r\tau\rfloor\ge m$，
+而 Legendre 公式给
+$v_p(r!)=m+v_p(m!)\le2m$（$p>2$）。
+并且(T11)的下界至少
+$r/(p+1)-2\to+\infty$。
+所以(T10)真在 completed integral tensor 中收敛。
+同样证明负参数收敛；两级数的乘积可以按此一致尾重排，
+逐总次数的 binomial 和使其恰为1。因此
+$$
+ \boxed{
+ \|\mathfrak G_{b_0}\|_{\rm gauge}
+  =\|\mathfrak G_{b_0}^{-1}\|_{\rm gauge}=1,\qquad
+ \boldsymbol\mu^{\,b_0}(F)
+       :=\boldsymbol\mu(\mathfrak G_{b_0}F),\qquad
+ \|\boldsymbol\mu^{\,b_0}\|_{\rm gauge}
+       =\|\boldsymbol\mu\|_{\rm gauge}.
+ }
+ \tag{T12}
+$$
+这是原两份 Katz 对偶的一个实际有界、整格等距 twist。
+若另在有理 projective pointwise 范数下计算，单项还有较强的
+$2r\tau-v_p(r!)\ge r/(p+1)$ 界，但它不代替(T11)的整格证明。
+不从(T12)推导新的 canonical 零或非零。
+
+其 Fourier 算子方向可以完整核清。令 $D_G$ 为原不变微分
+$\omega_0$ 的对偶导子；对 universal character，
+$$
+ D_G\mathbf t_\xi(v)=c_1(\xi)\mathbf t_\xi(v).
+$$
+先按(K11)的 universal character 系数，在两个形式变量上定义
+$$
+ F_{b_0}(v,w)=
+ \boldsymbol\mu\!\left(
+ \mathfrak G_{b_0}(\mathbf e_v\otimes\mathbf e_w)\right).
+$$
+按系数定义后得到下述整系数双幂级数，可在任意 $\mathbf C_p$ 点的共同闭内盘上评价；也可用完成的 $\mathbf C_p$ 标量扩张。这样不要求先固定的有限 $F$ 包含所有评价点。在任意共同闭内盘逐项求导/积分均一致，且全开盘范数有界。
+准确恒等式是
+$$
+ \boxed{
+ F_{b_0}(v,w)
+  =\sum_{r\ge0}\frac{b_0^r}{r!}
+        (D_{G,v}^rg_-(v))(D_{G,w}^rg_+(w)).
+ }
+ \tag{T13}
+$$
+这里的全局收敛直接来自(T11)，不是一般热算子的收敛假设。
+更具体地，$D_G^rg_\pm$ 的每个形式系数都是
+$\mu_\pm(c_1^rc_k)$，因此全部被
+$p^{\lfloor r\tau\rfloor}$ 整除；(T13)的所有形式系数整，
+且其 $r$ 尾在整系数 Gauss 范数中一致趋零。
+同理负参数给逆操作，限于这些实际 Katz 对偶所构造的对象。乘测试函数不扩大原测度的支撑，所以双 twist 仍支持于 $\mathbb T^\times\times\mathbb T^\times$，其 Fourier 函数在两个变量中分别被 $\psi$ 杀掉。亦可由 $\psi D_G=pD_G\psi$ 与上述一致尾逐式得到该结论。
+
+(T13)是 Fourier 侧的 mixed differential heat。
+原 R1060(16a)却是在 coherent 变量上乘
+$\exp(\beta_A ZW)$。二者方向不同。
+在有限 Lie 多项式测试 $P(X,Y)$ 上，
+coherent multiplication 的准确转置是
+$\exp(\beta_0\partial_X\partial_Y)P$；
+(T10)则是对测试乘 $\exp(b_0 c_1\otimes c_1)$。
+(T9)支付真实尺度，但单凭尺度和范数并没有支付这两个
+算子之间的 Fourier/Weil 交织。尤其不能把(T12)当作
+R1064§11的单变量完整 Maass 测度已经有界。
+
+还可保所有旧项而检查(T13)。因为
+$D_G^r\phi=p^r\phi D_G^r$，由(K8)有
+$$
+ D_G^rg_\pm(Q)
+   =pD_G^rf_\pm(Q)-p^{r+1}(D_G^r\psi f_\pm)(0)
+       \qquad(Q\in G[p]).
+ \tag{T14}
+$$
+所以(T13)在每一对实际除点的值均保两个旧项及其交叉项。
+没有将 $r=0$ 的(K13)错误扩成任意导数无旧项的等式。
+原 $T_{\rm g}$、两个三挠词和每个 Miller 字若另作运输，
+仍须在(T14)的同一来源内逐项进行。
+
+## 11. 原完整 Hall 临界 germ 的双 Katz 测试
+
+本节返回的是 R1063(I17)已经支付的原 whole 列
+$\mathcal B_r(j)$，不是单个 Weyl 字。
+其原实际外权为
+$$
+ \Lambda^{(r)}_{1;i,t}(j)=
+ b_{1,i}^{\rm orig}B_i\,
+ \nu_r(\mathfrak a_{i,t})^{-1}
+ \mathfrak j_{h_i}(j;y_i)\mathfrak j_t(j;y_{i,t}).
+ \tag{T15}
+$$
+这包括十八核、full2/full9、先 $Q_\tau/e_A^-$ 后 sign、
+所有原 projector/紧商测度和 Artin/Cor。
+非紧 ideal 代表必须先按 R1063(I12d)将两个 Norm/Hodge
+因子完整抵消，才回到(T15)。
+以下使用 I16--I17 的确切 whole seesaw 等式；
+不在其前对任一单图或未积分的 $h_\infty$ 核套 rank-one 分解。
+
+### 11.1 同一原两 Hall 轨道上的解析测试
+
+把 I16--I17 用(T7)全改到 $E_0$。
+在负、正两个独立 Hall 轨道选定实际参考点 $Q_*,R_*$，写
+$$
+ A_{-,Q}=102Z_Q,\qquad A_{+,R}=34Z_R,\qquad
+ U_*=\rho_A L_-L_+ A_{-,Q_*}A_{+,R_*}.
+$$
+所有 $A_{-,Q}/A_{-,Q_*}$、$A_{+,R}/A_{+,R_*}$ 及 $U_*$
+都是原 I17/G12 所付的单位。特别不单独插值非单位 $A_{\pm,*}$。
+仍取同一共同 Teich/深主单位权盘 $j=-2+p^e u$；
+所有根单位按原合法正整数子列固定。
+
+记
+$$
+ \begin{aligned}
+ a_Q(j)&=A_{-,Q_*}^{-2}
+    \left(\frac{A_{-,Q}}{A_{-,Q_*}}\right)^{[-2]}(j)
+              \mathcal F_{102,Q}(j),\\
+ b_R(j)&=
+   \exp\!\left((j+2)\log\frac{A_{+,R}}{A_{+,R_*}}\right)
+              \mathcal F_{34,R}(j+2),\\
+ \mathscr E_-(j)&=\frac1d\sum_{Q\in\mathcal O_-}
+                          a_Q(j)(\mathbf e_Q-1),\\
+ \mathscr E_+(j)&=\frac1d\sum_{R\in\mathcal O_+}
+                          b_R(j)(\mathbf e_R-1).
+ \end{aligned}
+ \tag{T16}
+$$
+其中 $\mathcal F$ 正是 R1062(G4)--(G8)，不是新选的 primitive。
+原 R716 小矩形代表中的 $\chi_r$ 相位，
+按 R1063(H14)--(H16)与 theta 准周期相消后才写成
+(T16)的实际对称 lift；$\mathscr C_{102,T}$、
+$\mathscr C_{34,T_+}$ 仍为那两个真实 wild 中心单位。
+负 Haar 向量是正向量在原双线性 Haar 配对中的准确对偶。
+没有任选相位或将两轨道改成相关单和。
+
+有限个除点和完整 $\mathcal F$ 给(T16)在
+$F\widehat\otimes\mathscr A$ 中的 Banach 值解析函数。
+若需要缩小共同权盘，按 G12 对全部字同时缩小。
+在基点，
+$$
+ \boxed{\quad
+ \mathscr E_-(-2)=\mathscr E_Q^- \text{ of (K18)},\qquad
+ \mathscr E_+(-2)=\mathscr E_{Q_+}\text{ of (K16)} .
+ \quad} \tag{T17}
+$$
+因为 $A_*^{-2}(A_Q/A_*)^{-2}=A_Q^{-2}$、
+$\mathcal F_{34,R}(0)=1$。
+此处的 $-1$ 常数项继续保留；负质量恰为0由(K15)支付，
+正质量不省。
+
+### 11.2 全权、period、Haar 和模型费用的同一恒等式
+
+令
+$$
+ K_0=
+ \frac{d\,c_0^{(0)}\Omega_A^3
+       \mathscr C_{102,T}\mathscr C_{34,T_+}}
+      {p^4\rho_A^2L_-^2},\qquad
+ U_*^{[0]}(j+2)=\exp((j+2)\log U_*).
+ \tag{T18}
+$$
+它们使用(T7)的 $E_0$ frame。
+$K_0$ 确实与 $j$ 无关：I17中全部随权项已是
+$U_*^{[-2]}(j)$、两个 $A/A_*$ 比及 $\mathcal F$；
+(T15)的原 tensor cocycle 正是 I12c--I17支付这些项的
+实际返回，不能再额外删去或重计一次。
+其他未经 I12d 支付的附加外权不属于本结论。
+
+直接将(K13)代入该同一 I17，得到
+$$
+ \boxed{
+ \mathcal B_r(j)=K_0\,U_*^{[0]}(j+2)\,
+   \boldsymbol\mu_F\bigl(
+             \mathscr E_-(j)\otimes\mathscr E_+(j)\bigr).
+ }
+ \tag{T19}
+$$
+验证系数时，I17的两个 $d^{-1/2}$ Hall 和各变成
+$\sqrt d\,\mathscr C_\pm/p$ 倍的(K10)测试。
+负测试的定义另外提出 $A_{-,Q_*}^{-2}$，所以需乘回
+$A_{-,Q_*}^2$。
+再用
+$U_*=\rho_A L_-L_+ A_{-,Q_*}A_{+,R_*}$，
+恰将原
+$(L_+A_{+,R_*})^2U_*^{[-2]}(j)A_{-,Q_*}^2$
+化为
+$(\rho_A^2L_-^2)^{-1}U_*^{[0]}(j+2)$。
+这逐项给出(T18)，没有丢一次 $d$、$p^2$ 或负 $\delta$。
+
+$\Omega_A$ 与 $U_*$ 可以是原 $\mathbf C_p$ period 数据。
+(T16)的有限代数测试先在 $F$ 中定义；这些外部 period
+随后按原 I17乘回，不将它们虚称为有限域元素。
+式(T19)也没有给一份新 scalar ST descent。
+
+基点是修正模型后(K20)的同一个值。
+完整斜率则是
+$$
+ \boxed{
+ \begin{aligned}
+ \mathcal B_r'(-2)=K_0\Bigl\{
+ &\boldsymbol\mu_F\bigl(
+ \mathscr E_-'(-2)\otimes\mathscr E_+(-2)
+  +\mathscr E_-(-2)\otimes\mathscr E_+'(-2)\bigr)\\
+ &+(\log U_*)\,\boldsymbol\mu_F\bigl(
+          \mathscr E_-(-2)\otimes\mathscr E_+(-2)\bigr)\Bigr\}.
+ \end{aligned}}
+ \tag{T20}
+$$
+明确地，
+$$
+ \begin{aligned}
+ a_Q'(-2)&=a_Q(-2)
+  \left(\log\frac{A_{-,Q}}{A_{-,Q_*}}
+       +\frac{\mathcal F_{102,Q}'(-2)}
+                    {\mathcal F_{102,Q}(-2)}\right),\\
+ b_R'(-2)&=\log\frac{A_{+,R}}{A_{+,R_*}}
+                  +\mathcal F_{34,R}'(0).
+ \end{aligned}
+$$
+分母 $\mathcal F_{102,Q}(-2)$ 是 G8 已付的单位。
+$\log U_*$ 及单位比的 log 没有被假定具有非负估值。
+按 I20 写回原 ordered source，(T20)准确等于
+$\sum_{i,t}(\Lambda_{1;i,t}^{(r)\prime}M_{A_{i,t}}
++\Lambda_{1;i,t}^{(r)}M_{A_{i,t}}')$ 在 $j=-2$ 的值。
+它保全部 $\lambda/\lambda'$、两个原 sign 和 Artin/Cor，
+不由端点0抹去任一导数项。
+
+## 12. 后继交织的确切范围
+
+(T19)--(T20)不要求原单变量
+$\exp(CL)^*\nu$ 已经有界；它们在同一个已构造的双 Katz
+对偶上，以有限而完整的实际除点测试返回原整个临界 germ。
+这比只返回(K20)的值多保两侧导数及外权导数，但仍没有
+证明该指定测试不在泛函的核中。
+
+(T10)--(T14)则给一份确切的整 Gaussian dual twist，其常数
+$612\omega/\kappa_A$ 和两模型尺度全部已付。
+若要将它用于原 R1060 coherent multiplication，
+下一步必须用实际 Fourier/Weil/Miller 次序证明相应交织；
+不能仅因两个 Gaussian 都是单位而认同它们。
+两份 Katz 测度的整性、支撑于单位以及(T12)的等距性，
+也没有单独支付(K29)的
+$v_p\mu_+(c_1^{p+1})=2$，更未支付其对无穷多个 $p$ 成立。
+
+本附节是纸笔恒等式及完整既有来源的运输，无新增数学执行。

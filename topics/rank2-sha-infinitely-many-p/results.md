@@ -413,3 +413,10 @@ R1064§12用同一个primitive Cartier-dual生成元证明完整q项核平均恰
 模型核对明确补足R1063(I18)的E17整列与R1065(K3)首项一E0来源之间的固定费用：D17=ϑ^-4D0(ϑz)、S17=ϑ^-6S0(ϑz)、Z17=ϑZ0，故负二/正零两Hall各乘ϑ^-6，whole prefactor共17^-2。等价使用c0^(0)=ϑ^-10c0、L±=ϑell±。R1065 K20局部式本来就在E0而保持；其后接whole的原句现按K20a/b改正，R1063 I18a显写模型对照。这个p单位不改变K22–K29或原严格单Hall门。
 
 [原整列对照](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)与[实际Katz返回](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)已同步；全部中心、两份Hall规范及原Haar保留。
+
+
+### R1065 §§8–12：原整 dual tensor、确切 Gaussian 与整个临界 germ
+
+R1065 T1–20在两份原Katz Galois dual的完成整tensor上构造实际有界泛函。原E0/A4/E17的HT/微分/两槽全部乘回，coherent Gaussian尺度准确为β0=612ωκ_A^-1ϖ0²；测试Gaussian逐项用2⌊rτ⌋−v(r!)≥0且趋∞支付真整格单位及等距twist，保双primitive支撑。其Fourier侧是实际mixed D_G heat，全部旧项保留，不认成原coherent乘法。再由原whole I17构造有限Banach值测试，精确返回整个B_r(j)与全斜率；K0含17^-2、d/p4、period及中心，两个Hall导数和logU*及全部Λ′保持。主严格矩门及所需Weil交织未由此解决。
+
+[完整证明](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)，T1–T20；整格gauge与fractional pointwise范数已区分，logU*保在有限域泛函外。
