@@ -51,7 +51,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54保三维自由port，未称收敛。
 
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
-<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 27b07fa780c79668a188e1405f3c4d1038abd71c
 
 [R787](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新g真长左壁/两整曲帽/四全返回板；初reach>.1319、D<4.39，guide全像held>.90，余下曲肩g/晚全管未付。28源含真cap逆二jet，原四族×三层7+6相/13图/全材料路径正常发布。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull be92d2ec03f44f5b4809c86ef0c3b49818a4b9d1
@@ -59,3 +58,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) f60defdb06d07ae32f6fae71ae1e5bb888076bd9
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull ba335d36f2d1394239e0455dc2f0f1bc2996bafa
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 50cf18d774560944ded412838c23f9e3bc80f82f
+<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 366be32b4e9afad68c1317ad915c9d289b2a38bf
