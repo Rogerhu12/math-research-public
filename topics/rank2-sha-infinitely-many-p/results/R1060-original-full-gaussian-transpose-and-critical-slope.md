@@ -529,3 +529,297 @@ Newton 行，必须实付这个完整转置后的投影/同源身份。
   和 proper fp 范围。
 
 全篇是原来源的纸笔算子和有限重排，无新增数学运行。
+
+
+## 8. 原完整圆周积分给出的全部支撑
+
+以下仍是(3a)、(6)定义的同一个完整来源。
+特别，$[U(1)]$ 的无穷分量保留整个圆周；即使利用类数一
+把有限部分改写成有限代表，也仍保它的角向投影。
+令 $\mathsf P_2$ 是对 coherent 变量的这一投影：
+$$
+ \mathsf P_2F(Z,W)=
+ \int_{|h|=1}h^{-2}F(h^{-1}Z,hW)\,d^\times h,
+ \qquad \int_{|h|=1}d^\times h=1 .
+ \tag{26}
+$$
+这里显示的单位 Haar 只是定义幂等投影；
+原 $\mathcal T_i$ 的整体 Haar 常数仍在来源中。
+
+在(3a)的原复核中，径向 Gaussian 和 $ZW$ 不变，
+$Z^rW^s$ 项的 $h$ 角色是 $h^{s-r}$。
+原 splitting 的共同标量由固定 source character 配对消掉；
+剩余角色的绝对方向由原 $(0,2)$ 槽给出：
+其 $2!$ 倍准确是 $z^2$ 的原 weight-three 来源，
+所以所取的是 $s-r=2$，不是 $r-s=2$。
+这用的是同一个 $\theta(\psi_4^2)$ 的来源字符，
+不随有限字或 raised 次数另选字符。
+
+原 modular Weil 的 $g_\infty$ 作用与这个 $U(1)$ dual-pair
+作用交换，有限 Schwartz、level、Hecke 及 $p^2$ 字不改变
+无穷分量的角色。正常排序中的每个 $ZW$ 因子也保持差为2。
+因此先作实际 arch 运输，再作完整 source 积分，严格得到
+$\mathsf P_2H_{{\rm an},i}=H_{{\rm an},i}$。
+每个有限槽的格点和及积分绝对收敛，角色正交可以逐槽使用。
+原(8)、(10)的两变量缩放均保持这个差，故
+$$
+ \boxed{
+ H_i(Z,W)=W^2H_i^\Delta(ZW),\qquad
+ \widetilde H_i(Z,W)=
+ \Omega_i^{-3}\sum_{n\ge0}
+ \frac{m_{i,n}Z^nW^{n+2}}
+      {\rho_i^n n!(n+2)!}.
+ }
+ \tag{27}
+$$
+第二式用(16b)，不是另选的生成函数。
+第一式也表明，§3已经代数化的全部对角槽就是整个核；
+其余槽先在复来源中严格为零，故无需为它们另选 period。
+
+(27)只在完成整个 $h_\infty$ 积分以后成立。
+(6)的被积函数、单个 $A,B$ 项或任一 rank-one 因子，
+通常都不具有这个支撑。特别不能在这些因子上单独施用
+下面的有界性结论，或把圆周正交改成只对 $\mu_6$ 求和。
+本节也没有追加旧 output-torus 的 $n\equiv4\bmod6$ 投影；
+原所有 $n\ge0$ 的下 Maass 槽仍完整保留。
+
+## 9. 同一来源的完整双变量 PD 返回
+
+记 $X^{[r]}=X^r/r!$，定义 bounded Hurwitz 代数
+$$
+ \mathscr D^{\rm bd}=
+ \left\{\sum_{r,s\ge0}b_{r,s}X^{[r]}Y^{[s]}:
+                    \sup_{r,s}|b_{r,s}|_p<\infty\right\},
+ \qquad
+ \|F\|_{\rm PD}=\sup_{r,s}|b_{r,s}|_p .
+ \tag{28}
+$$
+系数在 $\mathbf C_p$ 中，不要求原周期属于预先固定的有限扩域。
+这是对显示范数完备的 Banach 代数：乘积的 $(r,s)$ 个 PD
+系数是有限和，且其中的结构常数是
+$\binom r a\binom s b\in\mathbf Z_p$。
+因此乘法连续且范数次乘性成立。
+任意有界 PD 级数的有限截断不一定按这个范数收敛；
+这里的形式展开和有限系数乘法，不偷偷改成这种截断稠密性。
+
+用原 $\Omega_i,\rho_i$ 作非对称的实际缩放，无需选择
+$\sqrt{\rho_i}$：
+$$
+ \boxed{
+ \mathscr B_i(X,Y):=
+   \Omega_i^3\widetilde H_i(\rho_iX,Y)
+   =\sum_{n\ge0}m_{i,n}X^{[n]}Y^{[n+2]},
+ \qquad
+ \Omega_i^3H_i(\rho_iX,Y)=e^{C_iXY}\mathscr B_i(X,Y).
+ }
+ \tag{29}
+$$
+第二式的符号来自 $\beta_i\rho_i=-C_i$。
+它也逐项给出
+$$
+ [X^{[n]}Y^{[n+2]}]\,
+      e^{C_iXY}\mathscr B_i
+   =\sum_{r=0}^n
+      \binom nr\binom{n+2}r r!C_i^r m_{i,n-r}
+   =R_{i,n}.
+$$
+所以这里的双 PD 格确实返回(1)的原 Maass 系数，
+包括 $n=0$ 的 $2!$，没有遗漏或新加阶乘。
+
+$e^{\pm C_iXY}$ 的 $(r,r)$ 个 PD 系数是
+$(\pm C_i)^r r!$，其余系数为零。
+由于 $v_p(C_i)=2$，它和逆元都属于整的 bounded PD 代数，
+范数都等于1。乘它们因而是等距变换，得到完整而非只逐槽的结论
+$$
+ \boxed{
+ \|\mathscr B_i\|_{\rm PD}
+ =\|\Omega_i^3H_i(\rho_iX,Y)\|_{\rm PD}
+ =\sup_{n\ge0}|m_{i,n}|_p
+ =\sup_{n\ge0}|R_{i,n}|_p
+ \le p^{-m_i}.
+ }
+ \tag{30}
+$$
+这里差为2的子空间是闭线性子空间，不称它为乘法子代数。
+等距性是在整个 $\mathscr D^{\rm bd}$ 中证明后再限制到它。
+原 Haar、$p^{-2}$、finite word、两极化和全部 source 积分
+都已经在 $m_{i,n}$ 与 $H_i$ 中；(29)没有重归一这些系数，
+也不因改变局部基的配对而再乘一个隐藏的 $p$ 因子。
+
+(29)--(30)是同一个 actual 来源的双 PD 返回。
+它们不把两条 rank-one 来源分别认成有界测度，
+也不将这个双阶乘格认成原单变量 canonical completion 的
+任意乘法理想。§§5--6的原有限精度读者仍按(22)--(25)使用。
+
+## 10. 整个核的严格闭盘范数与实际挠点半径
+
+取 $r_Z,r_W\in\mathbf Q_{\ge0}$。
+记 $\|\cdot\|_{r_Z,r_W}$ 为闭双盘
+$|Z|_p\le p^{-r_Z}$、$|W|_p\le p^{-r_W}$ 的 Gauss 范数。
+令
+$$
+ \tau=\frac p{p^2-1},\qquad
+ R_{\rm crit}=2-2\tau+\frac2{p-1}
+             =2+\frac2{p^2-1}.
+$$
+若
+$$
+ r_Z+r_W>R_{\rm crit},
+$$
+则原完整核和真实 cross-Gaussian 核均属于该闭盘的 Tate 代数，
+且
+$$
+ \boxed{
+ \|H_i\|_{r_Z,r_W}
+   =\|\widetilde H_i\|_{r_Z,r_W}
+   \le p^{-m_i-3\tau-2r_W}.
+ }
+ \tag{31}
+$$
+
+**证明。** 设 $s_p(n)$ 是整数 $n$ 的 $p$ 进数字和。
+Legendre 式准确给出
+$$
+ v_p(n!)+v_p((n+2)!)
+ =\frac{2n+2-s_p(n)-s_p(n+2)}{p-1}
+ \le\frac{2n}{p-1}.
+ \tag{32}
+$$
+在 $n=0$ 时数字和之和为2；在 $n\ge1$ 时两个整数均正，
+数字和之和也至少为2。因此(32)包含原起点，不多损失常数。
+
+用(27)、$v_p(\rho_i)=2-2\tau$ 及
+$v_p(\Omega_i^{-3})=3\tau$，第 $n$ 项在该盘上的系数估值至少
+$$
+ \begin{split}
+ &m_i+3\tau+2r_W+
+  n\{r_Z+r_W-(2-2\tau)\}
+      -v_p(n!)-v_p((n+2)!)\\
+ &\hspace{2cm}\ge
+ m_i+3\tau+2r_W+
+             n(r_Z+r_W-R_{\rm crit}).
+ \end{split}
+ \tag{33}
+$$
+严格不等式使它趋于 $+\infty$，故给 Tate 收敛和所示范数界。
+由(16c)，$e^{\beta_iZW}$ 及逆元在完整单位双盘都是
+Gauss 范数1的单位，在当前更小闭盘亦然。
+两方向相乘均不增范数，遂得(31)的范数相等。证毕。
+
+不能只据矩有界把(31)的严格不等式改成等号。
+例如有界矩序列 $m_n=1$ 来自实际有界测度 $\delta_1$。
+当 $n=p^r$、$p>3$ 时，
+$s_p(n)+s_p(n+2)=4$。
+若 $r_Z+r_W=R_{\rm crit}$，则对应加权系数的估值恒为
+$3\tau+2r_W+2/(p-1)$，不趋于无穷。
+这个例子只说明“矩有界”这一假设不能支付边界 Tate 收敛；
+不声称本题的具体来源一定达到这个收敛边界。
+
+特别，对称闭盘的充分条件是
+$$
+ r_Z=r_W>1+\frac1{p^2-1}.
+ \tag{34}
+$$
+原 R1054§3 在良整 height-two 形式参数中给出的非零 $p$
+挠点、exact-$p^2$ 挠点估值分别为
+$1/(p^2-1)$、$1/(p^2(p^2-1))$。
+若某一个实际字已经核定 $Z,W$ 分别经单位切向解析同构
+对应这些良整参数，则(34)保证的对称盘严格小于两种挠点盘。
+一般若实际坐标为 $u_-=a_iZ+\cdots$、$u_+=b_iW+\cdots$，
+必须同时保留 $v_p(a_i),v_p(b_i)$ 和这些坐标同构的真实半径；
+本稿的 $\gamma_i$ 几何化本身没有支付每个 rank-one 分量或
+新增 $p^2$ 字到这些参数的比例。
+也不能把形式对数在挠点为零误作平移已进入当前盘。
+因此(31)给出的是显示 $Z,W$ 变量的全核范数，
+没有支付 $p$、$p^2$ 挠点的 Jacobi 平移，
+更没有支付(6)各 rank-one 因子的此类平移。
+
+## 11. 冻结外权后的共同 cross Gaussian 与完整 t 账本
+
+以下在每一个固定 tame/maximal-CM 基字的 $t$ 轨道上分别取
+基准标记 $0$；不同轨道不擅自共用其周期或显示常数。
+只消费原单位标记的实际运输，不另外给它构造
+$\mathbf Z_p$ 上的有界测度。令
+$\chi_t=t/\bar t$；在 R1059 的同一 Teich 分量上，
+原配对、周期及 Maass 参数为
+$$
+ \begin{gathered}
+ \kappa_t=N(t),\qquad \Omega_t=\Omega_0/\bar t,\qquad
+ \rho_t=\rho_0\chi_t,\qquad C_t=C_0,\\
+ \beta_t\chi_t=\beta_0,\qquad
+ \mathfrak j_t(j)=N(t)^{-j}\bar t^{\,3+2j},\qquad
+ \frac{\mathfrak j_t'}{\mathfrak j_t}
+       =-\log N(t)+2\log\bar t=-\log\chi_t .
+ \end{gathered}
+ \tag{35}
+$$
+对数均按所选单位分量取，固定 Teich 常数不被微分。
+其中 $C_t=C_0$ 由 R1058(11)在中心 $L=0$ 的
+$D_t(0)=1$ 得到：原 $y_{\rm dR}$ 的中心值不变，
+所以实际 $p^2/y_{\rm dR}$ Maass 参数也不变。
+这一步只用完整代数变换的中心值，不将主单位的闭盘估计
+无条件搬给所有 tame 单位。
+这里 $\chi_t$ 是原实际 lift 的单位，不把它先改成一个
+有限 $T_2$ 角色，也不把任意 $\chi_t$ 幂当成整单位盘上的
+Amice 变量代换。
+
+对每个非负整数 $\ell$，冻结在临界点的外权给出准确式
+$$
+ \boxed{
+ \mathfrak j_t(-2)\Omega_t^3\rho_t^\ell
+       =\Omega_0^3\rho_0^\ell\chi_t^{\,\ell+2},\qquad
+ \chi_t^{\,\ell+2}h_{t,\ell}
+       =[Z^\ell W^{\ell+2}]H_t(Z,\chi_tW).
+ }
+ \tag{36}
+$$
+因此将(15)用于全部 $t$ 字时，
+$\mathfrak j_t(-2)$ 可以完全移入实际核
+$H_t(Z,\chi_tW)$，同时使用共同 $\Omega_0,\rho_0,C_0$。
+并且
+$$
+ \boxed{
+ \widetilde H_t(Z,\chi_tW)
+       =e^{\beta_0ZW}H_t(Z,\chi_tW).
+ }
+ \tag{37}
+$$
+这使用的是 $\beta_t\chi_t=\beta_0$，不是把各个
+$\beta_t$ 无条件认成 $\beta_0$。
+故在冻结后的完整 $t$ 和中，所有字共用同一个真实 cross
+Gaussian，而实际核、两极化、$L_{t,h}$、原 Haar 和
+$\chi_t$ 的完整 lift 仍全部保留。
+由于 $\chi_t$ 是单位，(31)的盘和范数界保持不变。
+
+为显示斜率费用，写
+$\Lambda_t(j)=\lambda_t(j)\mathfrak j_t(j)$。
+(19)的整个多项式读者准确为
+$$
+ \begin{split}
+ W_{t,H}(x)=\mathfrak j_t(-2)\big[
+   \{\lambda_t'(-2)-\lambda_t(-2)\log\chi_t\}\,P_{2,H}(x)
+       +\lambda_t(-2)K_{H,C_0}(x)\big].
+ \end{split}
+ \tag{38}
+$$
+因此在(22)--(23)中以 $H_t(Z,\chi_tW)$ 代替 $H_t$，
+以共同 $\Omega_0,\rho_0,C_0$ 代替相应显示常数，
+并以(38)方括号内的系数代替 $w_{t,H,n}$，给出同一完整斜率。
+其中 $-\lambda_t\log\chi_t\,P_{2,H}$ 是真实值端补项；
+不能由全 Maass 斜率或一个有限角色投影删掉。
+$\lambda_t'$ 中其余 avatar、Norm 和外部权导数也仍按原式保留。
+
+等价地，冻结后的整个 PD 来源为
+$$
+ \Omega_0^3e^{-C_0XY}H_t(\rho_0X,\chi_tY)
+   =\sum_{n\ge0}\mathfrak j_t(-2)m_{t,n}
+                   X^{[n]}Y^{[n+2]} .
+$$
+$\mathfrak j_t(-2)$ 为单位，所以本式继承(30)的完整 PD
+范数，而没有对单个 rank-one 因子提出任何额外范数断言。
+全部有限求和的误差仍由(20)--(25)的实际外权统一支付。
+
+本次新增结论是完整 source 积分后的支撑、同来源双 PD
+等距返回、严格闭盘范数以及冻结 $t$ 权的准确消费。
+这些结论并不把原 rank2 canonical 坏条件扩展成新的乘法零，
+也不以所得小盘代替仍待支付的实际挠点平移。

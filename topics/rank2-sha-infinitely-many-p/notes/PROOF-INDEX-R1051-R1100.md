@@ -165,3 +165,10 @@ R1053§12将原M=1参数Z在α=δ(4+ω)的全部39核点逐点定清：零集恰
 R1054§10把原全p⁴坐标核精确识别为六阶CM单位t0=(1+δ)/2的Weil算子。字配对中K=p^-1ρ+(t0)，实际Haar配对中K=p^-2(1⊗ρ+)C_Haar；negative标签的系数是p^-1ϑ^-1(t0)。全部p²个Weyl词逐常数/u/v系数重现原mixed相位，原p-local平移/调制、CRT及逆arch Jacobi保全中心和Gaussian。真实[p]*L_N及负δ拉回/原两3挠词全部保，未将各词赋canonical零，也未把完整circle投影后的核冒作固定曲面上的全局theta截面。
 
 [完整证明](../results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)，(52)–(65)。
+
+
+### R1060 §§8–11：whole source 的真实双 PD 返回
+
+R1060§§8–11由完整source h∞角色投影证明whole H=W²HΔ(ZW)，并将原全部矩精确返Ω³·tildeH(ρX,Y)=Σm_n X^[n]Y^[n+2]。e^{±CXY}在bounded双PD格为等距单位，保全部Maass/阶乘/Haar而不推单rank1有界。整个核在rZ+rW>2+2/(p²−1)的真实闭盘有明确相同范数，边界不能仅由矩有界支付；挠点比较另须实际Néron参数倍率/半径。逐固定tame基字的t轨道上，冻结j(-2)准确给H_t(Z,χ_tW)、共同β0及−λlogχ·P2值端费用，全部finite字、χ实际lift和原K_H尾保留。
+
+[完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(26)–(38)。

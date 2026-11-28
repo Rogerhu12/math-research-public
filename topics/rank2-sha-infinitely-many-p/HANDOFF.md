@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际pull、已读规则和认领
 
-readonly run46075603971/job140829012692，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 02:07:49 UTC实际partial clone/pull至fb8a3545dbcff0dd03bd91b8b83a644a193d4a4c。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 02:07:54 UTC实际至0b7dbce2a2c268765338ee3e00da53475046920e。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与02:04已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14887B/SHA256 f77e892d99b817a888241b7b5af8914ed356432fa8580e586626f62151b525e3；完整库存3168blobs/44,657,869B，tree48c8995de9444ab06fa35cec58880ee2a52eae76，无>5MB，三旧必要gzip不变。
-- 每推前新实际pull；最迟2026-11-28 03:07UTC再拉两库。竞争先实际本地pull，无环境则CI实际pull、核新差异后继续，API比较不冒pull。
+readonly run46075603971/job140829409489，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 02:09:23 UTC实际partial clone/pull至e2435f397f929a412801580ea6d70f6e51df8602。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 02:09:28 UTC实际至891795b23fb9d21301a7295f8377d0db2bc6198f。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与02:07已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14887B/SHA256 517f1e1d2950d10e747415fcf4c9372e06a70e953d80e013a0589e2d5dfd7aba；完整库存3169blobs/44,682,344B，tree93b72ff7a24d1c5e4a0de002563a24b8cad228bb，无>5MB，三旧必要gzip不变。
+- 每推前新实际pull；最迟2026-11-28 03:09UTC再拉两库。竞争先实际本地pull，无环境则CI实际pull、核新差异后继续，API比较不冒pull。
 - 本地07:20失联；02:07 ref竞争后pull --rebase仍无环境，末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
@@ -36,7 +36,7 @@ readonly run46075603971/job140829012692，source e5309ee152260aa4aef389c7d5d68ba
 
 [R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)保unit inverse-square、log−全E(C/x)、正KS/cup Bol及整Newton值pH−1/斜率O(p(H+logH))真实精度。
 [R1060](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)给原全双核有限转置：R_n=Ω³ρ^n n!(n+2)!h_n，ρ=a p²κΩ²；逆Maass e^-CT，再用Newton读者给B_Hℓ及全部精度。保K−old、full h/arch、冻结Λ(-2)/Λ′(-2)、图源−6δ/两√6、复γ逐槽代数化。§4.1逆Maass=e^(βZW)，β=−C/ρ、vβ=2p/(p²−1)，Gaussian及逆是整闭双盘单位；不由此给H/各rank1范数或canonical completion身份。
-arith新稿正在核whole h∞支撑差2、双PD等距及实际小盘、冻结t的χ^(ℓ+2)和−logχ费用；尚待发布不能预付。新的circle投影后的whole核不自动是固定E×E上的全局theta截面。
+新增§§8–11已付whole h∞支撑差2、完整双PD等距和全核rZ+rW>2+2/(p²−1)闭盘；PD式Ω³tildeH(ρX,Y)=Σm_nX^[n]Y^[n+2]。挠点盘比较须另付Z/W到Néron参数的倍率/同构半径。冻结t逐同一基字轨道给H_t(Z,χW)、共同β0及−λlogχ P2费用，保全finite与χ lift，不造新Zp测度。circle投影后whole核不自动是固定E×E上的全局theta截面；completion的全部角槽/真实tensor次序继续。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)优先：literal通常剔除阶乘数列不能连接非零连续族，旧full54/六线/ψ4连续cross与共同F单位仍条件化。p227/u1辅助65537仅char0非零非227单位。直接proper/晶体残余与R1049独立signed桥保原范围，不删outward项。
 

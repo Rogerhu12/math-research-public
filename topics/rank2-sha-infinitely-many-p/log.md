@@ -111,3 +111,12 @@ root独核正canonical矩阵、Gauss+1和旧球、负标签/矩阵转置、两W�
 
 
 本条首次ref更新02:07:41UTC返GraphQL错误，attempt e8412eb37421adaef404ea50f776ecb8904f313b与新main真实diverged，未误报成功。立即本地pull --rebase仍无环境，继以CI实际双pull job140829012692：公开2026-11-28 02:07:49 UTC至fb8a3545dbcff0dd03bd91b8b83a644a193d4a4c；私库2026-11-28 02:07:54 UTC至0b7dbce2a2c268765338ee3e00da53475046920e。四README与02:04已读版相同，QUEUE与topic inventory tree 48c8995de9444ab06fa35cec58880ee2a52eae76均未变。新日志14887B/hashf77e892d99b817a888241b7b5af8914ed356432fa8580e586626f62151b525e3，继续按新main非force推送。
+
+
+## 2026-11-28 02:11:03 UTC：全圆周来源与真实双 PD 等距
+
+R1060§§8–11由完整source h∞角色投影证明whole H=W²HΔ(ZW)，并将原全部矩精确返Ω³·tildeH(ρX,Y)=Σm_n X^[n]Y^[n+2]。e^{±CXY}在bounded双PD格为等距单位，保全部Maass/阶乘/Haar而不推单rank1有界。整个核在rZ+rW>2+2/(p²−1)的真实闭盘有明确相同范数，边界不能仅由矩有界支付；挠点比较另须实际Néron参数倍率/半径。逐固定tame基字的t轨道上，冻结j(-2)准确给H_t(Z,χ_tW)、共同β0及−λlogχ·P2值端费用，全部finite字、χ实际lift和原K_H尾保留。
+
+root逐项核n0 z²/source角向号、两factorial的PD乘法、Gaussian逆/等距、Legendre数字和含n0及边界n=p^r。真实冻结j/Ω/ρ逐指数相消给χ^(ℓ+2)，导数保−logχ。审读时将全轨道共同常数限定为每一固定tame基字各取0，并显式用R1058(11)中心D=1付C_t=C0；未付的rank1/p²字到Néron参数倍率没有擅设单位，因此挠点盘比较改为明确条件和全部坐标费用。没有数学执行、没有新增canonical零。
+
+推前actual readonly run46075603971/job140829409489：公开2026-11-28 02:09:23 UTC至e2435f397f929a412801580ea6d70f6e51df8602；私库2026-11-28 02:09:28 UTC至891795b23fb9d21301a7295f8377d0db2bc6198f。四README与02:07已读版相同、QUEUE仍原blob及本会话进行中。日志14887B/hash517f1e1d2950d10e747415fcf4c9372e06a70e953d80e013a0589e2d5dfd7aba；库存3169/44682344B/tree93b72ff7a24d1c5e4a0de002563a24b8cad228bb，无>5MB，三旧必要gzip不变。唯一v13仍按02:01真实回执继续，不开第二heavy。
