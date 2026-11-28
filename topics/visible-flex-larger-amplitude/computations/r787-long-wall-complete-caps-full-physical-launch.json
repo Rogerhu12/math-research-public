@@ -1,0 +1,370 @@
+{
+  "schema": "R787-preloaded-closed-long-left-wall-and-complementary-entire-sphere-fit-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_directory": "topics/visible-flex-larger-amplitude/scripts/resume_20261126",
+  "identity_columns": [
+    "path",
+    "full UTF8 bytes",
+    "whole SHA256",
+    "git_blob"
+  ],
+  "workflow": [
+    ".github/workflows/visible-larger-r787-preloaded-long-wall-whole-fits.yml",
+    5950,
+    "343a29a34282e2c38085b37b8c2b32578cf5079ec32b0312909a03017cd30927",
+    "e8a1a081651cdb090b699108748e4094f519ee64"
+  ],
+  "proof": [
+    "results/R787-preloaded-long-wall-two-complete-caps-and-four-exact-returning-panels.md",
+    35564,
+    "40e35918e6911ab8bf57e6f8f7439a991b51f3cecbcc76d351bae556ce304478",
+    "90b010a63030dfb1b373707ba3675a7c82b82079"
+  ],
+  "fixed_target": {
+    "initial": "actual whole theta=0 physical jet on one new preloaded material sphere. All surface data and interval fixed across grids.",
+    "E": 0.44,
+    "B": 0.88,
+    "H": 0.71,
+    "standard_length": ".132*pi/2+.0005",
+    "additional_transferred_flat_lip": 0.006,
+    "material_left_replacement": {
+      "heading": 1.48,
+      "radius": 0.15,
+      "soft_ramp": 0.0005,
+      "positive_heading_dwell": 0.6,
+      "half_height": 0.41,
+      "slack": "actual true integrated height deficit, split equally on the two ends of each half-wall",
+      "material_old_half": 0.545
+    },
+    "cap_radial_coordinates": {
+      "full_normal_width": 0.0004,
+      "following_ramp": 0.0004,
+      "frozen_inward_offset": 0.0006,
+      "whole_domain": "polar graph down to both actual centers plus Cartesian overlaps"
+    },
+    "x_preload": {
+      "magnitude": "2^-16",
+      "support": [
+        -1.34,
+        -1.045
+      ],
+      "transition_width": 0.05
+    },
+    "true_islands": {
+      "centers": [
+        [
+          -0.5,
+          -0.4
+        ],
+        [
+          -0.5,
+          0.4
+        ]
+      ],
+      "radius": 0.09,
+      "height": 0.0015
+    },
+    "phase": [
+      0,
+      0.9
+    ],
+    "central_plate_motion": "lower physical translation from two actual whole meridian integrals plus smooth closed-curve continuation; upper-right grip fixed",
+    "good_bad_clocks": {
+      "delta_max": "acos(1/4)",
+      "extra_reverse": 0.93,
+      "serpentine_durations": [
+        0.132,
+        0.308
+      ],
+      "soft_ramp": 0.001,
+      "main_half_height": 0.71
+    },
+    "cap_curve": {
+      "plateau_until_abs_z": 0.65,
+      "return_width": 0.25,
+      "integrated_speed_ramps": 0.005
+    },
+    "initial_analytic": {
+      "whole_reach_lower": ".1319",
+      "diameter_upper": "4.39",
+      "fixed_grip_diameter_lower": "1.40"
+    },
+    "analytic_scope": "two complete nonflat caps, four actual width-1.30 rectangles, both central planar panels have exact three-component metric. All complete caps have ordered .132 balls and retained raw whole late witness >=.90. Remaining curved sectors do not have certified full-time metric, injectivity, reach or rigid quotient."
+  },
+  "experiment": {
+    "jobs": [
+      "panels-gram",
+      "panels-shape",
+      "open-gram",
+      "open-shape"
+    ],
+    "physical_dimensions": 3,
+    "resolutions": [
+      [
+        24,
+        6,
+        16,
+        6,
+        3,
+        12,
+        12,
+        64,
+        12
+      ],
+      [
+        40,
+        9,
+        24,
+        12,
+        6,
+        20,
+        16,
+        96,
+        18
+      ],
+      [
+        64,
+        12,
+        32,
+        24,
+        12,
+        30,
+        20,
+        144,
+        26
+      ]
+    ],
+    "columns": [
+      "fit angular",
+      "fit radial",
+      "geometry order",
+      "angular basis",
+      "radial basis",
+      "max nfev",
+      "LSMR limit",
+      "independent angular",
+      "independent radial"
+    ],
+    "all_seven_fitted_phases": [
+      0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75,
+      0.9
+    ],
+    "six_midpoints": "actual average of adjacent physical coefficient vectors at same level",
+    "domains": "entire marked central cylinder, both complete pre-rolls, both standard+lip, both full caps, normal + regular Cartesian + island sites each side; true joins. Free/end choices change only allowed displacement fields and objective weights.",
+    "graph": {
+      "signed_chart_chain": [
+        "cap-",
+        "round-",
+        "preband-",
+        "cylinder",
+        "preband+",
+        "round+",
+        "cap+"
+      ],
+      "angular": [
+        40,
+        64,
+        96
+      ],
+      "radial": [
+        5,
+        8,
+        12
+      ],
+      "edge_gauss": [
+        4,
+        6,
+        8
+      ],
+      "edges": "periodic angular and transverse plus both per-cell diagonals actually integrated on fixed initial six-jets, both cap poles identified. Multiple sources give largest observed current chord minus graph path, addresses and both distances."
+    },
+    "readout": "each branch one complete 13-phase original and one complete 13-phase independent physical result at each level (up to 24 logical reports). Individual charts all orthonormal entries, singularity/support/II, signed flux, extreme witness, two-sided endpoint path/probe, three six-jet joins, 21 endpoint distinct-interior pairs, and real coefficient SHA. No stored re-computable arrays.",
+    "runner": "public ubuntu-latest; Python 3.12, numpy 2.2.6 and scipy 1.15.3. Four independent PIDs, one BLAS thread each, 355 minutes. Freeze 28 at trigger SHA; ledger separate true current rules on bootstrap/freeze/every 2700s/finish/NFF. No token in scientific child environments.",
+    "cap_overlap": "Full inverse two-jet pullback of every original polar coefficient on the Cartesian/island overlap independently on both disks; regular world columns coincide where polar tensors vanish."
+  },
+  "actual": {
+    "source": null,
+    "run": null,
+    "attempt": null,
+    "job": null,
+    "pids": null,
+    "exit": null,
+    "reports": null,
+    "values": null
+  },
+  "frozen_28": [
+    [
+      "r740_rolled_disk_seed.py",
+      10834,
+      "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    ],
+    [
+      "r742_tilted_disk_two_jets.py",
+      9706,
+      "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "eacaa69d88eae15963aee90d948391abfb9c745a"
+    ],
+    [
+      "r744_extruded_closed_two_jets.py",
+      10327,
+      "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "729efd888029dbaf9953617edfde81c0c7394fdd"
+    ],
+    [
+      "r754_coherent_mirror_bowed_walls_two_jets.py",
+      9754,
+      "aedac63cfc0ecab05108b7d1d8ea62d5fcc0ee48e3a60c09c6fe7214e829eb96",
+      "0f20d4a812f5f3c32526277548fc641b75864ddd"
+    ],
+    [
+      "r756_return_elbows_preloaded_exact_rolls.py",
+      8933,
+      "39e166b6482078f39dc8bd2ee360a7a42ec02650145c85f5ebd78d7e32ec5a38",
+      "3daf3aa1a455c8886cd7dd92ab2f3ff0f541883d"
+    ],
+    [
+      "r758_curved_outer_collars_and_fixed_elliptical_crowns.py",
+      6352,
+      "54554808a73d93149a297a7302093d0afcd0b8d433b2d119223a2a2792ff40bf",
+      "c88481deaffb78453316a31bd6e607ca774226ab"
+    ],
+    [
+      "r760_cartesian_curved_crown_and_lower_rate_walls.py",
+      10422,
+      "a20f2ee98d901cadb6290edbbb8ad1f8a52d5b6035e6507c171ddea93febf919",
+      "ec2e06753824f38d3c8ace40a8cf4deec0e51f23"
+    ],
+    [
+      "r764_corrugated_pre_roll_and_movable_complete_caps.py",
+      4270,
+      "17f6462df8b5760a187c0ba4fe9271ea11b19998701af5dc08f8e3891a3bcf9e",
+      "9e0082c53f021ad637ebdb1b71a636d750af5c82"
+    ],
+    [
+      "solve_r764_corrugated_whole_sphere.py",
+      18757,
+      "09cb262a9103d3350a9f51d65410238c63b05df5b6349c11028f8cb403d35a36",
+      "24a5484e5e06afa09f265730fa6017dfafbd35ba"
+    ],
+    [
+      "r766_positive_boundary_curvature_and_exact_signed_ribbons.py",
+      7769,
+      "df177787c3e825258d480a9a1134f3652ef2dfebe2eae3fe2aa3026b20f26454",
+      "b570f579890526fa8f72fff691589f83ceeadc4c"
+    ],
+    [
+      "r769_closed_turn_redistribution_and_complete_rolls.py",
+      9715,
+      "5cce0c30754b3d7be84fb4f99c4c099c56c1a869b653686f02d74939bbe5ddb2",
+      "c0129e5322cdb3f462f11173a607da1d6e0fefaa"
+    ],
+    [
+      "r769_full_unit_meridian_shooting.py",
+      8423,
+      "2d79955e1d45819e3d20f9a377f88a5404dd5cf3a125bd53e81bcb1e9211a017",
+      "0a3c50cb136bd13ab3d16a7361bccef3d3d4beb2"
+    ],
+    [
+      "solve_r769_complete_meridian_spheres.py",
+      10502,
+      "a37c0d937de63290392eb753f3d9094c0c32449e8cbf808ee55abc6fe36ca1eb",
+      "31b164c4df23ef1cd6e74d032278f290a782a6a0"
+    ],
+    [
+      "r771_convex_complete_meridian_coordinates.py",
+      10005,
+      "ec36b7c91b8c22057924a9094bb04c00b96161da199bc9241a63696e0229905e",
+      "a34c5834f59d2157452e44877d6cda045fb3fc29"
+    ],
+    [
+      "r774_common_left_body_and_complete_caps.py",
+      8660,
+      "f830aa75071e047002293a0f4575cd71447b0e76c8da71515d574022a9359928",
+      "4c0e736366276321072e68ef2eaf5e5c8e5ad391"
+    ],
+    [
+      "solve_r774_shared_pose_complete_spheres.py",
+      9052,
+      "c598bfefec32de7c56e58f36809b4a314aea8368cb1737fecc99fb0d636257f5",
+      "98c38001411b7758f864281bc29259c02f0b66ad"
+    ],
+    [
+      "r777_bent_complete_caps_and_true_terminal_collars.py",
+      6497,
+      "f11b538b4f4d8a7b6205c6da56f6efc2a7196f177fede1957fa6ce48ed51f155",
+      "82452b673378146c8912f167209474b7a6eb800a"
+    ],
+    [
+      "publish_r734_exact_conclusion.py",
+      10589,
+      "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+      "c07d8a51f944dbacddabd127522d673174498839"
+    ],
+    [
+      "r780_exact_bent_caps_and_closed_spatially_shifted_center.py",
+      7152,
+      "fd049c726ed34f6060d2a4d7822457ca50ee6763b41b5ad125f3af320f1bf69e",
+      "c060440babebfd9712603d4df004513d9fcdc6b8"
+    ],
+    [
+      "r780_complete_ring_arclength_and_physical_jets.py",
+      7243,
+      "2a0f03fe17a930cc7a11a1f1bf141892dc890c9d4d7ef6bdd9899a6ab26baeae",
+      "8630fcd4c0531dbad84a7da81d4b1b59ca9eea56"
+    ],
+    [
+      "fit_r780_two_remaining_complete_roll_components.py",
+      6292,
+      "cf8750b912d9ecb42c42e4cb8bd85f413f0f294f5f6f4ee01687e3466f3d2d1b",
+      "b54f7ab2e866f7067fec92c8fad5b5c8af1c319c"
+    ],
+    [
+      "solve_r780_exact_crowns_and_normalized_whole_rolls.py",
+      9764,
+      "3d96428646a72ea93d50912d9ebc7b68e3eec32e66b770c35212c69ed0b20132",
+      "7f66b35338788a5536686d19084da70601f2faeb"
+    ],
+    [
+      "r787_long_left_wall_and_complete_initial_disks.py",
+      3174,
+      "5c42b69b926fb255562523656171fa7737b3a61e0e23fd34195ba36de5e0c65a",
+      "31bc27581944bb3af7e3663f04e27002b1e1537a"
+    ],
+    [
+      "r787_preloaded_two_complete_caps_and_four_returning_meridians.py",
+      6878,
+      "77ecaaefeadb6b4799024cf25092eb58152483c40f9b784356e59753f282eef6",
+      "234280d9bee57ed5dfcea7c0f45b5b7828e30855"
+    ],
+    [
+      "r787_complete_material_graph_paths.py",
+      4645,
+      "e5febed22b557160af3edb1f3c5a028a2580afab5cd7e8acf710856a98f03818",
+      "2d94c1515355481c12c6609f3dc0d1194249e1e3"
+    ],
+    [
+      "r787_complete_cartesian_cap_basis_pullback.py",
+      6831,
+      "510b81aec3487393b9f8b9d6fb82139f00738e333dcfcd904077ff7e36abc97f",
+      "294f7c830d8d9d3250f01fa1c7a1da5e2e25dbeb"
+    ],
+    [
+      "solve_r787_preloaded_long_wall_full_physical_families.py",
+      9776,
+      "86ad2bcd05d3b652e443b05555399b97c642b7b5956084e73d09ed5bce98b636",
+      "bfabb7ed4ac854e5c51fbcffddf05e26b4efd4c7"
+    ],
+    [
+      "run_r787_preloaded_long_wall_whole_fits.py",
+      14173,
+      "463c1d3c283c61c6746d2df5447c7529b6ee8d95f76de7f4bf06c476c299279b",
+      "697708d6aee33b28afc0f50837ed3d834c356636"
+    ]
+  ]
+}

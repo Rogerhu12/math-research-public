@@ -99,49 +99,36 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
 
-## 7. 当前完整物理求解与未付标准
+## 7. 当前完整求解与未付条件
 
-本次仅缩导航：[完整前态](https://github.com/Rogerhu12/math-research-public/blob/57719e6a4eb4aa377b4b58de799855c54414228b/topics/visible-flex-larger-amplitude/open.md)及此前固定链保全部源参、原预算、条件、失败和未返。§1–6原字不动，所有proof/ownnote/完整身份及可恢复源参不减，不重做已登记结论。
-
-### 当前实际任务
+[0bc451完整open前态](https://github.com/Rogerhu12/math-research-public/blob/0bc451bda55c384dfe96bdfbf4c17aca8cf49166/topics/visible-flex-larger-amplitude/open.md)及旧固定链保原全部责任；本次仅缩本节导航，§1–6不改，各proof/源参/完整身份/ownnote不减。已闭结论不重做，阶段或时长不停止。
 
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
+
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
+
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
+
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：首291f394和半步8e3194整几何reach违约16.64809/7.78964均拒；四分步1ea6125实际进入，接受0。原140角色/32stage继续，无整体加速证。
 
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
+
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
 
 [R777](notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)：同R764初g两完整曲帽/真终领误差<1e−6及帽间法球已证；两保留镜帽由整物料路径迫使连续g误差>.40，两三坐标释放支不在此限。21源/四进程、各三层7+6相与十类跨面原预算正常发布；全闭g/管未付，实际未预填。
 
-### 正向输入及已闭范围
-
-[R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)真圆三波新g：全t reach≥1/24.45、D<1.362、held>.320、商距>.096均针对原短/有限平衡参考；最坏Gram仍<.305。自由整空间环的其余混合/轴向和实际完整管须重新支付。R775/776/778及R773全部原结论和限定见[完整后续索引](results/INDEX-after-R770.md)与各proof。
-40/46/48/R769/R771全部原报告/源/系数/相位已逐项登记，有限误差失败保ownnote；40七点云非七整网。33–35/41/42及19–39全部旧责任保完整前态，实际未返不借别run。RET100H–O恢复链、111整参/61父和118整源/40父保持；只退已终态可原字恢复对象，活输入/父/唯一状态不退。
-
-### 全部完成要求
-
-闭连通C²嵌入、全t强C²、同一个固定g；D=整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射商距>0，全t reach≥.03D，整relative metric算子≤1e−6。同g/参数/全时间实际空间、频率和时间精化到机器或原求解容差，多时刻整mesh；固定小缺陷和仅渐近换参数均不能充完成。所有未付项继续求解，先全标准再提高三比值。
-
-
-
-
-
-
-
-[RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
-
-R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770.md)，不重做。
-
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429真实J幂错误exit1/零stage全保；最小修复后46182901571/PID2804于19:46:47Z真实启动，24输入ROOT全核，7粗已返，三族18stage/三末网原预算继续。
-
-[49/R774已闭完整结果及R784–786全部原证明](results/INDEX-after-R770.md)：所有原报告、点/源参/预算/真pull和范围未减；旧导航完整保[7e975前态](https://github.com/Rogerhu12/math-research-public/blob/7e9758e066a242d9d362cac388969c9941d68017/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
 [R780](notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)：新g完整曲帽/末领/中央准确，四硬中央/平领迹被直母线延拓排精确。23源/四原PID各三层7+6相完整预算照原发；改变真迹的新方向继续，实际待返。
 
 [53/R790](notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)46183731999/PID2552：27实际冻结全核，19:56:35Z真启动；3无tube粗已返，未据此报加速。保44全部11stage/双末网、12物理jet原精度及完整恢复；44/45不动。
 
-[R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54保三维自由port，未称收敛。
-
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
+
+[R787](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新g真长左壁/两整曲帽/四全返回板；初reach>.1319、D<4.39，guide全像held>.90，余下曲肩g/晚全管未付。28源含真cap逆二jet，原四族×三层7+6相/13图/全材料路径正常发布。
+
+### 全部完成责任
+
+闭连通C²嵌入、全t强C²、同一个固定g；D为整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射刚体商距>0，全t reach≥.03D，整relative metric算子≤1e−6。同g/参数/全时间真空间、频率及时间精化到机器或原solver容差，多时刻完整mesh。固定小缺陷、换参渐近、单独曲帽/平板都不能充完成；数值与严格存在的差别须明记，先全标准再提高三比值。
+
+所有原R773–791限制/几何及40/46/48/49/R769/R771/R774全终态、实际系数/源参/预算/真pull见[完整后续索引](results/INDEX-after-R770.md)和各ownnote。R781/R785/R786/R791的参考全t几何不自动属于拟合；R786固定非零领误差不是同g精化至零；R791腰口真精确修复须至少一口动>.015，54完整三坐标保留。R777两保留镜帽障碍不扩及三坐标释放。RET100H–P完整原字恢复链继续，原输入/父/唯一状态不退。

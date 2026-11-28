@@ -47,3 +47,7 @@
 - [R791](R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)及[全九图六jet](../scripts/resume_20261126/r791_prebent_lever_waist_two_jets.py)：真实新初弯.10→.65、长腰两头闭球，整reach≥.104、D<3.22、握径≥.648、全像held>.652、含反射商距>0。仅真实腰纵向g欠<.096，初K双符号胞保持；真1e−6修复必须移动至少一腰口>.015。非圆空间全场后续仍待付。
 
 - [54完整三族全场](../notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16源、九粗+各4/8/16共18stage，R791同g七全角纵向矩和两自由真腰口入实际Gram/应力/厚度目标。固定右条与左真实见证保宏运动，其余拟合几何另付；三个最终完整同点网预算不减。
+
+## R787 — 固定长壁完整两帽和四返回板
+
+[完整证明](R787-preloaded-long-wall-two-complete-caps-and-four-exact-returning-panels.md)与[ROOT全文及原四族记录](../notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新真实长左壁和固定2^-16预载g；全初reach>.1319、D<4.39，握≥1.40；两个完整非平帽及四宽1.30全roll板准确g，两帽有序法球.132。原guide整个晚像held>.90，未给剩余曲肩的全g/晚reach/商距。自由cap采用真实完整逆坐标二jet保证重叠一致。原四分支×三层、7+6相、13图和全物料路径完整公开运行，结果未预填。

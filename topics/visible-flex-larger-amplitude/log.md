@@ -83,3 +83,7 @@ ROOT核全部24实际冻结身份与官方job，修后run46182901571/PID2804真�
 ## 2026-11-28 20:12:22 UTC — 53 本输运实现27实际输入与原完整任务启动
 
 ROOT核27真实冻结输入及official job，本run46183731999/PID2552实际执行；3早先无tube分支不证明加速，原全部科学阶段继续。详[ownnote](notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)。 双README云核至`9ce1bfd9e28f35f376199555e8b042c0c0017446`无变（非pull）。
+
+## 2026-11-28 20:14:55 UTC — R787 固定长壁完整两帽与四全返回板，原四族完整启动
+
+ROOT全文审查35564B证明、28源交付及全部七新源/工作流，22父全核；自由cap全真实逆二jet修正重叠。新初g完整reach>.1319/D<4.39，原guide全像held>.90；剩余曲肩全g/晚管仍欠。原四族三层7+6相/13图/全材料路径完整发布，见[ownnote](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)。导航缩减有0bc451固定完整前态，原文件/结论不删。 双README云核至`57ebc5ecc71eaa535ee15625a6859d37fe6a5a28`无变（非pull）。
