@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：W 全原值子系统的纯六／四／五次等价](results/R150-appendix-unit211-W-pure-lambda-T-six-four-five-entire-value-equivalence.md)：新N5保完整NV，原组合无D逆；在当前D非零图以s=K/(2mD)双向恢复二三矩/Delta/NV，覆盖整个b0零支，不称全部Gram充分。
+
 - [R150：正确 h=k 的小因子排除与4788个规范点](results/R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)：六源完整静审保C1/C2/C4真Gram排除，独立隔离C4错误紧凑R；正确470覆盖仅余F99/F300各一次，399基点乘完整Q2/z3/ρ2给4788，未排空。
 
 - [R12：全喷射平坦理想严格大于实际全幂共同理想](results/R12-appendix-strict-flat-jet-and-common-power-ideals-and-actual-inverse-topology.md)：I∩CⁿC′=CⁿI且后者非闭，F⊊I、CF=F、F非范数闭；全部实际整数逆费用定义完整非范数化Fréchet代数，原同分母平方根仍未构造。
