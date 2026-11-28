@@ -1,0 +1,401 @@
+{
+  "schema": "isp-original-residue-return-and-valuation-glue-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "basename": "2026-11-29-unit211-W-b0-internal-delta-open-three-original-same-mu-residues-8542.py",
+    "git_blob": "b2a31315dc3eb95e969f6573adf29a3bd7072c84",
+    "sha256": "b352d1055ddafd27be722b5d855b1bd1cbbd91c043745e07b99b8288c5d0a7c5",
+    "bytes": 12258
+  },
+  "input": {
+    "basename": "2026-11-29-unit211-W-b0-internal-delta-open-three-original-same-mu-residues-8542-input.md",
+    "git_blob": "f5b297ce6389bb09de3a699237b860e9c6b6b282",
+    "sha256": "d80f2c9b4b13873a4e54633144b314939f1552d07397429873520bd8d7d6cc39"
+  },
+  "execution": {
+    "elapsed_seconds": 10.529501826,
+    "max_child_rss_kib": 38588,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "7b1720935556f0e3d204ec1d735b682a9b5a153c",
+        "before": "0465476f3dbeb52b217ed78fc61d41a58349a761",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T19:20:07.020060+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46180594208",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0465476f3dbeb52b217ed78fc61d41a58349a761",
+    "source_exit_code": 0,
+    "source_git_blob": "b2a31315dc3eb95e969f6573adf29a3bd7072c84",
+    "source_sha256": "b352d1055ddafd27be722b5d855b1bd1cbbd91c043745e07b99b8288c5d0a7c5",
+    "stdout_bytes": 6890,
+    "stdout_sha256": "73d1a36d282b277aba9f6c33af56c40989ad1321cfcb7fb5396182337d1e577f",
+    "stop_reason": null
+  },
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46180594208/job/141089040156",
+  "independent_log_read": {
+    "all_mathematical_records_read": true,
+    "record_count": 10,
+    "stdout_bytes_reconstructed": 6890,
+    "stdout_sha256_reconstructed": "73d1a36d282b277aba9f6c33af56c40989ad1321cfcb7fb5396182337d1e577f",
+    "matches_driver": true,
+    "no_math_reexecution": true
+  },
+  "records": [
+    {
+      "allComplementaryResidueChartsRetained": true,
+      "deltaZeroTakenAfterExactN5Cancellation": true,
+      "noPhysicalFZero": true,
+      "noResidualLambdaOrDUnitAssumed": true,
+      "openResidueSupport": {
+        "bytes": 36,
+        "degree": 9,
+        "nonzeroTerms": 9,
+        "sha256": "d706821f33a9a0169ea36b90935a1eb9c19afcb4f626184834631a8bb0f1ab46"
+      },
+      "originalProfiles": [
+        {
+          "bytes": 155,
+          "maxDenominatorUDegree": 3,
+          "maxNumeratorUDegree": 9,
+          "muDegree": 2,
+          "sha256": "c4ab5a18a7105109eea7e2052eb6f1752e6e531f02f377a0335fa31e727232ad"
+        },
+        {
+          "bytes": 916,
+          "maxDenominatorUDegree": 12,
+          "maxNumeratorUDegree": 24,
+          "muDegree": 6,
+          "sha256": "82e59f379628345c70354c9d008f8d101471a4b3b7ab4b564969df1fcb3ad31f"
+        },
+        {
+          "bytes": 800,
+          "maxDenominatorUDegree": 15,
+          "maxNumeratorUDegree": 26,
+          "muDegree": 5,
+          "sha256": "77bf0ec7503191371a99cdda8f482e1f1ea79714c46ae462efc39d2307402cc4"
+        }
+      ],
+      "p": 1009,
+      "paidSupportLabels": [
+        "u",
+        "e",
+        "Vbar",
+        "ell",
+        "m",
+        "Astar",
+        "Phi"
+      ],
+      "seconds": 0.31218160800000305,
+      "stage": "new_internal_delta_open_same_mu_three_original_residues"
+    },
+    {
+      "Nremainder": {
+        "bytes": 457,
+        "maxDenominatorUDegree": 23,
+        "maxNumeratorUDegree": 34,
+        "muDegree": 1,
+        "sha256": "5e775bc229652601b91cfebfd751a353bb2c47175ff66cdc920fd7b8924cdd1d"
+      },
+      "Rremainder": {
+        "bytes": 432,
+        "maxDenominatorUDegree": 22,
+        "maxNumeratorUDegree": 34,
+        "muDegree": 1,
+        "sha256": "6717ed8c7086e1598c990fb8dd97a96be4832306f09c355c1f4135465dca63d5"
+      },
+      "completeMuCoordinatesReturned": true,
+      "monicQ": {
+        "bytes": 62,
+        "maxDenominatorUDegree": 2,
+        "maxNumeratorUDegree": 2,
+        "muDegree": 2,
+        "sha256": "c286094730ae32defe80d658b87a73dfa69044140d8655ef85d8ebc439709218"
+      },
+      "noSlopeInverse": true,
+      "seconds": 1.0809588700000177,
+      "stage": "new_same_mu_monic_quadratic_and_two_complete_linear_rows"
+    },
+    {
+      "allRemainderSlopeAndMuHeadsRetained": true,
+      "completeThreeOriginalMuCoordinatesReturned": true,
+      "label": "same_mu_R_N_cross",
+      "necessaryPolynomial": {
+        "bytes": 217,
+        "degree": 58,
+        "nonzeroTerms": 50,
+        "sha256": "ab4534fbc1a6f017c4db41b72cf632326dc9b61ff4b2d42754bd561fdaec19e8"
+      },
+      "originalThreeMultipliers": [
+        {
+          "bytes": 1060,
+          "maxDenominatorUDegree": 1,
+          "maxNumeratorUDegree": 53,
+          "muDegree": 4,
+          "sha256": "025a55388e4c93c85195770de4b152a5ff0c1d834fb0c874449e73f3aebc8624"
+        },
+        {
+          "bytes": 195,
+          "maxDenominatorUDegree": 1,
+          "maxNumeratorUDegree": 47,
+          "muDegree": 0,
+          "sha256": "1300e44fe21f22edc98dffe1b7a21a0a30d7e49fbfcec591ed3eb1316400f093"
+        },
+        {
+          "bytes": 186,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 47,
+          "muDegree": 0,
+          "sha256": "2ced35488b553ea973b1162a7fac1ec43791a18e1bcfb6c2efda0c3189390462"
+        }
+      ],
+      "seconds": 4.744559181,
+      "stage": "new_same_mu_original_scalar_complete"
+    },
+    {
+      "allRemainderSlopeAndMuHeadsRetained": true,
+      "completeThreeOriginalMuCoordinatesReturned": true,
+      "label": "same_mu_R_norm",
+      "necessaryPolynomial": {
+        "bytes": 218,
+        "degree": 59,
+        "nonzeroTerms": 50,
+        "sha256": "05481ed8d87610d46e95a08b9d493d47cd4f9f58a1f967ae21165ef9272109d9"
+      },
+      "originalThreeMultipliers": [
+        {
+          "bytes": 1237,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 53,
+          "muDegree": 5,
+          "sha256": "6a3405f2356eb4e8a3c08ad24e4699b69a166eaee5cbb388cc619662bb4c8eb9"
+        },
+        {
+          "bytes": 374,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 47,
+          "muDegree": 1,
+          "sha256": "a3103d9e7214754852bce69027bf48e72b2816d4fa659db2fd6757acb5850120"
+        },
+        {
+          "bytes": 2,
+          "maxDenominatorUDegree": -1,
+          "maxNumeratorUDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "seconds": 5.793248431999984,
+      "stage": "new_same_mu_original_scalar_complete"
+    },
+    {
+      "allRemainderSlopeAndMuHeadsRetained": true,
+      "completeThreeOriginalMuCoordinatesReturned": true,
+      "label": "same_mu_N_norm",
+      "necessaryPolynomial": {
+        "bytes": 221,
+        "degree": 60,
+        "nonzeroTerms": 53,
+        "sha256": "b19a53d121bee0b0d8cba2b8dcb57f563b6770a10b8bc9be0aef56587d1c274a"
+      },
+      "originalThreeMultipliers": [
+        {
+          "bytes": 1183,
+          "maxDenominatorUDegree": 3,
+          "maxNumeratorUDegree": 57,
+          "muDegree": 4,
+          "sha256": "0a1b45770c26cd50ddffbf0f70149da92aabfa76731506cfa8f2e775b4224bea"
+        },
+        {
+          "bytes": 2,
+          "maxDenominatorUDegree": -1,
+          "maxNumeratorUDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "bytes": 389,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 49,
+          "muDegree": 1,
+          "sha256": "2316209d2cafa21a68737232a42f6dd4888f891111fb30d12cbdc6c7c1011c10"
+        }
+      ],
+      "seconds": 6.8160786220000205,
+      "stage": "new_same_mu_original_scalar_complete"
+    },
+    {
+      "common": {
+        "bytes": 212,
+        "degree": 58,
+        "nonzeroTerms": 50,
+        "sha256": "4f2281380ac1670e1e966ae6cb479816d3e196487549c1aa17fe11e12f3e9584"
+      },
+      "entireThreeOriginalMuReturn": true,
+      "seconds": 6.892751094999994,
+      "stage": "new_three_original_residue_u_Bezout",
+      "throughScalar": 0
+    },
+    {
+      "common": {
+        "bytes": 101,
+        "degree": 30,
+        "nonzeroTerms": 22,
+        "sha256": "627bf8d01970438a7cf9cfedb2397a3860c3794915a9b5af7d235d6fd5f40fc5"
+      },
+      "entireThreeOriginalMuReturn": true,
+      "seconds": 7.105463168000028,
+      "stage": "new_three_original_residue_u_Bezout",
+      "throughScalar": 1
+    },
+    {
+      "common": {
+        "bytes": 84,
+        "degree": 24,
+        "nonzeroTerms": 17,
+        "sha256": "a07d8d64be1258f5a12e667179272cf0e0fb9170bd3e87c53f0d187f557a781f"
+      },
+      "entireThreeOriginalMuReturn": true,
+      "seconds": 7.4899576160000265,
+      "stage": "new_three_original_residue_u_Bezout",
+      "throughScalar": 2
+    },
+    {
+      "declaredResidueSupportPower": 24,
+      "entireOriginalMuPolynomialReturned": true,
+      "exactThreeOriginalPolynomialMultipliers": [
+        {
+          "bytes": 7028,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 307,
+          "muDegree": 5,
+          "sha256": "83145b237fd30d8e14dbabd646a3f86b47ceb7be16596444e0c31424c40a1d9e"
+        },
+        {
+          "bytes": 2296,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 301,
+          "muDegree": 1,
+          "sha256": "f7cbf9484dacfd21de5d07d476ab74b0ab2dda957b5ca70f88521bb93681926e"
+        },
+        {
+          "bytes": 2095,
+          "maxDenominatorUDegree": 0,
+          "maxNumeratorUDegree": 302,
+          "muDegree": 1,
+          "sha256": "c484b56f9a42fcd7d1418fb5906885e308c76f80233e66fb41edeb0795610900"
+        }
+      ],
+      "noQQFiberEmptinessLift": true,
+      "onlyDeclaredResidueOpenChart": true,
+      "seconds": 10.491469553000002,
+      "stage": "new_internal_delta_open_original_positive_unit_returned",
+      "target": {
+        "bytes": 804,
+        "degree": 216,
+        "nonzeroTerms": 193,
+        "sha256": "12badf9bb661f3a122e98e820e8ae8b4dc05b65a42bfdb1616e2c45ab6335f38"
+      },
+      "terminalDenominator": {
+        "bytes": 3,
+        "degree": 0,
+        "nonzeroTerms": 1,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      }
+    },
+    {
+      "allComplementaryResidueChartsRetained": true,
+      "allUnpaidUZeroFibersRetained": false,
+      "completeCommon": {
+        "bytes": 84,
+        "degree": 24,
+        "nonzeroTerms": 17,
+        "sha256": "a07d8d64be1258f5a12e667179272cf0e0fb9170bd3e87c53f0d187f557a781f"
+      },
+      "excludesWholeDeclaredResidueChart": true,
+      "noCoefficientPayloadOrCache": true,
+      "noOldGateReplayed": true,
+      "p": 1009,
+      "paidSupportRemoval": [
+        {
+          "gcdLayers": 8,
+          "label": "u"
+        },
+        {
+          "gcdLayers": 6,
+          "label": "ell"
+        },
+        {
+          "gcdLayers": 4,
+          "label": "m"
+        }
+      ],
+      "seconds": 10.491690435999999,
+      "sourceSHA256": "b352d1055ddafd27be722b5d855b1bd1cbbd91c043745e07b99b8288c5d0a7c5",
+      "stage": "new_internal_delta_finite_mu_original_input_complete",
+      "statistics": {
+        "FpBezoutCoordinateReturns": 29709,
+        "FpPolynomialDivisionProducts": 33507,
+        "muDivisionProducts": 2,
+        "paidDenominatorChecks": 33,
+        "rationalCoefficientInverseProducts": 23,
+        "sameMuCofactorReturns": 3,
+        "supportDivisionProducts": 18,
+        "threeOriginalMuCoordinateReturns": 18
+      },
+      "unpaidRemainder": {
+        "bytes": 3,
+        "degree": 0,
+        "nonzeroTerms": 1,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      }
+    }
+  ],
+  "mathematical_scope": {
+    "executed_chart": "correct W/b0, residue characteristic1009, v(e)=v(k)=v(u)=0, v(delta)>0, S(u)!=0 in residue",
+    "S_definition": "u*(u-1)*(3*u-2)*(2*u^2-1)*(2*u-1)*(4*u^2+2*u-3)*(4*u-3)",
+    "raw_mu_degrees": [
+      2,
+      6,
+      5
+    ],
+    "scalar_u_degrees": [
+      58,
+      59,
+      60
+    ],
+    "cumulative_Bezout_degrees": [
+      58,
+      30,
+      24
+    ],
+    "actual_final_unpaid_remainder_degree": 0,
+    "actual_terminal_denominator": "monic constant 1",
+    "actual_full_original_target": "S(u)^24 in F1009[u,S^-1][mu]",
+    "all_original_mu_coordinates_returned": true,
+    "no_unsupported_QQ_emptiness_lift": true,
+    "no_slope_or_D_inverse": true,
+    "full_delta_positive_exclusion_uses_separate_complete_paper_charts": true,
+    "gluing_results": [
+      "R150-appendix-unit211-W-b0-entire-positive-e-ray-exclusion-and-e-k-u-integral-units.md",
+      "R150-appendix-unit211-W-b0-global-ell-integrality-and-Vbar-positive-finite-weight-chart.md",
+      "R150-appendix-unit211-W-b0-internal-delta-positive-ell-zero-and-Phi-zero-original-exclusion.md",
+      "R150-appendix-unit211-W-b0-internal-delta-positive-u-half-entire-original-valuation-exclusion.md",
+      "R150-appendix-unit211-W-b0-internal-delta-positive-Astar-entire-original-valuation-exclusion.md"
+    ],
+    "conclusion": "delta is a valuation-ring unit at every1009 place of the current correct W/b0 physical chart",
+    "no_whole_W_exclusion": true,
+    "no_unproved_integrality_of_other_denominators": true,
+    "actual_terminal_multiplier_ring": "F1009[u,mu]; all raw coefficient denominators have only S support"
+  },
+  "no_coefficient_payload_or_cache": true,
+  "ordinary_isp_claim": false
+}

@@ -36,6 +36,8 @@
 
 ## 新增结论
 
+- [R150：W/b0整个delta正阶边界排除及1009整单位性](results/R150-appendix-unit211-W-b0-entire-delta-positive-exclusion-and-1009-integral-unit.md)：b2a唯一真10.529501826秒/0，同mu完整三原返回S²⁴，七个剩余补图以已刊原证明覆盖，得v(delta)=0；不宣其他内部分母已付。
+
 - [R150：W/b0整个Vbar正阶边界排除及1009整单位性](results/R150-appendix-unit211-W-b0-entire-Vbar-positive-exclusion-and-1009-integral-unit.md)：fbf84唯一实际0.160428316秒/0，完整q2/R6/N5的29/29/48三标量回传原单位1；与全部ell/特殊L/M深/mu极点覆盖相接，得v(Vbar)=0，其他内部边界仍保。
 
 - [R12：真实范数Banach理想、全部原乘子与共同整数逆核心](results/R12-appendix-actual-norm-ideal-full-multipliers-quasimultipliers-and-common-inverse-core.md)：B=closure(L C′)有收缩BAI、M(B)=C′等距，L/CL/Pθ/RnPθ实际范数稠密主理想；原Hilbert最大分式与全旗图核支付，C逆非regular，已存在平方根才自动regular，无存在声明。
