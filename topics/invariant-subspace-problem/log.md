@@ -85,3 +85,9 @@
 - d20 actual十条数学记录全文检查并根重构stdout39500B，SHA d4d494a097d81b1f7cd7b446e8c45c1572a34d68689575682ab34636fbff10a1与driver完全一致；正式稿e86/小回执90a8逐项对actual核实，不把工作流绿色当结论。
 - 20原列/41首一除/12cofactor/15七原回乘/21末分母返回；三个实际λ5/6/6、总40/36/39，所有新头仍未付，第一头gcd和两Q旧门冻结，接完整odd NP新条件。
 - 17:27:48 UTC仅元数据核main37b869/treec4e444，11099条/10954blob/138264870B，完整未截断，无MD≥100KB；下次18:27。仅余两Wray/内部与真正算子桥，普通ISP未完成。
+
+2026-11-29 01:34 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2115实际main及本轮pull已核并随H自动登记，Phi第二头完整20列/原5,6,6和17:27存量元数据已保存。
+- 新k−2 ellpole输入源5622B SHA7a09280436c64f609c275c24b0574d0741956557066081902b07844f72a47f52；只用原q2解r=(1−μ²)/(3μ²+8μ+9)，完整R6/N5剩余按显示尺度返回两个新单变量式。
+- 只移除由该中心原q2/A2非零证明的(1−μ²)(3μ²+8μ+9)A2支持，完整两原Bézout实际乘回后才判单位。首次30秒/256MiB/外45，标准Python，未执行前不报gcd或整支闭。
+- 新增题外workflow .github/workflows/invariant-subspace-8542-w-positive-e-k-minus-two-ell-pole-residue.yml 仅运行新原输入；第五Wray纸稿待全文核，Phi完整odd NP与Haar实际双源继续，普通ISP未完成。
