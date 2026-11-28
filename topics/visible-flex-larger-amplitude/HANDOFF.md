@@ -64,6 +64,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R772/48](notes/2026-11-28-R772-and-run48-complete-coherent-shear-launch.md)：新同g参考全t reach≥1/21/D<1.55、握>.68/held>.315、δE≥.019；中带唯一混合欠。真非分离12源/六初点+双4/8/16及各65+7全预算启动，每次周期pull立即整note/H发布。
 
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
-<!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull f45ce9e4771acb670fcd7a29e463c8c4aa5e81ff
 
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。
+<!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull 6ad9f9132c197496df8f9ee8759c57cef4c72b2c
