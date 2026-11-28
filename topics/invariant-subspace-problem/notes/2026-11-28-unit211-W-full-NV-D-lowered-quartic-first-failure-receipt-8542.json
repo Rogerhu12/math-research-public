@@ -1,0 +1,57 @@
+{
+  "schema": "isp-original-input-implementation-failure-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_utc": "2026-11-28",
+  "run_id": 46123468127,
+  "job_id": 140912794324,
+  "source": {
+    "basename": "2026-11-28-unit211-W-full-NV-D-lowered-quartic-original-two-columns-8542.py",
+    "git_blob": "97cf14f83260ebf8bd51c8528b8a7aac6b5e2931",
+    "sha256": "5b37354dc4794e4a8d0c7dbb4f2799fc10f39e4462eb5764c93a5638bc460f74",
+    "commit": "5f5fd8143bfe34bcf59e949602ed5059e9e73366"
+  },
+  "actual_execution": {
+    "elapsed_seconds": 14.645243191999995,
+    "max_child_rss_kib": 54020,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "b10baebe4e29c553900f5acdba02b33c176ce876",
+        "before": "5f5fd8143bfe34bcf59e949602ed5059e9e73366",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T07:56:35.221344+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46123468127",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "5f5fd8143bfe34bcf59e949602ed5059e9e73366",
+    "source_exit_code": 1,
+    "source_git_blob": "97cf14f83260ebf8bd51c8528b8a7aac6b5e2931",
+    "source_sha256": "5b37354dc4794e4a8d0c7dbb4f2799fc10f39e4462eb5764c93a5638bc460f74",
+    "stdout_bytes": 984,
+    "stdout_sha256": "3d5d59174b36d3c587e3c3caa45658a2fe50cf4ed87df800b70315123c60d8fb",
+    "stop_reason": null
+  },
+  "failed_statement": "nWE=ns['b']*ns['p']*ns['X']+ns['c']*ns['q']*ns['Y']",
+  "failure_line": 78,
+  "failure_type": "TypeError: cannot coerce argument to fmpq",
+  "exact_cause": "The original C9 namespace reassigns q from the physical singleton value p.conj() to the list of six native rewrite rules. ns['q'] at the 14656-byte prefix end is that list.",
+  "mathematical_checkpoints": [],
+  "necessary_old_definition_prefix_reached": true,
+  "new_quartic_definition_not_completed": true,
+  "new_native_trace_not_started": true,
+  "six_basis_transport_not_started": true,
+  "new_scalars_not_started": true,
+  "resource_timeout": false,
+  "original_system_excluded": false,
+  "correction_not_yet_executed": "Read physical p,q from ns['rows'][0][2] and ns['rows'][0][3], preserving all old source bytes and all mathematical assertions.",
+  "no_retry_of_completed_math": true,
+  "future_paid_M_normalization_status": "paper-derived; a separate unexecuted draft only",
+  "ordinary_isp_claim": false
+}
