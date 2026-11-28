@@ -32,7 +32,7 @@ R617仅排固定有限pre/post的精确非圆根，R610仅排纯有限角带；�
 
 ## O4：原完整边值问题及两种真实边界障碍
 
-[R632自适应续接](notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md)run46125262371/source02f00c15正在原257q上处理粗υ Bernstein墙，原盒不变、点反例仍拒、未闭为pending。其前自然终态989.736104011秒/19接受/同曲线fine见[记录](notes/2026-11-28-r632-true-hermite-natural-terminal.md)，原绝对门仍远未过，不能重做原28步恢复或已付同态fine。
+[R632细分自然终态](notes/2026-11-28-r632-adaptive-box-natural-terminal.md)run46125262371/source02f00c15已完成2371.696276725秒、47接受：同表示多项式原四盒准确细分闭合，2个漏采υ真点越6仍拒；48迭代用尽，无pending trial，不是停滞。真实P/r1组合下降但物理十末最大1.08603增大，ruling7.1247e13，原门全未闭。新同态fine已付；[47接受直接续接](notes/2026-11-28-r632-adaptive47-actual-state-continuation-scope.md)从c52a8b28/6270B、trust1/下一λ1.1111e−10继续原完整257q循环，不重旧28端恢复、旧粗墙或已付fine。所有费用留链，新payload另付冻结fine。
 
 [R636真实背景自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/sourceb10baebe已结束：3146.914737635秒、12端恢复和32完整接受，真端.178784/ruling1.5332e14未达。同态fine已付；最后中心h逼近原.8下界，8次域拒有真点反例，50完整trial无下降。[实际公开续接](notes/2026-11-28-r636-original-center-cone-resume-scope.md)已实现同完整J/欧氏阻尼的中心h/L至多四活动面，实际向内/切向且保原严格高度盒；结构零因子准确处理，非零因子underflow仍outward。原未完trial和全部费用保留，新曲线重新支付冻结fine。
 

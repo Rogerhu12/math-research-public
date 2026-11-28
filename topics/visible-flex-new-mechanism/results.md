@@ -181,3 +181,7 @@
 ## R648：完整自由均值的连续内尾 G、S 与真实度量界
 
 [完整证明](results/R648-complete-unsolved-mean-true-tail-connection-and-position-bounds.md)将固定E′保留为W|W′|和W²，仅对固定已付seed使用κW，推得任意新mean的全真尾R/G界；连续primitive的π/4、π/2范数保留完整F/G相位项，给S、η≤3S+S²及正平面Jac充分条件。原pre-tanh/全部样条/forced的rr与rθ预算明确包含；消费者只复用同实际对象及已付receipt，无新root/ODE/J/FFT/位置查询。原七类源误差未闭时结论仍条件性，不授全连接、曲率或reach资格。
+
+## R632原盒细分自然终态与47接受直接续接
+
+[真实终态](notes/2026-11-28-r632-adaptive-box-natural-terminal.md)：2371.696276725秒，47完整接受，48迭代界自然结束；同一quintic原四场连续outward界确实闭合旧粗墙，另两个漏采υ真点越6仍拒。归一P/r1与merit下降，物理十末最大却升至1.08603，原绝对门未过；新冻结fine完整、没有未完trial。[后继实际范围](notes/2026-11-28-r632-adaptive47-actual-state-continuation-scope.md)直接用c52a8b28同态/trust1/下一λ1.1111e−10续原全目标、全257列及全部原门，不重恢复/旧fine，全部实际费用保持。

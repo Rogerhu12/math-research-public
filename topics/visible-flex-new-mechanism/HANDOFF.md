@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **bc43b186a76a418eb8fef568f9c07bbe22d3cb6a**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -15,11 +15,9 @@
 
 同一连通闭M、全t∈[0,1]连续C²嵌入、同一固定g；固定开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6，并同g/参数/t域精化到机器或求解容差；完整多t网格可再生，严格存在差距和δE如实。基础后继续.5D或严格存在强目标。局部结论、数值改善、障碍或时长均不算完成，不停等用户。
 
-## A：真实97q 6e91／下一原390库
+## A：真实97q，原390已自然结束待完成消费
 
-[原383终态](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)run46121523891新增2515.759658948秒、4metric+1restore及全部旧费用保留。
-真实q **6e91b58d…**，同p.181/0d材料；16290×3072 η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门。末raw5cf6及半步a938因原行/fine几何失败已拒，不换名重放。
-385coarse+5pending→390，保全部fine并新加6中点成为16296，须本身资格；[实际续接](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2，08:25:30启动，trust2/metric，阶段约2.5e−7及p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
+[前383终态与全部费用](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)保真6e91/p.181/0d材料及完整fine；旧拒绝raw/半步不重放。[原390实际延续](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2已于09:05:46自然结束，真实末态正在消费后续接。mean仍设计，p.8/阶段约2.5e−7/末η1e−7及宏观/同g未达；旧59a4资格不转新q。
 
 ## B：R618同固定E自然终态／改造真实mean联立图
 
@@ -37,10 +35,10 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 末半步43015466…的coarse/1810fine/nested已付，η.19294084341286163/g0，有改善可能；2810定位已闭904、剩1906，尚无充分拒绝证据，必须只续真实剩余队列。2physical/8working pending暂不应用，完成原资格后才作接受/trust决策；82维H/3403LDL、23乘子、metric505f语义和全部费用保留。旧309b8的8635未执行、0重放；旧6482未完20J块仍留账。[1906续接](notes/2026-11-28-r566-55be-partial1906-resume-scope.md)run46127678618/source54cc47b6，08:50:32启动；先原callback再完整outer，仍变量g设计。
 
-## D：真全历史原BVP，已定位粗凸包墙
+## D：真全历史原BVP，粗墙已越过、中心真边界仍解
 
 [旧一致W失败](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)及全部旧费用保留；stored末零不是true资格。
-[R632自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)run46121795578/source32788128：989.736104011秒、19接受后真端/ruling未达；439粗υ凸包失败中2次真越界仍拒。[自适应续接](notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md)run46125262371/source02f00c15，08:19:20启动，原257q/物理盒/全目标保持；未闭pending，同态fine不重放，旧206e真h越3不重查。
+[R632细分自然终态](notes/2026-11-28-r632-adaptive-box-natural-terminal.md)run46125262371/source02f00c15：2371.696276725秒、47接受后因48迭代界自然结束，无未完trial。原四场outward子块越过旧粗墙，2个漏采υ真越界仍拒；真端1.08603/ruling7.1247e13未闭，新同态fine已付。payload c52a8b28/6270B；[直接续接](notes/2026-11-28-r632-adaptive47-actual-state-continuation-scope.md)保原257q/trust1/下一λ1.1111e−10、原循环/盒/绝对门。原28端恢复及47接受/已付fine不重播，全部旧费留链。
 
 [R636自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/job140912849492/sourceb10baebe于08:49:46结束，新增3146.914737635秒、12端恢复/32全目标接受；真十末.178784、ruling1.5332e14仍未达，同态fine已付。真实中心h逼近.8，8次域拒有真点反例，最后50完整trial无改善；payload e4521e28…/7352B。[实际续接](notes/2026-11-28-r636-original-center-cone-resume-scope.md)求同完整J/欧氏阻尼的h(0)/L至多四活动面；原.8界、全部费用和未完trial保持。
 

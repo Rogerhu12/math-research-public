@@ -1,0 +1,78 @@
+name: visible-flex R632 actual 47-acceptance continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r632-adaptive47-true-bvp-resume-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r632-adaptive47-true-bvp-resume-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue complete original BVP from actual adaptive47 terminal
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r632-adaptive47-true-bvp-resume-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r632-adaptive47-true-bvp-resume-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r632-adaptive-box-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r632-adaptive47-actual-state-continuation-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r632-true-hermite-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r636-true-background-natural-terminal.md
+            /topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md
+            /topics/visible-flex-new-mechanism/results/R590-full-history-square-potential-and-c2-update.md
+            /topics/visible-flex-new-mechanism/results/R598-three-rotations-wide-eighteen-block-mother.md
+            /topics/visible-flex-new-mechanism/results/R609-true-integral-histories-and-kinetic-input.md
+            /topics/visible-flex-new-mechanism/results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md
+            /topics/visible-flex-new-mechanism/results/R614-complete-two-ruling-global-gauge-projection.md
+            /topics/visible-flex-new-mechanism/results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md
+            /topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_history_positive_square_free_germs_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_staged_trust_collocation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r598_wide_mother_prepared_mass_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r609_true_integral_function_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r612_r614_reduced_function_map_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_free_center_full_feedback_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_original_center_time_jets_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r624_compatible_free_center_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_complete_rows_euclidean_qr_svd_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_tail_flat_compatible_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r632_adaptive47_true_bvp_resume.py
+            /topics/visible-flex-new-mechanism/scripts/r632_adaptive_polynomial_boxes.py
+            /topics/visible-flex-new-mechanism/scripts/r632_adaptive_true_hermite_kinetic_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r632_true_hermite_bvp.py
+            /topics/visible-flex-new-mechanism/scripts/r632_true_hermite_kinetic_chart.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Continue from paid 47-acceptance actual physical state
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+          --request topics/visible-flex-new-mechanism/computations/request-r632-adaptive47-true-bvp-resume-20261128.json
+          --lane adaptive47-original

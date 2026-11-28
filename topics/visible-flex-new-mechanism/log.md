@@ -366,3 +366,7 @@
 ### 2026-11-28 09:14 UTC — R648同一自由mean的完整连续尾界
 
 全文核对九节和消费者，逐项检查E′/固定seed导数分母、全部R与G、归一F/G相位、连续primitive范数和真实Jac/metric身份；原response-only预算接口确认reference只加一次。完整第二jet含原pre/post/forced和96Gaussian，未改活动科学源。无独立数值运行，登记准确条件结论即推，原七类源误差仍逐项未闭。
+
+### 2026-11-28 09:16 UTC — R632真实越过原粗墙并从47接受继续
+
+完整自然终态与后继source/scope已读；区分归一merit改善与真实十末变大，保留两处连续点反例。后继直接调用冻结原求解循环，35源绑定/AST及6270B真实payload一致。新增题外.github/workflows/visible-r632-adaptive47-true-bvp-resume-20261128.yml；原迭代界不是完成，已付恢复/同态fine不重放。H压缩旧A叙述转原完整note链接，旧义务/费用未删。
