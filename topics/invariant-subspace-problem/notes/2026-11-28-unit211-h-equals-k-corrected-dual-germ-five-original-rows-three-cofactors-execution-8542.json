@@ -1,0 +1,413 @@
+{
+  "schema": "isp-corrected-h-equals-k-first-original-five-row-small-receipt",
+  "run": {
+    "elapsed_seconds": 3.3861978369999974,
+    "max_child_rss_kib": 94280,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "07a9aa283f5d57e11ad6daca9820bf01352a600b",
+        "before": "db82b18cde7669eeb6086873b33d4319680bd69e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T04:19:09.795163+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46106955780",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "db82b18cde7669eeb6086873b33d4319680bd69e",
+    "source_exit_code": 0,
+    "source_git_blob": "f33fef3b7448eb3b7d829cb7deb047706f08294d",
+    "source_sha256": "2ea618c508489fedffdec7418cc153f6fc213ef46b329f8c55743be312d9faa2",
+    "stdout_bytes": 14614,
+    "stdout_sha256": "a273554ecd682269747a1f8630bd89f5f2bd800ff222b14c7cf04ce600642999",
+    "stop_reason": null
+  },
+  "job_id": "140861753869",
+  "original_returns": [
+    {
+      "variables": [
+        "lambda",
+        "u",
+        "Q"
+      ],
+      "freeOriginalCoordinate": "z=Q*t",
+      "fFromOriginalP1": true,
+      "NVExactAffineRow": true,
+      "actualNVIdentity": "Pf*NV=Tnum-bc*Delta*z",
+      "PfOnlyNamedCoordinateChart": true,
+      "noDeltaInverse": true,
+      "allDeltaZeroFibersRetained": true,
+      "correctedOriginalIdentitySHA256": "a7f1db4305a58c2e733c573158f746d5b4adc312090472de25e472c96ddfeaae",
+      "noOldGramOrProjectionReplayed": true,
+      "claimExcluded": false,
+      "stage": "corrected_equal_singleton_true_original_coordinate_input",
+      "seconds": 0.004190523000005442
+    },
+    {
+      "normalizationMomentsReturned": [
+        1,
+        2,
+        3
+      ],
+      "trueFullN4VReturn": "Q*N4(V)=2*NV",
+      "trueCenteredP1Return": "Q*(Pj/3-w*P02)=Pf*f+Pc+bc*Phi*z",
+      "originalJetProductUsed": true,
+      "oldWrongRbarNotUsed": true,
+      "noAdditionalPaidWeightAssumption": true,
+      "stage": "corrected_h_equals_k_complete_original_value_recovery",
+      "seconds": 0.09740302900000586
+    },
+    {
+      "allSameOriginalZ": true,
+      "actualOriginalReconstructionReturns": 15,
+      "allCoordinateDenominatorsReturned": true,
+      "originalMeanNecessityUsesTrueJetSquare": true,
+      "stage": "corrected_h_equals_k_all_five_original_rows",
+      "seconds": 0.24043538200000114
+    },
+    {
+      "sourceSHA256": "2ea618c508489fedffdec7418cc153f6fc213ef46b329f8c55743be312d9faa2",
+      "sourceRows": [
+        "Rtrue",
+        "W",
+        "O",
+        "N1",
+        "NV"
+      ],
+      "coordinateChartOnly": [
+        "A",
+        "B",
+        "Q",
+        "1-Q",
+        "Pf"
+      ],
+      "wholeNamedChartExcluded": false,
+      "allDeltaZeroAndOtherWeightZerosRetained": true,
+      "originalNecessaryScalarCount": 3,
+      "actualExactDivisionReturns": 212,
+      "noOldWrongSystemReplayed": true,
+      "noOldHeadUnitImported": true,
+      "noRecomputableCoefficientPayloadSaved": true,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 94280,
+      "stage": "corrected_h_equals_k_five_rows_and_three_scalar_returns_finished",
+      "seconds": 3.332954894000011
+    }
+  ],
+  "cofactors": [
+    {
+      "sourceRows": [
+        "Rtrue",
+        "W",
+        "O"
+      ],
+      "allThreeOriginalCofactorProductsReturned": true,
+      "determinant": {
+        "degrees_lambda_u_Q": [
+          123,
+          29,
+          21
+        ],
+        "totalDegree": 159,
+        "terms": 36564,
+        "bytes": 2489010,
+        "sha256": "2cd96f77b8666a8e64824b440fb6bf5e378df09cc6193a7a123ecf9abcb7c83b"
+      },
+      "retainedNecessaryPolynomial": {
+        "degrees_lambda_u_Q": [
+          99,
+          23,
+          12
+        ],
+        "totalDegree": 123,
+        "terms": 14565,
+        "bytes": 802852,
+        "sha256": "ec745db786aeaecb7cc1040eab265b015e376c35e6e0b78f7ec3b20cdefa068a"
+      },
+      "onlyNamedCoordinateUnitRemoval": [
+        {
+          "coordinateUnit": "A",
+          "passes": 3
+        },
+        {
+          "coordinateUnit": "Q",
+          "passes": 3
+        },
+        {
+          "coordinateUnit": "1-Q",
+          "passes": 3
+        },
+        {
+          "coordinateUnit": "Pf",
+          "passes": 2
+        }
+      ],
+      "entireDeltaZeroFibreRetained": true,
+      "wholeCoordinateChartExcluded": false,
+      "stage": "corrected_h_equals_k_original_scalar_cofactor",
+      "seconds": 1.187391439999999
+    },
+    {
+      "sourceRows": [
+        "Rtrue",
+        "W",
+        "N1"
+      ],
+      "allThreeOriginalCofactorProductsReturned": true,
+      "determinant": {
+        "degrees_lambda_u_Q": [
+          123,
+          30,
+          21
+        ],
+        "totalDegree": 160,
+        "terms": 37222,
+        "bytes": 2561470,
+        "sha256": "c3bfdf3e459d3a6b2f350ac9084af7953e387c35360a97dd2c194fcce9c39f70"
+      },
+      "retainedNecessaryPolynomial": {
+        "degrees_lambda_u_Q": [
+          102,
+          24,
+          12
+        ],
+        "totalDegree": 127,
+        "terms": 15193,
+        "bytes": 859957,
+        "sha256": "04457252e3c6bbe093f422de13a16734032e3b83d1fc7c0c29019f4bbaef3964"
+      },
+      "onlyNamedCoordinateUnitRemoval": [
+        {
+          "coordinateUnit": "B",
+          "passes": 1
+        },
+        {
+          "coordinateUnit": "Q",
+          "passes": 3
+        },
+        {
+          "coordinateUnit": "1-Q",
+          "passes": 3
+        },
+        {
+          "coordinateUnit": "Pf",
+          "passes": 2
+        }
+      ],
+      "entireDeltaZeroFibreRetained": true,
+      "wholeCoordinateChartExcluded": false,
+      "stage": "corrected_h_equals_k_original_scalar_cofactor",
+      "seconds": 2.542909954999999
+    },
+    {
+      "sourceRows": [
+        "NV",
+        "Rtrue",
+        "W"
+      ],
+      "allThreeOriginalCofactorProductsReturned": true,
+      "determinant": {
+        "degrees_lambda_u_Q": [
+          98,
+          24,
+          16
+        ],
+        "totalDegree": 127,
+        "terms": 19508,
+        "bytes": 1122133,
+        "sha256": "c882a6d8570925e11a312b4d017e43295c4328c219e8e4e8f5b68b3bb3d77737"
+      },
+      "retainedNecessaryPolynomial": {
+        "degrees_lambda_u_Q": [
+          86,
+          20,
+          10
+        ],
+        "totalDegree": 107,
+        "terms": 9781,
+        "bytes": 485247,
+        "sha256": "92d10956e496a1bb28f33ca503a957444b321fad5e28459ed3eec5d544e80938"
+      },
+      "onlyNamedCoordinateUnitRemoval": [
+        {
+          "coordinateUnit": "Q",
+          "passes": 2
+        },
+        {
+          "coordinateUnit": "1-Q",
+          "passes": 2
+        },
+        {
+          "coordinateUnit": "Pf",
+          "passes": 1
+        }
+      ],
+      "entireDeltaZeroFibreRetained": true,
+      "wholeCoordinateChartExcluded": false,
+      "stage": "corrected_h_equals_k_original_scalar_cofactor",
+      "seconds": 3.222374760000008
+    }
+  ],
+  "factors": [
+    {
+      "sourceRows": [
+        "Rtrue",
+        "W",
+        "O"
+      ],
+      "scalar": "1/56668397794435742564352",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "degrees_lambda_u_Q": [
+            61,
+            17,
+            9
+          ],
+          "totalDegree": 79,
+          "terms": 5855,
+          "bytes": 206121,
+          "sha256": "69babd37fc45ade649b12b4b849151574080a2bf92c7c2266141d17be1a9d999"
+        },
+        {
+          "multiplicity": 2,
+          "degrees_lambda_u_Q": [
+            1,
+            0,
+            0
+          ],
+          "totalDegree": 1,
+          "terms": 2,
+          "bytes": 30,
+          "sha256": "99b60735746fd8202421fa52e672c94cc97530da10f32cfba26b05251a18b436",
+          "polynomial": "2*lam - 1"
+        },
+        {
+          "multiplicity": 3,
+          "degrees_lambda_u_Q": [
+            12,
+            2,
+            1
+          ],
+          "totalDegree": 14,
+          "terms": 39,
+          "bytes": 665,
+          "sha256": "616854de20930ab2387031433e732b543840efaf22697156454c83a455570b08",
+          "polynomial": "256*lam^12*u^2 - 256*lam^12*u + 64*lam^12*Q - 1536*lam^11*u^2 + 1536*lam^11*u - 384*lam^11*Q + 4224*lam^10*u^2 - 4416*lam^10*u + 1152*lam^10*Q - 7168*lam^9*u^2 + 8064*lam^9*u - 2240*lam^9*Q + 8496*lam^8*u^2 - 10416*lam^8*u + 3120*lam^8*Q - 7488*lam^7*u^2 + 10032*lam^7*u - 3264*lam^7*Q + 5064*lam^6*u^2 - 7400*lam^6*u + 2624*lam^6*Q - 2664*lam^5*u^2 + 4224*lam^5*u - 1632*lam^5*Q + 1089*lam^4*u^2 - 1860*lam^4*u + 780*lam^4*Q - 340*lam^3*u^2 + 620*lam^3*u - 280*lam^3*Q + 78*lam^2*u^2 - 150*lam^2*u + 72*lam^2*Q - 12*lam*u^2 + 24*lam*u - 12*lam*Q + u^2 - 2*u + Q"
+        }
+      ],
+      "wholeProductReturned": true,
+      "stage": "corrected_h_equals_k_necessary_polynomial_exact_factors",
+      "seconds": 1.3433092880000004
+    },
+    {
+      "sourceRows": [
+        "Rtrue",
+        "W",
+        "N1"
+      ],
+      "scalar": "1/302231454903657293676544",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "degrees_lambda_u_Q": [
+            76,
+            20,
+            10
+          ],
+          "totalDegree": 97,
+          "terms": 8652,
+          "bytes": 349861,
+          "sha256": "79b699a63f9715f3c381b9f90ed5083503577553abb97bf89270c18e4afd5cb4"
+        },
+        {
+          "multiplicity": 2,
+          "degrees_lambda_u_Q": [
+            1,
+            0,
+            0
+          ],
+          "totalDegree": 1,
+          "terms": 2,
+          "bytes": 30,
+          "sha256": "99b60735746fd8202421fa52e672c94cc97530da10f32cfba26b05251a18b436",
+          "polynomial": "2*lam - 1"
+        },
+        {
+          "multiplicity": 2,
+          "degrees_lambda_u_Q": [
+            12,
+            2,
+            1
+          ],
+          "totalDegree": 14,
+          "terms": 39,
+          "bytes": 665,
+          "sha256": "616854de20930ab2387031433e732b543840efaf22697156454c83a455570b08",
+          "polynomial": "256*lam^12*u^2 - 256*lam^12*u + 64*lam^12*Q - 1536*lam^11*u^2 + 1536*lam^11*u - 384*lam^11*Q + 4224*lam^10*u^2 - 4416*lam^10*u + 1152*lam^10*Q - 7168*lam^9*u^2 + 8064*lam^9*u - 2240*lam^9*Q + 8496*lam^8*u^2 - 10416*lam^8*u + 3120*lam^8*Q - 7488*lam^7*u^2 + 10032*lam^7*u - 3264*lam^7*Q + 5064*lam^6*u^2 - 7400*lam^6*u + 2624*lam^6*Q - 2664*lam^5*u^2 + 4224*lam^5*u - 1632*lam^5*Q + 1089*lam^4*u^2 - 1860*lam^4*u + 780*lam^4*Q - 340*lam^3*u^2 + 620*lam^3*u - 280*lam^3*Q + 78*lam^2*u^2 - 150*lam^2*u + 72*lam^2*Q - 12*lam*u^2 + 24*lam*u - 12*lam*Q + u^2 - 2*u + Q"
+        }
+      ],
+      "wholeProductReturned": true,
+      "stage": "corrected_h_equals_k_necessary_polynomial_exact_factors",
+      "seconds": 2.7296474150000023
+    },
+    {
+      "sourceRows": [
+        "NV",
+        "Rtrue",
+        "W"
+      ],
+      "scalar": "1/18446744073709551616",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "degrees_lambda_u_Q": [
+            60,
+            16,
+            8
+          ],
+          "totalDegree": 77,
+          "terms": 4958,
+          "bytes": 172187,
+          "sha256": "6d7e2f49e54cb92cb6bb20f200babf15d8944c5b44c9af9708f5d8652c036473"
+        },
+        {
+          "multiplicity": 2,
+          "degrees_lambda_u_Q": [
+            1,
+            0,
+            0
+          ],
+          "totalDegree": 1,
+          "terms": 2,
+          "bytes": 30,
+          "sha256": "99b60735746fd8202421fa52e672c94cc97530da10f32cfba26b05251a18b436",
+          "polynomial": "2*lam - 1"
+        },
+        {
+          "multiplicity": 2,
+          "degrees_lambda_u_Q": [
+            12,
+            2,
+            1
+          ],
+          "totalDegree": 14,
+          "terms": 39,
+          "bytes": 665,
+          "sha256": "616854de20930ab2387031433e732b543840efaf22697156454c83a455570b08",
+          "polynomial": "256*lam^12*u^2 - 256*lam^12*u + 64*lam^12*Q - 1536*lam^11*u^2 + 1536*lam^11*u - 384*lam^11*Q + 4224*lam^10*u^2 - 4416*lam^10*u + 1152*lam^10*Q - 7168*lam^9*u^2 + 8064*lam^9*u - 2240*lam^9*Q + 8496*lam^8*u^2 - 10416*lam^8*u + 3120*lam^8*Q - 7488*lam^7*u^2 + 10032*lam^7*u - 3264*lam^7*Q + 5064*lam^6*u^2 - 7400*lam^6*u + 2624*lam^6*Q - 2664*lam^5*u^2 + 4224*lam^5*u - 1632*lam^5*Q + 1089*lam^4*u^2 - 1860*lam^4*u + 780*lam^4*Q - 340*lam^3*u^2 + 620*lam^3*u - 280*lam^3*Q + 78*lam^2*u^2 - 150*lam^2*u + 72*lam^2*Q - 12*lam*u^2 + 24*lam*u - 12*lam*Q + u^2 - 2*u + Q"
+        }
+      ],
+      "wholeProductReturned": true,
+      "stage": "corrected_h_equals_k_necessary_polynomial_exact_factors",
+      "seconds": 3.33278605000001
+    }
+  ],
+  "scope": "Three original necessary scalar identities on ABQ(1-Q)Pf coordinate chart. No complete chart excluded; all Delta zero and unpaid weight zeros retained."
+}

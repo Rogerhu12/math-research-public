@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [原 N1/F6 十二基环境的独立范围更正](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：真N4极化及矩式保留；明确直接原单位U和正确Rbar，撤除旧§4隐含单位。h=k真五行首次实际完成，原共同头2e03首次派发；均未宣称原图排空。
+
 - [R150：修正后二重点 Phi 四个真实二次头](results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md)：自含f62真0.091190541秒/0，四个完整因式恒等式；原bc/P02/QδPf直接付前因子，共同头零恰为AB=F8=F10=F9=0。新开图三生成元仅按真头可逆使用，头零全保，不恢复旧错误H1/H42/583。
 
 - [R267：同一P的全部逆幂与双平坦实际来源](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)：明确正收缩强积Q、原柱基与尾误差、同一Q真强单位，付全部原旗C^-aP^-bQ有界单射稠值；0≠F_P⊊F_C，Q幂衰减型无穷。双逆整系数卷积给精确平方输入B_(zF²−1)=0，尚未求解，不把整数逆当平方根。

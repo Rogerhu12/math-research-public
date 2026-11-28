@@ -1,20 +1,18 @@
 {
-  "message": "ISP R150: true corrected Phi four heads; first corrected h=k original five rows",
-  "parentCommit": "0be55230243d6ac4b65bfb6b610d3858a9a56450",
+  "message": "ISP R150: preserve independent true N1 environment; first corrected Phi common-head return",
+  "parentCommit": "fb38378c6a59c4ebf667cc42477f7ee8109b4574",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-original-rows-three-cofactors-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-original-rows-three-cofactors-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-h-equals-k-corrected-original-rows.yml",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-corrected-Phi-four-heads-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-corrected-Phi-four-heads-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-original-rows-three-cofactors-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-four-heads-whole-common-zero-original-return-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-four-heads-whole-common-zero-original-return-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-corrected-common-heads.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-true-Phi-common-heads-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-true-Phi-common-heads-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-h-equals-k-corrected-original-rows.yml"
+    "invariant-subspace-8542-phi-corrected-common-heads.yml"
   ]
 }
