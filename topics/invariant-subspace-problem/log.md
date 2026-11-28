@@ -1,46 +1,6 @@
 # 研究日志
 
-本次压缩前的全部日志及更早归档链见[完整日志快照](notes/2026-11-28-log-before-Phi794-flat-quotient-W-QQ-family-8542.md)。以下保最近条目；归档不改变任何结论或开放范围。
-
-2026-11-28 09:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 新完整结论即推：NSPS的真实原C6双权53/27、λ6、5716项，λ内容1，真头剥旧单位余H42总42/540项；不把两个多项式乘子误作整斜率零已经覆盖。完整证明/小回执保存。
-- 两个不同的新原目标首派：24ec同一实际三个原乘子逐个仅剥旧Phi单位，120秒/1GiB，真正则才覆盖Δ0；e4bcc原P164保195=98+97的固定整切片及三QQ一元竖线内容，180秒/4GiB，不作多元模空性提升或新结果式。
-- 相应两个.github/workflows/invariant-subspace-8542-phi-whole-nsps-source.yml及invariant-subspace-8542-w-p164-components.yml为本题首派必要改动；没有增加旧大门复核或恢复已冻结计算。
-
-2026-11-28 09:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 新原Haar完整表示即推：全部Walsh块C=D+K及秩一carry含常数块符号，K迹类；准确κ=r/μ，闭稳定根R²=D且KH入域、RK/KR真实迹类。原相邻carry的三项Sylvester式精确发散，不能把迹类性当原根桥。无新增执行门。
-- 全根分支新范围同推：每个2幂循环块的全部平方根由符号给，cyclotomic最小多项式/代数范数使所有系数≥N^(-N)；相邻半径不同保障Sylvester唯一，精确主项压过两余项，所有分支均无有界线性修正。非线性/一般闭根仍开。
-- 两新原计算已亲核：24ec 2.343511191秒/0，第三乘子仅Q分母，C6全Phi来源真覆盖Δ0；e4bcc 11.412102491秒/0，固定准确P164整切片及无纯k内容均真成，正式范围稿接续即推。
-
-2026-11-28 09:24 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 全Phi来源正式即推：同一C6的μ、ν为多项式，−k仅Q分母；全部三原系数在未倒置Δ的旧权环返回，C6真覆盖整Δ0。旧补图页已标准确后续范围，H42整零不删除。
-- P164完整两项前提与局部模型即推：保全部重数的p1009,k3整特化恰e97；三QQ原切片只付真纯k单位，商241次保度、三项模Bézout1后严格Gauss提升。B在A=Z_(1009)[k]_(1009,k−3)自由秩97；后继λ模型/原值单位尚未付。
-- 新5883首次120秒/1GiB仅H42/H19、H42/C*的QQ关系与H42全因式；新.github/workflows/invariant-subspace-8542-phi-whole-head-relations.yml为本题必要首派，历史P6 JSON只runner临时读取，旧cofactor/gcd门不复放。
-
-2026-11-28 09:35 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 5883实际完整QQ返回正式即推：H42/H19和H42/C*均gcd1，QQ H42单不可约因子重数1及完整乘回；两个六次头同时失效至多798不同权对。只给例外外每权18/额外Δ12，不将二元gcd1称无共同零。
-- 原Haar图角度新证明即推：真实闭稳定块根的Julia酉坐标保全部四carry项；完整有限前缀/反向J/真空特项支付唯一迹类线性Y及全分支小界。低2块逆费用仍临界，完整Riccati未付，不把线性小范数当作非线性收缩。
-- 继续Phi真实18生成关系模、W完整P164局部有限环境和Haar低块/乘积来源；全部已登记失败不复放，实际pull规则无差异，普通ISP未完成。
-
-2026-11-28 09:37 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 新18ac完整原W局部1164模型首派180秒/4GiB：只必要模P定义和N1坐标前缀，跳过旧QQχ/C11/C10/竖直三切片；真实同λ六规则、全P分母单位、χ6/qZ2、十一原式132完整列及所有primary重数同点返回。
-- 仅全原矩阵和CRT确返1才用有限A模Nakayama；不逆物理D、不将模D幂提升。新.github/workflows/invariant-subspace-8542-w-p164-local1164.yml为本题必要首次执行；全原W有限点与ISP均仍开。
-
-2026-11-28 09:39 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 18ac实际11.524541746秒/125440KiB/0：真1164有限环境全部67权逆、30189整系数、同λχ/qZ及132原列完成；完整模P九primary中七块真返单位，两重一次块各rank10/12。未返全1，不提升QQ泛型空或权零维，整余分量保留。
-- 304e新λ6十八原列首派120秒/1GiB：只真实原种子及λ,T,z作用；Gaussian仅选原DAG列，Γ^(2+3d)明确清分母，若模满秩才用实际矩阵逆证明定义det非零。没有旧λ8/cofactor/大消元重放，没有模空性直接提升。
-- 新.github/workflows/invariant-subspace-8542-phi-finite18-columns.yml是本题必要首次执行；W转原QQ几何/同点来源，Haar继续实际临界pair非线性。全部首头/新曲线/有限点未冒付。
-
-2026-11-28 09:51 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- Φ十八原列正式即推：真实25候选选18列，最大深1，Γ^5清真实分母及h源极点；B adj(B)e0=F e0给旧权环完整I10来源，p1009,(3,2)实际矩阵/清矩阵×逆只证该F非零。全F/H42零支继续，不存矩阵载荷。
-- W完整1164结果正式即推：七模primary真单位、两重一次primary各剩余域秩10；对各局部Artin余商再对A用Nakayama，严格给A≤8生成、QQ(k)原商≤8、规范全坐标≤16。只泛型环境界，不能当全W有限点或空。
-- Haar原有限头吸收正式即推：真实head/tail所有carry与下一头Hadamard保全；任意正负根的临界Sylvester差公式及根图主角完全对应。δ/μ近1既不证明角不可和也不证明可和，续实际pair图/无限相容。
-
-2026-11-28 09:55 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- Haar新完整实际来源结论即推：任意有限头根对应antipodal-transversal Fourier列，特殊full-spark自含奇偶证明及全minor Norm下界；原权中位带N⁴/L压过N²logN费用，Sperner无原子给全分支Π弱I/2及任意移动强图0。作者Full spark frames定理9已查原PDF，未用黑箱省费用。
-- 新b642首派120秒/1GiB：22原列未降λ、仅旧权LCM/常数整化，真QQ u度Hungarian对偶/固定Q2最高矩阵及模Bareiss；旧18选择与大QQdet不复放，首项若消掉只记未付保度。
-- 新765d首派180秒/4GiB：只两个既有剩余linear² primary的24维264原列及真商/原几何作用，七成功块不跑。新完整长度只给有限Nakayama界，QQ ellhalf族仍需另付；绝不模D幂升QQ。
-- 新增.github/workflows/invariant-subspace-8542-phi-unlowered22-degree.yml及invariant-subspace-8542-w-two-residual-quotients.yml均为本题必要首次执行；全部权零支/有限点和普通ISP仍开。
+本次压缩前的全部日志及更早归档链见[完整日志快照](notes/2026-11-28-log-before-exact-Phi789-first-W-D-column-cover-8542.md)。以下保最近条目；归档不改变任何结论或开放范围。
 
 2026-11-28 10:04 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - W新完整余商正式即推：七旧成功块不重放，仅两平方primary完整24×264回乘/投影及全部原几何理想闭包；实际整长2+2、模双数，各λ偏差非零平方0。有限A模块给QQ(k)≤4，原规范≤8；QQ D身份待真双数族。
@@ -89,3 +49,8 @@
 2026-11-28 10:41 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 890唯一最终新源首派120秒/1GiB：原14块三阶四项与第二5块完整逆修正，新的2阶minor仅定义末一维核；全尺度/低阶零/双向逆返。Theta完成即先登记真实789或790，不预设旧模789保度。
 - 在同源块det身份中返回实际[u790]P，保Delta^20及三个主块/全部核尺度/置换符号，完整取消为QQ[Q]；Q2真零与模零分别判断。可选系数段不阻断已成次数结论。旧7d7未执行稿不派、不入库；不重跑旧3/8/22rank/模det。新增.github/workflows/invariant-subspace-8542-phi-third-kernel-scalar.yml仅本题必要首派。
+
+2026-11-28 10:45 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 890唯一run46099323482/job140837937313真10.546223899秒/67700KiB/0：原14块三阶项、第二5块修正与末Theta各真零，5355除法返。原22的QQ u度、QQ Q2切片及p1009模切片均确为789，保度已付；u790系数恒0，无新物理Q单位。实际pull01e9394d6c31ef99a74bb821a9e3a2843813a0a6/02:41:56.049873 UTC，两README无差异。
+- a29全W原D双列取消唯一首派180秒/4GiB：MC=NΛ、dC=d′Λ逐项QQ整除/原六式返回，普遍adj付det(N)D∈I6，保整L0/H1980。新P′e93与全模余商、原comm/axis新行、完整93列8649逆后才付固定伪余式det的纯k覆盖；不倒领先a(k)或L，不重算旧大det/Norm/primary门。
+- 新增.github/workflows/invariant-subspace-8542-w-d-column-k-cover.yml仅本题必要首派；普通ISP及全部未付有限原纤维继续。
