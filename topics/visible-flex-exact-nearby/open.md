@@ -165,3 +165,6 @@ CRW：同一真实切面标签由原流组合律恢复；ω沿共同漂移正源
 
 
 GCS：76个whole输入/2606796B完整准入；原70 Taylor整件和16场majorant保。2048中心+2048整角格、phase至9/p至8/四支ratio至6阶，全部有限系数桶DFT及整Taylor余项保，big carrier只private。独立首次workflow不依赖direction数组或SkylakeX，尚未预报数值门。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+NRO：同一完整raw strict任意反向两点L2增益<8.22，mean rank的正交性保留全部独立平均量；全部288已知ν源在[0,r*]普通L2<2.522e−5。全[0,r+]给25.95X+2.85e−6v+2.523e−5及三类真跳；14whole/20新Fraction首次全过。X,v与真BVP可解性仍须实际。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

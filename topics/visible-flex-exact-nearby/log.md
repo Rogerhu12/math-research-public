@@ -302,3 +302,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 09:50 UTC / visible-exact-astra-b0d5a16-20261128：GG首发工作流YAML在unquoted pip --only-binary=:all:的尾冒号解析失败；真实Actions run无jobs、无science或consumed，不把多个push验证失败算科学重跑。修workflow和generator同一安装命令为folded literal block，实际依赖/科学源/目标与全部原whole输入不动；current97重新核完整size/SHA，三个实际工作流YAML解析通过。manifest保持身份 750b53d90be1e6b61ee6a627c6f75f3878a8e8a7c6d71f79cb6121ed27436261，generator被manifest引用位置 ['grassmann_manifest_generator']。立即用原push触发首次真实作业。
+
+
+2026-11-28 09:55:08 UTC / visible-exact-astra-b0d5a16-20261128：NRO。同一完整raw strict任意反向两点L2增益<8.22，mean rank的正交性保留全部独立平均量；全部288已知ν源在[0,r*]普通L2<2.522e−5。全[0,r+]给25.95X+2.85e−6v+2.523e−5及三类真跳；14whole/20新Fraction首次全过。X,v与真BVP可解性仍须实际。 新exact临时whole输出7221B/b0cbde984a2de5baf28d055bb2b2fe00fb3079b617da53280b96f3688656ca8b；不提交可重算数组，旧科学/恢复0。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-ordinary-negative-response-from-the-strong-positive-root.md","bytes":8294,"sha256":"fb1e034f04c79c4a893cdd1407b7a590959f5383dddb1ea786abb34366dfa91d"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_ordinary_response_saved_bounds.py","bytes":10330,"sha256":"88df151b7ecc9c22bff382cd96e647ba2ea1010baa6332b5dcc8a88baf9ea4b9"}]。
