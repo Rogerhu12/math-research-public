@@ -60,7 +60,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1159–60](results.md)actual Norm群图给原ordered/BCH跨同源功能式，ψ_i⁻¹为ω_i↦ω/2、η_i↦η−e_iω/2。原J_n/算术B_n及三个整未平滑来源已给；一般Frob共轭路径仍须实读，非单点v_n倍数。
 
-[R1166–68、R1174](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全部SS可取未分歧、Aut相容CM参考点；原n2 ordinary源与J0=0扩至全套，未知κ及实际反对角Frob单位严格消去。Bkl=A4kA8l−Σ同C A′C4kA′C8l；Π0/Π2 corr BCH=Σ(k−l)BklΠr/[2(k+l+2)]，ordered换(k+1)/(k+l+2)。A/A′由R1173及真实quotient增量读取；对应CM基diag(1/2,1)，返回参考基仍保完整shear/σ。一般ℓ及最低Tate源、中央非零仍开。
+[R1174 §§1–16](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS有未分歧Aut相容CM参考；全μ6外辅助族的同一raw塔经实际henselian比较、完整vertical γp gauge得唯一ordinary/first0代表，u↦z^e真PD特化保源。Bkl=A4kA8l−Σ同C A′C4kA′C8l；Π0/Π2 corr BCH=Σ(k−l)BklΠr/[2(k+l+2)]，ordered换(k+1)/(k+l+2)。κ/Φ单位消去，R1173+实际Δ给全族RHS和有限Brandt重建；shear/σ全保，最低Tate符号与非零继续。
 
 [原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全部原/三quotient高槽降至低heat，σ/CM gauge/odd–odd及p carry保全；Fay只需核阶≤2p+15。原奇列由A=uC2、B=u(C4+12a/5)给，完整norm与pA_p=−2β强迫a[v^(p−2)](u²A+u)=β。H_p0后保所有低卷积，两个已付corr配对为−11a(b4a8−11a4b8)/(768β²)；实际mask不要求corr零，原joint/未平滑排除继续。
 
@@ -84,9 +84,9 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
-[R1171 §§1–13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及quotient模p²首位给三槽完整仿射方程；最低BCH保−λ∞ΔX T/2。共同辅助族ℓ⁶≠1 mod p保原分裂域p-unit与k4单位，允许ℓ>p；Cayley–Hamilton补trace，三受限族均为单位理想。一般SS abelian现由R1173支付，n2最高/Π2 corr由R1174支付；足够辅助族corr及最低cyclotomic独立值仍待实读。
+[R1171 §§1–13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及quotient模p²首位给三槽完整仿射方程；最低BCH保−λ∞ΔX T/2。共同辅助族ℓ⁶≠1 mod p保原分裂域p-unit与k4单位，允许ℓ>p；Cayley–Hamilton补trace，三受限族均为单位理想。一般SS abelian由R1173、全辅助族最高/Π2 corr由R1174支付；最低另有R1175算法，Tate端点符号与非零继续。
 
-[R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02完整分类排权6/10 p-new的惯性1⊕ω^(d+1)，故Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)在同μ6外族生成单位理想。原Norm与有限Δ给W A=D，D只用coefficient crystal、实际quotient modp²位置及同源，正号/σ/shear全保；有限重建终止，未实际运行。T_i=24B_(p−5)/5由原weight-five abelian比较独立付所有p>37；中央corr读值及原全局/whole盘排除仍开。
+[R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02完整分类排权6/10 p-new的惯性1⊕ω^(d+1)，故Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)在同μ6外族生成单位理想。原Norm与有限Δ给W A=D，D只用coefficient crystal、实际quotient modp²位置及同源，正号/σ/shear全保；有限重建终止，未实际运行。T_i=24B_(p−5)/5由原weight-five abelian比较付所有p>37；原全局/whole盘非零仍开。
 
 ## O1：原两 jet 的实际临界非零
 

@@ -445,3 +445,8 @@
 ### 2026-11-28 17:58 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1175付原全43 Frob的独立有限算法：最低residue锁ΔT，实际整格给全Gauss界，Legendre/KT给linear pole D(m)，有限候选树的singleton停止必发生；pure coefficient只取明确−1 fibre矩阵后独立全局重建，全部σ/λ∞/descent保留。
 - root亲读KT完整证明与Kedlaya原矩阵算法并纸推；global独核§§3–7、KT下界及唯一/紧性链。H/open前态逐字归档后压缩已付来源，保持O0–O6全部开放和七退化支；完成即推。未执行数学程序，原目标非零/global减法/whole盘继续。
+
+
+### 2026-11-28 18:13 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1174 §§11–16付整个合法辅助素数族的原ordinary/first0 source：整塔消人工水平惯性、Tsuji实际henselian比较、完整γp vertical gauge与u↦z^e的真PD特化均逐门保留。最高/Π2相关项给完整显式二次RHS，接原Brandt仿射系统可有限重建。
+- root亲读Tsuji§2/4/5与Stacks03QO，复核R1157变量三角和全部消元/同源尺度；o2纸核核心消元及hensel接口。旧1–10逐字保留，完成即推；最低Tate符号和原目标非零继续，无数学程序执行。

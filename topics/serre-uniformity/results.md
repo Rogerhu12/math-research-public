@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原全部合法辅助族的ordinary源与显式中央右端（已证明）**：[R1174 §§11–16](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)变量CM三角的实际整raw塔先排人工水平惯性；真实henselian log(p,z)比较保全部根与products。保vertical γp后合法gauge给β_ord=β0+ψβ2/2及first0，固定类中唯一；实际u↦z^e特化保PD carry。原Π0/Π2相关双线性式延至整个ℓ⁶≠1辅助族，接R1173/1171给全部affine RHS并有限重建两个中央槽；不宣全p^r ordinary或最低Tate符号/非零。
+
 - **原完整43维Frobenius的可终止全局有限读取（已证明）**：[R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低Eis residue连Tate常数一起锁定，全部几何Teich点的原整格给Gauss界；Legendre三边界与KT定理付明确D(m)=2pm+6(p+1)。实际affine/horizontal/S3 descent的有限线性候选树保真解，每条无限分支因linearD仍dagger，唯一性保证目标精度投影有限成为单点；pure输入由明确−1 fibre矩阵与同算法取得。包括λ∞/全部中央，无外部未知γ5位；未运行数值计算，原非零与全局排除继续。
 
 - **原Gaussian四奇列、完整norm与首p共振强迫（已证明）**：[高窗 §14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)实际两非Gaussian商奇列精确化为A=uC2、B=u(C4+12a/5)四系数；原uB=A²−W²+4au²与A''=2au²A+2au保常数。pA_p=−2β给真正单位forcing，u_(p−2)=χ(a)/β自足读取，H_p0后不删全部低卷积。原最高/Π2 corr配对准确为−11a(b4a8−11a4b8)/(768β²)，未外加vanishing或将Tate最低槽省略；原joint非零继续。

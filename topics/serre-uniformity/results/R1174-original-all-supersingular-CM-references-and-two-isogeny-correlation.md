@@ -567,3 +567,537 @@ $\lambda_\infty X T'$ 修正，尚需其自己的实际 endpoint
 运输分别沿 R1163–1168、R1159 和 R1169 已发表版本。
 本篇新增的是全参考点的合法 CM 选择、一般整特征标架
 上的实际 source 延伸，以及不需求出 $\kappa$ 的尺度消去。
+
+
+## 11. 一般辅助素数：保留垂直 PD 方向后的第一层结论
+
+本节以下扩大 §5 的辅助素数范围，使用另一份完整证明，
+而不把二同源切线表照搬到一般素数。
+
+固定原合法的平滑辅助数 $c$，并令
+$$
+\mathcal A_p^{(6)}
+ =\{\ell>3:\ \ell\ne p,\ \ell^6\not\equiv1\pmod p\}
+   \setminus\{c\}.
+\tag{1174.23}
+$$
+删去 $c$ 只是保持原同源分布中的互素条件。
+R1171 §§10–13 已付这一族的原 SV 三角、两套 S/U filling、
+prime-to-$p$ 分裂域以及余有限 Hecke 理想。
+本节证明，对每个 $\ell\in\mathcal A_p^{(6)}$，
+§§6–8 的最高及两次配对相关项读式都成立。
+
+新输入是一条准确的第一层结论：
+
+> 对同一原 raw 整塔，在 CM 参数盘的实际 scalar
+> log-syntomic complex 中，其指定中央 primitive 的模 $p$
+> gauge 类有唯一的零第一槽、ordinary 第二槽代表。
+
+这里 ordinary 指第二槽属于 $k[[z]]$，
+不含垂直 PD 变量，也没有负 $z$ 次数。
+所说的是**完成实际比较和 gauge 之后**的代表；
+没有假定原四线表达式的各个 Bloch 参数都为 good unit，
+也没有声称全部 $\bmod p^r$ 层都能同时写成 ordinary。
+实际全 $\mathbf Z_p$ 塔仍用于下节的水平延伸；
+有限 FL 读取则只需要这份准确的第一层代表。
+
+特别不能把带 $\log p$ 的底换成恒等嵌入。
+下面始终保留独立的 base variable $u$ 和
+$$
+g_{\rm v}=u-p.
+$$
+最后的 $p$-挠点 specialization 才把 $u$ 送到 $z^e$，
+从而把它变成原 $z^e-p$，所有 carry 都随同一个 PD map
+运输。
+
+## 12. 原 raw 整塔在 CM 参数曲线上的真实延伸
+
+### 12.1. 同一三角形可以先在参数曲线上构造
+
+在 §2 的实际 CM 曲线 $E/F$ 上固定原 CM 整数 $\alpha$。
+对于非退化三角形，要求 $\alpha$、$1+\alpha$ 在
+$\mathcal O_{K,p}$ 中为单位，三个端点始终是
+$$
+O,\qquad P,\qquad [1+\alpha]P.
+\tag{1174.24}
+$$
+$p$-点对的每个允许剩余类都可如此处理。
+实际 U 关系取 $(P,-Q,Q-P)$ 时相应把 $1+\alpha$
+换成 $1-\alpha$；其为零的剩余标签已经由原 filling
+的零系数处理。
+
+R1157 (1157.4)–(1157.16) 的证明，对变量 $P$ 仍然成立。
+其中使用的仅是 $E[\ell]$ 平移、三个零边际、trace-fixed
+范数以及三个陪集的分离；并没有使用 $[p]P=0$ 来
+principal 化除子。所需 principal 化的整数是 $\ell^2$，
+不是 $p$。在参数曲线的 generic point，三个陪集分离；
+从一个有限开集开始便得到完全相同的 $K_3$ 见证。
+
+在 universal 点配置上作同一 R1156 四线、同根和 transfer
+构造，再分别限制到原 full-level 点及 (1174.24)。
+这固定的是同一个 actual raw object 和其 quotient 标识，
+不是在每个 CM 盘重新挑一个任意 cup primitive。
+若为一般位置而更换四线，仍先使用原五项、
+乘法根和 ordered Cor 同伦比较。
+最后原 R1158 或 R1169 的全模叠固定 quotient
+唯一性仅用于识别整个已下降相关 torsor，
+不用于猜单个盘上的中央常数。
+
+由于
+$$
+p\nmid \ell(\ell-1)^2(\ell+1)
+\qquad(\ell\in\mathcal A_p^{(6)}),
+$$
+原 $E[\ell]$ splitting 以及四线算法的二、三次辅助扩张
+都只需 $p$ 单位 transfer。这里允许 $\ell>p$；
+没有再次引入已经删去的 $\ell<p$ 限制。
+
+### 12.2. 只有最终 theta 交换商需要在盘上为 log unit
+
+先把 $E[\ell]$ 放在一个有限未分歧 $F'/F$ 中分裂。
+这是 good reduction 下 prime-to-$p$ étale 群的实际分裂域。
+原最终 raw quotient 只含
+$$
+\theta_\ell(P),\quad \theta_\ell(Q),\quad\theta_\ell(-P-Q),
+\quad
+\theta'_{\ell,C}(P),\quad\theta'_{\ell,C}(Q),
+\quad\theta'_{\ell,C}(-P-Q),
+\tag{1174.25}
+$$
+以及它们在原同一 permutation–Tate 格中的重复位置。
+辅助 cross-ratios 只用来制造中央 primitive，
+不被添成这个最终交换商的独立槽。
+
+这些 theta 槽 near $O$ 的 leading 常数都是 $p$ 单位。
+以下给出包含 trace-fixed 常数的证明。
+记 $\psi_\ell$ 为实际 division polynomial，
+$\Delta_E$ 为原 good 模型的 discriminant。类
+$$
+t_\ell^{\,0}
+ =\frac1{12}\left[\frac{\Delta_E^{\,\ell^2-1}}
+                         {\psi_\ell^{\,12}}\right]
+\tag{1174.26}
+$$
+具有原除子 $\ell^2[O]-[E[\ell]]$，
+没有 vertical divisor；其 $O$ 处首项的常数为单位，
+因为 $\ell,\Delta_E$ 都是单位。
+式 (1174.26) 的 $\Delta$ 幂准确消去 Hodge 权。
+
+选择整数 $a$ 满足 $a\equiv2\pmod p$、
+$a\equiv1\pmod\ell$。则 $a$、$a^2-1$ 都为 $p$ 单位，
+$[a]$ 在 good 模型上 finite étale。
+$[a]_*t_\ell^{\,0}-t_\ell^{\,0}$ 的 horizontal divisor 为零，
+vertical valuation 也为零，因此是一个 base unit 类 $C_a$。
+真正 trace-fixed 的 $\theta_\ell$ 与 (1174.26) 之差为
+$$
+-\frac{C_a}{a^2-1}.
+\tag{1174.27}
+$$
+这是由原 $[a]_*\theta_\ell=\theta_\ell$ 直接解得，
+保留了该实际常数；不是把两份同除子的函数猜成相等。
+故 $\theta_\ell$ 本身仍有 unit leading。
+原
+$\sum_{T\in C}\theta_\ell(P+T)=\ell\theta'_{\ell,C}(P)$
+同样包含全部常数，且 $\ell$ 可反除，
+所以每个 primed 槽也有相同的整性性质。
+
+清除有限个 $p$ 单位分母后，
+$\alpha$、$1+\alpha$ 的 endomorphisms 在 $O$ 处 étale，
+其余 $\ell$-division 支撑都与 $O$ 的特殊纤维分离。
+因此 (1174.25) 在同一个实际参数中准确为
+$$
+f=t^m V,\qquad m\in\mathbb Z,\quad
+V\in\mathcal O_{F'}[[t]]^\times.
+\tag{1174.28}
+$$
+随后只按原单位指数反除。
+这里是 divisor、étale 差因子和 unit leading 的结论，
+不从一个 $L$-点上的赋值反推整函数形式。
+所有端点仍用固定 $\alpha$ 和真正 $[1+\alpha]$。
+
+### 12.3. 人工水平点必须先由整个整塔消去
+
+把除 $O$ 外的实际 quotient 支撑从参数曲线删除。
+在其余 generic 闭点 $x$ 上，(1174.25) 的 Kummer
+交换商无惯性；整个 raw 塔的惯性因而落在
+有限直和的无挠中心 $\mathbb Z_p(2)$ 中。
+其 decomposition-group 等变性准确给
+$$
+\operatorname{Hom}_{G_{F_x}}
+     (\mathbb Z_p(1),\mathbb Z_p(2))
+ =H^0(F_x,\mathbb Z_p(1))=0,
+\tag{1174.29}
+$$
+其中 $F_x/F'$ 是有限扩张，不可能含全部 $p$-power
+单位根。故整个连续惯性同态为零。
+逐层 normalization 和曲线 purity 给唯一有限 étale
+延伸；层间 morphisms 也唯一延伸，保相容性。
+
+因此原 actual raw tower 确在 $O$ 附近的
+punctured generic curve 上定义。
+(1174.29) 没有对单独有限层宣称
+$H^0(F_x,\mathbb Z/p^r(1))=0$，
+也没有只从 quotient 无分歧就断言中央无分歧。
+人工四线交点即使有坏 reduction，仍由这一整塔论证处理。
+
+## 13. 同一 henselian log chart 的精确 primitive 比较
+
+取上述 algebraic curve 在 $(p,O)$ 的 henselization
+$X_h$，以 $t$ 为实际 étale 参数，带 divisor $pt=0$
+的 log structure。记
+$$
+j:U_h=X_h[1/(pt)]\hookrightarrow X_h,\qquad
+i:(X_h)_k\hookrightarrow X_h.
+\tag{1174.30}
+$$
+原塔由 §12 确已限制到 $U_h$。
+这里的 $j$ 同时去掉 $p$ 和 $t$；不将它只写成
+horizontal puncture。
+
+Tsuji Theorem 4.2（亦为 Theorem 5.1 的特例）给
+$r=1,2$ 的精确 small-weight 比较。
+其应用于 henselization 是沿实际 étale neighbourhoods
+取限制，并非另援一个未经证明的 formal comparison。
+在严格 henselian neighbourhood 上，Stacks Project
+Tag 03QO 给全局截面等于闭点 stalk，且无高 étale
+cohomology。故
+$$
+R\Gamma((X_h)_k,i^*Rj_*\mathbb Z/p(r))
+ \simeq R\Gamma(U_h,\mathbb Z/p(r)).
+\tag{1174.31}
+$$
+一般有限 residue field 情形再对同一 $G_k$ 取 cohomology。
+这保留全部算术 Frobenius，没有只取 geometric invariants。
+本处不使用 proper base change 去偷换一个非 proper 开集。
+
+在 $r=1$ 的 $H^0,H^1$ 与 $r=2$ 的 $H^0,H^1,H^2$
+上，Tsuji period map 因而都是同构。
+其 §2 (2.5)、(2.8)、Proposition 2.11 保原 ordered product
+和 Kummer convention。于是 R1163 §5 的 obstruction、
+difference、automorphism 论证原样给出：
+固定 (1174.25) 的 quotient 和其同根标识后，
+该实际 raw primitive 有唯一的 syntomic gauge 类原像。
+先用中央 $H^2$ 得存在，再用 $H^1$ 选中原 object，
+并用 $H^0$ 运输其 morphisms；三个步骤都不能省去。
+
+这里可使用全局的实际 log-PD embedding：
+引入独立 $u$，令 $X_h$ 由 $u=p$ 切出，
+两个 log generators 是 $u,t$，
+Frobenius 在 ambient 上为
+$$
+u\longmapsto u^p,\qquad t\longmapsto t^p,
+\qquad a\longmapsto\sigma(a).
+$$
+Étale 参数 chart 的提升由 henselian 性唯一完成。
+PD ideal 是 $(u-p)$ 的 divided powers，绝不是零。
+各 PD/微分项在 affine special chart 上准凝聚，
+故其 hypercohomology 可以在这个实际 complex 的
+全局 sections 中表示；无限 PD 项用其准凝聚 filtered
+colimit，完成后逐有限精度作同一操作。
+
+然后完成到原 strict LT 参数 $z$。
+先运输已经得到的这一个 object，
+再使用 Tsuji §2 的实际双 embedding/refinement、
+Frobenius-change maps 和 products。
+形式参数变换 $t=z\,V_0(z)$ 的 $V_0$ 为整单位；
+两个 log Frobenius lifts 的比属于 $1+p\mathcal O_{F'}[[z]]$。
+这些 maps 是同一 PD 复形的真 map/同伦，
+如 R1166 的同一 ambient comparison；不自行重选一份
+与原根没有比较的 ordinary lift。
+
+这一完成不需要对全部形式对象另宣一个 exact
+comparison theorem。我们只拉回已由 (1174.31) 支付的
+原 gauge 类，§2 的 embedding-independence 与
+functorial product maps 保持其原 étale identification。
+目标 formal ring 的 $u,z$ 仍是 log $p$-basis，
+$u-p$ 是 regular immersion；Tsuji Lemmas 2.2–2.3
+及 Corollary 1.11 的 PD 比较适用。
+最终到 $\mathcal O_L$ 的合成仍是原 algebraic 点 $P_0$
+的特化；syntomic functoriality 使经形式中间环的合成
+等于这个直接 map，其两端的原 period 比较保持交换。
+因此不需要为形式中间环额外假定 nearby-cycle 满射。
+以下在此同一完成后的 complex 中做显式消元。
+
+## 14. 保完整 vertical carry 的 weight-two 消元
+
+置
+$$
+\mathscr R=\mathcal O_{F'}[[z]],\qquad
+\mathscr S=\mathscr R\langle\gamma_n(g_{\rm v})\rangle^\wedge,
+\quad g_{\rm v}=u-p,\quad
+\psi(u)=u^p,\quad\psi(z)=z^p.
+\tag{1174.32}
+$$
+完成同时按实际所需的 $p$、$z$ 精度理解。
+本节只在模 $p$ complex 中计算，
+$\overline{\mathscr R}=k[[z]]$；
+$\psi$ 在它上面是注入的，通常不满射。
+写 $N_u=u\partial_u$、$N_z=z\partial_z$。
+
+按原 mapping-fibre convention，
+weight-two 的前两次数为
+$$
+C^0=J^{[2]},\qquad
+C^1=J^{[1]}(d\log u\oplus d\log z)\oplus\mathscr S,
+\qquad
+dX=(dX,(1-\phi_2)X).
+\tag{1174.33}
+$$
+这里 $\phi_j=p^{-j}\psi$ 只在其合法 filtered 域上定义。
+在 degree-one forms 上的 divided Frobenius 是
+$\phi_1$ 作用于两个系数，因为 $\psi(d\log u)=p\,d\log u$、
+$\psi(d\log z)=p\,d\log z$。
+
+固定 quotient 的每个实际 symbol 为
+$$
+a_f=\left(d\log f,\ \frac1p\log\frac{f^p}{\psi f}\right),
+\qquad f=z^mV.
+\tag{1174.34}
+$$
+第二槽等于 $p^{-1}\log(V^p/\psi V)\in\mathscr R$，
+first slot 只有 $d\log z$，无 $d\log u$。
+因此任何原 ordered raw cup $\Omega$ 的 first component
+为零，其 second component 是 ordinary
+$\omega(z)d\log z$。多槽 bilinear 和同子群 Cor
+仍具有这同一性质。
+
+取 §13 已对齐原 quotient 的 primitive
+$$
+h=(a_u\,d\log u+a_z\,d\log z,\beta),\qquad
+dh=-\Omega,\qquad a_u,a_z\in J^{[1]}.
+\tag{1174.35}
+$$
+下面不把它的 first component 猜为零。
+展开
+$\beta=\sum_{n\ge0}\beta_n(z)\gamma_n(g_{\rm v})$，
+并令
+$$
+\beta_{\ge2}=\sum_{n\ge2}\beta_n\gamma_n,\qquad
+F=\phi_2(\beta_{\ge2}),\qquad F_0=F|_{\gamma_{>0}=0}.
+$$
+完整 Frobenius carry 为
+$$
+\frac{\psi(g_{\rm v})}{p}\equiv-1-\gamma_p(g_{\rm v})
+ \pmod p.
+$$
+对 $n>2$，包括 $n\ge p$，
+$n-2-v_p(n!)\ge1$。因此准确有
+$$
+F=\frac{(1+\gamma_p)^2}{2}\,\psi(\beta_2),
+\qquad
+F_0=\frac{\psi(\beta_2)}2.
+\tag{1174.36}
+$$
+
+定义合法的 degree-zero gauge
+$$
+X=\beta_{\ge2}+(F-F_0)\in J^{[2]}.
+\tag{1174.37}
+$$
+$F-F_0$ 的 normal indices 只有 $p,2p$，
+所以模 $p$ 下
+$N_u(F-F_0)=0$、$\phi_2(F-F_0)=0$。
+这里只对 (1174.37) 的 filtered 元素施 $\phi_2$；
+不能分拆成对 ordinary $F_0$ 单独施这个未定义的 map。
+由此
+$$
+h'=h-dX,\qquad
+\beta'=\beta_0+\frac{\psi(\beta_2)}2+\beta_1\gamma_1.
+\tag{1174.38}
+$$
+
+vertical 方程是
+$$
+(1-\phi_1)a'_u=N_u\beta'.
+$$
+若 $c_1$ 为 $a'_u$ 的 $\gamma_1$ 系数，
+左边的 normal-zero 项是 $\psi(c_1)$，
+因为 $\phi_1(\gamma_1c_1)=-(1+\gamma_p)\psi(c_1)$。
+右边无 normal-zero 项，故由 $\psi$ 注入得 $c_1=0$。
+随后整式变成 $a'_u=\beta_1\gamma_1$，
+比较一次项再得 $\beta_1=0$，所以 $a'_u=0$。
+
+first component 的闭性再给 $N_u a'_z=0$。
+模 $p$ 下 $N_u\gamma_n=n\gamma_n$，
+而 $a'_z\in J^{[1]}$，故只可能留下
+$\gamma_{hp}$、$h\ge1$ 的项。
+它们全被 $\phi_1$ 杀掉。
+horizontal 方程的右边与 $\beta'$ 都是 ordinary，
+于是这些 positive normal 项也全为零。
+最终
+$$
+\boxed{\qquad
+h_{\rm ord}=(0,\beta_{\rm ord}),\qquad
+\beta_{\rm ord}
+ =\beta_0+\frac{\psi(\beta_2)}2\in k[[z]],
+\qquad dh_{\rm ord}=-\Omega.
+\qquad}
+\tag{1174.39}
+$$
+这是实际 $h-dX$，完整 $dX$ 留在比较中。
+没有删 $\gamma_p$，没有要求 $\psi$ 满射，
+没有先反除 $p$ 后再约模。
+
+这个 ordinary 代表在固定 gauge 类中唯一。
+若 $dY=(0,\delta)$，$Y\in J^{[2]}$ 且
+$\delta\in k[[z]]$，则 $N_uY=0$ 只留下 positive
+$\gamma_{hp}$；$\phi_2Y=0$，所以
+$\delta=(1-\phi_2)Y=Y$ 迫 $\delta=Y=0$。
+这也支付相同 raw object 的 étale descent、
+完成/refinement 和固定同根 morphism 之间的 glue：
+先运输 actual gauge 类，再取其唯一 ordinary 代表。
+不把这一结论扩大为任意不同 primitive 的值相同。
+
+## 15. 送入原挠点 PD 模型及全部辅助素数的读式
+
+### 15.1. 实际 specialization，而非舍弃法向误差
+
+现在固定原 $p$-点 $P_0$，其 strict LT 坐标
+$\varpi$ 满足 $\varpi^e=p$，$e=p^2-1$。
+从 (1174.32) 到原 coefficient PD 模型的 map 是
+$$
+u\longmapsto z^e,\qquad z\longmapsto z,\qquad
+g_{\rm v}\longmapsto g=z^e-p,\qquad
+d\log u\longmapsto e\,d\log z.
+\tag{1174.40}
+$$
+它与两端 $\psi$ 严格交换，且在实际 fibre 上就是
+$t(P_0)$ 的原 specialization。$g^n=n!\gamma_n(g)$
+使 $z$ 在这个目标 PD 环中拓扑幂零，所以普通整幂级数
+的代入真实收敛。§14 的 $\psi$ 注入性只在特化前的
+$k[[z]]$ 使用；特化后不再假设它注入。
+特别 $\psi(g)$ 的旧非零 normal carry 保持不变；
+没有声称 $\psi$ 保持未经 PD 化的 $E[p]$ ideal。
+
+(1174.37) 的 gauge 随 (1174.40) 一并运输。
+其 Hodge evaluation 为零，故保持原 filtered torsor
+的唯一 Hodge 点；不是把原 étale 根相位设成零。
+由此 (1174.39) 在原 ramified marked fibre 上仍代表
+同一个 raw object。随后才作既定的群 pushout、实际
+same-coset Cor 和完整 nonlinear contraction。
+
+乘原 pointed Miller 的 actual $H^0_{\rm syn}$ 系数时，
+primitive 的 first slot 为零，故 R1166 (1166.25)–(1166.27)
+的这一次 external-product 修正确为零。
+这是当前 scalar primitive 乘 degree-zero coefficient
+的判断，不删除两个 moments 相乘时的 ordered 修正。
+
+### 15.2. 原低 normal 支持与系数式不再限于二同源
+
+式 (1174.39) 没有负 $z$ 次数。
+§4 的原 degree-$d$ 系数第 $k$ 项包含
+$$
+z^{p(d-k)+k}(1+\gamma_p)^{d-k}g^k,
+\qquad 0<p(d-k)+k<e.
+$$
+所以 actual tame trace 的第零 $e$-block 从 $u^1$
+开始。模 $p$ 下，原最高 raw U 和仍满足
+$J_{k,n}=0$ 对 $n<k+1$，特别 $J_0=0$。
+每个 theta moment 的第一 log 槽由 (1174.34) 给出，
+同样具有此支持；其 divided Frobenius 边界项为零，
+闭性准确给 $a=N_u y$。
+
+R1166 §19 的 S/Q 反对称消去、§20 的 ordered nonlinear
+gauge 和本篇 §§6–7 的 factorial/Frobenius 尺度消去
+因而全部适用。对每个 $\ell\in\mathcal A_p^{(6)}$，定义
+$$
+\begin{aligned}
+A_{\ell,d}
+ &=\bigl(\ell^2-\ell^{-d}\bigr)\mathsf A_d(E),\\
+A'_{\ell,C,d}
+ &=\ell\,\operatorname{Sym}^d(\psi_C^{-1})
+                    \mathsf A_d(E/C)-\ell^{-d}\mathsf A_d(E),\\
+B^{(\ell)}_{kl}
+ &=(A_{\ell,4})_k(A_{\ell,8})_l
+   -\sum_C(A'_{\ell,C,4})_k(A'_{\ell,C,8})_l.
+\end{aligned}
+\tag{1174.41}
+$$
+所有 quotient 值先按原 $\psi_C^{-1}$ 送回同一实际基。
+若使用别的已选参考点，仍按 R1171 的右增量和完整
+shear 运输。两个 primed 槽必须使用同一个 $C$。
+
+于是原最高与两次配对 correlation 的准确读数是
+$$
+\boxed{\begin{aligned}
+W_{\ell,r}^{\rm corr}
+ &=\sum_{k=0}^{4}\sum_{l=0}^{8}
+     \frac{k-l}{2(k+l+2)}\,B^{(\ell)}_{kl}\,
+                  \Pi_r(U^{(4)}_k,U^{(8)}_l),\\
+Z_{\ell,r}^{\rm corr}
+ &=\sum_{k=0}^{4}\sum_{l=0}^{8}
+     \frac{k+1}{k+l+2}\,B^{(\ell)}_{kl}\,
+                  \Pi_r(U^{(4)}_k,U^{(8)}_l),
+\qquad r=0,2 .
+\end{aligned}}
+\tag{1174.42}
+$$
+$W$ 为 BCH，$Z$ 为 ordered；原 $U_k^{(d)}=\omega^k\mu^{d-k}$。
+全部分母小于 $p$。
+(1174.42) 使用原完整 raw moments，不提前除
+$\ell^2-\ell^{-d}$。该因子即使在某槽为零，
+公式仍然成立。
+
+对 $r=2$，目标指数仍是 $K=k+l-2$，其 target
+filtration 为 $12$，读取 normal $K+4=k+l+2$。
+真正 paired Tate factor、$\sigma$、阶乘、same-subgroup
+和原 $n^{-2}$ 系数运输均与 §7/R1169 相同。
+这里没有把它改成未配对的 degree-$8$ 普通乘积。
+
+### 15.3. 原 affine Hecke 系统现在有完整的余有限右端
+
+R1173 已唯一重建所有参考点的两条
+$\mathsf A_4,\mathsf A_8$；实际 quotient 的值由其原
+abelian 右增量取得。因此 (1174.41)–(1174.42) 给出
+R1171 affine 系统在整个 (1174.23) 上的真实已知右端。
+
+相应功能方程仍是 R1159/R1169 的跨曲线式：
+最高槽使用
+$(\ell^4+\ell^{-11})-\ell^2T_\ell^{(12)}$，
+两次配对槽使用
+$(\ell^4+\ell^{-11})-T_\ell^{(8)}$。
+返回参考点时须加原中央 affine correction；
+它由已知 abelian 值和同一个 reference-to-quotient
+increment 决定，不含待求的中央参考值。
+
+R1170/R1171 已证明这两个余有限辅助族的算子理想为一。
+故以有限次实际算子和 (1174.42) 解线性系统，
+即可恢复全参考点的原最高、两次配对中央第一层值。
+无需逐字数值化 R1160 的 Galois conjugating word。
+这里增加的是完整相关项的显式二次右端；
+没有把单点 eigenvalue $v_\ell$ 当成真正 Hecke 算子。
+
+这与 R1175 的全连接有限算法是两个独立入口。
+本节没有执行任一算法，也没有宣称所得中央值、
+原 global-subtracted 顶系数或任何 whole-disc 排除非零。
+最低槽的正 $\lambda_\infty X T'$ 仍按 R1172
+保留，其自己的 raw endpoint 读取不由 (1174.42) 冒得。
+
+## 16. 新增 primary 及第一层范围
+
+新增并亲读：
+
+- T. Tsuji, *On p-adic nearby cycles of log smooth families*，
+  BSMF 128 (2000), 529–575，
+  [正式 PDF](https://www.numdam.org/article/BSMF_2000__128_4_529_0.pdf)。
+  §2（印刷页539–546）的 PD embedding、不同 embedding/
+  Frobenius 的 canonical comparison、product (2.5)、
+  period map (2.8) 及 Proposition 2.11；
+  Theorem 4.2（印刷页550）和 Theorem 5.1（印刷页555）。
+  本文只在实际 henselian smooth log chart 消费其 exact
+  比较；完成后是已给 object 的 functorial PD 运输。
+
+- Stacks Project，
+  [Lemma 59.55.1，Tag 03QO](https://stacks.math.columbia.edu/tag/03QO)：
+  严格 henselian local scheme 上全局截面等于闭点 stalk。
+  其在 (1174.31) 中的算术 descent 及 primitive groupoid
+  用法已在 §13 说明。
+
+§14 的完整 $\gamma_p$ 消元、ordinary 代表唯一性、
+(1174.40) 的 actual specialization 和一般辅助族的
+读式均由本文证明。
+没有使用恒等 embedding 的 $J=0$ 假设，
+没有把一次上链的 rational 比较直接约模，
+也没有在各层分别选 primitive 后假定存在兼容整塔。
+全塔先由原 R1156–1158 存在并支付水平延伸；
+新 ordinary 结论精确限于其模 $p$ 层。
