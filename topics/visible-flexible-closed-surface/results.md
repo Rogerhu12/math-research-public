@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R295：整数极径张量和真实无穷平领的全相位嵌入](results/R295-integer-separated-meridian-tensors-and-the-real-infinite-cuff.md)（2026-11-28）：四张全闭图同时支付双强形变比；最终场 16418688 个非邻闭格对全付，移位实际度量峰 .122886。
+
 - [R294：实际408位置场的全材料闭盒及整闭两项强距离](results/R294-actual-raised-flat-cuff-field-whole-strong-distance-bounds.md)（已证明；33,292,289闭盒含真端口，δhold/D>.2033584375、δE/D>.0506325；完整嵌入/reach与精度另付）。
 
 - [R293：较高整帽与无需超高点远径限制的完整reach拼接](results/R293-higher-complete-caps-and-reach-grafting-without-radial-protrusion-condition.md)（已证明的条件构造；真Z+η=.635，帽完整两强比例；核reach≥.096且全高≤min(.635,Z+.13)已经够原.03比例）。
