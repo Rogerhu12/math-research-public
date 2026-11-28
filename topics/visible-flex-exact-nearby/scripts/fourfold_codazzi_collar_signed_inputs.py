@@ -5,6 +5,7 @@ import gzip,json
 from flint import arb
 import fourfold_codazzi_root_Laurent_Taylor_algebra as L
 import fourfold_codazzi_true_characteristic_seed_admission as S
+import fourfold_codazzi_collar_signed_helper_admission as H
 from fourfold_codazzi_true_phase_original_inputs import check
 
 BASE=S.TOPIC+'/notes/correlated_first_Airy_local_numerator_ci/run-43666374252-1/'
@@ -62,7 +63,7 @@ def receive(read):
     names+=['leading-%s-degree-%03d'%(k,i) for k in leading for i in range(9,15)]
     for i in range(13):names+=['normalized-forcing-degree-%03d'%i,'first-correction-degree-%03d'%i]
     for i in range(9,15):names+=['background-inputs-degree-%03d'%i,'background-main-degree-%03d'%i]
-    sel,ma,ids=S.admit(read,names);receipts+=ids
+    sel,ma,ids=H.admit(read,names);receipts+=ids
     check(len({r['path'] for r in receipts})==len(receipts),'distinct original whole records')
     bg=sel['complete-background-root-series']
     check(all(bg[k] for k in ('complete_mean_at_all_orders_retained','positive_order_value_repair_derivatives_exactly_zero',

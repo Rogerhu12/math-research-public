@@ -167,3 +167,6 @@ AGRQ：实际46139062783/1 success，3056覆盖原3026/128两种角格/四branch
 
 
 GSA：同193/97+96与两mean的有符号affine列和所有独立port经NPG/FHC真逆给整cut/负窗单位响应；零port只定义affine常数，不当真匹配。原GG实际失败使metadata ready=false、manifest/workflow/新科学0；后继新图须自身完整合同。phase的2^-33000域与regular实际残差尚须兼容。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GLC-R：原首次0科学失败已保。91个stage中90照原S.admit，唯一helper按原new_unsaved_helper/publication/source/manifest/runtime及两native边和整SHA接受；根97whole/3384150B通过。全部G.7/两列/频带/规则及whole门不变，新入口首次算未付格。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

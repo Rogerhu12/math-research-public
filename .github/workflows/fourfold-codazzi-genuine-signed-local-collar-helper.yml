@@ -1,0 +1,104 @@
+name: Signed full local genuine source on the physical root collar
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-genuine-signed-local-collar-helper.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-genuine-signed-local-collar-helper-20261128
+  cancel-in-progress: false
+jobs:
+  signed-local-collar:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 100
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_root_input.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_collar_reference.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_geometry.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_helper_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_operator.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_owner.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-genuine-local-collar-operator-and-anchored-reference-Green-matrix.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-actual-whole-signed-cut-seed.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-genuine-common-radial-columns-and-old-circle-inverse.md
+            /topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/correlated_first_Airy_local_numerator_ci/run-43666374252-1/consumers/process.json
+      - name: Verify complete historical inputs and strong source formulas
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b  scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+          042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7  scripts/fourfold_codazzi_common_radial_potential_budget.py
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          c23734e005a9bd80941aebeb6b23858aecc0d5d2715ffcc02fcc5ac889a6b129  scripts/fourfold_codazzi_true_characteristic_root_input.py
+          6586b4b034a34e733319e039b53852c72db0cdf13634ae9f2735eaf1e1dc38ab  scripts/fourfold_codazzi_true_ratio_live_rules.py
+          fcc08a0e5f8769b0c215ee25e61d6ecaf73c308d14adb24d68b39bc6328833a3  scripts/fourfold_codazzi_true_ratio_prefix.py
+          2f7f1b88e411726b9098ce98264d6e7778b03dbc7dbdb557bb6537fd6a16af53  scripts/fourfold_codazzi_correlated_collar_reference.py
+          5beaa0af25118f8512886e2a1ebb7c5569344df82e1480e04c0cf1c98c10df10  scripts/fourfold_codazzi_collar_signed_geometry.py
+          e854d245cd066379986c25fd7b932129553cc13af56d51919de538e5592377a1  scripts/fourfold_codazzi_collar_signed_inputs.py
+          7056e9d4ecbab413a721dc874ddec4ebadfeb52fff1d416d4464799ed208879f  scripts/fourfold_codazzi_collar_signed_helper_admission.py
+          5d5655e8bfeabfe0fd12d0e13f04325837428f5cec148217571fb6594737fde4  scripts/fourfold_codazzi_collar_signed_operator.py
+          59d21befab25822a472d60e7258196bb6d06b6ca1141f23ab90c80fcb13ab89a  scripts/fourfold_codazzi_collar_signed_owner.py
+          c9f6e2142f9442350e45a45a3d2096860d507ef8fe3db87d3e5429f7000c68b0  results/R149-supplement-signed-genuine-local-collar-operator-and-anchored-reference-Green-matrix.md
+          d7ab6241aabc17f85eab1c8c4af49ed8c5f2f45eee85e96080a48f8491ad3e4d  results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+          ed1ccb4be58a63527792cd77eec693ca02041d2f8333b6fab48c1732139e56cf  results/R149-supplement-actual-whole-signed-cut-seed.md
+          34bccc6e9822771767527918644498e6fcf49b089ec64db6c480b8bf0ef627a9  results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md
+          6b6db11ba57bb1273bc84d352fc2318cc69bb982a5a4803e662903932a41cbf1  results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+          188cd24795061e44cb1d36bec707e453da40d89f33619df6d7f43af0ef97c1ec  results/R133-supplement-actual-genuine-common-radial-columns-and-old-circle-inverse.md
+          d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9  notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+          fabe59eed2174e92352f71b8a0e9d80ce8c127580806f5dab917345b05337f57  notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json
+          6396a554ab8401d709744b47315ab73830dfe2051937a980ecaab0efa8fc82db  notes/correlated_first_Airy_local_numerator_ci/run-43666374252-1/consumers/process.json
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+      - name: Receive the full signed local source in both original reference columns
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          root=topics/visible-flex-exact-nearby/scripts
+          python "$root/fourfold_codazzi_true_ratio_live_rules.py" python "$root/fourfold_codazzi_collar_signed_owner.py" --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/glc" --receipt "$RUNNER_TEMP/glc-receipt.json"
+      - name: Retain the complete small result or last natural physical prefix
+        if: always()
+        run: |
+          python - <<'PYEND'
+          import hashlib,json,os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"glc-receipt.json"
+          if p.is_file():
+              b=p.read_bytes()
+              if not 0<len(b)<100000:raise ValueError("qualified small GLC record")
+              print("GLC_FINAL_SMALL_OR_PREFIX",len(b),hashlib.sha256(b).hexdigest(),b.decode().strip(),flush=True)
+          PYEND

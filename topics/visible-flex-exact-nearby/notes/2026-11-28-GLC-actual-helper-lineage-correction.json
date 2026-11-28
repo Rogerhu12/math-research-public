@@ -1,0 +1,36 @@
+{
+  "actual_attempt": 1,
+  "actual_completed_subpieces": 0,
+  "actual_event_commit": "427b5565ca7f2c1bf4e2cb1773b630403d58e13c",
+  "actual_failed_run": 46142927215,
+  "actual_failure": "changed signed coefficient header",
+  "actual_original_stage_kind": "new_unsaved_helper",
+  "actual_original_whole_helper_bytes": 241693,
+  "actual_original_whole_helper_sha256": "ede1bbd9a53babc6ba7a413cf0ced5348aecadb99ede50a17234584195da203f",
+  "all_other_90_stage_headers_use_unchanged_original_admission": true,
+  "changed_stage": "helper-complete-vartheta-Q-through-twelve",
+  "complete_scientific_proof_or_physical_gate_passed": false,
+  "kind": "GLC_original_helper_lineage_correction_v1",
+  "new_and_old_scientific_rows_called_by_root": 0,
+  "new_whole_files": [
+    [
+      "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_helper_admission.py",
+      "7056e9d4ecbab413a721dc874ddec4ebadfeb52fff1d416d4464799ed208879f"
+    ],
+    [
+      "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_inputs.py",
+      "e854d245cd066379986c25fd7b932129553cc13af56d51919de538e5592377a1"
+    ],
+    [
+      ".github/workflows/fourfold-codazzi-genuine-signed-local-collar-helper.yml",
+      "d43a77478c4e5cdb8793b018087e4290f7e98149be431c62aa99db629f32151a"
+    ]
+  ],
+  "source_manifest_runtime_and_two_original_native_edges_checked": true,
+  "whole_failed_scientific_prefix_bytes": 198,
+  "whole_failed_scientific_prefix_sha256": "06caa8c9a9242303014e3b8b6a0482d68eda75e5f59621ee67163bef6d1d8205",
+  "whole_original_bytes": 3384150,
+  "whole_original_records": 97,
+  "whole_receipts_sha256": "bb60b715ea29ebc40eae607444d7827342acf07200f27383945b030ff780352f",
+  "whole_selected_stages": 91
+}

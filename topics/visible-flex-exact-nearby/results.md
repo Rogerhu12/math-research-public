@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GLC-R：原唯一helper真实谱系的准入修复](notes/2026-11-28-GLC-actual-helper-lineage-correction.md)：原首次0科学失败已保。91个stage中90照原S.admit，唯一helper按原new_unsaved_helper/publication/source/manifest/runtime及两native边和整SHA接受；根97whole/3384150B通过。全部G.7/两列/频带/规则及whole门不变，新入口首次算未付格。
+
 - [GSA：全正侧有符号解及全部独立物理输入列](results/R149-supplement-public-signed-physical-response-and-independent-port-columns.md)：同193/97+96与两mean的有符号affine列和所有独立port经NPG/FHC真逆给整cut/负窗单位响应；零port只定义affine常数，不当真匹配。原GG实际失败使metadata ready=false、manifest/workflow/新科学0；后继新图须自身完整合同。phase的2^-33000域与regular实际残差尚须兼容。
 
 - [AGRQ：完整原3056闭子格真首比值的实际成功](results/R149-supplement-actual-complete-first-ray-ratio-and-real-physical-amplitudes.md)：实际46139062783/1 success，3056覆盖原3026/128两种角格/四branch/五场6阶归一jet全部保；真small2537B/ea20996a…，私176771817B与raw219304395B整SHA，原GCS/GPR仅必要whole恢复。真幅上包不是点值，完整B高逆/端点/正侧仍待。
