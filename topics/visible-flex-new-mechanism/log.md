@@ -225,3 +225,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 **R762 真简单零圈的两项限定已登记。** [非零epsilon圈排原轴源的近零C²分支；乘w²修复触发R731](notes/2026-11-28-r762-simple-zero-material-period-and-analytic-collapse.md)。原固定theta有限姿未被第一项排除，保持open；全部六jet转移/50→108→190求解尚未运行。R764另取明确新正坡g消去简单零，所有改变量另付，几何seed路径不冒同g族。
 
 R761末段原费用用语定点更正为wall880.705914869秒和原累计science ledger880.702879215秒，数值与原已付对象未变。
+
+## 2026-11-28 19:51:05 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R760原12单位与真实重号恢复
+
+**R760 原12单位已自然保存，首积分核重号检查失败。** [原成功对象与准确next](notes/2026-11-28-r760-original-twelve-paid-units-and-gauss-occurrence-stop.md)，run46181796301/job141092792865，25.823854399秒、0步/0J，源profile/两帧/两网等12单位不重。57.53MB原artifact15277979068已全SHA接收；新外包层保真实面板/序号/权重重数，科学身份明确升级、原.npy字节全继承，仍423/1752列。

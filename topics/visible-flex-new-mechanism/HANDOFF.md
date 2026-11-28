@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **e28763fb52cc9ba3bda19f51cc39bc23c383b0f0**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **a92dde741f0759a2c6fd10b97d5aee06c0191435**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -16,7 +16,7 @@
 
 **R750 原两边环带9步已自然终态。** [17全J/17010列与独立窄区大峰](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，run46174873079/job141071182352，2233.840172885秒；只0fit，.4验证绝对curl47358、metric26045、曲率98988，原next forced_sleeve保持。536ray核/27470位移/459位置J与全部7.1GB原artifact15276188258保留；四原文已206接收，R760改真宽三矩场并显式补两网切缘。
 
-**R760 真三矩/完整两边场首单已装订。** [同原R750固定g的423/1752全列](notes/2026-11-28-r760-first-true-three-period-full-two-edge-field.md)；真全子午/逐角三矩及p_sigma独立持久，16真实窄肩两网补全，原Gauss行减旧加新与全部TSQR精确采用。原9步/17J/536核/27470位移/459位置J不重；首1200秒，科学前全SHA预接原7.115GB ZIP。端三位移通过不授curl零/全族。
+**R760 原12单位已自然保存，首积分核重号检查失败。** [原成功对象与准确next](notes/2026-11-28-r760-original-twelve-paid-units-and-gauss-occurrence-stop.md)，run46181796301/job141092792865，25.823854399秒、0步/0J，源profile/两帧/两网等12单位不重。57.53MB原artifact15277979068已全SHA接收；新外包层保真实面板/序号/权重重数，科学身份明确升级、原.npy字节全继承，仍423/1752列。
 
 **R746 原7步自然终态已登记。** [14全J/10689列与真实末圆角失格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，run46172869144/job141064971057，2339.03675621秒；只0相位fit，.2已付qualification但curl/metric/曲率仍失败，原next forced_sleeve保持。六次资格1854.982037943秒不得重付。3.4GB/2024成员原artifact15276016206和四原元数据SHA已绑定，R754以330/1371全列及真宽轴候选接续原q。
 
@@ -45,4 +45,4 @@ R740已严格排R732/R733/R740旧源的自由盘：被迫旧平袖的末弦>.901
 
 仍须闭连通M、全t C²嵌入/连续族、同一个固定g、固定握持开集≥.2D、未对齐整像dH≥.3D、全t reach≥.03D；全点全时metric≤1e−6后同g自然精化到机器/求解容差，给实际多t网格并诚实列严格存在差距。再追.5D或严格存在。δE可0，不换对象冒通过。未知片不能借已给片资格；持续按open推进，不以时长、缺输入、局部结果或阶段报告收尾。
 
-**R762 真简单零圈的两项限定已登记。** [非零epsilon圈排原轴源的近零C²分支；乘w²修复触发R731](notes/2026-11-28-r762-simple-zero-material-period-and-analytic-collapse.md)。原固定theta有限姿未被第一项排除，保持open；全部六jet转移/50→108→190求解尚未运行。R764另取明确新正坡g消去简单零，所有改变量另付，几何seed路径不冒同g族。
+**R762 真简单零圈的两项限定已登记。** [非零epsilon圈排原轴源的近零C²分支；乘w²修复触发R731](notes/2026-11-28-r762-simple-zero-material-period-and-analytic-collapse.md)。随后[R762 §6](results/R762-signed-Lambert-zero-area-circles-with-both-real-cap-frames.md)已用四真尖点和全域扭转守卫严格排同一表示的固定有限theta：真实周期平均>.36|epsilon|。根全文核；全部六jet转移/50→108→190未运行，不派已排表示。R764另取明确新正坡g消去简单零，所有改变量另付，几何seed路径不冒同g族。
