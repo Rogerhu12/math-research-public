@@ -67,3 +67,9 @@
 - 931cf8 finiteμ正式稿+314def回执全文根读；actual2714B原行SHA与driver一致，11B [969,806,1] canonical SHA准确匹配未重原门，故必要覆盖为(L−3/5)²，保平方理想。
 - L3/5原q给μ−2或−34/11，后者R6余151182936≡430，故有限μ只余(3/5,−2,1/2,−1/2)；L3/half/1有限支完整纸排，尚未宣中心空。
 - 新166f357两L1pole图e=x²R/(R,Y)=(3,8/3)与e=xR/(8,−8)，原Jac±1/8，固定12阶完整N5首QQ非零p-unit目标首次120秒/1GiB；一般k完整singleton原P/N和Haar双源继续。
+
+2026-11-29 02:03 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2150实际main 255eb5e112652e6b8822d745a8c274b33206d411，run46173386160/job141066615530；17:59:59 UTC pull 71f42e2bb759c61473f1dc3f3a5cef4fdb2bfa8d两README无变，私库QUEUE进行中；两pole新jet唯一dispatch204。
+- 新一般k原P证明f整：读取c0b1f13真实原恢复，只用已闭k±4/−2排三次头零；P02/D/G36首项全保，所有原Gram和σ整。完整零阶NB=PB、NC=PC=0，准备新正阶原N/P输入，无旧83e重门。
+- 58ebb5c全文根读：k−2 ellunit μpole先排L3，q2给(L−1)C3，R6给(L−1)²L³R5，两个完整整式除法迫L79/305而余823非零，故只能L1；其新两jet尚待actual，不预报。
+- finiteμ唯一(3/5,−2)新局部、Phi不同原极化结构及Haar实际混合平方源继续，普通ISP未完成。

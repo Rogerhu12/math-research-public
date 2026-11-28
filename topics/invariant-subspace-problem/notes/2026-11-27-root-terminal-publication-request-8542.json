@@ -1,20 +1,15 @@
 {
-  "message": "ISP: reduce ell-unit finite-mu branch to one original center and launch two new pole jets",
-  "parentCommit": "05f8a44842036a32330e35970927530a2ee7b0e6",
+  "message": "ISP: prove physical f integrality on positive-e generic k and locate all k-minus-two mu poles",
+  "parentCommit": "be78d5b4275c3fdef82d483f6ffc937a61cdfe78",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-finite-mu-one-residue-center.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-positive-e-k-minus-two-ell-unit-finite-mu-residual-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-positive-e-k-minus-two-ell-one-pole-two-local-original-jets-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-positive-e-k-minus-two-ell-one-pole-two-local-original-jets-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-positive-e-k-minus-two-ell-one-pole-two-jets.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-ellunit-one-finite-mu-center-2150-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-ellunit-one-finite-mu-center-2150-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-log-before-W-ellunit-one-finite-mu-center-2150-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-results-before-W-ellunit-one-finite-mu-center-2150-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-e-generic-unit-k-physical-f-integrality-and-singleton-model.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-W-positive-e-kminus2-mu-pole-only-ell-one-paper-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-physical-f-integrality-2155-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-physical-f-integrality-2155-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-positive-e-k-minus-two-ell-one-pole-two-jets.yml"
-  ]
+  "dispatchWorkflows": []
 }
