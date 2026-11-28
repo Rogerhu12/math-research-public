@@ -1,0 +1,251 @@
+{
+  "schema": "isp-whole-named-valuation-boundary-exclusion-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-29 Asia/Taipei",
+  "theorem": "R150-appendix-unit211-W-b0-internal-u-positive-entire-original-valuation-exclusion.md",
+  "scope": {
+    "prime": 1009,
+    "original_chart": "current W/b0, physical D nonzero",
+    "valuation_conditions": [
+      "v(e)=0",
+      "v(k)=0",
+      "v(u)>0",
+      "u=e+1"
+    ],
+    "entire_named_boundary_excluded": true,
+    "whole_W_excluded": false,
+    "preliminary_paper_coverage": [
+      "q!=2, L0 h0 nonzero, including arbitrary deep M",
+      "L0=0",
+      "q=-2, arbitrary deep m",
+      "q=2: all alpha relative orders and all mu valuations except alpha order v(u)/2, mu unit"
+    ],
+    "executed_residual_center": "q=residue(k)=2, v(Astar/u)=v(u)/2, mu unit",
+    "only_original_d_nonzero_proved_before_target": true,
+    "physical_D_inverted": false,
+    "bare_mod_QQ_empty_lifting": false
+  },
+  "source": {
+    "basename": "2026-11-29-unit211-W-b0-internal-u-positive-k-two-three-original-residues-8542.py",
+    "blob": "567c6e6be3d33fe470b274413a216cc16952f0b4",
+    "sha256": "85f7ccc8950aafd0634c1de9aec2522d37530af9682a8162ba25215c06046e75",
+    "bytes": 6254,
+    "dependencies": [],
+    "seconds": 30,
+    "memory_mib": 256
+  },
+  "input": {
+    "path": "notes/2026-11-29-unit211-W-b0-internal-u-positive-k-two-three-original-residues-8542-input.md",
+    "blob": "389b477edbe6293dfdfbf23b4245eecdab9bc8ed",
+    "bytes": 8979,
+    "sha256": "8712854ee5e6da9d40baae86533b9b416edaa5e160d23881e7436666fa7e0c36"
+  },
+  "input_scope_correction": "alpha nonzero follows only from the already-paid original Astar; mu=0 is retained until original q2 excludes it. Source unchanged.",
+  "execution": {
+    "elapsed_seconds": 0.02559295400000039,
+    "max_child_rss_kib": 38292,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0212de454a8c91a07c54f052e71d19a205f6a1d6",
+        "before": "4c463f2f670730345fa93a36ba726cb189bbf707",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T18:37:30.520631+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46176850224",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4c463f2f670730345fa93a36ba726cb189bbf707",
+    "source_exit_code": 0,
+    "source_git_blob": "567c6e6be3d33fe470b274413a216cc16952f0b4",
+    "source_sha256": "85f7ccc8950aafd0634c1de9aec2522d37530af9682a8162ba25215c06046e75",
+    "stdout_bytes": 2412,
+    "stdout_sha256": "2f4b5ef9a50cb0d0a4f9004168bd7fdf881b610b32746b286a73224df83d12c8",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "dNonzeroIsProvedFromOriginalQAndR": true,
+      "necessaryResidues": [
+        {
+          "bytes": 47,
+          "degrees": [
+            2,
+            1
+          ],
+          "sha256": "31fb0d4ca08af4a5a33764bd5b33bf356fa57e70a9a808c19e9ab201ab1e7c2a",
+          "terms": 4
+        },
+        {
+          "bytes": 48,
+          "degrees": [
+            0,
+            3
+          ],
+          "sha256": "4255518c829d687748a81ba340c2d25fd1b79415b1a5a7914b70aeec73f27cd0",
+          "terms": 4
+        },
+        {
+          "bytes": 73,
+          "degrees": [
+            1,
+            2
+          ],
+          "sha256": "627819f10f48e8b2cf5e54af87e5a73ca3295c43b1336006394ae6d1ec6a55c5",
+          "terms": 6
+        }
+      ],
+      "noOldGate": true,
+      "noOriginalDInverse": true,
+      "originalSourceOrder": [
+        "q2/(20u^3)",
+        "complete_R6/u^5",
+        "complete_N5/u^4"
+      ],
+      "prime": 1009,
+      "seconds": 0.0005673190000017314,
+      "stage": "new_internal_u_positive_k_two_complete_original_residues",
+      "statistics": {
+        "fieldInverseProducts": 16,
+        "scaledOriginalResidueReturns": 5,
+        "threeSourceReturns": 0,
+        "univariateDivisionProducts": 0
+      },
+      "threeOriginalProfiles": [
+        {
+          "bytes": 47,
+          "degrees": [
+            2,
+            1
+          ],
+          "sha256": "a6f6f32c2b9359b541aea0e6113c76eb7acefc701dbe004fbfc6db9f1cbc4845",
+          "terms": 4
+        },
+        {
+          "bytes": 193,
+          "degrees": [
+            6,
+            3
+          ],
+          "sha256": "c3217b1193c2f1c31eacde2b8ecda5cda879b5e31037917cf2796b8691912c2d",
+          "terms": 16
+        },
+        {
+          "bytes": 145,
+          "degrees": [
+            5,
+            2
+          ],
+          "sha256": "3aeb686722ca4e4bdb24bbcd095d8cf952017ddf0e934b9187a820eaeafaa166",
+          "terms": 12
+        }
+      ],
+      "valuationScope": {
+        "Astar_over_u": "valuation v(u)/2",
+        "e": "unit,residue -1",
+        "k": "unit,residue 2",
+        "mu": "unit",
+        "u": "positive"
+      },
+      "variableOrder": [
+        "n=2mu+3",
+        "r=(T^2/u)/(59n/12)"
+      ]
+    },
+    {
+      "allUnremovedResidualFactorsRetained": false,
+      "exactThreeSourceTarget": {
+        "bytes": 13,
+        "degrees": [
+          3,
+          0
+        ],
+        "sha256": "39052f4d9eca3af0ba463e8784ff75833c87193050945d7bb9bad3c40302bfb4",
+        "terms": 1
+      },
+      "excludesOnlyNamedValuationCenter": true,
+      "firstDegree": 3,
+      "gcd": {
+        "bytes": 11,
+        "degrees": [
+          0,
+          0
+        ],
+        "sha256": "cc8e94a581f6be358ed74280af1aa84f0b129dce0c832586f6667e0eec6037e5",
+        "terms": 1
+      },
+      "gcdDegree": 0,
+      "noPrimeOrTargetChange": true,
+      "noQQEmptyLifting": true,
+      "onlyPositiveDLeadingPower": true,
+      "originalMultipliers": [
+        {
+          "bytes": 431,
+          "degrees": [
+            5,
+            6
+          ],
+          "sha256": "18e01e5035344ef0053010845980e5fb5b6935641c03f15a2a9f5ff665952760",
+          "terms": 36
+        },
+        {
+          "bytes": 61,
+          "degrees": [
+            0,
+            4
+          ],
+          "sha256": "b9e6b6b0d9d4783a4984e1d094dea9e66363379a2192362898eb0ace986bafa3",
+          "terms": 5
+        },
+        {
+          "bytes": 132,
+          "degrees": [
+            2,
+            5
+          ],
+          "sha256": "ae6d148b0e7ea0a8da2dff67e8098de01d7f406cc82fe751db684efcd4c0c6a2",
+          "terms": 11
+        }
+      ],
+      "prime": 1009,
+      "secondDegree": 5,
+      "seconds": 0.0014591990000027977,
+      "stage": "new_fixed_same_point_residual_Bezout_and_three_original_return",
+      "statistics": {
+        "fieldInverseProducts": 22,
+        "scaledOriginalResidueReturns": 5,
+        "threeSourceReturns": 3,
+        "univariateDivisionProducts": 5
+      }
+    }
+  ],
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46176850224",
+  "job_id": 141077389285,
+  "personally_read_complete_math_records": 2,
+  "result": {
+    "first_polynomial_degree": 3,
+    "second_polynomial_degree": 5,
+    "gcd_degree": 0,
+    "gcd_value": 1,
+    "full_three_original_target": "d^3",
+    "d": "59(2mu+3)/12, proved nonzero from the same original q2/R6 leading equations",
+    "source_order": [
+      "q2/(20u^3)",
+      "complete_R6/u^5",
+      "complete_N5/u^4"
+    ]
+  },
+  "preservation": {
+    "new_computation_only": true,
+    "old_ray_or_initial_or_projection_replayed": false,
+    "large_coefficients_stored": false,
+    "prime_or_budget_changed": false,
+    "remaining_other_internal_paid_denominator_boundaries": true
+  }
+}

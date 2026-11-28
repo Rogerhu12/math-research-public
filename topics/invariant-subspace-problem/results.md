@@ -30,7 +30,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-29-results-before-W-ellunit-one-finite-mu-center-2150-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-29-results-before-W-internal-positive-u-closure-2200-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：整个内部u正估值的原DVR边界排除](results/R150-appendix-unit211-W-b0-internal-u-positive-entire-original-valuation-exclusion.md)：全部k/L/h/M及µ分层后，唯一新R3/E5实际gcd1，正幂d³完整返回三个原剩余式；实际0.025592954秒/0，整v(u)>0支关闭，无QQ全图空性外推。
 
 - [R150：正e一般k的完整五原6×18及唯一剩余中心](results/R150-appendix-unit211-W-b0-positive-e-generic-k-five-original-six-generator-presentation-and-one-residue-center.md)：实际0.430858720秒/0返回18列、三固定六阶和全五原模Bézout，只余L3/4、μ−2、k−8；物理f条件未检验，不称一般k或整个射线排空。
 
@@ -91,23 +95,3 @@
 - [R150：正确Phi同σ两个N/P–NV五次原交叉与原t十次式](results/R150-appendix-unit211-Phi-zero-corrected-same-sigma-NP-NV-crosses-and-original-t-decic.md)：唯一run46164341750，4.844514676秒/0，完整σ身份、两普通三均值迹、固定三原cofactor全部返回。C10双次82/51、t10/总97/26511项，最终三个乘子分母均1；H87整零面未删，未降公共权曲线45或宣称空性。
 
 - [R150：W/b0整个负e、零k赋值射线原q2/R6排除](results/R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md)：原b0与完整q2自行排任意λ的v(2λ−3)≤0，原系数付vT=−a/2；R6的MK²估值−7a而另一项≥−5a矛盾。k首值−1/−2、D/A*/m首值零均保，独立纸证不冒称初项程序全格单位；其余五ray仍开。
-
-- [R150：同σ二生成原值商、16个完整原minors与消元平方夹逼](results/R150-appendix-unit211-same-sigma-two-by-eight-original-value-presentation-and-sixteen-minors.md)：四条同点线性余式的真2×8乘法列完整呈示值商，28子式由4范数/6交叉/6混合生成且均返原式；J²⊂Fitt0⊂J。固定全部系数复点等价原值方程有共同σ，保D0双数；不替其他均值或推出权有限性。
-
-- [R150：W/b0十一原首项的实际返回与λ=3/2剩余中心](results/R150-appendix-unit211-W-b0-eleven-original-initials-and-lambda-three-halves-residue-center.md)：唯一run46162974839，3.326495765秒/0；完整五t估值cell及t0都由原q2乘子63k^-6返(2λ−3)²。0单位、k+2四幂未返，未关射线；只付μ=2λ−3非零且正估值的新中心，特征零λ并未被设为3/2。
-
-- [R150：完整个别奇N/P的两条直接六次范数](results/R150-appendix-unit211-general-original-odd-NP-two-direct-sextic-norms.md)：E_i=a_i+b_iσ+c_iq的完整q乘子和C_i=M a_i²−D b_i²的原(q,E_i)身份显示，无D逆/正D清除；比较旧Low的4m²D²身份，保D0非约化与同σ条件，未宣称独立范数足够。
-
-- [R267：固定原平方分母、范数平方源与同Ω列桥](results/R267-appendix-fixed-original-denominator-and-norm-square-vacuum-source.md)：由实际首偶幂和解析平方根单位构造Q*，P0=CQ*²；误差O(|s|²)及全矩身份严格。F+Ω=e+覆盖m0=0，原X(s)Ω强子列足够超不变桥，正锥还付列范数正下界；未付上界/紧性/根域包含。
-
-- [R150：正确Phi完整NV二矩范数、原两源身份与二次t头](results/R150-appendix-unit211-Phi-zero-corrected-whole-NV-two-moment-norm-and-quadratic-t-head.md)：同原q=Mσ²−D和ell²NV直接给C=(MZ0+DZ2)²−MDZ1²，无D逆/正清除。正确Phi仿射恢复付t次≤2、几何总次≤6和显示两因子t²头，保D0非约化与所有头零；不代同根充分性。
-
-- [R150：HK完整NV–Loww原范数91、精确两式商与单权至多二](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)：abd714实际8.428479614秒/0，首一逆t三维真乘法与伴随完整返纯权P，次数72/19/9、总91。已闭Δ0后的余图AΔ[t]/(NV,L)恰AΔ/(P)，t唯一、明列单权纤维≤2约化，独立尺度另计；未判权共同分量/空性。
-
-- [R150：正确Phi一轮完整Q行因子与两个真实内存边界](results/R150-appendix-unit211-Phi-zero-corrected-one-Q-row-factor-and-frozen-unimodular-memory-boundaries.md)：F实际35幺模块、21840全逆坐标及312整行Q除返回F*=−QdetM1，故F_Q双次368/205、总≤408。之后F及独立G都触1GiB/−6，G无完整轮；仅指数下界a1/b0，公共总界45不变，两门冻结。
-
-- [R150：正确Phi公共因子总次数至多45与Q精除的条件收紧](results/R150-appendix-unit211-Phi-zero-corrected-common-factor-total-degree-forty-five-and-Q-extraction-refinement.md)：非零多项式deg−deg_u对乘法可加；既有u次≤5和G总≤633/u≥593给总次、Q次≤45及纯Q内容≤40。已返回Q^a/Q^b身份后得5+min(41−a,40−b)，未返回指数取0，不预记公共曲线有无。
-
-- [R12：无零因子完整交换子仍允许本性平方曲线](results/R12-appendix-zero-divisor-free-commutant-essential-square-curve-boundary.md)：双边紧拟幂零权移的全部交换子由矩阵递推严格证明交换且无零因子；P(z)=T³+zT²与奇X²=P(s²)每参数准亲和、全J对称及γ关系齐备，X仍有无穷负Laurent项。其超不变尾不满足原全旗准亲和，不当作原Haar结论。
-
-- [R150：正确h=k权像维数至多一、8184曲线包络与相对六生成](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)：旧两个完整原N/P不可约核总次数93/88且不伴随，平坦复扩张保正则列；一般Pf首一t³再添ρ²=δ给固定权长度≤6。包络可空，不作有限点数或全局几何局部化有限性。
