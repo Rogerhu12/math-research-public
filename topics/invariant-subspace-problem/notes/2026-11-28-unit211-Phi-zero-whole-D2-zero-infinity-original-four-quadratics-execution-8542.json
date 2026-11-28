@@ -1,0 +1,295 @@
+{
+  "schema": "isp-Phi-D2-zero-original-highest-five-weight-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-zero-infinity-original-four-quadratics-8542.py",
+  "jobId": 140802461762,
+  "execution": {
+    "elapsed_seconds": 0.12066796400000257,
+    "max_child_rss_kib": 39880,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9a9868c5e67083a3bd07563d0d8d2853a8bff52a",
+        "before": "9a9868c5e67083a3bd07563d0d8d2853a8bff52a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:29:33.979111+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46088131910",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9a9868c5e67083a3bd07563d0d8d2853a8bff52a",
+    "source_exit_code": 0,
+    "source_git_blob": "321647e9cd06500e769bb0b6b8119659e4bd95fd",
+    "source_sha256": "baf684e40df5e447c6dfcb9f5eb3eef8173d28d6ae1a37e152c4475ff342b03c",
+    "stdout_bytes": 3855,
+    "stdout_sha256": "7c57c07c2c1d6d18e2b5d611d3e59071acd46db66261daee284b626187d54888",
+    "stop_reason": null
+  },
+  "actualStages": [
+    {
+      "originalNames": [
+        "Rbar",
+        "W4",
+        "Obar",
+        "N1"
+      ],
+      "curve": "Q=4*(u-1)*(u-2)",
+      "direction": "t=1",
+      "ellHalfReturned": true,
+      "MEqualsMinusTwoUMinusOneSquaredReturned": true,
+      "allFourFullOriginalDegreeDecompositionsReturned": true,
+      "originalDenominatorsOnlyPaidOnWholeCurve": true,
+      "highestForms": [
+        {
+          "numerator": {
+            "degrees": [
+              10,
+              0,
+              0,
+              0,
+              2
+            ],
+            "terms": 24,
+            "bytes": 614,
+            "sha256": "3af6706fafe4c890aa2a839045a832c33fe1caa3225d76f5d9b99b5263414b22"
+          },
+          "denominator": {
+            "degrees": [
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 5,
+            "bytes": 122,
+            "sha256": "9b8e715bb30a684a7e79b062e8dff8f4488ffbcfda3126128613b882941a68ee"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              12,
+              0,
+              0,
+              0,
+              2
+            ],
+            "terms": 30,
+            "bytes": 789,
+            "sha256": "1a1e303de5bb1be2c1570e3645d3775980c9e4feb7319b2274293d74b7df3cad"
+          },
+          "denominator": {
+            "degrees": [
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 5,
+            "bytes": 122,
+            "sha256": "9b8e715bb30a684a7e79b062e8dff8f4488ffbcfda3126128613b882941a68ee"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              13,
+              0,
+              0,
+              0,
+              2
+            ],
+            "terms": 32,
+            "bytes": 845,
+            "sha256": "ebaa5545cb96cabd6ea16c074cfb1ef68d19a25f6af982c985309acafa516f90"
+          },
+          "denominator": {
+            "degrees": [
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 7,
+            "bytes": 180,
+            "sha256": "b828b3578d97cc5775f76780a29f385fb776d064e867d0acd16990432cbf2611"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              13,
+              0,
+              0,
+              0,
+              2
+            ],
+            "terms": 32,
+            "bytes": 835,
+            "sha256": "f2280137dac8977e5f0a34aad6a1ad82c780d1b63ba12c52c9b3ea0b8112b64a"
+          },
+          "denominator": {
+            "degrees": [
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 5,
+            "bytes": 122,
+            "sha256": "9b8e715bb30a684a7e79b062e8dff8f4488ffbcfda3126128613b882941a68ee"
+          }
+        }
+      ],
+      "noOriginalQuadraticHeadOrOldHighestGaussianExecuted": true,
+      "D2InverseNeverUsed": true,
+      "wholePhiExcluded": false,
+      "stage": "new_Phi_D2_zero_whole_weight_curve_original_highest_forms",
+      "seconds": 0.07493941899999967
+    },
+    {
+      "includedOriginals": [
+        "Rbar",
+        "W4"
+      ],
+      "gcdSDegree": 0,
+      "allFourSourcePolynomialProductsReturned": true,
+      "stage": "new_original_highest_curve_four_source_gcd_step",
+      "seconds": 0.07847171199999892
+    },
+    {
+      "includedOriginals": [
+        "Rbar",
+        "W4",
+        "Obar"
+      ],
+      "gcdSDegree": 0,
+      "allFourSourcePolynomialProductsReturned": true,
+      "stage": "new_original_highest_curve_four_source_gcd_step",
+      "seconds": 0.07936002799999997
+    },
+    {
+      "includedOriginals": [
+        "Rbar",
+        "W4",
+        "Obar",
+        "N1"
+      ],
+      "gcdSDegree": 0,
+      "allFourSourcePolynomialProductsReturned": true,
+      "stage": "new_original_highest_curve_four_source_gcd_step",
+      "seconds": 0.08044826899999791
+    },
+    {
+      "identity": "C(u)=sum_i beta_i(u,s)*top2(original_i)(u,Qcurve,1,1,s)",
+      "allFourOriginalSourceCoefficientProductsReturned": true,
+      "actualClearedC": {
+        "degrees": [
+          16,
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 17,
+        "bytes": 506,
+        "sha256": "ef6bf7eaf584bd6cf4c3c5ad98ba2720e2909b170e54eb725559f22d751a44d1"
+      },
+      "removedOnlyPaidFactors": [
+        {
+          "unit": "u_minus_1",
+          "passes": 2
+        },
+        {
+          "unit": "u_minus_2_from_Q",
+          "passes": 6
+        },
+        {
+          "unit": "delta",
+          "passes": 1
+        }
+      ],
+      "retainedCompleteUSupport": {
+        "degrees": [
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 7,
+        "bytes": 182,
+        "sha256": "4c0fbc2110711d6466f801b1b18dac4a19dc98dd67d9e19f281d7036cfd976f1"
+      },
+      "factorProductReturned": true,
+      "factors": [
+        {
+          "definition": {
+            "degrees": [
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 5,
+            "bytes": 120,
+            "sha256": "99c6aea629beae631b0b9f1b113022eb548b33b1e162403e3e80565c88b0919e"
+          },
+          "multiplicity": 1
+        },
+        {
+          "definition": {
+            "degrees": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 2,
+            "bytes": 45,
+            "sha256": "e9280b10191f0bd264db452dfc19bff862a1464f70c181519b8710bfba5a4adc"
+          },
+          "multiplicity": 2
+        }
+      ],
+      "maximumDistinctExceptionalUValues": 5,
+      "entireD2ZeroHighestOriginalPointBranchExcluded": false,
+      "unpaidExceptionalUFibresRetained": true,
+      "fullOriginalAffinePointCountNotClaimed": true,
+      "wholePhiExcluded": false,
+      "stage": "new_original_highest_curve_exact_C_return_and_complete_support",
+      "seconds": 0.08183346799999924
+    },
+    {
+      "sourceSHA256": "baf684e40df5e447c6dfcb9f5eb3eef8173d28d6ae1a37e152c4475ff342b03c",
+      "necessaryOriginalDefinitionPrefixBytes": 4452,
+      "necessaryOriginalDefinitionPrefixSHA256": "ea859ab09cc447cd05f30b02d8baa4280c08cdbd40bfa45d5b42034b0cf9356e",
+      "noOldHeadGaussianP6P9NormOrFullModuleReplayed": true,
+      "noCoefficientPayloadEncodedOrSplitSaved": true,
+      "peakRSSKiB": 39488,
+      "wholePhiExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "new_original_Phi_D2_zero_direction_source_finished",
+      "seconds": 0.0820094840000003
+    }
+  ],
+  "scope": {
+    "atMostDistinctFiniteWeightPairs": 5,
+    "allFiveWholeSFibresRetained": true,
+    "notAnAffinePointCount": true,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false
+  }
+}

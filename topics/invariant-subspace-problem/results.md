@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [R150：W的完整15×2原表示及两条本原λ六次式](results/R150-appendix-unit211-W-H198-complement-exact-fifteen-two-columns-and-two-primitive-sextics.md)：ecf383真14.074930164秒/0，全部同点NS/PS关系及两乘子内容取消返；头和整H198零留。
+
+- [R150：Phi整D2=0最高方向的五权支持](results/R150-appendix-unit211-Phi-zero-highest-D2-zero-five-weight-support.md)：原F6迫ell半/t1，整Q曲线上四原二次式准确C16身份及QQ分解付≤5权对；全部s纤维继续。
+
 - [R12：原移位解析根在每条完整射线上的固定来源费用](results/R12-appendix-actual-shifted-roots-fixed-source-superpolynomial-ray-cost.md)：四次幂衰减给零阶整函数及完整2π PL；全实际非零旗子商/任q≥2的每个非零固定源和固定左右正则器均超任意多项式界，严格limsup，保稀疏/随动/一般闭根。
 
 - [R150：整Phi首头上的原NV/F6最高行、七次滤过关系与21生成表示](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)：999ac首次完整返回Ce0，严格原lift付C*补图首一λ21与≤21生成；保全部C*零曲线及原个别N/P，未宣整Phi排空。

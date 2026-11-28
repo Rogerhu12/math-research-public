@@ -1,0 +1,456 @@
+{
+  "schema": "isp-W-H198-exact-fifteen-two-column-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "runId": 46087811145,
+  "jobId": 140801426764,
+  "driver": {
+    "elapsed_seconds": 14.074930164000008,
+    "max_child_rss_kib": 93644,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "70b78e5c3733fd3eb7ef0bb1ac1b836146a4f149",
+        "before": "50ee536d1e9cdac9a4760e8a853033eb9a342db8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:25:57.422877+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46087811145",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "50ee536d1e9cdac9a4760e8a853033eb9a342db8",
+    "source_exit_code": 0,
+    "source_git_blob": "ecf383adc2b84179c1cad2cd9080f516719b4333",
+    "source_sha256": "fda30f304600080de4b07193b1e1e378f3794b782174d331ab5b076fc2bc742d",
+    "stdout_bytes": 17625,
+    "stdout_sha256": "04dac2de0fa913719f9fe0bb73b72f06a9ea013a254be6e012b3022b03a85c4a",
+    "stop_reason": null
+  },
+  "sourceFinalSeconds": 14.028170757000012,
+  "exactPresentation": {
+    "ring": "A_W[H198^-1][lambda]",
+    "originalIdeal": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS"
+    ],
+    "formalRows": 15,
+    "originalNonzeroThreeColumnRows": 15,
+    "zeroTwoColumnRow": "N1",
+    "allThreeCoefficientIdentitiesPerRowReturned": true,
+    "allOriginalNSPSAndTheirFourProductsReturned": true,
+    "actualOriginalFifteenRowsSeconds": 7.651710527,
+    "actualCompleteTwoColumnPresentationSeconds": 12.053088638,
+    "sourceComposition": "scale*(oldtag-kappa*ntag), from actual original oldtag/ntag products and all three basis-change products",
+    "expandedFinalSixVariableTraceClaimed": false
+  },
+  "actualRowDegreeProfiles": [
+    {
+      "label": "N1",
+      "degrees": [
+        null,
+        null
+      ],
+      "terms": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "same_point_commutator_1",
+      "degrees": [
+        [
+          29,
+          35,
+          4
+        ],
+        [
+          25,
+          34,
+          3
+        ]
+      ],
+      "terms": [
+        3259,
+        2267
+      ]
+    },
+    {
+      "label": "same_point_commutator_2",
+      "degrees": [
+        [
+          30,
+          36,
+          4
+        ],
+        [
+          26,
+          35,
+          3
+        ]
+      ],
+      "terms": [
+        3401,
+        2375
+      ]
+    },
+    {
+      "label": "N1*x",
+      "degrees": [
+        [
+          33,
+          42,
+          4
+        ],
+        [
+          29,
+          41,
+          3
+        ]
+      ],
+      "terms": [
+        4369,
+        3095
+      ]
+    },
+    {
+      "label": "N1*y",
+      "degrees": [
+        [
+          30,
+          37,
+          4
+        ],
+        [
+          26,
+          36,
+          3
+        ]
+      ],
+      "terms": [
+        3451,
+        2418
+      ]
+    },
+    {
+      "label": "same_point_commutator_1*x",
+      "degrees": [
+        [
+          37,
+          47,
+          5
+        ],
+        [
+          33,
+          46,
+          4
+        ]
+      ],
+      "terms": [
+        6515,
+        4869
+      ]
+    },
+    {
+      "label": "same_point_commutator_1*y",
+      "degrees": [
+        [
+          35,
+          43,
+          5
+        ],
+        [
+          31,
+          42,
+          4
+        ]
+      ],
+      "terms": [
+        5581,
+        4143
+      ]
+    },
+    {
+      "label": "same_point_commutator_2*x",
+      "degrees": [
+        [
+          38,
+          48,
+          5
+        ],
+        [
+          34,
+          47,
+          4
+        ]
+      ],
+      "terms": [
+        6731,
+        5031
+      ]
+    },
+    {
+      "label": "same_point_commutator_2*y",
+      "degrees": [
+        [
+          35,
+          44,
+          5
+        ],
+        [
+          31,
+          43,
+          4
+        ]
+      ],
+      "terms": [
+        5793,
+        4303
+      ]
+    },
+    {
+      "label": "NS",
+      "degrees": [
+        [
+          37,
+          45,
+          4
+        ],
+        [
+          33,
+          44,
+          3
+        ]
+      ],
+      "terms": [
+        5396,
+        3870
+      ]
+    },
+    {
+      "label": "PS",
+      "degrees": [
+        [
+          41,
+          49,
+          4
+        ],
+        [
+          37,
+          48,
+          3
+        ]
+      ],
+      "terms": [
+        6483,
+        4673
+      ]
+    },
+    {
+      "label": "NS*x",
+      "degrees": [
+        [
+          45,
+          57,
+          5
+        ],
+        [
+          41,
+          56,
+          4
+        ]
+      ],
+      "terms": [
+        9729,
+        7415
+      ]
+    },
+    {
+      "label": "NS*y",
+      "degrees": [
+        [
+          43,
+          53,
+          5
+        ],
+        [
+          39,
+          52,
+          4
+        ]
+      ],
+      "terms": [
+        8594,
+        6519
+      ]
+    },
+    {
+      "label": "PS*x",
+      "degrees": [
+        [
+          49,
+          61,
+          5
+        ],
+        [
+          45,
+          60,
+          4
+        ]
+      ],
+      "terms": [
+        11384,
+        8720
+      ]
+    },
+    {
+      "label": "PS*y",
+      "degrees": [
+        [
+          46,
+          57,
+          5
+        ],
+        [
+          42,
+          56,
+          4
+        ]
+      ],
+      "terms": [
+        10151,
+        7744
+      ]
+    }
+  ],
+  "commonFactorOfBothActualMultipliers": {
+    "degrees": [
+      8,
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    "totalDegree": 16,
+    "terms": 69,
+    "bytes": 1925,
+    "sha256": "0c675b3d0f732e60114a3a1bab0807f59d525e0df253fe0a800e62a56a27270b"
+  },
+  "exactCofactorCancellation": {
+    "bothMultiplierDivisionProducts": true,
+    "bothColumnProducts": true,
+    "commonFactorZeroFibresPreserved": true
+  },
+  "twoNecessaryScalars": [
+    {
+      "name": "two_N1_products",
+      "labels": [
+        "N1*x",
+        "N1*y"
+      ],
+      "definition": {
+        "degrees": [
+          30,
+          40,
+          0,
+          0,
+          6,
+          0
+        ],
+        "totalDegree": 58,
+        "terms": 5548,
+        "bytes": 218781,
+        "sha256": "a3ebccf7766f472aa6b0e80aee115aed541d5d09d4c89e619016c8507c16c1a9"
+      },
+      "paidLabelsAndCounts": [
+        [
+          "e",
+          2
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "bc",
+          1
+        ],
+        [
+          "old_H",
+          1
+        ]
+      ],
+      "H198ComplementGcdRemovals": 1,
+      "bothFinalColumnProductsReturned": true,
+      "lambdaContent": "nonzero QQ constant",
+      "lambdaContentProductReturned": true
+    },
+    {
+      "name": "both_original_NS_PS",
+      "labels": [
+        "NS",
+        "PS"
+      ],
+      "definition": {
+        "degrees": [
+          42,
+          54,
+          0,
+          0,
+          6,
+          0
+        ],
+        "totalDegree": 78,
+        "terms": 10570,
+        "bytes": 484978,
+        "sha256": "6d76f7db1dd1d311fb320fae4e14aeb3641e74ccbe30a1370d1da80ce70f1038"
+      },
+      "paidLabelsAndCounts": [
+        [
+          "e",
+          3
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "bc",
+          1
+        ],
+        [
+          "old_H",
+          2
+        ]
+      ],
+      "H198ComplementGcdRemovals": 1,
+      "bothFinalColumnProductsReturned": true,
+      "lambdaContent": "nonzero QQ constant",
+      "lambdaContentProductReturned": true
+    }
+  ],
+  "limits": {
+    "H198ZeroExcluded": false,
+    "lambdaLeadingCoefficientsPaid": false,
+    "originalI6Only": true,
+    "fullIndividualValueSufficiency": false,
+    "resultantOfNewSexticsComputed": false,
+    "oldGatesReexecuted": false,
+    "largeCoefficientsSavedOrEncoded": false,
+    "ordinaryISP": false
+  }
+}
