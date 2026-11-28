@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-bounded-actual-quotient.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-torsion-grid-models.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -168,11 +168,11 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 ## O4：原 Abel 像与真正高度
 
-[R1182–86](results.md)原C/F₀/β的有理超平面几何半稳定，FP首项v_q(a_m)<B、全尾≥−v_q(r)，含坏q=p。预定N=B+v_q(m)、log截2N决定本原hλ/e_m；原height2闭细盘/μ3下降及形式Néron给t=b−1=p³w与rU_r∈Λ。深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。
-
-[R1185–86](results.md)同c0/c1由可计算H_br(Dp)控Arakelov高度，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3；K与E_L有实际ample/倍二证书。原implicit给D^(2r−1)分母、(64A²)^r大小，首jet高度≤logSΩ+(2m−1)logD+3m logp+m log(64A²)；m≤M_X=2(g−n)+1故事前定B_*、N_*及深盘。真实模型/格/点高度仍保，完整公式沿原文与逐字前态。
+[R1182–86](results.md)原半秩C/F₀/β的FP首项v_q(a_m)<B及全尾≥−v_q(r)，含坏q=p。原t=b−1=p³w、rU_r∈Λ；m≤M_X=2(g−n)+1，事前B_*、N_*=B_*+floor(log_p M_X)及log截2N_*决定本原hλ/e_m。深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原H_br、实际M/K/E_L及implicit D^(2r−1)/(64A²)^r系数界见原文与逐字前态，所有模型/商/Néron尺度保留。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。
 
 [R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
+
+[R1188](results/R1188-original-torsion-grid-models-and-balanced-Lie-form.md)同一原J内的有限挠点网格检测次数Δ方程，Plücker本原整坐标给实际B/商图/短端态图的有限系数界；完整H0嵌入与有限后处理付原全实F_B和平衡Ω_B。保β_B=q*†β*、同MW线，实际复合给dΛ_sat⊂diΛ_B⊂Λ_sat且d≤(9R²)^(2n)，包括坏p。仅余原J坐标/局部格成本及候选深度比较，不把稳定hF当Q-twist高度。
 
 [R1189](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)双中心完整惯性在原环面取逆，固定clutch至多二挠，故全部p5mod6的2(p−1)D0在原扩域F^m。两次[p]到模pR零，再由光滑Weil restriction的实际norm下降，M0=p²(p−1)(p²−1)将同D0及每个实际商像送原Qp Néron形式核。R1182可取M=p^(s+1)(p−1)(p²−1)，s_exp/δL及真实格仍保。
 
