@@ -372,3 +372,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:15 UTC｜Astra-held10-7c4e33ee-20261128：保全原accepted-Newton完整节点checkpoint及真实自有进程/cgroup/rlimit观察源；旧q012后继准备历史未倒改，新R87实际运行另逐条登记。原方程/全部变量/线搜索/RMS/metric门不变；私库本轮已实际pull到6c4bb67a…，双README无diff、QUEUE仍本会话进行中。
 
 - 2026-11-28 16:15 UTC｜Astra-held10-7c4e33ee-20261128：新R87 profile λ0/M8真全门exit0，580节点、RMS9.752325126e−7、metric2.159654640e−8、BC1.454e−16、mean512；δ=.06809573111069138，run601f7af1…/raw9ffcdaba…。原BackwardLine完整25状态初猜与实际输入源齐全，未称λ1或同g精化。
+
+- 2026-11-28 16:15 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.002/M8的RMS/BC过而metric2.674362813e−6>1e−6，真实未接受；完整raw仅供原升模初猜，不把谱门失败改成数学排除或λ二分。
