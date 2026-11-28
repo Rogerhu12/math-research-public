@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `661a9c34dabaa980e13b560e97c8b17a9d2927d4`（2026-11-28 18:58 UTC）。
+- 最近实际pull后双README已读锚 `14e342caef087d78a31aea84f0b0a20d20d459c3`（2026-11-28 19:08 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -13,9 +13,9 @@
 
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)：q=warp=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50，首升速0→9/20单缓坡。原线性根δ=.06809451565377872/r=1.1349085942296453、calibration/root-profile已按原SHA恢复，不重搜根或重走旧高k排除支。
 
-**当前真正接受锚：[λ=.064/M24](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)**，1134节点、RMS1.9779458545532175e−7、metric1.284368451621618e−7、physicalBC2.6538521277607947e−19、mean1168、δ.06809746571178646；4全步/零拒、314.883s/664340KiB。全部原门及全源/raw/physical/hash已实际核过，run696a79d114b835ec8bc4eb8a1a3acd5a166fe5bd39003c53e0d89a36e8ff6449。out当前连续目录attempt-000；必要恢复，非新λ前沿。前驱[真.032](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)原样保留。
+**当前真正接受锚：[λ=.128/M24](notes/2026-11-28-design-single-gentle-r87-strict-lambda128-mapped-input-recovery-actual.md)**，1185点/RMS1.9949890856595675e−7/metric6.362597622681736e−7/physicalBC2.0279039207175011e−19/mean1168/δ.06809994455035266。8全步/零拒、502.007s/699648KiB；全部原门及全来源/raw/physical/hash实核。run683d916f31de1406defc42fd7630efdc127aaf093e529ed7ab8b2030c1ec7d9c，out `held10-design-work/R87-strict-mapped-material-continuation-20261128/attempt-001`。已恢复历史前沿，非新λ进展；[.064](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)/[.032](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)前驱保留。
 
-**当前唯一活算：TTY14227，18:51:16.998 UTC**，out `held10-design-work/R87-strict-mapped-material-continuation-20261128`，command SHA54188afc…。已真返.064，当前attempt001 λ.128；继.256/.512/.75/1；.256至少M32，完整跨模双源割线，tol2e−7/全部原门、全CSR/QR映射/RHS8/每mesh实际预算/正式stop保留。
+**当前执行：** 14227已真实join tool/owner/child1、剩余0；.128接受不变，.256 BVP未启。两源割线旧helper无条件调用仅允left.M<right.M的门，真.064/.128皆M24触发入口ValueError。正在独立v2修复同M入口并重用已导出M32 port，直接接.256/.512/.75/1；无数学排除/λ二分/旧接受场重算。全CSR/QR映射/RHS8/tol2e−7、全部原门、完整双源升模割线保留。
 [.032工程终态与完整映射源](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)：原73924 child−9且真join，原因未知；已保存5全步的完整1051×73/p24 checkpoint904db0f9…并由65581原样续算。真join后才清自有映射；未λ二分、未重算5步、未改方程/门。
 
 旧视图最高真接受λ=.128/M24（run7f8bfa03…，metric6.3560e−7、mean1168）raw已不可读；当时λ=.256/M24/M32/M40的metric分别8.8414e−5/1.28584e−6/1.24844e−6未门，M40有952点/RMS9.69144e−7。旧M48无接受、89083真exit1原因未知。[M40小回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒旧JSON逐字恢复；这些只是历史，不用旧场替代当前锚。

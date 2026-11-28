@@ -533,3 +533,7 @@ R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/1
 ## 2026-11-28 — own fixed QR 完整三阶活动矩来源接线
 
 [独立三阶段入口](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)消费自身accepted_fixed/fullg/final-H，保原全部prefix/cut/mean/lift、durable逐叶积分、完整尾/deep/双盘flux及exact Fraction合并。ell按实际binary64半长准确加倍，相位由真whole geometry取4/5；Re活动区间任一符号排零才可用原R67，含零真实保留。未改帽/来源标签/既有数学main；源码compile、三help、两个生成main编译真0，无正输入/新矩值/全等结论。
+
+## 2026-11-28 — 严格 λ=.128/M24 已恢复历史接受前沿
+
+[真实回执](notes/2026-11-28-design-single-gentle-r87-strict-lambda128-mapped-input-recovery-actual.md)：1185点/RMS1.9949890856595675e−7/metric6.362597622681736e−7/physicalBC2.0279039207175011e−19/mean1168/δ.06809994455035266；八全步/零拒/三完整QR，502.007s、699648KiB。原accepted_original完整源/raw/physical/参数/门全部实际核过，run683d916f…、raw18d8b852…、physicalfc41587a…。仅必要恢复历史前沿，不冒新λ或完整非线性DN。控制器随后在.256 BVP启动前遇同M两源进入旧严格跨M helper的ValueError，14227真join child1/剩余0；正在窄修复并用现真.064/.128及已导出M32继续，无数学失败判断。
