@@ -626,3 +626,10 @@
 - 所有对角单位保原κ/ρ/λ及primitive阶乘；低极部、全纯自由项、中心非齐次与其它尾返回直到完整投影才处理。root纸核全证明，o2核全有限角，无数学程序；不把一维核标为CM算术因子，继续同β/指定C的全图Serre配对。
 - R1196已真实推5021f7eb33fbaa30e490e85a66155ed10efa9b82，run46156686406/job141014782047；本次H/open压缩前逐字归档before-highest-complete-flag，全部来源/边界保全。
 - 本push规则：公开Actions真实pull至 cb370d0ddcbcad946a8c64f8283cdc345bb147b2（2026-11-28T15:21:05.527501+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1198：原ordinary商的target参数全部a≤m有限jet经nilpotent-PD晶体、真实framing与同target KS等变锁定；原G²有限log由一个ODE和Lagrange反演给出，opposite变化保全部低槽，统一权度界≤2a−1。
+- 同b0原CM支第五/七槽−13θ₀⁵/40、−149θ₀⁷/1680为单位，gap类尺度完整保留；最高槽写成原Q_p有限系数但未宣unit。root亲读Messing V1.6/1.10/2.1并核R1021的target Frobenius方向/W系数，o2纸核两数/反演/次数界，无数学程序。
+- R1197已真实推e52f409b02bedcb54d9d8ea744002a618edc2265，run46159375565/job141023019493。继续实际regular消去、全图Serre配对、同β/指定C，不将raw节点单位替成完成标准。
+- 本push规则：公开Actions真实pull至 aa1a38971ff461e54428b9898eadf4e9d09e5689（2026-11-28T15:24:28.623412+00:00），两README diff为空；本次真实git推送，主目标OPEN。

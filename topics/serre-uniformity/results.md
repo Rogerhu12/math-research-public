@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原普通商全部周期jet与有限log输入（已证明）**：[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
+
 - **原最高packet的完整CM系数旗标（已证明）**：[R1197](results/R1197-original-highest-packet-complete-CM-coefficient-flag.md)原最高负packet的全部CM轮廓按从高到低准确等价于T_L(1)…T_L^(2g−2)(1)旗标，各对角为显示原单位；完整Dickson过滤付每层整角像一维，故低极部/全纯及高中心返回均处理。轮廓秩2g−1，核恰T=c(b³−1)^(2g−1)一维；未标为CM算术线，指定C/同β全图列及深盘仍开。
 
 - **原最高型整投影后的有限Picard对数（已证明）**：[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同原P=(p−1)D0先整E_m投影后深m²−1；模π^(m²+1)的首列恰由原相对Picard核的m次Čech有限log给出，分母全素于p。完整非约化Frob相容消去该packet首层p-return；同q_C的惯性交织保原β。ψ^a全部特殊尾gap已定，但低次regular消去/全节点仍须运输；指定C上与T_L(1)的楔未付。
