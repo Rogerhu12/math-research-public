@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：真实整数图迹、均方采样和单条稠密边界链](results/R12-appendix-actual-walsh-graph-domain-integer-traces-sampling-and-single-boundary-chain.md)：同E图范数中精确近邻两块/远尾费用使整数迹分离并恢复原H范数；实际C_E伴随广义核维n且并稠。强高位交换有界像不能进入DomR，原不变闭图的真实域包含亦被排，保任意不同域开放。
+
 - [R12：原Haar同一稳定域的两个闭因子](results/R12-appendix-actual-haar-same-stable-domain-two-closed-factors.md)：全Walsh分支真实小首行/末列及X入域支付有界伴随来源；同DomR上S=T U、TS=C|DomR、SV=T，S单射/T核Ω且同稠值，与R差迹类。全域乘积闭包等C，非交换中间V不能删。
 
 - [R150：正确h=k、Δ0图完整Loww纤维与8664规范点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Loww-fibers-8664-cover.md)：每个(λ,u,Q)上原全Loww对z至多三次，常数−2P02λ²(2λ−1)²/B非零，保全部首项退化；1444×3×2给完整有序不同点≤8664。已付z非零还给倒变量首一三次必要环境；不重冻结z结式。
