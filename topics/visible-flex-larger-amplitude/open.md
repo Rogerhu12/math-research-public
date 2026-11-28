@@ -139,3 +139,5 @@ R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770
 [49/R774已闭完整结果及R784–786全部原证明](results/INDEX-after-R770.md)：所有原报告、点/源参/预算/真pull和范围未减；旧导航完整保[7e975前态](https://github.com/Rogerhu12/math-research-public/blob/7e9758e066a242d9d362cac388969c9941d68017/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
 [R780](notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)：新g完整曲帽/末领/中央准确，四硬中央/平领迹被直母线延拓排精确。23源/四原PID各三层7+6相完整预算照原发；改变真迹的新方向继续，实际待返。
+
+[53/R790](notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)：27源保44完整原22源/五粗两族各4/8/16共11stage及双全末网；同12物理jet加4逆坐标、原精度/全恢复，真实加速和点待返；44/45不动。
