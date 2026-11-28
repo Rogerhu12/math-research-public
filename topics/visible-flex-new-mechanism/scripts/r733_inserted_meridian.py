@@ -32,7 +32,9 @@ def step_jet(s):
 class InsertedMeridian:
     """Right native material x starts at .80. The left copy is reflected."""
     def __init__(self, order=48):
-        if os.environ.get("GITHUB_ACTIONS") != "true":
+        if (os.environ.get("GITHUB_ACTIONS") != "true"
+                or os.environ.get("GITHUB_REPOSITORY", "").lower() != "rogerhu12/math-research-public"
+                or not os.environ.get("GITHUB_RUN_ID", "").isdigit()):
             raise RuntimeError("public Actions only")
         if int(order) != order or not 32 <= order <= 96:
             raise ValueError("integer Gauss order in [32,96] required")
