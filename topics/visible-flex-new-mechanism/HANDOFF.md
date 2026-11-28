@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **a689c5c9d352429649d3a9d75d3c86f9dfcda0f4**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **b50a5919079a0ade62cb0fbcca6669b852345197**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -28,7 +28,7 @@ R648/R650/R649/R653只消费同场全尾三jet、离解形算子和真实C²接�
 
 全部原盒/18块576微包/全正势/全历史保留；ODE/ruling/history1e−7、十端1e−8不降。根后period/十三规范/frame/闭pose/C²/宏观仍欠。归一merit不是根。
 
-[R63259/R63671](notes/2026-11-28-r632-59-paid-height-and-r636-71-inward-velocity.md)旧费/旧失败全留。R632 run46138644039已完1374.315732529秒/49新接受至e1404779、总108，旧safe方向兑现且0拒/域/恢复；正在接实际末态。R636 run46138644055续真υ内向全J方向；源680域拒原因/无pending/全部物理锚与隐式导数见note，不重旧方向。
+[R63259/R63671](notes/2026-11-28-r632-59-paid-height-and-r636-71-inward-velocity.md)旧费/旧失败全留。[R632真108](notes/2026-11-28-r632-real108-early-interior-height.md)run46138644039已完1374.315732529秒/49新接受e1404779，0拒/域/恢复；后继保trust2/λ1e−14及全物理锚，只提前高度内向模型至1e−4，旧49safe比例/细读不重做。R636 run46138644055续真υ内向全J方向；源680域拒原因/无pending/全部物理锚与隐式导数见note，不重旧方向。
 
 [R641实际96](notes/2026-11-28-r641-real96-fixed-weight-physical-continuation.md)run46136366510新1976.651665898秒/48接受405263e8，Ar−.1460593817/ruling1.2983707611e14；同物理细读已付仍未根。后继source31f57b0f保原w=1.291923405522812165913821、trust2/λ1e−14、真L/α/八中心/三规范全算子，变q才付新fine；新96步预算6000秒。
 
