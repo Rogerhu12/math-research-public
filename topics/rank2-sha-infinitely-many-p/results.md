@@ -19,6 +19,8 @@ Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交�
 
 ## 当前新增结论
 
+- [R1055附录：五伙伴与同一完整前缀](results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)：R1055附录把E3969实际Φ126写成同一A24·H102，付原五伙伴全式、全部有限极及两条真实乘积关系。charge/Gaussian完全相消后，其完整canonical行是原S/T/V/t唯一常数一平方根的Newton全加权行；整性只按R1051原物理/PD前缀和全部carry消费。同一个B_E与第四伙伴关系同时相容，不增加自由高轴、乘积零条件或主预算收益。
+
 - [R1053：原B12的完整canonical读者与三十九支返回](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)：原390两来源的B12商及全部324词准确给E3969的degree378必要首行；二挠Miller、CM有理比及全部零极补偿均保。完整四次Cartier和39支trace读同一首行；中间theta carrier仍为三个rank13/degree126稳定项，未变成旧L10。
 
 - [R1054：原p²剔除来源与精确导子角色块](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)：真实W_p=p^-4(g2²)*w0、bad源、全部raised张量及conductor p²周期已付；完整p⁴矩阵保混合相位和体积。新增§8严格分解为p^-2旧球线及全部exact-p²逆角色对，mixed旧新块为零，有限每条新块非零；全局theta投影仍可能消零。原完整flat和因R1052只余新块，实际Q平均与CM图/canonical的比较仍开。

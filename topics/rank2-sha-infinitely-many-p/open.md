@@ -71,6 +71,10 @@ R1040 的原模型/全 HJN 平均、\(\Phi_{126}/\Xi_0\)、G126/\(\Xi_1\) 和 \(
 
 [原完整 unitary 字](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)的全部有限来源、逆Gram、两norm3150/150、六sigma、\(p^{1-n}\) 损、mixed cut、wild与补域均保。原§16已给真正球面 Hecke 反例：完整不读K边际恒零，而同一K/Y读数严格非零；这排“完整Y边际加该球面Hecke就迫K/Y零”。不重算该球面和。下一须真正读K的同解内关系、完整5-old canonical/reference 系数和5-new/p-new补项。
 
+R1055附录现付同一个 \(H_{102}\) 与原四伙伴的全部有理关系：
+\(\Phi_{126}^2S^3=\mathscr R\,T^4V\)、\(\Phi_{126}S=\mathscr Q\,A_{24}U\)。
+全部有限极、charge、Gaussian和carry保持。实际 E3969 必要零行严格是这个同源唯一平方根的完整 Newton 加权行；下一须在原真实 Schur 行及同一个饱和修正中找到不可消约束，不能将 E 当第五自由高轴，也不由乘积推出新零条件。
+
 ## O几何：原54图的全局 normal function 与有权 Manin
 
 原54/27图、η/Cor、最高λ、负9-Weil、两cover及Prym全保。R1039全Jac \(F^2=-q\)、R1041无权 \(q+1\)/半交不付最高加权影子。R1043需原三个完整J全零才给原T_a全p整除；canonical坏尚不迫此条件。Fr−unit核只有p个除点，不可改为全p²。
@@ -86,7 +90,7 @@ R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
 
 [v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新00:17:25UTC为in_progress。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新00:36UTC为in_progress；00:37消费的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
 
 旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
 

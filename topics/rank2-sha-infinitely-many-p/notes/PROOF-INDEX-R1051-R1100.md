@@ -99,3 +99,8 @@
 ## R1057 — 原Manin二挠Legendre与Wilson完整边界
 
 [R1057完整证明](../results/R1057-original-manin-two-torsion-legendre-wilson-boundary.md)。同一规范二挠值准确返回完整Rodrigues整数卷积，Wilson中央段与短尾的等式已付；辅助q无穷非零和原17有权返回仍开，q单位倍不检测目标p饱和。此为既已发布全文的编号登记。
+
+
+### R1055附录：原E3969第五伙伴的完整返回
+
+R1055附录把E3969实际Φ126写成同一A24·H102，付原五伙伴全式、全部有限极及两条真实乘积关系。charge/Gaussian完全相消后，其完整canonical行是原S/T/V/t唯一常数一平方根的Newton全加权行；整性只按R1051原物理/PD前缀和全部carry消费。同一个B_E与第四伙伴关系同时相容，不增加自由高轴、乘积零条件或主预算收益。 [完整证明](../results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)。
