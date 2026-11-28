@@ -305,3 +305,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:25:27 UTC — 31自身初始完整几何已返，首trial只返统计
 
 31自身初始几何完整返：reachg.7631911760908718仍正，distance_plus−.09518118442527368；accepted0，首337dc只返自身统计，完整六族/K/位置与原whole身份保本轮note。未达度量/reach/连续整域标准。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`4482fcc2f767581c9b0e09ff0b086c08a204038e`无变（非pull）。
+
+## 2026-11-28 08:25:32 UTC — 27第三步真实接受，第四步仅返统计
+
+27的12d82已真正accepted3，reachg.6999403610404435/Gram.487646571786265仍不合格；86e14第四步仅自身统计，geometry/接受未知。K位置s本次有实际值；不回填旧null。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`098f03c6c714fb67f5168762286f5ef1b78f61ab`无变（非pull）。

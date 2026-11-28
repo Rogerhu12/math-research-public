@@ -1474,3 +1474,24 @@ root终端自07:21失效，实际重置后的唯一探测仍失败。此次云�
   }
 ]
 ```
+
+## 2026-11-28 08:25:32 UTC — 27第三步真实接受，第四步仅返统计
+
+真实46105138690/1，原source1547e23955e6f776336030966b6e204fadaca9d0/PID3303，drivere1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd/modelc62737af66aaf0883e262a5fb378cedd93c691b50ecd28e67f64c17182a4d187。至08:21:29Z，12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd已真正accepted，计数由2至3；其自身Phi748.4181663644251、Gram.487646571786265，reachg.6999403610404435、body−.03998705666850921、distance_plus.08419920946504256、distance_minus−3.0936337267212712、cap−.06715131470039692、height−1.041171596967292。K13.711432101911154、D_point_lower4.113210904265826，cell466/u.03376524289842403/phi1.4266021327336462/branch0/s.5750422065536231；这次s有自身实际值，不回填此前null。
+
+下一alpha1 trial86e14ec2db49733e849ff10e8bbd06e3afa6e1d6750ab27155e07d7ce836bd34在08:21:09.441064只返Phi748.4181663643479、Gram.487646571787732；自身geometry与接受未知。science未自然返，不排pure或构造13final；微小改善仍未消除正reach/distance残差。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46105138690-1.md",
+    "bytes": 45646,
+    "sha256": "607eb6ff6284407401df753ad5a2210b31dfd71a6f626acfdeb06f78c65e80ab",
+    "git_blob_sha": "73bd150e6ce6c910820824700d430e38c8b09b2a",
+    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
