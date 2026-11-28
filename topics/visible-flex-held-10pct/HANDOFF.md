@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `b8c35ee6d1fd10a4ecc558d58ba1c808fcc46299`（2026-11-28 18:35 UTC）。
+- 最近实际pull后双README已读锚 `87790970fb7996c4a3e942625d6621b7cbc38a7a`（2026-11-28 18:36 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -23,7 +23,7 @@
 
 旧FD λ0由415→765→812点；765曾接受1/8192、1/131072极小步。[旧交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)中工具81483 Ctrl-C真exit1/再次Unknown，内部child/cleanup未知，不能补造。
 [δ诊断](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)明确λ0没有V5解析δ安装。[support三jet修复](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)固定材料F/Ft/Ftt全部参数链式导数接原installer，真实微步FD污染已付；原state/δFD/RHS/门保留，低两RHS列相消限制原样记录。
-[18:08真解析support启动](notes/2026-11-28-design-r87-lambda0-analytic-support-start.md)后812→892→1049；[原RMS与1049交接](notes/2026-11-28-design-r87-zero-original-rms-and-positive-handoff.md)：812/892为5.431408116e−7/5.515271587e−7、BC1.45e−16、p逐位同。18:21:38原owner内部请求真join child−15/协议exit4/剩余活成员0，789.73s/141428KiB；最新1049×25/p8 raw384822c0…未接受。最坏格扩展精度核不支持RHS浮点相消或profile断点解释，不能推λ0无解。
+[18:08真解析support启动](notes/2026-11-28-design-r87-lambda0-analytic-support-start.md)后812→892→1049；[原RMS与1049交接](notes/2026-11-28-design-r87-zero-original-rms-and-positive-handoff.md)：812/892为5.431408116e−7/5.515271587e−7、BC1.45e−16、p逐位同。18:21:38原owner内部请求真join child−15/协议exit4/剩余活成员0，789.73s/141428KiB；最新1049×25/p8 raw384822c0…未接受。[最坏格精度窄核](notes/2026-11-28-analytic-r87-worst-cell-precision.md)不支持RHS浮点相消或profile断点解释，不能推λ0无解。
 从1049完整三块Y/全部p按原embed/lift_weights升M16，保全部节点和同λ0参考三jet；然后改目标λ=.002走正λ原完整解析Jac/CSR/QR，全门接受如上。旧accepted-source门未改、未接受lift角色不改，不能回用旧λ0初始猜。
 [正式stage-control v2](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)保真stage后nonce/outdir/scope控制、先完活BVP/同步锚；资源/信号独立工程退出不λ二分。observer v3可在原owner内显式request并实际cleanup/join，和旧未知Ctrl-C回执分开。
 
