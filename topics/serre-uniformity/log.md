@@ -811,3 +811,10 @@
 - 同原highest gap [z⁻¹]由affine函数G=X^((m−1)/2)Y完整Čech计算给Ff=−Aω/4；canonical τ=B²与真α运输给具体ambient Gram 3γ²B_s²/2·1_(t=s^p)。Π²=−p、F²=−pα²及B的k双线性、δ自伴全部区分，未将ambient perfect误作ker𝔠或实际pureLie perfect。global/root独立逐式核，root亲重读R1036及R1200原来源；无数学程序。
 - R1194 §9.12已真实推13710fc81db576296bc4e5091149cd3672dc07eb；19:57:45UTC真实pull读0afc1812edd26aac51cd78e2ea2ce4202fd8dc4d，两README diff空。o2后到独核DA.9–10/一般j外边PASS：balanced参数、共轭有限算子、低端及p²×p⁻¹均准确；不额外扩大generic-K Whipple审计范围。
 - 本push规则：本地真实pull至 f676d43154b59c5ac2b89a90cdfde1289b67ca22（2026-11-28T20:00:39Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1213：从给定actual正deck最高Ω的整个首中心S=bP(B)出发，保全纯A方向；相同S消πdb/u后才用高权差证明lift独立。原全SS normal/finite Picard与E_m的p-return消去均不依deck；三次对称现在保λ₀，少一次lambda分子恰抵S多一次，RC总界不变。
+- good CM E_(S,ξ)=ξE_S，真实phase再乘ξ，analyticΣξ²Lξ=3L₀、staticΣaξξ²=3；包括6/t极部、所有mixed-normal及两个node接口，得V⁺=−8·2^mν e_n/A1。root原推/global全篇独核，纸面无程序。正D代数同构未冒付actual返回A系数；正pureLie额外方向继续。
+- R1212已真实推78e4083c67efc0e647375e88db2c4992a6db200f，20:00:39UTC真实pull读f676d43154b59c5ac2b89a90cdfde1289b67ca22，两README diff空。
+- 本push规则：本地真实pull至 9f3b92986946cb92f4101bdcb720fede209556b9（2026-11-28T20:04:55Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。

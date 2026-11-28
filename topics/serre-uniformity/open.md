@@ -124,6 +124,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1212](results/R1212-original-arithmetic-quadratic-twist-and-highest-Frobenius.md)两平方类ε是actual Jac的(1,−1)自同构；原Hecke满足Tℓε=(ℓ/p)εTℓ，Galois满足σε=χ_p(σ)εσ，χ_p对应Q(√−p)。完整G-multiplicity的Vm/V1真为χ_p twist并保δ、CM/nonCM；回N固定线只作有理比较。原最高gap直接Čech给Ff_h=−A_sω_h/4；τ=B²归一后α纯置换s→s^p，Π²=−p，B(f̃_s,f̃_t)=3γ²B_s²·1_(t=s^p)/2，k双线性且B(δv,w)=B(v,δw)。只付generic ambient完美Gram；ker𝔠限制及actual pure Lie/whole MW单位继续。
 
+[R1213](results/R1213-original-positive-deck-complete-log.md)给定actual正deck最高Ω，其整个首centre为S=bP(B)、degP≤n，必须保S=A的全纯db/u。相同S才使首log提升独立。完整SS三轨留下λ₀=−6/r，原RC次数界仍3p−3；E_(S,ξ)=ξE_S使CM analytic读取Σξ²Lξ=3L₀，static读取Σaξξ²=3，两部分逐项付全。得到同一完整V_m⁺(S)=−8·2^mν e_n(S)/A1。正pure rank n+1而generic底n；D:k[B]≤n→b k[B]≤n代数同构，但actual q-return目前只付modA，A系数和pureLie仍须真实来源。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。

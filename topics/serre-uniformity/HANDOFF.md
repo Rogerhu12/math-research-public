@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f676d43154b59c5ac2b89a90cdfde1289b67ca22**（2026-11-28T20:00:39Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：9f3b92986946cb92f4101bdcb720fede209556b9**（2026-11-28T20:04:55Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 真实部分clone与各次pull/readme/旧提交恢复沿log及逐字归档。数学程序仅本公开仓库Actions；本地/V8只作文本、git、metadata。新workflow已按用户授权CLI发布，既有publisher路径边界未改。root管main/H/open/index/log；子研究只candidate。新派代理按根规则16用gpt-6.2-astra/ultra。每条结论即推，非快进立即pull --rebase再推至成功。
 
@@ -49,6 +49,8 @@ H<10KB、open<30KB、各MD<100KB、topic<200MB；不存可重算raw/artifact/Rel
 [R1211](results/R1211-original-whole-highest-character-projector-integrality.md)q整性扩到全部最高σ权m²的Γ_all。新增centre h1·db/u在SS产生normal m、pole m的unit，higher h只低pole；高PS同次数界排除。故Γ_all=qΓ_all⊕(1−q)Γ_all，正deck πdb/u方向仍保。不能照搬负底单射或宣布整个R-Hodge/BT整分裂；继续原Π/Φ/极化与正例外方向。
 
 [R1212](results/R1212-original-arithmetic-quadratic-twist-and-highest-Frobenius.md)两平方类ε是actual Jac的(1,−1)自同构；原Hecke满足Tℓε=(ℓ/p)εTℓ，Galois满足σε=χ_p(σ)εσ，χ_p对应Q(√−p)。完整G-multiplicity的Vm/V1真为χ_p twist并保δ、CM/nonCM；回N固定线只作有理比较。原最高gap直接Čech给Ff_h=−A_sω_h/4；τ=B²归一后α纯置换s→s^p，Π²=−p，B(f̃_s,f̃_t)=3γ²B_s²·1_(t=s^p)/2，k双线性且B(δv,w)=B(v,δw)。只付generic ambient完美Gram；ker𝔠限制及actual pure Lie/whole MW单位继续。
+
+[R1213](results/R1213-original-positive-deck-complete-log.md)给定actual正deck最高Ω，其整个首centre为S=bP(B)、degP≤n，必须保S=A的全纯db/u。相同S才使首log提升独立。完整SS三轨留下λ₀=−6/r，原RC次数界仍3p−3；E_(S,ξ)=ξE_S使CM analytic读取Σξ²Lξ=3L₀，static读取Σaξξ²=3，两部分逐项付全。得到同一完整V_m⁺(S)=−8·2^mν e_n(S)/A1。正pure rank n+1而generic底n；D:k[B]≤n→b k[B]≤n代数同构，但actual q-return目前只付modA，A系数和pureLie仍须真实来源。
 
 ## 其它入口与禁止重做
 

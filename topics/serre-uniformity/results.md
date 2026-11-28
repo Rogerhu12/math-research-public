@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原正deck最高首中心的完整RC–CM读数（已证明，R1213）**：[R1213](results/R1213-original-positive-deck-complete-log.md)给定actual正deck最高Ω，其整个首centre为S=bP(B)、degP≤n，必须保S=A的全纯db/u。相同S才使首log提升独立。完整SS三轨留下λ₀=−6/r，原RC次数界仍3p−3；E_(S,ξ)=ξE_S使CM analytic读取Σξ²Lξ=3L₀，static读取Σaξξ²=3，两部分逐项付全。得到同一完整V_m⁺(S)=−8·2^mν e_n(S)/A1。正pure rank n+1而generic底n；D:k[B]≤n→b k[B]≤n代数同构，但actual q-return目前只付modA，A系数和pureLie仍须真实来源。
+
 - **原算术二次变换与最高尾Frobenius完整规范（已证明，R1212）**：[R1212](results/R1212-original-arithmetic-quadratic-twist-and-highest-Frobenius.md)两平方类ε是actual Jac的(1,−1)自同构；原Hecke满足Tℓε=(ℓ/p)εTℓ，Galois满足σε=χ_p(σ)εσ，χ_p对应Q(√−p)。完整G-multiplicity的Vm/V1真为χ_p twist并保δ、CM/nonCM；回N固定线只作有理比较。原最高gap直接Čech给Ff_h=−A_sω_h/4；τ=B²归一后α纯置换s→s^p，Π²=−p，B(f̃_s,f̃_t)=3γ²B_s²·1_(t=s^p)/2，k双线性且B(δv,w)=B(v,δw)。只付generic ambient完美Gram；ker𝔠限制及actual pure Lie/whole MW单位继续。
 
 - **原literal双和全部安全相邻源的完整有限运输（已证明，R1194 §9.12）**：[R1194 §9.12](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)保持同一p=6N+5的literal W_K，全部0≤j≤N准确有W_(N+j)=(-1)^j C_N/(1/2)_j·Σ_(n=0)^N(n+2/3)_j c_n Δ_+^j h_n。先Q中完整Whipple；首邻唯一unit端项与首p共振边界抵消。一般j的真实balanced Saalschütz伴随及T_j对偶付全Green式，外端两个p零×至多一p极严格在pZp。h只读到2N，j=N+1不延；这给WZ全部安全shift的同原Newton矩接口，不宣两jet非同时零。
