@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R262：原G12实际闭图达到原容差及基础数值完成](results/R262-original-G12-complete-tolerance-and-base-numerical-solution.md)（2026-11-28）：真cuff统一后全前缀+18552尾+内领+固定帽，全时U<2e−9、reach/D>.031099372、held/D>.052783098、真实下降>9.79415倍及三STL；强比例继续。
+
 - [R270：实际带全部物理修正的 HF64 后缀全域嵌入](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)（2026-11-28）：909312 个连续闭盒支付准确端口和全部材料角，径向材料钟保持该图像。
 
 - [R267：新 gap .92 真实整前缀度量与全部近点](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)（2026-11-28）：全部64物理格/真端口/上下闭环带，相对度量<5e−10、曲率<7.6、含边界reach≥5/38；新后缀点对另付。
