@@ -217,19 +217,19 @@
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/field/summary.json",
-      "bytes": 31418,
-      "sha256": "dddd39f68664819061e483aec6bb3d7c3358318f679dec60bf0650f7760b6ba5"
+      "bytes": 31420,
+      "sha256": "abc7e37c25d997e0ec4e510718de4b1e9e26be85f28b31f76abedc15ac175bab"
     },
     "complete_small_json": {
       "continuation": "The complete locked coarse field is embedded by name in a strict superset; new central directions vanish only on the actual grip and at the protected positive cap-center first jet.",
-      "elapsed_seconds": 9156.181509587,
+      "elapsed_seconds": 9221.020296934,
       "in_progress": {
-        "call": 11,
-        "cost": 0.43477583928871,
+        "call": 13,
+        "cost": 0.4164218535983866,
         "design": "legacy-developable-boundary-expanded",
         "knot_index": 8,
         "phase": 0.7853981633974483,
-        "point_sha256": "5a2f089dcc8e2d154a08f41e46504b9964a344e46e26d94703aef221b48eb11c",
+        "point_sha256": "1715e443076087e2d7da4165aec4eb677fe5c11b8f3947abb204c229f939050b",
         "stage": 7
       },
       "numpy": "2.3.5",
@@ -2149,6 +2149,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:15:06Z",
-  "observed_utc": "2026-11-28T15:47:43Z",
+  "observed_utc": "2026-11-28T15:49:48Z",
   "original_scalar_line_count": 36
 }
