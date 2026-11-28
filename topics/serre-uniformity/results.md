@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原两类CM完整全局标签与最低中央端点（已证明）**：[R1178](results/R1178-original-cubic-CM-norm-and-global-CM-endpoints.md)原cubic全点范数给q_ζ²M4=−γ3/3、q_ζ⁴M8=γ5。原half及+8δ²γ5/11全保，两CM全局labels为Gaussian(δ/4,87δ²/44)、cubic(2δ/9,160δ²/99)。完整fibre=[x,y]Θ，实际端点(rx,sy,zxy)含全部坏支；最低q²Z4由两个高中心及该端点准确读出，cubic此投影确定整个Z4。全部p>37，不用Ccyc或β非零；原whole盘/全局排除继续。
+
 - **原syntomic到正向Frobenius的一次符号字典（已证明，纠错）**：[R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)原正Kummer/左扭曲/d+Ω下，syntomic常数S的物理Frob是−S，中心仍b(S,S)−H；c=η，scalar为H(−A,−B,AB−β)。高Hurwitz本值不改，全部双积/Q/corr不变；混用实际T=s时最低项为−λ∞S_Xs。R1173物理W A=D不变，synt W S=−D。旧文顶部已更正，不翻原H0系数或独立r/s。
 
 - **原Gaussian中间矩的全素数准确非零判据（已证明）**：[R1179](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原全点Gaussian CM范数给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；真实ray norm/全嵌入/根单位核保全。全部p>37，J_p零当且仅当p|Bp−3，八次中槽零当且仅当p|Bp−5；实际remaining good支中H_p0强迫heat二阶单位。不能替原low c2或删corr，原joint继续。

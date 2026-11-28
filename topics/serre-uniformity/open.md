@@ -70,6 +70,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保在原文及[本次前态](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)。按R1177称S=R_V(yv)，实际AΦ=−S；H=R_Z(yh−b(yv,R)+b(φR,S))，中心Z=b(S,S)−H。高系数本值、滤过gauge/唯一Hodge截面不改；原27terms、同a Cor、未平滑及rs h−zab的实际非零仍继续。
 
+[R1178](results/R1178-original-cubic-CM-norm-and-global-CM-endpoints.md)原cubic全点范数给q_ζ²M4=−γ3/3、q_ζ⁴M8=γ5。原half及+8δ²γ5/11全保，两CM全局labels为Gaussian(δ/4,87δ²/44)、cubic(2δ/9,160δ²/99)。完整fibre=[x,y]Θ，实际端点(rx,sy,zxy)含全部坏支；最低q²Z4由两个高中心及该端点准确读出，cubic此投影确定整个Z4。全部p>37，不用Ccyc或β非零；原whole盘/全局排除继续。
+
 ### 原完整 47：已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；同源整比较已由R1163–66给出，按实际normal与中央gauge继续读值。

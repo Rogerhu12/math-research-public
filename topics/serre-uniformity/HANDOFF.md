@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：a9fcae375ecd687e027a1823b6a8b1286082cc42**（2026-11-28 19:00 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 18:39 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：a1a22a9a525a003e11e00be6529bf0e8555a34db**（2026-11-28 19:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 18:39 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 18:39:21 Asia/Taipei，Actions run46136174028/job140951870303，blob:none浅clone后真实pull --rebase至271101c9且与origin/main相同；两README diff空、全文hash已核，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤19:29、pull≤19:39。本地18:38仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -35,6 +35,8 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 [R1175–76](results.md)原最低residue锁Tate差、log H0由unit Higgs消失，连接+pureΦ唯一给全部43 Frob；全几何整格给vΦ≥−14/vΦ⁻¹≥0，KT极阶D(m)=2pm+6(p+1)。R1175有限树必终止；R1176给定pure到n+28位，已知整δ1及三cusp正则限制42未知在poly≤6/仅1有极的有限空间，原ODE/descent模p满列秩，一次modp^n解唯一。pure由明确−1 fibre矩阵及独立算法取得；保所有σ/cross/λ∞/Taylor carry，尚未数值执行，非零/global减法/whole盘继续。
 
 [R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)原正Kummer/左扭曲/d+Ω下，syntomic常数S的物理Frob是−S，中心仍b(S,S)−H；c=η，scalar为H(−A,−B,AB−β)。高Hurwitz本值不改，全部双积/Q/corr不变；混用实际T=s时最低项为−λ∞S_Xs。R1173物理W A=D不变，synt W S=−D。旧文顶部已更正，不翻原H0系数或独立r/s。
+
+[R1178](results/R1178-original-cubic-CM-norm-and-global-CM-endpoints.md)原cubic全点范数给q_ζ²M4=−γ3/3、q_ζ⁴M8=γ5。原half及+8δ²γ5/11全保，两CM全局labels为Gaussian(δ/4,87δ²/44)、cubic(2δ/9,160δ²/99)。完整fibre=[x,y]Θ，实际端点(rx,sy,zxy)含全部坏支；最低q²Z4由两个高中心及该端点准确读出，cubic此投影确定整个Z4。全部p>37，不用Ccyc或β非零；原whole盘/全局排除继续。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

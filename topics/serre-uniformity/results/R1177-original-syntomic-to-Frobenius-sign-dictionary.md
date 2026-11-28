@@ -495,9 +495,9 @@ slots，须用 (1177.17)；其中央有限 dilogarithm 读数不变。
    [正式全文](https://www.numdam.org/article/BSMF_2000__128_4_529_0.pdf)。
    §2 的 mapping fibre $1-\varphi$、product (2.5)、
    symbol (2.6)–(2.7)、fundamental exact sequence (2.9)
-   以及 Proposition 2.11（印刷页545，PDF第17页）
+   以及 Proposition 2.11（印刷页545，PDF第18页）
    给原正 Kummer/product 相容；Lemma 2.12
-   （印刷页546，PDF第18页）固定根的一致性。
+   （印刷页546，PDF第19页）固定根的一致性。
    本文已亲读这些原段。这里用的是既刊比较，
    不引入新的 coefficient comparison 定理。
 
