@@ -256,3 +256,13 @@ arith全文核ST Appendix、Kriz原出版社章及BSS/最新Katagiri后成R1–R
 
 推前actual readonly run46075603971/job140857403865：公开2026-11-28 04:01:21 UTC至670cf070d8a7387fcd92bb0e7e34e91b68dd3954；私库2026-11-28 04:01:26 UTC至bf5fb1975ed10419a6953e328f4fa51bf2e10dce。四README与03:49已读版相同，QUEUE认领未变；日志14893B/hash692a3fd211dfbb300482765dfc7cf5d42ff4e23773d716e53cbff56b072410cc。完整库存3178blobs/44976174B/tree92168c29c8b5593c5d8d2d2709f4fb2c6a394baa，无>5MB、三旧必要gzip不变。
 R1063全I与固定坏素数已推1f99a3df9f955bc69323083b8d082dd02aad43b9；本次逐字归档H至notes/2026-11-28-handoff-before-book-dual-period-bridge.md（9723B/hash0fdc3887be31e469d00ec91b9caa415726df24a28a01a0c64b1591c55d119a20），精简旧R重复梗概但完整归档链和所有未闭门不删。新查Colović2611.25162v1与Berger2504.20558v3，继续实际finite-F等距和Katz ψ-integral接口，不把文献一般定理冒原source新非零。
+
+
+## 2026-11-28 04:14 UTC：同一有限域测度的精确等距与原 Mahler 前缀
+
+R1064§10将有限F的全trace-dual存在性与Berger已发表的Fourier限制等距定理合用，得到同一实际测度范数等于bounded字符函数范数；有限任意分歧F均无different损，全部wild坐标保留。原µ的actual Cartier-dual提升亦精确等距。实际二变量Mahler前缀在ρ_n盘取D=H(p^n−p^(n−1))即达p^-H误差；这是同源affinoid精度，不冒负矩、log−E、Smith或测度总变差精度。全文核Colović只作相容检查，本二次域加强已经由BSS与已发表等距定理推出。
+
+arith全文核新Colović及Berger§§2.1–2.3，root全文读附录并直接核原Cor2.2.5/Thm2.3.1的幂次范数证明、已有测度像上的等距与Cp非满射范围；R8和§9增加最优范数指针。原R1064 R1–R29已推5a4b8574f3935fde9c9e865009780c16402fd427；本次仍归同R。无新增数学执行。
+
+推前实际pull：run46073965457/job140860445227，公开2026-11-28 04:13:40 UTC至9b1f51010ac73c214a4008e05bf3638a4218c04c，私库2026-11-28 04:13:45 UTC至84439c12d0ca065bbbd6e6b6cf325c3cf31e69d5；四README与04:01已读版相同，QUEUE本行未变。日志14889B/hash4f450917d892ae7a172d96fb3b265538b47c55e5ed729a46e885d2cc06508ef6；库存3180blobs/45010886B/treebde071debe622c9cbc1a39c148f6baaaa73cd85b，无>5MB、旧三必要gzip不变。原run46075603971第50次attempt startup_failure未执行pull；本次核较早run的workflow逐字相同后实际重跑成功，后续继续用46073965457。
+v13最新04:04:44仍in_progress；04:04:56日志GET保持4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、末222/306，无终门。不据相同日志断停滞。接续实际H±的Katz投影、保中心/质量项的原Hall返回，以及quadratic/fullMaass全部低矩；主无穷p门未完成。

@@ -153,7 +153,7 @@ $|Q_E(v)-1|\le|v|<1$。因此(R8)在整个 LT 开盘有界，且
 $$
  \|\mathcal F_E(\iota_*\mu)\|_{\sup}\le\|\mu\|.
 $$
-由 ST Fourier 单射性，$\mu\ne0$ 时这个实际提升也非零。
+§10 的(R33)进一步把此上界加强为同一个实际测度的精确等式。由 ST Fourier 单射性，$\mu\ne0$ 时这个实际提升也非零。
 
 对每个 $\kappa\in\mathcal O_L^\times$，真实整形式群作用给
 $$
@@ -447,10 +447,115 @@ $v_p(r_n)\ge2n+3+O(1)$。未给出的 $u^1$ 矩不妨碍单位域结论：用趋
 - 由同一原 HT/dlog、Rosati 与 cyclotomic 配对给出的精确单位
   $\Omega\varpi_E=\lambda_GY$，及其全 Galois 方向。
 - 原 whole bounded 测度的全 LT 开盘提升、真实 $\mathcal O_L^\times$ 作用，和保全部 $\Lambda,\Lambda'$、log–$\mathcal E$ 的同一读者运输。
-- 字符空间下降的准确判据；对真正 bounded 的有限 $F$ 输入，全部 trace-dual 坐标的 BSS 测度返回。在已付原二层 LT 系数域中，损失至多 $p^2$。
+- 字符空间下降的准确判据；对真正 bounded 的有限 $F$ 输入，全部 trace-dual 坐标的 BSS 测度返回。该 trace-dual 构造在已付原二层 LT 系数域中给粗损失至多 $p^2$；§10 进一步证明同一个实际返回的最优范数无损。
 - 两篇新文在原低节点窗和 affinoid 精度中的具体可用范围，以及(R27)候选的严格检验。
 
 原 quadratic lift、完整 Bessel/Maass 热作用是否给新的 bounded 对象，须按其真实单位域及全部低矩另证；普通 LT 盘上的系数不变性不替代(R11)。原 $J'_S$、Hall 五层或
 $\sum_p g_{p,D}\log p>3M_D\log D$ 的主门没有因此免费获得新的必要行。
 
 本篇为纸笔证明及原文核对，无新增数学执行。
+
+
+## 10. 有限系数扩域上的精确等距与原测度的有限前缀
+
+本节加强 §5 的范数结论。(R17)–(R19)仍是有效的直接存在性证明及粗上界；一旦该实际测度已经构造出来，下述已发表的等距定理把其 different 损失全部消去。这里没有将有限系数扩域换成任意 $\mathbf C_p$ 系数的满射声明。
+
+### 10.1. 已发表的 Fourier 等距与同一实际生成元
+
+使用 Laurent Berger，
+[*Lubin–Tate generalizations of the $p$-adic Fourier transform*](https://perso.ens-lyon.fr/laurent.berger/articles/BDHOL.pdf)，
+Bull. Soc. Math. France **153** (2025), 559–573，
+[DOI 10.24033/bsmf.2906](https://doi.org/10.24033/bsmf.2906)。
+其 Corollary 2.2.5、Theorem 2.3.1 的准确结论是：对任意有限 $L/\mathbf Q_p$，多变量 Amice 变换后的限制
+$$
+ \operatorname{res}_{\mathfrak X}:
+ \mathcal O^b_{\mathbf C_p}(\mathbb B^{[L:\mathbf Q_p]})
+ \longrightarrow
+ \mathcal O^b_{\mathbf C_p}(\mathfrak X)
+ \quad\text{在其像上等距。}                         \tag{R30}
+$$
+我们亲读了其 §§2.1–2.3 的证明。该结论适用于已经给出的 $\mathbf C_p$-值 bounded 测度，并不声称右侧每个函数都属于该像。
+
+取一组 $\mathbf Z_p$ 基 $b_1,b_2$，写
+$x=x_1b_1+x_2b_2$。一个实际 bounded 测度 $\nu$ 的多变量 Amice 变换为
+$$
+ \mathcal A_\nu(X_1,X_2)
+   =\int_{\mathcal O_L}(1+X_1)^{x_1}(1+X_2)^{x_2}\,d\nu(x).
+$$
+多变量 Mahler 等距给
+$\|\mathcal A_\nu\|_{\mathbb B^2}=\|\nu\|$。
+将它限制到局部 $L$-解析字符，恰是本篇同一个 Fourier 变换。拉回实际 $G$ 的盘后，用的是(R2)的实际 Cartier-dual 生成元，因此
+$$
+ \boxed{\qquad
+  \|\mathcal F_E(\nu)\|_{\mathbb B_G}
+       =\|\nu\|.
+ \qquad}                                                   \tag{R31}
+$$
+改变 dual 生成元只能以某个 $\mathcal O_L^\times$ 的 $[\kappa]$ 预合成；它是整盘自同构，故不改此范数。实际 $G$ 与严格 LT 整坐标间的整同构同样保持全盘范数。没有将非单位 $\varpi_E$ 当作单位切向换元。
+
+### 10.2. 有限 $F/L$ 的整返回无 different 损失
+
+继续 §5 的有限 $F/L$，并设
+$f\in\mathcal O^b(\mathfrak X_F)$。
+§5.1 已经用完整 trace-dual 坐标构造了一个实际 $F$-值 bounded 测度 $\nu$，满足 $\mathcal F(\nu)=f$。把该测度嵌入 $\mathbf C_p$ 系数，再应用(R30)，立即得到
+$$
+ \boxed{\qquad
+  \|\nu\|=\|f\|_{\sup},\qquad
+  \mathcal O_F[[\mathcal O_L]]
+       \ \xrightarrow[\ \sim\ ]{\;\mathcal F\;}
+       \mathcal O(\mathfrak X_F)^\circ .
+ \qquad}                                                   \tag{R32}
+$$
+这是等距的代数同构；唯一性仍来自 Fourier 单射性。因而(R19)的 $p^2$ 可以在最终范数中完全删去，对任意有限 ramified $F/L$ 亦没有不同的 different 损失。trace-dual 构造只是取得同一个测度的粗存在性办法，并不决定它的最优范数。
+
+这里保留每个 $F$ 坐标，尤其没有对原 $F_2/F_1$ 作 total trace。一个非平凡 wild 字可以在 total trace 下消失，但不会由(R32)消失。另一方面，当 $L\ne\mathbf Q_p$ 时，Berger 明确指出(R30)的像在 $\mathbf C_p$ 系数目标中为真子空间；(R32)依赖有限 $F$ 和 §5 的实际存在性，不能省去它们。
+
+对(R8)的原实际 $\mu$，嵌入
+$\iota:\mathbf Z_p\hookrightarrow\mathcal O_L$ 的 pushforward 亦等距：将 $1$ 扩成一组 $\mathbf Z_p$ 基，再以第一坐标投影延拓任何连续测试即可。因此
+$$
+ \boxed{\qquad
+ \|A(Q_E)\|_{\mathbb B_G}
+     =\|\iota_*\mu\|=\|\mu\|
+     =\|A\|_{\mathbb B_{\mathbf G_m}} .
+ \qquad}                                                   \tag{R33}
+$$
+本式不要求 $\mu$ 取值于某个有限域。有限 orbit 的整和也可先形成实际测度，再按(R31)精确计算该整和的范数；这是整和自己的范数，不是各项范数的和，也没有判定其中不发生抵消。
+
+### 10.3. 原 Amice 系数给出的明确有限精度
+
+令 $\|\nu\|\le1$，并令
+$$
+ a_{r,s}
+  =\int_{\mathcal O_L}
+       \binom{x_1}{r}\binom{x_2}{s}\,d\nu(x),\qquad
+ P_{<D}(X_1,X_2)=\sum_{r+s<D}a_{r,s}X_1^rX_2^s .
+                                                               \tag{R34}
+$$
+全部 $a_{r,s}$ 整；若 $\nu$ 为 $F$-值，它们在 $\mathcal O_F$ 中。它们是同一个原测度的实际 Mahler 矩，不是任意选出的逼近多项式。
+
+取 §7 的 $n\ge1$、$\rho_n=p^{-1/(p^n-p^{n-1})}$，以及整数 $H\ge1$。设
+$D=H(p^n-p^{n-1})$。在闭多盘 $|X_1|,|X_2|\le\rho_n$ 上，每个被截掉的项的范数至多 $\rho_n^{r+s}\le\rho_n^D$；高总次数尾按此范数趋零。于是
+$$
+ \boxed{\qquad
+ \|\mathcal A_\nu-P_{<D}\|_{\mathbb B^2(\rho_n)}
+       \le \rho_n^D=p^{-H},\qquad
+ D=H(p^n-p^{n-1}).
+ \qquad}                                                   \tag{R35}
+$$
+限制到原 $\mathfrak X_n$ 仍保此界。一般范数 $B=\|\nu\|$ 时，右侧改为 $Bp^{-H}$。式中无 finite-$F$ different 成本，也无额外维数因子。
+
+这给的是原完整字符函数的实际有限前缀，而不是测度总变差的有限截断。使用原(R20)的单位域负矩、log–$\mathcal E$ 或 $\Lambda'$ 测试时，仍按(R22)保其真实读者及算子范数。它也没有把原 R1051 的标量 Newton/Smith 格换成自由二维坐标；要从(R35)取得该格的新收益，仍须给出两者间同源且有界的实际运输。
+
+### 10.4. Colović 全文的核查与范围
+
+另已全文读 Uroš A. Colović，
+[*On the ring of bounded functions on the character variety*](https://arxiv.org/html/2611.25162v1)，v1，2026-11-18，§§1–5。
+其 Theorem 1.1 对任意有限 $L/\mathbf Q_p$ 给出底域的整测度返回。本篇当前二次 $L$ 的(R32)只需 BSS 和已发表的(R30)，不依赖把该新预印本再作为一个未核的中间门。
+
+就根提出的有限系数检验，原文 §§2.4、3–5 的机制也与上述加强相容。对实际 $F$-值分布及足够深的 torsion 字符 $\xi$，同一条
+$\xi\zeta^a$ 纤维恰是
+$F(\mu_{p^m})/F(\mu_{p^{m-1}})$ 的 Galois 轨道；部分 residue 投影的值是该轨道的归一 trace。Tate 的估计在任意固定有限 $F$ 上使深层算子范数任意接近一。Berger 的全 $\mathbf C_p$ torsion boundary 定理，以及 Colović §4 的有限乘积论证，保证这些深纤维的并仍是全 bounded 字符函数的解析边界。因此每个 residue 投影的范数至多一；逐层重构保全部 residue masses，并不只保 total trace。
+
+这里的新输出是(R31)–(R35)的实际无损范数与有限精度。它不证明未构造的 $e^{CL}$ 完成测度 bounded，也不把普通 LT 盘的不变性改成(R11)的 twisted descent，更不把一个新 LT 系数自动认作 R716 的同一 $A_p$ 或原 $J'_S$。
+
+本节仍为原文核对与纸笔证明，无新增数学执行。

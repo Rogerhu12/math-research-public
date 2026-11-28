@@ -378,3 +378,10 @@ R1063§9以准确b=68r及原tame0 projector得到p^-2 Haar对偶两线；全局w
 R1064从同一个原Tate生成元的HT/dlog与Weil–Rosati配对证明Ω_book·ϖ_E=λ_GY∈O_F×，Y=−C zhat/p²，保全Galois的bar(a)^−1及cyclotomic作用。原whole bounded Amice测度经实际Cartier-dual同态提升到全LT开盘，保原临界inverse-square、log−E、所有外权/导数；ST字符空间下降要求测度系数在F，普通LT盘的Galois固定不足。真正有限F bounded字符函数经全部trace-dual坐标返回测度，原F2 different=2−1/(p²−1)给至多p²成本；不杀wild坐标。新范数定理在低节点窗仍返原幂，直接去周期完成矩若为LA分布则原整flat分量为零，未据此预付非零或新canonical行。
 
 [完整证明](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，R1–R29。
+
+
+### R1064 §10：有限系数域的无损返回与原测度的精确范数
+
+R1064§10将有限F的全trace-dual存在性与Berger已发表的Fourier限制等距定理合用，得到同一实际测度范数等于bounded字符函数范数；有限任意分歧F均无different损，全部wild坐标保留。原µ的actual Cartier-dual提升亦精确等距。实际二变量Mahler前缀在ρ_n盘取D=H(p^n−p^(n−1))即达p^-H误差；这是同源affinoid精度，不冒负矩、log−E、Smith或测度总变差精度。全文核Colović只作相容检查，本二次域加强已经由BSS与已发表等距定理推出。
+
+[完整证明](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，R30–R35；此前p²仍是有效粗存在界，最终最优范数由本节加强。
