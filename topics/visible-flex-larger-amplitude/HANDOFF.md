@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`dbebe7e4da95ad6e18c3dd35cda805904a1a878a`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`f9f6a067caa45b529b229beab7ba26b6336a9434`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[原观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -26,7 +26,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 22=46090913581 | 半波b1/2；初7e06/accepted0/g.5305849371949052；97fbb仅统计返。 |
 | 23=46094430214 | 全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计返。 |
 | 24=46096380016 | 半波b5/8；初7e06/accepted0/g.6122924171813162，trial未返。 |
-| 25=46099929359 | 02:49:28Z真实启动；输入/新场待核。 |
+| 25=46099929359 | 两input0；初7e06/model6f3ae32/accepted0/Phi681.6517423825409/Gram.40616525311769985/g.5305849371949052；K12.32709940409259/s2.1573631007205925/phiπ/2真返。 |
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数/位置账与[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已证。R725 ε1/8显式15/b→64/(7b)，高阶代价/存在条件保，不推wholeK；[完整seed](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，26全上层与准确链继续。
 

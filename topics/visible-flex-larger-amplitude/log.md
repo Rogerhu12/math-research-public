@@ -358,3 +358,7 @@ run46099929359/1、workflow433356137、job140839831948，head007348e5c8bd943a137
 ## 2026-11-28 03:08:19 UTC — 终态12–18生成输出完整保真整理
 
 ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B、delivery8989B共112863B，净225385B。24原返回逐whole指向固定5358ca0c0a2e48f66af6be474ba1a202d6a935c3，保每原对象/输入输出/异常/未返边界、14历史queue及当前完整源/请求/参数/7controller-workflow/14终态实际notes；取消不冒child返回。活19–25不动。旧H/open§7原字保8040d1f8e0771c8589076ddce27ac7345627f653，§1–6完整原字不动。双README云核至`dbebe7e4da95ad6e18c3dd35cda805904a1a878a`无变（非pull）。
+
+## 2026-11-28 03:09:13 UTC — 25两个完整输入及初场六族/真实曲率位置返回
+
+25两个完整输入0及初场六族返回；实际science870e11a/model6f3ae32，初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985/reachg.5305849371949052。首次原曲率位置cell885/u.8306046932331322/s2.1573631007205925/phiπ/2、K12.32709940409259/Dlower4.117175466515689。两个正约束保，初场逐项同22；无trial/完整report/cache速度结论。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`f9f6a067caa45b529b229beab7ba26b6336a9434`无变（非pull）。

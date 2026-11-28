@@ -116,7 +116,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985，reach.5305849371949052/distplus.11391238912344381仍正；97fbb仅统计。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 真实46094430214；全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 真实46096380016；半波b5/8；初7e06/accepted0/Phi886.6498886846562/Gram.47296582169113244，reach.6122924171813162/distplus.0608650756788609仍正；trial未返。 |
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1、02:49:28Z启动；同22参数+dk缓存/位置观察，新场待核。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1；两input0，初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场。K12.32709940409259、Dlower4.117175466515689，cell885/u.8306046932331322/s2.1573631007205925/phiπ/2真返；trial/cache效果未知。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，不推曲率/reach单调性。
 

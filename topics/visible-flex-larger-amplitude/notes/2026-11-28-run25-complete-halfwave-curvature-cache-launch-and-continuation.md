@@ -420,3 +420,40 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   ]
 }
 ```
+
+## 2026-11-28 03:09:13 UTC — 25两个完整输入及初场六族/真实曲率位置返回
+
+实际 run46099929359/1 的两个必要输入均自然 exit0。maker源提交6b6abec78368f6a471c78afc613e59bb306544e7、whole source89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60，实际5.823368532999979s（报告内部.6982078839999986s）；reference源提交d58b1a12e0bafdc59acc60696c0d72d8f66c80b6、whole sourcee7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb，实际288.525446631s（内部282.89364733599996s）。其全原argv、输入/输出身份、summary/cleanup/失败界保完整原分卷，没有复制原始数组。此独立reference耗时不归因于科学dk缓存。
+
+本轮自己的report分别65346B/SHA5ce099ea8cefe91c0a91cbed6552f1eb9bdf62b3a2e708b6ba609ad3acdd2769、84976B/SHA c5fe1cce817086bc2762b7e7437f6fba5710f34de58570c6ec96b6394c163d61。全六输入：reference894879B/212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb，carrier205842B/84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e，locations106771B/144158c515303274462c51befc696245b870e05278b1cfc69011c6e08170d887，provenance223955B/a1f92b4074e7639e1981ccfb7cb477fead86f57e6cb2d56ee318b00231a9e018，binding35712B/d1f427c1d3257c576a495f2de0618445ad7fae540899779117f2b32620988292，target30919B/777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df。仅读原公共metadata，未整读任何这些raw。实际 M160/J923/P7377/N2048、H1.947054437068418、2218原定叶，accuracy_reached=false、whole_tail=true，不能改说准确输入证书。
+
+实际 science source commit 870e11a12df457bac9c538b8a4ec054d93cd572d、launcher 804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe、PID3219、driver7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910；观察器4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94，实际model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef，实际target957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9。当前与初点均7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，accepted0/report=false。数学完整几何事件2026-11-28T03:02:57.543780+00:00，原索引观察2026-11-28T03:05:29Z；normal观察的initial-complete-geometry-returned在03:01:58 UTC。Phi=681.6517423825409、max_relative_Gram=0.40616525311769985。
+
+六族真实工作g依次为 reach=0.5305849371949052，body_diameter=-0.03813552733778258，distance_plus=0.11391238912344381，distance_minus=-3.0936337267043594，cap_diameter=-0.06715131487906445，height_floor=-1.0411715967426867。与22真实初场逐项相同；这是实际返回比较，不是从源码相同推断，且reach/distplus仍为正、完整metric还远超1e−6。
+
+首次返回曲率位置：K=12.32709940409259、D_point_lower=4.117175466515689，cell=885、u=0.8306046932331322、phi=1.5707963267948966、branch=1、物理s=2.1573631007205925；distance_plus的phi=1.5707963267948966。这些是本次扫描的原返回位置，不能替代全域曲率/reach证书，也尚不能在缺完整实际S/确切材料分区映射时仅凭cell号断言端层或中央。全部不存在的trial及previous_completed字段仍保原NoneType观察错误，不填零。
+
+此时没有trial、接受方向、完整科学report、完整final/typed史或cache命中数。缓存效果不能由早期reference耗时或初场相同推出；原full pure和所有准确费仍待自然科学返回。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 43021,
+    "sha256": "27f717a48869e0f2c26737d645ad3a2b6a0d9008b3f1b1003168a7e73c0ae064",
+    "git_blob_sha": "fcd0e4c6ff808f6060e97a68dadad7279af10ab9",
+    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-001.md",
+    "bytes": 16607,
+    "sha256": "52d95b858d41f856836e745354b4466eaf44abec9a0f1dd3d5db2b4fb9c1ad5f",
+    "git_blob_sha": "b77a136e0c5aee403152e46b6ecc32d1de224d37",
+    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
