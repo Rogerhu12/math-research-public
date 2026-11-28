@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R150：W/b0正k射线仅余e首值±1的完整原值证明](results/R150-appendix-unit211-W-b0-positive-k-ray-only-e-plus-minus-one-original-centers.md)：原b0/q2先付λ剩余中心，R6必要二次P(E)=27E²−103E−22；完整NV的f常数系数N5及原尺度使最低项−224U⁵(E+5)为零，与P(−5)=159矛盾。保E±1，不将N5当物理f0，无新运行。
+
 - [R267：实际根曲线的同源Beta系数与每个非零列本性](results/R267-appendix-actual-Laurent-beta-coefficients-and-every-nonzero-column-essential-singularity.md)：合法算子参数代入、所有有限恒零块提取及余尾全旗强*单位，给负Laurent系数a^α binom(α,r)C^(h+1)V^rH_r与H_r→T*的O(1/r)界。每个固定非零p最终各负系数非零，故实际曲线每列本性；不付费用下界或排强子列。
 
 - [R150：正确Phi同σ两个N/P–NV五次原交叉与原t十次式](results/R150-appendix-unit211-Phi-zero-corrected-same-sigma-NP-NV-crosses-and-original-t-decic.md)：唯一run46164341750，4.844514676秒/0，完整σ身份、两普通三均值迹、固定三原cofactor全部返回。C10双次82/51、t10/总97/26511项，最终三个乘子分母均1；H87整零面未删，未降公共权曲线45或宣称空性。
