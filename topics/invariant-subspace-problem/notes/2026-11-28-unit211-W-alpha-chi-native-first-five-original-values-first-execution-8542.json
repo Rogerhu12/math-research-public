@@ -1,0 +1,155 @@
+{
+  "schema": "isp-W-native-first-original-values-partial-denominator-domain-stop-v1",
+  "source": {
+    "blob": "17703ecbfb46246c5f36fd4dda25626cf83f4043",
+    "bytes": 13648,
+    "sha256": "71d5dd5050a034a053bacd6d390cac9cabdbb845370f795f9c7731f2aa845235",
+    "basename": "2026-11-28-unit211-W-alpha-chi-native-first-five-original-values-8542.py"
+  },
+  "execution": {
+    "job_id": "140900220947",
+    "elapsed_seconds": 54.698322282999996,
+    "max_child_rss_kib": 201164,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "1ec3af1e364131e0359272a24ea7d3713d2af369",
+        "before": "1ec3af1e364131e0359272a24ea7d3713d2af369",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T07:02:50.702983+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46119359308",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "1ec3af1e364131e0359272a24ea7d3713d2af369",
+    "source_exit_code": 1,
+    "source_git_blob": "17703ecbfb46246c5f36fd4dda25626cf83f4043",
+    "source_sha256": "71d5dd5050a034a053bacd6d390cac9cabdbb845370f795f9c7731f2aa845235",
+    "stdout_bytes": 2772,
+    "stdout_sha256": "913234efc4f6bd27cb829452b433a99336a3d9f6caae4a5fa703dd7a86cddac9",
+    "stop_reason": null
+  },
+  "actual_checkpoints": [
+    {
+      "stage": "new_five_values_native_actual_axis",
+      "axis": "lambda",
+      "actualOriginalSourceIdentities": 6,
+      "allSixNativeColumnRelationsReturned": true,
+      "coefficientDefinition": {
+        "bytes": 166833,
+        "sha256": "15e2c02c9ab840740931ca57343c6066bf28e73949e25a3b8b72c1fe7f4f6749"
+      },
+      "noMatrixCommutationOrOriginalFreenessAssumed": true,
+      "seconds": 16.045909146
+    },
+    {
+      "stage": "new_five_values_native_actual_axis",
+      "axis": "T",
+      "actualOriginalSourceIdentities": 6,
+      "allSixNativeColumnRelationsReturned": true,
+      "coefficientDefinition": {
+        "bytes": 170801,
+        "sha256": "1db3d379ce733e49fdcc0706f2809cbbfd1e137d1770dc349dfcece10860dea5"
+      },
+      "noMatrixCommutationOrOriginalFreenessAssumed": true,
+      "seconds": 16.732030933999994
+    },
+    {
+      "stage": "new_five_values_pure_weight_six_generator_source",
+      "name": "qT4",
+      "originalDAGNode": 14,
+      "sourceDAGOperations": 15,
+      "coefficientDefinition": {
+        "bytes": 598491,
+        "sha256": "6795e5af591003890858b4f9bad47c8c79a51f2f4ca283205b6932e299c2249e"
+      },
+      "actualSource": "full original mean base traces plus twelve actual lambda/T actions",
+      "noGeometryDenominator": true,
+      "noExpandedLargeTraceClaim": true,
+      "seconds": 18.493650552999995
+    },
+    {
+      "stage": "new_five_values_pure_weight_six_generator_source",
+      "name": "R6",
+      "originalDAGNode": 28,
+      "sourceDAGOperations": 29,
+      "coefficientDefinition": {
+        "bytes": 2884050,
+        "sha256": "162adf45a040131d0e3969927dbeabfab4278dcf3bbc93ef79f8c75ec7cffb03"
+      },
+      "actualSource": "full original mean base traces plus twelve actual lambda/T actions",
+      "noGeometryDenominator": true,
+      "noExpandedLargeTraceClaim": true,
+      "seconds": 41.016395757
+    },
+    {
+      "stage": "new_five_values_pure_weight_six_generator_source",
+      "name": "Nlow",
+      "originalDAGNode": 36,
+      "sourceDAGOperations": 37,
+      "coefficientDefinition": {
+        "bytes": 1466197,
+        "sha256": "1a3a59261a5fcca94f7e20d3706f83c5e89c5bd7d47e3449a1b12dcdea29da9a"
+      },
+      "actualSource": "full original mean base traces plus twelve actual lambda/T actions",
+      "noGeometryDenominator": true,
+      "noExpandedLargeTraceClaim": true,
+      "seconds": 46.750010903
+    },
+    {
+      "stage": "new_five_values_pure_weight_six_generator_source",
+      "name": "Plow",
+      "originalDAGNode": 44,
+      "sourceDAGOperations": 45,
+      "coefficientDefinition": {
+        "bytes": 1501299,
+        "sha256": "59d7a8470e93df05d5d732a57a93ae8353e6bb15850e061d553e6506e85c09d2"
+      },
+      "actualSource": "full original mean base traces plus twelve actual lambda/T actions",
+      "noGeometryDenominator": true,
+      "noExpandedLargeTraceClaim": true,
+      "seconds": 52.37564836599999
+    }
+  ],
+  "failure": {
+    "kind": "AssertionError in historical denominator-support check",
+    "new_source_line": 209,
+    "historical_reducer_line": 334,
+    "assertion": "strip_known(cf.d,full_chart_units)[0].total_degree()==0",
+    "specific_Z_loop_label_not_logged": true,
+    "failed_polynomial_not_logged": true,
+    "preceding_same_call_basis_and_full_trace_assertions_passed": true,
+    "resource_boundary": false,
+    "source_not_mutated": true,
+    "no_rerun": true
+  },
+  "scope": {
+    "native_lambda_T_actions_complete": true,
+    "completed_native_values": [
+      "qT4",
+      "R6",
+      "Nlow",
+      "Plow"
+    ],
+    "entire_Vlow_native_completed": false,
+    "new_alpha_chi_value_lines_completed": 0,
+    "new_value_cofactors_completed": 0,
+    "all_five_original_values_complete": false,
+    "whole_W_excluded": false,
+    "ordinary_ISP_claim": false,
+    "coefficient_payload_saved": false
+  },
+  "static_domain_observation": {
+    "historical_reducer_paid_support_precedes_general_ell_unit": true,
+    "top_level_already_paid_ell": true,
+    "new_V0_V1_only_extra_weight_denominator_support": "ell",
+    "exact_failed_denominator_not_claimed": true,
+    "proposed_new_unexecuted_input": "scale actual V0,V1 by ell before original reducer; then use original N4 homogeneity and the existing ell unit outside that reducer"
+  }
+}
