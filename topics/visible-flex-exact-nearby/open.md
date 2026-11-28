@@ -147,7 +147,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 本节压缩前所有run、球/SHA、失败unknown、参数/域/mean/source/ports完整保[8a88b0710完整open](https://github.com/Rogerhu12/math-research-public/blob/8a88b07104e57da5994fdc2046ba366ad154ffd8/topics/visible-flex-exact-nearby/open.md)及递归前页。第1–7节义务不撤；旧成功不重；当前readSHA/运行全账见H。
 
-- 原SL/PS充分门false，不推奇异。TF46120139018/1实际真low193 flow/1424cells/4273实际枢轴/四完整source maps运行；η/repair/mean/真根全保，非fullDF。
+- 原SL/PS充分门false，不推奇异。TF46120139018/1实际真low193 flow/1424cells/4273实际枢轴/四完整source maps于08:31:39终态failure；先核实际accepted prefix及失败位置，未重跑。η/repair/mean/真根全保，非fullDF。
 - [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)已证明TF到原58→224→32→PN56/CXN6的完整入口；full ΔAL/ΔC/GH/物理Robin与独立mean全付，必须新κB<1。TF完整成功前不生成未来manifest。signed RHS须whole-cell，right97仅一次Θ解权；norm maps和nodes不是signed解。原SC/JF接同schema，无重复入口。
 - TC46117170011/1仅续原2677/7724 whole accepted union后的5047缺格；96列、matrix、waist、四whole arrays不重。SC首次同一次原pure现保全root96 (d,z,e)供CFC，尚无SC actual。
 - UACT45933303391全21有限Θ96坐标逆<12.588/ρ≈.799597509，finite-only .31698非global。WMT46122573619全14实际新global<6.957962，原850候选保；全physical/high/两mean/ν/phase/height Schur未付。
@@ -164,5 +164,7 @@ DCP18由BFP19完整成功对象首次进入全密度逆particular作用：新hea
 FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
 
 PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/H及完整APHI particular；相位joint保唯一共同ρ，E_P+R E_H+Δρ‖hcentres‖，全部exact96中心/mean/world/raw端口保。5文件AST/adapted-worker及not-ready0science分支过；完整H96成功前无manifest/workflow，不重原积分。
+
+[CFC](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)完整96列/forward+adjoint/mean/共ρ/physical sources的10目标接口已成；SC3、DCP18、H96及PWA96的全部actual/execution真实准入前没有manifest。原e96不放大重算；100×97表不是全方块。WBN/GBN完整后置目标实际成功，joint分别<.001118591和<.000163012，全部96exact centres/mean/各旧候选保，非fullSchur。
 
 全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
