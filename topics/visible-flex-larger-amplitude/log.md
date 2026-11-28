@@ -362,3 +362,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:09:13 UTC — 25两个完整输入及初场六族/真实曲率位置返回
 
 25两个完整输入0及初场六族返回；实际science870e11a/model6f3ae32，初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985/reachg.5305849371949052。首次原曲率位置cell885/u.8306046932331322/s2.1573631007205925/phiπ/2、K12.32709940409259/Dlower4.117175466515689。两个正约束保，初场逐项同22；无trial/完整report/cache速度结论。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`f9f6a067caa45b529b229beab7ba26b6336a9434`无变（非pull）。
+
+## 2026-11-28 03:09:55 UTC — 22首个试点真实接受并返回完整六族
+
+22首观测97fbb真实accepted1及current，原六族完整返回，reach.5294703284893127/distplus.11391376026366629仍正。Phi681.6511710299278/Gram.4061652579029476；报告未返，alpha/typed未补，不从统计推接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`de0714405a118808daf3a60533d6541243345cd5`无变（非pull）。

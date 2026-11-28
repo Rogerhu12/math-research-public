@@ -651,3 +651,26 @@ run46090913581/1的原science c6517a030888df2bf0ca51efade67b7693102785/launcher6
   }
 ]
 ```
+
+## 2026-11-28 03:09:55 UTC — 22首个试点真实接受并返回完整六族
+
+原先仅统计的97fbb982b31c713cc71b8cb0d44f255127380185bcfb68be53e29dd19d9b579c现在真实成为current/accepted，accepted_directions=1。同sciencec6517a030888df2bf0ca51efade67b7693102785/launcher6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c/PID3541、driver095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec、model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef，无源/模型/点身份替换。数学current-geometry-returned事件2026-11-28T02:36:24.158961+00:00，原索引观察2026-11-28T02:41:05Z；该时间是已有数学事件，不冒精确接受时刻或child退出。
+
+Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：reach=0.5294703284893127，body_diameter=-0.038135649309102404，distance_plus=0.11391376026366629，distance_minus=-3.0936337267606984，cap_diameter=-0.06715135970511843，height_floor=-1.0411715403912758。初reach0.5305849371949052至0.5294703284893127仍正，distance_plus0.11391238912344381至0.11391376026366629仍正且略增；不能用reach工作量下降宣完整可行。原Phi/Gram和六族初值保前文。alpha、完整线性预测、方向编号、完整typed history未返，不反推。
+
+当前trial与last_completed_trial均为同97fbb原点，trial_accepted=true，original positive maximum family为reach；complete_report=false、child_exit_code=null、child_natural_return_not_observed=true，观察错误数组为空。normal原scope_closed记录1441角缓存、51711返回、逻辑失败0只是有限工作进度。没有完整report/final/packet或连续branch/几何证书可交后续。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+    "bytes": 47992,
+    "sha256": "0eb88d7a9220b495ab320062bbceaeae4b5113d038d1046c4d53fcc7c2b2a931",
+    "git_blob_sha": "6da3a54335bb5620fc528415043d9afc305da3d4",
+    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
