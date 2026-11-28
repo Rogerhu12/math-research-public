@@ -582,3 +582,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:06:02 UTC — 21后续试点明确拒绝与当前未接受边界
 
 21仍初7e06/accepted0/g2.541916739245917；最近8c472明确拒，Phi3233.3855487592577/Gram.6568825759112367/g2.5419160522649626。359c4刚开始；中间未观察几何不补、方向号不猜。 全源身份/六族/原观察空字段错误保；尚非完整report。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`a9219e112eea84e227dfb9faa908152d8941ec17`无变（非pull）。
+
+## 2026-11-28 05:11:09 UTC — ret70六份旧Gauss证书完整保源退役
+
+完整三件77977B保17全source/reader、23原proof/manifest/resource、全部argv/参数/原成功失败/未付项；只普通移出六生成JSON281628B，净203651B。[完整交付](computations/legacy-gauss-certificates-retention-70-complete-delivery.json)。固定2f48aae169de25457b405bb313fdb1d081c372a3精确原字恢复；124970B实际表未读大体，其原399gate由全小manifest/资源/证明记载，不冒本轮新算。C2/first-piece/provider identity/ret48都是真whole消费者，必须按原path/SHA恢复，NumPy重算不冒位同；两q098/q106全profile保树、accepted gz由603214原字恢复，不重解。浮点评估/全Cartesian/闭面reach等未付及历史终止/loader失败保；无数组编码/差分/分块，无删源/参/活输入/未闭scratch。双README云核至`c2450319c2ce86657d5e5f7813cd883a1416f7ce`无变（非pull）。
