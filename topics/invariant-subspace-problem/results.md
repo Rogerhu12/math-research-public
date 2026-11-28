@@ -32,6 +32,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi第二头的小首一lambda三次、准确3×6和两个sigma原必要式](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-three-by-six-and-two-sigma-scalars.md)：唯一实际0.172618653秒/0，σ5/6总16/25及全部三原乘子完整返回，六最终分母1；两头10/19未付，无联合gcd或排空。
+
 - [R12：增生复分母的准确尾像及同一分子对数费用](results/R12-appendix-accretive-denominator-exact-tail-ranges-and-same-numerator-logarithmic-fees.md)：先证明真分数幂域及同log芽，再得Pθ=Qθ,L U_L^−θ、实际像完全相同、全部低位矩阵源域运输与双向polylog费用；Qθ,L强*趋I。仅条件运输同一未知平方分子，不声称已构造。
 
 - [R150：W/b0正e、k剩余值负二的整个原赋值支排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-original-valuation-exclusion.md)：末有限中心两原单位Jacobian给唯一整隐函数，完整N5首x²系数模1009为733；唯一实际0.911854271秒/0，与已闭正负ell及整mu极点合成整个k−2支，无泛型遗漏。

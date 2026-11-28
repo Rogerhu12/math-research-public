@@ -1,20 +1,15 @@
 {
-  "message": "ISP: prove exact accretive tail ranges and launch two new joint original valuation inputs",
-  "parentCommit": "f22cc8fbce9a54488e3226aecfe5e9d64161d7f9",
+  "message": "ISP: return exact small monic-lambda three-by-six presentation and two original sigma scalars",
+  "parentCommit": "40aff0a32c01b901ce118c4069e53a2332ab4142",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R12-appendix-accretive-denominator-exact-tail-ranges-and-same-numerator-logarithmic-fees.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-positive-e-generic-k-five-original-six-generator-joint-input-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-positive-e-generic-k-five-original-six-generator-joint-input-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-generic-positive-e-five-original-six-generator-joint.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-u-positive-k-two-three-original-residues-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-u-positive-k-two-three-original-residues-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-internal-u-positive-k-two-three-residues.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Haar-exact-tail-ranges-2180-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Haar-exact-tail-ranges-2180-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-three-by-six-and-two-sigma-scalars.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-six-columns-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Phi-small-three-by-six-result-2185-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Phi-small-three-by-six-result-2185-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,8 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-generic-positive-e-five-original-six-generator-joint.yml",
-    "invariant-subspace-8542-w-internal-u-positive-k-two-three-residues.yml"
-  ]
+  "dispatchWorkflows": []
 }
