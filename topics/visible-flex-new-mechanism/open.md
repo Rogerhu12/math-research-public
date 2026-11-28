@@ -67,3 +67,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R646 同一宏观核心的真实有限误差
 
 [完整规则及消费者](results/R646-actual-finite-core-composition-certificate.md)只接自然完成的R631 μ1实际checkpoint与全部原binary64系数；法向角变量下直接包围P_J∘Ξ−(ρ²/R²−e*)/2，完整组合jet的有理Taylor上界逐区间闭合≤1/50000。已付常数/primitive/点jet/闭前缀和未闭栈可接续，真点反例只否定本比较门。当前未得到可消费的μ1，不启动虚拟核心；比较通过也只支付R640核心输入，连接的R645全部假设仍须自己闭合。
+
+### R649 同一离解位置的连续曲率
+
+[完整身份和区间入口](results/R649-actual-offsolution-position-curvature-in-regular-radial-coordinates.md)保全部F/G/Gr、非零R与真实S_s；实际形算子用真正诱导度量Gram–Schmidt，目标弧长坐标不除νz，可在核心竖直C²迹读柱曲率。还需同一真实场的连续三jet/完整向量primitive或已有Yss包围；小S及已付样本曲率都不足以付款。原源/角/径向未闭误差原样保留，R650继续完整内尾导数/曲率，不为此重跑旧位置样本。

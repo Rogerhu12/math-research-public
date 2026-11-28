@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **429c8670e3c1919bc13b34f7b90389d3b8edaff8**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **99db6242c12dd6909708b71328aea3e7a654c1d8**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -59,8 +59,10 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 ## G：全时几何
 
-旧59a4[单场reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)≥.0311710349107D，但η≈3.84e−5/宏观/同g未过，不转新q。R33把真正完整旋转g连接变成全时phase、开盘固定、δE可0；实际完整非圆连接仍欠。
+R33将真实完整旋转g连接变成全时phase、固定开盘、δE可0；实际非圆连接仍欠。旧59a4[R623](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)仅单场reach，η≈3.84e−5/宏观/同g未过，任何新q不继承。
 
-[R640](results/R640-r631-support-height-and-complete-reflected-reach-reduction.md)给准确核心球<1.014；全域P误差≤2e−5则位置误差<.005、条件宏观≥155/516。球/支撑/高度需同一真实连续场；[消费者](notes/2026-11-28-r640-actual-geometry-consumers-and-core-error-input.md)只复用已付状态/差分，非连续资格。
+[R640](results/R640-r631-support-height-and-complete-reflected-reach-reduction.md)给准确核心球<1.014；全域P误差≤2e−5则位置误差<.005、条件宏观≥155/516。[消费者](notes/2026-11-28-r640-actual-geometry-consumers-and-core-error-input.md)只复用已付状态/差分，不授连续资格，R646见上。
 
-[R645](results/R645-convex-domain-graph-normal-tube-and-global-reach.md)已证凸域上半图、竖直接边及|κ|≤1/τ时，偏移水平映射degree1且偏移高度严格单调，故完整上半normal tube一一；加R640高度门给全闭面reach≥τ，无需独立远点对门。实际平面Jac正、C²接边、全连续曲率/高度/核心/球仍须支付；τ.062与球1.032给reach/D≥31/1032>.03。
+[R645](results/R645-convex-domain-graph-normal-tube-and-global-reach.md)已证凸上半图全normal tube；加全|κ|≤1/τ、高度门及C²接柱给闭面reach≥τ。实际连续Jac/曲率/高度/球/接缝仍欠，τ.062/球1.032预算保持。
+
+[R649](results/R649-actual-offsolution-position-curvature-in-regular-radial-coordinates.md)给同实际S/S_s、完整F/G/Gr与真实形算子；固定目标弧长坐标不除νz。消费者复用真实Yss或完整三jet/向量primitive，不把采样/缺陷小量当连续导数界，核心C²迹仍须实际支付。

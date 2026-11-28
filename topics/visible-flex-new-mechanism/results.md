@@ -197,3 +197,7 @@
 ## B030真实1906全闭与430接受，运行器外部关停
 
 [完整终态](notes/2026-11-28-r566-55be-to-430-runner-shutdown-terminal.md)记录1906全部完成、旧904复用，430在原1810fine/2810峰全资格接受η.1929414276608794/g0；随后原pending已应用为906/1814与2025/631库，原资格不能转新网。外部runner shutdown前完成1J/90块/56.86794秒，全部尾事件费用保留；无FINAL不编造最终elapsed或新H/J数组。继续真实430及已应用库，已闭1906不重放。
+
+## R649：完整离解位置的真实形算子及正则弧长入口
+
+[完整证明](results/R649-actual-offsolution-position-curvature-in-regular-radial-coordinates.md)从真实Y_r/Yθ和S_s给实际法向、诱导度量、第二基本形式与正交形算子；不将目标Hessian/νz替代离解曲率。R_r及H_r保全部当前R、F/G/Gr和moving-frame项，固定目标弧长使真实竖直C²接柱无0/0。纯区间消费者可复用已付真实Yss，或接同一连续三jet/向量primitive；不新求ODE/J/FFT，输入未闭误差仍条件性，不授全闭reach。
