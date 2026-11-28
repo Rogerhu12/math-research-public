@@ -4,14 +4,14 @@ Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-2026
 
 ## 规则与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`a9ae24ba9cbba0e7dbfe052368460ec090dc79f2`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时、仅读变化diff立刻遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`ff925e82f1b8b7e654132439efc8df93a5f3c40d`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时、仅读变化diff立刻遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE；每结论即普通推，NFF立即rebase/终端失效时freshHEAD整合重推，禁force/冒pull，令牌仅CLI。仅公开Actions科学，不加AST/fixture/独审/准入、不缩原预算。先metadata，不整读≥100KB/binary；题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB。根§15可重算raw仅runner，存源参/run/whole身份；不退活输入/唯一状态/未闭来源。
 完成须闭连通C²嵌入、全t强C²、一个固定g；D为整F0直径，固定有内点H径≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D、relative metric算子≤1e−6。同g/参数/t的实际空间/频率/时间精化至机器或原容差，多时刻整mesh，随后提高三比值。
 
 ## 原实际任务
 
 [33](notes/2026-11-28-run33-section16-retry.md)46133839513：原138角色/预算、accepted0；八分完整g1.1962609898472558拒，十六分1f0c5699原步继续；自然science返才pure62854。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：原139角色/预算、accepted0；半步g300537.3169553407拒，四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496；原pure66120待自然返。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：原139角色/预算、accepted0；四分8d07925e完整reachg43357.99854935636拒，八分723e77d7原步已启/统计几何待；science自然返才pure66120。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：原139角色/1,333,370外变量全自由；八分498c3dca首真accepted1，完整reachg562.3886083228798/K4623.42793；Phi25454.4091173/Gram.88830144较初升，仍非final。原science继续，自然返才pure74162。
 33–35全部原初值/model/driver/点/预算/此前拒绝在各完整note；trial非接受点，异model不借同坐标费用。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细全返，expanded中央自由；两细Gram8.04008→6.96819/K2815.84→2087.58，原16区间继续。
@@ -53,9 +53,9 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
-<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 双README真pull c4c854f728d235424eac3fc4301597665f039d24
-<!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
-<!--r758-publish-->R758 [双弯帽四项实际拟合](notes/r758-curved-crown-46156613563-1-index.json) 双README真pull e34c3291c61540ba09c2c2361a24467e6782144a
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 49be9f241879be941a0ad6bbe3d32f4a54b134ec
-<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 5b810ab21a73153255d60a85c7a7cd8cb942ae5c
+<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 双README真pull c4c854f728d235424eac3fc4301597665f039d24
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 5f1914b26e2d6d4d16536abb00fc5947ca50a025
+<!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
+<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 5b810ab21a73153255d60a85c7a7cd8cb942ae5c
+<!--r758-publish-->R758 [双弯帽四项实际拟合](notes/r758-curved-crown-46156613563-1-index.json) 双README真pull e34c3291c61540ba09c2c2361a24467e6782144a
