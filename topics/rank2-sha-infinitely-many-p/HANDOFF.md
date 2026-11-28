@@ -8,16 +8,16 @@
 
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库，非快进立即pull --rebase、检查README差异后重推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。根规则15禁存可重算数据/日志/矩阵；只存脚本、参数、run/hash、必要原输入。H<10KB，每MD<100KB，topic<200MB。独立新结论按规则8入results/R编号，results.md索引；不设冻结或额外强制复核门。
 
-[本次整理前完整H](notes/2026-11-28-handoff-before-ai-marked-transport.md)逐字保所有参数、失败及旧归档链；[open](open.md)、[results](results.md)、[R1051–1100索引](notes/PROOF-INDEX-R1051-R1100.md)给当前接续。旧更正继续生效，不重做已登记结论。
+[本次整理前完整H](notes/2026-11-28-handoff-before-ramified-finite-reader.md)逐字保所有参数、失败及旧归档链；[open](open.md)、[results](results.md)、[R1051–1100索引](notes/PROOF-INDEX-R1051-R1100.md)给当前接续。旧更正继续生效，不重做已登记结论。
 
 ## 实际同步、已读规则和认领
 
-readonly run46075603971/job140814304154，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 01:11:38UTC实际partial clone/pull至21f20cda2fc197ac87905980700a2d4a007fa3b2。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库01:11:43UTC实际至ed4146616edf701ed5dca1f59a2fb311bf8030b9。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与01:05已读版相同，无差异。QUEUE blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行已直接核为本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
-- 日志14886B/SHA256 27b5ac0b8bc9a2fa6bbf8be0b233f37d43cef2318bbffe1cacedd4c78f5d56b8；库存3166blobs/44,597,701B，treec603b827ab016dd19c0493c60743ac0d25f6ac85，无>5MB，三旧必要gzip不变。
-- 每推前重跑最新成功readonly job并消费。最迟2026-11-28 02:11UTC再次实际pull两库。ref竞争先本地pull，无环境则CI实际pull，读新差异后继续，不用API比较冒pull。
+readonly run46075603971/job140816965800，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 01:21:24UTC实际partial clone/pull至9fec9def2c0454779e509f6541919bd108c3bfd4。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库01:21:31UTC实际至a20319676d0d704c58fbf12ee6a103a7b95d7467。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与01:11已读版相同，无差异。QUEUE blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行已直接核为本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
+- 日志14887B/SHA256 cbfed1218d0befebef30adb57d3087923efe32cc0dc7e7a7e4599c5c9284601e；库存3166blobs/44,614,140B，tree113a90a1b0ff038c6b90edc6756743644c948b0c，无>5MB，三旧必要gzip不变。
+- 每推前重跑最新成功readonly job并消费。最迟2026-11-28 02:21UTC再次实际pull两库。ref竞争先本地pull，无环境则CI实际pull，读新差异后继续，不用API比较冒pull。
 - 本地07:20失联，00:48重试仍无环境；末次本地07:12至1cf10ac。API、CI、本地分记。
 
 ## 唯一原完整厚几何v13
@@ -25,21 +25,24 @@ readonly run46075603971/job140814304154，workflow source e5309ee152260aa4aef389
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)真实21000s/signal15/exit124；六612及下一306/Frob/maximal已返，四交/Norm/18×9未返。三项软件PASS与参数在[记录](notes/2026-11-27-original-scalar-support-software-and-production.md)：native46076504365、square46077929103、scalar46079484704/job140774878749；payload9916B/hash12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d。
 
 [v13](notes/2026-11-27-original-scalar-filtration-v13-production.md)保60旧源码+5新、两char0 pins、29/2453/64/minimal/artinian及全部数学终门；PREPARED/捕获别名/同商平方/scalar/triangular对象身份与R1050非约化d_i/md_i/f_i全保。
-**run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建，最新01:19实际in_progress。01:03再次GET日志与00:37同为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，尾00:18:25到positive scalar base-prime1第222/306列；四种本次binding已核。八条scalar全HNF/厚长/残域/边界、原四交、一般Norm、18×9、九对与最终all-requested尚未返。4CPU/16GB/21000s；不开第二heavy，不存可重算输出。
+**run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建，最新01:19实际in_progress。01:25再次GET日志与00:37及01:03同为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，尾00:18:25到positive scalar base-prime1第222/306列；四种本次binding已核。八条scalar全HNF/厚长/残域/边界、原四交、一般Norm、18×9、九对与最终all-requested尚未返。4CPU/16GB/21000s；不开第二heavy，不存可重算输出。
 
 ## 当前解析来源与真实AI接合
 
-[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)已证明未改动source的完整toric flat族及全部外权导数恒零。原good g2*F0有界、b2返回−F0；book正周期Ω0估值−p/(p²−1)、完整n!(n+2)!给正斜率。只杀完整和，不推点测度支撑/canonical/outward/signed零。
+[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)已证未改动source的完整toric flat族及全部外权导数恒零。good g2*F0有界、b2返回−F0；Ω0估值−p/(p²−1)、完整n!(n+2)!给正斜率。只杀完整和，不推点测度支撑/canonical/outward/signed零。
 
-[R1054](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)给剩余W_p=p^-4g2²*w0、bad=−F0+p²g2²*F0，raise-after-pull第二项p^(4n+2)。实际cyclic p²商vcC=1/p、Ω2=p^-2cCΩ0，new=p^-4(cCΩ0)^(3+2n)r_alg；不搬原点D102/S34界。全p⁴矩阵保体积p^-2/mixed−102AB/整球锚1；§8分成p^-2旧球和全部wild逆角色对，mixed旧新零。每局部块非零，全局投影仍可杀；新增p-torus不算原full54。完整旧flat由R1052零，new尚需实际端点比较。
+[R1054](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)保原W_p=p^-4g2²*w0、bad=−F0+p²g2²*F0与全部raised费用。cyclic p²商vc=1/p、Ω2=p^-2cΩ0，new=p^-4(cΩ0)^w r_alg。全p⁴矩阵保体积p^-2/mixed−102AB/整球锚；分为p^-2旧球与全部wild逆角色对。新增p-torus不算原full54，局部非零不推全局非零。
+§9的Chan行矩阵Pg_t^TP/h=bar t锁实际finite字、C_t=tC0及idèle=t^-1；Tate det/degree/cup/内在KS与raw Nt^-n bar t^w全付。三个微分分清，同C1的u单位；AI正权差(1−p^-2)R0，wild全和消旧并保全部p+1单位矩阵及1/p。AI仅用共同full2/full9的局部GM/marked构造，不套全局Heegner定理。
 
-R1054§9现已付第一轴finite字到真实CM类/正权向量。Chan行矩阵Pg_t^TP、h=bar t给t/bar t，整球锁scalar1；C_t=tC0、idèle=t^-1。Tate pairing比det(g)/degφ：g2²不改原cup=1，unit gt乘Nt；内在KS每次κ^-1，raw Nt^-n bar t^w全消。basic/idelic/Néron三个ω分清，同C1的u为单位；正权AI差准确(1−p^-2)R0，非平凡wild全和消旧，保p+1真实单位矩阵和所有1/p。只用原full2/full9共同cover的局部GM/marked构造；AI全局Heegner/Thm7.1不能免费套。新增ramified字尚不获原fixed canonical坏条件，central继续真实未平均关系。
+[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)付原主单位Möbius、det/KS、全μp闭盘及root平均互绕；作用逐点固定μp，不是根平移。
+[R1059](results/R1059-original-p-square-source-and-complete-critical-germ.md)已付同源全负二germ、Teich逼近、实际vC=2的Tate范数收敛和全部Maass尾；各裸Q_t测度不变，j_t=Nt^-j bar t^w只入外权Λ=λj_t。保p^-4、(1−p^-2)旧germ及period/det/log/外权导数。
+新增§8（f5e120f8）付同一Frobenius-rigid primitive与全实际图：p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉；全图保e_i/m_i和旧germ，exact-wild全正交时为−p^-4Σλe_i/(m_iΩ_i)AJ_out。ψ4十八degree17核/双sign/full9/1/12全保，不冒旧54。full9中心只在原source本征块平方为1，不称level字面不变。值身份不替A16全部权导数或原canonical关系。
 
-[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)付原主单位Möbius、det/KS与含全μp闭盘上的真延拓Φ=QexpE(logQ)，完整root平均互绕且逐点固定μp，不是根平移；g2²第一轴核已核。[R1059](results/R1059-original-p-square-source-and-complete-critical-germ.md)现付完整同源负二germ及斜率：各实际裸Q_t来源保持bounded，j_t=Nt^-j bar t^(3+2j)只入外权Λ=λj_t；真实Teich正整数极限、全Maass尾与vC=2的Tate范数收敛全付。保p^-4、(1−p^-2)旧germ、全部period/det/log/外权导数；旧值零不推旧斜率零。新增§8已付同一个Frobenius-rigid primitive与实际有限图：p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉，图式保e_i/m_i和(1−p^-2)旧germ；exact-wild全正交时为−p^-4Σλe_i/(m_iΩ_i)AJ_out。原ψ4十八degree17核/两sign/full9/1/12全保，不冒旧54。full9中心仅在原本征块平方为1，不称level字面不变。AI仅用局部GM；值身份不替A16全部斜率，原canonical返回仍开。
+[R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)给单位inverse-square矩、log及全Maass斜率、正KS/杯积Bol。直接Newton值用pH−1前缀，斜率用O(p(H+log_p(H+1)+1))及准确精度；旧Stirling另付vN!。逐Q根点仍不认单条CM图。
 
-[R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)给临界单位inverse-square矩、log与全部Maass斜率、正KS/正杯积Bol。直接Newton值用pH−1前缀，斜率O(p(H+log_p(H+1)+1))及floorlog_pJ精度；旧Stirling另付vN!。逐个Q根点仍不认单条CM图；R1059§8给整个有限读数的图身份。
+[连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)继续：literal通常剔除阶乘数列不连续；旧full54/六线/newpsi4连续cross、共同几何F单位仍条件化。p227/u1辅助65537只证char0非零，不证227单位。独立direct proper/晶体残余保原范围；O_D=(1−p^-2)G−λ_D*I_D/p²中incoming全Norm零不删outwardG。
 
-[连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)继续：literal通常剔除阶乘数列不连续；旧full54/六线/newpsi4连续cross、H−2/AJ、共同几何F单位均条件化。p227/u1辅助65537只证char0非零，不证227单位，不重算。独立direct proper/晶体残余按原范围保留。bad边界O_D=(1−p^-2)G−λ_D*I_D/p²；incoming全Norm零不删outwardG。
+[R1060](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)现付原全临界斜率的真实有限双核转置：R_n=Ω³ρ^n n!(n+2)!h_n、ρ=a p²κΩ²，逆Maass为e^-CT卷积，再用原Newton多项式给B_{i,H,ℓ}及完整精度。保K−old、全h积分/arch运输与冻结Λ/Λ′；图源−6δ/两√6及复γ逐槽代数化全付，不嵌复period本身。下Maass所有槽仍在，不能压为旧三条D102/S34 period；该投影与canonical授权继续开。
 
 ## 原矩阵、canonical读者与真正剩余门
 

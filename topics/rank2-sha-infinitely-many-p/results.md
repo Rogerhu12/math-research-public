@@ -245,3 +245,10 @@ $$
 R1059§8把同一负二germ接到Frobenius-rigid Coleman primitive及实际有限CM图：点式为p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉，全图保e_i/m_i与(1−p^-2)旧germ；exact-wild全正交时得到−p^-4Σλe_i/(m_iΩ_i)AJ_out。正KS/杯积、incoming V²、H¹次数及full9源本征作用逐项支付，实际ψ4十八degree17核/双sign/full9/Artin1/12全保。仅局部AI GM/proper fp，不套全局Heegner定理、不改原54来源；值身份不替全部权导数或原canonical必要关系。
 
 [完整证明](results/R1059-original-p-square-source-and-complete-critical-germ.md)，A20–A28。没有新增数学执行，课题主无穷p目标仍开。
+
+
+## R1060 — 原全双Gaussian来源的有限临界斜率转置
+
+R1060把同一裸Q2来源的完整临界斜率逐word转置到原双Gaussian核。原p²矩阵为K−old，保full h角色积分、全部lower-Maass槽和冻结Λ(-2)/Λ′(-2)；只在已付ω-frame作两rank-one分解。实际图源须−6δ并将两变量各除√6；真实复period按γ^-1H(Z/γ,W/γ)逐槽代数化，再取原p嵌入，不与book Ω相认。原Tate/cup/KS给R_n=Ω³ρ^n n!(n+2)!h_n、ρ=a p²κΩ²；完整逆三角成为e^-CT指数卷积。有限Newton读者给明确B_{i,H,ℓ}与全部槽/系数精度，误差只由原whole测度支付，不设各rank-one独立有界。尚不将全h和压成原三条D102/S34总period，也不赋新增字canonical零。
+
+[完整证明](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(1)–(25)。全部为同一来源的有限算子证明，无新增数学执行。
