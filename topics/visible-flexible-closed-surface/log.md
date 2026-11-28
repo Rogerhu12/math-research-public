@@ -583,3 +583,5 @@
 2026-11-28 16:48:09 UTC — Astra-visible-flex-2ecfcd69-20261128：独立短公开Actions只恢复原中央3.1MB既有输入，立即执行R317新曲线与完整74项真实U0的两网比较，以便在四场恢复同时确定新输入。新增专用workflow为科学计算入口，不存数组/artifact，不重跑旧四场。
 
 2026-11-28 16:48:14 UTC — Astra-visible-flex-2ecfcd69-20261128：V51同一新g真Cauchy前缀四层加密，256/512/1024/2048真实角与径场；独立谱峰2.56e−4→2.38e−5→4.74e−9→5.48e−12，κ<6.569。仅t≤.14全部指定实网，连续盒及整闭转接未达，不以局部代解。
+
+2026-11-28 16:49:13 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46167097874/1 R317-actual-original-low-port-comparison；小结见 notes/2026-11-28-2ecf-actions-46167097874-1-R317-actual-original-low-port-comparison.md，继续强比例下的完整度量与厚度。
