@@ -172,6 +172,6 @@ R1135 §15付原U_p=1的Π0(f/A^r)=(f/A)^p与准确逆B指数p−r−1。Wω的C
 R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β_CM t；coarse T*=β_CM^eT，e2/3。两CM β显式binomial unit，Gaussian β_CM=−δ_Car而非Cartan δ；这是底参数运输，不是旧Kummer读数到FL坐标的单位标定。继续同源中央组合。
 
 
-### R1135 §16：原 Gaussian forcing 的单来源安全行列式
+### R1135 §§16–17：原 Gaussian forcing 的同源有限 Gauss 行列式
 
-[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)在u=Hasse参数构造有限伴随ℓ、ξ=u/ℓ，Bξ=β_Gξ²+O(ξ^(p+3))；B^(p−r−1)首误差≥2p+1，完整原Frobenius常数避开后，原共振jets准确为T_rj=2(−1)^j binom(r,j)β_G^(1−r)J_rj。曲率与E10=(30/11)∂E8完整消去，Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)，J_rj=[u^(p−r+j)]E_(r+1)ℓ^j/β，M1/M3=[u^(p−7/p−5)]E8ℓ/ℓ³。只需≤p−5 Hasse伴随jet，J70=E8(TG)/β_G单位；指定det仍未unit。继续此实际单E8 moment关系，旧good mask/两twist/节点全保。
+[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原Hasse参数u、伴随ℓ与ξ=u/ℓ付B共轭首误差≥2p+1及原Frobenius常数避让；安全moment消去曲率给Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)。§17在x=−Y²/r_G³准确识别ℓ=L=F(1/12,1/12;1/2;x)、u=β_G YQ/(3r_G²)、Q=F(7/12,7/12;3/2;x)。p=12n+7/11分别Q=P_n或(1−x)^(1/3)P_n，P_n=F(−n,−n;3/2;x)，所以Q⁶真多项式degree N=(p−7)/2且t_N单位。全部Y-residue/符号付Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)，四系数按(1135.95)–(96)；最高只读(p−5)/2，全部Wronskian余项保留。仍须此完整det或其它原good行排实际余对，端点单位/char0正性不代非零，两twist/mask/节点全保。

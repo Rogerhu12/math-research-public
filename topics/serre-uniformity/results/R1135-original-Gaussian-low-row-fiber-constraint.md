@@ -2057,3 +2057,209 @@ $$
 未把非零端点、伴随解存在或原高阶方程唯一性代成 determinant 单位。
 原 good mask、节点 $S=0,P=0$ 及同一 coarse component 的两 twist
 继续保持既定范围。本节无数学程序执行。
+
+
+## 17. 同一 minor 的明确有限 Gauss 来源
+
+本节继续 §16 的同一指定点、同一 Hasse 参数与原 forcing。
+把局部 Lamé 解写成安全的 Gauss 系数，
+并给出 (1135.90) 的全部换元常数。
+这提供一个明确的有限行列式；仍不以正性、一般超几何非退化
+或其中一个端点的单位性代替该行列式非零。
+
+### 17.1 Gaussian 偶、奇两解
+
+简记 $r=r_{\rm G}$、$\beta_0^\dagger=\beta_{\rm G}$，并置
+$$
+x=-\frac{Y^2}{r^3},\qquad
+X=r(1-x)^{1/3},\qquad
+\kappa=\frac{\beta_0^\dagger}{3r^2}.
+$$
+$\beta_0^\dagger$ 仅是此节缩写，仍非原 torsion-root 的 $\beta_0$。
+所有分数幂均取常数项为一的分支。
+
+在 $D=\partial$ 下，$DY=3X^2$，
+所以 $D^2h=-Xh/4$ 对偶解 $h=h(x)$ 准确化为
+$$
+\boxed{\quad
+x(1-x)h''+\left(\frac12-\frac76x\right)h'
+-\frac1{144}h=0.
+\quad}
+\tag{1135.92}
+$$
+确实 $D^2h=9X^4h_{YY}+12XYh_Y$；
+代入 $x=-Y^2/r^3$ 后直接得到上式。
+
+令
+$$
+\begin{aligned}
+L(x)&={}_2F_1\!\left(\frac1{12},\frac1{12};
+                                  \frac12;x\right),\\
+Q(x)&={}_2F_1\!\left(\frac7{12},\frac7{12};
+                                  \frac32;x\right).
+\end{aligned}
+$$
+本节约定
+$$
+{}_2F_1(a,b;c;x)=\sum_{j\ge0}
+ \frac{(a)_j(b)_j}{(c)_j j!}x^j.
+$$
+在特征 $p$ 中只消费下面明确的安全前缀。
+偶解的初值为 $1,0$，奇解的 $Y$ 首项为一。
+(1135.82)–(1135.83)、(1135.92) 因而准确给
+$$
+\boxed{\quad
+\ell(u(Y))=L(x),\qquad
+u=\mathsf A=\kappa YQ(x),
+\quad}
+\tag{1135.93}
+$$
+第一式只读取至 $Y^{p-5}$。
+第二式先由同一安全 ODE 前缀识别，下一小节再以原 Hasse 次数
+支付完整代数式；其首项由 $D\mathsf A(T_{\rm G})=\beta_0^\dagger$ 固定。
+
+### 17.2 原 Hasse 列的真正终止多项式
+
+写
+$$
+(p,\epsilon)=
+\begin{cases}
+(12n+7,0),\\
+(12n+11,1),
+\end{cases}
+\qquad
+N=\frac{p-7}{2}=6n+2\epsilon,
+$$
+并定义
+$$
+P_n(x)={}_2F_1(-n,-n;3/2;x),\qquad
+L_n(x)={}_2F_1(-n-1/2,-n-1/2;1/2;x).
+$$
+$P_n$ 是次数恰为 $n$ 的多项式。
+在原安全范围内，参数的模 $p$ 同余及 Euler 变换给
+$$
+\boxed{\quad
+Q(x)=(1-x)^{\epsilon/3}P_n(x),\qquad
+L(x)=(1-x)^{\epsilon/3}L_n(x).
+\quad}
+\tag{1135.94}
+$$
+$p=12n+7$ 时 $7/12=-n$、
+$1/12=-n-1/2$ 模 $p$。
+$p=12n+11$ 时，Euler 变换分别把 $Q,L$ 的两个上参数
+改成 $11/12,5/12$，并提出共同 $(1-x)^{1/3}$；
+它们再分别同余于 $-n,-n-1/2$。
+
+对 $Q$，此处不只有有限前缀身份。
+原 Hasse 多项式的 weight 与 $b$-奇性表明：
+$p=12n+7$ 时 $\mathsf A$ 是 $Y$ 乘 $Y^2$ 的次数 $n$ 多项式；
+$p=12n+11$ 时则是 $XY$ 乘 $Y^2$ 的次数 $n$ 多项式。
+结合 (1135.93) 的原初值与逐系数唯一性，
+(1135.94) 第一式因此是同一原函数的准确代数表达。
+所以
+$$
+\boxed{\quad
+T(x):=Q(x)^6=(1-x)^{2\epsilon}P_n(x)^6,\qquad
+\deg T=N,\qquad
+t_N=[x^N]T=\left(\frac{n!}{(3/2)_n}\right)^6\ne0.
+\quad}
+\tag{1135.95}
+$$
+最高符号为 $(-1)^{2\epsilon}=1$。
+所有阶乘及 $(3/2)_n$ 的因子都小于 $p$。
+
+下面最高只读
+$N+1=(p-5)/2$。
+$(3/2)_j$ 的首个 $p$ 因子出现在 $j=(p-1)/2$，
+$(1/2)_j$ 的首个 $p$ 因子出现在 $j=(p+1)/2$；
+两者都严格在所读范围外。
+所有分数幂的本次系数也只需 $j!$、$j<p$。
+因此 (1135.94) 第二式及后面的全部乘积都在已付安全 jet 内；
+没有把第二个伴随解宣为无共振的整条 characteristic-$p$ 级数。
+
+### 17.3 四个有限系数的完整尺度
+
+用同一 $Q,L$ 定义
+$$
+\begin{aligned}
+b_N&=[x^{N+1}]\,Q^4L^2,\\
+c_N&=[x^N]\,(1-x)^{2/3}Q^6L(Q+2xQ'),\\
+d_N&=[x^{N+1}]\,(1-x)^{2/3}Q^4L^3(Q+2xQ').
+\end{aligned}
+\tag{1135.96}
+$$
+这些是本节的有限系数，非原 Kronecker 的 $c_s,d_s$。
+它们可以直接以 (1135.94) 的同一个有限 Gauss 对计算。
+
+由于
+$\mathcal E_8\omega_\Delta=(9/10)dY$、
+$\mathcal E_8=27r^2(1-x)^{2/3}/10$，
+在原 $Y$ 参数取 residue 得
+$$
+\boxed{\begin{aligned}
+J_{7,0}&=\frac9{10}\kappa^5 r^{-3N}t_N,\\
+J_{7,2}&=-\frac9{10}\kappa^3 r^{-3N-3}b_N,\\
+\mathcal M_1&=\frac{27}{10}r^2\kappa^6r^{-3N}c_N,\\
+\mathcal M_3&=-\frac{27}{10}r^2\kappa^4r^{-3N-3}d_N.
+\end{aligned}}
+\tag{1135.97}
+$$
+例如第一式读取
+$(9/10)\kappa^{6-p}Y^{6-p}Q^{6-p}dY$。
+因 $N<p$，$Q^{-p}$ 在该系数中只贡献常数一；
+又 $\kappa\in\mathbf F_p^\times$，故
+$\kappa^{6-p}=\kappa^5$。
+$N$ 为偶，$N+1$ 为奇，
+$[Y^{2j}]H(-Y^2/r^3)=(-r^{-3})^j[x^j]H(x)$
+正给第二、第四式的负号。
+这里始终在 $Y$ 中读取 residue，只作这个系数换算，
+没有另除二次映射的次数。
+
+将 (1135.97) 代入 (1135.90)，使用
+$\kappa=\beta_0^\dagger/(3r^2)$ 及
+$r^{-6N-19}=r^{-3p+2}=r^{-1}$，得到
+$$
+\boxed{\quad
+\Delta_{\rm low}
+=\frac{8}{4455\,r\,(\beta_0^\dagger)^2}
+       \left(3b_Nc_N-t_Nd_N\right).
+\quad}
+\tag{1135.98}
+$$
+$4455=3^4\cdot5\cdot11$ 在本范围为单位。
+因此这次化简没有留下未定的 period、relative Cartier
+或 Gaussian 参数尺度。
+
+### 17.4 保留全部 Wronskian 余项
+
+两实际 Gauss 解的 Wronskian 给
+$$
+\boxed{\quad
+(1-x)^{2/3}
+ \bigl((Q+2xQ')L-2xQL'\bigr)=1.
+\quad}
+\tag{1135.99}
+$$
+其常数由 $Q(0)=L(0)=1$ 固定。
+它也直接等价于
+$(D\mathsf A)\ell-\mathsf A D\ell=\beta_0^\dagger$
+在所需安全前缀上的身份。
+
+例如，(1135.99) 准确给
+$$
+\begin{aligned}
+c_N&=t_N+
+  2[x^{N-1}](1-x)^{2/3}Q^7L',\\
+d_N&=b_N+
+  2[x^N](1-x)^{2/3}Q^5L^2L'.
+\end{aligned}
+\tag{1135.100}
+$$
+这些余项都是原同一来源的一部分，不能把
+$c_N,d_N$ 分别换成 $t_N,b_N$。
+(1135.95) 支付了 $t_N$ 的单位，
+但目前仍须对 (1135.98) 的完整
+$3b_Nc_N-t_Nd_N$ 或原其余 good 行给出新约束。
+本节只建立这个明确有限 Gauss 来源，
+不使用 characteristic-zero 正性或一般矩阵满秩。
+原 actual mask、两 twist 和节点边界继续完整保留；无数学程序执行。

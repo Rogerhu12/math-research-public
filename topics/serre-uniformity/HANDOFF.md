@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：09549e68dde00a5946d729686b1aa0a0d841ec95**（2026-11-28 08:31 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：521a0c47b70781245f898392b8d7377b4c78cf5a**（2026-11-28 08:42 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 08:28:21 Asia/Taipei，Actions run46088030307/job140802126576，blob:none浅clone真实pull --rebase至9055c2a9，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤09:18、pull≤09:28。本地08:27仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -64,7 +64,7 @@ R1135 §13付原固定Δ曲线Y²=X³−Δ/27及∂/Hasse导子；bad Bp−7时W
 
 R1135 §§14–15付原Katz forcing/有界唯一、Π0(f/A^r)=(f/A)^p及逆B指数p−r−1。Wω Cartier恒0；指定XiG=½dlog(X−rG)给C(WXiG)=W(TG)XiG′，值非零未付。
 
-R1135 §16用u=Hasse、有限伴随ℓ及ξ=u/ℓ，把原forcing准确读为T_rj=2(−1)^j binom(r,j)β_G^(1−r)J_rj，首误差≥2p+1。曲率全消后Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)，只原E8与≤p−5 jet；J70单位不代det，继续该真实四moment。
+R1135 §§16–17用原Hasse伴随ℓ读准确forcing/消曲率，Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)。同源Gauss对L=F(1/12,1/12;1/2)、Q=F(7/12,7/12;3/2)，Q⁶真多项式N=(p−7)/2；完整Y-residue付Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)。只≤p−5 jet，t_N单位不代det，Wronskian全部余项保留，继续实际非零。
 
 ## 已成、禁止重做与其它入口
 
