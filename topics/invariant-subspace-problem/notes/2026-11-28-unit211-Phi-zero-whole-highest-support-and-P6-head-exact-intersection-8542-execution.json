@@ -1,0 +1,204 @@
+{
+  "schema": "isp-original-support-intersection-small-receipt-v1",
+  "scope": "Phi=0,D!=0,whole first quadratic head paid",
+  "run_id": 46088133539,
+  "job_id": 140802466730,
+  "execution": {
+    "elapsed_seconds": 1.2187464280000313,
+    "max_child_rss_kib": 49176,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9a9868c5e67083a3bd07563d0d8d2853a8bff52a",
+        "before": "9a9868c5e67083a3bd07563d0d8d2853a8bff52a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:29:34.380989+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46088133539",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9a9868c5e67083a3bd07563d0d8d2853a8bff52a",
+    "source_exit_code": 0,
+    "source_git_blob": "47aaafc94caf3880e330c2570fb2b8d8e8f76616",
+    "source_sha256": "a8d3f03e401a7a7c356da40e1f353ab5d3e879b9455a09a2f73d526c7df1af47",
+    "stdout_bytes": 2929,
+    "stdout_sha256": "76e30c754f13e57d7aff051335703985d10604c640b9dcb16477d9a4c286f6f8",
+    "stop_reason": null
+  },
+  "mathematical_records": [
+    {
+      "sourcePrefixBytes": 9094,
+      "oldGaussianNotExecuted": true,
+      "uniqueOriginalThreeCoefficientTargetReturned": true,
+      "fullWeightDenominator": {
+        "degrees": [
+          78,
+          52,
+          0,
+          0,
+          0
+        ],
+        "terms": 2611,
+        "bytes": 143122,
+        "sha256": "662239cc0ed91ebf8b96e4e5f5dc282db19c58963e203d3e342c64fd183c1970"
+      },
+      "newRetainedWeightSupport": {
+        "degrees": [
+          74,
+          49,
+          0,
+          0,
+          0
+        ],
+        "terms": 2403,
+        "bytes": 128055,
+        "sha256": "f2fcd6f323adaf47121341fc2e28c8af92dfba0e84dd13ed87e96f1f77081d8a"
+      },
+      "oldRemovedPaidWeights": [
+        {
+          "unit": "Q",
+          "passes": 1
+        },
+        {
+          "unit": "ell",
+          "passes": 2
+        }
+      ],
+      "additionalWholePhiEllThreeHalvesDivisions": 0,
+      "entireRemainingSupportRetained": true,
+      "stage": "new_same_original_highest_support_input_by_direct_adjugate",
+      "seconds": 1.102573570000004
+    },
+    {
+      "savedFileSHA256": "7cc9dcf4c8f716055518324966cf8c156c961c5204dfb156ede054f63568765b",
+      "savedPayloadSHA256": "9e50cc2a30cf8500b7bef25f8e579334c2b46f8d896662759cdc0ec85f35542c",
+      "fixedOriginalLambdaDegree": 6,
+      "retainedHeadSupport": {
+        "degrees": [
+          19,
+          11,
+          0,
+          0,
+          0
+        ],
+        "terms": 137,
+        "bytes": 3412,
+        "sha256": "24f31b9bac95b9e45fc2f8a5fffc1035dece82238d19f1ec5030c68e026b424d"
+      },
+      "originalFullHead": {
+        "degrees": [
+          34,
+          19,
+          0,
+          0,
+          0
+        ],
+        "terms": 387,
+        "bytes": 11426,
+        "sha256": "87edb3791eb26d56a3f6dc5257dc1b99fa8d935f266bfae86a2ff0899017ec90"
+      },
+      "removedOnlyPaidWeights": [
+        {
+          "unit": "u",
+          "passes": 1
+        },
+        {
+          "unit": "u-1",
+          "passes": 2
+        },
+        {
+          "unit": "Q",
+          "passes": 1
+        },
+        {
+          "unit": "1-Q",
+          "passes": 1
+        },
+        {
+          "unit": "ell",
+          "passes": 6
+        }
+      ],
+      "originalHeadFactorizationNotReplayed": true,
+      "noCoefficientPayloadPrintedOrWritten": true,
+      "stage": "new_saved_original_P6_actual_lambda_six_head_input",
+      "seconds": 1.1178466410000283
+    },
+    {
+      "sourceSHA256": "a8d3f03e401a7a7c356da40e1f353ab5d3e879b9455a09a2f73d526c7df1af47",
+      "highestSupport": {
+        "degrees": [
+          74,
+          49,
+          0,
+          0,
+          0
+        ],
+        "terms": 2403,
+        "bytes": 128055,
+        "sha256": "f2fcd6f323adaf47121341fc2e28c8af92dfba0e84dd13ed87e96f1f77081d8a"
+      },
+      "originalSixthHeadSupport": {
+        "degrees": [
+          19,
+          11,
+          0,
+          0,
+          0
+        ],
+        "terms": 137,
+        "bytes": 3412,
+        "sha256": "24f31b9bac95b9e45fc2f8a5fffc1035dece82238d19f1ec5030c68e026b424d"
+      },
+      "exactCommonWeightFactor": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "bytes": 18,
+        "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+      },
+      "bothExactQQDivisionsMultipliedBack": true,
+      "residualQQCoprimalityReturned": true,
+      "exactCoprimalityOfOriginalSupports": true,
+      "highestSupportTotalDegree": 86,
+      "sixthHeadTotalDegree": 19,
+      "exceptionalCommonAffineWeightSetFinite": true,
+      "commonAffineWeightDistinctPointUpperBound": 1634,
+      "outsideIntersectionOriginalFiberGeneratedByAtMost": 21,
+      "onOriginalSixthHeadComplementOriginalFiberGeneratedByAtMost": 18,
+      "onNewHighestSupportComplementOriginalFiberGeneratedByAtMost": 21,
+      "originalModuleNotAssumedFree": true,
+      "noBoundForFibersAtTheEntireCommonZeroLocus": true,
+      "wholePhiEmpty": false,
+      "noClaimThatEitherSupportIsNecessaryForAllOriginalPoints": true,
+      "noLargeProjectionOrOldCofactorGaussianNormModuleGateExecuted": true,
+      "noRecomputableCoefficientPayloadEncodingOrSplitWritten": true,
+      "peakRSSKiB": 48396,
+      "stage": "new_exact_original_highest_and_P6_weight_support_intersection_finished",
+      "seconds": 1.1432676729999685
+    }
+  ],
+  "claims": {
+    "coprime_QQ_supports": true,
+    "finite_common_weight_points_upper_bound": 1634,
+    "all_original_weight_points_finite": false,
+    "original_phi_empty": false,
+    "ordinary_isp_complete": false
+  },
+  "resource_limit": {
+    "seconds": 120,
+    "memory_bytes": 1073741824
+  },
+  "no_coefficient_payload_saved": true
+}

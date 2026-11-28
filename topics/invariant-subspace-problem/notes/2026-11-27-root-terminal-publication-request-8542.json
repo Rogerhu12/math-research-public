@@ -1,18 +1,21 @@
 {
-  "message": "ISP R150: prove exact W two-column sextics and Phi five-weight infinity support; start entire H198",
-  "parentCommit": "4c13da4105f2c61b68c2e1bb582f473d7b21196d",
+  "message": "ISP R150: prove the 1634-weight exceptional set and start new original Phi two-column and infinity targets",
+  "parentCommit": "93c9dcfa550ce4ac1c2e9b34492ccffd92adb3ad",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-H198-complement-exact-fifteen-two-columns-and-two-primitive-sextics.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-complement-exact-fifteen-two-columns-fixed-pairs-receipt-8542.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-highest-D2-zero-five-weight-support.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-zero-infinity-original-four-quadratics-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-H198-vs-native-P164-fixed-integral-model-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-H198-vs-native-P164-fixed-integral-model-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-h198-native-integral.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-coprime-original-highest-supports-and-1634-exceptional-weights.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-highest-support-and-P6-head-exact-intersection-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-infinity-original-weight-cofactor-unit-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-infinity-original-weight-cofactor-unit-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-N1-slope-exact-six-by-two-mean-presentation-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-N1-slope-exact-six-by-two-mean-presentation-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-d2-weight-unit.yml",
+    ".github/workflows/invariant-subspace-8542-phi-slope-six-two.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-1634-and-new-two-column-inputs-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-1634-and-new-two-column-inputs-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,6 +25,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-h198-native-integral.yml"
+    "invariant-subspace-8542-phi-d2-weight-unit.yml",
+    "invariant-subspace-8542-phi-slope-six-two.yml"
   ]
 }
