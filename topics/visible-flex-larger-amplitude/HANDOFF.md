@@ -31,7 +31,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 1f705887c42d784b73f3f67e7831d1e0681125f5
 
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
@@ -58,3 +57,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a6d2af96ad47b4bb66484b43ec23a4c51c256f4a
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull eec14989e32c0ae8d67ea851efd2e8a7cf5c5058
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull bf9cd88bca9f2d5f813296f8c27001a8414418cb
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 48c9789c69fa0b281132428b65ae2cef1c63a447
