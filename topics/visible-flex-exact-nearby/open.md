@@ -170,3 +170,6 @@ GSA：同193/97+96与两mean的有符号affine列和所有独立port经NPG/FHC�
 
 
 GLC-R：原首次0科学失败已保。91个stage中90照原S.admit，唯一helper按原new_unsaved_helper/publication/source/manifest/runtime及两native边和整SHA接受；根97whole/3384150B通过。全部G.7/两列/频带/规则及whole门不变，新入口首次算未付格。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GIC：所有n≥4194308在实际实剖面用两次原有序B分部及低阶余项再分部，完整频率盘和全部角导Cauchy后5/6插值得同源H^-5/3范数；全部两列/两sign/内部mean保。有限带与无穷自然输入正交，仅公共Ni左侧合并；首发27pins/2AST/5新比较通过，实际数值及其余全域源仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

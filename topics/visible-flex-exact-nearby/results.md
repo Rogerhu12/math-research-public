@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GIC：原局部genuine全无穷带的物理强范数](results/R149-supplement-infinite-true-profile-tail-of-the-complete-genuine-collar-source.md)：所有n≥4194308在实际实剖面用两次原有序B分部及低阶余项再分部，完整频率盘和全部角导Cauchy后5/6插值得同源H^-5/3范数；全部两列/两sign/内部mean保。有限带与无穷自然输入正交，仅公共Ni左侧合并；首发27pins/2AST/5新比较通过，实际数值及其余全域源仍待。
+
 - [GLC-R：原唯一helper真实谱系的准入修复](notes/2026-11-28-GLC-actual-helper-lineage-correction.md)：原首次0科学失败已保。91个stage中90照原S.admit，唯一helper按原new_unsaved_helper/publication/source/manifest/runtime及两native边和整SHA接受；根97whole/3384150B通过。全部G.7/两列/频带/规则及whole门不变，新入口首次算未付格。
 
 - [GSA：全正侧有符号解及全部独立物理输入列](results/R149-supplement-public-signed-physical-response-and-independent-port-columns.md)：同193/97+96与两mean的有符号affine列和所有独立port经NPG/FHC真逆给整cut/负窗单位响应；零port只定义affine常数，不当真匹配。原GG实际失败使metadata ready=false、manifest/workflow/新科学0；后继新图须自身完整合同。phase的2^-33000域与regular实际残差尚须兼容。
