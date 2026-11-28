@@ -33,7 +33,7 @@ RET83–86保完整来源/原结果/失败/固定Git恢复；[delivery JSON空�
 
 <!-- visible-larger-parallel-26:start -->
 Actions26：[run 46103106086/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46103106086)；[全阶段记录](notes/2026-11-28-public-actions-46103106086-1.md)。running；已返2，exit=未返。
-并行26规则核查：2026-11-28 09:04:31 UTC，真实pull至`8e65ab461824962b9bf65800b303020236aa80b0`，双README无变化。
+并行26规则核查：2026-11-28 09:19:43 UTC，真实pull至`035ac6a0eb458f9ab1f7a5df5be0126a723187a6`，双README无变化。
 <!-- visible-larger-parallel-26:end -->
 
 <!-- visible-larger-parallel-27:start -->
