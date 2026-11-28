@@ -45,7 +45,7 @@ y=\frac{\ell W_1-uV}{M},\qquad
 t=(f-u)s.
 \tag{2}
 $$
-物理原图仍要求 $\eta\ne0$，该条件没有从多项式环境中删除。原 $\alpha=\eta\gamma$；整个 $\alpha=0$ 支的处理独立登记，本篇不处理它。
+物理原图仍要求 $\eta\ne0$，该条件没有从多项式环境中删除。原 $\alpha=\eta\gamma$；[整个 $\alpha=0$ 原排除](R150-appendix-unit211-W-entire-alpha-zero-complete-original-exclusion.md)已独立完成，因此本图覆盖整个当前剩余 W。
 
 式 (2) 中 $x,y,t,\lambda,T$ 都对 $f$ 至多一次。源使用真实 dual 乘法
 $$
