@@ -602,3 +602,170 @@ $z_{12},x_4,y_8,y_7$ 一起计算。
 
 root 与 o1 分别纸读两个 weight-eight 词，并交叉核完整表。
 全部新结论均为纸面推导；没有执行数学程序或重扫旧 prime 窗口。
+
+
+## 13. 同一原 Soulé 规范的绝对中央坐标
+
+现在固定 §3 的 Ihara 群律及原 compatible Tate generators，
+进一步消去 §2 暂留的两个缩放。这里需要比较实际 Galois action，
+不能只在 $r,s$ 已知非零时倒除两个局部数。
+
+### 13.1 路径、逆共轭与两个准确阶乘
+
+采用 NSW（2017）§2.1、(2.4) 的定义：
+对标准路径 $\gamma$，令
+$$
+\gamma=f_\sigma\cdot\sigma(\gamma),\qquad
+\log f_\sigma\equiv
+-\sum_{r\ge1}\ell i_r(1)(\sigma)\operatorname{ad}_X^{r-1}Y
+\quad\bmod(\operatorname{depth}\ge2).
+\tag{1152.47}
+$$
+在基本群中由此有
+$$
+\sigma(x)=x^{\chi(\sigma)},\qquad
+\sigma(y)=f_\sigma^{-1}y^{\chi(\sigma)}f_\sigma.
+$$
+也就是说，同一标准 $X=\log x,Y=\log y$ 下的作用是
+**逆共轭**，与 (1152.12) 完全相同。其乘法次序也可直接核准：
+$f_{\sigma\tau}=f_\sigma\sigma(f_\tau)$；
+在 $\ker\chi$ 上代入上式，正是
+$$
+f_{\sigma\tau}
+=f_\sigma(X,Y)\,
+ f_\tau(X,f_\sigma^{-1}Yf_\sigma)
+=f_\sigma\circ f_\tau .
+\tag{1152.48}
+$$
+因此这里用的是 $f_\sigma$，不是它的普通 inverse 或 Ihara inverse。
+群胚的路径书写顺序若换约定，必须连同上述逆共轭身份一起运输；
+不能只将 (1152.47) 的负号删掉。
+两切向点在 $1$ 处若用相反的单位切向量，其差为 $-1$ 的
+$p$-primary Kummer 类，因 $p$ 为奇数而为零。
+原 Tate generators 没有另作 rescaling。
+
+NSW Proposition 2.2 / Lemma 2.4 对奇数 $r=3,5$ 给
+$$
+\ell i_r(1)|_{\ker\chi}
+=\frac{\gamma_{r,\infty}|_{\ker\chi}}
+       {(r-1)!\,(1-p^{r-1})}.
+\tag{1152.49}
+$$
+其 (2.11) 是原加权 Kummer product 本身，
+没有再除 $p-1$：§11 中 projector/corestriction 的单位说明，
+在这里由所固定的未平均加权和取代。
+原 $\gamma_r$ 的第一层正是 R1148 (1148.27) 及其权五版本。
+
+$\sigma_r$ 的 depth-one 系数规范为一，所以 (1152.47)–(1152.49)
+直接读取该 mixed Tate quotient 的两个 abelian Galois classes：
+$$
+-\frac{\gamma_{3,\infty}}{2!(1-p^2)},\qquad
+-\frac{\gamma_{5,\infty}}{4!(1-p^4)}.
+$$
+restriction 的单射已在 §11 支付；因而这些是整个 $S_0$ 上的
+同一类，非只在 cyclotomic kernel 上的数值身份。
+反除 $p$ 后的 Betti/de Rham fibre-functor comparison 保同一
+Tate generators，且任何 unipotent path 变换在 abelianization 上
+只是 coboundary，不改变上述两个系数。
+
+因此 (1152.10) 的实际缩放准确为
+$$
+\boxed{\quad
+c_3=-2(1-p^2),\qquad
+c_5=-24(1-p^4).
+\quad}
+\tag{1152.50}
+$$
+先在 global classes 上确定它们，才作 localization；
+没有用一个可能为零的局部值测定线性映射。
+原 global central $H^1$ 为零，所以这两个准确 abelian
+identifications 同样锁定整个 Heisenberg lift，
+第三槽仍乘 $c_3c_5$，不能另加一个中央常数。
+
+### 13.2 三个绝对有限读数及真实中央差
+
+将 (1152.50) 约化，并用 (1152.38)/(1152.42)，得到
+$$
+\boxed{\quad
+r=\frac23\beta_3,\qquad
+s=\frac{24}{5}\beta_5,\qquad
+z=\frac{48}{25}(J_p+2\beta_3\beta_5).
+\quad}
+\tag{1152.51}
+$$
+这些公式不要求 $\beta_3\beta_5\ne0$。
+它们是在 R1151 原 Tate frame 内的实际坐标；
+(1152.45) 的比值和 §11 全部七分支表均保持不变。
+
+令 $\mathcal B=\beta_3\beta_5$。则对任意实际 local 三槽，
+原 subtraction polynomial 有准确尺度
+$$
+\mathcal D=rs\,\mathsf h-z\,\mathsf a\mathsf b
+=\frac{16}{25}
+ \left(5\mathcal B\mathsf h-3(J_p+2\mathcal B)\mathsf a\mathsf b\right).
+\tag{1152.52}
+$$
+当 $\mathcal B=0$ 时，这一多项式等式仍然成立，
+但其零集不能替代 §11 完整分支表。
+
+具体地，原 Gaussian/cubic 最高项现在分别为
+$$
+\boxed{\quad
+[T^3]\mathcal D
+=\frac{256}{25}\delta^3c_g^6
+ \left(5\mathcal Bz_{12}-3(J_p+2\mathcal B)x_4y_8\right),
+\quad}
+\tag{1152.53}
+$$
+$$
+\boxed{\quad
+[T^2]\mathcal D
+=\frac{256}{25}\delta^3c_g^6
+ \left(5\mathcal Bz_{12}
+       -\frac12(J_p+2\mathcal B)\lambda A_*y_7\right).
+\quad}
+\tag{1152.54}
+$$
+通用八次项的同一因子则为
+$$
+\frac{3rs}{8}-z
+=-\frac6{25}(11\mathcal B+8J_p).
+\tag{1152.55}
+$$
+这些均仅为原已经存在的 subtraction 的准确有限读数，
+不是其非零性。
+
+### 13.3 对真实 Miller 校准单位的严格后果
+
+为与 R1153 直接对接，记其实际单位
+$$
+\eta_\star=U_\star\gamma_\star^{-2}\in\mathbb F_p^\times.
+$$
+将 (1152.51) 与 R1153 (1153.24) 比较，只能无条件得到
+$$
+\boxed{\quad
+(\eta_\star-1)\beta_3=0,\qquad
+(\eta_\star^2-1)\beta_5=0.
+\quad}
+\tag{1152.56}
+$$
+特别：
+
+- $\beta_3\ne0$ 时，$\eta_\star=1$，
+  故所有原 reference 的 $U_E=\gamma_E^2$。
+- $\beta_3=0,\ \beta_5\ne0$ 时，先只有 $\eta_\star=\pm1$。
+  若再有 $p\equiv3\pmod4$，则仍有 $\eta_\star=1$：
+  R1153 给 $U_\star=4\delta c_{g,\star}^2\beta_\star^2$，
+  $\delta$ 为非平方；而
+  $(\gamma_\star^2)^{(p-1)/2}
+   =\gamma_\star^{p-1}=-1$，
+  所以 $\eta_\star$ 是平方。
+  此时 $-1$ 为非平方，便排掉负号。
+- 两个 $\beta$ 同零时，(1152.56) 不检测该单位；
+  原 R1153 的实际 Miller 公式继续完整使用。
+
+这最后一项边界是必需的：即使局部 $H^1$ 是一维，
+一个已经消失的局部 global class 也不能用来标定这条整线。
+本节没有宣称在全部 bad 分支已付普遍 principal-polarization
+标量比较。中央 $z_{12}$、较低中央项及 whole $p$-disk 的
+排除继续；无数学程序执行。

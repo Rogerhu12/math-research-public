@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f03239c456951e8d963d2ff1675dd618b882c0a5**（2026-11-28 09:14 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：9fec9def2c0454779e509f6541919bd108c3bfd4**（2026-11-28 09:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:10:35 Asia/Taipei，Actions run46091738995/job140813986118，blob:none浅clone真实pull --rebase至fba6b41d，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:00、pull≤10:10。本地09:10仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -38,7 +38,7 @@ R1149 §§11–16付u=pt整Taylor、真实finite q_t/λ/binomial及F0三槽：a=
 
 R1148 §12付rank-p character计数及ℓ>4D_p²的共同affine lift，D_p=g+p(p−1)(g−1)。大Chebotarev存在不能代affine空；完整界/source沿open，继续小素实际值/p-local。
 
-R1152 §§1–12付原Θ∞/MT(Z)/正向Frobenius同源及完整finite harmonic尾项。记β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)，实际单位缩放下ap=−β3/3、bp=−β5/5、hp=(J+2β3β5)/25；r/s零⇔对应β零，z零⇔J+2β3β5零。rs非零κ=z/(rs)=6/5+3J/(5β3β5)，全部七分支已有限化；3/8−κ=−3(11β3β5+8J)/(40β3β5)。未宣J或原F0组合非零；继续z12/深盘。
+R1152 §§1–13付原Θ∞/MT(Z)/正向Frobenius、全尾估值及完整有限读数。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)；实际c3/c5=−2(1−p²)/−24(1−p⁴)，故r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25，无good假设；七分支全保。rs非零κ=6/5+3J/(5β3β5)。原F0最高组合/深盘仍开；R1153的U★γ★⁻²在β3好或p4k3且β5好时恰1，两β坏不外推。
 
 [R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付原raw Q1/Q2到finiteFL的完整比较：U_E=4δc_g,★²β★²·a_E²，a_E为实际Miller比；a=U_E Q1(β_Et)，b=U_E²Q2(β_Et)+ks。无需Bernoulli-good，读全q_t可见x2..4/y4..8及Gaussian x4/y8、cubic y7。generic Fp SS校准由Deuring/Heilbronn给独立C_SS，全部global范围取max(C_SS,C_cyc)。r=(2/3)U★γ★⁻²β3，s=(24/5)U★²γ★⁻⁴β5。中央z12仍未付，不把被q_t恒杀的其它X/Y项称已读。
 

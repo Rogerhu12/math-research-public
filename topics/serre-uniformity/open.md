@@ -136,3 +136,9 @@ R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β
 [同文§9](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)以r=xy、W=2x⁶−1付真实degree6 genus2商，再由z=r⁻²、w=Wr⁻³得degree2 E*:w²=z³−4及精确微分。唯一奇原函数H*=wA_N(z³)满足dH*=z^((p−1)/2)ω*、极阶p−2；原P−r^pH*是真pth补偿，完整Cartier给C(H*²ω*)=Λ zω*且唯一指数2p−1。
 
 A_N(T)=−T^N G_N(4/T)/2恰接同一原R1137；故Λ=4^(N−1)[x^N](1−x)^−1/2D_N，保完整首共振。已付的是原114第二插入及高极系数的准确来源；未证Λ单位，不删十八cross或原Pell双缺陷。继续该有限functional与原短flag的实际关系。
+
+### R1152 §13：原全局三槽的绝对有限归一
+
+[R1152 §13](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)从NSW标准fσ=γ·σ(γ)⁻¹及同一inverse-conjugation/Ihara law直接确定c3=−2(1−p²)、c5=−24(1−p⁴)，不以局部非零类倒除。于是原r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25在全部退化分支成立。真正D=(16/25){5β3β5 h−3(J+2β3β5)ab}；两β有零时仍须完整七分支，而非仅D0。
+
+Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8}、(256/25)δ³c_g⁶·{5β3β5 z12−(J+2β3β5)λA*y7/2}，通用因子3rs/8−z=−6(11β3β5+8J)/25。旧Miller单位η★=U★γ★⁻²满足(η★−1)β3=(η★²−1)β5=0；β3好、或p4k3且β5好时η★1，因此U_E=γ_E²。两个β都坏不据消失类标定，保R1153实际单位。中央z12/非零与全深盘继续。

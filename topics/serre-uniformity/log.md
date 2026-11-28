@@ -714,3 +714,7 @@
 ### 2026-11-28 09:14 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原genus4 §9付114第二插入的真实genus2/椭圆商、唯一奇primitive、完整pth补偿及唯一Cartier指数，准确接原G_N/D_N。root核映射/微分/极界/反序尺度，旧1–8逐字保留后即推。
 - Λ仍未unit，十八cross与Pell双缺陷继续；没有数学执行或旧窗口重算。
+
+### 2026-11-28 09:23 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1152 §13按原fσ路径及inverse-conjugation群律付两个准确阶乘/符号，给原r/s/z绝对有限值，完整中央最高项同步代入。校准单位只在实际可测good分支化为1，未用零局部类标定整线。
+- 旧1–12逐字保留；原z12、其余中央项与whole盘/full Nns继续，无数学执行。

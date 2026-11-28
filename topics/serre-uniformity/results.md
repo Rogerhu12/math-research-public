@@ -6,7 +6,7 @@
 
 - **R1154（已证明）**：[原Gaussian首标签与联合Gauss moment](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原H_p的r5 forcing/尺度、反序Hasse共同Gauss前缀与零带、minor两共同边界抵消全付。真实余对须同源两moment同时零，保actual good mask；联合不可能性继续。
 
-- **R1152（已证明，§§1–12）**：[原全局中心的权八Frobenius与准确有限读数](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)：原Θ∞/finiteFL/MT(Z)同源；完整Ihara和整尾控制给ap=−β3/3、bp=−β5/5、hp=(Har_p(1,3,4)+2β3β5)/25。原缩放为单位，全部零分支及κ=6/5+3Har_p(1,3,4)/(5β3β5)均付；未宣原F0中央组合非零。
+- **R1152（已证明，§§1–13）**：[原全局中心的权八Frobenius与准确有限读数](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)：原Θ∞/finiteFL/MT(Z)、全尾与完整Ihara词表付r=2β3/3、s=24β5/5、z=48(Har_p(1,3,4)+2β3β5)/25。绝对阶乘/符号及全部退化分支已付；κ与实际中央减法明确，原F0组合非零仍开。
 
 - **原Gaussian minor的明确有限Gauss来源（已证明）**：[R1135 §17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)同一Hasse/伴随两解、两终止支与四个Y-residue尺度全付；Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)，Q⁶真多项式及顶项单位。完整Wronskian余项保留，指定det非零继续。
 
