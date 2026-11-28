@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，两input0，science c3228e9d/PID3687/model989fec；自身初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，完整几何尚待。R730全源参原139角色/24runtime、内157/7外162/12与632/625+64live/所有原预算保；自然返才pure66120，不借旧mean/证书。
 
-[35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science 2c8739ed/PID3435/model726006已prepared；自身初始统计/几何未返。新圆肩139角色/24runtime，713/719正式+64live、原632/625各路径和全部预算保；自然science返才pure74162。1,333,370 outer变量全自由，不冻结正宽端层。异source/model不借同坐标结论。
+[35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science 2c8739ed/PID3435/model726006；初7e06/accepted0/Phi25127.568861304877/Gram.8838253080334753，完整几何未返。新圆肩139角色/24runtime，713/719正式+64live、原632/625各路径和全部预算保；自然science返才pure74162。1,333,370 outer变量全自由，不冻结正宽端层。异source/model不借同坐标结论。
 
 ### 已证结果与严格缺口
 

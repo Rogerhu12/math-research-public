@@ -44,3 +44,22 @@ R732 只更换物理参考；全局等距、中央/跨圆肩 reach、实际闭�
   }
 ]
 ```
+
+## 2026-11-28 11:40:39 UTC — 35自身圆肩初始统计已返，准确后继仍待实际同点
+
+run46137993293/1、science source2c8739ed67bac0b11332646db652f2a317e85ea5/PID3435，driver82fc9d2442094753a0fe32700cb748a3dd9be3e299d94017d03c6ad8cba92866、model726006e0e25a49c0dc2810d9e86250f669e3099905118fb237cdf9a51cd332ae。11:24:44.930672Z实际initial-statistics-returned，initial/current point7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、Phi25127.568861304877、Gram.8838253080334753、accepted0。11:35:28索引normal记录11:35:23、cached993/closure6746/logical failures0。完整initial/current几何、六族/K、trial/final/typed均未返，41个缺字段错误whole保。source/target完整身份保前一原记录；不能凭同7e06借用旧R730或其他参考几何。完整准确N/G13件及下游14件源参虽已main，仍须本次自然science及whole pure得真实完整同点与immutable snapshot才能续费。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46137993293-1.md",
+    "bytes": 60583,
+    "sha256": "211b54bcb5dc4e48b587cd7b21383a10ea9259d3457c0cf8a7d86245ac7cc81d",
+    "git_blob_sha": "c7d57a569bafb45c4dcf643cfab31ad367884601",
+    "fixed_commit": "2731808f63b8ca8d368217e1f443c0bbe08fc25f",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
