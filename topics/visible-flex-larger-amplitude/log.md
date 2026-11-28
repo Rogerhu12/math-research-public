@@ -282,3 +282,7 @@ run46062343475/1与job140719355272实际completed/cancelled、updated02:05:35Z�
 ## 2026-11-28 02:08:32 UTC — 21第二观测试点实际拒绝及下一统计返回
 
 21第二700e真实Phi3233.3855440681737/Gram.6568825785908023/g2.5419057471738853且拒绝；下一1b3b真实Phi3233.3855466914256/Gram.6568825771697846，几何/决定未知；current仍初/accepted0。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`944463db45f69034145ade1e8ce02e3d187ae665`无变（非pull）。
+
+## 2026-11-28 02:09:43 UTC — 23初始统计实际返回，几何与策略结果尚未返回
+
+23初统计01:54:32.709861真实返回：9db39/model0abfbf/初7e06/Phi3825.0583894874153/Gram.6460503011117507/accepted0；02:02:24仍无geometry/六族/试步/策略结果，不从来源或同值推完成。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`e2435f397f929a412801580ea6d70f6e51df8602`无变（非pull）。

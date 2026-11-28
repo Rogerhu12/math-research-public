@@ -375,3 +375,24 @@ The complete official run object and complete returned job wrapper are preserved
   }
 ]
 ```
+
+## 2026-11-28 02:09:43 UTC — 23初始统计实际返回，几何与策略结果尚未返回
+
+原完整scientific source commit b31c3422a7f8f86954977988c8386208301a2942、launcherf2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371、PID3652；实际observer明确返回driver9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699、model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add、observer321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5。01:54:32.709861+00:00发生initial-statistics-returned：point7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、Phi3825.0583894874153、Gram.6460503011117507。current为这个实际初点，accepted_directions=0、complete_report=false、stop_reason=null。
+
+02:02:24Z原索引尚无initial/current geometry、六族、trial或previous_completed_trial；全部原NoneType缺值错误与whole小进度身份保完整固定索引。normal_chain_scope_closed/cached1393/closure8546/fail0仅是原执行计数，不能替代连续根/费用。初统计与19/20同值是实际返回事实，但还没有原全步接受证据、选中模型预测或新的恢复mu；不从已刊策略源推导已触发策略。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+    "bytes": 55453,
+    "sha256": "7b8c4717118efe103f09480cd0ee28450df64d39bf2fadb5bce075bf827b11be",
+    "git_blob_sha": "3026f34e8e2101d814f511a863f5838d08452f19",
+    "fixed_commit": "dbbcd99a1c6c15f25224f57424985d8ac2ccf01c",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
