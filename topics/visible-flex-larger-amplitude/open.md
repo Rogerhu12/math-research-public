@@ -121,6 +121,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 新机制与未付后继
 
+[完整dk缓存源](computations/complete-curvature-pullback-cache-source-delivery.json)两variant已刊，同完整key/纯数值/64MiB；原全行保，尚无hit或加速实际结果，不改变trial几何。
+
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波准确均值/两角根/中央导数与位置jet账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/全部接合/两根扰动/真实shape分解已证。ε1/8把显式转向系数15/b降至64/(7b)，高阶代价与存在假设保；不推wholeK/reach，新seed正实施。
 
 22全20源/6参/[启动](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊，137/18、17对改120同；六物理cuts与aux12均值分开，原Gauss/partial保。science+pure103752B/四步110351B>95000，真自然返才整接pure；原计数标签解释保22note。24全11件393872B/原137/18，初队列72996B，science+pure116887B/四步125008B，同一整步续接责任；端层4/5与中央3λnew/(2λ22)竞争。

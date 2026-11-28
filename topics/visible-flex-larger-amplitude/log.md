@@ -306,3 +306,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:31:27 UTC — ret60第二子批完整退役与原字续存
 
 33旧派生输出毛1303692B，五全保全件283691B/净1020001B，61源/269原输入/32完整原resource及全部argv/失败/条件结论/全SHA/精确Git恢复齐；首批19项不重复，合净1929467B。fresh逐path/blob/size相等才普通删除；旧reader先复原整字及输入。H/open旧字固定91ecb6cb858ffafe71f09b21492061c3da8d1c62，open§1–6完全不改；R725标题误写预估02:31现改实际UTC日期，不改变数学结论。[完整总表](computations/legacy-exact-generated-outputs-retention-60-part2-complete-delivery.json)。双README云核至`80d7105eee4f792176e1dee0255fb73369498d98`无变（非pull）。
+
+## 2026-11-28 02:33:53 UTC — 完整曲率数值pullback缓存源
+
+[五完整件](computations/complete-curvature-pullback-cache-source-delivery.json)已刊，全/半波严格分源；单次build_rows复用实际已返完整dk，全部原row/转置/范数/顺序及原失败保，64MiB仅保留payload上限。全key/源/point/根/矩阵/实际引用绑定，未命中与可选失败走原计算；不声称试步几何加速。close只释放，原normal/helper入口出口检查仍保。无实际运行/hit/数值结论。双README云核至`0f03dff57c8ea52cb8fe9224132f5f8cc9fb9845`无变（非pull）。
