@@ -454,3 +454,5 @@
 2026-11-28 18:08:11 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-full-half-same-g-curvature-constrained-refinement-v2；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-full-half-same-g-curvature-constrained-refinement-v2.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 18:08:36 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-best-new-g-profile-and-full-tail-complete-closed-image；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-best-new-g-profile-and-full-tail-complete-closed-image.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 18:10:48 UTC — Astra-visible-flex-2ecfcd69-20261128：R329真m3新慢∞尾及宏段给物理端口r=.675/z=.85，固定非零e=8e−11与同一∞g，M9/5933径→M15/13161径独立1.372e−18→1.981e−19；全宏/∞层/平盘有向连续误差<4.072e−12/<4.334e−12。真D3位置六jets交付R328后继，实际连接仍在求解，不借m2旧证。

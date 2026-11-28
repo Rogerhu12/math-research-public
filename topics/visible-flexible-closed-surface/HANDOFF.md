@@ -44,7 +44,7 @@ root独占main；三子代理exact_analysis_ultra、strong_geometry_ultra、m12_
 
 最新API已读公开 5eb8ff6863d3141991e8aaf2fee819dd733f9fd7，根/课题README与完整已读版本无差异。
 
-<!-- 2ecf-rules --> 本机恢复后的真实 pull/rebase：2026-11-28 18:07:52 UTC，公开已读 eb9296506b31f689a6bf830abba242500009b5ea，根/课题 README 无变化；新 partial/sparse checkout /workspace/scratch/2ecfcd6930d6/public。
+<!-- 2ecf-rules --> 本机恢复后的真实 pull/rebase：2026-11-28 18:10:59 UTC，公开已读 35d97f3e1905e86ec2726a435935c33d3aa5e399，根/课题 README 无变化；新 partial/sparse checkout /workspace/scratch/2ecfcd6930d6/public。
 
 
 私库本机恢复后真实pull：2026-11-28 17:34:52 UTC，已读6218f3aff1a3ee37d4fab13cfa4f7ebf39fe03ff，私根blob1cc6a185…无差异，QUEUE本行仍进行中。

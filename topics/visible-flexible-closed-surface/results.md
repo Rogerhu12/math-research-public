@@ -199,3 +199,4 @@
 - [R326　固定真无限慢尾上的有限幅全角反馈](results/R326-fixed-infinite-slow-tail-all-angle-finite-amplitude-feedback.md)（已证明的连续误差界及实际数值精化）：固定同一无限 g/非零幅，全径全角含无限累积部误差<8.34e−12；独立网3.796e−19→9.417e−20。尚非零误差极限或完整强比例闭曲面。
 - [R327　材料曲率 .617、相位 1.035 的真实双口与中央法管](results/R327-material-unit-curvature-and-complete-two-arm-window.md)（已证明）：新真母线入口二导显著降低、全相中央reach≥.115；自身外核满足明列两位置界时，held/D>.20191、δE/D>.05039；完整外核度量/厚度仍待付。
 - [R328　从 W040 真圆弧中央出发的精确等距负曲率连接](results/R328-exact-W040-hyperbolic-collar.md)（已证明）：实际非解析全角、真宽.16、K≤7.875、C²接袖且嵌入，给一个确定新共同g及其真实自由端；完整后段与非局部reach继续。
+- [R329　真三重无限尾与完整物理宏接口](results/R329-threefold-infinite-tail-with-full-physical-connector-port.md)（已证明的连续误差界及实际同g精化）：自身全宏/无限尾/平盘误差<4.334e−12，真r=.675/z=.85端口六jets；与强中央的完整连接仍待完成。
