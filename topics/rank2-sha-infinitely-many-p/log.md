@@ -515,3 +515,11 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:22:13 UTC到59bdc540c392b6985a042294bf68cfc18aa3dc3f，私库2026-11-28 14:22:05 UTC到da009a42ff8a425261110ed985b73786ce7aaf0f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47683069B/tree0a3ef23ea551eb90ac10d3382a901b5ef6fe318c，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:22:26 UTC到7c4de3d03ba5a1d59754aa5c8af6f24faf82d4a7，私库2026-11-28 14:22:22 UTC到475a25f3a7e6f2eabdbd1cfdf3dcaca72ce09abb；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47683069B/tree0a3ef23ea551eb90ac10d3382a901b5ef6fe318c，无>5MB。
+
+## 2026-11-28 14:22:31 UTC：R1067 §77：原邻点Kummer输入的真实八个分次
+
+根手核严格LT [π]=πv+v^q及Teich线性化、Norm素元阶1；全q/子p群different塔给(p−1)q与break q−1。log/exp给深幂阈值pe/(p−1)，p整除低分次由真实pth幂消，两个外部嵌入筛出8线；不忽略它们之间提升费用。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:22:40 UTC到2ef6084053aa87ae353af74f71c7909e20cbe431，私库2026-11-28 14:22:35 UTC到41c0efcde53afd2424cd7c4f47a8e605433282fc；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47688774B/tree0de8aaa54305b8753a0f02c11b6135ed75402e93，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:22:58 UTC到83e698c1bb6b9e1fbc846aee8371eb0a6a408064，私库2026-11-28 14:22:50 UTC到f04b9ec4307a7ef603283292018cd72121736e23；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47688774B/tree0de8aaa54305b8753a0f02c11b6135ed75402e93，无>5MB。

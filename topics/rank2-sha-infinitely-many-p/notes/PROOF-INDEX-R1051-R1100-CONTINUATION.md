@@ -105,3 +105,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §76：真实循环同源邻点上的首Kummer幂测试
 
 原完整AQ3在模p的二次群环矩准确为g₋(g₋−1)^(p−3)Norm₊；Δ杀F→Φ₂限制的全部可能核。Norm₊的输入是实际E1/C上的原驯点加真实p挠点W+FpV，所有Δ共轭保全p+1方向，未换曲线当主目标。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §77：原邻点Kummer输入的真实八个分次
+
+同一严格LT参数及Norm素元t使Δ作用精确a^p；实际different塔给下断点b=p²−1和Z每次升≥b。真实p次幂单位过滤及两个外部嵌入仅留八分次，保逐层提升和Z^(p−3)作用，未把八槽独立当坏条件。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
