@@ -1,0 +1,245 @@
+{
+  "schema": "r786-two-cap-stress-full-domain-v1",
+  "fixed_metric": "The one R781 phase-zero material sphere, its exact three-lobe metric dx^2+[(.45-Z0)/.45]^2 de^2, both original softened rolls, full caps and all material seams. R785 and R786 are physical candidate maps; no target refit or changing D. The R784 cut ninth-degree physical germ is added before any free coefficients.",
+  "defining_order": 20,
+  "geometry": {
+    "R781": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
+    "R783": "c89fbdea0dd140bc75d386282ef36414df8d11b5d0168ab33fcf4a523f58c4d3",
+    "R784": "ac0dfb597b43b41c8ffae355c554896fee4318d181853bb9039018af478b3bb3",
+    "R785": "662de6e25b3ac3bfe093878a358f01e938223c27beb5a362657f425638bcb23c",
+    "R786": "a4e1dd542e89c729ac90c944303f49738bb03abccc19a9ea3efe8fb67ddc2c0d",
+    "initial_diameter": "The R781 D(0), frozen at defining quadrature order 20 in the reach-chord objective.",
+    "fixed_angles_X_positive_X_negative_Z_positive_Z_negative": [
+      0.02,
+      0.022,
+      0.024,
+      0.025
+    ],
+    "delay": {
+      "length": 0.0024,
+      "phase_ramp": 0.006,
+      "recovery_start": 0.004,
+      "recovery_length": 0.08
+    },
+    "fixed_grips": "hard_heads keeps the two entire developed disks and the first .0024 of each true roll; both remaining rolls and both central rims have physical 3D variables. inner_grip keeps the central initial right pad with radius .18; spatial_rings keeps the two original centered pad material disks, with the left pad translating in its prescribed pose and the right pad pointwise fixed. Every selected family keeps a world-fixed grip of diameter .36.",
+    "target_and_evaluator": "The inherited static spatial columns use original R781 initial points and their R781 endpoint ring dictionary at order 20. New three-coordinate summit and roll columns and the complete incumbent at all phases are independent. Base/target quadrature follows the declared layer. Final physical field uses 20; all phase, position, tangent and curvature measurements are on that stage field.",
+    "floor": "R781 left terminal minimum minus .008 sin(t), retaining the actual axial macroscopic separation."
+  },
+  "families": {
+    "hard_heads": [
+      [
+        "mild-short",
+        {
+          "grip": "caps",
+          "profile": "short",
+          "m": 2,
+          "xi": 0,
+          "mix": 0,
+          "seed": []
+        }
+      ],
+      [
+        "proved-balanced",
+        {
+          "grip": "caps",
+          "profile": "balanced",
+          "m": 2,
+          "xi": 0.02,
+          "mix": 0,
+          "seed": []
+        }
+      ],
+      [
+        "twofold-compressive",
+        {
+          "grip": "caps",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.02,
+          "mix": 0.32,
+          "seed": []
+        }
+      ]
+    ],
+    "inner_grip": [
+      [
+        "mild-free-rims",
+        {
+          "grip": "right-pad",
+          "profile": "balanced",
+          "m": 2,
+          "xi": 0.02,
+          "mix": 0,
+          "seed": [
+            [
+              [
+                "summit",
+                1,
+                2,
+                0
+              ],
+              1,
+              0.008
+            ]
+          ]
+        }
+      ],
+      [
+        "twofold-free",
+        {
+          "grip": "right-pad",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.02,
+          "mix": 0.55,
+          "seed": []
+        }
+      ],
+      [
+        "threefold-free",
+        {
+          "grip": "right-pad",
+          "profile": "ring",
+          "m": 3,
+          "xi": 0.02,
+          "mix": 0.55,
+          "seed": []
+        }
+      ]
+    ],
+    "spatial_rings": [
+      [
+        "half-twofold",
+        {
+          "grip": "paired-pads",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.02,
+          "mix": 0.5,
+          "seed": []
+        }
+      ],
+      [
+        "full-twofold",
+        {
+          "grip": "paired-pads",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.02,
+          "mix": 1,
+          "seed": []
+        }
+      ],
+      [
+        "full-threefold",
+        {
+          "grip": "paired-pads",
+          "profile": "ring",
+          "m": 3,
+          "xi": 0.02,
+          "mix": 1,
+          "seed": []
+        }
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.7,
+    "area_weight": 3,
+    "curvature_bound": 24.35,
+    "curvature_weight": 0.024,
+    "jac_chunk": 32,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.03,
+    "step_tangent": 0.2,
+    "line_trials": 9,
+    "pair_weight": 0.5,
+    "worst_pairs": 144,
+    "distinct_material_distance": 0.018,
+    "chord_smoothing": 0.0004,
+    "radius": 0.041,
+    "neighbor_ranks": [
+      2,
+      4,
+      7,
+      10,
+      16,
+      24,
+      36,
+      50,
+      70,
+      96
+    ],
+    "principal_weight": 0.035,
+    "gram_peak_count": 96,
+    "gram_peak_weight": 0.65,
+    "diameter_quadrature": 20,
+    "metric_allowance": 0.000001,
+    "metric_reach_pair_count": 160,
+    "metric_reach_pair_weight": 1.4,
+    "stress_krylov_per_operator": 5,
+    "stress_line_scales": [
+      1,
+      0.5,
+      0.125
+    ]
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 24,
+    "nv": 14,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 5,
+    "check_ns": 33,
+    "check_nv": 19,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 20,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 25,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 28,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 35,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 38,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 47,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "Nine full coarse physical candidates, then a separate complete 4/8/16-stage refinement for each of the three selected fields. All original GN backtracking, curvature/area rows, full-Gram/Frobenius active peaks, ordered normal chords and all-current-close-pair initial-metric reach inequalities remain. Extra early and moving-cap phases enter the same physical objective. All final same-runner fields use the 65 original phases plus new delay/Cauchy phases and the seven full meshes.",
+    "The second-order Gram model uses the actual current shape derivatives in the original target frame. Its compressive term is 2 sum w^2 (e11 |dA|^2+2 e12 dA.dB+e22 |dB|^2), including the actual top Gram rows. Two deterministic full-space Krylov trial spaces are combined: the total GN-plus-stress and the stress alone. Both signs of available negative Ritz modes have their position and tangent physically scaled and are judged by the true nonlinear full objective. This model omits the floor map own second derivative and nonlinear penalty Hessians. A nonnegative Ritz value supplies no definiteness certificate.",
+    "Cut sizes in the R784 program are fixed and its finite ninth term is identified separately from an exact power-series field. R786 near-tolerance collars and full R785/R786 geometry are established only for the named fields; free iterates require their own data. No trained or sampled field is automatically an entire continuous isometry, normal-tube proof or a numerical convergence proof.",
+    "NPZs, true PLYs and full per-phase mesh details stay on the defining runner. Plain stage records retain true signed-step decision, both Ritz values, full chart diagnostics, bare candidates, whole-point and coordinate identities."
+  ]
+}

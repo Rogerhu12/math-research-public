@@ -126,16 +126,17 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 闭连通C²嵌入、全t强C²、同一个固定g；D=整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射商距>0，全t reach≥.03D，整relative metric算子≤1e−6。同g/参数/全时间实际空间、频率和时间精化到机器或原求解容差，多时刻整mesh；固定小缺陷和仅渐近换参数均不能充完成。所有未付项继续求解，先全标准再提高三比值。
 
-[R782](results/R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：同R781 g整rim位置/横向一阶迹夹持，在局部统一角解析二基本形类内全柱刚性；穿K零/变号亦成立。一般C²、自由真rim或无统一解析界的近等距序列不覆盖。平帽内握的角解析限制与非解析完整发展帽另证。
 
-[R783](results/R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)：同R781平帽内握.18，至少四固定rim点且四独立发展扇精确达到。完整九图共环境场：.020/.022/.024/.025仅证整reach>.0021；tiny独立分支才证≥1/24.46。二者中央g缺陷>.23，不混两种界。
 
 [R785](results/R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)：同R781 g双完整帽各四真实MILD扇，xi≤.02，共全空间剪切逐对支付reach≥1/24.36>.03D、held>.320、含反射商距>.086及真.18内握。终相同一中央点原g缺陷>.24；下一全场必须纠正。
 
-[R779](results/R779-wide-normal-swing-simultaneous-thick-descent-and-movable-cell-anchors.md)：同R776 g宽法摆全角长/端对准确，固定λ=1e−10全g最坏严格降≥8e−13并保reach≥1/20.7；仍巨大残差。小胞短锚被厚度+同g排，50自由锚不在此限。
 
 [R784](results/R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)：八真角带/帽、t≥π/4可精确延真卷.0000688；全闭仅取h=5e−8局部换场，reach>1/24.38/held>.319。九次真物理两jet和余界明列；不冒全卷/中央已等距。
 
 [R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
+
+R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770.md)，不重做。
+
+[52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学源/三族18阶段，原GN加真实应力负方向；硬固定.0024领不能加密至零，仅作完整原预算对照。两free-rim族仍可修，全末网原预算；实际run/PID待返。

@@ -37,3 +37,5 @@
 - [R784](R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)及[九次物理两jet](../scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py)：真非零K roll八带的定量Gauss–Codazzi延拓.0000688，时相≥π/4；全闭只用5e−8并保厚度，初时/角开关/全卷匹配仍分别未付。有限Taylor项的精确余界和浮点误差分开。
 
 - [R786](R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)及[实际两卷延迟六jet](../scripts/resume_20261126/r786_delayed_two_cap_roll_collars.py)：双完整帽精确、全相全角.0024真roll领谱误差<9.46e−7，共MILD剪切后整reach>1/24.36、held>.317、商距>.083。固定小领容差不充全闭真收敛，余卷和中央仍缺。
+
+- [52完整三族启动](../notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学输入、9粗+各4/8/16共18阶段，完整GN外加真实压缩应力两Krylov方向，三族全部原末网预算。硬帽.0024固定领有严格非零Gram故仅作原预算对照；两free-rim族继续全场修正，实际结果未预填。
