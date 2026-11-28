@@ -185,3 +185,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §27：原中央两位的固定有理除点导数列
 
 已证明：全部原Gauss两行化为固定扭点的两条有理导数列(AJ2)，严格LT四窗及完整尾界给(AJ5)模p⁴；两单位参考与原λ/r保真读a₂模p²，仍需联合无穷p非零。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1073 §28：三条真实 jet 两次整消去，三格直接读原中央模 p
+
+已证明：用已证全盘μ选共同h=−μℓ(s^p)/p，使原e_A+h全整；三条真实jet精确消两次wild项，(AK7)三格之和以(AK8)非零单位读a₂模p，全部标记与两位分母损失保留。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

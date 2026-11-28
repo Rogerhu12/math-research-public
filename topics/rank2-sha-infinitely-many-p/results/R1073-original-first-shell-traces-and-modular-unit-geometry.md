@@ -662,3 +662,139 @@ $$
 分母净花两位。若真实中央坏，两列各在模 $p^4$ 为零；
 联合坏使两条固定曲线分别满足全部四个条件。
 无穷不同 $p$ 上的违背尚待证明。
+
+## 28. 三条真实首圈 jet 的两次整消去与原中央模 p
+
+**已证明。** 沿(AF)–(AJ)，置
+$a=p-1,\ \Delta=p^2-1,\ q=p^2,\ c=1-p^2$。
+$s=Z$ 是物理 $E_1$ 的严格坐标，
+$s_*=Z(Q_*)$，$s_*^\Delta=p$，$D=\omega^{-1}d$。
+每个原 $A=[a']Q_{c_k}$ 的权为
+$s_{a'}=\epsilon_k(\bar a')^{-1}$；
+$x_A,y_A,e_A$ 在本节局部式中表示平移 $R+A$ 的函数，
+$e_A$ 由(AJ3)实现，$De_A=-x_A,\ Dx_A=2y_A$。
+保留(AJ1)的实际 $U,V$。
+
+直接使用R1067 §90的已证全盘规范，写
+$$
+ Z_{\rm int}=\mu^{-1}\zeta(\ell(s))-\ell(s^p)/p,\qquad
+ h(s)=-\mu\ell(s^p)/p. \tag{AK1}
+$$
+$Z_{\rm int}$ 全整，首主部 $\mu^{-1}/s$；
+$\mu\in\mathbb Z_p^\times,\ \mu\bmod p=c_p=DL_p$。
+$h$ 全部指数为 $p\bmod\Delta$。
+由(AJ3)，
+$e_A+h=\mu Z_{\rm int}+e(A)+(y(R)-y(A))/(x(R)-x(A))$，
+两单极相消，故为整局部级数。
+又
+$Dh=-\mu s^{p-1}\ell'(s^p)/\ell'(s)$ 整。
+这给原真实函数的一个共同整分解，没有改变任何驯标记或采样值。
+
+令
+$S=p h(s_*)/s_*^p$，
+$S_1=Dh(s_*)/s_*^a$。
+Teich作用给
+$h(\tau s_*)=S(\tau s_*)^p/p$、
+$Dh(\tau s_*)=S_1(\tau s_*)^a$。
+由 $\ell(-ps+s^q)=-p\ell(s)$，
+$$
+ \ell'(\tau s_*)=c,\qquad
+ (\tau s_*)\ell''(\tau s_*)=-p^2\Delta . \tag{AK2}
+$$
+第二式使用 $\ell''(0)=0$。
+而
+$S=-\mu\,\ell(s_*^p)/s_*^p$、
+$cS_1=-\mu\ell'(s_*^p)$。
+$\ell'$ 整且模 $p$ 为一；
+$\ell(s)/s$ 的非首项指数为 $j\Delta$，
+其系数估值至少 $-v_p(1+j\Delta)$，
+代入 $s_*^p$ 后估值至少
+$pj-v_p(1+j\Delta)\ge1$。
+所以
+$$
+ S_1\equiv S\equiv-\mu\equiv-c_p\pmod p,\qquad S,S_1\in\mathcal O^\times.
+ \tag{AK3}
+$$
+
+置 $\bar e_A=e_A+h$，并记完整整和
+$$
+ W=-6\sum s_{a'}(y_A+x_A\bar e_A),\qquad
+ Y=-6\sum s_{a'}(x_Ay_A+2x_A^2\bar e_A+y_A\bar e_A^2).
+$$
+$U$ 也整，因为 $\sum s_{a'}=0$。
+$P'(0)=P''(0)=0$ 由(R2)/(R3)。
+对(AH3),(AH4)在中央再求一导，得到
+$[w^2]Pe(R+A)=-xy-2x^2e-ye^2$。
+令 $J$ 为真 $6\sum s_{a'}$ 倍该二阶系数。
+直接用 $D\bar e_A=-x_A+Dh$ 展开，有
+$$
+ V=W-hDU,\qquad
+ J=Y-hDW+h(Dh)DU+\tfrac12h^2D^2U. \tag{AK4}
+$$
+
+对 $j=0,1,2$，$N_{k,j}$ 分别是在 $\xi^{j+1}$ 全采样
+$(U,V,J)$ 后乘 $p^j/(\Delta s_*^{(j+1)a})$，全沿(AH8)。
+真实特化为
+$$
+ N_{b,j}=\frac{65\lambda_{1,p}}{\lambda_{b,p}}\,
+        \mathcal A_b(r^{j+1}-1)N_{1,j},\qquad r=\rho^{-1}.
+$$
+三条参考均为单位，见(AG4)。
+写 $\mathcal M_m(F)=\sum_{i\ge0}p^i[s^{m+i\Delta}]F$，
+$E=s\partial_s$，保留全部频率。
+令 $L=S^2/(2c^2)$、
+$K=pSS_1/c+S^2p^2\Delta/(2c^3)$。
+由(AK2),(AK4)得到准确等式
+$$
+\begin{aligned}
+ N_0&=\mathcal M_a(U),\\
+ N_1&=p\mathcal M_{2a}(W)-(S/c)\mathcal M_a(EU),\\
+ N_2&=p^2\mathcal M_{3a}(Y)-(pS/c)\mathcal M_{2a}(EW)
+           +\mathcal M_a((KE+LE(E-1))U).
+\end{aligned} \tag{AK5}
+$$
+特别 $B=(N_1+aSN_0/c)/p$ 整，且
+$$
+ B\equiv[s^{2a}]W+S[s^{a+\Delta}]U\pmod p. \tag{AK6}
+$$
+这是因为 $E-a$ 在该列第 $i$ 项为 $i\Delta$，$\Delta\equiv-1$。
+两目标均有 $N_0,B\equiv0\bmod p$，
+由原 $\mathcal A_b\in T^2\mathcal O[[T]]$ 得到。
+
+令 $F(X)=LX(X-1)+(K-4aL)X$，定义
+$$
+ C_k=\frac{N_{k,2}+(2aS/c)N_{k,1}-F(a)N_{k,0}}{p^2}.
+$$
+对任一源都整：$W$ 的第零项抵尽，
+第 $i$ 项乘 $-pS i\Delta/c$；
+$U$ 的第 $i$ 项乘 $F(a+i\Delta)-F(a)$。
+第零项为零，第一个乘数为
+$\Delta[L(p^2-2p)+K]\in p\mathcal O$，
+余项自带 $p^i$。
+(AK3)还给第一个乘数被 $p^2$ 整除，
+因为除 $p$ 后模 $p$ 为
+$\Delta(-2L+SS_1)=0$。
+第二个乘数模 $p$ 为 $S^2$。故
+$$
+ \boxed{C_k\equiv[s^{3p-3}]Y+S[s^{q+2p-3}]W
+                       +S^2[s^{2q+p-3}]U\pmod p.} \tag{AK7}
+$$
+没有置零任一单独的 $W,Y$ 列。
+
+实际参考由(AK5)满足
+$N_{1,1}\equiv-aSN_{1,0}/c$、
+$N_{1,2}\equiv La(a-1)N_{1,0}\bmod p$。
+代回三个原特化，使用
+$r^j-1\equiv j(r-1)\bmod p^2$ 及
+$\mathcal A_b\in T^2\mathcal O[[T]]$，得到
+$$
+ C_b\equiv
+ \frac{65\lambda_{1,p}}{\lambda_{b,p}}
+ \left(\frac{r-1}{p}\right)^2(2S^2)N_{1,0}
+                         [T^2]\mathcal A_b\pmod p. \tag{AK8}
+$$
+系数计算为
+$9La(a-1)-16a^2L-F(a)\equiv4L=2S^2$；
+右边比例全是单位。
+第二差商仍付两位损失，分子真实取到模 $p^3$ 后才读模 $p$。
+本节给出的三条特殊纤维系数之完整和仍待证明非零。
