@@ -256,3 +256,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §63：原纯轴的真全局单位值与范数关系
 
 每个非零p幂挠点的同一K值都是全局S∪p-unit，实际估值6vp(tQ)。整数幂/Teich消除给严格代数性，原完整六组挠除子给全p²范数，不以未证极限单位性或单位非零代中央。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §64：原范数相容级数的固定有理标量3024
+
+原二倍除子、三挠加法及完整S1因子给Mσ=432^(−1/12)、MG=3^(−1/2)、MSMG=1/3024。准确c_p=3024^(1−p²)，所以同一3024K在原LT塔严格范数相容，无须扩标量。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

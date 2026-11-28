@@ -819,3 +819,75 @@ $v_p(c_p)=-6+(p^2-1)6/(p^2-1)=0$。
 回到通常 Sha 的原输入仍是(AD7)的完整系数或 R303 的原标准
 Rubin 类；尚需证明该读者的跨素数非零，不能把任一有限层单位
 的非零或 Coleman 范数相容性直接代入 R303(8)。
+
+## 64. 原范数相容级数的固定全局有理标量 $3024$
+
+(AE5)的标量在每个(AD4)素数上准确等于
+$$
+ c_p=3024^{1-p^2},\qquad
+ \prod_{T\in E_1[p]}3024K(t\oplus T)=3024K([p]t).              \tag{AF1}
+$$
+因此使用同一个固定有理级数及原本的完整 Lubin--Tate 塔；
+每一步的点值都在该层局部域，因为 $K\in\mathbf Z_p[[t]]$
+且 $t(Q)$ 是该点的整形式参数。此处 $t=x^{-1/2}$ 的原形式
+支可从 $-x/y$ 以常数一的平方根整恢复。其代数性及全局
+$S\cup\{p\}$-unit 性另由(AE1)保证。
+
+证明。令 $a=\pi/\operatorname{area}(\mathbf C/\Lambda)$，
+对 $E_1$ 的物理 degree $e$ 截面 $V$ 记
+$\|V(z)\|=|V(z)|e^{-ea|z|^2/2}$，
+$M_V=\exp\int_{E_1(\mathbf C)}\log\|V\|\,d\mu$；
+$d\mu$ 为概率 Haar 测度。对数零极局部可积，乘法自同源
+均保此测度。$M_\sigma=432^{-1/12}$ 可在同一格内直接求得。
+事实上 $\|\sigma(z)\|$ 在环面上周期。二倍除子的相等及
+Curvature 相消使
+$\prod_{U\in E[2]}\|\sigma(z+U)\|/\|\sigma(2z)\|$ 为常数：
+其对数在环面光滑且调和。令 $z\to0$ 再积分，给
+$M_\sigma^3=\frac12\prod_{U\in E[2]-0}\|\sigma(U)\|$。
+三个非零二挠点 $U_i$ 的 $e_i=x(U_i)$ 是 $X^3+1$ 的根，
+对 $i,j,k$ 互异，sigma 加法式给
+$$
+ |e_i-e_j|={\|\sigma(U_k)\|^2\over
+                 \|\sigma(U_i)\|^2\|\sigma(U_j)\|^2}.
+$$
+乘三式及 $|\prod_{i<j}(e_i-e_j)^2|=27$ 得
+$\prod_i\|\sigma(U_i)\|=27^{-1/4}$，从而
+$M_\sigma^3=432^{-1/4}$。此归一也与
+Bannai–Furusho–Kobayashi 复 Th. 1.1(ii)、Prop. 2.8 的
+$\Delta=2^4\operatorname{disc}(X^3+1)$ 相符。
+
+令 $T_3=(0,1)$。由 $2T_3=-T_3$ 和
+$\sigma(2z)/\sigma(z)^4=-2y$ 在 $T_3$ 的绝对值为二，
+得到 $\|\sigma(T_3)\|=2^{-1/3}$。sigma 加法式在
+$x(T_3)=0$ 又给
+$\|G(z)\|=\|\sigma(z+T_3)\|\|\sigma(z-T_3)\|/\|\sigma(T_3)\|^2$。
+所以
+$$
+ M_G=2^{2/3}M_\sigma^2=3^{-1/2}.
+$$
+R297(19)在物理 $E_1$ 上的整条原因子式为
+$$
+ S_1(z)=\frac1{28}\sigma(z)^2\sigma(2z)^2 G(z)G(2z)
+                     \sigma(\gamma_7z)\sigma(\bar\gamma_7z).
+$$
+两边的 Gaussian 也按 $2+8+2+8+7+7=34$ 准确相等。
+由 Haar 不变性，
+$$
+ M_S=\tfrac1{28}M_\sigma^6 M_G^2,\qquad
+ M_SM_G=1/3024.                                                  \tag{AF2}
+$$
+
+(AE5)证明中每个
+$c_{p,n}=p^{-6}\prod_{U\in E[p]-0}R_n(U)$ 是正有理数：
+原 $R_n$ 为有理偶函数；$\prod_{U/\pm}R_n(U)$ 是非零有理数，
+完整乘积为它的平方。对其全局范数等式取复绝对值并在环面
+积分；有理函数 $R_n=S_1G(nz)/G^{17+n^2}$ 的全部 Gaussian
+准确消去。于是
+$$
+ c_{p,n}=(M_SM_G^{-16-n^2})^{p^2-1}
+  =3024^{1-p^2}\left(3^{(p^2-1)/2}\right)^{17+n^2}.             \tag{AF3}
+$$
+因 $(p^2-1)/2$ 是 $p-1$ 的倍数，括号内在 $1+p\mathbf Z_p$，
+且 $17+n^2\to0$。直接取(AE5)已经支付的系数极限即得(AF1)，
+没有剩下任何依赖 $p$ 的根选择。范数相容的是原纯调和截面，
+原秩二 Euler 读者仍保(AD7)的参考逆因子。
