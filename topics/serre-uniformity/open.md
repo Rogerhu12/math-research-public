@@ -43,6 +43,8 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)已给B_n=𝓑((V_n−v_n)Ω)的实际连续构造：C2/C3两个有阶lift唯一延长几何section；算术缺陷β由原Tate residue读取，λ=−β(c)/2，t=−12M12|N⊗λ；两transvection上的有限Newton反差分给唯一v_q。全section的乘法缺陷在M^N=0，遂dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n。n2覆盖p>37除43/127，两例取n5的5¹⁴模值36/19，故全p>37接口已付。
 
+[R1160 §8](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)进一步支付原三中心和全部p^r的实际连续坐标：residue用v_d∞=(1−p^d)B_(d+2)/(d+2)，不能高层仍用12a12；三character1/3/5的λ=−β(c)/2、整Newton式及21(1+p⁴)/11修正给h_r=−(𝓑12,2Ω0,𝓑8,4Ω2,𝓑4,6Ω4)。所有原根cocycles与构造严格约化兼容，经完整universal唯一性识别同一S0整塔/43格。Cartan I仍仅modp；这不是一般Frob路径数值的替代。
+
 R1160中一般q的b(q⁻¹T′q)仍要从同一实际有限Galois/Belyi quotient读取；Tate方向T的χ共轭已知，另一条路径不能据短字复共轭或cohom唯一性补数。当前是该真实Frob读取、与R1150原Hodge/整格的运输及F0 z12/低中央系数，不能把明确上链程序冒称数值已算。
 
 [R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)已把原source扩到n=2并锁定全部常数：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²，4θ₂=[Θ]、4θ′₂,Ci=[Θ_i]。原K3三函数式仅27项，权为6/−2/2、总系数−1/256，字面norm/平移关系及全部根相位均保。R1158与R1159直接适用；κ4=63/16、κ8=1023/256在p>37均unit，v2=3·43·127/2¹¹仅p43/127例外。它简化实际source与交换商；dB₂=(V₂−v₂)Ω现由R1160构造，SS四线坏参数和一般Frob路径读数仍不删。

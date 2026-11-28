@@ -95,3 +95,8 @@
 ### 2026-11-28 11:42 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1154 §13付同一形式Jacobi源的p/p+1边界、完整Green核、所有指定权重的同E有限递推，以及原Newton基的端点尺度。root核完整边界/相减号/最高cutoff，o1独核Green；旧1–12逐字保留，即推。
 - 固定ν与变化r−1仍需真实保二根intertwiner，实际good共同纤维/联合非零未宣关闭；无数学程序执行。
+
+
+### 2026-11-28 11:52 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1160 §8付全部p^r三中心的显式连续cochains：原v_d∞截面、复共轭与整Newton式均严格约化兼容，原21(1+p⁴)/11修正全保，识别同一S0 canonical 43格。root核R1147整自由/修正cup，global核三character与单位；完整即推。
+- H前态逐字归档并纠正旧unsmoothing门；一般Frob第二路径/原F0数值继续，未扩大Cartan I或局部单位范围，无数学执行。

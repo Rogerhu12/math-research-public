@@ -384,6 +384,177 @@ R1155 的单 primitive 单位仍须经完整原源读取后，
 才能用于 R1151–1153 的真实中央减法和所有深盘。
 完成上链下降不等于已完成那些读取，更不等于 full-$p$ 全局排除。
 
+
+## 8. 全部 $p^r$ 层与原三个中心的同一显式构造
+
+**已证明：** §§1–5 的算术构造同时适用于原三个中心，
+而且在全部 $p^r$ 层严格与约化相容。
+因此原四十二维群及其忠实四十三维格的 generic torsor
+有一个直接由原 abelian moment cochains 给出的连续坐标；
+不必先把原中央 lift 当作未知输入。
+
+写 $R_r=\mathbb Z/p^r$，并令
+$
+M_{d,t,r}=\operatorname{Sym}^{d}\mathcal H_r(t),\qquad
+(d,t)\in\{(12,2),(8,4),(4,6)\}.
+\tag{1160.25}
+$
+本节的 $r$ 是系数层数，不是 Hecke 素数。
+原 [R1147 §§9–11](R1147-original-canonical-moment-Heisenberg-lift.md)
+已经从 primitive torsion 与同一 norm 的完整根相位给出
+兼容的 abelian torsor tower。固定该 tower 的兼容几何纤维点，
+得到实际兼容的一次 cocycles
+$a_{4,r},a_{8,r},a_{12,r},\gamma_{5,r}$。
+这里的选择只发生在已经构造的 abelian torsors：
+有限非空纤维的过渡满射保证兼容点存在，
+没有在未构造的中央 torsor 中挑点来循环定义答案。
+
+### 8.1. 整 residue 与真正的三种截面
+
+R1147 (1147.36) 的单位 minor 计算给出整层结论
+$
+M_{d,t,r}^{N}=0,\qquad
+\operatorname{res}_{d,t,r}:H^1(N,M_{d,t,r})
+ \xrightarrow{\sim}R_r(t-1).
+\tag{1160.26}
+$
+它是原 Tate residue 的完整 $Q$-等变同构，
+不仅是模 $p$ 维数相同。
+原 $a_{d,r}$ 的 residue 是以下同一个 $\mathbb Z_p$ 单位的约化：
+$
+v_{4,\infty}=\frac{1-p^4}{252},\qquad
+v_{8,\infty}=\frac{1-p^8}{132},\qquad
+v_{12,\infty}=\frac{1-p^{12}}{12}.
+\tag{1160.27}
+$
+所以在三个中心上都能直接指定
+$
+i_{d,t,r}(\lambda)
+=v_{d,\infty}^{-1}\,a_{d,r}|_N\otimes\lambda,\qquad
+\operatorname{res}_{d,t,r}i_{d,t,r}=\mathrm{id}.
+\tag{1160.28}
+$
+这一整式在 $d=12,r=1$ 时正是 (1160.6)；
+高层不能把它误写成恒定的 $12a_{12,r}$。
+张量中的 $\lambda$ 属于 $R_r(t-1)$，
+因此原 moment 的 twist $1$ 正确变为 twist $t$。
+
+三个 residual characters 的指数为 $t-1=1,3,5$，
+复共轭都严格作用为 $-1$。
+对一个已给定、类为零的 normalized
+$\zeta_r\in Z^2(G,M_{d,t,r})$，
+仍用 (1160.8) 的 $1/2,1/3$ 有阶 lifts 构造 $b_r$，
+再以原 residue 读取 $\beta_r$。
+其算术修正仍是实际数值
+$
+\lambda_r=-\frac{\beta_r(c)}2,\qquad
+t_r=-i_{d,t,r}(\lambda_r).
+\tag{1160.29}
+$
+$R_r(t-1)^Q=0$ 保证该零次原像唯一；
+零类假设验证它对全部 $q$ 成立，
+不引入一个待选的算术 solution。
+
+### 8.2. 整层有限反差分及约化相容
+
+对 $u\in B^1(N,M_{d,t,r})$，令 $f(Z)=u(T)(Z,1)$，
+其次数不超过 $d-1$。
+把 (1160.16)–(1160.17) 原样改为
+$
+\begin{aligned}
+v_{*,d}
+ &=Y^d\sum_{j=0}^{d-1}(\Delta^j f)(0)
+                   \binom{X/Y}{j+1},\\
+\mathcal I_d(u)
+ &=v_{*,d}+[X^d]\{u(T')-(T'-1)v_{*,d}\}\,Y^d.
+\end{aligned}
+\tag{1160.30}
+$
+完整 Newton 恒等式仍在 $R_r$ 上成立：
+其分母仅为 $1!,\ldots,d!$，均在 $p>37$ 时可逆。
+同样逐最高次数比较给 $T$-invariants 恰为 $R_rY^d$，
+而 $T'$ 的 $X^d$ 系数固定剩下的常数。
+因此 $d_N\mathcal I_d(u)=u$，没有使用域上的除法，
+也没有使用含 $1/p$ 的群平均。
+
+将 $\mathcal I_d$、(1160.28) 代入 §§3–5，
+得到完全指定的线性构造
+$
+\mathcal B_{d,t,r}:
+ \{\zeta_r\in Z^2(G,M_{d,t,r}):[\zeta_r]=0\}
+ \longrightarrow C^1(G,M_{d,t,r}),\qquad
+d\mathcal B_{d,t,r}(\zeta_r)=\zeta_r.
+\tag{1160.31}
+$
+连续性仍由有限系数、几何自由积及固定有限线性运算给出。
+
+若 $\zeta_{r+1}$ 约化为 $\zeta_r$，
+两个 finite-factor lifts 的约化相同；
+连续自由积的唯一性迫使整个 $b_{r+1}$ 约化为 $b_r$。
+实际共轭、residue、(1160.27) 的固定单位逆、
+复共轭修正与 (1160.30) 均与约化交换。
+逐个代入全 section 公式 (1160.21)，得到
+$
+\mathcal B_{d,t,r+1}(\zeta_{r+1})\bmod p^r
+   =\mathcal B_{d,t,r}(\zeta_r).
+\tag{1160.32}
+$
+这是实际 cochains 的等式，强于只说相应 cohomology classes 兼容。
+
+### 8.3. 原修正杯积直接给完整中央坐标
+
+在每层保留原三个有序 bilinear 槽：
+$
+\begin{aligned}
+\Omega_{0,r}&=\Pi_0(a_{4,r}\cup a_{8,r}),\\
+\Omega_{2,r}&=\Pi_2(a_{4,r}\cup a_{8,r}),\\
+\Omega_{4,r}&=\Pi_4(a_{4,r}\cup a_{8,r})
+ +\frac{21(1+p^4)}{11}\,a_{4,r}\cup\gamma_{5,r}.
+\end{aligned}
+\tag{1160.33}
+$
+最后的 cup 使用 R1147 (1147.39) 同一
+$\operatorname{Sym}^4\mathcal H_r(1)\otimes R_r(5)$ 槽。
+R1147 (1147.38) 已在完整算术 cohomology 中证明三个类皆零；
+本节不以几何 residue 零代替这个输入，
+也不删高层的因子 $1+p^4$。
+
+因而直接定义原中心的实际一次 cochain
+$
+\boxed{
+h_r=-\bigl(
+ \mathcal B_{12,2,r}(\Omega_{0,r}),
+ \mathcal B_{8,4,r}(\Omega_{2,r}),
+ \mathcal B_{4,6,r}(\Omega_{4,r})\bigr).}
+\tag{1160.34}
+$
+则 $dh_r=-(\Omega_{0,r},\Omega_{2,r},\Omega_{4,r})$，
+所以 $(a_{4,r},a_{8,r},\gamma_{5,r},h_r)$
+满足原四十二维 class-two group 的完整 cocycle law。
+(1160.32) 使这些 cocycles 逐层严格兼容；
+取逆极限即得到连续 $\mathbb Z_p$ 上链及原秩二十七中心，
+不是分别挑选的 finite-level lifts。
+
+该 generic tower 与 R1147 的原 canonical tower
+具有同一个已固定 abelian quotient。
+原 universal 的 $H^0(\mathcal Z_r)=H^1(\mathcal Z_r)=0$
+给逐层唯一的 quotient-preserving 同构，
+其唯一性又迫使同构沿所有约化相容。
+因此它识别到同一个 $S_0$ 上的整 torsor tower，
+以及 R1147 的忠实秩四十三格。
+这一步只使用已经支付的完整整模型唯一性，
+没有在删去点的 smaller open 或单个局部域上冒用唯一性。
+原 Cartan pushout 仍先约化至 $p$；
+本节没有把 level-$p$ 的 $I$ 擅自提升为 $T_pE$ 的算子。
+
+(1160.34) 的最高分量也与 §6 的
+$(h_{\mathcal V_n}+B_n)/v_n$ 在同一 quotient 下唯一同构。
+前者使三个中心和整塔的上链构造直接明确，
+后者保留实际四线 source 与 Hecke 比较的几何输入；
+两者都不能替代 §7 尚待读取的一般 Frobenius 共轭路径。
+本节没有由显式算术程序推断原 $F_0$ 的数值、
+weighted 局部单位或 full-$p$ 排除。
+
 ## 来源与核验
 
 - R1144 §§3–4：同一 Tate frame、actual residue、

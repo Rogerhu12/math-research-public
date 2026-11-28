@@ -1,14 +1,16 @@
 # 结论索引
 
+- **原三个中心的显式整算术 cochain tower（已证明）**：[R1160 §8](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)原单位residue、复共轭修正和整Newton反差分同时构造全部p^r三中心，严格与约化相容；保21(1+p⁴)/11，识别原canonical 43格。一般Frob路径及F0数值继续，Cartan I不擅自提升。
+
 - **原 Jacobi 的有限 Green 核与完整加权读取（已证明）**：[R1154 §13](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)付形式参数的首p边界、原companion与同E的M_j完整递推，所有指定Legendre权重仍保；原Newton基有准确Jacobi端点尺度。固定ν与变化r−1尚无保两根比较，不以无权非退化代原joint排除。
 
 - **原二同源的实际切线与并发分支（已证明）**：[R1157 §11](results/R1157-original-integral-SV-Manin-triangle-filling.md)非零五扭点统一分离所有rank-one支撑，完整常数的两切线比给有限四线展开；真正三线并发另给参考线三个Bloch值。SS整性与模p才并发的坏参数严格分开，原根相位/ordered修正全保。
 
 - **R1160（已证明）**：[原 Hecke 平滑的显式算术下降与未平滑 primitive](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)以原C2/C3有阶lift、复共轭的实际Eisenstein修正及两幺幂有限反差分构造B_n，准确dB_n=(V_n−v_n)Ω；h0=(hV+B_n)/v_n给原最高canonical lift，n2/n5覆盖全部p>37。一般Frob的同一conjugating path值和F0中央仍须计算，未将该程序当数值非零。
 
-- **原 n=2 的完整显式 theta/source（已证明）**：[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)由真正 norm 固定 Θ=Δ/(16y⁴)、Θ_C=ΘR_C² 与全部平移常数；原三函数 filling 成为27项，保6/−2/2权及−1/256。R1158–1159实际输入可取n2；两个交换商系数皆unit，中央v2仅43/127例外，实际unsmoothing未冒称已付。
+- **原 n=2 的完整显式 theta/source（已证明）**：[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)由真正 norm 固定 Θ=Δ/(16y⁴)、Θ_C=ΘR_C² 与全部平移常数；原三函数 filling 成为27项，保6/−2/2权及−1/256。R1158–1159实际输入可取n2；两个交换商系数皆unit，中央v2仅43/127例外，实际unsmoothing后由R1160支付。
 
-- **R1159（已证明）**：[原 correlation 到完整 Hecke 上链的实际比较](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付两个 crossed projection 同伦、单矩 norm 的全部根相位及 J_n，给指定 hV=hCorr+J_n 与 dhV=−V_nΩ。实际 unsmoothing 还须 dB_n=(V_n−v_n)Ω；未把 cohom scalar 单位当一次上链除法。
+- **R1159（已证明）**：[原 correlation 到完整 Hecke 上链的实际比较](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付两个 crossed projection 同伦、单矩 norm 的全部根相位及 J_n，给指定 hV=hCorr+J_n 与 dhV=−V_nΩ。实际 dB_n=(V_n−v_n)Ω 后由 R1160 构造；未以 cohom scalar 代上链除法。
 
 - **原 formal Frobenius 的实际 carry 与第八 jet（已证明）**：[R1155 §12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)在同一有限椭圆坐标固定 ψz=z^p，计算 ε=ε0−u0L 和三槽完整运输；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50 为单位。保未知常数 carry，不代分歧 torsion 的 field Frobenius，原加权中央值继续。
 
