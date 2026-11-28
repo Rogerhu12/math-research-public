@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：正确h=k全Pf固定谱图的原首一t三次与三生成](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)：完整N0/P1仿射消去f/V，真均值与Loww四个最高系数在整权环生成单位，显示幂零提升后由(J−Q)/4得到矛盾；原理想含首一t³，1,t,t²全权生成，无新ellhalf/Δ/Φ/D逆。各权纤维长度≤3，权支撑与物理空性仍开。
+
 - [R150：正确Phi全部最高方向排除与全权二十二生成](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md)：真均值/完整Loww/R6的最高系统在整权环保幂零排空；(2,2,6)正则序列和固定45行degree8满射给未几何局部化必要代数22个指定单项式全权生成，旧392例外全部纳入。原值空性和权曲线仍开。
 
 - [R150：正确Phi最高D2与λ1的整环单位](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-D2-original-unit-ideal.md)：真三均值与R6最高图中，通过λ1⁸/T1⁸和有限幂零理想给整环单位结论；不倒物理D或原λ，不宣最高图或原图已空。
