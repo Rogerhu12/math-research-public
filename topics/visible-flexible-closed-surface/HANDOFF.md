@@ -48,7 +48,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-HF-new-length --> [新正长度g双钟后三次完整XYZ](notes/2026-11-28-2ecf-strong-hf-two-clocks-three-full-XYZ-steps.md)：原成本下降，G11 .187979/κ19.8488，未过。
 
-<!-- 2ecf-HF-both-material-clocks --> [同g后续240次全6615位置](notes/2026-11-28-2ecf-strong-hf-same-g-240-joint-XYZ-iterations.md)：最佳联合G11 .09022977/κ20.07007；末态 .09925885/19.47169，未过。
+<!-- 2ecf-HF-both-material-clocks --> [同g真实14820维h/M32角剪切和全角对](notes/2026-11-28-2ecf-strong-hf-real-refined-ring-spectrum.md) 首段G11 .08658509/19.27108，末段.11081392/18.25365。
 
 <!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)：H65/HF64+原W/R205/R210完整闭面全相位嵌入，实际两强变化量>.2137、>.0532；精度和整闭 reach 接续。
 
@@ -58,10 +58,10 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 ## 工作位置与接续
 
-公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong实际新尾/喉，m12完整位置与共同度量，exact从含负K的准确圆形起点延拓；每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
+公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong实际新尾/喉，m12完整位置与共同度量，exact从R262真实非圆源更换中央并释放混合频率；每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
 源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:53:44 UTC；已读公开 main `16ed9f64f2f35bcce4d07287fac1356684848920`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:55:45 UTC；已读公开 main `564dcf8ef3022061ae566c429e3ad9f7d76e9a0b`，根/课题 README 逐差无变化。
