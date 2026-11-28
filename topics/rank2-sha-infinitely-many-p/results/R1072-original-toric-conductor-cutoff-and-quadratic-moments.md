@@ -208,3 +208,87 @@ $$ \ll (\log(2Y))^C(p+1)(Xp^A)^{9/16}/p^s .$$
 $$ Z_{s,D}=C_pK_Y\bigl(1+O(Y^{-1/4})\bigr)+O(p^{-2}),
  \qquad s=2i,2i-1.$$
 其 primitive 差为 $2C_pK_Y(1+o(1))$，严格非零。因此该层至少一个原 $L(1,\psi\nu)$ 非零。R1070 实际 Rubin 比值及参考单位在未分歧基上把同一个原零沿整层 Galois 轨道传递，故此层全部 primitive 扭曲非零。上述论证同时给固定 $s$ 中无小分裂素因子的真射线数界；结论仍未把 $i=1$ 的二次矩或特征零中央导数赋非零。
+
+## 7. 两条原 CM 曲线的整 signed Artin 因子
+
+沿用原 $b=17,1$、$E_b:y^2=x^3+b$、$K=\mathbf Q(\omega)$、原反圆分 $\Gamma$ 坐标 $T=\gamma-1$，写 $\iota(T)=(1+T)^{-1}-1$。对 $b=17$ 用 R736 原 primitive 整 Brandt 向量 $f_{17}=f_{\rm int}$。对 $b=1$ 在同一判别式三代数以及该曲线自己的 $N_1=36$ 局部层级上，取 BHKO Def.3.10 的固定 toric 向量 $f_1$，原 $\mathfrak f_1=(2\delta)$；这里 $2,3$ 的原分歧向量均保留。可取某固定数域的整数为其值：整 Shimura 集是有限集，原 Hecke 特征值为有理整数；坏位所需的平凡 $K_q^\times$ 不变条件及定有限层线性 Hecke 特征空间给在数域上定义的测试线，取其非零向量一次清分母。所有充分大 $p$ 处均 primitive。$f_{17}$ 同理。BHKO Defs.3.10、4.1，Prop.4.7 给各自 $\Theta_b^-\in\mathcal O[[T]]$，其中 $\mathcal O$ 允许含这些固定代数值及 R1070 所需的未分歧基。若以原全局整向量乘固定非零数，$\Theta^-$ 也按同一标量改变。
+
+记 $\Omega_{\pi_b}=8\pi^2(\phi_b,\phi_b)/\langle f_b,f_b\rangle$ 与 $C_b=2^{\#\Sigma_{D,b}}\epsilon(\pi_b)\sqrt{|D_K|}/\epsilon(\pi_{b,p})$，即 BHKO (4.1),(4.2) 的原 Petersson 范数及双线性范数。两曲线有根号 $+1$，$p$ 未分歧且 $\epsilon(\pi_{b,p})=1$；这些常数均与 $p$ 无关，$N_b^+=1$。对 $t=2i-1\ge1$ 和 $\xi=\nu(\gamma)$ 确切阶 $p^t$，BHKO Theorem 4.9(b) 给
+$$ \Theta_b^-(\xi-1)^2=
+ \frac{C_b}{\Omega_{\pi_b}}\,
+ L(1,\psi_b\nu)L(1,\psi_b\nu^{-1})\,
+ p^{2i}\prod_{j=1}^{i-1}\Phi_{p^{2j}}(\xi)^{-2}.$$
+按 CM 基变换与理想共轭得到两 $L$；$p$ 处 $\nu$ 分歧、$3$ 处 $\psi_b$ 各自分歧，故所缺 Euler 因子均为1。$2$ 及 $b=17$ 时的 $17$ 保原来源。两侧使用同一 $\Gamma$ 和单位根，故 $p^{2i}$ 及全部半旋分因子逐项相消。
+
+参考曲线原 $L(1,\psi_1)\ne0$（R303 的原 rank-zero CM period）。BHKO Remark 4.10(i) 用平凡角色 toric period 给
+$$ \Theta_1^-(0)=[G_1:G_0]\sum_{a\in G_0}f_1(x_0(a))=
+ \tfrac{p+1}{3}f_1(x_0(1)).$$
+$G_0$ 仅一元，$[G_1:G_0]=(p+1)/3$ 由原 ring class 数。$x_0(1)$ 是固定 tame 基点，局部 $p$ 深零矩阵在 $\mathrm{GL}_2(\mathbf Z_p)$，故值固定；上述 remark 的平凡角色平方与 $L(1,\psi_1)^2\ne0$ 相应，给 $f_1(x_0(1))\ne0$。故除固定有限集合外，$\Theta_1^-(0)$ 为单位，$\Theta_1^-$ 在整环中有逆。
+
+R1070 §§21–23 的实际局部椭圆单位类之 BKO 精确比较在相容 Betti/Néron 基下给
+$$ \mathcal A_p(\xi-1)=
+ \vartheta^{-1}\frac{L(1,\psi_{17}\nu)/\varpi_{17}}
+ {L(1,\psi_1\nu)/\varpi_1},\qquad \vartheta^6=17 . $$
+对 $\nu^{-1}$ 同时应用。上式比较真实有限值和原 sign；不以两个 valuation 相同推出函数相等。故每个上述有限输入都有
+$$ (\Theta_{17}^-)^2(\xi-1)= C_{\!*}\,(\Theta_1^-)^2(\xi-1)\,
+ (\mathcal A_p\cdot\mathcal A_p\circ\iota)(\xi-1),\quad
+ C_{\!*}=\frac{C_{17}\Omega_{\pi_1}}{C_1\Omega_{\pi_{17}}}
+ \left(\frac{\vartheta\varpi_{17}}{\varpi_1}\right)^2 .$$
+$\vartheta\varpi_{17}/\varpi_1=1$ 对 R303 的相容基；允许原始基的单位改动时保留显示常数。该常数为固定非零代数数：上面的 Thm.4.9(b) 取比，选一组已知深层非零的 $p,i,\nu$；有限 signed 值由 $(-1)^iP_{b,i}(\xi)/\prod_{j<i}\Phi_{p^{2j}}(\xi)$ 给出，均为代数数（下段给绝对归一）；两 $L$ 的单项比也由原 Yang/Siegel–Klein 真范数及相容 CM period 给代数数。故可反解同一个 $C_{\!*}$，排除其固定有限非单位素数即为整单位。
+
+在每个剩余 $p$，等式两边均为整有界级数。非零整有界级数的 Weierstrass 有限次数限制其开单位盘零点总数，该层奇数 $t$ 的 primitive 权无穷；取差即得整函数恒等式。因此
+$$\boxed{\big((\Theta_{17}^-)^2\big)
+=\big(\mathcal A_p\cdot(\mathcal A_p\circ\iota)\big)
+\quad\text{于 }\mathcal O[[T]].}$$
+这是 BHKO §4.4.2(4.5) 在此指定 pair 的整理想身份。R1070 的整平方还给
+$$ \operatorname{ord}_{T=0}\Theta_{17}^-=
+ \operatorname{ord}_{T=0}\mathcal A_p=
+ 2\operatorname{ord}_{X=0}\mathscr J_a\ge2.$$
+特别首项在 weight zero 的阶恰为2 等价于原中央 $J_p'(0)\ne0$。无需以末层 valuation 或 $\lambda_p$ 判定该特征零阶。
+
+## 8. 真实有限层二次矩的中央非零等价
+
+令 $A_{i,u}$ 仍为原 $f_{17}$、原全 tame 行，$0\le u<p^{2i-1}$ 是固定 $\gamma$ 下的整数代表。在 BHKO 原兼容基点上定义
+$$g_i(X)=\sum_u A_{i,u}(1+X)^u,\quad
+C_i(X)=\prod_{j<i}\Phi_{p^{2j}}(1+X),\quad
+F_i(X)=X\prod_{j\le i}\Phi_{p^{2j-1}}(1+X).$$
+$g_1(0)=0$ 为 R736(37)。对 $i\ge1$，BHKO Prop.4.7 证明中的原 $a_p=0$ 行递推，在平凡 tame 支上准确是
+$$g_{i+1}\equiv-\Phi_{p^{2i}}(1+X)g_i
+\pmod{(1+X)^{p^{2i}}-1}.$$
+原 $G_{2i+1}\to G_{2i}$ 的 transfer 是整 $p$ 个 lift，由核的生成元 $\gamma^{p^{2i-1}}$ 给上式的旋分因子。模数为 $F_i C_{i+1}$。所以 $C_i\mid g_i$；真整多项式 $G_i=(-1)^i g_i/C_i$ 满足 $G_{i+1}\equiv G_i\bmod F_i$。$F_i$ 在每个固定 $X$ 次的系数随 $i$ 趋于0（固定窗以外的每个新增旋分因子低次数系数全被 $p$ 整除），递推遂给整有界的逐系数极限 $G$，而 $G-G_i\in F_i\mathcal O[[X]]$。后一句也可用 $F_i$ distinguished / 完备有限自由商环的闭性。
+
+这个极限的符号及尺度由原分拆确定。取 $t=2i-1$、$\xi$ 确切阶 $p^t$。稳定化旧项按 (2.7),(3.4) 在末纤维消去，BHKO Def.4.1 使 $\Theta_{\alpha_p}(\xi-1)=\alpha_p^{-2i}P_i(\xi)=(-p)^{-i}P_i(\xi)$。BHKO Def.4.6/Prop.4.7 的 $\log_p^-(\xi)=0$，$\log_p^+(\xi)=p^{-i}C_i(\xi-1)$。所以
+$$\Theta_{17}^-(\xi-1)=(-1)^i P_i(\xi)/C_i(\xi-1)=G_i(\xi-1)=G(\xi-1).$$
+无穷 primitive 特化及整有界性给 $G=\Theta_{17}^-$。此证明在参考 $b=1$ 同样适用，以相应 $f_1$ 代入。原扭曲在某一层为零时该式仍成立。
+
+现在 $C_i(0)=p^{i-1}$，递推给 $g_i(0)=0$ 对所有 $i$。因 $p>3$，$[X]F_i=p^i$、$[X^2]F_i\in p^i\mathbf Z_p$（每个 $\Phi_{p^j}(1+X)$ 的线性项为 $p^{j}(p-1)/2$），故
+$$ [X]G_i\equiv [X]\Theta_{17}^-=0\pmod {p^i},\qquad
+[X^2]G_i\equiv [X^2]\Theta_{17}^-\pmod {p^i}.$$
+$C_i'(0)/C_i(0)=\sum_{j<i}p^{2j-1}(p-1)/2\in\mathbf Z_p$。对 $g_i=(-1)^iC_iG_i$ 取 $2[X^2]+[X]$，由 $G_i(0)=0$ 及上述一次项整除得原全层整数
+$$ M_i=\sum_{u=0}^{p^{2i-1}-1}u^2A_{i,u},\qquad
+ \boxed{\ (-1)^i p^{1-i}M_i\equiv2[X^2]\Theta_{17}^-\pmod {p^i}.\ }$$
+左侧的 $p^{i-1}$ 整除是结论的一部分。换同一 residue 标签的整数代表仅改 $M_i$ 的 $p^{2i-1}$ 倍数；一致作群生成元变换与原基点平移也保持下述规范的非零判据（直接由 $\Theta_{17}^-$ 的中央双零及可逆坐标/根单位看出）。
+
+因此对充分大惰性好 $p$，
+$$\boxed{\quad J_p'(0)\ne0
+\quad\Longleftrightarrow\quad
+\text{存在 }i\ge1\text{ 使 }
+\sum_{u\bmod p^{2i-1}}u^2 A_{i,u}\not\equiv0\pmod {p^{2i-1}}.\quad}$$
+若左端成立，任一 $i>v_p(2[X^2]\Theta_{17}^-)$ 都检出；反之任一真实有限层检出便保证原特征零中央非零，故由 R303 给该固定曲线的通常全 $\Sha[p^\infty]$ 有限。首层是原 $m_2(p)$；允许更深有限层检出首层看不到的中央值。这仍需对无穷多个不同 $p$ 证明某层检出。其反面是同一源在每一层的真实二次矩同余，本推导未要求各个原 Brandt 行或 Fourier 角色分别为零。
+
+原文：[BHKO](https://arxiv.org/html/2408.13932v3)，Defs.3.10、4.1、4.6、Prop.4.7、Thm.4.9(b)、Rem.4.10(i)、§4.4.2(4.5)。绝对 Rubin 比值及相容 Néron/Betti 基如 R303、R1070 §§21–23。
+
+## 9. 原规范中央二次矩的精确平方与首个检出层
+
+将 R1070 的 $K_0=6\kappa_0\vartheta^{-1}$、整数环上的幂坐标 $1+\tau(T)=(1+T)^{-1/b}$ 与实际 $s\in\mathbf Z_p$ 代入刚证的 signed 恒等式。因 $\tau\circ\iota=\iota\circ\tau$，R1070 中两个 $(1+\tau)^{-s}$ 在反演的两个因子中准确互消，于是
+$$ (\Theta_{17}^-)^2=C_{\!*} K_0^2(\Theta_1^-)^2
+  \bigl(\mathscr J_a(\tau(T))\,\mathscr J_a(\tau(\iota(T)))\bigr)^2.$$
+在该整环的分式域中作两个非零函数之商。其平方是非零常数，故该商为常数 $c_p$ 且 $c_p^2=C_{\!*}K_0^2$。证明可以在含一个常数平方根的有限常数域扩张中分解 $Y^2-C_{\!*}K_0^2$；整域无零因子，原商等于其中一个常数。$c_p$ 为 $p$ 单位，仍保留由实际原向量选择的符号。在给定嵌入下的准确公式是
+$$\Theta_{17}^-=c_p\Theta_1^-\mathscr J_a(\tau)\mathscr J_a(\tau\circ\iota).$$
+由 $\tau'(0)=-1/b$、$\iota'(0)=-1$，并用 $\mathscr J_a=X\mathscr L_{34}/(V_a\mathscr E_2)$ 及 $\mathscr L_{34}(0)=j_{34}/(d\log\eta)$，有
+$$2[T^2]\Theta_{17}^-=-2c_p\Theta_1^-(0)b^{-2}
+       \left(\frac{j_{34}}{d\log\eta\ V_a(0)\mathscr E_2(0)}\right)^2.$$
+$2,c_p,\Theta_1^-(0), b, V_a(0),\mathscr E_2(0)$ 均为单位。若中央非零，令 $r=v_p(j_{34}/(d\log\eta))\in\mathbf Z_{\ge0}$；原系数在未分歧整基上，故 $r$ 为整数。于是
+$$v_p(2[T^2]\Theta_{17}^-)=2r,\qquad
+i_{\rm first}=2r+1.$$
+其中 $i_{\rm first}$ 是有限判据 $p^{2i-1}\nmid M_i$ 首次成立的层。事实上 $(-1)^ip^{1-i}M_i$ 模 $p^i$ 正是显示平方的值，若 $i\le2r$ 则全为零，$i>2r$ 时其赋值恰为 $2r$。若 $j_{34}=0$，所有原 $M_i$ 均满足前述整除。故偶数 $i$ 永远不能是该判据的首次检出层。这也保留即使 $m_2(p)=0$，原特征零中央仍可能在以后的奇数层首次检出。

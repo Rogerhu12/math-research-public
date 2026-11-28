@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:48:30 UTC实际pull --rebase，读取main 91c3449497ee7095c862312a4e1b5f124a31a253；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:48:25 UTC实际pull --rebase至8ae1fb98c1369f71bf198985305dfd6e98780d74；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:50:08 UTC实际pull --rebase，读取main 3f1edc16440727f43247e2f16eddfbcc78ffea07；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:50:03 UTC实际pull --rebase至24477013243529696ef9dfdf7219b6c042424080；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bee3692a9c661d21f286c6799449901acca6583f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3246/46778637B/treef55b0589b74e10ef92bc2500c4b527f2ba6f7743；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3246/46786608B/treed7483e37d3e4b0052d5355aa7a494c05bb7e59b3；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -40,7 +40,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 原全导子量化：R1072
 
-[R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§1已付原完整Mellin primitive差、同一X、六条单位/δ短线、相对范数与二维格一致误差；D=φ(p+1)/2，i≥(1/2+ε)D整段所有原twists非零。未分歧同层传播返A/B34无旋分根，未决定中央或首层。§§2–4已付原全层偶数小行、非零P_i严格v<1、Th3.12/4.14–15原周期和v(P_i)=v(A_p)+S_i/D_i；P_i非零恰λ<D_i−S_i，零层初始段。原首层λ=2恰Σu²A_1,u modp非零，足以通常全Sha有限。原有限域插值与Weil弧界再给√p节省，未证所需无穷p非零。 §5把真实primitive分裂素方向相位保为角色，短同步子群的tame注入限秩、Poisson推前正下界及全长尾，给i≥100logp/loglogp整段非零与log(1+λ)≪(logp)²/loglogp。 §6更以截断分裂Euler算子、粗方向同向乘积注入和全长尾，给所有i≥1000原整层非零及λ_p<p^1999；主证明不借µ/λ。
+[R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§1已付原完整Mellin primitive差、同一X、六条单位/δ短线、相对范数与二维格一致误差；D=φ(p+1)/2，i≥(1/2+ε)D整段所有原twists非零。未分歧同层传播返A/B34无旋分根，未决定中央或首层。§§2–4已付原全层偶数小行、非零P_i严格v<1、Th3.12/4.14–15原周期和v(P_i)=v(A_p)+S_i/D_i；P_i非零恰λ<D_i−S_i，零层初始段。原首层λ=2恰Σu²A_1,u modp非零，足以通常全Sha有限。原有限域插值与Weil弧界再给√p节省，未证所需无穷p非零。 §5把真实primitive分裂素方向相位保为角色，短同步子群的tame注入限秩、Poisson推前正下界及全长尾，给i≥100logp/loglogp整段非零与log(1+λ)≪(logp)²/loglogp。 §6更以截断分裂Euler算子、粗方向同向乘积注入和全长尾，给所有i≥1000原整层非零及λ_p<p^1999；主证明不借µ/λ。 §§7–9原signed Artin给Θ17²=C*Θ1² A Aι、Θ1单位；BT全层M_i=Σu²A_i,u准确满足(−1)^i p^(1−i)M_i≡2Θ17,2 modp^i。因此原J′非零恰某有限i不被p^(2i−1)整除；中央赋值2r且首次检出i=2r+1。所有i都未检出才等价中央坏，不把有限矩/全行混同。
 
 ## 更正、其它门与主前沿
 

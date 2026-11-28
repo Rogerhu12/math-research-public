@@ -308,3 +308,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1067 §50：同一原关系的互补二次射线
 
 原平方theta的Γ68下降及全部目标标记使M=68已足够，同一全Paley/径向/参考公式适用于无穷子列p≡137 mod204。此时物理j=0仍超奇异，辅助Q(√−17)分裂；∞原同源取正号，σ=1与G²=p完整代入，Q6两canonical不变。分裂性只决定可用原展开，不自动给中央非零。 [完整同编号证明](results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1072 §§7–9：原中央非零的有限层整数证书
+
+BHKO真实signed归一与R1070精确Artin比给Θ17²=C*Θ1²·A·A∘ι，原rank-zero参考Θ1整单位；全BT整数递推准确构造Θ17。完整二次矩M_i=Σu²A_i,u满足(−1)^i p^(1−i)M_i≡2[T²]Θ17 modp^i，故原J′非零恰某有限i有p^(2i−1)不整除M_i。原整平方进一步给中央赋值2r、首次检出恰i=2r+1；允许首层未检出，不要求全Brandt行消失。仍须证明无穷不同p检出。 [完整证明](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
