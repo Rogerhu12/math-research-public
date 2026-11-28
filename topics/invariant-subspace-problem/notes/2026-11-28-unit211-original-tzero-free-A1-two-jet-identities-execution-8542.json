@@ -1,0 +1,52 @@
+{
+  "sourceSHA256": "5d074fb01bab7ae4e3428730aa16d9173465f05f94d71a0aadd48e4d0aedfe87",
+  "sourceBytes": 4141,
+  "schema": "isp-original-tzero-free-A1-two-jets-v1",
+  "variables": [
+    "b",
+    "c",
+    "p",
+    "q",
+    "r",
+    "s",
+    "A1"
+  ],
+  "elapsed_milliseconds": 6,
+  "integerPolynomialProducts": 534,
+  "checks": [
+    {
+      "name": "same_full_Gram_F2_equals_Aplus2V",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "full_t_zero_Pjet_N0_with_free_A1",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "full_t_zero_Njet_means_N0_with_free_A1",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "same_W1_original_mean_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "full_t_zero_same_source_combined_jet",
+      "fullIntegerPolynomialDifferenceZero": true
+    }
+  ],
+  "originalGramRows": [
+    "0,0,p,q",
+    "0,A1,r,s",
+    "p,r,0,0",
+    "q,s,0,0"
+  ],
+  "trueDualGermSquare": true,
+  "allSevenParametersIndependent": true,
+  "noPhiAssumption": true,
+  "noWAuxiliaryAssumption": true,
+  "noUnpaidDivision": true,
+  "noOldQuadraticHeadUsed": true,
+  "consequenceUsingOriginalN0P1N1AndMeansAndF2Equals2u": "A2-2*ell*lambda-(2*lambda-1)*T=0",
+  "originalISPClaim": false
+}

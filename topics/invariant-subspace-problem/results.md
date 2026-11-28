@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [h=k 的正确五原行、三 cofactor 与物理因子](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)：原P1及完整N4(V)同点返回，无Δ逆；完整39项因子等于−4B⁴bc(1−Q)，λ半复用既存真实物理秩证明，留下三个规范必要多项式。所有未付图和原值保留；另首次派正确Phi t0/fu小原理想。
+
 - [正确 Phi 四头的全局单位理想与三生成元](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)：整A原U、整B原U^26拼成U^27，四极大子式全原图生成1；真实伴随左逆给1,T,z。原26维有限代数秩13的目标返回完整，不误称满秩/自由/λ有限，也不恢复旧错误Rbar链。
 
 - [同一双平坦来源的双圆相位与负逆级数忠实](results/R267-appendix-double-flat-two-torus-and-negative-inverse-source-faithfulness.md)：完整原高块/carry估计构造真实点范数T²作用，P/Q相位独立；Q不由旧来源任何非零有界分母表示，严格超出旧联合闭场。负P全Fourier抽取与临界C逆引理付双逆类全H忠实，整类平方来源不可能；未知旗整和quasi与一般场外根继续。

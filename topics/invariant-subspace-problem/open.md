@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-true-Phi-global-three-generators-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-corrected-hk-physical-cofactors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-f33[真五行](notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-original-rows-three-cofactors-input-8542.md)首次真3.386197837秒/94280KiB/0，五同z行和三完整cofactor共212整除返回，仅ABQδPf图；三个必要式均含(2λ−1)²，未排任何整图。完整P1/N4(V)原迹与所有Δ0/未付权零保留；旧Q6/235170/u2及QQ门不沿用。A/B/Pf零、仿射与无穷角按独立原来源继续。
+[h=k正确五行/三物理条件](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)：f33真3.386197837秒/0，完整三cofactor/212整除；Z39=−4B⁴bcδ和347c λ半物理排除付三必要F。仅ABQδPf，保Δ0及其它未付零；旧Q6/235170/u2不沿用，完整原单点值和物理列继续。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ f33[真五行](notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-orig
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[真四头全局单位理想](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)：原U∈(A,F)，整B二次代数26维/原矩阵rank13返U^26，合U^27∈(AB,F8,F10,F9)。真实伴随左逆给整个QδPfP02bc图1,T,z生成；非自由、未付λ有限。旧H1/H42/583仍撤回，完整原值继续。通用A1=t0真jet给D0，D非零/t0只余f=u；碰撞不由此关闭。
+[真四头全局单位理想](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)：原U∈(A,F)，整B二次代数26维/原矩阵rank13返U^26，合U^27∈(AB,F8,F10,F9)。真实伴随左逆给整个QδPfP02bc图1,T,z生成；非自由、未付λ有限。旧H1/H42/583仍撤回，完整原值继续。通用A1=t0真jet给D0，D非零/t0只余f=u；碰撞不由此关闭。 首派bf3[真t0/fu输入](notes/2026-11-28-unit211-Phi-zero-true-tzero-fu-original-weight-ideal-input-8542.md)，120秒/1GiB，freeA1真jet消元加完整两均值给四原纯权理想元；全部λ头零保，未预称空。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
