@@ -305,3 +305,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §112：原全域有限驯特化与固定有理序列的素数指标
 
 已证明：全部p>211惰性素数，真实系数I³提升在有限驯点特化为p³倍原完整Kummer单位。物理E₁₇严格LT及正确单位对数界给全Sha无限⇒m_p、m_{p²}、e_{p²}均被p整除，并给m_p/p+m_{p²+p−1}≡0。任一相应不整除即足够；跨p无穷非零仍缺。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §113：原第五深槽的真实椭圆核与第二整算子
+
+已证明：真实正合列E₁→E₁通用扩张→Ga保全部原挠提升；B′p+2的完整q窗恰为CC1全迹，Artin–Hasse第二整算子L支付深窗。全部五槽现有同一固定几何表达，但仍未推出跨p非抵消。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
