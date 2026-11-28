@@ -1,0 +1,46 @@
+{
+  "sourceSHA256": "8d3552c96106fc9abb74c3b9ce873305810e49702d43674fff663d75b7c5520e",
+  "sourceBytes": 4314,
+  "schema": "isp-original-tzero-fu-weighted-NP-v1",
+  "variables": [
+    "b",
+    "c",
+    "p",
+    "q",
+    "r",
+    "s"
+  ],
+  "elapsed_milliseconds": 7,
+  "integerPolynomialProducts": 734,
+  "checks": [
+    {
+      "name": "same_full_Gram_f_equals_u",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_weighted_N_on_actual_tzero_fu",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_weighted_P_on_actual_tzero_fu",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_free_A1_first_jet_on_actual_tzero_fu",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_second_jet_on_actual_tzero_fu",
+      "fullIntegerPolynomialDifferenceZero": true
+    }
+  ],
+  "trueGramA1": "2*ell*u-2*(b*r+c*s)",
+  "trueDualGermSquare": true,
+  "actualF2Equals2u": true,
+  "wholeWeightedNAndP": true,
+  "noPhiAssumption": true,
+  "noWAuxiliaryAssumption": true,
+  "noUnpaidDivision": true,
+  "consequenceAfterAllOriginalValueAndJetEqualities": "(2*lambda-1)*w=0 and lambda*(2*ell-1)=0",
+  "ordinaryISPClaim": false
+}
