@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **48aa9b46c8287a2e5b7585f782f4a0e66eef208d**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **50f848365402f97511614f443ac8a0125b45fff5**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -62,6 +62,6 @@ R686源窗/完整SO3、curl/周期/两真锚与实际g/二jet误差传递；R690
 
 R693另以C0(0)源/下领真半转；[R697](results/R697-free-axial-crown-translation-and-curl-only-window.md)整冠/管的σ等于真端缺陷轴向均值，三curl足配两口。|σ|≤.05/d+|σ|+e≤.09及1.6d+.6|σ|+2.6e≤.1522付宏观；老帽.05肩至冠净空>.272，未知窗真实P二阶/法球重读。R705据此另新输入，不借旧R688资格。
 
-[R699](results/R699-all-point-principal-curvature-of-the-real-wide-cap-shoulder.md)真实宽肩全点曲率；[R700](results/R700-global-normal-tube-of-the-actual-old-cap-and-cylindrical-shoulder.md)完整老帽/肩/恒柱任意点对双法球，reach≥1/10.4，异帽>.90。真实弯片/负领/未知窗跨件未付。
+[R699](results/R699-all-point-principal-curvature-of-the-real-wide-cap-shoulder.md)真实宽肩全点曲率；[R700](results/R700-global-normal-tube-of-the-actual-old-cap-and-cylindrical-shoulder.md)完整老帽/肩/恒柱任意点对双法球，reach≥1/10.4，异帽>.90。R706另付帽—全弯主片两有序方向，启动.03后法球距余量>.001；负领须真实C⁰≤.0002/C¹法向≤.008，未知窗跨件仍欠。
 
 旧任务和全部失败/费用见[完整open归档](open-archive-through-R690-20261128.md)及各原文。R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g且δE可0。连续同g全时、真实多t全网格/存在差距/全完成门仍未付，继续实际新输入。
