@@ -28,7 +28,7 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 R246给完整二阶端口的条件C2正高度连接；R247只排固定rho/N31高度子族的该数值方向，不排完整XYZ。R248准确把旧支撑扩到完整前缀、5292→12789列，并保原场/六jets；其生产新prepared和实步尚未完成。
 
-本轮 strong代理已真实重生原gap105/v045两个master和target-zero，SHA与R233/旧目标一致；两个polar v2缓存独立再生中，后接原11步恢复及R248全前缀新空间。所有恢复步骤单列，不冒新研究接受；原 g 与中央/真实尾保持，新增前缀必须用完整span求积和独立观察。
+本轮 strong代理已真实重生原gap105/v045两个master和target-zero，SHA与R233/旧目标一致；两个polar v2缓存独立再生中，后接原11步恢复及R248全前缀新空间。所有恢复步骤单列，不冒新研究接受。新 [完整前缀生产基线](notes/2026-11-28-2ecf-polar-full-prefix-warm-hidden-peaks.md)已实际完成：12789列、205径点/65600全点，保全部旧97行/5292系数字节，新旧全点六jets浮点差0；新增108径点发现原同一11态漏峰，metric1.57258037、κ4050.87194、σ.203406，旧κ32.995不是连续界。新prepared `e8803bd9…daf8a03`；新有限求积成本R14²67.537144是自己的基线，不能与旧.218889混比。新首步已完成并将单独登记，继续实际求解。
 
 ## 文献及复现范围
 
@@ -40,4 +40,4 @@ R246给完整二阶端口的条件C2正高度连接；R247只排固定rho/N31高
 - root唯一写main；三个代理只写同级scratch。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；输入/运行工作在同级 m12-work、exact-work、strong-work、root-work。任何可重算完整输出不进Git/Release，只源码/配方/实际结论/哈希。
 - 每条结论完成即commit、真实pull/rebase、核双README、普通push；非快进或并发ref竞争立即再pull/rebase循环，不force、不改已发表历史。不写根LOG；H<10KB、单MD<100KB，open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 06:35:00 UTC；已读公开 main `100e03d8721cffc1a6ecf6a2ffdca31d40a5e473`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 06:43:15 UTC；已读公开 main `c763f51793ee59150d8770cfc6ea76c4f925de7b`，根/课题 README 逐差无变化。
