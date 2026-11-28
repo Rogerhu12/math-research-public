@@ -1,0 +1,263 @@
+{
+  "schema": "visible-larger-run39b-actual-closed-flow-v1",
+  "run_number": "39b",
+  "handoff_marker": "<!--run39b-bent-body-flow-->",
+  "run": "46148134174",
+  "attempt": "1",
+  "source_commit": "a38135aea53800ecf8dd1a31119cc08c02b683f1",
+  "initial_readme_checked_commit": "a38135aea53800ecf8dd1a31119cc08c02b683f1",
+  "command_identity_sha256": "1747feb4885543809349c0367ca666b8910a026d06de594729f2901509eed399",
+  "request": {
+    "path": "topics/visible-flex-larger-amplitude/computations/run39b-bent-body-flow-request.json",
+    "bytes": 16496,
+    "sha256": "17b9d3493d0cdbcc87e0ea3d4c1769367c3c8e205c259d8fe7aa3099d395a975"
+  },
+  "scientific_inputs": {
+    "script": {
+      "role": "full Run39 replay followed by three actual fixed-target finite flows",
+      "name": "bent_body_flow_actual.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_actual.py",
+      "bytes": 9244,
+      "sha256": "98d5aaa7a45ee7b51626f6e13f804965802eeef4fc43da68aea25636c0698eac",
+      "git_blob_sha": "68e91b81977056522920f6ed517fa199dfe6c1d2"
+    },
+    "parameters": {
+      "role": "independent complete finite flow integrators, closed initial material points and archived original identities",
+      "name": "bent-body-actual-flow-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-body-actual-flow-design-v1.json",
+      "bytes": 3286,
+      "sha256": "ec4068b8e2783135ace2104dd9dd7129bdc2e30ac8ae484671ac121b67d25d1f",
+      "git_blob_sha": "bccdaa0ba3e0eab9f7bb81084d21ce46866440f8"
+    },
+    "flow_field": {
+      "role": "full closed material atlas, regular overlapping cap transitions and physical polynomial two-jets",
+      "name": "bent_body_flow_field.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_field.py",
+      "bytes": 10290,
+      "sha256": "7339a1501a8edc44c65ffa977847b4ac5a9fe0ce4540cbaba4122bdb4cbf7a0b",
+      "git_blob_sha": "bdf6c7925a87a4bc515cc2c0b3b5339116317ecb"
+    },
+    "flow_integrator": {
+      "role": "actual DOP853 material paths and tangent maps, moving marked pullback and two refinements",
+      "name": "bent_body_flow_track.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_track.py",
+      "bytes": 11825,
+      "sha256": "1425b51ce99d8c908e421096aa7e4f0f91233124a9da3224efc91395fb8a6109",
+      "git_blob_sha": "8bbba1b825cc4236955392aad4134890db3fe663"
+    },
+    "parent_script": {
+      "role": "complete Run39 coupled closed-body intrinsic field and physical deformation search",
+      "name": "bent_body_killing.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_killing.py",
+      "bytes": 12986,
+      "sha256": "41f3b38d47fe4fabe69513056dbc9146d8bd44e0a30f12feddfeff0c61532e2a",
+      "git_blob_sha": "5e432c8f543b1ce6a7eb15a30575617d335deb74"
+    },
+    "parent_parameters": {
+      "role": "Run39 complete material-domain and numerical budgets",
+      "name": "bent-body-killing-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+      "bytes": 3914,
+      "sha256": "6a3264161732a9e18ae7b3347344ef51a268292864d02b5b1f10e16894bc0eec",
+      "git_blob_sha": "e79298177128e989c32f9c47a8a4d4bb1e41f0ad"
+    },
+    "atlas": {
+      "role": "Run39 actual closed material atlas and field anchoring data",
+      "name": "bent_body_atlas.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac"
+    },
+    "ambient": {
+      "role": "Run39 Cartesian physical geometry, intrinsic vector field, six derivatives and Lie operators",
+      "name": "bent_body_ambient.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_ambient.py",
+      "bytes": 9718,
+      "sha256": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3",
+      "git_blob_sha": "e56606a1371dfb52dc404e49ac632faa8b0ffe96"
+    },
+    "r740_source": {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    "r742_source": {
+      "role": "complete R742 tilted seed analytic two-position-jets six-field provider",
+      "name": "r742_tilted_disk_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    "r744_source": {
+      "role": "complete R744 extruded closed physical body atlas and six positional derivatives",
+      "name": "r744_extruded_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd"
+    },
+    "geometry_source": {
+      "role": "complete R745 equal meridian and Jacobi reference atlas, with genuine fixed marks off the chosen geodesic",
+      "name": "r745_equal_meridian_jacobi_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+      "bytes": 7123,
+      "sha256": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a",
+      "git_blob_sha": "8bcfed4448ae02847825c48f4d1b3d586a95fb79"
+    },
+    "original_observation": {
+      "role": "original public Run39 entire terminal observation; timestamps and summary stay independent of replay",
+      "name": "run39-bent-body-killing-46146451800-1.json",
+      "path": "topics/visible-flex-larger-amplitude/notes/run39-bent-body-killing-46146451800-1.json",
+      "bytes": 75633,
+      "sha256": "1642366bf3aaa09cc3e5d9b4c31af5b2ea55ffb168cb0b4fd2f7193e19299351",
+      "git_blob_sha": "09d8aaf5feb9005946f91ac44d31689f4d03cfc3"
+    }
+  },
+  "actual_frozen_inputs": {
+    "script": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_actual.py",
+      "git_blob_sha": "68e91b81977056522920f6ed517fa199dfe6c1d2",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_actual.py",
+      "bytes": 9244,
+      "sha256": "98d5aaa7a45ee7b51626f6e13f804965802eeef4fc43da68aea25636c0698eac"
+    },
+    "parameters": {
+      "original_path": "topics/visible-flex-larger-amplitude/computations/bent-body-actual-flow-design-v1.json",
+      "git_blob_sha": "bccdaa0ba3e0eab9f7bb81084d21ce46866440f8",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/computations/bent-body-actual-flow-design-v1.json",
+      "bytes": 3286,
+      "sha256": "ec4068b8e2783135ace2104dd9dd7129bdc2e30ac8ae484671ac121b67d25d1f"
+    },
+    "flow_field": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_field.py",
+      "git_blob_sha": "bdf6c7925a87a4bc515cc2c0b3b5339116317ecb",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_field.py",
+      "bytes": 10290,
+      "sha256": "7339a1501a8edc44c65ffa977847b4ac5a9fe0ce4540cbaba4122bdb4cbf7a0b"
+    },
+    "flow_integrator": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_track.py",
+      "git_blob_sha": "8bbba1b825cc4236955392aad4134890db3fe663",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_track.py",
+      "bytes": 11825,
+      "sha256": "1425b51ce99d8c908e421096aa7e4f0f91233124a9da3224efc91395fb8a6109"
+    },
+    "parent_script": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_killing.py",
+      "git_blob_sha": "5e432c8f543b1ce6a7eb15a30575617d335deb74",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_killing.py",
+      "bytes": 12986,
+      "sha256": "41f3b38d47fe4fabe69513056dbc9146d8bd44e0a30f12feddfeff0c61532e2a"
+    },
+    "parent_parameters": {
+      "original_path": "topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+      "git_blob_sha": "e79298177128e989c32f9c47a8a4d4bb1e41f0ad",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+      "bytes": 3914,
+      "sha256": "6a3264161732a9e18ae7b3347344ef51a268292864d02b5b1f10e16894bc0eec"
+    },
+    "atlas": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102"
+    },
+    "ambient": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_ambient.py",
+      "git_blob_sha": "e56606a1371dfb52dc404e49ac632faa8b0ffe96",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_ambient.py",
+      "bytes": 9718,
+      "sha256": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3"
+    },
+    "r740_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f"
+    },
+    "r742_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd"
+    },
+    "r744_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24"
+    },
+    "geometry_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+      "git_blob_sha": "8bcfed4448ae02847825c48f4d1b3d586a95fb79",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+      "bytes": 7123,
+      "sha256": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a"
+    },
+    "original_observation": {
+      "original_path": "topics/visible-flex-larger-amplitude/notes/run39-bent-body-killing-46146451800-1.json",
+      "git_blob_sha": "09d8aaf5feb9005946f91ac44d31689f4d03cfc3",
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/notes/run39-bent-body-killing-46146451800-1.json",
+      "bytes": 75633,
+      "sha256": "1642366bf3aaa09cc3e5d9b4c31af5b2ea55ffb168cb0b4fd2f7193e19299351"
+    }
+  },
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_flow_actual.py",
+    "--params",
+    "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/computations/bent-body-actual-flow-design-v1.json",
+    "--parent-params",
+    "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+    "--geometry-source",
+    "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+    "--parent-observation",
+    "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/notes/run39-bent-body-killing-46146451800-1.json",
+    "--out",
+    "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/field"
+  ],
+  "runner_scope": "public ubuntu-latest 4 vCPU 16 GB",
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "machine": "x86_64",
+  "system": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43",
+  "actual_logical_cpu_count": 4,
+  "actual_cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "setup_python_step": "success",
+  "run_started_utc": "2026-11-28T13:08:55Z",
+  "phase": "installing-declared-numerical-dependencies",
+  "terminal": false,
+  "child_started": false,
+  "child_pid": null,
+  "child_returncode": null,
+  "latest_observed_scalar_line": null,
+  "scientific_summary": null,
+  "whole_runner_field_files": null,
+  "scientific_sampled_success_inferred_by_launcher": false,
+  "exact_metric_or_global_geometry_inferred_by_launcher": false,
+  "dependency_command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--no-input",
+    "--only-binary=:all:",
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ]
+}
