@@ -1,16 +1,19 @@
 {
-  "message": "ISP: register actual original C2 Loww quartic and weight 142 with exact frozen boundary",
-  "parentCommit": "55e903f3001b49c31c8ea83acb889fb673178023",
+  "message": "ISP: reduce actual root compactness to one column and first Phi z-blowup input",
+  "parentCommit": "30825717090089e0c3bbcf7637d9c5b66269294b",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-cross-C2-complete-Loww-same-lambda-seven-source-projections-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-W-b0-C2-Loww-F142-actual-root-reading-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-C2-Loww-actual-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-C2-Loww-actual-8542.md",
+    "topics/invariant-subspace-problem/results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-single-actual-column-root-reading-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542-root-static-reading.json",
+    ".github/workflows/invariant-subspace-8542-phi-ell-half-z-blowup.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-single-column-first-Phi-blowup-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-single-column-first-Phi-blowup-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,5 +22,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-ell-half-z-blowup.yml"
+  ]
 }
