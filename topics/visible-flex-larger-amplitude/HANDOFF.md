@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，真实V8换实例后pwd仍missing-server，恢复即pull。云核至`7b5ad5f62e3aeb470c73b53cf505eb50cbce3fc0`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；至少每小时真pull并只读变化diff。§16已读至bb51f8b60c8c5907662959bc45f62ca9cdb40ed3：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，真实V8换实例后pwd仍missing-server，恢复即pull。云核至`2070af6c745df4f1703f87d93cab789f23dfb50b`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；至少每小时真pull并只读变化diff。§16已读至bb51f8b60c8c5907662959bc45f62ca9cdb40ed3：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF立即rebase，终端失效用freshHEAD完整整合重推，禁force/冒pull；令牌仅CLI。仅公开Actions科学，raw仅runner。完整源参/run/whole身份/失败未知保各note，不加准入审查、不缩预算。题≤200MB，文件<5MB，MD<100KB，H<10KB，open<30KB；先metadata，不整读≥100KB/binary；根§15可重算数据只留源参/run/SHA，旧退出件须完整复现及固定Git恢复，不退活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入/全t强C²/同固定g，固定有内点H且diam≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D及relative metric算子≤1e−6；D为整F0直径。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻全mesh，继而提高三比值。
 
@@ -14,7 +14,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 [open§7](open.md)及各完整note保全部源参、原预算/费用/未知；自然science返回才启动whole pure，trial不代accepted/final，异source/model不借同坐标数值。19–32各自终态及README异常保上述固定全文和[独立日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)，已登记结论不重做。
 
 [33](notes/2026-11-28-run33-section16-retry.md) 46133839513：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原全预算/139角色，accepted0；半步ea4bb111完整reachg300537.3169553407拒；四分8d07925e原trial已启，统计/完整几何未返。自然返才pure66120。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原139角色/预算，accepted0；半步reachg300537.3169553407拒；四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496，完整几何待，原pure66120待自然返。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：139角色/1,333,370 outer全自由及原全预算，accepted0；半步65983a0完整reachg903.6815803516885拒；四分af5eac51统计Phi26772.13565593149/Gram1.4353037688805468，完整几何待。自然返才pure74162。
 
 33–35全部初值、源/model/PID、每个拒绝数值和完整预算保各ownnote及[此前完整状态](https://github.com/Rogerhu12/math-research-public/blob/7773737d03bb218fe3a20035f74e8baa9e80bab3/topics/visible-flex-larger-amplitude/HANDOFF.md)，未删减科学任务。
@@ -64,5 +64,5 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull b1d342f168057a757844f817570058176e63047f
-<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull c4b7277b3f91aefdedf4baac6145b1fa8f40c620
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46153716771-1.json) 双README真pull beafdca27245f48efa7d071f8426de8ce39c2a58
+<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull c4b7277b3f91aefdedf4baac6145b1fa8f40c620
