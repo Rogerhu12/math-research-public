@@ -1,0 +1,135 @@
+{
+  "status": "proved_local_same_map_continuous_metric_bound_actually_executed",
+  "session": "Astra-held10-7c4e33ee-20261128/tail_closure",
+  "date": "2026-11-28",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_true_w_taylor.py",
+    "sha256": "9b3a6d07cf27149e6af48fb1280d2fbb02a6964af8e00f8cbee4a159edea3e3c"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-span15-20261128-a/summary.json",
+    "sha256": "4a959e29203f9b2b0cf2bf46d09ecf17e3f4bf0b0b0833af0445bd04d2f65f70"
+  },
+  "leaf": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-span15-20261128-a/leaf-00000.json",
+    "sha256": "c7ab90c2303bba39e4e7f9d8494194022a8077cac2f6eeb7c51353dcd5ee4c56"
+  },
+  "old_stage_certificate": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/stage-0024.json",
+    "sha256": "8f1358d6586002dec7534cd84e7f84466c25b2191552d810d130d36ad3c26019"
+  },
+  "source_refs": {
+    "original_gram_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_shared_r_tail_batch.py",
+      "sha256": "c646bd4a918aa467212870d437718f22451903a0141242fa5ebf3166ba376aac"
+    },
+    "original_bundle_validator": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_certify_tail_geometry_v2.py",
+      "sha256": "ee381646dc052b8d7c9833aa693a5568982542cc11e26cfcfdf1c35edb0791ef"
+    },
+    "geometry_bundle": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+      "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+    },
+    "spectrum_contract": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/spectrum-contract.json",
+      "sha256": "36beb8cf3dadf3763f8ae741c8bc4dd20517f4d5efaf26abfb42449af1d206b9"
+    },
+    "accepted_packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+      "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+    },
+    "original_entire_mean_chain": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/original-native-mean-chain.json",
+      "sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9"
+    },
+    "actual_stage_data": {
+      "stage": 24,
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-chunk-0173-001/stage-0024.json.gz",
+      "sha256": "4ce7ca8de7a7a413fbf79c616b5d6ac0222a311265b210de4604ed136f723639",
+      "bytes": 202229,
+      "mapHash": "ca79a8f899b4aa405349f331ec0ba8c40f67a2d70adc694e2f0625c2a664fa07",
+      "nodes": 17,
+      "midpoints": 16,
+      "previouslyCertifiedMapPreserved": false
+    }
+  },
+  "oracle_provenance": {
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "constants_sha256": "467cdcb4b2d373fe8178a7c0fec93a683cc60d00bdb56bb62c0f4975e289a706",
+    "normalization_certificate_sha256": "f20c024ae158e658db9b028b83b01f8f1c92cb3e939cb519cca570355c7e4321",
+    "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+    "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "interval_digits": 60,
+    "coefficient_tolerance": "1/100000000000000",
+    "variation_tolerance": "1/1000000000000000000000",
+    "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+    "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+    "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+    "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+    "finite_oracle_transfer_certified": false
+  },
+  "actual_exec_session": 90195,
+  "actual_exit_code": 0,
+  "cli": {
+    "geometry-bundle": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "constants": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+    "normalization-certificate": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-normalization-reuse.json",
+    "stage": 24,
+    "spans": "15",
+    "max-depth": 0,
+    "quadratic-mode-cutoff": 12,
+    "outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-span15-20261128-a"
+  },
+  "metric_upper_outward": 8.643040227348194e-09,
+  "original_same_span_metric_upper_outward": 0.00015592122745872465,
+  "actual_Gram_components_upper_outward": [
+    7.148453212086667e-09,
+    1.4945870152615249e-09,
+    1.2587066775760945e-10
+  ],
+  "taylor_bounds_outward": {
+    "anchor_R_error_exact": 9.818352081798818e-14,
+    "anchor_w_error_exact": 1.6816625127357517e-18,
+    "anchor_w_R_error_exact": 4.715091262288298e-12,
+    "absolute_w_RR_upper_exact": 145.64525039406522,
+    "absolute_R_minus_true_anchor_upper_exact": 5.7306371679484e-05,
+    "absolute_w_minus_polynomial_upper_exact": 2.3915176555402023e-07
+  },
+  "one_sided_piece_bounds_count": 8,
+  "constant_w_specialization_all_exact_fractions_equal": true,
+  "actual_original_span_count": 1,
+  "proof_subdivision_count": 0,
+  "timed_core_seconds": 5.779301260001375,
+  "time_excludes_initial_validation_and_constant_specialization": true,
+  "finite_field_mean_spectrum_or_target_changed": false,
+  "all_high_quadratic_products_bounded": true,
+  "whole_actual_stage_certified": false,
+  "whole_tail_certified": false,
+  "whole_closed_surface_certified": false,
+  "readme_completion_claimed": false,
+  "actual_selected_gates_sidecar": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-manifest-count-and-selected-gates.json",
+    "sha256": "607a33fab43d0336c83c9b17873a6003bd64523f3e30565967dd1dd2b668a084"
+  },
+  "root_reference_and_exact_coverage_verification": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/true-w-taylor-stages16-24-root-verification-20261128.json",
+    "sha256": "7ed0b7b266e9e271f2a464d304cf2f1b9af5048299d6ded3bba43078dc5a3298",
+    "actual_leaves": 32,
+    "distinct_ref_files": 44,
+    "Gram_recomputed": false
+  },
+  "additional_complete_actual_stages": [
+    {
+      "stage": 16,
+      "literal_spans": 16,
+      "outward_maximum_metric_upper": 1.3930787705095377e-08
+    },
+    {
+      "stage": 24,
+      "literal_spans": 16,
+      "outward_maximum_metric_upper": 8.643040227348194e-09
+    }
+  ],
+  "v1_selected_stage_gates_supplied_by_actual_sidecar_not_inline": true
+}

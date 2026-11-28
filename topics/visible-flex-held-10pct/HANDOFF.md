@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `2bcacc494c200aa5f1ffe34b325026cfbb1aa386`（2026-11-28 13:22 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `52acb98f3767b2f7d96ff507f9e905e288ae4cc8`（2026-11-28 13:28 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -21,7 +21,7 @@
 
 本次必要恢复到[.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)和[.064/M40](notes/2026-11-28-design-secant-lambda064-m40-qr.json)：后者952点、metric2.74792e−7、run05e9ad77…。本地.128两次−9无接受，完整952×145/p48/scale47末nodal e889dd15…保留。具体kill原因未证，非数学排除。
 
-[完整factor-only M16核](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)所有方向/后向分母/原J残差逐位同，构造峰不降。[M48映射准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层来源和原门；唯一TTY6072等fresh RAM/盘门，尚无新BVP。另做完整CSR在QR前映射的独立后继，旧活源不改。
+[完整factor-only M16核](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)所有方向/后向分母/原J残差逐位同，构造峰不降。[M48映射准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层来源和原门；TTY6072于13:13门过后真启，13:23 controller3/child−9，无新接受；原完整e889保留。另做完整CSR在QR前映射的独立后继，旧活源不改。
 
 [远端原链](notes/2026-11-28-design-actions-continuation-prepared.md)、[冻结树v2](notes/2026-11-28-design-actions-frozen-v2-prepared.md)、[身份清理v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)与[新冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)已备；实际POST403明确缺actions=write，v3无run，不绕权限，继续本地。真λ1/M≤64后接[严格7a全DN/几何](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)及[mesh/活动矩](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
@@ -29,13 +29,13 @@
 
 新879点λ=.002/M24来源已得[真实fullH/J/heightJ/audit](notes/2026-11-28-tail-actual-complete-fullH.md)：N512、1152段/55344未知、residual3.652377088977401e−10、1776项heightJ有限、packet81f6eb0f…。state与[明确单ULP初猜](notes/2026-11-28-tail-one-ulp-initializer.md)同；normalizedFullDefect1.96429387568e−5原样保留，离散metric不当连续证书。旧低模/warm/v2–v5失败均见历史快照，不重跑。
 
-[完整1152段C²定义已返](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)，bundle3b312be5…；全170 planar+25 height模、18432 quintic spans、1153边界及1151相邻两jet/原global mean全核。[chunk恢复](notes/2026-11-28-tail-chunked-geometry-recovery.md)保stage0+105旧段，新1046段来自177正常/2部分−9真实返回；181组件/179anchor由独立SHA-bound sidecar说明，旧construction文字未倒改。
+[完整1152段C²定义已返](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)，bundle3b312be5…；全170 planar+25 height模、18460 quintic spans、1153边界及1151相邻两jet/原global mean全核。[chunk恢复](notes/2026-11-28-tail-chunked-geometry-recovery.md)保stage0+105旧段，新1046段来自177正常/2部分−9真实返回；181组件/179anchor由独立SHA-bound sidecar说明，旧construction文字未倒改。
 
-[stage0原严界](notes/2026-11-28-tail-actual-fullH-stage0.md)metric≤3.60000e−8、K≤8.17731。TTY43666续原全尾cert，stage16起有上界未过，非实际误差下界。独立真实w(R) Taylor补充已在stage24/span15给8.643e−9，正审与扩覆盖；未称全尾通过。deep collar、投影单射、全连续界及原8outer仍欠。
+[stage0原严界](notes/2026-11-28-tail-actual-fullH-stage0.md)metric≤3.60000e−8、K≤8.17731。TTY43666续原全尾cert，stage16起有上界未过，非实际误差下界。[真实w(R) Taylor](notes/2026-11-28-tail-true-w-taylor-first-certificate.md)已付stage16/24全部32span，max1.394e−8/8.644e−9，原selected gates另实补、root44引用/32叶核过；全尾仍在补。deep collar、投影单射、全连续界及原8outer仍欠。
 
 [全尾半径恒等已付](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)：c=Rc=5404319552844595/18014398509481984，实数定义r(R)=R、r′=1、r″=0；完整谱/mean/共享两jet/索引再核，14.684s，parent/child0。只属原raw-H场，不借旧metric。
 
-默认完整闭图查询经独立JSON显示修复真exit0，42尾点有限；零柱/marker0的初始化零数组不作验收。原width.04 cut真连续执行TTY60969正常返回但未证；[真点区间](notes/2026-11-28-actual-short-cut-point-obstructions.md)给.04的A>2.16109e−6、.01的A>9.25717e−6，现换.12；135点真返后TTY77958正付连续界。cut改变另标设计；tail源/全部g/H/mean不变。
+默认完整闭图查询经独立JSON显示修复真exit0，42尾点有限；零柱/marker0的初始化零数组不作验收。原width.04 cut真连续执行TTY60969正常返回但未证；[真点区间](notes/2026-11-28-actual-short-cut-point-obstructions.md)给.04的A>2.16109e−6、.01的A>9.25717e−6，现换.12；135点真返，首连续加载−9/零叶，fresh门后TTY86889接续。cut改变另标设计；tail源/全部g/H/mean不变。
 
 [严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过。最终coupled图须独立绑定binding.candidate_H，不能搬raw-H尾证书；现尚无8outer最终physical-H。
 

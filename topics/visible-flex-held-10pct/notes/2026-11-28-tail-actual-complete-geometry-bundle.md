@@ -10,7 +10,7 @@
 
 SHA256：`3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98`。
 
-所有 1,152 段均有真实 stage 文件；保原 N512 所定义的完整 Fourier 表示，平面 degree 254、170 个平面模与25个高度模。每段17个真实共享节点形成16个有限 quintic span，总计18,432 span。完整索引实际检查了1,153个唯一边界节点及1,151处相邻完整 Cartesian 两jet，保留同一个原始全局 cumulative mean；未丢模、未重置 mean。
+所有 1,152 段均有真实 stage 文件；保原 N512 所定义的完整 Fourier 表示，平面 degree 254、170 个平面模与25个高度模。完整 manifest 中1124段各17个节点、28段各18个节点，准确总数为18,460个 quintic span。额外28个 stationary 节点由原 exporter 已经插入，原全谱/两jet校验始终包括它们；此前18,432是误用统一16-span乘法的摘要计数，现按真实 manifest 更正，场和已付证书没有改。完整索引实际检查了1,153个唯一边界节点及1,151处相邻完整 Cartesian 两jet，保留同一个原始全局 cumulative mean；未丢模、未重置 mean。
 
 ## 已完成段的恢复与真实工程退出
 

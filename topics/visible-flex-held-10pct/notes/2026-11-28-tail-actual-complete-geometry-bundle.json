@@ -34,7 +34,7 @@
   "planar_mode_count": 170,
   "height_mode_count": 25,
   "finite_stage_count": 1152,
-  "finite_radial_spans": 18432,
+  "finite_radial_spans": 18460,
   "unique_boundary_nodes": 1153,
   "full_neighbor_two_jet_checks": 1151,
   "original_entire_mean_chain": {
@@ -78,5 +78,8 @@
   "live_original_certifier_continues": true,
   "whole_tail_continuous_metric_gate_claimed": false,
   "complete_closed_surface_claimed": false,
-  "large_payloads_in_git": false
+  "large_payloads_in_git": false,
+  "original_extra_stationary_nodes": 28,
+  "span_count_basis": "sum(entry.nodes-1) over the unchanged complete manifest; 28 original stages have 18 nodes rather than 17",
+  "count_and_selected_gates_sidecar": "2026-11-28-tail-manifest-count-and-selected-gates.json"
 }
