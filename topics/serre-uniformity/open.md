@@ -61,7 +61,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
-[R1164](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)已给原系数的实际pointed Miller/整line代表。第一槽χP=e(P,−)由[N]的finite-flat pushout识别到L_P=O(P−O)的rigidified N平凡化；generic根取X^N=f_P⁻¹、X/t^ε→1，Silverman g leading为1/(Nt)。真实chord bPQ及Bp(P)锁加法/全p塔根等式，原其它根ρ及有序tensor同伦完整保留。整Čech数据u_j=gij^N u_i、a_i^N=u_i⁻¹；裸Miller函数不冒整unit。prime-to-p φ的实际cφ及norm原点消掉底Kummer歧义，原P^d scalar product与closed-point Cor准确给Mtilde，无额外d!或平均。原theta norm与coefficient chord是两种独立过渡；分歧Cor只按已给étale/比较运输，未冒未写出的PD trace。继续该实际输入的PD–Čech代表、适配frame和normal/F0读取。
+[R1164 §§1–12](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)已付原pointed Miller/整line及实际PD–Čech代表。χP=e(P,−)的[N]pushout给X^N=f_P⁻¹、O-leading一，g leading为1/(Nt)；弦函数锁加法/全p塔，ρ/ordered同伦全保。整数据u_j=gij^N u_i、a_i^N=u_i⁻¹，prime-to-p φ保cφ与norm原点，scalar product/closed Cor准确给Mtilde，无额外d!或平均。§§9–12在实际compatible embedding上给C(U)=(dlogU,p⁻¹log(U^p/ΦU))，inverse类local −C(U_i)、overlap −log_PD H_ij，H=U_j/(Gij^N U_i)。PD log以(m−1)!收敛，全部lift/frame、原点、chord/降层同伦不除N；μN相位log(G^N)不能改成未定义的NlogG。两cone products间−βδ精确保留；模p^a PD log截m≤pa，a≤29的p⁻¹log只需m≤a及输入额外一位。原theta norm与coefficient chord仍分开，分歧Cor仅用已给运输。现在继续具体整frames、带实际Frob homotopy的ω/xω投影、normal/F0读取；裸Miller不冒整unit。
 
 ### 原完整 47：已完成，只消费
 

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：693d9e3bf30f1822e735bf1aa15c3aca4838340b**（2026-11-28 14:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7c1d9faaf314b8f30907faf0e76e6b9ad15d7655**（2026-11-28 14:11 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 13:36:52 Asia/Taipei，Actions run46112877438/job140880105085，blob:none浅clone后真实pull --rebase至30e8ea86；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤14:26、pull≤14:36。本地13:36仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -30,7 +30,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)原系数的exact integral syntomic比较已覆盖完整43格：Tsuji2000小权+E^d signed整projector给Hq(q≤t)；三中心统一放E12/Sn14，pair antisym准确Π0/2/4无组合数。实际Poincaré类−c1(P)/2由∆*degree−2锁Weil coeval1，四份补原λ∞xγ5，全部weight14。原完整primitive groupoid及全塔兼容已识别，ordered所有交叉项/有限H0全保；继续theta/Miller同根代表至适配FL frame及normal表，未冒F0数值。
 
-[R1164](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)给原第一槽Weil的整pointed系数线：实际[N]pushout，generic inverse Miller根X^N=f⁻¹、O-leading一。弦函数给XP+Q=bPQ XP XQ和XpP,N=Bp(P) XP,pN^p，全部原ρ缺陷/有序tensor同伦保留。整frame须用u_j=gij^N u_i；φpullback保微分cφ，trace含真实norm原点。scalar符号按原closed-point Cor准确给all-vector矩，无p次除法/额外d!。继续实际PD Čech代表和原normal/F0；泛纤维裸f不冒整unit。
+[R1164 §§1–12](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)原第一槽Weil的整pointed线、inverse Miller根和chord/全p塔已付；整frame u_j=gij^N u_i，φ保cφ/norm点。实际PD cocycle为−C(U_i)、−log_PD(U_j/Gij^N U_i)，log靠(m−1)!整收敛；μN overlap log(G^N)不非法除N。lift/frame/原点、加法/降层及ordered −βδ同伦和精度全给。原scalar符号/closed Cor准确给Mtilde，无额外d!；继续整frame实构、Čech→ω/xω带Frob同伦及normal/F0。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

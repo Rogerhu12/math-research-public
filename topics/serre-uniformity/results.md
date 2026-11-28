@@ -1,6 +1,6 @@
 # 结论索引
 
-- **原系数的同根Miller与整Čech来源（已证明）**：[R1164](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)实际[N]pushout及刚化Poincaré line锁第一槽Weil的inverse根，弦函数给精确加法/全p塔；prime-to-p pull/trace保微分尺度与norm原点。原theta scalar symbol及closed-point Cor准确给all-vector矩，全部ρ/ordered同伦保留。继续整PD代表和原normal/F0数值。
+- **原系数的同根Miller与整Čech来源（已证明）**：[R1164](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)实际[N]pushout及刚化Poincaré line锁第一槽Weil的inverse根，弦函数给精确加法/全p塔；prime-to-p pull/trace保微分尺度与norm原点。原theta scalar symbol及closed-point Cor准确给all-vector矩，全部ρ/ordered同伦保留。§§9–12进一步给实际PD–Čech cocycle、μN root-symbol、全部lift/chord/层间同伦与有限精度，保ordered −βδ；继续原frame投影及normal/F0数值。
 
 - **原完整43格的有限整syntomic比较（已证明）**：[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)真实E^d signed projector与Tsuji小权定理给exact integral系数比较；全部中心在E12/Sn14用paired projector实现原Π0/2/4，实际Poincaré coevaluation的−1/2锁全部λ槽尺度。原完整primitive groupoid、有限H0及全塔兼容准确识别；同源显式PD代表/原F0继续。
 
