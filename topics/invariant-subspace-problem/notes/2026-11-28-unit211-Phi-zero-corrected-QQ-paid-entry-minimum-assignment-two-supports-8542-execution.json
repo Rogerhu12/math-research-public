@@ -1,0 +1,260 @@
+{
+  "schema": "isp-correct-Phi-paid-matrix-extraction-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "run_id": 46158891405,
+  "job_id": 141021539125,
+  "source_basename": "2026-11-28-unit211-Phi-zero-corrected-QQ-paid-entry-minimum-assignment-two-supports-8542.py",
+  "source_git_blob": "b0ef31bafd35a2e6f9e82efdf25f99d19824c7b8",
+  "source_sha256": "72ab1c093136233e35f72a15697dc84dc65ae637fc16c031da0535c61d98a64a",
+  "source_commit": "d4f846c2ab22e4841fcfe9ee88f6d5837c41f26b",
+  "pull": {
+    "after": "d4f846c2ab22e4841fcfe9ee88f6d5837c41f26b",
+    "before": "d4f846c2ab22e4841fcfe9ee88f6d5837c41f26b",
+    "rules_git_blobs": {
+      "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+      "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+    },
+    "rules_unchanged": true,
+    "utc": "2026-11-28T15:15:34.333409+00:00"
+  },
+  "driver_elapsed_seconds": 14.598634406999992,
+  "source_math_seconds": 14.535504137000004,
+  "max_child_rss_kib": 81096,
+  "source_exit_code": 0,
+  "stdout_bytes": 33403,
+  "stdout_sha256": "52db2329234169c3d75c67ea6c2bc34dc4df2ae01e2759b8036c22ebe9838357",
+  "full_mathematical_records_read": 37,
+  "fixed_prime": 1009,
+  "fixed_slices": [
+    {
+      "variable": "u",
+      "Q": 2
+    },
+    {
+      "variable": "Q",
+      "u": 2
+    }
+  ],
+  "exact_global_identities": {
+    "F": "F = Q (u-1)^4 (-L)^15 det(M_F)",
+    "G": "G = (u-1)^8 delta^48 Kw (-Mn)^8 (-(2L-Q))^4 det(M_G)",
+    "primitive_delta": "Q-1=-delta; exponent 48 is even",
+    "matrix_returns_preserve_all_weight_zero_fibres": true,
+    "negative_dual_exponents_only_multiply": true,
+    "extraction_is_proved_lower_bound_not_claimed_complete_valuation": true,
+    "all_successful_entry_changes_returned": true,
+    "zero_extraction_leaves_matrix_identical": true
+  },
+  "extraction_table": [
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "Q",
+      "exponent": 1
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "u",
+      "exponent": 0
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "u-1",
+      "exponent": 4
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "delta",
+      "exponent": 0
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "Kw",
+      "exponent": 0
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "L",
+      "exponent": 15
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "Mn",
+      "exponent": 0
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "2ell-1 numerator",
+      "exponent": 0
+    },
+    {
+      "support": "F12_QQ_paid_quotient",
+      "factor": "m linear factor",
+      "exponent": 0
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "Q",
+      "exponent": 0
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "u",
+      "exponent": 0
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "u-1",
+      "exponent": 8
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "delta",
+      "exponent": 48
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "Kw",
+      "exponent": 1
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "L",
+      "exponent": 0
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "Mn",
+      "exponent": 8
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "2ell-1 numerator",
+      "exponent": 4
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "factor": "m linear factor",
+      "exponent": 0
+    }
+  ],
+  "quotient_supports": [
+    {
+      "support": "F12_QQ_paid_quotient",
+      "coordinate_degree_lower": [
+        368,
+        206
+      ],
+      "coordinate_degree_upper": [
+        368,
+        206
+      ],
+      "total_degree_upper": 409,
+      "matrix_profile": {
+        "entryProfileListSHA256": "ec03ed0d0eae88a7349a8423167b559d62c7504436e27980bbcd78969c11ed8a",
+        "largestEntryTotalDegree": 50,
+        "nonzeroEntries": 84,
+        "size": 12
+      },
+      "nonzero": true
+    },
+    {
+      "support": "G14_QQ_paid_quotient",
+      "coordinate_degree_lower": [
+        593,
+        302
+      ],
+      "coordinate_degree_upper": [
+        594,
+        302
+      ],
+      "total_degree_upper": 633,
+      "matrix_profile": {
+        "entryProfileListSHA256": "a93eb7f9abf50874a215866708a9f95c182fafda4ba49680871c21c3f51e2a42",
+        "largestEntryTotalDegree": 65,
+        "nonzeroEntries": 110,
+        "size": 14
+      },
+      "nonzero": true
+    }
+  ],
+  "fixed_axis_results": [
+    {
+      "variable": "u",
+      "other_coordinate": 2,
+      "actual_degrees": [
+        368,
+        593
+      ],
+      "support_polynomial_sha256": [
+        "daf6d342108c11b917c6cc23388e8206d10f79b1d16494605017a30bc5fb27b4",
+        "363cd0a35cbedbab2dcc2d51e5cfa2a9a23b5ac16b7a8de46d08694353f94339"
+      ],
+      "complete_bezout_returned": true,
+      "whole_modular_gcd": {
+        "bytes": 23,
+        "degree": 5,
+        "nonzeroTerms": 6,
+        "sha256": "04d78e5ad4af29694d3005ac14aacab10e19426dee30944eefddc43896f7cede"
+      },
+      "QQ_common_factor_degree_upper": 5,
+      "no_modular_factor_removed": true
+    },
+    {
+      "variable": "Q",
+      "other_coordinate": 2,
+      "actual_degrees": [
+        206,
+        302
+      ],
+      "support_polynomial_sha256": [
+        "9eacf38b821182803a59be08537fd1cc9b9e843aca172a964ce40ee8f86c8f71",
+        "b36343987e4fcdece7b67547ce752091782a3c4860b2bdcffd3ed3b10ef5a8d2"
+      ],
+      "complete_bezout_returned": true,
+      "whole_modular_gcd": {
+        "bytes": 105,
+        "degree": 51,
+        "nonzeroTerms": 2,
+        "sha256": "8021bf67cbdc0ea987d49f25e28891976c6f1915eb1e3dbb09bbe24e3230a0d3"
+      },
+      "QQ_common_factor_degree_upper": 51,
+      "no_modular_factor_removed": true
+    }
+  ],
+  "statistics": {
+    "assignmentDualInequalities": 1746,
+    "exactValuationDivisions": 2578,
+    "extractedEntryReturns": 1412,
+    "failedValuationRemaindersReturned": 1746,
+    "integerCoefficientChecks": 482877,
+    "positiveMultiplicationReturns": 56
+  },
+  "new_quotient_univariate_statistics": {
+    "newPolynomialBareissProducts": 2650,
+    "newPolynomialEuclideanProducts": 520
+  },
+  "strict_conclusions": {
+    "QQ_common_gcd_bidegree_upper": [
+      5,
+      51
+    ],
+    "conditional_total_degree_upper": 56,
+    "QQ_coprimality_proved": false,
+    "QQ_common_curve_existence_proved": false,
+    "finite_weight_point_bound": null,
+    "whole_Phi_excluded": false,
+    "all_unpaid_weight_fibres_retained": true,
+    "all_original_heads_zero_fibres_retained": true,
+    "scope": "Current correct Phi, distinct singleton, physical D nonzero, existing m-paid weight chart; no enlargement of whole 13/10-generator coefficient ring.",
+    "no_independent_U0_count": true
+  },
+  "proof_git_blob": "95545c888d8810a91590bf3f0cebe993cde780d1",
+  "proof_leaf": "R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md",
+  "no_old_gate_replayed": true,
+  "no_coefficient_payload_saved": true,
+  "earlier_unexecuted_draft": {
+    "blob": "2179a983af7322e78f23b2bf79806c948dcd6076",
+    "actual_failure": false
+  }
+}

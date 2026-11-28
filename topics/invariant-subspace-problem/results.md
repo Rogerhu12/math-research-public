@@ -24,6 +24,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi的QQ已付矩阵精除与公共gcd双次界(5,51)](results/R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md)：b0ef31唯一14.598634407秒/0，完整条目尺度给F=Qs⁴(-L)^15F*、G=s⁸δ^48KwMn⁸(2L−Q)^4G*；新商总度≤409/633，完整固定双轴保度给QQ共同gcd≤(5,51)。曲线及孤立交点均保。
+
 - [R150：正确Phi原I6全权十生成与每权纤维长度至多九](results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md)：第三真均值在CI(2,2,3)中非零，Gorenstein配对杀degree4且degree3至少再减一；固定30→15最高映射拼回全环，明确10生成，原过滤给纤维≤9，未宣全环9生成。无新运行。
 
 - [R267：全因子同参数奇目标与真实范数平方来源](results/R267-appendix-all-factor-complex-parameter-odd-target-and-norm-square-source.md)：整个P(z)与穿孔奇X(s)均在原全旗quasi，X(s)²=P(s²)范数趋非零γ奇目标P(0)，γX(s)=iX(is)及原近零乘积≤2cK|s|²。有限极点直接给非零平方零/超不变；本性奇点、真实单列强紧性仍开。
