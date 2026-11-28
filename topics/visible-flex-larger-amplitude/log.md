@@ -21,3 +21,7 @@
 ## 2026-11-28 05:39:03 UTC — 28第一个完整恢复步实际接受及六族曲率位置
 
 28 11e66实际accepted1，Phi681.6511710299278/Gram.4061652579029476，reachg.5294703284893127/distplus.11391376026366629。K12.318076128726846/Dlower4.117175205471979/cell885/u.8306046932331322/phiπ/2/branch1，s实际null不从初点回填。全部六族/原身份保，完整report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`d7211cbe7e00ffde8c7bd986f7b1c5155ceaaffc`无变（非pull）。
+
+## 2026-11-28 05:44 UTC — 29重试完整队列父编号遗漏修正
+
+根改request_id却漏queue parent，实际05:36:11索引已明确queue mismatch并等待，无科学child；不把等待当计算。只将完整queue父编号改为visible-larger-resume-20261128-29-retry1，74379B/99b0b5c4b1c5312e7bd8afba5b78c6fcd29c35abcf57d598f851fc727e717294；整反替还原旧74372B，全部3step/6/26/157与summary/64live/预算原字保。现有run46112781312原35s poll续取，不改request/workflow、不重启第三runner、不取消child。原“queue未改”由[完整更正](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)明确覆盖当前绑定；未来pure也需同active父ID。双README云核至`9cc76364309717210aada8730bfcba0833c9973c`无变（非pull）。

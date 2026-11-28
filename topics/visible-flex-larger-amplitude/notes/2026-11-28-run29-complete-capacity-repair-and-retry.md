@@ -418,3 +418,77 @@
   }
 ]
 ```
+
+## 2026-11-28 05:44 UTC — 新请求的完整队列父编号修正
+
+根在更改重试request_id时漏改了queue的parent_request_id。官方新索引实际已经记录`Followup queue: followup parent_request_id does not match the active request`；前节“没有返回步骤”不代表输入正在计算。至该完整索引05:36:11仍处followup_waiting，实际没有科学child。这里明确补记原错误，不更改或抹去原索引/前说明。
+
+原已加载followups全文32763B的_validate_queue要求这两个编号严格相等；poll完整读取当前队列，按路径最新commit每35秒检查，拒绝不匹配队列后继续等待，不擅自执行。此次只改完整queue的一个parent_request_id字段，旧74372B/e16b8d78变为74379B/99b0b5c4b1c5312e7bd8afba5b78c6fcd29c35abcf57d598f851fc727e717294；全部三step原对象、6/26/157命令词、全部summary/64live/cleanup/参数/预算逐字保，整反替还原原74372B。原request45534B和已加载controller21888B、workflow均不改，不再启动第三个runner，也不取消child。现有新run将在下一正常poll取得完整修正队列。
+
+旧request与修复manifest中的“queue未改”是初次重启发布时的事实；本段明确覆盖当前可用队列绑定，全部旧历史身份仍在固定原件。不把此前等待时间冒计算耗时，不把未观察的新输入或科学启动回填。之后整接pure时也必须使用当前active请求编号；先保原完整pure科学步骤，只有同样parent字段适配，未来完整queue及身份在实际接续时发表。
+
+```json
+{
+  "schema": "run29-retry-complete-queue-parent-repair-v1",
+  "original_complete_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-29.json",
+    "bytes": 74372,
+    "sha256": "e16b8d782febeb5e0b70840b925003fdc6524ee6595f29b3fb1e9807a5dd717a",
+    "sha": "e46753d93f0c1ceb4d60a59e5a73e0cfdf0d32b8",
+    "git_blob_sha": "e46753d93f0c1ceb4d60a59e5a73e0cfdf0d32b8",
+    "fixed_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
+  },
+  "current_complete_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-29.json",
+    "bytes": 74379,
+    "sha256": "99b0b5c4b1c5312e7bd8afba5b78c6fcd29c35abcf57d598f851fc727e717294",
+    "sha": "d1cf57b684009c04558ee10fb526933c65256167",
+    "git_blob_sha": "d1cf57b684009c04558ee10fb526933c65256167"
+  },
+  "exact_only_field_change": {
+    "json_pointer": "/parent_request_id",
+    "old": "visible-larger-resume-20261128-29",
+    "current": "visible-larger-resume-20261128-29-retry1"
+  },
+  "whole_inverse_restores_original": true,
+  "all_three_complete_step_objects_unchanged": true,
+  "complete_args_counts": [
+    6,
+    26,
+    157
+  ],
+  "loaded_original_controller_request_unchanged": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-29.json",
+    "bytes": 45534,
+    "sha256": "d5e405ecf9e3d16f92e9d0fe1f3c9fdcaa211d0165acc73ce4b20ff43e26e397",
+    "sha": "5a6b187bdba3bc1326e1aaab8dee5714f8f9ae7f",
+    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964"
+  },
+  "actual_complete_index": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 46806,
+    "sha256": "817a9e76a8f3bf574231a019a23e420465b584630442e45fde8cc9e31c2282fa",
+    "git_blob_sha": "6e041d94ac87dc1b80d59a3808a98dbc51570f5e",
+    "fixed_commit": "a6ccd8592f42b02a4371781c67d373d2b805ee93"
+  },
+  "actual_observed_error": "Followup queue: followup parent_request_id does not match the active request",
+  "actual_run": "46112781312/1",
+  "actual_job": 140879807850,
+  "actual_completed_steps_at_original_index": 0,
+  "complete_followups_source": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py",
+    "bytes": 32763,
+    "git_blob_sha": "4b72d0565d3f3fd797dd8bf45e48310cad8226d2",
+    "sha256": "444f57b28c695fbcd0fbfc03237b8c7a56dedccc97a64873b7dae083de5dbb12"
+  },
+  "original_poll_seconds": 35,
+  "active_scientific_child_cancelled": false,
+  "scientific_parameters_or_budgets_changed": false,
+  "old_or_new_inputs_transferred": false,
+  "request_file_or_workflow_changed": false,
+  "new_run_started": false,
+  "actual_new_queue_loaded_event": null,
+  "actual_input_return": null,
+  "actual_scientific_start": null
+}
+```
