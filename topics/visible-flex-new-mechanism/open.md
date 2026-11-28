@@ -101,3 +101,7 @@ R648–R653全尾三jet、真C²接缝/正collar及法管仍欠。R663旧FINAL�
 ### R689：真实连续字段的球包围与有条件时间区间
 
 [连续证明](results/R689-continuous-metric-and-tube-enclosures-for-the-actual-two-native-fields.md)及[消费范围](notes/2026-11-28-r689-native-continuous-field-consumer-scope.md)给两条真实空间的连续误差入口：R691原固定g+的完整Cartesian场可对整个q区间同验；R687须原E真冻结且自然同g精化/独立门已过。二变量球Taylor、全角真实均值/零均值原函数、径向中心积分及无根曲率式，在原结/坡断点分割上覆盖全材料。原binary冻结E与准确声明E分别验证；原数值109项角/24点中心/离散原函数场尚无完整差界，始终标未证，授界只属明确的新解析重建。每个真闭段/中心球/未完角块可续，扩分辨率不重已闭段。无独立workflow、无新科学结果；固定g精化和宏观时间区间不能由单态连续性替代。
+
+### R698：真实纬圈切向的两分量闭性与准确转换
+
+[严格等价与原态转换](results/R698-two-component-latitude-curl-with-the-actual-signed-binormal-speed.md)由D·Tφ=−1得v=|Tφ|≥1/e，真径列唯一为D=−U/v+aB，a有符号且可过零，不除a/角法曲率。任意正则试场的curl沿T分量准确为零，仅留两真实投影加径向度量标量；内中心由meanD积分不再免费给。全实际F两阶、连续g误差和完整变分均列。旧R687未解场向该表示的最近径列改量J=(G·T)U/v会真实改变中心/g/二阶，新curl=G+Jφ未许必降；所有旧参数/费用保留，新的v门及投影成本需实际读出。

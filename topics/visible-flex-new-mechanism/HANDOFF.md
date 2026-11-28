@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **3fa327cc8dc6800327840c337fa41512335e9a3c**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **19888ea71f335f08758d5fa1ae1cd76fb3a07942**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -47,6 +47,8 @@ R680proper相位真厚锚sinθ.27/偏心帽.56已付κ<32.8/reach.03/D<1/hold.20
 R675五响应原账保留；R685准确矩小应变不控弯曲，[真12步](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/3152列/q−.004/η4.45883e−5/κ29.0581。[R691](results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md)保同g/全g±.03b/L4行/内圈插结升频，当前场1e−6后真扩大空间至1e−8才扩角；连续族未付，旧响应/矩/站不重跑。
 
 R689球Taylor/真角积分/原结与两个冻结目标，只消费自然已过门场；新解析重建不冒充原109项角/离散积分场。可验真实q全区间，未授任意精化或完成。
+
+R698真T,a表示消T向curl，剩两curl/径度量；原未解场投影/中心/g/二阶实改量必须收费。
 
 ## G：活动整圈到真正闭帽
 
