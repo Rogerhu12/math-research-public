@@ -237,24 +237,30 @@ def main():
                         score=[]
                         for purpose in ('train','validation'):
                             fr=self.frames[purpose]
+                            scorekey=[phase,degree,purpose,self.level,m.array_id(vector)]
+                            kind='r754_initial_candidate_score'
+                            if self.p.filename(kind,scorekey).is_file():
+                                score.append(self.p.get(kind,scorekey,None));continue
                             val=self.measured_field(phase,degree,purpose,vector,fr)
-                            checked=metrics(val,fr)
-                            if 'bounded_axial' in labels:
-                                rr=np.r_[fr.r,fr.new_probe.r];ss=np.r_[fr.s,fr.new_probe.s]
-                                ell=model.space.ell_data(rr)[0];size=np.linalg.norm(val,axis=1)
-                                norm={}
-                                for label,mask in (('outer_cauchy',ell<2*model.weak.physical.H),
-                                                   ('axial_bulk',ell>=2*model.weak.physical.H),
-                                                   ('rigid_fillet_core',ell>=model.weak.FILLET_START)):
-                                    ids=np.flatnonzero(mask)
-                                    if not len(ids):raise ValueError('missing true radial candidate sector')
-                                    i=ids[np.argmax(size[ids])]
-                                    norm[label]=dict(rows=len(ids),max=float(size[i]),r=float(rr[i]),s=float(ss[i]))
-                                if (norm['axial_bulk']['max']>880*phase+2.e-8 or
-                                        norm['rigid_fillet_core']['max']>2.e-8):
-                                    raise ArithmeticError('actual all-row axial candidate exceeds its material bound')
-                                checked['actual_axial_sectors']=norm
-                            score.append(checked)
+                            def assess():
+                                checked=metrics(val,fr)
+                                if 'bounded_axial' in labels:
+                                    rr=np.r_[fr.r,fr.new_probe.r];ss=np.r_[fr.s,fr.new_probe.s]
+                                    ell=model.space.ell_data(rr)[0];size=np.linalg.norm(val,axis=1)
+                                    norm={}
+                                    for label,mask in (('outer_cauchy',ell<2*model.weak.physical.H),
+                                                       ('axial_bulk',ell>=2*model.weak.physical.H),
+                                                       ('rigid_fillet_core',ell>=model.weak.FILLET_START)):
+                                        ids=np.flatnonzero(mask)
+                                        if not len(ids):raise ValueError('missing true radial candidate sector')
+                                        i=ids[np.argmax(size[ids])]
+                                        norm[label]=dict(rows=len(ids),max=float(size[i]),r=float(rr[i]),s=float(ss[i]))
+                                    if (norm['axial_bulk']['max']>880*phase+2.e-8 or
+                                            norm['rigid_fillet_core']['max']>2.e-8):
+                                        raise ArithmeticError('actual all-row axial candidate exceeds its material bound')
+                                    checked['actual_axial_sectors']=norm
+                                return checked
+                            score.append(self.p.get(kind,scorekey,assess))
                         # Give both complete RMS and the worst held-out peak a vote.
                         # All raw fields, individual metrics and actual controls remain available.
                         rank=(max(s['rms'] for s in score),max(s['relative_peak'] for s in score),
