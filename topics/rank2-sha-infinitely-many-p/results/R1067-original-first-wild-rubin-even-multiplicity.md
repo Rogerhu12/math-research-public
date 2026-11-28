@@ -1589,3 +1589,207 @@ $r_0$ 是已经支付的实际单位。特别 $g_0=H_r(0)$，
 没有因此得到 $g_0=0$。最低阶约束若已由原 Hall 的有限系数
 自动满足，必须按其真实范围记录。新的 forcing 仍须在同一个
 完整来源中证明某条更深关系与这些必要条件不相容。
+
+## 18. 原共同 Gaussian 的全部 $p-1$ 个权块
+
+本节只处理(63)中的两条实际单 Hall 来源：
+在 $E_1$ 的同一不变微分下，目标为 $S_1$、norm-$r$，
+参考为 $\Theta_2$、norm-$17r$。
+各自的 Hall 中心、原 lift、有限字符和 $d^{-1/2}$ 归一保持不变。
+所用首 Gaussian 是原 $c_\sigma$，$v_p(c_\sigma)=-1$；
+完整剩余高项和连接 $\Gamma$ 不作删除。
+
+### 18.1 参考的真实点标签与准确变量尺度
+
+在 $\mathbf F_{p^2}^\times$ 中取 $\bar\beta$ 满足
+$\bar\beta^{p+1}=17$。Hensel 引理在这个指定剩余类给唯一
+$\beta\in\mathcal O_L^\times$ 满足
+$$
+ \beta^d=17,\qquad d=p+1 .
+$$
+记 $b$ 为 $\bar\beta$ 的 Teichmüller lift。
+第一层 $p$ 挠点上
+$[\beta]Q=[b]Q$，且原 strict LT 坐标给
+$v_{[b]Q}=b\,v_Q$。所以 $Q\mapsto[b]Q$ 准确重标为原
+norm-$17r$ 参考点集。重标时保参考的实际完整 Hall 权，
+不将 $\beta$ 的 principal-unit 部分额外乘入该字符。
+
+在参考的 physical Lie 变量作 $z\mapsto\beta z$，便有
+$$
+ 2c_\sigma(\beta z)^d=34c_\sigma z^d .
+ \tag{67}
+$$
+这仅是同一个实际 Taylor germ 的变量缩放。
+$\beta$ 不被认作全局 CM 同源，也不宣称
+$N_{L/\mathbf Q_p}(\beta)=17$。
+
+记已带全部权的 normalized Hall germs为
+$\mathscr S_{34}(z)$、$\mathscr S_2(z)$，
+其 $m$ 阶导数是相应 $\mathscr D_m/\sqrt d$。
+置
+$$
+ \begin{gathered}
+ \mathscr S_+(z)=\mathscr S_{34}(z),\qquad
+ \mathscr S_0(z)=\mathscr S_2(\beta z),\qquad
+ \lambda=34c_\sigma,\\
+ \mathscr V_\epsilon(z)=e^{-\lambda z^d}
+                           \mathscr S_\epsilon(z),
+           \qquad \epsilon=+,0 .
+ \end{gathered}
+$$
+这些是原全和的形式恒等式；它们没有把逐点比
+$\mathscr S_+/\mathscr S_0$ 当作 Hall 权函数的比。
+两个来源现在有完全相同的首 Gaussian，余下的
+$\mathscr V_\epsilon$ 仍保原全部高 Gaussian、Miller 和 $\Gamma$ 项。
+
+### 18.2 全部权块及统一整数归一
+
+取一次共同的代数数 $\Pi$，满足
+$\Pi^\Delta=p^p$，故 $v_p(\Pi)=\tau=p/\Delta$。
+它只用于同时写全部块；下面显示原第0块不依赖这个选择。
+
+对每条来源及每个 $\rho\in\{0,\ldots,p-2\}$，
+取 physical 权
+$$
+ m_\rho(t)=d\rho+\Delta t .
+$$
+在非负整数 $t=k$ 定义
+$$
+ \mathcal G_{\epsilon,\rho}(k)
+   =(p/\Pi)^{m_\rho(k)}
+      D^{m_\rho(k)}\mathscr S_\epsilon(0).
+ \tag{68}
+$$
+这是实际 cover 正规化，不能丢 $(p/\Pi)^m$。
+由 R1062(G7)和原 N11，同一函数的解析表达是
+$$
+ \mathcal G_{\epsilon,\rho}(t)
+  =\frac1{\sqrt d}\sum_Q\widehat B_{\epsilon,Q}
+       a_{\epsilon,Q}^{\,d\rho}
+       u_{\epsilon,Q}^{\,t}
+       \mathcal F_{\epsilon,Q}(d\rho+\Delta t),
+ \qquad
+ a_{\epsilon,Q}=\frac{pA_{\epsilon,Q}}{\Pi},\
+ u_{\epsilon,Q}=a_{\epsilon,Q}^{\Delta}.
+$$
+目标 $A_{+,Q}=34Z_Q$；参考缩放后的
+$A_{0,Q'}=2\beta Z_{Q'}$。
+两者均有 $v_p(A)=\tau-1$，所以 $a_{\epsilon,Q}$ 是单位。
+由(40)，目标的 $u_Q$ 为真正 principal unit；
+参考再乘 $\beta^\Delta=17^{p-1}\in1+p\mathcal O_L$，
+仍有同一 $v_p(u_Q-1)\ge\eta$ 界。
+完整 $\mathcal F$ 的 Gauss 范数由(G5)--(G6)控制。
+因此每一 $\mathcal G_{\epsilon,\rho}$ 都是同一个有限域上的
+整 Tate 函数，范数至多1。这里使用实际有限 Hall 和，
+没有把任意 Katz 对偶当成无损 fractional-norm 测度。
+
+第0块给原 raw germs
+$$
+ \mathcal G_{+,0}(b_Mt)=G_{34,r}(t),\qquad
+ \mathcal G_{0,0}(b_Mt)
+      =17^{(p-1)b_Mt}G_{2,17r}(t).
+ \tag{69}
+$$
+右端的幂是 $17^{p-1}\in1+p\mathcal O_L$ 的实际解析幂。
+更一般参考第 $\rho$ 块的已知缩放就是
+$17^\rho(17^{p-1})^t$。所以 $\beta$ 的不同 Hensel
+剩余类或 $d$ 次根选择不会制造一个新的自由相位；
+对全部 $m\in d\mathbf Z$，$\beta^m=17^{m/d}$。
+
+### 18.3 首 Gaussian 在权端是完整跨块 shift
+
+置
+$$
+ \gamma=\lambda(p/\Pi)^d,\qquad
+ v_p(\gamma)=p-1-\frac1{p-1}.
+$$
+对 $h\ge0$，唯一写
+$$
+ \rho-h=\rho_h-(p-1)\ell_h,\qquad
+ 0\le\rho_h\le p-2,\quad \ell_h\in\mathbf Z_{\ge0}.
+$$
+于是
+$m_\rho(t)-dh=d\rho_h+\Delta(t-\ell_h)$。
+在 $\mathcal O_F\langle t\rangle^{\,p-1}$ 上定义
+$$
+ \boxed{
+ (\mathcal T_\gamma\mathbf H)_\rho(t)
+  =\sum_{h\ge0}
+     \frac{\gamma^h}{h!}\,
+       (d\rho+\Delta t)_{dh}\,
+       H_{\rho_h}(t-\ell_h).
+ }
+ \tag{70}
+$$
+$(x)_j=x(x-1)\cdots(x-j+1)$ 是原 falling factorial。
+平移 $t\mapsto t-\ell_h$ 保持闭单位盘 Gauss 范数；
+$(d\rho+\Delta t)_{dh}$ 为整多项式。
+第 $h$ 项因此有统一下界
+$$
+ h\left(p-1-\frac1{p-1}\right)-v_p(h!)
+ \ \ge\ h\left(p-1-\frac2{p-1}\right).
+$$
+它趋于无穷，故(70)在整个有限块向量上真正收敛。
+$h=0$ 是恒等项，其余项严格较深。
+
+有限 falling-factorial 身份
+$$
+ (m)_{dh}(m-dh)_{dk}=(m)_{d(h+k)}
+$$
+连同全部块的 carry $\ell_h$，对满足同一参数赋值下界的
+$\gamma_1,\gamma_2$ 给
+$\mathcal T_{\gamma_1}\mathcal T_{\gamma_2}
+=\mathcal T_{\gamma_1+\gamma_2}$。
+两重和可交换，因为上述下界只随 $h+k$ 趋于无穷。
+特别 $\mathcal T_\gamma^{-1}=\mathcal T_{-\gamma}$。
+
+由原 physical 乘积 $e^{\lambda z^d}\mathscr V$ 的有限
+Leibniz 公式，准确有
+$$
+ \boxed{
+ \mathbf{\mathcal G}_\epsilon
+    =\mathcal T_\gamma\,
+            \mathbf{\mathcal G}^{\,c}_\epsilon,\qquad
+ \mathbf{\mathcal G}^{\,c}_\epsilon
+    =\mathcal T_{-\gamma}\,
+            \mathbf{\mathcal G}_\epsilon ,
+       \qquad\epsilon=+,0 .
+ }
+ \tag{71}
+$$
+其中 $\mathcal G^c$ 在非负整数权是
+$(p/\Pi)^mD^m\mathscr V_\epsilon(0)$ 的真实值。
+先在这些权上，$h>m/d$ 的 falling factorial 严格为0，
+所以式子是有限原 Taylor 身份；再用(70)的全盘收敛与
+各块整数点稠密性得到(71)。
+这提供了完成来源本身的 Tate 族，没有预先假设其新的
+Amice 有界性或较大权半径。
+
+若换 $\Pi'=\xi\Pi$、$\xi^\Delta=1$，则第 $\rho$ 块乘
+$\xi^{-d\rho}$，而 $\gamma'=\xi^{-d}\gamma$。
+由于 $h+\rho_h=\rho+(p-1)\ell_h$，
+(70)逐项给这个对角变基的准确共轭式。
+因此(71)在第0块、尤其(69)的原读者上与 $\Pi$ 的选择无关。
+
+### 18.4 此完整相消所支付的范围
+
+(71)把两个原来源的同一个 Gaussian 真正移到同一个
+跨 $p-1$ 块算子；原点集、所有角色、中心和已知
+$17^\rho(17^{p-1})^t$ 均已支付。
+它不是在第0块内的乘法算子：
+一般
+$$
+ \frac{(\mathcal T_\gamma\mathbf H)_0}
+      {(\mathcal T_\gamma\mathbf K)_0}
+ \ne\frac{H_0}{K_0}.
+ \tag{72}
+$$
+所以不能仅因 physical 两个 Gaussian 相同，就从(63)删除它。
+(70)还说明它保持 $m\bmod d$；角6等其它实际来源单位
+不能免费进入原 $m\equiv0\bmod d$ 的读者。
+
+本节严格证明了全跨块返回与统一尾。
+若后继要提高原比值的权半径，还须使用
+$\mathbf{\mathcal G}^{\,c}_+$ 与
+$\mathbf{\mathcal G}^{\,c}_0$ 的实际共同关系；
+单字非零、单字 second-disc 范数或(71)的形式可逆性均不替代它。

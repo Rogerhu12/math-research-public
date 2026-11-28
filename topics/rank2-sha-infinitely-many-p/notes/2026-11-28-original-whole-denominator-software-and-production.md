@@ -114,3 +114,14 @@ root已全文/差异审所有候选；arithmetic独立逐链核后绑定、str(F
 对应已经发布的source `e959b4331bb9cd3871c9f05b101d47f2dba9e962`，唯一heavy为[run46112816717](https://github.com/Rogerhu12/math-research-public/actions/runs/46112816717)、job `140879915022`，创建于2026-11-28 05:35:43 UTC。06:05:27 UTC实查：checkout和固定Sage10.6 image成功，原完整计算step4仍in_progress、conclusion=null。标准job-log接口仍返回BlobNotFound，因此尚无可核的bindings、MD返回、四交、一般Norm或18×9末端；这不是一个数学失败回执，也不预填PASS。
 
 source、69源清单及全部参数保持§8的已发布字节。没有并行启动第二个heavy，也没有修改正在运行的来源。备选仅在未挂ref候选中准备真实操作流的完整U恢复和全商方法，未用于本次运行。
+
+
+## 10. v15 首份可读的实际阶段快照
+
+2026-11-28 07:11 UTC由标准job-log接口读得run46112816717/job140879915022的部分日志；快照末行为07:02:54.2492971 UTC，存在接口延迟，不能把末行当即时进度。全文2101739B，SHA256 `18993cfd45d126e46ab7deae244d1c7d8ca22de736aa4702562e098328f63c2a`，只记录哈希，不存可重算日志。
+
+root逐项比较固定请求与实际host manifest：69个代码source SHA全部相同，workflow和request也吻合；两份原始char0 PASS在host重新认证并以管道返回。05:36:45实际执行同MD、scalar-primary及native等绑定；same-denominator binding payload为13223B，SHA256 `29855f612dd80eeafc2ae891cae0a1033884fb42a10f1acfd0a397e7d40314e1`，与日志digest逐字一致。准备回执仍明确不宣称数学验收。
+
+07:00:04.0868795，同一中心T的无穷远完整306维paired graph实际certified，graph耗时347.92010429899983秒；07:02:17.4002349完整pole ideal已certified、商长1836。随后原无穷纤维贡献的完整行约化给detdegree612；快照最后是Hermite 100/306列，当前约化13.982228474000294秒。这里保全厚度/原基，未以商长或部分列代末端验收。
+
+本次重查任务仍step4 in_progress/conclusion=null。此快照尚无A0/A1的官方分母返回或四交、一般Norm、18×9、九对、all-requested终回执，仍只保这一唯一heavy，不更换它的来源。后继优化另核全原操作流与逐完整行的实际来源返回，不能预填本次PASS。

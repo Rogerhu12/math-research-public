@@ -419,3 +419,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1062 §8：原 translated 余项的实际 Gaussian 半径
 
 [R1062](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G20）–（G27）用同一sigma加法证明V_Q(z)V_Q(−z)=exp(2Ncσz^(p+1))J_Q，完整J_Q及逆在原第二盘严格内部为范数一单位；全部R_N(Q±z)和原点极已核。因v(cσ)=−1，even-product准确有旧第一Gaussian半径且闭边界非Tate，原V_Q不能更大。对|m|>1直接保(m)_k的准确范数，原Newton项级半径≤p^(1−2τ)，与指数边界差1/(p+1)。这排逐字Taylor加强的办法，不排whole Hall或Norm17r参考全源相消，也不声称同一m可直接到中央T=0。
+
+
+### R1067 §18：原共同 Gaussian 的全部权块返回
+
+[R1067](../results/R1067-original-first-wild-rubin-even-multiplicity.md)（67）–（72）在原norm-r目标及norm-17r参考上用β^(p+1)=17作准确physical尺度；[β]Q=[b]Q只重标原点集，不冒全局CM同源或Normβ=17。全部p−1权块的真实(p/Π)^m归一、17^ρ(17^(p−1))^t参考费用和carry全保，共同首Gaussian给收敛可逆算子T_γ，尾≥h(p−1−2/(p−1))，换Π的共轭及原0块独立性已证。它在全块中混合，不能在第0块的两个Hall比值里直接约消；尚未证明更大权半径或无穷p非零。
