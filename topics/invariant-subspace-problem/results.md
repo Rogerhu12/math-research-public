@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：整个b0同步四乘五、同一伴随头和原D恢复](results/R150-appendix-unit211-W-b0-simultaneous-four-by-five-same-head-original-recovery.md)：全20真实五源乘子同步取消、三个纯权相容式完整来源、h开图原理想商同构及h=0完整保留；纯纸证，尚未计算新头或排空。
+
 - [R150：整b0五原二次与六个完整权条件，PRS准确冻结](results/R150-appendix-unit211-W-b0-inverse-slope-five-original-quadrics-six-weight-conditions.md)：六原组合至124.419秒全部返回；180.082295470秒/−14，无PRS终端或纯u覆盖。保原5772权/23088点和全部零面，改接全W新NSPS输入。
 
 - [R150：三pair/三同f norm完整呈示全W原I4](results/R150-appendix-unit211-W-three-pairs-three-same-f-norms-complete-original-I4-presentation.md)：从已付纯权四源R取得ΣviBi=1，明确15项组合恢复P0，补足六核全部原理想包含方向；任意额外F的三cofactor接口亦完整等价，无新执行、无新排空。
