@@ -1,0 +1,368 @@
+{
+  "schema": "isp-original-module-first-real-timeout-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "scope": "new seven rows in QQ(k)[e]^6, current physical W original D target",
+  "runId": 46101809980,
+  "jobId": 140845720734,
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-seven-row-e-module-original-D-first-pure-k-cover-8542.py",
+    "gitBlob": "1616bbc57c812a0dc7fb30e21ec41b2f3a728ea8",
+    "bytes": 22489,
+    "sha256": "4b1f2818c27765311dab2bd49d0cc1b5ff9021a43866abd396c024b9b27f1b36"
+  },
+  "actualDriver": {
+    "elapsed_seconds": 180.08686969000001,
+    "max_child_rss_kib": 781608,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "be1550feba6dd36a62fef59cf78184dd2944635c",
+        "before": "61e0621cf42af99b4d70d58751011164f1fe45de",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T03:13:42.100899+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46101809980",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "61e0621cf42af99b4d70d58751011164f1fe45de",
+    "source_exit_code": -14,
+    "source_git_blob": "1616bbc57c812a0dc7fb30e21ec41b2f3a728ea8",
+    "source_sha256": "4b1f2818c27765311dab2bd49d0cc1b5ff9021a43866abd396c024b9b27f1b36",
+    "stdout_bytes": 6683,
+    "stdout_sha256": "126f3ee758766b8342f0656d6034887a3ed64469f42151253bf0da2868f9bf96",
+    "stop_reason": null
+  },
+  "actualMathematicalRecords": [
+    {
+      "stage": "necessary_same_original_D_column_input_reconstructed",
+      "originalKernelColumns": [
+        [
+          1,
+          "1/2",
+          "1/2",
+          0,
+          "1/4",
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "constantColumnTransformationDeterminant": 1,
+      "exactLhalf": "4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8)",
+      "allBaseRowsAndOriginalDTargetForwardReverseProductsReturned": true,
+      "QQExactColumnDivisionReturns": 26,
+      "originalDTargetMeanTraceReturned": true,
+      "DTargetPaidDenominator": {
+        "degrees": [
+          11,
+          15
+        ],
+        "totalDegree": 22,
+        "terms": 109,
+        "bytes": 3155,
+        "sha256": "0b63aa2e51ac3f71129c4cfaec89f7eebeab5e970b596ded1705cb80d2a8ff6c"
+      },
+      "deflatedDTarget": {
+        "degrees": [
+          13,
+          16
+        ],
+        "terms": 844,
+        "bytes": 25106,
+        "sha256": "e7e829c407e24ee4fc695ec69587456b3c5a2860471df2d4800df85610d3650c"
+      },
+      "deflatedBaseRowProfiles": [
+        {
+          "degrees": [
+            28,
+            37
+          ],
+          "terms": 4152,
+          "bytes": 158116,
+          "sha256": "fa43ab09b6963cb55860d35a0f51cf1f4f5ee78fe8217b3a3d4023d097556bb3"
+        },
+        {
+          "degrees": [
+            28,
+            37
+          ],
+          "terms": 4146,
+          "bytes": 157093,
+          "sha256": "f2edb84f54fbd0a629da762e09008cb8146468d89d7084857f6492609cf517a0"
+        },
+        {
+          "degrees": [
+            36,
+            49
+          ],
+          "terms": 6843,
+          "bytes": 287894,
+          "sha256": "4b7acfeafb11eb8e7f11d385530193038ab41c54bbe30f4393bf06fd090ebc42"
+        },
+        {
+          "degrees": [
+            40,
+            54
+          ],
+          "terms": 8655,
+          "bytes": 384683,
+          "sha256": "1e571f4033c6e314f99523f1a9529a11c53216155b57f178bd30a4e19864b12d"
+        },
+        {
+          "degrees": [
+            36,
+            49
+          ],
+          "terms": 6837,
+          "bytes": 286308,
+          "sha256": "7fde87b4cbf2fad00f400d75c7f96d48136ebba7ee0860461584c648b2a181bc"
+        },
+        {
+          "degrees": [
+            40,
+            54
+          ],
+          "terms": 8655,
+          "bytes": 382741,
+          "sha256": "a421c44341c3699d41d345e2ad889c64caa944a22a3ade483995c651c6acf203"
+        }
+      ],
+      "universalOriginalCofactorIdentity": "det(N)*d=dprime*adj(N)*M",
+      "noLhalfInverse": true,
+      "entireLhalfZeroRetained": true,
+      "noH198OrOtherNewHeadInverse": true,
+      "originalDTargetValidOnEntireCurrentW": true,
+      "oldQQNativeDeterminantNotReplayed": true,
+      "wholeWExcluded": false,
+      "seconds": 8.941236561
+    },
+    {
+      "stage": "new_QQk_e_seven_row_original_D_module_input",
+      "fixedRows": [
+        "NS",
+        "PS",
+        "yNS",
+        "tNS",
+        "yPS",
+        "tPS",
+        "comm_xy_row4"
+      ],
+      "originalSixCoordinatesAndAllSevenTracesReturned": true,
+      "originalTarget": "dprime from the simultaneous original D column identity",
+      "bothLhalfZeroAndH198ZeroRetained": true,
+      "mathematicalSupportBound": "gcd of all maximal minors divides U; degree_e U=98",
+      "noOldPQQDeterminantOrModularUnitGateReplayed": true,
+      "wholeWExcluded": false,
+      "seconds": 9.376118973999997
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 20,
+      "dagNodes": 73,
+      "completeSixCoordinateProducts": 396,
+      "pureKCoverProductDegreeUpperBound": 293,
+      "currentRow": {
+        "eDegree": 33,
+        "kDegree": 53,
+        "coefficientPolynomials": 201,
+        "rationalCoefficients": 9429,
+        "bytes": 191016,
+        "sha256": "3ba9c3da2a42a3e1150f304adfa069e945302292daaee80faa2a5281080564f0"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 9.692343122999997
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 40,
+      "dagNodes": 133,
+      "completeSixCoordinateProducts": 756,
+      "pureKCoverProductDegreeUpperBound": 582,
+      "currentRow": {
+        "eDegree": 37,
+        "kDegree": 65,
+        "coefficientPolynomials": 224,
+        "rationalCoefficients": 13122,
+        "bytes": 355436,
+        "sha256": "65b16ba18176bfde5b4c23558d876036a4f5ec56fcda16fe70aecc59e13f321c"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 10.008065685000002
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 60,
+      "dagNodes": 193,
+      "completeSixCoordinateProducts": 1116,
+      "pureKCoverProductDegreeUpperBound": 783,
+      "currentRow": {
+        "eDegree": 28,
+        "kDegree": 45,
+        "coefficientPolynomials": 171,
+        "rationalCoefficients": 6920,
+        "bytes": 110385,
+        "sha256": "661be9b427e230a10794eebd21ae89e531a11a0f9f0a03658ec57ea6567eae53"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 10.398918165000001
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 80,
+      "dagNodes": 253,
+      "completeSixCoordinateProducts": 1476,
+      "pureKCoverProductDegreeUpperBound": 1280,
+      "currentRow": {
+        "eDegree": 34,
+        "kDegree": 91,
+        "coefficientPolynomials": 209,
+        "rationalCoefficients": 17447,
+        "bytes": 795151,
+        "sha256": "9ba43f598b3e154e20a90ded4fe9613a14c0212b897ba94b812ca1abd097fb3a"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 10.851147199999996
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 100,
+      "dagNodes": 313,
+      "completeSixCoordinateProducts": 1836,
+      "pureKCoverProductDegreeUpperBound": 1678,
+      "currentRow": {
+        "eDegree": 32,
+        "kDegree": 94,
+        "coefficientPolynomials": 195,
+        "rationalCoefficients": 17065,
+        "bytes": 1034605,
+        "sha256": "25c68d097ce9adb51ba983eca10954567434896911b84ae692a90157cebc7681"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 11.730384660999999
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 120,
+      "dagNodes": 373,
+      "completeSixCoordinateProducts": 2196,
+      "pureKCoverProductDegreeUpperBound": 2250,
+      "currentRow": {
+        "eDegree": 32,
+        "kDegree": 175,
+        "coefficientPolynomials": 193,
+        "rationalCoefficients": 32205,
+        "bytes": 4550321,
+        "sha256": "d46885973a3aa65490ef58cf21f1ce6f9cb12be9c1d9b8567f666dd74d3a3695"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 13.422103224
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 140,
+      "dagNodes": 433,
+      "completeSixCoordinateProducts": 2556,
+      "pureKCoverProductDegreeUpperBound": 3461,
+      "currentRow": {
+        "eDegree": 30,
+        "kDegree": 206,
+        "coefficientPolynomials": 185,
+        "rationalCoefficients": 36567,
+        "bytes": 6380341,
+        "sha256": "693909cd2bfb8ebd756859f7e181fde570915453518af69ee380ab26750f81f7"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 20.161742501000003
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 160,
+      "dagNodes": 493,
+      "completeSixCoordinateProducts": 2916,
+      "pureKCoverProductDegreeUpperBound": 5055,
+      "currentRow": {
+        "eDegree": 30,
+        "kDegree": 393,
+        "coefficientPolynomials": 183,
+        "rationalCoefficients": 69872,
+        "bytes": 25575499,
+        "sha256": "ef03a987911d7a4a502abfddf4c6a2a90a1822d7adedd499e4dafe86044d1887"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 34.044769242
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 180,
+      "dagNodes": 553,
+      "completeSixCoordinateProducts": 3276,
+      "pureKCoverProductDegreeUpperBound": 7705,
+      "currentRow": {
+        "eDegree": 29,
+        "kDegree": 377,
+        "coefficientPolynomials": 175,
+        "rationalCoefficients": 64051,
+        "bytes": 21408972,
+        "sha256": "2e8a90ccda2252b852851c66a1a605e492f95c5f7a537e64ac5581b50efc2e4c"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 69.499899029
+    },
+    {
+      "stage": "new_QQk_e_original_module_checkpoint",
+      "reductions": 200,
+      "dagNodes": 613,
+      "completeSixCoordinateProducts": 3636,
+      "pureKCoverProductDegreeUpperBound": 11083,
+      "currentRow": {
+        "eDegree": 28,
+        "kDegree": 788,
+        "coefficientPolynomials": 173,
+        "rationalCoefficients": 133202,
+        "bytes": 98777290,
+        "sha256": "64418a5daa3712bd5d8f0484eb6f39600ef600d18c2e8fea41e1b32019cfe925"
+      },
+      "currentTargetPaidSPower": null,
+      "noMembershipOrWholeWExclusionClaim": true,
+      "seconds": 130.318089833
+    }
+  ],
+  "accurateBoundary": {
+    "completeWeakPopovBasis": false,
+    "exactCokernelLength": false,
+    "paidSActuallyConstructed": false,
+    "originalDTargetStarted": false,
+    "originalDMembershipReturned": false,
+    "newPureKCover": false,
+    "wholeWExcluded": false,
+    "lastCompletedCheckpointSeconds": 130.318089833,
+    "lastCompleteReductionCount": 200,
+    "laterCompletedStepsUnknown": true,
+    "poleProductDegree11083IsNotACover": true
+  },
+  "frozen": true,
+  "retryOrBudgetExtensionAuthorized": false,
+  "nextDifferentInput": "entire Lhalf quadratic weight algebra and a six-row original D target; not yet executed",
+  "noRecomputableCoefficientCacheSaved": true
+}
