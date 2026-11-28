@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **a6666e76ba72ee7512f5951c0835ed3cc7399121**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **d0277a2a34724e023117ca93bb91b65d726fa1c4**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -47,7 +47,7 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 实际保留state **206ec1aef0d886c2ea8d030addc9a711dac77b27e4d3f4f00dd74cb31e5dee59**，19×65/十参；fine pending。逐步terminal非增实际只比较stored十末（始终0），真历史仅检查不抛错，真实末/ruling/历史一致门只作最终完成判定。不能再称60步完整真实资格，更不能原样续60步。
 
-下一以同一65结点C² Hermite h/k为未知，η/八A/六rho真实积分并作完整链Jacobian，消去独立stored记忆；[R632](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)已证α²=(1+U/L²)/∫κ²的真实缩放图，固定κ'0<0消冗余、完整δα链保留；其余三真端/物理盒仍欠。新公开必要构建同时输出全部物理attainer并恢复盒；旧有完整fine的dde0可作可行来源，206e只能待恢复输入。原14段、此次费用/失败全保；[旧射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)与[一致W证明](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)仍有效。R619–627依真端前提，原母18块576微包/ε1/12000/正势保持；根后仍需全部period/frame/闭pose/宏观reach。
+下一以65节点C² h/k和真实η/八A/六rho积分求根，消去独立stored记忆；[R632](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)已证α²=(1+U/L²)/∫κ²的真实缩放图，固定κ'0<0消冗余、完整δα链保留；其余三真端/物理盒仍欠。新入口同时输出全物理attainer并恢复盒；206e只作待恢复输入。原14段、此次费用/失败全保；[旧射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)与[一致W证明](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)仍有效。R619–627依真端前提，原母18块576微包/ε1/12000/正势保持；根后仍需全部period/frame/闭pose/宏观reach。
 
 ## 几何及新构造
 
@@ -59,6 +59,6 @@ R33相位族保全时几何，本题允许δE=0；真正缺口是大非圆核心
 
 [R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已证未解平面度量的准确曲率三矩（用自身等温P）、固定3维投影的非线性消元、自由内帽0/1模逆及非奇异双核有限块。左尾须用准确旋转背景高度，非只加βr；真实全尾/特征返回仍欠，不能套Hu旧背景结论。
 
-[R631](results/R631-thick-core-at-radius-four-fifths.md)给新R=.8/ε=.05厚核心：ρ∈(.14,17.153)、核心球<1.032，完整闭面若支付同球/条带.37/reach.062则δ/D≥105/344>.3。全程核心u<21.442、|P|<230；这是新设计g输入，不能跨用旧.85资格。[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)已实现新外段/字典/真实模式，尚未运行；1130维初值仅H非零。设计可调E，宏观候选后冻结g精化。
+[R631](results/R631-thick-core-at-radius-four-fifths.md)给新R=.8/ε=.05厚核心：ρ∈(.14,17.153)、核心球<1.032，完整闭面若支付同球/条带.37/reach.062则δ/D≥105/344>.3。全程核心u<21.442、|P|<230；这是新设计g输入，不能跨用旧.85资格。[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)已实现新外段/字典/真实模式，尚未运行；1130维初值仅H非零。[硬P/本身路径](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)已实现1451列（含H及真F2），设计可调E；宏观候选后冻结g精化。
 
 [R630](results/R630-morse-double-kernel-all-frequency-center.md)已给新Morse全线参考：仅j2/3为零，其余整数j谱距≥1/(2880j²)；travel角的sin下界1/(3110k³)。正径向转换及正区双控制保travel角，局部源逆O(j⁻²)使共同小邻域稳定。仍非有限全平背景；下一接真实双尾；[新β/有限r范围](notes/2026-11-28-r630-morse-actual-port-and-finite-radius-scope.md)本次push触发，不移用R628系数。

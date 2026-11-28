@@ -527,3 +527,7 @@
 ## R582原369实际终态e781
 
 [真实结果](notes/2026-11-28-r582-original369-natural-terminal.md)：同0d材料、16280×3072完整fineη3.3430671025073394e−5、几何违反0；新增3metric+1restore、11J/18fine，未自然stall。原383后继仍待执行，p阶段及同g/宏观未达。
+
+## R631硬总核心、真F2自由列与完整设计链
+
+[实现及小非圆seed界](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)给1451自由列、完整总P/P1消元、真实H/e/E位置链与本新seed到R631的连续核心路径。全原列保持，inner j2可调；未运行，不授固定g或宏观连接资格。

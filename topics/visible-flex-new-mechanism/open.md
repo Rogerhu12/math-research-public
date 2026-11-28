@@ -94,3 +94,5 @@ R33给相位族，真实旋转不变g及两开平帽使H固定、全时几何继
 [R630首次实际数值输入](notes/2026-11-28-r630-morse-actual-port-and-finite-radius-scope.md)按新source/request发布：50位全线参考β的8/12截断，四个独立右root小ν分支实际半径/正区action。有限分支β只为未闭中心贡献；真尾/完整余项和最终径向转换需另付，不移R628旧β。
 
 [真实e781→原383入口](notes/2026-11-28-r582-e781-original383-continuation.md)已实现并由push触发，新增中点各自取得资格；只存真正后继所需q/网格/费用，不复制可重算完整FINAL。旧98维raw epigraph与已接受97q区分保持；阶段门与原求解不变。
+
+[R631硬总P和本身规范核心路径](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)已实现1451自由列：原1450均保留，新增真实F2 germ列零初值并同样消去两端trace；因此inner j2不再人为锁定。完整H/turning e/E/位置离解链保留，P到P1含全2J模。R=.8/ε=.05路径从本身小非圆seed出发，literal系数L1≤1/5时准确连续ρ界可继承；有限投影和全连接另付。正在准备自动晋升μ到1的实际设计求解，不把接口或小μ当宏观解。
