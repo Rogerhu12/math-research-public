@@ -22,7 +22,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-before-hk-entire-ellhalf-1950-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-through-hk-NV-Loww91-2000-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：HK完整NV–Loww原范数91、精确两式商与单权至多二](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)：abd714实际8.428479614秒/0，首一逆t三维真乘法与伴随完整返纯权P，次数72/19/9、总91。已闭Δ0后的余图AΔ[t]/(NV,L)恰AΔ/(P)，t唯一、明列单权纤维≤2约化，独立尺度另计；未判权共同分量/空性。
 
 - [R150：正确Phi一轮完整Q行因子与两个真实内存边界](results/R150-appendix-unit211-Phi-zero-corrected-one-Q-row-factor-and-frozen-unimodular-memory-boundaries.md)：F实际35幺模块、21840全逆坐标及312整行Q除返回F*=−QdetM1，故F_Q双次368/205、总≤408。之后F及独立G都触1GiB/−6，G无完整轮；仅指数下界a1/b0，公共总界45不变，两门冻结。
 
@@ -83,23 +87,3 @@
 - [R150：正确Phi的原t参数N1、两条斜率曲线与精确六行二列](results/R150-appendix-unit211-Phi-zero-corrected-t-parameter-N1-two-slope-curves-and-six-by-two-model.md)：317928首次28.214213199秒/0；三均值规则、原λ3、完整极化N1和两列呈示全返。纯权斜率剩H6/H8各一次，在其补图原I4精确首一二次加六行；两个完整零曲线保留，未判空。
 
 - [R150：W/b0整个交叉头零支排除与全局det=1原I4](results/R150-appendix-unit211-W-b0-cross-zero-complete-original-weight-unit-and-global-det-one-I4.md)：cb71首次0.772347633秒/0，三个完整常数域中原三B1的ν-gcd均8→3→3，旧paid支持删尽后实际原单位返回。结合旧G5用CRT得(B11,B21,B31)=A_W；纯权可逆行变换给全b0四式精确呈示，不反演G或几何头。b0仍未排空。
-
-- [R150：正确Phi的整NPV五次最高矩阵C77与十三生成图](results/R150-appendix-unit211-Phi-zero-corrected-NPV-five-whole-leading-C77-and-thirteen-generators.md)：首次实际1.893733044秒/0，九伴随乘子、十八坐标及QQ因式完整返回；C77总77、双度66/44、1951项，QQ不可约且重数一。C开图必要(λ,T,z)代数十三生成、λ首一次数≤13，C0整曲线保留；独立U0另计。
-
-- [R150：h=k/Δ0的约化399维权基与4788维Artin包络](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)：固定17行列式单赋值、P的u³头λ度≤28给必要基代数K99×K300；Q²头度8为整域单位，倒z三次/ρ二次给含重数长度≤4788。仅明列比值/Gram坐标，独立U0另添三次≤14364；两域尚未排空。
-
-- [R150：正确Phi全t参数的三均值三生成与原λ首一三次](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md)：新付2ell−1使(f²,fV,V²)真头32uQ(2ell−1)/M²全域可逆；双向仿射变换后原均值商在权[t]上由1,f,V生成，λ的真实动作给总(λ,t)度≤3的首一三次。全图未空。
-
-- [R267：实际复相位因子、有限修改不变性与对数支符号](results/R267-appendix-complex-phase-factors-finite-changes-and-log-branch-signs.md)：复收缩保有理半群/全旗/平方强*接口；有限真实因子修改仅乘固定有界可逆Ht，任意log支修改仅给有理character与±号。两类修改均不改变单列紧性；真正无限协调相位仍开。
-
-- [R150：W/b0交叉头五次权覆盖与G开图精确I4](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)：三条原B1给G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480及完整来源；detG变换给(f+g,P0,Craw,C3)。三个整零域与全部值条件保留，不宣称b0空。
-
-- [R150：正确Phi整个ell=1/2原分支排除](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-original-exclusion.md)：新吹胀兼容式完整回六原式C32z9，与旧不可约C20z的权因子互素，故z9∈I6。已付z单位排空整支，当前正确Phi/D≠0新付2ell−1；一般Phi及普通ISP仍开。
-
-- [R267：一个合法分离选择中的实际单真空列发散](results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md)：真奇部、全1柱与未来张量尾同源保留，所有固定正有理t的||QNΩ||沿全切口趋∞，同时QN²仍强*趋单射稠值Zt。只排这个选择，保真正重叠/耦合单列路线。
-
-- [R267：同一实际QN的单真空列紧性与闭稳定根](results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md)：只需QNΩ一个强子列，完整J移位矩付两列图单值/可闭及闭包自然平方域；m0≥1返回原候选普通不变格。该实际单列紧性仍未证明，不要求或声称QN全域一致界。
-
-- [R150：整b0原C2、同f完整Loww四次与首个七源权核142](results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md)：C2/Loww/首固定六阶原返回已成，cross整零恰三λf系数整零；实际180.072秒/−14冻结第二C2/Loww，无第二完成checkpoint，不补称排空或新界。
-
-- [R150：整个b0的23088完整规范Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)：由原权长度5772、首一χλ6有限环境、q2全系数单位组合和Nakayama得到λ全局两生成，f唯一及ρ二次后长度≤23088；全部幂零重数与最终物理局部化保留。未排空原支。

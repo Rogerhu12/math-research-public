@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-one-Q-factor-1995-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-NV-Loww91-2000-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)、整ellhalf及一般Pf三生成保。新[权像维数≤1、8184包络与相对6生成](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)由已成NBe/NBo两个不同QQ不可约核及monic t³得：复基变换保正则列，次数93×88仅包络；单权纤维≤6含ρ，不称全局局部化有限/有限点数。abd714仅两处int修e9bd JSON错误，同原NV–Loww尾续180秒4GiB；run46159596374真2.457205909秒/exit1历史保，不称资源冻结/新目标，未预报Norm。
+[整h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)、整ellhalf及权像维数≤1/8184包络保。新[完整NV–Loww权范数91与Δ余图恢复](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)abd714 run46161292265真8.428479614秒/92588KiB/0：3真列/伴随/全lift及8两源系数返P(72,19,9)/总91/6447项，P本身属于原两源。已付Δ图中商恰AΔ/(P)，NV唯一t，明列比值/Gram+ρ每权≤2约化，U0另计；未做QQ因式/gcd，所有权共同分量与空性仍开。e9bd旧JSON失败与dc888旧资源门保。
 
 ### W：全原均值、H198两生成图与完整值条件
 
