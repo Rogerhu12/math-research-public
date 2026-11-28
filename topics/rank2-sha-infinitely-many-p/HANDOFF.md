@@ -10,21 +10,21 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140877721123，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 05:26:27 UTC实际partial clone/pull至79f9aa50f5980db0ef1d5e8ae4234e14f7ff2fbd；已读根/课题blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 05:26:34 UTC至878e7907da8dd908880c10c28fe14ae91be80cb6；已读根/课题blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与05:22同blob；QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中，认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以request baseline替代。
-- 日志14894B/hash907728850202c9b4aa3302f642b8818b9975a9a5761d988c4a1dbccef628a7a0；库存3194/45343464B/treed4c5c2cfd0006ade9434fb0ada0c01987767a9f9，无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟06:26UTC拉两库；非FF实际pull --rebase/读差异/重推。旧第50attempt startup_failure不算pull，现run同workflow。
+readonly run46073965457/job140879400805，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 05:33:35 UTC实际partial clone/pull至7c081de94ccf75ec0e13991cb9689b3c7704ed14；已读根/课题blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 05:33:40 UTC至60c925de975d33eb67531ab01e26e24a087c62e1；已读根/课题blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与05:26同blob；QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中，认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以request baseline替代。
+- 日志14893B/hasha4ce50b2c896170d4099fefcbd54bc8793edd2be4aeb74012cf75931a5768d68；库存3195/45373582B/tree9467461d2acad40127436d4cd42d52c8d8f1bb24，无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟06:33UTC拉两库；非FF实际pull --rebase/读差异/重推。旧第50attempt startup_failure不算pull，现run同workflow。
 - 本地自11月27日07:20失联，最近11月28日04:28:58实际pull仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 真实终态、软件 v2 与下一完整分母返回
 
 [终态记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)：run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，05:00:05UTC达到21000秒，signal15/exit124，实际failure。完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b。此前4203375B日志GET是旧快照，222/306不是最终停止点。
 T完整零/极1836、v完整零/极612已返；九个非零scalar-base阶段全部保非约化维数及各四closed components：T正3×612、负有限2×612、负无穷612，v正2×306、负无穷612；108尖点/54分支原断言已过。**最终八条使用审计、四交、一般Norm、18×9、九对/all-requested未返。**
-实际瓶颈是A0 y0的MD完整Hermite：rank306、次数16，初次整Popov仅28.729s/detdegree3670；逐列重置tail到189/306，41770410次add/15143s，未完成。两char0 pins、65源、29/2453/64/minimal/artinian及全部原门不变；当前无heavy。
+实际瓶颈是A0 y0的MD完整Hermite：rank306、次数16，初次整Popov仅28.729s/detdegree3670；逐列重置tail到189/306，41770410次add/15143s，未完成。两char0 pins、65源、29/2453/64/minimal/artinian及全部原门不变；v15接唯一heavy。
 [R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)全U/V的scalar-primary软件v1/v2均真PASS。v2 source2f48aae169de25457b405bb313fdb1d081c372a3/run46109939554/job140871011216，05:00:12UTC返回；新结果82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。68.862840787s、rank30632.021213060s，六对照/五拒绝/旧七组及实际projector包装器均通过；未执行原生产main。详见[软件记录](notes/2026-11-28-original-scalar-primary-software-and-production.md)。
-[同一分母软件](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 run46111621787/job140876205973首image因immutable失败。v2显式copy/核输入状态后真PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，05:26:48UTC；结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa，日志85133B/hashdccc3d14cda880532840f18613a61cd0fc03c2810c5c3ffc79ce2ec559973a96，主体4.589509696秒。七完整图/十拒绝/原F/scalar兼容全通过，未执行原几何或rank306性能。helper22771B/0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4；U·MD=H/全余数、原Y、CH=YMN、X=CU/XMD=YMN全保。只A0/A1各finite/∞，F_y真实旧attached门不动。下一v1569源保65旧pins/两char0/原输入全门，同步helper/producer pin后发布；当前无heavy。
+[同一分母软件](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 run46111621787/job140876205973首image因immutable失败。v2显式copy/核输入状态后真PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，05:26:48UTC；结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa，日志85133B/hashdccc3d14cda880532840f18613a61cd0fc03c2810c5c3ffc79ce2ec559973a96，主体4.589509696秒。七完整图/十拒绝/原F/scalar兼容全通过，未执行原几何或rank306性能。helper22771B/0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4；U·MD=H/全余数、原Y、CH=YMN、X=CU/XMD=YMN全保。只A0/A1各finite/∞，F_y真实旧attached门不动。v15本提交触发唯一heavy：69源保65旧pins/两char0/29/2453/64/minimal/artinian及全部原门，producer9b1d3486cb5f12f332329f92b4ff5c4eb4d899dadf9289a1d70d3b3fc56a0f64。final强核四图/八scalar真实使用；4CPU/16GB/21000秒不变，run/job随回执。
 
 ## 已付实际来源及主要缺口
 

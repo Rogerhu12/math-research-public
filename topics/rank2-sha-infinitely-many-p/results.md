@@ -482,3 +482,10 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 同一分母软件v2已实际PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，2026-11-28 05:26:48 UTC返回；结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa，完整日志85133B/hashdccc3d14cda880532840f18613a61cd0fc03c2810c5c3ffc79ce2ec559973a96。主体4.589509695999993秒，实际九次新图返回；七组完整X/Y/HNF/厚长/输入状态比较、十拒绝均通过，真实F标签仍走原image/division各一次并保attached-HNF。scalar-primary v2完整对照及当前合法包装器引用保持也通过。root已核全部实际source_file_sha256；27源请求中结果记录26源码，selector另由固定入口核验。没有执行原几何main、rank306性能实验或宣称数学终门。
 
 [完整来源与范围](notes/2026-11-28-original-whole-denominator-software-and-production.md)，§7；下一完整生产尚未活动。
+
+
+### 同一原完整厚图的 v15 生产接续
+
+在分母软件v2真实PASS之后，启动v15完整生产：只启用已核的scalar-primary两向Bezout和同一个原MD的官方H/U/全坐标返回；只A0/A1 y0两标签各finite/∞用新分母路径，F_y继续真实旧transpose附加HNF。保原65源/两char0回执、p29/qprecision2453/batch64/minimal/artinian、全部非约化厚度及四交/一般Norm/18×9/九对/all-requested。生产最终额外核八条scalar实际使用和四个同分母图的原函数/engine/ideal缓存身份及全部H/U/CH/XMD；不伪造旧算法回执或提前判数学PASS。仍固定Sage10.6镜像、4CPU/16GB、host21000秒/workflow360分钟，原串行concurrency保持。
+
+[完整参数、源码与实际软件回执](notes/2026-11-28-original-whole-denominator-software-and-production.md)，§§7–8；本提交触发生产，未返回不记数学完成。

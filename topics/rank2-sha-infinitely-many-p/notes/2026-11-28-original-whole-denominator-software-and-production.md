@@ -89,3 +89,21 @@ request为2026-11-28-original-function-field-denominator-return-v2-private-mutab
 同一分母软件v2已实际PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，2026-11-28 05:26:48 UTC返回；结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa，完整日志85133B/hashdccc3d14cda880532840f18613a61cd0fc03c2810c5c3ffc79ce2ec559973a96。主体4.589509695999993秒，实际九次新图返回；七组完整X/Y/HNF/厚长/输入状态比较、十拒绝均通过，真实F标签仍走原image/division各一次并保attached-HNF。scalar-primary v2完整对照及当前合法包装器引用保持也通过。root已核全部实际source_file_sha256；27源请求中结果记录26源码，selector另由固定入口核验。没有执行原几何main、rank306性能实验或宣称数学终门。
 
 当前无heavy。下一v15同步helper/producer/request的实际SHA，保两char0 pins、原65源和四交/一般Norm/18×9/九对/all-requested；软件PASS不替代原完整生产结果。
+
+
+## 8. 软件真实通过后的 v15 完整生产
+
+在分母软件v2真实PASS之后，启动v15完整生产：只启用已核的scalar-primary两向Bezout和同一个原MD的官方H/U/全坐标返回；只A0/A1 y0两标签各finite/∞用新分母路径，F_y继续真实旧transpose附加HNF。保原65源/两char0回执、p29/qprecision2453/batch64/minimal/artinian、全部非约化厚度及四交/一般Norm/18×9/九对/all-requested。生产最终额外核八条scalar实际使用和四个同分母图的原函数/engine/ideal缓存身份及全部H/U/CH/XMD；不伪造旧算法回执或提前判数学PASS。仍固定Sage10.6镜像、4CPU/16GB、host21000秒/workflow360分钟，原串行concurrency保持。
+
+root已全文/差异审所有候选；arithmetic独立逐链核后绑定、str(False/True)键与实际bool、JSON digest、原y0 cache与F_y方法文字。原A2/y2经反射/W，后续consumer命中同一cache，四个实际新图计数有原调用链依据。当前wrapper正文的可逆替换保同一ENTRY/globals，不触碰任何数学验收。
+
+| v15 文件 | 字节数 | SHA256 |
+|---|---:|---|
+| produce-original-same-denominator-hermite-shadow.py | 38719 | 9b1d3486cb5f12f332329f92b4ff5c4eb4d899dadf9289a1d70d3b3fc56a0f64 |
+| launch-original-same-denominator-hermite-shadow.py | 13016 | 2e97e6c1224b32277b211f890c10e2a829e86fbe4ba2d5eea7b4432dc34db970 |
+| original-same-denominator-hermite-shadow-request.json | 8794 | ac04d377ee4ad0fd5b25722ddb5069683cbd4995129ede7f907a25b37eaafff2 |
+| rank2-sha-original-triangular-artinian-shadow.yml | 4248 | a99b5d4c91ae397bd6be21a351d153f5587c0136aacb2e1b6761f18c7bb04860 |
+
+69源码pin中旧65全部相同，另四项为已通过的scalar-primary/helper以及新launcher/producer；helper采用v2 0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4。producer与request已同步实际SHA，不使用v1不可变副本。first原job133436977753/run43906594646/head135b50ff04a12c51dd1b9de583a20b2bed19cbed/result5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f；packet原job136215000168/run44714703201/headb688d6ac703fec422a7c864bcdc997cc553185fd/resultd3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915。必要原输入由启动器重新认证后经管道读取，不存可重算矩阵或日志。
+
+本提交触发下一唯一heavy；run/job及实际完成状态随回执更新。官方Hermite保完整U，仍可能有昂贵中间次数；没有预报rank306耗时或放宽资源。推前实际双pull run46073965457/job140879400805：公开2026-11-28 05:33:35 UTC至7c081de94ccf75ec0e13991cb9689b3c7704ed14，私库2026-11-28 05:33:40 UTC至60c925de975d33eb67531ab01e26e24a087c62e1；四README与05:26同blob、QUEUE未变。日志14893B/hasha4ce50b2c896170d4099fefcbd54bc8793edd2be4aeb74012cf75931a5768d68，库存3195/45373582B/tree9467461d2acad40127436d4cd42d52c8d8f1bb24，无>5MB，三旧必要输入未变。
