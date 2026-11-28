@@ -1,0 +1,46 @@
+{
+  "artifact_bytes": 7114742915,
+  "artifact_id": 15276188258,
+  "artifact_sha256": "49762b330eaf3dc254caf9002b50ab1b730b85ba0aea7c324f37911b8001c38e",
+  "continuation_sha256": "a5609302a51b1a2a21d4b359cecaf9bb5b07e7ebe2f7aa384bb0fc6a1d9e88ae",
+  "head_sha": "c8c285fee6c7317c8d14749b71d25e703fef1802",
+  "input_identity": "2c6e610dcfc7f58328aa9dd3e51799df6ded740e4007caafec0ef69848a48197",
+  "job_id": 141071182352,
+  "member_count": 31674,
+  "naturally_completed_at": "2026-11-28T18:57:14Z",
+  "run_id": 46174873079,
+  "selected_documents": {
+    "continuation": {
+      "bytes": 589763,
+      "member": "continuation.json",
+      "sha256": "a5609302a51b1a2a21d4b359cecaf9bb5b07e7ebe2f7aa384bb0fc6a1d9e88ae"
+    },
+    "input-identity": {
+      "bytes": 2037,
+      "member": "input-identity.json",
+      "sha256": "6b37b96ef9f3d2c42964cb1b9e5981a082eecec74a36449865828e07a4c70e4f"
+    },
+    "source-identity": {
+      "bytes": 3037,
+      "member": "source-identity.json",
+      "sha256": "424437f9ccdaf949d248055e30092df367cad2dd5bfef8bfc8c30b8635d4db4d"
+    },
+    "terminal": {
+      "bytes": 134290,
+      "member": "terminal.json",
+      "sha256": "7e20c7a85b7881b51fb1fdece4b9881ed03ca97a786195d1cf7366f49e7f0c99"
+    }
+  },
+  "source_identity_sha256": "424437f9ccdaf949d248055e30092df367cad2dd5bfef8bfc8c30b8635d4db4d",
+  "strong_etag": "\"0x8DF4D8167C5372D\"",
+  "terminal_sha256": "7e20c7a85b7881b51fb1fdece4b9881ed03ca97a786195d1cf7366f49e7f0c99",
+  "transport": {
+    "administrative_seconds": 54.08286143300029,
+    "bytes": 8543363,
+    "new_scientific_evaluations": 0,
+    "official_digest_and_strong_ETag_bound": true,
+    "old_log_requests": 0,
+    "ranges": 9,
+    "whole_ZIP_sha256_recomputed": false
+  }
+}

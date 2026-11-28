@@ -199,3 +199,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 19:07:44 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R748完整三层原终态
 
 **R748 原三层36步已自然终态。** [93→191→409全高度/36J/38全谱](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)，run46176200567/job141075364113，880.705914869秒；末eta .4625174/曲率36.6068、中央Darboux2.6926，全部离散门和全壳仍false。75成员108.6MB原artifact15276770446已全SHA接收；最新s02_complete与两次prolong/原fine不重。新表示须从真实409q转换，规范深帽包不冒IEEE全连续资格。
+
+## 2026-11-28 19:09:41 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R750原两边环带自然终态
+
+**R750 原两边环带9步已自然终态。** [17全J/17010列与独立窄区大峰](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，run46174873079/job141071182352，2233.840172885秒；只0fit，.4验证绝对curl47358、metric26045、曲率98988，原next forced_sleeve保持。536ray核/27470位移/459位置J与全部7.1GB原artifact15276188258保留；四原文已206接收，R760改真宽三矩场并显式补两网切缘。

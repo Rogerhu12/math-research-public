@@ -118,3 +118,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R745 厚双谷原终态已登记。** [7接纳/32全2×2/242732新区间单位](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，run46174255201/job141069279288，1321.976574898秒；中心Wronskian约3.57e−15但true_two_valley_box=null，有限beta≈5.855e16未证全尾。原pending=null、原RHS342033和全部242732胞不重，R759改真半段射影/Krawczyk传播。
 
 **R748 原三层36步已自然终态。** [93→191→409全高度/36J/38全谱](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)，run46176200567/job141075364113，880.705914869秒；末eta .4625174/曲率36.6068、中央Darboux2.6926，全部离散门和全壳仍false。75成员108.6MB原artifact15276770446已全SHA接收；最新s02_complete与两次prolong/原fine不重。新表示须从真实409q转换，规范深帽包不冒IEEE全连续资格。
+
+**R750 原两边环带9步已自然终态。** [17全J/17010列与独立窄区大峰](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，run46174873079/job141071182352，2233.840172885秒；只0fit，.4验证绝对curl47358、metric26045、曲率98988，原next forced_sleeve保持。536ray核/27470位移/459位置J与全部7.1GB原artifact15276188258保留；四原文已206接收，R760改真宽三矩场并显式补两网切缘。
