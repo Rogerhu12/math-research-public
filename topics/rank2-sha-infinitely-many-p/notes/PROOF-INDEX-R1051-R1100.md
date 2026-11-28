@@ -73,3 +73,8 @@
 ### 原B12商的真实canonical行与全39支
 
 [原B12 canonical读者与完整39支返回](2026-11-28-original-b12-canonical-reader-and-complete-thirtynine-trace.md)把R1037的全部324词和真正B12共轭写回原390两来源；保二挠第四Miller及每个CM词的完整有理比，最终是E3969的原degree378必要首行。原投影来源在O增加六阶零，准确抵消表面六极；±S和二挠全部阶及同一M=1 frame的高零保留。完整四次Cartier与39支trace返回同一原首行，Normα(y)=cαy使对数方向的trace标量为1；一般微分的39/α费用明确保留。theta推前仍是三个rank13/degree126稳定carrier，不能冒旧390→10降次。下一步须付此真实reader与原P10/全Miller窗的逐式比较或同R新消元，不能先给c=6终端非零。
+
+
+### 原p²剔除的新输入、周期相消与完整finite矩阵
+
+[原p²剔除完整新来源](2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)已逐式支付 $W_p=p^{-4}(g_2^2)^*w_0$、实际bad源 $-F_0+p^2(g_2^2)^*F_0$ 及第二raised项 $p^{4n+2}(g_2^2)^*(\delta^nF_0)$。新CM点是循环导子p²邻点，全部核给 $v(c_C)=1/p$，书版 $\Omega_2=p^{-2}c_C\Omega_0$ 使显示因子准确为 $p^{-4}(c_C\Omega_0)^{3+2n}$。完整换极化给每轴p²字、总p⁴项和mixed $-102AB$，体积p^-2与原整球锚1全保；不把新compact p-torus平均计入原full54。负端点是同一新测度的单位inverse-square，真实KS与b2 Bol给p^-6的原Coleman Q根平均接口，仍未把该平均认成CM图或canonical J′。旧原点D102/S34估计不能搬到新邻点；两处张量/系数与determinant费用已由root/arithmetic独审。

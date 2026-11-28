@@ -405,3 +405,12 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 发布前实际两库pull由readonly run46075603971/job140799406042完成，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116。公开00:18:40UTC至c9df0b1778a4d56d4add15a39af7d289fc90489a；私库00:18:45UTC至50bbc6ab4613f14b9fec6bc2c54e4c40262e6087。四README blob与00:04已读版本完全相同，无新差异；私库QUEUE新0960ae68e078bae51fd8e95fc2839c7028ffa6fc已直接读本行仍本会话进行中。完整job日志14889B/hash86166b8195f422c9ca2003e98187bb65cd7a6355ed02f848bfb0aa3f89544d5f，仅记录不保存；库存3153blobs/44,420,255B、tree a070d55f6b0d922b1c05e9825b960cb1fd1789cc，无>5MB，三旧必要gzip不变。H按规矩逐字归档至 notes/2026-11-28-handoff-before-b12-complete-trace.md 后缩写。
 
 唯一heavy v13 run46080875647/job140779301767于00:17:25UTC仍in_progress，完整认证/数学step未终；不开第二heavy。中央原p²剔除完整finite矩阵/周期/实际Bol接口已交独审，根继续实际Q平均/规范source接合，几何继续原39/P10 frame，不等用户。
+
+
+## 2026-11-28：原p²剔除来源、周期及全部有限字
+
+完成 notes/2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md，13666B/SHA256 1ea0f2779d2626317db63dd26dcaa0f3c9a553ab6e341bdcf5d396f2ec0dc194。central手证、root全文审、arithmetic独核source/g2²张量、cC=1/p、书版Ω2、KS总费用p^-6、全部p⁴高斯字和mixed−102AB。根仅收紧p³A_good的真实拉回张量措辞并显写KS方向；没有改变数学source。原最大阶sigma半径未外推给conductor p²；actual Q根平均仍不命名CM图，primitive导子定理不套平凡有限角色。所有原tame/Artin/Cor保，新增p处平均必须独立支付。
+
+发布前readonly run46075603971/job140800215002再次实际pull两库：公开00:21:30UTC至99c0924a78a0d3deffdc6a1b11591e5bd035623b，私库00:21:34UTC至28ada44e8dc909d16d8c8e0c26ec729b928b0502。四README blobs与00:18所读相同，无差异；QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行认领保。日志14887B/hash57c7095e8f7a98dc7d6c902764e716166c15442256bab204a5a6d2cb7ede113c仅记摘要；库存3155blobs/44,448,417B、treef4af8d6ffa107a10357870487db4aeb87761e066，无>5MB，三旧必要gzip不变。上一B12结论已推d12552a11215a388e6a0bb3e96de2db65ec91272。
+
+root/central接精确导子与真实Q-action，geometry接原B12/P10及common A24同charge关系，arithmetic补CM主单位的居中period变换。唯一v13仍在原完整步骤，不重复运行，不将阶段身份作主完成。

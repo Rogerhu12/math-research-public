@@ -12,12 +12,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 最新实际pull、已读规则和认领
 
-readonly run46075603971/job140799406042，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 00:18:40UTC实际partial clone/pull至c9df0b1778a4d56d4add15a39af7d289fc90489a。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库00:18:45UTC实际至50bbc6ab4613f14b9fec6bc2c54e4c40262e6087。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与00:04已读版本相同，无差异。QUEUE新blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc已直接核本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
-- 日志14889B/SHA256 86166b8195f422c9ca2003e98187bb65cd7a6355ed02f848bfb0aa3f89544d5f；库存3153blobs/44,420,255B，tree a070d55f6b0d922b1c05e9825b960cb1fd1789cc，无>5MB，三旧必要gzip不变。
-- 每推前重跑最新成功readonly job并消费。**最迟2026-11-28 01:18UTC再实际pull两库**。ref竞争时先试本地pull，无环境就CI实际pull，读差异后继续，不以API比较替pull。
+readonly run46075603971/job140800215002，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 00:21:30UTC实际partial clone/pull至99c0924a78a0d3deffdc6a1b11591e5bd035623b。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库00:21:34UTC实际至28ada44e8dc909d16d8c8e0c26ec729b928b0502。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与00:18已读版本相同，无差异。QUEUE新blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc已直接核本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
+- 日志14887B/SHA256 57c7095e8f7a98dc7d6c902764e716166c15442256bab204a5a6d2cb7ede113c；库存3155blobs/44,448,417B，tree f4af8d6ffa107a10357870487db4aeb87761e066，无>5MB，三旧必要gzip不变。
+- 每推前重跑最新成功readonly job并消费。**最迟2026-11-28 01:21UTC再实际pull两库**。ref竞争时先试本地pull，无环境就CI实际pull，读差异后继续，不以API比较替pull。
 - 本地07:20失联，00:08重试仍无环境；末次本地07:12至1cf10ac。API、CI、本地分记。
 
 ## 唯一原完整厚几何v13
@@ -28,7 +28,7 @@ readonly run46075603971/job140799406042，workflow source e5309ee152260aa4aef389
 
 **run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建；00:17:25实际in_progress。23:35日志GET404，暂无绑定/数学终态。必须核八条本次T/v完整HNF、边界、厚长、残域回执及原四交、一般Norm、18×9和九对；软件PASS不替终门。4CPU/16GB/21000s，不开第二heavy，不存可重算输出。
 
-## 解析来源：旧分支已零，实际p²新源在审
+## 解析来源：旧分支已零，实际p²新源已付
 
 [good source](notes/2026-11-27-original-good-pullback-and-bad-source-return.md)已付g2*F0好点有界性；书Lemma6.16允许同一completed结构层germ，g2*ydR=ydR。full2/full9中心(pI)*F0=−F0，b2坏点返回−F0；vC=2。raise-after-pull p^(3+2n)与book raise-before-pull p^(3+n)不能混。
 
@@ -36,7 +36,7 @@ readonly run46075603971/job140799406042，workflow source e5309ee152260aa4aef389
 
 [一般flat临界reader](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)仍有效。M(−2)=单位x^-2矩，斜率保log、全部Maass修正和外权导数；书版正KS/正杯积/Bol与R997一致。真实Q旋转不命名CM图。§6.1直接整Newton reader用pH−1前缀，斜率O(p(H+log_p(H+1)+1))及额外floor(log_pJ)；旧Stirling另付vN!。
 
-中央新稿正在根/arith独审：通常F0^(p)=F0−p²(g2²)*F0，实际bad返回−F0+p²(g2²)*F0；真正p²邻点与完整p⁴ finite字/混相位必须保。不能沿用原点D102×S34的系数界。原Book7.20/7.22与canonical接合仍未付，AI primitive导子定理不得套未分歧finite角色。
+[原p²剔除新来源](notes/2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)现根/arith独审通过：W_p=p^-4(g2²)*w0，bad为−F0+p²(g2²)*F0，第二raised为p^(4n+2)(g2²)*δ^nF0。真conductor p²商的vcC=1/p，Ω2=p^-2cCΩ0使周期因子p^-4(cCΩ0)^(3+2n)，不能沿用原点D102/S34估计。完整p⁴字矩阵保体积p^-2、mixed−102AB、整球锚1和全部tame权；新p-torus平均不算入full54。KS/Bol给p^-6的actual Coleman Q平均接口；不是CM图trace，也不自动付Book7.20/7.22或canonical比较。中央接其exact-p²分解，arith核CM主单位对居中Q2的真实作用，AI primitive导子定理不套未分歧finite角色。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)继续生效：literal通常剔除阶乘数列不连续；原p227/u1两槽非零只由辅助65537证char0非零，不冒227单位。旧full54/六线/newpsi4连续cross、H−2/AJ及共同几何F单位均条件化；不补自由Gamma、不称书定理假。独立direct proper/晶体残余保原范围。
 

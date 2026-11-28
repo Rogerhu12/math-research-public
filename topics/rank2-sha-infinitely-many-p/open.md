@@ -215,3 +215,10 @@ g_1^*((p\delta)^nF_0)=p^{2n}\delta^n(g_1^*F_0)=p^ng_1^*(\delta^nF_0).
 [原B12 canonical读者与完整39支返回](notes/2026-11-28-original-b12-canonical-reader-and-complete-thirtynine-trace.md)把R1037的全部324词和真正B12共轭写回原390两来源；保二挠第四Miller及每个CM词的完整有理比，最终是E3969的原degree378必要首行。原投影来源在O增加六阶零，准确抵消表面六极；±S和二挠全部阶及同一M=1 frame的高零保留。完整四次Cartier与39支trace返回同一原首行，Normα(y)=cαy使对数方向的trace标量为1；一般微分的39/α费用明确保留。theta推前仍是三个rank13/degree126稳定carrier，不能冒旧390→10降次。下一步须付此真实reader与原P10/全Miller窗的逐式比较或同R新消元，不能先给c=6终端非零。
 
 继续同一Pi_E来源、指定frame及全部rank13中间层；不把环境极帽或局部六阶矩当canonical授权。原无穷p非零仍开。
+
+
+### 2026-11-28：改用实际p²剔除新来源
+
+[原p²剔除完整新来源](notes/2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)已逐式支付 $W_p=p^{-4}(g_2^2)^*w_0$、实际bad源 $-F_0+p^2(g_2^2)^*F_0$ 及第二raised项 $p^{4n+2}(g_2^2)^*(\delta^nF_0)$。新CM点是循环导子p²邻点，全部核给 $v(c_C)=1/p$，书版 $\Omega_2=p^{-2}c_C\Omega_0$ 使显示因子准确为 $p^{-4}(c_C\Omega_0)^{3+2n}$。完整换极化给每轴p²字、总p⁴项和mixed $-102AB$，体积p^-2与原整球锚1全保；不把新compact p-torus平均计入原full54。负端点是同一新测度的单位inverse-square，真实KS与b2 Bol给p^-6的原Coleman Q根平均接口，仍未把该平均认成CM图或canonical J′。旧原点D102/S34估计不能搬到新邻点；两处张量/系数与determinant费用已由root/arithmetic独审。
+
+继续同一完整矩阵的exact-p²角色分解、实际Q根平均/level运输和原canonical读者比较；不在已经恒零的旧source上重复逼近，也不从finite非零推出跨p非零。
