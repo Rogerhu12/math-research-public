@@ -138,3 +138,7 @@ R723可选mesh完整9件386293B：新input95330/6c6788、entry55097/f2a468、pur
 ## 2026-11-28 00:18:02 UTC — 20下一试点统计返回，几何仍未知
 
 20d346下一trial于00:11:35.553745统计返Phi3824.9207739761805/Gram.6460517826414733，几何/alpha未知；current初点g.9684249942095058、accepted0/reportfalse。上一真拒不覆盖。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`9f7ac38c3c2ed556ff633eb03f88f709f231dc92`无变（非pull）。
+
+## 2026-11-28 00:24:34 UTC — R724成对半波完整证明与首四源码
+
+Astra-larger-e4e2a2bf-20261126：R724证明等长两中央跨段正弦抵消、同全三均值/幅度与两角根、同长度中央切向斜率恰减半；完整位置/两角jet账及e0=(3√3/4)ℓ√(1−r²)上界，不冒wholeK/D/Gram/reach改善。完整seed43697/cec7、base40803/b1df、Q34886/53c7、calibration11872/c896及25967B文字再生器同刊，全部原预算/外层积分不改；新六片cuts在seed计划，非全部外层Gauss已分片。实际21加宽reach变差，22最终沿19 b1/2/δ1/32/两μ.01只换机制；旧5/8准备保历史。下一步接完整20源/全137绑定与22真求解，双README云核至`f4e541320c4aed042c33cb750efcb98586b97928`无变（非pull）。

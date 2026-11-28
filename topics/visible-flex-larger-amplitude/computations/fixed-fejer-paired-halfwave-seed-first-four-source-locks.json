@@ -1,0 +1,159 @@
+{
+  "schema": "complete-fixed-fejer-paired-halfwave-seed-first-four-source-locks-v1",
+  "status": "complete-source-only-no-scientific-execution",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "new_scientific_namespace": "fixed-fejer-paired-halfwave-bfiveeighths-first",
+  "complete_runtime_sources": [
+    {
+      "role": "seed",
+      "parent": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_supported_meridian_reference.py",
+        "name": "fixed_fejer_supported_meridian_reference.py",
+        "bytes": 39771,
+        "sha256": "ad52a217269c2a30ce9886acb45492e0e825d3a2654f9ed045dc430951d1e15a",
+        "git_blob_sha": "ad7f2d9ea2e63df16d900cf12885d611fef5d823"
+      },
+      "output": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_reference.py",
+        "name": "fixed_fejer_paired_halfwave_meridian_reference.py",
+        "bytes": 43697,
+        "sha256": "cec7f1a297851c43bb5db4174d3a15d7d1a40eb1683b145d1f845aff732d10f0",
+        "git_blob_sha": "cc877246e546b8294826ad38d33b3eb2f7434f25"
+      },
+      "exact_patch_count": 16
+    },
+    {
+      "role": "base",
+      "parent": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_supported_so3_meridian_operator.py",
+        "name": "fixed_fejer_supported_so3_meridian_operator.py",
+        "bytes": 40840,
+        "sha256": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+        "git_blob_sha": "1d9e435bb68374b71c3d7361771c28f47838d59e"
+      },
+      "output": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_operator.py",
+        "name": "fixed_fejer_paired_halfwave_meridian_operator.py",
+        "bytes": 40803,
+        "sha256": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+        "git_blob_sha": "350c2e057e6af15e663d0fdb463a518bebc36234"
+      },
+      "exact_patch_count": 7
+    },
+    {
+      "role": "Q",
+      "parent": {
+        "name": "fixed_fejer_literal_zero_moment_input.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_literal_zero_moment_input.py",
+        "bytes": 31409,
+        "sha256": "ca4fef4066bfb6d6fedbdf9b65349f7f0ba8480376858c84faa8ee3d4d4b97b3",
+        "git_blob_sha": "172d2b82eca6496058d2c73560de86bada50f12d"
+      },
+      "output": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_literal_zero_moment_input.py",
+        "name": "fixed_fejer_paired_halfwave_literal_zero_moment_input.py",
+        "bytes": 34886,
+        "sha256": "53c71b2cf11aa9356f6edeb6f14098d8bef8e193841bd9513b00ee3f3fa86333",
+        "git_blob_sha": "4625d2775b960a8859ddd88de215cc736a84363f"
+      },
+      "exact_patch_count": 10
+    },
+    {
+      "role": "calibration",
+      "parent": {
+        "name": "fixed_fejer_meridian_reference_calibration.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_reference_calibration.py",
+        "bytes": 11872,
+        "sha256": "aa40b224da667b5e01b207a431f771e2bf11177fabaebb075ca6218bbb130de3",
+        "git_blob_sha": "2f816e1e3e617a1c8bf85bea8067f5aedd8e773e"
+      },
+      "output": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_reference_calibration.py",
+        "name": "fixed_fejer_paired_halfwave_reference_calibration.py",
+        "bytes": 11872,
+        "sha256": "c89612303af1b290f6f1a6fb410d0dc3b4be98acb16b05dd338b01cb53e72106",
+        "git_blob_sha": "812e981a9e4a6302c6241129dd812c251bb92691"
+      },
+      "exact_patch_count": 5
+    }
+  ],
+  "complete_exact_source_reproducer": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_seed_sources.py",
+    "name": "reproduce_fixed_fejer_paired_halfwave_seed_sources.py",
+    "bytes": 25967,
+    "sha256": "7654fbcdb38c8d29a3a1d4fc69110353574b1eaf880bc5654644d4161172a52e",
+    "git_blob_sha": "50f265d3bd6b9b48c5c7208a51c8ce7d026bc404"
+  },
+  "shared_auxiliary_mean_kernel": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/supported_smooth_triangle_seed_mean_jets.py",
+    "name": "supported_smooth_triangle_seed_mean_jets.py",
+    "bytes": 34725,
+    "sha256": "f8487dfe917e76dae12e3ba5667f66423ada305c077160d606d6f6aea6dc3917",
+    "git_blob_sha": "ee318b8971ce3c3d10715fbcd648c3a3bcfd6712"
+  },
+  "unchanged_original_reference": [
+    "scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+    "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
+  ],
+  "new_normal_schema": "complete-fixed-fejer-paired-halfwave-detached-meridian-normal-layer-v1",
+  "lower_roles_being_closed": [
+    "detached_meridian_values",
+    "closure_values",
+    "analytic_J3",
+    "analytic_frame",
+    "frame_C1",
+    "stage_matrices",
+    "adjacent_matrices",
+    "endpoint",
+    "root_packets"
+  ],
+  "reference_calibration_already_in_first_four": true,
+  "root_remaining_upper_roles": [
+    "analytic_J3_binding",
+    "envelope_transfer",
+    "geometry",
+    "geometry_batching_pure",
+    "driver",
+    "launcher",
+    "reader",
+    "actual_accurate_fee_input_if_admitted"
+  ],
+  "exact_physical_contract": {
+    "central_signs": [
+      1,
+      -1
+    ],
+    "profile": "h_delta(t/2)",
+    "physical_pieces_per_interval": 6,
+    "complete_physical_pair_pieces": 12,
+    "auxiliary_mean_pieces": 12,
+    "all_new_physical_breakpoints_in_actual_exact_affine_plan": true,
+    "equal_central_lengths_checked_by_exact_rational_definition": true,
+    "complete_original_mean_and_evaluate_function_bytes_retained": true,
+    "complete_original_calibration_class_bytes_retained": true,
+    "all_base_methods_from_initial_to_EOF_bytes_retained": true
+  },
+  "run22_parameter_parent": {
+    "run": 21,
+    "relative_boundary_total_length": "5/8",
+    "profile_delta": "1/32",
+    "metric_and_restoration_mu": "0.01",
+    "M": 160,
+    "J": 923,
+    "N": 2048,
+    "normal_stage_count": 32,
+    "all_other_numeric_parameters_and_budgets": "complete original run21 objects retained by root"
+  },
+  "no_original_mean_or_closure_or_geometry_working_word_equality_claimed": true,
+  "no_original_raw_cache_reused": true,
+  "no_root_or_continuous_fee_produced": true,
+  "future_actual": {
+    "run_id": null,
+    "reference_record": null,
+    "field_report": null,
+    "full_point_sha256": null,
+    "root_packet": null
+  },
+  "refs_or_queue_modified": false
+}

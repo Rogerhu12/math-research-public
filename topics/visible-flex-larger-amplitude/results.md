@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R724（已证明，成对半波新机制）**：[等长中央半波、完整位移与角jet账](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md) — 两中央+/-h(t/2)保同准确全均值/幅度及两角根，中央|T_s|恰减半；完整中间位移及e0=(3√3/4)ℓ√(1−r²)界、端口/协变/新来源均保。不推wholeK/D/Gram/reach改善；首4全源已刊，22沿19半宽参数独立求解。
+
 - **R717（已证明，预定非圆输入与条件几何界）**：[七模Fejér固定图与整像界](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md) — B=1/4、n=7短有理式经明确RN64后作准确dyadic图；全角ρ>0、闭合/单调/对称及初始核心界完整，当前自由core须重付。给全目标盒Hausdorff下界及同leaf范数D上界，不迁旧g/场或曲率证书；新完整输入与实际全域求解继续。
 
 - **R716（已证明，固定不对称帽的完整矩条件）**：[固定不对称帽与完整中心化体积矩](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md) — 未标记实体半转且固定帽完整不交时，保全部重心/混合矩给Beff=B2−b1²/V；既定R661 p4其实部严格为正，完整A2非零即可在π/4或π/2排除含反射全等。另在R625全部几何假设下给定量商距离界；新场实际A2、闭嵌入/外法向管和其余完成条件仍未付。

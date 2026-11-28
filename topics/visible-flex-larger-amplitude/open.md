@@ -118,7 +118,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 README未完成；时长、阶段、失败和输入困难均非终点；按open顺序继续真正求解。
 
 
-下一独立width-only输入21选b/S=5/8、δ1/32、两mu.01，与19隔离比较宽度；[6件完整参数](computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json)已刊，官方46084442413/1已真启动。[全源码分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保三b的准确支持/中央长度、mean域与未知λ排序：端层显式系数4/5、中央(3/2)λ比，不保证K改善。3/4合法但中央压缩更强；不凭粗R709失效拒输入。原小文件已存K/D/alpha，尚未live公开不得补值；完整空间witness与report保存时机、same-source restart不自动继承末阻尼的源码边界均保全文。
+21五分之八宽度已真返：初reach2.541916739245917比19半宽.9684249942095058更差，distplus则变负；[完整宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)及全部原参/未知λ排序保。故22拟以完整19 b1/2/δ1/32/两μ.01只换[R724成对半波](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)：同准确均值/两角根、中央|T_s|减半，完整中间位移必须付；不推wholeK/D或Gram。首4完整源/再生器已刊，20源全链准备中、尚无22实际run；新参考缺陷与全费用必须独立计算。
 
 
 [ret53全台账](computations/legacy-native-generated-metadata-retention-53-complete-delivery.json)实施28个旧生成对象精确退存，主体净1822833B。原24源/全部参数/11run/6组workflow、所有数值payload/checkpoint/失败/未知保；两whole canonical及parent91绑定仍当前树。原reader需其旧路径则先完整Git恢复，不能用台账代原文件；容量整理不付科学结论。
