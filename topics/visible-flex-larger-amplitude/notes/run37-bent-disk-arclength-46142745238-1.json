@@ -132,7 +132,7 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:03:19Z",
-  "phase": "candidate-return",
+  "phase": "live-scalar",
   "terminal": false,
   "child_started": true,
   "parent_reproduction": {
@@ -390,23 +390,23 @@
   "child_pid": 2840,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 57,
-    "utc": "2026-11-28T12:15:29Z",
+    "ordinal": 61,
+    "utc": "2026-11-28T12:18:25Z",
     "original": {
       "event": "arc_objective",
-      "call": 1,
-      "norm": 0.04997044168773237,
-      "angle_residual": 0.2411759424130353
+      "call": 61,
+      "norm": 0.043446760569506145,
+      "angle_residual": 0.0715524990844989
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/summary.json",
-      "bytes": 16825,
-      "sha256": "9388b39be4113c30936b395ae7433b0be95a706ee6da05431120aa2572f4220d"
+      "bytes": 16830,
+      "sha256": "20765cf391e60871c3d444c33034a10c86da25071a913bf06ce7a148ec43eee8"
     },
     "complete_small_json": {
-      "elapsed_seconds": 568.577966983,
+      "elapsed_seconds": 762.6782629129999,
       "ellipse_source_sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
       "frozen_target": {
         "angular_count": 640,
@@ -416,12 +416,12 @@
         "source_x_sha256": "52951c2a3abd4c44aaa15a85dcda80f0b6baec3b45d7734231bb8d29f5dcb1c4"
       },
       "in_progress": {
-        "call": 1,
-        "cost": 0.0012485225212335305,
+        "call": 63,
+        "cost": 0.0009428131975316765,
         "design": "tilt44-lift-parent05",
         "layer": "arc-frozen-2",
         "stage": 7,
-        "x_sha256": "94567804b4bba841a1d3d44cc16de008914a3f43e50eb68cf8d46afe24b6b45c"
+        "x_sha256": "17f5418e0d61caf799ee85e3525ca3deb9e0b17cf8ea32b66a77843d20b8ecd1"
       },
       "numpy": "2.3.5",
       "params_sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c",
@@ -976,6 +976,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:06:00Z",
-  "observed_utc": "2026-11-28T12:15:36Z",
-  "original_scalar_line_count": 57
+  "observed_utc": "2026-11-28T12:18:44Z",
+  "original_scalar_line_count": 61
 }
