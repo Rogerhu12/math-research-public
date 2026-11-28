@@ -122,7 +122,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R767–768](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：新固定初g全reach.08/D<2.57、握>.528/中央held>.55；整桥单位速/真实两帽二jet。旧.18硬端斜路<.768却末弦>.784，任何内场g误差>.042，已闭；改真实外边界续做，正相全管/余g仍欠。
 
-[46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：同R767初g改真实退帽.40、两边独立Cauchy/三向凸矩校正，参考整桥gvv准确；实际释两整帽共享rim三向场，13源/6初点+两族4/8/16、各65相七整mesh全预算启动，整g/正相管仍欠。
+[46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：46168504031完整12stage/双69相/各7闭网全返，末同点整网g1.42695/1.42194、K883724/36017，有限细化失败；原初几何/参考经向与全源参仍保。
 
 [R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：同R764初g全转角重分，完整normalized参考held≥.88但固定E界全帽短路排除；贯穿E+L的真实S²射击释E、两真帽随实际积分端，四支/三层/24整报告原预算启动，余g/全管仍欠。
 
