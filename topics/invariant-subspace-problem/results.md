@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-W-gamma-nine-formal-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Haar-unbounded-four-corners-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [R12：无界Julia角四个真实高位来源与双端缺陷谱](results/R12-appendix-unbounded-julia-angles-four-corner-sources-and-two-endpoint-defects.md)：任意非平凡普通P的四个(P,Π)角均有真子空间单位弱零列；若实际Julia像是闭稠密ΓZ，则Z/Z*有小像与大值原域列，两个缺陷算子ess含0/1。图域不紧；闭值域排除须有限核。未构造闭根或完成ISP。
 
 - [整个当前W/γ的精确九原二次与三参数约束](results/R150-appendix-unit211-W-entire-gamma-nine-quadratic-original-scalars.md)：同点Loww完整基变换，全三个头Bézout1胶合，九行精确I6等价；13.926455秒/0，三固定原cofactor全返回，剥已付后次数(23,22,5)/(39,34,10)/(44,39,10)。仅三个必要式，未称空或有限；旧十×二尾仍冻。
 
@@ -67,5 +69,3 @@
 - [原 N1/F6 十二基环境的独立范围更正](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：真N4极化及矩式保留；明确直接原单位U和正确Rbar，撤除旧§4隐含单位。h=k真五行首次实际完成，原共同头2e03首次派发；均未宣称原图排空。
 
 - [R150：修正后二重点 Phi 四个真实二次头](results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md)：自含f62真0.091190541秒/0，四个完整因式恒等式；原bc/P02/QδPf直接付前因子，共同头零恰为AB=F8=F10=F9=0。新开图三生成元仅按真头可逆使用，头零全保，不恢复旧错误H1/H42/583。
-
-- [R267：同一P的全部逆幂与双平坦实际来源](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)：明确正收缩强积Q、原柱基与尾误差、同一Q真强单位，付全部原旗C^-aP^-bQ有界单射稠值；0≠F_P⊊F_C，Q幂衰减型无穷。双逆整系数卷积给精确平方输入B_(zF²−1)=0，尚未求解，不把整数逆当平方根。
