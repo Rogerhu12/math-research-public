@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：物理中位双区间与完整carry的准确原值域](results/R12-appendix-physical-median-two-intervals-and-actual-carry-range-rank-one-residue.md)：全高行两整数区间、两条真实出流；包括常数列的Da⁻¹全行是r倍酉的迹类小扰动，完整RanC∩Y保逆权费用。CL=K+Ωψ，原C⁻¹K自然域恰kerψ；V满射核CΩ，CV=D−Ωψ。
+
 - [R150：完整Vlow原六列/qT4首次二列的准确边界](results/R150-appendix-unit211-W-scaled-entire-V-native-six-and-qT4-first-linear-boundary.md)：三缩放原N4全迹、六个ell²恢复及完整Vlow六列31.252762秒返；qT4二列104.342457秒返。唯一180.031928秒/−14，Vlow二列/pair未返整尾冻，不能写整体成功。
 
 - [R150：正确Phi图的整个f=u原值全排除](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)：新四完整QQ因子保全嵌入与Q/v重数，原N1/NS/PS全理想矩阵4×12、12×36、12×36、54×162逐项返回1；3.829887秒/0。合C17与整u2闭合，当前正确Phi/D非零可付f−u；B34/40与一般斜率仍开。

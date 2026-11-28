@@ -117,3 +117,9 @@
 - 实际180.03192772秒/290824KiB/−14，无断言失败；具体Vlow换基块内部中断行未记录，不猜测。Vlow二列及qT4/Vlow配对未返，整尾冻结；源、metadata及stdout SHA保，不存大系数。
 - 新B4=bΔ(Z0tilde+D Z2tilde/M)−aΔ Z1tilde满足(2m ell² bΔ)Vlow−Z1tilde C4=2mD B4；只用当前原D单位给必要性，bd0全保，不声称等价取代Vlow。
 - 97cf新完整quartic首派180秒4GiB，root/literature全文静核；一次native原迹、六基短除清分母多项式收缩、仅新B4/EW与B4/EBo目标，无旧12动作/运输/pair重放。新增workflow记本题log。
+
+2026-11-28 16:05 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完整纸证420282经root与r150独立逐节核：物理median确切端点、全部跨块/常数列，不以闭包值域代替实际源。矩形全行相对r倍酉的迹范数≤8e⁻¹⁰⁷⁰。
+- 原RanC∩Y准确权平方和条件与常数约束给唯一源、范数1至2；完整carry满足CL=K+Ωψ及Dom(C⁻¹K)=kerψ，保真实rank-one余项。
+- V=I−L满射、核CΩ并有实际范数≤2右逆；CV=D−Ωψ为非交换右因子身份，未推出原C根或普通不变子空间。本条无重复数值运行。
+- 08:05 UTC本地pwd复探仍报无可用执行环境，记录小回执；继续授权Actions实际partial clone/pull/rebase/push与每次README核对。
