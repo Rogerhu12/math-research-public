@@ -1,0 +1,15 @@
+{
+  "schema": "isp-publication-workflow-name-dispatch-correction-v1",
+  "run_id": 46114350961,
+  "job_id": 140884691417,
+  "published_commit": "3e4825576cd8655ca2322ce66275bb7d4e424fc2",
+  "source_commit": "6e68aeb5d7b13b514d09743253d620123718ef6c",
+  "actual_main_publication": "success",
+  "actual_dispatch": "blocked before request by existing lowercase-only workflow name guard",
+  "actual_math_execution": false,
+  "original_workflow": ".github/workflows/invariant-subspace-8542-Phi-Bzero-whole-I6.yml",
+  "replacement_workflow": ".github/workflows/invariant-subspace-8542-phi-bzero-whole-i6.yml",
+  "authorization_guard_unchanged": true,
+  "source_math_unchanged": true,
+  "first_math_execution_pending": true
+}
