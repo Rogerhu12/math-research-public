@@ -1641,3 +1641,128 @@ maker步骤真实returncode=0，总6.160448841999994秒，实际source bce727d65
   }
 ]
 ```
+
+## 2026-11-28 05:06:02 UTC — 21后续试点明确拒绝与当前未接受边界
+
+当前仍初7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，accepted0、Phi3233.3855489912225/Gram.6568825757487662/reachg2.541916739245917。最近完整试点8c47274588ccb451e87b94eea597e306c7edd6522942ee58a6a15d237e8189fa已明确rejected，Phi3233.3855487592577/Gram.6568825759112367/reachg2.5419160522649626；不补中间未取得的379965完整几何，也不猜本次是第几方向。359c4ea91000df4cfdc45f6b3f6004e86f7bf19cd63049199b789760194a32e6于04:55:16.244719刚开始，统计/几何/接受均未知。
+
+完整原观察含实际source/PID/driver/model/target/initial/current/trial、全部六物理族、原normal进度和每一观察错误如下。工作几何complete仅指该有限步骤；没有whole准确界或README完成。完整全量report与child自然返回仍未观察。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-meridian-batched-bfiveeighths-first-20261127",
+  "scientific_source_commit": "00102534c51acf39f0e6f27bc34d37db3bebd6ec",
+  "scientific_source_sha256": "f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506",
+  "pid": 3644,
+  "observations": {
+    "fixed-fejer-meridian-batched-bfiveeighths-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 04:59:06 UTC",
+      "point": "359c4ea91000df4cfdc45f6b3f6004e86f7bf19cd63049199b789760194a32e6",
+      "cached_angle_roots": 264,
+      "closure_original_returns": 182036,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T04:55:16.244719+00:00",
+      "math_event": "trial-start",
+      "math_driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+      "math_model": "9387a145b382e2afc2eaca4f68f7370b91697008e0720e1d8202d22bf878fd63",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 3233.3855489912225,
+      "initial_Gram": 0.6568825757487662,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 2.541916739245917,
+      "initial_geometry_complete": true,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 3233.3855489912225,
+      "current_Gram": 0.6568825757487662,
+      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_violation": 2.541916739245917,
+      "current_geometry_complete": true,
+      "current_state": "initial statistics returned; no accepted direction",
+      "trial_point": "359c4ea91000df4cfdc45f6b3f6004e86f7bf19cd63049199b789760194a32e6",
+      "trial_accepted": null,
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 2.541916739245917,
+      "current_g_body_diameter": -0.036200119916736107,
+      "current_g_distance_plus": -0.05389631415885021,
+      "current_g_distance_minus": -3.0936337267043594,
+      "current_g_cap_diameter": -0.06715131487906445,
+      "current_g_height_floor": -1.0411715967426867,
+      "previous_completed_trial_point": "8c47274588ccb451e87b94eea597e306c7edd6522942ee58a6a15d237e8189fa",
+      "previous_completed_trial_g": 2.5419160522649626,
+      "previous_completed_trial_accepted": false,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 3233.3855487592577,
+      "previous_completed_trial_Gram": 0.6568825759112367
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-normal-evaluation-progress.json",
+      "bytes": 3392,
+      "sha256": "bbae480b93f8b088e789c12777e7c43c7bfb5f65742262615a5e137f62f2881f",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "bytes": 10174,
+      "sha256": "ea38f6cc4b1d195b926a0f4616379b55db0299787036796dc64136e7f3d8c10b",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "47675c52ad2ca0687b1875dd39a4374161584f3539db7e40ff59fee3ba15f6ca",
+  "observed_utc": "2026-11-28T04:59:08Z"
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1.md",
+    "bytes": 58231,
+    "sha256": "5b98f98ee5c92d3f2f739ea6e549338fb6b34fc2f778bd9da0b67f7e0366e732",
+    "git_blob_sha": "f1479b686dbf778b91dc7b34f6eb90394e5fa0cf",
+    "fixed_commit": "7e0683e820718743a3a62cc475bc465eb60f36e7",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

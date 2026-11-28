@@ -578,3 +578,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:05:57 UTC — 25第三个恢复步实际接受及曲率位置
 
 25 e147626真实accepted3，Phi681.6470516175361/Gram.40616529581758637/reachg.5235597907246015/distplus.11392305204890485；K12.270228137176547/cell885/u.9662347571015759/phiπ/2/branch1，s=null。 全源身份/六族/原观察空字段错误保；尚非完整report。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`01116d34844625633f2c51524abd23ddbced382d`无变（非pull）。
+
+## 2026-11-28 05:06:02 UTC — 21后续试点明确拒绝与当前未接受边界
+
+21仍初7e06/accepted0/g2.541916739245917；最近8c472明确拒，Phi3233.3855487592577/Gram.6568825759112367/g2.5419160522649626。359c4刚开始；中间未观察几何不补、方向号不猜。 全源身份/六族/原观察空字段错误保；尚非完整report。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`a9219e112eea84e227dfb9faa908152d8941ec17`无变（非pull）。
