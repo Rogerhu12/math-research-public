@@ -75,6 +75,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。
 
+[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付原任意有限分歧L及所有坏u的rational半稳定associatedness。Lang唯一规约Φ=diag(p⁻²,p⁻¹,1)σ、Lie N=(vp u,vp(1−u),0)，但N²和有序半平方保留；全部局部Heis torsor均半稳定。Vologodsky已刊Th43/44的实际Bst中间箭头及其对偶先给原fiber比较，同一whole path与good基点2刚化锁G_st=(logu,log(1−u),−Li2u)；坏点不冒crystalline BK log。实际f(T)的log PD包及T↦Tp保全部carry，不令OL含假场Frob。原finiteEp moment权尚不能任选TpE提升；raw→43格的整map、finite Cor/root gauge和全部PD/monodromy加权相消仍须实际构造，F0/z12未付。
+
 ## O1：原两 jet 的实际临界非零
 
 完整已付来源/公式/run见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)及其归档链，禁止重算窗口。

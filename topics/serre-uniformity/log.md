@@ -155,3 +155,8 @@
 ### 2026-11-28 12:39 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1154 §16付原四权重的唯一多项式逆、全Sym²/³ forcing、m2与m3完整值；同Legendre无穷分支严格消无权q项，joint保固定3/8 Bernoulli系数及全低jet余项。root独核δP/residue/kernel、次数/奇偶/adjoint和真实cutoff，o1核核心同构；完成即推。
 - §§1–15完整保留；未除未知D2、未重提旧Cν(Qν)无条件零，实际joint不相容继续，无数学执行。
+
+
+### 2026-11-28 12:46 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1155 §15付原任意分歧坏点primitive的rational半稳定比较及实际Hodge中央值。root亲读Vologodsky已刊来源/作者全文与CF严格扩张，核Lang/N、Bst实际双箭头、whole path刚化；global完成原PD接口说明，完整即推。
+- H前态逐字归档；finite Ep权至43格整比较、实际加权monodromy/PD相消和F0继续，未把rational结果当指定格，未假OL场Frobenius，无数学程序执行。

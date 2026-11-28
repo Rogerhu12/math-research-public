@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：26a0d771019b4b15888b8c6ac94a2e387fcedfad**（2026-11-28 12:39 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：79c18d905e0b6ba2120c12706c5ad450d8be06e3**（2026-11-28 12:46 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:04:54 Asia/Taipei，Actions run46105825986/job140858219823，blob:none浅clone后真实pull --rebase至18cf41b7；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:54、pull≤13:04。本地12:04仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-quadric-Cartier-continuation.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-ramified-primitive-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -22,7 +22,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1148–53](results.md)原cusp/全global基、relative Hodge/log Frob和finiteFL减法均保于[open](open.md)及逐字前态：Ccyc=exp(9^(224·9⁴))，大Chebotarev affine真实存在，不代空集。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)给r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25；真障碍rs h−zab，七退化支全保。Gaussian/cubic最高同源组合、U/U²实际Miller/FL尺度、β底参数和所有nilpotents沿原文；两β都坏不外推η★=1，首数字0不代whole盘，F0中央与全深盘仍开。
 
-[R1155 §§1–14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK、强modpO_L有限dilog、S3及同五配置carry全付，Cor/ordered乘积与nilpotents不删。原Gaussian单primitive两个实际jet单位组合见open；不代weighted F0。§12共同形式ψ保ε0，§13浅退化κ≤1/3的Eulerian/Taylor首p项与全尾已付，任意深near0须实际v=u^p(1+pα)。exact Coleman S/J支付坏域，非整坐标必须提精度再群乘；分歧fibres不当同点FL。§14全部CM形式参数共享ψ，四corner整矩阵及N<p jet已明；常数carry/五项保留。ψ不保Ep理想，PD归一可留单位，原moment/FL及F0继续。
+[R1155 §§1–15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK、强modpO_L有限dilog、S3和同五配置carry齐备。§11–14同原Gaussian单primitive单位jet、全部CM共享形式ψ、坏参数首p修正/全尾及整四corner公式均沿open，非整乘积须提精度。ψ不保Ep理想，PD强可除归一可留单位。
+
+§15现付所有有限分歧L、全部原坏点raw D的rational半稳定比较：Lang规约Lie Nh0仍保N²/半平方，同一whole path经Vologodsky实际Bst对偶箭头与Hodge刚化给G=(logu,log1u,−Li2u)。原Eisenstein f(T)的PD包保全部法向carry，非OL场σ；finite Ep权/43格整比较及原F0继续。
 
 [R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
 

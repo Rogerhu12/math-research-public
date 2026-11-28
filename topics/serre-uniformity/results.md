@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原含分歧坏点的半稳定primitive比较（已证明）**：[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)全部原raw根塔的rational半稳定性、Bst实际对偶比较与同一路径Hodge规范已付，中央仍为原−Li2。保Lie N之外的N²、有序项与真实PD法向carry；finite Ep加权到原43整格的接口继续。
+
 - **原weighted moments的唯一多项式余项（已证明）**：[R1154 §16](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)实际Sym¹/²/³算子和有理留数自证三个同构，全部原权重归到四个唯一低jet；同Legendre无穷分支只消无权cubic的Fermat项。原joint的Bernoulli系数固定为3/8，不需除D2，其完整余项仍保，未宣非零。
 
 - **原加权Legendre的射影坐标与有限Ramanujan系统（已证明）**：[R1154 §15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原P/V给实际留数Jacobian与三函数封闭系统，首p强迫6a²完整保留；原四moments成为E6、E4²、同E4E6的指定相邻系数。最高强迫unit不替代原minor，实际共同零继续。

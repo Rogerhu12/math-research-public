@@ -1760,3 +1760,341 @@ $$
 没有数学程序执行。
 
 独立纸核：o2_high_coefficient 核准 (1155.83)–(1155.85) 的全部常数、积分号、$S/J$ 中央补项与 $N<p$ 的范围；原 $E[p]$ 比较没有作为本节输入。
+
+
+## 15. 原含分歧坏点的半稳定比较与同一路径规范
+
+本节解除 §2 对**原 rational primitive 的指定 Hodge 读数**
+所保留的未分歧点限制。这里仍取 $p>37$，
+$L/\mathbb Q_p$ 为任意有限扩张，$L_0$ 为其最大未分歧子域，
+并令 $u\in L\setminus\{0,1\}$。
+不要求 $u$ 或 $1-u$ 为整数单位。
+
+**已证明：** §1 的同一原整根塔 $\mathscr D_u$ 张量到
+$\mathbb Q_p$ 后为半稳定 torsor。它与三穿孔直线上的原
+logarithmic KZ object 具有保持 $\varphi,N$、连接和滤过的
+实际 period 比较；采用原 $\log_p p=0$ 与原切向根规范时，
+其 semistable Hodge 坐标仍为
+$$
+G_{\rm st}(u)=
+ \mathcal H\bigl(\log_pu,\log_p(1-u),-\operatorname{Li}_2^p(u)\bigr).
+\tag{1155.88}
+$$
+若两个一次 Kummer classes 都是单位类，这也将 (1155.7)
+扩到含分歧的良好单位点。
+在坏点，(1155.88) 称为半稳定 Hodge 坐标；
+不把它称作 crystalline Bloch–Kato logarithm。
+
+这个结论是对原路径对象的比较，不只说存在某个与它同维的
+半稳定表示。它也没有把下面的 rational 比较自动提升为
+原有限 $E[p]$ moment 到四十三维 Fontaine–Laffaille 格的比较。
+
+### 15.1. 全部局部三维 Heisenberg torsor 的分类
+
+先固定同一 Tate generator 与 ordered 群律 (1155.1)。
+在这个规范下，
+$$
+H^1_{\rm st}(L,\mathcal H_{\mathbb Q_p})
+ =H^1(L,\mathcal H_{\mathbb Q_p}),
+\qquad
+H^1(L,\mathcal H_{\mathbb Q_p})
+ \simeq\mathbb Q_p^2\times L^3
+\tag{1155.89}
+$$
+是 pointed sets 的分类。最后的坐标依赖以下明确的
+Frobenius/Hodge 规约；它本身不是某个函数的 dilogarithm 公式。
+
+在忠实的三维表示中，graded Tate pieces 按
+$\mathbb Q_p(2),\mathbb Q_p(1),\mathbb Q_p$ 排列。
+逐中心解 Lang 方程可唯一消去 Frobenius 的三个上三角项，
+因为 $1-p^{-j}\sigma$ 在 $L_0$ 上可逆，$j=1,2$。
+于是可以且只可以取
+$$
+\Phi=\operatorname{diag}(p^{-2},p^{-1},1)\sigma,\qquad
+N=n_aE_{12}+n_bE_{23},\qquad n_a,n_b\in\mathbb Q_p .
+\tag{1155.90}
+$$
+确实，$N\Phi=p\Phi N$ 使两个一次系数为 $\sigma$-不变量；
+中央 Lie 系数满足 $\sigma(n_h)=pn_h$，
+迭代 $[L_0:\mathbb Q_p]$ 次后迫 $n_h=0$。
+
+这里消失的只是 **Lie 的中央 $N$ 分量**。在同一表示中仍有
+$$
+N^2=n_an_bE_{13},\qquad
+\exp(tN)=
+\mathcal H(tn_a,tn_b,t^2n_an_b/2).
+\tag{1155.91}
+$$
+所以不能把中央 monodromy 的全部矩阵贡献删掉。
+例如在 $u$ 的极点盘，两个 Kummer valuation 都可能非零。
+
+在 (1155.90) 的固定 Frobenius frame 中，任何
+$\mathcal H(L)$ 点都给一个与原 weight filtration 严格相容、
+graded 为上述三个 Tate filtration 的 Hodge filtration。
+这是两个**严格 filtered extensions**，两端为弱可容许
+Tate objects。Colmez–Fontaine Proposition 3.4 说明弱可容许
+对象对这种扩张封闭，Theorem A 再给实际半稳定表示。
+不能只核总空间的 $t_H=t_N$ 而省去子对象的不等式。
+由于 $F^0\mathcal H=1$，这份 Hodge filtration 恰有三个
+$L$ 坐标；Lang 规约后没有尚可任意移动的 Frobenius gauge。
+
+这构造出了每个 Kummer pair 的半稳定 lift：
+两个一次槽由 valuation 与 logarithm 分别分类。
+另一方面，
+$$
+H^2(L,\mathbb Q_p(2))=0,\qquad
+H^1(L,\mathbb Q_p(2))
+ =H_f^1(L,\mathbb Q_p(2))\simeq L .
+$$
+前式由 local duality 与
+$H^0(L,\mathbb Q_p(-1))=0$；
+后式由同一 duality、Euler characteristic 和
+Bloch–Kato exponential 得到。
+又 $H^0(L,\mathbb Q_p(1)^2)=0$，
+所以同一 abelian quotient 的 lifts 是该中央 $H^1$ 的
+自由齐性空间。任何 lift 与上面构造的半稳定 lift 的差
+因此都是 crystalline。中央 twisting 保持半稳定性，
+给 (1155.89) 的全称结论。
+
+在 Fontaine 的
+$N(\log[\widetilde p])=-1$ 规范下，
+一次 Kummer class $\kappa(v)$ 的 $N$ 系数为 $v_p(v)$。
+可直接在它的二阶扩张中取
+$e_0-\log[\widetilde v]\,e_1/t_{\rm cyc}$ 核出这个正号。
+因此对 $\mathscr D_u$，
+$(n_a,n_b)=(v_p(u),v_p(1-u))$。
+采用以 uniformizer 为基的 log-crystal 记号时，
+必须同时作 ramification-index 的 $N$ 归一；
+不把 $v_L(\pi)=1$ 与 $v_p(p)=1$ 混用。
+
+分类证明只保证半稳定性及规范参数的数目。
+(1155.88) 的**实际中央值**由以下同一 variation 的比较支付，
+不从 (1155.89) 的维数推出来。
+
+### 15.2. 已刊比较定理确实允许点所在域分歧
+
+令
+$$
+\overline Y=\mathbb P^1_{\mathbb Z_p},\qquad
+D=\{0,1,\infty\},\qquad Y=\overline Y-D .
+$$
+这是在未分歧底上的 smooth proper pair，且 $D$ 是相对
+normal-crossing divisor。
+本节所有分歧发生在取点 $u\in Y(L)$ 时；
+不要求 $\mathcal O_L$ 本身成为未分歧底。
+
+使用 Vologodsky 已刊论文的以下实际构造。
+精确编号按其作者全文给出：
+
+- §§10–11、Theorem 42 给这个 pair 上 Faltings 的
+  filtered log $F$-crystal 到原 étale sheaf 的 exact、
+  tensor-compatible fully faithful functor。
+- Theorems 46–47、50 将 level $r$ 的 fundamental variation
+  认成同一 étale path variation，范围
+  $r\le(p-1)/2$。
+- **Theorem 43 的点是任意有限扩张上的**
+  $x:\operatorname{Spec}L\to Y_{\mathbb Q_p}$。
+  它没有要求 $x$ 约化到 $Y$ 的内部，也没有要求 $L$ 未分歧。
+- 该证明所用的 Theorem 44 先把 log-crystalline sections
+  放进
+  $\Psi^{\rm un}(x^*\mathcal E)\otimes B_{\rm st}$，
+  并保持 Frobenius 及总 monodromy；随后才进入 $B_{\rm dR}$。
+
+此处的标准 class-two path object 是 level three。
+它的三维表示具有 Hodge 幅二；其对偶及所需的 tensor/evaluation
+幅至多四。所有上述限制在 $p>37$ 时同时满足。
+不需要在有坏约化的 full $p$-level 模型上直接套这个定理：
+所用的 universal pair 始终是上面的三穿孔直线。
+
+为明确这里不只得到一个 $B_{\rm dR}$ 同构，
+记 Theorem 43 证明中的实际中间箭头为
+$$
+\alpha_{\mathcal E}:
+ V_x\otimes_{\mathbb Q_p}B_{\rm st}
+ \longrightarrow
+ \Psi^{\rm un}(x^*\mathcal E)\otimes_{L_0}B_{\rm st}.
+\tag{1155.92}
+$$
+对 $\mathcal E^\vee$ 同样有一个已经在 $B_{\rm st}$ 中定义的箭头。
+两者与 evaluation/coevaluation 相容。
+它们在 $B_{\rm dR}$ 中给同一定理的对偶同构，
+故
+$$
+\alpha_{\mathcal E^\vee}^{\,\vee}\alpha_{\mathcal E}=1,
+\qquad
+\alpha_{\mathcal E}\alpha_{\mathcal E^\vee}^{\,\vee}=1
+\tag{1155.93}
+$$
+先在 $B_{\rm dR}$ 中成立。
+由 $B_{\rm st}\hookrightarrow B_{\rm dR}$ 单射，
+(1155.93) 已在 $B_{\rm st}$ 中成立。
+有限自由两端遂得实际的 $B_{\rm st}$ 同构。
+这没有使用错误的命题
+“一个矩阵在 $B_{\rm dR}$ 可逆，所以它的 $B_{\rm st}$ 行列式是单位”。
+
+(1155.92) 的来源是同一个 log-crystalline pullback，
+故保持 $\varphi$、总 $N$ 与 Galois 作用。
+它的 $B_{\rm dR}$ 扩张保持滤过：
+原 functor 按 $F^0\cap\varphi=1$ 构造，
+Tate twists 给各个 filtration degree；
+同一对偶 construction 给逆映射的过滤相容性，
+因而比较严格保持原滤过。
+对 families，连接由 crystal 的 pullback/Taylor
+同构保持，不从一个孤立 fibre 的弱比较猜出连接。
+
+### 15.3. 原根塔与 whole path variation 的同一性
+
+本篇 §1 消费的是 R1133 §11 的**整个** pointed class-two
+path/root 认同，不是仅在一个数值点上选同构：
+原 $\alpha,\beta,\Gamma$ 的函数根及其全部相容 $p^r$ 层，
+将两个一次路径生成元送到原 $\sigma,\tau$，
+将交换子送到同一个 $\nu$；
+(1155.3)–(1155.5) 又固定了算术作用和 ordered 中央的号。
+因此这个认同同时 intertwines 实际几何 monodromy、
+Galois 作用和同一 Tate generator。
+
+可以用 $2\in Y(\mathbb Z_p)$ 作内部基点应用上节的
+fundamental-variation 定理。
+原切向点到 $2$ 的比较已由 §1–2 固定；
+随后与同一 path variation 的 $2\to u$ 比较复合。
+这里在 $2$ 处的刚化只固定**已经存在的 whole-variation
+认同**的常数，不声称任意一个 fibre 的同构都会延伸。
+
+Vologodsky 的 good-pair 构造在 Frobenius-fixed path 上
+与 Coleman 的原平行运输一致；
+其 §§1.19–1.21、§4 的唯一 Frobenius-fixed path
+及 §12 的比较使用同一个 log crystal。
+采用原 $\log_p p=0$ 分支后，令 $p_{\rm Hdg}$ 为唯一 Hodge
+点、$p_\varphi$ 为唯一 Frobenius-fixed 点，便有
+$$
+p_\varphi=p_{\rm Hdg}\,G_{\rm st}(u).
+\tag{1155.94}
+$$
+按 §1 已固定的方向，同一 KZ 方程给
+$$
+da=\frac{du}{u},\qquad
+db=\frac{du}{u-1},\qquad
+dh=b\,da .
+$$
+由原切向 leading 和在 $2$ 处的同一常数，
+三个解正是
+$\log_pu,\log_p(1-u),-\operatorname{Li}_2^p(u)$。
+它们作为 Coleman functions 沿同一 Frobenius continuation
+到达所有 $u\in Y(L)$。
+这证明 (1155.88)，没有在每个坏盘重新添加一个中央常数。
+
+在坏点，$p_\varphi$ 一般不被 $N$ 固定。
+(1155.91) 的有序二次项因此仍在同一对象内。
+当 $v_p(u)=v_p(1-u)=0$ 时，(1155.90) 给 $N=0$，
+(1155.94) 就是原 crystalline 情形，
+所以得到含分歧良好单位的准确 rational Bloch–Kato 读数。
+本节不是把 Sakugawa Proposition 5.6 的未分歧前提直接删除，
+而是用上述另外的已刊 log comparison 支付新增范围。
+
+### 15.4. 实际 log pullback 保留法向的 divided-power 贡献
+
+因为 $\overline Y$ proper，任何 $u\in Y(L)$ 都延伸为
+$\operatorname{Spec}\mathcal O_L\to\overline Y$。
+给 $\operatorname{Spec}\mathcal O_L$ 取由其闭点定义的 log
+结构后，这是原 pair 的 log morphism。
+即使 $u$ 约化到 $0,1,\infty$，原 log crystal 仍可实际拉回。
+
+这一步怎样携带 Frobenius 也有显式来源。
+取 $\pi\in\mathcal O_L$ 及其在 $\mathcal O_{L_0}$ 上的
+Eisenstein polynomial $f(T)$。
+Vologodsky §3.9 在
+$$
+\mathcal O_{L_0}[T]\bigl[f(T)^r/r!:r\ge1\bigr]^{\wedge}_p,
+\qquad T\longmapsto T^p
+\tag{1155.95}
+$$
+的 logarithmic PD realization 上构造
+$\Psi^{\rm un}$，再取 $T=\pi$ 的 de Rham fibre。
+Lemma 14 与 Theorem 15 保证该 rational tensor construction
+不依赖临时 uniformizer。
+其 log-period 中的 $N$ 要按 §15.1 的同一 Fontaine
+规范换算；本节不改原 Tate generator。
+
+所以 (1155.92) 是实际
+$(\varphi,N)$ object 与原 étale fibre 的比较，
+不是在 $\mathcal O_L$ 上制造一个不存在的 canonical
+field Frobenius。
+尤其，先取 $T=\pi$ 再天真地令 $\pi\mapsto\pi^p$，
+不是 (1155.95) 的替代做法。
+
+(1155.95) 恰保留
+$f(T)^r/r!$ 及其 Frobenius 像。
+因此本节并不删除 (1155.87) 的法向 carry：
+含一个 $p$ 的定义理想误差，仍可能在强可除归一后留下单位。
+原 $R_\psi(u)$ 的 formal formula 与本节比较属于同一个
+rational path object；要将它变为特定算术 fibre 上的
+Frobenius 矩阵，仍须实施这个 log pullback/period 运输。
+不得把 $u^p\to u$ 的矩阵直接改名为同点 Frobenius。
+
+### 15.5. 对原全部四线 primitive 的后果和剩余整接口
+
+R1157 §12 的全参数表保证所有实际 primitive 都满足
+$u\ne0,1,\infty$，并给出坏盘的精确阶和 leading 单位。
+它们可能所在的分歧域、坏参数和 rank-one 点对
+都在本节的范围内。因此每个**原函数根塔**
+已有同源的 rational semistable KZ realization；
+§13 的实际两输入运输、§14 的共同形式 $\psi$
+可以在这一原对象中使用。
+
+还须分开以下下一步：
+
+1. R1158 的模 $p$ moment pushout 使用有限
+   $E[p]$ 标记及其原权。把这些权随意提升到 $\mathbb Z_p$，
+   并不自动给 $T_pE$ 上的 Galois-equivariant
+   rational group morphism。
+2. 若做原 finite transfer、root gauge 或改变四线 filling，
+   必须继续保同一根、实际陪集和有序中央修正。
+   (1155.92) 的张量自然性允许消费已经给出的这些态射，
+   不能替代尚未构造的态射。
+3. 已知 rational associatedness 不决定某个指定
+   Galois-stable $\mathbb Z_p$ 格。
+   从这些 raw Tate objects 到 R1147–50 的四十三格，
+   仍须原相容 moment/整比较或等价的实际 lattice 识别。
+   本节没有对分歧域使用 Fontaine–Laffaille，
+   没有约掉 (1155.95) 的 PD 方向。
+4. 原目标在真正比较后满足 $N=0$，
+   不意味着每个 raw primitive 的 $N$ 或
+   (1155.91) 的有序项分别为零。
+   必须在完整群态射及所有加权项中完成相消。
+
+因而本节闭合的是“实际坏含分歧 primitive 的 rational
+associatedness 和中央 Hodge 常数”这一门。
+原 $F_0$ 的 $z_{12}$ 及 global subtraction 的非零性
+没有作为结论写入。
+
+### 本节 primary 定位
+
+- V. Vologodsky，*Hodge structure on the fundamental group and its
+  application to $p$-adic integration*，Mosc. Math. J. **3** (2003),
+  205–247，
+  [期刊记录及 DOI](https://www.mathnet.ru/eng/mmj83)，
+  [作者全文](https://arxiv.org/pdf/math/0108109)。
+  本节亲读并使用作者全文 §3.9 / Lemma 14 / Theorem 15
+  （PDF 第 13–14 页），§§10–12 / Theorems 42–44
+  （PDF 第 32–35 页），§§13–16 / Theorems 46–47、50
+  及 Corollary 51（PDF 第 36–40 页），
+  以及 §§1.19–1.21、§4 的 good-pair path。
+  作者全文的 theorem 编号在这里明确标注；
+  期刊 DOI 为 10.17323/1609-4514-2003-3-1-205-247。
+  未使用其 §1.10 所述、但该文没有证明的
+  “任意 generic-fibre morphism”扩张版自然性；
+  本节 universal pair、basepoint、crystal pullback 与
+  tensor operations 都是上述构造本身的态射。
+- P. Colmez–J.-M. Fontaine，*Construction des représentations
+  $p$-adiques semi-stables*，Invent. Math. **140** (2000), 1–43，
+  DOI 10.1007/s002220000042，
+  [作者全文](https://webusers.imj-prg.fr/~pierre.colmez/CF.pdf)。
+  使用 Theorem A、§3.4 Proposition 3.4 的严格扩张，
+  及 §4.1 的 admissible comparison。
+- 原切向路径、KZ 号和全部根尺度仍逐字消费本篇 §1–4
+  的 Nakamura–Wojtkowiak、Furusho、Sakugawa 来源；
+  本节不改那些规范。
+
+本节全部为纸面证明，无数学程序执行。
+
+root 亲读 Vologodsky 作者全文 §3.9、Theorems 15/42–44/50、Corollary 51 及已刊记录，并亲读 Colmez–Fontaine Proposition 3.4 / Theorem A。逐项核 Lang 规约、严格扩张、N²/有序半平方、Bst 中的两个实际对偶箭头与原 whole path 刚化；原 finite moment/四十三格与 PD carries 仍保持所列边界。无数学程序执行。
