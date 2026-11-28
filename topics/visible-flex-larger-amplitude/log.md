@@ -172,3 +172,9 @@ ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691
 ## 2026-11-28 00:44:52 UTC — 21首观测试点统计真实返回，六族几何待返
 
 21首df8d真实统计返Phi3233.3855388300776/Gram.6568825814651759；trial geometry/alpha/决定未知，current仍7e06/accepted0/原六g。00:40reset后据main恢复已成功17/18提交，只补本条，所有已锁新源参从whole blobs恢复，无科学重跑。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`f81da9c60b476c341fc235f64744832cb131a7b1`无变（非pull）。
+
+## 2026-11-28 00:45:34 UTC — 22半波半宽完整六参数件刊出
+
+22六件279148B，完整科学157/纯7 argv、458/445formal、48live与原19全部数值/预算/原5peer CLI保；137roles/18runtime/20新源、17对改120对同。全外部9peer保真实原来源/未知；两个大历史对象仅exact whole父+JSON pointer共享，不删字段。源码/参数再生器不入运行前门。初队列63721B、两全input+整science；全science+pure110351>95k，真自然返回后接整pure；仍无实际22场。
+
+完整6件共279148B；双README云核至`30f10282d7d1812f202b9dcd5f4a6221b78b1c4b`无变（非pull），实际controller真pull见H各槽。

@@ -113,7 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)同g只width1/2→5/8；官方46084442413/1、job140790598810，两input0；science001025/f600/PID3644/model9387/初7e06，Phi3233.3855489912225/Gram.6568825757487662；初真reach2.541916739245917、其余五族负，accepted0/reportfalse；首df8d统计返、几何未知。比19reach更差、distplus转负，完整[宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保全部未知排序。
 
-22准备以完整19半宽/δ1/32/两μ.01只换[R724成对半波](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)：同准确跨段均值/两角根、中央|T_s|减半，完整位置/两角jet账已证；不推wholeK/D/Gram。[新20完整源](computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json)及137角色当前绑定/18runtime/3全字再生器已刊；17当前pairs替换、120原样，实际22run/模型/点/几何仍未知。外层原whole-cell Gauss/partial规则未变，参考缺陷和准确全部费用新付。
+22准备以完整19半宽/δ1/32/两μ.01只换[R724成对半波](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)：同准确跨段均值/两角根、中央|T_s|减半，完整位置/两角jet账已证；不推wholeK/D/Gram。[新20完整源](computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json)及137角色当前绑定/18runtime/3全字再生器已刊；17当前pairs替换、120原样，[6完整参数件](computations/fixed-fejer-paired-halfwave-bhalf-complete-parameter-delivery.json)已刊，实际22run/模型/点/几何仍未知。外层原whole-cell Gauss/partial规则未变，参考缺陷和准确全部费用新付。
 
 19–21完整normal/geometry/closed/R718/R716/mesh后参及R723独立源参全已刊，精确路径/完整whole records保旧完整open/H。R723方向支撑/全平行面排序已证，真实支撑/曲率未付，五新角色不冒旧八角色通过。R718要标记面σ；R716要无标记管、正V、非零中心不变量才给含反射δE。全五t/三级空间/频率/时间完整mesh须同g同参数实跑。
 
