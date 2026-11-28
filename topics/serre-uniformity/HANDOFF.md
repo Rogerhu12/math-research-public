@@ -10,7 +10,7 @@
 
 终端16:22 UTC恢复并完成两次真实推送，17:10 UTC前再次报exec-server缺失；暂沿既有公开Actions真实部分克隆/pull/rebase/push。旧b0417d0保在原本地main，续接分支不重演已推内容。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-critical-PS-operator.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-actual-PS-Cartier-return.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -50,15 +50,11 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E全裂；全部primitive槽整分裂，u=[F0:E]时Lie/Tate维2u/4u。同β和原有理Abel首向量逐嵌入横截，未给单位。
 
-[R1193/R1195](results.md)原最高r=m为τ_m+PS_(m−1)整packet；负首中心η=T_L db/(uA_p)，T_L∈k[b³],deg<m−1，全部原λ/ρ/κ保留。完整有限角为各奇r的模p同余对乘积，另保二次St；pure型拼接恰im(U_r modp)、U_r=p e_cusp,r e_N，不能把packet单位传C。
+[R1193–1201](results.md)原最高r=m整packet=τ_m+PS_(m−1)；原首中心η=T_L db/(uA)、T_L∈k[b³]，全部κ/θ/ρ/framing/CM节点及有限log尾已付。CM完整旗标秩n=2g−1、核T*=−r^n；其三CM支含node/flux首贡献全零，同P值为全SS和。R1200原Cartier–Weil锁τ=B²、C²=γ²/B^(2p)、统一ν；R1201准确V_m(T*)=32m c₀ν/binom(m,n)²为单位。全simple极部保留，逐点消失路线已否，不扩扫；全部原式/运行沿逐字前态及原文。
 
-[R1196–1200](results.md)原m次Čech有限log、全部generic normal/交叉收缩、完整CM旗标和核T*=−r^(2g−1)已付；核的CM/node/flux首贡献全零，完整同P值为全SS和。原Cartier–Weil/relative F锁τ=B²、C²=γ²/B^(2p)及统一ν；全部κ/θ/ρ/reference阶乘沿原文和最新逐字前态保全。逐点simple零路线已由唯一新有限run否定，不扩扫；全和由R1201全称支付。
+[R1202–1203](results.md)原每个负deck最高权实际整Ω有UΩ∈pΛ，故qΓ整分裂；同底lift差π^(e0−p)Ψ仍可经π^−pU返回。全normal/临界jet/centre排除已付；PS临界模Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]，Frobenius交换与全部群和常数已核。不能先定义lift独立A(L)，指定C两列及whole MW仍开。
 
-[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
-
-[R1202](results/R1202-original-highest-character-cuspidal-projection-integrality.md)原每个实际负deck、最高权整Ω满足U_mΩ∈pΛ，故qΩ整且同惯性W格Γ由q整分裂。原M_N全部0≤N≤p的Ubar消去已付，临界两份W由极化jet的实际直和处理，中心π^(e0−p)返回由全SS节点排掉。仍须保实际Ω：同底lift差π^(e0−p)Ψ_high经q可返回π^−pUΨ，不可先定义A(L)或将R1201单位传C。当前继续实际PS的n=p Frobenius/Cartier源及q后两列。
-
-[R1203](results/R1203-original-PS-critical-transvectant-and-cuspidal-operator.md)原临界有限模 M=Sym^(3p−1)det^(m−1) 上，Ubar=−iq₂/4；普通二阶transvectant不除2!，Frobenius回嵌i(H)=(X^pY−XY^p)²H。完整rank-one群和锁常数−1/4，原N固定基(F₀,F₁)的矩阵为[[1/4,1/8],[−1/2,−1/4]]，非零秩一且平方零。实际PS的n=p系数与此模的几何识别正在逐项读取，不以极阶/同型替来源；指定C两列及whole MW仍开。
+[R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ、λ∈{0,1}；实际特征零multiplicity仍须核，𝔠(T*)未宣单位，不将packet值传C/whole MW。
 
 ## 已成、禁止重做与其它入口
 
