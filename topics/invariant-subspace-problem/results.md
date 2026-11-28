@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：整b0原C2、同f完整Loww四次与首个七源权核142](results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md)：C2/Loww/首固定六阶原返回已成，cross整零恰三λf系数整零；实际180.072秒/−14冻结第二C2/Loww，无第二完成checkpoint，不补称排空或新界。
+
 - [R150：整个b0的23088完整规范Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)：由原权长度5772、首一χλ6有限环境、q2全系数单位组合和Nakayama得到λ全局两生成，f唯一及ρ二次后长度≤23088；全部幂零重数与最终物理局部化保留。未排空原支。
 
 - [R150：正确Phi整ell-half直接原z证书与20权覆盖](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-direct-original-z-and-20-weight-cover.md)：唯一首次0.938861547秒/0，raw20×18秩18，完整六乘子给一次C20z∈I6；QQ单一20次因子，至多20权对。整个C20值纤维保留，未给完整点数或整支排空。
