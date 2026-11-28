@@ -47,3 +47,299 @@ science+pure两步完整序列116887B，全四步125008B，均超过原95000B队
 同一半波准确N/G/R72317件及P/U/mesh18件的完整来源通用于参数化b，但每个新场都要自身稳定complete report/snapshot及whole来源绑定。22的参数ready不能直接充24目录；按新namespace写全步骤后仍须同runner实际完整输入。N续原outdir守原绝对源路径、G绑定同whole N版本，R723/mesh每次fresh；旧1782/新6047分支不混。normal.complete不代连续branch，meanJ不代Cu，工作Gauss误差仍未付。
 
 全目标继续是同固定g的闭连通C2嵌入族、全t强C2连续、固定有内点H与diamH>=.2D、整像held>=.2D、含反射unmarked E3差>0、全t reach>=.03D及全域relative metric<=1e-6；全固定参数空间/频率/时间精化、五t/15mesh与原全部帽/接缝/法管/矩不变量义务不变。只有真实全部完成才收尾。
+
+## 2026-11-28 02:09:48 UTC — 官方24实际启动
+
+官方run46096380016/1、workflow433333276、job140828543967，head431b54a096c89b81637a3634fd99a1dcda0cf487，created/run_started2026-11-28T02:05:58Z，updated02:06:01Z，status=in_progress、conclusion=null。checkout、Python与依赖步骤真实success，原完整研究步骤in_progress。这里只确认官方启动；当前24两输入、实际science/model/point/geometry/accepted/report仍待自己的完整返回，不能从22或23借用。
+
+第一次用workflow文件名查询的URL被GitHub连接器判INVALID_ARGUMENT，不是工作流或科学失败；改用本完整head的官方actions/runs查询实际返回此唯一run。源码与完整请求已在431b54a实际主线，先前一次ref接口UNKNOWN未造成重复启动：freshHEAD整合后普通推成功，未force。
+
+官方run完整对象：
+
+```json
+{
+  "id": 46096380016,
+  "name": "Visible larger amplitude paired half-wave five-eighths comparison 20261128 24",
+  "node_id": "WFR_kwLOVt5L2s8AAAAKu47wcA",
+  "head_branch": "main",
+  "head_sha": "431b54a096c89b81637a3634fd99a1dcda0cf487",
+  "path": ".github/workflows/visible-larger-20261128-parallel24.yml",
+  "display_title": "Launch complete same-source halfwave five-eighths comparison with all…",
+  "run_number": 1,
+  "event": "push",
+  "status": "in_progress",
+  "conclusion": null,
+  "workflow_id": 433333276,
+  "check_suite_id": 124704075946,
+  "check_suite_node_id": "CS_kwDOVt5L2s8AAAAdCPEwqg",
+  "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016",
+  "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46096380016",
+  "pull_requests": [],
+  "created_at": "2026-11-28T02:05:58Z",
+  "updated_at": "2026-11-28T02:06:01Z",
+  "actor": {
+    "login": "Rogerhu12",
+    "id": 199914264,
+    "node_id": "U_kgDOC-pzGA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rogerhu12",
+    "html_url": "https://github.com/Rogerhu12",
+    "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+    "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+    "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+    "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "run_attempt": 1,
+  "referenced_workflows": [],
+  "run_started_at": "2026-11-28T02:05:58Z",
+  "triggering_actor": {
+    "login": "Rogerhu12",
+    "id": 199914264,
+    "node_id": "U_kgDOC-pzGA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rogerhu12",
+    "html_url": "https://github.com/Rogerhu12",
+    "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+    "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+    "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+    "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/jobs",
+  "logs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/logs",
+  "check_suite_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124704075946",
+  "artifacts_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/artifacts",
+  "cancel_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/cancel",
+  "rerun_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/rerun",
+  "previous_attempt_url": null,
+  "workflow_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433333276",
+  "head_commit": {
+    "id": "431b54a096c89b81637a3634fd99a1dcda0cf487",
+    "tree_id": "8eff5d37d4c471333a57b0cfd6d4b921891c1e87",
+    "message": "Launch complete same-source halfwave five-eighths comparison with all original budgets",
+    "timestamp": "2026-11-28T02:05:54Z",
+    "author": {
+      "name": "Boyang Hu",
+      "email": "2538238358@qq.com"
+    },
+    "committer": {
+      "name": "Boyang Hu",
+      "email": "2538238358@qq.com"
+    }
+  },
+  "repository": {
+    "id": 1457408986,
+    "node_id": "R_kgDOVt5L2g",
+    "name": "math-research-public",
+    "full_name": "Rogerhu12/math-research-public",
+    "private": false,
+    "owner": {
+      "login": "Rogerhu12",
+      "id": 199914264,
+      "node_id": "U_kgDOC-pzGA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rogerhu12",
+      "html_url": "https://github.com/Rogerhu12",
+      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Rogerhu12/math-research-public",
+    "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
+    "fork": false,
+    "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
+    "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
+    "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
+    "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
+    "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
+    "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
+    "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
+    "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
+    "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
+    "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
+    "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
+    "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
+    "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
+    "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
+  },
+  "head_repository": {
+    "id": 1457408986,
+    "node_id": "R_kgDOVt5L2g",
+    "name": "math-research-public",
+    "full_name": "Rogerhu12/math-research-public",
+    "private": false,
+    "owner": {
+      "login": "Rogerhu12",
+      "id": 199914264,
+      "node_id": "U_kgDOC-pzGA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rogerhu12",
+      "html_url": "https://github.com/Rogerhu12",
+      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Rogerhu12/math-research-public",
+    "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
+    "fork": false,
+    "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
+    "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
+    "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
+    "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
+    "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
+    "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
+    "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
+    "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
+    "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
+    "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
+    "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
+    "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
+    "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
+    "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
+  }
+}
+```
+
+官方jobs完整对象：
+
+```json
+{
+  "jobs": [
+    {
+      "id": 140828543967,
+      "name": "Construct the same fixed target and solve the full half-wave width comparison",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_id": 46096380016,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "pending",
+          "conclusion": null,
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "pending",
+          "conclusion": null,
+          "number": 10
+        }
+      ]
+    }
+  ]
+}
+```

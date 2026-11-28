@@ -286,3 +286,7 @@ run46062343475/1与job140719355272实际completed/cancelled、updated02:05:35Z�
 ## 2026-11-28 02:09:43 UTC — 23初始统计实际返回，几何与策略结果尚未返回
 
 23初统计01:54:32.709861真实返回：9db39/model0abfbf/初7e06/Phi3825.0583894874153/Gram.6460503011117507/accepted0；02:02:24仍无geometry/六族/试步/策略结果，不从来源或同值推完成。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`e2435f397f929a412801580ea6d70f6e51df8602`无变（非pull）。
+
+## 2026-11-28 02:09:48 UTC — 24官方真实启动
+
+run46096380016/1/workflow433333276/job140828543967，head431b54a096c89b81637a3634fd99a1dcda0cf487，02:05:58Z启动/in_progress；checkout/setup/deps success、原研究步骤运行。两input/新science/model/point/geometry尚未实际读取。完整官方run/jobs保24note；无重复启动或force。双README云核至`9c8676019bc37ae59d4a3719c8ac12de8f2643f2`无变（非pull）。

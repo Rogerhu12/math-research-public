@@ -133,7 +133,7 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 
 [同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)要同runner complete report/13final/全typed史；progress/accepted/packet不足，CLI不继承末μ。原136+4词/模式/peer/预算及全部P0/G/typed未知失败保原链。
 
-[24半波b5/8全启动](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)11件393872B已刊，沿22原137/18源，仅argv113宽度1/2→5/8；δ/g/全预算保。初队列72996B，science+pure116887B/四步125008B>95000，原pure整步待自然返接入。端层4/5与中央3λnew/(2λ22)竞争，非必然改善；完整选择与符号边界保原note。实际24run/场待读。
+[24半波b5/8全启动](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)11件393872B已刊，沿22原137/18源，仅argv113宽度1/2→5/8；δ/g/全预算保。初队列72996B，science+pure116887B/四步125008B>95000，原pure整步待自然返接入。端层4/5与中央3λnew/(2λ22)竞争，非必然改善；完整选择与符号边界保原note。官方24=46096380016/1、02:05:58Z/head431b54a，输入/场待返。
 
 ### 容量和继续标准
 

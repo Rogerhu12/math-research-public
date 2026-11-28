@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`e2435f397f929a412801580ea6d70f6e51df8602`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`9c8676019bc37ae59d4a3719c8ac12de8f2643f2`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 
@@ -47,7 +47,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [ret60第一子批](computations/legacy-exact-generated-outputs-retention-60-part1-complete-delivery.json)19旧数值净909466B，全部源参/run/结论/原SHA与Git恢复保；[ret59](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)及前链保。未知/活输入/parent91/ports/Nelder不猜删。root接实际求解；construction续容量，solver等价加速，geometry半波曲率分析。
 
-[24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)11完整件已刊，沿22全137/18源，仅宽度变；δ/g/预算保。初三步72996B，两步science+pure116887B/四步125008B>95k，自然返后整接pure；实际run/场待核。
+[24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)实际46096380016/1/job140828543967，02:05:58Z/head431b54a启动；两input/场待返。全137/18源同22，仅宽度变；原预算与完整pure续接保。
 
 <!-- visible-larger-parallel-19:start -->
 Actions19：[run 46076669320/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46076669320)；[全阶段记录](notes/2026-11-27-public-actions-46076669320-1.md)。running；已返2，exit=未返。
