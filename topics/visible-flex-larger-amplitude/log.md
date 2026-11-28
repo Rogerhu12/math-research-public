@@ -507,3 +507,7 @@ ROOT另读完整第二全步历史55554B，a885全几何g1752.7484被拒；最�
 ## 2026-11-28 17:28:01 UTC — RET100N原已闭准备参数完整逐字恢复及容量
 
 ROOT从61完整父及9整编辑文独立重建111整JSON，3158155B每件bytes/SHA256/Git一致；27官方run/27jobs均原终态，198完整保护源无被退件引用。12恢复件790414B净释2367741B，说明另计；实际未返步骤不计完成。全件清单及原树、完整恢复法见notes/2026-11-28-RET100N-complete-closed-parameter-recovery.md。只缩H/open旧导航，固定5f011旧全文及原proof/ownnote/责任俱保，open§1–6原字节不动。 双README云核至`cc550b2a02a94ef93eeca698bf23c4bdb67fcf4f`无变（非pull）。
+
+## 2026-11-28 17:31:50 UTC — 47完整原半波链本机Horner值路径正常启动
+
+root17源与两ready独立逐字三身份同；原两输入整step、157/7科学词、575/564正式和64实时selectors逐项保留，140角色/1,333,370变量/32stage及全部原预算/强制复读不减。正常wrapper构建完整源后跑science/pure，非夹具。旧33官方仅证cancelled，已校正请求表述及两manifest身份。完整源参/审读/范围见notes/2026-11-28-run47-complete-native-horner-chain-launch.md；本次没有实际run/编译/新点/加速结论。 双README云核至`f771a5e4f828d977ff5477c341b843546ee12de2`无变（非pull）。

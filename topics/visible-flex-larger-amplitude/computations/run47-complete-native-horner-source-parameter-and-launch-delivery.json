@@ -1,0 +1,328 @@
+{
+  "schema": "visible-larger-run47-whole-source-parameter-and-launch-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "new_source_bundle": [
+    {
+      "role": "complete science, pure and normal-build source roles",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-complete-source-delivery.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-complete-source-delivery.json",
+      "bytes": 53774,
+      "sha256": "5744c3e748ac9877a42f9f8b173df1fa3f0a8123391768ebd795968e6c63bb9f",
+      "git_blob_sha": "d44d4bfda00b5aaeb61b5ebbe0cbfae139092434"
+    },
+    {
+      "role": "complete scientific and pure entry",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/build_and_launch_halfwave_R729_native_horner_actions.py",
+      "name": "build_and_launch_halfwave_R729_native_horner_actions.py",
+      "bytes": 7679,
+      "sha256": "e04d5b367e817ddee6f67cdd134f8612a31e73648315cf55c0e8e0649cc78457",
+      "git_blob_sha": "ab73ebf7dec07cd7bb2d4a7c4d87c5d4dbf39d5c"
+    },
+    {
+      "role": "complete semantic source edits",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-complete-source-edits.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-complete-source-edits.json",
+      "bytes": 43276,
+      "sha256": "9634c68c89ed55d77410dd28e17d472b733a012f71dcf5d436db725c7a0ebb0f",
+      "git_blob_sha": "a9a66f55682e6b0301331047543c1fc82c4935fe"
+    },
+    {
+      "role": "whole checked source builder",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/reproduce_halfwave_R729_native_horner_complete_sources.mjs",
+      "name": "reproduce_halfwave_R729_native_horner_complete_sources.mjs",
+      "bytes": 6196,
+      "sha256": "b7b5f5f9722f79e93cecb5b2effae235d32ba1fb8defafc20e2a423f5f540a0e",
+      "git_blob_sha": "fc844333391db00c36793d75baa739daaea20c45"
+    },
+    {
+      "role": "strict binary64 small-branch Horner",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/fixed_fejer_detached_horner.c",
+      "name": "fixed_fejer_detached_horner.c",
+      "bytes": 1284,
+      "sha256": "6dbfbe17c4e535dce61500d9c8da72a088bb377bfba21985f5ef5415cb4e3933",
+      "git_blob_sha": "d79bfeef75561adcc55fd9fc569c6782cd4ebef5"
+    },
+    {
+      "role": "strict detached native binding and build attribution",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/fixed_fejer_detached_horner.py",
+      "name": "fixed_fejer_detached_horner.py",
+      "bytes": 5772,
+      "sha256": "cfe09c087fd06bdccaf8e35118f87af885cae31603a7884489a1eb9bdf7a54bf",
+      "git_blob_sha": "aaea7ab663cb547737178fee306c66e4446d6d26"
+    },
+    {
+      "role": "working expressions, coverage and real parent evidence",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-halfwave-R729-full-normal-chain-Horner-arithmetic-and-scope.md",
+      "name": "2026-11-28-halfwave-R729-full-normal-chain-Horner-arithmetic-and-scope.md",
+      "bytes": 6272,
+      "sha256": "4438e01fe527b6b34e59133049d8243b1b29c4c661819c7ab97e143f352df41f",
+      "git_blob_sha": "1952168b9edabe4fc6e7597fb5038f6dd5e3e395"
+    }
+  ],
+  "parameter_and_launch_files_except_this_manifest": [
+    {
+      "role": "science",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-science-complete-ready.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-science-complete-ready.json",
+      "bytes": 93038,
+      "sha256": "bb28cba94271c8cee91886338979dd28852de30d8df2d8f46d8934a5ef48a69d",
+      "git_blob_sha": "efbfd82b3bb379bc49f1dc24a314e63b2ba8060a"
+    },
+    {
+      "role": "pure",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-pure-complete-ready.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-pure-complete-ready.json",
+      "bytes": 77713,
+      "sha256": "4fcec48ed389cb41964333a2642054f02360be9bc4b9f69f97ed6f4095d4f174",
+      "git_blob_sha": "53e38d2d064afcd16bad52ce7c9df255f6cf5150"
+    },
+    {
+      "role": "Complete ordinary textual parameter reconstruction",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/reproduce_halfwave_R729_native_horner_parameters.mjs",
+      "name": "reproduce_halfwave_R729_native_horner_parameters.mjs",
+      "bytes": 12266,
+      "sha256": "5976079a948e26e62726414926b2a2a78b1615ceb15708eb828dc668d2d5dad6",
+      "git_blob_sha": "41417ed543e1e97a77ed7bb568d30e31192ef75c"
+    },
+    {
+      "role": "Complete source-bound parameter delivery and selector correspondence",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-complete-parameter-delivery.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-complete-parameter-delivery.json",
+      "bytes": 11251,
+      "sha256": "dc29a80ca79113b15afe49c3555154e7518f279b0314247e2d10489a98b4192b",
+      "git_blob_sha": "c1c6fccd77796c7d247dbd2f6428b026bcdf7c05"
+    },
+    {
+      "role": "followups",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/public_actions_followups_native_horner.py",
+      "name": "public_actions_followups_native_horner.py",
+      "bytes": 34283,
+      "sha256": "070df50ecdf19958392d5bfa333bbb946d2b644e7404a58b55a34e7856fbbc31",
+      "git_blob_sha": "d3b3dca03a0fda78c0dcfc5a96b465ba95223704"
+    },
+    {
+      "role": "controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/public_actions_controller_parallel47_native_horner.py",
+      "name": "public_actions_controller_parallel47_native_horner.py",
+      "bytes": 24370,
+      "sha256": "40d4cbfebcc4ce7c617828b4d0656a338051e22df7768c45c0df962f253cfe15",
+      "git_blob_sha": "41529637bda740dacccd6a578d20f3b829fc57ac"
+    },
+    {
+      "role": "workflow",
+      "path": ".github/workflows/visible-larger-20261128-parallel47.yml",
+      "name": "visible-larger-20261128-parallel47.yml",
+      "bytes": 2231,
+      "sha256": "eb0647eba34d9888eec235e31572bb757a3af2c084ed0da20e7671f91047a0bf",
+      "git_blob_sha": "3c31d8c436ccaf814bdb45bfab493de950d1fd48"
+    },
+    {
+      "role": "Complete two input steps and both frozen full scientific steps",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-47.json",
+      "name": "resume-20261128-followups-47.json",
+      "bytes": 9338,
+      "sha256": "cba313e4f98c2023256e264b363212f0b1eef8f55d2bf6d4a3bb2374413952d7",
+      "git_blob_sha": "ff95147a69aac47e2cc9493474e7de4766a4df90"
+    },
+    {
+      "role": "Frozen public 47 request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-47.json",
+      "name": "resume-20261128-actions-request-47.json",
+      "bytes": 17861,
+      "sha256": "46ce681e5b870cb82532eebc1579fd356e17b828473fd94e6d8366b08d2fab01",
+      "git_blob_sha": "0b6702b5f5f5f04710178e81da873357451eceb3"
+    }
+  ],
+  "complete_original_records": {
+    "readmes": [
+      {
+        "path": "README.md",
+        "bytes": 10649,
+        "sha256": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+        "git_blob_sha": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+        "fixed_commit": "091bbdd946612d4732d62f22c613431be32ce5f5"
+      },
+      {
+        "path": "topics/visible-flex-larger-amplitude/README.md",
+        "bytes": 2664,
+        "sha256": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d",
+        "git_blob_sha": "bff8aea253a9e6a7a4fac28d810ac454c5499fec",
+        "fixed_commit": "091bbdd946612d4732d62f22c613431be32ce5f5"
+      }
+    ],
+    "original_launch": {
+      "role": "Complete fixed run33 request, budgets and source history",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-33.json",
+      "name": "resume-20261128-actions-request-33.json",
+      "bytes": 45113,
+      "sha256": "3cf46b086e19b5a711ebec118b037a08b8a065db4750700e574f2066bb25a51b",
+      "git_blob_sha": "01a54493aa65c133fadffc98090eb3a1832b8727"
+    },
+    "original_queue": {
+      "role": "Complete original run33 queue including both input construction steps",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-33.json",
+      "name": "resume-20261128-followups-33.json",
+      "bytes": 80280,
+      "sha256": "7a385ee75986b6693fdf354a6288000eb583a63d95eaaefd654ddd65365b61f0",
+      "git_blob_sha": "de659fd7787046fea517e0579da6db86fcec9aeb"
+    },
+    "parameter_delivery": {
+      "role": "Full original run33 parameter delivery",
+      "path": "topics/visible-flex-larger-amplitude/topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-delivery.json",
+      "name": "fixed-fejer-halfwave-R729-bhalf-complete-parameter-delivery.json",
+      "bytes": 16430,
+      "sha256": "aa3dee28cb99f684ba5c0ceef6eaefff61064a70464d166718656f0491b76ccb",
+      "git_blob_sha": "0c4c502566125f92e7872ad8029cafcab533134d"
+    },
+    "parameter_binding": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-binding.json",
+      "bytes": 30172,
+      "sha256": "ca81f91c4e5eb6eed2b36b0e731628b6226ab1730e343ac30d06a52c7167668a",
+      "git_blob_sha": "63cff3ff35deba4309a41cf01fe4cae6e2433700"
+    },
+    "ready_parents": {
+      "science": {
+        "role": "science",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-science-complete-ready.json",
+        "bytes": 80928,
+        "sha256": "d35579f13e07cf004a333905af411c0a47f2147f42c574b9b0c65af7b02b1798",
+        "git_blob_sha": "8631722f6367d98f4515adce383f49226f69c3cd"
+      },
+      "pure": {
+        "role": "pure",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-pure-complete-ready.json",
+        "bytes": 70074,
+        "sha256": "19e226f138e2076dc2834f7b3a2449eef633961c4a80159e5933c7f0fa0e290a",
+        "git_blob_sha": "86116e5b0605b3fc5d24cf8b998695bf65939401"
+      }
+    },
+    "original_normal_run_checkpoint": {
+      "role": "Actual run33 last published scientific checkpoint",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md",
+      "name": "2026-11-28-public-actions-46133839513-1.md",
+      "bytes": 60415,
+      "sha256": "6d29ff60af79e2e7789ee6bea04682edc189d7bbeb0e1a99c885e14cdb8f7fb2",
+      "git_blob_sha": "9602eceb4bf280bdf22cdbe6b2f26f5f991a1a5f"
+    }
+  },
+  "source_binding": {
+    "historical_snapshot": {
+      "commit": "43914b1da832b13ffc65f9f3074446217fc065b9",
+      "path_lookup": "The frozen original parents exist as complete files at this published Git commit. Generated runtime identifiers name the files created by the normal builder in a private Actions worktree."
+    },
+    "current_source_roles": 140,
+    "current_runtime_sources": 23,
+    "generated_files": 17,
+    "formal_and_live_counts": {
+      "science": {
+        "original_formal": 575,
+        "formal": 621,
+        "original_live": 64,
+        "live": 84,
+        "original_words": 157,
+        "build_words": 5,
+        "outer_words": 162
+      },
+      "pure": {
+        "original_formal": 564,
+        "formal": 590,
+        "original_live": 0,
+        "live": 0,
+        "original_words": 7,
+        "build_words": 5,
+        "outer_words": 12
+      }
+    },
+    "complete_source_and_method_guards": [
+      "full 1,333,370 original coordinates and halfwave + fixed Fejer g",
+      "complete 8 Gauss nodes on each of all 922 cells",
+      "all 32 normal stages plus stage and endpoint forced reintegrations",
+      "all unchanged original numeric argument words, control domain, nonlinear trial and margin rules",
+      "all parent shifts, exact previous basis and typed material support gates; no historical return is used as a new field",
+      "AD/JVP/VJP, inference and non-plain states use original complete Torch path"
+    ]
+  },
+  "execution": {
+    "request": {
+      "role": "Frozen public 47 request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-47.json",
+      "name": "resume-20261128-actions-request-47.json",
+      "bytes": 17861,
+      "sha256": "46ce681e5b870cb82532eebc1579fd356e17b828473fd94e6d8366b08d2fab01",
+      "git_blob_sha": "0b6702b5f5f5f04710178e81da873357451eceb3"
+    },
+    "normal_workflow": {
+      "role": "workflow",
+      "path": ".github/workflows/visible-larger-20261128-parallel47.yml",
+      "name": "visible-larger-20261128-parallel47.yml",
+      "bytes": 2231,
+      "sha256": "eb0647eba34d9888eec235e31572bb757a3af2c084ed0da20e7671f91047a0bf",
+      "git_blob_sha": "3c31d8c436ccaf814bdb45bfab493de950d1fd48"
+    },
+    "queue": {
+      "role": "Complete two input steps and both frozen full scientific steps",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-47.json",
+      "name": "resume-20261128-followups-47.json",
+      "bytes": 9338,
+      "sha256": "cba313e4f98c2023256e264b363212f0b1eef8f55d2bf6d4a3bb2374413952d7",
+      "git_blob_sha": "ff95147a69aac47e2cc9493474e7de4766a4df90"
+    },
+    "trigger": "Ordinary public commit of the run47 request",
+    "input_steps": 2,
+    "complete_scientific_steps": 2,
+    "wallclock_and_admission_policy": {
+      "hardware": "Public GitHub Actions 4 vCPU, 16 GB",
+      "run_timeout_minutes": 360,
+      "observation_only_after_active_admission_deadline": true,
+      "readme_pull_seconds": 3000,
+      "output": "Whole compact result index and semantic JSON field volumes. All raw arrays, shared objects and logs stay on the originating runner."
+    },
+    "receipt": "Each normal science and pure entry writes a complete build and materialization receipt to the runner; public scalar fields preserve both actual returned entry identities."
+  },
+  "scientific_scope": {
+    "arithmetic_note": {
+      "role": "working expressions, coverage and real parent evidence",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-halfwave-R729-full-normal-chain-Horner-arithmetic-and-scope.md",
+      "name": "2026-11-28-halfwave-R729-full-normal-chain-Horner-arithmetic-and-scope.md",
+      "bytes": 6272,
+      "sha256": "4438e01fe527b6b34e59133049d8243b1b29c4c661819c7ab97e143f352df41f",
+      "git_blob_sha": "1952168b9edabe4fc6e7597fb5038f6dd5e3e395"
+    },
+    "source_delivery": {
+      "role": "complete science, pure and normal-build source roles",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-complete-source-delivery.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-complete-source-delivery.json",
+      "bytes": 53774,
+      "sha256": "5744c3e748ac9877a42f9f8b173df1fa3f0a8123391768ebd795968e6c63bb9f",
+      "git_blob_sha": "d44d4bfda00b5aaeb61b5ebbe0cbfae139092434"
+    },
+    "full_parameters": {
+      "role": "Complete source-bound parameter delivery and selector correspondence",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-complete-parameter-delivery.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-complete-parameter-delivery.json",
+      "bytes": 11251,
+      "sha256": "dc29a80ca79113b15afe49c3555154e7518f279b0314247e2d10489a98b4192b",
+      "git_blob_sha": "c1c6fccd77796c7d247dbd2f6428b026bcdf7c05"
+    },
+    "actual_no_benchmark_or_preflight": true,
+    "source_provenance": {
+      "commit": "43914b1da832b13ffc65f9f3074446217fc065b9",
+      "path_lookup": "The frozen original parents exist as complete files at this published Git commit. Generated runtime identifiers name the files created by the normal builder in a private Actions worktree."
+    }
+  },
+  "actual": {
+    "run": null,
+    "job": null,
+    "model": null,
+    "first_point": null,
+    "compiled_shared_object": null,
+    "telemetry": null,
+    "matching_run33_point": null,
+    "scientific_speedup": null,
+    "accepted_directions": null,
+    "complete_science_return": null,
+    "complete_pure_readout": null,
+    "strict_certificate": null
+  }
+}

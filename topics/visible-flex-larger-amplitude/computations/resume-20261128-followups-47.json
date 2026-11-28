@@ -1,0 +1,176 @@
+{
+  "parent_request_id": "visible-larger-20261128-run47-full-halfwave-strict-native-horner",
+  "finish_when_done": true,
+  "steps": [
+    {
+      "id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "scope": "Necessary complete deterministic new mathematical input. Restore the exact accepted099 scalar-parameter source; extract the whole e640 projection; construct the fixed seven-mode RN-even Fejer chart, all 923 exact affine nodes and complete FullHold node/radius error ledger. No warm/BVP/pulse field, old core, old final, F/J/normal root or geometric certificate is used. This is a new fixed target; original branches and old literal-address provenance are retained explicitly.",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--outdir",
+        "{work}/fixed-fejer-r690-inputs",
+        "--panels",
+        "128"
+      ],
+      "outputs": [
+        "fixed-fejer-r690-inputs/report.json",
+        "fixed-fejer-r690-inputs/fixed-reference-input.npz",
+        "fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+        "fixed-fejer-r690-inputs/fixed-scalar-input.json"
+      ],
+      "summary": {
+        "fixed-fejer-r690-inputs/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "status": "status",
+          "complete": "complete",
+          "seconds": "seconds",
+          "definition": "definition_identity_sha256",
+          "target": "mathematical_target_identity_sha256",
+          "actual_run": "execution.run_id",
+          "actual_attempt": "execution.run_attempt",
+          "actual_source_commit": "execution.actual_source_commit",
+          "all_input_source_output_rechecked": "all_input_and_source_output_records_rechecked",
+          "physicalF": "physical_field_evaluations",
+          "J_evaluations": "Jacobian_evaluations",
+          "normal_roots": "normal_root_evaluations"
+        }
+      }
+    },
+    {
+      "id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run33",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "scope": "Necessary complete reference construction for the one predeclared Fejer RN-even64 chart and complete original R690 scalar. Consume all real fixed-input products from the independent formula maker, preserve all 923 exact nodes, 7377 positive observations and every eight-Gauss/reference scalar jet. The scalar integer table uses a predeclared 2218-leaf rule; H is the original complete normalized-c Gauss seed and remains free. Reinterpret the full ordered eleven-payload historical literals explicitly on the new target and mesh, without claiming same physical s/point or inheriting unknown old history, field values, certificates, or completion. This is necessary input construction, not a scientific fixture or proof.",
+      "parent_bundle": null,
+      "args": [
+        "--repo",
+        "{repo}",
+        "--fixed-input",
+        "{work}/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+        "--fixed-input-report",
+        "{work}/fixed-fejer-r690-inputs/report.json",
+        "--node-report",
+        "{work}/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+        "--scalar-input",
+        "{work}/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+        "--manifest",
+        "{repo}/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json",
+        "--outdir",
+        "{work}/fixed-fejer-reference",
+        "--angles",
+        "2048",
+        "--seed-integration-order",
+        "8",
+        "--panels",
+        "128",
+        "--scalar-leaf-count",
+        "2218",
+        "--scalar-integral-tolerance",
+        "1e-18",
+        "--scalar-tail-cutoff",
+        "1/8"
+      ],
+      "outputs": [
+        "fixed-fejer-reference/report.json",
+        "fixed-fejer-reference/reference.npz",
+        "fixed-fejer-reference/observations.npz",
+        "fixed-fejer-reference/locations.json",
+        "fixed-fejer-reference/supplied-location-provenance.json",
+        "fixed-fejer-reference/fixed-target-definition.json",
+        "fixed-fejer-reference/material-envelope-carrier-binding.json"
+      ],
+      "summary": {
+        "fixed-fejer-reference/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "source_commit": "source_commit",
+          "complete": "complete",
+          "seconds": "seconds",
+          "reference_model": "reference_model_identity_sha256",
+          "fixed_scalar": "fixed_scalar_metric_identity_sha256",
+          "scalar_parameters": "original_scalar_parameters_identity_sha256",
+          "mathematical_target": "mathematical_target_identity_sha256",
+          "full_target": "fixed_target_definition_identity_sha256",
+          "fixed_recipe": "fixed_input_definition_identity_sha256",
+          "model_chart": "reference_definition.fixed_chart_core_sha256",
+          "model_mesh": "reference_definition.mesh_sha256",
+          "core0": "reference_definition.fixed_core_first3.0",
+          "core1": "reference_definition.fixed_core_first3.1",
+          "core2": "reference_definition.fixed_core_first3.2",
+          "M": "M",
+          "J": "J",
+          "P": "P",
+          "N": "N",
+          "height": "new_height",
+          "reference": "input_for_solver.reference_bundle.sha256",
+          "carrier": "input_for_solver.carrier.sha256",
+          "nodes": "input_for_solver.node_report.sha256",
+          "scalar": "input_for_solver.scalar_input.sha256",
+          "fixed_input": "fixed_input_bundle.sha256",
+          "input_preparation": "fixed_input_preparation_report.sha256",
+          "locations": "new_locations.sha256",
+          "location_provenance": "complete_supplied_location_provenance.sha256",
+          "target_file": "fixed_target_definition_file.sha256",
+          "leaf_target": "deterministic_scalar_work.leaf_target",
+          "actual_leaves": "true_scalar.integral_leaves",
+          "accuracy_reached": "true_scalar.requested_integral_accuracy_reached",
+          "integral_width_exact": "true_scalar.integral_enclosure_width_exact",
+          "whole_tail": "true_scalar.all_tail_domain_included",
+          "unresolved_tail_dropped": "true_scalar.unresolved_oscillations_dropped",
+          "clock_selects_leaves": "deterministic_scalar_work.wall_clock_decides_leaf_count",
+          "old_warm_not_required": "no_warm_BVP_or_optimized_old_chart_required",
+          "old_surface_used": "optimized_old_q_field_read_as_T0",
+          "old_directions_replayed": "historical_nonlinear_directions_replayed",
+          "old_certificates_inherited": "old_certificates_inherited",
+          "physical_field_read": "complete_same_field_metric_or_geometry_read",
+          "new_field_still_required": "physical_new_field_still_requires_full_initial_read",
+          "run": "execution.run_id",
+          "attempt": "execution.run_attempt"
+        },
+        "fixed-fejer-reference/material-envelope-carrier-binding.json": {
+          "schema": "schema",
+          "source": "producer.source_sha256",
+          "source_commit": "producer.source_commit",
+          "run": "producer.execution.run_id",
+          "attempt": "producer.execution.run_attempt",
+          "mathematical_target": "mathematical_target_identity_sha256",
+          "full_reference_definition": "fixed_target_definition_identity_sha256",
+          "reference": "current_files.current_reference_bundle.sha256",
+          "preparation": "current_files.current_preparation_report.sha256",
+          "carrier": "current_files.current_carrier.sha256",
+          "fixed_input": "current_files.current_fixed_input_bundle.sha256",
+          "nodes": "current_files.current_node_report.sha256",
+          "scalar": "current_files.current_scalar_input.sha256",
+          "target_file": "fixed_target_definition_file.sha256",
+          "history": "complete_supplied_location_provenance.sha256",
+          "all_six_actual": "all_current_six_files_are_actual",
+          "old_values_or_unknown_history_inherited": "previous_fields_roots_certificates_or_unknown_typed_history_inherited"
+        }
+      }
+    },
+    {
+      "id": "complete-fixed-fejer-native-horner-science-20261128",
+      "whole_step_source": {
+        "role": "science",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-science-complete-ready.json",
+        "name": "fixed-fejer-halfwave-R729-native-horner-science-complete-ready.json",
+        "bytes": 93038,
+        "sha256": "bb28cba94271c8cee91886338979dd28852de30d8df2d8f46d8934a5ef48a69d",
+        "git_blob_sha": "efbfd82b3bb379bc49f1dc24a314e63b2ba8060a"
+      }
+    },
+    {
+      "id": "complete-fixed-fejer-native-horner-pure-20261128",
+      "whole_step_source": {
+        "role": "pure",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-pure-complete-ready.json",
+        "name": "fixed-fejer-halfwave-R729-native-horner-pure-complete-ready.json",
+        "bytes": 77713,
+        "sha256": "4fcec48ed389cb41964333a2642054f02360be9bc4b9f69f97ed6f4095d4f174",
+        "git_blob_sha": "53e38d2d064afcd16bad52ce7c9df255f6cf5150"
+      }
+    }
+  ]
+}

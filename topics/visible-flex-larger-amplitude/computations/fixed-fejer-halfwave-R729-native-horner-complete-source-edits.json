@@ -1,0 +1,471 @@
+{
+ "schema": "full-R729-halfwave-working-Horner-complete-source-edits-v1",
+ "topic": "topics/visible-flex-larger-amplitude",
+ "entries": [
+  {
+   "role": "closure_values",
+   "parent": {
+    "role": "closure_values",
+    "name": "fixed_fejer_paired_halfwave_demanded_closure_values.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_closure_values.py",
+    "bytes": 61790,
+    "sha256": "2440622a82f1da79ccba468fbcf9e3e2dbc36762df63550e8de4bfb85a1d10b6",
+    "git_blob_sha": "dde6812a1a05594d95b1e7ecf99694c86b2be10d"
+   },
+   "current": {
+    "role": "closure_values",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_closure_values.py",
+    "name": "fixed_fejer_h33_native_closure_values.py",
+    "bytes": 72312,
+    "sha256": "9e99bfabd34aa083ef89550d2d3a15dcd3aef499a482a742f793730d3ce1cc9b",
+    "git_blob_sha": "ac798d36a4a9938dae8d70cf0aa49338c192f4a7"
+   }
+  },
+  {
+   "role": "analytic_J3",
+   "parent": {
+    "role": "analytic_J3",
+    "name": "fixed_fejer_paired_halfwave_demanded_stage_jacobian.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_stage_jacobian.py",
+    "bytes": 27993,
+    "sha256": "7909d5781488131fd94c6389c85b24a235665484c2d5734e2df2db0584619b2d",
+    "git_blob_sha": "d3ab5c40142fd15af8f1a4ec66a5ce5e9732f09f"
+   },
+   "current": {
+    "role": "analytic_J3",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_stage_jacobian.py",
+    "name": "fixed_fejer_h33_native_stage_jacobian.py",
+    "bytes": 37727,
+    "sha256": "3fc3e99c335de0b9c36d8f409ad8d90dc914e8ec903bd855f67e98ec06530508",
+    "git_blob_sha": "9079f8d781a7250ef588ebfd9c2b77780b1e2857"
+   }
+  },
+  {
+   "role": "analytic_frame",
+   "parent": {
+    "role": "analytic_frame",
+    "name": "fixed_fejer_paired_halfwave_demanded_angular_frame.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_angular_frame.py",
+    "bytes": 68761,
+    "sha256": "477a501d3eb8a367687e6b40e8a58136ec2f9d11a28325e38b01a4455b85b285",
+    "git_blob_sha": "e9987f8c303ad38287cf97efea4f5b140bf5793c"
+   },
+   "current": {
+    "role": "analytic_frame",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_angular_frame.py",
+    "name": "fixed_fejer_h33_native_angular_frame.py",
+    "bytes": 69570,
+    "sha256": "17bef77cbf53cf56bd5d1bb65873d21aa4a1aa0c14efdbf37fb666cd4e97f13f",
+    "git_blob_sha": "5dd1e7d8dcc1b68d7fd4e5ca4f7fbf01098f2b2c"
+   }
+  },
+  {
+   "role": "detached_meridian_values",
+   "parent": {
+    "role": "detached_meridian_values",
+    "name": "fixed_fejer_paired_halfwave_demanded_meridian_values.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_meridian_values.py",
+    "bytes": 52317,
+    "sha256": "26fa4aa15bb9fd2a9aa95e0e0e6f3a300628da77c189340a9e5ce4f23d04df55",
+    "git_blob_sha": "c20c8fa717c30e3f516f091a50f6b4294ae57c67"
+   },
+   "current": {
+    "role": "detached_meridian_values",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_meridian_values.py",
+    "name": "fixed_fejer_h33_native_meridian_values.py",
+    "bytes": 55408,
+    "sha256": "6cdf76cc2be66e8874278e1c9b8a09ce5b04d2c79543a0d781714aeb2838ad48",
+    "git_blob_sha": "6d768ee10f8db18512b42e066f653184b1b15bb0"
+   }
+  },
+  {
+   "role": "frame_C1",
+   "parent": {
+    "role": "frame_C1",
+    "name": "fixed_fejer_paired_halfwave_demanded_frame_c1.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_frame_c1.py",
+    "bytes": 55173,
+    "sha256": "b185062a817df8e99602fa8aaab0ddd67a50d9938dc044b436ebbd94d7bfa6b1",
+    "git_blob_sha": "3cdda2bc48a54337761b9322c218ffcb688d833d"
+   },
+   "current": {
+    "role": "frame_C1",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_frame_c1.py",
+    "name": "fixed_fejer_h33_native_frame_c1.py",
+    "bytes": 64907,
+    "sha256": "9f94e987226cbc578d10d281c040200a72700b77f1972bc053dad854abd6b06f",
+    "git_blob_sha": "39f48f95db97092b0ec24cfa4580230f004d24e3"
+   }
+  },
+  {
+   "role": "stage_matrices",
+   "parent": {
+    "role": "stage_matrices",
+    "name": "fixed_fejer_paired_halfwave_demanded_stage_matrices.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_stage_matrices.py",
+    "bytes": 61280,
+    "sha256": "e69a10e54239b02317cbc3b813ee90af91c2d3ddb9144ab3f1ea81dc9c08c83d",
+    "git_blob_sha": "70d3f4e8f41edf35eaa87270ab9f0df52fad4031"
+   },
+   "current": {
+    "role": "stage_matrices",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_stage_matrices.py",
+    "name": "fixed_fejer_h33_native_stage_matrices.py",
+    "bytes": 61280,
+    "sha256": "81d8cdb5ccadeeb0066e68ea7df04e24bbe0d4097be84ea62577d65f39cce636",
+    "git_blob_sha": "393c360badbb0c8f4cca6ce3041cde2dba8e1c10"
+   }
+  },
+  {
+   "role": "adjacent_matrices",
+   "parent": {
+    "role": "adjacent_matrices",
+    "name": "fixed_fejer_paired_halfwave_demanded_adjacent_matrices.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_adjacent_matrices.py",
+    "bytes": 36766,
+    "sha256": "6c466f2c4dccd158b3eca16eb7f020b935ee22824327f94e15e01a66647d5166",
+    "git_blob_sha": "130a240ed1d44a3624fa0715b2a7409eccbbfc4a"
+   },
+   "current": {
+    "role": "adjacent_matrices",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_adjacent_matrices.py",
+    "name": "fixed_fejer_h33_native_adjacent_matrices.py",
+    "bytes": 36766,
+    "sha256": "1c66a3ff8ae92627606b9bb6b2ba0f6fa912b14ccb0b01fcdb7ae443644633b6",
+    "git_blob_sha": "d23691495d7639cce554f8b0bfb7d39a603bdaf7"
+   }
+  },
+  {
+   "role": "endpoint",
+   "parent": {
+    "role": "endpoint",
+    "name": "fixed_fejer_paired_halfwave_demanded_normal_lift.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_normal_lift.py",
+    "bytes": 96366,
+    "sha256": "fbb17bbce55d6d100eeaa14cf29438ec00538b216d9a2aecb314d2376b44aee0",
+    "git_blob_sha": "f1c014aaa4a3c44f8c8f84b41742ef4d44bdc35a"
+   },
+   "current": {
+    "role": "endpoint",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_normal_lift.py",
+    "name": "fixed_fejer_h33_native_normal_lift.py",
+    "bytes": 97036,
+    "sha256": "8f57aa9b33f2ef9f7bc275d3567f43a591fb10c8a75edfa33949760ae1599172",
+    "git_blob_sha": "625971de1629821747705e1b3d84509928ee8c60"
+   }
+  },
+  {
+   "role": "root_packets",
+   "parent": {
+    "role": "root_packets",
+    "name": "fixed_fejer_paired_halfwave_demanded_root_packets.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_root_packets.py",
+    "bytes": 75271,
+    "sha256": "fe555d2149c5cb1e919f51709da68098df3ad5960fabd87569802c1eb477e83f",
+    "git_blob_sha": "ccdb56a3e117f616748f8c94ce725eb81962763b"
+   },
+   "current": {
+    "role": "root_packets",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_root_packets.py",
+    "name": "fixed_fejer_h33_native_root_packets.py",
+    "bytes": 75271,
+    "sha256": "64951e750f3c8df1329d47f57b66f3bf9158fa8bc68885b53c62fbe2cbaa26be",
+    "git_blob_sha": "efcd2e0fed0fe17458ccc9728cd1a11d0c008e52"
+   }
+  },
+  {
+   "role": "geometry_selector",
+   "parent": {
+    "role": "geometry_selector",
+    "name": "fullclosed_point_inequalities_v2_halfwave_demanded_curvature_cache.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullclosed_point_inequalities_v2_halfwave_demanded_curvature_cache.py",
+    "bytes": 35982,
+    "sha256": "b7293b63eb21af56bb15770e7afd12fa86988bf0c14719959155a3341c085497",
+    "git_blob_sha": "df0ad3f36a1850bb16f87d7d45f3e55efb5491d2"
+   },
+   "current": {
+    "role": "geometry_selector",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullclosed_point_inequalities_v2_h33_native_curvature_cache.py",
+    "name": "fullclosed_point_inequalities_v2_h33_native_curvature_cache.py",
+    "bytes": 35982,
+    "sha256": "3e7856f191b658d8d671159d224c64837a9c941eba6d23664ca356b139fb8ed4",
+    "git_blob_sha": "79ad4d2761079dd5c92e96748bb63bd1f8063065"
+   }
+  },
+  {
+   "role": "analytic_J3_binding",
+   "parent": {
+    "role": "analytic_J3_binding",
+    "name": "fixed_fejer_halfwave_demanded_source_binding.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_halfwave_demanded_source_binding.py",
+    "bytes": 43489,
+    "sha256": "2cbb44badea88db3d4d36422b12da70fb7d5f028626e268d06a87bdbe06a2c30",
+    "git_blob_sha": "bfb96cbb9d6d67a1e7adf5a3a56e85bce7ba1781"
+   },
+   "current": {
+    "role": "analytic_J3_binding",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_source_binding.py",
+    "name": "fixed_fejer_h33_native_source_binding.py",
+    "bytes": 43377,
+    "sha256": "c5750bcf57dce89bfdc5fa15541042d1b0a0fb06914968cdded1ecb7f5176241",
+    "git_blob_sha": "dc5b8769e0371abf9614d958538cf9e92b132b01"
+   }
+  },
+  {
+   "role": "geometry",
+   "parent": {
+    "role": "geometry",
+    "name": "so3_fixed_fejer_halfwave_demanded_geometry.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_halfwave_demanded_geometry.py",
+    "bytes": 88482,
+    "sha256": "8cde4d7c8c3699b870de0395386eaf4327572eb44bb9f5dfe3ea143c21425ace",
+    "git_blob_sha": "68eb933352259f594793da2ee827d8c121b316c1"
+   },
+   "current": {
+    "role": "geometry",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_h33_native_geometry.py",
+    "name": "so3_fixed_fejer_h33_native_geometry.py",
+    "bytes": 88475,
+    "sha256": "cdaf3d5a682ed81e5c598075bc0cf1eda84bfe2d3b0a81b821014c5a99313d7d",
+    "git_blob_sha": "4e6e9b5d1065bb39271a6ee00f17a4beef95e6ee"
+   }
+  },
+  {
+   "role": "envelope_transfer",
+   "parent": {
+    "role": "envelope_transfer",
+    "name": "fixed_fejer_halfwave_demanded_memory_transfer.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_halfwave_demanded_memory_transfer.py",
+    "bytes": 78922,
+    "sha256": "cfa6b64463fdf5ad450c31651f97101fd16944f507b5c8c1b9e922065521d0d9",
+    "git_blob_sha": "8202375d58ef2a501bf88258a9d4c00f68fa5ea4"
+   },
+   "current": {
+    "role": "envelope_transfer",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_memory_transfer.py",
+    "name": "fixed_fejer_h33_native_memory_transfer.py",
+    "bytes": 78915,
+    "sha256": "efb9e638ffb15e1e0e3f0424fb49e120590ffec601e64e33cd0bf4554e40375d",
+    "git_blob_sha": "5bbcbf650967b1ababaa9679fd1c9dec7ff0ccba"
+   }
+  },
+  {
+   "role": "batched_geometry_binding",
+   "parent": {
+    "role": "batched_geometry_binding",
+    "name": "fixed_fejer_halfwave_demanded_geometry_binding.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_halfwave_demanded_geometry_binding.py",
+    "bytes": 20550,
+    "sha256": "3d5f761fee10105bd0bc6d1a4056891e80b8b4b640aa13536f926c05b7bfc1d0",
+    "git_blob_sha": "07d3b873206f224fd897b0dd1d4d925e9ae1cce8"
+   },
+   "current": {
+    "role": "batched_geometry_binding",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_h33_native_geometry_binding.py",
+    "name": "fixed_fejer_h33_native_geometry_binding.py",
+    "bytes": 20536,
+    "sha256": "1284736da903cc486fc1c5128fd00082394687f5e78a4069f5912f6dbe568c4f",
+    "git_blob_sha": "56fca62acfe5b9ca94aeacaf4c21bb402f330234"
+   }
+  },
+  {
+   "role": "driver",
+   "parent": {
+    "role": "driver",
+    "name": "fullclosed_fixed_fejer_halfwave_R729_demanded_qp.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_halfwave_R729_demanded_qp.py",
+    "bytes": 99954,
+    "sha256": "a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3",
+    "git_blob_sha": "ad44cfc1855b2eb7791fbd97641afc422961300a"
+   },
+   "current": {
+    "role": "driver",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_h33_native_qp.py",
+    "name": "fullclosed_fixed_fejer_h33_native_qp.py",
+    "bytes": 99763,
+    "sha256": "c005f212047fd63bd458136dddb8944062e4320b19a1070f4c0e919b55b586ba",
+    "git_blob_sha": "25703c653d2dfbb7e48dd686f0b46b7e008c81c8"
+   }
+  },
+  {
+   "role": "launcher",
+   "parent": {
+    "role": "launcher",
+    "name": "launch_fixed_fejer_halfwave_R729_demanded_actions.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_halfwave_R729_demanded_actions.py",
+    "bytes": 22367,
+    "sha256": "9b76e1c751f02495576278546b24f352993bdba6d6859fb3d826a255044bcc8b",
+    "git_blob_sha": "152803c344e6a487c194560bfc1dc01af645abdd"
+   },
+   "current": {
+    "role": "launcher",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_h33_native_actions.py",
+    "name": "launch_fixed_fejer_h33_native_actions.py",
+    "bytes": 22355,
+    "sha256": "05de0351895cc62aac673bcf9595bc64505f2d3e6a7b035840aa3120bbe1cd67",
+    "git_blob_sha": "6d064dc3f3b305d94c16760216d6916b2271d865"
+   }
+  },
+  {
+   "role": "reader",
+   "parent": {
+    "role": "reader",
+    "name": "read_fixed_fejer_halfwave_R729_demanded_report.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_halfwave_R729_demanded_report.py",
+    "bytes": 94551,
+    "sha256": "52c0b08d7ba957b4a9de37288334025e5f312c5f917421b80f0a9b85c34fddd7",
+    "git_blob_sha": "c02c930549941898f7c3d13668e5a7f2fda820e3"
+   },
+   "current": {
+    "role": "reader",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_h33_native_report.py",
+    "name": "read_fixed_fejer_h33_native_report.py",
+    "bytes": 94539,
+    "sha256": "2ae72a028572e41aac288ca4786978db53c54b955751efde7e116b12e43d9683",
+    "git_blob_sha": "6e6492679a679476c023b60791aaa2c7343d0acf"
+   }
+  }
+ ],
+ "native_sources": [
+  {
+   "role": "strict binary64 small-branch Horner",
+   "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/fixed_fejer_detached_horner.c",
+   "name": "fixed_fejer_detached_horner.c",
+   "bytes": 1284,
+   "sha256": "6dbfbe17c4e535dce61500d9c8da72a088bb377bfba21985f5ef5415cb4e3933",
+   "git_blob_sha": "d79bfeef75561adcc55fd9fc569c6782cd4ebef5"
+  },
+  {
+   "role": "strict detached native binding and build attribution",
+   "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/fixed_fejer_detached_horner.py",
+   "name": "fixed_fejer_detached_horner.py",
+   "bytes": 5772,
+   "sha256": "cfe09c087fd06bdccaf8e35118f87af885cae31603a7884489a1eb9bdf7a54bf",
+   "git_blob_sha": "aaea7ab663cb547737178fee306c66e4446d6d26"
+  }
+ ],
+ "literal_method_and_registry_edits": {
+  "closure_values": [
+   {
+    "from": "        self.original=q._closure_jets_original\n",
+    "to": "        self.original=q._closure_jets_original\n        self.in_unforced_original_closure=False\n"
+   },
+   {
+    "from": "            answer=self.original(controls,data,order)\n",
+    "to": "            previous=self.in_unforced_original_closure\n            self.in_unforced_original_closure=(record['forced_original_reread'] is None\n                and record['bypass_reason'] is None and self.active is not None)\n            try:\n                answer=self.original(controls,data,order)\n            finally:\n                self.in_unforced_original_closure=previous\n"
+   },
+   {
+    "from": "        self.completed_stage_count=0\n",
+    "to": "        self.completed_stage_count=0\n        self.total_carriers=None\n"
+   },
+   {
+    "from": "            raw=(json.dumps(record,sort_keys=True,separators=(',',':'),allow_nan=False)+'\\n').encode()",
+    "to": "            values=getattr(q,'detached_meridian_values',None)\n            if values is not None and hasattr(values,'native_horner'):\n                record['strict_native_horner']=dict(values.native_horner.info)\n            raw=(json.dumps(record,sort_keys=True,separators=(',',':'),allow_nan=False)+'\\n').encode()"
+   }
+  ],
+  "detached_meridian_values": [
+   {
+    "from": "import hashlib\n",
+    "to": "import hashlib\nimport importlib.util\n"
+   },
+   {
+    "from": "SOURCE_ROLE = 'detached_meridian_values'\n",
+    "to": "SOURCE_ROLE = 'detached_meridian_values'\nNATIVE_HORNER_PY_SHA256 = 'cfe09c087fd06bdccaf8e35118f87af885cae31603a7884489a1eb9bdf7a54bf'\nNATIVE_HORNER_C_SHA256 = '6dbfbe17c4e535dce61500d9c8da72a088bb377bfba21985f5ef5415cb4e3933'\n"
+   },
+   {
+    "from": "    'rotation_demand_calls_started',",
+    "to": "    'rotation_native_calls_started','rotation_native_calls_returned','rotation_native_calls_failed',\n    'rotation_native_order0_returns','rotation_native_order1_returns','rotation_native_order2_returns',\n    'rotation_demand_calls_started',"
+   },
+   {
+    "from": "            maximum_derivative_two_uses_original_six=True,",
+    "to": "            maximum_derivative_two_consumes_all_six=True,\n            native_Horner_only_for_plain_detached_unforced_closure=True,\n            native_Horner_files=[NATIVE_HORNER_PY_SHA256,NATIVE_HORNER_C_SHA256],\n            original_large_radius_Torch_trigonometry=True,mandatory_reread_uses_original_Torch=True,"
+   },
+   {
+    "from": "    for prefix in ('rotation','rotation_original','rotation_demand'):",
+    "to": "    for prefix in ('rotation','rotation_original','rotation_demand','rotation_native'):"
+   },
+   {
+    "from": "            or counts['rotation_original_calls_started']+counts['rotation_demand_calls_started']\n                > counts['rotation_calls_started']",
+    "to": "            or counts['rotation_original_calls_started']+counts['rotation_demand_calls_started']\n                +counts['rotation_native_calls_started'] > counts['rotation_calls_started']\n            or counts['rotation_native_calls_returned'] != sum(\n                counts['rotation_native_order%d_returns'%d] for d in range(3))"
+   },
+   {
+    "from": "            if rotation.get('origin')=='whole_original_six_coefficient_function':",
+    "to": "            if rotation.get('origin')=='strict_native_Horner_with_original_Torch_selection':\n                expected=(2*(d+1),4-2*d,(26,50,72)[d])\n                if rotation.get('bypass_reason') is not None:\n                    raise ValueError('A forced or tracked reread cannot use the native polynomial')\n            elif rotation.get('origin')=='whole_original_six_coefficient_function':"
+   },
+   {
+    "from": "def _required_rotation_coefficients(z,maximum_derivative):",
+    "to": "def _required_rotation_coefficients(z,maximum_derivative,series=None):"
+   },
+   {
+    "from": "    series = []\n    for derivative in range(maximum_derivative+1):\n        for offset in (1, 2):\n            result = torch.zeros_like(z)\n            for power in range(12, derivative-1, -1):\n                factor = math.factorial(power)//math.factorial(power-derivative)\n                result = result*z+((-1.)**power)*factor/math.factorial(2*power+offset)\n            series.append(result)\n",
+    "to": "    if series is None:\n        series = []\n        for derivative in range(maximum_derivative+1):\n            for offset in (1, 2):\n                result = torch.zeros_like(z)\n                for power in range(12, derivative-1, -1):\n                    factor = math.factorial(power)//math.factorial(power-derivative)\n                    result = result*z+((-1.)**power)*factor/math.factorial(2*power+offset)\n                series.append(result)\n"
+   },
+   {
+    "from": "        self.rotation_function=rotation\n",
+    "to": "        self.rotation_function=rotation\n        source=Path(__file__).resolve().parents[1]/'resume_20261128'/'fixed_fejer_detached_horner.py'\n        if sha(source)!=NATIVE_HORNER_PY_SHA256 or sha(source.with_suffix('.c'))!=NATIVE_HORNER_C_SHA256:\n            raise ValueError('Bind both complete sources of the detached working Horner path')\n        spec=importlib.util.spec_from_file_location('fixed_fejer_bound_detached_horner',source)\n        native=importlib.util.module_from_spec(spec)\n        spec.loader.exec_module(native)\n        self.native_horner=native.DetachedHorner()\n"
+   },
+   {
+    "from": "            if maximum_derivative==2:\n                reason=",
+    "to": "            if (reason is None and self.closure.in_unforced_original_closure\n                    and self.module._plain_tensor(radial)):\n                polynomial=self.native_horner.series(radial,maximum_derivative)\n                if polynomial is not None:\n                    self.counts['rotation_native_calls_started']+=1\n                    try:\n                        answer=_required_rotation_coefficients(radial,maximum_derivative,series=polynomial)\n                    except Exception:\n                        self.counts['rotation_native_calls_failed']+=1\n                        raise\n                    self.counts['rotation_native_calls_returned']+=1\n                    self.counts['rotation_native_order%d_returns'%maximum_derivative]+=1\n                    self.counts['rotation_calls_returned']+=1\n                    arrays=2*(maximum_derivative+1)\n                    record.update(completed=True,status='returned',\n                        origin='strict_native_Horner_with_original_Torch_selection',\n                        computed_coefficient_arrays=arrays,uncomputed_trailing_slots=6-arrays,\n                        completed_horner_updates=(26,50,72)[maximum_derivative])\n                    return answer\n            if maximum_derivative==2:\n                reason="
+   },
+   {
+    "from": "            last_rotation_call=_copy(self.last_rotation_call),",
+    "to": "            last_rotation_call=_copy(self.last_rotation_call),\n            strict_native_horner=_copy(self.native_horner.info),"
+   }
+  ],
+  "endpoint": [
+   {
+    "from": "    def _total(self, value):\n        block = value.reshape(self.J-1, self.integration_order, value.shape[-2], 3)\n        widths = tensor(np.diff(self.mesh))\n        cell_total = (block*tensor(self.gauss_w)[None, :, None, None]).sum(1)*widths[:, None, None]\n        # Same actual reduction order as base._integrate's total.\n        return torch.cumsum(cell_total, 0)[-1]\n",
+    "to": "    def _total(self, value):\n        block = value.reshape(self.J-1, self.integration_order, value.shape[-2], 3)\n        kernel = getattr(self, 'detached_closure_values', None)\n        scope = kernel.active if kernel is not None and kernel.in_unforced_original_closure else None\n        if scope is None:\n            widths, weights = tensor(np.diff(self.mesh)), tensor(self.gauss_w)\n        else:\n            if scope.total_carriers is None:\n                scope.total_carriers = (tensor(np.diff(self.mesh)), tensor(self.gauss_w))\n            widths, weights = scope.total_carriers\n        cell_total = (block*weights[None, :, None, None]).sum(1)*widths[:, None, None]\n        # Same actual reduction order as base._integrate's total.\n        return torch.cumsum(cell_total, 0)[-1]\n"
+   },
+   {
+    "from": "    def _solve_stage(self, data, previous, frame, zero, tau, stage_index):\n        \"\"\"Detached Newton only in THIS fixed three-dimensional normal plane.\"\"\"\n        count = len(previous)\n        eta = torch.zeros((count,3),dtype=torch.float64)\n        success = torch.zeros(count,dtype=torch.bool)\n        failed = torch.zeros(count,dtype=torch.bool)\n        updates = np.zeros(count,dtype=np.int64)\n        reasons = ['unresolved']*count\n        last_matrix = [None]*count\n        last_alpha = [None]*count\n        last_candidate_control_norm = [None]*count\n        last_trial_norm = [None]*count\n        self.normal_counts['stage_root_angle_attempts'] += count\n        with torch.no_grad():\n            for iteration in range(self.policy.maximum_iterations+1):\n                value = self._stage_constraints(eta[:,None],data,previous,frame,zero,tau,0)[:,0]\n                norms = torch.linalg.vector_norm(value,dim=-1)\n                control = self._stage_control_jets(previous,frame,eta[:,None],0)[:,0]\n                finite = torch.isfinite(value).all(-1) & torch.isfinite(norms) & self._inside_domain(control)\n                active = ~success & ~failed\n                bad = active & ~finite\n                for j in torch.nonzero(bad).flatten().tolist():\n                    reasons[j] = 'nonfinite current-plane residual or actual control domain failed'\n                failed |= bad\n                done = active & finite & (norms <= self._stage_tolerance())\n                success |= done\n                for j in torch.nonzero(done).flatten().tolist():\n                    reasons[j] = 'complete current-plane original residual tolerance met'\n                active = ~success & ~failed\n                if not bool(active.any()):\n                    break\n                if iteration == self.policy.maximum_iterations:\n                    for j in torch.nonzero(active).flatten().tolist():\n                        reasons[j] = 'declared fixed-plane Newton budget exhausted'\n                    failed |= active\n                    break\n                try:\n                    matrix = self._stage_jacobian(eta,data,previous,frame,zero,tau)\n                except (EndpointRootFailure,RuntimeError) as error:\n                    for j in torch.nonzero(active).flatten().tolist():\n                        reasons[j] = 'actual complete normal-plane Jacobian unavailable: '+str(error)\n                    failed |= active\n                    break\n                direction = torch.zeros_like(eta)\n                work = active.clone()\n                for j in torch.nonzero(active).flatten().tolist():\n                    last_matrix[j] = dict(\n                        scope='already evaluated current-plane Jacobian at its own recorded eta/control/residual',\n                        current_full_point_sha256=self._current_point_sha256,\n                        normal_stage_index=stage_index,local_angle_index=j,newton_iteration=iteration,\n                        exact_auxiliary_node=str(self.normal_step_nodes[stage_index]),\n                        actual_auxiliary_node_hex=float(tau).hex(),\n                        actual_normal_increment=[float(v) for v in eta[j]],\n                        actual_previous_controls=[float(v) for v in previous[j,0]],\n                        actual_controls=[float(v) for v in control[j]],\n                        actual_residual=[float(v) for v in value[j]],\n                        actual_previous_frame=[[float(v) for v in row] for row in frame[j,0]],\n                        matrix_values=[[float(v) for v in row] for row in matrix[j]],\n                        extra_field_or_J_evaluations=0,extra_SVD_evaluations=0)\n                    try:\n                        self.normal_counts['three_dimensional_solve_angle_attempts'] += 1\n                        direction[j] = torch.linalg.solve(matrix[j],value[j,:,None])[:,0]\n                    except RuntimeError as error:\n                        work[j] = False\n                        failed[j] = True\n                        reasons[j] = 'actual three-dimensional normal-plane solve failed: '+str(error)\n                    if bool(work[j]) and not bool(torch.isfinite(direction[j]).all()):\n                        work[j] = False\n                        failed[j] = True\n                        reasons[j] = 'nonfinite actual normal-plane Newton direction'\n                if not bool(work.any()):\n                    continue\n                accepted = ~work\n                next_eta = eta.clone()\n                alpha = torch.ones(count,dtype=torch.float64)\n                for _ in range(self.policy.maximum_backtracks):\n                    candidate = eta-alpha[:,None]*direction\n                    candidate_controls = self._stage_control_jets(previous,frame,candidate[:,None],0)[:,0]\n                    admissible = torch.isfinite(candidate).all(-1) & self._inside_domain(candidate_controls)\n                    pending = work & ~accepted\n                    trial = torch.where((pending & admissible)[:,None],candidate,eta)\n                    trial_value = self._stage_constraints(trial[:,None],data,previous,frame,zero,tau,0)[:,0]\n                    trial_norm = torch.linalg.vector_norm(trial_value,dim=-1)\n                    for j in torch.nonzero(pending).flatten().tolist():\n                        last_alpha[j] = float(alpha[j])\n                        cn = torch.linalg.vector_norm(candidate_controls[j])\n                        last_candidate_control_norm[j] = float(cn) if bool(torch.isfinite(cn)) else None\n                        last_trial_norm[j] = float(trial_norm[j]) if bool(torch.isfinite(trial_norm[j])) else None\n                    good = (pending & admissible & torch.isfinite(trial_norm)\n                        & ((trial_norm <= self._stage_tolerance())\n                            | (trial_norm < (1-self.policy.armijo*alpha)*norms)))\n                    next_eta[good] = candidate[good]\n                    accepted |= good\n                    self.endpoint_counts['root_line_search_evaluations'] += count\n                    self.normal_counts['stage_backtrack_angle_evaluations'] += count\n                    if bool(accepted.all()):\n                        break\n                    alpha[work & ~accepted] *= .5\n                bad = work & ~accepted\n                for j in torch.nonzero(bad).flatten().tolist():\n                    reasons[j] = 'no same-plane residual Armijo decrease inside the actual six-control domain'\n                failed |= bad\n                advanced = work & accepted\n                updates[advanced.cpu().numpy()] += 1\n                self.endpoint_counts['root_iterations'] += int(advanced.sum())\n                self.normal_counts['stage_newton_angle_updates'] += int(advanced.sum())\n                eta = next_eta\n            final = self._stage_constraints(eta[:,None],data,previous,frame,zero,tau,0)[:,0]\n            norms = torch.linalg.vector_norm(final,dim=-1)\n            controls = self._stage_control_jets(previous,frame,eta[:,None],0)[:,0]\n            success &= (torch.isfinite(final).all(-1) & torch.isfinite(norms)\n                & self._inside_domain(controls) & (norms <= self._stage_tolerance()))\n            for j in torch.nonzero(~success).flatten().tolist():\n                if reasons[j] == 'complete current-plane original residual tolerance met':\n                    reasons[j] = 'returned original current-plane residual or control-domain check failed'\n        finite = lambda v: float(v) if math.isfinite(float(v)) else None\n        records = [dict(local_angle_index=j,successful=bool(success[j]),\n            actual_newton_updates=int(updates[j]),reason=reasons[j],\n            actual_normal_increment=[finite(v) for v in eta[j]],\n            actual_control=[finite(v) for v in controls[j]],\n            final_dimensionless_stage_residual_norm=finite(norms[j]),\n            physical_stage_residual_norm=finite(self.S*norms[j]),\n            dimensionless_control_norm=finite(torch.linalg.vector_norm(controls[j])),\n            last_alpha=last_alpha[j],last_trial_residual_norm=last_trial_norm[j],\n            last_candidate_control_norm=last_candidate_control_norm[j],\n            last_evaluated_plane_matrix=(None if bool(success[j]) else last_matrix[j]))\n            for j in range(count)]\n        self.normal_counts['stage_root_angle_successes'] += int(success.sum())\n        self.normal_counts['failed_stage_angle_count'] += int((~success).sum())\n        return eta.detach(),success,records\n",
+    "to": "    def _solve_stage(self, data, previous, frame, zero, tau, stage_index):\n        \"\"\"Detached Newton only in THIS fixed three-dimensional normal plane.\"\"\"\n        count = len(previous)\n        eta = torch.zeros((count,3),dtype=torch.float64)\n        success = torch.zeros(count,dtype=torch.bool)\n        failed = torch.zeros(count,dtype=torch.bool)\n        updates = np.zeros(count,dtype=np.int64)\n        reasons = ['unresolved']*count\n        last_matrix = [None]*count\n        last_alpha = [None]*count\n        last_candidate_control_norm = [None]*count\n        last_trial_norm = [None]*count\n        self.normal_counts['stage_root_angle_attempts'] += count\n        with torch.no_grad():\n            for iteration in range(self.policy.maximum_iterations+1):\n                value = self._stage_constraints(eta[:,None],data,previous,frame,zero,tau,0)[:,0]\n                norms = torch.linalg.vector_norm(value,dim=-1)\n                control = self._stage_control_jets(previous,frame,eta[:,None],0)[:,0]\n                finite = torch.isfinite(value).all(-1) & torch.isfinite(norms) & self._inside_domain(control)\n                active = ~success & ~failed\n                bad = active & ~finite\n                for j in torch.nonzero(bad).flatten().tolist():\n                    reasons[j] = 'nonfinite current-plane residual or actual control domain failed'\n                failed |= bad\n                done = active & finite & (norms <= self._stage_tolerance())\n                success |= done\n                for j in torch.nonzero(done).flatten().tolist():\n                    reasons[j] = 'complete current-plane original residual tolerance met'\n                active = ~success & ~failed\n                if not bool(active.any()):\n                    break\n                if iteration == self.policy.maximum_iterations:\n                    for j in torch.nonzero(active).flatten().tolist():\n                        reasons[j] = 'declared fixed-plane Newton budget exhausted'\n                    failed |= active\n                    break\n                try:\n                    matrix = self._stage_jacobian(eta,data,previous,frame,zero,tau)\n                except (EndpointRootFailure,RuntimeError) as error:\n                    for j in torch.nonzero(active).flatten().tolist():\n                        reasons[j] = 'actual complete normal-plane Jacobian unavailable: '+str(error)\n                    failed |= active\n                    break\n                direction = torch.zeros_like(eta)\n                work = active.clone()\n                for j in torch.nonzero(active).flatten().tolist():\n                    # Only failed angles publish this diagnostic. Keep exact last source tensors.\n                    last_matrix[j] = (iteration,eta[j],control[j],value[j],matrix[j])\n                    try:\n                        self.normal_counts['three_dimensional_solve_angle_attempts'] += 1\n                        direction[j] = torch.linalg.solve(matrix[j],value[j,:,None])[:,0]\n                    except RuntimeError as error:\n                        work[j] = False\n                        failed[j] = True\n                        reasons[j] = 'actual three-dimensional normal-plane solve failed: '+str(error)\n                    if bool(work[j]) and not bool(torch.isfinite(direction[j]).all()):\n                        work[j] = False\n                        failed[j] = True\n                        reasons[j] = 'nonfinite actual normal-plane Newton direction'\n                if not bool(work.any()):\n                    continue\n                accepted = ~work\n                next_eta = eta.clone()\n                alpha = torch.ones(count,dtype=torch.float64)\n                for _ in range(self.policy.maximum_backtracks):\n                    candidate = eta-alpha[:,None]*direction\n                    candidate_controls = self._stage_control_jets(previous,frame,candidate[:,None],0)[:,0]\n                    admissible = torch.isfinite(candidate).all(-1) & self._inside_domain(candidate_controls)\n                    pending = work & ~accepted\n                    trial = torch.where((pending & admissible)[:,None],candidate,eta)\n                    trial_value = self._stage_constraints(trial[:,None],data,previous,frame,zero,tau,0)[:,0]\n                    trial_norm = torch.linalg.vector_norm(trial_value,dim=-1)\n                    for j in torch.nonzero(pending).flatten().tolist():\n                        last_alpha[j] = float(alpha[j])\n                        cn = torch.linalg.vector_norm(candidate_controls[j])\n                        last_candidate_control_norm[j] = float(cn) if bool(torch.isfinite(cn)) else None\n                        last_trial_norm[j] = float(trial_norm[j]) if bool(torch.isfinite(trial_norm[j])) else None\n                    good = (pending & admissible & torch.isfinite(trial_norm)\n                        & ((trial_norm <= self._stage_tolerance())\n                            | (trial_norm < (1-self.policy.armijo*alpha)*norms)))\n                    next_eta[good] = candidate[good]\n                    accepted |= good\n                    self.endpoint_counts['root_line_search_evaluations'] += count\n                    self.normal_counts['stage_backtrack_angle_evaluations'] += count\n                    if bool(accepted.all()):\n                        break\n                    alpha[work & ~accepted] *= .5\n                bad = work & ~accepted\n                for j in torch.nonzero(bad).flatten().tolist():\n                    reasons[j] = 'no same-plane residual Armijo decrease inside the actual six-control domain'\n                failed |= bad\n                advanced = work & accepted\n                updates[advanced.cpu().numpy()] += 1\n                self.endpoint_counts['root_iterations'] += int(advanced.sum())\n                self.normal_counts['stage_newton_angle_updates'] += int(advanced.sum())\n                eta = next_eta\n            final = self._stage_constraints(eta[:,None],data,previous,frame,zero,tau,0)[:,0]\n            norms = torch.linalg.vector_norm(final,dim=-1)\n            controls = self._stage_control_jets(previous,frame,eta[:,None],0)[:,0]\n            success &= (torch.isfinite(final).all(-1) & torch.isfinite(norms)\n                & self._inside_domain(controls) & (norms <= self._stage_tolerance()))\n            for j in torch.nonzero(~success).flatten().tolist():\n                if reasons[j] == 'complete current-plane original residual tolerance met':\n                    reasons[j] = 'returned original current-plane residual or control-domain check failed'\n        finite = lambda v: float(v) if math.isfinite(float(v)) else None\n        def failed_matrix(j):\n            saved=last_matrix[j]\n            if saved is None:\n                return None\n            iteration,increment,current,residual,jacobian=saved\n            return dict(\n                scope='already evaluated current-plane Jacobian at its own recorded eta/control/residual',\n                current_full_point_sha256=self._current_point_sha256,\n                normal_stage_index=stage_index,local_angle_index=j,newton_iteration=iteration,\n                exact_auxiliary_node=str(self.normal_step_nodes[stage_index]),\n                actual_auxiliary_node_hex=float(tau).hex(),\n                actual_normal_increment=[float(v) for v in increment],\n                actual_previous_controls=[float(v) for v in previous[j,0]],\n                actual_controls=[float(v) for v in current],\n                actual_residual=[float(v) for v in residual],\n                actual_previous_frame=[[float(v) for v in row] for row in frame[j,0]],\n                matrix_values=[[float(v) for v in row] for row in jacobian],\n                extra_field_or_J_evaluations=0,extra_SVD_evaluations=0)\n        records = [dict(local_angle_index=j,successful=bool(success[j]),\n            actual_newton_updates=int(updates[j]),reason=reasons[j],\n            actual_normal_increment=[finite(v) for v in eta[j]],\n            actual_control=[finite(v) for v in controls[j]],\n            final_dimensionless_stage_residual_norm=finite(norms[j]),\n            physical_stage_residual_norm=finite(self.S*norms[j]),\n            dimensionless_control_norm=finite(torch.linalg.vector_norm(controls[j])),\n            last_alpha=last_alpha[j],last_trial_residual_norm=last_trial_norm[j],\n            last_candidate_control_norm=last_candidate_control_norm[j],\n            last_evaluated_plane_matrix=(None if bool(success[j]) else failed_matrix(j)))\n            for j in range(count)]\n        self.normal_counts['stage_root_angle_successes'] += int(success.sum())\n        self.normal_counts['failed_stage_angle_count'] += int((~success).sum())\n        return eta.detach(),success,records\n"
+   }
+  ],
+  "driver": [
+   {
+    "from": "SOURCE_PINS = {",
+    "to": "SOURCE_PINS = {\"native_horner_binding\":(\"scripts/resume_20261128/fixed_fejer_detached_horner.py\",\"cfe09c087fd06bdccaf8e35118f87af885cae31603a7884489a1eb9bdf7a54bf\"),\"native_horner_c\":(\"scripts/resume_20261128/fixed_fejer_detached_horner.c\",\"6dbfbe17c4e535dce61500d9c8da72a088bb377bfba21985f5ef5415cb4e3933\"),"
+   },
+   {
+    "from": "\"\"\"Complete R715 reference-centred R711 normal-plane SO3 optimization.\n\nEvery original free coordinate, positive Gram row, complete geometry row,\nPhase-I/common-slack rule and actual nonlinear trial screen is retained.\nOnly the root equation is centred at the fixed original reference, while\nall six physical jets retain the complete CURRENT raw closure lift. Working\nradial Gram is actually read. All 32 default stages and every upstream\nnormal-frame/target parameter and angular derivative remain in J/J*.\n\"\"\"",
+    "to": "\"\"\"Full halfwave R729 normal-chain optimization with unforced detached Horner evaluation.\nAll positive Gram rows, physical closure lifts, 32 stages and original QP/outer budgets apply.\n\"\"\""
+   }
+  ]
+ },
+ "method_source_guard_updates": {
+  "closure_values": {
+   "assignment": "DERIVED_METHOD_SOURCES = json.loads(",
+   "format": "json_string",
+   "methods": [
+    "_total",
+    "_solve_stage"
+   ]
+  },
+  "analytic_J3": {
+   "assignment": "METHOD_SOURCE_OVERRIDES = ",
+   "format": "json",
+   "methods": [
+    "_total",
+    "_solve_stage"
+   ]
+  },
+  "analytic_frame": {
+   "assignment": "METHOD_SOURCE_OVERRIDES = ",
+   "format": "json",
+   "methods": [
+    "_total"
+   ]
+  },
+  "frame_C1": {
+   "assignment": "METHOD_SOURCE_OVERRIDES = ",
+   "format": "json",
+   "methods": [
+    "_total",
+    "_solve_stage"
+   ]
+  }
+ },
+ "complete_working_semantics": "Fresh source, model and working point identities; all source guards, all Gauss samples, native coordinate roles and numerical budgets retained. The cutoff, large-argument Torch branch, coefficient words and mandatory original nonlinear rereads remain as indicated in the full method replacements."
+}

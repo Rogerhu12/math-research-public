@@ -1,0 +1,225 @@
+{
+  "schema": "complete-run47-halfwave-R729-native-horner-parameter-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "namespace": "fixed-fejer-halfwave-R729-native-horner-first",
+  "complete_ready_files": {
+    "science": {
+      "role": "science",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-science-complete-ready.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-science-complete-ready.json",
+      "bytes": 93038,
+      "sha256": "bb28cba94271c8cee91886338979dd28852de30d8df2d8f46d8934a5ef48a69d",
+      "git_blob_sha": "efbfd82b3bb379bc49f1dc24a314e63b2ba8060a"
+    },
+    "pure": {
+      "role": "pure",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-pure-complete-ready.json",
+      "name": "fixed-fejer-halfwave-R729-native-horner-pure-complete-ready.json",
+      "bytes": 77713,
+      "sha256": "4fcec48ed389cb41964333a2642054f02360be9bc4b9f69f97ed6f4095d4f174",
+      "git_blob_sha": "53e38d2d064afcd16bad52ce7c9df255f6cf5150"
+    }
+  },
+  "full_text_reconstructor": {
+    "role": "Complete ordinary textual parameter reconstruction",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/reproduce_halfwave_R729_native_horner_parameters.mjs",
+    "name": "reproduce_halfwave_R729_native_horner_parameters.mjs",
+    "bytes": 12266,
+    "sha256": "5976079a948e26e62726414926b2a2a78b1615ceb15708eb828dc668d2d5dad6",
+    "git_blob_sha": "41417ed543e1e97a77ed7bb568d30e31192ef75c"
+  },
+  "reconstruction_command": "node topics/visible-flex-larger-amplitude/scripts/resume_20261128/reproduce_halfwave_R729_native_horner_parameters.mjs SOURCE_REPOSITORY DESTINATION",
+  "complete_coefficient_and_source_delivery": {
+    "role": "complete science, pure and normal-build source roles",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-native-horner-complete-source-delivery.json",
+    "name": "fixed-fejer-halfwave-R729-native-horner-complete-source-delivery.json",
+    "bytes": 53774,
+    "sha256": "5744c3e748ac9877a42f9f8b173df1fa3f0a8123391768ebd795968e6c63bb9f",
+    "git_blob_sha": "d44d4bfda00b5aaeb61b5ebbe0cbfae139092434"
+  },
+  "complete_parent_parameter_delivery": {
+    "role": "Full original run33 parameter delivery",
+    "path": "topics/visible-flex-larger-amplitude/topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-delivery.json",
+    "name": "fixed-fejer-halfwave-R729-bhalf-complete-parameter-delivery.json",
+    "bytes": 16430,
+    "sha256": "aa3dee28cb99f684ba5c0ceef6eaefff61064a70464d166718656f0491b76ccb",
+    "git_blob_sha": "0c4c502566125f92e7872ad8029cafcab533134d"
+  },
+  "complete_parent_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-binding.json",
+    "bytes": 30172,
+    "sha256": "ca81f91c4e5eb6eed2b36b0e731628b6226ab1730e343ac30d06a52c7167668a",
+    "git_blob_sha": "63cff3ff35deba4309a41cf01fe4cae6e2433700"
+  },
+  "complete_parents": {
+    "science": {
+      "role": "science",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-science-complete-ready.json",
+      "bytes": 80928,
+      "sha256": "d35579f13e07cf004a333905af411c0a47f2147f42c574b9b0c65af7b02b1798",
+      "git_blob_sha": "8631722f6367d98f4515adce383f49226f69c3cd"
+    },
+    "pure": {
+      "role": "pure",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-pure-complete-ready.json",
+      "bytes": 70074,
+      "sha256": "19e226f138e2076dc2834f7b3a2449eef633961c4a80159e5933c7f0fa0e290a",
+      "git_blob_sha": "86116e5b0605b3fc5d24cf8b998695bf65939401"
+    }
+  },
+  "original_complete_launch_contract": {
+    "role": "Complete fixed run33 request, budgets and source history",
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-33.json",
+    "name": "resume-20261128-actions-request-33.json",
+    "bytes": 45113,
+    "sha256": "3cf46b086e19b5a711ebec118b037a08b8a065db4750700e574f2066bb25a51b",
+    "git_blob_sha": "01a54493aa65c133fadffc98090eb3a1832b8727"
+  },
+  "original_complete_peer_responsibilities": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-binding.json",
+      "bytes": 30172,
+      "sha256": "ca81f91c4e5eb6eed2b36b0e731628b6226ab1730e343ac30d06a52c7167668a",
+      "git_blob_sha": "63cff3ff35deba4309a41cf01fe4cae6e2433700"
+    },
+    "json_pointer": "/complete_peer_responsibility",
+    "whole_file_required": true
+  },
+  "original_64_live_correspondence": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-binding.json",
+      "bytes": 30172,
+      "sha256": "ca81f91c4e5eb6eed2b36b0e731628b6226ab1730e343ac30d06a52c7167668a",
+      "git_blob_sha": "63cff3ff35deba4309a41cf01fe4cae6e2433700"
+    },
+    "json_pointer": "/complete_display_correspondence",
+    "whole_file_required": true
+  },
+  "each_old_selector_and_numeric_word_preserved": true,
+  "roles": {
+    "original_scientific": 138,
+    "current_scientific": 140,
+    "original_runtime": 21,
+    "current_runtime": 23,
+    "generated_complete_files": 17
+  },
+  "selector_totals": {
+    "science": {
+      "original_formal": 575,
+      "formal": 621,
+      "original_live": 64,
+      "live": 84,
+      "original_words": 157,
+      "build_words": 5,
+      "outer_words": 162
+    },
+    "pure": {
+      "original_formal": 564,
+      "formal": 590,
+      "original_live": 0,
+      "live": 0,
+      "original_words": 7,
+      "build_words": 5,
+      "outer_words": 12
+    }
+  },
+  "word_protocol": "Only the output namespace of each original scientific command changes. The outer five words select the source builder, separate receipt and forwarding boundary. Complete numerical flags, row geometry, common-slack recovery, original floating-point and derivative paths, original source guards, full variable and integration counts and all existing outputs are preserved.",
+  "complete_input_reconstruction": {
+    "parent_queue": {
+      "role": "Complete original run33 queue including both input construction steps",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-33.json",
+      "name": "resume-20261128-followups-33.json",
+      "bytes": 80280,
+      "sha256": "7a385ee75986b6693fdf354a6288000eb583a63d95eaaefd654ddd65365b61f0",
+      "git_blob_sha": "de659fd7787046fea517e0579da6db86fcec9aeb"
+    },
+    "pointers": [
+      "/steps/0",
+      "/steps/1"
+    ],
+    "sources": {
+      "maker": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+        "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+        "bytes": 39375,
+        "git_blob_sha": "7b3e12203c15040e07c7dc9cc4f2c20c12d7d566"
+      },
+      "reference": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+        "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+        "bytes": 60335,
+        "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c"
+      }
+    },
+    "argv_words": [
+      6,
+      26
+    ],
+    "original_ids_and_steps_byte_identical_as_JSON_values": true
+  },
+  "native_progress_correspondence": {
+    "native_state": "strict_native_horner.state",
+    "native_c_source_sha256": "strict_native_horner.c_source_sha256",
+    "native_binding_python_sha256": "strict_native_horner.binding_python_sha256",
+    "native_native_coefficient_buffer_sha256": "strict_native_horner.native_coefficient_buffer_sha256",
+    "native_compiler": "strict_native_horner.compiler",
+    "native_compiler_sha256": "strict_native_horner.compiler_sha256",
+    "native_compiler_version": "strict_native_horner.compiler_version",
+    "native_compiler_target": "strict_native_horner.compiler_target",
+    "native_binary_bytes": "strict_native_horner.binary_bytes",
+    "native_binary_sha256": "strict_native_horner.binary_sha256",
+    "native_initial_rounding_code": "strict_native_horner.initial_rounding_code",
+    "native_initial_mxcsr": "strict_native_horner.initial_mxcsr",
+    "native_last_rounding_code": "strict_native_horner.last_rounding_code",
+    "native_last_mxcsr": "strict_native_horner.last_mxcsr",
+    "native_native_calls": "strict_native_horner.native_calls",
+    "native_native_radial_elements": "strict_native_horner.native_radial_elements",
+    "native_element_Horner_updates": "strict_native_horner.element_Horner_updates",
+    "native_whole_original_fallback_calls": "strict_native_horner.whole_original_fallback_calls",
+    "native_compile_error": "strict_native_horner.compile_error",
+    "native_scientific_speedup_measured": "strict_native_horner.scientific_speedup_measured"
+  },
+  "source_build_correspondence": {
+    "native_build_schema": "schema",
+    "native_build_complete": "complete",
+    "native_build_phase": "phase",
+    "native_build_source_commit": "source_commit",
+    "native_build_workflow_trigger_commit": "workflow_trigger_commit",
+    "native_build_github_run_id": "github_run_id",
+    "native_build_github_run_attempt": "github_run_attempt",
+    "native_build_node_version": "node_version",
+    "native_build_python_version": "python_version",
+    "native_build_original_entry_kind": "original_entry_kind",
+    "native_build_original_entry_argument_count": "original_entry_argument_count",
+    "native_build_generated_sources_complete": "generated_sources_complete",
+    "native_build_builder_returncode": "builder_returncode",
+    "native_build_child_started": "child_started",
+    "native_build_child_returncode": "child_returncode",
+    "native_build_successful_process_return": "successful_process_return",
+    "native_build_wrapper_source": "wrapper_source.sha256",
+    "native_build_source_builder": "complete_source_builder.sha256",
+    "native_build_entry_source": "actual_original_entry_source.sha256",
+    "native_build_full_materialization": "complete_materialization_record.sha256",
+    "native_build_full_file_count": "complete_materialization.complete_source_file_count",
+    "native_build_scientific_role_count": "scientific_role_count",
+    "native_build_current_complete_runtime_source_count": "current_complete_runtime_source_count",
+    "native_build_all_original_method_guards_retained": "all_original_method_guards_retained",
+    "native_build_explicit_complete_method_replacements": "explicit_complete_method_replacements",
+    "native_build_extra_scientific_preflight_or_fixture": "extra_scientific_preflight_or_fixture"
+  },
+  "actual": {
+    "run": null,
+    "job": null,
+    "model": null,
+    "first_point": null,
+    "compiled_shared_object": null,
+    "telemetry": null,
+    "matching_run33_point": null,
+    "scientific_speedup": null,
+    "accepted_directions": null,
+    "complete_science_return": null,
+    "complete_pure_readout": null,
+    "strict_certificate": null
+  }
+}
