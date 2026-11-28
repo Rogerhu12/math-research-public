@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 16:08:40 UTC按根规则8小文本备用通道读公开main c0d153db0f6cea0b8d587e0d4a8c8d897933961b、私库main 4c53fcbb499df141d182fa8a34781093588158de；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE df853bcaea67ff884399fe6fc8aae681b34aed8f本题认领仍进行中。
+- 2026-11-28 16:11:22 UTC按根规则8小文本备用通道读公开main ef39101575d0c477a10decc3dc61e57354a25bc2、私库main 816bfee8d1e8c2994c7de703224462186bc634ec；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE df853bcaea67ff884399fe6fc8aae681b34aed8f本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -33,7 +33,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 §§74–79原CW/绝对周期d^ac=6fH^ac A_pξ₁；坏恰T³并自动T⁴。原Y_k=0⇔p^k|a₂；原循环邻点/八分次及参考/Cartier/一次矩准确消前两槽。各层原Y_k或完整a₂∈Qp非零已足够，不必强求a₂模p单位。
 §§80–85原全迹−B₂p₊₁+2Bp₊₂−B₃−2B₂及全部17标记接完整CRT/留数；原Hecke三维U₀/U₁/U₂中真泛函杀头两基，DU₁=x^q、D²U₂=2y^q；G(T)=X(T)^p，c_p∈Fp×，DH=−x/c_p−s^(p−1)，A/B/C全贡献不删。
 §§86–90各次Cartier核和完整四槽BD1已显式；五个固定代数矩非零及复共轭Chebotarev子列已付，但不代总值。一般q-Frob重标t→−pt，标记并非逐点Fq有理。唯一μ的单位阶乘/二项式构造与H=red(μ⁻¹ζ(ℓ)−ℓ(s^p)/p)全盘已自证；同步剪切四槽准确相消。
-§91原两条τ高格接倒数点G(Q_P)，完整四项有有限二项式母式，可取μ′=−d_n、χ′=0；不删H混项。§92每个倒数点经5-Frob/17惯性证非挠，七进log首格−5v/(2λ⁵)单位。§93全野挠值接全部剩余盘第二种积分；固定倒数点的原G格是固定线联络p曲率，普通位由真实Kπ给全部点。§94固定属二双商给两原格在全部好素数的共同曲率公式；Bost定理及已证非挠性付单个补偿项无穷p非零，分裂型和原全和未付。完整第三评价未付。
+§91原两条τ高格接倒数点G(Q_P)，完整四项有有限二项式母式，可取μ′=−d_n、χ′=0；不删H混项。§92每个倒数点经5-Frob/17惯性证非挠，七进log首格−5v/(2λ⁵)单位。§93全野挠值接全部剩余盘第二种积分；固定倒数点的原G格是固定线联络p曲率，普通位由真实Kπ给全部点。§94固定属二双商给两原格在全部好素数的共同曲率公式；Bost定理及已证非挠性付单个补偿项无穷p非零，分裂型和原全和未付。§95原四槽全部写为E₁上一元N rem D顶次系数，分母次数≤6p²+12p+880，星号选原标记且保全高阶极；一般用完整标记有限分裂域。完整第三评价未付。
 
 ## 原中央与完整全层：R1070/R1072
 

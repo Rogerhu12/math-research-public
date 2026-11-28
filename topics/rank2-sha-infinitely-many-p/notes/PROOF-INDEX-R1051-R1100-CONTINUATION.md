@@ -217,3 +217,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §31：真实全驯倒数权的K独立性和非零张量
 
 已证明：用原导子的完整六角格和严格主项界，证明各μ₆轨代表的X(P)²√x(P)在K上线性无关；结合两椭圆投影的非挠性及正确原角色方向，给真实全驯倒数张量和其一型p进对数非零，保留完整中央尚有其它项的边界。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §95：原完整四槽的一元有理余式公式
+
+已证明：在原E₁上仅选一对真实标记，用有限奇喷流匹配和全局Cartier将完整BG9写成负二倍N rem D的顶次系数；保所有混项，显式分母次数≤6p²+12p+880，并区分一般分裂扩域与额外复共轭子列。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
