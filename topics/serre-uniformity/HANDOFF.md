@@ -6,33 +6,21 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：99b21d94acad01b4f3101fda9afde7acd3f74bdb**（2026-11-28 21:45 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：b55a9f5b7090e13f434ee5a7a0471bebe7736af0**（2026-11-28 21:59 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤22:45。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤22:59。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-primitive-inertia-slots.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-hahn-extension.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
-[R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域/小惯性C³未全关。R1128 good≥floor(p/16)+3、forced Ω(p/logp)、候选O(p^1.5logp)，不以惰性CM推Q-CM；R1112小aux仍大。R1115原abelian−1整支保留。
+[R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域/小惯性C³未全关。R1128 good≥floor(p/16)+3、forced Ω(p/logp)、候选O(p^1.5logp)；惰性CM不推Q-CM，小aux仍大，原abelian−1整支保留。
 
-[R1131–68](results.md)原class4/cusp/phase、proper修正杯积/Heis p³、global基/Ccyc、43整格/PD/SDR/raw/primed theta均已付；所有未修正socle、MW d0/1、B16、ρ/gauge、carry/CM α/exact/Cor及完整原公式沿逐字前态，不重做。原rs h−zab仍含Har(1,3,4)，七坏支及U/U²/β底参数保全，大aux不代空集。
+[R1131–81](results.md)原class4/proper杯积/Heis p³、ordered/BCH跨同源、全SS CM参考、三中央/两abelian Brandt单位理想、原43 Frob有限重建及绝对LT/CM全p^n norm均已付。全部β/原mask、未修正socle、MW d0/1、B16、ρ/gauge、carry、CM α、exact/Cor、σ/shear、Tate n⁻⁴和实际λ∞沿[open](open.md)及最新逐字前态，不重做。
 
-[R1159–60](results.md)原Norm的ordered/BCH跨同源及J_n/B_n三整来源已付，保ψ⁻¹全shear；一般共轭路径显式读数继续，不作单点v_n乘法。
+R1177固定physical A=−synt S、中心b(S,S)−H、c=η；实际T=s时最低−λ∞S_Xs。R1174回原CM参考须保e=c_BCH−Q_actual(X+ΔX,Y+ΔY)+Q_ref(X,Y)，最高剪切零不强加actual moments零。R1175–76 pure n+28后42未知有限解未执行，原Z的模p²提升差不能删。
 
-[R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS CM参考/μ6外ordinary源、Π0/Π2 RHS、完整γp/PD与Qρ已付。H=W−Q仅跨实际CM基齐次，回参考保全部shear/Δ的e；最高剪切零分类不能强加actual X/Y。全部公式见open及原文，最低Tate/目标非零继续。
-
-[原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整低heat/norm及首p共振强迫已付，Fay核阶≤2p+15；σ/CM gauge/odd–odd、carry和H_p0后全部低卷积保全。已付corr非原mask的额外零条件，原joint/未平滑排除继续；准确常数沿open/逐字前态。
-
-[R1169–73](results.md)三中央/两abelian Brandt单位理想及原43格完整RHS已付，保quotient模p²、σ/shear、Tate n⁻⁴与正λ∞、最低BCH−λ∞ΔX T/2。物理W A=D有限重建；原Z有提升差不置零，混用synt/实际T按R1177。
-
-[R1175–76](results.md)原43 Frob唯一；pure n+28位后42未知一次模p^n满列秩解，pure来自−1 fibre。整δ1/Tate/Higgs/KT及σ/cross/λ∞/carry全保，未数值执行；原非零/whole盘继续。
-
-[R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)正Kummer/左扭曲/d+Ω给物理A=−S、中心b(S,S)−H、c=η。Hurwitz本值、全部双积/Q/corr不改；实际T=s时最低−λ∞S_Xs，R1173物理W A=D。全部规范及旧文纠错沿原文，不翻H0或独立r/s。
-
-[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM整Teich全p^n norm含1+p²/1+p⁴/1+p⁶，Δ付restriction单射；完整global fibre=[x∞,y∞]Θ∞含坏支，准确x0/y0与M12常数见open。无挠塔杀坏位中央惯性，cubic最低全Z4已付；仅真实CM I∞，不提升非CM有限I或whole盘。
-
-[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp及合法PD给所有奇r≤p−2的物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!Bp−r/r。U_E=γ_E²、η★=1含全部坏支；σγ=−γ/root phase/原角色条件全保，不新增global源。
+R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!Bp−r/r，U_E=γ_E²、η★=1含坏支。R1181真实CM I∞含1+p²/1+p⁴/1+p⁶，完整global fibre及全部坏支已付；不提升非CM有限I。原rs h−zab仍含Har(1,3,4)，七坏支/全深盘、真实Gaussian全mask、一般共轭路径读数与指定非零继续。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
@@ -45,6 +33,8 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 [R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
 
 [R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
+
+[R1194](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原零谱核扩大为M=4N+2的对称Hahn块，原q_j(0)全左半无权范数准确为−ℓ!/[2(M+1)(M!)²]单位。原短谱仍读Σq_j²/(3j+2)，e0给三切点/四段；未把新全范数替成K4，继续实际权重运输。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

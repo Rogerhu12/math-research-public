@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-primitive-inertia-slots.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-hahn-extension.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -12,23 +12,9 @@
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域及小惯性C³仍未全关。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)good≥floor(p/16)+3，forced Ω(p/logp)，原候选O(p^1.5logp)；惰性CM不推Q-CM。[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)圆单位/导子/判别式已成，小aux仍太大。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)原abelian −1整支保留。
 
-[R1131–40](results.md)原DVR/Fricke/odd-K/整K₂/Manin/Hecke/p-norm仅按各原门；完整β角色、四cusp矩、cross/phase及保留范围逐字见最新归档，不扩一般pairs/四阶。
+[R1131–50](results.md)原DVR/Fricke/odd-K/整K₂/Manin/Hecke/p-norm、四cusp矩、proper修正杯积和完整Heis塔均已付，准确公式沿[本次逐字前态](open-archive-2026-11-28-before-hahn-extension.md)。未修正proper杯积仍非零；MW d0/1与B16/Bp−15门、完整β角色/cross/phase不删。R1147唯一p⁴²源及compatible p^n塔不提升原有限Cartan I；原43格幅14与λ∞=21(1+p⁴)/11仍保。
 
-[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件c_Eis=−2016δ²Pχ1≠0。[R1141–42](results.md)Bp−5单位时原proper I3 H²=O/p，constant cup非零socle；MW d0/1对应field像非零/零，d未定。
-
-[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术 A1∪A2=−8δ² A1∪ε4/11，修正pair杯积零；ε4=βχ2/(1−a⁻⁴)，v4=1/252、v8=1/132。完整Tate算术transfer、cyclic cup、HS检测/polar/两factor2及proper回填已付。指定β8=0且Ψ_E(Pχ1)={F1,ε4}/(132δ²)，不扩一般pairs/四阶或误删未修正proper非零。
-
-[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)原L3/L5/L8的proper Heis p³、满几何像和全部cusps/ℓ≠p含2、3已付。B8给base中心H¹/H²0，每个global abelian pair唯一lift，p-local中心一维。曲线twists=J(K)[p]ω⁻⁷，B16/Bp−15门内删I8才全无。
-
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)全S0唯一p⁴²源、规范proper Heis与compatible p^n塔全付；原primitive norm/phase/arith transfer给v_d∞=(1−p^d)B_(d+2)/(d+2)、λ∞=21(1+p⁴)/11。每个good E fibre crystalline；未分歧底上原43格幅14的FL准确恢复原modp Heis。Cartan I未升，SS整首jet仍开。
-
-[R1149–50](results.md)原43塔相对Hodge连接、准确E6/E10/λ∞、原Tate a5=u5及全局log Frobenius同源已付。完整finite Cartan/短盘三槽见下；仍只在原未分歧整格及有限I范围使用。
-
-[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付p>691同一canonical cusp fibre φ_h(Ξ_5,9;14)：Tate整支撑/低偶权消失/q_h奇项全付。ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4；self补项全消，六次幂同cusp判据与逐label密度准确，原abelian−1整支未反改。
-
-[R1148 §§10–11](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的全global H¹L3/5/9分别由原γ3/5/9生成。全部pairs=(aγ3,bγ5)，Θ与Ξ共享γ5的实际p⁵群给[M:Q]=(p−1)p⁵；共同cusp排除恰κΘ0/κΞ非零，密度1/p²。未宣loc_p单位，Bp−3/5/9局部门仍保。
-
-R1148 §12付同一cover的中央character trace与全affine误差界；ℓ>p⁸时全部labels在同一affine点可实现。大Chebotarev素数仍不代affine空，完整界沿最新归档，继续小素真实值/p-local。
+R1148同一canonical cusp φ_h(Ξ5,9;14)、全global H¹L3/5/9生成及共享γ5的p⁵群已付；p>C_cyc=exp(9^(224·9⁴))只给全局生成，共同cusp密度1/p²。原局部Bernoulli单位仍开；ℓ>p⁸全部affine labels可实现，不把大Chebotarev素数代affine空。原abelian−1整支与全部端点常数沿原文保留。
 
 ### 原整 filling、算术未平滑与连续矩来源
 
@@ -125,6 +111,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 [R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
 
 [R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
+
+[R1194](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原零谱核扩大为M=4N+2的对称Hahn块，原q_j(0)全左半无权范数准确为−ℓ!/[2(M+1)(M!)²]单位。原短谱仍读Σq_j²/(3j+2)，e0给三切点/四段；未把新全范数替成K4，继续实际权重运输。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 

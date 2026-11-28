@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Dixon零谱核的准确Hahn范数（已证明）**：[R1194](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原零谱核扩大为M=4N+2的对称Hahn块，原q_j(0)全左半无权范数准确为−ℓ!/[2(M+1)(M!)²]单位。原短谱仍读Σq_j²/(3j+2)，e0给三切点/四段；未把新全范数替成K4，继续实际权重运输。
+
 - **同一半秩因子的全部真实primitive惯性槽（已证明）**：[R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
 
 - **原Hermitian第四插入与完整端点块（已证明）**：[R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
