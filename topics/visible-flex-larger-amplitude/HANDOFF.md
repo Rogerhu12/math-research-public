@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`64106a992374d5cccd1fe0efc53aa19f2b014339`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`73d062e38fd4d05330867da403d6ef0c5e299592`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD整合循环，不冒pull或force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅公开Actions；raw只runner/scratch，不Git/Release/artifact/改名输入。全源/参数/真实run/whole输出/typed/未知/失败保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。不加AST/fixture/重跑/审查门，不减目标或原预算。
 
@@ -20,7 +20,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 | run | 真实边界 |
 |---|---|
 | 12–16 | 官方cancelled；全已返输入/诊断、末真pull与未返科学保[16终态](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)及旧链，未付N4096/M320/J1845精化。 |
-| 17=46053911348 | 两input0；36ef0794/ed810/PID3823/model f2e417。current b0468/accepted2/g2.0460148700803895；第三e2c1ad7统计返，几何未知。 |
+| 17=46053911348 | 两input0；36ef0794/ed810/PID3823/model f2e417。current e2c1ad7/accepted3/真g2.0441496554550835，第三restoration已接受，仍不可行。 |
 | 18=46062343475 | 两input0、前三science1及三reader0；e3d2eb/10fa/f600/PID7515/model9ec211。current4a822/accepted2/g2.0460148700322605，第二真接受23:54:15.965520。 |
 | 19=46076669320 | 两input0；36304a0d/f600/PID3240/model0abfbf。currentd761/accepted1/g.9679630392005261；第二b622真g.9817636973298995已拒，下一b90d统计返、几何未知。 |
 | 20=46079535427 | 两input0；c592e434/f600/PID3277/model0abfbf。current初7e06/accepted0/g.9684249942095058；首345906真g.9750099817855096已拒，下一d346统计返、几何未知。 |

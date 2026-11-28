@@ -160,3 +160,7 @@ ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691
 刊完整20新源共1053530B、当前137角色及18runtime、三全字再生器和准确完整源变化。R724/首四已刊件保持同一身份；原全部父源在原路径。以完整19半宽/δ1/32/两μ.01只换中央成对半波，不混恢复策略；真实source/model严格隔离，外层原Gauss/partial规则不变，准确新物理费用另接。未执行本地science/AST/fixture；实际run/输入/场仍null，接全参数启动。
 
 完整30件共1313861B；双README云核至`64106a992374d5cccd1fe0efc53aa19f2b014339`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-28 00:40:07 UTC — 17第三restoration实际接受，有限违反仍正
+
+17第三e2c1ad7真实接受，accepted3/Phi4954.529810387847/Gram.6374134312335948/g2.0441496554550835；原全几何已返但违反仍正。00:23:19.468855是后续current-geometry事件，不填未知决策时刻/alpha/六g；reportfalse、官方仍运行。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。双README云核至`73d062e38fd4d05330867da403d6ef0c5e299592`无变（非pull）。
