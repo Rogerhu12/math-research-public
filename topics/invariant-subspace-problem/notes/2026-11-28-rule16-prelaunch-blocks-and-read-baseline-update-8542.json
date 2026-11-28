@@ -1,0 +1,64 @@
+{
+  "publicRuleDiff": {
+    "path": "README.md",
+    "oldBlob": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "newBlob": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "head": "fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d",
+    "removed": "",
+    "added": "16. **子代理的模型和推理强度（作者要求，2026-11-28 起，对所有课题有效）**：派子代理（subagent）时，一律显式指定模型（model）为 `gpt-6.2-astra`、推理强度（reasoning effort）为 `ultra`。作者原话：\"把subagent指定为gpt-6.2-astra，推理强度指定为ultra\"。"
+  },
+  "privateRuleDiff": {
+    "repository": "Rogerhu12/math-research",
+    "path": "README.md",
+    "before": "5ba164843b1f5802184178a82d786264404873a3",
+    "after": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a",
+    "readCommit": "2904c82e909a56412f3e401c0c19139e6bd46a36",
+    "removed": "",
+    "added": "15. **子代理的模型和推理强度（作者要求，2026-11-28 起，对所有课题有效）**：派子代理（subagent）时，一律显式指定模型（model）为 `gpt-6.2-astra`、推理强度（reasoning effort）为 `ultra`。作者原话：\"把subagent指定为gpt-6.2-astra，推理强度指定为ultra\"。"
+  },
+  "blocked": [
+    {
+      "tag": "Phi-alpha-U42",
+      "run": 46132031771,
+      "job": 140939093888,
+      "sourceBlob": "eb6c92dcc2b5c1395cebfaaca4024bed9b9b523d",
+      "phase": "driver pull_and_read_rules before subprocess.Popen",
+      "mathProcessStarted": false,
+      "mathReceiptProduced": false,
+      "ruleRead": {
+        "after": "aae33c0c3446edd0ba5c8ae647fc99ad1f78c957",
+        "before": "aae33c0c3446edd0ba5c8ae647fc99ad1f78c957",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": false,
+        "utc": "2026-11-28T09:46:39.717616+00:00"
+      },
+      "reason": "Already-read new README blob was not yet synchronized to exact driver expected baseline",
+      "sourceOrBudgetChanged": false
+    },
+    {
+      "tag": "W-monic-f-pure-head",
+      "run": 46132152322,
+      "job": 140939466184,
+      "sourceBlob": "b1d80b4b8d57b78062148315c16dc665a8224d22",
+      "phase": "driver pull_and_read_rules before subprocess.Popen",
+      "mathProcessStarted": false,
+      "mathReceiptProduced": false,
+      "ruleRead": {
+        "after": "3d0d2f69d7ae1fde97468c3903c371f653693620",
+        "before": "e3a095ed328d32aa9d08bd8232843537917e7059",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": false,
+        "utc": "2026-11-28T09:48:14.261983+00:00"
+      },
+      "reason": "Already-read new README blob was not yet synchronized to exact driver expected baseline",
+      "sourceOrBudgetChanged": false
+    }
+  ],
+  "changeScope": "Only already-read expected README hashes and private read baseline commit; validation, source bytes and all resource budgets unchanged"
+}

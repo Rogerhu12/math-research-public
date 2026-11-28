@@ -86,7 +86,7 @@ def main():
         git("config","user.email","41898282+github-actions[bot]@users.noreply.github.com")
 
         # Only README/QUEUE are read; never publish private text or credentials.
-        private_state={"actualPullRebaseSucceeded":False,"baselineCommit":"e7276f299009cda775c627579009381ef15e432e"}
+        private_state={"actualPullRebaseSucceeded":False,"baselineCommit":"2904c82e909a56412f3e401c0c19139e6bd46a36"}
         private_dir=out/"private-coordination"
         private_dir.mkdir(parents=True,exist_ok=True)
         def private_git(*argv,check=True):
@@ -107,7 +107,7 @@ def main():
             queue=(private_dir/"QUEUE.md").read_text()
             private_state.update(actualPullRebaseSucceeded=True,remoteCommit=private_head,
               utc=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
-              rootRulesGitBlob=private_blob,rootRulesUnchanged=(not private_diff and private_blob=="5ba164843b1f5802184178a82d786264404873a3"),
+              rootRulesGitBlob=private_blob,rootRulesUnchanged=(not private_diff and private_blob=="1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"),
               queueSessionStateVerified=any("invariant-subspace-problem" in row and "进行中（Astra-ISP-8542378f-20261127 / 2026-11-27）" in row for row in queue.splitlines()))
         except Exception as private_error:
             private_state["error"]=type(private_error).__name__+": "+str(private_error)

@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R267：同一真实平坦分母的相容有界有理根与原平方近似](results/R267-appendix-coherent-bounded-rational-roots-of-one-flat-common-denominator.md)：完整carry正收缩尾积构造PrPs=Pr+s；全部有限原旗quasi。YN²=C DN、DN收缩强*I由移动参数预算付清；同Pt的YN Pt尚欠一致范数和真实强极限。
+
 - [R150：W 全图显式首一 f² 与原 I4／I6 两列模](results/R150-appendix-unit211-W-lambda-T-f-global-monic-f-two-and-exact-I4-I6.md)：由两真正singleton均值给纯权单位头；E1保持独立，I4六行/I6十行完整同f呈示，pair与norm只作必要式。新纯权B头及六标量首次执行，无旧门重放。
 
 - [R150：真正 α=0 的原规范范数与 U42、378 权对覆盖](results/R150-appendix-unit211-Phi-zero-true-alpha-zero-original-norm-Q42-and-378-weights.md)：0.381504878秒/0；同一原范数的五个Q系数有Bézout1，固定17/20阶投影给U42，得到378不同权对及1512完整规范点，未称排空或方案长度。

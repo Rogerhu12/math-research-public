@@ -1,32 +1,27 @@
 {
-  "message": "ISP: prove global W monic f two and exact I4 I6 modules; start new pure weight head",
-  "parentCommit": "a3c58553c4591e6ddc97a493fcc12af2085a12a6",
+  "message": "ISP: construct coherent rational roots and actual square approximants; synchronize read rule baselines",
+  "parentCommit": "79e28ef5b0a3213cbad99723999dbd968d2de632",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-lambda-T-f-global-monic-f-two-and-exact-I4-I6.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-global-monic-f-two-paper-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-lambda-T-f-original-monic-two-pure-weight-head-and-scalars-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-lambda-T-f-original-monic-two-pure-weight-head-and-scalars-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-lambda-T-f-original-monic-two-pure-weight-head-and-scalars-8542-root-review.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-monic-f-two-B-head-exact-specialization-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-monic-f-two-B-head-exact-specialization-receipt-8542.json",
-    ".github/workflows/invariant-subspace-8542-w-monic-f-two-pure-head.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-global-monic-f-two-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-global-monic-f-two-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-W-global-monic-f-two-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-W-global-monic-f-two-8542.md",
+    "topics/invariant-subspace-problem/results/R267-appendix-coherent-bounded-rational-roots-of-one-flat-common-denominator.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-coherent-rational-roots-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-focused-exact-actions-driver-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-rule16-prelaunch-blocks-and-read-baseline-update-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-coherent-rational-roots-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-coherent-rational-roots-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-8542.py",
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-alpha-zero-u42-fibers.yml",
     "invariant-subspace-8542-w-monic-f-two-pure-head.yml"
   ]
 }
