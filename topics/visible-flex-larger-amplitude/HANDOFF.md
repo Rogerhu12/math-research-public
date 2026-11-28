@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`00da1c12c5bc1087f80d65aed19df163efe6ac78`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`55cd17edcf1b3f099235129ba830299f4a68c0d0`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -29,6 +29,8 @@ R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本�
 
 
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：真实晚相位 .00015 材料弧贯穿双全圆端及双帽 .0001 内领准确同g，剩余圆周未付；旧锁中央端部捷径<.801/终弦>1.17严格排除全补齐。原3层×7相位×9图完整测量现触发，actual待。
+
+[R752新全闭初g](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md)：Y=.37/e=.81/b=1/1024低角长肩支付所有中央点对、全相位、穿越真帽任意初路径的弦长必要条件；D0<3.49/reach>.105/grip≥.72/held>1.521/δE>0。双全圆端同g仍欠，41继续；旧锁中央误差>1.01且须动一点>.194。
 
 ## 数学范围与完整输入
 

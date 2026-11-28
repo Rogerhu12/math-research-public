@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R752（已证明，新固定初g支付整个中央的全局弦长必要条件）**：[真实帽捷径与延迟转弯参考](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md) — 旧R746两个中央标签强制任意全闭relative Gram误差>1.01，准确补齐须至少一标签改动>.194。新Y=.37、e=.81、b=1/1024的真实低角长肩仍有D0<3.49、全t reach>.105、grip≥.72、held>1.521、0<δE≤.000475；通过浅层球面度量比较和深层全路径变差界，所有中央点对、所有相位对整个初始闭面路径距离均1-Lipschitz，包含穿越真帽的任意路径。整个中央及两legacy帽每t精确同新g，但两全圆端三行仍欠，未冒等距填充存在；新输入与旧g之间不称同g精化。[完整六jet源](scripts/resume_20261126/r752_delayed_turn_closed_two_jets.py)同步入main，41将求同一新g。
+
 - **R751（已证明，真混合曲率截面、贯穿实际双端帽的小扇区同g及全局锁中央障碍）**：[完整曲率混合闭面](results/R751-moving-curvature-mixed-section-and-exact-roll-into-both-physical-caps.md) — 两个真实直段闭合变量构造周期单位速截面；θ≥1 最后 .00015 材料弧的曲率比 C=1.00001 使两整圆端及双帽 .0001 内领准确同g。完整全t几何界、体积不全等均保原文；剩余圆周度量未付。旧初g端部捷径<.801、规定中央终弦>1.17，故全锁中央的全端帽补齐不可能，至少一中央标签需移动>.184。原三层/七相位/九图及两侧真实17点完整[测量任务](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)随源刊触发，actual尚待；仍继续40自由中央及新固定g方向。
 
 - **R750（已证明，完整平直入口弧的统一明确正宽）**：[真实26片的定量Darboux续接](results/R750-quantitative-Darboux-strip-on-complete-displaced-straight-traces.md) — 同一原g与实际26个κ多项式片，X=q(s−s_j)、v=q⁸Y、u=q⁻⁴U消除参数奇点，显式解析majorant逐片传真实Cauchy数据。R₀=2⁻²⁰⁰、R_{j+1}=2⁻³⁴R_j³、q=R₂₆/8、v*=q⁸R₂₆/8>0，整条实际移到平直入口的材料弧均有同宽C²精确解、曲率<10√R₂₆<1与整片嵌入；跨切口可用52片。幅度极小且不推u周期、弯曲入口或全端帽，闭场裁拼仍有明确未付区。继续全长圆端/真帽物理构造。

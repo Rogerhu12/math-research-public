@@ -128,6 +128,8 @@ R746–750完整条件/源/数值保[索引](results.md)、各完整proof/note�
 
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：真实晚相位 .00015 材料弧贯穿双全圆端及双帽 .0001 内领准确同g，剩余圆周未付；旧锁中央端部捷径<.801/终弦>1.17严格排除全补齐。原3层×7相位×9图完整测量现触发，actual待。
 
+[R752新全闭初g](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md)：Y=.37/e=.81/b=1/1024低角长肩支付所有中央点对、全相位、穿越真帽任意初路径的弦长必要条件；D0<3.49/reach>.105/grip≥.72/held>1.521/δE>0。双全圆端同g仍欠，41继续；旧锁中央误差>1.01且须动一点>.194。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。
