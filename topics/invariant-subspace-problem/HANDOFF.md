@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 562dba4dba5a3d16572433df23afc2fe7a792b26（2026-11-28 15:42:38 UTC，Actions run46161256181实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46161256181-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 15:42:37 UTC/805bc3f425008d3b34682286b6eea4c15e61bd98，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 15:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。16:07再探，旧故障保归档。
-- **终端断开后远端已读：** 10aa832ced2f1211aac320b104a208f770c001c3（2026-11-28 15:42:11 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** ba4089a02c90bcde96c8ff776d0a1e64df3236e8（2026-11-28 15:48:43 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-hk-dimension-and-Q-primary-1980-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-essential-countermodel-1985-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -38,8 +38,8 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
-- **h=k错链撤回，整Δ0/ellhalf闭。** 新[权像维数≤1/8184包络/相对6](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)由旧两个不同不可约原NP核与Pf monic t³得；不判空/不作点数。abd714仅修e9bd的fmpz→int，原NV–Loww未完成尾续180秒4GiB；旧失败保，未预记Norm。
-- **Phi错链冻，旧真闭支保。** I6全权10指定生成/每权≤9、b0ef商F/G总≤409/633与gcd双次≤5/51已刊。新[f6ffe1全QQ[u]幺模Q行](notes/2026-11-28-unit211-Phi-zero-corrected-QQ-Q-primary-unimodular-row-extraction-8542-input.md)两原矩阵F/G各首次120秒1GiB；完整零行才除Q，旧匹配/双轴不重算，未报新指数。
+- **h=k错链撤回，整Δ0/ellhalf闭。** 权像维数≤1/8184包络/相对6保。abd714修复同输入run46161292265真8.428479614秒/92588KiB/0，原NV–Loww纯权P(72,19,9)/总91/6447项完整两源返回；未算QQ因式或判空，正式稿/Δ余图恢复继续。
+- **Phi错链冻，旧真闭支保。** 全权10/每权≤9、商F/G与gcd双次≤5/51保。f6ffe1首次F90.638152077秒/1030128KiB/−6仅成rank11整轮F*=−QdetM1；G39.604973848秒/1032692KiB/−6无整轮。两1GiB内存门冻，F指数只≥1，完整稿/新原来源继续。
 
 ### rankH3原ess6
 
@@ -68,6 +68,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** I/F与closureF=I开；Pr全旗quasi/图核心，YN²=C DN、QN²强*保。γ原单列超不变桥含m0=0保。新全因子同参数P(z)范数entire、全旗quasi、γP(0)=−P(0)≠0；穿孔X(s)全旗quasi/奇且X²=P(s²)范数趋P0，近零乘积≤2cK|s|²。有限极点给原平方零，余本性/同PtΩ强列开；不把P0认作C。
+- **原Haar普通格/根：** I/F与closureF=I、原同PtΩ强列仍开；Pr全旗quasi，YN²=C DN/QN²强*、γ单列桥含m0=0保。P(z)entire/全旗quasi、奇X²→P0≠0，有限极点给平方零。新[完整无零因子交换子仍可本性](results/R12-appendix-zero-divisor-free-commutant-essential-square-curve-boundary.md)实际双边权移反检验已成，但其尾不全旗quasi；不外推原Haar本性已解。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。

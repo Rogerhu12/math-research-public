@@ -1,0 +1,2024 @@
+{
+  "schema": "isp-full-original-W-boundary-retained-v1",
+  "source": {
+    "git_blob": "b33c1abc4ebeaf2ad7f84ff883a56155352df81e",
+    "sha256": "54e04e96a39f0caca9e59d55ba3636f27cf8678c7cfeffbecb6212ce8756af0d"
+  },
+  "run_id": 46160462146,
+  "job_id": 141026414218,
+  "execution": {
+    "elapsed_seconds": 1.7689196169999946,
+    "max_child_rss_kib": 48736,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "2be0464d91d9c1bc40da09ce38f81beb1dfcfa64",
+        "before": "bdeaaed5afc3ae264215c54ebcf312286fc5ae73",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T15:33:24.716322+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46160462146",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "bdeaaed5afc3ae264215c54ebcf312286fc5ae73",
+    "source_exit_code": 0,
+    "source_git_blob": "b33c1abc4ebeaf2ad7f84ff883a56155352df81e",
+    "source_sha256": "54e04e96a39f0caca9e59d55ba3636f27cf8678c7cfeffbecb6212ce8756af0d",
+    "stdout_bytes": 31384,
+    "stdout_sha256": "b3af5267f13cd61df6d0fab60240d42ba93f3191a9e750369d16fbbd817c8f6e",
+    "stop_reason": null
+  },
+  "definitions": {
+    "allOriginalPolynomialUnitScalesReturned": true,
+    "knownLambdaNonzeroValuationZero": true,
+    "necessaryWeightDefinitionsSourceBlob": "47281af16fdd0ad7500ecda377c3cb9f9d65e725",
+    "noOldThreeInputInitialsOrQlambdaOrCofactorsReexecuted": true,
+    "originalCoordinateSourceBlob": "2f7fd85b7345f8c41747669526ffcf88d9b83acc",
+    "originalNames": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS",
+      "b0_original_q2"
+    ],
+    "originalProfiles": [
+      {
+        "bytes": 27252,
+        "degrees_e_k_lambda_t": [
+          14,
+          18,
+          2,
+          2
+        ],
+        "sha256": "93101d1901fb7140a728bd947f58ab3c95c5242c9345664ad04fcec3557d38bd",
+        "terms": 1161,
+        "totalDegree": 27
+      },
+      {
+        "bytes": 27549,
+        "degrees_e_k_lambda_t": [
+          14,
+          18,
+          2,
+          2
+        ],
+        "sha256": "39d85abade4300e63e07fcb1b5a0591bac20edfa85fab19a6e6a4e0a9632d817",
+        "terms": 1186,
+        "totalDegree": 27
+      },
+      {
+        "bytes": 28010,
+        "degrees_e_k_lambda_t": [
+          15,
+          17,
+          2,
+          2
+        ],
+        "sha256": "f41defa5dc7e678d3467e6742d73bc5c4aea86401b10105d5b79d5c8eb752f10",
+        "terms": 1205,
+        "totalDegree": 28
+      },
+      {
+        "bytes": 26837,
+        "degrees_e_k_lambda_t": [
+          14,
+          17,
+          2,
+          2
+        ],
+        "sha256": "ea7616e95aa6b82e56db1410409b107042e22c31c914242c5ea66cbc467d262b",
+        "terms": 1147,
+        "totalDegree": 27
+      },
+      {
+        "bytes": 98775,
+        "degrees_e_k_lambda_t": [
+          20,
+          24,
+          3,
+          3
+        ],
+        "sha256": "3d82f2cedf8391dae34d27006c97a50044e91575803710001f37a31b752e21f8",
+        "terms": 3658,
+        "totalDegree": 38
+      },
+      {
+        "bytes": 121591,
+        "degrees_e_k_lambda_t": [
+          22,
+          27,
+          3,
+          3
+        ],
+        "sha256": "2db33c4db6e9909f12a03bc159d8e06d8684a8e7713d709bf75fbc6dbf467f64",
+        "terms": 4339,
+        "totalDegree": 41
+      },
+      {
+        "bytes": 3053,
+        "degrees_e_k_lambda_t": [
+          7,
+          9,
+          2,
+          0
+        ],
+        "sha256": "64f248a1c5eab042f9bb501ac3a6339e674dd9ac379846b5243e81d5a1a97a1a",
+        "terms": 163,
+        "totalDegree": 15
+      }
+    ],
+    "precedingTheoremRun": 46157115224,
+    "prime": 1009,
+    "ray": [
+      -1,
+      0
+    ],
+    "seconds": 1.0510783040000007,
+    "stage": "new_full_I6_q2_original_boundary_definitions"
+  },
+  "partition": {
+    "allRationalRatiosCovered": true,
+    "cells": [
+      {
+        "hi": "-1",
+        "kind": "open interval",
+        "lo": null,
+        "sample": "-2"
+      },
+      {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": "-1",
+        "sample": "-1/2"
+      },
+      {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "sample": "1"
+      },
+      {
+        "kind": "point",
+        "sample": "-1",
+        "value": "-1"
+      },
+      {
+        "kind": "point",
+        "sample": "0",
+        "value": "0"
+      }
+    ],
+    "lambdaNonzero": true,
+    "lambdaValuationExactlyZero": true,
+    "ray": [
+      -1,
+      0
+    ],
+    "seconds": 1.0547803409999972,
+    "stage": "new_full_I6_q2_t_valuation_partition",
+    "tExactlyZeroSeparate": true
+  },
+  "cells": [
+    {
+      "stage": "new_full_I6_q2_boundary_cell_return",
+      "cell": 0,
+      "partition": {
+        "hi": "-1",
+        "kind": "open interval",
+        "lo": null,
+        "sample": "-2"
+      },
+      "excluded": false,
+      "fixedLaurentRowAlgorithmFinished": true,
+      "completeSevenOriginalLaurentReturn": false,
+      "originalFaceMetadata": [
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-16",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 80,
+            "maxExponents": [
+              5,
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "b9d02445a0a7c3b9bbc46e4f8e89952dc46fb9207be4f9cd06b2a8afc703c248",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 497,
+          "removedTorusMonomial": [
+            6,
+            0,
+            2
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-17",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 49,
+            "maxExponents": [
+              3,
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "99457b7541b065fe7b906ef78165823b70ea01440898d4bbfbef753731e4ebf2",
+            "terms": 4
+          },
+          "removedNonzeroScalar": 964,
+          "removedTorusMonomial": [
+            7,
+            0,
+            2
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-17",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 63,
+            "maxExponents": [
+              4,
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "295fcc9beecd950a7da0f53481e6f1c3f70c7e950921738b45fe96e21e723fe7",
+            "terms": 5
+          },
+          "removedNonzeroScalar": 15,
+          "removedTorusMonomial": [
+            7,
+            0,
+            2
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-16",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 80,
+            "maxExponents": [
+              5,
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "10ceb47ef9f8c5115bf1f754bf36c2cb832d8856e8986c866174948f79b66250",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 497,
+          "removedTorusMonomial": [
+            6,
+            0,
+            2
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-23",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 111,
+            "maxExponents": [
+              7,
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "267d717951e8a3f0b6e8f6c20e2caca58dbff863759c7e5eec4e954a2128cb05",
+            "terms": 8
+          },
+          "removedNonzeroScalar": 769,
+          "removedTorusMonomial": [
+            8,
+            0,
+            3
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-25",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 94,
+            "maxExponents": [
+              6,
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "ef8a8a2141e041dc8218086bde4bd1142011d241b1ba98b1686aa35d36fd116c",
+            "terms": 7
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            10,
+            0,
+            3
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-7",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 42,
+            "maxExponents": [
+              0,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+            "terms": 3
+          },
+          "removedNonzeroScalar": 945,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        }
+      ],
+      "retainedBasisProfiles": [
+        {
+          "bytes": 80,
+          "maxExponents": [
+            5,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "b9d02445a0a7c3b9bbc46e4f8e89952dc46fb9207be4f9cd06b2a8afc703c248",
+          "terms": 6
+        },
+        {
+          "bytes": 49,
+          "maxExponents": [
+            3,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "99457b7541b065fe7b906ef78165823b70ea01440898d4bbfbef753731e4ebf2",
+          "terms": 4
+        },
+        {
+          "bytes": 42,
+          "maxExponents": [
+            0,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+          "terms": 3
+        }
+      ],
+      "noResidueOrOriginalPointExistenceClaim": true,
+      "seconds": 1.1390005809999977
+    },
+    {
+      "stage": "new_full_I6_q2_boundary_cell_return",
+      "cell": 1,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": "-1",
+        "sample": "-1/2"
+      },
+      "excluded": false,
+      "fixedLaurentRowAlgorithmFinished": true,
+      "completeSevenOriginalLaurentReturn": false,
+      "originalFaceMetadata": [
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-29/2",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 65,
+            "maxExponents": [
+              2,
+              1,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+            "terms": 5
+          },
+          "removedNonzeroScalar": 829,
+          "removedTorusMonomial": [
+            8,
+            0,
+            1
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-15",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 65,
+            "maxExponents": [
+              2,
+              1,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+            "terms": 5
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 120,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-20",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 813,
+          "removedTorusMonomial": [
+            12,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-22",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 225,
+          "removedTorusMonomial": [
+            13,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-7",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 42,
+            "maxExponents": [
+              0,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+            "terms": 3
+          },
+          "removedNonzeroScalar": 945,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        }
+      ],
+      "retainedBasisProfiles": [
+        {
+          "bytes": 75,
+          "maxExponents": [
+            2,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+          "terms": 6
+        },
+        {
+          "bytes": 65,
+          "maxExponents": [
+            2,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+          "terms": 5
+        },
+        {
+          "bytes": 42,
+          "maxExponents": [
+            0,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+          "terms": 3
+        },
+        {
+          "bytes": 53,
+          "maxExponents": [
+            1,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "020a38b00755740779a44ca1f02d12eaded5bb40af6cda64403cd07ffc2e029a",
+          "terms": 4
+        },
+        {
+          "bytes": 37,
+          "maxExponents": [
+            2,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "d4371637cc2e71fb2b68823436de408e14d6af196594ab94aed23e041b1d3380",
+          "terms": 3
+        }
+      ],
+      "noResidueOrOriginalPointExistenceClaim": true,
+      "seconds": 1.220798090999999
+    },
+    {
+      "stage": "new_full_I6_q2_boundary_cell_return",
+      "cell": 2,
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "sample": "1"
+      },
+      "excluded": false,
+      "fixedLaurentRowAlgorithmFinished": true,
+      "completeSevenOriginalLaurentReturn": false,
+      "originalFaceMetadata": [
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 127,
+            "maxExponents": [
+              3,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "1a99306c9b69d5fb9c59c80c892fefc295a09de061aa8a6762737c353d4cdafe",
+            "terms": 9
+          },
+          "removedNonzeroScalar": 709,
+          "removedTorusMonomial": [
+            8,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-15",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 65,
+            "maxExponents": [
+              2,
+              1,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+            "terms": 5
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 120,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-20",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 813,
+          "removedTorusMonomial": [
+            12,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-22",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 225,
+          "removedTorusMonomial": [
+            13,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-7",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 42,
+            "maxExponents": [
+              0,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+            "terms": 3
+          },
+          "removedNonzeroScalar": 945,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        }
+      ],
+      "retainedBasisProfiles": [
+        {
+          "bytes": 75,
+          "maxExponents": [
+            2,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+          "terms": 6
+        },
+        {
+          "bytes": 89,
+          "maxExponents": [
+            3,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "fcd7bdb9a26ab2c2dd17e4251a69855c78949dbbd3fa9156ed7883e563773789",
+          "terms": 7
+        },
+        {
+          "bytes": 65,
+          "maxExponents": [
+            2,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+          "terms": 5
+        },
+        {
+          "bytes": 42,
+          "maxExponents": [
+            0,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+          "terms": 3
+        },
+        {
+          "bytes": 53,
+          "maxExponents": [
+            1,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "020a38b00755740779a44ca1f02d12eaded5bb40af6cda64403cd07ffc2e029a",
+          "terms": 4
+        },
+        {
+          "bytes": 37,
+          "maxExponents": [
+            2,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "d4371637cc2e71fb2b68823436de408e14d6af196594ab94aed23e041b1d3380",
+          "terms": 3
+        }
+      ],
+      "noResidueOrOriginalPointExistenceClaim": true,
+      "seconds": 1.302943569
+    },
+    {
+      "stage": "new_full_I6_q2_boundary_cell_return",
+      "cell": 3,
+      "partition": {
+        "kind": "point",
+        "sample": "-1",
+        "value": "-1"
+      },
+      "excluded": false,
+      "fixedLaurentRowAlgorithmFinished": true,
+      "completeSevenOriginalLaurentReturn": false,
+      "originalFaceMetadata": [
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 290,
+            "maxExponents": [
+              5,
+              2,
+              2
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "8ee97eeb98519d1d9b3f5c098d29a8c3db018d775e34c476b88af57888a6242c",
+            "terms": 21
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-15",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 119,
+            "maxExponents": [
+              3,
+              1,
+              1
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "874804e1f0e8fad5c161fc3d89c0cc5cbcac21b331a6d44ad12e422c841eb29d",
+            "terms": 9
+          },
+          "removedNonzeroScalar": 829,
+          "removedTorusMonomial": [
+            7,
+            0,
+            1
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-15",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 237,
+            "maxExponents": [
+              4,
+              1,
+              2
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "5b374383233eb5ad324d7d179a5ab1b091e274355b279f38ce09ce1e63ab2900",
+            "terms": 17
+          },
+          "removedNonzeroScalar": 90,
+          "removedTorusMonomial": [
+            7,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 261,
+            "maxExponents": [
+              5,
+              2,
+              2
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "e9531777bbc5725d00bc82b3dea04921bf6cbf3774a057f20313f6c87c36a24a",
+            "terms": 19
+          },
+          "removedNonzeroScalar": 120,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-20",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 635,
+            "maxExponents": [
+              7,
+              3,
+              3
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "b8e778da5e13eac9cbd316ec855606063f6645e17c28bd7a1252d1c2a35626b7",
+            "terms": 46
+          },
+          "removedNonzeroScalar": 813,
+          "removedTorusMonomial": [
+            8,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-22",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 537,
+            "maxExponents": [
+              6,
+              3,
+              3
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "410ebf5a446462160af3067a653a5a25bcea2fadf620fd9a1a98364aae55f93e",
+            "terms": 40
+          },
+          "removedNonzeroScalar": 225,
+          "removedTorusMonomial": [
+            10,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-7",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 42,
+            "maxExponents": [
+              0,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+            "terms": 3
+          },
+          "removedNonzeroScalar": 945,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        }
+      ],
+      "retainedBasisProfiles": [
+        {
+          "bytes": 290,
+          "maxExponents": [
+            5,
+            2,
+            2
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "8ee97eeb98519d1d9b3f5c098d29a8c3db018d775e34c476b88af57888a6242c",
+          "terms": 21
+        },
+        {
+          "bytes": 119,
+          "maxExponents": [
+            3,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "874804e1f0e8fad5c161fc3d89c0cc5cbcac21b331a6d44ad12e422c841eb29d",
+          "terms": 9
+        },
+        {
+          "bytes": 63,
+          "maxExponents": [
+            4,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "3500d73c94c9f5daa498b43928923fa2159fce61314a287a72e20d0d1e03a677",
+          "terms": 5
+        },
+        {
+          "bytes": 151,
+          "maxExponents": [
+            2,
+            2,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "ead04046fe1e8127f82f3403c120131d121a9975d5bce65a77f2d79d78e9858d",
+          "terms": 11
+        },
+        {
+          "bytes": 42,
+          "maxExponents": [
+            0,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+          "terms": 3
+        },
+        {
+          "bytes": 132,
+          "maxExponents": [
+            2,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "b3384316b675e664bc231d566bbe204ac7193eac3d2011b5b1c1b95f943df631",
+          "terms": 10
+        },
+        {
+          "bytes": 147,
+          "maxExponents": [
+            3,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "c62b97e652367a49e7a234df4211351c54f926c03e24081554780646f7c8fd3b",
+          "terms": 11
+        },
+        {
+          "bytes": 167,
+          "maxExponents": [
+            3,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "87b71559ffc30d33e3073dac7bd06ba206a6447f2e3bd1b7c9bac36f1f63cedd",
+          "terms": 12
+        },
+        {
+          "bytes": 149,
+          "maxExponents": [
+            2,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "6f80df84ea51485f1ba9ffb67af7a956821f8097a6b72e4f88fb1941b5235a9c",
+          "terms": 11
+        },
+        {
+          "bytes": 138,
+          "maxExponents": [
+            2,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "c21df8dbf58af042717a31285b426c3805545bdef1c9f713dbc69125141826e0",
+          "terms": 10
+        },
+        {
+          "bytes": 109,
+          "maxExponents": [
+            1,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "15aa2d032f43d8d0ae51e143c71bfe5936adbbb0bb563a58f275afe8d0de38f9",
+          "terms": 8
+        }
+      ],
+      "noResidueOrOriginalPointExistenceClaim": true,
+      "seconds": 1.5616490179999971
+    },
+    {
+      "stage": "new_full_I6_q2_boundary_cell_return",
+      "cell": 4,
+      "partition": {
+        "kind": "point",
+        "sample": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "fixedLaurentRowAlgorithmFinished": true,
+      "completeSevenOriginalLaurentReturn": false,
+      "originalFaceMetadata": [
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 197,
+            "maxExponents": [
+              3,
+              2,
+              1
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "df93997ee8687108a9b463618e7387119bfff931107ad5870b05c21f7f5d49f9",
+            "terms": 14
+          },
+          "removedNonzeroScalar": 709,
+          "removedTorusMonomial": [
+            8,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-15",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 65,
+            "maxExponents": [
+              2,
+              1,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+            "terms": 5
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 120,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-20",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 813,
+          "removedTorusMonomial": [
+            12,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-22",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 225,
+          "removedTorusMonomial": [
+            13,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-7",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 42,
+            "maxExponents": [
+              0,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+            "terms": 3
+          },
+          "removedNonzeroScalar": 945,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        }
+      ],
+      "retainedBasisProfiles": [
+        {
+          "bytes": 75,
+          "maxExponents": [
+            2,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+          "terms": 6
+        },
+        {
+          "bytes": 159,
+          "maxExponents": [
+            3,
+            1,
+            1
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "eb5713221f7a6cedf91f4d57fb6a045f1f2835852ec91ad28ec3c8daed0313cb",
+          "terms": 12
+        },
+        {
+          "bytes": 65,
+          "maxExponents": [
+            2,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+          "terms": 5
+        },
+        {
+          "bytes": 42,
+          "maxExponents": [
+            0,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+          "terms": 3
+        },
+        {
+          "bytes": 53,
+          "maxExponents": [
+            1,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "020a38b00755740779a44ca1f02d12eaded5bb40af6cda64403cd07ffc2e029a",
+          "terms": 4
+        },
+        {
+          "bytes": 37,
+          "maxExponents": [
+            2,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "d4371637cc2e71fb2b68823436de408e14d6af196594ab94aed23e041b1d3380",
+          "terms": 3
+        }
+      ],
+      "noResidueOrOriginalPointExistenceClaim": true,
+      "seconds": 1.6458740559999967
+    },
+    {
+      "stage": "new_full_I6_q2_t_exactly_zero_return",
+      "excluded": false,
+      "fixedLaurentRowAlgorithmFinished": true,
+      "completeSevenOriginalLaurentReturn": false,
+      "originalFaceMetadata": [
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 127,
+            "maxExponents": [
+              3,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "1a99306c9b69d5fb9c59c80c892fefc295a09de061aa8a6762737c353d4cdafe",
+            "terms": 9
+          },
+          "removedNonzeroScalar": 709,
+          "removedTorusMonomial": [
+            8,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-15",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 65,
+            "maxExponents": [
+              2,
+              1,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+            "terms": 5
+          },
+          "removedNonzeroScalar": 240,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-14",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 75,
+            "maxExponents": [
+              2,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+            "terms": 6
+          },
+          "removedNonzeroScalar": 120,
+          "removedTorusMonomial": [
+            9,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-20",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 813,
+          "removedTorusMonomial": [
+            12,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-22",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 130,
+            "maxExponents": [
+              3,
+              3,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "839b924c616ac9d29aae717bc1f93b2b867c73c1130c6e171cd7a7f648d89392",
+            "terms": 10
+          },
+          "removedNonzeroScalar": 225,
+          "removedTorusMonomial": [
+            13,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        },
+        {
+          "eLeadingResidueNormalizedToOne": true,
+          "minimumGeometricWeight": "-7",
+          "originalInitialNormalizationReturned": true,
+          "profile": {
+            "bytes": 42,
+            "maxExponents": [
+              0,
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+            "terms": 3
+          },
+          "removedNonzeroScalar": 945,
+          "removedTorusMonomial": [
+            6,
+            0,
+            0
+          ],
+          "unitCoefficient": true
+        }
+      ],
+      "retainedBasisProfiles": [
+        {
+          "bytes": 75,
+          "maxExponents": [
+            2,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "9d56f624ff2b5618675741805fe0e34d9edcd567ec75f12a2c85dba5aea69ac9",
+          "terms": 6
+        },
+        {
+          "bytes": 89,
+          "maxExponents": [
+            3,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "fcd7bdb9a26ab2c2dd17e4251a69855c78949dbbd3fa9156ed7883e563773789",
+          "terms": 7
+        },
+        {
+          "bytes": 65,
+          "maxExponents": [
+            2,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "419dcc582fb5260f7f6eb52e511d9cbe050cc538df7910fbf409080032533f35",
+          "terms": 5
+        },
+        {
+          "bytes": 42,
+          "maxExponents": [
+            0,
+            2,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "a02cfda88d9344fa3b46d00de3185c853770f204ea91aab11ef44029b5ec63e1",
+          "terms": 3
+        },
+        {
+          "bytes": 53,
+          "maxExponents": [
+            1,
+            1,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "020a38b00755740779a44ca1f02d12eaded5bb40af6cda64403cd07ffc2e029a",
+          "terms": 4
+        },
+        {
+          "bytes": 37,
+          "maxExponents": [
+            2,
+            0,
+            0
+          ],
+          "minExponents": [
+            0,
+            0,
+            0
+          ],
+          "sha256": "d4371637cc2e71fb2b68823436de408e14d6af196594ab94aed23e041b1d3380",
+          "terms": 3
+        }
+      ],
+      "noResidueOrOriginalPointExistenceClaim": true,
+      "seconds": 1.6884216929999951
+    }
+  ],
+  "finished": {
+    "excludedNonzeroTCells": 0,
+    "noCoefficientPayloadSaved": true,
+    "noFiniteDVRModelClaim": true,
+    "noOldInitialOrCofactorGateReplayed": true,
+    "noWholeWExclusionClaim": true,
+    "nonzeroTCells": 5,
+    "originalISPClaim": false,
+    "originalLambdaZeroAndNonzeroValuationAlreadyExcludedByPriorTheorem": true,
+    "otherFiveRaysUnchanged": true,
+    "peakRSSKiB": 48736,
+    "ray": [
+      -1,
+      0
+    ],
+    "seconds": 1.6886655280000014,
+    "sourceSHA256": "54e04e96a39f0caca9e59d55ba3636f27cf8678c7cfeffbecb6212ce8756af0d",
+    "stage": "new_full_I6_q2_negative_e_unit_k_boundary_finished",
+    "statistics": {
+      "laurentPolynomialProducts": 1127,
+      "newBasisElements": 37,
+      "newSPairs": 113,
+      "newSourceReturns": 155,
+      "nonunitInitialFacesRetained": 0,
+      "paidPolynomialReturns": 116,
+      "primitiveIntegerReturns": 7,
+      "unitCells": 0,
+      "unitInitialFaces": 42
+    },
+    "tExactlyZeroExcluded": false,
+    "wholePreviouslyRetainedRayExcluded": false
+  },
+  "claim_limits": [
+    "No cell was excluded.",
+    "A finished nonunit row calculation is not a residue point or original point existence proof.",
+    "The entire (-1,0) ray remains open; the other five rays are unchanged.",
+    "No finite DVR model or ordinary Hilbert ISP claim."
+  ],
+  "no_coefficients_or_cache_saved": true
+}
