@@ -39,3 +39,5 @@
 - [R786](R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)及[实际两卷延迟六jet](../scripts/resume_20261126/r786_delayed_two_cap_roll_collars.py)：双完整帽精确、全相全角.0024真roll领谱误差<9.46e−7，共MILD剪切后整reach>1/24.36、held>.317、商距>.083。固定小领容差不充全闭真收敛，余卷和中央仍缺。
 
 - [52完整三族启动](../notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学输入、9粗+各4/8/16共18阶段，完整GN外加真实压缩应力两Krylov方向，三族全部原末网预算。硬帽.0024固定领有严格非零Gram故仅作原预算对照；两free-rim族继续全场修正，实际结果未预填。
+
+- [R780](R780-exact-curved-caps-closed-spatial-fold-and-normalized-whole-rolls.md)：新非零曲岛初g，两整帽/末领和中央折片全g，整正速环归一支付gss；硬中央与平末领全迹C²不相容，四原族均明限。[23源四完整三层研究](../notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)全预算正常执行；新输入须释放/改变真迹。

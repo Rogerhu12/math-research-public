@@ -110,8 +110,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：首291f394实际整几何reach违约16.64809拒步；半步8e3194 Phi705.37482/Gram.40781792，19:34Z几何/接受未返、接受0。原140角色/32stage继续，无整体加速证。
 
-[49](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)46174104900已12原阶段/双69相七网全部完成；ROOT核15源/全报告及预算。末整网g10.24803/5.56421、K211074.6/285.917，未达标；最后真pull9a6240a1，原身份全保。
-[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：原fold/连续区间及两恢复整球已完整，46175515918/1 success、18源/12全报告/三层7+6相ROOT核齐。最高g38032/10506282与K195614/6.11e10未达标，原失败和全部身份保留。
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
 
@@ -128,15 +126,16 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 
-[R785](results/R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)：同R781 g双完整帽各四真实MILD扇，xi≤.02，共全空间剪切逐对支付reach≥1/24.36>.03D、held>.320、含反射商距>.086及真.18内握。终相同一中央点原g缺陷>.24；下一全场必须纠正。
 
 
-[R784](results/R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)：八真角带/帽、t≥π/4可精确延真卷.0000688；全闭仅取h=5e−8局部换场，reach>1/24.38/held>.319。九次真物理两jet和余界明列；不冒全卷/中央已等距。
 
-[R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
 
 R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770.md)，不重做。
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429/PID2658实际exit1、零科学阶段，J幂运算错误。仅两同多项式乘法修正及身份重签，24源/18阶段/三末网全部原预算恢复；硬帽正误差范围不变，新实际待返。
+
+[49/R774已闭完整结果及R784–786全部原证明](results/INDEX-after-R770.md)：所有原报告、点/源参/预算/真pull和范围未减；旧导航完整保[7e975前态](https://github.com/Rogerhu12/math-research-public/blob/7e9758e066a242d9d362cac388969c9941d68017/topics/visible-flex-larger-amplitude/HANDOFF.md)。
+
+[R780](notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)：新g完整曲帽/末领/中央准确，四硬中央/平领迹被直母线延拓排精确。23源/四原PID各三层7+6相完整预算照原发；改变真迹的新方向继续，实际待返。
