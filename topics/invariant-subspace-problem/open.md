@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/[四原NP核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保，旧848/578/整Δ0撤回。[整t0](results/R150-appendix-unit211-entire-tzero-half-total-weight-and-hk-exclusion.md)全原矩/第五列秩排空，付t/z；[旧S0三源静核](notes/2026-11-28-hk-Szero-true-original-static-source-audit-8542.md)付S。dc888新Loww与E1/EBo固定z投影首次180秒4GiB，不倒NV/Δ/D；整个Δ0仍保。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/[四原NP核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保，旧848/578/整Δ0撤回。[整t0](results/R150-appendix-unit211-entire-tzero-half-total-weight-and-hk-exclusion.md)全原矩/第五列秩排空，付t/z；[旧S0三源静核](notes/2026-11-28-hk-Szero-true-original-static-source-audit-8542.md)付S。[dc888真实边界](notes/2026-11-28-unit211-hk-original-low-weighted-two-projections-resource-boundary-8542.json)180.050586秒/523040KiB/−14；真Loww及三行z度2/2/3已返，两个固定目标无完整返回，内部准确停点未打印。整个门冻结，换新原输入；Δ0及未付u/u−1全保，无新必要标量或有限/空结论。
 
 ### W：全原均值、H198两生成图与完整值条件
 

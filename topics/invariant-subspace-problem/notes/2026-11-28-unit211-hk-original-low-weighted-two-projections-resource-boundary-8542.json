@@ -1,0 +1,206 @@
+{
+  "schema": "isp-frozen-original-hk-loww-two-fixed-projections-resource-boundary-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_git_blob": "dc888d6c09612271a1767c164c0632511f265d00",
+  "execution": {
+    "elapsed_seconds": 180.050586477,
+    "max_child_rss_kib": 523040,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "7757ea4d325e8534124fa76596b2bbd82f348b91",
+        "before": "7757ea4d325e8534124fa76596b2bbd82f348b91",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T06:09:06.801902+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46115251930",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7757ea4d325e8534124fa76596b2bbd82f348b91",
+    "source_exit_code": -14,
+    "source_git_blob": "dc888d6c09612271a1767c164c0632511f265d00",
+    "source_sha256": "cbc275f1f3e870611591d597e47f2e35bc4bf99af1b27b5b1aeeb609cdf9ecd9",
+    "stdout_bytes": 2553,
+    "stdout_sha256": "fe7644467b57474dd8196bee6ac0ce4120cc7129441d614370335ff40ae75c39",
+    "stop_reason": null
+  },
+  "actual_checkpoints": [
+    {
+      "trueOriginalSamePointIdentity": "Loww=NS-PS+EW2",
+      "originalFreeFCorrection": "Kw+4*(f-u)*(t-2)",
+      "noFalseQuadraticAssumption": true,
+      "originalZDegrees": {
+        "E1": 2,
+        "EBo": 2,
+        "Loww": 3
+      },
+      "noNVOrDeltaInverse": true,
+      "noOldIndividualNVScalarOrFiveRowCofactorReplayed": true,
+      "stage": "new_hk_complete_original_low_weighted_input",
+      "seconds": 6.9575579099999985
+    },
+    {
+      "name": "E1",
+      "zDegree": 2,
+      "coefficientProfiles": [
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            50,
+            12,
+            10
+          ],
+          "totalDegree": 66,
+          "terms": 3049,
+          "bytes": 106815,
+          "sha256": "ae181a9d5197c44aad5a788dc1bcab2ba4f5bdf51618cd0faae6a69d9abad59e"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            49,
+            13,
+            8
+          ],
+          "totalDegree": 64,
+          "terms": 2742,
+          "bytes": 97300,
+          "sha256": "b8c272f24e96c811f7d2fcee12e405c093c392cfd96f1cc2fe64a4bce62c5f28"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            48,
+            12,
+            7
+          ],
+          "totalDegree": 61,
+          "terms": 2283,
+          "bytes": 77132,
+          "sha256": "78dd5037c035d105be3b75b07a6d15269e68328a5a83e66ddfbfcd4406306977"
+        }
+      ],
+      "onlyPaidContentRemoved": [],
+      "completeOriginalRowReturned": true,
+      "stage": "new_hk_original_low_row_clearing",
+      "seconds": 7.070923016999998
+    },
+    {
+      "name": "EBo",
+      "zDegree": 2,
+      "coefficientProfiles": [
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            50,
+            11,
+            9
+          ],
+          "totalDegree": 65,
+          "terms": 2512,
+          "bytes": 84819,
+          "sha256": "4c5ad406a11faacddd2d504fe9465f4aac780b70cea9a04866e3a0869d9ea37d"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            49,
+            12,
+            7
+          ],
+          "totalDegree": 63,
+          "terms": 2287,
+          "bytes": 78888,
+          "sha256": "be6e1b853cc05d86f00af695cd671f0353e067dd9ae32b36c896cbeb0111cb1a"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            48,
+            11,
+            6
+          ],
+          "totalDegree": 60,
+          "terms": 1842,
+          "bytes": 62274,
+          "sha256": "c3610100e988fd3a5740bdac864f90d86913f11f27c7209c5d5eb309a233c2c5"
+        }
+      ],
+      "onlyPaidContentRemoved": [],
+      "completeOriginalRowReturned": true,
+      "stage": "new_hk_original_low_row_clearing",
+      "seconds": 7.165798875
+    },
+    {
+      "name": "Loww",
+      "zDegree": 3,
+      "coefficientProfiles": [
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            43,
+            11,
+            11
+          ],
+          "totalDegree": 60,
+          "terms": 2614,
+          "bytes": 83016,
+          "sha256": "cc8744a1cb2b7a5d523d0237a25c4ae22d6e2fec8687d62c4cfc916beacbdf7f"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            44,
+            12,
+            10
+          ],
+          "totalDegree": 60,
+          "terms": 2687,
+          "bytes": 88020,
+          "sha256": "127634c27df3f820f0c3bb9b61f8ecef63eebb10fa98a42428a52c7463a89813"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            43,
+            11,
+            8
+          ],
+          "totalDegree": 57,
+          "terms": 2236,
+          "bytes": 73354,
+          "sha256": "39abfa4eeef3752ce391782ae0dbb2cebd51c352c8db7d9b9da23cf8c2615e8b"
+        },
+        {
+          "zero": false,
+          "degrees_lambda_u_Q": [
+            42,
+            10,
+            7
+          ],
+          "totalDegree": 54,
+          "terms": 1833,
+          "bytes": 58893,
+          "sha256": "70eb9e774b7199e7ff3204a97167e5c9e69ee45b1a7c2b1d284430948abf66a7"
+        }
+      ],
+      "onlyPaidContentRemoved": [],
+      "completeOriginalRowReturned": true,
+      "stage": "new_hk_original_low_row_clearing",
+      "seconds": 7.256654099999999
+    }
+  ],
+  "scope": {
+    "completed": "True same-point Loww=NS-PS+EW2 and all three complete original row clearings; original z degrees 2,2,3.",
+    "no_completed_target": "Neither fixed resultant plus paid-factor-stripping target returned. The source has no intervening output separating determinant from stripping, so the exact internal timeout position is not asserted.",
+    "frozen": "The complete two fixed z-projection gate is frozen; no resume, extension, reordering, or retry of these targets.",
+    "next": "Change to a genuinely different original input. All unpaid Delta=0, u=0 and u=1 branches remain; no new parameter scalar, finiteness or emptiness conclusion.",
+    "ordinary_isp_claim": false
+  }
+}
