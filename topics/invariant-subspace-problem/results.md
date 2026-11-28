@@ -28,7 +28,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-before-W-k-four-original-tangent-exclusion-2100-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-29-results-before-W-ellunit-one-finite-mu-center-2150-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：正e k−2 ellunit有限μ只余一个原中心](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-finite-mu-one-residue-center.md)：2e9d9c唯一0.063387298秒/0完整三源返回，未付二次准确为(L−3/5)²；原q/R6代回仅μ−2，λ1/2,T−1/2。L3/half/1有限支全排，未排最终中心；L1pole两新局部jet首次派出。
 
 - [R150：正确Phi第二头完整odd N/P八列与两九原六次](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-complete-odd-NP-eight-columns-and-two-original-sextics.md)：唯一1de198运行21.923922683秒/0，8新列32坐标并入准确4×28呈示；两固定cofactor全9原返，λ6/6总66/71、权头60/65未付。全部共同约消零纤维保，无gcd/单位/全Phi空性。
 
@@ -89,19 +93,3 @@
 - [R12：无零因子完整交换子仍允许本性平方曲线](results/R12-appendix-zero-divisor-free-commutant-essential-square-curve-boundary.md)：双边紧拟幂零权移的全部交换子由矩阵递推严格证明交换且无零因子；P(z)=T³+zT²与奇X²=P(s²)每参数准亲和、全J对称及γ关系齐备，X仍有无穷负Laurent项。其超不变尾不满足原全旗准亲和，不当作原Haar结论。
 
 - [R150：正确h=k权像维数至多一、8184曲线包络与相对六生成](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)：旧两个完整原N/P不可约核总次数93/88且不伴随，平坦复扩张保正则列；一般Pf首一t³再添ρ²=δ给固定权长度≤6。包络可空，不作有限点数或全局几何局部化有限性。
-
-- [R150：正确Phi的QQ已付矩阵精除与公共gcd双次界(5,51)](results/R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md)：b0ef31唯一14.598634407秒/0，完整条目尺度给F=Qs⁴(-L)^15F*、G=s⁸δ^48KwMn⁸(2L−Q)^4G*；新商总度≤409/633，完整固定双轴保度给QQ共同gcd≤(5,51)。曲线及孤立交点均保。
-
-- [R150：正确Phi原I6全权十生成与每权纤维长度至多九](results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md)：第三真均值在CI(2,2,3)中非零，Gorenstein配对杀degree4且degree3至少再减一；固定30→15最高映射拼回全环，明确10生成，原过滤给纤维≤9，未宣全环9生成。无新运行。
-
-- [R267：全因子同参数奇目标与真实范数平方来源](results/R267-appendix-all-factor-complex-parameter-odd-target-and-norm-square-source.md)：整个P(z)与穿孔奇X(s)均在原全旗quasi，X(s)²=P(s²)范数趋非零γ奇目标P(0)，γX(s)=iX(is)及原近零乘积≤2cK|s|²。有限极点直接给非零平方零/超不变；本性奇点、真实单列强紧性仍开。
-
-- [R150：W/b0三原最低项与两个谱估值限制](results/R150-appendix-unit211-W-b0-original-initial-ideals-and-two-lambda-valuation-restrictions.md)：83e077唯一0.275701719秒/0；六方向全部22个非零λ估值cell及λ0，原三源精确返回。(-1,0)迫λ非零且vλ=0，(0,-1)迫λ非零且vλ≤0；六ray均没有新整排，有限DVR原模型仍开。
-
-- [R150：一般fixed-(λ,T)/Pf图的原首一三次与三生成推论](results/R150-appendix-unit211-general-fixed-spectrum-Pf-chart-original-monic-t-three-corollary.md)：四原最高系数保完整幂零给单位，任意纯参数weighted N/P目标下原商由1,t,t²生成；真实目标以原U矩明列，无h=k、Δ、Φ或2ell−1假设，Pf=0及权空间继续开放。
-
-- [R150：正确h=k整ell=1/2原支完整关闭](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)：41453唯一7.864830096秒/0，短Cramer三次识别原g12=h3⁴，完整六维常数域内同Q八原返(QδMΔ)^4；全四重幂零提升与独立Δ0/λhalf闭支合成整支，当前碰撞余图可付2ell−1。
-
-- [R150：正确Phi完整Vlow的第二非零纯权支持与公共曲线双次界](results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md)：079cc唯一3.530707191秒/0，新固定G14非零/总度≤730；F双次402/222、G的Q371和u642..643。两条完整模切片与保度通过整闭局部Gauss环严格给QQ公共gcd双次≤41/68，公共曲线及孤立交点继续保留。
-
-- [R150：正确Phi原N1最高极化单位与完整I6全权十三生成](results/R150-appendix-unit211-Phi-zero-corrected-original-N1-highest-unit-and-whole-I6-thirteen-generators.md)：完整六项极化在已控幂零商中为零，原N1校正−4s⁴/P02为单位；不加R6即排全部最高方向。(2,2,3)与固定21行degree5满射给原I6的13个指定单项式全权生成，物理局部化与原权曲线仍保范围。
