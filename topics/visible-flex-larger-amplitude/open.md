@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：官方cancelled；accepted0，1/8完整g4084.59459拒，1/16 d0c53aa7仅统计返/几何未知；139源/原预算/32stage/pure66120未完成状态保全。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：1/8点498c首accepted1 g562.38861，Phi/Gram升；原二轮继续。139角色/1333370外变量，返后才pure74162。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
-[41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8区间7b56ad6c全33相，Gram.481521/K226.253，原16区间继续。
+[41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：官方success/自然0，原8阶段/65相全返；96585489全g.4934703/K266.499，三细化误差不降，有限拟合失败已闭；七完整点云非七mesh。
 [42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：原八阶段、29cefe69相/七整mesh全返；Gram精化5.52→8.26→16.56→24.83，裸场校准与覆盖失败，已闭。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
