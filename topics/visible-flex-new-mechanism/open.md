@@ -82,3 +82,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R735 自然终态。** [真实双核、全β及薄度失格](notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md)：32370新单元/18.573390051秒，原8558键只读；β>3.32984、j4/5/6非共振已认证，reach/D<1.936879e−30明确排宏观资格。仅结构，不是有限q根。
 
 **R728 第二自然终态。** [原31步与三组实际精读](notes/2026-11-28-r728-paid31-complete-original-three-grids-natural-terminal.md)：准确续接原全TSQR根，累计32全J/54152列/31接受；η仍约.02531、目标长度margin负、E未冻，新的593.125601448秒和全部原账保留。
+
+**R738（真宽领固定度量首工单）。** [宏观实际厚源](results/R738-broad-dyadic-collars-with-thick-macroscopic-phase-geometry.md)与[39文件绑定范围](notes/2026-11-28-r738-fixed-material-macro-correction-scope.md)采用从头固定Esharp；R735原334帽幅只读复用，新负胞和中央所有完整物理列另付。首次2200秒分配，没有已运行的本源状态；连续中央、同g自然精化和全壳仍须实际闭合。

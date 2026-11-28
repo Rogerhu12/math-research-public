@@ -1,0 +1,95 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r738-first-wide-collar-fixed-metric-v1",
+  "public_rules_read_commit": "f568c1e90ba5e9ee34f53a5c7caa9c7301bc721f",
+  "private_rules_read_commit": "d7a497b7d3f2c1628ff69deeb97817a02f997473",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r738_whole_material_macro_continuation_20261128.py",
+  "workflow": ".github/workflows/visible-r738-wide-collar-fixed-metric-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r738-actual-wide-collar-macro-20261128.json",
+    "max_seconds": 2200
+  },
+  "lanes": {
+    "actual-wide-collar-fixed-metric": {}
+  },
+  "completed_r735": {
+    "source_run": 46169883888,
+    "source_job": 141055685754,
+    "source_head": "092b7de111af3e48d50ffc113ea1a8c921b95e0c",
+    "source_run_conclusion": "success",
+    "artifact": 15272573362,
+    "zip_bytes": 11354192,
+    "zip_sha256": "d8b35d403a38fdebdc57837c49fe380b88b5f04b5d45e927788070c5fe35386e",
+    "journal_member": "central.jsonl",
+    "terminal_bytes": 15187,
+    "terminal_sha256": "4de0d3e4487d963923d9bc5ee557ba33271ee0139137115fe312484048f8bf22"
+  },
+  "scope": {
+    "original_r734_units_replayed": false,
+    "completed_r735_shared_cap_rows_imported_without_new_science": true,
+    "initial_metric_fixed_for_every_new_central_field": true,
+    "same_target_metric_on_all_native_and_independent_grids": true,
+    "all_real_shape_columns_and_full_householder_tsqr_svd": true,
+    "new_negative_cells_and_thick_central_physics_separately_paid": true,
+    "continuous_central_certificate_still_required": true,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py": "3d0f09b79e574251634157b515eee7555855e7f6ef6f606e1486f1ad092a65a5",
+    "topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py": "d792ba39faf98cbf0c9ffa9b4da784d9866d3805ebc26b6ff165513895919147",
+    "topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py": "de16c8d2d5083e9f4b18f86e9ea3efdbe8f2491bda7eac4dd5401e75d6c222d0",
+    "topics/visible-flex-new-mechanism/scripts/r687_darboux_frame_transport_20261128.py": "f25b31c1795e8371759eddfaa5d71ad3cfd47aee46c3b560a0f306651ee43760",
+    "topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py": "2c278f0a0351e81290a23173e67a70fd3a9cea34db0035b2fda4f54a083d4144",
+    "topics/visible-flex-new-mechanism/scripts/r703_real_material_mass_continuation_20261128.py": "c1aea784289467b86edffac8f5519808a426481fd12efde6d4d0bb342f0fc1d2",
+    "topics/visible-flex-new-mechanism/scripts/r703_transported_lattice_anchor.py": "4a974666f186f53772c3b61a12b1ff69e73655acc9ebb2f1a4f977ba0b323ebb",
+    "topics/visible-flex-new-mechanism/scripts/r703_weighted_material_field.py": "fa96027fca505faeb28dcc63f432b055fbaf312aa17da15ef8bcc6c86dba6a90",
+    "topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py": "935cab58072196f195077ceb3d9583455346f935f1cc3fd7f638faf3c7e7c3fe",
+    "topics/visible-flex-new-mechanism/scripts/r726_paid_half_projection.py": "a171f489e043308b835eecda8b2b1cd5959b2ed08e57023c359d0024613a8804",
+    "topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py": "61f1aea0d0c6820b89fa350342ae5a8dcbc18a68af88e2d7cd60329653fe68cd",
+    "topics/visible-flex-new-mechanism/scripts/r728_full_spinor_geometry.py": "cf02dbdec14a3621a2efc0e1b79bdedd275187a4eed49627a67b5e486453b41a",
+    "topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_hermite.py": "48aa4bab066abe828ebf69f4de611a30d593d40c7183ecf39c6b3403edc521e8",
+    "topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_input.py": "48ef601004ae85a015cdcb69345e535219bcb502a7e290adb808b937a5ca6c8d",
+    "topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py": "5bdfd51f34c5ae6041480620fe506600c92d559102473ffbee7dd8131c55978f",
+    "topics/visible-flex-new-mechanism/scripts/r735_paid_tail_beta_envelope.py": "58dceba14d98fe24e2048a21a363ba01e5b3266c334602ca50da88e18e29a0ac",
+    "topics/visible-flex-new-mechanism/scripts/r738_deep_cap_bounds.py": "2e5815350b08fcd62b950f26484889bf6a72f7cc9180ea76dc09a5888475115a",
+    "topics/visible-flex-new-mechanism/scripts/r738_macro_spline_space.py": "f9ee3601c8b354b4c3c1472591ccf613b8a8b8399d0a5e9db2f047bf97d3e5fa",
+    "topics/visible-flex-new-mechanism/scripts/r738_negative_tail_and_macro_source.py": "7dbdabfd7e497a8374911a1626c55051b9664ce4a15236f34b6f256a13209739",
+    "topics/visible-flex-new-mechanism/scripts/r738_paid_true_native_input.py": "87d1fb355b7eeefd7492ea3ac0c0070905855a77647cfd82f7103e1114111037",
+    "topics/visible-flex-new-mechanism/scripts/r738_real_macro_reference.py": "9975a8e3663bdac5cc22b2da76990502af47f96ec638e4c8a3202dd1ad5da7d3",
+    "topics/visible-flex-new-mechanism/scripts/r738_whole_material_macro_continuation_20261128.py": "282e24c0b05725790c977b90c359e2d1d05ee39c50b5c1b57c860921fbec83bd",
+    "topics/visible-flex-new-mechanism/scripts/r735_actual_two_port_match.py": "312c40ee7f1de4211cac772df3824d7f22f3a1cc28fee72f186d0ca1467e0ce5",
+    "topics/visible-flex-new-mechanism/scripts/r738_import_completed_r735_cap_rows.py": "0f2424eb9b1f49446b61d0593d87ddf46f1641f0b26a37256854c993362cb01a",
+    "topics/visible-flex-new-mechanism/scripts/r738_restore_completed_r735_20261128.py": "ab1376a8d0e5d60659d232b0861d75a3b145b423d1aaa35cbf8c27bbfb70b9ad",
+    "topics/visible-flex-new-mechanism/scripts/r734_completed_members_transport_20261128.py": "a9ffa26321838c4a4d67e3a28c3db1e566d061697e8b918ac8f1b99c4611bd1a",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r738-actual-wide-collar-macro-20261128.json": "aa9b8eccbcc38c0144976fb20f2fb0f3af094a788aac085c87c513b10d1ec3ef",
+    "topics/visible-flex-new-mechanism/computations/r735-actual-two-port-match-20261128.json": "c5e33290d760f8d8522c50bd278d4632dbd2e55f1364da75ec9d02774a604222",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r738-fixed-material-macro-correction-scope.md": "fbcc3e4d90e35d116d56b845b226df5dee6f823ce93d3941cfa95c6bbfbc1d2f",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md": "3ce553c7438742d40d77b118dc630c1e473f0563112c104373f9346fbbf102ce",
+    "topics/visible-flex-new-mechanism/results/R738-broad-dyadic-collars-with-thick-macroscopic-phase-geometry.md": "1c369a7f15594a04d1398f244bd2b9afda82b5050bd706919c6e2e597a7da2d5",
+    "topics/visible-flex-new-mechanism/results/R737-thick-macroscopic-spinor-seed-with-true-dyadic-collars.md": "d8beae8a9015708802aa04367040dfb1f332e3bb7f5090c2ce9c111057eb59fd",
+    "topics/visible-flex-new-mechanism/results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md": "57c499d3e5d92a8d4d4364d6090fd1a4845ebd442d66148ec65bb65827ceb3c2",
+    "topics/visible-flex-new-mechanism/results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md": "3a11b26a6f063c4f2f9a5f8fccabb5424ec80727f692981e7f8b732708ee8966",
+    "topics/visible-flex-new-mechanism/results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md": "80d9371aa10e49e1c2adddbe46c3cb6ccf3e23959ee126d1dacf2942e93d2608",
+    "topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md": "0587a98a884e99be1fff5e523128727d161d24ca754648d63941d42ce672785f",
+    "topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md": "528425da5f18c1e7e8db3b1a9432c8b1f13c695cada031090f05917b10eabea1",
+    ".github/workflows/visible-r738-wide-collar-fixed-metric-20261128.yml": "5b2ba4b14533bbda6c2638741aa69028700eb0fbdfe8b6848f960ff9dade5163"
+  }
+}

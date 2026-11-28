@@ -1,0 +1,109 @@
+name: visible-flex actual wide-collar fixed-metric macro continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r738-wide-collar-fixed-metric-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-R738-original-paid-input
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+      R738_REQUEST: topics/visible-flex-new-mechanism/computations/request-r738-wide-collar-fixed-metric-20261128.json
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r738-wide-collar-fixed-metric-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r687_darboux_frame_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py
+            /topics/visible-flex-new-mechanism/scripts/r703_real_material_mass_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r703_transported_lattice_anchor.py
+            /topics/visible-flex-new-mechanism/scripts/r703_weighted_material_field.py
+            /topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py
+            /topics/visible-flex-new-mechanism/scripts/r726_paid_half_projection.py
+            /topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r728_full_spinor_geometry.py
+            /topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_hermite.py
+            /topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_input.py
+            /topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py
+            /topics/visible-flex-new-mechanism/scripts/r735_paid_tail_beta_envelope.py
+            /topics/visible-flex-new-mechanism/scripts/r738_deep_cap_bounds.py
+            /topics/visible-flex-new-mechanism/scripts/r738_macro_spline_space.py
+            /topics/visible-flex-new-mechanism/scripts/r738_negative_tail_and_macro_source.py
+            /topics/visible-flex-new-mechanism/scripts/r738_paid_true_native_input.py
+            /topics/visible-flex-new-mechanism/scripts/r738_real_macro_reference.py
+            /topics/visible-flex-new-mechanism/scripts/r738_whole_material_macro_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r735_actual_two_port_match.py
+            /topics/visible-flex-new-mechanism/scripts/r738_import_completed_r735_cap_rows.py
+            /topics/visible-flex-new-mechanism/scripts/r738_restore_completed_r735_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r734_completed_members_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r738-actual-wide-collar-macro-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r735-actual-two-port-match-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r738-fixed-material-macro-correction-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md
+            /topics/visible-flex-new-mechanism/results/R738-broad-dyadic-collars-with-thick-macroscopic-phase-geometry.md
+            /topics/visible-flex-new-mechanism/results/R737-thick-macroscopic-spinor-seed-with-true-dyadic-collars.md
+            /topics/visible-flex-new-mechanism/results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md
+            /topics/visible-flex-new-mechanism/results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md
+            /topics/visible-flex-new-mechanism/results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md
+            /topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md
+            /topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md
+            /.github/workflows/visible-r738-wide-collar-fixed-metric-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Restore the naturally completed original paid donor
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/r738_restore_completed_r735_20261128.py
+          --request topics/visible-flex-new-mechanism/computations/request-r738-wide-collar-fixed-metric-20261128.json
+      - name: Load only the pinned runtime for the receipt adapter
+        run: python -m pip install --disable-pip-version-check --no-cache-dir numpy==2.3.5 scipy==1.17.0
+      - name: Import the actual completed shared cap rows without any new science
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/r738_import_completed_r735_cap_rows.py
+          --geometry topics/visible-flex-new-mechanism/computations/r738-actual-wide-collar-macro-20261128.json
+          --r735-bind "$RUNNER_TEMP/r735-completed-donor-binding.json"
+          --r735-geometry topics/visible-flex-new-mechanism/computations/r735-actual-two-port-match-20261128.json
+          --r735-journal "$RUNNER_TEMP/r735-original-central.jsonl"
+          --r735-final "$RUNNER_TEMP/r735-original-final.json"
+          --r734-journal "$RUNNER_TEMP/r734-original-tail.jsonl"
+          --r734-final "$RUNNER_TEMP/r734-original-final.json"
+      - name: Pull both current rule sources and solve the real thick fixed-metric field
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r738-wide-collar-fixed-metric-20261128.json
+          --lane actual-wide-collar-fixed-metric
+      - name: Preserve every original paid input and all new complete operators
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r738-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/r738-paid/
+          retention-days: 30
+          if-no-files-found: error
