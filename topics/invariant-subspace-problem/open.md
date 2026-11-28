@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-m-positive-k-minus-two-entire-2290-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-entire-ell-integral-unit-2295-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/整δ/Vbar闭，e,k,u,δ,Vbar单位，ell整；δ b2a返S²⁴及Vbar fbf84三原返1与全部补图保总稿。ell正阶纸排Ast单位、µT极点/T零支，只U−5/4,k−1/2，完整N5=2ell²H且T/µ/A2单位；57f37首次固定T(3,4)/(3,5)三原joint在跑，未预记1。新[m正阶k−2整支原均值排除](results/R150-appendix-unit211-W-b0-internal-m-positive-k-minus-two-entire-original-exclusion.md)e9ce run46182562376/job141095189005真0.033035331秒/34160KiB/0；q/R迫U29/49,µ−7/2，真E1头−8δ付f整，两个首一二次保全f/σ四维及重数，40原列后普通Fp[f,σ]十原返1（仅E1常数与EB一次非零），不倒小m。Q2有限µ余图继续，M/其他分母与全W空性仍开。
+W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/δ/Vbar闭，m深k−2真四维40列/完整十原1，Q2余图继续。新[整个ell正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-ell-positive-exclusion-and-1009-integral-unit.md)57f37 run46183268767/job141097425326真0.106816613秒/39244KiB/0：原qtilde/R6二阶归一与完整N5=2ell²H，全部Ast-unit/µT-pole/Tzero纸闭；唯一U−5/4,k−1/2有限中心T/µ/A2单位，固定T(3,4)/(3,5)cofactor度12/15，仅除已付A2得10/13，完整三原Fp返1，三个末乘子均非零/den=A2支持，无新头逆。当前e,k,u,δ,Vbar,ell均为1009整单位；root接大M正阶，m的Q2及其他原分母/整个W空性仍开。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
