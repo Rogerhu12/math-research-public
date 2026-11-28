@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:21:40 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:22:30 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至168ef58f16880f276a1d6661c51afe93bb5dd429；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至db3bab70d53ef3351bdcbc6f1bd43f7b82ac6b7e；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
-topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9新增128件无引用旧JSON仅去字符串外ASCII空白；whole receipt notes/2026-11-28-legacy-native-metadata-whitespace-ninth.json，69521B/97dacd0d…；gross838380B/net768859B，原件7588478671c1f733a31225fce654008d3c5b5a75完整保留、科学0。每次pull重核新引用。META1–8全部账保此前H和原receipt；第8批842c46826净753508B不重做。
+topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9无损128件净768859B、receipt69521B/97dacd0d…；原7588478671完整保、科学0，每次pull核新引用。META1–9全账见f6b405完整H/原receipt，不重做。
 
 ## 同一对象与完整旧账
 
@@ -26,7 +26,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 - WMT46122573619全14成：145输入/原UACT21 validator过，actual12593B/587ec4c2…、execution8924B/1b022e58…；完整global Θerror<6.957962，原850/finite.31698各scope保。完整96/8192/2048/4Grams/model1..2^20+无限tail均齐，旧science0；见WMA。
 - H96首次46122740303在science前RESERVE120000≠210000失败，0目标；wholelog218380B/3e8c0d84…和原manifest cba22d030/0bf3e4ab保。仅容量合同修复0ed00cf19，manifest61916B/60f1e7ca…（114/51），原7目标/数学不动；46123190757/1运行。全8192/原TC-RHI/C0无界频/waist G96/mean/actualworld保，9新有理比较不重；非truePDE修正。
 
-## 已成组件（完整式/原球/全部域见8a88完整H与原proof）
+## 已成组件（完整式/原球/全部域见f6b405完整H与原proof）
 
 - SL45917913526/PS充分门false（约30027、64.097/64.855），不推奇异；旧成功不重，另走TF。
 - UACT45933303391全21：Θ96坐标逆<12.588、ρ≈.799597509、finite-only error≈.316981860；TQ/kerΘ图有效，全high/physical/mean/ν反馈未付。原global850与WMA6.957962均保。
@@ -48,6 +48,8 @@ WBN首入口已齐：17个whole inputs/1新target，原两个成功父件与vali
 GBN首入口已齐：18个whole inputs/2新target，原两个成功父件与validator整件核；全部96exact centres/means保，旧science0，见notes/2026-11-28-GBN-whole-saved-column-first-entry.md。
 
 FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
+
+PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/H及完整APHI particular；相位joint保唯一共同ρ，E_P+R E_H+Δρ‖hcentres‖，全部exact96中心/mean/world/raw端口保。5文件AST/adapted-worker及not-ready0science分支过；完整H96成功前无manifest/workflow，不重原积分。
 
 ## Tail与仍须完成
 

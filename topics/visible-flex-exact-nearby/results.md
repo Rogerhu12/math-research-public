@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [PWA96：完整高度行与单一共同相位比率的消费者](results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md)：以H96 whole canonical/G、P96 whole H/phase和APHI全列重合新height96与phase96，保共享ρ的joint误差及negative4/world2；7新目标完整接口已齐。完整H96实际成功前不生成manifest/workflow，旧积分/目标不重。
+
 - [FWT：有限cut的完整Wiener转移与更宽NG入口](results/R133-supplement-finite-cut-Wiener-transfer-and-reduced-NG-entry.md)：未知low96先以37倍L2进入完整逆角，重验中间基准全部J.4，得γ≤.065|δ|+4cL+hH/16；同δ*的新门64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11。19新有理比较一次全过；全collar/true residual0/mean/H8193及未知receivers义务保。
 
 - [GBN完整已存参数列后继入口](notes/2026-11-28-GBN-whole-saved-column-first-entry.md)：BGR3 与 BNC7 的同一完整 inverse-row费用；新row费先保存读回，再加BNC四个原whole费用。原96 exact rational signed中心和两mean逐字保持，旧joint候选独立保留，不从任何旧upper相减。完整18件metadata/原validator准入，唯一push首算2个新目标；旧science0，未预报新数值。

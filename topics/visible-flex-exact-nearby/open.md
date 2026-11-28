@@ -163,4 +163,6 @@ DCP18由BFP19完整成功对象首次进入全密度逆particular作用：新hea
 
 FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
 
+PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/H及完整APHI particular；相位joint保唯一共同ρ，E_P+R E_H+Δρ‖hcentres‖，全部exact96中心/mean/world/raw端口保。5文件AST/adapted-worker及not-ready0science分支过；完整H96成功前无manifest/workflow，不重原积分。
+
 全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。

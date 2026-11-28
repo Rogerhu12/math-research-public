@@ -261,3 +261,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 08:19 UTC — visible-exact-astra-b0d5a16-20261128：GBN两个全成功父件已按完整原validator/同数学身份准入；18件manifest 8241B/06c14835582b28d4736b7f8eaf25b22dae79e4f7169cfc640c15f30663bf293b，5份独立saved-consumer源无数值库、无旧carrier恢复。BGR3 与 BNC7 的同一完整 inverse-row费用；新row费先保存读回，再加BNC四个原whole费用。原96 exact rational signed中心和两mean逐字保持，旧joint候选独立保留，不从任何旧upper相减。新增workflow唯一push首算2目标，尚不预报actual。
 
 2026-11-28 08:21 UTC — visible-exact-astra-b0d5a16-20261128：FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
+
+2026-11-28 08:21 UTC — visible-exact-astra-b0d5a16-20261128：PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/H及完整APHI particular；相位joint保唯一共同ρ，E_P+R E_H+Δρ‖hcentres‖，全部exact96中心/mean/world/raw端口保。5文件AST/adapted-worker及not-ready0science分支过；完整H96成功前无manifest/workflow，不重原积分。
