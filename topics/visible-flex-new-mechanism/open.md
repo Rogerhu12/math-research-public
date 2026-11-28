@@ -41,17 +41,15 @@
 
 15完整J/1112方向块含末未完20块，16backend但15native；末outer15构J时达科学边界，无自然return，不缩trust。真实82维H/3403LDL/metric505f签名及22pending乘子全保。[实际6482后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)本次push触发，当前完整值库已付但J矩阵未存，必要重建与旧20块分记；完整原接受门不变。仍为变量g静态设计，未达宏观闭族。
 
-## O4：从stored状态改为真实C²曲线及完整历史目标
+## O4：真实Hermite终态及下一自适应物理包围
 
-[一致W自然终态](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)：run46118007213/job140896050071/source1e2226f3，新增722.781991255秒；60次完整J、60trial/60solver接受，旧不可用方向停滞消失。末state206ec1ae…、19×65/10参；原ODEmax4.620976215392211e13、577点真十末.4083369853906008、真ruling3.973066077055209e13，1153fine在物理盒检查失败。具体越界字段未打印，h贴3只是嫌疑；fine资格pending、非根。
+[R632自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)run46121795578/job140907716148/source32788128，07:51:14完成，989.736104011秒/19接受/20完整trial，44轮自然stall。6319B完整payload de303ef6…保真实257q、α/L、八中心A和三常规范；fine2305同曲线已完，但真十末.8785446834804413、ruling9.352833707433366e13、HS8.005848949741811e15，原绝对门未过。
 
-真正缺口已从源码定位：逐步new_end<=old_end是stored八A/末双速度（始终0），而真实积分十末/ruling/历史一致只进最终完成判断。故60次加权Armijo下降不等于真端改善或物理fine通过；下一不能原样续60次。统一W本身的下降证明仍成立，保原失配修复价值及全部失败费用。
+439域失败全触发粗υ凸包，8兼γ；437次样点在盒内、2次真实越界不得删。末粗υ系数卡−6，真fine最低仅−2.775238…；这是额外保守墙，不能说原盒无方向。下一从完整实际态用de Casteljau细分h/k/γ/υ及height_fraction的方向，保持原物理界，真实点反例可拒、未闭预算pending；求解完整原目标/J，不重已付fine或加独立诊断。所有旧14段/失败/费用及R625的722.781991255秒都保。旧206e fine真实h越3的位置已明确，不重查。
 
-下一用同一65节点C² Hermite h/k及其完整自由度，η/八A/六rho由实际曲线积分，真实端和ruling进入残差/全Jac，消去独立stored记忆。四奇A按原真尾锚、末双速度按真实曲线、ζ0按真实中心身份处理；ζ1/ζ2仍是全程常量。[R632](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)已证α²=(1+U/L²)/∫κ²的真实动能缩放图，固定基础κ'0=c<0后覆盖非零负中心导数真根支，完整δα/δη/δL链均保留；其余三个真端仍需解。缩放后全部h/k/eta/速度/长度盒重新支付，固定曲线fine时冻结α，不能重算α换曲线。新公开必要重建同时输出原206e细网越界attainer，不另开旧60步重放或仅诊断。
+[R636显式合法背景](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)另有P/动能准确零及整段物理盒；run46123487783/sourceb10baebe于07:56:34启动，原257扰动+准确背景，不修改独立活动来源。[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)另给保全部旧方向的P/动能共同局部图，可在后继接入。
 
-此前R609/R614/R616有限Fourier族及其四偶约5e−10/ruling约1e14失败已登记，不能换名再跑；新65结点样条自由空间和真记忆消元是新输入。旧dde0曾完整fine可作为物理可行来源，但并非真端或ruling根。原ODE≤1e−7、stored/true十末≤1e−8、ruling≤1e−7、true/stored≤1e−7门不改；大数相消的绝对舍入地板须由实际精度处理，不改成归一完成门。
-
-[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)、[R620](results/R620-fixed-width-center-jet-gauge-chart.md)、[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)、[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)、[R626](results/R626-terminal-positive-quadrics-and-complete-intersection.md)、[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)依原真实端前提消费；末阈值不授全程返回。原母18块576微包、ε1/12000、正势系数1及完整原历史保持；根后仍须第三/第四period、十三规范、frame/位置/闭pose、嵌入及宏观reach。
+原ODE≤1e−7、真十末≤1e−8、ruling≤1e−7和history≤1e−7保持；当前1e13缺陷不归罪舍入，近根后还须真实高精度/误差控制。原R598母18块576微包、ε1/12000、全正势/全历史仍保持，R619–627各真实端前提不撤。根后第三/第四period、十三规范、frame/位置/闭pose、C²嵌入及宏观reach仍须继续。
 
 ## O5/G：同场连续几何、全时间及最终网格
 

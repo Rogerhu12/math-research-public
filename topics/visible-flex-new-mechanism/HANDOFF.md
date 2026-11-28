@@ -1,62 +1,72 @@
 # HANDOFF：大振幅新机制
 
 **进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。
-尚无同g、全时闭嵌入、握持变化≥.3D且reach≥.03D的完整候选。
+尚无满足同g、全时闭嵌入、握持变化≥.3D及reach≥.03D的完整候选。
 
-## 规则、接手和来源
+## 规则和接手
 
-公开最近实际pull/双README差异检查至 **786a337d11cf3b601c6934a488d8ab3c47559fab**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **9cc61847416e7e1dfcb8133e4e0c055c53227dd3**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
-每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
+每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
-旧H/open与完整前提/费用/失败/来源见b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c；四来源H已读，无合格对象可直接移交。[接手来源](notes/2026-11-28-takeover-sources-and-rules.md)。
+[接手及四来源](notes/2026-11-28-takeover-sources-and-rules.md)已读，无可直接接收的合格对象；旧完整H/open及历史条件在b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c及其归档。压缩只转链接，不撤义务。
 
 ## 完成条件
 
-同一连通闭M、全t∈[0,1]连续C²嵌入、同一个固定g；固定开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6并同g/参数/t域精化至机器或求解容差；全网格可再生、严格存在差距和δE如实报告。基础后继续.5D或严格存在强目标。局部定理、数值改善、障碍、时长均非完成。
+同一连通闭M、全t∈[0,1]连续C²嵌入、同一固定g；固定开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6，并同g/参数/t域精化到机器或求解容差；完整多t网格可再生，严格存在差距和δE如实。基础后继续.5D或严格存在强目标。局部结论、数值改善、障碍或时长均不算完成，不停等用户。
 
-## A：97q真实e781及下一383库
+## A：真实97q e781／原383库在算
 
-[original369自然终态](notes/2026-11-28-r582-original369-natural-terminal.md)：run **46117791268** / job **140895379882** / source9afd9379；07:22 UTC完成，新增2386.166259383秒，3metric+1restore接受，11完整J/143块/33值、18fine；非自然stall。
+[原369自然终态](notes/2026-11-28-r582-original369-natural-terminal.md)：run46117791268/job140895379882/source9afd9379，07:22完成；新增2386.166259383秒，3metric+1restore，11完整J/143块/33值、18fine，非自然stall。
+真实q **e781bd6d67eeda31b9e724ad4b7d57031ef2a8db2e7003de3cba948266151830**，p=.181、同0d222bd1材料；16280×3072 η3.3430671025073394e−5，physical/working0。末raw97q相同但raw98 epigraph未可行，按原lift后才接受；不借raw资格。
 
-真实97q **e781bd6d67eeda31b9e724ad4b7d57031ef2a8db2e7003de3cba948266151830**，p=.181/同0d材料，16280×3072 η **3.3430671025073394e−5**、physical/working违反0。379coarse+4pending拟383，trust2/metric。末raw97q相同但epigraph未可行，原机制提升后才完整接受；不移用raw98维资格。保全部fine/原成本，新中点需本身资格。阶段门约2.5e−7、目标p.8/末η1e−7保持，mean仍设计、宏观与同g未过；[原383后继](notes/2026-11-28-r582-e781-original383-continuation.md)实际run **46121523891** / source60cdf0c3，07:30:36 UTC启动；旧59a4几何不移用。
+[真实383后继](notes/2026-11-28-r582-e781-original383-continuation.md)实际run **46121523891** / source60cdf0c3，07:30:36启动。379coarse+4pending及全部fine/费用保留，trust2/metric，新中点须自身资格；阶段门约2.5e−7、目标p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
 
-## B：R618同固定E与宏观核心接口
+## B：R618同固定E在算，后接硬trace
 
-[split原终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：run45923793283/job140260374411/source4e00e0fb，新增5400.058385949001秒；target86da8c60…/H.5188903877153482/amp1e−5/τ1。真实response19519575…，1接受仅merit降1.416e−19、eta微升；2完整J、3拒绝+1未闭，无fine/direct。原reference比例2.6025e34压步至3.8424e−36，无attainer，原因未全归舍入。
+[split原终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：run45923793283/source4e00e0fb，新增5400.058385949001秒，target86da8c60…/H.5188903877153482/amp1e−5/τ1；response19519575…，1接受仅merit降1.416e−19、eta微升，2J、3拒绝+1未闭，无fine/direct。reference比例2.6025e34压步至3.8424e−36，无attainer，原因未全归舍入。
 
-[等价背景消去范围](notes/2026-11-28-r618-centered-actual-response-scope.md)保全部E/1473响应/1472自由/121600行/950work/1728fine及旧费用；微小W归一前消准确零背景，完整离解项保留、同根Newton用真符号。实际run **46117718197** / job140895158286/source19de4da3，06:40:49 UTC启动；先消费自然终态，不造新接受态。
+[等价零背景消去](notes/2026-11-28-r618-centered-actual-response-scope.md)实际run **46117718197** / job140895158286/source19de4da3，06:40:49启动。保同E、1473响应/1472自由、121600行、950work/1728fine及旧费用；先准确消零背景后除极小W，完整离解链和真实符号根保留。自然终态到达后消费，不造accepted。
 
-R617排固定有限pre/post精确非圆根，增长响应仍可用；τ1当前j2锁定、amp1e−5未授宏观。已付[硬总trace/核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)、[完整实际模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)、[连续Pμ生成器](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)：保1449自由列，用从属A/B固定总P/P1，真τ1态函数恒等嵌回、六jets/完整链/真尾均接。尚未执行新μ，同E可达性仍欠；R=.85/R579几何只属条件预算。
+R617排固定有限pre/post精确非圆根，不排增长极限。τ1当前j2锁定、amp不是宏观幅度。已付[硬总trace/核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)、[实际模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)、[连续Pμ生成器](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)：保1449列，从属A/B准确固定P/P1，真τ1态函数恒等嵌回；尚未执行新μ、同E可达性欠，R=.85/R579只条件预算。
 
-## C：B030真实6482，恢复后继续metric
+## C：B030真实6482继续metric
 
-[d59fa→6482自然终态](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run **46119106791** / job140899461067/source41cf3c8f，07:39:35 UTC完成；新增2370.041308173秒，4metric+1restore接受。真实q **6482fbfda68f034db9b23bbb47a3e0103f24368cece129059c21e7b2d5bde375**，已合格1724×3072 η **.195138934664774**、准确g=0，metric/trust.45050811767578125。
+[d59fa→6482自然终态](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run46119106791/job140899461067/source41cf3c8f，07:39:35完成；2370.041308173秒，4metric+1restore。真实q6482fbfd…，1724×3072已合格η.195138934664774、准确g0，metric/trust.45050811767578125。
 
-当前870coarse/1742required fine/1943physical/695work，pending0；1724资格不转给1742。末369e完整876定位后η.19780607039034218更差已拒，无待补队列。旧309b8的8635仍未执行、0重放，完整旧来源/费用保留。
+当前870coarse/1742required fine/1943physical/695work、pending0；1724资格不转1742。末369e完整876定位后η.19780607039034218更差已拒。旧309b8的8635未执行、0重放，原来源/费用保留。15完整J/1112块含末未完20块、16backend但15native；无自然return不缩trust。82维H/3403LDL、metric505f签名及22pending乘子全保。
 
-15完整J/1112方向块含末未完20块，16backend但15native；末outer15构J时达科学边界，无自然return，不缩trust。真实82维H/3403LDL/metric505f签名及22pending乘子全保。[实际6482后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)本次push触发，当前完整值库已付但J矩阵未存，必要重建与旧20块分记；完整原接受门不变。仍为变量g静态设计，未达宏观闭族。
+[6482实际后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)run **46123017949** / sourcefe5224fb，07:50:16启动；完整值库已付但J未存，必要重建与旧20块分记，所有原接受门不改。仍为变量g静态设计。
 
-## D：R632真曲线全历史BVP与R636显式双端输入
+## D：真全历史原BVP，已定位粗凸包墙
 
-[一致W自然终态](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)：run46118007213/job140896050071/source1e2226f3，新增722.781991255秒/60solver接受；真实state206ec1ae…，原ODE4.620976215392211e13、真十末.4083369853906008、真ruling3.973066077055209e13，1153fine越盒字段未打印。逐步旧末门只看stored零，不能称60步真资格；原14段与失败/费用全保。
+[旧一致W失败](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)的722.781991255秒/60旧接受及原14段均保留；stored末零不是true资格。
+[R632实际自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)：run **46121795578** / job140907716148/source32788128，07:51:14已完成。新增989.736104011秒，19完整接受/20trial/114方向，44轮自然stall，非时钟。payload6319B/de303ef6…、q4a3492e8…；fine2305点同曲线全常数冻结已付，真十末.8785446834804413、ruling9.352833707433366e13、原HS8.005848949741811e15，未根。
 
-[R632真实入口](notes/2026-11-28-r632-true-hermite-original-bvp-scope.md)实际run **46121795578** / source32788128，07:34:02 UTC启动。65节点C²/257shape，唯一正α消真实动能端；η/八A/六rho全积分，三真端及完整ruling同merit/完整Jac，LD全离根规范链。必要206e细场重建给新h/k输入，高度缩到Bernstein2.85后全部盒重付；真端已达后实际切向+恢复保门。
+439域失败全触发粗υ凸包，8兼γ；437次样点都在盒内、2次实际越界仍拒。末粗υ下界−5.999999999999999但fine真最小−2.775238…，不能说物理速度到了−6。下一从真实payload用自适应de Casteljau细分四类多项式与方向，原界不放宽、未闭pending；完整原目标/J/费用继续。旧206e真实fine h=3.0000003429375646越3已定位，不重查。
 
-64×16/1153点，fine128×16/2305点冻结同shape/α/L/八中心A/三规范；不重锚或重拟合。原ODE1e−7/十末1e−8/ruling1e−7门不改；3300/180秒、48步只是可续段。R619–627、原18块576微包/ε1/12000/全正势保持；根后period/frame/闭pose/宏观reach仍欠。
+[R636显式输入](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)在全连续原盒内准确P/动能零、负B₂合法；[新完整求解](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)run **46123487783** / sourceb10baebe，07:56:34启动。准确五次背景+257原方向，不冒旧spline精确插值；首完整链复用、fine冻结背景/α/L/八中心A/三规范。与R632独立留账。
 
-[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P=0必U>16/225，须改相对h形状。[R636](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)已给全程原盒内显式C²输入，P/动能两端准确零、B₂<0合法；余两端/ruling欠。[实际新范围](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)本次push触发，准确背景+原257扰动，首完整链复用，fine保同背景及全部常数；不重旧R632活动范围。[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)已给真实P/动能双端图：显式S不属旧h空间，增一维后用∂bP=−15/68消元，保全部257自由方向/完整链；尚未执行。
+[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638双端图](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)给∂bP=−15/68及完整隐式链，证明显式S不在旧h空间，增一维再消P保原257方向，尚未执行。余端/ruling仍欠。原18块576微包/ε1/12000/全正势、ODE1e−7/真十末1e−8/ruling1e−7门保持；根后period/frame/闭pose/宏观reach仍欠。
 
-## 几何及新构造
+## E：R=.8实际宏观核心自动推进在算
 
-旧59a4[单场reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)≥.0311710349107D，但η≈3.84e−5且宏观/同g未过；不转新q。R604/R622只同输入组合。
+[R631准确核心](results/R631-thick-core-at-radius-four-fifths.md)给ε.05、ρ∈(.14,17.153)、核心球<1.032；完整闭面若付同球/strip.37/reach.062/开盘.22，则δ/D≥105/344>.3。只是条件核心预算。
+[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)重建外段/字典/强迫，只复用R无关内尾，不转旧.85资格；[硬核心](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)保1451列含H和真实F2。
 
-R33相位族保全时几何、允许δE=0；缺大非圆核心至开圆帽的完整旋转度量连接。R565/R579仅宏观条件预算；同轴圆领不积累末帽姿态。
+[实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。完整J48/64/96（1451/1707/2219列），同J两RHS预测/求根、自动μ→1；全部原行/fine/真实Y双差分保留，已付fine复用。18000秒含1800末预留，每55分实际public pull查规则并恢复同source；主会话继续私库每小时pull。设计E可变，工作η1e−7/宏观fine2e−9只是阶段门；取得候选后冻结g精化，有限P误差/完整几何待付。
 
-[R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)：已给另一高M真2/3双核、中心Jac45/16与β→15/8（有限β>1）；有限角/高M几何仍未付。
+## F：真实双核端口与非线性构造
 
-[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)：未解度量准确三曲率矩及投影消元、自由帽0/1模逆、非奇异双核有限块已证；左尾用准确旋转背景。真全尾/状态相关返回仍须支付。
+[R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)给另一高M真双核与有限β>1；高M有限几何未付。
+[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已付同一未解度量的三曲率矩、投影消元、自由帽0/1逆、真实旋转尾图及双核有限块。
+[R630](results/R630-morse-double-kernel-all-frequency-center.md)给左正规Morse二/三双核、其余j谱距≥1/(2880j²)、travel sin≥1/(3110j³)；[首次探索](notes/2026-11-28-r630-morse-port-actions.md)的5.675849416999995秒/小ν高代价保留。
 
-[R631](results/R631-thick-core-at-radius-four-fifths.md)给新R=.8/ε=.05厚核心：ρ∈(.14,17.153)、核心球<1.032，完整闭面若支付同球/条带.37/reach.062则δ/D≥105/344>.3。全程核心u<21.442、|P|<230；这是新设计g输入，不能跨用旧.85资格。[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)已实现新外段/字典/真实模式，尚未运行；1130维初值仅H非零。[硬P/本身路径](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)已实现1451列（含H及真F2），设计可调E；[实际宏观推进](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)本次push触发：全部J48/64/96、同J两RHS预测/求根、自适应μ→1，18000秒含完整fine/真Y差分预留1800；每55分实际public pull。宏观候选后冻结g精化。
+[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)已付有限真平双尾、四控制保径向Cauchy、两紧支持参数恢复双核及全整数共同加权参考逆。j²损失不能直接塞进Hu同角阶Neumann；R639正构造有理Morse/小常势清额外零能的统一谱隙，并补真实状态相关逆。
+[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)证w²端口为准确边界零。
+[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)run **46123270834** / job140912173442/source95b8760b，22.998496100000004秒严格球PASS：1/3<参考β0<3/8；尺度/heads/完整buffer统治收敛给某有限真平背景β>1/4。仍只是二阶系数，有限角/完整非线性嵌入/宏观reach未付。
 
-[R630](results/R630-morse-double-kernel-all-frequency-center.md)已给新Morse全线参考：仅j2/3为零，其余整数j谱距≥1/(2880j²)；travel角的sin下界1/(3110k³)。正径向转换及正区双控制保travel角，局部源逆O(j⁻²)使共同小邻域稳定。仍非有限全平背景；下一接真实双尾；[首次计算](notes/2026-11-28-r630-morse-port-actions.md)run46121291838已完：参考β≈.355319296364837，截断/真尾未获证；小ν半径比<2但高度巨大、左action≈.169，非宏观解。[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)已证w²项为准确边界项，真平尾/全线参考完整积分为0；[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)已消费run **46123270834** / job140912173442/source95b8760b：22.998496100000004秒，严格1/3<β0<3/8；全尾尺度/统治收敛证明给某有限真平背景β>1/4，仅二阶系数。[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)已构造有限真平双尾：四正区控制保径向Cauchy数据、两余参恢复2/3核，全整数频率共同加权逆损失两阶角导数；尚欠状态相关逆/非线性校正和有限几何；j²损失不可直接套Hu零阶Neumann，正构造统一谱隙背景。
+## G：全时几何
+
+旧59a4[单场reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)≥.0311710349107D，但η≈3.84e−5、宏观/同g未过，不转新q。R604/R622只同输入组合。
+R33可从一个真正完整旋转g连接得到全时相位族、开盘逐点固定、δE可0；同轴圆领不累积末帽姿态。真正缺大非圆核心至开圆帽的完整连接和其全部几何；已证局部/条件量不替该对象。
