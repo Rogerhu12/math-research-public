@@ -1211,3 +1211,137 @@ $\operatorname{Tr}(a^{-1}P)$为常数；其它每个$a$即使任减常数也
 这不限制利用$M$的除子、CM、循环商或Weil互反所得的另外源恒等式。
 例如$M(-P)=M(P)^{-1}$本来就是另一种短函数关系，未被排除。
 后续必须引入这些真实几何关系，不能把形式支撑界误当作实际单位群独立性定理。
+
+## 108. 原固定M的首野循环商与完整驯除子上的Miller互反
+
+沿§§104–107，在$E=E_{17}$上记
+$D_f=\operatorname{div}M=\sum_t I_t[T_t]$，$M(O)=1$、
+$I_{-t}=-I_t$。固定$j=2$的原$p^2$点$P=P_{w=1}$；
+它是(BT2)的野点，不是MW基点。于是$P_w=[w]P$。
+令$k=\mathbb F_{p^2}$、$\Omega=k^\times$，
+$\omega(a)\in(\mathcal O_K/p^2)^\times$为乘法Teichmüller提升。
+对$z\in k$置$R_z=[p\widetilde z]P$，提升任意；
+$R:k\to E[p]$是$\mathbb F_p$线性同构。
+
+全部点和CM作用在原$L_2$中定义：原表示模$p^2$通过射线群，
+而$\psi((a))=a/\varepsilon(a)$在$a\equiv1\bmod\mathfrak f$时
+模$\mathfrak f$为一，所以$E[\mathfrak f]$也由$K(\mathfrak f)$定义。
+以下函数与除子均在特征零，只对目标Kummer类取模$p$。
+
+对非零$\mathbb F_p$线性泛函$\lambda:k\to\mathbb F_p$、
+$d=1,2$，取已除§104可逆平滑的原完整行
+\[
+ Y_{\lambda,d}
+  =\sum_{a\in\Omega}a^{-1}\sum_{z\in k}\lambda(z)^d
+       [\,M([\omega(a)]P+[a]R_z)\,]
+  \in(L_2^\times/(L_2^\times)^p)\otimes_{\mathbb F_p}k. \tag{BX1}
+\]
+这正是$w=\omega(a)(1+pz)$的原权。常数行已另付；
+两独立$\lambda$的一次幂与所有方向的平方，由$2$可逆的极化
+张成其余五维。此式保留全部$\Omega$和所有$\mathfrak f$点。
+
+任选$\lambda(z_0)=1$，置
+\[
+ C_a=[a]R_{\ker\lambda},\quad
+ \phi_a:E\to E_a=E/C_a,\quad
+ S_a=\phi_a([a]R_{z_0}),\quad
+ Q_a=\phi_a([\omega(a)]P).
+\]
+$S_a$恰有阶$p$，与$z_0$的选择无关。令$M_a$为真实函数域范数，
+\[
+ M_a(\phi_aX)=\prod_{R\in C_a}M(X+R),\qquad
+ \operatorname{div}M_a=\sum_t I_t[\phi_aT_t],\quad M_a(O)=1.
+\]
+不同$\mathfrak f$点不碰撞；原点归一由$p$奇及$R,-R$互逆直接给出。
+在$\lambda(z)=i$的整个切片上，原乘积恰为$M_a(Q_a+[i]S_a)$。
+并且$[p]Q_a=[\lambda(1)]S_a$。若$\lambda(1)\ne0$，$Q_a$阶为$p^2$且
+$S_a$在其循环群中；若$\lambda(1)=0$，$Q_a,S_a$为独立$p$挠点：
+否则$Q_a\in\phi_a(E[p])$会迫$[\omega(a)]P\in E[p]$。两类方向都保留。
+
+### 两种准确整提升和主除子
+
+取整数$b_i\equiv i^d\bmod p$，使$b_0=0$、$\sum_i b_i=0$。
+$d=1$取对称代表，正部次数准确为$(p^2-1)/8$。
+$d=2$令$r_i\in\{0,\ldots,p-1\}$为$i^2\bmod p$，
+$R=p^{-1}\sum_i r_i$。因$\sum i^2=0\bmod p$，$R$为整数；
+$r_i=r_{-i}$、$r_0=0$且$p$奇又给$R$为偶数。将最大的$R$项
+按$\pm i$成对各减$p$，得$b_i=b_{-i}$，仍$b_0=0$。
+未减的最小$p-R$项之平均不超过全体平均$R$，所以
+\[
+ \sum_{b_i>0}b_i\le R(p-R)\le(p^2-1)/4 .
+\]
+两种$d$都满足$\sum_i ib_i\equiv\sum_i i^{d+1}=0\bmod p$。
+因此$E_a$上的除子$\sum_i b_i[iS_a]$整次数零、群和为$O$，
+故为主除子。取唯一$g_{S_a,d}$以它为除子且$g_{S_a,d}(O)=1$。
+函数定义在$L_2$，次数是上述正部次数；唯一性还给
+\[
+ g_{S,1}(-Z)=g_{S,1}(Z)^{-1},\qquad
+ g_{S,2}(-Z)=g_{S,2}(Z).
+\]
+主除子判据参Sutherland 18.783 (2025)
+[Lecture 23, Corollary 23.19](https://ocw.mit.edu/courses/18-783-elliptic-curves-fall-2025/mit18_783_f25_lec23.pdf)。
+
+对$M_a$与$Z\mapsto g_{S_a,d}(Z-Q_a)$使用Weil互反，准确得到
+\[
+ \prod_{i\in\mathbb F_p}M_a(Q_a+iS_a)^{b_i}
+    =\prod_tg_{S_a,d}(\phi_aT_t-Q_a)^{I_t}
+                       \qquad\text{于 }L_2^\times . \tag{BX2}
+\]
+两个除子不交：移动点均为$p$幂挠，而原$T_t$保留非零的
+$\mathfrak f$之17分量。此处使用的标准式是
+$f(\operatorname{div}g)=g(\operatorname{div}f)$；
+参Poonen，[Lectures on rational points on curves, Theorem 1.9.5](https://math.mit.edu/~poonen/papers/curves.pdf)。
+任何Miller归一常数也因$\sum I_t=0$在完整驯评价中消失。
+(BX2)是所选整提升的准确值；改变提升只在(BX1)的模$p$ Kummer类中相同。
+
+### 每条线一个Miller函数及全部原角权
+
+取$\Omega/\mathbb F_p^\times$的$p+1$个代表$a_L$。
+写$a=a_Ln$，$n\in\mathbb F_p^\times$。准确有
+$\omega(a)=\omega(a_L)\omega(n)\bmod p^2$；
+$\omega(n)$是$(\mathbb Z/p^2)^\times$中的乘法Teichmüller提升，
+通常不是最小正整数$n$。于是
+\[
+ C_a=C_L,\quad E_a=E_L,\quad
+ S_a=[n]S_L,\qquad Q_a=[\omega(n)]Q_L.
+\]
+在$S_L$上可直接用$n$，因为其阶为$p$。
+
+置
+\[
+ F_{L,d}(Q)=\prod_tg_{S_L,d}(\phi_LT_t-Q)^{I_t}.
+\]
+若$c_n$是$n^{-d}\bmod p$的任一整提升，则
+\[
+ \operatorname{div}\!\left(g_{[n]S_L,d}/g_{S_L,d}^{c_n}\right)
+                         =pD ,
+\]
+因为$[iS_L]$的两重数之差为$b_{i/n}-c_nb_i\equiv0$。
+$D$是支撑于$\langle S_L\rangle$的整有理除子，**不需要$D$为主**。
+将此商平移$Z-Q$，对$M_L$再次应用Weil互反，得到
+\[
+ \prod_t
+  \left(g_{[n]S_L,d}/g_{S_L,d}^{c_n}\right)
+                         (\phi_LT_t-Q)^{I_t}
+   =\left(\prod_R M_L(Q+R)^{\operatorname{ord}_R D}\right)^p .
+                                                               \tag{BX3}
+\]
+故在原$L_2$中真正只差一个$p$次幂，不借代数闭包任取根，
+也不把$D$误判为主除子。
+
+代回(BX1)，同一实际Kummer行准确为
+\[
+ Y_{\lambda,d}
+   =\sum_{L\in\Omega/\mathbb F_p^\times}a_L^{-1}
+        \sum_{n\in\mathbb F_p^\times}n^{-1-d}
+          [\,F_{L,d}([\omega(n)]Q_L)\,]. \tag{BX4}
+\]
+每线仅需一个$g$，线性、平方行分别保留$n^{-2},n^{-3}$的真角权。
+原$I_{-t}=-I_t$及$g$的奇偶给
+$F_{L,1}(-Q)=F_{L,1}(Q)$、
+$F_{L,2}(-Q)=F_{L,2}(Q)^{-1}$，所以$n,-n$配对在两行均同向，
+可取任一$\pm$代表再乘二。
+
+这一步确实利用原固定除子，超过§107形式群环倍的范围。
+$g$与$E_L$仍随$p,C_L$变化；(BX4)保留固定$I_t$的全部驯支撑及
+$p+1$条线，尚未证明完整角色和在无穷$p$非零。

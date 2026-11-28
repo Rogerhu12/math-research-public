@@ -281,3 +281,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §107：六个原混合权生成空间的准确最小支撑
 
 已证明：自由原标号源的六个二次权及全部群环倍恰为a⁻¹P(x,y)的六维理想，最小支撑(p²−1)(p²−2p)，整数迹行是(p²−p)(p²−2p)。固定短列表独立不能仅凭这些形式倍排除六行同时零；实际M几何核未被错误限制。 [同编号全文](../results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §108：原M首野完整行经循环商及Miller互反降到全驯支撑
+
+已证明：每方向先对原p线真范数，线性/平方整权给次数(p²−1)/8及≤(p²−1)/4的实际Miller函数。Weil互反保原全f支撑；每条Fp线一个函数、原n^-2/n^-3角权及Teich(n)精确保留。div差为pD时即使D非主，完整驯评价仍真为L₂内p次幂。 [同编号全文](../results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
