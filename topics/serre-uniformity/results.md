@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高型整投影后的有限Picard对数（已证明）**：[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同原P=(p−1)D0先整E_m投影后深m²−1；模π^(m²+1)的首列恰由原相对Picard核的m次Čech有限log给出，分母全素于p。完整非约化Frob相容消去该packet首层p-return；同q_C的惯性交织保原β。ψ^a全部特殊尾gap已定，但低次regular消去/全节点仍须运输；指定C上与T_L(1)的楔未付。
+
 - **原Gaussian全部奇行的准确CM常数（已证明，R1179 §13）**：[R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全部原奇3≤s≤(p−3)/2准确有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]。全点aux-independent真实范数、FL范围、Appell完整敏感度及无Bernoulli分母Bol均已付；Euler E_(s−1)不假定单位。bad指标只迫同一行在c0零，未补缺席行或宣两点差零；继续实际全mask关系。
 
 - **原Hahn谱导数的实际偶companion（已证明，R1194 §9）**：[R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付；HC.21–24以自足望远镜给两条终止balanced4F3。普通second-kind源不同，未据此宣互素。

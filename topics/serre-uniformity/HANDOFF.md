@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：e8ec78fa56c8d8e0e08e115844d940d7cf952bed**（2026-11-28T14:45:49.687501+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：6bde1e1a6acac355d970ed4ed3fb8bd68c4fb89f**（2026-11-28T14:50:33.975063+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 2026-11-28 14:37 UTC终端确认 unavailable，上一笔OC本地commit未推入main；已从完整稿恢复。只读同步013ef8944af7ad4238550f54e3418d114ec5a2f1确认两README未变；不冒称pull。现用本公开Actions部分克隆、真实pull/rebase/push逐结论发布，非快进立即循环；令牌仅CLI。数学程序仍仅本公开Actions，本地/V8仅文本/metadata。真实pull时间以上方回执为准，每小时至少一次。
 
@@ -59,6 +59,8 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 [R1193](results/R1193-original-highest-primitive-packet-and-simple-Cauchy-CM-jet.md)原p11mod12最高primitive r=m的τ_m+PS_(m−1)整角已付；负deck首中心唯一η=T_L db/(uA_p)，T_L(1)=(2A_p(1)/m)Σλ_sρ_sL_s/(1−s)。原CM首normal=2m，完整投影为κ_hi T_L(1)d(x^(g−1)y)；同p³盘除ε^m后整Tate轮廓degree≤(p−5)/6，packet顶系数非零。指定C/同β的楔及整尺度仍须实际比较。
 
 [R1195](results/R1195-original-full-integral-normalizer-corner-and-one-p-gluing.md)完整有限角准确为全部奇r的{(x,y)∈Zp²:x≡y modp}乘积，p1mod4另加二次St的一元角。各Er整，U_r=p e_cusp,r e_N满足U²=pU；任意真实稳定格的pure型拼接商恰im(U modp)，指数p^rank，单cusp投影整 iff U modp=0。原几何两行/PS碰撞保全，不把packet单位传给C。
+
+[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同原P=(p−1)D0先整E_m投影后深m²−1；模π^(m²+1)的首列恰由原相对Picard核的m次Čech有限log给出，分母全素于p。完整非约化Frob相容消去该packet首层p-return；同q_C的惯性交织保原β。ψ^a全部特殊尾gap已定，但低次regular消去/全节点仍须运输；指定C上与T_L(1)的楔未付。
 
 ## 已成、禁止重做与其它入口
 
