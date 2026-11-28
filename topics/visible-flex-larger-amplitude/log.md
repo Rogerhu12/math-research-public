@@ -49,3 +49,7 @@
 ## 2026-11-28 05:47:02 UTC — 25后续试步的实际统计返回
 
 25 a28ae99仅新统计Phi681.6450227773521/Gram0.40616533555531326；当前仍e147626/accepted3/g.5235597907246015，至05:31:20Z新几何/接受/完整report未返。实际alpha1。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`dd9bb4f0adc7acaf52f2098fd5a9027ac9c92ec3`无变（非pull）。
+
+## 2026-11-28 05:47:07 UTC — 27后续试步的实际统计返回
+
+27 a7ff7cb仅新统计Phi748.4181748662621/Gram0.48764641077933163；当前仍初7e06/accepted0/g.701239028437362，至05:34:53Z新几何/接受/完整report未返。实际alpha0.5。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`93485f94fe29926a7cb2a147d7db87b8b6836544`无变（非pull）。

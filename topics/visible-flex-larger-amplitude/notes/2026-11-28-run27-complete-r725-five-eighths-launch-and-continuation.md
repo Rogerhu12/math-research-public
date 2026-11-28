@@ -1238,3 +1238,22 @@ root终端自07:21失效，实际重置后的唯一探测仍失败。此次云�
   }
 ]
 ```
+
+## 2026-11-28 05:47:07 UTC — 27后续试步的实际统计返回
+
+真实trial `a7ff7cb1dbec044685156e201e168c972f60b6d111875cbc308b6226ecb71e9e` 于05:13:14.003804Z仅返回统计Phi=748.4181748662621、Gram=0.48764641077933163。当前仍初7e06/accepted0/g.701239028437362，完整已登记六族和source/model不变。至05:34:53Z该trial的完整geometry、接受和最终report未返，不能把目标统计改善当接受。实际alpha=0.5，phase=restoration。全部实际原字段、完整请求、进度错误和源/point身份由下面固定whole索引保留；没有读取或改动runner raw，也未中断原child。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46105138690-1.md",
+    "bytes": 45617,
+    "sha256": "858879ae3b21cd546440499dfb7f61ce0dced26a2d89e2359ff6de270b18c212",
+    "git_blob_sha": "1f8d39519b542bb46b2df5d7140a27869818567e",
+    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
