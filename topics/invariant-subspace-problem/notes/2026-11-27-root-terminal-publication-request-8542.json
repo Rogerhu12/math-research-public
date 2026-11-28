@@ -1,19 +1,17 @@
 {
-  "message": "ISP: prove entire alpha zero original monic V two and start new same V norm projection",
-  "parentCommit": "f66656476cc2250e6ed3b12d903a696af08cb557",
+  "message": "ISP: exclude entire corrected Phi B zero and prove true three mean generation",
+  "parentCommit": "a6c74a411b991758c0393190234cc8b2b3f7a3a0",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-whole-alpha-zero-monic-V-two-and-weight-conditions.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-alpha-zero-monic-V-two-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-alpha-zero-original-norm-and-Q-projections-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-alpha-zero-original-norm-and-Q-projections-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-alpha-zero-original-norm-and-Q-projections-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-phi-alpha-zero-norm.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-alpha-zero-monic-V-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-alpha-zero-monic-V-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-entire-Bzero-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-B-F40-and-whole-B-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-whole-B-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-preparer-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-entire-B-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-entire-B-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,7 +20,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-alpha-zero-norm.yml"
-  ]
+  "dispatchWorkflows": []
 }
