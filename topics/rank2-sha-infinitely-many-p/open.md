@@ -432,3 +432,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §58：三个实际投影的绝对系数及Pell范数
 
 原R298/306/307的同一period与平方常数准确给b=−1/(168θ²)、a=−1/[168θ(3+√17)]；原首系数theta界定绝对负号，全部三质量积含固定4+√17，不是新权指数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §59：真实中心比的新素因子与有限period判据
+
+三原Eisenstein比在大权模任意固定S-unit保持秩2；完整高度/最短向量/Matveev与S3证明后，Fuchs–Pham排除其对数与有限全局单位及阿贝尔点period的关系。只有目标余项进入该有限空间时才得原中央非零。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

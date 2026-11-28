@@ -280,3 +280,133 @@ $$
 这里用 $(3+\sqrt{17})^3+\sqrt{17}=45(4+\sqrt{17})$。
 $4+\sqrt{17}$ 是范数 $-1$ 的实际 Pell 单位；(Z3)是质量的
 乘法等式，未将这个固定因子提升成 $u$ 的指数。
+
+## 59. 三中心 Eisenstein 比在每个大权逃出全部固定 S-unit，及完整中央的有限对数判据
+
+本节的 $S$ 是任意**先固定**的有限有理素数集；结论的下界可依赖
+$S$。仍用(V2)的固定域 $L$ 及物理标记 $i=0,1,2$。写
+$c_i(d)=-G_d(\Lambda_{D_i})/d$、$u_d=c_1(d)/c_0(d)$、
+$v_d=c_2(d)/c_0(d)$。对所有充分大的 $6\mid d$ 有
+$$
+ u_d^m v_d^n\in\mathcal O_{L,S}^{\times}
+          \quad\Longrightarrow\quad (m,n)=(0,0)\quad(m,n\in\mathbf Z).
+ \tag{AA1}
+$$
+这里 $\mathcal O_{L,S}$ 反演 $S$ 上的全部素位。
+
+先付所需的指数精度。(W2)中 $D_0$ 的最短向量为
+$\pm w_0=\pm\Omega/17$。$D_{13}$ 的最短向量也只有一对，
+可取 $w_1=\Omega(1+s)/17$：范数七的整数正是 $2-\omega$ 与
+它的共轭的六个单位倍。这两类在核上分别给(S4)的 $I_1,I_2$
+（共轭将 $13$ 送到 $8$）；$\mu_3$ 的射影作用无稳，故每条核
+恰承载一对。若 $m'$ 是相应格的次小非零长度，最短对外各项
+相对绝对值的和至多
+$(|w_i|/m')^{d-4}\sum_{v\ne0}(|w_i|/|v|)^4$。
+因 $d$ 偶，两最短项的相位全同；故对于某个固定 $0<q<1$，
+$$
+ u_d=\kappa^d(1+O(q^d)),\qquad
+ \kappa=w_0/w_1=(1+s)^{-1}\in K,\quad |\kappa|=\sqrt{3/7}<1 .
+ \tag{AA2}
+$$
+这个估计是复数本身的，含其相位。它也证明分母和分子最终非零。
+同一固定十三处三循环给 $v_d$ 最终非零。
+
+绝对对数 Weil 高度有 $h(u_d)=O(d\log(2d))$。对每个固定目标
+用 $D_z$ 表示不变导子，乘二的极展开给
+$$
+ 4x_D(2z)=\sum_{T\in E_D[2]}x_D(z+T)
+                        -\sum_{T\in E_D[2]-0}x_D(T).
+$$
+比较 $z^{d-2}$，用
+$[z^{d-2}]x_D=(d-1)G_d(\Lambda_D)$，得到
+$$
+ (2^d-1)(d-1)(d-2)!\,G_d(\Lambda_D)
+        =\sum_{T\in E_D[2]-0}(D_z^{d-2}x_D)(T).                \tag{AA3}
+$$
+在含所有固定曲线、二挠及其系数的固定数域内，取正整数 $M$ 使
+$X=M^2x_D,Y=M^3 y_D$、$M^4g_{2,D}/4$、$M^6g_{3,D}/4$
+在各所需点整。导子 $D'=MD_z$ 满足
+$D'X=2Y,\ D'Y=3X^2-M^4g_{2,D}/4$，故(AA3)右边乘 $M^d$
+是代数整数。对每个复嵌入，在非零二挠点附近取固定无极圆盘，
+Cauchy 估计使这些整数的全部共轭绝对值有界于 $C^d(d-2)!$。
+共同的(AA3)左侧标量在取比时准确消去，由高度的积与商不等式即得
+所述上界。特别 $h(u_d/\kappa^d)=O(d\log(2d))$。
+
+假如 $u_d$ 在固定 $S$ 外没有零极，可略增这个固定集以使
+$\kappa$ 为 $S$-unit。于是 $x_d=u_d/\kappa^d$ 在固定有限生成
+$S$-unit 群中。在一组固定自由部分基中写
+$x_d=\zeta\prod\epsilon_j^{b_j}$。$S$-unit 对数嵌入及积公式
+给 $\max|b_j|=O(1+h(x_d))$：固定基向量独立，所有对应
+$S$-绝对值的对数均由高度控制。以固定复对数支写 $\log x_d$，
+只需再加整数倍 $\log(-1)=\pi i$ 将虚部带回主区间，
+该整数亦为 $O(1+\max|b_j|)$，有限个 $\zeta$ 可逐一吸收。
+若 $x_d\ne1$，Matveev 的原始复线性对数下界给
+$|\log x_d|\gg(2+d\log(2d))^{-C'}$，所用数域、各对数及
+$C'$ 固定。这同(AA2)中 $|\log x_d|=O(q^d)$ 矛盾。
+准确条款是 E. M. Matveev, *An explicit lower bound for a
+homogeneous rational linear form in the logarithms of algebraic
+numbers. II*, Izv. Math. **64** (2000), Cor. 2.3, (2.6)，取
+(1.4)的 $B^*$。[原刊全文](https://www.mathnet.ru/links/81dfabe819b107280a94d7cb7ae94324/im314_eng.pdf)
+
+剩下的准确相等等式 $u_d=\kappa^d$ 也不可能：十三处三循环固定
+$K$，其轮换三个 $c_i$，迫三个相邻之比都等于同一 $\kappa^d$，
+乘积一，与 $|\kappa|<1$ 矛盾。这证明每个充分大的合法 $d$ 上
+$u_d$ 都有一个 $S$ 外零或极。最后以 augmentation 格
+$A_2=\{(n_0,n_1,n_2)\in\mathbf Z^3:\sum n_i=0\}$ 取映射
+$(n_i)\mapsto\prod c_i^{n_i}$，目标为
+$L^\times/\mathcal O_{L,S}^\times$。这是 $G_F\twoheadrightarrow S_3$
+等变的。目标无挠（看 $S$ 外赋值），$A_2\otimes\mathbf Q$ 是
+不可约标准表示，已证 $u_d$ 非 $S$-unit，故有理核为零，得到(AA1)。
+
+现在取 $d=p+1$、$p$ 为固定坏集外的惰性素数。在 $L$ 的**每个**
+$p$ 进嵌入，(U3)给 $u_d,v_d\in1+p\mathcal O$。定义下述
+$\overline{\mathbf Q}$ 向量空间 $\mathscr P_{S,p}$：它由 $1$、
+全局代数 $S\cup\{p\}$-unit 的 $p$ 进对数，以及定义于
+$\overline{\mathbf Q}$ 上的阿贝尔簇之代数点的 $p$ 进对数在
+代数 Lie 基中的坐标生成。每个元素只取有限和；相应代数数域、
+阿贝尔簇、点和代数系数均允许依赖 $p$。乘法对数取
+$\log_p(p)=0$ 的通常支；正规化一个代数数的所选赋值时，只须乘
+$p$ 的有理次幂，仍为代数 $S\cup\{p\}$-unit。则
+$$
+ \log_p u_d,\log_p v_d
+ \text{ 在 }\mathbf C_p/\mathscr P_{S,p}
+              \text{ 中在 }\overline{\mathbf Q}\text{ 上线性独立}.
+ \tag{AA4}
+$$
+先只考虑乘法部分的有理关系。如果一条非平凡整数幂
+$u_d^m v_d^n$ 的对数在有限个相应 $S\cup\{p\}$-unit 对数的
+有理张成空间内，清分母并用代数局部点的对数核
+$\mu_\infty p^{\mathbf Q}$，得到 $u_d^m v_d^n$ 在 $S,p$ 外均为单位。
+它在全部 $p$ 位本来也为单位，故已经是 $\mathcal O_{L,S}^\times$
+的元素，违反(AA1)。即使比较的 $S\cup\{p\}$-unit 位于
+$L$ 外的有限扩张，赋值的限制给同样结论。
+
+为付代数系数与阿贝尔对数，取任何声称存在的有限代数线性关系。
+从所用乘法对数张成的有理空间取基，可保留 $\log_p u_d,\log_p v_d$
+并用若干 $S\cup\{p\}$-unit 的对数补足。将所用阿贝尔簇取乘积
+$A$，以 $G=\mathbf G_a\times \mathbf G_m^r\times A$ 及代数点
+$(1,u_d,v_d,\ldots,P)$ 应用 Fuchs–Pham 的 $p$ 进解析子群定理
+Th. 1.1（与§55同原刊，第337页）。乘法部分可先正规化至单位，
+点或其一致正整数倍均在该定理的对数域中。若关系存在，定理给
+包含此点的代数子群，其 Lie 代数落在所声称的超平面。该点在
+乘法环面投影上的循环群 Zariski 稠密，因为所选 $r$ 个对数在
+$\mathbf Q$ 上独立，任何代数子环面的字符关系都会违反这一点。
+而 $\mathbf G_a\times A$ 的任何连通代数子群都无非平凡环面商：
+它的阿贝尔部分与加法部分无相互非零同态，阿贝尔簇到环面亦无
+非零同态。由子群对两投影的共同商描述，所给子群的连通部分必含
+整个 $\mathbf G_m^r$（也可先取一致有限倍再用相同稠密性）。
+其 Lie 空间不能落在对 $\log_p u_d,\log_p v_d$ 至少一个有
+非零系数的该超平面中。矛盾，证明(AA4)。
+
+因(W4)的 $B_1,B_2$ 是真实非零代数数，(AA4)给
+$G_p^{\mathrm{wt}}\notin\mathscr P_{S,p}$。结合(W5)，得到
+$$
+ \sum_{i=0}^2\mathcal I_i'(0)\in\mathscr P_{S,p}
+ \quad\Longrightarrow\quad J_p'(0)\ne0
+ \quad\Longrightarrow\quad
+     \Sha(E_{17}/\mathbf Q)[p^\infty]\ \text{有限} .             \tag{AA5}
+$$
+这是对每个充分大惰性好素数成立的充分判据。若固定 $S$ 的前提能
+在无穷多个 $p$ 对**完整**目标余项获得，便可用 R303 完成主目标。
+(Y4)的有限特征值本身含两个局部对数之比，(Y5)还读取任意深度；
+两步都没有把完整三导数和自动置入这里的有限线性对数空间。
