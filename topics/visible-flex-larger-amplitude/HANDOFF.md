@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难非终点。**
-此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/23728e772fe236cd076483e61cdf42a439434702/topics/visible-flex-larger-amplitude/HANDOFF.md)及其a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
+此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/91ecb6cb858ffafe71f09b21492061c3da8d1c62/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`8f8c2caf7b6580cb7ebb89670a634cf014793171`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`80d7105eee4f792176e1dee0255fb73369498d98`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -31,23 +31,17 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 新机制及完整后继
 
-[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)完整证明：固定b、ε1/8使端层显式转向系数15/b→64/(7b)；保高阶/均值根/位置误差条件，不推wholeK或reach。下一完整seed实施中。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach，完整新seed实施中。
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已证半波配对均值/两角根、中央导数减半及位置jet账，不推wholeK/D/reach。22全20源/6参/启动已刊见22note；137角色/18runtime、17对改120同。六物理cuts与aux12均值分开，原Gauss/partial未改，工作积分费未付。
+22原137角色/18runtime（17对改120同）、全20源/6参已刊；物理cuts与aux均值分开，原Gauss/partial保。23原全波半宽+恢复policy为138/19；达原完整全步/真几何/选中预测条件才降下一μ，失败×4/顺序/预算保。所有157/7 argv、458/445 formal、48 live及原5 CLI/全external/P0/G/typed未知保。22科学+pure超95k，真自然返才整接纯步，计数旧标签修正保22note。
 
-全157/7argv、458/445formal、48live、32stage/域/预算保。18–21原来源；20只恢复μ.001、21只b5/8。原5CLI/全external/P0/G/typed未知不假空。22science+pure103752B/四步110351B>95k，自然返后整接pure；原计数标签修正保22note。
+19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量，全身份与连续费用保[open§7](open.md)/旧H。normal.complete不代branch、mean J不代Cu，R709 bool、全部主副件及晚失败保。
 
-[23恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)：138/19源；原真实全步/全几何/选中预测达条件才降下一μ，失败×4/metric/顺序保；效果未返。
-
-19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量。完整源参/分支与全连续义务见[open§7](open.md)/原H。准备不冒结果；normal.complete不代branch、mean J不代Cu，R709 bool及所有主副件/晚失败保。
-
-[续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原目录用首次绝对源路径和whole稳定report/snapshot；G续同whole N版本及自己的首次路径，N变SHA不原目录重绑；R723/mesh每次fresh。immutable required-angle packet可为trial但要完整report绑定，mutable progress不可。R718 markedσ与R716 unmarked管/正V/非零中心不变量独立；旧1782/新6047分支不可混，五t/15mesh/三级空间/频率/时间仍须实跑。
-
-[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)须同runner complete report/13final/全typed史；progress/accepted/packet不足，CLI不继承末μ；原词/peer/预算保。
+[续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原目录/首次绝对源路径/whole稳定report；G续同whole N与首次路径，N变SHA另目录；R723/mesh fresh。immutable required-angle packet可为trial但须完整report绑定，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)须同runner完整report/13final/全typed史，CLI不继承末μ。R718 marked与R716 unmarked管/正V/非零中心不变量独立；旧1782/新6047源不混，五t/15mesh/三级空间/频率/时间实跑仍未付。
 
 ## 容量与分工
 
-[ret60第一子批](computations/legacy-exact-generated-outputs-retention-60-part1-complete-delivery.json)19旧数值净909466B，全部源参/run/结论/原SHA与Git恢复保；[ret59](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)及前链保。未知/活输入/parent91/ports/Nelder不猜删。root接实际求解；construction续容量，solver等价加速，geometry半波曲率分析。
+[ret60第二子批](computations/legacy-exact-generated-outputs-retention-60-part2-complete-delivery.json)33旧输出毛1303692B/5全保全件283691B/净1020001B；61源/269输入/32原resource及全部argv/失败/条件结论/原SHA/确切Git恢复齐。加首批19项净1929467B，未重复。ret59及前链保；活输入/未知/parent91/ports/Nelder不猜删。root接真实求解；construction续容量，solver等价加速，geometry新cutoff。
 
 [24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)实际46096380016/1/job140828543967，02:05:58Z/head431b54a启动；两input/场待返。全137/18源同22，仅宽度变；原预算与完整pure续接保。
 

@@ -299,6 +299,10 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 
 23初始完整六族实际返回：reach.968424994209506及distance_plus.005863061771032241仍正，余四负；accepted0/reportfalse。原浮点末字按本run保留，不搬19/20数值；试步和策略实际效果仍未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`68c3d71c3438a78838a3450f585a8d7a111dd50e`无变（非pull）。
 
-## 2026-11-28 02:31 UTC — R725固定宽度端层完整证明
+## 2026-11-28（UTC）— R725固定宽度端层完整证明
 
 [R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)已完整发表：三片C³ cutoff及全部接合、均值根单调扰动与位置账、真实shape operator分解；ε1/8将显式转向系数15/b降至64/(7b)，全部高阶代价/原存在条件保留，不推wholeK或reach改善。后续完整seed源继续实施；双README云核至`8f8c2caf7b6580cb7ebb89670a634cf014793171`原字未变（非pull）。
+
+## 2026-11-28 02:31:27 UTC — ret60第二子批完整退役与原字续存
+
+33旧派生输出毛1303692B，五全保全件283691B/净1020001B，61源/269原输入/32完整原resource及全部argv/失败/条件结论/全SHA/精确Git恢复齐；首批19项不重复，合净1929467B。fresh逐path/blob/size相等才普通删除；旧reader先复原整字及输入。H/open旧字固定91ecb6cb858ffafe71f09b21492061c3da8d1c62，open§1–6完全不改；R725标题误写预估02:31现改实际UTC日期，不改变数学结论。[完整总表](computations/legacy-exact-generated-outputs-retention-60-part2-complete-delivery.json)。双README云核至`80d7105eee4f792176e1dee0255fb73369498d98`无变（非pull）。
