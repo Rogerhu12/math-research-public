@@ -1,0 +1,68 @@
+{
+  "elapsed_seconds": 120.04268196400001,
+  "max_child_rss_kib": 49736,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "18a43b01f1b72fd3b77013d7eab7099232c559f1",
+      "before": "183bb788a5435107171ee1638160f542b4c1dfb0",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T04:40:32.949321+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46108625125",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "183bb788a5435107171ee1638160f542b4c1dfb0",
+  "source_exit_code": -14,
+  "source_git_blob": "bf3cca791291820235ed7126f6906921ef2ad934",
+  "source_sha256": "220f02d647201b62d1a307a34090768390679e17923a0b3f80671b5b4c9dec28",
+  "stdout_bytes": 10482,
+  "stdout_sha256": "59ec2781a0762907a13c70075e4322efe5733f2d213bdd57b4bd1baba06db75c",
+  "stop_reason": null,
+  "job_id": 140866932495,
+  "mathematicalStop": "SIGALRM at fixed 120 seconds; no completed Groebner basis or unit",
+  "completedOriginalStages": [
+    {
+      "stage": "true_tzero_fu_original_three_quadratics",
+      "seconds": 0.0008451399999991338
+    },
+    {
+      "stage": "only_true_weight_contents_removed",
+      "seconds": 0.002338596999997833
+    },
+    {
+      "stage": "four_pure_weight_original_ideal_rows",
+      "seconds": 0.006485649999998344
+    }
+  ],
+  "lastCompletedStage": {
+    "basisSize": 30,
+    "exactRowUpdates": 661,
+    "processedPairs": 41,
+    "seconds": 114.66808039100002,
+    "stage": "new_true_tzero_weight_ideal_row",
+    "unitReturned": false,
+    "value": {
+      "degrees": [
+        8,
+        20
+      ],
+      "sha256": "6755a6fa7f3620549663c37a6c24821b3f9537a23c39ec023fea98fab0ae3d2c",
+      "terms": 158
+    }
+  },
+  "notProved": [
+    "ideal unit",
+    "complete Groebner basis",
+    "complete weight cover",
+    "tzero/fu exclusion"
+  ],
+  "frozen": true,
+  "noRerunOrReordering": true
+}
