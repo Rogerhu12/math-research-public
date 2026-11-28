@@ -52,6 +52,8 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)：H65/HF64+原W/R205/R210完整闭面全相位嵌入，实际两强变化量>.2137、>.0532；精度和整闭 reach 接续。
 
+<!-- 2ecf-R274 --> [R274全角共同目标](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)及[两个HF场的整环理想对角误差](notes/2026-11-28-2ecf-strong-all-angle-HF-free-diagonal-floors.md)，双钟母场/75步场G11为 .10597319/.08846745。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong实际新尾/喉，m12完整位置与共同度量，exact从含负K的准确圆形起点延拓；每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -60,4 +62,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:44:41 UTC；已读公开 main `cb732c5ff867da702d0b6c9321013c4f65859ff6`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:44:57 UTC；已读公开 main `b884f5f1d9a97083baad8f4ab022150028f1857d`，根/课题 README 逐差无变化。

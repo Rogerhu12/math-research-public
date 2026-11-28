@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R274：整紧环共同SPD最优由至多四角、对角最优由至多三角实现；后者化为单变量凸log(U/L)。三角解析例严格超过所有R255两角下界。](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)（2026-11-28）。
+
 - [R273：向上开发盘、新长喉与完整空间变换](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)（2026-11-28）：新三分量全相位 reach≥.097；保持前缀且映射整个旧尾的 C² 微分同胚，Jacobian>.23809。连接带的度量/reach另付。
 
 - [R272：实际完整 HF 校正核与固定非对称帽的全相位嵌入及两项强变化量](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)（2026-11-28）：统一势支付所有跨片，真实加帽闭族 $D<3.076642$、$\delta_{\rm hold}/D>.2137$、$\delta_E/D>.0532$；强目标的度量精度与 reach 仍待。
