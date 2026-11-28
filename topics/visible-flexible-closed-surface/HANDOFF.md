@@ -30,7 +30,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R267](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)新gap.92前缀；[R281](results/R281-positive-support-central-cylinder-at-full-gap.md)正解析中央；[R283](results/R283-nonelliptic-accurate-rulings-global-reach.md)两新Γ95母线环带全域reach，p32原长≥.222，完整拼接仍另付。
 
-<!-- 2ecf-live-g10 --> [主动约束六步](notes/2026-11-28-2ecf-ridge-active-held-and-curvature-full-steps.md)独立末 .321722/κ16.90235/held .6400646；现在换真正材料u的三维单位速率和严格端位闭合。
+<!-- 2ecf-live-g10 --> [真实材料u三维球向187控制同时求两端口，原G11高弯.30961/12.53048/.639771、R282返回.57229/15.76631/.58131；三维闭合位置修补仍存在。](notes/2026-11-28-2ecf-material-three-dimensional-meridian-directions-two-complete-fields.md)
 
 <!-- 2ecf-HF-both-material-clocks --> [936真实新径](notes/2026-11-28-2ecf-strong-hf-new936-genuine-refined-grid.md)原完整行加成7227136行，14820位置独立最佳 .08128793/κ18.07564/held .65901；旧HF场未满足精度/厚度。
 
@@ -58,4 +58,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:56 UTC；已读公开 main `c59328e276babbe97e4c55d378f59416e7879892`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:39:17 UTC；已读公开 main `423d15e39a56080ca384f6829bb5f281a1f78b9b`，根/课题 README 逐差无变化。
