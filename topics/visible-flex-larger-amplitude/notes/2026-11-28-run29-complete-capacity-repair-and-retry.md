@@ -492,3 +492,32 @@
   "actual_scientific_start": null
 }
 ```
+
+## 2026-11-28 05:46:27 UTC — 重试队列实际生效与新runner第一个完整输入返回
+
+原35s队列poll已实际加载修正后的完整queue，path_commit `ab5f0d62f7c26729959d6c1e4336aadc71b73cc1`，全SHA `99b0b5c4b1c5312e7bd8afba5b78c6fcd29c35abcf57d598f851fc727e717294`；不是只提交了未使用的请求。新maker实际source `c736b49a31eef123f13d969a4beffda8feac9030`/script `89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60`，自然returncode0，5.849011372999996s。完整新报告65321B/SHA `21d5d149e150a241aeff87c9cd66b2b7c429e222cc7dd1590ad863d8ede9ce0b`，actual_run46112781312/attempt1；physicalF/J/normal_roots全0。新数组/完整nodes/scalar仅在此runner，完整原命令与全部输出身份见固定阶段卷。索引05:43:24只表示maker完成，不能冒全run/science已返；第二输入与科学值仍未观察。
+
+时间更正：上节标题手录为05:44，Git官方commit对象实际committer.date为`2026-11-28T05:42:39Z`（SHA ab5f0d62f7c26729959d6c1e4336aadc71b73cc1）。原标题不抹；真实事件顺序以此官方提交时间与原runner记录为准。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 46918,
+    "sha256": "4f7c72a65c1d701ba041c5641c20da3e45b235240a2979251a116679981123a7",
+    "git_blob_sha": "76ceff77eb434dc5649cafcd90917e4dfe71eac6",
+    "fixed_commit": "3a359573466749d3af8684b157338f1443831c15",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1-part-001.md",
+    "bytes": 5756,
+    "sha256": "6e37d2082e336f8db83dbb8e69abf1e865faf61125959e7f24e32fb0fd46fd0c",
+    "git_blob_sha": "e14174fd4c376b1371ac245e0fcaa4f3a132aad8",
+    "fixed_commit": "3a359573466749d3af8684b157338f1443831c15",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

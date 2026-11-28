@@ -33,3 +33,7 @@
 ## 2026-11-28 05:44:35 UTC — ret73三完整有限模式诊断保源退役
 
 完整三件38569B保13源/原9模块loader、3完整config逐对象相等、真实steps512/mode2/far48和三幅度.0002/.00015/.00008；只移三旧generated JSON100378B，净61809B。[完整交付](computations/legacy-finite-mode-refinement-retention-73-complete-delivery.json)与[完整说明](notes/2026-11-28-legacy-finite-mode-refinement-retention-73.md)。固定bdcf84039b32d5c9071cd256fdf9e1635b963a97精确原字恢复；无外部数值状态输入、无大体/二进制读。旧OSargv/runtime/resource/exit/self SHA未知仍null；不同配置不同g不冒same-g精化，有限形式曲率/投影非nonlinear闭面证，原RET42/更强目标失败保。源参/活输入/port/证明不删，数组不编码，不加科学门。双README云核至`3a359573466749d3af8684b157338f1443831c15`无变（非pull）。
+
+## 2026-11-28 05:46:27 UTC — 重试队列实际生效与新runner第一个完整输入返回
+
+修正queue99b0b5c4已被同run46112781312实际加载；maker sourcec736b49a自然0/5.849011372999996s，报告65321/21d5d149，F/J/normal0。05:43:24索引只为输入1完成，第二输入/science未观察。上段手录05:44有误，实际Git ab5f0d62 committer时间05:42:39Z；完整原错误和时间更正保留。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`cf678eac1f7c63118f1eb3a7a8ae4178e3d90f2e`无变（非pull）。
