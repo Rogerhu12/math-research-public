@@ -33,7 +33,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 32b1ff022eb2bb0b19c8d95bcad41e73df11fc71
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 1f705887c42d784b73f3f67e7831d1e0681125f5
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 32c4756e267886d26cba6a71939266ffbce4ff4f
 
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
@@ -58,3 +57,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R787](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新g真长左壁/两整曲帽/四全返回板；初reach>.1319、D<4.39，guide全像held>.90，余下曲肩g/晚全管未付。28源含真cap逆二jet，原四族×三层7+6相/13图/全材料路径正常发布。
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) f60defdb06d07ae32f6fae71ae1e5bb888076bd9
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 3307355fc53a7953c3269d562fa9ef5b66b2feb6
