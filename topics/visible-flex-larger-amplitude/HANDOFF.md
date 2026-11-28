@@ -41,7 +41,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull fb832d8c99873015d257c59ff9175bb0132885a6
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 77d5c05be7d0213c9970c6e210a19d559c55857b
 
 [R782](results/R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：同R781 g整rim位置/横向一阶迹夹持，在局部统一角解析二基本形类内全柱刚性；穿K零/变号亦成立。一般C²、自由真rim或无统一解析界的近等距序列不覆盖。平帽内握的角解析限制与非解析完整发展帽另证。
 <!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
@@ -58,3 +57,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 674ce5c6a6c445199fa9cf2ced7882497631f418
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 4a3d340c051d6f131baa4972d3136c5e34d783de
