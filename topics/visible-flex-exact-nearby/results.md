@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ22：已知负侧参数缺陷的完整真Theta小接收](results/R149-supplement-small-true-Theta-reception-of-the-negative-parameter-defect.md)：真零根/零独立jump的负body sν给raw腰<3.65e−5、x<9.17e−6、全≥97 x<9.13e−7，Theta和真低恢复各<1.67e−5，两个独立mean各<2.5e−5。全高Theta<3.04/全域<3.395，15whole/24新Fraction一次通过；不冒充真物理root或其余匹配。
+
 - [GLC：原根窗完整三项有符号源与共初值Green矩阵](results/R149-supplement-signed-genuine-local-collar-operator-and-anchored-reference-Green-matrix.md)：原11完整Nraw与同真实相位/势先合成全部G.7，再对两原参考列及两符号整Fourier接收；有限97..2^20全输出/均值和无穷幅另行保留。首发22pins/5AST通过，四闭径向格×完整角轮廓；原GSF交叠只计一次，全部非局部/端点/正侧与无穷剖面仍待。
 
 - [ASQ21：规范真物理phase fibre的全纯族与全阶jets](results/R149-supplement-holomorphic-normalized-physical-phase-fibre-and-all-order-jets.md)：原Z<2^-33000复输入，以固定真实R的非均值cohomology和真实〈B〉解每步，完整E′u作二次误差付；原tube与有向dyadic递推可求和。规范g、逆H、a=2H(0)和k真全纯，真实实解由固定旋转比较唯一识别；所有混合jet有(2m/Rz)^m界。独立ξ强径向窗及regular PDE/边界仍待。
