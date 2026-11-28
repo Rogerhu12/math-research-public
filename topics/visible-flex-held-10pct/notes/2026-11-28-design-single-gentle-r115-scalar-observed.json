@@ -1,0 +1,184 @@
+{
+  "record_kind": "new_exact_R87_profile_box_extension_after_actual_unbracketed_linear_return",
+  "execution": {
+    "runtime": "functions.exec JavaScript V8 BigInt",
+    "date_UTC": "2026-11-28",
+    "source_path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/certify_single_gentle_ramp_k050_r115.mjs",
+    "source_sha256": "092d9d5eccef53994c0bcc8b080a152f828dbe59099e0438aa47d8b19d6cafea",
+    "source_function_executed": "certificate",
+    "source_function_ran_before_writing_the_identical_file": true,
+    "node_CLI_executed": false,
+    "BVP_executed": false,
+    "old_rhi_11_over_10_boxes_repeated": false
+  },
+  "original_budget_source": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/certify_single_gentle_ramp_k050.mjs",
+    "sha256": "3ee5ff05d3269c6b8fe4e8c7b5062c46672cab95d11fb539dd575d3e4a347abd",
+    "modified": false
+  },
+  "motivating_actual_calibration": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-20261128/calibration.json",
+    "sha256": "1f2ea915c659fdd944d1c2310e75081737504bb402c9bb6583f85d8afce21dec",
+    "status": "new_profile_linear_root_not_bracketed_in_proved_box",
+    "old_scalar_evaluations_repeated": false
+  },
+  "scalar_result": {
+    "status": "proved_by_exact_rational_arithmetic",
+    "scope": "new single-up-ramp m3 reference first up/down cycle only; no BVP, tail, exact C2/C3 solution or full surface inferred",
+    "delta_ref": "3/50",
+    "r_interval": [
+      "21/20",
+      "23/20"
+    ],
+    "up_stages": [
+      [
+        0,
+        "9/20",
+        "10/57"
+      ],
+      [
+        "9/20",
+        "9/20",
+        "1/855"
+      ],
+      [
+        "9/20",
+        0,
+        "4/45"
+      ]
+    ],
+    "down_stages": [
+      [
+        0,
+        "-1/2",
+        "2/25"
+      ],
+      [
+        "-1/2",
+        "-1/2",
+        "1/25"
+      ],
+      [
+        "-1/2",
+        0,
+        "2/25"
+      ]
+    ],
+    "up_area": "3/50",
+    "up_length": "227/855",
+    "down_length": "1/5",
+    "period": "398/855",
+    "core_curvature": "1/2",
+    "protected_halfwidth": "27/40",
+    "first_ramp_reference_peak_acceleration": "27/10",
+    "first_ramp_area": "3/76",
+    "arcsine_lower_six_terms": "2180010198706569/1971200000000000",
+    "characteristic_squared_lower": "10032938318092048295325634587051/21967683584000000000000000000000",
+    "characteristic_square_margin": "23912485132048295325634587051/21967683584000000000000000000000",
+    "protected_curvature_squared_upper": "129600/931",
+    "protected_curvature_square_margin": "1125099/93100",
+    "envelope_squared_radius": "4489/2500",
+    "n3_radius_factor_squared_upper": "1936/1323",
+    "core_and_held_budget": {
+      "weighted_support_radius_upper": "2/3",
+      "halfwidth": "27/40",
+      "transition": "3/10",
+      "target_curvature": "1/2",
+      "phase_endpoint": "4/5",
+      "compensated_window_integral": "33/20",
+      "core_curvature_upper": "3857/314",
+      "core_curvature_margin": "13/785",
+      "H_width": "27/50",
+      "each_sweep_margin": "1/200",
+      "H_interval_offsets": [
+        "13/100",
+        "67/100"
+      ],
+      "H_diameter_lower": "2153439/4000000",
+      "H_absolute_margin": "1407/4000000",
+      "held_lower": "535357/1968750",
+      "held_absolute_margin": "46043/15750000",
+      "D_upper": "67251/25000",
+      "H_ratio_lower": "717813/3586720",
+      "held_ratio_lower": "2141428/21184065"
+    },
+    "protected_circle_height_factor_upper": "719/800",
+    "protected_circle_support_lower": "29733/304000",
+    "protected_circle_support_margin": "657/60800",
+    "conditional_complete_geometry": {
+      "unmarked_uninserted_D_upper": "67/25",
+      "unmarked_support_lower": "87/1000",
+      "full_curvature_upper": "123/10",
+      "column_lengths": [
+        "1/200",
+        "1/100"
+      ],
+      "marker_D_cost_upper": "1/25000",
+      "final_D_upper": "67251/25000",
+      "post_column_support_lower": "41/500",
+      "reach_lower": "10/123",
+      "support_focus_gap": "43/61500",
+      "reach_absolute_margin": "184381/307500000",
+      "reach_ratio_lower": "250000/8271873",
+      "all_full_surface_hypotheses_still_unpaid": true
+    },
+    "boxes": 50,
+    "minimum_Bernstein_gap": "479382179005741/28656180000000000",
+    "relative_metric_1e6_envelope_gap": "479330723968933/28656180000000000",
+    "pieces": [
+      {
+        "piece": "upstroke",
+        "boxes": 1,
+        "minimum_gap": "10792560983/358202250000"
+      },
+      {
+        "piece": "down acceleration 0",
+        "boxes": 8,
+        "minimum_gap": "97991549782457/3582022500000000"
+      },
+      {
+        "piece": "down acceleration 1",
+        "boxes": 8,
+        "minimum_gap": "479382179005741/28656180000000000"
+      },
+      {
+        "piece": "down acceleration 2",
+        "boxes": 8,
+        "minimum_gap": "119324293281617/3582022500000000"
+      },
+      {
+        "piece": "down coast",
+        "boxes": 1,
+        "minimum_gap": "13135574939/358202250000"
+      },
+      {
+        "piece": "down relaxation 0",
+        "boxes": 8,
+        "minimum_gap": "3028476691/44775281250"
+      },
+      {
+        "piece": "down relaxation 1",
+        "boxes": 8,
+        "minimum_gap": "3694637543993/73102500000000"
+      },
+      {
+        "piece": "down relaxation 2",
+        "boxes": 8,
+        "minimum_gap": "8183104/179101125"
+      }
+    ]
+  },
+  "new_support_argument": {
+    "formula": "Z_formal(L)<=r*L*(1-vmax^2/(8*k^2))=r*L*719/800",
+    "ingredients": [
+      "sqrt(1-x)<=1-x/2 for 0<=x<=1",
+      "Jensen: integral(v^2)>=L*(average v)^2",
+      "The same flat F has average 1/2"
+    ],
+    "scope": "The circular-model Z primitive can be extended formally to the full ramp since vmax<k; only its bound on still-protected actual circle points is used",
+    "reviewed_read_only_by": "/root/analytic_construction"
+  },
+  "original_profile_and_core_config_unchanged": true,
+  "full_surface_hypotheses_still_unpaid": true
+}
+

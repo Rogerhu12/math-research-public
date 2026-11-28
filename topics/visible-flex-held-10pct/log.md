@@ -352,3 +352,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 15:40 UTC｜Astra-held10-7c4e33ee-20261128：完整64191×24端口响应基真exit0/6.976s/401576KiB，24列hash全保、max原矩阵残差1.1990408666e−14；完整x/pscale逐位同但y/p不同，严格标旧点chord。componentwise backward error1.0保留，不冒逐分量或当前J逆证书。
 
 - 2026-11-28 15:40 UTC｜Astra-held10-7c4e33ee-20261128：全状态DN端口初猜真实exit0，完整mesh/尺度/原分量且same_point=false；literal小S准确Fraction η<1，全64191行port-only残差5.4210e−18。旧F_L与current-J差、域/BVP未付，不冒完整Newton；原未改generic8outer现真运行。
+
+- 2026-11-28 15:42 UTC｜Astra-held10-7c4e33ee-20261128：R87新输入独立扩到r≤23/20：实际50 Bernstein盒最小平方余量479382179005741/28656180000000000，改用完整上升高度界给支撑29733/304000>.087。旧盒/源码不改，不机械放宽标签；新root输入可在此范围继续。
