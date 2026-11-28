@@ -54,3 +54,4 @@ Actions34：[run 46135301432/1](https://github.com/Rogerhu12/math-research-publi
 Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46137993293)；[全阶段记录](notes/2026-11-28-public-actions-46137993293-1.md)。running；已返2，exit=未返。
 并行35规则核查：2026-11-28 11:15:21 UTC，真实pull至`3eca3559a1c2df1a0e59d7b2287cdab4e716b4f8`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
+<!--r734-publish-->R734 [完整补录](notes/r734-actual-Hermite-46139111288-1.json)；双README真pull `f0c64cfc0a6eb6e1378c0b42bc38070378fbdcd0`。
