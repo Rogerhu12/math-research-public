@@ -265,3 +265,7 @@
 ## R659：真实有限角单位纬圈与完整位移端口
 
 [完整证明](results/R659-finite-angle-unit-latitudes-and-full-displacement-port.md)用单位纬圈切向、零均值原函数和真实中心构造反射对称三维环带；闭合只剩实际Ty均值，三张完整度量、全部一二jet及C²刚帽端姿明确。保全位移而非小q截断的第一角端口有原度量缺陷修正，不能把二阶系数外推宏观。[实际范围](notes/2026-11-28-r659-direct-finite-tilt-latitude-scope.md)直接固定sinθ=.36和a=.075/b=.22，以全部列/完整QR正阻尼求有限场；fine过1e−6后才冻结同一E再精化。R657[实际高相邻模终态](notes/2026-11-28-r657-wide-neck-taper-natural-terminal.md)给严格颈比与宽孔，但自身中心端口未给有限角，旧6ODE不重播。
+
+## R641 真48接受态与 R632 真56物理锚的原完整继续
+
+[R641实际终态及范围](notes/2026-11-28-r641-fixed48-real-terminal-and-continuation.md)有48次新完整接受，原Ar/ruling仍未过门；当前完整2305点fine和原固定权/trust/阻尼均保存。[R632启动失败及修正](notes/2026-11-28-r632-paid56-anchor-identity-and-physical-frontier.md)保留58.685308551秒/0trial的真实失败，源56已付正cap未消耗。两个新入口把保存的真实L/α/八中心/ζ/两规范置于全部密度、历史、ρ、势和ruling之前，并在这些实际值处用完整隐式式求导；初payload身份比较保留。变q仍重解原依赖量与全资格；旧同态fine仅对同完整payload继承，不能把细微重构差改名为同态。
