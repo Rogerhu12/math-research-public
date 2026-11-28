@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `e393c09f28ada9ba296a9179626e066f9dfba7f8`（2026-11-28 06:39 UTC）。私库已认领并成功推 `e96d935de69d7e96381ba17732e6f92350654b2a`，根规则无变。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `ec82e05a1c1f879373caa0ccecbdb162e7b2f134`（2026-11-28 06:41 UTC）。私库已认领并成功推 `e96d935de69d7e96381ba17732e6f92350654b2a`，根规则无变。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -28,7 +28,7 @@
 - R53材料曲率圆化同伦：λ0原完整核、λ1准确圆弧；R54横向H和短柱；R55及宽设计盒：若真实未标记闭图D0≤2.68、K≤12.3、support≥.087，R67小帽+短柱后D≤2.69004，reach>.03D、H径>.2D、held>.1D。这是条件窗，真实图尚缺。
 - R58真实4.625背景、R59桥预算、R60–R62旧λ.002/M24完整前缀/桥连续metric/K/support与中央C²接缝已付；mean1168/GL6、真primitive与唯一R节点必须保留。旧x图二阶跳，不可当C²。新λ/mean不得继承其数字。
 - 旧.25尾stage0/127及相邻段、cell7、deep圆领盘连续界已付，仅属于旧场；全尾/fullH/新场仍欠。R56给C² jet范围完整metric证书，不需再证抽象规则。
-- R63固定g未知核框架；R65完整锚/支持phase，R68补弧M⁻⁶界，R70混合phase同伦；R71小λ曲率列M一致条件数<1.009不是完整BVP逆；R72完整δ/Robin/伴随响应尚待实际横截。
+- R63固定g未知核框架；R65完整锚/支持phase，R68补弧M⁻⁶界，R70混合phase同伦；R71小λ曲率列M一致条件数<1.009不是完整BVP逆；R72完整δ/Robin/伴随响应已在实际旋转线性根测得∂δR3≈−326.45134，伴随积分≈−.17490536（[数值记录](notes/2026-11-28-analytic-linear-delta-response.md)）；非有限幅Schur认证，后者仍待。
 - R67任意非圆三重核全谐波固定帽给含反射δE>0，保两个短柱长度避免矩抵消；R69核心C²差不是全闭场Cauchy。
 - 原λ1→真实DN窄入口7a1ce40d以及R53/v5 actual→固定g接口已审，没λ1输入不得假造线性接受锚。新reader须适配源mean/高phase；旧KIND/1168限制不能改标签绕过。
 
