@@ -1,0 +1,220 @@
+{
+  "schema": "isp-Phi-fixed22-QQ-highest-rank14-794-actual-v1",
+  "run_id": 46096502771,
+  "job_id": 140828946157,
+  "records": [
+    {
+      "originalMatrixSourceSHA256": "043ffc06d0a48f804111ff35cbfee0922fe9a69c87c414f75099b8413cf4b53e",
+      "originalPrime1009GaussExponentsAllZeroFromPriorActualReceipt": true,
+      "fixedDegreeDualRows": [
+        19,
+        18,
+        17,
+        16,
+        14,
+        12,
+        17,
+        16,
+        15,
+        14,
+        12,
+        10,
+        19,
+        18,
+        17,
+        16,
+        14,
+        12,
+        11,
+        10,
+        9,
+        11
+      ],
+      "fixedDegreeDualColumns": [
+        0,
+        6,
+        7,
+        12,
+        11,
+        44,
+        36,
+        40,
+        36,
+        1,
+        10,
+        11,
+        7,
+        16,
+        17,
+        13,
+        22,
+        45,
+        37,
+        38,
+        39,
+        37
+      ],
+      "initialQQ_uDegreeUpperBound": 802,
+      "actualQQCoefficientDegreeChecks": 166625,
+      "completeThreeColumnReturns": 66,
+      "actualHighestMatrixSHA256": "bcbe7bcc2e9a4962af80c1504041aa330edb4903278343f868a46e5d43711b8a",
+      "highestMatrixMaxQDegree": 10,
+      "highestMatrixNonzeroEntries": 158,
+      "noQSpecializationForRank": true,
+      "noPhysicalQParameterInverse": true,
+      "stage": "new_actual_QQ_Q_highest22_definition",
+      "seconds": 5.661586973999995
+    },
+    {
+      "rankOverQQQ": 14,
+      "numberOfZeroTransformedRows": 8,
+      "wholeRowTransformationIdentityReturns": 484,
+      "rowTransformationInvertibleOverQQQ": true,
+      "exactPolynomialDivisionReturns": 7172,
+      "rowSwaps": 9,
+      "actualHighestMatrixSHA256": "bcbe7bcc2e9a4962af80c1504041aa330edb4903278343f868a46e5d43711b8a",
+      "actualRowTransformationSHA256": "7f75a86048a47c18075a7b261d5da56f14c3d19be51c1510a83c995fb3035147",
+      "actualEchelonMatrixSHA256": "597d1a5bfb72f36d421a7d28d0d726238cf479939a808aeb8a30311fa17ff6ef",
+      "allPivots": [
+        {
+          "row": 0,
+          "column": 0,
+          "pivotQDegree": 2,
+          "previousQDegree": 0
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "pivotQDegree": 6,
+          "previousQDegree": 2
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "pivotQDegree": 10,
+          "previousQDegree": 6
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "pivotQDegree": 15,
+          "previousQDegree": 10
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "pivotQDegree": 23,
+          "previousQDegree": 15
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "pivotQDegree": 31,
+          "previousQDegree": 23
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "pivotQDegree": 41,
+          "previousQDegree": 31
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "pivotQDegree": 45,
+          "previousQDegree": 41
+        },
+        {
+          "row": 8,
+          "column": 12,
+          "pivotQDegree": 50,
+          "previousQDegree": 45
+        },
+        {
+          "row": 9,
+          "column": 13,
+          "pivotQDegree": 55,
+          "previousQDegree": 50
+        },
+        {
+          "row": 10,
+          "column": 17,
+          "pivotQDegree": 65,
+          "previousQDegree": 55
+        },
+        {
+          "row": 11,
+          "column": 18,
+          "pivotQDegree": 69,
+          "previousQDegree": 65
+        },
+        {
+          "row": 12,
+          "column": 19,
+          "pivotQDegree": 72,
+          "previousQDegree": 69
+        },
+        {
+          "row": 13,
+          "column": 20,
+          "pivotQDegree": 72,
+          "previousQDegree": 72
+        }
+      ],
+      "initialDegreeUpperBound": 802,
+      "determinantInfinityValuationLowerBound": 8,
+      "improvedGlobalQQ_uDegreeUpperBound": 794,
+      "alreadyPaidActualModularDegree": 789,
+      "alreadyPaidActualModularLeadingCoefficient": 790,
+      "alreadyPaidActualModularPolynomialSHA256": "2b40bf98b99fb097b4d24d3d1f21291b782a2dc0678f756838fe2789343e192b",
+      "exactQQDegreeAndQ2p1009PreservationProved": false,
+      "noOldHungarianOrModularDeterminantRepeated": true,
+      "noHigherOrderSeriesOrKernelLiftExecuted": true,
+      "allPhysicalWeightAndH42ZeroBranchesRetained": true,
+      "wholePhiExcluded": false,
+      "ordinaryISPClaim": false,
+      "noRecomputableMatrixOrPolynomialPayloadSaved": true,
+      "peakRSSKiB": 59120,
+      "stage": "new_actual_QQ_Q_highest_rank_and_global_u_bound",
+      "seconds": 5.708835174999997
+    },
+    {
+      "elapsed_seconds": 5.769411546000001,
+      "max_child_rss_kib": 60016,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "fb8a3545dbcff0dd03bd91b8b83a644a193d4a4c",
+          "before": "53f5b682b3564c3894dbe55cf5825fe3a839dc38",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-28T02:07:43.827811+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46096502771",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "53f5b682b3564c3894dbe55cf5825fe3a839dc38",
+      "source_exit_code": 0,
+      "source_git_blob": "ad6d6c7a83532fa28c6a5a0f402569aec68ba13c",
+      "source_sha256": "0350cf7708142f22bedd6ff6b807391d8c0a4481ba9406b6fbfdefff4f09d1cb",
+      "stdout_bytes": 5562,
+      "stdout_sha256": "cdbdbf7e7f31815498fb46c7e549427cda103bc87b181d3cd6ecf8df9f8c92df",
+      "stop_reason": null
+    }
+  ],
+  "claims": {
+    "QQ_rank": 14,
+    "infinity_order_lower": 8,
+    "QQ_u_degree_lower": 789,
+    "QQ_u_degree_upper": 794,
+    "remaining_degree_gap": 5,
+    "degree789_not_proved": true,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  }
+}
