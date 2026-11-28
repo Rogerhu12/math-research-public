@@ -7,15 +7,15 @@
 固定E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。有限p、变曲线、条件接口均不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库且至少每小时；非FF立即两库pull --rebase、查四README差异并记已读commit，再推直到成功，不force。令牌仅命令行/进程，不入文件/提交/API。
 全部数学仅公开Actions，4CPU/16GB/6h，账户至多20并发。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则15禁存可重算log/数据/矩阵，只留源/参数/run/hash/必要原输入。独立结论新R，同结论续同号；不设冻结/额外复核门。公开16/私库15要求子代理显式gpt-6.2-astra/ultra，09:47起已全遵守。
-[整理前完整H](notes/2026-11-28-handoff-before-descended-pencil-software.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
+[整理前完整H](notes/2026-11-28-handoff-before-complete-kummer-spectral-specialization.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；公共pack已逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 14:02:31 UTC实际pull --rebase，读取main a37c2b6df20073bab1161a06db12152249583384；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 14:02:25 UTC实际pull --rebase至429e2ab1ff825dea5a0057484641823a1262e354；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 14:06:16 UTC实际pull --rebase，读取main d428424e8b9410cfa4ca50c2882e9487887420b7；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 14:06:11 UTC实际pull --rebase至91dcf270137574d3a42f0d088cb920150a6abdec；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3285/47625058B/tree51fd8760da4e9ccf2f5689ecf9a1704713b113d8；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3285/47636104B/treec21dbba82e2660e6755d19bbaf6cec41b491cb91；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -28,8 +28,8 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 原两/三位与三个实际目标：R1067
 
-[原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。全部原Kato/ν/physical/参考照保：EN三位/Ed两位，首剩余全后段核容许坏j1，须真实高位。九17标记给三实际Zi与完整J=3Σr_i^uI_i，同一S3域；Gaussian Gwt非零/超越但原J′/3=Gwt+ΣI_i′尚可抵消。三中心比模任何固定S-unit秩2，只在余项为有限全局period时推出非零。完整余项是一条过收敛积分，复阶2/(p−1)不排除端点period表示。绝对a/b及κ0已付。
-§§62–65原K=S1G(√−17z)全t盘整、所有p幂挠真S,p-unit；同一3024K在原LT塔严格范数相容。真实17平移在原b⊗V17中以完整289项回三个Hi，各Ci/参考逆/权导都保。偶log奇矩零，不能当原Rubin。§66同一旧G81的1008D全p层严格范数，原Klein值无Teich返回；原Hall仍保G因子。§67同一1008D的每个原首wild全Kummer对数非零，未与J′等同。§68全部原AH3外权的逐p²→p对数纤维非零，源六项/参考两项全保。§69同一全驯dlog准确回原Hecke中央L及R716 Hall平方，单位乘子全付；空间导数非零仍缺。§70全除子Poincaré对角准确为C*u(j)Jp(j)²，原二阶2C*u(0)Jp′²；尚须真非零。§71原完整f及τ⁻¹Δ型的平凡/首wild Kummer均非零，保M=p的ε(p)；§72同一列在整双变量LT模恰−H/(12J)乘原Robert列；完整T⁻¹后回AL4，仍容许中央高阶零。全部证明及旧参数见上链，不重做。
+[原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)；所有旧槽/精度/原模型见归档，不重做。EN三位/Ed两位首剩余仍容许坏j1。九17标记的三实际中心给J=3Σr_i^uI_i，Gaussian Gwt非零且三中心比模固定S-unit秩2，但J′/3=Gwt+ΣI_i′的完整过收敛余积分仍可抵消；复阶2/(p−1)只排有限覆盖代数化。
+§§62–65原3024K严格范数相容，全p挠真S,p-unit；原b⊗V17的289真实平移全保Ci/参考逆，偶log奇矩零不代原Rubin。§66原1008D同样严格范数，Klein值无Teich，Hall保G因子。§§67–68真wild Kummer及全部原AH3加权逐纤维log非零，未与J′等同。§69原全驯dlog准确回Hecke中央L/R716 Hall平方，尚未证明其非零。§70全除子Poincaré对角=C*u(j)Jp(j)²，二阶2C*u(0)Jp′²，原κ0/双周期/θ⁻¹³全付。§71完整f与τ⁻¹型的平凡/首wild Kummer非零，M=p的ε(p)保留。§72同一列在整双变量LT模恰−H/(12J)乘原Robert列；完整T⁻¹后回AL4，仍容许中央高阶零。§73所有双变量有限角色非零，真实d_j下降Φ_j后给τ型域正规基；整行列式和中央谱特化未付。
 
 ## 原中央与完整全层：R1070/R1072
 

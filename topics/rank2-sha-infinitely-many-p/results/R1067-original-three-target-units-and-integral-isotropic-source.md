@@ -1725,3 +1725,62 @@ R303 另一辅助惰性素数所用的 $\ell^2+\ell^{-1}$ 改写成
 $c^2-c$；两处使用各自的理想 Artin 与原平滑规范。
 (AM1)的有限层非零在完整 Tate 扭转及反圆取商前成立；
 (AN4)的单位比较仍容许两个类在反圆中央同时有高阶零。
+
+## 73. 固定实际 Kummer 类在所有双变量有限字符上非零并生成选定嵌入的正规基
+
+沿(AN1)，写 $\Phi=K_p,\Phi_j=\Phi(E_1[p^j])$、
+$G_j=(1+p\mathcal O)/(1+p^j\mathcal O)$。以选定的
+$\mathcal O\hookrightarrow\Phi$ 乘法嵌入，将
+$\log_p d_j$ 读为域元素 $x_j$。则
+$$
+ x_j\in\Phi_j^{(\tau)},\qquad
+ \boxed{\quad \{[g]x_j:g\in G_j\}
+            \text{ 是 }\Phi_j^{(\tau)}\text{ 的一个 }\Phi\text{-基。}\quad}  \tag{AO1}
+$$
+这是域上的正则基性质，未给整数环上行列式为单位。
+
+确实 $L/\Phi$ 的算术剩余 Frobenius 在所有 $E_1[f]$ 上为
+$[-p]$，因为 $E_1/\mathbf F_p$ 超奇异且 $a_p=0$。
+$\psi_{17}((p))=-p$ 给 $\varepsilon(p)=-1$，
+故 $\varepsilon(-p)=1$，全 $t$ 加权后各项在此 Frobenius 下
+相消为同一个和。$\Phi_j/\Phi$ 全分歧，因而 $x_j$ 实际下降；
+$r_j$ 同理，(AN4)也给整 Kummer 类的下降。更明确，$L/\Phi$ 的
+次数整除 $(\mathcal O_K/f)^\times$ 的指数，素因子只有 $2,3$；
+以该次数的逆乘 corestriction，便从不变量作整下降。
+
+任取 $G_j$ 上一个有限角色 $\eta$。若它的原始模为 $M=p^s$，
+则在第 $s$ 层用 $\tau^{-1}\eta$ 替代(AM1)的
+$\tau^{-1}\chi^2$；当 $\eta=1$ 取 $s=1$。该 $p$ 处角色在
+$M$ 本原，对角 $\mu_6$ 处同(AM1)与全驯
+$\varepsilon$ 准确匹配。于是
+$$
+ \sum_{w,t}\varepsilon(t)\tau(w)^{-1}\eta(w)
+                 \log_p D_t(Q_{w,s})\ne0.                        \tag{AO2}
+$$
+证明逐项为(AM2)–(AM4)，只有一般 $\eta$ 不必在有理单位上
+平凡，因此(AM3)的实际乘子为
+$$
+ 1+\tau(m)\eta(m)^{-1}
+ +\sum_{a=\gamma_7,\bar\gamma_7}
+             \frac{\tau(a)}{\varepsilon(a)\eta(a)} .
+$$
+其剩余仍是(AM3)的同一单位。CRT 常数应为
+$\tau(f)/(\varepsilon(M)\eta(f))$，仍非零。
+原始角角色 $\rho=\varepsilon\tau^{-1}\eta$ 在 $\mu_6$ 上平凡。
+BFK 的复 Gauss 展开与有限阶 Hecke $L(1,\rho^c)\ne0$ 仍适用，
+所有 $\widehat\sigma$ 都是(AM2)的代数 $p$ 单位，故仍可把
+有理关系经 Baker–Brumer 传递。这证明(AO2)甚至容许
+$\eta$ 的全圆分与反圆分分量同时变化。
+
+固定 $j\ge s$，由(AN4)的实际范数相容有
+$\operatorname{Tr}_{\Phi_j/\Phi_s}x_j=x_s$。因此每个
+$\eta$ 在第 $j$ 层的完整投影仍非零：
+在 $s$ 层，$T_{t,s}$ 对 $T_t$ 的重排仅乘
+$\varepsilon(p)^s$，$e_\tau$ 的规范仅乘非零常数；
+在更高层先取此迹。$\Phi_j/\Phi$ 的 Galois 群为
+$\Delta\times G_j$，由域的正规基定理，$\tau$ 特征空间是正则
+$\Phi[G_j]$ 模。扩到分裂域以后，每个特征线恰一次；
+所有特征投影非零说明 $x_j$ 的平移张满，维数等于 $|G_j|$
+便给(AO1)。另一外部嵌入连同 $\varepsilon,\tau,\beta$ 共轭，
+给相应共轭特征空间的同一结论。两者不声称张量模的一个
+元素能同时成为两个分量上的整自由基。

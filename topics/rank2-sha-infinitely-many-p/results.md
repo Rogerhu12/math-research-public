@@ -348,3 +348,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1073 §21：两个原χ权的真实首层椭圆端项非零
 
 原δ/Frobenius微分给真实h_C(v_D)=−B/F_{δI}；在完整72(p+1)环类上，倒数三级值唯一范数3尖点指数主项使所有Fourier系数非零。真实Artin稳定关系核及Fuchs–Pham付两个原加权端项非零；两条完整正则积分余项及移动dh_C保持，未代canonical中央。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §73：实际整列的全双变量有限角色及域正规基
+
+原完整d_j以ε(−p)=1下降至Φ_j，任意圆分/反圆分有限角色均由真实primitive Gauss与整范数相容给非零；其完整G_j轨道构成Φ_j的τ型域正规基。未给整数环行列式单位，也未将所有有限角色非零移作中央Tate谱特化。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
