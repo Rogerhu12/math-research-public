@@ -10,13 +10,13 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140917040567，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 08:14:04 UTC实际partial clone/pull至f752d81523bd57f0d438432e8c090a439069a2b7；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 08:14:09 UTC至7e6bf60f0aee71393d78959a3b562d75d2119e63；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与08:05同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14887B/hashd23476e40551dc9ba19a55bb7cd1f9b22beee9ad217e2f7f0fb26d10e265ced6；库存3214/45939389B/treed78c7f949c08d8aefc46dab6f31d78dad3de1d7c；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟09:18UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
-- 本地自11月27日07:20失联，最近11月28日07:38:18实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
+readonly run46073965457/job140917773420，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 08:17:06 UTC实际partial clone/pull至7ee669c2c8d8ed381f8edc2347a43553be56f62b；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 08:17:12 UTC至5a183ad0f21d903e58049d3e13152d8c17902e59；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与08:16同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14889B/hasha504d0b2a941be38fe64c2cc28ad2522638e70da53b9cee46866d525c4496273；库存3216/45967918B/tree4be455fb8b28e7b96d62c8010a3465cad3d42c8c；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟09:17UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+- 本地自11月27日07:20失联，最近11月28日08:16实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
 

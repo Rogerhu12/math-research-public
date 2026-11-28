@@ -97,8 +97,12 @@ root手核(95)由z(Pv)=pz(v)的全部系数、h≥2的高估值、j≤p+3的Lagr
 推前actual run46073965457/job140915025525：公开2026-11-28 08:05:50 UTC至59e990f2ce095c7669a65d2f2c61552bda61c2e8；私库2026-11-28 08:05:55 UTC至892361b6ada8a2ac53790a805647c7c6c53fefc0。四README与08:00同blob、QUEUE本题未变；日志14887B/hashc021ad7b7facbd5bf7a165b66090ce408031855193d0638d4a539721354b1128；库存3213/45925802B/tree979b2788d87b955a13a5d52e38876a0cab1060ee，无>5MB，三旧必要gzip不变。H记录actual heads/已读规则；唯一路径v15及两原char0输入不改。
 
 
-## 2026-11-28 08:20 UTC — R1069 固定形式叶与完整极成本
+## 2026-11-28 08:15 UTC — R1069 固定形式叶与完整极成本
 
 R1069固定原H=S34,1/Θ2,4913、Q形式叶D1+D4913及两模型微分。Hasse受限p幂准确在inert或17平方处封闭，四类密度1/4；全叶几何稠密r=2，Herblot全部定义/假设给α=1/4最优饱和。完整分母两Θ零陪集与分子最多有限交，原H极计数17πR²/area(Λ)+O(R+logR)，增长阶2。目标inert/square类已自动p-闭合；高斯平衡不降原Smith或canonical成本，仍消费全H_a加法核。 root逐式审全部模型/规范、p-闭合密度、Herblot作者PDF Definitions2.4–2.5/3.5/5.1/5.4–5.5、Proposition3.6和Theorem6.1；修明sum_{v∉S}、C_{S,ε}及原整性p>211入口。无数学执行。完整前H逐字归档，未存可重算输出；主目标仍未完成，继续实际bad读者。
 
 推前actual双库pull：public 2026-11-28 08:14:04 UTC / f752d81523bd57f0d438432e8c090a439069a2b7；private 2026-11-28 08:14:09 UTC / 7e6bf60f0aee71393d78959a3b562d75d2119e63；run46073965457/job140917040567，四README同blob、QUEUE本题认领不变，实际log 14887B / d23476e40551dc9ba19a55bb7cd1f9b22beee9ad217e2f7f0fb26d10e265ced6。三旧必要gzip无变化，库存完整、无>5MB。
+
+时间订正：上次R1069日志标题08:20为手填误记，已据实际08:15:40 UTC时钟改为08:15；不改数学证明。再次推前actual双库pull：public 2026-11-28 08:16:24 UTC / 386079ffa43eb45577620becb418727b8bbe153c；private 2026-11-28 08:16:28 UTC / e6c00fa76a0ea93987a0df49ebe89fcf28354926；run46073965457/job140917610541，四README同blob、QUEUE本题认领不变；log 14887B / 45fd4e1aefea20e6bd40cc471ebbe67ce2b2c9f5a6999594d6858625d8eb2a85，下次期限由实际receipt加一小时。
+
+更正提交首次ref返回UNKNOWN且main已推进；已立即实际pull --rebase（本地无环境），随后实际CI双pull并复核：public 2026-11-28 08:17:06 UTC / 7ee669c2c8d8ed381f8edc2347a43553be56f62b，private 2026-11-28 08:17:12 UTC / 5a183ad0f21d903e58049d3e13152d8c17902e59；run46073965457/job140917773420，四README与目标QUEUE不变，log 14889B / a504d0b2a941be38fe64c2cc28ad2522638e70da53b9cee46866d525c4496273。保他题改动、非force重推。
