@@ -2,9 +2,13 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-S2-positive-head-W-first-norm-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-whole-D2-exclusion-and-W-H198-length-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [R150：整个 Phi D2=0 最高方向的原一元 Bézout 排除](results/R150-appendix-unit211-Phi-zero-whole-D2-highest-direction-original-exclusion.md)：三原纯权 cofactor 在 QQ[u] 全来源 gcd 恰为已付 (u−1)^10(u−2)^8，五候选整纤维全闭；物理 D0 与整 Phi 不由此关闭。
+
+- [R150：W 整 H198 与原 P164 的有限交及完整七坐标长度](results/R150-appendix-unit211-W-entire-H198-native-P164-finite-intersection-and-original-length.md)：固定 p1009,k3 真余式、完整 p 整/本原给 H 不整除 P164；权/均值/全坐标长度≤4100/24600/49200，包含重数，尚未判空。
 
 - [R150：Phi 两原支持互素及至多1634个有限性例外权点](results/R150-appendix-unit211-Phi-zero-coprime-original-highest-supports-and-1634-exceptional-weights.md)：47aaa真QQ gcd1/总86×19；两模型补集每权≤21，整个交点集及原个别值仍留，非全权有限。
 
@@ -65,25 +69,3 @@
 - [整K7原理想三次平方；完整规范scheme长≤72、不同点≤36](results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md)：85bc真148.81632278秒/0，16原行和两个固定常数余子式经QQ Bézout完整返$(m^3-4m^2-6m+18)^2$；全部临时主元零保，六原迹实际乘回。三整共轭纤维尚待原值返回，未排整个K或W。
 
 - [Phi/H1 原理想全局首一六次；每权长≤18、完整规范不同点≤28944](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)：74b真0.998030146秒/0；六cofactor属于同一原理想，Q4 adj/norm与QQ Bézout共同C95全因子已付。1,T,v三生成付18；804权对付五坐标14472，完整Gram/HAHB唯一恢复后仅rho两根付28944，非全局scheme长，不排空。
-
-- [整K7权曲线与原rho的双向有理参数](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：实际V8 BigInt17ms/40完整身份，m及sigma覆盖两值分支、判别式零及所有当前有限原点；每个新分母对应原已付单位。只换同一原输入，未排空K7。
-
-- [原光滑核内部的全部幂稠密值域](results/R271-appendix-smooth-kernel-core-all-powers-dense-range.md)：同一真实创建修复给closure(B^rK∞)=K∞，原像仍在光滑核；非恒定解析芽在该限制上稠值且核恰Ce0，同u输出误差平方可和。K∞=N/M和实际来源费仍未证。
-
-- [Phi H1 原固定范数的精确QQ次数3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)：真3.420099509秒完整∞ rank1+3 Hensel/CRT，12阶小块三轮核提取给929，36阶大块2250；首项mod1009乘积954，保度已付。只首个固定norm，804不缩。
-
-- [全部实际子商的正序交织方向与闭逆同源费](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)：到hyponormal/从cohyponormal的任意有界交织全零；反向移位迹类拟亲和确存在，但每个非零移位不变L像均稠密于同一C_x，闭逆的同一轨道强制原四次费用。未知C_x真性仍开。
-
-- [Phi H1 的新三头整个零支排除](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)：原norm41完整覆盖，九次QQ实际Q一次及54维原单位；十次与已成十权由同一QQ一次gcd准确合成。只付当前原解的h头，804权界保持。
-
-- [物理 lambda 四头与至多52权的整降秩支](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)：真1.092022892秒完整双向坐标、六原式和全仿射身份；四个三生成开图，整个降秩权长≤52、完整原七坐标≤624。所有未付头零与个别原值保留。
-
-- [整 H265 的有限权交点与完整规范原环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)：实际15.331051968秒固定整模型非零余式付QQ H∤P；权长度≤4920、均值≤29520、双二次环境≤118080，完整HA/HB使原七坐标商≤59040。原分支仍待排空。
-
-- [原边界光滑核闭包的创建修复与忠实 Calkin 角](results/R271-appendix-boundary-smooth-kernel-creation-repair-and-faithful-calkin-corners.md)：同一G修复完整carry，误差可和，实际K∞投影强*渐近交换及全部角忠实；D(G*)∩K∞⊥精确等于RanT*。K∞=M和投影保物理域仍开。
-
-- [Phi H1 不倒头的全多项式原值与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)：真实15.058230470秒/0，四QQ原cofactor λ度6/6/9/10及三个固定范数的严格QQ上界/真实模度；最高头全消失，804界未缩，全部h0保留。
-
-- [全W原NS/PS固定六行的完整必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：全已付native六规则/18乘法，真实95.890604382秒/0返全部55商积及非零P(e,k)，双度97/123、总164，包含整H265零；全部剩余原纤维继续。
-
-- [全部普通不变限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：任意有界相似、紧扰动与非恒定解析函数后，实际自交换子仍有两个符号的本质谱；含非零实际子商与慢平方限制，完整排除次正规+紧输入，普通ISP仍开。
