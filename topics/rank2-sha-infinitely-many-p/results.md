@@ -608,3 +608,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §118：第五槽在真椭圆核上的全局简式
 
 已证明：真实ω=ds与[-1]s=−s给F(t,s)−t−s被(t+s)^p整除，低极阶的全部Hasse平移因而只有一个主部。CC0上逐点有(h_{p+1}F₂)^p=−2c h_{q+2p−2}Z，完整第五槽恰为裸h_{q+2p−2}F₂全迹。117首式与旧第五槽同一，未增加独立约束；全曲率及无穷p仍未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §119：原Belyi全Kummer源与三条反δ输入
+
+已证明：真2/δ推除子零给全部k=1,2,3的完整迹ℒ(OF_k)=−kℒ(O[Z^{k−1}Dlog(x³/y²)])，保所有算子次序与父标记。原M精确为h及1−h全乘积的−1、8次幂，第二投影真交换h与1−h；反δ二次差分显出带完整标记的Z^{k−1}/x。普通曲率J_p=−(D−y/x)^{p−2}(1/x)已逐极证明，算子/全迹转换仍缺。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

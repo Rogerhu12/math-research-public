@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 19:35:49 UTC按根规则8小文本备用通道读公开main d0e0b7e39aa00b9747287269414b48f5439e119c、私库main 15db93b079304fd472051017d451742403dfe48b；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
+- 2026-11-28 19:42:57 UTC按根规则8小文本备用通道读公开main 919b1fb5faedc2538559da8af6fc341f3ea75e28、私库main b6416360761b315da642d4c655acd99bc8d7bc6d；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 两库原blob:none/depth1/sparse-index；14:34经逐文件SHA核验把两.git及packs迁往/tmp/rank2-0b097461-{public,private}-git-{metadata,pack}-20261128，保原symlink/HEAD/status，释放57028608B，四目标勿删。精确路径/回执见归档。备用通道仅<100KB文本，topic约47.7MB；无数学本地执行或可重算CI日志入库。
 
@@ -20,7 +20,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 
 来源/pins/原F/P及全回执见逐字归档与各note。R1071 §§17–21保原N/D/postideal及1156格/306图、G3/W8下降、四标量Bézout、四端点18×9/九pairs/Miller。[v16](notes/2026-11-28-original-streamed-shadow-production-v16.md)因800万transcript预算失败，不重跑。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df于17:02 failure；全log及12唯一/22native摘要已核，哈希见逐字归档。实际W的q度2255，306配对行全过，但X>32000000格触显式MemoryError；完整X/H/postideal/终门未回，不重跑。
-[v18](notes/2026-11-28-original-short-global-graph-production-v18.md)run46147595142/job141050876340于17:03开始；18:55根取得真前缀，85pins/原F/P及13单次+10native摘要已核，central T两图全行已回、∞列82/306，完整交点/终门未回，详见note。 [v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)run46154552030/job141008207171/source d61834ef33bbaf6b28b96c50999d71ad33e19c8c于14:25开始，18:51仍step4/log404。两版不重启；短图/G3软件PASS不代生产。
+[v18](notes/2026-11-28-original-short-global-graph-production-v18.md)run46147595142/job141050876340于17:03开始；18:55根取得真前缀，85pins/原F/P及13单次+10native摘要已核，central T两图全行已回、∞列82/306，完整交点/终门未回，详见note。 [v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)run46154552030/job141008207171/source d61834ef33bbaf6b28b96c50999d71ad33e19c8c于14:25开始。根19:36复读两任务均仍step4，v19前次log404；无终门。两版不重启，软件PASS不代生产。
 
 ## 原全域与完整当地源：R1067
 
@@ -33,6 +33,8 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 §115真实δ平移使ℓO(BZ)=3ℓO(F₂)/4、ℓO(BF₂)=ℓO(F₃)/2，B=H−y/x；原εX²倒数曲率准确为[v^((p−5)/6)]R_X(v)/sqrt(1+v)，R_X固定。坏⇒此格零仍缺整算子桥。
 §116两固定二步联络真曲率子式给g^pG，−x^p及原M^-3的x乘积保留。§117原Tate/绝对p·z微分付2pq边界，真邻商GM两jet得h_NU₂=0、H^(p−1)LU₂=0（N=q+2p−2），保barε/ε及Frob。§118现证(h_{p+1}F₂)^p=−2c h_NZ在真椭圆核逐点成立，故117首式恰为旧第五槽，CG2自动抵消；不能计为独立新约束。另一L迹仍待归并；AQ全σ接口未付。
 [形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)：e_{χ^(p+2)}dlog(1−s^(2p²+2p−1))全χ槽/Cartier/µ6合规但倒数曲率读者非零；非原M反例。不能只联立五槽消H，须原固定极/范数的跨Teich关系。完整第三评价未付。
+
+§119真2/δ分布把F₁/F₂/F₃全迹化为Z⁰/Z/Z²·Dlog h，h=x³/y²；全Kummer乘积为M^-1、M^8，Q真交换h与1−h。反δ保父轨给Z^{k−1}/x；ordinary J_p=−(D−g)^(p−2)(1/x)。输入相同不代完整算子转换。
 
 ## 原中央与完整全层：R1070/R1072
 

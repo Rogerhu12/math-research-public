@@ -1818,3 +1818,233 @@ $h_NZ(\iota P')=-L_{q+2p-1}(P)$。
 其另一外嵌入的$\mathcal H^{p-1}\mathcal L U_2$读者
 仍须按真实全局身份继续归并，不能仅凭写法不同断言独立。
 主目标和AQ全部共轭曲率接口仍未完成。
+
+## 119. 原二、三挠分布的完整Belyi源与反δ输入
+
+**已证明。** 原完整标记的两个真推除子零，
+不仅给§115的$\delta$平移式，也使三个固定Kronecker函数的全迹
+准确化为同一个有理对数微分。以下先在
+$E_b:y^2=x^3+b$写式，原$E_1$取$b=1$。
+令
+$$
+ g=y/x,\quad \widehat g=x^2/y,\quad
+ \mathfrak h=x^3/y^2,\quad
+ D=\omega^{-1}d,\quad \mathcal H=D-xJ .
+$$
+以$\mathscr L$表示原$\varepsilon$、$\bar\varepsilon$或整数$I_t$
+的完整标记平移和；可随后在任一实际点评价。
+若$\mathcal O$与真二挠、$\delta$挠平移交换，
+则对$k=1,2,3$有
+$$
+ \boxed{\quad
+ \mathscr L(\mathcal O F_k)
+   =-6kb\,\mathscr L\!\left(
+              \mathcal O\frac{Z^{k-1}}{xy}\right)
+   =-k\,\mathscr L\!\left(
+              \mathcal O\bigl(Z^{k-1}D\log\mathfrak h\bigr)\right).
+ \quad}                                                       \tag{CI1}
+$$
+$F_1=Z$，$F_2,F_3$仍取原规范。
+这是保全部标记及算子次序的身份；
+没有把$\mathcal H-g$的幂误作平移不变算子。
+
+### 119.1 两个真实分布及三行代数
+
+原R298、§114已付
+$[2]_*(\sum_t I_t[T_t])=[\delta]_*(\sum_t I_t[T_t])=0$；
+两个原角色分量分别也如此。
+规范素于$p$的挠抬升使这些同一除子关系在通用扩张上给
+$$
+ \begin{aligned}
+ \mathscr L\left(V+\sum_{c^3=-b}\tau_{(c,0)}^*V\right)&=0,\\
+ \mathscr L\left(V+\tau_R^*V+\tau_{-R}^*V\right)&=0,
+             \qquad R=(0,\sqrt b).
+ \end{aligned}                                                \tag{CI2}
+$$
+先在分裂域作这些恒等式，再按全标记和下降；
+没有挑选其中一个父点或删去$I_t=0$的份。
+
+二挠点的规范$Z$坐标为零。若
+$m_c=y/(x-c)$，真实平移给
+$$
+ \begin{aligned}
+ x'&=m_c^2-x-c,&
+ y'&=-y+m_c(2x+c-m_c^2),&
+ Z'&=Z+m_c .
+ \end{aligned}
+$$
+且$\sum_c m_c=3x^2/y=3\widehat g$、$\sum_c c=0$。
+逐项代入得到
+$$
+ \begin{aligned}
+ \tau_c^*Z-Z&=m_c,\\
+ \tau_c^*F_2-F_2&=2Zm_c+2x+c,\\
+ \tau_c^*F_3-F_3&=3Z^2m_c+3Z(2x+c)+3y .
+ \end{aligned}                                                \tag{CI3}
+$$
+最后一行的常数为$(c-x)m_c+4y=3y$，不能另加一个极项。
+
+$\delta$两点则有$m_\pm=(y\mp\sqrt b)/x$，
+$$
+ \begin{aligned}
+ \tau_{\pm R}^*F_2-F_2&=2Zm_\pm+2x,\\
+ \tau_{\pm R}^*F_3-F_3&=3Z^2m_\pm+6xZ+3y\pm\sqrt b .
+ \end{aligned}                                                \tag{CI4}
+$$
+把(CI3)–(CI4)送入(CI2)，保持$\mathcal O$作用在整个括号上，
+即得二挠的三式
+$$
+ \begin{aligned}
+ \mathscr L(\mathcal O\widehat g)
+                  &=-\tfrac43\mathscr L(\mathcal OZ),\\
+ \mathscr L(\mathcal O(\mathcal H-\widehat g)Z)
+                  &=\tfrac23\mathscr L(\mathcal OF_2),\\
+ \mathscr L(\mathcal O(\mathcal H-\widehat g)F_2)
+                  &=\tfrac49\mathscr L(\mathcal OF_3)
+                       -b\,\mathscr L(\mathcal O(1/y)).
+ \end{aligned}                                                \tag{CI5}
+$$
+末式使用$x\widehat g=y-b/y$。
+同样，$\delta$分布准确给
+$$
+ \begin{aligned}
+ \mathscr L(\mathcal Og)&=-\tfrac32\mathscr L(\mathcal OZ),\\
+ \mathscr L(\mathcal O(\mathcal H-g)Z)
+                  &=\tfrac34\mathscr L(\mathcal OF_2),\\
+ \mathscr L(\mathcal O(\mathcal H-g)F_2)
+                  &=\tfrac12\mathscr L(\mathcal OF_3).
+ \end{aligned}                                                \tag{CI6}
+$$
+现在$g-\widehat g=b/(xy)$。
+第一行相减给$-1/6$，第二行相减给$-1/12$；
+第三行中
+$F_2/(xy)=Z^2/(xy)-1/y$，
+所以两个$-b/y$项必须相消，剩系数$-1/18$。
+又$D\log\mathfrak h=6(g-\widehat g)=6b/(xy)$，
+于是得到(CI1)的全部三个准确常数。
+
+这些式子对原$h_n,\mathcal H,J,\mathcal K,\mathcal L,\Xi$
+及其已证整组合均可使用，因为它们与真实固定挠平移交换。
+在普通反位的完整混合阶轨道上，
+规范$(P,\mathcal E(P))-\widetilde T_t$也是真群平移，
+所以同一式子保住全部轨道权；不能据此将任何单点迹置零。
+
+### 119.2 同一个M的两条全Kummer乘积
+
+这里必须仍用物理$T_t$而非不改$I_t$地换成$-T_t$。
+§116已付
+$$
+ \prod_t\left(\frac{x(P-T_t)}{x(-T_t)}\right)^{I_t}=M(P)^{-3}.
+$$
+另由
+$\operatorname{div}y=\sum_{R\in E[2]\setminus\{O\}}[R]-3[O]$
+及(CI2)的真实二挠推零，乘积的除子为$-4\operatorname{div}M$。
+在$O$归一，得到
+$$
+ \prod_t\left(\frac{y(P-T_t)}{y(-T_t)}\right)^{I_t}=M(P)^{-4}.
+                                                               \tag{CI7}
+$$
+所有分母都是原标记的实际非零值。
+在$E_1$，$1-\mathfrak h=1/y^2$；
+故这两式完整给
+$$
+ \boxed{\begin{aligned}
+ \prod_t\left(\frac{\mathfrak h(P-T_t)}
+                  {\mathfrak h(-T_t)}\right)^{I_t}
+        &=M(P)^{-1},\\
+ \prod_t\left(\frac{1-\mathfrak h(P-T_t)}
+                  {1-\mathfrak h(-T_t)}\right)^{I_t}
+        &=M(P)^8 .
+ \end{aligned}}                                                \tag{CI8}
+$$
+这些是特征零有理函数恒等式，故在每个允许点的所有$p^k$
+Kummer张量中也精确成立。
+它们比只比较$d\log$强，但没有增加额外独立的坏条件。
+
+在实际双覆盖$\lambda^2=x$上，第二椭圆投影为
+$$
+                      Q(P)=(x^{-1},y/\lambda^3).
+$$
+逐式计算给
+$$
+                  \mathfrak h(Q(P))=1-\mathfrak h(P).           \tag{CI9}
+$$
+所以(CI8)确实把原两个全Kummer幂连接到第二投影的同一对函数。
+这个投影不是$E_1$上的群同态，
+不能把$Q(P-T_t)$换成$Q(P)-Q(T_t)$。
+
+### 119.3 反δ差分显出真实的1/x输入
+
+令$\mathscr D_\delta=\tau_R^*-\tau_{-R}^*$、$C=\sqrt b$。
+$R$的阶为三，故
+$$
+ \mathscr D_\delta^2=\tau_R^*+\tau_{-R}^*-2,\qquad
+ \mathscr L\mathcal O\mathscr D_\delta^2=-3\mathscr L\mathcal O .
+$$
+由(CI4)以及$Z$的群律逐项得到
+$$
+ \begin{aligned}
+ \mathscr D_\delta Z&=-2C/x,\\
+ \mathscr D_\delta F_2&=-4CZ/x,\\
+ \mathscr D_\delta F_3&=-6CZ^2/x+2C .
+ \end{aligned}
+$$
+再作一次$\mathscr D_\delta$，末行常数消去，因而
+$$
+ \boxed{\qquad
+ \mathscr L(\mathcal O F_k)
+    =\frac{2kC}{3}\,
+        \mathscr L\left(\mathscr D_\delta\,
+               \mathcal O\frac{Z^{k-1}}x\right),
+       \qquad k=1,2,3 .
+ \qquad}                                                       \tag{CI10}
+$$
+右边是原完整标记经过反$\delta$平移后的真实泛函。
+在原三份父轨上，其偶分量保留$(-2,1,1)$型权；
+不能删去父点，将它冒作裸$1/x$读者。
+单独一次$\mathscr L\mathscr D_\delta F_k$的某些零由总奇偶自动产生，
+与(CI10)的两次真实差分不可混淆。
+
+### 119.4 普通倒数曲率的同一固定输入
+
+为说明(CI10)确实出现所需固定函数，取普通$p=6n+1$，
+$a=a_p(E_1)\ne0$，$\mathcal B=D-y/x$，并令
+$\mathcal J_p(P)=\lambda(P)G(Q(P))$，
+其中$G=D^{p-2}x$为§116的实际曲率函数。
+$G$为奇函数，改变$\lambda$的符号也同时将$Q$变为$-Q$，
+故$\mathcal J_p$确实下降为底$E_1$的有理函数。
+由$DG=ax$及真实第二投影，
+$\mathcal B\mathcal J_p=-a/x$。
+在$\lambda^2=x$的函数域上，
+$\mathcal B=\lambda D\lambda^{-1}$，故$\mathcal B^p=a\mathcal B$。
+因此
+$$
+               \mathcal J_p+\mathcal B^{p-2}(1/x)\in\ker\mathcal B .
+$$
+写$h=(p-1)/2$。
+$\ker\mathcal B=x^{-h}k(E_1)^p$，
+因为$D(x^{-h})=(y/x)x^{-h}$。
+在两个$\delta$点，上式两项极阶均至多$p-1$；
+$\mathcal J_p$的极阶至多$h$，由实际$G(Q)$的$O$主部可见。
+在$O$，$\lambda\sim\pm z^{-1}$，
+而$\lambda^{-1}/x$正则且至少三阶，
+所以$\lambda D^{p-2}(\lambda^{-1}/x)$至多简单极；
+$\mathcal J_p$在$O$正则。
+其它点均无极。
+
+若上式为$x^{-h}F^p$，这些界迫$F$只可能在$O$有至多简单极。
+椭圆曲线没有这样的非恒定函数，故$F$为常数。
+两项均奇，而$x^{-h}$偶，所以常数为零，准确得到
+$$
+             \boxed{\quad
+             \mathcal J_p=-\mathcal B^{p-2}(1/x).
+             \quad}                                          \tag{CI11}
+$$
+没有先假设$\delta$的高阶极自动消失；
+其消失是这个全局等式的结论。
+
+(CI10)与(CI11)展示同一个固定$1/x$输入，
+但原读者仍含全部反$\delta$标记、$Z^{k-1}$及平移不变算子，
+而曲率用的是$\mathcal B^{p-2}$。
+从这些完整原迹到AQ全部共轭曲率的转换仍须证明；
+本节不把两个算子的输入相同当成该转换已经完成。
