@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-2026
 
 ## 规则与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真实V8重置后pwd仍失败，恢复即pull。云核至`d35c88c4c636876a0b19ef364896cb36abfcbb20`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时，仅读变化diff即遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真实V8重置后pwd仍失败，恢复即pull。云核至`cc35a05fe18d7914eb0caa69b3dc672d5c0def46`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时，仅读变化diff即遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，NFF立即rebase，终端失效时freshHEAD完整整合重推，禁force/冒pull，令牌仅CLI。仅公开Actions科学；保完整源参/run/whole身份及失败未知，不加AST/fixture/独审/准入、不缩预算。先metadata，不整读≥100KB/binary；题≤200MB，文件<5MB，MD<100KB，H<10KB，open<30KB。根§15可重算raw仅runner，提交源参/run/SHA；旧退出件有完整复现及固定Git，不退活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²、同固定g；D为整F0直径，固定有内点H且diam≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D、relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻全mesh，继而提高三比值。
 
@@ -18,7 +18,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing
 
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗全返，expanded中央自由；固定g两细ba153412/cce19ff7 Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016；原16时间区间继续，未达标。
 [41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：原首4区间层44ccbdb9(5×877)完整返，Gram.4772011994707992/K286.12807285/support−.01316995；score21.2088较粗19.7133恶化。原8/16区间继续；所有原五粗与完整预算保旧ownnote，仍有R756中央阻碍。
-[R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：46153716771原入口全raw返回，原measure再现K370.7886/247.3521；同一42帽raw重调六jet全相同，外部同式给3.9124/2.6101，fine12行差异。低峰SVD非原高峰；内层op真返回/argmax追踪现触发，差异仍未解，全帽g8809.79。
+[R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：46154833248全42帽原内层已返，原raw逐字复现。细层14行曲率mat≠真Gram，原370.7886/247.3521可由错误实参准确重现；真高峰点Cartesian/SVD约3.9083/2.6072。全帽g8809.79仍未付，原值保留；单真实帽追g/change对象身份普通触发。
 
 [42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)：完整18输入/10新件，真测地Jacobi的物理优化+两材料图重建，五粗及同g4/8/16精化、原52/64/76/92预算；同runner末原点65相并七全网真实几何。普通触发，实际未返；R756原中央禁阻仍有效，另换43初g。
 
@@ -32,8 +32,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing
 
 ## 全部旧工作保留
 
-[结果索引](results.md)、[open§7](open.md)、各完整proof/ownnote及上述84197固定H逐字保全部旧数学结论、19–42来源/阶段/预算/失败未知；本次仅压导航。19–32终态与异常不重做；36–39全部阶段已返仍失败，39原点flow未知、39b另生点实flow失败不可借用。R738厚浸入、R741条件、R743微商距、R749–750极小CK宽均不代全闭解。33–35原139/138角色、35的1,333,370外变量与原全科学/后续pure不减，原R726–732完整包保留。
-RET100H/I/J分别净释1472530/1323225/1230816B；J只退18个已闭旧生成参数，2完整父+3结构组+正式恢复器逐份还原bytes/SHA256/Git。全部原队列/生成器/终态及活输入、唯一值、未闭来源保留。
+[results](results.md)、[open§7](open.md)、全部原proof/ownnote及84197固定H保R724–757、19–42所有条件/来源/预算/数值/失败未知；已登记不重做。36–39均失败，39原点flow未知/39b另生点失败；局部CK/厚浸入/微商距不代全解。RET100H/I/J完整恢复旧生成件，净释1472530/1323225/1230816B；所有父、队列、生成器、活输入与唯一实际值保留。
 
 <!-- visible-larger-parallel-33:start -->
 Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。
@@ -58,8 +57,8 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
-<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46154833248-1.json) 双README真pull ef856e5427d2375489ee97a2949cdbab681507ed
-<!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
-<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 33c64987e7105cace1828b4dd2d48fb0d93be1b8
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 30ee94bc975c5942b04be15edf94e2fdd61fbe20
+<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46154833248-1.json) 双README真pull ef856e5427d2375489ee97a2949cdbab681507ed
+<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 33c64987e7105cace1828b4dd2d48fb0d93be1b8
+<!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
 <!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 7e063a9a3d5216bbde3d634e2eb9fa94eda1f7bb

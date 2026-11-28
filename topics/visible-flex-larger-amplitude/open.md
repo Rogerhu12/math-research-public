@@ -113,7 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗全返，expanded中央自由；固定g两细ba153412/cce19ff7 Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016；原16时间区间继续，未达标。
 [41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：原首4区间层44ccbdb9(5×877)完整返，Gram.4772011994707992/K286.12807285/support−.01316995；score21.2088较粗19.7133恶化。原8/16区间继续；所有原五粗与完整预算保旧ownnote，仍有R756中央阻碍。
-[R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：46153716771原入口全raw返回，原measure再现K370.7886/247.3521；同一42帽raw重调六jet全相同，外部同式给3.9124/2.6101，fine12行差异。低峰SVD非原高峰；内层op真返回/argmax追踪现触发，差异仍未解，全帽g8809.79。
+[R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：46154833248全42帽原内层已返，原raw逐字复现。细层14行曲率mat≠真Gram，原370.7886/247.3521可由错误实参准确重现；真高峰点Cartesian/SVD约3.9083/2.6072。全帽g8809.79仍未付，原值保留；单真实帽追g/change对象身份普通触发。
 
 [42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)：完整18输入/10新件，真测地Jacobi的物理优化+两材料图重建，五粗及同g4/8/16精化、原52/64/76/92预算；同runner末原点65相并七全网真实几何。普通触发，实际未返；R756原中央禁阻仍有效，另换43初g。
 

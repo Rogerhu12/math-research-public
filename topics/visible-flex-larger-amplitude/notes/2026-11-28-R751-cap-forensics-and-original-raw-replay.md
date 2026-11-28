@@ -1,6 +1,6 @@
 # R751 原曲率矛盾的完整帽测量与原调用顺序重算
 
-状态：**数值证据；原峰值尚未重现，矛盾未解，不作为全曲率或 reach 证明。** 原完整证明和首次测量见[原记录](2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)。本记录不改写原值，也不将新的较小值替代原值。
+状态：**原高峰已真实复现并定位：原内层曲率算子的矩阵实参不是切向 Gram。完整实际证据见末节；尚不作为全域曲率或 reach 证明。** 原完整证明和首次测量见[原记录](2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)。本记录不改写原值，也不将新的较小值替代原值。
 
 ## 实际来源
 
@@ -41,3 +41,28 @@ run 46153716771/1、job141005656948 官方success；source/trigger/真实README 
 下一公开脚本原封运行整个3×7×9及全部17点窄域，再对42帽同一原raw调用原measure，用sys.settrace只捕获原内层op的两次return。记录实际b/g/d/tr/disc/返回向量全身份、内部真正argmax、全部外部同式比较；在内部原高峰处读世界六jet、Cartesian链与SVD，比较叉积面积平方、Gram相减行列式、SVD奇异值乘积平方和数组对齐。Python字节码亦留。原算术、预算和科学场不改，不能先把差异归因于舍入或已修复。
 
 trace源 scripts/resume_20261126/trace_r751_original_cap_operator.py 7091B / SHA-256 88b5f63728374bc9d24f34a3725c4500361f3ddd5b7cc96157a73eb91e527ec4 / Git 73a7366fed978ef5efeb1c9a908679aa668fa6da；workflow .github/workflows/visible-larger-r751-trace-cap-operator.yml 3565B / SHA-256 fab0851dbd7066f7c1bc3c7be3276b03cae7cb92b7c6ea1eeccab3e15670b5e1 / Git eb7df04003bfea4b44b8e768f970e198e65c2a40。完整小结按固定原replay报告SHA锁定来源；raw仅runner。实际新run和结论待自然返回。修改课题外该workflow只为定位真实原算子冲突。
+
+## 原内层捕获已完整返回：高峰由非Gram矩阵实参产生
+
+实际run 46154833248/1、job141009083637官方success；trigger 84bfe30997aa8475d04f7bbb3f442fb1f205ad6d，实际源与真实README pull a3156f3c418987365a450b474fb0e034104b6204。Python 3.14.4、NumPy 2.2.6；原measure/source逐字未改。完整[42帽算子捕获](https://github.com/Rogerhu12/math-research-public/blob/f6639c3e6825a16a2093f199016bd1794e39ab51/topics/visible-flex-larger-amplitude/notes/r751-actual-curvature-mixed-atlas-46154833248-1.json) 76571B / SHA-256 dd13258f6fe0c0bdcbdd8c304dd93a31535a2f207977bcf79b7433b2b03dbf41 / Git 706f15f6f30c06885c42d5569cc89ee24996364c。完整原raw 113197392B / SHA-256 69bca3cab9ff1cc12c47c20aca55d7526aeeb3979e3016554244c3565c80cefc，重新逐字匹配首次实际原件。它不同于前一replay的22358869全raw，当前42行raw_same_as_replay均false，这些原字段保留。
+
+全部28个粗/中层帽算子b/g/d与独算逐字相同；全部14个最细帽（包括两个零相位）仅g矩阵不同，b和den均逐字相同。零相位因II=0仍返回0，六个非零相位×两帽12个高值因此不同。将真实捕获b/g/den重新代入原表达式，42行均逐字重现其tr/disc/向量；不能解释为记录层误报或在另一个低峰替它复核。
+
+最细末相两帽的真实内部高峰都在原整数地址[8,27]，材料s=.2187229651261574、v=.5833333333333334。上帽内部mat=[.17130581071140408,−1.8433775215196704,−11.979314473530053]，而同点真Gram=[.18477553129529498,−2.6265645903719235,37.40644542736433]；内部所谓g_vv为负，不可能是切向Gram。下帽内部mat=[.17130250526222207,−1.8433207641089702,−11.980289047178601]，真Gram=[.18477222584611297,−2.6265078329612233,37.405470853715784]。
+
+上帽原den=.012954280314071198，真实叉积面积平方=.012954280314072478，SVD奇异值乘积平方=.012954280314072569；切向条件数330.2750790861649。下帽相应den=.01294871185630786、叉积平方=.012948711856308935、SVD平方=.0129487118563088、条件数330.33749480775873。因而原高值不是该点Gram行列式消减造出的奇异值。
+
+同一真实高峰点，上帽Cartesian主曲率绝对最大3.9082507280000964、SVD[-3.908250728000098,1.0470417888772003]；下帽Cartesian2.6071813682591998、SVD[-.698177932899744,2.6071813682592633]。全帽用真实Gram得到的最细末相工作峰仍为3.9124247373725742/2.610066448136576；它们的地址与上述错误算子峰不同。原370.7885676392032/247.3521463740392及全部原报告保持原样，现有确切解释是曲率算子收到了错误矩阵，而不是曲面确有这些主曲率。全帽relative Gram8809.789388290248仍未付。
+
+### 最后定位矩阵改写的位置
+
+实际字节码显示原change=g−g0使用CPython3.14的borrowed fast references。上游[CPython issue133164](https://github.com/python/cpython/issues/133164)说明3.14借用引用破坏了旧NumPy以引用计数识别可原地临时量的假设。这是运行时因果线索；当前捕获尚未直接记录change与g是否同一对象，故不把这一步推断写成已实测。
+
+新公开源只生成同一真实末相fine上帽及其初基，沿原顺序取10922、10923和完整11271行；在原两次op入口读取g/change的is、shares_memory、与独立真实Gram及显式np.subtract(...,out=)的逐字比较。原曲面、参数、原measure不改，不复跑整个3×7×9矩阵，不新增科学准入门。
+
+| 文件 | bytes | SHA-256 | Git blob |
+|---|---:|---|---|
+| scripts/resume_20261126/trace_r751_real_cap_gram_identity.py | 3745 | a9fab7682776192cdecc8cb4b1ab1269553c93d5a8437a10bf26a5fb47d8931f | 86f0ba81550c531017940421fe166c00c6bad660 |
+| .github/workflows/visible-larger-r751-real-cap-gram-identity.yml | 3571 | f49677973c5d24b6abf215b6964d3c2d10bb79d06040b48e75c06e1a193be78c | af1cfe97cbfb05a247945dc94c2eb317b37ed616 |
+
+这次实际run/job/结果待原进程自然返回。修改上述课题外workflow仅用于真实矩阵改写定位；60分钟原上限不把时间上限作研究终点。
