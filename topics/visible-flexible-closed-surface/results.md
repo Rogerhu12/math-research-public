@@ -187,3 +187,4 @@
 - [R314](results/R314-inverse-prufer-infinite-flat-tail-and-physical-quartic-buffer.md)（已证明）反向Prüfer相位给真实无限平领及非零C²二次无穷小等距模：每层水平双端准确零、外增益>10>8、层宽<48δ；正斜率四次缓段匹配w与wr，可给指定负端高度模。有限幅度二次度量项仍存在，非精确闭面解。
 - [R315](results/R315-true-longer-threefold-arms-and-complete-high-cap-shape-budget.md)（已证明）真实.35厚臂末直.98/.46：中央全reach≥.115、两臂距>.49522；若同新外核满足明列三界，则整D≤3.830、held/D>.20222、δE/D>.05440、diamH/D>.3477。新全外核/同g容差分别支付。
 - [R316](results/R316-all-remaining-prufer-layers-explicit-physical-two-jet-bounds.md)（已证明）R314同实际全无限输入n≥37全部角相位：真实二jets定量有理界、主κ<4.426e−8、支撑>.5723；自身旋转背景完整Gram缺陷<1.166e−71但非零，不转给旧p32g/整闭或精确解。
+- [R317](results/R317-adjacent-equal-curvature-ports-complete-central-and-closed-shape-bounds.md)（已证明）相邻同κ=.63真圆口，phase∈[0,1.15]中央reach≥.115、全时双臂距>.844；若实际新外核两条明列形状界通过，则D≤3.830、held/D>.21726、δE/D>.05432、diamH/D>.38108。
