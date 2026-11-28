@@ -421,3 +421,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:25:46 UTC — 26首恢复接受、随后trial与官方取消
 
 官方26 job140849792210 cancelled09:20:01Z原因未知；最后c283十六分之一步真实接受/current/accepted1、max distance_plus.1284444767098446、完整六族/K/热点已保；0cb1下一全步仅开始，无自身统计或final/typed。移除26旧运行槽，不伪执行whole pure46806。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`e28326c84b398ae93ed38e949ce584b5e742c39a`无变（非pull）。
+
+## 2026-11-28 09:25:52 UTC — RET93 全部旧数值结果的原字面、数组与失败保留
+
+198个<100KB完整旧JSON已逐全文读；165个明确非活数值结果仅删字符串外ASCII空白，26已紧凑不动，7可能输入/控制/系数recipe（含rms-mesh节点计划）明确保原。所有数值字面、全部数组/字段/字符串/失败/未知/历史SHA逐token原字，文件没有删除。87772B/27e9d384f9cdc7baec2cd6bcb06a1d5c6c9ea6f03c75ef59b163f4fb95fe0438完整映射及4816B说明同刊，固定f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13全Git恢复供旧whole-hash消费；活source/input/port/parent91/request/queue不动。毛832640B、附件92588B、净740052B；非新科学输出、未重算/删原producer。 双README云核至`2d77ce96c3c6c5e69a742a46f7bc7e74b5771f94`无变（非pull）。
