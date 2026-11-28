@@ -43,7 +43,7 @@ if(spec.openAppend)O=O.replace(/\s*$/,"")+"\n\n"+spec.openAppend+"\n";
 if(spec.archiveH)H=H.replace(/^\- 所有被压缩的精确结论\/来源\/失败身份保\[最新完整H\]\([^)]*\)/m,"- 所有被压缩的精确结论/来源/失败身份保[最新完整H]("+spec.archiveH+")");
 if(spec.archiveOpen)O=O.replace(/此前全部原条目、来源、失败范围与开放接口保\[本次完整快照\]\([^)]*\)/,"此前全部原条目、来源、失败范围与开放接口保[本次完整快照]("+spec.archiveOpen+")");
 H=H.replace(/^\- \*\*终端断开后远端已读：\*\*[^\n]*$/m,"- **终端断开后远端已读：** "+head+"（"+utc+"）；只读检查不冒称实际pull。");
-H=H.replace(/^\- \*\*终端断开：\*\*[^\n]*$/m,"- **终端断开：** 2026-11-28 11:04 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。12:04再探，旧故障保归档。");
+H=H.replace(/^\- \*\*终端断开：\*\*[^\n]*$/m,"- **终端断开：** 2026-11-28 12:03 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。13:03再探，旧故障保归档。");
 if(spec.indexEntry){I=replaceUnique(I,"## 新增结论\n","## 新增结论\n\n"+spec.indexEntry+"\n","index entry");}
 if(spec.indexNotice)I=I.replace("# 已得结果\n","# 已得结果\n\n"+spec.indexNotice+"\n");
 if(spec.logLines?.length){if(spec.logLines.length>4)throw Error("at most four log lines");L=L.replace(/\s*$/,"")+"\n\n"+taipei+" Asia/Taipei｜Astra-ISP-8542378f-20261127\n"+spec.logLines.map(s=>"- "+s).join("\n")+"\n";}
@@ -73,4 +73,3 @@ store("isp_current_prepared_H",H);store("isp_current_prepared_O",O);
 text({preparedBranch:spec.branchName,sourceCommit:commit.sha,parentCommit:head,time:utc,name:spec.message,actualMainPushPending:true,mainRefUntouchedByAPI:true});
 
 })();
-
