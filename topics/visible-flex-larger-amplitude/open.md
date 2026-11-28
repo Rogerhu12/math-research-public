@@ -105,13 +105,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 正在推进
 
-[40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
+[40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102已原八阶段完整结束；最终g8.07053/K275522.6、点515e3d32，7点云非7网，未达标。全原终态70611B/三身份已核，最后已发布真pull 0d4fc710a23b0752666f5c52e9b8bdb66c68e348。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)：原33完整140角色/1,333,370变量/32stage，严格非求导Horner值路径；17源/两ready root逐字核同，原157/7词和全部复读/预算保留，正常入口启动，未来数值未返。
 
-48/R769/R771真实完整终态已独立登记，40末层正在读验；官方success仅是运行结束。33–35/41/42原终态、所有model/初点/拒绝/未返、36–39原flow和R724–750责任保上述完整open及各ownnote，不能另场借旧费用。
+40/48/R769/R771真实完整终态均已独立登记；官方success仅是运行结束。33–35/41/42原终态、所有model/初点/拒绝/未返、36–39原flow和R724–750责任保上述完整open及各ownnote，不能另场借旧费用。
 
 ### 数学和新输入
 
