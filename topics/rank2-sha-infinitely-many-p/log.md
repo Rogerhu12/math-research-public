@@ -392,3 +392,7 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-28 00:00 UTC：root全文审原A24相对来源，手核sigma(5)–(7)的δ号/绝对倍率、四次倍点全部逆像、完整倒根Newton和及三纤维五项；补写f=X+b的准确四次方程，亲读旧水平加法(25)–(28)、R855/R856中心零整格、R884全附录范围，未重复旧S/T/U/V投影。原mixed端点(20)保真实两个new余项和低卷积，未添中央零。纸证无数学执行。推前实际两库pull run46075603971/job140793617520：公开23:58:41至0e49679f27d61885d3565589603eebb16225e778，私库23:58:46至78f2efb417e18de16ace92c8625c189c4bf02380；四README/QUEUE与23:45相同。日志14887B/hash5a859e213e54818cd7fd96c973eb3cc2f0aaaed41033e0e4f1a29fbc0f130352；topic3151blob/44,383,251B、tree6f97ed36b9714fc83046df6a7478e8b32f1e9baa，无>5MB，三旧必要gzip不变。唯一v13继续执行，无新终态。
+
+
+- 2026-11-28 00:09 UTC：root审R1026§9的含质量整展开、两个真实Gaussian、第二半径端点(p−1)η=p−3+1/p、完整无限尾和qα log，实际精度提高到H+1；稿19838B/hash072b38bc9a02e22c392b8542a3c31ebb4d843b96cb87c81f8d5a807a0751c0d2。root另证R1028§9的整个ΔV=cpA^(p²)Tt^p原39纤维阶、全部native三角及真实cut费用，arithmetic独审通过；全稿23206B/hash9cddf874162be294b484879e5efa467f18fa168227ff2e733fad7bfaee15bdb8。更高精度未使原四阶cut见到Tt差，c=6/t=1仅未授权候选，物理M及全高位/中央求和不删。当前API逐字核两稿旧base与已审blob一致，未覆盖其它修改；旧9669B H逐字归档。无数学执行。
+推前实际两库pull run46075603971/job140795368313：公开2026-11-28 00:04:44至18ef37d4e40e799b34a259955a232f8e08719039、私库00:04:49至1ac8b3c55680f162caa357a56ae9c083db69598c；四README与23:58一致。QUEUE新blob207e1c58896cdd799b136aa4ca11970e050d14a5，根直接只核本题行仍本会话进行中，未改他题。日志14886B/hash0b20530e05f369aa9c017924581843d7172d386b09cf5dcec456a1ab1b305a4b；库存3152blob/44,395,147B，tree8b813db5189f52f1c5e010cf8f64ac0163a621f0，无超限，三旧必要gzip不变。00:08本地exec只读pwd重试仍无可用环境，API/CI继续分记。00:04唯一v13仍in_progress，未增加数学PASS。

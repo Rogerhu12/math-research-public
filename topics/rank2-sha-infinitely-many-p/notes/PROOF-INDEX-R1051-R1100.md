@@ -63,3 +63,8 @@
 ### 原A24实际相对片的完整两级返回
 
 [原A24相对来源完整返回](2026-11-27-original-a24-relative-fiber-and-complete-two-trace.md)在同一个 $T=A_{24}H_{48}$ 中付全四纤维 $\mathrm T_{2,12}H_{48}=(4/3)\sigma^{12}X(X+b)$、$\mathrm T_{2,6}A_{24}=\sigma^6/14$；真实相对片 $R_{144}=A_{24}(2w)H_{48}(w)$ 的old部分是 $[2]^*C_{36}/3$。同一 $C_{36}$ 的全范数三像为 $-\sigma^{12}(13X+4b)/336$。据准确来源分解，将原 $J_{1,p}/p$ 化为这一degree12读者、两个明定new余项及完整低卷积，原 $J_{p,1}/p$ 同时保留。没有把trace与除$p$无缺陷交换，也不赋相对来源新canonical零；后继须实际支付余项的finite来源和算术返回。
+
+
+### 原末端平坦比较的更高精度与完整native支持界
+
+[R1026§9](../results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)把原两个39支特征零顺序的准确比较提高至 $p^{H+1}$（原全部 $H\le p-6$），保非零质量、两Gaussian及 $m_0\log q_\alpha$；第二半径从 $h=p-1$ 的完整尾至少 $p^{p-2}$，不误借质量零端点。末六权各为 $p^{p-6t+1}$。[R1028§9](../results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)同时证明原已付四阶cut仍看不到完整 $T_t$ 余项：全权差 $c_pA^{p^2}T_t^p$ 在全部39核点从 $p(H_t+1)$ 阶起，native三角 $n\le(p+1)H_t$ 后逐纤维仍无留数。一般局部耗费 $c<6t$ 同样不见；$c=6,t=1$ 仅留下一个尚无非零授权的端点候选。精度加强没有增加canonical零行；完整物理M、高位、GP10、外权和Newton和仍保留。
