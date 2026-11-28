@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""R317 continuous position inequalities and both true physical arclength derivatives relative to the original R262 center.
+"""R317/R319 continuous position inequalities and both true physical arclength derivatives relative to the original R262 center.
 Same-q original cut field with the new adjacent true circular windows and its own fixed metric refinement.
 Intervals cover all original native angles separately from all material angles of the actual corrections.
 """
@@ -392,7 +392,7 @@ def parent_state(a,state,physical,common,raw,meta,bridge,kern,cache_pad):
     low=fq(state["low"])
     anchor=fq(state["anchor"])
     c=fq(state["fullSleeve"])
-    require(float(low)==.63 and float(c) in (.545,.660,.780) and str(state["cutSHA"])==CUT,"unpaid true port or cut")
+    require(float(low)==.63 and float(c) in (.350,.545,.660,.780) and str(state["cutSHA"])==CUT,"unpaid true port or cut")
     if (low,anchor) not in cache_pad:
         cache_pad[low,anchor]=adjacent_trace(raw,meta,kern,anchor,a.trace_angles)
     comparisons=cache_pad[low,anchor]

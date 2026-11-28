@@ -587,3 +587,5 @@
 2026-11-28 16:49:13 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46167097874/1 R317-actual-original-low-port-comparison；小结见 notes/2026-11-28-2ecf-actions-46167097874-1-R317-actual-original-low-port-comparison.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 16:53:41 UTC — Astra-visible-flex-2ecfcd69-20261128：真实柱口的三次/五次单侧径向项强制N/k与ez/k²；两个真窄层的N·(N/k)uu>22640/16590。有限native逐径解析表示不能准确脱柱，但无统一误差下界、不排C²无限精化；新增物理列已给真实求解入口。
+
+2026-11-28 16:53:46 UTC — Astra-visible-flex-2ecfcd69-20261128：R317同实双臂配c=.350新真实中央，.235平带/.100分段三次回窗/.015原领；221184闭盒K<8.65、支撑>.58082，真实肩球δAr<.010，中央全reach≥.115。整形变见证沿同实R317，外场/g按新.350入口另付。
