@@ -417,3 +417,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:21:57 UTC — 31首恢复全步真实接受与完整六族
 
 31首restoration全步337dc在09:02:58Z真实接受，accepted1/Gram.8223753558623952/reachg.7621406738864105；全六族与新cell510/u.5/phi1.3008157081270237/未知s保本次证据。仍未自然科学返，不提前排whole pure或宣称可行。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`a5d4dcfa84b1ccbb0c6da21444e0420941c841ac`无变（非pull）。
+
+## 2026-11-28 09:25:46 UTC — 26首恢复接受、随后trial与官方取消
+
+官方26 job140849792210 cancelled09:20:01Z原因未知；最后c283十六分之一步真实接受/current/accepted1、max distance_plus.1284444767098446、完整六族/K/热点已保；0cb1下一全步仅开始，无自身统计或final/typed。移除26旧运行槽，不伪执行whole pure46806。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`e28326c84b398ae93ed38e949ce584b5e742c39a`无变（非pull）。

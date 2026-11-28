@@ -1501,3 +1501,134 @@ adf3c9半步完整几何返回正g5.332641076605335，最大reach，实际拒绝
   }
 ]
 ```
+
+## 2026-11-28 09:25:46 UTC — 26首恢复接受、随后trial与官方取消
+
+官方 GET /repos/Rogerhu12/math-research-public/actions/runs/46103106086/jobs 确认 attempt1/job140849792210 completed/cancelled，completed_at=2026-11-28T09:20:01Z；科学步09:19:56Z cancelled。没有给原因，不以约六小时时长猜原因。全部官方响应如下。
+
+```json
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 140849792210,
+      "run_id": 46103106086,
+      "workflow_name": "Visible larger amplitude R725 fixed-width cutoff 20261128 26",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46103106086",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVt5L2s8AAAAgy01E0g",
+      "head_sha": "a6c9c1011551cb0c84c458e603b6b691f66313f4",
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140849792210",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46103106086/job/140849792210",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-28T03:29:41Z",
+      "started_at": "2026-11-28T03:29:43Z",
+      "completed_at": "2026-11-28T09:20:01Z",
+      "name": "Construct the same fixed target and solve the complete R725 boundary cutoff",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T03:29:44Z",
+          "completed_at": "2026-11-28T03:29:44Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T03:29:44Z",
+          "completed_at": "2026-11-28T03:29:51Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T03:29:51Z",
+          "completed_at": "2026-11-28T03:29:58Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T03:29:58Z",
+          "completed_at": "2026-11-28T03:30:31Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 5,
+          "started_at": "2026-11-28T03:30:31Z",
+          "completed_at": "2026-11-28T09:19:56Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2026-11-28T09:19:56Z",
+          "completed_at": "2026-11-28T09:19:56Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-28T09:19:56Z",
+          "completed_at": "2026-11-28T09:19:57Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-28T09:19:57Z",
+          "completed_at": "2026-11-28T09:19:57Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140849792210",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012523,
+      "runner_name": "GitHub Actions 1000012523",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
+```
+
+自身source12b76b81c33069a5b657c8d1c75af0b34a97b71d/PID3811，driver e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd、model4a7e828baef2c9ddb07909fbfb7635e222d5fdb65f2621e00fb57254a8cee423。09:01:44.519028Z，alpha.0625点c283e51d5b21f8f3e87671f9d92e1d2c34f24a667ebdfe6aff0945c991b9726c完整几何真实接受，current同该点、accepted1；Phi590.9577876003335/Gram.41647635913647313。全六族reach.013246488697677083、body−.04135006228341065、distance_plus.1284444767098446、distance_minus−3.0936218589052737、cap−.0669413866072589、height−1.0414354841839788。最大是distance_plus而非reach，current仍不可行。K8.152275570136034/D_point_lower4.110289943175146，热点cell886/u.6193095930415985/phiπ/2/branch1/s2.1731901882464784，distance_plus_phi=π/2；新s是本次返回，未回填先前null。
+
+末完整原索引observed09:19:40Z，09:16:01.995670Z只记录下一restoration alpha1 trial-start，完整点0cb1e6ffa94fc057a40635613701e421d39e42d7298bd566a35b6cc2c7074cd3；没有自身Phi/Gram/几何或接受。current仍c283/accepted1，complete_report=false、stop_reason=null、observer_failures0，科学未自然返回，没有新whole final/typed可给纯读。原46806B whole pure保准备历史，不在取消run上伪称执行。H运行槽明确删除，所有原输入/源参/失败与完整预算保留。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1.md",
+    "bytes": 40075,
+    "sha256": "f269c7d07d2ffbb46c04f577a0b2fa6f7abc997ed9220fbd3c0db2a6ab5a8fe2",
+    "git_blob_sha": "888997cd628bf558cfde96c4fbb0cadbd95d4f6f",
+    "fixed_commit": "f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1.md",
+    "bytes": 42074,
+    "sha256": "c23e59fd45688708f0d39aea7994d273597433a289f799b0c9355df76285c29c",
+    "git_blob_sha": "7fba23f72b527b8451d4f3958edead2d2e6a3428",
+    "fixed_commit": "d16babfaabdcb36c8bad9f11be2efaf1d53143b9",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
