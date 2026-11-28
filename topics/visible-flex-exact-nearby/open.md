@@ -145,22 +145,14 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-本节压缩前全部run、原球/SHA、失败unknown、参数/域/mean/source/ports在[a4ee9d41e完整open](https://github.com/Rogerhu12/math-research-public/blob/a4ee9d41ed6d94819e19878edbbbb0ba2b2314ef/topics/visible-flex-exact-nearby/open.md)及递归前页。第1–7节义务不撤；旧成功不重；当前readSHA和全实际账见H。
+本节压缩前全部记录、完整旧球/whole SHA/失败与未付事项永久保留于[原完整open](https://github.com/Rogerhu12/math-research-public/blob/b2992a2d4813a449945fcdc7ee4c61f8e062a934/topics/visible-flex-exact-nearby/open.md)及其递归历史。只缩索引，不撤任一条件、不准成功旧目标重跑；当前run与后继全状态见[HANDOFF](HANDOFF.md)。
 
-- TC46117170011/1仍只续原2677/7724 union后的5047缺格，保全96列、四whole arrays和原matrix/waist；TCF只在真实terminal后分配互斥缺格。SC首次原pure现保全96×(d,z,e)，还没有SC actual。
-- [TF真实失败与恢复合同](notes/2026-11-28-TF-left81-failure-and-checkpoint-restoration.md)：前81left通过，第82格4→64 cuts仍failed；right/node/maps和两whole目标未成，非timeout/真实奇异证明。三whole prefix/checkpoint SHA必要恢复尚未执行；新Householder联合球图表须保193frame/97free和全部source，不能原样重跑旧成功。
-- [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)：四whole TF maps到58→224→32→PN56/CXN6，full ΔAL/ΔC/GH/physical Robin/独立means及实际κB<1保。signed forcing须whole-cell，右97只一次Θ解权；完整TF成功前无manifest。
-- H96首run prechild reserve不符、0目标，唯一修复后46123190757/1跑原7目标；TC/RHI/8192/C0无界频/waist G96/mean/world保。全actual后接[PWA96](results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md)7目标，同canonical/G/H及唯一共ρ、negative4/world2，不重原积分。
-- DCP46124617641/1跑18新目标，BFP19全actual和322输入已准入；完整2560/8192/2048+无限异号tail、96signed及双mean保。当前非actual成功。
-- [CFC](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)完整96列10目标接口已推；须SC3/DCP18/H96/PWA96完整actual/execution。全forward/adjoint、SC原e96、mean和共同ρ保。100×97表不是fullsquare，实际全high/ν/normalizer/Robin/独立mean余块须继续构造。
-- [RCS](results/R149-supplement-signed-strict-coefficients-and-complete-genuine-response-input.md)全原始带符号系数和同J负阶入口已齐：13件whole metadata，原TCXV184/32/40parts完整恢复前缀，60 jets+5Lt+5J+2正下界/1自然目标。只登记首入口，不预报全域Bgap/uniform高响应；新true phase和完整positive/root/mean接收独立继续。
+TC46117170011/1、H9646123190757/1仍实际运行。TC只计整个accepted union，终态前不得领取其缺格；全7724与全部96列/原五窗口完成后才接SC。H96全部7 actual后才接PWA96的七新目标。DCP46124617641/1全18已返回并通过322whole/原validator/原admission，完整应用证明正在登记；CFC仍需SC3、H96、PWA96的真实全部成功，不提前生成manifest。
 
-BNC/BGR/BFP/WMT/WBN/GBN均actual全目标成功、原validator全过，具体whole身份/原费用在各应用proof和H。WMT globalΘ<6.957962、WBNΘν joint<.001118591、GBNtargetν joint<.000163012仅在各原scope；原96centres/means/旧完整候选不删，非fullSchur。UACT finite-only .31698/逆12.588不是完整PDE逆，SL/PS充分门false不推奇异。
+GG首次入口采用同一真实low193、97+96端点/mean、1424全节点与四全source共方差，原81三whole SHA必要恢复后只在其余1343格形成新order16 flow/moments；未积分坏子盒有向细分至1/64，成功旧格不重算。manifest71829B/c49b5aec76a1d12ccefa27266e86532e78a6cf7d0c5045a9055a774425c716cb的97current/21history整件已核。实际GG完整成功才接新GG→TP的58/224/32→PN56/CXN6；原TF左81失败不能给下游充成功parent。
 
-LCW/PWA的实际锚、NP height、HP height-first、HN2二阶strict/height和CG cap moving C0各已付范围保全部λ/world/raw/mean与未知core条件。PWA新a0<3.649e−6/p0<8.56e−6及H96费.00005185H+.000011056G可供完整同源消费者，不授truePDE/core。
+RCS首run46129196297/1在科学前因实际host无SkylakeX指令失败，目标0、无consumed；必须保CPU与全原SHA，不从Haswell的另一结果伪造carrier。原72槽/全strict签名输入目标和独立真实root-cut seed路线继续。
 
-[JWS](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)已证同whole strict J0<7/5、H1<29/5、DJ>3/8，15新有理组合一次过；负阶窗须全multipliers。[FWT](results/R133-supplement-finite-cut-Wiener-transfer-and-reduced-NG-entry.md)给γ≤.065|δ|+4cL+hH/16与新门64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11，19组合一次过；未知cL/ZS/ZL未赋值，原true collar/residual0/fullmean/H8193保。
+GDG已付全负域genuine determinant：ΔV/D>1−1e−7、ΔV>1/720、root BΣ<21/10、whole(B−Hinv)Σ<1/70000；不等于uniform高响应。JWS与FWT所有joint常数/负阶窗/unknown cL,ZS,ZL按原proof保，实际PH⁻¹PKQ/PU/Pg/Pf、普通finite complement、phase/height/ν/means/Robin、normalizer缺陷及全非线性迭代仍必须完成。
 
-[GDG](results/R133-supplement-complete-global-genuine-determinant-from-supported-potential.md)现已独立付全负域deformed-B gap：真piecewise R=1/50全域包含势支撑，ΔV>1/720；18新Fraction一次过。RCS原入口却在原方向恢复前遇真实CPU缺SkylakeX、science0；仍须合规可执行入口取得新全signed packet。uniform高响应/完整source义务不消。
-
-全Γ/γ低高准入、完整physical square/Schur、H1/mean/residual0/core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps及最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
+公开根新增#16和私库新增#15要求全部子代理显式gpt-6.2-astra/ultra，09:41差异已读立即落实。各新结论独立登记并逐条push；总课题未完成，持续推进。

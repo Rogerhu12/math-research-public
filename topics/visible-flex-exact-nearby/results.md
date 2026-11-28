@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GG：同一真实low193的精确正交联合图表与全四源映射](results/R149-supplement-joint-Grassmann-true-low193-and-whole-source-maps.md)：完整非零中心fractional graph、有理Householder、97+96端点/mean、全部1424节点和四whole source covariance；旧81仅三SHA必要载体恢复，后1343格首次order16适应未积分子盒。97/21整输入已核，首次workflow已齐、尚无数值逆结论；不是全无限维正侧逆。
+
 - [GDG：紧支撑势给出的全负域genuine行列式](results/R133-supplement-complete-global-genuine-determinant-from-supported-potential.md)：从原真实piecewise根域与全域ω单调严格包住势支撑，付ΔV/D>1−1e−7、全[0,r*] ΔV>1/720；root B entrysum<21/10、whole B−Hinv<1/70000。18新exact组合一次全过，8whole旧输入和全部原success绑定保，旧科学/恢复0；不冒uniform响应或全物理逆。
 
 - [RCS：原完整带符号系数、同J负阶窗与真正高频响应输入](results/R149-supplement-signed-strict-coefficients-and-complete-genuine-response-input.md)：新全strict60 jets+5Lt+5J+2正下界的1自然目标；13整件metadata及原TCXV184/32/40parts全前缀，所有signed乘积、原mean与positive/root接口保。首次manifest/workflow已齐，尚未预报actual、全域deformed-B gap或uniform高响应；旧科学0。
