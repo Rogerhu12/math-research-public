@@ -203,3 +203,22 @@ alpha1试探点b36a1d76718f3a4679bd75fb6cf879ad8b7f7b702253b3b5a28328b25300e1e3�
   }
 ]
 ```
+
+## 2026-11-28 13:17:35 UTC — 34 原全步完整拒绝与半步统计返回
+
+原同模型989fec/driver525338首全步 `b36a1d76718f3a4679bd75fb6cf879ad8b7f7b702253b3b5a28328b25300e1e3` 的完整几何已返，g=630003.3274714495，最大族reach，accepted=false。其原Phi94493.88817291798、Gram6.837434750273205保持同点归属。原α=.5半步 `ea4bb111f7bf5b32d3544eae60aae44d68324f3f4d6823a15518a7837ed109c5` 于2026-11-28T13:01:25.325613Z真实统计Phi64186.528482859125、Gram2.9404923519415433；完整几何尚待、trial_accepted=null。初点7e06仍current、accepted_directions=0；原所有预算和自然返回后pure流程不变。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46135301432-1.md",
+    "bytes": 52209,
+    "sha256": "feca6d1a73c53f5d4fd3c046ba408549d979789545abd42a127c64c5da19023c",
+    "git_blob_sha": "59caaa519d6f2709462097e22aab3cb6ab86fa9e",
+    "fixed_commit": "5dc017c76d917ff4a70f1d6c6f24cc36026df3ec",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
