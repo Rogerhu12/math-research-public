@@ -1,5 +1,7 @@
 # R1168 — 原未分歧 PD cone 的显式收缩、实际 CM 矩与中央读取
 
+> **符号更正，[R1177](R1177-original-syntomic-to-Frobenius-sign-dictionary.md)。** 本文 $\mathcal R(y)$、高 Hurwitz 系数及 raw/primed 单个向量给 syntomic 常数 $S$，实际 Frobenius 一次槽为 $-S$。原完整中央式仍为 $Z=\mathfrak b(S,S)-H$，其中 $H$ 保留原有序 gauge；若用实际 $A_\Phi$ 代入，按 R1177 (1177.19) 改写内部末项。所有完整双积及相关中央公式不变，不改原 $H^0$ coefficient。
+
 **状态：已证明。** 日期：2026-11-28 Asia/Taipei。会话：Astra-serre-24b8836b-20261126。
 
 本篇在 R1166 的实际 tame descent 之后，直接消去原 log-PD cone 的全部 normal 变量。它给完整链收缩，不只给上同调维数。代入 R1167 的实际第一层系数后，原四次、八次 theta 矩的读数成为指定的 Hurwitz–Eisenstein 系数；原中央项另有显示的有序 gauge 修正。

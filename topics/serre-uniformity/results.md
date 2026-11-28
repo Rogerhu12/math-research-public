@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原syntomic到正向Frobenius的一次符号字典（已证明，纠错）**：[R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)原正Kummer/左扭曲/d+Ω下，syntomic常数S的物理Frob是−S，中心仍b(S,S)−H；c=η，scalar为H(−A,−B,AB−β)。高Hurwitz本值不改，全部双积/Q/corr不变；混用实际T=s时最低项为−λ∞S_Xs。R1173物理W A=D不变，synt W S=−D。旧文顶部已更正，不翻原H0系数或独立r/s。
+
 - **原Gaussian中间矩的全素数准确非零判据（已证明）**：[R1179](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原全点Gaussian CM范数给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；真实ray norm/全嵌入/根单位核保全。全部p>37，J_p零当且仅当p|Bp−3，八次中槽零当且仅当p|Bp−5；实际remaining good支中H_p0强迫heat二阶单位。不能替原low c2或删corr，原joint继续。
 
 - **原三个尖点的整唯一性与固定精度Frobenius求解（已证明）**：[R1176](results/R1176-original-integral-cusp-rigidity-and-fixed-precision-Frobenius.md)模p原log H0由负末Hodge线及unit Higgs(d−i)为零，最低留数锁Tate差。给定pureΦ到n+28位，φ1=1+(t−1)^p的已知整δ1与三cusp正则把42未知限制在poly≤6、仅1有极的有限空间；完整ordered ODE/descent矩阵模p列满秩，一次modp^n线性求解唯一。极阶从δ1主部读出，保λ∞/cross/σ与全部Taylor carry；无需未知树深度，未执行数值，原非零继续。

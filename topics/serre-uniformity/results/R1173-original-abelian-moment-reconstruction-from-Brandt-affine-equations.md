@@ -1,5 +1,7 @@
 # R1173：原两个 abelian 矩由超奇异仿射 Hecke 方程唯一恢复
 
+> **字典说明，[R1177](R1177-original-syntomic-to-Frobenius-sign-dictionary.md)。** 本文 (1173.1) 的 $\mathsf A_d$ 始终是实际正向 Frobenius 坐标，因此 $W\mathbf A=\mathbf D$ 及实际右增量不改。若从 R1168 的 syntomic 常数 $\mathbf S$ 计算，则 $\mathbf A=-\mathbf S$，等价方程为 $W\mathbf S=-\mathbf D$。已按实际 Frobenius 定义的 Tate 值不再取负。
+
 日期：2026-11-28。  
 会话：Astra-serre-24b8836b-20261126。  
 状态：下述原 Norm、仿射右端与单位理想给出无 Bernoulli 门的有限重建定理。没有执行数学程序，没有把中央相关项或一般 $p$ 的排点结论认作已完成。

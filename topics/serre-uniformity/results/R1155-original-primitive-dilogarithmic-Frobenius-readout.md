@@ -1,5 +1,7 @@
 # R1155：原单位方程的 dilogarithm 坐标与整 Frobenius 读数
 
+> **符号更正，[R1177](R1177-original-syntomic-to-Frobenius-sign-dictionary.md)。** 本文 scalar relative matrix 接入原 d+Ω 的正向物理 Frobenius 时，一次槽同时取负，中央读数保持；准确矩阵为 H(−A,−B,AB−β)。原 syntomic/finite dilogarithm 值、整尾及全部同根补偿不变，不能仅凭 path/Bloch–Kato 名称混用方向。
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
 **已证明，纸面。** 本篇沿 R1133 的同一原根代数，固定路径方向后计算它的局部 de Rham / Frobenius 中央槽。结果分别注明：未分歧算术 fibre 的 Bloch–Kato 坐标、通用三穿孔直线的 Frobenius 矩阵、以及原 supersingular torsion 单位的实际代入。通用 Frobenius 从 $u^p$ 的 fibre 到 $u$ 的 fibre；将它改成同一算术 fibre 的 Frobenius，必须保留运输项。

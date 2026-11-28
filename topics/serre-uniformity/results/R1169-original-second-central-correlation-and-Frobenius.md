@@ -1,5 +1,7 @@
 # R1169 — 原第二中央分量的完整 S/U 源、实际读数与同源未平滑
 
+> **字典说明，[R1177](R1177-original-syntomic-to-Frobenius-sign-dictionary.md)。** 引用 R1168 的单个 PD 常数时，其物理 Frobenius 值为该 syntomic 常数的负值。本文两输入的完整双积与第二中央相关读式均保持；原几何系数、S/U filling 和同源运输不改。
+
 **状态：已证明。** 日期：2026-11-28 Asia/Taipei。
 会话：Astra-serre-24b8836b-20261126。
 

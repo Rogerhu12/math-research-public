@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-fixed-precision-cusp-rigidity.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -44,9 +44,9 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 ### 原完整 Frobenius 的有限读取与实际非零门
 
-[R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低residue杀ΔT=c，H0杀其余差，连接+pureΦ唯一锁全部43 Frob。全几何Teich点整格给vΦ≥−14/vΦ⁻¹≥0；KT给p¹⁴Φ模p^m极阶D(m)=2pm+6(p+1)。有限线性候选树保真分支、linearD保dagger，目标精度singleton必有限出现；pure输入由−1 fibre矩阵+同算法取得。全部中央/γ5无外部未知位，good未分歧点可终止读任意精度；尚未运行，非零/global减法/whole盘继续。
+[R1175–76](results.md)原最低residue锁Tate差、log H0由unit Higgs消失，连接+pureΦ唯一给全部43 Frob；全几何整格给vΦ≥−14/vΦ⁻¹≥0，KT极阶D(m)=2pm+6(p+1)。R1175有限树必终止；R1176给定pure到n+28位，已知整δ1及三cusp正则限制42未知在poly≤6/仅1有极的有限空间，原ODE/descent模p满列秩，一次modp^n解唯一。pure由明确−1 fibre矩阵及独立算法取得；保所有σ/cross/λ∞/Taylor carry，尚未数值执行，非零/global减法/whole盘继续。
 
-[R1176](results/R1176-original-integral-cusp-rigidity-and-fixed-precision-Frobenius.md)模p原log H0由负末Hodge线及unit Higgs(d−i)为零，最低留数锁Tate差。给定pureΦ到n+28位，φ1=1+(t−1)^p的已知整δ1与三cusp正则把42未知限制在poly≤6、仅1有极的有限空间；完整ordered ODE/descent矩阵模p列满秩，一次modp^n线性求解唯一。极阶从δ1主部读出，保λ∞/cross/σ与全部Taylor carry；无需未知树深度，未执行数值，原非零继续。
+[R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)原正Kummer/左扭曲/d+Ω下，syntomic常数S的物理Frob是−S，中心仍b(S,S)−H；c=η，scalar为H(−A,−B,AB−β)。高Hurwitz本值不改，全部双积/Q/corr不变；混用实际T=s时最低项为−λ∞S_Xs。R1173物理W A=D不变，synt W S=−D。旧文顶部已更正，不翻原H0系数或独立r/s。
 
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。
 
@@ -68,9 +68,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全部原/三quotient高槽降至低heat，σ/CM gauge/odd–odd及p carry保全；Fay只需核阶≤2p+15。原奇列由A=uC2、B=u(C4+12a/5)给，完整norm与pA_p=−2β强迫a[v^(p−2)](u²A+u)=β。H_p0后保所有低卷积，两个已付corr配对为−11a(b4a8−11a4b8)/(768β²)；实际mask不要求corr零，原joint/未平滑排除继续。
 
-原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
-
-中央不能直接读R_Z(yh)：对原v=(a4,a8,c5)，先R=T_V(yv)、A=R_V(yv)，原gauge h′=h−𝔟(v,R)+𝔟(R,v)−𝔟(R,dR)使其闭合；H=R_Z(yh−𝔟(yv,R)+𝔟(φR,A))，原Frob中心Z=𝔟(A,A)−H。这些filtered gauges在g0为零，保持原唯一Hodge lift。继续实际27terms/原权/同a Cor/未平滑来源的完整求和和全局rs h−zab，不以已给读取公式代实际非零。
+R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保在原文及[本次前态](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)。按R1177称S=R_V(yv)，实际AΦ=−S；H=R_Z(yh−b(yv,R)+b(φR,S))，中心Z=b(S,S)−H。高系数本值、滤过gauge/唯一Hodge截面不改；原27terms、同a Cor、未平滑及rs h−zab的实际非零仍继续。
 
 ### 原完整 47：已完成，只消费
 

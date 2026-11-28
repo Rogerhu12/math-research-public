@@ -1,5 +1,7 @@
 # R1166 — 原 Miller 源的实际 ambient-PD 比较与保序系数投影
 
+> **符号更正，[R1177](R1177-original-syntomic-to-Frobenius-sign-dictionary.md)。** 本文 $\beta_\Phi$ 及全部 syntomic/cochain 公式保持。接入原正连接 $\nabla=\nabla_{\rm coeff}+\Omega$ 与正向 $\Phi$ 时，§16 的第一连接槽应为 $c=\eta$，实际一次 Frobenius 槽为 syntomic 常数槽的负值；scalar 矩阵为 $\mathcal H(-A,-B,AB-\beta_\Phi)$。中央式 (1166.54)/(1166.54a) 不变。具体 whole-path 与整格字典见 R1177 §§2–5。
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
 **已证明，纸面。** 本篇将 R1164 的原 pointed Miller–Čech
