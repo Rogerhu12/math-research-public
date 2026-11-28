@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:01:06 UTC实际pull --rebase，读取main 8d3a63432329f3597f3aaf3f3f7b8f111375ac9d；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:01:00 UTC实际pull --rebase至61229e25489c6f4ae2f1826008e2e1257b3e8eba；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:04:13 UTC实际pull --rebase，读取main 0304618154defdd99ef73091d523c6f64b06d6fc；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:04:06 UTC实际pull --rebase至9000ec455d3f3e5646b2629ee7f373f8dd86ab27；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3238/46559525B/tree8020b5ebaab650a9bffa0b3794c63db575acb6d6；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3238/46565258B/tree8bd8cd54991b8fe890997a2ea0eb5630012e900c；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -32,7 +32,7 @@ R1052只杀原未改动whole flat与外权导数；旧full54/六线/ψ4共同F�
 [R1067主证明](results/R1067-original-first-wild-rubin-even-multiplicity.md)保两Kato图/ν_r/中心/physical与参考单位，ord A=2ord H；exactHall0给Φp²及λ增量，bad独T⁴，域下降已自动。
 [续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)§§16–26只返j₁∈p²、j₁j₂∈p⁵。§§27–32实际g1=a_pEN/p、g2=(pb_pEd−γa_pEN)/p²；EN三位/Ed两位、全mixed/Bockstein/原Hasse框与两槽保留。固定权三parabolic类非零不代高槽。完整68余类RC及Q√−17源p²/三位费用已付；异权不能免费于H(P)=0取值。物理W=M⁻¹CM(t^p)、首列除p、Cartier(ds/H²)=ds^(p)和指定Q_p给全局核，S=W22、G=W21/p与δ_R保所有两/三位。
 §§33–36同一f的单trace一阶kγa_pEN−pb_pEd；B/t短前缀后全尾p²，原共同第二位必须加−3a_pI_p/γ。两固定3F2受迫周期把I_p还原固定四盖同一fJb^(−5/2)的x^(p−1)系数；两cusp留数及全Hodge过滤证指定特征完整H¹一维纯边界，无代数原函数。
-[§§37–40全文](results/R1067-original-first-wild-fixed-geometric-tail.md)：原低热卷积≤(p+1)/4窗所有分母整；两节点b⁴=−18定向边界Frob准确p²及非分歧系数作用。固定曲面常系数rigid/log比较及真实相对H¹给F[E−]=p²υ[E(e)]，g特征固定唯一零初值原函数T=W P5(xp)−p²υPe。原Ip从其第二分量/p²的已整低窗准确返回。7p首分母及全A共振段真实相消，T2全系数至<11p+4可除p²；下一双分母裸单位再相消仅先给p。尚未以长窗声称全图p²整或原canonical非零；下一补全图整数比较。
+[§§37–42全文](results/R1067-original-first-wild-fixed-geometric-tail.md)：原低热卷积≤(p+1)/4窗所有分母整；两节点b⁴=−18定向边界Frob准确p²及非分歧系数作用。固定曲面常系数rigid/log比较及真实相对H¹给F[E−]=p²υ[E(e)]，g特征固定唯一零初值原函数T=W P5(xp)−p²υPe。原Ip从其第二分量/p²的已整低窗准确返回。7p首分母及全A共振段真实相消，T2全系数至<11p+4可除p²；下一双分母裸单位再相消仅先给p。§§41–42以固定level3通用log晶体拉回/下降、两真实Frob提升和完整Taylor homotopy支付全p²；固定proper log复形无扭给T/p²整于全V。原M_p第二分量在12个branch极≤2p、两cusp零≥1，故M=x^(16−e)L_e Π/(1−w)^p、degΠ≤p−1，单branch主部唯一恢复全Π并返同一Ip/全f。适用再去固定有限坏素数；原canonical跨p非零未得。
 
 ## O7 原中央、全层与原 Rubin 整平方
 

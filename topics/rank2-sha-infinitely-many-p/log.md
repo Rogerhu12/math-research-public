@@ -318,3 +318,11 @@ root全读4新源码及3适配，逐实际文件核32源/manifest、AST、工作
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:00:44 UTC到24527a6a4809d10c3969e2fe3c73b5f60fffb1fc，私库2026-11-28 11:00:37 UTC到fd1c65f4d8ebfeb8be84027071e94861571ad298；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46559525B/tree8020b5ebaab650a9bffa0b3794c63db575acb6d6，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:01:06 UTC到8d3a63432329f3597f3aaf3f3f7b8f111375ac9d，私库2026-11-28 11:01:00 UTC到61229e25489c6f4ae2f1826008e2e1257b3e8eba；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46559525B/tree8020b5ebaab650a9bffa0b3794c63db575acb6d6，无>5MB。
+
+## 2026-11-28 11:03:12 UTC — R1067 §§41–42 全图整性及极部返回
+
+root全核L1–L6，实际level3盖无穷无分歧、通用uniform F–T拉回下降、两lift/完整Taylor和proper有限复形无扭条件均已付。Ogus原文§8.4 pp175–176及Tsuji原Taylor原文已实际打开核读，允许KS分歧；未用任意半权晶体。全图p²结论明确仅对固定好铺开素数，旧全部p共振结论仍各自有效。逐项检查Y坐标a_Y/D_Y、n≥2项估值、12branch极2p、两cusp零、g/h特征及degΠ≤p−1、L6同一原全f系数。新结论同编号续写并同步open/H/索引；本地无数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:03:44 UTC到e624c2d9fb7ead9d7b9ae295f9e614baf88a6d07，私库2026-11-28 11:03:30 UTC到1a46ecc44d0c2df85cde172e1277a7aab50110ff；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46565258B/tree8bd8cd54991b8fe890997a2ea0eb5630012e900c，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:04:13 UTC到0304618154defdd99ef73091d523c6f64b06d6fc，私库2026-11-28 11:04:06 UTC到9000ec455d3f3e5646b2629ee7f373f8dd86ab27；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3238/46565258B/tree8bd8cd54991b8fe890997a2ea0eb5630012e900c，无>5MB。

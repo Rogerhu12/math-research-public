@@ -570,3 +570,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1071 实现：完整单右端坐标图的独立软件 PASS
 
 原32源固定请求在公开run46137528591/job140956064113、source4bb9fbcebbb160796da11f08c5d2b7eef4741b44完成。root和代理独立逐完整终日志核8个完整图比较、两厚例必要细化、2次已造ideal后多项式部分篡改及2次真实预算拒绝、真二次底素/模块转置，实际7.582517183秒。完整log31915B、fixture296B、public4645B及各SHA和全部来源保于运行注；不存可重算输出。软件输入PASS，不代306生产或通常全Sha。 [完整运行来源](2026-11-28-original-adaptive-scalar-graph-software.md)。
+
+### R1067 §§41–42：全图两位整性与唯一完整极部多项式
+
+同一原E−的实际两开Frobenius提升与晶体Taylor积分各支付两位p；从固定level3通用log晶体拉回下降、原格比较和proper log复形一次无扭，将有理Frob身份提升为全V上的T/p²整截面。其第二分量模p在所有branch极≤2p、两个cusp零≥1，严格给M_p=x^(16−e)L_eΠ/(1−w)^p、degΠ≤p−1，任一branch整个主部唯一恢复Π。原Ip返回保全f、Hasse低窗与两/三位前缀；适用范围明确再删固定有限模型坏素数，不将端点或长窗代原canonical非零。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。
