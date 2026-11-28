@@ -269,3 +269,7 @@
 ## R641 真48接受态与 R632 真56物理锚的原完整继续
 
 [R641实际终态及范围](notes/2026-11-28-r641-fixed48-real-terminal-and-continuation.md)有48次新完整接受，原Ar/ruling仍未过门；当前完整2305点fine和原固定权/trust/阻尼均保存。[R632启动失败及修正](notes/2026-11-28-r632-paid56-anchor-identity-and-physical-frontier.md)保留58.685308551秒/0trial的真实失败，源56已付正cap未消耗。两个新入口把保存的真实L/α/八中心/ζ/两规范置于全部密度、历史、ρ、势和ruling之前，并在这些实际值处用完整隐式式求导；初payload身份比较保留。变q仍重解原依赖量与全资格；旧同态fine仅对同完整payload继承，不能把细微重构差改名为同态。
+
+## R658：实际M25终端截断误差与源归一传递
+
+[完整证明](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)对当前86da合同的11个齐次模，准确比较M25边值问题与真无穷平尾，以单谷DtN收缩和原平衡能量给全尾三阶/W及连接A/C截断差；没有重算旧ODE。实际core A商和forced自身C商、原强迫源及core-back按完整链传递。[真实display与分母门](notes/2026-11-28-r658-actual-display-gauge-and-denominator-threshold.md)将原已付标尺选作准确共同坐标，给每模独立数值误差阈值及条件归一e−2000界。真实有限柱的共同域差和省略真尾严格分开，不把M25端点零值当平滑零延拓；观察到的浮点分母不能当已证正下界。两个消费者只接原合同/真实当前对象，保全部七行源误差。

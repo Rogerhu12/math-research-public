@@ -133,3 +133,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R641 48真接受与R632 56真源的下一完整方向
 
 [R641](notes/2026-11-28-r641-fixed48-real-terminal-and-continuation.md)直接从ebf90b0e/trust2/λ1e−14、原17态固定物理权继续，原Ar−.15371568与ruling1.358145e14仍未达根。[R632](notes/2026-11-28-r632-paid56-anchor-identity-and-physical-frontier.md)源1afc37ef完整物理逐项锚，先付未执行方向的.95安全cap；上次0trial启动失败不算候选拒绝。两者首态全部物理初值及隐式导数进入全原算子，完整payload身份不删除；下一q及其全域/fine须实际付费。闭面和宏观仍另欠，R660的几何排除不因BVP形式根而消失。
+
+### R658 已付数学截断分量，真实有限分母与ODE精度继续
+
+[R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)不依赖新积分地支付准确M25至准确无限模型的差；[各模阈值](notes/2026-11-28-r658-actual-display-gauge-and-denominator-threshold.md)是真正原display下的精度需求，不是数值ODE证书。须从同一现有dense源验证实际有限A分母/forced另一个C分母及其余误差；不能重ODE/旧根、不能把浮点两邻居包围冒准确数。全7误差、forced背景/商/原scale、同g度量/全曲率后续保留。R663正做实际dense的连续残差与带符号转角增长接口。
