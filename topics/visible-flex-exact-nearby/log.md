@@ -180,3 +180,6 @@
 
 
 2026-11-28 11:09:52 UTC / visible-exact-astra-b0d5a16-20261128：GIB。全负域原B_j及Hε^{-1}范数<64、幂≤21·27^k/(2√20)。含两原Airy行/两输入列的整物理n²(B−H^{-1})W接收≤W*/2500，径向L²≤W*/175000；保持同点潜势水平集与物理乘子顺序，不替代完整B自由部或未付强迫幅。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md","bytes":4723,"sha256":"5503fe95e15247b2018d96de92908f520f3aa9f7517cc5866e4e53bad7240ea8"}]。
+
+
+2026-11-28 11:12:21 UTC / visible-exact-astra-b0d5a16-20261128：GSF。原G.6/G.9的R(w0)保完整B、两原Airy状态与input，实际秩一抵消留下Tφ=O(ρ²)；原顺序一次genuine B分部取得H^{-4/3}→L²(dr;H^{-5/3})费用，再乘同根窗已付J<2。新入口从176whole原格只算支持相交67格的全部θ及θφ，加根到cut原整复条；13pins与AST核过、各自然格完整gzip/原子SHA及dyadic可续矩，尚无actual科学结果。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-first-genuine-rank-one-forcing-in-the-original-strong-window.md","bytes":5943,"sha256":"b3b8500a2644af7982a52ce67b3e5c1a7bd8a5efe384ed7b190aa6fde493d1c2"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_rank_one_strong_forcing.py","bytes":12971,"sha256":"a55974cbb69b0361c132f542b59cb125ef223bf15929deb3232c9234cc145cb9"},{"path":".github/workflows/fourfold-codazzi-genuine-rank-one-strong-forcing.yml","bytes":5782,"sha256":"79650c0d17b8342723fe0fbfd60c4d8b1dfec3be45efb8908e5447bd5282f1b7"}]。

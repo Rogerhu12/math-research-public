@@ -1,0 +1,84 @@
+name: Genuine complete rank-one potential forcing in its original strong window
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-genuine-rank-one-strong-forcing.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-genuine-rank-one-strong-forcing-20261128
+  cancel-in-progress: false
+jobs:
+  rank-one-strong-source:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 35
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_signed_speed.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_first_raw.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_rank_one_strong_forcing.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/complex_inner_root_first_Airy_forcing_ci/run-43638232415-1/consumers/process.json
+            /topics/visible-flex-exact-nearby/notes/piecewise_real_root_fold_resume_v2_ci/run-43616813816-1/consumers/process.json
+            /topics/visible-flex-exact-nearby/results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-first-genuine-rank-one-forcing-in-the-original-strong-window.md
+      - name: Verify complete historical inputs and strong source formulas
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          f5e26f67d703a74426b435cc512d6fb4947942dd344f21065568b0ff079bf893  scripts/fourfold_codazzi_true_phase_signed_speed.py
+          e21f320fb2b6dcde9f3124e709d0068c5e13ea21bbdc28f56c2bef7f4e5459ab  scripts/fourfold_codazzi_true_ratio_first_raw.py
+          6586b4b034a34e733319e039b53852c72db0cdf13634ae9f2735eaf1e1dc38ab  scripts/fourfold_codazzi_true_ratio_live_rules.py
+          fcc08a0e5f8769b0c215ee25e61d6ecaf73c308d14adb24d68b39bc6328833a3  scripts/fourfold_codazzi_true_ratio_prefix.py
+          a55974cbb69b0361c132f542b59cb125ef223bf15929deb3232c9234cc145cb9  scripts/fourfold_codazzi_genuine_rank_one_strong_forcing.py
+          f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351  notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+          f8ab9fbf35c39df97f7318e3b71d1c1f08dba6a62290a8ab3144fe7f7446a274  notes/complex_inner_root_first_Airy_forcing_ci/run-43638232415-1/consumers/process.json
+          c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64  notes/piecewise_real_root_fold_resume_v2_ci/run-43616813816-1/consumers/process.json
+          5503fe95e15247b2018d96de92908f520f3aa9f7517cc5866e4e53bad7240ea8  results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md
+          b3b8500a2644af7982a52ce67b3e5c1a7bd8a5efe384ed7b190aa6fde493d1c2  results/R149-supplement-first-genuine-rank-one-forcing-in-the-original-strong-window.md
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Pay the signed rank-one source on the complete physical support
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          root=topics/visible-flex-exact-nearby/scripts
+          python "$root/fourfold_codazzi_true_ratio_live_rules.py" python "$root/fourfold_codazzi_genuine_rank_one_strong_forcing.py" --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/gsf" --receipt "$RUNNER_TEMP/gsf-receipt.json"
+      - name: Retain the complete small result or last natural physical prefix
+        if: always()
+        run: |
+          python - <<'PYEND'
+          import hashlib,json,os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"gsf-receipt.json"
+          if p.is_file():
+              b=p.read_bytes()
+              if not 0<len(b)<100000:raise ValueError("qualified small GSF record")
+              print("GSF_FINAL_SMALL_OR_PREFIX",len(b),hashlib.sha256(b).hexdigest(),b.decode().strip(),flush=True)
+          PYEND
