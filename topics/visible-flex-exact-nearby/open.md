@@ -150,3 +150,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 MSS全1424两端193与ASQ27R/ASQ25R实际计算继续；TCF全18终态后只补真缺。AGXW全2962完成但上界仍宽，不能把false门当奇异；AGRT两根状态精确匹配仅限同一配平试探的全体源。GNU有限nonlocal真强行已收到自然腰<.002848，∞输入/外域nonlocal/普通体响应与全正侧映射另付。H96/PWA/DCP实际完整后CFC仍缺原SC3。
 
 GSI：真[0,cPW]两行H⁻¹源→归一腰<3.828、L²双行→真P97高腰<.01957，严格J:H⁻¹→L²<5.77/前J→高腰<.113。原576根缝与1973外缝全2549自然<8.42e−7/common<1.045e−5/有序high<8.60e−7；521同cubic切点零。保两mean/原子不乘体长，旧两表与已成Fraction不重算。 全高低、独立means、ν/height/phase/normalizer/Robin、普通负域≤.005、实际tame、可求和迭代、world/period/holonomy/caps和最终一次冻结全部继续。
+
+ASQ28：真实C⁻¹ZB与T_F⁻¹按原序，927自然列只在输出取权；两wrong-sign<.000053、全>2240→927尾<6.4e−6、全差dJ<.00243。完整4192×927有限矩阵与原2048双向系数/8192别名公式已证，原k上G_k不改；两纯proof按原SHA恢复，昂贵三target入口尚未发布，任何新numeric gate未授。 完整同对象、全mean/ports及README最终义务不变，继续研究。
