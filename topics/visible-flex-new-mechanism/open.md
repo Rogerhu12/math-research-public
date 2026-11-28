@@ -83,3 +83,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 [R652](results/R652-quadratic-travel-excited-double-kernel-with-uniform-gap.md)用s=(684+95√55)/632同时给准确j2/3激发核、排除所有其他整数零、全频统一gap及加权参考逆；行程π√55/8，小除数由二次整数范数支付。这不自动转给有限裁切/平尾组装。[R647实际终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)的低采样曲率仍有很小内帽；确切2a/D上界判断已注明需真半径包围，真平帽接合还受积分曲率必要条件。
 
 [新真实taper匹配范围](notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md)放开有限第一模Cauchy数据、改负组件高度1/8；Hu两种实际入口、线性log径向taper的Kummer正则解和小坡度suffix比较给真正平尾的两条极限射影线。两未知边界参数解双三次式，600组有限匹配共享6个完整传递ODE；只报普通根/正性/曲率与帽半径估计。真横截包围/有限N/组装全部频率/有限非线性角/全像与reach继续自己支付，不继承旧R637的β或旧R647几何。
+
+### R650 同实际内尾的完整二阶几何
+
+[完整证明/消费者](results/R650-true-tail-fixed-reference-second-derivative-and-actual-curvature.md)先从参考G′=0用正M解E″，再从固定seed G′=0用原κW解s″，保逐点W²多项式后才作指数最大化。实际自由mean保四Gaussian/90真零和完整第三jet，Rr/Gr/Hr/Ss不除trial均值、不删全F/G；结合R649给真实形算子与内帽C²/两κ→0。全部七原源误差按同输入保留，现成对象/receipt消费者无新ODE/J/FFT，未执行或授主体reach；外竖直接柱另见待读R653。

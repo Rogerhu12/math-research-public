@@ -221,3 +221,7 @@
 ## R652：准确双激发核的全频间隔及宽颈有限端线输入
 
 [完整证明](results/R652-quadratic-travel-excited-double-kernel-with-uniform-gap.md)取代数s=(684+95√55)/632，离散能级零条件的有理/无理部分同时消失当且仅当(j,N)=(2,3),(3,5)。行程π√55/8具有显式整数小除数下界；非零能级用L=16N²−55j²整数隔离和有限二次数域范数给统一正gap，加权参考逆无新的高角损失。[R647自然终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)四τ共4.665778048秒，最佳有限样本仍小颈，不授几何资格。[新公开范围](notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md)用真实Hu自然线经过显式taper的极限，放开有限Cauchy数据、H=1/8，搜索600组两模匹配；有限N、组装全频和宏观非线性仍未闭。
+
+## R650：真实完整内尾的E″、seed s″、离解曲率与平帽C²
+
+[完整证明](results/R650-true-tail-fixed-reference-second-derivative-and-actual-curvature.md)保逐点W权：固定参考E″≤W²P6、固定seed s″≤WP6、全trial Rr/Gr/Hr/Ss≤W²P6，单项式真正最大位置给全尾可实现界。原germ/forced/pre-tanh/canonical512/所有样条及96角Gaussian/4meanGaussian的完整三阶贡献逐项保留。真实形算子按R649传递，得到全角一致平帽二阶迹和κ→0；全窗数值曲率须同候选分母可分离。接续源码只消费同R648现成对象与两paid receipt，七原源误差仍条件性，不重建旧科学，不授主体/全时reach。
