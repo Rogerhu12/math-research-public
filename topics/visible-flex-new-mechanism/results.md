@@ -475,3 +475,5 @@
 - [R625同一冻结W的完整求解与真实Armijo](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)：正对角W/齐次活动约束下给完整下降恒等式，实际数值只按原绝对门验根；新策略直接消费dde0。
 
 - [R618完整Fourier背景消去恒等式](notes/2026-11-28-r618-fourier-centered-implicit-derivatives.md)：准确零均值方向先消常数，完整离解mean/connection/pointwise导数均保持；[真实19519575后继](notes/2026-11-28-r618-centered-actual-response-scope.md)直接实际求解，连续误差仍独立。
+
+- [97q真实83b0与原369库继续](notes/2026-11-28-r582-actual83b0-original369-continuation.md)：保16256原fine与原四pending，6新中点须新资格；仅更新真实输入与完整成本，原求解/阶段门保持。

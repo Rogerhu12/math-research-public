@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **d6620cb2f2ff913da4a44f2b760be03f95d8aae7**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
+公开最近实际pull/双README差异检查至 **8cfdc81f540237a41f30104757cd37aa61d85ba6**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -19,7 +19,7 @@
 
 [原pending357终态](notes/2026-11-28-r582-pending357-natural-terminal.md)：run **45929007792** / job **140277011834** / source **2fa9aa4ad410935f4a7d398b5023c3915c0b126d**；新增2370.920877432秒，8metric+4restoration接受，17完整J另8未闭方向块，24fine。非stall，末是科学段边界。
 
-真97q **83b0af72af30e2a19fa3ffe80d4e254adfe6037b3b12ec235ca4c11523c19725**；p=.181、同0d材料、16256×3072 η **3.352572722743378e−5**，physical/working违反均0。365coarse+4原pending拟369、trust2/metric；未合格raw8fa82不代实际half83b0。所有16256fine保留，新中点需本身资格。p阶段门约2.5e−7未过，目标p=.8/末η≤1e−7保持。mean仍在设计，旧59a4几何不移用。下一从原真实369库继续，不重旧种子/诊断。
+真97q **83b0af72af30e2a19fa3ffe80d4e254adfe6037b3b12ec235ca4c11523c19725**；p=.181、同0d材料、16256×3072 η **3.352572722743378e−5**，physical/working违反均0。365coarse+4原pending拟369、trust2/metric；未合格raw8fa82不代实际half83b0。所有16256fine保留，新中点需本身资格。p阶段门约2.5e−7未过，目标p=.8/末η≤1e−7保持。mean仍在设计，旧59a4几何不移用。[原真实369库后继](notes/2026-11-28-r582-actual83b0-original369-continuation.md)已实现，本次push触发；6个新中点使新fine需本身资格，不重旧种子/诊断。
 
 ## B：R618同固定E完整场后修复方向链
 
