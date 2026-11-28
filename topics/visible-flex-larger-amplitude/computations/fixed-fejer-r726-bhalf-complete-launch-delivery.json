@@ -1,0 +1,251 @@
+{
+  "schema": "complete-R726-spherical-bhalf-independent-launch-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "intended_runner_label": 29,
+  "namespace": "fixed-fejer-r726-bhalf-first",
+  "prepared_utc": "2026-11-28 04:53:20 UTC",
+  "status": "complete launch source and full parameters; actual official run and scientific results unknown",
+  "complete_artifacts_except_this_manifest": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
+      "bytes": 19995,
+      "sha256": "0ab835efc215f21291c10d1cec24a29460419d0f9e71e1b9db69e2a05ee3df01",
+      "sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+      "git_blob_sha": "9b9242db15f40902f37a2843ab7762d3560af5f1"
+    },
+    {
+      "path": ".github/workflows/visible-larger-20261128-parallel29.yml",
+      "bytes": 2207,
+      "sha256": "0834dd557492e10730befea2844ae49facfb52967ff83d3d45398f3b5a916ffa",
+      "sha": "1cc478bb737ab2403bc9a08d42526ea4f00c7314",
+      "git_blob_sha": "1cc478bb737ab2403bc9a08d42526ea4f00c7314"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-29.json",
+      "bytes": 40193,
+      "sha256": "473b5ff5c7af82fa6ef3611c7134b9255bc03f443c518ae76594a0b3830479c2",
+      "sha": "a97d6b2a2c0bb1e017ea5d1ec39046512b80e6f2",
+      "git_blob_sha": "a97d6b2a2c0bb1e017ea5d1ec39046512b80e6f2"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-29.json",
+      "bytes": 74372,
+      "sha256": "e16b8d782febeb5e0b70840b925003fdc6524ee6595f29b3fb1e9807a5dd717a",
+      "sha": "e46753d93f0c1ceb4d60a59e5a73e0cfdf0d32b8",
+      "git_blob_sha": "e46753d93f0c1ceb4d60a59e5a73e0cfdf0d32b8"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md",
+      "bytes": 14538,
+      "sha256": "d8cc41f352a4c40863c447b6a1840b5df4f5f7b7caf1d9acefc49c57e81e28a4",
+      "sha": "9a9dc2d458bd4a8982085146fa42edee406aa690",
+      "git_blob_sha": "9a9dc2d458bd4a8982085146fa42edee406aa690"
+    }
+  ],
+  "complete_source_delivery": {
+    "name": "fixed-fejer-r726-complete-scientific-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-complete-scientific-source-delivery.json",
+    "bytes": 24238,
+    "sha256": "f3e2e6b31fa9b59af013c4a8fc048e55858eb32279638a4f11368cf2dd2917f9",
+    "git_blob_sha": "5200b7728c55e192821f0f4f29578bc5d22f4524",
+    "fixed_publication_commit": "7acb89983fe616fbba85cef74811625b357942e4"
+  },
+  "complete_parameter_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-bhalf-complete-parameter-delivery.json",
+    "bytes": 16447,
+    "sha": "fc59c7d4f839503cedb4497f02898d9e7126ac3f",
+    "sha256": "f9f31495c467a62dacda3a8abea1050b6e389eabcca86c1bc79f6292a98ec233",
+    "ref": "18a43b01f1b72fd3b77013d7eab7099232c559f1"
+  },
+  "complete_current_source_registry": {
+    "complete_file": {
+      "name": "fixed-fejer-r726-current-complete-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-current-complete-runtime-binding.json",
+      "bytes": 55517,
+      "sha256": "6e5480838f54ecb50ce8baa085ebabed37504a3ba759d1ed958ec28c6d9df059",
+      "git_blob_sha": "159d8c56b1b966cf5de5d19bceec68db3630144b"
+    },
+    "json_pointer": "/complete_source_role_registry",
+    "scientific_roles": 137,
+    "changed_current_pairs": 19,
+    "unchanged_current_pairs": 118
+  },
+  "complete_current_runtime": {
+    "complete_file": {
+      "name": "fixed-fejer-r726-current-complete-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-current-complete-runtime-binding.json",
+      "bytes": 55517,
+      "sha256": "6e5480838f54ecb50ce8baa085ebabed37504a3ba759d1ed958ec28c6d9df059",
+      "git_blob_sha": "159d8c56b1b966cf5de5d19bceec68db3630144b",
+      "fixed_publication_commit": "7acb89983fe616fbba85cef74811625b357942e4"
+    },
+    "json_pointer": "/current_complete_runtime_sources",
+    "whole_file_required": true,
+    "complete_files": 23,
+    "new_files": 22,
+    "shared_files": 1,
+    "all_current_files_required": true
+  },
+  "complete_transport_parents": {
+    "request": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-26.json",
+      "bytes": 33744,
+      "sha256": "b1872dbb5e44e4b11fa63baa0ae380706d2e58515157b6bbd0e5c48e8d28821f",
+      "sha": "9f9451fd27556f58d68fd77b24d388e3638fda92",
+      "git_blob_sha": "9f9451fd27556f58d68fd77b24d388e3638fda92",
+      "fixed_publication_commit": "a6c9c1011551cb0c84c458e603b6b691f66313f4"
+    },
+    "controller": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel28_geometry_locations.py",
+      "bytes": 19995,
+      "sha256": "164f4a7acc04ea380ad1627fe034e5b44f2b00d50c01c660b382309d2a5f75dd",
+      "sha": "f07730e05ea187523224b83cc18101167497f0d8",
+      "git_blob_sha": "f07730e05ea187523224b83cc18101167497f0d8",
+      "fixed_publication_commit": "cf2e5c85247af2d0314256654f357a6936cdecbe"
+    },
+    "workflow": {
+      "path": ".github/workflows/visible-larger-20261128-parallel28.yml",
+      "bytes": 2211,
+      "sha256": "be22c050f1acfabc59b2ecce9ca7c5421b5f831c8471414cdb2a1953aa622d47",
+      "sha": "3b8e66a3d60f1a84c3ffcb18ee541078747bcf44",
+      "git_blob_sha": "3b8e66a3d60f1a84c3ffcb18ee541078747bcf44",
+      "fixed_publication_commit": "cf2e5c85247af2d0314256654f357a6936cdecbe"
+    },
+    "queue": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-28.json",
+      "bytes": 74634,
+      "sha256": "2761c59b534a02e8b7a06490eb252d1df6d6af8387d44222cf37b020e2d74efd",
+      "sha": "4b4eb17b83ed8a6ef311b2c3d2a49cbf72cb1f01",
+      "git_blob_sha": "4b4eb17b83ed8a6ef311b2c3d2a49cbf72cb1f01",
+      "fixed_publication_commit": "cf2e5c85247af2d0314256654f357a6936cdecbe"
+    }
+  },
+  "complete_controller_replacements": [
+    {
+      "before": "visible-larger-parallel-28:start",
+      "after": "visible-larger-parallel-29:start",
+      "count": 1
+    },
+    {
+      "before": "visible-larger-parallel-28:end",
+      "after": "visible-larger-parallel-29:end",
+      "count": 1
+    },
+    {
+      "before": "Actions28：",
+      "after": "Actions29：",
+      "count": 1
+    },
+    {
+      "before": "并行28规则核查：",
+      "after": "并行29规则核查：",
+      "count": 1
+    }
+  ],
+  "complete_workflow_replacements": [
+    {
+      "before": "Visible larger amplitude complete demanded half-wave 20261128 28",
+      "after": "Visible larger amplitude R726 spherical boundary 20261128 29",
+      "count": 1
+    },
+    {
+      "before": "resume-20261128-actions-request-28.json",
+      "after": "resume-20261128-actions-request-29.json",
+      "count": 2
+    },
+    {
+      "before": "visible-larger-fixed-input-20261128-28",
+      "after": "visible-larger-fixed-input-20261128-29",
+      "count": 1
+    },
+    {
+      "before": "Construct the same fixed target and solve the complete demanded half-wave",
+      "after": "Construct the same fixed target and solve the complete spherical boundary",
+      "count": 1
+    },
+    {
+      "before": "public_actions_controller_parallel28_geometry_locations.py",
+      "after": "public_actions_controller_parallel29_geometry_locations.py",
+      "count": 1
+    },
+    {
+      "before": "timeout-minutes: 350",
+      "after": "timeout-minutes: 360",
+      "count": 1
+    }
+  ],
+  "complete_original_request_keys": 51,
+  "complete_current_request_keys": 54,
+  "all_original157_science7_pure458_and445_formal64_live_preserved": true,
+  "all_original_scientific_numeric_words_and_budgets_unchanged": true,
+  "original_parameter_external_pairs": 15,
+  "additional_actual28_external_metadata_responsibility": {
+    "run": "46108296054/1",
+    "workflow_id": 433411412,
+    "job_id": 140865899880,
+    "head_sha": "cf2e5c85247af2d0314256654f357a6936cdecbe",
+    "official_started_at": "2026-11-28T04:35:57Z",
+    "declared_complete_scientific_driver_sha256": "d1c99f555e480a0b37fcefee98e1261033bed0b4bb6a7f681f8da345e5ae46ab",
+    "actual_child_source_commit": null,
+    "actual_model": null,
+    "actual_point": null,
+    "actual_final_or_typed_history": null,
+    "complete_official_evidence": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md",
+      "bytes": 30275,
+      "sha256": "a29f2f9dc40ed65b7b3c87f9e177f2bbfaae404571e5467f8e6ab8fb05d0cb7d",
+      "sha": "32ab06994676daa107ecbda2a731ebaa37ed2211",
+      "ref": "efd6ba601f7e15ebfbc43668681e1abf3912b3d4"
+    },
+    "metadata_only_not_a_new_CLI_peer_or_PARENTS_entry": true,
+    "no_scientific_state_transfer": true
+  },
+  "combined_launch_external_responsibility_count": 16,
+  "supported_CLI_peers": 5,
+  "transport_window_extension": {
+    "parent_workflow_timeout_minutes": 350,
+    "current_workflow_timeout_minutes": 360,
+    "parent_controller_admission_checkpoint_seconds": 20000,
+    "current_controller_admission_checkpoint_seconds": 21000,
+    "reason": "The original run20 still had a full fourth trial geometry in progress near its350-minute job boundary. Give this new independent complete run the allowed public six-hour window and more opportunity for whole original pure after natural science; no numerical budget or domain is reduced and no active job is modified.",
+    "original_scientific_157_and7_numeric_words_unchanged": true,
+    "active_child_still_observed_until_natural_return_subject_to_platform_limit": true,
+    "job_clock_or_exit_is_not_research_completion": true,
+    "latest_complete_actual20_terminal_evidence": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md",
+      "bytes": 93699,
+      "sha256": "118f35c8c0a10d6d0c73298bdb872c1076595973f9535b9ccc263aa1a4cb62d1",
+      "sha": "6c5f86daae94b925f0f23ba75c4617484f5e3c11",
+      "ref": "8082decb7244a546ff5ac85dd258defb419661a1"
+    },
+    "official_cancellation_cause_observed": null,
+    "time_proximity_is_not_cancellation_cause_proof": true
+  },
+  "queue_counts": {
+    "initial": 74372,
+    "science_plus_pure": 118584,
+    "all4": 126705,
+    "pure_only": 52442
+  },
+  "complete_pure_ready": {
+    "role": "pure",
+    "name": "fixed-fejer-r726-bhalf-pure-complete-ready.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-bhalf-pure-complete-ready.json",
+    "bytes": 58714,
+    "sha256": "0998cec08e7196c1e42f3ac32fb711cf5a74ad29a80c245d45d89ec64c9393d4",
+    "git_blob_sha": "5b547cea6640c87bc7d2b2008bc5f15ca01c3ceb"
+  },
+  "raw_runner_only": true,
+  "local_science_AST_fixture_compile_benchmark_admission_added": false,
+  "whole_parent_and_output_text_forward_inverse_constructed": true,
+  "actual_run": null,
+  "actual_model": null,
+  "actual_point": null,
+  "actual_report": null,
+  "actual_normal_or_geometry_or_metric_certificate": null,
+  "self_path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-bhalf-complete-launch-delivery.json",
+  "manifest_bytes": 11391,
+  "total_files": 6,
+  "total_bytes": 162696
+}

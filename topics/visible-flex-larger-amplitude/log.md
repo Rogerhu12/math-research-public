@@ -546,3 +546,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:00 UTC — ret69十二份可复现旧数值输出普通退役
 
 完整四件210046B保12原producer、65直接输入角色、全部原参数/实际资源/结论与失败；只移出既定12完整旧生成JSON共503402B，净293356B，不改历史，精确原字节由59b80e551e8493348ee9886cdc4efec40a3cc1ff恢复。low46原独立命令/资源及一旧Jacobian SHA256未知仍null，不以重算冒旧身份；fine53/window13/cell12旧失败及rho/candidate false、outer未付保留。三份scratch DQ/parts输入未闭报告171511B明确不退，无数组编码/差分/分块载体；活输入/源参/证明不删。[完整交付](computations/legacy-exact-reports-retention-69-complete-delivery.json)及[全说明](notes/2026-11-28-legacy-exact-reports-retention-69.md)。README仍未完成，29全启动/准确费用继续。双README云核至`61b22830d9e55aa07eea05180f2e3101da4d29b4`无变（非pull）。
+
+## 2026-11-28 05:02 UTC — 29完整R726球面求解实际启动载体
+
+六完整件162696B（workflow2207B在topic外）：controller19995/0ab835ef、workflow0834dd55、request40193/473b5ff5、queue74372/e16b8d78、全说明14538/d8cc41f3、manifest11391/ee5c849c。真实科学父为26全数值与7acb完整R726源，157/7、458/445、64live、5CLI/15external原字保；28仅供transport/前两输入step，新增28实际run作为第16外部元数据责任不改母参数。全3step6/26/157词，science+pure118584、全四126705，需自然返回后换整pure52442；不跨runner搬数组/点。新独立公共job360min与controller准入21000s明确延长自350/20000，原科学全部预算/接受/变量保，活动子进程仍等自然返回；20取消真实原因未知不由接近旧时限猜因。全文父体/6组workflow与4组controller透明字替/完整逆等及所有终态责任保[全说明](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)。本提交只是push触发启动文件，官方run/job和科学当前值待真实返回。双README云核至`7e0683e820718743a3a62cc475bc465eb60f36e7`无变（非pull）。

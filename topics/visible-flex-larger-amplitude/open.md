@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前全部原字保[8c991完整open](https://github.com/Rogerhu12/math-research-public/blob/8c99140766b6a4a9b40d28a495f171a1e763b1ff/topics/visible-flex-larger-amplitude/open.md)及同头HANDOFF、4f80/f44/23728历史链；§1–6原23359B原字不动。全部源、参数、模型、点、六族、失败、typed和peer未知仍在各完整note。
+此前全部原字保[8c991完整open](https://github.com/Rogerhu12/math-research-public/blob/8c99140766b6a4a9b40d28a495f171a1e763b1ff/topics/visible-flex-larger-amplitude/open.md)及同头HANDOFF、cbff/b97与4f80/f44/23728历史链；§1–6原23359B原字不动。全部源、参数、模型、点、六族、失败、typed和peer未知仍在各完整note。
 
 ### 真实数值及独立比较
 
@@ -126,7 +126,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)及[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)完整半波/固定b三片C³/均值扰动/shape证保，ε1/8显式15/b→64/(7b)，不推wholeK。[26完整源参入口](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)137角色/22runtime及新校准/pure全接；26自然science返后整接pure52340B。之前完整说明保ee53固定open。
 
-[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层θ转向、急角m≥b/4、条件唯一正根/全逆/角2/位置账已证；不继旧凸势/校准。[R726完整29件](computations/fixed-fejer-r726-complete-scientific-source-delivery.json)1424748B已刊，真实mean/seed及全上层137角色/23runtime，原预算/接受/全部变量保，[29完整参数](computations/fixed-fejer-r726-bhalf-complete-parameter-delivery.json)六件已刊：同26数值157/7、458/445、64live，b1/2/ε1/8真实Slerp，启动接续。[按需旋转/角2完整22件](computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json)17新runtime、137角色14变123保，有限性/原回退齐，无实测加速。[28完整参数](computations/fixed-fejer-halfwave-demanded-bhalf-complete-parameter-delivery.json)五件已刊：真25数值全157/7、458/445、64live、5CLI/15external；原S5半波，仅新计算源，[28完整启动](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)：46108296054/1从cf2e5c85于04:35:57Z实际启动，job140865899880；科学值未返。
+[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)与[完整29件](computations/fixed-fejer-r726-complete-scientific-source-delivery.json)保真实Slerp均值/全3D及角2、137角色19变118保/23runtime，不继旧势/校准。[29完整启动](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)六件已刊：同26 b1/2、ε1/8全157/7、458/445、64live，queue74372B，science自然返后整接pure52442B；公共窗口360min/准入21000s，科学预算不改，实际run/场未知。[28完整启动](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)46108296054/1、cf2e5c85、job140865899880已实起，原25 S5半波与[按需旋转/角2完整源](computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json)，不是29球面源，未宣实测加速。旧全参数/来源/结论见[b97完整记录](https://github.com/Rogerhu12/math-research-public/blob/b97f9db98409b6e4c2e8c1476865f72cefc7714c/topics/visible-flex-larger-amplitude/open.md)。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)保N/G首次绝对源路径及whole稳定report/snapshot；N变另G目录，R723/mesh fresh，P同canonical/同流全块，U最终同wholeN。packet须完整report。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner13final/全typed；136+4词/peer/预算保，CLI不继末μ。22/23/26准确全族、27后参已保护待刊；normal.complete不代连续branch、mean J不代Cu。全32stage/1024整圆/922径向及cuts/六jet/全尾/两帽/mixed/allphase/晚失败与R718 marked、R716 unmarked独立待付。同g/参数五t、15science+5preview、三级空间/频率/时间须实际完成。
 
