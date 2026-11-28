@@ -126,3 +126,7 @@
 R723可选mesh完整9件386293B：新input95330/6c6788、entry55097/f2a468、pure22349/5d4738及全部再生器、21 final/packet全34/6词与118/66正式字段。完整144→146角色，137科学不改；无附证/旧002eb/独立1782三完整分支，旧数学constructor与主mesh算法原字保。1782全validator与同点/model/target/snapshot/normal/source/request/全部主副件重读，complete可保几何未付/null/false，不新增all-paid门。原15mesh/五preview/三级空间/五t/时间4,8,16预算全保；实际尚未运行。
 
 完整9件共386293B；双README云核至`91f72068a61d3d8f4d0664c9a1c8231e7c37fb67`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-28 00:17:39 UTC — 21初完整有限六族几何返回；22改以19半宽作对照
+
+21初完整六g真实返回：reach2.541916739245917/body−.036200119916736107/distplus−.05389631415885021/distminus−3.0936337267043594/cap−.06715131487906445/height−1.0411715967426867；current7e06、accepted0、reportfalse。5/8对19半宽的reach变差但distplus改善，故新22选择完整19 b1/2对照只换成对半波机制，预算不减。K/D各值/全连续费用不补。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`cacc660b166c1606c54c68acf18dd3cd6b0a5ba1`无变（非pull）。
