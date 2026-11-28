@@ -150,3 +150,56 @@ $$ \boxed{\quad \exists i:\ v_p(N_i)<2i\quad\Longleftrightarrow\quad
 可取一个仅依两曲线的常数 $C$ 使 $I_{b,i}\le C p^{10i}$。固定 weight-one Hecke 系列在该中央点的标准 Mellin 完备式，正负两半均绝对受 $\sum_\mathfrak a(N\mathfrak a)^{-1/2}e^{-N\mathfrak a/X}$ 的固定倍数控制，$X\asymp p^{2j}$ 来自单复 Gamma 和 conductor 的平方根（同 R724/R1072 首平均）。$K$ 固定，范数理想计数 $O(x)$，故该和 $O(p^j)$。对原 $\psi_b\nu$、$\psi_1\nu^{-1}$ 均成立；其余导子固定。令 $\xi$ 阶 $p^{2j-1}$。包含全部较低层的几何和绝对值为 $|\xi^{p^{2j-2}}-1|/|\xi-1|\gg1/p$，除以漏掉的 $j-1$ 个奇层因子（各 $\le p$）得到 $|C_j(\xi)|\gg p^{-j}$。因此(2)与逆角色各给 $|U(t_\nu)w_b(\nu)|\ll p^{6j}$。整层 $\sum 1/|x_\nu|\ll p^{4j-2}$，由 $|x|=4\sin^2(\pi a/p^{2j-1})$、用完整整数 $1\le a\le p^{2j-1}/2$ 的平方倒数上界即得。第 $j$ 层权 $\ll p^{\max(0,i-2j+2)}$；把 $p^{10j-2+\max(0,i-2j+2)}$ 加总为 $O(p^{10i})$，常数可与 $i,p$ 无关。由此 $|N_i|\ll p^{20i}$，该全局估计尚未低于(6)的 $p^{2i}$。
 
 原文：[BHKO §4.3, Thm.4.9(b), Rem.4.10(i)](https://arxiv.org/html/2408.13932v3)，[Yang Thm.0.1](https://people.math.wisc.edu/~tonghaiyang/thetashort.pdf)。
+
+## 6. 三个固定七乘法有理函数给原两支及参考的全部层
+
+取 $k=1,65,8125$， $c_1=6,c_{65}=c_{8125}=390$，仍用前文
+$\psi_k((r))=r\epsilon_k(r)$，$\theta_1=1$，
+$\theta_k^6=k,\ \varpi_k=\varpi_1/\theta_k$。在同一 $E_1$ 固定
+$Q_m=\varpi_1/m\bmod\varpi_1\mathcal O_K$；其相容复、$p$ 进嵌入沿前文。写 $F_7=7\zeta_1(z)-\zeta_1(7z)$ 及
+$$G_k(P)=\sum_{a\in(\mathcal O_K/c_k)^\times}
+ \epsilon_k(a)^{-1}F_7(P+[a]Q_{c_k}) .\tag{A}$$
+三个函数均在固定数域上；对两个目标，$(G_{65}+e G_{8125})/2$ 确实只取 $(Na/5)=e$ 的原带权平移点。$F_7$ 在零的留数 $48/7$、在其余 $7$ 挠点的留数 $-1/7$（各用对应不变微分）。不同 $a$ 的极集合不交，因为 $(c_k,7)=1$，$[a-a']Q_{c_k}\in E_1[7]$ 意味 $a=a'\pmod{c_k}$。各函数在原点及整个好惰性 $p$ 进形式开盘正则且积分，对于此处和下文的积分性只需除去一个固定有限素集：固定水平极为准确的非零 $c_k$ 挠点与七挠点之差，约化仍不为零；固定系数的垂直分母有限。$G_k([u]P)=G_k(P)$ 对 $u\in\mu_6$ 成立，因为 $F_7([u]P)=u^{-1}F_7(P)$ 及 $\epsilon_k(u)=u^{-1}$。
+
+固定 $p\equiv5\bmod6$ 充分大，$p$ 不除 $7c_k$。$\psi_k((p))=-p$，故 $\epsilon_k(p)=-1$。若非平凡反圆分 $\nu$ 的确切导子为 $p^s$，分别用原两个模数 $M_k=c_kp^s$，Kronecker 七乘法公式（前文式(3)的证明对每个 $s\ge1$ 相同）和 CRT 代表 $r=c_kz+p^sa$ 给
+$$\frac{L(1,\psi_k\nu)}{\varpi_1}
+=\frac{(-1)^s}{36c_kp^s}
+ \sum_{z\in(\mathcal O_K/p^s)^\times}\nu(z)^{-1}G_k([z]Q_{p^s}).\tag{B}$$
+这里 $\nu(r)=\nu(z)$ 由于 $c_k$ 有理，$\epsilon_k(r)=(-1)^s\epsilon_k(a)$；原复点分解在 $Q_m$ 的固定相容选择上逐项有效。$F_{7,k}(z/\theta_k)=\theta_k F_7(z)$ 正与 $\varpi_k/\varpi_1$ 相消。无须将参考的 $5$、双 $13$ 好 Euler 因子删去。$s=0$ 直接用原固定模数得 $G_k(0)=36c_k L(1,\psi_k)/\varpi_1$；故目标两者为零，参考非零。即使导子奇数时 (B) 两边为零，仍保留 $(-1)^s$。
+
+### 原严格 Lubin–Tate 上的全核迹及保留精度的 Katz 回返
+
+有全曲线有理函数等式
+$$\sum_{R\in E_1[p]}F_7(P+R)=pF_7([p]P).$$
+两边的极都是 $E_1[7p]$；因 $[p]$ 置换 $E_1[7]$ 且固定原点，每个极左边仅一项，右边的 $p$ 正抵消拉回微分的 $p$，故留数相同。常数差为奇函数故为零。在(A)送 $a\mapsto pa$ 后得
+$$\sum_{R\in E_1[p]}G_k(P+R)=-p G_k([p]P),\quad
+ \psi G_k=-G_k/p,\quad g_{k,p}=pG_k+G_k\circ[p],\quad\psi g_{k,p}=0.\tag{C}$$
+归一 $\psi$ 包含 $p^{-2}$ 和零点。原 $E_1$ 的 R663/R1065 严格整形式坐标及 $\phi H=H\circ[p]$ 给 $g_{k,p}=p(1-\phi\psi)G_k$。把包含固定挠点的有限局部扩域 $F$ 的整数环分解于 $\mathcal O_{K_p}$ 的有限自由基；(C) 与 $\psi$ 的原分解式 R1065(K7) 在每个分量上成立。R1065(K9)–(K12) 的 Berger Theorem A 因此给唯一整 Galois–Katz 测度（各分量的同一基扩张）$\mu_{k,p}$，支撑 $\mathbb T^\times$，且 $\mu_{k,p}(c_n)=[v^n]g_{k,p}$。对每个实际点 $Q$ 在更大有限扩域的完成张量中取 $\mathbf e_Q=\sum v_Q^n\otimes c_n$；实际 $\mu_{k,p}(\mathbf e_Q)=g_{k,p}(Q)$。
+
+定义完整带权点测试
+$$\mathcal G_{\nu,s}=\sum_{z\in(\mathcal O_K/p^s)^\times}\nu(z)^{-1}\mathbf e_{[z]Q_{p^s}}.$$
+有限角色系数亦在同一张量标量扩张中。对 $s\ge2$ 的 primitive，$G_k([p][z]Q_{p^s})$ 经模 $p^{s-1}$ 下降而 $\nu$ 在末纤维非平凡，完整加和为零。于是
+$$\mu_{k,p}(\mathcal G_{\nu,s})=36c_k(-1)^s p^{s+1}\,L(1,\psi_k\nu)/\varpi_1.\tag{D}$$
+对允许 $s=2j$ 参考值非零；用原 BKO (3.3) 的 coLie/Betti 运输（前节）以及
+$\mu_{e,p}=(\mu_{65,p}+e\mu_{8125,p})/2$ 得
+$$ \mathcal P_e(t_\nu)=\frac{c_1}{390}
+\frac{\mu_{e,p}(\mathcal G_{\nu,s})}{\mu_{1,p}(\mathcal G_{\nu,s})} .\tag{E} $$
+R1065、R1066 原两 $H_{34},H_{102}$ 使用 $p$ 变的物理 Hall 来源和第一挠层负二测试。本式使用固定的 (A) 及全部导子的原角色测试。对任意 $i\ge1$，精确的直接读者是
+$$-\frac{c_1p^i}{390}\sum_{j=1}^i\sum_{y=t_\nu:\ \operatorname{ord}\nu=p^{2j-1}}
+\frac{\mu_{e,p}(\mathcal G_{\nu,2j})}
+ {y^3 B_i'(y)\mu_{1,p}(\mathcal G_{\nu,2j})}
+\ \equiv [T^2]\mathcal P_e\pmod{p^i}.\tag{F}$$
+这里 $B_i=\prod_{j\le i}\Phi_{p^{2j-1}}(1+T)$。证明是 $\mathcal P_e/T^2$ 的整 Weierstrass 余式在零处的 Lagrange 式，$B_i(0)=p^i$；(E)只是逐节点的真实转换。亦可先对各 $k$ 使用相同的 (D)，代回原 $U$ 插值的 $U(t_\nu)w_k(\nu)$，保留 $U(0)=((p+1)f_1(x_0(1))/3)^2$ 和前节正权整数的全部精度。没有将任一有限普通 Taylor 项指定为上述导子测试。
+
+### 全部有限群环的原来源等式
+
+类数一且 $p$ 惰性。局部单位映射 $\ell_s:(\mathcal O_K/p^s)^\times\twoheadrightarrow\Gamma_{s-1}$，$\Gamma_{s-1}=\Gamma/\Gamma^{p^{s-1}}$；核为 $\mu_{p^2-1}$ 和 $1+p\mathbf Z_p$ 的像。取与 (B) 同侧的互反约定 $\nu(z)=\nu(\ell_s z)$。在含全部挠点的局部数域群环定义
+$$D_{k,s}=(-p)^{-s}\sum_{z\in(\mathcal O_K/p^s)^\times}G_k([z]Q_{p^s})[\ell_s(z)^{-1}],\qquad s\ge1.\tag{G}$$
+从 $s+1$ 投影至 $s$，每个原有单位 $z$ 的全部 $p^2$ 个提升正给 $[z]Q_{p^s}$ 的全 $[p]$ 逆像；(C)的 $-p$ 抵消一次规范化，故 (G) 严格相容。在平凡角色上，
+$$D_{k,s}(1)=(-p)^{-1}\sum_{0\ne R\in E_1[p]}G_k(R)
+=(1+p^{-1})G_k(0).\tag{H}$$
+在每个非平凡角色、确切导子 $p^a$（$2\le a\le s$）上，由相容性和 (B) 得 $D_{k,s}(\nu)=36c_k L(1,\psi_k\nu)/\varpi_1$。若 $a$ 偶，逐点以原 BKO 比值比较；若 $a$ 奇，则三条 $W(\psi_k\nu)=-1$，两侧 L-值皆零。这里用 Li–Xu, *On the Mordell–Weil rank of certain CM abelian varieties over anticyclotomic towers*, 出版 Theorem 3.12(ii)：本题 $j=0,f(\psi_{k,p})=0,W(\psi_k)=+1$，非平凡角色序指数 $n=a-1$，故符号 $(-1)^{n+1}=(-1)^a$。在平凡处用(H)及 $\mathcal A_b(0)=0$。所有特征零角色已尽，有限 Fourier 单射证明逐群环的准确等式
+$$\boxed{D_{b,s}=\frac{390}{c_1}\mathcal A_b(\gamma-1)D_{1,s}\quad(b=65,8125;\ s\ge1).}\tag{I}$$
+这里的 $\gamma$ 取有限层像，整幂级数在 $p$ 进群环中收敛。$(-p)^{-s}$、原参考、反号零层和初次 $(1+p^{-1})$ 均保留。若 $[T^2]\mathcal A_b=0$，已证 $\operatorname{ord}_0\mathcal A_b=2\operatorname{ord}_0\widehat J_{b,p}$ 遂给 $\mathcal A_b=T^4K_b$, $K_b\in\mathcal O[[T]]$；(I)要求每一层的同一完整有理点轨道为 $(\gamma-1)^4$ 作用于 $(390/c_1)K_bD_{1,s}$。这些关系没有给出某一充分大 $p$ 的 (F) 首次非零精度。
+
+Li–Xu [作者原版Th.3.11(ii)](https://arxiv.org/html/2502.12648v1#S3.SS3.SSS1.Thmtheorem3)，相应[期刊Th.3.12(ii)](https://doi.org/10.1016/j.jnt.2026.06.001)。Berger 模块、$\mathbf e_Q$ 与严格形式坐标按 R1065 §§2–3；BKO、BHKO 及 Néron 周期按前文归一。

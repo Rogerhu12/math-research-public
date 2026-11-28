@@ -131,3 +131,13 @@ root手核Vélu与sigma加法的全部符号、目标quasiperiod差、原theta�
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:51:31 UTC到ab519d6cf0e1daf1c28c44f484084af2f41e27ec，私库2026-11-28 12:51:26 UTC到5f24cf390a2bd42a7a3bac0bf2c20f94359a9c4c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47093193B/treebf4940180319dc1bdcbe4576c4c18c2e8bfa5732，无>5MB。
 
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 12:51:45 UTC到c7ed9bc9df7a5ef637621bdf797bf773ea6e3cc9，私库2026-11-28 12:51:41 UTC到cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47093193B/treebf4940180319dc1bdcbe4576c4c18c2e8bfa5732，无>5MB。
+
+## 2026-11-28 12:52:14 UTC：R1073 §6：三个固定有理函数的全Katz与有限群环原身份
+
+根逐审完整CRT常数、全p²核迹、ψ规范化、原Katz回返与有限群环所有角色。实读Li–Xu作者版Th3.11(ii)（出版Th3.12(ii)）的后支，n=a−1准确给奇导子符号负；不将奇层零丢弃。原5/双13参考全部保留。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:52:56 UTC到77afe64f640e70009c690486f1b485d23452b83e，私库2026-11-28 12:52:51 UTC到6fbc3dcdaf67eb2aec981ed766729931c95fbef1；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47103393B/tree014f927020f612a0117ff9506316ce775219d953，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:53:09 UTC到7bc66adfa9b7ccd31cd33e476d3a0b519155ea45，私库2026-11-28 12:53:05 UTC到090aea0123d530800534d224675e541a5bd04599；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47103393B/tree014f927020f612a0117ff9506316ce775219d953，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:53:23 UTC到7954d1865977816d7ac8ae6f7d3c6eb7d5a6deaa，私库2026-11-28 12:53:18 UTC到814813e88a9200992726f9646793b5acf0cb1e1b；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47103393B/tree014f927020f612a0117ff9506316ce775219d953，无>5MB。

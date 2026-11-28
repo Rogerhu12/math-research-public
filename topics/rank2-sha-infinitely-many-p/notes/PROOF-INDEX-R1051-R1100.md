@@ -686,3 +686,7 @@ source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713的
 ### R1071 §14：原U17点和准确确定两直接有限图的正负长度
 
 原特征零U17整映射恒等式与全部18尖点标号，结合原A0的两度8处D∞单位和16点F29轨道，迫厚尖点像−T、全部中间像T。三原Artin映射保相同有理三挠值，唯一薄点真单极。因此两直接有限图负长度2255、正长度2256、U1；原A0有限公共零1415、无穷公共零1。没有在正特征由微分零推出常值，反图仍另付。 [同编号全文](../results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
+
+### R1073 §6：三个固定有理函数的全Katz与有限群环原身份
+
+固定原G_k由七乘法及完整6/390角色平移给出，所有真层L值为同一G的完整点轨道；全p核迹给ψG=−G/p、g=pG+G∘[p]及原整Katz测度。保归一(−p)^−s、平凡项(1+p^−1)、反号层及真实参考，全部有限群环严格满足D_b,s=65A_bD_1,s。原中央坏遂迫每层同一来源T四次整除；未从ψ0或全层身份宣称中央非零。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
