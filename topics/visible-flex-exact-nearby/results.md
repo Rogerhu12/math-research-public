@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [OHR：真实两列强Robin及全部独立正侧回边](results/R149-supplement-strong-physical-outer-residuals-and-complete-independent-right-hand-sides.md)：同selected真实物理H1/6 Robin两列<1e−14/1.21e−11，全high普通L2<8e−13/1.51e−9；同一完整高particular的low体源<7.051e−8/2.958e−5、weighted right97<9e−15/6.31e−11。19whole/34新有理比较实际全过，known负窗部分<1.769e−5；root/height/mean全未知仍保。
+
 - [AGPR：3026全格真相位连续比较的实际H1成功](results/R149-supplement-actual-global-true-phase-and-continuous-physical-H1.md)：46135620219/1实际success，3026/3026全格与4个1/64门全过；真标签相对同一连续比较的strict角H1<1.164e−10、全域角H1<1.084e−5、含r导H1<1.576e−4。176whole10624293B/root metadata再准入通过、旧science0；原53.688MB/100.890MB载体双SHA全保，仅小receipt公开。后继GRQ实际接入，非整个high响应。
 
 - [ASQ11R：真实零目标列表类型失败后的整件接续](notes/2026-11-28-ASQ11-whole-gate-list-successor.md)：原46136643646/1在首metadata列表vs整数门失败、尚无新分组；新首add/attempt1严绑原terminal/job/event和完整198234B日志，唯一AST条件改核11个完整passed对象，全部native/公式/原SHA不变。新actual例外仍待。
