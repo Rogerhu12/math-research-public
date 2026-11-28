@@ -1,0 +1,65 @@
+{
+  "utc": "2026-11-28T13:55:51.395533+00:00",
+  "watcher_session": 98319,
+  "actual_stop_method": "write_stdin Ctrl-C",
+  "actual_exit_code": 130,
+  "root_requested_new_small_q_lambda_path": true,
+  "resource_observations": 35,
+  "first_resource_observation": {
+    "utc": "2026-11-28T13:46:44.151309+00:00",
+    "event": "original_complete_M48_resource_routes_checked",
+    "actual": {
+      "MemAvailable_bytes": 2265911296,
+      "disk_free_bytes": 392601600
+    },
+    "routes": [
+      {
+        "route": "full_CSR_and_QR_mapped",
+        "RAM_allowed": true,
+        "disk_allowed": false,
+        "required_RAM_bytes": 2129550892,
+        "required_disk_bytes": 1825948803
+      },
+      {
+        "route": "CSR_only_QR_anonymous",
+        "RAM_allowed": false,
+        "disk_allowed": false,
+        "required_RAM_bytes": 2617489608,
+        "required_disk_bytes": 1105909089
+      }
+    ],
+    "any_BVP_started": false
+  },
+  "last_resource_observation": {
+    "utc": "2026-11-28T13:55:14.434098+00:00",
+    "event": "original_complete_M48_resource_routes_checked",
+    "actual": {
+      "MemAvailable_bytes": 2290397184,
+      "disk_free_bytes": 466337792
+    },
+    "routes": [
+      {
+        "route": "full_CSR_and_QR_mapped",
+        "RAM_allowed": true,
+        "disk_allowed": false,
+        "required_RAM_bytes": 2129550892,
+        "required_disk_bytes": 1825948803
+      },
+      {
+        "route": "CSR_only_QR_anonymous",
+        "RAM_allowed": false,
+        "disk_allowed": false,
+        "required_RAM_bytes": 2617489608,
+        "required_disk_bytes": 1105909089
+      }
+    ],
+    "any_BVP_started": false
+  },
+  "all_rows_no_BVP_started": true,
+  "both_candidate_output_trees_absent_after_actual_watcher_exit": true,
+  "new_full_J_started": false,
+  "complete_e889_checkpoint_preserved": true,
+  "mathematical_failure_inferred": false,
+  "cross_exec_PID_lookup_found_no_matching_process_and_sent_no_signals": true,
+  "event_log_sha256": "4518f60ae43229c40fdcac2f82c12fa28695d8ea684d1e3cf43c92f6eb9ed27f"
+}
