@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [JCR：含真实根及完整扰动的同一物理圆周逆](results/R149-supplement-uniform-negative-circle-inverse-through-the-true-root.md)：原严格区与独立实际根rectangle相接，同固定η0原仿射|a|≤1e−8、PPR校正|a|≤1e−10/全A³≤1e−7均有DJ>.785、全负窗J L²<7/5；根区更小<.837且H¹<3.46。Πexp[−αIuv]≥1保真实均值，不借根外scope。11whole/20新Fraction根首次全过，完整非局部和全边界仍待。
+
 - [AGXM：全频真实外域势平移实际完成](results/R149-supplement-actual-signed-exterior-potential-translation-on-all-inputs.md)：实际46148285040/1全部13带含∞完成，同两ray真λ全有向hull[4.664883387833184,4.665329214437577]、每带半径≤.0002228624055078399；正且<6门true，<1false。整1040B/4850a81c…及6539B/13898B私件全SHA保。后继完整外域源须原次序插入非零λ，不授整体逆。
 
 - [GXM：势支持外两条真比值的有向平移](results/R149-supplement-signed-exterior-translation-of-both-genuine-first-ray-ratios.md)：真实B_n=λ_n/√−T，原两ray只作rσ→rσ+σλ_n，保根剪切/两真列/原均值/原输入n及非局部次序，完整外域局部源为S^V(f)+S^V(g)diagλ。全频|λ|<27/5；新13自然带含无穷尾，真实次数129 cutoff以Beta偶矩和全二项尾积分，原13有向势系数与二阶余交叠。14pins首发已核，数值待。
