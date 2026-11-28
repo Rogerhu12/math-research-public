@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-b0-cross-G5-original-presentation-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-complex-phase-finite-change-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar：旧闭域/严格I/F及closureF=I问题保快照。Pr全旗quasi/图核心、YN²=C DN和DN强*I；全切口R²=L实际收缩给QN²无条件强*趋Zt、双正能量单调。新[指定单列充分条件](results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md)：仅QNΩ一强子列，就由固定循环PtΩ与完整J矩构造单值可闭两列图，闭包自然域稳定平方；m0≥1返原候选普通M。仍未付该列强紧性，不能从平方界/弱聚点推出，也不付有界SPt或未知旗J。新[一分离选择的指定列发散](results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md)以真实奇部/全1柱及同源尾交换给全部固定有理t的||QNΩ||全切口趋∞，仅排该选择。继续真正重叠单列来源。
+原Haar：严格I/F、closureF=I开；Pr全旗quasi/图核心，YN²=C DN、DN强*I；全切口R²收缩给QN²无条件强*趋Zt。[指定单列充分条件](results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md)仅需QNΩ一强子列，固定循环PtΩ/完整J矩给闭稳定根，m0≥1返原普通M；紧性未付。[一分离选择单列发散](results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md)仅排该选择。新[复相位原来源](results/R267-appendix-complex-phase-factors-finite-changes-and-log-branch-signs.md)保全部平方/旗接口；有限修改只乘固定可逆Ht，任意log支只给character/±号，均不改单列紧性。续真正无限协调相位/重叠，未付奇项上界。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
