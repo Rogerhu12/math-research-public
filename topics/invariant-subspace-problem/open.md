@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-positive-e-entire-ray-closure-2205-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-actual-tail-norm-quotient-2210-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar I/F、closureF=I、固定Q*/O(s²)/Ω强子列桥及每非零列本性保；复Lθ全旗/精确可除层、真尾同像/低位源域运输保。新[完整两原列四次费用与增生分母全族排除](results/R12-appendix-full-two-column-quartic-source-cost-and-accretive-denominator-exclusion.md)36572保全部F0/F1回绕、β反转及ρ计数，任意Y²=CP²给真实常数尾D0⁴界；纯尾Q给||Q⁴||≤28η_{L−1}||Y||⁴/c²。同一个Y经旧单位只付polylog，而Qtail⁴强*I且η双指数衰减，故全部Reθ>0的Pθ无有界平方分子，R88作用闭图后亦排稳定根域包含RanPθ。一般flat/未知旗商未排，不从D0⁴反推D0小；转其它实际同分子来源。
+原Haar I/F、closureF=I、固定Q*/Ω强子列桥及每非零列本性保。全复Pθ增生族已由完整两列Q⁴费用/同Y polylog矛盾排除。新[实际尾块/主理想闭包完全等距商](results/R12-appendix-actual-tail-coefficient-isometric-principal-ideal-quotient-and-square-source.md)给dist(X,closure(C C′))=lim||Φ_LX||，同一原零阶尾块压缩嵌套、全部固定矩阵放大常数不增；乘法缺陷≤τ_L||X||||Y||→0，准确核为closure(C C′)。一般同Y²=CP²的完整两列四次预算推出P⁴属于该范数闭包，未证明商无幂零元，不推出P在闭包或实际P⁴=CR。Q*等全部实际整数幂共同分母仍保，继续不同实际平方来源。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。

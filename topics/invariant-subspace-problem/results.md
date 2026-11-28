@@ -34,6 +34,8 @@
 
 ## 新增结论
 
+- [R12：真实尾块的完全等距主理想闭包商及平方来源必要条件](results/R12-appendix-actual-tail-coefficient-isometric-principal-ideal-quotient-and-square-source.md)：到closure(C C′)的准确范数距离等于同一零阶尾块范数极限；乘法误差趋零。完整同Y平方方程迫P⁴在该闭包，不反推P小、可除或商半单。
+
 - [R150：整个正e射线关闭及e、k、u的1009整单位性](results/R150-appendix-unit211-W-b0-entire-positive-e-ray-exclusion-and-e-k-u-integral-units.md)：唯一末中心完整两singleton给显式单位Bézout；合全部k中心关闭正e，再复用五ray及Newton穷尽性得ve=vk=0，整内部u排除得vu0。其余原分母仍须逐一支付。
 
 - [R150：整个内部u正估值的原DVR边界排除](results/R150-appendix-unit211-W-b0-internal-u-positive-entire-original-valuation-exclusion.md)：全部k/L/h/M及µ分层后，唯一新R3/E5实际gcd1，正幂d³完整返回三个原剩余式；实际0.025592954秒/0，整v(u)>0支关闭，无QQ全图空性外推。
