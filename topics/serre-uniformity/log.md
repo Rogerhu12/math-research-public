@@ -789,3 +789,11 @@
 - 原Hahn双WZ请求已通过用户授权CLI真实推main：12fab4ff9d9feb669b0d0ff5ab4042ea966be8ab。公开run46182457620、job141094852232已完成checkout及固定Sage镜像拉取，正在exact双变量证书阶段；尚无数学结果，不把启动当证明。实际source/request/method pins同上条。
 - 普通CLI缺少credentials后使用用户提供令牌的临时命令行环境及不落盘credential helper，成功后环境随命令退出；未写文件、提交或connector。最后真实pull至1c27227da7f6d28ae5ae614065ccbcd020a3e778/19:41:01UTC，两README diff空。
 - 本push规则：本地真实pull至 727df7af4e7d2d5e40beb57ad03840a8e5740ca4（2026-11-28T19:43:11Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1179 §15：在原Gaussian曲线上选α≡1 mod12且Nα模p非平方。Flach/Kato一般同源canonical theta保持原divisor/base-change/norm和μ₄下降，原weighted augmentation杀唯一共同常数；实际ray标签及全部embeddings给同一Kummer类E_rγ_(r+1)/2。整数辅助退化的principal改由κ=2Nα单位支付。
+- 同一原normal M=(p+1)²/2、α^M=−Nα及Appell全短反射给c_pr=βE_(m−1)B_(m+1)/(2mC^(m−1))，完整Z_p合为全奇指标求和；两p极carry保留，principal差没有新增mask。CD.3/PA.6都先在K构造再限制原未分歧二次局部F，不把[α]当Q同源或另加2归一。
+- o2原源推导、o1独立CM/指数/尺度核验、root亲读Flach §§2.2.2–2.2.3及逐式核CD.5–10；纯纸面，无数学程序或旧窗口。旧R1179 §§1–14前缀逐字保留；H/open压缩前逐字归档before-principal-CM-auxiliary。
+- WZ真实公开run46182457620/job141094852232仍在exact证书阶段；运行登记已推d63a2fbbe1dec9aba4a8fca440ec0d6e968b30c0，19:43:11UTC真实pull读727df7af4e7d2d5e40beb57ad03840a8e5740ca4，两README diff空。
+- 本push规则：本地真实pull至 80d92e98a5d3bb9f817e8580ab41a381b6a8c7b3（2026-11-28T19:54:58Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。

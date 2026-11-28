@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原非标量CM辅助付principal与完整总p对角（已证明，R1179 §15）**：[R1179 §§14–15](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，现付全部奇3≤s≤p−2的c_s=βE_(s−1)Bp−s/(2sC^(s−1))，包括m₀=(p−1)/2。新取原CM α≡1 mod12、n=Nα非平方，真实一般isogeny θ_α有κ=n−n^(−m₀+1)=2n单位；全ray norm/同根/全嵌入与原normal保同一常数。先K后restrict原局部F，不添2。完整Z_p已统一含principal及−βTU^(p−3)/3+βU^(p−2)/6两carry；不除Euler/Bernoulli。principal差仍无mask，低偶R仍乘原(1−B_(p+1−2R)^(p−1))；完整Fay/邻行与actual共同纤维继续。
+
 - **原最高惯性角色全部 deck 的尖点投影整性（已证明，R1211）**：[R1211](results/R1211-original-whole-highest-character-projector-integrality.md)原q的整性现扩至整个最高σ权m²角色格Γ_all，含正/负/旧deck。R1202尾全normal消去不依deck；新增centre h=1·db/u在SS准确产生normal m、pole m的非零项，higher h只给低pole，故不能残留于UΩ modp。高PS中心分支沿原degree界同样排除，得Γ_all=qΓ_all⊕(1−q)Γ_all。正deck的πdb/u允许方向仍保，不能照搬负底单射；未宣整个R-Hodge/BT已split，继续同原Π/Φ/极化。
 
 - **原最高纯尖点返回的全素数首对数单位（已证明，R1210）**：[R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。§7同一输入的原CM轮廓恰二次、w²系数unit；另取b²给首CM值−41/4，得(V,首CMλ)的aggregate单位2×2 minor。它不是F0-balanced或指定C/whole-MW法向单位，继续实际Π/Φ。

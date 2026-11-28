@@ -1418,3 +1418,145 @@ $$
 (CD.15)--(CD.16) 不能合并成所有内部对角积均为零。缺席 principal、出现判据的非零分支以及完整 Fay 的跨次数乘积都仍在。R1183 的完整 binary Serre 配对虽可作用于 (CD.14)，但非退化性本身不支付这个指定 mask 的余核。后继所需仍是一个真正作用于上述同一差分源的恒等式或闭性，而不是将完整矩的消失加到原假设中。
 
 本节全为纸面证明，没有数学程序执行。o1 独立核对了先 Tate 收缩后的范围、$e/\sigma$ 与 factorial 抵消；(CD.4) 的真实 principal 异常已明确保留。
+
+## 15. 非标量 CM 辅助同源支付原 principal 常数
+
+日期：2026-11-28。会话：Astra-serre-24b8836b-20261126；o2_high_coefficient。
+
+**已证明。** (CD.4) 是整数辅助同源的真实异常。本节使用同一个 Kato–Robert 规范 theta 的非标量 Gaussian CM 辅助同源，支付 (CD.14) 中原本保留的 $\mathfrak c_{\rm pr}$。它不改变原 principal 角色缺席，也不增加一个 principal 差分观测。
+
+仍令 $p\equiv3\pmod4$、$p>37$，$m=(p-1)/2$，$r=m-1$。沿用 (CD.1) 的 $\mathfrak c_s$、原 $\beta=-\delta$ 和 (GN.20) 的同一个 $C$。结论为
+$$
+\boxed{\quad
+\mathfrak c_{\rm pr}=\mathfrak c_m=\mathfrak c_{m+1}
+ =\frac{\beta E_{m-1}}{2mC^{m-1}}B_{m+1}.
+\quad}
+\tag{PA.1}
+$$
+这里没有反除 Euler 或 Bernoulli 数，亦没有断言该常数为单位。
+
+### 15.1. 同一个规范 theta 允许一般 CM 辅助
+
+置 $\mathcal O=\mathbb Z[i]$。范数 $\mathbb F_{p^2}^{\times}\to\mathbb F_p^{\times}$ 满射；取其范数为非平方的一个元素，再在 $\mathcal O$ 中作 CRT，得到
+$$
+\alpha\equiv1\pmod{12\mathcal O},\qquad
+n=N_{K/\mathbb Q}(\alpha),\qquad
+n\bmod p\text{ 为非平方}.
+\tag{PA.2}
+$$
+于是 $(n,6p)=1$，且 $n\equiv1\pmod4$。不需要 $n$ 是素数。
+
+这里的函数严格取一般同源 $[\alpha]:E\to E$ 的规范函数 $\theta_\alpha$。Flach §2.2.2 Lemma 2.1 明确对任意 degree prime to $6$ 的同源定义该函数，并由 divisor、base change 和 prime-to-degree norm 唯一规范化；其 §2.2.3 Lemma 2.2(a)–(c) 对任意辅助 ideal prime to $6p$ 给出 CM 点的 ray rationality、integrality 和 Galois 标签。因而本节仍使用 §§1–5 的同一规范源，非另选有相同 divisor 的函数作为新来源。准确有
+$$
+\operatorname{div}(\theta_\alpha)
+ =n[O]-\sum_{Q\in\ker[\alpha]}[Q].
+\tag{PA.3}
+$$
+同一个 Gaussian 格 $\mathcal O$ 上，$\eta(\lambda)=\pi\bar\lambda$。因此
+$\eta(\alpha\lambda)\alpha=n\eta(\lambda)$；$\alpha\equiv1\pmod2$ 又使 sigma quasi-period 的 parity 因子相同。于是
+$$
+\frac{\sigma(z)^n}{\sigma(\alpha z)}
+$$
+是真正的椭圆函数，divisor 为 (PA.3)。它在 $z\mapsto iz$ 下的因子为 $i^{n-1}=1$。规范 $\theta_\alpha$ 与它只差一个共同常数；不能为不同点各自调整这个常数。由 $|\alpha|^2=n$，原 completed theta 函数 $F$ 因而给
+$$
+\log|\theta_\alpha(P_v)|^2
+ =nF(v/p)-F(\alpha v/p)+C_\alpha.
+\tag{PA.4}
+$$
+二次项准确抵消，未增加 holomorphic exponential gauge。$\mu_4$ 不变性也已在函数层面支付。
+
+### 15.2. 全点的权与原 ray norm
+
+原 Weil pairing 的同源相容性、$[\alpha][i]=[i][\alpha]$ 给
+$$
+q_{[i]}(\alpha P)=n\,q_{[i]}(P).
+$$
+故本源的平滑因子是
+$$
+\kappa_r(\alpha)=n-n^{-r}=2n\ne0\quad\text{in }\mathbb F_p,
+\tag{PA.5}
+$$
+其中用了 $r=m-1$ 和 $n^m=-1$。定义真实的纯 Tate 源
+$$
+\mathsf Q_r^{\alpha}
+ =\kappa_r(\alpha)^{-1}
+ \operatorname{Cor}_{E[p]^\times}
+ \bigl(\kappa(\theta_\alpha(P))\otimes q_{[i]}(P)^r\bigr).
+\tag{PA.6}
+$$
+与 (CD.3) 完全一样，(PA.6) 先在原 CM 数域 $K=\mathbb Q(i)$ 上对全 $p$ 点作 Cor，再限制到原来的未分歧二次 $p$-adic 底 $F$；这里不把 $[\alpha]$ 称为 $\mathbb Q$ 上定义的同源，也不因该限制增加一个 $2$ 倍归一。
+
+Kummer 仍为原正方向，不除全点数、半点数或 norm-one 轨道 degree。
+
+共同常数的消失亦可在实际源中验证：$2r=p-3$，故取一个标量 $c$ 使 $c^{2r}\ne1$，由 $P\mapsto cP$ 得 $\sum_{P\ne0}q(P)^r=0$。对两个 CM 辅助 $\alpha,\alpha'$，比较
+$\theta_\alpha^{N\alpha'}/[\alpha']^*\theta_\alpha$ 与
+$\theta_{\alpha'}^{N\alpha}/[\alpha]^*\theta_{\alpha'}$，它们的 divisor 相同；其共同常数由该 augmentation 杀掉。按实际点重标得
+$\kappa_r(\alpha')\operatorname{Cor}(\kappa\theta_\alpha\otimes q^r)
+=\kappa_r(\alpha)\operatorname{Cor}(\kappa\theta_{\alpha'}\otimes q^r)$。
+所以 (PA.6) 与所有具有单位平滑因子的 CM 辅助选择相容，包括 $\bar\alpha$；没有给一个原根相位额外赋值。
+
+现取模 $p$ 为 $\omega^r$ 的非平凡偶字符 $\chi$。在 (PA.4) 第二项实际重标 $v\mapsto\alpha v$，§§3–5 的全部 shifted Epstein 与圆单位规范给
+$$
+\sum_{v\ne0}\chi(Nv)\log|\theta_\alpha(P_v)|^2
+ =-4\bigl(n-\chi(n)^{-1}\bigr)
+ L_{\mathbb Q}'(0,\chi)L_{\mathbb Q}(0,\chi\chi_{-4}).
+$$
+这里的逆角色来自这次重标，不从 Artin 符号猜测。按 Flach 上述一般 ideal 的 CM 标签，$\theta_\alpha(P_0)\in K(p)$；真实 norm $K(p)\to K(\zeta_p)$ 与全点和仍相差恰四。各字符共轭及 $\sigma_b$ 重标支付所有复 places。该值在 $p$ 外为单位，$K(\zeta_p)$ 的唯一 $p$ 位不贡献非平凡角色；regulator 单射遂给相同整 unit 等式。其 $p$-primary root kernel 的角色是 $\omega$，不同于 $\omega^{-r}$；$n-\chi(n)^{-1}$ 模 $p$ 为 (PA.5)，可合法反除。
+
+因此不是仅有一项复对数相等，而是得到同一 Kummer 类的等式
+$$
+\boxed{\qquad
+\mathsf Q_r^{\alpha}=\frac{E_r}{2}\gamma_{r+1}.
+\qquad}
+\tag{PA.7}
+$$
+$L(0,\chi\chi_{-4})\bmod p=E_r/2$ 仍由 §13.3 的未乘 $1/2$ 的有限和生成函数证明，因 $r<p-1$；没有新的 $p$ 分母。$q(P_0)$ 与原选定 $\zeta_p$ 的重标抵消仍如 (GN.4)，所以没有重新规范 Tate generator。
+
+### 15.3. 同一 normal 系数与 principal Appell 槽
+
+保 (CD.5) 的实际 $H^0$ 纯 Tate 代表。此处
+$$
+\nu=(p+1)r<e=p^2-1,\qquad
+M=e-\nu=(p+1)(p-m)=\frac{(p+1)^2}{2}<e.
+$$
+原 formal coordinate 与 elliptic logarithm 在此严格低于 $e$ 的窗相合。去掉共同常数与 $[z]$ 后，$\theta_\alpha$ 的 Kummer 第二槽满足
+$$
+\ell_M=\frac{\alpha^M-n}{M}G_M,\qquad
+\alpha^M=n^{(p+1)/2}=-n\pmod p.
+\tag{PA.8}
+$$
+这里 $M\equiv-m\pmod p$ 为单位，Frobenius-log correction 不贡献，因为 $p\nmid M$。规范函数在原 good model 上的正规 theta 单位为整级数，故其 $d\log$ 整；由 $M$ 为单位，$\ell_M$ 整，再由 $\alpha^M-n=-\kappa_r(\alpha)$ 为单位，$G_M$ 也整。系数 $\alpha^M-n\bmod p$ 属于 $\mathbb F_p$，所以该处 $\sigma$ 不引入一个额外 CM 相位。
+
+全点 trace 仍为 $e$ 倍零 block，normal $m=r+1$ 项为
+$e(C\beta)^r m!\ell_M/\kappa_r(\alpha)$。
+同 (CD.7)–(CD.8)，$e=-1$、$m$ 奇及 pure Tate 收缩的 $(-1)^m$ 相消；高 $\Gamma_p$ 项在 normal $m<p$ 之外。由 R1177 的原负号，真正 physical 坐标为
+$$
+\Phi(\mathsf Q_r^{\alpha})
+ =-\frac{(C\beta)^r}{m}G_M
+ =\frac{C^r\mathcal J_{m+1}}{m(m+1)\beta},\qquad
+\mathcal J_{m+1}=(m+1)!\mathfrak c_m.
+$$
+第二个等号严格消费 (CD.9)–(CD.10)。其 $j=m+1\le p-3$ 已在 R1116 (1116.26) 的全短范围中；当 $4\mid j$，相同的原全短反射也已锁定常数。目标 $p(p-m)$ 与共同 $\tau$ 误差界的距离为 $(m-1)(p+1)>0$，因此没有新的 principal 误差。
+
+最后 R1180 §9 给 $\Phi(\gamma_m)=(m-1)!B_{p-m}/m$，与 (PA.7) 相等即得 (PA.1)。至此全部式子始终作用于原同一个核的系数，没有用一个新函数代替 $\mathfrak c_m$。
+
+### 15.4. 原总 $p$ 对角的完整统一式与剩余 mask
+
+在 (CD.14) 中代入 (PA.1)，得到不留独立 principal 常数的完整式
+$$
+\boxed{\begin{aligned}
+Z_p={}&\frac\beta{12}
+ \sum_{\substack{3\le s\le p-2\\s\ {\rm odd}}}
+ \frac{(s^2-1)E_{s-1}B_{p-s}}{C^{s-1}}
+ \bigl(T^{p-s}U^{s-2}-T^sU^{p-s-2}\bigr)\\
+&-\frac\beta3TU^{p-3}+\frac\beta6U^{p-2}.
+\end{aligned}}
+\tag{PA.9}
+$$
+principal 系数的核对是 $m=-1/2$，故
+$\beta(m^2-1)E_{m-1}B_{m+1}/(12C^{m-1})
+=\mathfrak c_m/16$。两条 $p$ 极 carry 原样保留。
+
+**尚未支付的目标不变。** (CD.15)–(CD.16) 仍是全部实际 mask；$s=m$ 没有新增观测，$\Delta\mathfrak c_m$ 不能删掉。低偶角色的出现条件、完整 Fay 跨次数项以及邻行 Serre 配对仍须在原源上处理。(PA.9) 给的是这个有限源的全部常数，不是 good-mask 共同纤维排除。
+
+本节没有数学程序执行。Primary 使用位置为 Flach, *Iwasawa Theory and Motivic L-functions* (2009), §§2.2.2–2.2.3, Lemmas 2.1、2.2(a)–(c) 及后 Remark；实际亲读同作者全文镜像 <https://studylib.net/doc/7931909/iwasawa-theory-and-motivic-l-functions---mathematics>。范数的全部嵌入与整格步骤在本节按原 (GN.13)–(GN.16) 重述，未调用其字符方向不同的 limit-formula 记号。
