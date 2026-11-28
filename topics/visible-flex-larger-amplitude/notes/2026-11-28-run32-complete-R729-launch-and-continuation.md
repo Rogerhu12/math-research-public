@@ -151,3 +151,26 @@ science自然返回完整report后，按同activeID把整个pure步骤放入同q
   }
 ]
 ```
+
+## 2026-11-28 09:07:42 UTC — 32自身完整初geometry与首trial统计
+
+完整索引固定3a38882e887dae0688835ccd9b1b41c7eb6d24c6，observed2026-11-28T09:01:24Z，source20911541326908882a45a1a1815ec8a05ebb4420/PID3496、driver501313cc50c2a877f98318193a8878242ec13c2f8a0664740a4ea8c47eb4baa7。自身真实model78717b20b1fa33db5ccc018be03ee6c9d93a0b89615fdfd25d1049492c0fce40；math source4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94、target957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9。与31同model/数值来自本次计算，未借31字段或证书。
+
+initial/current=7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，accepted0；Phi14106.361942260944/Gram.822374918515021，initial/current_geometry_complete=true。全六族reach.7631911760908718、body−.04189769456408332、distance_plus−.09518118442527368、distance_minus−3.04023779712659、cap−.06715131487906445、height−1.0411715967426867。K14.23819037053068/D_point_lower4.109115766386664，热点cell509/u.6193095930415985/phi1.303883669702795/branch0/s=null；distance_plus_phi=π/2。仍不可行，held改善不支付reach。
+
+首restoration alpha1完整trial1ec67648343c521e4ee605fd8867a040794a614998c81ea9d970f507ff1d4092，于08:56:44.221360Z返自身Phi14108.010873083527/Gram.8249934419612122；trial_accepted=null，几何未返。点不同于31首trial，但live字段未给R729触发/采用/全扫数/gap，不据点差归因。complete_report=false、stop_reason=null、observer_failures0。全原575/564正式读数待科学自然返回，随后才以原61349B整pure同ID接续。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46125006601-1.md",
+    "bytes": 55163,
+    "sha256": "a97d390d424050384f094130e9579b371854b066687bd3e4d3abb35ba6fbef99",
+    "git_blob_sha": "c19fc8b6b9b1b17ec90e04747ea6b34a70ea96cd",
+    "fixed_commit": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

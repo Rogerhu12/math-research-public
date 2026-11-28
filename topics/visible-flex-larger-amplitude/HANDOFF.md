@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，08:49:21Z此次仍exec-server缺失，恢复即pull。前次探测完整保旧H。云核至`aa329de9cb1a7eee9911648965214bedfffd8979`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。活26–29/31–32控制器通常5分钟真pull，末槽记已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，08:49:21Z此次仍exec-server缺失，恢复即pull。前次探测完整保旧H。云核至`5a3d224fe3aa2632ee625d658184da647b1d6c96`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。活26–29/31–32控制器通常5分钟真pull，末槽记已读commit。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格缺口明示，继续加强比例。
@@ -16,9 +16,9 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 19–24终态完整保：19science/pure0、N1无report原因未知；20–24官方cancelled，科学未返的final/typed仍未知。25原science/pure0；同源restart新accepted0，原父accepted4不冒新计数。官方job140839831948在08:39:51Z completed/cancelled，原因未知；最后596a四分之一步reachg.522561396446142拒，8f375八分之一步仅统计，整restart未自然返。删除25运行槽，不伪排纯读或造final。
 26初7e06/accepted0；4e4d八分之一reachg.5858010567846739拒，c283十六分之一步仅统计。27至12d82/accepted3/reachg.6999403610404435，86e14第四步仅统计。两整science未返。
 28 science/pure0，a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518仍不可行；445 pure实返423值/22错，首QP2advance/dependent-zero，具体阻挡行未知。既存全标量90/90已实返，[完整S/core-law](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已刊78010；原13个summary错不删除。原runner待续，solver正闭同物理28→R729明确跨source导入，保137全源/13final/typed/完整model相等，旧same-source guards不改。
-29真run46112781312/sourceb0a08/PID3641/modeld3d295；bc818/accepted1/distplus.13820228685007474；全/半/四分之一步拒，d24e八分之一步自身Phi590.9936846129775/Gram.4185091859676928，几何未知。原容量failure/仅诊断run独立保。active/parent均29-retry1，queue74379；自然返后整pure46915。
-31三包39件全main0386，23runtime/137角色；两输入0，science dfbbc306/PID4131/model78717；初7e06/accepted0/Gram.822374918515021/reachg.7631911760908718/distplus−.09518118442527368，337dc首步仅统计。原157/7、458/445、64live、4/64/15保；active/parent均31，queue65162，自然返后整pure46851。
-32源8/参数6/launch7全main；真实46125006601/job140917553486，两输入0；science20911541/PID3496于08:41:00Z返自身初geometry，model78717/7e06/accepted0，Gram.822374918515021/reachg.7631911760908718/distplus−.09518118442527368。这些为本次真返回，不借31；R729触发/采用/后续仍未知。138角色/24runtime，原预算与参数保，575/564诊断，新旧QP分开。active/parent均32，queue78678，自然返后整pure61349。
+29真run46112781312/sourceb0a08/PID3641/modeld3d295；bc818/accepted1/distplus.13820228685007474；全原记录保[29完整note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)，后续逐次记录。原容量failure/仅诊断run独立；active/parent同29-retry1、queue74379，自然返后pure46915。
+31三包39件全main0386，23runtime/137角色；真实46122200592，science dfbbc306/PID4131/model78717/初7e06/accepted0，首337dc仅统计。全六族/K/源参和原预算保[31完整note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)；active/parent同31、queue65162，自然返后pure46851。
+32三包21件全main，真实46125006601；science20911541/PID3496自身初geometry返model78717/7e06/accepted0，Gram.822374918515021/reachg.7631911760908718；1ec676首trial仅自身统计，几何/接受/R729归因未知，不借31。全六族/K/源参/预算保[32完整note](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)；138角色/24runtime、575/564诊断；active/parent同32、queue78678，自然返后pure61349。
 
 ## 新构造、修复及未付责任
 

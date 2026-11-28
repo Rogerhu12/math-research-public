@@ -373,3 +373,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:07:04 UTC — 25同run续跑的官方取消与最后完整观察
 
 官方25 completed/cancelled08:39:51Z，原因未提供；末索引08:34:59Z确认restart新accepted0、四分之一步拒、八分之一步仅统计，无新final/typed。原science/pure0与父accepted4独立保，旧槽已移除，不伪排新pure。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`aa329de9cb1a7eee9911648965214bedfffd8979`无变（非pull）。
+
+## 2026-11-28 09:07:42 UTC — 32自身完整初geometry与首trial统计
+
+32自身完整初geometry返model78717/accepted0、Gram.822374918515021/reachg.7631911760908718；1ec676首trial自身统计返，几何/接受/R729归因未返。全六族/K/位置和源model均保，不借31，不据点差猜算法归因；H现用各whole note保全31/29详细责任。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)。双README云核至`5a3d224fe3aa2632ee625d658184da647b1d6c96`无变（非pull）。
