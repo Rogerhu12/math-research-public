@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `44c30cd25291d1481ecfc3ba93925c8bc76a365b`（2026-11-28 07:24 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；07:12 UTC再次pull到 `efd9017e46129b432579db83aee11be6b230d7fd`，根规则无变且QUEUE仍本会话。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `54771dbda2ecd95d949d7ae7f4286a9759e63d40`（2026-11-28 07:31 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；07:12 UTC再次pull到 `efd9017e46129b432579db83aee11be6b230d7fd`，根规则无变且QUEUE仍本会话。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -22,6 +22,8 @@
 - tail_closure：新 `scripts/resume_20261128/tail/mild_mode_tail_continue.py` 已消费本次真.002/M24源，在 `tail-mild-modes-20261128-a` 实跑M8/.25，然后half-H逐级升模；M16可保接受包无损续M24。共享同一恢复源与λ.002前缀；保原DN/chord3/native4、完整H/J/audit和8outer，改升模/幅度初猜路径，保留原worker的短失败字符串，避免原M8full→M16同样失败链。最终必须M24全H及联合前缀；新 `tail/couple_actual_prefix_streamed.py` 保原fullH/J/8outer并用V2分块32，待真fullH包后执行。
 - analytic_construction：把R72端口/δ响应落实到实际设计预测，寻找降低λ推进代价的合法变量；入口基可逆不再当完整BVP可解。
 - root：[R67有理三重帽实作](notes/2026-11-28-r67-rational-marker-implementation.md)经75位导数核过，闭图新reader保完整R53 lift/源mean且明确新Hermite均值；两Cartesian入口待实际fullH场，不继承旧证书。新三重帽替掉旧二重帽，中心柱总长≤.01。[完整块QR](notes/2026-11-28-block-qr-actual-collocation-check.md)已在真实M8/418节点Jac方向对照，修正后与LU相对差1.4245e−14、原残差6.437e−19，无BVP步；[真实M16/43087维对照](notes/2026-11-28-block-qr-actual-m16.md)也已过，方向相对差6.4405e−14/原残差1.0667e−20；真实M24/64191维也过，差9.502e−13/原残差2.3464e−21/因子162.6MB；`prefix_block_qr_driver.py` 可显式选原资源v1或缓存v2，已compile/help、未实跑BVP，不能直接选v3。全局几何/实际C²接缝与资源矩阵结构，更新H/open并即时推送，只有实际新图可用旧结构定理，不能搬旧数值常数。
+
+- 新C²图实际诊断：[本次879节点前缀](notes/2026-11-28-tail-prefix-c2-first-actual.md)保完整R53 lift并明确声明新的公共Hermite均值；1890×1168实际采样 metric≤5.51004e−7、K≤8.90689、support≥.661154、|F|≤1.18574，中心0/1/2 jet误差≤2.67e−15。新均值二阶与源primitive差1.32332e−4，不能称同图或继承R62；尚无全盒连续界、附尾/全闭图，root接连续范围适配。
 
 ## 已证工具和不得重复的工作
 

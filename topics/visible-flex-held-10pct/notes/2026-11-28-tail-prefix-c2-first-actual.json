@@ -1,0 +1,118 @@
+{
+  "status": "new_actual_finite_C2_prefix_sampled_before_tail_attachment",
+  "input_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "input_raw_sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616",
+  "input_physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+  "actual_output_sha256": "8ebf3a685bec5f8ff6c3c5944910565424eb0039c896b00aaf12464b7e04ffd4",
+  "source_homotopy": 0.002,
+  "source_modes": 24,
+  "source_nodes": 879,
+  "source_rms": 9.884396258035657e-07,
+  "source_original_metric_l1": 6.534787765754473e-07,
+  "source_physical_bc_max": 5.759910329420531e-15,
+  "source_code_sha256": {
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6dfbea14063dfd72958dd6d20c65123e95c8e4f03617b8e94962b426c6f0b814",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/actual_m3_metric_model.py": "0b1dd3e35be3cc51f27a5f1a3fe5437904fa8363ef8bfcdf2d40547c0a860ba8",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20"
+  },
+  "new_finite_map": {
+    "source_literal_mean_nodes": 1168,
+    "mean_height_quadrature_order": 6,
+    "mean_definition": "New finite shared-Hermite interpolant of source-N/GL6 oracle samples",
+    "source_primitive_preserved_as_same_function": false,
+    "original_R62_or_other_geometry_bounds_inherited": false,
+    "complete_analytic_core_lift_retained": true,
+    "radial_knots": 945,
+    "six_cartesian_jet_absolute_maxima": [
+      1.0908776959723707,
+      1.0000000000000007,
+      7.625684966110384,
+      1.48,
+      1.7492741795524305,
+      1.9477268943836812
+    ],
+    "center_shared_position_first_second_numeric_errors": [
+      1.1102230246251565e-15,
+      4.440892098500626e-16,
+      2.6645352591003757e-15
+    ],
+    "finite_queries_all_finite": true,
+    "actual_cut_correction_applied": false,
+    "tail_attached": false,
+    "metric_or_C2_convergence_asserted": false,
+    "new_map_sampled_diagnostics": {
+      "sampled_radial_count": 1890,
+      "sampled_angle_count": 1168,
+      "metric_relative_operator_max": 5.510034452899404e-07,
+      "metric_normalized_entry_max": 5.506337267258132e-07,
+      "principal_curvature_absolute_max": 8.90688504462444,
+      "support_min": 0.6611541385874667,
+      "norm_max": 1.1857383095507412,
+      "area_factor_min": 0.2999999562680131,
+      "angular_rho_min": 0.5199999999999999,
+      "finite_values": true,
+      "immersed_at_samples": true,
+      "curvature_discriminant_min": 1.2108528222545822e-05,
+      "source_mean_oracle_comparison": {
+        "definition": "Original physical PPoly; source literal N, source GL6 position oracle, original mean velocity/acceleration",
+        "radial_samples": 35,
+        "angular": 1168,
+        "height_quadrature_order": 6,
+        "new_shared_mean_minus_source_orders_0_1_2_absolute_max": [
+          3.861910791158607e-13,
+          2.3181379038561545e-09,
+          0.00013233121443656515
+        ],
+        "same_mean_function_asserted": false
+      },
+      "sampled_budget_checks": {
+        "metric_at_most_1e_6": true,
+        "curvature_at_most_12p3": true,
+        "norm_at_most_1p34": true,
+        "support_at_least_p087": true
+      },
+      "scope": "Sampled new prefix only, before tail/end-lift; no all-angle/all-radius, reach, or full-surface assertion",
+      "phase_chart": {
+        "definition": "Shared radial two-jet quintic e(s); theta=psi-e(s)sin(3psi)/3.",
+        "exact_absolute_e_upper": {
+          "numerator": "4323455642275677",
+          "denominator": "9007199254740992",
+          "display_only": 0.4800000000000001
+        },
+        "exact_rho_lower": {
+          "numerator": "4683743612465315",
+          "denominator": "9007199254740992",
+          "display_only": 0.5199999999999999
+        },
+        "radial_spans": 944,
+        "exact_center_two_jet": true,
+        "exact_zero_cut_two_jet": true,
+        "numerical_source_chart_difference_orders_0_1_2": [
+          9.577110208210078e-15,
+          3.511374524478583e-11,
+          1.8107244581337667e-08
+        ],
+        "geometry_coefficients_changed": false,
+        "metric_reaudited_in_this_query": false
+      }
+    }
+  },
+  "all_radius_or_all_angle_certificate": false,
+  "fixed_problem_refinement": false,
+  "whole_closed_surface": false,
+  "README_completion": false,
+  "reproduction_command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py",
+    "--source-run",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "--out",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/new-prefix-c2-20261128/lambda002-m24.json"
+  ],
+  "large_arrays_stay_in_work_directory": true
+}
