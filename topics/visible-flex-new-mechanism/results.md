@@ -511,3 +511,7 @@
 ## R632：真动能幅值图和负中心导数支
 
 [完整证明](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)：唯一正幅值α准确消原动能偶端，固定κ中心负导数消冗余并覆盖该真根支，完整幅值/记忆参数链保留。65节点C²实际函数入口约257变量，仍须其余三端、完整ruling和重新支付物理盒；fine须冻结α。
+
+## R630：可显式控制的全频Morse双核中心
+
+[完整证明](results/R630-morse-double-kernel-all-frequency-center.md)给二/三双核、全整数频率j⁻²谱隙、代数travel角的k⁻³小除数界、正径向转换及保travel角的非奇异双控制。局部正区源估计保证高频共同扰动邻域；真实有限全平尾与该新背景β仍待构建。
