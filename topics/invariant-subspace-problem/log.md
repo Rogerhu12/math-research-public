@@ -67,3 +67,9 @@
 - dbe928唯一run46169312729完整实际已核；q二次头(2E+3X)(8E−Y−6X)/6，R/N两个完整同点二次式显示在正文，三原有理式的全四阶余式num−den·J∈m5及1009整性全返，不存系数缓存。
 - q第一线R/N余−215/−576，第二线2D−13C=−3X(454E+57X)，代回余487；共同切锥只有零。任意原E,Y,X正阶取最小坐标，完整≥三阶余项严格更高，故整个k4pole排除；不是固定斜率推全中心。
 - 本轮压缩log/结果索引并保完整归档。正e只剩k≠−2单位λ及k−2整位移，W另两ray/内部、Phi新四元源与Haar同列费用继续；普通ISP未完成。
+
+2026-11-29 01:21 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2100实际main、run及本轮实际pull回执已核并自动记H；正e k4pole完整原切锥排除正式保存，k≠−2时λ单位，k−2整位移余中心保。
+- d20becf/e91a全文根静核：真dual Gram的E1/EB/EC、完整N1/E3/NV来源；qs/qt两旧单位首一，先t后sigma普通除法的完整tag正确，二十列每列四坐标返回，三个事前固定adj e0无主元逆。
+- 首次120秒/1GiB外135，七真实原分子反传后才公共取消，保头零；无第一头gcd/二Q/旧门重放。新增题外workflow .github/workflows/invariant-subspace-8542-phi-second-nv-t-head-four-generator-columns.yml 仅运行本题新源，未执行前不报实际次数/单位。
+- 负e正k整对角纸稿正在全文原式核，最后正e负k对角、正e零k余中心和Haar实际双源继续；普通ISP未完成。
