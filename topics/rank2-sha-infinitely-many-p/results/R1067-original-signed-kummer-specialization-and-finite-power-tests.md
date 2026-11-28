@@ -1712,3 +1712,106 @@ $b^{1/p}dx/(x-a')^{k+1}$。无需形成公共分母的 $(p-1)$ 次幂。
 
 全部原角色、四项、高阶星号极和回到原域的标量，都包含在同一个
 $N\operatorname{rem}D$ 中。仍须证明(BL6)在无穷素数非零，或直接证明特征零原 $a_2\ne0$。
+
+## 96. 原完整倒数权的精确二型对数及其惰性首格
+
+沿用 R1073 §31 对原导子 $34\delta$ 的完整倒数张量非零证明。
+对原 $P_t$ 写
+$W_t=\varepsilon(t)X(P_t)^2\lambda_t$、$Q_t=P_t^\vee$，
+取固定有限 Galois 数域含全部数据及 $K$。在惰性好位，令算术
+Frobenius 为 $\sigma$，故 $\sigma|_K$ 为共轭。除有限多积分坏位后，
+$$
+ \mathscr U_{\sigma,p}:=\sum_t\sigma^{-1}(W_t)Y_p(Q_t)
+      \notin\overline{\mathbf Q},\qquad
+ \mathscr U_{\sigma,p}^{\,p}
+       \equiv\sum_tW_tG(\bar Q_t)\pmod p. \tag{BK1}
+$$
+按所选位嵌入代数闭包。这是原 $\nu_{20}$ 中倒数点补偿的真实全权，
+不由其超越性断言约化非零，更不删原中央的其它槽。
+
+给出实际第二种积分的线性无关依据。记 $\mathcal E$ 为 $E_1$
+的非平凡加性扩张。在 $E-\{O\}$ 上坐标为 $(P,W)$，群法的纤维坐标是
+$W+W'+R(P,P')$；在含 $O$ 而避开 $x=0$ 的另一代数开集取
+$V=W+y/x$。这两个坐标按显示的有理过渡粘合。复覆盖可写成
+$(z,b)/(\lambda,-\eta(\lambda))$，其中 $W=b+\zeta(z)$；$\zeta$
+加法定理给上述有理群法。在 $O$ 的新坐标消去唯一首极，因此群法、
+逆和结合律延伸到这两个代数开集。此扩张不分裂：一个代数截面会给出
+$E$ 上只有 $O$ 一处简单极的有理函数 $W$，违反属一
+Riemann–Roch。
+
+在 §93 的局部解析域，实际群对数为
+$$
+ \log_{\mathcal E}(P,W)=(\log_E P,\;W-Y_p(P)). \tag{BK2}
+$$
+第二分量由(BI1)可加；在 $O$，它等于
+$V-(Y_0+y/x)$，而 $Y_0+y/x=O(z^5)$。故切线基确为原代数坐标
+的基，并非另加一个未知 $p$ 进倍数。
+任一有限 $p$ 进扩张上的代数点先乘整数使底点进入形式盘。
+再取充分大的 $p$ 次幂，底点趋 $O$，第二对数分量乘 $p^k$ 趋零；
+由 $V=(W-Y_p)+(Y_0+y/x)$，纤维坐标也趋零。这证明这些点属于解析
+子群定理所需的有限对数域，并允许先取共同整数倍再除回。
+
+在代数点上，$P\mapsto[Y_p(P)]\in\mathbf C_p/\overline{\mathbf Q}$
+可加，且
+$[Y_p([\alpha]P)]=\bar\alpha[Y_p(P)]$，因为
+$Y_p([\alpha]P)-\bar\alpha Y_p(P)=K_\alpha(P)$ 是代数值。
+特殊分母消失时先加一个一般代数辅助点，再用加法式消去；
+逆点由奇性处理，取 $[Y_p(O)]=0$。挠点值由 §93 已为代数。
+于是得到线性映射
+$$
+ \overline{\mathbf Q}\otimes_{K,\mathrm{conj}}
+      (E_1(\overline{\mathbf Q})\otimes_{\mathbf Z}\mathbf Q)
+ \longrightarrow\mathbf C_p/\overline{\mathbf Q},\qquad
+ b\otimes P\longmapsto b[Y_p(P)]. \tag{BK3}
+$$
+这里平衡关系明确是 $b\otimes[\alpha]P=\bar\alpha b\otimes P$。
+
+(BK3)是单射。取 $K$ 线性无关的有限组实际代数点 $A_1,\ldots,A_r$，
+考虑 $\mathcal E^r\times\mathbf G_a$ 的代数点
+$\gamma=((A_j,0)_j,1)$。其任何非零整数倍的投影在 $E^r$ 上
+生成 Zariski 稠密子群；否则 Poincaré 完全可约性给出非零
+$K$ 线性点关系。
+
+先证明任一连通代数子群 $J\subset\mathcal E^r$ 若映满 $E^r$，
+便为全群。令 $V_0=J\cap\mathbf G_a^r$。特征零加性群的代数
+子群为向量子空间，故模掉 $V_0$ 后，$J/V_0\to E^r$ 无核而
+满射，给商扩张的分裂截面。若 $V_0$ 非满，取消去它的非零
+加性线性式，推前得一个分裂的一维加性扩张；再限制到系数非零的
+某个 $E$ 坐标，就使 $\mathcal E$ 的非零标量推前分裂，矛盾。
+所以 $J=\mathcal E^r$。
+
+又 $\operatorname{Hom}(\mathcal E,\mathbf G_a)=0$：同态若在加性核
+上非零，除以该标量即给核的收缩，从而使扩张分裂；若在核上为零，
+便经完全曲线 $E$ 分解，只能为零。故
+$\operatorname{Hom}(\mathcal E^r,\mathbf G_a)=0$。
+若 $\mathcal E^r\times\mathbf G_a$ 的连通子群含某个 $N\gamma$，
+$N\ne0$，其在 $\mathcal E^r$ 上的像由上段为全群。它与最后
+$\mathbf G_a$ 的核若为零，便是零同态的图，与最后坐标 $N\ne0$
+矛盾；若非零则核为全部 $\mathbf G_a$。所以该子群必为全群。
+
+现在若 $\sum b_jY_p(A_j)=a$，其中 $a,b_j$ 代数、并非全部
+$b_j=0$，则(BK2)使 $\log\gamma$ 落在一个真代数线性超平面。
+其最后坐标为一，所以对数非零。Fuchs–Pham 的一般交换代数群
+$p$ 进解析子群定理给一个包含 $\gamma$ 的正维代数子群，且其
+Lie 代数包含于该超平面。取单位分支并用某个非零整数倍消去有限
+分支后，与上一段矛盾。任一有限张量都可取 $K$ 基并清点的有理
+分母，故得到(BK3)的单射。
+
+最后，R1073 §31 已证明每一 $\mu_6$ 轨代表上的实际 $W_t$
+在 $K$ 上线性无关，每个 $Q_t$ 非挠。$\sigma^{-1}$ 保持这种
+无关性。轨上
+$W_{ut}=\pm u^{-2}W_t$、$Q_{ut}=\pm[u^2]Q_t$，
+符号相同；因 $\sigma$ 在 $K$ 上为共轭，(BK3)的平衡关系使
+$\sigma^{-1}(W_{ut})\otimes Q_{ut}$
+与 $\sigma^{-1}(W_t)\otimes Q_t$ 相同。故六项同向，全张量非零。
+应用单射得(BK1)首式；(BI2)以及
+$\sigma^{-1}(W_t)^p\equiv W_t$ 给第二式。
+
+外部输入是 C. Fuchs–D. H. Pham,
+*Some applications of the p-adic analytic subgroup theorem*,
+Glasnik Matematički 51(71) (2016), 335–343，
+**Theorem 1.1** 的一般交换代数群陈述；
+[原刊全文](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)。
+不是只适用于一型椭圆对数的 Theorem 2.1。上面的扩张、对数域、
+子群稠密性和共轭标量方向均已在原模型中支付。此处没有把 $p$ 进
+系数视作代数权，也没有从非代数值推断模 $p$ 单位。

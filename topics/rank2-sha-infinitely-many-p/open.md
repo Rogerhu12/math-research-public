@@ -125,3 +125,7 @@
 ### R1067 §95：原完整四槽的一元有理余式公式
 
 已证明：在原E₁上仅选一对真实标记，用有限奇喷流匹配和全局Cartier将完整BG9写成负二倍N rem D的顶次系数；保所有混项，显式分母次数≤6p²+12p+880，并区分一般分裂扩域与额外复共轭子列。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §96：原完整倒数权的二型对数非代数性
+
+已证明：在实际非平凡加性扩张中确定第二种积分为代数切线基的群对数；用一般p进解析子群定理证明共轭K平衡张量映射单射，给真实全驯倒数权二型母量非代数及其精确惰性首格，未将超越性充当模p非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
