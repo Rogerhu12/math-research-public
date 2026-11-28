@@ -482,3 +482,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 04:16:10 UTC — 19实际N失败与官方终态分开保全
 
 N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report，唯一summary_error缺report；无实际trace不猜原因。原38词/900s/32stage/1024角全budget执行，原science/pure0与N1不同层。索引04:00:37budget checkpoint，官方04:00:47completed/success；完整官方run/jobs/失败对象/末pull及96434B前卷全身份保新续卷，不停止研究或跨run迁raw。移除仅已官方终态19槽，继续源码链和真实后继。双README云核至`b8dd77a83797e490e97fb989a71ccf52963d1e70`无变（非pull）。
+
+## 2026-11-28 04:25:07 UTC — 26初始六约束与真实曲率热点返回
+
+26初始六g实返，reachg.006249035762618371、distplus.13346402986277572，K8.096406380355797/Dlower4.109844083356359；cell886/u.8306046932331322/phiπ/2/branch1/s=null。accepted0，7722d仅alpha1/restoration trial-start；未达标，不继旧模型证书。open§1–6原23359B/SHA1be136a8原字保，§7先前全部措辞保8c991固定原件。04:17真实重置仅一次executor探测失败，非pull。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`c931b7faabb17c80bb4eb2305f2ed0905401f101`无变（非pull）。

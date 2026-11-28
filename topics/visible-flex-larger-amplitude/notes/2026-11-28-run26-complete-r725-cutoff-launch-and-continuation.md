@@ -800,3 +800,190 @@ R725实际driver e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337c
   }
 ]
 ```
+
+## 2026-11-28 04:25:07 UTC — 26初始六约束与真实曲率热点返回
+
+新R725实际model、initial/current完整身份如下，accepted仍为0。六g已完整返回：reach与正向位移两项仍正，最大违约来自正向位移；K为本次工作几何的真实读数，不是全连续准确界。相较25初始K下降只对应真实不同模型，不作wholeK单调或同场结论。s实际null，不借25或其他点补值。7722d为新alpha1/restoration试步，截至04:11:04仅trial-start，无统计/几何/接受。全部原缺项和源身份照保。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-r725-bhalf-first-20261128",
+  "scientific_source_commit": "12b76b81c33069a5b657c8d1c75af0b34a97b71d",
+  "scientific_source_sha256": "0673232700619911d4ab3c8fbe36c579bb52dc19f4e4e27eb84aa8e7ff7ff734",
+  "pid": 3811,
+  "observations": {
+    "fixed-fejer-r725-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 04:11:01 UTC",
+      "point": "7722d536f93599ca6d875f2edcae051549ba27b1cda62cb4525931d3cf84d2cd",
+      "cached_angle_roots": 496,
+      "closure_original_returns": 22579,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T03:59:13.293914+00:00",
+      "math_event": "trial-start",
+      "math_driver": "e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd",
+      "math_model": "4a7e828baef2c9ddb07909fbfb7635e222d5fdb65f2621e00fb57254a8cee423",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 589.1634908944277,
+      "initial_Gram": 0.4163254155597059,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.13346402986277572,
+      "initial_geometry_complete": true,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 589.1634908944277,
+      "current_Gram": 0.4163254155597059,
+      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_violation": 0.13346402986277572,
+      "current_geometry_complete": true,
+      "current_state": "initial statistics returned; no accepted direction",
+      "trial_point": "7722d536f93599ca6d875f2edcae051549ba27b1cda62cb4525931d3cf84d2cd",
+      "trial_accepted": null,
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.006249035762618371,
+      "current_g_body_diameter": -0.04155802829614452,
+      "current_g_distance_plus": 0.13346402986277572,
+      "current_g_distance_minus": -3.0936337267043594,
+      "current_g_cap_diameter": -0.06715131487906445,
+      "current_g_height_floor": -1.0411715967426867,
+      "current_K": 8.096406380355797,
+      "current_D_point_lower": 4.109844083356359,
+      "current_K_cell": 886,
+      "current_K_u": 0.8306046932331322,
+      "current_K_phi": 1.5707963267948966,
+      "current_K_branch": 1,
+      "current_K_s": null,
+      "trial_alpha": 1,
+      "trial_phase": "restoration",
+      "current_distance_plus_phi": 1.5707963267948966
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-r725-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3352,
+      "sha256": "d0a65ebf7151bb164f025b7e593bf811ab9961fdf2fe7a62a8deea63d64d2dfa",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 7905,
+      "sha256": "47e321b68c23e4432c46e138c2a6149a674b56f7b16e332aae4f0fb8ccc4d127",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.actual_positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.geometry.maximum_physical_families",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.maximum_absolute_principal_curvature",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.cell",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.u",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.branch",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.s",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "410412b4b853c4c1d803e2012494a753ea876699cd5e4af7024346797ce5c27f",
+  "observed_utc": "2026-11-28T04:11:04Z"
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1.md",
+    "bytes": 42979,
+    "sha256": "88006c93c827b1bf230cd488a9b305808dc99e945a8b44f616f3383f7173a3cd",
+    "git_blob_sha": "d99472fb006f23fa83bbc4ceba5c19bbc11f6e18",
+    "fixed_commit": "337cd41922aac5dbec0359f0bee6ccf2a282455a",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
