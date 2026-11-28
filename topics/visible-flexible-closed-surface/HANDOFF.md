@@ -34,7 +34,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-<!-- 2ecf-live-stadium --> [p32 全空间 702 维在 280 新圈上的八次接受](notes/2026-11-28-2ecf-stadium-unrestricted-702-eight-updates-on-280-rings.md)，保留全部 4291840 原行和完整非对称增量。 全原 G10 与 89600 新点共同接受八步，独立 G11 metric .09851339→.09575143，曲率 11.74985。
+<!-- 2ecf-live-stadium --> [p32 首次完整双侧切球直接修形和独立整闭平核复查](notes/2026-11-28-2ecf-stadium-direct-closed-pair-optimization-and-shifted-observation.md)，给全部系数、导数对照及 G11。 p32 首个全闭平核双法球实位置96步，独立96386点近9000万有序近对，真抽样最小 .07788968→.08166392。
 
 <!-- 2ecf-r285-loop --> [R285](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md) 支付真实全尾到中央的非刚性二次模闭合。回路总高可调，小幅真实图误差为正二次量，消去该项及强尺寸指标仍待。
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:14:56 UTC；已读公开 main `a3e4b8539bb87a8dd1f1b69dfb21b5097eeb360c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:15:27 UTC；已读公开 main `33903089f2ac51aac852c3c51c257035a6f77271`，根/课题 README 逐差无变化。
