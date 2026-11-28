@@ -91,6 +91,7 @@ def publish(summary):
             if not paths.issubset({HANDOFF,note}) or git("rev-list","--count",base+"..HEAD").stdout.strip()!=b"1":
                 raise ValueError("unrelated local commits or files")
         Path(HANDOFF).write_bytes(new_h)
+        Path(note).parent.mkdir(parents=True,exist_ok=True)
         Path(note).write_bytes(report)
         git("add","--",HANDOFF,note)
         rc=git("diff","--cached","--quiet",check=False).returncode

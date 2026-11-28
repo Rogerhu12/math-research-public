@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R742（已证明并已实际全域采样，倾镜闭初场与物理柄）**：[完整倾镜闭合、两端jet与真实转向缺口](results/R742-tilted-closed-shoulders-variable-physical-handles-and-original-two-jets.md) — 两有限γ及左柄0… .14保闭C²嵌入、D<2.64/held≥.557/grip≥.60/δE>0与触握盘.08球；原小柄有严格K>20。原13设计三层[完整实测](notes/r742-actual-two-jet-46143141044-1.json)已全返，左峰降至10.7892/12.1460但右峰2090.2433/1789.5809未变；publisher缺目录故障由原完整日志恢复，无科学重跑。中肩同g与全reach仍待解。
+
 - **R741（已证明，完整环叶规范与自由径向的同g方程）**：[真弧长角、Killing场与固定Haar度量](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md) — 完整两角方程E⊥径向/B=0、三Gram、双端二jet和全部正反变分；允许径向重标的Killing残差对全时固定目标给(1+δ)e^{Tε}−1。反射且W>0时无径向holonomy，周期归一得真圆作用，Haar平均定义一个精确固定g*，后继同g*缺陷δ对每相位不放大。均为明确条件定理，不保证实际解或reach；37用固定环叶法，38继续真实自由径向求解。
 
 - **R740（已证明，有限弯盘的完整闭合几何初场）**：[两种闭肩、整像位移与实际曲率缺口](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md) — 两套每相位闭C²嵌入，固定握盘diam≥.60、全像半转held≥.564、整像D<2.60及含反射欧氏商正；任一点触握盘的有序对全像两向.08法球。原滚肩末环K>40明确不达厚度，替换偏心椭圆的正宽终端柱有R_b/1.01两向球。完整积分生成器已刊；中肩Gram真实角依赖及其余全reach仍未付，不冒同g族或沿用36不同场的读数。

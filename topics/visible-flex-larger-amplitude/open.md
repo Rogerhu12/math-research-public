@@ -124,7 +124,7 @@ R724–733及735–739全部证明/准确源参保[索引](results.md)及固定�
 [R740](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md)两完整闭C²初场每相位嵌入，D<2.60/held≥.564/grip≥.60/δE>0，触握盘全部有序对.08球。滚肩末环K>40失败；椭圆正宽末柱R_b/1.01球不付中肩全reach/角Gram。完整积分生成器可用，独立36/37实际场。
 [R741](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md)完整环叶E⊥/B方程、双端二jet/全变分、自由径向Killing全时误差与反射W>0的无holonomy圆作用已证；Haar给一个精确冻结g*，后继δ全相位不放大。37固定叶法已跑、38真实Killing/形状求解继续；准确flow/全误差/全reach仍待付。
 
-[R742完整物理读出](notes/2026-11-28-R742-complete-physical-sixjet-launch.md)：非投影原场的13有限设计×三层×A/B/末墙全六jet，真实K/support/环叶两缺陷；源参和公开运行已备，实际待查。初场或样本不冒全同g/全时reach。
+[R742](results/R742-tilted-closed-shoulders-variable-physical-handles-and-original-two-jets.md)两倾镜与0… .14左柄保闭嵌入/D<2.64/held≥.557/grip≥.60；[13设计全实际](notes/2026-11-28-R742-complete-physical-sixjet-launch.md)原run46143141044科学success、发布故障由原log补救，左峰已降但右峰2090.24/1789.58未变。完整同g/全reach未付，继续右形状和Killing。
 
 ### 准确费用、完整下游与未付标准
 
