@@ -1,5 +1,6 @@
 {
-  "schema": "isp-second-kernel-Schur-rank2-790-root-actual-v1",
+  "schema": "isp-small-original-second-kernel-schur-receipt-v1",
+  "date": "2026-11-28 Asia/Taipei",
   "run_id": 46098274233,
   "job_id": 140834619712,
   "execution": {
@@ -30,150 +31,56 @@
     "stdout_sha256": "8c7d4e76d9dd30510bf8f0b641898982a3aca9c62308a9ea88e5cbec593ed1b6",
     "stop_reason": null
   },
-  "records": [
+  "result": {
+    "rank": 2,
+    "originalQQ_u_degree_lower_bound": 789,
+    "originalQQ_u_degree_upper_bound": 790,
+    "infinity_order_lower_bound": 12,
+    "remaining_degree_gap": 1,
+    "new5MinorRows": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "new5MinorColumns": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "new5AdjugateReturns": 50,
+    "newKernelReturns": 48,
+    "transportedKernelReturns": 48,
+    "firstJetZeroReturns": 9,
+    "newRankTransformReturns": 9,
+    "allExactPolynomialDivisionReturns": 5272,
+    "QQ789DegreePreservationProved": false,
+    "wholeH42Retained": true,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "hashes": [
     {
       "highestMatrixSHA256": "bcbe7bcc2e9a4962af80c1504041aa330edb4903278343f868a46e5d43711b8a",
       "firstJetMatrixSHA256": "8c92933a1c8cafa20e3386dfa469aecc48e75ff4b48c591540d01e6e8a46d42a",
       "secondJetMatrixSHA256": "91fb294f8164048123a43cee1e77c9da17aaccb7791d8b634451d958e0f553b8",
-      "secondJetMaxQDegree": 11,
-      "fixedAlreadyPaidMinorRows": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        9,
-        10,
-        11,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "fixedAlreadyPaidMinorColumns": [
-        0,
-        1,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        12,
-        13,
-        17,
-        18,
-        19,
-        20
-      ],
-      "noOldRankOrPointSelectionRepeated": true,
-      "stage": "new_actual_original22_second_jet_definition",
-      "seconds": 9.550095108999997
+      "stage": "new_actual_original22_second_jet_definition"
     },
     {
-      "original14MinorScalarDegree": 72,
-      "firstSchurKernelMinorRows": [
-        1,
-        2,
-        3,
-        4,
-        7
-      ],
-      "firstSchurKernelMinorColumns": [
-        1,
-        2,
-        5,
-        6,
-        7
-      ],
-      "new5MinorSelectionSamples": [
-        {
-          "Q": 2,
-          "minorRowsFound": 5
-        }
-      ],
-      "new5MinorScalarDegree": 9,
-      "new5AdjugateProductReturns": 50,
-      "new3KernelCoordinateReturns": 48,
-      "transportedOriginal8KernelCoordinateReturns": 48,
-      "firstJetOnRemaining3KernelZeroReturns": 9,
-      "fullRankWitness": "both new complement3 blocks are Delta2*I3; all scales nonzero",
       "secondJetMatrixSHA256": "91fb294f8164048123a43cee1e77c9da17aaccb7791d8b634451d958e0f553b8",
       "new3LeftKernelSHA256": "1bf7abfb7fbe8f8d728132791be62f22aa8428b84ce641187bcbb80677d9934b",
       "new3RightKernelSHA256": "d80c62c3c25708e3525730a9862942950828a87653b62a395a3c5ddbdca48553",
       "fullInverseCorrectionMatrixSHA256": "967467b955c49f778129ea6ddb8adfe06b067a86a0d075b48aa40882f95840f3",
       "correctedSecond3MatrixSHA256": "4aacdbb9a20536e2ce661f87f1b713267fed2de3a4bd982eb7195788fe08ea75",
-      "correctedSecond3MaxQDegree": 251,
-      "allKernelScalesOnlyQQQNotPhysicalUnits": true,
-      "noOld8RankOrOriginal22RankRepeated": true,
-      "stage": "new_complete_second_kernel_and_inverse_corrected_three_matrix",
-      "seconds": 9.834619062999991
+      "stage": "new_complete_second_kernel_and_inverse_corrected_three_matrix"
     },
     {
-      "correctedSecondKernelRankOverQQQ": 2,
-      "secondKernelContentDivisions": [
-        {
-          "axis": "row",
-          "index": 1,
-          "degree": 246
-        },
-        {
-          "axis": "row",
-          "index": 2,
-          "degree": 244
-        },
-        {
-          "axis": "column",
-          "index": 0,
-          "degree": 3
-        },
-        {
-          "axis": "column",
-          "index": 2,
-          "degree": 4
-        }
-      ],
-      "rankMatrixMaxQDegree": 2,
-      "whole3RankTransformationReturns": 9,
-      "new3RankPivots": [
-        {
-          "row": 0,
-          "column": 0,
-          "pivotQDegree": 1
-        },
-        {
-          "row": 1,
-          "column": 1,
-          "pivotQDegree": 2
-        }
-      ],
-      "totalExactPolynomialDivisionReturns": 5272,
-      "previouslyPaidHighestRank": 14,
-      "previouslyPaidFirstSchurRank": 5,
-      "determinantInfinityOrderLowerBound": 12,
-      "improvedGlobalQQ_uDegreeUpperBound": 790,
-      "alreadyPaidOriginalModularDegree": 789,
-      "alreadyPaidOriginalModularLeadingCoefficient": 790,
-      "exactQQDegree789AndQ2p1009PreservationProved": false,
       "originalFixed22SourceSHA256": "043ffc06d0a48f804111ff35cbfee0922fe9a69c87c414f75099b8413cf4b53e",
       "alreadyPaidOriginalModularPolynomialSHA256": "2b40bf98b99fb097b4d24d3d1f21291b782a2dc0678f756838fe2789343e192b",
-      "noOriginalModularDeterminantOrOldRankGateRepeated": true,
-      "noPhysicalQZeroFiberRemoved": true,
-      "wholeH42ZeroRetained": true,
-      "wholePhiExcluded": false,
-      "ordinaryISPClaim": false,
-      "noRecomputableMatrixOrPolynomialPayloadSaved": true,
-      "peakRSSKiB": 67032,
-      "stage": "new_actual_second_kernel_Schur_rank_and_original_degree",
-      "seconds": 9.838194811999998
+      "stage": "new_actual_second_kernel_Schur_rank_and_original_degree"
     }
-  ],
-  "conclusions": {
-    "QQ_u_degree_lower": 789,
-    "QQ_u_degree_upper": 790,
-    "degree789_preservation_proved": false,
-    "wholePhiExcluded": false
-  }
+  ]
 }

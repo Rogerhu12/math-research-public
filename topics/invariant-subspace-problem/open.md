@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi790-first-whole-H42-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-positive-flat-Phi790-H42-finite-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-[原Haar全旗/稳定闭根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)、Walsh/Julia/有限pair与[全部有限头根图](results/R12-appendix-all-finite-haar-head-root-graphs-half-weak-limit-and-strong-zero.md)已付：任意分支Π_L WOT→I/2，随动强图仅0，含D^[L]/高度子列；有限吸收强图路线闭。[同P最大稳定根](results/R12-appendix-same-flat-denominator-maximal-stable-root-and-all-flag-cores.md)给交换Y²=CP²的闭稳定商；特定R267分母给RanP图核心/唯一性/原旗闭图。实际Y仍未构造，继续flat同源二次式；不排一般原根或未知旗。
+[原Haar全旗/稳定闭根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)、Walsh/Julia/pair与[全有限头根图](results/R12-appendix-all-finite-haar-head-root-graphs-half-weak-limit-and-strong-zero.md)已付WOT→I/2、随动强图仅0；有限吸收路线闭。[同P最大稳定根](results/R12-appendix-same-flat-denominator-maximal-stable-root-and-all-flag-cores.md)付真实二次式的闭域/图核心/唯一性/原旗返回。[新正锥flat分母](results/R267-appendix-positivity-preserving-common-powers-and-no-compact-domination.md)及全部C^−rP⁺有真实正系数强积、强单位；高位comm预算排其全部非零紧支配。继续Y²=C(P⁺)²的实际有界分子；不由整数逆/正锥/平坦性付Y，不排一般闭根。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2/例外≤798及[规范维数≤1](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)已成。84d真9.916448275秒/0：完整逆修正的二阶3核秩2，原22的QQ u度789至790；Q≤512/总≤1001，余一阶续完整三阶标量，非零须承认真度790/旧点降次。0177整H42首次120秒/1GiB：固定12原结式G付DG∈I10，首个仅按输入单位选的真H42模点返Bézout/非零det才付有限交；全H19零纤维与物理D0/余最高支保留。
+[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及[规范维数≤1](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)已成。[二阶核秩2/790上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：84d真9.916448275秒/0，原22的QQ u度789至790，Q≤512/总≤1001。续完整三阶标量，非零则真790/旧模点降次。0177真3.403564485秒/0，固定12原G总度≤554且DG∈I10；H42首点(3,175)/p1009真gcd1/12det311，整H42权点≤23268。固定权上的λ余纤维、全H19零纤维、物理D0/余最高支均保留。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
