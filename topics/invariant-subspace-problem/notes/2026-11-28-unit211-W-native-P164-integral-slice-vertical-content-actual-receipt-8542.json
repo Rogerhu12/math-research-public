@@ -1,0 +1,181 @@
+{
+  "schema": "isp-W-native-P164-integral-and-vertical-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "run_id": 46092123344,
+  "job_id": 140815214435,
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-native-P164-fixed-integral-slice-and-original-vertical-content-8542.py",
+  "budget": {
+    "seconds": 180,
+    "address_space_gib": 4
+  },
+  "driver": {
+    "elapsed_seconds": 11.412102490999999,
+    "max_child_rss_kib": 89448,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "68a7f9237a3ef469db4f3770e1660c69e4b94584",
+        "before": "68a7f9237a3ef469db4f3770e1660c69e4b94584",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T01:15:06.479019+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46092123344",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "68a7f9237a3ef469db4f3770e1660c69e4b94584",
+    "source_exit_code": 0,
+    "source_git_blob": "e4bcc72b92cf5dfc27fd09212955b2b3d9b92eac",
+    "source_sha256": "f99bfbb7612bf53d9f9326b76d6d6f210be5a342d6c513cc96cb9ebbf786bab3",
+    "stdout_bytes": 10310,
+    "stdout_sha256": "29a564f4edc384bf4fcc2b146e26933ea2c76d5956e2e7917d0476422438ac94",
+    "stop_reason": null
+  },
+  "integral_model": {
+    "fixed_prime": 1009,
+    "fixed_k": 3,
+    "all_matrix_coefficients_p_integral": true,
+    "coefficient_checks": 40752,
+    "all_paid_atom_slices_nonzero": true,
+    "bareiss_products": 55,
+    "det": {
+      "degree": 195,
+      "bytes": 758,
+      "sha256": "0179d02b56ccce48191cc508b74dee78fadccc9fee71bdcc46e84c51f215f62c"
+    },
+    "removed": {
+      "degree": 98,
+      "bytes": 363,
+      "sha256": "b89d705ed585c00665c43a7b49964106d4b401e75bb29ec1ff6ac2c2a018825a"
+    },
+    "remaining_monic": {
+      "degree": 97,
+      "bytes": 380,
+      "sha256": "ebe334f55739f723b57d093e4b990bdf53e2be2b05758edce7324d98ab5c7b93"
+    },
+    "exact_true_P_specialization_certified": true
+  },
+  "QQ_slices": [
+    {
+      "fixed_e": 2,
+      "definition": {
+        "degree": 268,
+        "bytes": 28797,
+        "sha256": "b19b6f4920f3f2471a7e855fccf28bff97337fc253c1ece0307acea746a92b9d"
+      },
+      "exact_Bareiss_products": 55,
+      "seconds": 11.069674239999998
+    },
+    {
+      "fixed_e": 3,
+      "definition": {
+        "degree": 268,
+        "bytes": 31546,
+        "sha256": "08c73a49e29496c3efc33a6a0f566672b57b400c5b344e0d9501b9653d5cc10b"
+      },
+      "exact_Bareiss_products": 55,
+      "seconds": 11.193140655999997
+    },
+    {
+      "fixed_e": 5,
+      "definition": {
+        "degree": 268,
+        "bytes": 40737,
+        "sha256": "4ba89e397b07fdc81fb3cfc679cef6063db7e18330031df662a8ae51331c6b0f"
+      },
+      "exact_Bareiss_products": 55,
+      "seconds": 11.325463962999997
+    }
+  ],
+  "vertical_common_support": {
+    "common_paid_QQ_divisor": {
+      "degree": 27,
+      "bytes": 295,
+      "sha256": "ba6231e4cbc908d066534aa960914f46bdcde61dedc485676555f4d14b1c20db"
+    },
+    "all_three_QQ_quotients": [
+      {
+        "zero": false,
+        "rationalPValuation": 0,
+        "allScaledCoefficientsPIntegral": true,
+        "scaledPolynomialPPrimitive": true,
+        "degreePreserved": true,
+        "QQDefinition": {
+          "degree": 241,
+          "bytes": 25317,
+          "sha256": "d81ecf752c13de07056113e61466c86a4900a2da5c8138ce7aad35533e0d3f3f"
+        },
+        "modDefinition": {
+          "degree": 241,
+          "bytes": 954,
+          "sha256": "715b26cf76826be5c2a7a136536c6050370b97b32ac7dbe7fb51664f4a7f3aff"
+        }
+      },
+      {
+        "zero": false,
+        "rationalPValuation": 0,
+        "allScaledCoefficientsPIntegral": true,
+        "scaledPolynomialPPrimitive": true,
+        "degreePreserved": true,
+        "QQDefinition": {
+          "degree": 241,
+          "bytes": 28419,
+          "sha256": "05f516e441feafd6635d424d15a7cd9041046f98a93853608a227dd27b78ec2f"
+        },
+        "modDefinition": {
+          "degree": 241,
+          "bytes": 944,
+          "sha256": "02c58837c1d953c35d684791e91a1fd14f05fc92c5d51ca6c279cb4de018c3a2"
+        }
+      },
+      {
+        "zero": false,
+        "rationalPValuation": 0,
+        "allScaledCoefficientsPIntegral": true,
+        "scaledPolynomialPPrimitive": true,
+        "degreePreserved": true,
+        "QQDefinition": {
+          "degree": 241,
+          "bytes": 36848,
+          "sha256": "b24e474fbbdf8da5860a8db15bb7d5a2cce4badb2724a3aacd9a22aeeb8fd947"
+        },
+        "modDefinition": {
+          "degree": 241,
+          "bytes": 952,
+          "sha256": "aebc41fe75071699c636010b5f547375d592d4708792e0409197ba4d216bb963"
+        }
+      }
+    ],
+    "three_term_mod_Bezout": {
+      "bytes": 1885,
+      "sha256": "b7b88992aaadb260a39fff256719b5a893f97903d28f89bf867db753c4b52198"
+    },
+    "Bézout_value": 1,
+    "all_quotient_k_degrees_preserved": true,
+    "all_QQ_common_vertical_divisors_originally_paid": true,
+    "P_no_nonconstant_QQ_pure_k_content": true
+  },
+  "local_model": {
+    "base": "Z_(1009)[k]_(1009,k-3)",
+    "P_hat_monic_e_degree": 97,
+    "finite_free_environment_rank": 97,
+    "P_multiplicities_retained": true,
+    "original_quotient_freeness_claim": false,
+    "rank582_next_model_not_yet_run": true
+  },
+  "scope": {
+    "no_entire_W_exclusion": true,
+    "no_P_irreducibility_or_squarefree_claim": true,
+    "no_multivariate_modular_emptiness_lift": true,
+    "no_extra_prime_k_or_e_scan": true,
+    "no_old_gate_replayed": true,
+    "no_recomputable_coefficients_encoded_split_or_saved": true,
+    "ordinary_ISP_claim": false
+  }
+}
