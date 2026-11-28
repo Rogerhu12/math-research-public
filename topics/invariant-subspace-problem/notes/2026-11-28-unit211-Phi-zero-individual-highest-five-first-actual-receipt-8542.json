@@ -1,0 +1,214 @@
+{
+  "elapsed_seconds": 5.5321773889999974,
+  "max_child_rss_kib": 63092,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "e37f1aa01136e8aaa89f630be1828d360ea0e5f0",
+      "before": "e37f1aa01136e8aaa89f630be1828d360ea0e5f0",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T03:39:30.972844+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46103882263",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "e37f1aa01136e8aaa89f630be1828d360ea0e5f0",
+  "source_exit_code": 0,
+  "source_git_blob": "8a0721538429165b3367df6529235f8b960325a7",
+  "source_sha256": "375e0cedd5c2d676a0e61af86b27dc62b102171b6b9d41322cec1cdec456a1c9",
+  "stdout_bytes": 8980,
+  "stdout_sha256": "0737b22ee847eda04f59ec6b33a4bcdff3a20227ab3ebf9400dbad01b1f74df2",
+  "stop_reason": null,
+  "job_id": 140852193366,
+  "new_mathematics": [
+    {
+      "completeOriginalGramConstructed": true,
+      "originalTraceAndF2ProductsReturned": true,
+      "completeBCEquivarianceReturned": true,
+      "originalMeanNeverReplacedByZero": true,
+      "actualFullOriginalValueDefinitions": [
+        "Nlow",
+        "Plow",
+        "D*N4(V0)+K*N4_bilinear(V0,V1)/(2m)+D^2*N4(V1)/M"
+      ],
+      "genuinePolarizationNeededForCrossDegree": true,
+      "exactHighestDegrees": [
+        5,
+        5,
+        5
+      ],
+      "actualExplicitHighestProductsReturned": true,
+      "noPhysicalDOrHighestD2Inverse": true,
+      "gradedFunctorOperationCount": 3445,
+      "noOldHighestNVUnitOrCoefficientIdealGateReplayed": true,
+      "stage": "new_actual_individual_original_NP_and_full_V_highest_input",
+      "seconds": 0.7011837619999994
+    },
+    {
+      "sourceSHA256": "375e0cedd5c2d676a0e61af86b27dc62b102171b6b9d41322cec1cdec456a1c9",
+      "activeOriginalRows": [
+        "original_Nlow_degree5",
+        "original_Plow_degree5",
+        "entire_original_Vlow_degree5"
+      ],
+      "selectedIndices": [
+        0,
+        1,
+        2
+      ],
+      "allEightSourceThreeCoefficientProductsReturned": true,
+      "finalWeightDenominator": {
+        "degrees": [
+          91,
+          59,
+          0,
+          0,
+          0
+        ],
+        "terms": 3432,
+        "bytes": 210017,
+        "sha256": "34a036dbdaa19d243e20bc2033a21121c52818cbae94188fb00314c006a2eeba"
+      },
+      "finalOriginalMultipliers": [
+        {
+          "degrees": [
+            87,
+            58,
+            0,
+            0,
+            0
+          ],
+          "terms": 3113,
+          "bytes": 185792,
+          "sha256": "e195a0cc22dad04de89fb57d25d847028ccefc8e64586b47e661452e7daa69cb"
+        },
+        {
+          "degrees": [
+            88,
+            58,
+            0,
+            0,
+            0
+          ],
+          "terms": 3127,
+          "bytes": 186219,
+          "sha256": "7e474ef009d771b60af918cd08c0fb7fccd3ed356cdfe417c98fb4fb1d2bd6cd"
+        },
+        {
+          "degrees": [
+            87,
+            58,
+            0,
+            0,
+            0
+          ],
+          "terms": 3156,
+          "bytes": 190048,
+          "sha256": "7d85928491f4344daa9d10e8cdd27edcd53ec5d1a40cd9650e5bf3aa8ee39577"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "retainedEntireFinalWeightCover": {
+        "degrees": [
+          89,
+          58,
+          0,
+          0,
+          0
+        ],
+        "terms": 3312,
+        "bytes": 200302,
+        "sha256": "28ff68763c780b9fa6cc018ffd43e5feb12bcd5b1f0b9eed9cd9c71ccf35c9f8"
+      },
+      "removedOnlyPaidWeights": [
+        {
+          "unit": "ell",
+          "passes": 1
+        }
+      ],
+      "exactOriginalWeightIdentity": "C*e0=sum(beta_i*highest(original_i))",
+      "actualFullFilteredLift": "sum(beta_i*lambda^(N-grade_i)*original_row_i)",
+      "liftDegree": 5,
+      "strictLowerLambdaDegreeBounds": [
+        4,
+        3,
+        3
+      ],
+      "monicLambdaPolynomialOnlyOnCoverComplementDegree": 15,
+      "sameOriginalMeanModuleGeneratorsOnlyOnCoverComplement": 15,
+      "allFinalWeightZeroFibresRetained": true,
+      "noNewWeightUnitAssumed": true,
+      "noAllWeightsFiniteOrWholePhiExclusionClaim": true,
+      "coefficientPayloadSaved": false,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 63092,
+      "stage": "new_original_individual_highest_final_weight_cover_and_filtered_lift",
+      "seconds": 5.497937406999995
+    }
+  ]
+}
