@@ -181,3 +181,7 @@
 ### R1067 §106：真实全局六行零分离原微分五个野系数
 
 已证明：付六次扭转、原周期/CRT/Kato十二倍规范后，通常全Sha无限在每个惰性p迫任意野方向的原迹低窗零。随h^(p−1)的二/三次多项式分别给B₂、B₃、B_{p+1}、B_{p+2}、B_{2p+1}单独零；每个BD1行内全部H混项仍保留，尚不等价全曲率零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §107：六个原混合权生成空间的准确最小支撑
+
+已证明：自由原标号源的六个二次权及全部群环倍恰为a⁻¹P(x,y)的六维理想，最小支撑(p²−1)(p²−2p)，整数迹行是(p²−p)(p²−2p)。固定短列表独立不能仅凭这些形式倍排除六行同时零；实际M几何核未被错误限制。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
