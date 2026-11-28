@@ -48,7 +48,6 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 并行35规则核查：2026-11-28 16:57:44 UTC，真实pull至`e29e4af88e6769456127b4cfa39b60f56516bf99`，双README无变化。 官方取消/原阶段未返，见35 ownnote。
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull b7ab972304374686be43221df548dc0703548f93
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 2f4679455085d7b3f651b139b1f8a1849062c5f9
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull c91033f022b69f0d022a7955951346d8717bb0c2
 
@@ -67,3 +66,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。
 <!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull 6ad9f9132c197496df8f9ee8759c57cef4c72b2c
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull d09dafc9106ba02b6d6f47a9f2be699f56f29cf4
