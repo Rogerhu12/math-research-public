@@ -193,3 +193,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:13:40 UTC — R729 全行 common-slack 对偶及可行恢复证明
 
 新增完整[R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)16278B/88ff7f/73102。沿用R683已证全行KKT，新增严格同号slack列β>0给非负正象限二次强制有界、紧level set、无限准确循环坐标收敛和唯一原始极限；逐全部行slack恢复、可行原始上界/合法对偶下界/gap与H范数误差、正行缩放对应、完整列流式构造均完整证明。真实动机只归25首恢复QP：2advance、dependent_blocker_at_zero_step、Pg .529460169023458、tol5.305849371949155e−7，原213+1行；阻挡行/原因未知不补、4次全QP状态不臆推。明确原μ²增广范数、外层原全几何/预算保；有限64轮和浮点证书未付，不混31或活子进程。双README云核至`f9105800aa194202fd36e9b083a43281c87ce084`无变（非pull）。
+
+## 2026-11-28 07:14:47 UTC — RET79 三早期终态Actions完整来源保留
+
+只退44748103105/44758209061/44772201880七旧整索引/分卷301981B；新增全源参40473B/实际来源84839B/完整说明10911B/总表5745B，净160013B。108原实际阶段、24整命令、17whole入口、10历史queue版本及9当前数学结论全保，41当前题内源参留存独立于历史/题外workflow。run1两失败和末95KB出版失败科学值未知、run2严格超标见证/PCG未停/SOC拒、run3独立warm不等原SHA及末曲率未返，全不抹去。固定恢复2036c522，精确七路径普通删除，不动活输入。见[总表](computations/terminal-a04-actions-retention-79-complete-delivery.json)。双README云核至`46b7c638a95453d1ec87c54e68ed1c04f60ad24e`无变（非pull）。

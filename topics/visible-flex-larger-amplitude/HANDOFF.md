@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`f9105800aa194202fd36e9b083a43281c87ce084`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活23–29通常5分钟真pull/已读commit在末槽，终态槽保完整note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`46b7c638a95453d1ec87c54e68ed1c04f60ad24e`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活23–29通常5分钟真pull/已读commit在末槽，终态槽保完整note。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull，令牌仅CLI。
 仅公开Actions科学，新raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，无新AST/fixture/独审/科学门或缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退可完整再生旧数据，保结论/全源参/固定恢复，不删活输入、唯一状态或未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口明示，继续加强比例。有限点、开放片或条件论证不算完成。
@@ -31,7 +31,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [准确核心9件](computations/fixed-fejer-r726-R727-complete-accurate-mean-core-delivery.json)395065B已刊：无限Slerp尾/真根E1/E2三整积分/固定H0/独立profile与w/全cuts。normal/leaf/G11件及闭相位/矩/mesh23件完整保护待刊，准确费用未返；R728不得借旧source/证书。
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续费原绝对repo/canonical/output，N变G新目录/稳定whole report，R723/mesh fresh；P同canonical同流整块，U最终同wholeN。packet须完整report、restart须同runner13final/全typed；normal.complete不代连续branch，mean J不代Cu。全32stage/六jet/尾/角/phase/两帽/mixed/晚失败、R718 marked与R716 unmarked独立；五t/15mesh/三级精化均待真付。
-[ret78全账](computations/terminal-fejer-actions-retention-78-complete-delivery.json)及ret75–77及q090/Hermite/74–65保全源参/原结论失败/固定Git恢复；ret74 canonical保树。旧reader先恢复whole原路径，活输入/唯一状态/未闭来源不删。construction继续闭旧generated输出。
+[ret79全账](computations/terminal-a04-actions-retention-79-complete-delivery.json)及ret75–78及q090/Hermite/74–65保全源参/原结论失败/固定Git恢复；ret74 canonical保树。旧reader先恢复whole原路径，活输入/唯一状态/未闭来源不删。construction继续闭旧generated输出。
 
 
 
