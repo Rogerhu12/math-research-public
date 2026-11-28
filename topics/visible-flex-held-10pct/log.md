@@ -196,3 +196,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 11:30 UTC — 原 E 工程退出后实际启动完整 ULP 恢复
 
 原 E worker 真−9，未出接受包，原因未知；新TTY19975已用唯一完整ULP初猜发出原freshJ/heightJ/audit请求，新旧config仅checkpoint/trace路径不同，实际wire下游55296分量逐位同。root核13个直接不可变绑定；全部验收仍待实际返回。见 [记录](notes/2026-11-28-tail-E-engineering-exit-and-ulp-restart.md)。
+
+## 2026-11-28 11:32 UTC — 完整 QR factor-only 映射真 M16 等价核过
+
+同已存43087维完整J的一次实际比较，解方向/每个后向分母/完整原J残差数组/CSR hash/全部原统计逐位同，原残差1.06667e−20。3514数组全部映射，GC禁用即释放；实测RSS223657984→112631808B，7.080s，构造峰不降。root完整读源并核7个直接绑定，不额外重复测试。见 [记录](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)。

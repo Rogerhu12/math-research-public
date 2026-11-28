@@ -1,0 +1,169 @@
+{
+  "scope": "One actual saved M16 complete-J check of factor-only scratch backing.\n\nNo new Jacobian or BVP is computed. The unchanged full QR and the mapped\nfactor solve receive the exact same saved complete matrix and residual.\nDirections, every backward-error denominator, original-J residual arrays,\nmatrix norm, and every original factor/solve statistic must agree bitwise.\nAutomatic cyclic GC is disabled for the final factor/backing lifetime check.\n",
+  "status": "actual_complete_M16_factor_only_mmap_check_passed",
+  "map_scope": "factor-only",
+  "untested_full_CSR_mapping_not_claimed": true,
+  "actual_prior_check": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/summary.json",
+  "prior_check_sha256": "3a44c9d73bfdf408a5bd77f729adeb5383c7e3e0941996d0ea6f679456640fba",
+  "original_matrix": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/actual_jacobian.npz",
+  "original_matrix_sha256": "a9d655651b6170f1eb8097fe61606dc7a89b40fd181b042ef8e1af305fad4bef",
+  "original_residual": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/actual_residual.npy",
+  "original_residual_sha256": "5adf39dd101f6adcd8ec57e7a89337bd6ce034e124fca887a2c3cfd22fafe423",
+  "source_dimensions": {
+    "n": 49,
+    "nodes": 879,
+    "parameters": 16,
+    "equations": 43087
+  },
+  "comparison": {
+    "complete_direction_bitwise": true,
+    "all_backward_denominators_bitwise": true,
+    "complete_original_matrix_residual_bitwise": true,
+    "full_CSR_data_indices_indptr_hashes_equal": true,
+    "matrix_inf_identical": true,
+    "all_original_factor_and_solve_statistics_identical": true,
+    "original_apply_implementation_retained": true,
+    "original_triangular_solve_implementation_retained": true,
+    "all_mapped_factor_arrays_readonly": true
+  },
+  "original_QR_statistics": {
+    "equations": 43087,
+    "state_size": 49,
+    "nodes": 879,
+    "parameters": 16,
+    "internal_nodes_eliminated": 877,
+    "levels": 10,
+    "minimum_relative_R_diagonal": 0.00013001025635714594,
+    "solve_calls": 1,
+    "maximum_componentwise_backward_error": 1.0,
+    "maximum_normwise_backward_error": 2.4970900493918317e-29,
+    "refinement_steps": 2,
+    "stored_factor_bytes": 73397884
+  },
+  "mapped_QR_statistics": {
+    "equations": 43087,
+    "state_size": 49,
+    "nodes": 879,
+    "parameters": 16,
+    "internal_nodes_eliminated": 877,
+    "levels": 10,
+    "minimum_relative_R_diagonal": 0.00013001025635714594,
+    "solve_calls": 1,
+    "maximum_componentwise_backward_error": 1.0,
+    "maximum_normwise_backward_error": 2.4970900493918317e-29,
+    "refinement_steps": 2,
+    "stored_factor_bytes": 73397884
+  },
+  "original_absolute_J_direction_residual_max": 1.066670079402443e-20,
+  "mapped_absolute_J_direction_residual_max": 1.066670079402443e-20,
+  "storage": {
+    "kind": "complete_original_CSR_and_QR_after_factor_return",
+    "map_scope": "factor-only",
+    "complete_CSR_remains_anonymous": true,
+    "mapped_arrays": 3514,
+    "planned_file_bytes": 82907136,
+    "logical_array_bytes": 73667380,
+    "scratch_free_bytes_before_allocation": 1487572992,
+    "disk_margin_bytes": 536870912,
+    "manifest_allowance_bytes": 8388608,
+    "chunk_bytes": 8388608,
+    "original_construction_peak_unchanged": true,
+    "before_mapping": {
+      "current_process_RSS_bytes": 223657984,
+      "maximum_process_RSS_KiB": 217936
+    },
+    "copying_chunks": 3514,
+    "clean_page_release_calls": 3516,
+    "clean_page_release_advised_bytes": 248721408,
+    "all_copy_chunks_bitwise_checked": true,
+    "all_mapped_arrays_readonly": true,
+    "original_floating_arithmetic_changed": false,
+    "backing_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-factor-only-mmap-m16-20261128/temporary-factors/complete-qr-mvm98e6r/all-arrays.bin",
+    "manifest_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-factor-only-mmap-m16-20261128/temporary-factors/complete-qr-mvm98e6r/layout.json",
+    "manifest_sha256": "5f854c6410f80a0034fecafc5e98d310f66ab05a737c178ed8fc28bd5c0e4a34",
+    "allocated_disk_bytes": 82911232,
+    "mapping_seconds": 4.73680373499883,
+    "after_mapping_before_allocator_trim": {
+      "current_process_RSS_bytes": 224428032,
+      "maximum_process_RSS_KiB": 222692
+    },
+    "released_old_anonymous_storage": {
+      "before": {
+        "current_process_RSS_bytes": 224428032,
+        "maximum_process_RSS_KiB": 222692
+      },
+      "after": {
+        "current_process_RSS_bytes": 112627712,
+        "maximum_process_RSS_KiB": 222692
+      },
+      "cyclic_objects_collected": 33,
+      "malloc_trim_returned": 1,
+      "only_unallocated_allocator_pages_trimmed": true
+    },
+    "after_mapping_and_allocator_trim": {
+      "current_process_RSS_bytes": 112631808,
+      "maximum_process_RSS_KiB": 222692
+    },
+    "last_solve_page_release": {
+      "before": {
+        "current_process_RSS_bytes": 129654784,
+        "maximum_process_RSS_KiB": 222692
+      },
+      "after": {
+        "current_process_RSS_bytes": 129654784,
+        "maximum_process_RSS_KiB": 222692
+      },
+      "clean_mapped_pages_advised_DONTNEED": true,
+      "error": null,
+      "original_solve_return_or_exception_preserved": true
+    }
+  },
+  "lifetime": {
+    "automatic_cyclic_GC_disabled": true,
+    "factor_weakref_immediately_released": true,
+    "backing_weakref_immediately_released": true,
+    "backing_file_immediately_unlinked": true,
+    "unique_factor_directory_immediately_removed": true
+  },
+  "actual_before_new_factor": {
+    "current_process_RSS_bytes": 49344512,
+    "maximum_process_RSS_KiB": 209032
+  },
+  "conservative_backing_upper_bound": {
+    "n": 49,
+    "nodes": 879,
+    "parameters": 16,
+    "map_scope": "factor-only",
+    "full_stored_CSR_bytes": 59115368,
+    "mapped_CSR_bytes": 0,
+    "complete_CSR_remains_anonymous": true,
+    "complete_QR_factor_bytes": 73397884,
+    "endpoint_arrays_bytes": 269496,
+    "persistent_arrays": 3514,
+    "alignment_padding_upper_bytes": 14389830,
+    "manifest_allowance_bytes": 8388608,
+    "total_backing_and_manifest_upper_bytes": 96445818,
+    "original_QR_zero_elimination_may_reduce_actual_backing": true,
+    "original_construction_peak_unchanged": true
+  },
+  "inherited_original_function_sha256": {
+    "_apply": "baee102946be47aeee37e08d82d8100637f198035487664466583b2e983a8da2",
+    "_solve": "cec7439daf0f53759962083bc669f1ed875cf9d5ba372e7ef85598481d3a2ce9",
+    "solve": "d2ea66ba3ee604f1b11d3e16eab4247ae2e38eb3aa18ef745eb7525bdcc2c210"
+  },
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_factor_mmap.py": "ddf020f3a8e5121fbab0f54207f14f3df090ebee6f894dd7a21a2420f379a697",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8"
+  },
+  "full_J_reassembled": false,
+  "BVP_steps_applied": 0,
+  "accepted_field_produced": false,
+  "original_gates_relaxed": false,
+  "construction_peak_reduction_claimed": false,
+  "maximum_process_RSS_KiB": 222692,
+  "seconds": 7.0796563969997806,
+  "actual_comparison_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-factor-only-mmap-m16-20261128/comparison.json",
+  "actual_comparison_file_sha256": "7a3a285d407ba9dc2e039824ea299b31d278e9544469cd776f9e812e73c9e194",
+  "review_scope": "The independent analytic agent also read storage ownership, readonly access, page-aligned ranges and exception cleanup; no second numerical execution was added."
+}
