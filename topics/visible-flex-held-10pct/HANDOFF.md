@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `ab519d6cf0e1daf1c28c44f484084af2f41e27ec`（2026-11-28 12:51 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `7574208f941310e48e43d3fd826fc6ecb9da411c`（2026-11-28 12:53 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；12:11:39UTC真pull到 `df5208252bd9dd6cfb6445da7423aecd77f63142`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -21,13 +21,13 @@
 
 本次实际输入恢复到[.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)、[.064/M40](notes/2026-11-28-design-secant-lambda064-m40-qr.json)：后者952点、metric2.74792e−7、δ.06413190791686303、mean1936。本次.128/M48两次工程−9（[四J链](notes/2026-11-28-design-csr-m48-process-interruption.json)、[lifecycle链](notes/2026-11-28-design-lifecycle-m48-process-interruption.json)），末真ordinal4 nodal `e889dd15…`仍完整；没有新接受，具体kill原因未证。
 
-[完整factor-only真M16逐位核过](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)：全部方向/后向分母/原J残差同，构造峰不降；[M48映射恢复准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层实际来源、完整CSR/QR/原门，磁盘需1198.68MiB含512余量，真实页释放成功才用冷RHS预算。尚未启动本地M48。[远端原链准备](notes/2026-11-28-design-actions-continuation-prepared.md)已审，[独立冻结数值树v2](notes/2026-11-28-design-actions-frozen-v2-prepared.md)已审，[v3身份清理](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)已实核正常/孤儿组两分支，首次选择v3，尚未dispatch；目标.128/.192/.256/.384/.512/.75/1。 真λ1/M≤64后接[独立7a全DN/几何入口](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与[mesh/活动矩](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，严格使用最终physical-H，旧memo记录不改标签。
+[完整factor-only真M16逐位核过](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)：全部方向/后向分母/原J残差同，构造峰不降；[M48映射恢复准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层实际来源、完整CSR/QR/原门，磁盘需1198.68MiB含512余量，真实页释放成功才用冷RHS预算。尚未启动本地M48。[远端原链准备](notes/2026-11-28-design-actions-continuation-prepared.md)已审，[独立冻结数值树v2](notes/2026-11-28-design-actions-frozen-v2-prepared.md)已审，[v3身份清理](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)已实核正常/孤儿组两分支，首次选择v3，已备[明确新冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)以保同runner旧场，尚未dispatch；目标.128/.192/.256/.384/.512/.75/1。 真λ1/M≤64后接[独立7a全DN/几何入口](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与[mesh/活动矩](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，严格使用最终physical-H，旧memo记录不改标签。
 
 ### Full nonlinear tail
 
 旧631点源fullH只有M8；[M16真实worker失败](notes/2026-11-28-tail-low-modes-actual-terminal.md)原因未知，旧warm/v2–v5链均未推进真λ=.002。新879点λ=.002/M24源已得[真正fullH/J/heightJ/audit](notes/2026-11-28-tail-actual-complete-fullH.md)：N512、1152段/55344未知，原residual3.652377088977401e−10，1776项heightJ有限，packet `81f6eb0f…`；全state与[明确单ULP初猜](notes/2026-11-28-tail-one-ulp-initializer.md)逐位同。normalizedFullDefect1.96429e−5原样保留，离散metric不是连续证书。
 
-[真stage0完整谱界](notes/2026-11-28-tail-actual-fullH-stage0.md)：170 planar+25 height，连续metric≤3.60000e−8、K≤8.17731，13.757s；只有stage0。[整批逐写门](notes/2026-11-28-tail-geometry-stream-disk-gate.md)后余段−9保89段；chunk v1真返16段后bookkeeping AttributeError，v2已保这105段从1046继续，不重算stage0。当前唯一geometry TTY43666，分批原exporter/全部公共两jet/同一global mean，自动减批保完整输出，128MiB逐写门不改；已超过742余段，完整bundle尚未返。最终原1152段+deep collar/投影单射门及8outer仍欠。
+[真stage0完整谱界](notes/2026-11-28-tail-actual-fullH-stage0.md)：170 planar+25 height，连续metric≤3.60000e−8、K≤8.17731，13.757s；只有stage0。[整批逐写门](notes/2026-11-28-tail-geometry-stream-disk-gate.md)后余段−9保89段；chunk v1真返16段后bookkeeping AttributeError，v2已保这105段从1046继续，不重算stage0。原chunk导出已完整1152段，bundle SHA `3b312be5…`，所有既付段未重算；TTY43666现续原全尾连续认证。全部公共两jet/同global mean与128MiB逐写门不改；deep collar/投影单射/全证书和8outer仍欠。默认图查询真exit1仅诊断longdouble序列化，独立修复中。
 
 完整bundle后用[真实半径恒等入口](notes/2026-11-28-analytic-complete-tail-radius-identity-entry.md)；c=Rc=.3的同场身份须全部核过，stage0不能代替。后继[严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过；最终coupled physical H须独立绑定 `binding['candidate_H']`，不能搬变场尾证书。
 

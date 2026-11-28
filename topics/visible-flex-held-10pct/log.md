@@ -260,3 +260,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:49 UTC — 真λ1原7a返回的独立来源/几何/mesh/活动矩接线
 
 原7a支持M≤64、真实动态mean与完整fullH/J/audit/8outer；其真实字段不同于memo loader，不能改标签。root逐行审新接受合同并对照原7a执行/来源/physical绑定，另审5个几何/半径/闭图/mesh/积分差异；保原代数、全模、原尾/heldframe/拓扑/大小门。最终physical-H是唯一尾输入，raw H不能替代；六源只准备、无真λ1输入或新增数值测试。真正fixed-g actual-DN仍需独立模型/原门，不以design外迭代冒充。见 [来源入口](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与 [mesh/矩接线](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)。
+
+## 2026-11-28 12:53 UTC — 同runner明确新冻结后继，保既有实际场与原来源
+
+真正7a固定g actual-DN后继需要新模型代码，首次冻结树不能静默变更。独立followup helper随首冻加入，未来v3唯一新request在旧session结束后明确给40hex源码/已读规则锚；独立公开partial clone，不触旧树，实核main/所选源双README空diff、detached完整文件manifest，原work全保。ORIGINAL_REPO与SOURCE_REPO显式区分，旧run不重标；原v3所有规则/会话/发布门不变。root读完整源及合同，只编译/CLI检查，无Git/BVP试运行。见 [准备](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)。

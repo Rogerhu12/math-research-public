@@ -1,0 +1,61 @@
+{
+  "schema": "held10-frozen-explicit-followup-prepared-v1",
+  "utc": "2026-11-28T12:51:26.179209+00:00",
+  "status": "frozen_helper_ready_for_first_source_snapshot_not_yet_executed",
+  "reason": "Preserve same-runner genuine lambda-one raw fields for the identified later fixed-g actual-DN/resource implementation; original v3 accepts only entries already in its initial frozen tree.",
+  "source": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_frozen_followup_entry.py",
+    "bytes": 11620,
+    "sha256": "13403642e039016557827c7175899c6cba052793bc3b98a06cc409139be94690"
+  },
+  "unchanged_v3_worker": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker_v3.py",
+    "bytes": 23154,
+    "sha256": "84c57daa50ffe8329a5dd7249ecb0b5f1bf357c76d1ac59ff0a8c3346f9f88a5"
+  },
+  "unchanged_v3_request": {
+    "path": "topics/visible-flex-held-10pct/ci/mapped-design-v3-command.json",
+    "bytes": 456,
+    "sha256": "84436591b7fe4a874a5b40fb5d8e08e1716480985033bac7d4da32b3930f86d8"
+  },
+  "actual_checks": {
+    "python_ast_parse": true,
+    "python_compile": true,
+    "help_exit_code": 0,
+    "original_repository_git_calls": [
+      "rev-parse HEAD",
+      "rev-parse HEAD"
+    ],
+    "unlink_remove_rmtree_calls": 0,
+    "start_new_session_calls": 0,
+    "git_executed": false,
+    "numerical_solver_executed": false
+  },
+  "contract": {
+    "worker_request_script": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_frozen_followup_entry.py",
+    "worker_request_requires_new_id": true,
+    "source_commit_requires_explicit_40_hex": true,
+    "reviewed_rules_commit_requires_explicit_40_hex": true,
+    "fixed_public_repository": "https://github.com/Rogerhu12/math-research-public.git",
+    "new_source_storage": "unused directory under the same declared WORK",
+    "independent_partial_clone": true,
+    "detached_source": true,
+    "original_source_tree_and_existing_fields_preserved": true,
+    "rule_comparisons": [
+      "explicit reviewed commit versus actual cloned main",
+      "explicit reviewed commit versus explicit selected source"
+    ],
+    "changed_rules_block_child": true,
+    "complete_checked_out_file_manifest_bound_before_execution": true,
+    "source_manifest_rechecked_after_return": true,
+    "original_repo_template": "@ORIGINAL_REPO@",
+    "new_entry_repo_template": "@SOURCE_REPO@",
+    "shared_actual_field_template": "@WORK@",
+    "child_inherits_v3_owned_process_session": true,
+    "child_receives_no_token_or_secret_variables": true,
+    "original_execution_labels_replaced": false,
+    "mathematical_acceptance_inferred": false
+  },
+  "arrays_uploaded": false,
+  "complete_surface": false
+}
