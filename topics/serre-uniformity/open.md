@@ -46,6 +46,8 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 [R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低residue杀ΔT=c，H0杀其余差，连接+pureΦ唯一锁全部43 Frob。全几何Teich点整格给vΦ≥−14/vΦ⁻¹≥0；KT给p¹⁴Φ模p^m极阶D(m)=2pm+6(p+1)。有限线性候选树保真分支、linearD保dagger，目标精度singleton必有限出现；pure输入由−1 fibre矩阵+同算法取得。全部中央/γ5无外部未知位，good未分歧点可终止读任意精度；尚未运行，非零/global减法/whole盘继续。
 
+[R1176](results/R1176-original-integral-cusp-rigidity-and-fixed-precision-Frobenius.md)模p原log H0由负末Hodge线及unit Higgs(d−i)为零，最低留数锁Tate差。给定pureΦ到n+28位，φ1=1+(t−1)^p的已知整δ1与三cusp正则把42未知限制在poly≤6、仅1有极的有限空间；完整ordered ODE/descent矩阵模p列满秩，一次modp^n线性求解唯一。极阶从δ1主部读出，保λ∞/cross/σ与全部Taylor carry；无需未知树深度，未执行数值，原非零继续。
+
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。
 
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付H¹(Qp,Heis)↔Fp³。R1152 §§1–13付原Θ的绝对三槽 r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25，其中βi=B_(p−i)、J=Har_p(1,3,4)。真正障碍rs h−zab；r/s为零时原七支仍保。Gaussian最高为(256/25)δ³c_g⁶{5β3β5 z12−3(J+2β3β5)x4y8}，cubic将后项改成(J+2β3β5)λA*y7/2。未付这些同源组合及所有深盘。

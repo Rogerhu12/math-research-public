@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f34badd08c4f9456639e9db0a337966d4f6de9c5**（2026-11-28 18:27 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:55 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：fa67b75a55b52eb16099e5f6f5e062b4670356f1**（2026-11-28 18:29 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:55 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 17:55:09 Asia/Taipei，Actions run46132674481/job140941081619，blob:none浅clone后真实pull --rebase至d3e8e84a且与origin/main相同；两README diff空、全文hash已核，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤18:45、pull≤18:55。本地17:54仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -33,6 +33,8 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 [R1169–73](results.md)原Π2及最低Π4完整S/U、Tate n⁻⁴、正λ∞XT′与J/B未平滑均已付；n2最低v2=3·11·31²/2¹¹单位。原SS Brandt格Bℓ=ℓ^dTℓ，半稳定惯性界及BM02给三中央和两abelian在同ℓ⁶≠1辅助族的单位理想。原43格半线性Δ、quotient模p²位置、全部shear/σ给仿射 RHS，最低BCH保−λ∞ΔX T/2；两abelian有限重建与T_i=24B_(p−5)/5已付。原Z有提升差，不能置零；最低符号仍继续，全部准确尺度/公式沿逐字前态和各结果。
 
 [R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低residue杀ΔT=c，H0杀其余差，连接+pureΦ唯一锁全部43 Frob。全几何Teich点整格给vΦ≥−14/vΦ⁻¹≥0；KT给p¹⁴Φ模p^m极阶D(m)=2pm+6(p+1)。有限线性候选树保真分支、linearD保dagger，目标精度singleton必有限出现；pure输入由−1 fibre矩阵+同算法取得。全部中央/γ5无外部未知位，good未分歧点可终止读任意精度；尚未运行，非零/global减法/whole盘继续。
+
+[R1176](results/R1176-original-integral-cusp-rigidity-and-fixed-precision-Frobenius.md)模p原log H0由负末Hodge线及unit Higgs(d−i)为零，最低留数锁Tate差。给定pureΦ到n+28位，φ1=1+(t−1)^p的已知整δ1与三cusp正则把42未知限制在poly≤6、仅1有极的有限空间；完整ordered ODE/descent矩阵模p列满秩，一次modp^n线性求解唯一。极阶从δ1主部读出，保λ∞/cross/σ与全部Taylor carry；无需未知树深度，未执行数值，原非零继续。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
