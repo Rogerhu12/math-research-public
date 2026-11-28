@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 12:05:31 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 12:09:12 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至50a2bf83d6ab6cc42a76a3f1ad5a07428eab8081；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至926f12ff7af74e935a3c8d2a08a2288594ecb142（11:52:18 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至dea134b6533e14293820f35e6e883143396cc127；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至926f12ff7af74e935a3c8d2a08a2288594ecb142（11:52:18 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META13对新200件无当前引用legacy manifest仅删字符串外空白；净1203670B，原55ded99ef7/receipt94814B SHA 73400c4d…保全部literal与整件身份，科学0；META1–12完整历史/receipt均保、禁重。每pull重核全部新hash及changed/untracked references，继承此前完整reference scan。
 
@@ -35,11 +35,11 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 真实成功与已付组件
 
-全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/50a2bf83d6ab6cc42a76a3f1ad5a07428eab8081/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
+全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/bdfe09e84e3847ab4b34a9b2ed8c52f3014d0703/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
 
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
 
-- AGRQ：实际GRQ原全3056闭格及4branches完整准入，全signed私载体176771817B/53ae13a…与219304395B/8f751b31…保；未授genuine高逆。
+- GSA：全signed常数和全部独立物理单位port列已写，root5whole/4AST及真失败GG准入ready=false；待GDC真实全图与其新合同，全部global端口未代入。
 
 ## 后继和完整尾部义务
 

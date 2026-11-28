@@ -1,0 +1,47 @@
+{
+  "actual_failure": "ValueError: changed signed coefficient header",
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T12:06:17Z",
+        "conclusion": "failure",
+        "head_sha": "427b5565ca7f2c1bf4e2cb1773b630403d58e13c",
+        "id": 140972647681,
+        "name": "signed-local-collar",
+        "started_at": "2026-11-28T12:05:21Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "failure",
+      "head_sha": "427b5565ca7f2c1bf4e2cb1773b630403d58e13c",
+      "id": 46142927215,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T12:05:18Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T12:06:17Z"
+    },
+    "jobs_API": {
+      "bytes": 2776,
+      "sha256": "2845f2fa8979afd64e97253a35654b2f69130f67673890f050f86429408cc1c4"
+    },
+    "observed_at": "2026-11-28T12:07:01.662627+00:00",
+    "run_API": {
+      "bytes": 13313,
+      "sha256": "7e6da11f16c337bab7d9f7faab924f9ef399d988b2b58df063c68e0b2969422d"
+    }
+  },
+  "completed_subpieces": 0,
+  "failure_stage": "collar_signed_inputs.receive: shared S.admit stage header qualification before any scientific row",
+  "kind": "root_actual_GLC_first_admission_failure_v1",
+  "old_or_new_science_reexecuted_by_admission": 0,
+  "whole_log": {
+    "bytes": 78093,
+    "sha256": "7cb5e68d92636df9dfda0ca922c8d7dc59c2fa9552e30cefe6e0b3cb684d5a99"
+  },
+  "whole_small_prefix": {
+    "bytes": 198,
+    "sha256": "06caa8c9a9242303014e3b8b6a0482d68eda75e5f59621ee67163bef6d1d8205"
+  },
+  "whole_stage_header_correction_pending": true
+}

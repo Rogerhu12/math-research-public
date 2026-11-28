@@ -164,3 +164,6 @@ ASQ22：真零根/零独立jump的负body sν给raw腰<3.65e−5、x<9.17e−6�
 
 
 AGRQ：实际46139062783/1 success，3056覆盖原3026/128两种角格/四branch/五场6阶归一jet全部保；真small2537B/ea20996a…，私176771817B与raw219304395B整SHA，原GCS/GPR仅必要whole恢复。真幅上包不是点值，完整B高逆/端点/正侧仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GSA：同193/97+96与两mean的有符号affine列和所有独立port经NPG/FHC真逆给整cut/负窗单位响应；零port只定义affine常数，不当真匹配。原GG实际失败使metadata ready=false、manifest/workflow/新科学0；后继新图须自身完整合同。phase的2^-33000域与regular实际残差尚须兼容。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
