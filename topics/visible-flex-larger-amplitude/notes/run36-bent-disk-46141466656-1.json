@@ -72,23 +72,23 @@
   "child_pid": 2744,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 38,
-    "utc": "2026-11-28T11:47:30Z",
+    "ordinal": 48,
+    "utc": "2026-11-28T11:47:58Z",
     "original": {
       "event": "objective",
-      "evaluations": 1,
-      "rms_scaled": 0.19010758861262178,
-      "gram_max": 2.6440119877163024
+      "evaluations": 13,
+      "rms_scaled": 0.04851263708936209,
+      "gram_max": 0.45909604086652384
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/field/summary.json",
-      "bytes": 12850,
-      "sha256": "28a7da00de9d6bf8deb8c39fa0d4a68c67621bddd435d09f56011e5c071d35b8"
+      "bytes": 14935,
+      "sha256": "d7510bb5edad9ee37dc830493e196d6f4e6bb4940dfabf55a9b3b933c61d7ad9"
     },
     "complete_small_json": {
-      "elapsed_seconds": 25.521837823999988,
+      "elapsed_seconds": 48.91491092300001,
       "frozen_material_target": {
         "angular_count": 384,
         "description": "Per-span degree-ten Chebyshev-Lobatto interpolation of shared angular mean Gram. Fixed through both subsequent resolutions; no phase interpolation.",
@@ -102,14 +102,14 @@
       },
       "in_progress": {
         "actual_objective_call": 1,
-        "configuration": "fixed-resolution-1",
+        "configuration": "fixed-resolution-2",
         "design": "tilt44-geometric",
-        "observed_best_cost": 0.018070447624052924,
+        "observed_best_cost": 0.004489050497404095,
         "shape": [
-          416
+          1012
         ],
-        "stage": 6,
-        "x_sha256": "705bdaf384d2943e9983125619c8b47957137b58e3752006c670f245972d7d81"
+        "stage": 7,
+        "x_sha256": "3404190926a2d4c9f71dd2c026ed6625e28effc70ac0de3bdc25c44694e9ef7a"
       },
       "numpy": "2.3.5",
       "params_sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
@@ -720,6 +720,106 @@
           "x_shape": [
             366
           ]
+        },
+        {
+          "component_shapes": [
+            [
+              9,
+              17
+            ],
+            [
+              9,
+              16
+            ],
+            [
+              7,
+              17
+            ]
+          ],
+          "configuration": {
+            "angular": 88,
+            "check_angular": 184,
+            "check_radial": 91,
+            "id": "fixed-resolution-1",
+            "lsmr_iterations": 150,
+            "max_evaluations": 100,
+            "mode": 16,
+            "radial": 43,
+            "regularizer": 7e-07,
+            "spans": 8
+          },
+          "cost": 0.004449384680584738,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": true,
+          "fixed_angular_target_sha256": "36f695b3ca7574625285b092be3fb18dd01634c279fcbade086c3283234728ef",
+          "independent_grid": {
+            "angular_target_min": 0.8074064601168902,
+            "gram_components": [
+              0.5440745253029561,
+              0.6451646813908178,
+              1.2039572036064783
+            ],
+            "gram_max": 0.8454746923566958,
+            "gram_rms": 0.07778881137121631,
+            "height_in_equator_frame_min": -0.038496595849673354,
+            "min_area": 0.5510214176996068,
+            "origin_radius_sample_max": 1.3322733459852487,
+            "samples": [
+              91,
+              184
+            ],
+            "shoulder_K_abs_sample_max": 82.38222366024519
+          },
+          "jacobian_adjoint_abs": 6.938893903907228e-18,
+          "jacobian_fd_relative": 1.0755366355268071e-09,
+          "nfev": 87,
+          "njev": 79,
+          "optimality": 6.744738153398352e-08,
+          "ranking_score": 2.9215066838768387,
+          "solver_message": "`ftol` termination condition is satisfied.",
+          "source_x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
+          "stage": 6,
+          "stage_seconds": 23.368478089999996,
+          "start_x_sha256": "705bdaf384d2943e9983125619c8b47957137b58e3752006c670f245972d7d81",
+          "termination": 2,
+          "train": {
+            "angular_target_min": 0.8074064601168902,
+            "gram_components": [
+              0.513370308249502,
+              0.43594357981085846,
+              0.5422601525760569
+            ],
+            "gram_max": 0.7129490762012924,
+            "gram_rms": 0.07331735683990749,
+            "height_in_equator_frame_min": -0.034622367751480226,
+            "min_area": 0.689791725284719,
+            "origin_radius_sample_max": 1.3310380377923836,
+            "samples": [
+              43,
+              88
+            ],
+            "shoulder_K_abs_sample_max": 45.399213311905534
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0253890160580146,
+          "witness_to_comparison_shoulder_samples": 0.8036025346825008,
+          "x_sha256": "49ceed91cea6a6234cb527cea67bc84cfc7d5cc39128639c81b5187579f53536",
+          "x_shape": [
+            416
+          ]
         }
       ]
     }
@@ -752,6 +852,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T11:47:04Z",
-  "observed_utc": "2026-11-28T11:47:31Z",
-  "original_scalar_line_count": 38
+  "observed_utc": "2026-11-28T11:48:01Z",
+  "original_scalar_line_count": 48
 }
