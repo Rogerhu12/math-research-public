@@ -436,3 +436,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §89：原唯一深窗的整 ζ 规范与自由 Witt 项准确相消
 
 已证明：显式Z=uζ(ℓ)−ℓ(s^p)/p在n<pq全整，与H只差κs^p且κ∈Fp；必须同步替换每个Cartier乘子，四条原槽的κ项才准确相消，唯一深窗由(BE4)给出。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §90：原全盘准周期及每一位的显式二项式公式
+
+已证明：以单位阶乘块积连续性显式构造唯一μ∈Zp×、λ=0，给μ≡−b_(pn_r+σ₀)/b_n_r mod p^(2r+1)，完整证明全盘H=red(μ⁻¹ζ(ℓ)−ℓ(s^p)/p)，无未证外部输入。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

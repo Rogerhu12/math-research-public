@@ -1067,3 +1067,110 @@ $$
 给出，因为 $q+2p<2q-3$。
 这里整性针对完整组合，没有孤立假设 $\zeta$ 的各个系数整，
 也没有用规范化替换原canonical量。
+
+## 90. 全盘的实际反全纯准周期及其每一位二项式公式
+
+**已证明。** 写 $\sigma_0=(p+1)/6$，
+$b_n=(-1)^n\binom{2n}{n}/4^n$。
+存在唯一 $(\lambda,\mu)\in\mathbb Q_p^2$ 使
+$$
+ \zeta(\ell(s))-\lambda\ell(s)-\mu\ell(s^p)/p
+                      \in s^{-1}+\mathbb Z_p[[s]],
+$$
+且 $\lambda=0,\ \mu\in\mathbb Z_p^\times,\ \mu\bmod p=c_p$。
+令 $n_r=(p^{2r}-1)/6$，则
+$$
+ R(n)=-b_{pn+\sigma_0}/b_n,\qquad
+ \mu=\lim_{r\to\infty}R(n_r),\qquad
+ \mu\equiv R(n_r)\pmod{p^{2r+1}} . \tag{BF1}
+$$
+原(AY2)满足全盘等式
+$$
+ H(s)=\overline{\mu^{-1}\zeta(\ell(s))-\ell(s^p)/p}
+                                      \quad\hbox{于 }k((s)). \tag{BF2}
+$$
+横杠在(BF2)表示完整整级数的模 $p$ 约化。
+
+用R301的 $\tau=x^{-1/2}=z+\cdots$，
+$y=-\tau^{-3}\sqrt{1+\tau^6}$。实际不变对数及 $\zeta$ 为
+$$
+ L(\tau)=\sum_{n\ge0}\frac{b_n\tau^{6n+1}}{6n+1},\qquad
+ \zeta(L(\tau))=\tau^{-1}
+              -\sum_{n\ge1}\frac{b_n\tau^{6n-1}}{6n-1}.
+$$
+后一式由 $d\zeta=-x\,dL$ 及奇性得到。
+严格 $\tau(s)\in s+s^2\mathbb Z_p[[s]]$ 可直接递推：
+$f_E=[-p]_\tau\equiv\tau^q\bmod p$，
+$f_E(\tau(s))=\tau(-ps+s^q)$ 的第 $n>1$ 项未知系数乘
+$-p-(-p)^n$，其估值为一；右边已知差属于 $p\mathbb Z_p$，
+因为模 $p$ 的既定系数在 $\mathbb F_p$，
+$\tau(s)^q=\tau(s^q)$。故递推整且唯一，
+$L(\tau(s))=\ell(s)$ 由同一函数方程与首导数一得到。
+又
+$\tau(s)^p-\tau(s^p)\in p\mathbb Z_p[[s]]$ 且 $L'$ 整，
+所以
+$$
+ [L(\tau(s)^p)-\ell(s^p)]/p\in\mathbb Z_p[[s]].
+$$
+对整 $\mu$，两坐标的整条件相同。
+
+写 $U(m)=\prod_{1\le j\le m,\ p\nmid j}j$。
+因 $2\sigma_0<p$，阶乘剥去所有 $p$ 倍因子给
+$$
+ R(n)=-(-1)^{\sigma_0}4^{-\sigma_0}
+       (4^{1-p})^n\,\frac{U(2pn+2\sigma_0)}{U(pn+\sigma_0)^2}.
+$$
+若 $n\equiv n'\bmod p^k,\ k\ge0$，
+每个完整连续 $p^{k+1}$ 块内的单位积为 $-1\bmod p^{k+1}$：
+逆配对中仅 $1,-1$ 自反。分子移动偶数块，分母平方消符号；
+$4^{1-p}\in1+p\mathbb Z_p$。
+所以 $R(n)\equiv R(n')\bmod p^{k+1}$，且每个 $R(n)$ 是单位。
+$R$ 唯一连续延拓到 $\mathbb Z_p$；
+取 $\mu=R(-1/6)$ 即得(BF1)，因
+$v_p(n_r+1/6)=2r$。
+
+若 $p\mid6j-1$，唯一可写
+$6j-1=p(6n+1)$，即 $j=pn+\sigma_0$。
+$\zeta(L(\tau))-\mu L(\tau^p)/p$ 的该系数为
+$$
+ -\frac{b_{pn+\sigma_0}+\mu b_n}{p(6n+1)}.
+$$
+由
+$v_p(\mu-R(n))\ge1+v_p(6n+1)$ 及 $b_n\in\mathbb Z_p$
+知其整。其余指数没有来自 $L(\tau^p)/p$ 的项，
+$\zeta$ 的分母为单位，故全盘整。
+在严格 $s$ 中比较 $s^p$ 位
+$-[z^{p-1}]x_{\rm cl}(z)/p-\mu/p$，
+得 $\mu\bmod p=c_p$。
+
+再证唯一性，亦不预设待比的 $\lambda,\mu'$ 整。
+$\tau$ 中 $\lambda L$ 的指数为 $1\bmod6$，
+其余两项为 $-1\bmod6$，完全不交。
+$n_r$ 的base-$p$ 数字从低到高是
+$(5\sigma_0-1,\sigma_0-1)$ 重复 $r$ 次；
+$n_r+n_r$ 每对恰一次进位，阶乘的 $p$ 倍数计数给
+$v_p b_{n_r}=r$。
+于是 $L$ 的 $\tau^{p^{2r}}$ 系数估值为 $-r$，
+任何非零 $\lambda L$ 都没有统一整下界。
+若另有 $\mu'\ne\mu$，在 $\tau^{p^{2r+1}}$ 处其差系数的
+估值为 $v_p(\mu'-\mu)-r-1$，同样没有统一整下界。
+两坐标改变时，即使 $v_p(\mu')<0$，
+也只加入 $\mu'$ 乘一个整级数，仍有固定下界，
+不能消去这两种无界负估值。
+故 $\lambda=0,\mu'=\mu$，唯一性在整个 $\mathbb Q_p^2$ 成立。
+
+最后将全盘整的
+$\mu^{-1}\zeta(\ell(s))-\ell(s^p)/p$ 约化。
+其首主部与 $H$ 相同；CM缺陷由(BE3)准确等于(AZ2)的
+$p$ 根缺陷。相减得正规奇级数，
+在 $\alpha=1+2p$ 的无限阶形式作用下不变。
+若此级数非恒定，它生成的Laurent子域在 $k((s))$ 中有有限次数，
+不能容纳无限多个固定该子域的自同构。
+所以差为常数，奇性使常数为零，证(BF2)。
+
+相关框架见 P. Guerzhoy,
+*On the p-adic values of the weight two Eisenstein series for supersingular primes*,
+2025 v2, equation (4),
+[原文](https://arxiv.org/pdf/2403.02592)。
+本节对原曲线的存在、唯一、坐标运输及全盘(BF2)已给出上述显式证明。
+这些全盘恒等式仍不单独推出原完整 $a_2$ 的非零。
