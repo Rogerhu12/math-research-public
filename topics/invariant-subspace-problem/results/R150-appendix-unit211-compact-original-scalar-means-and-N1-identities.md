@@ -1,5 +1,8 @@
 # 原 unit211 的紧凑均值与 N1：不用统一 Gram 分母的四条标量二次式
 
+> **2026-11-28 更正：本页经旧紧凑 R2 / Rbar 导出的原必要性、有限性、点数与排除声明已撤回。** 二重点一次坐标的平方被误写为 d1²，真实值为 2d0d1；完整更正和依赖边界见[原定义更正](../notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md). 已实跑的旧定义矩阵等式、次数与失败记录保留，不能再据此推原 Gram 条件或支付新模型单位。下文保留为原记录。
+
+
 日期：2026-11-27（Asia/Taipei）  
 会话：Astra-ISP-8542378f-20261127
 

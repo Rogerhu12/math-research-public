@@ -1,0 +1,76 @@
+{
+  "sourceSHA256": "a7f1db4305a58c2e733c573158f746d5b4adc312090472de25e472c96ddfeaae",
+  "sourceBytes": 7228,
+  "schema": "isp-corrected-dual-germ-compact-all-original-means-and-N1-v1",
+  "variables": [
+    "b",
+    "c",
+    "rho",
+    "f",
+    "X",
+    "Y",
+    "t"
+  ],
+  "elapsed_milliseconds": 20,
+  "integerPolynomialProducts": 673,
+  "checks": [
+    {
+      "name": "raw_original_F2",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "raw_original_E0",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "same_original_germ_d0",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "same_original_germ_d1",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "old_minus_correct_germ_mean_exact_difference",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "corrected_germ_scalar_jn_definition",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "corrected_R2_exact_old_formula_difference",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "new_compact_R2_original_mean_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "new_compact_W4_original_mean_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "new_compact_original_N1_polarized_Nv_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "new_compact_original_EB_minus_EC_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    }
+  ],
+  "compactR2ExpandedTerms": 132,
+  "compactW4ExpandedTerms": 486,
+  "compactNvExpandedTerms": 286,
+  "compactEBminusECExpandedTerms": 120,
+  "actualExecution": "pure V8 BigInt exact integer polynomial arithmetic",
+  "wrongSourceBlob": "94b2be74c729ee76e239491d8e967dc9c41044b0",
+  "originalGermSquare": "vm(dv,dv)[1]=2*dv[0]*dv[1]",
+  "oldWrongGermSquare": "sq(dv[1])",
+  "correctedOnlyMeanIndex": 1,
+  "oldR2OriginalNecessityRetracted": true,
+  "W4OcompactNcompactOriginalIdentitiesRetained": true,
+  "NvNormalization": "polarization of original N4",
+  "noPhiOrUnpaidNormAssumption": true,
+  "noNewExclusionClaim": true
+}

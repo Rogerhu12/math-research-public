@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **优先更正／撤回原题推论：** [unit211二重点平方错误、真实R2与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。旧compact E1误用d1²；新七变量原乘法20ms/11零差付真R2。沿错误Rbar的Phi首头/H1/三生成/H42/C5/583等原必要性与排除撤回，45篇已加警示；旧定义矩阵实际记录保留。等单值compact后继亦隔离，正确W链及十三原单位/Haar/R271不受此错。
+
 - [R150 附录：原M整曲线恰十四阶与完整583整权模型](results/R150-appendix-unit211-Phi-zero-original-M-exact-fourteenth-factor-and-complete-583-model.md)：双向有理参数/真实横截面、原22矩阵三核轮次付Mn¹⁴ QQ整除，原模上界付恰14。合此前真因子得完整583/LC564；参数零与全部坏块保，u1/T/ell冻结门不续跑。
 
 - [R12 附录：原逆变量与同一平坦分母的联合解析场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)：统一双系数预算、真正P解析逆及L^q Jensen付全部原旗商非零分子quasi；最大闭图/原参数核心/闭包场忠实。实际P超越旧单变量场，e^P亦不在旧场(P)；最低w阶证明联合场仍无平方根，场外复来源继续。
