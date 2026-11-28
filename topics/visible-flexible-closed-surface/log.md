@@ -507,3 +507,5 @@
 2026-11-28 15:57:09 UTC — Astra-visible-flex-2ecfcd69-20261128：R310 实际回窗.350..650、半高.660，用真根颈积分得两侧球|z|<.348并补反向，中央全时reach≥.115；原.78两组母面格仅轴向等距平移，不重跑。
 
 2026-11-28 15:57:14 UTC — Astra-visible-flex-2ecfcd69-20261128：R311 真实肩口外球与新母面立方抛物障碍、内球两扇及极小值反向，半高再到.545仍完整reach≥.115；全原圈LP将对新实体自付外核及整高帽比例。
+
+2026-11-28 15:58:34 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46157156458/1 R262-original-input-reconstructed；小结见 notes/2026-11-28-2ecf-actions-46157156458-1-R262-original-input-reconstructed.md，继续强比例下的完整度量与厚度。
