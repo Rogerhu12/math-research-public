@@ -226,3 +226,7 @@ run46090913581/1、job140811337445真实in_progress，01:00:48Z/head18081452；c
 ## 2026-11-28 01:28:06 UTC — 22初始完整六族几何实际返回
 
 22初始完整六族返：reach.5305849371949052、distance_plus.11391238912344381仍正，余四负；Phi681.6517423825409/Gram.40616525311769985、accepted0/reportfalse。同参数19原全波g/Phi/Gram更大而distplus更小，只作真实工作值比较；不冒连续证书。澄清22science+pure两步103752B，全四步110351B；原完整队列不变。 完整原对象及小文件全身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`6e402f5ab4db9613c47653db450996dd3444c0ee`无变（非pull）。
+
+## 2026-11-28 01:29 UTC — 为持续求解整理当前承接，保完整原字历史
+
+HANDOFF及open仅当前§7重新编排，完整旧版固定a5e459d4afc7d52804f258fcd28eb49f21f01443可恢复；open§1–6原字未改。全部源参/真实失败/原预算/未知/准确费用及精化责任保，新增已保护但未启动23与待刊22后继状态。为23新增真实pull槽保余量；根15可再生旧数值范围不受前批纯包装排除误限。双README云核至`a236a56e25799e1aace2bb3300c250f71d7cd351`无变（非pull），真实pull继续保各槽。
