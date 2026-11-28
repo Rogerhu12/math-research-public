@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **3b12eea61a0b5aeda116e4c5ebbbb958aa3d081f**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **48aa9b46c8287a2e5b7585f782f4a0e66eef208d**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -42,7 +42,7 @@ R654真23f7c8粗1.106e−13/细9.685e−7、ρ差.00357454未根；旧493未闭�
 
 R655/R662的D<1/hold≥.201/dH≥.3/reach≥.03仍需同候选全域法向/曲率/盘包络。R659、R669全失败/费用/未冻E保原文；R665/R671/R679排相应旧输入，R673精确反射不能连续同g。
 
-R680proper相位真厚锚sinθ.27/偏心帽.56已付κ<32.8/reach.03/D<1/hold.201/dH.3024，E_sharp只必要长度。R683112接受279.610253657秒/η.0304898/κ28.7128非停滞、E未冻；[R687](results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md)完整帧G,d/周期真F、双角曲率/两jet/N对3N，run46146623642自然468.454786866秒/100接受，R703消费真1604参数，不重原五段。仅λ1真实径向E全门后冻结/精化，连续证欠。
+R680proper相位真厚锚sinθ.27/偏心帽.56已付κ<32.8/reach.03/D<1/hold.201/dH.3024，E_sharp只必要长度。R683112接受279.610253657秒/η.0304898/κ28.7128非停滞、E未冻；[R687](results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md)完整帧G,d/周期真F、双角曲率/两jet/N对3N，run46146623642自然468.454786866秒/100接受，R703真1604参273c656f/双轴η.03491061/κ27.0645/长度−.00081162，E未冻；新两curl接此态，旧100J/五段已付。仅λ1真实径向E全门后冻结/精化，连续证欠。
 
 R675五响应原账保留；R685准确矩小应变不控弯曲，[真12步](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/3152列/q−.004/η4.45883e−5/κ29.0581。[R691](results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md)保同g/全g±.03b/L4行/内圈插结升频，当前场1e−6后真扩大空间至1e−8才扩角；连续族未付，旧响应/矩/站不重跑。
 
