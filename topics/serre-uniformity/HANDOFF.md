@@ -54,6 +54,8 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
 
+[R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
+
 ## 已成、禁止重做与其它入口
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)原完整47Q恰八CM，全部4513 whole盘/高度/全维来源和后到q²审计已成，不重跑47/41/旧端值窗口；run/hash沿原文/归档。

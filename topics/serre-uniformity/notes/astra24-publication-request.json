@@ -1,39 +1,35 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-complete-tate-diagonal-20261128",
-  "request_id": "cd14-complete-Tate-contracted-diagonal-20261128",
-  "message": "serre: complete original Tate-contracted Kronecker columns and masked Serre diagonal",
-  "last_read_rules_commit": "3a100631add646f5c1d594310b8715dfb179ba76",
+  "source_branch": "serre-astra24-publish-explicit-PS-primitive-20261128",
+  "request_id": "r1206-original-PS-explicit-primitive-20261128",
+  "message": "serre: construct original PS-return primitive with complete supersingular p-poles",
+  "last_read_rules_commit": "7a9fc83cfc7171089c6e39a56e587301371d8038",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "b70e5442552afcdd3fdd16dcf26a811efad25564",
+  "previous_request_git_blob": "c509b6ab7b6de3905f8dd38cc68f6dc2a548eed2",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md",
-      "previous_git_blob": "d3e67abd3b5a71c18c5b620e398cf200cd00fef1"
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-complete-Tate-diagonal.md",
+      "path": "topics/serre-uniformity/results/R1206-original-PS-return-explicit-primitive-and-p-poles.md",
       "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "be7ee593a5dc38b740707933c72d62823af89a6f"
+      "previous_git_blob": "de2b0276c896165e80daf7c515fdd3de9bdbf380"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "ebb20a0d99ccf619d75158fd2f062b58c29c2016"
+      "previous_git_blob": "713dd568108ee3d0d4d8566b3f098cceea43391e"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "6b8703dd6ca4ce48c9291d6de9d3dad0637e625f"
+      "previous_git_blob": "a9c5732f6f551b5dc65f6bd55cdc4e917a438d3d"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "b18a3c26c8588ed5278447fb272146d9e4d51994"
+      "previous_git_blob": "58bc83dca418d4d1b43c87654fbfdad110663a76"
     }
   ]
 }

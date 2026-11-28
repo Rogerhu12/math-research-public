@@ -709,3 +709,10 @@
 - 完整原Z_p保principal及两个首p carry −β/3、β/6；高forced行与低偶出现mask分别登记，不添缺席行。root重读GN.20与R1168原收缩并全文纸核，o1独核Tate范围/σ/factorial，未执行数学程序。候选48cbc61eab292c4d2d714f459c328464728b447f保持原R1179全部前缀逐字，仅追加228行。
 - R1205已真实推77464deec77becf9d401b76e3dc2147c2aeba4d8，run46173970731/job141068391025；18:06:09UTC真实pull读3a100631add646f5c1d594310b8715dfb179ba76，两README diff空。H压缩前逐字归档before-complete-Tate-diagonal；完整mask/Fay与原纯尖点配对继续。
 - 本push规则：公开Actions真实pull至 7a9fc83cfc7171089c6e39a56e587301371d8038（2026-11-28T18:10:44.317143+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1206：由原Jacobi方程直接导出rA″+(4/3)r′A′=9bA/4，构造同一原Igusa函数域中的f_T=(r/u)(T/A)′，逐项相消得df_T=𝒟T db/(uA)。原PS返回准确为−3γ²df_T，不引入未知比例。
+- SS实际W=u/τ中全部主部明确为p阶与简单两项；CM阶≥2n+1、∞O(b^−1)、自然deckζ²。root与global独立核所有系数和端点，未运行数学程序。保p阶主部和原全图Čech，不以exactness冒称首log为零；原period/CM完整收缩继续。
+- 本地18:09:17UTC真实pull至609ec0e56433fd6b386f6af23511682c9dc007b3，两README差异空。R1179 §14已真实推35d97f3e1905e86ec2726a435935c33d3aa5e399，run46174377945/job141069651932，18:10:44UTC再次真实pull读7a9fc83cfc7171089c6e39a56e587301371d8038，两README diff空。
+- 本push规则：待本公开Actions真实pull立即核两README并写入实际FETCH_HEAD；主目标OPEN。

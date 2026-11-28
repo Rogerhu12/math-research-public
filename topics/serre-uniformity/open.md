@@ -164,6 +164,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
 
+[R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。

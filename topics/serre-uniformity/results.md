@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 PS 返回的显示原函数与完整 p 阶主部（已证明）**：[R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
+
 - **原先 Tate 收缩的全奇列与完整 Serre 对角（已证明，R1179 §14）**：[R1179 §14](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，付全部奇3≤s≤p−2、s≠m₀=(p−1)/2的总p层系数c_s=βE_(s−1)Bp−s/(2sC^(s−1))；不除高Sym阶乘/Euler。真实smoothing恰在m₀失效，principal保留。完整Z_p=T⁻¹∂_U^[3](TU K_p)含principal/16及−βTU^(p−3)/3+βU^(p−2)/6两carry。原高forced行c_sΔc_s=0；低偶R=p−s仍乘(1−B_(p+1−2R)^(p−1))，缺席行及跨次数Fay未删，完整mask共同纤维继续。
 
 - **原最高纯尖点的准确重数与 Cartier 核整基（已证明）**：[R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
