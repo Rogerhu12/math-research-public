@@ -10,7 +10,7 @@
 - **最近实际 pull / 已读规则提交：** 06c3cefad4f173dd53018d67175e70a228dfcf91（2026-11-28 02:34:17 UTC，Actions run46098689398实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46098689398-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 02:34:14 UTC/538bfcc6e0441e1a0ad20c6504faa354815c5db9，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 约07:20 UTC起不可用，02:05复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `0f03dff57c8ea52cb8fe9224132f5f8cc9fb9845`（2026-11-28 02:33:42 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `34eac31e98b13fce2cf848718ad588fe7ccd61a6`（2026-11-28 02:36:26 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-positive-flat-Phi790-H42-finite-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 

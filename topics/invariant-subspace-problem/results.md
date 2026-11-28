@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：整H42原固定十二阶交点及23268权点界](results/R150-appendix-unit211-Phi-zero-whole-H42-original-fixed-twelve-intersection-and-23268-weight-bound.md)：原DG∈I10/QQ总度554、H42真实点模det311/Bézout1与Gauss付整曲线有限交；≤798个三头同时零余权点的λ纤维继续。
+
 - [R267：保持函数正锥的全部幂共同分母及其紧支配边界](results/R267-appendix-positivity-preserving-common-powers-and-no-compact-domination.md)：真实非零正锥强积、全部有界整数逆及同一强单位；高位comm预算排非零紧lattice支配，实际平方分子仍开。
 
 - [R150：Phi 完整二阶核秩2及790次数上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：含完整逆修正的3阶新矩阵付第十二阶消失；789≤deg_u≤790，未付原模点保度。

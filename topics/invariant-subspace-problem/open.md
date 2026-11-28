@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及[规范维数≤1](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)已成。[二阶核秩2/790上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：84d真9.916448275秒/0，原22的QQ u度789至790，Q≤512/总≤1001。续完整三阶标量，非零则真790/旧模点降次。0177真3.403564485秒/0，固定12原G总度≤554且DG∈I10；H42首点(3,175)/p1009真gcd1/12det311，整H42权点≤23268。固定权上的λ余纤维、全H19零纤维、物理D0/余最高支均保留。
+[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及[规范维数≤1](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)已成。[二阶核秩2/790上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：84d真9.916448275秒/0，原22的QQ u度789至790，Q≤512/总≤1001。续完整三阶标量，非零则真790/旧模点降次。[整H42权点≤23268](results/R150-appendix-unit211-Phi-zero-whole-H42-original-fixed-twelve-intersection-and-23268-weight-bound.md)：0177真3.403564485秒/0，原G总度≤554/DG∈I10，首点真gcd1/12det311。三个头同时零的余权点≤798仍待原λ纤维；全H19零纤维、物理D0/余最高支保留。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
