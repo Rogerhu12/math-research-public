@@ -209,3 +209,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:19:01 UTC — 26四分之一步5a9e实际拒绝；八分之一步4e4d仅统计
 
 同source12b76b81c33069a5b657c8d1c75af0b34a97b71d/PID3811/model4a7e828，alpha=.25的5a9e647879990569881de1ee64dc6c7636ab096c0dc6b9acd5cac0917b854d51已真实拒绝，最大reach g=2.1657936243197677。当前仍初7e06、accepted0，六族/K/位置保下方。下一4e4d06f713063b927677d8da0ae539875131f51161a36ebab5dd66259edcc9ff为restoration alpha=.125，07:11:46.270713Z返回自身Phi592.7645608955047/Gram.4166270367722804；自己的几何/接受未返。原全步和半步拒绝完整保，不以缩线步代已恢复。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`3dcff079710fb10e1838bce6853d2c224c5bbae2`无变（非pull）。
+
+## 2026-11-28 07:19:05 UTC — 27真实接受939ea为第二点；12d82仅开始
+
+同source1547e23955e6f776336030966b6e204fadaca9d0/PID3303/modelc62737，939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29已真实accepted=true，接受数2，自身Phi748.4181748571943/Gram.48764641101863465/reachg=.7001895470631601/distplus=.08419920553930238。当前K13.71345148705317、Dlower4.113210907457668、cell466/u.03376524289842403/phi1.4266021327336462/branch0；s未知。下一12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd在07:08:13.163844Z仅trial-start、alpha1，没有自己的Phi/Gram/几何；当前值不得贴给它。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`202fc5d91f806a5dd878fa8474d6bcf384a1e107`无变（非pull）。

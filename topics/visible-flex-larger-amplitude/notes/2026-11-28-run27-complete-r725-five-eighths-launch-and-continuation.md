@@ -1382,3 +1382,76 @@ root终端自07:21失效，实际重置后的唯一探测仍失败。此次云�
   }
 ]
 ```
+
+## 2026-11-28 07:19:05 UTC — 27真实接受939ea为第二点；12d82仅开始
+
+同source1547e23955e6f776336030966b6e204fadaca9d0/PID3303/modelc62737，939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29已真实accepted=true，接受数2，自身Phi748.4181748571943/Gram.48764641101863465/reachg=.7001895470631601/distplus=.08419920553930238。当前K13.71345148705317、Dlower4.113210907457668、cell466/u.03376524289842403/phi1.4266021327336462/branch0；s未知。下一12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd在07:08:13.163844Z仅trial-start、alpha1，没有自己的Phi/Gram/几何；当前值不得贴给它。
+
+```json
+{
+  "math_at": "2026-11-28T07:08:13.163844+00:00",
+  "math_event": "trial-start",
+  "math_driver": "e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd",
+  "math_model": "c62737af66aaf0883e262a5fb378cedd93c691b50ecd28e67f64c17182a4d187",
+  "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_Phi": 748.418190202661,
+  "initial_Gram": 0.48764611813702746,
+  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_violation": 0.701239028437362,
+  "initial_geometry_complete": true,
+  "current_point": "939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29",
+  "current_Phi": 748.4181748571943,
+  "current_Gram": 0.48764641101863465,
+  "current_geometry_point": "939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29",
+  "current_violation": 0.7001895470631601,
+  "current_geometry_complete": true,
+  "current_state": "accepted restoration checkpoint returned; final report not inferred",
+  "trial_point": "12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd",
+  "trial_accepted": null,
+  "accepted_directions": 2,
+  "complete_report": false,
+  "stop_reason": null,
+  "observer_failures": 0,
+  "current_g_reach": 0.7001895470631601,
+  "current_g_body_diameter": -0.03998705517857404,
+  "current_g_distance_plus": 0.08419920553930238,
+  "current_g_distance_minus": -3.0936337267152876,
+  "current_g_cap_diameter": -0.06715131476182246,
+  "current_g_height_floor": -1.0411715968900732,
+  "previous_completed_trial_point": "939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29",
+  "previous_completed_trial_g": 0.7001895470631601,
+  "previous_completed_trial_accepted": true,
+  "previous_completed_trial_maximum_families": "reach",
+  "previous_completed_trial_Phi": 748.4181748571943,
+  "previous_completed_trial_Gram": 0.48764641101863465,
+  "current_K": 13.71345148705317,
+  "current_D_point_lower": 4.113210907457668,
+  "current_K_cell": 466,
+  "current_K_u": 0.03376524289842403,
+  "current_K_phi": 1.4266021327336462,
+  "current_K_branch": 0,
+  "current_K_s": null,
+  "trial_alpha": 1,
+  "trial_phase": "restoration",
+  "current_distance_plus_phi": 1.5707963267948966
+}
+```
+
+固定整索引保全部原字段、观察错误、参数和来源，原活算法和预算继续。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46105138690-1.md",
+    "bytes": 45989,
+    "sha256": "c0e349320b6b04cbd7c6295808868378c5e2edd55d2eb7f2b3ed05395960f216",
+    "git_blob_sha": "fd4440f8f4c80dadb05cf5192c65209e692c832a",
+    "fixed_commit": "16cbef8790b20cb9d8b11ee2149c3978c60c97d0",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

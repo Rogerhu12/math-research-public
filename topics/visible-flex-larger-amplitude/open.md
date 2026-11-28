@@ -117,7 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 086003/accepted3/Phi886.6498827366873/Gram.4729659923630599；reachg.6114243730497866/distplus.06086507728771828。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 原science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同run续跑a28ae初几何g.5225620087197518已返、新accepted0；b4d1 alpha1仅自身统计。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0/g.13346402986277572；5a9e四分之一步reachg2.1657936243197677拒，4e4d八分之一步仅统计。 |
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | a7ff7c/accepted1/reachg.7008605078876107/distplus.08419920552570004；939ea仅统计。 |
+| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 939ea/accepted2/reachg.7001895470631601/distplus.08419920553930238；12d82 alpha1仅开始。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | model61c654；0927d/accepted2/reachg.5237169415657044/distplus.11392286053783374；e1476仅统计。 |
 | [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | 46112781312/modeld3d295；bc818/accepted1/Phi584.8125864670693/Gram.4179453237576573；distance_plus .13820228685007474唯一正最大、reachg−.03475313540129943；ba2b alpha1仅自身统计。 |
 
