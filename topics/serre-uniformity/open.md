@@ -72,7 +72,7 @@ R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保�
 
 [R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM primitive全p^n范数含(1+p²)/(1+p⁴)；十二次Gaussian为−61(1+p⁶)γ7/2、cubic为−7(1+p⁶)γ7。整Teich群环/真实ray norm不除p-group，Δ角色付restriction单射。仅真实CM I∞作高层map，b修正保1+p⁴；global labels为x∞=(1+p²)x0、y∞=(1+p⁴)y0，Gaussian(x0,y0)=(δ̂/4,87δ̂²/44)、cubic=(2δ̂/9,160δ̂²/99)。无挠塔杀全部坏位中央惯性，完整fibre=[x∞,y∞]Θ∞含坏支；cubic最低全Z4可读，非CM有限I不外推whole盘。
 
-[R1180](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)原同一ζ/严格LT根给正H0代表−γz^(p+1)g(1+Γp)，全部log尾、真实trace/e及两次合法PD gauge给synt=−γ^(2j)c、physical=+γ^(2j)c。独立local测试类校准F_j=γ^(2j)ℓ_j(j1/2)，故U_E=γ_E²、η★=1全部坏支，不需generic SS或β非零；保原σγ=−γ与Miller相位。
+[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp、真实trace/e与合法PD gauge，付所有奇r=3,…,p−2的物理F_r=γ^(r−1)ℓ_(p−r)。原未平均γ_r局部值为(r−1)!Bp−r/r；特别γ7为720Bp−7/7。U_E=γ_E²、η★=1全部坏支，不需generic SS/β非零；保σγ=−γ、root phase及原角色出现条件，不新增global源。
 
 ### 原完整 47：已完成，只消费
 

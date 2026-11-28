@@ -600,3 +600,187 @@ R1152 §13.3 留下的 $\eta_\star$ 双坏分支至此被关闭：
 global-subtracted polynomial 或 harmonic combination 赋单位值。
 它完成的是一个此前独立保留、且在双坏分支不能由
 global localization 检测的实际比较输入。
+
+
+## 9. 全部非平凡偶角色与原权七输入
+
+本节把 §§2–6 的同一个局部计算推广到
+$$
+1\le j\le\frac{p-3}{2},\qquad
+r=2j+1,\quad R=p-r=p-1-2j,\quad N=(p+1)R.
+\tag{1180.31}
+$$
+准确范围是
+$3\le r\le p-2$ 为奇数、$2\le R\le p-3$ 为偶数。
+这不构造任何新的高权 universal moment 或中央覆盖；
+所扩展的是原 Tate fibre 的一次比较。
+
+### 9.1. small-weight 与整个 PD 尾界仍成立
+
+原 $H^0$ coefficient (1180.15) 不依赖 $j$。
+现在取其普通 $2j=r-1$ 次幂，并与原正 unit symbol 相乘。
+全部 syntomic weights 的和是 $r\le p-2$，
+所以仍在原 Tsuji exact comparison 的范围内。
+
+新的测试 unit $U_c=1+\widetilde c z^N$ 仍实际属于 $K$：
+$R$ 为偶数，故 §4 的同根证明不变。
+其 ordinary log leading 也不变，因为
+$$
+N/e=R/(p-1)\ge2/(p-1)>1/(p-1).
+$$
+trace 的最低 block 仍为 $u g^{r-1}$；
+first 和 second 槽在原模 $p$ normal complex 中都从 degree $r$ 起。
+
+本次必须重新核的是除以 $p^r$ 后的整个尾部。
+对任意 $n>r$，准确有
+$$
+n-r-v_p(n!)\ge1.
+\tag{1180.32}
+$$
+若 $n<p$，这就是 $n-r\ge1$。
+若 $n\ge p$，Legendre 的阶乘估值给
+$$
+v_p(n!)\le\frac{n-1}{p-1},\qquad
+n-v_p(n!)
+ \ge\frac{(p-2)n+1}{p-1}\ge p-1\ge r+1.
+$$
+因此全部 normal degree $>r$ 的项在 $\varphi_r$ 后都含 $p$；
+不是只核 $n<p$。
+
+剩余的 positive $\Gamma_{hp}$ 输出在 $N_u$ 下为零。
+它们属于 $J^{[r]}$，且在 $\varphi_r$ 下仍为零：
+最低 $h=1$ 的估值是 $p-r-1\ge1$。
+所以原两个 gauges
+$$
+y,\qquad \varphi_r(y)-\varphi_r(y)|_{\Gamma_0}
+$$
+都合法，(1180.25) 准确仍给
+$S=-c\gamma^{r-1}$。
+所有第零 block、$e$、Tate generator 及 $\sigma$ 的方向保持前文。
+
+### 9.2. 全部局部线的物理比较
+
+对本节每个 $r$，原非平凡偶 eigenspace
+$(K^\times/K^{\times p})_{\omega^{1-r}}$
+是一维，最早 cyclotomic 阶为 $R=p-r$。
+这正是 R1062 §9、R1071 §7 已付的一般偶角色 filtration，
+不是只对两条 forced 角色的维数断言。
+
+沿同一个 restriction/descent 定义
+$\ell_{j,\zeta}$，则 $c=1$ 的测试类给
+leading $1$ 和 physical value $\gamma^{r-1}$。
+于是对完整局部直线准确有
+$$
+\boxed{\qquad
+\mathcal F_r(\xi)
+ =\gamma^{r-1}\,
+     \overline{\varpi^{-(p+1)(p-r)}
+                    \log u_\xi},
+\qquad
+3\le r\le p-2,\quad r\ {\rm odd}.
+\qquad}
+\tag{1180.33}
+$$
+右边属于 $\mathbb F_p$，因为 $r-1$ 为偶数且
+$\gamma^\sigma=-\gamma$。
+这里 $\mathcal F_r$ 是原正 Kummer、原 Tate generator
+下的 physical finite FL 一次 translation；
+不是 syntomic 常数本身。
+
+因此，对任何已经存在的原 cuspidal 角色
+$\chi=\omega^R$，$R$ 非平凡偶数，
+其相应 Tate fibre 的整体比较单位是
+$$
+\gamma^{p-1-R}.
+\tag{1180.34}
+$$
+仍须保原函数、完整 leading、同一实际标记与 root phase。
+(1180.34) 不使某个尚未证明出现的角色自动进入原 $V$，
+也不替原 profile 的非常数性或共同 fibre 提供新结论。
+
+### 9.3. 同一未平均 Soulé 类的局部值
+
+对上述奇数 $r$，定义原第一层 cyclotomic 类
+$$
+\gamma_{r,1}
+ =\operatorname{Cor}_{\mathbb Q(\zeta_p)/\mathbb Q}
+  \bigl(\kappa(1-\zeta_p)\otimes\zeta_p^{\otimes(r-1)}\bigr).
+\tag{1180.35}
+$$
+这是未平均的 global corestriction。
+其 restriction 到 $K$ 的 unit 槽是
+$$
+\epsilon_{r-1}
+ =\sum_{b\in\mathbb F_p^\times}
+       b^{r-1}\kappa(1-\zeta^b).
+$$
+对 $r=3,5,7,9$，这与原记录的同名第一层一致；
+没有重新乘一个 projector 的 $1/(p-1)$。
+§4 的 normalized 测试类与本式的未平均 global 类是两种不同输入，
+不能混掉其次数。
+
+令 $a$ 是原圆单位使用的生成元。
+同一 real circular unit
+$\eta_a=\zeta^{(1-a)/2}(\zeta^a-1)/(\zeta-1)$ 满足
+$$
+e_{\omega^R}[\eta_a]
+ =(1-a^R)\epsilon_{r-1}
+ \quad\hbox{于 }K^\times/K^{\times p},\qquad R=p-r.
+$$
+其中 $1-a^R$ 是单位。
+R1071 (1071.24) 的完整有限 circular expansion 给
+$$
+\ell_{j,\zeta}(\operatorname{loc}_p\gamma_{r,1})
+ =-\frac{B_R}{R\,R!}\gamma^R .
+\tag{1180.36}
+$$
+它不除以 $B_R$，所以在相应 irregular 分支同样有效。
+
+由 (1180.33)、$\gamma^{R+r-1}=\gamma^{p-1}=-1$，
+物理坐标为 $B_R/(R R!)$。
+由于 $r$ 是奇数，Wilson 给
+$$
+R!(r-1)!\equiv-1,\qquad R\equiv-r\pmod p.
+$$
+故
+$$
+\boxed{\qquad
+\mathcal F_r(\operatorname{loc}_p\gamma_{r,1})
+ =\frac{(r-1)!}{r}\,B_{p-r}\quad\bmod p .
+\qquad}
+\tag{1180.37}
+$$
+所有显示分母都是单位。
+本式只给指定 global 类的 local value，
+不声称 global 类非零、global $H^1$ 为一维，
+或 localization 在坏 Bernoulli 分支仍为同构。
+
+### 9.4. 所需原 $j=3$、权七值
+
+特别，原 $R=p-7$ 对应 $j=3$，
+现在没有未付的局部缩放：
+$$
+\boxed{\quad
+\mathcal F_7=\gamma^6\ell_{3,\zeta},\qquad
+\mathcal F_7(\operatorname{loc}_p\gamma_{7,1})
+ =\frac{720}{7}B_{p-7}.
+\quad}
+\tag{1180.38}
+$$
+[R1181 §5.1](R1181-original-CM-integral-norm-tower-and-global-endpoints.md)
+已给原 Gaussian class-level norm
+$q_i^6\mathsf M_{12}=-61\,\gamma_7/2$
+于第一层；本字典给其相同物理读数
+$$
+-\frac{21960}{7}B_{p-7}.
+\tag{1180.39}
+$$
+这里 (1180.39) 只消费那条指定的 class-level norm，
+不由本篇重新构造或证明它。
+对 Gaussian supersingular $p\equiv3\bmod4$、$p>37$，
+因 $61\equiv1\bmod4$，显示系数为单位；
+故该实际 Tate 分量的零性与 $p\mid B_{p-7}$ 精确等价。
+这给原 $M_{12}$ 中槽与已付 mask 输入的局部字典，
+不把它扩展为整个高权 profile 的非零性或注入性。
+
+本次新增 §9 为纸面证明，无数学程序执行；旧 §§1–8 保持已发布正文。

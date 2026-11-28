@@ -1,5 +1,7 @@
 # 结论索引
 
+- **全部非平凡偶局部角色的绝对比较（已证明，R1180 §9）**：[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp、真实trace/e与合法PD gauge，付所有奇r=3,…,p−2的物理F_r=γ^(r−1)ℓ_(p−r)。原未平均γ_r局部值为(r−1)!Bp−r/r；特别γ7为720Bp−7/7。U_E=γ_E²、η★=1全部坏支，不需generic SS/β非零；保σγ=−γ、root phase及原角色出现条件，不新增global源。
+
 - **原Legendre互补矩与actual bad条件的Hankel单位（已证明，R1179 §12）**：[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原CM norm/符号给J4=−4βBp−3/C²、J6=360βBp−5/C⁴，C²=−4cω²，全部p>37。原Legendre同对T3=R(wPV³)、T5=R(wP³V⁵)、T7=R(wP⁵V⁷)准确为63J4/(4aν)、11J6/(8aν)、3J8/(128aν)；原M12中槽及R1181范数给T7零iffBp−7零。bad Bp−7/good Bp−5支，Λ=R(wPV³·),X=P²V²的Hankel det=−T5²单位。它非原Δlow，保全部mask；H_p0后heat二阶unit，余核桥继续。
 
 - **原CM全部精度范数与完整全局端点塔（已证明）**：[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM primitive全p^n范数含(1+p²)/(1+p⁴)；十二次Gaussian为−61(1+p⁶)γ7/2、cubic为−7(1+p⁶)γ7。整Teich群环/真实ray norm不除p-group，Δ角色付restriction单射。仅真实CM I∞作高层map，b修正保1+p⁴；global labels为x∞=(1+p²)x0、y∞=(1+p⁴)y0，Gaussian(x0,y0)=(δ̂/4,87δ̂²/44)、cubic=(2δ̂/9,160δ̂²/99)。无挠塔杀全部坏位中央惯性，完整fibre=[x∞,y∞]Θ∞含坏支；cubic最低全Z4可读，非CM有限I不外推whole盘。

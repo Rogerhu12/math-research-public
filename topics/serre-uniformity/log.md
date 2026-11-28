@@ -505,3 +505,8 @@
 ### 2026-11-28 19:26 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1179 §12以同一finite Legendre/ξ与固定权Bol计算，付T3/T5/T7三个互补矩的准确原尺度；新M12中槽用合法primitive c、原j8 Appell安全窗及R1181已成范数，给actual p|Bp−7 iff T7=0。
 - 在原bad Bp−7/good Bp−5支，Λ(1),Λ(X),Λ(X²)的真实Hankel det=−T5²单位；它与原Δlow未等同，仍须原两点余核桥。旧§§1–11保留，完成即推，无数学程序执行。
+
+
+### 2026-11-28 19:28 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1180 §9在原同根local source中将绝对字典扩至全部奇r≤p−2；对任意n>r的n−r−vp(n!)≥1保全部PD尾。实际physical为γ^(r−1)leading，未平均γ_r给(r−1)!Bp−r/r，含γ7的720/7尺度。
+- 原R1181 M12 norm现在可准确读为−21960Bp−7/7。旧§§1–8含strict h自证逐字保留，完成即推；没有新增高权universal对象或角色，原joint/真正高度继续。
