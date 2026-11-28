@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+/** Finite physical evaluations of the exact R325 mean-corrected slow packet family. */
+import {pathToFileURL} from 'node:url';
+import {pruferPackets} from './2ecf-slow-prufer-packet-tail.mjs';
+function exactMeanState(q,epsilon){let r=q.r,w=q.w,U=epsilon*q.U,V=epsilon*q.Ur,F=epsilon*q.f,T=epsilon*q.fr,g=9*U*U/8+2*F*F,gp=9*U*V/4+4*F*T,e=5*V*V/8+T*T/2,x=g/(r*r),y=gp/(2*r),den=1-x,w2=w*w,rad=w2-e+(2*y-y*y-x)/den,A=-g/(r*(1+Math.sqrt(den)));
+ const rp=(1-y)/Math.sqrt(den),af=((x-2*y+y*y)/den)/(rp+1),dc=rad>=0?(-e+(2*y-y*y-x)/den)/(Math.sqrt(rad)+w):NaN;return {ratio:rad/w2,rad,A,Ap:af,dc,g,e,x,y,frOverW:Math.abs(T/w)};}
+function slopeStudy(opts,epsilon=4e-6){let p=pruferPackets(opts),rows=[],all=[Infinity,null],mm=0,kg=0;for(let c of p.cells){let low=Infinity,witness,fr=0;for(let part of c.parts)for(let a of part.table)for(let v of [0,.25,.5,.75,1]){let q=p.layerPoint(c,part,a,a.u+v*(a.v-a.u)),r=exactMeanState(q,epsilon);if(r.ratio<low){low=r.ratio;witness=[c.n,q.r,q.phi];}fr=Math.max(fr,r.frOverW);kg=Math.max(kg,Math.abs(q.wr));}rows.push([c.n,low,fr]);if(low<all[0])all=[low,witness];mm=Math.max(mm,fr);}return {rout:p.rout,all,maxFrW:mm,kg,rows};}
+const options={cuff:.371,Z:.5724,shrink:1.5,prefix:0,delta:.018,slope:.00014,levels:45};
+function finiteMeanGeometry(opts=options,eps=2.8e-9){const p=pruferPackets(opts),root=Math.sqrt(12),gx=[.0198550717512319,.101666761293187,.237233795041836,.408282678752175,.591717321247825,.762766204958164,.898333238706813,.980144928248768],gw=[.0506142681451881,.111190517226687,.156853322938944,.181341891689181,.181341891689181,.156853322938944,.111190517226687,.0506142681451881];let CZ=0,first=[],last;
+ for(let n=p.cells.length-1;n>=0;n--){const c=p.cells[n];for(let part of c.parts)for(let row of part.table){let count=part.table.length===1?24:2;for(let k=0;k<count;k++){let l=row.u+(row.v-row.u)*k/count,d=(row.v-row.u)/count;for(let i=0;i<8;i++){let ph=l+d*gx[i],g=p.layerPoint(c,part,row,ph),m=exactMeanState(g,eps);if(!(m.rad>0))throw Error('negative finite radicand');CZ+=d*gw[i]*m.dc*g.r*part.val(ph)[2]/root;}}}let end=c.parts.at(-1),row=end.table.at(-1),g=p.layerPoint(c,end,row,Math.PI),m=exactMeanState(g,eps);last={n,r:g.r,physicalAxisRadius:g.r+m.A,physicalAxisZ:g.z+CZ,radialCorrection:m.A,heightCorrection:CZ,heightDerivative:g.w+m.dc,modeU:eps*g.U,modeF:eps*g.f};if(n<3)first.push(last);}
+ return {options:opts,epsilon:eps,outer:last,finalThree:first};}
+export {exactMeanState,slopeStudy,finiteMeanGeometry,options};
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){let o={...options,levels:Number(process.argv[2]??45)};console.log(JSON.stringify({geometry:finiteMeanGeometry(o),observations:slopeStudy(o,2.8e-9)},null,2));}

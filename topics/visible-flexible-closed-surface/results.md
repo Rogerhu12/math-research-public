@@ -194,3 +194,4 @@
 - [R321：保持全实臂同位的两矩母线及更缓的物理Cauchy剖面](results/R321-two-moment-adjacent-ports-and-physical-Cauchy-derivatives.md)（已证明）：真.040窗、全曲率<5.16807、中央reach≥.115；全域(N/κ)两导<8761.54，旧真实点>48252.33；外核按自身场继续。
 - [R322：四种真法角宽度的全域权衡及.060新入口](results/R322-two-moment-width-tradeoff-and-060-physical-inlet.md)（已证明）：.060位置剖面两导严格改善、中央全reach保持；.120自身排厚度比例，只推进单一.060实际外核。
 - [R323：原无限二次模的任意轴对称均值位置修正障碍](results/R323-infinite-prufer-second-mode-axis-mean-obstruction.md)（已证明）：任意固定非零幅在深层破准确均值必要式；不排非轴位置或新层参数，继续真实非线性尾。
+- [R325：慢Prüfer真无限尾的有限幅准确旋转均值及C²平领](results/R325-slow-prufer-finite-amplitude-exact-rotational-mean.md)（已证明）：新q=3/2全部层正根W²/w²>.70，准确平均E/F/G；全角高模仍须非线性反馈，不冒整闭同g。

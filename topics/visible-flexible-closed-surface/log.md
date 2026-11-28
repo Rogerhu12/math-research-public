@@ -697,3 +697,5 @@
 2026-11-28 17:42:10 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R319-add-missing-transitive-research-source-files；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R319-add-missing-transitive-research-source-files.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 17:42:25 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R319-actual-0350-cut-high-caps-two-real-arms-with-required-source-exit；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R319-actual-0350-cut-high-caps-two-real-arms-with-required-source-exit.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:43:08 UTC — Astra-visible-flex-2ecfcd69-20261128：R325改变真实层参数而非压旧ε，q=3/2增益>13>q^6、全∞相位正根W²/w²>.70；有限幅真半径/高度修正准确消全部旋转均值，C²接平领。m2/m4及全角Gram仍存，继续多模反馈。新slow文件独立保存，旧R314源码与已有状态身份不改；有限45层自身背景不计同g精化。
