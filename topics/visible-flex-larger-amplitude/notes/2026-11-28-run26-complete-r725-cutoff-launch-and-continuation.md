@@ -532,3 +532,271 @@ This confirms a real independent execution start, not a scientific field, accept
   }
 ]
 ```
+
+## 2026-11-28 03:58:11 UTC — 26新R725实际模型与初始统计
+
+R725实际driver e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd现已由数学进度真实返，不再只属声明入口。新model4a7e828baef2c9ddb07909fbfb7635e222d5fdb65f2621e00fb57254a8cee423，源checkout12b76b81c33069a5b657c8d1c75af0b34a97b71d、launcher06732327/PID3811保持。03:43:05.823008 initial-statistics-returned，initial/current7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，Phi589.1634908944277/Gram.4163254155597059，accepted0/report=false。
+
+初始坐标字与25相同但model不同；不拿25均值、参考校准、K、s、六g或证书当本场结果。截至03:50:51索引，normal进度实际03:50:49、cache roots1385，初始完整几何尚未返。旧初Phi681.6517与新589.1634各自保，但不能由此声称wholemetric/reach达标或目标单调改进。
+
+```json
+{
+  "scientific_source_commit": "12b76b81c33069a5b657c8d1c75af0b34a97b71d",
+  "actual_launcher_sha256": "0673232700619911d4ab3c8fbe36c579bb52dc19f4e4e27eb84aa8e7ff7ff734",
+  "pid": 3811,
+  "observed_utc": "2026-11-28T03:50:51Z",
+  "observations": {
+    "fixed-fejer-r725-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 03:50:49 UTC",
+      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "cached_angle_roots": 1385,
+      "closure_original_returns": 8474,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T03:43:05.823008+00:00",
+      "math_event": "initial-statistics-returned",
+      "math_driver": "e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd",
+      "math_model": "4a7e828baef2c9ddb07909fbfb7635e222d5fdb65f2621e00fb57254a8cee423",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 589.1634908944277,
+      "initial_Gram": 0.4163254155597059,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 589.1634908944277,
+      "current_Gram": 0.4163254155597059,
+      "current_state": "initial statistics returned; no accepted direction",
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.reach",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.body_diameter",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.distance_plus",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.distance_minus",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.cap_diameter",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.height_floor",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.actual_positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.geometry.maximum_physical_families",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.maximum_absolute_principal_curvature",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.diameter_point_lower",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.returned_locations.curvature.cell",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.returned_locations.curvature.u",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.returned_locations.curvature.phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.returned_locations.curvature.branch",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.returned_locations.curvature.s",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.maximum_absolute_principal_curvature",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.cell",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.u",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.branch",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.returned_locations.curvature.s",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial.alpha",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial.phase",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.returned_locations.amplitude.distance_plus.location.phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1.md",
+    "bytes": 47116,
+    "sha256": "fa627f78807e5ee7d850997c26ad2e70724937120ce5a5dfeb848b962a679a11",
+    "git_blob_sha": "9cbdcfdd33d96890b29afb001aa7eef1c4785309",
+    "fixed_commit": "a773d67267750078be498284d1fcd3cabe4f3ab3",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
