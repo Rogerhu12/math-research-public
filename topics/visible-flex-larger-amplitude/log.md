@@ -310,3 +310,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:33:53 UTC — 完整曲率数值pullback缓存源
 
 [五完整件](computations/complete-curvature-pullback-cache-source-delivery.json)已刊，全/半波严格分源；单次build_rows复用实际已返完整dk，全部原row/转置/范数/顺序及原失败保，64MiB仅保留payload上限。全key/源/point/根/矩阵/实际引用绑定，未命中与可选失败走原计算；不声称试步几何加速。close只释放，原normal/helper入口出口检查仍保。无实际运行/hit/数值结论。双README云核至`0f03dff57c8ea52cb8fe9224132f5f8cc9fb9845`无变（非pull）。
+
+## 2026-11-28 02:34:11 UTC — 25半波缓存及位置观测完整源家族
+
+[全11件535032B](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊（共享selector计一次）；137科学pair只4对改/133原对保，19runtime为原18加真实selector。driver7883d9/launcher804bb6/reader82a5c5，新observer4b63；完整原科学主体/历史/全域/预算保。pure在原小binder消费每个真实方向自身point的完整缓存记录，无新独立准入流程；25同22半宽/δ/μ，完整参和新64字段transport正接，未启动或假定模型点值。双README云核至`92b0e9f378b962ada3a740cda3234889794ae1cd`无变（非pull）。
