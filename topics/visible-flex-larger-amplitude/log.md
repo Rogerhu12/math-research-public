@@ -542,3 +542,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:51:47 UTC — R727准确消费者完整实施接口
 
 17991B/cfabdbbe说明直接发表：在准确Slerp完整积分及已证真根集合上，E1=J*saved_vphi+Fphi，E2用已付真vphi盒与全部mixed/二阶项，分别乘R727真根完整逆界，不搬旧chord三阶常数。K用固定seed H0/完整补集尾，非当前自由H；非急角不继d_z正界，profile支和w投影分母独立付。相邻/字面/周期以小真根冠包含另一唯一冠证明同支，全q<2无限尾及归一化角2齐。实际准确源码由geometry实现，费用未运行/未宣通过，不增任何科学前门。双README云核至`e7b4ed1f7e2154c9933d6f9e24967d59722b6953`无变（非pull）。
+
+## 2026-11-28 05:00 UTC — ret69十二份可复现旧数值输出普通退役
+
+完整四件210046B保12原producer、65直接输入角色、全部原参数/实际资源/结论与失败；只移出既定12完整旧生成JSON共503402B，净293356B，不改历史，精确原字节由59b80e551e8493348ee9886cdc4efec40a3cc1ff恢复。low46原独立命令/资源及一旧Jacobian SHA256未知仍null，不以重算冒旧身份；fine53/window13/cell12旧失败及rho/candidate false、outer未付保留。三份scratch DQ/parts输入未闭报告171511B明确不退，无数组编码/差分/分块载体；活输入/源参/证明不删。[完整交付](computations/legacy-exact-reports-retention-69-complete-delivery.json)及[全说明](notes/2026-11-28-legacy-exact-reports-retention-69.md)。README仍未完成，29全启动/准确费用继续。双README云核至`61b22830d9e55aa07eea05180f2e3101da4d29b4`无变（非pull）。

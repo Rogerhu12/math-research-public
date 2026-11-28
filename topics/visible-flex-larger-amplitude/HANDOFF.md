@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`e7b4ed1f7e2154c9933d6f9e24967d59722b6953`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活21–28通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`61b22830d9e55aa07eea05180f2e3101da4d29b4`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活21–28通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull，令牌仅CLI。所有根规矩及完整发布/观测工具责任保旧H。
 仅公开Actions科学；新raw只runner/scratch。保全源参/run/whole身份/typed/失败未知，无新AST/fixture/重跑/审查门或缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退可完整再生旧数据，保结论/全源参/恢复，不删活输入或唯一状态。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D=闭F0整像直径。同g/参数/t空间/频率/时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口须明示，继续加强比例。有限点/开放片/条件论证非完成。
@@ -24,7 +24,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret68](computations/legacy-exact-derived-reports-retention-68-complete-delivery.json)及67/66/65完整账保全源参/原结论失败/精确恢复；先前全措辞和原输入/旧reader责任见[ee53完整H](https://github.com/Rogerhu12/math-research-public/blob/ee53a577c6e06ec326a04877d6a6f3cc141bff35/topics/visible-flex-larger-amplitude/HANDOFF.md)。活输入/唯一状态/未闭来源不删。root独占refs/queue与实际启动；construction来源闭合旧数据；geometry准确费用及真实异常保存；solver29全参/R727接口。
+[ret69](computations/legacy-exact-reports-retention-69-complete-delivery.json)及68/67/66/65完整账保全源参/原结论失败/精确恢复；先前全措辞和原输入/旧reader责任见[ee53完整H](https://github.com/Rogerhu12/math-research-public/blob/ee53a577c6e06ec326a04877d6a6f3cc141bff35/topics/visible-flex-larger-amplitude/HANDOFF.md)。活输入/唯一状态/未闭来源不删。root独占refs/queue与实际启动；construction来源闭合旧数据；geometry准确费用及真实异常保存；solver30完整组合；geometry全角准确Slerp/R727。
 
 
 <!-- visible-larger-parallel-21:start -->
