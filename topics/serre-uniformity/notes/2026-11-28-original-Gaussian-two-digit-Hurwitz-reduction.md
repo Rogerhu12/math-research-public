@@ -318,3 +318,186 @@ $\omega^i\eta^{d-i}$ 和 actual Fontaine–Laffaille frame。
 也没有把这些新系数并入原 abelian good mask。
 原两点分离仍要控制 R1161 的指定 residue 或完整 weighted
 joint 条件。所有上述恒等式均为纸面证明，无数学程序执行。
+
+
+## 7. 同一 carry 的原超奇异 primitive 身份与换元边界
+
+本节进一步把 (G2.8) 的两个低块接到原
+$\Psi=D^{p-2}x$，其中 $D=\omega^{-1}d$。
+原 supersingular 规范给
+$D\Psi=-\beta=\delta$，且 $\Psi$ 仅在 $O$ 有 $p$ 阶极，
+其 $u^{-p}$ 首项为一。
+以下所有函数仍在同一个 Gaussian 曲线上；
+没有用另一个至多相差单位的 primitive。
+
+### 7.1. 真实有理 primitive 及其二挠点补偿
+
+在特征 $p$ 置
+$$
+\mathcal L
+ =uF_{\rm lo}(u^4)\mathsf R(u^4)^p
+ =-\frac{x^{(3p-1)/2}F_{\rm lo}(x^{-2})}{y^p}.
+\tag{G2.15}
+$$
+右式表明它确下降到原椭圆曲线函数域。
+因为
+$$
+\frac d{du}\bigl(uF_{\rm lo}(u^4)\bigr)
+ =(1+au^4)^m,
+\qquad
+\mathsf R(u^4)^p(1+au^4)^m=\mathsf R(u^4),
+$$
+准确有 $D\mathcal L=1$。
+
+定义 $\mathcal H=-\beta\mathcal L-(x^2/y)^p$。
+则 $D\mathcal H=-\beta$。
+它除 $O$ 和二挠点外没有极，各二挠点的极阶至多 $p$。
+在 $(0,0)$，分子最低 $x$ 次数为 $(p+1)/2$，
+故除以 $y^p$ 后正则。
+在另外两个二挠点 $x_T^2=-a$，
+分子的常数由下面完整有限 beta 和消去：
+$$
+\begin{aligned}
+F_{\rm lo}(-1/a)
+ &=\sum_{r=0}^m\frac{(-1)^r\binom mr}{4r+1}
+ =\frac{m!\,h!}{4r_0!},\\
+\beta F_{\rm lo}(-1/a)&=(-a)^{h+1}.
+\end{aligned}
+\tag{G2.16}
+$$
+第一式使用
+$\sum(-1)^r\binom mr/(z+r)=m!/(z)_{m+1}$，
+这里 $z=1/4=h+1$，全部因子小于 $p$。
+第二式由与 (G2.6) 相同的 Wilson 身份得到。
+
+于是 $\mathcal H$ 在这两个点的 $p$ 阶极系数为零。
+因其导数全纯，任何剩余的 $1,\ldots,p-1$ 阶极都会
+给出不可消的导数极，所以这些点也正则。
+在 $O$，$\mathcal H$ 的首项为 $u^{-p}$，极阶至多 $p$；
+它关于 $[-1]$ 为奇。
+与同一原 $\Psi$ 相减后，导数为零、仅在 $O$ 有至多 $p$ 阶极，
+故差是一个至多有一阶极的函数的 $p$ 次方。
+椭圆曲线不存在非恒定的一阶极函数，奇性又排掉常数。
+因此是全函数域的准确身份
+$$
+\boxed{\qquad
+\beta\mathcal L=-\Psi-\left(\frac{x^2}{y}\right)^p .
+\qquad}
+\tag{G2.17}
+$$
+这里的 $(x^2/y)^p$ 是付清二挠点极的实际补偿，不能丢掉。
+
+### 7.2. 在逆 $x$ 参数中的完整低权 Frobenius 项
+
+令原 Weierstrass $\zeta$ 沿同一 logarithm $v$ 满足
+$\zeta(v)=v^{-1}-\sum_{j\ge4}G_jv^{j-1}$。
+直接积分 $d\zeta/dv=-x$，或沿原 Gaussian 加法式，可得
+$$
+\zeta(v(u))
+ =\frac1{u\mathsf R(u^4)}
+       -\frac a3u^3\mathsf G(u^4).
+$$
+因 $x^2/y=-u^{-1}\mathsf R(u^4)$，
+在 $u$ 次数 $<p$ 的安全范围准确有
+$$
+\boxed{\qquad
+2au^3S(u^4)=\zeta(v(u))+\frac{x^2}{y}.
+\qquad}
+\tag{G2.18}
+$$
+这里 $S$ 只读 (G2.7) 中的 $\ell<h$；
+首个未付的 $\mathsf G$ 分母恰在 $u^p$，未被使用。
+
+记 $\zeta^{<p}_u$ 为 $\zeta(v(u))$ 的 Laurent 前缀，
+保 $u^{-1}$ 及所有次数严格小于 $p$ 的项。
+它的系数都是 $p$ 整，且来自原 $G_4,\ldots,G_{p-3}$
+及同一安全换元。
+将 (G2.18)、$C=2a/\beta$ 代入 (G2.8)，再用 (G2.17)，得到
+$$
+\boxed{\qquad
+\Psi(E(u))
+ =\bigl(\zeta^{<p}_u\bigr)^p-\beta\,v(u)
+       \pmod{u^{p^2}} .
+\qquad}
+\tag{G2.19}
+$$
+本式先在已付的整系数前缀还原后成立；
+其中 $v(u)$ 只取次数 $<p^2$。
+$\zeta^{<p}_u$ 的负首项和 $(x^2/y)^p$ 的负首项确切抵消，
+不是额外添加一个全纯函数。
+
+### 7.3. 换回 logarithm 时必须缩小的范围
+
+不能把 (G2.19) 的 modulus 原样搬到 characteristic-zero
+logarithm 参数 $v$。
+由 (G2.9)，逆换元 $u(v)$ 首个可能不整的项在 $v^{p^2}$，
+其系数有一个 $p$ 分母。
+而 $\Psi$ 在 $O$ 有 $p$ 阶极：
+将这个项代入 $u^{-p}$，可能已经影响
+$v^{p^2-p-1}$。
+所以本节只在严格更低的范围作 reduction。
+
+在该范围，各整 Laurent 前缀的换元均可约化，
+负 $p$ 首项的上述边界尚未进入；
+将 $\zeta^{<p}_u$ 换回同一 $v$，
+其 $p$ 次方只需原权 $\le p-3$ 的安全项。
+因而实际得到
+$$
+\boxed{
+\Psi(E(v))
+ \equiv v^{-p}-\beta v
+     -\sum_{\substack{4\le r\le p-3\\4\mid r}}
+                  G_r^{\,p}v^{p(r-1)}
+ \quad\text{在所有次数 }<p^2-p-1 .
+}
+\tag{G2.20}
+$$
+左边取原整多项式 $D^{p-2}x$ 的 characteristic-zero lift
+后作同一 logarithm 读取；
+在这个严格范围内，它与 (G2.19) 的 reduction 相容。
+保持同一极阶至多 $p$ 的不同整 lift，其 $p$ 倍差也尚不能在此范围贡献：
+其极阶至多 $p$，首个可能由不整换元抵消的 $p$ 因子
+同样不早于 $p^2-p-1$。
+
+这是一条带明确极点损失的桥。
+不能在未补精度时将它乘上 $\Psi$ 的高幂，
+也不能把右端的低精度相等用于更高 pole 的乘积。
+
+### 7.4. 此桥实际读到的高权系数
+
+因为在 characteristic zero 中
+$\Psi(E(v))=(d/dv)^{p-2}x(v)$，
+可以在 (G2.20) 的安全范围直接比较系数。
+当 $M=pr$ 时，下降乘积与 $(M-1)$ 合成 $-1$，
+故
+$$
+\boxed{\qquad
+G_{pr}\equiv G_r^p=G_r\pmod p,
+\qquad 4\mid r,\quad 4\le r\le p-3.
+\qquad}
+\tag{G2.21}
+$$
+这里 $G_{pr}$ 整，因为 $pr-1$ 是单位且相应的
+$x(v)$ 系数仍在首个不整边界前。
+最大被读次数为 $p^2-4p<p^2-p-1$。
+
+当 $M=pr+1$ 时，下降乘积与原系数合成 $-rpG_M$。
+相应 $pG_M$ 整，且 (G2.20) 的非 $p$ 倍指数项只有 $-\beta v$。
+因此
+$$
+\boxed{
+pG_{p+1}\equiv\beta,\qquad
+pG_{pr+1}\equiv0
+\quad(1<r\le p-2,\ r\equiv1\bmod4).
+}
+\tag{G2.22}
+$$
+这里 $r$ 为单位，最大被读次数为 $p^2-3p+1$，
+同样未到边界。
+其它 Gaussian 不允许的权原本为零，不据本式增加观测。
+
+(G2.21)–(G2.22) 只覆盖显示的两个指数类别。
+R1168 的 $M_{d,i}\equiv-(i+1)\bmod p$ 一般不在其中，
+所以仍须保 (G2.11)–(G2.14) 的实际 section 和完整乘积。
+本节固定了原 $\Psi$、低权 $\zeta$ 与新两位 carry 的同源关系，
+没有由此宣称任一原 joint minor 或最高中央项为单位。

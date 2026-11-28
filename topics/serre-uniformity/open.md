@@ -73,7 +73,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原全部cone的SDR/H0=H2=0已付，只读normal0/t+k。§§10–11原V′_i直接给c_dk=binom(d,k)b_E^k/(k+1)、m_dk=p²−1−pd+(p−1)k，A=(4−2⁻d)cG_m，A′i=c(2σG_m(E/C_i)−2⁻dG_m)；商用实际Vélu ω_i且σ保留，不套同CM基。ΣA′=A，故B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}。全部高G整性、original/primed尺度及原最高corr加权值已成，未宣单位；原未平滑和Π2/4继续。
 
-[原Gaussian两位carry](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)将R1168全部p²高G准确降为≤12项、degree≤5的p-section及≤h低读数；唯一carry=2a/b_E、首不整边界pF_(e/4)=−1。完整R/F/S与中间G_(3p−1)保留，不外推旧低权反射或宣非零。
+[原Gaussian两位carry §§1–7](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)R1168高G降为≤12项/degree≤5 sections和安全低R/F/S；carry=2a/b_E、pF_e/4=−1。实际βL=−Ψ−(x²/y)^p及ζ桥保二扭补偿，换log仅到<p²−p−1；安全G_pr=G_r、pG_p+1=β、其余指定pr+1为0。目标m_dk一般不属此类，原section/中间G3p−1和joint仍保。
 
 原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
 

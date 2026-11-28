@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian carry与实际Ψ的函数桥（已证明）**：[两位carry §7](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整finite-beta消二扭极，锁βL=−Ψ−(x²/y)^p；换回log明确损失极点精度，只在<p²−p−1读得G_pr=G_r及指定pG_(pr+1)。原R1168指数一般不在这两类，完整sections和高pole余项保留。
+
 - **原三个primed矩与最高相关项的三同源闭式（已证明）**：[R1168 §§10–11](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)直接读原V′_i给A′i,dk=c_dk(2σG_m(E/C_i)−2⁻dG_m(E))，全部quotient微分归一、σ和高权整性由实际短模型支付。B_kl化为c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}，最高corr不再留未知raw项；仍保原未平滑及数值非零门。
 
 - **原correlation到同源Frobenius的实际功能方程（已证明）**：[R1159 §5](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)给定Norm点先取product群的kerL逆像，再由完整ordered恒等式pushout，得到Zcorr=(n⁴+n⁻¹¹)Z0−n²ΣSym¹²(ψ_C⁻¹)Z0(E/C)，BCH同式。原根/crossed修正由实际图实现，二同源η的exact项与shear完整保留；未把V_n改成单点v_n，B_n局部读取继续。
