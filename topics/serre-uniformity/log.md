@@ -423,3 +423,10 @@
 ### 2026-11-28 17:26 Asia/Taipei — Astra-serre-24b8836b-20261126
 - Gaussian高窗§13付同核Fay的完整对角极消去、有限系数范围及原Π2 corr首槽jet配对。root逐式核乘积trace、正规双除法、原mask及所有同源比例/常数；明确双参数替换后的2倍指数相位，完成即推。
 - 原H_p0只使该槽化unit·H_p''d1，没有把corr值或完整矩消失加入共同纤维假设；继续实际因子与原算术未平滑，无数学程序执行。
+
+
+### 2026-11-28 17:42 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1174付全部原SS的未分歧Aut相容CM参考与n2最高/Π2相关读数；完整CM shear、σ、raw ordinary source及PD支持保留，κ与Frob单位严格消去，使用R1173独立abelian输入。
+- root亲读Voight/Katz/Yu指定primary并全文纸核；o2独核§§4–8。只扩大n2，不以一条T2方程替共同核，最低Tate及一般ℓsource继续；无数学程序执行，完成即推。
+
+- 同步main发现根README新增第16条（子代理显式gpt-6.2-astra/ultra），只读新增差异，已通知全部运行分支并立即适用于新派发；已读提交fb3965f7。H/open前态逐字归档。

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **全部超奇异CM参考点的实际二同源相关读取（已证明）**：[R1174](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)从原极大整序选p处极大CM作用，height-one与一般Serre–Tate给未分歧Aut相容参考；整CM双特征标架保μ=η+sω。原n2 source/normal支持延伸全部参考，未知κ及Frob单位在Π0/Π2双线性读式严格消去，右端由R1173实际A/A′给出。对应CM quotient运输diag(1/2,1)，返回预选参考仍保全部shear/Δ；一般ℓ和最低Tate读取继续。
+
 - **原同核Fay有限读取与Π2首槽的真实jet因子（已证明）**：[Gaussian高窗 §13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整三商乘积trace经Fay消去，清两对角极后只需核总阶≤2p+15，全部p carry保留。原Π2 corr的η8槽=(1519J_p d1−13068H_p c3)cω²/(8192β²)，在actual必要条件H_p0上为unit·H_p''d1。原Δ_low条件与Bernoulli分支逐条保留，不由相关槽增加未给vanishing，也不省未平滑算术项。
 
 - **原Fermat两条有界链的完整混合norm（已证明）**：[quadric续篇 §11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)同一自伴三极算子保两个非齐次源，极界与角色锁AK−vBR0=D²I−M0/b0及原zN=vδ/(2ρ)。共同零的实际T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，保完整ℓ±^p和全部ve项；该非零norm尚未排原双jet，不新增消失假设。

@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-abelian-Brandt-reconstruction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-all-SS-CM-readout.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -64,7 +64,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1159–60](results.md)actual Norm群图给原ordered/BCH跨同源功能式，ψ_i⁻¹为ω_i↦ω/2、η_i↦η−e_iω/2。原J_n/算术B_n及三个整未平滑来源已给；一般Frob共轭路径仍须实读，非单点v_n倍数。
 
-[R1166–68](results.md)ordinary βU、first=0、y_k,n从k+1起及J0=0已付。原同核Bkl=A4kA8l−Σ_iA′i4kA′i8l；最高corr BCH=Σ(k−l)Bkl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换(k+1)/(k+l+2)。全部raw/primed高G与σ、Vélu及真实尺度有来源；无未定U槽，中央单位未证。
+[R1166–68、R1174](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全部SS可取未分歧、Aut相容CM参考点；原n2 ordinary源与J0=0扩至全套，未知κ及实际反对角Frob单位严格消去。Bkl=A4kA8l−Σ同C A′C4kA′C8l；Π0/Π2 corr BCH=Σ(k−l)BklΠr/[2(k+l+2)]，ordered换(k+1)/(k+l+2)。A/A′由R1173及真实quotient增量读取；对应CM基diag(1/2,1)，返回参考基仍保完整shear/σ。一般ℓ及最低Tate源、中央非零仍开。
 
 [原Gaussian高窗 §§1–13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原/三quotient全部d4/8高槽由完整Appell与整τ降至G_(p−5)/G_(p−9)低heat列，σ/CM gauge/odd–odd及p carry全保。全同核Fay清除T−S/U+V两对角极，只需核总阶≤2p+15。原Π2 corr η8=(1519J_p d1−13068H_p c3)cω²/(8192β²)，H_p0时为unit·H_p''d1；原mask不要求该corr零，actual未平滑与联合排除仍开。
 
@@ -92,7 +92,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
-[R1171 §§1–13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及quotient模p²首位给三槽完整仿射方程；最低BCH保−λ∞ΔX T/2。共同辅助族ℓ⁶≠1 mod p保原分裂域p-unit与k4单位，允许ℓ>p；Cayley–Hamilton补trace，三受限族均为单位理想。一般SS abelian参考输入现由R1173支付；中央corr及最低cyclotomic独立值仍待付，不循环定义RHS。
+[R1171 §§1–13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及quotient模p²首位给三槽完整仿射方程；最低BCH保−λ∞ΔX T/2。共同辅助族ℓ⁶≠1 mod p保原分裂域p-unit与k4单位，允许ℓ>p；Cayley–Hamilton补trace，三受限族均为单位理想。一般SS abelian现由R1173支付，n2最高/Π2 corr由R1174支付；足够辅助族corr及最低cyclotomic独立值仍待实读。
 
 [R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02完整分类排权6/10 p-new的惯性1⊕ω^(d+1)，故Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)在同μ6外族生成单位理想。原Norm与有限Δ给W A=D，D只用coefficient crystal、实际quotient modp²位置及同源，正号/σ/shear全保；有限重建终止，未实际运行。T_i=24B_(p−5)/5由原weight-five abelian比较独立付所有p>37；中央corr读值及原全局/whole盘排除仍开。
 
