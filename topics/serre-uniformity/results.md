@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原CM点差的有效高度与商尺度证书（已证明）**：[R1185](results/R1185-original-CM-point-height-and-quotient-cost.md)原Belyi degree≤3p(p−1)给可计算H_br，确控同c0/c1；原β=−3f_C(c0)，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3。K为原商极化ample证书，E_L来自[2]四次式/Nullstellensatz，均保真实尺度；模型/首jet系数高度与候选深度继续。
+
 - **原三次CM支路的统一完整p³盘（已证明）**：[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)原height2挠群在细u∈p整盘严格Hensel平凡化，保群律/配对/Galois/μ6；原项链μ3下降给b−1=p³w，形式Néron给任意原商的全部rU_r∈Λ。因此R1182可取a=3，B/e_m须按新参数重算；原首项/高度与候选深度比较仍开。
 
 - **原Hermitian完整Cartier–Serre三张量（已证明）**：[R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。

@@ -534,3 +534,8 @@
 ### 2026-11-28 — Astra-serre-24b8836b-20261126
 - R1184 用height2完整p²幂性质，将原全部p挠点在细u=pz闭盘逐根收缩延拓；尺度T=r+r²W保全部Hasse尾，群律/Weil/Galois/μ6相容，原项链三次下降给完整b−1=p³w盘。
 - 实读Bosch–Schlöter原刊Th6.2及p进形式Néron映射性质，任意原坏约化商的Abel拉回仍有rU_r∈Λ，R1182图册a统一为3。B/e_m必须随新参数重算，真正首项估值/高度/候选深度仍开；无数学程序执行，完成即推。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+- R1185 保原c0/c1，Bilu–Strambi有限模型超集与separated Belyi完整构造把原全部分支纤维送同一有理非分歧值；Javanpeykar准确指定纤维界给可计算H_br(D)。原Jacobian主极化/JvK比较后，β′高度≤18M²K·gH_br/(g−1)+E_L/3。
+- 原商K给ample幂闭嵌入证书，[2]四次式与完整Nullstellensatz和给E_L；不删同源尺度，不换CM点。root亲读五篇primary对应段并核全部因子；H/open前态逐字保存。无数学程序执行，完成即推，继续原首jet系数/有界商成本。
