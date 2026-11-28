@@ -1,0 +1,346 @@
+{
+  "schema": "bent-disk-Killing-Haar-design/v1",
+  "fixed_source_hashes": {
+    "bent_disk_shoulder.py": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+    "bent_disk_arclength.py": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6",
+    "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+    "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+    "bent_disk_killing_fields.py": "cddef04056578a3e2b14f4506c3484b8ed0ee9e0de98757a0572617924805469",
+    "bent_disk_killing_target.py": "030b617ad9fa9d5e8ec626dd9732fc751eb2670935867294f882a3c27c2cf2f2"
+  },
+  "disk": {
+    "straight": 0.3,
+    "bend_width": 0.26,
+    "ramp_fraction": 0.125,
+    "disk_quadrature": 32
+  },
+  "markers": [
+    [
+      -0.11,
+      -0.07,
+      0.045,
+      0.00002
+    ],
+    [
+      0.1,
+      -0.07,
+      0.05,
+      0.00002
+    ],
+    [
+      -0.02,
+      0.11,
+      0.055,
+      0.00002
+    ]
+  ],
+  "witness_x": 0.995,
+  "witness_ball": 0.55,
+  "body_radius": 1.375,
+  "section_area_floor": 0.08,
+  "geometry_price": 2.5,
+  "curvature_price": 10.75,
+  "bending_weight": 0.55,
+  "shape_directions": 10,
+  "support_center_world_x": 0.58,
+  "support_goal": 0.085,
+  "support_weight": 7,
+  "tensor_softness": 2.5,
+  "select_bending": 1.35,
+  "jacobian_probe": 1e-7,
+  "field_regularizer": 0.00004,
+  "clock_margin": 0.18,
+  "designs": [
+    {
+      "id": "horizontal",
+      "parameters": {
+        "gamma": 0,
+        "height": 0.17,
+        "shift": 0.12,
+        "join": 0.025,
+        "end_height": 0.025,
+        "left_handle": 0
+      },
+      "extra": 0.54
+    },
+    {
+      "id": "tilt32",
+      "parameters": {
+        "gamma": 0.32,
+        "height": 0.32,
+        "shift": 0.16,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0
+      },
+      "extra": 0.58
+    },
+    {
+      "id": "tilt44",
+      "parameters": {
+        "gamma": 0.44,
+        "height": 0.37,
+        "shift": 0.19,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0
+      },
+      "extra": 0.58
+    },
+    {
+      "id": "soft32",
+      "parameters": {
+        "gamma": 0.32,
+        "height": 0.32,
+        "shift": 0.16,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0.09
+      },
+      "extra": 0.58
+    },
+    {
+      "id": "soft44",
+      "parameters": {
+        "gamma": 0.44,
+        "height": 0.37,
+        "shift": 0.19,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0.09
+      },
+      "extra": 0.58
+    },
+    {
+      "id": "native"
+    },
+    {
+      "id": "two-handle32-18",
+      "parameters": {
+        "gamma": 0.32,
+        "height": 0.32,
+        "shift": 0.16,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0.14
+      },
+      "extra": 0.58,
+      "right_handle": 0.18
+    },
+    {
+      "id": "two-handle32-30",
+      "parameters": {
+        "gamma": 0.32,
+        "height": 0.32,
+        "shift": 0.16,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0.14
+      },
+      "extra": 0.58,
+      "right_handle": 0.3
+    },
+    {
+      "id": "two-handle32-42",
+      "parameters": {
+        "gamma": 0.32,
+        "height": 0.32,
+        "shift": 0.16,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0.14
+      },
+      "extra": 0.58,
+      "right_handle": 0.42
+    },
+    {
+      "id": "two-handle44-30",
+      "parameters": {
+        "gamma": 0.44,
+        "height": 0.37,
+        "shift": 0.19,
+        "join": 0.006,
+        "end_height": 0.006,
+        "left_handle": 0.14
+      },
+      "extra": 0.58,
+      "right_handle": 0.3
+    }
+  ],
+  "field_stage": {
+    "id": "linear-on-original-geometry",
+    "spans": [
+      3,
+      8,
+      2
+    ],
+    "mode": 10,
+    "radial": [
+      13,
+      31,
+      9
+    ],
+    "angular": 96,
+    "check_radial": [
+      26,
+      73,
+      19
+    ],
+    "check_angular": 320,
+    "field_iterations": 340,
+    "max_feval": 0,
+    "lsmr": 0,
+    "regularizer": 0
+  },
+  "continue_count": 2,
+  "coupled": [
+    {
+      "id": "alternating-physical-1",
+      "spans": [
+        3,
+        8,
+        2
+      ],
+      "mode": 10,
+      "radial": [
+        13,
+        31,
+        9
+      ],
+      "angular": 96,
+      "check_radial": [
+        26,
+        73,
+        19
+      ],
+      "check_angular": 320,
+      "field_iterations": 480,
+      "max_feval": 72,
+      "lsmr": 110,
+      "regularizer": 0.00001
+    },
+    {
+      "id": "alternating-physical-2",
+      "spans": [
+        4,
+        12,
+        3
+      ],
+      "mode": 14,
+      "radial": [
+        16,
+        43,
+        11
+      ],
+      "angular": 128,
+      "check_radial": [
+        30,
+        99,
+        23
+      ],
+      "check_angular": 448,
+      "field_iterations": 580,
+      "max_feval": 85,
+      "lsmr": 150,
+      "regularizer": 0.000004
+    }
+  ],
+  "haar_cache": {
+    "parts": [
+      22,
+      59,
+      17
+    ],
+    "half_steps": 112,
+    "rtol": 2e-9
+  },
+  "haar_independent": {
+    "parts": [
+      35,
+      94,
+      25
+    ],
+    "half_steps": 176,
+    "rtol": 4e-10
+  },
+  "haar_compare_radial": [
+    27,
+    77,
+    21
+  ],
+  "orbit_radial_scales": [
+    1,
+    0.8,
+    0.55,
+    0.3,
+    0.14,
+    0.05,
+    0
+  ],
+  "fixed_refinements": [
+    {
+      "id": "fixed-Haar-1",
+      "spans": [
+        5,
+        14,
+        4
+      ],
+      "mode": 15,
+      "radial": [
+        17,
+        49,
+        13
+      ],
+      "angular": 144,
+      "check_radial": [
+        31,
+        109,
+        27
+      ],
+      "check_angular": 480,
+      "field_iterations": 0,
+      "max_feval": 82,
+      "lsmr": 155,
+      "regularizer": 0.000002
+    },
+    {
+      "id": "fixed-Haar-2",
+      "spans": [
+        7,
+        18,
+        5
+      ],
+      "mode": 20,
+      "radial": [
+        21,
+        61,
+        15
+      ],
+      "angular": 176,
+      "check_radial": [
+        39,
+        137,
+        31
+      ],
+      "check_angular": 576,
+      "field_iterations": 0,
+      "max_feval": 98,
+      "lsmr": 180,
+      "regularizer": 9e-7
+    }
+  ],
+  "moment_disk_radial": 65,
+  "moment_radial": [
+    37,
+    107,
+    29
+  ],
+  "moment_angular": 384,
+  "cloud_nr": 11,
+  "cloud_shoulder": [
+    5,
+    9,
+    4
+  ],
+  "cloud_angular": 48
+}

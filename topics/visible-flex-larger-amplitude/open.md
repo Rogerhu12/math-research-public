@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/c6487109da3d44eb997e72acd3326f36bfa1da4f/topics/visible-flex-larger-amplitude/open.md)逐字保全部原源参/预算/命令/域/路径、模型/点/六族K、typed、失败未知与旧链。§1–6原23359B不动；未达README，继续实际求解，不把阶段、窗口或现输入困难作终点。
+[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/78431ea8c1989f7e47fb9bed4c02d9d572b7d1d4/topics/visible-flex-larger-amplitude/open.md)逐字保全部原源参/预算/命令/域/路径、模型/点/六族K、typed、失败未知与旧链。§1–6原23359B不动；未达README，继续实际求解，不把阶段、窗口或现输入困难作终点。
 
 ### 各自实际运行
 
@@ -114,12 +114,12 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science2c8739ed/PID3435/model726006；初7e06/accepted0、Phi25127.568861304877/Gram.8838253080334753，完整几何尚待。139角色/24runtime、1,333,370 outer变量全自由、713/719+64live及原632/625全部路径/预算保，自然返才pure74162。异source/model不借同坐标费用。
 
 [36完整](notes/2026-11-28-run36-bent-disk-complete-launch.md)：46141466656/1自然RC0、全部八阶段返；同冻结数值g两细化独立Gram .8454746923566958→2.17427627577303、末K样本57.85981285612486，明确未达标。[全终态](notes/run36-bent-disk-46141466656-1.json)保完整源参/各点/NPZ身份及三相2829点；不把离散held/D/弦当连续证书。
-[37完整](notes/2026-11-28-run37-arclength-complete-launch.md)：必要完整重生36八阶段并核04/05整点，四有限起点/两设计/同一640角函数两细化；真实盘六jet正常延拓、E⊥/B完整费用和支撑目标，实际续录ownnote。原失败不冒新结论。
+[37完整](notes/2026-11-28-run37-arclength-complete-launch.md)：46142745238/job140972094276自然RC0、全部八新阶段返；必要36八阶段重生及04/05整点已核。同一640角函数两精化Gram .917120251188229→.670383394669527、K9979.338755307148→2631.2958394，仍不达标。完整原终态保notes/run37-bent-disk-arclength-46142745238-1.json。
+[38完整](notes/2026-11-28-run38-free-radial-Killing-complete-launch.md)：十实际六jet起点、自由径向X、两条F/X交替、一次冻结Haar目标及两细化；8完整源参92568B现刊触发，实际待查。原fixed.cx及原基固定，换基X只诊断。完整流/同g/全reach等仍待。
 
 ### 已证明的准确范围与新输入
 
-R724–733及735–739全部证明/准确源参保[索引](results.md)及固定全文：原参考held/D、末肩/帽/core部分Gram与法球、单帽平坦核/全有限阶、闭面等距端点对和真Hu发展判据，均不付中央全域/贯穿大幅同g路径/全部厚度。
-[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)全415片补发success、T*=1.1294006338228755e−5；[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)全415片13280叶真返同g双侧全角浸入半宽≥.5384265521561006、矩形段≥.264316681320779且II≤5；全部双侧有序.16法球只证1/200。比较不确不证物理失效，全闭合仍未付。
+R724–739全部证明/源参/实际失败保[索引](results.md)及固定全文，不将局部、单帽、有限阶、端点或弱held当强闭族。R738全415片实际同g浸入半宽≥.5384265521561006、全部有序.16法球仅半宽.005；全闭合仍未付。
 
 [R740](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md)两完整闭C²初场每相位嵌入，D<2.60/held≥.564/grip≥.60/δE>0，触握盘全部有序对.08球。滚肩末环K>40失败；椭圆正宽末柱R_b/1.01球不付中肩全reach/角Gram。完整积分生成器可用，独立36/37实际场。
 [R741](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md)完整环叶E⊥/B方程、双端二jet/全变分、自由径向Killing全时误差与反射W>0的无holonomy圆作用已证；Haar给一个精确冻结g*，后继δ全相位不放大。37固定叶法已跑、38真实Killing/形状求解继续；准确flow/全误差/全reach仍待付。
