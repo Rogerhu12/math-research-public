@@ -90,7 +90,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 原raw第二中心及其全部matrix系数已付，不能重列为source缺口。实际未平滑仍有J_n,2/B_n,2的同源局部读取；Π4最低中心保λ∞ a4γ5，尚未由此完成。
 
-[R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格的Bℓ=ℓ^dTℓ保原归一；具体整Hecke序提升及半稳定惯性界给最高/Π2余有限算子族单位理想。只对有限格成立；原Z0一般有s¹⁴提升差，须以同abelian中央差或完整affine常数实现，且补足实际辅助素数族，不能直接令Z0=0。
+[R1170 §§1–10](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格Bℓ=ℓ^dTℓ保归一；整Hecke序提升及半稳定惯性界给Π0/Π2/Π4三族余有限单位理想。原Z一般有s¹⁴提升差；须按R1171的同abelian仿射差使用，保一般SS与实际辅助族的独立RHS读取，不能直接令Z=0。
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 

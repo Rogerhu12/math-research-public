@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最低Π4算子的超奇异共同核（已证明）**：[R1170 §10](results/R1170-original-supersingular-Brandt-common-kernel.md)接R1172真实Tate n⁻⁴后Vℓ,4=(ℓ⁴+ℓ⁻¹¹)−ℓ⁻²Tℓ^(4)=ℓ⁻⁶(ℓ¹⁰+ℓ⁻⁵−Bℓ)。实际权6 p-new整序及半稳定惯性[0,5]排ω¹⁰⊕ω⁻⁵，余有限族生成单位理想；三个原中央归一均齐，不代各自actual RHS局部读值。
+
 - **原中央Frobenius的真实参考提升仿射化（已证明）**：[R1171](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格的半线性有限Taylor给Δ=Ccoeff expσ(ξL)exp(−σ(ξLcoeff))Ccoeff⁻¹，完整ordered/BCH平移不含参考中央常数。实际商曲线模p²首位与原shear把功能式变为有限SS Brandt方程，R1170可作用于同abelian原候选差。一般SS abelian/corr独立值和足够辅助族仍保，不假定绝对Z约化不变或循环定义已知RHS。
 
 - **原最低中央Π4的完整Tate相关与未平滑（已证明）**：[R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)真实product/Norm图保Tate n⁻⁴，n2 corrected raw系数精确31²/128（primitive为(1+p⁴)倍）；完整crossed项另含λ∞n⁻²(η4杯γ5+R)。实际V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v2,4=3·11·31²/2¹¹全p>37单位，三个中心的整未平滑接口齐全。最低独立raw局部值和一般算术路径仍需读取，裸degree4 S/U填充由端点functional排除。

@@ -1,8 +1,8 @@
-# R1170：原同源归一的超奇异 Brandt 格与两个中央算子族的共同核
+# R1170：原同源归一的超奇异 Brandt 格与三个中央算子族的共同核
 
 日期：2026-11-28  
 会话：Astra-serre-24b8836b-20261126  
-状态：下述有限格定理及整 Hecke 单位理想已证明；原中央读数进入该格、以及足够辅助素数上的实际功能方程，仍须分别支付。本文没有执行数学计算。
+状态：§§1–8 的前两个有限格定理及 §10 的最低槽扩展、整 Hecke 单位理想已证明。原候选中央差的仿射有限化另见 R1171；实际右端与辅助族仍须按其来源使用。本文没有执行数学计算。
 
 ## 1. 结论与准确范围
 
@@ -253,3 +253,52 @@ $$
    [作者完整原文 PDF](https://xavier.caruso.ovh/papers/publis/smaller.pdf)，[作者出版页](https://xavier.caruso.ovh/papers/publis/galois.html)。三个定理在该作者稿 PDF 第 3–4 页，已逐项亲读。本文基域始终 $\mathbb Q_p$，故使用 $e=1$，没有把系数域分歧指数代入。
 
 本结果的新增部分是：原倒向同源的精确 $\ell^{12}$／$\ell^8$ 归一、实际整序的残余提升，以及两个目标算子族的无条件单位理想。其应用范围以 §8 为准。
+
+
+## 10. 最低中央槽的原系数算子也生成单位理想
+
+[R1172](R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md) 已支付原最低槽的完整 Tate 运输。四次 Weil 收缩要求中心 map 为
+$$
+\ell^{-4}\operatorname{Sym}^4(\psi_C^{-1});
+$$
+原 product 的外部 $\ell^2$ 因此留下 $\ell^{-2}$。相应有限格算子为
+$$
+V_{\ell,4}=(\ell^4+\ell^{-11})-\ell^{-2}T_\ell^{(4)}.
+\tag{1170.28}
+$$
+取 (1170.6) 的同一个实际晶体构造、令 $d=4$，得到 $\mathcal B_4$；其 $\bmod p$ 扩域仍为完整 $\operatorname{Sym}^4H^1_{\rm dR}$ 的自同构不变量。§3 的实际 coefficient 方向给
+$$
+B_\ell=\ell^4T_\ell^{(4)},\qquad
+V_{\ell,4}=\ell^{-6}
+  \bigl(\ell^{10}+\ell^{-5}-B_\ell\bigr).
+\tag{1170.29}
+$$
+因此它的特征零系统来自权 $6$、级别 $p$ 的 $p$-new 形式，标准 Galois 行列式为 $\chi^5$。
+
+对任意含 $p$ 的有限素数集 $\Sigma$，令
+$$
+\mathbb T_{4,\Sigma}=W[B_\ell:\ell\notin\Sigma].
+$$
+若 $(V_{\ell,4}:\ell\notin\Sigma)$ 不为单位理想，§4 在这一具体有限无挠整序中给实际新形式和系数素理想，使
+$$
+a_\ell\equiv\ell^{10}+\ell^{-5}\pmod{\mathfrak p}
+\qquad(\ell\notin\Sigma).
+$$
+由 Chebotarev 和相同的行列式，
+$$
+\overline\rho^{\,\rm ss}\simeq\omega^{10}\oplus\omega^{-5}.
+$$
+Saito 的同一相容性给 $\mathbb Q_p$ 上半稳定；Caruso 取 $r=5<p-1$，要求半单惯性权在 $[0,5]$。上述两角色的标准权为 $10,p-6$，在 $p>37$ 时均超界。故
+$$
+\boxed{\quad
+(V_{\ell,4}:\ell\notin\Sigma)=\mathbb T_{4,\Sigma},\qquad
+\bigcap_{\ell\notin\Sigma}\ker V_{\ell,4}=0
+\quad\text{于 }\overline{\mathcal B}_4.
+\quad}
+\tag{1170.30}
+$$
+模 $p$ 作用不必半单，系数域也不必未分歧；§§4–5 的稳定格与子商论证原样适用。
+
+至此三个有限算子族均有单位理想，分别对应实际 $\Pi_0,\Pi_2,\Pi_4$ 的归一。最低相关项还含 R1172 的真实 Tate-five 修正，不能把它改成裸 $\Pi_4$ raw 源。本文的有限格结论也没有把足够多素数的相关项局部值、所有一般 SS 参考点的 abelian 输入或真实 affine 右端认作已经读取；这些是继续使用本式所需的独立输入。
+
+本节仅延长本文已核原来源与 R1172 的实际系数式，没有新增数学程序或数值窗口。

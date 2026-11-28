@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：b9c4fbd6d0a109177f6d66d1973ee5a3eeed4e8e**（2026-11-28 16:57 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：fa2c1204fe139d36c79a8a0f9b725351edaef2ee**（2026-11-28 16:58 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 16:27:06 Asia/Taipei，Actions run46125850781/job140920159380，blob:none浅clone后真实pull --rebase至887df1e0且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤17:17、pull≤17:27。本地16:26仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -24,7 +24,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1155、R1162–67](results.md)原whole Bst/43格整比较、Miller/全塔/SS frame、ambient/residue SDR及F/Q全已付。原xP=−b_Ez^p(1+γp)ω−zgη；PD normal与14/28界、β=Li₂†+AB₀+J、Z=𝔟(A,A)−H、原CM整数/全部carry及λ正号均沿原文/逐字前态，不重列未付。
 
-[R1156–60](results.md)原raw/SV全noncusp、J_n与算术B_n均已构造，h0=(hCorr+J_n+B_n)/v_n，n2/n5覆盖p>37。R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0−n²Σ Sym¹²(ψ_C⁻¹)Z0(E/C)，ordered/BCH同式；ψ_i⁻¹在原dR基为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。不是v_n单点乘法；一般B_n/原F0仍须实际读，三中心λ∞不删。
+[R1156–60](results.md)原raw/SV全noncusp、J_n/算术B_n及最高n2/n5整未平滑均已构造；R1159 §5 actual Norm群图给跨同源ordered/BCH功能式。原ψ_i⁻¹为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。一般Frob路径仍须实读，非单点v_n乘法；λ不删。
 
 R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n从k+1起、J0=0及a=N_u y。最高corr完整nonlinear SDR给BCH=−R_ZJ；R1168 §§8–9已继续实读全部所需J：设B_kl=A4,k A8,l−Σ_iA′i,4,k A′i,8,l，则BCH=Σ(k−l)B_kl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换系数(k+1)/(k+l+2)。所有rank1/rank2、原根/同陪集Cor保留；不再有未定U读数，未宣单位。继续原未平滑J_n/B_n与Π2/4。
 
@@ -34,7 +34,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2 degree8 S/U×Weil²、Fil12及全部normal读数已付，BCH权(k−l)/(2(k+l+2))作用同核B_kl的Π2。V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2全p>37单位；原J/B局部读值仍保。
 
-[R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格的Bℓ=ℓ^dTℓ保原归一；具体整Hecke序提升及半稳定惯性界给最高/Π2余有限算子族单位理想。只对有限格成立；原Z0一般有s¹⁴提升差，须以同abelian中央差或完整affine常数实现，且补足实际辅助素数族，不能直接令Z0=0。
+[R1170 §§1–10](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格Bℓ=ℓ^dTℓ保归一；整Hecke序提升及半稳定惯性界给Π0/Π2/Π4三族余有限单位理想。原Z一般有s¹⁴提升差；须按R1171的同abelian仿射差使用，保一般SS与实际辅助族的独立RHS读取，不能直接令Z=0。
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
