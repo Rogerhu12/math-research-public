@@ -105,14 +105,14 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 真实数值及独立比较
 
-固定Fejer g/M160/J923/N2048/32stage；全157/7词、458/445formal、原变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知。19 science/pure0、N1无报告/异常入口已刊，20取消未返；21–28完整report未返，进度不可接准确费。
+固定Fejer g/M160/J923/N2048/32stage；全157/7词、458/445formal、原变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知。19 science/pure0、N1无报告/异常入口已刊，20/21取消未返；22–29完整report未返，进度不可接准确费。
 
 | 完整记录 | 已登记实际边界 |
 |---|---|
 | [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled；末2b1c/accepted3/g2.0441496553824883，8fb0仅统计。 |
 | [19](notes/2026-11-28-run19-complete-return-normal-fee-failure-and-continuation.md) | 20d617/accepted4/g.9662472339877322；science/pure0，N1无report、原因未知；官方success只是终态。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | cancelled@04:46:09Z；末e70a/accepted3/g.9658357818598327，a6b304仅统计；report未返，取消原因未知。 |
-| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；8c472拒，359c4刚起。 |
+| [21](notes/2026-11-28-run21-official-cancellation-and-last-complete-observation.md) | cancelled@05:37:58Z；初7e06/accepted0/g2.541916739245917，359c4仅统计，无report；原因未知。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；e906e/accepted2/reachg.5237169415657044；b34824仅统计。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；87c076/accepted2/g.9678293850088526；6a101刚起。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 半波b5/8；ff7dc8/accepted2/reachg.6115910089638068。 |

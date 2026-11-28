@@ -25,3 +25,7 @@
 ## 2026-11-28 05:44 UTC — 29重试完整队列父编号遗漏修正
 
 根改request_id却漏queue parent，实际05:36:11索引已明确queue mismatch并等待，无科学child；不把等待当计算。只将完整queue父编号改为visible-larger-resume-20261128-29-retry1，74379B/99b0b5c4b1c5312e7bd8afba5b78c6fcd29c35abcf57d598f851fc727e717294；整反替还原旧74372B，全部3step/6/26/157与summary/64live/预算原字保。现有run46112781312原35s poll续取，不改request/workflow、不重启第三runner、不取消child。原“queue未改”由[完整更正](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)明确覆盖当前绑定；未来pure也需同active父ID。双README云核至`9cc76364309717210aada8730bfcba0833c9973c`无变（非pull）。
+
+## 2026-11-28 05:43:46 UTC — 21官方取消及最后完整实际边界
+
+21官方completed/cancelled@05:37:58Z/job140790598810，研究step05:37:53Z取消；取消原因未知，不由350min相近或29容量故障猜因。最后05:34:24索引仅两输入返回，科学report/自然退出未知；当前初7e06/accepted0/Phi3233.3855489912225/Gram.6568825757487662/g2.541916739245917。359c4仅新统计3233.3855488826853/.6568825758300012，几何未返。原95194B说明不改，[完整终态](notes/2026-11-28-run21-official-cancellation-and-last-complete-observation.md)保全部官方对象/全进度/固定原身份及末真pull槽；只移已终态21槽。双README云核至`d694399b6058b02ef1f34343583bd1e9c9edf079`无变（非pull）。
