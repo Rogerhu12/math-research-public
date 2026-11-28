@@ -39,3 +39,7 @@
 ## 2026-11-28 10:58:53 UTC — 读取R734及旧27/28/29/31/32自身官方失败日志
 
 诊断原完整job日志只在公开runner读取，保各完整异常/官方steps/whole日志身份与R734若有的完整逻辑stdout小结，先R734再五旧run，不重做科学。新 .github/workflows/visible-larger-completed-runs27-32-failure-evidence.yml 为本题故障证据（课题外）；稀疏只取小源与README，容量由完整remote树size加新note计，不以稀疏文件夹少算，也不触发ls-tree -l逐blob取回。 双README云核至`d81b291b6d9b01dda078df40ba2c01a4cdcbadc0`无变（非pull）。
+
+## 2026-11-28 11:01:45 UTC — RET100E：18旧实际返回归档独立完整再生
+
+旧04/05/06/08/09共18派生archive739563B的77完整参数step/实际return由24独立whole原队列或已刊记录精确恢复；5个按原run的完整其余metadata、ledger及再生器保每个原字段/报错/null/序号/原数值拼写，含原ECMAScript转录的准确原字，净677289B。原archive自身不作再生输入；所有原queue/request/生成器/科学raw保持。 双README云核至`6ba550036050a03dc99b433e349c8e6aabd7ce3d`无变（非pull）。
