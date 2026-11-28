@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **89f416b3c39057ef22441e194f343a24553ebe27**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **c6cc5ff63ee0dc36b511f10d935b1da7b6eeac2f**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -18,11 +18,11 @@
 
 [R643真0d9a](notes/2026-11-28-r643-1566-0d9a-rule-terminal.md)：run46134171516/sourcebc779996续3310.24427324秒/2接受/η2.21791e−7，先判原d1f8四分之一步；保86da/H.5188903877153482/amp1e−5/τ1、950work→1728×512fine/双位置。3JQR未存/必要重建计费，R618旧5400秒0接受/Y差分15/16债留原note。
 
-R648–R653全尾三jet/真C²正collar/法管仍欠，R658无穷差不代分母；R663旧FINAL缺dense，12分母0已证。R668只消费下次自然现场已付对象（3%信用/25秒/保末读），七源各C/scale缺口保留，不重旧ODE/root/J。R672给28+61样条有理差、全环Taylor primitive、度量/真曲率全材料覆盖接口，七源/三jet/外正collar缺项仍开，只接下一自然已有场。
+R648–R653/R658/R663/R668/R672的七来源真C²/三jet/正collar/分母/法管仍欠，各失败与未存字段/费用保原文。R663的12分母0已证；R668只读下次自然已付场（3%信用/25秒/保末读）；R672给样条差与连续材料门接口，禁止重旧ODE/root/J。
 
 ## C：B030真实34aa与原外18未完J
 
-[R692](results/R692-actual34aa-paid-qualification-and-unfinished-working-jacobian.md)源run46140899878新增2370.199226253秒/8接受34aa，1940×3072资格η.1847597091/g0；当前973粗/1948要求fine/2173峰/1372工作/3459338标量行，不混资格和新要求。外18已付40J块+1值未存，无该轮QP/trust决定，保真trust.45050811767578125/3403H数/27乘子/82梯度；只重建必要原J并记费。全20参数原门不变，旧430未知费/8635队列/未存数组/启动失败全留，费下界33630.598231605秒。以后中断仅留实际已付块，无虚构矩阵；仍变量g。
+[R692](results/R692-actual34aa-paid-qualification-and-unfinished-working-jacobian.md)源2370.199226253秒/8接受34aa；资格1940×3072η.1847597091/g0，当前973粗/1948要求fine/2173峰/1372工作/3459338行。外18真40J块+1值未存，只必要原J重建收费；保trust.45050811767578125/3403H/27乘子/82梯度，未作该轮QP决定。全20参数原门不变，旧430未知/8635队列/启动失败/费下界33630.598231605全留。自然后继run46146663846已结束，真实末态尚待读取续接；仍变量g。
 
 ## D：原完整BVP与材料对齐四端
 
@@ -44,7 +44,7 @@ R655/R662的D<1/hold≥.201/dH≥.3/reach≥.03仍需同候选全域法向/曲�
 
 R680proper相位真厚锚sinθ.27/偏心帽.56已付κ<32.8/reach.03/D<1/hold.201/dH.3024，E_sharp只必要长度。R683112接受279.610253657秒/η.0304898/κ28.7128非停滞、E未冻；[R687](results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md)完整帧G,d/周期真F、双角曲率/两jet/N对3N，run46146623642自然468.454786866秒/100接受，R703真1604参273c656f/双轴η.03491061/κ27.0645/长度−.00081162，E未冻；新两curl接此态，旧100J/五段已付。仅λ1真实径向E全门后冻结/精化，连续证欠。
 
-R675五响应原账保留；R685准确矩小应变不控弯曲，[真12步](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/3152列/q−.004/η4.45883e−5/κ29.0581。[R691](results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md)保同g/全g±.03b/L4行/内圈插结升频，当前场1e−6后真扩大空间至1e−8才扩角；连续族未付，旧响应/矩/站不重跑。
+R675全五响应旧账保留；R685准确矩不控弯曲，[原真12步](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/3152列/q−.004/η4.45883e−5/κ29.0581。[R691](results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md)保同g/全g±.03b/L4与原QR，先1e−6再扩大空间至1e−8才扩角。自然run46146638022新1982.649944039秒/58接受/62J/81QR/2升空间，R711接真终态；旧矩/站/响应不重。
 
 R689球Taylor/真角积分/原结与两个冻结目标，只消费自然已过门场；新解析重建不冒充原109项角/离散积分场。可验真实q全区间，未授任意精化或完成。
 
@@ -65,5 +65,7 @@ R693另以C0(0)源/下领真半转；[R697](results/R697-free-axial-crown-transl
 [R699](results/R699-all-point-principal-curvature-of-the-real-wide-cap-shoulder.md)真实宽肩全点曲率；[R700](results/R700-global-normal-tube-of-the-actual-old-cap-and-cylindrical-shoulder.md)完整老帽/肩/恒柱任意点对双法球，reach≥1/10.4，异帽>.90。R706另付帽—全弯主片两有序方向，启动.03后法球距余量>.001；负领须真实C⁰≤.0002/C¹法向≤.008，未知窗跨件仍欠。
 
 R704真平面材料展面六控制/实行列式给小相位中央完整两jet同g，R708续真实全幅SE(3)；两纵外区和整壳reach未付。
+
+R709在真解析双脉冲的全相位负领给u=t²≤4e−8的双曲存在/唯一性，真实|m|≤3.465t、|l|≤246.015t²与法向改变<7.1e−8，支付R706帽—负领两方向。数值位置仍须真实样条三/四导余项门(4)，未假付有限母线或全窗。
 
 旧任务和全部失败/费用见[完整open归档](open-archive-through-R690-20261128.md)及各原文。R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g且δE可0。连续同g全时、真实多t全网格/存在差距/全完成门仍未付，继续实际新输入。
