@@ -305,3 +305,7 @@
 ## R663：从真实已付dense多项式到有限分母的连续误差
 
 [完整证明](results/R663-actual-finite-denominators-from-paid-dense-polynomials.md)把原DOP853各步展开为准确有理七次试函数，保带符号角增长、log范数残差、重标跳跃/物理短桥及平尾→body→core全部变图；11普通A和forced自己的C独立处理。原首根只用残差包围、不重求；消费者只接现成对象及准确M25首窗。旧0d9a FINAL没有dense，实际分母仍0个已证，原七源误差不删。原字面FINAL与提取补LF的不同hash已分清。
+
+## R664：真实凸活动圈与同度量负曲率整圈帽领
+
+[完整证明](results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md)用严格凸的同周长活动母线取得D<9.4、reach≥1、固定开片>2和整像差>5.8。统一帽领度量dt²+(1+bt⁴)²ds²的完整Gauss–Codazzi在u=t²后为带正耗散的对称双曲系统；全圈周期解与真实二jet一致，足够短的同一领保C²/嵌入/reach比例。仍有两开边圈，不能当闭盘；原具体全帽A拼接已由R666排除，留作失败输入，真正中心闭合仍须另付。
