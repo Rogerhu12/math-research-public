@@ -1,0 +1,251 @@
+{
+  "schema": "isp-original-fixed-norm-proof-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "job_id": 140919309079,
+  "driver": {
+    "elapsed_seconds": 13.608183498000002,
+    "max_child_rss_kib": 55960,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "85e32a6c96a40c236c915030017a0972b06493ed",
+        "before": "85e32a6c96a40c236c915030017a0972b06493ed",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T08:23:30.959787+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46125572734",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "85e32a6c96a40c236c915030017a0972b06493ed",
+    "source_exit_code": 0,
+    "source_git_blob": "f7aa6e677ca3d4e2a59c146f0c35e7ec4fdc6cc9",
+    "source_sha256": "c6e8acc0e71c119fd76f8213f2934daacc8ec728cb44b5a51f8541413e3a6eef",
+    "stdout_bytes": 4658,
+    "stdout_sha256": "61c5fdd4b56580f0ed29b30d4314c7dd0ed94bc92805f4989423271fef815ed6",
+    "stop_reason": null
+  },
+  "constant_factor": {
+    "degree": 40,
+    "sha256": "ba88a205beb579a18de711c9fd61514716099afeed94954736246cedf733a16a"
+  },
+  "source_basename": "2026-11-28-unit211-Phi-zero-true-Bzero-large-fixed-original-norms-8542.py",
+  "environment": {
+    "ISP_B_FACTOR_DEGREE": "40"
+  },
+  "limits": {
+    "source_seconds": 120,
+    "source_memory_bytes": 1073741824,
+    "driver_seconds": 135
+  },
+  "actual_stages": [
+    {
+      "constantDegree": 40,
+      "existingMonicLambdaSix": {
+        "coefficientBytes": 39839,
+        "constantDegree": 40,
+        "lambdaDegree": 6,
+        "sha256": "9a94efc0ec88870b215b47b5175bbc4832b9c3f75c66d14e16d59ab845198cfe"
+      },
+      "monicOmegaCoefficientDegrees": [
+        2,
+        1,
+        0
+      ],
+      "necessaryPrefixSHA256": "a922242b457a02320499c8157642aa920ac930001bace88d4ce59b1ed5f90201",
+      "noCoefficientPayloadPrinted": true,
+      "oldFullSourceSHA256": "a44a8fc4ca4842d97c4d94215250e8399f5988407c3971bdc68ffe96b3b77a48",
+      "oldI6FullRationalMatrixNotExecuted": true,
+      "oldSixPairGCDAndOriginalReturnNotExecuted": true,
+      "originalFourRowDegrees": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "seconds": 0.38891438899999997,
+      "stage": "new_B_fixed_norm_original_input"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 40,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 101756,
+        "constantDegree": 40,
+        "lambdaDegree": 8,
+        "sha256": "7f6d70fb808ebbdd314ea9c3fb0f6b81ea70eeed14e0768e3f0ca5f44171c700"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 0,
+      "remainderDegree": 5,
+      "seconds": 0.4202551680000006,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 40,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 113112,
+        "constantDegree": 40,
+        "lambdaDegree": 8,
+        "sha256": "1ad29a4319afc15814b1bce19c5ffc9031f96f33fb4d6c837f36ef2d0c5b6aac"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 1,
+      "remainderDegree": 5,
+      "seconds": 0.46477353699999924,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 40,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 118677,
+        "constantDegree": 40,
+        "lambdaDegree": 8,
+        "sha256": "5ea414fd5a2ac9e25973b5edad4b1b152163f0f40830c41724bd68a00e21144a"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 2,
+      "remainderDegree": 5,
+      "seconds": 0.5136747350000022,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 40,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 61675,
+        "constantDegree": 40,
+        "lambdaDegree": 6,
+        "sha256": "36db01881088eb7c36c353ad8c87456b58fb40f22b7a337f874647583fdce30f"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 3,
+      "remainderDegree": 5,
+      "seconds": 0.535442720999999,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 40,
+      "monicGCDDegree": 1,
+      "seconds": 13.019037425000004,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 0
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 40,
+      "monicGCDDegree": 1,
+      "seconds": 13.145141675000001,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 1
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 40,
+      "monicGCDDegree": 1,
+      "seconds": 13.274196417999999,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 2
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 40,
+      "monicGCDDegree": 1,
+      "seconds": 13.345792665999998,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 3
+    },
+    {
+      "actualFinalRelation": {
+        "coefficientBytes": 15829,
+        "constantDegree": 40,
+        "lambdaDegree": 1,
+        "sha256": "da857429ce495f99a8122be93572a2ea843d686399306736f686cc563b0851ee"
+      },
+      "allComplexConstantEmbeddingsKept": true,
+      "allRemainingLambdaAndOmegaMultiplicityKept": true,
+      "completeThreeCoordinateOriginalI4IdentityReturned": true,
+      "constantDegree": 40,
+      "fullNecessaryQQEnvironmentDimension": 80,
+      "newFixedNormIdentityCoordinates": 15,
+      "newMonicNecessaryLambdaDegree": 1,
+      "newNorms": [
+        {
+          "coefficientBytes": 101756,
+          "constantDegree": 40,
+          "lambdaDegree": 8,
+          "sha256": "7f6d70fb808ebbdd314ea9c3fb0f6b81ea70eeed14e0768e3f0ca5f44171c700"
+        },
+        {
+          "coefficientBytes": 113112,
+          "constantDegree": 40,
+          "lambdaDegree": 8,
+          "sha256": "1ad29a4319afc15814b1bce19c5ffc9031f96f33fb4d6c837f36ef2d0c5b6aac"
+        },
+        {
+          "coefficientBytes": 118677,
+          "constantDegree": 40,
+          "lambdaDegree": 8,
+          "sha256": "5ea414fd5a2ac9e25973b5edad4b1b152163f0f40830c41724bd68a00e21144a"
+        },
+        {
+          "coefficientBytes": 61675,
+          "constantDegree": 40,
+          "lambdaDegree": 6,
+          "sha256": "36db01881088eb7c36c353ad8c87456b58fb40f22b7a337f874647583fdce30f"
+        }
+      ],
+      "noDOrLambdaOrTOrNormInverse": true,
+      "noOriginalI6MatrixOrPositiveTargetExecuted": true,
+      "oldLambdaDegree": 6,
+      "ordinaryISPClaim": false,
+      "originalLinearHeadZeroFibersKept": true,
+      "otherConstantFactorNotTested": true,
+      "seconds": 13.577532678999997,
+      "sourceSHA256": "c6e8acc0e71c119fd76f8213f2934daacc8ec728cb44b5a51f8541413e3a6eef",
+      "stage": "new_B_fixed_original_norm_complete_result",
+      "wholeBExcluded": false,
+      "wholeFactorExcluded": false,
+      "wholePhiExcluded": false
+    }
+  ],
+  "conclusions": {
+    "monic_lambda_degree": 1,
+    "necessary_QQ_environment_dimension": 80,
+    "exact_original_quotient_dimension_not_claimed": true,
+    "whole_F40_excluded": false,
+    "whole_B_excluded": false,
+    "whole_Phi_excluded": false
+  },
+  "prior_memory_gate": {
+    "run_id": 46124522483,
+    "source_exit_code": -6,
+    "kept_frozen": true,
+    "not_reexecuted": true
+  },
+  "coefficient_payload_saved": false
+}
