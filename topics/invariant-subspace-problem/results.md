@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：全 W 原伴随矩阵的五个纯 lambda,T 三次新输入](notes/2026-11-28-unit211-W-whole-adjugate-five-pure-cubics-original-return-8542-input.md)：原伴随行与全域f恢复给五条全图必要三次，不倒raw行列式；原十一式及全部头零面保，唯一首次180秒4GiB待actual。
+
 - [R150：全 W 同一 f 的十一条纯 lambda,T 原条件实际全返](results/R150-appendix-unit211-W-same-f-eleven-pure-lambda-T-original-conditions-complete-return.md)：6.894556505秒/0；I6/I11双向、完整加权与个别NP、十一式几何度4/3/3/3/4/4/4/6/6/6/5，71权分母及853精除全返，原纤维仍开。
 
 - [R150：F99 首次整个常数域 u-gcd 的真实截止与冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)：180.077303773秒118780KiB/−14；仅原P单式三次规范化完成，联合P/M gcd与后继均未返，整个F99/F300保。
