@@ -201,3 +201,6 @@
 
 
 2026-11-28 11:22:18 UTC / visible-exact-astra-b0d5a16-20261128：ASQ18。同原WMA/UACT whole成功记录、真lift primitive homotopy与真实固定J/S预算，给整个Theta trial误差<.26、原低96误差<.025、真T^{-1}<2.694；无重算旧目标或私数组。root全读原两actual及原公式，20新精确Fraction比较一次全过；物理PDE全逆和完整matched square未成。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actual-signed-Theta-trial-and-finite-inverse-by-primitive-residual.md","bytes":7319,"sha256":"82d2beb80d2023c0747c6c0927f0c98dd3fcebcb9376333496e05e55b38ce0f4"},{"path":"topics/visible-flex-exact-nearby/notes/2026-11-28-ASQ18-root-new-rational-comparisons.json","bytes":4123,"sha256":"44bb6125e8ad0511dda1be352f1732eaefe63f9cac345f885940f004d06061dc"}]。
+
+
+2026-11-28 11:30:00 UTC / visible-exact-astra-b0d5a16-20261128：META13。原55ded99ef7ffb88da998985a328a1dd818dd0fa2完整保存；对另200件在全部当前tracked/untracked文本中无路径/父目录/unique leaf/原SHA/blob引用的旧legacy manifest，仅删除字符串外空白，JSON值与每个literal逐字节不变。毛释放1298484B，完整receipt94814B，净1203670B；whole receipt SHA256 73400c4d0c11b62a0dac44a35b490d7ca2343011d8697d539cda3e5ba819fb30。无科学重算，pull后重核整件身份及所有增量/未跟踪引用；为TC真实缺格续算和完整终态保留空间。
