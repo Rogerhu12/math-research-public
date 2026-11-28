@@ -97,3 +97,9 @@
 - d770整正e负k稿全文根核：原一阶ell/κ与D/K展开、Q≠1 q1/3的完整N5首值−20/3，Q1时d与2a全部三段；高阶M和H=−3双根原q2/r³=16均保完整余项。
 - 临界H中mu≠−3以原D=MS排H1，完整N5及同K原R6给μ²3和μ²−9μ−21矛盾，5μ+12零单独余254；lambda零中心H1/3/−3全排。没有新执行或裸mod提升。
 - 第五ray已闭，只余正e零k、内部及已付分母DVR。新ellpole run46171289266已完成但待actual判读；Phi新odd NP及Haar实际双源继续，普通ISP未完成。
+
+2026-11-29 01:47 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2125实际main 11404dffad34371b6c6db10407afda5a8abdfd35，run46171501378/job141060720252；17:38:09 UTC pull a061db14bffb15f3500a04b34858e2f23fd13050两README无变，私库QUEUE进行中核回。
+- 3f9e唯一run46171289266/job141060069093实际0.030981101秒/38012KiB/0，原r0一般中心四有理原身份及两原Bézout(μ+1)²全返；stdout1826B/SHA171e7f…，17:35:39 pull8c4936f3规则无变。
+- 新纸完整覆盖ellpole的b<a、b>a两μ、b=a极点/深M/一般中心，整个正e k−2 ellpole关闭；结合正ell旧排，k−2仅ell单位，未作QQ空性提升。
+- 新1de1985完整odd NP八列/两固定九源cofactor及2e9d9c ellunit有限μ三原模型已全文根读，独立首次120秒/1GiB；旧目标不重跑。L1/μpole及Haar不同分母双源继续，普通ISP未完成。

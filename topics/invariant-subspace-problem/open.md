@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-positive-e-negative-k-diagonal-2125-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-entire-positive-e-ell-pole-2130-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保。负e/正k/负k/负e正k已闭；新[正e负k整对角原排除](results/R150-appendix-unit211-W-b0-positive-e-negative-k-entire-diagonal-ray-exclusion.md)保全部Qunit，Q≠1唯一q1/3被N5排，Q1的vδ小/大/等于2ve及H=1/3/−3全部退化由原D=MS/N5与矩逐一排。五ray已闭，只余(1,0)及内部/已付分母DVR边界。正e k≠−2必λ单位；k−2已付Z=(k+2)/e整、ell单位或极点，极点新两原剩余式唯一首派30秒/256MiB已运行待读actual，未预报单位。整W空性继续。
+W旧闭支/≤616824、b0≤23088与U0另3保。五ray已闭，只余(1,0)、内部/已付分母DVR。正e k≠−2必λ单位；新[k−2整个ell极点原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-ell-pole-original-exclusion.md)覆盖vβ与ve三相对阶、μpole和r0−1任意深M；一般等阶完整R6/N5缩放及3f9e唯一0.030981101秒/38012KiB/0返回两原Bézout(μ+1)²，未作QQ模空性提升。结合正ell已闭，k−2只余ell单位。新有限μ原q2/R6/N5剩余模型两固定8/7阶Sylvester、三原返旧U正幂首次120秒/1GiB待实际；L1 μpole局部纸支继续，整W空性未付。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088与U0另3保。负e/正k/负k/负e正k已闭；
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-正确Phi全权10/每权≤9、QQ公共总45/u5、F*=−QdetM1、同σ16/C10与全权首一qt/exact I6十列保。新[第二NV头二十列/三个完整七源标量](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)d20唯一4.379637371秒/54564KiB/0，两个原首一环境、20普通来源/80坐标、三4阶cofactor及全部七原反传已返。实际λ5/6/6、总40/36/39，头总35/30/33未付；无单位/gcd/空性/点数改进，物理商非自由。第一头三scalar gcd与旧两Q内存门继续冻；后继完整odd NP、所有剩余原均值/值/权头继续。
+正确Phi全权10/每权≤9、QQ公共总45/u5、F*=−QdetM1、同σ16/C10、全权首一qt/exact I6十列保。[第二NV头二十列/三完整七源标量](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)d20真4.379637371秒/54564KiB/0，20列80坐标，λ5/6/6、总40/36/39，头35/30/33未付，无单位/gcd。新完整odd N/P八列/32坐标，两固定[0,4,20,24]/[0,8,20,24]九原cofactor首次120秒/1GiB；只再生必要定义与3基列，旧20列/3cofactor不重跑。新未付头全保，物理商非自由，第一头gcd/旧两Q冻。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
