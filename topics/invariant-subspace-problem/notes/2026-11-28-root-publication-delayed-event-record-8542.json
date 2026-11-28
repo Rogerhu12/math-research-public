@@ -1,0 +1,38 @@
+{
+  "schema": "isp-root-publication-delayed-event-record-v1",
+  "preparedSourceCommit": "2fe11093dfce94631b00082ee0621aed15eb3a7a",
+  "actualSuccessfulRun": 46110420356,
+  "initialEventWasDelayed": true,
+  "stoppedTransportRuns": [
+    {
+      "run": 46110384344,
+      "sourceCommit": "85c51afa8dd5ab3c1db2a706b2549bbf6db51598",
+      "reason": "exact reviewed parent check",
+      "mainPushed": false,
+      "mathematicsDispatched": false
+    },
+    {
+      "run": 46110604312,
+      "sourceCommit": "16c67240c52a3274279fcce0a765c65d67e7d396",
+      "reason": "pull rebase stopped after original conclusion had already published",
+      "mainPushed": false,
+      "mathematicsDispatched": false
+    },
+    {
+      "run": 46110741640,
+      "sourceCommit": "b4da86bf459cd6f4b148e5905895e80bc98d71ef",
+      "reason": "pull rebase stopped after original conclusion had already published",
+      "mainPushed": false,
+      "mathematicsDispatched": false
+    }
+  ],
+  "actualLines": [
+    "ISP_PRIVATE_COORDINATION_PULL {\"actualPullRebaseSucceeded\": true, \"baselineCommit\": \"e7276f299009cda775c627579009381ef15e432e\", \"remoteCommit\": \"951ee5ee6617d9ec67b1992e08c4020136fc3fa9\", \"utc\": \"2026-11-28 05:04:54 UTC\", \"rootRulesGitBlob\": \"5ba164843b1f5802184178a82d786264404873a3\", \"rootRulesUnchanged\": true, \"queueSessionStateVerified\": true}",
+    "ISP_PULL_RECEIPT {\"format\": \"isp-8542-actual-actions-pull-v1\", \"remoteCommit\": \"51541e87685d0332ea9f064593c5e2dc9f27872c\", \"beforeCommit\": \"2f48aae169de25457b405bb313fdb1d081c372a3\", \"utc\": \"2026-11-28 05:04:55 UTC\", \"actualPullRebaseSucceeded\": true, \"rulesUnchanged\": true, \"rulesGitBlobs\": {\"README.md\": \"282e86b03385d3b6245ce7100ae2e2af7b103c2d\", \"topics/invariant-subspace-problem/README.md\": \"5fbd905291dd044c88d35bd9c07ac0e586ff795a\"}, \"executionEnvironment\": \"GitHubActions\", \"runId\": \"46110420356\", \"runAttempt\": \"1\", \"workflowURL\": \"https://github.com/Rogerhu12/math-research-public/actions/runs/46110420356\"}",
+    "ISP_PULL_RECEIPT {\"format\": \"isp-8542-actual-actions-pull-v1\", \"remoteCommit\": \"c4edc9d295f4737c13853947d92acb6fb6a61ace\", \"beforeCommit\": \"51541e87685d0332ea9f064593c5e2dc9f27872c\", \"utc\": \"2026-11-28 05:04:56 UTC\", \"actualPullRebaseSucceeded\": true, \"rulesUnchanged\": true, \"rulesGitBlobs\": {\"README.md\": \"282e86b03385d3b6245ce7100ae2e2af7b103c2d\", \"topics/invariant-subspace-problem/README.md\": \"5fbd905291dd044c88d35bd9c07ac0e586ff795a\"}, \"executionEnvironment\": \"GitHubActions\", \"runId\": \"46110420356\", \"runAttempt\": \"1\", \"workflowURL\": \"https://github.com/Rogerhu12/math-research-public/actions/runs/46110420356\"}",
+    "ISP_ROOT_PUBLICATION {\"status\": \"pushed\", \"sourceCommit\": \"2fe11093dfce94631b00082ee0621aed15eb3a7a\", \"publishedCommit\": \"7b4089933991daf22ec0261fa2510ca07aecb069\", \"runId\": \"46110420356\", \"runAttempt\": \"1\", \"lastRulesReadCommit\": \"c4edc9d295f4737c13853947d92acb6fb6a61ace\", \"dispatches\": [{\"workflow\": \"invariant-subspace-8542-phi-true-n1-slope.yml\", \"ref\": \"main\", \"httpStatus\": 204, \"registrationAttempts\": 2}]}"
+  ],
+  "futureAction": "Do not infer a missing push from a short empty Actions list; inspect main and original branch again before preparing any transport retry.",
+  "originalMathSourceExecutedOnce": true,
+  "ordinaryISPClaim": false
+}

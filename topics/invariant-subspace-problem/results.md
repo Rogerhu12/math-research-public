@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-entire-tzero-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-W-entire-fu-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [整个当前 W 的 f=u 原分支排除](results/R150-appendix-unit211-W-entire-f-equals-u-complete-original-exclusion.md)：不倒均值平方头，17项四次权曲线、六固定w投影与两41阶e结式给91/91原QQ Bézout1；真0.840327719秒/44628商积。合已闭t0，全W当前图可付f−u。其它原图不外推。
 
 - [正确原 Phi 图整个 t=0 排除](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)：两原因子、完整NP半权分解、既有非零孤立mean与显式二次/四次Bézout1合成，仅当前D≠0图付t,z。新一元源10ms/49全除返；旧bf3门冻结。真实N1斜率和六行两列表示首次派发，整AB零和斜率零均保留。
 
@@ -67,5 +69,3 @@
 - [R150：整H42原固定十二阶交点及23268权点界](results/R150-appendix-unit211-Phi-zero-whole-H42-original-fixed-twelve-intersection-and-23268-weight-bound.md)：原DG∈I10/QQ总度554、H42真实点模det311/Bézout1与Gauss付整曲线有限交；≤798个三头同时零余权点的λ纤维继续。
 
 - [R267：保持函数正锥的全部幂共同分母及其紧支配边界](results/R267-appendix-positivity-preserving-common-powers-and-no-compact-domination.md)：真实非零正锥强积、全部有界整数逆及同一强单位；高位comm预算排非零紧lattice支配，实际平方分子仍开。
-
-- [R150：Phi 完整二阶核秩2及790次数上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：含完整逆修正的3阶新矩阵付第十二阶消失；789≤deg_u≤790，未付原模点保度。

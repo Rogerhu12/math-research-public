@@ -1,0 +1,674 @@
+{
+  "schema": "isp-current-W-entire-f-equals-u-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_utc": "2026-11-28",
+  "run_id": 46109873355,
+  "job_id": 140870811382,
+  "driver": {
+    "elapsed_seconds": 0.8403277189999976,
+    "max_child_rss_kib": 46208,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "111f36cc51dd4471dea25782e8dc013580b59866",
+        "before": "7b9c9becb081552a8c55fd4d52f862eb804d713a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T04:57:29.292677+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46109873355",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7b9c9becb081552a8c55fd4d52f862eb804d713a",
+    "source_exit_code": 0,
+    "source_git_blob": "e0a23188b4cc8d0b39e77609a54954df96a3d713",
+    "source_sha256": "5bc14c2eda09fe876d5c1bb659203d29aea8b0cf20b439920bcc8ed857e66770",
+    "stdout_bytes": 24289,
+    "stdout_sha256": "b5cbaf90d08d8ffa3efd6d4cb9eb98a8f2bbcae94d9d11beee1fbad54344ed9d",
+    "stop_reason": null
+  },
+  "source": "2026-11-28-unit211-W-f-equals-u-t-nonzero-whole-original-projections-8542.py",
+  "source_bytes": 14529,
+  "whole_t_zero_reference": "R150-appendix-unit211-W-entire-t-zero-complete-original-exclusion.md",
+  "original_rows": [
+    {
+      "name": "entire_f_u_mean_compatibility",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 6,
+        "terms": 17,
+        "bytes": 262,
+        "sha256": "b7b0b20da6d44a9f3a2594e7f4fc1e9ddad009dd63581612ebd8eee20592698d"
+      },
+      "onlyPaidRemoval": [
+        [
+          "e",
+          3
+        ],
+        [
+          "u",
+          3
+        ],
+        [
+          "Q_minus_one",
+          1
+        ],
+        [
+          "whole_H_old",
+          1
+        ],
+        [
+          "whole_ell_zero",
+          1
+        ]
+      ],
+      "fullRationalReturn": true
+    },
+    {
+      "name": "original_EW",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          9,
+          8,
+          2
+        ],
+        "totalDegree": 13,
+        "terms": 95,
+        "bytes": 1587,
+        "sha256": "0cf9292b89dc76dbaa07a29c4566822f5899d447d74a212662c9ae666d862874"
+      },
+      "onlyPaidRemoval": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "fullRationalReturn": true
+    },
+    {
+      "name": "original_EBo",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          10,
+          9,
+          2
+        ],
+        "totalDegree": 16,
+        "terms": 133,
+        "bytes": 2243,
+        "sha256": "1e7bd90813d2a59f93f84c2aa3761762631b2549ed53e0d6a3bd79002d706b22"
+      },
+      "onlyPaidRemoval": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "fullRationalReturn": true
+    },
+    {
+      "name": "original_N1",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          12,
+          12,
+          2
+        ],
+        "totalDegree": 19,
+        "terms": 307,
+        "bytes": 5476,
+        "sha256": "7fc32955b26b495c229b6bd8935b48add6459036d48c194118ebaaba09eb1480"
+      },
+      "onlyPaidRemoval": [
+        [
+          "e",
+          2
+        ]
+      ],
+      "fullRationalReturn": true
+    },
+    {
+      "name": "original_NS",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          21,
+          20,
+          3
+        ],
+        "totalDegree": 33,
+        "terms": 1092,
+        "bytes": 23980,
+        "sha256": "6bf40a3fc3b11c893a70fc4b2c9e9206480b692246a6b9a96406b71c60808424"
+      },
+      "onlyPaidRemoval": [],
+      "fullRationalReturn": true
+    },
+    {
+      "name": "original_PS",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          21,
+          20,
+          3
+        ],
+        "totalDegree": 33,
+        "terms": 1081,
+        "bytes": 23899,
+        "sha256": "b808892eae2f0a60ee22e96f15e4bf7d430fbaeec14200a533606ad62c7dbd0e"
+      },
+      "onlyPaidRemoval": [],
+      "fullRationalReturn": true
+    }
+  ],
+  "six_fixed_w_projections": [
+    {
+      "name": "EW__N1",
+      "fixedDegrees": [
+        2,
+        2
+      ],
+      "matrixOrder": 4,
+      "fullProfile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          38,
+          0
+        ],
+        "totalDegree": 60,
+        "terms": 1035,
+        "bytes": 29434,
+        "sha256": "7ebf87bd580c4d91b2bd7728c914244216680230e949baffba551d55bf208958"
+      },
+      "paidPrimitive": {
+        "zero": false,
+        "degrees_e_k_w": [
+          21,
+          23,
+          0
+        ],
+        "totalDegree": 33,
+        "terms": 374,
+        "bytes": 8616,
+        "sha256": "588f47a865b24300317f2135f945d70c6a4f30446193f973a49e013d984a72ea"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          4
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "Vbar",
+          4
+        ],
+        [
+          "M",
+          2
+        ]
+      ],
+      "allWHeadZeroFibersRetained": true
+    },
+    {
+      "name": "EW__NS",
+      "fixedDegrees": [
+        2,
+        3
+      ],
+      "matrixOrder": 5,
+      "fullProfile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          61,
+          62,
+          0
+        ],
+        "totalDegree": 99,
+        "terms": 2675,
+        "bytes": 104507,
+        "sha256": "a8e30fddbb5d3f3aef6b978ca8835617d4f5ace4ffd275529b28c87bac165e0b"
+      },
+      "paidPrimitive": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          39,
+          0
+        ],
+        "totalDegree": 58,
+        "terms": 1059,
+        "bytes": 33551,
+        "sha256": "cca570793b73e4b147a8439745dd724c39ed91d0df332adf38f764e9dd6b357e"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          2
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "Q_minus_one",
+          3
+        ],
+        [
+          "Vbar",
+          6
+        ],
+        [
+          "M",
+          3
+        ]
+      ],
+      "allWHeadZeroFibersRetained": true
+    },
+    {
+      "name": "EW__PS",
+      "fixedDegrees": [
+        2,
+        3
+      ],
+      "matrixOrder": 5,
+      "fullProfile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          61,
+          62,
+          0
+        ],
+        "totalDegree": 99,
+        "terms": 2653,
+        "bytes": 104471,
+        "sha256": "7fb684cf2bc6358b14a3a61138b14fb43db0ca21af34cecfad754ee848acb9fb"
+      },
+      "paidPrimitive": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          38,
+          0
+        ],
+        "totalDegree": 57,
+        "terms": 1046,
+        "bytes": 31059,
+        "sha256": "6a4c20a83d25d2715b51a1ee34e737090330d943ba2e39d744547de699a8ed50"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          3
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "Q_minus_one",
+          3
+        ],
+        [
+          "Vbar",
+          6
+        ],
+        [
+          "M",
+          3
+        ]
+      ],
+      "allWHeadZeroFibersRetained": true
+    },
+    {
+      "name": "EBo__N1",
+      "fixedDegrees": [
+        2,
+        2
+      ],
+      "matrixOrder": 4,
+      "fullProfile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          39,
+          42,
+          0
+        ],
+        "totalDegree": 66,
+        "terms": 1204,
+        "bytes": 35022,
+        "sha256": "83d165f17221511fba323d6ed418f4402be38762d61ff833862ba3ebc85607a1"
+      },
+      "paidPrimitive": {
+        "zero": false,
+        "degrees_e_k_w": [
+          23,
+          27,
+          0
+        ],
+        "totalDegree": 39,
+        "terms": 478,
+        "bytes": 11454,
+        "sha256": "116b648e98d97c46f6e36518fede671f1667f7c5dc908656ba8a9eac38368120"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          4
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "Vbar",
+          4
+        ],
+        [
+          "M",
+          2
+        ]
+      ],
+      "allWHeadZeroFibersRetained": true
+    },
+    {
+      "name": "EBo__NS",
+      "fixedDegrees": [
+        2,
+        3
+      ],
+      "matrixOrder": 5,
+      "fullProfile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          64,
+          67,
+          0
+        ],
+        "totalDegree": 108,
+        "terms": 3058,
+        "bytes": 122708,
+        "sha256": "8522c7953ee4a2bc5ff2f186f12a93556d221e6f4a6ec5e3325f657fd6547335"
+      },
+      "paidPrimitive": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          40,
+          0
+        ],
+        "totalDegree": 62,
+        "terms": 1114,
+        "bytes": 34165,
+        "sha256": "4448f8f03c758921dfa75cd5554a0713afb1b5d26d95cd6eb876b40aae6e4e2d"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          2
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "Q_minus_one",
+          3
+        ],
+        [
+          "Vbar",
+          6
+        ],
+        [
+          "M",
+          4
+        ]
+      ],
+      "allWHeadZeroFibersRetained": true
+    },
+    {
+      "name": "EBo__PS",
+      "fixedDegrees": [
+        2,
+        3
+      ],
+      "matrixOrder": 5,
+      "fullProfile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          64,
+          67,
+          0
+        ],
+        "totalDegree": 108,
+        "terms": 3034,
+        "bytes": 123161,
+        "sha256": "e71c8d9293017cb5d78f9dc82f40d2aa5f861d3d05ff1aa6cd8a2cf3cb7fd1d8"
+      },
+      "paidPrimitive": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          39,
+          0
+        ],
+        "totalDegree": 61,
+        "terms": 1100,
+        "bytes": 32832,
+        "sha256": "983a1ae8136be10d69d325293eb22b9f5b33a36622c7319fee71ddefbce04f32"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          3
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "Q_minus_one",
+          3
+        ],
+        [
+          "Vbar",
+          6
+        ],
+        [
+          "M",
+          4
+        ]
+      ],
+      "allWHeadZeroFibersRetained": true
+    }
+  ],
+  "two_fixed_e_projections": [
+    {
+      "name": "whole_mean_H4__combination_1",
+      "fixedDegrees": [
+        4,
+        37
+      ],
+      "matrixOrder": 41,
+      "full": {
+        "degree": 244,
+        "bytes": 15697,
+        "sha256": "10b7a8af46f4a32dc9aed3c1470f4d20ffbf68e25495bf5df65fd8f059e2744e"
+      },
+      "exactBareissProducts": 22140,
+      "primitive": {
+        "degree": 91,
+        "bytes": 5050,
+        "sha256": "36b3928a91271e4679cac23879cc8b7d9e2c4be1fa421212059e5e42e3b98840"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          75
+        ],
+        [
+          "k_plus_one",
+          6
+        ],
+        [
+          "k_plus_two",
+          42
+        ],
+        [
+          "k_plus_four",
+          30
+        ]
+      ],
+      "allEHeadZeroFibersRetained": true
+    },
+    {
+      "name": "whole_mean_H4__combination_2",
+      "fixedDegrees": [
+        4,
+        37
+      ],
+      "matrixOrder": 41,
+      "full": {
+        "degree": 244,
+        "bytes": 15414,
+        "sha256": "f5f0eb538193d283c1ca79a3ec24aced74b64c2da982a629dfcb235fc23ddcd3"
+      },
+      "exactBareissProducts": 22140,
+      "primitive": {
+        "degree": 91,
+        "bytes": 5157,
+        "sha256": "0066dc38e5c50e334f06cdae31a35db5fdb3451c3242022d565c55b98ba2dde3"
+      },
+      "onlyPaidRemoval": [
+        [
+          "k",
+          75
+        ],
+        [
+          "k_plus_one",
+          6
+        ],
+        [
+          "k_plus_two",
+          42
+        ],
+        [
+          "k_plus_four",
+          30
+        ]
+      ],
+      "allEHeadZeroFibersRetained": true
+    }
+  ],
+  "two_combinations": [
+    {
+      "c": 1,
+      "definition": "sum c^j R_j, j=0..5",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          40,
+          0
+        ],
+        "totalDegree": 62,
+        "terms": 1161,
+        "bytes": 40879,
+        "sha256": "562d734aaeb674c31d0b0d17d98d55e66c72f110e9e9cefd5d03d8ae8bb2ec09"
+      },
+      "actualWholeCurveGcdConstant": true
+    },
+    {
+      "c": 2,
+      "definition": "sum c^j R_j, j=0..5",
+      "profile": {
+        "zero": false,
+        "degrees_e_k_w": [
+          37,
+          40,
+          0
+        ],
+        "totalDegree": 62,
+        "terms": 1161,
+        "bytes": 41032,
+        "sha256": "1be93ccd699f7b5da19704dc0dc36a8a4741fa2956a4f04c403a887f355383fe"
+      },
+      "actualWholeCurveGcdConstant": true
+    }
+  ],
+  "final": {
+    "stage": "new_f_equals_u_t_nonzero_original_projection_finished",
+    "sourceSHA256": "5bc14c2eda09fe876d5c1bb659203d29aea8b0cf20b439920bcc8ed857e66770",
+    "meanCompatibilityCurve": {
+      "zero": false,
+      "degrees_e_k_w": [
+        4,
+        4,
+        0
+      ],
+      "totalDegree": 6,
+      "terms": 17,
+      "bytes": 262,
+      "sha256": "b7b0b20da6d44a9f3a2594e7f4fc1e9ddad009dd63581612ebd8eee20592698d"
+    },
+    "retainedCommonCurve": {
+      "zero": false,
+      "degrees_e_k_w": [
+        0,
+        0,
+        0
+      ],
+      "totalDegree": 0,
+      "terms": 1,
+      "bytes": 15,
+      "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+    },
+    "allMeanWLeadingZeroBranchesRetained": true,
+    "remainingKCover": {
+      "degree": 0,
+      "bytes": 5,
+      "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485"
+    },
+    "remainingFactors": [],
+    "whole_f_u_t_nonzero_Excluded": true,
+    "noOldGateExecuted": true,
+    "noPayloadSaved": true,
+    "exactDivisionProducts": 44628,
+    "peakRSSKiB": 45624,
+    "ordinaryISPClaim": false,
+    "seconds": 0.789087035999998
+  },
+  "conclusion": {
+    "entireCurrentPhysicalWFEqualsUExcluded": true,
+    "noModularLift": true,
+    "noMultivariateGcdEmptinessInference": true,
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "artifactsSaved": "source, exact small parameter definitions, degrees and SHA only; no coefficient cache"
+}
