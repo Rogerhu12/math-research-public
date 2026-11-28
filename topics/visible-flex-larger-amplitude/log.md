@@ -154,3 +154,9 @@ Astra-larger-e4e2a2bf-20261126：R724证明等长两中央跨段正弦抵消、�
 ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691B，净1356698B。全部原字段、89共源/32runtime配置与原reader依赖完整保；固定93c07e09 Git逐字恢复。全raw/检查点/report/source/config/spec/请求/当前源保，不付科学完成；H/open当前节整旧字留70b78固定链接，§1–6不改。
 
 双README云核至`e1b02f09579c62dd2134efcd37af21e2489bf276`无变（非pull），真pull见H各runner槽；源参及实际解继续。
+
+## 2026-11-28 00:36:52 UTC — 完整成对半波20源与137角色当前绑定
+
+刊完整20新源共1053530B、当前137角色及18runtime、三全字再生器和准确完整源变化。R724/首四已刊件保持同一身份；原全部父源在原路径。以完整19半宽/δ1/32/两μ.01只换中央成对半波，不混恢复策略；真实source/model严格隔离，外层原Gauss/partial规则不变，准确新物理费用另接。未执行本地science/AST/fixture；实际run/输入/场仍null，接全参数启动。
+
+完整30件共1313861B；双README云核至`64106a992374d5cccd1fe0efc53aa19f2b014339`无变（非pull），实际controller真pull见H各槽。

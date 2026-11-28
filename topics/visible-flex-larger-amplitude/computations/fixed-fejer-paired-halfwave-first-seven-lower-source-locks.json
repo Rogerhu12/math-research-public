@@ -1,0 +1,253 @@
+{
+  "schema": "complete-paired-halfwave-first-seven-lower-source-locks-v1",
+  "complete_sources": [
+    {
+      "role": "closure_values",
+      "name": "fixed_fejer_paired_halfwave_closure_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_closure_values.py",
+      "bytes": 59449,
+      "sha256": "3c04a76103412f424de81ae471b4f27c5cd11408967cab1e61b2a7df5ed0db73",
+      "git_blob_sha": "5e7230ce5dc57adffe58901b04257c1469fa8e8c",
+      "parent": {
+        "name": "fixed_fejer_meridian_closure_values.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_closure_values.py",
+        "bytes": 59440,
+        "sha256": "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0",
+        "git_blob_sha": "2383f9c4bad43635e43fe409b048d3f74d2b9b8c"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "complete-fixed-fejer-detached-meridian-values-normal-layer-v1",
+          "after": "complete-fixed-fejer-paired-halfwave-detached-meridian-normal-layer-v1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "analytic_J3",
+      "name": "fixed_fejer_paired_halfwave_analytic_stage_jacobian.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_analytic_stage_jacobian.py",
+      "bytes": 25706,
+      "sha256": "617550e0df01b853a3239b20833076671334f840c0b48c3b64b3f0503b82a247",
+      "git_blob_sha": "aaa1d6b48f02d62b5a7a445932304d3e36730fa3",
+      "parent": {
+        "name": "fixed_fejer_meridian_analytic_stage_jacobian.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_stage_jacobian.py",
+        "bytes": 25697,
+        "sha256": "223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811",
+        "git_blob_sha": "7525e1f076c90b877d7574c8aea85dc12e02d973"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "complete-fixed-fejer-detached-meridian-values-normal-layer-v1",
+          "after": "complete-fixed-fejer-paired-halfwave-detached-meridian-normal-layer-v1",
+          "count": 1
+        },
+        {
+          "before": "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0",
+          "after": "3c04a76103412f424de81ae471b4f27c5cd11408967cab1e61b2a7df5ed0db73",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "analytic_frame",
+      "name": "fixed_fejer_paired_halfwave_analytic_normal_frame.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_analytic_normal_frame.py",
+      "bytes": 47440,
+      "sha256": "5be98c134ef7b97d6e80de957f6eb35a6683f73a5a76716ea6173dcedc1d195e",
+      "git_blob_sha": "263534a4e65f31b45cf1f9a40441f5896e213e2b",
+      "parent": {
+        "name": "fixed_fejer_meridian_analytic_normal_frame.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py",
+        "bytes": 47431,
+        "sha256": "d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd",
+        "git_blob_sha": "9c24a81d34171155f6bb4e19592bfe54a2fb7b40"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "complete-fixed-fejer-detached-meridian-values-normal-layer-v1",
+          "after": "complete-fixed-fejer-paired-halfwave-detached-meridian-normal-layer-v1",
+          "count": 1
+        },
+        {
+          "before": "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0",
+          "after": "3c04a76103412f424de81ae471b4f27c5cd11408967cab1e61b2a7df5ed0db73",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "frame_C1",
+      "name": "fixed_fejer_paired_halfwave_normal_frame_c1.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_normal_frame_c1.py",
+      "bytes": 37361,
+      "sha256": "edbf2018efbe09f14902a4e1833db736f3467317f87cb6ebae2561ab31a0056b",
+      "git_blob_sha": "84a063e3efaa54b872b3ff0ff0f8a222ba0712e0",
+      "parent": {
+        "name": "fixed_fejer_meridian_normal_frame_c1.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_normal_frame_c1.py",
+        "bytes": 37361,
+        "sha256": "c97749c8fae14981a1f86e45845d152134a62039d88b7cfaccfb69fb0665e246",
+        "git_blob_sha": "5daa46fca67d3e90985fed092c37ec4eefd20421"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0",
+          "after": "3c04a76103412f424de81ae471b4f27c5cd11408967cab1e61b2a7df5ed0db73",
+          "count": 1
+        },
+        {
+          "before": "223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811",
+          "after": "617550e0df01b853a3239b20833076671334f840c0b48c3b64b3f0503b82a247",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "stage_matrices",
+      "name": "fixed_fejer_paired_halfwave_stage_matrices.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_stage_matrices.py",
+      "bytes": 61280,
+      "sha256": "6ca8631605d52374c754292221dc119ac934c929a17fa36211358463d667a0c2",
+      "git_blob_sha": "9eabce7cdf2460213b8d2bea4005321ec9ab4591",
+      "parent": {
+        "name": "fixed_fejer_meridian_stage_matrices.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_stage_matrices.py",
+        "bytes": 61280,
+        "sha256": "f98bf270265f9d41c9c297dd23c2db7da9ea91a039663c1785966e9135795791",
+        "git_blob_sha": "57e215d6bd28e7df8d7172106df5caa209ebc78c"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811",
+          "after": "617550e0df01b853a3239b20833076671334f840c0b48c3b64b3f0503b82a247",
+          "count": 1
+        },
+        {
+          "before": "c97749c8fae14981a1f86e45845d152134a62039d88b7cfaccfb69fb0665e246",
+          "after": "edbf2018efbe09f14902a4e1833db736f3467317f87cb6ebae2561ab31a0056b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "adjacent_matrices",
+      "name": "fixed_fejer_paired_halfwave_adjacent_matrices.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_adjacent_matrices.py",
+      "bytes": 36766,
+      "sha256": "ca58255f5dbe69b3e5941d20383f1a3bdf0c54bb31a34d6f2d2c54e4e83a1657",
+      "git_blob_sha": "6fcac6e4f16191b2b7be20f1c04bbab884632985",
+      "parent": {
+        "name": "fixed_fejer_meridian_adjacent_matrices.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_adjacent_matrices.py",
+        "bytes": 36766,
+        "sha256": "bd65734da69f3e5bc560ec81df03f8555593257560455b56adfa353e025c4564",
+        "git_blob_sha": "641da23cdb76029f343ab441d03625e190cc4ae1"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811",
+          "after": "617550e0df01b853a3239b20833076671334f840c0b48c3b64b3f0503b82a247",
+          "count": 1
+        },
+        {
+          "before": "c97749c8fae14981a1f86e45845d152134a62039d88b7cfaccfb69fb0665e246",
+          "after": "edbf2018efbe09f14902a4e1833db736f3467317f87cb6ebae2561ab31a0056b",
+          "count": 1
+        },
+        {
+          "before": "f98bf270265f9d41c9c297dd23c2db7da9ea91a039663c1785966e9135795791",
+          "after": "6ca8631605d52374c754292221dc119ac934c929a17fa36211358463d667a0c2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "detached_meridian_values",
+      "name": "fixed_fejer_paired_halfwave_detached_meridian_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_detached_meridian_values.py",
+      "bytes": 41135,
+      "sha256": "f21293af36a79085b2c4681d43ddf7de42bf690066b4ef0d40ea74bf4620269e",
+      "git_blob_sha": "7075bca30d05c045023b7823b8f80b75bfd34d4f",
+      "parent": {
+        "name": "fixed_fejer_detached_meridian_values.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+        "bytes": 41126,
+        "sha256": "eaeaf274bf0e74e63afbaa92588ea48d8ea75316f602882f49e71fa7453cb1de",
+        "git_blob_sha": "2b547c08dcaeb55701f5c68ba56d405f595f5b9e"
+      },
+      "exact_patches": [
+        {
+          "before": "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3",
+          "after": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+          "count": 1
+        },
+        {
+          "before": "complete-fixed-fejer-detached-meridian-values-normal-layer-v1",
+          "after": "complete-fixed-fejer-paired-halfwave-detached-meridian-normal-layer-v1",
+          "count": 1
+        },
+        {
+          "before": "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0",
+          "after": "3c04a76103412f424de81ae471b4f27c5cd11408967cab1e61b2a7df5ed0db73",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "first_four_complete_source_manifest": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-seed-first-four-source-locks.json",
+    "name": "fixed-fejer-paired-halfwave-seed-first-four-source-locks.json",
+    "bytes": 6673,
+    "sha256": "d78c59ce60ba8302afd1915548307bd37286a62ca03c477d9ca159c9bcb80c51",
+    "git_blob_sha": "908f1585d336a2fd92d7837920a098df49799b02"
+  },
+  "endpoint_schema": "complete-fixed-fejer-paired-halfwave-detached-meridian-normal-layer-v1",
+  "root_owns_complete_endpoint_and_upper": true,
+  "pending_after_actual_endpoint_source_lock": [
+    "root_packets",
+    "analytic_J3_binding"
+  ],
+  "no_scientific_method_body_changed_in_these_seven": true,
+  "old_parent_method_source_provenance_retained": true,
+  "meridian_callable_unwrapping_both_original_repairs_retained": true,
+  "analytic_frame_actual_meridian_data_method_guard_retained": true,
+  "full_scope": {
+    "variables": "all original free core/three omega channels/H",
+    "normal_stages": 32,
+    "original_budgets": "all unchanged",
+    "actual_fee_or_field_produced": false
+  },
+  "refs_modified": false
+}
