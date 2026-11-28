@@ -1,0 +1,366 @@
+{
+  "schema": "isp-W-N1-pure-weight-slope-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "run": 46085806629,
+  "job": 140794972391,
+  "source": "notes/2026-11-28-unit211-W-original-N1-slope-weight-coordinate-monic-square-8542.py",
+  "driver": {
+    "elapsed_seconds": 2.541453183999998,
+    "max_child_rss_kib": 92520,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "18ef37d4e40e799b34a259955a232f8e08719039",
+        "before": "0ab08801104cf2296250498de517434bb2ec7ce2",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:03:28.066369+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46085806629",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0ab08801104cf2296250498de517434bb2ec7ce2",
+    "source_exit_code": 0,
+    "source_git_blob": "178b79006da698e77e8e3a5d8ba150533a3f8998",
+    "source_sha256": "9b7731d221175a88edbf7f98bb1c811402ab1d8e332b94fb005dd073b7894d00",
+    "stdout_bytes": 4663,
+    "stdout_sha256": "def518f3fcd69d986ba828d3425a8b4c45567a5e947643b874e9be5870d07212",
+    "stop_reason": null
+  },
+  "actualRecords": [
+    {
+      "stage": "new_W_original_N1_slope_two_by_two_weight_identity",
+      "actualN1RowIdentityReturned": true,
+      "allOriginalN1GermTermsPreserved": true,
+      "rowLambdaDegrees": [
+        2,
+        1,
+        1
+      ],
+      "scalarCoordinateDefinition": "z=a*x+c*y",
+      "slopeCoefficientProfiles": [
+        {
+          "numerator": {
+            "degrees": [
+              11,
+              12,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 18,
+            "terms": 85,
+            "bytes": 2406,
+            "sha256": "69e8ad193b3df251f1d53cbab35359a9e20189026b4f883b1978ff4dc79c508b"
+          },
+          "denominator": {
+            "degrees": [
+              8,
+              12,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 16,
+            "terms": 69,
+            "bytes": 1925,
+            "sha256": "0c675b3d0f732e60114a3a1bab0807f59d525e0df253fe0a800e62a56a27270b"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              12,
+              13,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 20,
+            "terms": 108,
+            "bytes": 3173,
+            "sha256": "ecd4bc88ac951ad2dfc877e081c3f178fed68d3790c79704e90b311ffdf9bb0c"
+          },
+          "denominator": {
+            "degrees": [
+              9,
+              13,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 18,
+            "terms": 79,
+            "bytes": 2234,
+            "sha256": "4e593238a25b8fb130212bea640f58dabe3ba46b4c579a64073c488dbf3ea40a"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              10,
+              11,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 17,
+            "terms": 75,
+            "bytes": 2143,
+            "sha256": "d4347480d688bc14484ca27bde5e5862862153600a7b8ce71cbe175ccb6fabc3"
+          },
+          "denominator": {
+            "degrees": [
+              7,
+              10,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 14,
+            "terms": 48,
+            "bytes": 1317,
+            "sha256": "bf427bc2e7eaec9d3c8e3c51a3437eb330c19d55bd87824ecc9384e9ff2cc517"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              12,
+              12,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 19,
+            "terms": 96,
+            "bytes": 2787,
+            "sha256": "22c5a332d3cbc97e21e6366e51019ce40d65469b4a1442aa1c2548a435189da8"
+          },
+          "denominator": {
+            "degrees": [
+              8,
+              11,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 16,
+            "terms": 64,
+            "bytes": 1766,
+            "sha256": "474cca856e646ac64bed06190c20a4afb094824eb5682a28d713896e80d14090"
+          }
+        }
+      ],
+      "pureWeightDeterminant": {
+        "numerator": {
+          "degrees": [
+            20,
+            19,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 31,
+          "terms": 238,
+          "bytes": 7926,
+          "sha256": "7d9ea8e869a8003f11b818675956b3017df7bcd44ad01db185ced4ebc3fda831"
+        },
+        "denominator": {
+          "degrees": [
+            13,
+            18,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 26,
+          "terms": 158,
+          "bytes": 4850,
+          "sha256": "ec08c540057e700b17b4998fc7c50f54bbea8d0418469ecfc9c54b30b069e80d"
+        }
+      },
+      "bothGlobalPolynomialCoordinateProductsReturned": true,
+      "exactIdentities": [
+        "DeltaN*x=p2*z+c*p0-c*Nrow",
+        "DeltaN*y=-p1*z-a*p0+a*Nrow"
+      ],
+      "noOriginalEquationOrGeometricLeadingFactorDivided": true,
+      "wholeWExcluded": false,
+      "seconds": 0.9802252649999943
+    },
+    {
+      "stage": "new_N1_slope_weight_determinant_complete_QQ_support",
+      "paidFactorLabelsAndCounts": [
+        [
+          "e",
+          4
+        ],
+        [
+          "u",
+          2
+        ]
+      ],
+      "remainingWholeWeightFactor": {
+        "degrees": [
+          14,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 25,
+        "terms": 198,
+        "bytes": 6494,
+        "sha256": "7f7678dcf32015c8959f8b120c209768097d69b83a9e628faa515a80ab802431"
+      },
+      "completeQQFactorScalar": "-1/288",
+      "completeQQFactors": [
+        {
+          "power": 1,
+          "definition": {
+            "degrees": [
+              14,
+              19,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 25,
+            "terms": 198,
+            "bytes": 6434,
+            "sha256": "3569ba450503ee36acfed6f3ef047c3a08cf1735c3f95028a7c6b0f9b060db82"
+          }
+        }
+      ],
+      "allFactorProductsActuallyReturned": true,
+      "DeltaNAlreadyPaidOnWholeCurrentW": false,
+      "entireUnpaidDeltaNZeroFibreRetained": true,
+      "noModularRankOrSampleEmptinessUsed": true,
+      "wholeWExcluded": false,
+      "seconds": 0.9851069670000001
+    },
+    {
+      "stage": "new_W_N1_slope_coordinate_monic_square_complete_original_return",
+      "sourceSHA256": "9b7731d221175a88edbf7f98bb1c811402ab1d8e332b94fb005dd073b7894d00",
+      "exactChart": "explicit DeltaN!=0 only",
+      "originalCoordinateRecovery": [
+        "x=(p2*z+c*p0)/DeltaN",
+        "y=(-p1*z-a*p0)/DeltaN"
+      ],
+      "exactCoordinateEquivalenceModuloActualN1Row": true,
+      "formalMonicRule": "qz=z^2+beta1(lambda)*z+beta0(lambda)",
+      "coefficientProfiles": {
+        "beta0": {
+          "numerator": {
+            "degrees": [
+              40,
+              48,
+              0,
+              0,
+              3,
+              0
+            ],
+            "totalDegree": 70,
+            "terms": 4622,
+            "bytes": 198937,
+            "sha256": "f6955a74ddf623bc4cdffe7f50f5052423646e3a97e3c3ab5c1b27d0c19f703e"
+          },
+          "denominator": {
+            "degrees": [
+              32,
+              46,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 61,
+            "terms": 951,
+            "bytes": 38849,
+            "sha256": "857d2ee7909fe7afdb4b3ee3c0b9f78b325016794ef3818d5e8d9c2ff4c83d50"
+          }
+        },
+        "beta1": {
+          "numerator": {
+            "degrees": [
+              28,
+              35,
+              0,
+              0,
+              2,
+              0
+            ],
+            "totalDegree": 50,
+            "terms": 1853,
+            "bytes": 69642,
+            "sha256": "9c0089b89a40b8b7b171ed1b5073bcf66f0eabde5e3b4519b7fccb4a5be8ce00"
+          },
+          "denominator": {
+            "degrees": [
+              24,
+              34,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 45,
+            "terms": 548,
+            "bytes": 20146,
+            "sha256": "4950dcdd6dc6473b2e126af2cb3fac2a5d5730e69187f06b7cedb89ac3a6b1be"
+          }
+        }
+      },
+      "originalRuleIdentity": "qz(a*x+c*y)=sum_j[-ztag_j+(a*zr2-c*zr1)/DeltaN*ntag_j]*original_j",
+      "completeOriginalI4SourceActuallyReturned": true,
+      "bothCoordinateInverseProductsReturned": true,
+      "allFourOriginalMeanCoefficientsPreserved": true,
+      "originalMeanQuotientGeneratedOverWeightLambdaRingBy": [
+        "1",
+        "z"
+      ],
+      "freeRankTwoClaimOnlyForExplicitMonicEnvironment": true,
+      "originalQuotientFreenessNotAssumed": true,
+      "wholeCurrentWTwoGeneratorsProved": false,
+      "entireUnpaidWeightZeroFibreStillRetained": true,
+      "noLambdaPhysicalDOrNormInverse": true,
+      "noFullNSPSOrIndividualValueMatrixYetComputed": true,
+      "noOldC8NormTwelveResultantOrEighteenModuleExecuted": true,
+      "noCoefficientPayloadOrEncodedCacheWritten": true,
+      "wholeWExcluded": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 92520,
+      "seconds": 2.5018547359999985
+    }
+  ],
+  "scope": {
+    "wholeWTwoGenerators": false,
+    "exactTwoGeneratorChart": "H198 != 0, equivalently Delta_N != 0 on the existing weight chart",
+    "wholeUnpaidH198ZeroFibrePreserved": true,
+    "freeModuleOnly": "A_W[H198^(-1),lambda,Z]/(the actual monic qZ)",
+    "originalQuotientFree": false,
+    "newGeometricInverse": false,
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "retention": "Frozen source, exact original definitions and small profiles/SHA/actual run only; no coefficients, matrices or encoded payload."
+}
