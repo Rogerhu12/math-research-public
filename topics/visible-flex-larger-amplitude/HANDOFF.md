@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难非终点。**
-此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/a5e459d4afc7d52804f258fcd28eb49f21f01443/topics/visible-flex-larger-amplitude/HANDOFF.md)及其70b78/05aaa/58c09/12d43/c6fc链；open§1–6原字不动，已记结论不重做。
+此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/23728e772fe236cd076483e61cdf42a439434702/topics/visible-flex-larger-amplitude/HANDOFF.md)及其a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`b7f434d2c2ec7ac118cb1c7111005539d087bb12`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活18–23通常5分钟真pull，已读commit保末槽；终态12–17末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40实际重置后唯一探测均失败，恢复即真pull。云核至`d684c7d72835a09a1492bf5671b19b25b1b1a3eb`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活18–23通常5分钟真pull，已读commit保末槽；终态12–17末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 
@@ -19,8 +19,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 | run | 真实边界 |
 |---|---|
-| 12–16 | 官方cancelled；全已返输入/诊断、末真pull与未返科学保[16终态](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)及旧链，未付N4096/M320/J1845精化。 |
-| 17=46053911348 | 官方cancelled@00:53:34Z；两input0，science未自然返。末current e2c1ad7/accepted3/g2.0441496554550835，下一52bca仅开始；末真pull/完整终态保17note。 |
+| 12–17 | 官方cancelled，原因不猜；全部已返/末真pull/未返科学保终态notes及旧H；17末e2c1ad7/accepted3仍不可行，未付高配精化。 |
 | 18=46062343475 | 两input0、前三science1及三reader0；current2b1c/accepted3/g2.0441496553824883；完整六族返，仍不可行。 |
 | 19=46076669320 | 两input0；currentd761/accepted1/g.9679630392005261；末7af04真g.9691295883291671已拒，下一b6a06开始、统计/几何未知。 |
 | 20=46079535427 | 两input0；current初7e06/accepted0/g.9684249942095058；第二d346真g.970243177977179已拒，下一0f4d统计返、几何未知。 |
@@ -28,27 +27,27 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 22=46090913581 | 两input0；初7e06/g.5305849371949052/accepted0，六族返；trial97fbb统计返Phi681.6511710299278/Gram.4061652579029476，几何/决定未知；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 | 23=46094430214 | 两input0；scienceb31c/f2a9/PID3652运行；新model/point/策略结果未返；完整19件及实际输入保23note。 |
 
-全源/model/point/Phi/Gram/六族/事件时刻及原失败保：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。18–22均未有完整report；已返当前点均不可行。
+全source/model/point/六族/事件/原失败保：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。18–23均未返完整report，当前点不可行。
 
 ## 新机制及完整后继
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已证半波配对均值/两角根、中央导数减半及位置jet账，不推wholeK/D/reach。22全20源/6参/启动已刊见22note；137角色/18runtime、17对改120同。六物理cuts与aux12均值分开，原Gauss/partial未改，工作积分费未付。
 
-全科学157/纯7argv、458/445formal、48live、32stage/完整域/预算保。18–21仍10fa/8027/f600/geometry5730；20只恢复μ.001，21只b5/8。原5supported CLI和各external/P0/G/typed未知不可假空、假别源。22science+pure103752B/全四步110351B>95k，真自然返后整接pure；旧request计数标签纠正保22note。
+全157/7argv、458/445formal、48live、32stage/域/预算保。18–21原来源；20只恢复μ.001、21只b5/8。原5CLI/全external/P0/G/typed未知不假空。22science+pure103752B/四步110351B>95k，自然返后整接pure；原计数标签修正保22note。
 
-[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原137对+policy=138/19runtime。仅原已完成的真实全步/全几何/选中预测可降下一恢复μ；原失败×4/metric/试步顺序保。未混22，实际效应待跑。
+[23恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)：138/19源；原真实全步/全几何/选中预测达条件才降下一μ，失败×4/metric/顺序保；效果未返。
 
 19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量。完整源参/分支与全连续义务见[open§7](open.md)/原H。准备不冒结果；normal.complete不代branch、mean J不代Cu，R709 bool及所有主副件/晚失败保。
 
 [续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原目录用首次绝对源路径和whole稳定report/snapshot；G续同whole N版本及自己的首次路径，N变SHA不原目录重绑；R723/mesh每次fresh。immutable required-angle packet可为trial但要完整report绑定，mutable progress不可。R718 markedσ与R716 unmarked管/正V/非零中心不变量独立；旧1782/新6047分支不可混，五t/15mesh/三级空间/频率/时间仍须实跑。
 
-[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)须同runner真complete report/全13final/全输入typed史；partial/accepted/packet不足，CLI不继承末μ；原136+4词及所有peer/预算保。
+[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)须同runner complete report/13final/全typed史；progress/accepted/packet不足，CLI不继承末μ；原词/peer/预算保。
 
 ## 容量与分工
 
 [ret60第一子批](computations/legacy-exact-generated-outputs-retention-60-part1-complete-delivery.json)19旧数值净909466B，全部源参/run/结论/原SHA与Git恢复保；[ret59](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)及前链保。未知/活输入/parent91/ports/Nelder不猜删。root接实际求解；construction续容量，solver等价加速，geometry半波曲率分析。
 
-下一单变量对照选[半波b5/8](notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md)，δ及原g/137源/预算保；端层1/b前因子×4/5、中间长度×2/3，中央主项仍有3λnew/(2λ22)代价，不声称新reach/距离必改善。参数准备中，无实际24。
+下一单变量[半波b5/8](notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md)完整参数已备，δ/g/137源/预算保；端层4/5、中央长度2/3与3λnew/(2λ22)竞争，reach/距离不保证。24未启动。
 
 <!-- visible-larger-parallel-18:start -->
 Actions18：[run 46062343475/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46062343475)；[全阶段记录](notes/2026-11-27-public-actions-46062343475-1.md)。running；已返8，exit=未返。

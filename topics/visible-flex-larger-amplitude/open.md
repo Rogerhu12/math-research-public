@@ -101,11 +101,11 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/e1bf250dbd6b7665aaec9bec1cac44cbea5d63e5/topics/visible-flex-larger-amplitude/open.md)及其a5e/70b78归档链；§1–6原字不动。全源参/原失败/typed与peer未知/精化责任保。
+此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/23728e772fe236cd076483e61cdf42a439434702/topics/visible-flex-larger-amplitude/open.md)及其e1bf/a5e/70b78归档链；§1–6原字不动。全源参/原失败/typed与peer未知/精化责任保。
 
 ### 当前真实数值
 
-同固定Fejer g/M160/J923/N2048/32stage。原157/7argv、458/445formal、48live和全部变量/域/预算保。12–17官方cancelled，所有已返输入/诊断、末真pull和未自然返科学保原终态note；不冒final或N4096/M320/J1845精化。17末e2c1ad7/accepted3/g2.0441496554550835仍不可行，下一52bca仅开始。
+同固定Fejer g/M160/J923/N2048/32stage；原157/7、458/445、48live/全变量/域/预算保。12–17官方cancelled，已返/末真pull/未返科学保终态note；17末accepted3仍不可行，无高配精化。
 
 | 实际run/机制 | 当前真实状态（完整数值及来源见链接） |
 |---|---|
@@ -117,7 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 22初场g/Phi/Gram较19低而distplus较大，仅是实际工作值比较，非wholeK/reach单调定理。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保未知排序；全部逐值保各完整note和上引旧open。
 
-以上全point/model/source/六族/事件时刻、缺值/失败保完整note及固定原索引。统计不代几何、current不代trial、相同坐标不代同场，未知alpha不推方向号。18–23均未自然返回完整科学report，不以进度接准确费。
+全point/model/source/六族/时刻/缺值失败保原note和固定索引；统计不代几何，同坐标异model不冒同场，alpha未知不推方向号。18–23未返完整report，不以进度接准确费。
 
 ### 新机制与全部未付后继
 
@@ -125,15 +125,15 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原19全波半宽/δ1/32/两初μ.01，137原对+policy=138/19runtime。原完整全步和自身模型/点/几何/预测达策略条件才降下一μ；失败×4/metric/顺序/预算保。[全19件](computations/fixed-fejer-restoration-continuation-bhalf-complete-launch-delivery.json)已刊，官方46094430214/1于01:42:05Z启动；两完整输入实际0，scienceb31c/f2a9/PID3652已运行；新场/策略结果未返，不混22。
 
-旧19–21全部N/G/R723/R718/R716/mesh全源参已刊，路径/whole身份保旧open/H。22新准确N/G/R723的17件、P/U/mesh18件和23准确31件已保护待容量，分别绑定新完整来源；准备不冒费用已付。R723五新角色不能冒旧八通过；R718要同场markedσ，R716另要unmarked法管/正V/非零中心不变量给含反射δE。
+19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量，whole身份保旧H/open；准备不冒费用。R723五新角色不冒旧八通过；R718 markedσ与R716 unmarked法管/正V/非零中心不变量独立。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原outdir须首次原repo绝对源路径和whole稳定report/snapshot；G续同whole N版本与自己的首次源路径，N变SHA不能原目录重绑；R723/mesh每次fresh。immutable required-angle packet可为trial但要完整report绑定，mutable progress不可。原无附证32词mesh保；[旧1782完整兼容](computations/fixed-fejer-R723-compatible-complete-same-field-phase-mesh-delivery.json)34/6词/15mesh预算保，新6047半波独立。
 
 normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722全域三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/working、两帽/mixed/allphase/全部主副件及晚失败全待付。五t/三级空间/频率/时间全mesh要同g同参数实跑。
 
-[完整同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)要同runner真正complete report/全13final/全输入typed史；partial/accepted/packet不足，CLI不继承末μ。原136+4词/模式/peer/预算及原03–11全部P0/G/typed未知失败保原链。
+[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)要同runner complete report/13final/全typed史；progress/accepted/packet不足，CLI不继承末μ。原136+4词/模式/peer/预算及全部P0/G/typed未知失败保原链。
 
-下一对照选[半波b5/8](notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md)，δ/g/137源/预算保。显式端层因子×4/5、中间长度×2/3，中央却有3λnew/(2λ22)代价及完整根/帧/移动端层响应，非必然改善。反转符号的距离差无全域定号，未标记E3全等仍未知，不另开该候选。24完整参数准备中、未启动。
+下一单宽度[半波b5/8](notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md)完整参数已备，δ/g/137源/预算保。端层4/5、中间长度2/3、中央3λnew/(2λ22)竞争，非必然改善；反转符号距离差与未标记E3全等未知，不另开候选。24未启动。
 
 ### 容量和继续标准
 
