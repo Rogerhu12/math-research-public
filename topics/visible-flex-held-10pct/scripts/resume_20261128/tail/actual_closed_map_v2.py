@@ -151,7 +151,15 @@ class ActualFiniteTailV2:
 
 
 class ActualCutTarget:
-    """One whole Cartesian two-jet, shared by the prefix and tail."""
+    """One real Cartesian two-jet, shared by the prefix and tail.
+
+    R, w and the saved Fourier coefficients are literal binary real inputs.
+    The chart factors are the unique real expressions
+    wr=-7*w/R, ap=-1/sqrt(1+w*w), app=-w*wr/(1+w*w)**2.
+    The floating self.wr/ap/app values below are numerical evaluations only;
+    they are not separately rounded defining constants. A rigorous cut-lift
+    enclosure must evaluate these same expressions with a real-root interval.
+    """
     def __init__(self, prefix, cap):
         self.prefix, self.cap = prefix, cap
         self.R, self.w = (float(cap.parameters[name]) for name in ('rCut', 'wCut'))
@@ -182,6 +190,12 @@ class ActualCutTarget:
         return answer
 
     def perturbation_radius(self, R, width=.02):
+        """Reparameterize only the saved finite perturbation near the cut.
+
+        The background R*e_r, background height and tail metric still use the
+        physical R coordinate. Old stage bounds in the saved radius do not by
+        themselves bound this nonidentity strip; its chain factors are paid.
+        """
         R = np.longdouble(R)
         delta = self.c-np.longdouble(self.R)
         u = np.clip((R-(np.longdouble(self.R)-width))/width, 0, 1)

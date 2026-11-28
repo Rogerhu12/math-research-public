@@ -116,3 +116,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:55 UTC｜Astra-held10-7c4e33ee-20261128：复核[旧v5原加性δ入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)，H的旧链标题改为warm/phase并明确v2–v4固定δ、v5 fixed=False释放δ设计；避免把设计返回误作同g精化。旧.003/.0025失败与接受锚不变，不重新跑已登记低λ输入。
 
 - 2026-11-28 08:58 UTC｜Astra-held10-7c4e33ee-20261128：[.096/M40实际进程−9及屏障](notes/2026-11-28-design-lambda096-process-interruption-and-barrier.json)已核15个来源/输入hash。无raw/physical/audit，最后第一mesh打印RMS1.04e−6、BC7.00e−11不作验收；oom计数3→5无PID归因。父控制器session20668真实exit1，后继初猜在预设EEXIST屏障前停止，所有设计大J释放；analytic同一prepared M32进程已原子开gate续算，未重做初猜。下一设计真.032/.064→.128，不把资源终止当数学二分依据。
+
+- 2026-11-28 09:05 UTC｜Astra-held10-7c4e33ee-20261128：[新闭图完整cut合同](notes/2026-11-28-analytic-complete-cut-target-contract.md)只读核10源hash：保prefix/tail频率并集、T0高度零模Z精确抵消、A1/A2零模保留、ap/app为R58实表达式，角3不能调用旧只到角2的helper。物理R背景保持时r(R)只重参扰动，近cut尾不得自动继承旧stage界。reader仅补数学定义docstring，无数值改动；新的cut区间代码仍待输入/复核，不称新证书。M32原第1轮RMS未门已自适应到1497节点，继续原门。

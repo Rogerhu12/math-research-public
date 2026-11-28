@@ -1,0 +1,26 @@
+{
+  "status": "read_only_complete_cut_contract_review",
+  "new_solver_or_certificate_invoked": false,
+  "live_or_hash_bound_source_changed": false,
+  "reviewed_sources": {
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_target.py": "a8bb9135d8ad56a0589db3c5d582a91cc85a8c4b1fd5a5632264cccf53d7ca77",
+    "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_tail_spectrum_v2.py": "b1525fd0adec4ca28dafed371388ae3624bdfd28c6e1781dd60595253d59ab23",
+    "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_certify_bridge_geometry.py": "bd471b11edbae3c1309dfbc9dd9ebab00fbae40b0e0909f78f6571c4b6ccff56",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/closed_m3_map.py": "1444b817abe0d77410f8c9e9b35b0ea14aa5f182767fd2de3d57527a46e51ba1",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/background_query.mjs": "611561de4206caade2f0ba439cda40e558474267538d7eeb5929a55e3e993825"
+  },
+  "actual_geometry_bundle_selected": false,
+  "scope": "Exact formula and data contracts only; a concrete complete tail must be bound before use.",
+  "implementation_warning": "ActualFiniteTailV2.fourier implements height derivatives 0,1,2 only. Do not call it at order 3 in a new angular table.",
+  "derived_constants_are_real_expressions": true,
+  "value_height_zero_mode_cancellation": "T0_z,0 = final prefix endpoint Z exactly",
+  "tail_first_second_mean_zero_modes_retained": true,
+  "complete_planar_and_height_union_required": true,
+  "physical_radius_metric_preserved": true,
+  "old_saved_radius_stage_certificate_automatically_transferred": false
+}
