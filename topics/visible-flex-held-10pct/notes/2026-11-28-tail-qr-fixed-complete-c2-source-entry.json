@@ -1,0 +1,49 @@
+{
+  "status": "new_source_compile_help_and_original_exact_comparison_reuse_checked",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_c2.py",
+    "sha256": "d62f02658ed8c43e81e21d41b1603f250e182bd4a4993229de4520862d7edde2"
+  },
+  "original_comparer": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_compare_tail_c2_v2.py",
+    "sha256": "efcbcf6694c7327ca7ffe062aa883dd1226b75a884d9a3fb1f7249946ba11d33"
+  },
+  "actual_checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "py_compile",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_c2.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.14541001199995662,
+      "stderr": "",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_c2.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.20533221000005142,
+      "stderr": "",
+      "stdout_sha256": "61301d05f9e98db7b946fac1ebceb7ed0236dd9dc5b141bcc3c2c15706271e3e"
+    }
+  ],
+  "original_complete_common_partition_loop_byte_identical": true,
+  "common_partition_loop_sha256": "08709b2f409767b9c2a3164c73fd8dddb076e6c08541bcdc3792aa630b3fb58b",
+  "complete_tail_stage_and_spans_inherited_without_override": true,
+  "original_kernel_functions_referenced_directly": [
+    "common_spans",
+    "compare_span",
+    "sqrt_upper",
+    "upper_row"
+  ],
+  "real_accepted_source_pair_available": false,
+  "positive_C2_bound_executed": false,
+  "BVP_native_or_old_tail_certificate_recomputed": false,
+  "new_field_or_old_low_lambda_bounds_claimed": false
+}

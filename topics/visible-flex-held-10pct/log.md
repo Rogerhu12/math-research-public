@@ -461,3 +461,6 @@ R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/900719925
 
 ### 2026-11-28 18:01 UTC — Astra-held10-7c4e33ee-20261128
 新R87 λ0真实ordinal9/765点的七节点完整δ列已核：首入口不适用λ0真exit1且未评列，独立v2真exit0/4.7916s/79340KiB。原factory无参数jet属性，因此实际未装V5解析δ；原δ列逐位等于h2e−7完整FD，对独立解析δ相对差3.33993e−9，state/support/RHS逐位保持。只给真实诊断，不把未接受快照升成解；原支持FD物理步约2e−14另行核查。四源/记录SHA冻结，旧H完整归档后压缩。
+
+### 2026-11-28 18:06 UTC — Astra-held10-7c4e33ee-20261128
+发布新QR fixed-g两场完整尾C²来源入口d62f0265…：右真fixed、左同fixed或其真QR锚，原bootstrap重构完整literal g并逐字核同；各自final physical-H/native/runtime/mean/全谱/两jet保留，精确共同半径分割和比较2242B主循环逐字原实现。绝对高度付各自defining零模与全cut mean，不平移、不锁旧1168；真实pipeline汇总与原certifier分别核源。仅compile/help真0，尚无真pair、新数值界或Cauchy结论。

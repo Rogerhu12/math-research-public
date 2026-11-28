@@ -4,7 +4,7 @@
 
 ## 规则与当前入口
 
-- 最近实际pull后双README已读锚 `c10300cc29e60b0c0b43bf67f9003d64189af0b0`（2026-11-28 18:02 UTC）。
+- 最近实际pull后双README已读锚 `d85466fb7a54263fc83018922e0209d979f8cb3a`（2026-11-28 18:06 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论实际pull/核双README差异/推送；NFF立即rebase循环至成功，不force。根§12无额外审批或独立复核门；§15只源/参数/hash/小标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H有内点且diamH≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D；全metric≤1e−6且固定问题的谱/径向/时间精化降至机器或求解容差；多个t小网格复现和严格存在差距说明。λ<1非准确圆弧H；换δ/profile/帽非同g精化；完成后继续改善比例。
@@ -26,6 +26,7 @@
 [fresh完整尾小块入口](notes/2026-11-28-tail-fresh-qr-complete-chunk-geometry-entry.md)从真final-H门接原stage0、8段一块、完整共享mean/谱/每条两jet、merge/index/连续门；不制造旧−9。compile/help与递归Python→Node I/O真过，未跑新几何。[新final-H几何/活动矩七源](notes/2026-11-28-tail-qr-finalH-geometry-and-activity-entry.md)已发布：原height primitive/placement、逐span/deep全几何、真实cutwidth、全时4/5、完整prefix/tail活动矩严格同场；原15数学块核同、compile/help真过。Re A3可正或负排零，含零不通过；未传旧界，无新阳性。
 
 [QR首锚固定g九源](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)已发布，新KIND与QR源诚实绑定；原支持族fixed=True保全部未知，固定δ/profile/字面chart/gauge/warp/mean/尾背景，完整祖先链/最终physical-H/原8outer保持。原九源未动，新九源compile/help已过；新mesh必传phase-end4/5，held-width27/50，保全谱/拓扑/5MB。首次应从内层actual-dn summary取真run/port/baseline/M-specific manifest，独立runtime只改checkpoint/trace/chordMaxCorrections；首同M严格径向后再升模，所有原门仍需实付。
+[固定g完整尾C²比较入口](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)已准备：真QR锚/真fixed完整g重构核同、完整共同半径分割/全部谱/共享两jet沿用原比较，切口高程用各自定义零模及全mean，不做平移；原2242B主循环逐字同、compile/help真0，无真实pair或新界。
 [显式材料圆弧相位合同](notes/2026-11-28-explicit-full-phase-mesh-entry.md)已发布；旧9/20与旧k.2/S.5 held-frame不能覆盖本设计。
 
 ## 3. 原低λ成果与有限弦理论：不可冒新场
