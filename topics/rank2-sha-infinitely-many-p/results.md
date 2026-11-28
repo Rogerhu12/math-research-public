@@ -357,3 +357,10 @@ R1062§7从原完整Tate基和book period自然性付深norm-one Galois作用：
 R1063在原E0与严格LT坐标中证明Z_Q=Xi(w_Q)及6p/(p²−1)误差；实际tame0角色、所有Miller/Klein中心和两3词保留，负二Hall只在第五层起有连接误差。原反CM给W_+=hat3W，严格Haar对偶给d/p²，原Ω/ρ/ell/raw幅度完整列出；前五层是两原完整B的卷积，首项d_-,p−1·s_p+1。新增投影不冒原来源已做，paired值不代单Hall严格估值门，未预付无穷首单位。
 
 [完整证明](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，H1–H27。
+
+
+### R1063 §8：五层 Hall 与原 Newton 的有限除 p 导数
+
+R1063§8把同一个五层Hall卷积精确返回原K_-·J_S/(pu)的有限除p jet。R614整窗及完整高尾支付至四阶导数除p，全部Ec高完成给明确整单位U5，charge比γ_-/γ_+=3与qδ对数均保；原canonical坏只迫Acan(0)=0，不给其它四项零。若五层有首非零，其实际W根估值准确可读，但尚未证明首非零存在，也不提高单Hall严格门。
+
+[完整证明](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，J1–J10。

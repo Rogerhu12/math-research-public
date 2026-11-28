@@ -42,7 +42,7 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)进一步付每个实际平移源的全m二项式Tate族、两槽全部非单位费用相消后的单位底数、共同合法子列及精确负二值/斜率。指定Norm纤维的seed endpoint真非零；此输入只能在已付actual graded返回的字使用，未付部分保原T_orig及R1060有限Newton。真正R716 Hall还需负侧tame0，不能以Norm纤维非零略去它。§7现给实际period半线性作用及raw全部jets独立，但canonical读者须消费准确Ω(R′−logU*R)；若完整临界值为零，此法不排canonical斜率零。whole bare µ的Galois作用另保完整Maass三角T_((c²−1)C)D_(c²)，不能仅以LT线缩放替换它。
 
-[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。下一将已成稿的完整non-p/h/γ_i与positive seesaw、原Newton五层返回逐式接入，同一单Hall仍需v<2/(p−1)才排canonical坏。
+[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8现付原Newton五层有限除p jet、完整Ec单位及δ整对数；bad只杀Acan常数，余四项未知。下一接完整non-p/h/γ_i与positive seesaw的整列；单图不免费分离，同一单Hall仍需v<2/(p−1)才排canonical坏。
 
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 

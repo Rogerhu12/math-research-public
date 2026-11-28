@@ -455,3 +455,201 @@ $v_pA_p(t_{\chi^2})<4/(p-1)$。
 已经支付的是原 wild 角色不改名、全部中心不丢失、真实反 CM
 边界变量、完整负二连接误差，以及同一 canonical 行在前五层
 的准确位置。
+
+## 8. 前五层恰回原单参数 Newton 的有限除 p jet
+
+本节使用 J 标签。它比较的是同一来源的五层整剩余行，
+不宣称两个完整 $p$ 进 germ 相等，也不恢复已经撤回的
+usual-depletion/flat 正权比较。
+
+令 $c=c_\sigma$、$C_-=102c$、$C_+=34c$，
+$\gamma_\pm=pC_\pm$，故 $\gamma_-=3\gamma_+$。
+保持
+[原 psi4 单参数 Newton 注](../notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)
+(5)--(11)的准确来源，定义
+$$
+ \begin{aligned}
+ g_h^-&=[z^{dh-2}](D_-e^{-C_-z^d}),\\
+ g_h^+&=[z^{dh}](Se^{-C_+z^d}),\\
+ J_-(u)&=\sum_{h\ge1}C_-^{-h}g_h^-(u)_h,\qquad
+ J_S(u)=\sum_{h\ge1}C_+^{-h}g_h^+(u)_h,\\
+ K_-(u)&=J_-(u)/(pu),\qquad
+ L_S(u)=J_S(u)/(pu),\qquad
+ (u)_h=u(u-1)\cdots(u-h+1).
+ \end{aligned}
+ \tag{J1}
+$$
+这里 $u$ 专指原 Newton 权参数，与(H3)的严格 LT 点坐标 $v$
+不同。质量零 $S(0)=0$ 是(J1)原已付的事实，
+没有为 $S$ 追加一个新的算术零条件。
+
+### 8.1 全尾支付的真实有限除 p jet
+
+R614 的整窗作用于
+$D_-=\sigma^{102}xP_{16}(x^3)$ 和
+$S=\sigma^{34}x^2P_4(x^3)$ 时，所读 $z^6$ 指标均为
+$hs-1$。因此 $1\le h\le p-1$ 时 $g_h^\pm$ 整，
+Newton 系数在 $p^h\mathcal O$ 中。
+原单参数注(11)还完整保留 $h=p$ 的 $p^{p-1}$ 界、
+$p+1\le h\le2p-2$ 的 $p^{h-2}$ 界；
+更高项由其(8)的整个过收敛尾控制。
+当前只需 $0\le r\le4$，故这些高尾除以 $p^{r+1}$ 后
+仍在 $p\mathcal O$，不以无限尾为零。
+
+$(u)_h/u$ 是次数 $h-1$ 的整多项式。
+它的 $u^r$ 系数在 $h\le r$ 时为0，在 $h=r+1$ 时为1；
+$h\ge r+2$ 的整个系数乘上 $p^{h-1}$ 后更深至少一位。
+所以严格有
+$$
+ \boxed{
+ \frac{K_-^{(r)}(0)}{r!p^r}
+     \equiv\frac{g^-_{r+1}}{\gamma_-^{r+1}},\qquad
+ \frac{L_S^{(r)}(0)}{r!p^r}
+     \equiv\frac{g^+_{r+1}}{\gamma_+^{r+1}}
+       \pmod p,\quad 0\le r\le4.
+ }
+ \tag{J2}
+$$
+左侧都是实际整数值的有限系数。
+对这些函数定义
+$$
+ \operatorname{Jet}^{[p]}_4F(X)
+     =\sum_{r=0}^4\frac{F^{(r)}(0)}{r!p^r}X^r .
+ \tag{J3}
+$$
+只在 $\mathcal O[X]/(X^5)$ 使用这个有限 jet；
+不主张 $F(X/p)$ 在任何原先未付的新盘上收敛。
+Leibniz 公式使(J3)在模 $X^5$ 下保持乘法。
+
+### 8.2 完整 Ec 费用是明确的整单位卷积
+
+写
+$$
+ f_j=[z^{jd}]\log(\sigma/z),\qquad f_1=c .
+$$
+这里 $f_2,f_3,f_4$ 全整。
+例如 R614(2)准确给
+$$
+ f_j=-\frac{X_{js}}{6js(6js-1)},
+ \qquad z^2x(z)=1+\sum_{n\ge1}X_nz^{6n}.
+$$
+$j=2,3,4$ 时 $js<(p^2-1)/6$，故 $X_{js}$ 整，
+而两个显示分母的模 $p$ 值为 $j$ 和 $j-1$，均非零。
+这不把 $f_1$ 的一次分母删掉。
+
+定义下列实际单位（只需模 $W^5$）：
+$$
+ U_5(W)=
+ \exp\!\left(
+   -\sum_{j=2}^4(102+34\widehat3^{\,j})f_jW^j
+ \right)\pmod{W^5}
+ \in1+W^2\mathcal O[W]/(W^5).
+ \tag{J4}
+$$
+(H21)、(H23)的完整中央完成恰给
+$$
+ \boxed{
+ \mathcal B_-(W)\mathcal B_{34}(\widehat3W)
+ \equiv U_5(W)
+       \left(\sum_{h=1}^5g_h^-W^{h-1}\right)
+       \left(\sum_{h=1}^5g_h^+
+                        \widehat3^{\,h-1}W^{h-1}\right)
+             \pmod{W^5}.
+ }
+ \tag{J5}
+$$
+这是特征零的有限系数等式。证明只是把
+$E_{\rm c}^{-N}=e^{-Nc z^d}
+ \exp(-N\sum_{j\ge2}f_j z^{jd})$
+代入(H21)、(H23)，再按 $d$ 的整数倍平移指标；
+低于原首项的指标准确为0。没有省略任何 $f_j$ 或原多项式项。
+例如
+$$
+ \overline U_5
+ =1-408\bar f_2W^2-1020\bar f_3W^3
+   +(83232\bar f_2^2-2856\bar f_4)W^4
+       \quad\text{于 }(\mathcal O/p)[W]/(W^5).
+ \tag{J6}
+$$
+这些整数来自同一个 $102+34\cdot3^j$；
+不是重新选择一个可以改变原 $J$ 的 Gaussian。
+
+### 8.3 同一个 canonical 读者，保 δ 的整对数
+
+由(J2)及 $\widehat3\equiv3=\gamma_-/\gamma_+\pmod p$，
+(J5)在剩余环中准确成为
+$$
+ \boxed{
+ \overline{\mathcal B_-(W)\mathcal B_{34}(\widehat3W)}
+ =\bar\gamma_-\bar\gamma_+\,
+   \bar U_5(W)\,
+   \overline{\operatorname{Jet}^{[p]}_4(K_-L_S)}
+                          (\bar\gamma_-W).
+ }
+ \tag{J7}
+$$
+等号始终模 $W^5$。例如第 $k$ 项原来的整卷积
+$\sum_{i+j=k}3^j g^-_{i+1}g^+_{j+1}$
+准确等于
+$\gamma_-\gamma_+\gamma_-^k
+ (K_-L_S)^{(k)}(0)/(k!p^k)$ 模 $p$；
+两个 charge 的比例正好支付这个 $3^j$。
+
+还可以返回原单参数注(20)的两个真零因子的除商。
+保其同一个
+$$
+ q_\delta=\delta^d/3\in1+p\mathcal O,\qquad
+ \lambda_\delta=\log(q_\delta)/p\in\mathcal O,\qquad
+ \mathcal A_{\rm can}(u)
+      =-3q_\delta^{-u}K_-(u)L_S(u).
+ \tag{J8}
+$$
+它不是一份新的 theta 来源。
+由于 $\log q_\delta$ 被 $p$ 整除，
+$\operatorname{Jet}^{[p]}_4(q_\delta^u)
+   =\exp(\lambda_\delta X)\bmod X^5$；
+当前阶乘 $1!,\ldots,4!$ 均为单位。
+所以(J7)等价于
+$$
+ \boxed{
+ \overline{\mathcal B_-(W)\mathcal B_{34}(\widehat3W)}
+ =-\bar\gamma_+^{\,2}\,
+   \bar U_5(W)e^{\,\bar\lambda_\delta\bar\gamma_-W}\,
+   \overline{\operatorname{Jet}^{[p]}_4\mathcal A_{\rm can}}
+                                  (\bar\gamma_-W)
+        \pmod{W^5}.
+ }
+ \tag{J9}
+$$
+这保留原 $\delta^{-n}$ 对权导数产生的整对数，
+没有把 $q_\delta$ 因为模 $p$ 等于1就在所有精度设为1。
+(J9)只是一份全系数支付的有限剩余读数；
+它不把 $p^{\rm weight}$、Gamma 或所有高权共同因子
+插值成新的函数。
+
+原 canonical 坏必要条件为 $J_S'(0)=0$。
+它准确给
+$$
+ \mathcal A_{\rm can}(0)
+   =-3K_-(0)J_S'(0)/p=0 .
+ \tag{J10}
+$$
+因此本篇首层为0的必要性现在既有 Hall 来源，也有同一个
+原 Newton 来源，且所有中心、charge、Gaussian 和
+$\delta$ 费用已经列清。
+它不迫 $\mathcal A_{\rm can}'(0)$ 或其它四个除 $p$ jet 为0：
+例如坏条件下
+$\mathcal A_{\rm can}'(0)
+ =-3K_-(0)J_S''(0)/(2p)$，
+其实际值仍未由 $J_S'(0)=0$ 决定。
+
+最后，由(J9)中的两个单位及 $\gamma_\pm$ 为单位，
+若五个剩余系数中有非零项，其首个位置与
+$\operatorname{Jet}^{[p]}_4\mathcal A_{\rm can}$ 的首非零位置相同。
+在 $W^{p-1}=p$ 的实际根上，若该位置为 $k\le4$，
+(H27)移去全部显示前因子后的估值恰为 $k/(p-1)$：
+较低系数被 $p$ 整除、较高项更深，而
+$5/(p-1)<1$，所以不能发生同估值的抵消。
+这没有证明那五项必有一项非零。
+它也不提高 R716 的单 Hall 严格阈值；
+首位置 $k\ge1$ 仍可能与原坏中央阶相容。

@@ -217,7 +217,7 @@ root以全部层Eisenstein给CM Tate开像，明确σy=yg_a才用E16，逐式推
 R1062 G1–G19已成功推06c9d2e78a4b15c11972e3eef3fd7208ecf1b5f7。03:21:48UTC实际核v13仍in_progress，日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、尾00:18:25 positive scalar222/306，未返新终门；不据缓存断停滞。旧H逐字归档notes/2026-11-28-handoff-before-period-descent-and-hall-return.md（9852B/34a12d3ffea701791e542872265029cf06c9e112be02e1c768a33e7bc248832c）。
 
 
-## 2026-11-28 03:40 UTC：原 tame-zero Hall 五层与全部绝对相位
+## 2026-11-28 03:38 UTC：原 tame-zero Hall 五层与全部绝对相位
 
 R1063在原E0与严格LT坐标中证明Z_Q=Xi(w_Q)及6p/(p²−1)误差；实际tame0角色、所有Miller/Klein中心和两3词保留，负二Hall只在第五层起有连接误差。原反CM给W_+=hat3W，严格Haar对偶给d/p²，原Ω/ρ/ell/raw幅度完整列出；前五层是两原完整B的卷积，首项d_-,p−1·s_p+1。新增投影不冒原来源已做，paired值不代单Hall严格估值门，未预付无穷首单位。
 
@@ -225,3 +225,13 @@ geometry完成H1–27；root全读R663/R696/R705/R716原式，核严格LT而非�
 
 推前actual readonly run46075603971/job140850811731：公开2026-11-28 03:33:45 UTC至983bae9f248d07d6fe946270290d2994c39ba4ca；私库2026-11-28 03:33:49 UTC至abf1cfe909b15efc2389771d5706d0604f640f99。四README与03:26已读版完全相同，QUEUE/认领未变；日志14887B/hashb9808b7987656b75cd13adc8bc4262fee060a4e87dacff6a35bacdac0c9dd0c9，库存3175blobs/44895845B/tree7b257f6401316d1b5f51ad400a9b2769f446de79，无>5MB、三旧必要gzip不变。
 R1062 P1–P11已成功推687d22ccb6b4d5a7d2bcdc571e68292cfce0590c。旧H逐字归档notes/2026-11-28-handoff-before-full-tame-zero-hall.md（9604B/51f0ccef4e7f61dd17264ad8a0928254722c44e7f976c7566741e4f605844844）。
+
+
+## 2026-11-28 03:40 UTC：原五层 Hall 到同源 Newton 的完整有限 jet
+
+R1063§8把同一个五层Hall卷积精确返回原K_-·J_S/(pu)的有限除p jet。R614整窗及完整高尾支付至四阶导数除p，全部Ec高完成给明确整单位U5，charge比γ_-/γ_+=3与qδ对数均保；原canonical坏只迫Acan(0)=0，不给其它四项零。若五层有首非零，其实际W根估值准确可读，但尚未证明首非零存在，也不提高单Hall严格门。
+
+geometry成J1–10，arith独核；root全读R614及原psi4单参数Newton，逐查低窗(hs−1)、h=p端点、完整无限尾在除p^5后仍深，以及f2/f3/f4整性、精确Ec卷积和δ对数。J9只在(p,W5)使用，不把F(X/p)当已付新盘；全纸证，无新数学执行。
+
+推前actual readonly run46075603971/job140852266652：公开2026-11-28 03:39:41 UTC至e37f1aa01136e8aaa89f630be1828d360ea0e5f0；私库2026-11-28 03:39:48 UTC至5d31a7323309f2034338718783a1d6baf441b418。四README与03:33已读版相同，QUEUE/认领未变；日志14887B/hashc4eaa89df835773217209a2a299ab891ea9f6b5f4f33dc9d83fb60e6b42d323d，库存3177blobs/44925740B/tree965c57f8824a19a9be0e9b072a5fdbfb3123f6dc，无>5MB、三旧必要gzip不变。
+R1063 H1–27已推9a93627d89785d084b1be2d61335dcd02d8e0fed；其上一log标题误写03:40，本次按实际工具时刻更正03:38。I稿正在将“逐图”索引准确改为完整非p/Artin输出整列，不先登记旧措辞。
