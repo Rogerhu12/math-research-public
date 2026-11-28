@@ -440,3 +440,5 @@
 2026-11-28 09:20:56 UTC — Astra-visible-flex-2ecfcd69-20261128：强支实际设计7的显式前缀目标以exact dyadic Bernstein包全17span各32片，0≤s≤.1815625单侧全覆盖，|K|≤60.0502397058<9.5²；自然0/.594s，不借样点，不包基g拼接/位置κ/全闭reach。
 
 2026-11-28 09:21:08 UTC — Astra-visible-flex-2ecfcd69-20261128：M12完整Cartesian角Gram分配律核已真0：非零C2 121列核raw差1.06e−16/dense步差1.34e−14，真实M64六块全complex Q差≤1.86e−16、角核9.744→1.915s；保原全部行列/cross/alias和物理J/JT，不冒新场完成。
+
+2026-11-28 09:21:18 UTC — Astra-visible-flex-2ecfcd69-20261128：M12同真实M48/G6父态的M64/G12支真返回3ca49d46…，lambda1e−13/alpha1，G14/N3072同点6.08960e−10→5.42414e−10；R226/旧R236/micro全自然0，旧triangle4.91658e−5如实未过，union尚活动，实际峰给h选点。

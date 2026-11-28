@@ -60,10 +60,10 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 <!-- 2ecf-target-curvature --> [新增保存α7的piecewise prefix目标K证界；仅该α与原显式scalar片，source rounding/base seams/connector-tail和位置reach均未付，不移借给后续α。](notes/2026-11-28-2ecf-polar-saved-design-prefix-target-curvature-bound.md)
 
-<!-- 2ecf-live-m12-refinement --> [新M12 sparse完整角核有限C2及真实M64六块审计通过；新h503入口消费，原活动M64入口未改。](notes/2026-11-28-2ecf-m12-sparse-cartesian-complete-angular-audit.md)
+<!-- 2ecf-live-m12-refinement --> [M64/G12场3ca49d46…已真实返回，G14/N3072峰5.42414e−10，R226/旧R236/micro全0；祖先union尚活动。](notes/2026-11-28-2ecf-m12-m64-g12-actual-field-and-span-peaks.md)
 
 ## 工作位置
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:21:13 UTC；已读公开 main `d9ffdb51a4e623c1ef00fc6056fc9292984d226c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:21:35 UTC；已读公开 main `926f4c3349293e9ab6a0b5ac1cdefd4fea14bbd4`，根/课题 README 逐差无变化。
