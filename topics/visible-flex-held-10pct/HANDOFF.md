@@ -1,10 +1,10 @@
 # HANDOFF — Astra-held10-7c4e33ee-20261128
 
-**进行中，未完成：没有满足全部10%标准的真实闭族。** 接Astra-held10-06bbeb39-20261126，不能以阶段/时长/输入不足停。root独占Git/H/open/log/results；design推进真λ1，tail全DN/尾/几何，analytic核心/固定g。完整历史见[上一压缩档](notes/2026-11-28-handoff-before-zero-support-driver.md)及其链接，不重算已登记结论。
+**进行中，未完成：没有满足全部10%标准的真实闭族。** 接Astra-held10-06bbeb39-20261126，不能以阶段/时长/输入不足停。root独占Git/H/open/log/results；design推进真λ1，tail全DN/尾/几何，analytic核心/固定g。完整历史见[上一压缩档](notes/2026-11-28-handoff-before-mapped-positive-restoration.md)及其链接，不重算已登记结论。
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `bfe4fa979d323c3b7bbc56c83b3787a95e1b5855`（2026-11-28 18:49 UTC）。
+- 最近实际pull后双README已读锚 `e66915e6a9bdcc1ffbfa903395ddb61a2c6cb97c`（2026-11-28 18:54 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -13,17 +13,16 @@
 
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)：q=warp=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50，首升速0→9/20单缓坡。原线性根δ=.06809451565377872/r=1.1349085942296453、calibration/root-profile已按原SHA恢复，不重搜根或重走旧高k排除支。
 
-**当前真正接受锚：** [恢复后严格λ=.002/M16](notes/2026-11-28-design-r87-strict-positive-seed-and-continuous-recovery.md)，1051点、RMS1.994973874801693e−7、metric4.979823887209015e−8、physicalBC1.989107513471194e−19、mean784。4全步/零拒，175.22s、406104KiB；TTY44020真exit0，原accepted_original/prefix_gate及全部raw/physical/source实际核过。run SHA `754987d85ec08772adcfb216bb4c2f3599b1ebe83c08ccad842e7c68c110b782`，out `held10-design-work/R87-strict-recovery-20261128/lambda002_m16-from-unaccepted`。
+**当前真正接受锚：λ=.032/M24**，1051→1103节点，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。真实65581/owner/child全exit0/剩余0；原accepted_original/prefix_gate/finite checks及全源/raw/physical/hash已实际通过。run SHA `903b4abfbec686308820cd69700a0be104d763af8fa010aae2cd1e2a3c854490`，out `held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128`；必要恢复非新λ前沿。
 
-**当前唯一活算：TTY65581，18:44:29.674572 UTC**；out `held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128`，command SHA0f0ae971…。原连续链73924在λ.032/M24完成5全步、3完整QR后child−9，无raw/audit，工程原因未知。完整1051×73/p24 checkpoint904db0f9…保留；现同λ从此literal全场接完整CSR/QR因子映射与RHS8路径，tol2e−7和全部门不变，不重算5步、不λ二分。构造/热solve峰仍实计，每mesh核实际预算。该场真接受后继续.064/.128/.256/.512/.75/1，.256至少M32，真双源全场升模割线/正式stop协议保留。
+**当前唯一活算：TTY14227，18:51:16.998 UTC**，out `held10-design-work/R87-strict-mapped-material-continuation-20261128`，command SHA54188afc…。真.032和previous真.002/M16→.064/.128/.256/.512/.75/1；.256至少M32，完整跨模双源割线，tol2e−7/全部原门、全CSR/QR映射/RHS8/每mesh实际预算/正式stop保留。
+[.032工程终态与完整映射源](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)：原73924 child−9且真join，原因未知；已保存5全步的完整1051×73/p24 checkpoint904db0f9…并由65581原样续算。真join后才清自有映射；未λ二分、未重算5步、未改方程/门。
 
 旧视图最高真接受λ=.128/M24（run7f8bfa03…，metric6.3560e−7、mean1168）raw已不可读；当时λ=.256/M24/M32/M40的metric分别8.8414e−5/1.28584e−6/1.24844e−6未门，M40有952点/RMS9.69144e−7。旧M48无接受、89083真exit1原因未知。[M40小回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒旧JSON逐字恢复；这些只是历史，不用旧场替代当前锚。
 
-## 3. 已完成的恢复诊断（不重做）
+## 3. 已完成恢复诊断（不重做）
 
-旧λ0 FD方法曾765→812点；工具81483已exit1/Unknown，但内部child/cleanup未知。后继同F完整support解析修复从812→892→1049，原RMS未降、p逐位同；18:21:38原owner已真join child−15/协议exit4/剩余0。都未接受，不能说λ0无解。
-来源和完整标量见[旧交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)、[δ实际分支](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)、[完整support三jet](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)、[原RMS/真1049交接](notes/2026-11-28-design-r87-zero-original-rms-and-positive-handoff.md)、[最坏格精度](notes/2026-11-28-analytic-r87-worst-cell-precision.md)。末项排除本格RHS精度/断点假设，非不可能证明。
-[完整未接受升模](notes/2026-11-28-design-r87-unaccepted-full-lift-positive-start.md)以原embed/lift_weights保1049全部节点/三块Y/参数M8→16；原accepted门未改，正λ恢复已真接受如上。[正式stage-control](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)和observer v3的实际owner控制仍用，工程负码不λ二分。
+详[上一交接](notes/2026-11-28-handoff-before-mapped-positive-restoration.md)及所链各真实回执。旧λ0 FD765→812，工具81483 exit1但内部码/cleanup未知；解析support修复后812→892→1049，RMS未降，owner真join child−15/exit4/剩余0，均未接受。δ诊断、完整support三jet、原RMS、最坏格精度均已付；最坏格排除RHS浮点/断点假设，非无解证明。完整未接受M8→16保1049全部节点/三块Y/参数，原accepted门未改，真.002/M16接受后已接当前.032。正式stage-control/observer v3继续；工程负码不λ二分。
 
 ## 4. 真λ1之后的现成执行入口
 
