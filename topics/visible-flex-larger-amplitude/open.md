@@ -129,6 +129,8 @@ R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g付所�
 
 [R758](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)：46156613563四路全84拟合+72中相自然返；末最细metric约2.85e5，均失败。[R760原帽排除](results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)证初g真K>21000，与D≥1.40所需reach冲突；原输入不重做，真换Cartesian初帽/低曲率右墙。
 
+[R760](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)：真Cartesian初帽/低曲率右墙，新固定g初reach≥.132/D<4.01/grip1.40，基线held>1.09及整活动两卷/曲领全相同g；全中环/whole reach仍欠。四路全三层七相+六中相/真SE3冠姿态/30局部三向模式普通触发。
+
 ### 保留的全部责任
 
 19–32原终态、36–39全部阶段/原39未访flow与39b重生不同点，R724–750条件和失败范围，全部保固定旧open/H及各完整proof/note，已登记不重做。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit及7步预算不减，35自然science返后才原完整pure。RET100H/100I完整复现退出旧生成文本，活输入/唯一状态/未闭来源保。

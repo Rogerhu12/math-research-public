@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R760（已证明的新初厚度与完整实际启动）**：[Cartesian初帽/较缓返回墙证明](results/R760-cartesian-cap-join-initial-global-reach-and-exact-active-ends.md)把原尖初帽换成真实新固定g，初全reach≥.132/D<4.01/grip≥1.40，基线held>1.09，两活动整卷与曲领全相精确同g且局部曲率有界；整个中环与全相reach仍欠。[四完整原预算拟合](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)加入真SE3内冠、全部24²初路径和30个局部三向模式，固定十源/三层七相+六中相，实际待返。
+
 - **R760（已证明：原R758初帽的内在厚度障碍）**：[物理右赤道Hessian与Gauss曲率](results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)在原初g的真实内部点给K>21000，排除原初场及保此g/握尺度的准确厚实现；不借C0 metric误差推出曲率控制。新Cartesian初帽另定义固定g，后续独立处理。
 
 - **43（完整新实际任务，结果未返）**：[同R757固定g的双家族完整求解](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)保七移相与三成对启动、两家族各4/8/16精化、各65相与七整闭网，21科学输入。裸几何差分射线保历史双线性校准和独立物理全Gram；零漂移不冒非零误差界。原移相号障碍、成对末rim角费明确保留，后继须释放公共圈完整二jet。
