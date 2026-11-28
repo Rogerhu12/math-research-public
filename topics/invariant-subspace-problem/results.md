@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：全 W 伴随式的五条原纯三次实际返回](results/R150-appendix-unit211-W-whole-adjugate-five-original-pure-cubic-conditions.md)：4.776389191秒/0，五式均非零且几何总次恰3，18矩阵坐标与完整原四/六源全返。整个raw行列式零面和原十一式保留，未作新投影或排空。
+
 - [R150：整个正确 Phi 的非零纯权关系与完整规范维数≤1](results/R150-appendix-unit211-Phi-zero-corrected-nonzero-weight-support-and-whole-dimension-one.md)：固定12阶行列式F∈I6，首点mod1009为256，故F非零且权总度≤444；保全部434特殊权与完整Gram/孤立列有限恢复，仍允许曲线分量。
 
 - [R150：全 W 原伴随矩阵的五个纯 lambda,T 三次新输入](notes/2026-11-28-unit211-W-whole-adjugate-five-pure-cubics-original-return-8542-input.md)：原伴随行与全域f恢复给五条全图必要三次，不倒raw行列式；原十一式及全部头零面保，唯一首次180秒4GiB待actual。
