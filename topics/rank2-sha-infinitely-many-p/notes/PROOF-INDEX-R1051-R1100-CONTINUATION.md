@@ -29,3 +29,7 @@
 ### R1073 §16：同一目标微分的一阶与完整二阶返回
 
 同源cup度130给τ_C=u_C²/130，完整首导等于−2d f3 Σχ⁻¹u logu而非零，不能删；原Ab2二阶须保T2、d logτ T1及(logτ)²质量三项。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1067 §66：同一G81的全层单位、1008范数与原权归一
+
+旧G81–85整性与carry不重登记。新增同一D=S1/G(√17z)的1008倍严格全层范数及Klein原值无Teich精确S,p-unit；原Hall保G因子，同C下的正参考付全部17权缩放。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

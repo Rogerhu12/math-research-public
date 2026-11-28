@@ -1011,3 +1011,100 @@ $T,-T$ 以相同系数相加后取这两份局部对数的和，则它是偶函�
 所有奇数 Coates--Wiles 矩都为零。原 R303 的 Hecke 幂
 $2m+1$ 是奇数，这一朴素偶对数投影不能替代原标准 Rubin 类。
 (AG5),(AG6)用的是带真实权的截面本身。
+
+## 66. (G81)的所有 $p$ 幂层全局单位、固定范数标量与原 Rubin 权归一
+
+取 R1062 §13 的 $(17/p)=1$ 特化，$p>211$ 在 $K$ 惰性，
+$\beta=\sqrt{17}\in\mathbf Z_p^\times$，下列物理形式级数
+与 $p$ 无关：
+$$
+ D(z)=S_1(z)/G(\beta z).
+$$
+R1062(G81)–(G85)已付它的全形式盘整性、实际首 wild 完整
+translated Miller germs、原 $p^2$ 相位及所有权块的框架费用。
+本节再定该同一实体的全局值与全部幂层范数：
+$$
+ \prod_{V\in E_1[p]}1008D(t\oplus V)=1008D([p]t),
+ \qquad 1008D(Q)\text{ 是全局代数 }S\cup\{p\}\text{-unit}
+ \quad(0\ne Q\in E_1[p^\infty]).                                \tag{AH1}
+$$
+这里 $S=\{2,3,7,17\}$，且 $D\in t^6(1+t\mathbf Z_p[[t]])$。
+$S$ 后接下标才指原正次数截面。
+
+证明。取正整数 $n\to\beta$、$p\nmid n$，用全局有理偶函数
+$$
+ R_n^-(z)=\frac{S_1(z)}{G(nz)G(z)^{17-n^2}}
+         =\frac{S_1}{G^{17}}\left(\frac{G(nz)}{G^{n^2}}\right)^{-1}.
+$$
+后一括号是 $\phi_n/x^{n^2}$，在形式盘属于
+$1+t\mathbf Z_p[[t]]$；即(AD5)中的整单位
+$(t^{n^2-1}\psi_n)^2(t/[n]t)^2$。故 $R_n^-$ 及其
+$t^{-6}$ 后的逆均有一致整界，并在每个严格内闭盘收敛到 $D$
+及其相应逆。除子 $D_S-[n]^*D_G-(17-n^2)D_G$ 仍由 $[p]_*$ 固定。
+其范数常数正有理，仍可按(AF3)取原 Haar 几何均值：
+$$
+ c^-_{p,n}=(M_SM_G^{-18+n^2})^{p^2-1}
+   =1008^{1-p^2}\big(3^{-(p^2-1)/2}\big)^{n^2-17}.
+$$
+因为 $M_S/M_G=1/1008$，后面底数在 $1+p\mathbf Z_p$。
+故极限为 $1008^{1-p^2}$，给(AH1)范数。该固定有理标量
+没有随 $p$ 选择额外的比较单位。
+
+对 $Q$ 阶 $M=p^r$，固定物理 lift $z_Q=\lambda/M$，
+记真实 Klein 归一
+$$
+ \widehat S(Q)=e^{-17\eta_\lambda z_Q/M} S_1(z_Q),
+ \qquad \widehat G(Q)=e^{-\eta_\lambda z_Q/M} G(z_Q).
+$$
+涉及 $mQ$ 时暂取同一直线上的 lift $m z_Q$。
+(AE2)的除法比及 $x(Q),P(x(Q))$ 证明两值均为非零代数
+$S\cup\{p\}$-unit；选定复 lift 的数本身由其已知正整数次幂
+是代数数而代数，不必先给复周期作 $p$ 进评价。现在还准确有
+$$
+ \widehat G(Q)\in1+\mathfrak m_{\mathbf C_p},\qquad
+ D(Q)=\widehat S(Q)/\widehat G(mQ),\quad m\equiv\beta\pmod M.   \tag{AH2}
+$$
+事实上若 $n\equiv1\bmod M$，沿所选直线 $\widehat G(nQ)=
+\widehat G(Q)$ 准确无相位。于是 $\widehat G(Q)^{1-n^2}
+=\phi_n(Q)/x(Q)^{n^2}\equiv1\bmod\mathfrak m$，
+因为右侧是质量一的整形式级数在 $Q$ 处的值。
+取 $n=1+M,1+2M$，两指数绝对值的最大公因数恰为 $M$：
+除去 $M$ 后为 $M+2$ 和 $4(M+1)$，$M$ 奇。故该值是单位
+且其剩余阶整除 $M$，于是剩余值为一。现在取
+$n\equiv m\bmod M$ 并趋于 $\beta$；$R_n^-(Q)$ 逐项准确等于
+$\widehat S(Q)\widehat G(mQ)^{-1}\widehat G(Q)^{n^2-17}$。
+最后幂趋一，证明(AH2)，没有未控制的 Teich 根。$m$ 换成
+$m+kM$ 沿同线不变；更换 $Q$ 的格代表时两个 Klein 相位之商
+为一，因为 $2m^2\equiv34\bmod M$。
+
+(AH2)以同一原复标记覆盖每个非零 $p$ 幂层。特别在 R716
+首 wild 取 $Q_v=\varpi_1v/p$、$Nv=r$，其目标来自原曲线
+$E_{17}$，真实相差 $\mathcal A_{17}(v/p)=\widehat S(Q_v)/17$。
+以 $w\equiv mv\bmod p$ 取标准代表。$Nw=17r$；
+$2(17r)=34r$，$q_p(m)$ 为实数，原 $\delta^{-1}$-迹杀它。
+换代表所生的 degree-two Klein 相位与 R716(24),(25)
+的字符 carry 相消。因此 R1062(G83)的同一质量可再读成
+$$
+ \mathscr S_p(r)=\frac1{17\cdot1008}
+ \sum_{Nw=17r}(1008D)([m^{-1}]Q_w)\,
+                  \chi^{(2)}_{p,17r}(w)\,\widehat G(Q_w).       \tag{AH3}
+$$
+这里 $17$ 来自曲线的物理缩放，$1008$ 则为新增固定全局单位
+规范。$[m^{-1}]$ 只在 $p$ 挠点上取逆类。各项保原 Schwartz
+及 R716(5)未除 $\sqrt{p+1}$ 的约定；(AH3)并非把非恒定
+$D$ 从原环面和中提出。
+
+最后取 $B_\beta(z)=G(\beta z)$，保持 R303 的 $d=p+1$、
+$C=34c$，记 $J_{B_\beta}$ 是同一 $C$ 下的 Newton 读者。
+在每个 $k\ge0$ 用 R303(23) 比较原系数：同 $C=34c$ 相对参考 $2c$ 给 $17^{-k}$，而 $[z^{dk}]G(\beta z)=17^{dk/2}[z^{dk}]G(z)$，故合因子恰 $17^{(p-1)k/2}$。继由稠密性得到
+$$
+ J_{B_\beta}(u)=17^{(p-1)u/2}J_{0,p}(u),\qquad
+ \mathcal A_p(q_{\rm ac}^{du}-1)
+     =C_{\rm Rub}\left({J_{D B_\beta}(u)\over J_{B_\beta}(u)}\right)^2 .
+                                                                  \tag{AH4}
+$$
+$17^{(p-1)/2}\in1+p\mathbf Z_p$ 由 $(17/p)=1$，
+且 $C_{\rm Rub}$ 是此前已定原 Rubin 比较常数，非上述 Gaussian
+$C$。从而原随权 $17^{-(p-1)u}$ 在此正参考中准确消去。
+(AH4)的分子读实际乘积 $D B_\beta=S_1$；全局单位与范数
+相容性未把它换成 $D$ 单独的 Mellin，也未证明跨 $p$ 非零。
