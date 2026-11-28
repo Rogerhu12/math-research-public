@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高correlation Frobenius的全部实际双线性读数（已证明）**：[R1168 §§8–9](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)由原N_u微分、J0=0及实际normal下界完整求出最高加权U项；B_kl保同一二同源核的两矩乘积，BCH权(k−l)/(2(k+l+2))、ordered权(k+1)/(k+l+2)。原高carry、factorials和全部点对均保，继续原未平滑与其它中心，未宣该组合为单位。
+
 - **原最高correlation的整代表与非线性读式（已证明）**：[R1166 §§20–21](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)完整保ordered gauge后BCH准确为−R_Z(J_U)；原/primed theta的低normal支持、固定二同源whole Tate-Hodge群态射下ordinary βU/first=0与J0=0均付。原根/同陪集Cor保留，未把一般算术B_n包含在此源中。
 
 - **原Gaussian源的SS极部与指定对数留数（已证明）**：[R1161 §12](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)准确同权companion给weight-zero r_s、SS极≤s和原未归一Hecke特征；原两点差读为同一r_s对真实Y_c/Y_c′的Gaussian留数。其它Hasse根及Y根trace完整保留，∞项实排；继续指定余核控制。

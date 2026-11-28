@@ -531,9 +531,193 @@ $A=\mathcal R_V(y_v)$，每一个 $\mathcal R$ 都是
 
 本篇已实际读取两条原 abelian CM moments，并给全部
 四十三维 coefficient cone 的常数收缩及中央
-有序读取。原 $y_h$ 的完整 27 项、实际权、same-coset Cor、
-算术未平滑及全局减法仍须用已登记的同一个 source 继续求和。
-未对这些尚未求完的指定和宣称单位，也未宣本课题完成。
+有序读取。原最高 correlation 的实际加权读数在下文 §§8–9 完成；
+算术未平滑、其它中心及全局减法仍沿同一个原 source 继续。
+本篇没有将一个尚未证明非零的指定系数宣称为单位。
+
+
+## 8. 最高 correlation 的全部指定 normal 读数
+
+本节沿 R1158 的 **raw** $n=2$ correlation 群。
+对 $d=4,8$，令 $\mathcal A_{d,k}$ 是原 $X_{2,d}$
+在 R1168 常数 frame 中的 $\omega^k\eta^{d-k}$ 系数；
+令 $\mathcal A'_{i,d,k}$ 为同一实际二同源核
+$C_i\subset E[2]$ 对应的 $X'_{2,C_i,d}$ 系数。
+它们尚未除以 $k_d(2)$。置
+$$
+B_{k,l}
+ =\mathcal A_{4,k}\mathcal A_{8,l}
+  -\sum_{i=1}^3\mathcal A'_{i,4,k}\mathcal A'_{i,8,l},
+\qquad 0\le k\le4,\quad0\le l\le8.
+\tag{1168.35}
+$$
+原两个 primed 槽须使用同一个 $i$，求和保留原
+same-coset trace，不能改成两个独立和。
+
+**实际读数为**
+$$
+\boxed{
+Z_{\rm corr}^{\rm BCH}
+ =\sum_{k=0}^4\sum_{l=0}^8
+   \frac{k-l}{2(k+l+2)}B_{k,l}\,
+        \omega^{k+l}\eta^{12-k-l}.
+}
+\tag{1168.36}
+$$
+相同 frame 的原 ordered 中央坐标为
+$$
+\boxed{
+Z_{\rm corr}^{\rm ord}
+ =\sum_{k=0}^4\sum_{l=0}^8
+   \frac{k+1}{k+l+2}B_{k,l}\,
+        \omega^{k+l}\eta^{12-k-l}.
+}
+\tag{1168.37}
+$$
+所有分母的整数因子不超过 $28$，对 $p>37$ 均可逆。
+这是完整原最高平滑相关项的模 $p$ Frobenius 值；
+不含一个仍待指定的 $U$-primitive 系数。
+
+### 8.1. 用原微分关系锁定唯一会进入的系数
+
+按 R1166 §§19–21，原 highest primitive 在同一
+coefficient cone 中满足
+$$
+h_{\rm corr}=(0,\tfrac12b_2(y,y)+J_U),\qquad
+J_U=\frac1{54}\sum_{\mathcal J^\circ}
+                  \mathscr Q(P,Q)\beta^U_{P,Q}.
+\tag{1168.38}
+$$
+这里 $y$ 合记所有 raw original 与 primed moments。
+R1166 已逐个实际源证明
+$$
+y_{d,k,n}=0\ (n<k+1),\qquad
+(J_U)_{K,0}=0,\qquad
+a=N_uy,\qquad\phi_d a=0.
+\tag{1168.39}
+$$
+本节临时用的 $k$ 是输入基
+$e_k^{(d)}=\omega^{d-k}\eta^k$ 的下标；
+(1168.35) 则用 Frobenius 后的输出基
+$e_{d-k}^{(d)}=\omega^k\eta^{d-k}$。
+这两个下标通过 (1168.9) 准确对应。
+
+原 ordered cone product 的第二槽为
+$b_2(y,a)-b_2(\phi_d a,y)=b_2(y,N_uy)$。
+由 $dh_{\rm corr}=-b_2(v,v)$、第一槽零和
+$d_1(0,h)=-N_uh$，得
+$$
+\boxed{
+N_uJ_U
+ =\frac12\{b_2(y,N_uy)-b_2(N_uy,y)\}.
+}
+\tag{1168.40}
+$$
+这一步已带入原 $N_z=eN_u$ 及 log-trace 尺度；
+不再另乘或除一个 $e$。
+
+固定 $K=k+l$，令 $q=K+2$。
+(1168.39) 表明，右边的 normal $q$ 项只能由
+normal $k+1$ 与 $l+1$ 相乘给出。
+没有其它低项或高 $\gamma_{hp}$ carry 可以降到这里。
+又
+$$
+\gamma_{k+1}(g)\gamma_{l+1}(g)
+ =\binom{q}{k+1}\gamma_q(g),\qquad
+N_u\gamma_n(g)=n\gamma_n(g)\pmod p.
+$$
+所以，直接读 (1168.40) 的系数得
+$$
+\boxed{
+\begin{aligned}
+(J_U)_{K,q}
+ =\sum_{k+l=K}
+   \frac{l-k}{2q}\binom q{k+1}
+   \Bigl(&y_{4,k,k+1}y_{8,l,l+1}\\
+       &-\sum_{i=1}^3
+           y'_{i,4,k,k+1}y'_{i,8,l,l+1}\Bigr).
+\end{aligned}}
+\tag{1168.41}
+$$
+$2\le q\le14<p$，故 (1168.40) 唯一确定这份系数。
+$N_u$ 在其它 normal 层可能有核，不能据此解出整个
+$J_U$；但那些层不进入本次读式。
+唯一另外会进入的 normal 常数已经由
+(1168.39) 的 actual ordinary source 支付为零。
+
+### 8.2. 原 Frobenius、二项系数及两份负号
+
+由 (1168.9) 和原 moments 的零常数，
+$$
+\begin{aligned}
+\mathcal A_{d,k}
+ &=-\frac{b_E^{2k-d}}{(k+1)!}
+                   \sigma(y_{d,k,k+1}),\\
+\mathcal A'_{i,d,k}
+ &=-\frac{b_E^{2k-d}}{(k+1)!}
+                   \sigma(y'_{i,d,k,k+1}).
+\end{aligned}
+\tag{1168.42}
+$$
+最高中心的 $t=2$ 则给正号：
+$$
+\mathcal R_{12,2}(J_U)
+ =\sum_{K=0}^{12}
+    \frac{b_E^{2K-12}}{(K+2)!}
+       \sigma((J_U)_{K,K+2})\,
+                    \omega^K\eta^{12-K}.
+\tag{1168.43}
+$$
+将 (1168.41) 代入 (1168.43)，
+二项系数与 $(K+2)!$ 消成
+$1/((k+1)!(l+1)!)$；
+两份 (1168.42) 的负号相乘为正，
+$b_E$ 的指数恰为 $2(k+l)-12$。
+因此准确有
+$$
+\mathcal R_{12,2}(J_U)
+ =\sum_{k,l}\frac{l-k}{2(k+l+2)}
+          B_{k,l}\,\omega^{k+l}\eta^{12-k-l}.
+\tag{1168.44}
+$$
+R1166 (1166.80) 已在完整非线性 gauge 后给
+$Z_{\rm corr}^{\rm BCH}=-\mathcal R_{12,2}(J_U)$，
+故得到 (1168.36)。
+原 ordered 坐标再加 $b_2(A,A)/2$，
+其每项系数为
+$$
+\frac12+\frac{k-l}{2(k+l+2)}
+ =\frac{k+1}{k+l+2},
+$$
+证明 (1168.37)。这里没有假定
+$\mathcal R(xy)=\mathcal R(x)\mathcal R(y)$。
+
+## 9. 这次求和关闭的范围与原未平滑接口
+
+(1168.36)–(1168.37) 消去了最高相关 Frobenius
+读取中全部尚未求值的 $J_U$ 项。
+原独立点对、保留下来的全部依赖点对、三实际
+$2$-同源核、同根相位及同陪集 Cor 都已经包括在
+(1168.38) 的原源中；没有再删一类点对。
+尤其不是只把每个 scalar $\beta^U$ 命名后留下其加权和。
+
+实际剩余输入只是 (1168.35) 中已指定的 abelian
+矩系数；unprimed 值由 (1168.25) 乘回 $k_d(2)$ 给出。
+后继可直接读取 primed theta 的同一个 $V'_i$。
+本节没有证明这些实际双线性组合是单位。
+
+这里的群仍为 R1158 的 raw correlation 群。
+R1159 的 $n$、$k_d(n)$、crossed $J_n$ 以及
+R1160 的算术 $B_n/v_n$ 并未被这个局部读取删除。
+原未平滑 $F_0$ 必须沿那一份实际比较继续；
+另外两个 $\Pi_2,\Pi_4$ 中心及 $\lambda_\infty$
+仍按 (1168.34) 保留。
+所以本节关闭的是完整最高 **平滑相关读数**，
+不把它冒称原未平滑中央值，更不称主目标完成。
+
+上述 normal 微分读取、全部 factorial 与 BCH/ordered
+符号已逐式纸推，并经 global_route 独立核准；
+无数学程序执行。
 
 ## 已登记来源与执行
 

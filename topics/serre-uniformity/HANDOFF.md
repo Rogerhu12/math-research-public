@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：fd21dc5dc0735fa64a8b4ea31c69ba146128f828**（2026-11-28 15:49 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：004449466df2574fdc1c0307141e72599b4ae115**（2026-11-28 15:58 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:44:08 Asia/Taipei，Actions run46122538838/job140909965508，blob:none浅clone后真实pull --rebase至e8cff12e且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤16:34、pull≤16:44。本地15:43仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -30,11 +30,11 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1163–66](results.md)原完整43格整比较、第一槽Miller/全塔/实际SS frames、ambient与几何normal/两开集residue SDR、actual F/Q及全部ordered primitive同伦均付，完整式沿原文/逐字前态。tame trace无log槽e·第0块、log槽第0块；Tr x^[d]=0后才消theta leading，原d4/8用W⁻¹，W=−z³y。Steinberg β=Li₂†+AB₀+J的整全尾/carry/全部原common log角与universal全塔同根均付；h_R=AB−β，通用Z=𝔟(A,A)−H且原λ正号。固定CM整数α/[1+α]端点和same-coset全保，不能重列source比较缺口。
 
-R1166 §§19–21原even槽对称βS与反对称Q已消全QβS；完整nonlinear SDR后actual最高corr BCH=−R_(12,2)(J_U)，J_U=ΣQβU/54，未假R乘法。原及primed θ₂单位V′_i=−(x−e_i)/(zy)使所有y_k,n从n≥k+1起；同一Tate-Hodge whole morphisms/实际根/Cor保ordinary βU与first=0，故J0=0、a=N_u y、φ_d a=0。原a=−1,2,1/2 tensor权真0，其余rank1/rank2全保；继续精确q=k+2读取及原未平滑B_n，不能擅包一般算术path。
+R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n从k+1起、J0=0及a=N_u y。最高corr完整nonlinear SDR给BCH=−R_ZJ；R1168 §§8–9已继续实读全部所需J：设B_kl=A4,k A8,l−Σ_iA′i,4,k A′i,8,l，则BCH=Σ(k−l)B_kl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换系数(k+1)/(k+l+2)。所有rank1/rank2、原根/同陪集Cor保留；不再有未定U读数，未宣单位。继续原未平滑J_n/B_n与Π2/4。
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原xP=−b_E z^p(1+γp)ω−zgη及d4/8/12完整pure-power normal表已付；同Miller外环O/P两residue锁κ=−b_E，CM尾排p²危险项，无未定单位/额外d!。
 
-[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)实际未分歧cone有完整SDR到常数H1，q_k=t+k，只读y_k0与y_kq，全部高γhp carry经T=Yhi+φYhi的正normal保留后消。原M_d(d4/8)恰Σ binom(d,k)b_E^k G_(p²−1−pd+(p−1)k)/(k+1)·ω^kη^(d−k)，Gaussian偶k/cubic指定k，原平滑因子实消。中央必须先R=T(yv)，再H=R_Z(yh−𝔟(yv,R)+𝔟(φR,A))、Z=𝔟(A,A)−H，保λ∞/Π0/2/4。继续原27terms/实际权/同a Cor/未平滑/最高中央求和与全局减法，不能把一个G_m或未求和式称unit。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原43格cone有完整SDR到常数H1，只读normal0/t+k，高γhp经T保留后消。原M_d(d4/8)=Σbinom(d,k)b_E^k G_(p²−1−pd+(p−1)k)/(k+1)·ω^kη^(d−k)，Gaussian偶k/cubic指定k，平滑因子实消。通用中央先H=R_Z(yh−𝔟(yv,T)+𝔟(φT,A))再Z=𝔟(A,A)−H，保λ∞/Π0/2/4。最高corr值现如上；继续primed实际系数、原未平滑及全局减法，不能把任一G_m未证单位化。
 
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon

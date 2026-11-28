@@ -65,7 +65,7 @@ R1166 §§9–13原第一层tame S_L=⊕z^jS_F，g=u−p=ze−p，ψτ交换且N
 
 R1166 §§14–18 actual Steinberg primitive(0,β)满足d h=−cup，β=Li₂†+AB₀+J，J=p⁻²∫log(1−t/(1−U^p))/(U^p+t)dt整，模p^M只需n≤M+1(M≤29)。βmodp=(ℓ₂+εℓ₁/U^p−ε²/(2U^p))/(1−U^p)，原线性carry不能删；h_R=AB−β及通用Z=𝔟(A,A)−H，𝔟的λ∞为正。未分歧universal的整compatible tower先锁同根再pullback；共同U=z^mV近0化ε=U^pα，J无负幂，exact S/J保AB−β、−β+A²/2。原line/divisor精确z因子、固定CM整数α与[1+α]P(z)继续，不能用只在Ep相同的Teich形式替换。
 
-R1166 §§19–21原even槽对称βS与反对称Q已消全QβS；完整nonlinear SDR后actual最高corr BCH=−R_(12,2)(J_U)，J_U=ΣQβU/54，未假R乘法。原及primed θ₂单位V′_i=−(x−e_i)/(zy)使所有y_k,n从n≥k+1起；同一Tate-Hodge whole morphisms/实际根/Cor保ordinary βU与first=0，故J0=0、a=N_u y、φ_d a=0。原a=−1,2,1/2 tensor权真0，其余rank1/rank2全保；继续精确q=k+2读取及原未平滑B_n，不能擅包一般算术path。
+R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n从k+1起、J0=0及a=N_u y。最高corr完整nonlinear SDR给BCH=−R_ZJ；R1168 §§8–9已继续实读全部所需J：设B_kl=A4,k A8,l−Σ_iA′i,4,k A′i,8,l，则BCH=Σ(k−l)B_kl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换系数(k+1)/(k+l+2)。所有rank1/rank2、原根/同陪集Cor保留；不再有未定U读数，未宣单位。继续原未平滑J_n/B_n与Π2/4。
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 
