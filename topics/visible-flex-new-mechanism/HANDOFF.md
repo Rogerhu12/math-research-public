@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **48b1019d4a537e3ec9aba549a94fad07f9254333**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **dfe59f42ba4a81ab166f11bb92f5fc2238126aed**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -30,7 +30,7 @@ R648–R653全尾三jet/真C²正collar/法管仍欠，R658无穷差不代分母
 
 [R632](notes/2026-11-28-r632-real108-early-interior-height.md)后继run46141630439新2641.642765771秒/96接受0拒，总204态78e9a6e，R695直接接；保trust2/λ1e−14/1e−4高度面/全原算子，不重旧96步。[R636真119](notes/2026-11-28-r636-real119-early-velocity.md)run46145970226续全υ极值.01内向面，原trust.01171875/λ42434.912506；源48接受2566.050392547秒、无pending/十端.161649/ruling1.43366e14未根，全部原锚/算子/资格/fine保留。
 
-[R641真115](notes/2026-11-28-r641-real115-velocity-frontier.md)源1221.763230661秒/19接受，Ar−.145806288/ruling1.29707e14未根。后继run46145957656新67.402319857秒/0接受/1完整trial，已付25新υ叶后因诊断KeyError observation未采用旧试探；R694只修接口并复用全部原树/P。旧J未落盘必要重建收费，原trust.0625/新λ1e−6、完整隐式面/原绝对门仍保。
+[R694](results/R694-actual-paid-velocity-and-value-only-original-armijo.md)接真115源098392/未采用a486；run46145957656新67.402319857秒/0接受，80+25υ叶已闭，诊断KeyError前未打印Armijo。必要源J重建收费，候选用全原零列值判舍入位移Armijo并先打印；接受后原J与值态一致。保trust.0625/λ1e−6/原绝对门，源ruling1.29707e14未根，旧根/树/fine与两未存J费用不消。
 
 [R654真23](notes/2026-11-28-r654-actual23-terminal-and-aligned-continuation.md)f7c8粗1.106e−13/细9.685e−7、ρ差.00357454未根；旧493未闭及费用见原文。[R674](results/R674-material-seam-prefixes-and-actual23-four-end-continuation.md)run46142896607真材料Gauss/四τ传六ρ、保1153/2305；[修复](notes/2026-11-28-r674-paid-three-suffix-leaves-and-exact-diagnostics.md)复用旧3叶至8201、精确十进制诊断不改科学，原η前缀/树/异常账全保。R656无科学。
 
@@ -48,12 +48,12 @@ R655/R662条件几何D<1/hold≥.201/dH≥.3/reach≥.03，须同候选全域双
 
 ## G：活动整圈到真正闭帽
 
-R637/R642/R644/R652双核/全频gap仍欠宏观q；R652/R657已付ODE/几何不重播。R660只排旧窄带；R666另参考二模、R670小幅双端不授宏观闭族，R661/R664仍开口。[R676](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)真弯盘/整圈同g领后仍欠Bτ=m=0、净∫K=2π、嵌入/全法管/支撑。
+R637/R642/R644/R652双核/全频gap欠宏观，R652/R657旧ODE不重播。R660仅排旧窄带；R666/R670/R661/R664仍有边。[R676](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)真盘/领尚欠Bτ=m=0、净∫K=2π及全法管。
 
-[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)双真帽/双平带/四负领，近帽固定；[R684](results/R684-directional-gauss-degree-and-two-solid-window-crowns.md)逐方向Gauss补±.96/.11球冠/真锥口及帽肩，旧件D<3.15/hold.80/支撑>1.01，不借给未知窗。[R682](results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md)同g椭圆盘/正桥D<2.49/hold.52/dH>.85/reach>.099仍有边；闭转2π/周期及点态g未解，真实二jet三矩输入不代同g。
+[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)双真帽/四负领固定近帽；[R684](results/R684-directional-gauss-degree-and-two-solid-window-crowns.md)方向Gauss/真冠锥口需未知窗正曲率预算。[R682](results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md)真同g椭圆盘D<2.49/hold.52/dH>.85/reach>.099仍有边，三矩/闭转不代全窗g。
 
-[R686](results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md)给真源环带/完整SO3 curl、非收缩周期、两真锚与实际度量/二jet/曲率误差传递，源S肩支撑/全法管未付。[R690](results/R690-window-short-material-path-and-moving-central-crown-poses.md)实路径<.775/固定冠末弦>.830排该源旧姿态；共平移真冠/整中央桥至r=.20平圈，整片同g/二jet及自身reach> .0961，和旧件净空/径/支撑已付。[R688](results/R688-crown-to-primary-material-paths-and-window-projection-rows.md)真负领/宽帽肩/共移桥的全窗三列联合源及全SO3、两口/周期/Gram和全壳恢复已发；真位置六jet、C4源和原帽二阶入门。有限恢复不授全相位同g/全法球；必要现场数组留Actions续接。
+[R686](results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md)源窗/完整SO3、curl/周期/两真锚与实际g/二jet误差传递；[R690](results/R690-window-short-material-path-and-moving-central-crown-poses.md)实路径<.775/固定冠弦>.830排旧姿，共移冠桥到r=.20真圈、自身reach> .0961。旧件余量仅原材料。[R688](results/R688-crown-to-primary-material-paths-and-window-projection-rows.md)run46148075849/job140988404437/source5374a681，真负领/宽肩/共移桥及全窗源三列+全SO3，实际六jet/两口/周期/Gram/全壳门；有限恢复不授连续同g/全法球，必要现场数组留Actions续接。
 
-[R693](results/R693-coaxial-half-turn-windows-and-one-relative-displacement-row.md)另以C0(0)同轴源/真实下领半转作新输入，半区三curl推出两横向锚，轴向锚仍独立；不改原R688、不另重跑。
+[R693](results/R693-coaxial-half-turn-windows-and-one-relative-displacement-row.md)另以C0(0)同轴源、下领真实半转给新输入，三curl推出两横向锚，轴向锚独立；不改原R688。
 
 旧任务和全部失败/费用见[完整open归档](open-archive-through-R690-20261128.md)及各原文。R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g且δE可0。连续同g全时、真实多t全网格/存在差距/全完成门仍未付，继续实际新输入。
