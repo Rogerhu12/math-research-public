@@ -222,3 +222,6 @@ ASQ6：全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零�
 
 
 ASQ7：真实两leg三变分保全部metric、mean、root和接缝；最多两任意径向L2输入同乘，明确one-high B(n+3)/N(n+5)及完整composition/reciprocal递推。补ASQ6的实际D³P、moving data/normalizer双jet，不把旧D²P冒充D³P。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ8：对每个完整physical对称z且L2_r A_(1/1024)≤2^-33000，真实Q*+z+k h^a、nu*+k存在全lift精确conjugacy；实际pivot、complex tube、Cauchy M=2^6000、e(n+1)≤e(n)²及k/g/g′绝对可求和全证。原均值/NP真实regular缺陷保，仅phase fibre，非最终固定metric flex。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

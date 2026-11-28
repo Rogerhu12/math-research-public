@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:26:06 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:26:15 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至1b4dcfe9f3db2be82631bd15a4587e898bdfd70a；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至f6e450d91d28cdb96fc74c17fed9d781a9563762（10:16 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至a5197767a97503683329bcc6765966f1409d5f3f；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至f6e450d91d28cdb96fc74c17fed9d781a9563762（10:16 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META11新200件无当前引用旧manifest只去字符串外空白，净1180728B；原05b945b8f/receipt94784B SHAec28724d…保所有literal/whole身份，科学0。META1–10完整账/receipt保旧H，禁重做；本批每pull核changed/untracked+全200新hash，承接此前全reference scan。
 
@@ -33,6 +33,8 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
 
 - ASQ7：真实两leg三变分保全部metric、mean、root和接缝；最多两任意径向L2输入同乘，明确one-high B(n+3)/N(n+5)及完整composition/reciprocal递推。补ASQ6的实际D³P、moving data/normalizer双jet，不把旧D²P冒充D³P。
+
+- ASQ8：对每个完整physical对称z且L2_r A_(1/1024)≤2^-33000，真实Q*+z+k h^a、nu*+k存在全lift精确conjugacy；实际pivot、complex tube、Cauchy M=2^6000、e(n+1)≤e(n)²及k/g/g′绝对可求和全证。原均值/NP真实regular缺陷保，仅phase fibre，非最终固定metric flex。
 
 ## 后继和完整尾部义务
 
