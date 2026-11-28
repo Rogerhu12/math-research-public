@@ -1,0 +1,577 @@
+{
+  "schema": "isp-hk-two-spectral-finite-dvr-original-unit-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "source": {
+    "blob": "eb63f13d8b7e2d9d6752ea19f52b81daae6b2648",
+    "bytes": 20013,
+    "sha256": "c3d60e3048e197a7ebe908f0d4e6c1b6f2bcd435dd0718cec3d3ae41d280523a",
+    "readback": true,
+    "basename": "2026-11-28-unit211-hk-two-spectral-fields-finite-DVR-original-inverse-z-unit-8542.py"
+  },
+  "input": {
+    "blob": "48afb373a3134570936bc1b21c27f48c77a05620",
+    "bytes": 12174,
+    "sha256": "2d9a2936fdb34ebed89b7f669bedc1f352ea5a20e8667099d8ac1a21abd4b536",
+    "readback": true
+  },
+  "premise_sources": [
+    {
+      "path": "R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md",
+      "blob": "006a3c7aea0a9876b020903c6ce22dd0bdb1415c",
+      "readComplete": true
+    },
+    {
+      "path": "R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md",
+      "blob": "524e764a6a1d30759028e8b346280b9e8e018b09",
+      "readComplete": true
+    }
+  ],
+  "prior_small_factor_proof": {
+    "path": "results/R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md",
+    "blob": "52be54b68851e71a35b00c8cf0118ef0372cf6d3",
+    "full_text_read": true
+  },
+  "execution": {
+    "elapsed_seconds": 2.70292276,
+    "max_child_rss_kib": 70392,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "dfc2ab4ab7d8c8125d9ff9f94145b84285575497",
+        "before": "dfc2ab4ab7d8c8125d9ff9f94145b84285575497",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T13:38:26.602749+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46150595117",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "dfc2ab4ab7d8c8125d9ff9f94145b84285575497",
+    "source_exit_code": 0,
+    "source_git_blob": "eb63f13d8b7e2d9d6752ea19f52b81daae6b2648",
+    "source_sha256": "c3d60e3048e197a7ebe908f0d4e6c1b6f2bcd435dd0718cec3d3ae41d280523a",
+    "stdout_bytes": 10432,
+    "stdout_sha256": "1b74aae872a4e1613450ffd6f1d25a2726da152e13bf094980390be1c00cb773",
+    "stop_reason": null
+  },
+  "job_id": 140996178796,
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46150595117/job/140996178796",
+  "records": [
+    {
+      "F99_SHA256": "e422b38e5f712eb9237d85ad116dfcdf8ec94f3886a7d97d210b48e3ce6a5a7e",
+      "F300_SHA256": "5bfbc9ddc3b558dbef77fc19cd495175a1c8ad16461e6166c44cb982a1dca7ea",
+      "exactFieldDegrees": [
+        99,
+        300
+      ],
+      "knownIrreducibilityAndMultiplicityOneUsed": true,
+      "necessaryPrefixBytes": 4728,
+      "necessaryPrefixSHA256": "f3de7830b2ff98c6f4e7df0a891eb7fe2bff61c8ccf6ba6ae83134316ae82f59",
+      "noOldWholeFieldUGCDOrQGCDOrEightZGateExecuted": true,
+      "parameterRegenerationIsNotANewMathematicalConclusion": true,
+      "historicalPOnlyInRunnerTemporaryMemory": true,
+      "stage": "existing_two_whole_spectral_parameters_defined",
+      "seconds": 2.5044746410000016
+    },
+    {
+      "fieldDegree": 99,
+      "prime": 1009,
+      "lambdaResidue": 158,
+      "uResidue": 99,
+      "QResidue": 956,
+      "LowwConstantResidue": 745,
+      "originalUnitResidues": {
+        "A": 172,
+        "B": 545,
+        "lam": 158,
+        "u": 99,
+        "Q": 956,
+        "disc": 54,
+        "Pf": 254,
+        "bc": 830,
+        "P02": 237,
+        "S": 761,
+        "u_minus_one": 98,
+        "two_lambda_minus_one": 315,
+        "M": 687
+      },
+      "PLeadingResidue": 586,
+      "DeltaLeadingNumeratorResidue": 346,
+      "selectionCounts": {
+        "primeCoefficientChecks": 1,
+        "simpleSpectrumCandidates": 1,
+        "uLinearCandidates": 1,
+        "QLinearCandidates": 1,
+        "oldUnitCandidates": 1
+      },
+      "uBezoutProfiles": [
+        {
+          "degree": 12,
+          "bytes": 52,
+          "sha256": "63b89a8f26fdcad49cb127d3160de2cd711481b4d1ce34c357e5053852082da7"
+        },
+        {
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "e963d8aa98f51031255e5078596303794162562004faf52acda9ef36a16e5c67"
+        }
+      ],
+      "QBezoutProfiles": [
+        {
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "fdd5a89726e6e1bc99080f5be47e8b8c24c06889720f497cf48de658b9465593"
+        },
+        {
+          "degree": 0,
+          "bytes": 5,
+          "sha256": "f044a7d0b734cc162378919779a3ba2fcc6166538300dba266df45cc17b18feb"
+        }
+      ],
+      "checkedRationalCoefficientCount": 2786,
+      "firstAdmissiblePlaceChosenBeforeAnyOriginalZTest": true,
+      "selectionUsesNoOriginalZIdealTest": true,
+      "knownWholeFieldUniqueUAndQUsed": true,
+      "integrallyClosedDVRMakesUAndQIntegral": true,
+      "stage": "new_first_admissible_DVR_place_fixed",
+      "seconds": 2.529965469000004
+    },
+    {
+      "fieldDegree": 99,
+      "prime": 1009,
+      "originalRows": [
+        {
+          "name": "E1even",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 13,
+            "sha256": "b6e3415da84cfd9f07f13d7714878a5ec276576698445a163361f45197a9f62c"
+          }
+        },
+        {
+          "name": "EBe",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 13,
+            "sha256": "746b885b9f0f879bf360b137641c6677636c1f44951db14490469ea0de233d76"
+          }
+        },
+        {
+          "name": "EBo",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 12,
+            "sha256": "98aac275f1ae01502e3bb62eba850ee742ef218a1fb95c202c187c11a63bcba2"
+          }
+        },
+        {
+          "name": "N1jet",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 13,
+            "sha256": "6f2904b2bbdb2407d2ba12aea2f7435c00dbab483e71905cccdb4cd0b8eea805"
+          }
+        },
+        {
+          "name": "NB_even",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "d9ed999f8cada4ac9980caea625205404e3694368a0c24a0aa04704d4fb0284d"
+          }
+        },
+        {
+          "name": "NB_odd",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 16,
+            "sha256": "86afba050830f52605374ca40f047636c9c88e009b2ae19a36d7c77c6583edf9"
+          }
+        },
+        {
+          "name": "PB_even",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "f5267f2dddbf810bfc8c10f8108e671e6f3add241b8bebc789dd2a12ebb321b8"
+          }
+        },
+        {
+          "name": "PB_odd",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "7e0ecc06be47e3dd691b04ca16cc95d337e75d7dcdd02db822f6bb98b7158684"
+          }
+        }
+      ],
+      "Loww": {
+        "degree": 3,
+        "bytes": 16,
+        "sha256": "f726f0dcb9533b84633aff67474c93dfa7a779d8546987fe69d2f7ee5ac1aa0d"
+      },
+      "monicInverseZCubic": {
+        "degree": 3,
+        "bytes": 14,
+        "sha256": "42777d0e174683e00d18f462c2fc771982ffb7f953a08aaf1f24d51eb4bc0e84"
+      },
+      "finiteFreeRankOverDVR": 3,
+      "allOriginalCoefficientsRegularByCheckedUnits": true,
+      "completeTrueDualProductUsed": true,
+      "originalLowwFromWeightedNPAndTwoMeansReturned": true,
+      "noZLeadingCoefficientOrPhysicalDInverted": true,
+      "rhoAlgebraBothOrderedSignsRetained": true,
+      "stage": "new_selected_DVR_complete_original_inverse_z_model",
+      "seconds": 2.5650401550000055
+    },
+    {
+      "fieldDegree": 99,
+      "prime": 1009,
+      "lambdaResidue": 158,
+      "uResidue": 99,
+      "QResidue": 956,
+      "finiteFreeDVRRank": 3,
+      "completeOrdinaryInverseZBezoutOne": true,
+      "entireQQSpectrumFieldExcluded": true,
+      "allComplexEmbeddingsCovered": true,
+      "actualGCD": {
+        "degree": 0,
+        "bytes": 3,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      },
+      "steps": [
+        {
+          "name": "E1even",
+          "commonDegree": 0
+        }
+      ],
+      "exactReturnedCertificateBytes": 241,
+      "exactReturnedCertificateSHA256": "71df90839458df2994b442a9fdf11c64a372f08a41f5a5c90816f6a29ef8a31d",
+      "completeNineSourceReturn": true,
+      "noPositiveZOrDTargetUsed": true,
+      "noPlaceRetriedAfterOriginalTest": true,
+      "allUnexcludedWholeFieldsRetained": false,
+      "stage": "new_whole_spectrum_DVR_original_unit_result",
+      "seconds": 2.5665090260000056
+    },
+    {
+      "fieldDegree": 300,
+      "prime": 1009,
+      "lambdaResidue": 217,
+      "uResidue": 846,
+      "QResidue": 926,
+      "LowwConstantResidue": 838,
+      "originalUnitResidues": {
+        "A": 917,
+        "B": 307,
+        "lam": 217,
+        "u": 846,
+        "Q": 926,
+        "disc": 84,
+        "Pf": 869,
+        "bc": 425,
+        "P02": 492,
+        "S": 681,
+        "u_minus_one": 845,
+        "two_lambda_minus_one": 433,
+        "M": 531
+      },
+      "PLeadingResidue": 684,
+      "DeltaLeadingNumeratorResidue": 763,
+      "selectionCounts": {
+        "primeCoefficientChecks": 1,
+        "simpleSpectrumCandidates": 1,
+        "uLinearCandidates": 1,
+        "QLinearCandidates": 1,
+        "oldUnitCandidates": 1
+      },
+      "uBezoutProfiles": [
+        {
+          "degree": 12,
+          "bytes": 52,
+          "sha256": "2075bba4b1142d243ac07abf7df500620d4be667f0348e0251af5d0efc578eb3"
+        },
+        {
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "dbdcd61b2ec12f5e24be2d4ac6d757aabcc5e568bf5aae4a07329bac4d140f3e"
+        }
+      ],
+      "QBezoutProfiles": [
+        {
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "83ac457b67c3cb24c519d5c8e3b3ce86490ce22a5a39e0637e184adb8b63c0e4"
+        },
+        {
+          "degree": 0,
+          "bytes": 5,
+          "sha256": "3457f214d04506db74b8dd929e2303f98ad0a8c62c63aee2c1368baf881383d2"
+        }
+      ],
+      "checkedRationalCoefficientCount": 2786,
+      "firstAdmissiblePlaceChosenBeforeAnyOriginalZTest": true,
+      "selectionUsesNoOriginalZIdealTest": true,
+      "knownWholeFieldUniqueUAndQUsed": true,
+      "integrallyClosedDVRMakesUAndQIntegral": true,
+      "stage": "new_first_admissible_DVR_place_fixed",
+      "seconds": 2.5875177910000033
+    },
+    {
+      "fieldDegree": 300,
+      "prime": 1009,
+      "originalRows": [
+        {
+          "name": "E1even",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 13,
+            "sha256": "1104e7f6565dff9d8c229181186b903eea6488f180386d5fa022b7b0e71f51d1"
+          }
+        },
+        {
+          "name": "EBe",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 11,
+            "sha256": "2ca2f6484180df4e13cb631e56f3cc26b24e3b23de5933cb8830949ff3e37534"
+          }
+        },
+        {
+          "name": "EBo",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 12,
+            "sha256": "e6a18d12e518337519f63b696558bef4264a6c89dfa88161e5a01acdc0ae133b"
+          }
+        },
+        {
+          "name": "N1jet",
+          "zDegree": 2,
+          "fixedReverseCapacity": 2,
+          "profile": {
+            "degree": 2,
+            "bytes": 12,
+            "sha256": "560cfef22b5de8de5bad4df0cd51fcbe35410193e4a3823f71119cb8ad44414f"
+          }
+        },
+        {
+          "name": "NB_even",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 16,
+            "sha256": "e6181ed0a47b9248f73a155d7e1772ca263e97f6d27a7f32f7805fbe59e6a4ff"
+          }
+        },
+        {
+          "name": "NB_odd",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "0b525bc16826925d0957405b17cfe4c155604e7fc3227928b4c06be2925fb082"
+          }
+        },
+        {
+          "name": "PB_even",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "fe7859a8cde7710fd40cf8f36d236b76dac86187bf34dc7a3908bd916a7cb424"
+          }
+        },
+        {
+          "name": "PB_odd",
+          "zDegree": 3,
+          "fixedReverseCapacity": 3,
+          "profile": {
+            "degree": 3,
+            "bytes": 16,
+            "sha256": "a4d4b0da7b6e45ba9f69a3630e7952577467025a48b96c6e3f7e38242242360a"
+          }
+        }
+      ],
+      "Loww": {
+        "degree": 3,
+        "bytes": 16,
+        "sha256": "4a83e774b9728e09c9bd976d654d34dceb4bc06c2b0bad33fb4be0ef97b3beb5"
+      },
+      "monicInverseZCubic": {
+        "degree": 3,
+        "bytes": 15,
+        "sha256": "02debd59c36da757811382d10e86e12e5d8c4ff80de93114365bcc27af7b70d1"
+      },
+      "finiteFreeRankOverDVR": 3,
+      "allOriginalCoefficientsRegularByCheckedUnits": true,
+      "completeTrueDualProductUsed": true,
+      "originalLowwFromWeightedNPAndTwoMeansReturned": true,
+      "noZLeadingCoefficientOrPhysicalDInverted": true,
+      "rhoAlgebraBothOrderedSignsRetained": true,
+      "stage": "new_selected_DVR_complete_original_inverse_z_model",
+      "seconds": 2.6224841280000035
+    },
+    {
+      "fieldDegree": 300,
+      "prime": 1009,
+      "lambdaResidue": 217,
+      "uResidue": 846,
+      "QResidue": 926,
+      "finiteFreeDVRRank": 3,
+      "completeOrdinaryInverseZBezoutOne": true,
+      "entireQQSpectrumFieldExcluded": true,
+      "allComplexEmbeddingsCovered": true,
+      "actualGCD": {
+        "degree": 0,
+        "bytes": 3,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      },
+      "steps": [
+        {
+          "name": "E1even",
+          "commonDegree": 0
+        }
+      ],
+      "exactReturnedCertificateBytes": 242,
+      "exactReturnedCertificateSHA256": "5c366f65afdf4c023387b63d371eac56daf1c05c0241cf3c8995c60f30acfd9e",
+      "completeNineSourceReturn": true,
+      "noPositiveZOrDTargetUsed": true,
+      "noPlaceRetriedAfterOriginalTest": true,
+      "allUnexcludedWholeFieldsRetained": false,
+      "stage": "new_whole_spectrum_DVR_original_unit_result",
+      "seconds": 2.623936735000001
+    },
+    {
+      "results": [
+        {
+          "fieldDegree": 99,
+          "prime": 1009,
+          "lambdaResidue": 158,
+          "uResidue": 99,
+          "QResidue": 956,
+          "finiteFreeDVRRank": 3,
+          "completeOrdinaryInverseZBezoutOne": true,
+          "entireQQSpectrumFieldExcluded": true,
+          "allComplexEmbeddingsCovered": true,
+          "actualGCD": {
+            "degree": 0,
+            "bytes": 3,
+            "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+          },
+          "steps": [
+            {
+              "name": "E1even",
+              "commonDegree": 0
+            }
+          ],
+          "exactReturnedCertificateBytes": 241,
+          "exactReturnedCertificateSHA256": "71df90839458df2994b442a9fdf11c64a372f08a41f5a5c90816f6a29ef8a31d",
+          "completeNineSourceReturn": true,
+          "noPositiveZOrDTargetUsed": true,
+          "noPlaceRetriedAfterOriginalTest": true,
+          "allUnexcludedWholeFieldsRetained": false
+        },
+        {
+          "fieldDegree": 300,
+          "prime": 1009,
+          "lambdaResidue": 217,
+          "uResidue": 846,
+          "QResidue": 926,
+          "finiteFreeDVRRank": 3,
+          "completeOrdinaryInverseZBezoutOne": true,
+          "entireQQSpectrumFieldExcluded": true,
+          "allComplexEmbeddingsCovered": true,
+          "actualGCD": {
+            "degree": 0,
+            "bytes": 3,
+            "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+          },
+          "steps": [
+            {
+              "name": "E1even",
+              "commonDegree": 0
+            }
+          ],
+          "exactReturnedCertificateBytes": 242,
+          "exactReturnedCertificateSHA256": "5c366f65afdf4c023387b63d371eac56daf1c05c0241cf3c8995c60f30acfd9e",
+          "completeNineSourceReturn": true,
+          "noPositiveZOrDTargetUsed": true,
+          "noPlaceRetriedAfterOriginalTest": true,
+          "allUnexcludedWholeFieldsRetained": false
+        }
+      ],
+      "bothWholeFieldsExcluded": true,
+      "lifting": "finite free DVR cubic / finite cokernel / Nakayama / fraction field",
+      "noBareFiniteFieldEmptinessOrDNilpotenceLift": true,
+      "noOldWholeFieldUGCDQGCDOrFrozenEightZTargetReplayed": true,
+      "noWholeCollisionDeltaNonzeroOrOrdinaryISPClaim": true,
+      "noCoefficientPayloadCacheOrChunksSaved": true,
+      "statistics": {
+        "constantInverseProducts": 84,
+        "polynomialDivisionProducts": 20,
+        "completePairBezoutReturns": 6,
+        "goodPlaceScalarChecks": 42,
+        "originalGramReturns": 52,
+        "originalMomentReturns": 14,
+        "originalEightRows": 16,
+        "completeInverseZBezoutReturns": 2
+      },
+      "peakRSSKiB": 70392,
+      "sourceSHA256": "c3d60e3048e197a7ebe908f0d4e6c1b6f2bcd435dd0718cec3d3ae41d280523a",
+      "stage": "new_two_whole_spectral_DVR_first_input_finished",
+      "seconds": 2.624109349000001
+    }
+  ],
+  "outcome": {
+    "whole_F99_original_ideal_unit": true,
+    "whole_F300_original_ideal_unit": true,
+    "characteristic_zero_lift": "finite DVR free cubic / finite quotient module / Nakayama / whole fraction field",
+    "complete_current_correct_h_equals_k_Delta_zero_excluded": true,
+    "Delta_nonzero_retained": true,
+    "whole_collision_excluded": false,
+    "ordinary_ISP_claim": false,
+    "no_target_based_point_retry": true,
+    "no_positive_D_or_z_target_lift": true,
+    "all_complex_embeddings_and_original_fibers_covered": true,
+    "no_new_explicit_QQ_coefficient_certificate_claim": true,
+    "no_large_coefficient_cache_saved": true,
+    "prior_frozen_ad00_execution_unchanged": true
+  },
+  "reviewer": {
+    "actual_complete_job_log_read": true,
+    "source_frozen_before_first_execution": true,
+    "no_additional_execution_or_reproduction_gate": true
+  }
+}

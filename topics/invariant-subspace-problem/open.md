@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-H28-1890-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-entire-Delta-zero-1895-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)的当前Δ0整支已闭：已成u/Q唯一约化后，eb63f首次run46150595117为2.70292276秒/0，p1009第一整模型点上F99/F300各倒z首一3与真E1全九来源返1，有限DVR模/Nakayama排整个两谱域。Pf/Φ/C1/C2/C4旧闭保，ad00冻；正式稿接刊，Δ非零与其它一般LS仍开。
+[整个正确h=k/Δ0终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)已刊：eb63f唯一2.70292276秒/0，经已成u/Q唯一约化、p1009两首个整模型点及倒z首一3/真E1九原Bézout1，有限DVR模/Nakayama排K99/K300所有复嵌入；合C1/C2/C4幂次提升及CRT闭当前整个Δ0。Pf/Φ前置单位沿真原来源，ad00冻不重跑；转Δ非零和其它一般LS，整个碰撞/ISP仍开。
 
 ### W：全原均值、H198两生成图与完整值条件
 

@@ -20,6 +20,8 @@
 
 ## 新增结论
 
+- [R150：正确碰撞整个Delta零分支的有限DVR原单位终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)：eb63f唯一2.70292276秒/0，两完整谱域在p1009首个合格点返回倒z首一3与真E1的九源单位。由同域u/Q整性、有限模/Nakayama排全99/300嵌入，合旧三小因子及幂次/CRT闭整个当前Δ0；Δ非零及普通ISP保留。
+
 - [R150：正确Phi全图t六次的六原乘子与真实H28首项](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-sextic-six-original-multipliers-and-H28.md)：fb4163首次1.10780979秒/0全返第三N1及六原普通身份，最终分母仅旧权，覆盖整个H6/H8。真t头余H28总28、QQ单因子一次，补图必要代数18生成；H28全零保，非自由/非全空。
 
 - [R150：整个W/b0的原t完整I6、十四行加强与两条同点标量](results/R150-appendix-unit211-W-b0-t-parameter-complete-I6-q2-two-original-scalars.md)：2f7fd唯一4.932428614秒/0，全I6十二/J7十四行与七原来源直接返回。新S3的(u,ν,t)度30/34/3、总49，S4为47/53/4、总76；实际共同乘子仅纯u，所有新头零保，无新权投影或排空主张。
