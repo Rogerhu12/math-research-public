@@ -1,0 +1,733 @@
+{
+  "schema": "isp-original-mathematical-result-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_utc": "2026-11-28",
+  "result": "correct h=k entire ell=1/2 original exclusion",
+  "result_scope": {
+    "current_original_collision_chart": true,
+    "half_lambda_previously_independently_excluded": true,
+    "correct_Delta_zero_previously_independently_excluded": true,
+    "constant_field": "QQ[lambda,u]/(3 lambda^2-2 lambda+1, h3(u))",
+    "rational_dimension": 6,
+    "g12_parameter_identity": "g12=h3^4",
+    "all_spectral_and_weight_embeddings_retained": true,
+    "all_Q_roots_and_leading_zero_fibres_retained": true,
+    "old_weight_units": [
+      "u",
+      "u-1",
+      "Q",
+      "1-Q",
+      "M",
+      "P02",
+      "Delta"
+    ],
+    "u_minus_two_from": "P02=-2 M (u-2)",
+    "original_physical_D_inverted": false,
+    "newly_available_on_this_collision_remainder": "2 ell-1",
+    "whole_collision_excluded": false,
+    "ordinary_invariant_subspace_problem_claim": false
+  },
+  "source": {
+    "basename": "2026-11-28-unit211-hk-ell-half-Cramer-cubic-whole-six-field-original-Q-return-8542.py",
+    "blob": "41453eb91fc9f2d1a8104cfa923acccbedd25f92",
+    "bytes": 18007,
+    "sha256": "3f64a0378d7f7ef568786a73e062ab66bdc83e68978d1f5c37d1a0fe11698a0c",
+    "budget_seconds": 180,
+    "memory_GiB": 4,
+    "outer_budget_seconds": 195,
+    "one_dependency": {
+      "basename": "2026-11-28-unit211-hk-entire-ell-half-constant-field-scaled-original-Q-cofactors-8542.py",
+      "blob": "53d57ae6baf7a9fdf3867a95952833a570317797",
+      "sha256": "44b7c44c5e4ba5408a8662e6f2579be23c6bf9effd0d9d2a59993eb827ca79cb",
+      "prefixBytes": 10525,
+      "prefixSHA256": "45b9c4dfe94dddfbf2c7118dcf9ca65df0ce8ab163cd80147bc0b8e4cb2fdd86"
+    },
+    "necessary_definition_only": true,
+    "old_normalization_five_cofactors_u_gcd_norm24_not_replayed": true
+  },
+  "execution": {
+    "elapsed_seconds": 7.864830096000006,
+    "max_child_rss_kib": 40940,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ce5225d5dcd81b6752f8831368ffce3d7c464b05",
+        "before": "8e9e0c09bd7dab5aead36586cb388fdbd3432654",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T14:55:27.013323+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46157113687",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8e9e0c09bd7dab5aead36586cb388fdbd3432654",
+    "source_exit_code": 0,
+    "source_git_blob": "41453eb91fc9f2d1a8104cfa923acccbedd25f92",
+    "source_sha256": "3f64a0378d7f7ef568786a73e062ab66bdc83e68978d1f5c37d1a0fe11698a0c",
+    "stdout_bytes": 12384,
+    "stdout_sha256": "8bdea1a896d76f665d380f6b8a5227ec4e8c0ea280aab4164641ab37759adc98",
+    "stop_reason": null
+  },
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46157113687/job/141016106042",
+  "job_id": 141016106042,
+  "actual_mathematics": {
+    "record_count": 14,
+    "parameter_exponent_match": [
+      4
+    ],
+    "h3_profile": {
+      "degrees_u_Q": [
+        3,
+        0
+      ],
+      "weightTotalDegree": 3,
+      "terms": 7,
+      "bytes": 112,
+      "sha256": "9fff0505bec9a5039da1f4ae2cbcf3d02fdb9bb2bdeeb3bac0978a603d326858"
+    },
+    "norm_factors": [
+      {
+        "degree": 6,
+        "multiplicity": 1,
+        "bytes": 54,
+        "sha256": "0f8be1fab30e5fc1be7583839d9ce4161bbcd071fb7e4a4b750936713626ba7d"
+      }
+    ],
+    "retained_Q_degrees": [
+      {
+        "name": "E1even",
+        "raw": 8,
+        "retained": 1,
+        "paid_gcd_degrees": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "name": "EBe",
+        "raw": 8,
+        "retained": 2,
+        "paid_gcd_degrees": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "EBo",
+        "raw": 8,
+        "retained": 2,
+        "paid_gcd_degrees": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "N1jet",
+        "raw": 13,
+        "retained": 2,
+        "paid_gcd_degrees": [
+          4,
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "name": "NB_even",
+        "raw": 13,
+        "retained": 4,
+        "paid_gcd_degrees": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "NB_odd",
+        "raw": 12,
+        "retained": 3,
+        "paid_gcd_degrees": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "PB_even",
+        "raw": 13,
+        "retained": 4,
+        "paid_gcd_degrees": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "PB_odd",
+        "raw": 12,
+        "retained": 3,
+        "paid_gcd_degrees": [
+          3,
+          3,
+          3
+        ]
+      }
+    ],
+    "normalized_original_rows_used_for_Q_Bezout": [
+      "E1even",
+      "EBe"
+    ],
+    "whole_Q_gcd": 1,
+    "complete_original_target": "sum Omega_i H^s_i Original_i=(Q delta M Delta)^4",
+    "original_homogeneity_powers": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "entire_eight_source_return": true,
+    "common_delta_denominator_power": 0,
+    "returned_profiles_bytes": 1548,
+    "returned_profiles_sha256": "6b45605a2b0bb4ad4ae296cbd54cf9bd5b2954faef670f675b5bc0bf7802f740",
+    "profile_summary_is_not_large_coefficient_certificate": true,
+    "exact_old_primary_multiplicity": 4,
+    "nilpotent_lift": "Only one primary h3^4 occurred; I+(h3)=1 and h3^4 in I imply I=1 by finite geometric sum.",
+    "no_remaining_constant_factor_or_Q_fibre": true,
+    "no_numerical_prime_or_selected_root": true,
+    "all_fourfold_structure_retained": true
+  },
+  "all_actual_math_records": [
+    {
+      "dependencySHA256": "44b7c44c5e4ba5408a8662e6f2579be23c6bf9effd0d9d2a59993eb827ca79cb",
+      "prefixBytes": 10525,
+      "prefixSHA256": "45b9c4dfe94dddfbf2c7118dcf9ca65df0ce8ab163cd80147bc0b8e4cb2fdd86",
+      "originalNames": [
+        "E1even",
+        "EBe",
+        "EBo",
+        "N1jet",
+        "NB_even",
+        "NB_odd",
+        "PB_even",
+        "PB_odd"
+      ],
+      "homogeneityPowers": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "oldTopLevelStatementsRemoved": 37,
+      "noOldNormalizationOrFiveCofactorsOrUBezoutOrNorm24": true,
+      "noOldMathematicalTargetReexecuted": true,
+      "stage": "new_original_eight_rows_definition_only",
+      "seconds": 0.08986850899999865
+    },
+    {
+      "threeNewPolynomialIdentitiesReturned": true,
+      "noNewHeadInverse": true,
+      "CramerCubic": {
+        "degrees_u_Q": [
+          3,
+          0
+        ],
+        "weightTotalDegree": 3,
+        "terms": 7,
+        "bytes": 112,
+        "sha256": "9fff0505bec9a5039da1f4ae2cbcf3d02fdb9bb2bdeeb3bac0978a603d326858"
+      },
+      "conjugateCubic": {
+        "degrees_u_Q": [
+          3,
+          0
+        ],
+        "weightTotalDegree": 3,
+        "terms": 7,
+        "bytes": 113,
+        "sha256": "dfda21c48bd52face4bebe11c638ae2b5ff220224d15aa4f22b9d5c9664b626a"
+      },
+      "newNormDegree": 6,
+      "newNormFactors": [
+        {
+          "degree": 6,
+          "multiplicity": 1,
+          "bytes": 54,
+          "sha256": "0f8be1fab30e5fc1be7583839d9ce4161bbcd071fb7e4a4b750936713626ba7d"
+        }
+      ],
+      "wholeNewNormFactorProductReturned": true,
+      "matchesExistingG12AtExponents": [
+        4
+      ],
+      "expectedInterpretation": "g12=h3^j conjugate(h3)^(4-j)",
+      "existingG12SHA256": "3714806312a65901fa4cee34d459124cc7ef1cf4d5c10d72faee853fd7f375e7",
+      "existingIrreducibleF6SHA256": "0f8be1fab30e5fc1be7583839d9ce4161bbcd071fb7e4a4b750936713626ba7d",
+      "allCramerHeadZZeroFibresRetained": true,
+      "noClaimH3AlreadyInOriginalIdeal": true,
+      "newNormUsedOnlyToProveWholeConstantField": true,
+      "stage": "new_Cramer_cubic_and_existing_parameter_identity",
+      "seconds": 0.09188102299999912
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "E1even",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 8,
+        "constantQQdimension": 6,
+        "bytes": 1662,
+        "sha256": "f2d1b3ddb62972375b5725b9053dd4d281cad31aa8f62e5cb66cfb89f59d1f65"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 1,
+        "constantQQdimension": 6,
+        "bytes": 206,
+        "sha256": "40f7788f2847159bd28567638f24e4c536761e34d1387fcb9f2fd2d74d8b8506"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 1,
+          "constantQQdimension": 6,
+          "bytes": 54,
+          "sha256": "bc5a024cefcafe9be89ea0b37671a106d1cafefd7665f4379ea17ae7500c20c4"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 0.7902102319999926
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "EBe",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 8,
+        "constantQQdimension": 6,
+        "bytes": 1639,
+        "sha256": "bb25d667059195d92b89426e02f8140658a6123a93ff42b8ef99e1b50f389966"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 2,
+        "constantQQdimension": 6,
+        "bytes": 354,
+        "sha256": "8e6c9a23ebb884f07034ef720a996e06d7ee7be9813dd539168c03791396135d"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 1.2165903899999932
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "EBo",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 8,
+        "constantQQdimension": 6,
+        "bytes": 1483,
+        "sha256": "8297b8b22c738450ce251747439979faa6d0463eed3c758bb0944f21c0086bbb"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 2,
+        "constantQQdimension": 6,
+        "bytes": 304,
+        "sha256": "16237f8ae10855cb1193e93d31b1ee94bc883dae134a9a07b9451a17c12d414f"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 1.5739954699999998
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "N1jet",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 13,
+        "constantQQdimension": 6,
+        "bytes": 3613,
+        "sha256": "2226b8cc1489e08df441f2dbe1809ed99a35c91d9caf4af07d5520fd18cc507c"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 2,
+        "constantQQdimension": 6,
+        "bytes": 330,
+        "sha256": "7cf8a775d7c5c7dafb99deb0a75e07d846f16f26620eff1ae11d26dba9cd05b4"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 4,
+          "constantQQdimension": 6,
+          "bytes": 348,
+          "sha256": "312deb13d992ac5b6cd8b616af2f6e71c009cf675867a0e8025211a8c51851e1"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 1,
+          "constantQQdimension": 6,
+          "bytes": 54,
+          "sha256": "bc5a024cefcafe9be89ea0b37671a106d1cafefd7665f4379ea17ae7500c20c4"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 2.2662327569999974
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "NB_even",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 13,
+        "constantQQdimension": 6,
+        "bytes": 3676,
+        "sha256": "96a0b31d0cb42677bda53dbeedb5f7a890b1c061efcb60a17b9088ef6c0a67cf"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 4,
+        "constantQQdimension": 6,
+        "bytes": 864,
+        "sha256": "87e04d00d4c1f97b50bd6c9e11cdd795ca064229b2bb86b721844836a91617b3"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 3.477805528999994
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "NB_odd",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 12,
+        "constantQQdimension": 6,
+        "bytes": 3289,
+        "sha256": "ddcb51f08369ba879b5630936ba0daba54f8dbc6a9cf1c5f108481b8b63a73b0"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 3,
+        "constantQQdimension": 6,
+        "bytes": 677,
+        "sha256": "4d03d74f72f7ad02e2c9bcc4c8325b516fcd1a093a143511a2ae49b6f33d3755"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 4.456664657999994
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "PB_even",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 13,
+        "constantQQdimension": 6,
+        "bytes": 3681,
+        "sha256": "e76550a963576f2cc896c229dd12722eadcb2ffcb4dd10b936fd7e66608a7d9e"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 4,
+        "constantQQdimension": 6,
+        "bytes": 850,
+        "sha256": "68c3e94ff35986be0f8083cfab6923c623d21a36aac8abf05cf9509443add1a5"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 5.673419460000005
+    },
+    {
+      "component": "Cramer_cubic",
+      "name": "PB_odd",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "rawNumerator": {
+        "Qdegree": 12,
+        "constantQQdimension": 6,
+        "bytes": 3279,
+        "sha256": "584d6c84d9333801aca70c74b3d606a4f2abc5ea124ccbee9a3ebb02edc44ae6"
+      },
+      "retainedOriginalQRow": {
+        "Qdegree": 3,
+        "constantQQdimension": 6,
+        "bytes": 671,
+        "sha256": "f78dd9bca287d33e06f36fd18cd6370942eb3469dbe5bca4aa34fedadebe65b3"
+      },
+      "removedOnlyWholeFactorsOfOriginalQdeltaMDelta": [
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        },
+        {
+          "Qdegree": 3,
+          "constantQQdimension": 6,
+          "bytes": 204,
+          "sha256": "76f4dd0351275acbda23735c34b4ac20d80308d34a186163e1d8b30efbe33668"
+        }
+      ],
+      "exactNormalizationProductReturned": true,
+      "originalDeltaDenominatorPower": 0,
+      "allQHeadsAndBothLambdaEmbeddingsRetained": true,
+      "stage": "new_whole_K6_original_Q_row_paid_primary",
+      "seconds": 6.617119907000003
+    },
+    {
+      "component": "Cramer_cubic",
+      "lastOriginalName": "E1even",
+      "originalRowsUsed": [
+        "E1even"
+      ],
+      "wholeQGCD": {
+        "Qdegree": 1,
+        "constantQQdimension": 6,
+        "bytes": 191,
+        "sha256": "be0c0318622346680ad75270faa3d65989bf2364aa950b239f5818180adfb8d1"
+      },
+      "fullEightColumnIdentityReturned": true,
+      "noOriginalQRootSelected": true,
+      "stage": "new_whole_K6_same_Q_original_Bezout",
+      "seconds": 6.626411316000002
+    },
+    {
+      "component": "Cramer_cubic",
+      "lastOriginalName": "EBe",
+      "originalRowsUsed": [
+        "E1even",
+        "EBe"
+      ],
+      "wholeQGCD": {
+        "Qdegree": 0,
+        "constantQQdimension": 6,
+        "bytes": 27,
+        "sha256": "0831d519f9b647e5dd266e724955e1869599cdf54bd1b30e6ddce73267797617"
+      },
+      "fullEightColumnIdentityReturned": true,
+      "noOriginalQRootSelected": true,
+      "stage": "new_whole_K6_same_Q_original_Bezout",
+      "seconds": 6.660670655000004
+    },
+    {
+      "component": "Cramer_cubic",
+      "constantQQdimension": 6,
+      "originalMultiplicity": 4,
+      "targetIdentity": "sum Omega_i H^d_i Original_i=(Q delta M Delta)^N gcd_Q",
+      "originalEightScaledRowsReturned": true,
+      "allQQCoordinatesAndQCoefficientsReturned": true,
+      "paidClearingPower": 4,
+      "commonDeltaDenominatorPower": 0,
+      "wholeSameQGCD": {
+        "Qdegree": 0,
+        "constantQQdimension": 6,
+        "bytes": 27,
+        "sha256": "0831d519f9b647e5dd266e724955e1869599cdf54bd1b30e6ddce73267797617"
+      },
+      "returnedProfilesBytes": 1548,
+      "returnedProfilesSHA256": "6b45605a2b0bb4ad4ae296cbd54cf9bd5b2954faef670f675b5bc0bf7802f740",
+      "entireConstantFieldPhysicallyExcluded": true,
+      "allUnexcludedQFibresRetained": false,
+      "noPhysicalDOrUnpaidNormInverse": true,
+      "stage": "new_whole_K6_complete_original_eight_row_return",
+      "seconds": 7.795806584000005
+    },
+    {
+      "sourceSHA256": "3f64a0378d7f7ef568786a73e062ab66bdc83e68978d1f5c37d1a0fe11698a0c",
+      "outcomes": [
+        {
+          "component": "Cramer_cubic",
+          "multiplicity": 4,
+          "excluded": true,
+          "QGCDdegree": 0,
+          "QGCDsha256": "0831d519f9b647e5dd266e724955e1869599cdf54bd1b30e6ddce73267797617"
+        }
+      ],
+      "entireHalfWeightChartExcluded": true,
+      "originalG12MultiplicityPreserved": true,
+      "allComponentExclusionsSupportNilpotentCRT": true,
+      "nilpotentLiftUsesOnlyOriginalPaidUnits": true,
+      "DeltaNonzeroChartOnly": true,
+      "otherCollisionWeightsNotExcluded": true,
+      "noOldFiveCofactorsOrAccumulatedUBezoutOrNorm24Replayed": true,
+      "noNumericPrimeOrIndividualAlgebraicRootUsed": true,
+      "noCoefficientPayloadCacheSaved": true,
+      "statistics": {
+        "newCramerPolynomialIdentities": 3,
+        "parameterIdentityChecks": 2,
+        "polynomialDivisionReturns": 8384,
+        "polynomialBezoutReturns": 233,
+        "sixCoordinateInverseReturns": 200,
+        "fullPaidPrimaryProducts": 46,
+        "originalEightSourceReturns": 1
+      },
+      "definitionArithmeticStatistics": {
+        "constantFieldInverseReturns": 8427,
+        "coefficientExactDivisionReturns": 136,
+        "paidNormalizationProducts": 0,
+        "originalGramReturns": 0,
+        "originalMomentReturns": 0,
+        "fixedBareissProducts": 0,
+        "fullFixedCofactorReturns": 0,
+        "wholeFieldBezoutReturns": 0,
+        "finalEightSourceReturns": 0
+      },
+      "peakRSSKiB": 40228,
+      "stage": "new_Cramer_cubic_constant_original_Q_return_finished",
+      "seconds": 7.7960078729999935
+    }
+  ],
+  "retention": {
+    "source_and_parameter_definitions_retained": true,
+    "actual_small_record_only": true,
+    "no_coefficient_payload_or_cache_saved": true,
+    "no_encoded_or_chunked_parameter_transport": true,
+    "no_rerun_or_new_audit_gate": true
+  }
+}

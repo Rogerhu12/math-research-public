@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-second-support-1945-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-entire-ellhalf-1950-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)与[全Pf原monic t³](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)保。41453唯一7.864830096秒/40940KiB/0已闭整ellhalf：新Cramer h3不可约norm6、原g12=h3⁴，完整K6原Q primary饱和后E1/EBe即1，八源最终返(QδMΔ)^4，四重幂零提升付全支。正式稿在写；通用fixed-(λ,T)/Pf三生成推论已成待刊，余权碰撞仍开。
+[整正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)及[整ellhalf](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)已闭：41453唯一7.864830096秒/40940KiB/0，g12=h3⁴；完整六维常数域全部嵌入、同Q E1/EBe gcd1和八原返(QδMΔ)^4，再四重幂零提升。仅当前碰撞余图可付2ell−1。[全Pf原monic t³](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)保，一般fixed-(λ,T)/Pf三生成推论待刊；余权碰撞仍开。
 
 ### W：全原均值、H198两生成图与完整值条件
 

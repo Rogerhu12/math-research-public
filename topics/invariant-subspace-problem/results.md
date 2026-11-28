@@ -20,7 +20,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-before-Phi-392-new-Vlow-Newton-1900-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-before-hk-entire-ellhalf-1950-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：正确h=k整ell=1/2原支完整关闭](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)：41453唯一7.864830096秒/0，短Cramer三次识别原g12=h3⁴，完整六维常数域内同Q八原返(QδMΔ)^4；全四重幂零提升与独立Δ0/λhalf闭支合成整支，当前碰撞余图可付2ell−1。
 
 - [R150：正确Phi完整Vlow的第二非零纯权支持与公共曲线双次界](results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md)：079cc唯一3.530707191秒/0，新固定G14非零/总度≤730；F双次402/222、G的Q371和u642..643。两条完整模切片与保度通过整闭局部Gauss环严格给QQ公共gcd双次≤41/68，公共曲线及孤立交点继续保留。
 
@@ -81,23 +85,3 @@
 - [R150：整b0原C2、同f完整Loww四次与首个七源权核142](results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md)：C2/Loww/首固定六阶原返回已成，cross整零恰三λf系数整零；实际180.072秒/−14冻结第二C2/Loww，无第二完成checkpoint，不补称排空或新界。
 
 - [R150：整个b0的23088完整规范Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)：由原权长度5772、首一χλ6有限环境、q2全系数单位组合和Nakayama得到λ全局两生成，f唯一及ρ二次后长度≤23088；全部幂零重数与最终物理局部化保留。未排空原支。
-
-- [R150：正确Phi整ell-half直接原z证书与20权覆盖](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-direct-original-z-and-20-weight-cover.md)：唯一首次0.938861547秒/0，raw20×18秩18，完整六乘子给一次C20z∈I6；QQ单一20次因子，至多20权对。整个C20值纤维保留，未给完整点数或整支排空。
-
-- [R267：全部切口的实际平方收缩与无条件强*平方极限](results/R267-appendix-all-cut-square-contractions-and-unconditional-strong-square-limit.md)：真实整数尾给R_NM²=L_NM且||L_NM||≤1，整个QN²序列及两侧正能量无条件强*收敛；原有限旗商保持。未付QN自身一致界、强子列或闭根。
-
-- [R150：整个b0实际同h恢复、原D关系与三个纯权条件](results/R150-appendix-unit211-W-b0-actual-same-head-recovery-three-original-weight-conditions.md)：10.652680686秒/0，h47余34未付、C_D50非零及三原核78/80/87全部返回；h开图精确原商、h=0全J5/I11保，无新全支点界或排空。
-
-- [R150：正确Phi整个ell-half的原z一次返回及114次权覆盖](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-positive-z-and-114-weight-cover.md)：gλ2、完整6×30原模块秩4；C114²z∈I6，至多114不同权对且全λ/值纤维保；0.908464339秒/0，不称整支空。
-
-- [R150：全W斜率权图六个原NS/PS四次核与完整I6](results/R150-appendix-unit211-W-inverse-weight-six-small-original-NP-quartics-complete-I6.md)：六核总度40/44/45/41/45/46全部六源乘回；与旧六标量和同f恢复给完整原I6，7.487228075秒/0，53分母/605精除；无新权界或空性。
-
-- [R150：整个b0同步四乘五、同一伴随头和原D恢复](results/R150-appendix-unit211-W-b0-simultaneous-four-by-five-same-head-original-recovery.md)：全20真实五源乘子同步取消、三个纯权相容式完整来源、h开图原理想商同构及h=0完整保留；纯纸证，尚未计算新头或排空。
-
-- [R150：整b0五原二次与六个完整权条件，PRS准确冻结](results/R150-appendix-unit211-W-b0-inverse-slope-five-original-quadrics-six-weight-conditions.md)：六原组合至124.419秒全部返回；180.082295470秒/−14，无PRS终端或纯u覆盖。保原5772权/23088点和全部零面，改接全W新NSPS输入。
-
-- [R150：三pair/三同f norm完整呈示全W原I4](results/R150-appendix-unit211-W-three-pairs-three-same-f-norms-complete-original-I4-presentation.md)：从已付纯权四源R取得ΣviBi=1，明确15项组合恢复P0，补足六核全部原理想包含方向；任意额外F的三cofactor接口亦完整等价，无新执行、无新排空。
-
-- [R150：正确Phi的完整个别N/P、全NV及二十七列I10](results/R150-appendix-unit211-Phi-zero-corrected-individual-NP-full-NV-I10-and-two-decics.md)：四原值行、八动作列、两个λ10的正式原身份和完整实际来源；16.083766749秒/0，全部头零纤维保，非有限/空。
-
-- [R150：正确Phi个别N/P与完整NV的实际返回](notes/2026-11-28-unit211-Phi-zero-corrected-individual-NP-full-NV-four-original-rows-8542-actual.md)：16.083766749秒/0，四原行与十二动作、27辅助列均返回；两完整原cofactor给λ10必要式，总次94/98，所有头零纤维保，未排空。
