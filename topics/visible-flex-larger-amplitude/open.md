@@ -127,6 +127,8 @@ R724–745完整源参/条件/失败未知保[结果索引](results.md)和[固�
 
 [R749真非线性](notes/2026-11-28-R749-fractional-Darboux-complete-launch.md)实际入口z=v^(5/2)u经CK+平坦展开付共同正宽C²完整g/二jet；两端θ∈[1,π/2]，可裁拼保reach≥.106等全几何。裁拼区/剩下端帽仍欠；h0=1,64及原3次数×2全有理实际运行现刊触发，未返。
 
+[39b真材料流](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)完整七件现刊触发：原39全11阶段/原预算重生并核全点身份，再对6/9/10同g*跑双DOP853全0…π与完整J，真实切图和33时间样本。失败/独立重生明确保留；actual未返。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。

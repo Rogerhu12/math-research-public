@@ -1,0 +1,55 @@
+{
+  "schema": "bent-body-three-actual-material-flows/v1",
+  "parent_run": "46146451800",
+  "parent_attempt": "1",
+  "parent_source_commit": "c3e685703f28928dfe8cb8d9b71d2d3ed99285ef",
+  "original_observation": {
+    "path": "topics/visible-flex-larger-amplitude/notes/run39-bent-body-killing-46146451800-1.json",
+    "bytes": 75633,
+    "sha256": "1642366bf3aaa09cc3e5d9b4c31af5b2ea55ffb168cb0b4fd2f7193e19299351",
+    "git_blob_sha": "09d8aaf5feb9005946f91ac44d31689f4d03cfc3",
+    "observed_main_commit": "cbdab722838e00ebf9a45fde3750b2b9247d4632"
+  },
+  "original_parent_summary": {
+    "path": "/home/runner/work/_temp/run39-bent-body-killing-46146451800-1/field/summary.json",
+    "bytes": 65540,
+    "sha256": "06a7fa77c1063560fc6414da23af584ec5d92117946b6f51ec6cafb01f0ef192"
+  },
+  "full_parent_replay": "Run the unchanged bent_body_killing.py with the complete original parameters. Preserve its separate stdout, original 11 stage files and independent runtime. Compare every scientific stage identity. An independently diverged field is reported with its own provenance.",
+  "phase_interval": [
+    0,
+    3.141592653589793
+  ],
+  "phases": [
+    0,
+    0.39269908169872414,
+    0.7853981633974483,
+    1.5707963267948966,
+    2.356194490192345,
+    3.141592653589793
+  ],
+  "time_samples": 33,
+  "integrators": [
+    {
+      "id": "complete-dop853-first",
+      "rtol": 2e-7,
+      "atol": 2e-9,
+      "max_step_divisions": 28,
+      "inner_step_probes": 3
+    },
+    {
+      "id": "complete-dop853-second",
+      "rtol": 2e-9,
+      "atol": 2e-11,
+      "max_step_divisions": 58,
+      "inner_step_probes": 7
+    }
+  ],
+  "parallel_point_workers": 4,
+  "seam_probe_angles": 24,
+  "spatial_protocol": "Per field and actual source geometry: upper flat grip and marker slope, upper/lower real bend, both y-rims, right meridian, both turned head interiors, both regular cap centers and two analytic cap interiors, two signed seam-speed extrema on each cap. Add every available actual independent-check Killing, chart speed, curvature, support and fixed Gram extremum plus three chart-group Killing extrema. Each address runs both integrators across the whole interval.",
+  "stage_selection": "The Run39 frozen source physical field and both fixed-source material vectors on their original charts; two refinements each with that same Gstar. No fitted angular radius, mixed prior point or image-only transport.",
+  "mark_mechanism": "On the original upper marked material disk the generator equals polar rotation and the physical perturbation vanishes on an open neighborhood. Mark heights and their material gradients use the geometry-specific original cubic radii and heights. Outside their closed supports the derivatives vanish.",
+  "trajectory_formula": "dq/dt=-X(q) and dJ/dt=-DX(q)J with J(0)=I. X=X0+G^-1 T A. Use true Fs,Fv,Fss,Fsv,Fvv; G=T T^T. Every finite sample compares the complete derivative of R_t F(q(t))+b(q0)e_z with the marked physical target Gram at q0 by its symmetric generalized eigenvalues.",
+  "error_interpretation": "Pointwise double-precision finite paths, original-basis comparison and independent integration refinements. Per-step dense probes estimate missed chart exits; no interval enclosure, spatial supremum, reach or global isometry claim."
+}
