@@ -66,7 +66,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1166–68](results.md)ordinary βU、first=0、y_k,n从k+1起及J0=0已付。原同核Bkl=A4kA8l−Σ_iA′i4kA′i8l；最高corr BCH=Σ(k−l)Bkl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换(k+1)/(k+l+2)。全部raw/primed高G与σ、Vélu及真实尺度有来源；无未定U槽，中央单位未证。
 
-[原Gaussian高窗 §§1–12](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整j≤10 Appell及共同整τ界付原/三个quotient全部d4/8高槽，精确降至G_(p−5)/G_(p−9)有限heat列。商上βε=2β、CM gauge ζε−εv；σ/p次及G_(p−1)=ε^p/(2β)保全。原raw A′=−d!/((d−i)!β)(2⁻ⁱFhat−2⁻ᵈF)，Bkl保same-ε与odd–odd。critical p列carry/actual good-mask不删，联合非零仍开。
+[原Gaussian高窗 §§1–13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原/三quotient全部d4/8高槽由完整Appell与整τ降至G_(p−5)/G_(p−9)低heat列，σ/CM gauge/odd–odd及p carry全保。全同核Fay清除T−S/U+V两对角极，只需核总阶≤2p+15。原Π2 corr η8=(1519J_p d1−13068H_p c3)cω²/(8192β²)，H_p0时为unit·H_p''d1；原mask不要求该corr零，actual未平滑与联合排除仍开。
 
 原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
 

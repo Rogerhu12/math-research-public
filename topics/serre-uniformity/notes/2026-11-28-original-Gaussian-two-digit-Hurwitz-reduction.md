@@ -1581,3 +1581,274 @@ $$
 没有增加一个 actual good 角色，没有证明原 Gaussian
 共同纤维被分离，也没有把算术去平滑或未知中央值设为零。
 全部为纸面推导，无数学程序执行。
+
+
+## 13. 同核二同源 Fay 读取与原 mask 上的第二中央首槽
+
+本节保留 §12 的全部 primed 槽。
+先将同一二挠点上的乘积 trace 化为原核的完整 Fay 式，
+并清除两种对角极，给出没有展开顺序歧义的有限系数取法。
+随后直接计算原第二中央相关项的一个指定槽，
+明确它在原 joint mask 上的共同因子；不以该因子化替代非零证明。
+
+### 13.1. 同时平移的原 Fay 身份
+
+仍令 $\mathscr K_O=\mathscr K$。
+原 Kronecker 核的完整 Fay 恒等式为
+$$
+\mathscr K(T,U)\mathscr K(S,V)
+=\mathscr K(T-S,U)\mathscr K(S,U+V)
+ +\mathscr K(S-T,V)\mathscr K(T,U+V).
+$$
+对 $Q\ne O$，同时把 $T,S$ 平移同一个 $Q\in E[2]$，
+再乘原规范中的 $\exp(-\zeta(Q)(U+V))$，最后作
+$(U,V)\mapsto(2U,2V)$。此时实际相位为
+$\exp(-2\zeta(Q)(U+V))$；$Q=O$ 直接用原 Fay 式。
+得到
+$$
+\begin{aligned}
+\mathscr K_Q(T,2U)\mathscr K_Q(S,2V)
+={}&\mathscr K(T-S,2U)\mathscr K_Q(S,2(U+V))\\
+ &+\mathscr K(S-T,2V)\mathscr K_Q(T,2(U+V)).
+\end{aligned}
+\tag{G2.69}
+$$
+两项的指数相位完全相同；这里始终是同一个 $Q$，
+不是两次独立 Norm 的乘积。
+
+用原全二挠分布
+$\sum_{Q\in E[2]}\mathscr K_Q(T,2U)=2\mathscr K(2T,U)$，
+再使用 (G2.58)，准确得到
+$$
+\boxed{\begin{aligned}
+\sum_{\epsilon=0,e,-e}
+ \widehat{\mathscr K}_\epsilon(T,U)
+ \widehat{\mathscr K}_\epsilon(S,V)
+={}&2\mathscr K(T,2U)\mathscr K(2S,V)
+  +2\mathscr K(S,2V)\mathscr K(2T,U)\\
+ &+2\mathscr K(T-S,2U)\mathscr K(2S,U+V)\\
+ &+2\mathscr K(S-T,2V)\mathscr K(2T,U+V).
+\end{aligned}}
+\tag{G2.70}
+$$
+为核常数，令 $A=\mathscr K(T,2U)$、$B=\mathscr K(S,2V)$。
+左边先展开成三个 $AB$、两个 nonzero-$Q$ 一次和及一个同核乘积和。
+把各和补回 $Q=O$ 后，$AB$ 的系数是 $3-1-1-1=0$。
+所以 (G2.70) 没有另一个 $AB$ 补项，也未省略 primed odd–odd 乘积。
+
+### 13.2. 两个对角极在完整分子中消去
+
+直接分别展开 (G2.70) 的最后两项，会人为引入
+$T-S$、$U+V$ 的 Laurent 展开顺序。
+以下取法消除这个问题。
+定义正规的原二变量级数
+$$
+\mathscr H(T,U)=TU\,\mathscr K(T,U).
+$$
+它满足
+$\mathscr H(T,0)=T$、
+$\mathscr H(0,U)=U$、
+$\mathscr H(-T,-U)=-\mathscr H(T,U)$。
+置
+$$
+\begin{aligned}
+\mathscr N={}&
+ VT\,\mathscr H(T-S,2U)\mathscr H(2S,U+V)\\
+ &-US\,\mathscr H(S-T,2V)\mathscr H(2T,U+V).
+\end{aligned}
+$$
+在 $T=S$ 时，用 $\mathscr H(0,2U)=2U$、
+$\mathscr H(0,2V)=2V$，两项严格相消。
+在 $V=-U$ 时，用
+$\mathscr H(S-T,-2U)=-\mathscr H(T-S,2U)$
+以及 $\mathscr H(2S,0)=2S$、$\mathscr H(2T,0)=2T$，
+两项也严格相消。
+换变量 $X=T-S$、$W=U+V$ 后，这正表示
+$\mathscr N$ 的每个单项同时含 $X,W$。
+因此正规级数
+$$
+\mathscr D=\frac{\mathscr N}{(T-S)(U+V)}
+$$
+唯一存在；这两次 monic 线性除法不引入任何整数分母。
+(G2.70) 现在等价于无对角极的整形式
+$$
+\boxed{
+\begin{aligned}
+2TSUV\sum_\epsilon
+ \widehat{\mathscr K}_\epsilon(T,U)
+ \widehat{\mathscr K}_\epsilon(S,V)
+={}&\mathscr H(T,2U)\mathscr H(2S,V)\\
+ &+\mathscr H(S,2V)\mathscr H(2T,U)+\mathscr D.
+\end{aligned}}
+\tag{G2.71}
+$$
+这里先在同一特征零 sigma 来源上作恒等式。
+“无对角极”和“除法不增加分母”不表示每个高权
+$\mathscr H$ 系数都可单独约化模 $p$；
+原首 $p$ carry 仍须在完整式中保留。
+
+### 13.3. 原相关项的有限、无歧义系数泛函
+
+令右边 (G2.71) 为 $\mathscr B(T,S,U,V)$。
+对原 $0\le k\le4$、$0\le l\le8$，准确有
+$$
+\boxed{
+\sum_\epsilon
+ \widehat F_{\epsilon,4,k}\widehat F_{\epsilon,8,l}
+ =\frac12
+ [T^{p-4+k}S^{p-8+l}U^{k+2}V^{l+2}]\,\mathscr B.
+}
+\tag{G2.72}
+$$
+这是同一个 (G2.67) 中的完整 same-kernel 和，
+不是新定义的独立双线性泛函。
+所读取的总次数为
+$$
+L=2p-8+2(k+l)\le2p+16.
+$$
+$\mathscr H$ 从次数一开始，
+而 $\mathscr N$ 外部的次数二与两次线性除法的次数二抵消。
+所以 (G2.72) 只使用
+$\mathscr H$ 的总次数至多 $L-1$ 的有限截断；
+不需要一个 $p^2$ 长度的核。
+按 $X,W$ 的正规除法取该有限齐次部分即可，
+不把 $1/(T-S)$ 或 $1/(U+V)$ 任意选成某个区域的级数。
+
+完整读取的整性由左边 §12 支付：
+每个 $\widehat F$ 都是低权 $G_{p-5}$ 或 $G_{p-9}$
+经单位分母 heat 递推及固定 gauge 得到的整值。
+因此若右边某个单独高权输入带 $1/p$，
+须先完成 (G2.71)–(G2.72) 的有理系数恒等式再约化；
+不能把那个输入的 $p$ 倍先置零。
+本式可与 (G2.67) 共同使用，不删除任何低乘积或 principal 边界。
+
+### 13.4. 先列原 actual-good 的必要条件
+
+以下仍只比较同一原 Gaussian coarse component 的不同点；
+两 twist 的运输使用 R1135 §10，原 $S=0$、
+$P_{\rm pair}=0$ 范围均保留。
+由 R1127，若 $p\mid B_{p-3}$，实际 $R=2$ 已有 affine 单位行。
+所以尚需处理的非对角共同纤维必须在
+$p\nmid B_{p-3}$ 分支。
+此时原 forced good 行 $R=p-3$ 给
+$$
+\mathcal A_{p-3}(Z)=\frac{\mathcal H_p}{4}Z,
+\qquad
+F_{4,0}=\frac{\mathcal H_p}{2}=0.
+\tag{G2.73}
+$$
+
+在另外满足 $p\mid B_{p-7}$、$p\nmid B_{p-5}$ 的原支路，
+实际 low $R=4$ 和 forced good $R=p-5$ 才同时可用。
+R1135.3、.7–.8 给出的必要条件准确是
+$$
+\boxed{\qquad
+c_2F_{8,0}+G_{p-7}F_{8,2}
+ =c_2d_1+G_{p-7}c_3=\Delta_{\rm low}=0 .
+\qquad}
+\tag{G2.74}
+$$
+$G_{p-7}=-48a^2/(5\delta^7)$ 为原已付单位。
+这里 $c_2=f_2^{p-7,0}$ 是另一条原 heat 源；
+不能将它替换成 $F_{4,2}$。
+
+(G2.73)–(G2.74) 没有要求
+$F_{4,2}=\mathcal J_p/24$、
+$F_{8,0}=d_1$、其它 $F_{d,i}$ 或任一
+$\widehat F_{\epsilon,d,i}$ 为零。
+其余 Bernoulli 支路仍逐条保留原 mask，不因 §12
+给出了完整矩便增加观测。
+
+### 13.5. 第二中央相关项的一个原代数／jet 配对
+
+现计算 R1169.8 的原
+$Z_{2,\rm corr}^{\rm BCH}\in\operatorname{Sym}^8H(4)$。
+令 $c_\omega$ 表示原
+$\langle\omega,\eta\rangle$ 在既定 Tate frame 中的单位系数；
+若使用 normalized symplectic frame，则 $c_\omega^2=1$。
+由原 normalized contraction
+$\Pi_2(v^4,w^8)=\langle v,w\rangle^2v^2w^6$，
+输出 $\eta^8$ 的三个可能输入分别满足
+$$
+\begin{aligned}
+[\eta^8]\Pi_2(\omega^2\eta^2,\eta^8)&=c_\omega^2/6,\\
+[\eta^8]\Pi_2(\omega\eta^3,\omega\eta^7)&=-c_\omega^2/16,\\
+[\eta^8]\Pi_2(\eta^4,\omega^2\eta^6)&=c_\omega^2/28 .
+\end{aligned}
+$$
+例如可在
+$\Pi_2((\eta+t\omega)^4,(\eta+s\omega)^8)
+=c_\omega^2(t-s)^2(\eta+t\omega)^2(\eta+s\omega)^6$
+中比较 $t^ks^l$。
+原 BCH 因子 $(k-l)/(2(k+l+2))$ 使中间项准确为零，
+并非因为 $B_{1,1}$ 本身为零。
+因此
+$$
+[\eta^8]Z_{2,\rm corr}^{\rm BCH}
+ =c_\omega^2\left(\frac{B_{2,0}}{24}
+                         -\frac{B_{0,2}}{112}\right).
+\tag{G2.75}
+$$
+
+这里两条原 even–even 系数可以完整求出。
+取 $\lambda=1+i$，则
+$G_m(E_0)=\lambda^mG_m(E)$。
+对本次偶槽，两个非 Gaussian 商的 $G_m$ 相同；
+R1168.50 遂给
+$$
+\sigma G_m(E_{\pm e})
+ =\frac{2+2^{-d}-\lambda^m}{2}G_m(E),
+\qquad m=M_{d,k}.
+$$
+所用高权系数都已由 §12 或 R1168.48 支付整性。
+对 $(d,k)=(4,2),(8,0)$，
+$\lambda^m$ 分别是 $1/4,1/16$；
+对 $(4,0),(8,2)$，分别是 $-1/4,-1/16$。
+故三商同核乘积的比例分别为
+$14541/8192$、$19701/8192$。
+代回 R1168.51，再保原 binomial，得到
+$$
+\boxed{
+B_{2,0}=\frac{4557}{1024\beta^2}\mathcal J_p d_1,
+\qquad
+B_{0,2}=\frac{3267\cdot28}{512\beta^2}\mathcal H_pc_3 .
+}
+\tag{G2.76}
+$$
+没有把两个 primed 槽分开求 Norm。
+
+(G2.75) 因而准确成为
+$$
+\boxed{
+[\eta^8]Z_{2,\rm corr}^{\rm BCH}
+ =\frac{c_\omega^2}{8192\beta^2}
+       \left(1519\mathcal J_p d_1
+                    -13068\mathcal H_p c_3\right).
+}
+\tag{G2.77}
+$$
+在原必要条件 $\mathcal H_p=0$ 上，
+(G2.42) 给更明确的 jet 因子化
+$$
+\boxed{
+[\eta^8]Z_{2,\rm corr}^{\rm BCH}
+ =\frac{1519\,c_\omega^2}{49152\beta^2}
+        (\partial^2\mathcal H_p)(a,0)\,d_1,
+\qquad \mathcal H_p=0 .
+}
+\tag{G2.78}
+$$
+$1519=7^2\cdot31$，所以显示的外因子在本范围均为单位。
+这准确定位了该**实际相关槽**在原 $H_p=0$ locus 上的共同因子。
+若此槽另为零，则必有 $\partial^2H_p=0$ 或 $d_1=0$；
+在还满足 (G2.74) 的支路，后者又迫 $c_3=0$。
+
+以上仍没有把相关槽的值认作未平滑中央值。
+R1169.17 的原 $J_{2,2}$、$B_{2,2}$ 算术补项及
+R1171 的实际仿射同源运输必须保留；
+原共同纤维本身也没有要求 (G2.75) 在参考 CM 点等于零。
+因此 (G2.78) 是一个精确的原 jet 配对和退化因子，
+不是对共同零的排除。
+后继继续控制这些实际因子或原完整余对差值，
+不把完整矩消失加入原 good-mask 假设。
+全部为纸面推导，无数学程序执行。

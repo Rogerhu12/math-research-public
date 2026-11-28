@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原同核Fay有限读取与Π2首槽的真实jet因子（已证明）**：[Gaussian高窗 §13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整三商乘积trace经Fay消去，清两对角极后只需核总阶≤2p+15，全部p carry保留。原Π2 corr的η8槽=(1519J_p d1−13068H_p c3)cω²/(8192β²)，在actual必要条件H_p0上为unit·H_p''d1。原Δ_low条件与Bernoulli分支逐条保留，不由相关槽增加未给vanishing，也不省未平滑算术项。
+
 - **原Fermat两条有界链的完整混合norm（已证明）**：[quadric续篇 §11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)同一自伴三极算子保两个非齐次源，极界与角色锁AK−vBR0=D²I−M0/b0及原zN=vδ/(2ρ)。共同零的实际T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，保完整ℓ±^p和全部ve项；该非零norm尚未排原双jet，不新增消失假设。
 
 - **原两abelian矩的无Bernoulli门有限重建（已证明）**：[R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02小偶权半稳定分类排惯性端点1⊕ω^(d+1)，原Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)于同μ6外辅助族生成单位理想。实际Norm点与已知Δ给非齐次W A=D，右端只含coefficient crystal、quotient modp²位置及实际同源；有限证书恢复全部SS参考X/Y。原Tate-five值24Bp−5/5另由abelian比较付p>37，中央实际corr及全局非零仍开；未运行数值重建。

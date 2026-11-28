@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5c9500e2f80829c7db22f849232e3b9b01cadcdf**（2026-11-28 17:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:13 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：3ec07336027eae21e0f39c87ed3ba664af2bd020**（2026-11-28 17:26 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:13 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 17:13:02 Asia/Taipei，Actions run46129390088/job140931017005，blob:none浅clone后真实pull --rebase至a6c74a41且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤18:03、pull≤18:13。本地17:12仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -28,7 +28,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1166–68](results.md)ordinary βU、first=0、y_k,n从k+1起及J0=0已付。原同核Bkl=A4kA8l−Σ_iA′i4kA′i8l；最高corr BCH=Σ(k−l)Bkl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换(k+1)/(k+l+2)。全部raw/primed高G与σ、Vélu及真实尺度有来源；无未定U槽，中央单位未证。
 
-[原Gaussian高窗 §§1–12](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整j≤10 Appell及共同整τ界付原/三个quotient全部d4/8高槽，精确降至G_(p−5)/G_(p−9)有限heat列。商上βε=2β、CM gauge ζε−εv；σ/p次及G_(p−1)=ε^p/(2β)保全。原raw A′=−d!/((d−i)!β)(2⁻ⁱFhat−2⁻ᵈF)，Bkl保same-ε与odd–odd。critical p列carry/actual good-mask不删，联合非零仍开。
+[原Gaussian高窗 §§1–13](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原/三quotient全部d4/8高槽由完整Appell与整τ降至G_(p−5)/G_(p−9)低heat列，σ/CM gauge/odd–odd及p carry全保。全同核Fay清除T−S/U+V两对角极，只需核总阶≤2p+15。原Π2 corr η8=(1519J_p d1−13068H_p c3)cω²/(8192β²)，H_p0时为unit·H_p''d1；原mask不要求该corr零，actual未平滑与联合排除仍开。
 
 [R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2 degree8 S/U×Weil²、Fil12及全部normal读数已付，BCH权(k−l)/(2(k+l+2))作用同核B_kl的Π2。V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2全p>37单位；原J/B局部读值仍保。
 
