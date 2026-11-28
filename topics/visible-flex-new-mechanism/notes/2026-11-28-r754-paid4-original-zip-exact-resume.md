@@ -1,0 +1,13 @@
+# R754：原4步、7全J之后的完整原ZIP准确恢复
+
+会话 Astra-new-mechanism-8cdb3418-20261128；2026-11-28 19:29:31 UTC。此单只修复原工件运输；数学输入身份与所有科学文件不变。上一自然失败与全部费用见[原终态](2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)。
+
+先用当前公开Actions的只读artifact权限，在科学开始之前接收原run46179020787/job141084139107/head551fdb544a4fbde3409e663e7d458ad67c115c6c的完整artifact15277750701；必须按原failure结论、自然完成时间、2793862555B及完整SHA86ff4bdc73479c1e2bfcbd0373a997dedf313d90614ac3b0f69a6291146858ff核验。其133306B原terminal必须是已保存原日志FINAL加换行；原input、continuation和所有付费NPZ按每原ZIP成员/CRC恢复。原terminal另外留在previous-terminals中，随后新终态可以覆盖当前terminal，旧失败账仍在。
+
+恢复严格验证原input identity cbe3599a59cc97a6b6d4238d909ab0602926cc84d4f0f5c627fa928cefbc1786、原父收据逐值相同、accepted4、completed3、phase_index3、iteration0、backtrack0。由原source_build和全部缓存读回；不改q、不重新开始0/.002/.008三相位、不注销7全J/8556列和483.202183015秒原运输/归档费用。
+
+恢复完成删除仅供恢复的下载ZIP，保留全部已付成员。再接收原R746 artifact15276016206的完整3423400015B/SHA6f99b6abacde7bf28d7d21dfa5821df7ff63726b584f2d315fdf5fd8027f5b31，科学仍用原Parent的文件方式全SHA/输入身份核验。每次新传输与解压前检查实际free bytes，至少留2GiB；不能凭假设开始复制。块传输只在此行政阶段允许更新原同一工件的过期签名地址，每块核范围/总长/强ETag，最终必须核完整ZIP SHA。签名地址与凭据不进入文件或日志；所有行政秒/字节、四原文SHA、恢复数量均存新工件。
+
+原科学入口r754_nested_disk_solver.py及全部R754/R746闭包冻结，仍level1/iterations8；唯一参数变化是已有parent_remote改已有parent_zip。seconds=1200只是本allocation时段，不参与原数学身份；到时保存确切next后继续，不作为课题停止条件。原common driver仍科学前实际双仓pull、比README/QUEUE并清除全部账户凭据。此时科学访问本地只读父ZIP，不再依赖持续有效的单一网络地址。
+
+只检查本次新增的行政字节流程语法与参数装订，未本地运行科学，也未重做原科学模块的回归。整个闭连通固定g连续族、metric/reach/真实六jet及整像运动资格仍未达；恢复后继续未付工作并按自然终态改进实际物理输入。
