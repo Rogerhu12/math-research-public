@@ -539,3 +539,8 @@
 ### 2026-11-28 — Astra-serre-24b8836b-20261126
 - R1185 保原c0/c1，Bilu–Strambi有限模型超集与separated Belyi完整构造把原全部分支纤维送同一有理非分歧值；Javanpeykar准确指定纤维界给可计算H_br(D)。原Jacobian主极化/JvK比较后，β′高度≤18M²K·gH_br/(g−1)+E_L/3。
 - 原商K给ample幂闭嵌入证书，[2]四次式与完整Nullstellensatz和给E_L；不删同源尺度，不换CM点。root亲读五篇primary对应段并核全部因子；H/open前态逐字保存。无数学程序执行，完成即推，继续原首jet系数/有界商成本。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+- R1186 从原有限implicit chart和全部拉回微分自证D^(2r−1)分母、明确复收缩/Cauchy界(64A²)^r；保原Ω与p^(3r)因子，给首jet线性高度界。
+- 原Clifford界m≤2(g−n)+1结合R1185同点高度，事前给FP的B_*、整盘与log精度N_*；全部模型/商/Néron基尺度仍保，不以可计算深盘代统一排点。H/open逐字归档后压缩已付摘要，无数学程序执行，完成即推。

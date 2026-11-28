@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-CM-norm-tower.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-Abel-jet-height.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -36,7 +36,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0−n²Σ Sym¹²(ψ_C⁻¹)Z0(E/C)，ordered/BCH同式；ψ_i⁻¹在原dR基为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。不是v_n单点乘法；一般B_n显式值仍继续，原F0另有R1175有限算法，λ∞不删。
 
-[R1147 §§17–20](results/R1147-original-canonical-moment-Heisenberg-lift.md)真实连续all-vector/primitive塔、Λ°模商与norm过渡、Mprim_d=(1−p^d)Mtilde_d、完整ρ/群尺度/二次gauge及全p^r S/U已付。D12整log-exp jet秩90，mom_d=d!pr_d、双槽i!j!，所有GL2/同源/过渡保留。详细公式及scope逐字在本次前态，不把fixed raw分解任意兼容或finite标签lift冒成TpE map。
+[R1147 §§17–20](results/R1147-original-canonical-moment-Heisenberg-lift.md)原all-vector/primitive全塔及Λ°过渡已付，Mprim_d=(1−p^d)Mtilde_d，D12整jet秩90、mom_d=d!pr_d/双槽i!j!。全部ρ/群尺度/gauge/同源沿前态；fixed raw与finite标记不外推任意TpE map。
 
 **当前继续**：原period/格/同根gauge与PD比较已付；R1155.87高carry完整保留。R1160一般共轭路径的显式读数仍可作符号路线，原F0全部槽已有R1175独立有限算法；实际目标组合非零、global subtraction及完整深盘仍未付，不再重造抽象lift。
 
@@ -44,7 +44,7 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 ### 原完整 Frobenius 的有限读取与实际非零门
 
-[R1175–76](results.md)原最低residue锁Tate差、log H0由unit Higgs消失，连接+pureΦ唯一给全部43 Frob；全几何整格给vΦ≥−14/vΦ⁻¹≥0，KT极阶D(m)=2pm+6(p+1)。R1175有限树必终止；R1176给定pure到n+28位，已知整δ1及三cusp正则限制42未知在poly≤6/仅1有极的有限空间，原ODE/descent模p满列秩，一次modp^n解唯一。pure由明确−1 fibre矩阵及独立算法取得；保所有σ/cross/λ∞/Taylor carry，尚未数值执行，非零/global减法/whole盘继续。
+[R1175–76](results.md)原43 Frob唯一；pure n+28位后42未知一次模p^n满列秩解，pure来自−1 fibre。整δ1/Tate/Higgs/KT及σ/cross/λ∞/carry全保，未数值执行；原非零/whole盘继续。
 
 [R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)原正Kummer/左扭曲/d+Ω下，syntomic常数S的物理Frob是−S，中心仍b(S,S)−H；c=η，scalar为H(−A,−B,AB−β)。高Hurwitz本值不改，全部双积/Q/corr不变；混用实际T=s时最低项为−λ∞S_Xs。R1173物理W A=D不变，synt W S=−D。旧文顶部已更正，不翻原H0系数或独立r/s。
 
@@ -58,9 +58,9 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
-[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD normal/两开集residue SDR及原raw/primed theta已付。xP=−b_Ez^p(1+γp)ω−zgη，Z=𝔟(A,A)−H；全部高carry、fixed CM α、primitive尺度、exact/shear及同陪集Cor沿原文/逐字前态保全，不重列未付。
+[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD/SDR与raw/primed theta已付；全部carry、CM α、ρ/gauge、primitive尺度、exact/shear/Cor沿原文及逐字前态。
 
-[R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS未分歧Aut相容CM参考、全μ6外辅助族ordinary源与Π0/Π2双线性RHS已付，保vertical γp及真PD特化。新增Qρ权(k−l)/[2(k+l+2)]；Hρ=Wρ−Qρ(X,Y)只在对应CM基间齐次，回预选参考仍有全shear/Δ的已知e，V H=n^(2−ρ)Σtransport e。最高剪切缺陷零当且仅当一输入零或X∝ω⁴,Y∝ω⁸；不强加于actual X/Y，不宣H=0。最低Tate符号与原非零继续。
+[R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)原全SS Aut相容CM参考/μ6外ordinary及Π0/Π2 RHS、γp/PD已付。Qρ权(k−l)/[2(k+l+2)]，H=W−Q只跨对应CM基齐次；回参考保全部shear/Δ的e，V H=n^(2−ρ)Σtransport e。最高剪切零分类不强加actual X/Y，不宣H=0，原非零继续。
 
 (1174.58)的e=c_BCH−Q_actual(Xj+ΔX,Yj+ΔY)+Q_ref(Xj,Yj)，不是删去商曲线对参考点的差；Q_s=e^(sN)Q(e^(−sN)X,e^(−sN)Y)保完整有限shear。最高C0系数=(9k−5l+4)/[(k+l+2)(k+l+3)]，p>37精确零分类自证；此分类没有给actual moments增加任何消失条件。
 
@@ -171,6 +171,8 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 [R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，FP给同β′交错首项v_q(a_m)<B，全部尾≥−v_q(r)；含坏q=p。预定N=B+v_q(m)、形式log截2N决定本原hλ/e_m，原分支深度a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时a+e_m+1。仅去β/Ω辅助标量；[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)以原height2闭细盘/μ3下降及形式Néron付a=3，B/e_m按b−1=p³w重算，商模型/格/点高度仍须控制并比较候选深度。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d、首项unit或固定盘排点。
 
 [R1185](results/R1185-original-CM-point-height-and-quotient-cost.md)原Belyi degree≤3p(p−1)给可计算H_br，确控同c0/c1；原β=−3f_C(c0)，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3。K为原商极化ample证书，E_L来自[2]四次式/Nullstellensatz，均保真实尺度；模型/首jet系数高度与候选深度继续。
+
+[R1186](results/R1186-original-Abel-jet-height-and-a-priori-precision.md)原有限隐函数给D^(2r−1)分母、(64A²)^r大小；t=p³w后首jet系数高度线性≤logSΩ+(2m−1)logD+3m logp+m log(64A²)。m≤M_X=2(g−n)+1故事前定FP的B_*、N_*=B_*+floor(log_p M_X)及仅c₁深盘3+B_*+ceil(log_p(M_X+1))；真实模型成本仍保。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 

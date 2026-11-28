@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：529e390585576dd6db2dad304dcd1b26c61da8f7**（2026-11-28 20:20 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7519a9d2a94cb58e31a2b84d44eb95647d35c6c3**（2026-11-28 20:27 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:20。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:27。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-effective-CM-height.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Abel-jet-height.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -18,13 +18,13 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1131–46](results.md)原class4全cusp/phase、proper修正杯积/Heis p³已付；Cor不变Norm。未修正socle/MW d0/1、曲线twists=J(K)[p]ω⁻⁷及B16门沿原文保留。
 
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible矩/43格/全p^r来源已付，Mprim_d=(1−p^d)Mtilde_d；D12 jet秩90、mom_d=d!pr_d/双槽i!j!与原ρ/二次gauge保留。finite coefficient不删raw高function jets，全部过渡沿原文。
+[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible矩/43格/全p^r来源、primitive Euler与全部ρ/二次gauge已付；D12秩90及factorials沿原文，finite coefficient不删raw高function jets。
 
-[R1148–53](results.md)原global基/有限尺度已付；Ccyc=exp(9^(224·9⁴))，大aux affine实际存在不代空集。真障碍rs h−zab含β3/β5及J=Har(1,3,4)；七退化支、最高同源组合、U/U²及β底参数全保，η★全支由R1180付。
+[R1148–53](results.md)原global基/Ccyc及有限尺度已付，大aux affine不代空集。原障碍rs h−zab含Har(1,3,4)，七坏支/最高同源/U/U²/β底参数保全；η★由R1180全支付。
 
-[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD normal/两开集SDR与raw/primed theta已付；高carry、fixed CM α、原ρ/gauge、primitive尺度、exact/shear/同陪集Cor全沿原文及逐字前态保留，不重列未付。
+[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD/SDR与raw/primed theta已付；全部carry、CM α、ρ/gauge、primitive尺度、exact/shear/Cor沿原文及逐字前态。
 
-[R1159–60](results.md)原actual Norm给ordered/BCH跨同源式，保ψ⁻¹全部shear；J_n/算术B_n及三整来源已给，一般共轭路径显式读数仍继续，非单点v_n倍数。
+[R1159–60](results.md)原Norm的ordered/BCH跨同源及J_n/B_n三整来源已付，保ψ⁻¹全shear；一般共轭路径显式读数继续，不作单点v_n乘法。
 
 [R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS CM参考/μ6外ordinary源、Π0/Π2 RHS、完整γp/PD与Qρ已付。H=W−Q仅跨实际CM基齐次，回参考保全部shear/Δ的e；最高剪切零分类不能强加actual X/Y。全部公式见open及原文，最低Tate/目标非零继续。
 
@@ -32,7 +32,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1169–73](results.md)三中央/两abelian Brandt单位理想及原43格完整RHS已付，保quotient模p²、σ/shear、Tate n⁻⁴与正λ∞、最低BCH−λ∞ΔX T/2。物理W A=D有限重建；原Z有提升差不置零，混用synt/实际T按R1177。
 
-[R1175–76](results.md)原完整43 Frob唯一；Tate留数/Higgs/KT与整δ1给有限算法，pure n+28位后42未知由模p满列秩系统一次解到p^n。pure来自−1 fibre；保σ/cross/λ∞/全部carry。未数值执行，原非零/whole盘继续。
+[R1175–76](results.md)原43 Frob唯一；pure n+28位后42未知一次模p^n满列秩解，pure来自−1 fibre。整δ1/Tate/Higgs/KT及σ/cross/λ∞/carry全保，未数值执行；原非零/whole盘继续。
 
 [R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)正Kummer/左扭曲/d+Ω给物理A=−S、中心b(S,S)−H、c=η。Hurwitz本值、全部双积/Q/corr不改；实际T=s时最低−λ∞S_Xs，R1173物理W A=D。全部规范及旧文纠错沿原文，不翻H0或独立r/s。
 
@@ -42,7 +42,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
-[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé双缺陷⇔P,Q含x²，约后degree≤N−2/contact2N−1；全部首余项/P_N单位、Pell W非零但W0未unit。[原Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保全Hesse/Schur/Jordan，normal=12tr(adjQ A²)非spectral，指定中列未cyclic。R1145及旧窗口/Prym只消费。
+[R1137/Dixon](results.md)原Padé双缺陷⇔P,Q含x²，约后degree≤N−2/contact2N−1；首余项/P_N单位，Pell W0未unit。原Hesse/Schur/Jordan及normal=12tr(adjQ A²)已付，指定中列未cyclic；旧窗口/Prym只消费。
 
 [原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
 
@@ -56,7 +56,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘；盘内须高度，余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
 
-[R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两实际twist已统一z∈Fp；good代数Fp[W²,W(W²−d)]或Fp[W]，仅d非零平方余对待排。原heat/Hasse/Katz、fixed minor、norm2/CM gauge及全尺度见open/归档，顶unit不代det，向量场闭性未付。
+[R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两twist统一z∈Fp，actual-good代数仅d非零平方余对待排。heat/Hasse/Katz、fixed minor/norm2/CM gauge与尺度沿open；顶unit不代det，真实向量场闭性未付。
 
 [R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原weighted Legendre/finite-log/Jacobi、四低jet及3/8 Bernoulli补项全付；ξ/forcing/Hasse负号与自足Xp沿open。p1019只否无条件旁零，不扩扫；端点unit不代原joint。
 
@@ -69,6 +69,8 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 [R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)原height2挠群在细u∈p整盘严格Hensel平凡化，保群律/配对/Galois/μ6；原项链μ3下降给b−1=p³w，形式Néron给任意原商的全部rU_r∈Λ。因此R1182可取a=3，B/e_m须按新参数重算；原首项/高度与候选深度比较仍开。
 
 [R1185](results/R1185-original-CM-point-height-and-quotient-cost.md)原Belyi degree≤3p(p−1)给可计算H_br，确控同c0/c1；原β=−3f_C(c0)，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3。K为原商极化ample证书，E_L来自[2]四次式/Nullstellensatz，均保真实尺度；模型/首jet系数高度与候选深度继续。
+
+[R1186](results/R1186-original-Abel-jet-height-and-a-priori-precision.md)原有限隐函数给D^(2r−1)分母、(64A²)^r大小；t=p³w后首jet系数高度线性≤logSΩ+(2m−1)logD+3m logp+m log(64A²)。m≤M_X=2(g−n)+1故事前定FP的B_*、N_*=B_*+floor(log_p M_X)及仅c₁深盘3+B_*+ceil(log_p(M_X+1))；真实模型成本仍保。
 
 ## 已成、禁止重做与其它入口
 

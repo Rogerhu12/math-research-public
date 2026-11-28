@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Abel首jet系数高度与事前精度（已证明）**：[R1186](results/R1186-original-Abel-jet-height-and-a-priori-precision.md)原有限隐函数给D^(2r−1)分母、(64A²)^r大小；t=p³w后首jet系数高度线性≤logSΩ+(2m−1)logD+3m logp+m log(64A²)。m≤M_X=2(g−n)+1故事前定FP的B_*、N_*=B_*+floor(log_p M_X)及仅c₁深盘3+B_*+ceil(log_p(M_X+1))；真实模型成本仍保。
+
 - **原CM点差的有效高度与商尺度证书（已证明）**：[R1185](results/R1185-original-CM-point-height-and-quotient-cost.md)原Belyi degree≤3p(p−1)给可计算H_br，确控同c0/c1；原β=−3f_C(c0)，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3。K为原商极化ample证书，E_L来自[2]四次式/Nullstellensatz，均保真实尺度；模型/首jet系数高度与候选深度继续。
 
 - **原三次CM支路的统一完整p³盘（已证明）**：[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)原height2挠群在细u∈p整盘严格Hensel平凡化，保群律/配对/Galois/μ6；原项链μ3下降给b−1=p³w，形式Néron给任意原商的全部rU_r∈Λ。因此R1182可取a=3，B/e_m须按新参数重算；原首项/高度与候选深度比较仍开。
