@@ -11,7 +11,7 @@ import time
 import numpy as np
 from r726_closed_spinor_fourier import public
 from r734_true_dyadic_tail import I,D,ZERO,ONE
-from r755_harmonic_area_bounds import exact,material_cell,test_matrix,selector,quadratic,cap_cell
+from r755_harmonic_area_bounds import exact,material_cell,test_matrix,selector,quadratic,cap_cell,cap_identity
 
 SOURCE_SHA='4a271c0f8df58456a66a71a59e003c5d887c07d54b8bb53290e7269625f3ff7e'
 CAL_SHA='bf12e73ac01668167581f3a4037d115a226984555ca1c80dc146ee7239f14b73'
@@ -75,8 +75,9 @@ def main():
             total=sum((exact(z) for z in w),ZERO)
             if np.any(abs(nodes)>=1) or np.any(w<=0) or total.hi>D('2.00000000001'):
                 raise ArithmeticError('Unverified positive normalized source rule.')
-            return dict(nodes=64,weight_sum=total.bounds(),new_quadrature_weight_verification=True)
-        once('actual_64_positive_weights',weights)
+            theta=float(np.arcsin(.27));cap=cap_identity(theta,np.sin(theta),np.cos(theta))
+            return dict(nodes=64,weight_sum=total.bounds(),new_quadrature_weight_verification=True,actual_cap_identity=cap)
+        rule=once('actual_64_positive_weights',weights)
         for i,(l,h) in enumerate(zip(edges,edges[1:])):
             z=once(f'material_{i}',lambda:material_cell(l,h,M))
             data.append(tuple(I(*v) for v in z))
@@ -114,7 +115,7 @@ def main():
                 report['exact_curvature_witnesses']=witness
             reports[name]=report
         final=dict(kind='terminal',A_over_pi=A.bounds(),L=L.bounds(),S=S.bounds(),raw_center=[z.bounds() for z in C],
-               poses=reports,whole_center_rectangle_strict_basic_gate=all(v['strict_PSD_gate_passed'] for k,v in reports.items() if k.startswith('corner_')),
+               actual_cap_identity=rule['actual_cap_identity'],poses=reports,whole_center_rectangle_strict_basic_gate=all(v['strict_PSD_gate_passed'] for k,v in reports.items() if k.startswith('corner_')),
                all_centers_excluded_by_basic_gate=reports['all_centers_lower']['strictly_excluded'],
                all_centers_excluded_with_absolute_T003=any(z['excluded_at_this_center_with_absolute_T003'] for z in reports['all_centers_lower']['exact_curvature_witnesses']),
                positive_solution_or_continuous_path_granted=False)
