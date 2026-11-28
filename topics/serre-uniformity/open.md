@@ -81,86 +81,18 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)原tame projector及e-block给m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)；所需precision k≤i、p^(i−k+1)，滤过交R∩Fil^aS=g^aR精确。若同一适配frame，窗口阶乘消为(−1)^(i−w_b)σc_(j+(i−w_b)e)；最高实际degree28e+p−1，不能用coefficient jet12替代。继续同源frame/F0，不对已成Frob矩阵再施φ。
 
-[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付原完整43格有限整比较：实际E^d odd/signed projector和Tsuji小权给Hq(q≤t)含完整惯性/residue Frobenius；三中心E12/Sn14分开pair projectors准确Π_r，无组合数也不假互相正交。实际Poincaré −c1(P)/2由∆*degree−2锁Weil coeval1，四份补λ∞xγ5恰weight14。全primitive groupoid/全p^n及ordered gauge/有限H0保留；实际cochain比较现见R1164–66，未计算F0。
+[R1163–R1166](results.md)原完整43格的finite integral syntomic比较、E^d signed及E12 paired projectors、Poincaré coeval−1/2、同一λ∞槽和全primitive groupoid均已付。R1164第一槽Weil inverse-Miller、刚化line、chord/层间同根、SS actual frames及全PD cocycle保全；R1165–66给原ω/xω residue SDR、actual U Newton/V Hensel/p-small I、ambient geometric normal/Čech完整SDR、F/Q及ordered T h−H。不能再把这些source/模型接口列作未付。完整公式保于[本次逐字前态](open-archive-2026-11-28-before-unramified-coefficient-reading.md)及各原文。
 
-## O1：原两 jet 的实际临界非零
+R1166 §§9–13原第一层tame S_L=⊕z^jS_F，g=u−p=ze−p，ψτ交换且N_z=eN_u、dlogu=e dlogz；actual Cor无log槽e·第0块、log槽第0块，两个L因子用same-coset。原Tr x^[d]=0后才消theta leading/幂项；d4/8取原V₂=−1/(z³y)，来源¼[Δ/(16y⁴)]无新根。输入恰k_d⁻¹(A₀dlogu,eB₀)，A/B是x^[d]NlogV₂与x^[d]p⁻¹log(V₂^p/ψV₂)，全部normal及高层gauge保留。
 
-完整已付来源/公式/run见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)及其归档链，禁止重算窗口。
+R1166 §§14–18 actual Steinberg primitive(0,β)满足d h=−cup，β=Li₂†+AB₀+J，J=p⁻²∫log(1−t/(1−U^p))/(U^p+t)dt整，模p^M只需n≤M+1(M≤29)。βmodp=(ℓ₂+εℓ₁/U^p−ε²/(2U^p))/(1−U^p)，原线性carry不能删；h_R=AB−β及通用Z=𝔟(A,A)−H，𝔟的λ∞为正。未分歧universal的整compatible tower先锁同根再pullback；共同U=z^mV近0化ε=U^pα，J无负幂，exact S/J保AB−β、−β+A²/2。原line/divisor精确z因子、固定CM整数α与[1+α]P(z)继续，不能用只在Ep相同的Teich形式替换。
 
-[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé N=(p−5)/6、F=₂F₁(1/3,1/2;4/3)，contact2N+1且首余项/P_N单位。e=K4=0 iff P,Q同含x²，约后degree≤N−2/contact2N−1。F²=D_N−g_N²x^(2N+1)，D/G无重根互素、Pell余式W非零degree≤N−3；W0未unit。换x=4z/(1+z)²后必须保reciprocal约束，不套普通对角Jacobi正常性。
+[R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 
-[原Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保完整原Fermat、q/r有限源与D^(p−5)η、Hesse Frel全矩阵/Schur谱。normal读数12tr(adjQ A²)不等spectral tr(adjQ)，全Jordan不代指定中列cyclic。r_N(λ)=R1076η_k(λ/3)及r′=ν/3只消费；两指定读数共同零未排。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原六种(d,t)=(4,1),(8,1),(0,5),(12,2),(8,4),(4,6)的未分歧log cone有完整SDR到常数M_d/p[-1]。q_k=t+k，K_q=(−1)^q(1+γp)^q/q!，F_k=(−1)^k b_E^(2k−d)e_(d−k)；T(y)=Yhi+正normal(φ_rYhi)，R(y)=y0+(−1)^tΣb_E^(2k−d)σy_(k,t+k)e_(d−k)/(t+k)!。H2的常数方程由实际CM反对角可逆，所有低分母≤13，高normal没有先删，H0/H2准确0。
 
-[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)同一Fermat6十维45槽、e0的七维低插入及第4层K4尺度全付。完整primitive交换含p次补偿；A3=−2r1³qN0−3qN′0/2，A9=3qN′0/2，回同一Dixon。114第二层Λp未unit，18个cross仍保；高层可有极，不由character删去。下文保明确最新式。
+原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
 
-[R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)原X108六CM十五对完整表及A/S/T仅付准确尺度，T未unit；原四非CM目标的普通性不能移到Fermat6。真实gd=c²、uv=h²可继续高Cartier乘法；Pfaffian恒零且不含S。
+中央不能直接读R_Z(yh)：对原v=(a4,a8,c5)，先R=T_V(yv)、A=R_V(yv)，原gauge h′=h−𝔟(v,R)+𝔟(R,v)−𝔟(R,dR)使其闭合；H=R_Z(yh−𝔟(yv,R)+𝔟(φR,A))，原Frob中心Z=𝔟(A,A)−H。这些filtered gauges在g0为零，保持原唯一Hodge lift。继续实际27terms/原权/同a Cor/未平滑来源的完整求和和全局rs h−zab，不以已给读取公式代实际非零。
 
-[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)有限八系统仅标量，不重跑；[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)、[原Prym三同源](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)、R1095/R1113/R1130的完整phase/primitive/Leibniz/相邻单位沿前态，只消费，均不代e/K4非同时零。
-
-### 同一 Fermat 原 quadric、两指定 Cartier 与有界链
-
-[原genus4 §§9–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已锁canonical P22=−Ψ/(b0δ)、六个123实际映射及全p次补偿、三个V4/114方向与高亚纯项、A3/A9及原谱jet一阶gauge。完整相位/极点/μ3范围沿本次逐字归档与原文；只有原123在eK40的第0…4层才可按已付Cartier零删除相应pth补偿，不删114的Λ或高极项。
-
-原A=xP12+x⁻¹P32、B=xP12−x⁻¹P32满足DA=vB/U−2/b0、DB=vA/U；B=Σt_jU^(3j+1)且所有t_j单位。F=P12P32=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0=ρ²/(b0²δ²)，W=F−P²顶系数(ρ²−1)/(b0²δ²)unit。α=C_rel(Bω)/ω′=−2ρe/(b0δ)，ΨrB第1…5层及第6层−5αU′³+b6全保；b6=8δ³C(Rcal³Bω)/ω′是不同源，不换名K4。原45槽、九mixed及七维消失范围沿归档，σ/Λ/T仍未unit。
-
-[quadric续篇 §§1–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)三个实际单位三角矩阵给A=D³I、poleI≤p−3；原全kernel保4ve，故a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4=2ρδK4/b0−4vα，原双零恰α=a3=0。e0时两个absolute有序P³Piωj均为ρK4 h*/(b0⁴δ²)，一般式保±2αV；C(P²Wh*)=−a3h*/(3b0³δ³)。原D_R⁴t(−Q)及a3准确相同，Leibniz给120C(U³I)/ω′+48v²βI=vα+2δ/b0。
-
-同一高Lamé零模Z=(Vp(J+−J−)−v(J++J−))/Up，deg p−1，完整二次变换G(4w(1−w))=(1−w)^(4k−1)+w^(4k−1)保共振高项；Z=4zN g+2b0zN U^(m+1)B/v且C_rel(Zω)=−2vω′。R0=g/U^(m+1)满足C(R0ω)=ρeω′/(vδ)，e0 iff唯一有界H0∈VU^(−3k+2)K[U³]_(≤k−2)、DH0=R0，首τ⁵/20。K=UDR0有DK=1+v²R0/U，C(Ψ³K)/ω′=3v²e/(2zN)−b0a3/2；e0下恰−ρδK4。高unit和双零强迫C(U³I)=δ/(60b0)没有给矛盾。
-
-[同续篇 §8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)进一步保真正二次关系M0=K²−v²R0²=Σ2a_j g_j U^(a_j+1)/(a_j+1)，a_j=−3k+1+3j，全部高极相消且DM0=2K。其C_rel为−v²e/(δzN U′)，不是全纯常数。e0 iff唯一M1∈VU^(−3k+3)K[U³]_(≤k−2)满足DM1=M0；随后逐项积分M2∈U^(−3k+4)K[U³]_(≤k−2)，其C=ρK4ω′/(3δ²)。K40 iff唯一M3∈VU^(−3k+5)K[U³]_(≤k−3)存在，再积分M4∈U^(−3k+6)K[U³]_(≤k−3)。整个链极≤m−1−j、O首2τ^(j+2)/(j+2)!，K=D⁵M4/2，故
-
-**e=K4=0 ⇔ D^(p−5)K=0**。
-
-所有箭头由实际空间三角矩阵支付，不用一般低极exact积分。完整二次限制为v²(D⁵M4)²−U²(D⁶M4−2)²=4v²D⁴M4，非齐次常数二保留。现在继续同一V有理子域/三极界与此norm式，仍须排除实际链；不以首τ⁶/360、全Jordan或旁列单位代原两jet。旧窗口不重跑。
-
-## O2：原 Gaussian 全 good-mask 与实际共同纤维
-
-完整原norm2、Kronecker、两twist、mask、全部高尾及旧端点详见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)；不重算已登记扫描。
-
-[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)低good支将非对角纤维减到至多一个unordered pair；另一支Δ_low/48仍待非零。§10付两实际下降线全部运输，统一z∈Fp，保S0/P0。§11 actual-good代数为Fp[W²,W(W²−d)]或Fp[W]，导子W²−d；d0/非平方分离Fp点，非零平方余对须actual odd coefficient O_R(d)≠0，向量场闭性未付。
-
-同文§§12–15给3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)、原固定Δ曲线Y²=X³−Δ/27、完整Katz forcing/共振常数及XiG的实际Cartier读数。Wω恒Cartier零不能代W(TG)；非零全权多项式仍可在Gaussian点为零。
-
-最新§§16–17以原Hasse/伴随两解准确把Δ_low化为有限Gauss组合8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)。四系数、两个终止支、最高安全jet与全部Wronskian余项见下；当前需付完整det或其它actual good行，t_N单位不代det。
-
-[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)p|Bp−3时χ2一次unit只付跨盘，盘内高度仍开；余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多非constant不代独立/注入。[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)与[有限本征重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)保h≥1唯一逆/完整Newton商，h0、G_(p+1)、原非观测列不外推。
-
-### 原完整 finite-log / Newton joint 条件
-
-[R1154 §§7–12](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)把同一Hasse/伴随解变为原奇Pν/aν与偶aν(Wν−1−PνLp)，Wronskian保carry 1−w^(p−1)Pν²；全部读取≤p−5。首标签H_p0准确为q_p(2)=Qν=Hν−½Σ[w²s]Pν⁴ H_s；minor0准确为Cν(Qν)+(3/8)Bp−3D2=0。Cν为完整二次多项式，D2只取Pν⁸至(p−5)/2的部分和。
-
-[新探针回执](notes/2026-11-28-new-weighted-Legendre-probe.md) run46094809839/job140823622844只用新1000<p<1100窗口；p1019的q724≠Q928、C(Q)828，否定无条件Cν(Qν)=0，不否定原joint条件。不扩大扫描，七个D2非零不代一般证明。
-
-同源E(T)满足T E(T+1)+(T+1)E(T)=−2(T^p−T)，primitive因子1−2^R不删。原Z_D在all actual-good相等时缺项至T^(2k+4)、最高15G_(p−3)/8单位，前两项恰原H_p/Δ_low；长零带本身未矛盾。
-
-[原spectral §§10–11](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)回收整列C_pr=Σ a_(k+1−h)b_(h−1)/(2h)!，a_l来自(q/σ(q))²安全系数。完整Newton差商D−C_prQ_grid，Euler核−(R^p−R)不给C_pr/b_k零。E的真实tanh核保Riccati首carry；g_p=−3D(1)/4−C_pr/2=−3/8∫₀¹F_pair(u,1−u)u⁻²du，积分分母全安全。g1=−15G_(p−3)/16单位，使g(2atanh x)首x^p系数含p分母；该读取不能当整形式群坐标。继续actual两根/Jacobi与首carry，不新增缺席good行、不删S0/P0或原mask。
-
-[R1154 §§13–14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原formal Jacobi的一阶参数列为−V；完整(Lν−τ²)F=(τ−τp)(jτwp−2−kτwp−1)、Green核和所有M_j cutoff均见原文/逐字归档。Darboux Eν=[Tν,wp]/p为前ν至最高ν的单位三角同构，ν!V=TνLp+Eν1；原B/U/V全部weighted一次补项和6b∂u∂标量交叉项保留。τ0/±1的清分母递推不使good-mask封闭；固定ν与变化r−1未据外形等同。
-
-[R1154 §§15–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²和完整有限Ramanujan，E2′保6a²ξp−1。四moment准确为h=−[ξp−4]E6、B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；minor=a²(v−3a⁶bu)。Sym¹/²/³唯一多项式逆保全部forcing，四权归四低jet；同Legendre无穷分支仅消无权m3的q项，m3=M30−3Bp−3/8，所以h0下真joint为Bp−3=8(M30+r3−3BνUν)/3，未反除D2。§17带符号A(1,−w)=−P、Aγ=−aξ、Bγ=−a(6+ξE2)；自足Xp=A²X+ACZ/6+C²∂H/6先保H^p再以整数权排除，其流读取a²(6∂H+kξ+ξ²∂ξ)保临界零。全部展开及端点单位沿原文/逐字归档，不替原joint。
-
-[R1161 §§1–11](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原actual-good Bol/Wilson及P/V/Q_s、η/N_R/κ尺度均付；原差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。Cartier、指定2p读取/finite-log误差与四原低jet沿§§8–9，H7截断和joint的3/8项不删。
-
-§10实际S_s核Fp P^s，adjoint号(−1)^(s+1)；opposite-parity唯一逆的源为P^(s−2)Q_s−Q_s(0)a⁻ˢw^(p−1−s)，低偶cokernel全保。原centered系数是低jets的单位三角、最高Q_s(0)仍在；这不代mask闭合。
-
-§11真一阶J_j=−PD−(j+2)DP给J_j*Y_c^(j+1)=−(j+1)Y_c^j，同c点值可升至p−1。共同源F_s=A^(s−2)θ^(p−1−s)G_(2s)皆权W=(p−1)²，q系数2n⁻ˢσ_(2s−1)(n)/(2s−1)!（p|n为0），非零且Tℓ特征ℓ⁻ˢ+ℓ^(s−1)=ℓ⁻¹(ℓ^R+ℓ^(1−R))。只取actual-good s构成真实Hecke稳定源，未补mask。原有限Gaussian flow得偶C_s(τ)，τ=ξ²，m=(p−1)/2，Z=a⁴κ²η²=−η²/(12a_G)。完整原差恰−N_Rδ(2s−1)!(Z−Z′)[τ^(m−1)]C_s/(1−(Z+Z′)τ+ZZ′τ²)。故不同允许点共同纤维恰全部good的该余核0，S=0/ZZ′=0与两twist保留。s2 affine单位仍须原出现条件。待付是此余核真正不可能，或真实作用其上的操作；全局Hecke稳定不使Gaussian单点jet核自动稳定，不能横向微分点值。
-
-
-## O3：固定低权 cohomology 与原 Igusa 投影
-
-完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。
-
-## O4：原 Abel 像与真正高度
-
-[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md) 的实际 Q 简单商 C 已有 dim=2f、rank=f、MW=F₀β、原 c₁ Abel 首 jet 非零；未付 p 整首项赋值/统一半径，须同 β 的 Coleman/晶体两列和尾项。R1010 原 X₁ 非CM投影非挠（全 p≥10¹⁸,p5mod6；p11mod12可431），不能移到变化 X_d 或代候选排除。
-
-R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
-
-## O5：原固定 Y 的有效断点
-
-R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
-
-## O6：其它全局路线与永久边界
-
-完整旧分支见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
 

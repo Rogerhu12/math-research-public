@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原未分歧PD收缩与CM矩的实际系数（已证明）**：[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原43格各槽的log cone有完整显式SDR，只读normal0和t+k并保γhp carry。原d4/8矩实化为binom(d,k)b_E^kG_(p²−1−pd+(p−1)k)/(k+1)，平滑因子精确消去；中央值另保全部有序gauge和Z=𝔟(A,A)−H。继续原完整最高项求和与全局减法。
+
 - **原Steinberg primitive的整syntomic第二槽（已证明）**：[R1166 §§14–18](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)实际β=Li₂†+AB₀+J给d(0,β)=−cup，并以h_R=AB−β锁原有序Frobenius号；完整整尾、线性carry和共同log source的三个坏角均付。先在未分歧universal全塔锁同根后pullback；全27项/原权/同陪集中央求和继续。
 
 - **原Gaussian全部行的同权Hecke源与两点余核（已证明）**：[R1161 §11](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)真实一阶运输保同一c点值，全部actual-good行进入权(p−1)²的明确Hecke特征形式；原差完整缩为同一二阶Cauchy分母的指定系数，Z=−η²/(12a_G)消尽临时尺度。保持原mask和Gaussian单点jet核的未付稳定性，继续实际余核排除。
