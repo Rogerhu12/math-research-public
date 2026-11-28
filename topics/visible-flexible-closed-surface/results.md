@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R280：R262完整闭族的大平领新场](results/R280-complete-R262-ambient-cuff-enlargement-and-new-fixed-target.md)（2026-11-28）：全空间C²微分同胚将真cuff扩为.32、Jacobian>21/100；实际新g约.159，首次943位置0接受，不借旧精度/厚度。
+
 - [R284：整角圈准确E=1和两端真实两jet的构造](results/R284-exact-unit-material-meridians-between-both-true-port-families.md)（2026-11-28）：真材料弦长余量>.0881882；正时长单位方向精确闭合三维位置。F/G、浸入和厚度未付。
 
 - [R285：完整真实无限尾二次模的全闭一阶等距弯曲](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md)（2026-11-28）：正半径椭圆型回路从任意外端直线命中中央反射条件；实际闭图应变准确为正二次量。

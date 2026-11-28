@@ -10,7 +10,7 @@
 
 全G10使用958径点、128+192角网格、4291840物理行；G11使用668径点及256错移角，其中540径点不在训练。旧G2/G3漏峰及失败已经登记，不把其排序或较好观察转借给新输入。
 
-- 原固定g、87α新g设计及冻结design3的已执行各态保留，不重做旧求解。当前实际输入为准确H65/HF64全位置、新gap.92及新材料总长/二维材料钟；每支各自固定g后才计真实收敛。
+- 原固定g、87α新g设计及冻结design3的已执行各态保留，不重做旧求解。当前输入已扩至真实正解析中央p32、实际Γ95与全XYZ，真实材料单位速端位构造，以及保原无限二次模的新短前缀；每支各自固定g后才计真实收敛。
 - [冻结α10后四个真步](notes/2026-11-28-2ecf-polar-frozen-steps-01-04.md) 有自己的own计数；[M24→32真实频率扩充](notes/2026-11-28-2ecf-frozen-alpha10-first-Fourier-refinement.md) 保固定g和所有径向函数，零嵌入baseline相同，首步metric稍降而曲率变坏，均如实记录。
 - [R254锐下界](results/R254-sharp-fixed-field-warp-radius-floor.md) 和实际见证表明当前保存场仅改目标半径远不足。新的输入先锁原前缀目标、只放后缀36α；另进一步固定整个已有较小误差的前缀位置及两阶端口、只动后部位置，保全部原物理残差/几何条件，另立baseline和接受计数。这些都是明确新构造，不能冒原全空间求解或连续完成。
 
@@ -25,6 +25,14 @@
 [R274](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md) 的整圈最优目标和两个真实场的严格剪切见证证明，只自由调径向长度/角半径不能消除当前约 .1 的误差。继续改变完整位置及真实二维材料识别；同 g 的 6615 位置空间已经实际扩充至 14820，新旧独立观察继续分开，不把训练峰当连续证书。
 
 [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md) 已给准确混合 K 圆参考及全闭 reach，但 [R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md) 已证明它的有限阶抛物圈和真实平尾仍导致正则 gap 一阶退化。非零有限试验分别保留，当前进一步从 R262 的真实非圆近等距场更换输入继续；这不重做原基解组成，也不把原 reach 和精度借给新幅度。
+
+[R281](results/R281-positive-support-central-cylinder-at-full-gap.md) 的新正解析曲率半径中央与 [R283](results/R283-nonelliptic-accurate-rulings-global-reach.md) 的六张真实 Γ95 母线环带分别有连续全角结论；后者包括内凹入口和全部非局部点对，p32原长reach≥.222。完整H65各格、实际端口角对齐和与后缀/帽的跨片仍继续。真实p32完整位置在适配支撑平面下已作全G10求解，不能据离散held恢复便转借旧全闭reach。
+
+[R284](results/R284-exact-unit-material-meridians-between-both-true-port-families.md) 付原材料长度上准确E=1和整角两端全部真实两jets，F/G、浸入及厚度未付；其正时长高频构造与另行优化的低曲率单位球向场不同。后续还释放长轴翼的真实端口和材料测地线控制，保真实角/径求值。
+
+[R285](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md) 由原真实无限尾证明全闭非刚性C²无穷小等距弯曲；有限幅X+τV的全闭误差准确为正二次量，故还需真实非线性消项和强尺寸。当前短前缀/外缓段的完整非零态及17046个深径原生观察继续，不能用较稀独立组漏掉的曲率峰替代深表。
+
+[R280](results/R280-complete-R262-ambient-cuff-enlargement-and-new-fixed-target.md) 给原R262整闭嵌入的大平领输入，但新g约.159且首次943位置0接受。下一大领输入改为真实无限尾整体相似缩放、准确新的接圆、重新设计低高度外连接；小帽δE上界仍需通过实际大固定帽改变。不能将旋转参考的κ<6当作非圆整场厚度。
 
 ## 2. 强目标最终必须同时具备
 
