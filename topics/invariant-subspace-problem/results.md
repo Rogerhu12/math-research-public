@@ -18,7 +18,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-before-hk-unique-Q-1860-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-before-Phi-392-new-Vlow-Newton-1900-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：正确Phi三个真实头的例外权支持至多392](results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md)：新H28 QQ不可约总28与旧corrected overlap头H14非零总14，纸证互素/复零维交/Bézout392；三头同零只可能在该有限交，外部有18生成模型。只收紧例外权支持，全部几何纤维与独立尺度保，无新执行。
 
 - [R150：正确碰撞整个Delta零分支的有限DVR原单位终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)：eb63f唯一2.70292276秒/0，两完整谱域在p1009首个合格点返回倒z首一3与真E1的九源单位。由同域u/Q整性、有限模/Nakayama排全99/300嵌入，合旧三小因子及幂次/CRT闭整个当前Δ0；Δ非零及普通ISP保留。
 
@@ -79,17 +83,3 @@
 - [R150：正确Phi的完整个别N/P、全NV及二十七列I10](results/R150-appendix-unit211-Phi-zero-corrected-individual-NP-full-NV-I10-and-two-decics.md)：四原值行、八动作列、两个λ10的正式原身份和完整实际来源；16.083766749秒/0，全部头零纤维保，非有限/空。
 
 - [R150：正确Phi个别N/P与完整NV的实际返回](notes/2026-11-28-unit211-Phi-zero-corrected-individual-NP-full-NV-four-original-rows-8542-actual.md)：16.083766749秒/0，四原行与十二动作、27辅助列均返回；两完整原cofactor给λ10必要式，总次94/98，所有头零纤维保，未排空。
-
-- [R267：明确分离块选择的实际来源费用发散](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)：同一合法构造对每个固定正有理t，||YN Pt||沿偶切口趋∞且||QN||全切口趋∞，无强收敛子列；证明以有限前缀加原张量尾保住范数，只排这一选择。
-
-- [R150：全 W 伴随式的五条原纯三次实际返回](results/R150-appendix-unit211-W-whole-adjugate-five-original-pure-cubic-conditions.md)：4.776389191秒/0，五式均非零且几何总次恰3，18矩阵坐标与完整原四/六源全返。整个raw行列式零面和原十一式保留，未作新投影或排空。
-
-- [R150：整个正确 Phi 的非零纯权关系与完整规范维数≤1](results/R150-appendix-unit211-Phi-zero-corrected-nonzero-weight-support-and-whole-dimension-one.md)：固定12阶行列式F∈I6，首点mod1009为256，故F非零且权总度≤444；保全部434特殊权与完整Gram/孤立列有限恢复，仍允许曲线分量。
-
-- [R150：全 W 原伴随矩阵的五个纯 lambda,T 三次新输入](notes/2026-11-28-unit211-W-whole-adjugate-five-pure-cubics-original-return-8542-input.md)：原伴随行与全域f恢复给五条全图必要三次，不倒raw行列式；原十一式及全部头零面保，唯一首次180秒4GiB待actual。
-
-- [R150：全 W 同一 f 的十一条纯 lambda,T 原条件实际全返](results/R150-appendix-unit211-W-same-f-eleven-pure-lambda-T-original-conditions-complete-return.md)：6.894556505秒/0；I6/I11双向、完整加权与个别NP、十一式几何度4/3/3/3/4/4/4/6/6/6/5，71权分母及853精除全返，原纤维仍开。
-
-- [R150：F99 首次整个常数域 u-gcd 的真实截止与冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)：180.077303773秒118780KiB/−14；仅原P单式三次规范化完成，联合P/M gcd与后继均未返，整个F99/F300保。
-
-- [R150：正确 Phi 的两六次首项及 434 个共同权支持](results/R150-appendix-unit211-Phi-zero-corrected-two-sextic-heads-434-common-weights.md)：实际2.242327711秒/0，两整QQ残余互素；用独立全图u单位去除u后，H31/H14给≤434权长度。所有特殊权原纤维保留，界外固定权长度≤18。
