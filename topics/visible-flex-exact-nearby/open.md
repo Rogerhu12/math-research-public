@@ -147,7 +147,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 此前全部运行、完整球/SHA、失败/unknown、参数/units与scope保[658c原open第8节](https://github.com/Rogerhu12/math-research-public/blob/658c31092cb0995bfc4a52ec3eded7244edf9231/topics/visible-flex-exact-nearby/open.md)及递归原件；第1–7节义务不撤，成功旧目标禁重。
 
-- SL唯一45917913526/1，05:26仍signed trace；PS完整充分门64.097636/64.855555 false不推奇异，旧积分禁重。
+- SL45917913526/1已结束，signed对称部upper约30027.043165344665；与PS64.097636/64.855555都未过低逆门，不推奇异。真low193局部flow/原边界Riccati另推进；旧积分/trace禁重。
 - TCXV45928452441/1已结束：2677/7724完整cells、连续1605，原三片游标1605/3788/6000。新[TC2677入口](notes/2026-11-28-TC-complete2677-union-continuation.md)原owner/math完全不变，只续5047缺格；旧2677/matrix/waist不重，negative/positive96仍待。
 - UDRC21 45933303391/1于04:18:42全21成功，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)给原Θ96square逆<12.588、lowerror≈.316981860、ρ≈.799597509<1。TQ实际坐标同构/kerΘ图可用，完整high反馈PKE96T^-1ΘP保，非physical/fullSchur。ASR/IR/OT whole/巨旧误差不删、不重科学。
 - [DBRA](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)：DWTB9 45935081577/1于04:35:55全9成，e_w∞≈.347099250/e_w2≈.064636867，whole row eR≈.857445102，宽误差完整保。BNC45941963989/1恢复index路径失败、0新目标；[新native-paths入口](notes/2026-11-28-BNC-native-path-recovery.md)仅修原文件定位，原7目标/四whole父均保；全G/a相位及joint/alias/quadrature/composition费不删，PO配对不冒完整Θ列。
@@ -160,6 +160,4 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 环境失联后按根规8仅小文本GitHub集成，每次最新main核两README，非force拒旧父即重base；私库进行中/readSHA见H。第6批metadata45940225760/c92c87d9仅新128无引用旧JSON空白，真实net736134B，科学0。
 
 
-[ACT：selected core 的完整 C1 锚传递](results/R147-supplement-selected-core-C1-anchor-transfer-and-weak-height-ports.md)已成：仅同 Qδ 的[b=.18,L=.9]，实际 L 三端口(A0,A1,B1)给 a0≤A0+3.148e−8、a1≤A1+4.312A0+3.6461e−5、b1≤B1+1.950541A1+12.205365A0+1.41e−4；完整原弱窗四行新表与 YL/KL 准确 dual 同付，det−1 轴向负号保。19新组合全过，旧科学0；R→L cap/实际L端口、真TC全源和periodicity仍独立，C0不当C1。
-
-RA已构造 actual M 同轴 R 锚：A0R<1e−12、A1R<2e−12、B1R<5e−20，真mean/单λ/独立world tilt保；10新组合全过。R→L须实际cap状态/原角桥，禁止core界外推；完整证明见results中RA。
+[CW实际cap锚](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已补RA→L→b：b端a0<.002235/a1<.015072/b1<.04748/p0<.004288；actual GW角向式保raw E/P缺陷，未由C0硬推C1。原弱窗新系数94600/6693/3024/8907。固定整个exterior的NP particular真实Kb=Yb=0，高度列(-.02547,-.02513)、逆<40；general varying端口、真实L曲率match、完整finite/high/ν Schur仍待，cap C0 .000142未达最终1e-4球。原ACT/RA证明及先前完整H保留。

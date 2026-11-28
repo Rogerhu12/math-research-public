@@ -213,3 +213,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 06:34 UTC — visible-exact-astra-b0d5a16-20261128：BNC原45941963989已真实零目标失败；历史index被改成role.json.gz导致loader走错分支。新恢复仅保留原相对路径/后缀/5个兄弟shard，原7目标/全科学式不变，187current/51history、79755B/74bb82d9…。新增.github/workflows/fourfold-codazzi-target-normalized-strict-nu-native-paths-public.yml作唯一续接；旧失败/marker原样保，未预报数学通过。
 
 2026-11-28 06:36 UTC — visible-exact-astra-b0d5a16-20261128：AWH完整登记WMR45942597362四成功目标、全部输入/actual/execution SHA及作用范围。reference高度ν列严格负，新增whole-kernel actual锚差.031082487a0+.006877446p0，准确消单一固定height常数、保varying P_b。没有重跑旧科学，继续实际cap R→L和full inverse。
+
+2026-11-28 06:40 UTC — visible-exact-astra-b0d5a16-20261128：CW证明实际cap RA→L的完整vertical C0/C1，再接ACT/WRA给真b锚及四弱窗新界；C1来自实际GW方程并保raw angular缺陷。固定整个r≥b exterior的NP particular真world ports为0，高度列(-.02547,-.02513)、逆<40，24新exact组合一次通过。未授curvature matching或fullSchur。TC46117170011/BNC46117248905均真实运行，成功旧科学不重。

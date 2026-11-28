@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CW：实际cap锚及固定外部ν高度](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)：RA→L由真GW角向式保raw缺陷给C1，再接ACT得b端a0<.002235/a1<.015072/b1<.04748/p0<.004288；原弱源receiver94600/6693/3024/8907。明确固定全exterior的NP particular高度列(-.02547,-.02513)、逆<40。24新有理比较全成，L曲率match/general ports/fullSchur/最终1e-4球仍独立。
+
 - [AWH：完整reference物理高度实际成功及真实锚预算](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)：45942597362/1四目标全成，完整高度ν列[-.0253702,-.0252298]严格负；以真whole kernel给actual锚差<.031082487a0+.006877446p0，单一height常数由Πg=0消去，独立varying端口P_b保。非full Schur；旧四目标不重算。
 
 - [IL：完整单腿inverse lift误差与三导入口](results/R149-supplement-complete-inverse-density-lift-derivative-bounds.md)：原169-cover/Wiener两条129系数整件及mean恢复，side1给真K48∘Aminus；40当前/6原native，四目标Ep/P1/P2/P3，完整transport/root/selected费用保。首入口已齐，0旧flow/KAM/fit/DFT/norm重算；实际待run供DB和96行。
