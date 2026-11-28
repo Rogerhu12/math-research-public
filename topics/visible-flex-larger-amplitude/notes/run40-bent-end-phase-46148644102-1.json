@@ -1,0 +1,214 @@
+{
+  "schema": "visible-larger-run40-actual-full-dynamic-bent-body-v1",
+  "run_number": 40,
+  "handoff_marker": "<!--run40-bent-end-phase-->",
+  "run": "46148644102",
+  "attempt": "1",
+  "source_commit": "8561fc2b7a68f1cbede10f9421acbee8bd40b6bf",
+  "initial_readme_checked_commit": "cd52bde3d4104ff72e4fb1ec96a8e9bfc70a0576",
+  "command_identity_sha256": "fbba49570bf0cec1463a4dbecbf38ab3700f1c48901636542e02b73646c3a2b0",
+  "request": {
+    "path": "topics/visible-flex-larger-amplitude/computations/run40-bent-end-phase-request.json",
+    "bytes": 16626,
+    "sha256": "7191ea67e6c3c33a7a5b87974bd27878ebb86dbaa5e39a85c8e2ff3b88b9facc"
+  },
+  "scientific_inputs": {
+    "script": {
+      "role": "complete Run40 direct finite-phase physical shape search",
+      "name": "bent_end_phase.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py",
+      "bytes": 14744,
+      "sha256": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701",
+      "git_blob_sha": "269265194f8f7230ba9d46ea501efb8d838e52a6"
+    },
+    "physical_fields": {
+      "role": "complete original closed axial geometry, accurate jets and fractional phase directions",
+      "name": "bent_end_phase_fields.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase_fields.py",
+      "bytes": 10301,
+      "sha256": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+      "git_blob_sha": "bb38c6577c143a2cebb7fe76d5cd9a24eb9fa1fb"
+    },
+    "parameters": {
+      "role": "complete dynamic time grids, whole chart and physical budgets",
+      "name": "bent-end-phase-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-end-phase-design-v1.json",
+      "bytes": 4374,
+      "sha256": "d9a5c7e543b187fc6ce00cad5b0ed1661a74ad6c9054d623b0f51675e708b4bd",
+      "git_blob_sha": "aab93de98359b55bc9327659e8ee4b143e15bc38"
+    },
+    "r740_source": {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    "r742_source": {
+      "role": "complete R742 tilted seed analytic two-position-jets six-field provider",
+      "name": "r742_tilted_disk_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    "r744_source": {
+      "role": "complete R744 extruded closed physical body atlas and six positional derivatives",
+      "name": "r744_extruded_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd"
+    },
+    "r746_source": {
+      "role": "R746 original full axial-translation closed source and proof",
+      "name": "r746_axial_translation_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py",
+      "bytes": 5465,
+      "sha256": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+      "git_blob_sha": "f17399df53201a251da42198019f1c5a229baa62"
+    },
+    "r747_source": {
+      "role": "complete R747 offset-ring arclength transport on closed physical body",
+      "name": "r747_offset_arclength_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py",
+      "bytes": 7820,
+      "sha256": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+      "git_blob_sha": "b9af0788b2ffea92bd6755d05a43fdb2509007f9"
+    },
+    "geometry_source": {
+      "role": "complete R748 physically bending developable cap germs on the closed axial geometry",
+      "name": "r748_developable_axial_caps.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py",
+      "bytes": 1809,
+      "sha256": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46",
+      "git_blob_sha": "5d60e4e2683faa5564072f120280421d32e515bf"
+    },
+    "atlas": {
+      "role": "Run39 actual closed material atlas and field anchoring data",
+      "name": "bent_body_atlas.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac"
+    }
+  },
+  "actual_frozen_inputs": {
+    "script": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py",
+      "git_blob_sha": "269265194f8f7230ba9d46ea501efb8d838e52a6",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py",
+      "bytes": 14744,
+      "sha256": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701"
+    },
+    "physical_fields": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase_fields.py",
+      "git_blob_sha": "bb38c6577c143a2cebb7fe76d5cd9a24eb9fa1fb",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase_fields.py",
+      "bytes": 10301,
+      "sha256": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba"
+    },
+    "parameters": {
+      "original_path": "topics/visible-flex-larger-amplitude/computations/bent-end-phase-design-v1.json",
+      "git_blob_sha": "aab93de98359b55bc9327659e8ee4b143e15bc38",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/computations/bent-end-phase-design-v1.json",
+      "bytes": 4374,
+      "sha256": "d9a5c7e543b187fc6ce00cad5b0ed1661a74ad6c9054d623b0f51675e708b4bd"
+    },
+    "r740_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f"
+    },
+    "r742_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd"
+    },
+    "r744_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24"
+    },
+    "r746_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py",
+      "git_blob_sha": "f17399df53201a251da42198019f1c5a229baa62",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py",
+      "bytes": 5465,
+      "sha256": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef"
+    },
+    "r747_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py",
+      "git_blob_sha": "b9af0788b2ffea92bd6755d05a43fdb2509007f9",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py",
+      "bytes": 7820,
+      "sha256": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac"
+    },
+    "geometry_source": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py",
+      "git_blob_sha": "5d60e4e2683faa5564072f120280421d32e515bf",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py",
+      "bytes": 1809,
+      "sha256": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46"
+    },
+    "atlas": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac",
+      "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102"
+    }
+  },
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py",
+    "--params",
+    "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/computations/bent-end-phase-design-v1.json",
+    "--geometry-source",
+    "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py",
+    "--out",
+    "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/field"
+  ],
+  "runner_scope": "public ubuntu-latest 4 vCPU 16 GB",
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "machine": "x86_64",
+  "system": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43",
+  "actual_logical_cpu_count": 4,
+  "actual_cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "setup_python_step": "success",
+  "run_started_utc": "2026-11-28T13:14:57Z",
+  "phase": "installing-declared-numerical-dependencies",
+  "terminal": false,
+  "child_started": false,
+  "child_pid": null,
+  "child_returncode": null,
+  "latest_observed_scalar_line": null,
+  "scientific_summary": null,
+  "whole_runner_field_files": null,
+  "scientific_sampled_success_inferred_by_launcher": false,
+  "exact_metric_or_global_geometry_inferred_by_launcher": false,
+  "dependency_command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--no-input",
+    "--only-binary=:all:",
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ]
+}
