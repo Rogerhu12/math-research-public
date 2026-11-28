@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R272：实际完整 HF 校正核与固定非对称帽的全相位嵌入及两项强变化量](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)（2026-11-28）：统一势支付所有跨片，真实加帽闭族 $D<3.076642$、$\delta_{\rm hold}/D>.2137$、$\delta_E/D>.0532$；强目标的度量精度与 reach 仍待。
+
 - [R271：真实gap.92前缀与两尾帽三分量的全部点对](results/R271-gap092-three-complete-components-and-all-pairs-reach.md)（2026-11-28）：给定A/Z两个整窗口，全相位集合reach≥.097、held≥.64、δE≥.1609；三分量仍有四条边界，两连接带另付。
 
 - [R262：原G12实际闭图达到原容差及基础数值完成](results/R262-original-G12-complete-tolerance-and-base-numerical-solution.md)（2026-11-28）：真cuff统一后全前缀+18552尾+内领+固定帽，全时U<2e−9、reach/D>.031099372、held/D>.052783098、真实下降>9.79415倍及三STL；强比例继续。

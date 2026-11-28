@@ -50,12 +50,14 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 <!-- 2ecf-HF-both-material-clocks --> [新g的双材料钟实际接受](notes/2026-11-28-2ecf-strong-hf-two-material-clocks-on-new-metric.md)在冻结实际源上使G11 .12160747→.10837466，仍κ28.779。
 
+<!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)：H65/HF64+原W/R205/R210完整闭面全相位嵌入，实际两强变化量>.2137、>.0532；精度和整闭 reach 接续。
+
 ## 工作位置与接续
 
-公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R271已付三分量全部近点；R272留给exact统一势全核/加帽几何。优先继续真实强度量/曲率求解，几何新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
+公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R271已付三分量全部近点；R272已付原HF64全核/两非对称帽的嵌入与强形状比例；R273留给strong实际上弯盘/加长喉/全空间变形，R274留给m12全角共同目标界。优先继续真实强度量/曲率求解，几何新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
 源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:28:52 UTC；已读公开 main `6937d32bffaa5a7426d4d1ab934bc6516542fa04`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:32:03 UTC；已读公开 main `768a3b8669e5b25745d6114750be368ecb400008`，根/课题 README 逐差无变化。
