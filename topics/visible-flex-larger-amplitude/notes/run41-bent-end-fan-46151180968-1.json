@@ -250,39 +250,45 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T13:45:29Z",
-  "phase": "candidate-return",
+  "phase": "live-scalar",
   "terminal": false,
   "child_started": true,
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 15,
-    "utc": "2026-11-28T13:51:41Z",
+    "ordinal": 16,
+    "utc": "2026-11-28T13:53:28Z",
     "original": {
-      "event": "stage",
-      "stage": 4,
-      "point": "333220e4f96cb1dde37e121bf0a1e3b97b121f6db022eabb081b2433afdc5e1b",
-      "score": 26.648129096451086,
-      "gram": 0.38983100248880337,
-      "K": 362.9413119802532,
-      "support": 0.031248648895983444
+      "event": "solved_knot",
+      "stage": 5,
+      "index": 1,
+      "phase": 0.39269908169872414,
+      "point_sha256": "133bc7b840792d7de8f0b091e3ea8bca0fd00e284add2d7df148442379207f5c",
+      "nfev": 60,
+      "njev": 58,
+      "status": 0,
+      "cost": 0.004964093878154534,
+      "optimality": 4.204824251950833e-05,
+      "adjoint_abs": 9.194034422677078e-17,
+      "directional_fd_relative": 1.0264696819579563e-07,
+      "train_gram": 0.10758729134779747
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run41-bent-end-fan-46151180968-1/field/summary.json",
-      "bytes": 25226,
-      "sha256": "166c615a6e9c35674d6b9b5f8da5522e231264a1ad589bd2a4277eee4a073672"
+      "bytes": 25223,
+      "sha256": "f0f90ff59aa6fec8b458e5e7121bca81efba5cd8142ba62d2ef4b4a26bfc427d"
     },
     "complete_small_json": {
-      "elapsed_seconds": 363.26620878,
+      "elapsed_seconds": 470.4936513,
       "in_progress": {
         "call": 1,
-        "cost": 0.013744746912497987,
+        "cost": 0.03560492318753355,
         "design": "omega-shortened-cap",
-        "knot_index": 1,
-        "phase": 0.39269908169872414,
-        "point_sha256": "42f4ffa52d9d9b2559e520ca90ee4dda0642f288c68acfeb1fed290f24386c3f",
+        "knot_index": 2,
+        "phase": 0.7853981633974483,
+        "point_sha256": "26ebb8fb13c7b7e865745244ebf881308232ddb67a8f0a427bcc326e826ab1b7",
         "stage": 5
       },
       "numpy": "2.3.5",
@@ -1824,6 +1830,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:45:38Z",
-  "observed_utc": "2026-11-28T13:51:48Z",
-  "original_scalar_line_count": 15
+  "observed_utc": "2026-11-28T13:53:54Z",
+  "original_scalar_line_count": 16
 }
