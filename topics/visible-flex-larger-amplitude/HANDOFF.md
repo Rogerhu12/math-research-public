@@ -43,7 +43,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 <!-- visible-larger-parallel-35:start -->
 Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46137993293)；[全阶段记录](notes/2026-11-28-public-actions-46137993293-1.md)。running；已返2，exit=未返。
-并行35规则核查：2026-11-28 16:42:34 UTC，真实pull至`4b6c3323ea40174b88b517d92c5a9af6cad9ed72`，双README无变化。
+并行35规则核查：2026-11-28 16:47:36 UTC，真实pull至`d4bcf94bb6f3a793d3daeb5ac1e4a5d51787cc00`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
 <!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
