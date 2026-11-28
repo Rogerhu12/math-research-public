@@ -1,16 +1,20 @@
 {
-  "message": "ISP R150: start the new exact W fifteen-by-two original presentation and fixed pair targets",
-  "parentCommit": "99c0924a78a0d3deffdc6a1b11591e5bd035623b",
+  "message": "ISP R12 and R150: prove fixed-source root ray cost and start two original Phi weight interfaces",
+  "parentCommit": "c9827ec67eda5c3825db0157455e3d6aa6a2c622",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-complement-exact-fifteen-two-columns-fixed-pairs-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-complement-exact-fifteen-two-columns-fixed-pairs-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-fifteen-two-columns.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-fifteen-two-column-first-input-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-fifteen-two-column-first-input-8542.md",
+    "topics/invariant-subspace-problem/results/R12-appendix-actual-shifted-roots-fixed-source-superpolynomial-ray-cost.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-zero-infinity-original-four-quadratics-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-zero-infinity-original-four-quadratics-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-highest-support-and-P6-head-exact-intersection-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-highest-support-and-P6-head-exact-intersection-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-d2-infinity.yml",
+    ".github/workflows/invariant-subspace-8542-phi-highest-intersection.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-root-ray-cost-and-Phi-new-interfaces-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-root-ray-cost-and-Phi-new-interfaces-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +24,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-fifteen-two-columns.yml"
+    "invariant-subspace-8542-phi-d2-infinity.yml",
+    "invariant-subspace-8542-phi-highest-intersection.yml"
   ]
 }

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R12：原移位解析根在每条完整射线上的固定来源费用](results/R12-appendix-actual-shifted-roots-fixed-source-superpolynomial-ray-cost.md)：四次幂衰减给零阶整函数及完整2π PL；全实际非零旗子商/任q≥2的每个非零固定源和固定左右正则器均超任意多项式界，严格limsup，保稀疏/随动/一般闭根。
+
 - [R150：整Phi首头上的原NV/F6最高行、七次滤过关系与21生成表示](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)：999ac首次完整返回Ce0，严格原lift付C*补图首一λ21与≤21生成；保全部C*零曲线及原个别N/P，未宣整Phi排空。
 
 - [R150：原N1的H198纯权曲线与两生成元首一平方](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)：两个全图身份及QQ不可约H198实际返回；H≠0仅新增两生成元图，首一Z²有完整原I4迹，整H0与完整N/P继续保留。
