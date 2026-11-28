@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **8d51cbfee6cc6be03277f6bf730b90482cb5d80c**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **b8d6c71eee7cfda5d632011a1b240751792e2e99**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -18,7 +18,7 @@
 
 [R643真0d9a](notes/2026-11-28-r643-1566-0d9a-rule-terminal.md)3310.24427324秒/2接受，workη2.21791e−7，3JQR已付未存。当前run46134171516/sourcebc779996先判原d1f8四分之一步，再必要重建且身份相同才跳旧整/半步；保86da/H.5188903877153482/amp1e−5/τ1、950work→1728×512fine/双位置。R618旧5400秒/0接受与Y差分15/16债留原note。
 
-R648/R650/R649/R653只消费同场全尾三jet、离解形算子和真实C²接缝，正collar/全法管仍欠。R658 M25→无穷差不代实际归一分母；R663精确原生DOP多项式/角锥/log范数/三图与短桥给12分母接口。旧FINAL无dense，0个分母已证。R668只在下一自然现场用已付对象，3%信用/单点25秒/保末读；七源与forced自己的C、原scale逐项留缺口，不重旧ODE/root/J。连续主体覆盖见待发R672。
+R648/R650/R649/R653只消费同场全尾三jet、离解形算子和真实C²接缝，正collar/全法管仍欠。R658 M25→无穷差不代实际归一分母；R663精确原生DOP多项式/角锥/log范数/三图与短桥给12分母接口。旧FINAL无dense，0个分母已证。R668只在下一自然现场用已付对象，3%信用/单点25秒/保末读；七源与forced自己的C、原scale逐项留缺口，不重旧ODE/root/J。[R672](results/R672-actual-1566-material-metric-and-curvature-coverage.md)给实际28+61样条有理差、全环Taylor primitive、带符号度量/真曲率全材料覆盖；七源、三jet及外正collar缺项仍明示。只接下一自然已有场。
 
 ## C：B030真实0449的工作容量2048
 

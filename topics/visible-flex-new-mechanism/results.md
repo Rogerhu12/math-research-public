@@ -349,3 +349,7 @@
 ## R675：同一弓形端度量的完整单位倾角响应与中央弯矩
 
 [完整证明](results/R675-central-bending-moment-for-an-infinitesimal-bowed-endpoint-tilt.md)把真实无穷小转动场与线性Gauss沿中央母线积分，单位内帽角速必须满足中央弯矩−1，并迫真实二基变化至少6.6。公开一次完整Cartesian正负对称扇区、自由内平移、全部正奇异值QR/SVD，独立径/角/联合细读、真实弯矩及条件二阶非零角预测，始终保R673同一个g+。有限列空间余距不授无限维不可解；R679已排原镜像负端，只查同支非镜像运动。
+
+## R672：实际1566场的全材料度量与离解曲率覆盖
+
+[完整证明/接口](results/R672-actual-1566-material-metric-and-curvature-coverage.md)保实际同86da的完整1566系数、512冻结均值、pre-tanh与全部post/core/forced列。28紧支与61旧五次样条按真结点并集给有理Bernstein值/三jet及字面实现差；连续全环Taylor积分支付真正均值和primitive。带符号度量门|d|+f²/ε≤ε与材料导数振荡控制网格间隙，三径向jet则给R649真实两主曲率；七原源逐字段误差缺一仍开放。旧点2.2179e−7只留约7.7821e−7总余量，没有付全七源或外正则collar，不发独立重建科学。
