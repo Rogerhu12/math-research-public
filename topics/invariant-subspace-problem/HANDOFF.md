@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 8901ab490f31958cca3a1f08c21eed676cde94ea（2026-11-28 14:21:55 UTC，Actions run46154247898实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46154247898-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 14:21:54 UTC/dda8f313adc0efd21d26121803b79eb5ec0ec79f，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 14:03 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。15:03再探，旧故障保归档。
-- **终端断开后远端已读：** 37dc6522ac7ee066d36464b6ecf3505d38d89deb（2026-11-28 14:21:27 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 8c119597428802e810e867608ad7e546abbd247e（2026-11-28 14:24:56 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Phi-D2-hk-ellhalf-1915-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Phi-whole-highest-22-1920-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，当前整个Δ0已闭。** eb63f唯一2.70292276秒/0，两首DVR点各倒z首一3/真E1九源返1，K99/K300及C1/C2/C4整纤维已闭。53d57ae新整ellhalf K2同点H=M QΔ缩放八原式/固定Q cofactor，首次180秒4GiB零依赖已派，尚无回执；无Φ/m/D逆。新纸证全Pf图原monic t³在写，不预记结果。
-- **Phi错链冻，真t0/A0/B0/fu/α0/ellhalf闭。** I6/F444/维≤1/两λ10/t三生成λ3/C77保；全六原C6跨H6/H8，H28开18生成/三头例外权≤392。完整Vlow度5/r=(5,4,4)/两t8总71/75已刊。最高三mean+R6的D2及λ1原单位纸证现刊，完整最高Loww→全权22生成稿已成待接刊；原值空性未付。
+- **Phi错链冻，真t0/A0/B0/fu/α0/ellhalf闭。** 真3mean+完整Loww+R6最高t1原单位，t0投影空；P³/ξ⁶η⁶/n¹¹及ell3/2/R6单位保全幂零。固定45行degree8满射给未几何局部化(I6,R6)全权22指定生成：t^0..7、f/V·t^0..6，旧≤392例外全覆盖。F444/维≤1、C6/Vlow两t8保；原值曲线/空性仍开。
 
 ### rankH3原ess6
 

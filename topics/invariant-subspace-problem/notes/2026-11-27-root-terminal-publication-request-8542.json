@@ -1,17 +1,14 @@
 {
-  "message": "ISP: publish whole Phi highest D2 unit lemma and first hk ell-half original input",
-  "parentCommit": "37dc6522ac7ee066d36464b6ecf3505d38d89deb",
+  "message": "ISP: prove whole Phi projective highest exclusion and twenty-two original generators",
+  "parentCommit": "8c119597428802e810e867608ad7e546abbd247e",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-D2-original-unit-ideal.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-entire-ell-half-constant-field-scaled-original-Q-cofactors-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-entire-ell-half-constant-field-scaled-original-Q-cofactors-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-hk-entire-ell-half.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-D2-hk-ellhalf-1915-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-D2-hk-ellhalf-1915-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-whole-highest-22-1920-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-highest-22-1920-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-hk-entire-ell-half.yml"
-  ]
+  "dispatchWorkflows": []
 }

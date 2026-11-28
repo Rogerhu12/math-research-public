@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi全部最高方向排除与全权二十二生成](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md)：真均值/完整Loww/R6的最高系统在整权环保幂零排空；(2,2,6)正则序列和固定45行degree8满射给未几何局部化必要代数22个指定单项式全权生成，旧392例外全部纳入。原值空性和权曲线仍开。
+
 - [R150：正确Phi最高D2与λ1的整环单位](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-D2-original-unit-ideal.md)：真三均值与R6最高图中，通过λ1⁸/T1⁸和有限幂零理想给整环单位结论；不倒物理D或原λ，不宣最高图或原图已空。
 
 - [R150：正确Phi的完整Vlow普通均值迹与两条原t八次](results/R150-appendix-unit211-Phi-zero-corrected-t-complete-Vlow-original-mean-trace-and-two-octics.md)：dec774唯一3.755020568秒/0，全部Z三系数给真Vlow总5；十八步普通降次全返r=(5,4,4)及三mean迹。两新三原cofactor全返t8总71/75，所有新头与旧斜率/H28零面保，无全权排空。
