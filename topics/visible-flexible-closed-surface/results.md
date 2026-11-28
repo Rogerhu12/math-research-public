@@ -5,9 +5,11 @@
 
 ## 新增结论
 
+- [R251：首H2实际场的局部二jet全时几何](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)（2026-11-28）：同b642保存场全487片/613子片/128角盒，实际0/584.307s；不改场而将reach/D证界由.02465恢复到>.03092835，held/D>.05278319、固定H、嵌入及含反射δE>0保持。连续metric三角界仍9.854614e−6未过，cross-Gram与同g真加密继续。
+
 - [R250：全有限尾源缝规整与同g完整几何保持](results/R250-full-finite-tail-smooth-source-regularization.md)（2026-11-28）：全部18551内部接缝以互不交平坦窗同时规整多项式源全部高阶跳，所有原节点六jets与端口保持；24块18552span实际有理计算0/472.468s。准确R245场加Q后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322、含反射δE>0；未冒新Newton接受或#5完成。
 
-- [R249：保留角向反参抵消的局部连续二jet预算](results/R249-local-material-two-jet-continuous-budget.md)（2026-11-28）：完整物理Wuu写为a²(PWθθ−P′Wθ/2)/P²后先合Fourier，保局部H/Hq/f、共同Bernstein权、整数角盒及所有系数舍入；不改场/g。非零两片74角通道实际接口自然0、12545点链式对照差4.55e−20；研究场消费待返，未称新几何合格或精确等距。
+- [R249：保留角向反参抵消的局部连续二jet预算](results/R249-local-material-two-jet-continuous-budget.md)（2026-11-28）：完整物理Wuu写为a²(PWθθ−P′Wθ/2)/P²后先合Fourier，保局部H/Hq/f、共同Bernstein权、整数角盒及所有系数舍入；不改场/g。非零两片74角通道实际接口自然0、12545点链式对照差4.55e−20；当条只登记接口；后续真实研究场完整消费见R251，不冒精确等距。
 
 - [R248：准确C2前缀支撑扩展与内部两阶端口释放](results/R248-exact-C2-prefix-support-extension.md)（2026-11-26）：旧端点改三重knot，保每个旧七knot窗口和全部旧系数字节，完整六jets准确零延拓；新内部迹映射满射，径向半带宽5及两点/每span的原Sobolev正定性已证。实际非零5292→12789接口0，756有理基/导比较准确相等；不是新研究态接受或完成。
 
