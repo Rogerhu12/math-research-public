@@ -15,3 +15,32 @@
 R732 只更换物理参考；全局等距、中央/跨圆肩 reach、实际闭合、原外场全时相和精化均未付。在纯读中，真正选择的参考输入取本次 report-save 所属 whole snapshot 和 operator metadata 文件；有缓存与 outer 点不一致、捕捉失败或缺记录时照实未知。最新报告中的一般计数可用于原统计；其数值不补该 immutable snapshot 缺角。新 actual R732/run35 各状态均为空。
 
 本包源码、参数与回读均为文本构造。生成器从固定原 34 文件和本次完整 35 binding/readies 再生四个启动文件。真实运算与日志只来自后续公开 Actions。
+
+## 2026-11-28 11:34:38 UTC — 35自身实际run、两输入与R732模型已准备
+
+本run实际为46137993293/1，job140957485768，trigger6565f666877ddd1a5bc03fe0b9e9a313f8906052。官方created 2026-11-28T11:02:46Z，研究步骤in_progress。两项原输入均实际自然returncode0；本次第一输入使用source commit2182b1ae5e1dbc43eb72595113d785a602c23c51，全部原命令/输入输出及实际参数在完整part001，未把旧run scalar结论当本次读取。
+
+自身第三步source commit2c8739ed67bac0b11332646db652f2a317e85ea5，wrapper463b4fdf9aa5aafc2ebfbfbb1874b0bacdf540cba723eef16f39a8dbbddc7ad8，PID3435。11:10:22.774017Z math_event=prepared，driver82fc9d2442094753a0fe32700cb748a3dd9be3e299d94017d03c6ad8cba92866，model726006e0e25a49c0dc2810d9e86250f669e3099905118fb237cdf9a51cd332ae，math_source4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94，target957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9。11:20:21自身normal进度指向7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、cached352、closures1620/logical failures0；这不代表初始统计或完整几何已返。accepted_directions0，初始/当前Phi、Gram、六族/K、任何trial/final、typed仍未返；索引所有缺字段错误原样保全。science未自然返回，whole pure74162仍不得提前作为已执行或排入当前队列。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46137993293-1-part-001.md",
+    "bytes": 16608,
+    "sha256": "c59b1b3dfc430397d74c431dd1d4ee99623c5830225f8d67049e80b9cd8580e0",
+    "git_blob_sha": "d2bedcdfacb2fdecabd9a793bcd31faaa6af3135",
+    "fixed_commit": "1a430eac92fc16a1e7b484c589b1205a0053afbb",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46137993293-1.md",
+    "bytes": 61470,
+    "sha256": "2d1556bb2cf9cdd58dfbf1f23914c9dcdbd9e5b502a467e647427dbb5da37a49",
+    "git_blob_sha": "eb283c1f476e7a9dc25e03971a35b63af85ced18",
+    "fixed_commit": "1a430eac92fc16a1e7b484c589b1205a0053afbb",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
