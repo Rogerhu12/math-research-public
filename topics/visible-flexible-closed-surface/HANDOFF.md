@@ -22,7 +22,6 @@ B主证明**只用Q-free G12/M48 04r1**：field5778bee4c19c6f878e2039876a9b250e9
 
 R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R235的高阶跳不排C2极限。R250规整原18551尾缝并有准确Q消费者，[M48+Q](notes/2026-11-28-2ecf-m12-actual-m48-plus-Q-full-geometry.md)是另一张物理图；现行实际nonlinear场均Q-free，不能静默换源或算作接受。
 
-
 <!-- 2ecf-total-prefix --> [完整原前缀](notes/2026-11-28-2ecf-m12-complete-original-prefix-total-Gram.md)：158 元素/2800 叶全角全时 U<1.235521e−9。
 
 <!-- 2ecf-total-tail --> [整个原内collar](notes/2026-11-28-2ecf-true-inner-collar-total-Gram.md)104片U<1.957403e−9<B；[原尾50单元](notes/2026-11-28-2ecf-tail-correlated-C4-adaptive-cover.md)已过，全部18552有限尾正三路继续。
@@ -33,19 +32,16 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 ## 后继真实 h/频率场
 
-[M64/G12全7阶段](notes/2026-11-28-2ecf-m12-m64-g12-complete-ancestor-union.md)已0，真实M48/G6父态转移，142784列、独立祖先峰5.424144e−10。h503按实热点487→503物理元素、736→784径向自由系数，194角通道共152096列；原416新准确半径与Boehm转移保原g。首LM真实SIGKILL−9未出场，原因未证；映射单带完整全normal后继保持全部行列、cross和接受规则。
-
+[M64/G12](notes/2026-11-28-2ecf-m12-m64-g12-complete-ancestor-union.md)及h503各7阶段全0。h503物理487→503、径列736→784、角194，共152096列。首LM真−9无场、原因未证；继以映射全normal保所有行列/cross并保存实际新场，不借5778几何。
 
 <!-- 2ecf-live-m12-refinement --> [h503场451481cd全7阶段真0；11178点祖先并集峰4.944023e−10，旧R236界5.41753e−5。](notes/2026-11-28-2ecf-m12-h503-all-stages-true-ancestor-union.md)
 
-<!-- 2ecf-m12-diagnostic --> [实际nonlinear梯度被动核](notes/2026-11-28-2ecf-m12-actual-nonlinear-gradient-probe.md)已0；[准确query父链核](notes/2026-11-28-2ecf-m12-exact-query-extension-parent-chain.md)已0，新h必须保完整实际祖先身份；原活动入口冻结。
 
 ## 强幅度：完整源与当前实际分支
 
 全G10有958径点×(128+192角)、4291840物理行；G11为668径点×256错移角，其中540径点不在训练。旧G2/G3漏峰已登记；G3进训练后不是径向独立。全位置12789列=87×147；所有成本、guide、原非线性接受与独立观察保留。R219要求按**全闭D≤3.2**支付held≥.64、δE≥.1609、reach≥.097；guide held.65、κ9.5更严，不能删行改目标。
 
 [R254](results/R254-sharp-fixed-field-warp-radius-floor.md)/[R255](results/R255-sharp-two-angle-invariant-target-metric-floor.md)给当前固定场改目标半径/共同SPD的必要下界，不排改变位置的新构造。原g/87α设计/冻结设计g/仅后缀36α/整个prefix位置锁定是不同实际问题，own计数分别记。
-
 
 <!-- 2ecf-live-g10 --> [原g完整16态](notes/2026-11-28-2ecf-original-recovered-actual-15-16.md)已自然0，G11 metric .210469、κ23.223、held .724472；原失联步无结果未计。
 
@@ -67,9 +63,10 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-r265-polar --> [R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)：Γ95至R205准确原极坐标连接全域嵌入，六 jets 接 R261；独立目标与全闭 reach 继续。
 
+<!-- 2ecf-r266-ray --> [R266](results/R266-accurate-polar-ray-metric-and-radius-variation.md)：原侧射线单调高度时径向TV缺口>.19574768；已有XYZ通过高度转向绕开此前提，仍未全域等距。
+
 ## 工作位置与接续
 
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
-
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:36:32 UTC；已读公开 main `aedee91309ed3c0c4f43f1c95ca933d3c4dcffdb`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:37:28 UTC；已读公开 main `b259e8b84ebfb0680556463c4841a1250e2ecbdd`，根/课题 README 逐差无变化。

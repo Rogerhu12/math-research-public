@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R266：准确侧射线原度量与必要半径总变差](results/R266-accurate-polar-ray-metric-and-radius-variation.md)（2026-11-28）：原加权场误差>.93572118；固定同射线半径的任何单调高度和径向目标仍>.43150655；过 B 须增加径向 TV>.19574768。
+
 - [R265：准确 Γ95/R205 正高度极坐标连接整环带嵌入](results/R265-accurate-weighted-polar-connector-global-embedding.md)（2026-11-28）：六角时钟、自由质量及全闭面积下界均已连续支付，收两端准确六 jets。
 
 - [R264：固定原 cut 排除保持准确 coast 至 .081](results/R264-fixed-cut-excludes-preserved-coast-at-point081.md)（2026-11-28）：精确单位速经线、曲率 ≤1/.097 的必要余长缺口 >.00012322；不排新 S 或新端口。
