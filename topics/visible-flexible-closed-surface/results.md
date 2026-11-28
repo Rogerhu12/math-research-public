@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R303：短相位真端口、两斜附件及完整闭面](results/R303-two-oblique-rigid-attachments-on-a-complete-short-phase-surface.md)（2026-11-28）：全时闭C2嵌入，两强形变比>.20936/.08039；薄件 reach<1/320、关闭段同g误差>2.5，继续真实厚件与度量修正。
+
 - [R302：真实弯厚臂、整个回原中央带及新握持](results/R302-two-true-bent-thick-arms-and-the-whole-tapered-central-belt.md)（2026-11-28）：两种完整实体，中央带含真实边口全相 reach≥.115、严格同g；高臂 diamH>1.25。整闭外连接仍另付。
 
 - [R300：直接物理坐标的连续形状界和六次同度量实步](results/R300-direct-unclamped-physical-tensors-and-six-fixed-metric-steps.md)（2026-11-28）：两完整嵌入从自身坐标支付两项强形变比，末态独立材料 knot 误差 .11483、曲率 20.389。

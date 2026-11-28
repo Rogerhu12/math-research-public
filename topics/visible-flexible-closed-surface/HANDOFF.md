@@ -44,9 +44,11 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-r302 --> [R302](results/R302-two-true-bent-thick-arms-and-the-whole-tapered-central-belt.md) 两实体厚臂、轴向回原中央及真实边口已证全时 reach≥.115、严格同g；新整高臂可点点固定且 diamH>1.25。完整外关闭段的度量、厚度与全像比例另付。
 
+<!-- 2ecf-r303 --> [R303](results/R303-two-oblique-rigid-attachments-on-a-complete-short-phase-surface.md) 真M383/H65的整闭嵌入、完整固定帽和两个薄附件，两强形变比>.20936/.08039；该薄件 reach<1/320、关闭段同g误差>2.5，继续用R302厚件及真实XYZ求解。
+
 ## 工作位置与接续
 
-**2026-11-28 14:34 UTC 执行环境失联，正在改用公开 Actions 继续计算。** 执行器失联前最近成功推送为 `097816fb574a0b21b6759bedfa60a623b3e34327`；R298 完整厚度证明已推 `26e4818cf52c2a4504a6a91a3c4e8bba6400ead7`。R303、m12 V38/V39 的原冻结稿与实际系数留在失联环境；R302 完整证明与可重算新版本已通过小文本 API 发布。现用小文本 GitHub API 恢复新版本源码、证明及计算入口，不冒称原字节。三代理仍为 Astra/ultra。R284–R286/R280 等已登记旧方向见 results/open 历史，不重做。
+**2026-11-28 14:34 UTC 执行环境失联，正在改用公开 Actions 继续计算。** 执行器失联前最近成功推送为 `097816fb574a0b21b6759bedfa60a623b3e34327`；R298 完整厚度证明已推 `26e4818cf52c2a4504a6a91a3c4e8bba6400ead7`。m12 V38/V39 的原冻结稿与实际系数留在失联环境；R302/R303 完整证明与可重算新版本已通过小文本 API 发布。现用小文本 GitHub API 恢复新版本源码、证明及计算入口，不冒称原字节。三代理仍为 Astra/ultra。R284–R286/R280 等已登记旧方向见 results/open 历史，不重做。
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前并行：strong 的 R302 真厚臂及完整法管；exact 的 R299 真383/H65端口到整闭面的实际XYZ修正；m12 的 R301 新正径向g、2400XYZ及真实回返层脉冲。root另启 R262 真小输入 eta=1/8192、全前缀XYZ+正g，已3实际步从9.19e−5到1.0548e−5，独立观察器因137未完成；需分批内存求值后继续，不算完成结论。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
