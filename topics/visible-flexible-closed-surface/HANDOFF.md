@@ -52,4 +52,4 @@ root独占main；三子代理exact_analysis_ultra、strong_geometry_ultra、m12_
 
 
 私库本机恢复后真实pull：2026-11-28 17:34:52 UTC，已读6218f3aff1a3ee37d4fab13cfa4f7ebf39fe03ff，私根blob1cc6a185…无差异，QUEUE本行仍进行中。
-<!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 18:01:21 UTC；公开已读 236eb82e3f19c1b9014d83578ddaa045b6532564，根/课题 README 无变化。 私库真实 pull 2026-11-28 18:00:35 UTC、已读 03de4e5fc794b0840c296c884f5a76d6a3b45bbf，私根无变化。
+<!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 18:03:02 UTC；公开已读 57ea1cf205b4a16a4234ee466088c749914f293d，根/课题 README 无变化。 私库真实 pull 2026-11-28 18:01:26 UTC、已读 9df430906fa6cd2ffdd3818a70d4b5c77f82b2e7，私根无变化。
