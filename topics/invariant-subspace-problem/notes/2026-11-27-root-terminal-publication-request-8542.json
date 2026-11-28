@@ -1,16 +1,17 @@
 {
-  "message": "ISP R150: start the complete original W local P164 rank-1164 finite model",
-  "parentCommit": "754665dc70658ebc48c3d5218898951afd344359",
+  "message": "ISP R150: record W complete-primary obstruction and start genuine Phi eighteen-column weight source",
+  "parentCommit": "8c7bd48eb9c9768db9be89a8aa191173406671dc",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-complete-original-local-1164-model-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-complete-original-local-1164-model-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-p164-local1164.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-W-local1164-model-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-W-local1164-model-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-monic-six-eighteen-original-columns-and-nonzero-weight-determinant-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-monic-six-eighteen-original-columns-and-nonzero-weight-determinant-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-finite18-columns.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-complete-original-local-1164-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-original18-and-W-primary-return-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-original18-and-W-primary-return-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-p164-local1164.yml"
+    "invariant-subspace-8542-phi-finite18-columns.yml"
   ]
 }
