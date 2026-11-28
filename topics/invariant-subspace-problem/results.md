@@ -30,6 +30,8 @@
 
 ## 新增结论
 
+- [R150：正e单位k的完整剩余二次与±4中心全排](results/R150-appendix-unit211-W-b0-positive-e-unit-k-exact-residual-quadratic-and-k-plus-minus-four-exclusion.md)：原q2准确给h³μ²/9−4h(L−1)μ+2h²−3；h0直接矛盾，负四中心S=(μ+3)²/12、K原短除及余657支付单位，任意深M的R6阶γ/3γ矛盾。全文纸面，无旧初始理想重跑。
+
 - [R12：实际复逆幂、全旗共同强单位及平坦精确可除层](results/R12-appendix-accretive-complex-inverse-powers-flat-divisibility-layers-and-all-flag-sources.md)：新Reθ>0同Γ积分、有限组共同Eλ^k、Hk实际逆源/图核心；全喷射零但C^rLθ∉C^(r+1)C′。旧正实分数根不重计，原Y²=CLθ²仍开放。
 
 - [R150：正e、k−2整个ell极点的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-ell-pole-original-exclusion.md)：vβ与ve三段、μ极点与任意深M全保；等阶一般中心完整N5/ell⁴与R6/ell⁵，经唯一3f9e实际0.030981101秒/0返两原Bézout(μ+1)²。k−2只余ell单位，整个W/有限DVR未付。
