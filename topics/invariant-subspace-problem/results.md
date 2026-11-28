@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi同σ两个N/P–NV五次原交叉与原t十次式](results/R150-appendix-unit211-Phi-zero-corrected-same-sigma-NP-NV-crosses-and-original-t-decic.md)：唯一run46164341750，4.844514676秒/0，完整σ身份、两普通三均值迹、固定三原cofactor全部返回。C10双次82/51、t10/总97/26511项，最终三个乘子分母均1；H87整零面未删，未降公共权曲线45或宣称空性。
+
 - [R150：W/b0整个负e、零k赋值射线原q2/R6排除](results/R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md)：原b0与完整q2自行排任意λ的v(2λ−3)≤0，原系数付vT=−a/2；R6的MK²估值−7a而另一项≥−5a矛盾。k首值−1/−2、D/A*/m首值零均保，独立纸证不冒称初项程序全格单位；其余五ray仍开。
 
 - [R150：同σ二生成原值商、16个完整原minors与消元平方夹逼](results/R150-appendix-unit211-same-sigma-two-by-eight-original-value-presentation-and-sixteen-minors.md)：四条同点线性余式的真2×8乘法列完整呈示值商，28子式由4范数/6交叉/6混合生成且均返原式；J²⊂Fitt0⊂J。固定全部系数复点等价原值方程有共同σ，保D0双数；不替其他均值或推出权有限性。
