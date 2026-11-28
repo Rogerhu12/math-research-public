@@ -19,6 +19,16 @@ Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交�
 
 ## 当前新增结论
 
+- [R1053：原B12的完整canonical读者与三十九支返回](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)：原390两来源的B12商及全部324词准确给E3969的degree378必要首行；二挠Miller、CM有理比及全部零极补偿均保。完整四次Cartier和39支trace读同一首行；中间theta carrier仍为三个rank13/degree126稳定项，未变成旧L10。
+
+- [R1054：原p²剔除来源与精确导子角色块](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)：真实W_p=p^-4(g2²)*w0、bad源、全部raised张量及conductor p²周期已付；完整p⁴矩阵保混合相位和体积。新增§8严格分解为p^-2旧球线及全部exact-p²逆角色对，mixed旧新块为零，有限每条新块非零；全局theta投影仍可能消零。原完整flat和因R1052只余新块，实际Q平均与CM图/canonical的比较仍开。
+
+- [R1055：原A24相对来源的完整二级迹](results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)：同一个T=A24H48的完整四纤维T2及后继Tδ已付；混合除p读数保degree12项、两个明定new余项和原低卷积。此为既已发布全文的编号登记，不新增canonical零。
+
+- [R1056：真实flat临界值、斜率、Bol及整Newton读者](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)：同一有界Q源的临界单位inverse-square矩、log与全部Maass斜率、正KS/Bol配对和直接整Newton有限读者均已付；保全部外权及精度费用，不把Q旋转认作CM同源。此为既已发布全文的编号登记。
+
+- [R1057：原Manin二挠Legendre与Wilson完整边界](results/R1057-original-manin-two-torsion-legendre-wilson-boundary.md)：同一规范二挠值准确返回完整Rodrigues整数卷积，Wilson中央段与短尾的等式已付；辅助q无穷非零和原17有权返回仍开，q单位倍不检测目标p饱和。此为既已发布全文的编号登记。
+
 - [R1049§11](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)，(63)–(79)：严格区分实际W模型法向PD理想I与特殊纤维J；原filtered Poincaré比较保全54图，使Ω、实际限制同伦ζ的一次φ都整除p²。全局H¹整提升调a+后φa+与真实Chern同伦b+整除p；同一Miller同伦给φn+=pn−。三个真实连接逐项投影保内部半线性p-curvature，得到n+模p为0、n−=λ−ω且λ−^p=−μ。源整CM基φω=pαε、φε=−α⁻¹ω准确给每图除p杯积=α d_i^p μ(Q)(b_i)。原up模p=−cQ取消未知常数，完整原h模p准确是−a_j⁻¹α/18乘全部η/Cor/54权的d_i^p X_i P_p(X_i³)。degree34和全部外系数保留；该完整和的非零及惰性通常全Sha桥仍未付。
 
 唯一原完整厚几何v12 run46033409751已真实21000s超时；v13改动经审后请求生产，既有软件PASS不替代四交/Norm/$18\times9$终门。固定有限rank2曲线族的联合无穷canonical首导数非零仍为主门。

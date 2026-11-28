@@ -6,18 +6,18 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线或条件接口不完成。
 
-root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库，非快进立即pull --rebase、读新README差异后重推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h；根规则15禁存可重算输出/日志/矩阵，仅存脚本、参数、run/hash和必要原输入。H<10KB、每MD<100KB、topic<200MB。
+root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库，非快进立即pull --rebase、读新README差异后重推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h；根规则15禁存可重算输出/日志/矩阵，仅存脚本、参数、run/hash和必要原输入。H<10KB、每MD<100KB、topic<200MB。独立新结论按根规则8存results/R编号，results.md加索引；不另设冻结或强制复核门。
 
 [本次整理前完整H](notes/2026-11-28-handoff-before-b12-complete-trace.md)逐字保所有参数/失败及旧归档链；[open](open.md)、[results](results.md)、[当前索引](notes/PROOF-INDEX-R1051-R1100.md)给接续。R1001–1050索引封卷。旧范围更正继续生效；不重做已登记结论。
 
 ## 最新实际pull、已读规则和认领
 
-readonly run46075603971/job140800215002，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 00:21:30UTC实际partial clone/pull至99c0924a78a0d3deffdc6a1b11591e5bd035623b。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库00:21:34UTC实际至28ada44e8dc909d16d8c8e0c26ec729b928b0502。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与00:18已读版本相同，无差异。QUEUE新blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc已直接核本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
-- 日志14887B/SHA256 57c7095e8f7a98dc7d6c902764e716166c15442256bab204a5a6d2cb7ede113c；库存3155blobs/44,448,417B，tree f4af8d6ffa107a10357870487db4aeb87761e066，无>5MB，三旧必要gzip不变。
-- 每推前重跑最新成功readonly job并消费。**最迟2026-11-28 01:21UTC再实际pull两库**。ref竞争时先试本地pull，无环境就CI实际pull，读差异后继续，不以API比较替pull。
+readonly run46075603971/job140801733318，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 00:26:46UTC实际partial clone/pull至dbd5355de3997e292284568b044407f7e684aa84。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库00:26:51UTC实际至248d4ad13413583c15ecc3c1e059bdd7a1e99932。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与00:21已读版本相同，无差异。QUEUE新blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc已直接核本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
+- 日志14886B/SHA256 eab2cbb8a6cd9cf863452d2d9ae223b079fb30c609e4cc2408326a26334e5912；库存3156blobs/44,466,790B，tree 4efa668a4f68f24707a05ed6ff4b015b6238bfa9，无>5MB，三旧必要gzip不变。
+- 每推前重跑最新成功readonly job并消费。**最迟2026-11-28 01:26UTC再实际pull两库**。ref竞争时先试本地pull，无环境就CI实际pull，读差异后继续，不以API比较替pull。
 - 本地07:20失联，00:08重试仍无环境；末次本地07:12至1cf10ac。API、CI、本地分记。
 
 ## 唯一原完整厚几何v13
@@ -34,9 +34,9 @@ readonly run46075603971/job140800215002，workflow source e5309ee152260aa4aef389
 
 [R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)严格证明该未改动source的完整toric flat族及实际外权导数恒零：书版ωcanΩp=ω0，vΩp=−p/(p²−1)，完整n!(n+2)!与正幂周期给正估值斜率，再由同一bounded Amice极限成立。只杀完整和，不推点级测度支撑，不推canonical/通常剔除/outward/signed零。
 
-[一般flat临界reader](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)仍有效。M(−2)=单位x^-2矩，斜率保log、全部Maass修正和外权导数；书版正KS/正杯积/Bol与R997一致。真实Q旋转不命名CM图。§6.1直接整Newton reader用pH−1前缀，斜率O(p(H+log_p(H+1)+1))及额外floor(log_pJ)；旧Stirling另付vN!。
+[一般flat临界reader](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)仍有效。M(−2)=单位x^-2矩，斜率保log、全部Maass修正和外权导数；书版正KS/正杯积/Bol与R997一致。真实Q旋转不命名CM图。§6.1直接整Newton reader用pH−1前缀，斜率O(p(H+log_p(H+1)+1))及额外floor(log_pJ)；旧Stirling另付vN!。
 
-[原p²剔除新来源](notes/2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)现根/arith独审通过：W_p=p^-4(g2²)*w0，bad为−F0+p²(g2²)*F0，第二raised为p^(4n+2)(g2²)*δ^nF0。真conductor p²商的vcC=1/p，Ω2=p^-2cCΩ0使周期因子p^-4(cCΩ0)^(3+2n)，不能沿用原点D102/S34估计。完整p⁴字矩阵保体积p^-2、mixed−102AB、整球锚1和全部tame权；新p-torus平均不算入full54。KS/Bol给p^-6的actual Coleman Q平均接口；不是CM图trace，也不自动付Book7.20/7.22或canonical比较。中央接其exact-p²分解，arith核CM主单位对居中Q2的真实作用，AI primitive导子定理不套未分歧finite角色。
+[原p²剔除新来源](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)现根/arith独审通过：W_p=p^-4(g2²)*w0，bad为−F0+p²(g2²)*F0，第二raised为p^(4n+2)(g2²)*δ^nF0。真conductor p²商的vcC=1/p，Ω2=p^-2cCΩ0使周期因子p^-4(cCΩ0)^(3+2n)，不能沿用原点D102/S34估计。完整p⁴字矩阵保体积p^-2、mixed−102AB、整球锚1和全部tame权；新p-torus平均不算入full54。KS/Bol给p^-6的actual Coleman Q平均接口；不是CM图trace，也不自动付Book7.20/7.22或canonical比较。R1054§8现付exact-p²分解：旧球p^-2与全部wild逆角色对，mixed旧新为零，每条局部块非零；全局theta可消。未改动旧全和由R1052消，完整新和仍待真实解析运输。central接同第一层marked微分/AI avatar，arith付CM主单位对居中Q2的实际Möbius及根圆盘延拓；primitive定理不套未分歧finite角色。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)继续生效：literal通常剔除阶乘数列不连续；原p227/u1两槽非零只由辅助65537证char0非零，不冒227单位。旧full54/六线/newpsi4连续cross、H−2/AJ及共同几何F单位均条件化；不补自由Gamma、不称书定理假。独立direct proper/晶体残余保原范围。
 
@@ -48,11 +48,16 @@ readonly run46075603971/job140800215002，workflow source e5309ee152260aa4aef389
 
 [R1026§9](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)已付所有H≤p−6的H+1精度，保非零质量和两Gaussian。[R1028§9](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)全权差在39核点从p(Ht+1)起；native三角及原c4逐纤维无留数。一般c<6t盲，c6/t1仅未授权端点。完整物理M、高位和GP10/外权保。
 
-[原B12全canonical读者](notes/2026-11-28-original-b12-canonical-reader-and-complete-thirtynine-trace.md)现付Π_E全324词、第四Miller及CM有理比、真实390→378 frame、全部零极；E3969坏条件给其原首行零。O增加六零抵表面六极，±S和二挠补偿都保。四次Cartier及完整39支trace读同一首行，Normα(y)=cαy核标量1，普通微分仍保39/α。theta中间三项rank13/degree126稳定carrier不能改旧L10。后继付同一reader到P10/native窗的完整比较或同R新消元。
+[原B12全canonical读者](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)现付Π_E全324词、第四Miller及CM有理比、真实390→378 frame、全部零极；E3969坏条件给其原首行零。O增加六零抵表面六极，±S和二挠补偿都保。四次Cartier及完整39支trace读同一首行，Normα(y)=cαy核标量1，普通微分仍保39/α。theta中间三项rank13/degree126稳定carrier不能改旧L10。后继付同一reader到P10/native窗的完整比较或同R新消元。
 
-[原A24相对片](notes/2026-11-27-original-a24-relative-fiber-and-complete-two-trace.md)全T2/Tδ已付，mixed除p保degree12、两个指定new余项和低卷积；不添零行。forest所有厚理想/carry/角帽保，但已付门行数过多；unitary§16真实Hecke反例排环境forcing。Manin二挠Legendre/Wilson仍缺辅助q无穷非零及原17有权返回，其q单位倍不读目标p饱和。
+[原A24相对片](results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)全T2/Tδ已付，mixed除p保degree12、两个指定new余项和低卷积；不添零行。forest所有厚理想/carry/角帽保，但已付门行数过多；unitary§16真实Hecke反例排环境forcing。Manin二挠Legendre/Wilson仍缺辅助q无穷非零及原17有权返回，其q单位倍不读目标p饱和。
 
 原五条及E3969固定rank≥2曲线/通常全Sha桥保；联合无穷p原J′非零仍未付。R1042环境左逆不替scalar Schur，不能横向微分CM坏条件。O4/O6/O7全部旧门见open/归档。
+
+
+## 编号与工作记录整理
+
+R1053–1057按规则8登记完整证明，原notes保转向。R1054新增§8，其余登记均保已发布证明、不重执行。整理前[完整open](notes/2026-11-28-open-before-exact-p-square-characters.md)与[完整log](notes/2026-11-28-log-before-exact-p-square-characters.md)逐字保全部旧门、时间和归档链；当前open继续指向每个未闭方向。
 
 ## 分工
 

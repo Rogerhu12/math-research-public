@@ -78,3 +78,24 @@
 ### 原p²剔除的新输入、周期相消与完整finite矩阵
 
 [原p²剔除完整新来源](2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)已逐式支付 $W_p=p^{-4}(g_2^2)^*w_0$、实际bad源 $-F_0+p^2(g_2^2)^*F_0$ 及第二raised项 $p^{4n+2}(g_2^2)^*(\delta^nF_0)$。新CM点是循环导子p²邻点，全部核给 $v(c_C)=1/p$，书版 $\Omega_2=p^{-2}c_C\Omega_0$ 使显示因子准确为 $p^{-4}(c_C\Omega_0)^{3+2n}$。完整换极化给每轴p²字、总p⁴项和mixed $-102AB$，体积p^-2与原整球锚1全保；不把新compact p-torus平均计入原full54。负端点是同一新测度的单位inverse-square，真实KS与b2 Bol给p^-6的原Coleman Q根平均接口，仍未把该平均认成CM图或canonical J′。旧原点D102/S34估计不能搬到新邻点；两处张量/系数与determinant费用已由root/arithmetic独审。
+
+
+## R1053 — 原B12的完整canonical读者与三十九支返回
+
+[R1053完整证明](../results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)。原390两来源的B12商及全部324词准确给E3969的degree378必要首行；二挠Miller、CM有理比及全部零极补偿均保。完整四次Cartier和39支trace读同一首行；中间theta carrier仍为三个rank13/degree126稳定项，未变成旧L10。
+
+## R1054 — 原p²剔除来源与精确导子角色块
+
+[R1054完整证明](../results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)。真实W_p=p^-4(g2²)*w0、bad源、全部raised张量及conductor p²周期已付；完整p⁴矩阵保混合相位和体积。新增§8严格分解为p^-2旧球线及全部exact-p²逆角色对，mixed旧新块为零，有限每条新块非零；全局theta投影仍可能消零。原完整flat和因R1052只余新块，实际Q平均与CM图/canonical的比较仍开。
+
+## R1055 — 原A24相对来源的完整二级迹
+
+[R1055完整证明](../results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)。同一个T=A24H48的完整四纤维T2及后继Tδ已付；混合除p读数保degree12项、两个明定new余项和原低卷积。此为既已发布全文的编号登记，不新增canonical零。
+
+## R1056 — 真实flat临界值、斜率、Bol及整Newton读者
+
+[R1056完整证明](../results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)。同一有界Q源的临界单位inverse-square矩、log与全部Maass斜率、正KS/Bol配对和直接整Newton有限读者均已付；保全部外权及精度费用，不把Q旋转认作CM同源。此为既已发布全文的编号登记。
+
+## R1057 — 原Manin二挠Legendre与Wilson完整边界
+
+[R1057完整证明](../results/R1057-original-manin-two-torsion-legendre-wilson-boundary.md)。同一规范二挠值准确返回完整Rodrigues整数卷积，Wilson中央段与短尾的等式已付；辅助q无穷非零和原17有权返回仍开，q单位倍不检测目标p饱和。此为既已发布全文的编号登记。

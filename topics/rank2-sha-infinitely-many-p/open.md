@@ -1,224 +1,100 @@
 # 未解决问题与当前接续
 
-主目标：固定一条 $E/\mathbf Q$，完整证明 $\operatorname{rank}E(\mathbf Q)\ge2$ 且无穷不同 $p$ 的通常全 $\Sha(E/\mathbf Q)[p^\infty]$ 有限。**未完成；持续研究。**
+会话：Astra-rank2-Sha-0b097461-20261127；2026-11-28。
+**主目标未完成，持续研究，不等用户回复：**固定一条 \(E/\mathbf Q\)，完整证明 \(\operatorname{rank}E(\mathbf Q)\ge2\)，并使无穷不同素数 \(p\) 的通常全 \(\Sha(E/\mathbf Q)[p^\infty]\) 有限。固定有限族的联合无穷非零可用鸽巢，随 \(p\) 换曲线不算完成。
 
-2026-11-27 / Astra-rank2-Sha-0b097461-20261127。
-[本次整理前完整 open](notes/2026-11-27-open-before-positive-characteristic-forest.md)逐字保全部旧问题、公式、source/run、失败、未付条件与更早归档链；下列整理不删除未闭门或改变既有结论。证明见 [results](results.md)、[R1001–1050 索引](notes/PROOF-INDEX-R1001-R1050.md) 、[R1051–1100 索引](notes/PROOF-INDEX-R1051-R1100.md) 和 [HANDOFF](HANDOFF.md)。
+[本次整理前完整 open](notes/2026-11-28-open-before-exact-p-square-characters.md)逐字保留全部旧问题、精确公式、运行与失败、来源及更早归档链；下列只是当前接续，不删除任何未闭门。[results](results.md)、[本卷索引](notes/PROOF-INDEX-R1051-R1100.md)和[HANDOFF](HANDOFF.md)给已证内容与实际执行状态。独立新结论按根规则8放入 results/R编号，旧 notes 路径保转向。
 
-## O新来源. 同一个 canonical 斜率的实际几何非零
+## O新来源：实际 p² 新块、解析运输与同一 canonical 斜率
 
-[完整 $\psi_4$ 来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已把正槽严格换回原 $S/H_3/H_5$，负槽为全部三挠 Gaussian Weyl 词的 $\delta$ 拉回，三条 degree102 首4规范1与 raw 分子 $(-7,624,1224)$ 全固定。有限2/3/17角色、wild两陪集、$\delta^{-n}$、完整 Yang 范数均保；复 $n=4$ 非零锚不是增广单位。
+[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)已经证明：好点 \(g_2^*F_0\) 的有界性完整成立，但返回原未改动 \(F_0\) 的完整 toric flat 族及实际外权导数恒零。它只杀这个完整和，不能推点级测度支撑、canonical、signed 或 outward 为零；不再重做这条零分支。
 
-[实际 sign 曲面及图](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)给 $C:s^6=t(1-27t)$、全 $f_{\Omega_4}=-\delta f_4(\tau/6)$、严格有限 Chow 投影、正确 full9 列基和 $+34$ 分量。全18核先重标、$Q_\tau$ 先于 sign，完整两个取向和 proper fp 已闭；没有借旧 full54 的未知 $q_0$。
-
-[新十八图](notes/2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)的 Artin 全 trace、同一 fulllevel fixed-base $p^2$ 全和与直接 proper-fp 返回独立已付，特别
-$$
-\mathcal A^{\rm out,new}_k=(p^2-1)I_k^{\rm new}.
-$$
-[21:55连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)已将后继连续几何 cross、Kriz $H_{-2}$ 到此 AJ 的识别和共同几何单位改为条件陈述：需要同一个连通延拓或原 flat/usual-depletion 交织、换点后正确的定义域，以及负端点的实际微分/Frobenius归一。7.20 的两个不交区域与7.21的good点连续性均不自动给这些条件。
-
-审计还给精确离散障碍：$A=p^2-1,B=p-1$ 时，任何固定非零 $K,\zeta$ 的
-$$
-g(u)=K\zeta^u\frac{((Au)!/(Bu)!)^2}{Au-1}
-$$
-都不可能满足两个非零连续函数之间的 $L(u)=g(u)R(u)$（所有正整数）。双Hermite完整阶乘保持，不能添未证Gamma修正。同一当前未除幂张量的实际toric比较已在§7逐项锁定为固定幂；它与真实flat族的识别仍未成立。本审计不声称原书定理假。
-
-[纯双槽 Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)仍独立给
-$$
-R_k(v)=-3q_\delta^{-v}K_{-,k}(v)J_{+,k}(v),\qquad
-R'_{\rm can}(0)=-3K_{-,1}(0)J'_S(0).
-$$
-原 canonical 坏条件确迫这个纯 Newton 斜率零。即使参考 $R_3(0)$ 或 $R_5(0)$非零，仍须先支付几何接合，才可定义实际几何共同因子及读取其端点；正权消因子自身不填连续性缺格。
-
-**固定正权证书已付：**公开run46073583710/job140756005342实际成功，固定 $p=227,u=1$、$n=51526$ 的两个原完整槽系数均非零，整窗身份全PASS，故 $R_{{\rm can},227}(226)\ne0$。辅助65537只证明特征零非零；离散障碍的非零前提现在不是空条件。**正在做：**当前literal序列已确定不连续，继续寻找从真实flat算子本身导出的规范及其proper端点，而不是在旧比较上补无来源因子；原bad点更深根与完整 $p^2$ source已保下述费用。未能接合就继续同一 S3150 forcing/原矩阵方向，不停止研究。参考端点、真正 derived 读数及无穷 $p$ 非零仍须解决。已排权二 $B_6$ 的全部toric点零不再重算。
-
-[原bad CM点的真实b2读者与p²边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)：$g_1^*Q_1=Q_2$、$g_1^*\omega_{\rm can}=\omega_{\rm can}$、$g_1^*dz_{\rm dR}=p^{-1}dz_{\rm dR}$，故好点 $(p\theta)^j$ 的连续读者实际运输成坏点 $(p^2\theta)^j$，但source是 $g_1^*F$。该原先未付的好点 $g_2^*F_0$ 完整有界性现由[实际来源返回](notes/2026-11-27-original-good-pullback-and-bad-source-return.md)补齐；但[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)证明这个返回原未改动来源的完整toric flat分支恒零，不能作为canonical检测量。对同一实际cyclic $p^2$分支，严格有
-$
-O_D=(1-p^{-2})G(E)-\lambda_D^*I_D/p^2.
-$
-完整incoming范数为零而outward为 $p(p+1)(1-p^{-2})G$，所以对偶/Fricke换点仍留下原 $G(E)$ 边界；不能靠相同Euler因子恢复原图。直接proper图身份保留，未与Newton或flat负端点相认。
-
-下一须在这个真实outward source上证明完整flat/微分比较；好点incoming连续性单独不读该边界。
-
-[连续性审计§7](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)现锁定同一已完成的未除幂 raised 张量 $\omega^3\otimes(\Omega^1)^n$：固定CM基/KS/level比较只有 $q_{p,n}=q_{p,4}Q_p^{n-4}$，完整两Hermite仍为 $c_n=n!(n+2)!\xi^{n-4}/(4!6!)$。真实Hecke等变KS保 $\det H_{\rm dR}^{-n}$，7.19的实际基乘 $p^{3+n}$；书7.22的 $p^{3+2n}$ 尚缺同一线性化比较，但任何这种固定幂都不修digit障碍。由实际 $R_{{\rm can},227}(226)\ne0$，当前明定的 full18图/通常depletion/未除幂正整数序列**不存在连续延拓到 $\mathbf Z_{227}$**。这是本题literal数列的严格结论，不把它与真实flat族无条件相认，也不据此称书定理假。后继须真正给不同算子或权归一并重证proper端点，参考非零或period单位不能补此门。
-
-## O原矩阵. 正特征完整重数界及第二、第三区块
-
-[三变量 $V$](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)已付全次数稳定素簇分类、原奇点 D-property 常数1、真实截断评价及 minimal primary 长度小于 $p$ 的根稳定性。固定低次数通用 Noetherian 链给固定退出指标 $M$，仅为存在性常数。
-
-[正特征截断森林](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)进一步支付正规化枝的整数赋值比较、线性加权 cap、短有限流、高次数最小方程退出与三层实际交循环。排固定有限 $p$ 后，同一个原低轴满足
-$$
-\min\{s,\operatorname{ord}P(t,x(t),\theta(t))\}
- \le D+D(D+A)+D(D+A)^2,\qquad A=3\max\{M,288\}.
-$$
-所有分量权重与奇点截断误差均保；不制造无限特征 $p$ 轨道。只在 $H=s-13-r_c$ 严格大于已付上界时排原完整 $M$ 的必要低轴核。
-
-同文§§11–14现已给原 $F(t,Y)$ 的真正薄X二次界：固定 $C=576+\max(M_\square,576)$，$U=a+C,W=b+C$，
-$
-\mathcal B_V(a,b)=48UCW+8(UC+UW+CW)+4(U+C+W).
-$
-新的 $M_\square$ 专门支付总次数3456的 Laurent 清分母，未沿用较小度数的旧 $M$。完整矩形/Segre嵌入、nef交数、边界和原奇点cap都已付。若原 primitive 低源子格准确返回，则第一块真秩至少 $(9/[176(6C+1)]+o(1))H$；仅当 $H>\mathcal B_V(\lfloor11N/34\rfloor,N)$ 才排该范围的核。原 R467 Theta 补充其实已有更强显式二维界 $a(6b-1)-2c+3$ 和全部因子费用，R637亦已有真实短三块平方根满射范围；本次已在森林§15交叉标明，后续优先复用旧界，二维二次指数不另计新推进。现在继续实际第二/第三块、同一首提升和 Gaussian 读者；低轴单位秩本身不提供所需全位行列式的正收益。原来源维数约 $9N^2/68$，第一块只有 $s$ 行，在临界 $s\sim9N^2/[68(2+\tau)]$ 单独不可能排全部核。新上界即使二次，也必须保真实常数与完整列行预算；不得添导数或乘积的中央零条件。
-
-[原森林§§16–18.1](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)把同一三块实际化为 $(t^H,t^Kh^2,h^3)$，只剥显示 $t^rY^{m_0}$，保Euler电荷。通用判别式的一次项严格为 $-4c_0c_2^3\operatorname{Disc}Q_2$，故原点阶至少 $\min(2H',H'+3K')$。原全部68角帽给 $W=(b-1)(b+2m_0)$，若剩余判别式非零则
-$
-\min(2H',H'+3K')+3\lceil W/68\rceil
-\le \lfloor11W/34\rfloor-r(2b-2).
-$
-失败只强迫实际非边界重复因子，未排所有核；同一R的两carry、完整首次提升和真正第二余核Xi全部保留。低b例外明确，未以独立三次秩或新中央导数代替原三块。
-
-[森林§19的准确范围](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)：原profile $m_0/N\to\mu,b/N\to\beta,r/N\to\rho,K/H\to\tau$ 必须保 $\mu/68\le\rho\le19\mu/68$；判别式严格失败门是 $\beta[19(\beta+2\mu)-136\rho]<9\min(2,1+3\tau)/(2+\tau)$。真实逐charge列数(68)表明，有固定裕量时已经 $H>n_{\rm win}+cN^2$，所以此门仍在第一块行数超过窄窗列数的范围，**未触全临界或主严格预算**。泛型不可分被 $\deg_Y<p$ 排除后可得核子空间共同平方因子，但Theta的68格不能未付返回就接成rho的19角格；同R/carry/Xi保。后继转增长块数与同一饱和旗标的全Smith指数，不再把固定三块小改进充作全局正收益。
-
-按原固定深度预算，下一实质方向为深度随来源增大时的原高尾、全部块和同一全Smith指数；严格目标仍为 $\sum_p g_{p,D}\log p>3M_D\log D$。
-
-## O1–O3. 原固定来源的真实中央联合非零
-
-R959/R970–983已经支付固定E65/E65³/E260/E54925/E8125的rank≥2、原全角色/周期/平方与通常全Sha桥r+corankSha≤2ordJ。还需在同一无穷p集合上至少一个固定来源的实际J′非零，才能用有限鸽巢；孤立p、投影、低jet、质量非零和来源秩不替代这一步。
-
-R1015–1034原两frame、全部13字、同c/全4+5 Cartier槽、唯一primitive与严格全位a+2b<3费用保持。R1021两个δ-new固定来源的whole中央确为原canonical倍数，R1022全39支/两顺序回到同窗；R1025六权及末两H的单位组合已付，但坏canonical尚未迫该组合零。R953同parity首Bockstein及R954全混合秩界不自动付指定forcing成员性。完整参数和所有补域均沿归档，不重做。
-
-R1042§§13–14给原S/T/A全精度Hurwitz前缀：push cZp、误差H+1−floorlogp(H+1)、全部Euler/core。实际q13 run46029180230/job140608285958/source dd0da200已付三行6/18/30秩及v13det=3；全差商扩到所有奇r，追加13³ray仍保全Euler。真实前缀前三秩跳≤1/3/5、原线性格Smith费用≤(18+o1)p。三个实际来源仍只在二维角变量上，不能当三自由Hasse变量；有限非零秩也可与同一完整中央收敛零相容。继续同一前缀的两变量反写、三低卷积及完整补域消元。
-
-## O角. 全p-new字与固定角来源
-
-R1040相关模型/固定HJN全平均、Φ126/Ξ0与G126/Ξ1、质量JG0单位均沿归档；仅JG0已付，JG′=0未经授权。R1046原E21609的K/Y角导数和R1047原norm25四even角色的完整一次项均非零，已付BDP2/真实点域/Fuchs–Pham及全尾v=n+ℓp；canonical坏尚不迫这些角值为零。
-
-[完整unitary字](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)§§10–13锁g_n的逆Gram、5处12odd Bell、旧2/3/7状态与反变符号；两norm3150/150固定六sigma F±的Y-unit全返回，是β^-n/d_n乘两个K缩放差。只有忘K后才为c_n(JF−−JF+)；K/Y读数另保κ^-n(1−βκ)。p^(1−n)损、mixed cut、全部wild与补域都保留。继续实际F±的完整5-old投影、精确canonical/reference系数及5-new同解约束；不把投影的身份当全来源的零。
-
-[原Y/K完整球面Hecke§16](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)：全部 $p(p+1)$ 格逐支计数给 $\mathcal H_p(B_0\otimes B_0)=p^2B_1\otimes B_1+(p-1)B_0\otimes B_0+B_{-1}\otimes B_{-1}$。保同一自然/标准交织、正负division/Haar、完整六输出及物理Y-unit后，真实返回为 $\nu_{\mathcal H_p}^{\times}=(p-1)\nu^\times+\beta^{-1}(D_{K,\kappa^{-1}})_*\nu^\times$。因此有限字 $\mathcal Z_p=\mathcal H_p-(p-1+\beta^{-1})$ 的整个不读K边际恒零，而同一 $K/Y$ 读数严格为 $\beta^{-1}(\kappa^{-1}-1)(10\delta/7)\Omega I_{D,p}\ne0$，用原R1046同一固定非挠点。该实际反例排除“完整Y边际加这个球面Hecke就迫K/Y零”的替代；不排另有真实读K的来源关系，也不声称原坏中央实际存在。
-
-后继必须使用真正读K的同解内关系；不再重做这个球面和或以其完整Y-Mellin身份代canonical forcing。原5-new/p-new补项仍保。
-
-## O几何. 原固定图与实际惰性局部normal function
-
-所有原54/27图、η/Cor、最高λ、负9-Weil分量、两cover及Prym保持。R1039全Jac F²=−q和R1041无权q+1/半交身份不付最高加权影子。R1043同一完整J全零才给实际T_a的全p整除；坏Sha尚不迫该条件。Fr−unit核只有p个除点，不能免费全p²。
-
-R1043§§19–22已付原KS/Hasse/Manin和对偶isogeny运输：D_Bμ=cqA、cq≠0，μ/δ=κqXPq(X³)，canonical接触3、有限ss1或2；p除点不提高接触。三权下降的μPQ有限Nq递推及cusp/IV*/O行为皆已付，Pq(−1/4)未判统一非零。CM289原full9负分量图和接触1/2保，空间Manin值不替代实际T_a/p。
-
-R1049把同一原54图逐一降到惰性Kp，η((p))=1，最高H³(2)的φ²=−p^-1；proper FP全Čech/Frobenius同伦给AJ(Yj0)=p/(p+1)I_j,p。全NS饱和/CM Hodge给新增晶体指数1,p、c1D+=upΩ、c1D−=−pΩ−/(3up)，up单位；W₂障碍MW/p→H²(O)为Fp同构。此global障碍不赋原加权AJ非零。
-
-R1049§8进一步给原整局部格：在FL[0,3]中两嵌入filtration3/0，商filtration2，全部扩张参数h=x+puy，Hf¹≅O、logBK=p h/(p+1)、log格=pO，模p^n扩张split iff h≡0。同原积分测试与Artin基严格h_j,p=a_j,p⁻¹I_j,p。下一具体输入是全局transition/Frob cochain在原54图的完整限制，从而计算该h；特殊纤维单点都被p+1杀，其挠提升日志为0，不能拿它们替代一阶normal function。通常全Sha全球连接还必须对应原J′，不套任意syntomic非零。
-
-R984原规范循环Griffiths非零不付各p AJ；R988 level12 K3–E0²实现及R990新CM17图取迹为零排除保持。R979固定7993的Selbal一维/strict核0和R940全双新κ上界不判原端点/增广s=0。原Artin整场fine Selmer排除与已核外部定理范围沿归档，不重做已排输入。
-
-## O厚点. 唯一原完整执行
-
-原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，原primary局部平方重复已公开软件PASS（run46077929103）。[R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现已真PASS；不将时限退出作反例，不重复相同生产输入。
-
-保原两char0 pins、全60源/29/2453/64/minimal及全部原几何门；即使有限影子通过，真正无穷p主门仍须另付。
-
-## O4、O6、O7及其它原门
-
-O4：原O格Q=δ^a εw需无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)不删。O6：固定两点饱和λ的全核Np有限且真q_p=1于无穷p；原Tor、整周期与全部p损不能省。O7：同解内/闭盘、同Y余数、全Laurent/非恒Y权及全部216管差仍未迫原闭边界全零。完整模型、数学条件、旧外部文献/负例和各source/run全保于开头的逐字归档。
-
-
-## 已闭后继与继续时必须保留的条件
-
-上方旧主干的后续完整证明已在整理前 open 逐条登记。当前使用时须同时保留：
-
-- 原 full54 的全部图、Artin、负二 Newton 与六条来源保留；连续几何 cross 及共同几何 $F$ 单位现额外需要上述审计接合。即便一条 $K$ 单位、原好整格范围成立，也不独自支付该连续性门。独立残余比较按原范围保留，旧未知 $q_0$ 仍保。
-- 同一 signed 因子的绝对整周期亦只在原一 $K$ 单位范围已闭；首层非零等价不能变成跨素数非零。
-- $D^2S$、完整 $\zeta$ 补偿、指定热 jet 与实际半周期连接已闭；不对单个 CM 坏条件横向微分。完整 paired Lamé 代数解及零 $p$ 曲率不代原 $p-1$ 或除 $p$ 后的 $p+1$ 读者。
-- 原 S3150 的完整450维点载体、有限 point-only 投影及 $K/Y$ 非零已闭；仍缺同一 canonical 坏条件迫相同读者零，不对无限中央 log 尾作有限投影。
-- 原 $R1042$ 全 Hurwitz、Euler、Smith 和两角 blow-up 已闭；环境格左逆不是原 scalar kernel 的 Schur 左逆。原线性格费用约 $18p$ 必须保。
-- 原 $R1049$ 晶体整格、Manin/cochain、残余 toric 比较均保未知好范围及全54权；全局障碍不直接赋原加权 AJ 非零。具体全部公式、常数和失败链见本页开头逐字归档。
-- 唯一完整厚几何 v12 的真实21000s/exit124终态已消费；四交/Norm/18×9未返。捕获别名和同商局部平方软件均已真实通过；下一受核修改是R1050的原scalar支撑入口，保完整非约化纤维、maximal/registry及所有一般返回和几何门。有限终门也不替通常全 $\Sha$ 的真实无穷 $p$ 条件。
-
-root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(-1/4)$ 的准确二挠读数，central 处理原theta的真实flat/Amice与合法Newton reader，arithmetic 处理真正高前缀核中的同源节点 jets 和全部 Smith 主项。子问题完成即接下一项，主目标完成前持续研究。
-
-
-## 原全深矩阵的已付递推与下一未闭项（R1051）
-
-[R1051：原完整 Gaussian 的全深折回与全部精度节点递推](results/R1051-original-full-depth-gaussian-node-recurrence.md)（已证明）：基线所有物理行模 $p$ 按数字和 $s_p(q)$ 精确折回原首窗，保 Gaussian 单位与 factorial 单位；同一原来源的全行 $\mathcal Y_{r,q}=p^q q![w^{r+sq}]\Phi$ 具有完整节点系数 $C_{\rho,j,r}$，其赋值至少 $\lceil\eta j-\vartheta\rceil$。任意 $H$ 由真正首一 $\prod_{\rho=0}^{p-1}(T-a\rho)^{\lfloor H/\eta\rfloor}$ 给全部后行递推。连续前缀和适配整旗标保全部 Smith 精度及实际对角 $\epsilon$，但已付加权收益仍仅 $O(M_D)$，未达 $3M_D\log D$ 主门；坏 canonical 条件仍是含全部 $k\gamma_m^k$ 分母的同源加权行，不能免费变成逐节点消失。
-
-下一步使用上述完整 $C_{\rho,j,r}$ 和坏条件，在真正高前缀核/同一首提升中支付新增 Smith 主项。整个来源有许多节点并不能推出该核仍有同样节点；也不以高物理深度本身替代全局预算。
-
-
-原完整几何当前软件接续见[scalar全厚支撑核验](notes/2026-11-27-original-scalar-support-software-and-production.md)。这项检查已获真实PASS；不以静态审阅、夹具结果或方法计数替原所有终门。
-
-
-## 原Manin二挠特殊值的具体整数条件
-
-[原Manin二挠特殊值的完整Legendre返回](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已证明：同一原 $B$ 上 $U=-1/4$ 恰为三个非零二挠点，原Hasse严格等于 $\mathcal L_{2n+1}(V)$。次数 $<q$ 的原函数固定全部积分常数；Rodrigues完整边界给 $P_q(-1/4)=(-1)^n C_n/[3\cdot2^{2n+1}(2n+1)!]$，并准确返回原规范 $\mu_{\min}(P_Q)(O)=(-1)^{n+1}c_QC_n/(2n+1)!$。这里 $q=6n+5$ 是辅助特征；整数和 $C_n$ 的无穷模q非零仍开，所有17/η/Cor后继仍保，未以实正性或半单角色取消充作非零。
-
-下一步仅能消费这个同源整数条件或换入真正新几何输入；不能从全局Manin多项式非零直接推指定纤维非零。第一scalar软件检查真实失败于矩阵复制接口，最小修正后第二次实际PASS；未出现原几何反例。
-
-
-### 全深递推的真实首提升已付范围
-
-[R1051§8](results/R1051-original-full-depth-gaussian-node-recurrence.md)把全深递推除以 $p$ 准确返原首提升：$\mathfrak D=Q_1(E_q)\mathcal Y/p$ 对全部同源整，模p不随同一个 $P+pR$ 的 $R$ 改变；全部 $R_p(E_q)$、下一regular带及整数charge进位均保。原基线到 $p^2$ 的实际可读范围为r0时 $q\le p-3$、r>0时 $q\le p-2-6r$，逐行支付ε损失。较强 $\mathscr B_d$ 中的全首Bockstein须同时满足真实 $B_{\rho,r}=0$ 和同一个原 $R$ 的实际像条件，不能外推给旧短矩阵。原canonical坏只直接支付S/T的r0槽；旧R530 divided算子及R631/633低13成本不重复记新收益，主预算仍开。
-
-继续联立原坏条件、真实高前缀核和这些同源下一regular带；新必要行本身不证明核降到所需维数，不把强目标的首提升等价式迁给旧基线。
-
-
-原scalar软件第二次执行已真实通过（run46079484704），完整来源和第一失败见[§§4–5](notes/2026-11-27-original-scalar-support-software-and-production.md)。继续处理真实生产导入顺序及8条实际filtration回执，不将软件PASS替原几何终门。
-
-
-## 原完整 v13 生产请求
-
-[v13原完整生产接入](notes/2026-11-27-original-scalar-filtration-v13-production.md)：三项真实软件PASS后，保原60源和全部参数/数学终门，明确修正捕获别名、同商平方及原scalar支撑；八条本次实际filtration回执替原方法使用断言，通用full-local接口不变。新65源和workflow已逐项pin并请求唯一公开生产，实际run与终态待消费，不预付四交/Norm/$18\times9$。
-
-本次只替换已证明且软件全核验的实现成本。必须实际完成原四交、一般 Artinian Norm、全部 $18\times9$ 和九对；若失败，只按真实错误修改，不重复相同输入，也不把 finite PASS 升格为无穷 $p$ 主结论。
-
-
-v13实际run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816已于23:09:29UTC启动，原完整计算步骤执行中；进行中日志尚未可读，全部数学终门仍未完成。
-
-
-### 同一全精度PD厚核已准确建立
-
-[R1051§§9–13](results/R1051-original-full-depth-gaussian-node-recurrence.md)证明同一原Gaussian的完备PD代数：正规化系数趋零环$\mathscr T_d$及$U^p=e^{aw^s}$的实际根评价是Hasse–Hermite等距嵌入；任意$H$的原全核准确等价同一个$j!C$厚矩阵，全部截断Smith与同P/R提升保留。回原$\mathscr B_e$仅有保准确$E(J)$费用的两箭头，未冒无损充要；普通$(p,w^s)^H$模型对全部来源至$(p-3)/2$、原S/T环至$p-2$，原首坏带仍保。没有把canonical单槽核变成乘法理想，主全局预算仍待实质新收益。
-
-后继直接消费这个实际厚矩阵和原两坏条件，证明高前缀核的额外Smith主项；保持源次数、全部regular带、快Gaussian及原基线的精度损失。只重新表述代数或计算whole-source秩不会关闭主目标。
-
-
-[原Manin二挠读者§6](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)逐项Wilson/duplication把同一$C_n$写成中央二项式段，完整Vandermonde和准确为零且中央段等于负二倍短尾。没有判该段非零；原Manin同态还明确给$q$单位倍截面下的规范值不变，所以此多项式本身不读目标$p\ne q$饱和指数。后继仍须同一17有权评价或真正canonical除$p$来源，不能用基值或半Norm替代。
-
-
-### 2026-11-27 23:34 UTC：真实flat临界reader已付，来源返回继续
-
-[真实flat临界值、斜率与Bol primitive](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)已从同一有界$Q$系数测度证明全部临界公式：$c_i'(-2)=-(i+1)(i-1)!$，斜率保log项及全Maass修正，差商尾一致收敛；实际解析双primitive与原水平Tate/KS归一给旋转trace配对，horizontal常数被flat严格消去。$g_1$微分/杯积的两$p$均保，选定CM基的$b=2$只对真实$g_1^*F$。完整unflat raised前缀经Cayley/逆三角/Stirling返回原系数，Mahler尾给明确$O(p(H+\log_p(H+1)+1))$前缀长度，另付输入精度$v_p(N!)$。不将形式log在根单位处代零，不恢复旧usual/finite-CM-graph比较，原canonical非零仍开。
-
-后继必须在同一来源中识别真实$Q$旋转trace或完整系数与原canonical Newton/指定proper有限图；仅有形式双Hermite或已撤回的正整数连续比较不够。直接整Newton有限reader正在审，不将其当新的canonical零条件。唯一v13仍执行中，无几何终门回执。
-
-
-### 2026-11-27 23:37 UTC：直接整Newton读者已付
-
-[同一flat reader§6.1](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)给原全$\mathbf Z_p$上的显式整Newton多项式，任意$s\ge1$一致逼近$\mathbf1_\times x^{-s}$至$p^H$，次数至$pH-1$。保完整$c_i(-C)^i$逆三角，$C$整时同一unflat raised前缀仅需$m_A+H$输入精度，不经Stirling除阶乘。对参数$L$求导给真正log核，选最小合格$J$并支付$e=\lfloor\log_pJ\rfloor$，$b=2$保全部$i\le\lfloor(H-1)/2\rfloor$ Maass修正，明确斜率的有限前缀和输入精度；toric外权导数仍保。这里没有给原canonical新增零行。
-
-接着核实际$g_2^*F_0$的good germ及有界来源，使完整双Hermite可以在原固定来源中使用；仍须真实flat而非通常剔除正权身份。
-
-
-### 2026-11-27 23:54 UTC：原来源有界性已付，该未改动 toric flat 分支已排除
-
-[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)与[实际来源返回](notes/2026-11-27-original-good-pullback-and-bad-source-return.md)支付原 $g_2^*F_0$ 在好点的完整有界性：书Lemma6.16作用于同一completed结构层germ，不要求新vector；实际中心给 $(pI)^*F_0=-F_0$，故同一坏点 $b=2$ 源为 $-F_0$。原书 $\omega_{\rm can}\Omega_p=\omega_0$、$v_p\Omega_p=-p/(p^2-1)$ 给正幂周期，完整双槽估值与未除幂 $n!(n+2)!$ 迫实际未flat全toric正槽沿合法逼近趋零；同一有界测度的直接极限于是证明原未改动来源的**完整toric flat分支及实际外权导数恒零**。只杀这一个完整和，不声称点级支撑、canonical $J'_S$、usual剔除、outward图或signed类为零。书版Bol的KS/杯积改回R997同一正号，向量primitive同步换号，临界标量公式不变。后继转真正导子$p$邻点来源 $g_1^*F_0$ 或直接proper返回，不再给已零分支造canonical必要行。
-
-当前真正未闭的是好点直接取 $F_0$、坏点为 $g_1^*F_0$ 的导子$p$邻点完整有限来源。其准确全权运输是
+[R1054](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)现给实际通常剔除中剩余的完整来源：
 \[
-g_1^*((p\delta)^nF_0)=p^{2n}\delta^n(g_1^*F_0)=p^ng_1^*(\delta^nF_0).
+W_p=p^{-4}(g_2^2)^*w_0,\qquad
+g_1^*((p\delta)^nA)
+=-p^{2n}\delta^nF_0+p^{4n+2}(g_2^2)^*\delta^nF_0 .
 \]
-最后值在实际邻点，不能挪用R1052原点 $D_{102}\times S_{34}$ 界。若用通常剔除，全部 $g_2^2$ 新来源及其邻点费用同样要保。central继续书7.16与实际$p$字，geometry继续原A24四伙伴及mixed除$p$返回，arithmetic继续原完整矩阵同R高前缀核；root补能实际消费主门的几何与解析比较。
+真实 cyclic conductor-\(p^2\) 点满足 \(v_p(c_C)=1/p\)、
+\(\Omega_2=p^{-2}c_C\Omega_0\)；第二项准确成为
+\(p^{-4}(c_C\Omega_0)^{3+2n}r_n^{\rm alg}(E_C)\)。
+不能将原点 \(D_{102}\times S_{34}\) 的整性界搬给这个新邻点。
 
+同文§8支付全部有限字。每轴 \(\mathbf Z/p^2\) 的完整 Weil trace 在单位、非平凡主单位和其余元素分别为 \(p^2,-p,1\)，故旧球重数一、非平凡 tame 角色重数零、所有 exact-\(p^2\) 角色重数一。完整矩阵
+\(p^{-2}\zeta_{p^2}^{(51/2)(A^2-4AB+B^2)}\)
+分成 \(p^{-2}v_0\otimes v_0\) 及全部 wild 逆角色对；旧新混合块为零。每条局部块非零，全局 Hermite/六根/tame 投影仍可能消零。有限环投影保 \(1/[p(p+1)]\)，不能称整幂等元；新 \(p\)-torus 不算入原 full54。
 
-### 2026-11-28 00:00 UTC：原A24相对片的两级old部分已完整剥离
+**下一实质门：**把这些实际新块的同一 flat 测度、CM 轨道权和 canonical/指定 proper 端点逐式相接。central 正沿 Andreatta–Iovita 的 marked differential、实际同源拉回和 exact-\(p^2\) avatar 比较；固定 classical \(k=3\) 要核 one-variable 的 conductor 条件，不能误套 two-variable 的 \(n\ge3\) 范围，也不能将 primitive 定理套未分歧角色。arithmetic 正付 CM 主单位对居中 \(Q_2\) 的完整 Möbius 作用、系数运输及所有根圆盘的合法延拓，不能由群阶相同就认 \(Q\mapsto\zeta_pQ\) 为 CM 主单位。
 
-[原A24相对来源完整返回](notes/2026-11-27-original-a24-relative-fiber-and-complete-two-trace.md)在同一个 $T=A_{24}H_{48}$ 中付全四纤维 $\mathrm T_{2,12}H_{48}=(4/3)\sigma^{12}X(X+b)$、$\mathrm T_{2,6}A_{24}=\sigma^6/14$；真实相对片 $R_{144}=A_{24}(2w)H_{48}(w)$ 的old部分是 $[2]^*C_{36}/3$。同一 $C_{36}$ 的全范数三像为 $-\sigma^{12}(13X+4b)/336$。据准确来源分解，将原 $J_{1,p}/p$ 化为这一degree12读者、两个明定new余项及完整低卷积，原 $J_{p,1}/p$ 同时保留。没有把trace与除$p$无缺陷交换，也不赋相对来源新canonical零；后继须实际支付余项的finite来源和算术返回。
+[R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)提供真正可用的同源读者：临界值是单位 inverse-square 矩，斜率保 log、全部 Maass 修正和外权导数；正 KS/正杯积 Bol 与 R997 一致。直接整 Newton 的值读者用至 \(pH-1\) 阶，斜率用 \(O(p(H+\log_p(H+1)+1))\) 阶及准确额外精度；旧 Stirling 路径另付 \(v_p(N!)\)。R1054 的负端点仍是原 Coleman 的 \(p^{-6}\) 真 \(Q\) 平均，不是已经识别的 CM 图 trace。
 
+[连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)继续优先：完整两 Hermite 的
+\(K\zeta^u(( (p^2-1)u)!/((p-1)u)!)^2/((p^2-1)u-1)\)
+不能在全部正整数连接两个非零连续函数。旧 full54/六线/新 \(\psi_4\) 的连续几何 cross、\(H_{-2}\)/AJ 与共同几何单位仍条件化；固定幂 period 不修这个障碍。原 \(p=227,u=1,n=51526\) 全槽 run46073583710 已付特征零非零，辅助65537不证明227单位，不再执行同一输入。
 
-### 2026-11-28 00:09 UTC：原末六权精度加强，但既有四阶读者仍不可见余项
+独立[纯双槽 Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)、完整 full18/Artin/proper-fp 与
+\(\mathcal A_k^{\rm out,new}=(p^2-1)I_k^{\rm new}\)
+按原范围保留；参考 \(R_3(0),R_5(0)\) 非零不能单独补上述接合。原坏点
+\(O_D=(1-p^{-2})G-\lambda_D^*I_D/p^2\)
+仍留原 \(G\) 边界；完整 incoming 范数零不删 outward。所有有限2/3/17、wild两陪集、full9和完整权都保留。
 
-[R1026§9](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)把原两个39支特征零顺序的准确比较提高至 $p^{H+1}$（原全部 $H\le p-6$），保非零质量、两Gaussian及 $m_0\log q_\alpha$；第二半径从 $h=p-1$ 的完整尾至少 $p^{p-2}$，不误借质量零端点。末六权各为 $p^{p-6t+1}$。[R1028§9](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)同时证明原已付四阶cut仍看不到完整 $T_t$ 余项：全权差 $c_pA^{p^2}T_t^p$ 在全部39核点从 $p(H_t+1)$ 阶起，native三角 $n\le(p+1)H_t$ 后逐纤维仍无留数。一般局部耗费 $c<6t$ 同样不见；$c=6,t=1$ 仅留下一个尚无非零授权的端点候选。精度加强没有增加canonical零行；完整物理M、高位、GP10、外权和Newton和仍保留。
+## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
-正在核两个真正新输入：central把书中实际 $w^{(p)}$ 的全部导子$p^2$新来源、finite words和周期相消具象化，原未改动零项只按R1052删除；geometry追原E3969投影 $\Pi_E(f/B_{12})$ 的全部实际finite权/次数和其它极，不能把它硬当旧390/39标量cut或预认六阶候选非零。两条都须完成来源与原canonical的比较，不以模型换名填主门。
+[R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。
 
+**主门仍为**
+\[
+\sum_p g_{p,D}\log p>3M_D\log D .
+\]
+当前付出的收益仅 \(O(M_D)\)。需要随来源增长的真实深度、全部块和同一饱和旗标的全 Smith 指数；不把旧低13、来源秩或环境逆矩阵重复计作新收益。
 
-### 2026-11-28：原B12 reader已完整支付，六极须保实际补偿
+[正特征森林](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)的所有 cap、D-property、原奇点、三层循环、薄X二次界、68角帽、两 carry 与第二余核 Xi 均已付。实际三块是 \((t^H,t^Kh^2,h^3)\)，判别式门只在已超过窄窗列数的范围触发，未达全临界预算。旧 R467 显式二维界和 R637 真短三块范围优先复用，不重做更弱指数；保 \(\deg_Y<p\) 和重复因子例外，不新增中央导数或乘积的零条件。
 
-[原B12 canonical读者与完整39支返回](notes/2026-11-28-original-b12-canonical-reader-and-complete-thirtynine-trace.md)把R1037的全部324词和真正B12共轭写回原390两来源；保二挠第四Miller及每个CM词的完整有理比，最终是E3969的原degree378必要首行。原投影来源在O增加六阶零，准确抵消表面六极；±S和二挠全部阶及同一M=1 frame的高零保留。完整四次Cartier与39支trace返回同一原首行，Normα(y)=cαy使对数方向的trace标量为1；一般微分的39/α费用明确保留。theta推前仍是三个rank13/degree126稳定carrier，不能冒旧390→10降次。下一步须付此真实reader与原P10/全Miller窗的逐式比较或同R新消元，不能先给c=6终端非零。
+R1042 的全 Hurwitz 前缀、两变量角结构、全 Euler 与原 q13 回执已付；环境左逆不等于 scalar Schur 的 \((18+o(1))p\) 成本。真实前三秩跳至多1/3/5，三个来源仍在二维角上。需同一前缀和补域的全消元，不能将有限非零秩当中央函数非零。
 
-继续同一Pi_E来源、指定frame及全部rank13中间层；不把环境极帽或局部六阶矩当canonical授权。原无穷p非零仍开。
+## O1–O3 / O末窗：原 canonical 联合非零与 B12 真实读者
 
+R959/R970–983 与 R1038 已分别支付固定 E65/E65³/E260/E54925/E8125 及 E3969 的 rank≥2、全角色/周期/平方和通常全 Sha 桥。仍须在同一无穷 \(p\) 集合上至少一条固定来源的原 \(J'\ne0\)，才可有限鸽巢。孤立 \(p\)、质量非零、投影或低 jet 不足。
 
-### 2026-11-28：改用实际p²剔除新来源
+[R1026§9](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)的原两个39支顺序，全部 \(H\le p-6\) 比较精度是 \(p^{H+1}\)，非零质量、两 Gaussian 及 \(m_0\log q_\alpha\) 全保。末六权 \(H_t=p-6t\) 同样保这一精度。
+[R1028§9](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)的全权差为 \(c_pA^{p^2}T_t^p\)，全39核点从 \(p(H_t+1)\) 起；native 窗后原四阶 cut 逐纤维无留数。一般 \(c<6t\) 仍盲，\(c=6,t=1\) 只有尚未授权非零的端点候选。所有物理 M、高位、GP10、外权、Newton 和及严格 \(a+2b<3\) 费用保留。
 
-[原p²剔除完整新来源](notes/2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)已逐式支付 $W_p=p^{-4}(g_2^2)^*w_0$、实际bad源 $-F_0+p^2(g_2^2)^*F_0$ 及第二raised项 $p^{4n+2}(g_2^2)^*(\delta^nF_0)$。新CM点是循环导子p²邻点，全部核给 $v(c_C)=1/p$，书版 $\Omega_2=p^{-2}c_C\Omega_0$ 使显示因子准确为 $p^{-4}(c_C\Omega_0)^{3+2n}$。完整换极化给每轴p²字、总p⁴项和mixed $-102AB$，体积p^-2与原整球锚1全保；不把新compact p-torus平均计入原full54。负端点是同一新测度的单位inverse-square，真实KS与b2 Bol给p^-6的原Coleman Q根平均接口，仍未把该平均认成CM图或canonical J′。旧原点D102/S34估计不能搬到新邻点；两处张量/系数与determinant费用已由root/arithmetic独审。
+[R1053](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)现将原390两来源的真正 B12 商、全部324词和完整有限权，写成 E3969 原 degree378 canonical 必要行。二挠第四 Miller、CM 有理比、O增加六零、\(\pm S\) 与二挠全部阶均保；增加的六零抵消表面六极。完整四次 Cartier 和39支 differential trace 返回同一首行；\(\operatorname{Norm}_\alpha(y)=c_\alpha y\) 使对数方向 trace 标量为1，一般微分仍是 \(39/\alpha\)。theta 中间载体为三个 rank13/degree126 稳定项，不能冒390/39得degree10。
 
-继续同一完整矩阵的exact-p²角色分解、实际Q根平均/level运输和原canonical读者比较；不在已经恒零的旧source上重复逼近，也不从finite非零推出跨p非零。
+下一须付这个真实 reader 与原 P10/native 全窗的完整比较，或从同一个来源得真正新消元。geometry 继续 B12 连接、common A24 伙伴和全节点返回，不能用环境六阶矩填 canonical 授权。R1021两δ-new来源、R1022全39支、R1025六权和末两H组合、R953/954全混合界继续按已付范围；坏条件尚未迫所需单位组合为零。
+
+## O相对 / O角：common A24、mixed 除 p 与完整 K/Y 方向
+
+[R1055](results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)已付原 \(T=A_{24}H_{48}\) 相对片的全 \(T_2\)、后继 \(T_\delta\)，准确剥出 \(R_{144}\) 的 old 部分。原 \(J_{1,p}/p\) 仍包含 degree12、两个明定 new 余项及低卷积；\(J_{p,1}/p\) 同时保留。要付余项的真实 finite 来源和原算术返回，不能免费交换 trace 与除 \(p\)，或从相乘关系推新的 \(J\) 零行。
+
+R1040 的原模型/全 HJN 平均、\(\Phi_{126}/\Xi_0\)、G126/\(\Xi_1\) 和 \(J_{G,0}\) 单位保留；未授权 \(J'_G=0\)。R1046 的 K/Y 非零、R1047 norm25 的四 even 角色一次项及 Fuchs–Pham/全尾已付，canonical 坏尚不迫同一角读数零。
+
+[原完整 unitary 字](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)的全部有限来源、逆Gram、两norm3150/150、六sigma、\(p^{1-n}\) 损、mixed cut、wild与补域均保。原§16已给真正球面 Hecke 反例：完整不读K边际恒零，而同一K/Y读数严格非零；这排“完整Y边际加该球面Hecke就迫K/Y零”。不重算该球面和。下一须真正读K的同解内关系、完整5-old canonical/reference 系数和5-new/p-new补项。
+
+## O几何：原54图的全局 normal function 与有权 Manin
+
+原54/27图、η/Cor、最高λ、负9-Weil、两cover及Prym全保。R1039全Jac \(F^2=-q\)、R1041无权 \(q+1\)/半交不付最高加权影子。R1043需原三个完整J全零才给原T_a全p整除；canonical坏尚不迫此条件。Fr−unit核只有p个除点，不可改为全p²。
+
+R1049完整 proper FP/Čech/Frob、全NS与CM Hodge、FL局部格均付：\(AJ(Y_{j0})=pI_{j,p}/(p+1)\)，原 \(h_{j,p}=a_{j,p}^{-1}I_{j,p}\)，log格为pO，模 \(p^n\) split iff \(h\equiv0\)。后继已给完整54有权限制、原weight-p CM来源、全type4 toric平方与 \(h^2\) 残余 canonical 平方，全部p损、period、factorial和Artin/full9保持；几何仍保 \(p>q_0\)。下一是这个真实完整和的无穷非零及原通常全Sha桥，不套任意 syntomic 非零或单点挠提升。
+
+[R1057](results/R1057-original-manin-two-torsion-legendre-wilson-boundary.md)把同一原B的二挠 \(P_q(-1/4)\) 精确返回 Rodrigues 整数卷积；Wilson中央段加两短尾的完整Vandermonde和为零。辅助 \(q=6n+5\) 的所需无穷非零仍开，实正性不付模q非零；q单位倍规范Manin值不读另一个目标 \(p\) 的饱和。下一保原17/η/Cor有权返回或真正canonical除p来源。
+
+R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留。R979固定7993 Selbal/strict核与R940全双新κ不判端点，Artin/fine Selmer及已核外部定理负边界沿完整归档，不重做已排输入。
+
+## O厚点：唯一原完整 v13，持续消费真实终门
+
+[v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
+
+[v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新00:17:25UTC为in_progress。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+
+旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
+
+## O4、O6、O7与所有其它原门
+
+- O4：原O格 \(Q=\delta^a\varepsilon w\) 需无穷 ordinary \(p\) 有 \(a\le1\)；E17的a偶、E389的 \(\operatorname{length}\Sha_A=2(a+1)\) 不删。
+- O6：固定两点饱和λ的全核 \(N_p\) 有限且真 \(q_p=1\) 于无穷p；原Tor、整周期及全部p损保持。
+- O7：同解内/闭盘、同Y余数、全Laurent/非恒Y权及全部216管差仍未迫原闭边界全零。
+- 原signed绝对整周期只在已付一K单位范围，不能外推跨p非零。全部热jet、半周期连接、paired Lamé/零p曲率不代原p−1及除p后p+1读者；不横向微分单个CM坏条件。
+
+其余全部模型、来源、例外、数学门与失败记录保于开头逐字归档。子问题完成即接下一真实未闭门，达到课题README的完整标准才收尾。
