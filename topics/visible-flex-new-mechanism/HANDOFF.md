@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **2966cf06993a2a72d3be956de716295bf3fcfdc0**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **d678ea6ac0a0ae68f2c9a509fe5db739203f7715**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **c4840b9e5ac6cd887fdf2a939300c7360b8803ea**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **d678ea6ac0a0ae68f2c9a509fe5db739203f7715**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -31,7 +31,7 @@
 
 R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g极限空间。τ1只修核心兼容，当前j2仍锁；宏观须[真实R579核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)，amp1e−5不授幅度。
 
-[硬总trace与凸核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已证：保1449自由列，以A/B从属lift准确固定全部P0=P、P1=T(P)，释放原缺j2但不让优化抹掉指定核心；当前τ1态可函数恒等嵌回。同周长支撑插值给固定目标Pμ及导数，仍同E。[实际模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)已接六jets/完整J/mean/全位置/tail及真实centered终态入口；尚未执行，未选新μ。先消费自然终态再选下一实算输入，不填造接受态或宏观根。
+[硬总trace与凸核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已证：保1449自由列，以A/B从属lift准确固定全部P0=P、P1=T(P)，释放原缺j2但不让优化抹掉指定核心；当前τ1态可函数恒等嵌回。同周长支撑插值给目标Pμ及导数，同E可达性仍欠。[实际模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)已接六jets/完整J/mean/全位置/tail及真实centered终态入口；[Pμ生成器](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)已实现连续规范角、稳定e增量和完整导数。均尚未执行/未选新μ；先消费自然终态，不填造接受态或宏观根。
 
 ## C：B030真实d59fa，以已付违反拒绝309b8后续进
 
