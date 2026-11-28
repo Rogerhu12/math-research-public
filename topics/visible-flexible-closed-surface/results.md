@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R302：真实弯厚臂、整个回原中央带及新握持](results/R302-two-true-bent-thick-arms-and-the-whole-tapered-central-belt.md)（2026-11-28）：两种完整实体，中央带含真实边口全相 reach≥.115、严格同g；高臂 diamH>1.25。整闭外连接仍另付。
+
 - [R300：直接物理坐标的连续形状界和六次同度量实步](results/R300-direct-unclamped-physical-tensors-and-six-fixed-metric-steps.md)（2026-11-28）：两完整嵌入从自身坐标支付两项强形变比，末态独立材料 knot 误差 .11483、曲率 20.389。
 
 - [R299：正曲率闭中央的两个短相位刚动开片与真实 Cauchy 入口](results/R299-two-exact-moving-circular-patches-on-a-short-phase-Cauchy-inlet.md)（2026-11-28）：两片相对转角>.76549，带上真实附件严格等距、指定端距改>.8575；新负K ramp 到 3.951e−12 实测。
