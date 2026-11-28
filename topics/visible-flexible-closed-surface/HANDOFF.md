@@ -43,7 +43,7 @@ M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整1427
 
 [G10源失败/恢复](notes/2026-11-28-2ecf-polar-G10-source-failure-and-primitive-audited-recovery.md)、[一致arc审计/分块恢复](notes/2026-11-28-2ecf-polar-consistent-arc-audit-and-split-source-recovery.md)均保真实失败和正式行。新[完整G10/四基线](notes/2026-11-28-2ecf-polar-G10-complete-source-four-baselines-and-parent-choice.md)958径点×(128+192)、4291840全行，prepared de75e963…，自身新R²选zero6=9.49114。[G11完整源/观察](notes/2026-11-28-2ecf-polar-G11-complete-source-and-six-actual-observations.md)668×256半格角，其中540径点不在G10；其[先前433行失败恢复](notes/2026-11-28-2ecf-polar-G11-source-failure-and-433-row-recovery.md)独立保留。G3进入训练后不再算径向独立。
 
-<!-- 2ecf-live-g10 --> [G10第3态b99775b9af62…、own3/3；全目标下降但κ较第2态反升，G11亦核到369.494。所有有限峰非连续证界，原链继续。](notes/2026-11-28-2ecf-polar-G10-third-actual-step-and-nonmonotone-curvature.md)
+<!-- 2ecf-live-g10 --> [G10第4态cbf003f95478…，own4/4，短线搜索接受；原入口继续第5步，所有拒绝试值保留。](notes/2026-11-28-2ecf-polar-G10-fourth-actual-step-and-short-line-search.md)
 
 [完整log-radius算子](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)12789XYZ+87alpha，alpha移动明确改变g；全normal跨块/metric/area导数保留。[全大场FD失败与尺度审计](notes/2026-11-28-2ecf-polar-full-design-derivative-failure-and-scale-audit.md)保exit1和全规模后继0，门未放宽。[分块源/算子身份](notes/2026-11-28-2ecf-polar-complete-streamed-memory-and-operator-identity.md)全物理行不删。
 
@@ -60,4 +60,4 @@ M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整1427
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:05:39 UTC；已读公开 main `ed528e1cee4b6293f215c877b989e0f5cdcf38ae`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:05:51 UTC；已读公开 main `7fa1fd61fdd94ae72ed4b282e6330d55f421d290`，根/课题 README 逐差无变化。
