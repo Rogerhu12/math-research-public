@@ -220,4 +220,4 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 一对加四独立[全九维S1已证](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)，原S2严格迹保正文。[指定原S2来源余量](results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md)：9f120真180.048256493秒，最大单独位减pair来源h的五闭域全部严格正，支付完整上下费用和交叉项；仅n1参数完成，零chamber返回，n2/3未到，rankone后门冻结。整个S2/七位glue、同W费用和原Haar不变格桥仍开；不拆n1续跑。
 
-整K7闭，全余W三原规则、首一λ6及十五行精确表示保正文。原C8/R5已成；330a真180.081659622秒/843076KiB/−14：全部原cofactor共因子取消与完整content已返，未付G为非零常数，给λ本原P8∈I8；全部六同χ乘法列成，Bareiss仅step0，未返Norm/adj或新曲线，整门冻结。续N1原纯权二列坐标这一新原输入；其它值/个别NP/NV及新λ头零留。
+整K7闭，全余W三原规则、首一λ6及十五行精确表示保正文。[真正λ本原P8及准确范数边界](results/R150-appendix-unit211-W-original-primitive-lambda-eight-and-first-norm-boundary.md)：330a真180.081659622秒，原cofactor共乘子消去覆盖整零纤维、九系数content全部为已付单位，P8(57,80,8)∈I8。同χ首一余式λ5与六乘法列全部返；Bareiss仅step0/30乘积，无Norm/adj/新曲线，整门冻结。续N1原纯权二列坐标的新原输入；其它值/个别NP/NV和未付λ头零保留。

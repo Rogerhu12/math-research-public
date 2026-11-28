@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：全 W 真正 λ 本原八次与六范数准确边界](results/R150-appendix-unit211-W-original-primitive-lambda-eight-and-first-norm-boundary.md)：原共乘子全部三列消去、权内容全已付，P8 本身属于原 I8；首一余式与六列完成，范数及 cofactor 未返回，不据此宣权排除。
+
 - [R150：Phi 的整 H1 原图完整排除](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：真 QQ 五次点与 Dixon 极点识别最后完成块，整回缩证明整个必要商 D=0；合此前全块排除，包含旧 b 零分支。当前 Phi 余图可全付第一二次头，整个 Phi 和普通 ISP 仍开放。
 
 - [R271：最大单独位减 pair 来源的完整 S2 严格余量](results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md)：真正同源的完整上下费用及交叉项，五闭域含所有碰撞；后续 n1 仅参数、没有正性证书，整个 S2 与七位 glue 仍开。

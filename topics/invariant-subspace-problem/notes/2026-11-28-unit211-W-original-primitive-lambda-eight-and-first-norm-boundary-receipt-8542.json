@@ -1,0 +1,332 @@
+{
+  "schema": "isp-W-original-primitive-lambda-eight-and-frozen-norm-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "source": "notes/2026-11-28-unit211-W-original-value-C8-content-same-lambda-six-norm-8542.py",
+  "run": 46084733153,
+  "job": 140791542329,
+  "driver": {
+    "elapsed_seconds": 180.081659622,
+    "max_child_rss_kib": 843076,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0efc8e63ee8f60862bed25e827eb52f74b4fb887",
+        "before": "0efc8e63ee8f60862bed25e827eb52f74b4fb887",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T23:51:12.558079+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46084733153",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0efc8e63ee8f60862bed25e827eb52f74b4fb887",
+    "source_exit_code": -14,
+    "source_git_blob": "330a6cc5f9caec38a58c94814fa83ff33c5ae366",
+    "source_sha256": "d2de905b2bedcc5cd007aa465123e33e0c44d2e30cde9b5f56c7cdf4fb1d1aed",
+    "stdout_bytes": 18187,
+    "stdout_sha256": "4ae6ca699dab348fae7455ecc23bb0ce039a2d0da036fba344fd010127b39dd8",
+    "stop_reason": null
+  },
+  "sourceCancellation": {
+    "seconds": 31.194769977000007,
+    "commonMultiplier": {
+      "degrees": [
+        6,
+        11,
+        0,
+        0,
+        0
+      ],
+      "totalDegree": 13,
+      "terms": 50,
+      "definitionEncoding": "one sorted [eight-exponents,QQ-coefficient] JSON per line",
+      "bytes": 1403,
+      "sha256": "a7ec8c53db3979ea83af8d1f1027f84a60b3176d4c2782335d5d66efcb891a11"
+    },
+    "originalCstar": {
+      "degrees": [
+        65,
+        92,
+        0,
+        0,
+        8
+      ],
+      "totalDegree": 128,
+      "terms": 34810,
+      "definitionEncoding": "one sorted [eight-exponents,QQ-coefficient] JSON per line",
+      "bytes": 2163226,
+      "sha256": "45c4c8742f893065f3f8e612c854590795f6c52ecff1b226af8a33e3fa3aa135"
+    },
+    "allThreeMultiplierDivisionsAndColumnsReturned": true,
+    "sourceCommonZeroFibreIncluded": true
+  },
+  "lambdaContent": {
+    "seconds": 37.572801986,
+    "fullContent": {
+      "degrees": [
+        8,
+        12,
+        0,
+        0,
+        0
+      ],
+      "totalDegree": 15,
+      "terms": 73,
+      "definitionEncoding": "one sorted [eight-exponents,QQ-coefficient] JSON per line",
+      "bytes": 2058,
+      "sha256": "6f7c243fd821f7b163f6bc6fa50e8a1053a503a986c88f5a9a2ab1a031f59faf"
+    },
+    "paidFactorLabelsAndCounts": [
+      [
+        "W_paid_leading",
+        1
+      ],
+      [
+        "bc",
+        1
+      ],
+      [
+        "old_H",
+        2
+      ],
+      [
+        "explicit_K7_nonzero_chart",
+        1
+      ]
+    ],
+    "unpaidRemainder": {
+      "degrees": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalDegree": 0,
+      "terms": 1,
+      "definitionEncoding": "one sorted [eight-exponents,QQ-coefficient] JSON per line",
+      "bytes": 24,
+      "sha256": "1ce4fba50cd417b4f0295cb475cf2be96ad9b404e1d7d4c5eb2044488f9d4a9c"
+    },
+    "primitiveP8": {
+      "degrees": [
+        57,
+        80,
+        0,
+        0,
+        8
+      ],
+      "totalDegree": 113,
+      "terms": 26754,
+      "definitionEncoding": "one sorted [eight-exponents,QQ-coefficient] JSON per line",
+      "bytes": 1543751,
+      "sha256": "b8045f42000a095e7691943f68016d4da7bdecd207c604af01f1a3f7a09a496a"
+    },
+    "allNineCoefficientAndWholeProductsReturned": true,
+    "consequence": "Actual unpaid content is a nonzero QQ constant, hence P8 belongs to I8 globally on the current weight chart; no lambda head is inverted."
+  },
+  "newMonicDivision": {
+    "seconds": 51.572746781999996,
+    "primitiveDegree": 8,
+    "quotientDegree": 2,
+    "remainderDegree": 5,
+    "fullProductReturned": true,
+    "remainderNumeratorDegrees": [
+      [
+        96,
+        133
+      ],
+      [
+        95,
+        133
+      ],
+      [
+        93,
+        132
+      ],
+      [
+        92,
+        131
+      ],
+      [
+        92,
+        131
+      ],
+      [
+        91,
+        131
+      ]
+    ],
+    "remainderCoefficientDefinitionHashes": [
+      {
+        "numerator": "847d9989357d9469eb0277d2397d5f243c903f7cd9d579488490bf5c567e51a7",
+        "denominator": "a882a8e50bfdda674e0558ae0944d3333a70cab2fd458ef1a3299a644b179da0"
+      },
+      {
+        "numerator": "44369dc7f4fd48d0df1da155b5829435607762104e0af23f0eed265d3756ff7d",
+        "denominator": "a882a8e50bfdda674e0558ae0944d3333a70cab2fd458ef1a3299a644b179da0"
+      },
+      {
+        "numerator": "ade1bbb8ebeb94276810b0ba5abdeb453ce8f1bcc692ec20883a16ddd40c86a2",
+        "denominator": "23da9347cfdd18b1e7f267b7f99ec6632ea4ec99cfa84e17101402638b655db9"
+      },
+      {
+        "numerator": "a45b221903c2265f5bde0c6b4a68e87758c800717639f73f1a59c33b84feb79c",
+        "denominator": "08088a8c03258fcfd8ea2e921f99fa88494d078c352e7d199c91f8b3c82bf47e"
+      },
+      {
+        "numerator": "8b8a2c9674b66ea64648b45bc4144c0c216927cc8d0f3e60a6f2d7d9a6bbcbbb",
+        "denominator": "08088a8c03258fcfd8ea2e921f99fa88494d078c352e7d199c91f8b3c82bf47e"
+      },
+      {
+        "numerator": "b7aa201b6f39c3f2bbea00fb13a55a296b3416dd3c82ca43ba90a17e13d8b680",
+        "denominator": "08088a8c03258fcfd8ea2e921f99fa88494d078c352e7d199c91f8b3c82bf47e"
+      }
+    ]
+  },
+  "sixColumns": [
+    {
+      "column": 0,
+      "seconds": 52.667198703,
+      "allSixProductsReturned": true,
+      "onlyPaidColumnScale": true,
+      "maxDegrees": [
+        96,
+        133
+      ],
+      "maxTotalDegree": 175,
+      "entryDefinitionHashes": [
+        "17b98266c7bc5ae490a9cae9e868f04506cae4f3f2fbe8c88f43afba2408a76b",
+        "fe9a99c1d99e714e4544a481f98a38e569f79d8c08150a18916295f18959a71f",
+        "f90c8e208b0e2a55ce61775e93467f69d25b7fdf8ecf19a3bd362258c18b9405",
+        "1dae3c0ae24b98637db44efe07b4ab9fa81b13ac27939c91c2f9302cb7398a72",
+        "a65906216a7be8acbb5e58376ca44a2e633bd6e0727dde0b69f7eac611f394e4",
+        "40cb60981203da770b94295b9b8e417cc044501d4c790bf493468d31a731ea62"
+      ]
+    },
+    {
+      "column": 1,
+      "seconds": 55.531511914000006,
+      "allSixProductsReturned": true,
+      "onlyPaidColumnScale": true,
+      "maxDegrees": [
+        110,
+        153
+      ],
+      "maxTotalDegree": 201,
+      "entryDefinitionHashes": [
+        "6dab6fd0ac4b27c4c17b32b67b35459369aced60bad2c9d07a318cef19142a2d",
+        "a6d5b113c9ce3caddab53dee930bcd2fabc6c3c803f55e2240d5c52107e77e22",
+        "41145059bc33a52b8647e018ea9933e91ea8f600cf75c5e04972111f3818ad6e",
+        "6b3615b28b3d8728b1b8e73e73a61e7fc371a6bf4e8f1652af5c29ddce8293c1",
+        "fec1ee1af260d0e4ee250d4f98579974eb642529ccfd99b8ceb90d848a860d9f",
+        "573fc0a001db1f06490182b64c1e3f9749be72f6a2e764f740bb73815354f65c"
+      ]
+    },
+    {
+      "column": 2,
+      "seconds": 61.02898343700001,
+      "allSixProductsReturned": true,
+      "onlyPaidColumnScale": true,
+      "maxDegrees": [
+        124,
+        173
+      ],
+      "maxTotalDegree": 227,
+      "entryDefinitionHashes": [
+        "9062205a4e2a864d2cf39d9f39eb564576fe635066473f41cc8fc0bbdb4ad289",
+        "1881750fe542f4fb90975784e021e7ca4248315ce9320cd2db797a56d6894085",
+        "0e3aab620c6f4075411cf8fd9fc135fc1c104615d29f99e742cb1e0c0b8a12b6",
+        "dbed49b47cd365d7a16ea1b0e6d6287d0460ec85deed9a672f1b71ef7ea2b0aa",
+        "215088993379535798e9aa4a3004b6cc4fa0e0349d4bfc7e8f051b41fa909ef8",
+        "6372488d40e4f41a3843d4749c74b20bf86fa71ed7cd013b174f2e850722fd0e"
+      ]
+    },
+    {
+      "column": 3,
+      "seconds": 70.578646208,
+      "allSixProductsReturned": true,
+      "onlyPaidColumnScale": true,
+      "maxDegrees": [
+        138,
+        193
+      ],
+      "maxTotalDegree": 253,
+      "entryDefinitionHashes": [
+        "f8e415ba7b4295c28a4838e40e0c45ae163379c19cd41dd5bf8ce035b409a11c",
+        "0c893b2d9c79a8bf80093637d0f6ed0c546106dd27b0813c15f05a4105957eb1",
+        "e3b03f2d1ca0908dc8488b4eb317737a0704b5358ccdfdfb429ed53273d5e733",
+        "fad7bd1f62e115b5de4d58f8726b3c9851803b1a3f5e4f1b8e825b01259d879d",
+        "3db3d3ebfdc166146943388670704f4aa97205dda5f709b3af0f922d8d6a1a9a",
+        "916451e2726b05ca7b667c4d8bc6f5d47c9956749357689ee8750ded062a7fe9"
+      ]
+    },
+    {
+      "column": 4,
+      "seconds": 84.783674145,
+      "allSixProductsReturned": true,
+      "onlyPaidColumnScale": true,
+      "maxDegrees": [
+        152,
+        213
+      ],
+      "maxTotalDegree": 279,
+      "entryDefinitionHashes": [
+        "ab4ae63fc48dafabef6d7c195bbc0502c9cde6547eecf479958b5bd08ea111d6",
+        "0601f57f87ce8dec4ad8c162191900062bd8163fca241654af1d31b8dcdefe70",
+        "1eccd131b5afd8e039e79d5c229b44d61e2f2b123efda92e2d2449c1a515f1a5",
+        "8184bac20e3ee096bc6ef92ad1bc63158649cff74bd8ba7c967190dfdec65752",
+        "cd946eeb00311dfaec148ad9ce1b7b1963f873c7d69c8b5e76a06541a7ddc4a1",
+        "95d13c6eb097f8640a90b42f97a76d1979d958633a0730b44dd4871810d390d2"
+      ]
+    },
+    {
+      "column": 5,
+      "seconds": 105.34263732100001,
+      "allSixProductsReturned": true,
+      "onlyPaidColumnScale": true,
+      "maxDegrees": [
+        166,
+        233
+      ],
+      "maxTotalDegree": 305,
+      "entryDefinitionHashes": [
+        "9ad41f6190b93dc07523b2955a552fa149299db72c31bbf35f119d7d420ef7b0",
+        "13c7282bef6e9df7504ddb2e8a407deaa145eb91fbba6cf62c7c1a0b4839ce66",
+        "1940688b7a02d64e66ea27298de91899de3b158dbcec7b36aa61ec4c06282385",
+        "9a740797278ac7f07f628a9157a98dff46ddf38eb3b33a38d1947a498e40713c",
+        "bb57edf2df8e15dae2a35dce5546d55418ee254793d5c3336b0ffa704fd358bc",
+        "e1ea23b18d070080886b84df0d0e07d72e6a98c54ce6f9dbc625836cf695267b"
+      ]
+    }
+  ],
+  "lastCompletedStep": {
+    "stage": "new_value_norm_fraction_free_original_cofactor_step",
+    "step": 0,
+    "allExactDivisionProductsSoFar": 30,
+    "pivotDegrees": [
+      96,
+      133
+    ],
+    "pivotTerms": 8456,
+    "allPivotZeroFibresRetained": true,
+    "noUnitOrWeightCurveYetClaimed": true,
+    "seconds": 113.45524541200001
+  },
+  "unfinished": {
+    "determinantReturned": false,
+    "adjugateColumnReturned": false,
+    "normNonzeroProved": false,
+    "newWeightCurveObtained": false,
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "frozen": "No time extension or same norm recalculation; no old 12-resultant, old 18-row module or old native weight determinant retry.",
+  "retention": "Source, definitions, actual run/stage/hash and small receipt only. No coefficients, matrices, expanded traces or encoded payloads."
+}
