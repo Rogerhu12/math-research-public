@@ -116,7 +116,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb/accepted1/reachg.5294703284893127/distplus.11391376026366629仍正；e906e Phi681.6473711639321/Gram.40616528955370923仅统计。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；d86d/accepted1/g.9679630392005256，六族返仍不可行；下一87c076仅统计。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 半波b5/8；a464/accepted1/Phi886.6498886762892/Gram.47296582200907233/reachg.6117804556256119，六族返仍不可行。 |
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 46099929359/1两input0；初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场；K12.32709940409259/s2.1573631007205925/phiπ/2真返；trial/cache效果未知。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 46099929359/1；11e66/accepted1，所报Phi/Gram/六g同22首接受但point不同；K12.318076128726846/cell885/phiπ/2、s实际null；仍不可行。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725 b1/2/ε1/8；46103106086/1/job140849792210于03:29:40Z从a6c9c101启动；新场未返。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，宽度不推曲率/reach单调性。27准备同R725源b5/8完整参数，其余原预算保；必须实际重算均值/校准/几何。

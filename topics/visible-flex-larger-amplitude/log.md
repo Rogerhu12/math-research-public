@@ -434,3 +434,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:47:21 UTC — 24半波五分之八宽度第一真实接受
 
 24实际a464第一接受，Phi886.6498886762892/Gram.47296582200907233/reachg.6117804556256119、distplus.060865075686575065仍正；六族真返，report未返，不与新R725源混。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`55a30c81a097315f70661226678fd31b625f2196`无变（非pull）。
+
+## 2026-11-28 03:47:41 UTC — 25第一真实接受及实际曲率热点
+
+25实际11e66/accepted1，Phi681.6511710299278/Gram.4061652579029476、六g标量同22首接受但全point不同。K12.318076128726846/Dlower4.117175205471979，cell885/u.8306046932331322/phiπ/2/branch1，s为null、alpha1/restoration。report未返，不继初场s或冒同完整场/速度。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`6adaf7ee65215a5e58b209f678129e9b6e9c44fa`无变（非pull）。
