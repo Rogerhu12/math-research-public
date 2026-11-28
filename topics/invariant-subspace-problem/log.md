@@ -60,3 +60,8 @@
 2026-11-28 09:37 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新18ac完整原W局部1164模型首派180秒/4GiB：只必要模P定义和N1坐标前缀，跳过旧QQχ/C11/C10/竖直三切片；真实同λ六规则、全P分母单位、χ6/qZ2、十一原式132完整列及所有primary重数同点返回。
 - 仅全原矩阵和CRT确返1才用有限A模Nakayama；不逆物理D、不将模D幂提升。新.github/workflows/invariant-subspace-8542-w-p164-local1164.yml为本题必要首次执行；全原W有限点与ISP均仍开。
+
+2026-11-28 09:39 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 18ac实际11.524541746秒/125440KiB/0：真1164有限环境全部67权逆、30189整系数、同λχ/qZ及132原列完成；完整模P九primary中七块真返单位，两重一次块各rank10/12。未返全1，不提升QQ泛型空或权零维，整余分量保留。
+- 304e新λ6十八原列首派120秒/1GiB：只真实原种子及λ,T,z作用；Gaussian仅选原DAG列，Γ^(2+3d)明确清分母，若模满秩才用实际矩阵逆证明定义det非零。没有旧λ8/cofactor/大消元重放，没有模空性直接提升。
+- 新.github/workflows/invariant-subspace-8542-phi-finite18-columns.yml是本题必要首次执行；W转原QQ几何/同点来源，Haar继续实际临界pair非线性。全部首头/新曲线/有限点未冒付。
