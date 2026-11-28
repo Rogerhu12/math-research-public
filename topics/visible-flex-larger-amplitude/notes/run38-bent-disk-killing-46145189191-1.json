@@ -166,40 +166,107 @@
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 13,
-    "utc": "2026-11-28T12:36:27Z",
+    "ordinal": 14,
+    "utc": "2026-11-28T12:37:32Z",
     "original": {
       "event": "stage",
-      "stage": 12,
+      "stage": 13,
       "kind": "alternate_shape_and_material",
       "design": "tilt44",
-      "relative_Killing": 116.63540502636587,
+      "relative_Killing": 1883.942037507727,
       "frozen_gram": null,
-      "curvature": 406962.032221928,
-      "support": -0.47120716268014096
+      "curvature": 10224032.570169672,
+      "support": -1.019840242417692
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/summary.json",
-      "bytes": 28191,
-      "sha256": "df3689d5a11bb245328b32a44100de6203bfb7862e7f9d1eac6b5fc584ac3204"
+      "bytes": 32256,
+      "sha256": "4041c4c3071c5934a274f6dff6be66cfddc1813869daedf82975bafbcea6b81c"
     },
     "complete_small_json": {
-      "elapsed_seconds": 204.38900412,
+      "elapsed_seconds": 271.20845439299995,
+      "frozen_source_npz_sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3",
+      "frozen_target": {
+        "action": "Both fixed stages use the circle action of this same original shape basis and recorded preperiod vector. A transferred stage vector is used only for reporting the material Killing residual.",
+        "cache": {
+          "min_label_spacing": 3.896473829390068e-05,
+          "min_variational_derivative": 0.21257306504899126,
+          "ode_calls": 1019,
+          "period_range": [
+            6.278303584208219,
+            7.69135299392192
+          ],
+          "positive_clock_control_lower": 0.18000000000000016,
+          "positive_clock_scale": 1.0,
+          "radial_E_interval": [
+            0.016607589274015747,
+            54.968710287731454
+          ],
+          "radial_P2_interval": [
+            0.8304442167480701,
+            1.2012874287569135
+          ],
+          "samples": [
+            96,
+            224
+          ]
+        },
+        "cache_table_sha256": "00787f3307b056326cec86b9747a4abc4e38781101a395862da8b2d21253ed26",
+        "definition": "R741 (12)-(13) of the selected source shape and normalized material vector field, unchanged through both fixed steps. One cached rounded evaluator and one independent denser quadrature are retained.",
+        "denser_table_sha256": "c29127aa7b09ee09a24af638d5383b73a69b8b8b0e9116da7a6eca0885960e4c",
+        "identical_frozen_preperiod_vector": true,
+        "independent": {
+          "min_label_spacing": 1.7363464182240662e-05,
+          "min_variational_derivative": 0.21232205134323026,
+          "ode_calls": 1142,
+          "period_range": [
+            6.278512419378235,
+            7.691802607950426
+          ],
+          "positive_clock_control_lower": 0.18000000000000016,
+          "positive_clock_scale": 1.0,
+          "radial_E_interval": [
+            0.016788775641746818,
+            55.53585901798346
+          ],
+          "radial_P2_interval": [
+            0.8298597974158518,
+            1.201306787852045
+          ],
+          "samples": [
+            152,
+            352
+          ]
+        },
+        "independent_source_field_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
+        "relative_cache_discrepancy_max": 2.4072370923562953,
+        "relative_cache_discrepancy_rms": 0.1417033282879381,
+        "source_field_before_cache_rescale_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
+        "source_field_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
+        "source_shape_sha256": "84350e3bf3b8c2573ddfc99ea7fbd8534f90d6648f00ef85d03bd858f9743561"
+      },
       "in_progress": {
         "call": 1,
-        "cost": 11.341193705520945,
-        "kind": "physical_Killing",
-        "shape_sha256": "410c506ae07844c660b5a59c9b1ad08eb99b567438f96dd2fde8de5ffc3fcfe2",
-        "stage": 13
+        "cost": 42.11281039111137,
+        "kind": "frozen_Haar",
+        "shape_sha256": "9d0fdf8a428fd2580c4e0daf38ffe642607ecebb1b82ac8a0ef5c635c310bbe1",
+        "stage": 14
       },
       "numpy": "2.3.5",
+      "orbit_integration_attempts": [
+        {
+          "radial_scale": 1,
+          "status": "complete"
+        }
+      ],
       "params_sha256": "49d65de32d08824e6721f8a9163fb13c209118b483645b668520da9baa8af087",
       "schema": "finite-disk-killing-haar/v1",
       "science_sha256": "963dc71f97d70c0a5bf80ad33da22a1ea4e3600347c8e26c2023772a111b6f6e",
       "scipy": "1.17.0",
       "scope": "Actual full-circle shape and material field solve. Haar cache, independent integration, principal curvatures, ordered chord and volume moments are numerical. Exact symmetry, same-g path, reach and geometry certificates require continuum estimates.",
+      "selected_source_stage": 13,
       "sources": {
         "bent_disk_arclength.py": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6",
         "bent_disk_killing_fields.py": "cddef04056578a3e2b14f4506c3484b8ed0ee9e0de98757a0572617924805469",
@@ -1505,6 +1572,100 @@
             "support_min": -0.18113470317728253,
             "upper_height_min": -6.293169492056803e-17
           }
+        },
+        {
+          "adjoint_abs": 1.7763568394002505e-14,
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 1883.942037507727,
+            "Killing_rms": 16.14776059137151,
+            "area_min": 0.0002954223453726699,
+            "check_shape": [
+              150,
+              448
+            ],
+            "clock_min_sample": 0.5028586780125325,
+            "max_abs_principal": 10224032.570169672,
+            "opposite_witness_to_upper": 0.8035951778284828,
+            "origin_radius": 1.2914014822405608,
+            "support_min": -1.019840242417692,
+            "upper_height_min": -1.0465897170063843e-16
+          },
+          "configuration": {
+            "angular": 128,
+            "check_angular": 448,
+            "check_radial": [
+              30,
+              99,
+              23
+            ],
+            "field_iterations": 580,
+            "id": "alternating-physical-2",
+            "lsmr": 150,
+            "max_feval": 85,
+            "mode": 14,
+            "radial": [
+              16,
+              43,
+              11
+            ],
+            "regularizer": 4e-06,
+            "spans": [
+              4,
+              12,
+              3
+            ]
+          },
+          "cost": 1.4387882721184353,
+          "design": {
+            "extra": 0.58,
+            "id": "tilt44",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.44,
+              "height": 0.37,
+              "join": 0.006,
+              "left_handle": 0,
+              "shift": 0.19
+            }
+          },
+          "directional_fd_relative": 2.0829123888416585e-10,
+          "field_count": 566,
+          "field_rescale": 0.4902064329439376,
+          "field_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
+          "kind": "alternate_shape_and_material",
+          "linear_solve": {
+            "condition_estimate": 27267.813983921766,
+            "iterations": 580,
+            "linear_norm": 9.15451497271738,
+            "status": 7
+          },
+          "nfev": 85,
+          "njev": 64,
+          "npz_bytes": 11886,
+          "npz_sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3",
+          "optimality": 22.632199905005237,
+          "point_sha256": "33e446cd02c76409f10b9b5911ffacbb358bd2f390e4aed4fe97019b18959171",
+          "score": 33.38609785408723,
+          "shape_count": 850,
+          "shape_sha256": "84350e3bf3b8c2573ddfc99ea7fbd8534f90d6648f00ef85d03bd858f9743561",
+          "solver_status": 0,
+          "stage": 13,
+          "train": {
+            "Killing_op_max": 101184.05967550137,
+            "Killing_rms": 1533.8764934474098,
+            "area_min": 5.878842322531003e-07,
+            "check_shape": [
+              68,
+              128
+            ],
+            "clock_min_sample": 0.5040543007349502,
+            "max_abs_principal": 1758319594732.644,
+            "opposite_witness_to_upper": 0.8035925198331333,
+            "origin_radius": 1.2914022951855175,
+            "support_min": -0.5557595217932655,
+            "upper_height_min": -6.293169492056803e-17
+          }
         }
       ]
     }
@@ -1537,6 +1698,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:33:02Z",
-  "observed_utc": "2026-11-28T12:36:35Z",
-  "original_scalar_line_count": 13
+  "observed_utc": "2026-11-28T12:37:34Z",
+  "original_scalar_line_count": 14
 }
