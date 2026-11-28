@@ -132,9 +132,9 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:03:19Z",
-  "phase": "complete-original-inputs-returned",
+  "phase": "scientific-entry",
   "terminal": false,
-  "child_started": false,
+  "child_started": true,
   "parent_reproduction": {
     "original_scientific_terminal": {
       "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/source/topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json",
@@ -387,7 +387,7 @@
       ]
     }
   },
-  "child_pid": null,
+  "child_pid": 2840,
   "child_returncode": null,
   "latest_observed_scalar_line": null,
   "scientific_summary": null,
@@ -409,5 +409,14 @@
   "actual_numeric_versions": {
     "numpy": "2.3.5",
     "scipy": "1.17.0"
-  }
+  },
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "child_started_utc": "2026-11-28T12:06:00Z"
 }
