@@ -130,6 +130,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)保N/G首次绝对源路径及whole稳定report/snapshot；N变另G目录，R723/mesh fresh，P同canonical/同流全块，U最终同wholeN。packet须完整report。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner13final/全typed；136+4词/peer/预算保，CLI不继末μ。22/23/26准确全族、27后参已保护待刊；normal.complete不代连续branch、mean J不代Cu。全32stage/1024整圆/922径向及cuts/六jet/全尾/两帽/mixed/allphase/晚失败与R718 marked、R716 unmarked独立待付。同g/参数五t、15science+5preview、三级空间/频率/时间须实际完成。
 
+[R727](results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md)全证：对称非反极m>0、完整残差球冠唯一正根/全逆/C²接合，Lη弧长；实际条件待付。
+
 ### 容量与持续求解
 
 [ret67](computations/legacy-preparation-descriptions-retention-67-complete-delivery.json)11旧描述净277163B，4完整canonical/35全资源/精确原字恢复及失败保；[ret66](computations/legacy-large-generated-adapters-retention-66-complete-delivery.json)净570499B、[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)净2022421B；完整源参/失败/输入恢复/旧reader先恢复责任均保，旧全账见固定open。活输入/唯一状态/未闭来源不删。README未完成；时长、阶段、失败及输入困难非终点；新raw仅runner，继续真正求解。
