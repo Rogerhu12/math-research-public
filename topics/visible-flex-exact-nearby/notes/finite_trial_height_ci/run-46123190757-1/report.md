@@ -1,0 +1,5 @@
+# Actual complete height rows on the original96 finite trials
+
+Run 46123190757/1; complete: False.
+
+The same four whole TC arrays, four whole NP arrays and original all18 RHI endpoint/chain are mandatory inputs. A passive cache keeps all2847 original seven-coefficient A9/x3 polynomials privately. The new8192-point directed contraction includes every96 trial column, both moving means, the complete physical-coordinate term and unrestricted C0 angular errors. The existing complete P96 phase/L1 vectors are consumed without phase-carrier or old-target replay. The seven complete targets are canonical height96, waist-Jacobian L2 uppers96, reference height96, actual-cap height96 and its joint radius, then height-reduced phase96 and its joint radius. These are rows on the unchanged finite trial. True PDE correction, full low/high and mean responses, independent Yb/Kb ports and the remaining Schur problem remain separate. Every genuine failure and its whole accepted radial/target prefix are preserved. Private arrays are never published.
