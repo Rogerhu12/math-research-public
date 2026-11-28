@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-unbounded-four-corners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-fu-curve-hk-uone-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/[四原NP核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保，旧848/578/整Δ0撤回。[整t0](results/R150-appendix-unit211-entire-tzero-half-total-weight-and-hk-exclusion.md)全原矩/第五列秩排空，付t/z；[旧S0三源静核](notes/2026-11-28-hk-Szero-true-original-static-source-audit-8542.md)付S。[dc888真实边界](notes/2026-11-28-unit211-hk-original-low-weighted-two-projections-resource-boundary-8542.json)180.050586秒/523040KiB/−14；真Loww及三行z度2/2/3已返，两个固定目标无完整返回，内部准确停点未打印。整个门冻结，换新原输入；Δ0及未付u/u−1全保，无新必要标量或有限/空结论。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/[四原NP核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保，旧848/578/整Δ0撤回。真整t0排空付t/z；旧S0三源静核付S。dc888真180.050586秒/−14只三行，两个固定目标无完整返、整门冻。新6516整个对称u=1图首次120秒1GiB，κ=bc t/ell、整NV斜率零先保，四原Q目标；不借旧p1的u_old1，Δ0全保，未预记结果。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头给1,T,z非自由，旧错链/bf3冻；当前D非零t0/A0闭，fd9保B/G。整B十二×二含H3零、C2已排；[真C315原理想覆盖](results/R150-appendix-unit211-Phi-zero-true-Bzero-C315-original-ideal-weight-cover.md)780d1.547025秒/0，C^22∈I6，至多315不同权点，全部原λ/f/t纤维保，未排空；a15c末JSON失败保。b8cfe整fu单y.207064秒/0，三cofactor同(6,3)曲线，未付有限/空，核稿中；fu整u3/2已闭，仅fu付2u−3。
+真四头1,T,z非自由，旧错链/bf3冻；当前D非零t0/A0闭，fd9保B/G。整B十二×二含H3零、C2闭；[C315^22原覆盖](results/R150-appendix-unit211-Phi-zero-true-Bzero-C315-original-ideal-weight-cover.md)≤315权点、全部原纤维保，a15c末JSON失败保。[fu单y与Ψ曲线](results/R150-appendix-unit211-Phi-zero-true-fu-single-y-common-weight-curve.md)16项deg(u,Q)=(6,3)、Q首一3；三cofactor同一Ψ的常数倍，不付全权有限，.207064秒/0。仅fu付2u−3，所有原y整纤维继续。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

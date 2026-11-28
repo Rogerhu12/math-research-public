@@ -1,0 +1,238 @@
+{
+  "schema": "isp-correct-Phi-fu-single-y-common-six-three-curve-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46116345726,
+  "job_id": 140890945856,
+  "source_commit": "ba9c766f01c2b90166a7f5c0b86c058e490f4a89",
+  "source_git_blob": "b8cfe0a974877cd80ef6e8e7b07375a2c9c423e1",
+  "source_sha256": "9d591ab41ed41cc7dbee8ac3e9ce326ef68348455751ae9ad1cea954a7d463cb",
+  "source_bytes": 9662,
+  "source_exit_code": 0,
+  "elapsed_seconds": 0.2070641550000012,
+  "max_child_rss_kib": 40804,
+  "resource_seconds": 120,
+  "resource_memory_bytes": 1073741824,
+  "stdout_bytes": 5423,
+  "stdout_sha256": "0524af740c0bb9a062b780f6ab6fddfc7772cf9b39e916e7b42594baf13dd19a",
+  "rules_reads": [
+    {
+      "after": "ba9c766f01c2b90166a7f5c0b86c058e490f4a89",
+      "before": "ba9c766f01c2b90166a7f5c0b86c058e490f4a89",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T06:23:15.886579+00:00"
+    }
+  ],
+  "originalChecks": 16,
+  "exactDivisions": 58,
+  "coordinate": "y=4*(u-1)^2-Q+2*ell*Q*lambda",
+  "originalRowDegrees": [
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "originalRowProfiles": [
+    {
+      "degrees": [
+        12,
+        7,
+        2,
+        0,
+        0
+      ],
+      "sha256": "b8999d25870c7e50ed21c9ec19116db82c79fa87b628ada3aa26ec79c0e79322",
+      "terms": 137
+    },
+    {
+      "degrees": [
+        11,
+        6,
+        2,
+        0,
+        0
+      ],
+      "sha256": "60f1bd8954dc6d8cc8c0c30320aa811106daf45abcd6c8ca9cb51031857052a4",
+      "terms": 101
+    },
+    {
+      "degrees": [
+        12,
+        6,
+        2,
+        0,
+        0
+      ],
+      "sha256": "34c886facea1cf58820c7f2c804ad750209eb51c0357012d570d62d198600d5c",
+      "terms": 109
+    },
+    {
+      "degrees": [
+        20,
+        10,
+        3,
+        0,
+        0
+      ],
+      "sha256": "93bfde486a5d7988a8381701dd80f6174a31cb68dd826209d70c1225d86be999",
+      "terms": 361
+    },
+    {
+      "degrees": [
+        20,
+        10,
+        3,
+        0,
+        0
+      ],
+      "sha256": "d52c6b3ea86ddfa2b7d260a2bd9ff5c3082f9083df47bbc4b0abe040da92d3fa",
+      "terms": 359
+    }
+  ],
+  "scalarTargets": [
+    {
+      "spec": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "size": 3,
+      "common_actual_multiplier_content": {
+        "degrees": [
+          10,
+          5,
+          0,
+          0,
+          0
+        ],
+        "terms": 45,
+        "sha256": "4df89234a69bf13573ea2d9e674cd212bffd6dbea66b8dfc3271ab358a0a3af4"
+      },
+      "necessary_weight_polynomial": {
+        "degrees": [
+          6,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 16,
+        "sha256": "73bbd9835fce4caa3b26b90c7dd4e413a888e4967f5ea675bb8a16594f682223"
+      },
+      "wholeOriginalFiveTermCombinationReturned": true
+    },
+    {
+      "spec": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "size": 4,
+      "common_actual_multiplier_content": {
+        "degrees": [
+          24,
+          14,
+          0,
+          0,
+          0
+        ],
+        "terms": 243,
+        "sha256": "82b00c16b6e2ad03e7cc57dd1d0bfbc8795aa1a16cc77984842d6fa0d6a346d5"
+      },
+      "necessary_weight_polynomial": {
+        "degrees": [
+          6,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 16,
+        "sha256": "41de9754da04a7eefad3c1f92adce2407373e5a80c5aa0a441398a5b6b6004a1"
+      },
+      "wholeOriginalFiveTermCombinationReturned": true
+    },
+    {
+      "spec": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "size": 4,
+      "common_actual_multiplier_content": {
+        "degrees": [
+          24,
+          14,
+          0,
+          0,
+          0
+        ],
+        "terms": 218,
+        "sha256": "f90242466454084c33fb0cb99bb7997060fec71dd26563000ca6ac8d7c66b20d"
+      },
+      "necessary_weight_polynomial": {
+        "degrees": [
+          6,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 16,
+        "sha256": "a15ae5023a8bcc446630830d3efd89233e5669673869e64629989495f00660fc"
+      },
+      "wholeOriginalFiveTermCombinationReturned": true
+    }
+  ],
+  "targetProportions": [
+    "1",
+    "9/16",
+    "1/16"
+  ],
+  "primitiveIntegerCurve": "Psi=4*first_target; monic Q degree 3, u degree 6, total degree 6, 16 terms",
+  "wholeFuExcluded": false,
+  "finiteTotalWeightSupport": false,
+  "unlocalizedNecessaryWeightModelFreeRankOverQQ_u": 3,
+  "fixedWeightYFinitenessClaim": false,
+  "wholePhiExcluded": false,
+  "ordinaryISPClaim": false
+}
