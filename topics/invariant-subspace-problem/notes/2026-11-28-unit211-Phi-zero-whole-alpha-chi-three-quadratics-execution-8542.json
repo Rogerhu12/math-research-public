@@ -1,0 +1,528 @@
+{
+  "schema": "isp-corrected-Phi-whole-alpha-chi-original-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "job_id": 140924131042,
+  "driver": {
+    "elapsed_seconds": 1.409140991000001,
+    "max_child_rss_kib": 46304,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4ec27d84a75d93b680be7c74f13270e5980d6f14",
+        "before": "b0e5dbcc91e880c0ed5dd720c64394801974f354",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T08:43:43.304181+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46127135921",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "b0e5dbcc91e880c0ed5dd720c64394801974f354",
+    "source_exit_code": 0,
+    "source_git_blob": "d0f4bb3377d2e9bfdecf41c2f9e99fdbb7072fa3",
+    "source_sha256": "1f657b714499108e3efcf000dd0afb2dc2cbf35a4e283216d418dc415db1cef6",
+    "stdout_bytes": 7290,
+    "stdout_sha256": "684d3f5ecd36df7044d1b021c2873fdfd293e7894819f8b319f59dcca25d9bbf",
+    "stop_reason": null
+  },
+  "source_basename": "2026-11-28-unit211-Phi-zero-true-whole-alpha-chi-three-original-quadratics-8542.py",
+  "limits": {
+    "source_seconds": 120,
+    "source_memory_bytes": 1073741824,
+    "driver_seconds": 135
+  },
+  "actual_stages": [
+    {
+      "alphaChiThetaZeroFibersKept": true,
+      "mPayment": "old true whole equal-weight original theorem; independently audited vm(d,d)[1]",
+      "noOldWrongPhiHeadOrModuleUsed": true,
+      "originalRReturned": true,
+      "originalVariableDegrees": {
+        "A1": 1,
+        "T": 1,
+        "V": 1,
+        "f": 1,
+        "lambda": 1,
+        "t": 1
+      },
+      "pureWeightDenominatorsPaid": true,
+      "seconds": 0.009583450999997467,
+      "stage": "new_correct_Phi_whole_alpha_chi_original_coordinate_input"
+    },
+    {
+      "actualAlphaDegrees": [
+        2,
+        2,
+        2
+      ],
+      "allNineCoefficientDenominatorsOnlyOldWeightUnits": true,
+      "allOriginalDualGramAndN0PjetReturns": true,
+      "coefficients": [
+        [
+          {
+            "d": {
+              "degrees": [
+                12,
+                6,
+                0,
+                0
+              ],
+              "sha256": "780810babe9654a8e90ed12cdcdf8d5078b7d15343f9a2586467c23175113ffc",
+              "terms": 60,
+              "totalDegree": 12,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                15,
+                7,
+                2,
+                0
+              ],
+              "sha256": "7c43460375381449c880a7bbf7616e358147220f5570a39c583ca652238aa383",
+              "terms": 151,
+              "totalDegree": 15,
+              "zero": false
+            }
+          },
+          {
+            "d": {
+              "degrees": [
+                15,
+                8,
+                0,
+                0
+              ],
+              "sha256": "8502a77e77848ef4d78cb5b1e2d5773adffad00654ce003a5334bd247e3dee5b",
+              "terms": 101,
+              "totalDegree": 16,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                16,
+                7,
+                3,
+                0
+              ],
+              "sha256": "b80b77336ce82dd2f94894a656784014dcbb831ed787b4ca74e0498a391524da",
+              "terms": 216,
+              "totalDegree": 16,
+              "zero": false
+            }
+          },
+          {
+            "d": {
+              "degrees": [
+                18,
+                10,
+                0,
+                0
+              ],
+              "sha256": "40fcf4b172010d8db674b8ffcf2d26f2d10a99f137e69244a5c43b47add9a674",
+              "terms": 152,
+              "totalDegree": 20,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                17,
+                8,
+                4,
+                0
+              ],
+              "sha256": "16e6aab26f9b2ff350f71a417f5547c771981314e7b20e9863b5aa2688726967",
+              "terms": 285,
+              "totalDegree": 17,
+              "zero": false
+            }
+          }
+        ],
+        [
+          {
+            "d": {
+              "degrees": [
+                12,
+                6,
+                0,
+                0
+              ],
+              "sha256": "780810babe9654a8e90ed12cdcdf8d5078b7d15343f9a2586467c23175113ffc",
+              "terms": 60,
+              "totalDegree": 12,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                15,
+                6,
+                2,
+                0
+              ],
+              "sha256": "4742fa276fb33fabc588859c089eb4bbdc8df206ee0049bdf96c434df5e02eb0",
+              "terms": 120,
+              "totalDegree": 15,
+              "zero": false
+            }
+          },
+          {
+            "d": {
+              "degrees": [
+                15,
+                8,
+                0,
+                0
+              ],
+              "sha256": "8502a77e77848ef4d78cb5b1e2d5773adffad00654ce003a5334bd247e3dee5b",
+              "terms": 101,
+              "totalDegree": 16,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                16,
+                7,
+                3,
+                0
+              ],
+              "sha256": "d98a986e9ad41721e15a4f25329c4f64ceb6a6024258c467bb49996802a07fc9",
+              "terms": 182,
+              "totalDegree": 16,
+              "zero": false
+            }
+          },
+          {
+            "d": {
+              "degrees": [
+                18,
+                10,
+                0,
+                0
+              ],
+              "sha256": "40fcf4b172010d8db674b8ffcf2d26f2d10a99f137e69244a5c43b47add9a674",
+              "terms": 152,
+              "totalDegree": 20,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                17,
+                7,
+                4,
+                0
+              ],
+              "sha256": "769b21e5c4ef9418cb91e2470cc346df89837d6f4234646be52730b0165f88e5",
+              "terms": 242,
+              "totalDegree": 17,
+              "zero": false
+            }
+          }
+        ],
+        [
+          {
+            "d": {
+              "degrees": [
+                11,
+                5,
+                0,
+                0
+              ],
+              "sha256": "5b71a9d475b7dcd06a3de849990dc44764d3c23fdd8ea10d90a4eb0402f4c789",
+              "terms": 51,
+              "totalDegree": 11,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                15,
+                6,
+                2,
+                0
+              ],
+              "sha256": "a932bfa705016a6d9a5cd4048a49360b38ea240ca3f4a3d7f61b31a13be33789",
+              "terms": 175,
+              "totalDegree": 15,
+              "zero": false
+            }
+          },
+          {
+            "d": {
+              "degrees": [
+                14,
+                7,
+                0,
+                0
+              ],
+              "sha256": "23e803ea021d98280510faadbf45afdeb3f20fa896b58560b2de957fee9740f4",
+              "terms": 89,
+              "totalDegree": 15,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                16,
+                7,
+                3,
+                0
+              ],
+              "sha256": "4b3d1a73fa9d65913a73333617d7baefdff28f2db361f3e29dc6c4ba135487c7",
+              "terms": 239,
+              "totalDegree": 16,
+              "zero": false
+            }
+          },
+          {
+            "d": {
+              "degrees": [
+                17,
+                9,
+                0,
+                0
+              ],
+              "sha256": "348a62305ae5556186e8ad0b7b2979dc413cbdc58c973e54c2eddf86b96cd354",
+              "terms": 137,
+              "totalDegree": 19,
+              "zero": false
+            },
+            "n": {
+              "degrees": [
+                16,
+                7,
+                4,
+                0
+              ],
+              "sha256": "8c37a355f89de409000dd8c304f774e855df6e846e6bf9944d0601473e1e2c7e",
+              "terms": 277,
+              "totalDegree": 16,
+              "zero": false
+            }
+          }
+        ]
+      ],
+      "rows": [
+        "EBe",
+        "EBo",
+        "N1"
+      ],
+      "seconds": 0.24658113400001014,
+      "stage": "new_whole_alpha_chi_three_original_alpha_quadratics"
+    },
+    {
+      "actualThreeMultiplierCommon": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0,
+        "zero": false
+      },
+      "allAlphaLeadingZeroFacesKept": true,
+      "allThreeOriginalCoordinatesReturnedAfterCancellation": true,
+      "entireActualCommonMultiplierZeroFaceKept": true,
+      "exactDivisionReturns": 36,
+      "onlyPublishedPhysicalWeightUnitsRemoved": true,
+      "ordinaryISPClaim": false,
+      "originalScalarDenominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0,
+        "zero": false
+      },
+      "originalScalarNumerator": {
+        "degrees": [
+          29,
+          12,
+          6,
+          0
+        ],
+        "sha256": "aa50028f0b1a93eece899dce179101eac3688fd45bfb3ec9c5e1b9a529955a2b",
+        "terms": 982,
+        "totalDegree": 30,
+        "zero": false
+      },
+      "retainedNecessaryChiWeightPolynomial": {
+        "degrees": [
+          29,
+          11,
+          6,
+          0
+        ],
+        "sha256": "8c5aa2dd0ddf7406aecf9665d600733904343919d1f4adb6c458f51d4095d2d7",
+        "terms": 982,
+        "totalDegree": 29,
+        "zero": false
+      },
+      "seconds": 0.3346734530000077,
+      "stage": "new_whole_alpha_chi_fixed_three_original_cofactor",
+      "thetaZeroFaceKept": true,
+      "wholePhiExcluded": false
+    },
+    {
+      "actualFourMultiplierCommon": {
+        "degrees": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "sha256": "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+        "terms": 1,
+        "totalDegree": 1,
+        "zero": false
+      },
+      "allFourOriginalCoordinatesReturnedAfterCancellation": true,
+      "allLeadingCoefficientZeroFibersKept": true,
+      "fixedSylvesterDegrees": [
+        2,
+        2
+      ],
+      "noAlphaChiThetaOrNewHeadInverse": true,
+      "originalScalarDenominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0,
+        "zero": false
+      },
+      "originalScalarNumerator": {
+        "degrees": [
+          43,
+          19,
+          8,
+          0
+        ],
+        "sha256": "dd1db28fe017caca4d4f9a7a3e5c9ef1746779ed88a0f4fdc33489244e2d3d3c",
+        "terms": 2851,
+        "totalDegree": 45,
+        "zero": false
+      },
+      "pair": [
+        "EBo",
+        "EBe"
+      ],
+      "retainedNecessaryChiWeightPolynomial": {
+        "degrees": [
+          38,
+          15,
+          8,
+          0
+        ],
+        "sha256": "850cd91a71410cca471bee422b28d09201d00195be810e62ce12a457648835d9",
+        "terms": 1797,
+        "totalDegree": 38,
+        "zero": false
+      },
+      "seconds": 0.6899269179999976,
+      "stage": "new_alpha_chi_fixed_four_by_four_original_pair",
+      "wholePhiExcluded": false
+    },
+    {
+      "actualFourMultiplierCommon": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0,
+        "zero": false
+      },
+      "allFourOriginalCoordinatesReturnedAfterCancellation": true,
+      "allLeadingCoefficientZeroFibersKept": true,
+      "fixedSylvesterDegrees": [
+        2,
+        2
+      ],
+      "noAlphaChiThetaOrNewHeadInverse": true,
+      "originalScalarDenominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0,
+        "zero": false
+      },
+      "originalScalarNumerator": {
+        "degrees": [
+          53,
+          21,
+          8,
+          0
+        ],
+        "sha256": "f9f9445e6b24eb92ef1cf4288f3fa35cf4ee75d52a8a18a9b497a33102757d18",
+        "terms": 5284,
+        "totalDegree": 54,
+        "zero": false
+      },
+      "pair": [
+        "EBo",
+        "N1"
+      ],
+      "retainedNecessaryChiWeightPolynomial": {
+        "degrees": [
+          46,
+          18,
+          8,
+          0
+        ],
+        "sha256": "90149f789bfa1b152b93b74f3890896ebceccb5729d8260a4d9af5d93a121f4d",
+        "terms": 3475,
+        "totalDegree": 46,
+        "zero": false
+      },
+      "seconds": 1.339710500999999,
+      "stage": "new_alpha_chi_fixed_four_by_four_original_pair",
+      "wholePhiExcluded": false
+    },
+    {
+      "completeOriginalNSPSNotClaimed": true,
+      "exactDivisionReturns": 110,
+      "fixedScalarTargets": 3,
+      "noCoefficientPayloadSaved": true,
+      "noOldCofactorOrFiniteMatrixGateReplayed": true,
+      "ordinaryISPClaim": false,
+      "originalRows": [
+        "EBe",
+        "EBo",
+        "N1"
+      ],
+      "seconds": 1.3397676880000091,
+      "stage": "new_correct_whole_Phi_alpha_chi_input_complete"
+    }
+  ],
+  "conclusions": {
+    "whole_current_Phi_alpha_chi_coordinates": true,
+    "original_EBe_EBo_N1_alpha_quadratics": true,
+    "fixed_original_scalar_targets": 3,
+    "all_alpha_chi_theta_and_leading_zero_fibers_kept": true,
+    "pure_weight_cover_not_claimed": true,
+    "whole_Phi_excluded": false
+  },
+  "coefficient_payload_saved": false
+}

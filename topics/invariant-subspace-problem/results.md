@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确 Φ 全 αχ 的三原二次与三个标量](results/R150-appendix-unit211-Phi-zero-true-whole-alpha-chi-original-quadratics-and-three-scalars.md)：1.409140991秒/0，完整原乘子给(29,11,6)/(38,15,8)/(46,18,8)三个必要式，全部头零保；未据此宣称纯权覆盖或有限。
+
 - [R150：W 全原值子系统的纯六／四／五次等价](results/R150-appendix-unit211-W-pure-lambda-T-six-four-five-entire-value-equivalence.md)：新N5保完整NV，原组合无D逆；在当前D非零图以s=K/(2mD)双向恢复二三矩/Delta/NV，覆盖整个b0零支，不称全部Gram充分。
 
 - [R150：正确 h=k 的小因子排除与4788个规范点](results/R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)：六源完整静审保C1/C2/C4真Gram排除，独立隔离C4错误紧凑R；正确470覆盖仅余F99/F300各一次，399基点乘完整Q2/z3/ρ2给4788，未排空。
