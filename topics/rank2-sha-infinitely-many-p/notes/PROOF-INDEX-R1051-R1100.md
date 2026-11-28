@@ -498,3 +498,8 @@ v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官
 ### R1068 §§10–14：原δ有理核、全shift和全角矩阵
 
 R1068 §§10–14给原δ三同源上的完整有理核Rδ=D102/S34(δz)，准确约去(X+4)A3后仍保O二极、两三挠五极及全部其它有限极。全theta lift刚性化与原Haar dual给λε=λ∨，物理完整连接准确相消，原负二读数返同一S34的全部shifted槽，保(−1)^k(k+1)!、δ^(−2−k)、全部Δ carry、独立H+、old及全Maass。首p−1层完整Cartier矩阵为kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位；原bad没有赋其余角零。三挠点准确零阶还排除正则系数≤4阶Darboux代换，二阶若带极至少补三阶费用。 [原完整证明](../results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)。
+
+
+### R1068 §§15–18：Lamé 两角色和两项整来源
+
+R1068 §§15–18逐原两三挠字给a³=−(u+1)、b³=−(u−1)、ab=t及真正Lamé n=1系统，Wr=2，原q3 deck角色/非恒有理水平矩阵全部锁定。六个实际Weyl项全展开成指定E(t),O(t)，得到D102=C U0+B1 U1；两乘积各自为整L102 section，极分别由33/32重零支付，原点首4恰16/49与33/49。相同p² lift及中心给全translated式，负二保所有(−1)^k(k+1)!及kη尾，不重乘δ或dual相位；两个辅助项均未另授canonical零。有限三角色模块p曲率自动零只属其自身，共同sigma/原Maass仍保。 [原全文](../results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)。

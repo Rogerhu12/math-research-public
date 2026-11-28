@@ -928,3 +928,303 @@ $$
 若只使用带极的二阶词相认，至少一项必须补偿三阶零差；
 相应三挠极必须进入完整 adjoint/Hall 读者。
 原点最高两项相配并不足以给这种全来源身份。
+
+## 15. 两个实际三角色的完整 Lamé 系统
+
+本节继续(C1)–(C23)，没有换负来源或另选一个 genus-one cover。
+为避免与原点 \(Q=pT\) 混淆，记三同源靶上的坐标为
+$$
+ (t,u)=(x(\delta P),y(\delta P)),\qquad
+ U=t^3,\qquad u^2=t^3+1,\qquad
+ \partial=\frac{d}{dz_{\rm base}}=\delta^{-1}D_P .
+$$
+原两个三挠 Weyl 字的代数因子准确是
+$$
+ a=-\frac{y(P)-\delta}{\delta x(P)},\qquad
+ b=-\frac{y(P)+\delta}{\delta x(P)},\qquad
+ a^3=-(u+1),\quad b^3=-(u-1),\quad ab=t .
+ \tag{C24}
+$$
+这些是原 psi4 来源注(24)中已按首 \(1/z_{\rm base}\) 刚性化的
+\(g_+,g_-\)，没有重新开三次根。
+
+令原 \(q_3=(0,1)\)。在 \(P\to O\) 时，
+\(a,b\sim1/(\delta z_P)\)；在 \(P+q_3\) 处用
+\(x(P+q_3)=2z_P+\cdots\)、\(y(P+q_3)=1+\cdots\)，得到
+$$
+ a(P+q_3)=\omega a(P),\qquad
+ b(P+q_3)=\omega^2 b(P).
+ \tag{C25}
+$$
+两边之比的立方为1，首项即固定该比。这支付的是原正 \(q_3\)
+的方向，不将“两个非平凡角色”留作未定的交换标签。
+
+逐项微分(C24)给
+$$
+ \frac{\partial a}{a}=\frac{u-1}{t},\qquad
+ \frac{\partial b}{b}=\frac{u+1}{t},\qquad
+ \partial^2a=2ta,\quad\partial^2b=2tb,\qquad
+ a\partial b-(\partial a)b=2 .
+ \tag{C26}
+$$
+例如 \(\partial u=3t^2\)、\(\partial t=2u\)；
+\(\partial[(u-1)/t]+[(u-1)/t]^2=2t\)。
+所以这是真实、固定的 Lamé \(n=1\) 系统，
+不是对若干 Taylor 项拟合的高阶方程。
+
+可取另一个完整基
+$$
+ g=a-b=\frac2{x(P)},\qquad
+ g'=\partial g=-\frac{4y(P)}{\delta x(P)^2},
+ \qquad
+ \partial\binom g{g'}=
+     \begin{pmatrix}0&1\\2t&0\end{pmatrix}\binom g{g'} .
+ \tag{C27}
+$$
+另一解为 \(a+b=ug-tg'\)。
+在 \(P=O\)，\(g\) 准确二重零、\(g'\) 准确一重零；
+在 \(P=\pm q_3\)，二者分别有准确一阶、二阶极。
+这些极不能从后续 differential word 中删除。
+
+原 deck generator 在此非特征基上的完整矩阵是
+$$
+ \binom{g(P+q_3)}{g'(P+q_3)}
+ =
+ \frac12
+ \begin{pmatrix}
+ \delta u-1&-\delta t\\
+ \delta t^2&-\delta u-1
+ \end{pmatrix}
+ \binom g{g'} .
+ \tag{C28}
+$$
+其迹为 \(-1\)、行列式为1、立方为单位矩阵。
+矩阵随 \(t,u\) 变化；它与(C27)的联络满足真实的水平相容，
+不能在原有理基中把它另改成一份常矩阵。
+(C25)则给其准确对角化和完整 trace-zero 两角色。
+
+## 16. 原 D102 的显式带极一阶词，不丢任一三挠支
+
+保持(B3)的原六个 \(r_j\)，以及
+$$
+ R_{\rm old}(t)=t(U+1)(U-8)(U^3-30U^2-144U-32).
+$$
+在三同源靶上，原加法公式给
+$$
+ t_+=x(R+q_3)=\frac{2(1-u)}{t^2},\qquad
+ t_-=x(R-q_3)=\frac{2(1+u)}{t^2}.
+$$
+原 \(c_{q_3}=-2^{-1/3}\) 与 raw 规范准确合成
+$$
+ \frac{2^{1/3}}{147}c_{q_3}^{34}
+       =\frac1{301056}.
+$$
+所以两词**完整相加**给
+$$
+ \begin{aligned}
+ D_{102}(P)&=\sigma(z_{\rm base})^{34}
+                         \{A(t,u)a+B(t,u)b\},\\
+ A(t,u)&=-\frac{(u+1)^{11}R_{\rm old}(t_+)}{301056},\\
+ B(t,u)&=-\frac{(u-1)^{11}R_{\rm old}(t_-)}{301056}.
+ \end{aligned}
+ \tag{C29}
+$$
+这保留原(23)的 Weyl 指数及 \(c_{q_3}^{34}\)，
+不能将两个 ordinary translate 代入(C29)。
+
+看似有分母的 \(A,B\) 实际都在
+\(\mathbf Z[1/2,1/3,1/7][t,u]/(u^2-t^3-1)\) 中。
+对原指数 \(j=1,4,7,10,13,16\)，利用
+\((u-1)(u+1)=t^3\)，有
+$$
+ A=-\frac1{301056}
+       \sum_j r_j(-2)^jt^j(u+1)^{11-j}.
+ \tag{C30}
+$$
+其中 \(j=13,16\) 的两项分别用
+\(t^{13}/(u+1)^2=t^7(u-1)^2\)、
+\(t^{16}/(u+1)^5=t(u-1)^5\) 消分母；
+\(B\) 同理。具体地，写 \(A=E(t)+uO(t)\)，则
+\(B=-E(t)+uO(t)\)，且
+$$
+ \begin{aligned}
+ E(t)&=\frac{t}{588}(U+1)(U-8)
+                    (U^3+60U^2+144U-320),\\
+ O(t)&=\frac{t}{588}(U-8)
+                    (-33U^3-36U^2+432U+192).
+ \end{aligned}
+ \tag{C31}
+$$
+这里 \(588=2^2\cdot3\cdot7^2\)。
+可直接按 \(u^2=U+1\) 验算：从(C30)取偶、奇部分，乘回 \(588/t\)，
+分别得到
+$$
+ \begin{aligned}
+ E_{\rm num}&=U^5+53U^4-284U^3-1808U^2+1088U+2560,\\
+ O_{\rm num}&=-33U^4+228U^3+720U^2-3264U-1536 .
+ \end{aligned}
+$$
+这两个有限等式与(C31)相同；不靠首项去指定整来源。
+
+用 \(a+b=ug-tg'\) 改写(C29)，定义
+$$
+ C(t)=E(t)+(U+1)O(t),\qquad
+ B_1(t,u)=-ut\,O(t).
+$$
+于是有准确全源式
+$$
+ \boxed{
+ D_{102}(P)=C(t)\,\mathscr U_0(P)
+                    +B_1(t,u)\,\mathscr U_1(P),
+ \quad
+ \begin{cases}
+ \mathscr U_0=\sigma(z_{\rm base})^{34}g
+                      =2\delta^{34}\sigma(z_P)^{102}x(P)^{33},\\
+ \mathscr U_1=\sigma(z_{\rm base})^{34}g'
+                      =-4\delta^{33}\sigma(z_P)^{102}x(P)^{32}y(P).
+ \end{cases}
+ }
+ \tag{C32}
+$$
+这是一阶词作用于**指定的 Lamé 解**，不是被§14.1排除的
+正则二阶词作用于 \(S(\delta z)\)。
+若用 base sigma 的协变导数
+\(\nabla_{34}=\partial-34\zeta(z_{\rm base})\)，则
+$$
+ \nabla_{34}\mathscr U_0=\mathscr U_1,\qquad
+ \nabla_{34}\mathscr U_1=2t\mathscr U_0 .
+ \tag{C33}
+$$
+这项共同 sigma/连接不能从(C32)删去；
+在实际 translated 读者中，(C33)始终按
+R1065(W20)–(W22)或 R1066(N8)–(N17)运输全部连接。
+
+### 16.1 全局极和原点阶的完整支付
+
+在 base 原点，\(C\) 的极阶准确为32，\(B_1\) 的极阶准确为31；
+在 base 其它点它们都正则。
+拉回后，可能的有限极只在 \(\pm q_3\)：
+\(\mathscr U_0,\mathscr U_1\) 在这两点分别有33重、32重零，
+准确抵消上述极并留下至少一重零。
+在 \(P=O\)，两条 \(\mathscr U_i\) 的首阶分别为36、35，
+所以两份乘积都从四次项开始。
+
+更精确地，设
+\(\mathscr D_0=C\mathscr U_0\)、\(\mathscr D_1=B_1\mathscr U_1\)，则
+$$
+ \boxed{
+ \mathscr D_0,\mathscr D_1\in H^0(E_0,\mathcal L_{102}),\qquad
+ [z_P^4]\mathscr D_0=\frac{16}{49},\quad
+ [z_P^4]\mathscr D_1=\frac{33}{49},\quad
+ D_{102}=\mathscr D_0+\mathscr D_1 .
+ }
+ \tag{C34}
+$$
+例如 \(C\) 的首项为 \(-32t^{16}/588\)，
+\(B_1\) 的首项为 \(33ut^{14}/588\)，
+且 \(z_{\rm base}=\delta z_P\)、\(\delta^2=-3\)；
+它们给(C34)，两数之和恰为1。
+代(C1)的 \(t,u\) 后，两份乘积都是
+\(\sigma(z_P)^{102}xP_i(x^3)\)，多项式首系数如(C34)，
+系数分母只涉及 \(2,3,7\)。
+所以这里没有由若干 meromorphic 项的未付高极相消来宣称整性。
+当前 \(p>211\) 时，两条首系数均为单位。
+
+这些 \(\mathscr U_i,\mathscr D_i\) 是由原两词唯一指定的辅助
+section，不是新分配的 elliptic canonical 类。
+(C34)不授权把原 bad 条件分别施于 \(\mathscr D_0,\mathscr D_1\)。
+
+## 17. 同一点、同一中心和全 Hall 转置
+
+对原每个 \(T\in E[p^2]\)、\(Q=pT\ne O\)，取原
+\(\mathcal L_{102}\) 对称 theta lift；\(\mathscr U_0,\mathscr U_1\)
+和 \(D_{102}\) 使用完全同一个 lift 与中心。
+令 \(R=\delta Q\)，并在物理变量 \(s\) 中写
+$$
+ C_Q(s)=C(x(R+\delta s)),\qquad
+ B_{1,Q}(s)=B_1(x(R+\delta s),y(R+\delta s)).
+$$
+乘一个固定有理函数时，实际 Weyl 字只把该函数按同一个点平移。
+因此(C32)在全部 Miller/连接后准确成为
+$$
+ \boxed{
+ \mathscr F_{D,T}(s)=
+       C_Q(s)\mathscr F_{\mathscr U_0,T}(s)
+       +B_{1,Q}(s)\mathscr F_{\mathscr U_1,T}(s).
+ }
+ \tag{C35}
+$$
+若读原整 \(p\)-pull 坐标，则 \(s=pz(v)\)，右边的有理函数
+在 \(\delta(P(v)\oplus Q)\) 上评价。
+两个乘积各自都是(C34)的真正整新字，故完整核 character、
+\(\psi=0\) 和 R1065(W13) 的 Katz 返回均逐项成立。
+不把孤立的 \(C_Q\) 或 \(B_{1,Q}\) 说成整 Katz 单位。
+
+写
+\(c_{Q,k}=[s^k]C_Q(s)\)、\(e_{Q,k}=[s^k]B_{1,Q}(s)\)。
+在每个严格 \(|s|<R_E\) 盘，原有理式和固定极给
+$$
+ v_p(c_{Q,k})\ge-\frac{32+k}{\Delta},\qquad
+ v_p(e_{Q,k})\ge-\frac{31+k}{\Delta}.
+ \tag{C36}
+$$
+\(\mathscr U_0,\mathscr U_1\) 的实际质量估值分别为
+\(36/\Delta,35/\Delta\)，其原全阶
+\(\mathcal F_{\mathscr U_i,Q}\) 仍由 R1062(G1)–(G8)给出，
+并对全部整数块保持原一致界。
+因此(C35)可按(C17)保全部 \(\Delta\) 个 shift；
+第 \(k\) 项仍严格增益 \(k\eta\)，可逐项求导。
+
+特别记
+$$
+ \mathcal J_{\mathscr U_i,T}(-2-k)
+   =B_{\mathscr U_i,T}
+        (102Z_Q)^{-2-k}\mathcal F_{\mathscr U_i,Q}(-2-k)
+$$
+为相同原 Teich/深主单位分量的完整 physical 读数。
+负二值精确为
+$$
+ \boxed{
+ \mathcal J_{D,T}(-2)=
+   \sum_{k\ge0}(-1)^k(k+1)!
+       \{c_{Q,k}\mathcal J_{\mathscr U_0,T}(-2-k)
+           +e_{Q,k}\mathcal J_{\mathscr U_1,T}(-2-k)\}.
+ }
+ \tag{C37}
+$$
+这里不再另乘 \(\delta^{-2-k}\)：
+\(C_Q,B_{1,Q}\) 已使用 \(R+\delta s\)，
+而 \(\mathscr U_i\) 已是在原 \(P\) 变量和 charge102 中的实际 section。
+这与(C18)使用 base charge34 参考的另一种记账严格不同。
+
+原负 Hall 对(C37)施加同一个
+\(d^{-1/2}\sum_T\lambda_T^-\)；所有
+\(c_{Q,k},e_{Q,k}\) 留在该和内，不能提出。
+另一份正 Hall 仍是原独立和。
+如果改回(C18)的 degree34 标签，才使用(C10)/(C14)的完整
+half pairing 和 dual covector；不再在(C37)重乘一次。
+原 non-\(p\)/\(h\)/Artin 外权、旧字和
+\(\Lambda'\mathcal M+\Lambda\mathcal M'\) 中的完整 Maass 项，
+均沿(C19)后所列同一 reader保留。
+各辅助项不另外获得一条可自由赋零的 automorphic 角色。
+
+## 18. 此固定三角色系统的准确曲率范围
+
+(C26)由度三 étale isogeny 上的两个实际代数解平凡化。
+所以其 rank-two 连接、以及加入平凡角色后的完整 rank-three
+pushforward，在所有当前好位的 \(p\)-曲率本来就是零。
+这不是 canonical bad 的新推论；
+其复单值群本来就是有限的三角色群。
+在 \(a,b\) 基中该事实即(C25)，在 \(g,g'\) 基中是(C28)。
+
+原来源还乘共同 \(\sigma(z_{\rm base})^{34}\)，
+并在(C33)、(C35)中保原连接、Lie/coherent 尺度和整个有限读者。
+没有将 \(\zeta\) 或 \(T_{\rm g}\) 换成一条新固定有理 connection。
+因此不能把上述有限子系统的零 \(p\)-曲率当作原 Hodge/heat
+对象的零 \(p\)-曲率，也不能拿其有限单值群给主门的反证。
+
+本节的实质返回是(C29)–(C37)：原两个三挠字准确给一个固定
+Lamé 系统的明确多项式词，全部极由(C34)支付，
+同一个 p² 中心和完整 shifted Hall 仍在。
+真正尚待的行依旧是这些指定有权和中不由原 source 已自动强制的
+非消失或严格赋值上界；不以(C34)的单项单位首系数替代它。

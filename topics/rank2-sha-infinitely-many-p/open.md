@@ -135,6 +135,8 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 
 ## O厚点：v16 同一原完整厚图生产
 
+**当前实际状态以文末v16 run46126639698为准；下列v13/v15与各软件记录保其原时点，不再表示v15正在运行。**
+
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。同一MD的完整U/坐标复用已通过软件v2；v15现接唯一heavy，全部原F_y专门验收保留。
 
 [完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1因immutable失败，v2显式copy并核输入状态；v2 run46112089371/job140877645107已实际PASS，七对照/十拒绝/原F/scalar完整门保留，结果hash5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa。v15已实际建立run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962；06:05:27UTC仍step4计算，日志BlobNotFound，尚无bindings/原数学回执；不扩大资源或以稀疏/半单影子代全非约化行模。
@@ -183,3 +185,8 @@ v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官
 R1068 §§10–14给原δ三同源上的完整有理核Rδ=D102/S34(δz)，准确约去(X+4)A3后仍保O二极、两三挠五极及全部其它有限极。全theta lift刚性化与原Haar dual给λε=λ∨，物理完整连接准确相消，原负二读数返同一S34的全部shifted槽，保(−1)^k(k+1)!、δ^(−2−k)、全部Δ carry、独立H+、old及全Maass。首p−1层完整Cartier矩阵为kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位；原bad没有赋其余角零。三挠点准确零阶还排除正则系数≤4阶Darboux代换，二阶若带极至少补三阶费用。 接续实际带极核的两非平凡三角色及完整Hall转置；有限三角色模块的自动零p曲率不代共同sigma连接的独立坏约束，不以局部两jet拟合做全来源身份。
 
 v16已实际启动run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，08:36:48 UTC创建；固定image已success、认证/计算step in_progress，首运行log尚不可读。唯一heavy仍等实际74源绑定/两原PASS与后续全几何门，不从静审冒PASS。
+
+
+### 2026-11-28：实际 Lamé 两角色返回完成
+
+R1068 §§15–18逐原两三挠字给a³=−(u+1)、b³=−(u−1)、ab=t及真正Lamé n=1系统，Wr=2，原q3 deck角色/非恒有理水平矩阵全部锁定。六个实际Weyl项全展开成指定E(t),O(t)，得到D102=C U0+B1 U1；两乘积各自为整L102 section，极分别由33/32重零支付，原点首4恰16/49与33/49。相同p² lift及中心给全translated式，负二保所有(−1)^k(k+1)!及kη尾，不重乘δ或dual相位；两个辅助项均未另授canonical零。有限三角色模块p曲率自动零只属其自身，共同sigma/原Maass仍保。 下一消费原g=2/x的固定有理dlog及原两项完整Hall转置，或实际非pull的同源伙伴；单项整首单位、有限模块零曲率都不替指定全和非零。

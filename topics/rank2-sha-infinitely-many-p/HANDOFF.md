@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46069822587/job140923544681，source084913a27ff7cb01fa36c301f7f6965de16d2717：
-- 公开2026-11-28 08:41:04 UTC实际partial clone/pull至346794cb1d3dbf41b95e171d8d25fedb0b8369ff；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 08:41:10 UTC至53be27939c49b5788e8a7d3cc8a74cd5732ac650；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与08:35同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14889B/hash9f345456594265d814c8e7d8cf73f6e7bca98c78cc49b2e5623c58332fc53ae9；库存3220/46103205B/tree3d12a3843ed51b4b7696209429a6e5b2fd2fc3da；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟09:41UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46069822587/job140925877839，source084913a27ff7cb01fa36c301f7f6965de16d2717：
+- 公开2026-11-28 08:51:02 UTC实际partial clone/pull至138ae9582bb18b2926b6936117a950b223dfd2ae；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 08:51:08 UTC至b79de624ae5d76363d2edea6c6a78e75deeceb37；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与08:41同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14886B/hash24dab3759b72af88872666b4721d987b10dd0713d9027c87ee9aab20af337be9；库存3221/46133697B/tree39f17cf4dec1e084acc484cdd00054625aa214b3；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟09:51UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日08:40实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## 厚点实际终态及唯一 v16
@@ -46,7 +46,7 @@ R1062–66完整证明由[open](open.md)及本卷索引直达，旧范围不变�
 
 [R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定H=S34,1/Θ2,4913及原Q形式叶V=D1+D4913已核。几何闭包r=2；受限p幂准确在inert或(17/p)=+1封闭，密度3/4。Herblot原定义/全部假设给准确最优α=1/4（ρ=2饱和）；全Θ极N∞=17πR²/area(Λ)+O(R+logR)，不因34−2a²=0消失。目标inert/square类本已p-闭合，非bad收益；不是R310同曲线H3商，不替原Smith/全j!C预算。§§8–10已付Pell整A的全H¹：A*=第一因子反演、±维36/32；原even S两维上恒等。全两极boundary仅一维pair(±1/2,0)，完整主部boundary0，全部斜极运输保留；这不是canonical零。继续同H_a实际central/wild读者。
 
-[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)旧B18/84逆/16全Katz三卷积保持。§§10–14给实际δ三同源Rδ=D102/S34(δz)完整有理核，O二极/±q3五极及全余极均保；真lift/λε=λ∨/physical全连接返回原负字。全部Δ块与(−1)^k(k+1)!、δ^(−2−k)及完整Hall保，不能移核出和。首p−1窗kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位，原bad不赋其它角零。两三挠点零阶排除正则系数≤4阶Darboux捷径；继续真实带极核/trace-zero三角色。
+[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)旧B18/84逆/16全Katz三卷积保持。§§10–14给实际δ三同源Rδ=D102/S34(δz)完整有理核，O二极/±q3五极及全余极均保；真lift/λε=λ∨/physical全连接返回原负字。全部Δ块与(−1)^k(k+1)!、δ^(−2−k)及完整Hall保，不能移核出和。首p−1窗kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位，原bad不赋其它角零。两三挠点零阶排除正则≤4阶Darboux。§§15–18又付真实a,b两三角色、Lamé1/Wr2/全deck及D=C U0+B1 U1，两个整L102乘积首4为16/49与33/49；原同T全负二shift保持，未分配各项bad零。有限子系统p曲率本已零；继续实际g=2/x的固定dlog和whole读者。
 
 
 ## 其它原门与继续方向
