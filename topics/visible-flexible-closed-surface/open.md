@@ -32,7 +32,7 @@ R235仅给原source高阶迹限制，不排C2极限。R250与准确Q消费者是
 - [冻结α10后四个真步](notes/2026-11-28-2ecf-polar-frozen-steps-01-04.md) 有自己的own计数；[M24→32真实频率扩充](notes/2026-11-28-2ecf-frozen-alpha10-first-Fourier-refinement.md) 保固定g和所有径向函数，零嵌入baseline相同，首步metric稍降而曲率变坏，均如实记录。
 - [R254锐下界](results/R254-sharp-fixed-field-warp-radius-floor.md) 和实际见证表明当前保存场仅改目标半径远不足。新的输入先锁原前缀目标、只放后缀36α；另进一步固定整个已有较小误差的前缀位置及两阶端口、只动后部位置，保全部原物理残差/几何条件，另立baseline和接受计数。这些都是明确新构造，不能冒原全空间求解或连续完成。
 
-当前所有强支都仍缺达到容差的完整度量、全闭几何及同g收敛。原准确prefix R233和literal缓存对象须分别绑定；固定段若有非零固有误差，不能把那一项称已降至机器容差。
+当前所有强全闭支仍缺达到容差的完整度量、全闭几何及同g收敛。[R258](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)已证准确原位置prefix固有误差>6.98105e−8，不能靠suffix加密消去。新的同g真实h17→33→65位置场保持原节点与准确端口，完整自身连续预算继续；将其接入原后缀也须新source和新baseline。原准确R233/R232整个带边prefix的[R259非局部reach](results/R259-accurate-whole-prefix-two-sided-reach.md)>.1013，变化后prefix及全部跨后缀点对分别支付。literal缓存与准确源、准确b与binary64 b的3/2^58差均明确处理。
 
 ## 4. 最终必须同时具备
 

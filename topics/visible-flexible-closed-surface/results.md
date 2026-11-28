@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R260：准确coast出口完整法向带](results/R260-accurate-coast-exit-normal-ribbon.md)（2026-11-28）：2048全角盒及连续±.097偏移给两定向行列式>.07439/.05209、末圈高度>.05617；水平投影单射和真实端口匹配裕量，后缀相交另付。
+
 - [R259：准确整个前缀的双侧法球与非局部reach](results/R259-accurate-whole-prefix-two-sided-reach.md)（2026-11-28）：末圈高度约束全经线，椭圆弦弧预算及边界测地凸性给全部近点短路，推出含边界整个环带reach≥1/9.867915>.1013；新后缀与改变后前缀另付。
 
 - [R258：准确强前缀固定位置的径向度量下界](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)（2026-11-28）：R233 真反参同一点严格 $1-|X_s|^2>6.98105\times10^{-8}$；后缀变化无法消除。G10六jet和曲率逐点绑定；不推及解锁前缀的新位置。
