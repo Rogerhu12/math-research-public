@@ -112,7 +112,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；原8已返；末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计。 |
 | [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2、两μ.01；b0f8/accepted3/g.9666075350730359，distplus仍正；下一trial未返。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；b6cb真实current/accepted2，Phi3824.9619403696915/Gram.6460452977630746/g.966040127402165；六族返仍不可行，下一e70a仅开始。 |
-| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；700e拒，下一1b3b仅统计。 |
+| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；1b3b真实g2.541911243209535拒，下一5f731 Phi3233.3855480813995/Gram.6568825764431082，仅统计。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb真实current/accepted1，Phi681.6511710299278/Gram.4061652579029476，六族返，reach.5294703284893127/distplus.11391376026366629仍正；完整report未返。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 真实46094430214；全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 真实46096380016；半波b5/8；初7e06/accepted0/Phi886.6498886846562/Gram.47296582169113244，reach.6122924171813162/distplus.0608650756788609仍正；trial未返。 |

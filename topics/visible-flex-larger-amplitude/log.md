@@ -370,3 +370,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:10:14 UTC — 20第二真实接受及下一试点开始
 
 20原b6cb统计点现真实accepted/current2，reachg.966040127402165/distplus.005866895954812268仍正；Phi3824.9619403696915/Gram.6460452977630746及六族返。下一e70a只开始，统计/几何未知，未回填原点值。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`1fc466912ed12d9735802469290e37ed0ad015fb`无变（非pull）。
+
+## 2026-11-28 03:10:30 UTC — 21第三观测试点实际拒绝及新试点统计
+
+21原1b3b真实g2.541911243209535/最大reach/accepted=false，第三已观测试点拒绝；下一5f731统计返Phi3233.3855480813995/Gram.6568825764431082，几何/决定未知。初场accepted0仍不可行；alpha未猜。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`a2acc225715d2ecf3df2950f465cdae22195890a`无变（非pull）。

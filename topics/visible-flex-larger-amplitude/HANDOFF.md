@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`1fc466912ed12d9735802469290e37ed0ad015fb`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`a2acc225715d2ecf3df2950f465cdae22195890a`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[原观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -22,7 +22,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 12–18 | 官方cancelled，原因未知；完整终态/末真pull/未返科学保。18末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计返。 |
 | 19=46076669320 | currentb0f8/accepted3/g.9666075350730359；下一trial未返。 |
 | 20=46079535427 | currentb6cb/accepted2/g.966040127402165，六族返；下一e70a仅开始。 |
-| 21=46084442413 | 初7e06/accepted0/g2.541916739245917；700e拒，下一1b3b仅统计返。 |
+| 21=46084442413 | 初7e06/accepted0/g2.541916739245917；1b3b真实g2.541911243209535拒，下一5f731仅统计返。 |
 | 22=46090913581 | 半波b1/2；97fbb真实current/accepted1，六族返，reachg.5294703284893127/distplus.11391376026366629仍正。 |
 | 23=46094430214 | 全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计返。 |
 | 24=46096380016 | 半波b5/8；初7e06/accepted0/g.6122924171813162，trial未返。 |

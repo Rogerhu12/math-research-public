@@ -1538,3 +1538,24 @@ maker步骤真实returncode=0，总6.160448841999994秒，实际source bce727d65
   }
 ]
 ```
+
+## 2026-11-28 03:10:30 UTC — 21第三观测试点实际拒绝及新试点统计
+
+同science00102534c51acf39f0e6f27bc34d37db3bebd6ec/launcherf600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506/PID3644/driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f/model9387a145b382e2afc2eaca4f68f7370b91697008e0720e1d8202d22bf878fd63。上一仅统计试点1b3b620acf659c388cc66933702465447fca5bf1b1b9ad3a6b9d331ef3b2190f现真实完成，Phi=3233.3855466914256/Gram=0.6568825771697846、actual_positive_physical_g=2.541911243209535、最大族reach、accepted=false。其g略低于初g2.541916739245917并不等于满足原接受条件；alpha/预测未返，不能猜方向或拒绝原因。前df8d及700e真实拒绝仍保。
+
+下一点5f731a046420ae60f207f8e6ff55b7aa0f8b84552f7b3a6ac9c80baa9a67bdc9于2026-11-28T02:45:51.481212+00:00返回统计Phi=3233.3855480813995/Gram=0.6568825764431082。截至原索引2026-11-28T03:03:27Z，其完整几何和接受决定未知，原缺值TypeError未填。current仍初7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，accepted0，Phi3233.3855489912225/Gram.6568825757487662及全部原六g不变；最大reach2.541916739245917仍正。complete_report=false/child_exit_code=null，连续费用及完整typed史未付。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1.md",
+    "bytes": 57855,
+    "sha256": "59c758c2cf0ba200fb9829889bc9e2690bac140acbe91530b4619e51ec5335a6",
+    "git_blob_sha": "e138cf2bfe5f3bce56e5e33e692de9be8410a833",
+    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
