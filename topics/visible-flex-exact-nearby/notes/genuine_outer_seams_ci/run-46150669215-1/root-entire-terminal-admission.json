@@ -1,0 +1,43 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:51:56Z",
+        "conclusion": "success",
+        "head_sha": "1fb31bc99953b31f1f4f45690a4e56aaf2b2fbc8",
+        "id": 140996405681,
+        "name": "all-1973-exterior-genuine-jumps",
+        "started_at": "2026-11-28T13:39:11Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "1fb31bc99953b31f1f4f45690a4e56aaf2b2fbc8",
+      "id": 46150669215,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T13:39:08Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:51:56Z"
+    },
+    "jobs_API": {
+      "bytes": 3451,
+      "sha256": "895f1b1a5becda03593667ee8acb3885599a6025b61729ab77f1beb7decd31e9"
+    },
+    "observed_at": "2026-11-28T13:52:06.598775+00:00",
+    "run_API": {
+      "bytes": 13362,
+      "sha256": "456c99cf3cae9572c457adc4b0a8d746c3669a747c964b909817cdeb49d78c30"
+    }
+  },
+  "whole_scientific": {
+    "bytes": 1510,
+    "sha256": "7db431ce7fea60a5e46da17641fcefbc8842753430f12a588ee345160c419380"
+  },
+  "whole_logs": {
+    "bytes": 93024,
+    "sha256": "52fa0af21015d332cad583fc0b578751267658b850203b5b481960933278927a"
+  },
+  "new_exact_dyadic_comparison_common_below_5_043e_minus9": true,
+  "entire_ordinary_nonlocal_endpoint_response_proved": false
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGJOR：全部1973真实外域接口已实际接收](results/R149-supplement-actual-all1973-genuine-exterior-interface-receivers.md)：真46150669215/1于13:51:56success；1973全成/521samecut精确0，原576根接口不重算。whole1510B7db431ce…；strict2.945707169633746e−12/natural4.066489833535994e−10/common5.042447393584633e−9<5.043e−9；12753217/44821297B私件双SHA保，非全普通/非局部响应。
+
 - [ASQ27R：真实零accepted失败后的原子负向轨迹首发](results/R149-supplement-actual-zero-suffix-failure-and-atomic-negative-Newton-continuation.md)：真46149703541/1 child1/rc1且0cells/0targets，首异常被suffix二次save掩盖，不能推nan/奇异。56whole新入口先全193trace/六有向decimal/validator/atomic后计数，并保原traceback；非有限flat仅可用原有限解析sup²×真最高权，独立计数。原全部3073/65/193/η0及同Aδ*不改。
 
 - [GMI：完整无穷输入的真实独立物理均值已付](results/R149-supplement-infinite-genuine-physical-mean-through-iterated-circle-derivatives.md)：GNF三幅伴随保全部mean，以全原1/1024幅条和真G.16作64次整圆积分；不对真振荡波假设复角小。|j|≥2^20+1/两sign/双真Airy列含shear的整HS级数严格给pointwise<1e−55、全collar普通L1<4e−61、共同C97<1e−56。34whole/26新Fraction根首次全过，第一行nonlocal仍待。
