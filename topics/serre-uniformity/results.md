@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原correlation到同源Frobenius的实际功能方程（已证明）**：[R1159 §5](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)给定Norm点先取product群的kerL逆像，再由完整ordered恒等式pushout，得到Zcorr=(n⁴+n⁻¹¹)Z0−n²ΣSym¹²(ψ_C⁻¹)Z0(E/C)，BCH同式。原根/crossed修正由实际图实现，二同源η的exact项与shear完整保留；未把V_n改成单点v_n，B_n局部读取继续。
+
 - **原Fermat全部交换补偿与交叉quadric源（已证明）**：[quadric续篇 §9](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)十个原P_ab的交换保精确p次补偿，真实114输入的Cartier单位被锁定；非reciprocal quadric有完整扭曲微分及原源读数。共同零后仍留114项，未以两个123槽的消失删掉该余项。
 
 - **原Gaussian指定高Hurwitz窗口的两位carry reduction（已证明）**：[原有限读式](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原逆椭圆积分在e/4前全整，唯一Lucas carry为2a/b_E，首不整边界pF_(e/4)=−1。R1168的全部高G降为≤12个degree≤5 p-section和安全低R/F/S的≤h读取，保实际尺度与中间G_(3p−1)，不宣系数非零。

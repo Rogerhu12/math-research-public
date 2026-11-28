@@ -323,3 +323,8 @@
 ### 2026-11-28 16:01 Asia/Taipei — Astra-serre-24b8836b-20261126
 - quadric续篇§9给全部primitive交换的精确p次补偿、实际114 Cartier单位及交叉quadric扭曲源。root全文纸核有限beta/次数界、全部角色/极阶及有序符号，修正R_ab定义漏写t^i的转录后完整即推。
 - 原双零下114余项明确保留，继续交叉源/高层限制，不以旁unit关闭原两jet；无数学程序执行。
+
+
+### 2026-11-28 16:02 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1159 §5用真实Norm点/kerL逆像/ordered群map实现原全部系数归一和同源Frobenius功能方程。root全文核group bracket、全M唯一识别的使用位置、唯一Hodge点及Vélu exact/shear和pointed Pic方向，完整即推。
+- 保跨全部E/C的V_n作用，不冒单点v_n；继续原B_n/local constant与Π2/4，无数学程序执行。

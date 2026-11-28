@@ -328,3 +328,286 @@ $$
 ### 后继 B_n 已实际构造
 
 [R1160](R1160-original-explicit-arithmetic-descent-and-unsmoothing.md) 用本篇给定 ζ_n=(V_n−v_n)Ω 构造真实算术 B_n：两个有限阶 geometric lifts、复共轭的唯一标量及两个 transvection 的有限反差分给完整连续 section。因此 (1159.19) 现已实现，n2/n5 选择覆盖全部 p>37；一般 Frobenius 的第二条 conjugating-path 数值仍单独待付，不将这次下降写成已知 F0。
+
+
+## 5. 实际 Norm reduction 给同源 Frobenius 的完整功能方程
+
+本节把 §§1–3 的同根、crossed 比较改写为真实群及 torsor 图，
+再读取唯一 Hodge frame 中的 Frobenius。
+它得到原曲线与全部实际 $E/C$ 之间的功能方程，
+不把 $\mathcal V_n$ 的作用替换成单点上的 scalar $v_n$。
+尤其这里没有宣称已经求出 R1160 的 $B_n$ 的局部值。
+
+### 5.1. 先保完整 product 群，再使用给定的 Norm 点
+
+记原最高 quotient 群为
+$$
+G_0=(A\oplus B)\oplus Z,\qquad
+(v,z)(v',z')=(v+v',z+z'+\Pi(v_4,v'_8)).
+$$
+令 $\mathscr P_0$ 是 R1147 的原 canonical 最高 torsor。
+在真正 cyclic-$n$ cover 上拉回商曲线的同一对象，
+并沿原 $\psi_C^{-1}$ 运输全部 coefficient，
+得到 $G_C,\mathscr P_C$。
+中心同样沿 $\operatorname{Sym}^{12}(\psi_C^{-1})$ 运输；
+Tate $(2)$ 因子仍是原来的因子。
+
+作真正的 product/Weil restriction
+$$
+G_{\rm big}=G_0\times\operatorname{Res}_C G_C,\qquad
+\mathscr P_{\rm big}
+ =\mathscr P_0\times\operatorname{Res}_C\mathscr P_C .
+\tag{1159.20}
+$$
+其交换商写为
+$V_{\rm big}=(v_0;(v_C)_C)$，中心是
+$Z_{\rm big}=Z\oplus\operatorname{Res}_C Z$。
+在一个分裂纤维中，后者有 $n+2$ 个原 $Z$ 槽。
+不同 $C$ 的乘法仍在各自的槽内。
+
+定义交换商的实际线性 map
+$$
+L(v_0;(v_C))=
+ \left(
+  \sum_Cv_{C,4}-(n+n^{-4})v_{0,4},\
+  \sum_Cv_{C,8}-(n+n^{-8})v_{0,8}
+ \right).
+\tag{1159.21}
+$$
+在未分裂的底上，求和是相同实际有限 étale cover 的 trace。
+$L$ 在 étale 局部满射：可只改变一个 $C$ 槽。
+这里无需反除 $n+1$ 或任何 $k_d(n)$。
+
+由 (1159.8)–(1159.12) 的原函数 Norm 和兼容根，
+$L_*\mathscr P_{\rm big}^{\rm ab}$ 有一个**已给定的**
+trivialization。若使用该节的 Galois cocycle 坐标，
+其 coboundary 正由原 $\eta_4,\eta_8$ 表示。
+本节使用这一实际 Norm 点，
+不以“一个 $H^1$ 类为零”代替指定的 quotient 标识。
+
+置
+$$
+H=\ker L,\qquad
+G_H=\ker(G_{\rm big}\longrightarrow V_{\rm big}
+                              \xrightarrow{L}A\oplus B).
+\tag{1159.22}
+$$
+所以 $G_H$ 是 product 群中 $H$ 的**逆像**，
+其中心仍为整个 $Z_{\rm big}$。
+沿上述给定 Norm 点拉回 $\mathscr P_{\rm big}$，
+得到一个实际 $G_H$-torsor $\mathscr P_H$。
+没有先把任何中央槽商掉。
+
+这些定义可在每个 $\mathbb Z/p^r$ 层作出。
+所用 quotient Norm 点来自原兼容单位根，
+各 map 只用 $n$ 的单位逆，
+故约化相容。原 primitive/all-vector 的固定单位尺度
+在两边相同，不改变 (1159.21)。
+因此也有原 $p^\infty$ 对象及其实际 filtered realization；
+这里不是仅由一个有限层的抽象同构猜一个 crystalline lift。
+
+### 5.2. 在 $H$ 上是完整 ordered 双线性身份
+
+记 $a=n^{-4}$、$b=n^{-8}$。定义到原 correlation 交换商的 map
+$$
+\begin{aligned}
+\lambda(v)_d&=k_d(n)v_{0,d}\quad(d=4,8),\\
+\lambda(v)'_{C,4}&=nv_{C,4}-av_{0,4},\\
+\lambda(v)'_{C,8}&=nv_{C,8}-bv_{0,8},
+\end{aligned}
+\tag{1159.23}
+$$
+并定义中心 map
+$$
+\mu(z_0;(z_C))
+ =(n^4+n^{-11})z_0-n^2\sum_Cz_C .
+\tag{1159.24}
+$$
+保持 R1158 原
+$b_{\rm corr}(x,x')=\Pi(x_4,x'_8)
+-\sum_C\Pi(x_{C,4},x'_{C,8})$。
+
+对两个独立输入 $v,v'\in H$，直接展开得
+$$
+\begin{aligned}
+b_{\rm corr}(\lambda v,\lambda v')
+={}&k_4(n)k_8(n)\Pi(v_{0,4},v'_{0,8})
+     -n^2\sum_C\Pi(v_{C,4},v'_{C,8})\\
+ &+nb\,\Pi\left(\sum_Cv_{C,4},v'_{0,8}\right)
+  +na\,\Pi\left(v_{0,4},\sum_Cv'_{C,8}\right)\\
+ &-(n+1)ab\,\Pi(v_{0,4},v'_{0,8}).
+\end{aligned}
+$$
+分别对 $v$ 的第四次槽和 $v'$ 的第八次槽
+使用 $H$ 的实际方程，首槽 scalar 为
+$$
+k_4(n)k_8(n)+nb(n+a)+na(n+b)-(n+1)ab
+ =n^4+nab=n^4+n^{-11}.
+$$
+故
+$$
+\boxed{\quad
+b_{\rm corr}(\lambda v,\lambda v')
+ =\mu\bigl(b_{\rm big}(v,v')\bigr).
+\quad}
+\tag{1159.25}
+$$
+这保了两个不同输入及 ordered 槽的顺序，
+不只是在 $\Lambda^2$ 或 $H^2$ 中的等式。
+
+因而
+$$
+f:G_H\longrightarrow G_{\rm corr},\qquad
+(v,z)\longmapsto(\lambda v,\mu z)
+\tag{1159.26}
+$$
+是实际群同态，中央坐标没有额外的二次 $q(v)$。
+不要求 $\lambda$ 满射；extension of structure group
+仍按这个真实态射定义。
+
+$f_*\mathscr P_H$ 的整个交换商通过 (1159.8) 的原根比较，
+准确识别为 R1158 的指定 theta quotient。
+所以它与已经构造的 $\mathscr P_{\rm corr}$
+是同一 central extension 对同一个 quotient 的两个实际 lifts。
+此时才在完整 $\mathcal M$ 上使用
+$H^0(\mathcal M,Z_r)=H^1(\mathcal M,Z_r)=0$，
+得到唯一的 quotient-preserving 同构
+$$
+f_*\mathscr P_H\simeq\mathscr P_{\rm corr}.
+\tag{1159.27}
+$$
+各层同构由唯一性自动相容。
+没有在单个 $E$、CM 点或一个 smaller open 上调用该消失。
+
+(1159.27) 是 §§1–3 的另一种实际对象表达。
+若改回指定 Galois cochain 坐标，其 Norm 点和 quotient
+identifications 正产生 $\eta_d,\rho_d,\rho'_d$，
+而 ordered transfer 产生 $R,L,K$ 及 $J_n$。
+本节没有把这些上链设为零；
+(1159.22)–(1159.27) 把它们放进了同一个实际群图。
+
+### 5.3. 唯一 Hodge 点给真实 Frobenius 功能方程
+
+在已有原 relative/pointwise comparison 的局部范围中，
+写同一 Frobenius 形式为
+$$
+\Phi_{\mathscr P}=R(v,z)\Phi_{\rm coeff}.
+$$
+原 $V,Z$ 均满足 $\operatorname{Fil}^0=0$；
+因此这些 torsors 的 Hodge 点唯一。
+所有给定的 Norm 点、product、restriction、
+群态射和 (1159.27) 都是同一 filtered realization 的 morphisms，
+必须保持该点。
+
+特别 product 的 Hodge 点落在 (1159.22) 的 reduction 中，
+其 Frobenius 向量满足 $L(v)=0$。
+将 (1159.26) 应用于这个**实际** Frobenius，
+得到
+$$
+\boxed{\quad
+Z_{\rm corr}(E)
+ =(n^4+n^{-11})Z_0(E)
+   -n^2\sum_{C\subset E[n]}
+          \operatorname{Sym}^{12}(\psi_C^{-1})
+                         Z_0(E/C).
+\quad}
+\tag{1159.28}
+$$
+右边商曲线的数值先在它自己的原 Hodge frame 读取，
+再由显示的实际 coefficient map 运输。
+若 Frobenius 重排子群或 coefficient field，
+仍沿相同 finite étale correspondence 逐槽运输后求和。
+不是先把每个 $Z_0(E/C)$ 当成 $Z_0(E)$。
+
+本式也在 BCH 中央坐标成立。确实，由 (1159.25)，
+$$
+\mu\!\left(z-\tfrac12b_{\rm big}(v,v)\right)
+ =\mu(z)-\tfrac12b_{\rm corr}(\lambda v,\lambda v).
+$$
+因此将 (1159.28) 中所有 $Z$ 同时换成
+$Z^{\rm BCH}$，无需再补二次项。
+R1166 §§20–21 与 R1168 已完成的 correlation 读取，
+可直接作为该功能方程左边的值。
+
+本式先由同一 $p^\infty$ filtered Frobenius 对象得到，
+再在原整格上约模 $p$。
+它没有把一个仅模 $p$ 的任意群同构当成无条件的
+filtered Frobenius 同构。
+
+### 5.4. 原二同源 coefficient map 的 exact 项与 shear
+
+为使 (1159.28) 的方向可逐式核准，取
+$C_i=\{O,(e_i,0)\}$，$K_i=3e_i^2+A$。
+在同一短模型上使用标准微分归一的实际 Vélu 座标
+$$
+x'=x+\frac{K_i}{x-e_i},\qquad
+y'=y\left(1-\frac{K_i}{(x-e_i)^2}\right),
+\qquad \psi_i^*\omega_i=\omega .
+\tag{1159.29}
+$$
+这些式子由二扭点加法与微分直接得到；
+$x'$ 的 formal expansion 首项为 $v^{-2}$、常数为零，
+故此处仍是归一短模型，未把 target 原点平移成另一个常数。
+
+用 $y^2=(x-e_i)((x-e_i)^2+3e_i(x-e_i)+K_i)$，
+直接微分给
+$$
+d\!\left(\frac y{x-e_i}\right)
+ =\left(x-e_i-\frac{K_i}{x-e_i}\right)\omega .
+$$
+所以作为实际 meromorphic forms，
+$$
+\boxed{\quad
+\psi_i^*\eta_i
+ =2\eta-e_i\omega-d\!\left(\frac y{x-e_i}\right).
+\quad}
+\tag{1159.30}
+$$
+不能把 $\psi_i^*\eta_i$ 简写成 $2\eta$。
+
+原 pointed Weil/Pic 识别的 pullback 是 dual isogeny：
+R1164 (1164.20)–(1164.21) 给
+$\psi_i^*K(P')=K(\widehat\psi_iP')$。
+因此本篇要求的 $\psi_i^{-1}$ 在相同 de Rham
+coefficient 上对应 $\frac12\psi_i^*$，而不是裸 pullback。
+在 cohomology 中它的确切矩阵为
+$$
+\boxed{\quad
+\omega_i\longmapsto\frac12\omega,\qquad
+\eta_i\longmapsto\eta-\frac{e_i}{2}\omega .
+\quad}
+\tag{1159.31}
+$$
+对 $d=4,8,12$ 应取该**整个**矩阵的 symmetric power；
+尤其 $\eta_i$ 的 shear 不能因最后求 trace 而提前删去。
+
+若仍在 Čech/PD cochains 上计算，(1159.30) 的 exact 项
+及 R1164 的实际 root-leading factor 同样保留，
+然后使用 R1165–1166 的真实 residue/refinement map。
+本节只在经过该已付比较的 Hodge–Frobenius coefficient
+层使用 (1159.31)。
+因 isogeny 是实际 horizontal/Frobenius morphism，
+其半线性 Frobenius 比较也含相同矩阵的 $\sigma$；
+没有把 target 与 source 的两组输入基直接等同。
+
+### 5.5. 本节完成的归一与尚未读取的量
+
+(1159.28) 给的是原 $\mathcal V_n$ 对同一中央 Frobenius
+函数的真实作用。原 $k_4(n),k_8(n)$、两次 cross 和
+$n^{-4},n^{-8},n^2$ 的方向均由实际群图支付。
+左边的 raw correlation 读数与右边的原 moment 对象之间，
+不再留一份未指明的 quotient normalization。
+
+但它仍是跨 $E$ 及全部 $E/C$ 的功能方程。
+(1159.17) 的 $v_n$ 是原绝对 $H^2$ 上的 scalar，
+不能从这里将整个右边改成 $v_nZ_0(E)$。
+R1160 的 $B_n$ 对应的正是另一份
+$\mathcal V_n-v_n$ 上链同伦；它的实际局部读取
+没有因 (1159.28) 自动给出。
+本节不宣单点原 $F_0$ 已知、不宣其最高中央值为单位，
+也没有把 $\Pi_2,\Pi_4$ 或 $\lambda$ 槽一起消去。
+
+群的 ordered 恒等式、kernel 逆像及给定 Norm 点的用途，
+已由 o2_high_coefficient 独立纸核。
+二同源 (1159.30)–(1159.31) 由原短模型与
+pointed Pic/Weil 方向逐式证明。无数学程序执行。

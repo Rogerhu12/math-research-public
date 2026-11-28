@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：abde110716843ed177ec9dc230fb84df30b80e69**（2026-11-28 16:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：bcddb199607aea6afcc91b25142d3022987adbbc**（2026-11-28 16:02 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:44:08 Asia/Taipei，Actions run46122538838/job140909965508，blob:none浅clone后真实pull --rebase至e8cff12e且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤16:34、pull≤16:44。本地15:43仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -26,7 +26,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)给真实e-block：m_jr=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)，所需精度k≤i、p^(i−k+1)；原FL窗口阶乘精确消，仍须同一整frame。
 
-[R1156–60](results.md)原四线raw/SV全noncusp、GL2/rank1下降、crossed J_n及实际算术B_n已付；h0=(hV+B_n)/v_n，n2/n5覆盖p>37，全p^r三中心保λ∞。同根/27项/七行坏参数及来源沿open/逐字前态。一般Frob仍须实际b(q⁻¹T′q)，Cartan I仅modp、原F0未读。
+[R1156–60](results.md)原raw/SV全noncusp、J_n与算术B_n均已构造，h0=(hCorr+J_n+B_n)/v_n，n2/n5覆盖p>37。R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0−n²Σ Sym¹²(ψ_C⁻¹)Z0(E/C)，ordered/BCH同式；ψ_i⁻¹在原dR基为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。不是v_n单点乘法；一般B_n/原F0仍须实际读，三中心λ∞不删。
 
 [R1163–66](results.md)原完整43格整比较、第一槽Miller/全塔/实际SS frames、ambient与几何normal/两开集residue SDR、actual F/Q及全部ordered primitive同伦均付，完整式沿原文/逐字前态。tame trace无log槽e·第0块、log槽第0块；Tr x^[d]=0后才消theta leading，原d4/8用W⁻¹，W=−z³y。Steinberg β=Li₂†+AB₀+J的整全尾/carry/全部原common log角与universal全塔同根均付；h_R=AB−β，通用Z=𝔟(A,A)−H且原λ正号。固定CM整数α/[1+α]端点和same-coset全保，不能重列source比较缺口。
 

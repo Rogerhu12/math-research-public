@@ -33,7 +33,9 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 ### 原整 filling、算术未平滑与连续矩来源
 
-[R1156–60](results.md)已付原同根四线整cochain、SV真正三函数/raw全noncusp及GL2/rank1下降、最高Sym12的Gcorr与原moment/root gauge。crossed L/R、ηd及J_n给Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。R1160以C2/C3 lifts、λ=−β(c)/2、两transvection Newton反差分构造实际dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n；n2除43/127、两例n5。全部p^r三中心以v_d∞=(1−p^d)B_(d+2)/(d+2)的单位截面严格兼容，保21(1+p⁴)/11。完整ordered/crossed/arith公式沿本次逐字归档及各原文，不重做。一般Frob仍须读原b(q⁻¹T′q)，当前是原F0/全深盘实际数值。
+[R1156–60](results.md)原同根raw/SV全noncusp及GL2/rank1下降、crossed J_n给Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。R1160原C2/C3 lifts、λ=−β(c)/2、transvection Newton给dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n；n2除43/127、两例n5，全p^r三中心及v_d∞/λ∞均保。完整ordered/crossed/arith式沿原文；B_n一般conjugating-path局部读数仍开。
+
+R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0−n²Σ Sym¹²(ψ_C⁻¹)Z0(E/C)，ordered/BCH同式；ψ_i⁻¹在原dR基为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。不是v_n单点乘法；一般B_n/原F0仍须实际读，三中心λ∞不删。
 
 [R1147 §§17–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)进一步付真正连续all-vector moment与原primitive最高整塔的同源运输。Λ°是模商lim Rr[E[p^r]]/Rr[0]，非环商；原根过渡y_Q=∏_(pP=Q)x_P^p给固定norm来源，无有限标签任意TpE提升。全部非零点Tate orbit计g而非φ(g)，故Mprim_d=(1−p^d)Mtilde_d，d4/8/12；原I_d(e|N)给唯一零次ρ，完整ordered二次修正保留。群尺度(a,b,a;ab,ab,ab)，a=1−p⁴,b=1−p⁸，将λ0=21/11认回λ∞。原S/U的Z[1/6]恒等式在全部p^r点成立，含非primitive/非自由rank1；逐层实际完成Gcorr和normquotient后，H0/H1Zr0才给唯一相容中心。R1159/60整cochains及n2/n5未平滑识别原最高Sym12TpE(2)塔。它不是raw各槽任意四线分解逐项兼容的断言。
 
@@ -61,7 +63,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1163–R1166](results.md)原完整43格的finite integral syntomic比较、E^d signed及E12 paired projectors、Poincaré coeval−1/2、同一λ∞槽和全primitive groupoid均已付。R1164第一槽Weil inverse-Miller、刚化line、chord/层间同根、SS actual frames及全PD cocycle保全；R1165–66给原ω/xω residue SDR、actual U Newton/V Hensel/p-small I、ambient geometric normal/Čech完整SDR、F/Q及ordered T h−H。不能再把这些source/模型接口列作未付。完整公式保于[本次逐字前态](open-archive-2026-11-28-before-unramified-coefficient-reading.md)及各原文。
 
-R1166 §§9–13原第一层tame S_L=⊕z^jS_F，g=u−p=ze−p，ψτ交换且N_z=eN_u、dlogu=e dlogz；actual Cor无log槽e·第0块、log槽第0块，两个L因子用same-coset。原Tr x^[d]=0后才消theta leading/幂项；d4/8取原V₂=−1/(z³y)，来源¼[Δ/(16y⁴)]无新根。输入恰k_d⁻¹(A₀dlogu,eB₀)，A/B是x^[d]NlogV₂与x^[d]p⁻¹log(V₂^p/ψV₂)，全部normal及高层gauge保留。
+R1166 §§9–13原tame trace与全部F/Q/ordered比较已付：S_L=⊕z^jS_F，ψτ交换、N_z=eN_u；无log槽e·第0块、log槽第0块，同coset乘积保留。Tr x^[d]=0后才消theta leading；原d4/8输入V₂=−1/(z³y)，来源¼[Δ/(16y⁴)]无新根，normal与高层gauge沿原文。
 
 R1166 §§14–18已付原Steinberg整β=Li₂†+AB₀+J、全部normal carry及共同log三坏角，h_R=AB−β、Z=𝔟(A,A)−H且λ∞为正。完整有限精度/whole universal同根/固定CM整数α和[1+α]端点均沿原文与逐字前态；不得删线性carry或替换Teich形式。
 
