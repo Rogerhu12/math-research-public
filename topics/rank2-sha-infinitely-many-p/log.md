@@ -65,3 +65,9 @@ run46121926002/job140908102059/source4560405bdc2c3e546551f6866d79c5eb1a9919c5，
 软件回执完整保scope，不写可重算日志/矩阵，不预报原306性能/内存。arithmetic准备未来明确新method的未挂ref生产草稿，原69 pins/全部数学门继续，须四graph+四outer且真实F旧路；唯一v15仍不改。
 
 推前actual run46073965457/job140909439798：公开2026-11-28 07:41:37 UTC至2899a8a89a5aad2cb84df6b13d6d031c789f73cf，私库2026-11-28 07:41:45 UTC至9ce639212a6c0858848e599e46b1b39c5a117db3。四README与07:38同blob、QUEUE本题未变；日志14887B/hashb35bded020eb6add9b9803cefc47909f93e2966b774f4809261e01c1fdc16652；库存3213/45868235B/treee49b5e5c6dbe0b5c0512947fa2c0b1c76839bce7，无>5MB，三旧必要gzip不变。H更新实际头与已读规则。
+
+## 2026-11-28 07:49:13 UTC — 原中心共同整下降与精确交换余类
+
+root核R1062§11全scheme对称section的显式c=B/A^((q+1)/2)、q阶和reflection条件，张量幂与原中心乘法律；完整kernel不变性给Cβ的实际一级下降。H14–H16沿原Galois-coherent lifts及平坦性给μd径向不变环，未扩大到principal norm-one群。全部Weil方向、原T′−βT相位、κβ≡34q_p(17)和G62/G63的完整厚输入限制逐式保留。只修G55a显示定界，不改变数学。附节10365B/hashbd1b91f6f140ee7f642ce40edac8ed71078d306df175d251973bd2e188ab9151；全文62638B/hashf5e6d4884cb6dc9999fc95b2182aee21ca0942f0a54e6aa1ad4bda28e0cce38a。不计Fermat余类为已付无穷非零，继续完整bare Katz/Frobenius与translated算子。
+
+推前actual run46073965457/job140910805666：公开2026-11-28 07:47:39 UTC至844a27187b483a0f39503b9d0f96cbd9c6a4a4bd，私库2026-11-28 07:47:44 UTC至7f1396b4a482c9e10e7d20c86f9cb9ed3df18a7f。四README与07:41同blob、QUEUE本题未变；日志14887B/hash5ef4a27e40d5e1bfa51c5745eabeae96e15200036b93b3606398cff8f3208bcb；库存3213/45873503B/tree9db1b4cf84edfc47621a7b70886d0c9109ad4255，无>5MB，三旧必要gzip不变。H记录实际头及已读规则；精简H的软件摘要但完整原文/回执均保。

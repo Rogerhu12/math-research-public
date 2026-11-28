@@ -454,3 +454,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### 逐实际来源同 MD 软件真实 PASS
 
 [完整回执](2026-11-28-original-streamed-denominator-return.md#12-actual-complete-public-software-pass)：source4560405bdc2c3e546551f6866d79c5eb1a9919c5/run46121926002/job140908102059，结果1ae2efddbb3dec8f17a8a004266efcb8a939db6da1653bb6ae82bc4414f4f55a。34源全核，9全比较/15拒错、4真实software engine+4post-ideal outer、2原F_y及scalar兼容均通过，9.888秒。实际X预算拒绝也准确返回；仅软件，不是原306几何/性能或最终数学PASS，v15未改。
+
+
+### R1062 §11：实际对称中心的一级下降及 Fermat-17 交换相位
+
+[R1062](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G52）–（G63）在全有限平坦群上显式构造唯一对称 order-p² lift，保张量幂和原正 Schrödinger 方向。实际中心比下降为共同整单位 Cβ(Q)，原 μd-Hall 作用使其为 O_L[W]/(W^p−pW) 中的径向函数；仅此部分可在同一 norm-fibre 提出。J 的真实 commutator 为 E_p^((34−2Normβ)/p)，余类准确等于34q_p(17)，原指定 T′−βT 另给不可删的 ε_Q。完整厚 G[p]×G[p] 加法核返原 Hall 全和；高 jet 不免费满足 P(P(v))=0，不由 Fermat 余类或六重零断言非消失。

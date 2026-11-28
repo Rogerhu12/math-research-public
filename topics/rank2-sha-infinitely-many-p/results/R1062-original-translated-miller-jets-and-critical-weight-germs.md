@@ -1437,3 +1437,334 @@ $34-2\nu$ 仅保证一级 kernel 角色相消，一般不被 $p^2$ 整除。
 (G48)--(G51)也没有把 canonical 坏升级为 Hall 精确零，
 没有把已有自动的 $a_\Delta$ 同余另计为独立 forcing，
 更没有把逐字单位或 Weierstrass degree 当成 whole Hall 非消失。
+
+## 11. 原中心的共同一级下降与精确 Fermat-17 余类
+
+本节继续(G40)--(G51)。它支付此前保留的
+$\mathscr C_{34,T}/\mathscr C_{2,T'}$，包括原指定
+$T'\ne[\beta]T$ 时的实际相位。
+以下的整 symmetric section 是逐项构造的 scheme section，
+**不是 theta 群的群同态**。
+
+### 11.1 对称 lift 的全 scheme 构造
+
+先在 $\mathcal G(\mathcal M_N)|_{G[p^2]}$ 的任一 fppf
+局部取一个整 lift $g$；仍写 $q=p^2$。
+原 symmetric 线丛给 involution $\iota$，在底群上为 $[-1]$，
+在中心 $\mathbf G_m$ 上为恒等。
+置
+$$
+ A=\iota(g)g,\qquad B=g^q .
+$$
+二者都是底环中的单位，并且
+$A^q=B^2$。例如 $\iota(g)=Ag^{-1}$，取 $q$ 次幂并用
+$\iota(g^q)=B$ 就直接得到这个式子。
+令
+$$
+ \boxed{
+ c(g)=\frac{B}{A^{(q+1)/2}},\qquad
+ s_N(T)=c(g)g.
+ }
+ \tag{G52}
+$$
+准确有 $c(g)^2A=1$、$c(g)^qB=1$，所以
+$$
+ \iota(s_N(T))=s_N(T)^{-1},\qquad s_N(T)^q=1 .
+$$
+若将局部 lift 换成 $ag$，则
+$A\mapsto a^2A$、$B\mapsto a^qB$、$c\mapsto a^{-1}c$。
+故 $c(g)g$ 完全不变，并沿 torsor 真正下降为全
+$G[p^2]$ 上的整 section。没有取 $p$ 次根或 $p^2$ 次根。
+
+唯一性同样是 scheme 层面的：
+两个这样的 lifts 的比 $a$ 满足 $a^2=a^q=1$，
+由 $q$ 奇数严格得 $a=1$。
+这使(G52)与张量幂、原 Galois 作用和实际模型运输相容。
+在原 Schrödinger 字
+$W(a,b)f(A)=\zeta^{b(A-a/2)}f(A-a)$ 中，
+$W(a,b)^q=1$，reflection 将它变为
+$W(-a,-b)=W(a,b)^{-1}$。
+故(G52)确回 R1061(E)及 R1065(W9)的原对称 Weyl lift；
+原另外的 Hall 系数仍是外权，不被吸收或删除。
+
+以原拉回框架在 $v=0$ 评价，记
+$$
+ C_N(T)=s_N(T)|_{v=0}\in\mathcal O_{G[p^2]}^\times.
+$$
+它在原纯 Weyl 字上正是 $\mathscr C_{N,T}$。
+而(G41)--(G42)的 normalized multiplier 给
+$$
+ \boxed{
+ m_{N,T}(v)=C_N(T)\mathfrak m_N(v,pT),\qquad
+ C_N(T)=C_1(T)^N,\qquad
+ C_N(R)=1\quad(R\in G[p]).
+ }
+ \tag{G53}
+$$
+中间式使用线丛的**张量幂**，不是把群元素的 $N$ 次乘法误作
+同一个底点上的 lift。最后一式来自原 kernel canonical
+pullback lift，其 multiplier 恰为1，并满足(G52)两条件。
+
+### 11.2 固定实际 commutator 的完整中心乘法律
+
+为完全锁住方向，令 $E_q(T,S)$ 表示
+$\mathcal M_1=[p]^*\mathcal O_E(O)$ 的实际 theta
+commutator；$\mathcal M_N$ 的 commutator 是 $E_q(T,S)^N$。
+在正 Schrödinger 标记下，
+$W(a,b)W(c,d)$ 的交换因子是
+$\zeta^{bc-ad}$。
+半指数均指奇数阶单位根群中唯一的除2，不取新平方根。
+
+由(G52)的唯一性，严格有
+$$
+ s_N(T+S)=E_q(T,S)^{-N/2}s_N(T)s_N(S).
+$$
+本处的次序可直接在原 coefficient action 中核对：
+$W_TW_S$ 的 multiplier 是
+$m_T(v)m_S(v\oplus T)$。
+故在 $v=0$ 评价，得到
+$$
+ \boxed{
+ C_N(T+S)=
+ E_q(T,S)^{-N/2}\,
+ C_N(T)C_N(S)\,
+ \mathfrak m_N(T,pS).
+ }
+ \tag{G54}
+$$
+这显示了 $J$ 的两个参数的准确次序。
+若改用反向 Weil pairing，所有相位须同时反向；
+本节始终用上述原 theta commutator。
+
+### 11.3 中心比在 Q 层的共同整函数
+
+记
+$$
+ \nu=N_{L/\mathbf Q_p}\beta,\qquad
+ e=34-2\nu\in p\mathbf Z_p,\qquad
+ \kappa_\beta=e/p\in\mathbf Z_p.
+$$
+在 $G[p^2]$ 上定义实际整单位
+$$
+ \widetilde C_\beta(T)
+       =\frac{C_1(T)^{34}}{C_1([\beta]T)^2}.
+$$
+$[\beta]$ 在这里按其在 $p^2$ 挠点上的准确作用使用；
+可由任意 $\alpha\in\mathcal O_K$、
+$\alpha\equiv\beta\bmod p^2$ 实现，该值与 lift 无关。
+
+先取 $R\in G[p]$。
+由(G53)--(G54)、$E_q(T,R)\in\mu_p$ 和 $p\mid e$，
+准确有
+$\widetilde C_\beta(T+R)=\widetilde C_\beta(T)$。
+因此真正有限平坦下降给
+$$
+ \boxed{
+ C_\beta(Q)\in\mathcal O_{G[p]}^\times,\qquad
+ C_\beta(0)=1,\qquad
+ \widetilde C_\beta(T)=C_\beta(pT).
+ }
+ \tag{G55}
+$$
+这不是对不同 $T$ 分别选单位后作插值。
+其系数在原 $L$ 中，$C_\beta-1$ 属于 $G[p]$ 的
+augmentation ideal，且具有唯一 degree-$<q$ 的整 $Q$ 代表。
+原 $\mu_6$ 刚性化还给 $C_\beta(\epsilon Q)=C_\beta(Q)$；
+非恒项只能有 $Q$ 次数为6的倍数。
+
+令 $Q=pT$、$R=pS$。把(G54)的 $N=34$ 与
+$N=2$、底点 $[\beta]T,[\beta]S$ 相除，再用(G44)，得
+$$
+ \frac{C_\beta(Q+R)}{C_\beta(Q)C_\beta(R)}
+       =E_q(T,S)^{-e/2}\,J(Q,R).
+$$
+由实际 Weil pairing 的兼容性
+$E_q(T,S)^p=E_p(pT,pS)$，这是
+$$
+ \boxed{
+ \begin{aligned}
+ J(Q,R)
+  &=E_p(Q,R)^{\kappa_\beta/2}
+      \frac{C_\beta(Q+R)}{C_\beta(Q)C_\beta(R)},\\
+ \frac{J(Q,R)}{J(R,Q)}
+  &=E_p(Q,R)^{\kappa_\beta}.
+ \end{aligned}}
+ \tag{G56}
+$$
+两式都是 $G[p]\times G[p]$ 上的全 scheme 恒等式。
+它们只限制(G44)在第一变量也落在 $G[p]$ 时的真实值；
+不把这一有限限制冒成全部 $w$-方向 formal series 的公式。
+
+还可精确支付这个共同中心在**原 finite Hall 群**上的行为。
+R1063(H14)--(H16)已沿原 Galois-coherent lifts 证明
+$C_N(hT)=C_N(T)$，$h\in\mu_d$；
+$N=2$ 的证明是同一个完整 Klein/$T_{\rm g}$ 等式的二次幂，
+没有新归一。因为 $\beta\in L$ 与 $h$ 交换，
+$C_\beta(hQ)=C_\beta(Q)$。
+这些是在全部特征零点的实际等式；$\mathcal O_{G[p]}$ 对
+$\mathcal O_L$ 平坦，故也给全 scheme 等式。
+用 degree-$<q$ 的 $Q$ 基及 $p\nmid d$，其不变环准确为
+$$
+ \boxed{
+ \begin{gathered}
+ (\mathcal O_{G[p]})^{\mu_d}
+       =\mathcal O_L[W]/(W^p-pW),\qquad W=Q^d,\\
+ C_\beta(Q)=\overline C_\beta(W),\qquad
+ \overline C_\beta(0)=1,\qquad
+ v_p(C_\beta(Q)-1)\ge\frac1{p-1}\quad(Q\ne0).
+ \end{gathered}}
+ \tag{G55a}
+$$
+所以同一个原 norm-fibre 中，这一部分确是一个共同单位。
+本式不把范围扩大到 norm-one principal subgroup；
+也不把边界估值 $1/(p-1)$ 免费放入 log/exp 的严格收敛盘。
+原 $T'$ 与 $[\beta]T$ 的差仍须按下面(G59)处理。
+
+### 11.4 余类恰为原 Fermat-17 项
+
+$\beta^d=17$ 只给 $\nu^d=17^2$，并不使 $\nu=17$。
+写 $\nu=17(1+pa)$。由
+$17^{p-1}=1+p\,q_p(17)$ 及 $d\equiv1\bmod p$，
+模 $p^2$ 比较 $\nu^d=17^2$，得到
+$$
+ a\equiv-q_p(17)\pmod p,\qquad
+ q_p(17)=\frac{17^{p-1}-1}{p}.
+$$
+因此
+$$
+ \boxed{
+ \kappa_\beta=\frac{34-2\nu}{p}
+       \equiv34q_p(17)\pmod p.
+ }
+ \tag{G57}
+$$
+在原正 $N=34$ 坐标中，若 $T,S$ 分别由
+$(a,b),(c,d)$ 标记，则
+$E_q(T,S)^{34}=\zeta^{bc-ad}$。
+故(G56)最后一式准确读为
+$$
+ \boxed{
+ \frac{J(pT,pS)}{J(pS,pT)}
+       =\zeta_p^{\,q_p(17)(bc-ad)}.
+ }
+ \tag{G58}
+$$
+这里 $\zeta_p$ 是原 R1054/R1065 的方向；
+若改写成 R716 的 $e_p=\zeta_p^{-1}$，指数必须同时取负。
+没有假设 $q_p(17)$ 非零，也没有声称其对无穷多个本项目
+素数为单位。$\kappa_\beta\equiv0\bmod p$ 时，(G56)的这一
+commutator 确为平凡；所有原公式仍然成立。
+
+### 11.5 原指定参考 lift 的剩余相位
+
+现在恢复原指定 $T'$，而不将它改成规范 $[\beta]T$。
+置
+$$
+ Q=pT,\qquad S_Q=T'-[\beta]T\in G[p].
+$$
+由(G54)对 $N=2$ 应用，
+$$
+ C_2(T')=E_q([\beta]T,S_Q)^{-1}C_2([\beta]T).
+$$
+所以原完整中心比准确为
+$$
+ \boxed{
+ \frac{\mathscr C_{34,T}}{\mathscr C_{2,T'}}
+   =\epsilon_Q C_\beta(Q),\qquad
+ \epsilon_Q=E_q([\beta]T,S_Q)
+           =E_p([\beta]Q,S_Q)\in\mu_p.
+ }
+ \tag{G59}
+$$
+这里每个相位都是原点/lift 的确定值；
+$S_Q$ 保留原 CRT、有限字和参考 lift 的选择。
+原外权若已另乘 $\chi_r$ 或其它 Artin 角色，仍在
+(G48)的 $\lambda_Q,\lambda'_{[\beta]Q}$ 中；
+不能把它们合称为规范 Weyl lift 后删去。
+改变描述用的 level basis 时，应同时运输
+$E_p,Q,S_Q$，并非另选一套相位。
+
+因此(G46)可完全用一个共同整函数写成
+$$
+ \boxed{
+ \begin{gathered}
+ \mathcal R_\beta(w,Q)
+    =C_\beta(Q)J(w,Q)
+        \frac{f_{34}(w\oplus Q)}
+             {f_2([\beta](w\oplus Q))},\\
+ A_{34,T}(v)=
+       \epsilon_Q A_{2,T'}([\beta]v)\,
+                    \mathcal R_\beta(P(v),Q).
+ \end{gathered}}
+ \tag{G60}
+$$
+$\mathcal R_\beta$ 保留(G47)的准确六重零和所有整系数。
+其 $Q$ 方向仍为一个有限平坦的共同来源，
+不是每个 Hall 点可自由选的单位。
+其中 $C_\beta$ 可由(G55a)在同一个 norm-fibre 内提出；
+$J(w,Q)$、参考字和下面的原相位仍不能一并提出。
+
+### 11.6 完整有限 Hall 算子与其可消费范围
+
+对原 norm-$r$ 全点集，把(G60)逐字代回，得到
+$$
+ \boxed{
+ P_{34,r}(v)=\frac1{\sqrt d}\sum_{\operatorname{Norm}Q=r}
+     \lambda_Q\epsilon_Q\,
+     A_{2,T'_{[\beta]Q}}([\beta]v)\,
+     \mathcal R_\beta(P(v),Q).
+ }
+ \tag{G61}
+$$
+这里 $\operatorname{Norm}Q=r$ 始终指 R716 的实际固定点标签，
+不是把 $v_Q$ 的场范数定义成 $r$。
+参考的原权仍为 $\lambda'_{[\beta]Q}$，不等于1的比例
+$\lambda_Q\epsilon_Q/\lambda'_{[\beta]Q}$ 必须保留。
+(G49)--(G51)现在可把
+$R_{T,k}$ 精确替换为
+$\epsilon_Q[w^k]\mathcal R_\beta(w,Q)$；
+这给全部 native carry 的同一个共同核，
+不从逐字商推出整 Hall 比值的乘法相消。
+
+还可给一个真正的有限加法返回。
+置
+$$
+ B_\beta(Q)=C_\beta(Q)\,
+                  \frac{f_{34}(Q)}{f_2([\beta]Q)}
+       \in\mathcal O_{G[p]} .
+$$
+由(G56)，在 $w,Q\in G[p]$ 的完整厚积上有
+$$
+ \boxed{
+ \mathcal R_\beta(w,Q)
+   =E_p(w,Q)^{\kappa_\beta/2}\,
+       \frac{B_\beta(w\oplus Q)}{C_\beta(w)}.
+ }
+ \tag{G62}
+$$
+因此当实际输入满足 $P(v)\in G[p]$，也就是在
+$G[p^2]$ 的完整 finite-flat 输入上，(G61)可严格改写为
+$$
+ \boxed{
+ C_\beta(P(v))P_{34,r}(v)
+  =\frac1{\sqrt d}\sum_{\operatorname{Norm}Q=r}
+     \lambda_Q\epsilon_Q\,
+     A_{2,T'_{[\beta]Q}}([\beta]v)\,
+     E_p(P(v),Q)^{\kappa_\beta/2}
+     B_\beta(P(v)\oplus Q).
+ }
+ \tag{G63}
+$$
+它是原参考字和 canonical 有理来源的明确有限算子，
+包括 Fermat-17 的原 commutator、全部中心和外权。
+没有增添一个未授权的 tame 输出投影。
+(G62)--(G63)的限制条件是整个 scheme，
+而非仅 reduced 点；但它们并未给任意高阶 $v$ jet
+免费加上 $P(P(v))=0$。高 jet 仍须用(G50)的完整公式。
+
+本节没有从 $q_p(17)$、primitive coset 或六重零推
+Hall 非消失。它支付的新增内容是原中心的实际共同整函数、
+一级 theta-extension 的精确 Fermat 类，以及带原权的有限
+加法核。要把它用于 canonical 坏或严格
+$v_p\mathrm{Hall}<2/(p-1)$，仍须消费同一个完整读者，
+不能把一次 finite Fourier 改写算作新的中央零。
