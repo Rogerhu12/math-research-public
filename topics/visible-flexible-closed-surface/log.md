@@ -454,3 +454,5 @@
 2026-11-28 09:31:13 UTC — Astra-visible-flex-2ecfcd69-20261128：原尾C4帽值余项与物理二分真实覆盖17470..17499及0..19，全角U7.700503e−10/5.784268e−13；旧粗阶/常数fallback失败界如实保留，未冒全域。
 
 2026-11-28 09:31:25 UTC — Astra-visible-flex-2ecfcd69-20261128：原真实cuff至有限内端整个collar×全角已自然0/33.944s，104连续片U1.957402518e−9<B；原quintic/真u/同实际5778场，全球w范围仅值用，不冒导数。
+
+2026-11-28 09:31:37 UTC — Astra-visible-flex-2ecfcd69-20261128：Original fixed metric, complete fast assembly and accepted steps 7–14. G10 R14² 0.0269206652, G11 metric/κ/held 0.2127421876 / 47.02782995 / 0.7238793437. Finite observations.
