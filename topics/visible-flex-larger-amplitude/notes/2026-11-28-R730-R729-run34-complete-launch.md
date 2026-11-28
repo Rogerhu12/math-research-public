@@ -76,3 +76,22 @@ The command verifies pinned source inputs and reconstructs the complete controll
   }
 ]
 ```
+
+## 2026-11-28 11:40:29 UTC — 34自身R730初始统计已返，完整几何尚未返回
+
+真实run46135301432/1、job140949157288、science source c3228e9dd8668d9e03467a886eaa80eed21bd0f3/PID3687。10:56:30.735141Z initial-statistics-returned：driver5253389e2a281b09e0e1ba4a56ba6062f33624c39838c650d869413541149867、model989fec338c43e17cff092c7ed4ad6291e42ab06396162d1c732e52e4664e567c、math_source4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94、target957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9。自身initial/current point7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，Phi37754.690332034064/Gram.9309657725734736、accepted0。最新已读索引观测11:23:24（不是读取时刻），normal自身11:20:59、cached1441/closure8762/logical failures0；官方运行仍in_progress，完整初始/current几何、六族/K、试探/接受/终态/typed未返。同坐标向量不借其他模型几何，R731冻结参考亦不替任意outer场。child null、complete_report=false、stop_reason=null，pure66120未执行，全部缺字段错误保原索引。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46135301432-1.md",
+    "bytes": 57605,
+    "sha256": "fcbcc9c2839a4ac9b7841ef36abcfe744d84f75f64d0ef9109d9a3d73287a3d8",
+    "git_blob_sha": "32fb375ab8b370a358bcc40c098e4331f7c8f948",
+    "fixed_commit": "2731808f63b8ca8d368217e1f443c0bbe08fc25f",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
