@@ -13,3 +13,5 @@
 - **R725（已证明）**：[闭纬圈实物坐标与一个共同E](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md)。真实闭合/周长/二jet，联合所有(t,φ)的精确E上下界及两点二次根最优η；可在严格余量下平滑选同E/指定目标积分。已付实物入图须逐项付改量，原R680圆基仅选E仍η>.10。
 
 - **R724（已证明的实际输入及条件宏观门）**：[中央整簇共移的四外脉冲](results/R724-comoving-central-crowns-and-four-outer-pulses.md)。中央四肩/两整冠全幅精确共平移；四真负领和所有已给件有序法弦≥1/10.4。参考并集D<3.004，真实ρ+.6δ+2.6e≤.065等条件给宏观门；四外盘同g/全时几何未解，Gauss旧重数不沿用。
+
+- **R726（已证明；源码未执行）**：[闭合双复傅里叶纬圈与完整同g残差](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md)。两组单位系数使闭合/周长严格成立，两个完整有限傅里叶残差等价同g；真实η、曲率平方和双轴图门可清正分母化为矩形多项式。K0圆族被严格排，中心消元须保全段兼容。两个小核心保存普通浮点/字面有限场差，R728续真实入图。
