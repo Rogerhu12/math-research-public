@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败、输入困难都非终点。**
-此前全原字/来源/失败/未知/规则保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/8040d1f8e0771c8589076ddce27ac7345627f653/topics/visible-flex-larger-amplitude/HANDOFF.md)及a8bf/23728/a5e/70b78链；open§1–6原字不动，不重做已记结论。
+此前全原字/来源/失败/未知/规则保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/f44e6c09210e7b616775a966ce89b03ccda25b9d/topics/visible-flex-larger-amplitude/HANDOFF.md)及a8bf/23728/a5e/70b78链；open§1–6原字不动，不重做已记结论。
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`924a65bf59d573e52c8f4623174c15628ec8f7a3`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`760c636f5e21e36fb58d70e3890d957fa197083f`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；12–18末槽保终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[原观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -32,7 +32,9 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层已完整证明：急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet及跨机制扰动。显式转向θ替2tan(θ/2)，不推wholeK；未实施，不混25/26或继承旧凸势/校准。
 
-[25全源参/启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)同22数值；137pair4变133保/19runtime，157/7 argv、458/445 formal、48+16live/原5CLI+12external全保。初三步74384B；science+pure118548B须真自然返后整接pure。缓存不宣trial几何加速。22全137/18已刊；23全138/19只在原真全步/几何/预测达条件时降下一μ，原失败×4/顺序/预算保。19–25完整科学report未返，费用不能用进度代输入。
+22–25全部原源参/宽度/策略/缓存差异保[open§7](open.md)各完整note。原预算/typed/peer及真自然返后完整pure接续保；缓存效果不预判。19–25完整科学report未返，进度不是准确费输入。
+
+[26完整启动](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)请求/队列/控制器/workflow全刊：两完整input+science74270B，science+pure118380B，须自然返后整接pure52340B。实际run/job/新场待返；不混R726。
 
 [准确续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G首次绝对源路径、whole N和稳定report/snapshot保；N变另G目录，R723/mesh fresh。packet可trial但须complete report；restart须同runner完整report/13final/全typed，CLI不继承末μ。normal.complete不代branch，mean J不代Cu。R709/R722全域六jet/32stage/全尾/全phase及晚失败保；R718 marked与R716 unmarked独立，五t/15mesh/三级真精化未付。22准确17+mesh18、23准确31全件已保护待容量。
 

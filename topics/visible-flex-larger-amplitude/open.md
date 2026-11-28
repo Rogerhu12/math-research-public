@@ -116,7 +116,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb真实current/accepted1，Phi681.6511710299278/Gram.4061652579029476，六族返，reach.5294703284893127/distplus.11391376026366629仍正；完整report未返。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 真实46094430214；全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 真实46096380016；半波b5/8；初7e06/accepted0/Phi886.6498886846562/Gram.47296582169113244，reach.6122924171813162/distplus.0608650756788609仍正；a464 Phi886.6498886762892/Gram.47296582200907233，仅统计。 |
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1；两input0，初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场。K12.32709940409259、Dlower4.117175466515689，cell885/u.8306046932331322/s2.1573631007205925/phiπ/2真返；trial/cache效果未知。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1；两input0，初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场；真实K与物理位置已返保note，trial/cache效果未知。 |
+| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725固定b1/2/ε1/8；全源码/参数/请求/队列/workflow已刊，实际run/job/新场未返。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，不推曲率/reach单调性。
 
@@ -126,13 +127,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层已完整证明：急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet及跨机制扰动。显式转向θ替2tan(θ/2)，不推wholeK；未实施，不混25/26或继承旧凸势/校准。
 
-22/24半波宽度、23完整恢复策略、25dk缓存的全源参/原预算/peer/真实边界保各run note和[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/95801769a95b2940b14ad01fe7640581b2c2fb44/topics/visible-flex-larger-amplitude/open.md)。[26全参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)已刊：从25完整原step逐字可逆派生，157/7词、458/445formal、64live、5CLI+13external原责任齐；同b1/2/δ1/32/两μ.01，源固定ε1/8真变，无23policy/R726/旋转候选。所有超95000的queue仍须自然科学返回后整接完整pure；不删字段/预算，准确费责任保。
+22/24半波宽度、23完整恢复策略、25dk缓存的全源参/原预算/peer/真实边界保各run note和[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/95801769a95b2940b14ad01fe7640581b2c2fb44/topics/visible-flex-larger-amplitude/open.md)。[26全参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)已刊：从25完整原step逐字可逆派生，157/7词、458/445formal、64live、5CLI+13external原责任齐；同b1/2/δ1/32/两μ.01，源固定ε1/8真变，无23policy/R726/旋转候选。26初三步74270B、science+pure118380B、pure单步52340B。所有超95000的queue仍须自然科学返回后整接完整pure；不删字段/预算，准确费责任保。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G首次绝对源路径和whole稳定report/snapshot保，N变SHA另G目录；R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed史，136+4词/模式/peer/预算保，CLI不继承末μ。
 19–21准确全链已刊；22准确17+mesh18、23准确31完整源参已保护待容量。normal.complete不代连续branch，mean J不代Cu；R709/R722三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/两帽/mixed/allphase及晚失败全待付。R723新五角色不冒旧八；R718 marked与R716 unmarked法管/正V/非零中心不变量独立。旧1782 mesh34/6词与新6047半波各保。同g同参数五t/15science+5preview/三级空间/频率/时间真跑未付。
 
 ### 容量及完成
 
-[ret63](computations/early-terminal-public-actions-retention-63-complete-delivery.json)六早期终态43旧index/parts毛1852233B/新5全件224124B/净1628109B；272原返回、55历史queue、158实际source、全部源参/结论/失败/未知及5358ca逐字恢复齐。ret62净225385B、ret61净718241B、ret60净1929467B及ret59前链保各总表与旧open。原false/未知不补，旧reader恢复whole原字；活输入/parent91/ports/Nelder不猜删。
+[ret63](computations/early-terminal-public-actions-retention-63-complete-delivery.json)43旧终态输出净1628109B，全部272原返回/55queue/158source/失败未知与5358ca原字恢复保。ret62/61/60及此前完整账见各总表与[旧open](https://github.com/Rogerhu12/math-research-public/blob/f44e6c09210e7b616775a966ce89b03ccda25b9d/topics/visible-flex-larger-amplitude/open.md)。旧reader恢复whole原字；活输入/未知/parent91/ports/Nelder不猜删。
 
 README全部标准未完成；时长、阶段、失败和输入困难都不是终点。新raw仅runner/scratch；保全源码/配方、run/whole SHA及真结论，继续求解和固定目标精化。
