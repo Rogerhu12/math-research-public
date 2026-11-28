@@ -62,8 +62,8 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r780-publish-->R780 [每次双README真读](notes/r780-exact-crowns-normalized-rolls-46183309461-1-reads.json) 435cc23908c804cb9cb1b6846d3f44752e3301ef
 
 [R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54保三维自由port，未称收敛。
-<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 42607a4a31904286b41f54e49b72023285d512a7
 
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull cb0c31af40974216f2d6d4158d131157c85cecf4
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull b395bd32f13c2748d84ba6e8a245ec5749e62de2
+<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 78e2c12cc7fb886fefc2fd1373f28e737e1bf19f
