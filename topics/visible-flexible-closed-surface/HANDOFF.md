@@ -30,7 +30,7 @@
 
 **当前实际工作**：M48自身局部cross487→488片/369.533s、R249全部629片/1385.963s、R253/三时刻完整闭网格均真0；有限门槛不等同#5。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变。旧[LM系统SIGKILL−9](notes/2026-11-28-2ecf-m12-g12-sigkill-and-preserved-input.md)612.993s无新field，OOM无证；244包仅事后ledger。[单band原位H2](notes/2026-11-28-2ecf-m12-one-band-complete-gram-fixture.md)121列核全Gram/因子/λ重装通过；同暖G12新04r1已越过旧失败处实际α1接受，训练峰5.37699e−10，待独立观察/完整field，实际峰RSS1,563,640KiB。[原物理J落盘/完整normal与被动span](notes/2026-11-28-2ecf-m12-disk-physical-normal-and-passive-span-probe.md)非零核及真实源缓存核均0；M64/G12已从真实M48/G6直接准确转移后独立运行，不假称未返G12子场。两支单线程。继续实际原非线性残差、真角频与真物理h加密；G12仅积分不冒h收敛。
 
-[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已准确规整全部18551有限尾内缝，原节点两jet零；指定R245场+Q的连续几何仍过。[准确Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)5177半径/204窗/88非零行真0，新增Qss误差<2.313e−20。[实际M48+Q全域转移](notes/2026-11-28-2ecf-m12-actual-m48-plus-Q-full-geometry.md)已真0，metric<9.963071e−7、reach/D>.0311647758481，W系数不变但新物理图独立身份e81f3ecf…。G12 Q接口13731半径/814非零行真0；各原非线性solver仍未用Q，无新接受或Q-STL，不能静默替换。R235只排过光滑有限修正的准确等距，不排C2极限。
+[R250](results/R250-full-finite-tail-smooth-source-regularization.md)准确规整全部18551有限尾内缝，原节点两jet零；[Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)及G12完整查询均实际0。[M48+Q全域转移](notes/2026-11-28-2ecf-m12-actual-m48-plus-Q-full-geometry.md)保持同g/W但新物理图e81f3ecf…，metric<9.963071e−7/reach>.0311647758。原非线性solver均Q-free，无Q新Newton/STL；不得静默换源。R235只排光滑有限修正的准确等距，不排C2极限。
 
 ## 强幅度：密训练、真正独立观察与新g设计
 
@@ -40,7 +40,7 @@
 
 [G11旧源失败/433行恢复](notes/2026-11-28-2ecf-polar-G11-source-failure-and-433-row-recovery.md)1730.641s exit1，同类冲突，只恢复433正式行、余107重算；新G11 consumer独立冻结，[完整恢复/六场实际观察](notes/2026-11-28-2ecf-polar-G11-complete-source-and-six-actual-observations.md)已480.634s自然0，540径点不在G10训练；warm3新metric峰2.87797，warm20κ69268保持，仍无连续合格。G3径点纳入G10后不再冒新模型径向独立观察。R233原背景界不借给变化后的前缀；每个新场完整几何重付。
 
-[完整XYZ+87个log-radius设计](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)小核128列/18480全14行真0，完整J/JT/全部正规跨块核对通过。[完整point分块重算](notes/2026-11-28-2ecf-polar-complete-streamed-memory-and-operator-identity.md)已在原12789列/918400行核r/J/JT/S逐字、无删行，生产G10与设计支各自采用明确消费者。生产12876列接受仍0；alpha移动明确改变g，找到候选后必须冻结最终alpha再付固定g加密。原固定g G10支并行继续，不互借成本/收敛。强比例和全时reach仍未完成。
+[完整XYZ+87个log-radius设计](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)小核128列/18480全14行真0，完整J/JT/全部正规跨块核对通过。[完整point分块重算](notes/2026-11-28-2ecf-polar-complete-streamed-memory-and-operator-identity.md)已在原12789列/918400行核r/J/JT/S逐字、无删行，生产G10与设计支各自采用明确消费者。[全大场FD失败/尺度审计](notes/2026-11-28-2ecf-polar-full-design-derivative-failure-and-scale-audit.md)已保真实exit1及后继全12876列审计exit0；新FD consumer仅扩探针尺度、门未放宽，生产接受仍0；alpha移动明确改变g，找到候选后必须冻结最终alpha再付固定g加密。原固定g G10支并行继续，不互借成本/收敛。强比例和全时reach仍未完成。
 
 ## 工作位置与文献
 
@@ -48,4 +48,4 @@
 
 11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:34:19 UTC；已读公开 main `0880316d83502390e541e72ab0cb8474c1240628`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:35:28 UTC；已读公开 main `063f515558fb49bb6f356b06e53031e68657fcd0`，根/课题 README 逐差无变化。
