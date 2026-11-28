@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：7d9df60a56d62cb30c7edf3c3eabe42c5a282e7b**（2026-11-28 17:08 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：85b93e0be74bf8fcc57a639858a48e6606761aa9**（2026-11-28 17:10 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 16:27:06 Asia/Taipei，Actions run46125850781/job140920159380，blob:none浅clone后真实pull --rebase至887df1e0且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤17:17、pull≤17:27。本地16:26仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -30,7 +30,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原全部cone SDR/非线性ordered gauge与CM moments已付；V′_i直接读商曲线G并保Vélu微分、σ、同i相关。B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}；高G整性及全部raw/primed尺度详原文/前态，未宣单位。
 
-[原Gaussian高窗 §§1–11](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整Appell反射C_j^F(Ψ)=(−1)^(j−1)j!β^(j−1)D^(p−j−1)x（j≤10）及共同整τ误差付所有端点。原M_d=−β⁻¹Σ_(i偶)d!/(d−i)!·f_(i+1)^(p−d−1,0)ω^iη^(d−i)，d4/8全部槽仅用G_(p−5)/G_(p−9)的安全heat列；含原H_p/J_p/d1/c3。critical p列carry、完整低乘积及actual good-mask不删，联合非零仍开。
+[原Gaussian高窗 §§1–12](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整j≤10 Appell及共同整τ界付原/三个quotient全部d4/8高槽，精确降至G_(p−5)/G_(p−9)有限heat列。商上βε=2β、CM gauge ζε−εv；σ/p次及G_(p−1)=ε^p/(2β)保全。原raw A′=−d!/((d−i)!β)(2⁻ⁱFhat−2⁻ᵈF)，Bkl保same-ε与odd–odd。critical p列carry/actual good-mask不删，联合非零仍开。
 
 [R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2 degree8 S/U×Weil²、Fil12及全部normal读数已付，BCH权(k−l)/(2(k+l+2))作用同核B_kl的Π2。V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2全p>37单位；原J/B局部读值仍保。
 

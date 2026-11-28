@@ -1258,3 +1258,326 @@ $(d+2)p f_{d+2}^{v,0}$。
 并不要求这些完整奇数阶 heat 列全为零。
 原 Bernoulli mask、两点范围、中央算术去平滑及其后续比较
 均保持原来的量词。
+
+
+## 12. 三个原二同源商的完整 Appell 运输与全部 primed 槽
+
+本节只处理 R1135 §8、R1168 §§10–11 的三个实际商曲线。
+它们来自同一个原 Gaussian 曲线及其三个非零二挠点，
+并有已指定的 CM 第二类直线。
+不用一个未经支付的一般 supersingular 反射；
+尤其不删除标准 $G_{p-1}$ 的首位，也不把商曲线当成
+$\mathbf F_p$ 上的 Gaussian 模型。
+
+### 12.1. 实际商、CM shear 与同一完整核
+
+在原未分歧二次系数域中，令
+$$
+\epsilon\in\{0,e,-e\},\qquad e^2=-a,\qquad
+Q_\epsilon=(\epsilon,0),\qquad
+m_\epsilon=\frac y{x-\epsilon}.
+$$
+写 $x_\epsilon=x(T+Q_\epsilon)$、$y_\epsilon=y(T+Q_\epsilon)$。
+原二挠加法律及 normalized quotient 是
+$$
+\begin{gathered}
+m_\epsilon^2=x+x_\epsilon+\epsilon,\qquad
+Dm_\epsilon=x-x_\epsilon,\\
+X_\epsilon=x+x_\epsilon-\epsilon,\qquad
+Y_\epsilon=y+y_\epsilon,\\
+E_\epsilon:\quad Y_\epsilon^2=X_\epsilon^3+
+ A_\epsilon X_\epsilon+B_\epsilon,\\
+A_\epsilon=-4a-15\epsilon^2,\qquad
+B_\epsilon=-7\epsilon(3\epsilon^2+a),\qquad
+q_\epsilon^*\omega_\epsilon=\omega .
+\end{gathered}
+\tag{G2.57}
+$$
+所有 logarithm 参数都按原点常数零和首项一刚化；
+故沿 $q_\epsilon$ 的共同参数仍是原 $v$。
+R1135.21–23 已逐极部、乘子及首项支付
+$$
+\begin{gathered}
+\widehat\zeta_\epsilon=\zeta_\epsilon-\epsilon v
+ =2\zeta+m_\epsilon,\qquad
+q_\epsilon^*((X_\epsilon+\epsilon)\omega_\epsilon)
+ =2x\omega-dm_\epsilon,\\
+\widehat{\mathscr K}_\epsilon(T,U)
+ =e^{-\epsilon TU}\mathscr K_\epsilon(T,U)
+ =\mathscr K(T,2U)+\mathscr K_{Q_\epsilon}(T,2U).
+\end{gathered}
+\tag{G2.58}
+$$
+因此 $\eta_\epsilon+\epsilon\omega_\epsilon$ 才是实际 CM
+对向直线。其 pullback 为 $2\eta$ 加显示的 exact 项；
+R1159 的 inverse coefficient map 则为
+$\omega_\epsilon\mapsto\omega/2$、
+$\eta_\epsilon\mapsto\eta-\epsilon\omega/2$。
+本节不会把这两个方向混同。
+
+令 $\mathcal C_{j,\epsilon}(z)$ 是 $E_\epsilon$ 的
+**标准短模型** Appell 多项式，以 (G2.46) 的有限定义生成；
+其中使用 $X_\epsilon,Y_\epsilon,A_\epsilon,B_\epsilon$。
+CM-gauged 系数是
+$$
+\widehat C_{j,\epsilon}(T)
+ =\mathcal C_{j,\epsilon}
+       (\zeta_\epsilon(T)-\epsilon T).
+$$
+这个多项式本身不把 $X_\epsilon$ 改成 $X_\epsilon+\epsilon$：
+$\widehat\sigma_\epsilon=e^{-\epsilon U^2/2}\sigma_\epsilon$
+在 $U/\widehat\sigma_\epsilon$ 中的二次项，
+正与 $\widehat\zeta_\epsilon'=-X_\epsilon-\epsilon$ 的二次项抵消。
+例如
+$\widehat C_{2,\epsilon}=(\zeta_\epsilon-\epsilon T)^2-X_\epsilon$。
+
+从 (G2.58) 逐 $U$ 系数读取，且同时乘
+$\exp(2(z-\zeta(T))U)$，得到真正的多项式身份
+$$
+\boxed{
+\mathcal C_{j,\epsilon}(2z+m_\epsilon)
+ =2^{j-1}\left\{
+ \mathcal C_j(z;x,y,a)
+ +\mathcal C_j(z+m_\epsilon;x_\epsilon,y_\epsilon,a)
+ \right\},\qquad 0\le j\le10.
+}
+\tag{G2.59}
+$$
+这个证明不把 $\zeta$ 当成函数域中的独立坐标；
+共同有限指数恰消去它，所得各系数就是显示的多项式。
+$j=0$ 时右边是 $(1+1)/2$，没有少一个 $U^{-1}$。
+$j=2$ 可直接用
+$m_\epsilon^2=x+x_\epsilon+\epsilon$ 核准，没有另留常数。
+
+### 12.2. 全函数域 Appell 反射：不反除 Bernoulli
+
+记
+$$
+\Psi_\epsilon=D_\epsilon^{p-2}X_\epsilon,\qquad
+\beta_\epsilon=
+ \frac{C_{\rm rel}(X_\epsilon\omega_\epsilon)}{\omega_\epsilon'},
+\qquad
+\mathcal R_{j,\epsilon}=D_\epsilon^{p-j-1}X_\epsilon.
+$$
+沿原 quotient 拉回，
+$$
+\begin{gathered}
+\Psi_\epsilon=\Psi+\Psi(T+Q_\epsilon)
+             =2\Psi+m_\epsilon^p,\qquad
+\beta_\epsilon=2\beta\in\mathbf F_p^\times,\\
+\mathcal R_{j,\epsilon}
+ =\mathcal R_j+\mathcal R_j(T+Q_\epsilon)
+ \qquad(1\le j\le10).
+\end{gathered}
+\tag{G2.60}
+$$
+第二个等号也可不借 addition convention 自证：
+$\Psi(T+Q_\epsilon)-\Psi-m_\epsilon^p$ 导数为零，
+原 $p$ 阶主部全消；其 $p$ 次根无极，故为常数。
+三项在二挠平移后仍为奇函数，常数因此为零。
+$\beta_\epsilon=2\beta$ 也直接由 (G2.58) 和
+supersingular Cartier 得到。
+
+对 (G2.59) 作系数 Frobenius，再令 $z=\Psi$。
+原 (G2.50) 及其 $Q_\epsilon$ 平移逐项给
+$$
+\boxed{
+\mathcal C_{j,\epsilon}^{\rm F}(\Psi_\epsilon)
+ =(-1)^{j-1}j!\beta_\epsilon^{j-1}
+                         \mathcal R_{j,\epsilon},
+\qquad 1\le j\le10.
+}
+\tag{G2.61}
+$$
+这是原 quotient 函数域中的等式：
+拉回由 separable degree-two 映射检验，因而仍为单射。
+它没有另用一个未定的低权反射去锁商曲线常数；
+全部常数已由同一完整核 trace 和原 Gaussian 两项确定。
+
+一个必要的边界核准是 $j=2$。
+在原共同参数中
+$m_\epsilon=-v^{-1}-\epsilon v+\cdots$，
+所以 $\Psi_\epsilon$ 的 $v^p$ 项是 $-\epsilon^p v^p$，
+而 $\widehat C_{2,\epsilon}(0)=-2\epsilon$。
+读取 (G2.61) 的常数准确得到
+$$
+\boxed{\qquad
+G_{p-1}(E_\epsilon,\omega_\epsilon)
+ =\frac{\epsilon^p}{\beta_\epsilon}.
+\qquad}
+\tag{G2.62}
+$$
+此处 $G_{p-1}$ 是这个**实际 quotient lift** 在共同 logarithm
+参数中的整值；不主张它只依一般 supersingular reduction。
+不能把 $\epsilon^p$ 改成 $\epsilon$，也不能由 $G_2=0$
+将 (G2.62) 置零。
+对偶数 $4\le j\le10$，同一常数读取才给
+$G_{p+1-j}(E_\epsilon)
+ =(j-1)!\beta_\epsilon^{1-j}G_j(E_\epsilon)^p$。
+这些是各点上的值等式，不据此沿模参数横向微分。
+
+### 12.3. 包括奇数槽、最高端点的共同精度
+
+(G2.19) 的同一整截断坐标 $\tau$ 沿 $q_\epsilon$ 保持，
+因为 (G2.57) 在原点是 étale，且共同 differential 不变。
+令 $Z$ 为原 §11 的低 $\zeta$ 前缀，置
+$Z_\epsilon=2Z+m_\epsilon$。
+(G2.60) 准确给
+$$
+\Psi_\epsilon
+ =Z_\epsilon^p-\beta_\epsilon\tau+O(\tau^{p^2}).
+$$
+每个 $X_\epsilon,Y_\epsilon$ 都按同一实际有理映射展开；
+没有逐个高极单项分别换坐标。
+(G2.61) 给完整敏感度的极界至多 $p-j+1$。
+故与 (G2.51)–(G2.52) 完全一样，
+第 $j$ 个完整 Appell 式的误差首阶至少为
+$p^2-p+j-2$。
+
+现在允许全部
+$$
+d=4,8,\qquad 0\le i\le d,\qquad
+j=i+2,\quad \rho=p-d-1+i,\quad M=M_{d,i}.
+$$
+不再仅取偶 $i$：商曲线不具有原标准 $\mu_4$ 帧。
+$N=p\rho$ 与安全上界的差仍为 $p(d-i)+i>0$。
+原 $\widehat C_{j,\epsilon}$ 对 $j\ge2$ 在 $v=0$ 正规，
+且 $Z_\epsilon-\widehat\zeta_\epsilon$ 的首未读项从次数 $p$
+开始。因此 $j\ge3$ 时所有 $\rho\le p-1$ 都安全；
+$j=2$ 则用 $\rho\le p-5$ 的既定低界。
+这些低系数全部有原整来源。
+
+本次下降阶乘对奇偶 $j$ 统一为
+$$
+(M-1)(M-2)_{\underline{p-j-1}}
+ =\frac{(-1)^j}{(j-1)!}\pmod p.
+$$
+与 (G2.61) 的 $(-1)^{j-1}$ 相乘后，最终号始终为负。
+于是
+$$
+\boxed{
+\begin{aligned}
+G_{M_{d,i}}(E_\epsilon,\omega_\epsilon)
+ &=-\frac{
+      \bigl([v^\rho]\widehat C_{i+2,\epsilon}(v)\bigr)^p}
+          {(i+2)(2\beta)^{i+1}},\\
+\sigma G_{M_{d,i}}(E_\epsilon,\omega_\epsilon)
+ &=-\frac{[v^\rho]\widehat C_{i+2,\epsilon}(v)}
+          {(i+2)(2\beta)^{i+1}} .
+\end{aligned}}
+\tag{G2.63}
+$$
+第二行使用实际 coefficient field 为 $\mathbf F_{p^2}$、
+$\sigma^2=1$ 及 $2\beta\in\mathbf F_p$。
+它正是 R1168.49 所需的 $\sigma G_M$，
+不能先在第一行删除 $p$ 次方。
+
+### 12.4. 每个实际 primed 矩只需同一个低 heat 源
+
+置 $r_d=p-d-1$，并定义
+$$
+F_{d,i}=f_{i+1}^{r_d,0}(a,0),\qquad
+\widehat F_{\epsilon,d,i}
+ =[T^{r_d+i}U^{i+1}]\widehat{\mathscr K}_\epsilon(T,U).
+$$
+原 gauge 给完整有限式
+$$
+\boxed{
+\widehat F_{\epsilon,d,i}
+ =\sum_{q=0}^{i+1}\frac{(-\epsilon)^q}{q!}\,
+            f_{i+1-q}^{r_d,0}(A_\epsilon,B_\epsilon).
+}
+\tag{G2.64}
+$$
+每项均来自同一个 $G_{r_d}$，
+先用 (G2.56) 的一般 $(A,B)$ heat 递推，再取
+$(A_\epsilon,B_\epsilon)$，最后乘显示的固定 gauge。
+所需 $n\le d+1$ 的所有递推分母均为单位。
+这不是把 $\epsilon$ 随意当成横向 heat 参数，
+也没有越过下一列的 $p$ 倍 carry。
+
+设
+$$
+L_{d,i}=\frac{d!}{(d-i)!\,\beta},\qquad k_d(2)=4-2^{-d}.
+$$
+将 (G2.63) 代入 R1168.49 的**实际 raw** 两式，
+全部原 binomial、$i+1$、$\sigma$ 和 $\beta$ 因子得到
+$$
+\boxed{
+\begin{aligned}
+\mathcal A_{d,i}
+ &=-L_{d,i}\,k_d(2)\,F_{d,i},\\
+\mathcal A'_{\epsilon,d,i}
+ &=-L_{d,i}
+       \left(2^{-i}\widehat F_{\epsilon,d,i}
+                        -2^{-d}F_{d,i}\right),
+\qquad d=4,8,\quad0\le i\le d .
+\end{aligned}}
+\tag{G2.65}
+$$
+这些是 R1168 的原 $\omega^i\eta^{d-i}$ 坐标；
+没有在最后一步把标准 $\eta_\epsilon$ 偷换成 CM 对向线。
+CM shear 已完整包含于 (G2.58)、(G2.64)，
+而 (G2.65) 使用的是原 primed theta 在原形式盘上的直接读取。
+原曲线的奇 $i$ 给 $F_{d,i}=0$；
+对应商曲线的 $\widehat F_{\epsilon,d,i}$ 则仍须保留。
+
+全二挠 trace (1135.24) 还给一个完整规范自检：
+$$
+\sum_{\epsilon=0,e,-e}\widehat F_{\epsilon,d,i}
+ =2^i(4+2^{1-d})F_{d,i},
+\qquad
+\sum_\epsilon\mathcal A'_{\epsilon,d,i}=\mathcal A_{d,i}.
+\tag{G2.66}
+$$
+先在特征零读完整核，再在 (G2.63)–(G2.64)
+已经支付整性的指定系数约化。
+因此这里即使最高 total weight 超过 $p-3$，
+也没有把旧安全 band 未经证明地外推。
+
+### 12.5. 原 same-kernel 相关项的完整低系数式
+
+最后只对 R1168.51 的同一个实际 $B_{k,l}$ 代入，
+得到
+$$
+\boxed{
+B_{k,l}=L_{4,k}L_{8,l}
+ \left\{(16+2^{-11})F_{4,k}F_{8,l}
+       -2^{-(k+l)}
+          \sum_{\epsilon=0,e,-e}
+             \widehat F_{\epsilon,4,k}
+             \widehat F_{\epsilon,8,l}\right\}.
+}
+\tag{G2.67}
+$$
+两个 primed 因子仍来自同一个 $\epsilon$。
+本式可直接进入既定 ordered/BCH 与 $\Pi_2$ 读取；
+没有把它的三个同源值换成单点 scalar，也未反除任何
+Bernoulli 数或断言指定相关项非零。
+
+实际 CM $i$ 交换 $\epsilon=e,-e$，完整 gauge 同时运输。
+此处 coefficient 的 total weight 为
+$p-d+1+2i$，故
+$$
+\widehat F_{-e,d,i}=(-1)^i\widehat F_{e,d,i},
+\qquad
+F_{d,i}=\widehat F_{0,d,i}=0\quad(i\ {\rm odd}).
+$$
+所以 $k+l$ 奇时 (G2.67) 为零；
+但两个奇槽的乘积不被此奇偶性删除，准确保留为
+$$
+B_{k,l}
+ =-2^{1-k-l}L_{4,k}L_{8,l}\,
+       \widehat F_{e,4,k}\widehat F_{e,8,l}
+ \qquad(k,l\ {\rm odd}).
+\tag{G2.68}
+$$
+这特别排除了只因原 Gaussian 矩没有奇槽，
+便删去全部 primed odd–odd 贡献的做法。
+
+本节消去的是原三个二同源商中全部所需的 $p^2$ 窗口：
+输入现在是各自同一个低权 $G_{p-5}$ 或 $G_{p-9}$ 的有限 heat
+列，以及原指定 $\epsilon$ gauge。
+没有增加一个 actual good 角色，没有证明原 Gaussian
+共同纤维被分离，也没有把算术去平滑或未知中央值设为零。
+全部为纸面推导，无数学程序执行。

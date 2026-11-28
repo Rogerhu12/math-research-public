@@ -68,7 +68,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原cone SDR/全部normal与CM raw/primed来源已付。原V′直接读实际Vélu商的G、σ及同i相关：B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}。全部尺度/整性详原文及前态；未以此宣一般SS值或中央单位。
 
-[原Gaussian高窗 §§1–11](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整Appell反射C_j^F(Ψ)=(−1)^(j−1)j!β^(j−1)D^(p−j−1)x（j≤10）及共同整τ误差付所有端点。原M_d=−β⁻¹Σ_(i偶)d!/(d−i)!·f_(i+1)^(p−d−1,0)ω^iη^(d−i)，d4/8全部槽仅用G_(p−5)/G_(p−9)的安全heat列；含原H_p/J_p/d1/c3。critical p列carry、完整低乘积及actual good-mask不删，联合非零仍开。
+[原Gaussian高窗 §§1–12](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整j≤10 Appell及共同整τ界付原/三个quotient全部d4/8高槽，精确降至G_(p−5)/G_(p−9)有限heat列。商上βε=2β、CM gauge ζε−εv；σ/p次及G_(p−1)=ε^p/(2β)保全。原raw A′=−d!/((d−i)!β)(2⁻ⁱFhat−2⁻ᵈF)，Bkl保same-ε与odd–odd。critical p列carry/actual good-mask不删，联合非零仍开。
 
 原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
 
