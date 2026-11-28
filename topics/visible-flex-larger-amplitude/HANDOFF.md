@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难均非终点。**
-此前全文/全部源参/失败/未知/旧链保[05aaa完整H](https://github.com/Rogerhu12/math-research-public/blob/05aaa27cd9d2683dbe72acdc906184d3112a3916/topics/visible-flex-larger-amplitude/HANDOFF.md)及其中58c09/12d43/c6fc全链；原open§1–6与全notes不重做。
+此前全部原字/源参/失败/未知保[70b78完整H](https://github.com/Rogerhu12/math-research-public/blob/70b78e5c3733fd3eb7ef0bb1ac1b836146a4f149/topics/visible-flex-larger-amplitude/HANDOFF.md)及其05aaa/58c09/12d43/c6fc全链；原open§1–6与已记结论不重做。
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`50ee536d1e9cdac9a4760e8a853033eb9a342db8`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`e1b02f09579c62dd2134efcd37af21e2489bf276`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD整合循环，不冒pull或force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅公开Actions；raw只runner/scratch，不Git/Release/artifact/改名输入。全源/参数/真实run/whole输出/typed/未知/失败保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。不加AST/fixture/重跑/审查门，不减目标或原预算。
 
@@ -35,7 +35,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 
 在途17–21原源/预算不改：当前18–21 geometry5730/driver10fa/reader8027/launcherf600/137角色18源、157/7argv、458/445formal/48live。20只恢复μ.001；21只width5/8。所有原source/支持CLI/external未知保各全note和原H。新半波严格新来源，不偷接旧accepted/cache。
 
-[21后参](computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json)、[21矩mesh](computations/fixed-fejer-bfiveeighths-complete-moment-mesh-parameter-delivery.json)、[R723全源](computations/R723-directional-closed-grip-R716-complete-delivery.json)、[20后参](computations/fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json)全刊，旧19/20全参数保各note。R723五新角色不冒旧八角色通过；R718需同场markedσ，R716独立unmarked管/正V/非零中心不变量仍未付。
+19–21全部normal/closed/矩/mesh参数、R723五新角色全源已刊，完整路径/全字身份保70b78完整H。旧八角色不冒新通过；R718需同场markedσ，R716独立unmarked管/正V/非零中心不变量仍未付。
 
 [全restart](computations/current-bhalf-complete-same-source-restart-delivery.json)仅同runner真complete同源report/匹配全13final/全输入typed历史，partial/accepted/packet不足；CLI不继承末μ。原136+4词/模式/peer和全预算保，science+pure超95k，真返回后整接pure。
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：normal续原outdir必须首次原repo绝对路径、完整稳定report/snapshot/绑定；G续原normal版本与自己的首次源路径；N变SHA不可原目录重绑。R723/mesh每次fresh。immutable required-angle packet可为trial但非mutable progress。原32词mesh无附证可用；[R723兼容9件](computations/fixed-fejer-R723-compatible-complete-same-field-phase-mesh-delivery.json)全1782重读、34/6词和15完整mesh预算保，实际尚未跑。
@@ -44,7 +44,7 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；全32s
 
 ## 容量与承接
 
-[ret55全账](computations/legacy-launch-array-metadata-retention-55-complete-delivery.json)精退19描述JSON净446483B；18个M94/M96真检查点和全数值report不退。ret53/54/旧批全源参/输入/失败/消费者/Git恢复保原链；canonical/parent91/ports/Nelder/活源保，每fresh树核200MB。construction继续纯metadata容量；root接实际求解与refs/queue，solver全22参数，geometry完整新normal费用链。完成标准前不停。
+[ret56全账](computations/legacy-prelaunch-window-metadata-retention-56-complete-delivery.json)精退189旧描述净1356698B，全部字段/原writer/reader及精确Git恢复保；ret53–55全链见旧H。全raw/检查点/report/source/config/spec/请求、canonical/parent91/ports/Nelder/活源保，每fresh树核200MB。root接真实求解/refs；construction续容量，solver全22参数，geometry新物理准确费用。未完成不停。
 
 <!-- visible-larger-parallel-17:start -->
 Actions17：[run 46053911348/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)；[全阶段记录](notes/2026-11-27-public-actions-46053911348-1.md)。running；已返2，exit=未返。
