@@ -1,0 +1,125 @@
+{
+  "schema": "held10-actual-M48-mapped-preJ-interruption",
+  "utc": "2026-11-28T13:25:52.674285+00:00",
+  "status": "actual_process_interrupted_before_full_J_gate_passed",
+  "session_id": 6072,
+  "actual_started_utc": "2026-11-28T13:13:53.066453+00:00",
+  "actual_controller_returned_utc": "2026-11-28T13:23:08.763971+00:00",
+  "actual_controller_returncode": 3,
+  "actual_original_child_returncode": -9,
+  "homotopy": 0.128,
+  "modes": 48,
+  "angular": 1536,
+  "checkpoint_nodes": 952,
+  "complete_nodal_checkpoint_sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+  "checkpoint_ordinal": 1,
+  "same_as_prior_true_ordinal4": true,
+  "original_command_reference": "notes/2026-11-28-design-mapped-recovery-preparation.json",
+  "actual_launch_source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_mapped_memory_budget.py": "fd1282f5d327fae130a7d1502a7d2af62b5a2574124f3388c3fa8f74d173141e",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/mapped_factor_cleanup.py": "9acd6130309bd5044940350080745f7212060a687a698cc30207552d10c5f4cb",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_factor_mmap_qr_driver.py": "4357db7a084cee8a2bc4d2c144dddf95ab182b31b7502531b3b2fb4f032b7e63",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_mapped_budget_driver.py": "c4026046ebc889c10931ad5fc873d0e71934caf4ff4c94ff40ee18d80a6d066e",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_qr_dispatch_v6.py": "27dc0b0a192d08901f4afb973a24b32656fd9bfbee9426d8c237f15de7b6608d"
+  },
+  "actual_prelaunch_gate": {
+    "utc": "2026-11-28T13:13:53.058992+00:00",
+    "event": "fresh_original_M48_mapped_launch_gate",
+    "available_RAM_bytes": 2419019776,
+    "required_preliminary_RAM_bytes": 2416256356,
+    "disk_free_bytes": 2438340608,
+    "required_backing_plus_margin_bytes": 1256910626,
+    "RAM_allowed": true,
+    "disk_allowed": true,
+    "allowed": true,
+    "checkpoint_sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+    "actual_preJ_current_mesh_gate_still_required": true,
+    "mathematical_failure_inferred": false
+  },
+  "actual_inner_gate": {
+    "records": 30,
+    "all_denied": true,
+    "full_sys_J_invocations_after_guard": 0,
+    "last_waited_seconds": 435,
+    "required_additional_RAM_bytes": 2257376612,
+    "last_memory": {
+      "available_bytes": 1663668224,
+      "total_bytes": 10451427328,
+      "current_process_rss_bytes": 246059008,
+      "current_process_anonymous_RSS_bytes": 227024896,
+      "current_process_file_RSS_bytes": 19034112
+    },
+    "last_disk": {
+      "free_bytes": 2139533312,
+      "total_bytes": 20957446144
+    },
+    "maximum_sampled_process_RSS_bytes": 246059008,
+    "maximum_sampled_process_RSS_is_not_an_observed_whole_process_peak": true
+  },
+  "factor_requested_record_only": true,
+  "complete_QR_factorizations": 0,
+  "complete_QR_solve_calls": 0,
+  "original_full_newton_steps_applied": 0,
+  "original_BVP_outer_iteration_returned": false,
+  "raw_return_exists": false,
+  "metric_return_exists": false,
+  "solver_success": false,
+  "actual_cleanup": {
+    "child_returncode": -9,
+    "store_created": false,
+    "removed": []
+  },
+  "actual_child_PID_not_recorded": true,
+  "termination_cause_proven": false,
+  "OOM_inferred": false,
+  "mathematical_failure_inferred": false,
+  "new_accepted_field": false,
+  "records": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/summary.json",
+      "bytes": 19202,
+      "sha256": "e841c66a5c186a71f3fdea41bc50705bb0494cfb68bc449681eceeeb0f65522d"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/attempt-000/run.json",
+      "bytes": 12376,
+      "sha256": "ae21e9fadd13928a9f50b4e618a0ad7f2a985d6a8bc957a220a08588e0df0317"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/attempt-000/latest-unaccepted-nodal-checkpoint.json",
+      "bytes": 2869,
+      "sha256": "a3da3cd1b7c6547635ea8de88df801ffeaa01f53f9f59fe09d2b51ff79364d23"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/attempt-000/literal-full-design-nodal-restart.json",
+      "bytes": 1452,
+      "sha256": "7b4c0ab822851e8b65a5d3acf584eb69b9d6b86a8ce2aa5988f4ed454d748bbc"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/attempt-000-mapped-nodal-budget.jsonl",
+      "bytes": 305242,
+      "sha256": "7f32f54a0ac877bb1b41eabb514f69889cbd9cdcfd485697f943e491de260246"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/attempt-000-block-qr.jsonl",
+      "bytes": 3148,
+      "sha256": "bce088130759e2bbdecc3208e472100e1c8d23425cd800f38fd994aa2e44af75"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128/attempt-000-mapped-factor.jsonl",
+      "bytes": 3113,
+      "sha256": "8d123d3dd937dd7aa6b06419c5f896971e3bf187d22ab53aee3e42ebc6e7d9eb"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-factor-mmap-m48-20261128-dispatch-execution.jsonl",
+      "bytes": 17433,
+      "sha256": "e5b90762aa150e98619845c2d4cecf996fddf0ae8652551ac1cd8305b0ae3b26"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-mapped-fresh-launch-20261128/launch-events.jsonl",
+      "bytes": 17522,
+      "sha256": "5ce0779bdc484b2a6abfaa38d4ed0e801348d8e37a9f5bc081694ffe32cd08c1"
+    }
+  ]
+}

@@ -4,9 +4,9 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `91c6c6d2bef4d2d13e6f91a502e7dd1c5bd20c6f`（2026-11-28 13:35 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `6f44feb0c90fbba462a6f7781f500a5d9658c0ae`（2026-11-28 13:49 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
-- 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
+- 根§12/13/15/16照做：授权直接提交/Actions，可再生产物不存Git/Release；新spawn显式gpt-6.2-astra/ultra/forknone。H<10KB、单MD<100KB、课题<200MB。改外部workflow记本题log。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
 
 ## 完成标准，不能降格
@@ -21,7 +21,7 @@
 
 本次必要恢复到[.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)和[.064/M40](notes/2026-11-28-design-secant-lambda064-m40-qr.json)：后者952点、metric2.74792e−7、run05e9ad77…。本地.128两次−9无接受，完整952×145/p48/scale47末nodal e889dd15…保留。具体kill原因未证，非数学排除。
 
-[完整factor-only M16核](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)所有方向/后向分母/原J残差逐位同，构造峰不降。[M48映射准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层来源和原门；TTY6072于13:13门过后真启，13:23 controller3/child−9，无新接受；原完整e889保留。另做完整CSR在QR前映射的独立后继，旧活源不改。
+[完整factor-only核](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)及[完整CSR前置映射真M16核](notes/2026-11-28-design-csr-prefactor-mmap-complete-m16.md)已付：43087维原CSR、方向、后向分母、原J残差、全部stats逐位同，原消零算术/QR不改，双store立即回收；6.256s/208540KiB，无新BVP。原M48 v6 [实际pre-J中断](notes/2026-11-28-design-factor-mmap-m48-prej-interruption.md)：13:13真启后30次pre-J门全拒，13:23 controller3/child−9；无J/QR/solve/Newton/接受，e889完整保留，不归因OOM。CSR前置新路正继续。
 
 [远端原链](notes/2026-11-28-design-actions-continuation-prepared.md)、[冻结树v2](notes/2026-11-28-design-actions-frozen-v2-prepared.md)、[身份清理v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)与[新冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)已备；实际POST403明确缺actions=write，v3无run，不绕权限，继续本地。真λ1/M≤64后接[严格7a全DN/几何](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)及[mesh/活动矩](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
@@ -57,6 +57,6 @@
 
 ## 原字节与执行
 
-work在 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。新F原位。旧E[gzip](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)实释160993280B；[29 input XOR](notes/2026-11-28-tail-lossless-xor-storage.md)再释197226496B，这29input必须新XOR manifest恢复，其余仍gzip journal。永久base保留。五冷mild根33input+5base实释278179840B；12个冷同SHA原位硬链实释14323712B，原路径/科学字节均保留，冻结硬链不得覆盖写。活geometry128MiB门未改。无独有数据18MB probe已另核原gzip后移除。
+work在 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。新F原位；旧E[gzip](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)/[29 input XOR](notes/2026-11-28-tail-lossless-xor-storage.md)均可恢复，29input须新XOR manifest、其余原gzip journal，永久base保留。五冷mild lossless实释278179840B；12同SHA硬链实释14323712B、冻结硬链禁止覆盖。18MB无独有数据probe经原gzip核验后移除，活geometry128MiB门未改。
 
-继续实际λ1→fullH/共同两jet→准确H/闭图→全时几何/全E(3)→同g谱径向时间精化与多t小网格。子题完成即接open下一项；时间、资源、输入恢复或条件结论不是停止理由。发布器现pull前后验证恰有一个本会话作者的未推提交，命令失败即停；82c217仅H锚的错误元数据已在log明确更正，不重写历史。
+继续实际λ1→fullH/共同两jet→准确H/闭图→全时几何/全E(3)→同g谱径向时间精化与多t小网格。子题完成即接open下一项；时间、资源、输入恢复或条件结论不是停止理由。发布器先验本会话唯一未推提交，命令失败即停；82c217的H锚元数据错误已更正于log。
