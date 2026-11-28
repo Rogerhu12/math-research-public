@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：原整数图迹的 Abel 连续来源与迹类拟亲和](results/R12-appendix-actual-graph-trace-abel-continuous-quasiaffinities.md)：同βn规范给实际Xρ:E→H单射稠值、连续输出与精确缩放交织；非零常数迹给原循环向量，同H图闭包却恰H²，不能当闭H交织或根。
+
 - [R150：完整NV已付M四次的原六列、两列及两个新标量](results/R150-appendix-unit211-W-full-NV-paid-M-quartic-two-columns-and-two-scalars.md)：完整原C4/Vlow组合降四次，已付M三因子乘回；native全迹、六基12系数收缩及原EW/EBo两个χ8组合全返，122.127592445秒/0。保b0与乘子公因子零面，未得新权覆盖或排空。
 
 - [R150：正确固定十七阶λ覆盖与5640完整规范点界](results/R150-appendix-unit211-h-equals-k-corrected-fixed-seventeen-lambda-cover-and-5640-points.md)：实际716次仅剥已付支持得470次，完整QQ因子1^19/2^14/4^6/99/300；406个λ候选，保消失阶给≤470基点，乘全部Q/z/ρ纤维给5640。3.066182153秒/0，1496次Bareiss精除乘回，不恢复旧错误覆盖。

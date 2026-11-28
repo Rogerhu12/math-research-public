@@ -1,20 +1,20 @@
 {
-  "message": "ISP: prove full NV paid M quartic trace two columns and two original scalars",
-  "parentCommit": "db3bab70d53ef3351bdcbc6f1bd43f7b82ac6b7e",
+  "message": "ISP: prove actual graph trace Abel continuous quasiaffinities",
+  "parentCommit": "0ff96dc0001b35cac2301f942e55292fe0f808ed",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-full-NV-paid-M-quartic-two-columns-and-two-scalars.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-full-NV-paid-M-quartic-original-two-columns-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-fixed-original-norms-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-fixed-original-norms-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-fixed-original-norms-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-phi-b-fixed-norms-34.yml",
-    ".github/workflows/invariant-subspace-8542-phi-b-fixed-norms-40.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-paid-M-quartic-complete-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-paid-M-quartic-complete-8542.md",
+    "topics/invariant-subspace-problem/results/R12-appendix-actual-graph-trace-abel-continuous-quasiaffinities.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-Abel-graph-quasiaffinities-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-b0-zero-original-quadratic-six-fixed-eight-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-b0-zero-original-quadratic-six-fixed-eight-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-b0-zero-original-quadratic-six-fixed-eight-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-w-b0-fixed-eight.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-0833-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-Abel-quasiaffinities-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-Abel-quasiaffinities-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +24,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-b-fixed-norms-34.yml",
-    "invariant-subspace-8542-phi-b-fixed-norms-40.yml"
+    "invariant-subspace-8542-w-b0-fixed-eight.yml"
   ]
 }
