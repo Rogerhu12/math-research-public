@@ -200,3 +200,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 [R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)直接用原 t=θ_n、t_C=θ′_(n,C) 的 trace-fixed norm：Σ_A t(T+a)=0、Σ_C t(T+a)=n t_C(T)，全规范常数由m²−1的公因子24消去。原w=δ0⊗δ0−Σ_CδC⊗δC具有三个零边际；双contraction恰n⁴B_n，同一子群两槽全部保留。B0=0、B1=P、B2=P+Q，f_x^i=θ_n(T−Bi−x)/θ_n(T−Bi)，准确K=−n⁻⁸Σw(y−x,z−y) f_x⁰∧f_y¹∧f_z²的完整残数是原三项。n=5的splitting degree整除480；原p-level未除p。
 
 R1156给此真实B_n triangle的连续Zp(2) primitive及全noncusp延伸。实际S关系和Q=−P非零项也已付，零标签仍用原parabolic regularization。取全部deck pullbacks的诱导乘积得到严格全GL2/Weil raw下降，无需除群阶；rank-one不能把含p稳定子压掉。**继续**把原R1140指定S/U权和moment修正接成实际群态射：block-diagonal raw bracket必须准确给出target cross bracket，不能变成两个总norm的乘积。完成后才在原M用唯一性识别规范lift并读取z12。
+
+
+### 原 Newton 的首 p 边界与形式群路径限制
+
+[原 spectral §11](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)付同一E(T)=−2T[t^(p−1)]sinh(Tt)f_(<p)(t)，f=tanh(t/2)；Riccati保首carry t^(p−1)。完整原Qhat满足Qhat(1)=0整成立，故g=Qhat(θ+1)f的第p项整且g_p=−3D_(S,P)(1)/4−C_pr/2，另等−3/8∫F_pair(u,1−u)u⁻²du，全部积分分母≤p−2。actual-good gap只给deg g_(<p)≤2k−1。首项g1=−15G_(p−3)/16为单位，故g(2atanh x)的x^p系数必有首p分母；现有Newton读取不能直接当整形式群坐标变换。此限制未排原余对；继续二根/Jacobi及真实首carry，不删C_pr或新增good行。

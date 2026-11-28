@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：466d9607a54fcf5e3c76d53d3ea484398608e2a0**（2026-11-28 10:48 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：5358ca0c0a2e48f66af6be474ba1a202d6a935c3**（2026-11-28 10:59 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 10:37:46 Asia/Taipei，Actions run46098990909/job140836880275，blob:none浅clone后真实pull --rebase至eb042184；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤11:27、pull≤11:37。本地10:37仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -54,11 +54,9 @@ R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp�
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘；盘内须高度，余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
 
-R1116及原重建的gauge/高尾/mask、h≥1逆与Newton商已成，h0不外推；完整来源沿open/归档。
-
 [R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两下降线Π′(z′)=Π(−z′)统一z∈Fp；actual-good代数A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d，d0/非平方分Fp点，非零平方余对须actual O_R(d)。原heat/Hasse/Katz、finiteGauss全部坏行/安全jet/余项付；Δ_low=8(3bc−td)/(4455rβ²)，Q⁶顶unit不代det，向量场闭性仍未付。原norm2/CM gauge/两twist与全尺度保文。
 
-R1154 §§1–12付同源Legendre/finite-log全部carry、三移位核与真实Newton算子。H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2。新Actions run46094809839以p1019否定无条件Cν(Qν)=0，未满足q=Q；[回执](notes/2026-11-28-new-weighted-Legendre-probe.md)，不扩扫。§12付T E(T+1)+(T+1)E(T)=−2(T^p−T)；原D_(S,P)算子Z_D在全good相等时缺至T^(2k+4)、顶15Gp−3/8单位，前两项恰原H_p/Δ_low。缺项本身非矛盾。spectral §10付被删完整C_pr=Σa_(k+1−h)b_(h−1)/(2h)!，含全部低行；其Euler核恰−(R^p−R)，不推C_pr或b_k零。继续真实二根D与差分，保全部mask。
+R1154 §§1–12付同源Legendre/finite-log全部carry、三移位核与真实Newton算子。H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2。新Actions run46094809839以p1019否定无条件Cν(Qν)=0，未满足q=Q；[回执](notes/2026-11-28-new-weighted-Legendre-probe.md)，不扩扫。§12付T E(T+1)+(T+1)E(T)=−2(T^p−T)；原D_(S,P)算子Z_D在全good相等时缺至T^(2k+4)、顶15Gp−3/8单位，前两项恰原H_p/Δ_low。缺项本身非矛盾。spectral §10付被删完整C_pr=Σa_(k+1−h)b_(h−1)/(2h)!，含全部低行；其Euler核恰−(R^p−R)，不推C_pr或b_k零。§11完整首p边界g_p=−3D(1)/4−C_pr/2；g1单位使g(2atanh x)首有p分母，不能当整形式群坐标。继续真实二根/Jacobi，保mask。
 
 ## 已成、禁止重做与其它入口
 

@@ -45,3 +45,8 @@
 ### 2026-11-28 10:48 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1157 付真正SV B_n的整三项filling：原theta范数/全部常数、w三边际、同子群双槽n⁴、三个留数的负号与n⁸全尺度准确；R1156直接给同根连续整塔、全内点延伸。全Weil/模叠下的deck诱导乘积付raw下降，不除GL2群阶。
 - root亲读SV原§6.3.1、脚注19、rank表，并全文纸核；o2独核残数/尺度。H前态归档，完成即推；原指定加权target交叉bracket、rank-one/regularization和F0 z12继续，无数学执行。
+
+
+### 2026-11-28 10:59 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原spectral §11付有限E/tanh的精确读取、Riccati首carry、完整g_p及有限Beta积分；g1单位给复合g(2atanh x)唯一首p分母。root逐式核Wilson、边界导数、积分分母/尺度与复合分母，o1独核；旧1–10逐字保留后即推。
+- 这排除把当前Newton算子直接当整形式群映射的路径，不排原共同纤维；二根/Jacobi继续，无数学执行。
