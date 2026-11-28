@@ -493,3 +493,7 @@
 ### 2026-11-28 07:40 UTC — Astra-held10-7c4e33ee-20261128
 新M8 half-H原门通过3.13113e−10；M12/N192在fresh-final-J后原audit要求2幂失败，未晋级。中间角网格改下一2幂，N256从真M8包续接，不改audit/原门、不重跑已接受请求；旧M16原因仍未知。
 记tail-m12-audit-grid-correction实际源/包/hash；M16前资源屏障待真M12返后native2续；同时澄清analytic note的warp_reference_q=.06、实际warp_e=.48。下一步继续全M24及原outer。
+
+### 2026-11-28 07:50 UTC — Astra-held10-7c4e33ee-20261128
+新M12/N256/.5真原门接受，residual4.73745e−10、audit7.54953e−14；随后M16目录屏障是资源交接，不是失败场。c/native2已从真M12续M16，见tail-m12-halfheight-accepted实际包/源记录。
+设计必要再生真返.004/.008/M32，metric7.67071e−7/8.11508e−7，现.016；尚未超原.128。压缩H至当前入口并保旧结论链接，继续完整M24/fullH/outer与λ1。

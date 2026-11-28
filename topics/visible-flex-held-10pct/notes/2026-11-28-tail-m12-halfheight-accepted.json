@@ -1,0 +1,98 @@
+{
+  "status": "actual_m12_n256_halfheight_original_finite_gate_passed_and_m16_native2_started",
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "actual_accepted_packet": {
+    "modes": 12,
+    "quadrature": 256,
+    "factor": 0.5,
+    "full_height_at_current_modes": false,
+    "original_full_height": false,
+    "requested_jacobian": false,
+    "requested_audit": true,
+    "client_returned": true,
+    "packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/m12/tail_0001.json.gz",
+      "sha256": "ccba27ff6af8686f24197591e9314fedf96f15ebfdb431971a5616ad573f296c"
+    },
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/m12/native-source/native-manifest.json",
+      "sha256": "046fee3320c4470d41e85a1512473a27f9fa73eb11fc96ea427be9b80bad8a4f"
+    },
+    "height": {
+      "count": 12,
+      "nonzero_count": 12,
+      "l1": 8.211195395193303e-05,
+      "linf": 8.085711839447946e-05,
+      "f64le_sha256": "a702f21fe7132a1e96422b652cf95dbad94a14d4cf9237104ba3ee302268c092"
+    },
+    "converged": true,
+    "failed": false,
+    "residual": 4.737446564795518e-10,
+    "audit": {
+      "fullD": 7.610448217458583e-10,
+      "normalizedFullDefect": 2.0785510546490448e-08,
+      "minLeading": 0.8200817837254577,
+      "minD": 0.9995941334989237,
+      "formalCurvature": 8.148045697296691,
+      "maxPhysicalPV": 0.00016154923195029597,
+      "actualMetric": 7.549521606768208e-14,
+      "holonomy": 2.2699159497435164e-18
+    },
+    "last_original_iteration": {
+      "iteration": 3,
+      "norm": 4.737446564795518e-10,
+      "minA": 0.8200817826294745,
+      "minD": 0.9995941251715881,
+      "correctionsOnJacobian": 0,
+      "chordMaxCorrections": 3
+    },
+    "checkpoint": {
+      "modes": 12,
+      "spacing": 3,
+      "physical_depth": 8,
+      "shooting_parts": 16,
+      "stage_count": 1152,
+      "state_rows": 1153
+    },
+    "original_finite_response_passed": true
+  },
+  "preceding_summary_sha256": "4f2371cec4a3cce0a71c43766de079de2ec99442da37b2b6c69a772e1e84813e",
+  "following_engineering_stop": {
+    "type": "FileExistsError",
+    "message": "[Errno 17] File exists: '/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/m16'",
+    "scheduling_barrier": {
+      "kind": "explicit_resource_handoff_barrier",
+      "created_utc": "2026-11-28T07:40:20.177089+00:00",
+      "requested_by": "parent root",
+      "reason": "Keep true M12 accepted packet; resume M16 under native2 to leave RAM for original M32/fixed-g prefix",
+      "expected_effect": "FileExistsError before constructing M16 native source or executing its equations",
+      "mathematical_failure": false,
+      "accepted_M12_must_still_return_before_resume": true
+    },
+    "M16_equations_executed_in_segment_b": false,
+    "mathematical_rejection": false
+  },
+  "actual_m16_resume": {
+    "summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/summary.json",
+      "sha256": "4f2371cec4a3cce0a71c43766de079de2ec99442da37b2b6c69a772e1e84813e"
+    },
+    "accepted_packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/m12/tail_0001.json.gz",
+      "sha256": "ccba27ff6af8686f24197591e9314fedf96f15ebfdb431971a5616ad573f296c"
+    },
+    "modes": 12,
+    "factor": 0.5,
+    "accepted_response_recomputed": false
+  },
+  "new_status_at_recording": "original_low_mode_tail_running",
+  "new_workers": 2,
+  "mode12_accepted_request_recomputed": false,
+  "full_M24_height_returned": false,
+  "original_outer_coupling_returned": false,
+  "whole_closed_surface": false,
+  "large_arrays_in_git": false
+}
