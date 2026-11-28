@@ -835,3 +835,106 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 05:54:37 UTC — 25科学自然返回与原完整pure同runner接续
+
+科学自然returncode0，9668.217378869s；原完整report51804983B/c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4只留runner，未在API读大体。最终a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf真实accepted4个恢复步，Phi681.6450227773521/Gram.40616533555531326；最大违约reach .5225620087197518，distance_plus .11392426792936117仍正。stop为declared_restoration_budget; actual_violation_remains_and_is_not_accepted，不能把进程0或四个恢复接受当全场可行。
+
+原声明458个science selectors实返439、19项summary_errors原字保（NoneType、没有的旧literal字段、空metric_directions/prior等，不自行补值）。完整32stage/1496最终原点读返回仍非连续闭面证。先前a28ae只有统计的观察已被此次真实最终几何覆盖，旧未观察时点说明保留。
+
+只有科学已自然返回后，才以既刊完整pure ready的唯一step原对象替换当前完整队列，仍使用active parent_request_id=visible-larger-resume-20261128-25，所有7词、445 formal selectors、源/输入/输出与预算不变。旧3step queue74384B在固定全原身份保留；新pure-only完整46860B/57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee，finish_when_done保原false，同一个公开runner读自己whole report，不重建已完成科学、不转移raw、不取消child。根继续研究当前全场而非在本阶段退出。
+
+```json
+{
+  "schema": "actual-run25-science-complete-and-same-runner-pure-continuation-v1",
+  "actual_run": "46099929359/1",
+  "actual_scientific_source_commit": "870e11a12df457bac9c538b8a4ec054d93cd572d",
+  "actual_scientific_launcher_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
+  "actual_returncode": 0,
+  "actual_seconds": 9668.217378869,
+  "actual_stop": "declared_restoration_budget; actual_violation_remains_and_is_not_accepted",
+  "actual_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+  "actual_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "actual_Phi": 681.6450227773521,
+  "actual_Gram": 0.40616533555531326,
+  "actual_accepted_restoration_steps": 4,
+  "actual_complete_report": true,
+  "whole_report": {
+    "path": "/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-first/report.json",
+    "sha256": "c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4",
+    "bytes": 51804983
+  },
+  "whole_command_record": {
+    "path": "/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-first-command.json",
+    "sha256": "10518e5852f407ac985ecd8a25b14fff940b0b20b10ad7acb2e3e93e108ebe59",
+    "bytes": 50683
+  },
+  "actual_final_bundle_sha256": "de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f",
+  "complete_current_six_constraints": {
+    "six_g_current_reach": 0.5225620087197518,
+    "six_g_current_body_diameter": -0.03813680394177532,
+    "six_g_current_distance_plus": 0.11392426792936117,
+    "six_g_current_distance_minus": -3.0936337274168686,
+    "six_g_current_cap_diameter": -0.0671518843209028,
+    "six_g_current_height_floor": -1.0411708808898954
+  },
+  "actual_geometry_complete_final_point_reads": {
+    "union_locations": 1496,
+    "original_point_reads": 1496,
+    "original_loop_complete": true,
+    "root_preparation_status": "returned"
+  },
+  "complete_old_three_step_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json",
+    "bytes": 74384,
+    "sha": "1b97e5b22477bb7e34146654c9ebd256f58a5d53",
+    "sha256": "343faccb7a2872331de9a3ba6607ac1d62ec831cdd88fc2b8defa62a6aadfcf4",
+    "ref": "6577954e3cf1f11c921823df02a0251e13f52d10"
+  },
+  "complete_prepared_pure": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json",
+    "bytes": 58591,
+    "sha": "f4a8af980ed367180148407da7e878ec337a38bd",
+    "sha256": "8a52cf078f41e5d9b6081fbd41ca601b207646cabb6e34b53b4865a59d6e1e62",
+    "ref": "6577954e3cf1f11c921823df02a0251e13f52d10"
+  },
+  "complete_new_pure_only_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json",
+    "bytes": 46860,
+    "sha256": "57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee",
+    "sha": "8a4f196f583235cbf0495982383f205227c5e9a3"
+  },
+  "entire_pure_step_unchanged": true,
+  "pure_args_count": 7,
+  "complete_original_formal_selectors": 445,
+  "same_actual_runner_local_report_required": true,
+  "raw_data_transferred": false,
+  "old_completed_step_journal_and_reports_retained": true,
+  "active_child_cancelled": false,
+  "new_pure_actual_source_or_return": null,
+  "whole_feasible_field_claimed": false
+}
+```
+
+完整固定原证据：
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 34174,
+    "sha256": "85aa15720cb2883218d83d429875558899ea976a1adf4c05a807a6af5ac91515",
+    "git_blob_sha": "c9d691e523bf41aacfc812f3b68b4e77bf6e93ca",
+    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
+    "scope": "Complete original index/stage volume: full request, all 439 returned science scalars, all 19 summary errors, source, full command, input and output identities."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-001.md",
+    "bytes": 54364,
+    "sha256": "22b34e03950874dc536958c1790acc1fd032a5d7dd167e30d81d7acb36d1aacd",
+    "git_blob_sha": "1378240607367436af10107e965bb2aea69bfa20",
+    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
+    "scope": "Complete original index/stage volume: full request, all 439 returned science scalars, all 19 summary errors, source, full command, input and output identities."
+  }
+]
+```

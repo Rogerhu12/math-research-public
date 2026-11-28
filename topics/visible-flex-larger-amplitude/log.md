@@ -57,3 +57,7 @@
 ## 2026-11-28 05:47:56 UTC — R726/R727完整准确均值核心九件发表
 
 [全交付](computations/fixed-fejer-r726-R727-complete-accurate-mean-core-delivery.json)395065B：五全运行源input52462/4082fb95、Slerp15754/c7ba94ca、cap16340/c110ecba、mean80321/bd252a07、radial62323/67c1e38b，两全文可逆再生47169/46252e1b及82789/a9b10dcb、[全说明](notes/2026-11-28-R726-R727-complete-spherical-mean-accurate-core.md)16411/71809790、总表21496/a0b2bf9e。完整137/23科学source/全点/固定reference绑定；q<2无限正系数Slerp全尾，R0/R1/R2及全部归一化/全3D J/角2/混合保。三个完整积分pass分别候选E0、真根盒E1、真根+已付真vphi盒E2，乘真根完整J逆，不把R727 bound冒整Cartesian盒；固定seed H0/独立profile和w分母保，原shared budgets未增。全4边层8cut/双六片与12aux/全尾保。实际非圆Gamma使wholeK不为连续O2轨道，不能只付母角；小真根冠须真进入另一唯一冠接合，不继旧R722周期bool。N/leaf/G后继完整源继续，所有actual field/root/fee/branch/geometry仍null，不以源齐当数值或闭面证，无新Python/AST/fixture/重放门。双README云核至`6577954e3cf1f11c921823df02a0251e13f52d10`无变（非pull）。
+
+## 2026-11-28 05:54:37 UTC — 25完整科学自然返回并接原pure
+
+science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382仅runner；a28ae/accepted4/Phi681.6450227773521/Gram.40616533555531326/reachg.5225620087197518，distplus.11392426792936117仍违约，stop为声明restoration预算且非可行。458读数实返439、19原summary_errors全保。自然返后换既刊完整pure唯一step7词/445读数，新wholequeue46860B/57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee；原parent/finish与全部参数原字保，同run原whole report，无取消/转raw/重做结论。[全记录](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。open仅§7压缩，全部旧文保25d72固定原件，§1–6全23359B/SHA1be136a8不动。双README云核至`ebfbe3b33e2588e1256cd35410944869adf1f007`无变（非pull）。
