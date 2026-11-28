@@ -1,15 +1,21 @@
 {
-  "message": "ISP: exclude the entire corrected Phi second-NV-head ell-three-halves intersection",
-  "parentCommit": "313bc5965e7514858afa3af67a76009a896b336d",
+  "message": "ISP: exclude all Vbar-positive M degenerations and prove mu integral",
+  "parentCommit": "795f30b106ddb9e1a387022d30aa4dd4bb35d788",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Phi-second-head-ell-three-halves-exclusion-2235-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Phi-second-head-ell-three-halves-exclusion-2235-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-Vbar-positive-entire-M-zero-exclusion-and-mu-integrality.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-Vbar-positive-M-zero-and-generic-mu-pole-original-input-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-Vbar-positive-finite-mu-three-full-original-scalars-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-Vbar-positive-finite-mu-three-full-original-scalars-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-delta-open-three-original-same-mu-residues-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-delta-open-three-original-same-mu-residues-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-w-vbar-finite-mu-three-original-scalars.yml",
+    ".github/workflows/invariant-subspace-8542-w-delta-open-three-original-residues.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-Vbar-M-unit-mu-integral-2240-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-Vbar-M-unit-mu-integral-2240-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +24,8 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-vbar-finite-mu-three-original-scalars.yml",
+    "invariant-subspace-8542-w-delta-open-three-original-residues.yml"
+  ]
 }
