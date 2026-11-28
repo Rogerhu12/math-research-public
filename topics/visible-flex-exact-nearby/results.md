@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GDG：紧支撑势给出的全负域genuine行列式](results/R133-supplement-complete-global-genuine-determinant-from-supported-potential.md)：从原真实piecewise根域与全域ω单调严格包住势支撑，付ΔV/D>1−1e−7、全[0,r*] ΔV>1/720；root B entrysum<21/10、whole B−Hinv<1/70000。18新exact组合一次全过，8whole旧输入和全部原success绑定保，旧科学/恢复0；不冒uniform响应或全物理逆。
+
 - [RCS：原完整带符号系数、同J负阶窗与真正高频响应输入](results/R149-supplement-signed-strict-coefficients-and-complete-genuine-response-input.md)：新全strict60 jets+5Lt+5J+2正下界的1自然目标；13整件metadata及原TCXV184/32/40parts全前缀，所有signed乘积、原mean与positive/root接口保。首次manifest/workflow已齐，尚未预报actual、全域deformed-B gap或uniform高响应；旧科学0。
 
 - [TF真实失败终态与完整载体恢复合同](notes/2026-11-28-TF-left81-failure-and-checkpoint-restoration.md)：run46120139018/1仅前81个left pivots通过，第82格4→64 cuts仍失败；两whole目标/右图/source maps未成，不推真实奇异。三完整载体SHA确定性恢复代码已齐、未执行；之后换严格Householder联合球图表，旧81结论不重授，0新科学。

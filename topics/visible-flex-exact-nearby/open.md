@@ -161,4 +161,6 @@ LCW/PWA的实际锚、NP height、HP height-first、HN2二阶strict/height和CG 
 
 [JWS](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)已证同whole strict J0<7/5、H1<29/5、DJ>3/8，15新有理组合一次过；负阶窗须全multipliers。[FWT](results/R133-supplement-finite-cut-Wiener-transfer-and-reduced-NG-entry.md)给γ≤.065|δ|+4cL+hH/16与新门64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11，19组合一次过；未知cL/ZS/ZL未赋值，原true collar/residual0/fullmean/H8193保。
 
+[GDG](results/R133-supplement-complete-global-genuine-determinant-from-supported-potential.md)现已独立付全负域deformed-B gap：真piecewise R=1/50全域包含势支撑，ΔV>1/720；18新Fraction一次过。RCS原入口却在原方向恢复前遇真实CPU缺SkylakeX、science0；仍须合规可执行入口取得新全signed packet。uniform高响应/完整source义务不消。
+
 全Γ/γ低高准入、完整physical square/Schur、H1/mean/residual0/core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps及最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
