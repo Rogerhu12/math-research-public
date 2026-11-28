@@ -61,4 +61,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 执行器失联后的 API 规则读取：公开 `d528e3780da374f7fae008b58507b37f8e0c8a83` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
 
 <!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。run46160322325真实H65全局部成功并已合R304；同run原R262中央对新D3低曲率.25/.35的全幅位差仅.029855/.027959，继续完整前缀同g求解。
-<!-- 2ecf-actions-rules --> Actions run 46157156458/1：真实 pull/rebase 2026-11-28 16:00:59 UTC；公开已读 7452f327aed23ce2d263e7f9f4d9425c59f1f55f，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:58:42 UTC、已读 72044f9298208e6ef6095e69fcf804beb038dfa1，私根无变化。
+<!-- 2ecf-actions-rules --> Actions run 46157156458/1：真实 pull/rebase 2026-11-28 16:01:21 UTC；公开已读 4c6520f11a5fc172c4ff2cfc6593ddc9b513a529，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:58:42 UTC、已读 72044f9298208e6ef6095e69fcf804beb038dfa1，私根无变化。
