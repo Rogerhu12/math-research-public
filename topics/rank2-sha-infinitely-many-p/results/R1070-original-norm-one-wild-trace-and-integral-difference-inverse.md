@@ -533,6 +533,89 @@ $$
 
 具体原文位置：Yang 作者稿 p.13 Thm.1.11、(1.16)后之 $c(s)$，p.17 Cor.2.4 (2.9)，p.19 Thm.2.6 (2.19)，p.24 (2.29)后和Thm.2.15；BHKO §4.4.1（论文pp.29–30）Thms.4.14–4.15及Thm.1.5（当前两固定Q-curve、好惰性 $p\nmid6h_K$）给本文所用 $\mu=0$。
 
+## 18. 原中央 Newton 商的全整权延拓
+
+续前节，保 $b=17,N=34$ 与 $b=1,N=2$，$a$ 的局部范数准确为 $17$，模型坐标 $z_1=\vartheta z_{17}$。对整数 $k\ge0$、$d\mid k$ 置
+$$
+\Lambda_{b,N,0,k}(F)=[z^k]L_b(v_b(z))^N F(v_b(z)^d).
+$$
+此泛函只需原点有限 jet，因而在任一严格原点闭盘上有界。令 $(T F)(W)=U_\eta(W)^N F(\Phi_\eta(W))$，原正式乘法式立刻给 $\Lambda(TF)=\eta^k\Lambda(F)$。取 $F=W^{k/d}$ 可见 $\Lambda(F)=1$，所以 $\Lambda$ 非零。由 $\mathfrak C_{b,N}$ 的满性及 $\mathfrak C(X^n)= (T-I)^n1$，必有 $\Lambda(1)\ne0$；并对全整 $F$ 有
+$$
+\Lambda(F)=\Lambda(1)\,(\mathfrak C_{b,N}^{-1}F)(\eta^k-1).
+$$
+该结论同样涵盖 $k=0$。原 $L_b$ 为 $\mu_d$ 不变，且 $z([\zeta]v)=\zeta z(v)$。对 $\bar f_{b,N}$ 取此泛函时，全部项恰成为 $N$ 次原 sigma 来源旋转的 $k$ 次系数，角权 $\zeta^k=1$。因此 $\Lambda_{17,34,0,k}(\bar f_{17,34})=s_{17,k}$，$\Lambda_{1,2,0,k}(\bar f_{1,2})=\beta_k$，后者是 R303(2) 的 $[z^k]\Theta_2$。两模型的真实交织式则给
+$$
+\Lambda_{17,34,0,k}(D_a^2 F\circ\Psi)=(a\vartheta)^k\Lambda_{1,2,0,k}(F).
+$$
+由于 $V_a\mathscr E_2$ 谱上整单位，同时得 $\beta_k\ne0$。在比值中消去目标线同一 $\Lambda(1)$，有确切数值
+$$
+\mathscr J(\eta^k-1)=(a\vartheta)^{-k}s_{17,k}/\beta_k.
+$$
+R303(3),(23) 给 $s_{17,k}=\vartheta^{k-6}\alpha_k$，以及当 $k=du$ 时 $\alpha_{du}/\beta_{du}=17^u J_p(u)/J_{0,p}(u)$；两个阶乘在相同位置消去。$17/a^d\in1+p\mathcal O$ 来自 $a\bar a=17$、剩余域 Frobenius 为共轭。因此先对 $u\in\mathbf Z_{\ge0}$、继于整个原闭盘有准确身份
+$$
+\boxed{\mathscr J(\eta^{du}-1)=\frac1{17}\left(\frac{17}{a^d}\right)^u\frac{J_p(u)}{J_{0,p}(u)}.}
+$$
+两端均按原 $p$ 进指数在 $|u|\le1$ 解析，参考 $J_{0,p}\in1+p\mathbf Z_p\langle u\rangle$。因而这是真实全整谱系数给原指定中央 germ 的延拓，含全部模型与指数因子。微分后 $j_{34}=J_p'(0)/17$，零阶 $\operatorname{ord}_{X=0}\mathscr J=e_{\rm cent}$。
+
+## 19. 同一个谱在各挠点的物理 Hermite 导数
+
+取一实际 primitive $Q$，阶 $n=p^i$，严格参数 $v_Q$ 及 $W_Q=v_Q^d$。局部不变时间记为 $t$，$Q+t$ 指群法平移，$v(Q+t)$ 在充分小盘按 $t$ 解析且导数非零。选择适当小的盘，取唯一 $G_{b,N,Q}(t)$ 使 $G(0)=1$、$d\log G=Na_b(W)dW$。以下取局部有限 jet，所以不需要 $L_b$ 的 sigma 级数越原首挠半径收敛。准确定义
+$$
+\Lambda_{b,N,Q,k}(F)=[t^k]G_{b,N,Q}(t)F(W(Q+t)).
+$$
+由全开盘 $d\log U_h=h^*(a\,dW)-a\,dW$ 与常数项，得
+$$
+\Lambda_{Q,k}(T^l F)=u_l(Q)\eta^{lk}\Lambda_{\eta^lQ,k}(F),\quad u_l(Q)=U_{\eta^l}(W_Q)^N.
+$$
+因此在同一前节轨道 ($H=p^{i-1}$、$\lambda^H=\epsilon_i$) 上，$\Lambda_{\lambda,k}:=\sum_{l<H}u_l\lambda^{-l}\Lambda_{\eta^lQ,k}$ 在 $T$ 下的本征值为 $\lambda\eta^k$。对不同 $W_{\eta^lQ}$ 作有限 Hermite 插值，可在选择的一点指定阶 $k$ 导数而令其他点的 $k$ 阶以下 jet 全零。$W(Q+t)'(0)\ne0$ 保此主系数非零；适当乘标量使多项式整。因此 $\Lambda_{\lambda,k}\ne0$，同一循环性再次给
+$$
+\Lambda_{\lambda,k}(1)\ne0,\qquad \Lambda_{\lambda,k}(F)=\Lambda_{\lambda,k}(1)(\mathfrak C_{b,N}^{-1}F)(\lambda\eta^k-1).
+$$
+这里使用普通 Taylor 系数 $[t^k]$；把两边换成 $D_t^k$ 须同时乘 $k!$。
+
+须实际对准原 Miller 物理微分。设该模型原 $n$ 除法函数 $r_n=\sigma(nz)/\sigma(z)^{n^2}$，$\Xi_b$ 为 R1063(H6) 的同模型 zeta Laurent 函数（$b=17$ 时保 $b^j$）。原正式等式 $D\log r_n=n\Xi_b([n]P)-n^2\Xi_b(P)$ 在开形式盘乘去两端有限的极后延拓。$n\Xi_b([n](Q+t))=1/t+O(t)$，故常数项给
+$$
+\Xi_b(Q)=-\frac{D^2r_n(Q)}{2n^2Dr_n(Q)}=\zeta(q_Q)-\eta_{q_Q},\quad q_Q\in n^{-1}\Lambda_b.
+$$
+末等式由原复除法函数在 $q_Q+t$ 展开，保 $nq_Q$ 的准周期；任意 $n=p^i$ 都相同。因 $D\Xi_b=-x_b$，全部高阶局部 jet 也恰是 $\zeta(q_Q+t)-\eta_{q_Q}$ 的原代数 Taylor jet。令 $k_b(Q)=\mathfrak k_b(q_Q)$，$\mathscr F_{b,N,Q}(t)=\exp[-N\eta_{q_Q}(t+q_Q/2)]A_{b,N}(q_Q+t)$，它是 R1067(15) 的实际标签。把 $Na\,dW=N(\Xi_b\,dt+d\log(T_{g,b}/v))$ 积分并以 $G(0)=1$ 固定常数，得正规化等式
+$$
+G_{b,N,Q}(t)f_{b,N}(v(Q+t))=\left(\frac{v_Q}{T_{g,b}(Q)k_b(Q)}\right)^N\mathscr F_{b,N,Q}(t).
+$$
+即便 $\phi_{b,N}(Q)=0$ 也可用左边的有理因子直接相乘，不需将它除去。对 $h=\zeta\eta^l$，局部时间需乘 $\zeta$ 或 $\eta^l$；以上本征权已保 $\eta^{lk}$。角平均余下 $\zeta^k$，在 $d\mid k$ 时恰为1。结合上一节全精度 $U_h$ 的绝对中心返回，有
+$$
+\Lambda_{b,N,\lambda,k}(\bar f_{b,N})=
+\frac{K_{b,N,Q}}d\sum_{\zeta,l}\lambda^{-l}[t^k]\mathscr F_{b,N,\widehat{\zeta\eta^l}Q}(t),\qquad
+K_{b,N,Q}=\left(\frac{v_Q}{T_{g,b}(Q)k_b(Q)}\right)^N.
+$$
+帽号含所选固定 $2p^{2i}$ CRT 代表，仍按前节的准周期相位理解。$Q'=[a]\iota Q$ 的同电荷交织在局部时间乘准确的 $a\vartheta$，从而
+$$
+\Lambda_{17,34,\lambda,k}(D_a^2F\circ\Psi)=D_a(W_Q)^2(a\vartheta)^k\Lambda_{1,2,\lambda,k}(F).
+$$
+这给所有 $i\ge1$、$k\ge0,d\mid k$ 的原两条完整 Hermite 和：参考和非零，目标和可零；取比时除了显示的 $D_a^2,(a\vartheta)^k$ 与两个明确的 $K_{b,N,Q}$，其余共同泛函常数都相消。
+
+特别在原首层 $H=1$，沿 R716/R1067 既定的 $\chi_r(v)$ 选种子。若用非原初始种子，其精确 Hall 权须再乘固定的 $\chi_r(v)$；该常数不依 $k$。记 $B_r$ 为上述 $K_{17,34,Q}/(D_a(W_Q)^2K_{1,2,Q'})$ 乘相应参考与目标种子字符比。则对全部合法整数 $d\mid k$，原 R1067(15) 的同一批和准确满足
+$$
+\mathscr J(\lambda\eta^k-1)=B_r(a\vartheta)^{-k}\,\frac{\mathscr D_{34,r,k}}{\mathscr D_{2,17r,k}}.
+$$
+可将 R1067(25) 的合法步长 $M$ 同乘一个正整数，使 $(A_{34,*}/(a\vartheta A_{2,*}))^M$ 在指数收敛盘中；这是同一 germ 的有限指标重参数。两边分别沿 $k=Ml$，其实际 $A_{N,*}^{Ml}$ 因子给准确等式
+$$
+\boxed{\mathscr J(\lambda\eta^{Mt}-1)=B_r\left(\frac{A_{34,*}}{a\vartheta A_{2,*}}\right)^{Mt}
+\frac{\mathcal H_{34,r}(t)}{\mathcal H_{2,17r}(t)}.}
+$$
+先在全部非负整数 $l$ 用已付的(26)，再以 $l=p^j\to0$ 在参考单位邻域解析延拓。$B_r$ 是准确固定单位，包括原 wild 相位。由此 $\operatorname{ord}_{X=\lambda-1}\mathscr J=\operatorname{ord}_{t=0}\mathcal H_{34,r}$，整个原中央与首层 Hall 权函数现在是同一整权函数的两个真实局部展式。
+
+## 20. 实际高度给 Rubin 不变量的间隙
+
+设 $p$ 足够大到 R707 的固定高度界适用，$D=p-1$。对第一 wild $x=\lambda-1$，原始 $v_p(x\mathscr L(x))=v_p(\mathcal T_{34,T})$，其参考固定整单位。若该迹非零，则 R707 增补给
+$$
+ v_p(x\mathscr L(x))\le\tfrac34+\frac{\tfrac14\log(1+\log p)+O(1)}{\log p}<1.
+$$
+因为 $\mu(x\mathscr L)=0$，$n=\lambda(x\mathscr L)=\lambda_p/2$。若 $n\ge D$，其前 $D$ 个系数全部含 $p$，从 $D$ 次起各项估值也至少1，矛盾。故 $n<D$，在 $x$ 处首单位项严格主导所有项，得到精确及上界
+$$
+\lambda_p=2(p-1)v_p(\mathcal T_{34,T})\le \tfrac32(p-1)+O\left(\frac{p\log\log p}{\log p}\right).
+$$
+若该迹为零，R1067(8) 已给 $\lambda_p\ge 2e_{\rm cent}+2(p-1)\ge2p$。反之若 $\lambda_p\ge2(p-1)$，前述严格单元主导已排除非零迹。因此充分大的允许 $p$，该迹是否为零等价于原 $\lambda_p\ge2(p-1)$，该阈值的上方实际从 $2p$ 开始；原中央坏且迹零时从 $2p+2$ 开始。以上间隙应用的是同一原迹的实际高度，保留两支并未选择其中一支。
+
 ## 来源
 
 - [R663](R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：本文所指原来源、坐标、连接或角色规范。
