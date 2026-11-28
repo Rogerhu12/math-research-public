@@ -138,3 +138,12 @@ R1060§13.1给同一whole覆盖核临界闭盘的准确充要：Tate延拓当且
 root独核(50)全部p幂及Legendre等号、n=j+p^r数字和、整个Zp的一致极限及Cp值Mahler稠密性。全纸证，无数学运行。R1060§§12–13已成功推送da64df51fbd24fbd77478988e5e968e72d2e34a8，本条是在其全文后新增(49)–(51)。
 
 推前actual readonly run46075603971/job140834609557：公开2026-11-28 02:28:58 UTC至d7757aff6e1ad7e6c789718e8002c9a8b5f85f6a；私库2026-11-28 02:29:03 UTC至5361ddfdf550278e0d4123ee1dacf5770d9943b5。四README与02:17已读版相同，QUEUE/认领未变。日志14895B/hashb597b050beaad49bbec46bfc1f09759f6773cb5269323b5b9ca056c50aa4a4eb；库存3169/44713334B/tree27ebb37b21465d53fdc9c8bcc9a7ec12c13450fe，无>5MB，三旧必要gzip不变。最新02:29 v13仍in_progress，02:30日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，未收到新数学终门。
+
+
+## 2026-11-28 02:31:46 UTC：原 p² 反 CM 图、principal 商与完整 Miller
+
+R1061从同一inverse Jacobi与原周期格给实际反CM图γ34=ω·conj，原完整p⁴图群平均准确返p^-2 Weyl和；actual34次level根及固定δ三盖给(34,102)极化。对复合n=p²直接用Hermitian投影与反CM关系证明principal商不分裂，原periodbasis和positive[-1]全保。实际Miller函数的除子/中心/代数首常数、c_Q估值1/(p²−1)、Q0首p和δ相容全付；负来源仍在三盖的两非平凡3角色，普通trace零不等原toric零。只对未circle投影字得到全局theta下降；完整h∞核及冻结外权仍按R1060，不能由section非零冒临界斜率非零。
+
+root逐式核实际格Ω0/δ·OK、inverse Jacobi线性/中心项、γ34/γ102方向、p⁴图/p²coset/Haar费用、34次根level与类型；用M=q†Pq的两个端点及kδ杀E[n]独核复合p²不分裂。核完整periodmatrix、Miller准周期/首常数及整形式参数估值，arithmetic独核二阶pullback/δ恒等。对Haar对偶句明确未扭曲基，运输后是扭曲coeval，并改正两3词的内部引用；数学主式不改。root另实际打开Mumford1966§1 Prop1及Kani1997§1 Remark1.3/Example1.4原文核其适用条件。全纸证，无新增数学运行。
+
+R1060§13.1已成功推送8f8c2caf7b6580cb7ebb89670a634cf014793171。推前actual readonly run46075603971/job140834945104：公开2026-11-28 02:30:15 UTC至91ecb6cb858ffafe71f09b21492061c3da8d1c62；私库2026-11-28 02:30:20 UTC至3072cdbbec2aa2e93f6b82cebc2b9216f371478d。四README与02:28已读版完全相同，QUEUE/认领未变；日志14887B/hash84166b6c7c4b7618baf788584f5c2c045ba8a9279f2bccb34059ed7a42dbff5b，库存3169/44719983B/tree83d7fbc1709479ce37f4b6f13945d9f68c579719，无>5MB，三旧必要gzip不变。

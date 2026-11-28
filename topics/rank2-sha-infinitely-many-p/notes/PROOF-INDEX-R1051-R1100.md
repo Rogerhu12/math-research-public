@@ -186,3 +186,10 @@ R1060§§12–13付原D102/S34 completion的真实微分tensor与全circle次序
 R1060§13.1给同一whole覆盖核临界闭盘的准确充要：Tate延拓当且仅当原bounded测度的整个单位部分为零。Legendre准确数字和及n=j+p^r子列迫全部Teich加权矩零，再由Mahler稠密性得整单位测度零；反向由支撑pZp的n阶估值支付。保真实cross Gaussian及原frame，不把一条Teich分量、负矩或canonical J′零冒整个单位测度零，也不把其它几何坐标的正则性冒同coherent边界。
 
 [完整证明](../results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(49)–(51)。
+
+
+## R1061 — 原 p² 图群与完整下降、Miller 规范
+
+R1061从同一inverse Jacobi与原周期格给实际反CM图γ34=ω·conj，原完整p⁴图群平均准确返p^-2 Weyl和；actual34次level根及固定δ三盖给(34,102)极化。对复合n=p²直接用Hermitian投影与反CM关系证明principal商不分裂，原periodbasis和positive[-1]全保。实际Miller函数的除子/中心/代数首常数、c_Q估值1/(p²−1)、Q0首p和δ相容全付；负来源仍在三盖的两非平凡3角色，普通trace零不等原toric零。只对未circle投影字得到全局theta下降；完整h∞核及冻结外权仍按R1060，不能由section非零冒临界斜率非零。
+
+[完整证明](../results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，(1)–(35)。

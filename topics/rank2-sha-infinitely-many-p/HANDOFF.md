@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际pull、已读规则和认领
 
-readonly run46075603971/job140834609557，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 02:28:58 UTC实际partial clone/pull至d7757aff6e1ad7e6c789718e8002c9a8b5f85f6a。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 02:29:03 UTC实际至5361ddfdf550278e0d4123ee1dacf5770d9943b5。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与02:17已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14895B/SHA256 b597b050beaad49bbec46bfc1f09759f6773cb5269323b5b9ca056c50aa4a4eb；完整库存3169blobs/44713334B，tree27ebb37b21465d53fdc9c8bcc9a7ec12c13450fe，无>5MB，三旧必要gzip不变。
-- 每推前新实际pull；最迟2026-11-28 03:28UTC再拉两库。竞争先实际本地pull，无环境则CI实际pull、核新差异后继续，API比较不冒pull。
+readonly run46075603971/job140834945104，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 02:30:15 UTC实际partial clone/pull至91ecb6cb858ffafe71f09b21492061c3da8d1c62。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 02:30:20 UTC实际至3072cdbbec2aa2e93f6b82cebc2b9216f371478d。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与02:28已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14887B/SHA256 84166b6c7c4b7618baf788584f5c2c045ba8a9279f2bccb34059ed7a42dbff5b；完整库存3169blobs/44719983B，tree83d7fbc1709479ce37f4b6f13945d9f68c579719，无>5MB，三旧必要gzip不变。
+- 每推前新实际pull；最迟2026-11-28 03:30UTC再拉两库。竞争先实际本地pull，无环境则CI实际pull、核新差异后继续，API比较不冒pull。
 - 本地07:20失联；02:07 ref竞争后pull --rebase仍无环境，末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
@@ -29,7 +29,7 @@ readonly run46075603971/job140834609557，source e5309ee152260aa4aef389c7d5d68ba
 [R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)已证未改动来源的完整toric flat及全部外权导数恒零；只杀完整和，不推点测度/canonical/outward/signed零。
 
 [R1054](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)原W_p=p^-4g2²*w0、bad=−F0+p²g2²*F0及raised费用全保；循环p²点vc=1/p、Ω2=p^-2cΩ0，new=p^-4(cΩ0)^w r_alg。全p⁴核分为p^-2旧球及全部exact-p²逆角色对，保1/[p(p+1)]及全tame。§9付Pg_t^TP/h=bar t、Ct=tC0/idèle t^-1、Tate det/degree/cup/KS、三个微分及全部p+1单位矩阵。旧项差(1−p^-2)只在同一full-avatar野和或已付完整旧germ去掉。AI仅用同full2/full9局部GM/marked构造，不套全局Heegner定理。
-新增§10付六阶t0的绝对Weil/Haar相位与全部p² Weyl词、真实逐h CRT/Jacobi字；K字配对p^-1ρ、Haar coeval p^-2。负δ/p覆盖/两3挠字全保，完整source积分不能被各总period或自由L34平移替代。geometry继续whole graph下降及真实反CM标记。
+新增§10付六阶t0的绝对Weil/Haar相位与全部p² Weyl词、真实逐h CRT/Jacobi字；K字配对p^-1ρ、Haar coeval p^-2。负δ/p覆盖/两3挠字全保，完整source积分不能被各总period或自由L34平移替代。[R1061](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)现给实际γ34=ωconj反CM p⁴图及(34,102)下降；δ三盖后的principal商由复合n=p²自含证明不分裂，periodbasis与positive[-1]保原source。完整Miller/δ恒等、c_Q估值1/(p²−1)、Q0首p均付；两非平凡3角色的ordinary trace0不杀whole toric。后继为实际两twisted来源/临界读者，全局section非零不替它。
 
 [R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)付主单位完整Möbius、det/KS、含全μp盘及root平均互绕，逐点固定μp而非根平移。
 [R1059](results/R1059-original-p-square-source-and-complete-critical-germ.md)用真实Teich逼近和vC=2全Maass尾付负二整个germ及斜率；裸Q测度不换，j_t=Nt^-j bar t^w留外权Λ=λj。保全部period/det/log/外权导数。§8同一Frobenius-rigid primitive给p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉，完整e_i/m_i/旧germ；exact-wild全和为−p^-4Σλe_i/(m_iΩ_i)AJ_out。ψ4十八17核/双sign/full9/1/12均保，不冒旧54；值不代全部导数或canonical授权。
