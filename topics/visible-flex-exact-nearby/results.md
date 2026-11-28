@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [FIOP：真实半密度的全频物理Sobolev接收](results/R149-supplement-half-density-physical-Sobolev-bounds-for-the-complete-true-FIO.md)：真P的酉半密度与全圆角变差给全部频率L2界；精确分部积分stack/binomial接收及三线插值给物理负阶，完整输出mean/low泄漏保，不收带宽sqrt或非法相位替换。根片C_P及逆在L2/H1<1+1/180000；全域原幅/高响应数值仍须实付。
+
 - [FR1：同一真实射线首比值的一阶径向强迫](results/R149-supplement-first-order-genuine-ray-ratio-by-signed-wave-integration.md)：准确W=LσL−σ+σ(bρ−bdφ)∂φ，把四支首R变为U=R−cL−w0；G和E_G从比值接收/还原准确消去。六角体源只要A1六角/同点omega八阶及真实一次r导，端项在真缝连续抵消，GCS非零初值和后续物理跳保。
 
 - [ASQ8：选定真实相位子系统的可求和解析迭代](results/R149-supplement-selected-physical-phase-fibre-summable-analytic-iteration.md)：对每个完整physical对称z且L2_r A_(1/1024)≤2^-33000，真实Q*+z+k h^a、nu*+k存在全lift精确conjugacy；实际pivot、complex tube、Cauchy M=2^6000、e(n+1)≤e(n)²及k/g/g′绝对可求和全证。原均值/NP真实regular缺陷保，仅phase fibre，非最终固定metric flex。

@@ -374,3 +374,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 10:26:21 UTC / visible-exact-astra-b0d5a16-20261128：FR1。准确W=LσL−σ+σ(bρ−bdφ)∂φ，把四支首R变为U=R−cL−w0；G和E_G从比值接收/还原准确消去。六角体源只要A1六角/同点omega八阶及真实一次r导，端项在真缝连续抵消，GCS非零初值和后续物理跳保。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-first-order-genuine-ray-ratio-by-signed-wave-integration.md","bytes":4398,"sha256":"bb46a7d7fa520b99b39328369634988bc19cb79ce3a92be8df2712f834b34d29"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_first_ratio_first_order.py","bytes":2638,"sha256":"c79ddae79bd11f44aa1892e9f3549defec53f08b876175ba1bfd19e7268ae075"}]。
+
+
+2026-11-28 10:26:30 UTC / visible-exact-astra-b0d5a16-20261128：FIOP。真P的酉半密度与全圆角变差给全部频率L2界；精确分部积分stack/binomial接收及三线插值给物理负阶，完整输出mean/low泄漏保，不收带宽sqrt或非法相位替换。根片C_P及逆在L2/H1<1+1/180000；全域原幅/高响应数值仍须实付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-half-density-physical-Sobolev-bounds-for-the-complete-true-FIO.md","bytes":5190,"sha256":"6d68e9f6b308ec34292a505cde67ca8dac9293b3eda3ea6e17f7b4f4e4280a56"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_fio_physical_band.py","bytes":3147,"sha256":"c71fad0f16b2d8e40c4ecb16c50436e2ac0a174754493c06d7d2b50f0e155128"}]。
