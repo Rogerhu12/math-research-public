@@ -723,3 +723,10 @@ Abhinandan，*Crystalline representations and Wach modules in the relative case*
 Definition 5.1、Proposition 5.3、§5.3。
 [作者全文](https://arxiv.org/pdf/2103.17097)中同一 realization 命题为 Proposition 5.2。
 §11 的 Taylor 精度、§§13–14 的 finite Cartan 基变换、群乘法次序和三个系数均在文中自证。没有数学程序执行。
+
+
+## 16. 同一相对 rational associatedness 已由 R1150 支付
+
+[R1150](R1150-original-relative-log-Frobenius-and-crystalline-identification.md)在同一 Hodge frame 构造完整 horizontal Frobenius：先由原 geometric rigid residue 同构解 abelian 方程，再以原 Tate arithmetic identity $a_5=u_5$ 消去三个中央 residue，得到唯一全局 log Frobenius。严格扩张的显式 horizontal period gauge、proper-log 全曲线下降及原中央 $H^1_{\rm et}=0$ 识别同一 R1147 tower。
+
+所以 §12 明确保留的同一 **rational relative associatedness** 前提现已支付。§§11–15 的整 Taylor、有限 Cartan $q_t$ 与三个原 Heisenberg 槽在其原未分歧短盘、小权、实际 integral frame 范围内可据此使用；没有把弱 filtration/Frobenius 同构代替连接同构。真实参考 $F_0$ 的中央条目、同一 global lift 的 subtraction、其余 twist/ramified 情形及全范围排点仍按 open.md 继续。

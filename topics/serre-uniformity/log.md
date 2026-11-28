@@ -670,3 +670,7 @@
 ### 2026-11-28 08:13 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原genus4 §7：同一Fermat6 primitive的低层消失、正则性与p次平移全付；第四层以完整尺度接回原K4。3p−1/9p−1两指数均保，e0后才消极；114第二层有限系数及其高层亚纯边界明确。
 - root已核全文，o2已核absolute/relative尺度；旧1–6逐字不动，H前态归档。原临界非零与18 cross继续，无数学执行，不重复已登记有限窗口。
+
+### 2026-11-28 08:16 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1150：原43塔∇uV/∇uZ完整次序、Tate arithmetic a5=u5及中央res消去给全局overconvergent/log Frobenius；明确用horizontal period gauge，未借Tan–Tong弱associatedness偷付连接。proper-log下降与H¹etZ0识别原tower，R1149 §12 rational前提关闭。
+- R1149新增§16消费，H先归档、open/index同步；原中央F0/global差及full Nns仍开，继续指定中央值与两条unit线。全文纸推，无数学程序。

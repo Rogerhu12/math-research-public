@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1150（已证明）**：[原相对log Frobenius与同源](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)原43塔的完整矩阵、Tate常数a5=u5及中央留数消去付rational relative crystalline/log实现；horizontal period gauge、proper-log下降及H¹etZ0识别同一tower。R1149短盘associatedness门已关，F0中央值与global subtraction继续。
+
 - **原Fermat6第四层Cartier（已证明）**：[原genus4 §7](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原e0后安全高插入与K4全部尺度已付；双零等价指定七维第0…4全零。两个真实Cartier指数及高极消去完整，114第二层给有限Λp；其非零及18 cross仍开。
 - **原Fermat6完整Raynaud张量（已证明）**：[原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)指定degree2商接十维固定Fermat6，完整primitive/45槽统一式与原B22,12=−c^(2k−1)e/δ已付；e0等价公共222方向在全β radical。真实V4三商内部零仍留18 cross，未宣原e/K4不能同零。
 
@@ -183,6 +185,6 @@
 
 - R1135 §14（同文件）：原有界primitive、准确Cartier/B^p、r7/9完整Katz depletion与全局有界唯一性已证明；局部共振及实际Gaussian目标保留，原F非齐次forcing已明确。
 
-- R1149 §§11–15（同文件）：完整整Taylor/有限Cartan/q_t/Heis三槽与CM coarse次数已证明；原应用明确保留同一相对associatedness前提及F0/global中央常数，未宣p-local排点。
+- R1149 §§11–15（同文件）：完整整Taylor/有限Cartan/q_t/Heis三槽与CM coarse次数已证明；同一相对associatedness后由R1150付；F0/global中央常数仍开，未宣p-local排点。
 
 - R1135 §15（同文件）：原Π0的完整Frobenius常数/逆B指数已付；Wω全纯Cartier恒零的边界及指定Gaussian第三类Xi的准确值检测已付，读数非零仍待实际forcing。

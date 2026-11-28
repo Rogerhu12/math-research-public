@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：a1d0897ee73c65c3889cd56fb958ea8d1f48abf9**（2026-11-28 08:10 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：a95c1e62e763d9144890c546db0cc624dfe21fb4**（2026-11-28 08:13 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:49:56 Asia/Taipei，Actions run46084622951/job140791187426，blob:none浅clone真实pull --rebase至c6fc7f50，两README diff空、SHA相同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、pull≤08:49。本地08:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Fermat-fourth-Cartier.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-relative-log-Frobenius.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -18,19 +18,19 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1131–40](results.md)完整门沿open/前态：r2须Bp−3、radical角色β_(4j+2)、class4全四cusp矩/phase不可删；既付端点不扩F33/一般pairs/四阶。
 
-[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件c_Eis=−2016δ²Pχ1≠0。[R1141–42](results.md)Bp−5单位时原proper I3 H²=O/p，constant cup非零socle；MW d0/1对应field像非零/零，d未定。
+[R1143–44](results.md)付c_Eis=−2016δ²Pχ1≠0及原proper算术修正A1∪A2=−8δ²A1∪ε4/11；ε4=βχ2/(1−a⁻⁴)，所有transfer/HS/polar尺度沿文。原未修正杯积非零socle仍保；MW d0/1未定。
 
-[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术 A1∪A2=−8δ² A1∪ε4/11，修正pair杯积零；ε4=βχ2/(1−a⁻⁴)，v4=1/252、v8=1/132。完整Tate算术transfer、cyclic cup、HS检测/polar/两factor2及proper回填已付。指定β8=0且Ψ_E(Pχ1)={F1,ε4}/(132δ²)，不扩一般pairs/四阶或误删未修正proper非零。
-
-[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)原L3/L5/L8的proper Heis p³、满几何像和全部cusps/ℓ≠p含2、3已付。B8给base中心H¹/H²0，每个global abelian pair唯一lift，p-local中心一维。曲线twists=J(K)[p]ω⁻⁷，B16/Bp−15门内删I8才全无。
+[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)原proper Heis p³、满几何像及全部cusps/ℓ≠p含2、3已付。B8中心H¹/H²0给唯一global lift；twists=J(K)[p]ω⁻⁷，B16门仍保。
 
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)全S0唯一p⁴²源、规范proper Heis与compatible p^n塔全付；原primitive norm/phase/arith transfer给v_d∞=(1−p^d)B_(d+2)/(d+2)、λ∞=21(1+p⁴)/11。每个good E fibre crystalline；未分歧底上原43格幅14的FL准确恢复原modp Heis。Cartan I未升，SS整首jet仍开。
 
-[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)已刊LZ/DLLZ付同一原43塔相对filtered/log连接及唯一Hodge截面：Fil0W→O严格iso；右action b(v_h,v)及矩阵b(α,−)完整。η=α_L5=0但原Π/λ∞迭代项不零。§§8–10真实Tate正号/KS与M6/M10一维给α4=(1−p⁴)E6ν⁴τKS/252、α8=(1−p⁸)E10ν⁸τKS/132，且α8=λ∞E4ν⁴α4。未预支相对Frobenius/整FL/SS粗盘首项，Cartan I仍只modp。
+[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)已刊LZ/DLLZ付同一原43塔相对filtered/log连接及唯一Hodge截面：Fil0W→O严格iso；右action b(v_h,v)及矩阵b(α,−)完整。η=α_L5=0但原Π/λ∞迭代项不零。§§8–10真实Tate正号/KS与M6/M10一维给α4=(1−p⁴)E6ν⁴τKS/252、α8=(1−p⁸)E10ν⁸τKS/132，且α8=λ∞E4ν⁴α4。相对Frobenius由R1150续付，Cartan I仍只modp。
 
-R1149 §§11–15付完整u=pt整Taylor及C(t)≡C0exp(t^pN_-)；**应用仍以同一原相对associatedness为前提**。有限q_t=C y(x+t y/λ)、binomial/λ、实际F0全保；三槽a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，a3=2δc_g²A*/3、b5=8δ²c_g⁴B*/5、h8=2δ³c_g⁶A*B*/5。Gaussian coarse次数≤1/2/3；cubic≤1/1/2且首槽斜率16δc_g²B0/7 unit，中央参考常数及global subtraction未付。
+R1149 §§11–15付完整u=pt整Taylor及C(t)≡C0exp(t^pN_-)；**同一原相对associatedness由R1150已付**。有限q_t=C y(x+t y/λ)、binomial/λ、实际F0全保；三槽a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，a3=2δc_g²A*/3、b5=8δ²c_g⁴B*/5、h8=2δ³c_g⁶A*B*/5。Gaussian coarse次数≤1/2/3；cubic≤1/1/2且首槽斜率16δc_g²B0/7 unit，中央参考常数及global subtraction未付。
 
-[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付p>691同一canonical cusp fibre φ_h(Ξ_5,9;14)：Tate整支撑/低偶权消失/q_h奇项全付。ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4；self补项全消，六次幂同cusp判据与逐label密度准确，原abelian−1整支未反改。
+[R1150](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)付原43塔rational log crystalline同源：∇uV=α′−α、∇uZ=b(uV,α′)−b(α,uV)。原Tate arithmetic给a5=u5，中央res=(0,0,v8(a5−u5))0；rigid residue一维付全局primitive及log延拓。显式horizontal period gauge/proper-log下降与H¹etZ0锁原tower，非弱fil/φ同构。R1149短盘条件现已付，F0中央值/global subtraction仍开。
+
+[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)同一canonical cusp的Ξ5,9;14完整Tate奇项及六次幂label判据已付；ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4，原abelian−1支保留。
 
 [R1148 §§10–11](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的全global H¹L3/5/9分别由原γ3/5/9生成。全部pairs=(aγ3,bγ5)，Θ与Ξ共享γ5的实际p⁵群给[M:Q]=(p−1)p⁵；共同cusp排除恰κΘ0/κΞ非零，密度1/p²。未宣loc_p单位，Bp−3/5/9局部门仍保。
 
