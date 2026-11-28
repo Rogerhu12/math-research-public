@@ -1,0 +1,128 @@
+name: visible-flex actual d76 original419 and real paid prefix
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r707-actuald76-material419-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r582-physical-pending298-resume-20261127
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue d76 and adjudicate the distinct unfinished ada2 assessment
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r582-4354-original401-20261128.yml
+            /.github/workflows/visible-r582-4883-material412-20261128.yml
+            /.github/workflows/visible-r582-6236-material416-20261128.yml
+            /.github/workflows/visible-r582-6e91-original390-20261128.yml
+            /.github/workflows/visible-r582-current-rows-first-20261126.yml
+            /.github/workflows/visible-r582-local-tail-columns-20261126.yml
+            /.github/workflows/visible-r582-paid-local-tail-angular-20261126.yml
+            /.github/workflows/visible-r582-physical-epigraph-20261127.yml
+            /.github/workflows/visible-r582-physical-normal311-resume-20261127.yml
+            /.github/workflows/visible-r582-physical-paid-resume-20261127.yml
+            /.github/workflows/visible-r582-physical-pending279-resume-20261127.yml
+            /.github/workflows/visible-r582-physical-pending298-resume-20261127.yml
+            /.github/workflows/visible-r582-physical-pending330-resume-20261127.yml
+            /.github/workflows/visible-r582-physical-pending339-resume-20261127.yml
+            /.github/workflows/visible-r582-physical-pending357-resume-20261127.yml
+            /.github/workflows/visible-r707-actuald76-material419-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r582-4354-original401-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-4883-material412-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-6236-material416-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-6e91-original390-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-complete-terminal369-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-e781-original383-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-normal311-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-paid-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending279-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending298-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending330-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending339-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending357-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r707-actuald76-material419-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-4354-original401-continuation.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-4354-to-4883-material-qualified-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-4883-material412-continuation.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-6236-material416-continuation.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-6e91-original390-continuation.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-e781-original383-continuation.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r707-actuald76-unfinished-ada2-and-exact-paid-peak-prefix.md
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_4354_original401_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_4883_material412_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_6236_material416_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_6e91_original390_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_complete_terminal_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_current_rows_first_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_e781_original383_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_radius_only_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_columns_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_material_qualified_resume_guard_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_local_tail_angular_continue_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_resonant_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_continuation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_paid_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_normal311_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending279_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending298_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending330_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending339_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending357_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_stable_material_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_true_core_shooting_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r604_reference_reach_norms_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r707_d76_material419_resume.py
+            /topics/visible-flex-new-mechanism/scripts/r707_paid_peak_summary.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and continue the actual original solver
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r707-actuald76-material419-20261128.json
+          --lane actuald76-material419
+      - name: Preserve only the real unfinished paid prefix
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r707-paid-prefix-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r707-paid-fine-prefix.json.gz
+          if-no-files-found: ignore
+          retention-days: 30
