@@ -30,6 +30,8 @@
 
 ## 新增结论
 
+- [R150：第二NV头二十完整同点列与原lambda五、六、六次式](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)：d20唯一4.379637371秒/0；真自由四元环境上20原来源/80坐标，三个固定cofactor全部反传七原分子。实际λ5/6/6、总40/36/39，21末分母全旧付；未付头35/30/33，无单位/gcd或整支排除。
+
 - [R150：W/b0 负e正k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-negative-e-positive-k-entire-diagonal-ray-exclusion.md)：原q2/R6/完整N5，Q一般两三矩根余850；Q−2所有V相消只剩ell/e4=9/8后N5唯一极项；Q2完整L/M/C*降阶及μpole/整值深中心，末余863。无新运行，当前只余两权射线和内部/DVR边界。
 
 - [R150：W/b0 正e、k首值4的全部lambda极点由完整原切锥排除](results/R150-appendix-unit211-W-b0-positive-e-k-four-pole-complete-original-tangent-cone-exclusion.md)：唯一0.346877190秒/0返回三个原四阶式及完整余项；二次q分两线，R/N余215/576/487于1009非零，共同切锥仅0。最小赋值坐标与≥三阶余项付全部更深中心；故正e且k首值≠−2时λ必为单位。整ray仍开。

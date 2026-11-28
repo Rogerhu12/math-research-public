@@ -1,0 +1,351 @@
+{
+  "schema": "isp-original-result-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_basename": "2026-11-28-unit211-Phi-zero-corrected-second-NV-t-head-original-four-generator-columns-8542.py",
+  "input_blob": "e91a205d9b09318afe1cc9b3f9ece8b7c2a9210e",
+  "job_id": "141056253058",
+  "execution": {
+    "elapsed_seconds": 4.379637370999994,
+    "max_child_rss_kib": 54564,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "5e6fabfb5dfb5820b92bb0104d9cad43ff6e09d2",
+        "before": "7655c08e832cc748f1fa63c4487b3f8b2a07f5c5",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T17:22:02.282919+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46170068898",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7655c08e832cc748f1fa63c4487b3f8b2a07f5c5",
+    "source_exit_code": 0,
+    "source_git_blob": "d20becf217080f2f22bbe5b696822d3cddca9ec4",
+    "source_sha256": "c7141ce12424d916ee415c0ac0121ea938ff206d20b5a8c12193bb3a1cdcdaa1",
+    "stdout_bytes": 39500,
+    "stdout_sha256": "d4d494a097d81b1f7cd7b446e8c45c1572a34d68689575682ab34636fbff10a1",
+    "stop_reason": null
+  },
+  "readback": {
+    "math_records": 10,
+    "math_seconds": 4.300939481,
+    "stdout_reconstructed_bytes": 39500,
+    "stdout_reconstructed_sha256": "d4d494a097d81b1f7cd7b446e8c45c1572a34d68689575682ab34636fbff10a1",
+    "match": true
+  },
+  "scope": "Whole second original NV t head B2=0 inside corrected Phi; J7=(E2,R,EBe,EBo,N1,E3,fullNV)",
+  "old_paid": "Q*delta*s*Kw*L*Mn only",
+  "ambient": {
+    "basis": [
+      "1",
+      "sigma",
+      "t",
+      "sigma*t"
+    ],
+    "successive_original_monic_quadratics": true,
+    "q_sigma_numerator_sha256": "077b79a9e0b1af4e132decee64a3d671a631c64a2ab48b47b6cbea47d1bf7d72",
+    "q_t_numerator_sha256": "d30d9f5d69781291f2459cfb7127bda3053a0e92a8d779016b1ff739feb99b55",
+    "all_roots_and_nilpotents_retained": true,
+    "physical_t_not_set_to_zero": true
+  },
+  "columns": [
+    {
+      "seed": "mean_R",
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordinate_lambda_degrees": [
+        "2,1,1,0",
+        "3,2,2,1",
+        "3,2,2,1",
+        "4,3,3,2"
+      ],
+      "ordinary_original_returns": 4,
+      "all_old_paid": true
+    },
+    {
+      "seed": "mean_even",
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "coordinate_lambda_degrees": [
+        "2,1,1,0",
+        "3,2,2,1",
+        "3,2,2,1",
+        "4,3,3,2"
+      ],
+      "ordinary_original_returns": 4,
+      "all_old_paid": true
+    },
+    {
+      "seed": "N1",
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "coordinate_lambda_degrees": [
+        "2,1,1,0",
+        "3,2,2,1",
+        "3,2,2,1",
+        "4,3,3,2"
+      ],
+      "ordinary_original_returns": 4,
+      "all_old_paid": true
+    },
+    {
+      "seed": "third_moment",
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "coordinate_lambda_degrees": [
+        "3,2,-1,-1",
+        "4,3,-1,-1",
+        "-1,-1,3,2",
+        "-1,-1,4,3"
+      ],
+      "ordinary_original_returns": 4,
+      "all_old_paid": true
+    },
+    {
+      "seed": "complete_NV",
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "coordinate_lambda_degrees": [
+        "3,2,-1,-1",
+        "4,3,-1,-1",
+        "-1,-1,3,2",
+        "-1,-1,4,3"
+      ],
+      "ordinary_original_returns": 4,
+      "all_old_paid": true
+    }
+  ],
+  "scalars": [
+    {
+      "label": "mean_N1",
+      "indices": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "seconds": 2.5449911159999985,
+      "scalar": {
+        "degrees": [
+          33,
+          18,
+          5,
+          0,
+          0
+        ],
+        "sha256": "00ec850d85a28217080f50ce6b57b6901930929beffec4f1464dfb9813dfe15e",
+        "terms": 2298,
+        "totalDegree": 40
+      },
+      "lambda_head": {
+        "degrees": [
+          32,
+          18,
+          0,
+          0,
+          0
+        ],
+        "sha256": "0b2d51fc455e5837223c7a96a2f22e41406705ba3fe2cc8f8b442644b93f3d3c",
+        "terms": 353,
+        "totalDegree": 35
+      },
+      "common_all_seven_multipliers": {
+        "degrees": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ff5e97a481207f2b4064a2dc6de8955efcdc305d20f517a700bed8002edd3974",
+        "terms": 5,
+        "totalDegree": 2
+      },
+      "initial_seven_multiplier_denominator_lcm": {
+        "degrees": [
+          20,
+          25,
+          0,
+          0,
+          0
+        ],
+        "sha256": "3a2812e2d674091ef423d2de076bb6d2fff132e1482551adf1269000be7ce9ba",
+        "terms": 343,
+        "totalDegree": 32
+      },
+      "full_four_coordinates_returned": true,
+      "full_seven_original_identity_returned": true,
+      "final_seven_denominators_old_paid": true,
+      "whole_head_excluded": false
+    },
+    {
+      "label": "mean_third_moment",
+      "indices": [
+        0,
+        1,
+        4,
+        12
+      ],
+      "seconds": 3.2888208119999973,
+      "scalar": {
+        "degrees": [
+          30,
+          16,
+          6,
+          0,
+          0
+        ],
+        "sha256": "273c1dca874c425bb126ec83ff62f238047dc1027dab6fae5967031081f6bcec",
+        "terms": 2109,
+        "totalDegree": 36
+      },
+      "lambda_head": {
+        "degrees": [
+          29,
+          16,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7033f974ff2ea690d0f5f410e1f9eb8feeb172010875602062462bca1f470973",
+        "terms": 298,
+        "totalDegree": 30
+      },
+      "common_all_seven_multipliers": {
+        "degrees": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ff5e97a481207f2b4064a2dc6de8955efcdc305d20f517a700bed8002edd3974",
+        "terms": 5,
+        "totalDegree": 2
+      },
+      "initial_seven_multiplier_denominator_lcm": {
+        "degrees": [
+          20,
+          23,
+          0,
+          0,
+          0
+        ],
+        "sha256": "e22f16f3cc2f49e9e6da3e7871b605a12575b032a5af49da9ebbeb0610f2c815",
+        "terms": 327,
+        "totalDegree": 31
+      },
+      "full_four_coordinates_returned": true,
+      "full_seven_original_identity_returned": true,
+      "final_seven_denominators_old_paid": true,
+      "whole_head_excluded": false
+    },
+    {
+      "label": "mean_complete_NV",
+      "indices": [
+        0,
+        1,
+        4,
+        16
+      ],
+      "seconds": 4.275872158999995,
+      "scalar": {
+        "degrees": [
+          33,
+          18,
+          6,
+          0,
+          0
+        ],
+        "sha256": "bde71005f5967415ced9c34067679ae11c8bf082568cd687df7568609d570d27",
+        "terms": 2605,
+        "totalDegree": 39
+      },
+      "lambda_head": {
+        "degrees": [
+          32,
+          18,
+          0,
+          0,
+          0
+        ],
+        "sha256": "bb3817331543a5e973309461b83173a684e5e5914a2cbc14eba77b09e754d88a",
+        "terms": 368,
+        "totalDegree": 33
+      },
+      "common_all_seven_multipliers": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "initial_seven_multiplier_denominator_lcm": {
+        "degrees": [
+          19,
+          23,
+          0,
+          0,
+          0
+        ],
+        "sha256": "8555ca08900d5b34e4c686963e71d4e5c8d93f401b86e192f3662baab7cb2d23",
+        "terms": 314,
+        "totalDegree": 30
+      },
+      "full_four_coordinates_returned": true,
+      "full_seven_original_identity_returned": true,
+      "final_seven_denominators_old_paid": true,
+      "whole_head_excluded": false
+    }
+  ],
+  "statistics": {
+    "exactProducts": 15163,
+    "newCofactorCoordinates": 12,
+    "newColumnCoordinates": 80,
+    "newColumnRawReturns": 20,
+    "newFinalDenominatorReturns": 21,
+    "newMonicDivisionReturns": 41,
+    "newMonicIdentities": 8,
+    "newOriginalCoordinateReturns": 18,
+    "newSevenSourceReturns": 15
+  },
+  "boundaries": {
+    "lambda_heads_unpaid": true,
+    "no_gcd_or_factorization_or_prime": true,
+    "no_whole_second_head_or_phi_exclusion": true,
+    "NSPS_individual_NP_and_other_original_conditions_retained": true,
+    "frozen_first_head_gcd_and_Q_primary_gates_unchanged": true
+  },
+  "coefficient_payload_saved": false
+}

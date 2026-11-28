@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-negative-e-positive-k-diagonal-2110-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-second-head-actual-twenty-columns-2115-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088与U0另3保。负e/正k/负k已闭；新[负e�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-正确Phi全权10/每权≤9、QQ公共总45/u5、F*=−QdetM1、同σ16/C10保。全权原qt首一2/exact I6十列、第二NV头qsigma后qt真自由4环境已付，物理商不假自由。新[第二头七原式/二十列首次输入](notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-t-head-original-four-generator-columns-8542-input.md)d20becf/e91a零依赖120秒/1GiB待返；只固定[0,1,4,8/12/16]三组4阶cofactor，逐列双首一原来源后反传七原分子，全乘子共因子才消。λ5/6/6仅上界，未预报非零/单位。第一头e362三式6/5/6及首种子后120秒gcd冻，旧两Q内存门冻；所有剩余原均值/值/权头继续。
+正确Phi全权10/每权≤9、QQ公共总45/u5、F*=−QdetM1、同σ16/C10与全权首一qt/exact I6十列保。新[第二NV头二十列/三个完整七源标量](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)d20唯一4.379637371秒/54564KiB/0，两个原首一环境、20普通来源/80坐标、三4阶cofactor及全部七原反传已返。实际λ5/6/6、总40/36/39，头总35/30/33未付；无单位/gcd/空性/点数改进，物理商非自由。第一头三scalar gcd与旧两Q内存门继续冻；后继完整odd NP、所有剩余原均值/值/权头继续。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
