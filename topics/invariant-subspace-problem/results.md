@@ -34,6 +34,8 @@
 
 ## 新增结论
 
+- [R150：全ell整性与Vbar正阶的有限权图](results/R150-appendix-unit211-W-b0-global-ell-integrality-and-Vbar-positive-finite-weight-chart.md)：统一原q2/R6排全部ell极点，无delta逆；Vbar只余U1/2,k−4、z整，四个原深中心L0/1/4/1/2/7/4逐支排除。M两零值和一般mu尚未支付，无新数学执行。
+
 - [R12：真实尾块的完全等距主理想闭包商及平方来源必要条件](results/R12-appendix-actual-tail-coefficient-isometric-principal-ideal-quotient-and-square-source.md)：到closure(C C′)的准确范数距离等于同一零阶尾块范数极限；乘法误差趋零。完整同Y平方方程迫P⁴在该闭包，不反推P小、可除或商半单。
 
 - [R150：整个正e射线关闭及e、k、u的1009整单位性](results/R150-appendix-unit211-W-b0-entire-positive-e-ray-exclusion-and-e-k-u-integral-units.md)：唯一末中心完整两singleton给显式单位Bézout；合全部k中心关闭正e，再复用五ray及Newton穷尽性得ve=vk=0，整内部u排除得vu0。其余原分母仍须逐一支付。
