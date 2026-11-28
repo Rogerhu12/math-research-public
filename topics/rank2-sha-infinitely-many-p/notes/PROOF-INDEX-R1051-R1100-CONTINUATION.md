@@ -361,3 +361,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §36.5：真三次商上的完整超几何系数
 
 已证明：原ηγ准确下降为Σ轨w_T dlog((v−v_T)/(v+v_T))，取r=(−v)^−1/3给Hγ(U)=Σ轨w_Tv_T/(1−v_T²U)。原N_p/b_p恰[U^(n−1)]HγGν，Gν=Σ6((4+ν)/6)_k U^k/[k!(6k+ν+1)]、ν=1/3分别对应p=6n∓1。全标记、两无穷支符号、Frobenius和普通整截断均保；坏⇒完整系数零仍缺。 [同编号全文](../results/R1073-original-aligned-curvature-and-genus-two-readers.md)。
+
+### R1067 §120：真邻商双覆盖的二阶位移与原单位抵消
+
+已证明：真三挠r_A=A²/12、第二商A∨=−A²/12；实际Q_Aφ_A−φ_A∨Q的二阶群对数为−ZA/(6λ)+(G(Q)+y′Z²+2λZ+y/λ)A²/72，δ两支有真极。在原M_A的x−r完整乘积中，第二曲线变形和真实位移的G(Q)项逐标记抵消；不产生新的独立坏约束。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

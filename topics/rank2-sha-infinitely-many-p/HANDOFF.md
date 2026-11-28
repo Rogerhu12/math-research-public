@@ -11,7 +11,7 @@
 ## 实际同步与已读规则
 
 终端最后pull：公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e；私库14:24:52/3a8366462ccc7f17d7440618378e55cc21b5fbe9。14:34后平台明确环境unavailable，按根8仅用<100KB小文本GitHub备用通道，不伪称pull。
-- 2026-11-28 20:12:51 UTC按根规则8小文本备用通道读公开main 0bc451bda55c384dfe96bdfbf4c17aca8cf49166、私库main 2c26d23df87764791fa0a6ac0559a51e7f1cf42f；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
+- 2026-11-28 20:17:42 UTC按根规则8小文本备用通道读公开main 492cfff1178294c252e4b95e2026d12158182d06、私库main a3883c178ba47ffa8f13258feebeadf20adb06e7；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
 每次备用发布先读两main/四README/QUEUE，比全部所改blob，以最新整树和main父提交创建；expected_sha、force=false，拒绝立即新读重建，发布后逐字回读。终端恢复后立即实际pull并查README差异。
 两库原blob:none/depth1/sparse-index；两.git及packs于14:34经逐文件SHA核验迁往/tmp/rank2-0b097461-{public,private}-git-{metadata,pack}-20261128，原symlink/HEAD/status保留，释放57028608B。四目标勿删，路径/全回执在归档。无本地数学执行；topic约47.7MB。
 
@@ -24,7 +24,7 @@
 
 ## 原全域、固定源与实际深槽：R1067
 
-[§§74–97](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)96170B、[§§98–111](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)93738B，不追加；[§112起](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)现续至119。同一证明、原点/权/精度不换。
+[§§74–97](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)96170B、[§§98–111](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)93738B，不追加；[§112起](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)现续至120。同一证明、原点/权/精度不换。
 固定E17秩2。ψ17(a)=a/ε(a)、ε(u)=u；原ϖ17=Ω17/(1−ω)，barϖ17=−ωϖ17、cT_t=T_(ωbart)。E17→E1用sextic θ=17^(1/6)，非二次。旧局部比较p>211、p≡5mod6、(17/p)=1；§105/106/112/117对全部好惰性p，无√17条件。a₂∈Qp非零足够，不需模p单位。
 §§80–101完整CM/Cartier、BD1全部H混项、绝对周期、原四槽N rem D（degD≤6p²+12p+880）、全倒数点非挠、真正Z/U及Tate/Bockstein见原文和逐字H。§98反限制只除2；§99 z₁≠0⇔a₂≠0；§100原103两MW读者，R303辅助因子已改ℓ²+ℓ；§101各k仍在p+1真邻曲线，函数非幂不代评价。
 §102 strict余秩s−1，fullSha有限⇔Xstr,(U)循环；p-parity使A_Z≤2足够。§103完整χ野块max(0,p^(j−1)−r_p)，µ零不控跨p。§104唯一M∈Q(E17)，divM=ΣI_t[T_t]、M(O)=1、M(−P)=M(P)^−1，保完整103²−103[g103]及所有实际CM Frob Norm；固定短列表全p^k关系阶有统一界。
@@ -33,7 +33,7 @@
 §112.7ordinary a_p(E17)≠1也有t≤v_p(m_p)−1。真实全域首项在当地给I^s，非分歧p次数用H¹_unr=0的限制单射，不除次数。a_p=1仅O(√X)；若主目标失败，同一个m_p在密度一素数须∈p³，尚未排除。
 §114原µ6投影在E1[2δ]十二盘的全两变量Kummer和按四轨乘1、−1/3、−1/2、1/6，保全部k/严格[-p]Norm。§115真δ分布及旧倒数短窗R_X/sqrt(1+v)；坏⇒该曲率仍未付。§116两固定二步联络真p曲率子式给g^pG，−x^p不删，M^-3的真x乘积已付。
 §117模p² Tate与绝对p·z微分付2pq边界，真邻商GM两jet得h_NU₂=0、H^(p−1)LU₂=0，N=q+2p−2。§118由ω=ds的对角正则证明(h_{p+1}F₂)^p=−2c h_NZ在真椭圆核逐点成立；117首式恰为旧第五槽，CG2自动抵消，不能计独立约束；另一L迹继续归并。
-§119真2/δ分布将F₁/F₂/F₃全迹化为Z⁰/Z/Z²·Dlog h，h=x³/y²。完整h与1−h乘积为M^-1、M^8；Q真交换h与1−h。反δ保父轨给Z^{k−1}/x；ordinary J_p=−(D−g)^(p−2)(1/x)。同输入不代完整算子转换。
+§119真2/δ分布将F₁/F₂/F₃全迹化为Z⁰/Z/Z²·Dlog h，h=x³/y²。完整h与1−h乘积为M^-1、M^8；Q真交换h与1−h。反δ保父轨给Z^{k−1}/x；ordinary J_p=−(D−g)^(p−2)(1/x)。同输入不代完整算子转换。§120真移动δ和双投影二阶差含G(Q)，但在原M_A的x−r乘积中逐点相消，不能新增坏约束。
 [形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)保其原χ权反例；不能只联立五槽推出旧AQ。新§35已换明确的固定相容权，须对新的完整数单独付坏⇒零。
 
 ## 固定原倒数源的单量密度门：R1073
