@@ -71,3 +71,7 @@
 ## 2026-11-28 11:23:06 UTC — R739真Hu相位族的双轴物理发展与有限整像位移判据
 
 完整R739 15253B/SHA256 9bc63a15258e8cb24ee6ec649aab9467f8b7621d1dc2a9af2b4d38a92ed2de83已刊。真实developed radius R_i(r)=r_b−∫sqrt(1+w²−z_i'²)，按R_j逆配对保持物理半径；全/局部图梯度、固定完整壳距离给有限幅度整像Hausdorff下界，未忽略水平发展或再参数化。全m2实际法速给2|q|‖Wα‖∞+Oα(q²)。复核Hu原文Prop4.2及Thm10.3的完整主张与尺度作用，https://hexagonmath.org/pdf/2611.00534v1；任何固定α可调而q₀(α)无定量下界。附论弱位移正的reach/D上确界1/2，完整凸外并/固定标记/全t C²稳定性证；不冒强.2D或数值完成。继续真有限大幅度场。H将已被此前固定全文/own note保全的33/34参数长索引压缩，保实际源和未完成边界；R738更长实际prefix仍待run（文字纠正为待公开计算）。 双README云核至`46addf200b5b764e58aed247b17ef94bca8e64c1`无变（非pull）。
+
+## 2026-11-28 11:26:17 UTC — R738完整415片非合作比较与真实已达点的合作续接公开程序
+
+科学17858B/SHA256 2b001707f7331a1955889a6bff8f890ee0e49b8d638dc9847c320493b3e5d4a1，publisher5864B/6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1，workflow3989B/6a134e5b3a3222be25ca2206d8092cb4324587e7aa9c6a2956cf2e7ebb784cc4现刊。真实原416 knot/415 quintic，每片32闭叶共13280，原点R±/Y64/T0，用112bit有理向外算术并在不确连续原点叶最多再二分24级；全415局部系数/三完整scalar符号/全部leaf原文与完整raw SHA留runner，第一次失败后仍完成所有基本叶但不伪造新初始值。独立从已实际接到的第一个全合作片，按本次真实m/M和z=a0²/r²+a'0²接R734闭式；48二分保首次不确上下界及独立II平方界。T†/T*精确比与额外.16几何完整子带单列，更长immersion不冒闭面reach。完整logical先stdout再真pull/rebase普通推并记H，远程树全量size方法沿734。新run编号尚未查询。33–35预算和全部科学源不变。open§7旧索引整合至固定f4ee0b39c49ecf8cdb1f4764e37337370890a3c4全文，§1–6及全部source/result正文不改。 双README云核至`557ac8922f7c3dd8db120f9137232e1db5fa6111`无变（非pull）。

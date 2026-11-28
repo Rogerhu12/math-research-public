@@ -1,0 +1,78 @@
+name: Compute the R738 noncooperative original fixed-metric prefix
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/r738_exact_gap_prefix.py
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py
+      - .github/workflows/visible-larger-r738-exact-gap.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-complete-r738-gap
+  cancel-in-progress: false
+
+jobs:
+  original_gap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-full-hold-oracle.py
+            /topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-inward-integral-enclosure.py
+            /topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-geometry-inward-chord-cover.py
+            /topics/visible-flex-larger-amplitude/scripts/parallel_20261117_negative_hold_profile_ivp.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/deep_valley_tail_input.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r738_exact_gap_prefix.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r734_exact_core_and_prefix.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/notes/r734-actual-Hermite-46139111288-1.json
+            /topics/visible-flex-larger-amplitude/results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md
+            /topics/visible-flex-larger-amplitude/results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md
+            /topics/visible-flex-larger-amplitude/notes/r738-actual-gap-*.json
+      - name: Pull main and record the current checked README commit
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py sync
+      - name: Compute the whole 415-piece leaf census and propagate from the actual core
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_dir=topics/visible-flex-larger-amplitude/scripts/resume_20261126
+          work="$RUNNER_TEMP/r738-original-fullhold"
+          conclusion="$RUNNER_TEMP/r738-compact-conclusion.json"
+          python -u "$source_dir/r738_exact_gap_prefix.py" --repo "$GITHUB_WORKSPACE" --work "$work" --summary "$conclusion"
+          echo 'R738_COMPLETE_LOGICAL_REPORT_BEGIN'
+          if test "$(wc -c < "$conclusion")" -lt 100000; then
+            cat "$conclusion"
+          else
+            echo 'Logical report exceeds the public small-text limit; complete identity follows.'
+            wc -c "$conclusion"
+            sha256sum "$conclusion"
+          fi
+          echo 'R738_COMPLETE_LOGICAL_REPORT_END'
+      - name: Publish the complete recomputation and update only its handoff marker
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py
+          publish --summary "$RUNNER_TEMP/r738-compact-conclusion.json"
