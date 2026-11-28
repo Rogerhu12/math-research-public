@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi个别N/P与完整NV的实际返回](notes/2026-11-28-unit211-Phi-zero-corrected-individual-NP-full-NV-four-original-rows-8542-actual.md)：16.083766749秒/0，四原行与十二动作、27辅助列均返回；两完整原cofactor给λ10必要式，总次94/98，所有头零纤维保，未排空。
+
 - [R267：明确分离块选择的实际来源费用发散](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)：同一合法构造对每个固定正有理t，||YN Pt||沿偶切口趋∞且||QN||全切口趋∞，无强收敛子列；证明以有限前缀加原张量尾保住范数，只排这一选择。
 
 - [R150：全 W 伴随式的五条原纯三次实际返回](results/R150-appendix-unit211-W-whole-adjugate-five-original-pure-cubic-conditions.md)：4.776389191秒/0，五式均非零且几何总次恰3，18矩阵坐标与完整原四/六源全返。整个raw行列式零面和原十一式保留，未作新投影或排空。
