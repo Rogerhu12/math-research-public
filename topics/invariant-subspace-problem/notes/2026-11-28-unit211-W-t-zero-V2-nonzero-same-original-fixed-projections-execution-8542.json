@@ -1,0 +1,385 @@
+{
+  "execution": {
+    "elapsed_seconds": 0.35978245899999806,
+    "max_child_rss_kib": 41328,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e2edfe3328adcb9b54d4733428d0119619a3c2fc",
+        "before": "59b80e551e8493348ee9886cdc4efec40a3cc1ff",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T04:32:06.615071+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46107973420",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "59b80e551e8493348ee9886cdc4efec40a3cc1ff",
+    "source_exit_code": 0,
+    "source_git_blob": "d8eb312021eac9d029703493444484db053e6eec",
+    "source_sha256": "a6b1a22ac3ced79f4a032df4e990b0158ea7219656fcf78b31826d77c12a8008",
+    "stdout_bytes": 17685,
+    "stdout_sha256": "bf9136125d415ce481dd7710cf1dd7fa08be23d34aff1bea7506e3f9228daab3",
+    "stop_reason": null
+  },
+  "job_id": "140864894948",
+  "actualRecords": [
+    {
+      "stage": "new_t_zero_V2_nonzero_same_original_Gram_and_mean_curve",
+      "originalJetSquareCorrect": true,
+      "originalE0N0P0P1Returned": true,
+      "completeIndividualAndWeightedMeansReturned": true,
+      "exactMeanCurve": "(2ell-1)*(V2-uQ)^2-M*V2^2",
+      "uniqueGeometry": "w=-(2ell-1)*(V2-uQ)/V2",
+      "N1NSPSSameLambdaTAndRhoReturned": true,
+      "V2ZeroAlreadySeparatelyClosed": true,
+      "allNewWeightZerosKept": true,
+      "seconds": 0.11891684000000069
+    },
+    {
+      "stage": "new_original_pure_weight_row",
+      "name": "complete_mean_curve",
+      "polynomial": {
+        "zero": false,
+        "degrees_e_k": [
+          7,
+          8
+        ],
+        "totalDegree": 11,
+        "terms": 51,
+        "bytes": 713,
+        "sha256": "0245dd718d7bd620c3de3f884d5b0e70576cc06cb5082bfb7ba6b3774e83ba43"
+      },
+      "removedOnlyPaidFactors": [
+        [
+          "e",
+          2
+        ],
+        [
+          "u",
+          2
+        ]
+      ],
+      "wholeOriginalRationalReturn": true,
+      "allOtherFactorsRetained": true,
+      "seconds": 0.12043749400000081
+    },
+    {
+      "stage": "new_original_pure_weight_row",
+      "name": "same_original_N1",
+      "polynomial": {
+        "zero": false,
+        "degrees_e_k": [
+          13,
+          14
+        ],
+        "totalDegree": 20,
+        "terms": 149,
+        "bytes": 2556,
+        "sha256": "84b1dc0a36f779634194d273925c16c02f28d534c0bdbcdd3604e429c3f8371f"
+      },
+      "removedOnlyPaidFactors": [
+        [
+          "e",
+          2
+        ]
+      ],
+      "wholeOriginalRationalReturn": true,
+      "allOtherFactorsRetained": true,
+      "seconds": 0.12174810600000185
+    },
+    {
+      "stage": "new_original_pure_weight_row",
+      "name": "same_original_weighted_N",
+      "polynomial": {
+        "zero": false,
+        "degrees_e_k": [
+          16,
+          14
+        ],
+        "totalDegree": 23,
+        "terms": 191,
+        "bytes": 3356,
+        "sha256": "11e54c3f24623ac2a8d5393768b40cc6b613b9a7bdc846c2eceaa8d1a25ddbf7"
+      },
+      "removedOnlyPaidFactors": [],
+      "wholeOriginalRationalReturn": true,
+      "allOtherFactorsRetained": true,
+      "seconds": 0.12307520099999891
+    },
+    {
+      "stage": "new_original_pure_weight_row",
+      "name": "same_original_weighted_P",
+      "polynomial": {
+        "zero": false,
+        "degrees_e_k": [
+          22,
+          22
+        ],
+        "totalDegree": 33,
+        "terms": 383,
+        "bytes": 8265,
+        "sha256": "880afc1ca141d20ee1d9e12fe372566bfac4c9d3ccab725f14bcbc2ce6cdf082"
+      },
+      "removedOnlyPaidFactors": [],
+      "wholeOriginalRationalReturn": true,
+      "allOtherFactorsRetained": true,
+      "seconds": 0.1259101720000011
+    },
+    {
+      "stage": "entire_new_mean_curve_QQ_factorization",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "zero": false,
+          "degrees_e_k": [
+            7,
+            8
+          ],
+          "totalDegree": 11,
+          "terms": 51,
+          "bytes": 717,
+          "sha256": "0e944af647ef3153e84d64ac0f3a36b594eb9e2fd2d441b2f8591d6582cfac62"
+        }
+      ],
+      "content": "1/16",
+      "wholeProductReturned": true,
+      "seconds": 0.12640996600000065
+    },
+    {
+      "stage": "new_fixed_original_resultant_begin",
+      "name": "mean_curve__N1",
+      "eliminatedVariable": "e",
+      "fixedDegrees": [
+        7,
+        13
+      ],
+      "matrixOrder": 20,
+      "noELeadingCoefficientInverted": true,
+      "seconds": 0.12695133200000086
+    },
+    {
+      "stage": "new_fixed_original_resultant_returned",
+      "name": "mean_curve__N1",
+      "polynomial": {
+        "degree": 165,
+        "bytes": 4704,
+        "sha256": "28fe46e3b15586917ebdc6390d1b79551057ea46969204a40a380553f7642804"
+      },
+      "allIntermediateQuotientsReturned": 2470,
+      "allFiniteLeadingZeroSpecializationsRetained": true,
+      "seconds": 0.15229524600000133
+    },
+    {
+      "stage": "new_fixed_projection_only_paid_k_removed",
+      "name": "N1",
+      "original": {
+        "degree": 165,
+        "bytes": 4704,
+        "sha256": "28fe46e3b15586917ebdc6390d1b79551057ea46969204a40a380553f7642804"
+      },
+      "retained": {
+        "degree": 31,
+        "bytes": 612,
+        "sha256": "06dd8b9006f8d4e9012860efa7e44fa85cf36e81e1648ded7c5153400e63ad75"
+      },
+      "paidRemoval": [
+        [
+          "k",
+          66
+        ],
+        [
+          "k_plus_two",
+          36
+        ],
+        [
+          "k_plus_four",
+          32
+        ]
+      ],
+      "seconds": 0.1558897469999998
+    },
+    {
+      "stage": "new_fixed_original_resultant_begin",
+      "name": "mean_curve__NS",
+      "eliminatedVariable": "e",
+      "fixedDegrees": [
+        7,
+        16
+      ],
+      "matrixOrder": 23,
+      "noELeadingCoefficientInverted": true,
+      "seconds": 0.1564688700000012
+    },
+    {
+      "stage": "new_fixed_original_resultant_returned",
+      "name": "mean_curve__NS",
+      "polynomial": {
+        "degree": 188,
+        "bytes": 7093,
+        "sha256": "a357d371c01bcbb63129b73deccc548e378b89f56af90990de8e617f28b44b7e"
+      },
+      "allIntermediateQuotientsReturned": 3795,
+      "allFiniteLeadingZeroSpecializationsRetained": true,
+      "seconds": 0.195096190000001
+    },
+    {
+      "stage": "new_fixed_projection_only_paid_k_removed",
+      "name": "NS",
+      "original": {
+        "degree": 188,
+        "bytes": 7093,
+        "sha256": "a357d371c01bcbb63129b73deccc548e378b89f56af90990de8e617f28b44b7e"
+      },
+      "retained": {
+        "degree": 63,
+        "bytes": 2289,
+        "sha256": "c4dfe4c98e6a931db59c66fec20ea06e3ae2df1756b7dcc185627c96b51156e8"
+      },
+      "paidRemoval": [
+        [
+          "k",
+          62
+        ],
+        [
+          "k_plus_two",
+          32
+        ],
+        [
+          "k_plus_four",
+          31
+        ]
+      ],
+      "seconds": 0.1993856170000008
+    },
+    {
+      "stage": "new_original_parameter_Bezout_return",
+      "lastRow": "NS",
+      "commonProjection": {
+        "degree": 12,
+        "bytes": 107,
+        "sha256": "b4738ac58fc512349bcc072081efdb10f0cf2a59d55b5605a02f4c16cd84b6fb"
+      },
+      "fullTwoProductsReturned": true,
+      "seconds": 0.201049354000002
+    },
+    {
+      "stage": "new_fixed_original_resultant_begin",
+      "name": "mean_curve__PS",
+      "eliminatedVariable": "e",
+      "fixedDegrees": [
+        7,
+        22
+      ],
+      "matrixOrder": 29,
+      "noELeadingCoefficientInverted": true,
+      "seconds": 0.20202732999999995
+    },
+    {
+      "stage": "new_fixed_original_resultant_returned",
+      "name": "mean_curve__PS",
+      "polynomial": {
+        "degree": 270,
+        "bytes": 12752,
+        "sha256": "31cd269b673b1d2e16e3a120c0c236cdbb5b543403df6e3ca00b99b60b558daa"
+      },
+      "allIntermediateQuotientsReturned": 7714,
+      "allFiniteLeadingZeroSpecializationsRetained": true,
+      "seconds": 0.28604331700000074
+    },
+    {
+      "stage": "new_fixed_projection_only_paid_k_removed",
+      "name": "PS",
+      "original": {
+        "degree": 270,
+        "bytes": 12752,
+        "sha256": "31cd269b673b1d2e16e3a120c0c236cdbb5b543403df6e3ca00b99b60b558daa"
+      },
+      "retained": {
+        "degree": 62,
+        "bytes": 2350,
+        "sha256": "37b9358a8c8415b4354e92cea671eeccb47d19f76f4f7eb2a37a0c2262ed70c2"
+      },
+      "paidRemoval": [
+        [
+          "k",
+          103
+        ],
+        [
+          "k_plus_two",
+          58
+        ],
+        [
+          "k_plus_four",
+          47
+        ]
+      ],
+      "seconds": 0.29501240100000103
+    },
+    {
+      "stage": "new_original_parameter_Bezout_return",
+      "lastRow": "PS",
+      "commonProjection": {
+        "degree": 12,
+        "bytes": 107,
+        "sha256": "b4738ac58fc512349bcc072081efdb10f0cf2a59d55b5605a02f4c16cd84b6fb"
+      },
+      "fullTwoProductsReturned": true,
+      "seconds": 0.29516773199999946
+    },
+    {
+      "stage": "new_t_zero_V2_nonzero_original_scalar_projection_finished",
+      "sourceSHA256": "a6b1a22ac3ced79f4a032df4e990b0158ea7219656fcf78b31826d77c12a8008",
+      "remainingKCover": {
+        "degree": 12,
+        "bytes": 107,
+        "sha256": "b4738ac58fc512349bcc072081efdb10f0cf2a59d55b5605a02f4c16cd84b6fb"
+      },
+      "remainingFactors": [
+        {
+          "multiplicity": 2,
+          "degree": 2,
+          "bytes": 16,
+          "sha256": "c8d1a4fe6ca448230576fef6aecfcb7dcb0bcd5ae381e9bb7fb7d4886dbe92dd"
+        },
+        {
+          "multiplicity": 4,
+          "degree": 2,
+          "bytes": 13,
+          "sha256": "9526e32c263849d71edfb1f466d3871c3b56b7484047221b42480bb470bf279b"
+        }
+      ],
+      "QQFactorProductReturned": true,
+      "wholeComplementExcluded": false,
+      "noNewHeadOrContentZeroDiscarded": true,
+      "allFixedResultantHeadZerosIncluded": true,
+      "noOldGateReplayed": true,
+      "noRecomputablePayloadSaved": true,
+      "exactDivisionMultiplicationReturns": 14051,
+      "peakRSSKiB": 40904,
+      "ordinaryISPClaim": false,
+      "seconds": 0.2954744389999995
+    }
+  ],
+  "quadraticCoverIdentity": {
+    "factorDefinitions": [
+      "k^2-2*k-16",
+      "k^2+8*k+8"
+    ],
+    "multiplicities": [
+      2,
+      4
+    ],
+    "degree": 12,
+    "bytes": 107,
+    "sha256": "b4738ac58fc512349bcc072081efdb10f0cf2a59d55b5605a02f4c16cd84b6fb",
+    "wholeProductReturned": true,
+    "noProjectionReplayed": true
+  },
+  "scope": "Necessary two entire quadratic constant fibers only. The t=0 complement has not been excluded."
+}
