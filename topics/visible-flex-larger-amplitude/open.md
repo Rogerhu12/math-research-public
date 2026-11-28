@@ -114,7 +114,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | cancelled@04:46:09Z；末e70a/accepted3/g.9658357818598327，a6b304仅统计；report未返，取消原因未知。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；5f731第四拒，379965仅统计。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；e906e/accepted2/reachg.5237169415657044；b34824仅统计。 |
-| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；d86d/accepted1/g.9679630392005256；87c076仅统计。 |
+| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；87c076/accepted2/g.9678293850088526；6a101刚起。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 半波b5/8；a464/accepted1/reachg.6117804556256119。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 0927d/accepted2/reachg.5237169415657044、distplus.11392286053783374；K12.271500016996072/cell885/u.9662347571015759/s=null；e147626只统计。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725 b1/2/ε1/8；model4a7e828/初7e06，Phi589.1634908944277/Gram.4163254155597059；reachg.006249035762618371、distplus.13346402986277572，K8.096406380355797/cell886/phiπ/2、s=null；7722d仅Phi619.4536488690911/Gram.419078836233375，几何未返。 |
