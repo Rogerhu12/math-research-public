@@ -237,3 +237,7 @@ R761末段原费用用语定点更正为wall880.705914869秒和原累计science 
 ## 2026-11-28 20:03:45 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R754原十姿全部终态
 
 **R754 原4步恢复后，十相位已自然全部完成。** [原11步/21全J/27750列及全费用](notes/2026-11-28-r754-paid11-all-ten-original-disk-phases-natural-terminal.md)；run46181463183/job141091752179，新增wall947.124478211秒、7接纳/14J，累计十姿仍仅0fit，phase1峰108.576265563，九非零physical均deferred/null。原9.9039GB artifact15278616826和全部原/新费用保存；phase_index10、active_operation=null，不重原排程。
+
+## 2026-11-28 20:05:40 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R759原射线首严格双谷工单
+
+**R759 原射线的完整双谷严格包围首单已装订。** [原242732胞/四真实cut端口直接继承](notes/2026-11-28-r759-first-paid-projective-two-valley-scope.md)；224-bit/11阶完整变分Taylor及射影锥、两真谷Krawczyk，1500秒，原32射击/DOP/Peano不重。每个新矩阵/锥/试验及pending独立保存；严格双核即使过门也不授有限角族。

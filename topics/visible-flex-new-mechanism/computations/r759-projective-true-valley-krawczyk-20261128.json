@@ -1,0 +1,12 @@
+{
+  "precision_bits": 224,
+  "order": 11,
+  "absolute_local_remainder": "2e-17",
+  "maximum_subdivisions": 27,
+  "reserve_seconds": 12,
+  "origin_and_radii": [
+    ["first_summit", ["0.0004", "0.002"]],
+    ["first_ramp_foot", ["0.00001", "0.0001"]],
+    ["actual_cut", ["0.0000002", "0.000002"]]
+  ]
+}

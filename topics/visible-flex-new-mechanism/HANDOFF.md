@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **877caa93e86721e59cf5991b3e5a925703f98909**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **c546a0d5a352dc8b730c0b083f71c71f28b95151**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -13,6 +13,8 @@
 **R748 原36步已终态。** [原409q/36J/38全谱与全部费用](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)均保；eta .462517/κ36.6068，全壳false。完整原ZIP和真实409q在本地，未重复转移。
 
 **R745 原7步已终态。** [32射击/242732新区间胞](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，1321.976574898秒，严格谷盒null。原136.9MB ZIP已全SHA接收，770060451B/242732行directed保在ZIP；R759用真实原锥入口。
+
+**R759 原射线的完整双谷严格包围首单已装订。** [原242732胞/四真实cut端口直接继承](notes/2026-11-28-r759-first-paid-projective-two-valley-scope.md)；224-bit/11阶完整变分Taylor及射影锥、两真谷Krawczyk，1500秒，原32射击/DOP/Peano不重。每个新矩阵/锥/试验及pending独立保存；严格双核即使过门也不授有限角族。
 
 **R750 原9步已终态。** [17J/17010列及原费用](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，仅0fit，.4独立curl47358/metric26045/κ98988。原536核/27470位移/459位置J及7.115GB工件保全，R760严格选同物理行。
 

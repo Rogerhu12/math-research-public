@@ -1,0 +1,66 @@
+name: visible-flex original paid projective two-valley enclosure
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r759-original-projective-two-valley-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r759-original-projective-two-valley
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      R759_REQUEST: topics/visible-flex-new-mechanism/computations/request-r759-original-projective-two-valley-20261128.json
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r759-original-projective-two-valley-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r759_projective_two_valley_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r759_projective_valley_taylor.py
+            /topics/visible-flex-new-mechanism/scripts/r759_extract_original_projective_summits.py
+            /topics/visible-flex-new-mechanism/scripts/r759_original_bytes_prepare.py
+            /topics/visible-flex-new-mechanism/scripts/r689_continuous_native_field_balls_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r759-projective-true-valley-krawczyk-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r759-original-first-depth6-blocks.json
+            /topics/visible-flex-new-mechanism/computations/r759-r738-actual-complete-cut-npz.json
+            /topics/visible-flex-new-mechanism/computations/r745-original-input-transport-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r745-original-natural-terminal-20261128.json
+            /topics/visible-flex-new-mechanism/results/R759-paid-projective-enclosure-of-the-thick-two-valley-shoot.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r759-first-paid-projective-two-valley-scope.md
+            /.github/workflows/visible-r759-original-projective-two-valley-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Prepare the three exact already-paid original byte objects
+        run: python topics/visible-flex-new-mechanism/scripts/r759_original_bytes_prepare.py
+      - name: Pull current rules and enclose the complete physical two-valley root
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r759-original-projective-two-valley-20261128.json
+          --lane original-projective-double-kernel
+      - name: Preserve every original cone new full transfer and exact next unit
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r759-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/r759-paid/
+          retention-days: 30
+          if-no-files-found: error

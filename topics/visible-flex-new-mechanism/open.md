@@ -136,3 +136,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R760 原12单位恢复单已装订。** [保面板/序号/权重的准确继承](notes/2026-11-28-r760-paid12-occurrence-preserving-exact-resume.md)，新软件身份9f3f7d1a434e6e48878bb6e87983d04513229409f409824b0a626cab37ce593f；原.npy字节与全部原失败/费用保全，423/1752列不变，首1200秒从phase0首未付积分核接续。
 
 **R754 原4步恢复后，十相位已自然全部完成。** [原11步/21全J/27750列及全费用](notes/2026-11-28-r754-paid11-all-ten-original-disk-phases-natural-terminal.md)；run46181463183/job141091752179，新增wall947.124478211秒、7接纳/14J，累计十姿仍仅0fit，phase1峰108.576265563，九非零physical均deferred/null。原9.9039GB artifact15278616826和全部原/新费用保存；phase_index10、active_operation=null，不重原排程。
+
+**R759 原射线的完整双谷严格包围首单已装订。** [原242732胞/四真实cut端口直接继承](notes/2026-11-28-r759-first-paid-projective-two-valley-scope.md)；224-bit/11阶完整变分Taylor及射影锥、两真谷Krawczyk，1500秒，原32射击/DOP/Peano不重。每个新矩阵/锥/试验及pending独立保存；严格双核即使过门也不授有限角族。
