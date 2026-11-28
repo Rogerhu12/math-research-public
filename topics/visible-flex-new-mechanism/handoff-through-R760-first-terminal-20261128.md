@@ -1,0 +1,48 @@
+# HANDOFF：大振幅新机制
+
+**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。完整候选尚未满足README。逐字旧账、全部原失败/已付状态及恢复债在[截至R754原4步恢复首单交接](handoff-through-R754-paid4-resume-launch-20261128.md)及其逐层原档链接；不得重做已登记科学或抹账。
+
+## 规则和实际同步
+
+公开最近成功的终端 pull/双 README 检查为 **a92dde741f0759a2c6fd10b97d5aee06c0191435**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+
+公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
+
+## 正在实际推进
+
+**R748 原三层36步已自然终态。** [93→191→409全高度/36J/38全谱](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)，run46176200567/job141075364113，880.705914869秒；末eta .4625174/曲率36.6068、中央Darboux2.6926，全部离散门和全壳仍false。75成员108.6MB原artifact15276770446已全SHA接收；最新s02_complete与两次prolong/原fine不重。新表示须从真实409q转换，规范深帽包不冒IEEE全连续资格。
+
+**R745 厚双谷原终态已登记。** [7接纳/32全2×2/242732新区间单位](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，run46174255201/job141069279288，1321.976574898秒；中心Wronskian约3.57e−15但true_two_valley_box=null，有限beta≈5.855e16未证全尾。原pending=null、原RHS342033和全部242732胞不重，R759改真半段射影/Krawczyk传播。
+
+**R750 原两边环带9步已自然终态。** [17全J/17010列与独立窄区大峰](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，run46174873079/job141071182352，2233.840172885秒；只0fit，.4验证绝对curl47358、metric26045、曲率98988，原next forced_sleeve保持。536ray核/27470位移/459位置J与全部7.1GB原artifact15276188258保留；四原文已206接收，R760改真宽三矩场并显式补两网切缘。
+
+**R760 原12单位已自然保存，首积分核重号检查失败。** [原成功对象与准确next](notes/2026-11-28-r760-original-twelve-paid-units-and-gauss-occurrence-stop.md)，run46181796301/job141092792865，25.823854399秒、0步/0J，源profile/两帧/两网等12单位不重。57.53MB原artifact15277979068已全SHA接收；新外包层保真实面板/序号/权重重数，科学身份明确升级、原.npy字节全继承，仍423/1752列。
+
+**R746 原7步自然终态已登记。** [14全J/10689列与真实末圆角失格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，run46172869144/job141064971057，2339.03675621秒；只0相位fit，.2已付qualification但curl/metric/曲率仍失败，原next forced_sleeve保持。六次资格1854.982037943秒不得重付。3.4GB/2024成员原artifact15276016206和四原元数据SHA已绑定，R754以330/1371全列及真宽轴候选接续原q。
+
+**R754 首轮HTTP403已保全原4步。** [7全J/8556列及准确next](notes/2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)，run46179020787/job141084139107自然failure但upload成功；625.551765814秒、4接纳，0/.002/.008三条完成，非零curl .216365/.866831仍未fit。下一phase .02/iteration0，active_operation=null。原artifact15277750701/2793862555B与全部费用已绑定；不回放三相位，科学前预接收R746父ZIP及本轮checkpoint，保持原cbe3599a…身份接续。
+
+**R754 原4步恢复已启动 run46181463183/job141091752179。** head dd0075aa62b269242b3b883e9ba7ec7c70fd6056，request SHA c798f7be7368656ebd56c2ea394160922f90de6a96d46713647dd266c30672f9。 [完整原ZIP预接收](notes/2026-11-28-r754-paid4-original-zip-exact-resume.md)，同cbe3599a…科学身份、全部330/1371列/原迭代设置不变；首1200秒从phase_index3/.02接续，0/.002/.008不重。公开Actions先全SHA核R746父ZIP与本轮checkpoint，再按原next执行，所有旧/新单位和失败终态保留。
+
+**R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。
+
+**R757 全方向曲率必要门已严格完成。** [整个原中心矩形通过](notes/2026-11-28-r757-entire-center-rectangle-all-direction-curvature-gate.md)，run46178661481/job141083035943，9新单位/5.107658396秒；统一全球余量最小>.00636153564978，四姿无需方向细分、整个矩形true，原424材料积分/旧J/ODE重算0。不排源，不授实际等距场/族；本门不再重复，转实际相容性。
+
+[R758两个精确表示障碍](notes/2026-11-28-r758-two-exact-obstructions-in-the-shared-latitude-chart.md)已正式发表且根全文读：共享重复纬带强制刚转；单侧硬截断另生非零旋度。只排原有限表示、不排原g。[R761真材料接口](results/R761-true-material-generators-and-internal-point-cap-qualification.md)根已全文审：原两个内部点帽触发R731，停用；新全深I、两高零真实除差/同角速度、全Cxyz实体和双帽六jet保留。
+
+
+**R762 四尖点高零圈已严格排除。** [相邻正K强制整圈法曲率同一弱号](notes/2026-11-28-r762-positive-curvature-neighbor-excludes-the-four-cusp-high-zero-circles.md)；原四尖点在c=0下反强制该曲率换号，两子代理与根独立核定，不派该输入。只排这个有界重参/固定辅助径速零的表示；新的局域eV正则零面积圈正在以真实signed简单零、全深材料I和高零速度单元合并，尚未有完整c根。
+
+## 不可回放的原账
+
+R747原80步/91全J/十盘、R738原14步/16全J/全部41520区间行、R735/R734全部原胞、R728原31与R710原237，以及更早八个终态和17:09丢失后的恢复债，完整run/job/head/artifact/SHA/全部费用与确切next逐字保存在[上一交接](handoff-through-R754-paid4-resume-launch-20261128.md)及其原链。已付完整科学不得回放；未恢复的原件不能借重算抹账。R738完整ZIP、R748完整ZIP和两份原ledger在当前工作目录可纯字节读取。所有失败资格仍false。
+
+## 证据边界与继续
+
+**连续证据与局部真修正。** [R744](results/R744-scalar-height-development-true-cap-correction-and-thick-core-mode-exclusion.md)给单高度真实展开及当前厚源j2无穷小模排除，未排有限幅解。[R749](results/R749-two-cap-Volterra-defects-and-reflection-axis-anchors.md)把同一高度的全域Darboux缺陷、两轴锚与真六迹传到完整Gram；[R751](results/R751-positive-curvature-latitude-mean-and-height-spectrum.md)由正K整纬圈及全向量谱给平均高度的严格必要下界；[R753](results/R753-exact-local-axis-length-correction-in-the-full-even-height-space.md)保全部偶角模和帽三迹，给两轴的独立局部精确长度修正与真实曲率条件；[R756](results/R756-two-boundary-material-curl-to-the-complete-physical-two-jet.md)把两真边原curl/端位移及全域角导传到实际同一代表的Gram、六jet/主曲率和有序法球。根已全文读这些论文，R756新消费者也全文核。所有条件全胞输入尚须从真实场补齐，未把有限网当连续证明。
+
+R740已严格排R732/R733/R740旧源的自由盘：被迫旧平袖的末弦>.901而源内距<.790/.893/.869，原七非零失败全保；R736旧指定内盘也已排，不重那些工单。R731仅排有限分段解析平领源的准确异轴解，未排C²非解析极限或给统一误差地板。R752只排旧有限表示被锁开带的准确curl零，不排新g全部场。
+
+仍须闭连通M、全t C²嵌入/连续族、同一个固定g、固定握持开集≥.2D、未对齐整像dH≥.3D、全t reach≥.03D；全点全时metric≤1e−6后同g自然精化到机器/求解容差，给实际多t网格并诚实列严格存在差距。再追.5D或严格存在。δE可0，不换对象冒通过。未知片不能借已给片资格；持续按open推进，不以时长、缺输入、局部结果或阶段报告收尾。
+
+**R762 真简单零圈的两项限定已登记。** [非零epsilon圈排原轴源的近零C²分支；乘w²修复触发R731](notes/2026-11-28-r762-simple-zero-material-period-and-analytic-collapse.md)。随后[R762 §6](results/R762-signed-Lambert-zero-area-circles-with-both-real-cap-frames.md)已用四真尖点和全域扭转守卫严格排同一表示的固定有限theta：真实周期平均>.36|epsilon|。根全文核；全部六jet转移/50→108→190未运行，不派已排表示。R764另取明确新正坡g消去简单零，所有改变量另付，几何seed路径不冒同g族。

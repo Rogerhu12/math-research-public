@@ -132,3 +132,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R762 真简单零圈的两项限定已登记。** [非零epsilon圈排原轴源的近零C²分支；乘w²修复触发R731](notes/2026-11-28-r762-simple-zero-material-period-and-analytic-collapse.md)。原固定theta有限姿未被第一项排除，保持open；全部六jet转移/50→108→190求解尚未运行。R764另取明确新正坡g消去简单零，所有改变量另付，几何seed路径不冒同g族。
 
 **R760 原12单位已自然保存，首积分核重号检查失败。** [原成功对象与准确next](notes/2026-11-28-r760-original-twelve-paid-units-and-gauss-occurrence-stop.md)，run46181796301/job141092792865，25.823854399秒、0步/0J，源profile/两帧/两网等12单位不重。57.53MB原artifact15277979068已全SHA接收；新外包层保真实面板/序号/权重重数，科学身份明确升级、原.npy字节全继承，仍423/1752列。
+
+**R760 原12单位恢复单已装订。** [保面板/序号/权重的准确继承](notes/2026-11-28-r760-paid12-occurrence-preserving-exact-resume.md)，新软件身份9f3f7d1a434e6e48878bb6e87983d04513229409f409824b0a626cab37ce593f；原.npy字节与全部原失败/费用保全，423/1752列不变，首1200秒从phase0首未付积分核接续。

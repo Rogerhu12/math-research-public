@@ -1,24 +1,26 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。完整候选尚未满足README。逐字旧账、全部原失败/已付状态及恢复债在[截至R754原4步恢复首单交接](handoff-through-R754-paid4-resume-launch-20261128.md)及其逐层原档链接；不得重做已登记科学或抹账。
+**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。完整候选尚未满足README。逐字旧账、全部原失败/已付状态及恢复债在[截至R760首终态交接](handoff-through-R760-first-terminal-20261128.md)及其逐层原档链接；不得重做已登记科学或抹账。
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **a92dde741f0759a2c6fd10b97d5aee06c0191435**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **039a58e211c393f85ba0726a269f6afd60b74579**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
 ## 正在实际推进
 
-**R748 原三层36步已自然终态。** [93→191→409全高度/36J/38全谱](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)，run46176200567/job141075364113，880.705914869秒；末eta .4625174/曲率36.6068、中央Darboux2.6926，全部离散门和全壳仍false。75成员108.6MB原artifact15276770446已全SHA接收；最新s02_complete与两次prolong/原fine不重。新表示须从真实409q转换，规范深帽包不冒IEEE全连续资格。
+**R748 原36步已终态。** [原409q/36J/38全谱与全部费用](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)均保；eta .462517/κ36.6068，全壳false。完整原ZIP和真实409q在本地，未重复转移。
 
-**R745 厚双谷原终态已登记。** [7接纳/32全2×2/242732新区间单位](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，run46174255201/job141069279288，1321.976574898秒；中心Wronskian约3.57e−15但true_two_valley_box=null，有限beta≈5.855e16未证全尾。原pending=null、原RHS342033和全部242732胞不重，R759改真半段射影/Krawczyk传播。
+**R745 原7步已终态。** [32射击/242732新区间胞](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，1321.976574898秒，严格谷盒null。原136.9MB ZIP已全SHA接收，770060451B/242732行directed保在ZIP；R759用真实原锥入口。
 
-**R750 原两边环带9步已自然终态。** [17全J/17010列与独立窄区大峰](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，run46174873079/job141071182352，2233.840172885秒；只0fit，.4验证绝对curl47358、metric26045、曲率98988，原next forced_sleeve保持。536ray核/27470位移/459位置J与全部7.1GB原artifact15276188258保留；四原文已206接收，R760改真宽三矩场并显式补两网切缘。
+**R750 原9步已终态。** [17J/17010列及原费用](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，仅0fit，.4独立curl47358/metric26045/κ98988。原536核/27470位移/459位置J及7.115GB工件保全，R760严格选同物理行。
 
 **R760 原12单位已自然保存，首积分核重号检查失败。** [原成功对象与准确next](notes/2026-11-28-r760-original-twelve-paid-units-and-gauss-occurrence-stop.md)，run46181796301/job141092792865，25.823854399秒、0步/0J，源profile/两帧/两网等12单位不重。57.53MB原artifact15277979068已全SHA接收；新外包层保真实面板/序号/权重重数，科学身份明确升级、原.npy字节全继承，仍423/1752列。
 
-**R746 原7步自然终态已登记。** [14全J/10689列与真实末圆角失格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，run46172869144/job141064971057，2339.03675621秒；只0相位fit，.2已付qualification但curl/metric/曲率仍失败，原next forced_sleeve保持。六次资格1854.982037943秒不得重付。3.4GB/2024成员原artifact15276016206和四原元数据SHA已绑定，R754以330/1371全列及真宽轴候选接续原q。
+**R760 原12单位恢复单已装订。** [保面板/序号/权重的准确继承](notes/2026-11-28-r760-paid12-occurrence-preserving-exact-resume.md)，新软件身份9f3f7d1a434e6e48878bb6e87983d04513229409f409824b0a626cab37ce593f；原.npy字节与全部原失败/费用保全，423/1752列不变，首1200秒从phase0首未付积分核接续。
+
+**R746 原7步已终态。** [14J/10689列与六次资格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，仅0fit；原3.4GB及全部费用保全，R754用同g/同父receipt的全330/1371列接续。
 
 **R754 首轮HTTP403已保全原4步。** [7全J/8556列及准确next](notes/2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)，run46179020787/job141084139107自然failure但upload成功；625.551765814秒、4接纳，0/.002/.008三条完成，非零curl .216365/.866831仍未fit。下一phase .02/iteration0，active_operation=null。原artifact15277750701/2793862555B与全部费用已绑定；不回放三相位，科学前预接收R746父ZIP及本轮checkpoint，保持原cbe3599a…身份接续。
 
