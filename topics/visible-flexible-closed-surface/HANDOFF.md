@@ -44,7 +44,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R286 --> [R286](results/R286-actual-smooth-images-enforcing-both-strong-shape-ratios.md)两种端口开域恒等的真空间像保证整闭材料像两强比例；首图全七guide，次图球推。嵌入/reach/metric须新付。
 
-<!-- 2ecf-R290 --> [R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)全模有理两点排除原释放场及216双球场：reach/D<.02608/.025。真实新图继续双法球、抬返回层；不得借κ<9.9宣称厚度通过。
+<!-- 2ecf-R290 --> [R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)排除两个原场；[R292](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)再排除升高.08但保旧帽的场，reach/D<47/2800。非局部核与帽点对都须支付。
 
 ## 工作位置与接续
 
@@ -52,6 +52,6 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
 
-私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
+私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:35:41 UTC；已读公开 main `5aa9bd7554e6363a71e673157f7f83644e80358f`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:42:37 UTC；已读公开 main `8bfd5836aed115307959845aebab54ea58d4673f`，根/课题 README 逐差无变化。

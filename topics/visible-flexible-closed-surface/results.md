@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R292：真实抬高核心与旧固定凸帽的严格点对障碍](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)（已证明；141全频与216真实修正给reach/D<47/2800，必须更换实际图或整帽）。
+
 - [R291：真实无限低帽的全相位嵌入和两个强比例](results/R291-embedded-infinite-low-cuff-strong-shape-family.md)（2026-11-28）：整闭明确嵌入与两指标同时成立，共同正厚度未量化；同固定 g 的实际误差仍大。
 
 - [R287：真实全 p32 H65 前缀与连续 coast 截取族](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)（已证明；全原生64径格及准确Γ95，原长reach≥.108，.02至.06全截取同时≥.098，谱误差<3.401003e−7）。
