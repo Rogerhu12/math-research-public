@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败、输入困难均非终点。**
-[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/ff75a67e4c95b6f7f262233e2c84df30abdbf2cf/topics/visible-flex-larger-amplitude/HANDOFF.md)与[完整open](https://github.com/Rogerhu12/math-research-public/blob/ff75a67e4c95b6f7f262233e2c84df30abdbf2cf/topics/visible-flex-larger-amplitude/open.md)保全部原字、完整源参、失败、未知及c7aa/bba/cc626历史链；open§1–6原23359B不动，不重做登记结论。
+[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/2587bdf40913e0fb90e0d4adc5bbf03c23bec0d9/topics/visible-flex-larger-amplitude/HANDOFF.md)与[完整open](https://github.com/Rogerhu12/math-research-public/blob/2587bdf40913e0fb90e0d4adc5bbf03c23bec0d9/topics/visible-flex-larger-amplitude/open.md)保全部原字、完整源参、失败、未知及c7aa/bba/cc626历史链；open§1–6原23359B不动，不重做登记结论。
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，08:49:21Z此次仍exec-server缺失，恢复即pull。前次探测完整保旧H。云核至`bf6b828e02c0f1074e6e5a306716957239936398`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。活27–29/31–33控制器通常5分钟真pull，末槽记已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，08:49:21Z此次仍exec-server缺失，恢复即pull。前次探测完整保旧H。云核至`3d0d2f69d7ae1fde97468c3903c371f653693620`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。活27–29/31–33控制器通常5分钟真pull，末槽记已读commit。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格缺口明示，继续加强比例。
@@ -27,9 +27,7 @@ R724–728完整证明/源参保results；R728真实w含高度项，最终seed4�
 
 ## 准确后继与容量
 
-R726/R727准确核心9件25d72已刊；N/G11及闭/P-U/矩/mesh23全保护。R728准确N/G14件683627B与下游24件1328437B全保护，完整manifest/路径/身份保固定旧H和open；未冒actual费用。
-[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N原绝对repo/canonical/output，N变G新目录/稳定whole report，R723/mesh fresh；P同canonical整块，U最终同wholeN。packet全report、restart同runner13final/typed；normal.complete不代连续branch。全32stage/1024圆/922cells/cuts/六jet/尾/两帽/mixed/allphase/晚失败、R718与R716独立、五t/15science+5preview/三级真精化全待付。
-RET83–86保完整来源/原结果/失败/固定Git恢复；[delivery JSON空白映射](computations/complete-delivery-json-lexical-format-delivery.json)与前三批保所有原token，旧whole hash读者先恢复该次完整Git全文。RET88–93完整历史元数据/非活结果及终态followup全token空白包均已刊；不动活26–33 queue/request。Nelder原f7d0 producer未闭，现7b7非它，保原；MIDX/control-response等未闭输入不删。继续实际求解并为完整新包腾空间。
+R726/R727核心9件25d72已刊；旧准确N/G与下游全部完整保护，R728 N/G14及下游24的全路径/源参/身份保open§7和固定旧H；尚无actual费用。
 
 
 
