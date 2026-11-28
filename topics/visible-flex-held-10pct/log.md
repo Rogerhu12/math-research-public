@@ -521,3 +521,7 @@ R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/1
 ## 2026-11-28 — own fixed 连续前缀的实际函数接线
 
 [接线实核](notes/2026-11-28-analytic-qr-fixed-continuous-runtime-contract.md)真实导入自身fixed reader/metric/cut，6个原区间源SHA相同、4个proof main编译成功，cut/metric方法Python对象同一性通过，tool10058/841fa0真exit0；未执行这些main/未给假source。明确真geometry之后原binary64→123/10曲率舍入和同cutwidth依赖，原完整g/profile/mean/谱/最终physical-H均保留。无新科学阳性或额外验收门。
+
+## 2026-11-28 — own fixed QR 完整半径、placement、定义与全几何入口
+
+[新四阶段最小入口](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)独立适配真实accepted_fixed来源，原placement main及高度后缀、QR几何width→reach完整标量段原字节保持；实际source/g/profile/mean/packet/physical-H/cut/node index均绑自己，不假贴anchor标签。定义使用实际完整图与默认r=a/2帽，未改g。原complete metric collector可直接收真实同场完整metric。新源compile及四CLI help真exit0，原数学段实编译；未执行科学输入、未造新阳性、未重算旧field。

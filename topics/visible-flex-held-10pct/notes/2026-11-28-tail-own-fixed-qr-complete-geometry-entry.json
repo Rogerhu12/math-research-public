@@ -1,0 +1,74 @@
+{
+  "status": "own_fixed_geometry_source_preparation_completed",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_geometry_entry.py",
+    "sha256": "f7d03306323bf11f5ab83e2e22926932c7aff0322621ec94d413383c286fdef0"
+  },
+  "actual_cli_help": [
+    {
+      "phase": "radius",
+      "actual_returncode": 0,
+      "seconds": 0.8869861160001165,
+      "stdout_sha256": "a85146b47cdad4df0493ddef5408d6ae8fd8279b7f3ac5185f89deacee97f868",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "placement",
+      "actual_returncode": 0,
+      "seconds": 0.8095450629998595,
+      "stdout_sha256": "2734fab991ad02582b4e9ae8d9f482817886309cec492cca31591cea9055c2b1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "definition",
+      "actual_returncode": 0,
+      "seconds": 0.8089853459996448,
+      "stdout_sha256": "d53cd052229a80b7a8a544793106b0254b6e34fbf3e9fb11754bc70663ecb80c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "geometry",
+      "actual_returncode": 0,
+      "seconds": 1.2238580719995298,
+      "stdout_sha256": "60e7dff37137357e1ec3403be22b61e20bc66c31e3a20103ec1a6953ff9b15d7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_compilation_succeeded": true,
+  "original_source_gate_adaptation": {
+    "original_actual_height_source_sha256": "e6c8a63ee5f03fa3a1288807c531ccd4a7a45db6b630af365ef38e329ae20094",
+    "original_source_only_section_sha256": "03377c9895a23c19f117275ca5bb6aafa21184753345af54eff8e988d09a976b",
+    "generated_height_function_sha256": "90554680abf6b109b8537b2f985ba34543a99df0a62acaa3a0244135ae286feb",
+    "unchanged_height_math_suffix_sha256": "95f89c0ab2193937f1d8d537697689658c3ce611c6d9b28253775f9c34a158a8",
+    "original_main_reused_without_edit": true,
+    "original_main_source_sha256": "f9698cd2bbc310dea0a83bee4b1037ccb4f7c7b404e8e419137ae2024a2fae56"
+  },
+  "unchanged_scalar_transfer_block_sha256": "9d2e31c91fa81858480883b527caceeb22ed43fa5e7018346a3903c9cf0be587",
+  "original_placement_main_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_actual_placement.py",
+    "sha256": "bb0af087d1649b4067c52096f2a17f41ed2ea7c7d48f8b89ec16ca5290cb2bbc"
+  },
+  "original_geometry_scalar_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_closed_map_marker_cylinder_geometry.py",
+    "sha256": "6ae95abb2341a7edf80c340c47fb53f29ae2097cb0813a46951b121c1b10ed5d"
+  },
+  "own_fixed_reader": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_cartesian_prefix.py",
+    "sha256": "e66f8cb57de54f4c62b84f36b6f9983ef7866cd19d959d0ff9eaa13ad856ac77"
+  },
+  "own_fixed_atlas": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_closed_map.py",
+    "sha256": "ea1bd53b8a5ff8c23f68d1c08e49f47f688345050556ccd04277d31afd2afbc5"
+  },
+  "original_complete_metric_collector": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/closed_map_complete_metric.py",
+    "sha256": "4a2a799b49f01d8eb70925b4cf406d7ef39192f1faf80448fbf73cf3216d6fad"
+  },
+  "generated_function_definitions_compiled_without_execution": true,
+  "genuine_positive_source_available": false,
+  "accepted_fixed_gate_executed": false,
+  "complete_bundle_or_interval_certificate_computed": false,
+  "native_calls": 0,
+  "old_field_recomputed": false,
+  "readme_completion_claimed": false
+}

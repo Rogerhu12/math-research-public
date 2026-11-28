@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `58cf6d30a92110de659c61e76b4a10091f87d77b`（2026-11-28 18:56 UTC）。
+- 最近实际pull后双README已读锚 `391ffa4b3397539351a6d15800ef54a3ce5e01ab`（2026-11-28 18:56 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -34,6 +34,7 @@
 - [QR固定g九源](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)与[首fixed launcher](notes/2026-11-28-analytic-first-qr-fixed-g-launcher.md)：保原fixed=True完整未知/g/profile/chart/gauge/warp/mean/尾背景/祖先链/8outer。首次同M更严tol，实际M-specific port/baseline/native/final-H，runtime仅3执行键，BC不放松。无真首锚，不造阳性。
 - [fixed专属全尾](notes/2026-11-28-tail-qr-fixed-complete-chunk-source-entry.md)与[全尾C²比较](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)：各自真source/packet/native，原完整共半径分割/全谱/共享两jet；绝对高度付各自defining零模+全mean，不平移。有限pair差非Cauchy证明。
 - [fixed连续实际函数接线](notes/2026-11-28-analytic-qr-fixed-continuous-runtime-contract.md)：真实导入/MRO/4个生成main编译及原数学method对象同一性已核；实际geometry后须原123/10舍入，再tables/metric/cut，cutwidth绑定同场。无阳性fixed证书。
+- [own fixed全几何入口](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)：radius/placement/definition/geometry四阶段保自身真source/全尾/final-H/字面帽，原placement main和width→reach数学段不改，直接原完整metric collector。仅compile/4help，无阳性。
 - [时间插值诊断](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)：同源/g/时间域的线性时间插值作用全空间两jet，报告metric与原场底线；仅compile/help，不冒连续证书。
 - [显式相位mesh](notes/2026-11-28-explicit-full-phase-mesh-entry.md)必须用4/5、27/50和实际k.5/S.675，旧9/20/k.2不覆盖。最终若干t网格各<5MB、只存再生命令/参数/hash。canonical帽默认r=a/2；若另选R89/改进幅度，需独立完整cap合同贯穿map/geometry/activity/mesh/time且先冻结g，不能偷换旧g。
 
