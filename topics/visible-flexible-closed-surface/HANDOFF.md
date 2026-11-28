@@ -24,13 +24,13 @@
 |---|---:|---:|---:|---:|
 | M32零态首H2，47628列 | 8.26045815e−10 | R252≤9.999199636e−7 | R253>.03114912 | >.05278319 |
 | C2第二场，72128列 | 8.05757388e−10 | ≤9.976475574e−7 | R253>.03114830 | >.05278314 |
-| M48第三场，107456列 | N1536 6.07253082e−10 | 新局部cross已返≤9.963039080e−7，说明待推 | R249实际运行 | 未借旧场 |
+| M48第三场，107456列 | N1536 6.07253082e−10 | [局部cross](notes/2026-11-28-2ecf-m12-local-p-slope-cross-gram.md)≤9.963039080e−7 | R249实际运行 | 未借旧场 |
 
 首场field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`；第二 `201de8909dc707c7d91749d812585233d49120c076468e9f2aebe97271114aed`；第三 `6aafee941eefdada991efa93316f89f9ddbdcd57f05c8bf33a51d19fe74e3d61`。各自身证书不互借，旧三角界失守字段保留。见[首实场](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)、[C2实步/角谱](notes/2026-11-28-2ecf-m12-first-c2-actual-step-and-spectrum.md)、[第二场完整cross](notes/2026-11-28-2ecf-m12-c2-second-full-cross-gram.md)。前两场未正则normal相对1.0065e−4/.001416，仍不能叫收敛。
 
 [R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)支付材料二jet抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)支付完整source-cross-Gram；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)用自身前缀/尾p分别乘CX。两合格场[三时刻完整闭网格](notes/2026-11-28-2ecf-m12-two-certified-fields-complete-closed-meshes.md)均真0，每份44714顶点/89424面，完整真cuff/帽/固定H；有限网格不替代连续证明或#5。
 
-**当前实际工作**：M48 R236已返4.21217e−5三角上界；新局部cross用自身R226有效l1保底+每片准确R236 p/完整路径w_r，487→488子片，369.533s真0，待说明发布。root的同M48 R249完整二jet仍在跑，随后做R253区域几何。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变；其实际LM在612.993s被系统终止−9，无完整新field，正查内存并改流式驻留后从同暖场继续。M64已准备但不照旧内存配置盲启动；须继续真角频和真物理h加密，G12仅积分不能冒h收敛。
+**当前实际工作**：M48 R236已返4.21217e−5三角上界；新局部cross用自身R226有效l1保底+每片准确R236 p/完整路径w_r，487→488子片，369.533s真0，完整说明/源码已推。root的同M48 R249完整二jet仍在跑，随后做R253区域几何。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变；其实际LM在612.993s被系统终止−9，无完整新field，正查内存并改流式驻留后从同暖场继续。M64已准备但不照旧内存配置盲启动；须继续真角频和真物理h加密，G12仅积分不能冒h收敛。
 
 [R250](results/R250-full-finite-tail-smooth-source-regularization.md)已准确规整全部18551有限尾内缝，原节点两jet零；指定R245场+Q的连续几何仍过。[准确Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)5177半径/204窗/88非零行真0，新增Qss误差<2.313e−20。新X+C+Q源独立身份，当前各非线性场未用Q，不能静默替换。R235只排过光滑有限修正的准确等距，不排C2极限。
 
@@ -50,4 +50,4 @@
 
 11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:48:05 UTC；已读公开 main `6f9deeacf47d54980fcd6efec7b35a4d2b68032c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:49:01 UTC；已读公开 main `f7313bb0ee180fcba6c1f294381d9b7856b02a2a`，根/课题 README 逐差无变化。
