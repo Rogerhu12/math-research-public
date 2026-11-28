@@ -1,0 +1,206 @@
+"""R781 physical Gauss-Newton with actual spectral shape inequalities and active peak Gram rows."""
+import numpy as np
+from scipy.spatial import cKDTree
+from scipy.sparse.linalg import LinearOperator,cg
+import bent_preloaded_bridge_system as ref
+import bent_circular_free_ring_fields as field
+import r781_round_three_lobe_spatial_rings as geometry
+fixed,transformed,clock,stats,dot=ref.fixed,ref.transformed,ref.clock,ref.stats,ref.dot
+
+def residual(F,B,w,par,linear=True):
+    npts=len(F);k=B.shape[2] if linear else 0;a,b=F[:,1],F[:,2];P,Q=B[:,1:3].transpose(1,0,2,3) if linear else (None,None)
+    ncr=np.cross(a,b);area=np.linalg.norm(ncr,axis=1)
+    nn=ncr/np.maximum(area,1.e-14)[:,None];ab=dot(a,b)
+    aa=dot(a,a);bb=dot(b,b);r=[];jac=[]
+    def add(value,j,wgt):
+        weight=w*wgt;r.append(value*weight)
+        if linear:jac.append(j*weight[:,None,None])
+    if linear:
+        ja=2*P*a[:,None,:];jb=2*Q*b[:,None,:]
+        jab=P*b[:,None,:]+Q*a[:,None,:]
+    else:ja=jb=jab=None
+    add(aa-1,ja,1.);add(ab,jab,2**.5);add(bb-1,jb,1.)
+    # Relative area barrier. delta |a cross b|=delta a.(b cross n)+delta b.(n cross a).
+    dm=np.maximum(np.log(par["area_floor"]/np.maximum(area,1.e-12)),0)
+    jj=None
+    if linear:
+        jj=-(P*np.cross(b,nn)[:,None,:]+Q*np.cross(nn,a)[:,None,:])*((dm>0)/np.maximum(area,1.e-12))[:,None,None]
+    add(dm,jj,par["area_weight"])
+    worst=np.zeros(npts)
+    for co,si in ((1.,0.),(0.,1.),(2**-.5,2**-.5),(2**-.5,-2**-.5)):
+        v=co*a+si*b;vv=dot(v,v)
+        H=co*co*F[:,3]+2*co*si*F[:,4]+si*si*F[:,5]
+        h=dot(nn,H);active=np.maximum(abs(h)-par["curvature_bound"]*vv,0.)
+        worst=np.maximum(worst,abs(h)/np.maximum(vv,1.e-15))
+        j=None
+        if linear:
+            hp=(H-h[:,None]*nn)/np.maximum(area[:,None],1.e-14)
+            # delta n.H = delta a.(b cross Hperp)/area + delta b.(Hperp cross a)/area.
+            ah=np.cross(b,hp);bh=np.cross(hp,a)
+            BH=co*co*B[:,3]+2*co*si*B[:,4]+si*si*B[:,5]
+            hj=P*ah[:,None,:]+Q*bh[:,None,:]+BH*nn[:,None,:]
+            j=np.sign(h)[:,None,None]*hj-2*par["curvature_bound"]*(co*P+si*Q)*v[:,None,:]
+            j*=(active>0)[:,None,None]
+        add(active,j,par["curvature_weight"])
+    # Both symmetric matrix inequalities +-II <= K*g, evaluated in the actual current metric.
+    h11,h12,h22=(dot(nn,F[:,j]) for j in (3,4,5))
+    bound=par["curvature_bound"]
+    for sign in (1.,-1.):
+        u,v,z=sign*h11-bound*aa,sign*h12-bound*ab,sign*h22-bound*bb
+        ang=.5*np.arctan2(2*v,u-z);co,si=np.cos(ang),np.sin(ang)
+        active=np.maximum(.5*(u+z)+np.hypot(.5*(u-z),v),0.);Jtop=None
+        if linear:
+            tdir=co[:,None]*a+si[:,None]*b
+            HH=co[:,None]**2*F[:,3]+(2*co*si)[:,None]*F[:,4]+si[:,None]**2*F[:,5]
+            hp=(HH-dot(nn,HH)[:,None]*nn)/np.maximum(area[:,None],1.e-14)
+            cb,sb=co[:,None,None],si[:,None,None]
+            dh=(P*np.cross(b,hp)[:,None,:]+Q*np.cross(hp,a)[:,None,:]+
+                   (cb*cb*B[:,3]+2*cb*sb*B[:,4]+sb*sb*B[:,5])*nn[:,None,:])
+            Jtop=(sign*dh-2*bound*(cb*P+sb*Q)*tdir[:,None,:])*(active>0)[:,None,None]
+        add(active,Jtop,par["principal_weight"])
+    e=.5*(aa+bb)-1;d=np.hypot(.5*(aa-bb),ab);op=np.maximum(abs(e+d),abs(e-d))
+    return np.concatenate(r),(np.concatenate(jac,axis=0).reshape(-1,3*k) if linear else None),op,area,worst
+
+
+def pairs(F,material,par):
+    a,b=F[:,1],F[:,2];cr=np.cross(a,b);ar=np.linalg.norm(cr,axis=1);n=cr/np.maximum(ar[:,None],1.e-14)
+    pts=F[:,0];ids=cKDTree(pts).query(pts,k=par["neighbor_ranks"])[1]
+    ii=np.broadcast_to(np.arange(len(pts))[:,None],ids.shape).ravel();jj=ids.ravel()
+    use=(ii!=jj)&(np.linalg.norm(material[jj]-material[ii],axis=1)>par["distinct_material_distance"])
+    ii,jj=ii[use],jj[use];ch=pts[jj]-pts[ii]
+    length=np.sqrt(dot(ch,ch)+par["chord_smoothing"]**2);sc=dot(n[ii],ch)
+    r=np.maximum(2*abs(sc)/length-length/par["radius"],0.)
+    idx=np.flatnonzero(r>0.)
+    if len(idx)>par["worst_pairs"]:
+        idx=idx[np.argpartition(r[idx],-par["worst_pairs"])[-par["worst_pairs"]:]]
+    return ii[idx],jj[idx],r[idx],n,ar
+
+def far_constraints(pts,material,par):
+    # Exact all-current-pairs screen: outside 2r the endpoint inequality is automatic.
+    r=.03*geometry.diameter(0.,par["diameter_quadrature"]);tree=cKDTree(pts)
+    worst=par["metric_reach_pair_count"];best=np.empty(0)
+    bi=np.empty(0,int);bj=np.empty(0,int);active=0
+    for start in range(0,len(pts),96):
+        stop=min(start+96,len(pts))
+        neighbors=tree.query_ball_point(pts[start:stop],2*r)
+        rows=[];cols=[]
+        for p,nb in enumerate(neighbors,start):
+            take=np.asarray(nb,int);take=take[take>p]
+            if len(take):rows.append(np.full(len(take),p,int));cols.append(take)
+        if not rows:continue
+        i,j=np.concatenate(rows),np.concatenate(cols)
+        target_chord=np.linalg.norm(material[i]-material[j],axis=1)
+        angle=np.minimum(np.pi/2,np.sqrt(1-par["metric_allowance"])*target_chord/(2*r))
+        dd=pts[i]-pts[j]
+        value=np.sin(angle)**2-dot(dd,dd)/(4*r*r)
+        keep=value>0;active+=int(keep.sum())
+        if not np.any(keep):continue
+        best=np.r_[best,value[keep]];bi=np.r_[bi,i[keep]];bj=np.r_[bj,j[keep]]
+        if len(best)>worst:
+            take=np.argpartition(best,-worst)[-worst:]
+            best,bi,bj=best[take],bi[take],bj[take]
+    return bi,bj,best,active,r
+
+def system_at(tables,rows,coef,level_floor,par,linear):
+    K=coef.size;H=np.zeros((K,K)) if linear else None;G=np.zeros(K) if linear else None
+    obj=0.;peak=0.;fs=[];mat=[];chunk=par["jac_chunk"];move_basis=0.
+    for (B,w,pos0),f0 in zip(tables,rows):
+        arr=[]
+        for i in range(0,len(f0),chunk):
+            ix=slice(i,i+chunk);F,D=field.apply(f0[ix],B[ix],coef,level_floor,linear)
+            r,J,op,ar,pk=residual(F,D,w[ix],par,linear);arr.append(F)
+            obj+=float(r@r);peak=max(peak,float(op.max()))
+            if linear:H+=J.T@J;G+=J.T@r
+        fs.append(np.concatenate(arr));mat.append(pos0)
+    F=np.concatenate(fs);coords=np.concatenate(mat)
+    # Exact active rows of the sum of the largest pointwise Gram Frobenius deficits.
+    vv,ww=F[:,1],F[:,2]
+    ra,rb,rc=dot(vv,vv)-1,np.sqrt(2.)*dot(vv,ww),dot(ww,ww)-1
+    loss=ra*ra+rb*rb+rc*rc
+    npeak=min(len(F),par["gram_peak_count"])
+    ids=np.argpartition(loss,len(F)-npeak)[-npeak:]
+    wg=par["gram_peak_weight"]/np.sqrt(npeak)
+    obj+=float(wg*wg*np.sum(loss[ids]))
+    if linear:
+        start=0
+        for (B,wwt,pos),f0 in zip(tables,rows):
+            where=ids[(ids>=start)&(ids<start+len(B))]
+            if len(where):
+                ind=where-start
+                _,der=field.apply(f0[ind],B[ind],coef,level_floor,True)
+                X,Y=der[:,1],der[:,2]
+                vr,wr=vv[where,None,:],ww[where,None,:]
+                JJ=wg*np.concatenate(((2*X*vr).reshape(len(where),K),
+                       (np.sqrt(2.)*(X*wr+Y*vr)).reshape(len(where),K),(2*Y*wr).reshape(len(where),K)),axis=0)
+                rr=wg*np.r_[ra[where],rb[where],rc[where]]
+                H+=JJ.T@JJ;G+=JJ.T@rr
+            start+=len(B)
+    ii,jj,r,n,ar=pairs(F,coords,par);w=par["pair_weight"]/np.sqrt(par["worst_pairs"])
+    obj+=float(w*w*(r@r))
+    if len(ii) and linear:
+        chosen,inv=np.unique(np.r_[ii,jj],return_inverse=True);i0,j0=np.split(inv,2)
+        D=np.empty((len(chosen),6,K//3,3));start=0
+        for (B,ww,pos),f0 in zip(tables,rows):
+            loc=np.flatnonzero((chosen>=start)&(chosen<start+len(B)))
+            if len(loc):
+                idx=chosen[loc]-start
+                D[loc]=field.apply(f0[idx],B[idx],coef,level_floor,True)[1]
+            start+=len(B)
+        delta=F[jj,0]-F[ii,0];length=np.sqrt(dot(delta,delta)+par["chord_smoothing"]**2)
+        sc=dot(n[ii],delta);sg=np.sign(sc)
+        v=2*sg[:,None]*n[ii]/length[:,None]-(2*abs(sc)/length**3+1/(par["radius"]*length))[:,None]*delta
+        hp=(delta-sc[:,None]*n[ii])*(2*sg/(length*np.maximum(ar[ii],1.e-14)))[:,None]
+        j=(D[j0,0]-D[i0,0])*v[:,None,:]+D[i0,1]*np.cross(F[ii,2],hp)[:,None,:]+D[i0,2]*np.cross(hp,F[ii,1])[:,None,:]
+        j=j.reshape(len(r),K)*w;H+=j.T@j;G+=j.T@(r*w)
+    fi,fj,vr,total,rr=far_constraints(F[:,0],coords,par)
+    fw=par["metric_reach_pair_weight"]/np.sqrt(par["metric_reach_pair_count"])
+    obj+=float(fw*fw*(vr@vr))
+    if len(vr) and linear:
+        take,inv=np.unique(np.r_[fi,fj],return_inverse=True);i0,j0=np.split(inv,2)
+        Dv=np.empty((len(take),K//3,3));start=0
+        for (B,ww,pos),f0 in zip(tables,rows):
+            at=np.flatnonzero((take>=start)&(take<start+len(B)))
+            if len(at):
+                ix=take[at]-start
+                Dv[at]=field.apply(f0[ix],B[ix],coef,level_floor,True)[1][:,0]
+            start+=len(B)
+        chord=F[fi,0]-F[fj,0]
+        JJ=-fw*((Dv[i0]-Dv[j0])*chord[:,None,:]/(2*rr*rr)).reshape(len(vr),K)
+        H+=JJ.T@JJ;G+=JJ.T@(fw*vr)
+    return obj,peak,H,G,len(r),float(r.max(initial=0.)),total,float(vr.max(initial=0.))
+
+def shape_step(tables,base,W,Z,par):
+    K=Z[0].size;nt=len(Z);H=[];g=[];value=0.;peak=0.;npair=0;pairpeak=0.;farcount=0;farpeak=0.
+    for i,(t,rows,floor) in enumerate(base):
+        c=np.tensordot(W[i],Z,axes=1);v,k,HH,gg,n,r,nf,nv=system_at(tables,rows,c,floor,par,True)
+        H.append(HH);g.append(gg);value+=v;peak=max(peak,k);npair+=n;pairpeak=max(pairpeak,r);farcount+=nf;farpeak=max(farpeak,nv)
+    H=np.array(H);g=np.array(g);G=W.T@g
+    diag=np.einsum("tp,ti->pi",W*W,np.diagonal(H,axis1=1,axis2=2))
+    reg=par["damping"]*max(np.mean(diag),1.e-7)
+    def mul(x):
+        b=W@x.reshape(nt,K)
+        return (W.T@np.einsum("tij,tj->ti",H,b)+reg*x.reshape(nt,K)).ravel()
+    A=LinearOperator((nt*K,nt*K),matvec=mul);M=LinearOperator(A.shape,matvec=lambda x:x/(diag.ravel()+reg))
+    its=[0]
+    def count(_):its[0]+=1
+    update,info=cg(A,-G.ravel(),M=M,rtol=par["cg_tol"],atol=0.,maxiter=par["cg_max"],callback=count)
+    out=update.reshape(Z.shape);move=0.;slope=0.
+    for i,(t,rows,floor) in enumerate(base):
+        c=np.tensordot(W[i],Z,axes=1);dx=np.tensordot(W[i],out,axes=1)
+        for (B,w,pos),f0 in zip(tables,rows):
+            for j in range(0,len(B),par["jac_chunk"]):
+                ix=slice(j,j+par["jac_chunk"]);_,D=field.apply(f0[ix],B[ix],c,floor,True)
+                d=np.einsum("nrkd,kd->nrd",D,dx)
+                move=max(move,float(np.linalg.norm(d[:,0],axis=-1).max()))
+                slope=max(slope,float(np.linalg.norm(d[:,1:3],axis=-1).max()))
+    fac=min(1.,par["step_displacement"]/max(move,1.e-15),par["step_tangent"]/max(slope,1.e-15))
+    return fac*out,dict(current_objective=value,raw_max_gram=peak,cg_status=int(info),cg_iterations=its[0],
+           raw_update_norm=float(np.linalg.norm(out)),raw_physical_move=move,
+           raw_orthonormal_tangent_move=slope,trust_factor=fac,active_global_ordered_pairs=npair,worst_pair_residual=pairpeak,active_metric_reach_pairs=farcount,worst_metric_reach_pair=farpeak)
+
+def objective(tables,base,W,Z,par):
+    value=0.;peak=0.
+    for i,(t,rows,floor) in enumerate(base):
+        c=np.tensordot(W[i],Z,axes=1);v,k,_,_,_,_,_,_=system_at(tables,rows,c,floor,par,False)
+        value+=v;peak=max(peak,k)
+    return value,peak

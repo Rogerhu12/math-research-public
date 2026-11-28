@@ -1,0 +1,782 @@
+{
+  "schema": "visible-larger-run51-complete-circular-free-ring-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "Complete frozen independent source and scientific launch contract. Every actual run, point and result requires an actual public return.",
+  "complete_new_files": [
+    {
+      "role": "script",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_phase.py",
+      "name": "bent_circular_free_ring_phase.py",
+      "bytes": 13891,
+      "sha256": "4bb0c593a13a8e7916d3eb015a34aa557b4bd0b03278d39f2642a0a381645c9f",
+      "git_blob_sha": "3424e4799d5c04a37ab919f2a33cf301ca750377"
+    },
+    {
+      "role": "circular_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_fields.py",
+      "name": "bent_circular_free_ring_fields.py",
+      "bytes": 6349,
+      "sha256": "d6e0540fe3d52ed71f11b44eeafec7501a9aea1188ba73334322c201f45ba748",
+      "git_blob_sha": "06a80a49d5a4e40db6b047e713493bfc075ed492"
+    },
+    {
+      "role": "cap_field",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_cap_field.py",
+      "name": "bent_circular_cap_field.py",
+      "bytes": 1638,
+      "sha256": "7aa3bf315a6d3ca6d0228abbbb4d60609bd057c10f001f31c1ff1205c5467ff1",
+      "git_blob_sha": "395fea279288edf8ec04c809cb92f405b80210a1"
+    },
+    {
+      "role": "circular_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_system.py",
+      "name": "bent_circular_free_ring_system.py",
+      "bytes": 11234,
+      "sha256": "cb625e3e70923bd349434e358fbfca86dc715392147eacad23e38aa5ebd9f451",
+      "git_blob_sha": "fa5741637ad679c6c5bc08bd8b5e7c355515baa5"
+    },
+    {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-circular-free-ring-phase-design-v1.json",
+      "name": "bent-circular-free-ring-phase-design-v1.json",
+      "bytes": 7066,
+      "sha256": "b04d78c9ccad330549424be7a0486438989fde2f949cf257a5ab32f7dd02e753",
+      "git_blob_sha": "4736181c3adbb6f851eef939ae03accebde21ec1"
+    },
+    {
+      "role": "Complete Run51 three-index public controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_circular_free_ring_search.py",
+      "name": "observe_bent_circular_free_ring_search.py",
+      "bytes": 1489,
+      "sha256": "f932a8a688f534578d57054f351abd0efeeaa22350e4646da84368c6984c0225",
+      "git_blob_sha": "646cfb3ff33cde1047844b5526b2ab41c97c961a"
+    },
+    {
+      "role": "Complete public Run51 circular free-ring workflow",
+      "path": ".github/workflows/visible-larger-run51-circular-free-ring.yml",
+      "name": "visible-larger-run51-circular-free-ring.yml",
+      "bytes": 4505,
+      "sha256": "ba5e15f916b396b25716dc0b2d10306133f12251a5d35e3b212fd40f94c51fc8",
+      "git_blob_sha": "2c38dded0ab8b589b8762736ada5a933277e33e2"
+    },
+    {
+      "role": "Complete frozen Run51 circular three-family scientific request",
+      "path": "topics/visible-flex-larger-amplitude/computations/run51-circular-free-ring-request.json",
+      "name": "run51-circular-free-ring-request.json",
+      "bytes": 25490,
+      "sha256": "4970e3a9642a4d5d17421f96ea52811447d244de51d534d06aca9426099397ee",
+      "git_blob_sha": "0c1ac0f8315aeefcbb8760ac730971f1fe01b581"
+    }
+  ],
+  "complete_retained_scientific_parent_sources": [
+    {
+      "role": "geometry_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r781_round_three_lobe_spatial_rings.py",
+      "name": "r781_round_three_lobe_spatial_rings.py",
+      "bytes": 6106,
+      "sha256": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
+      "git_blob_sha": "9eb10ee6c200e95e1b9b6a2b438d84a40518ae8b"
+    },
+    {
+      "role": "coherent_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coherent_shear_fields.py",
+      "name": "bent_coherent_shear_fields.py",
+      "bytes": 5187,
+      "sha256": "57382dffa48bcb487282e0f4bad96553bad23d70e4e623712722108abf9c5906",
+      "git_blob_sha": "1f4b78387b3a28e0672f1b1dbb669c6de5b61801"
+    },
+    {
+      "role": "spatial_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_spatial_ring_fields.py",
+      "name": "bent_spatial_ring_fields.py",
+      "bytes": 3517,
+      "sha256": "57f00eb13e1729c313c80605c93258de1ab96f9b1fae89a73b0515b4f72a3030",
+      "git_blob_sha": "fe6c471b8cb7a79141ea356f7f5c0a160ee52699"
+    },
+    {
+      "role": "r775",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r775_nonplanar_compensated_section_two_jets.py",
+      "name": "r775_nonplanar_compensated_section_two_jets.py",
+      "bytes": 5704,
+      "sha256": "34e8e03a88b56f92c239d0d38220f30fc8dfe1bc9c31b0b1ec91eb78bd1a3dfd",
+      "git_blob_sha": "8b40ccf98bf1eb6c6299a0b2c9f004bdc3ba47e1"
+    },
+    {
+      "role": "coherent_metric",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r772_coherent_developing_tube.py",
+      "name": "r772_coherent_developing_tube.py",
+      "bytes": 4692,
+      "sha256": "2afabacdbcf7d60c708bdceece3b3e994c6097abe1a911aa456a404c823521d6",
+      "git_blob_sha": "275353a285f77f1bc39248464ee6a0871a01982f"
+    },
+    {
+      "role": "export_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+      "name": "closed_body_mesh_r772_terminal.py",
+      "bytes": 9174,
+      "sha256": "367ffae0ab86f6c50b5428c80849db9b96d1fe99243962d4c8def06cdc01d4ad",
+      "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+    },
+    {
+      "role": "bridge_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_system.py",
+      "name": "bent_preloaded_bridge_system.py",
+      "bytes": 5861,
+      "sha256": "507c6a8036b9a86b32b3477a0b7f7622382f134239f47d82a5758f598b1d23ba",
+      "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+    },
+    {
+      "role": "r740",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "name": "r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    {
+      "role": "r742",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "name": "r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    {
+      "role": "r767_profile",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_negative_track_profile.py",
+      "name": "r767_negative_track_profile.py",
+      "bytes": 4051,
+      "sha256": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+      "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+    },
+    {
+      "role": "r767_cap",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_preloaded_cap_atlas.py",
+      "name": "r767_preloaded_cap_atlas.py",
+      "bytes": 4615,
+      "sha256": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+      "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+    },
+    {
+      "role": "terminal_mesh",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+      "name": "closed_body_mesh_terminal.py",
+      "bytes": 16874,
+      "sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+      "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+    },
+    {
+      "role": "mesh_geometry",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py",
+      "name": "closed_body_mesh_geometry.py",
+      "bytes": 8315,
+      "sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+      "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+    }
+  ],
+  "source_provenance": {
+    "new_scientific_inputs": 5,
+    "retained_scientific_inputs": 13,
+    "total_scientific_inputs": 18,
+    "all_inputs": {
+      "script": {
+        "role": "script",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_phase.py",
+        "name": "bent_circular_free_ring_phase.py",
+        "bytes": 13891,
+        "sha256": "4bb0c593a13a8e7916d3eb015a34aa557b4bd0b03278d39f2642a0a381645c9f",
+        "git_blob_sha": "3424e4799d5c04a37ab919f2a33cf301ca750377"
+      },
+      "circular_fields": {
+        "role": "circular_fields",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_fields.py",
+        "name": "bent_circular_free_ring_fields.py",
+        "bytes": 6349,
+        "sha256": "d6e0540fe3d52ed71f11b44eeafec7501a9aea1188ba73334322c201f45ba748",
+        "git_blob_sha": "06a80a49d5a4e40db6b047e713493bfc075ed492"
+      },
+      "cap_field": {
+        "role": "cap_field",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_cap_field.py",
+        "name": "bent_circular_cap_field.py",
+        "bytes": 1638,
+        "sha256": "7aa3bf315a6d3ca6d0228abbbb4d60609bd057c10f001f31c1ff1205c5467ff1",
+        "git_blob_sha": "395fea279288edf8ec04c809cb92f405b80210a1"
+      },
+      "circular_system": {
+        "role": "circular_system",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_system.py",
+        "name": "bent_circular_free_ring_system.py",
+        "bytes": 11234,
+        "sha256": "cb625e3e70923bd349434e358fbfca86dc715392147eacad23e38aa5ebd9f451",
+        "git_blob_sha": "fa5741637ad679c6c5bc08bd8b5e7c355515baa5"
+      },
+      "parameters": {
+        "role": "parameters",
+        "path": "topics/visible-flex-larger-amplitude/computations/bent-circular-free-ring-phase-design-v1.json",
+        "name": "bent-circular-free-ring-phase-design-v1.json",
+        "bytes": 7066,
+        "sha256": "b04d78c9ccad330549424be7a0486438989fde2f949cf257a5ab32f7dd02e753",
+        "git_blob_sha": "4736181c3adbb6f851eef939ae03accebde21ec1"
+      },
+      "geometry_source": {
+        "role": "geometry_source",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r781_round_three_lobe_spatial_rings.py",
+        "name": "r781_round_three_lobe_spatial_rings.py",
+        "bytes": 6106,
+        "sha256": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
+        "git_blob_sha": "9eb10ee6c200e95e1b9b6a2b438d84a40518ae8b"
+      },
+      "coherent_fields": {
+        "role": "coherent_fields",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coherent_shear_fields.py",
+        "name": "bent_coherent_shear_fields.py",
+        "bytes": 5187,
+        "sha256": "57382dffa48bcb487282e0f4bad96553bad23d70e4e623712722108abf9c5906",
+        "git_blob_sha": "1f4b78387b3a28e0672f1b1dbb669c6de5b61801"
+      },
+      "spatial_fields": {
+        "role": "spatial_fields",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_spatial_ring_fields.py",
+        "name": "bent_spatial_ring_fields.py",
+        "bytes": 3517,
+        "sha256": "57f00eb13e1729c313c80605c93258de1ab96f9b1fae89a73b0515b4f72a3030",
+        "git_blob_sha": "fe6c471b8cb7a79141ea356f7f5c0a160ee52699"
+      },
+      "r775": {
+        "role": "r775",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r775_nonplanar_compensated_section_two_jets.py",
+        "name": "r775_nonplanar_compensated_section_two_jets.py",
+        "bytes": 5704,
+        "sha256": "34e8e03a88b56f92c239d0d38220f30fc8dfe1bc9c31b0b1ec91eb78bd1a3dfd",
+        "git_blob_sha": "8b40ccf98bf1eb6c6299a0b2c9f004bdc3ba47e1"
+      },
+      "coherent_metric": {
+        "role": "coherent_metric",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r772_coherent_developing_tube.py",
+        "name": "r772_coherent_developing_tube.py",
+        "bytes": 4692,
+        "sha256": "2afabacdbcf7d60c708bdceece3b3e994c6097abe1a911aa456a404c823521d6",
+        "git_blob_sha": "275353a285f77f1bc39248464ee6a0871a01982f"
+      },
+      "export_source": {
+        "role": "export_source",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+        "name": "closed_body_mesh_r772_terminal.py",
+        "bytes": 9174,
+        "sha256": "367ffae0ab86f6c50b5428c80849db9b96d1fe99243962d4c8def06cdc01d4ad",
+        "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+      },
+      "bridge_system": {
+        "role": "bridge_system",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_system.py",
+        "name": "bent_preloaded_bridge_system.py",
+        "bytes": 5861,
+        "sha256": "507c6a8036b9a86b32b3477a0b7f7622382f134239f47d82a5758f598b1d23ba",
+        "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+      },
+      "r740": {
+        "role": "r740",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+        "name": "r740_rolled_disk_seed.py",
+        "bytes": 10834,
+        "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+        "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+      },
+      "r742": {
+        "role": "r742",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+        "name": "r742_tilted_disk_two_jets.py",
+        "bytes": 9706,
+        "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+        "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+      },
+      "r767_profile": {
+        "role": "r767_profile",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_negative_track_profile.py",
+        "name": "r767_negative_track_profile.py",
+        "bytes": 4051,
+        "sha256": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+        "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+      },
+      "r767_cap": {
+        "role": "r767_cap",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_preloaded_cap_atlas.py",
+        "name": "r767_preloaded_cap_atlas.py",
+        "bytes": 4615,
+        "sha256": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+        "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+      },
+      "terminal_mesh": {
+        "role": "terminal_mesh",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+        "name": "closed_body_mesh_terminal.py",
+        "bytes": 16874,
+        "sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+        "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+      },
+      "mesh_geometry": {
+        "role": "mesh_geometry",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py",
+        "name": "closed_body_mesh_geometry.py",
+        "bytes": 8315,
+        "sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+        "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+      }
+    },
+    "shared_launch_inputs": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      },
+      {
+        "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+        "name": "run36_bent_disk_actions.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+        "bytes": 18649,
+        "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+        "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+      },
+      {
+        "role": "Run48 complete independent observer with immediate checked-pull note and handoff publication",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_run48_readme_publications.py",
+        "name": "observe_run48_readme_publications.py",
+        "bytes": 18248,
+        "sha256": "747f42206a5d8540229869f5b3e5855fe24416eddaf688fa2c0096d2288a10c3",
+        "git_blob_sha": "856eebd00bb1905274bf02996fd71ca3a183f62e"
+      }
+    ],
+    "trigger": "All science reads and Python imports come from the actual triggering Git commit. Subsequent main pulls update rule observations, handoff and reports."
+  },
+  "scientific_budget": {
+    "schema": "r781-circular-free-ring-phase-design-v1",
+    "fixed_metric": "One fixed R781 initial circular three-lobe closed shell, metric dx^2+[(.45-Z0)/.45]^2 de^2 centrally, with its complete two rolls, two filled disk atlases and exact rim identifications. No R772/R776 metric is used. Initial diameter and required radius at every phase come from the R781 phase-zero formula.",
+    "defining_order": 20,
+    "geometry": {
+      "R781": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
+      "axial_floor_slack": 0.008,
+      "initial_diameter": "2(.09+hypot(Yc,bc)) from the fixed R781 initial meridian",
+      "band": "three full axial periods on [0,1], body radius .45, wave Q .60 to 1.50, clock width .073",
+      "target_and_evaluator": "Every basis uses defining order 20 for both its initial material embedding and endpoint direction fields; current base and target residual use the budget quadrature. Final field all charts, all times uses order 20.",
+      "grip": "Hard-heads keeps both actual full head poses. Inner grip preserves the centered terminal planar disk of radius .18 while freeing both physical rims; spatial-rings keeps this right disk and the complete translated left head. Additional true ambient-sector basis and right-cap bent field are nonanalytic in the angle where their support starts.",
+      "macro": "Positive axial floor is the R781 left terminal plane less .008 sin(t), so every fitted field keeps endpoint whole-image held >.312 vs D<1.362. The actual right flat pad has diameter .36."
+    },
+    "families": {
+      "hard_heads": [
+        [
+          "true-short",
+          {
+            "grip": "heads",
+            "profile": "short",
+            "m": 2,
+            "xi": 0,
+            "mix": 0,
+            "cap_angle": 0,
+            "seed": []
+          }
+        ],
+        [
+          "balanced-six-percent",
+          {
+            "grip": "heads",
+            "profile": "balanced",
+            "m": 2,
+            "xi": 0.06,
+            "mix": 0,
+            "cap_angle": 0,
+            "seed": []
+          }
+        ],
+        [
+          "twofold",
+          {
+            "grip": "heads",
+            "profile": "ring",
+            "m": 2,
+            "xi": 0.06,
+            "mix": 0.35,
+            "cap_angle": 0,
+            "seed": []
+          }
+        ]
+      ],
+      "inner_grip": [
+        [
+          "free-rims",
+          {
+            "grip": "pad",
+            "profile": "balanced",
+            "m": 2,
+            "xi": 0.06,
+            "mix": 0,
+            "cap_angle": 0.22,
+            "seed": [
+              [
+                [
+                  "sector",
+                  1,
+                  0,
+                  0
+                ],
+                2,
+                0.012
+              ]
+            ]
+          }
+        ],
+        [
+          "twofold-bent-disk",
+          {
+            "grip": "pad",
+            "profile": "ring",
+            "m": 2,
+            "xi": 0.06,
+            "mix": 0.55,
+            "cap_angle": 0.35,
+            "seed": []
+          }
+        ],
+        [
+          "threefold-bent-disk",
+          {
+            "grip": "pad",
+            "profile": "ring",
+            "m": 3,
+            "xi": 0.03,
+            "mix": 0.5,
+            "cap_angle": 0.32,
+            "seed": []
+          }
+        ]
+      ],
+      "spatial_rings": [
+        [
+          "half-twofold",
+          {
+            "grip": "left-and-pad",
+            "profile": "ring",
+            "m": 2,
+            "xi": 0.06,
+            "mix": 0.5,
+            "cap_angle": 0.26,
+            "seed": []
+          }
+        ],
+        [
+          "full-twofold",
+          {
+            "grip": "left-and-pad",
+            "profile": "ring",
+            "m": 2,
+            "xi": 0.06,
+            "mix": 1,
+            "cap_angle": 0.26,
+            "seed": []
+          }
+        ],
+        [
+          "full-threefold",
+          {
+            "grip": "left-and-pad",
+            "profile": "ring",
+            "m": 3,
+            "xi": 0.06,
+            "mix": 1,
+            "cap_angle": 0.38,
+            "seed": []
+          }
+        ]
+      ]
+    },
+    "solver": {
+      "area_floor": 0.7,
+      "area_weight": 3,
+      "curvature_bound": 24.35,
+      "curvature_weight": 0.024,
+      "jac_chunk": 32,
+      "damping": 0.0015,
+      "cg_tol": 0.0002,
+      "cg_max": 160,
+      "step_displacement": 0.03,
+      "step_tangent": 0.2,
+      "line_trials": 9,
+      "pair_weight": 0.5,
+      "worst_pairs": 144,
+      "distinct_material_distance": 0.018,
+      "chord_smoothing": 0.0004,
+      "radius": 0.041,
+      "neighbor_ranks": [
+        2,
+        4,
+        7,
+        10,
+        16,
+        24,
+        36,
+        50,
+        70,
+        96
+      ],
+      "principal_weight": 0.035,
+      "gram_peak_count": 96,
+      "gram_peak_weight": 0.65,
+      "diameter_quadrature": 20,
+      "metric_allowance": 0.000001,
+      "metric_reach_pair_count": 160,
+      "metric_reach_pair_weight": 1.4
+    },
+    "coarse": {
+      "level": 0,
+      "ns": 24,
+      "nv": 14,
+      "time_intervals": 2,
+      "order": 8,
+      "iterations": 5,
+      "check_ns": 33,
+      "check_nv": 19,
+      "check_order": 12,
+      "check_phases": 7
+    },
+    "refine": [
+      {
+        "level": 1,
+        "ns": 28,
+        "nv": 20,
+        "time_intervals": 4,
+        "order": 10,
+        "iterations": 7,
+        "check_ns": 37,
+        "check_nv": 25,
+        "check_order": 14,
+        "check_phases": 17
+      },
+      {
+        "level": 2,
+        "ns": 38,
+        "nv": 28,
+        "time_intervals": 8,
+        "order": 12,
+        "iterations": 8,
+        "check_ns": 49,
+        "check_nv": 35,
+        "check_order": 16,
+        "check_phases": 33
+      },
+      {
+        "level": 3,
+        "ns": 50,
+        "nv": 38,
+        "time_intervals": 16,
+        "order": 16,
+        "iterations": 9,
+        "check_ns": 65,
+        "check_nv": 47,
+        "check_order": 20,
+        "check_phases": 65
+      }
+    ],
+    "limits": [
+      "Nine complete coarse candidates and three independent four/eight/sixteen-interval joint spatial/phase refinements on one target. Each final same-runner point has the full 65-phase/7-mesh union exported separately; no partial-world mesh is substituted.",
+      "True reach/near-metric implies an all-material chord floor 2r sin(min(pi/2,sqrt(1-1e-6)*initial_chord/(2r))) with r=.03 times the fixed initial diameter. Each optimization evaluation checks every current pair closer than 2r and adds the largest 160 violations with their physical point derivatives. Points outside the query range satisfy this necessary inequality automatically. Signed normal chords, full Gram, true area and both spectral second-form inequalities enter independently.",
+      "Both center-grip families can move the entire right rim and contain non-angular-analytic physical coordinates; a genuine broad developable bend is applied to the right full cap before shape correction. Reach for all other chart pairs and all times, and the metric of the changing rolls, remain independent costs. The stronger analytic thick/volume/diameter conclusions of the unperturbed circular family do not transfer to fitted points.",
+      "Reports are actual finite-phase/point/mesh measurements; individual NPZs and the three times seven PLY files remain on their defining runner. A small time-zero residual, a pointwise occupied floor or exact per-ring speed alone is not the full target."
+    ]
+  },
+  "immutable_controls": {
+    "supervisor": {
+      "role": "Complete Run51 three-index public controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_circular_free_ring_search.py",
+      "name": "observe_bent_circular_free_ring_search.py",
+      "bytes": 1489,
+      "sha256": "f932a8a688f534578d57054f351abd0efeeaa22350e4646da84368c6984c0225",
+      "git_blob_sha": "646cfb3ff33cde1047844b5526b2ab41c97c961a"
+    },
+    "workflow": {
+      "role": "Complete public Run51 circular free-ring workflow",
+      "path": ".github/workflows/visible-larger-run51-circular-free-ring.yml",
+      "name": "visible-larger-run51-circular-free-ring.yml",
+      "bytes": 4505,
+      "sha256": "ba5e15f916b396b25716dc0b2d10306133f12251a5d35e3b212fd40f94c51fc8",
+      "git_blob_sha": "2c38dded0ab8b589b8762736ada5a933277e33e2"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    "shared_full_publish_supervisor": {
+      "role": "Run48 complete independent observer with immediate checked-pull note and handoff publication",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_run48_readme_publications.py",
+      "name": "observe_run48_readme_publications.py",
+      "bytes": 18248,
+      "sha256": "747f42206a5d8540229869f5b3e5855fe24416eddaf688fa2c0096d2288a10c3",
+      "git_blob_sha": "856eebd00bb1905274bf02996fd71ca3a183f62e"
+    }
+  },
+  "normal_scientific_entry": {
+    "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_circular_free_ring_phase.py",
+    "arguments": [
+      "--params",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-circular-free-ring-phase-design-v1.json",
+      "--geometry-source",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r781_round_three_lobe_spatial_rings.py",
+      "--export-source",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+      "--out",
+      "{runner_temp}/run51-circular-free-ring-{run}-{attempt}/field"
+    ],
+    "dependencies": [
+      "numpy==2.3.5",
+      "scipy==1.17.0"
+    ],
+    "environment": {
+      "PYTHONUNBUFFERED": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONHASHSEED": "0",
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "mathematics": {
+    "domain": "One fixed R781 initial circular three-lobe closed shell, metric dx^2+[(.45-Z0)/.45]^2 de^2 centrally, with its complete two rolls, two filled disk atlases and exact rim identifications. No R772/R776 metric is used. Initial diameter and required radius at every phase come from the R781 phase-zero formula.",
+    "reference": "R781 complete circular tube and caps; three axial periods, independent two- and three-wave spatial rings, and a developing right cap with an immobile inner disk of radius .18. Other chart pairs and fitted points retain their own geometry and metric costs.",
+    "frozen_inputs": [
+      {
+        "name": "bent_circular_free_ring_phase.py",
+        "git_blob_sha": "3424e4799d5c04a37ab919f2a33cf301ca750377"
+      },
+      {
+        "name": "bent_circular_free_ring_fields.py",
+        "git_blob_sha": "06a80a49d5a4e40db6b047e713493bfc075ed492"
+      },
+      {
+        "name": "bent_circular_cap_field.py",
+        "git_blob_sha": "395fea279288edf8ec04c809cb92f405b80210a1"
+      },
+      {
+        "name": "bent_circular_free_ring_system.py",
+        "git_blob_sha": "fa5741637ad679c6c5bc08bd8b5e7c355515baa5"
+      },
+      {
+        "name": "bent-circular-free-ring-phase-design-v1.json",
+        "git_blob_sha": "4736181c3adbb6f851eef939ae03accebde21ec1"
+      },
+      {
+        "name": "r781_round_three_lobe_spatial_rings.py",
+        "git_blob_sha": "9eb10ee6c200e95e1b9b6a2b438d84a40518ae8b"
+      },
+      {
+        "name": "bent_coherent_shear_fields.py",
+        "git_blob_sha": "1f4b78387b3a28e0672f1b1dbb669c6de5b61801"
+      },
+      {
+        "name": "bent_spatial_ring_fields.py",
+        "git_blob_sha": "fe6c471b8cb7a79141ea356f7f5c0a160ee52699"
+      },
+      {
+        "name": "r775_nonplanar_compensated_section_two_jets.py",
+        "git_blob_sha": "8b40ccf98bf1eb6c6299a0b2c9f004bdc3ba47e1"
+      },
+      {
+        "name": "r772_coherent_developing_tube.py",
+        "git_blob_sha": "275353a285f77f1bc39248464ee6a0871a01982f"
+      },
+      {
+        "name": "closed_body_mesh_r772_terminal.py",
+        "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+      },
+      {
+        "name": "bent_preloaded_bridge_system.py",
+        "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+      },
+      {
+        "name": "r740_rolled_disk_seed.py",
+        "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+      },
+      {
+        "name": "r742_tilted_disk_two_jets.py",
+        "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+      },
+      {
+        "name": "r767_negative_track_profile.py",
+        "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+      },
+      {
+        "name": "r767_preloaded_cap_atlas.py",
+        "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+      },
+      {
+        "name": "closed_body_mesh_terminal.py",
+        "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+      },
+      {
+        "name": "closed_body_mesh_geometry.py",
+        "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+      }
+    ]
+  },
+  "public_runner": {
+    "description": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+    "checked_readme_pull_seconds": 2700,
+    "output": {
+      "scientific_summary": "Publish every complete stage-NN-return.json, the original summary and the three closed-geometry-index.json reports from the root, inner-grip/ and spatial-rings/ directories.",
+      "raw_fields": "Raw coefficient states and 21 independently addressed PLY.GZ meshes on complete return stay on the scientific runner. The three public geometry indices identify their own fields, phases, mesh identities and errors.",
+      "public_attempt": "notes/run51-circular-free-ring-<run>-<attempt>.json and its compact original scientific documents. The observer pulls main and reads both READMEs before every ordinary report and on each 45-minute idle interval. Each successful publication records the actual fetched commit in the handoff and the complete pull observations since the preceding publication in its attempt note.",
+      "interpretation": "The fixed metric is the R781 initial pullback. Every reported phase and field is a finite measurement; an exact solution, uniform positive reach, global embedding and congruence separation require their own evidence."
+    }
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "source_commit": null,
+    "actual_model": null,
+    "initial_metric": null,
+    "hard_heads_point": null,
+    "inner_grip_point": null,
+    "spatial_rings_point": null,
+    "phase_metrics": null,
+    "seams": null,
+    "curvature": null,
+    "held": null,
+    "diameter": null,
+    "pair_chords": null,
+    "body_moments": null,
+    "complete_meshes": null,
+    "strict_certificate": null
+  }
+}

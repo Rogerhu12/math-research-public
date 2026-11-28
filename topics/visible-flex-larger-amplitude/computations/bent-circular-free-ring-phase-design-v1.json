@@ -1,0 +1,234 @@
+{
+  "schema": "r781-circular-free-ring-phase-design-v1",
+  "fixed_metric": "One fixed R781 initial circular three-lobe closed shell, metric dx^2+[(.45-Z0)/.45]^2 de^2 centrally, with its complete two rolls, two filled disk atlases and exact rim identifications. No R772/R776 metric is used. Initial diameter and required radius at every phase come from the R781 phase-zero formula.",
+  "defining_order": 20,
+  "geometry": {
+    "R781": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
+    "axial_floor_slack": 0.008,
+    "initial_diameter": "2(.09+hypot(Yc,bc)) from the fixed R781 initial meridian",
+    "band": "three full axial periods on [0,1], body radius .45, wave Q .60 to 1.50, clock width .073",
+    "target_and_evaluator": "Every basis uses defining order 20 for both its initial material embedding and endpoint direction fields; current base and target residual use the budget quadrature. Final field all charts, all times uses order 20.",
+    "grip": "Hard-heads keeps both actual full head poses. Inner grip preserves the centered terminal planar disk of radius .18 while freeing both physical rims; spatial-rings keeps this right disk and the complete translated left head. Additional true ambient-sector basis and right-cap bent field are nonanalytic in the angle where their support starts.",
+    "macro": "Positive axial floor is the R781 left terminal plane less .008 sin(t), so every fitted field keeps endpoint whole-image held >.312 vs D<1.362. The actual right flat pad has diameter .36."
+  },
+  "families": {
+    "hard_heads": [
+      [
+        "true-short",
+        {
+          "grip": "heads",
+          "profile": "short",
+          "m": 2,
+          "xi": 0,
+          "mix": 0,
+          "cap_angle": 0,
+          "seed": []
+        }
+      ],
+      [
+        "balanced-six-percent",
+        {
+          "grip": "heads",
+          "profile": "balanced",
+          "m": 2,
+          "xi": 0.06,
+          "mix": 0,
+          "cap_angle": 0,
+          "seed": []
+        }
+      ],
+      [
+        "twofold",
+        {
+          "grip": "heads",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.06,
+          "mix": 0.35,
+          "cap_angle": 0,
+          "seed": []
+        }
+      ]
+    ],
+    "inner_grip": [
+      [
+        "free-rims",
+        {
+          "grip": "pad",
+          "profile": "balanced",
+          "m": 2,
+          "xi": 0.06,
+          "mix": 0,
+          "cap_angle": 0.22,
+          "seed": [
+            [
+              [
+                "sector",
+                1,
+                0,
+                0
+              ],
+              2,
+              0.012
+            ]
+          ]
+        }
+      ],
+      [
+        "twofold-bent-disk",
+        {
+          "grip": "pad",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.06,
+          "mix": 0.55,
+          "cap_angle": 0.35,
+          "seed": []
+        }
+      ],
+      [
+        "threefold-bent-disk",
+        {
+          "grip": "pad",
+          "profile": "ring",
+          "m": 3,
+          "xi": 0.03,
+          "mix": 0.5,
+          "cap_angle": 0.32,
+          "seed": []
+        }
+      ]
+    ],
+    "spatial_rings": [
+      [
+        "half-twofold",
+        {
+          "grip": "left-and-pad",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.06,
+          "mix": 0.5,
+          "cap_angle": 0.26,
+          "seed": []
+        }
+      ],
+      [
+        "full-twofold",
+        {
+          "grip": "left-and-pad",
+          "profile": "ring",
+          "m": 2,
+          "xi": 0.06,
+          "mix": 1,
+          "cap_angle": 0.26,
+          "seed": []
+        }
+      ],
+      [
+        "full-threefold",
+        {
+          "grip": "left-and-pad",
+          "profile": "ring",
+          "m": 3,
+          "xi": 0.06,
+          "mix": 1,
+          "cap_angle": 0.38,
+          "seed": []
+        }
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.7,
+    "area_weight": 3,
+    "curvature_bound": 24.35,
+    "curvature_weight": 0.024,
+    "jac_chunk": 32,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.03,
+    "step_tangent": 0.2,
+    "line_trials": 9,
+    "pair_weight": 0.5,
+    "worst_pairs": 144,
+    "distinct_material_distance": 0.018,
+    "chord_smoothing": 0.0004,
+    "radius": 0.041,
+    "neighbor_ranks": [
+      2,
+      4,
+      7,
+      10,
+      16,
+      24,
+      36,
+      50,
+      70,
+      96
+    ],
+    "principal_weight": 0.035,
+    "gram_peak_count": 96,
+    "gram_peak_weight": 0.65,
+    "diameter_quadrature": 20,
+    "metric_allowance": 0.000001,
+    "metric_reach_pair_count": 160,
+    "metric_reach_pair_weight": 1.4
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 24,
+    "nv": 14,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 5,
+    "check_ns": 33,
+    "check_nv": 19,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 20,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 25,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 28,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 35,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 38,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 47,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "Nine complete coarse candidates and three independent four/eight/sixteen-interval joint spatial/phase refinements on one target. Each final same-runner point has the full 65-phase/7-mesh union exported separately; no partial-world mesh is substituted.",
+    "True reach/near-metric implies an all-material chord floor 2r sin(min(pi/2,sqrt(1-1e-6)*initial_chord/(2r))) with r=.03 times the fixed initial diameter. Each optimization evaluation checks every current pair closer than 2r and adds the largest 160 violations with their physical point derivatives. Points outside the query range satisfy this necessary inequality automatically. Signed normal chords, full Gram, true area and both spectral second-form inequalities enter independently.",
+    "Both center-grip families can move the entire right rim and contain non-angular-analytic physical coordinates; a genuine broad developable bend is applied to the right full cap before shape correction. Reach for all other chart pairs and all times, and the metric of the changing rolls, remain independent costs. The stronger analytic thick/volume/diameter conclusions of the unperturbed circular family do not transfer to fitted points.",
+    "Reports are actual finite-phase/point/mesh measurements; individual NPZs and the three times seven PLY files remain on their defining runner. A small time-zero residual, a pointwise occupied floor or exact per-ring speed alone is not the full target."
+  ]
+}

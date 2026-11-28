@@ -141,3 +141,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 19–32全部终态、36–39完整阶段、39未访flow/39b异点及R724–750条件保原proof/notes/固定旧链。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit和7步不减，35原pure74162未返；RET100H–M旧完整恢复链保留。[N](notes/2026-11-28-RET100N-complete-closed-parameter-recovery.md)111整参/61父；[O](notes/2026-11-28-RET100O-complete-closed-source-recovery.md)118整源/40父ROOT逐字三身份同，19run/38job终态、698保护全文核完，净释4474077B。
 
 [R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。
+
+[51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)：同R781初g三族18冻结源/18原阶段/三终各69相七网；右内握直径.36、真实帽开发释放rim、所有近2r材料对厚弦+谱曲率+全Gram共同求，原预算启动，未来数值未返。
