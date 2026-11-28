@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-torsion-grid-models.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-one-p-lattice.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -170,11 +170,11 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 [R1182–86](results.md)原半秩C/F₀/β的FP首项v_q(a_m)<B及全尾≥−v_q(r)，含坏q=p。原t=b−1=p³w、rU_r∈Λ；m≤M_X=2(g−n)+1，事前B_*、N_*=B_*+floor(log_p M_X)及log截2N_*决定本原hλ/e_m。深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原H_br、实际M/K/E_L及implicit D^(2r−1)/(64A²)^r系数界见原文与逐字前态，所有模型/商/Néron尺度保留。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。
 
-[R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
-
-[R1188](results/R1188-original-torsion-grid-models-and-balanced-Lie-form.md)同一原J内的有限挠点网格检测次数Δ方程，Plücker本原整坐标给实际B/商图/短端态图的有限系数界；完整H0嵌入与有限后处理付原全实F_B和平衡Ω_B。保β_B=q*†β*、同MW线，实际复合给dΛ_sat⊂diΛ_B⊂Λ_sat且d≤(9R²)^(2n)，包括坏p。仅余原J坐标/局部格成本及候选深度比较，不把稳定hF当Q-twist高度。
+[R1187–88](results.md)同一C的小实际q*=f(3−N)、K*=9R²+1及C↔B⊂J积次数≤(9R²)^(2n)已付，保原β/MW线。原J挠点网格与Plücker整坐标给实际B/商/端态图有限方程界；完整H0后处理付F_B与平衡Ω_B，不混Q-twist。原J模型/环境格和指定jet仍保，新p³ jets按实际商重算。
 
 [R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
+
+[R1190](results/R1190-original-one-p-Neron-Lie-lattice-bound.md)原e0 tame半稳定扩域上，finite-flat formal核/真实ω商与VZ s=1给p余切包含；全n闭性、Smith及tame固定点下降得pΛ_sat⊂diΛ_B⊂Λ_sat，任意实际B⊂J均适用。环境形式深a+1的B点进入B深a；同β/Ω/首项有e_sat−1≤e_B≤e_sat。仅格损失至多1，未付指定jet或候选覆盖。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 
