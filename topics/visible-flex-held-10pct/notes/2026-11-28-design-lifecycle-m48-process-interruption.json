@@ -1,0 +1,240 @@
+{
+  "scope": "Actual original .128/M48 literal ordinal4 execution ended by child signal 9 after full CSR and QR factor return, before any observed solve return. This is an execution interruption, not a mathematical failure or an accepted field.",
+  "observed_utc": "2026-11-28T11:09:59.947020+00:00",
+  "actual_session": 63285,
+  "actual_controller_exitcode": 3,
+  "actual_child_returncode": -9,
+  "actual_controller_status": "design_process_or_resource_interrupted",
+  "process_interruption": {
+    "returncode": -9,
+    "error": null,
+    "target_lambda": 0.128,
+    "modes": 48,
+    "lambda_bisection_performed": false,
+    "mathematical_failure_inferred": false,
+    "complete_nodal_checkpoint": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000/latest-unaccepted-nodal-checkpoint.json"
+  },
+  "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000/run.json",
+  "run_sha256": "04aa17ddd1379d5bbf3f8c962b0c76af24f75dbd9c8d04f6afb6dae3d518e954",
+  "summary": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/summary.json",
+  "summary_sha256": "536d143cc9884d8eadb39e878424f18cabbc33012d4599fcfabf748a1c47d8bc",
+  "raw_return_available": false,
+  "physical_export_available": false,
+  "actual_newton_mesh_RMS_returned": false,
+  "actual_full_CSR_assemblies": [
+    {
+      "event": "complete_CSR_assembly_return",
+      "elapsed": 766.1074874970018,
+      "n": 145,
+      "m": 952,
+      "k": 48,
+      "stored_entries": 46673744,
+      "radial_temporary_block": 16,
+      "sparse_format": "csr",
+      "complete_rows_have_uniform_stored_width": 338,
+      "index_dtype": "<i4",
+      "final_storage_bytes": 560637284,
+      "old_COO_index_arrays_created": false,
+      "all_original_stored_zeros_retained": true,
+      "input_COO_indices_were_none": true,
+      "original_block_formula_operation_order_preserved": true,
+      "original_parameter_middle_update_preserved": true,
+      "final_storage_shared_with_result": true,
+      "seconds": 5.530016916000022,
+      "maximum_rss_kib": 1186868
+    }
+  ],
+  "actual_QR_records": [
+    {
+      "event": "replacement_requested",
+      "seconds": 0.00025055999867618084,
+      "maximum_rss_kib": 60888,
+      "source_hashes": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_budget_driver_v2.py": "bb654d72f04cc119633eaed94c8de93ba5935d39ea50a7f03c22c9346e589a47",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea"
+      },
+      "command": [
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py",
+        "--memory-baseline-mib",
+        "180.7109375",
+        "--memory-misc-mib",
+        "64.0",
+        "--memory-external-margin-mib",
+        "512.0",
+        "--literal-nodal-restart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0004.npz",
+        "--base-driver",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_budget_driver_v2.py",
+        "--rhs-block",
+        "8",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+        "--short-bridge",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--profile",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_profile_linear_root.json",
+        "--chart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json",
+        "--audit-angular",
+        "512",
+        "--nodes",
+        "401",
+        "--max-nodes",
+        "6000",
+        "--tol",
+        "1e-6",
+        "--bc-tol",
+        "1e-7",
+        "--physical-bc-tol",
+        "2e-9",
+        "--port",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda128-m48-preparation-20261128/port-M48.json",
+        "--amplitude",
+        ".06",
+        "--warp-reference",
+        ".06",
+        "--modes",
+        "48",
+        "--angular",
+        "1536",
+        "--core-module",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+        "--core-config",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000-core.json",
+        "--raw-restart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0004.npz",
+        "--outdir",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000"
+      ],
+      "equations_changed": false,
+      "numerical_linear_arithmetic_changed": true,
+      "original_nonlinear_gates_changed": false,
+      "factor_wrapper_has_no_back_reference": true
+    },
+    {
+      "event": "factor_start",
+      "seconds": 766.1214044410008,
+      "maximum_rss_kib": 1186868,
+      "factor": 1,
+      "n": 145,
+      "m": 952,
+      "k": 48,
+      "matrix_nonzeros": 46673744
+    },
+    {
+      "event": "factor_return",
+      "seconds": 774.8351316150001,
+      "maximum_rss_kib": 1641524,
+      "factor": 1,
+      "stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.2735574286083482e-06,
+        "solve_calls": 0,
+        "maximum_componentwise_backward_error": 0.0,
+        "maximum_normwise_backward_error": 0.0,
+        "refinement_steps": 0,
+        "stored_factor_bytes": 693709000
+      }
+    }
+  ],
+  "largest_observed_process_RSS_KiB": 1641524,
+  "largest_observation_is_not_known_final_process_peak": true,
+  "latest_complete_nodal_checkpoint": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0001.npz",
+    "sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+    "nodes": 952,
+    "state_components": 145,
+    "parameters": 48,
+    "ordinal": 1,
+    "accepted_bvp": false,
+    "before_full_J_assembly": true
+  },
+  "same_full_nodal_archive_as_prior_true_ordinal4": true,
+  "prior_full_nodal_checkpoint": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000/unaccepted-nodal-before-jac-0004.npz",
+  "prior_full_nodal_sha256": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+  "prior_factor4_vs_current_factor1_scalar_stats_equal": true,
+  "factor_scalar_equality_is_not_full_matrix_bit_identity_claim": true,
+  "original_domain_events": [
+    {
+      "event": "initial_domain_pass",
+      "elapsed": 107.17921803399986,
+      "nodes": 952,
+      "max_rhs": 5.580963186960309
+    }
+  ],
+  "radial_exception_release_events": [],
+  "no_observed_new_line_search_or_domain_failure": true,
+  "actual_resource_gate_rows": [
+    {
+      "ordinal": 1,
+      "waited_seconds": 0,
+      "allowed": false,
+      "estimated_additional_required_bytes": 2932067884,
+      "current_baseline_credit_bytes": 177893376,
+      "current_memory": {
+        "available_bytes": 2750251008,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 177893376
+      }
+    },
+    {
+      "ordinal": 1,
+      "waited_seconds": 15,
+      "allowed": false,
+      "estimated_additional_required_bytes": 2932067884,
+      "current_baseline_credit_bytes": 177893376,
+      "current_memory": {
+        "available_bytes": 2850623488,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 177893376
+      }
+    },
+    {
+      "ordinal": 1,
+      "waited_seconds": 30,
+      "allowed": true,
+      "estimated_additional_required_bytes": 2932067884,
+      "current_baseline_credit_bytes": 177893376,
+      "current_memory": {
+        "available_bytes": 3279310848,
+        "total_bytes": 10451427328,
+        "current_process_rss_bytes": 177897472
+      }
+    }
+  ],
+  "resource_context": {
+    "global_oom_kill_counter_observed_before_this_attempt": 10,
+    "global_oom_kill_counter_now": 12,
+    "current_available_bytes": 2931933184,
+    "previous_available_bytes_at_first_gate_release": 3279310848,
+    "new_global_OOM_event_in_observation_interval": true,
+    "OOM_victim_PID_not_observed": true,
+    "actual_child_signal_attributed_to_OOM": false,
+    "memavailable_does_not_isolate_future_shared_host_pressure": true
+  },
+  "final_trace_hashes": {
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000-block-qr.jsonl": "017d86dfb082a79758aa7f16e88d12dadd4b313a6476b82c33ad17c5d9a3ee1f",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000-direct-csr.jsonl": "b56f78d649451f3dbb07251d3f13dd7d9538c98bb47f6c9ce77de8abeaf4be6f",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000-nodal-memory-budget.jsonl": "f3d66fca2cf1d49c98db2d64d96e090b4354b1962d8fd07e31ef00d59290862c",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000-flow-lifecycle.jsonl": "f67493e6e04a5cb3acaa5f0f2376ccc9fe0ae57be0a50cf90bfcac1869723bbb",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000/events.jsonl": "14849878d7572ab1df0689e56fc131d77ad2def47f73f1b9f57e1dfc79e390b6",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-000/nodal-checkpoints.jsonl": "a763763b4eb25cc530b8a78a588f56fe540ff5ad0def3f0419a606a97c97a6a1"
+  },
+  "next_attempt_engineering_barriers": [
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-001-secant/execution-handoff-barrier.json",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-lifecycle-m48-20261128/attempt-001-transfer/execution-handoff-barrier.json"
+  ],
+  "all_subsequent_BVP_attempts_absent": true,
+  "complete_prefix_J_window_released": true,
+  "lambda_bisected_because_of_signal": false,
+  "accepted_design_frontier_changed": false,
+  "original_gate_relaxed": false,
+  "complete_surface": false
+}
