@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：整个h=k对称u=1原纤维排除](results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md)：自由κ=bc t/ell真Gram给N4(V)/2=2(λ²+λ−1)(κ−h)+λh²，原λ与h单位先排整斜率零。仅两固定Q投影5/4阶得λ65/49次QQ Bézout1；6516真.516967781秒/40900KiB/0。只付对称u−1，不恢复旧Δ覆盖。
+
 - [R150 unit211：整个W的α/chi原多项式图与首一二次环境](results/R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md)：t=−αχ/(mRw)−2δell/m，全部原恢复只纯权分母、α一次/χ至多二次；t局部化双向，α0保。新11完整整数身份6ms；native六规则给三头Bézout1及首一α²完整纸证，不称物理商自由或W空。
 
 - [R150 unit211：正确Phi的fu单y原恢复与Ψ(6,3)曲线](results/R150-appendix-unit211-Phi-zero-true-fu-single-y-common-weight-curve.md)：自由t完整R身份和原Gram五行，三个实际3/4/4阶cofactor分别Ψ/4、9Ψ/64、Ψ/64。Ψ对Q首一3，只给每u至多3Q，全部权曲线/整y纤维保；b8cfe真.207064155秒/40804KiB/0。

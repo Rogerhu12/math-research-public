@@ -1,19 +1,18 @@
 {
-  "message": "ISP: prove global W alpha chi polynomial coordinates and stage original ten by two",
-  "parentCommit": "c81a76206aa5627989fd1763cc7ff3639e457fe4",
+  "message": "ISP: exclude whole symmetric h k u=1 original fiber and stage B terminal multipliers",
+  "parentCommit": "e4fed97202d6ebb424e0800bac920dfaa5539299",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-alpha-chi-polynomial-coordinate-identities-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-alpha-chi-polynomial-coordinate-identities-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-full-original-ten-by-two-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-full-original-ten-by-two-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-original-sources-review-8542.json",
-    ".github/workflows/invariant-subspace-8542-w-alpha-chi-original-ten-by-two.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-alpha-chi-coordinates-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-terminal-original-multiplier-cancellation-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-terminal-original-multiplier-cancellation-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-Bzero-terminal-original-multiplier-source-review-8542.json",
+    ".github/workflows/invariant-subspace-8542-phi-bzero-terminal-original-multipliers.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-hk-uone-complete-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-alpha-chi-original-ten-by-two.yml"
+    "invariant-subspace-8542-phi-bzero-terminal-original-multipliers.yml"
   ]
 }

@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/[四原NP核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保，旧848/578/整Δ0撤回。真整t0排空付t/z；旧S0三源静核付S。dc888真180.050586秒/−14只三行，两个固定目标无完整返、整门冻。新6516整个对称u=1图首次120秒1GiB，κ=bc t/ell、整NV斜率零先保，四原Q目标；不借旧p1的u_old1，Δ0全保，未预记结果。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四原NP核保，旧848/578/整Δ0撤回。真t0付t/z、S0三源核付S；[新整对称u1](results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md)6516真.516968秒/0，NV斜率零完整排除，5/4阶Q投影给65/49次QQ单位，付准确对称归一u−1。不借p1旧u1/D非零图；dc888180秒两个目标无完整返整门冻，整个Δ0仍保。
 
 ### W：全原均值、H198两生成图与完整值条件
 

@@ -1,0 +1,302 @@
+{
+  "schema": "isp-hk-entire-symmetric-u-one-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "execution": {
+    "job_id": "140894161774",
+    "elapsed_seconds": 0.5169677810000053,
+    "max_child_rss_kib": 40900,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c49e2f5083f64ddb52d04182a8be18d3345e4344",
+        "before": "4953dec80c1bd8f076f5d6bcbb45d997d67a0bb8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T06:36:46.745327+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46117391312",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4953dec80c1bd8f076f5d6bcbb45d997d67a0bb8",
+    "source_exit_code": 0,
+    "source_git_blob": "6516fb9c623da6becca59ad2f049ae35ba30ebc8",
+    "source_sha256": "59261a3fdb616fbb5f585017b0b2a195d453426d59e593d1acfd2db27d2ae43f",
+    "stdout_bytes": 5161,
+    "stdout_sha256": "8d92be9d9b102034ec0b9c3ffef77f15b503e4574eee15899e058522f32b81b1",
+    "stop_reason": null
+  },
+  "mathematical_checkpoints": [
+    {
+      "entireSlopeZeroExcludedByOriginalLambdaHalfAndNonzeroMean": true,
+      "exactOriginalNvIdentity": "N4(V)/2=2*(lambda^2+lambda-1)*(kappa-h)+lambda*h^2",
+      "fullFreeKappaGramE0N0P0P1AndMomentsReturned": true,
+      "noDeltaOrNVGenericSlopeZeroFiberDropped": true,
+      "noOldP1UoneExclusionImported": true,
+      "originalEightRowsReturned": true,
+      "originalFreeKappa": "bc*t/ell",
+      "originalNormalization": "p+q=2, u=bp+cq=1",
+      "seconds": 0.38052102300002844,
+      "stage": "new_hk_symmetric_u_one_complete_original_Nv_slope"
+    },
+    {
+      "QDegree": 2,
+      "fullOriginalRowScalingReturned": true,
+      "name": "E1",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          36,
+          0,
+          2
+        ],
+        "sha256": "bff05dadf8b09d4ce75b96cda20500f911f0133cc1d6204703153f8ae92714ec",
+        "terms": 102
+      },
+      "seconds": 0.3830738359999941,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 3,
+      "fullOriginalRowScalingReturned": true,
+      "name": "EBe",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          38,
+          0,
+          3
+        ],
+        "sha256": "f1051b33b30e13186a2b01756b0a4ed60f9b8d78c82753e33591d7f0720e033d",
+        "terms": 146
+      },
+      "seconds": 0.3858861830000251,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 2,
+      "fullOriginalRowScalingReturned": true,
+      "name": "EBo",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          32,
+          0,
+          2
+        ],
+        "sha256": "06483fdcbe622f25f9de7f27ba0e16fa62abfb2bb2a70cfa7eaaffcac3e38d04",
+        "terms": 94
+      },
+      "seconds": 0.3880560110000033,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 2,
+      "fullOriginalRowScalingReturned": true,
+      "name": "N1",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          30,
+          0,
+          2
+        ],
+        "sha256": "9c13189c6638087feb1d67687f7e1fb70b2acf4875035c7c84e1f05aac474404",
+        "terms": 81
+      },
+      "seconds": 0.3899993059999929,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 3,
+      "fullOriginalRowScalingReturned": true,
+      "name": "NBe",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          49,
+          0,
+          3
+        ],
+        "sha256": "eec4d82b8a0bb7df54cc5d0f2d3b65a7a1c4b028948a3d638ac8c25c00e4acbb",
+        "terms": 197
+      },
+      "seconds": 0.39379127000000835,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 2,
+      "fullOriginalRowScalingReturned": true,
+      "name": "NBo",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          45,
+          0,
+          2
+        ],
+        "sha256": "5c7d5261bc6cf0575564b0e977bdd3b8576ed8d7ec4894fb5191a7778554999f",
+        "terms": 134
+      },
+      "seconds": 0.39664230900001485,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 4,
+      "fullOriginalRowScalingReturned": true,
+      "name": "PBe",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          61,
+          0,
+          4
+        ],
+        "sha256": "0305528917d958ccb87c459fc644f5ae07f655941507bd35d7e827be07dcdf91",
+        "terms": 306
+      },
+      "seconds": 0.4023207129999946,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "QDegree": 4,
+      "fullOriginalRowScalingReturned": true,
+      "name": "PBo",
+      "onlyActualPaidNumeratorGCDRounds": 1,
+      "profile": {
+        "degrees_lambda_unused_Q": [
+          57,
+          0,
+          4
+        ],
+        "sha256": "04a496677aa9a151fe3a4ef585a2f2b990dd68b6c0882f5845008f318abac863",
+        "terms": 281
+      },
+      "seconds": 0.4075218859999836,
+      "stage": "new_hk_symmetric_u_one_true_original_row"
+    },
+    {
+      "entireUoneExcluded": false,
+      "everyOriginalQLeadingZeroFiberKept": true,
+      "exactAccumulatedQQBezout": {
+        "degrees_lambda_unused_Q": [
+          65,
+          0,
+          0
+        ],
+        "sha256": "cfb11db8ddd51193293d7c228468ee3e0989fcd5517160be7ff9a1fa22d735ce",
+        "terms": 66
+      },
+      "fixedSize": 5,
+      "originalDeterminant": {
+        "degrees_lambda_unused_Q": [
+          180,
+          0,
+          0
+        ],
+        "sha256": "76b720848a2d59e0d983bc2d14bcd9c3ee57620667f057024aa83423dd22a41a",
+        "terms": 173
+      },
+      "paidOnlyLambdaGCDRounds": 28,
+      "retainedLambdaPolynomial": {
+        "degrees_lambda_unused_Q": [
+          65,
+          0,
+          0
+        ],
+        "sha256": "28113ec92a6cbd9eea6564da06e64b7e43744623b64a105aa24e7777efdc131b",
+        "terms": 66
+      },
+      "rows": [
+        "E1",
+        "EBe"
+      ],
+      "seconds": 0.42830791500000487,
+      "stage": "new_hk_symmetric_u_one_fixed_original_Q_projection"
+    },
+    {
+      "entireUoneExcluded": true,
+      "everyOriginalQLeadingZeroFiberKept": true,
+      "exactAccumulatedQQBezout": {
+        "degrees_lambda_unused_Q": [
+          0,
+          0,
+          0
+        ],
+        "sha256": "6d6e9acb07675d304e0af78dbf898882a60a543d09cdfdff01f22c333f45ccfd",
+        "terms": 1
+      },
+      "fixedSize": 4,
+      "originalDeterminant": {
+        "degrees_lambda_unused_Q": [
+          135,
+          0,
+          0
+        ],
+        "sha256": "5538de485b19cb7a77da16b8f5ac0ec273e657e0c3dc0df6a04566d23dfdf401",
+        "terms": 133
+      },
+      "paidOnlyLambdaGCDRounds": 21,
+      "retainedLambdaPolynomial": {
+        "degrees_lambda_unused_Q": [
+          49,
+          0,
+          0
+        ],
+        "sha256": "d23074baf65ae4fe55693f66050d4a4f706a4c078f44f52f848d5fe3579c1076",
+        "terms": 50
+      },
+      "rows": [
+        "E1",
+        "EBo"
+      ],
+      "seconds": 0.44300239900002225,
+      "stage": "new_hk_symmetric_u_one_fixed_original_Q_projection"
+    },
+    {
+      "allRetainedLambdaAndFreeQFibersKept": true,
+      "entireHkExcluded": false,
+      "entireSymmetricUoneExcluded": true,
+      "exactPolynomialDivisions": 133,
+      "finalNecessaryLambdaCover": {
+        "degrees_lambda_unused_Q": [
+          0,
+          0,
+          0
+        ],
+        "sha256": "6d6e9acb07675d304e0af78dbf898882a60a543d09cdfdff01f22c333f45ccfd",
+        "terms": 1
+      },
+      "numberOfNonzeroFixedProjections": 2,
+      "ordinaryISPClaim": false,
+      "seconds": 0.4432074220000004,
+      "sourceSHA256": "59261a3fdb616fbb5f585017b0b2a195d453426d59e593d1acfd2db27d2ae43f",
+      "stage": "new_hk_symmetric_u_one_original_return_complete"
+    }
+  ],
+  "scope": {
+    "normalization": "p+q=2; u=bp+cq=1",
+    "entire_symmetric_u_one_excluded": true,
+    "new_unit": "u-1 only in this exact symmetric h=k normalization",
+    "entire_NV_slope_zero_paid": true,
+    "no_old_p_one_u_one_exclusion_imported": true,
+    "no_D_nonzero_exclusion_imported": true,
+    "all_Delta_zero_and_Q_head_zero_fibers_retained": true,
+    "whole_hk_excluded": false,
+    "old_848_578_cover_restored": false,
+    "ordinary_ISP_claim": false
+  },
+  "source_review": {
+    "source_blob": "6516fb9c623da6becca59ad2f049ae35ba30ebc8",
+    "source_sha256": "59261a3fdb616fbb5f585017b0b2a195d453426d59e593d1acfd2db27d2ae43f",
+    "input_blob": "4979f8c0117f66cc9df1f3c9ee18803fcaac3941",
+    "root_review": true,
+    "independent_r150_full_source_review": true,
+    "scope": "Entire symmetric p+q=2, u=1 fiber; not old p=1 u_old=1. True free-kappa Gram and full NV identity pay all E(lambda)=0, then four new fixed Q targets, all leading zeros retained. No D nonzero exclusion imported.",
+    "status": "not yet executed"
+  }
+}
