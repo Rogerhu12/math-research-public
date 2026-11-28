@@ -198,3 +198,60 @@ $6f H^{\rm ac}$ 可逆，故最后条件由(AP1)正是(AQ1)。
 (AQ1)要求的是有限 Kummer 类，须证明它没有落入 $p^k$ 次幂。
 即使非零域对数也可能达到该整除。(AQ1)尚未对无穷多个
 不同 $p$ 排除所有 $Y_k$ 同时为零。
+
+## 76. 首整精度退到实际循环同源邻曲线上的一阶挠点
+
+沿 §74 之素数范围与同一 Tate 基。置 $q=p^2$、$b=q-1$、
+$k=\mathcal O/p$。在 $\Phi_2/\Phi_1$ 的 Galois 群
+$(1+p\mathcal O)/(1+p^2\mathcal O)$ 中取 $g_+=1+p$，
+$g_-=1+ph$，其中 $\bar h=-h\bmod p$ 且 $s(g_-)=1\bmod p$。
+这是可作的，因为反圆生成元在 $1+p$ 阶为本原。
+$X=g_+-1,\ Z=g_--1,\ N_+=\sum_{i=0}^{p-1}g_+^i$。
+置 $F=\Phi_2^{\langle g_+\rangle}$，$y=N_{\Phi_2/F}r_2$，
+按(AN1)保留 $e_\tau$、所有实际驯扭标记及 $c=103$。
+则首整精度的准确零测试为
+$$
+ [T^2]\mathcal A_p=0\bmod p\quad\Longleftrightarrow\quad
+ Z^{p-3}y=0\quad\text{在 }e_\tau(F^\times/F^{\times p})\otimes k .
+ \tag{AR1}
+$$
+此处与下文的 $e_\tau$ 应施在带外部 $k$ 的张量上。
+实际上在模 $p$ 的野群环内，
+$$
+ N_+=X^{p-1},\qquad
+ \sum_{i=0}^{p-1}\binom{-i}2g_-^i=g_-Z^{p-3}.
+$$
+第二式由 $\sum x^i=(x-1)^{p-1}$ 施 $x^2\partial_x^2/2+
+x\partial_x$ 即得。模 $p$ 的 Tate 标量仅余 $\tau^{-1}$，
+故(AQ3)对 $r_2$ 的二次项正是 $|\Delta|g_-Z^{p-3}N_+r_2$。
+(AP1)与同一整直接因子给出它的零测试；或用(AN4)两可逆算子
+将 $d_2$ 换为 $r_2$。从 $F$ 限制到 $\Phi_2$ 时该
+$e_\tau$ Kummer 群无核：膨胀限制的可能核是
+$H^1(\langle g_+\rangle,\mu_p)$，其 $\Delta$ 型为
+$\tau^{p+1}$，因为群是阿贝尔且 $\mu_p$ 的型为范数。
+此外 $|\Delta|$ 可逆，$g_-$ 为单位，证(AR1)。
+
+以下给 $y$ 的几何输入。先用(AN1)的 $+p$ 标记，以
+$C=\langle Q_1\rangle_{\mathbf F_p}\subset E_1[p]$、
+$q_C:E_1\longrightarrow E_C=E_1/C$ 表示对应的循环 $p$ 同源。
+在当前第 $2$ 层两套 $\pm p$ 标记一致。令
+$W=q_C Q_2,\ V=q_C([h]Q_1)$，则 $W,V$ 是 $E_C[p]$ 的
+$\mathbf F_p$ 基：$pQ_2=Q_1$，且若 $iW+jV=0$，先乘 $p$
+在源曲线得到 $iQ_1=0$，再由 $h\bmod p\notin\mathbf F_p$
+得 $j=0$。$g_-$ 固定 $C,E_C,V$ 并送 $W$ 到 $W+V$。
+有完整带标记公式
+$$
+ y=e_\tau\sum_t\varepsilon(t)\,
+       \Theta_{E_C,(c)}\big(q_CT_{t,2}+W\big)                     \tag{AR2}
+$$
+（加法 Kummer 记号）。确实 $g_+^iQ_2=Q_2+[i]Q_1$；
+$P\mapsto\prod_{S\in C}\Theta_{E_1,(c)}(P+S)$ 的除子等于
+$q_C^*\operatorname{div}(\Theta_{E_C,(c)})$。这是因为
+$q_C$ 在 $E_1[c]$ 上同构到 $E_C[c]$，而 $c$ 与 $p$ 互素。
+可以直接用(AN2)对 $E_C$ 任一 Weierstrass 模型定义此
+$\Theta$；比较差一个与 $P$ 无关的常数，对 $\sum_t\varepsilon(t)$
+为零。因平移中的 $T_{t,2}$ 均在固定未分歧扩域中，
+(AO1)的整下降适用。式中 $e_\tau$ 的每个 $\Delta$ 共轭连
+$C,q_C,W,V$ 一起移动，保全 $p+1$ 个方向及其相位。
+因此 $Z^{p-3}$ 作用在(AR2)的各条 $W+\mathbf F_pV$ 上。
+每项已为该循环邻曲线的真正 $p$ 挠点加上原驯点。

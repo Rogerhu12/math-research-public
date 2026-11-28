@@ -364,3 +364,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §75：原中央二阶的逐整精度有限Kummer幂充要测试
 
 j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零，当且仅当pᵏ整除原[T²]A_p。原0/1项、完整Tate和真实Δ不变下降全付；非平凡Δ型使H0/H2消失、非平坦Shapiro系数仍精确且res单射。仍须对无穷p真正检出非幂。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §76：真实循环同源邻点上的首Kummer幂测试
+
+原完整AQ3在模p的二次群环矩准确为g₋(g₋−1)^(p−3)Norm₊；Δ杀F→Φ₂限制的全部可能核。Norm₊的输入是实际E1/C上的原驯点加真实p挠点W+FpV，所有Δ共轭保全p+1方向，未换曲线当主目标。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

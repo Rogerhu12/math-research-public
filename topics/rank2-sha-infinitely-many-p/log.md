@@ -505,3 +505,13 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根手核j=k+1使两完整Tate及反圆三阶系数平凡、binom提升独立；BKO(2.10)/Shapiro后用Δ残余τ^p及Tate对偶τ消H0/H2，逐有限过滤付非平坦精确basechange。膨胀限制用Δ不变量零付res单射，Mackey保持完整a⁻¹而不重乘Norma；原T²及整signed基把完整X³商零准确读为二阶pᵏ整除。非零特征零log不代有限Kummer非幂。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:13:34 UTC到0b21995bbfe0237716649c285eb75749290792b0，私库2026-11-28 14:13:30 UTC到612da43ff8c1275eda38491f92dcb8c871031675；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47675692B/treefd7e724d9e8e21583370b4d76e8bc1ce5819092b，无>5MB。
+
+## 2026-11-28 14:21:40 UTC：R1067 §76：真实循环同源邻点上的首Kummer幂测试
+
+根核Fp群环微分恒等式、完整Tate模p只余τ逆、eτ杀restriction核的Norm型；原W/V独立、g₋平移及q_C在c挠同构给完整Robert除子Norm，全部原驯和杀常数，各Δ共轭同时运输C/q/W/V。未宣称这个新函数或测试非零。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:21:55 UTC到8901ab490f31958cca3a1f08c21eed676cde94ea，私库2026-11-28 14:21:46 UTC到dda8f313adc0efd21d26121803b79eb5ec0ec79f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47683069B/tree0a3ef23ea551eb90ac10d3382a901b5ef6fe318c，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:22:13 UTC到59bdc540c392b6985a042294bf68cfc18aa3dc3f，私库2026-11-28 14:22:05 UTC到da009a42ff8a425261110ed985b73786ce7aaf0f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47683069B/tree0a3ef23ea551eb90ac10d3382a901b5ef6fe318c，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:22:26 UTC到7c4de3d03ba5a1d59754aa5c8af6f24faf82d4a7，私库2026-11-28 14:22:22 UTC到475a25f3a7e6f2eabdbd1cfdf3dcaca72ce09abb；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47683069B/tree0a3ef23ea551eb90ac10d3382a901b5ef6fe318c，无>5MB。
