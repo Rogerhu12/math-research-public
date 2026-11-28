@@ -110,7 +110,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：原139角色/1,333,370外变量全自由；八分498c3dca首真accepted1，完整reachg562.3886083228798/K4623.42793；Phi25454.4091173/Gram.88830144较初升，仍非final。原science继续，自然返才pure74162。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细全返，Gram8.04008→6.96819/K2815.84→2087.58，原16区间继续。
 [41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8区间7b56ad6c全33相，Gram.48152123/K226.25305/support.00583465，原16区间继续。
-[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：五粗+4/8/16全部原预算返，末29cefe10真实69相并集/七整mesh已返待本note补全；stage末Gram24.83327失败，原R756中央障碍保。
+[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：五粗+4/8/16与末29cefe10的69相/七整网全返，Gram5.52→8.26→16.56→24.83；独立整网22.8785/K430.22/逆法弦247.02，校准/覆盖失败，已闭不重做。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：73efa30c冻结21科学输入真PID2592；同R757g保7移相+3成对、两家族各4/8/16和各65相/七网。差分射线保历史校准，原移相号障碍/成对末rim角费未隐。
 [R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：256KiB后旧Python3.14/NumPy2.2.6将g−g0原地覆盖g已实证，原raw/错误高曲率保留；真帽曲率3.9124/2.6101但g8809.79仍欠，不重跑已闭结论。
 

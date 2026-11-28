@@ -49,3 +49,94 @@
 | computations/run42-complete-bent-fermi-source-and-launch-delivery.json | 21168 | 2e472ba8b101f19dbeedd5d5b7d25f5154959d5c9c0475b365485cfb82c0baa2 | 3a4adc34c6434f0900dd66305b814854f2b95fd6 |
 
 十二份完整物理父源、原3控制辅助和每项具体身份已列在完整request与manifest；本次普通推同时保留这些原输入。课题外改动 .github/workflows/visible-larger-run42-bent-fermi-phase.yml 仅用于这个完整公开科学任务。未读取任何本地数值结果作为科学结论。
+
+## 2026-11-28完整八阶段与同点69相/七整网格实际返回
+
+公开[run 46154734602/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46154734602)及job `141008777374` 已真实completed/success。原PID2738于14:27:42Z启动，15:18:55Z自然exit0，科学总耗时3061.080049481秒。实际冻结源 `1541cfa06cba2ed3f8787cb3c20d21d013af8a7d`，首次规则读取 `e1a670eecd7542e644001b7d5c0ccd97ba0d4358`；命令SHA256 `83daeff4485b0d78862a5619f570d1b39e1bbadee0de5c8dc6462b755ef4edec`。实到Python3.12.14、NumPy2.3.5、SciPy1.17.0、JAX/jaxlib0.7.1，4个逻辑CPU，全部18冻结科学输入与原请求一致。
+
+**全部原计划已执行，科学结论失败。** 五个粗设计、胜出场4/8/16区间三次精化、同一个16区间全点的69相检查和七份完整闭面均有原返回。不是因时长、取不到输出或删减预算中止；这些实际结果也未给准确等距/连续厚度证。
+
+### 完整原返回与全点身份
+
+11件以下原文固定于[9a986dc2fbeac56f4c60412533b25a617dcc9435](https://github.com/Rogerhu12/math-research-public/tree/9a986dc2fbeac56f4c60412533b25a617dcc9435/topics/visible-flex-larger-amplitude/notes)，每件ROOT取全文并核bytes/SHA256/Git。每阶段非零系数、两端地图、全部phase与原标量/几何原报告完整；根§15下大系数和mesh原数据留runner，由已刊完整源码与配置复现。
+
+| 原返回文件 | bytes | SHA256 | Git blob |
+| --- | ---: | --- | --- |
+| run42-bent-fermi-phase-46154734602-1.json | 23860 | `4bb46b8af62dee9745b9c1520a30a1293727e742ffb8237848fd647cb283d20a` | `cda9997deb5f376a5673e57997b36a00500fc3be` |
+| run42-bent-fermi-phase-46154734602-1-summary.json | 34456 | `ad6a114bc1893112013b2e97e2ed270780ddb82bacf7590e2c0b7b6dfc729ab0` | `9b64cc6dae30fb1a886d7db12aeba87deb098e3d` |
+| run42-bent-fermi-phase-46154734602-1-geometry.json | 32169 | `5261da5cd71562f5dea439ea4fa21507c472713389885189233cbff78693814c` | `ca80dd7ecfb8fa848075c37f8f1e344a58128dc1` |
+| run42-bent-fermi-phase-46154734602-1-stage-00-return.json | 8424 | `76f755704d34b027e1eeab922f5ad34bac6f75e74bb03c2b24e6f817b0cc72f8` | `bbbbf6e37f327a85250ae574b455f0067b0d7ad9` |
+| run42-bent-fermi-phase-46154734602-1-stage-01-return.json | 8397 | `fcb526606fb1a3420dd90edcd1b284ea37662d3932aed4cd286db5e84978bda6` | `c3c9531a531bb44c615d24ba3a3cd95dce1a8820` |
+| run42-bent-fermi-phase-46154734602-1-stage-02-return.json | 8439 | `46001db17c8f13a16281130d1f551b891f59eabf9f168e4c4c5c379258662c93` | `a3d3c233cf67e00a6d1edda7361aeab2cfef29af` |
+| run42-bent-fermi-phase-46154734602-1-stage-03-return.json | 8451 | `509de85af32dbcd752baf369eda633f8ebbd78f8e8438b00ac2a6c76c2ca184f` | `adaaf49438b0aec2206b6df6a2cb4234b4152dc6` |
+| run42-bent-fermi-phase-46154734602-1-stage-04-return.json | 8481 | `b776e3be839c0ba3bbb3e45e8b379e72fa59c7ba71487b5297f981ddb83889be` | `61161a86e2bea66293acc13ed65efc43c9a146bd` |
+| run42-bent-fermi-phase-46154734602-1-stage-05-return.json | 12203 | `ab72cc7a2db4672cc9b2c1f72986c056251f2d86484f2ce023eb2838104990f7` | `ee25d0b5c2e5cfd8b0bce3ed81abc5006c77d858` |
+| run42-bent-fermi-phase-46154734602-1-stage-06-return.json | 17928 | `776e6aaa99030a7e82c246491ddaac131a20c5149903de5ac8f016ddd506f565` | `894e416bd418709fa66f9ee38e0a2af93abb0162` |
+| run42-bent-fermi-phase-46154734602-1-stage-07.json | 29401 | `4a4949ae9ef14d8e771d1448a5aec650b02261bc7308ac383977f2ca2b3c55bd` | `b58dd2af6d502c18bbcf1a6d3989ff85ada87b93` |
+
+五粗按原组合score选择stage2的plateau-free-pose；不是挑metric较好的一列后换点。三个精化均继承这个设计及同一R752固定g。
+
+| stage / 设计 | 原阶段真Gram最大值 | 原score | 完整closed point SHA256 |
+| --- | ---: | ---: | --- |
+| 0 / legacy-free-pose | 5.350542178002616 | 52.37697896486424 | `a8f7a9783b861949f8d67b2b8a4dd47cb2afc1eecac955b54c657e9eecbb21b7` |
+| 1 / omega-free-pose | 6.71581625468438 | 61.35462059943555 | `c5bd845d07050216dc2c89f2b6a97c59e9da85e5654f97a63b3d0b374d79034a` |
+| 2 / plateau-free-pose | 5.521912344450496 | 39.401841960712545 | `9be050186a9e70780390a11d43c63d05ef303de7de1c57956202c4054c04f84f` |
+| 3 / omega-shortened-cap | 5.983043974486947 | 384.73764565106114 | `328be16d129bf473b58ca0fb1bb57f14bd2b11d69a542cf55944a731790596a4` |
+| 4 / plateau-shortened-cap | 5.078289821905922 | 53.306596389288615 | `325da010aa94c8e7848fa7e10cb026740d12dddc20dba8ae5a57cb376b12f79c` |
+| 5 / plateau-free-pose（4区间） | 8.260048268218732 | 144.23599471958377 | `00ada6816695826dbe34b012df6ff91daf0a73da459017e558e878957691f0cc` |
+| 6 / plateau-free-pose（8区间） | 16.555048315059164 | 167.8117475457826 | `34e460287d4d4e6134a523118a2e56bd2cb2e6467c413050172e2c71b27dd329` |
+| 7 / plateau-free-pose（16区间） | 24.833270128580768 | 124.55276452708438 | `29cefe1073785e772f96dce9b41a733573f71f6265638dd6aa02a90a0fe5a704` |
+
+最细stage7完整物理系数为17×2539，SHA256
+`f8b159614d10c5e4a2c9dfcf80458393a0c18690621f89d3be7f0cc08225c423`；
+两端地图17×2×2×210，SHA256
+`68733c64287c14c6097a049568ab3c85a38b7154ab7faad0eb0bd04c721a79ca`；
+phase字词SHA256
+`a6d7c4ab616f4e28e63d90de4d2ce2a9b8b194a72f11cd2ff308f1944c6c2ec2`。
+原 `stage-07.npz` 460456B/SHA256
+`56b255c15eb595480dcb879b689532922da9b37d821b3483419598fad0daedc1`。
+它与上述三部分组成的closed point `29cefe1073785e772f96dce9b41a733573f71f6265638dd6aa02a90a0fe5a704` 绑定。runner中另有较旧的 `current.npz`，不以该文件名替代末阶段身份。
+
+原末阶段15个非零结点走到92原迭代预算，另一个结点在38次自然满足程序条件；真实方向导数核查相对误差5.665912366420989e−8。末Gram24.833270128580768位于end+、相位 $\pi/2$、$u=1.5561777300831,v=.9367587724539175$。各图接缝最大六jet差2.2737367544323206e−13不能消除该内部真实度量误差。
+
+### 射线与校准失败的范围
+
+裸初相的真实物理Gram为0，但原稀疏双线性几何系数插值所算Jacobi量并不准确。粗层裸初相 $J/Q$ 误差 .07914037937714169/.6883748207432792；4区间层 .3273172324829008/2.1034037136069195；最细层 .10842803497962272/.9595665558816566。这是原返回保留的校准失败，不能以精化次数或公式正确掩盖。
+
+最细原射线的最小J为−.24173141466231832、最小角增量比−129.60662312979076、最大guard ratio7.282989235976143；它们直接没有给出非焦覆盖或全局坐标微分同胚。R755的条件性测地判据仍要求真实Jacobi/全覆盖等前提；42没有满足这些前提。R756对该旧中央/平带输入的准确障碍仍然有效。43改用R757真非平初g和相对裸场的差分射线校准，并独立继续整个物理Gram；43的结果不能倒填本42。
+
+### 同一末全点的69相整面几何与七份网格
+
+原最终导出将65相网与七要求时刻取并集，真实返回69/69个phase、7/7份完整mesh；`all_phase_measurements_returned=true`、`complete_requested_meshes=true`、`errors=[]`。全部使用同一29cefe全点、全部材料环与两Cartesian极点，三角网17714顶点、53136边、35424面，Euler数2、一个连通分量；不一致朝向边及非两邻面边均0。完整faces小端int32 SHA256
+`c18144087528960e2515b1c5ed779f89e3a1cb91c948205d3cd134e7b713da5a`。
+原网格节点profile144/end30/cylinder19/cap25的准确word identities在完整几何索引中。
+
+69相有限采样得到：
+
+| 指标 | 返回值 | 对应phase（弧度） |
+| --- | ---: | ---: |
+| 最大相对Gram算子误差 | 22.878516670227697 | 1.550049556649225 |
+| 最大主曲率绝对值 | 430.2217929459707 | 1.227184630308513 |
+| 最大有序逆法向弦 | 247.02386578153778 | .39269908169872414 |
+| 最大网格直径 | 3.226941527327707 | 0 |
+| 记录的有限mesh Hausdorff lower量最大值 | 1.6226316663581404 | 1.227184630308513 |
+| 顶点Hausdorff最大值 | 1.8378116152456638 | $\pi/2$ |
+| 最大接缝六jet差 | 5.40258286761305e−15 | .2737775411283715 |
+
+这里22.8785与阶段24.8333使用不同检查网格，保持各自原范围，不挑较小值称全域上界。有限网格体积从2.743265648791911至2.9592153033143305，中心极体积矩从2.743924468939552至2.9617252266520273；这些有限测量不是连续体积/刚体商距证明。possible-extra-contact与zero-area-triangle采样计数均0也不构成连续嵌入证。
+
+七份原压缩PLY全部包含整闭面而非切片；原PLY大小885930或885942B，均低于5MB，下面给每份原压缩文件的完整身份。其解压后PLY/顶点字词SHA256及69份逐相几何JSON的完整身份均在上述geometry原报告保留，无重新采样替换。
+
+| phase（弧度） | 原gzip bytes | 原gzip SHA256 |
+| --- | ---: | --- |
+| 0 | 261153 | `c294eb8b1a7133b091149aa6df5781361957c0515b4f726db4aa6ebcd5badd80` |
+| 0.2617993877991494 | 493172 | `c9d74b8e57052b06937f7d13c9d3e88d4f5c96ade8c366e749a6d7f8e18c4bf7` |
+| 0.5235987755982988 | 496122 | `d4c89ee967382cda07365c75e3094bc8d4aa3996a651ebdf6916dd244136b2a3` |
+| 0.7853981633974483 | 497301 | `f777e9f3614ffe3de6c197c06de872e08645f752a4919c6642faea62c36f3fcd` |
+| 1.0471975511965976 | 497898 | `e808b2d7bc7a38c045fb541edb3c23fa65d86e4ac1c68298f53de63d30f65097` |
+| 1.3089969389957472 | 497690 | `b533b6334ea789329afa22664f2268f343aa9cbba940d050be373e4e44642584` |
+| 1.5707963267948966 | 494968 | `433203f8758e7c96ed82aaa711d6f5987f1a6abcb724b73b58437ea218f7d6c2` |
+
+原内部mesh索引32027B/SHA256 `47900c5ff589ed13b70e274847d31e9238f026876ff8bd72f3c370abd603eb15`；公共完整几何报告32169B/SHA256 `5261da5cd71562f5dea439ea4fa21507c472713389885189233cbff78693814c`。所有可重算完整raw只在原runner保留，仓库保存完整源码、参数、原run及整身份。
+
+本42已完整闭账为失败：真正的同g/同参数全phase精化没有使误差下降至原容差，厚度未付。继续43–45及新物理输入，不重复此已登记结论。
