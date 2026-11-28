@@ -1,0 +1,13 @@
+{
+  "status": "pushed-dispatch-incomplete",
+  "sourceCommit": "a0f968bd9e04140f683997bd199a04d747d44695",
+  "publishedCommit": "0316baaf324d5e6d556df1db3d372d507ab32e8d",
+  "runId": "46179811748",
+  "runAttempt": "1",
+  "lastRulesReadCommit": "f0c1a0d555e94f5976b2d6efad0406898e64bc1a",
+  "error": "Dispatch outside the authorized ISP workflow prefix",
+  "workflow": "invariant-subspace-8542-w-vbar-positive-M-zero-and-mu-pole.yml",
+  "mathematicalExecutionStarted": false,
+  "sourceStillUnexecuted": true,
+  "repair": "Use the existing authorized lowercase workflow name pattern; do not alter the dispatch guard."
+}
