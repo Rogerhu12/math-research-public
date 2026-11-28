@@ -482,3 +482,6 @@ R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/900719925
 
 ### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
 新fixed-QR完整tail producer 8cb073f0…完成：先own accepted_fixed再同原树chunk factory/原pipeline/Node exporter/guard，实际runtime.traceFile定位本次native-runs。完整stage0/mean链/全谱/全部共享两jet/全段与deep collar、128MiB写门保持，旧设计入口不改。compile/help实0，无真fixed输入或新geometry阳性。
+
+### 2026-11-28 18:29 UTC — Astra-held10-7c4e33ee-20261128
+R95已正式发布9a1bf6a7…并补齐日志/open与短H：原λ.128/M24全部字面系数，分部积分成正权逆函数平均，65真逆点有向区间及完整二阶余项；实际exit0/0.7892s/35316KiB，原GL12/24格beta小核心重建逐位同，真误差<9.207e−5且代数曲率<11.85678<12.3。未重算旧raw/J/BVP/尾，只付归一化标量，不冒完整位置导数或λ1；真新.002/M16活算已在原strict门内推进。

@@ -4,7 +4,7 @@
 
 ## 规则和来源
 
-- 最近实际pull后双README已读锚 `765b0c83b2aed141080f49c514f1b02dd853e733`（2026-11-28 18:28 UTC）。
+- 最近实际pull后双README已读锚 `e7b0285b6d381b065814ac5456ab6ac3eb44c85a`（2026-11-28 18:29 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论pull/核双README差异/推；NFF立即rebase循环成功，不force。根§12不另造审批/独立审查门；§15只源/参数/hash/小标量，所有再生数组留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/参数/时间域连通闭C²嵌入连续族；H内点/直径≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D、全metric≤1e−6、空间/频率/时间精化降到机器或求解容差；多个t小网格及严格存在差距。λ<1非准确圆弧H，换δ/profile/帽不是同g精化。完成后仍继续提高比例。
@@ -40,9 +40,9 @@
 
 ## 4. 已付的严格结论与限制
 
-旧λ.002/q=.06 raw-H完整闭图：[R90](results/R90-complete-closed-all-phase-metric.md)全域全相位metric≤9.97128585114805e−7；R82 D≤2.3850166810、support≥.6420099884、K≤12.3、reach/D>.03408815；[R89](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)新固定帽full-E(3) dE>7e−17。原audit normalizedFullDefect1.964293876e−5、原未知79580、stage82 K<10 false均保留。不是准确λ1/final-H/完整fixed-g；旧数组遗失，不重算1152段。
-[R92](results/R92-complete-refined-chord-space-and-residual.md)全维细网格弦可逆运输Bfine=T⁻¹diag(B,I)S，完整左右残差≤dmaxε/ε，单右端∞回代不增。旧真实v3二分867格到880点/64264维，17784真exit0/RMS9.7104954196e−7/BC9.48179e−12/metric6.5389748102e−7；只仿射DN前缀，新native从未启动，旧数组/未推源不可读，不迁到新λ1。
-[R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)给N=3J有限相位αj≤2π/9<4/5、矩差≥cJ|AN BN|、两柱长至少一非零；全E(3)平移界3d/2和min(σ/3,ΔI/KN)表面距离。J1–8 Fraction真0，没有新λ1活动矩/几何。
+旧λ.002/q=.06 raw-H完整闭图：[R90](results/R90-complete-closed-all-phase-metric.md)全域全相位metric≤9.97128585114805e−7，R82全几何/reach/D>.03408815，[R89](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)新帽full-E(3) dE>7e−17。原full-DN audit未过、未知终态及stage82 K<10 false保留；非准确λ1/final-H/同g精化，旧数组遗失，不重算1152段。
+[R92](results/R92-complete-refined-chord-space-and-residual.md)保全维细网格弦的准确可逆运输、完整左右逆残差与单右端界。旧880点仿射DN前缀真实全门过但新native从未启动，不迁旧J/V到新λ1。
+[R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)给任意N=3J有限明确相位≤2π/9<4/5、至少一柱长活动矩非零，以及全E(3)含反射/平移的显式表面距离界。没有新λ1活动矩或全几何。
 [R91](results/R91-period-mean-compensation-and-wider-core-box.md)原core盒A≤8/9、所有λ κ<3723/314；[R94](results/R94-binary64-core-window-period-budget.md)付实际S*/b* binary64参数误差，仍相同预算。[R95](results/R95-actual-core-normalization-from-positive-inverse-average.md)现以原λ.128/M24全部字面系数的正权逆平均及完整二阶余项，严包真beta并付原GL12/24格误差<9.207e−5，代数曲率<11.85678<12.3；原有限beta小核心重建逐位同。只付标量，实际λ1的A/全核心位置导数/全图仍欠。
 
 ## 5. 执行恢复与继续

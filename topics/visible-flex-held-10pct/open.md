@@ -50,6 +50,8 @@
 
 中央柱与上下半面的公共Cartesian两jet、桥—尾、深圆领和平盘均须一致；全部F_t为C²嵌入且t在C²连续。reach覆盖全t而非端点，整像Hausdorff不能替换成材料点位移，D用完整曲面直径。新λ/mean/核心不继承旧低幅数值常数。
 
+[R95实际beta区间](results/R95-actual-core-normalization-from-positive-inverse-average.md)已给真实系数的轻量完整标量误差证书；历史λ.128/M24实例真过，但新λ1仍须实际A门及同输入的全部核心位置/导数/全图证书。
+
 [R93有限高阶相位及E(3)界](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)已将R67某个非零高阶矩接口变成有限明确相位及可代入距离系数。新λ1须真实认证其mN/AN/帽与完整R、σ；不要求预先假设m3非零，不搬旧λ.002活动矩。柱长/帽一经选定即冻结为同一g再精化。
 
 [新QR final-H完整几何/活动矩入口](notes/2026-11-28-tail-qr-finalH-geometry-and-activity-entry.md)已经修复旧raw-H/旧width/source/phase硬锁：仍须新场同完整bundle、真实共同cut、全谱/mean/两jet和原连续证明。活动矩区间两种符号均可排零，未计算新阳性。
