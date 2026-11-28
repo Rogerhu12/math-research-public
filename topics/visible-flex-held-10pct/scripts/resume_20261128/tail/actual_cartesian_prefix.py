@@ -225,6 +225,25 @@ def sampled_diagnostics(prefix, *, block=16):
         result['area_factor_min'] = min(result['area_factor_min'], float(area.min()))
         result['angular_rho_min'] = min(result['angular_rho_min'], float(rho.min()))
         result['curvature_discriminant_min'] = min(result['curvature_discriminant_min'], float(disc.min()))
+    result['source_mean_oracle_comparison'] = source_mean_comparison(prefix, block=block)
+    result['sampled_budget_checks'] = dict(
+        metric_at_most_1e_6=result['metric_relative_operator_max'] <= 1e-6,
+        curvature_at_most_12p3=result['principal_curvature_absolute_max'] <= 12.3,
+        norm_at_most_1p34=result['norm_max'] <= 1.34,
+        support_at_least_p087=result['support_min'] >= .087)
+    result['scope'] = 'Sampled new prefix only, before tail/end-lift; no all-angle/all-radius, reach, or full-surface assertion'
+    result['phase_chart'] = chart.report()
+    return result
+
+
+def source_mean_comparison(prefix, *, block=16):
+    """Compare the FINAL Cartesian map mean, retaining the intermediate mean.
+
+    The Cartesian coefficient constructor samples its intermediate shared mean
+    at additional common knots. That numerical Hermite reconstruction and the
+    complete center/end lifts belong to the final map, so sol.mean_spline alone
+    must not be presented as that map's exact mean function.
+    """
     mean_s = np.unique(np.r_[np.linspace(0., prefix.flow.end, 33),
                             prefix.center_width, prefix.flow.prefix_end, prefix.flow.end])
     flow, physical = prefix.flow, prefix.source_physical
@@ -237,20 +256,18 @@ def sampled_diagnostics(prefix, *, block=16):
         mean_first.extend(np.mean(velocity['V'][:, :, 2], axis=1))
         mean_second.extend(np.mean(derivative[:, :, 2], axis=1))
     source_mean = np.stack((source_height, mean_first, mean_second))
-    new_mean = np.stack([prefix.sol.mean_spline(mean_s, order)[0] for order in range(3)])
-    result['source_mean_oracle_comparison'] = dict(
+    intermediate = np.stack([prefix.sol.mean_spline(mean_s, order)[0] for order in range(3)])
+    psi = 2*np.pi*np.arange(prefix.mean_nodes)/prefix.mean_nodes
+    fields = prefix.evaluate(mean_s, psi)
+    final_mean = np.stack([np.mean(fields[order][:, :, 2], axis=1) for order in range(3)])
+    return dict(
         definition='Original physical PPoly; source literal N, source GL6 position oracle, original mean velocity/acceleration',
         radial_samples=len(mean_s), angular=prefix.mean_nodes, height_quadrature_order=6,
-        new_shared_mean_minus_source_orders_0_1_2_absolute_max=np.max(np.abs(new_mean-source_mean), axis=1).tolist(),
+        final_mean_definition='Numerical angular mean of the final complete Cartesian evaluate() jets, including Cartesian coefficient reexpression and every active lift',
+        final_cartesian_mean_minus_source_orders_0_1_2_absolute_max=np.max(np.abs(final_mean-source_mean), axis=1).tolist(),
+        intermediate_shared_mean_minus_source_orders_0_1_2_absolute_max=np.max(np.abs(intermediate-source_mean), axis=1).tolist(),
+        final_cartesian_mean_minus_intermediate_orders_0_1_2_absolute_max=np.max(np.abs(final_mean-intermediate), axis=1).tolist(),
         same_mean_function_asserted=False)
-    result['sampled_budget_checks'] = dict(
-        metric_at_most_1e_6=result['metric_relative_operator_max'] <= 1e-6,
-        curvature_at_most_12p3=result['principal_curvature_absolute_max'] <= 12.3,
-        norm_at_most_1p34=result['norm_max'] <= 1.34,
-        support_at_least_p087=result['support_min'] >= .087)
-    result['scope'] = 'Sampled new prefix only, before tail/end-lift; no all-angle/all-radius, reach, or full-surface assertion'
-    result['phase_chart'] = chart.report()
-    return result
 
 
 def main():
@@ -258,8 +275,22 @@ def main():
     parser.add_argument('--source-run', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--side-modes', type=int)
+    parser.add_argument('--mean-only', action='store_true',
+                        help='Evaluate only the actual final-map/source/intermediate mean comparison')
     args = parser.parse_args()
     record, prefix = load_actual_prefix(args.source_run, side_modes=args.side_modes)
+    if args.mean_only:
+        report = dict(scope='Actual final Cartesian map mean comparison only; full geometry sampling not repeated',
+            source_run=str(args.source_run.resolve()), source_run_sha256=sha(args.source_run),
+            physical_sha256=record['physical_sha256'], source_sha256=sha(__file__),
+            source_homotopy=record['core_settings']['homotopy'], modes=prefix.M,
+            radial_knots=len(prefix.rep.x), final_cartesian_map_changed=False,
+            source_mean_oracle_comparison=source_mean_comparison(prefix),
+            continuous_mean_error_certificate=False, complete_surface=False)
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text(json.dumps(report, indent=2, allow_nan=False)+'\n')
+        print(json.dumps(report, indent=2, allow_nan=False))
+        return
     angles = 2*np.pi*np.arange(prefix.mean_nodes)/prefix.mean_nodes
     sample_s = np.unique(np.r_[0., prefix.center_width,
         np.linspace(0., prefix.flow.end, 21), prefix.flow.prefix_end, prefix.flow.end])

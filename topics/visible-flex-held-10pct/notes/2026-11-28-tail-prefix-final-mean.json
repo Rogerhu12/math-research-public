@@ -1,0 +1,52 @@
+{
+  "scope": "Actual final Cartesian map mean comparison only; full geometry sampling not repeated",
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+  "source_sha256": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+  "source_homotopy": 0.002,
+  "modes": 24,
+  "radial_knots": 945,
+  "final_cartesian_map_changed": false,
+  "source_mean_oracle_comparison": {
+    "definition": "Original physical PPoly; source literal N, source GL6 position oracle, original mean velocity/acceleration",
+    "radial_samples": 35,
+    "angular": 1168,
+    "height_quadrature_order": 6,
+    "final_mean_definition": "Numerical angular mean of the final complete Cartesian evaluate() jets, including Cartesian coefficient reexpression and every active lift",
+    "final_cartesian_mean_minus_source_orders_0_1_2_absolute_max": [
+      3.86468634872017e-13,
+      2.3181384589676668e-09,
+      0.0001323312144343447
+    ],
+    "intermediate_shared_mean_minus_source_orders_0_1_2_absolute_max": [
+      3.861910791158607e-13,
+      2.3181379038561545e-09,
+      0.00013233121443656515
+    ],
+    "final_cartesian_mean_minus_intermediate_orders_0_1_2_absolute_max": [
+      1.887379141862766e-15,
+      8.881784197001252e-16,
+      5.773159728050814e-15
+    ],
+    "same_mean_function_asserted": false
+  },
+  "continuous_mean_error_certificate": false,
+  "complete_surface": false,
+  "status": "actual_final_cartesian_mean_compared_without_repeating_full_geometry",
+  "actual_output_sha256": "da028e0173ecbdbbca24951a8f4f98a2df08d6711b35f469edfb6af74bcecd55",
+  "prior_full_geometry_output_sha256": "8ebf3a685bec5f8ff6c3c5944910565424eb0039c896b00aaf12464b7e04ffd4",
+  "actual_map_class_unchanged_from_committed_geometric_query": true,
+  "map_class_source_sha256": "cc3566ea1c009ab41d1b97f0e3c280138a5e53e348aefd7df2951d7133f5475b",
+  "full_geometry_sample_repeated": false,
+  "old_comparison_scope": "Intermediate sol.mean_spline before final Cartesian coefficient reconstruction and center lift",
+  "reproduction_command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py",
+    "--source-run",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "--out",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/new-prefix-c2-20261128/lambda002-m24-final-mean.json",
+    "--mean-only"
+  ]
+}

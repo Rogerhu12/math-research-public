@@ -482,3 +482,6 @@
 ### 2026-11-28 07:31 UTC — Astra-held10-7c4e33ee-20261128
 新879节点真λ.002/M24前缀的完整R53/公共Cartesian C²图首次实际运行；1890×1168采样metric5.51004e−7、K8.90689、support.661154、norm1.18574，中心两jet实现误差≤2.67e−15。
 新均值与原primitive二阶差1.32332e−4明确记录，未继承R62连续界；见notes/2026-11-28-tail-prefix-c2-first-actual.md及小标量JSON。下一步继续真实设计/fullH并适配同一新图的连续范围。
+
+### 2026-11-28 07:37 UTC — Astra-held10-7c4e33ee-20261128
+补正新图均值诊断：初次读中间mean_spline，现直接取最终Cartesian两jet零模，二阶减source仍1.32331214434e−4；最终/中间35点差≤5.78e−15但不声称函数恒等。图定义类逐字未变，未重复全图采样；见tail-prefix-final-mean小记录。继续同一最终图连续几何及原fullH/设计链。
