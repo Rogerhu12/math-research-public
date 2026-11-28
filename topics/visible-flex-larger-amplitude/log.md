@@ -238,3 +238,7 @@ HANDOFF及open仅当前§7重新编排，完整旧版固定a5e459d4afc7d52804f25
 ## 2026-11-28 01:41:57 UTC — 完整23恢复阻尼续算源参及启动
 
 7完整源码+6参数+6启动件共796086B，原19全波半宽/δ1/32/两初μ.01，137原科学对+policy=138/19runtime；全部157/7、458/445/48、原域/变量/试步规则/预算保，只有已返回的完整恢复方向证据影响下一μ。新增课题外.github/workflows/visible-larger-20261128-parallel23.yml用于本授权公开计算；35控制pins/依赖/350min/真pull保。两原input+全science63928B；science+pure104139B/全四步110738B>95000，真自然返才整接pure。完整source/parameter再生器与旧历史保，未执行本地科学或新前门；未来实际23仍待官方核实。双README云核至`03831c27b887e326c6a27649859ce2a927cf9e4c`无变（非pull），实际controller真pull见H槽。
+
+## 2026-11-28 01:45:37 UTC — 23官方真实启动
+
+官方run46094430214/1/workflow433320427/job140822424469，head3d1f7b396e735e07f1dceca825aa69f963c105dc，于01:42:05Z启动/in_progress。checkout/setup/deps真实success，研究步骤in_progress；两输入完整返回与新science/model/point/policy尚未在本更新读取，保持未知。完整官方原run对象与jobs保[23原note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)，不冒科学完成。双README云核至`aef52a801fb9d7d90b5e4ab6560db56e1de8709e`无变（非pull），真实pull保各槽。
