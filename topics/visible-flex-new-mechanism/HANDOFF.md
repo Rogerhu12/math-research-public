@@ -1,55 +1,39 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。没有满足全部 README 标准的完整候选。原完整交接保存在 [截至 R715 的交接](handoff-through-R715-20261128.md)，其全部科学费用、失败与来源继续有效。
+**进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。没有满足全部 README 门限的完整候选。全部旧费用、失败和未完工作继续有效，详见 [截至 R715 的原交接](handoff-through-R715-20261128.md) 与 [恢复原终态前的交接](handoff-before-recovered-terminal-receipts-20261128.md)；后者保存 R716–727 的完整前态，不因此销账。
 
-## 规则、访问和来源
+## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **91d8280df9abff6565dbd75fb3e5a1f6a10acf57**；环境失效前最后本课题终端推送 R715 为 **14438fb45fb7e617c4eae0c230396ab4b305600e**。私库最近成功的终端 pull 为 2026-11-28 13:40:01 UTC、**8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**。14:32 私库 pull 因磁盘满失败，随后执行环境不可用；不能登记为成功 pull。
+公开最近成功的终端 pull/双 README 检查为 **5ffac4882cea7f748fd10c1bd7cb9c3b28528b17**；本次恢复后已实际 pull/rebase，并核至当前已发布源。私库最近成功终端 pull 为 2026-11-28 15:27 UTC、**3e7c6871779bfdfbb55d551f55a48ed706834c98**，根未变，QUEUE 仍为本会话。14:32 磁盘满、之后环境不可用的失败 pull 未冒成功；其间 GitHub API 小文本续接保留在旧H。15:25 后环境恢复，继续至少每小时实际 pull，根/课题 README 有变只读差异并立即执行。
 
-终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **986755576586b6f3a03e0e5e237050dcb5e80b6c**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
+公开根 blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 均未变。根16已读。子代理均显式 **gpt-6.2-astra / ultra**，当前三名都无下级。每条结论立即提交推送；NFF 立即 pull/rebase、查规则、重推至成功，不强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
 
-根16已读；所有子代理显式 gpt-6.2-astra/ultra，当前三名均无下级。每结论独立提交推送；非快进先读新 head、保留他人变化重新接续，禁止强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析。根12不重复机械审核；根15不存可重算大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
+## 正在推进的真实输入
 
-## 当前新增结论与改变方向
+**闭纬圈 R728。** [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md) 给全时全角共同 E 精确区间及真实材料二jet；[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md) 给双复半频的准确闭圈、完整 RA/RB、同g/曲率/图门的全角多项式。原圆族 K0 已排，非圆完整列继续。R728 四新源码已发表但尚无科学执行；从 R703 自然 literal 39163B 入图，保同φ六jet与原生有限插值误差，不重播原63J。正在补真已付列/QR/方向/下个试步及两网/冻结/末读的可续 artifact，随后绑定实际配置并运行。冻结后只能同 E 自然精化。
 
-[R721](results/R721-global-flat-rulings-obstruct-the-symmetric-long-shoulder.md) 已证原完整平片在双脉冲和同片左右镜像下只能有水平非平母线，F=xA+B(v)。保原中央窄条实际刚姿则整中央主片固定，恢复 R713 的真短肩端切矛盾，λ≥.60、K≤10.4 不可行且任意σ无助。**R719 原镜像长肩 request/WF 未发布，不得触发这个已知不能全片延拓的输入。** R715/R704 的孤立小相位定理仍保留。
+**四外盘方向。** [R724](results/R724-comoving-central-crowns-and-four-outer-pulses.md) 的中央四肩/两整冠全幅共平移、已给负领与混对真法管成立；未知外窗未授资格。[R727](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md) 已给一真实盘的三curl、四开带二jet、真投影与 h⁴Q 薄领缩放。
 
-[R720](results/R720-joint-source-normal-tube-of-four-shoulders-and-both-complete-crowns.md)已证完整源中央法管≥1/10.4与小相位全中央混合对≥.0961；辅助截止不授同g。[R722](results/R722-exact-range-of-signed-material-moments.md)已证两矩完整可达域、端根/目标积分范围和凸势根球；原有限求积总导数补项必须保留。
+[R729](results/R729-a-true-outer-disc-end-chord-obstructs-the-first-comoving-source.md) 已排第一份凸组合外盘源：一条真实材料纵线 L0²<.867，而末相位真端弦²超它>.020，任何保边映射最大相对度量误差>.023。**R729 请求/WF 未发布、未执行，不能运行该已知不可行源。** 换实际 g/边配对/边姿才可继续。R730 正做去冠闭截环与真实侧缓冲/底盖的完整边弦、源法管及 Gauss 预算；原近凸盖出现全局负Gauss不足，下一实际源 R732 正改；必要条件不冒填盘充分性。
 
-R723 真去同片镜像与新长座仍在推进。[R724](results/R724-comoving-central-crowns-and-four-outer-pulses.md)已证新四外脉冲使中央四肩/两整冠全幅同g共平移，四真负领及所有已给件法弦≥1/10.4；参考D<3.004，宏观须真ρ/δ/e条件。余四外盘由反射只独立求一盘，R727继续三curl/真四边/全时几何；Gauss重数旧账不能搬。
+**非镜像备线。** [R723](results/R723-asymmetric-ruled-plates-and-full-shell-diameter-of-genuinely-longer-seats.md) 已发表全相位非镜像平主片、六端姿控制、真实增座及全壳参考 D<3.13；实际窗全g、曲率及含窗法球仍未解。[R721](results/R721-global-flat-rulings-obstruct-the-symmetric-long-shoulder.md) 已排原镜像长肩全幅，R719 原请求/WF 仍未发布，不可触发；R715 孤立小相位不冒全片兼容。
 
-[R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md)已证闭纬圈实物二jet及联合全部(t,φ)的共同E精确区间/最优η；严格余量可选平端E后冻结。R680未改圆基仅调E仍η>.10。R726改非圆有限傅里叶输入继续，不借原小采样误差。
+[R720](results/R720-joint-source-normal-tube-of-four-shoulders-and-both-complete-crowns.md) 的完整源中央法管≥1/10.4、小相位全部中央混对≥.0961保留，辅助截止不授同g。[R722](results/R722-exact-range-of-signed-material-moments.md) 两矩真可达域/凸势根球已证，有限求积两条总导数仍必须保留。
 
-[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md)已证双复系数闭纬圈及完整RA/RB，η/曲率/图门清正分母成全点多项式；K0圆族η>.0089。两新源码未执行，真实有限Φ/U舍入与二jet读数保。R728准备从原R703自然终态一次必要入图/全列修正，之后才冻同E。
+## 已完成计算的真实输入
 
-[R727](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md)已把四窗归一真盘，实际X0/全相位四开边框、三curl等价及P投影二jet/误差、分方向C²和h⁴Q薄领缩放都明确。R729正建单盘完整求解；全域根/含窗法球/全时同g仍欠。
+[两份接收归档与全部精确绑定](notes/2026-11-28-completed-receipt-archive-bindings.md) 已恢复 R695/R711/R643/R631/R702/R707/R705/R703 及 R714 自然终态；没有重跑科学。第一 artifact **15268777040** / ZIP SHA **4984be237dfef952f2e1406b67c42ddeb072344790fe1ecb490eb46bc1bc84c0** 保前八项原 literal/源码身份/费用。第二 artifact **15269471319** / **ed0eb01838ce3a8668e7d4851cae6a42dd1baab398b47b73a0bd76dd12501a15** 保细字段及 R714 原 literal。两者分别到期 2026-12-28 15:12、15:33 UTC。新的消费者必须核整个 ZIP 和成员，不从摘要伪造参数；大数组只作必要续接 artifact。
 
-## 环境中断时未发布的真实稿件
+原七任务及 R714 均已自然 success；这不授科学通过。终态已读，正在逐项登记全部结果与当前未完状态。R710 run46152424706 仍待自然终态，不读运行中日志。R703 只恢复原源，新增科学0。
 
-[R716](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md)已发表规范共享二jet/全条带Hessian与同材料metric改量。独立重构源码 r716_canonical_paid_strip_recovered.py 为12060B、83de2a0a65b34da6514be8a8ee8217b870413c9c651fecc2dee9097cf2d07b58，世界D0保h*−h_bin；未执行。原丢失论文69c2306f…/源码48792825…身份不冒已恢复。
+A/R707、B030/R714 的原完整细扫、角定位队列、真实保留点与不同未接纳试点必须分清；不清空旧缺失前缀债。BVP 的十端/ODE/ruling 绝对门和全历史不降；R695/R702 保已付方向与区间未闭前沿。R711、R643 必须原固定 g；R631 仍是 μ0 的变 E 设计而非宏观同g相位。R705 有真已付140×140 normal 与实际 q；源相位几何已失败，不单独重复失败资格。逐项详细终态条目随接收记录写入，旧工单的全部费用在原 literal 及旧交接保持。
 
-R717 真实R636原速度续接包已完成源码审阅但未发布。原脚本664923147b2df0573433ca5efaa1e64b6125a4d33684a0ee1cef9cb2ab606465；原请求187828B、9d6a46e75f33072a0ea6901f782982f597e950d3079c69091a77d0d265b346dd，超过集成传输限制，不分块传送。真R636 run46145970226/job140982002231/source3d0aa274542bc7e2132b5a495918fbcf7e662568：新3597.401352018秒/88接受、总207，257q 51dc60ef7642baa7ac65de7efd2a5166ff73f94ec092b6e0c340df7188cb5790；十端.01500077/ruling1.1487e14仍未根。402真多项式键可复用，旧90J未保存。原solve/257列/18块/正势/Armijo/绝对门不变，144步6600/240；新实际cache/operator仅artifact，不把输出大数组入库。原源日志和旧费用保留，不重播。
+## 环境恢复后找到的未发布稿件
 
-R718 已准备八件有符号矩新续接包但根未全文读、未发布。原 request SHA0841e7c03973941f3ead2aa5f0c9f5f2b0f07abc83cee31e857060ce229ee81c。两处“径向目标积分”术语修订在失效前尚未写入/重绑。接R703真run46151140087/job140997832329，新448.583230591秒/62接受/63J/5783列、157参数；η.1326972/真实closure.00165223/目标积分.14789808/κ31.4622，未冻E。R722 的有限补项是新数学，不冒已运行资格。
+原 R716 源码 **11413B / 487928256cdc0bffd2aef6b5259dbb546e54dc604e4779032ba3ec4e5837f869** 与论文 **11942B / 69c2306febe4c9818fbeb705c16cc3a2584345d9651fe65895e3d071b6ab0b51** 均已重新读到字节身份；与已发表的独立 recovered 源码不同，不互相冒充。碰撞原稿先保存到仓库外再 pull，未删。现 [R716 论文](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md) 和 recovered 消费者仍为条件性规范共结/全条带 Hessian、未执行，世界零阶保 h*−h_bin。
 
-所有未推送文件目前只知最后确认的内容/散列，执行环境恢复前不声称磁盘可读或已持久保存。恢复后先看自身磁盘/已完日志，可重取日志宜无损压缩；不删他人文件。
+R717 原速度续接源码/187828B请求也恢复且 SHA 9d6a46e75f33072a0ea6901f782982f597e950d3079c69091a77d0d265b346dd 正确，仍未发布；原 R636 总207、十端.01500077/ruling1.1487e14未根及旧90J未存保账。R718 八件原稿仍未发，R722有限补项与两处“径向目标积分”修订须先落实，不能把目标积分当实际未等距母线长度。R719仅局部接口原稿保留，完整镜像源已由R721排除。
 
-## 已发布计算与不重复费用
+## 完成门与继续规则
 
-A：R707 接真实d76保留场及不同ada2未完半步。新419网改变实际tail累计primitive，旧16337×3072资格不能搬。原8J104AD及126/128块费用留；新2400/120，全p.8/η1e−7/几何门不减。逐行峰充分统计只存真完整前缀，未实现未来自动restore。
-
-B030：R714 接真实516保留场与不同97559b试点的4261原定位，后者原coarse/fine/nested已付，队列0完成；只续原队列，不重已完30468。真82阶H/32乘子、7物理+7工作待加、outer36 trust均保。19J未存，原2400/30、所有费用/失败保祖链。
-
-BVP：R710 run46152424706 接总149/f8512fb6、十端.0794，续真未闭左−.1高度余支及P，96步6600/240。R702 run46150227928 接44接受8d0fd67b，真对齐十端约6e−17但ruling5.087e14未根；91合格/23违界/411未闭真键及22025闭叶保，72步6600/420。R695 run46148919282 接204/78e9a6e，144步5400/240。R717 原速度接207见上。所有ODE/ruling/history1e−7、十端1e−8门及全历史不降。
-
-同g：R711 run46152161518 接R691真4874参数58接受、双细η2.80873e−5/κ29.5533；原固定g、全部列Rayleigh/双L²/全奇异方向、真实两网/全几何/三量下降，3500/150。R643 run46134171516 真1566列0d9aη2.21791e−7，固定86da/H.5188903877/amp1e−5/τ1，先原d1f8四分步，18000/6000。旧3JQR及R6185400秒0接受/Y差15/16均保。R631 run46133637169 接真宏观b7e0/μ0，P/Pdot1451→1707→2219全列，18000/1800；旧6673秒51接受119拒/52J51QR未存不消。
-
-闭窗：R705 接R688八真实dense NPZ/artifact15266032481和17收据，全部140新列、真同轴下领半转/整冠σ、三curl/两口/全部五导/全壳双网，2400秒。原独立范数385.6173/κ218.588/法弦146.42977未解，源g未冻。真实原q只初猜，旧ODE不播。
-
-14:55 UTC已核R695/R711/R643/R631/R702/R707/R705皆自然completed/success，仅元数据，不授数学通过。R707 run46153308216、R705 run46153586472；R714 run46154358456与R710当时仍运行，未读活日志。公开只读接收器将恢复完整终态/成本/真实参数，原计算不重跑。R648–653/R658/R663/R668/R672七来源连续误差/分母/法管债及所有旧未完保原文，R668仅自然已付场3%信用/25秒。
-
-## 真实几何与完成门
-
-R690真冠/桥、R699/R700帽—宽肩—恒柱、R706帽—活动主片、R709解析负领、R712已给组件全有序对均有严格限定；未知窗不能借证。R696/697宏观含真实全域e及σ，R713/K10.4短肩全幅已排。详细常数在原结果和旧H，不重做。
-
-完成须闭连通M、全t C²嵌入及连续族、同一个固定g、固定握持开集≥.2D、未对齐整像dH≥.3D、全t reach≥.03D；全点全时metric≤1e−6后必须同g自然精化到机器/求解容差；真多t网格与严格存在差距诚实。然后追.5D或严格存在。δE可0但不能换对象。继续 open.md 的实际未解任务，不以时长、局部完成、缺输入或环境故障收尾。
+完成须闭连通 M、全 t C² 嵌入及连续族、同一个固定 g、固定握持开集≥.2D、未对齐整像 dH≥.3D、全 t reach≥.03D；全点全时 metric≤1e−6 后必须同 g 自然精化到机器/求解容差；真多 t 网格与严格存在差距诚实。然后追 .5D 或严格存在。δE可0但不能换对象。未知窗不能借已给件资格。继续 open.md 的实际未解任务，不以时长、局部完成、缺输入或环境故障收尾。

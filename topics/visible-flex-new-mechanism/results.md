@@ -19,3 +19,5 @@
 - **R727（已证明的等价方程与真实输入）**：[一张物理盘、三curl和四开边二jet](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md)。R724余四窗由反射归一盘，给实际源/全相位正则边场；curl0准确等价同g，边差b′=−∫curl给保四真开带的实际投影和全域误差。分方向正则保非零残差C²，薄领以h⁴Q消差；R729尚待真实求解。
 
 - **R716（已证明；独立重构消费者未执行）**：[规范共结二jet与真实有限条带Hessian](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md)。从原已付二进制Bernstein准确有理重建C²母线，世界系付h*−h_bin，真实位置张量系数给同片/异片/帽门与同材料度量改量；一个相位不代全时，重构未冒原丢失字节。
+
+- [R729：第一共移外盘源的真实端弦障碍](results/R729-a-true-outer-disc-end-chord-obstructs-the-first-comoving-source.md)：完整路径给相对度量误差下界>.023；原请求未执行，换源继续。
