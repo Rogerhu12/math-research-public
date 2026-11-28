@@ -1,22 +1,15 @@
 {
-  "message": "ISP: combine three Phi heads to 392 exceptions; first full Vlow and W Newton boundary",
-  "parentCommit": "6911c06ce5a90b0cd03232a9a42d0f19fc44e63b",
+  "message": "ISP: W Newton boundary excludes three valuation rays and retains six",
+  "parentCommit": "6e6bc85a6888b3331288f19cda8a517709525b48",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-complete-Vlow-two-original-cofactors-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-complete-Vlow-two-original-cofactors-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-two-weight-curves-first-1009-Newton-boundary-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-two-weight-curves-first-1009-Newton-boundary-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-t-full-vlow.yml",
-    ".github/workflows/invariant-subspace-8542-w-b0-newton-boundary.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-392-new-Vlow-Newton-1900-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-392-new-Vlow-Newton-1900-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-392-new-Vlow-Newton-1900-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-392-new-Vlow-Newton-1900-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-three-excluded-1009-Newton-directions-and-six-retained-boundaries.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-two-weight-curves-first-1009-Newton-boundary-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-Newton-return-1905-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-Newton-return-1905-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -25,8 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-t-full-vlow.yml",
-    "invariant-subspace-8542-w-b0-newton-boundary.yml"
-  ]
+  "dispatchWorkflows": []
 }

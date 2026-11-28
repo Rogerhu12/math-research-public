@@ -1,0 +1,536 @@
+{
+  "schema": "isp-W-b0-first-Newton-boundary-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "file": "2026-11-28-unit211-W-b0-two-weight-curves-first-1009-Newton-boundary-8542.py",
+    "git_blob": "949603d59e973899c9aa297898d7602f50d4e637",
+    "sha256": "3488407b0ff5b510d4fbcc03b26fa9f8eb6ff5339fc9303e491d0577b9b621cc",
+    "bytes": 8462
+  },
+  "run_id": 46151924451,
+  "job_id": 141000221915,
+  "execution": {
+    "elapsed_seconds": 3.0142919999999975,
+    "max_child_rss_kib": 70204,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "75480e54fa7ccf3ff39b925bf7184e3eb1c83a77",
+        "before": "53649d1575a460810c42229e6b9fdad16e3e5158",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T13:54:36.687149+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46151924451",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "53649d1575a460810c42229e6b9fdad16e3e5158",
+    "source_exit_code": 0,
+    "source_git_blob": "949603d59e973899c9aa297898d7602f50d4e637",
+    "source_sha256": "3488407b0ff5b510d4fbcc03b26fa9f8eb6ff5339fc9303e491d0577b9b621cc",
+    "stdout_bytes": 11198,
+    "stdout_sha256": "bf53e91de91ba255d613bad599ec30bbdf567550ce52f2f91f9a0b995f0c73d8",
+    "stop_reason": null
+  },
+  "parameter_identity": {
+    "exactSHA256": [
+      "61f94d2de21fb53f992abded0c670a8f7e529319f38396ac904e77824d80b8b9",
+      "59387d311d686962932c2d15325bf139b47d9ad6a19fa566c24cdab1f8e7bd2c"
+    ],
+    "oldCompleteScalarReturnsRemoved": true,
+    "oldQQWeightGCDNotExecuted": true,
+    "onlyNecessaryCoefficientDefinitionsRegenerated": true,
+    "originalDefinitionPrefixBytes": 9855,
+    "originalDefinitionPrefixSHA256": "b4211e655c4cc8bba963db0858334a21243285575472fc92ca1cf9aa46d0111d",
+    "seconds": 2.9154667130000007,
+    "stage": "existing_C74_D78_parameters_defined"
+  },
+  "newton": {
+    "allRationalCoefficientsPIntegral": true,
+    "allVerticesPUnits": true,
+    "commonPrimitiveInwardNormals": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "noFullWeightAlgebraOrOriginalFiberConclusion": true,
+    "polygons": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          36,
+          22
+        ],
+        [
+          41,
+          32
+        ],
+        [
+          41,
+          33
+        ],
+        [
+          23,
+          51
+        ],
+        [
+          6,
+          51
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          20,
+          5
+        ],
+        [
+          39,
+          24
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          43,
+          34
+        ],
+        [
+          42,
+          36
+        ],
+        [
+          23,
+          55
+        ],
+        [
+          6,
+          55
+        ],
+        [
+          0,
+          49
+        ]
+      ]
+    ],
+    "prime": 1009,
+    "seconds": 2.9451460319999967,
+    "stage": "new_fixed_prime_Newton_polygons_and_integral_vertices"
+  },
+  "faces": [
+    {
+      "actualCommon": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 23,
+          "degree": 5,
+          "sha256": "57df3e882403199d7a62ee0186eb4f52bdc4049fd50d23289d481b666496e830"
+        },
+        {
+          "bytes": 20,
+          "degree": 4,
+          "sha256": "e635bb6a981796e4a129db6990ec664301a4b4037aa2939587f31b69f2452942"
+        }
+      ],
+      "minimalWeights": [
+        -50,
+        -54
+      ],
+      "noCommonNonzeroFaceRoot": true,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        -2,
+        1
+      ],
+      "remainingBoundaryRetained": false,
+      "seconds": 2.9461549109999936,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 74,
+          "degree": 18,
+          "sha256": "67abe6b6cb0ca530a19f41168a1d5929bba1b21e9d422ec050cc147ecb796b79"
+        },
+        {
+          "bytes": 79,
+          "degree": 19,
+          "sha256": "eb2fe08cfbe5c1cf04c4bd9e7f2a96de0f4602986399f832e561827db9231aec"
+        }
+      ],
+      "minimalWeights": [
+        -74,
+        -78
+      ],
+      "noCommonNonzeroFaceRoot": true,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        -1,
+        -1
+      ],
+      "remainingBoundaryRetained": false,
+      "seconds": 2.9481885709999887,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 5,
+        "degree": 1,
+        "sha256": "0902273898c615b9a33636abdae05602410f12cc0d35e663887e9cbb006d4208"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 5,
+          "degree": 1,
+          "sha256": "0902273898c615b9a33636abdae05602410f12cc0d35e663887e9cbb006d4208"
+        },
+        {
+          "bytes": 8,
+          "degree": 2,
+          "sha256": "0392d9f19c4d290360995821794360698542985833832ea1949b534e1fb4b395"
+        }
+      ],
+      "minimalWeights": [
+        -41,
+        -43
+      ],
+      "noCommonNonzeroFaceRoot": false,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        -1,
+        0
+      ],
+      "remainingBoundaryRetained": true,
+      "seconds": 2.949407070999996,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 61,
+        "degree": 15,
+        "sha256": "be71af6e52e3023b74b5b0355d9465cdcd9aa6239429025f9af0e42b30eca38e"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 73,
+          "degree": 17,
+          "sha256": "b6ffca7c2ca07bcd7736691fd4d7735d70b1cfc0580c3fc7cfe9a7676564ca06"
+        },
+        {
+          "bytes": 76,
+          "degree": 19,
+          "sha256": "62d6c99eab867e4932dbff9d408d1450f72fe18a8684585b424000c3ae2ba146"
+        }
+      ],
+      "minimalWeights": [
+        -14,
+        -15
+      ],
+      "noCommonNonzeroFaceRoot": false,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        -1,
+        1
+      ],
+      "remainingBoundaryRetained": true,
+      "seconds": 2.9508656689999953,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 13,
+          "degree": 2,
+          "sha256": "c4e16f8eccf6af1168c06783803478b9bbb6927c99b13c64012ce1fc07609e4b"
+        },
+        {
+          "bytes": 16,
+          "degree": 3,
+          "sha256": "dac3e87ce30bc5b750b34f33d29ac94975a0f44daa54b7cecaa4d7510d2c47a0"
+        }
+      ],
+      "minimalWeights": [
+        -10,
+        -11
+      ],
+      "noCommonNonzeroFaceRoot": true,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        -1,
+        2
+      ],
+      "remainingBoundaryRetained": false,
+      "seconds": 2.952052309999999,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 13,
+        "degree": 4,
+        "sha256": "d5278f9ebb81e8635d7ca3f2b6ff500fe0bbc43c6747e28753f97b6fbea1ad3a"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 73,
+          "degree": 17,
+          "sha256": "44ac3db78c3ebb630d008c4cb23c7e423147b51c3dc0129781fdd0f0ab34b8c0"
+        },
+        {
+          "bytes": 70,
+          "degree": 17,
+          "sha256": "128082eb05324a56d91bde9a3ddb82cb2980f472134857bd13b26c7d4b829544"
+        }
+      ],
+      "minimalWeights": [
+        -51,
+        -55
+      ],
+      "noCommonNonzeroFaceRoot": false,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        0,
+        -1
+      ],
+      "remainingBoundaryRetained": true,
+      "seconds": 2.954081019,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 30,
+        "degree": 8,
+        "sha256": "a8f46300dbceb7d6f68490421b145f0ff8b8fc81d696ea0f0df25421c22ba6fb"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 44,
+          "degree": 10,
+          "sha256": "b8cc9cd9f448a6872b0243e3c7526cb5509a9bbb78274d76ab5daf48cc62906f"
+        },
+        {
+          "bytes": 46,
+          "degree": 11,
+          "sha256": "bb4664f9f902030b1fa190e1c9131f4a27caf2efc427ef47f6e636b610c68500"
+        }
+      ],
+      "minimalWeights": [
+        0,
+        0
+      ],
+      "noCommonNonzeroFaceRoot": false,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        0,
+        1
+      ],
+      "remainingBoundaryRetained": true,
+      "seconds": 2.955167032999995,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 24,
+        "degree": 6,
+        "sha256": "e25de8187b29b32fdc85a5cdda9664b545f510350263dfead49cc7ce046f1de5"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 29,
+          "degree": 6,
+          "sha256": "a83845434b4f471fc7606276ed952fddf6f987f34bce60b1f6f33eb96c0db470"
+        },
+        {
+          "bytes": 29,
+          "degree": 6,
+          "sha256": "9416b24ed990684f4fbe1188711422faabab7eaa3a3504ab6171231610148938"
+        }
+      ],
+      "minimalWeights": [
+        -45,
+        -49
+      ],
+      "noCommonNonzeroFaceRoot": false,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        1,
+        -1
+      ],
+      "remainingBoundaryRetained": true,
+      "seconds": 2.9563074679999914,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    },
+    {
+      "actualCommon": {
+        "bytes": 132,
+        "degree": 33,
+        "sha256": "5eca20ebca5adfe2ab212aeaa3fd080a8c6c0140089c75378a8f307b79bd4347"
+      },
+      "facePolynomials": [
+        {
+          "bytes": 179,
+          "degree": 45,
+          "sha256": "1e1a171fb25c420cabd2757387854f300ae7a958e0a56c3c5028276beb6e54f0"
+        },
+        {
+          "bytes": 195,
+          "degree": 49,
+          "sha256": "b8a6cc1a9b6940d6454a328fdaac4045c7f120a7e9c914b7de3e67b577d4befd"
+        }
+      ],
+      "minimalWeights": [
+        0,
+        0
+      ],
+      "noCommonNonzeroFaceRoot": false,
+      "ordinaryBezoutReturned": true,
+      "primitiveInwardNormal": [
+        1,
+        0
+      ],
+      "remainingBoundaryRetained": true,
+      "seconds": 2.959175340999991,
+      "stage": "new_common_Newton_boundary_original_face_result"
+    }
+  ],
+  "statistics": {
+    "completeFaceBezoutReturns": 9,
+    "exactDivisionProducts": 86
+  },
+  "scope": {
+    "nonzero_1009_valuation_rays_retained": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "excluded_common_rays": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "nonzero_valuation_exists_claim": false,
+    "all_weight_coordinates_integral_units_proved": false,
+    "complete_original_integral_model_proved": false,
+    "whole_b0_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "artifact_policy": {
+    "coefficients_saved": false,
+    "old_scalar_proof_gates_replayed": false,
+    "old_C74_D78_QQ_gcd_replayed": false,
+    "fixed_prime_retried": false
+  }
+}

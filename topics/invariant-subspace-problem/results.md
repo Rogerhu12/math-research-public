@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：W/b0固定1009的三条已排赋值方向及六条保留边界](results/R150-appendix-unit211-W-b0-three-excluded-1009-Newton-directions-and-six-retained-boundaries.md)：949603唯一3.014292秒/0，全部系数p整/顶点p单位，九共同Newton边完整Bézout。排(-2,1),(-1,-1),(-1,2)；非零赋值向量只可能其余六射线，未证存在或全整性/原排空。
+
 - [R150：正确Phi三个真实头的例外权支持至多392](results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md)：新H28 QQ不可约总28与旧corrected overlap头H14非零总14，纸证互素/复零维交/Bézout392；三头同零只可能在该有限交，外部有18生成模型。只收紧例外权支持，全部几何纤维与独立尺度保，无新执行。
 
 - [R150：正确碰撞整个Delta零分支的有限DVR原单位终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)：eb63f唯一2.70292276秒/0，两完整谱域在p1009首个合格点返回倒z首一3与真E1的九源单位。由同域u/Q整性、有限模/Nakayama排全99/300嵌入，合旧三小因子及幂次/CRT闭整个当前Δ0；Δ非零及普通ISP保留。
