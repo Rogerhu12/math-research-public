@@ -300,3 +300,6 @@ GIB：全负域原B_j及Hε^{-1}范数<64、幂≤21·27^k/(2√20)。含两原A
 
 
 GSF：原G.6/G.9的R(w0)保完整B、两原Airy状态与input，实际秩一抵消留下Tφ=O(ρ²)；原顺序一次genuine B分部取得H^{-4/3}→L²(dr;H^{-5/3})费用，再乘同根窗已付J<2。新入口从176whole原格只算支持相交67格的全部θ及θφ，加根到cut原整复条；13pins与AST核过、各自然格完整gzip/原子SHA及dyadic可续矩，尚无actual科学结果。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GBC：在原GG两个whole actual成功后，保同1424格真hybrid、left96/right97含mean的193个齐次边值列；整root/cut/weightedouter及两全193 Gram均有向保存。原signed Wc构造97+96 M0，先真internal门后以PD的两margin和det验证完整physical逆；尚无GG列或物理门数值，不替代原TP历史。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

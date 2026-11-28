@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GBC：193个真有符号边值列和外端物理预条件](results/R149-supplement-all-signed-hybrid-boundary-columns-and-terminal-physical-preconditioner.md)：在原GG两个whole actual成功后，保同1424格真hybrid、left96/right97含mean的193个齐次边值列；整root/cut/weightedouter及两全193 Gram均有向保存。原signed Wc构造97+96 M0，先真internal门后以PD的两margin和det验证完整physical逆；尚无GG列或物理门数值，不替代原TP历史。
+
 - [GSF：原首个genuine秩一强体源的实际全域入口](results/R149-supplement-first-genuine-rank-one-forcing-in-the-original-strong-window.md)：原G.6/G.9的R(w0)保完整B、两原Airy状态与input，实际秩一抵消留下Tφ=O(ρ²)；原顺序一次genuine B分部取得H^{-4/3}→L²(dr;H^{-5/3})费用，再乘同根窗已付J<2。新入口从176whole原格只算支持相交67格的全部θ及θφ，加根到cut原整复条；13pins与AST核过、各自然格完整gzip/原子SHA及dyadic可续矩，尚无actual科学结果。
 
 - [GIB：原两光线矩阵幂和真剖面对变形的接收](results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md)：全负域原B_j及Hε^{-1}范数<64、幂≤21·27^k/(2√20)。含两原Airy行/两输入列的整物理n²(B−H^{-1})W接收≤W*/2500，径向L²≤W*/175000；保持同点潜势水平集与物理乘子顺序，不替代完整B自由部或未付强迫幅。
