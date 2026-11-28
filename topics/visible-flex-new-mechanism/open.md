@@ -43,17 +43,17 @@
 
 此线设计g仍在变，不与R618 target合并；[固定圆参考接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)要求全部源/mean/高度/轴/primitive一致，新δ/α/K须本场支付。
 
-## O4：十九态真实dde0，消除目标失配
+## O4：从stored状态改为真实C²曲线及完整历史目标
 
-[原射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)：run45929264941/job140277823907，35.473169463999966秒，2接受后12请求不可用自然stall；state dde0460d…，原19×65/10参数/LD三规范和unit3967798143562589。fine1153 ruling3.582856751115203e13、真十末.3097586172447263；stored十末0不代真实积分。
+[一致W自然终态](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)：run46118007213/job140896050071/source1e2226f3，新增722.781991255秒；60次完整J、60trial/60solver接受，旧不可用方向停滞消失。末state206ec1ae…、19×65/10参；原ODEmax4.620976215392211e13、577点真十末.4083369853906008、真ruling3.973066077055209e13，1153fine在物理盒检查失败。具体越界字段未打印，h贴3只是嫌疑；fine资格pending、非根。
 
-末36个free方向均有正的原未缩行rᵀJd；原方向解用正对角W，原射线/接受却用未缩行目标。下一统一同次完整J给出的W：活动模式、射线、当前真实trial及Armijo用同W，下次接受后重建，跨W的merit不比较。保全原方程/物理盒及ODE≤1e−7、stored/true十末≤1e−8、ruling≤1e−7、true/stored历史≤1e−7绝对门。策略重启与旧末λ/trust分别记录；旧12次失败和所有费用保留。
+真正缺口已从源码定位：逐步new_end<=old_end是stored八A/末双速度（始终0），而真实积分十末/ruling/历史一致只进最终完成判断。故60次加权Armijo下降不等于真端改善或物理fine通过；下一不能原样续60次。统一W本身的下降证明仍成立，保原失配修复价值及全部失败费用。
 
-当前h在原577点第573点接近3、L接近2.1，完整L三次链/h活动约束与正交零空间保持。原真实曲线重新积分η/8A/6rho并按同物理L/规范重装两ruling，不拿stored历史代真曲线。来源同态fine可复用，新接受置pending；原配点门先过才处理已声明129网离散缺陷。
+下一用同一65节点C² Hermite h/k及其完整自由度，η/八A/六rho由实际曲线积分，真实端和ruling进入残差/全Jac，消去独立stored记忆。四奇A按原真尾锚、末双速度按真实曲线、ζ0按真实中心身份处理；ζ1/ζ2仍是全程常量。R612的真实动能缩放图可从K<1输入进入动能端零集，但缩放后全部h/k/eta/速度/长度物理盒重新支付。新公开必要重建同时输出原206e细网越界attainer，不另开旧60步重放或仅诊断。
 
-[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)、[R620](results/R620-fixed-width-center-jet-gauge-chart.md)、[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)、[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)、[R626](results/R626-terminal-positive-quadrics-and-complete-intersection.md)、[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)依原真实端前提消费；末方程阈值不授全程返回。
+此前R609/R614/R616有限Fourier族及其四偶约5e−10/ruling约1e14失败已登记，不能换名再跑；新65结点样条自由空间和真记忆消元是新输入。旧dde0曾完整fine可作为物理可行来源，但并非真端或ruling根。原ODE≤1e−7、stored/true十末≤1e−8、ruling≤1e−7、true/stored≤1e−7门不改；大数相消的绝对舍入地板须由实际精度处理，不改成归一完成门。
 
-原母18块576微包、ε1/12000、正势系数1和原十九态/十参数保持，不能把大数相消改成normalized完成门。根后仍须第三/第四period、十三规范、frame/位置/闭pose、嵌入及宏观reach。R603/605/609/614/616旧失败及全势/真历史条件见继承open，不重旧已闭输入。
+[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)、[R620](results/R620-fixed-width-center-jet-gauge-chart.md)、[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)、[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)、[R626](results/R626-terminal-positive-quadrics-and-complete-intersection.md)、[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)依原真实端前提消费；末阈值不授全程返回。原母18块576微包、ε1/12000、正势系数1及完整原历史保持；根后仍须第三/第四period、十三规范、frame/位置/闭pose、嵌入及宏观reach。
 
 ## O5/G：同场连续几何、全时间及最终网格
 

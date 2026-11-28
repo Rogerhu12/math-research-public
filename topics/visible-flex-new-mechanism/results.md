@@ -499,3 +499,7 @@
 ## R629：准确非线性三矩、自由帽逆与双核有限块
 
 [完整证明](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)：未解近欧氏平面度量自身等温坐标给三曲率矩；固定三维投影必恢复完整方程；自由内帽0/1模积分逆、准确旋转尾图及非奇异双核Green块。全频统一逆/特征返回仍未解，不套Hu单核结论。
+
+## O4一致W自然终态与真实端目标缺口
+
+[原日志结论](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)：run46118007213的60次加权下降均接受，但真十末/原ODE恶化且1153fine物理越盒；逐步末门实际为stored量，真条件仅最终判断。记录真实206e及完整费用，下一改同一C²曲线的真实记忆目标，不原样续跑。
