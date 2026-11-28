@@ -525,3 +525,7 @@ R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/1
 ## 2026-11-28 — own fixed QR 完整半径、placement、定义与全几何入口
 
 [新四阶段最小入口](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)独立适配真实accepted_fixed来源，原placement main及高度后缀、QR几何width→reach完整标量段原字节保持；实际source/g/profile/mean/packet/physical-H/cut/node index均绑自己，不假贴anchor标签。定义使用实际完整图与默认r=a/2帽，未改g。原complete metric collector可直接收真实同场完整metric。新源compile及四CLI help真exit0，原数学段实编译；未执行科学输入、未造新阳性、未重算旧field。
+
+## 2026-11-28 — 严格 λ=.064/M24 完整映射输入恢复
+
+[真实回执](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)：14227的attempt000已通过原accepted_original全部门，1134点/RMS1.9779458545532175e−7/metric1.284368451621618e−7/physicalBC2.6538521277607947e−19/mean1168/δ.06809746571178646。四全步/零拒/两完整QR，314.883s、664340KiB；run696a79d1…、raw b5945fee…、physical af16685f…源/hash实核。较严tol2e−7、全映射与原方程/列/BC/metric均保留；这是历史已达λ的必要恢复，非新前沿。控制器已自动接attempt001 λ.128，未为报告停算。

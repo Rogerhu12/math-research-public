@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `391ffa4b3397539351a6d15800ef54a3ce5e01ab`（2026-11-28 18:56 UTC）。
+- 最近实际pull后双README已读锚 `afa8e89d720ac0b289d490fc0406edb2ac9f3563`（2026-11-28 18:58 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -13,9 +13,9 @@
 
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)：q=warp=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50，首升速0→9/20单缓坡。原线性根δ=.06809451565377872/r=1.1349085942296453、calibration/root-profile已按原SHA恢复，不重搜根或重走旧高k排除支。
 
-**当前真正接受锚：[λ=.032/M24](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)**，1051→1103节点，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。真实65581/owner/child全exit0/剩余0；原accepted_original/prefix_gate/finite checks及全源/raw/physical/hash已实际通过。run SHA `903b4abfbec686308820cd69700a0be104d763af8fa010aae2cd1e2a3c854490`，out `held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128`；必要恢复非新λ前沿。
+**当前真正接受锚：[λ=.064/M24](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)**，1134节点、RMS1.9779458545532175e−7、metric1.284368451621618e−7、physicalBC2.6538521277607947e−19、mean1168、δ.06809746571178646；4全步/零拒、314.883s/664340KiB。全部原门及全源/raw/physical/hash已实际核过，run696a79d114b835ec8bc4eb8a1a3acd5a166fe5bd39003c53e0d89a36e8ff6449。out当前连续目录attempt-000；必要恢复，非新λ前沿。前驱[真.032](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)原样保留。
 
-**当前唯一活算：TTY14227，18:51:16.998 UTC**，out `held10-design-work/R87-strict-mapped-material-continuation-20261128`，command SHA54188afc…。真.032和previous真.002/M16→.064/.128/.256/.512/.75/1；.256至少M32，完整跨模双源割线，tol2e−7/全部原门、全CSR/QR映射/RHS8/每mesh实际预算/正式stop保留。
+**当前唯一活算：TTY14227，18:51:16.998 UTC**，out `held10-design-work/R87-strict-mapped-material-continuation-20261128`，command SHA54188afc…。已真返.064，当前attempt001 λ.128；继.256/.512/.75/1；.256至少M32，完整跨模双源割线，tol2e−7/全部原门、全CSR/QR映射/RHS8/每mesh实际预算/正式stop保留。
 [.032工程终态与完整映射源](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)：原73924 child−9且真join，原因未知；已保存5全步的完整1051×73/p24 checkpoint904db0f9…并由65581原样续算。真join后才清自有映射；未λ二分、未重算5步、未改方程/门。
 
 旧视图最高真接受λ=.128/M24（run7f8bfa03…，metric6.3560e−7、mean1168）raw已不可读；当时λ=.256/M24/M32/M40的metric分别8.8414e−5/1.28584e−6/1.24844e−6未门，M40有952点/RMS9.69144e−7。旧M48无接受、89083真exit1原因未知。[M40小回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒旧JSON逐字恢复；这些只是历史，不用旧场替代当前锚。
@@ -40,13 +40,12 @@
 
 ## 5. 已付严格结论与剩余责任
 
-[R91](results/R91-period-mean-compensation-and-wider-core-box.md)给A≤8/9盒及全λ κ<3723/314；[R94](results/R94-binary64-core-window-period-budget.md)付真实S*/b*舍入仍同预算。
-[R95](results/R95-actual-core-normalization-from-positive-inverse-average.md)用完整字面支持系数正权逆函数平均/全二阶余项包真beta，原λ.128/M24实例GL12/24格误差<9.207e−5，代数曲率<11.85678<12.3。只付归一化标量；[当前.002真core](notes/2026-11-28-analytic-r87-actual-true-core.md)已原oracle全276扇区格实返，仍不能搬给新λ1的A/core/全图。
-[字面柱长预算](notes/2026-11-28-r87-literal-cylinder-budget.md)已付实际半长.0025/.005：第二全长略大于1/100，仍保H/held/reach三比例严格余量及R93两长因子。完整图前提仍欠。
-[R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)任意N=3J有限明确相位≤2π/9<4/5、至少一柱长活动矩非零，以及full-E(3)显式表面距离界。实际新λ1的矩/帽/全几何尚欠。
-[R96](results/R96-complete-marker-hessian-two-variable-psd.md)完整有理三重帽Hessian范数≤23/10：4个全二维主子式、8矩形准确整数Bernstein，主证0.150s、6512系数交叉核真0。仅改进导数界，未选新r/eps或改g；新幅度还须实际support/高度/全图预算。
-[R92](results/R92-complete-refined-chord-space-and-residual.md)全维细网格弦准确可逆运输及完整逆残差；旧880点仿射DN前缀通过但未启新native，旧J/V不能移到新λ1。
-旧λ.002/q=.06的R82/R89/R90几何/full-E3/全时metric已付（详历史档）；非λ1/final-H/同g精化。旧失败及未知回执保留，数组不可读，不重算1152段。
+[R91](results/R91-period-mean-compensation-and-wider-core-box.md)/[R94](results/R94-binary64-core-window-period-budget.md)：实际S*/b*、A≤8/9盒给全λ曲率预算。R95真实beta正权区间与[真.002 core](notes/2026-11-28-analytic-r87-actual-true-core.md)已付；不能搬到新λ1。
+[字面柱长预算](notes/2026-11-28-r87-literal-cylinder-budget.md)：实际半长.0025/.005保H/held/reach三严格比例及R93两长因子，完整图前提仍欠。
+[R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)：N=3J有限相位≤2π/9<4/5、两柱长活动矩与full-E(3)距离界；新λ1的矩/帽/全几何未付。
+[R96](results/R96-complete-marker-hessian-two-variable-psd.md)：完整有理三重帽Hessian≤23/10，8矩形准确Bernstein、6512系数交叉核真过；未选新r/eps/改g，新幅度仍须全图门。
+[R92](results/R92-complete-refined-chord-space-and-residual.md)：完整细网格弦可逆运输与逆残差。旧880点仿射DN前缀已过但未启native，旧J/V不能搬新λ1。
+旧λ.002/q=.06的R82/R89/R90几何/full-E3/全时metric已付，非λ1/final-H/同g精化；数组不可读，1152段不重算，未知/失败不改写。
 
 ## 6. 恢复与操作边界
 
