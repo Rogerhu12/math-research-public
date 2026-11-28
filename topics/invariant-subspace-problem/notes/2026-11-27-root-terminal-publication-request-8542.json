@@ -1,17 +1,15 @@
 {
-  "message": "ISP: first new corrected Phi whole NPV grade-five original leading matrix",
-  "parentCommit": "b7ff84587aa09aafcaf57832d3633af89e2372b9",
+  "message": "ISP: prove whole corrected Phi t-parameter three-mean module and monic lambda cubic",
+  "parentCommit": "19f6af89334740755cfdfa8f9bbc7180541d96a0",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-NPV-five-whole-leading-matrix-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-NPV-five-whole-leading-matrix-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-NPV-five-whole-leading-matrix-8542-root-static-reading.json",
-    ".github/workflows/invariant-subspace-8542-phi-npv5-whole-leading.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-Phi-NPV5-whole-leading-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-Phi-NPV5-whole-leading-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-whole-t-three-mean-root-reading-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-whole-t-three-means-lambda3-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-t-three-means-lambda3-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-npv5-whole-leading.yml"
-  ]
+  "dispatchWorkflows": []
 }
