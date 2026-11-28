@@ -173,3 +173,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:05:57 UTC — 22官方取消及完整末次观察；真实运行边界保留
 
 22官方job completed/cancelled至06:51:08Z（research06:51:03Z），原因未知。末完整观察仍b34824 accepted3、reachg.5235597907246015，480be只有统计，完整final/typed未返；保官方全对象、全末观察及旧同步槽，停止误示活动。06:47/07:05两个实际重置的终端唯一探测均失败，未冒pull。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`bd1c23f3faee6d621c8a678fcaeb1939a8898f22`无变（非pull）。
+
+## 2026-11-28 07:06:29 UTC — RET78 完整闭源终态控制器输出退役
+
+只退19–21七精确旧索引/分卷264570B；新增完整来源台账/说明/总表114137B，净释放150433B。完整九实际阶段命令/输入输出身份/42+1原错误、137源角色、各原request/全部queue版本/6科学pure ready/N38参数与32whole留存记录保；全部metrics按原wholeGit及fence/member逐一固定，不把未返改空。19 job success不冒N成功，20/21取消不补原因/final/typed；现全launch/终态/异常证据留树。固定恢复c81a76206aa5627989fd1763cc7ff3639e457fe4；只精确七路径普通删除。完整恢复见[总表](computations/terminal-fejer-actions-retention-78-complete-delivery.json)。双README云核至`0d248aeb34028fc9a39d3ef47ea454d5bc9918d9`无变（非pull），活输入不动。
