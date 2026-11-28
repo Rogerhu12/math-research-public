@@ -46,6 +46,8 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R290 --> [R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)排除两个原场；[R292](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)再排除升高.08但保旧帽的场，reach/D<47/2800。非局部核与帽点对都须支付。
 
+<!-- 2ecf-R293 --> [R293](results/R293-higher-complete-caps-and-reach-grafting-without-radial-protrusion-condition.md)实际较高整帽：新帽球由旧平盘法球并控制，最小双点变分补双向；无需高点ρ>.514。核reach≥.096且全高≤min(.635,Z+.13)即够原厚度，核metric/reach仍另付。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong真单位材料速度/强几何完整位置，m12正解析中央/真Γ95与适配支撑平面，exact真实无限m2尾/新短前缀与非线性幅度；root整合全图几何、真实尾域与新输入；R280直推平台已转向保全无限尾的相似扩展。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -54,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:42:37 UTC；已读公开 main `8bfd5836aed115307959845aebab54ea58d4673f`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:43:13 UTC；已读公开 main `27017ff2c9323b9016f4c0aa5650647373d3fd27`，根/课题 README 逐差无变化。

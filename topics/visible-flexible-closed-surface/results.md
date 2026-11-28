@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R293：较高整帽与无需超高点远径限制的完整reach拼接](results/R293-higher-complete-caps-and-reach-grafting-without-radial-protrusion-condition.md)（已证明的条件构造；真Z+η=.635，帽完整两强比例；核reach≥.096且全高≤min(.635,Z+.13)已经够原.03比例）。
+
 - [R292：真实抬高核心与旧固定凸帽的严格点对障碍](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)（已证明；141全频与216真实修正给reach/D<47/2800，必须更换实际图或整帽）。
 
 - [R291：真实无限低帽的全相位嵌入和两个强比例](results/R291-embedded-infinite-low-cuff-strong-shape-family.md)（2026-11-28）：整闭明确嵌入与两指标同时成立，共同正厚度未量化；同固定 g 的实际误差仍大。

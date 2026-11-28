@@ -38,6 +38,12 @@
 
 [R289](results/R289-two-strong-shape-ratios-for-the-true-infinite-low-cuff-core.md)实际保整真实无限尾并将cuff准确换至.32，低帽Z在R215窗；整个闭材料像held/D≥.203125、含反射δE/D≥.05073291，大固定开帽与D≤3.2均已付。对应实际新场独立metric约.13214、κ12.156，仍欠嵌入、完整reach和原容差。下一条实际正向输入用严格层高的真实凸截圈和同空间映射保嵌入，再作同g全位置改进。
 
+[R287](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)已完成真正p32全部64径格、准确Γ95及所有.02至.06 coast截取的全前缀reach，原长≥.108、全截取≥.098，不再重做此前缀。后缀及其跨片仍需独立支付。
+
+[R292](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)证明真实抬高.08后旧整凸帽导致reach/D<47/2800。因此现真正改用[R293](results/R293-higher-complete-caps-and-reach-grafting-without-radial-protrusion-condition.md)较高完整帽，Z+η=.635；新法球拼接取消旧超高点ρ>.514限制，核心只需reach≥.096且全高≤min(.635,Z+.13)即可达原厚度比例。新真实432位置的有限观察与后续连续全核证明各按自己的源登记；不拿条件帽定理代核心完成。
+
+[R291](results/R291-embedded-infinite-low-cuff-strong-shape-family.md)的全相位真实无限低帽新族已证明整闭嵌入及两强比例；其同g精度仍大，只有未量化正reach。继续从真实物理极径、层高和全空间位置构造新的可定量嵌入场。
+
 ## 2. 强目标最终必须同时具备
 
 1. 一个实际完整闭C2位置族，同一目标g及全域全时误差；完整中央、两端端口、全部尾、cuff和固定帽。
