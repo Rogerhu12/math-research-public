@@ -6,7 +6,7 @@
 
 公开最近成功的终端 pull/双 README 检查为 **3bbf2a55692c7986dfdb391fc46b4c4593cfd2d5**；环境失效前最后本课题终端推送 R715 为 **14438fb45fb7e617c4eae0c230396ab4b305600e**。私库最近成功的终端 pull 为 2026-11-28 13:40:01 UTC、**8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**。14:32 私库 pull 因磁盘满失败，随后执行环境不可用；不能登记为成功 pull。
 
-终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **865dfb4182c8153aa5161a47f90cd26e95c9bb41**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
+终端失效后按根第8条改用 GitHub 集成，仅传小于100KB的文本文件。最近公开 API 同步及双 README blob 检查至 **90d09faf0ff6081e36964d100e0354cf645552c1**；私库 API 2026-11-28 14:40 UTC 至 **3845c770b3272465152f44d744e3ea35a74fbde3**，QUEUE 仍为本会话。公开根 blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、课题 d0432faff569c8e9af7ed4809847e12880976c11、私库根 1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a 均未变。API 检查不冒称终端 pull；环境恢复后立即 pull/rebase、查差异并恢复每小时 pull。
 
 根16已读；所有子代理显式 gpt-6.2-astra/ultra，当前三名均无下级。每结论独立提交推送；非快进先读新 head、保留他人变化重新接续，禁止强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析。根12不重复机械审核；根15不存可重算大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -19,6 +19,8 @@
 R723 真去同片镜像与新长座仍在推进。[R724](results/R724-comoving-central-crowns-and-four-outer-pulses.md)已证新四外脉冲使中央四肩/两整冠全幅同g共平移，四真负领及所有已给件法弦≥1/10.4；参考D<3.004，宏观须真ρ/δ/e条件。余四外盘由反射只独立求一盘，R727继续三curl/真四边/全时几何；Gauss重数旧账不能搬。
 
 [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md)已证闭纬圈实物二jet及联合全部(t,φ)的共同E精确区间/最优η；严格余量可选平端E后冻结。R680未改圆基仅调E仍η>.10。R726改非圆有限傅里叶输入继续，不借原小采样误差。
+
+[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md)已证双复系数闭纬圈及完整RA/RB，η/曲率/图门清正分母成全点多项式；K0圆族η>.0089。两新源码未执行，真实有限Φ/U舍入与二jet读数保。R728准备从原R703自然终态一次必要入图/全列修正，之后才冻同E。
 
 ## 环境中断时未发布的真实稿件
 
