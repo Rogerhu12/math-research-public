@@ -132,8 +132,8 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:03:19Z",
-  "phase": "candidate-return",
-  "terminal": false,
+  "phase": "scientific-return",
+  "terminal": true,
   "child_started": true,
   "parent_reproduction": {
     "original_scientific_terminal": {
@@ -388,7 +388,7 @@
     }
   },
   "child_pid": 2840,
-  "child_returncode": null,
+  "child_returncode": 0,
   "latest_observed_scalar_line": {
     "ordinal": 66,
     "utc": "2026-11-28T12:21:32Z",
@@ -1090,7 +1090,62 @@
       "status": "completed_parent_comparison_design_and_two_frozen_resolutions"
     }
   },
-  "whole_runner_field_files": null,
+  "whole_runner_field_files": {
+    "complete_inventory": {
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/complete-field-file-inventory.json",
+      "bytes": 1873,
+      "sha256": "fc59a2c694ba8029b29b1dcc705094655d5bfa49555f6c8a903807c540f85e18"
+    },
+    "original_file_count": 9,
+    "complete_file_records": [
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/current-field.npz",
+        "bytes": 11126,
+        "sha256": "f019e708445ea7cf0deb27ee77c8039ea82bee7b9832f382e6356bfa38951e33"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-00.npz",
+        "bytes": 1894,
+        "sha256": "3d63d361128eafd9e163320818565cd47cb81e2bdefdc9db33e21fa350943652"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-01.npz",
+        "bytes": 1894,
+        "sha256": "69b3a19290f26e7ef18fb26b09303e8a1fef7c84f938fa603750ff81d21ca93d"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-02.npz",
+        "bytes": 1894,
+        "sha256": "fbf7df4c62a7cec5d5a6ba76c8da3e106490c674ae8ae140119720f3b22d60d7"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-03.npz",
+        "bytes": 1894,
+        "sha256": "095380066f21710a4e779c88908a31b1434015978a2f9a3f82f3978124505ec1"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-04.npz",
+        "bytes": 3910,
+        "sha256": "9565c7820efc237dc808f30ff0c00d78849ab1ea246886f2809973c08ef01062"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-05.npz",
+        "bytes": 5798,
+        "sha256": "5710401acdb0456389d261b4eefa645b203fce0240dc1680e0c01a2c33cb62fe"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-06.npz",
+        "bytes": 6390,
+        "sha256": "2f4c1b5addfb138d089a0f8d306da9da4d31b1b1777961557020f152da8b6ae6"
+      },
+      {
+        "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/stage-07.npz",
+        "bytes": 11126,
+        "sha256": "ff2cb1bb158913c9dc681f7d27dad56415fb5e465b70babe03468206d059f76c"
+      }
+    ],
+    "best_field_records": []
+  },
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
   "dependency_command": [
@@ -1119,5 +1174,13 @@
   },
   "child_started_utc": "2026-11-28T12:06:00Z",
   "observed_utc": "2026-11-28T12:21:39Z",
-  "original_scalar_line_count": 66
+  "original_scalar_line_count": 66,
+  "child_returned_utc": "2026-11-28T12:21:44Z",
+  "stdout_stderr": {
+    "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/complete-scientific-stdout-stderr.log",
+    "bytes": 8046,
+    "sha256": "50df21b33c8390ff4ce2008d25cc8ede2442a4adae1942748d42906b9f9cbca9"
+  },
+  "complete_scientific_stdout_and_runner_field_retained": true,
+  "final_observed_utc": "2026-11-28T12:21:44Z"
 }
