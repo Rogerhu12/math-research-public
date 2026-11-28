@@ -52,7 +52,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 强比例、连续几何/whole reach和真正同g收敛仍未完成。R233原背景界不借给变化后前缀。原fixed链/新g设计链各继续，不以一个子任务结束停工。
 
-<!-- 2ecf-total-prefix --> [完整prefix元素16](notes/2026-11-28-2ecf-m12-prefix16-correlated-total-Gram.md)真0/291.123s，全部27实际交集及全角U<6.102217e−11<B；真u、X+C+W同式，全部tensor余项已付；其余prefix/bridge/cutoff继续。
+<!-- 2ecf-total-prefix --> [原前缀四区与共享余项](notes/2026-11-28-2ecf-m12-prefix-four-regions-and-shared-remainder.md)：151片≤1.235521e−9；全前缀在算。
 
 <!-- 2ecf-total-tail --> [原尾17478全cell](notes/2026-11-28-2ecf-m12-tail17478-correlated-total-Gram.md)×全角总Gram真0/61.084s，U<9.715674e−10<B。24原块准确核回，全V/W/真u保留，背景uniform余差单付；其余有限尾/内端闭合继续。
 
@@ -66,4 +66,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:27:37 UTC；已读公开 main `3c4235d3ad186d9f7170274e6e42c10d8c5cedda`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:27:48 UTC；已读公开 main `d86fd833a887548175b76609b332c4fa5308bd2e`，根/课题 README 逐差无变化。
