@@ -369,3 +369,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:04:23 UTC — RET89 六终态任务的完整非触发followup空白整理
 
 19/20/21/24四个完整followups仅删字符串外空白，22/23已紧凑不动。六份官方终态记录、六workflow/request/controller whole身份及仅request触发核对全部保在13596B/9ff9f73a0689fd3cfa0adfdab495b5fa2343caeeca605f678d2b0dda5f716b58全账，说明3838B；复用RET88完整再生器。原固定b9c4fbd6d0a109177f6d66d1973ee5a3eeed4e8e完整恢复，所有字段/argv/token保；request/workflow/controller不写，26–33活queue/request不动。毛34119B、附件17434B、净16685B，未把小收益写成更大数。 双README云核至`40da28db2b3e002530b62c8745ff3d3f839e1d24`无变（非pull）。
+
+## 2026-11-28 09:07:04 UTC — 25同run续跑的官方取消与最后完整观察
+
+官方25 completed/cancelled08:39:51Z，原因未提供；末索引08:34:59Z确认restart新accepted0、四分之一步拒、八分之一步仅统计，无新final/typed。原science/pure0与父accepted4独立保，旧槽已移除，不伪排新pure。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`aa329de9cb1a7eee9911648965214bedfffd8979`无变（非pull）。

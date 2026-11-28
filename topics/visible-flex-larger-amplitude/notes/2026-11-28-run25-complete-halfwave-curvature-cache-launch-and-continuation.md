@@ -1267,3 +1267,126 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 09:07:04 UTC — 25同run续跑的官方取消与最后完整观察
+
+官方 GET https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/jobs 返回 attempt1/job140839831948 completed/cancelled，completed_at=2026-11-28T08:39:51Z；科学执行步08:39:43Z cancelled。响应没有原因；不从时长、停滞或父run猜原因。以下保全部响应字段及所有步骤。
+
+```json
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 140839831948,
+      "run_id": 46099929359,
+      "workflow_name": "Visible larger amplitude complete half-wave curvature cache and locations 20261128 25",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVt5L2s8AAAAgyrVJjA",
+      "head_sha": "007348e5c8bd943a13704d7761cf9d4d6b06fea6",
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140839831948",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46099929359/job/140839831948",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-28T02:49:29Z",
+      "started_at": "2026-11-28T02:49:30Z",
+      "completed_at": "2026-11-28T08:39:51Z",
+      "name": "Construct the same fixed target and solve the complete half-wave with exact dk reuse",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T02:49:31Z",
+          "completed_at": "2026-11-28T02:49:31Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T02:49:31Z",
+          "completed_at": "2026-11-28T02:49:39Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T02:49:39Z",
+          "completed_at": "2026-11-28T02:49:44Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T02:49:44Z",
+          "completed_at": "2026-11-28T02:50:05Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 5,
+          "started_at": "2026-11-28T02:50:05Z",
+          "completed_at": "2026-11-28T08:39:43Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2026-11-28T08:39:43Z",
+          "completed_at": "2026-11-28T08:39:43Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-28T08:39:43Z",
+          "completed_at": "2026-11-28T08:39:44Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-28T08:39:44Z",
+          "completed_at": "2026-11-28T08:39:44Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140839831948",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012502,
+      "runner_name": "GitHub Actions 1000012502",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
+```
+
+末完整索引固定3a38882e887dae0688835ccd9b1b41c7eb6d24c6，observed08:34:59Z，source f250c57887597755b6aa9cc67afa7e1da9c8959f/PID12394，driver7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910、model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef。原science/pure0和父accepted4独立保；restart-01新accepted仍0，当前a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf，Phi681.6450227773521/Gram.40616533555531326/reachg.5225620087197518；全六族、K12.262152585881132、D_point_lower4.117172734319764及准确热点/未知全保原索引。
+
+四分之一步596a530c788e88ccb94ecbdd0f16d4df3bd349d9fd460ac3516b55173cef2e90已真实完成并拒绝：reachg.522561396446142/Phi681.6450215326289/Gram.4061653355797046。之后alpha.125的8f375b5d6745979dbe42f3e3aad3143b7b9ed896eac3543b4fe780b8007cf8da于08:28:15.886127Z仅返自身Phi681.6450221549917/Gram.4061653355675088，几何/接受仍null。restart complete_report=false、stop_reason=null，没有自然返回、完整新final或新typed；不将原父final冒作新返回，不排缺少父的新pure。H旧运行槽已在R730提交移除。完整源参、restart6件、原预算与全读数保留。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 41187,
+    "sha256": "45c225c2b52da148ec25c116fd40684e62e57fd15052cad4449a42e6a68c0e87",
+    "git_blob_sha": "5b78bc523489b271d859e5f2b4925a0d3b14abae",
+    "fixed_commit": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
