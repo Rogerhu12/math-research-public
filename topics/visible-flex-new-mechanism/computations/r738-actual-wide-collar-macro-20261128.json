@@ -1,0 +1,90 @@
+{
+  "paid_r734": {
+    "run": 46164643330,
+    "job": 141039363519,
+    "head": "df08b6a9be5cd73386323f253b7e56ac27fcd906",
+    "artifact": 15270773103,
+    "artifact_bytes": 2210591,
+    "artifact_sha256": "3fea0c6612e098159a5ea42540810a60ca4b215285a638b2ea8ea6001bf953a9",
+    "terminal_bytes": 144011,
+    "terminal_sha256": "a220b21fab92536d5a50bedc6d69b43c301b2eeda9827bdacadf663b2313134c",
+    "journal_bytes": 7643515,
+    "journal_sha256": "4db22d7323c1ba41df6ad28bfb5c8fd5bc1f81f738050b97b6d472c5afccd2cc",
+    "journal_unique_keys": 8558,
+    "scientific_fingerprint": "49974e9a223b472eae325e552d99c16880a2fb2d4dd98147e04af31141d24eb6",
+    "weight": ".03125",
+    "relative_width": ".025",
+    "receiver": {
+      "run": 46166444893,
+      "job": 141044922067,
+      "head": "2d72a416489a734aca57bd2cd2c43e28ce2e6cf6",
+      "artifact": 15272300475,
+      "zip_bytes": 4897727,
+      "zip_sha256": "8fe3fb1988e07479e747186261daa662a33dc1e926cb85e3bff917d2ad22c4e0",
+      "journal_member": "R734/tail.jsonl",
+      "terminal_member": "R734/final.json",
+      "io_seconds": 19.983584276,
+      "new_scientific_evaluations": 0
+    }
+  },
+  "cell_depth": 11,
+  "native_tolerances": [
+    2e-11,
+    2e-12
+  ],
+  "base_orders": [
+    24,
+    48
+  ],
+  "fixed_reference_order": 64,
+  "peak_scale": 0.045,
+  "metric_weight": 1.3,
+  "geometry_weight": 2.2,
+  "axis_guard": 0.3,
+  "cone_guard": 0.14,
+  "length_weight": 3.2,
+  "work_betas": 193,
+  "fine_betas": 2049,
+  "check_order": 4,
+  "check_split": 2,
+  "check_angles": 65,
+  "cross_order": 6,
+  "cross_split": 2,
+  "cross_angles": 97,
+  "final_order": 8,
+  "final_angles": 129,
+  "goal": 1e-9,
+  "freeze_eta": 0.000001,
+  "rim_tolerance": 5e-8,
+  "reserve_seconds": 150,
+  "initial_trust": 0.015,
+  "retarget_trust": 0.008,
+  "max_trust": 0.24,
+  "column_block": 8,
+  "stages": [
+    {
+      "K": 3,
+      "spans": 8,
+      "depth": 0,
+      "order": 3,
+      "angles": 37,
+      "iterations": 14
+    },
+    {
+      "K": 5,
+      "spans": 16,
+      "depth": 1,
+      "order": 3,
+      "angles": 49,
+      "iterations": 18
+    },
+    {
+      "K": 6,
+      "spans": 32,
+      "depth": 2,
+      "order": 4,
+      "angles": 57,
+      "iterations": 22
+    }
+  ]
+}
