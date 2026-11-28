@@ -1,0 +1,45 @@
+{
+  "sourceSHA256": "359458b9b598460fcacaf3fbb6e8b1e270149a533ddc06ed543e5c573e592097",
+  "sourceBlob": "05c1ebdc879f2f19320e7e6b8c8882fb6cc4c21e",
+  "runId": 46137597172,
+  "jobId": 140956290972,
+  "entireActualStageLogRead": true,
+  "receipt": {
+    "elapsed_seconds": 16.083766749000006,
+    "max_child_rss_kib": 104260,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "09704f725016b494b5185532d4c313ea7ce42394",
+        "before": "09704f725016b494b5185532d4c313ea7ce42394",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T10:57:57.864269+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46137597172",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "09704f725016b494b5185532d4c313ea7ce42394",
+    "source_exit_code": 0,
+    "source_git_blob": "05c1ebdc879f2f19320e7e6b8c8882fb6cc4c21e",
+    "source_sha256": "359458b9b598460fcacaf3fbb6e8b1e270149a533ddc06ed543e5c573e592097",
+    "stdout_bytes": 14701,
+    "stdout_sha256": "d47737eff2fe83eb4a79a070f02f9473c36a1ae66544c54499a5a4475d1b3949",
+    "stop_reason": null
+  },
+  "checks": [
+    "Source exit 0 and final stage present; unique first fixed gate completed inside declared 120s 1GiB budget",
+    "All four original value rows returned: R6 coefficient lambda degrees6,5,5 and Nlow/Plow/Vlow each5,4,4; exact total-degree caps retained",
+    "Raw individual N4B/P2B both even and odd three-coordinate columns returned from same correct dual Gram",
+    "T/z actions added12 relations total,24 new action-coordinate checks; exact auxiliary27-column I10 scope only",
+    "Two complete new original cofactors each return all three coordinates, six total; actual multiplier common content constant in both, all weight denominators paid",
+    "Nonconstant necessary cores have lambda degree10, total degree94 and98; no whole Phi exclusion",
+    "1044 new multiplication coordinates and852 new DAG nodes; no cached coefficient payload, no old full proof gate",
+    "All original I6 and all common-head/physical collision fibers retained; equations are necessary, not a physical sufficiency or finite-point claim"
+  ]
+}

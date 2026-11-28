@@ -7,12 +7,12 @@
 - **规矩8/15/16：** 只保源/定义/run/SHA；旧编码仅runner临时历史输入。[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。根README新规16已读fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d/99c5ad8，今后新派显式gpt-6.2-astra/ultra。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 5296a5e5640e9b3cdd392e565a6ac74654d2313e（2026-11-28 10:57:39 UTC，Actions run46137574839实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46137574839-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 10:57:38 UTC/69dcc5f7d7211186bd053f0ecbf11e6c03ec3df7，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 24527a6a4809d10c3969e2fe3c73b5f60fffb1fc（2026-11-28 11:00:42 UTC，Actions run46137799312实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46137799312-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 11:00:41 UTC/fd1c65f4d8ebfeb8be84027071e94861571ad298，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 10:04 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。11:04再探，旧故障保归档。
-- **终端断开后远端已读：** 4eb85811803c27360deb5e69e401e56d547bd8f2（2026-11-28 10:57:20 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** ccd1da8f2e4559cad23fc85461963545706ad949（2026-11-28 11:00:23 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Haar-separated-fees-and-first-Phi-NV-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-individual-NP-full-NV-actual-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -37,7 +37,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，真Pf全域已核。** 八原源付Pf，Δ0再付Φ；C1/C2/C4真Gram闭，旧错R/cofactor冻。正确17阶只余F99/F300各一次，≤399基点、整个Δ0≤4788不同规范点。ad00整K99首试180.077秒118780KiB/−14冻结，仅参数及单P三次返；P/M联合u-gcd、同Q/原八z均未返。F99/F300与Δ非零全保，换真新输入。
-- **Phi错链撤回，真t0/A0/B0/fu/α0全闭。** 旧错链/bf3/d825冻，d0χ6/8/8保。真I6十五×三；两λ6共同头权≤434，ed0非零F∈I6权度≤444、2.470秒/0。434外有限18权生成，特殊权上有限C[λ]三生成；ρ/h1首一二次给整个固定规范图维≤1，非有限/非空。05c1个别NP及完整NV四原行首次待返，保D正乘和原I6全部纤维。
+- **Phi错链撤回，真t0/A0/B0/fu/α0全闭。** 旧错链/bf3/d825冻，d0χ6/8/8保。真I6十五×三；共同头权≤434，ed0非零F∈I6权度≤444。434外有限18权生成，特殊权有限C[λ]三生成；ρ/h1首一二次给规范图维≤1。05c1新R6/N/P/完整NV四行16.084秒/0全返，27辅助列及两λ10原式，全零纤维保；非有限/空，续特殊权原z/D正目标。
 
 ### rankH3原ess6
 
