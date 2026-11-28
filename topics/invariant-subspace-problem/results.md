@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：正确fu同点C92原覆盖与261权对](results/R150-appendix-unit211-Phi-zero-true-fu-C92-same-point-original-weight-cover.md)：固定12坐标容器中前18原列给常数1，全部DAG分母付C92^13；实测rad88，独立原u0全排除后87个u与至多261权对。全部原y纤维保，.470012789秒/41612KiB/0，非整支排空。
+
 - [R150 unit211：正确fu支的t−2和θ原单位](results/R150-appendix-unit211-Phi-zero-fu-t-minus-two-and-theta-original-units.md)：真R给x=u+t/4，真odd mean给r0=δEBo+(t−2)B0，再由E0线性式给θ=u−ellQ的完整原逆；全部u0保、不借旧错头。直接纸证，未另称执行。
 
 - [R150 unit211：整B真四原乘子返回C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)：终端七源完整反传并从首一q提升到四原式，最终实际分母91次仅剥已付→C76∈I4一次；完整QQ因子2/34/40各一次，≤76不同权对，三整原纤维保。4fb唯一.569564090秒/44912KiB/0。

@@ -1,0 +1,346 @@
+{
+  "elapsed_seconds": 0.470012789000009,
+  "max_child_rss_kib": 41612,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "46fd2e364a6459d12d88ca7f6d9cf591156e715c",
+      "before": "46fd2e364a6459d12d88ca7f6d9cf591156e715c",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T06:57:48.313274+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46118971095",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "46fd2e364a6459d12d88ca7f6d9cf591156e715c",
+  "source_exit_code": 0,
+  "source_git_blob": "2d054ee9b45fe69103e83b5335a4d2786d769ead",
+  "source_sha256": "e35e019e9ee84448b8e4e5afc31c81f449b8b515598329e2fb8c2e38d4870aa6",
+  "stdout_bytes": 8334,
+  "stdout_sha256": "bbcca9f762dc371de8f8ca305279fad7551cd09ba03df78b8c6f9a6034d50fe8",
+  "stop_reason": null,
+  "job_id": 140899028896,
+  "source_actual_records": [
+    {
+      "allQQPsiComponentsAndRepeatedFibersKept": true,
+      "basis": "Q^i*y^j, 0<=i<3, 0<=j<4",
+      "coefficientCoordinates": 12,
+      "exactOriginalColumnDefinitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          2
+        ]
+      ],
+      "maximumInputUDegree": 24,
+      "noYHeadOrWeightNormInverse": true,
+      "oldCofactorAndGBExecuted": false,
+      "onlyQQ_uModuleContainer": true,
+      "originalFullSourceSHA256": "9d591ab41ed41cc7dbee8ac3e9ce326ef68348455751ae9ad1cea954a7d463cb",
+      "originalInputColumns": 24,
+      "originalMonicPsiDegree": [
+        6,
+        3
+      ],
+      "originalNecessaryPrefixSHA256": "54dbe25a1f8492f333978e9b3da60f96359ef64eb6c1e4c1ae211fdaf9a0711a",
+      "seconds": 0.3605182720000073,
+      "stage": "new_fu_same_point_original_container",
+      "yQuotientAlgebraClaim": false
+    },
+    {
+      "actualQQ_uRank": 12,
+      "allTwelveCoordinatesReturned": true,
+      "exactZeroRemainder": true,
+      "physicalDInverted": false,
+      "remainderNonzeroCoordinates": [],
+      "seconds": 0.3851032620000012,
+      "stage": "new_fu_actual_original_target_return",
+      "target": "one",
+      "yAlgebraClosureAssumed": false
+    },
+    {
+      "actualQQ_uRank": 12,
+      "allPureUCoverZeroFibersKept": true,
+      "allTerminalAndIntermediatePureUDenominatorsCovered": true,
+      "completeOriginalPointFinitenessClaim": false,
+      "coveringExponent": 13,
+      "denominatorLCM": {
+        "degree": 103,
+        "sha256": "6df08c5bc26002d21192dc5d6b35ab5f772cc9163d7a21bd82609e241d2eda25"
+      },
+      "differentUPointUpperBound": 92,
+      "differentWeightPairUpperBound": 276,
+      "everyRawOriginalScaleOnlyPaid": true,
+      "identity": "C(u)^N*target belongs to the original five-value ideal",
+      "noWeightNormInverted": true,
+      "noYHeadInverted": true,
+      "ordinaryISPClaim": false,
+      "originalInputsUsed": 18,
+      "physicalDInverted": false,
+      "physicalTargetIdentity": "Dval=ell*A2-T^2=bc*(h-k)^2 at original points",
+      "reachableOriginalDAGNodes": 60,
+      "retainedPureUCover": {
+        "degree": 92,
+        "sha256": "b5734ddd5b9e817918d65e41c32eaf20430c38785428cd0dce3ea901d0612e7d"
+      },
+      "seconds": 0.40855837099999803,
+      "sourceOfPsi": "already-returned original fixed scalar cofactor",
+      "stage": "new_fu_original_same_point_weight_cover",
+      "statistics": {
+        "QMonicShortDivisions": 25,
+        "QShortDivisionSteps": 152,
+        "containerCoordinateReturns": 312,
+        "edgeCoordinateReturns": 720,
+        "exactPolynomialDivisions": 3672,
+        "seedCoordinateReturns": 216,
+        "targetCoordinateReturns": 12,
+        "zeroEdgeCoordinateReturns": 72
+      },
+      "target": "one",
+      "wholeFuExcluded": false,
+      "wholePhiExcluded": false
+    },
+    {
+      "allCoverFibersKept": true,
+      "completeOriginalPointFinitenessClaim": false,
+      "differentUPointUpperBound": 88,
+      "differentWeightPairUpperBound": 264,
+      "factorProductAndRadicalPowerDivisionReturned": true,
+      "factors": [
+        {
+          "factor": {
+            "degree": 1,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          "multiplicity": 4
+        },
+        {
+          "factor": {
+            "degree": 1,
+            "sha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 2,
+            "sha256": "d71f9f52598e4818424f94e5562be3fab6a6071b552da03fd909bd55a4ac3e44"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 3,
+            "sha256": "b9c3ec80ceb4b466f4b39ea1095275a7a4b0e2ba228b2d48dfa5cc3c69aba074"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 7,
+            "sha256": "19a3e03640efb4a7e0441fcb8a2db0e5f7bd8f952a111fb32626c7289d91db9e"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 7,
+            "sha256": "6ebf8fe8c03d65798b1a67990fc53575aa1d9bb5c0bda87178be9795383d4795"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 9,
+            "sha256": "d110ff54a4b58503e2e14305bc81fa4bb39c09ead36461307f860a15792f0be1"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 9,
+            "sha256": "0408395e626084fa988e7ce51d692bf1417ebdb7b21c2b28a107e4123e51d62c"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 9,
+            "sha256": "da9b218fc9a916718f9f430e835146c631660e2bd40d329eef5fe4bd4e10ca44"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 11,
+            "sha256": "f91ffe7464bfd4a9bdb808eb0b5364a4b1b129b210344d9fc5711445e2876665"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 13,
+            "sha256": "2eb451e031b56bf522efbdf35f5d70a631a8e6f941a40b512480132daf62948d"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 15,
+            "sha256": "1a2aef2659c3333cf1c3aa9eab210caa3e260455dbd0b49701e29f913cff870c"
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degree": 1,
+            "sha256": "65262326e5ebbb4b87059ad3110cca2a0bc7a9222c93ac25c558dee70e3c011e"
+          },
+          "multiplicity": 2
+        }
+      ],
+      "maximumMultiplicity": 4,
+      "radical": {
+        "degree": 88,
+        "sha256": "a97425846cca6f9b8634fe74b47ea49d730ba34e08bb2cd7a69e592346d8d3a3"
+      },
+      "seconds": 0.4162353170000017,
+      "stage": "new_fu_exact_cover_support"
+    }
+  ],
+  "mathematical_consequences": {
+    "actual_covered_power": "C92^13",
+    "actual_squarefree_degree": 88,
+    "actual_direct_weight_pair_bound": 264,
+    "independently_paid_u_zero_branch": true,
+    "independent_source": "results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md",
+    "remaining_squarefree_u_degree": 87,
+    "different_u_Q_weight_pairs_at_most": 261,
+    "complete_geometric_point_finiteness": false,
+    "whole_fu_excluded": false,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "recomputable_large_factor_payload_saved": false
+}

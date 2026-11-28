@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头1,T,z非自由，旧错链/bf3冻；当前D非零t0/A0闭，fd9保B/G。整B十二×二含H3零、C2闭；[真四原乘子C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)一次属于I4，≤76不同权对，2/34/40次三整纤维全保；旧失败保档。[fu单y/Ψ](results/R150-appendix-unit211-Phi-zero-true-fu-single-y-common-weight-curve.md)deg(u,Q)=(6,3)，Q首一3，保y纤维；[fu新原单位](results/R150-appendix-unit211-Phi-zero-fu-t-minus-two-and-theta-original-units.md)付θ=u−ellQ、t−2，仅fu范围。新12坐标24原列首次120秒1GiB，不作y商或先倒D。
+真四头1,T,z非自由，旧错链/bf3冻；t0/A0闭，fd9保B/G。整B含H3零、C2闭；[C76∈I4](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)≤76权对，2/34/40整域保。[fu同点C92](results/R150-appendix-unit211-Phi-zero-true-fu-C92-same-point-original-weight-cover.md)前18列实际返1，C92^13、rad88；独立u0排除后87个u/261权对，Ψ对Q首一3，全部y纤维保。[fu原单位](results/R150-appendix-unit211-Phi-zero-fu-t-minus-two-and-theta-original-units.md)付θ、t−2，另付2u−3；未空，不重12×24门。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
