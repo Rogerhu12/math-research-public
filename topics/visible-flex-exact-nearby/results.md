@@ -591,3 +591,10 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 [完整证明](results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md)与[27新有理组合](scripts/fourfold_codazzi_height_pivot_saved_bounds.py)。CW/APHI/ASB同一未归一化NP列先消真实height，cP/cH∈(-1.543,-1.5208)、cA/cH∈(.2459,.2498)，原regular defect、raw E′a、参数chart/direct terms和独立Yb/Kb全保。新phase弱源原四窗148568/10512/4736/13989、world费用5.208/3.563；varying全局translation准确系数−cP/cH，不与fixed base常数消去混淆。
 
 原physical96整球除计算常数−.0253后联合误差<.0004532；原两mean全球保，合成physical98误差<.001663、whole norm<.063877。physical high97<.002121只属原density，B后仅原2^4608远尾同界，不冒Θ/incoming。27次新exact比较首算全过、旧科学0；剩余full reduced operator明确为HP.5，不授修正后Schur非零或core存在。
+
+
+### R149 TF：真实low193局部流、全有限横截与完整source/193atoms
+
+[完整证明](results/R149-supplement-true-low193-local-flow-and-direct-response.md)及[纯计算](scripts/fourfold_codazzi_true_low193_direct_flow_math.py)。对原WVC hybrid用变量矩阵Peano–Baker正反流/完整尾和前缀，不把interval exp当变量流；1424格的全部4273个97/96枢轴才授真实低逆。四源ordinary/S^-1/second-kind/high0保全signed跨格协方差、same-cell两三角、physical S及root97/outer96，二类逆保独立atoms identity。
+
+首actual入口86current/21history、manifest68583B/9bee97cd…，尚无新gate数值；旧SL/HS/trace/QR不重。只在未成功当前cell作4至64细分，成功prefix作业内复用，完整失败矩阵只private加whole SHA。即使成功也只授原hybrid低逆，不授全DF/CFB/finite-high/七端口/RHS或精确闭曲面。
