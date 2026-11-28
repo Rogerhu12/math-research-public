@@ -126,6 +126,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R758](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)：46156613563四路84拟合+72中相全返失败，末metric约2.85e5；R760物理Hessian证初K>21000排所需初reach，旧输入不重做。
 [R760](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)：真Cartesian初帽/低曲率右墙，新初reach.132/D<4.01/grip1.40，活动两卷/曲领全相同g；46158942274原四路全返待ownnote补，末metric约1.1e5仍败，继续改全帽/全卷。
 [R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：同R757初g的全闭成对场全相reach.106/D<3.50，.78/j2 grip.72/held>.739、真实体积差>.156⇒δE>.004。全帽g与负胞角行未付，法管仅覆规定场。
+[R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：同R760 g正弧长C²坐标六jet/720局部标量×三向，四路三层7+6相与两份39行gauge-only原预算；12Python冻结，真Gram/曲率另测，固定护领旧残差仍在，启动未作完成。
 
 [R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43成对末圈硬残差>.72；新两整帽真刚移、四缝全g准确、全相对应弦<.95<L，仍非整卷存在。开发帽全谱误差<1.31e−7；44释放两整圈共用三向A/B/C二jet。
 

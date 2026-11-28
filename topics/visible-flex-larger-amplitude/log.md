@@ -419,3 +419,7 @@ Astra-larger-e4e2a2bf-20261126：同固定g原stage6真点7b56ad6c的9×1549/全
 ## 2026-11-28 15:39:01 UTC — RET100K：17个已闭完整参数逐字恢复，净释放1,055,572字节
 
 已独立按完整复现程序、三个保留父参数和三组完整语义编辑重构17/17个原JSON，20份源/衍生文档顺序及每件bytes/SHA256/Git blob全部吻合；删除1,314,752B原衍生文本，五件完整恢复材料259,180B，净释1,055,572B。清单完整保留17次官方run及34个compute/report终态，失败/资源partial/owner退出/必要条件读回溢出均保持各原结论，不改成成功。原trigger树的17个参数blob/bytes均与被恢复文本相同；17份原科学结果、原入口或构造器及workflow、3独立父与现行127项完整身份均保，R762四源预留身份无退役引用。仅回收已闭full3/live128衍生参数；R732两支与33–44全部活源参、唯一状态和全部旧RET100恢复材料保留。完整复现入口 computations/reproduce_ret100k_full3_and_live128_parameters.mjs，完整清单 computations/ret100k-closed-full3-and-live128-request-recovery.json。不是科学再算或缩预算。 双README云核至`7a77f848cfddffa35ddf615c788f4d267aa1a235`无变（非pull）。
+
+## 2026-11-28 15:41:28 UTC — R762：正弧长全三项判据、全六jet坐标与四路完整物理求解
+
+刊出R762完整证明、gauge/solver/controller/workflow四件科学源和完整ownnote。冻结9父+3新Python=12，四路全部三空间层7原相/6中相，原12/20/30与12/16/20预算保；三向720局部标量空间、真Gram11/12/22与几何独立全图测量。两份39行gauge-only仅描述保持同一物理像的正C²坐标，不冒充缩误差/增厚证明；R760真初g准确保持，固定护领继承的原物理残差仍在，R764另换有曲率预卷真输入。完整源与workflow同次普通push触发，实际run/PID等待真实入口；不加fixture/审批门、不缩原预算。 双README云核至`bb99d4a1aaf7c8020f2e1fea9af1f733ef91dc3e`无变（非pull）。
