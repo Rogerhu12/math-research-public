@@ -10,7 +10,7 @@
 - **最近实际 pull / 已读规则提交：** 6a4375ffba4b6ef88ec5f267255c6e143a64a6e5（2026-11-28 00:14:11 UTC，Actions run46086753753实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46086753753-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 00:14:10 UTC/b7e7abb5a90c7c983d855ac7882a9e15fe93634c，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 约07:20 UTC起不可用，约22:00复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `a95c1e62e763d9144890c546db0cc624dfe21fb4`（2026-11-28 00:13:41 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `05aaa27cd9d2683dbe72acdc906184d3112a3916`（2026-11-28 00:18:26 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-moving-finite-root-graph-obstruction-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -36,7 +36,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k整个Delta0/J2/P25,3/G2/C4、两E全部u头零及u2全闭。** 3e52真0.892456749秒/0，六原结式C92=F23⁴及整QQλ23原Q二次gcd中物理乘积平方零，付u−2；两E头有限自由排除保留。原Q6头全付，五坐标≤235170；一般交点同Q/个别NP、仿射外u0/2和双∞角仍开。旧E37/QQu冻，h1/k1/5b2及全部精确来源保档。
-- **旧D≠0 Phi整H1已闭（含旧b0）。** a26a真4.821258866秒/0：QQ F5全原点、Dixon左核及S418证F5|P201，φ5幂1/整section使C5=O5、D真0；合C55/八单位块/F9排整H1。全当前Phi可付H6,4，原(1,T,z)三生成。新999ac从完整原NV/F6最高行作5×3权组合和过滤lift，120秒/1GiB首次待返；只付既有单位，全部新C0留。旧P6/P9非首一/λ头及个别NP开，不传D0。
+- **旧D≠0 Phi整H1已闭（含旧b0）。** a26a全原F5点/Dixon整回缩排整H1，合旧全部块，全Phi付H6,4、原(1,T,z)三生成。[新21生成图](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)：999ac真4.083557464秒/58608KiB/0，NV7/F6/N1三行Ce0全返，原Cλ7低6/5/5，C*≠0首一λ21/权模≤21。C*分次74/49、2403项整零留；续与旧P6头H19的完整交权支持和个别NP，不传D0。
 
 ### rankH3原ess6
 
