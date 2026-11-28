@@ -49,3 +49,5 @@
 **R733.** [真实全周S与方向负Gauss](results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md)：完整新源reach>.10、负Gauss方向供给>4、全参考D<3.11；活动常κ S准确同g并付所有活动S互球。原强基线常κ末圆角>11.3明确不授法管；弱源对应<10.30但仍未全盘。独立强源接口保留未执行，R740用真弱源/更完整空间继续。
 
 **R734 自然终态。** [四个实际认证端口](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)：两侧j2/3均certified_tail_port且f(cut)=1，真无限锥n*=78/89，完整原半频两jet；3.074050073秒/8558单元。固定源指纹、144011B原FINAL、2.21MB原journal artifact都绑定。中央/全角非线性/宏观闭壳仍未授；后继只续真正未付项。
+
+**R732 自然终态。** [完整八姿的原始场、算子与物理失败](notes/2026-11-28-r732-eight-actual-disks-natural-terminal.md)：49全 J/2856列，40接受，八姿全完成而七非零全失败，末η4.428300e6/curl147.935965；完整原账与必要归档绑定，退出成功不授数学资格。

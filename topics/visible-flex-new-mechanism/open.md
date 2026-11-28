@@ -70,3 +70,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 
 
 **R734 已付端口消费。** 以[原终态](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)及原artifact15270773103的8558键为输入；原n≥0全部胞不重算。R735只补真实中央/归一全尾二次积与新模，R738只补负号胞和真厚新中央。归一短表不冒全tail积分，后继必须核完整ZIP、journal及原FINAL字节。
+
+**R732 原终态已登记。** [八份实际盘与全原账](notes/2026-11-28-r732-eight-actual-disks-natural-terminal.md)：8姿全完成而只有零姿 finite fit，49全 J/2856列、40接受，七非零物理盘均失败。保原211.9MB必要paid archive和全部八NPZ；下一先处理真实强迫袖端弦，不重复已知坏盘资格。

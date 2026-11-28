@@ -101,3 +101,7 @@ R716完整证明与独立recovered消费者已发表；共结真二jet、真实S
 ## 2026-11-28 16:38:55 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R734自然终态
 
 run46164643330/job141039363519自然success后读取一次日志，四真端口均严格certified且非零分母归一，n*=78/89，8558新单元、3.074050073科学wall，无pending。实际Actions公开pull读e71d1f9f49a294b481725a68472bc87852ca653c、私库400180b92d706a60f7fce7e996e37a8c152bd3bc，规则blob/QUEUE均原样。原FINAL144011B/SHAa220b21fab92536d5a50bedc6d69b43c301b2eeda9827bdacadf663b2313134c，artifact15270773103/2210591B/SHA3fea0c6612e098159a5ea42540810a60ca4b215285a638b2ea8ea6001bf953a9。本地只读artifact HTTP403、接受字节0，不重跑科学；新公开只读接收器运输原R734 literal与journal并首次读取已自然结束R710原FINAL/paid对象，两种行政I/O单列。范围明确不含非线性中央或宏观完成。
+
+## 2026-11-28 16:56:01 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R732-terminal
+
+逐项读取自然终态的全部八实际盘、原63系数/9990×63 J、训练与验证真峰和全部计数；60.162956955秒/49全J/2856列、40接受，七非零姿均失败。原FINAL13011B及211908901B paid ZIP完整绑定，旧49J/728块不重做。真实强迫袖到袖短路正在两代理独立核实，先核输入再给新源算力。仅已完成日志解析，本地无科学执行。
