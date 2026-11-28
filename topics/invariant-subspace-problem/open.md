@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-whole-circle-shifted-roots-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-Bzero-rational-formal-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[真四头](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)给1,T,z非自由；旧错链/bf3冻。[整t0](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)付t/z。[真N1](results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md)六×二保B/G。[整A0](results/R150-appendix-unit211-Phi-zero-true-Azero-second-linear-and-whole-curve-exclusion.md)两支全闭，第二61.279秒三固定QQ结式，仅当前D非零图。B0 a15c末JSON失败，前置代数断言已过；续全原左核。
+真四头给1,T,z非自由；旧错链/bf3冻。[整t0](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)与[整A0](results/R150-appendix-unit211-Phi-zero-true-Azero-second-linear-and-whole-curve-exclusion.md)仅当前D非零全闭。[真N1](results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md)保B/G。[整B有理原图及六×二](results/R150-appendix-unit211-Phi-zero-true-Bzero-rational-and-exact-six-by-two-model.md)在H3/C2补图精确；a15c末JSON exit1但全部前置代数断言已过，末次数不虚填。H3/C2原零面继续。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

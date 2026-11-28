@@ -1,19 +1,17 @@
 {
-  "message": "ISP R12: whole-circle shifted-root costs on every continuous complex path",
-  "parentCommit": "cf678eac1f7c63118f1eb3a7a8ae4178e3d90f2e",
+  "message": "ISP R150: whole true B rational chart and exact local original six by two model",
+  "parentCommit": "25d72e678a9db6c42afcb4d932d485b856c63a1a",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R12-appendix-actual-shifted-roots-whole-circle-cost-and-continuous-complex-paths.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-zero-F8-complete-quadratic-original-eight-two-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-zero-F8-complete-quadratic-original-eight-two-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-alpha-f8-whole-quadratic.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-whole-circle-shifted-roots-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-whole-circle-shifted-roots-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-whole-circle-shifted-roots-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-whole-circle-shifted-roots-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Bzero-rational-and-exact-six-by-two-model.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-rational-original-six-by-two-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-Bzero-rational-formal-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-Bzero-rational-formal-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-Bzero-rational-formal-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-Bzero-rational-formal-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,7 +20,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-alpha-f8-whole-quadratic.yml"
-  ]
+  "dispatchWorkflows": []
 }
