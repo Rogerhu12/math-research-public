@@ -1,22 +1,18 @@
 {
-  "message": "ISP R107: positive commutators vanish; first whole Phi scalar coefficient base locus",
-  "parentCommit": "06c9d2e78a4b15c11972e3eef3fd7208ecf1b5f7",
+  "message": "ISP R150: exact Phi u-four factor and rank725; first true u-one transverse input",
+  "parentCommit": "f44e6c09210e7b616775a966ce89b03ccda25b9d",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R107-appendix-all-original-powers-positive-commutators-vanish.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-original-scalar-coefficient-base-locus-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-original-scalar-coefficient-base-locus-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-scalar-coefficient-base-locus.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-seven-row-e-module-first-timeout-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-seven-row-e-module-first-timeout-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-u0-four-factor-actual-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-positive-commutators-first-Phi-coefficients-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-positive-commutators-first-Phi-coefficients-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-positive-commutators-first-Phi-coefficients-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-positive-commutators-first-Phi-coefficients-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exact-u-four-factor-and-complete-integral-weight-model-725.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-u-zero-extraction-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-u-one-extraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-u-one-extraction-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-u-one-extraction.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-scalar-coefficient-base-locus-first-timeout-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-scalar-coefficient-base-locus-first-timeout-receipt-8542.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-scalar-coefficient-base-locus.yml"
+    "invariant-subspace-8542-phi-u-one-extraction.yml"
   ]
 }
