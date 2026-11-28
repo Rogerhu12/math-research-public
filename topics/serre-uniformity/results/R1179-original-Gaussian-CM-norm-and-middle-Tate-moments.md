@@ -673,3 +673,273 @@ $$
 也不把原 $\Delta_{\rm low}$ 或任何中央 correlation 的零性
 改写为 (GN.32) 的中槽零性。原联合纤维问题继续保其完整条件。
 全篇仍为纸面证明，无数学程序执行。
+
+
+## 12. 同一 Legendre 对的三个互补矩与原 bad 条件
+
+本节回到 R1154/R1161 的同一个有限 Legendre 对。记
+$$
+\nu=\begin{cases}(p-1)/6,&p\equiv7\pmod{12},\\
+                 (p-5)/6,&p\equiv11\pmod{12},
+\end{cases}\qquad
+P=\mathsf P_\nu,\quad a_\nu=P'(0),\quad
+V=\mathsf W_{\nu-1}-P\mathcal L_p,\quad q=1-w^2 .
+$$
+全部取于 $\mathcal A=\mathbf F_p[w]/(w^p)$，
+$P$ 奇、$V$ 偶、$V(0)=a_\nu^{-1}$。沿用原泛函
+$$
+\mathscr R(F)=[w^{p-1}]\frac{F}{q}.
+$$
+定义三个实际加权矩
+$$
+\mathcal T_3=\mathscr R(wPV^3),\qquad
+\mathcal T_5=\mathscr R(wP^3V^5),\qquad
+\mathcal T_7=\mathscr R(wP^5V^7).
+\tag{GN.35}
+$$
+它们不是把原 $\mathscr R(wP^3V)$、$\mathbf B_\nu$、
+$\mathbf U_\nu,\mathbf V_\nu$ 换成无权矩。
+特别，原首条件是 $\mathscr R(wP^3V)=0$，
+不是 $\mathcal T_3=0$。
+
+### 12.1 三个准确 Bol–heat 标度
+
+仅为支付这些固定有限矩的尺度，取归一 Gaussian 模型
+$y^2=x^3-x/48$，并置
+$$
+\mathcal J_{s+1}=[v^{p-s}]C_{s+1}(v),\qquad s=3,5,7.
+$$
+其中 $\mathcal J_4=\mathcal J_p$、$\mathcal J_6=\mathcal K_p$，
+核与微分均是同一归一模型的原对象。
+结论为
+$$
+\boxed{\qquad
+\mathcal T_3=\frac{63}{4a_\nu}\mathcal J_4,\qquad
+\mathcal T_5=\frac{11}{8a_\nu}\mathcal J_6,\qquad
+\mathcal T_7=\frac{3}{128a_\nu}\mathcal J_8.
+\qquad}
+\tag{GN.36}
+$$
+
+以下给完整证明，尤其保原 finite $\xi$ 参数与临界阶乘。
+令 $H,E,F$ 是标准 $E_2,E_4,E_6$ 变量，
+$\mathcal X=2R$ 为 R1154 §§15、17 的原 Ramanujan 导子，
+$\mathsf S$ 为标准 Serre 导子。
+原坐标
+$$
+f=a_\nu V,\qquad \xi=\frac{P}{a_\nu f}
+$$
+满足
+$$
+\frac{dw}{q}=f^2d\xi,\qquad
+E=f^4,\quad F=-wf^6,\qquad
+A=-a_\nu\xi,\quad
+C_{\rm H}:=B-HA=-6a_\nu .
+\tag{GN.37}
+$$
+本小节 $C_{\rm H}$ 与 (GN.20) 的 Weil 单位 $C$ 不同。
+所有读取次数至多 $p-2$，故 R1154 保留的首 $p$ forcing
+不会改变这里的 $\mathcal X$-Taylor 读取。
+
+对 $s=3,5,7$，标准归一 Eisenstein 多项式分别是
+$$
+E_6=F,\qquad E_{10}=EF,\qquad E_{14}=E^2F.
+$$
+所以换元直接给
+$$
+\mathcal T_s=-a_\nu^{-2}
+          [\xi^{p+1-s}]E_{2s}(E(\xi),F(\xi)).
+\tag{GN.38}
+$$
+设 $k=p+1-2s$，并用原
+$g_k=-B_k/(2k)+\sum_{n\ge1}\sigma_{k-1}(n)q_{\rm T}^n$。
+R1161 的固定权 Bol 证明给
+$$
+\mathcal X^kE_{2s}
+ =c_s\{A\mathsf Sg_k+(k/12)Bg_k\},\qquad
+c_s=-\frac{16s}{2^{2s}B_{2s}} .
+\tag{GN.39}
+$$
+这也可直接重核：$\mathcal X^k$ 的临界模性由
+$[\partial_H,\mathcal X^n]g
+=n(\operatorname{wt}g+n-1)\mathcal X^{n-1}g/6$
+给出；$q$ 系数用
+$n^k\sigma_{2s-1}(n)=n\sigma_{p-2s}(n)$。
+两侧同权，固定权的整三角 $\Delta,E_4,E_6$ 基锁定等式。
+最后 $E_{2s}=-(4s/B_{2s})g_{2s}$ 和
+$2^k=2^{2-2s}$ 给所示 $c_s$。
+只用 $B_6,B_{10},B_{14}$，全部在 $p>37$ 为单位。
+
+沿 $\xi$，$\mathcal Xg_k=g_k'$ 且
+$\mathsf Sg_k=(g_k'-(k/6)Hg_k)/2$。
+因此 (GN.37) 把 (GN.39) 的括号精确化为
+$$
+\frac{C_{\rm H}}{12}(\xi\partial_\xi+k)g_k.
+$$
+读取 $\xi^s$，再用 $(p+1-s)!=1/(s-2)!$，得到
+$$
+[\xi^{p+1-s}]E_{2s}
+ =-\frac{c_sC_{\rm H}(s-1)!}{12}\,
+                   g_k^{(s)}(0).
+\tag{GN.40}
+$$
+
+另一方面，令
+$T_n(g)=2^{-n}(\mathcal X^ng)|_{H=0}$。
+上面的 commutator 和 $\mathcal XH|_{H=0}=-E/6$ 给
+$$
+T_{n+1}(g)=\mathsf S T_n(g)
+ -\frac{n(k+n-1)E}{144}T_{n-1}(g).
+$$
+它与原 heat 递推在 $a_{\rm G}=-E/48$ 下逐项相同，故
+$$
+f_n^{k,0}
+ =-\frac{T_n(G_k)}{n!(k)_n}.
+$$
+这里 $(k)_n=k(k+1)\cdots(k+n-1)$，
+本次 $n\le7$ 的每个分母都小于 $p$。
+使用
+$G_k=2(2s-1)!g_k$ 和
+$(k)_s=-(2s-1)!/(s-1)!$，准确得到
+$$
+\mathcal J_{s+1}=(s+1)!f_s^{k,0}
+ =\frac{(s+1)(s-1)!}{2^{s-1}}\,g_k^{(s)}(0).
+\tag{GN.41}
+$$
+(GN.38)–(GN.41) 合并为
+$$
+\mathcal T_s
+ =\frac{s}{2^{s-2}(s+1)B_{2s}a_\nu}\mathcal J_{s+1}.
+$$
+代 $B_6=1/42,B_{10}=5/66,B_{14}=7/6$ 就是 (GN.36)。
+证明没有把 $\xi$ 延为一个未付的无限整参数。
+
+### 12.2 原十二次矩的中槽，不反除坏的 k12(2)
+
+为读取第三式，只需扩展到原 $\mathsf M_{12}$ 的一个中槽，
+无需计算其余分量。
+原 R1144/R1147 已定义同一全非零点十二次 theta 矩。
+选 §1 的辅助数 $c$，使
+$k_{12}(c)=c^2-c^{-12}$ 为单位。
+特别不在 $p=43,127$ 反除 $k_{12}(2)$。
+
+这里完整的 R1168 (1168.19)–(1168.25) 读取可直接重作。
+原系数 $x_P^{12}$ 的单项次数
+$j_i=p(12-i)+i$ 满足 $0<j_i<p^2-1$；
+normal 读取只需 $i+1\le13<p-2$。
+R1163 的十二因子整 projector、twist $13$、
+$H^1$ 截断，及 R1168 相同的 normal 同伦因此适用。
+共同 leading constant 和 $z^{c^2-1}$ 的项，
+由 $\sum_{P\ne0}x_P^{12}=0$ 的实际 tame trace 消掉。
+
+若 $\theta_c(z)=C_c z^{c^2-1}V_c(z)$、$V_c(0)=1$，
+原 sigma divisor 直接给，在 $m<p^2-1$ 的安全窗内，
+$$
+[z^m]\log V_c=\frac{c^m-c^2}{m}G_m.
+$$
+本次 $m_i=p^2-1-12p+(p-1)i$ 满足
+$m_i\equiv-12\bmod(p-1)$、$m_i\equiv-(i+1)\bmod p$。
+故原 $k_{12}(c)$ 在同一个系数中精确相消，
+得到与 R1168 相同的第 $i$ 项
+$\binom{12}{i}\beta^iG_{m_i}/(i+1)$。
+这不是把仅用 $c=2$ 的单位声明外推。
+
+在 $i=6$，原 syntomic 中槽为
+$$
+S_{12,6}=132\beta^6G_{p^2-6p-7}
+       =-\frac{33}{2\beta}\mathcal J_8 .
+\tag{GN.42}
+$$
+最后一步完全在已付的 $j=8$ Appell 身份范围内：
+$$
+C_8^F(\Psi)=-8!\beta^7D^{p-9}x.
+$$
+读取其 $v^{p(p-7)}$ 项，
+右侧的下降阶乘为 $G_{p^2-6p-7}/7!$；
+左侧只保 $C_8(\zeta)^p$ 的相应 $p$ 倍项。
+同一 $\tau$ 的误差界严格高于本次读取，
+所以 $G_{p^2-6p-7}=-\mathcal J_8/(8\beta^7)$。
+没有逐个高 $\Psi$ 幂作不安全约化，也不需要增加 $j=14$ 的身份。
+
+[R1181 §5.1](R1181-original-CM-integral-norm-tower-and-global-endpoints.md)
+已经对原 primitive 十二次矩证明全 $p^n$ 的准确 CM 范数。
+这里只消费其第一层，得到
+$$
+(q_I^6)_*\mathsf M_{12}=-\frac{61}{2}\gamma_7.
+\tag{GN.43}
+$$
+其中的 ray norm、全部嵌入、根单位核与原辅助因子均由所引原证明支付；
+其 $\omega^{-6}$ 分量非平凡且不同于 roots 的 $\omega$。
+$\binom{12}{6}=924$ 是 $p$ 单位，因而
+$q_I^6$ 在中槽的值是 $C^6/924$。
+由 R1177，(GN.42) 的 physical 中槽为
+$33\mathcal J_8/(2\beta)$。
+因此 (GN.43) 在原局部坐标给
+$$
+\frac{C^6}{56\beta}\mathcal J_8
+ =-\frac{61}{2}\,\operatorname{Frob}_p(\gamma_7).
+$$
+本支 $p\equiv3\pmod4$ 不含 $p=61$，
+所以全部显示因子为单位。
+§9 的同一局部唯一 graded 证明在 $r=6$ 给
+$\operatorname{loc}_p\gamma_7=0\iff p\mid B_{p-7}$。
+于是
+$$
+\boxed{\qquad
+\mathcal T_7=0
+\ \Longleftrightarrow\ \mathcal J_8=0
+\ \Longleftrightarrow\ p\mid B_{p-7}.
+\qquad}
+\tag{GN.44}
+$$
+
+### 12.3 actual bad 分支中的一个真实 Hankel 单位
+
+归一模型在 R1161 (1161.20) 的辅助 $r=1/36$ 为平方，
+故 $\beta_{\rm G}=-a_\nu/2$。
+(GN.32)、(GN.36) 因而给
+$$
+\boxed{\qquad
+\mathcal T_3=\frac{63}{2C^2}\overline{B_{p-3}},
+\qquad
+\mathcal T_5=-\frac{495}{2C^4}\overline{B_{p-5}} .
+\qquad}
+\tag{GN.45}
+$$
+这里 $C$ 仍由该归一模型的原 Weil/cup 比较定义，
+没有用一个可能消失的局部类标定它。
+
+在同一有限代数 $\mathcal A$ 内置
+$$
+X=P^2V^2,\qquad
+\Lambda(F)=\mathscr R(wPV^3F).
+$$
+则 (GN.35) 正好是
+$\Lambda(1),\Lambda(X),\Lambda(X^2)$。
+在原
+$p\mid B_{p-7}$、$p\nmid B_{p-5}$
+分支，得到一个准确的非零行列式
+$$
+\boxed{\qquad
+\det\begin{pmatrix}
+\Lambda(1)&\Lambda(X)\\
+\Lambda(X)&\Lambda(X^2)
+\end{pmatrix}
+=-\left(\frac{495}{2C^4}\overline{B_{p-5}}\right)^2
+\in\mathbf F_p^\times .
+\qquad}
+\tag{GN.46}
+$$
+$495=3^2\cdot5\cdot11$ 的素因子均小于 $p$。
+(GN.44) 把实际低角色 $4$ 的出现条件转成同一 Legendre
+源中的一个零矩；它没有把缺席的 $s=7$ 行加入 good 集合。
+
+这个 Hankel 矩阵与原 $\Delta_{\rm low}$ 不是同一矩阵。
+原首条件及 affine 退化仍是
+$\mathscr R(wP^3V)=0$ 和
+$3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu=0$；
+本节不从 (GN.46) 自动排除它们。
+新增的实质输入是同一 $P,V$ 上的互补单位矩、实际 bad 条件
+对应的零矩，以及已经证明非零的这个明确二阶行列式。
+后续需要保持原权重，证明它与两点余核之间的实际联系。
+全节为纸面证明，没有数学程序执行。

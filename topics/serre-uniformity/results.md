@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Legendre互补矩与actual bad条件的Hankel单位（已证明，R1179 §12）**：[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原CM norm/符号给J4=−4βBp−3/C²、J6=360βBp−5/C⁴，C²=−4cω²，全部p>37。原Legendre同对T3=R(wPV³)、T5=R(wP³V⁵)、T7=R(wP⁵V⁷)准确为63J4/(4aν)、11J6/(8aν)、3J8/(128aν)；原M12中槽及R1181范数给T7零iffBp−7零。bad Bp−7/good Bp−5支，Λ=R(wPV³·),X=P²V²的Hankel det=−T5²单位。它非原Δlow，保全部mask；H_p0后heat二阶unit，余核桥继续。
+
 - **原CM全部精度范数与完整全局端点塔（已证明）**：[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM primitive全p^n范数含(1+p²)/(1+p⁴)；十二次Gaussian为−61(1+p⁶)γ7/2、cubic为−7(1+p⁶)γ7。整Teich群环/真实ray norm不除p-group，Δ角色付restriction单射。仅真实CM I∞作高层map，b修正保1+p⁴；global labels为x∞=(1+p²)x0、y∞=(1+p⁴)y0，Gaussian(x0,y0)=(δ̂/4,87δ̂²/44)、cubic=(2δ̂/9,160δ̂²/99)。无挠塔杀全部坏位中央惯性，完整fibre=[x∞,y∞]Θ∞含坏支；cubic最低全Z4可读，非CM有限I不外推whole盘。
 
 - **原局部Kummer与Frobenius的绝对单位（已证明）**：[R1180](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)原同一ζ/严格LT根给正H0代表−γz^(p+1)g(1+Γp)，全部log尾、真实trace/e及两次合法PD gauge给synt=−γ^(2j)c、physical=+γ^(2j)c。独立local测试类校准F_j=γ^(2j)ℓ_j(j1/2)，故U_E=γ_E²、η★=1全部坏支，不需generic SS或β非零；保原σγ=−γ与Miller相位。

@@ -500,3 +500,8 @@
 ### 2026-11-28 19:22 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 第十九次真实partial clone/pull于19:22:11完成，run46139530264/job140962159422，HEAD/origin main均c9d44d67。相对0bb03ece，两README diff空；两个全文hash与已读缓存一致，精确JSON SHA见回执。
 - 下次请求≤20:12、pull≤20:22；本地19:21仍无执行环境，继续已授权公开Actions路径。原全mask互补矩/实际Hankel与两点余核的桥继续，无数学程序执行。
+
+
+### 2026-11-28 19:26 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1179 §12以同一finite Legendre/ξ与固定权Bol计算，付T3/T5/T7三个互补矩的准确原尺度；新M12中槽用合法primitive c、原j8 Appell安全窗及R1181已成范数，给actual p|Bp−7 iff T7=0。
+- 在原bad Bp−7/good Bp−5支，Λ(1),Λ(X),Λ(X²)的真实Hankel det=−T5²单位；它与原Δlow未等同，仍须原两点余核桥。旧§§1–11保留，完成即推，无数学程序执行。
