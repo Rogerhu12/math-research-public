@@ -146,3 +146,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:47 UTC｜Astra-held10-7c4e33ee-20261128：[两真源完整M48割线](notes/2026-11-28-analytic-both-source-m48-secant.md)已实际生成952×145状态/p48，λ.032/.064各自先保完整core lift升阶再全未知割线，β2；不以失败进程作接受锚。原参考六jet检查各102×4640，仅初猜；δ预测.06412892684644424、initial SHA36ffb0fa…，目标mean2320仍须原BVP/metric支付。跳过旧已知.128/M40谱门失败，直接恢复M48。
 
 - 2026-11-28 09:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32独立v3 prepare-only](notes/2026-11-28-analytic-fixed-support-m32-v3-prepared.md)真exit0、88.001s/451740KiB，1497原x/y/p/scale逐位同；原RHS/固定q-δ-Flow语义核过，无完整J/无BVP。原接受driver与旧v2 SHA不动；后继必须仍付原RMS/BC/metric，准备不作接受。
+
+- 2026-11-28 09:56 UTC｜Astra-held10-7c4e33ee-20261128：[当前D/E同背景literal切口半径](notes/2026-11-28-tail-literal-cut-radius-identity.md)逐来源取Q核c=Rc=5404319552844595/18014398509481984，准确差0，未钳半径、未按十进制3/10替换。只是已保存profile/metadata/输入与R58定义观察；真正fullH bundle还须绑定这一端点，届时重参全带恒等，原完整尾metric/几何仍须支付。

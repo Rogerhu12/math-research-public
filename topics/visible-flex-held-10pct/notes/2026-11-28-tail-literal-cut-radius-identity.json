@@ -1,0 +1,123 @@
+{
+  "scope": "Read-only literal cut-radius identity for the current D/E shared background profile, before any full-H geometry export",
+  "observed_utc": "2026-11-28T09:47:38.587031+00:00",
+  "D_accepted_halfheight_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/tail_0001.json.gz",
+    "sha256": "1cb9a3ae6a0aa943fa8f305e0ce52b7028650210244e942df2794aa0b970b306"
+  },
+  "E_profile_endpoint_metadata": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/predictor/original-tangent-scales.json",
+    "sha256": "c275545b9224e661a0d3350209a70ff66aae351e42663c7e8091a563abaefb5d"
+  },
+  "background_reuse_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/summary.json",
+    "sha256": "5557d0f0cf931cb58117aadd92fa4f0044535ee48816ef1943599f498e2b6021"
+  },
+  "true_background_constants": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+    "sha256": "467cdcb4b2d373fe8178a7c0fec93a683cc60d00bdb56bb62c0f4975e289a706"
+  },
+  "source_files": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/export_tail_tangent_scales.mjs",
+      "sha256": "a91d0541035b844c2131e5e09cbd94eff730aeade47ff9f06cc3bda79c762033"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_export_shared_r_tail_v2.mjs",
+      "sha256": "d1e9bb0d713b96bb4d01c2267ac32d5b4581d51e398ee40198fc6d0ef05cd0c8"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs",
+      "sha256": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/native_batch_adapter.mjs",
+      "sha256": "d11ed12fa66ce9321f8ba770aa0daa118cdad9032a84cc99c3a0d208299e9a14"
+    }
+  ],
+  "source_keys": {
+    "E_profile_endpoint_metadata": "radius",
+    "D_packet": "response.jets.radius and response.checkpoint.parameters.rCut",
+    "D_E_native_metadata": "physicalParameters.rCut",
+    "true_background_constants": "parameters.rCut"
+  },
+  "observed_values": {
+    "actual_profile_endpoint_from_E_predictor_metadata": 0.3,
+    "D_accepted_response_jets_radius": 0.3,
+    "D_accepted_checkpoint_parameter_rCut": 0.3,
+    "true_background_constants_parameter_rCut": 0.3,
+    "tail-mild-modes-20261128-d/m24_metadata_physicalParameters_rCut": 0.3,
+    "tail-adaptive-fullheight-20261128-a/attempt-001_metadata_physicalParameters_rCut": 0.3
+  },
+  "c_decimal_float_repr": "0.3",
+  "Rc_decimal_float_repr": "0.3",
+  "c_exact_binary_rational": "5404319552844595/18014398509481984",
+  "Rc_exact_binary_rational": "5404319552844595/18014398509481984",
+  "c_minus_Rc_exact_rational": "0",
+  "c_le_Rc": true,
+  "same_background_native_frozen_endpoint_crosschecks": [
+    {
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0003-jac-record.json",
+        "sha256": "42654e86fd4bf4ae76e17f3111f36223af27fbad17cdbb4ed1c8a97d068ee1ee"
+      },
+      "metadata": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/static-metadata.json.gz",
+        "sha256": "52e5d59f34d63b722be5d376c761f21652e2556d1744932474ecefb6ddeeb1ce"
+      },
+      "input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0003-jac-input.bin",
+        "sha256": "7d4bf2b049626b7e0d181349fdcfe3f061ac77cf2ae37f79f5afe85feddca628"
+      },
+      "stage": 0,
+      "point": {
+        "profile": 0,
+        "x": 1
+      },
+      "point_index": 32,
+      "wire_coefficient_offset": 210628,
+      "r3": 0.026999999999999996,
+      "r4": 0.0081,
+      "r3_equals_literal_radius_cubed": true,
+      "r4_equals_literal_radius_fourth": true
+    },
+    {
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0014-jac-record.json",
+        "sha256": "b006543fb2b39abc2f059b3f73d282b855791aff73ad1557658516dabe00c84a"
+      },
+      "metadata": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/static-metadata.json.gz",
+        "sha256": "ad482239e95d499c4fc9e2a0ca9f65f6409271628edec97aede62aefc6337000"
+      },
+      "input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0014-jac-input.bin",
+        "sha256": "61d4387613628e8e63ed81beede7a004c25ff97afb3d3d390a1838078829deb0"
+      },
+      "stage": 0,
+      "point": {
+        "profile": 0,
+        "x": 1
+      },
+      "point_index": 32,
+      "wire_coefficient_offset": 210628,
+      "r3": 0.026999999999999996,
+      "r4": 0.0081,
+      "r3_equals_literal_radius_cubed": true,
+      "r4_equals_literal_radius_fourth": true
+    }
+  ],
+  "formula_chain": [
+    "export_tail_tangent_scales: radius=dn.tail.cells[0].profiles.at(-1)(1).r",
+    "general_root_tail_momentum.geometry(profile,x): return {...profile(x),w,w2,E}; r is unchanged",
+    "seam_export_shared_r_tail_v2 sample: radiusJS=a.g.r"
+  ],
+  "nearcut_identity_if_actual_bundle_binds_same_c": "c-Rc=0 implies r(R)=R+(c-Rc)*S=R, rprime=1, rsecond=0 on the complete physical strip",
+  "new_native_evaluation_executed": false,
+  "new_tail_geometry_export_executed": false,
+  "full_H_geometry_bundle_already_available": false,
+  "actual_future_full_H_bundle_must_rebind_radius": true,
+  "old_or_new_whole_tail_geometry_certificate_replaced": false,
+  "radii_clamped": false,
+  "complete_surface": false
+}
