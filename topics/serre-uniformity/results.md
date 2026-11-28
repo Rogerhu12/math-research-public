@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原全Gaussian行的有限唯一逆与完整forcing（已证明）**：[R1161 §10](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)实际Sym^s的−N_s p-curvature锁一维核/余核，低偶Q_s(0)障碍保全；所有centered系数准确读为指定唯一逆的单位三角低jets。相邻算子关系保真实source，继续原mask的真正跨行和两点分离。
+
 - **原Miller源到完整coefficient cone的actual比较（已证明）**：[R1166](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)固定ambient Frobenius与整PD normal/Čech SDR，实际overlap积分认回R1165，全部+Q及external-product/primitive同伦明确。SS formal两开集准确相同，原pointed H0的两residue输入已给；继续tame Cor与实际normal/F0读取。
 
 - **原全Gaussian行的Cartier读数与低jet消补（已证明）**：[R1161 §§8–9](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)原有理Legendre微分锁δP^p=P^(2p)δP，真实θ-cycle给全部Q_s的Cartier身份；原每行化为指定2p系数，并只在该读取中严格消finite-log误差。四个实际多项式逆的低jet保未知p次补偿后准确读取，joint/mask非零仍继续。

@@ -135,9 +135,12 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §§15–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²和完整有限Ramanujan，E2′保6a²ξp−1。四moment准确为h=−[ξp−4]E6、B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；minor=a²(v−3a⁶bu)。Sym¹/²/³唯一多项式逆保全部forcing，四权归四低jet；同Legendre无穷分支仅消无权m3的q项，m3=M30−3Bp−3/8，所以h0下真joint为Bp−3=8(M30+r3−3BνUν)/3，未反除D2。§17带符号A(1,−w)=−P、Aγ=−aξ、Bγ=−a(6+ξE2)；自足Xp=A²X+ACZ/6+C²∂H/6先保H^p再以整数权排除，其流读取a²(6∂H+kξ+ξ²∂ξ)保临界零。全部展开及端点单位沿原文/逐字归档，不替原joint。
 
-[R1161 §§1–9](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全部原actual-good行已准确送入同一Pν/Vν：Bol Θ^m g_j=A∂g_m+(m/12)Bg_m、Wilson及真实η/N_R/κ保全，原行差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]；仅even幂存活，形成原T_s(η²)。两twist/missing principal及s2/3尺度全沿原文，完整共同纤维 iff全部actual s的T_s相等。
+[R1161 §§1–10](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原actual-good行已送同一Pν/Vν，Bol/Wilson及η/N_R/κ尺度全付；原差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。仅even幂，完整共同纤维 iff全部actual T_s(η²)相等；s2只在原行出现时用。
 
-§§8–9进一步锁α=dw/(qP²)=dw/q−d(W/P)，故δP^p=P^(2p)δP。真实θ-cycle按每步变化权给C_rel(P^(2s−2)Q_s dw/q)=Q_s(w′)dw′/q′。每行M_s=−a⁻²[w^(2p)]δP^(p−1)(P^(2s)Q_sZη^s)，δPZη=−1+P²w^(p−1)；error每次升阶p+2，只在此读取中严格消，未改全函数。原S_r H=T的低j<r由a⁻²[w^(2p+j)]P^rδP^(p−r−2)(P^(r+2)T)准确读出：未知P^r u^p保留，但根处简单极及rν<p使其不入低jet；H7仍用真实截断源，joint的3/8 Bernoulli项不删。待付是同一真实mask的两点差至少一项非零，不能由restricted power宣闭合或用最高单系数代weighted minor。
+§§8–9由α=dw/q−d(W/P)锁δP^p=P^(2p)δP；真实θ-cycle给C_rel(P^(2s−2)Q_s dw/q)=Q_s(w′)dw′/q′。每行−a⁻²[w^(2p)]δP^(p−1)(P^(2s)Q_sZη^s)只在该读取严格消finite-log error；原四逆低j<r的2p+j读式保P^r u^p不入低jet，H7真实截断及joint的3/8项不删。
+
+§10全Sym^s有限connection的p-curvature恰−N_s，核Fp P^s、adjoint号(−1)^(s+1)。原唯一opposite-parity逆S_s H_s=P^(s−2)Q_s−Q_s(0)J_s，J_s=a⁻ˢw^(p−1−s)，低偶cokernel不能略。实际M_s=(−1)^(s+1)R(H_s S_s(V+cP)^s)+Q_s(0)a⁻ˢ[w^s](V+cP)^s/q。centered c^i偶数2≤i<s的首读为+(i+1)s!a^(2i+2−s)H_(s−i−1)，其余只低同parity jets；最高Q_s(0)全保。S_(s+2)P²=L_sS_s及adjoint已付，但L_s作用真实source，未认作下一Q_(s+2)。待付仍是同一mask实际两点差至少一项非零，单位三角与restricted power不代闭合或joint。
+
 
 ## O3：固定低权 cohomology 与原 Igusa 投影
 

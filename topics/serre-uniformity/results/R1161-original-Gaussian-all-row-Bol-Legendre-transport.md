@@ -783,3 +783,307 @@ $\mathsf h,\mathbf B_\nu,\mathbf U_\nu,\mathbf V_\nu$
 后继仍须处理原两点差以及同一 $Q_s$，
 不能把 (1161.25) 的单个最高系数或 (1161.30) 的存在性
 替代指定 weighted minor 的非零。全部为纸面推导，无数学程序执行。
+
+
+## 10. 全部实际行的唯一有限对称幂逆与完整首 $p$ forcing
+
+本节继续固定 §§5–9 的同一个 $P,V,Q_s$，而不换取未加权源。
+它把 (1161.17) 的每条真实行写成一个唯一有限逆的低 jet。
+低偶行的一维障碍完整保留；对角单位只说明这些读数之间的
+三角等价，不说明实际 good 行共同分离两点。
+
+### 10.1. 原有限 Legendre connection 的核
+
+置
+$$
+\mathcal A=\mathbf F_p[w]/(w^p),\quad
+D=(1-w^2)\frac d{dw},\quad
+\phi=\lambda(1-w^2),\quad \lambda=-\frac5{36}.
+$$
+以下 $V$ 取 (1161.27) 的原多项式代表后约到 $\mathcal A$。
+原式准确给
+$$
+(D^2+\phi)P=0,\qquad
+(D^2+\phi)V=a\,w^{p-1},\qquad
+P\,DV-V\,DP=-1.
+\tag{1161.31}
+$$
+最后一式在 $\mathcal A$ 中成立；
+在函数域中的差仍是 (1161.27) 的 $P^2w^{p-1}$。
+
+对 $1\le s<p$，记 $\mathcal S_s$ 为
+$D^2+\phi$ 的第 $s$ 个 scalar symmetric-power operator，
+首项为 $D^{s+1}$。
+它可直接由秩二方程在 $\operatorname{Sym}^s$ 上的
+$s+1$ 个方程消元定义：相邻系数 $1,\ldots,s$
+均为单位，故系数在 $\mathbf F_p[w]$ 中。
+在有理函数域中同一消元给
+$$
+\boxed{\qquad
+\mathcal S_s
+ =P^{-s-2}\delta_P^{\,s+1}\circ P^{-s},
+\qquad \delta_P=P^2D .
+\qquad}
+\tag{1161.32}
+$$
+例如可在一个 differential extension 中令
+$\delta_P z=1$，则 $P^sz^j$, $0\le j\le s$，
+同时给出两边的 $s+1$ 个解并锁定首项。
+约到 $\mathcal A$ 时使用已消去分母的多项式算子；
+不在 $\mathcal A$ 中反除 $P$。
+
+给出该有限算子的完整核证明。
+在实际基
+$$
+\begin{pmatrix}P&V\\DP&DV\end{pmatrix}
+$$
+中，原秩二 connection 为
+$$
+\nabla_D=D+w^{p-1}N,\qquad
+N(e_2)=e_1,\quad N(e_1)=0.
+$$
+确实，将 (1161.31) 的误差列 $(0,aw^{p-1})^t$
+乘以此矩阵的逆，只得 $(w^{p-1},0)^t$；
+这里使用 $V(0)=a^{-1}$、$P(0)=0$。
+
+在 $\mathcal A$ 中 $D^p=D$。
+也可直接令 $x=(1+w)/(1-w)$，得到 $D=2x\,d/dx$。
+由 $D^p=D$ 和原点常数项 $(p-1)!=-1$，
+$$
+D^{p-1}(w^{p-1})=w^{p-1}-1.
+$$
+因此
+$\nabla_D^p-\nabla_D=-N$。
+张量求导的 Leibniz 公式在模 $p$ 后消去中间二项式项，
+所以在 $\operatorname{Sym}^s$ 上的 $p$-curvature
+准确为 $-N_s$。
+因 $s<p$，$N_s$ 是一个 Jordan block，
+核仅由 $e_1^s$ 生成。
+任一 horizontal vector 因而是 $c(w)e_1^s$，
+再由 $Dc=0$ 得 $c\in\mathbf F_p$。
+scalar cyclic elimination 与此一一对应，故
+$$
+\boxed{\qquad
+\ker(\mathcal S_s:\mathcal A\to\mathcal A)
+     =\mathbf F_p P^s .
+\qquad}
+\tag{1161.33}
+$$
+这里的有限 Jordan 结论来自显示的实际 connection，
+并非从一般不可约三对角矩阵推得。
+
+配对
+$$
+\langle f,g\rangle=\mathscr R(fg)
+ =[w^{p-1}]\frac{fg}{1-w^2}
+$$
+在 $\mathcal A$ 上非退化，且 $D^*=-D$。
+由 (1161.32)，先在有理函数域计算
+$\delta_P^*=-P^{-2}\delta_PP^2$，再消去分母，得到
+$$
+\boxed{\qquad
+\mathcal S_s^*=(-1)^{s+1}\mathcal S_s,\qquad
+\operatorname{im}\mathcal S_s
+ =\{T\in\mathcal A:\mathscr R(P^sT)=0\}.
+\qquad}
+\tag{1161.34}
+$$
+后一式由前式和 (1161.33) 的准确秩 $p-1$ 得到。
+
+### 10.2. 原低偶行的 cokernel 不能删除
+
+回到全部实际范围 $2\le s\le(p-3)/2$，置
+$$
+T_s=P^{s-2}Q_s,\qquad
+J_s=a^{-s}w^{p-1-s}.
+$$
+(1161.25) 的原 Cartier 身份，以及 $P=aw+O(w^3)$，
+分别给
+$$
+\mathscr R(P^sT_s)=Q_s(0),\qquad
+\mathscr R(P^sJ_s)=1 .
+\tag{1161.35}
+$$
+因此有唯一的有限多项式 $\mathscr H_s\in\mathcal A$，满足
+$$
+\boxed{
+\mathcal S_s\mathscr H_s=T_s-Q_s(0)J_s,\qquad
+\mathscr H_s(-w)=(-1)^{s+1}\mathscr H_s(w).
+}
+\tag{1161.36}
+$$
+这是同一 $Q_s$ 的实际逆，不是任意选择的一个 primitive。
+
+证明唯一性还须保奇偶性。
+$T_s$ 为偶，$\mathcal S_s$ 改变奇偶性的因子为
+$(-1)^{s+1}$，而其唯一核 $P^s$ 的奇偶性为
+$(-1)^s$。
+若 $s$ 奇，$Q_s$ 奇而 $Q_s(0)=0$；
+$\mathcal S_s$ 在偶子空间上为双射。
+若 $s$ 偶，目标为偶，(1161.35) 正好扣除其一维 cokernel；
+将任一解取奇部分即给 (1161.36)，且没有奇核。
+特别，低偶行未经修正的方程
+$\mathcal S_sH=T_s$ 可解当且仅当 $Q_s(0)=0$。
+没有为得到“全行逆”擅自抹去这个条件。
+
+为保全部标记，暂以 $c$ 代替 $\kappa\eta$，定义
+$$
+\mathfrak M_s(c)=\mathscr R\bigl(T_s(V+cP)^s\bigr),\qquad
+\mathfrak B_s(c)=a^{-s}[w^s]\frac{(V+cP)^s}{1-w^2}.
+$$
+则 $\mathcal M_s(\eta)=\mathfrak M_s(\kappa\eta)$。
+由 (1161.34)–(1161.36)，得到完整读式
+$$
+\boxed{
+\mathfrak M_s(c)=
+ (-1)^{s+1}\mathscr R\!\left(
+       \mathscr H_s\,\mathcal S_s(V+cP)^s\right)
+       +Q_s(0)\mathfrak B_s(c).
+}
+\tag{1161.37}
+$$
+这里 $\mathfrak B_s$ 的 $c^s$ 系数准确为一。
+若 $s$ 偶，它为偶多项式；若 $s$ 奇，其系数在
+(1161.37) 前已为零。低偶行的最高项因此仍为
+$Q_s(0)c^s$，没有用 Bernoulli 非零假设反除它。
+
+### 10.3. 只保一次误差的完整 symmetric-power forcing
+
+以下从函数域中的真等式 (1161.27) 出发。
+令
+$$
+Y_c=V+cP,\qquad Z_c=Y_c/P,\qquad
+E=P^2w^{p-1}.
+$$
+则 $\delta_PZ_c=-1+E$。
+把 $Z$ 暂看成独立变量，给
+$\operatorname{ord}w=1,\operatorname{ord}Z=-1$。
+算子
+$\delta_P-\partial_Z$ 升赋值至少一，
+$E\partial_Z$ 升赋值至少 $p+2$。
+在 $(s+1)$ 次作用于 $Z^s$ 后，
+含至少两次 $E\partial_Z$ 的词，再乘 $P^{-s-2}$，
+赋值至少为 $2p+1-s>p$，不进入 $\mathcal A$。
+
+零次误差项为零。
+对恰一次误差按其位置展开，且保留其后对 $E$ 的全部导数，
+二项式求和给
+$$
+\boxed{
+\mathcal S_s(Y_c^s)=
+s!P^{-s-2}
+\sum_{r=1}^{s}
+ (-1)^{s-r}\binom{s+1}{r+1}
+ \frac{\delta_P^rE}{(r-1)!}\,Z_c^{r-1}
+ \pmod{w^p}.
+}
+\tag{1161.38}
+$$
+这里使用
+$\sum_{\ell=0}^{s-r}\binom{s-\ell}{r}
+ =\binom{s+1}{r+1}$。
+右侧虽以 Laurent 表达式显示，
+各项最低次数均非负，且左侧是已定义的多项式算子。
+所有阶乘指标小于 $p$。
+
+特别，对 $0\le i<s$，
+$$
+\boxed{
+[c^i]\mathcal S_s(Y_c^s)
+ =(-1)^{s+i+1}(i+1)s!\,a^{\,2i+2-s}
+       w^{p-s+i}+O(w^{p-s+i+2}).
+}
+\tag{1161.39}
+$$
+要核完整常数，用
+$\delta_P^rE=a^{2r+2}r!\,w^{p+r+1}+\cdots$
+和 $V/P=a^{-2}w^{-1}+O(w)$。
+剩余有限和是
+$$
+\sum_{r=i+1}^{s}
+ (-1)^{s-r}r\binom{s+1}{r+1}\binom{r-1}{i}
+ =(-1)^{s+i+1}(i+1).
+$$
+例如其生成式在次数小于 $s$ 的部分恰为
+$(-1)^{s+1}(1+x)^{-2}$，逐项即得此式。
+$c^s$ 项为零，因为 $\mathcal S_sP^s=0$。
+
+### 10.4. 原 centered 系数与低 jet 的单位三角关系
+
+将 (1161.39) 代入完整 (1161.37)。
+对偶数 $i$ 满足 $2\le i<s$，有
+$$
+\boxed{
+\begin{aligned}
+[c^i]\bigl(\mathfrak M_s-Q_s(0)\mathfrak B_s\bigr)
+={}&(i+1)s!\,a^{\,2i+2-s}
+       [w^{s-i-1}]\mathscr H_s\\
+&+\text{只含同奇偶性且次数小于 $s-i-1$
+的 $\mathscr H_s$ 系数的线性组合}.
+\end{aligned}}
+\tag{1161.40}
+$$
+adjoint 的 $(-1)^{s+1}$ 与 forcing 首项符号
+在偶 $i$ 时恰相消，故对角统一是显示的正号。
+$1/(1-w^2)$ 与 forcing 的较高项只读更低的 jet，
+不会改动对角。
+
+对奇 $s$，原轮廓的 centered coefficients 因而与
+$$
+[w^0]\mathscr H_s,\ [w^2]\mathscr H_s,\ldots,
+       [w^{s-3}]\mathscr H_s
+$$
+作单位三角变换。
+对偶 $s$，先完整保留 $Q_s(0)\mathfrak B_s$，
+剩余 centered coefficients 与
+$$
+[w^1]\mathscr H_s,\ [w^3]\mathscr H_s,\ldots,
+       [w^{s-3}]\mathscr H_s
+$$
+作单位三角变换；另有最高系数 $Q_s(0)$。
+所有对角因子均为单位，因 $i+1\le s<p$、$a\ne0$。
+未被 centered profile 读取的 $s-1$ 次 jet 不被设为零。
+
+例如 $s=2$ 只剩原 $Q_2(0)c^2=c^2/720$，
+仍须其实际出现条件。
+$s=3$ 给
+$$
+[c^2]\mathfrak M_3=18a^3\mathscr H_3(0)
+ =\frac{a^2\mathsf h}{10080}.
+\tag{1161.41}
+$$
+所以新 $\mathscr H_3$ 指的是源 $wP/30240$ 的有限逆；
+它不是 R1154 §16 中源 $wP^5-1$ 的另一个 $H_3$。
+这里的尺度仍正好回到 (1161.19)，不新增一条角色。
+
+### 10.5. 相邻 symmetric powers 的真实 source 变换
+
+为明确何种跨行操作已付、何种尚未付，
+从 (1161.32) 还得到一个完全显示的 operator identity：
+$$
+\boxed{
+\mathcal S_{s+2}\circ P^2=\mathscr L_s\circ\mathcal S_s,
+}
+$$
+$$
+\mathscr L_s(T)=P^2D^2T+2(s+3)P(DP)DT
+ +(s+2)\bigl((s+3)(DP)^2-\phi P^2\bigr)T.
+\tag{1161.42}
+$$
+证明是直接展开
+$\mathscr L_s=P^{-s-4}\delta_P^2\circ P^{s+2}$，
+再用 $D^2P=-\phi P$。
+取 adjoint 同时给
+$P^2\mathcal S_{s+2}=\mathcal S_s\mathscr L_s^*$。
+这对其实际范围内的 $s,s+2$ 都成立。
+
+但 (1161.42) 运输的是完整
+$\mathscr L_s(P^{s-2}Q_s-Q_s(0)J_s)$；
+没有证明它等于下一条
+$P^sQ_{s+2}-Q_{s+2}(0)J_{s+2}$。
+因此不能把这个真实 symmetric-power 关系自动当作
+(1161.18) 的 good-mask 闭性。
+本节完成的是全部原 weighted rows 的有限唯一逆、
+低偶行的准确一维障碍和 centered 系数的完整单位三角读取。
+后继仍须处理这些指定逆之间的真正关系，或直接证明原两点差非零。
+全部为纸面推导，无数学程序执行。
