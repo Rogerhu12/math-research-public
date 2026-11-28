@@ -530,3 +530,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:38:50 UTC — 26首完整恢复试步统计返回
 
 26首7722d恢复试步仅统计Phi619.4536488690911/Gram.419078836233375、alpha1；当前初7e06/accepted0，至04:31:21geometry/接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`50b7752cee2d129f81e74eeecf164c4e18480206`无变（非pull）。
+
+## 2026-11-28 04:40:16 UTC — 29完整R726球面参数发表
+
+六完整件241284B：binding60792/3790d041、science72547/0092bace、pure58714/0998cec0、全文再生23889/cdf9b183、说明8895/c137672c及总表16447/f9f31495。完整直接参数父26，原157/7、458/445、64live、5CLI和所有数值/预算原字保；source7acb全137角色19变118保/23runtime，新真实Slerp B/J/角2，R725ε1/8与半波保，不混28计算源。完整13旧external加实际26/27成为15，各原note固定身份不回填后续观察；未来29全null。整step反替逐值还原全父，无Python/AST/fixture/数值或新门。H旧完整措辞保458，open§1–6不动；完整启动接续。双README云核至`183bb788a5435107171ee1638160f542b4c1dfb0`无变（非pull）。
