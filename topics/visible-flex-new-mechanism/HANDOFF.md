@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **0d1e56320416c0655ca3989fc26f4a3c400a4fb5**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **fc75ba6eac68f5bbbcbad76c7c82e050a8267a97**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -46,7 +46,7 @@ R655/R662条件几何D<1/hold≥.201/dH≥.3/reach≥.03要求同候选全域双
 
 R665排1.01倍裸弦超额；母线余长不代二维相容。R667真闭宏观参考中间误差>.05；R671饱和两线使旧g仅±θ。R673弓形g+参考κ<32.3，但精确反射两端被R679椭圆点二基符号排除，必须同支。[R675真终态](notes/2026-11-28-r675-bowed-endpoint-response-natural-terminal.md)run46141399411/23.076369974秒/五全QR5620列；末细应变.01060004、矩−.00137253、二基25459，未触二阶。仅同支非镜像目标，有限余距不授无限维排除。
 
-[R680](results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md)新sinθ=.27、偏心外帽.56及C′=−1.01pQe_z真proper相位：全κ<32.8/同号椭圆/全reach.03/D<1/握持.201/整像.3024已付。E_sharp支付所有弦及全β端切长度但不是诱导同g；[R683](results/R683-proper-phase-angular-metric-transport-from-a-thick-surface.md)已发布新输入：真厚锚点、934全列、g±.03b光滑保护及双网实际全壳；旧R669仅预测。仅λ=1和本身固定E513全门通过才冻E，随后同g精化及同源E′端口。三处交审问题已修，无全点完成宣称。
+[R680](results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md)新sinθ=.27、偏心外帽.56及C′=−1.01pQe_z真proper相位：全κ<32.8/同号椭圆/全reach.03/D<1/握持.201/整像.3024已付。E_sharp支付所有弦及全β端切长度但不是诱导同g；[R683](results/R683-proper-phase-angular-metric-transport-from-a-thick-surface.md)已发布新输入：真厚锚点、934全列、g±.03b光滑保护及双网实际全壳；[真终态](notes/2026-11-28-r683-proper-phase-metric-transport-natural-terminal.md)279.610253657秒/112接受，1058列/η.0304898/κ28.7128/余长−.00110094；迭代上限非停滞，E未冻结。R687换完整帧输入，不重旧步。
 
 ## G：活动整圈到真正闭帽
 
