@@ -1,0 +1,51 @@
+name: visible-flex positive physical four-end rest times
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r651-positive-rest-time-original-input-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r651-positive-rest-time-original-input-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Actual four even ends with positive physical duration
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r651-positive-rest-time-original-input-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r651-positive-rest-time-original-input-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r651-positive-rest-time-original-input-scope.md
+            /topics/visible-flex-new-mechanism/results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md
+            /topics/visible-flex-new-mechanism/results/R620-fixed-width-center-jet-gauge-chart.md
+            /topics/visible-flex-new-mechanism/results/R636-explicit-c2-physical-input-with-two-true-even-ends.md
+            /topics/visible-flex-new-mechanism/results/R651-four-true-even-ends-affine-rest-time-chart.md
+            /topics/visible-flex-new-mechanism/scripts/r651_four_end_rest_time_search.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Search and enclose positive continuous four-end inputs
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r651-positive-rest-time-original-input-20261128.json
+          --lane four-true-ends

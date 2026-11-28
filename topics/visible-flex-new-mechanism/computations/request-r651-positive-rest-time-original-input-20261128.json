@@ -1,0 +1,57 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "python-flint": "0.9.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r651-actual-positive-four-end-input-v1",
+  "public_rules_read_commit": "b4ccac31bf07b42cc60a888a24a5c775feded1e7",
+  "private_rules_read_commit": "2bea2888397db073ec71e3aec8e59e51c4b90d83",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r651_four_end_rest_time_search.py",
+  "workflow": ".github/workflows/visible-r651-positive-rest-time-original-input-20261128.yml",
+  "common_parameters": {
+    "max_seconds": 300,
+    "reserve_seconds": 65,
+    "seed": 651202611,
+    "evaluations_per_family": 75000
+  },
+  "lanes": {
+    "four-true-ends": {}
+  },
+  "scope": {
+    "original_full_four_even_end_moments": true,
+    "three_real_height_orders_with_and_without_closed_k_excursion": true,
+    "scouting_Gauss_order": 24,
+    "exact_rational_specification_of_selected_candidate": true,
+    "true_continuous_motion_integrals_Arb_precision_bits": 128,
+    "only_positive_dwell_and_original_true_physical_box_and_length_qualify": true,
+    "original_full_ruling_and_README_not_implied": true,
+    "R641_and_other_active_original_scopes_not_replayed_or_modified": true
+  },
+  "source_sha256": {
+    "README.md": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+    "topics/visible-flex-new-mechanism/README.md": "e685cff0e67e6851a7911d4e9efbae0e7d326e093927af177f716f059b8c566b",
+    "topics/visible-flex-new-mechanism/scripts/r651_four_end_rest_time_search.py": "9110d8b3c38d48f4ba6d8dce826a6fdc1283677877841728e0d3af9204cbf01b",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r651-positive-rest-time-original-input-scope.md": "17a72486ea65c3858c59a5fa592ec98e32a1da213eb8503482253fba03c44ed1",
+    "topics/visible-flex-new-mechanism/results/R651-four-true-even-ends-affine-rest-time-chart.md": "b3d554c8e62212e0becad94108de8d61f75b6d30f5981ff551080238497d964a",
+    "topics/visible-flex-new-mechanism/results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md": "69d3783e26994fb8f4d83f21fbb09d9092198840578b950149da1b70fb8ec51d",
+    "topics/visible-flex-new-mechanism/results/R636-explicit-c2-physical-input-with-two-true-even-ends.md": "8df83492c0ecd87c8a990d5962c413df3a0a4112fb2f6125389fa1190a2a443e",
+    "topics/visible-flex-new-mechanism/results/R620-fixed-width-center-jet-gauge-chart.md": "11004001ba13c359a796c59a33a2c4d8524341e874ae754f1a57ca63c47970a2",
+    ".github/workflows/visible-r651-positive-rest-time-original-input-20261128.yml": "eda0209b731d420daf0d13ec29d01c76cea939c8e74b6496496232b1eb9a2d3a"
+  }
+}

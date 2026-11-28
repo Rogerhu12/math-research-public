@@ -73,3 +73,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R649 同一离解位置的连续曲率
 
 [完整身份和区间入口](results/R649-actual-offsolution-position-curvature-in-regular-radial-coordinates.md)保全部F/G/Gr、非零R与真实S_s；实际形算子用真正诱导度量Gram–Schmidt，目标弧长坐标不除νz，可在核心竖直C²迹读柱曲率。还需同一真实场的连续三jet/完整向量primitive或已有Yss包围；小S及已付样本曲率都不足以付款。原源/角/径向未闭误差原样保留，R650继续完整内尾导数/曲率，不为此重跑旧位置样本。
+
+### R651 真正正时长的四原偶端输入
+
+[R651](results/R651-four-true-even-ends-affine-rest-time-chart.md)以实际物理运动段及四个静止高度给E=b+Vτ；显式行列式不为零，零目标唯一τ=−V⁻¹b。原盒内满秩例已证，但正时长零目标尚未取得。[实际公开求解](notes/2026-11-28-r651-positive-rest-time-original-input-scope.md)保原四密度，搜索三高度经过顺序及可选真实k往返；正候选以有理参数、128位Arb原过渡积分、准确有理逆同时核验τ>0、原h/k/η/γ/υ盒与L。四端图只作原全ruling的新输入，原R641等各自状态/费用不借用；后继必须释放静止段内部及接口，不能把全局解析反馈根假定含非平凡开plateau。

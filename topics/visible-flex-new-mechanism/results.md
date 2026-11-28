@@ -213,3 +213,7 @@
 ## R641真实三端图自然终态与固定物理Ar的全系统续接
 
 [自然终态](notes/2026-11-28-r641-three-end-natural-terminal.md)592.090348447秒/17接受，三被消真端约1e−17；真实Ar−.18801974、ruling1.66777e14仍未闭，同态fine已付。末P括号h分区0闭叶/104前沿未闭，保原trial而不冒点违反。[后继范围](notes/2026-11-28-r641-fixed-physical-center-resume-scope.md)固定源8H*²/L*乘真实Ar与全256列Jac、真实中心坐标/全隐式DL至多四面欧氏方向，保原全历史、两ruling及全部绝对门。旧root/fine复用，6恢复/17接受不重播，旧trust/λ/全部费用留账；新工作权重不与旧merit混比较。
+
+## R651：四个真实偶端的正物理停留时长图
+
+[完整证明](results/R651-four-true-even-ends-affine-rest-time-chart.md)在实际C²运动之间插入四个真实静止段，原四偶端准确为b+Vτ。四率在1,y,1/y,1/y²基底的三角系数给显式非零Vandermonde行列式、有理拉格朗日逆与真实长度公式；原盒内L=9/2的满秩输入成立。零目标仍须τ非负/原长度盒，未声称原点在局部像内。[首次公开范围](notes/2026-11-28-r651-positive-rest-time-original-input-scope.md)直接搜真实物理参数，并对正候选包围原四连续积分，再以准确有理逆证明时长/原盒；完整历史、全ruling及闭曲面仍待。
