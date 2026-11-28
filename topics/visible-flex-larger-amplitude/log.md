@@ -465,3 +465,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:03:15 UTC — run33真实规则变更失败与两个完整input返回
 
 33官方failure终态与完整日志核定：两input code0，第二返回后Publisher.sync真pull见根§16并抛README changed；science未启。完整input事件、所有输出身份和异常保本轮note，新runner按已读规则完整重算；删除失效运行槽，未把输入成功当科学完成。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)。双README云核至`393a49ef3d59e1b39eedc35e22da45797fdea0d0`无变（非pull）。
+
+## 2026-11-28 10:06:07 UTC — run27官方failure与最后自身完整状态
+
+46105138690/1官方failure 2026-11-28T09:42:20Z；原因待该run自身日志，不借33异常。完整最后source/model/current/trial/六族/K和错误保note，未自然返回final/pure，移除失效槽。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`b44a168b99c6a501860cef79cb81dc970e340235`无变（非pull）。

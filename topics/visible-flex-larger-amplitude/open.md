@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-[此前完整open](https://github.com/Rogerhu12/math-research-public/blob/9b350a1bdb508d8fb98031ff7b4c81fc1d28daf1/topics/visible-flex-larger-amplitude/open.md)与[完整H](https://github.com/Rogerhu12/math-research-public/blob/9b350a1bdb508d8fb98031ff7b4c81fc1d28daf1/topics/visible-flex-larger-amplitude/HANDOFF.md)保全部原字、完整源参、失败、未知和旧历史链；§1–6原23359B不变。M160/J923/N2048/32stage、全变量/角径向域/原预算继续，均未达README。各whole note保source/model/point/六族/K、全命令/typed/错误；trial不冒accepted，异model不借同坐标结果。
+[此前完整open](https://github.com/Rogerhu12/math-research-public/blob/74d582e76b62a1149822eb51cb5f08e02e9f3cb1/topics/visible-flex-larger-amplitude/open.md)与[完整H](https://github.com/Rogerhu12/math-research-public/blob/9b350a1bdb508d8fb98031ff7b4c81fc1d28daf1/topics/visible-flex-larger-amplitude/HANDOFF.md)保全部原字、完整源参、失败、未知和旧历史链；§1–6原23359B不变。M160/J923/N2048/32stage、全变量/角径向域/原预算继续，均未达README。各whole note保source/model/point/六族/K、全命令/typed/错误；trial不冒accepted，异model不借同坐标结果。
 
 ### 实际结果与原runner续接
 
@@ -109,11 +109,11 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 |---|---|
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 官方cancelled08:39:51Z，原因未知。原science/pure0、a28ae/accepted4；同源restart新accepted0，596a四分之一步reachg.522561396446142拒，8f375八分之一步仅统计，restart未自然返。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 官方cancelled09:20:01Z原因未知；c283已接受/current/accepted1、distance_plus.1284444767098446/reach.013246488697677083；0cb1下一全步仅开始。 |
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 12d82/accepted3/reachg.6999403610404435/Gram.487646571786265；86e14第四全步reachg.6999403587662889拒，c6928半步仅开始。 |
+| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 12d82/accepted3/reachg.6999403610404435/Gram.487646571786265；官方failure09:42:20Z，原因待日志；86e14全步拒，c6928半步仅统计。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | 原science/pure0；a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518，首QP2advance/dependent-zero。标量90/90读取0；完整R729跨source包现全刊并原ID排science，新返回未知，旧guards不改。 |
 | [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | bc818/accepted1/distplus.13820228685007474/reachg−.03475313540129943；d24e八分之一步reachg2.0394327986836136拒，695833十六分之一步Phi587.8844554160014/Gram.41821188602738024，几何未知。 |
 
-19–24的全部独立终态/源参/未知保上述固定完整open及其六份whole note：19 science/pure0、N1无report原因未知；20–24官方cancelled，未返final仍未知。20–25取消原因均未提供，不按时长猜。25[完整restart6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)、完整父report c1be/13final de44/typed13与140/7、458/445/64live、新4/64/15全保；不造未返final。26已取消且未自然science返，pure未执行；27/29待自然返才排整pure47112/46915。29 active/parent同29-retry1、queue74379，原容量failure与诊断run独立。28全pure423值/22原错与metadata最初13错均保；[完整S/core-law](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已刊78010。
+19–24的全部独立终态/源参/未知保上述固定完整open及其六份whole note：19 science/pure0、N1无report原因未知；20–24官方cancelled，未返final仍未知。20–25取消原因均未提供，不按时长猜。25[完整restart6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)、完整父report c1be/13final de44/typed13与140/7、458/445/64live、新4/64/15全保；不造未返final。26已取消且未自然science返，pure未执行；27/29均官方failure，整pure47112/46915未执行。29 active/parent同29-retry1、queue74379，原容量failure与诊断run独立。28全pure423值/22原错与metadata最初13错均保；[完整S/core-law](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已刊78010。
 
 ### 完整新分支
 
