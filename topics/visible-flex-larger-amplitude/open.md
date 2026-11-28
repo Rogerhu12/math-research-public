@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/f4ee0b39c49ecf8cdb1f4764e37337370890a3c4/topics/visible-flex-larger-amplitude/open.md)逐字保所有源参、全域/预算、原路径、模型/点/六族/K、typed、错误未知及旧链接；§1–6原23359B不动。未达README，持续真实求解。
+[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/6552609ae10573a8c3dd46a6b4599c583d3bc329/topics/visible-flex-larger-amplitude/open.md)逐字保全部原源参/预算/路径、模型/点/六族K、typed、失败未知及旧链接；§1–6原23359B不动。未达README，继续实际求解。
 
 ### 实际运行
 
@@ -113,7 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science 2c8739ed/PID3435/model726006；初7e06/accepted0/Phi25127.568861304877/Gram.8838253080334753，完整几何未返。新圆肩139角色/24runtime，713/719正式+64live、原632/625各路径和全部预算保；自然science返才pure74162。1,333,370 outer变量全自由，不冻结正宽端层。异source/model不借同坐标结论。
 
-[36独立弯盘/自由肩完整启动](notes/2026-11-28-run36-bent-disk-complete-launch.md)：四有限幅候选含γ0/.32/.44、完整设计和两次同一冻结g数值精化；全部原预算/源参现刊，新run待查。SVD端缝/重心目标工作误差及全连续闭面几何均待实际支付；不动33–35。
+[36完整实际记录](notes/2026-11-28-run36-bent-disk-complete-launch.md)：46141466656/1、job140968124228自然RC0、八阶段全返；同冻结数值g两精化验证Gram .8454746923566958→2.17427627577303，末K样本57.85981285612486，未达标。全三相2829点与原源参/点/NPZ身份保[终态](notes/run36-bent-disk-46141466656-1.json)。继续新弧长角/正常延拓输入；不借点云held/D/reach，不动33–35。
 
 ### 已证结果与严格缺口
 

@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败、输入困难均非终点。**
-[此前完整交接](https://github.com/Rogerhu12/math-research-public/blob/2731808f63b8ca8d368217e1f443c0bbe08fc25f/topics/visible-flex-larger-amplitude/HANDOFF.md)保全部原字及各完整open/旧H链、源参/错误/预算/未知。open§1–6原23359B不动，不重做登记结论。
+[此前完整交接](https://github.com/Rogerhu12/math-research-public/blob/6552609ae10573a8c3dd46a6b4599c583d3bc329/topics/visible-flex-larger-amplitude/HANDOFF.md)逐字保此前全部结论、预算、源参、失败未知及旧H/open链；各完整note不减，open§1–6原23359B不动。
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`e50ccd81ddf28dfd5d3cc133866ad17df0b6ff31`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`7966d480aae006a536af372f14cd9d13632dec68`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
 
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
@@ -18,32 +18,19 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 ## 新构造、修复及未付责任
 
-R724–728完整证明/源参保results；R728真实w含高度项，最终seed4件a907已刊，不据条件距离冒全K/reach。R729完整全行对偶/可行恢复/gap已证，32实际采用归因尚未返回。
-33正半波R729[整源/原启动](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)与[规则retry](notes/2026-11-28-run33-section16-retry.md)保全部来源/预算。旧run在两input0后因根§16核查退出，science未启。新46133839513/job140944661119两input0，source bffd5bbf/PID3463/model61c654；初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052，首trial291f394全几何g16.64809271107871/reach已拒；半步8e3194c已启，统计/几何未返。自然science返才pure62854。
+R724–729完整结果、源参和失败未知保[结论索引](results.md)及上述固定H；R729全行对偶/恢复只证明所列条件，不代真实可行。
 
+33[原启动](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)/[retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，science bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；首trial291f394完整g16.64809271107871/reach已拒，半步8e3194c已启、几何待付。自然science返才pure62854，138角色与所有原预算不变。
 
-[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)真S/κ₀全角长度根、逆弧长六jet、参考闭嵌入/双held/D≤4.2已证，未付全Gram/reach。[34完整源参启动](notes/2026-11-28-R730-R729-run34-complete-launch.md)保全部139角色/24runtime与原预算。实际46135301432/job140949157288，两input0，science c3228e9d/PID3687/model989fec；自身初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，几何尚待。自然science返才pure66120；不继旧mean/证书。
+[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)参考径向unit/双held/D≤4.2，未付全Gram/reach。[34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，两input0，science c3228e9d/PID3687/model989fec；初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736。139角色/24runtime、全部原预算保，最新几何见ownnote；自然返才pure66120。[R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)冻结参考reach<.016、D>3.88及小邻域障碍不外推自由outer。
 
+[R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)圆肩付末带全Gram、core jet及帽/同肩.126球；[R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)真非圆core正宽准确Gram与core对全像.126球，拼接宽未数值包围。中央Gram/中央reach未付。[35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science2c8739ed/PID3435/model726006；初7e06/accepted0/Phi25127.568861304877/Gram.8838253080334753，几何待付。139角色/24runtime、全1,333,370 outer自由、713/719+64live及原预算保；自然返才pure74162。
 
-[R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)已证冻结R730参考全相位reach<.016、D>3.88；同点水平/帽相对高度各改≤.025仍reach<.0285。真实平帽法球条件指导新领口/core修复；不外推34 outer场，不改其冻结源。
+[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)实际全415片[补发success](notes/r734-actual-Hermite-46139111288-1.json)：T*=1.1294006338228755e−5、合作前缀0，raw同首run。原失败为发布树统计，修复不改数学。[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)非合作比较[真实415片13280叶](notes/r738-actual-gap-46139897443-1.json)：同g双侧全角浸入半宽≥.5384265521561006（215整片）；矩形段≥.264316681320779且II≤5；全部双侧有序.16法球只证半宽1/200。末充分比较不确不证物理失效，未全闭合。
 
-[R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)保原S/R/H，付末带全Gram、核心k₀ρn、帽混合/反向及同圆肩.126球、D≤4.2/双held>.91/δE>0；中央Gram及中央相关reach未付。[35完整源参/启动](notes/2026-11-28-R732-R729-run35-complete-launch.md)共25件已main，139角色/24runtime、原157/7内和162/12外、713/719+64live及全部原预算保，全outer自由。实际46137993293/job140957485768，两input0；science 2c8739ed/PID3435/model726006；初7e06/accepted0/Phi25127.568861304877/Gram.8838253080334753，几何尚待。自然science返才whole pure74162；独立34。
+R735单帽平坦线性核、R736兼容全有限阶、R737新metric闭面精确等距端点对保[全部证明](results.md)；它们分别缺有限幅收敛、双端/同g路径、.2D held及实际cut。[R739](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md)真Hu族双轴发展及全像held判据；弱正位移reach/D上确界1/2不付.2D，q₀未知。继续有限真场与严格全几何。
 
-
-[R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)同一闭参考的真实非圆core/两帽有正宽准确Gram，core每点对全像两向.126球；柱内.18球。移动接口Lcore(φ)全jets保；core宽未数值包围，中央仍未付。
-
-[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)给同g全角核心带/带内.16球。首run全415片已算完但发布Git大小统计卡住；[补发run46139111288/1完整报告](notes/r734-actual-Hermite-46139111288-1.json)现success，T*=1.1294006338228755e−5、全部415片无未知、合作前缀0，raw完整SHA与首run相同。原数学未改，发布器用远程完整树metadata、NFF即真pull/rebase，双README读commit保本marker；不替R733远场拼接宽。
-
-
-[R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷非零固定帽线性核；[R736](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md)单帽三Gram兼容任意有限非线性阶。固定非零幅度收敛与双端闭合均未付。
-
-[R737](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md)新设计metric得两帽固定、闭C²精确等距非全等端点对，reach≥.046/D<1.5/grip≥.9；小ε未付.2D位移，连续同g路径及cut数值复现未付，原g求解独立。
-
-[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)非合作差值/角梯度比较已[实际全415片13280叶](notes/r738-actual-gap-46139897443-1.json)返：run46139897443/1 success，全角双侧同g浸入半宽≥.5384265521561006（215整片）；固定矩形段≥.264316681320779且II≤5；全双侧全部有序对.16法球半宽仅已证1/200。末失效仅充分比较不确；无完整F数组/全闭合/强held新证。
-
-[R739](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md)Hu真同g相位族的双对称轴物理发展半径配对，给有限全像held下界及精确一阶法速。附论仅证δhold>0时reach/D上确界1/2；q₀未知，不冒.2D。须找到有限真解并付全部厚度/精化，原R690求解继续。
-
-[36独立弯盘/自由肩完整启动](notes/2026-11-28-run36-bent-disk-complete-launch.md)：四有限幅候选含γ0/.32/.44、完整设计和两次同一冻结g数值精化；全部原预算/源参现刊，新run待查。SVD端缝/重心目标工作误差及全连续闭面几何均待实际支付；不动33–35。
+[36完整实际记录](notes/2026-11-28-run36-bent-disk-complete-launch.md)：46141466656/1、job140968124228自然RC0、八阶段全返；同冻结数值g两精化验证Gram .8454746923566958→2.17427627577303，末K样本57.85981285612486，未达标。全三相2829点与原源参/点/NPZ身份保[终态](notes/run36-bent-disk-46141466656-1.json)。继续新弧长角/正常延拓输入；不借点云held/D/reach，不动33–35。
 
 ## 准确后继与容量
 
