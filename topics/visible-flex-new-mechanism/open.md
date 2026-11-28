@@ -100,3 +100,7 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R747 十实际全盘已自然完成。** [80接纳与完整原费用](notes/2026-11-28-r747-paid80-ten-actual-disks-natural-terminal.md)：run46172916971/job141065120150，91全J/54831列，wall1058.172937231秒。只有零相位fit；九非零均失败，末curl6203.9758、metric10490.225、κ8847836。artifact15275351283/11408117419B/1b682d07c65f12c569a460e0f8d26826440ac29b8ff68161b0646f71a25f126a保全部旧态；schedule已结束/无inflight，不重十相位或旧J。R752微小锁带地板不解释实际巨大残差，后继仍须真正求解。
 
 **R748 首完整单高度。** [固定原E的全域高度与两帽真实发展](notes/2026-11-28-r748-first-complete-single-height-fixed-material.md)：从R738真实1882q转移，补运23已付base块/3校准；93/191/409全部高度及中心列、完整TSQR/SVD，原g上三网真实Gram/旋角/位移/两轴长同解，首2400秒。新全深规范尾估计未含原浮点积分/六迹误差，不冒连续证书；旧物理资格不传。
+
+**连续证据与局部真修正。** [R744](results/R744-scalar-height-development-true-cap-correction-and-thick-core-mode-exclusion.md)给单高度真实展开及当前厚源j2无穷小模排除，未排有限幅解。[R749](results/R749-two-cap-Volterra-defects-and-reflection-axis-anchors.md)把同一高度的全域Darboux缺陷、两轴锚与真六迹传到完整Gram；[R751](results/R751-positive-curvature-latitude-mean-and-height-spectrum.md)由正K整纬圈及全向量谱给平均高度的严格必要下界；[R753](results/R753-exact-local-axis-length-correction-in-the-full-even-height-space.md)保全部偶角模和帽三迹，给两轴的独立局部精确长度修正与真实曲率条件；[R756](results/R756-two-boundary-material-curl-to-the-complete-physical-two-jet.md)把两真边原curl/端位移及全域角导传到实际同一代表的Gram、六jet/主曲率和有序法球。根已全文读这些论文，R756新消费者也全文核。所有条件全胞输入尚须从真实场补齐，未把有限网当连续证明。
+
+**R755 首固定材料预算。** [完整向量面积/调和能量/真曲率消费](notes/2026-11-28-r755-first-actual-fixed-material-all-pose-budget.md)：原FINAL/64校准精确内联，424新径胞、C=0/原姿/四角全部矩阵及两姿全角曲率界，首300秒；不重旧RHS/J，真正违反才排源，通过必要门不授解。
