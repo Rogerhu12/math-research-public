@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-[原Haar全普通格的共同旗与闭稳定根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)：任意M的两个坐标核同为K−、投影闭包同为K+；真Q=K+/K−上为闭稠值稳定S图，DomS²=DomS且S²=α_m⁻¹A^(m+1)_Q，反向给原M。每个proper M在有限尾必出现非零Q；gauge和稠而不闭，inf||Sy||/||y||=0。全尾标量加权复合根已由parity排除，不传未知子商；真实非局部根或原旗尚未构造。R143原反根/图核心仍保正文，RanT⊂RanT*与慢D=−2Z在未知L的稠像/伴随域继续。
+[原Haar全格旗与闭根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)给任意M共同K−/K+、真Q上的闭稳定根及原旗反构造；proper M有限尾必现非零Q，gauge和非闭。全尾标量乘合根parity排除。[自然高位有限根的强图障碍](results/R12-appendix-moving-high-bit-finite-square-roots-have-zero-strong-graph-limit.md)：S_m=c_m E_m+c_m⁻¹E_m*A_m的平方范数趋A，但任意非零复尺度的强图聚点仅(0,0)，允许输入随m强趋固定向量。继续真实非局部根/原旗；未知子商不套全尾根重数。R143图核心、RanT⊂RanT*和慢D未知L伴随域接口保正文。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -220,4 +220,4 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 一对加四独立[全九维S1已证](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)，原S2严格迹保正文。[指定原S2来源余量](results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md)：9f120真180.048256493秒，最大单独位减pair来源h的五闭域全部严格正，支付完整上下费用和交叉项；仅n1参数完成，零chamber返回，n2/3未到，rankone后门冻结。整个S2/七位glue、同W费用和原Haar不变格桥仍开；不拆n1续跑。
 
-整K7闭，全W三原规则、首一λ6/十五行精确表示及[本原P8](results/R150-appendix-unit211-W-original-primitive-lambda-eight-and-first-norm-boundary.md)保正文；330a六范数未返，门冻。新[N1斜率纯权二列输入](notes/2026-11-28-unit211-W-original-N1-slope-weight-coordinate-monic-square-input-8542.md)178b首派180秒4GiB：从完整N1行取ΔN=ad−bc、Z=ax+cy，双向原坐标和首一Z²全I4迹返回；只在明确ΔN≠0图给(1,Z)生成，只有实际权支持全已付才扩全W。ΔN0及个别NP/NV、其它值保持，不重跑旧Norm。
+整K7闭，全W三原规则、χ首一λ6/十五行商/本原P8保正文，330a六范数门冻。178b真2.541453184秒：N1纯权ΔN余单一QQ不可约H198（14,19；总25、198项），整H0保留；H≠0原双向坐标与首一Z²的全部I4迹返，商由(1,Z)生成。继续该新两列的完整NS/PS、个别原值与H0整支；未付λ头及旧q3/r2/R6范围保留。
