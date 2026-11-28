@@ -45,3 +45,9 @@
 
 [三源及小回执](notes/2026-11-28-tail-r98-rational-time-jet-entry.md)直接复用已冻完整source/mean/Hermite/cut消费器，不重建旧角0..3表；新全support有理κ0..3/Γ5与实际投影/端点/全部cut模支付新增角四阶。有限逆角Taylor majorant保完整混合jet，仅需e/e′/e″；同实际目标正半径归一化得M₂/Mg₂/Vg1，Fraction/dyadic平方根上界经整数不等式核。真3compile/help0及独立114项精确代数0（8个形式带符号角图×12项混合jet及其余关系）；没有假accepted场/BVP/J/native/core位置重算。修正note第四导式单个缺失‘+’，数学源与已付checker未动。只有完整prefix/cut/柱覆盖入口，整尾、深collar、Cartesian盘逐项pending、whole_surface恒false；无实际own fixed输入或新数值常数。下一全尾/盘入口继续，当前主算转完整Jac/CSR分块，H已同步20732前CSR真实终态。
 
+## 2026-11-28 — 20732 新存储恢复的真实启动与进入前终态
+
+[原冻结启动](notes/2026-11-28-design-r87-lambda256-reclaimed-storage-start.md)及[独立终态](notes/2026-11-28-design-r87-lambda256-before-reclaimed-storage-actual-terminal.md)分别保事实：19:43:20 UTC从同完整97ec启动；19:45:46.779515 UTC真child−9/tool247/remaining0、146.789s/514424KiB。实际launch和preJ预算通过，但无完整CSR-return/factor-start/newstore/journal；新的逐数组回收类根本未被调用，不能登记其回收效果或失败。源97ec不变，无新Newton、RMS/metric；真join后cleanup为store_createdFalse/removed[]。原start未回写，driver及全部来源真实保存。终止原因未证，不降低数学门、不做同布局重启或λ二分。下一具体路线把完整原node/mid dy+dp和全CSR分块落盘，两agent分别实现provider与通用assembler。
+
+19:52:40.570651 UTC私库实际pull到436516b6ca202ac7ebf286702becce51e00eb022；相对5d146903e36f双README无差异，QUEUE仍本会话/2026-11-28进行中。H登记新规则锚，最迟20:45 UTC继续拉取。
+

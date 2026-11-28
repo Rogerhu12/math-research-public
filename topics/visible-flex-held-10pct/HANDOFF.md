@@ -4,8 +4,8 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `25e8661fbc778f9d37eb5f41acf415cb2a6dee49`（2026-11-28 19:51 UTC）。
-- 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `5d146903e36f71c8137ab5137195d1f3d90055d7`（2026-11-28T19:19:02.099311+00:00），相对4f63189c1e7d双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟20:15 UTC再pull。
+- 最近实际pull后双README已读锚 `1a88b3af27073cee8e98d652f960e79956a5f6b3`（2026-11-28 19:53 UTC）。
+- 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `436516b6ca202ac7ebf286702becce51e00eb022`（2026-11-28T19:52:40.570651+00:00），相对5d146903e36f双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟20:45 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
 
@@ -15,7 +15,7 @@
 
 **当前真正接受锚：[λ=.128/M24](notes/2026-11-28-design-single-gentle-r87-strict-lambda128-mapped-input-recovery-actual.md)**，1185点/RMS1.9949890856595675e−7/metric6.362597622681736e−7/physicalBC2.0279039207175011e−19/mean1168/δ.06809994455035266。8全步/零拒、502.007s/699648KiB；全部原门及全来源/raw/physical/hash实核。run683d916f31de1406defc42fd7630efdc127aaf093e529ed7ab8b2030c1ec7d9c，out `held10-design-work/R87-strict-mapped-material-continuation-20261128/attempt-001`。已恢复历史前沿，非新λ进展；[.064](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)/[.032](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)前驱保留。
 
-**当前无活BVP；完整Jac/CSR分块实现中。** 20732于19:43:20 UTC从完整未接受λ=.256/M32、1185×97/p32状态 `97ec9d07c25d18cd7da7dbade7d5f0902fc1c48b3bbad2ee5b22abe432ed4279` 原样续算；19:45:46.779515 UTC真child−9/owner247/剩余0，峰514424KiB。只有初域及完整preJ预算门，无CSR-return/factor-start/新storage journal，v3回收根本未进入，不能评价其效果。无新Newton，97ec不变；无store可清。已改进方向为保所有原node/mid偏导/全CSR的分块落盘，不重复同布局大J；analytic做通用assembler，design做原完整provider/driver接线。
+**当前无活BVP；完整Jac/CSR分块实现中。** [20732真实终态](notes/2026-11-28-design-r87-lambda256-before-reclaimed-storage-actual-terminal.md)：19:43:20 UTC从完整未接受λ=.256/M32、1185×97/p32状态 `97ec9d07c25d18cd7da7dbade7d5f0902fc1c48b3bbad2ee5b22abe432ed4279` 原样续算；19:45:46.779515 UTC真child−9/owner247/剩余0，峰514424KiB。只有初域及完整preJ预算门，无CSR-return/factor-start/新storage journal，v3回收根本未进入，不能评价其效果。无新Newton，97ec不变；无store可清。已改进方向为保所有原node/mid偏导/全CSR的分块落盘，不重复同布局大J；analytic做通用assembler，design做原完整provider/driver接线。
 [首次97ec原诊断](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)55513于19:40:53 UTC真0/剩余0、无J。RMS.00792274554/物理BC4.62439e−8；2518×1552原metric.00026738003，最坏G在原节点923/s.67851474/bin96/θ=π。未收敛，不能判历史最终平台；该点G不依赖径向重建导数，仅是这份未接受场的诊断。55513真join后才启20732。
 [两次完整升模工程交接](notes/2026-11-28-design-r87-two-source-lift-engineering-handoffs.md)：同M合同已修；全样本/六jet参考batch16→2并复用真左lift，右lift真0/max差3.44214e−15，完整β2初猜eebe2267…；原observer只读唯一audit。所有终态/源/hash见记录。[.032完整映射恢复](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)已真接受；负码不作数学排除，真join后才清自有映射。
 
