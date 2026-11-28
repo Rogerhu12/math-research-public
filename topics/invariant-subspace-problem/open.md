@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)及[整ellhalf](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)已闭：41453唯一7.864830096秒/40940KiB/0，g12=h3⁴；完整六维常数域全部嵌入、同Q E1/EBe gcd1和八原返(QδMΔ)^4，再四重幂零提升。仅当前碰撞余图可付2ell−1。[全Pf原monic t³](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)保，一般fixed-(λ,T)/Pf三生成推论待刊；余权碰撞仍开。
+[整正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)及[整ellhalf](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)已闭：41453唯一7.864830096秒/40940KiB/0，g12=h3⁴，完整K6同Q八原返U⁴后全四重提升，当前碰撞付2ell−1。[一般fixed-(λ,T)/Pf首一t³](results/R150-appendix-unit211-general-fixed-spectrum-Pf-chart-original-monic-t-three-corollary.md)纸面推论现刊：任意纯参数weighted N/P目标，四原最高头单位→原三次/1,t,t²生成；真实cN/cP明列，无碰撞/Δ/Φ/2ell−1假设。Pf0、余权碰撞及完整原排空均保留。
 
 ### W：全原均值、H198两生成图与完整值条件
 

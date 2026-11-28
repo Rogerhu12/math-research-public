@@ -24,6 +24,8 @@
 
 ## 新增结论
 
+- [R150：一般fixed-(λ,T)/Pf图的原首一三次与三生成推论](results/R150-appendix-unit211-general-fixed-spectrum-Pf-chart-original-monic-t-three-corollary.md)：四原最高系数保完整幂零给单位，任意纯参数weighted N/P目标下原商由1,t,t²生成；真实目标以原U矩明列，无h=k、Δ、Φ或2ell−1假设，Pf=0及权空间继续开放。
+
 - [R150：正确h=k整ell=1/2原支完整关闭](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)：41453唯一7.864830096秒/0，短Cramer三次识别原g12=h3⁴，完整六维常数域内同Q八原返(QδMΔ)^4；全四重幂零提升与独立Δ0/λhalf闭支合成整支，当前碰撞余图可付2ell−1。
 
 - [R150：正确Phi完整Vlow的第二非零纯权支持与公共曲线双次界](results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md)：079cc唯一3.530707191秒/0，新固定G14非零/总度≤730；F双次402/222、G的Q371和u642..643。两条完整模切片与保度通过整闭局部Gauss环严格给QQ公共gcd双次≤41/68，公共曲线及孤立交点继续保留。
