@@ -1,0 +1,193 @@
+{
+  "schema": "isp-Phi-whole-head-highest-original-lift-receipt-v1",
+  "date_taipei": "2026-11-28",
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-first-head-original-NV-F6-highest-unit-filtered-lift-8542.py",
+  "workflow": "invariant-subspace-8542-phi-whole-highest-lift.yml",
+  "job_id": 140798154313,
+  "execution": {
+    "elapsed_seconds": 4.083557464000002,
+    "max_child_rss_kib": 58608,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ecdb640dca08aca97aab5a8b5b56fc3fa49b6a4c",
+        "before": "ecdb640dca08aca97aab5a8b5b56fc3fa49b6a4c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:14:31.069820+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46086798707",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "ecdb640dca08aca97aab5a8b5b56fc3fa49b6a4c",
+    "source_exit_code": 0,
+    "source_git_blob": "999ac2498063d206315dd37a64a02a438d10d918",
+    "source_sha256": "4cebc8a6e7e16c58e9dff2bc055acd2bc9e262132bc08d7d9dfa2bff0ca3cd41",
+    "stdout_bytes": 5322,
+    "stdout_sha256": "9a54fa97a5cadaef41da03abc5275390b47da68174ee9ecc5d19225ad9e6b75d",
+    "stop_reason": null
+  },
+  "actual_return": {
+    "sourceSHA256": "4cebc8a6e7e16c58e9dff2bc055acd2bc9e262132bc08d7d9dfa2bff0ca3cd41",
+    "originalActiveRows": [
+      "full_NV_degree7",
+      "full_F6_degree6",
+      "original_N1_degree2"
+    ],
+    "selectedSourceIndices": [
+      0,
+      1,
+      2
+    ],
+    "allFiveSourceThreeCoefficientProductsReturned": true,
+    "actualFinalWeightDenominator": {
+      "degrees": [
+        78,
+        52,
+        0,
+        0,
+        0
+      ],
+      "terms": 2611,
+      "bytes": 143122,
+      "sha256": "662239cc0ed91ebf8b96e4e5f5dc282db19c58963e203d3e342c64fd183c1970"
+    },
+    "finalWeightMultipliers": [
+      {
+        "degrees": [
+          69,
+          50,
+          0,
+          0,
+          0
+        ],
+        "terms": 2058,
+        "bytes": 108147,
+        "sha256": "d5ebfd35f4f3dea34478287e1c04d857427fd2da0a4b7ffb42ef31c442f9917c"
+      },
+      {
+        "degrees": [
+          66,
+          51,
+          0,
+          0,
+          0
+        ],
+        "terms": 1886,
+        "bytes": 96008,
+        "sha256": "0e0d818394fe5001ea61e187a4ab9f0f82d41642c8fdee72315d5826aa024e8e"
+      },
+      {
+        "degrees": [
+          69,
+          48,
+          0,
+          0,
+          0
+        ],
+        "terms": 2225,
+        "bytes": 115036,
+        "sha256": "a97b098b768cc54390852803761f0b2d65fbbdff01cf077ecaf12460c8ee1177"
+      },
+      {
+        "degrees": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "terms": 0,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "degrees": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "terms": 0,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "removedOnlyAlreadyPaidWeights": [
+      {
+        "unit": "Q",
+        "passes": 1
+      },
+      {
+        "unit": "ell",
+        "passes": 2
+      }
+    ],
+    "retainedEntireWeightSupport": {
+      "degrees": [
+        74,
+        49,
+        0,
+        0,
+        0
+      ],
+      "terms": 2403,
+      "bytes": 128055,
+      "sha256": "f2fcd6f323adaf47121341fc2e28c8af92dfba0e84dd13ed87e96f1f77081d8a"
+    },
+    "exactWeightIdentity": "C*e0=sum_i beta_i*highest_original_row_i",
+    "liftDegree": 7,
+    "exactFullOriginalLiftDefinition": "sum_i beta_i*lambda^(N-grade_i)*full_original_row_i",
+    "actualFullLiftConclusion": "C*lambda^N=a0+a1*T+a2*z modulo the original ideal",
+    "strictLowerLambdaDegreeBounds": [
+      6,
+      5,
+      5
+    ],
+    "fullThreeRowLiftDefinition": "multiply this same scalar relation by 1,T,z and use actual mean rules",
+    "determinantDefinition": "det(C*lambda^N*I-(a0*I+a1*MT+a2*MZ))",
+    "exactDeterminantLeadingCoefficient": "C^3",
+    "exactDeterminantLambdaDegree": 21,
+    "monicLambdaOnlyOnFinalWeightSupportComplement": true,
+    "entireFinalWeightSupportZeroLocusRetained": true,
+    "originalModuleIsGeneratedByAtMost": 21,
+    "freeOriginalModuleNotAssumed": true,
+    "noLambdaInverseUsed": true,
+    "globalWeightDenominatorIsAlreadyPaid": false,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false,
+    "noOldP6P9CofactorNormWeakPopovOrGramGateReplayed": true,
+    "coefficientPayloadOrEncodingOrSplitSaved": false,
+    "peakRSSKiB": 58608,
+    "stage": "new_original_highest_unit_and_exact_filtered_lift_finished",
+    "seconds": 4.044887572
+  },
+  "original_rows_used": [
+    "complete_NV",
+    "complete_F6",
+    "original_N1"
+  ],
+  "rank_history": [
+    1,
+    2,
+    3
+  ],
+  "support_interpretation": "Cstar=0 is the retained exceptional locus of this finite lambda model; it is not itself claimed a necessary equation for all original solutions",
+  "scope": {
+    "whole_current_Phi_first_head_paid": true,
+    "monic_lambda_degree_on_support_complement": 21,
+    "original_module_generators_on_support_complement": 21,
+    "full_chi_coefficients_not_expanded": true,
+    "original_lower_coefficients_defined_by_exact_DAG_lift": true,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "no_new_coefficient_payload": true,
+  "no_old_gate_replayed": true
+}

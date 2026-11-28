@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：整Phi首头上的原NV/F6最高行、七次滤过关系与21生成表示](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)：999ac首次完整返回Ce0，严格原lift付C*补图首一λ21与≤21生成；保全部C*零曲线及原个别N/P，未宣整Phi排空。
+
 - [R150：原N1的H198纯权曲线与两生成元首一平方](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)：两个全图身份及QQ不可约H198实际返回；H≠0仅新增两生成元图，首一Z²有完整原I4迹，整H0与完整N/P继续保留。
 
 - [R12：自然移动高位有限平方根的强图聚点仅为零](results/R12-appendix-moving-high-bit-finite-square-roots-have-zero-strong-graph-limit.md)：任意非零复尺度、输入与输出同时强收敛时均为零；平方范数趋原 A 仍不提供实际闭根，不排其它非局部来源。
