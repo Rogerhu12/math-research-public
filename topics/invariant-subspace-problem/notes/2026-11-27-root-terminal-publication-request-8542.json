@@ -1,14 +1,17 @@
 {
-  "message": "ISP: exclude every internal ell pole and reduce Vbar-positive original weights",
-  "parentCommit": "7aa0611f94ba4d1546f18393f28803c4505fde61",
+  "message": "ISP: exclude the entire delta-positive u-half original valuation branch",
+  "parentCommit": "da33e08b58370e867111486ce66219290632870d",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-global-ell-integrality-and-Vbar-positive-finite-weight-chart.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-ell-integrality-Vbar-chart-2215-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-ell-integrality-Vbar-chart-2215-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-internal-delta-positive-u-half-entire-original-valuation-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-second-head-ell-three-halves-whole-quartic-values.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-delta-u-half-whole-2220-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-delta-u-half-whole-2220-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-second-head-ell-three-halves-whole-quartic-values.yml"
+  ]
 }
