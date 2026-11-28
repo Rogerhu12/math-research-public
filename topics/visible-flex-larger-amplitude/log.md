@@ -490,3 +490,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:25:49 UTC — ret67十一份旧准备描述完整可逆保全
 
 11原件毛413350B，五新件136187B，净277163B；四完整canonical留树，35完整参数/资源/失败与旧科学输入责任保。两源准备、七几何准备和两旧发布清单逐字重构；prepare-only不冒实际场，三类原exit1照保。固定ca7403a6d766ac7ddeb9af2f37b3f5143021ff64与每原blob整恢复，旧reader先恢复原路径，不以v2或别场替原。科学源/输入/raw/checkpoint/报告/活任务不退，无科学重跑或新增门。双README云核至`74ddb96741637d7a3618afe7bf5f4cc87d754318`无变（非pull）。
+
+## 2026-11-28 04:26:45 UTC — R726完整独立球面科学族直接发表
+
+完整29件1424748B：修正最小5件174556B与上层24件1250192B无重复。22新runtime/23current、137角色19变118保；mean2513e4b0/seed17648458、driver58630a87/launcher36a7a0a2/reader1aae949f、完整binding6e548083全接。实际B和field共同Slerp，输入/输出归一化、全3×3J和两角/径向导数保；准确小角尾一二阶已修链因子，统一常数及源不变，工作切换不冒准确C²。原157/7接口、全变量/32stage/接受/预算及save_report到EOF21481B/d339原字保，实际均值/校准必须新算。完整2体24patch和20体176patch正逆再生，未执行Python/AST/fixture/科学，不加急角门、不继旧R709/R722准确公式。新run/model/point/费用均null；29完整参数接续。双README云核至`fde0208729e9445bee1412b6803d4ead5d2cb55d`无变（非pull）。

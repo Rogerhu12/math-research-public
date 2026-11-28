@@ -1,0 +1,303 @@
+{
+  "schema": "complete-R726-spherical-seed-mean-angular-source-delivery-v1",
+  "prepared_utc": "2026-11-28 03:55:37 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "complete independent source text; no new scientific execution or continuous certificate",
+  "manifest_path": "computations/fixed-fejer-R726-spherical-seed-complete-source-delivery.json",
+  "manifest_bytes": 13688,
+  "complete_artifacts": [
+    {
+      "name": "fixed_fejer_R726_spherical_seed_mean_jets.py",
+      "path": "scripts/resume_20261126/fixed_fejer_R726_spherical_seed_mean_jets.py",
+      "bytes": 48226,
+      "sha256": "2513e4b0b8e6f895e4b9a53da2d938bb109937a3ab577e09c67558e37d128d23",
+      "git_blob_sha": "9f7ea1805326a317a281e8c3f6c7cb6ef9709890"
+    },
+    {
+      "name": "fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+      "path": "scripts/resume_20261126/fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+      "bytes": 52457,
+      "sha256": "176484582f7bdd83d0efe300d4ce7efe868df9d50a29310d7fb3aedce9d0f20a",
+      "git_blob_sha": "231bad2fba5f80ade672703114fe5bd776512baf"
+    },
+    {
+      "name": "2026-11-28-R726-complete-spherical-seed-mean-angular-source.md",
+      "path": "notes/2026-11-28-R726-complete-spherical-seed-mean-angular-source.md",
+      "bytes": 23146,
+      "sha256": "192fc4a7dad2e61459bbf1a2b938d860049a6b17f9f2cd1c48e37c278010c802",
+      "git_blob_sha": "4a645e48aede8380f914d7f3545dd686f08c3acd"
+    },
+    {
+      "name": "reproduce_fixed_fejer_R726_spherical_seed_sources.mjs",
+      "path": "scripts/resume_20261126/reproduce_fixed_fejer_R726_spherical_seed_sources.mjs",
+      "bytes": 37039,
+      "sha256": "6aff8eb886e36c41a5ce46d74a160bed73c2055596b8efd7293800c936b7d9c6",
+      "git_blob_sha": "7395c0a2e8adc81317ac95142c5c25d9ffa4d8b3"
+    }
+  ],
+  "complete_artifact_count_including_manifest": 5,
+  "complete_artifact_bytes_excluding_manifest": 160868,
+  "complete_artifact_bytes_including_manifest": 174556,
+  "runtime_file_count": 2,
+  "runtime_source_bytes": 100683,
+  "complete_parent_records": [
+    {
+      "name": "supported_smooth_triangle_seed_mean_jets.py",
+      "path": "scripts/resume_20261126/supported_smooth_triangle_seed_mean_jets.py",
+      "bytes": 34725,
+      "sha256": "f8487dfe917e76dae12e3ba5667f66423ada305c077160d606d6f6aea6dc3917",
+      "git_blob_sha": "ee318b8971ce3c3d10715fbcd648c3a3bcfd6712"
+    },
+    {
+      "name": "fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+      "path": "scripts/resume_20261126/fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+      "bytes": 51540,
+      "sha256": "1533deac6485f4b7fc065d4e40ed23ef0220ebb1800e868a518fd27ec623616f",
+      "git_blob_sha": "b37f930874dd9b874d58120a2d9fe86031146ccb"
+    }
+  ],
+  "accurate_theorem": {
+    "path": "results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md",
+    "bytes": 27362,
+    "sha256": "faa3e44cf1392e6f7e1fb4e04adb039afc54ac881ef3f99b0b4ca9810d9e226b",
+    "git_blob_sha": "1397c01f1155ebda224441039a3950ce03c2417a",
+    "publication_commit": "b70f4044ba43bd298d3cb64b40098490bc2e7f06"
+  },
+  "parent_full_scientific_family": {
+    "fixed_publication_commit": "95801769a95b2940b14ad01fe7640581b2c2fb44",
+    "complete_binding": {
+      "path": "computations/fixed-fejer-r725-current-complete-runtime-binding.json",
+      "bytes": 57985,
+      "sha256": "f7ef58856c06e66b5450b0e745c98fc92ecc2f1bf69b0b3a2f06827a7be9e82b",
+      "git_blob_sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984"
+    },
+    "source_manifest": {
+      "path": "computations/fixed-fejer-r725-complete-scientific-source-delivery.json",
+      "bytes": 25162,
+      "sha256": "9929f153017ad195bf4d9aed8bbbad3d05dd32e81491cc2b11e7910a9811bb94",
+      "git_blob_sha": "1c0c17981f4fcbca81eed5e09646bc007299fdea"
+    },
+    "complete_current_runtime_count": 22,
+    "complete_scientific_source_roles": 137,
+    "changed_in_this_delivery": false,
+    "current_running_bytes_replaced": false,
+    "new_entire_upper_family_claimed_prepared": false
+  },
+  "actual_source_changes": [
+    {
+      "role": "mean",
+      "record": {
+        "name": "fixed_fejer_R726_spherical_seed_mean_jets.py",
+        "path": "scripts/resume_20261126/fixed_fejer_R726_spherical_seed_mean_jets.py",
+        "bytes": 48226,
+        "sha256": "2513e4b0b8e6f895e4b9a53da2d938bb109937a3ab577e09c67558e37d128d23",
+        "git_blob_sha": "9f7ea1805326a317a281e8c3f6c7cb6ef9709890"
+      },
+      "patch_count": 11,
+      "unchanged_signature": "solve_mean_jets(K0,K1,K2,T0,T1,T2,chi,weights,central_length,e0,e1,e2,*,profile_delta,profile_quadrature_order=16,maxiter=128,tolerance=2e-12,scalar_iterations=64,mean_backtracks=24,mean_armijo=1e-4)",
+      "actual_new_field_function": "spherical_boundary_jets(T0,T1,T2,v,v1,v2,chi,*,Ts,chi_s)",
+      "pure_formula_metadata": "spherical_boundary_definition()",
+      "new_mean_schema": "complete-R726-spherical-boundary-paired-halfwave-seed-working-mean-and-angular-jets-v1",
+      "actual_B_J_and_two_angular_equations_changed": true,
+      "original_all_angle_Newton_and_Armijo_and_budgets_preserved": true,
+      "old_Euclidean_PSD_matrix_or_potential_inherited": false
+    },
+    {
+      "role": "seed",
+      "record": {
+        "name": "fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+        "path": "scripts/resume_20261126/fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+        "bytes": 52457,
+        "sha256": "176484582f7bdd83d0efe300d4ce7efe868df9d50a29310d7fb3aedce9d0f20a",
+        "git_blob_sha": "231bad2fba5f80ade672703114fe5bd776512baf"
+      },
+      "patch_count": 13,
+      "new_schema": "complete-fixed-fejer-R726-spherical-boundary-paired-halfwave-meridian-seed-reference-v1",
+      "constructor_keywords_unchanged": [
+        "expected_bundle_sha256",
+        "seed_parameters",
+        "mean_kernel_module",
+        "cache_directory"
+      ],
+      "new_complete_mean_hard_pin": "2513e4b0b8e6f895e4b9a53da2d938bb109937a3ab577e09c67558e37d128d23",
+      "new_ctor_module_keyword_required": false,
+      "field_outputs_unchanged": [
+        "T0",
+        "T0_s",
+        "T0_phi",
+        "T0_phiphi",
+        "norm",
+        "theta_parent",
+        "rho_parent",
+        "rho_phi_parent",
+        "metadata"
+      ],
+      "already_recorded_v_jets_now_used_by_actual_boundary_evaluate": true,
+      "actual_mean_and_field_share_same_raw_v_graph": true,
+      "physical_central_halfwaves_changed": false,
+      "radial_partition_math_changed": false,
+      "fixed_chart_math_changed": false,
+      "current_outer_free_variables_removed": 0,
+      "original_fixed_reference_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
+    }
+  ],
+  "preserved_complete_text_ranges": [
+    {
+      "name": "complete_newton_solve_and_armijo",
+      "complete_parent_bytes": 3293,
+      "parent_sha256": "30ebaa0986370945ac0f95f2bc9964ef85ba4aa6a2491241393dcb030d6dab6a",
+      "current_bytes": 3293,
+      "current_sha256": "30ebaa0986370945ac0f95f2bc9964ef85ba4aa6a2491241393dcb030d6dab6a",
+      "byte_identical": true
+    },
+    {
+      "name": "complete_central_amplitude_and_frame",
+      "complete_parent_bytes": 6613,
+      "parent_sha256": "951e6382ab47a4cba7a531b387bebb3a98d463d7bf204d5c73998264b5d95443",
+      "current_bytes": 6613,
+      "current_sha256": "951e6382ab47a4cba7a531b387bebb3a98d463d7bf204d5c73998264b5d95443",
+      "byte_identical": true
+    },
+    {
+      "name": "physical_paired_central_field",
+      "complete_parent_bytes": 772,
+      "parent_sha256": "49188a593ea55dfec7d33202f4f899d2e4ba46ba2ab6ff29b312a986410a79cd",
+      "current_bytes": 772,
+      "current_sha256": "49188a593ea55dfec7d33202f4f899d2e4ba46ba2ab6ff29b312a986410a79cd",
+      "byte_identical": true
+    },
+    {
+      "name": "radial_exact_partition_builder",
+      "complete_parent_bytes": 9379,
+      "parent_sha256": "abba82dad679c004c9ab6b7baf98851ec9bf35621bfa8c5d4a0a442bd6d324c0",
+      "current_bytes": 9391,
+      "current_sha256": "cbd125f931b46f6dc5e1f5c1c205b1d7a7ae1ee374b6a990a9f21e60aabd421c",
+      "byte_identical": false,
+      "only_schema_change": true
+    },
+    {
+      "name": "fixed_chart",
+      "complete_parent_bytes": 1349,
+      "parent_sha256": "cc40a3cc2865e601790a3f3b32d86c174c8113ee656f925f49341af3f110996c",
+      "current_bytes": 1349,
+      "current_sha256": "cc40a3cc2865e601790a3f3b32d86c174c8113ee656f925f49341af3f110996c",
+      "byte_identical": true
+    },
+    {
+      "name": "radial_requested_point_values",
+      "complete_parent_bytes": 1196,
+      "parent_sha256": "6b535587242636827b1024410febffb9745b04737f7a40f5c973dd1ef0ad6004",
+      "current_bytes": 1196,
+      "current_sha256": "6b535587242636827b1024410febffb9745b04737f7a40f5c973dd1ef0ad6004",
+      "byte_identical": true
+    }
+  ],
+  "source_reconstruction": {
+    "complete_reproducer": {
+      "name": "reproduce_fixed_fejer_R726_spherical_seed_sources.mjs",
+      "path": "scripts/resume_20261126/reproduce_fixed_fejer_R726_spherical_seed_sources.mjs",
+      "bytes": 37039,
+      "sha256": "6aff8eb886e36c41a5ce46d74a160bed73c2055596b8efd7293800c936b7d9c6",
+      "git_blob_sha": "7395c0a2e8adc81317ac95142c5c25d9ffa4d8b3"
+    },
+    "argv": [
+      "--source-directory",
+      "<complete-parent-source-directory>",
+      "--generated-directory",
+      "<independent-source-directory>"
+    ],
+    "source_text_only": true,
+    "actual_full_text_inverse_performed": true,
+    "whole_parent_bytes_required": true,
+    "exact_before_after_patches_retained_in_reproducer": true,
+    "total_patch_count": 24,
+    "original_source_not_overwritten": true,
+    "Python_import": false,
+    "AST": false,
+    "compile": false,
+    "fixture": false,
+    "scientific_evaluation": false,
+    "numerical_benchmark": false,
+    "source_execution_gate_added": false
+  },
+  "zero_angle_working_definition": {
+    "q": "sum((N(T0)-N(v))**2)/2",
+    "no_angle_clipping": true,
+    "small_q_max": "1/4",
+    "degree": 32,
+    "recurrence": "c0=a; c[n+1]=(((n+1)^2-a^2)/((n+1)(2n+3)))*c[n]",
+    "q_first_second": "same-coefficient simultaneous Horner",
+    "a_first": "same-recurrence chain derivative",
+    "large_q": "acos/sin expression with full first/second chain derivatives",
+    "input_and_output_normalization_derivatives_complete": true,
+    "exact_polynomial_truncation_only_bounds": [
+      "2^-98",
+      "2^-91",
+      "2^-84",
+      "2^-96"
+    ],
+    "coefficient_rounding_or_field_error_certified": false,
+    "finite_threshold_switch_claimed_exact_C2": false
+  },
+  "mathematical_scope": {
+    "R726_accurate_spherical_boundary": true,
+    "R725_complete_C3_cutoff_and_8_boundary_cuts_preserved": true,
+    "R724_two_opposite_equal_central_halfwaves_preserved": true,
+    "auxiliary_R711_complete_twelve_piece_rule_preserved": true,
+    "original_fixed_target_scalar_chart_and_domain_retained": true,
+    "R709_Euclidean_ball_potential_inherited": false,
+    "R722_old_posterior_formula_inherited": false,
+    "old_mean_calibration_or_root_cache_values_inherited": false,
+    "acute_theorem_hypotheses_true_of_a_computed_field": null,
+    "exact_mean_root_and_whole_angle_derivative_error_paid": false,
+    "downstream_lift_bubbles_full_variables_or_32_stages_reduced": false,
+    "scientific_array_output_added_to_git": false,
+    "current_field_or_geometric_improvement_claimed": false
+  },
+  "actual_execution": {
+    "run_id": null,
+    "job_id": null,
+    "source_commit": null,
+    "actual_mean_root_identity": null,
+    "actual_model_identity": null,
+    "actual_point_identity": null,
+    "actual_complete_field_report": null,
+    "actual_certificate": null,
+    "unknown_old_peer_history_interpreted_as_empty": false,
+    "old_running_jobs_modified": false,
+    "refs_modified": false,
+    "queues_modified": false
+  },
+  "next_family_contract": {
+    "mechanism_parent": "whole R725 family at exact fixed source records above",
+    "seed_and_mean_provider_source_pins": "replace with the exact new independent runtime records",
+    "new_ctor_parameter": "none",
+    "full_new_baseline_calibration_required_by_existing_full_solver_construction": true,
+    "all_original_source_roles_variables_parameters_budgets_and_peer_provenance_preserved": true,
+    "prior_accepted_or_final_field_migrated_without_new_physical_binding": false,
+    "accurate_R722_fee_source_compatible_by_assumption": false,
+    "accurate_R726_complete_integral_root_domain_jets_and_branch_attribution_still_required": true
+  },
+  "note_formula_correction": {
+    "superseded_complete_note": {
+      "name": "2026-11-28-R726-complete-spherical-seed-mean-angular-source.md",
+      "path": "notes/2026-11-28-R726-complete-spherical-seed-mean-angular-source.md",
+      "bytes": 22875,
+      "sha256": "28430fd91ea9690b08dfd2c26365a6d9bd103094e1a831032b0024a9d1d54718",
+      "git_blob_sha": "8e441305e8ef244eda1ab9a325527f9d21f86e48"
+    },
+    "current_complete_note": {
+      "name": "2026-11-28-R726-complete-spherical-seed-mean-angular-source.md",
+      "path": "notes/2026-11-28-R726-complete-spherical-seed-mean-angular-source.md",
+      "bytes": 23146,
+      "sha256": "192fc4a7dad2e61459bbf1a2b938d860049a6b17f9f2cd1c48e37c278010c802",
+      "git_blob_sha": "4a645e48aede8380f914d7f3545dd686f08c3acd"
+    },
+    "scope": "Only Eq.(5) pointwise first/second q truncation-tail formula and its derivation. Uniform endpoint bounds and runtime/reproducer bytes unchanged.",
+    "first_q": "(1/2)*rho^(m-1)*(m-(m-1)*rho)/(1-rho)^2",
+    "second_q": "(1/4)*rho^(m-2)*(m*(m-1)/(1-rho)+2*m*rho/(1-rho)^2+2*rho^2/(1-rho)^3)",
+    "rho": "q/2",
+    "m": 33
+  }
+}
