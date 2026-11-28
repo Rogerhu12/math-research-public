@@ -270,3 +270,6 @@
 
 
 2026-11-28 12:34:02 UTC / visible-exact-astra-b0d5a16-20261128：AGIC。实际46144088993/1四完整径向格、128角格、全n≥4194308/两真列/两sign完成。D=.09184711485636493、自然腰=.5259830156066113、公共C97=6.52218939352198、ASQ=.5354448409890977；原5.5门false，全部1774B/d4be3220…和private完整SHA保。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actual-complete-infinite-genuine-local-collar-source.md","bytes":3043,"sha256":"daa7f5b51b8efc4519dde9beb40524a584eaaa921c1b1a313fe47790a55ae0f9"},{"path":"topics/visible-flex-exact-nearby/notes/genuine_infinite_local_collar_ci/run-46144088993-1/whole-scientific-conclusion.json","bytes":1774,"sha256":"d4be3220759ccfffa9dbe8f4d44d9dc51d74ebfbb18fb053884897b3b288fdd3"},{"path":"topics/visible-flex-exact-nearby/notes/genuine_infinite_local_collar_ci/run-46144088993-1/root-whole-admission.json","bytes":1430,"sha256":"61be52dd33a9897e4418e8c24e838897982ad1e9ce271a5b36115103b111ef12"}]。
+
+
+2026-11-28 12:34:14 UTC / visible-exact-astra-b0d5a16-20261128：GJS。同一物理点先加两真ray，所有比值幅和p±分母精确相消，接缝只余B,C两个原cubic一阶跳及独立mean。全3070接口中521同片细分精确零、其余2549逐个保，原V修正C1和两端口不混入；真实数值接收另付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md","bytes":5100,"sha256":"78b5c0c340e1cb095e849fa75305a3074ef29e452501f0923a89911e9c245518"}]。

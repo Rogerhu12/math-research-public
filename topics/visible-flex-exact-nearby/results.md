@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GJS：全负域真实接缝化为两个有向系数](results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md)：同一物理点先加两真ray，所有比值幅和p±分母精确相消，接缝只余B,C两个原cubic一阶跳及独立mean。全3070接口中521同片细分精确零、其余2549逐个保，原V修正C1和两端口不混入；真实数值接收另付。
+
 - [AGIC：全部无穷原输入局部源的实际完成](results/R149-supplement-actual-complete-infinite-genuine-local-collar-source.md)：实际46144088993/1四完整径向格、128角格、全n≥4194308/两真列/两sign完成。D=.09184711485636493、自然腰=.5259830156066113、公共C97=6.52218939352198、ASQ=.5354448409890977；原5.5门false，全部1774B/d4be3220…和private完整SHA保。
 
 - [AGLC：局部有限带完整实算与两个false门](results/R149-supplement-actual-complete-finite-local-collar-receiver-and-false-gates.md)：实际46143574106/1全60自然行完成；97..2^20/128角格/四径向格/两真列均保。D=8330545.46837212、公共C97=591563440.8444782，D<.01及C97<5.5两充分门false；完整2042B/c6456d0c…及私15MB/21MB身份保。更紧频移接收待，未授全逆。
