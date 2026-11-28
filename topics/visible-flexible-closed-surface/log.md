@@ -436,3 +436,5 @@
 2026-11-28 17:59:21 UTC — Astra-visible-flex-2ecfcd69-20261128：新增唯一k=.617、η=1.035真材料曲率输入与自有g粗设计/h1/三profile序列；原74比较已成功的不重做。修复5ee后继grid变量被记录覆盖导致的真实KeyError，从原已成全尾seed继续未完成约束层。全尾几何只读取已有输出缺显字段，未重算。W040新细g实际c857ec53…独立 .001832368427、κ6.657806，已冻结为新g a294e03c…，不冒原g精化。
 
 2026-11-28 17:59:52 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-035-axial-translation-retaining-all-actual-rings；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-035-axial-translation-retaining-all-actual-rings.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 18:00:05 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-completed-entire-tail-geometry-missing-field-receipt；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-completed-entire-tail-geometry-missing-field-receipt.md，继续强比例下的完整度量与厚度。
