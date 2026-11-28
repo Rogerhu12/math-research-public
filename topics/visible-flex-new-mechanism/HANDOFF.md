@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **2ef6084053aa87ae353af74f71c7909e20cbe431**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **3bbf2a55692c7986dfdb391fc46b4c4593cfd2d5**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入；全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -60,7 +60,7 @@ R693另以C0(0)源/下领真半转；[R697](results/R697-free-axial-crown-transl
 
 [R699](results/R699-all-point-principal-curvature-of-the-real-wide-cap-shoulder.md)真实宽肩全点曲率；[R700](results/R700-global-normal-tube-of-the-actual-old-cap-and-cylindrical-shoulder.md)完整老帽/肩/恒柱任意点对双法球，reach≥1/10.4，异帽>.90。R706另付帽—全弯主片两有序方向，启动.03后法球距余量>.001；负领须真实C⁰≤.0002/C¹法向≤.008，未知窗跨件仍欠。
 
-R704六真控制仅小相位；R708短弦排σ0/λ≥.08和任意σ/λ≥.32，全矩形预算λ<.92。R713释放.05真平片仍被端切曲率预算排λ≥.60，全幅须L>.538。两输入未运行/无种子；R715改真实源，纵外区/全壳reach仍欠。
+R704六真控制只小相位；R708原短弦/方向预算与R713多放.05的端切预算排相应全幅（须L>.538），均未运行。R715不改源/held帽，中央起点移x=.005放开真平片，L>.795、σ=−.05λ，端弦必要门过。真全源S柱面reach≥.1；近对s≤π/K精确K法球加远对源余量，给实际非零小相位整肩≥.0961。R719续宽控制/实际远对，未知区扩大到主片，纵端/整壳reach仍欠。
 
 R709真解析负领在全t²≤4e−8/全相位有解，法向变<7.1e−8，付R706帽—领。R712再用真C²辅助矩形与完整截止二阶给同片法球>.17、上下距>.208；连真冠/帽所有已给件对过τ=1/10.4。未知窗所有混合对仍欠；数值Spline须自己的结迹/连续导数与相位门。
 
