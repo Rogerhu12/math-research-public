@@ -59,3 +59,5 @@
 **R740（已证明的三输入排除；独立代码未执行）。** [弱源整圈局部预算与强迫跨盘短路](results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md)：包括完全自由盘，原R732、R733和R740均有末弦>.901却源路<.790/.893/.869的矛盾。保存真实210/651列空间和原始CSR接口，转R742/R743新实体材料，不重复已排源科学。
 
 **R735（结构证明与首次实际工单）。** [具体双核中央与真二阶帽倾](results/R735-explicit-double-kernel-core-and-true-second-order-tilt-with-dyadic-caps.md)给横截两核及完整二阶条件；[首实际消费范围](notes/2026-11-28-r735-actual-dyadic-tail-double-kernel-scope.md)使用原R734四认证端口/8558键，仅新增真实中央及全β尾积。薄中央宏观几何明确不合格；有限O(q³)不冒非线性根。
+
+**R735 自然终态。** [真实双核、全β及薄度失格](notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md)：32370新单元/18.573390051秒，原8558键只读；β>3.32984、j4/5/6非共振已认证，reach/D<1.936879e−30明确排宏观资格。仅结构，不是有限q根。
