@@ -326,3 +326,44 @@ $$ v_p\left(\theta_b c_b(n)/(65 c_1(n))\right)\ge4(1+v_p(n))
 反向若对某一所述 $n,b$ 严格小于这一下界，则该固定 $p$ 已有原 $[T^2]\mathcal A_b\ne0$。这里只付了真实全部精度及跨 $p$ 统一候选的固定代数来源，尚未找到使(Q7)违背的无穷多个不同 $p$。
 
 原文：Gross–Hopkins, Bull. Amer. Math. Soc. 30 (1994), 76–86, https://arxiv.org/abs/math/9401220 ；Khuri-Makdisi, *Moduli interpretation of Eisenstein series*, §2, https://arxiv.org/abs/0903.1439 。
+
+## 10. 固定 Picard–Fuchs 解在每层指定权的非零参考
+
+在 (Q1) 的代数族 $E_v:y^2=x^3+vx+1$ 取 $\omega=dx/(2y),\ \eta=x\omega$，$D=4v^3+27$；固定水平形式仍记为 $e_0,e_1$。写
+$$ \omega=P(v)e_0+\frac v6 Q(v)e_1,\qquad P(0)=Q(0)=1.\tag{R1}$$
+精确 Gauss–Manin 导数为
+$$ \nabla_v\omega=\frac{-v^2\omega+(9/2)\eta}{D},\qquad
+ \nabla_v\eta=\frac{(3v/2)\omega+v^2\eta}{D}.\tag{R2}$$
+例如在相对 de Rham 余类中令 $J_m=x^m dx/y^3, I_m=x^m dx/y$。由 $d(x^j/y)$ ($j=0,1,2$) 及三次方程直接得到 $3J_2+vJ_0=0, I_0=2vJ_1+3J_0,-I_1=2vJ_2+3J_1$，故 $J_1=(2v^2I_0-9I_1)/D, J_2=(-3vI_0-2v^2I_1)/D$，而原导数恰为 $-J_1/4,-J_2/4$。于是 $H=P$ 和 $H=vQ/6$ 同满足
+$$D H''+12v^2 H'+\tfrac74 v H=0,\quad
+108(j+3)(j+2)H_{j+3}=-(4j+1)(4j+7)H_j,\quad H_2=0.\tag{R3}$$
+$P$ 仅有次数 $0\bmod3$，$vQ/6$ 仅有次数 $1\bmod3$。Wronskian $P(vQ/6)'-(vQ/6)P'=9/(2D)$，可用 (R2) 的迹、或 (R3) 的 Abel 恒等式和原初值 $1/6$ 检验。在这个实际微分中 $h=P$、$w=vQ/(6P)$。故对每个 $n\ge0$，取 $[w^n]P f_k$ 的形式留数并用上述 Wronskian 得
+$$\boxed{6^{-n}c_k(n)=[v^n]\;f_k(v)\,\frac{27}{D}\,P(v)^n Q(v)^{-n-1}.}\tag{R4}$$
+$f_k(v)$ 逐一使用 (P1) 的固定全水平代数来源。其系数对所有充分大 $p$ 属一个固定非分歧扩域的整数环；特别 $f_1(0)=G_1(0)$ 为单位，$f_{65}(0)=f_{8125}(0)=0$。
+
+### 原半径上的全系数控制
+
+设 $p>211$ 惰性，$d_0=p+1$，取 $\pi^{d_0}=p$，只用于本次系数缩放。则在其整数环的限制幂级数中，准确的剩余式为
+$$\boxed{
+ P(\pi X)\equiv1+\kappa X^{d_0},\quad Q(\pi X)\equiv1\pmod{\mathfrak m},
+ \qquad \kappa=p[v^{d_0}]P\in\mathbf Z_p^\times.}\tag{R5}$$
+双源证明分三窗。在(R3)迭代至 $H_N$ 时，除固定单位外的分母是 $1,\ldots,N$ 中两个模三余类的子集，且每个整数最多出现一次：$P$ 是 $2,0\bmod3$，$vQ/6$ 是 $0,1\bmod3$。对 $p^j$ 的倍数计数时乘 $p^j$ 置换模三余类，故分母的总赋值至多
+$$ \frac{2N}{3(p-1)}+\frac23\lfloor\log_p N\rfloor. $$
+若 $N\ge p^2$，$\lfloor\log_p N\rfloor\le2N/p^2$，这个界严格小于 $(N-1)/(p+1)$，且留线性增长余量。若 $3p\le N<p^2$，仅 $p$ 的一次倍数贡献，至多 $2N/(3p)+2/3<(N-1)/(p+1)$。两窗均比两函数的 $\pi$ 次幂严格小，亦保证受限收敛。
+
+最后 $N<3p$。$P$ 的分母能遇 $p$，遇不到 $2p$，首次在 $N=p+1$ 正好遇 $p$（$N=0\bmod3$）。其此项的分子无 $p$：各因子为 $12j+1,12j+7$，$0\le j<(p+1)/3$，若它等于 $mp$ 则 $1\le m\le4$；$p\bmod12=5$ 或11时，$mp\bmod12$ 对这样的 $m$ 不能为1或7。因此 $[v^{p+1}]P$ 的赋值为 $-1$。其他正 $N$ 在该窗经 $\pi^N$ 缩放后赋值严格正。对 $vQ/6$，分母的第一个可能 $2p$，$p$ 不入，其在 $Q$ 的相应次数 $N-1\ge2p-1>p+1$ 已超过代价。初值皆按(R1)。三窗给(R5)，并保住原首次单位 $\kappa$。
+
+### 每级只需固定的一项
+
+代 $n=m(p+1)$，$m\ge1$，在(R4)施 $v=\pi X$ 并约化。(R5)、$Q(\pi X)^{-1}\equiv1$、$27/D\equiv1$、$f_k(\pi X)\equiv f_k(0)$ 给出
+$$p^m6^{-n}c_k(n)\equiv f_k(0)\,\kappa^m\binom{(p+1)m}{m}
+\pmod {\mathfrak m}.\tag{R6}$$
+因此 $m=p^a$ ($a\ge0$) 时二项式模 $p$ 为1（$((1+Z)^{p^a(p+1)})\bmod p=(1+Z^{p^{a+1}})(1+Z^{p^a})$）。原固定参考有逐层**准确**值
+$$\boxed{v_p(c_1((p+1)p^a))=-p^a.}\tag{R7}$$
+更一般当 $m$ 与 $pm$ 的基 $p$ 相加无进位时亦有 $v_p(c_1(m(p+1)))=-m$。
+
+令 $n_a=(p+1)p^a$, $t_a=\rho^{n_a}-1$。于是原 (Q6) 在整条完全指定数列上成立，$v_p(t_a)=a+1$；对 $b=65,8125$，
+$$ \frac{c_b(n_a)}{65c_1(n_a)t_a^2}\equiv[T^2]\mathcal A_b\pmod{p^{a+1}}.\tag{R8}$$
+特别每个原中央坏迫使每个 $a$ 的固定权一几何系数满足
+$$ v_p(c_b((p+1)p^a))\ge4(a+1)-p^a.\tag{R9}$$
+$a=0$ 给确切阈值 $3$；只要两目标之一的 $c_b(p+1)$ 赋值小于3，该固定 $p$ 便已有一条原曲线通过。这里从(R4)直接取得有限中央读者的唯一指定离散权，$1/p$ 的参考因子准确保留，尚无证明 (R9) 在无穷 $p$ 上违背。

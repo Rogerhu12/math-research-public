@@ -416,3 +416,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1073 §9：固定dR系数的任意精度原中央读者
 
 固定族Ev及水平e0/e1给c_b(n)=65A_b(ρ^n−1)c1(n)，保原微分和形式中心。所有所需同余类有无限非零参考，真t_n²商到任意p精度；两中央坏迫逐权四阶整除。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §10：每层唯一指定权的原参考准确估值
+
+全PF递推及整个原半径系数界给vp c1((p+1)p^a)=−p^a；原中央比精确modp^(a+1)。两坏需vp c_b≥4(a+1)−p^a，首层为p³，不把参考非零代目标非零。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

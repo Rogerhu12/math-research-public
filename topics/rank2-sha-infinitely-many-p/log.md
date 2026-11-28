@@ -233,3 +233,17 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:19:20 UTC到89d33546c3a7382e1fda4252fd6152bb05e82bda，私库2026-11-28 13:19:16 UTC到be5c6c1d7ec639d34608b0be4e62d64e1b5c391c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47283748B/tree3bcd663c4c9d2ce8ef8884518e6ff708b5bb4bcb，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:19:35 UTC到e5849ade5d09d8351bd94aefa866c0ca2073f150，私库2026-11-28 13:19:31 UTC到6ccc0ed4f0da89023ab43434f4d8550ca91b6bce；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47283748B/tree3bcd663c4c9d2ce8ef8884518e6ff708b5bb4bcb，无>5MB。
+
+## 2026-11-28 13:19:41 UTC：R1073 §10：每层唯一指定权的原参考准确估值
+
+根逐项手核PF矩阵/108递推、Wronskian、Lagrange反演、全部小中大权估值窗口、原π半径归一和Lucas首项。只推出准确参考与原两目标坏的必要整除，未声称该整除已无穷次违反。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:19:49 UTC到57781a29f619e41a35d5dc3a2230484f4bcd2aaa，私库2026-11-28 13:19:45 UTC到ba52f4a4547b97d7b7272adc2fe284193a73f138；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:20:05 UTC到663ecda85af39bbd507a651a07edfa20f67b1bcc，私库2026-11-28 13:20:01 UTC到e69ccb6f003b24be0d7c6fccd0dee2fe9a65f16d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:20:17 UTC到3d4ec512a4f2c1b0bf5b35877cff2263a79f2846，私库2026-11-28 13:20:14 UTC到e69ccb6f003b24be0d7c6fccd0dee2fe9a65f16d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 13:20:35 UTC到824079f4557f1fa1b006cdf0dc53bc346c68196d，私库2026-11-28 13:20:26 UTC到e69ccb6f003b24be0d7c6fccd0dee2fe9a65f16d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
+
+推送前实际本地双pull（本次发布第5次）：公开2026-11-28 13:20:54 UTC到0b65eec6c741db5c03f663ff2c4856258307f3dd，私库2026-11-28 13:20:46 UTC到dceaaa0a4253ee777f459a00df2a828e751165a7；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
