@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原中央Frobenius的真实参考提升仿射化（已证明）**：[R1171](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格的半线性有限Taylor给Δ=Ccoeff expσ(ξL)exp(−σ(ξLcoeff))Ccoeff⁻¹，完整ordered/BCH平移不含参考中央常数。实际商曲线模p²首位与原shear把功能式变为有限SS Brandt方程，R1170可作用于同abelian原候选差。一般SS abelian/corr独立值和足够辅助族仍保，不假定绝对Z约化不变或循环定义已知RHS。
+
 - **原最低中央Π4的完整Tate相关与未平滑（已证明）**：[R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)真实product/Norm图保Tate n⁻⁴，n2 corrected raw系数精确31²/128（primitive为(1+p⁴)倍）；完整crossed项另含λ∞n⁻²(η4杯γ5+R)。实际V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v2,4=3·11·31²/2¹¹全p>37单位，三个中心的整未平滑接口齐全。最低独立raw局部值和一般算术路径仍需读取，裸degree4 S/U填充由端点functional排除。
 
 - **原Gaussian四次与八次矩的全部实际槽（已证明）**：[高窗 §11](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全j≤10 Appell函数身份保原C1极、j4/8常数及完整敏感度，顶p²−p读取严格合法。原M_d各偶i系数准确为−d!f_(i+1)^(p−d−1,0)/((d−i)!β)，只用同一G_(p−5)/G_(p−9)的低权heat列；不新增good角色或省临界p列carry，未宣非零。

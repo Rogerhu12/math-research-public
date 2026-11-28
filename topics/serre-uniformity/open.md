@@ -66,7 +66,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 
-[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原全部cone的SDR/H0=H2=0已付，只读normal0/t+k。§§10–11原V′_i直接给c_dk=binom(d,k)b_E^k/(k+1)、m_dk=p²−1−pd+(p−1)k，A=(4−2⁻d)cG_m，A′i=c(2σG_m(E/C_i)−2⁻dG_m)；商用实际Vélu ω_i且σ保留，不套同CM基。ΣA′=A，故B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}。全部高G整性、original/primed尺度及原最高corr加权值已成，未宣单位；原未平滑和Π2/4继续。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原cone SDR/全部normal与CM raw/primed来源已付。原V′直接读实际Vélu商的G、σ及同i相关：B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}。全部尺度/整性详原文及前态；未以此宣一般SS值或中央单位。
 
 [原Gaussian高窗 §§1–11](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整Appell反射C_j^F(Ψ)=(−1)^(j−1)j!β^(j−1)D^(p−j−1)x（j≤10）及共同整τ误差付所有端点。原M_d=−β⁻¹Σ_(i偶)d!/(d−i)!·f_(i+1)^(p−d−1,0)ω^iη^(d−i)，d4/8全部槽仅用G_(p−5)/G_(p−9)的安全heat列；含原H_p/J_p/d1/c3。critical p列carry、完整低乘积及actual good-mask不删，联合非零仍开。
 
@@ -93,6 +93,8 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 [R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格的Bℓ=ℓ^dTℓ保原归一；具体整Hecke序提升及半稳定惯性界给最高/Π2余有限算子族单位理想。只对有限格成立；原Z0一般有s¹⁴提升差，须以同abelian中央差或完整affine常数实现，且补足实际辅助素数族，不能直接令Z0=0。
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
+
+[R1171](results/R1171-original-affine-supersingular-Frobenius-reduction.md)固定原abelian参考输入后，Δ=Ccoeff expσ(ξL)exp(−σ(ξLcoeff))Ccoeff⁻¹给实际F_i(t)=F_iΔ；完整ordered/BCH平移不含未知中心。每个真实商的mod p²首位ξ_C把最高/Π2式化为R1170有限Brandt非齐次方程。此关闭绝对约化不变性的错误入口；一般SS的abelian/corr独立值及足够辅助族仍须读，不能循环定义RHS。
 
 ## O1：原两 jet 的实际临界非零
 
