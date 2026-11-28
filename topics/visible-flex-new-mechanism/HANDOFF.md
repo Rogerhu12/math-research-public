@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **3ea24240a2d528ab4e71a6c0c5ce7fcd5782a76c**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **96a11d313b4424b659261659866a1ddb43f8dd0b**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff、立即执行、记SHA。每结论即push，NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核；根15只存源/参数/run/hash及真正必要续接输入。全部失败、未完和费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -56,9 +56,9 @@ R646同一实际μ1有限P的全域误差2e−5组合Taylor球消费者已备，
 
 R637旧真平尾/全频逆/β>1/4（run46123270834/source95b8760b）不转新profile。R642/R644已给真实小q环带和全尾共同邻域/帽姿态；θ=βq²+O(q³)，冻结q相位族同g、外帽固定、整像dH≥aβq²/4>0。无有效q0/宏观角/reach比例，不重做局部结论。
 
-[R647真实终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)4.665778048秒，τ.95样本κD32.756但小帽/真平接合仍有明显限制；普通小数不是连续包围。R652 s=(684+95√55)/632准确只留j2/3核，行程π√55/8、全频gap已证。
+[R647终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)旧四τ只给样本，小帽/真平接合仍欠；R652新s=(684+95√55)/632准确j2/3全频gap已证，source34c45234的自由有限Cauchy/H1/8真实taper600匹配已结束，完整终态待发表。旧6ODE/600根不重演，普通几何小数不冒连续包围。
 
-[R652新有限匹配](notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md)source34c45234，自由有限σ/ψ1、H1/8、真实Hu尾经log线性taper的极限线，600组共享6次ODE/780秒。全线gap不转有限组装，未获有限N/finite-angle/reach。finite_angle_ultra已备R655偏心刚帽/厚内握持的条件宏观几何，正研究R657高相邻激发核以避免小颈；必须消费真实候选与全部角导代价。
+R655已证偏心刚帽/厚内握柄的条件闭合：b.22/a≥.07、sinθ∈[.36,.375]及实际圆盘包络/两框normal-tube门若通过，D≤1、固定开握持≥.201、整像≥.3、reach≥.03同时成立；实际横移d在支撑差2c sinθ中取消。真实有限连接器仍欠。R657已备全gauge颈比及新高相邻核，finite_angle_ultra继续同根有限角，不借旧β。
 
 ## G：实际闭面与全时几何仍欠
 
