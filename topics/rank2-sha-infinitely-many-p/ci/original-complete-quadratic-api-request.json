@@ -1,13 +1,15 @@
 {
-  "request_id": "2026-11-27-original-scalar-base-support-v2-matrix-copy",
-  "kind": "original-scalar-base-support-software-check",
-  "reason": "Compare the exact scalar-base filtration support reader with the unchanged generic thick decomposition on complete rank-nine nonreduced finite-free software algebras. Check thicknesses one, two and three, all native residue coordinates and constant embeddings, two base primes, the full infinity boundary, point reuse, and refusal of a non-scalar HNF with the same determinant. The original curve and production request are not run or modified. The first public check reached the actual nonreduced fiber and then found the generic Sage matrix lacks a .copy() method; use the standard copy.copy interface in the snapshot and deliberate non-scalar fixture without changing any mathematics or gate.",
-  "check_script": "scripts/check-original-scalar-base-divisor-support.py",
-  "check_sha256": "3dd124a953a0a5dc160dd35a3a6ef6a04af11cf0231a947b32053cec40af297c",
-  "binding_script": "scripts/original_scalar_base_divisor_support.py",
-  "binding_sha256": "c84656c73bb062958c233de20fbed4fb889779985d154058548305e02d73e39a",
+  "request_id": "2026-11-28-original-scalar-primary-return-v1",
+  "kind": "original-scalar-primary-return-software-check",
+  "reason": "Compare the exact complete scalar primary ideal return with the untouched original primary_block. Verify explicit two-way polynomial Bezout matrix products, the dynamic original full remainder, complete HNF, determinant and nonreduced lengths. Cover degree-two irreducible primes over quadratic constants, thicknesses one/two/three, multiple primes, absent-prime and unit branches, five invalid-input refusals, and a rank-306 scalar software fixture with original exponent 918. Bind only the support session subclass and call the full unchanged pinned seven-case support checker, retaining all residue coordinates, embeddings, registry and infinity gates. This check does not execute original geometry or modify the production request.",
+  "check_script": "scripts/check-original-scalar-primary-return.py",
+  "check_sha256": "7b9d4f528308199e59eb5ca9509e7f7ab6a54a23cc67bd0012112b57e9dc6e6d",
+  "binding_script": "scripts/original_scalar_primary_return.py",
+  "binding_sha256": "925a3829cc087dec6b0acbeed8cf41afb44014ef3b056cea3b98ad607141113b",
   "source_files": [
     "check-original-complete-quadratic-api.py",
+    "check-original-scalar-primary-return.py",
+    "original_scalar_primary_return.py",
     "check-original-scalar-base-divisor-support.py",
     "original_scalar_base_divisor_support.py",
     "original_ys_geometry_transport.py",
@@ -33,5 +35,6 @@
   "math_runs_only_in_public_actions": true,
   "original_geometric_input_executed": false,
   "recomputable_outputs_persisted": false,
-  "source_dependency_scope": "Exactly the full new helper SOURCE_DEPENDENCIES union, plus the fixed selector and checker."
+  "source_dependency_scope": "Fixed selector, new checker, pinned old checker, and the exact union of new helper SOURCE_DEPENDENCIES; all unchanged original source files remain in scope.",
+  "software_time_budget_seconds": 420
 }

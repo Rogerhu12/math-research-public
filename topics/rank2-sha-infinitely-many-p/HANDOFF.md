@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际pull、已读规则和认领
 
-readonly run46073965457/job140866112881，source 3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 04:36:57 UTC实际partial clone/pull至f81c960f94423e050c5f423f436a1a0ac4869fd3。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 04:37:04 UTC实际至f7d2c943e7ccc6712d5b63e6974406d820ca9a0e。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与04:31已读版相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14886B/SHA256 7799d62c888d15ff53214e9e6feb4ed246d141900f7bd4abc05c7e8d076488aa；完整库存3182blobs/45091341B，tree3ccee764575b20073d5beaa4b55150e08abd4f43，无>5MB，三旧必要gzip不变。
-- 旧run46075603971第50attempt startup_failure未冒pull；现run已核workflow逐字相同。每推前新pull；最迟05:36UTC再拉两库。非FF立即实际pull --rebase、读新差异再推，不force。
+readonly run46073965457/job140868446107，source 3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 04:46:59 UTC实际partial clone/pull至244e740a33cab1edc18fa338dee41f26628cc5ec。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 04:47:07 UTC实际至614bb6b4e9d42168f8b92d7a8648da9875cbb517。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与04:36已读版相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14887B/SHA256 d11ef8f7c5e727394dd16b8aba73948e9640412299e26a3918f16dcbe0a952b3；完整库存3183blobs/45120186B，tree33a3def8a2500cf04427a55c041e669e5e619a23，无>5MB，三旧必要gzip不变。
+- 旧run46075603971第50attempt startup_failure未冒pull；现run已核workflow逐字相同。每推前新pull；最迟05:46UTC再拉两库。非FF立即实际pull --rebase、读新差异再推，不force。
 - 本地07:20失联；03:44:37实际pull --rebase、04:12环境检查仍无环境；末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
@@ -49,4 +49,4 @@ R1055全A24两trace及E126平方根/五伙伴完整加权行保同R；R824四高
 全部详细式、proof链接和失败边界保在上方逐字H归档、open和本卷；不重做旧输入。
 
 原五固定曲线及E3969的rank≥2/通常全Sha桥已付；联合无穷p canonical J′非零仍主缺口。unitary§16真Hecke反例、R1057辅助q/17有权返回及q单位倍不读p饱和的边界保留。
-O4 ordinary a≤1无穷p、O6固定两点Np/q_p1、O7同Y/216闭边界及所有旧门按open继续。root/arith正在准备exact scalar-primary Bézout双向整矩阵返回及小软件比较，未执行不记PASS；当前唯一heavy继续。子题完成即接实质未闭门，只有达到课题README完整标准才收尾。
+O4 ordinary a≤1无穷p、O6固定两点Np/q_p1、O7同Y/216闭边界及所有旧门按open继续。R1050§7已付scalar-primary全U/V返回；两新源码与固定软件请求已准备，旧七组/全残域/∞门保留，未执行不记PASS。producer v14候选仅准备，须等小check与v13真终态；唯一heavy继续。子题完成即接实质未闭门，只有达到课题README完整标准才收尾。

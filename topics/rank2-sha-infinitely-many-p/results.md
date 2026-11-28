@@ -420,3 +420,10 @@ R1064§12用同一个primitive Cartier-dual生成元证明完整q项核平均恰
 R1065 T1–20在两份原Katz Galois dual的完成整tensor上构造实际有界泛函。原E0/A4/E17的HT/微分/两槽全部乘回，coherent Gaussian尺度准确为β0=612ωκ_A^-1ϖ0²；测试Gaussian逐项用2⌊rτ⌋−v(r!)≥0且趋∞支付真整格单位及等距twist，保双primitive支撑。其Fourier侧是实际mixed D_G heat，全部旧项保留，不认成原coherent乘法。再由原whole I17构造有限Banach值测试，精确返回整个B_r(j)与全斜率；K0含17^-2、d/p4、period及中心，两个Hall导数和logU*及全部Λ′保持。主严格矩门及所需Weil交织未由此解决。
 
 [完整证明](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)，T1–T20；整格gauge与fractional pointwise范数已区分，logU*保在有限域泛函外。
+
+
+### R1050 §7：同一个完整 scalar primary 的两向 Bézout 返回
+
+R1050§7对已逐项核实的实际hI输入给同一原primary的完整Bezout返回：g=π^m、e=Nm、sa+tb=1，实际稀疏U/V满足U·rows=gI和V·gI=rows；原动态全余数、首一Hermite、det与厚长全部保留。仅克隆旧support方法的两个调用点，旧class/engine/generic方法不改；完整残域/Frobenius/registry/无穷边界仍走原正文。六个原primary对照、五拒绝、rank306及未改旧七组checker已请求固定公开软件检查，未返回不记PASS；生产v13和全部数学终门保持。
+
+[完整证明](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)，(15)–(21)；源码/固定请求同行登记，软件验收与原几何验收分记。

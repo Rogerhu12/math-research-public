@@ -159,3 +159,76 @@ $$
 本条据原完整代数与源身份给出证明，不重复登记 R925§14 已算的六纤维数值，也不加载旧矩阵。后继应在新运行内构造当前纤维，或只在同一进程、同一 engine/原域/原 $\pi$ 和全部关系格准确相等后复用它。没有生成或保存任何数学结果缓存。
 
 **依据与承接。** R925§§1–7、10、14、16（原自由基、双图和完整非约化纤维）；R1033（原全部最大理想返回）；上述已固定原源码。本条新增的是准确应用完整 $\pi$ 滤过的支撑入口及 (13)–(14) 的同对象返回，不将一般厚理想只凭行列式识别成标量理想。
+
+
+## 7. 同一个 scalar primary 的完整 Bézout 返回
+
+本节只加速§6专用支撑入口已经逐项承认的实际完整标量 HNF。通用的非标量 primary 分解、原 engine 方法、全剩余代数及所有后续几何门保持原范围。
+
+设实际输入为 $H=hI_N$，$h$ 首一非零，取原首一不可约 $\pi$，记
+$$
+m=v_\pi(h),\qquad e=v_\pi(\det H)=Nm.
+\tag{15}
+$$
+原 primary 构造使用完整生成矩阵
+$$
+M=\begin{pmatrix}hI_N\\ \pi^eI_N\end{pmatrix}.
+\tag{16}
+$$
+若 $m=0$，原分支返回单位理想；本实现仍执行这个分支及原返回模式。以下设 $m>0$。令
+$$
+g=\pi^m,\qquad a=h/g,\qquad b=\pi^e/g.
+\tag{17}
+$$
+因为 $v_\pi(a)=0$、$b$ 是 $\pi$ 的幂（$N=1$ 时 $b=1$），存在原多项式环中的 $s,t$ 使 $sa+tb=1$。定义实际多项式矩阵
+$$
+U=(sI_N\ \ tI_N),\qquad
+V=\begin{pmatrix}aI_N\\ bI_N\end{pmatrix},\qquad
+H_{\rm out}=gI_N .
+\tag{18}
+$$
+直接逐块乘法给
+$$
+UM=H_{\rm out},\qquad VH_{\rm out}=M.
+\tag{19}
+$$
+所以两套完整多项式行生成模相等；并未取分式域秩或清分母。更强地，
+$$
+S=\begin{pmatrix}sI_N&tI_N\\-bI_N&aI_N\end{pmatrix},
+\qquad
+S^{-1}=\begin{pmatrix}aI_N&-tI_N\\bI_N&sI_N\end{pmatrix},
+\qquad
+SM=\begin{pmatrix}gI_N\\0\end{pmatrix}.
+\tag{20}
+$$
+两矩阵乘积均为单位矩阵，故这是原环上的完整可逆行返回。软件不必另外物化 $S$，但会物化 (16)、(18)，执行 (19) 的两个完整矩阵乘法，并执行原当前全行余数校验。
+
+由于 $g$ 首一，$H_{\rm out}$ 是完整首一上 Hermite 基。其实际行列式与商长度为
+$$
+\det H_{\rm out}=\pi^{mN}=\pi^e,\qquad
+\dim_k(R^N/\operatorname{rowspan}H_{\rm out})
+=Nm\deg\pi .
+\tag{21}
+$$
+因此它与原通用 Hermite 过程返回的是同一个完整理想，保原 $e$ 和非约化厚度。比较依据是原行模、全 HNF、determinant 和 length，而不是不同合法 Hermite 变换的哈希必须相等。
+
+实际入口先调用原完整 _whole_scalar_basis，核对 engine 身份、全矩阵 $hI_N$、原首一性、行列式及长度。即使 $\pi$ 不在 determinant 中，也先作这个全矩阵检查；有同 determinant 的非 scalar HNF 不获准。稀疏表示仅用于减少零项存储，(19) 是实际完整多项式矩阵乘法；输出转回原 dense polynomial HNF 类型，原动态 _hermite_remainder_rows、全部首一及长度门逐项执行。
+
+### 7.1 原两个调用点及全部后继门
+
+新模块 scripts/original_scalar_primary_return.py 保存原 support session 的类和方法，仅创建一个子类。新 decompose 正文是原正文的逐字副本，只替换以下两个调用点：
+
+- 原无穷边界调用，改用同一原底变量 $s$ 的完整 (16)–(21)；
+- 原逐素因子 primary_block 调用，改用同一个完整 (16)–(21)。
+
+两次逆替必须逐字恢复原正文。只重新绑定旧 support 模块中的 session 类引用，原 geometry binder、通用 engine 类方法、通用分解器和旧 session 本身均不修改。无穷图仍先核原 only_infinity_boundary 和图表身份；非边界的重叠图仍拒绝。§4证明原实际边界输入也为完整 $hI$，但软件仍逐次核对，而不以证明取代本次实际输入门。
+
+后续 _fiber、完整非约化 Frobenius 与 primitive 分量、原完整 maximal ideal、全部原常数与剩余坐标、registry 同点身份，以及 (4) 的 $md_i/f_i$、总长和八条 $T/v$ 检查，均留在原副本正文中。四交、一般分式值、一般 Norm 和 $18\times9$ 原终门不因本节得到 PASS。
+
+### 7.2 固定软件验收与来源
+
+新增 scripts/check-original-scalar-primary-return.py 与既有固定 selector 配合，只在公开 Actions 执行。它在含非素域系数的二次常数域上逐项比较原 primary_block 和新返回，涵盖二次不可约素多项式、厚度1/2/3、多素因子、缺席素因子与 unit；新分支禁止调用通用 Hermite，参考分支仍用未修改原实现。它另核错误 engine、错误 determinant、复合底多项式和同 determinant 的非标量输入，并测试秩306、原高幂指数918的完整 scalar 自由模返回。
+
+绑定新子类后，检查器实际调用 SHA256 固定的旧七组 support checker main()；旧非约化分量、全部剩余坐标、常数嵌入、registry、重复调用和无穷边界测试原样运行。完整旧两个输出标记也保留。源、参数和软件时间界420秒入仓，运行日志与矩阵不入仓。
+
+本节的数学证明已经完成；本次提交请求软件核验，尚未把未执行或未返回的检查记为 PASS。秩306 fixture 只验证完整返回实现，不冒原几何；后续唯一生产运行仍须独立消费全部原终门。
