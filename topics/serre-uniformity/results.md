@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原带符号Hasse与自足限制幂（已证明）**：[R1154 §17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)已锁标准Hasse的完整符号：A(1,−w)=−P、A(γ)=−aξ、B(γ)=−a(6+ξE2)，故B0=−6a。自足代数证明X^p=A²X+ACZ/6+C²∂H/6：先证Xp=cY，保H^p可能后以整数权排除，再由双导子和degree<p使c常数，最后一次q系数480锁c1。在原有限流读取为a²(6∂H+kξ+ξ²∂ξ)，首p forcing及k+j−1临界零保全；端点[ξp−3]E4=a⁻²、[ξp−7]E4²=a⁻⁶只校准，未代原joint。
+
 - **原含分歧坏点的半稳定primitive比较（已证明）**：[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)全部原raw根塔的rational半稳定性、Bst实际对偶比较与同一路径Hodge规范已付，中央仍为原−Li2。保Lie N之外的N²、有序项与真实PD法向carry；finite Ep加权到原43整格的接口继续。
 
 - **原weighted moments的唯一多项式余项（已证明）**：[R1154 §16](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)实际Sym¹/²/³算子和有理留数自证三个同构，全部原权重归到四个唯一低jet；同Legendre无穷分支只消无权cubic的Fermat项。原joint的Bernoulli系数固定为3/8，不需除D2，其完整余项仍保，未宣非零。

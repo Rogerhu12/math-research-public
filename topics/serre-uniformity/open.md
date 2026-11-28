@@ -137,6 +137,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §16](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)现以δP=qP²∂w的非零±1留数自证各Sym^r真实polynomial kernel=kP^r，给S₁/S₂/S₃在指定奇偶空间的唯一逆。H1/H7/H2/H3分别解wP³−1、截断wP⁷−c7、P⁴−1、wP⁵−1，原四moments恰为m1+aH1(0)、m2+2H2′(0)、c7m1+aH7(0)、m3+(6H3,2+9λH3(0))/a，全部forcing保留。m2为准确奇偶平方倒数和；同Legendre无穷分支严格给m3=M30−3Bp−3/8，q_p(2)项消去且Bernoulli系数单位。于是h0下joint为Bp−3=8(M30+r3−3BνUν)/3，四个低jet及M30均明确；无需除D2，但尚未证明这个实际余项与Bp−3不相容。不是已被反例否定的无条件Cν(Qν)0。
 
+[R1154 §17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)已锁标准Hasse的完整符号：A(1,−w)=−P、A(γ)=−aξ、B(γ)=−a(6+ξE2)，故B0=−6a。自足代数证明X^p=A²X+ACZ/6+C²∂H/6：先证Xp=cY，保H^p可能后以整数权排除，再由双导子和degree<p使c常数，最后一次q系数480锁c1。在原有限流读取为a²(6∂H+kξ+ξ²∂ξ)，首p forcing及k+j−1临界零保全；端点[ξp−3]E4=a⁻²、[ξp−7]E4²=a⁻⁶只校准，未代原joint。
+
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。

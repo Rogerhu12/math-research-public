@@ -2336,3 +2336,257 @@ $$
 本节为纸面证明，没有数学程序执行。
 
 root 独立核全有理函数域的 δ_P 核与两个非零留数、三个真实多项式同构的最高次数/奇偶、S₂/S₃全部 forcing，以及原四个低 jet、无穷分支 q 项消去和固定 Bernoulli 系数。前 §§1–15 保持原文；不把无权 cubic 的消去外推到旧加权 Cν(Qν)。无数学程序执行。
+
+
+## 17. 原射影流的带符号 Hasse 坐标与自足 restricted-power
+
+本节保持 §§15–16 的原 $\xi,f,P,V,a$，并为区别通用变量，
+写
+$$
+\gamma(\xi)=
+(\mathcal E_2(\xi),\mathcal E_4(\xi),\mathcal E_6(\xi)).
+$$
+这里的三个有限函数仍准确由原 Legendre 对给出。
+下文先锁定它们上面的标准 Hasse 多项式及其导数，
+再给出同一 Ramanujan restricted-power 的自足代数证明。
+它不重新寻找一个 Hasse 候选来替换原 Eisenstein 函数；
+R1135 §13 的原 cusp 差仍完整存在。
+
+### 17.1. 标准 Hasse 多项式就是同一个带符号 Legendre 列
+
+在标准变量 $E=E_4,F=E_6$ 中记
+$$
+A(E,F)=E_{p-1}\bmod p,\qquad B(E,F)=E_{p+1}\bmod p .
+$$
+两者权分别为 $p-1,p+1$，$q$ 展开分别为 $1,E_2$。
+原 [R1135 (1135.55)](R1135-original-Gaussian-low-row-fiber-constraint.md)
+换成标准变量后，正是
+$$
+\boxed{\quad
+\mathfrak d=-\frac F3\partial_E-\frac{E^2}{2}\partial_F,
+\qquad
+\mathfrak dA=\frac B{12},\qquad
+\mathfrak dB=-\frac{EA}{12}.
+\quad}
+\tag{1154.102}
+$$
+所以 $\mathfrak d^2A=-EA/144$。这里 $B$ 没有再除以 $12$。
+
+令 $Q(w)=A(1,-w)$。同权性给 $\deg Q\le\nu$。
+若 $M(E,F)$ 权为 $k$，把其 Euler 身份与 $\mathfrak d$ 合并，
+则在 $(E,F)=(1,-w)$ 上
+$$
+(\mathfrak dM)(1,-w)
+=\frac{kw}{12}M(1,-w)
+ +\frac{1-w^2}{2}\frac d{dw}M(1,-w).
+$$
+对 $A$ 连续使用此式，两次权分别同余 $-1,1$，
+再代 (1154.102)，准确得到
+$$
+(1-w^2)Q''-2wQ'-\frac5{36}Q=0.
+$$
+在次数至多 $\nu$ 的多项式中，其解空间是一维，
+由原 $P=\mathsf P_\nu$ 生成：
+系数递推的另一个可能顶次数是 $p-\nu-1>\nu$。
+
+这条比例的符号也能准确锁定。
+标准 $q$ 展开的常数给 $A(1,1)=1$。
+在 $\mathbf F_{p^2}$ 中取 $i^2=-1$，权齐次性给
+$$
+A(1,-1)=A(i^4,i^6)=i^{p-1}A(1,1)=-1,
+$$
+因为本篇 $p\equiv3\bmod4$。
+而 $P(1)=1$，故 $A(1,-w)=-P(w)$，没有待定单位。
+
+现在代入 §15 的
+$\mathcal E_4=f^4,\mathcal E_6=-wf^6$。
+$f(0)=1$，在 $\mathcal A$ 中 $f^p=1$，
+所以权 $p-1$ 给
+$$
+A(\gamma)=f^{p-1}A(1,-w)
+        =-\frac P f=-a\xi .
+$$
+对它使用 (1154.102) 及 (1154.76)，最终得到
+$$
+\boxed{\begin{aligned}
+A(1,-w)&=-P_\nu(w),\\
+A(\mathcal E_4,\mathcal E_6)&=-a\xi,\\
+B(\mathcal E_4,\mathcal E_6)
+ &=-a(6+\xi\mathcal E_2),\\
+B(1,0)&=-6a .
+\end{aligned}}
+\tag{1154.103}
+$$
+这些是同一个有限代数内的身份。
+特别已付的是标准 Hasse 的完整符号，不只是平方相等；
+没有改变原 Weil 标记、微分或 Gaussian 分支。
+
+### 17.2. 同一个 restricted-power 的自足代数证明
+
+在 $\mathbf F_p[H,E,F]$ 中定义
+$$
+X=\frac{H^2-E}{6}\partial_H
+ +\frac23(HE-F)\partial_E+(HF-E^2)\partial_F,
+\qquad
+Z=2H\partial_H+4E\partial_E+6F\partial_F.
+$$
+这是标准 Ramanujan 场的两倍。
+置 $C=B-HA$。由 (1154.102) 及权同余，直接有
+$$
+XA=C/6,\qquad XC=0.
+$$
+定义另一个明确导子
+$$
+Y=A^2X+\frac{AC}{6}Z+\frac{C^2}{6}\partial_H .
+$$
+逐项展开，它的三个系数不含 $H$：
+$$
+\boxed{\begin{aligned}
+YH&=\frac{B^2-EA^2}{6},\\
+YE&=\frac{2A(EB-FA)}3,\\
+YF&=A(FB-E^2A).
+\end{aligned}}
+\tag{1154.104}
+$$
+下面证明 $X^p=Y$，而不依赖对一般公式的未刊引用。
+
+先由 $ZA=-A,ZC=C$、$\partial_HC=-A$ 得 $YA=YC=0$。
+再用
+$[Z,X]=2X$、$[\partial_H,X]=Z/6$，可逐对消去
+$$
+[X,A^2X]=(AC/3)X,
+$$
+$$
+[X,(AC/6)Z]=(C^2/36)Z-(AC/3)X,\qquad
+[X,(C^2/6)\partial_H]=-(C^2/36)Z.
+$$
+故 $[X,Y]=0$。
+同时 $X^pA=X^pC=0$。
+
+$A$ 的总次数小于 $p$、权为正且非零，故不是 $p$ 次幂；
+所以 $dA\ne0$。又 $C_H=-A$，故 $dA,dC$ 在泛点独立。
+$YH$ 非零：若 $B^2=EA^2$，则
+$E=(B/A)^2$ 在 $\mathbf F_p(E,F)$ 中成为平方，矛盾。
+因此消去 $A,C$ 的导子空间为一维，有
+$X^p=cY$，其中 $c\in\mathbf F_p(H,E,F)$。
+
+此处必须保留一个特征 $p$ 精度。
+由
+$$
+[\partial_H,X^p]
+=\frac16\sum_{j=0}^{p-1}X^jZX^{p-1-j}=0
+$$
+只能先知 $X^pH$ 是 $H^p,E,F$ 的多项式，
+不能直接说所有系数不含 $H$。
+但 $X^pH$ 的整数权恰为 $2p+2$：
+若含 $H^p$，剩余权为二，不能由 $E,F$ 组成；
+若含 $H^{2p}$，又超出该权。
+所以 $X^pH$ 确实不含 $H$。
+由 $c=(X^pH)/(YH)$，才得 $c\in\mathbf F_p(E,F)$。
+
+$X^p,Y$ 的导子权均为 $2p$，故 $Zc=0$；
+由 $[X,X^p]=[X,Y]=0$ 又有 $Xc=0$。
+$Z,X$ 在 $E,F$ 两方向的 determinant 是
+$-4(E^3-F^2)\ne0$，因此 $c_E=c_F=0$，
+即 $c\in\mathbf F_p(E^p,F^p)$。
+另一方面，$X^pH,YH$ 都是总次数至多 $(p+1)/2<p$
+的 $E,F$ 多项式。
+将它们约去 gcd 后，一个 $p$ 次幂分式不可能还含
+次数小于 $p$ 的非恒定分子或分母。
+所以 $c$ 是 $\mathbf F_p$ 常数。
+
+最后只需一次标准 $q$ 展开锁定这个常数：
+$A=1,B=H$，故 $Y$ 与 $X=2q\,d/dq$ 在展开后相同。
+而 $(2q\,d/dq)^p=2q\,d/dq$，
+且 $XE_4$ 的 $q^1$ 系数 $480$ 在 $p>37$ 时为单位。
+所以 $c=1$，证明
+$$
+\boxed{\qquad
+X^p=A^2X+\frac{AC}{6}Z+\frac{C^2}{6}\partial_H=Y.
+\qquad}
+\tag{1154.105}
+$$
+这里不需要把三个变量的 $q$ 展开映射误当成单射；
+$q$ 展开只在已经证明 $c$ 为常数之后使用。
+(1154.105) 是 R1116 §9.4 同一 restricted-power
+在标准变量下的自足证明，未引入另一个向量场。
+
+### 17.3. 原首 $p$ 强制的尺度及完整有限 Taylor 窗口
+
+由 (1154.103)，在原 Gaussian 初值 $G=(0,1,0)$，
+$$
+X^p|_G=\frac{B(1,0)^2}{6}\partial_H
+      =6a^2\partial_H .
+$$
+这与 (1154.76) 的首 $p$ 边界完全相同。
+也可从该有限方程直接检查：
+对任何多项式 $M$，前 $p-1$ 阶的 Taylor 导数都是
+$(X^jM)(G)$；
+第 $p$ 阶的兼容条件是
+$X^p|_G-6a^2\partial_H=0$，
+因为 $(p-1)!=-1$。
+因此 (1154.78) 的准确系数不是一个独立选择的常数。
+
+将 (1154.103) 代入 (1154.104)，还能保留整个实际窗口。
+对任意权为 $k$ 的齐次多项式 $M(H,E,F)$，有
+$$
+\boxed{\quad
+(X^pM)(\gamma(\xi))
+=a^2\left(
+6(\partial_HM)(\gamma(\xi))
++k\xi M(\gamma(\xi))
++\xi^2\frac d{d\xi}M(\gamma(\xi))
+\right).
+\quad}
+\tag{1154.106}
+$$
+这是 $\mathbf F_p[\xi]/(\xi^p)$ 中的恒等式。
+例如 $H$ 分量是
+$a^2(6+2\xi\mathcal E_2+\xi^2\mathcal E_2')$。
+在将 $XM$ 换成 $d(M\circ\gamma)/d\xi$ 时，
+二者的差是
+$6a^2\xi^{p-1}M_H(\gamma)$；
+显示的 $\xi^2$ 正好将它消去，而不是先删 (1154.76) 的边界。
+
+若 $M=M(E,F)$ 真正不含 $H$，则读取 $1\le j<p$ 给
+$$
+\boxed{\quad
+(X^{p+j}M)(G)
+=a^2j(k+j-1)(X^{j-1}M)(G).
+\quad}
+\tag{1154.107}
+$$
+所有用于读取的 $j!$ 均小于 $p$，故为单位。
+这个式子保留 $k+j-1=0\bmod p$ 的临界位置；
+不能反除该因子，也不把 $X^{p+j}$ 改成
+原尚未读取的 $X^{p-j}$。
+它给的是原同一流的 restricted-power 运输，
+不是所有近 $p$ 系数自动等于某个低阶单位。
+
+### 17.4. 原端点在新坐标中的有限校准
+
+最后，$\deg P^{2r}\le p-1$ 对 $0\le r\le3$，
+而 $P^{2r}$ 为偶多项式，故原读取准确为
+$\mathscr R(P^{2r})=P(1)^{2r}=1$。
+将 (1154.75) 代入，得到
+$$
+\boxed{\qquad
+[\xi^{p-1-2r}]f^{2r+2}=a^{-2r}
+\quad(0\le r\le3).
+\qquad}
+\tag{1154.108}
+$$
+例如
+$[\xi^{p-3}]\mathcal E_4=a^{-2}$、
+$[\xi^{p-7}]\mathcal E_4^2=a^{-6}$。
+后一式是原 $P_\nu^6$ 端点单位在新标架中的值；
+它不是原 (1154.79) 中
+$[\xi^{p-5}]\mathcal E_4^2$ 或指定 minor 的单位证明。
+
+§16 的四个唯一多项式余项仍对应同一个
+$P=-A(1,-w)$，所以此处的带符号 Hasse 读取不改变那些输入。
+原 $\mathsf h=0$ 与 (1154.100) 的真实 Bernoulli 方程仍须联合处理。
+特别，既不能用 $B(1,0)$ 的单位性删去
+(1154.100) 的整个余项，也不能把全曲线横截性当作
+原 Gaussian 两点的标签分离。
+本节全部为纸面证明，无数学程序执行。
