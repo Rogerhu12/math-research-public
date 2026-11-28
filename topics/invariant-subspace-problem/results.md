@@ -34,6 +34,8 @@
 
 ## 新增结论
 
+- [R150：δ正阶的ell零与Phi零两个整个原支排除](results/R150-appendix-unit211-W-b0-internal-delta-positive-ell-zero-and-Phi-zero-original-exclusion.md)：完整q2/R6估值排ell任意正阶；Phi零U3/4只用原二次余式及非零整数262，无Phi逆。两个补图全mu值与极点均保，无新执行。
+
 - [R150：Vbar正阶的整个M深中心排除与mu整性](results/R150-appendix-unit211-W-b0-Vbar-positive-entire-M-zero-exclusion-and-mu-integrality.md)：7fe1唯一实际0.085350214秒/0，固定D/K五列与F的全三原单位排所有M正阶；完整q/R/N5的mu最高头联合原返1，故mu整。一般有限mu仍需新完整原输入。
 
 - [R150：正确Phi第二NV头与ell=3/2的整个交集排除](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-complete-original-exclusion.md)：c8e84唯一实际6.470644042秒/0，完整四次矩域、原u二次和真t²的16维包络保全部重数；128原列返回后整个A[t]三mean乘子返1，只在第二头支付ell−3/2。

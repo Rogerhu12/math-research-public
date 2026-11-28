@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-Vbar-M-unit-mu-integral-2240-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-delta-ell-Phi-zero-complements-2245-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保；六ray/内部u闭，1009各位置e,k,u单位、ell整。新[Vbar整个M零排除及µ整](results/R150-appendix-unit211-W-b0-Vbar-positive-entire-M-zero-exclusion-and-mu-integrality.md)7fe1唯一run46180054993/job141087354966真0.085350214秒/39484KiB/0；原M深先迫µ整、D/K零，固定(2,3)标量L6与F原返1，M全单位；完整µpole三头联合返1，余有限µ。新fbf84只对完整q/R/N5作固定(2,6)/(2,5)两原标量及伪余线性楔积，再一次Fp1009[L]全三原返；120秒/1GiB首派待回执，不重M/pole门。δ深m/Ast闭，ell0/Phi0另纸证；新b2a仅明示S=u(u−1)(3u−2)(2u²−1)(2u−1)(4u²+2u−3)(4u−3)开图，原N5先消δ逆再Q1，完整q首一/两余式/cross+norm三原返回，120秒/1GiB首派待真回执，所有补图与unpaid因子保。其余分母DVR及整个W空性开。
+W旧闭支/≤616824、b0≤23088与U0另3保；六ray/内部u闭，1009各位置e,k,u单位、ell整。Vbar四特殊L闭，7fe1原返1已付M单位/µ整；新fbf84唯一run46180592399/job141089034950真0.160428316秒/39836KiB/0，完整q/R/N5两固定Sylvester L29/29+伪余楔积L48，19次原返回后Fp联合真正返1，整个Vbar总稿续登记。δ深m/Ast已闭，新[整ell零与Phi零补支](results/R150-appendix-unit211-W-b0-internal-delta-positive-ell-zero-and-Phi-zero-original-exclusion.md)纯q/R排全部µ阶、Phi U3/4余式整数262非零，无Phi逆。新b2a唯一run46180594208/job141089040156真10.529501826秒/38588KiB/0，明示S开图三原标量58/59/60、共同24全为已明示S支持，最终三原普通mu式返S²⁴（末分母1），无未付u因子；整个δ总稿续登记。root接全ell正阶（仅Ast同时深U−5/4,k−1/2待付），geometry接m正阶；其它分母DVR与全W空性开。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
