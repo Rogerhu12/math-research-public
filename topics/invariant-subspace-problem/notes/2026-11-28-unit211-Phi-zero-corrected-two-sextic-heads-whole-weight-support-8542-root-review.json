@@ -1,0 +1,15 @@
+{
+  "entireSourceAndInputRead": true,
+  "sourceBlob": "a06d6a53209c2663118cc5f911833dec67290904",
+  "sourceSHA256": "fbe5c3060172c415d15f7c582bedd055a8acce8bd760fccd5a4c2d3b3161caae",
+  "checks": [
+    "Only f73/f62 necessary coefficient prefixes, AST removes old top-level proof gates and their dead assignments; exact four polynomial hashes retained",
+    "Known raw NS/PS coefficient definitions and scalar coordinate only regenerated, old actions/overlaps/defects/full fifteen relations/cofactor returns not rerun",
+    "Both true lambda6 heads stripped only original paid weights, complete QQ factor products returned",
+    "Complete QQ gcd and both actual quotient products, common curve wholly retained; gcd1 gives only finite common head support",
+    "Global raw algebra eighteen generators claimed only if an entire head residual is constant; geometric D localization never called a finite base module"
+  ],
+  "budget": "absolute120s1GiBouter135",
+  "execution": "not yet",
+  "independentFullReview": "r150_open_geometry full source/input and exact prefix interfaces pass, no execution"
+}
