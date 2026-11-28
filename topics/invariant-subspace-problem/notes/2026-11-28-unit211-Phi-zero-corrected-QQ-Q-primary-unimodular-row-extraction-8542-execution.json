@@ -1,0 +1,154 @@
+{
+  "schema": "isp-correct-Phi-Q-primary-unimodular-two-memory-boundaries-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "source_basename": "2026-11-28-unit211-Phi-zero-corrected-QQ-Q-primary-unimodular-row-extraction-8542.py",
+  "source_git_blob": "f6ffe1592022e69abe8746e97e436b86763b354b",
+  "source_sha256": "5971d0015ea65e5f8f2fc0c0ba6be7bbf5aea15292dc1383cd83c85dee3a877c",
+  "independent_budgets": {
+    "per_model_seconds": 120,
+    "per_model_memory_GiB": 1,
+    "outer_seconds": 135
+  },
+  "cases": [
+    {
+      "parameter": {
+        "ISP_Q0_MODEL": "F"
+      },
+      "run_id": 46161293869,
+      "job_id": 141028978873,
+      "source_commit": "e9083c90000316e09cd6efda8cae908bd5bf0bb3",
+      "rules_read": {
+        "after": "e9083c90000316e09cd6efda8cae908bd5bf0bb3",
+        "before": "e9083c90000316e09cd6efda8cae908bd5bf0bb3",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T15:42:57.669933+00:00"
+      },
+      "driver_elapsed_seconds": 90.638152077,
+      "max_child_rss_kib": 1030128,
+      "source_exit_code": -6,
+      "stdout_bytes": 3271,
+      "stdout_sha256": "7c9b231e1b46a3ad8bba811b888f993893c591f1a50a325b2e255cf4ae4a9207",
+      "exact_allocator_error": "FLINT exception (General error): Unable to allocate memory (1605632).",
+      "mathematical_records_read": 9,
+      "completed_rounds": 1,
+      "completed_round": {
+        "QExponentIsProvedLowerBoundUntilFullRank": true,
+        "allNonconstantUPivotZeroSetsPreserved": true,
+        "cumulativeQExponent": 1,
+        "currentMatrixProfile": {
+          "fullCoefficientStreamSHA256": "e0c9a55b770a10c136b0ceca49b90fcb683bffd297026eba1bf918acb9f0bf84",
+          "largestEntryQDegree": 25,
+          "largestEntryTotalDegree": 904,
+          "largestEntryUDegree": 903,
+          "size": 12,
+          "termsAcrossAllEntries": 501507
+        },
+        "determinantSign": -1,
+        "everyRowOperationUnimodularOverQQU": true,
+        "exactDeterminantIdentity": "published_quotient = sign * Q^exponent * det(current_matrix)",
+        "fullZeroRowsAndEveryQDivisionCoordinateReturned": true,
+        "model": "F",
+        "nullity": 1,
+        "rank": 11,
+        "round": 0,
+        "seconds": 59.760017624,
+        "stage": "new_complete_unimodular_Q_primary_round_returned",
+        "statistics": {
+          "determinantOneReturns": 35,
+          "echelonZeroChecks": 78,
+          "fullInverseRowCoordinateReturns": 21840,
+          "fullQDivisionCoordinateReturns": 312,
+          "quotientReturns": 70,
+          "rowSwaps": 7,
+          "twoRowBezoutBlocks": 35
+        },
+        "wholePhiExcluded": false
+      },
+      "last_partial_round": {
+        "round": 1,
+        "completed_pivots": 6,
+        "total_two_row_blocks": 41,
+        "seconds": 62.235726223
+      },
+      "proved_Q_exponent_lower_bound": 1,
+      "exact_Q_order_proved": false,
+      "proved_identity": "F_star=-Q*det(M1); F_Q=F_star/Q=-det(M1)",
+      "new_support_degrees": {
+        "u": 368,
+        "Q": 205,
+        "total_upper": 408
+      },
+      "source_entire_success": false,
+      "frozen": true
+    },
+    {
+      "parameter": {
+        "ISP_Q0_MODEL": "G"
+      },
+      "run_id": 46161295453,
+      "job_id": 141028982297,
+      "source_commit": "e9083c90000316e09cd6efda8cae908bd5bf0bb3",
+      "rules_read": {
+        "after": "e9083c90000316e09cd6efda8cae908bd5bf0bb3",
+        "before": "e9083c90000316e09cd6efda8cae908bd5bf0bb3",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T15:42:58.163053+00:00"
+      },
+      "driver_elapsed_seconds": 39.604973848,
+      "max_child_rss_kib": 1032692,
+      "source_exit_code": -6,
+      "stdout_bytes": 1700,
+      "stdout_sha256": "fd410842d88953afdcc28f5cf101d402f8cad0818c643c4b00da84601d8dd228",
+      "exact_allocator_error": "FLINT exception (General error): Unable to allocate memory (802816).",
+      "mathematical_records_read": 5,
+      "completed_rounds": 0,
+      "last_partial_round": {
+        "round": 0,
+        "completed_pivots": 6,
+        "total_two_row_blocks": 21,
+        "seconds": 21.019311272
+      },
+      "proved_Q_exponent_lower_bound": 0,
+      "exact_Q_order_proved": false,
+      "new_quotient_matrix_proved": false,
+      "old_G_star_support_retained": true,
+      "source_entire_success": false,
+      "frozen": true
+    }
+  ],
+  "mathematical_scope": {
+    "true_new_full_QQ_identity_from_F_completed_round": true,
+    "no_nonconstant_u_polynomial_inverted": true,
+    "all_u_pivot_zero_sets_retained": true,
+    "no_old_minimum_assignment_or_old_axis_gate_replayed": true,
+    "no_new_modular_comparison_executed": true,
+    "common_QQ_gcd_of_F_Q_and_G_star": {
+      "u_degree_upper": 5,
+      "total_degree_upper": 45,
+      "Q_degree_upper": 45
+    },
+    "finite_weight_point_bound": null,
+    "whole_Phi_excluded": false,
+    "original_scope": "Current correct Phi, distinct singleton, physical D nonzero and existing weight units.",
+    "all_remaining_weight_and_value_fibres_retained": true
+  },
+  "resource_policy": {
+    "no_budget_increase": true,
+    "no_pivot_reorder_retry": true,
+    "no_round_resume": true,
+    "both_original_mathematical_targets_frozen": true
+  },
+  "proof_git_blob": "6ea22caf7cba3c33dd8e4a1efd8d98284e97fdb4",
+  "proof_leaf": "R150-appendix-unit211-Phi-zero-corrected-one-Q-row-factor-and-frozen-unimodular-memory-boundaries.md",
+  "no_matrix_coefficients_or_resumable_payload_saved": true,
+  "proof_editorial_change": "Only corrected the link to the already published -input.md; mathematics unchanged."
+}
