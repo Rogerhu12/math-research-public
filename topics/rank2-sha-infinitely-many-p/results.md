@@ -252,3 +252,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §62：真实双Jacobi分裂迹与完整纯轴整性
 
 模68射线有联合无穷原惰性p；完整双变量Hecke保所有标记、非primitive和目标Gaussian。固定K=S1G(√−17 z)在原t盘t⁶Zp[[t]]整，来自全部整除法逼近；原J′仍保G的完整倒数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §63：原纯轴的真全局单位值与范数关系
+
+每个非零p幂挠点的同一K值都是全局S∪p-unit，实际估值6vp(tQ)。整数幂/Teich消除给严格代数性，原完整六组挠除子给全p²范数，不以未证极限单位性或单位非零代中央。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
