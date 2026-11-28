@@ -239,32 +239,33 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T13:08:55Z",
-  "phase": "live-scalar",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2768,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 10,
-    "utc": "2026-11-28T13:11:21Z",
+    "ordinal": 11,
+    "utc": "2026-11-28T13:15:23Z",
     "original": {
       "event": "stage",
-      "stage": 9,
+      "stage": 10,
       "source": "equal-Jacobi-wide",
-      "Killing": 17.43756130092624,
-      "K": 11.059822346443168,
-      "base_gram": 0.15238184634744822,
-      "point_sha256": "5a2e0518c90891362e3e6d68954170f2e6f15a3f368626320a5fa79a2ad3300c"
+      "Killing": 21.843355779610228,
+      "K": 11.039126718936426,
+      "base_gram": 0.049137335317733115,
+      "point_sha256": "0ab31f4881f9e2354670f7c2851dcd0427eb736063845f98a07e0eec825dc0f9"
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/field/summary.json",
-      "bytes": 1999,
-      "sha256": "1ca3c705b3f61dc970e4ebfe2b6188335a0955cf3867121abb784a9a3a748730"
+      "bytes": 10852,
+      "sha256": "c338dac4dbe4ecabfb2ed81c995bc1111cf45cb204774924354af4d56aa1259f"
     },
     "complete_small_json": {
       "actual_replay": {
+        "all_11_exact": false,
         "argv": [
           "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
           "-u",
@@ -276,22 +277,291 @@
           "--out",
           "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/field/parent-full-replay"
         ],
-        "elapsed_seconds": null,
+        "console": {
+          "bytes": 2461,
+          "name": "console.log",
+          "sha256": "9ec9c37f722d3535d32435703b3cfcc3f2ff181478e7459b36b99be749e7765d"
+        },
+        "elapsed_seconds": 385.09480815399996,
         "last_stage_scalar": {
-          "K": 11.059822346443168,
-          "Killing": 17.43756130092624,
-          "base_gram": 0.15238184634744822,
+          "K": 11.039126718936426,
+          "Killing": 21.843355779610228,
+          "base_gram": 0.049137335317733115,
           "event": "stage",
-          "point_sha256": "5a2e0518c90891362e3e6d68954170f2e6f15a3f368626320a5fa79a2ad3300c",
+          "point_sha256": "0ab31f4881f9e2354670f7c2851dcd0427eb736063845f98a07e0eec825dc0f9",
           "source": "equal-Jacobi-wide",
-          "stage": 9
+          "stage": 10
+        },
+        "original_frozen": {
+          "degree": 7,
+          "source_design": {
+            "field_width": 0.16,
+            "gap": 0,
+            "geometry": "equal",
+            "id": "equal-unmodified"
+          },
+          "source_physical_sha256": "a4dd5cf469cb8545c5dd0d070e28268a4c300e0bad307e703ee41a0d510aa872",
+          "source_stage": 6
         },
         "pid": 2803,
-        "returncode": null,
-        "scope": "Complete original eleven stages and all budgets; original independent terminal record stays separate."
+        "replay_frozen": {
+          "degree": 7,
+          "source_design": {
+            "field_width": 0.16,
+            "gap": 1,
+            "geometry": "equal",
+            "id": "equal-Jacobi-wide"
+          },
+          "source_physical_sha256": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7",
+          "source_stage": 6
+        },
+        "returncode": 0,
+        "scope": "Complete original eleven stages and all budgets; original independent terminal record stays separate.",
+        "stage_by_stage_identity_differences": {
+          "0": {
+            "material_sha256": {
+              "original": "c86102c9952a26aa4a041a2eaf4c15bbd5ca360c74388ccd52aefb7a7c3d9f68",
+              "replay": "ee3d73b8b32cb663050102aa726561fb0da3b2886647ff78daa541723c647ca9"
+            },
+            "npz_sha256": {
+              "original": "5baaaaaa2fef8fbd6a2561fcf65f23586654df198bcfe32fb0a052082d0ed5a6",
+              "replay": "058db06639efff463d30e28fb062fb905945b93df8a769c9dec37b3458191cbb"
+            },
+            "point_sha256": {
+              "original": "91bfe98a01e206ca1c0a453048f29cda4b76296a71ed23fb249c8999cae86fff",
+              "replay": "e8ba5be9dad351c63f2d9d6b129ac6ce00b4db5c751f5d259efaf837871d2741"
+            }
+          },
+          "1": {
+            "material_sha256": {
+              "original": "e46f9a4e471b411a3f47483c8fc8671f0fc85f23aeeb8909506fae4e4bee959a",
+              "replay": "4e299df2cb3dc90cabaf8bf778c225905a3262b44f1f95c4da74627450743281"
+            },
+            "npz_sha256": {
+              "original": "486f944a4ad1b5b5a63bfd664fae5f6166d1789e7d735751c3358a147aa1cbbf",
+              "replay": "558df44756eb7b5ba8d58acaf1df54199abc208923be5b0de2f06fe51f8f590e"
+            },
+            "point_sha256": {
+              "original": "ba3020ef494160317f71aa9d70042906f1f94ef0fc2fe9a5a093d17381303e0d",
+              "replay": "8e12c5b60f8f015eba31e2090d53b7495e66b0ba698fa3c410d347b347ac0cbb"
+            }
+          },
+          "10": {
+            "design": {
+              "original": {
+                "field_width": 0.16,
+                "gap": 0,
+                "geometry": "equal",
+                "id": "equal-unmodified"
+              },
+              "replay": {
+                "field_width": 0.16,
+                "gap": 1,
+                "geometry": "equal",
+                "id": "equal-Jacobi-wide"
+              }
+            },
+            "material_sha256": {
+              "original": "3731ed389b630b9c1659b3fc0427454d89c3075e29771392b2e84e86eea4ecaf",
+              "replay": "4025b97867bbbde63b32fa627373978ba01486b265f055220219f1071b0bbffd"
+            },
+            "npz_sha256": {
+              "original": "4a9f84ad770565a29c712202f11c9fc03376e71a0a994832d42034d2717f3c6b",
+              "replay": "349eab8c35a6c5b94b6f5cb8078499c0c3db887d896c5d358fc6574b594da96c"
+            },
+            "physical_sha256": {
+              "original": "8bb6120fc89e51bc1129dd2b1cad91075d0d6967f2c635be3c2de733ddc717f8",
+              "replay": "327a02037fbf2759ba844cc2677303b81ae3142b693ca5722dd248771b22454d"
+            },
+            "point_sha256": {
+              "original": "28038cac0c621800bcd2321b222d548c73f1c16025188e18f9ec27a81d3055f6",
+              "replay": "0ab31f4881f9e2354670f7c2851dcd0427eb736063845f98a07e0eec825dc0f9"
+            }
+          },
+          "2": {
+            "material_sha256": {
+              "original": "e5aa2dababe88e7f95474fb565e5bf78bbaf56b7bcfa5a44fbcf555ec2ed7574",
+              "replay": "458b6b2cb6dc606e57997bb2ddc34496da7d6bd034cd1d268e9efb3437e7e645"
+            },
+            "npz_sha256": {
+              "original": "24210eb9d3eeb1b792ce941b88074d4f9cb7bb7b2fba84f7547065fcdb2064c8",
+              "replay": "7b4e6b581be426a345356d3d0d88d98d80d0a8b73639e542852d4401b1bbcecc"
+            },
+            "point_sha256": {
+              "original": "f1938c396f3bae403a7526a875c2ce00b49c9045918f3d4b1a8882d3ab2184b4",
+              "replay": "1942cce764c0bc64f509124d425b7ecc35048422ba69bc823f04bc6f95deb352"
+            }
+          },
+          "3": {
+            "material_sha256": {
+              "original": "bb1d628146b12aba6afb92781922ac620065d38c97edf2a65b2b6d51899f5607",
+              "replay": "27b55ce6e630e3d29943e061ec5c34e4ec1b98972d684e78a25074b03abba845"
+            },
+            "npz_sha256": {
+              "original": "fcfe3570ad76fcbd726aee807860e688afd7c242bf73609e4e8f8db01ff12972",
+              "replay": "9388efddf121ffe8118940a16c70de6638e65ba8a2f5f6570b26f923f40cff75"
+            },
+            "point_sha256": {
+              "original": "50c6d440d50c6ab1e56f0eca7eb33a6d5fa6789cca88f30cf2aad60f739fc416",
+              "replay": "89e6667f642357ca5284f042a92cb65a71d2d339296542e72df501a0293a8491"
+            }
+          },
+          "4": {
+            "material_sha256": {
+              "original": "053e967f48a18d623349d25d030680d5b6c81a48ab96f9d0a2988e834ab908e0",
+              "replay": "fe838811ee082e1f307865560c7a33b4cba5d62ce87581f631b251c7b829db69"
+            },
+            "npz_sha256": {
+              "original": "ae0481606c2aafcea5abe487d2e35ee15c53a10a447e8c37f0627647f0488dba",
+              "replay": "8c5aa408335488e5deb68cd21557f34e3ecf4b9745af25f43b62413776076627"
+            },
+            "point_sha256": {
+              "original": "386aec2bb6d281732d6b4881fd3f122a16bd9b22c27017319a29b5ae1e319de9",
+              "replay": "ae95eea79989948d8448aa4967c4fca169a469532a9080c7de2c7dccb2333ed7"
+            }
+          },
+          "5": {
+            "design": {
+              "original": {
+                "field_width": 0.16,
+                "gap": 0,
+                "geometry": "equal",
+                "id": "equal-unmodified"
+              },
+              "replay": {
+                "field_width": 0.16,
+                "gap": 1,
+                "geometry": "equal",
+                "id": "equal-Jacobi-wide"
+              }
+            },
+            "material_sha256": {
+              "original": "9593a7b61ba4be3ff81322e21edfb4f986d7c8f0169ddff4792628fb9355b14d",
+              "replay": "1ad25ad5b5bfdaafaa6bf7ba50ba9e82d38e2395382b2169669b75af15ee8d2a"
+            },
+            "npz_sha256": {
+              "original": "1f83e3ec6d87b4329f21543ec93e78ffa4b2b1582b9fa1cc38096382d6891218",
+              "replay": "b9a7993782654dede557ae458a92e96a0d9747b02423fec310e8500d327445fc"
+            },
+            "physical_sha256": {
+              "original": "ccde5ae9d97630d12e2372513453b518fb2d14eed72c31496b1a06efb862d6f0",
+              "replay": "f8feb8a621947e6ec68571712ccdbce3a9578adaebca3448c4bbc7647867808a"
+            },
+            "point_sha256": {
+              "original": "85c39fca5ec27c34df13c7f8d313b1f2d468630b9ee46842c3f48b3534f5a383",
+              "replay": "199ada5542fd6c7a28362aa191d02daf5972f780f87e00f273ce6d439a033c17"
+            }
+          },
+          "6": {
+            "design": {
+              "original": {
+                "field_width": 0.16,
+                "gap": 0,
+                "geometry": "equal",
+                "id": "equal-unmodified"
+              },
+              "replay": {
+                "field_width": 0.16,
+                "gap": 1,
+                "geometry": "equal",
+                "id": "equal-Jacobi-wide"
+              }
+            },
+            "material_sha256": {
+              "original": "1f782e49bb274df069abdab819ba0d90f96e30b9a9a356e3c2d6af2f5d0198a4",
+              "replay": "e01497a0f16c3e234be56708d8f55ae0bfc051d397c786c7c07320f20b3446ba"
+            },
+            "npz_sha256": {
+              "original": "1c7981eb9365eb933ce48b9fe39f6fc602fdc2260789ca00e8125629c8b65ba5",
+              "replay": "3fbdba1f5770c86f35f76dcab3c7ca94b37097f0dec0380661810333451575e6"
+            },
+            "physical_sha256": {
+              "original": "a4dd5cf469cb8545c5dd0d070e28268a4c300e0bad307e703ee41a0d510aa872",
+              "replay": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7"
+            },
+            "point_sha256": {
+              "original": "759f0467870cb29d34861108bc40402bdaa523363d6803b3dc15fe6fe8d6482a",
+              "replay": "fb9c86f18bd57e41b5572017670ec0fa9bfe3b2024ae462311b37303192b851c"
+            }
+          },
+          "7": {
+            "material_sha256": {
+              "original": "601e12e8983e85860f65b67d0fdc770712063a062d3ab942f5541410800f28be",
+              "replay": "562674138bbbe2d30376fad5d92d9b885ed7390819d12e9d5324b234b5ab3bde"
+            },
+            "npz_sha256": {
+              "original": "937b123dd42f83ef6fc5430d377e329c056e88609cdf143cad9ebb0ee4c33e1d",
+              "replay": "618a8a434afe9454fe5c6623c62620ce866ed37ee53c0a10416974571bf320b5"
+            },
+            "physical_sha256": {
+              "original": "6246041e6f0dedbd3d21e8319cb837a886768d9758845dd457acf6fa4e5f21c0",
+              "replay": "78f99c3b2f3e49b308644aeea5b5db48ec32d6dbdef3ad7719c136e9336e6e0e"
+            },
+            "point_sha256": {
+              "original": "f9aacb6774baa75dde72861fc02983570b7a798a28f7ab77f0a9bc9d5231690e",
+              "replay": "8732b8d0dc191d06799721c03cb9936435cd7af03baded4a069e394578656e2f"
+            }
+          },
+          "8": {
+            "material_sha256": {
+              "original": "3e0c9097e0d8ce3ba1b87d566d40f2fba7bfd34b02195e0846d1325545792e79",
+              "replay": "e309db90b1aed606c1fe793d6a880b6d2d6f6d3b02de7e6578d4c569c7fb9ae8"
+            },
+            "npz_sha256": {
+              "original": "3a64338a7f86bf0a34ae1a3221ef85b489720cd0a4e29e22d0e9a7f9216b3cd4",
+              "replay": "08dc23d54b1ce38c13ea98a1e407262c2b6a29411613ef4edd10bfc65c9bf3ae"
+            },
+            "physical_sha256": {
+              "original": "c4ed6bd82203b37d5257fe5334b33d748878c9e8cb480ed7b37ddc2438e5cc45",
+              "replay": "34cbb3976fa3b62eb28a680ce01f7288e1c758f66bf56aa13908d1b3ac9353ba"
+            },
+            "point_sha256": {
+              "original": "363a8e2f35140c0cf101d5efd276b5de7bb62c9d31b3944f0cc3c12da5633fee",
+              "replay": "853acb3e35f270cbca2204530f88c9a424973564fa896275a28ac491ec0343e4"
+            }
+          },
+          "9": {
+            "design": {
+              "original": {
+                "field_width": 0.16,
+                "gap": 0,
+                "geometry": "equal",
+                "id": "equal-unmodified"
+              },
+              "replay": {
+                "field_width": 0.16,
+                "gap": 1,
+                "geometry": "equal",
+                "id": "equal-Jacobi-wide"
+              }
+            },
+            "material_sha256": {
+              "original": "b71e15f7e0c1da7b4a8114fb20be75ae5444cb8e8844d5ab4ad87226b3e63665",
+              "replay": "a14df3eab0b77405d42560bf8e2106ade4d204bb242516bf0e35a46a27d77965"
+            },
+            "npz_sha256": {
+              "original": "9704934e00a56a3f7dd00efe27a819cd56a8063e918668e5934b49bd20936060",
+              "replay": "f2839fcf2b04cf2cc3d22798f760444e40da6258fa7578d586a54bee9c7f01d6"
+            },
+            "physical_sha256": {
+              "original": "bfced885ca71d5a083c706799e3e3167c5533e2426d6e5bef82416ad41f6efff",
+              "replay": "a004caeb17b2a6d754c36d9f7d0d5a7cfd5a17be9dc5d090375da7854095a825"
+            },
+            "point_sha256": {
+              "original": "526410d88bc5889fe188a51a06d52ad3c29d530bc08b065cc2d8acc9a4de5cb4",
+              "replay": "5a2e0518c90891362e3e6d68954170f2e6f15a3f368626320a5fa79a2ad3300c"
+            }
+          }
+        },
+        "status": "completed_whole_closed_body_two_material_refinements",
+        "summary": {
+          "bytes": 65531,
+          "name": "summary.json",
+          "sha256": "512ab2bac805567d678cf56049d5f16ec884c02989413cd9f95a8acac25b5889"
+        }
       },
       "certificate": null,
-      "elapsed_seconds": 134.90344768900002,
+      "elapsed_seconds": 385.165361121,
       "full_result": null,
       "original_attempt": "1",
       "original_child_returncode": 0,
@@ -309,8 +579,21 @@
       "original_source_commit": "c3e685703f28928dfe8cb8d9b71d2d3ed99285ef",
       "schema": "run39b-actual-closed-chart-finite-flow/v1",
       "scope": "Three original-source target/candidate fields; complete finite time 0 through pi on named material points, with full two-dimensional variations. Spatial sample and numerical integrations only.",
-      "stages": [],
-      "status": "parent_replay_start"
+      "stages": [
+        {
+          "coordinate_provenance": "independent full replay point",
+          "errors": 0,
+          "frozen_target_physical_sha256": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7",
+          "material_sha256": "e01497a0f16c3e234be56708d8f55ae0bfc051d397c786c7c07320f20b3446ba",
+          "physical_sha256": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7",
+          "planned_named_addresses": 24,
+          "point_sha256": "fb9c86f18bd57e41b5572017670ec0fa9bfe3b2024ae462311b37303192b851c",
+          "points": [],
+          "same_exact_original_candidate_and_target": false,
+          "stage": 6
+        }
+      ],
+      "status": "integrating_actual_selected_and_both_fixed_fields"
     }
   },
   "whole_runner_field_files": null,
@@ -341,6 +624,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:09:05Z",
-  "observed_utc": "2026-11-28T13:12:39Z",
-  "original_scalar_line_count": 10
+  "observed_utc": "2026-11-28T13:15:31Z",
+  "original_scalar_line_count": 11
 }
