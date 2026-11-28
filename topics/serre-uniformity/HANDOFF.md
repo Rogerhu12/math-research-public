@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：9f3b92986946cb92f4101bdcb720fede209556b9**（2026-11-28T20:04:55Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7b10990ac1b692eb5e45c9890e585c79081a45b1**（2026-11-28T20:16:52Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 真实部分clone与各次pull/readme/旧提交恢复沿log及逐字归档。数学程序仅本公开仓库Actions；本地/V8只作文本、git、metadata。新workflow已按用户授权CLI发布，既有publisher路径边界未改。root管main/H/open/index/log；子研究只candidate。新派代理按根规则16用gpt-6.2-astra/ultra。每条结论即推，非快进立即pull --rebase再推至成功。
 
-H<10KB、open<30KB、各MD<100KB、topic<200MB；不存可重算raw/artifact/Release、不写根LOG。[最新H逐字前态](handoff-archive-2026-11-28-before-all-Hahn-adjacent.md)、[最新open前态](open-archive-2026-11-28-before-principal-CM-auxiliary.md)沿链保全部原公式/source/run/hash；[open](open.md)/[索引](results.md)为完整入口。归档不撤销任何结论和未付门。
+H<10KB、open<30KB、各MD<100KB、topic<200MB；不存可重算raw/artifact/Release、不写根LOG。[最新H逐字前态](handoff-archive-2026-11-28-before-positive-PS-return.md)、[最新open前态](open-archive-2026-11-28-before-principal-CM-auxiliary.md)沿链保全部原公式/source/run/hash；[open](open.md)/[索引](results.md)为完整入口。归档不撤销任何结论和未付门。
 
 ## O0：完整一般p与原实际算术来源
 
@@ -50,7 +50,9 @@ H<10KB、open<30KB、各MD<100KB、topic<200MB；不存可重算raw/artifact/Rel
 
 [R1212](results/R1212-original-arithmetic-quadratic-twist-and-highest-Frobenius.md)两平方类ε是actual Jac的(1,−1)自同构；原Hecke满足Tℓε=(ℓ/p)εTℓ，Galois满足σε=χ_p(σ)εσ，χ_p对应Q(√−p)。完整G-multiplicity的Vm/V1真为χ_p twist并保δ、CM/nonCM；回N固定线只作有理比较。原最高gap直接Čech给Ff_h=−A_sω_h/4；τ=B²归一后α纯置换s→s^p，Π²=−p，B(f̃_s,f̃_t)=3γ²B_s²·1_(t=s^p)/2，k双线性且B(δv,w)=B(v,δw)。只付generic ambient完美Gram；ker𝔠限制及actual pure Lie/whole MW单位继续。
 
-[R1213](results/R1213-original-positive-deck-complete-log.md)给定actual正deck最高Ω，其整个首centre为S=bP(B)、degP≤n，必须保S=A的全纯db/u。相同S才使首log提升独立。完整SS三轨留下λ₀=−6/r，原RC次数界仍3p−3；E_(S,ξ)=ξE_S使CM analytic读取Σξ²Lξ=3L₀，static读取Σaξξ²=3，两部分逐项付全。得到同一完整V_m⁺(S)=−8·2^mν e_n(S)/A1。正pure rank n+1而generic底n；D:k[B]≤n→b k[B]≤n代数同构，但actual q-return目前只付modA，A系数和pureLie仍须真实来源。
+[R1213](results/R1213-original-positive-deck-complete-log.md)actual正deck最高Ω须保整个首centre S=bP≤n，含全纯A方向；同S才给lift独立。SS保λ₀=−6/r，原RC界3p−3；CM analytic Σξ²Lξ=3L₀、static Σaξξ²=3，完整V⁺=−8·2^mν e_n(S)/A1。该文原留的actual返回A系数现由R1214支付。
+
+[R1214](results/R1214-original-positive-PS-return-and-pure-centre-isomorphism.md)同原正PS T∈k[B]≤n的实际Ω_T=π⁻ᵖUΨ_T，其完整S_T=−3γ²𝒟T。原CM第二normal 2p−1的完整Sym^(5p−3)det^(m−1)角像恰2维；从R1203真矩阵经Θ²运输，所有低极线确被U杀。good相位τ_CM²A_tail=−12γ²在b1付原A系数。D的单位三角给qΓ+/p≅b k[B]≤n和实际整基；全CM轮廓核S+=b(B−1)^n有真实pure lift，完整V⁺(S+)=−8·2^mν/A1²为unit。仍未给该线CM/nonCM身份、实际Néron Lie/BT或whole-MW本原法向；generic底只有n维。
 
 ## 其它入口与禁止重做
 

@@ -818,3 +818,10 @@
 - good CM E_(S,ξ)=ξE_S，真实phase再乘ξ，analyticΣξ²Lξ=3L₀、staticΣaξξ²=3；包括6/t极部、所有mixed-normal及两个node接口，得V⁺=−8·2^mν e_n/A1。root原推/global全篇独核，纸面无程序。正D代数同构未冒付actual返回A系数；正pureLie额外方向继续。
 - R1212已真实推78e4083c67efc0e647375e88db2c4992a6db200f，20:00:39UTC真实pull读f676d43154b59c5ac2b89a90cdfde1289b67ca22，两README diff空。
 - 本push规则：本地真实pull至 9f3b92986946cb92f4101bdcb720fede209556b9（2026-11-28T20:04:55Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1214：正高PS的原第二CM normal h=2p−1来自完整Sym^(5p−3)det^(m−1)，Dickson全过滤/终端给E角恰二维。将R1203原群环矩阵沿真正等变Θ²运输，实际最高系数 ℓ=−2mτϑ³R₁，所有低极线真被U杀；保full pairing分支和整高层，不把leading monomial当完整N固定向量。
+- 同一good CM phase τ²A_tail=−12γ²及 E_DT=−(tT/A)″给S_T(1)=−3γ²DT(1)，合已付所有SS值，严格锁全S_T=−3γ²DT，包含此前未付A方向。正D单位三角给actual qΓ+首centre同构与真实高PS返回整基；全CM profile核S+=b(B−1)^n有实际pure提升，V⁺=−8·2^mν/A1²为unit。未把此线认作nonCM或冒付whole-MW/实际Lie。
+- root原推/global独立逐式核完整源、framing、二维角、Θ²、正号/尺度，末审另核真实基及全部CM轮廓 §§7–8；纯纸面，无数学执行或新素数窗口。H压缩前逐字归档before-positive-PS-return。R1213已真实推bea61102cd31c3e92468fcb62469066f67396795；非快进立即pull--rebase后第2次成功，最后读9f3b92986946cb92f4101bdcb720fede209556b9/20:04:55UTC，双README diff空。
+- 本push规则：本地真实pull至 7b10990ac1b692eb5e45c9890e585c79081a45b1（2026-11-28T20:16:52Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
