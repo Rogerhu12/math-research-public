@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R732（已证明，新参考）**：[圆肩末端、准确末带度量与完整闭参考](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md) — 保原核心/$S/R/H$；原末端 $u\le.001$ 三项Gram准确，$.14$ 圆肩接竖柱、中央独立正长度根，所有含帽点的有向/反向 $.126$ 法球及同端全部点对成立。$D\le4.2$、双held $>.91$、$\delta_E>0$、core jet为 $k_0\rho n$；原冻结R730亦有 $\delta_E>0$。中央Gram和中央/中央、中央/圆肩reach仍未付，不作34实际结果。
+
 - **R731（已证明，仅冻结参考）**：[平帽法向弦与 reach 障碍](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md) — 冻结R730短轴参数 $t=7/8$ 的活动点位于真实无标记下平帽法线上，$0.028<h<0.032$，故全相位 $\mathrm{reach}<0.016$、完整 $D>3.88$、$\mathrm{reach}/D<2/485$；并给同点/帽相对高各 $0.025$ 扰动界及全平帽法球条件。未外推到优化后的 outer 场；34实际几何仍独立求解。
 
 - **R724（已证明，成对半波新机制）**：[等长中央半波、完整位移与角jet账](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md) — 两中央+/-h(t/2)保同准确全均值/幅度及两角根，中央|T_s|恰减半；完整中间位移及e0=(3√3/4)ℓ√(1−r²)界、端口/协变/新来源均保。不推wholeK/D/Gram/reach改善；首4全源已刊，22沿19半宽参数独立求解。
