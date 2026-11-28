@@ -192,3 +192,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 11:28 UTC — 同一 λ=.064 场的实际角表细化
 
 原1536角格连续metric首cell因角包络未证，实际3072格细化已返回155.069s；全盒和旧点逐位继承，仅1536新点原算，十一组定义数组同图。原完整metric继续运行，尚无接受结论。见 [记录](notes/2026-11-28-lambda064-same-field-angular-refinement.md)。
+
+## 2026-11-28 11:30 UTC — 原 E 工程退出后实际启动完整 ULP 恢复
+
+原 E worker 真−9，未出接受包，原因未知；新TTY19975已用唯一完整ULP初猜发出原freshJ/heightJ/audit请求，新旧config仅checkpoint/trace路径不同，实际wire下游55296分量逐位同。root核13个直接不可变绑定；全部验收仍待实际返回。见 [记录](notes/2026-11-28-tail-E-engineering-exit-and-ulp-restart.md)。

@@ -1,0 +1,96 @@
+{
+  "status": "original_E_worker_minus9_then_independent_original_fullH_restart",
+  "observed_utc": "2026-11-28T11:24:00.380064+00:00",
+  "old_controller": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/summary.json",
+    "sha256": "9d54c11c431f489a08332cbd04e90bb7820ca7b4a5a5bc81405c75106271f0e0"
+  },
+  "old_exception": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/exception.txt",
+    "sha256": "c354299a79624f3dddbce0200ddb05bae96b82c236e5ce662dd59ff26d481a38"
+  },
+  "old_worker_exit": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/tail_worker_exit.json",
+    "sha256": "bc688c28e122aaf22b92a80fd4b799043c2eebb2900802c18625f605e8ecb795"
+  },
+  "old_launcher_log": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/fullheight-adaptive-watch-20261128-a.log",
+    "sha256": "0bb0e72b29966d3ae1c0d429fed76c33064d7ebd9aa82d5c83f5c8a9233f8ead"
+  },
+  "old_controller_exit_code_observed": 1,
+  "old_worker_exit_code": -9,
+  "old_worker_exit_utc": "2026-11-28T11:07:42.901164+00:00",
+  "signal_sent_by_tail_agent": false,
+  "kill_cause_established": false,
+  "OOM_claimed": false,
+  "old_solver_acceptance_returned": false,
+  "old_packet_present": false,
+  "last_complete_native_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0028-state-record.json",
+    "sha256": "9fc7398cb67eb627fd77bb030157eb6c73e084d6222e47aa2a5db3c0dcc6055a"
+  },
+  "last_complete_native_parallel_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0028-state-output.bin.parallel.json",
+    "sha256": "c07b340eda31599a36ddae8b69ae040f753dc7d7c1c9de48f63847a05f70aed6"
+  },
+  "next_partial_native_input": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0029-state-input.bin",
+    "sha256": "63354b9406c8dda824079df8f09657b906a65a26c321b6b7e70cb00780765bb8"
+  },
+  "next_partial_native_has_complete_record": false,
+  "partial_shard_observations": [
+    {
+      "name": "child-00-output.bin",
+      "bytes": 67992,
+      "mtime_utc": "2026-11-28T11:07:36.139721+00:00"
+    },
+    {
+      "name": "child-01-output.bin",
+      "bytes": 76488,
+      "mtime_utc": "2026-11-28T11:07:41.723663+00:00"
+    }
+  ],
+  "child_lifecycle_limit": "No per-child terminal metadata was emitted for partial 0029. The original controller exec session 86638 has actually completed, and the original worker recorded -9. No process IDs from an unrelated PID namespace were signalled; partial shard timestamps are observations, not fabricated native completion.",
+  "new_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/resume_full_height_from_ulp.py",
+    "sha256": "dc26effaaf10de80ec50dd12e95de38970b189c1f75e5c664047a8c9e5d723e0"
+  },
+  "new_actual_start_snapshot": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/start-snapshot.json",
+    "sha256": "e963ac50f03776cf0508eb5d1220d6a638cc67031a1a9e6b5c0f84df17a741dd"
+  },
+  "new_process_control": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/process-control.json",
+    "sha256": "5c47d1f23a20efefbfdc98b6834756a4821a795bea858f9cf714990f8ace536b"
+  },
+  "new_config": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail-settings.json",
+    "sha256": "8fc60448b0a6d52672dc83b9ffc9a25f8d6252601eaf87159bb6497f5eddc041"
+  },
+  "original_config": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/tail-settings.json",
+    "sha256": "ca6e0f71f5212371701ab78337e3d56fff739bc96f0eebcbcfdf96085464dc23"
+  },
+  "new_exec_session": 19975,
+  "new_tty": true,
+  "same_original_native_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/native-manifest.json",
+    "sha256": "ca2331a3b6d586d0dd248bdf30b3714597e143bbf308bb0d457ddadb8735e7eb"
+  },
+  "requested_flags": {
+    "jacobian": true,
+    "audit": true
+  },
+  "original_numeric_settings_unchanged": true,
+  "changed_config_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "complete_unknown_count": 55344,
+  "request_accepted_yet": false,
+  "complete_surface": false,
+  "actual_config_diff_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ]
+}
