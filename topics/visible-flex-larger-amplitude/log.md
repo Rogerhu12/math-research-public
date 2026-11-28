@@ -550,3 +550,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:02 UTC — 29完整R726球面求解实际启动载体
 
 六完整件162696B（workflow2207B在topic外）：controller19995/0ab835ef、workflow0834dd55、request40193/473b5ff5、queue74372/e16b8d78、全说明14538/d8cc41f3、manifest11391/ee5c849c。真实科学父为26全数值与7acb完整R726源，157/7、458/445、64live、5CLI/15external原字保；28仅供transport/前两输入step，新增28实际run作为第16外部元数据责任不改母参数。全3step6/26/157词，science+pure118584、全四126705，需自然返回后换整pure52442；不跨runner搬数组/点。新独立公共job360min与controller准入21000s明确延长自350/20000，原科学全部预算/接受/变量保，活动子进程仍等自然返回；20取消真实原因未知不由接近旧时限猜因。全文父体/6组workflow与4组controller透明字替/完整逆等及所有终态责任保[全说明](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)。本提交只是push触发启动文件，官方run/job和科学当前值待真实返回。双README云核至`7e0683e820718743a3a62cc475bc465eb60f36e7`无变（非pull）。
+
+## 2026-11-28 05:02:36 UTC — 29官方真实启动
+
+官方run46110194444/1、workflow433424103、head259814e67c1435016353a70bb9e9b7d7b2a8c7e7，于05:01:31Z真实push开始；job140871777584于05:01:34Z开始。读取时checkout/Python success、依赖in_progress、科学pending，未声称输入/model/根已返回。完整run/jobs保[本轮说明](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)。双README云核至`2751e8cf1c21bd579c3b30513369164a585583b7`无变（非pull）。
