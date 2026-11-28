@@ -1167,3 +1167,7 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
 控制器只接受标量summary，首次请求13个whole对象均报Requested summary is not scalar；不能把这种投影错误说成读取失败，也不能据此填写未投影S/k0。全部原错误保固定whole分卷 ecb0788abe96ca3dcbeab61f10d0a41fd3d54dd7/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1-part-002.md：40901字节/SHA09e8cc9eefb2e724db6f5e6e900db13bf1528469e0e1485915efeffda68c7cd5/blob4af46912463de2a12317dda821e99f6eb8ddca14。本次保同源，12完整CLI词仅换新输出路径，新增明确step ID；90个标量leaf选择完整覆盖所需FullHold metadata（含每个包围的准确两端/近似两端）、全部初始律三字段/字、原末knot及来源。输出仍全对象在runner，不编码JSON对象搬入字符串。原source/参数/report/first readout均未变，新读出尚未观察。
 
 新整queue 8746字节/SHAe9ac86dce6b1f8c781b32043c67cc140028d6db09c071974e91395e672fa7b37；active/parent同原28。此处只修运输投影，未改科学模型、预算、接受条件或任何已返数学结果。
+
+## 2026-11-28 08:46:53 UTC — 90/90完整标量投影已返，物理S和初始律确定
+
+新只读source95f8de55264e1bf1ef3d8de6308631847c953eb4，退出0/5.89206177000051秒，全输出22366B/SHA038b92a34f6a33a40efeac7da4bff53e710ce22a999fe02c70f7b23ae26a9151；90/90标量、零summary_errors/missing_outputs。完整物理S准确区间与k0/length/velocity的原字、全部来源界保[专门完整输入记录](2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)；S∈(237/100,119/50)，原k0为binary64 .2。完整whole小卷106767818ea8aed67cf6f74880abd9cee73d3dd2/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1-part-002.md，52652B/SHA47cf7953ed91408f689a58e70fc290fa931a46a652b418a16c5a86fb52300b6a/blob9d4f30eae551516c9ee5357d3ec46f19606eb548。前13非标量错误仍原样保，不改旧report或R690半径。没有F/J/normal/新积分/求解；原13final/typed继续原runner。

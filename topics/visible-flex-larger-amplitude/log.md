@@ -353,3 +353,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:44:46 UTC — 81份历史交付metadata完整JSON仅外空白整理
 
 [完整old/current对应表](computations/complete-delivery-json-lexical-format-delivery.json)与[说明](notes/2026-11-28-complete-delivery-json-lexical-format.md)保固定2d6b45da12fe0deb1809bc0c8e0fc22435cc4390的全部111个候选原件；81个仅删字符串外ASCII空白，30个全字不变跳过。所有键/值/数值token/escapes/顺序/完整源参/预算/失败未知原字保，不parse-reserialize数字。毛省461987B，完整map51078+说明6237+再生器3691后净400981B（不含本日志）。无source/binding/ready/queue/request/实际CLI input/proof/raw/checkpoint改动；所有旧internal bytes/SHA仍指历史whole，旧hash读者先恢复完整旧版，不把当前格式化文本冒旧身份。 双README云核至`021ee858f4b88fd119b1288790d058d1d34bb1d3`无变（非pull）。
+
+## 2026-11-28 08:46:53 UTC — 实际完整物理S与核心初始律已取回
+
+28原runner只读第二投影0/5.892秒，90/90标量、零缺项/summary错误。新[完整输入记录](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)给准确物理S∈(237/100,119/50)、origin/416knots、三初始律原字及完整来源/whole输出。明确原FullHold R/局部高度增量不冒R690半径/声明全高度；F/J/normal/新积分全0，前13投影错误仍保。 双README云核至`42fdb4a90c7ba966177812816d2e2e60dbf42cc0`无变（非pull）。
