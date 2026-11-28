@@ -1059,3 +1059,220 @@ current仍为初始7e06，Phi4954.71485872585、finite Gram0.6374168330977955、
   "observed_utc": "2026-11-28T00:27:43Z"
 }
 ```
+
+## 2026-11-28 00:57:04 UTC — 官方取消与最后未自然返回的科学边界
+
+官方run46053911348/attempt1已completed/cancelled，updated_at=2026-11-28T00:53:34Z；job140691661221及原研究步骤也completed/cancelled。API未给明确取消原因，本记录不把350分钟配置推断成已观察原因。完整原官方返回如下保字，公开repo等附带metadata也原样；科学child最后退出码仍null、自然返回未观察。官方终态不等于完整report或final形成。
+
+最后原controller索引00:52:58 UTC仍只列两个真实input completed/0，原科学step仍running。current保持e2c1ad7e37ff214220c2f5e79427dee8e4831a1a3df4aee06c013589c6f73734/accepted3，Phi4954.529810387847/Gram.6374134312335948/g2.0441496554550835、finite geometry complete=true，违反仍正。下一实际试点52bca852ac42a0ab69521317851e2f5b786df39e93bd53dcc214cf5f1464609b于00:45:26.194651开始，00:52:50只有normal缓存408角；该点统计、几何、alpha与决定未返，不能填current的值。reportfalse、stop_reasonnull、observerfail0；正式科学返回/7词pure/连续费用/全13final及固定参数精化未完成。
+
+完整原157/7参数、source/input/typed/未知peer/全部预算和两真实input保既有[启动全记录](2026-11-27-run17-same-target-broader-supported-seed-launch.md)及本文件之前原字，不重跑已登记结论。取消并不提供same-source restart所需的同runner全13final或完整科学报告；不把mutable progress或旧accepted元数据迁作新raw输入。研究继续在18–21真实任务和新22半波完整家族，所有原目标保持。
+
+### 最后真实pull槽（原字）
+
+<!-- visible-larger-parallel-17:start -->
+Actions17：[run 46053911348/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)；[全阶段记录](notes/2026-11-27-public-actions-46053911348-1.md)。running；已返2，exit=未返。
+并行17规则核查：2026-11-28 00:52:58 UTC，真实pull至`cc3394086a2f79d15722b8c0fea4616f8aa63b30`，双README无变化。
+<!-- visible-larger-parallel-17:end -->
+
+此槽从活H移入本终态原字记录，H显式引用本文件；最后真实pull/readcommit仍按原槽，不以本次云读取冒pull。
+
+### 最后完整索引与官方返回身份
+
+```json
+{
+  "last_original_index": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46053911348-1.md",
+    "bytes": 18949,
+    "sha256": "7b5e836b5f61f73d1e1cdd456cc5aac1107447fdbcf10d5a274b10ce954cb20a",
+    "git_blob_sha": "a43c73579629dbe5a47d00468efd03c06a6988a2",
+    "fixed_commit": "353c9bf9cb7f7ea8009438779453e6e8227b2399"
+  },
+  "official_run_response": {
+    "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348",
+    "bytes": 13343,
+    "sha256": "b50e00d1dddf9b70c3676dcc5cde654990d455231e6bb1dac46240363278eac7"
+  },
+  "official_jobs_response": {
+    "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348/jobs",
+    "source": "connected latest-attempt jobs wrapper; complete returned object below"
+  },
+  "cancel_cause": null,
+  "scientific_child_natural_return_observed": false
+}
+```
+
+```json
+{"id":46053911348,"name":"Visible larger amplitude same-target broader supported seed 20261127 17","node_id":"WFR_kwLOVt5L2s8AAAAKuQbrNA","head_branch":"main","head_sha":"7d0146332d4975fbd2d02b9d160c5f45c503a9b4","path":".github/workflows/visible-larger-20261127-parallel17.yml","display_title":"Launch complete same-target broader supported seed research with unch…","run_number":1,"event":"push","status":"completed","conclusion":"cancelled","workflow_id":433072302,"check_suite_id":124592170721,"check_suite_node_id":"CS_kwDOVt5L2s8AAAAdAkWm4Q","url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348","html_url":"https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348","pull_requests":[],"created_at":"2026-11-27T19:03:11Z","updated_at":"2026-11-28T00:53:34Z","actor":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"run_attempt":1,"referenced_workflows":[],"run_started_at":"2026-11-27T19:03:11Z","triggering_actor":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"jobs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348/jobs","logs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348/logs","check_suite_url":"https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124592170721","artifacts_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348/artifacts","cancel_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348/cancel","rerun_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46053911348/rerun","previous_attempt_url":null,"workflow_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433072302","head_commit":{"id":"7d0146332d4975fbd2d02b9d160c5f45c503a9b4","tree_id":"b365f8ed6ce5ffd28a29806f10b567f03fb9eb06","message":"Launch complete same-target broader supported seed research with unchanged full budgets","timestamp":"2026-11-27T19:03:07Z","author":{"name":"Boyang Hu","email":"2538238358@qq.com"},"committer":{"name":"Boyang Hu","email":"2538238358@qq.com"}},"repository":{"id":1457408986,"node_id":"R_kgDOVt5L2g","name":"math-research-public","full_name":"Rogerhu12/math-research-public","private":false,"owner":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/Rogerhu12/math-research-public","description":"Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces","fork":false,"url":"https://api.github.com/repos/Rogerhu12/math-research-public","forks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/forks","keys_url":"https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Rogerhu12/math-research-public/teams","hooks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/hooks","issue_events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}","events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/events","assignees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}","branches_url":"https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}","tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/tags","blobs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}","trees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}","languages_url":"https://api.github.com/repos/Rogerhu12/math-research-public/languages","stargazers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/stargazers","contributors_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contributors","subscribers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscribers","subscription_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscription","commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}","git_commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}","comments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}","issue_comment_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}","contents_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}","compare_url":"https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Rogerhu12/math-research-public/merges","archive_url":"https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Rogerhu12/math-research-public/downloads","issues_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}","pulls_url":"https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}","milestones_url":"https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}","notifications_url":"https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}","releases_url":"https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}","deployments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/deployments"},"head_repository":{"id":1457408986,"node_id":"R_kgDOVt5L2g","name":"math-research-public","full_name":"Rogerhu12/math-research-public","private":false,"owner":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/Rogerhu12/math-research-public","description":"Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces","fork":false,"url":"https://api.github.com/repos/Rogerhu12/math-research-public","forks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/forks","keys_url":"https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Rogerhu12/math-research-public/teams","hooks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/hooks","issue_events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}","events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/events","assignees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}","branches_url":"https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}","tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/tags","blobs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}","trees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}","languages_url":"https://api.github.com/repos/Rogerhu12/math-research-public/languages","stargazers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/stargazers","contributors_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contributors","subscribers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscribers","subscription_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscription","commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}","git_commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}","comments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}","issue_comment_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}","contents_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}","compare_url":"https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Rogerhu12/math-research-public/merges","archive_url":"https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Rogerhu12/math-research-public/downloads","issues_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}","pulls_url":"https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}","milestones_url":"https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}","notifications_url":"https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}","releases_url":"https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}","deployments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/deployments"}}
+```
+
+```json
+{
+  "jobs": [
+    {
+      "id": 140691661221,
+      "name": "Construct the same fixed target and solve the complete broader supported seed",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "run_id": 46053911348,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        }
+      ]
+    }
+  ]
+}
+```
+
+### 最后原active完整对象
+
+```json
+{
+  "step_id": "complete-fixed-fejer-wide-seed-first-20261127",
+  "scientific_source_commit": "36ef07940921ccfa5eced7124dad275ddd91264d",
+  "scientific_source_sha256": "ed81031fe1eb33684d35585e44022314c8a631821859376a200c874a2aa0e5fa",
+  "pid": 3823,
+  "observations": {
+    "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 00:52:50 UTC",
+      "point": "52bca852ac42a0ab69521317851e2f5b786df39e93bd53dcc214cf5f1464609b",
+      "stage": null,
+      "cached_angle_roots": 408,
+      "closure_logical_requests": 1228282,
+      "closure_logical_returns": 1228282,
+      "closure_logical_failures": 0,
+      "closure_original_returns": 582093,
+      "closure_cache_hits": 646189,
+      "closure_forced_stage_rereads": 137952,
+      "closure_forced_endpoint_rereads": 4311,
+      "closure_scopes_started": 4312,
+      "closure_scopes_closed": 4311,
+      "closure_immutable_point_key_checks": 1050687,
+      "closure_point_word_checks": 8623,
+      "closure_original_closure_seconds": 4564.569508997739,
+      "closure_binding_and_key_seconds": 377.16083759395235
+    },
+    "fixed-fejer-wide-seed-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T00:45:26.194651+00:00",
+      "math_event": "trial-start",
+      "math_driver": "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d",
+      "math_model": "f2e417e9f6835bbc73fce71e18da20e132ca84246641da6572e8fa6ba66a8372",
+      "math_source": "bff1e03ae12a08444cb9d9d572e439a9b40cf59e80a201cd500f95539ce9e391",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 4954.71485872585,
+      "initial_Gram": 0.6374168330977955,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 2.0480426708394406,
+      "initial_geometry_complete": true,
+      "current_point": "e2c1ad7e37ff214220c2f5e79427dee8e4831a1a3df4aee06c013589c6f73734",
+      "current_Phi": 4954.529810387847,
+      "current_Gram": 0.6374134312335948,
+      "current_geometry_point": "e2c1ad7e37ff214220c2f5e79427dee8e4831a1a3df4aee06c013589c6f73734",
+      "current_violation": 2.0441496554550835,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "52bca852ac42a0ab69521317851e2f5b786df39e93bd53dcc214cf5f1464609b",
+      "trial_accepted": null,
+      "accepted_directions": 3,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json",
+      "bytes": 3403,
+      "sha256": "171595f6ebdde5a3370a1f505785d9ffde475f4358a32a2a7322627a75e5f58f",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "bytes": 5573,
+      "sha256": "aeeb6a0b2c15c3bba075152b369d2549c541d1665596e4ec6eb0ca17b79b93a3",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "413c2cb8b69e0250616b43db4398c5e5ffaec12404a5a2c4a7297481023be918",
+  "observed_utc": "2026-11-28T00:52:56Z"
+}
+```

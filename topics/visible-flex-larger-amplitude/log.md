@@ -178,3 +178,7 @@ ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691
 22六件279148B，完整科学157/纯7 argv、458/445formal、48live与原19全部数值/预算/原5peer CLI保；137roles/18runtime/20新源、17对改120对同。全外部9peer保真实原来源/未知；两个大历史对象仅exact whole父+JSON pointer共享，不删字段。源码/参数再生器不入运行前门。初队列63721B、两全input+整science；全science+pure110351>95k，真自然返回后接整pure；仍无实际22场。
 
 完整6件共279148B；双README云核至`30f10282d7d1812f202b9dcd5f4a6221b78b1c4b`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-28 00:57:04 UTC — 17官方终态，原科学未自然返回
+
+run46053911348/1及job140691661221 completed/cancelled@00:53:34Z，明确原因未知；最后原索引只两input0/current e2c1ad7/accepted3/g2.0441496554550835，下一52bca仅开始、统计/几何未返。完整官方返回/原active/末真pull槽保17note，不造final/pure或迁raw；研究继续18–22。双README云核至`08510738baa395d4af8930a4fcf6e5d0abe47d42`无变（非pull）。
