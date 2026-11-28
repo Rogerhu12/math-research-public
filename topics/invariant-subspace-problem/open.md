@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-b0-actual-first-Phi-raw-z-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-all-cut-square-limit-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar同P/双Q/费用：旧median/carry/TS、迹/Abel、二进闭域及严格I/F保，closureF=I开。同族Pr全旗quasi/图核心，YN²=C DN且DN强*I；实际QN强子列才给CQ²=Pt²及Q⁻¹Pt闭稳定原根。[一个明确分离块选择](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)使每固定正有理t的||YN Pt||沿偶切口趋∞，奇倍率实际收缩再给||QN||全切口趋∞，无强子列。有限解析前缀喷射下界靠原UHF头与真实全张量尾传递；不把平坦尾喷射当非零。只排这一个选择，继续重叠/耦合块费用及其他平坦分母，弱聚点仍不能传平方。
+原Haar同P/双Q/费用：旧median/carry/TS、迹/Abel、二进闭域及严格I/F保，closureF=I开。同族Pr全旗quasi/图核心，YN²=C DN且DN强*I。[全部切口的平方收缩](results/R267-appendix-all-cut-square-contractions-and-unconditional-strong-square-limit.md)由实际整数尾给R_NM²=L_NM，||L_NM||≤1；故QN²全序范数单调且无条件强*趋Zt，左右正能量单调，所有原旗商同样。仍须QN本身真强子列才得CQ²=Pt²及Q⁻¹Pt闭稳定根；不能由平方上界付奇项。[已构造分离块选择](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)对每固定正有理t有||YN Pt||偶切口、||QN||全切口趋∞，无强子列；有限前缀用真实张量尾传递，仅排该选择。继续耦合块奇项与其他平坦分母，弱聚点不能传平方。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。

@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 48a3180ca3327d82ee59ce54dd52098a50c33d43（2026-11-28 11:47:19 UTC，Actions run46141498479实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46141498479-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 11:47:19 UTC/72d578bde03263f28e09f946eb893f9979bec509，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 11:04 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。12:04再探，旧故障保归档。
-- **终端断开后远端已读：** 5cf4646a2c2a24c0fbe6f3613092ebbc789ad2bd（2026-11-28 11:47:02 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 2a48266cf44ccb600cde0ade79e5eed0b8ac58da（2026-11-28 11:54:54 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-W-b0-actual-first-Phi-raw-z-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Haar-all-cut-square-limit-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -66,6 +66,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** 旧median/carry/TS、迹/Abel、二进闭域及严格I/F保，closureF=I开。同族Pr全旗quasi/图核心，YN²=C DN、DN强*I。实际QN强子列才给CQ²=Pt²及Q⁻¹Pt闭稳定原根。新明确分离块选择对每个固定有理t有||YN Pt||偶切口趋∞，由奇倍率收缩得||QN||全切口趋∞，无强子列；有限前缀范数用真实张量尾保住。仅排这一选择，继续耦合块与一般来源费。
+- **原Haar普通格/根：** 旧median/carry/TS、迹/Abel、二进闭域及严格I/F保，closureF=I开。同族Pr全旗quasi/图核心，YN²=C DN、DN强*I。新全部切口R_NM²=L_NM为实际整数尾收缩，故QN²全序范数单调有界并无条件强*趋Zt；两正能量单调，旗商同样。仅QN真强子列才给CQ²=Pt²及Q⁻¹Pt闭稳定根。已构造一分离块选择使||YN Pt||偶切口及||QN||全切口趋∞；平方控制与此相容。继续耦合块奇项/真实来源费。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。
