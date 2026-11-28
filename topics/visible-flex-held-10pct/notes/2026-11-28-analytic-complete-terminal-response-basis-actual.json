@@ -1,0 +1,389 @@
+{
+  "status": "actual_complete_cold_matrix_terminal_response_basis_returned",
+  "actual_execution": {
+    "tool_session": 5290,
+    "tool_terminal_exit_code": 0,
+    "elapsed_seconds": 6.976032956998097,
+    "self_observed_max_rss_KiB": 401576,
+    "first_time_binary_attempt": {
+      "tool_exit_code": 127,
+      "python_started": false,
+      "reason": "/usr/bin/time is absent; direct Python was the only numerical execution"
+    }
+  },
+  "report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-basis.json",
+    "sha256": "e066c3d1a1d509d0955eedd1427fb1849018930b42faeef5b8b2e5b2af2940f7",
+    "bytes": 35391
+  },
+  "entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_terminal_response_basis.py",
+    "sha256": "4e212d96a75d9fdc6ed864707c615c6471d98864079eb9c245fc4afee48976de",
+    "bytes": 14690
+  },
+  "identity": {
+    "evidence_path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-design-complete-csr-assembly-qr-bitwise.json",
+    "evidence_git_blob_sha1": "fa77bf9a0ebc5efddb5f971937f2719b9bf9856e",
+    "matrix": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csr-m24-20261128/actual_direct_csr.npz",
+      "sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c"
+    },
+    "matrix_input": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m24_jac_input.npz",
+      "sha256": "c9c4906fb944a82d59f752d74332157dc564b841d269148de20206d937a4edde"
+    },
+    "origin_design_run": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+      "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+    },
+    "factor_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py",
+      "sha256": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8"
+    },
+    "n": 73,
+    "nodes": 879,
+    "parameters": 24,
+    "dimension": 64191,
+    "gauge_q": 0.06,
+    "sigma": -1,
+    "height_columns": [
+      64143,
+      64167
+    ],
+    "terminal_rows": [
+      64167,
+      64191
+    ],
+    "matrix_role": "Actual saved c9c4906f snapshot; frozen-chord unless same-point identity is separately established"
+  },
+  "complete_columns": 24,
+  "column_records": [
+    {
+      "column": 0,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-000.npy",
+        "sha256": "f1ba630593d8f6c486d92350d957a735532e062fb16aa0cacf6636c12d636d7e",
+        "bytes": 513656
+      },
+      "residual_max": 5.551115123125783e-16,
+      "residual_l2": 5.567737261106847e-16
+    },
+    {
+      "column": 1,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-001.npy",
+        "sha256": "6fda73294f2a14348e99b4e320c827763b2448e10c316f15a93a8daae2334ddc",
+        "bytes": 513656
+      },
+      "residual_max": 1.1102230246251565e-16,
+      "residual_l2": 1.2726358242002508e-16
+    },
+    {
+      "column": 2,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-002.npy",
+        "sha256": "a6a16c8980f5afb60e65cb3c6eb200a8dd6cc5699df9b12b29fd6a202d3e26eb",
+        "bytes": 513656
+      },
+      "residual_max": 8.881784197001252e-16,
+      "residual_l2": 9.195989135342024e-16
+    },
+    {
+      "column": 3,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-003.npy",
+        "sha256": "37be83a485ae8171c67dfe2b104557c11c1609bb1bbdda3bcff9f5a22b5b4943",
+        "bytes": 513656
+      },
+      "residual_max": 9.992007221626409e-16,
+      "residual_l2": 1.0085455949221751e-15
+    },
+    {
+      "column": 4,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-004.npy",
+        "sha256": "5f48aa98d2a3a9e9c01f0eec4575b95d53b43c9c54cd73e29e0023bc7779a667",
+        "bytes": 513656
+      },
+      "residual_max": 5.551115123125783e-16,
+      "residual_l2": 5.588137090445883e-16
+    },
+    {
+      "column": 5,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-005.npy",
+        "sha256": "1da374bf07535adf9e499048259693a91ff279756b435f14f914dc6535a3479e",
+        "bytes": 513656
+      },
+      "residual_max": 5.995191581503895e-16,
+      "residual_l2": 8.432881206945234e-16
+    },
+    {
+      "column": 6,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-006.npy",
+        "sha256": "563db026340bf3028229c4183cc2bad73cddcece26eff4b893f4b00a70aebd93",
+        "bytes": 513656
+      },
+      "residual_max": 4.440892098500626e-16,
+      "residual_l2": 4.664948036528786e-16
+    },
+    {
+      "column": 7,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-007.npy",
+        "sha256": "882a109550b2bcc9e9d722eef417ce2f50cc2c1adfd4a68a340212388fe0f792",
+        "bytes": 513656
+      },
+      "residual_max": 1.2212453270876722e-15,
+      "residual_l2": 1.3097935897548156e-15
+    },
+    {
+      "column": 8,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-008.npy",
+        "sha256": "db70e8254bb978e9d3933ac099172d2284cb6616ad13ad041a5398e75b7ef5d0",
+        "bytes": 513656
+      },
+      "residual_max": 1.5543122344752192e-15,
+      "residual_l2": 1.9306727415978876e-15
+    },
+    {
+      "column": 9,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-009.npy",
+        "sha256": "464a2bb9a908c1bbbcaa87c80a3720e2fa6412e27895b3af085ae00ca5ad8c15",
+        "bytes": 513656
+      },
+      "residual_max": 1.7292533069917575e-15,
+      "residual_l2": 2.088139889030248e-15
+    },
+    {
+      "column": 10,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-010.npy",
+        "sha256": "7826dc024f68069a36ade31d380000e17777b82bf142b2e0a0f1a725c8dacbd7",
+        "bytes": 513656
+      },
+      "residual_max": 3.3306690738754696e-16,
+      "residual_l2": 4.774265419944433e-16
+    },
+    {
+      "column": 11,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-011.npy",
+        "sha256": "ca4edc29ca6a53c3b0880783c2c83eb28efde1d5bc1084c64adab052a6688684",
+        "bytes": 513656
+      },
+      "residual_max": 1.2491670379226763e-16,
+      "residual_l2": 1.882842270707178e-16
+    },
+    {
+      "column": 12,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-012.npy",
+        "sha256": "603f8a8d760739626656f133739769fbd3aff3a5552bc92dbbb72b5f52183644",
+        "bytes": 513656
+      },
+      "residual_max": 4.440892098500626e-16,
+      "residual_l2": 4.47392782785352e-16
+    },
+    {
+      "column": 13,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-013.npy",
+        "sha256": "535f20d414ccb256e0a86ac0e39c136a0e242777d091312386f50d17fbb6009e",
+        "bytes": 513656
+      },
+      "residual_max": 8.881784197001252e-16,
+      "residual_l2": 9.035511714862432e-16
+    },
+    {
+      "column": 14,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-014.npy",
+        "sha256": "7e05bf842091ae406cbed0655528dee1d4e0e465af6a940e54b1db16f67008e0",
+        "bytes": 513656
+      },
+      "residual_max": 6.661338147750939e-16,
+      "residual_l2": 1.0266053713981297e-15
+    },
+    {
+      "column": 15,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-015.npy",
+        "sha256": "e69e096077811a510499bb5752b2c39c7a00d8702117eed9996cc3b5e0aa5236",
+        "bytes": 513656
+      },
+      "residual_max": 4.440892098500626e-16,
+      "residual_l2": 5.578458400054823e-16
+    },
+    {
+      "column": 16,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-016.npy",
+        "sha256": "bc2b37f69fb1a12e6d7552b9cb21138d44ef2e9f432d1efdcdf786adef193e8e",
+        "bytes": 513656
+      },
+      "residual_max": 4.440892098500626e-16,
+      "residual_l2": 4.676009449981539e-16
+    },
+    {
+      "column": 17,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-017.npy",
+        "sha256": "abc8c29b57b6c28ce5a4209689f1d06c95cb1e0266b2dc5c50a52f29d6dfe89a",
+        "bytes": 513656
+      },
+      "residual_max": 7.771561172376096e-16,
+      "residual_l2": 7.821655221895448e-16
+    },
+    {
+      "column": 18,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-018.npy",
+        "sha256": "45f10ed71d29ba2743c02849fc33871ba7851e010c3e4d569d05b83c5803583a",
+        "bytes": 513656
+      },
+      "residual_max": 8.881784197001252e-16,
+      "residual_l2": 9.251590067615087e-16
+    },
+    {
+      "column": 19,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-019.npy",
+        "sha256": "294c315dd9f5675c49a1bb1d8f1dea3d3c69c4d5aaf7ee7f046e89387522914a",
+        "bytes": 513656
+      },
+      "residual_max": 4.448481513708025e-16,
+      "residual_l2": 4.563642708007435e-16
+    },
+    {
+      "column": 20,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-020.npy",
+        "sha256": "d7d5f8a7969ffe0130c5fdf778ce599039923756c991b60b2f3d21cfe94361c9",
+        "bytes": 513656
+      },
+      "residual_max": 1.7763568394002505e-15,
+      "residual_l2": 2.213942707369821e-15
+    },
+    {
+      "column": 21,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-021.npy",
+        "sha256": "429b7de2bed1dc7bb5d68fae617116e229b6a706c54db4915f95ff37e390237a",
+        "bytes": 513656
+      },
+      "residual_max": 7.993605777301127e-15,
+      "residual_l2": 8.121594136457069e-15
+    },
+    {
+      "column": 22,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-022.npy",
+        "sha256": "a126de07d0ea97cfd11cb7932a35846dc52c9dfd7abe1ed2206143f0601c59ae",
+        "bytes": 513656
+      },
+      "residual_max": 1.199040866595169e-14,
+      "residual_l2": 1.3144390305906736e-14
+    },
+    {
+      "column": 23,
+      "response": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-023.npy",
+        "sha256": "23fc40cd9f6fd033ae9f2b2f57bcfb67fbd7d684979e54bb0e26890fbeb616de",
+        "bytes": 513656
+      },
+      "residual_max": 7.105427357601002e-15,
+      "residual_l2": 8.186051445518166e-15
+    }
+  ],
+  "maximum_original_full_J_residual_max": 1.199040866595169e-14,
+  "maximum_original_full_J_residual_l2": 1.3144390305906736e-14,
+  "factor_stats": {
+    "equations": 64191,
+    "state_size": 73,
+    "nodes": 879,
+    "parameters": 24,
+    "internal_nodes_eliminated": 877,
+    "levels": 10,
+    "minimum_relative_R_diagonal": 5.5954091728240306e-05,
+    "solve_calls": 24,
+    "maximum_componentwise_backward_error": 1.0,
+    "maximum_normwise_backward_error": 2.5065492864508704e-17,
+    "refinement_steps": 19,
+    "stored_factor_bytes": 162613340
+  },
+  "actual_coordinate_comparison": {
+    "x": {
+      "shape": [
+        879
+      ],
+      "accepted_shape": [
+        879
+      ],
+      "dtype": "<f8",
+      "accepted_dtype": "<f8",
+      "bytes_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    "pscale": {
+      "shape": [
+        23
+      ],
+      "accepted_shape": [
+        23
+      ],
+      "dtype": "<f8",
+      "accepted_dtype": "<f8",
+      "bytes_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    "y": {
+      "shape": [
+        73,
+        879
+      ],
+      "accepted_shape": [
+        73,
+        879
+      ],
+      "dtype": "<f8",
+      "accepted_dtype": "<f8",
+      "bytes_identical": false,
+      "max_absolute_difference": 6.98562548930589e-06
+    },
+    "p": {
+      "shape": [
+        24
+      ],
+      "accepted_shape": [
+        24
+      ],
+      "dtype": "<f8",
+      "accepted_dtype": "<f8",
+      "bytes_identical": false,
+      "max_absolute_difference": 418.73151328774316
+    },
+    "same_point": false,
+    "matrix_p0": -9.684446197347202e-06,
+    "accepted_p0": -9.683937550986032e-06,
+    "same_computational_coordinate_definition": true,
+    "physical_s_at_two_points_claimed_equal": false
+  },
+  "remaining_debt": {
+    "new_J_assembled": false,
+    "same_point_current_J": false,
+    "physical_Flow_imported": false,
+    "tail_requested": false,
+    "full_BVP_solved": false,
+    "inverse_interval_certified": false,
+    "accepted_physical_field": false
+  },
+  "storage": {
+    "complete_response_vectors_remain_only_in_scratch": true,
+    "total_response_file_bytes": 12327744,
+    "arrays_committed": false
+  }
+}
