@@ -132,6 +132,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)从零特征差给非合作真核逐叶延拓和无条件T†，双侧max(T†,T*)内.16球；实际长前缀与全域/接帽/强held另付。
 
+[R739](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md)真Hu同g族的双轴物理半径与全像held下界已证；弱δhold>0的reach/D上确界1/2不付.2D，实际有限真解与精化继续。
+
 R724–729源/证明、R726/R727准确核心9件、其N/G11及下游23、R728准确N/G14及下游24完整路径/身份/条件保旧open。R730准确长度/逆弧长核心4及N/G16完整保护，未有actual费用。 R732[准确N/G四包13件](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)382903B现main，原完整预算/全部叶及32stage不变；尚无同点实际费用。参考角jet不代实际角向Gram，normal.complete不代连续branch。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)继续：N原repo/canonical/output，N变则G新目录/稳定whole report；R723/mesh fresh，P同canonical整块、U最终同wholeN、packet全report、restart同runner13final/typed。全部32stage/1024圆/922cells/cuts/六jet/尾/两帽/mixed/allphase/晚失败、R718 marked和R716 unmarked、五t/15science+5preview及三级空间/频率/时间真精化均待付。

@@ -67,3 +67,7 @@
 ## 2026-11-28 11:20:18 UTC — R732完整准确圆肩/中央/原点选取与N/G源参13件
 
 13件全量382903B现刊，四manifest分别6619/d52dcc9b8353e029f55b101917435ec8c5dda6a4e6b01e42c22728ebaa26de86、5968/8fdbe7c26457f00f0ae36e385f9bb5daf7fedc27a56dfc1bb9de088270ad72d0（修正historical R730文件名版）、16526/b03c891c19f6b5e2b1340cad01545ebcacdebbdf4009c39900bc264f3506d214、12812/7696bf331a0bf7cb460bfbba17e22dbc28ed9786e1ab596f984cc3c6c3ba0016。独立71831B准确kernel全R690无限尾、真实S/R/H/width/kp、圆肩精确sin/cos原函数与正余项、中央正确k₀ρn、完整六长度偏导、逆弧长、全部closed跨片hull；不运行未刊R730父。50593B reader/45439B radial只取immutable selected same-point快照，付十圆肩scalar字及实际x/h/β原始prefix，保1,333,370自由量及922cells全部六jet。69694B正常源码builder从main四个R722全父通过72完整双向片段构造4完整runtime195445B；11297B原capture wrapper不多加科学试跑。N38/G8原argv经capture47/17和build52/22，原900秒、1Mleaf、192bits、128panels、1024angles、922cells、全部32法向stage/根半径/原split/inverse完整保。35自然science和whole pure返回后才能用其实际同点N/G；本批所有actual字段仍null，未冒Gram/reach/闭面证书。 双README云核至`84917b3eab61681c70cf8f01112139eb0b6288df`无变（非pull）。
+
+## 2026-11-28 11:23:06 UTC — R739真Hu相位族的双轴物理发展与有限整像位移判据
+
+完整R739 15253B/SHA256 9bc63a15258e8cb24ee6ec649aab9467f8b7621d1dc2a9af2b4d38a92ed2de83已刊。真实developed radius R_i(r)=r_b−∫sqrt(1+w²−z_i'²)，按R_j逆配对保持物理半径；全/局部图梯度、固定完整壳距离给有限幅度整像Hausdorff下界，未忽略水平发展或再参数化。全m2实际法速给2|q|‖Wα‖∞+Oα(q²)。复核Hu原文Prop4.2及Thm10.3的完整主张与尺度作用，https://hexagonmath.org/pdf/2611.00534v1；任何固定α可调而q₀(α)无定量下界。附论弱位移正的reach/D上确界1/2，完整凸外并/固定标记/全t C²稳定性证；不冒强.2D或数值完成。继续真有限大幅度场。H将已被此前固定全文/own note保全的33/34参数长索引压缩，保实际源和未完成边界；R738更长实际prefix仍待run（文字纠正为待公开计算）。 双README云核至`46addf200b5b764e58aed247b17ef94bca8e64c1`无变（非pull）。
