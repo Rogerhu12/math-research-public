@@ -10,7 +10,7 @@
 
 17:51 UTC检查发现旧repo路径已不存在；终端本身可用，重新部分克隆并稀疏checkout main，17:56:10 UTC真实pull至a0234dec6fd1fc405169b6c60063143c4212af10，两README差异空。旧b0417d0已无本地可见副本，其结论先前已恢复发布，不重演。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-cuspidal-deck-rank.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-complete-Tate-diagonal.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -26,13 +26,7 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1137/Dixon](results.md)原Padé双缺陷⇔P,Q含x²，约后degree≤N−2/contact2N−1；首余项/P_N单位，Pell W0未unit。原Hesse/Schur/Jordan及normal=12tr(adjQ A²)已付，指定中列未cyclic；旧窗口/Prym只消费。
 
-[原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
-
-[quadric续篇 §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原双jet/Q14/S3与全部p补偿保全；e0的D⁶J=B及原第7Picard jet准确读b6。AK−vBR0与同一T的三极norm已付，准确式沿open/前态；norm非零不代b6或两jet非零，继续同链强迫。
-
-[R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
-
-[R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
+[原genus4/quadric §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原双jet、六映射/p次补偿、D⁶J=B、准确b₆与第7Picard jet、Green锁及同T三极norm已付；norm非零不代b₆/两jet非零。[R1183/R1192](results.md)全Hermitian张量及第四插入五端点块已付，e0后原K₄指定C₄a仍开；全Hodge非退化不代限制槽。全部相位/端点和旧公式沿逐字前态，不重跑窗口。
 
 [R1194 §§1–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原全左半Hahn无权范数单位；实际短和带1/(3j+2)。Lw=−v/a、w0=0，q_j′=w(a_j)−w(2)v(a_j)，双零iff P(1/4)=Q(1/4)=0。真实Casoratian/半步分解/全格点空间导数及HC.21–35终止4F3已付；t_r=(2m−1)F_m′(0)/(24m)保全部调和余项，普通second-kind不代原w。全公式沿逐字前态，不重做。
 
@@ -40,7 +34,7 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
-[R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全奇3≤s≤(p−3)/2有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]；完整aux norm/FL/Appell敏感度/未归一Bol已付，Euler不假unit，bad仅c0零。当前用f_s(0)·(f_s(η)−f_s(η′))=0保全部原奇行，继续同一Fay p-band对角及真实p极边界，不添mask。
+[R1179 §14](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，付全部奇3≤s≤p−2、s≠m₀=(p−1)/2的总p层系数c_s=βE_(s−1)Bp−s/(2sC^(s−1))；不除高Sym阶乘/Euler。真实smoothing恰在m₀失效，principal保留。完整Z_p=T⁻¹∂_U^[3](TU K_p)含principal/16及−βTU^(p−3)/3+βU^(p−2)/6两carry。原高forced行c_sΔc_s=0；低偶R=p−s仍乘(1−B_(p+1−2R)^(p−1))，缺席行及跨次数Fay未删，完整mask共同纤维继续。
 
 R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T5²均保原尺度；它不是Δlow。R1135两twist统一z∈Fp，actual-good代数仅d非零平方余对待排；真实向量场闭性未付。R1127/29的跨盘unit及线性多nonconstant不代盘内高度/注入。
 

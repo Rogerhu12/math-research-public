@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原先 Tate 收缩的全奇列与完整 Serre 对角（已证明，R1179 §14）**：[R1179 §14](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，付全部奇3≤s≤p−2、s≠m₀=(p−1)/2的总p层系数c_s=βE_(s−1)Bp−s/(2sC^(s−1))；不除高Sym阶乘/Euler。真实smoothing恰在m₀失效，principal保留。完整Z_p=T⁻¹∂_U^[3](TU K_p)含principal/16及−βTU^(p−3)/3+βU^(p−2)/6两carry。原高forced行c_sΔc_s=0；低偶R=p−s仍乘(1−B_(p+1−2R)^(p−1))，缺席行及跨次数Fay未删，完整mask共同纤维继续。
+
 - **原最高纯尖点的准确重数与 Cartier 核整基（已证明）**：[R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
 
 - **原 Hahn 两槽共同权重与实际点值桥（已证明，R1194 §9.10）**：[R1194 §9.10](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽现同有限权重c_n：Σu=C_NΣc_na_n、Σut=−C_NΣc_nh_n/12。原e点值比较准确给Σu=(3/2)_N(2/3)_N D_N(1)/[(5/3)_N(7/6)_N]；不对点值身份微分。h的非齐次Gauss与完整伴随付Σch/(n+1)+18Σch/(n+4/3)−30Σch=72Σca，两个shifted moments仍保。第一p极在ℓ=2N+1、ph_ℓ单位，位于原终止三角形外，未插回原w；共同零继续。

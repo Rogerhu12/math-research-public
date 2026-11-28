@@ -1,39 +1,39 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-cuspidal-deck-rank-20261128",
-  "request_id": "r1205-original-cuspidal-deck-rank-20261128",
-  "message": "serre: determine original cuspidal deck rank and integral Cartier-kernel basis",
-  "last_read_rules_commit": "a0234dec6fd1fc405169b6c60063143c4212af10",
+  "source_branch": "serre-astra24-publish-complete-tate-diagonal-20261128",
+  "request_id": "cd14-complete-Tate-contracted-diagonal-20261128",
+  "message": "serre: complete original Tate-contracted Kronecker columns and masked Serre diagonal",
+  "last_read_rules_commit": "3a100631add646f5c1d594310b8715dfb179ba76",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "38965d9107926d4429dc55f824868d9767b7af71",
+  "previous_request_git_blob": "b70e5442552afcdd3fdd16dcf26a811efad25564",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md",
-      "previous_git_blob": null
+      "path": "topics/serre-uniformity/results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md",
+      "previous_git_blob": "d3e67abd3b5a71c18c5b620e398cf200cd00fef1"
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-cuspidal-deck-rank.md",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-complete-Tate-diagonal.md",
       "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "0aee9c978b3be2ee1999668dcbac32e4fe37b54c"
+      "previous_git_blob": "be7ee593a5dc38b740707933c72d62823af89a6f"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "1986df482ab0133598f19814e1032d78fc0332c1"
+      "previous_git_blob": "ebb20a0d99ccf619d75158fd2f062b58c29c2016"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "fba31183d069b27e81b6368b9a11e71ddd848214"
+      "previous_git_blob": "6b8703dd6ca4ce48c9291d6de9d3dad0637e625f"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "0ce82fe10a3c5350bf81010ad94de06cbce3377a"
+      "previous_git_blob": "b18a3c26c8588ed5278447fb272146d9e4d51994"
     }
   ]
 }
