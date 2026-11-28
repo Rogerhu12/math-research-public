@@ -1,0 +1,399 @@
+{
+  "scope": "Actual second chord direction: all ten original backtracks rejected by directly recovered merit lower bounds; next original fresh J started, no full-height acceptance asserted",
+  "observed_utc": "2026-11-28T09:18:33.282349+00:00",
+  "inspector_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/inspect_tail_line_search_records.py",
+    "sha256": "77749efab655ff405afd822a284058231a585dbbf76797660070d3eb083b619a"
+  },
+  "actual_observation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/e-chord-second-direction-observation-20261128-b.json",
+    "sha256": "f76d2a3a86f34828949a3c480be6b58c748ce1cd27acfd92451af39451b80e17"
+  },
+  "actual_trace_snapshot": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/e-chord-second-direction-trace-20261128-b.jsonl",
+    "sha256": "d06aae41156f360d3ebaf8e22e705ce735d646243c281b37620e9305f2c3668c"
+  },
+  "actual_config": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/tail-settings.json",
+    "sha256": "ca6e0f71f5212371701ab78337e3d56fff739bc96f0eebcbcfdf96085464dc23"
+  },
+  "actual_stage_core": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/950f-tail-stage-core.mjs",
+    "sha256": "27a739ff4477e5df0c619d9974406b4654faf7042390298ce6e8d49451df6ebb"
+  },
+  "actual_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/native-manifest.json",
+    "sha256": "ca2331a3b6d586d0dd248bdf30b3714597e143bbf308bb0d457ddadb8735e7eb"
+  },
+  "actual_base_merit": 16689.07937291308,
+  "rows": [
+    {
+      "backtrack": 0,
+      "alpha": 1.0,
+      "native_call": 4,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0004-state-record.json",
+        "sha256": "7f50ede5c9020d7ab834ac60879c5776275116cd0aa75b21605aa199afa4815a"
+      },
+      "status": "complete",
+      "process_wall_seconds": 159.42972974299988,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 44328.13214086916,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 1.3297050152107794,
+        "original_scale": 2.999686544393854e-05,
+        "state": 0.06779302356484318
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0004-state-input.bin",
+        "sha256": "ac79c820aad5d570b32e861ae7ac358da5cd3b9431fa3582442eeb5378190af9"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0004-state-output.bin",
+        "sha256": "cf2b608ec6235d2c4a3981294dae14e2e778383fc8ebe1967db0147a4f3eaa8f"
+      }
+    },
+    {
+      "backtrack": 1,
+      "alpha": 0.5,
+      "native_call": 5,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0005-state-record.json",
+        "sha256": "3f5913e869392836047769db687e0f2a60783935d6a7968f6b31d4887eee46ee"
+      },
+      "status": "complete",
+      "process_wall_seconds": 205.335824395,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 26719.869943688245,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.8015123433803539,
+        "original_scale": 2.999686544393854e-05,
+        "state": -0.5304680609955663
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0005-state-input.bin",
+        "sha256": "e8688551ed2e2eafa05bd4684e754933928261c85219b36c13feb4286cec6667"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0005-state-output.bin",
+        "sha256": "222463c5a3e000f686511396c66d83b5d2bdf35d26b4c9360751f2b4d1ccc2df"
+      }
+    },
+    {
+      "backtrack": 2,
+      "alpha": 0.25,
+      "native_call": 6,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0006-state-record.json",
+        "sha256": "3a626ad429736b101a59af55a349b1864652aa75aefd6f491ee2baf97588100a"
+      },
+      "status": "complete",
+      "process_wall_seconds": 215.24964997900022,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 20757.072428780582,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.6226471086562178,
+        "original_scale": 2.999686544393854e-05,
+        "state": -0.8295986032757711
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0006-state-input.bin",
+        "sha256": "b08de961b97edffc21208fb4b80c683aaebed029226bf972c2b96ff8aa11319c"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0006-state-output.bin",
+        "sha256": "e986bcfeecdd370bb40a68291808883a345836bd7fb3994fd30ee55edc21ccdd"
+      }
+    },
+    {
+      "backtrack": 3,
+      "alpha": 0.125,
+      "native_call": 7,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0007-state-record.json",
+        "sha256": "22484ea670b7d29a88ca7f90b3216b530061f5f2f71a4fe3c407fbe3233a055e"
+      },
+      "status": "complete",
+      "process_wall_seconds": 211.37851682000002,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 18486.198069358656,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.554527996056548,
+        "original_scale": 2.999686544393854e-05,
+        "state": -0.9791638744158735
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0007-state-input.bin",
+        "sha256": "541208848f9166e2367762dc4ee702eb18b0f592cedeec5ed8b06494a02ff261"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0007-state-output.bin",
+        "sha256": "57c806bc42dffff3787a5d7ce2bab7d4400181147fc02616d9ddcb93bd1ee39c"
+      }
+    },
+    {
+      "backtrack": 4,
+      "alpha": 0.0625,
+      "native_call": 8,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0008-state-record.json",
+        "sha256": "02c268861c82d4c2f3797efd1165c0fc8c05f976836cca5e2b5f0dda2baf2ee3"
+      },
+      "status": "complete",
+      "process_wall_seconds": 204.035709794,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 17528.415854664723,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.5257975318377767,
+        "original_scale": 2.999686544393854e-05,
+        "state": -1.0539465099859247
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0008-state-input.bin",
+        "sha256": "a8fcb4242f457fbb6d9fb5412b06f18d2f0b62cf8aa888644ba44cb0bf5acb35"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0008-state-output.bin",
+        "sha256": "f85d67f2a66db3d0234ac7d1e1a7985a65702b94a70bf86d509ced2f244cbd0a"
+      }
+    },
+    {
+      "backtrack": 5,
+      "alpha": 0.03125,
+      "native_call": 9,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0009-state-record.json",
+        "sha256": "a94cf43883d40d317ecca12c488dc69d7f21c753821169b4d3c8d96143eaefc5"
+      },
+      "status": "complete",
+      "process_wall_seconds": 187.40176774900033,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 17093.941471138172,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.5127646622162926,
+        "original_scale": 2.999686544393854e-05,
+        "state": -1.0913378277709502
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0009-state-input.bin",
+        "sha256": "a1d77c5ec2a817c6826f2b65b2c165b0903930cd0fe3bf1e06dd0a2187ae05cf"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0009-state-output.bin",
+        "sha256": "5d41a68ddc6ac477ffb4ed0e162ecbb554ea761686940fbbbc2d4ded9c7a2c7e"
+      }
+    },
+    {
+      "backtrack": 6,
+      "alpha": 0.015625,
+      "native_call": 10,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0010-state-record.json",
+        "sha256": "3541099b5328833423620677000b7df2c407328dd6a9277151aede1ee237e286"
+      },
+      "status": "complete",
+      "process_wall_seconds": 194.38941034199996,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 16887.808833111456,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.5065813292098011,
+        "original_scale": 2.999686544393854e-05,
+        "state": -1.110033486663463
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0010-state-input.bin",
+        "sha256": "691cadfe894ebe4373b3a1f422c57135046016791f41caffba4d8eb650702134"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0010-state-output.bin",
+        "sha256": "ae950ea6bf71fad8ed0a9bce564cfcebfe102e60f22ffe8a6e13d3142f0f2cbc"
+      }
+    },
+    {
+      "backtrack": 7,
+      "alpha": 0.0078125,
+      "native_call": 11,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0011-state-record.json",
+        "sha256": "1497ab62d1dd3f94090aa38e1d4cdee80ab7cd34183af9f2040eb424ba4e59bf"
+      },
+      "status": "complete",
+      "process_wall_seconds": 200.8206371820001,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 16787.51869912749,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.5035729395553294,
+        "original_scale": 2.999686544393854e-05,
+        "state": -1.1193813161097195
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0011-state-input.bin",
+        "sha256": "6bcf72266b8d2aad0a8bb4aa1703f1eb51195c2d89428654d86016b2b32710b4"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0011-state-output.bin",
+        "sha256": "eda01e2582db803939845ba5e5fa1c8655155bd90a22e91a42993e31e64dbd70"
+      }
+    },
+    {
+      "backtrack": 8,
+      "alpha": 0.00390625,
+      "native_call": 12,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0012-state-record.json",
+        "sha256": "4aa22a5a745cbf8f5e93cbb0753847dc7453c5dc8bc484cf824463c13b9764e8"
+      },
+      "status": "complete",
+      "process_wall_seconds": 302.08888760699983,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 16738.067684217025,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.5020895641149941,
+        "original_scale": 2.999686544393854e-05,
+        "state": -1.1240552308328475
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0012-state-input.bin",
+        "sha256": "d4d0349cf226c4ac20dbe9f095c360a561b892c45031889513e1b3a9cf997513"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0012-state-output.bin",
+        "sha256": "004f8435120fd4f486c15b9770339934e37c68605d5beabcf6d9ca62cef6322d"
+      }
+    },
+    {
+      "backtrack": 9,
+      "alpha": 0.001953125,
+      "native_call": 13,
+      "actual_record_returned": true,
+      "native_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0013-state-record.json",
+        "sha256": "db0a213e910fb3a0140885a57fd51532e7ade0d62f617822a27db41d76075aef"
+      },
+      "status": "complete",
+      "process_wall_seconds": 290.49709289099974,
+      "complete_residual_lower_bound_available": true,
+      "original_discrete_merit_lower_bound": 16713.515690510252,
+      "maximizing_available_component": {
+        "kind": "interior",
+        "stage": 86,
+        "component": 31,
+        "variable": "Pi",
+        "harmonic": 24,
+        "signed_absolute_residual": 0.5013530812633916,
+        "original_scale": 2.999686544393854e-05,
+        "state": -1.1263921881944117
+      },
+      "lower_bound_alone_rules_out_original_merit_decrease": true,
+      "native_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0013-state-input.bin",
+        "sha256": "6c0cd6f0fae2b88505896cb6fb5f6b734b9d7af8895fa58285a7e95f1e341138"
+      },
+      "native_output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0013-state-output.bin",
+        "sha256": "44d65924aa3f6e0880bd692f24ad8b6594ae78786babaff7e62b46e6b43467b5"
+      }
+    }
+  ],
+  "total_state_native_wall_seconds": 2170.627226502,
+  "all_ten_actual_records_complete": true,
+  "all_ten_merit_lower_bounds_exceed_base": true,
+  "full_global_trial_merit_claimed": false,
+  "node0_not_in_native_inputs": true,
+  "refresh": {
+    "actual_input": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0014-jac-input.bin",
+      "sha256": "61d4387613628e8e63ed81beede7a004c25ff97afb3d3d390a1838078829deb0"
+    },
+    "last_accepted_trial_native_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0003-state-record.json",
+      "sha256": "f7cb948b4e69b40f1760fd02c2590d8f993460dd35c69c6b2f3a97fd5c21b11c"
+    },
+    "all_node1_through_1152_states_identical": true,
+    "compared_state_components": 55296,
+    "fresh_J_returned_at_observation": false,
+    "fullH_returned_at_observation": false
+  },
+  "original_rules": {
+    "maximum_backtracks": 10,
+    "alpha": "2**(-k), k=0..9",
+    "acceptance": "test.norm < ev.norm",
+    "cached_J_search_rejection": "Consumes this iteration; clear cachedJ and pending, then next iteration evaluates fresh J",
+    "fresh_J_search_rejection": "Throws multiple-shooting line search failed",
+    "original_iteration_budget_unchanged": 36,
+    "chordMaxCorrections_allowed": [
+      2,
+      3
+    ],
+    "chordMaxCorrections_1_supported": false,
+    "original_every_step_fresh_J_entry": "Omit chordMaxCorrections; existing original solveOriginal is selected"
+  },
+  "main_run_interrupted": false,
+  "production_source_changed": false,
+  "new_native_solve_for_observation": false,
+  "decision_on_future_independent_retry_not_implemented": true,
+  "complete_surface": false
+}
