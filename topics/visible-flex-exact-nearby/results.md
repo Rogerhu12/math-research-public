@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RPH1：真实根片完整标签H1](results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md)：原root holomorphic完整majorant推出真实根片|P−phi|<1/4000000、|Pphi−1|≤1/93750、归一化angle H1<1/90000；原root零值和完整真实短片保，不延拓到未付严格全域。
+
 - [GSV：193原方向包络下的真实全格有符号射线速度](results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md)：176原whole/10624293B、169germ/626scalar格/220compact模型，全193原方向坐标含mean；用gamma_delta q_delta=gamma sqrt(q²−delta T w′)保小差，全signed mode卷积。只对名义cubic求r导，真实速度扰动仅按whole值传播；无BLAS数组依赖。
 
 - [RRM：正权正则矩与完整圆周残差传播](results/R149-supplement-regularized-action-moments-and-full-circle-phase-residual.md)：完整相位C0..9的上三角正残差传播、阻尼A/k矩及真实seam费用逐式成立；保共同gap/完整角格/实际零频，A2七角所需label10不由原GCS9冒领；尚无全域测量。

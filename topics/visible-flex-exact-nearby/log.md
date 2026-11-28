@@ -341,3 +341,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 10:16:28 UTC / visible-exact-astra-b0d5a16-20261128：GSV。176原whole/10624293B、169germ/626scalar格/220compact模型，全193原方向坐标含mean；用gamma_delta q_delta=gamma sqrt(q²−delta T w′)保小差，全signed mode卷积。只对名义cubic求r导，真实速度扰动仅按whole值传播；无BLAS数组依赖。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md","bytes":5449,"sha256":"ccae8ce0b69bb4ac54659b74ee56dcb4ede4666249e7e6b3fb1367e6838de522"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py","bytes":5672,"sha256":"474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_signed_speed.py","bytes":7413,"sha256":"3417006b5630e992a7c824c9bc51f4c59351c0bc06e25e12986cb42fbc38029d"}]。
+
+
+2026-11-28 10:16:37 UTC / visible-exact-astra-b0d5a16-20261128：RPH1。原root holomorphic完整majorant推出真实根片|P−phi|<1/4000000、|Pphi−1|≤1/93750、归一化angle H1<1/90000；原root零值和完整真实短片保，不延拓到未付严格全域。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md","bytes":2809,"sha256":"7b71709859aff2352e1fa867c497f70e8aef7df604049af3bf661e1c292e7c78"}]。
