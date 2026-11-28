@@ -377,3 +377,131 @@ $$
 3. [R1011](R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md) 支付同一个原 $C,F_0,\beta$、半秩及指定点解析子群输入；[R682](R682-common-CM-Abel-order-and-saturated-QC-jets.md) 的一般 Clifford 阶数论证仅按本篇实际维数使用。没有搬用 R682 另一 CM/GL2 型商的条件性非消失前提。
 
 本篇的平衡交错型、几何半稳定的有理超平面下降、有限 Hensel 缩盘证书和全部尾项比较均在正文给出证明。没有执行数学程序，没有重算旧有限窗口。
+
+## 9. 同一 MW 泛函的本原整化与预先确定的计算精度
+
+本节把前文的首项上界进一步用于原对象本身：不只知道一个有效但可能很深的半径，还能以事先给定的有限精度，确定本篇实际泛函的本原整化尺度及首项的准确赋值。这里描述有限算法并证明其停止精度；没有执行数学计算。
+
+沿用原 $L$ 基、$u=\log_q\beta'$、$\Omega$、$U_m$、$E_m$ 和整数 $\mathcal B$。令
+
+$$
+\lambda_i=\Omega(u,L_i),\qquad
+h_\lambda=\min_i v_q(\lambda_i).
+\tag{1182.33}
+$$
+
+$u\ne0$ 且 $\Omega$ 非退化，故 $h_\lambda$ 有限；由整性 $h_\lambda\ge0$。因为 $mU_m\in\Lambda$，有
+
+$$
+v_q(a_m)\ge h_\lambda-v_q(m).
+$$
+
+结合 (1182.27)，得到一个不含未知对数赋值的预先精度界
+
+$$
+\boxed{\quad
+0\le h_\lambda<\mathcal N:=\mathcal B+v_q(m).
+\quad}
+\tag{1182.34}
+$$
+
+因此只需读 $u$ 模 $q^{\mathcal N}\Lambda$，就能从非全零的向量 $(\lambda_i\bmod q^{\mathcal N})$ 确定 $h_\lambda$。同时
+
+$$
+E_m a_m=\sum_i c_i u_i\not\equiv0\pmod{q^{\mathcal B}}
+\tag{1182.35}
+$$
+
+的精确赋值也已确定；减去已知 $v_q(E_m)$ 就得到 $v_q(a_m)$。
+
+### 9.1 有限形式对数确实达到这个精度
+
+在所选 Néron 单位 chart 中，令 $T=(T_1,\ldots,T_n)$ 为形式坐标。将整不变微分沿径向线积分，得到
+
+$$
+\log_q(T)=\sum_{r\ge1}\frac{P_r(T)}{r},
+\qquad P_r\in\Lambda\otimes_{\mathbf Z_q}\mathbf Z_q[T_1,\ldots,T_n],
+\qquad P_r\text{ 齐次次数 }r.
+\tag{1182.36}
+$$
+
+这不是关于任意形式群坐标系数的估计：$P_r$ 正是实际整不变微分矩阵的第 $r-1$ 次齐次部分与 $T$ 相乘之和。径向积分给出的原点值为零，其导数为原不变微分，因此就是同一个形式群对数。
+
+$\beta'$ 的坐标属于 $q\mathbf Z_q^n$。对 $r\ge1$，有 $v_q(r)\le r/2$：若 $v_q(r)=d>0$，则 $r\ge q^d\ge3^d\ge2d$；$d=0$ 时显然。于是
+
+$$
+v_q\left(\frac{P_r(T(\beta'))}{r}\right)
+\ge r-v_q(r)\ge r/2.
+\tag{1182.37}
+$$
+
+全部 $r>2\mathcal N$ 的项属于 $q^{\mathcal N+1}\Lambda$。故有限表达式
+
+$$
+\sum_{1\le r\le2\mathcal N}
+\frac{P_r(T(\beta'))}{r}
+\pmod{q^{\mathcal N}\Lambda}
+\tag{1182.38}
+$$
+
+已经精确给出所需的 $u$。$\beta'$ 是原有理点的有限整数倍；其 chart 值及有限个 $P_r$ 均由给定代数群律和整微分作有限运算得到。不需要先知道一个未知的 $q$-adic 调节子，也不以“不断加精度直到非零”替代停止界。
+
+### 9.2 本原泛函与较短的实际全盘
+
+定义完整而非截断的泛函
+
+$$
+\lambda_0=q^{-h_\lambda}\lambda_{\beta'},\qquad
+F^{\rm prim}(z)=q^{-h_\lambda}F(z),\qquad
+e_m=v_q(a_m)-h_\lambda.
+\tag{1182.39}
+$$
+
+$\lambda_0\in\Lambda^*$ 本原，仍精确杀掉同一 Mordell–Weil 对数空间。有限计算 (1182.38) 只用来确定 $h_\lambda,e_m$，没有把精确消去函数替换成截断泛函。由 (1182.13)，
+
+$$
+v_q([z^r]F^{\rm prim})\ge-v_q(r),\qquad
+v_q([z^m]F^{\rm prim})=e_m.
+\tag{1182.40}
+$$
+
+因此以准确首项赋值替代粗高度上界可取
+
+$$
+H_q^{\rm prim}=\ell_q(m)+\max\{0,e_m\}+1.
+\tag{1182.41}
+$$
+
+对 $0\ne z$、$v_q(z)\ge H_q^{\rm prim}$，(1182.32) 的同一全尾比较给 $F^{\rm prim}(z)\ne0$。原分支中
+
+$$
+v_q(b-1)\ge a+H_q^{\rm prim}
+\tag{1182.42}
+$$
+
+的有理点只有 $c_1$。若此半径不优于 (1182.30)，可直接使用前者，二者均由完整尾界证明。
+
+一个常用的严格改进是：若实际有理 jet 已给 $m\le q-2$，则 $e_m\ge0$，并可取
+
+$$
+\boxed{\quad H_q^{\rm prim}=e_m+1.\quad}
+\tag{1182.43}
+$$
+
+证明：$m<q$ 使 $U_m\in\Lambda$，所以 $e_m\ge0$。对所有 $k\ge1$，由 $m\le q-2$ 得 $q^k>m+k$，从而 $v_q(m+k)\le k-1$。在 $v_q(z)\ge e_m+1$ 时，高次项相对首项的赋值差至少为
+
+$$
+k(e_m+1)-v_q(m+k)-e_m
+\ge(k-1)e_m+1>0.
+\tag{1182.44}
+$$
+
+特别，若另已证明原 $m=1$ 且 $e_m=0$，整 $q$-盘即被排除；本篇未证明这两项对全部原 $p$ 成立。
+
+### 9.3 哪些尺度被消掉
+
+将辅助倍数 $\beta'$ 再乘任意非零有理整数，或将 $\Omega$ 乘任意非零有理标量，都会使 $a_m$ 与全部 $\lambda_i$ 同比缩放。因此 $e_m=v_q(a_m)-h_\lambda$ 不变；$\lambda_0$ 仅改变一个 $\mathbf Z_q^\times$ 倍数，零集及 (1182.41)–(1182.43) 不变。
+
+这只消除了为了进入形式邻域及整化交错型而引入的辅助标量。若把原商映射改成 $kq_C$，它还同时改变 Abel 列 $U(z)$；更一般的非标量同源也会改变实际整格。那些成本仍须在原模型与 $U_m$ 中保留，不能据本节宣称它们全部消失。
+
+本节没有把 R1036 的某个指定交错测试自动认作本原或非零。这里的 $\lambda_0$ 是 (1182.15)–(1182.20) 明确构造的同一原 $C,\beta$ 泛函，它的非零性、预先精度和完整尾界已经分别证明。
