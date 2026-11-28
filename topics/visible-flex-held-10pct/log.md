@@ -114,3 +114,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:55 UTC｜Astra-held10-7c4e33ee-20261128：[缓存native完整方向五真段](notes/2026-11-28-tail-cached-native-directions-actual.md)中原fullJ/state与production字节同；80位缓存复用不再root。单方向逐项尺度差≤2.53e−18；18色/单位列部分极小交叉项严格相对门失败，首次exit1及all_strict=false完整保留。当前M16的18色+60matvec未有整求解提速实证，生产链不变。
 
 - 2026-11-28 08:55 UTC｜Astra-held10-7c4e33ee-20261128：复核[旧v5原加性δ入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)，H的旧链标题改为warm/phase并明确v2–v4固定δ、v5 fixed=False释放δ设计；避免把设计返回误作同g精化。旧.003/.0025失败与接受锚不变，不重新跑已登记低λ输入。
+
+- 2026-11-28 08:58 UTC｜Astra-held10-7c4e33ee-20261128：[.096/M40实际进程−9及屏障](notes/2026-11-28-design-lambda096-process-interruption-and-barrier.json)已核15个来源/输入hash。无raw/physical/audit，最后第一mesh打印RMS1.04e−6、BC7.00e−11不作验收；oom计数3→5无PID归因。父控制器session20668真实exit1，后继初猜在预设EEXIST屏障前停止，所有设计大J释放；analytic同一prepared M32进程已原子开gate续算，未重做初猜。下一设计真.032/.064→.128，不把资源终止当数学二分依据。
