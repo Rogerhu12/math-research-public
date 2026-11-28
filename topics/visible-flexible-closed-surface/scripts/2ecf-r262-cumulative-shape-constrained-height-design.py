@@ -1,0 +1,402 @@
+#!/usr/bin/env python3
+"""Continue the true R262 central material curve to a complete true-arc sleeve while retaining every original ring and redistributing axial height."""
+import argparse,gc,gzip,hashlib,importlib.util,json,os,sys
+from pathlib import Path
+for key in ('OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','OMP_NUM_THREADS'):
+    os.environ[key]='1'
+import numpy as np
+from scipy.interpolate import BSpline
+from scipy.sparse.linalg import LinearOperator,lsmr
+
+def module(path,name):
+    s=importlib.util.spec_from_file_location(name,path)
+    m=importlib.util.module_from_spec(s);sys.modules[name]=m;s.loader.exec_module(m);return m
+
+def digest(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+def smooth(v):
+    return v**3*(10-15*v+6*v*v)
+
+def step(q,left,right):
+    w=right-left
+    v=np.clip((q-left)/w,0,1)
+    return [smooth(v),30*v*v*(1-v)**2/w,60*v*(1-v)*(1-2*v)/w**2]
+
+def physical_knots(c,width,S,n):
+    # Positions are corrected on the entire old prefix [0,S], after the new cylinder.
+    return np.r_[np.zeros(5),np.linspace(0,S,n+1),np.full(5,S)]
+
+def Bvals(q,kn):
+    n=len(kn)-6
+    b=BSpline(kn,np.eye(n)[:,3:-3],5,extrapolate=False)
+    use=(q>=kn[0])&(q<=kn[-1])
+    result=[]
+    for j in range(3):
+        v=np.zeros((len(q),n-6))
+        v[use]=b(q[use],j)
+        result.append(v)
+    return result
+
+def xyz(z):
+    return np.stack((np.real(z),np.imag(z),np.zeros_like(np.real(z))),axis=-1)
+
+def true_arc_position(geo,u,anchor):
+    """True centered target, using closed circular arcs and a short nonconstant turn."""
+    # The continuous definition is the integral of i exp(i beta); all positions
+    # and derivatives below refer to that same integral and the same beta.
+    nodes,weights=np.polynomial.legendre.leggauss(100)
+    a=geo.L0/2
+    end=a+geo.TAU
+    half=geo.P/2
+    def circle(k,length):
+        return np.expm1(1j*k*length)/k
+    def transition(length):
+        length=np.asarray(length)
+        t=length[...,None]*(1+nodes)/2
+        angle=geo.target_angle(a+t,0.)[0]-geo.LOW*a
+        return 1j*np.exp(1j*geo.LOW*a)*length/2*(np.exp(1j*angle)@weights)
+    t1=circle(geo.LOW,a)
+    t2=t1+transition(geo.TAU)
+    b2=geo.target_angle(np.array([end]),0.)[0][0]
+    def from_low(v):
+        v=np.asarray(v)
+        return (circle(geo.LOW,np.minimum(v,a))+
+                transition(np.clip(v-a,0,geo.TAU))+
+                np.exp(1j*b2)*circle(geo.HIGH,np.maximum(v-end,0)))
+    half_end=t2+np.exp(1j*b2)*circle(geo.HIGH,half-end)
+    A=half_end.imag/np.tan(half)-half_end.real
+    t=np.asarray(u)+anchor
+    sector=np.floor((t+half)/geo.P).astype(int)
+    v=t-sector*geo.P
+    b=A+from_low(abs(v))
+    return np.exp(1j*(sector*geo.P-anchor))*np.where(v<0,b.conjugate(),b)
+
+def central_delta(src,geo,orig,theta,lam,anchor):
+    if lam!=1.:
+        raise ValueError('This physical source requires the full-amplitude circular-arc inlet')
+    u=src.center.arc(theta)
+    p,v,a=[np.asarray(src.center.base.derivative(theta,k),float) for k in range(3)]
+    y=v[:,0]+1j*v[:,1]
+    acc=a[:,0]+1j*a[:,1]
+    speed=np.abs(y)
+    if not np.all(speed>0):
+        raise ValueError('Original arclength map is singular')
+    u2=np.real(y.conjugate()*acc)/speed
+    beta,curvature=geo.target_angle(u,anchor)
+    normal=np.exp(1j*beta)
+    tangent=1j*normal
+    center=xyz(true_arc_position(geo,u,anchor))
+    center1=xyz(tangent*speed)
+    center2=xyz(-curvature*normal*speed**2+tangent*u2)
+    original=np.stack((p,v,a))
+    return original,np.stack((center,center1,center2))-original,speed
+
+def normalized_drop(s,stop,w):
+    # Positive C2 trapezoidal velocity; the total vertical drop is normalized to one.
+    if not 2*w<stop:raise ValueError('Drop shoulders overlap')
+    j=np.asarray(s);h=stop-w
+    v=np.clip(j/w,0,1);z=np.clip((stop-j)/w,0,1)
+    I=lambda t:t**4*(2.5-3*t+t*t)
+    D=lambda t:30*t*t*(1-t)**2
+    J=np.where(j<w,w*I(v),np.where(j<stop-w,j-w/2,np.where(j<stop,h-w*I(z),h)))/h
+    J1=np.where(j<w,smooth(v),np.where(j<stop-w,1.,np.where(j<stop,smooth(z),0.)))/h
+    J2=np.where(j<w,D(v),np.where(j<stop-w,0.,np.where(j<stop,-D(z),0.)))/(w*h)
+    return J,J1,J2
+
+def design_drop(src,geo,a):
+    from fractions import Fraction
+    from scipy.optimize import linprog
+    from scipy.sparse import csr_matrix,vstack
+    H=a.height_drop_end;c=a.full_sleeve;S=src.S;n=a.drop_spans
+    kn=np.r_[np.zeros(5),np.linspace(0,H,n+1),np.full(5,H)]
+    mk=physical_knots(0.,0.,S,a.spans)
+    s=np.unique(np.r_[np.linspace(0,S,a.radial+1),np.linspace(0,H,2*n+1),np.unique(mk),a.lift_end,H])
+    angle,old,rho=src.prefix(s/S,a.angles,False)
+    old=np.asarray(old,float);rho=np.asarray(rho,float)
+    _,diff,_=central_delta(src,geo,None,angle,1.,a.anchor)
+    h,h1,_=step(s,0,a.lift_end)
+    v=old[:,1]-h1[:,None,None]*diff[0][None]
+    u=old[:,2]+(1-h)[:,None,None]*diff[1][None]
+    E=np.sum(v*v,axis=-1);F=np.sum(v*u,axis=-1)/rho;G=np.sum(u*u,axis=-1)/rho**2
+    tz=u[:,:,2]/rho
+    vz=v[:,:,2]
+    phi=c*normalized_drop(s,H,a.full_gate)[1]
+    EE=E-2*phi[:,None]*vz+phi[:,None]**2
+    refE=np.maximum(.035,.5*(EE.max(axis=1)+EE.min(axis=1)))
+    refG=np.maximum(.15,.5*(G.max(axis=1)+G.min(axis=1)))
+    V=Bvals(s,kn)[0];B=Bvals(s,mk)[0]
+    nv=V.shape[1];nb=B.shape[1];size=nv+2*nb+1
+    rows=[];rhs=[]
+    # The source is D3-symmetric; including every angle here is simpler
+    # and also makes this design applicable to general angular corrections.
+    # Iterate per s to keep the largest build arrays small.
+    alpha=np.arange(a.rayleigh)*np.pi/a.rayleigh
+    for j in range(len(s)):
+        cs=np.cos(alpha)/np.sqrt(refE[j]);ss=np.sin(alpha)/np.sqrt(refG[j])
+        A=cs**2;C=ss**2;D=2*cs*ss
+        const=(E[j,:,None]-1)*A+F[j,:,None]*D+(G[j,:,None]-1)*C
+        coef=-2*vz[j,:,None]*A-tz[j,:,None]*D
+        NN=len(angle)*len(alpha)
+        M=np.zeros((NN,size))
+        M[:,:nv]=coef.reshape(-1,1)*V[j]
+        M[:,nv:nv+nb]=-np.tile(A,len(angle))[:,None]*B[j]
+        M[:,nv+nb:-1]=-np.tile(C,len(angle))[:,None]*B[j]
+        # Due to exact reflection/threefold and the full set of signed
+        # Rayleigh directions, duplicate sectors may be omitted when the
+        # grid hits its sextants. Preserve all angles for other grid sizes.
+        if len(angle)%6==0:
+            limit=(len(angle)//6+1)*len(alpha);M=M[:limit];const=const[:len(angle)//6+1]
+        plus=M.copy();minus=-M
+        plus[:,-1]=-1.;minus[:,-1]=-1.
+        rows.extend((csr_matrix(plus),csr_matrix(minus)))
+        rhs.extend((-const.ravel(),const.ravel()))
+    # An exact formula for the integral of a normalized B-spline.
+    integral=(kn[6:]-kn[:-6])[3:-3]/6
+    eq=np.zeros((1,size));eq[0,:nv]=integral
+    additional=np.zeros((len(s),size));additional[:,:nv]=V
+    rows.append(csr_matrix(additional))
+    rhs.append(np.maximum(0.,vz.min(axis=1)-.025))
+    # The integrated velocity is linear in the raw coefficients. Local R312
+    # cylindrical radius is immutable during this design. Intersect the two
+    # actual height ceilings over every material angle on each physical ring.
+    prim_basis=BSpline(kn,np.eye(len(kn)-6)[:,3:-3],5).antiderivative()
+    integrals=prim_basis(np.clip(s,0,H))-prim_basis(0.)
+    radius=np.linalg.norm((old[:,0]+(1-h)[:,None,None]*diff[0][None])[:,:,:2],axis=-1)
+    D,Rp,Ra=shape_limits(a.low)
+    if radius.max()>=Rp:
+        print("R312_RADIUS_PRE_XYZ",float(radius.max()),Rp,flush=True)
+    ball=(D/2-a.shape_margin)**2-radius**2
+    mixed=(D-a.shape_margin)**2-(Ra+radius)**2
+    if np.any(ball<=0) or np.any(mixed<=0):
+        raise ValueError("The original radius exceeds a height-ceiling domain")
+    upper=np.minimum(np.sqrt(ball),np.sqrt(mixed)-.233)
+    z0=old[:,0,:,2]+c
+    drop_min=np.max(z0-upper,axis=1)
+    drop_max=np.min(z0-.350,axis=1)
+    height_rows=np.zeros((len(s),size));height_rows[:,:nv]=integrals
+    rows.extend((csr_matrix(-height_rows),csr_matrix(height_rows)))
+    rhs.extend((-drop_min,drop_max))
+    # Optional convex derivative bounds on the complete velocity B-spline.
+    # For a quintic spline the quartic derivative controls are exact first differences.
+    if a.drop_acceleration>0:
+        ext=np.pad(np.eye(nv),((3,3),(0,0)))
+        deriv=5*(ext[1:]-ext[:-1])/(kn[6:-1]-kn[1:-6])[:,None]
+        bound=np.zeros((len(deriv),size));bound[:,:nv]=deriv
+        rows.extend((csr_matrix(bound),csr_matrix(-bound)))
+        rhs.extend((np.full(len(deriv),a.drop_acceleration),np.full(len(deriv),a.drop_acceleration)))
+    goal=np.zeros(size);goal[-1]=1.
+    opt=linprog(goal,A_ub=vstack(rows,format='csr'),b_ub=np.concatenate(rhs),A_eq=eq,b_eq=[c],
+                bounds=[(0,a.maximum_drop)]*nv+[(-.98,3.)]*nb+[(-.98,3.)]*nb+[(0,None)],method='highs')
+    if not opt.success:raise RuntimeError('Full height drop affine design failed: '+opt.message)
+    raw=opt.x[:nv].copy()
+    exact=sum(Fraction(float(vv))*(Fraction(float(kn[i+9]))-Fraction(float(kn[i+3])))/6 for i,vv in enumerate(raw))
+    if exact<=0:raise ValueError('Nonpositive exact total')
+    scale=Fraction(float(c))/exact
+    # The mathematical velocity is the exact rational scale times the exact
+    # binary64 raw B-spline, so its integral is exactly c. Floating scaling
+    # and endpoint replacement below are numerical evaluations of this same
+    # continuous primitive, not a separate discontinuous geometric definition.
+    control=np.pad(raw,(3,3))*float(scale)
+    vsp=BSpline(kn,control,5,extrapolate=False);prim=vsp.antiderivative()
+    def function(t):
+        s0=np.clip(t,0.,H)
+        val=prim(s0)-prim(0.)
+        val=np.where(t>=H,c,np.where(t<=0.,0.,val))
+        return val/c,vsp(s0)/c,vsp(s0,1)/c
+    a.drop=function;a.lpMetricQ=opt.x[nv:nv+nb];a.lpMetricW=opt.x[nv+nb:-1]
+    a.dropKn=kn;a.dropRaw=raw
+    return dict(actualR312LPHeightLowerMargin=float(np.min(integrals@control[3:-3]-drop_min)),
+                actualR312LPHeightUpperMargin=float(np.min(drop_max-integrals@control[3:-3])),
+                zBudgetMargin=a.shape_margin,absoluteDropAccelerationBound=a.drop_acceleration,
+                trueRawIntegral=str(exact),trueVelocityScale=str(scale),requiredTotalDrop=c,
+            selectedShoulderKnotCount=n,nonnegativeRawVelocityUpper=float(raw.max()),
+            relativeReferenceScales='midrange E,G of the trapezoid, used only inside affine Rayleigh design',
+            angularNodes=len(angle),radialRows=len(s),realSignedDirections=2*a.rayleigh,
+            normalizedRayleighLinearMinimax=float(opt.fun),maximumActualDropSpeed=float(control.max()),
+            maximumAngularSpreadOldZs=float(np.ptp(vz,axis=1).max()),
+            maximumMaterialNormalizedAngularZ=float(np.abs(tz).max()))
+
+def geometry(src,geo,orig,a,nrad,nang,shift):
+    # The old material interval s in [0,S] is kept in its entirety. On the
+    # complete new surface the physical radial material coordinate is c+s.
+    c=a.full_sleeve;w=a.full_gate;H=a.height_drop_end;X=a.lift_end
+    if not 0<2*w<H<src.S or not 0<X<src.S:raise ValueError('Require both transitions before the original end')
+    s=np.unique(np.r_[np.linspace(0,src.S,nrad+1),src.S*(np.arange(nrad)+(.687 if shift else .267))/nrad,
+               np.linspace(0,w,9),np.linspace(H-w,H,9),np.linspace(0,src.S,a.spans+1),X,H,w,H-w])
+    theta,old,rr=src.prefix(s/src.S,nang,shift)
+    old=np.asarray(old,float);rr=np.asarray(rr,float)
+    refprev=old.copy()
+    if 2*a.modes>=nang:raise ValueError('Angular correction touches Nyquist')
+    ori,diff,sp=central_delta(src,geo,orig,theta,1.,a.anchor)
+    h=step(s,0,X);h=[1-h[0],-h[1],-h[2]]
+    j,j1,j2=a.drop(s)
+    lift=c*(1-j);lift1=-c*j1;lift2=-c*j2
+    for index,(r,v) in enumerate(src.base.O):
+        old[:,index]+=h[r][:,None,None]*diff[v][None]
+        if v==0:old[:,index,:,2]+=(lift,lift1,lift2)[r][:,None]
+    return s,theta,old,rr,refprev,rr,0.,w
+
+def make_grid(micro,src,geo,orig,a,nrad,nang,shift,metric=None):
+    q,theta,base,rho,old,rr,c,d=geometry(src,geo,orig,a,nrad,nang,shift)
+    G=micro.Grid.__new__(micro.Grid)
+    G.source=src;G.spans=a.spans;G.m=a.modes;G.n=nang;G.na=3*G.m+2
+    G.t=q/src.S;G.u=theta;G.offset=float(theta[0]);G.base=base;G.rho=rho
+    G.kn=physical_knots(c,d,src.S,a.spans)
+    G.B=Bvals(q,G.kn)
+    G.nb=G.B[0].shape[1];G.shape=(G.nb,G.na);G.nx=G.nb*G.na
+    G.metric=metric;G.eta=a.lam
+    if metric is not None:G.M=Bvals(q,np.asarray(metric['knots']))[0]
+    G.nvar=G.nx+(2*G.nb if metric is None else 0)
+    def objective(x,power):
+        J,Q,W,lo=G.jets(x,False)
+        if lo<=0:return np.inf,np.inf
+        err=micro.gram(J,Q,W,G.rho)[1]
+        return float(np.mean(err**power)**(1/power)),float(err.max())
+    G.objective=objective
+    def unpack(x):
+        X=x[:G.nx].reshape(G.shape)
+        if metric is None:aq=x[G.nx:G.nx+G.nb];aw=x[G.nx+G.nb:];M=G.B[0]
+        else:aq=np.asarray(metric['q']);aw=np.asarray(metric['w']);M=G.M
+        v=a.full_sleeve*a.drop(q)[1]
+        Q=1+M@aq+v**2
+        W=1+M@aw
+        lo=min(1.,float(1+np.min(aq)),float(1+np.min(aw)))
+        return X,Q[:,None],W[:,None],lo
+    G.unpack=unpack
+    residual,err,_=micro.gram(old,1.,1.,rr)
+    baseline=dict(peak=float(err.max()),curvature=float(micro.curvature(old)[0].max()))
+    lens=[]
+    for r in (0.,d,a.height_drop_end-d,a.lift_end,a.height_drop_end,src.S):
+        i=np.argmin(abs(q-r));j=base[i]
+        lens.append(dict(s=float(q[i]),newMaterialQ=float(a.full_sleeve+q[i]),oldHeight=[float(old[i,0,:,2].min()),float(old[i,0,:,2].max())],newHeight=[float(j[0,:,2].min()),float(j[0,:,2].max())],oldHorizontalDistanceToUnitSleeve=float(np.linalg.norm(old[i,0,:,:2]-base[0,0,:,:2],axis=-1).max()),oldAxialAcceleration=float(np.linalg.norm(old[i,3],axis=-1).max()),newZqRange=[float(j[1,:,2].min()),float(j[1,:,2].max())]))
+    baseline["changedSourceZqRange"]=[float(base[:,1,:,2].min()),float(base[:,1,:,2].max())]
+    return G,baseline,lens
+
+class D3:
+    """Orthogonal real threefold planar Fourier channels and vertical cos(3j theta)."""
+    def __init__(self,g):
+        self.g=g;m=g.m
+        self.cols=[[(k,1.),(m+k,1. if k%3==1 else -1.)] for k in range(1,m+1) if k%3]
+        self.cols+=[[(2*m+1+k,1.)] for k in range(0,m+1,3)]
+        self.size=g.nb*len(self.cols)
+    def expand(self,x):
+        g=self.g
+        v=x[:self.size].reshape(g.nb,len(self.cols))
+        y=np.zeros(g.shape)
+        for j,terms in enumerate(self.cols):
+            for ix,c in terms:y[:,ix]=c*v[:,j]
+        return np.r_[y.ravel(),x[self.size:]]
+    def transpose(self,x,square=False):
+        g=self.g;v=x[:g.nx].reshape(g.shape)
+        J=np.column_stack([sum((c*c if square else c)*v[:,ix] for ix,c in terms) for terms in self.cols])
+        return np.r_[J.ravel(),x[g.nx:]]
+    def model(self,x,power):
+        full=self.expand(x)
+        _,res,sc,f,ft,_=self.g.linear(full,power)
+        scale=1/np.sqrt(np.maximum(1e-24,self.transpose(1/sc**2,True)))
+        op=LinearOperator((len(res),len(x)),matvec=lambda t:f(self.expand(t*scale)),rmatvec=lambda z:scale*self.transpose(ft(z)),dtype=float)
+        return op,res,scale
+
+def shape_limits(low):
+    if low==.25:return 3.830,1.650,2.322
+    if low==.35:return 3.788,1.510,2.157
+    raise ValueError("Unpaid two-arm geometry")
+
+
+def sampled_shape(G,micro,x,a):
+    X=G.unpack(x)[0]
+    p=G.base[:,0]+micro.fft_forward(G.B[0]@X,G.m,G.n,G.offset,0)
+    D,Rp,Ra=shape_limits(a.low)
+    rho=np.linalg.norm(p[:,:,:2],axis=-1)
+    z=p[:,:,2]
+    nrm=np.linalg.norm(p,axis=-1)
+    mix=np.hypot(Ra+rho,.233+abs(z))
+    margins=[Rp-rho.max(),D/2-nrm.max(),D-mix.max(),z.min()-.348]
+    return dict(plane=float(margins[0]),sphere=float(margins[1]),
+                mixed=float(margins[2]),exteriorZ=float(margins[3]),least=float(min(margins)))
+
+
+def run(a):
+    S=a.scripts
+    micro=module(S/'2ecf-r262-small-input-full-xyz-positive-metric-v2.py','R262DA')
+    geo=module(a.comparison,'R262D3Center')
+    geo.LOW=a.low
+    geo.HIGH=(geo.P-geo.LOW*(geo.L0+geo.TAU))/(geo.L1+geo.TAU)
+    W=a.work;fielddir=W/'h2-c2-m48-g12-04r1'
+    a.data=W/'m12-prefix-data.npz.gz';a.grid=fielddir/'grid.json'
+    a.query_report=fielddir/'exact-tail-queries.json';a.query_cache=Path(str(a.query_report)+'.npz');a.field=fielddir/'result.json.field.npz'
+    src=micro.Source(a)
+    try:
+        lp=design_drop(src,geo,a)
+    except RuntimeError as exc:
+        if "Full height drop affine design failed" not in str(exc):raise
+        record=dict(schema="R262-real-cumulative-shape-constrained-LP-infeasible",sourceSHA=digest(Path(__file__)),fieldSHA=src.source_sha,low=a.low,fullSleeve=a.full_sleeve,shapeMargin=a.shape_margin,maximumDrop=a.maximum_drop,dropAcceleration=a.drop_acceleration,reason=str(exc),accepted=0)
+        with a.out.open("x") as f:json.dump(record,f,indent=2);f.write("\n")
+        print("R312_REAL_CONSTRAINED_LP",record,flush=True);return
+    orig=None  # Unit-speed target uses the original material-angle map directly.
+    P,parent,rows=make_grid(micro,src,geo,orig,a,a.radial,a.angles,False)
+    proj=D3(P)
+    nx=proj.size
+    x=np.zeros(nx+2*P.nb)
+    empty=P.report(proj.expand(x))
+    x[nx:nx+P.nb]=a.lpMetricQ
+    x[nx+P.nb:]=a.lpMetricW
+    if a.seed:
+        with np.load(a.seed) as z:
+            if str(z['sourceSHA'])!=digest(Path(__file__)) or str(z['fieldSHA'])!=src.source_sha or float(z['fullSleeve'])!=a.full_sleeve or float(z['fullGate'])!=a.full_gate or float(z['liftEnd'])!=a.lift_end:raise ValueError('Seed source or surgery differs')
+            if float(z['heightDropEnd'])!=a.height_drop_end:raise ValueError('Different drop end')
+            if int(z['modes'])!=a.modes or int(z['spans'])!=a.spans or float(z['low'])!=a.low or abs(float(z['anchor'])-a.anchor)>1e-15:
+                raise ValueError('Seed is on another center or coefficient space')
+            x=np.asarray(z['reduced'])*a.lam/float(z['lam'])
+    init=P.report(proj.expand(x));initialShape=sampled_shape(P,micro,proj.expand(x),a)
+    history=[]
+    for i in range(a.steps):
+        full=proj.expand(x);before=P.report(full);power=.35 if i<4 else .9
+        budget0=sampled_shape(P,micro,full,a)['least']
+        op,r,scale=proj.model(x,power);old,_=P.objective(full,5 if i<5 else 8);best=None
+        for damp in (2e-6,4e-5,.001):
+            sol=lsmr(op,-r,damp=damp,atol=1e-10,btol=1e-10,maxiter=a.iterations)
+            d=scale*sol[0]
+            for alpha in (1.,.5,.25,.125,.0625):
+                yy=x+alpha*d;b=proj.expand(yy);val,pk=P.objective(b,5 if i<5 else 8)
+                if val>=old or pk>before['peak']*1.0001:continue
+                tests=P.report(b)
+                if tests['curvature']>max(a.curvature_guide,before['curvature']+1e-4):continue
+                budget=sampled_shape(P,micro,b,a)
+                if budget['least']<min(0.,budget0)-1e-8:continue
+                score=val+.12*pk
+                if best is None or score<best[0]:best=(score,yy,tests,alpha,damp)
+        if best is None:break
+        _,x,tr,alpha,damp=best
+        history.append(dict(step=i+1,scale=alpha,damping=damp,actual=tr));print('ACCEPT',a.lam,i+1,tr,flush=True)
+    final=P.report(proj.expand(x))
+    X,Q,ww,pos=P.unpack(proj.expand(x))
+    metric=dict(knots=P.kn.tolist(),q=x[nx:nx+P.nb].tolist(),w=x[nx+P.nb:].tolist(),spans=a.spans)
+    if pos<=0:raise ValueError('Nonpositive metric control')
+    Q,oldQ,_=make_grid(micro,src,geo,orig,a,a.test_radial,a.test_angles,True,metric)
+    ind=Q.report(X.ravel())
+    state=a.out.with_suffix('.npz')
+    with state.open('xb') as f:np.savez_compressed(f,fieldSHA=src.source_sha,sourceSHA=digest(Path(__file__)),comparisonSHA=digest(a.comparison),S=src.S,T=src.T,fullGate=a.full_gate,fullSleeve=a.full_sleeve,liftEnd=a.lift_end,heightDropEnd=a.height_drop_end,rawDropKnots=a.dropKn,rawDropVelocity=a.dropRaw,reduced=x,actualPhysicalXYZ=X,metricQ=metric['q'],metricW=metric['w'],knots=P.kn,lam=a.lam,low=a.low,anchor=a.anchor,modes=a.modes,spans=a.spans)
+    out=dict(schema='R262-cumulative-height-and-strong-shape-affine-LP-with-physical-XYZ-v1',sourceSHA=digest(Path(__file__)),comparisonSHA=digest(a.comparison),fieldSHA=src.source_sha,historicalMatch=src.source_sha==micro.HISTORICAL,originalDataSHA=digest(a.data),stateSHA=digest(state),lam=a.lam,low=a.low,high=geo.HIGH,anchor=a.anchor,
+             numericalPhysicalCoordinates=dict(originalS=src.S,originalT=src.T,newS=src.S+a.full_sleeve,newT=src.T+a.full_sleeve,halfSleeve=a.full_sleeve,verticalShoulder=a.full_gate,dropEnd=a.height_drop_end,maximumVerticalVelocity=lp['maximumActualDropSpeed'],liftEnd=a.lift_end),nativeD3Correction=dict(angularModes=a.modes,radialSpans=a.spans,independentRealPositionVariables=nx,positiveMetricVariables=2*P.nb),circlePort=dict(unitSpeedCenters=[.205-a.anchor,float(np.pi+.205-a.anchor)],phaseInterval=[0,.41],realDefinition='integrate i exp(i beta) with D3 centered reflection; circular segments exact by expm1; nonconstant turn integrated by positive 100-node Gauss-Legendre'),
+             trueOriginalPrefixAtProbeRows=rows,originalTraining=parent,originalIndependent=oldQ,fullAxialRedistributionLP=lp,initialTrueShapeObservations=initialShape,finalTrueShapeObservations=sampled_shape(Q,micro,X.ravel(),a),unfittedRadialMetric=empty,initial=init,accepted=history,finalTraining=final,finalIndependent=ind,independentPhysicalGeometry=micro.physical_geometry(Q,X.ravel()),
+             metricDefinition=dict(base='whole new sleeve has dq^2+du^2; on original s=q-c in [0,S] Q=1+B aq+v(s)^2 and W=1+B aw use only s; the exact integral-normalized nonnegative v is fixed after joint all-angle affine minimax; both factors have the original clamped two-jets',**metric),
+             fullDomain='Original material s in [0,S] includes every old cross section. In the new material q=c+s, the old tail s>=S has exactly its original position, metric, and true cuff; pure translation of the material chart adds c to its endpoint coordinate. Positive/negative original cap shapes are replaced by their true flat disks. No new displacement, total height, or old bound is assigned to the compact changed prefix.',
+             scope='The full-amplitude material inlet has both genuine circular arcs. The actual thick arms are external to this prefix experiment. Closed shape, quantitative reach and full-domain metric tolerance require their own continuous certificates.')
+    with a.out.open('x') as f:json.dump(out,f,indent=2);f.write('\n')
+    print('FINAL',a.lam,init,ind,'historical',out['historicalMatch'],flush=True)
+if __name__=='__main__':
+    p=argparse.ArgumentParser()
+    for k in ('scripts','work','comparison','out'):p.add_argument('--'+k,type=Path,required=True)
+    p.add_argument('--seed',type=Path)
+    p.add_argument('--lam',type=float,default=1.)
+    p.add_argument('--low',type=float,choices=(.25,.35),default=.35)
+    p.add_argument('--anchor',type=float,default=np.pi/3)
+    for k,v in (('full-sleeve',.545),('full-gate',.22),('height-drop-end',1.90),('lift-end',1.5),('curvature-guide',8.69),('maximum-drop',.83),('shape-margin',.0001),('drop-acceleration',2.8)):
+        p.add_argument('--'+k,type=float,default=v)
+    for k,v in (('spans',20),('drop-spans',15),('rayleigh',8),('modes',18),('angles',120),('radial',62),('test-angles',195),('test-radial',103),('steps',4),('iterations',110),('arc-nodes',24576)):
+        p.add_argument('--'+k,type=int,default=v)
+    a=p.parse_args()
+    if a.lam!=1.:raise ValueError('Full-amplitude v2 requires lambda=1')
+    run(a)

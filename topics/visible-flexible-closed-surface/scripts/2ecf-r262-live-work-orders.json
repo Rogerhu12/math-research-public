@@ -139,18 +139,115 @@
       "report": "{W}/full-cut/h2-whole-shape.json",
       "fields": [
         "stateSHA256",
-        "prefix",
-        "prefixGeometry",
-        "actualPrefix",
+        "fieldSHA256",
+        "definitionSHA256",
+        "low",
+        "sleeve",
         "geometry",
         "initialDiameter",
-        "finalDiameter",
-        "diameterQuotient",
-        "held",
-        "quotientLowerByDiameter",
+        "otherDiameter",
+        "initialToOtherHeld",
+        "otherToInitialHeld",
+        "sampledHeldRatio",
+        "sampledHalfDiameterDifferenceRatio",
+        "sampledRequiredReach",
         "scope"
       ],
       "description": "本次真实h2整闭空间像观察：完整原前缀/原尾/平盘和真D3两厚臂，检查实际接缝及R312的三个充分形状量；这些有限观察不冒连续厚度或Hausdorff下界。"
+    },
+    {
+      "id": "R262-cumulative-true-shape-height-low35",
+      "after": [
+        "R262-recover-actual-low35-frozen-h1"
+      ],
+      "script": "2ecf-r262-cumulative-shape-constrained-height-design.py",
+      "sources": [
+        "2ecf-r262-cumulative-shape-constrained-height-design.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--full-sleeve",
+        ".545",
+        "--low",
+        ".35",
+        "--out",
+        "{W}/cumulative-shape/low35.json"
+      ],
+      "outputs": [
+        "{W}/cumulative-shape/low35.json"
+      ],
+      "report": "{W}/cumulative-shape/low35.json",
+      "fields": [
+        "schema",
+        "fieldSHA",
+        "stateSHA",
+        "sourceSHA",
+        "lam",
+        "low",
+        "nativeD3Correction",
+        "initialTrueShapeObservations",
+        "finalTrueShapeObservations",
+        "initial",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry",
+        "reason",
+        "maximumDrop",
+        "dropAcceleration"
+      ],
+      "description": "真实新输入：R311中央半高.545，全部原圈保留；实际累计B样条降量、全角Rayleigh与R312三形状量一同进入线性设计，原场和真实XYZ新位置继续消费。该支重新选g；不计为旧cut固定g的精化。LP不可行时如实登记具体原因后换输入。"
+    },
+    {
+      "id": "R262-cumulative-true-shape-height-low25",
+      "after": [
+        "R262-recover-actual-low35-frozen-h1"
+      ],
+      "script": "2ecf-r262-cumulative-shape-constrained-height-design.py",
+      "sources": [
+        "2ecf-r262-cumulative-shape-constrained-height-design.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--full-sleeve",
+        ".545",
+        "--low",
+        ".25",
+        "--out",
+        "{W}/cumulative-shape/low25.json"
+      ],
+      "outputs": [
+        "{W}/cumulative-shape/low25.json"
+      ],
+      "report": "{W}/cumulative-shape/low25.json",
+      "fields": [
+        "schema",
+        "fieldSHA",
+        "stateSHA",
+        "sourceSHA",
+        "lam",
+        "low",
+        "nativeD3Correction",
+        "initialTrueShapeObservations",
+        "finalTrueShapeObservations",
+        "initial",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry",
+        "reason",
+        "maximumDrop",
+        "dropAcceleration"
+      ],
+      "description": "真实新输入：R311中央半高.545，全部原圈保留；实际累计B样条降量、全角Rayleigh与R312三形状量一同进入线性设计，原场和真实XYZ新位置继续消费。该支重新选g；不计为旧cut固定g的精化。LP不可行时如实登记具体原因后换输入。"
     },
     {
       "id": "R262-cut-frozen-true-material-position-extension",
@@ -205,6 +302,310 @@
       "description": "保留h2全部native真实XYZ系数、两条整连续g、真中央和原尾；只增加准确U0(theta)材料角下的新位置列，以U'和U''真实链式及实际转置继续求解。"
     },
     {
+      "id": "R312-actual-cut-h1-h2-continuous-whole-prefix-shapes",
+      "after": [
+        "R262-true-full-gate-frozen-h2"
+      ],
+      "script": "2ecf-r312-continuous-cut-correlated-shape-budgets.py",
+      "sources": [
+        "2ecf-r312-continuous-cut-correlated-shape-budgets.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--states",
+        "{W}/full-cut/low35-h1.npz",
+        "{W}/full-cut/low35-h2.npz",
+        "--out",
+        "{W}/full-cut/continuous-R312-h1-h2.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/continuous-R312-h1-h2.json"
+      ],
+      "report": "{W}/full-cut/continuous-R312-h1-h2.json",
+      "fields": [
+        "sourceSHA",
+        "originalSourceSHA",
+        "oldRawFieldSHA",
+        "commonCutCoordinatePaddingExact",
+        "guards",
+        "states"
+      ],
+      "description": "同一实际cut h1/h2的完整连续位置覆盖，原2569Hermite物理单元与完整原W、新XYZ同角处理；晚段用真实逆材料角和签名内积锐化范数界。分别付每态自己的新前缀、原尾和三条R312充分条件；不消费尚未包含的第二真u位置层。"
+    },
+    {
+      "id": "R262-actual-cut-curvature-continuation-25",
+      "after": [
+        "R262-recover-actual-low35-frozen-h1"
+      ],
+      "requires": [],
+      "script": "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py",
+      "sources": [
+        "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--full-sleeve",
+        ".545",
+        "--low",
+        ".35",
+        "--lam",
+        ".25",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/cut-continuation/c545-low35-lam25.json"
+      ],
+      "outputs": [
+        "{W}/cut-continuation/c545-low35-lam25.json"
+      ],
+      "report": "{W}/cut-continuation/c545-low35-lam25.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry",
+        "predictor",
+        "seedSHA256",
+        "previousSHA256"
+      ],
+      "description": "真正的全幅曲率原函数和收缩cut连续输入，第1个实际幅度lambda=.25，最终c=.545/low=.35。原物理材料角两jets和新空间位置保持一致，使用上一真实态/割线作初值；各步可选择自己的g，只有最终态再固定g加密。"
+    },
+    {
+      "id": "R262-actual-cut-curvature-continuation-50",
+      "after": [
+        "R262-actual-cut-curvature-continuation-25"
+      ],
+      "requires": [
+        "{W}/cut-continuation/c545-low35-lam25.npz"
+      ],
+      "script": "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py",
+      "sources": [
+        "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--full-sleeve",
+        ".545",
+        "--low",
+        ".35",
+        "--lam",
+        ".5",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/cut-continuation/c545-low35-lam50.json",
+        "--seed",
+        "{W}/cut-continuation/c545-low35-lam25.npz"
+      ],
+      "outputs": [
+        "{W}/cut-continuation/c545-low35-lam50.json"
+      ],
+      "report": "{W}/cut-continuation/c545-low35-lam50.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry",
+        "predictor",
+        "seedSHA256",
+        "previousSHA256"
+      ],
+      "description": "真正的全幅曲率原函数和收缩cut连续输入，第2个实际幅度lambda=.5，最终c=.545/low=.35。原物理材料角两jets和新空间位置保持一致，使用上一真实态/割线作初值；各步可选择自己的g，只有最终态再固定g加密。"
+    },
+    {
+      "id": "R262-actual-cut-curvature-continuation-75",
+      "after": [
+        "R262-actual-cut-curvature-continuation-50"
+      ],
+      "requires": [
+        "{W}/cut-continuation/c545-low35-lam50.npz",
+        "{W}/cut-continuation/c545-low35-lam25.npz"
+      ],
+      "script": "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py",
+      "sources": [
+        "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--full-sleeve",
+        ".545",
+        "--low",
+        ".35",
+        "--lam",
+        ".75",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/cut-continuation/c545-low35-lam75.json",
+        "--seed",
+        "{W}/cut-continuation/c545-low35-lam50.npz",
+        "--previous",
+        "{W}/cut-continuation/c545-low35-lam25.npz"
+      ],
+      "outputs": [
+        "{W}/cut-continuation/c545-low35-lam75.json"
+      ],
+      "report": "{W}/cut-continuation/c545-low35-lam75.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry",
+        "predictor",
+        "seedSHA256",
+        "previousSHA256"
+      ],
+      "description": "真正的全幅曲率原函数和收缩cut连续输入，第3个实际幅度lambda=.75，最终c=.545/low=.35。原物理材料角两jets和新空间位置保持一致，使用上一真实态/割线作初值；各步可选择自己的g，只有最终态再固定g加密。"
+    },
+    {
+      "id": "R262-actual-cut-curvature-continuation-100",
+      "after": [
+        "R262-actual-cut-curvature-continuation-75"
+      ],
+      "requires": [
+        "{W}/cut-continuation/c545-low35-lam75.npz",
+        "{W}/cut-continuation/c545-low35-lam50.npz"
+      ],
+      "script": "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py",
+      "sources": [
+        "2ecf-r262-true-three-arcs-cut-amplitude-continuation.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--full-sleeve",
+        ".545",
+        "--low",
+        ".35",
+        "--lam",
+        "1",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/cut-continuation/c545-low35-lam100.json",
+        "--seed",
+        "{W}/cut-continuation/c545-low35-lam75.npz",
+        "--previous",
+        "{W}/cut-continuation/c545-low35-lam50.npz"
+      ],
+      "outputs": [
+        "{W}/cut-continuation/c545-low35-lam100.json"
+      ],
+      "report": "{W}/cut-continuation/c545-low35-lam100.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry",
+        "predictor",
+        "seedSHA256",
+        "previousSHA256"
+      ],
+      "description": "真正的全幅曲率原函数和收缩cut连续输入，第4个实际幅度lambda=1，最终c=.545/low=.35。原物理材料角两jets和新空间位置保持一致，使用上一真实态/割线作初值；各步可选择自己的g，只有最终态再固定g加密。"
+    },
+    {
+      "id": "R262-curvature-continuation-final-frozen-full-span",
+      "after": [
+        "R262-actual-cut-curvature-continuation-100"
+      ],
+      "requires": [
+        "{W}/cut-continuation/c545-low35-lam100.npz"
+      ],
+      "script": "2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+      "sources": [
+        "2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--physical-source",
+        "{S}/2ecf-r262-true-three-arcs-cut-amplitude-continuation.py",
+        "--parent",
+        "{W}/cut-continuation/c545-low35-lam100.npz",
+        "--modes",
+        "30",
+        "--out",
+        "{W}/cut-continuation/final-fixed-h1.json"
+      ],
+      "outputs": [
+        "{W}/cut-continuation/final-fixed-h1.json"
+      ],
+      "report": "{W}/cut-continuation/final-fixed-h1.json",
+      "fields": [
+        "parentSHA256",
+        "stateSHA256",
+        "fieldSHA256",
+        "angularModes",
+        "radialSpans",
+        "actualPositionDOFs",
+        "metricDOFs",
+        "initialShifted",
+        "training",
+        "independent",
+        "independentGeometry",
+        "accepted"
+      ],
+      "description": "在四个真实幅度之后，把最终g和完整输入固定；真实Boehm加密并覆盖每span的独立径网，再执行仅空间更新。输入与.78旧目标是两个分支，不混接误差轨迹。"
+    },
+    {
       "id": "R262-cut-h2-first-full-continuous-geometry",
       "after": [
         "R262-true-full-gate-frozen-h2"
@@ -252,6 +653,177 @@
         "seconds"
       ],
       "description": "直接消费真实cut后首个原W单元及其全部物理交格，准确原Hermite/原W/新XYZ/真中央/全部六jets进入同一个连续区间核。这是新场局部几何计算；其输出仅覆盖明列区间，不作整闭证书。"
+    },
+    {
+      "id": "R262-new-field-true-tail-input-bounds",
+      "after": [
+        "R262-recover-actual-low35-frozen-h1"
+      ],
+      "script": "2ecf-r262-actual-tail-certificate-inputs.py",
+      "sources": [
+        "2ecf-r262-actual-tail-certificate-inputs.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--out",
+        "{W}/actual-tail/input-summary.json"
+      ],
+      "outputs": [
+        "{W}/actual-tail/input-summary.json",
+        "{W}/actual-tail/correction.json",
+        "{W}/actual-tail/source.json",
+        "{W}/actual-tail/m12-primitive.json"
+      ],
+      "report": "{W}/actual-tail/input-summary.json",
+      "fields": [
+        "fieldSHA256",
+        "correctionSHA256",
+        "sourceSHA256",
+        "primitiveSHA256",
+        "scope"
+      ],
+      "description": "为新实际e3类字段自己的全连续尾证明准备其真实修正/公共切口界；恢复既有原始primitive，全部临时文件不上传。旧5778证书不转移。"
+    },
+    {
+      "id": "R262-new-field-entire-material-two-jets",
+      "after": [
+        "R262-new-field-true-tail-input-bounds"
+      ],
+      "script": "2ecf-m12-local-material-two-jet-budget.py",
+      "args": [
+        "--scripts",
+        "{S}",
+        "--data",
+        "{W}/original-r262/m12-prefix-data.npz.gz",
+        "--grid",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/grid.json",
+        "--field",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/result.json.field.npz",
+        "--result",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/result.json",
+        "--correction-bounds",
+        "{W}/actual-tail/correction.json",
+        "--source-bounds",
+        "{W}/actual-tail/source.json",
+        "--angular-cells",
+        "128",
+        "--taylor-degree",
+        "8",
+        "--max-radial-depth",
+        "0",
+        "--quick-first",
+        ".000002",
+        "--quick-second",
+        ".05",
+        "--out",
+        "{W}/actual-tail/material.json"
+      ],
+      "outputs": [
+        "{W}/actual-tail/material.json"
+      ],
+      "report": "{W}/actual-tail/material.json",
+      "fields": [
+        "schema",
+        "radial_pieces",
+        "accepted_subpieces",
+        "rational_quantities",
+        "geometry_transfer_conditions",
+        "metric_below_1e_6",
+        "seconds"
+      ],
+      "description": "当前实际重生原场的全部保存径分片与全角两jet连续预算。此处的原旧闭帽几何数仅属于这张原场；后继新中央只可使用空间未改尾域的相应支撑/曲率。"
+    },
+    {
+      "id": "R262-new-field-region-normal-geometry",
+      "after": [
+        "R262-new-field-entire-material-two-jets"
+      ],
+      "script": "2ecf-m12-regional-source-normal-geometry.py",
+      "args": [
+        "--scripts",
+        "{S}",
+        "--data",
+        "{W}/original-r262/m12-prefix-data.npz.gz",
+        "--grid",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/grid.json",
+        "--field",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/result.json.field.npz",
+        "--result",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/result.json",
+        "--correction-bounds",
+        "{W}/actual-tail/correction.json",
+        "--source-bounds",
+        "{W}/actual-tail/source.json",
+        "--two-jet-report",
+        "{W}/actual-tail/material.json",
+        "--out",
+        "{W}/actual-tail/geometry.json"
+      ],
+      "outputs": [
+        "{W}/actual-tail/geometry.json"
+      ],
+      "report": "{W}/actual-tail/geometry.json",
+      "fields": [
+        "schema",
+        "rational_quantities",
+        "whole_geometry_conditions",
+        "seconds"
+      ],
+      "description": "对本次真实原场重新支付分区法向与主曲率界；新输入未改的尾可使用其对应局部界，整D及握持量不转移给新厚臂闭面。"
+    },
+    {
+      "id": "R262-new-field-entire-tail-cross-gram",
+      "after": [
+        "R262-new-field-true-tail-input-bounds"
+      ],
+      "script": "2ecf-m12-tail-cross-gram-local-certificate.py",
+      "args": [
+        "--scripts",
+        "{S}",
+        "--data",
+        "{W}/original-r262/m12-prefix-data.npz.gz",
+        "--grid",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/grid.json",
+        "--field",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/result.json.field.npz",
+        "--result",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/result.json",
+        "--correction-bounds",
+        "{W}/actual-tail/correction.json",
+        "--query-report",
+        "{W}/original-r262/h2-c2-m48-g12-04r1/exact-tail-queries.json",
+        "--primitive",
+        "{W}/actual-tail/m12-primitive.json",
+        "--full-surface",
+        "--max-radial-depth",
+        "7",
+        "--target",
+        ".000001",
+        "--angular-cells",
+        "128",
+        "--taylor-degree",
+        "8",
+        "--phase-degree",
+        "18",
+        "--out",
+        "{W}/actual-tail/cross.json"
+      ],
+      "outputs": [
+        "{W}/actual-tail/cross.json"
+      ],
+      "report": "{W}/actual-tail/cross.json",
+      "fields": [
+        "schema",
+        "subpieces",
+        "relative_metric_upper",
+        "below_requested_metric_target",
+        "requested_metric_target_exact",
+        "seconds"
+      ],
+      "description": "对同一新实际原场的整域Gram与全部无限尾作有向计算，按原manifest真实T1与公共切口消费；包括跨S的整W子格，未只筛标签为tail的行。1e−6通过与否据本次结果，不冒称达到原2e−9容差。"
     }
   ]
 }
