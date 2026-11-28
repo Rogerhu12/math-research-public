@@ -124,6 +124,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解已证。ε1/8显式15/b→64/(7b)，高阶代价/存在条件保，不推wholeK。[新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，八cut进working mean；26全上层和准确WholeMean cutoff/radial/leaf续作，原bubble/lift/外层Gauss保。
 
+[R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层已完整证明：急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet及跨机制扰动。显式转向θ替2tan(θ/2)，不推wholeK；未实施，不混25/26或继承旧凸势/校准。
+
 22全137/18家族及完整源参保22note；24同源仅b5/8，原aux12/中央6+6/wholeGauss-partial分明。23全138/19只在原真全步/几何/选中预测达条件时降下一μ，失败×4/metric/顺序/预算保。25全137/19、4pair变133保；原157/7、458/445、5CLI+12external及48live保，加16既有标量位置。初三步74384B、science+pure118548B；22/24同样超过95000，均真自然返后整接完整pure，不减步骤字段。原所有准确费责任保。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G首次绝对源路径和whole稳定report/snapshot保，N变SHA另G目录；R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed史，136+4词/模式/peer/预算保，CLI不继承末μ。

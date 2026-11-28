@@ -382,3 +382,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:11:00 UTC — 24下一真实试点统计返回，几何未返
 
 24真实下一triala464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748统计Phi886.6498886762892/Gram0.47296582200907233返回，几何/接受未知；current与accepted0保原，完整report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`725f3eadeb4298ac00dfa299b4953596a7860b60`无变（非pull）。
+
+## 2026-11-28 03:17:34 UTC — R726球面端层完整条件定理
+
+完整27362B证明：球面弧光滑及O3协变，固定b显式速度θ替2tan(θ/2)；共同急角全均值强单调m≥b/4、b非扩张；k>b、k sinη>s*、k−c*<Lc给球冠内部唯一正根，s*≤b sin(θ*/2)、c*≥b(1+cosθ*)/2。全三维切向逆/两角链式账/中央幅度/两个真根扰动/完整位置和held前缀责任均证明。不推当前满足条件，不改25/26，不把旧R709/R722专用公式冒新机制。结果全文及单行索引直接发表，无新增审核/fixture门。双README云核至`90d55da207bd34dd2e9a03013601e75b8cc29305`无变（非pull）。
