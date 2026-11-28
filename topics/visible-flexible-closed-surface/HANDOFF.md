@@ -20,28 +20,28 @@
 
 R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.05278322；角向暖续的更小采样峰不宣称全部连续界单调。R226/R230/R234支付完整 source/真 cuff/六jets及全时几何；R236保局部尺度和平方 Fourier 抵消，但仍未用 source-cross-Gram 抵消。R235已证明原第三径向迹 jump 对 C4修正的限制，只排当前更光滑有限空间的准确等距，不排C2极限；局部消跳尚未进入生产场。
 
-**实际下一步**：本轮 M12代理已在独立scratch启动原 h487再生（旧 /tmp/visible-flex-6a65e705 不存在），原 prefix SHA 已核；再生不计新改善。新方向为完整 Gram 带状 LM、H2步正则，保持原 g/端口和原目标试步，降低离散误差同时控制连续二阶量；root已证明并实现[R249局部材料二jet预算](results/R249-local-material-two-jet-continuous-budget.md)，完整Fourier合并角反参分子后作整数区间包界；真实研究场消费待返。[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已实际完成全18552原span/18551源内缝的准确规整；加到指定已发表R245场后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322及含反射非全等保持。Qss<.0006474256，所有原节点两jet零；不是新Newton接受或#5。[精确Q查询及独立X+C+Q源消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)已实际自然0：5177准确查询、204相交窗、88非零行，原端口/546诊断字节保持；longdouble合成最高新增Qss误差<2.313e−20。新source有独立身份，未新求解，连续几何须显式另加Q。结果未返回前不报告新场/新接受。新 [H2直接LM接口](notes/2026-11-28-2ecf-m12-h2-direct-interface.md)已完成77非零列/2304全行实际有限核：H2矩阵相对差1.10e−15、带状/稠密物理方向差1.60e−14、正则normal1.48e−15；不冒研究场收敛。
+**本轮实际工作**：旧 `/tmp/visible-flex-6a65e705` 不存在，已按原配方重生全部source/query；恢复不计新改善。完整Gram/H2增量LM与[C2消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)已发表，小型非零全行核及真实72128列H2数值SPD均已执行；C2 adapter必须读完整重结点和准确Boehm转移receipt，支付保存六jet误差，不能只改JSON标签。原[角缓存](notes/2026-11-28-2ecf-m12-angular-source-cache-and-cold-restart.md)逐值与原实现相同；未缓存cold已主动取消130，无场/接受，随后同零态新运行。
 
-已发表[C2实际消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)：读取真实重结点和准确Boehm转移receipt，保原487唯一span/query/g，47628→72128列；121非零列全行核实际0，H2独立矩阵差1.26e−15，完整物理方向差1.30e−14。真实72128列H2各频率数值SPD已查；只是接口/可解性，不冒新的研究场接受。
+新完整H2首场实际独立G8/N768峰8.26045815e−10，原未正则normal相对1.0065e−4；现有R236连续metric9.82202e−6、旧reach/D证界.0246505，未过。field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`。完整首场note待登记；[R249局部材料二jet](results/R249-local-material-two-jet-continuous-budget.md)已证明并实现，实际消费进行。下一条为保同g/真端口的C2 72128列实步，随后真实角向加密；exact分工实际开发source-cross-Gram连续界，不能继续只以d+2p代替方向抵消。
 
-固定角数组[原值缓存](notes/2026-11-28-2ecf-m12-angular-source-cache-and-cold-restart.md)已发表：真实54次源系数/六jet用途逐值与binary64字节一致；原冷试无field主动取消exit130，新的同零场缓存入口真实运行。旧再生和暖控制器保持；缓存不变source/g/求和顺序。首新场及独立观察已保存，R249正在实际消费，完整结论待其连续预算。
+[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已完整准确规整18552原span/18551源内缝，所有原节点Q两jet零。加到指定已发表R245场后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322与含反射非全等保持；Qss<.0006474256，不是新Newton接受或#5。[准确Q查询/独立源消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)已实际完成5177查询/204窗/88非零行；合成最高新增Qss误差<2.313e−20，原端口/546诊断保持。新X+C+Q源身份独立，连续几何须显式加Q，不能静默替换活动X+C。
 
-## 强幅度：polar v2 与完整前缀
+## 强幅度：完整前缀的真实漏峰与加密
 
-前会话最后已发表真实场为 polar v2第11步：R14² .2188892138、metric .6357568323、κ32.99525007、σ .9148921924；prepared `a67e6e08…c0905086`、末state `5cf11606eaca664b3d8f4a187c57aa932386a9e19ce465852c115103f9398bec`。这是两个训练网格、5292列，仍不合格。
+前会话polar v2最后为5292列第11态，原97节点metric .63576/κ32.995并非连续界。本轮重生原gap105/v045源、target-zero和11态，原master/target SHA相同，恢复不计新改善。R248全前缀空间真实扩到12789列，保旧场/全部原行；205节点自身基线发现metric1.57258/κ4050.87/σ.2034，见[实际准备](notes/2026-11-28-2ecf-polar-full-prefix-warm-hidden-peaks.md)。prepared `e8803bd9fd40c5e1edb298af42ed3b78585ebb02914e4aee26cf75a79daf8a03`。
 
-R246给完整二阶端口的条件C2正高度连接；R247只排固定rho/N31高度子族的该数值方向，不排完整XYZ。R248准确把旧支撑扩到完整前缀、5292→12789列，并保原场/六jets；本轮生产新prepared和实际接受见下。
+原205节点完整14行新暖支持续真实接受，1–8已有各note；第15态训练R14².00999668/metric.180637/κ19.5606/σ.888196仍不合格。新[第三独立观察](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)已自然0：236径点×256半格错移角，直接真实求六jet；同一15态metric1.2189606/κ52181.5379/σ.1392603。新的极值原位重取样背景差0，两基本形式独立复算同峰；修正Xs近抵消背景且Xss约1034.85。训练改善不能继承几何。
 
-本轮 strong代理已真实重生原gap105/v045两个master和target-zero，SHA与R233/旧目标一致；两个polar v2缓存及原11步已恢复，R248全前缀新空间已真实消费。所有恢复步骤单列，不冒新研究接受。新 [完整前缀生产基线](notes/2026-11-28-2ecf-polar-full-prefix-warm-hidden-peaks.md)已实际完成：12789列、205径点/65600全点，保全部旧97行/5292系数字节，新旧全点六jets浮点差0；新增108径点发现原同一11态漏峰，metric1.57258037、κ4050.87194、σ.203406，旧κ32.995不是连续界。新prepared `e8803bd9…daf8a03`；新有限求积成本R14²67.537144是自己的基线，不能与旧.218889混比。[新首步](notes/2026-11-28-2ecf-polar-full-prefix-first-actual-step.md)已实际自然0/57.139s，α1/8接受，R14²53.47010/metric1.49000/κ3595.289/σ.217288；全部7497新增方向真实非零；[新2–4步](notes/2026-11-28-2ecf-polar-full-prefix-actual-steps-two-four.md)均自然0，末R14²2.87199/metric1.51314/κ631.669/σ.631117。第2/3步metric上升已保真；[新5–8步](notes/2026-11-28-2ecf-polar-full-prefix-actual-steps-five-eight.md)均自然0，末R14².132791534/metric.46035873/κ112.4233/σ.891667，仍远未合格。新独立G3/错移256角观察在生成，非零暖支继续，同prepared[零W独立支](notes/2026-11-28-2ecf-polar-full-prefix-independent-zero-first-three.md)已有3步自然0/全接受：自身R14²97.0901→29.9983、σ.2460→.6313，但metric2.4122/κ707.410，未合格；不借暖支基线/计数。
+同prepared[零W独立支前三步](notes/2026-11-28-2ecf-polar-full-prefix-independent-zero-first-three.md)全自然0，自身R14²97.0901→29.9983而κ707.41；零6的第三观察κ2080.489/σ.47118，亦漏峰。两个旧稀训练支自然结束后封存；新G10每span加密、保原205/第三236全部径点，合958径点、每span至少15内部点，128/192角源直接补算正在运行。新quadrature单列基线/接受；进入训练的原G3径点不再称新模型的径向独立观察。
 
-## 文献及复现范围
+R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不排完整XYZ。被释放前缀已改变，R233原背景证书不借给修正场。强目标held/D≥.2、δE/D≥.05及全时reach仍未完成。
 
-2026-11-28回查 Hu, *Smooth isometric bending of a closed sphere*, Hexagon2611.00534：当前仍v1（11月16日），声明小幅光滑周期闭族，未提供本题宏观比例；不把稿件摘要或示意图当本题数值解。Ghomi等 tight surfaces 的配对/不可数非刚性与连续弯曲的区别仍按既有11月26日文献note保留。本轮文献核查与恢复命令见接手note。
+## 文献、同步与复现
 
-## 同步与发布
+2026-11-28回查Hu *Smooth isometric bending of a closed sphere*，Hexagon2611.00534仍v1（11月16日）；小幅周期闭族未提供本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不能自动当连续弯曲。范围及恢复命令见接手note，不重复已登记障碍。
 
-- 根/课题README完整读于公开 `3138f2d6564d66a92968cb963a904fad0dab5bd4`；私库根完整读于 `db8c308d5df4b018c12e225e2267064403f20208`。每次literal pull立即逐差、至少每小时；记录最新SHA于末行。私库QUEUE已认领并普通推送：`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`；并发拒绝后逐次真实pull/rebase，根规则无变化，最后读取私库`0d4ec2116a73a4163f0073ae8faec0d05186938a`。
-- root唯一写main；三个代理只写同级scratch。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；输入/运行工作在同级 m12-work、exact-work、strong-work、root-work。任何可重算完整输出不进Git/Release，只源码/配方/实际结论/哈希。
-- 每条结论完成即commit、真实pull/rebase、核双README、普通push；非快进或并发ref竞争立即再pull/rebase循环，不force、不改已发表历史。不写根LOG；H<10KB、单MD<100KB，open保持短。
+根/题README完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`，私库根于`db8c308d5df4b018c12e225e2267064403f20208`；私库QUEUE本会话认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。每次literal pull立刻看双README差、至少每小时；非快进/ref竞争立即pull--rebase再推循环，不force、不改已发表历史。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:04:40 UTC；已读公开 main `7f69aeec1a62d6628de8d636d6edc328d310c481`，根/课题 README 逐差无变化。
+root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
+
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:07:22 UTC；已读公开 main `c72ca08045647ebfad782022bc8996c7e901fda5`，根/课题 README 逐差无变化。
