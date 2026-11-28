@@ -584,3 +584,13 @@ The reproducer reads the complete original request and queue by their Git identi
   "current_distance_plus_phi": 1.5707963267948966
 }
 ```
+
+## 原1/16步长首次真实接受，原后续求解继续
+
+固定[真实原观察](https://github.com/Rogerhu12/math-research-public/blob/936b08ccfd9a8283fb8a3047f0fe704d7a4dbdf8/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md)：58673B / SHA256 `8abb04458f34f26c7aac4a74dc4ea4ee8524a19a737d70be17ccbe5e32bb0797` / Git blob `09b87ecef3dc6dbe8f4a4d50f808e05a1c8ca85f`。run46133839513/1、job140944661119、原科学source `bffd5bb`前缀及完整原manifest不变；不是新模型或重放另造点。
+
+原科学在2026-11-28T15:16:57.043789Z返回current-geometry-returned。alpha=.0625，真实点 `1f0c5699d7bbca0b9f1c143fad76fc07b6363b6df140b11c1fbe9f8e2396b91f`，trial_accepted=true、accepted_directions=1、current_geometry_complete=true，current与trial的统计/几何point逐字相同。完整reach g=0.4966023946693483，较初0.5305849371949052下降；K=12.050328618743315，D_point_lower=4.117736652022217。最坏曲率坐标cell885/u=0.8306046932331322/s=2.1573631007205925/phase=π/2/branch1。
+
+原Phi=684.515514370657、Gram=0.40627341748996043，均略高于初681.6517423825408/0.4061652531176999，本次接受依据原完整restoration准则，不能写成metric收敛。其余完整几何约束：body_diameter=-0.037873298441807535，distance_plus=0.10676021246196543，distance_minus=-3.0936082014757185，cap_diameter=-0.06687948326167703，height_floor=-1.0415132927871797。正distance_plus仍未付。
+
+driver `a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3`、model `61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7`，source `4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94`、target `957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9` 均在该真实记录。complete_report=false、stop_reason=null、observer_failures=0；首accepted checkpoint不是最终解。138原角色、全部原科学预算与后继pure62854责任保留，只有原science自然返回才继续其原完整pure。本课题未完成，不能停在这一步。
