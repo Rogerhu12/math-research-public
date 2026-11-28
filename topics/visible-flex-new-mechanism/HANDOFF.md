@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **4cfdcb1663028814f1c696cdca35551b7023b271**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **824079f4557f1fa1b006cdf0dc53bc346c68196d**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -56,6 +56,6 @@ R637/R642/R644/R652双核/全频gap欠宏观，R652/R657旧ODE不重播。R660�
 
 [R696](results/R696-two-pulse-ramp-support-and-whole-moving-window-diameter.md)真实提升并集D<3.012/源支持<.374/端>1.4299；ρ+.6δ+2.6e≤.1522可付宏观/握持，真实全域e须支付，消费者绑R688真实身份。
 
-[R693](results/R693-coaxial-half-turn-windows-and-one-relative-displacement-row.md)另以C0(0)同轴源、下领真实半转给新输入，三curl推出两横向锚，轴向锚独立；不改原R688。
+[R693](results/R693-coaxial-half-turn-windows-and-one-relative-displacement-row.md)另以C0(0)源/下领真半转；[R697](results/R697-free-axial-crown-translation-and-curl-only-window.md)整冠/管的σ等于真端缺陷轴向均值，三curl足配两口。|σ|≤.05/d+|σ|+e≤.09及1.6d+.6|σ|+2.6e≤.1522付宏观；老帽.05肩至冠净空>.272，未知窗真实P二阶/法球重读。R705据此另新输入，不借旧R688资格。
 
 旧任务和全部失败/费用见[完整open归档](open-archive-through-R690-20261128.md)及各原文。R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g且δE可0。连续同g全时、真实多t全网格/存在差距/全完成门仍未付，继续实际新输入。
