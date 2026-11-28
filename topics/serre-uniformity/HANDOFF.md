@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：d4366d6760f8d43bb3cb45fc987ac78fc2df95ac**（2026-11-28 13:02 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：8bb9b461079f0f13261a590c98d292ebbcd6804b**（2026-11-28 13:04 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:48:17 Asia/Taipei，Actions run46109203139/job140868723588，blob:none浅clone后真实pull --rebase至c6b1020c；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤13:38、pull≤13:48。本地12:47仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -18,7 +18,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1131–46](results.md)原class4全cusp/phase、D(α)完整算术五项、原Eisenstein单位、proper修正杯积与proper Heis p³均沿[逐字前态](handoff-archive-2026-11-28-before-canonical-primitive-alignment.md)保全。Cor逐陪集乘积不变成Norm乘积；未修正非零socle、MW d0/1、twists=J(K)[p]ω⁻⁷及B16门未撤。R1156–60现付真正raw/最高矩来源及实际算术未平滑；一般Frob仍待读。
 
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment塔/proper Heis/未分歧43格FL已付。§16同原quotient的真正整generic塔在全noncusp延伸并唯一识别；单层/rational不代输入，Cartan I仅modp。
+[R1147 §§1–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及全noncusp已付。§§17–19以Λ°=lim Rr[E[p^r]]/Rr[0]的真实norm根塔给连续all-vector矩，Mprim_d=(1−p^d)Mtilde_d。原两路径反差分支付同根ρ和完整中央二次gauge；S/U整恒等式适用全部标记，完成Gcorr之后H0/H1Z0给唯一兼容过渡，原n2/n5算术未平滑识别最高整子商。未交换period/PD极限，Cartan I仍仅modp。
 
 [R1148–53](results.md)原cusp/全global基、relative Hodge/log Frob和finiteFL减法均保于[open](open.md)及逐字前态：Ccyc=exp(9^(224·9⁴))，大Chebotarev affine真实存在，不代空集。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)给r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25；真障碍rs h−zab，七退化支全保。Gaussian/cubic最高同源组合、U/U²实际Miller/FL尺度、β底参数和所有nilpotents沿原文；两β都坏不外推η★=1，首数字0不代whole盘，F0中央与全深盘仍开。
 
@@ -28,7 +28,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
 
-[R1157 §§1–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n的K3残数、整cochain、全noncusp/GL2 raw下降均付，不除p稳定子。§10原n2 source完全显式：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²；27项权6/−2/2和−1/256全保，根相位/常数不删。§11非零E5点统一切线embedding，完整Ri(T−Bj)=Ri(T0−Bj)(ℓj,i/ℓj,0)²保全rank1；真并发给参考线三值Bloch见证。§12改用三次闭点，x(3T0)∉Fp²防所有leading抵消；三种标签det阶1/3及全部(u,1−u)阶表已付，坏阶均1/(p²−1)，全R†有限读取含首p项。共同CM形式源覆盖rank2，形式ψ由R1155§14支付，真实Ep比较仍保。
+[R1157 §§1–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV三函数/raw全noncusp/GL2下降已成。n2原Θ=Δ/(16y⁴)、Ri=−(x−ei)²/Ki、Θi=ΘRi²及27项权6/−2/2、−1/256全保。实际切线分解/并发三值Bloch见证包括rank1。三次闭点x(3T0)∉Fp²使全部SS leading不能抵消，det阶1/3及七行(u,1−u)阶表见open；坏阶1/(p²−1)落全R†浅域。CM共同形式源覆盖rank2，真实Ep/PD比较和原根gauge保留。
 
 [R1158–59](results.md)已付原最高Sym12 smoothed Gcorr：真实even单位共同商、S/U全ordered权、Weil restriction/rank1下降、原矩quotient与根ρ/中央gauge。crossed L/R、norm根ηd及J_n给Ωcorr=V_nΩ+dJ、hV=hCorr+J，V_n=(n⁴+n⁻¹¹)−n²T_n；全部式见open。R1160解开平滑，仍须原Frob数值。
 

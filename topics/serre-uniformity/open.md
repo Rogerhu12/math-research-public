@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-canonical-primitive-alignment.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-continuous-all-vector-moments.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -39,13 +39,11 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 **当前准确门**：R1159–1160现已从含各n-isogeny moment的smoothed对象给出原未平滑G0的实际一次primitive。后继必须读取该原source的一般Frobenius conjugating path及其crystalline/FL中央值；不是再证抽象lift存在。全部carry/Cor与真实减法继续，单primitive单位仍不代weighted中央非零。
 
-[R1159](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)已把这一步拆到实际一次上链：R_c,b(g)=Σc_t(g)⊗g v_tg、L_a,d(g)=−Σu_t⊗d_t(g)，两个crossed projection差各为dR/dL。单矩ηd=n⁻¹(τd+ρd−Corρ′d−n⁻dUd)来自原norm根相位，Ta_d=(n+n⁻d)a_d+dηd。J_n=n⁻⁷Π(η4∪b+R)+n⁻³Π(−a∪η8+L)−n⁻¹²ΠK；Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，完整V_n=(n⁴+n⁻¹¹)−n²T_n。
+[R1159–1160](results.md)已付原crossed projection差、norm根ηd及J_n：Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。实际算术B_n由C2/C3 lifts、λ=−β(c)/2及两transvection的Newton反差分构造，dB_n=(V_n−v_n)Ω、h0=(hV+B_n)/v_n；n2除43/127、两例n5。全部p^r三中心用v_d∞=(1−p^d)B_(d+2)/(d+2)的单位截面，保21(1+p⁴)/11并严格约化兼容，识别同一S0/43格。完整L/R/J/B公式沿本次逐字归档及原文，不重推。
 
-[R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)已给B_n=𝓑((V_n−v_n)Ω)的实际连续构造：C2/C3两个有阶lift唯一延长几何section；算术缺陷β由原Tate residue读取，λ=−β(c)/2，t=−12M12|N⊗λ；两transvection上的有限Newton反差分给唯一v_q。全section的乘法缺陷在M^N=0，遂dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n。n2覆盖p>37除43/127，两例取n5的5¹⁴模值36/19，故全p>37接口已付。
+[R1147 §§17–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)进一步付真正连续all-vector moment与原primitive最高整塔的同源运输。Λ°是模商lim Rr[E[p^r]]/Rr[0]，非环商；原根过渡y_Q=∏_(pP=Q)x_P^p给固定norm来源，无有限标签任意TpE提升。全部非零点Tate orbit计g而非φ(g)，故Mprim_d=(1−p^d)Mtilde_d，d4/8/12；原I_d(e|N)给唯一零次ρ，完整ordered二次修正保留。群尺度(a,b,a;ab,ab,ab)，a=1−p⁴,b=1−p⁸，将λ0=21/11认回λ∞。原S/U的Z[1/6]恒等式在全部p^r点成立，含非primitive/非自由rank1；逐层实际完成Gcorr和normquotient后，H0/H1Zr0才给唯一相容中心。R1159/60整cochains及n2/n5未平滑识别原最高Sym12TpE(2)塔。它不是raw各槽任意四线分解逐项兼容的断言。
 
-[R1160 §8](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)进一步支付原三中心和全部p^r的实际连续坐标：residue用v_d∞=(1−p^d)B_(d+2)/(d+2)，不能高层仍用12a12；三character1/3/5的λ=−β(c)/2、整Newton式及21(1+p⁴)/11修正给h_r=−(𝓑12,2Ω0,𝓑8,4Ω2,𝓑4,6Ω4)。所有原根cocycles与构造严格约化兼容，经完整universal唯一性识别同一S0整塔/43格。Cartan I仍仅modp；这不是一般Frob路径数值的替代。
-
-R1160中一般q的b(q⁻¹T′q)仍要从同一实际有限Galois/Belyi quotient读取；Tate方向T的χ共轭已知，另一条路径不能据短字复共轭或cohom唯一性补数。当前是该真实Frob读取、与R1150原Hodge/整格的运输及F0 z12/低中央系数，不能把明确上链程序冒称数值已算。
+**仍须继续**：该实际连续对象的period、同根/中央gauge、PD pullback及有限moment/逆极限必须在原43格所需精度比较；R1155.87的normal carry未消。R1160的一般q仍要实际读取b(q⁻¹T′q)，不能由Tate路径、复共轭短字或H¹唯一性补数。当前是原F0 z12/低中央系数及完整深盘，非再次构造抽象lift。
 
 [R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)已把原source扩到n=2并锁定全部常数：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²，4θ₂=[Θ]、4θ′₂,Ci=[Θ_i]。原K3三函数式仅27项，权为6/−2/2、总系数−1/256，字面norm/平移关系及全部根相位均保。R1158与R1159直接适用；κ4=63/16、κ8=1023/256在p>37均unit，v2=3·43·127/2¹¹仅p43/127例外。它简化实际source与交换商；dB₂=(V₂−v₂)Ω现由R1160构造，SS四线坏参数和一般Frob路径读数仍不删。
 
@@ -75,7 +73,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。
 
-[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付原任意有限分歧L及所有坏u的rational半稳定associatedness。Lang唯一规约Φ=diag(p⁻²,p⁻¹,1)σ、Lie N=(vp u,vp(1−u),0)，但N²和有序半平方保留；全部局部Heis torsor均半稳定。Vologodsky已刊Th43/44的实际Bst中间箭头及其对偶先给原fiber比较，同一whole path与good基点2刚化锁G_st=(logu,log(1−u),−Li2u)；坏点不冒crystalline BK log。实际f(T)的log PD包及T↦Tp保全部carry，不令OL含假场Frob。原finiteEp moment权尚不能任选TpE提升；raw→43格的整map、finite Cor/root gauge和全部PD/monodromy加权相消仍须实际构造，F0/z12未付。
+[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付原任意有限分歧L及所有坏u的rational半稳定associatedness。Lang唯一规约Φ=diag(p⁻²,p⁻¹,1)σ、Lie N=(vp u,vp(1−u),0)，但N²和有序半平方保留；全部局部Heis torsor均半稳定。Vologodsky已刊Th43/44的实际Bst中间箭头及其对偶先给原fiber比较，同一whole path与good基点2刚化锁G_st=(logu,log(1−u),−Li2u)；坏点不冒crystalline BK log。实际f(T)的log PD包及T↦Tp保全部carry，不令OL含假场Frob。R1147 §§17–19现给实际连续moment及原最高整塔，未任选有限Ep标签的TpE提升；剩余是同一来源的period/PD/monodromy比较及原43格读取，F0/z12未付。
 
 ## O1：原两 jet 的实际临界非零
 

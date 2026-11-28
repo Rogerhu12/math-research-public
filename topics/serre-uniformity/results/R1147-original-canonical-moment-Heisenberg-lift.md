@@ -913,3 +913,489 @@ $G_\infty$-torsor（或同一连续 integral cocycle），并支付实际 theta 
 本节不从形式 Manin relation、单个 $K_2/p$ 消失、有限层解或 rational regulator 自动得到该输入；也不计算 $F_0$ 的 $z_{12}$。它没有证明一个任意 generic construction 的 arithmetic vertical 无分歧或 cusp 无分歧。只有先由 (1147.53) 识别为已成的原塔后，才可消费本篇先前已付的 $S_0$ 整来源，以及 R1147 §4 的原模 $p$ Cartan pushout；不能跳过这个识别直接把 ramified full-level coordinates 当未分歧 FL frame。
 
 本节是纸面证明，没有数学程序执行。
+
+
+## 17. 全部非零点的真实分布与连续 moment
+
+本节仍取 $p>37$，并在 $\mathcal M_{\mathbb Q}$ 上工作。
+为避免混淆，用 $r$ 表示标记及系数层数，$N=p^r$；
+后文的 $\ell\in\{2,5\}$ 只是 prime-to-$p$ 的 cyclic
+Hecke 辅助数。原辅助 $c$、trace-fixed theta、Tate basis
+及 Kummer 次序均保持 §§8–11 的规范。
+
+### 17.1 去掉零点 Dirac 向量的系数模
+
+设
+$$
+\mathcal A_r=\mathcal E[p^r]\setminus0,\qquad
+\Lambda_r^\circ=
+R_r[\mathcal E[p^r]]/R_r[0],\qquad R_r=\mathbb Z/p^r.
+\tag{1147.54}
+$$
+这里是**系数模商**，不是群环的环商：
+$[0]$ 是零点的 Dirac 向量，不能把它生成的环理想拿来作商。
+过渡为系数约化与
+$$
+[P]\longmapsto[pP],\qquad[0]=0.
+$$
+因此 $\Lambda_r^\circ$ 也可写成以全部非零 $p^r$-点
+为基的 permutation module；当 $pP=0$ 时过渡确为零。
+
+定义同一原 theta 的实际 Kummer 类
+$$
+\boldsymbol\mu_{c,r}=
+\operatorname{Cor}_{\mathcal A_r/\mathcal M}
+  \bigl([P]\otimes\kappa_{p^r}(\theta_c(P))\bigr)
+\in H^1(\mathcal M_{\mathbb Q},\Lambda_r^\circ(1)).
+\tag{1147.55}
+$$
+这不反除标记 cover 的 degree。
+$K_1\otimes\mathbb Z_{(p)}$ 的有限分母按 §8 的
+$p$ 单位幂解释。
+
+兼容性可以在实际根 torsor 上指定，而非只写 H¹ 相等。
+清除同一个 $p$ 单位分母后，若高层各槽的根为
+$x_P^{p^{r+1}}=\theta_c(P)$，则对每个 $Q\ne0$ 定义
+$$
+y_Q=\prod_{pP=Q}x_P^p,\qquad
+y_Q^{p^r}=\prod_{pP=Q}\theta_c(P)=\theta_c(Q).
+\tag{1147.56}
+$$
+最后一式正是 (1147.24) 的原 norm。
+乘积在未分裂 cover 上就是同一 finite-étale norm；
+它与所有基变换、Galois 重指标及实际 Weil components 相容。
+若先用了 $p$ 单位幂来表示 theta 类，再沿该幂的
+Kummer-group 自同构除回。trace-fixed 等式中被清除的
+prime-to-$p$ torsion 也用其唯一相容的 $p$ 次根处理，
+不留下一个任选的 $\mu_{p^r}$ 相位。
+
+落到 $Q=0$ 的 fibre 只因其系数为 $[0]=0$ 而被删除；
+没有断言该 fibre 的各 theta 值或其 norm 为零。
+也从不读取 $\theta_c(0)$。
+两次 (1147.56) 的合成就是全部 $p^2P=Q$ 根的乘积，
+所以这些 quotient-torsor 过渡严格相容。
+这些过渡的群映射满射，有限几何纤维非空，
+故可选兼容几何纤维点并得到严格兼容的 cocycles；
+若与另一套既定根比较，仍须保留相应零次 gauge。
+
+于是存在实际连续系数及根塔
+$$
+\Lambda^\circ=\varprojlim_r\Lambda_r^\circ,\qquad
+\boldsymbol\mu_{c,\infty}.
+\tag{1147.57}
+$$
+在一个几何 Tate-module frame 中，
+$\Lambda^\circ$ 是 completed measure module
+$\mathbb Z_p[[T_pE]]/\mathbb Z_p[0]$。
+此处仍只用其系数模结构。
+它表示原 norm-compatible Kummer torsors 的逆极限，
+不是在每层另挑一个相容性未付的 cohomology 类。
+
+### 17.2 连续 moment 不需要提升有限标签
+
+对 $d\ge1$，有限系数 map
+$$
+\operatorname{mom}_{d,r}:\Lambda_r^\circ
+ \longrightarrow\operatorname{Sym}^d\mathcal H_r,\qquad
+[P]\longmapsto P^d
+\tag{1147.58}
+$$
+因 $0^d=0$ 而有定义。
+其与 $P\mapsto pP$ 的过渡严格相容，故给连续 map
+$\operatorname{mom}_{d,\infty}:\Lambda^\circ
+\to\operatorname{Sym}^dT_p\mathcal E$。
+这里只在逆极限中得到真正的 Tate-module 权；
+没有把某个有限 $P\in E[p^r]$ 任意提升为 $T_pE$ 向量。
+
+对 $d=4,8,12$，置
+$$
+\widetilde{\mathsf M}_{d,r}
+ =k_d(c)^{-1}\operatorname{mom}_{d,r*}
+                         \boldsymbol\mu_{c,r}
+ =k_d(c)^{-1}\operatorname{Cor}_{\mathcal A_r/\mathcal M}
+          \bigl(P^d\otimes\kappa_{p^r}(\theta_c(P))\bigr).
+\tag{1147.59}
+$$
+这些是全部非零点的矩，与原 primitive
+$\mathsf M_{d,r}$ 暂作区分。
+(1147.56) 给它们完整的层间过渡；
+零像 fibre 的权在系数约化后是 $(pP)^d=0$。
+因此不出现额外的 $p^2$ 平均或 $p^d$ norm 因子。
+
+### 17.3 原 Tate residue 给精确比例
+
+沿 §9 的同一 Tate chart，固定 $0<a<N$，记
+$g=p^{v_p(a)}$。全部非零点现在允许每个
+$b\bmod g$，所以固定 $a$ 的惯性轨道有 **$g$ 个**，
+不再是 primitive 情形的 $\varphi(g)$ 个。
+每个轨道仍贡献 $a^d k_N(a)/g$。
+$a=0$ 的 $\mu_N$ 点在 $e_1^d$ coinvariant 中为零。
+故
+$$
+\operatorname{res}\widetilde{\mathsf M}_{d,r}
+ =k_d(c)^{-1}S_N
+ =\frac{B_{d+2}}{d+2}\pmod{p^r}.
+$$
+这里逐项保留非单位 $a$ 的真实 orbit length；
+最后一步直接消费 (1147.31)，不重新约化一个有理
+Eisenstein 公式。
+
+完整算术 H¹ 的原 residue 同构 (1147.37)，连同
+(1147.32)，遂给
+$$
+\boxed{\quad
+\mathsf M_{d,r}=(1-p^d)\widetilde{\mathsf M}_{d,r}
+\quad(d=4,8,12),\quad\text{在每个 }R_r\text{ 上。}\quad}
+\tag{1147.60}
+$$
+特别 all-vector residue 依次为 $1/252,1/132,1/12$。
+它们也证明 (1147.59) 对合法辅助 $c$ 独立。
+本式是原整 H¹ 中的等式；下一节另外支付实际根
+representatives 的 gauge，不能在此先将该 gauge 设为零。
+
+
+## 18. 与原 primitive 塔的实际群尺度及同根 gauge
+
+### 18.1 三个中心同时保持的单位尺度
+
+记
+$$
+a=1-p^4,\qquad b=1-p^8,\qquad
+\lambda_0=\frac{21}{11},\qquad
+\widetilde\gamma_{5,r}=a^{-1}\gamma_{5,r}.
+\tag{1147.61}
+$$
+$\widetilde\gamma_5$ 的定义使用同一个原
+$\gamma_5$-torsor 的单位倍，不改换圆单位来源。
+由 (1147.38)、(1147.60)，全部非零点的矩满足
+$$
+\begin{aligned}
+\Pi_0(\widetilde{\mathsf M}_{4,r}
+                 \cup\widetilde{\mathsf M}_{8,r})&=0,\\
+\Pi_2(\widetilde{\mathsf M}_{4,r}
+                 \cup\widetilde{\mathsf M}_{8,r})&=0,\\
+\Pi_4(\widetilde{\mathsf M}_{4,r}
+                 \cup\widetilde{\mathsf M}_{8,r})
+ +\lambda_0\widetilde{\mathsf M}_{4,r}
+                 \cup\widetilde\gamma_{5,r}&=0.
+\end{aligned}
+\tag{1147.62}
+$$
+这里 $\lambda_\infty=(b/a)\lambda_0$，
+并非在高层把原 $1+p^4$ 因子删掉。
+
+令 $\widetilde{\mathcal G}_r$ 使用 (1147.39) 的相同
+三个 coefficient modules，但第三 bilinear 系数取
+$\lambda_0$。则
+$$
+\boxed{\quad
+(x,y,t;z_0,z_2,z_4)\longmapsto
+(ax,by,at;\,abz_0,abz_2,abz_4)
+\quad}
+\tag{1147.63}
+$$
+是 $\widetilde{\mathcal G}_r\to\mathcal G_r$ 的实际群同构。
+前三 contraction 均乘 $ab$；
+修正项准确满足
+$a^2\lambda_\infty=ab\lambda_0$。
+故它保持完整有序群律，不只保持其 associated graded。
+这些同构与所有系数约化相容，且第一层就是恒等尺度。
+
+### 18.2 从真实原根读取唯一零次修正
+
+取 (1147.56) 的兼容纤维点，记其 moment cocycles 为
+$\widetilde a_{d,r}$；原 primitive cocycles
+$a_{d,r}$ 使用 R1160 §8 已固定的同一根规范。
+令
+$$
+e_{d,r}=(1-p^d)\widetilde a_{d,r}-a_{d,r}.
+$$
+由 (1147.60)，这是一个实际 coboundary。
+其零次原像不是新输入：对原几何群
+$N=\pi_1(\overline{\mathcal M})$，使用 R1160 (1160.30)
+的同一个明确反差分
+$$
+\rho_{d,r}=\mathcal I_d(e_{d,r}|_N),\qquad
+d\rho_{d,r}=e_{d,r}.
+\tag{1147.64}
+$$
+为明确其原数据，令
+$f(Z)=e_{d,r}(T)(Z,1)$，
+$T:(X,Y)\mapsto(X+Y,Y)$、
+$T':(X,Y)\mapsto(X,Y+X)$，则
+$$
+\begin{aligned}
+\rho_*&=Y^d\sum_{j=0}^{d-1}(\Delta^jf)(0)
+                         \binom{X/Y}{j+1},\\
+\rho_{d,r}&=\rho_*+
+ [X^d]\{e_{d,r}(T')-(T'-1)\rho_*\}\,Y^d .
+\end{aligned}
+$$
+所有分母仅为 $1!,\ldots,d!$，均是 $p$ 单位。
+这只读取两条原路径上的实际 root cocycles。
+已知 $[e_{d,r}]=0$ 保证它是全算术 coboundary；
+$N$-invariants 为零使几何原像唯一，
+所以由上式得到的同一个 $\rho_{d,r}$
+也解全部算术群上的等式。
+公式与约化交换，故 $\rho_{d,r}$ 自身严格兼容。
+
+对 (1147.63) 后的代表，置
+$\rho=(\rho_{4,r},\rho_{8,r},0)$。
+第三坐标因为按 (1147.61) 取同一单位倍而无新相位。
+若其 cocycle 是 $(v_\sigma,h_\sigma)$，用
+$q=(-\rho,0)$ 作 $q^{-1}c_\sigma\sigma(q)$，
+中央项必须同时改变为
+$$
+\begin{aligned}
+v'_\sigma&=v_\sigma-d\rho(\sigma),\\
+h'_\sigma&=h_\sigma+\mathfrak b_r(\rho,v_\sigma)
+ -\mathfrak b_r(v_\sigma,\sigma\rho)
+ -\mathfrak b_r(\rho,d\rho(\sigma)).
+\end{aligned}
+\tag{1147.65}
+$$
+这里 $\mathfrak b_r$ 正是原 (1147.39)，包括
+$\lambda_\infty$；公式在三个中心同时成立。
+这支付原 quotient 的实际同根运输，
+没有由 H¹ 一维性忽略任何中央二次项。
+
+(1147.62)–(1147.65) 也给全部非零点塔在 $S_0$
+上的同源整延拓：先沿已证明的原 primitive torsors
+及群同构运输，再消费 §11 的唯一性。
+不由此宣称下节每个 auxiliary-$\ell$ subgroup cover
+在整 $S_0$ 上也处处 étale。
+
+
+## 19. 全层实际四线来源、兼容相关塔与未平滑最高子商
+
+### 19.1 标记层与 raw 根层分别保留
+
+固定一个标记层 $r$。在本小节中，raw Kummer 根的
+层数另记为 $s$；先构造全部 $s\ge1$ 的固定函数整塔，
+之后才取 $s=r$ 并加 $R_r$ 的 moment 权。
+
+令
+$$
+\mathcal I_r=(\mathcal E[p^r]\setminus0)^2,\qquad
+\mathcal J_r=\{(P,Q)\in\mathcal I_r:P\ne Q\}.
+\tag{1147.66}
+$$
+对 $\mathcal J_r$ 上的三角形
+$(P,-Q,Q-P)$，三个点都非零且阶为 $p$ 的幂。
+R1157 §§2–8 的三函数构造只使用这三个条件：
+三点和为零、非零、其阶与辅助 $\ell$ 互素。
+所有 principal 化与分裂的分母来自 $\ell$、$2,3$；
+未使用标记点恰好阶 $p$。
+因此同一真实 triangle、原 $-\ell^{-8}$ 尺度和
+同根/Cor 修正逐字适用于这些 $p^r$-点。
+取 $\ell=2$ 时消费 R1157 §10 的同一实际函数；
+取 $\ell=5$ 时用原 §§1–8。
+
+相应 theta 值在标记曲线的全 noncusp 上是单位：
+非零 $p$-power 点不落在 $\mathcal E[\ell]$。
+每个 raw source 先保留完整无挠
+$\mathbb Z_p(2)$ 中心及全部根层 $s$，
+故 R1157 (1157.22) 的水平惯性证明仍适用。
+这一步不把有限 $\mu_{p^r}$ 的不变量当成零。
+
+随后按 R1158 §5，在实际 $\mathcal I_r,\mathcal J_r$
+的每个连通 generic branch 上构造 raw source，
+延伸后作 Weil restriction，再沿同一个实际 even-unit
+quotient 作对角拉回。
+这不反除标记 cover 的 degree；
+在 $r>1$ 时也没有要求点对是自由基或 primitive。
+保留全部 Weil components，算术作用由真实重指标给出。
+
+### 19.2 同一个整多项式支付全部高层双线性项
+
+R1158 (1158.7)–(1158.9) 的
+$$
+P(X,Y)=X^4Y^8=(1+S)A+(1+U+U^2)B
+\tag{1147.67}
+$$
+是 $\mathbb Z[1/6]$ 上的多项式恒等式。
+所以它可直接在
+$\operatorname{Sym}^{12}\mathcal E[p^r]$ 中读取。
+$B$ 的因子 $[XY(X-Y)]^3$
+仍在 $X=0,Y=0,X=Y$ 时严格为零；
+这不是 primitive indicator 的近似。
+R1158 的 even-unit norm 同时保留，
+moment 求和仍按 $P$ 和 $-P$ 各计一次，
+故两槽的原 factor $2$ 都不改变。
+
+对固定 $r$ 的 raw 根塔先取 $s=r$，
+再用这些 **$R_r$ 中真实 tautological tensors**
+作中心 pushout。
+R1158 (1158.17) 的逐槽重指标因而原样给出
+完整 ordered bilinear identity。
+得到实际
+$\mathcal G_{\ell,r}^{\rm corr}$-torsor
+$\mathscr Q_{\ell,r}^{\rm corr}$，
+其中心为 $\operatorname{Sym}^{12}\mathcal H_r(2)$，
+群律仍是
+$$
+b_\ell(v,v')
+ =\Pi_0(x,y')-\operatorname{Tr}_C\Pi_0(x_C,y_C').
+$$
+其 quotient 是
+$$
+X_{\ell,d,r}=\sum_{P\ne0}P^d\kappa_{p^r}(\theta_\ell(P)),
+\qquad
+X'_{\ell,C,d,r}
+ =\sum_{P\ne0}P^d\kappa_{p^r}(\theta'_{\ell,C}(P)).
+\tag{1147.68}
+$$
+所有求和、同子群乘积、根相位和 corestriction
+保留 R1158 的原次序。
+这里没有把有限权任意提为 Tate-module 权。
+
+### 19.3 quotient 的 norm 过渡先付，中心才用唯一性
+
+同一 trace-fixed 规范给
+$[p]_*\theta_\ell=\theta_\ell$、
+$[p]_*\theta'_{\ell,C}=\theta'_{\ell,C}$，
+因为 $(p,\ell)=1$ 且 $[p]$ 置换原 $\ell$-division
+及同一 $C$。
+这也是 R1157 §2 的原 norm 条件；
+可能的 $24$-torsion 按 (1147.56) 的规范处理。
+
+因此 (1147.56) 的根乘积公式同时给 (1147.68)
+的实际 quotient-torsor 过渡。
+$\mathcal C_\ell/\mathcal M_{\mathbb Q}$ 在全部 $r$
+保持同一个辅助 cover。
+先固定这些 norm 过渡，才能比较
+$\mathscr Q_{\ell,r+1}^{\rm corr}\bmod p^r$
+与 $\mathscr Q_{\ell,r}^{\rm corr}$。
+
+由 (1147.36)，在整个 $\mathcal M_{\mathbb Q}$ 上
+$$
+H^0(\mathcal M_{\mathbb Q},
+       \operatorname{Sym}^{12}\mathcal H_r(2))
+ =
+H^1(\mathcal M_{\mathbb Q},
+       \operatorname{Sym}^{12}\mathcal H_r(2))=0.
+$$
+两个已经实际构造的 lifts，固定其 quotient 及上述
+norm 标识后，因 H¹ 消失有同构，因 H⁰ 消失只有一个同构。
+三层过渡的两种合成都是同一 quotient 标识之上的同构，
+故由唯一性相等。于是
+$$
+\boxed{\quad
+\mathscr Q_{\ell,\infty}^{\rm corr}
+ =\varprojlim_r\mathscr Q_{\ell,r}^{\rm corr}
+\quad\text{是真正兼容的整相关 torsor。}
+\quad}
+\tag{1147.69}
+$$
+这不声称不同 $r$ 所选的任意四线分解或辅助根
+在 raw 各槽上逐项相同。
+实际兼容性发生在已完成全算术下降和完整
+bilinear pushout 的对象上。
+它也不从各层零 cohomology classes
+直接抽取一个尚未构造的 inverse-limit lift。
+
+### 19.4 接到原 primitive 最高整子商
+
+R1158 (1158.21) 的同一 theta 函数等式，
+在每个 $R_r$ 上都给
+$$
+X_{\ell,d,r}=(\ell^2-\ell^{-d})
+                  \widetilde{\mathsf M}_{d,r},\qquad
+X'_{\ell,C,d,r}
+ =\ell\widetilde{\mathsf M}_{d,r}^{\,C}
+       -\ell^{-d}\widetilde{\mathsf M}_{d,r}.
+\tag{1147.70}
+$$
+$\psi_C^{-1}$ 在 $E[p^r]$ 上存在，故运输方向不变。
+同一单位关系的兼容根给 R1158 (1158.23) 的实际
+$\rho$，中央按 (1158.24) 同时运输。
+该公式只反除 $k_d(c)$，从不反除可能为零的
+$\ell^2-\ell^{-d}$。
+
+先将各 $d=4$ 槽乘 $a$、各 $d=8$ 槽乘 $b$、
+中心乘 $ab$，再用 §18 的同根 gauge，
+即可把 (1147.70) 的 quotient 认到原 primitive
+$a_{4,r},a_{8,r}$ 及其真实 isogeny pullbacks。
+R1159 的全部 crossed projection-formula、
+norm-root 相位及有序修正是实际整数 cochain 公式，
+只用 $\ell$、$2$ 和 $k_d(c)$ 的单位逆；
+故同样在每个 $R_r$ 成立，而不只在第一层。
+
+写原
+$\Omega_r=\Pi_0(a_{4,r}\cup a_{8,r})$，
+则所得实际 source 满足
+$$
+dh_{\mathcal V_\ell,r}=-\mathcal V_\ell\Omega_r,\qquad
+h_{\mathcal V_\ell,r}=h_{{\rm corr},r}+J_{\ell,r},
+\qquad
+\mathcal V_\ell=(\ell^4+\ell^{-11})-\ell^2T_\ell.
+\tag{1147.71}
+$$
+每项 $J_{\ell,r}$ 保留 R1159 的原陪集及根规范。
+原 $a_{12,r}$ 的同一 norm identity 和单位 residue
+又给 $T_\ell$ 在几何 H¹ 上的精确标量
+$\ell+\ell^{-12}$；
+通过 (1147.37)，在对应算术 H² 上也是此标量。
+所以
+$$
+v_\ell=\ell^{-11}(\ell-1)(\ell^{14}-1),\qquad
+B_{\ell,r}=
+ \mathcal B_{12,2,r}\bigl((\mathcal V_\ell-v_\ell)\Omega_r\bigr)
+\tag{1147.72}
+$$
+是 R1160 §8 的同一个实际构造，
+$dB_{\ell,r}=(\mathcal V_\ell-v_\ell)\Omega_r$。
+
+$p\ne43,127$ 时取 $\ell=2$；
+这两例取 $\ell=5$。
+R1160 已核 $v_\ell$ 在相应情形为单位，故
+$$
+\boxed{\qquad
+h_{0,r}=\frac{h_{\mathcal V_\ell,r}+B_{\ell,r}}{v_\ell},
+\qquad dh_{0,r}=-\Omega_r.
+\qquad}
+\tag{1147.73}
+$$
+取 (1147.69) 的兼容纤维点并保相同的
+norm-root gauges，R1159 的整数修正和
+R1160 的约化自然性使本式逐层相容。
+等价地，完成每层实际构造后，
+同一原 quotient 上的 H⁰/H¹ 消失给唯一相容标识。
+所以它确给原 $\mathscr P_\infty$ 的最高
+$\operatorname{Sym}^{12}T_pE(2)$ 子商。
+此处只认定这一实际四线来源的最高子商；
+没有把未构造的其它 raw contractions 添入来源。
+
+### 19.5 已付与仍须读取的准确边界
+
+本节完成了三件此前分开的实际事情：
+原 theta 的连续分布与 moment、全 $p^r$ 标记的
+raw-to-correlation pushout、与原 primitive 最高整塔的
+同根及未平滑比较。
+全过程没有反除标记 degree，没有任意提升有限标签，
+也没有将一个模 $p$ 的形式 filling 当成
+$\mathbb Z_p$ 系数构造。
+
+但这并不允许交换任意 period limit。
+对每个有限标记层的原 primitive 作 rational
+$B_{\rm st}$ 比较，与对 (1147.69) 的逆极限、
+有限维 moment 及原 $43$ 维整格作相同比较，是不同的门。
+实际求 $F_0$ 时仍须证明所使用的 period 表达式、
+同根/中央 gauges、PD pullback 及极限在所需精度相容；
+不能逐个约模后删掉 R1155 (1155.87) 的 normal carry。
+本节也不提供 R1160 中一般 Frobenius
+conjugating-path 的数值。
+
+第一层的原 Cartan $q_I$ 仍按 §4 在模 $p$ 后使用。
+本节没有把 $I\in\operatorname{End}(E[p])$
+提升为 $T_pE$ 的算子，没有给新的 $z_{12}$ 数值或
+中央单位，也不改变一般 $p$ 主目标的 OPEN 状态。
+
+新增来源均为实际已成来源的明确延长：
+R1147 (1147.24)、(1147.29)–(1147.37)；
+R1157 的原 triangle、固定函数整根塔及水平延伸；
+R1158 §§2–7 的共同 quotient、全算术 Weil restriction
+和 ordered 双线性恒等式；
+R1159 的全部实际 cochain 修正；
+R1160 §§4、8 的整反差分、算术构造及约化自然性。
+本节全部为纸面证明，无数学程序执行。
