@@ -293,3 +293,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:11:05 UTC — 104完整ready参数只整理字符串外空白
 
 完整读148份ready，104仅删除字符串外四类JSON空白、44原字不变；42 half/r725/r726/r728等全排除。全部参数文件同路径保，原数值token/所有字段/来源/完整历史/预算/458等选择器不减，不把parsed Number重写；活queue/request/runtime/binding/实际CLI输入不动。毛减495096B，新whole映射75232B/再生器3688B/说明3962B，文件净减412214B（另计本条及H/open）。原whole字节固定6c07ca0，旧hash参数继承/再生器先恢复整原文件，现格式只按current新身份；所有旧内部身份保持历史语义。三次完整格式历史与恢复见[总引](notes/2026-11-28-complete-ready-json-lexical-format.md)，未增科学门或raw载体。 双README云核至`c1da88994f48c908055120f9f8a0de6e3e463d62`无变（非pull）。
+
+## 2026-11-28 08:15:55 UTC — 32完整参数六件与launch七件实际启动
+
+32全13件464036B普通刊：全参数6/245295B＋launch7/218741B，连已刊source8为全21件齐。原157/7及458/445和64live、全数值/全域/原预算保；新R729诊断575/564明确旧CG与新方向归属。active/parent同visible-larger-resume-20261128-32，整三步78678B已排，natural science返后整pure61349B。题外新增.github/workflows/visible-larger-20261128-parallel32.yml按原360min/完整capacity-wait公开启动；所有source current24/138全齐，未添审批/fixture门。实际run/job/输入/field尚待观察，完整[启动/接续](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)保全原身份。 双README云核至`922135141364b3b2d22ded56f8d64b07d81f99da`无变（非pull）。
