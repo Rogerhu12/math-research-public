@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`7bae4527640989fbc812dba482d0ad2bc1771124`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`8766919cfa69e622c04aaef45ed528d2fe2085c6`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -23,18 +23,13 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 [R742右柄全实际](notes/2026-11-28-R742-right-handles-complete-launch.md)：46145500268/job140980544503成功，8设计×原3格全返。右区峰改善但全峰移至中区，右.42时32/44全峰1341.7930148178439/1163.1151317212843；E⊥角差增大。均有限样本，不付全reach/同g，完整原数值和source保note。
 
+[39完整全闭求解](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：R744/745五真实厚参考、双体系两层全F/X、一次冻结真实回拉g*及两精化，共11阶段/七源参66918B现刊触发。两端与帽全可变；六相位整像和有限Lie估计不冒材料流，39b另付真实轨线，原预算不变。
+
 ## 数学范围与完整输入
 
-R724–739全部范围/源参/实际失败保[索引](results.md)、固定H及完整note；单帽/有限阶/等距端点/弱held/局部浸入均不代强闭族。R738全415片实际同g双侧浸入半宽≥.5384265521561006，.16双向全法球只证半宽.005。
-[R740](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md)完整闭参考D<2.60/held≥.564/grip≥.60/δE>0、触握盘.08球；滚肩末K>40失败，椭圆只补末柱，中央Gram/reach未付。
-[R741](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md)环叶E⊥/B、双端二jet/全变分、自由X全时误差；反射W>0保证无holonomy圆作用，Haar一次精确g*，后继同g误差全相位不放大；准确flow/全误差仍待付。
-[R742](results/R742-tilted-closed-shoulders-variable-physical-handles-and-original-two-jets.md)完整倾镜/左柄参考D<2.64/held≥.557/grip≥.60；[13设计原实际](notes/2026-11-28-R742-complete-physical-sixjet-launch.md)科学success，原发布故障已补。左峰改善，右峰2090.24/1789.58未变；继续右形状和Killing。
-[R743](results/R743-three-fixed-markers-rigid-quotient-and-centred-body-moment.md)全E(3)体矩/三标记条件给δE>0；同旋转未标像机制δE≤hmax，37理想场δE/D≤1e−5。完整Cx/几何未付，继续改善商距。
-[R744](results/R744-closed-extruded-bent-disk-global-reach-and-curvature-gap.md)完整厚闭参考已付全相位reach≥.108、D<3.40/held≥.719/grip>.689/δE>0，完整六jet现刊；所有所列有限法图仍有贯穿平带Killing障碍，过渡环同g及真实精化未付。
-
-[R745](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md)新等长倾镜闭参考，带标t=0真实子午Jacobi全周期返回；全相位D<3.45/held≥.717/grip≥.75/reach≥.108，0<δE≤.002。三标记已离y=0，完整source现刊；二维同g/圆端Killing与真精化仍未付。
-
-R732完整准确13件与下游14件已main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤不减，待35同点whole费用。R726–730所有旧准确包完整保护，原路径及费用保open§7和固定全文。
+[本批前完整H](https://github.com/Rogerhu12/math-research-public/blob/b3400522289fc6fe8270e0acc214c2d5870795ee/topics/visible-flex-larger-amplitude/HANDOFF.md)、[完整索引](results.md)及各proof/note逐字保全部R724–745结论/来源/失败未知，不重做登记内容。R738真同g浸入半宽≥.5384265521561006，.16双向法球只证.005；R740/R742宏观闭弯盘仍欠中央Gram/reach。R741自由Killing、反射圆作用/Haar与全时误差均为条件定理；R743标记/体矩判据及δE上界不冒宏观商距。
+R744完整全相位厚参考reach≥.108/D<3.40/held≥.719/grip>.689/δE>0，所列法图仍有贯穿平带Killing障碍。R745唯一等长倾镜根与带标t=0完整Jacobi返回，全相位reach≥.108/D<3.45/held≥.717/grip≥.75/0<δE≤.002；标记离y=0，二维同g/圆端Killing未付。两完整发生器已main，39真实动全端盖。
+R726–730全部旧准确包保护，R732完整准确13件与下游14件已main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit及7步骤原预算不变；待35自然science/whole pure后的同点完整费用。RET100H精确恢复17旧闭分支，净释1472530B，不退活输入。
 
 <!-- visible-larger-parallel-33:start -->
 Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。

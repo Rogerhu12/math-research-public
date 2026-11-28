@@ -1,0 +1,205 @@
+{
+  "schema": "closed-body-nonprojected-geometry-Killing/v1",
+  "source_sha256": {
+    "bent_body_ambient.py": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3",
+    "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+    "r745_equal_meridian_jacobi_two_jets.py": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a",
+    "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+    "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+    "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f"
+  },
+  "designs": [
+    {
+      "id": "equal-Jacobi-wide",
+      "geometry": "equal",
+      "gap": 1,
+      "field_width": 0.16
+    },
+    {
+      "id": "equal-Jacobi-medium",
+      "geometry": "equal",
+      "gap": 1,
+      "field_width": 0.1
+    },
+    {
+      "id": "equal-unmodified",
+      "geometry": "equal",
+      "gap": 0,
+      "field_width": 0.16
+    },
+    {
+      "id": "horizontal-gap-wide",
+      "geometry": "horizontal",
+      "gap": 0.0004,
+      "field_width": 0.16
+    },
+    {
+      "id": "horizontal-original",
+      "geometry": "horizontal",
+      "gap": 0,
+      "field_width": 0.16
+    }
+  ],
+  "continue_geometries": [
+    "equal",
+    "horizontal"
+  ],
+  "shape_mask_width": 0.085,
+  "scale": [
+    2,
+    1.14,
+    1.15
+  ],
+  "material_reweightings": [
+    1,
+    2,
+    3
+  ],
+  "vector_regularizer": 0.00002,
+  "lie_weight": 1,
+  "strain_softness": 3,
+  "bilipschitz_weight": 45,
+  "metric_floor": 0.72,
+  "metric_ceiling": 1.4,
+  "bend_weight": 9,
+  "bend_cap": 9.45,
+  "support_goal": 0.107,
+  "support_weight": 135,
+  "displace_cap": 0.009,
+  "displace_weight": 105,
+  "jacobian_probe": 3e-8,
+  "phases": [
+    0,
+    0.39269908169872414,
+    0.7853981633974483,
+    1.5707963267948966,
+    2.356194490192345,
+    3.141592653589793
+  ],
+  "cloud_grid": [
+    27,
+    7,
+    5,
+    5
+  ],
+  "moment_grid": [
+    141,
+    41,
+    25,
+    21
+  ],
+  "initial": {
+    "id": "fixed-thick-full-body",
+    "shape_degree": 3,
+    "field_degree": 7,
+    "train": [
+      37,
+      13,
+      7,
+      6
+    ],
+    "check": [
+      71,
+      25,
+      12,
+      10
+    ],
+    "field_iterations": 280,
+    "nfev": 0,
+    "inner": 0,
+    "regularizer": 0,
+    "metric_weight": 0
+  },
+  "free_steps": [
+    {
+      "id": "actual-body-design-1",
+      "shape_degree": 5,
+      "field_degree": 8,
+      "train": [
+        43,
+        15,
+        8,
+        7
+      ],
+      "check": [
+        79,
+        27,
+        13,
+        11
+      ],
+      "field_iterations": 300,
+      "nfev": 44,
+      "inner": 70,
+      "regularizer": 0.00002,
+      "metric_weight": 0
+    },
+    {
+      "id": "actual-body-design-2",
+      "shape_degree": 7,
+      "field_degree": 10,
+      "train": [
+        59,
+        19,
+        10,
+        9
+      ],
+      "check": [
+        91,
+        31,
+        16,
+        13
+      ],
+      "field_iterations": 400,
+      "nfev": 52,
+      "inner": 85,
+      "regularizer": 0.00001,
+      "metric_weight": 0
+    }
+  ],
+  "fixed_steps": [
+    {
+      "id": "fixed-source-1",
+      "shape_degree": 8,
+      "field_degree": 11,
+      "train": [
+        67,
+        21,
+        11,
+        10
+      ],
+      "check": [
+        99,
+        33,
+        17,
+        15
+      ],
+      "field_iterations": 480,
+      "nfev": 60,
+      "inner": 95,
+      "regularizer": 0.00001,
+      "metric_weight": 12
+    },
+    {
+      "id": "fixed-source-2",
+      "shape_degree": 10,
+      "field_degree": 13,
+      "train": [
+        79,
+        25,
+        14,
+        12
+      ],
+      "check": [
+        121,
+        41,
+        21,
+        19
+      ],
+      "field_iterations": 600,
+      "nfev": 70,
+      "inner": 115,
+      "regularizer": 0.000005,
+      "metric_weight": 35
+    }
+  ]
+}

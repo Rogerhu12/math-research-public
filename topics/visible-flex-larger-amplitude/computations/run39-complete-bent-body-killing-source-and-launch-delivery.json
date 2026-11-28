@@ -1,0 +1,414 @@
+{
+  "schema": "visible-larger-run39-whole-bent-body-Killing-complete-source-and-launch-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "complete scientific source, inputs and public launch, prior to the first actual run",
+  "complete_new_files": [
+    {
+      "role": "complete Run39 coupled closed-body intrinsic field and physical deformation search",
+      "name": "bent_body_killing.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_killing.py",
+      "bytes": 12986,
+      "sha256": "41f3b38d47fe4fabe69513056dbc9146d8bd44e0a30f12feddfeff0c61532e2a",
+      "git_blob_sha": "5e432c8f543b1ce6a7eb15a30575617d335deb74"
+    },
+    {
+      "role": "Run39 actual closed material atlas and field anchoring data",
+      "name": "bent_body_atlas.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac"
+    },
+    {
+      "role": "Run39 Cartesian physical geometry, intrinsic vector field, six derivatives and Lie operators",
+      "name": "bent_body_ambient.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_ambient.py",
+      "bytes": 9718,
+      "sha256": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3",
+      "git_blob_sha": "e56606a1371dfb52dc404e49ac632faa8b0ffe96"
+    },
+    {
+      "role": "Run39 complete material-domain and numerical budgets",
+      "name": "bent-body-killing-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+      "bytes": 3914,
+      "sha256": "6a3264161732a9e18ae7b3347344ef51a268292864d02b5b1f10e16894bc0eec",
+      "git_blob_sha": "e79298177128e989c32f9c47a8a4d4bb1e41f0ad"
+    },
+    {
+      "role": "public full Run39 direct physical bent-body and coupled intrinsic Killing search",
+      "name": "visible-larger-run39-bent-body-killing.yml",
+      "path": ".github/workflows/visible-larger-run39-bent-body-killing.yml",
+      "bytes": 3254,
+      "sha256": "97fca22427c14ad560f6c62a68c8b7559d4c0bb7317012e08706d6ed5c80723c",
+      "git_blob_sha": "de855249021ec79f8e4e4988c37c67ebb1801240"
+    },
+    {
+      "role": "complete immutable Run39 physical search, material vector field and fixed-source metric launch request",
+      "name": "run39-bent-body-killing-request.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/run39-bent-body-killing-request.json",
+      "bytes": 12873,
+      "sha256": "db295a4c9a9b124fbeed983c4d9b38349a78e0c70bd47020de0106cae6d2fb27",
+      "git_blob_sha": "9a0959d4895b2706f8e11bf5c5c2387cde1590b8"
+    }
+  ],
+  "complete_prior_math_modules": [
+    {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    {
+      "role": "complete R742 tilted seed analytic two-position-jets six-field provider",
+      "name": "r742_tilted_disk_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    {
+      "role": "complete R744 extruded closed physical body atlas and six positional derivatives",
+      "name": "r744_extruded_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd"
+    },
+    {
+      "role": "complete R745 equal meridian and Jacobi reference atlas, with genuine fixed marks off the chosen geodesic",
+      "name": "r745_equal_meridian_jacobi_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+      "bytes": 7123,
+      "sha256": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a",
+      "git_blob_sha": "8bcfed4448ae02847825c48f4d1b3d586a95fb79"
+    }
+  ],
+  "immutable_source_publications": {
+    "r740": "1a0e4b0e4ee8f2e6d14124a4b38eeffe6b4f55a2",
+    "r742": "c6487109da3d44eb997e72acd3326f36bfa1da4f",
+    "r744_source": "423d15e39a56080ca384f6829bb5f281a1f78b9b",
+    "geometry_source": "d24ec829106346fcc7a5ec89744cf0b45343e083"
+  },
+  "six_science_hashes_in_current_parameters": {
+    "bent_body_ambient.py": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3",
+    "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+    "r745_equal_meridian_jacobi_two_jets.py": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a",
+    "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+    "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+    "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f"
+  },
+  "immutable_controls": [
+    {
+      "role": "complete public runner for a directly evaluated immutable bent disk field and its physical outputs",
+      "name": "observe_bent_disk_search.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_disk_search.py",
+      "bytes": 14863,
+      "sha256": "72e7af7195e1087fa96f3a93b6f1963e60ae8d1ee13d4036f647673f8c25b450",
+      "git_blob_sha": "c47dde7a91a32216afdb5f41ef2952fa3cb4b22c"
+    },
+    {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    {
+      "role": "original public remote topic tree size, README differences and git primitives",
+      "name": "publish_r734_exact_conclusion.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+      "bytes": 10589,
+      "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+      "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+    },
+    {
+      "role": "original normal git pull/rebase and checked remote handoff resolution",
+      "name": "publish_r738_exact_gap.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+      "bytes": 5864,
+      "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+      "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+    }
+  ],
+  "normal_scientific_entry": {
+    "argv": [
+      "--params",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+      "--geometry-source",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+      "--out",
+      "{runner_temp}/run39-bent-body-killing-{run}-{attempt}/field"
+    ],
+    "direct_lineage": "Direct mathematical reference and all material/physical settings come from immutable current and previously published source text, frozen in the trigger commit. Run38 numerical fields and Run37/36 points are independent historical results.",
+    "whole_geometry": "two full unit material disks, full central extrusion, both rounded ends and both filled planar caps; selected material on the closed surface",
+    "samples": {
+      "complete_designs": [
+        {
+          "id": "equal-Jacobi-wide",
+          "geometry": "equal",
+          "gap": 1,
+          "field_width": 0.16
+        },
+        {
+          "id": "equal-Jacobi-medium",
+          "geometry": "equal",
+          "gap": 1,
+          "field_width": 0.1
+        },
+        {
+          "id": "equal-unmodified",
+          "geometry": "equal",
+          "gap": 0,
+          "field_width": 0.16
+        },
+        {
+          "id": "horizontal-gap-wide",
+          "geometry": "horizontal",
+          "gap": 0.0004,
+          "field_width": 0.16
+        },
+        {
+          "id": "horizontal-original",
+          "geometry": "horizontal",
+          "gap": 0,
+          "field_width": 0.16
+        }
+      ],
+      "retained_geometry_classes": [
+        "equal",
+        "horizontal"
+      ],
+      "initial": "fixed-thick-full-body",
+      "joint_physical_material_layers": [
+        "actual-body-design-1",
+        "actual-body-design-2"
+      ],
+      "two_fixed_source_metric_refinements": [
+        "fixed-source-1",
+        "fixed-source-2"
+      ],
+      "program": "Five initial material vector solves, two complete joint layers in each of two geometry classes, and two same-source metric layers on the selected geometry. Up to eleven returned stages.",
+      "frozen_target": "induced Gram of the immutable true geometric source at its recorded selected physical coefficients and degree; both subsequent layers use the same full material target.",
+      "phases": [
+        0,
+        0.39269908169872414,
+        0.7853981633974483,
+        1.5707963267948966,
+        2.356194490192345,
+        3.141592653589793
+      ],
+      "cloud": [
+        27,
+        7,
+        5,
+        5
+      ],
+      "moment": [
+        141,
+        41,
+        25,
+        21
+      ],
+      "normal_scientific_status": "completed_whole_closed_body_two_material_refinements"
+    },
+    "unchanged_original_numerical_budgets": {
+      "initial": {
+        "id": "fixed-thick-full-body",
+        "shape_degree": 3,
+        "field_degree": 7,
+        "train": [
+          37,
+          13,
+          7,
+          6
+        ],
+        "check": [
+          71,
+          25,
+          12,
+          10
+        ],
+        "field_iterations": 280,
+        "nfev": 0,
+        "inner": 0,
+        "regularizer": 0,
+        "metric_weight": 0
+      },
+      "free": [
+        {
+          "id": "actual-body-design-1",
+          "shape_degree": 5,
+          "field_degree": 8,
+          "train": [
+            43,
+            15,
+            8,
+            7
+          ],
+          "check": [
+            79,
+            27,
+            13,
+            11
+          ],
+          "field_iterations": 300,
+          "nfev": 44,
+          "inner": 70,
+          "regularizer": 0.00002,
+          "metric_weight": 0
+        },
+        {
+          "id": "actual-body-design-2",
+          "shape_degree": 7,
+          "field_degree": 10,
+          "train": [
+            59,
+            19,
+            10,
+            9
+          ],
+          "check": [
+            91,
+            31,
+            16,
+            13
+          ],
+          "field_iterations": 400,
+          "nfev": 52,
+          "inner": 85,
+          "regularizer": 0.00001,
+          "metric_weight": 0
+        }
+      ],
+      "fixed": [
+        {
+          "id": "fixed-source-1",
+          "shape_degree": 8,
+          "field_degree": 11,
+          "train": [
+            67,
+            21,
+            11,
+            10
+          ],
+          "check": [
+            99,
+            33,
+            17,
+            15
+          ],
+          "field_iterations": 480,
+          "nfev": 60,
+          "inner": 95,
+          "regularizer": 0.00001,
+          "metric_weight": 12
+        },
+        {
+          "id": "fixed-source-2",
+          "shape_degree": 10,
+          "field_degree": 13,
+          "train": [
+            79,
+            25,
+            14,
+            12
+          ],
+          "check": [
+            121,
+            41,
+            21,
+            19
+          ],
+          "field_iterations": 600,
+          "nfev": 70,
+          "inner": 115,
+          "regularizer": 0.000005,
+          "metric_weight": 35
+        }
+      ],
+      "material_reweightings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "true_frozen_quantity": "induced Gram of the immutable true geometric source at its recorded selected physical coefficients and degree; both subsequent layers use the same full material target.",
+    "stage_point": "Each actual physical coefficient vector z and intrinsic material vector x has its own scientific SHA. The complete point is their ordered concatenation (z,x). Each whole stage NPZ and the full summary have independent recorded lengths and SHA-256.",
+    "limits": "Working source evaluations and finite grids have the meaning declared in the scientific program. Global isometry, fixed-target convergence, regular flow, closed C2 embedding, reach, held and Euclidean separation need evidence for the exact same material and actual physical point. No flow integration on the full material atlas is inferred from a fixed-time-zero metric or a six-phase image cloud."
+  },
+  "public_runner": {
+    "workflow": {
+      "role": "public full Run39 direct physical bent-body and coupled intrinsic Killing search",
+      "name": "visible-larger-run39-bent-body-killing.yml",
+      "path": ".github/workflows/visible-larger-run39-bent-body-killing.yml",
+      "bytes": 3254,
+      "sha256": "97fca22427c14ad560f6c62a68c8b7559d4c0bb7317012e08706d6ed5c80723c",
+      "git_blob_sha": "de855249021ec79f8e4e4988c37c67ebb1801240"
+    },
+    "supervisor": {
+      "role": "complete public runner for a directly evaluated immutable bent disk field and its physical outputs",
+      "name": "observe_bent_disk_search.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_disk_search.py",
+      "bytes": 14863,
+      "sha256": "72e7af7195e1087fa96f3a93b6f1963e60ae8d1ee13d4036f647673f8c25b450",
+      "git_blob_sha": "c47dde7a91a32216afdb5f41ef2952fa3cb4b22c"
+    },
+    "request": {
+      "role": "complete immutable Run39 physical search, material vector field and fixed-source metric launch request",
+      "name": "run39-bent-body-killing-request.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/run39-bent-body-killing-request.json",
+      "bytes": 12873,
+      "sha256": "db295a4c9a9b124fbeed983c4d9b38349a78e0c70bd47020de0106cae6d2fb27",
+      "git_blob_sha": "9a0959d4895b2706f8e11bf5c5c2387cde1590b8"
+    },
+    "environment": {
+      "PYTHONUNBUFFERED": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONHASHSEED": "0",
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "python": "3.12.14",
+    "dependencies": [
+      "numpy==2.3.5",
+      "scipy==1.17.0"
+    ],
+    "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+    "queue_scope": "independent public trigger commit and original entry, with full immutable scientific sources in a detached worktree",
+    "scope": {
+      "scientific_summary": "One complete scientific summary.json updated per source-defined stage and on normal/exceptional return. The full small scientific summary and identity are included in the same attempt note.",
+      "raw_fields": "Full scientific data stay on the runner. Observe each whole NPZ byte size and SHA-256.",
+      "live": "the latest actual small stdout JSON line and complete per-candidate summary when available",
+      "complete_log": "every scientific stdout/stderr byte remains in the runner log with a final length and SHA",
+      "publication": "notes/run39-bent-body-killing-<actual_run>-<actual_attempt>.json and its own H marker after normal pull/rebase and capacity accounting",
+      "normal_exhaustion_or_unsatisfied_targets": "No conclusion of metric, reach, grip, global embedding or rigid-quotient success is inferred from the return code"
+    },
+    "public_attempt_note": "run39-bent-body-killing",
+    "attempt_marker": "<!--run39-bent-body-killing-->",
+    "public_topic_limit_bytes": 200000000,
+    "periodic_readme_pull_seconds": 2700,
+    "timeout_minutes": 360
+  },
+  "actual": {
+    "github_run_id": null,
+    "github_run_attempt": null,
+    "scientific_source_commit": null,
+    "shape_sha256": null,
+    "material_vector_sha256": null,
+    "point_sha256": null,
+    "fixed_target_identity": null,
+    "candidate_residuals": null,
+    "full_domain_readouts": null,
+    "phase_samples": null,
+    "held": null,
+    "reach": null,
+    "rigid_quotient": null,
+    "mathematical_solution": null
+  }
+}
