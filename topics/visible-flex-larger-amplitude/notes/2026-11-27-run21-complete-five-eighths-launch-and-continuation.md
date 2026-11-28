@@ -572,3 +572,135 @@ workflow原未存在的判断来自完整未截断Git tree，非只能返回1000
   ]
 }
 ```
+
+## 7. 2026-11-28 00:01:56 UTC — 第一个必要输入真实返回
+
+maker步骤真实returncode=0，总6.160448841999994秒，实际source bce727d650913286f0710e28736afecd599cb9d1/89cc，准备报告65334B/SHA a052a2ea0e07f10e67d93eb4e7b5b1138659fe9127a91b3b0d822d527c03b7ea。固定NPZ4334B/SHA b9e12a03...、完整nodes144306B及scalar40488B身份都在下面原whole记录；nodes/NPZ仅metadata未读取。target957cf0...是原固定数学，不是新候选场。此处仅maker已经返回，固定参考第二步和science尚未在本固定记录返回，所有本轮model/point/final/费用仍未知。
+
+以下完整保存本次小分卷原所有字；实际运行、全部source、每项输出完整SHA、完整命令/输入/cleanup/错误均不删。没有重算输入或搬运raw。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1-part-001.md",
+  "bytes": 5756,
+  "sha256": "caf0a4e6c6cfd6e486e3bc2e5efefc6268980cf511403f6637cc5acdec5707df",
+  "git_blob_sha": "46f3cc8f5fc8dcdd913c8e729a9d8fad52249a24",
+  "fixed_commit": "e9d1ed055bce5e239d8ea2d28e08915ba3275db2"
+}
+```
+
+# 公开Actions 46084442413/1：实际阶段 1–1
+
+[运行](https://github.com/Rogerhu12/math-research-public/actions/runs/46084442413)；[总索引](2026-11-27-public-actions-46084442413-1.md)。
+
+本卷完整保留这些实际阶段的紧凑输入/源码/参数/输出身份，不存科学数组或逐点报告。
+
+## 1. followup:prepare-complete-fixed-fejer-r690-inputs-20261127
+
+```json
+{
+  "name": "followup:prepare-complete-fixed-fejer-r690-inputs-20261127",
+  "state": "completed",
+  "returncode": 0,
+  "seconds": 6.160448841999994,
+  "scope": "Necessary complete deterministic new mathematical input. Restore the exact accepted099 scalar-parameter source; extract the whole e640 projection; construct the fixed seven-mode RN-even Fejer chart, all 923 exact affine nodes and complete FullHold node/radius error ledger. No warm/BVP/pulse field, old core, old final, F/J/normal root or geometric certificate is used. This is a new fixed target; original branches and old literal-address provenance are retained explicitly.",
+  "metrics": {
+    "fixed-fejer-r690-inputs/report.json": {
+      "schema": "complete-fixed-fejer-r690-input-preparation-v1",
+      "source": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+      "status": "complete",
+      "complete": true,
+      "seconds": 0.6605406280000068,
+      "definition": "5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a",
+      "target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "actual_run": "46084442413",
+      "actual_attempt": "1",
+      "actual_source_commit": "bce727d650913286f0710e28736afecd599cb9d1",
+      "all_input_source_output_rechecked": true,
+      "physicalF": 0,
+      "J_evaluations": 0,
+      "normal_roots": 0
+    }
+  },
+  "outputs": [
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/report.json",
+      "sha256": "a052a2ea0e07f10e67d93eb4e7b5b1138659fe9127a91b3b0d822d527c03b7ea",
+      "bytes": 65334
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+      "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+      "bytes": 4334
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+      "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+      "bytes": 144306
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+      "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+      "bytes": 40488
+    }
+  ],
+  "input_files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "commit": "bce727d650913286f0710e28736afecd599cb9d1",
+      "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60"
+    },
+    {
+      "role": "followup_queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-21.json",
+      "path_commit": "95ae5c2399664bed1b9597611b7385cb4e8d6d5e",
+      "checkout_commit": "bce727d650913286f0710e28736afecd599cb9d1",
+      "sha256": "c83981e0ed294593207c780a863f9328d120103929cbd58f58810e42f3af9d6c"
+    }
+  ],
+  "source_commit": "bce727d650913286f0710e28736afecd599cb9d1",
+  "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/followup-sources/0001-167d7c1a5813-bce727d65091/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+    "--repo",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/followup-sources/0001-167d7c1a5813-bce727d65091",
+    "--outdir",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs",
+    "--panels",
+    "128"
+  ],
+  "cleanup_generated": {
+    "deleted": {
+      "record_count": 0,
+      "recorded_bytes": 0,
+      "records_with_bytes": 0,
+      "listed_file_count": 0,
+      "records_with_file_lists": 0,
+      "canonical_metadata_bytes": 2,
+      "canonical_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "canonicalization": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(',',':'); allow_nan=False",
+      "detail_scope": "Complete original entries remain in runner status.json and followup-journal.json; recorded_bytes sums only explicit bytes fields; listed_file_count counts only explicit files lists"
+    },
+    "skipped": {
+      "record_count": 0,
+      "recorded_bytes": 0,
+      "records_with_bytes": 0,
+      "listed_file_count": 0,
+      "records_with_file_lists": 0,
+      "canonical_metadata_bytes": 2,
+      "canonical_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "canonicalization": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(',',':'); allow_nan=False",
+      "detail_scope": "Complete original entries remain in runner status.json and followup-journal.json; recorded_bytes sums only explicit bytes fields; listed_file_count counts only explicit files lists"
+    },
+    "scope": "Only explicit patterns, newly generated regular caches and an already returned child; never parent/input/output files"
+  },
+  "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+  "summary_errors": [],
+  "missing_outputs": []
+}
+```
+
+

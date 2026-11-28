@@ -104,3 +104,7 @@
 ## 2026-11-27 23:58:02 UTC — 18第二restoration真实接受
 
 18第二4a822于23:54:15.965520真accepted-checkpoint返回，accepted2；Phi4954.618769177863/Gram.6374150628738562，reach+2.0460148700322605下降而distance_plus+.11873579237704324上升，全部六g和point/source/model保。reportfalse，不冒全域证明或final，继续第三方向。与17近同标量不构成同场。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。双README云核至`8acb49b4f191d66fc36c4b1d641cc9d7c498e975`无变（非pull）。
+
+## 2026-11-28 00:01:56 UTC — 21 maker实际返回
+
+首必要输入maker真实0/6.160448841999994s，source bce727d6/89cc；报告65334B/a052a2ea，原固定NPZ4334B/b9e12a03、全部nodes/scalar与完整命令/source/cleanup/缺值保[21全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)，并附完整原5756B分卷/固定Git身份。第二参考/科学此时尚未返回，未借19/20 actual填本轮point；raw不读取不搬运。双README云核至`b9be9a052d40b80c8a6d9d97f5e8537812cbeb3f`无变（非pull）。

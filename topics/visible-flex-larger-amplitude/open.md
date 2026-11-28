@@ -118,7 +118,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 README未完成；时长、阶段、失败和输入困难均非终点；按open顺序继续真正求解。
 
 
-下一独立width-only输入21选b/S=5/8、δ1/32、两mu.01，与19隔离比较宽度；[6件完整参数](computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json)已刊，启动准备中。[全源码分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保三b的准确支持/中央长度、mean域与未知λ排序：端层显式系数4/5、中央(3/2)λ比，不保证K改善。3/4合法但中央压缩更强；不凭粗R709失效拒输入。原小文件已存K/D/alpha，尚未live公开不得补值；完整空间witness与report保存时机、same-source restart不自动继承末阻尼的源码边界均保全文。
+下一独立width-only输入21选b/S=5/8、δ1/32、两mu.01，与19隔离比较宽度；[6件完整参数](computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json)已刊，官方46084442413/1已真启动。[全源码分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保三b的准确支持/中央长度、mean域与未知λ排序：端层显式系数4/5、中央(3/2)λ比，不保证K改善。3/4合法但中央压缩更强；不凭粗R709失效拒输入。原小文件已存K/D/alpha，尚未live公开不得补值；完整空间witness与report保存时机、same-source restart不自动继承末阻尼的源码边界均保全文。
 
 
 [ret53全台账](computations/legacy-native-generated-metadata-retention-53-complete-delivery.json)实施28个旧生成对象精确退存，主体净1822833B。原24源/全部参数/11run/6组workflow、所有数值payload/checkpoint/失败/未知保；两whole canonical及parent91绑定仍当前树。原reader需其旧路径则先完整Git恢复，不能用台账代原文件；容量整理不付科学结论。
@@ -128,4 +128,4 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 
 容量续求：ret54完整18旧生成对象已逐项退树、净1113720B；源/请求/全spec与数值输入不退，旧读者须恢复完整原字，详[全部保全账](computations/legacy-native-generated-metadata-retention-54-complete-delivery.json)。同一批将完整21启动/后参接上，不计数学完成。
 
-21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方46084442413/1、job140790598810已真启动，首次查询科学pending。科学/pure全包超95KB，真正返回后整步接pure，无删字段。
+21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方46084442413/1、job140790598810已真启动，maker实际0，第二参考/科学尚未返。科学/pure全包超95KB，真正返回后整步接pure，无删字段。
