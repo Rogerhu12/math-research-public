@@ -1,17 +1,19 @@
 {
-  "message": "ISP: prove complete NV idempotent cubic and launch the unique finite-center unit-Jacobian input",
-  "parentCommit": "c8c285fee6c7317c8d14749b71d25e703fef1802",
+  "message": "ISP: return complete singleton first jets and prove six-generator original presentation",
+  "parentCommit": "765b0c83b2aed141080f49c514f1b02dd853e733",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-idempotent-polarization-and-small-complete-cubic.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-positive-e-k-minus-two-finite-center-two-original-unit-jets-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-positive-e-k-minus-two-finite-center-two-original-unit-jets-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-positive-e-k-minus-two-finite-center-two-unit-jets.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Phi-small-complete-NV-polarization-2165-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Phi-small-complete-NV-polarization-2165-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-e-generic-k-complete-singleton-first-jets-and-six-generator-presentation.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-positive-e-generic-k-complete-singleton-NP-first-jets-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-six-columns-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-six-columns-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-small-monic-lambda-six-columns.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-1827-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-complete-singleton-first-jets-2170-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-complete-singleton-first-jets-2170-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +23,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-positive-e-k-minus-two-finite-center-two-unit-jets.yml"
+    "invariant-subspace-8542-phi-small-monic-lambda-six-columns.yml"
   ]
 }

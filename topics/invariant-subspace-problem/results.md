@@ -32,6 +32,8 @@
 
 ## 新增结论
 
+- [R150：正e一般k的完整singleton首阶、九次必要式与六元同点呈示](results/R150-appendix-unit211-W-b0-positive-e-generic-k-complete-singleton-first-jets-and-six-generator-presentation.md)：唯一首阶实际0.323524320秒/0，四原首阶中两式准确零，非零固定六阶反传余L33μ9；新qμ/PB首一六元环境与完整五原6×18呈示纸证，无单位或排空。
+
 - [R150：正确Phi第二头的原幂等元极化与完整NV短三次](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-idempotent-polarization-and-small-complete-cubic.md)：六完整交叉给NV=P+σ²(n0+2sE0)，B2上t系数精确零，4Qs²Kw·NV为显示普通三次小式且无M逆。仅新原恒等式，无运行/新头单位/排空。
 
 - [R150：正e k−2 ellunit的全部μ极点原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-entire-mu-pole-exclusion.md)：完整q2/R6先迫L1，所有正阶只两中心；唯一166f新原Jac/12jet真0.662619788秒/0，完整x5N5首−2x4/3或38x3且前阶QQ全零，两中心全排。k−2仅有限(3/5,−2)，新一般k完整N/P首阶首次派出。

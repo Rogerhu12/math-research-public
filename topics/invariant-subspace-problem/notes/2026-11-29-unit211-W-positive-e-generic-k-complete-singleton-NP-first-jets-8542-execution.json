@@ -1,0 +1,397 @@
+{
+  "schema": "isp-8542-complete-singleton-first-jets-original-result-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourceBlob": "2f951f2fb6a9733e4de9a9aa3a403f8e5d61087e",
+  "sourceSHA256": "958f1bbbf613211a047bb2adf91d340c8fd3ed23b5794470dee3f4d0ba9cfc5a",
+  "inputSHA256": "04cf1874716637ee8b1b65944212007a7d6c619b49b8f230f4e34bf377f35706",
+  "run": 46174516962,
+  "job": 141070093707,
+  "actual": {
+    "elapsed_seconds": 0.3235243199999971,
+    "max_child_rss_kib": 40120,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "92f3e866acacff93d72950b35d5b366fbf52d214",
+        "before": "92f3e866acacff93d72950b35d5b366fbf52d214",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T18:12:02.508537+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46174516962",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "92f3e866acacff93d72950b35d5b366fbf52d214",
+    "source_exit_code": 0,
+    "source_git_blob": "2f951f2fb6a9733e4de9a9aa3a403f8e5d61087e",
+    "source_sha256": "958f1bbbf613211a047bb2adf91d340c8fd3ed23b5794470dee3f4d0ba9cfc5a",
+    "stdout_bytes": 4943,
+    "stdout_sha256": "99ad0a454abd0d186cf4197588b57a9b95946c00025271ce0c1970efb0ff35a5",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "sourceCount": 4,
+      "labels": [
+        "complete_P_B_order_zero",
+        "complete_N_B_minus_P_B_divided_e",
+        "complete_P_C_divided_e",
+        "complete_N_C_divided_e"
+      ],
+      "jetAlgebra": "ordinary full Gram modulo e^2",
+      "originalNumerators": [
+        {
+          "degrees": [
+            9,
+            3,
+            3
+          ],
+          "totalDegree": 12,
+          "terms": 97,
+          "bytes": 1718,
+          "sha256": "1f59c34d4a409acb77e197c1f11a04e51f2023f8ae1f1cced6077bc6fbf8457c"
+        },
+        {
+          "degrees": [
+            11,
+            3,
+            3
+          ],
+          "totalDegree": 14,
+          "terms": 117,
+          "bytes": 2318,
+          "sha256": "a4603f2c28680c87e6358653de195595f9810f17897bf1d8370da15f83835c6e"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "totalDegree": -1,
+          "terms": 0,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "totalDegree": -1,
+          "terms": 0,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "originalDenominators": [
+        {
+          "degrees": [
+            8,
+            0,
+            0
+          ],
+          "totalDegree": 8,
+          "terms": 9,
+          "bytes": 159,
+          "sha256": "9d21571bb968065862739ace19ab5c54468ad87bf594fe6d00824c6b336adf62"
+        },
+        {
+          "degrees": [
+            10,
+            0,
+            0
+          ],
+          "totalDegree": 10,
+          "terms": 10,
+          "bytes": 180,
+          "sha256": "c6b7b88fb536c71e0c152abe1bf024b221317c28875914c73b89b8220fda01a2"
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 0,
+          "terms": 1,
+          "bytes": 15,
+          "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 0,
+          "terms": 1,
+          "bytes": 15,
+          "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+        }
+      ],
+      "originalPhysicalValueTermsHaveOrderAtLeastTwo": true,
+      "physicalFAndSigmaIntegralityPaidBySeparateOriginalPaper": true,
+      "allFourEquationsAtSameL_mu_f": true,
+      "noPhysicalFZeroOrLambdaSpecialization": true,
+      "firstFormCubicHeadAlreadyPaidNonzero": true,
+      "retainedWeightSupports": [
+        "L",
+        "L-1",
+        "2L-1",
+        "2L-3"
+      ],
+      "fixedNewPairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "fixedFCapacities": [
+        3,
+        3
+      ],
+      "stage": "new_complete_singleton_original_first_jets",
+      "seconds": 0.026808232999997017
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "fixedFCapacities": [
+        3,
+        3
+      ],
+      "determinant": {
+        "degrees": [
+          58,
+          9,
+          0
+        ],
+        "totalDegree": 67,
+        "terms": 587,
+        "bytes": 23198,
+        "sha256": "7337f04b6e42aa8df9fd1e459e6d6d3a8b0195688a5a102e95f4e9de41b816a3"
+      },
+      "reducedNecessaryScalar": {
+        "degrees": [
+          33,
+          9,
+          0
+        ],
+        "totalDegree": 42,
+        "terms": 337,
+        "bytes": 10670,
+        "sha256": "b2cd28dcd017f6802730eb09c5c536c08963d4ac8ac8d0040bd103d92834b734"
+      },
+      "removedOnlyPreviouslyExcludedWeightSupports": {
+        "degrees": [
+          25,
+          0,
+          0
+        ],
+        "totalDegree": 25,
+        "terms": 26,
+        "bytes": 619,
+        "sha256": "7adbe4696d2ed5681c1cda38b58a144bae36f7edc0df4a7bb9108490d331c812"
+      },
+      "fourActualOriginalMultiplierProfiles": [
+        {
+          "numerator": {
+            "degrees": [
+              32,
+              6,
+              2
+            ],
+            "totalDegree": 38,
+            "terms": 577,
+            "bytes": 16932,
+            "sha256": "b87e5379bd6fe07490b0e6bf51a356a88baa84baf09ad2c12e872e73b8293ef5"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 0,
+            "terms": 1,
+            "bytes": 15,
+            "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              32,
+              6,
+              2
+            ],
+            "totalDegree": 38,
+            "terms": 559,
+            "bytes": 16171,
+            "sha256": "833e6dedf425a40ccbfc6137eb356d0fdc3293c1c8390aaedbaf6a086bf4b370"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 0,
+            "terms": 1,
+            "bytes": 15,
+            "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              -1,
+              -1,
+              -1
+            ],
+            "totalDegree": -1,
+            "terms": 0,
+            "bytes": 2,
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 0,
+            "terms": 1,
+            "bytes": 15,
+            "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+          }
+        },
+        {
+          "numerator": {
+            "degrees": [
+              -1,
+              -1,
+              -1
+            ],
+            "totalDegree": -1,
+            "terms": 0,
+            "bytes": 2,
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 0,
+            "terms": 1,
+            "bytes": 15,
+            "sha256": "09fd7f6e6c63e50501a1908da4fbe0997357fdc3fd593638e578e4d221140236"
+          }
+        }
+      ],
+      "allSixSylvesterCoordinatesReturned": true,
+      "completeFourOriginalJetIdentityReturned": true,
+      "allUnpaidHeadsAndFixedDegreeDropFibersRetained": true,
+      "originalResidualScalarP1009Unit": false,
+      "noOldQ2R6N5GateReplayed": true,
+      "stage": "new_fixed_singleton_jet_complete_four_original_return",
+      "seconds": 0.23641169599999756
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "step": 3,
+      "allOriginalFibersRetained": true,
+      "stage": "new_fixed_singleton_jet_resultant_zero",
+      "seconds": 0.24486620999999786
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "step": 3,
+      "allOriginalFibersRetained": true,
+      "stage": "new_fixed_singleton_jet_resultant_zero",
+      "seconds": 0.25051953300000207
+    },
+    {
+      "fixedPairs": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "zero": false,
+          "profile": {
+            "degrees": [
+              33,
+              9,
+              0
+            ],
+            "totalDegree": 42,
+            "terms": 337,
+            "bytes": 10670,
+            "sha256": "b2cd28dcd017f6802730eb09c5c536c08963d4ac8ac8d0040bd103d92834b734"
+          },
+          "unit": false
+        },
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "zero": true
+        },
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "zero": true
+        }
+      ],
+      "statistics": {
+        "exactProducts": 3515,
+        "newOriginalJetIdentities": 6,
+        "newSylvesterCoordinates": 6,
+        "newFullOriginalReturns": 2,
+        "oldPaidSupportProducts": 43
+      },
+      "onlyThisAlreadyIntegralGenericKChart": true,
+      "noClaimFromNonzeroScalarAlone": true,
+      "genericResidueChartExcludedByReturnedUnit": false,
+      "noEntirePositiveERayOrWholeWClaim": true,
+      "ordinaryISPClaim": false,
+      "sourceSHA256": "958f1bbbf613211a047bb2adf91d340c8fd3ed23b5794470dee3f4d0ba9cfc5a",
+      "noCoefficientCacheWritten": true,
+      "stage": "new_generic_positive_e_complete_singleton_first_jet_input_finished",
+      "seconds": 0.25074698199999546
+    }
+  ],
+  "newSixGeneratorPresentation": "paper theorem only; no 18-column execution claimed",
+  "unitReturned": false,
+  "noOldProjectionReplayed": true,
+  "ordinaryISPCompleted": false
+}
