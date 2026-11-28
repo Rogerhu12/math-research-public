@@ -32,6 +32,8 @@
 
 ## 新增结论
 
+- [R150：正e k−2 ellunit的全部μ极点原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-entire-mu-pole-exclusion.md)：完整q2/R6先迫L1，所有正阶只两中心；唯一166f新原Jac/12jet真0.662619788秒/0，完整x5N5首−2x4/3或38x3且前阶QQ全零，两中心全排。k−2仅有限(3/5,−2)，新一般k完整N/P首阶首次派出。
+
 - [R150：正e一般k的物理f整性与原singleton零阶模型](results/R150-appendix-unit211-W-b0-positive-e-generic-unit-k-physical-f-integrality-and-singleton-model.md)：完整P_B的f³系数16(M0−1)(M0−2)/M0²已付单位，排全部f极点而保P02/D/G36首项零，全部Gram整；新完整N/P正阶输入由同点零阶恒等式衔接。附k−2全部μpole只能L1的原q2/R6纸证。
 
 - [R150：正e k−2 ellunit有限μ只余一个原中心](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-finite-mu-one-residue-center.md)：2e9d9c唯一0.063387298秒/0完整三源返回，未付二次准确为(L−3/5)²；原q/R6代回仅μ−2，λ1/2,T−1/2。L3/half/1有限支全排，未排最终中心；L1pole两新局部jet首次派出。
