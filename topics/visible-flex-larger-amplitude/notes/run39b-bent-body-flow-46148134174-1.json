@@ -239,13 +239,80 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T13:08:55Z",
-  "phase": "scientific-entry",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2768,
   "child_returncode": null,
-  "latest_observed_scalar_line": null,
-  "scientific_summary": null,
+  "latest_observed_scalar_line": {
+    "ordinal": 6,
+    "utc": "2026-11-28T13:09:14Z",
+    "original": {
+      "event": "stage",
+      "stage": 5,
+      "source": "equal-Jacobi-wide",
+      "Killing": 19.74646925964509,
+      "K": 10.495419186086886,
+      "base_gram": null,
+      "point_sha256": "199ada5542fd6c7a28362aa191d02daf5972f780f87e00f273ce6d439a033c17"
+    }
+  },
+  "scientific_summary": {
+    "file": {
+      "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/field/summary.json",
+      "bytes": 1983,
+      "sha256": "835f3a8a1e43c75d8fce4d35fa19be2989fcfbc37fa85818867216d78a9bc04c"
+    },
+    "complete_small_json": {
+      "actual_replay": {
+        "argv": [
+          "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+          "-u",
+          "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_killing.py",
+          "--params",
+          "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/computations/bent-body-killing-design-v1.json",
+          "--geometry-source",
+          "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r745_equal_meridian_jacobi_two_jets.py",
+          "--out",
+          "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/field/parent-full-replay"
+        ],
+        "elapsed_seconds": null,
+        "last_stage_scalar": {
+          "K": 10.495419186086886,
+          "Killing": 19.74646925964509,
+          "base_gram": null,
+          "event": "stage",
+          "point_sha256": "199ada5542fd6c7a28362aa191d02daf5972f780f87e00f273ce6d439a033c17",
+          "source": "equal-Jacobi-wide",
+          "stage": 5
+        },
+        "pid": 2803,
+        "returncode": null,
+        "scope": "Complete original eleven stages and all budgets; original independent terminal record stays separate."
+      },
+      "certificate": null,
+      "elapsed_seconds": 8.058012624999996,
+      "full_result": null,
+      "original_attempt": "1",
+      "original_child_returncode": 0,
+      "original_observation": {
+        "bytes": 75633,
+        "name": "run39-bent-body-killing-46146451800-1.json",
+        "sha256": "1642366bf3aaa09cc3e5d9b4c31af5b2ea55ffb168cb0b4fd2f7193e19299351"
+      },
+      "original_run": "46146451800",
+      "original_runner_summary_identity": {
+        "bytes": 65540,
+        "path": "/home/runner/work/_temp/run39-bent-body-killing-46146451800-1/field/summary.json",
+        "sha256": "06a7fa77c1063560fc6414da23af584ec5d92117946b6f51ec6cafb01f0ef192"
+      },
+      "original_source_commit": "c3e685703f28928dfe8cb8d9b71d2d3ed99285ef",
+      "schema": "run39b-actual-closed-chart-finite-flow/v1",
+      "scope": "Three original-source target/candidate fields; complete finite time 0 through pi on named material points, with full two-dimensional variations. Spatial sample and numerical integrations only.",
+      "stages": [],
+      "status": "parent_replay_start"
+    }
+  },
   "whole_runner_field_files": null,
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
@@ -273,5 +340,7 @@
     "OMP_NUM_THREADS": "1",
     "MKL_NUM_THREADS": "1"
   },
-  "child_started_utc": "2026-11-28T13:09:05Z"
+  "child_started_utc": "2026-11-28T13:09:05Z",
+  "observed_utc": "2026-11-28T13:09:33Z",
+  "original_scalar_line_count": 6
 }
