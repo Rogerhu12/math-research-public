@@ -105,12 +105,12 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 真实数值及独立比较
 
-固定Fejer g/M160/J923/N2048/32stage；157/7词、458/445formal、全变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知，完整末态/末真pull保。19–26完整科学report未返，进度不能接准确费。
+固定Fejer g/M160/J923/N2048/32stage；157/7词、458/445formal、全变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知，完整末态/末真pull保。19完整report自然返；20–26未返，进度不能接准确费。
 
 | 完整记录 | 已登记实际边界 |
 |---|---|
 | [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计。 |
-| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2两μ.01；b0f8/accepted3/g.9666075350730359；下一20d617 Phi3824.990529790781/Gram.6460480621212836，仅统计。 |
+| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | science自然exit0/report63722853B；20d617/accepted4/Phi3824.990529790781/Gram.6460480621212836/g.9662472339877322仍不可行；整pure接续。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；b6cb/accepted2/Phi3824.9619403696915/Gram.6460452977630746/g.966040127402165，六族仍不可行；下一e70a仅开始。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；1b3b真实拒，下一5f731 Phi3233.3855480813995/Gram.6568825764431082，仅统计。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb/accepted1/Phi681.6511710299278/Gram.4061652579029476；reachg.5294703284893127/distplus.11391376026366629仍正。 |

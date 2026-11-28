@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`ab86fe9efe299f8e038fbc0143ffee61a20a06f5`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`15c5fef6b262e5d97b067a4bd769d38399111788`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
 科学仅公开Actions；新raw只runner/scratch。保全源参/run/whole输出身份/typed/未知失败；不新增AST/fixture/重跑/审查门，不减目标或预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。根15允许退可完整再生旧数据，保结论/源参/run/SHA/精确恢复；前批包装范围不是全局旧raw禁令。
@@ -18,7 +18,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | run | 已记实际边界 |
 |---|---|
 | 12–18 | 官方cancelled，原因未知；完整终态/末真pull/未返科学保。18末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计。 |
-| 19=46076669320 | b0f8/accepted3/g.9666075350730359；下一20d617统计返，几何未知。 |
+| 19=46076669320 | science自然exit0/report63722853B；20d617/accepted4/g.9662472339877322仍不可行；原完整pure已接待返。 |
 | 20=46079535427 | b6cb/accepted2/g.966040127402165；六族返，下一e70a仅开始。 |
 | 21=46084442413 | 初7e06/accepted0/g2.541916739245917；1b3b真实拒，下一5f731仅统计。 |
 | 22=46090913581 | 半波b1/2；97fbb/accepted1；reachg.5294703284893127/distplus.11391376026366629仍正。 |
@@ -27,7 +27,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 25=46099929359 | 两input0；初7e06/model6f3ae32/accepted0，Phi/Gram/六g同22初场；K12.32709940409259、s2.1573631007205925、phiπ/2真返。 |
 | 26=46103106086 | 03:29:40Z从a6c9c101启动，job140849792210；R725 b1/2/ε1/8实际新场待返。 |
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数/位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解全证。ε1/8显式15/b→64/(7b)，不推wholeK，高阶及存在条件保。[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)137pair18变119保/22runtime；全epsilon/八cut/Q/校准真变。[26参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)保157/7词、458/445formal、64live、5CLI+13external。[完整启动](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)初队列74270B；science+pure118380B，须自然返后整接pure52340B。19–26完整科学report未返，进度不是准确费输入。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数/位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解全证。ε1/8显式15/b→64/(7b)，不推wholeK，高阶及存在条件保。[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)137pair18变119保/22runtime；全epsilon/八cut/Q/校准真变。[26参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)保157/7词、458/445formal、64live、5CLI+13external。[完整启动](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)初队列74270B；science+pure118380B，须自然返后整接pure52340B。19完整report自然返；20–26未返，进度不是准确费输入。
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet/跨机制扰动全证。显式θ替2tan(θ/2)不推wholeK；新Slerp源实施中，不混25/26或继承旧凸势/校准。27拟同R725源b5/8全参数独立计算，旋转/第二角等价候选另保，未宣称加速。
 
 [准确续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)全文责任保：N/G首次绝对路径、whole N及稳定report/snapshot；N变另G，R723/mesh fresh。packet可trial但须complete report；restart须同runner report/13final/全typed，CLI不继末μ。normal.complete不代branch，mean J不代Cu；R709/R722全域六jet/32stage/全尾/全phase/晚失败保。R718 marked/R716 unmarked独立；五t/15mesh/三级真精化待付。22准确17+mesh18、23准确31、26准确37完整件已保护待容量，不拿旧family准入新模型。

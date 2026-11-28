@@ -1418,3 +1418,81 @@ current仍b0f8f2b00d00956db896777f053e196fabc60c9b961f5193e725ddad4f19abee，acc
   }
 ]
 ```
+
+## 2026-11-28 03:45:09 UTC — 第19组完整科学自然返回并接原完整pure
+
+实际19/46076669320/1在原完整157词、32stage、4恢复方向等原预算下自然返回，exit0，17453.083330151秒；不是平台终态或mutable progress。完整report为63722853B/ed1ea5db4d0b8961a954ccdd31d1f4662477537a64457db3d7c9eb8875ae3856，command50552B/fe75eb24fe48b0a490ded59b78ce1418f4c7d2ab11805675185d3dc1616beaf3，仅runner，不取大body。实际source36304a0df074fcacc324d9c8eda79a5620b6a897；launcher f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506与driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f分开。
+
+原stop=`declared_restoration_budget; actual_violation_remains_and_is_not_accepted`，complete=true只是原report完整。current20d617114ba603edf83e02f342ae26946054cc69a6f99d5f7a9bc474981af45f/accepted4，Phi3824.990529790781/Gram.6460480621212836；六g依次reach .9662472339877322、body −.03813557730789774、distance+ .005865730451148687、distance− −3.0936337267194034、cap −.06715136488669782、height −1.0411715338774452，仍不可行。model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add，final bundle979986bc7b4deb2a62c5595c440f1ec73dcbf1cfde3a1fa47e15c4e520ed53fb；全13final/typed/envelope及source角色不能以这些标量替代。原返回19个summary_errors（missing None/metric direction空等）全保原分卷，不补0/成功。实际last trial alpha1及1979.7416288919994s保。
+
+仅退已自然返的原3整step；完整原queue在固定提交逐字保留。立即整接原pure的7词/445formal，原输入report与原完整字段全保，finish_when_done=false，无新增验证门、无缩短步骤。pure未实际返，准确N/G/R723/R716/mesh及同源restart原责任继续；报告失败数值不作为停止研究理由。
+
+```json
+{
+  "complete_evidence": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1.md",
+      "bytes": 28712,
+      "sha256": "64f6cdad9717c9aa87a2438c7e87c54a3b8354756ddb38e41c464c21fcd4c460",
+      "git_blob_sha": "8873e4f2b7dea929057ec339a23b3d5c943b33b7",
+      "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
+      "scope": "Complete original body, including all actual commands, input/output identities, values, failures and unknowns."
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1-part-001.md",
+      "bytes": 53981,
+      "sha256": "426544bcb938978f55592651c482ad62f871beb2af2e17889420f989fda6218d",
+      "git_blob_sha": "f8e2533d3250ae712aa60b79b229a753576577e4",
+      "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
+      "scope": "Complete original body, including all actual commands, input/output identities, values, failures and unknowns."
+    }
+  ],
+  "whole_original_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-19.json",
+    "bytes": 72837,
+    "sha256": "169d44c8e6787dfdcf4fc5e734807b4c376351b60765d0b2c5d574654bdd1696",
+    "git_blob_sha": "1139a1f17bce209ebc22ae24caad5709d3ea15eb",
+    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8"
+  },
+  "retired_only_actual_naturally_returned_step_ids": [
+    "prepare-complete-fixed-fejer-r690-inputs-20261127",
+    "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run19",
+    "complete-fixed-fejer-meridian-batched-bhalf-first-20261127"
+  ],
+  "complete_original_pure_ready": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-bhalf-pure-complete-ready.json",
+    "bytes": 80254,
+    "sha256": "8a5f9ff71bc598f77b25c36aeaad833f048dc6b4d218de2df44fda92709e73b7",
+    "git_blob_sha": "202b6ca81c72c009c34c04094ef234db2e337328",
+    "whole_json_pointer": "/steps/0"
+  },
+  "new_pure_only_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-19.json",
+    "bytes": 52138,
+    "sha256": "37caf68c50a85f95931deab116c1c76e5172aac95ab6ffce50b8102a49acee88",
+    "sha": "fc769851d47ae5ad735d5abbe1d7609e06c3c966"
+  },
+  "full_pure_step_byte_equal_to_ready": true,
+  "full7argv_and445original_formal_selectors_preserved": true,
+  "actual_science_outputs": [
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-meridian-batched-bhalf-first/report.json",
+      "sha256": "ed1ea5db4d0b8961a954ccdd31d1f4662477537a64457db3d7c9eb8875ae3856",
+      "bytes": 63722853
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-meridian-batched-bhalf-first-command.json",
+      "sha256": "fe75eb24fe48b0a490ded59b78ce1418f4c7d2ab11805675185d3dc1616beaf3",
+      "bytes": 50552
+    }
+  ],
+  "actual_science_source_commit": "36304a0df074fcacc324d9c8eda79a5620b6a897",
+  "actual_launcher_sha256": "f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506",
+  "actual_driver_sha256": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+  "actual_model_identity_sha256": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
+  "actual_final_bundle_sha256": "979986bc7b4deb2a62c5595c440f1ec73dcbf1cfde3a1fa47e15c4e520ed53fb",
+  "actual_current_point": "20d617114ba603edf83e02f342ae26946054cc69a6f99d5f7a9bc474981af45f",
+  "pure_has_not_yet_returned": true,
+  "scientific_goal_completed": false
+}
+```
