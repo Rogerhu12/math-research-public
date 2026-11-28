@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `bb810bc03e77a62de49534313dd57d5a81e9e479`（2026-11-28 15:32 UTC）。
+- 最近实际pull后双README已读锚 `60d0827241c3278a9c6dc28b19096bff009f7b43`（2026-11-28 15:33 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
 - 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`；断线时只传小文本，不是假称本地pull。恢复后的实际pull已收齐所有回退提交。
 - 根§12直接推进，不加审批；§15只存源/参数/hash/小结果，不存可再生数据；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论先pull核规则再push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
@@ -38,6 +38,7 @@
 
 [R83](results/R83-actual-closed-third-activity-and-euclidean-separation.md)同965叶全前缀真第三矩与R81/真实ell合成ReA3∈[.1392755359019308,.15002395770094334]，付δE>0；[R84](results/R84-actual-endpoint-third-tensor-separation.md)准确C3/z/y对称给指定0、9/20端点I3差>7e−19。
 [R86新完整圆盘标记](results/R86-full-disk-marker-with-unchanged-geometry-budget.md)令半径2r0、准确Fraction幅度1600ε0，公共Cartesian两jet保持，新帽K≤10.08，原D/support/reach全界不变；端点I3差准确51200倍且>3.59e−14。只在固定双盘改目标g，不冒同g精化；新Python尚未执行，BigInt标量证书已真返回。
+[R88定量全E(3)距离](results/R88-quantitative-euclidean-hausdorff-from-third-moment.md)用正支撑径向图/Steiner平移控制证明|ΔI3|≤16640d；原canonical端点dE>4e−23，新完整盘dE>2e−18，δE/D分别>1/(6e22)、1/(1.2e18)。准确Fraction后果已真exit0，不是最优配准或实际距离。
 
 最终coupled仍须独立绑candidate_H；generic8outer watcher57014真exit1/ENOSPC，从未native/J/子启动，无最终physical-H。
 
@@ -51,6 +52,6 @@ fixed actual-DN五源及Cartesian/continuous/closed/mesh四reader已恢复本地
 
 ## 4. 资源与继续
 
-work根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。恢复时RAM可用约8.6GiB、磁盘约92MiB。完整冷CSR/factor/旧CSC双hardlink及accepted raw仍在；angular gzip保留。释放只在真无损重建/逐字SHA关系已核后做，旧输入不覆盖，无Library/Release上传。root先保R86/R87再继续R88定量Hausdorff；设计校准新profile、解析跑全24列、尾补剩余真实metric并继续新帽界。
+work根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。恢复时RAM可用约8.6GiB、磁盘约92MiB。完整冷CSR/factor/旧CSC双hardlink及accepted raw仍在；angular gzip保留。释放只在真无损重建/逐字SHA关系已核后做，旧输入不覆盖，无Library/Release上传。R86/R87/R88已登记；设计校准新profile、解析跑全24列、尾补剩余真实metric并继续新帽界。
 
 每完成一个子题立即接open下一项；无时间或阶段停止。准确λ1→完整DN/公共两jet→全部闭图比例→固定g谱/径向/时间精化仍为实际完成链。所有旧R53–R81范围见[索引](results.md)和归档，不重做。

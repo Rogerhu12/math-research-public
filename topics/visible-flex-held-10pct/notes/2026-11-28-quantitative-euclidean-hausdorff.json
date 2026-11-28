@@ -1,0 +1,72 @@
+{
+  "status": "R88_exact_constants_and_actual_source_consequences_passed",
+  "proof": "results/R88-quantitative-euclidean-hausdorff-from-third-moment.md",
+  "source_sha256": "824e147360c14a59d519b1616bfa31fecfaacd8e8b9141811dda69ca1a8c3592",
+  "inputs": {
+    "R82": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-actual-marked-column-closed-geometry.json",
+      "sha256": "d966ce31e136a7c74dddad64e549d02cee5392016f8350d9b75960cc786d635e"
+    },
+    "R84": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-actual-endpoint-third-tensor-separation.json",
+      "sha256": "27cc6ba4ecc5a1da19aa80f599eca660c3f36a0ff01ed0013bdbefafcdacd80a"
+    },
+    "R86": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-full-disk-marker-geometry-and-endpoint.json",
+      "sha256": "ee0ca41045a20b0790187ae4cf97629d48b63408c2fcd3e9cad354f3dc55365c"
+    }
+  },
+  "same_actual_bindings": {
+    "source_run": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+    "packet": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c",
+    "bundle": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98",
+    "mean": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9",
+    "query": "877e68d97868524ed3cde4bca1090fbe8a4a207370e7b6c761da2b5963378cab",
+    "geometry": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c",
+    "combine": "f109408b33c9726fcdc22efeed555c4889edcd8bc96c3cd1ad526fe6833d0676"
+  },
+  "exact_constants": {
+    "actual_radius_upper": "2685290058999727/2251799813685248",
+    "actual_support_lower": "722838986087113/1125899906842624",
+    "radius_upper_used": "6/5",
+    "support_lower_used": "3/5",
+    "small_distance_cutoff": "1/100",
+    "translation_factor": "3",
+    "shifted_radius_upper": "5/4",
+    "spherical_radial_gradient_upper": "12/5",
+    "radial_difference_factor_upper": "95/7",
+    "symmetric_difference_volume_factor_upper": "275",
+    "body_volume_upper": "6336/875",
+    "centered_tensor_norm_upper": "1368576/109375",
+    "translation_tensor_difference_factor_upper": "3564/35",
+    "full_tensor_difference_factor_upper": "1431221/2240",
+    "simplified_squared_norm_difference_factor": "16640"
+  },
+  "consequences": {
+    "R84_canonical": {
+      "strict_tensor_gap_lower": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/1643979807941683259522636417752535919162977784235823909495103680072546317580225910424589298869338092122354483200000000",
+      "derived_strict_endpoint_E3_Hausdorff_lower": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/27355824004149609438456669991402197694871950329684109853998525236407170724534959149465165933185785852915978600448000000000",
+      "clean_strict_endpoint_E3_Hausdorff_lower": "1/25000000000000000000000",
+      "whole_diameter_upper_used": "12/5",
+      "clean_strict_delta_E_over_D_lower": "1/60000000000000000000000",
+      "is_actual_distance_or_optimal_alignment": false
+    },
+    "R86_full_disk": {
+      "strict_tensor_gap_lower": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/32108980623861001162551492534229217171151909848355935732326243751416920265238787312980259743541759611764736000000",
+      "derived_strict_endpoint_E3_Hausdorff_lower": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/534293437581047059344856835769574173727967779876642770585908696023577553213573420887991522132534879939765207040000000",
+      "clean_strict_endpoint_E3_Hausdorff_lower": "1/500000000000000000",
+      "whole_diameter_upper_used": "12/5",
+      "clean_strict_delta_E_over_D_lower": "1/1200000000000000000",
+      "is_actual_distance_or_optimal_alignment": false
+    }
+  },
+  "hypotheses_proved_geometrically_not_sampled": [
+    "C3 and z reflection force both centroids and convex-hull Steiner points to zero",
+    "positive support and the existing embedded spheres give radial graphs",
+    "Steiner translation bound and the centered tensor comparison hold for all O(3), including reflections"
+  ],
+  "new_integrals_or_BVP_or_alignment_executed": false,
+  "new_geometric_quantitative_bound": true,
+  "fixed_problem_convergence_or_lambda_one_or_README_completion": false,
+  "actual_execution_UTC": "2026-11-28T15:33:01.473222+00:00"
+}

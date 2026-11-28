@@ -233,3 +233,7 @@ R85补充：[原完整回代误差及小块验证](results/R85-supplement-comple
 ## R87. 单缓坡新轮廓与半曲率长握持窗
 
 [完整证明](results/R87-single-gentle-ramp-half-curvature-held-window.md)。取k=1/2、S=27/40、b=3/10、α=4/5并真正更换上升轮廓；首圆片Km²≤129600/931、保护传播窗在首升速内耗尽，50 Bernstein盒给首周期|X|<1.34。明确新输入下的条件H/held/reach比例，原核心支持参数须A≤2/3；完整新非圆BVP/DN/闭图和固定g精化继续。
+
+## R88. 三阶中心矩给全欧氏群 Hausdorff 定量下界
+
+[完整证明](results/R88-quantitative-euclidean-hausdorff-from-third-moment.md)。对已证|X|≤6/5、X·n≥3/5且三重/z对称的两真实端点，任意刚体对齐都有dH≥min(1/100,|ΔI3|/16640)。所以canonical dE>4e−23、R86新盘dE>2e−18，归一化下界分别1/(6e22)、1/(1.2e18)。未使用采样配准或凸包体积替代真实体积，完整有理后果已实际执行。
