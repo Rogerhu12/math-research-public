@@ -1,0 +1,72 @@
+name: Run 46 compensated negative bridges on the fixed R767 metric
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-larger-amplitude/computations/run46-preloaded-bridge-request.json'
+      - '.github/workflows/visible-larger-run46-preloaded-bridge.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-run46-preloaded-bridge
+  cancel-in-progress: false
+
+jobs:
+  finite_amplitude:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out the triggering public source commit
+        id: checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_shared_rim_search.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_preloaded_bridge_search.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_phase.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_fields.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_system.py
+            /topics/visible-flex-larger-amplitude/computations/bent-preloaded-bridge-phase-design-v1.json
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r767_terminal.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r770_compensated_negative_bridge_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_negative_track_profile.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_preloaded_cap_atlas.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_closed_meridian_bridge.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py
+            /topics/visible-flex-larger-amplitude/computations/run46-preloaded-bridge-request.json
+            /topics/visible-flex-larger-amplitude/notes/run46-preloaded-bridge-*.json
+      - name: Select the pinned public numerical Python
+        id: python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Execute both compensated bridge families and export each final closed field
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+          PYTHONUNBUFFERED: '1'
+          RUN46_PYTHON_SETUP: ${{ steps.python.outcome }}
+        shell: bash
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_preloaded_bridge_search.py
+          --request topics/visible-flex-larger-amplitude/computations/run46-preloaded-bridge-request.json
+          --setup-conclusion "$RUN46_PYTHON_SETUP"

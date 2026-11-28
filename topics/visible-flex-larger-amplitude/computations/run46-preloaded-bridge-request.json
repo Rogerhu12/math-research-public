@@ -1,0 +1,471 @@
+{
+  "schema": "visible-larger-run46-preloaded-bridge-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_number": 46,
+  "source_branch": "main",
+  "scientific_mode": "Six full positive-amplitude solve starts on the compensated R770 bridges, the nonplanar R767 physical atlas and its exact phase-zero metric. The reference has even and non-even polarization families. Each fitted bridge, adjacent roll and cap shares three physical correction channels.",
+  "full_candidate_solution_or_accurate_certificate_assumed": false,
+  "scientific_inputs": {
+    "script": {
+      "role": "script",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_phase.py",
+      "name": "bent_preloaded_bridge_phase.py",
+      "bytes": 11469,
+      "sha256": "9a32455ae600332b62f7cba3619e641d13f19bfaf0a0f9c509559274c8b1db62",
+      "git_blob_sha": "2d8d324083fcc8d44b681f1654dfcfb7cd2ec2bc"
+    },
+    "bridge_fields": {
+      "role": "bridge_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_fields.py",
+      "name": "bent_preloaded_bridge_fields.py",
+      "bytes": 5037,
+      "sha256": "c37e7f9455cb4a2caffaff3bbbc8614ea389a8b86b709c897e9b628332d7f67f",
+      "git_blob_sha": "802a18ae4062caca6c1b1c26ccadf85a5e6abb19"
+    },
+    "bridge_system": {
+      "role": "bridge_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_system.py",
+      "name": "bent_preloaded_bridge_system.py",
+      "bytes": 5861,
+      "sha256": "507c6a8036b9a86b32b3477a0b7f7622382f134239f47d82a5758f598b1d23ba",
+      "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+    },
+    "parameters": {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-preloaded-bridge-phase-design-v1.json",
+      "name": "bent-preloaded-bridge-phase-design-v1.json",
+      "bytes": 4156,
+      "sha256": "4c9a47a7421c5ea95c8313067c65280a9dd6ee190b8477dc82e3eb534ff4c962",
+      "git_blob_sha": "cad4cabce135402a0e6562122a2806523e150098"
+    },
+    "export_source": {
+      "role": "export_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r767_terminal.py",
+      "name": "closed_body_mesh_r767_terminal.py",
+      "bytes": 9070,
+      "sha256": "2d7b3ffaeb67caf1e1962436b53608e79ffaca9c1c219d9909c3282e34b47720",
+      "git_blob_sha": "9a3f96430485a976f6caf2ff7873b8cad035741b"
+    },
+    "geometry_source": {
+      "role": "geometry_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r770_compensated_negative_bridge_two_jets.py",
+      "name": "r770_compensated_negative_bridge_two_jets.py",
+      "bytes": 13504,
+      "sha256": "572f640a935cf10d64c8f0c828002eac18497d2ea5c32298980c45530f33c8c7",
+      "git_blob_sha": "0c8ca6ed7f515d0f3ac9856f4eaffb013f285eb9"
+    },
+    "r767_profile": {
+      "role": "r767_profile",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_negative_track_profile.py",
+      "name": "r767_negative_track_profile.py",
+      "bytes": 4051,
+      "sha256": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+      "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+    },
+    "r767_cap": {
+      "role": "r767_cap",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_preloaded_cap_atlas.py",
+      "name": "r767_preloaded_cap_atlas.py",
+      "bytes": 4615,
+      "sha256": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+      "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+    },
+    "r767_bridge": {
+      "role": "r767_bridge",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_closed_meridian_bridge.py",
+      "name": "r767_closed_meridian_bridge.py",
+      "bytes": 8071,
+      "sha256": "3870aa6ad9a1e0f56052a9f783a178742894bf8629153794433fb6fbc7a489e3",
+      "git_blob_sha": "8e706b78e4a09946767577441daf0c0c8c33d2c9"
+    },
+    "r740": {
+      "role": "r740",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "name": "r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    "r742": {
+      "role": "r742",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "name": "r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    "terminal_mesh": {
+      "role": "terminal_mesh",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+      "name": "closed_body_mesh_terminal.py",
+      "bytes": 16874,
+      "sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+      "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+    },
+    "mesh_geometry": {
+      "role": "mesh_geometry",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py",
+      "name": "closed_body_mesh_geometry.py",
+      "bytes": 8315,
+      "sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+      "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+    }
+  },
+  "source_commit": "the actual workflow triggering Git commit, retained in its immutable detached scientific worktree",
+  "original_arguments": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-preloaded-bridge-phase-design-v1.json",
+    "--geometry-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r770_compensated_negative_bridge_two_jets.py",
+    "--export-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r767_terminal.py",
+    "--out",
+    "{runner_temp}/run46-preloaded-bridge-{run}-{attempt}/field"
+  ],
+  "scientific_budget_source": "Full committed bent-preloaded-bridge-phase-design-v1.json and the frozen direct bridge solve.",
+  "scientific_protocol": "All three non-even and all three even starts each run the full two-interval physical solve. Both winners independently run the complete 4, 8 and 16 interval refinements. All physical Gauss–Newton steps and line trials use the stated trust budgets and all positive knots and midpoints. Both completed endpoint fields are evaluated on the same runner at 65 fixed verification phases plus the seven requested mesh phases. Cross-chart verification uses the true R767 material two-jets and the independent outer limit at the internal bridge join.",
+  "canonical_point_words": "The scientific identity routine hashes sorted compact JSON containing domain, design, basis names, physical source identities, phase-node words, full coefficient shape and little-endian binary64 coefficient hash, the phase interpolation and defining integration order. Original identities are returned for each stage and each terminal mesh.",
+  "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+  "python": "3.12.14",
+  "dependencies": [
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ],
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numeric_environment_parent": {
+    "path": ".github/workflows/visible-larger-public-small-core-full3-trust.yml",
+    "bytes": 13971,
+    "git_blob_sha": "e846d64025a9661ab8bf1449f26c7c8325af94b2",
+    "sha256": "5280636f0f773af4132792cbf699b2a26a10077522050a4a9f4a473b37333424"
+  },
+  "observe_period_seconds": 8,
+  "minimum_publish_retry_seconds": 20,
+  "live_scalar_publish_period_seconds": 120,
+  "readme_pull_period_seconds": 2700,
+  "public_remote_topic_bytes_limit": 200000000,
+  "action_job_timeout_minutes": 360,
+  "no_child_wallclock_cutoff_added_by_launcher": true,
+  "control_only": {
+    "supervisor": {
+      "role": "Complete Run46 scientific-document supervisor",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_preloaded_bridge_search.py",
+      "name": "observe_bent_preloaded_bridge_search.py",
+      "bytes": 1536,
+      "sha256": "61ebcf6289aeb241cc80357cad1cab9371923c2a6094dd8f3979a122ea3e75ac",
+      "git_blob_sha": "a65bf8db700d208f1ae39050410c52c0b0e7e992"
+    },
+    "workflow": {
+      "role": "Complete Run46 public frozen-source workflow",
+      "path": ".github/workflows/visible-larger-run46-preloaded-bridge.yml",
+      "name": "visible-larger-run46-preloaded-bridge.yml",
+      "bytes": 3957,
+      "sha256": "2f1feedd74f1265accc101f1455d9b711e17309bda5734c273c04889dc861fe8",
+      "git_blob_sha": "f13688651255944b0c194c9c373a242083946d02"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    "shared_full_publish_supervisor": {
+      "role": "public whole-stage and two-index shared-rim observer with the declared scientific library versions",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_shared_rim_search.py",
+      "name": "observe_bent_shared_rim_search.py",
+      "bytes": 17265,
+      "sha256": "cdcb914a0caac5d16e7bb05a659bfaecd17362a745928285e7a4ab5d717b1879",
+      "git_blob_sha": "0bb96a0c3338895e85e3b863c58cc68ebaa5294b"
+    }
+  },
+  "attempt_note_prefix": "run46-preloaded-bridge",
+  "handoff_marker": "<!--run46-preloaded-bridge-->",
+  "actual_observation_schema": "visible-larger-run46-actual-preloaded-bridge-v1",
+  "scientific_path_arguments": [
+    [
+      "--geometry-source",
+      "geometry_source"
+    ],
+    [
+      "--export-source",
+      "export_source"
+    ]
+  ],
+  "direct_input_lineage": {
+    "domain": "R767 closed sphere with its phase-zero metric, full right grip, non-star physical caps and both meridian ends.",
+    "reference": "R770 final compensated unit-speed meridians, shortened axial displacement 0.4, with even and non-even controls. The old hard endpoint law is a documented historical obstruction.",
+    "frozen_inputs": [
+      {
+        "name": "bent_preloaded_bridge_phase.py",
+        "git_blob_sha": "2d8d324083fcc8d44b681f1654dfcfb7cd2ec2bc"
+      },
+      {
+        "name": "bent_preloaded_bridge_fields.py",
+        "git_blob_sha": "802a18ae4062caca6c1b1c26ccadf85a5e6abb19"
+      },
+      {
+        "name": "bent_preloaded_bridge_system.py",
+        "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+      },
+      {
+        "name": "bent-preloaded-bridge-phase-design-v1.json",
+        "git_blob_sha": "cad4cabce135402a0e6562122a2806523e150098"
+      },
+      {
+        "name": "closed_body_mesh_r767_terminal.py",
+        "git_blob_sha": "9a3f96430485a976f6caf2ff7873b8cad035741b"
+      },
+      {
+        "name": "r770_compensated_negative_bridge_two_jets.py",
+        "git_blob_sha": "0c8ca6ed7f515d0f3ac9856f4eaffb013f285eb9"
+      },
+      {
+        "name": "r767_negative_track_profile.py",
+        "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+      },
+      {
+        "name": "r767_preloaded_cap_atlas.py",
+        "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+      },
+      {
+        "name": "r767_closed_meridian_bridge.py",
+        "git_blob_sha": "8e706b78e4a09946767577441daf0c0c8c33d2c9"
+      },
+      {
+        "name": "r740_rolled_disk_seed.py",
+        "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+      },
+      {
+        "name": "r742_tilted_disk_two_jets.py",
+        "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+      },
+      {
+        "name": "closed_body_mesh_terminal.py",
+        "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+      },
+      {
+        "name": "closed_body_mesh_geometry.py",
+        "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+      }
+    ]
+  },
+  "scientific_parameter_summary": {
+    "schema": "r770-preloaded-physical-phase-fit-v1",
+    "fixed_metric": "The exact phase-zero R767 full material map, including both nonplanar crowns and the true two-chart material overlaps; each optimizer and both refinements use this one target.",
+    "defining_order": 20,
+    "geometry": {
+      "R770": "572f640a935cf10d64c8f0c828002eac18497d2ea5c32298980c45530f33c8c7",
+      "R767_profile": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+      "R767_cap": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+      "R767_bridge": "3870aa6ad9a1e0f56052a9f783a178742894bf8629153794433fb6fbc7a489e3",
+      "pulse_width": 0.1,
+      "pulse_power": 2,
+      "axial_shortening": 0.4,
+      "edge_width": 0.0005,
+      "anchor": [
+        0.44,
+        0.45,
+        0.46,
+        0.47
+      ],
+      "odd_window": [
+        0.006,
+        0.088,
+        0.008
+      ],
+      "grip": "all R767 fixed right head central points",
+      "exact_geometry": "R770 original closed partial-isometry family with held unchanged; arbitrary fitted fields require their own full positive-phase geometry."
+    },
+    "families": {
+      "non_even": [
+        [
+          "first-odd",
+          [
+            0.46,
+            -0.32,
+            0.7,
+            -0.38,
+            0.24,
+            1
+          ]
+        ],
+        [
+          "countertwist",
+          [
+            -0.72,
+            0.9,
+            -0.8,
+            0.47,
+            0.63,
+            2
+          ]
+        ],
+        [
+          "third-sector",
+          [
+            1.05,
+            -0.76,
+            0.42,
+            0.82,
+            -0.73,
+            3
+          ]
+        ]
+      ],
+      "even": [
+        [
+          "normal",
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          "first-yaw",
+          [
+            0.65,
+            0.8,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          "return-yaw",
+          [
+            -0.7,
+            0.95,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      ]
+    },
+    "solver": {
+      "area_floor": 0.6,
+      "area_weight": 2.5,
+      "curvature_bound": 11.5,
+      "curvature_weight": 0.021,
+      "jac_chunk": 48,
+      "damping": 0.0015,
+      "cg_tol": 0.0002,
+      "cg_max": 160,
+      "step_displacement": 0.045,
+      "step_tangent": 0.23,
+      "line_trials": 9
+    },
+    "coarse": {
+      "level": 0,
+      "ns": 20,
+      "nv": 8,
+      "time_intervals": 2,
+      "order": 8,
+      "iterations": 4,
+      "check_ns": 27,
+      "check_nv": 11,
+      "check_order": 12,
+      "check_phases": 7
+    },
+    "refine": [
+      {
+        "level": 1,
+        "ns": 28,
+        "nv": 12,
+        "time_intervals": 4,
+        "order": 10,
+        "iterations": 7,
+        "check_ns": 37,
+        "check_nv": 15,
+        "check_order": 14,
+        "check_phases": 17
+      },
+      {
+        "level": 2,
+        "ns": 38,
+        "nv": 16,
+        "time_intervals": 8,
+        "order": 12,
+        "iterations": 8,
+        "check_ns": 49,
+        "check_nv": 19,
+        "check_order": 16,
+        "check_phases": 33
+      },
+      {
+        "level": 3,
+        "ns": 50,
+        "nv": 20,
+        "time_intervals": 16,
+        "order": 16,
+        "iterations": 9,
+        "check_ns": 65,
+        "check_nv": 25,
+        "check_order": 20,
+        "check_phases": 65
+      }
+    ],
+    "limits": [
+      "Six independently fitted actual finite fields; the best in EACH named reference-polarization family receives all 4,8,16 fixed-time refinements. The final fields in both families release all three Gram rows and can themselves be non-even.",
+      "The fixed central field and grip remain exact and all positive-phase outer rim/cap charts share genuine three-channel world displacements with the bridges. Fitted meridians are evaluated on all three metric entries. The reference alone has analytic unit speed.",
+      "The time interpolation, fixed intrinsic sphere and phase interval agree at every level. Defining integrals are the full R767/R770 expressions; quadrature approximation is reported at each physical order.",
+      "All pointwise bounds, intersections and directed distances, unless separately proved, are finite samples. Raw coefficients and fourteen compressed PLY files remain on the same runner."
+    ]
+  },
+  "output_contract": {
+    "scientific_summary": "Publish the complete original summary, 12 individual stage-NN-return.json documents and the two independently evaluated closed-geometry-index.json files at the run root and in even/.",
+    "raw_fields": "All coefficient files, complete PLY.GZ geometry and per-phase runner data stay on the scientific worker. Both compact public indices identify their own field and every generated mesh.",
+    "public_attempt": "notes/run46-preloaded-bridge-<run>-<attempt>.json plus complete separate compact scientific reports. The original observer has a checked public pull, both README checks and committed topic capacity accounting.",
+    "interpretation": "The exact phase-zero metric and the reference unit-speed computation are specified independently of any achieved fitted metric. The returned operators, area, curvature, chord, seams and mesh extrema are sampled numerical evidence."
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "source_commit": null,
+    "actual_model": null,
+    "initial_metric": null,
+    "non_even_point": null,
+    "even_point": null,
+    "all_stage_returns": null,
+    "per_phase_gram": null,
+    "per_phase_meshes": null,
+    "held": null,
+    "diameter": null,
+    "reach": null,
+    "body_moments": null,
+    "strict_certificate": null
+  }
+}

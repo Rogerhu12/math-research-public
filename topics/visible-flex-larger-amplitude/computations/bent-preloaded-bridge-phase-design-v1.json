@@ -1,0 +1,169 @@
+{
+  "schema": "r770-preloaded-physical-phase-fit-v1",
+  "fixed_metric": "The exact phase-zero R767 full material map, including both nonplanar crowns and the true two-chart material overlaps; each optimizer and both refinements use this one target.",
+  "defining_order": 20,
+  "geometry": {
+    "R770": "572f640a935cf10d64c8f0c828002eac18497d2ea5c32298980c45530f33c8c7",
+    "R767_profile": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+    "R767_cap": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+    "R767_bridge": "3870aa6ad9a1e0f56052a9f783a178742894bf8629153794433fb6fbc7a489e3",
+    "pulse_width": 0.1,
+    "pulse_power": 2,
+    "axial_shortening": 0.4,
+    "edge_width": 0.0005,
+    "anchor": [
+      0.44,
+      0.45,
+      0.46,
+      0.47
+    ],
+    "odd_window": [
+      0.006,
+      0.088,
+      0.008
+    ],
+    "grip": "all R767 fixed right head central points",
+    "exact_geometry": "R770 original closed partial-isometry family with held unchanged; arbitrary fitted fields require their own full positive-phase geometry."
+  },
+  "families": {
+    "non_even": [
+      [
+        "first-odd",
+        [
+          0.46,
+          -0.32,
+          0.7,
+          -0.38,
+          0.24,
+          1
+        ]
+      ],
+      [
+        "countertwist",
+        [
+          -0.72,
+          0.9,
+          -0.8,
+          0.47,
+          0.63,
+          2
+        ]
+      ],
+      [
+        "third-sector",
+        [
+          1.05,
+          -0.76,
+          0.42,
+          0.82,
+          -0.73,
+          3
+        ]
+      ]
+    ],
+    "even": [
+      [
+        "normal",
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        "first-yaw",
+        [
+          0.65,
+          0.8,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        "return-yaw",
+        [
+          -0.7,
+          0.95,
+          0,
+          0,
+          0,
+          2
+        ]
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.6,
+    "area_weight": 2.5,
+    "curvature_bound": 11.5,
+    "curvature_weight": 0.021,
+    "jac_chunk": 48,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.045,
+    "step_tangent": 0.23,
+    "line_trials": 9
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 20,
+    "nv": 8,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 4,
+    "check_ns": 27,
+    "check_nv": 11,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 12,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 15,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 16,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 19,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 20,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 25,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "Six independently fitted actual finite fields; the best in EACH named reference-polarization family receives all 4,8,16 fixed-time refinements. The final fields in both families release all three Gram rows and can themselves be non-even.",
+    "The fixed central field and grip remain exact and all positive-phase outer rim/cap charts share genuine three-channel world displacements with the bridges. Fitted meridians are evaluated on all three metric entries. The reference alone has analytic unit speed.",
+    "The time interpolation, fixed intrinsic sphere and phase interval agree at every level. Defining integrals are the full R767/R770 expressions; quadrature approximation is reported at each physical order.",
+    "All pointwise bounds, intersections and directed distances, unless separately proved, are finite samples. Raw coefficients and fourteen compressed PLY files remain on the same runner."
+  ]
+}

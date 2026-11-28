@@ -132,6 +132,8 @@ R757同固定初g、R759负胞两轨与R751别名证据的范围见原proof及�
 
 [R767–768](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：新固定初g全reach.08/D<2.57、握>.528/中央held>.55；整桥单位速/真实两帽二jet。旧.18硬端斜路<.768却末弦>.784，任何内场g误差>.042，已闭；改真实外边界续做，正相全管/余g仍欠。
 
+[46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：同R767初g改真实退帽.40、两边独立Cauchy/三向凸矩校正，参考整桥gvv准确；实际释两整帽共享rim三向场，13源/6初点+两族4/8/16、各65相七整mesh全预算启动，整g/正相管仍欠。
+
 ### 全部保留责任与完成标准
 
 19–32全部终态、36–39完整阶段、39未访flow/39b异点及R724–750条件保原proof/notes/固定旧链。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit和7步不减，35自然返才pure74162；RET100H–M完整重建保父件/活输入/未闭来源；M的46整件root逐字复原/46官方run与91jobs终态核同，净释1047012B。
