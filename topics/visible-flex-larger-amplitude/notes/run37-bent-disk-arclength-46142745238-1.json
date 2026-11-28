@@ -132,7 +132,7 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:03:19Z",
-  "phase": "candidate-return",
+  "phase": "live-scalar",
   "terminal": false,
   "child_started": true,
   "parent_reproduction": {
@@ -390,23 +390,23 @@
   "child_pid": 2840,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 48,
-    "utc": "2026-11-28T12:11:45Z",
+    "ordinal": 54,
+    "utc": "2026-11-28T12:14:40Z",
     "original": {
       "event": "arc_objective",
-      "call": 1,
-      "norm": 0.04218246479860155,
-      "angle_residual": 0.14443896629925956
+      "call": 91,
+      "norm": 0.04037426477101522,
+      "angle_residual": 0.07772907494089365
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/summary.json",
       "bytes": 14713,
-      "sha256": "69df9abe6798fb641539a3279bf799c7ae7bc0af5523ff9f123b661b9e035866"
+      "sha256": "5be875b8a91fbbddfed57a2a17119da32f5a8c5b4795230dcd8053fb9edb1ee0"
     },
     "complete_small_json": {
-      "elapsed_seconds": 344.501913294,
+      "elapsed_seconds": 527.99774176,
       "ellipse_source_sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
       "frozen_target": {
         "angular_count": 640,
@@ -416,12 +416,12 @@
         "source_x_sha256": "52951c2a3abd4c44aaa15a85dcda80f0b6baec3b45d7734231bb8d29f5dcb1c4"
       },
       "in_progress": {
-        "call": 1,
-        "cost": 0.0008896801682426294,
+        "call": 92,
+        "cost": 0.0008149758587327634,
         "design": "tilt44-lift-parent05",
         "layer": "arc-frozen-1",
         "stage": 6,
-        "x_sha256": "f13f1c85be33e99a2178883361fc26cbfc0988ba6d5a5ecea229d2579a93d605"
+        "x_sha256": "0b3c6b76f19d33312d81e5066ab9da168ff1daadae35fff7d502e77c5604c30a"
       },
       "numpy": "2.3.5",
       "params_sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c",
@@ -908,6 +908,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:06:00Z",
-  "observed_utc": "2026-11-28T12:11:52Z",
-  "original_scalar_line_count": 48
+  "observed_utc": "2026-11-28T12:14:52Z",
+  "original_scalar_line_count": 54
 }
