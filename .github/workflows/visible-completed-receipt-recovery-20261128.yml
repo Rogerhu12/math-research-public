@@ -1,0 +1,50 @@
+name: Recover the fixed completed scientific receipts
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/visible-completed-receipt-recovery-20261128.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-completed-receipt-recovery-20261128
+  cancel-in-progress: false
+jobs:
+  recover:
+    name: Read the fixed completed receipts and preserve continuation data
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /topics/visible-flex-new-mechanism/scripts/completed_receipt_recovery_20261128.py
+      - name: Verify the actual recovery source
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          p = Path('topics/visible-flex-new-mechanism/scripts/completed_receipt_recovery_20261128.py')
+          raw = p.read_bytes()
+          assert len(raw) == 17825
+          assert hashlib.sha256(raw).hexdigest() == 'c4c11a492e0aa6c066a98b09e99b6615ca9d903502890034ce98f832bfd321e8'
+          print('RECOVERY_SOURCE', len(raw), hashlib.sha256(raw).hexdigest(), flush=True)
+          PY
+      - name: Recover naturally completed original records once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/visible-flex-new-mechanism/scripts/completed_receipt_recovery_20261128.py
+      - name: Retain literal terminal receipts and verified paid state
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-completed-receipts-${{ github.run_id }}-${{ github.run_attempt }}
+          path: completed-receipts/
+          retention-days: 30
+          if-no-files-found: error
