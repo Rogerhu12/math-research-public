@@ -718,3 +718,7 @@
 ### 2026-11-28 09:23 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1152 §13按原fσ路径及inverse-conjugation群律付两个准确阶乘/符号，给原r/s/z绝对有限值，完整中央最高项同步代入。校准单位只在实际可测good分支化为1，未用零局部类标定整线。
 - 旧1–12逐字保留；原z12、其余中央项与whole盘/full Nns继续，无数学执行。
+
+### 2026-11-28 09:24 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1154 §§7–10付同一原Gauss对的完整Legendre/Pfaff标定、有限log carry与五moment；原首标签读成明确Fermat quotient/harmonic式，minor保同一来源全部至三次log。root逐式核Wronskian/尺度/尾界后即推，旧1–6逐字保留。
+- actual-good联合必要条件的排除仍开；不冒称等于原global J或F0 z12，无数学程序。

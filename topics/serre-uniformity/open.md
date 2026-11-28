@@ -142,3 +142,9 @@ A_N(T)=−T^N G_N(4/T)/2恰接同一原R1137；故Λ=4^(N−1)[x^N](1−x)^−1/
 [R1152 §13](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)从NSW标准fσ=γ·σ(γ)⁻¹及同一inverse-conjugation/Ihara law直接确定c3=−2(1−p²)、c5=−24(1−p⁴)，不以局部非零类倒除。于是原r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25在全部退化分支成立。真正D=(16/25){5β3β5 h−3(J+2β3β5)ab}；两β有零时仍须完整七分支，而非仅D0。
 
 Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8}、(256/25)δ³c_g⁶·{5β3β5 z12−(J+2β3β5)λA*y7/2}，通用因子3rs/8−z=−6(11β3β5+8J)/25。旧Miller单位η★=U★γ★⁻²满足(η★−1)β3=(η★²−1)β5=0；β3好、或p4k3且β5好时η★1，因此U_E=γ_E²。两个β都坏不据消失类标定，保R1153实际单位。中央z12/非零与全深盘继续。
+
+### R1154 §§7–10：同一 Legendre 多项式与有限 logarithm 的联合条件
+
+[R1154](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)用w=Y/X^(3/2)对同一Hasse/伴随两解作Pfaff变换，精确得到奇Pν/aν与偶aν(Wν−1−Pν Lp)，共同gauge (1−w²)^−((p−1)/12)。有限Lp=Σ_{j=0}^{(p−3)/2}w^(2j+1)/(2j+1)的Wronskian保完整carry 1−w^(p−1)Pν²；所有读取只至安全p−5，无p分母。
+
+首标签准确H_p=4χ(r)/(63βaν²){q_p(2)−Hν+½Σ C_sH_s}，C_s=[w^(2s)]Pν⁴。minor准确4(3BνUν−Vν)/(13365rβ²aν⁸)，B/U/V都按同一个Vν=Wν−1−Pν Lp和R(P)=[w^(p−1)]P/(1−w²)定义，全部二/三次log项保留。实际good余对须q_p(2)=Hν−½Σ C_sH_s及3BνUν−Vν=0同时成立；未证不可能，也没有把此加权harmonic读数认成R1152的J或原F0 z12。继续真正同源联合消去/其它actual good行。

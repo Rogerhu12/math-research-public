@@ -447,3 +447,373 @@ R1135 的其他实际行与唯一候选点对仍完整保留。
 后续仍须控制这同一指定输入的联合 moment，
 或给出另一条确实出现的 good 行来分离原余对。
 全篇没有数学程序执行或 prime 窗口重扫。
+
+
+## 7. 同一 Gauss 对的 Legendre 多项式与有限对数
+
+本节继续 (1154.2) 的同一局部解，不新增同源或参考点。
+只在形式换元时加入 $v$，满足 $v^2=r$，并取
+$$
+w=\frac{Y}{X^{3/2}},\qquad
+X=r(1-w^2)^{-1/3},\qquad
+Y=rv\,w(1-w^2)^{-1/2}.
+$$
+$X^{3/2}$ 的常数项取 $rv$。于是
+$$
+x=-\frac{w^2}{1-w^2},\qquad
+\omega_\Delta=\frac1{3v}(1-w^2)^{-5/6}\,dw.
+\tag{1154.25}
+$$
+这个 $w$ 不是原 Gaussian profile 的 gauge 参数。
+最后的标量全下降到 $\mathbf F_p$；换 $v$ 的符号只把 $w$ 换为 $-w$，
+不会改变下面的偶系数。
+
+令
+$$
+\nu=2n+1=
+\begin{cases}
+(p-1)/6,&\epsilon=0,\\
+(p-5)/6,&\epsilon=1.
+\end{cases}
+$$
+它是小于 $p$ 的奇整数，且
+$\nu(\nu+1)=-5/36\bmod p$。
+用标准 Legendre 递推定义多项式 $\mathsf P_d$：
+$$
+\mathsf P_0=1,\quad \mathsf P_1=w,\qquad
+(d+1)\mathsf P_{d+1}
+=(2d+1)w\mathsf P_d-d\mathsf P_{d-1}.
+$$
+本篇只需 $0\le d\le\nu$；这些分母均为单位。
+其原规范是 $\mathsf P_d(1)=1$。
+置
+$$
+a_\nu=\mathsf P_\nu'(0)
+=(-1)^n\frac{(3/2)_n}{n!}\ne0,\qquad
+\mathsf o(w)=\frac{\mathsf P_\nu(w)}{a_\nu},
+$$
+$$
+\mathsf W_{\nu-1}(w)=
+\sum_{j=1}^{\nu}\frac{\mathsf P_{j-1}(w)\mathsf P_{\nu-j}(w)}j,
+\qquad
+\mathcal L_p(w)=
+\sum_{j=0}^{(p-3)/2}\frac{w^{2j+1}}{2j+1}.
+$$
+所有 $\mathcal L_p$ 的分母也严格小于 $p$。
+定义
+$$
+\boxed{\quad
+\mathsf e(w)=
+a_\nu\mathsf W_{\nu-1}(w)
+-a_\nu\mathsf P_\nu(w)\mathcal L_p(w).
+\quad}
+\tag{1154.26}
+$$
+$\mathsf o$ 为奇、首项 $w$；
+$\mathsf e$ 为偶、常数项一。
+(1154.26) 只作为原偶解的安全有限前缀使用，
+不把右边的高次多项式项称为原无限伴随解。
+
+这里的 Legendre companion 公式可自足证明。
+在 characteristic zero 中先用
+$\operatorname{atanh}w=\sum w^{2j+1}/(2j+1)$。
+由 $\sum_{d\ge0}\mathsf P_d t^d=(1-2wt+t^2)^{-1/2}$，
+上面 $\mathsf W$ 的生成函数是
+$$
+\sum_{d\ge1}\mathsf W_{d-1}t^d
+=(1-2wt+t^2)^{-1/2}
+  \int_0^t(1-2ws+s^2)^{-1/2}\,ds.
+$$
+对 $t$ 求导给与 $\mathsf P_d$ 相同的三项递推（递推指标 $d\ge1$），
+初值为 $\mathsf W_{-1}=0,\mathsf W_0=1$。
+因此
+$\mathsf Q_d=\mathsf P_d\operatorname{atanh}w-\mathsf W_{d-1}$
+具有初值
+$\mathsf Q_0=\operatorname{atanh}w$、
+$\mathsf Q_1=w\operatorname{atanh}w-1$，
+并满足同一 Legendre 方程
+$$
+(1-w^2)h''-2wh'+d(d+1)h=0.
+$$
+这也可由三项递推及
+$(1-w^2)\mathsf Q_d'=d(\mathsf Q_{d-1}-w\mathsf Q_d)$
+直接归纳；$d=1$ 的式子由所列初值核定。
+
+Wronskian 是常数除以 $1-w^2$。
+把对数项相消后在 $w=1$ 读取，因 $\mathsf P_\nu(1)=1$，
+该常数准确为 $-1$：
+$$
+(1-w^2)(\mathsf P_\nu'\mathsf Q_\nu
+                     -\mathsf P_\nu\mathsf Q_\nu')=-1.
+$$
+在 $w=0$ 读取又得
+$\mathsf W_{\nu-1}(0)=a_\nu^{-1}$。
+因此在未截断的安全前缀中，
+$-a_\nu\mathsf Q_\nu$ 正是所需偶初值解。
+对已经定义的有限 $\mathsf e$，保留
+$\mathcal L_p'=(1-w^{p-1})/(1-w^2)$ 后，完整式是
+$$
+\boxed{\quad
+(1-w^2)(\mathsf o'\mathsf e-\mathsf o\mathsf e')
+=1-w^{p-1}\mathsf P_\nu(w)^2
+\equiv1\pmod{w^{p+1}}.
+\quad}
+\tag{1154.27}
+$$
+所以只约化至所用的 $w^{p-5}$，把 $\operatorname{atanh}$ 换成
+$\mathcal L_p$ 完全合法；首个被排除的对数分母在 $w^p$，
+乘奇 $\mathsf P_\nu$ 后还更高。
+上式仍显示完整 finite-log carry，不将有限多项式的
+Wronskian 在全部次数上误写成常数。
+
+令
+$$
+c=\frac{\beta_{\rm G}}{3v},\qquad
+\Lambda(w)=(1-w^2)^{-(p-1)/12}.
+$$
+对 (1154.2) 的 $P_n,L_n$ 作 Pfaff 变换，准确得到
+$$
+\boxed{\quad
+u=c\Lambda(w)\mathsf o(w),\qquad
+\ell(u(w))=\Lambda(w)\mathsf e(w),
+\qquad c^p=\varepsilon_r c.
+\quad}
+\tag{1154.28}
+$$
+例如 $P_n$ 变成
+$(1-w^2)^{-n}{}_2F_1(-n,n+3/2;3/2;w^2)$；
+再乘 $Y$ 和 $(1-x)^{\epsilon/3}$ 后，
+共同指数为 $-n-1/2-\epsilon/3=-(p-1)/12$。
+偶解同样变成
+$\,{}_2F_1(-n-1/2,n+1;1/2;w^2)$。
+它们正是上述奇、偶 Legendre 初值解。
+$u$ 一列仍来自原 Hasse；$\ell$ 一列只使用安全前缀。
+$v^p=\varepsilon_r v$ 给最后一个准确相位，不把 $v$ 强行放入 $\mathbf F_p$。
+
+## 8. 五个 Legendre moments 的完整原尺度
+
+为避免与 §1 的 $t_N,b_N$ 混同，用不同字体定义
+$$
+\begin{aligned}
+\mathsf t&=[w^{p-1}]\frac{\mathsf o^6}{1-w^2},&
+\mathsf b&=[w^{p-1}]\frac{\mathsf o^4\mathsf e^2}{1-w^2},\\
+\mathsf u&=[w^{p-1}]\frac{w\mathsf o^7\mathsf e}{1-w^2},&
+\mathsf v&=[w^{p-1}]\frac{w\mathsf o^5\mathsf e^3}{1-w^2},\\
+\mathsf h&=[w^{p-1}]\frac{w\mathsf o^3\mathsf e}{1-w^2}.&&
+\end{aligned}
+\tag{1154.29}
+$$
+$\mathsf e$ 实际所需的最高次数仍是 $p-5$。
+此外
+$$
+\deg\mathsf o^6=6\nu=p-1-4\epsilon.
+$$
+$\mathsf o^6$ 为偶多项式，故这次有限求和准确给
+$$
+\boxed{\quad
+\mathsf t=\mathsf o(1)^6=a_\nu^{-6}\ne0.
+\quad}
+\tag{1154.30}
+$$
+这是原已知单位端点的 Legendre 读法，不是新的 minor 单位断言。
+
+全部原 residue 可直接在 (1154.28) 中换元。
+有
+$$
+\mathcal E_6=\frac{3rv}{7}\,w(1-w^2)^{-1/2},
+\qquad
+\mathcal E_8=\frac{27r^2}{10}(1-w^2)^{-2/3}.
+$$
+例如 $J_{7,0}$ 的 integrand 除常数外为
+$$
+(1-w^2)^{p(p-7)/12-1}
+   \mathsf o^{\,6-p}\,dw.
+$$
+$\mathsf o/w$ 是偶单位级数。
+所以在读取 $w^{p-1}$ 时，两个完整 Frobenius 因子
+$(\mathsf o/w)^{-p}$ 和 $(1-w^2)^{p(p-7)/12}$
+都只有常数一；没有跨过 $p$ 后作普通微分。
+这给 $\mathsf t$，其常数是
+$(9r^2/(10v))c^{6-p}
+=\varepsilon_r\beta_{\rm G}^5/(270r)$。
+另外两种 $J$ 完全同理，得到
+$$
+\boxed{\begin{aligned}
+J_{5,1}&=\frac{\varepsilon_r\beta_{\rm G}^2}{63}\,\mathsf h,\\
+J_{7,0}&=\frac{\varepsilon_r\beta_{\rm G}^5}{270r}\,\mathsf t,\\
+J_{7,2}&=\frac{\varepsilon_r\beta_{\rm G}^3}{30}\,\mathsf b.
+\end{aligned}}
+\tag{1154.31}
+$$
+
+对 $\mathcal M_1,\mathcal M_3$，实际 $du$ 多出
+$$
+c\Lambda
+\left(\mathsf o'
+-\frac{w\mathsf o}{6(1-w^2)}\right)dw
+\quad\bmod p
+$$
+而非单独的 $c\Lambda\mathsf o'\,dw$。
+完整余下共同幂是 $(1-w^2)^{p(p-9)/12}$，
+仍只贡献常数一。由 (1154.27) 与
+$[w^{p-1}]V'=p[w^p]V=0$，有
+$$
+8[w^{p-1}]\mathsf o^6\mathsf e\,\mathsf o'=\mathsf t,
+\qquad
+8[w^{p-1}]\mathsf o^4\mathsf e^3\mathsf o'=3\mathsf b.
+$$
+因此原两条 $\mathcal E_8$ moments 准确为
+$$
+\boxed{\begin{aligned}
+\mathcal M_1
+&=\frac{\varepsilon_r\beta_{\rm G}^6}{270r}
+      \left(\frac{\mathsf t}{8}-\frac{\mathsf u}{6}\right),\\
+\mathcal M_3
+&=\frac{\varepsilon_r\beta_{\rm G}^4}{30}
+      \left(\frac{3\mathsf b}{8}-\frac{\mathsf v}{6}\right).
+\end{aligned}}
+\tag{1154.32}
+$$
+(1154.27) 的额外 carry 在这两次读取前分别至少乘上
+$\mathsf o^6$、$\mathsf o^4$，总次数都严格大于 $p-1$，
+故此次消失有准确次数界。所有原边界项均保留。
+结合 (1135.90)、(1154.9)，最后得到
+$$
+\boxed{\quad
+\mathcal H_p=-\frac{4\varepsilon_r}{63\beta_{\rm G}}\mathsf h,
+\qquad
+\Delta_{\rm low}
+=\frac{4}{13365\,r\beta_{\rm G}^2}
+       (3\mathsf b\mathsf u-\mathsf t\mathsf v).
+\quad}
+\tag{1154.33}
+$$
+这和 (1154.11)、(1154.22) 是同一原值的另一个完全定标读法。
+负号由 (1154.25) 的真实换元决定，未把该二次扩域相位省略。
+
+## 9. 原首标签的明确有限 harmonic 等式
+
+记
+$$
+H_j=\sum_{i=1}^j\frac1i,\quad H_0=0,\qquad
+h_{\rm odd}=\sum_{i=0}^{(p-3)/2}\frac1{2i+1},
+\qquad
+\mathsf P_\nu(w)^4=\sum_{s=0}^{2\nu}C_s w^{2s}.
+\tag{1154.34}
+$$
+$2\nu<(p-1)/2$，所以所有这里的分母均为单位；
+$\sum C_s=\mathsf P_\nu(1)^4=1$。
+
+令
+$$
+\mathscr R(P)=[w^{p-1}]\frac{P(w)}{1-w^2},
+\qquad
+V_\nu(w)=\mathsf W_{\nu-1}(w)-\mathsf P_\nu(w)\mathcal L_p(w).
+$$
+由 (1154.26)，
+$$
+a_\nu^2\mathsf h
+=\mathscr R\!\left(w\mathsf P_\nu^3V_\nu\right).
+$$
+其不含对数的部分 $w\mathsf P_\nu^3\mathsf W_{\nu-1}$
+是次数至多 $4\nu<p-1$ 的偶多项式。因此该部分的读数正是
+$\mathsf W_{\nu-1}(1)=H_\nu$。
+
+对含对数部分，直接逐奇数系数求和给
+$$
+[w^{p-2-2s}]\frac{\mathcal L_p(w)}{1-w^2}
+=h_{\rm odd}+\frac12H_s
+\qquad(0\le s\le2\nu).
+$$
+确实，右边补回的高端奇数
+$p-2s,p-2s+2,\ldots,p-2$ 的倒数和为 $-H_s/2$。
+所以
+$$
+\boxed{\quad
+a_\nu^2\mathsf h
+=H_\nu-h_{\rm odd}-\frac12\sum_{s=0}^{2\nu}C_sH_s.
+\quad}
+\tag{1154.35}
+$$
+这是原 $\mathcal H_p$ 的实际同源 harmonic 表达，
+不含一个未定的 companion 常数。
+
+还可把 $h_{\rm odd}$ 写成原整数 Fermat quotient：
+$$
+q_p(2)=\frac{2^{p-1}-1}{p}\in\mathbf Z,\qquad
+h_{\rm odd}=q_p(2)\pmod p.
+$$
+这里的除以 $p$ 先在整数中完成。
+自足证明是将
+$\binom pj/p\equiv(-1)^{j-1}/j$
+对 $1\le j\le p-1$ 求和；
+左边为 $2q_p(2)$，右边由
+$\sum_{j=1}^{p-1}1/j=0$ 准确等于 $2h_{\rm odd}$。
+结合 (1154.33)，得到
+$$
+\boxed{\begin{aligned}
+\mathcal H_p
+&=\frac{4\varepsilon_r}{63\beta_{\rm G}a_\nu^2}
+ \left(q_p(2)-H_\nu
+        +\frac12\sum_{s=0}^{2\nu}C_sH_s\right),\\
+\mathcal H_p=0
+&\Longleftrightarrow
+q_p(2)=H_\nu-\frac12\sum_{s=0}^{2\nu}C_sH_s
+\quad\bmod p.
+\end{aligned}}
+\tag{1154.36}
+$$
+这个条件不声称 $q_p(2)$ 为单位，也不把它换成某个未核的
+Bernoulli 同余；它只使用同一 Legendre 多项式的实际 coefficients。
+
+## 10. 同一 finite logarithm 给指定 minor 的完整三次式
+
+为了使第二条联合条件也完全显式，置
+$$
+\begin{aligned}
+\mathbf B_\nu&=\mathscr R(\mathsf P_\nu^4V_\nu^2),\\
+\mathbf U_\nu&=\mathscr R(w\mathsf P_\nu^7V_\nu),\\
+\mathbf V_\nu&=\mathscr R(w\mathsf P_\nu^5V_\nu^3).
+\end{aligned}
+$$
+由 $\mathsf o=\mathsf P_\nu/a_\nu$、$\mathsf e=a_\nu V_\nu$，
+原五个 moments 的各个幂因子直接给
+$$
+\mathsf b=a_\nu^{-2}\mathbf B_\nu,\quad
+\mathsf u=a_\nu^{-6}\mathbf U_\nu,\quad
+\mathsf v=a_\nu^{-2}\mathbf V_\nu,\quad
+\mathsf t=a_\nu^{-6}.
+$$
+故
+$$
+\boxed{\quad
+\Delta_{\rm low}
+=\frac{4}{13365\,r\beta_{\rm G}^2a_\nu^8}
+       (3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu).
+\quad}
+\tag{1154.37}
+$$
+右边只含一个明确的 Legendre 多项式、
+有限和 $\mathsf W_{\nu-1}$、以及同一个有限 $\mathcal L_p$；
+对数的最高幂为三。
+不需要再定义一个无限 Gauss 解，也不读取对数的首个 $p$ 分母。
+
+特别，在 §6 已说明的 actual-good 分支中，
+同一非对角共同纤维必须满足这两条完整关系：
+$$
+\boxed{\quad
+q_p(2)=H_\nu-\frac12\sum_{s=0}^{2\nu}C_sH_s,\qquad
+3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu=0.
+\quad}
+\tag{1154.38}
+$$
+第一式和第二式使用同一 $V_\nu$；
+没有将第二式的全部较低对数乘积删去。
+目前还没有证明 (1154.38) 不可能。
+
+R1152 的真实有限 harmonic 中央读数是另一个已固定来源。
+(1154.36)–(1154.38) 不把这里的加权有限和认成
+$\operatorname{Har}_p(1,3,4)$，也没有计算原 $F_0$ 的 $z_{12}$。
+若要联立，仍须给出两种原来源间的准确 cochain、period 或 Frobenius 比较；
+仅因两者都可写成有限 harmonic 和不足以识别。
+本节全部是同一原 forcing 的纸面变换，无数学程序执行。

@@ -4,7 +4,7 @@
 
 - **R1153（已证明）**：[原Kummer与有限FL坐标的准确校准](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)：真实Fp generic SS点付两比较单位U/U²、完整Miller相位、原两槽及所有q_t可见F0条目；r/s的原Bernoulli尺度与中央减法全保。独立C_SS与C_cyc取max；中央z12、最高组合非零和whole盘仍开。
 
-- **R1154（已证明）**：[原Gaussian首标签与联合Gauss moment](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原H_p的r5 forcing/尺度、反序Hasse共同Gauss前缀与零带、minor两共同边界抵消全付。真实余对须同源两moment同时零，保actual good mask；联合不可能性继续。
+- **R1154（已证明，§§1–10）**：[原Gaussian首标签与联合有限矩](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)：Gauss反序/边界消去后，实际Legendre换元保全尺度和finite-log carry；原H_p明确为q_p(2)与Pν⁴加权harmonic和之差，Δ为同一个有限log的三次式。联合不可能性、actual mask与中央z12比较仍开。
 
 - **R1152（已证明，§§1–13）**：[原全局中心的权八Frobenius与准确有限读数](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)：原Θ∞/finiteFL/MT(Z)、全尾与完整Ihara词表付r=2β3/3、s=24β5/5、z=48(Har_p(1,3,4)+2β3β5)/25。绝对阶乘/符号及全部退化分支已付；κ与实际中央减法明确，原F0组合非零仍开。
 
