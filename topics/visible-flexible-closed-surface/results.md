@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R256：准确固定前缀的位置、法向与投影预算](results/R256-accurate-fixed-prefix-envelope-normal-tilt-and-projection.md)（2026-11-28）：R233/R232全前缀宽<.484、球<1.538、排球>.96999；.097偏移局部无焦、椭圆柱投影定向>.004。未付整体单射或非局部法球，literal源不互借。
+
 - [R255：两角任意共同SPD目标的锐误差](results/R255-sharp-two-angle-invariant-target-metric-floor.md)（2026-11-28）：最优为(L−1)/(L+1)，两第一形式的算术均值取到；多角给必要下界，保共同坐标变换。五实际场G11全部角对仍有.12以上浮点见证，不排改变位置或角重标。
 
 - [R254：固定位置场任意目标半径的锐metric下界](results/R254-sharp-fixed-field-warp-radius-floor.md)（2026-11-28）：SPD第一基本形式下准确求inf半径的谱误差，给共同半径全角六个仿射可行条件；实际四场有限见证显示单改半径不足，须移动位置场，不排联动构造。
