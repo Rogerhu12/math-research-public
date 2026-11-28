@@ -160,13 +160,1167 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:32:54Z",
-  "phase": "scientific-entry",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2553,
   "child_returncode": null,
-  "latest_observed_scalar_line": null,
-  "scientific_summary": null,
+  "latest_observed_scalar_line": {
+    "ordinal": 11,
+    "utc": "2026-11-28T12:33:26Z",
+    "original": {
+      "event": "stage",
+      "stage": 10,
+      "kind": "alternate_shape_and_material",
+      "design": "horizontal",
+      "relative_Killing": 1012.8243522626879,
+      "frozen_gram": null,
+      "curvature": 10229726.202662598,
+      "support": -1.0805948852464615
+    }
+  },
+  "scientific_summary": {
+    "file": {
+      "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/summary.json",
+      "bytes": 24313,
+      "sha256": "91009b556270c5fac186c94259229926ae99e0a0fd6bc825f90df55c58e4de1a"
+    },
+    "complete_small_json": {
+      "elapsed_seconds": 23.700797934,
+      "in_progress": {
+        "call": 1,
+        "cost": 4.97385272299621,
+        "kind": "physical_Killing",
+        "shape_sha256": "360cdbca7820ba80cc8e6c6a0c33865a20efe166cf4077ae12f15d9f4615c466",
+        "stage": 11
+      },
+      "numpy": "2.3.5",
+      "params_sha256": "49d65de32d08824e6721f8a9163fb13c209118b483645b668520da9baa8af087",
+      "schema": "finite-disk-killing-haar/v1",
+      "science_sha256": "963dc71f97d70c0a5bf80ad33da22a1ea4e3600347c8e26c2023772a111b6f6e",
+      "scipy": "1.17.0",
+      "scope": "Actual full-circle shape and material field solve. Haar cache, independent integration, principal curvatures, ordered chord and volume moments are numerical. Exact symmetry, same-g path, reach and geometry certificates require continuum estimates.",
+      "sources": {
+        "bent_disk_arclength.py": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6",
+        "bent_disk_killing_fields.py": "cddef04056578a3e2b14f4506c3484b8ed0ee9e0de98757a0572617924805469",
+        "bent_disk_killing_target.py": "030b617ad9fa9d5e8ec626dd9732fc751eb2670935867294f882a3c27c2cf2f2",
+        "bent_disk_shoulder.py": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+        "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+        "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd"
+      },
+      "stages": [
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 37.029874566052,
+            "Killing_rms": 2.6608409955379435,
+            "area_min": 0.08135055352897401,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.3861155736620723,
+            "max_abs_principal": 397.4281083962778,
+            "opposite_witness_to_upper": 0.803597729491887,
+            "origin_radius": 1.2216651024540441,
+            "support_min": 0.1187907860455484,
+            "upper_height_min": 1.3877787807814457e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.54,
+            "id": "horizontal",
+            "parameters": {
+              "end_height": 0.025,
+              "gamma": 0,
+              "height": 0.17,
+              "join": 0.025,
+              "left_handle": 0,
+              "shift": 0.12
+            }
+          },
+          "field_count": 284,
+          "field_rescale": 0.7077130620166574,
+          "field_sha256": "0fb2565d392e44ed33c89cb8e5b91e28a24714504c332395462855cf209e1363",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 18.30782963522747,
+            "iterations": 340,
+            "linear_norm": 2.425448829699055,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "ad94fd242ac2c511b755f26b3b5e6826a9b99489984a70ef5224d01c7106b626",
+          "point_sha256": "c2908bcc4d36eb732962746e7e2576716f0b370e66927e79cd6b7875e2759a35",
+          "raw_polar_field": {
+            "Killing_op_max": 80.85856029845513,
+            "Killing_rms": 5.496451717932057,
+            "area_min": 0.08135055352897401,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 397.4281083962778,
+            "opposite_witness_to_upper": 0.803597729491887,
+            "origin_radius": 1.2216651024540441,
+            "support_min": 0.1187907860455484,
+            "upper_height_min": 1.3877787807814457e-17
+          },
+          "score": 9.809711134972135,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 0,
+          "train": {
+            "Killing_op_max": 21.607501756305563,
+            "Killing_rms": 2.5954491194572085,
+            "area_min": 0.08134428169182947,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.38752767685069445,
+            "max_abs_principal": 293.74988122744963,
+            "opposite_witness_to_upper": 0.8035925198331335,
+            "origin_radius": 1.2216610263024366,
+            "support_min": 0.11879078604554841,
+            "upper_height_min": 1.3877787807814457e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 33.38931258952375,
+            "Killing_rms": 2.978110932771448,
+            "area_min": 0.16649870851238963,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.3969775564664185,
+            "max_abs_principal": 1360.2349741753974,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2614180298536035,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "tilt32",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.32,
+              "height": 0.32,
+              "join": 0.006,
+              "left_handle": 0,
+              "shift": 0.16
+            }
+          },
+          "field_count": 284,
+          "field_rescale": 0.7178122574805248,
+          "field_sha256": "e65afa65abace964f799dc3666cec8fd1be62cf1cbc47c8498e8f26df1d908ed",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 24.881840770198668,
+            "iterations": 340,
+            "linear_norm": 2.415700524347241,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "6f9e120d1ba26ce6d90e54ca5c600483bd704880694ab5145372e5b0395804ee",
+          "point_sha256": "5ff482b501a1cc85d4938931e5ae3dc1983f60327d5bc3777d827a25a321bfa4",
+          "raw_polar_field": {
+            "Killing_op_max": 71.60880497636869,
+            "Killing_rms": 4.763398459873465,
+            "area_min": 0.16649870851238963,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1360.2349741753974,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2614180298536035,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "score": 11.453237331071017,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 1,
+          "train": {
+            "Killing_op_max": 21.352214020937225,
+            "Killing_rms": 2.464821820768888,
+            "area_min": 0.17497683546651618,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.3976625841448429,
+            "max_abs_principal": 281.52983030999553,
+            "opposite_witness_to_upper": 0.8035925198331334,
+            "origin_radius": 1.2614194699646717,
+            "support_min": 0.11879078604554834,
+            "upper_height_min": -5.716372348916537e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 34.69585014330228,
+            "Killing_rms": 3.1635651056808785,
+            "area_min": 0.14637638679543327,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.40135461079699364,
+            "max_abs_principal": 1223.2325299460686,
+            "opposite_witness_to_upper": 0.8035977294918869,
+            "origin_radius": 1.2914174995711192,
+            "support_min": 0.09694729417897913,
+            "upper_height_min": -7.660457096012447e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "tilt44",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.44,
+              "height": 0.37,
+              "join": 0.006,
+              "left_handle": 0,
+              "shift": 0.19
+            }
+          },
+          "field_count": 284,
+          "field_rescale": 0.7081027758295275,
+          "field_sha256": "4e761ce4484b3c3a205a70cd7b6b76b1c61a29066fc74915464c59cb0ea07483",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 11.854148243326932,
+            "iterations": 340,
+            "linear_norm": 2.4497789637432485,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "f207066a9894acefeb3cb850daf26b4a6ebc9be6f14346d239eaaaa8b9e626b0",
+          "point_sha256": "118a3af844bf53948d3ffbb212feb2da9894487aef33677909d47241082d9300",
+          "raw_polar_field": {
+            "Killing_op_max": 77.28205965291022,
+            "Killing_rms": 5.056998776813273,
+            "area_min": 0.14637638679543327,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1223.2325299460686,
+            "opposite_witness_to_upper": 0.8035977294918869,
+            "origin_radius": 1.2914174995711192,
+            "support_min": 0.09694729417897913,
+            "upper_height_min": -7.660457096012447e-17
+          },
+          "score": 11.39277391002419,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 2,
+          "train": {
+            "Killing_op_max": 21.25951654964086,
+            "Killing_rms": 2.5595711703141486,
+            "area_min": 0.15758665110967132,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.4028610119590591,
+            "max_abs_principal": 342.27645088925254,
+            "opposite_witness_to_upper": 0.8035925198331333,
+            "origin_radius": 1.2914191384754505,
+            "support_min": 0.09694729417897906,
+            "upper_height_min": -6.293169492056803e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 41.04736645445183,
+            "Killing_rms": 4.155424868674841,
+            "area_min": 0.02381856582382575,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.44585285948334585,
+            "max_abs_principal": 1360.2349741753976,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2614180298536035,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "soft32",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.32,
+              "height": 0.32,
+              "join": 0.006,
+              "left_handle": 0.09,
+              "shift": 0.16
+            }
+          },
+          "field_count": 284,
+          "field_rescale": 0.7261899281651628,
+          "field_sha256": "4de2db9f807c42fd2e4b3e34450fca4f935568b6d2e78ea54b7044702b1e276b",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 138.6142814165978,
+            "iterations": 340,
+            "linear_norm": 3.662874139282779,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "3fd5815135e256365645397381116b67b1aa9c1e699c304c917eeae0cbc99133",
+          "point_sha256": "261b35c415faad7fe49c67099782eca5698ddb0a68c9594b58d18fa406bd45e9",
+          "raw_polar_field": {
+            "Killing_op_max": 71.6088049763687,
+            "Killing_rms": 7.565353450557148,
+            "area_min": 0.02381856582382575,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1360.2349741753976,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2614180298536035,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "score": 11.91353071726478,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 3,
+          "train": {
+            "Killing_op_max": 27.546524185186772,
+            "Killing_rms": 3.8909005098931324,
+            "area_min": 0.023848503128847377,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.4507366352884833,
+            "max_abs_principal": 281.5298303099953,
+            "opposite_witness_to_upper": 0.8035925198331334,
+            "origin_radius": 1.2614194699646717,
+            "support_min": 0.11879078604554834,
+            "upper_height_min": -5.716372348916537e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 43.94720999061511,
+            "Killing_rms": 4.2584038987131025,
+            "area_min": 0.023854671581946374,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.44231686492499545,
+            "max_abs_principal": 1223.232529946069,
+            "opposite_witness_to_upper": 0.8035977294918869,
+            "origin_radius": 1.2914174995711192,
+            "support_min": 0.09694729417897913,
+            "upper_height_min": -7.660457096012447e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "soft44",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.44,
+              "height": 0.37,
+              "join": 0.006,
+              "left_handle": 0.09,
+              "shift": 0.19
+            }
+          },
+          "field_count": 284,
+          "field_rescale": 0.7367380298741504,
+          "field_sha256": "96d3099a5031197975df0fbcee8f007ebdbb561aee6e2972c5c19f111a197c40",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 15.51906829181405,
+            "iterations": 340,
+            "linear_norm": 3.58210145785589,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "04f1d6d2b0d7c4921683e6411f8f5aeb138b4e75cee7e5d5dea806c152533c79",
+          "point_sha256": "2b5c94b67b18930dbf01797428b004d5225f4277baa13153e567ad762cd6a0c7",
+          "raw_polar_field": {
+            "Killing_op_max": 77.28205965291023,
+            "Killing_rms": 7.964229322283992,
+            "area_min": 0.023854671581946374,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1223.232529946069,
+            "opposite_witness_to_upper": 0.8035977294918869,
+            "origin_radius": 1.2914174995711192,
+            "support_min": 0.09694729417897913,
+            "upper_height_min": -7.660457096012447e-17
+          },
+          "score": 11.85668399587026,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 4,
+          "train": {
+            "Killing_op_max": 27.654540692791052,
+            "Killing_rms": 3.860593644423556,
+            "area_min": 0.023888154056295907,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.44451191797867606,
+            "max_abs_principal": 342.2764508892522,
+            "opposite_witness_to_upper": 0.8035925198331333,
+            "origin_radius": 1.2914191384754505,
+            "support_min": 0.09694729417897906,
+            "upper_height_min": -6.293169492056803e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.4729960318300265,
+          "check": {
+            "Killing_op_max": 96.44117221414996,
+            "Killing_rms": 1.992854746692528,
+            "area_min": 0.008162473753326042,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.6035973024121581,
+            "max_abs_principal": 45108.00632746887,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.200602835070457,
+            "support_min": -1.0058745695149587,
+            "upper_height_min": -6.01414998046007e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "id": "native"
+          },
+          "field_count": 284,
+          "field_rescale": 1.0,
+          "field_sha256": "1212e1d6026e0c7c4afc469bafb76bb0b51346dab3a85d00741a669bab915e00",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 39.98678836413921,
+            "iterations": 160,
+            "linear_norm": 1.8739226772962492,
+            "status": 2
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "3ba1f2430fa3236ee5a3cfd9d6ef3be22b96be17ea4d0c540eba550274b9992c",
+          "point_sha256": "d8b2d01cd670289f5d7f5f1790ea009216efa598496d99152a4433961aea8e4e",
+          "raw_polar_field": {
+            "Killing_op_max": 100.33158803468132,
+            "Killing_rms": 3.3310949437563155,
+            "area_min": 0.008162473753326042,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 45108.00632746887,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.200602835070457,
+            "support_min": -1.0058745695149587,
+            "upper_height_min": -6.01414998046007e-17
+          },
+          "score": 21.300552335466705,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 5,
+          "train": {
+            "Killing_op_max": 22.66436351063786,
+            "Killing_rms": 1.737772305544492,
+            "area_min": 0.004637196686278658,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.6035968875607476,
+            "max_abs_principal": 145116.5213558211,
+            "opposite_witness_to_upper": 0.8035925198331334,
+            "origin_radius": 1.2002122508112991,
+            "support_min": -1.005775936875951,
+            "upper_height_min": -4.311188974507386e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 66.55834861935064,
+            "Killing_rms": 6.960561531895626,
+            "area_min": 0.02378856394711016,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.4749954182155618,
+            "max_abs_principal": 1298.6987839816456,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2614500573552854,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "two-handle32-18",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.32,
+              "height": 0.32,
+              "join": 0.006,
+              "left_handle": 0.14,
+              "shift": 0.16
+            },
+            "right_handle": 0.18
+          },
+          "field_count": 284,
+          "field_rescale": 0.5481568732447533,
+          "field_sha256": "a74860d530f3889b7b24187058b897578ed47ffda9847796b9ef210a94f2e8c6",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 19.487707068938615,
+            "iterations": 340,
+            "linear_norm": 4.399526340106141,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "8d3e64979035ad8e5dd487c65efe3ee8abb0f4c864514f543552af85fa52b5ed",
+          "point_sha256": "841b181b6a6c847d65cda93fd9c05ee23e0843f30c79c1fe77dee11f54d11a95",
+          "raw_polar_field": {
+            "Killing_op_max": 134.51488867473807,
+            "Killing_rms": 12.579564928310496,
+            "area_min": 0.02378856394711016,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1298.6987839816456,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2614500573552854,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "score": 12.759677865525042,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 6,
+          "train": {
+            "Killing_op_max": 64.3410715650489,
+            "Killing_rms": 6.84166234318007,
+            "area_min": 0.023815101033582805,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.4775704897402745,
+            "max_abs_principal": 344.27251697891404,
+            "opposite_witness_to_upper": 0.8035925198331334,
+            "origin_radius": 1.2614509479735907,
+            "support_min": 0.11879078604554834,
+            "upper_height_min": -5.716372348916537e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.18000000000000005,
+          "check": {
+            "Killing_op_max": 80.29772053622402,
+            "Killing_rms": 7.42827122044629,
+            "area_min": 0.02378856394711016,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.47624700935573594,
+            "max_abs_principal": 1296.607978230406,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.26153032688076,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "two-handle32-30",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.32,
+              "height": 0.32,
+              "join": 0.006,
+              "left_handle": 0.14,
+              "shift": 0.16
+            },
+            "right_handle": 0.3
+          },
+          "field_count": 284,
+          "field_rescale": 0.5453304526891593,
+          "field_sha256": "dc8f22c5db622f6cb207df23bac406768355b73d1fb6c1356782cc192ca80551",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 11.663560992462543,
+            "iterations": 340,
+            "linear_norm": 4.42755146936961,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "402f7e145c6b21ff30d7b4e0a49918fae402520cf7eb463a2fa6ad9a625196df",
+          "point_sha256": "c9141abb28e8bee7b649048d47ca2d772451874b3cf40b64efa43363aff37d8b",
+          "raw_polar_field": {
+            "Killing_op_max": 162.02591690677997,
+            "Killing_rms": 13.546760275213106,
+            "area_min": 0.02378856394711016,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1296.607978230406,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.26153032688076,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "score": 12.999721182089923,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 7,
+          "train": {
+            "Killing_op_max": 69.70025881429639,
+            "Killing_rms": 7.065976731636884,
+            "area_min": 0.023815101033582805,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.47879706983853965,
+            "max_abs_principal": 281.5298303099953,
+            "opposite_witness_to_upper": 0.8035925198331334,
+            "origin_radius": 1.2615167557796425,
+            "support_min": 0.11879078604554834,
+            "upper_height_min": -5.716372348916537e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 89.2213143102106,
+            "Killing_rms": 7.762919447562576,
+            "area_min": 0.02378856394711016,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.47663388531874196,
+            "max_abs_principal": 1295.470111286874,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2617640741637968,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "two-handle32-42",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.32,
+              "height": 0.32,
+              "join": 0.006,
+              "left_handle": 0.14,
+              "shift": 0.16
+            },
+            "right_handle": 0.42
+          },
+          "field_count": 284,
+          "field_rescale": 0.5473859654177872,
+          "field_sha256": "717f1610518535f0b857bd24588a440d837b8b5342b9982bff34ae7ce6854510",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 12.235633157868856,
+            "iterations": 340,
+            "linear_norm": 4.43240406973325,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "50e520d344febb2edb74a923415b03d120797b3071bd8be69c32e81a2d18e9aa",
+          "point_sha256": "2dcd14c00bac74adb4bb28ce70aeff4e89295c57448ef56a6ca4cea2f5066379",
+          "raw_polar_field": {
+            "Killing_op_max": 178.6000155412437,
+            "Killing_rms": 14.244498901116618,
+            "area_min": 0.02378856394711016,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1295.470111286874,
+            "opposite_witness_to_upper": 0.8035977294918868,
+            "origin_radius": 1.2617640741637968,
+            "support_min": 0.1187907860455483,
+            "upper_height_min": -5.909433344116524e-17
+          },
+          "score": 13.141621104283217,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 8,
+          "train": {
+            "Killing_op_max": 70.82172020721205,
+            "Killing_rms": 6.980239355948274,
+            "area_min": 0.023815101033582805,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.4784457739135404,
+            "max_abs_principal": 281.5298303099953,
+            "opposite_witness_to_upper": 0.8035925198331334,
+            "origin_radius": 1.2617095043408628,
+            "support_min": 0.11879078604554834,
+            "upper_height_min": -5.716372348916537e-17
+          }
+        },
+        {
+          "angular_speed_control_lower": 0.18000000000000005,
+          "check": {
+            "Killing_op_max": 77.01017484739714,
+            "Killing_rms": 7.344797004332266,
+            "area_min": 0.023791200641750877,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.4807359817273963,
+            "max_abs_principal": 1121.1040243362881,
+            "opposite_witness_to_upper": 0.8035977294918869,
+            "origin_radius": 1.291559114071865,
+            "support_min": 0.09694729417897913,
+            "upper_height_min": -7.660457096012447e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 340,
+            "id": "linear-on-original-geometry",
+            "lsmr": 0,
+            "max_feval": 0,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 0,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "design": {
+            "extra": 0.58,
+            "id": "two-handle44-30",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.44,
+              "height": 0.37,
+              "join": 0.006,
+              "left_handle": 0.14,
+              "shift": 0.19
+            },
+            "right_handle": 0.3
+          },
+          "field_count": 284,
+          "field_rescale": 0.5494126188437718,
+          "field_sha256": "cc0af876ea2a021fbb15bc6d1a82a59078bb2290eee48873cd5d6f793d9be905",
+          "kind": "fixed_actual_shape_killing",
+          "linear_solve": {
+            "condition_estimate": 11.129880595017946,
+            "iterations": 340,
+            "linear_norm": 4.457475582956222,
+            "status": 7
+          },
+          "npz_bytes": 6238,
+          "npz_sha256": "df8f74f12bfc37e4ae29d7a777e30a7d0a9e14353df194af9643a4df4565125d",
+          "point_sha256": "139bccc842ff64d2de9292593b9d06e6538378d0cbb6afec50c3720ff4feb15c",
+          "raw_polar_field": {
+            "Killing_op_max": 155.28035347465607,
+            "Killing_rms": 13.345065147293418,
+            "area_min": 0.023791200641750877,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 1.0,
+            "max_abs_principal": 1121.1040243362881,
+            "opposite_witness_to_upper": 0.8035977294918869,
+            "origin_radius": 1.291559114071865,
+            "support_min": 0.09694729417897913,
+            "upper_height_min": -7.660457096012447e-17
+          },
+          "score": 12.752148167622309,
+          "shape_count": 426,
+          "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+          "stage": 9,
+          "train": {
+            "Killing_op_max": 66.63898936677357,
+            "Killing_rms": 6.988951944575827,
+            "area_min": 0.023826164786634702,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.4834543601787894,
+            "max_abs_principal": 342.2764508892522,
+            "opposite_witness_to_upper": 0.8035925198331333,
+            "origin_radius": 1.291534275265443,
+            "support_min": 0.09694729417897906,
+            "upper_height_min": -6.293169492056803e-17
+          }
+        },
+        {
+          "adjoint_abs": 1.5265566588595902e-16,
+          "angular_speed_control_lower": 0.17999999999999994,
+          "check": {
+            "Killing_op_max": 1012.8243522626879,
+            "Killing_rms": 14.850799340025608,
+            "area_min": 0.00035918394208088445,
+            "check_shape": [
+              116,
+              320
+            ],
+            "clock_min_sample": 0.5503032001045589,
+            "max_abs_principal": 10229726.202662598,
+            "opposite_witness_to_upper": 0.803597729491887,
+            "origin_radius": 1.2214992444265012,
+            "support_min": -1.0805948852464615,
+            "upper_height_min": 1.3877787807814457e-17
+          },
+          "configuration": {
+            "angular": 96,
+            "check_angular": 320,
+            "check_radial": [
+              26,
+              73,
+              19
+            ],
+            "field_iterations": 480,
+            "id": "alternating-physical-1",
+            "lsmr": 110,
+            "max_feval": 72,
+            "mode": 10,
+            "radial": [
+              13,
+              31,
+              9
+            ],
+            "regularizer": 1e-05,
+            "spans": [
+              3,
+              8,
+              2
+            ]
+          },
+          "cost": 1.4742416206689755,
+          "design": {
+            "extra": 0.54,
+            "id": "horizontal",
+            "parameters": {
+              "end_height": 0.025,
+              "gamma": 0,
+              "height": 0.17,
+              "join": 0.025,
+              "left_handle": 0,
+              "shift": 0.12
+            }
+          },
+          "directional_fd_relative": 2.2297973831525407e-10,
+          "field_count": 284,
+          "field_rescale": 0.4691008717049709,
+          "field_sha256": "3fa85243d9f1183ffe83c0403342dfc187c133444170e2ffb37f75b4cda9e2e5",
+          "kind": "alternate_shape_and_material",
+          "linear_solve": {
+            "condition_estimate": 4573.505852222387,
+            "iterations": 480,
+            "linear_norm": 4.536037948814065,
+            "status": 7
+          },
+          "nfev": 72,
+          "njev": 49,
+          "npz_bytes": 6238,
+          "npz_sha256": "16a112bb702d89acf5b54b378d2a30e7a06767d1ba8e1dcad2355d77ea4bd7e7",
+          "optimality": 3.1855803610513007,
+          "point_sha256": "4b568977634a02749a628a364e5d911710ec470e7ce6add0e026079140274249",
+          "score": 32.93105295354172,
+          "shape_count": 426,
+          "shape_sha256": "2740d4c988144a0080a6165fce35636761458bad1cd80d10a9b61b432b269f4d",
+          "solver_status": 0,
+          "stage": 10,
+          "train": {
+            "Killing_op_max": 36885.232407218806,
+            "Killing_rms": 745.5533656660803,
+            "area_min": 9.718351527734255e-06,
+            "check_shape": [
+              51,
+              96
+            ],
+            "clock_min_sample": 0.5503601428336429,
+            "max_abs_principal": 2355076059.8354816,
+            "opposite_witness_to_upper": 0.8035925198331335,
+            "origin_radius": 1.221500354292163,
+            "support_min": -0.7615932381751911,
+            "upper_height_min": 1.3877787807814457e-17
+          }
+        }
+      ]
+    }
+  },
   "whole_runner_field_files": null,
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
@@ -194,5 +1348,7 @@
     "OMP_NUM_THREADS": "1",
     "MKL_NUM_THREADS": "1"
   },
-  "child_started_utc": "2026-11-28T12:33:02Z"
+  "child_started_utc": "2026-11-28T12:33:02Z",
+  "observed_utc": "2026-11-28T12:33:30Z",
+  "original_scalar_line_count": 11
 }
