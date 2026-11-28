@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **ea9eedad0c1bc80662b3a0e64be74e1726550f72**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **85e32a6c96a40c236c915030017a0972b06493ed**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -15,12 +15,11 @@
 
 同一连通闭M、全t∈[0,1]连续C²嵌入、同一固定g；固定开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6，并同g/参数/t域精化到机器或求解容差；完整多t网格可再生，严格存在差距和δE如实。基础后继续.5D或严格存在强目标。局部结论、数值改善、障碍或时长均不算完成，不停等用户。
 
-## A：真实97q e781／原383库在算
+## A：真实97q 6e91／下一原390库
 
-[原369自然终态](notes/2026-11-28-r582-original369-natural-terminal.md)：run46117791268/source9afd9379，新增2386.166259383秒，3metric+1restore；完整费用见源，非自然stall。
-真实q **e781bd6d67eeda31b9e724ad4b7d57031ef2a8db2e7003de3cba948266151830**，p=.181、同0d222bd1材料；16280×3072 η3.3430671025073394e−5，physical/working0。raw97q与raw98 epigraph资格分轨，原lift后才接受。
-
-[真实383后继](notes/2026-11-28-r582-e781-original383-continuation.md)实际run **46121523891** / source60cdf0c3，07:30:36启动。379coarse+4pending及全部fine/费用保留，trust2/metric，新中点须自身资格；阶段门约2.5e−7、目标p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
+[原383自然终态](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)run46121523891/job140906911350/source60cdf0c3于08:13:17结束，新增2515.759658948秒、4metric+1restore；11完整J/143块/60值/14fine，全部祖先费保留，非自然stall。
+真实q **6e91b58d61b2535ea4e262950d2177310a53ceb7fc50e87869d38e639949a334**，同p.181/0d材料；16290×3072 η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门。末raw5cf6及半步a938因原行/fine几何失败已拒，不换名重放。
+385coarse+5pending→390，保全部fine并新加6中点成为16296，须本身资格；从6e91继续trust2/metric，阶段约2.5e−7及p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
 
 ## B：R618同固定E在算，后接硬trace
 
