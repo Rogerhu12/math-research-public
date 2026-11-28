@@ -4,7 +4,7 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `055a96350b7cc98c1a6fecc3dd3e8be009559b45`（2026-11-28 15:57 UTC）。
+- 最近实际pull后双README已读锚 `62cd07e195e948bd5397fb977f2d5f2578249bdb`（2026-11-28 15:57 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
@@ -31,7 +31,7 @@
 R79实际width=.12完整cut前缀metric<99/1e8，.04/.01真点反例已排，所有图显式--cut-width .12。R80付同原点整尾/deep/盘几何，R81付双尾第三通量；完整r(R)=R/r′1/r″0及真正背景高度见原小note，不搬旧场界。
 [R82](results/R82-actual-marked-closed-family-all-time-geometry.md)取真实binary(.0025)半柱和正canonical帽，全时C²嵌入，D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123，reach/D>.03408815。总ell非精确1/200。
 R83完整965叶活动矩ReA3∈[.1392755359019308,.15002395770094334]；R84准确对称给端点I3差>7e−19。[R86完整盘帽](results/R86-full-disk-marker-with-unchanged-geometry-budget.md)r=2r0、准确ε=1600ε0，原几何全保持，I3差×51200且>3.59e−14，只换固定盘目标g。 [R86当前CLI](notes/2026-11-28-full-disk-marker-cli-forward-fix.md)只前向修控制台flush行，数学类不变；完整构造器真exit0，原node index同。
-[R88](results/R88-quantitative-euclidean-hausdorff-from-third-moment.md)用Steiner/正支撑径向图证明全E(3) dE≥min(.01,|ΔI3|/16640)，原帽>4e−23、新盘>2e−18。只是严格保守下界，非实际/最大距离；新更紧帽界R89正在单列。
+[R88](results/R88-quantitative-euclidean-hausdorff-from-third-moment.md)用Steiner/正支撑径向图证明全E(3) dE≥min(.01,|ΔI3|/16640)，原帽>4e−23、新盘>2e−18。只是严格保守下界，非实际/最大距离；[R89](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)九叶准确Bernstein证明单位帽|φ|≤1/15、|Dφ|≤4/5、Hessian≤17/2；ε再×35，新帽K≤11.9，原全几何保持，dE>7e−17且δE/D>7/(2.4e17)。新Fraction证书与完整构造器均真exit0，仅新固定盘g设计。
 
 ## 3. 完整 DN 与同一 g
 

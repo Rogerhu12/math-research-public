@@ -239,3 +239,7 @@ R85补充：[原完整回代误差及小块验证](results/R85-supplement-comple
 [完整证明](results/R88-quantitative-euclidean-hausdorff-from-third-moment.md)。对已证|X|≤6/5、X·n≥3/5且三重/z对称的两真实端点，任意刚体对齐都有dH≥min(1/100,|ΔI3|/16640)。所以canonical dE>4e−23、R86新盘dE>2e−18，归一化下界分别1/(6e22)、1/(1.2e18)。未使用采样配准或凸包体积替代真实体积，完整有理后果已实际执行。
 
 R86 后续实际入口：[当前CLI修复与真实完整构造器](notes/2026-11-28-full-disk-marker-cli-forward-fix.md)。仅修正控制台flush参数位置，数学类AST逐项不变；当前源220564b2…实际exit0，原完整node index逐字同一。原R86小记录及其未执行历史不倒改。
+
+## R89. 更紧的完整谐波帽界与增强固定标记
+
+[完整证明](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)。四个准确正多项式/九个Bernstein叶给单位帽高度≤1/15、gradient≤4/5、Hessian≤17/2；在原真实完整平盘取准确ε=56000ε82，新帽K≤11.9并保持R82全部D/support/reach界。端点张量差为R86准确35倍，R88给全E(3) dE>7e−17、δE/D>7/(2.4e17)；准确证书和完整构造器真实exit0。只变固定盘g，非旧g精化或λ1完成。

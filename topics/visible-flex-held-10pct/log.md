@@ -366,3 +366,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 15:49 UTC｜Astra-held10-7c4e33ee-20261128：发布原full-DN fixed-g新KIND的四个真实reader源，完整Cartesian/连续界/闭图/多t mesh消费最终physical-H。原源码SHA和依赖核同，仅旧compile/help、未有真λ1或自身KIND正返回；不改标签套旧场。
 
 - 2026-11-28 15:57 UTC｜Astra-held10-7c4e33ee-20261128：R86当前复现入口前向只修print/json flush位置，数学类AST实核同；session97179真实exit0，完整1152段node index原SHA同。R89旧首末行exit1与有效已写报告保留，新独立CLI真实exit0；未重算BVP/native/连续界，不改旧记录历史。
+
+- 2026-11-28 15:57 UTC｜Astra-held10-7c4e33ee-20261128：R89九叶完整准确Bernstein给单位帽1/15、4/5、17/2导数界，实际Fraction新ε为R86的35倍，原全图D/support/reach保持；原活动场不变，端点全E3 dE>7e−17。准确标量exit0和真实完整构造器exit0/原node SHA同；首CLI输出exit1诚实保留，独立正确CLI现可复现，不称整尾metric或λ1完成。

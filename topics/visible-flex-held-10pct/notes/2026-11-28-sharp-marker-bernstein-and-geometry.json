@@ -1,0 +1,215 @@
+{
+  "status": "R89_exact_sharp_marker_new_actual_family_geometry_and_E3_endpoint_bounds_certified",
+  "observed_UTC": "2026-11-28T15:49:38.652793+00:00",
+  "exact_certificate": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/exact-certificate.json",
+    "sha256": "0ce3540173910c2b8caf91ce1162dea9e642bbb0f5dba7ebd03704f52ee3147a",
+    "bytes": 8723
+  },
+  "exact_certificate_actual_returncode": 0,
+  "unit_marker_proof": {
+    "status": "exact_complete_unit_marker_Bernstein_bounds_certified",
+    "norm": "Euclidean gradient and Cartesian symmetric-Hessian operator norms",
+    "radius_variable_exact_interval": [
+      "0",
+      "1"
+    ],
+    "denominator_lower_exact": "1/2",
+    "height_absolute_upper_exact": "1/15",
+    "gradient_norm_upper_exact": "4/5",
+    "Hessian_operator_upper_exact": "17/2",
+    "all_angles_included_by_holomorphic_modulus_bounds": true,
+    "all_harmonics_retained": true,
+    "finite_sampling_used_as_a_proof": false,
+    "polynomial_proofs": [
+      {
+        "polynomial": "height",
+        "degree": 9,
+        "leaf_count": 3,
+        "maximum_depth": 2,
+        "minimum_Bernstein_coefficient_exact": "3769/2580480",
+        "complete_exact_single_cover": true,
+        "all_Bernstein_coefficients_strictly_positive": true,
+        "reproducible_leaf_array_sha256": "62dbbd583ec0202c30eb8d03ef83a29f2a02b79fe7e00e69e089c5521a0615b8"
+      },
+      {
+        "polynomial": "gradient",
+        "degree": 11,
+        "leaf_count": 2,
+        "maximum_depth": 1,
+        "minimum_Bernstein_coefficient_exact": "37/6400",
+        "complete_exact_single_cover": true,
+        "all_Bernstein_coefficients_strictly_positive": true,
+        "reproducible_leaf_array_sha256": "9e37bb5d39b144c6b25194610d91a75c91981c5e593ecd31b8173304fc6b4abb"
+      },
+      {
+        "polynomial": "Hessian_tangential_branch",
+        "degree": 13,
+        "leaf_count": 1,
+        "maximum_depth": 0,
+        "minimum_Bernstein_coefficient_exact": "1193/11440",
+        "complete_exact_single_cover": true,
+        "all_Bernstein_coefficients_strictly_positive": true,
+        "reproducible_leaf_array_sha256": "b8e61607e0ee40c191a8d04ffc9c4b3590b0553bcf6c4c8aec3818bae3178c6e"
+      },
+      {
+        "polynomial": "Hessian_radial_branch",
+        "degree": 13,
+        "leaf_count": 3,
+        "maximum_depth": 2,
+        "minimum_Bernstein_coefficient_exact": "40501/54525952",
+        "complete_exact_single_cover": true,
+        "all_Bernstein_coefficients_strictly_positive": true,
+        "reproducible_leaf_array_sha256": "b004d2cec56f8ec6f559ca5ebbd6de62b56bcbcd771ebdf2ae5d624a11afa0c0"
+      }
+    ],
+    "total_positive_leaves": 9,
+    "max_proof_depth": 2
+  },
+  "actual_scalar_transfer": {
+    "radius_exact": "900719925474099/18014398509481984",
+    "epsilon_exact": "4132070672510937625/1180591620717411303424",
+    "epsilon_numerator_bits": 62,
+    "epsilon_exactly_representable_as_binary64": false,
+    "epsilon_float_is_evaluation_only": true,
+    "amplitude_multiplier_over_R82_exact": "56000",
+    "amplitude_multiplier_over_R86_exact": "35",
+    "radius_multiplier_over_R82_exact": "2",
+    "radius_multiplier_over_R86_exact": "1",
+    "amplitude_ratio_upper_exact": "7/5",
+    "actual_amplitude_ratio_exact": "1135814937804493011306938368000/811296384146066456669919861801",
+    "original_canonical_and_R86_constructors_would_accept": false,
+    "height_absolute_upper_exact": "826414134502187525/3541774862152233910272",
+    "gradient_norm_upper_exact": "826414134502187525/14757395258967638016",
+    "Hessian_operator_upper_exact": "9654426971338190596108976128000/811296384146066456669919861801",
+    "uniform_cap_curvature_upper_exact": "119/10",
+    "actual_cap_height_before_new_marker_interval_exact": [
+      "515025517766074683339/590295810358705651712",
+      "515025517782317318091/590295810358705651712"
+    ],
+    "cap_support_lower_exact": "832771324483585956907986246748839937850467960792803/959311558671228680794163989530007328938446892826624",
+    "cap_radius_squared_upper_exact": "9585514821116036629949442753707980093577905/12544169174173475517113841528364703347113984",
+    "whole_radius_upper_exact": "45051691342491160980875/37778931862957161709568",
+    "whole_support_lower_exact": "1480374243506407557/2305843009213693952",
+    "whole_principal_curvature_upper_exact": "123/10",
+    "whole_diameter_upper_exact": "45051691342491160980875/18889465931478580854784",
+    "whole_reach_lower": {
+      "lower": 0.08130081300813008,
+      "lower_exact": "10/123"
+    },
+    "same_R82_global_scalar_bounds_preserved": true,
+    "original_active_A_real_interval_exact": [
+      "12988150193023875934487852507089141927517228409392844081963950699339358547958261737466206747055779847224557585563982859873281307433161049294998910557559232846228568682398650780391985846379936090472847381177144409538145766966694640209886396313234568286509954061289877146751138455295835124343119530426123618006908089881119461527658836953893674227640477340208013638147749628547860970789524109/93255072464193015774050153333182206425992749735509675055659246659616328214673308270189665397921624696188097661030357829810796753584978245576933563186868794035800200404127414298127722812967788612237716408107300708456775347242034370647984012404566812213921846012388001023704212601853170217809374493742632464549731270940139068399217981979047303938747335792836234630403897566579100391812628480",
+      "13990495046766498929135058160934421901757728350692849648611994066317124238135380490148241581131453820937086918868907150529046532161992319133106282234135775304530453529482476872645208230217442008100401547225588704713488327538063910630058672383417032541082263972566962983973670837655107080188568190392092863262373365283350229294642970941171420603722805041679832261821648843683098176333163891/93255072464193015774050153333182206425992749735509675055659246659616328214673308270189665397921624696188097661030357829810796753584978245576933563186868794035800200404127414298127722812967788612237716408107300708456775347242034370647984012404566812213921846012388001023704212601853170217809374493742632464549731270940139068399217981979047303938747335792836234630403897566579100391812628480"
+    ],
+    "unchanged_active_A_real_lower_used_exact": "139/1000",
+    "cap_B3_divided_by_pi_exact": "69992023193056271063118330873563176432817749474806051084663142309495546895826022955064046425/8958978968711216842229769122273777112486581988938598139599956403855167484720643781523509973086428463104",
+    "B3_multiplier_over_R82_exact": "1792000",
+    "B3_multiplier_over_R86_exact": "35",
+    "endpoint_phases_exact": [
+      "0",
+      "9/20"
+    ],
+    "one_minus_cos_27over20_lower_exact": "989253/1280000",
+    "endpoint_tensor_gap_strict_lower_exact": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/917399446396028604644328358120834776318625995667312449495035535754769150435393923228007421244050274621849600000",
+    "endpoint_tensor_gap_simplified_strict_lower_exact": "2513/2000000000000000",
+    "R88_radius_hypothesis_exact": "6/5",
+    "R88_support_hypothesis_exact": "3/5",
+    "R88_tensor_to_distance_constant_exact": "16640",
+    "endpoint_all_E3_surface_Hausdorff_strict_lower_exact": "7/100000000000000000",
+    "whole_family_delta_E_over_D_strict_lower_exact": "7/240000000000000000",
+    "Hausdorff_distance_multiplier_claimed": false,
+    "cap_target_metric": "dx^2+dy^2+df_new tensor df_new, fixed for every phase",
+    "actual_target_changed_only_once_on_the_two_fixed_disks": true,
+    "full_Cartesian_boundary_two_jets_preserved": true,
+    "old_target_refinement_claimed": false,
+    "old_integrals_or_Gram_polynomials_recomputed": false,
+    "complete_finite_metric_claimed": false,
+    "lambda_one_or_held_arc_claimed": false,
+    "README_completion_claimed": false
+  },
+  "actual_exact_proof_seconds": 0.006734717993822414,
+  "sources": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/sharp_marker_exact_certificate.py",
+      "sha256": "6d8362efb9c589441ff1264f6fb7ebd2cf114309b0d26e58a3da43b060c4e36f",
+      "bytes": 13880
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_sharp_full_disk_marker.py",
+      "sha256": "e44cbdaab91969e0bdfeec432a5e6c52126c9b6d6219cbca0e22c91233200f96",
+      "bytes": 15421
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_sharp_full_disk_marker_cli_v2.py",
+      "sha256": "d42c160ffb60d03cda3ff57399191cb582e4bf2be9058d0bbcc4916c479c82cd",
+      "bytes": 1963
+    }
+  ],
+  "actual_full_constructor_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/actual-constructor-cli-v2.json",
+    "sha256": "f1edf2d8ef335ad4cc23062a9f94427722fe232f690b2f78c3675cd225f94ce4",
+    "bytes": 6993
+  },
+  "actual_full_constructor_session_id": 90707,
+  "actual_full_constructor_returncode": 0,
+  "original_full_index": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/verified-node-index-cli-v2.json",
+    "sha256": "e9cb47aef29e77e2c2e5af2a335e942c8933ae2a952b31fed37883ab25e0911b",
+    "bytes": 1209077
+  },
+  "runtime_exact_geometry_values_identical_to_exact_certificate": true,
+  "historical_console_failure_and_forward_fix": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-full-disk-marker-cli-forward-fix.json",
+    "sha256": "3d350a46d5131d1783fc7b34cfe493c266db57d96d580ccc405db0a93ea9871e",
+    "bytes": 4232
+  },
+  "unchanged_actual_geometry": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/closed-marker-column-geometry-20261128-a/summary.json",
+    "sha256": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c"
+  },
+  "unchanged_actual_activity": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/actual-width012-closed-third-activity-20261128/summary.json",
+    "sha256": "f109408b33c9726fcdc22efeed555c4889edcd8bc96c3cd1ad526fe6833d0676"
+  },
+  "proof_dependencies": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R67-universal-threefold-marker-and-euclidean-noncongruence.md",
+      "sha256": "56cba676773b61d6f89e23f8a5ca7c51f2795c2f9892662ac32d04f863e18cc1",
+      "bytes": 8777
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R84-actual-endpoint-third-tensor-separation.md",
+      "sha256": "e8b7b72275813f2a814ccec6d252dd09f88b46ee479f3021abb196717fb87bc1",
+      "bytes": 11134
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R86-full-disk-marker-with-unchanged-geometry-budget.md",
+      "sha256": "1fac53deab8ef3145ea4e61de7a41906d4f9dc831910874ea7ef9b42e3dfb700",
+      "bytes": 11811
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R88-quantitative-euclidean-hausdorff-from-third-moment.md",
+      "sha256": "b9c50c2da3011ab7536c368374d7e72afbbfb6dd0f42af5c7777f45482d97080",
+      "bytes": 8644
+    }
+  ],
+  "actual_C2_closed_embedded_family_constructed": true,
+  "all_harmonics_retained": true,
+  "exact_Fraction_definition_not_rounded_amplitude": true,
+  "target_metric_changed_only_on_two_fixed_disks": true,
+  "target_metric_fixed_for_all_phases": true,
+  "actual_field_source": "R82/R83 lambda .002 M24 879-node source with unscaled original raw-H tail, not final coupled physical-H",
+  "original_target_refinement_claimed": false,
+  "complete_finite_metric_claimed": false,
+  "accurate_lambda_one_or_ten_percent_held_arc_claimed": false,
+  "fixed_complete_problem_refinement_claimed": false,
+  "README_completion_claimed": false,
+  "any_old_integral_or_continuous_metric_proof_recomputed": false,
+  "published_complete_proof": {
+    "path": "topics/visible-flex-held-10pct/results/R89-sharp-marker-bernstein-and-unchanged-geometry.md",
+    "sha256": "d792305bab36946a34b5973c74438daa4e97021ae6fbc1d41e9d9b85035fe132",
+    "prepared_draft_sha256": "af07b629319853cab0d7a95d9f746908efc949fb90e0910fff0a5e8053dbc0cd",
+    "publication_changes": "Math delimiter formatting and explicit distinction between unchanged mathematical classes and the separately recorded forward CLI output fix."
+  }
+}
