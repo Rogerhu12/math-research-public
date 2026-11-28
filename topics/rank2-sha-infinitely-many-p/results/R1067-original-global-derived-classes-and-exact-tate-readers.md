@@ -422,3 +422,83 @@ $cU_0=U_0^{-1}$、$cU_1=U_1$。所选上方有理Frobenius在$L_j$恰为$c$，(B
 先保全两整数分量，再以原pair和准确Frobenius证明这一分量可消；对一般$K$分裂素仍用(BP2)。
 
 本节固定了103的原函数、全部整一次权、原两点、预先可验的参考素、共轭及每个整精度。仍须对无穷多个$p$证明某个$k$的真实第一幂余数非平凡，不能以参考点满性代替此目标。
+
+## 101. 全部整精度的原循环邻曲线与第二位的真实加权单位
+
+取§75的$k\ge1$、$j=k+1$，$A_j=(\mathcal O/p^j)^\times$及与§74同相容的$Q_j$。下面只用$[p]$生成循环子群，不改$\pi=-p$的Tate作用。以$\mathscr Y_k$表示(AQ3)用原$r_j$代$d_j$后的二次项。由(AP1)、(AQ2)及同一限制单射，
+\[
+ \mathscr Y_k=0\quad\Longleftrightarrow\quad
+ [T^2]\mathcal A_p\in p^k\mathcal O .
+\]
+等式均在原$\Phi_j$的模$p^k$ Kummer群张量外部$\mathcal O/p^k$中；全驯标记可先在原未分歧分裂域作乘积，再按(AO1)下降。单位群用加法记号。
+
+令$J_k=\{1+p^ki:i\in\mathbb F_p\}\subset A_j$。对$a\in A_j/J_k$任选提升，置
+\[
+ C_a=\langle[p^ka]Q_j\rangle_{\mathbb Z},
+ \qquad\phi_a:E_1\longrightarrow E_1/C_a .
+\]
+$\langle[p^k]Q_j\rangle$是原相容第一层的有理线；商曲线仅依$a\bmod p$给出的$\mathbb F_p$线。准确有
+\[
+ \mathscr Y_k=e_\tau\sum_{a\in A_j/J_k}
+  a^{-1}\binom{-s(a)}2
+  \sum_t\varepsilon(t)\,
+  \Theta_{E_1/C_a,(c)}
+      \bigl(\phi_a(T_{t,j}+[a]Q_j)\bigr). \tag{BQ1}
+\]
+在$J_k$陪集上，$a^{-1}\bmod p^k$和反圆指数不变，内点遍历
+$T_{t,j}+[a]Q_j+C_a$。任一阶素于$c$的循环子群$C$，将所有平移的$\Theta_{E,(c)}$相乘，所得除子等于商同源拉回的$\Theta_{E/C,(c)}$除子，因为同源在$E[c]$上同构。两函数之比是与点无关的常数，由$\sum_t\varepsilon(t)=0$准确消去。因此无需选商曲线微分尺度或丢弃底域常数。规范范数本身见Kato，*p-adic Hodge theory and values of zeta functions of modular forms*，Proposition 1.3(4)及§1.10的证明：[原刊](https://archive.numdam.org/item/AST_2004__295__117_0.pdf)；这里的除子比较也直接适用于原(AN2)的十二次幂规范。
+
+全部$\Delta$作用同时移动同源与全标记。$p$惰性使
+$\mathbb F_{p^2}^\times/\mathbb F_p^\times$走尽$p+1$个方向；每条上
+$\phi_a([a]Q_j)$恰有阶$p^k$。所以各$k$均可用同一组$p+1$条导子$p$的CM邻曲线，不能把其它方向删除。
+
+### 完整实主单位方向与所有Tate校正
+
+取
+\[
+ J=(1+p\mathbb Z_p)/(1+p^{k+1}\mathbb Z_p),\qquad
+ C_a[d]=\langle[p^{k+1-d}a]Q_j\rangle ,
+\]
+其中$C_a[d]$的阶为$p^d$。对$a\in A_j/J$固定提升，$\phi_{a,d}$为相应商同源，写
+\[
+ F_{a,d}(i)=\sum_t\varepsilon(t)\,
+ \Theta_{E_1/C_a[d],(c)}
+ \bigl(\phi_{a,d}(T_{t,j}+[a(1+pi)]Q_j)\bigr).
+\]
+同一个原量等于
+\[
+ e_\tau\sum_{a\in A_j/J}a^{-1}\binom{-s(a)}2
+ \left\{F_{a,k}(0)+
+ \sum_{m=1}^{k-1}(-p)^m
+   \sum_{i=0}^{p^{k-m}-1}i^mF_{a,m}(i)\right\}. \tag{BQ2}
+\]
+证明是把实陪集写成$a(1+pi)$，$i\bmod p^k$。反圆指数固定，但完整Tate因子乘
+\[
+ (1+pi)^{-1}=\sum_{0\le m<k}(-pi)^m\bmod p^k.
+\]
+常数项沿全$C_a[k]$作无权范数。$m\ge1$时，$i^m$只须模$p^{k-m}$；每个$i\bmod p^{k-m}$的纤维，其真实平移差走尽$C_a[m]$。用前段相同除子比较即得(BQ2)。改变代表只重排原全和。商后野部分的阶为$p^{k+1-m}$，常数项为$p$。
+
+这些商曲线的端环可直接从格核对：在$p$处，原CM格除以该循环群后，经数乘化为$\mathbb Z_p+p^d\mathcal O_p$，乘子环恰为自身；其它素处仍为原极大格。整体端环因此是$\mathbb Z+p^d\mathcal O$。
+
+### 第二精度新增项的实际函数域非幂性
+
+$k=1$复得(AR2)。$k=2$保导子$p^2$的第一项和导子$p$的$-p$加权项。在
+$E'=E_1/C_a[1]$上令
+$D=\phi_{a,1}([pa]Q_3)$，它阶为$p$。取$f=\Theta_{E',(c)}$，后项使用真正的有理函数
+\[
+ S_D(Z)=\prod_{i=0}^{p-1}f(Z+[i]D)^i,\qquad
+ \frac{S_D(Z+D)}{S_D(Z)}
+   =\frac{f(Z)^p}{\prod_{i=0}^{p-1}f(Z+[i]D)}. \tag{BQ3}
+\]
+后式逐项换标即可验证。在
+$Z=\phi_{a,1}(T_{t,3}+[a]Q_3)$求值后再作全部原驯和，正是(BQ2)首个Tate校正的平移边界；没有以相对曲线导数替代$\Phi_j$的Kummer幂条件。
+
+让$Z$在$E'$移动，先对所有$t$作
+$S_D(Z+\phi_{a,1}T_{t,3})$的原权张量和，其函数域模$p$ Kummer类非零。在
+\[
+ Z=-\phi_{a,1}T_{t,3}-D
+\]
+只有这个标记的$i=1$原点除子贡献。不同标记之差是阶素于$pc$的非零挠点；其群与$E'[c]$及$\langle D\rangle$无交，故没有其它项贡献同一除子。原(AN2)的原点阶为$12(c^2-1)$，$c=103,\ p>211$时为$p$单位，于是该赋值为
+$12(c^2-1)\varepsilon(t)\ne0\bmod p$。
+
+这保留全驯张量，但尚未施外部$a$的反圆合成，也未证明原指定$Z$的算术求值仍非幂。故不据函数域结论宣称(BQ1)在原局部域非零；跨$p$主缺口仍须继续。

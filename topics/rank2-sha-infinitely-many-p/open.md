@@ -157,3 +157,7 @@
 ### R1067 §100：固定103的原全域一次幂余数与独立参考素
 
 已证明：真实原103 Robert函数的全域一次权、平滑常数103²−103和全部整精度已核；在两点平面饱和后，先仅由原Mordell点除点扩张选择参考素，准确读出 z1=λpX′p 的 λp mod p^k。指定惰性有理素的真实共轭把完整两坐标化为一个范数一幂余数。目标余数对无穷p非平凡尚未证明。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §101：全部整精度的实际循环邻点与Tate校正
+
+已证明：每个原局部Kummer二次测试准确写在同一p+1条导子p的CM邻曲线；沿全部实主单位方向展开保所有Tate校正，并给导子p^d的实际范数。第二精度首校正有明确加权函数与全驯函数域非幂性，未把它替代指定点或全反圆和的非零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
