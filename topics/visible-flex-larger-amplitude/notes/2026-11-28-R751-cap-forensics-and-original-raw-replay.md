@@ -66,3 +66,17 @@ trace源 scripts/resume_20261126/trace_r751_original_cap_operator.py 7091B / SHA
 | .github/workflows/visible-larger-r751-real-cap-gram-identity.yml | 3571 | f49677973c5d24b6abf215b6964d3c2d10bb79d06040b48e75c06e1a193be78c | af1cfe97cbfb05a247945dc94c2eb317b37ed616 |
 
 这次实际run/job/结果待原进程自然返回。修改上述课题外workflow仅用于真实矩阵改写定位；60分钟原上限不把时间上限作研究终点。
+
+## 矩阵改写原因已在原真实帽逐字确认
+
+run46156319188/1、job141013652727官方success。trigger 1cc5d412cd77239178e31344c0fbd943eb9ab99d，真实README pull 6ed0207852d58ce12676ad9de4b7b7b569f18ff7，Python3.14.4/NumPy2.2.6。完整[三原子域实际返回](https://github.com/Rogerhu12/math-research-public/blob/6e9d6b2091da3fa880866b1f4097dc0359bfd723/topics/visible-flex-larger-amplitude/notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 5937B / SHA-256 5344b9a401a52e341b1b07a4f69d947d3366ecc78409abfb08e84db919d85208 / Git 2dcaa0473033d89389b6ae56860f6ff4af2c9d14。同一个原fine末相上帽的原顺序连续行，不改原曲面/初基/measure。
+
+| 原行数 | 被筛选Gram字节 | g is change / shares_memory | 原g逐字等真实Gram | 原g逐字等显式g−g0 | 普通和trace原主曲率返回 |
+|---:|---:|---|---|---|---:|
+| 10922 | 262128 | false / false | true | false | 3.9124247373725742 |
+| 10923 | 262152 | true / true | false | true | 370.7885676392032 |
+| 11271 | 270504 | true / true | false | true | 370.7885676392032 |
+
+三项g0均逐字保持，change均逐字等独立np.subtract(...,out=)；每次第二op的mat就是同一个outer.g。完整11271行错误g的SHA-256为3dfbc5b17db7aa4be520f5e38f5a6b4241a9eb94cd7974a1e6ac7e5159bab6fc，逐字匹配前一完整trace的原真实mat。因此已直接证实change=g−g0在该运行时把g自身原地改成差值，并把差值传给后续曲率运算。
+
+上游NumPy v2.2.6的[temp_elide.c](https://github.com/numpy/numpy/blob/v2.2.6/numpy/_core/src/multiarray/temp_elide.c) Git662a2fa52b06d32e7160f69d0eb7a674a4183351，与[CPython说明](https://github.com/python/cpython/issues/133164)给出对应机制：旧临时数组消除启发式在256KiB阈值以上依据引用计数作原地操作，而3.14的借用栈引用使局部仍需使用的数组不再符合旧假设。本次跨阈值同源真实行、is与shares_memory已把机制落实在原实际数据上。原代码/原大值和全部失败均保留；这一矛盾已闭，无需重复原矩阵或再添独立门。后继使用明确兼容的固定Python3.12运行时，必要差值用独立out以保真Gram；不把这个修复冒作全帽metric或reach支付。

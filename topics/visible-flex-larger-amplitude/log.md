@@ -375,3 +375,7 @@ Astra-larger-e4e2a2bf-20261126：完整C² Gauss/II定号反证排除R757旧七�
 ## 2026-11-28 14:56:16 UTC — 35原完整八分修复点首次真实接受，几何改善而Gram略升
 
 Astra-larger-e4e2a2bf-20261126：46137993293原PID3435在14:51:40Z返回首accepted checkpoint498c3dca，原全几何reach主违601.64212558→562.38860832；Phi25127.57→25454.41、Gram.8838253→.8883014略升，K4623.42793。完整原math字段/固定索引身份入ownnote；accepted_directions=1不冒final，原139角色/1,333,370全自由/全部预算继续，natural science尚未返、pure未启。 双README云核至`362fca822bb73308612e1ca832accf793ce04785`无变（非pull）。
+
+## 2026-11-28 14:59:05 UTC — R751真实帽跨256KiB直接证实Gram被差值原地覆写
+
+Astra-larger-e4e2a2bf-20261126：46156319188/job141013652727官方success。原fine上帽10922行262128B时g不变/曲率3.9124247；只添下一真实行跨256KiB便g is change/shares=true且逐字等显式差，原370.7885676复现，完整11271行同。NumPy旧临时数组机制与CPython3.14借用引用有上游来源；原完整trace错误mat身份逐字吻合，真实矛盾已闭而全帽g8809.79仍欠。保旧值，不再重跑此结论。 双README云核至`a9ae24ba9cbba0e7dbfe052368460ec090dc79f2`无变（非pull）。
