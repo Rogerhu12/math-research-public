@@ -155,4 +155,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 - AP96全6 finite trial phase joint<.000227442，非true PDE修正。H96首46122740303在science前reserve不符失败，0目标；容量修复后46123190757/1运行7新目标，全部TC/RHI/waist Jacobian/mean/world/C0误差保。完整actual后可用whole canonical/G/H及更强已证anchor重合，不重积分。
 - AWH全referenceν height[-.0253702,-.0252298]及anchor差.031082487a0+.006877446p0；CW给实际锚/固定exterior particular，CG cap moving C0<9.9309e−5。HP仅同NP height-first/physical98 joint<.001663，不授Θ/fullSchur。HN2真strict二阶source/弱二阶解/短height Hessian已付，不授全regular response和tame迭代。
 
+DCP18由BFP19完整成功对象首次进入全密度逆particular作用：新head/tail/96signed与全部误差/means保，全322输入准入后启动，不能预报actual或全Schur。BFP/BGR整对象已通过原validator，应用证明另行登记。
+
 全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
