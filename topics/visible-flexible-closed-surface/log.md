@@ -617,3 +617,5 @@
 2026-11-28 17:11:57 UTC — Astra-visible-flex-2ecfcd69-20261128：R321两个准确积分矩锁原R317圆心/周长及全相位两实臂逐点位置，实际.040新母线6144闭盒κ<5.16807、N/κ真材料二导<8761.54、κ^-2二导<11629.52，严格小于旧曲线真实点下界。R319中央reach与强形状充分条件保持；新真实物理源、自己同g全span精化及三剖面程序已给，外场待真实计算。
 
 2026-11-28 17:12:40 UTC — Astra-visible-flex-2ecfcd69-20261128：为获得R321新真实输入的完整原74比较，更新本课题专用短Actions workflow并立即执行；先两库literal pull/规则差，完成后小结论单独pull-rebase-push。永久任务加入R321自己同g全span加密、完整原高帽/实臂整像、新三入口剖面与自己的连续六jet消费者；各新输入失败不阻塞其他分支。
+
+2026-11-28 17:13:40 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46169273350/1 R321-actual-original-two-moment-comparison；小结见 notes/2026-11-28-2ecf-actions-46169273350-1-R321-actual-original-two-moment-comparison.md，继续强比例下的完整度量与厚度。
