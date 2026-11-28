@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **6b10a53eb7249255f87756262e6c33a8f88250a1**。私库最近实际终端 pull 为 **2026-11-28 17:17:47 UTC / d7a497b7d3f2c1628ff69deeb97817a02f997473**，根未变、QUEUE仍为本会话进行中。17:09再次满盘后原工作目录消失；17:14起在新临时目录重新部分克隆，17:16/17:17两库实际pull恢复。所有失败pull不冒成功，公开原计算与收据继续有效。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
+公开最近成功的终端 pull/双 README 检查为 **c9b36e0f7348d531bdcd258d8d1b5da9fff6ba78**。私库最近实际终端 pull 为 **2026-11-28 17:17:47 UTC / d7a497b7d3f2c1628ff69deeb97817a02f997473**，根未变、QUEUE仍为本会话进行中。17:09再次满盘后原工作目录消失；17:14起在新临时目录重新部分克隆，17:16/17:17两库实际pull恢复。所有失败pull不冒成功，公开原计算与收据继续有效。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。子代理三位均 **gpt-6.2-astra / ultra**，已逐一确认无下级代理。每条结论即推；NFF立刻pull/rebase查规则重推到成功。仅公开Actions执行科学；本地仅纸证、源码和已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数组。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -28,23 +28,16 @@
 
 [原接收档和全部绑定](notes/2026-11-28-completed-receipt-archive-bindings.md)：第一artifact **15268777040**，ZIP SHA **4984be237dfef952f2e1406b67c42ddeb072344790fe1ecb490eb46bc1bc84c0**；第二 **15269471319**，SHA **ed0eb01838ce3a8668e7d4851cae6a42dd1baab398b47b73a0bd76dd12501a15**，到期12月28日15:12/15:33。必须核完整ZIP、原literal和成员，不从摘要伪造参数。恢复不重跑科学。
 
-八份自然终态已各自登记、独立提交推送；Actions success不授数学通过：
-
-- [R695](notes/2026-11-28-r695-paid321-and-inflight118-natural-terminal.md)：累计321未根，第118真实未接纳方向保留。
-- [R702](notes/2026-11-28-r702-paid113-and-material-frontiers-natural-terminal.md)：113接受，十端已齐/ruling未闭，608未完前沿保留。
-- [R711](notes/2026-11-28-r711-real6016-fixed-g-terminal-natural-terminal.md)：6016原参数、前割线、原同g双细η2.563914e−5，未过1e−6。
-- [R643](notes/2026-11-28-r643-fixed-source12-and-paid-partial-readout-natural-terminal.md)：细η2.206112e−7为条件值，细网及均高已付，实际位置stencil未闭。
-- [R631](notes/2026-11-28-r631-design174-and-two-position-stencils-natural-terminal.md)：μ0变E设计174，两实际位置stencil已完，η约2.46059e−5，非宏观固定g。
-- [R707](notes/2026-11-28-r707-actual-material-f60be0-retained-natural-terminal.md)：真f60be0材料细η3.226700e−5，下一3径标保留；旧ada2为另一材料，旧126/128缺失前缀债未销。
-- [R705](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)：四工/七细相位，源已坏几何；真实140×140normal及q在原artifact15267952844，不冒全J，不重复失败源资格。
-- [R714](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)：4261旧队列全闭并接纳，真保留outer51η.1819669866，下一outer52需2039径；旧2031资格不转移，raw epigraph与qualified不同。
+八份自然终态 R695/R702/R711/R643/R631/R707/R705/R714 已各自登记、独立提交推送，完整参数/费用/失败/下一态均见 [逐字交接](handoff-through-R738-first-launch-20261128.md) 所链八篇笔记与原 literal。Actions success 不授数学通过；不重复已付 fine、位置 stencil 或已排源资格，旧丢失前缀债不销。
 
 **R710** run46152424706/job141001739618/head12071581a715b36833640670ed5780014f73bc44已于15:14:20自然success，待一次性恢复原FINAL/费用/精确下一态，不能再写仍运行。R703只恢复原39163B源，新科学0。所有重叠费用保持生产者原字段，不盲加。
 
-## 曾恢复稿及环境债
+## 恢复稿与原费用
 
-17:09工作区消失前确曾取得的R716两稿、R717原请求、R718八稿与R719局部稿，精确字节身份及未闭事项完整保存在[本次压缩前交接](handoff-before-R738-first-fixed-metric-20261128.md)，不得冒仍有原字节、不得清账。R739两稿/R741已由作者逐字恢复并发表，原R732已排、不运行；R743长S/全行TSQR、R742真负K材料已发表且互审，尚未运行。首端盘求解将用同一新g上的R746准确平底和R747准确保护带种子，过渡与所有自由列仍实际求，不硬钉已排末姿。
+本首盘前逐字交接见 [截至 R738 首工单](handoff-through-R738-first-launch-20261128.md)。其中 R716–719 恢复稿/环境债、R739/R741 逐字恢复身份、所有原失败和付费均保留，详原链接，不冒仍有丢失字节。
 
 ## 完成门和继续
+
+**R746 首实际全盘。** [长 S 材料与准确平底种子的首次实际全盘求解](notes/2026-11-28-r746-early-long-s-physical-core-first-scope.md)：固定 R743 材料、R746 种子；10 相位/3与5次全部 219/912 列、完整 TSQR/SVD、实际重建及六 jet。首次 2400 秒/8 次迭代，`r746-paid-state` 原态逐键保费，不移旧材料资格。尚未取得实际终态或连续完成。
 
 须闭连通M、全t C²嵌入/连续族、同一个固定g、固定握持开集≥.2D、未对齐整像dH≥.3D、全t reach≥.03D；全点全时metric≤1e−6后同g自然精化到机器/求解容差，真多t网格及严格存在差距诚实。再追.5D或严格存在。δE可0，不换对象冒通过。未知盘不可借已给片资格。持续推进open，不以时长、缺输入、阶段小结或局部完成收尾。
