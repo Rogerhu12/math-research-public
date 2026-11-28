@@ -1,0 +1,101 @@
+{
+  "schema": "isp-small-original-first-kernel-schur-receipt-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run_id": 46097560019,
+  "job_id": 140832333998,
+  "execution": {
+    "elapsed_seconds": 7.289653618999978,
+    "max_child_rss_kib": 61024,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "292beb620132a650f6323e3bebf07c3b22f139f5",
+        "before": "292beb620132a650f6323e3bebf07c3b22f139f5",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T02:20:36.118996+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46097560019",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "292beb620132a650f6323e3bebf07c3b22f139f5",
+    "source_exit_code": 0,
+    "source_git_blob": "65543f5a2319a32031389ab4c3a1b6ca8840dbbb",
+    "source_sha256": "7a8d5bbde603d98e8d3762d535c422f236e61cf5c82330380ca2c6869af13b65",
+    "stdout_bytes": 3162,
+    "stdout_sha256": "788f8cc8f774034b1a34392e32b55f02847896791fa8d307bb5d0fefb13b360f",
+    "stop_reason": null
+  },
+  "result": {
+    "rank": 5,
+    "originalQQ_u_degree_lower_bound": 789,
+    "originalQQ_u_degree_upper_bound": 791,
+    "infinity_order_lower_bound": 11,
+    "remaining_degree_gap": 2,
+    "full_adjugate_returns": 392,
+    "full_kernel_returns": 352,
+    "full_rank_transform_returns": 64,
+    "exact_polynomial_division_returns": 5288,
+    "kernel_scalar_Q_degree": 72,
+    "minor_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "minor_columns": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      13,
+      17,
+      18,
+      19,
+      20
+    ],
+    "whole_H42_retained": true,
+    "QQ_degree_789_preserved": false,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "matrix_hashes": [
+    {
+      "highestMatrixSHA256": "bcbe7bcc2e9a4962af80c1504041aa330edb4903278343f868a46e5d43711b8a",
+      "firstJetMatrixSHA256": "8c92933a1c8cafa20e3386dfa469aecc48e75ff4b48c591540d01e6e8a46d42a",
+      "stage": "new_actual_original22_first_jet_and_kernel_minor"
+    },
+    {
+      "actualMinorScalarSHA256": "906ca700863a5e4d580f1d70a0030779a49f6d01e0f82da2b23d9faf8cfe7398",
+      "leftKernelSHA256": "03724c41f241de4ebfacd3fa116f71bb92e9402fd4a7792fc89c8bb813b35336",
+      "rightKernelSHA256": "fff7b58809587a8b0ca071287d5cd318a0feb12bfc8d0530c7513736fe40a5bf",
+      "firstSchurMatrixSHA256": "5568e61824cb876cc7b91db7d970595f40816dad1c1c44eee7f4f7407c0ab31b",
+      "stage": "new_complete_QQ_original_left_right_kernels_and_first_Schur"
+    },
+    {
+      "originalFixed22SourceSHA256": "043ffc06d0a48f804111ff35cbfee0922fe9a69c87c414f75099b8413cf4b53e",
+      "alreadyPaidOriginalModularPolynomialSHA256": "2b40bf98b99fb097b4d24d3d1f21291b782a2dc0678f756838fe2789343e192b",
+      "stage": "new_actual_first_kernel_Schur_rank_and_original_degree"
+    }
+  ]
+}

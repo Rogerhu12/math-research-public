@@ -1,0 +1,268 @@
+{
+  "schema": "isp-QQ-original-dual-family-generic-D-and-finite-W-support-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "run_id": 46097558018,
+  "job_id": 140832328219,
+  "driver": {
+    "elapsed_seconds": 4.009465304000003,
+    "max_child_rss_kib": 94096,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "292beb620132a650f6323e3bebf07c3b22f139f5",
+        "before": "292beb620132a650f6323e3bebf07c3b22f139f5",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T02:20:31.654626+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46097558018",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "292beb620132a650f6323e3bebf07c3b22f139f5",
+    "source_exit_code": 0,
+    "source_git_blob": "fdaea116782aec79f68113d7ffd4a8f6204a915e",
+    "source_sha256": "529eb09a14f050f9cb086a1f42d8313c3fd3cdd45d59e5894f6699e6715c1753",
+    "stdout_bytes": 4514,
+    "stdout_sha256": "0555b4577b08009a0f036dd6f85534c25835ecfbe1204d9fca8275d4e4d39386",
+    "stop_reason": null
+  },
+  "source": {
+    "basename": "2026-11-28-unit211-W-P164-true-QQ-dual-family-complete-original-return-8542.py",
+    "blob": "fdaea116782aec79f68113d7ffd4a8f6204a915e",
+    "bytes": 15359,
+    "sha256": "529eb09a14f050f9cb086a1f42d8313c3fd3cdd45d59e5894f6699e6715c1753",
+    "necessaryFull20PrefixBytes": 5551,
+    "necessaryFull20PrefixSHA256": "9a6f12dad89cc77c651f902bf881b53eca708cd8f0dcfab2961dabb089ed3523",
+    "budgetSeconds": 180,
+    "addressSpaceGiB": 4
+  },
+  "mathRecords": [
+    {
+      "stage": "new_QQ_entire_quadratic_weight_dual_family_complete_I6",
+      "weightAlgebra": "QQ(k)[e]/(4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8))",
+      "noIrreducibilityOrFieldAssumption": true,
+      "dualRelation": "eps^2=0",
+      "QQkFreeRank": 4,
+      "originalCoordinates": [
+        "ell=1/2",
+        "lambda=1/2+eps",
+        "T=-1/2",
+        "x=1/2+2*(1-e)*eps",
+        "y=1/2",
+        "t=0",
+        "f=(e+1)/2-(e-1)*eps"
+      ],
+      "allOriginalE0N0P1CoordinatesActuallyReturned": true,
+      "originalGramAZeroAndEqualNilpotentRSActuallyReturned": true,
+      "nativeOriginalCertificateWeightUnits": [
+        {
+          "label": "e",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 26,
+            "sha256": "28617d1dc6a1a143368b2e5e27c782e95f8177d7bfb5dd27b79d137dc1b2ee02"
+          }
+        },
+        {
+          "label": "k",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 30,
+            "sha256": "6822dc6c1f6122cb1368b93845544dced253fd7b139e5ce8f85f46ad5e832246"
+          }
+        },
+        {
+          "label": "u",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 29,
+            "sha256": "a131ae8a98c13a629d461848e9f3b762ca974ffa9a5a8ecbc8c52d111f8bb5ac"
+          }
+        },
+        {
+          "label": "distinct_p_q",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 34,
+            "sha256": "80706accda3c1e5493b38fda6cada7bd9eebdd2e7206c44a5c903049083c47c5"
+          }
+        },
+        {
+          "label": "W_paid_leading",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 37,
+            "sha256": "37535233b13549e0f563c164634d2f9b2be42056bc623beb00f90925110b36a4"
+          }
+        },
+        {
+          "label": "Phi",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 30,
+            "sha256": "4260a34f294a29a520cc4b60125e2d1a922993c4553df9846b5ecd443bb2c3f7"
+          }
+        },
+        {
+          "label": "P02",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 115,
+            "sha256": "b18f1ade07cc2ed012ed56e06296222e67e1d8f0e792168ed2a0d098ab5fcd89"
+          }
+        },
+        {
+          "label": "bc",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 119,
+            "sha256": "695f48f07c04186da8a0d436f6488304451fc8808d8142a9f72a922d17fc2bfb"
+          }
+        },
+        {
+          "label": "k_plus_one",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 30,
+            "sha256": "c9c8a45f221439e72429ffa5cb3146aac17f6f60585a758efeb297a5f148be88"
+          }
+        },
+        {
+          "label": "whole_equal_k_plus_two",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 30,
+            "sha256": "9fff2014b4d56a6afaa97518a7a65eb099f8951d26ccadd0300ab45349779044"
+          }
+        },
+        {
+          "label": "old_H",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 44,
+            "sha256": "2b70c0d034918a63fd8dcfd12d8558587d6519c05c782a02956e516926681b2f"
+          }
+        },
+        {
+          "label": "whole_C9",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 65,
+            "sha256": "c78227ec8ebe97cc15578daafc370cc9a74733e0fad6da7b78d1628ad82444b3"
+          }
+        },
+        {
+          "label": "whole_J19",
+          "wholeQuadraticNormInverseActuallyReturned": true,
+          "imageDefinition": {
+            "bytes": 93,
+            "sha256": "b1acec52323089d6d3fb80d4274819c94e5e18761250d8e77b563dfaaa4b923a"
+          }
+        }
+      ],
+      "completeI6": [
+        {
+          "label": "E1",
+          "allFourQQkCoordinatesActuallyZero": true
+        },
+        {
+          "label": "EBe",
+          "allFourQQkCoordinatesActuallyZero": true
+        },
+        {
+          "label": "EBo",
+          "allFourQQkCoordinatesActuallyZero": true
+        },
+        {
+          "label": "N1",
+          "allFourQQkCoordinatesActuallyZero": true
+        },
+        {
+          "label": "NS",
+          "allFourQQkCoordinatesActuallyZero": true
+        },
+        {
+          "label": "PS",
+          "allFourQQkCoordinatesActuallyZero": true
+        }
+      ],
+      "oldPDeterminantAndQQCharacteristicNotReplayed": true,
+      "wholeWExcluded": false,
+      "seconds": 3.2485489369999954
+    },
+    {
+      "stage": "new_QQ_dual_family_all_same_model_coordinates_and_I11_return",
+      "sameN1SlopeCoordinateAndAllForwardReverseProductsReturned": true,
+      "originalN1AndMonicQZActuallyZero": true,
+      "actualOriginalDZeroOverQQk": true,
+      "actualOriginalKZeroOverQQk": true,
+      "completeExtraValues": [
+        "qT4",
+        "R6",
+        "Nlow",
+        "Plow",
+        "entire_Vlow"
+      ],
+      "allFiveCompleteOriginalValuesActuallyZero": true,
+      "requiredWeightDenominatorDefinitions": 27,
+      "fullQuadraticNormInversesReturned": 61,
+      "exactQQkPolynomialDivisionsReturned": 59112,
+      "noOriginalDOrGeometricNormInverse": true,
+      "PAndChiSource": "previously proved P in I6 and chi in I4, whose exact native weight units were returned above",
+      "allFourFamilyBasisVectorsGeneratedByEAndLambda": true,
+      "modelToFamilySurjective": true,
+      "independentPreviousGenericDimensionUpperBound": 4,
+      "familyFreeDimensionOverQQk": 4,
+      "genericModelIsomorphicToThisDualFamily": true,
+      "QQGenericDUnitLocalizationIsZero": true,
+      "finiteKExceptionsAndEntireH198ZeroRetained": true,
+      "wholeWExcluded": false,
+      "familyCoordinateDefinition": {
+        "bytes": 968,
+        "sha256": "ce7037b479f69e0e790303442c1553e6df681871ad8b6ea9dd7295b672e0eab5"
+      },
+      "sourceSHA256": "529eb09a14f050f9cb086a1f42d8313c3fd3cdd45d59e5894f6699e6715c1753",
+      "peakRssKiB": 94096,
+      "noCoefficientCacheOrEncodedSplitPayloadSaved": true,
+      "ordinaryISPClaim": false,
+      "seconds": 3.929393600999994
+    }
+  ],
+  "conclusions": {
+    "coefficientField": "QQ(k)",
+    "entireWeightAlgebra": "E=QQ(k)[e]/(4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8))",
+    "noAssumptionEIsField": true,
+    "wholeQuadraticNorm": "a^2+r1*a*b-r0*b^2",
+    "family": "E[epsilon]/epsilon^2",
+    "familyQQkDimension": 4,
+    "previousIndependentlyProvedGenericDimensionUpperBound": 4,
+    "modelToFamilySurjectionGeneratedByEAndLambdaMinusHalf": true,
+    "QQGenericOriginalAuxiliaryModelIsomorphicToFamily": true,
+    "actualQQDZero": true,
+    "physicalDUnitQQGenericQuotientZero": true,
+    "wholeCurrentWPhysicalWeightSupportZeroDimensionalByNoVerticalAndH198FiniteTheorems": true,
+    "fixedNormalizedSevenCoordinateOriginalSchemeFinite": true,
+    "explicitFiniteKCoverComputed": false,
+    "newWholeWNumericalPointOrLengthBound": false,
+    "allFiniteKFibersRetained": true,
+    "entireH198ZeroRetained": true,
+    "wholeWExclusion": false
+  },
+  "oldDefinitionCoverage": {
+    "oldModelDistinctWeightInverseCount": 67,
+    "newDirectExpressionDenominatorDefinitions": 27,
+    "newWholeQuadraticNormInverseReturns": 61,
+    "exactPolynomialDivisions": 59112,
+    "coverage": "all native ML/P/chi coefficient denominators by exact native paid atoms; N1 slope/qZ/coordinate and tag coefficients directly; six physical equations via original six and the original t inverse; complete five value coefficients and explicit m,u,Q,ell,delta,M divisors",
+    "noUnknownExtraEWeightFactor": true
+  },
+  "noOldPDeterminantQQCharacteristicPrimaryOrNormReplayed": true,
+  "noCoefficientCacheEncodedOrSplitPayload": true,
+  "ordinaryISPClaim": false
+}
