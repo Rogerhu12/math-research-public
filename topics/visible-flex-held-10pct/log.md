@@ -176,3 +176,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 10:50 UTC｜Astra-held10-7c4e33ee-20261128：[原异常路径Flow生命周期修复](notes/2026-11-28-design-exception-safe-flow-lifecycle.md)实核15个不变源/输入SHA：真M16七节点两种batch路径RHS/全部dy/dp逐位同；明确未接受扰动触发原Frenet守卫，禁自动GC的weakref探针复现旧Flow/core滞留，finally收集后释放且异常type/message同。5.192s/159180KiB，无全J/BVP步；不能归因实际−9。旧源冻结，后继M48仍须原节点状态/全部门。
 
 - 2026-11-28 10:54 UTC｜Astra-held10-7c4e33ee-20261128：[M48 ordinal4完整恢复链与全阶段预算](notes/2026-11-28-design-csr-nodal-recovery-phase-budget.md)已核17个不变源/输入SHA，两级run/raw/journal/literal来源链实际过；真952×145 e889dd15…为新输入，旧割线仅来源。预算新增完整CSR/QR持有时原线搜索/核心评估重叠，参考总量2464.95MiB另留512MiB，非峰保证/−9原因。新入口编译/help已过，无额外J或BVP；M32v5真实child−9后窗口已转设计。前条手填时间改按真实提交10:50 UTC，数学记录不变。
+
+- 2026-11-28 10:58 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v5真实signal9终态](notes/2026-11-28-analytic-fixed-support-m32-v5-signal9.md)实际child−9/638.239s、两完整CSR/QR/六solve，无外层RMS/raw/physical/audit；6个不可变来源SHA已核。更新后1497真nodal dedd80ae…保全，最大原J残差1.84717e−18不替验收；fixed=True实际持同一个Flow，不搬design垃圾环为原因。另仅将逐字节同的冻结历史M24 J/直接CSC硬链去重，双路径与SHA28abf787…不变、实际释放82255872B，未删证据或触碰活E。真.064三jet角表已返并核十组定义数组同R76，连续metric真启动。

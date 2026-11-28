@@ -1,0 +1,91 @@
+{
+  "status": "observed_child_signal9_interruption_without_original_raw_return",
+  "run": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v5/run.json",
+  "run_sha256": "26373bc7baa5d88fc9b3383e1375a127f993728499fa38363d09e57cb174f08a",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_literal_driver_v5.py",
+    "sha256": "213ed5dffdb3925cdae43c22c0d1ac1fe6496f7c42a92ce254ddc99952ae85d7"
+  },
+  "actual_process_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-v5-process.json",
+    "sha256": "7776820a22188d80767eba67eb7f40f66ec0c0c10a08705279412788c127587d"
+  },
+  "actual_console": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-v5-console.log",
+    "sha256": "2805e36e8500d30831cf51f6a437e4f21d27dc267429814d607b62ff0f10b42a"
+  },
+  "observed_exit_code": 247,
+  "observed_parent_exit_code": 247,
+  "observed_child_returncode": -9,
+  "observed_signal_number": 9,
+  "actual_seconds": 638.2392575939994,
+  "maximum_child_rss_kib": 1450012,
+  "complete_factor_returns": 2,
+  "complete_linear_solve_returns": 6,
+  "last_factor": {
+    "event": "complete_J_factor_return",
+    "seconds": 481.7225713860007,
+    "maximum_rss_kib": 1450012,
+    "stats": {
+      "equations": 145241,
+      "state_size": 97,
+      "nodes": 1497,
+      "parameters": 32,
+      "internal_nodes_eliminated": 1495,
+      "levels": 11,
+      "minimum_relative_R_diagonal": 3.6452768427494944e-05,
+      "solve_calls": 0,
+      "maximum_componentwise_backward_error": 0.0,
+      "maximum_normwise_backward_error": 0.0,
+      "refinement_steps": 0,
+      "stored_factor_bytes": 488990580
+    }
+  },
+  "last_linear_solve": {
+    "event": "complete_J_solve_return",
+    "seconds": 488.41933814299955,
+    "maximum_rss_kib": 1450012,
+    "stats": {
+      "equations": 145241,
+      "state_size": 97,
+      "nodes": 1497,
+      "parameters": 32,
+      "internal_nodes_eliminated": 1495,
+      "levels": 11,
+      "minimum_relative_R_diagonal": 3.6452768427494944e-05,
+      "solve_calls": 1,
+      "maximum_componentwise_backward_error": 1.0,
+      "maximum_normwise_backward_error": 1.438374604491615e-23,
+      "refinement_steps": 2,
+      "stored_factor_bytes": 488990580
+    },
+    "original_matrix_residual_max": 1.0981782161152004e-18,
+    "original_matrix_residual_relative_l2": 6.231947870586015e-11
+  },
+  "largest_observed_original_J_residual_max": 1.8471670997248155e-18,
+  "latest_complete_nodal_checkpoint": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v5/last-nodal-jac-input.npz",
+    "sha256": "dedd80ae45e10bfecb02a4369f51f9751c2ed2e41c3f140f66cdbad3f5b65544",
+    "metadata_path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v5/last-nodal-jac-input.json",
+    "metadata_sha256": "bb2c754d345c7c6c73c6a22d0fd751ffbf458c0919546ae359ae51c8d5252ec4",
+    "nodes": 1497,
+    "state_components": 97,
+    "parameters": 32,
+    "parameter_scales": 31,
+    "p0": 7.089383593385811e-06,
+    "q_actual": 0.06000042536452339,
+    "minimum_spacing": 1.5823386880053913e-05,
+    "all_finite": true
+  },
+  "checkpoint_is_unaccepted_saved_node_state_not_a_solver_return": true,
+  "last_saved_nodal_need_not_be_last_live_Newton_state": true,
+  "complete_solver_raw_available": false,
+  "physical_return_available": false,
+  "metric_audit_available": false,
+  "outer_RMS_return_available": false,
+  "accepted_source_promoted": false,
+  "mathematical_BVP_failure_inferred": false,
+  "specific_termination_cause_proved": false,
+  "OOM_of_this_process_proved": false,
+  "next_start_must_use_updated_real_nodal_state": true
+}
