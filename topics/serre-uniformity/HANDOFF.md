@@ -10,7 +10,7 @@
 
 旧repo路径消失后已重新真实部分克隆，终端可用；各次pull/readme检查和旧提交恢复沿逐字归档与log，不重演已推结论。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-complete-RC-CM.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-quadratic-return.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -45,13 +45,13 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1193–1201](results.md)原最高packet=τ_m+PS_(m−1)，首中心η=T db/(uA)、CM旗标秩n且核T*=−r^n。原有限log、SS全normal及canonical τ=B²、C²=γ²/B^(2p)、统一ν均保。R1201的SS和32m c_mν/binom(m,n)²正确；其完整V解释现由R1208更正。保simple极部，不扩扫描。
 
-[R1202–1205](results.md)原实际最高负deck整Ω有UΩ∈pΛ；PS临界Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N矩阵[[1/4,1/8],[−1/2,−1/4]]。真实π^−pU返回C(T)=−3γ²𝒟T，𝒟T=rT″−4b²T′−9bT/4；imC=ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠1unit。原full-p两平方类组件的ε函数及自然δ重数付rank qΓ=n、λ0，bot:qΓ/pqΓ≅ker𝔠，高PS返回给实际整基。pure首值现由R1210别取实际返回读成unit；指定C/whole MW仍开。
+[R1202–1205](results.md)实际最高负deck qΓ整分裂，PS临界Ubar=−iq₂/4；原π^−pU返回C(T)=−3γ²𝒟T，imC=ker𝔠且𝔠(1)unit。全six/p两平方类ε函数与自然δ重数付rank qΓ=n、bot:qΓ/p≅ker𝔠，实际高PS返回给整基。原临界N矩阵、完整framing和同底lift自由度沿逐字前态及原文；pure首值由R1210付unit，指定C/whole MW继续。
 
 [R1206–1208](results.md)同原f_T=(r/u)(T/A)′有df_T=𝒟T db/(uA)，SS完整p阶/简单主部保留；实际six/p-level/framing在全O/(p)锁CM截面Q。原e_D/e_I的static σ=(1+A_tail z^(4g))^(−3aξ)必须保centre/node接口；顶H(Q)=−4·2^mA^L、H(R)=−8c_mA^L，canonical τ_CM^(m−1)A_tail^L=νξ⁻¹。完整V(T*)=−8·2^mν/Q0²；旧32m c_m为SS部分，R1199–1201范围已更正，旧探针不重跑。全部原极部/normal/p分母界沿逐字前态与原文。
 
 [R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
 
-[R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。不是指定简单商C或whole-MW法向单位，继续两deck实际格、Π/Φ/极化和全原CM jets。
+[R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。§7同一输入的原CM轮廓恰二次、w²系数unit；另取b²给首CM值−41/4，得(V,首CMλ)的aggregate单位2×2 minor。它不是F0-balanced或指定C/whole-MW法向单位，继续实际Π/Φ。
 
 [R1211](results/R1211-original-whole-highest-character-projector-integrality.md)原q的整性现扩至整个最高σ权m²角色格Γ_all，含正/负/旧deck。R1202尾全normal消去不依deck；新增centre h=1·db/u在SS准确产生normal m、pole m的非零项，higher h只给低pole，故不能残留于UΩ modp。高PS中心分支沿原degree界同样排除，得Γ_all=qΓ_all⊕(1−q)Γ_all。正deck的πdb/u允许方向仍保，不能照搬负底单射；未宣整个R-Hodge/BT已split，继续同原Π/Φ/极化。
 

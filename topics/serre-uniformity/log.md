@@ -766,3 +766,11 @@
 - 因而同一最高惯性角色Γ_all的全部deck部分均由q整分裂。root/global逐式核新增分支，保正deck πdb/u方向；不把W角色格当整个R-Hodge格/BT整分裂，不复制负deck底映射的单射或维数。未执行数学程序或旧窗口。
 - R1210已真实推d8ffcecda586f34da85c42c9631ed92a7ab02358，run46179923888/job141086934424；19:12:29.026809UTC真实pull读0316baaf324d5e6d556df1db3d372d507ab32e8d，两README diff空。原pure返回单位与此格扩展分别发布；真正Π/Φ/whole-MW比较继续。
 - 本push规则：公开Actions真实pull至 3974ef95c971f0dbac2a41110a013a81d38e64db（2026-11-28T19:16:09.988516+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1210 §7：同一个原高PS输入T₀=b²r^(n−1)的返回S_hi在b=1恰n−2阶零，显示leading系数99/4。原R1197旗标于是给实际ε^−m Abel轮廓次数恰二，二次项含全部原节点单位且非零；一次项与完整尾界保留。
+- 另一actual输入b²给S_lo=2−49B/4、首CM读取−41/4（其唯一分子素数不在p11支）。结合已付完整V(S_hi)单位，得到整个pure空间上两原向量的(V,首CM)单位2×2 minor。明确保aggregate与F0-balanced的差别，未将之当指定C/whole-MW楔或深盘唯一零。root/o2独立纸核，旧R1210前缀逐字保留，只追加本节。
+- R1211已真实推65fca4763a9431817cd34337f3dd806961c20fb9，run46180237088/job141087916948，19:16:09.988516UTC真实pull读3974ef95c971f0dbac2a41110a013a81d38e64db，两README diff空。H压缩前逐字归档before-quadratic-return。
+- 本push规则：待公开Actions真实pull、核两README差异并写入实际提交；主目标OPEN，原special Π已继续，actual Lie/极化/全MW比较未越界。
