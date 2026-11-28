@@ -598,3 +598,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:18:44 UTC — 29官方失败终态与现有原job日志读取
 
 29官方completed/failure@05:08:49Z、job140871777584研究step05:08:47Z失败；已返只有maker0/5.783396263s/source14fa94b/报告65322/7e17ee19。第二输入与科学未返，不把阶段exit0冒全run成功，实际原因尚未知。[本轮全记录](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)保完整官方run/jobs/固定原分卷索引/末真pull槽。新增题内完整7331B日志metadata脚本及题外.github/workflows/visible-larger-run29-failure-evidence.yml1018B，用公开Actions读取已完成原job日志来修CI，非数学重跑/新gate；whole raw log仅runner，完整异常与整体身份才返。仅移已官方终态29槽，研究继续。双README云核至`922382c228b1c8449cf3119a1cd5447185dc512b`无变（非pull）。
+
+## 2026-11-28 05:22:37 UTC — 29原日志确证容量发布异常与第二输入实际成功
+
+原job whole日志先runner测53972B/e6d72535再完整小体核同，实际RuntimeError就是200MB容量发布guard；第二输入实际0/368.740189417s/source748f083/报告84966/01d21ecd，全部原event/输出metrics/trace已保，不伪造未发表第2卷。只读恢复run46111548660/1成功，非科学重跑。root预留容量不足，修完整预检/等待发布后重启真实R726；数学预算/域不改。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)。双README云核至`e8eaedfd0c29426c288541b3ab4e242771a525bf`无变（非pull）。

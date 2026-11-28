@@ -900,3 +900,278 @@ rules读取固定head 34566e33466d8bdbfc6bca047738272d18973ac2的两README未变
 Actions29：[run 46110194444/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46110194444)；[全阶段记录](notes/2026-11-28-public-actions-46110194444-1.md)。completed；已返1，exit=0。
 并行29规则核查：2026-11-28 05:02:35 UTC，真实pull至`14fa94bbaac9dafaa6b7be3d06a32d940a8c1f04`，双README无变化。
 <!-- visible-larger-parallel-29:end -->
+
+## 2026-11-28 05:22:37 UTC — 29原日志确证容量发布异常与第二输入实际成功
+
+已从真实原job日志确认：异常发生在第二个输入的finish_record→publisher.publish，完整RuntimeError明确为topic超过200000000字节。该原日志已先由公开只读恢复run46111548660/1测得53972B/SHA e6d7253506bdcc37df4b588accad288c5db812fbd7a1c5da0a736312d24931cc；确认小于100KB后本轮再读取其完整文字，并核whole字节/hash一致。没有读大日志或保存/上传原raw日志。
+
+第二输入实际上于05:08:46.3520224自然returncode0，source748f083094eeb026231fa3e084eaa22e8968427f、368.740189417s、报告84966B/01d21ecd3970c77608be9bdb70cd6a8cfe591ade9adbbc5fe7292da1ef4390aa；此前索引没返并不是子输入失败。全输出、完整metrics、原固定target与accuracy_reached=false及全部无限尾责任保下列实际完整event；实际source/model/point科学求解开始/报告仍未观察。两输入的实际发生与未成功发布的卷分开，不伪造原第2卷，也不把现有原runner输入搬到未来run。
+
+完整新取事件（每一项保原整JSON，非选字段重造）以及实际完整trace如下。
+
+```json
+{
+  "original_job_log_identity": {
+    "bytes": 53972,
+    "sha256": "e6d7253506bdcc37df4b588accad288c5db812fbd7a1c5da0a736312d24931cc",
+    "line_count": 521,
+    "complete_log_only_on_runner": true,
+    "raw_log_committed_or_uploaded": false,
+    "decode_replacement_used": false
+  },
+  "complete_original_events": [
+    {
+      "line_one_based": 402,
+      "utc_prefix": "2026-11-28T05:02:29.7543148Z",
+      "complete_original_event": {
+        "event": "followup_queue_loaded",
+        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-29.json",
+        "path_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7",
+        "checkout_commit": "14fa94bbaac9dafaa6b7be3d06a32d940a8c1f04",
+        "sha256": "e16b8d782febeb5e0b70840b925003fdc6524ee6595f29b3fb1e9807a5dd717a",
+        "steps": 3,
+        "finish_when_done": false
+      }
+    },
+    {
+      "line_one_based": 403,
+      "utc_prefix": "2026-11-28T05:02:30.5382522Z",
+      "complete_original_event": {
+        "event": "followup_started",
+        "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+        "source_commit": "14fa94bbaac9dafaa6b7be3d06a32d940a8c1f04",
+        "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+        "parent_sha256": null,
+        "pid": 2953
+      }
+    },
+    {
+      "line_one_based": 404,
+      "utc_prefix": "2026-11-28T05:02:35.5410845Z",
+      "complete_original_event": {
+        "event": "followup_returned",
+        "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+        "state": "completed",
+        "returncode": 0,
+        "seconds": 5.783396263,
+        "source_commit": "14fa94bbaac9dafaa6b7be3d06a32d940a8c1f04",
+        "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+        "parent_sha256": null,
+        "outputs": [
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-r690-inputs/report.json",
+            "sha256": "7e17ee19a68931d044e2e34c4ea0eade6e485af81a330667028cd0d65670a41e",
+            "bytes": 65322
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+            "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+            "bytes": 4334
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+            "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+            "bytes": 144306
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+            "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+            "bytes": 40488
+          }
+        ],
+        "metrics": {
+          "fixed-fejer-r690-inputs/report.json": {
+            "schema": "complete-fixed-fejer-r690-input-preparation-v1",
+            "source": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+            "status": "complete",
+            "complete": true,
+            "seconds": 0.47715675099999544,
+            "definition": "5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a",
+            "target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+            "actual_run": "46110194444",
+            "actual_attempt": "1",
+            "actual_source_commit": "14fa94bbaac9dafaa6b7be3d06a32d940a8c1f04",
+            "all_input_source_output_rechecked": true,
+            "physicalF": 0,
+            "J_evaluations": 0,
+            "normal_roots": 0
+          }
+        }
+      }
+    },
+    {
+      "line_one_based": 416,
+      "utc_prefix": "2026-11-28T05:02:38.4112317Z",
+      "complete_original_event": {
+        "event": "followup_started",
+        "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run29",
+        "source_commit": "748f083094eeb026231fa3e084eaa22e8968427f",
+        "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+        "parent_sha256": null,
+        "pid": 3094
+      }
+    },
+    {
+      "line_one_based": 417,
+      "utc_prefix": "2026-11-28T05:08:46.3520224Z",
+      "complete_original_event": {
+        "event": "followup_returned",
+        "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run29",
+        "state": "completed",
+        "returncode": 0,
+        "seconds": 368.740189417,
+        "source_commit": "748f083094eeb026231fa3e084eaa22e8968427f",
+        "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+        "parent_sha256": null,
+        "outputs": [
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/report.json",
+            "sha256": "01d21ecd3970c77608be9bdb70cd6a8cfe591ade9adbbc5fe7292da1ef4390aa",
+            "bytes": 84966
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/reference.npz",
+            "sha256": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+            "bytes": 894879
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/observations.npz",
+            "sha256": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+            "bytes": 205842
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/locations.json",
+            "sha256": "9b00ef0aae8cf55b1da08ba54cac545f1796c5af7f2d3f95670e2fd2f0ab4e87",
+            "bytes": 106771
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/supplied-location-provenance.json",
+            "sha256": "8c6172148d316532bc3cc54c984bdd8db1d1b014511d5a8bb328707f0ee875ae",
+            "bytes": 223955
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/fixed-target-definition.json",
+            "sha256": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+            "bytes": 30919
+          },
+          {
+            "path": "/home/runner/work/_temp/visible-larger-research-46110194444-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
+            "sha256": "c4fb00d539b9dfb169b85f5dc528c5f05a1fdc2aa713370c869226752fd968f6",
+            "bytes": 35712
+          }
+        ],
+        "metrics": {
+          "fixed-fejer-reference/report.json": {
+            "schema": "R690-fixed-fejer-axisymmetric-SO3-preparation-v1",
+            "source": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+            "source_commit": "748f083094eeb026231fa3e084eaa22e8968427f",
+            "complete": true,
+            "seconds": 363.556563587,
+            "reference_model": "ea64e2fe5e272648195128d53521705cc266d82f7d2636bd7201b90fcf172fac",
+            "fixed_scalar": "d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160",
+            "scalar_parameters": "e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa",
+            "mathematical_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+            "full_target": "50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319",
+            "fixed_recipe": "5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a",
+            "model_chart": "af8ab672f847163fe02999df70a031cd5e4a495ed89c788ad0dffc8786651103",
+            "model_mesh": "ca4b5c626e0e5cf1687c40c25a68a76c4e8fbde391bd8c853399400c784dddfc",
+            "core0": "0x1.c000000000000p-2",
+            "core1": "-0x1.3333333333333p-4",
+            "core2": "0x1.b6db6db6db6dbp-6",
+            "M": 160,
+            "J": 923,
+            "P": 7377,
+            "N": 2048,
+            "height": 1.947054437068418,
+            "reference": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+            "carrier": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+            "nodes": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+            "scalar": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+            "fixed_input": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+            "input_preparation": "7e17ee19a68931d044e2e34c4ea0eade6e485af81a330667028cd0d65670a41e",
+            "locations": "9b00ef0aae8cf55b1da08ba54cac545f1796c5af7f2d3f95670e2fd2f0ab4e87",
+            "location_provenance": "8c6172148d316532bc3cc54c984bdd8db1d1b014511d5a8bb328707f0ee875ae",
+            "target_file": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+            "leaf_target": 2218,
+            "actual_leaves": 2218,
+            "accuracy_reached": false,
+            "integral_width_exact": "20705780131163723599438290019541571913013106551525357578680931811765776678181/14411518807585587200000000000000000000000000000000000000000000000000000000000000000000000",
+            "whole_tail": true,
+            "unresolved_tail_dropped": false,
+            "clock_selects_leaves": false,
+            "old_warm_not_required": true,
+            "old_surface_used": false,
+            "old_directions_replayed": false,
+            "old_certificates_inherited": false,
+            "physical_field_read": false,
+            "new_field_still_required": true,
+            "run": "46110194444",
+            "attempt": "1"
+          },
+          "fixed-fejer-reference/material-envelope-carrier-binding.json": {
+            "schema": "complete-fixed-fejer-actual-reference-binding-v1",
+            "source": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+            "source_commit": "748f083094eeb026231fa3e084eaa22e8968427f",
+            "run": "46110194444",
+            "attempt": "1",
+            "mathematical_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+            "full_reference_definition": "50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319",
+            "reference": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+            "preparation": "01d21ecd3970c77608be9bdb70cd6a8cfe591ade9adbbc5fe7292da1ef4390aa",
+            "carrier": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+            "fixed_input": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+            "nodes": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+            "scalar": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+            "target_file": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+            "history": "8c6172148d316532bc3cc54c984bdd8db1d1b014511d5a8bb328707f0ee875ae",
+            "all_six_actual": true,
+            "old_values_or_unknown_history_inherited": false
+          }
+        }
+      }
+    }
+  ],
+  "complete_trace_segments": [
+    {
+      "start_line_one_based": 490,
+      "end_line_one_based": 506,
+      "bytes": 2788,
+      "sha256": "673a497b6f18a5157557fae115092cb7e60e81e06589913852fbb39e91e6d34f",
+      "complete_observed_trace_segment": true,
+      "full_text": "2026-11-28T05:08:47.3520688Z Traceback (most recent call last):\n2026-11-28T05:08:47.3528047Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py\", line 334, in <module>\n2026-11-28T05:08:47.3529061Z     main()\n2026-11-28T05:08:47.3529772Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py\", line 276, in main\n2026-11-28T05:08:47.3530565Z     followups.run_followups(repo,work,runwork,publisher,status,request,began)\n2026-11-28T05:08:47.3531721Z   File \"/home/runner/work/_temp/visible-larger-research-46110194444-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 614, in run_followups\n2026-11-28T05:08:47.3532643Z     return _Followups(repo, work, runwork, publisher, status, request, started_monotonic).run()\n2026-11-28T05:08:47.3533112Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n2026-11-28T05:08:47.3533862Z   File \"/home/runner/work/_temp/visible-larger-research-46110194444-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 569, in run\n2026-11-28T05:08:47.3534594Z     self.run_step(copy.deepcopy(pending[0]))\n2026-11-28T05:08:47.3535528Z   File \"/home/runner/work/_temp/visible-larger-research-46110194444-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 544, in run_step\n2026-11-28T05:08:47.3536349Z     self.finish_record(record)\n2026-11-28T05:08:47.3537185Z   File \"/home/runner/work/_temp/visible-larger-research-46110194444-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 512, in finish_record\n2026-11-28T05:08:47.3538003Z     self.publisher.publish(self.status, exit_code=record.get('returncode'))\n2026-11-28T05:08:47.3538829Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py\", line 210, in publish\n2026-11-28T05:08:47.3558451Z ##[error]    raise RuntimeError('The topic exceeds the explicit 200 MB repository bound; preserve provenance and retire reproducible old raw before publication')\n2026-11-28T05:08:47.3563675Z RuntimeError: The topic exceeds the explicit 200 MB repository bound; preserve provenance and retire reproducible old raw before publication\n"
+    }
+  ],
+  "read_only_recovery": {
+    "run": "46111548660",
+    "attempt": "1",
+    "head": "d9112d40bd141ed3e29e531beaaa022e2ba51a29",
+    "rules_read_commit": "f0d97efe950d625fc4c6d6946bd5570bc66ff299"
+  },
+  "scientific_failure_inferred_from_publication_exception": false
+}
+```
+
+此处只登记真实发布故障与已完成输入，不把运行能力故障当数学否定。未来控制器将先对完整note/全部volume/H计算最终容量，在未放宽200MB/10KB/完整内容合同下等待真实pull释放空间，再普通发布；不杀科学child、不删记录或降低科学预算。修复源与同R726全部参数续跑另立即成体发表。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-original-job-failure-metadata.json",
+    "bytes": 8312,
+    "sha256": "43c28f36a61564c4fa2c9902f77c154a04303cfffed895ceb8bdbd6c4203191a",
+    "git_blob_sha": "ce551b98d1dcf3c80109d79d5d371e562ca74faf",
+    "fixed_commit": "7f057637d0a538556e753c816ec0ab2cb9f329b4",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46110194444-1-part-001.md",
+    "bytes": 5751,
+    "sha256": "f3da5281438902016474d99afa41ba496ba8f779b769f8159e926f12fa49f61a",
+    "git_blob_sha": "3d3b5e6c358070e0fd7e9f8fc94271ded90c7098",
+    "fixed_commit": "345fc610eaa131b092ca6d0316ff5a6b4ef70c7d",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
