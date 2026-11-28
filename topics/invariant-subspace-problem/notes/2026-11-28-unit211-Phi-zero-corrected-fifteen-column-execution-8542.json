@@ -1,0 +1,339 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "date": "2026-11-28",
+  "scope": "corrected whole Phi, original D nonzero; exact I6, not whole exclusion",
+  "run_id": "46130918529",
+  "job_id": 140935643723,
+  "elapsed_seconds": 2.910171338999998,
+  "max_child_rss_kib": 47372,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "8874f0c2fc047cddc2e5a0b67a7ab6f4b2b44f9d",
+      "before": "498bba413fd82ac2f13b125f5836b151a4eae820",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T09:32:19.568220+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "498bba413fd82ac2f13b125f5836b151a4eae820",
+  "source_exit_code": 0,
+  "source_git_blob": "f73a06b941fe6c990c5d22ebf1778f05e7c76c74",
+  "source_sha256": "84e0efcc19a0274d571484b187b7b155c81ebf255e40a39c38ac13a03f911cf0",
+  "stdout_bytes": 7326,
+  "stdout_sha256": "7448a444f64326783a8783ff6f1ca7bd00520a163abafd83bd2b6ed178f7643c",
+  "stop_reason": null,
+  "mathematical_last_seconds": 2.868058455,
+  "actual_statistics": {
+    "exactDivisionProducts": 137,
+    "newActionCoordinates": 18,
+    "newCofactorCoordinates": 6,
+    "newMatrixDefectCoordinates": 36,
+    "newMultiplicationCoordinates": 1974,
+    "newOverlapOriginalReturns": 2
+  },
+  "multiplication_DAG_nodes": 1590,
+  "exact_I6_presentation": {
+    "basis": [
+      "1",
+      "T",
+      "z"
+    ],
+    "seed_names": [
+      "N1",
+      "NS",
+      "PS",
+      "comm_T",
+      "comm_z"
+    ],
+    "columns": 15,
+    "relation_lambda_degrees": [
+      [
+        "N1",
+        "one",
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      [
+        "N1",
+        "T",
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      [
+        "N1",
+        "z",
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      [
+        "NS",
+        "one",
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      [
+        "NS",
+        "T",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "NS",
+        "z",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "PS",
+        "one",
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      [
+        "PS",
+        "T",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "PS",
+        "z",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "comm_T",
+        "one",
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      [
+        "comm_T",
+        "T",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "comm_T",
+        "z",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "comm_z",
+        "one",
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      [
+        "comm_z",
+        "T",
+        [
+          4,
+          3,
+          3
+        ]
+      ],
+      [
+        "comm_z",
+        "z",
+        [
+          4,
+          3,
+          3
+        ]
+      ]
+    ],
+    "no_free_module_assumption": true
+  },
+  "new_cofactors": [
+    {
+      "label": "new_full_weighted_NP_with_N1",
+      "originalRows": [
+        "N1",
+        "NS",
+        "PS"
+      ],
+      "actualThreeMultiplierCommon": {
+        "degrees": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca",
+        "terms": 4,
+        "totalDegree": 2
+      },
+      "originalScalarNumerator": {
+        "degrees": [
+          43,
+          23,
+          6,
+          0,
+          0
+        ],
+        "sha256": "a43c16070ebb7f55afe8beff98efb899b15e2c3ec347b8a88175f39126ca18af",
+        "terms": 3878,
+        "totalDegree": 49
+      },
+      "originalScalarDenominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "retainedNecessaryLambdaWeightPolynomial": {
+        "degrees": [
+          42,
+          22,
+          6,
+          0,
+          0
+        ],
+        "sha256": "fcf79be98410a2eea2ebdb588b441b8f4aceb20acb4704a96ee34fc0012d01d5",
+        "terms": 3721,
+        "totalDegree": 47
+      },
+      "actualLambdaLeadingNumerator": {
+        "degrees": [
+          37,
+          21,
+          0,
+          0,
+          0
+        ],
+        "sha256": "63c05c345cbc7055d652d46c173684bd7fdb159db3741232ef94d6cb58992bf6",
+        "terms": 471,
+        "totalDegree": 41
+      },
+      "lambdaDegree": 6
+    },
+    {
+      "label": "new_two_original_overlaps_with_N1",
+      "originalRows": [
+        "N1",
+        "comm_T",
+        "comm_z"
+      ],
+      "actualThreeMultiplierCommon": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "originalScalarNumerator": {
+        "degrees": [
+          34,
+          21,
+          6,
+          0,
+          0
+        ],
+        "sha256": "bb37cccdf47d08cf2ac1138ad76bb076839e7532e01f454f7b08dc213730fe60",
+        "terms": 2958,
+        "totalDegree": 41
+      },
+      "originalScalarDenominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "retainedNecessaryLambdaWeightPolynomial": {
+        "degrees": [
+          30,
+          15,
+          6,
+          0,
+          0
+        ],
+        "sha256": "2407107501f1790a288ecabd75f14f92c7602859bfc033727b76312675f91014",
+        "terms": 1824,
+        "totalDegree": 33
+      },
+      "actualLambdaLeadingNumerator": {
+        "degrees": [
+          24,
+          15,
+          0,
+          0,
+          0
+        ],
+        "sha256": "9794fac2ee8bf7de08d80b9f3102480f1d06c9cfb4ff8be3981817dcfbd682fb",
+        "terms": 230,
+        "totalDegree": 27
+      },
+      "lambdaDegree": 6
+    }
+  ],
+  "paid_weight_support": "Q*(1-Q)*(u-1)*K*L*Mn*A*B",
+  "head_nonzero_fiber_length_upper_bound": 18,
+  "both_head_zero_fibers_retained": true,
+  "no_global_finiteness_or_empty_claim": true,
+  "no_coefficients_or_encoded_payload_saved": true
+}
