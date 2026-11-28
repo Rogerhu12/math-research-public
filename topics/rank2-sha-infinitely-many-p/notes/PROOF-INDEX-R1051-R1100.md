@@ -469,3 +469,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1067 §21：原 CM tensor 方块的精确相对权与模型 Norm
 
 [R1067](../results/R1067-original-first-wild-rubin-even-multiplicity.md)（83）–（92）按Kato印257的定义性下降与period图，保R303原Betti/Tate基及同一反圆分角色的完整tensor方块。共同34δp²模数、p²/Artin/Gamma、辅助与参考17的18/17因子逐项定位后，原ε_r(m)=κ_rθ^−(2m+1)，固定κ_r在椭圆单位求值前确定；原U=U0·17^−m。β尺度后Uβ=U0(Normβ/17)^m，真实log连接λ17=−(p−1)²log17，其全p阶Euler缺陷余类为2p^p q_p(17)。不重复模型费用、不把该项单独视为forcing；全mixed Katz商、原中心和lift相位仍须合并。
+
+
+### R1062 §13：精确 Norm17 规范与同一个全整平移核
+
+[R1062](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G73）–（G85）取a=Teich(β)(17/hat17)^(1/2)，Na=17、a/β∈1+pZp。真正全局CM除法和对称刚性化经完整finite-flat极限给全formal lift身份，原Cβ(Q)=K_a(Q)，指定T′及ε_Q未换。SL₂(Zp)标准球、完整整数代表律与同一χ_(2,17r)=χ_(34,r)准确支付λε=λ′；全部非p来源保持。原物理字遂为ε_Q F2,T′(a u)H_a(v(u)⊕Q)，H_a=K_a f34/f2a∈v6O[[v]]，仍在原加权和内部。K_a=k_a(v^d)全整，首k1≡−17(pcσ)q_p17，首p+2槽仅d/d+1有明确校正；没有宣布Fermat费用消失或Hall非零。另(17/p)=+1时固定a=√17给同一有理物理级数，尚未由此付跨p非零。

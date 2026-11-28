@@ -82,7 +82,7 @@ R1067§15（53）–（58）已付actual δ_k的1≤k≤p−2全Bell差分界及
 
 R1062§11现支付原中心：全scheme唯一对称lift使C34,T/C2,T′=ε_Q Cβ(Q)，Cβ为真实径向整单位；J在全厚一级群的commutator精确为Fermat-17类，原指定lift相位和λ/λ′全保。G62/G63只在G[p²]完整输入成立，高jet仍用G50；下一消费这个实际有限算子和bare Katz/Frobenius，而非假定q_p(17)对无穷p非零。§12的全translated相对核现已付：ordinary系数和(m)_k给γ_k≥kη，η=1−1/(p−1)，全Δ块/carry及逆均保；a<η仅是算子可作用范围，shifted参考输入的大盘延拓仍未付，未赋whole Hall新半径。须继续原中心/全外权下的实际Euler或canonical读者，不由单字单位核推加权和非零。
 
-R1067§21已把实际比较单位精确化：原b_j/ζ/e_m方块系数1，deRham才一次产生θ^−(2m+1)，故U=U0·17^−m；β尺度后为U0(Normβ/17)^m。λ17的Fermat余类是完整Euler的一项，不能独立判非零。继续与R1062实际中心/full kernel合并；geometry正在核N(a)=17且a≡β modp的真实CM除法规范，须保aT−βT及全部连接，不先将其报作抵消或主非零。
+R1067§21已把实际比较单位精确化：原b_j/ζ/e_m方块系数1，deRham才一次产生θ^−(2m+1)，故U=U0·17^−m；β尺度后为U0(Normβ/17)^m。λ17的Fermat余类是完整Euler的一项，不能独立判非零。继续与R1062实际中心/full kernel合并；R1062§13现已付N(a)=17规范：真CM除法的finite-flat极限给Cβ(Q)=K_a(Q)，原aT−βT共线half-pairing严格1，指定T′不换。原SL₂球及代表律付λε=λ′，完整Hall回同一H_a的平移值；K_a首Fermat槽及G85两校正全留。下一直接消费原bare Euler的≤p+2窗口及canonical坏后的独立行；固定√17物理来源另核全球高度，不把formal函数认成代数或给旧H3中央零。
 
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 

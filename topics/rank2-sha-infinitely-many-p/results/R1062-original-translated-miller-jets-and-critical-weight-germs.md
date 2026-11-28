@@ -2029,3 +2029,338 @@ shifted reference 导数全部在内。
 实际中心和线性 $\Gamma$ 返回，以及无多余 $k!$ 的可逆相对
 shift 核。它不把单槽零升为整个向量零，
 也不由单位核推原加权 Hall 和非零。
+
+## 13. 范数恰为 17 的实际规范：共同中心、原 Hall 相位和全平移来源
+
+本节仍使用原 \(E_0\)、同一严格坐标 \(v\)、\(P(v)=pv-v^q\)、
+\(q=p^2\)、\(\Delta=q-1\)、\(d=p+1\)，以及(G40)的原两个来源。
+这里不增加新的全局同源，也不把任意同角色向量替换为原 Schwartz
+向量。新选择只在原整 CM 形式群上进行；其全部有限字和中心如下锁定。
+
+### 13.1 同一剩余类中的精确范数选择
+
+保留原 \(\beta^d=17\)。令 \(b=[\bar\beta]\in\mu_\Delta\)
+为其 Teichmüller 部分，\(\widehat {17}=b^d\)，并置
+$$
+ u_{17}=17/\widehat {17}\in1+p\mathbf Z_p,\qquad
+ \beta=b\,u_{17}^{1/d},\qquad
+ a=b\,u_{17}^{1/2},\qquad
+ r=a/\beta=u_{17}^{(p-1)/(2d)}.
+ \tag{G73}
+$$
+所有幂在 \(1+p\mathbf Z_p\) 中唯一取得。
+特别 \(\beta/b\) 确在 \(\mathbf Z_p^\times\)，而非只知道它在
+\(\mathcal O_L^\times\)。准确有
+$$
+ N_{L/\mathbf Q_p}(a)=17,\quad
+ r\in1+p\mathbf Z_p,\quad
+ r^2=17/\nu,\quad \nu=N\beta,\quad
+ [a]Q=[\beta]Q\quad(Q\in G[p]).
+ \tag{G74}
+$$
+因此原 norm-\(r_0\) 点集仍送到同一个 norm-\(17r_0\) 点集。
+下文用 \(r_0\) 标记 Hall 范数，以免与(G73)的有理主单位 \(r\)
+混淆。原参考点 \(T'\) 也不重新选择。
+
+记
+$$
+ \mathscr H(v)=\frac{\sigma(z(v))}{h(v)}
+       =\frac{z(v)}v E_{\rm c}(z(v)),\qquad
+ K_a(v)=\frac{\mathscr H(v)^{34}}{\mathscr H([a]v)^2}.
+$$
+(G35)对这个 \(a\) 给
+$$
+ \boxed{
+ K_a(v)=
+ \frac{\mathscr T(v)^{34}}{\mathscr T([a]v)^2}
+              V_a(v)^{-2}\in1+v\mathcal O_L[[v]],
+ \qquad V_a=\frac{F([a]v)}{F(v)^{17}} .
+ }
+ \tag{G75}
+$$
+这次 \(34-2Na=0\)，所以没有尚需在严格 \(R_E\) 盘取指数的
+\(F^p\) 因子。\(K_a\) 与逆在整个严格形式单位盘有界。
+这是整形式坐标中的结论，不将两个 sigma 因子分别评价到边界。
+
+完整 completion \(E_{\rm c}\) 在 \(\mu_d\) 下不变，且
+\(z([\zeta]v)=\zeta z(v)\)、\([\zeta]v=\zeta v\)。
+所以(G75)还有准确的全级数形式
+$$
+ \boxed{K_a(v)=k_a(v^d),\qquad k_a\in1+W\mathcal O_L[[W]].}
+ \tag{G76}
+$$
+本式不是只在 \(G[p]\) 的约化点上成立。
+
+### 13.2 真正除法同构与整个 theta lift 的连续返回
+
+需要证明(G75)确运输原 theta lift，不能只凭两个 multiplier
+具有相同的 kernel character 作此认定。
+
+先取(G34)中的实际
+\(\alpha\in\mathcal O_K\)、\(\alpha\equiv1\bmod2\)，
+\(n=N\alpha\)、\(p\nmid n\)，并写
+$$
+ K_\alpha(v)
+ =\frac{[\sigma(z(v))/h(v)]^{2n}}
+        {[\sigma(\alpha z(v))/h([\alpha]v)]^2}.
+$$
+(G34)的真正除法函数
+\(\sigma(\alpha z)/\sigma(z)^n\) 给
+\([\alpha]^*\mathcal L_2\simeq\mathcal L_{2n}\)。
+准周期和半特征已在那里逐项支付；特别没有二次 exponential。
+在相同解析 automorphy 下两个整局部框架的关系恰为
+$$
+ e_{2n}=K_\alpha\,[\alpha]^*e_2,\qquad K_\alpha(0)=1 .
+$$
+该同构保持原 symmetric structure 和零截面刚性化：
+两个框架均在零截面取值1，且 \(K_\alpha\) 为偶函数。
+拉回 \([p]\) 后，把原参考 theta lift 运输过来。
+由(G52)的唯一性，它正是原 \(s_{2n}(T)\)，而非另乘一个
+根单位的 lift。按(G54)已经固定的 coefficient action 次序，
+准确得到
+$$
+ m_{2n,T}(v)=
+ m_{2,[\alpha]T}([\alpha]v)\,
+ \frac{K_\alpha(P(v)\oplus pT)}{K_\alpha(P(v))}.
+$$
+
+现在取 \(\alpha_j\to a\)，仍令 \(\alpha_j\equiv1\bmod2\)；
+由中国剩余定理可同时安排任意 \(p\)-进精度。
+\(n_j=N\alpha_j\to17\)，而 \(K_{\alpha_j}^{\pm1}\) 全部整。
+以下说明这个极限在实际有限平坦底环中合法。
+
+在 \(A=\mathcal O_{G[p^2]}\) 中，augmentation ideal 模 \(p\)
+幂零；原 \(C_1(T)-1\) 属于该 ideal。
+故 \(C_1(T)\) 的 \(\mathbf Z_p\) 次幂逐系数连续。
+(G53)及 \(\mathfrak m_1\in1+vA[[v]]\) 因而使
+\(m_{1,T}^{\,2n_j}\to m_{1,T}^{34}\) 在 \(A[[v]]\) 的
+逐系数 \(p\)-进拓扑成立。
+\([\alpha_j]T\) 在充分大 \(j\) 时已等于 \([a]T\)，而
+\([\alpha_j]v\to[a]v\) 逐系数成立。
+
+最后，\(Q=pT\) 在 \(A\) 中拓扑幂零；
+对整系数的 \(K_{\alpha_j}\)，平移
+\(K_{\alpha_j}(P(v)\oplus Q)\) 的高 \(Q\) 次数尾一致趋于零。
+所以可先截断至任意给定 \(p\)-进精度，再取上述有限系数极限。
+这里没有把普通逐系数极限未经说明地代入边界点。
+得到全 scheme、全 formal \(v\) 的实际身份
+$$
+ \boxed{
+ m_{34,T}(v)=
+ m_{2,[a]T}([a]v)\,
+       \frac{K_a(P(v)\oplus Q)}{K_a(P(v))},
+ \qquad Q=pT .
+ }
+ \tag{G77}
+$$
+整个论证只把局部 CM 作用作真实全局 CM 除法的连续极限；
+没有声称 \(a\) 本身是一个全局椭圆曲线同源。
+
+在 \(v=0\) 评价，并除去实际中心，(G77)同时给
+$$
+ \boxed{
+ \frac{C_{34}(T)}{C_2([a]T)}=K_a(Q),\qquad
+ J_a(w,Q)=\frac{K_a(w\oplus Q)}{K_a(w)K_a(Q)}.
+ }
+ \tag{G78}
+$$
+第二式是整个 formal \(w\) 上的恒等式：
+先将两边拉回 \(w=P(v)\)，再用有限忠实平坦性。
+它比(G56)仅在 \(G[p]\times G[p]\) 上的限制更强。
+
+### 13.3 原中心和指定参考 lift 确实没有更换
+
+写 \(r=1+pc\)、\(c\in\mathbf Z_p\)。则
+$$
+ [a]T-[\beta]T=[c]([\beta]Q)\in G[p].
+$$
+这个差与 \([\beta]Q\) 是同一条有理标量方向。
+(G54)中的实际 half-pairing 因交替性严格为1，故
+\(C_2([a]T)=C_2([\beta]T)\)。
+对原指定 \(T'\)，若
+\(S_\beta=T'-[\beta]T\)、\(S_a=T'-[a]T\)，则
+\(S_a=S_\beta-[c]([\beta]Q)\)。
+又因 \(E_q(G[p],G[p])=1\)，同一计算给
+\(E_q([a]T,S_a)=E_q([\beta]T,S_\beta)\)。
+
+因此(G55)、(G59)的原符号有准确的返回
+$$
+ \boxed{
+ C_\beta(Q)=K_a(Q),\qquad
+ \epsilon_Q^{\,a}=\epsilon_Q^{\,\beta}=\epsilon_Q .
+ }
+ \tag{G79}
+$$
+这些等式在相应有限平坦 scheme 上成立；所用 \(c\) 可按其
+实际有限剩余类解释。没有因改规范而重选原 \(p^2\) lifts。
+特别(G79)把原共同中心实际解明，而非只给它另一个单位估计。
+
+### 13.4 两条原有限 Hall 字的绝对相位
+
+现在可以进一步支付此前一直保留的
+\(\lambda_Q\epsilon_Q/\lambda'_{[a]Q}\)。
+这一段只比较原 \(p\)-局部字；两条来源的非 \(p\) 向量仍各自保持。
+参考的实际字符是 \(\chi_{2,17r_0}=\chi_{34,r_0}\)：
+R716(3)的指数只含原 \(N r_0\)，而 \(2\cdot17r_0=34r_0\)。
+因此下面的共同 \(\chi_{r_0}\) 并未另换有限角色。
+
+由 R716(3)--(4)、R705(5)--(8)，原 \(\chi_{r_0}\) 在
+Teichmüller 单位与 \(\mathbf Z_p^\times\) 上平凡。
+(G73)因此真正给
+\(\chi_{r_0}(a)=\chi_{r_0}(\beta)=1\)；
+此前没有支付该分解时，不得免费作此替换。
+
+使用 R1067(12)的原
+\(h_N(x+y\omega)=((x+y)/3,(3N/2)(x-y))\)，令
+$$
+ M_a=h_2[a]h_{34}^{-1}\in\mathrm{SL}_2(\mathbf Z_p).
+$$
+行列式准确为 \(2Na/34=1\)。
+按 R716(27)的约定，Weil 元素取 \(g_a=M_a^{-{\rm t}}\)，
+它在 Heisenberg 列上作用为 \(M_a\)。
+原标准球 \(\mathbf1_{\mathbf Z_p}\) 在
+\(\mathrm{SL}_2(\mathbf Z_p)\) 下固定：整 unipotent、
+单位 diagonal 和自对偶 Fourier 生成元逐项固定它。
+这同时固定绝对 Weil scalar。故 Egorov 严格给
+$$
+ \rho(g_a)e_v^{(34)}=e_{av}^{(2)} .
+$$
+
+为核与(G79)的几何方向完全相同，取原指定整数代表
+\(w=av+p\ell\bmod p^2\)。R716(24)--(25)及 R1067(13)给
+$$
+ e_w^{(2)}=e_p([\ell,av])e_{av}^{(2)},\qquad
+ \chi_{r_0}(w)=e_p(-[\ell,av])\chi_{r_0}(av).
+$$
+另一方面，(G54)在该两个原 lifts 上准确给
+\(\epsilon_Q=E_q([a]T,S_a)=e_p(-[\ell,av])\)。
+这不是一个另选的 Gauss 相位。
+于是对原纯 Weyl lifts 外的相应 Hall 权，
+$$
+ \boxed{
+ \lambda_Q\epsilon_Q=\lambda'_{[a]Q},\qquad
+ \rho(g_a)\varphi_{34,r_0}=\varphi_{2,17r_0}.
+ }
+ \tag{G80}
+$$
+若已将 \(\chi\) 吸入 actual lifts，则(G80)正是同一等式而不再
+额外乘一次字符。所有 \(p^2\) 代表与中心已经在上述两式中核清。
+本式不声称非 \(p\) Schwartz 来源相同，亦不把
+\(S_{34}\) 变成 \(\Theta_2\)。
+
+### 13.5 同一个全整来源的真实平移公式
+
+定义
+$$
+ \boxed{
+ H_a(w)=K_a(w)\frac{f_{34}(w)}{f_2([a]w)}
+       \in w^6\bigl(1+w\mathcal O_L[[w]]\bigr).
+ }
+ \tag{G81}
+$$
+其逆仅在除去原六重零后为整单位。
+消去全部原 \(h\) 因子，特征零形式恒等式准确为
+$$
+ H_a(v)=\frac{S_{34}(z(v))}{\Theta_2(a z(v))}.
+$$
+这是原完整 \(S_{34}\) 和原参考 \(\Theta_2=x\sigma^2\)；
+没有仅保低次多项式或首 Gaussian。
+(G75)及整 \(f_{34},f_2\) 已独立支付整个右侧的 formal-unit-disc
+返回，不要求单独的 sigma 因子在该盘收敛。
+原 \(\mu_6\) 型还给 \(H_a(w)=w^6(1+O(w^6))\)。
+
+将(G77)--(G80)代回原拉回框架及 W22 连接，得到
+$$
+ \boxed{
+ \begin{aligned}
+ A_{34,T}(v)
+  &=\epsilon_Q A_{2,T'}([a]v)\,
+          \frac{H_a(P(v)\oplus Q)}{K_a(P(v))},\\
+ \mathscr F_{34,T}(u)
+  &=\epsilon_Q\,
+       \mathscr F_{2,T'}(a u)\,
+                         H_a(v(u)\oplus Q).
+ \end{aligned}}
+ \tag{G82}
+$$
+第二行的 \(u\) 是原物理 Lie 变量。
+W22 的 \(u=pz(v)\)、全部 \(E_{\rm c}\)、线性 \(Z_Q\) 及
+\(\Gamma\) 已在第一行乘回 \(K_a\) 后准确相消成这一完整函数；
+没有删除一个平移连接项或另外的 \(p\) 倍率。
+
+因此原完整 Hall 来源可用**同一个** \(H_a\) 写为
+$$
+ \boxed{
+ \begin{aligned}
+ K_a(P(v))P_{34,r_0}(v)
+  &=\frac1{\sqrt d}\sum_{NQ=r_0}
+        \lambda'_{[a]Q}\,
+        A_{2,T'_{[a]Q}}([a]v)\,H_a(P(v)\oplus Q),\\
+ \mathscr S_{34,r_0}(u)
+  &=\frac1{\sqrt d}\sum_{NQ=r_0}
+        \lambda'_{[a]Q}\,
+        \mathscr F_{2,T'_{[a]Q}}(a u)\,
+                                  H_a(v(u)\oplus Q).
+ \end{aligned}}
+ \tag{G83}
+$$
+这里 \(NQ=r_0\) 仍指原 R716 有限标签。
+参考的原全部点、原权和指定 \(p^2\) lifts 都保留；
+\(H_a(v(u)\oplus Q)\) 随 \(Q\) 变化，不能从和中提出。
+若改在全部权块读取，仍须使用(G71)的所有 carry、shifted
+reference germs，以及原外权求导的次序。
+
+### 13.6 bare 读者所需首 p+2 槽的确切表
+
+本节的全整返回还使原 reader 的有限窗口可以显式消费。
+由 \(\log\mathscr H=\log(z/v)+F_{\rm c}(z)\)，
+\(d<\Delta\)、\(z(v)=v+O(v^q)\)，有
+$$
+ \begin{gathered}
+ K_a(w)=1+k_1w^d+O(w^{2d}),\qquad
+ k_1=(34-2a^d)c_\sigma\in\mathcal O_L,\\
+ a^d=17u_{17}^{(p-1)/2},\qquad
+ \boxed{\ k_1\equiv-17(pc_\sigma)q_p(17)\pmod p.\ }
+ \tag{G84}
+$$
+最后一步用
+\(\log u_{17}\equiv-pq_p(17)\bmod p^2\)；
+\(a^d/17\equiv1+\frac p2q_p(17)\bmod p^2\)。
+所以 exact norm 规范并没有把 Fermat-17 费用宣告为零：
+它现在出现在实际整 completion 的首 \(W\) 槽。
+
+置
+\(h_{Q,k}=[w^k]H_a(w\oplus Q)\)，负指标定义为0。
+(G82)中的同一个下降乘子
+\(R_T^a(w)=\epsilon_QH_a(w\oplus Q)/K_a(w)\) 满足
+$$
+ \boxed{
+ R_{T,k}^a
+  =\epsilon_Q\bigl(h_{Q,k}-k_1h_{Q,k-d}\bigr),
+       \qquad 0\le k\le p+2=d+1.
+ }
+ \tag{G85}
+$$
+因此除 \(k=d,d+1\) 两槽分别多出
+\(-\epsilon_Qk_1H_a(Q)\)、
+\(-\epsilon_Qk_1DH_a(Q)\) 外，该全窗口就是同一个真实
+加法函数的系数。因 \(k<q\)，亦可写
+\(h_{Q,k}=D^kH_a(Q)/k!\)，其中 \(D\) 是原不变导子，
+而非裸 \(\partial_v\)；整个 \(k!\) 必须保留。
+整性由 formal addition 已支付，不由分项丢分母获得。
+
+(G50)对 \(A_{2,T'}([a]v)\) 原样适用：
+将其中 \(R_{T,k}\) 换为(G85)，并保留全部
+\((-1)^l\binom{k}{l}p^{k-l}\) 与 \(k+\Delta l\)。
+这给当前 bare Katz/Frobenius reader 所需首 \(p+2\) 槽的
+完整来源表，没有把高 Lie 矩冒成 ordinary 系数。
+它也不以一个 \(q_p(17)\) 的非零或无穷非 Wieferich 假设替代
+原中央坏条件后的独立约束。
+
+最后，若另限制 \((17/p)=+1\)，可在(G73)选择
+\(a=\sqrt {17}\in\mathbf Q_p\)，对应取同一剩余类的 \(\beta\)。
+这时(G81)的物理形式级数
+\(S_{34}(z)/\Theta_2(\sqrt {17}\,z)\) 不再随 \(p\) 改变，
+且因 \(\Theta_2\) 只含6倍次数而具有有理系数。
+本节只记录这一准确来源特化；它不自行给出 Hall 非消失、
+新的 canonical 零，或主目标的无穷素数结论。
