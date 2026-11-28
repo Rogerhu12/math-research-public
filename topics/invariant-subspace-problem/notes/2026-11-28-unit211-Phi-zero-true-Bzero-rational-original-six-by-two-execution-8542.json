@@ -1,0 +1,53 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run": 46112526572,
+  "job": 140879029009,
+  "elapsed_seconds": 0.09359800999999379,
+  "max_child_rss_kib": 40240,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "dc647b15d7d2c901d4639ba97e35fb5af4cdf535",
+      "before": "0d16e65e5bc276e25f56a39400af8c4ddc60e915",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T05:32:11.254774+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46112526572",
+  "source_commit": "0d16e65e5bc276e25f56a39400af8c4ddc60e915",
+  "source_exit_code": 1,
+  "source_git_blob": "a15cbf3a0bd940fc9ba7f4c292bf19b0948c7b22",
+  "source_sha256": "f027f52d63a345ce89b05ecbce7276093256eaf5a4b0ff9bf59da0e123a5f835",
+  "stdout_bytes": 3765,
+  "stdout_sha256": "f974c430b2697a4d126342124c2d0833b1575ba0d6b8e755ba6b955445c77479",
+  "stop_reason": null,
+  "exact_completed_stages": [
+    "complete_B_rational_parameter_both_directions",
+    "true_four_original_quadratic_definition",
+    "selected_Rbar_W4_N1_adjugate_both_products",
+    "three_actual_rules_and_omitted_Obar_trace",
+    "new_H3_and_C_factorizations",
+    "actual_linear_inverse",
+    "centered_monic_quadratic_and_original_combination",
+    "all_six_exact_original_relation_rows",
+    "all_actual_coefficient_denominator_returns"
+  ],
+  "head_unpaid_polynomial": "11*x^3-18*x^2+6*x-1",
+  "slope_unpaid_polynomial": "23*x^2-11*x+2",
+  "failure": {
+    "type": "TypeError",
+    "message": "Object of type fmpz is not JSON serializable",
+    "location": "final say('new_true_B_exact_six_by_two_original_model'), source line 202 -> say line 38 -> json.dumps",
+    "all_mathematical_assertions_before_failure": true,
+    "final_six_row_degree_profile_printed": false
+  },
+  "no_reexecution": true,
+  "original_phi_excluded": false,
+  "whole_B_excluded": false
+}
