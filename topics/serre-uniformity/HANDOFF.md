@@ -6,23 +6,17 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：7519a9d2a94cb58e31a2b84d44eb95647d35c6c3**（2026-11-28 20:27 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：e076bfaf4836fa94bdc4e9249532febfd6dbd08f**（2026-11-28 20:41 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:27。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:41。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Abel-jet-height.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-bounded-actual-quotient.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域/小惯性C³未全关。R1128 good≥floor(p/16)+3、forced Ω(p/logp)、候选O(p^1.5logp)，不以惰性CM推Q-CM；R1112小aux仍大。R1115原abelian−1整支保留。
 
-[R1131–46](results.md)原class4全cusp/phase、proper修正杯积/Heis p³已付；Cor不变Norm。未修正socle/MW d0/1、曲线twists=J(K)[p]ω⁻⁷及B16门沿原文保留。
-
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible矩/43格/全p^r来源、primitive Euler与全部ρ/二次gauge已付；D12秩90及factorials沿原文，finite coefficient不删raw高function jets。
-
-[R1148–53](results.md)原global基/Ccyc及有限尺度已付，大aux affine不代空集。原障碍rs h−zab含Har(1,3,4)，七坏支/最高同源/U/U²/β底参数保全；η★由R1180全支付。
-
-[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD/SDR与raw/primed theta已付；全部carry、CM α、ρ/gauge、primitive尺度、exact/shear/Cor沿原文及逐字前态。
+[R1131–68](results.md)原class4/cusp/phase、proper修正杯积/Heis p³、global基/Ccyc、43整格/PD/SDR/raw/primed theta均已付；所有未修正socle、MW d0/1、B16、ρ/gauge、carry/CM α/exact/Cor及完整原公式沿逐字前态，不重做。原rs h−zab仍含Har(1,3,4)，七坏支及U/U²/β底参数保全，大aux不代空集。
 
 [R1159–60](results.md)原Norm的ordered/BCH跨同源及J_n/B_n三整来源已付，保ψ⁻¹全shear；一般共轭路径显式读数继续，不作单点v_n乘法。
 
@@ -64,13 +58,11 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 ## O4：原半秩商的有效首项与深盘
 
-[R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，同β两列首项由FP给v_q(a_m)<B，全尾≥−v_q(r)。N=B+v_q(m)、形式log截2N准确决定本原泛函尺度hλ及e_m=v(a_m)−hλ；整盘深a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时为a+e_m+1。含坏q=p；仅去β/Ω辅助标量，原商格/高度仍保，不宣固定盘或统一p。
+[R1182–86](results.md)同原C/β有理超平面几何半稳定，FP首项v(a_m)<B、全尾≥−v(r)。原height2细盘/μ3下降与形式Néron给t=p³w及rU_r∈Λ；预定N=B+v(m)、log截2N决定本原hλ/e_m，仅c₁深盘3+ceil(log_p(m+1))+max(0,e_m)+1，m≤p−2时4+e_m。所有真实模型/商格保全。
 
-[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)原height2挠群在细u∈p整盘严格Hensel平凡化，保群律/配对/Galois/μ6；原项链μ3下降给b−1=p³w，形式Néron给任意原商的全部rU_r∈Λ。因此R1182可取a=3，B/e_m须按新参数重算；原首项/高度与候选深度比较仍开。
+[R1185–86](results.md)原c0/c1由可计算H_br(Dp)控Arakelov高度，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3；原implicit给D^(2r−1)分母、(64A²)^r大小。首jet高度≤logSΩ+(2m−1)logD+3m logp+m log(64A²)，m≤M_X=2(g−n)+1，故事前可定B_*、N_*及深盘；完整证书和原尺度见原文/逐字前态。
 
-[R1185](results/R1185-original-CM-point-height-and-quotient-cost.md)原Belyi degree≤3p(p−1)给可计算H_br，确控同c0/c1；原β=−3f_C(c0)，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3。K为原商极化ample证书，E_L来自[2]四次式/Nullstellensatz，均保真实尺度；模型/首jet系数高度与候选深度继续。
-
-[R1186](results/R1186-original-Abel-jet-height-and-a-priori-precision.md)原有限隐函数给D^(2r−1)分母、(64A²)^r大小；t=p³w后首jet系数高度线性≤logSΩ+(2m−1)logD+3m logp+m log(64A²)。m≤M_X=2(g−n)+1故事前定FP的B_*、N_*=B_*+floor(log_p M_X)及仅c₁深盘3+B_*+ceil(log_p(M_X+1))；真实模型成本仍保。
+[R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
 
 ## 已成、禁止重做与其它入口
 

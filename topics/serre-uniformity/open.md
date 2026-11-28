@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-Abel-jet-height.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-bounded-actual-quotient.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -168,11 +168,11 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 ## O4：原 Abel 像与真正高度
 
-[R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，FP给同β′交错首项v_q(a_m)<B，全部尾≥−v_q(r)；含坏q=p。预定N=B+v_q(m)、形式log截2N决定本原hλ/e_m，原分支深度a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时a+e_m+1。仅去β/Ω辅助标量；[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)以原height2闭细盘/μ3下降及形式Néron付a=3，B/e_m按b−1=p³w重算，商模型/格/点高度仍须控制并比较候选深度。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d、首项unit或固定盘排点。
+[R1182–86](results.md)原C/F₀/β的有理超平面几何半稳定，FP首项v_q(a_m)<B、全尾≥−v_q(r)，含坏q=p。预定N=B+v_q(m)、log截2N决定本原hλ/e_m；原height2闭细盘/μ3下降及形式Néron给t=b−1=p³w与rU_r∈Λ。深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。
 
-[R1185](results/R1185-original-CM-point-height-and-quotient-cost.md)原Belyi degree≤3p(p−1)给可计算H_br，确控同c0/c1；原β=−3f_C(c0)，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3。K为原商极化ample证书，E_L来自[2]四次式/Nullstellensatz，均保真实尺度；模型/首jet系数高度与候选深度继续。
+[R1185–86](results.md)同c0/c1由可计算H_br(Dp)控Arakelov高度，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3；K与E_L有实际ample/倍二证书。原implicit给D^(2r−1)分母、(64A²)^r大小，首jet高度≤logSΩ+(2m−1)logD+3m logp+m log(64A²)；m≤M_X=2(g−n)+1故事前定B_*、N_*及深盘。真实模型/格/点高度仍保，完整公式沿原文与逐字前态。
 
-[R1186](results/R1186-original-Abel-jet-height-and-a-priori-precision.md)原有限隐函数给D^(2r−1)分母、(64A²)^r大小；t=p³w后首jet系数高度线性≤logSΩ+(2m−1)logD+3m logp+m log(64A²)。m≤M_X=2(g−n)+1故事前定FP的B_*、N_*=B_*+floor(log_p M_X)及仅c₁深盘3+B_*+ceil(log_p(M_X+1))；真实模型成本仍保。
+[R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 
