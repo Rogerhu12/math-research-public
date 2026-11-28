@@ -160,3 +160,7 @@ R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四
 ### R1067 §53：三个真实目标周期与两个完整单位读者
 
 真实Vélu微分和sigma加法式给九分支的目标二次指数及全部八个17挠点贡献；原参考theta零会迫目标j=0，故九个原质量均非零。三个目标c_D=17c+e_D、e_D整，原读者J[H]=r_D^u I在全Tate盘准确成立；由三质量和零，中央J′/3=B1(logV1)′+B2(logV2)′。两个单位保完整目标自带导数，所有整数权取真实物理系数比，未把其极限当单个全局代数数的p对数。 [同编号全文](results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1071 §12：完整短厚图与多链的小软件实际 PASS
+
+source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713的两小checker及独立host实际PASS；43源/同container/资源与完整输出均由root和代理独立核验，8多链+14双图、全部拒绝及真二次π²通过。首轮环境失败保留，不代306生产；v17仍运行。 [完整来源](notes/2026-11-28-original-short-global-graph-software.md)。

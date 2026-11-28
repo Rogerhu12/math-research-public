@@ -77,3 +77,11 @@ root手核Vélu与sigma加法的全部符号、目标quasiperiod差、原theta�
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:32:58 UTC到4a13a2b4ef997a9bc23998d3dd8ffa0658ba2a73，私库2026-11-28 12:32:49 UTC到e0cbfde6105aea1610631440dddaec336293eace；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:33:11 UTC到75bd97622bc0092fd6939e16302165c9e84fd934，私库2026-11-28 12:33:07 UTC到1fe610fb49895d28eea72d2f5f6453a4a41c20df；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e，无>5MB。
+
+## 2026-11-28 12:38:48 UTC：短厚图与完整多链实际软件PASS
+
+根独立读取source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713完整log，43121B/6d4403785fa5fefa87e0189acf3b268172216d571550a5ca6c254d4bd2bdb8f5。逐43实际pins、六对唯一结果SHA、全部checker边界及18588B完整attach重算与host相等，资源/无凭据/同container exit0及全步骤success。8+14全图比较和全部拒绝通过，数学仍只在公开Actions；不代306生产。完整参数/hash登记软件注§6。H整理前逐字归档，旧历史不删。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:40:17 UTC到5d53236a32512c48028c0b9684fbf793c08e9627，私库2026-11-28 12:40:07 UTC到ea94aad22a699496059c0898b789880d20de9536；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47031490B/treec5eecee008ab0317e3c08f213220ca486f4f63ec，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:40:34 UTC到54f54cfe8231d7b059a6960594206dbd4cfc5431，私库2026-11-28 12:40:25 UTC到a07b07cf98528a2dc12a311da86893630d18b30f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47031490B/treec5eecee008ab0317e3c08f213220ca486f4f63ec，无>5MB。

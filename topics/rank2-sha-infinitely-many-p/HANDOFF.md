@@ -7,25 +7,25 @@
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线、条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库，至少每小时；非FF立刻pull --rebase、检查根/课题README差异并记H后再推，循环成功不force。令牌只命令行/进程，不入文件/提交/API。
 数学仅公开Actions，4CPU/16GB/6h；根13最多20并发。本会话唯一heavy及独立420秒小软件。规则15禁存可重算日志/数据/矩阵，只留源/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB/新拆块。规则8独立新R、同结论续同号；规则12不设冻结或额外复核门。公开16/私库15规定子代理显式gpt-6.2-astra/ultra；09:47已全部照办。
-[整理前完整H](notes/2026-11-28-handoff-before-actual-seventeen-isogenies.md)逐字保存旧参数、回执、更正及归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧结论与更正不重做、不撤回。
+[整理前完整H](notes/2026-11-28-handoff-before-short-graph-software-pass.md)逐字保存旧参数、回执、更正及归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧结论与更正不重做、不撤回。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:33:11 UTC实际pull --rebase，读取main 75bd97622bc0092fd6939e16302165c9e84fd934；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:33:07 UTC实际pull --rebase至1fe610fb49895d28eea72d2f5f6453a4a41c20df；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 12:40:34 UTC实际pull --rebase，读取main 54f54cfe8231d7b059a6960594206dbd4cfc5431；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:40:25 UTC实际pull --rebase至a07b07cf98528a2dc12a311da86893630d18b30f；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3261/47021782B/treeaa352150a0966195f8421f823509913bb5e5138e；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3261/47031490B/treec5eecee008ab0317e3c08f213220ca486f4f63ec；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
 
-[v16完整终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，11:06:54.1538954Z真实800万transcript系数耗尽，solver/host1；不是OS OOM/137/deadline。两F/P、T/v正负及9scalar完成；A0两Popov det3670后fallback失败，零selected完整图/outer或后门PASS。全log4026180B/SHA52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0及8120记录/所有pins保来源注，F_y仍旧attached。
+[v16完整终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，11:06:54.1538954Z真实800万transcript系数耗尽；不是OS OOM/137/deadline。两F/P、T/v正负与9scalar完成，A0两Popov det3670后fallback失败；零selected全图/outer及后门PASS，F_y仍旧attached。完整log hash/pins/时间与纠正见来源注及H归档。
 
-[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原单RHS与完整LaurentX、post-ideal全X外门；极度2256/重建>4512。§9真A0有限U=1/P∞∈{1,2}/公共零长1416，单j键LRU窗≤1251846。§10–11全G13维1164、306行ρ≤13/Σρ3120，厚纤维总度21唯一返回两图及全部s饱和；完整多链保δ0尾/原二次域/双理想outer，一条X≤691866系数。仅静审，尚无新软件/306生产PASS。
-[软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
-[新短图软件](notes/2026-11-28-original-short-global-graph-software.md)43pins/六模块/两checker：source552c8deb/run46144370977/job140977052249已实际在Sage后环境门失败，数学零执行；全log25763B/e26dbd4a…。最小host修复在导NumPy前记录并恢复三线程4，保4CPU16GB/420s/禁网RO及全部8+14原图和拒绝门；待重跑，无PASS。
-[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原单RHS与完整LaurentX、post-ideal全X外门；极度2256/重建>4512。§9真A0有限U=1/P∞∈{1,2}/公共零长1416，单j键LRU窗≤1251846。§10–11全G13维1164、306行ρ≤13/Σρ3120，厚纤维总度21唯一返回两图及全部s饱和；完整多链保δ0尾/原二次域/双理想outer，一条X≤691866系数。证明已完整，下面两小checker已实际PASS，仍无306生产PASS。
+[旧软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbce/run46137528591/job140956064113，完整32pins/8比较/2外门篡改/2预算拒绝/真二次域均已核，不代306生产。
+[新短图软件PASS](notes/2026-11-28-original-short-global-graph-software.md)：source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713/attempt1；root与代理独立核43实际源pins、同container、4CPU/16GiB含swap/禁网RO、420s及docker exit0。8多链+14双图比较、全部2+2+2+2拒绝、真实α²=α+1/4和π²厚纤维通过；9.166759972s。全log43121B/SHA6d4403785fa5fefa87e0189acf3b268172216d571550a5ca6c254d4bd2bdb8f5，完整attach18588B/SHA28bdb56e908569e8646b8439e582ae8804fd7c1c5990f63c1a7c02b4ba5396ae。首轮环境失败与Sage后OPENBLAS1→4修复完整保留。此PASS明确不含306生产。
+[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；12:34:14代理读1–3 success/4 in_progress，完整log仍BlobNotFound。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
 ## 原共同两/三位与十七同源：R1067
 

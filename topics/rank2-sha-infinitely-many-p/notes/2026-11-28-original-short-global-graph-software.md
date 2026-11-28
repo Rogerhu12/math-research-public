@@ -1,6 +1,6 @@
 # 原短厚纤维双图与完整多链：独立小软件核验
 
-会话Astra-rank2-Sha-0b097461-20261127；记录日期2026-11-28 UTC。**第一次实际运行在数学入口前的环境门失败；现修正Sage后线程初始化，仍未有本次软件PASS。** 完整主课题未完成；v17运行与源不改。
+会话Astra-rank2-Sha-0b097461-20261127；记录日期2026-11-28 UTC。**第二次实际运行的两小checker及独立host均PASS；第一次环境门失败的记录保留。** 完整主课题未完成；v17运行与源不改。
 
 ## 1. 本次实际来源与协议
 
@@ -36,3 +36,17 @@
 
 只修改host的execute入口：先打印三线程值、四个凭据键是否存在的布尔、NumPy是否已加载；从不打印凭据值。强制尚未导NumPy且无凭据，随后把三线程值恢复为已经inspect的4，再做原exact门、发真实RUNTIME回执，才进入原两个checker。host独立核此RUNTIME的完整JSON/SHA和PUBLIC相等。数学43源/request/workflow、所有案例与拒绝条件不改；原v17不改。
 修复host为15461B/SHA256 f51f71e3f9babf64b480fb1d18eee77aa9d9dbfcc7a7a5adf51f27b1c3660b8b；本次仍待实际source/run/job和完整软件结果。
+
+## 6. 第二次完整软件 PASS：实际原域、厚图及拒绝门
+
+实际source **6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3**，[run46145004405](https://github.com/Rogerhu12/math-research-public/actions/runs/46145004405)/job140978975713/attempt1，2026-11-28 12:30:33 UTC创建；所有步骤最终success。根与代理独立取完整log，各得43121B/SHA256 **6d4403785fa5fefa87e0189acf3b268172216d571550a5ca6c254d4bd2bdb8f5**。以下只保存来源及精确hash，不保存可重算输出。
+
+12:31:18.3469875Z的CONTRACT5959B/SHA81deab3b468e7a16c21496467691f163dd1ae89bebac6623bde9a36c2224e78e，绑定本次source/run/attempt、全部43源、原request/launcher/workflow及两README。根逐一按本地实际文件字节比对43pins，均相等。真实docker id d25c020b838da118a587704e158c019f6434e6f84e282ae7baeda6a32d363873；host前后同一id，exit0，4CPU/16GiB内存与总swap、network none、完整源码只读、420s，三线程配置4及无凭据均已实际核对。
+
+RUNTIME在导NumPy前真实观察OPENBLAS为1而OMP/MKL为4；恢复后三者均4，前后NumPy未加载、四个凭据键均不存在。其508B/SHA为b8fe46a2c1f4cd885f7a20952f8dcb0921ce66cd0b2bee4f567bb9f2c41b1926，PUBLIC中完整对象逐字相等。这是第二次实际观测，不倒填第一轮未打印的数值。
+
+多链结果791B/SHA **951d375e5bcc8d9ab5566ae834e4fe084c7869aba01a579b5cf11e3d111b22ea**；完整checker stdout947B/SHA89721775f477a7fb56c0fdfe8e75ef319baf91ce26c9adeb74141cf641f1af9f。实际8个全图比较为4素域admission和4原二次域；三manual均实际链长0/3/2且保非零δ0尾。原非二项式结构常数[22,1]、判别式2的乘法及逆元确实返回。已构造ideal后的两次全X篡改及两个相同泛秩真子图均拒绝。
+
+全图结果1549B/SHA **dc34cd358887462a990096c2bb15ecba227dbf83e857ccb689ccad410e01c60a**；完整stdout1697B/SHA885b0ca64e1a3eb2bf48fffc77ecffea33e80caf6b1593470ccabde6070b75d4。7个模型的14张原图全部比较，两互补射影长度均核对；一个真实二次π平方厚纤维通过，两截短厚度及两错误反图拒绝。结果明确original_rank306_geometry_executed=false。
+
+PUBLIC9138B/SHA **29ae41a19547eb9c1838bd7837c6217228c0f69fd8e7797941e9e725b2c59096**，实际耗时9.166759972s；HOST953B/SHA **ad11e1e3d4841417b40e9233e8b7d204662985baa80ad1bb3ae3018357c2783f**。根按timestamp边界重组完整两checker字节及完整attach，独立重算六对RESULT/SHA；attach18588B/SHA **28bdb56e908569e8646b8439e582ae8804fd7c1c5990f63c1a7c02b4ba5396ae**与HOST相同。此项完成小软件验证；真实306原图及其所有下游仍待原生产证书，v17源和运行未改。
