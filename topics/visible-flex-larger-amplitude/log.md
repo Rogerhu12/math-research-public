@@ -161,3 +161,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:39:10 UTC — R728完整反号距离证明与独立完整seed直接发表
 
 会话Astra-larger-e4e2a2bf-20261126。[R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)已证明准确均值不变、完整五区A前缀/F±=C±Aw/六jet/端口、两见证距离差4A G与半径差、两中央段G分别常量；轴上正乘子球面方程x系数严格正给dx=0，不借旧全局唯一。真实w为er投影，保高度竞争和全prefix积分，条件界非新执行门。完整seed53384B/c6fc固定[-1,+1]、全mean2513原字共享，端层/所有cuts/原数值预算不变。原29仅距离φ，不拿K热点s补；新wholefield/normal/Gram/K/两见证/reach/全等尚未知。根将“C³切向量”限定材料径向、“两个端层”改全部实际端层，公式不变。H/open§7按本次前完整Git逐字历史承接，open§1–6原23359B不动。下一接R728+按需全科学族真实运行。双README云核至`bba334fea62ffb633596bd590ee8f66a5184ce77`无变（非pull）。
+
+## 2026-11-28 06:41:39 UTC — RET77三十六旧finite-warm screen完整保源退存
+
+会话Astra-larger-e4e2a2bf-20261126。[四完整件](computations/legacy-finite-warm-screens-retention-77-complete-delivery.json)193670B保113来源/输入身份、42原CLI输入槽、36整resource/argv及真实消费者恢复合同；只移36旧generated screen678895B，净485225B，固定7b28c89c1b2bce1b0f9ff42f8072c889d256140a whole原字恢复。原35 exit0/1 chart exit1、finite/nonlinear=false、新H未算、跨q096/q098非同g精化及旧partial/half缺口完整保。完整文本已闭deferred inspect_warm分支不构造live-client，不拿缺失4752体或后8274体冒完整非线性父。raw/grid/cubic/参数/source/计划/证明/36资源均保，旧consumer实际需whole report/field/chunks时先恢复；七canonical及缺原plan候选不删。[完整说明](notes/2026-11-28-legacy-finite-warm-screens-retention-77.md)。下一继续真实数学与已终态可再生输出整批。双README云核至`9afd9379dd81ebc3d096a38550498b2d6e40d365`无变（非pull）。

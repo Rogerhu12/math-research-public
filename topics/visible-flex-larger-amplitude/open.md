@@ -136,4 +136,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [准确核心9件](computations/fixed-fejer-r726-R727-complete-accurate-mean-core-delivery.json)395065B已刊，保无限Slerp尾、真根E1/E2三整积分、固定H0/独立profile与w、全radial cuts。R726/R727 normal/leaf/G11件及闭相位/矩/mesh23件完整保护待刊；实际准确费用未付，R728需真实新source/符号适配。
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N原绝对repo/canonical/output；N变G另目录/稳定whole report，R723/mesh fresh；P同canonical同流整块，U最终同wholeN。packet完整report、restart同runner13final/全typed，不继CLI末μ。normal.complete不代全branch，mean J不代Cu。
 全32stage/1024圆/922径向/cuts/六jet/尾/两帽/mixed/allphase/晚失败、R718 marked与R716 unmarked独立待付。同g/参数五t、15science+5preview、三级空间/频率/时间须真实完成；旧全责任不因摘要减少。
-[ret75/76完整账](computations/legacy-eight-control-assembly-retention-76-complete-delivery.json)、q090/Hermite及74–65保全源参/原结果失败/固定Git恢复。旧reader先恢复whole原路径，活输入/唯一状态/未闭来源不删；新raw只runner。完成标准未满足，持续真正求解。
+[ret75–77完整账](computations/legacy-finite-warm-screens-retention-77-complete-delivery.json)、q090/Hermite及74–65保全源参/原结果失败/固定Git恢复。旧reader先恢复whole原路径，活输入/唯一状态/未闭来源不删；新raw只runner。完成标准未满足，持续真正求解。
