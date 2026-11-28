@@ -1197,3 +1197,101 @@ $\log |u_v|$ 中成立。这会使(AI3)为零，矛盾。
 上的全部单位；(AH3)仍读取 $p$ 挠点的指定 norm shell、原
 参考相位、以及单位值本身。两种读取尚无从坏中央推出(AI1)
 为零的证明。
+
+## 68. 每条原首层纤维的非零 wild 对数与全部参考权的下降
+
+沿用(AH1)与(AI1)，置 $U=1008D$、$M=p^2$、$A_j=\mathcal O_K/p^j$，
+并写 $Q_{v,j}=\varpi_1v/p^j$。对 $w\in A_1^\times$ 取原格代表。
+在 $\chi=\chi_{p,r}$ 或其平方下，实际 $p$ 个幂单位根相位给
+$$
+ B_\chi(w)=\sum_{\ell\in A_1}
+       \frac{\chi(w+p\ell)}{\chi(w)}\log_p U(Q_{w+p\ell,2})
+       \ne0.                                                       \tag{AJ1}
+$$
+这里求和有 $p^2$ 个原像。规范 $\log_p(p)=0$。更一般，对任意
+代数系数 $a_w$，有
+$$
+ \sum_w a_w/\chi(w)\ne0\quad\Longrightarrow\quad
+                     \sum_w a_w B_\chi(w)\ne0.                   \tag{AJ2}
+$$
+$w$ 的格代表须在两边同时使用；原像点本身不变。将(AH3)的全部
+已定外权代入，取 $m\equiv\sqrt{17}\bmod p^2$、原
+$Nw=17r$、$v=[m^{-1}]w\bmod p$ 的标准代表，即得
+$$
+ \boxed{\frac1{17\cdot1008}\!
+ \sum_{Nw=17r}\chi^{(2)}_{p,17r}(w)\widehat G(Q_{w,1})
+                     B_{\chi_{p,r}}(v)\ne0.}                     \tag{AJ3}
+$$
+$\chi^{(2)}$ 上标沿用(AH3)表示 degree-two 参考的实际规范。
+(AJ1)也容许取 primitive Hecke twist $\chi_{p,r}^{\,2}$。
+(AJ3)保留(AH3)的每个原外权、范数条件与固定乘子，仅把原像
+$U(Q_{v,1})$ 的评价换为同纤维上的非平凡 wild 对数和。
+
+证明。$L_v=\log_p U(Q_{v,2})$ 是有限个全局代数数在所取
+$p$ 位的对数。$U\in\mathbf Q_p[[t]]$ 在整形式盘收敛，$t$
+是有理严格局部坐标，对每个局部 Galois 自同构与此评价可交换。
+R663(1)–(3)、R696(10)–(11)在 $E_1$ 也逐字适用：
+好惰性处 $\mathrm{Fr}_p^2=[-p]$，整坐标给
+$[-p]v=-pv+v^{p^2}$。primitive 二层坐标的
+$(X^{p^2}-pX)^{p^2-1}-p$ 是 Eisenstein；局部次数达到
+整个 $(\mathcal O_K/p^2)^\times$ 的阶。故每个
+$v\mapsto bv$ 实现为局部 CM Galois 作用。于是所有 $L_v$
+的有理关系构成 $\mathbf Q[A_2^\times]$ 的平移稳定子空间。
+同阶点满足 $v_p(U(Q_{v,2}))=6/(p^2(p^2-1))$，由
+$t^{-6}D\equiv1\bmod t$ 及上述 Eisenstein 方程可见；
+消掉同一有理次 $p$ 幂并取足够大公共幂即可转为主单位，
+$p$ 进对数值只同时乘该公共幂。取 $L_v$ 的一个有理基，
+Baker–Brumer（Fuchs–Pham [Th. 2.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)）保它在 $\overline{\mathbf Q}$ 上独立；
+因此其所有代数关系核恰为上述有理关系核的标量扩张。
+特别该核在固定系数的指标置换下稳定，毋须局部 Galois 同时
+固定 $\zeta_p$ 或外部参考质量。
+
+对任意系数向量 $c(v)$，环平移的 $\chi$-投影为
+$\chi(v)|A_2^\times|^{-1}\sum_u c(u)/\chi(u)$。
+(AI1)断言 $\chi(v)$ 本身不在此核。因此只要该投影非零，
+原向量也不在核。取
+$c(w+p\ell)=a_w\chi(w+p\ell)/\chi(w)$，其和恰为
+$p^2\sum_w a_w/\chi(w)$，证(AJ1)–(AJ2)。
+(AJ3)中(AH2)的全部 $\widehat G(Q_{w,1})$ 在所选 $p$ 位
+都是主单位；两种原角色也是 $p$ 幂根。因此所需和的每一项
+$\chi^{(2)}_{p,17r}(w)\widehat G(Q_{w,1})/\chi_{p,r}(v)$
+模极大理想为一，原壳恰有 $p+1$ 项，和模极大理想为一。
+
+还有可复核的复端单纤维降导子式。记 $\chi=\chi_{p,r}^{\,h}$，
+$h=1,2$；$k=17hr/Nw\in\mathbf F_p^\times$。由 R716(3)
+直接展开 $(w+p\ell)^p/\overline{w+p\ell}$，
+$$
+ \chi(w+p\ell)/\chi(w)=e_p(-k[\ell,w]),\qquad
+ [u,v]=(\bar u v-\bar v u)/\delta.                               \tag{AJ4}
+$$
+特别规范壳 $Nw=r$ 上 $k=17h$，$h=1$ 正是 R716(25)。
+对非零模 $p$ 的每个原乘数 $a$，取整数
+$b_a\equiv k/(Na)\bmod p$。置
+$$
+ Z_w(a)=-\frac{A}{2|\varpi_1|^2}\left.
+     \sum_{\nu\in\mathcal O_K}
+       \frac{e_p([aw,\nu])}{|\nu+b_a aw/p|^{2s}}
+                         \right|_{s=1},\qquad
+ A=\operatorname{area}(\mathbf C/\Lambda)/\pi .                 \tag{AJ5}
+$$
+和从 $\Re s>1$ 亚纯延拓；非平凡扭项使它在一正则。
+它准确等于
+$\sum_{\ell}e_p(-k[\ell,w])\log|\widehat\sigma(aQ_{w+p\ell,2})|$。
+事实上 BFK 复第二极限公式 Th. 1.1(ii) 的常数在该纤维相位和中
+消失。展开其级数后，$\ell$ 的加性 Fourier 和强制
+$\bar a\lambda=kw\bmod p$，贡献 $p^2$。
+其余频率写 $\lambda=b_a aw+p\nu$，因 $b_a$ 为有理整数，
+$[aw,b_a aw]=0$，原 $p^2$ 相位降为 $e_p([aw,\nu])$。
+此时 $p^2 p^{-2s}$ 在一为一，证明(AJ5)的全部系数。
+改变 $b_a$ 一个 $p$ 倍数也由相同的交替配对得相位一。
+故(AJ1)中的 $p$ 进对数换成同一组代数数的复绝对值对数后，
+完整来源准确为
+$$
+ \sum_{a\in\{1,2,\delta,2\delta,\gamma_7,\bar\gamma_7\}}Z_w(a)
+                      +Z_w(m)-Z_w(\delta m).                      \tag{AJ6}
+$$
+这是(AI2)和(AH2)在每个实际纤维的版本；分母的两项在单纤维
+不能提前删去。(AJ5)–(AJ6)是复端等式，(AJ1)–(AJ3)另由整
+形式群、真实全局单位和 Baker–Brumer 证得。原(AH3)读单位值，
+(AJ3)读(AJ4)的对数 Fourier 分量。两者以及原(AH4)的中央
+Newton 导数之间，还须证明合适的比较。

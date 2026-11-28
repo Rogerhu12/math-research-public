@@ -45,3 +45,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §67：原wild角色的真实全局Kummer对数非零
 
 同一1008D在全部原导子p²角色χ及χ²上，完整六sigma因子给单位乘子4+χ(γ7)+χ(γ7)⁻¹；全有限Gauss及BFK复极限、Baker转移付真实对数非零，未移作原Hall单位值或中央导数。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §68：逐原p纤维的非零wild对数及全部参考权
+
+原LT全局部作用使有理关系核平移稳定，Baker付固定代数系数的同一稳定核。原AH3全部参考/范数壳权的对数纤维和非零；完整加性Fourier降导子保六源及参考两项，单位值与对数仍分开。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

@@ -395,3 +395,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根实读R716(3)–(7)的χ/χ²及BFK复Th1.1(ii)/(1)，逐核真实六sigma因子、Gauss绝对值M、同阶p位比为单位和同一有理关系经根单位传复绝对值；实用Fuchs–Pham Th2.1，未把有限层非零传到中央。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:54:51 UTC到75480e54fa7ccf3ff39b925bf7184e3eb1c83a77，私库2026-11-28 13:54:43 UTC到a65edfb102c5ea7b14e61c4bcbb6ae892c2b01c5；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47553976B/treec2a18beadfa638a5cb8a9d4afeae04b07ab006f4，无>5MB。
+
+## 2026-11-28 13:54:57 UTC：R1067 §68：逐原p纤维的非零wild对数及全部参考权
+
+根手核R663整LT及R696原二层Eisenstein全次数，固定系数关系核经Baker扩标量、χ投影和p+1项模极大理想为一；直接由R716 q_p展开AJ4符号，交替配对强制bar(a)λ=kw与p²p^(−2s)降导子，未删单纤维参考两项。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:55:04 UTC到f3acf9d102c270f0aafa627f3c69c43a4b02e007，私库2026-11-28 13:55:01 UTC到7c24e2372335a6841d973cc35bc6744a42370960；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47560763B/tree03c80deb3a1229f76ba7e616fa67f732aeb5bb3c，无>5MB。
