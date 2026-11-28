@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-entire-M-positive-original-Gram-2305-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Phi-true-e1-n1-and-norm-input-2310-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/δ/Vbar/ell全闭（ell57f37固定两scalar三原1），m深k−2闭，Q2新8634首次全Fp域/十二原target1在跑。新[大M整个正阶原Gram纸证明](results/R150-appendix-unit211-W-b0-entire-M-positive-exclusion-and-original-Gram-integrality.md)不新开计算：M深使m单位，W权式排ell1/2/Phi0/J−uQ0；q/R不用Ast逆付µ,T,σ整。选对称标签b单位/c正阶后，完整W仿射恢复使ME1系数整，f²头−8u ell δ(J/Q−u)为单位，付f整；完整EC/PC若t/Y极点则迫b=1/2矛盾。全Gram整后c0真E0/EB迫X=u，而E1=p²(2ell−1)²/2非零。故当前e,k,u,δ,Vbar,ell,M均为1009单位；上述Phi/J−uQ/ellhalf仅辅助在被排图，不免费付全局。Q2及剩余Phi/T0/JQ/P02、全W空性继续。
+W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/δ/Vbar/ell全闭（ell57f37固定两scalar三原1），m深k−2闭，Q2新8634真2.656787932秒/0，全部1/2/5次剩余域之4/8/20维十二原模型均返1，整m稿接续。新[大M整个正阶原Gram纸证明](results/R150-appendix-unit211-W-b0-entire-M-positive-exclusion-and-original-Gram-integrality.md)不新开计算：M深使m单位，W权式排ell1/2/Phi0/J−uQ0；q/R不用Ast逆付µ,T,σ整。选对称标签b单位/c正阶后，完整W仿射恢复使ME1系数整，f²头−8u ell δ(J/Q−u)为单位，付f整；完整EC/PC若t/Y极点则迫b=1/2矛盾。全Gram整后c0真E0/EB迫X=u，而E1=p²(2ell−1)²/2非零。故当前e,k,u,δ,Vbar,ell,M均为1009单位；上述Phi/J−uQ/ellhalf仅辅助在被排图，不免费付全局。root接Ast深，geometry接Phi深，其他T0/JQ/P02及全W空性继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/δ/Vbar/ell全闭
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-正确Phi全权10/每权≤9、QQ45/u5、F*、同σ16/C10、第二头4×28/小λ3×6及旧冻结保；B2∩ell3/2已闭，五/十生成不假free。新[五条完整原交换差列的非零纯权支持](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-five-generator-nonzero-original-weight-support.md)d2de run46182910418真1.451020227秒/46140KiB/0：十原动作/五交换差/八DAG全返，事前p1009,(2,2)仅选c3,c4,λc3,σc3,σλc3；五整列/十五E2,E3,NV标签及普遍adj付Fwt=detB∈原理想，50双逆坐标付det382非零。次数仅上界u142/Q72/总142，无QQdet实展/因子/新gcd/空性，所有Fwt零纤维保。新真E1首一t²与N1一次余式接原值；第一头/两Q资源冻不重放。
+正确Phi全权10/每权≤9、QQ45/u5、F*/同σ16/C10和旧冻结保；B2∩ell3/2闭，五/十生成非free。d2de真1.451秒五整原DAG列及普遍adj给非零Fwt∈(E2,E3,NV)，固定点det382、度界u142/Q72/总142，全部Fwt零纤维保。新[真E1首一t二次与完整N1一次余式](results/R150-appendix-unit211-Phi-zero-true-E1-monic-t-quadratic-and-original-N1-linear-remainder.md)在全正确Phi头aE=−bc·ellQ/(2δ)真单位，N1−2eE1=aN+bN t，显示完整常数/一次系数，不倒bN/m/D/3−2ell，非迁用一般W。新5d1/3be首次120秒/1GiB，以RN=aN²−q1aNbN+q0bN²完整两原返回和五固定基倍原标签定义新纯权支持；不重旧动作/comm/Fwt，不预记非零/互素/空性，全部新零纤维保。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

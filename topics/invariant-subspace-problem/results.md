@@ -38,6 +38,8 @@
 
 ## 新增结论
 
+- [R150/Phi：真E1原首一t²与完整N1一次余式](results/R150-appendix-unit211-Phi-zero-true-E1-monic-t-quadratic-and-original-N1-linear-remainder.md)：完整dual原头−bc·ellQ/(2δ)，N1−2eE1=aN+bN t，全部系数显示且不倒新bN；精确双向原理想等式保全部降头纤维，新同t范数五列输入另首次派发。
+
 - [R150/W b0：整个大M正阶排除与完整原Gram整性](results/R150-appendix-unit211-W-b0-entire-M-positive-exclusion-and-original-Gram-integrality.md)：原W付三辅助单位、q/R付谱整、真ME1单位二次头付f整，EC/PC排全部t/Y极点；合法c0剩余后EB迫X=u、E1=p²(2ell−1)²/2单位矛盾。全纸证明，得M整单位，不外推辅助单位或全W空性。
 
 - [R150/Phi第二头：五条真实原列的非零纯权必要支持](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-five-generator-nonzero-original-weight-support.md)：d2de唯一1.451秒，原c3/c4及三实际动作整化五列，普遍adj返E2/E3/NV，固定模点det382付非零，度界u142/Q72/总142；全Fwt零集保留，未宣空性。
