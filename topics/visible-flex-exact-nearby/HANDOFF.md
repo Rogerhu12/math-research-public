@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:28:28 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:28:51 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至4b49703f17f80b9191e471661b706fe68878deca；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至0386b1a2014df39c62adf9b46ab8696a646c4997；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
-topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10新160件仅去JSON字符串外ASCII空白，净956083B；whole receipt86645B/52fd82fa…，原6fd4325b3全保、科学0。本批推送前完整扫描后每次pull等价核changed/untracked与全160hash。META1–9全账见6fd4325b3完整H/原receipt，不重做。
+topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10新160件仅去JSON字符串外ASCII空白，净956083B；whole receipt86645B/52fd82fa…，原6fd4325b3全保、科学0。本批推送前本批推送前完整扫描后每次pull等价核changed/untracked与全160hash。META1–9全账见6fd4325b3完整H/原receipt，不重做。
 
 ## 同一对象与完整旧账
 
@@ -45,7 +45,7 @@ PWA更强actual竖直锚已成：同物理角GW保e/E/P/jumps与末端角桥，a
 
 WBN run46125286420/1全1成、17whole准入/原validator过，joint<.001118591；96exact centres/means和旧全候选保，0旧science/0载体恢复。完整应用R147 WBN。
 
-GBN首入口已齐：18个whole inputs/2新target，原两个成功父件与validator整件核；全部96exact centres/means保，旧science0，见notes/2026-11-28-GBN-whole-saved-column-first-entry.md。
+GBN run46125342339/1全2成、18whole准入/原validator过，joint<.000163012；96exact centres/means和旧全候选保，0旧science/0载体恢复。完整应用R147 GBN。
 
 FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
 

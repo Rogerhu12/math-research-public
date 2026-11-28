@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GBN实际完整参数列后继](results/R147-supplement-actual-Gram-refined-target-nu-column.md)：run46125342339/1全部2目标成、全18输入和原validator过；同一96exact centres/means，新的joint error0.000163011451549838…，旧各整候选和费用保。仅换whole B row费，四旧费原样正加；仍是target读出。旧science/载体恢复0，非fullSchur。
+
 - [WBN实际完整参数列后继](results/R147-supplement-actual-weighted-model-Theta-nu-column.md)：run46125286420/1全部1目标成、全17输入和原validator过；同一96exact centres/means，新的joint error0.001118590706097307…，旧各整候选和费用保。仅换whole global Θ槽。旧science/载体恢复0，非fullSchur。
 
 - [PWA96：完整高度行与单一共同相位比率的消费者](results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md)：以H96 whole canonical/G、P96 whole H/phase和APHI全列重合新height96与phase96，保共享ρ的joint误差及negative4/world2；7新目标完整接口已齐。完整H96实际成功前不生成manifest/workflow，旧积分/目标不重。
