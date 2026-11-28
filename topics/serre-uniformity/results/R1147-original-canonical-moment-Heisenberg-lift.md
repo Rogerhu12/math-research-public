@@ -799,3 +799,117 @@ $I\in\operatorname{End}(T_pE)$：$q_I$ 只在最后的模 $p$ quotient 使用。
 - J.-M. Fontaine、G. Laffaille，*Construction de représentations $p$-adiques*，*Ann. Sci. ÉNS* 15 (1982), 547–608，[正式全文](https://www.numdam.org/item/10.24033/asens.1437.pdf)，Theorems 3.3、6.1、§§7.7–7.15、Theorem 8.4：有限层、整格和 crystalline realization 的同一比较。§14 始终保未分歧底和幅度 $14$，不使用 ramified full-level field 的虚假 Fontaine–Laffaille 假设。
 
 本节没有数学程序执行，也没有给出一个未经计算的 local obstruction 值。
+
+
+## 16. 完整整塔从函数域唯一补回全部 noncusp 点
+
+本节给实际 four-line / Manin filling 的一个补点准则。它不从有限层 cup 消失制造一座塔，而是说明：**一旦在原函数域上构造了同一个兼容整塔，所有额外的水平删点自动补回。** 各层构造时删掉的有限集合可以随层数增长，不需要它们有有限的共同并集。
+
+### 16.1 精确输入与中央惯性
+
+先在一个光滑几何连通的 fine modular curve $Y$ 上论证；其底域 $k$ 是数域，universal elliptic curve $E/Y$ 在全部 $Y$ 上光滑 proper，故这里尚未加入 cusps。令 $F=k(Y)$，并以本篇的同一个
+$$
+\mathbb H_\infty=T_pE,\qquad
+Z_\infty=
+ \operatorname{Sym}^{12}\mathbb H_\infty(2)
+ \oplus\operatorname{Sym}^{8}\mathbb H_\infty(4)
+ \oplus\operatorname{Sym}^{4}\mathbb H_\infty(6)
+\tag{1147.48}
+$$
+及 (1147.39) 构造 $G_n,V_n,Z_n$；特别 $Z_n=Z_\infty/p^n$，群律中的 $\lambda_\infty$ 仍为 $21(1+p^4)/11$。
+
+假设已经给出以下实际对象：
+
+1. $F$ 上的 $G_n$-torsors $Q_n$，以及与原群约化相容的、满足 cocycle 条件的同构
+   $Q_{n+1}\times^{G_{n+1}}G_n\simeq Q_n$；
+2. 它们的 $V_n$-quotients 与原 $\eta_n|_F$ 的相容识别，其中 $\eta_n$ 是 (1147.40) 的原 quotient，已在 $Y$ 延伸。
+
+这不是“对每个 $n$ 存在某个 lift”的量词，也不是只给一个 $\mathbb Q_p$-rational lift。各 $Q_n$ 的几何 fibres 是非空有限集合，约化映射满射；选一个兼容 fibre point 后，实际得到连续 cocycle
+$$
+c:G_F\longrightarrow G_\infty=\varprojlim_nG_n.
+$$
+改变这个 point 只作同一个整塔中的 coboundary。
+
+固定任一 closed point $x\in Y$，在 $G_F$ 内选其 decomposition group $D_x$ 与 inertia $I_x$。因为原系数和 $\eta_\infty$ 都沿 $x$ 无分歧，$I_x$ 对 $G_\infty$ 的 coefficient action 平凡，而 $c(I_x)$ 落在 $Z_\infty$。cocycle 规则因此给一个真正连续群同态
+$$
+\rho_x:I_x\longrightarrow Z_\infty.
+\tag{1147.49}
+$$
+对 $d\in D_x$，一般 torsor 的共轭还含 $c(d)$；这里 $\rho_x(I_x)$ 在中心，这个内共轭完全消失。因此
+$$
+\rho_x(d\tau d^{-1})=d\,\rho_x(\tau).
+$$
+它是 $G_{k(x)}$-equivariant 的同态，不能只忽略算术 decomposition action。
+
+此处 DVR 的 residue characteristic 是零，所以几何惯性的 pro-$p$ quotient 为 $\mathbb Z_p(1)$。于是
+$$
+\rho_x\in
+\operatorname{Hom}_{G_{k(x)}}(\mathbb Z_p(1),Z_\infty)
+ =H^0(k(x),Z_\infty(-1)).
+\tag{1147.50}
+$$
+
+### 16.2 权重在整塔上迫惯性为零
+
+$E_x/k(x)$ 是一条实际椭圆曲线。选 $k(x)$ 任一不在 $p$ 上、且 $E_x$ 好约化的有限位 $v$，记 residue-field 大小为 $Q_v>1$。这种位存在，因为这里只删掉有限多个坏位。
+
+沿 §13 的同一 geometric-Frobenius 规范，$T_pE_x\otimes\mathbb Q_p$ 的 eigenvalues 的复绝对值为 $Q_v^{-1/2}$，而 $\mathbb Q_p(t)$ 的 eigenvalue 为 $Q_v^{-t}$。因此 (1147.48) 三项都纯 weight $-16$，$Z_\infty(-1)\otimes\mathbb Q_p$ 的三个分量都纯 weight $-14$。它的每个 eigenvalue 的复绝对值都是
+$$
+Q_v^{-7}\ne1.
+$$
+所以
+$$
+H^0(k(x),Z_\infty(-1)\otimes\mathbb Q_p)=0.
+$$
+$Z_\infty(-1)$ 是无挠的 $\mathbb Z_p$ 格，嵌入其 rationalization，故
+$$
+\boxed{H^0(k(x),Z_\infty(-1))=0,\qquad \rho_x=0.}
+\tag{1147.51}
+$$
+若使用 arithmetic Frobenius，所有 eigenvalues 同时取逆，仍然没有一；不能混用两种 weight 记号。
+
+这是关于整个 $\mathbb Z_p$ 同态 (1147.49) 的结论。单独的
+$H^0(k(x),Z_n(-1))$ 可以非零；不能对一个任意有限层据复绝对值直接断言无惯性。
+
+### 16.3 逐层正规化、唯一延伸和相容性
+
+由 (1147.51)，每个 $Q_n$ 在每个 $x\in Y$ 的 inertia 都平凡。对 $Y$ 在 $Q_n$ 的各有限 separable function fields 中取正规化；每个分量都支配 $Y$，所以没有附加的孤立 vertical 分量。$Y$ 是正则曲线，有限扩张在每个 closed-point DVR 无分歧，故这个正规化是 finite étale。
+
+原 $G_n$-action、torsor identity、quotient map 和各层 transition maps 都在泛点已给定。正规底上 finite étale covers 的 restriction fully faithful，所以这些 maps 唯一延伸；其等式在泛点相同便在整底相同。于是得到唯一的相容塔
+$$
+\overline Q_n/Y,\qquad
+\overline Q_\infty=\varprojlim_n\overline Q_n,
+\quad
+\overline Q_n\times^{G_n}V_n=\eta_n.
+\tag{1147.52}
+$$
+这一步也可以用 Zariski–Nagata purity 的一维情形；准确 primary 是
+[Stacks Project, Tag 0BMB, Lemma 58.21.4](https://stacks.math.columbia.edu/tag/0BMB)。
+这里使用实际有限正规化、正则底与全部 codimension-one 无分歧，未以“normal”单独替代 étaleness。
+
+这个证明逐个 $x$ 进行。即使第 $n$ 层最初只在 $Y\setminus D_n$ 上显示，其 $D_n$ 随 $n$ 改变，也无妨；在函数域中已经给定的兼容塔保证 (1147.49) 对每个固定 $x$ 都有同一个 inverse limit。相反，若只是对各 $n$ 分别选一个不相容的解，就没有 (1147.49)，不能使用本结论。
+
+### 16.4 原 stack 的识别与后续计算的范围
+
+若构造起初是在 $\mathcal M_{\mathbb Q}$ 的 generic point 上，保留原 stack 的 generic descent data，再拉到 level $3$ 或 $4$ 的 fine cover 作上述论证。fine cover 及其 overlap 都正规，generic descent isomorphisms 因 (1147.52) 唯一延伸，故塔下降回整个 $\mathcal M_{\mathbb Q}$。这里未把 generic residual gerbe 或 elliptic automorphisms 丢掉，也没有声称 fine cover 上的 $H^1(Y,Z_n)$ 都为零。
+
+回到原 universal stack 后，(1147.36)–(1147.40) 给
+$$
+H^0(\mathcal M_{\mathbb Q},V_n)
+ =H^0(\mathcal M_{\mathbb Q},Z_n)
+ =H^1(\mathcal M_{\mathbb Q},Z_n)=0.
+$$
+所以固定原 quotient 的延伸在每一层唯一到唯一同构，准确为
+$\mathscr P_n|_{\mathbb Q}$；这些同构因唯一性相容。因而
+$$
+\boxed{\overline Q_\infty\simeq
+       \mathscr P_\infty|_{\mathcal M_{\mathbb Q}}
+       \quad\text{保持原 quotient、群律和全部层约化。}}
+\tag{1147.53}
+$$
+这给指定 filling 的具体后续接口：需要构造的是真正的原
+$G_\infty$-torsor（或同一连续 integral cocycle），并支付实际 theta roots、算术 paths、五项式和 corestriction 的相容性。一旦这些在原 generic point 支付，人工加入的 noncusp lines 不再需要逐点另选中心规范。
+
+本节不从形式 Manin relation、单个 $K_2/p$ 消失、有限层解或 rational regulator 自动得到该输入；也不计算 $F_0$ 的 $z_{12}$。它没有证明一个任意 generic construction 的 arithmetic vertical 无分歧或 cusp 无分歧。只有先由 (1147.53) 识别为已成的原塔后，才可消费本篇先前已付的 $S_0$ 整来源，以及 R1147 §4 的原模 $p$ Cartan pushout；不能跳过这个识别直接把 ramified full-level coordinates 当未分歧 FL frame。
+
+本节是纸面证明，没有数学程序执行。

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原兼容整塔的全水平延伸（已证明）**：[R1147 §16](results/R1147-original-canonical-moment-Heisenberg-lift.md)付真正兼容generic integral G∞-tower的水平补点：原quotient已延伸使每个内点惯性落Z∞，G_k等变性给H⁰(k,Z∞(−1))；weight−14在无挠整格上迫零，逐层正规化/stack descent唯一，再用原universal H¹Z_n0识别P∞。不要求各层删点有有限共同并集；单层finite或rational lift不足。指定四线/Manin的实际兼容整cochain仍须构造，不把本准则称作该输入已成。
+
 - **R1155（已证明）**：[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。
 
 - **原单位方程的完整算术五项式（已证明）**：[R1133 §11](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)付原D(α)同根路径的完整算术五项cochain：h=χ̃2+ab、h−ab/2=−li2、dh=−a∪b，五项交替和=ρ1−ξρ1−η。bar Cor逐陪集乘积全保，不变成两个Norm之积。原四线/Manin组合在全M拼接与额外内点中心惯性仍须付；继续实际局部dilog/Frobenius读数，未套小开集H¹0。

@@ -163,3 +163,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原有限对数与 Bernoulli mask 的准确加权关系
 
 [R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。Cν(Qν)消失/D2单位仍待付；原good β3单位不能单独排除此式，继续同一Legendre ODE的联合消去。
+
+
+### 原兼容整塔的水平补点
+
+[R1147 §16](results/R1147-original-canonical-moment-Heisenberg-lift.md)付真正兼容generic integral G∞-tower的水平补点：原quotient已延伸使每个内点惯性落Z∞，G_k等变性给H⁰(k,Z∞(−1))；weight−14在无挠整格上迫零，逐层正规化/stack descent唯一，再用原universal H¹Z_n0识别P∞。不要求各层删点有有限共同并集；单层finite或rational lift不足。指定四线/Manin的实际兼容整cochain仍须构造，不把本准则称作该输入已成。

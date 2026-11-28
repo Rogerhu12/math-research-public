@@ -738,3 +738,7 @@
 ### 2026-11-28 09:46 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 新增课题外共享文件.github/workflows/serre-legendre-weighted-probe.yml及本课题script/request，原因：仅在本公开Actions计算新R1154§11指定Cν(Qν)/D2，判断两条具体恒等式/单位目标是否值得继续。1000<p<1100,p3mod4，至多8素数；不重跑旧41/47或端值窗口。
 - 仅提交源/参数，输出只留Actions日志，随后登记run/hash和结论；未在本地/V8执行数学。root继续实际中央运输，无等待门。
+
+### 2026-11-28 09:47 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1147 §16付原generic兼容整塔的全部noncusp惯性消失与唯一补点；weight argument用于无挠整塔，未错误套单层modp，generic stack descent与原H¹0接口明确。root核连续cocycle/decomposition作用/纯度后即推，旧1–15逐字保留。
+- 真实filling整cochain仍继续，不称形式Manin填充已为算术塔；无数学程序。
