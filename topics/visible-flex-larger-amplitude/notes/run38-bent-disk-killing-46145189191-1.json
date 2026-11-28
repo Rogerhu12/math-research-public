@@ -160,11 +160,11 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:32:54Z",
-  "phase": "candidate-return",
-  "terminal": false,
+  "phase": "scientific-return",
+  "terminal": true,
   "child_started": true,
   "child_pid": 2553,
-  "child_returncode": null,
+  "child_returncode": 0,
   "latest_observed_scalar_line": {
     "ordinal": 16,
     "utc": "2026-11-28T12:39:59Z",
@@ -1978,7 +1978,107 @@
       "status": "completed_full_finite_Killing_Haar_and_two_fixed_refinements"
     }
   },
-  "whole_runner_field_files": null,
+  "whole_runner_field_files": {
+    "complete_inventory": {
+      "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/complete-field-file-inventory.json",
+      "bytes": 3703,
+      "sha256": "f85afdbd40b45208d11184c5f14ae04be57d9f4ae6d66e32d0ea1d1df5560ea7"
+    },
+    "original_file_count": 18,
+    "complete_file_records": [
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/current.npz",
+        "bytes": 25606,
+        "sha256": "0b22aa404fb51fa6b178d014388267e153052058cdb011aab210c2ee3ea86222"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/frozen-source.npz",
+        "bytes": 11886,
+        "sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-00.npz",
+        "bytes": 6238,
+        "sha256": "ad94fd242ac2c511b755f26b3b5e6826a9b99489984a70ef5224d01c7106b626"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-01.npz",
+        "bytes": 6238,
+        "sha256": "6f9e120d1ba26ce6d90e54ca5c600483bd704880694ab5145372e5b0395804ee"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-02.npz",
+        "bytes": 6238,
+        "sha256": "f207066a9894acefeb3cb850daf26b4a6ebc9be6f14346d239eaaaa8b9e626b0"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-03.npz",
+        "bytes": 6238,
+        "sha256": "3fd5815135e256365645397381116b67b1aa9c1e699c304c917eeae0cbc99133"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-04.npz",
+        "bytes": 6238,
+        "sha256": "04f1d6d2b0d7c4921683e6411f8f5aeb138b4e75cee7e5d5dea806c152533c79"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-05.npz",
+        "bytes": 6238,
+        "sha256": "3ba1f2430fa3236ee5a3cfd9d6ef3be22b96be17ea4d0c540eba550274b9992c"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-06.npz",
+        "bytes": 6238,
+        "sha256": "8d3e64979035ad8e5dd487c65efe3ee8abb0f4c864514f543552af85fa52b5ed"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-07.npz",
+        "bytes": 6238,
+        "sha256": "402f7e145c6b21ff30d7b4e0a49918fae402520cf7eb463a2fa6ad9a625196df"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-08.npz",
+        "bytes": 6238,
+        "sha256": "50e520d344febb2edb74a923415b03d120797b3071bd8be69c32e81a2d18e9aa"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-09.npz",
+        "bytes": 6238,
+        "sha256": "df8f74f12bfc37e4ae29d7a777e30a7d0a9e14353df194af9643a4df4565125d"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-10.npz",
+        "bytes": 6238,
+        "sha256": "16a112bb702d89acf5b54b378d2a30e7a06767d1ba8e1dcad2355d77ea4bd7e7"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-11.npz",
+        "bytes": 11886,
+        "sha256": "eed1eac56bbd4815fed432dc07f3c0fed8e80d491d6034e23fdc5e70181137e6"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-12.npz",
+        "bytes": 6238,
+        "sha256": "218c71b99cccfa6a208a371ee0587bfd84ccfd078127bdd3322b538073bf6c5d"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-13.npz",
+        "bytes": 11886,
+        "sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-14.npz",
+        "bytes": 15158,
+        "sha256": "be3348eef87731d3939a067898ed71a10a7f1bfcdddc1fb57833b0db9a62d2d2"
+      },
+      {
+        "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/stage-15.npz",
+        "bytes": 25606,
+        "sha256": "e44566d57fa438a23bb76704aadb3fe6422f31fa7a1223cb412c3f0187818901"
+      }
+    ],
+    "best_field_records": []
+  },
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
   "dependency_command": [
@@ -2007,5 +2107,13 @@
   },
   "child_started_utc": "2026-11-28T12:33:02Z",
   "observed_utc": "2026-11-28T12:40:05Z",
-  "original_scalar_line_count": 16
+  "original_scalar_line_count": 16,
+  "child_returned_utc": "2026-11-28T12:40:13Z",
+  "stdout_stderr": {
+    "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/complete-scientific-stdout-stderr.log",
+    "bytes": 3489,
+    "sha256": "c0af77de7d3ea5aad9a209d08e5e028ed7eaa712b3537d94a9a19930779bdbba"
+  },
+  "complete_scientific_stdout_and_runner_field_retained": true,
+  "final_observed_utc": "2026-11-28T12:40:13Z"
 }
