@@ -1,0 +1,77 @@
+{
+  "base": {
+    "a": 0.075,
+    "b": 0.22,
+    "tilt_sine": 0.27,
+    "radial_spans": 24,
+    "body_modes": 8,
+    "seed_slope_peak": 0.0
+  },
+  "T": 0.03,
+  "smooth_width": 0.002,
+  "guard_weight": 1.5,
+  "work_betas": 257,
+  "fine_betas": 4097,
+  "check_order": 7,
+  "check_angles": 113,
+  "stage_order": 10,
+  "stage_angles": 225,
+  "final_order": 15,
+  "final_angles": 385,
+  "initial_trust": 0.12,
+  "retarget_trust": 0.025,
+  "max_trust": 0.65,
+  "work_goal": 5e-11,
+  "freeze_eta": 1e-06,
+  "reserve_seconds": 120,
+  "stages": [
+    {
+      "level": 0.2,
+      "K": 8,
+      "spans": 24,
+      "order": 5,
+      "angles": 65,
+      "iterations": 16
+    },
+    {
+      "level": 0.45,
+      "K": 8,
+      "spans": 24,
+      "order": 5,
+      "angles": 65,
+      "iterations": 18
+    },
+    {
+      "level": 0.73,
+      "K": 10,
+      "spans": 24,
+      "order": 5,
+      "angles": 81,
+      "iterations": 20
+    },
+    {
+      "level": 1.0,
+      "K": 10,
+      "spans": 24,
+      "order": 6,
+      "angles": 81,
+      "iterations": 22
+    },
+    {
+      "level": 1.0,
+      "K": 10,
+      "spans": 48,
+      "order": 6,
+      "angles": 97,
+      "iterations": 24
+    }
+  ],
+  "fixed_stage": {
+    "level": 1.0,
+    "K": 14,
+    "spans": 48,
+    "order": 7,
+    "angles": 113,
+    "iterations": 32
+  }
+}

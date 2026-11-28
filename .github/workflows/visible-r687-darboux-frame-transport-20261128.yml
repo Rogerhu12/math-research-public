@@ -1,0 +1,56 @@
+name: visible-flex general Darboux frame and immersion reconstruction
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r687-darboux-frame-transport-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r687-darboux-frame-transport-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Solve a global material frame with actual thick rim pose
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r687-darboux-frame-transport-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r687-darboux-frame-transport-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r687_darboux_frame_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r687-darboux-frame-transport-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r687-darboux-frame-transport-scope.md
+            /topics/visible-flex-new-mechanism/results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md
+            /topics/visible-flex-new-mechanism/results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md
+            /topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md
+            /topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md
+            /topics/visible-flex-new-mechanism/results/R683-proper-phase-angular-metric-transport-from-a-thick-surface.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and evaluate the new finite input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r687-darboux-frame-transport-20261128.json
+          --lane darboux-frame-transport
