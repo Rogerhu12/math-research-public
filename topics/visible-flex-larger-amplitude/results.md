@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R731（已证明，仅冻结参考）**：[平帽法向弦与 reach 障碍](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md) — 冻结R730短轴参数 $t=7/8$ 的活动点位于真实无标记下平帽法线上，$0.028<h<0.032$，故全相位 $\mathrm{reach}<0.016$、完整 $D>3.88$、$\mathrm{reach}/D<2/485$；并给同点/帽相对高各 $0.025$ 扰动界及全平帽法球条件。未外推到优化后的 outer 场；34实际几何仍独立求解。
+
 - **R724（已证明，成对半波新机制）**：[等长中央半波、完整位移与角jet账](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md) — 两中央+/-h(t/2)保同准确全均值/幅度及两角根，中央|T_s|恰减半；完整中间位移及e0=(3√3/4)ℓ√(1−r²)界、端口/协变/新来源均保。不推wholeK/D/Gram/reach改善；首4全源已刊，22沿19半宽参数独立求解。
 
 - **R717（已证明，预定非圆输入与条件几何界）**：[七模Fejér固定图与整像界](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md) — B=1/4、n=7短有理式经明确RN64后作准确dyadic图；全角ρ>0、闭合/单调/对称及初始核心界完整，当前自由core须重付。给全目标盒Hausdorff下界及同leaf范数D上界，不迁旧g/场或曲率证书；新完整输入与实际全域求解继续。

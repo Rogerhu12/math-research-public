@@ -101,31 +101,34 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-[此前完整open](https://github.com/Rogerhu12/math-research-public/blob/74d582e76b62a1149822eb51cb5f08e02e9f3cb1/topics/visible-flex-larger-amplitude/open.md)与[完整H](https://github.com/Rogerhu12/math-research-public/blob/9b350a1bdb508d8fb98031ff7b4c81fc1d28daf1/topics/visible-flex-larger-amplitude/HANDOFF.md)保全部原字、完整源参、失败、未知和旧历史链；§1–6原23359B不变。M160/J923/N2048/32stage、全变量/角径向域/原预算继续，均未达README。各whole note保source/model/point/六族/K、全命令/typed/错误；trial不冒accepted，异model不借同坐标结果。
+[本次更新前完整open](https://github.com/Rogerhu12/math-research-public/blob/9a499d4dd76a513e7ca25e069350ddb95f400711/topics/visible-flex-larger-amplitude/open.md)与[完整H](https://github.com/Rogerhu12/math-research-public/blob/9a499d4dd76a513e7ca25e069350ddb95f400711/topics/visible-flex-larger-amplitude/HANDOFF.md)保存全部原字及更早链；§1–6原23359B不动。各whole note中的源/参数/完整命令/实际model/point/六族/K位置/typed/原错误/null均继续有效，不因摘要省写而取消。M160/J923/N2048/32stage、全部变量/角径向域/原预算保持；trial不冒accepted，输入成功不冒全场，异model不借同坐标结果。未达README。
 
-### 实际结果与原runner续接
+### 已终态实际计算
 
-| 完整记录 | 当前真实边界 |
+| 完整记录 | 已返回边界；缺口 |
 |---|---|
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 官方cancelled08:39:51Z，原因未知。原science/pure0、a28ae/accepted4；同源restart新accepted0，596a四分之一步reachg.522561396446142拒，8f375八分之一步仅统计，restart未自然返。 |
-| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 官方cancelled09:20:01Z原因未知；c283已接受/current/accepted1、distance_plus.1284444767098446/reach.013246488697677083；0cb1下一全步仅开始。 |
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 12d82/accepted3/reachg.6999403610404435/Gram.487646571786265；官方failure09:42:20Z，原因待日志；86e14全步拒，c6928半步仅统计。 |
-| [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | 原science/pure0；a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518，首QP2advance/dependent-zero。标量90/90读取0；R729新science已启后官方failure09:40:01Z，原因/新返回未知；完整源参guards保。 |
-| [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | bc818/accepted1/distplus.13820228685007474/reachg−.03475313540129943；官方failure09:40:48Z原因待日志；695833十六分步reachg.6650070052821089拒，30412三十二分步仅统计。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | cancelled08:39:51Z，原因未知。原science/pure0、a28ae/accepted4；同源restart新accepted0，四分步拒、八分步仅统计，无新final。 |
+| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | cancelled09:20:01Z，原因未知；c283已接受/current/accepted1，distance_plus.1284444767098446；0cb1下全步仅开始。 |
+| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | failure09:42:20Z，原因待自身日志；current12d82/accepted3/reachg.6999403610404435/Gram.487646571786265；86e14全步拒、c6928半步仅统计。 |
+| [28原](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)及[R729接续](notes/2026-11-28-run28-R729-explicit-final-continuation.md) | 原science/pure0，a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518，pure423值/22错、首QP2advance/dependent-zero；原标量90/90返回，最初13summary错保留。新source689954/PID14760只started，新model/point/report未返；job failure09:40:01Z原因待日志。 |
+| [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | failure09:40:48Z原因待日志；bc818/accepted1、distplus.13820228685007474/reachg−.03475313540129943；695833十六分步reachg.6650070052821089拒，30412三十二分步仅统计。 |
+| [31](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md) | failure09:40:24Z原因待日志；source dfbbc306/PID4131/model78717，337dc已接受/current/accepted1/reachg.7621406738864105；ec99第二全步仅统计。 |
+| [32](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md) | failure09:41:53Z原因待日志；source20911541/PID3496/model78717，7e06/accepted0；1ec676首trial仅统计，几何/接受/R729采用与gap未知，不借31。 |
 
-19–24的全部独立终态/源参/未知保上述固定完整open及其六份whole note：19 science/pure0、N1无report原因未知；20–24官方cancelled，未返final仍未知。20–25取消原因均未提供，不按时长猜。25[完整restart6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)、完整父report c1be/13final de44/typed13与140/7、458/445/64live、新4/64/15全保；不造未返final。26已取消且未自然science返，pure未执行；27/29均官方failure，整pure47112/46915未执行。29 active/parent同29-retry1、queue74379，原容量failure与诊断run独立。28全pure423值/22原错与metadata最初13错均保；[完整S/core-law](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已刊78010。
+19–24全部独立终态保固定旧open及各whole note：19science/pure0而N1无report；20–24cancelled原因未知。26/27/29/31/32均无自然final/typed，整pure未执行。28原完整13final/typed/模型与137源经读取相等只支持已刊跨source接续合同，不证明未返新场。完整[S/core-law90项实际读取](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)及所有原预算保留。
 
-### 完整新分支
+### 正在执行与新几何方向
 
-R724–727完整证明及原条件/准确费用保results。[R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)和[最终seed4件](computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json)已刊；真实w有高度项，距离式不冒全域K/reach。
-[31完整启动](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)：三包39件全main0386、23runtime/137角色。真实46122200592两输入0；science dfbbc306/PID4131/model78717，337dc首全步已接受/current、accepted1/reachg.7621406738864105；全六族/K在自身whole note，仍不可行。原157/7、458/445/64live、4/64/15保；官方failure09:40:24Z原因待日志；ec99第二全步仅统计，pure46851未执行。
-[R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)证全行对偶收敛/可行slack恢复/gap。[32完整启动](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)源8/参数6/launch7全main。真实46125006601两输入0；science20911541/PID3496自身初geometry返model78717/7e06/accepted0，六族/K保自身whole note；1ec676首trial仅统计，几何/接受/R729归因未知，不借31。138角色/24runtime、575/564诊断，原参数与预算不变；官方failure09:41:53Z原因待日志，pure61349未执行。
-33正半波R729三包全main3ff579；run46130690181官方failure09:38:59Z，日志确证两input0后真pull遇根§16异常，science未启；28原物理/137源对保留，加shared kernel为138角色/21runtime；原157/7、458/445、64live、4/64/15和全部61request字段保，575/564新读数。先原QP后dependent阻挡fallback，remaining64完整扫不是CG advances；新runner按已读规则重算，28 final不作33初值。
+[33完整原运行](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md) run46130690181已failure09:38:59Z；64705B完整官方日志确证两个input0后，Publisher真pull遇根README新增§16而抛异常，science未启。其他run原因不从此借用。[新版规则重启](notes/2026-11-28-run33-section16-retry.md)现为run46133839513/job140944661119，research10:10:37Z启，active/parent均33-retry-section16；原28正半波物理/137源对+R729共138角色/21runtime，157/7词、575/564正式、64live及4/64/15全保。先原QP，只有原dependent两status才fallback，剩余64是全坐标扫非CG步。两input新runner重算；本次science自然返后才whole pure62854B。28 final不作33初值。
 
-[R730完整新参考](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)：真实S∈(2.37,2.38)、κ0=binary.2；η1/32、ξmax3/4、单宽脉冲[1−(2t−1)^12]^7。全角左右长度严格跨S，唯一正根/两角链/逆弧长六jet、参考全闭嵌入/全相位与安全锥距离、D≤4.2已有完整证明。只有径向unit得到；角向Gram/同固定g/reach/非全等仍未付。五物理源/接口已刊；完整139角色/24runtime构建配方现刊，全部父源+209全patch在每次worktree物化17整文件再跑原science/pure，原guard不改，34完整参数已刊42f7，launch待刊。旧mean12数组/证书不继。
+[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)已证真实S∈(2.37,2.38)、κ0=binary.2、η1/32、ξmax3/4、单宽脉冲k6的唯一长度根、全角两jet/逆弧长六jet、闭参考嵌入/全相位、安全锥双held与D≤4.2。仅径向unit，不代角向Gram、同固定g、reach或非全等。完整五物理源/接口11件已刊；正常build5件以全父源+209全patch在每个detached worktree物化17整源，139角色/24runtime和全部原守卫保。34完整参数已刊42f7，内部157/7、外162/12，632/625字段包含原575/564及64live和真实构建记录；启动包待刊，新actual仍未知。
 
-### 准确后继与完成责任
+[R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)现已证：冻结R730参考有真实平帽法向弦，全部相位reach<.016、D>3.88；同点水平与帽相对高度各改≤.025仍reach<.0285。全平帽必要法球条件给末端领口的具体设计要求；不约束任意outer新场，不取消34完整求解。继续修核心角向入口jet及近帽领口，未来物理分支须独立全源/输入/费用，不静默改34。
 
-R726/R727核心9件25d72已刊；N/G11和闭/P-U/矩/mesh23全保护。R728准确N/G14件683627B、下游24件1328437B全保护；仍无actual费用。[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N原repo/canonical/output，N变G新目录/稳定whole report；R723/mesh fresh，P同canonical整块，U最终同wholeN；packet全report，restart同runner13final/typed。
-全32stage/1024圆/922cells/cuts/六jet/尾/两帽/mixed/allphase/晚失败，R718 marked与R716 unmarked独立；五t/15science+5preview和三级空间/频率/时间真精化全待付。normal.complete不代连续branch，参考像不代actual场，继续真正求解。
-RET83–86及[delivery纯空白全映射](computations/complete-delivery-json-lexical-format-delivery.json)保完整源参/原结果失败/固定whole恢复；旧hash读者先还原该次原文。RET88–93历史元数据/非活结果及终态followup纯空白包已刊，所有原token保。Nelder原f7d0等来源未闭输入不删；raw只runner。
+### 准确费用与完成责任
+
+R724–729完整定理/源合同、R726/R727准确核心9件25d72、N/G11及下游23、R728准确N/G14和下游24的全部路径/身份/条件保固定旧open。R730准确长度/逆弧长核心4及N/G下游实现完整保护中；所有实际费用尚待自身场。参考角jet不代实际角向Gram，normal.complete不代连续branch。
+
+[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)继续：N原repo/canonical/output，N变则G新目录/稳定whole report；R723/mesh fresh，P同canonical整块、U最终同wholeN、packet全report、restart同runner13final/typed。全部32stage/1024圆/922cells/cuts/六jet/尾/两帽/mixed/allphase/晚失败，R718 marked及R716 unmarked独立；五t/15science+5preview和三级空间/频率/时间实际精化均未付。
+
+RET83–98完整映射/来源/恢复身份保各ledger与固定旧open；原token、失败和未知全保，旧hash读者须固定Git还原该次whole。只退已闭来源可重算生成输出，Nelder原f7d0等未闭来源和活输入不删，raw只runner；继续真正求解。
