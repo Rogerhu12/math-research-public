@@ -624,3 +624,9 @@ R1067续证 §§27–28 从原 S34 的固定水平质量及同一 GM 方程，�
 R1067续证 §§29–30 从同一冻结水平质量给原η⁴Θ_fΘ_g固定权三cusp form，准确GM比较常数−4π²iΔ₀^(−1/6)及Petersson/Stokes证明支付该具体parabolic类非零。相邻p/d读者仍保ζ^p与B^(−2)。全mixed式(140)在特征零保e_{m,p}、全部p·Bockstein和中点；g1∈p时Ed/p的下一位须取模p²，不能只用首降阶。原Hasse frame缺陷V满足完整受迫方程，首55/12及所需整窗已付；EN必须保ℓ̂/V全部二次混合至p³，Ed保ℓ̂+2V至p²。固定类非零、首V单位均未替代canonical无穷p非零。
 
 [完整续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)，(134)–(146)。
+
+### R1067 §31：原临界括号的全六十八余类调和来源
+
+R1067续证 §31 逐原冻结γ/δ与所有34×2标签，证明实际半权Rankin–Cohen括号的精确周期规范；二项身份给Q√−17、模2𝔭17的完整68余类调和theta源，不删非primitive项。临界N=(p+1)/2括号在指定CM点真被p²整除，首商准确返回原完整低half卷积；两Frobenius符号分别给D(Hfg)与H(fDg−gDf)。在(-17/p)=-1射线，逐α恒等式的全Fermat差norm给H_(p+1)=68DτΘ+68^pDτ^pΘ−p²Ξ，c_N恰含一p，故保RC Fourier输入至p³。异权q同余仍需原同权E2/Hasse/Spencer和CM除p比较，不直接推出canonical非零。
+
+[同编号完整证明](results/R1067-original-first-wild-rubin-native-euler-continuation.md)，(RC1)–(RC12)。

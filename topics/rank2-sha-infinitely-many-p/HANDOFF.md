@@ -11,15 +11,15 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 09:49:57 UTC实际pull --rebase，读取main 764bb30b45ad06030850609afe7d10876fa96052；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 09:50:03 UTC实际pull --rebase至eb9403f58ffa917696f9810ab874f8ac880e76d9；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 09:58:31 UTC实际pull --rebase，读取main 2b3c3ec027d6174a79ddaf53f1c46ee96c5bd258；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 09:58:38 UTC实际pull --rebase至8c1a44efde730be649aecf9aa513cb07bc9c43ba；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3222/46175753B/tree8c845ccbcc75c890d54376373784b29eda74df86；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
 
-[v15终态/v16来源](notes/2026-11-28-original-streamed-shadow-production-v16.md)保全部参数/74pins/验收及旧软件链。v15 run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962已failure；终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56。9厚纤维支持/11primary/24residue/44operators已返，08:10:56首A0 MD306/d16 HNF开始，08:24:51 solver137；无该HNF成功，不判OOM或21000秒超时。v13旧超时及全部旧参数保上链。
+[v15终态/v16来源](notes/2026-11-28-original-streamed-shadow-production-v16.md)保全部旧参数/74pins/验收。v15 run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962已failure，首306 HNF开始未返回，08:24:51 solver137；不判OOM或timeout。完整终log及9支持/11primary/24residue/44operator和v13旧超时均已核，hash和全部回执保于上链。
 
 **v16已实际运行：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，08:36:48 UTC创建。**固定Sage10.6 image已成功、原认证/运算step in_progress；09:40:08 UTC仍step4 in_progress、log BlobNotFound，不提前断言74源实际运行认证或PASS。唯一heavy沿同workflow/concurrency、4CPU/16GB/21000秒；29/shadow/artinian/2453/batch64/minimal，preflight false。
 
@@ -43,7 +43,9 @@ R1062–66完整证明由[open](open.md)及本卷索引直达，旧范围不变�
 
 §§27–28已付同一固定水平质量的Riccati完整解：E_N/E_d准确给g1=a_pE_N/p、g2=(pb_pE_d−γa_pE_N)/p²。CM三重型支付d−3整窗；E_N保二次log至p³，E_d保一次至p²。bad第二位为2γX−Y，二阶首位Y−γX，未分别赋零。两半权全mixed卷积返真实权一A·fg及残数，不把GM周期当代数或认成已付crystalline行。
 
-§§29–30现付原η⁴Θ_fΘ_g的固定非零parabolic类，完整GM比较常数及Petersson/Stokes证明；相邻p/d两行仍含同ζ^p及B^-2。原全mixed降阶(140)准确保e_{m,p}下一位、全部p·B缺陷和central项，g1∈p时读Ed/p须用模p²。实际Hasse frame V=(H/C₀−B)/(pB)有受迫方程、全所需整窗及首55/12；EN保ℓ̂/V混合二次至p³，Ed保ℓ̂+2V至p²。固定非零类未被认成moving读者的非退化Frob行；继续其Spencer比较及临界RC原theta源。
+§§29–30现付原η⁴Θ_fΘ_g的固定非零parabolic类，完整GM比较常数及Petersson/Stokes证明；相邻p/d两行仍含同ζ^p及B^-2。原全mixed降阶(140)准确保e_{m,p}下一位、全部p·B缺陷和central项，g1∈p时读Ed/p须用模p²。实际Hasse frame V=(H/C₀−B)/(pB)有受迫方程、全所需整窗及首55/12；EN保ℓ̂/V混合二次至p³，Ed保ℓ̂+2V至p²。固定非零类未被认成moving读者的非退化Frob行；继续其Spencer比较。
+
+§31(RC1–12)现付原f/g全Rankin–Cohen与完整周期常数；原34×2余类成为Q√−17、模2𝔭17的全68二元调和和。临界括号在CM真p²整，首商准确联原mixed；两ray分别D(Hfg)/HWr，全相位/符号保。inert−17有逐α精确Fermat差norm，whole q式H_d=68DΘ+68^pD^pΘ−p²Ξ，c_N真1p支付RC至p³。未将异权q同余在H(P)=0处免费取值或以CM/ordinary代canonical非零；下一付同权E2/Hasse/Spencer及完整p²层。
 
 
 [R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)原H=S34,1/Θ2,4913固定形式叶的几何闭包r2；p闭在inert或(17/p)+1，密度3/4，Herblot最优α1/4已饱和。全Θ极计数不因Gaussian抵消；原even S两维上Pell作用恒等，全H¹±36/32、两极boundary仅一维pair(±1/2,0)，完整主部boundary0。全斜极/原Smith/j!C成本保于原证明，不能加canonical零。

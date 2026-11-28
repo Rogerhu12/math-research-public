@@ -1123,7 +1123,7 @@ $$
 $\tau=\mu/\lambda$。
 也允许取 $g=f$，此时完整系数向量仍是同一个 $\gamma\otimes\gamma$。
 
-取杀掉原完整 theta/eta 矩阵和 $\eta^4$ 有限乘子的共同有限覆盖，
+取杀掉原完整 theta/eta 矩阵、$\eta^2$ 和 $\eta^4$ 有限乘子的共同有限覆盖，
 再与一个固定无挠 full-level 覆盖交，得到固定无挠群 $\Gamma$。
 这个选择先于 $p$，保留原 $\gamma,\delta$ 和所有根相位；
 不声称只需 level68，也不从一个 projective 表示省去 eta 相位。
@@ -1445,3 +1445,350 @@ Hasse 框架和所需精度之间的指定关系。
 Frobenius 矩阵元；也没有把(144)的首系数、
 (136)的正范数或(141)的低卷积各自认成 canonical 非零。
 本节没有数学数值运行。
+
+## 31. 原临界混合行的完整 Rankin–Cohen 源及第二个 CM 域
+
+本节仍取§29的实际冻结质量 $f,g$，不更换 $\gamma_a,\delta_b$。
+$g$ 是原 $\Theta_2=\sigma_1^2x$ 的水平延拓；其在同一 CM 点满足
+$g(P)=1,Dg(P)=0$。记
+$F=\Theta_f,\ G=\Theta_g,\ D_\tau=(2\pi i)^{-1}d/d\tau$。
+这里的 $q=e^{2\pi i\tau}$ 是模形式变量，不是原反圆分参数。
+
+### 31.1 固定全部周期常数的真正括号
+
+对任意整数 $n\ge0$ 定义实际代数函数
+$$
+ \mathscr R_n(f,g)
+ =\sum_{j=0}^n(-1)^j
+       \binom{n-\tfrac12}{n-j}\binom{n-\tfrac12}{j}
+       (\mathsf T_jf)(\mathsf T_{n-j}g).
+ \tag{RC1}
+$$
+两个 $\mathsf T$ 均为原半权算子。相应的经典括号规定为
+$$
+ [F,G]_n
+ =\sum_{j=0}^n(-1)^j
+       \binom{n-\tfrac12}{n-j}\binom{n-\tfrac12}{j}
+       (D_\tau^jF)(D_\tau^{\,n-j}G).
+$$
+对同一完整周期 $\lambda$，准确有
+$$
+ \boxed{\quad
+ \mathscr R_n(f,g)
+   =(-1)^n(2\pi/\lambda)^{2n+1}[F,G]_n(\tau).
+ \quad}
+ \tag{RC2}
+$$
+右端作为这一规范的组合为代数函数；不把 $2\pi/\lambda$
+或每个未归一导数单独称为代数函数。
+
+给出包括符号的证明。先在任意指定参数点把 $\mathsf A,\mathsf B$
+按(121)初始化，写 $q_0=\eta_{\lambda,0}/\lambda_0$、
+$c=2\pi i/\lambda_0^2$。同一周期方程与 Legendre 正规给
+$$
+ \lambda(s)=\lambda_0\mathsf A(s)(1-q_0v),\qquad
+ \tau(s)=\tau_0+\frac{cv}{1-q_0v},\qquad v=\mathsf B/\mathsf A.
+$$
+所以原生成函数准确为
+$$
+ \mathcal K_f^{(1/2)}(v)
+ =\sqrt{2\pi/\lambda_0}\,(1-q_0v)^{-1/2}
+          F\!\left(\tau_0+\frac{cv}{1-q_0v}\right),
+ \tag{RC3}
+$$
+并有相同的 $g,G$ 公式。初值处的第 $j$ 导数就是 $\mathsf T_jf$。
+
+所需的括号协变性只是有限乘法法则。若
+$z=(av+b)/(cv+d)$、$\delta=ad-bc$，则
+$$
+ \frac{d^j}{dv^j}\{(cv+d)^{-k}A(z)\}
+ =\sum_{r=0}^j
+   \binom jr(-1)^{j-r}(k+r)_{j-r}
+   c^{j-r}\delta^r(cv+d)^{-k-j-r}A^{(r)}(z).
+$$
+将两份公式代入权 $(k,l)$ 的括号，
+总导数阶小于 $n$ 的各项由二项式恒等式相消，
+留下
+$\delta^n(cv+d)^{-k-l-2n}[A,B]_n(z)$。
+这里 $(k,l)=(1/2,1/2)$；在(RC3)的 $v=0$，
+乘子为 $(2\pi/\lambda_0)c^n$。
+再把普通 $\tau$ 导数换成 $D_\tau$，额外乘 $(2\pi i)^n$，
+合为
+$(2\pi/\lambda_0)(-4\pi^2/\lambda_0^2)^n$，这就是(RC2)。
+
+在杀掉完整 theta/eta 表示和所需有限乘子的共同固定群上，
+$[F,G]_n$ 是权 $2n+1$ 的实际模形式，全部原系数和相位不变。
+当 $n>0$ 时它在每个 cusp 消失：任一 cusp 的变换仍是全部
+原 theta 分量括号的线性组合；其 Fourier 常数项中每个项
+至少有一边受到正次导数，故均为零。
+本节没有断言每个 $n$ 的括号都非零。
+
+### 31.2 原全部六十八余类的二元调和 theta 身份
+
+设
+$$
+ K_{17}=\mathbf Q(\sqrt{-17}),\qquad
+ \mathcal O_{17}=\mathbf Z[\sqrt{-17}],\qquad
+ \mathfrak p_{17}=(17,\sqrt{-17}),\qquad
+ \mathfrak m=2\mathfrak p_{17}.
+$$
+这些对象先于研究素数 $p$ 固定。
+有
+$$
+ \mathfrak m=34\mathbf Z+2\sqrt{-17}\,\mathbf Z,\qquad
+ \#(\mathcal O_{17}/\mathfrak m)=68 .
+$$
+因此原 $a\bmod34,\ b\bmod2$ 的每一对恰为一个实际余类，
+不是删去非单位后的一个新 ray 子集。
+
+对 $x\equiv a\pmod {34},\ y\equiv b\pmod2$ 写
+$$
+ \alpha=x+y\sqrt{-17},\qquad
+ Q(x,y)=\frac{x^2+17y^2}{68},\qquad
+ c_n=\frac{\binom{2n}{n}}{4^n}.
+$$
+原 theta 定义给
+$\vartheta_{34,a}=\sum_xq^{x^2/68}$、
+$\vartheta_{2,b}=\sum_yq^{y^2/4}$，于是逐项准确有
+$$
+ \boxed{\quad
+ [\vartheta_{34,a},\vartheta_{2,b}]_n
+ =\frac{(-1)^nc_n}{2(2\sqrt{17})^{2n}}
+     \sum_{\substack{x\equiv a\ (34)\\y\equiv b\ (2)}}
+       \bigl(\alpha^{2n}+\bar\alpha^{\,2n}\bigr)q^{Q(x,y)} .
+ \quad}
+ \tag{RC4}
+$$
+其中 $\sqrt{17}$ 取与原复杂规范相容的正实根；分母中的幂为偶数，
+所以该式没有新的根选择歧义。
+
+证明只用两个精确有限恒等式：
+$$
+ \binom{n-\tfrac12}{n-j}\binom{n-\tfrac12}{j}
+   =c_n\binom{2n}{2j},
+$$
+$$
+ \sum_{j=0}^n(-1)^j\binom{2n}{2j}A^jB^{n-j}
+ =\frac{(\sqrt B+i\sqrt A)^{2n}
+             +(\sqrt B-i\sqrt A)^{2n}}2.
+$$
+第一式清掉半整数分母后两边都是
+$(2n)!^2/(4^n n!^2(2j)!(2n-2j)!)$。
+在第二式取 $A=x^2/68,\ B=y^2/4$；
+可直接用有符号的 $\sqrt A=x/(2\sqrt{17})$、
+$\sqrt B=y/2$，因为只出现偶幂。
+有
+$\sqrt B+i\sqrt A=i\bar\alpha/(2\sqrt{17})$，
+另一项为 $-i\alpha/(2\sqrt{17})$，
+所以恰产生(RC4)的 $(-1)^n$。
+正定 $Q$ 保证在上半平面绝对收敛，故所有有限次微分和求和可交换。
+
+现在保持完整冻结权，定义
+$$
+ \mathcal H_{2n}(\tau)
+   =\sum_{a\bmod34,\ b\bmod2}\gamma_a\delta_b
+        \sum_{\substack{x\equiv a\ (34)\\y\equiv b\ (2)}}
+         \bigl(\alpha^{2n}+\bar\alpha^{\,2n}\bigr)q^{Q(x,y)} .
+$$
+合并(RC2)、(RC4)，两个 $(-1)^n$ 正好相消，得到
+$$
+ \boxed{\quad
+ \mathscr R_n(f,g)
+   =\frac{c_n}{2(2\sqrt{17})^{2n}}
+      (2\pi/\lambda)^{2n+1}\mathcal H_{2n}(\tau).
+ \quad}
+ \tag{RC5}
+$$
+这给出了原括号的同一个完整二元调和来源，
+包括全部非 primitive 余类、固定权和周期常数。
+这里的 CM 域是 $K_{17}$，与原物理 $j=0$ 曲线的
+$\mathbf Q(\sqrt{-3})$ 不同。
+没有将这份带全部权的 theta 和先行认成一个单独 Hecke 本征形式，
+也没有赋任一分量以原 canonical 坏条件。
+
+### 31.3 临界括号的真实两层整除
+
+仍取原 $p>211$、$p\equiv5\pmod6$，
+$N=(p+1)/2,\ d=2N$，并删去原固定 $\Sigma_{\rm flat}$。
+全部 $\mathsf T_jf,\mathsf T_jg$ 在原好局部格上整。
+有
+$$
+ c_N=\binom{p/2}{N},\qquad
+ \beta_p=c_N/p\in\mathcal O^\times,\qquad
+ \beta_p\equiv(-1)^{N-1}\pmod p .
+$$
+事实上半整数降阶积恰含一个 $p/2$，
+且其余分子和 $N!$ 都是单位；
+除以 $p$ 后模 $p$ 为 $(-1)^{N-1}/(2N)$，
+而 $2N=p+1$。
+对 $1\le j\le N-1$，两个半整数二项式各含一个 $p$，所以
+$$
+ \frac{(-1)^j}{p^2}
+       \binom{p/2}{N-j}\binom{p/2}{j}
+   \equiv\frac{(-1)^{N+j}}{4j(N-j)}\pmod p .
+ \tag{RC6}
+$$
+
+在指定 CM 点，(138)与 $f(P)=0$ 给 $\mathsf T_Nf(P)\in p\mathcal O$。
+括号的 $j=0$ 项因 $f(P)=0$ 消失，
+$j=N$ 项为 $(-1)^Nc_N\mathsf T_Nf(P)$；
+所有中间项已经被 $p^2$ 整除。
+故准确有
+$$
+ \mathscr R_N(f,g)(P)\in p^2\mathcal O,\qquad
+ r_p:=\mathscr R_N(f,g)(P)/p^2\in\mathcal O .
+$$
+再用 $Df(P)=Dg(P)=0$ 删除两个准确零项，得到
+$$
+ \boxed{\quad
+ r_p\equiv
+   -\frac{\mathsf T_Nf(P)}p
+   +\frac{(-1)^N}{4}
+       \sum_{j=2}^{N-2}
+       \frac{(-1)^j(\mathsf T_jf)(P)
+                    (\mathsf T_{N-j}g)(P)}{j(N-j)}
+       \pmod p .
+ \quad}
+ \tag{RC7}
+$$
+所有分母小于 $p$，没有遗漏任何新的整格费用。
+该式只对原指定 CM 点断言除 $p^2$ 整性；
+全参数域中的 $\mathscr R_N/p$ 虽整，
+$\mathscr R_N/p^2$ 不据此成为整函数。
+
+### 31.4 两个真实 Frobenius 符号及同一原混合行
+
+写 $H=H_p,\ C=DH$，仍取原固定特征零提升。
+原水平 theta 的全域模 $p$ 式为
+$$
+ \mathsf T_Nu\equiv
+       \varepsilon_u(HD+C/2)u,\qquad
+ \varepsilon_f=\left(\frac{17}{p}\right),\quad
+ \varepsilon_g=1.
+$$
+在(RC1)除以 $p$ 后，中间项都消失，
+故有以下两个准确的全域首层：
+$$
+ \boxed{
+ \begin{array}{ll}
+ \mathscr R_N/p\equiv
+       \beta_p\varepsilon_g\,D(Hfg),
+       &\varepsilon_f=(-1)^N\varepsilon_g,\\[2mm]
+ \mathscr R_N/p\equiv
+       \beta_p\varepsilon_g\,H(fDg-gDf),
+       &\varepsilon_f=-(-1)^N\varepsilon_g .
+ \end{array}}
+ \tag{RC8}
+$$
+第一种符号恰等价于
+$\left(\frac{-17}{p}\right)=-1$；
+第二种恰等价于其为 $+1$。
+这里保留了 $C/2$ 的两份贡献：在第一种相加成 $Cfg$，
+在第二种才相消。不能在两个射线上使用同一个错误的 scalar 符号。
+
+在第一种射线上，(141)的完整低半权卷积可准确改写为
+$$
+ \boxed{\quad
+ \frac{(\mathsf T_d^{(1)}(fg))(P)
+             -(\mathsf T_df)(P)}p
+ \equiv-2\varepsilon_f C_0
+        \left(r_p+\frac{(\mathsf T_Nf)(P)}p\right)\pmod p .
+ \quad}
+ \tag{RC9}
+$$
+证明把(141)第二项换下标 $j\mapsto N-j$。
+因为 $Dg(P)=Df(P)=0$，端点 $j=1,N-1$ 可准确补入或删去。
+在 $\varepsilon_f=(-1)^N\varepsilon_g$ 时，
+合并后的系数为
+$$
+ (-1)^{j+1}\varepsilon_g
+       \left(\frac1j+\frac1{N-j}\right)
+ =-\varepsilon_g N\,\frac{(-1)^j}{j(N-j)}.
+$$
+将(RC7)代入，再用 $N\equiv1/2$，便得到(RC9)。
+没有把 $j=N$ 的中点项重复计入。
+
+在原 $g_1\in p$ 的范围，(127)--(130)给
+$\mathsf T_Nf(P)\in p^2$ 和 $\mathsf T_df(P)\in p^2$，
+因此(RC9)还给
+$$
+ \frac{(\mathsf T_d^{(1)}(fg))(P)}p
+      \equiv-2\varepsilon_fC_0r_p\pmod p .
+ \tag{RC10}
+$$
+这是两个实际未被赋零的读者之间的关系。
+它没有把左边或 $r_p$ 自动判为零；
+原 $g_{2,p}$ 的下一位仍须保留(140)中的完整 $p\mathcal B$ 层。
+
+### 31.5 同一完整二元源的精确 Fermat 差
+
+现在只在 $\left(\frac{-17}{p}\right)=-1$ 的原射线上工作。
+对每个 $\alpha=x+y\sqrt{-17}\in\mathcal O_{17}$，写
+$n_\alpha=\alpha\bar\alpha=x^2+17y^2$。
+下面是特征零中的逐项恒等式：
+$$
+ \boxed{\quad
+ \alpha^{p+1}+\bar\alpha^{\,p+1}
+    -n_\alpha-n_\alpha^p
+ =-(\alpha^p-\bar\alpha)(\bar\alpha^p-\alpha).
+ \quad}
+ \tag{RC11}
+$$
+直接展开右边四项即可证明。
+由于 $p$ 在 $K_{17}$ 惰性，其剩余 Frobenius 是复共轭，
+两括号都在 $p\mathcal O_{17,(p)}$。
+这也包括 $\alpha=0$ 以及 $p\mid n_\alpha$ 的项；
+本证明没有除以 $n_\alpha$，
+因而没有删去任何非 primitive 余类。
+
+令
+$$
+ \Theta_{\rm bin}=FG
+   =\sum_{a,b}\gamma_a\delta_b
+       \sum_{x\equiv a,\ y\equiv b}q^{Q(x,y)}
+$$
+以及整 Fourier 系数的实际全余项
+$$
+ \Xi_p
+  =\sum_{a,b}\gamma_a\delta_b
+       \sum_{x\equiv a,\ y\equiv b}
+       \frac{\alpha^p-\bar\alpha}{p}
+       \frac{\bar\alpha^p-\alpha}{p}\,q^{Q(x,y)}.
+$$
+在原好系数格内，对每个指数都是有限求和。
+对(RC11)按同一全部固定权求和，得到精确形式级数等式
+$$
+ \boxed{\quad
+ \mathcal H_{p+1}
+    =68D_\tau\Theta_{\rm bin}
+       +68^pD_\tau^{\,p}\Theta_{\rm bin}
+       -p^2\Xi_p .
+ \quad}
+ \tag{RC12}
+$$
+这里 $D_\tau^p$ 是 $p$ 次微分，
+没有把原 $\gamma_a,\delta_b$ 作系数 Frobenius，
+也不是把 $q$ 换成 $q^p$。
+等式中的 $68^p$ 与 $68$ 不可相认。
+将其放回(RC4)，因 $v_p(c_N)=1$，
+该具体原余项首次进入括号的 $p^3$ 层；
+它为临界括号提供了保全六十八余类的真正模 $p^3$ Fourier 输入。
+
+### 31.6 与指定 CM 除 $p$ 值之间尚需完成的比较
+
+(RC2)、(RC5)、(RC7)--(RC12)都是原输入的身份，
+而不是仅将一个自由的二元 theta 函数接到原问题。
+它们支付完整周期、原固定权、两个 CM 域的不同符号、
+全部非 primitive 项，以及原下一层的准确 Fermat 余项。
+这与§29的固定权三类提供两个可以继续比较的真实输入。
+
+但是(RC12)两项微分的表面权不同，普通 $D_\tau$ 也带准模项。
+一个整 Fourier 同余本身不容许直接在 supersingular CM 点
+取值、除以 $p$ 或除以 Hasse。
+尤其在 $H(P)=0$ 的同一点，需要同权的实际 $E_2$/Hasse 修正、
+原几何 Frobenius/Spencer 连接、完整系数作用和所有除 $p$ 成本。
+本节没有用(CM)标签、原全 theta 的经典非零、
+或单个本征因子的 ordinary 性代替这些费用。
+下一步继续把(RC12)的全余项与(140)、(145)--(146)
+的同一实际读者接合，争取原 canonical 的跨素数非零。
+本节所有式子为上述逐项证明；没有数学数值运行。

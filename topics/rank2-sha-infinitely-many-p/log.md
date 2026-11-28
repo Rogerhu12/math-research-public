@@ -172,3 +172,19 @@ R1067续证 §§29–30 / (134)–(146) 完整证明登记。root逐式核原周
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 09:49:40 UTC到39fd65859eb857e90355f62efea80caaca43147d，私库2026-11-28 09:49:47 UTC到eb6dc72f68636f0cb761f65feb3e1261de26d57c；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3222/46175753B/tree8c845ccbcc75c890d54376373784b29eda74df86，无>5MB。
 
 推送前实际本地双pull（本次发布第5次）：公开2026-11-28 09:49:57 UTC到764bb30b45ad06030850609afe7d10876fa96052，私库2026-11-28 09:50:03 UTC到eb9403f58ffa917696f9810ab874f8ac880e76d9；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3222/46175753B/tree8c845ccbcc75c890d54376373784b29eda74df86，无>5MB。
+
+### 2026-11-28 09:56 UTC：R1067 原临界 RC 与全二元源
+
+root从原完整mixed逐项证明§31：实际Mobius/半权生成函数校准全部(−1)^n及(2π/λ)常数；半整数二项恒等式逐原68余类返回K17调和theta，原γδ及非primitive全保。临界p²整除、两Legendre射线、与原低half卷积的精确连接已付。central先提供的逐α Fermat差norm恒等式经root展开核对，成为完整RC的p³ q输入；不将q同余免费在CM除H取值。§29.1另显写共同cover同时杀η²和η⁴，使Φ=η⁶v_fv_g的全部有限乘子无歧义。没有数学数值运行。R1067 §§29–30已实际推79e28ef5b0a3213cbad99723999dbd968d2de632；四次非FF均立即双pull/rebase后第5次成功，新公开16/私库15模型规则执行保持。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 09:57:03 UTC到34c45234b6508c9c6bc5314f0dcaf87d0aed7d4f，私库2026-11-28 09:57:11 UTC到1e31250df8555398ece28328c2c5e0baab9c3cbc；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 09:57:22 UTC到3e0cbff4fc222e9dd70c9c7f1c067ed21b030aa6，私库2026-11-28 09:57:29 UTC到18a1f4aabf5b0ce810dd4947eb57f0b1b1f1243d；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 09:57:39 UTC到5c1a9559c8692a96df9bc98848d33ffa7a365910，私库2026-11-28 09:57:46 UTC到d604d318f06ef33678e719c53e4526f1f2c0222e；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 09:57:56 UTC到ac370e4659ab9be3e11fca2137fd9fa349148218，私库2026-11-28 09:58:01 UTC到7819b88d6c4a72386492f1084e89ae3a67240a2d；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
+
+推送前实际本地双pull（本次发布第5次）：公开2026-11-28 09:58:13 UTC到c172cb36fed1c55470f259ee41ed4ead41fbdc6d，私库2026-11-28 09:58:20 UTC到9df74523d451282ebbfcf6f96d25f6dad7dfd428；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
+
+推送前实际本地双pull（本次发布第6次）：公开2026-11-28 09:58:31 UTC到2b3c3ec027d6174a79ddaf53f1c46ee96c5bd258，私库2026-11-28 09:58:38 UTC到8c1a44efde730be649aecf9aa513cb07bc9c43ba；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
