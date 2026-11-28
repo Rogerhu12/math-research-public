@@ -2,6 +2,182 @@
   "schema": "visible-flex-actual-r262-work-orders-v1",
   "orders": [
     {
+      "id": "R262-adjacent-low-ports-actual-full-cut-design",
+      "after": [],
+      "script": "2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-support-physical-cut.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--full-sleeve",
+        ".350",
+        "--out",
+        "{W}/adjacent-low/full-cut.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/full-cut.json"
+      ],
+      "report": "{W}/adjacent-low/full-cut.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "phase",
+        "anchor",
+        "centralOriginalComparison",
+        "cutSHA",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry"
+      ],
+      "description": "R319实际半高.350母带配R317相邻同κ=.63圆口、phase1.15；真实原74项/U0对比已由run46167097874完成，当前消费同一真实原场作新的361XYZ/38g全幅短cut求解，gate=.40。输入中央位置/两导保持同一原函数。"
+    },
+    {
+      "id": "R262-adjacent-low-ports-actual-frozen-metric-h1",
+      "after": [
+        "R262-adjacent-low-ports-actual-full-cut-design"
+      ],
+      "script": "2ecf-r262-adjacent-low-ports-frozen-metric-refinement.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-frozen-metric-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--parent",
+        "{W}/adjacent-low/full-cut.npz",
+        "--out",
+        "{W}/adjacent-low/fixed-h1.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/fixed-h1.json"
+      ],
+      "report": "{W}/adjacent-low/fixed-h1.json",
+      "fields": [
+        "sourceSHA256",
+        "entrySHA256",
+        "physicalSourceSHA256",
+        "fieldSHA256",
+        "parentSHA256",
+        "stateSHA256",
+        "angularModes",
+        "radialSpans",
+        "actualPositionDOFs",
+        "metricDOFs",
+        "knotTransferMaxActual0th1st2nd",
+        "initialTraining",
+        "initialShifted",
+        "initialGeometry",
+        "accepted",
+        "training",
+        "independent",
+        "independentGeometry"
+      ],
+      "description": "R317自己的真实全角母线、完整cut-source SHA和原场身份保持；准确Boehm径角扩充以后仅求空间，固定同一两g。未用旧三圆弧中央冒充这个新输入。"
+    },
+    {
+      "id": "R319-actual-0350-cut-high-caps-two-real-arms",
+      "after": [
+        "R262-adjacent-low-ports-actual-frozen-metric-h1"
+      ],
+      "script": "2ecf-r262-adjacent-low-ports-complete-high-capped-observer.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-complete-high-capped-observer.py",
+        "2ecf-adjacent-low-ports-0350-physical-belt.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--definition",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--state",
+        "{W}/adjacent-low/fixed-h1.npz",
+        "--belt",
+        "{S}/2ecf-adjacent-low-ports-0350-physical-belt.py",
+        "--arms",
+        "{S}/2ecf-r299-actual-thick-arms-and-tapered-central-belt-v3.py",
+        "--out",
+        "{W}/adjacent-low/h1-whole-0350.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/h1-whole-0350.json"
+      ],
+      "report": "{W}/adjacent-low/h1-whole-0350.json",
+      "fields": [
+        "sourceSHA256",
+        "stateSHA256",
+        "fieldSHA256",
+        "definitionSHA256",
+        "beltSHA256",
+        "geometry",
+        "initialPhase",
+        "otherPhase",
+        "initialDiameter",
+        "otherDiameter",
+        "initialToOtherHeld",
+        "otherToInitialHeld",
+        "sampledHeldRatio",
+        "sampledHalfDiameterDifferenceRatio",
+        "sampledRequiredReach",
+        "scope"
+      ],
+      "description": "R319自己的真.100三次回窗实际实体，完整新外前缀+原当前尾+两平盘+R317两整实臂，两姿态1.15/0与整第二臂持稳；逐实际接缝核同数据。有限整像观察不代全连续几何。"
+    },
+    {
+      "id": "R319-actual-0350-complete-prefix-and-original-trace-cover",
+      "after": [
+        "R262-adjacent-low-ports-actual-frozen-metric-h1"
+      ],
+      "script": "2ecf-r262-adjacent-low-ports-certified-outer-and-traces.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-certified-outer-and-traces.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--states",
+        "{W}/adjacent-low/full-cut.npz",
+        "{W}/adjacent-low/fixed-h1.npz",
+        "--out",
+        "{W}/adjacent-low/h1-R319-continuous-position.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/h1-R319-continuous-position.json"
+      ],
+      "report": "{W}/adjacent-low/h1-R319-continuous-position.json",
+      "fields": [
+        "sourceSHA",
+        "originalSourceSHA",
+        "oldRawFieldSHA",
+        "comparison",
+        "states",
+        "guards"
+      ],
+      "description": "真实新相邻曲线与原74项的全闭区间两导比较，及同一.350 design/h1全部原2569单元、旧W、新XYZ/切口/尾的连续位置预算；各状态自身核R317两项整形变充分条件，不以有限全角比较代连续结论。"
+    },
+    {
       "id": "R262-recover-actual-low35-cut",
       "script": "2ecf-r262-three-arcs-shortened-prefix-v2.py",
       "args": [
@@ -260,96 +436,6 @@
         "scope"
       ],
       "description": "真实直接Newton末态与新低/高末直长度.98/.46的两厚臂组成全闭空间像；所有原尾与平盘、两真端口都来自同一输入，整D与双向握持是有限观察，连续R315条件另行支付。"
-    },
-    {
-      "id": "R262-adjacent-low-ports-actual-full-cut-design",
-      "after": [
-        "R262-recover-actual-low35-frozen-h1"
-      ],
-      "script": "2ecf-r262-adjacent-low-ports-support-physical-cut.py",
-      "sources": [
-        "2ecf-r262-adjacent-low-ports-support-physical-cut.py"
-      ],
-      "args": [
-        "--scripts",
-        "{S}",
-        "--work",
-        "{W}/original-r262",
-        "--out",
-        "{W}/adjacent-low/full-cut.json"
-      ],
-      "outputs": [
-        "{W}/adjacent-low/full-cut.json"
-      ],
-      "report": "{W}/adjacent-low/full-cut.json",
-      "fields": [
-        "sourceSHA",
-        "fieldSHA",
-        "stateSHA",
-        "lam",
-        "low",
-        "phase",
-        "anchor",
-        "centralOriginalComparison",
-        "cutSHA",
-        "numericalPhysicalCoordinates",
-        "nativeD3Correction",
-        "initial",
-        "accepted",
-        "finalTraining",
-        "finalIndependent",
-        "independentPhysicalGeometry"
-      ],
-      "description": "R317真正相邻两个低κ圆口，新phase1.15，完整原74项材料U0直接比较、真实曲率原函数与两导一致；在同一实际原场上进行361XYZ/38g的全幅cut设计。本条几何与旧三圆弧分支不同。"
-    },
-    {
-      "id": "R262-adjacent-low-ports-actual-frozen-metric-h1",
-      "after": [
-        "R262-adjacent-low-ports-actual-full-cut-design"
-      ],
-      "script": "2ecf-r262-adjacent-low-ports-frozen-metric-refinement.py",
-      "sources": [
-        "2ecf-r262-adjacent-low-ports-frozen-metric-refinement.py"
-      ],
-      "args": [
-        "--scripts",
-        "{S}",
-        "--work",
-        "{W}/original-r262",
-        "--physical-source",
-        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
-        "--comparison",
-        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
-        "--parent",
-        "{W}/adjacent-low/full-cut.npz",
-        "--out",
-        "{W}/adjacent-low/fixed-h1.json"
-      ],
-      "outputs": [
-        "{W}/adjacent-low/fixed-h1.json"
-      ],
-      "report": "{W}/adjacent-low/fixed-h1.json",
-      "fields": [
-        "sourceSHA256",
-        "entrySHA256",
-        "physicalSourceSHA256",
-        "fieldSHA256",
-        "parentSHA256",
-        "stateSHA256",
-        "angularModes",
-        "radialSpans",
-        "actualPositionDOFs",
-        "metricDOFs",
-        "knotTransferMaxActual0th1st2nd",
-        "initialTraining",
-        "initialShifted",
-        "initialGeometry",
-        "accepted",
-        "training",
-        "independent",
-        "independentGeometry"
-      ],
-      "description": "R317自己的真实全角母线、完整cut-source SHA和原场身份保持；准确Boehm径角扩充以后仅求空间，固定同一两g。未用旧三圆弧中央冒充这个新输入。"
     },
     {
       "id": "R262-full-cut-signed-peak-same-metric-step",
