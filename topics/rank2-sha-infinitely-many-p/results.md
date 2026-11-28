@@ -392,3 +392,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §80：规范分歧常数与原Coleman全微分的实际方向迹
 
 已证明：同一严格LT参数给λ=h−h^p与ρ=72f₁(c²−c)(1−ω)/6。原邻点唯一L₂拉回正为原Robert全微分真实p方向迹的x^(3p(p²−1))系数；不同层微分、导数与截断界均由真实different支付。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §81：四个原标记Robert系数准确给出中央模p方向迹
+
+已证明：原LT加法的首非线性项与群律付σ_i/x到Y^(2p+1)；原中央与Cartier给B₀=B₁=0，低迹再给B_(p+1)=B₂。全3pb迹准确为−B_(2p+1)+2B_(p+2)−B₃−2B₂，不将任一槽非零当全和非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
