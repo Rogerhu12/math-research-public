@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ18：原signedTheta试探的完整改进与真96坐标逆](results/R149-supplement-actual-signed-Theta-trial-and-finite-inverse-by-primitive-residual.md)：同原WMA/UACT whole成功记录、真lift primitive homotopy与真实固定J/S预算，给整个Theta trial误差<.26、原低96误差<.025、真T^{-1}<2.694；无重算旧目标或私数组。root全读原两actual及原公式，20新精确Fraction比较一次全过；物理PDE全逆和完整matched square未成。
+
 - [ASQ17：全96真实Theta行的快速级数与完整尾](results/R149-supplement-fast-true-Theta-series-and-complete-original-high-row-tail.md)：真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−15；原全96联合Theta在n≥4097的实际输入尾<.000117，真同号/异号与原mean零空间保持。必须对实际H_c r取尾，不能把入端尾替代响应尾；数值真lift/coeff误差另加。
 
 - [SAR：真实两列affine particular及有符号high回边](results/R149-supplement-signed-selected-affine-columns-and-true-high-return-at-the-cut.md)：对真实WSS全两列在原GG1424格按两条有序递推构造signed particular，保root/cut/outer完整双列和三真实2×2 Gram，另加全部193自由边界。已知high与right97通过min(g_J L*,c_J+g_J d_C)同一源图接收；cut以局部H1真迹付费。必要WSS恢复全61chunks/index而不重算旧polarization；GG尚未成功，未运行新解。

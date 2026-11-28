@@ -198,3 +198,6 @@
 
 
 2026-11-28 11:22:07 UTC / visible-exact-astra-b0d5a16-20261128：ASQ17。真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−15；原全96联合Theta在n≥4097的实际输入尾<.000117，真同号/异号与原mean零空间保持。必须对实际H_c r取尾，不能把入端尾替代响应尾；数值真lift/coeff误差另加。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-fast-true-Theta-series-and-complete-original-high-row-tail.md","bytes":5351,"sha256":"ea35e6595e17bbe27eb8c550353d714fd76bf93f3d5a01c31d31aa0f9158ff25"}]。
+
+
+2026-11-28 11:22:18 UTC / visible-exact-astra-b0d5a16-20261128：ASQ18。同原WMA/UACT whole成功记录、真lift primitive homotopy与真实固定J/S预算，给整个Theta trial误差<.26、原低96误差<.025、真T^{-1}<2.694；无重算旧目标或私数组。root全读原两actual及原公式，20新精确Fraction比较一次全过；物理PDE全逆和完整matched square未成。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actual-signed-Theta-trial-and-finite-inverse-by-primitive-residual.md","bytes":7319,"sha256":"82d2beb80d2023c0747c6c0927f0c98dd3fcebcb9376333496e05e55b38ce0f4"},{"path":"topics/visible-flex-exact-nearby/notes/2026-11-28-ASQ18-root-new-rational-comparisons.json","bytes":4123,"sha256":"44bb6125e8ad0511dda1be352f1732eaefe63f9cac345f885940f004d06061dc"}]。

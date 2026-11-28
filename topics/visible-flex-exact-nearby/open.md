@@ -315,3 +315,6 @@ SAR：对真实WSS全两列在原GG1424格按两条有序递推构造signed part
 
 
 ASQ17：真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−15；原全96联合Theta在n≥4097的实际输入尾<.000117，真同号/异号与原mean零空间保持。必须对实际H_c r取尾，不能把入端尾替代响应尾；数值真lift/coeff误差另加。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ18：同原WMA/UACT whole成功记录、真lift primitive homotopy与真实固定J/S预算，给整个Theta trial误差<.26、原低96误差<.025、真T^{-1}<2.694；无重算旧目标或私数组。root全读原两actual及原公式，20新精确Fraction比较一次全过；物理PDE全逆和完整matched square未成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
