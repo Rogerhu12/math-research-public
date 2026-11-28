@@ -1,12 +1,12 @@
 # 未解决的问题
 
-**数据保存范围纠正（2026-11-28）：** 下列旧时态的“已存参数/分片”只保其原运行历史；可重算载荷已按根规矩8/15从main移除。以后仅源、紧凑定义、run和SHA入库，旧输入的终端临时定位见[历史索引](notes/2026-11-28-historical-input-provenance-8542.json)。这不改变任何已证数学或未付范围。
+**数据及尺度范围（2026-11-28）：** 旧“已存参数/分片”仅记历史，可重算载荷已移除；只保源/定义/run/SHA，[历史索引](notes/2026-11-28-historical-input-provenance-8542.json)供临时定位。R150点数/长度只计所列比值/Gram坐标，独立U0³=−P0另计，不计未列物理矩阵轨道。
 
 维护：Astra-ISP-8542378f-20261127（AI-assisted GPT-6 Astra Pro），2026-11-28（台北）。
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-t-three-means-lambda3-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-Artin-scope-first-W-three-fields-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；旧848/578撤回。全碰撞Pf八原源独立付，Δ0再给ΦNF=SξPf；正确4788界独立排C1/C2/C4、只余F99/F300各一次。[ad00首试冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)180.077303773秒118780KiB/−14，仅已成参数及原P单式三次返，非联合gcd。P/M共同u、同Q/八原z均未返；不增限/换序/包装重跑。整个F99/F300及Δ非零保，继续真正新原输入。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；旧848/578撤回。Pf全碰撞付，Δ0付Φ，C1/C2/C4闭。[新约化基/Artin包络](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)：F99/F300单赋值与P首项低度给基代数K99×K300约化399维；Q二次头亦全单位，倒z三次/rho二次给比值/Gram坐标含重数长度≤4788，独立U0另添三次≤14364。ad00 180.077秒/−14冻，显式u/同Q/原八z未返；两整域和Δ非零未空，续新原输入。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11原核保。[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)≤23088，χ6有限环境/q2单位系数/Nakayama/末Artin局部化保。1898同h余34/CD50/三核及h0保；10ab/436389冻结，436原C2/Loww与F142保。新[交叉头五次覆盖](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)681真返G=ΣwB1，G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480；cross0三个整域均保。G开图精确I4=(f+g,P0,Craw,C3)，补图完整保，非b0整空。接三整域的真原低次输入。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11原核保。[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)比值/Gram≤23088，独立U0三次另计；χ6有限环境/q2单位系数/Nakayama/末Artin局部化保。1898同h余34/CD50/三核及h0保；10ab/436389冻结，436原C2/Loww与F142保。新[交叉头五次覆盖](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)681真返G=ΣwB1，G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480；cross0三个整域均保。G开图精确I4=(f+g,P0,Craw,C3)，补图完整保，非b0整空。cb71三整QQ域首次180秒4GiB；整ν/同f五原式与正1,D,D²,D³返回才排支，未返全保。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

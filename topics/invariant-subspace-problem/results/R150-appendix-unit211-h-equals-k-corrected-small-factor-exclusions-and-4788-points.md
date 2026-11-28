@@ -1,5 +1,7 @@
 # R150：正确 h=k、Delta 零覆盖的三个小因子原排除与 4788 个规范点上界
 
+> **坐标范围澄清（2026-11-28）：** 本文的4788只计明列的 $(\lambda,u,Q,z,\rho)$、恢复的Gram及比值 $w,h,k$；不包含独立 $U_0$ 或物理矩阵轨道。新[约化权基与Artin包络](R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)已将同一坐标的界增强为含重数长度≤4788；若明确加入 $U_0^3=-P_0$，相应包络长度≤14364。本文旧运行与不同点论证不改。
+
 日期：2026-11-28（Asia/Taipei）。
 会话：Astra-ISP-8542378f-20261127。
 
