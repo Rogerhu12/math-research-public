@@ -1,0 +1,135 @@
+{
+  "status": "M32_v4_real_logging_exception_before_factor_and_independent_v5_resume_started",
+  "actual_v4_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v4/run.json",
+    "sha256": "9c2be4c5ea70e26d34bd85b81b8fbaaae9d561ddd79dfef23f62def90d2b0cfb"
+  },
+  "actual_v4_adapter": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v4/literal-adapter.json",
+    "sha256": "f0049f8f53c8d78a9307a9b2093c5feabb0e2b7cfb8f1d3d4eb9af0f0d0a3c91"
+  },
+  "actual_v4_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-v4-process.json",
+    "sha256": "613c7b36ea275a22f8254e2edb04ba618a3d23cd435c49c0e5d44f0a716efb65"
+  },
+  "actual_v4_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_literal_driver_v4.py",
+    "sha256": "c678f8c9fc3f5b878ee389e7cf36353f7267b2bd071184cb49c43d9c5ad77553"
+  },
+  "actual_terminal_summary": {
+    "returncode": 1,
+    "seconds": 151.91838205599925,
+    "maximum_child_rss_kib": 872124
+  },
+  "actual_error": "TypeError(\"dict() got multiple values for keyword argument 'seconds'\")",
+  "original_factor_count": 0,
+  "complete_nodal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v4/last-nodal-jac-input.npz",
+    "sha256": "4da6eaef2a2d7c9b0139df225b0cd1a63b69d95689ee6b9fc4fba5acef63e010"
+  },
+  "complete_nodal_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v4/last-nodal-jac-input.json",
+    "sha256": "4af57985a0bd2bd004ea04919604862f2463cc178a3c46edf48cdffc54425547"
+  },
+  "original_saved_nodal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v2/last-nodal-jac-input.npz",
+    "sha256": "5a28d53fb0bb8e8921574fec93ac82f0c11e133715ad525908c634fec4123af0"
+  },
+  "all_original_nodal_arrays_bitwise_equal": {
+    "x": true,
+    "y": true,
+    "p": true,
+    "pscale": true
+  },
+  "original_nodes": 1497,
+  "original_state_components": 97,
+  "original_parameters": 32,
+  "original_raw_return_exists": false,
+  "original_physical_return_exists": false,
+  "original_metric_audit_returned": false,
+  "mathematical_BVP_failure_inferred": false,
+  "accepted": false,
+  "independent_v5_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_literal_driver_v5.py",
+    "sha256": "213ed5dffdb3925cdae43c22c0d1ac1fe6496f7c42a92ce254ddc99952ae85d7"
+  },
+  "exact_resource_change": "Only record=lambda fields:event(..., assembly=fields) replaces **fields; original assembler/J/QR/unknowns/gates unchanged.",
+  "actual_saved_CSR_logging_replay": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-support-v5-real-csr-log-replay/replay.json",
+    "sha256": "ddeee5ce340495e8aa80422108308f9af392f485164086a3931fe3e43a70b139"
+  },
+  "logging_replay": {
+    "status": "actual_saved_CSR_fields_replayed_through_exact_v5_event_and_callback",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_literal_driver_v5.py",
+      "sha256": "213ed5dffdb3925cdae43c22c0d1ac1fe6496f7c42a92ce254ddc99952ae85d7"
+    },
+    "old_v4_sha256": "c678f8c9fc3f5b878ee389e7cf36353f7267b2bd071184cb49c43d9c5ad77553",
+    "actual_input_trace": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000-direct-csr.jsonl",
+      "sha256": "13bda159db506b5ff837051041b757a2e5a71932a5999d7ab23fb3e3ed676111",
+      "line": 1
+    },
+    "original_fields": {
+      "event": "complete_CSR_assembly_return",
+      "elapsed": 277.5036805130003,
+      "n": 145,
+      "m": 952,
+      "k": 48,
+      "stored_entries": 46673744,
+      "radial_temporary_block": 16,
+      "sparse_format": "csr",
+      "complete_rows_have_uniform_stored_width": 338,
+      "index_dtype": "<i4",
+      "final_storage_bytes": 560637284,
+      "old_COO_index_arrays_created": false,
+      "all_original_stored_zeros_retained": true,
+      "input_COO_indices_were_none": true,
+      "original_block_formula_operation_order_preserved": true,
+      "original_parameter_middle_update_preserved": true,
+      "final_storage_shared_with_result": true,
+      "seconds": 3.2641514480001206,
+      "maximum_rss_kib": 1191448
+    },
+    "observed_event": {
+      "event": "complete_original_J_direct_CSR",
+      "seconds": 0.0005847949996677926,
+      "maximum_rss_kib": 13184,
+      "assembly": {
+        "event": "complete_CSR_assembly_return",
+        "elapsed": 277.5036805130003,
+        "n": 145,
+        "m": 952,
+        "k": 48,
+        "stored_entries": 46673744,
+        "radial_temporary_block": 16,
+        "sparse_format": "csr",
+        "complete_rows_have_uniform_stored_width": 338,
+        "index_dtype": "<i4",
+        "final_storage_bytes": 560637284,
+        "old_COO_index_arrays_created": false,
+        "all_original_stored_zeros_retained": true,
+        "input_COO_indices_were_none": true,
+        "original_block_formula_operation_order_preserved": true,
+        "original_parameter_middle_update_preserved": true,
+        "final_storage_shared_with_result": true,
+        "seconds": 3.2641514480001206,
+        "maximum_rss_kib": 1191448
+      }
+    },
+    "all_assembler_fields_preserved_nested": true,
+    "outer_clock_and_RSS_not_overwritten": true,
+    "new_J_constructed": false,
+    "new_physical_model_or_initializer_created": false
+  },
+  "original_helper_recomputed": false,
+  "mesh_or_initializer_changed": false,
+  "v5_actual_started_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-v5-process-started.json",
+    "sha256": "37d4f49ebe7ff042550323b706c506140b82bfaa1a1b67a79bbd809e85ca12d4"
+  },
+  "v5_actual_solver_session": 85064,
+  "v5_terminal_available": false,
+  "complete_surface": false,
+  "v5_live_process_status_path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-v5-process.json"
+}

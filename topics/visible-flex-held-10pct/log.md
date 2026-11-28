@@ -170,3 +170,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 10:38 UTC｜Astra-held10-7c4e33ee-20261128：[实际binary核心曲率预算](notes/2026-11-28-analytic-binary-core-curvature-held-budget.md)以k=3602879701896397/18014398509481984代入已证R54公式，完全Fraction核Hdiam>.5397、整像held>.2953；配条件D≤2.69004/reach≥10/123，三比例仍严格过原门。没有把k冒作准确1/5，没有重证R54/R67，更无真λ1输入/完成声明。M32v4发生日志字段seconds冲突exit1，无factor/方向；独立v5仅修日志并继续同1497原状态。
 
 - 2026-11-28 10:42 UTC｜Astra-held10-7c4e33ee-20261128：[R76真λ.064/M40新图连续几何](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)完整1017×1024盒真返、零失败，support>.6237、radius<1.1903、area>.2975；同场有理后处理支付12.3浮点阈值差并得准确K≤123/10，正PSD余量已保存。全部9源码与真实run/physical/定义数组hash核同，456.276s；未附尾/cut、未给新连续metric或λ1。下一步继续该图连续metric和主设计/全尾。
+
+- 2026-11-28 10:48 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v4真实日志异常与v5续算](notes/2026-11-28-analytic-fixed-support-m32-v4-log-error-v5-resume.md)核完11个唯一不可变来源/hash：v4两组原节点/中点J已返，但CSR日志seconds键冲突在factor前exit1；不是数学失败。新v5仅将完整assembly字段嵌套，真实已存M48日志回放通过；1497原nodal/固定g/mean1168/所有门不动，首完整145241维CSR与原QR方向已真返，仍待BVP/RMS/metric终态。E iter10原全局norm3.78995725e−9，仍略高于原门，完整最终J/audit未省。
