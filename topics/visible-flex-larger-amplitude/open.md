@@ -120,7 +120,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 R724–727完整证明及原条件/准确费用保results。[R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)和[最终seed4件](computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json)已刊；真实w有高度项，距离式不冒全域K/reach。
 [31完整启动](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)：三包39件全main0386、23runtime/137角色。真实46122200592两输入0；science dfbbc306/PID4131/model78717，337dc首全步已接受/current、accepted1/reachg.7621406738864105；全六族/K在自身whole note，仍不可行。原157/7、458/445/64live、4/64/15保；active/parent同31、queue65162，自然返后pure46851。
 [R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)证全行对偶收敛/可行slack恢复/gap。[32完整启动](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)源8/参数6/launch7全main。真实46125006601两输入0；science20911541/PID3496自身初geometry返model78717/7e06/accepted0，六族/K保自身whole note；1ec676首trial仅统计，几何/接受/R729归因未知，不借31。138角色/24runtime、575/564诊断，原参数与预算不变；active/parent同32、queue78678，自然返后pure61349。
-33正半波R729三包21件925632B完整保护、待刊；28原物理/137源对保留，加shared kernel为138角色/21runtime；原157/7、458/445、64live、4/64/15和全部61request字段保，575/564新读数。先原QP后dependent阻挡fallback，remaining64完整扫不是CG advances；本次run/model/point尚无actual，28 final不作33初值。
+33正半波R729三包21件925632B现全main，三整步queue80264B已同刊触发、真实run待官方确认；28原物理/137源对保留，加shared kernel为138角色/21runtime；原157/7、458/445、64live、4/64/15和全部61request字段保，575/564新读数。先原QP后dependent阻挡fallback，remaining64完整扫不是CG advances；本次run/model/point尚无actual，28 final不作33初值。
 
 [R730完整新参考](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)：真实S∈(2.37,2.38)、κ0=binary.2；η1/32、ξmax3/4、单宽脉冲[1−(2t−1)^12]^7。全角左右长度严格跨S，唯一正根/两角链/逆弧长六jet、参考全闭嵌入/全相位与安全锥距离、D≤4.2已有完整证明。只有径向unit得到；角向Gram/同固定g/reach/非全等仍未付。geometry继续length kernel/provider、base/Q/calibration及真正新normal接口；不伪造旧mean12数组或套旧证书。
 
@@ -128,4 +128,4 @@ R724–727完整证明及原条件/准确费用保results。[R728](results/R728-
 
 R726/R727核心9件25d72已刊；N/G11和闭/P-U/矩/mesh23全保护。R728准确N/G14件683627B、下游24件1328437B全保护；仍无actual费用。[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N原repo/canonical/output，N变G新目录/稳定whole report；R723/mesh fresh，P同canonical整块，U最终同wholeN；packet全report，restart同runner13final/typed。
 全32stage/1024圆/922cells/cuts/六jet/尾/两帽/mixed/allphase/晚失败，R718 marked与R716 unmarked独立；五t/15science+5preview和三级空间/频率/时间真精化全待付。normal.complete不代连续branch，参考像不代actual场，继续真正求解。
-RET83–86及[delivery纯空白全映射](computations/complete-delivery-json-lexical-format-delivery.json)保完整源参/原结果失败/固定whole恢复；旧hash读者先还原该次原文。RET88/89历史元数据和终态非触发followup纯空白包待刊，所有原token保。Nelder原f7d0等来源未闭输入不删；raw只runner。
+RET83–86及[delivery纯空白全映射](computations/complete-delivery-json-lexical-format-delivery.json)保完整源参/原结果失败/固定whole恢复；旧hash读者先还原该次原文。RET88–93历史元数据/非活结果及终态followup纯空白包已刊，所有原token保。Nelder原f7d0等来源未闭输入不删；raw只runner。

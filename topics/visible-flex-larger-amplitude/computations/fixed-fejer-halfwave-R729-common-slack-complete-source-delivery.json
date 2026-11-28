@@ -1,0 +1,362 @@
+{
+  "schema": "complete-fixed-fejer-halfwave-R729-independent-scientific-source-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "prepared_utc": "2026-11-28 08:17:56 UTC",
+  "intended_runner": 33,
+  "proposed_namespace": "fixed-fejer-halfwave-R729-bhalf-first",
+  "status": "complete-source-only-preparation-not-published-or-executed",
+  "artifacts_except_this_manifest": [
+    {
+      "delivery_role": "driver",
+      "role": "driver",
+      "name": "fullclosed_fixed_fejer_halfwave_R729_demanded_qp.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_halfwave_R729_demanded_qp.py",
+      "bytes": 99954,
+      "sha256": "a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3",
+      "git_blob_sha": "ad44cfc1855b2eb7791fbd97641afc422961300a"
+    },
+    {
+      "delivery_role": "reader",
+      "role": "reader",
+      "name": "read_fixed_fejer_halfwave_R729_demanded_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_halfwave_R729_demanded_report.py",
+      "bytes": 94551,
+      "sha256": "52c0b08d7ba957b4a9de37288334025e5f312c5f917421b80f0a9b85c34fddd7",
+      "git_blob_sha": "c02c930549941898f7c3d13668e5a7f2fda820e3"
+    },
+    {
+      "delivery_role": "launcher",
+      "role": "launcher",
+      "name": "launch_fixed_fejer_halfwave_R729_demanded_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_halfwave_R729_demanded_actions.py",
+      "bytes": 22367,
+      "sha256": "9b76e1c751f02495576278546b24f352993bdba6d6859fb3d826a255044bcc8b",
+      "git_blob_sha": "152803c344e6a487c194560bfc1dc01af645abdd"
+    },
+    {
+      "delivery_role": "pure_frame",
+      "role": "retained_frame_readout",
+      "name": "fixed_fejer_R729_retained_halfwave_frame_readout.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R729_retained_halfwave_frame_readout.py",
+      "bytes": 7796,
+      "sha256": "124fe3ec3778f70bc5149dbb85c419063fd09e01c1048a3e2485f3ceb825436c",
+      "git_blob_sha": "f58356b2631dc4959dc7089d7b5d823d14b0b62b"
+    },
+    {
+      "delivery_role": "binding",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-current-runtime-binding.json",
+      "bytes": 64691,
+      "sha256": "dbda07a05feeb0bfdd1de2e363b9d003c9291e748cd51a2272247690065851b1",
+      "git_blob_sha": "e8e55f1aabf38b5237585693f38496027836a946"
+    },
+    {
+      "delivery_role": "reproducer",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_halfwave_R729_family.mjs",
+      "bytes": 88329,
+      "sha256": "42bc81cac8d4a9c6c267c64ca916eb7a50d6962662c0b8b6833fdac61e12fadb",
+      "git_blob_sha": "4de97fa40d6c3aa45d0196f5138e4bcdbbaf6db0"
+    },
+    {
+      "delivery_role": "note",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run33-halfwave-R729-complete-source-family.md",
+      "bytes": 21214,
+      "sha256": "7f455a7b24c206df77baade1f9b202baa2c5536ae4a6b92310e37520ea5fb434",
+      "git_blob_sha": "bd45ca3ad6e3d02355ee2664d4d19bd02b8093cf"
+    }
+  ],
+  "current_source_publication": null,
+  "current_actual_run": null,
+  "complete_current_source_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-current-runtime-binding.json",
+    "bytes": 64691,
+    "sha256": "dbda07a05feeb0bfdd1de2e363b9d003c9291e748cd51a2272247690065851b1",
+    "git_blob_sha": "e8e55f1aabf38b5237585693f38496027836a946"
+  },
+  "current_complete_scientific_source_registry": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-current-runtime-binding.json",
+      "bytes": 64691,
+      "sha256": "dbda07a05feeb0bfdd1de2e363b9d003c9291e748cd51a2272247690065851b1",
+      "git_blob_sha": "e8e55f1aabf38b5237585693f38496027836a946"
+    },
+    "json_pointer": "/complete_source_role_registry",
+    "whole_file_required": true,
+    "role_count": 138
+  },
+  "current_complete_runtime_registry": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-current-runtime-binding.json",
+      "bytes": 64691,
+      "sha256": "dbda07a05feeb0bfdd1de2e363b9d003c9291e748cd51a2272247690065851b1",
+      "git_blob_sha": "e8e55f1aabf38b5237585693f38496027836a946"
+    },
+    "json_pointer": "/current_complete_runtime_sources",
+    "whole_file_required": true,
+    "runtime_count": 21
+  },
+  "original_scientific_pair_count": 137,
+  "original_137_pairs_retained_exactly": true,
+  "new_scientific_role": "common_slack_dual_recovery",
+  "new_scientific_kernel_is_the_exact_already_published_complete_R729_kernel": true,
+  "complete_shared_kernel": {
+    "role": "common_slack_dual_recovery",
+    "name": "fixed_fejer_R729_common_slack_dual_recovery.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R729_common_slack_dual_recovery.py",
+    "bytes": 54333,
+    "sha256": "2dfe85c432d91f561a5f9d413f02cbc7d939edab2ea896e7fe4b3f810bc41863",
+    "git_blob_sha": "2877ba8d6503974b6aa84621997bdc051f523929"
+  },
+  "shared_kernel_publication": "6c07ca019af58f0102a40a00c63027948ee0332a",
+  "complete_shared_kernel_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-common-slack-complete-source-delivery.json",
+    "bytes": 11813,
+    "sha256": "e66e28a9c038a311612a9090cab902b4d4690b5430ca38d4dec2b85fead298c9",
+    "git_blob_sha": "eb1e21d6c3abb0a5ef581982e0f0bcf380d2175f"
+  },
+  "pure_only_extra_required_runtime_role": "retained_frame_readout",
+  "pure_only_extra_runtime_is_not_a_scientific_SOURCE_PINS_role": true,
+  "new_incremental_runtime_count": 4,
+  "new_incremental_runtime_bytes": 224668,
+  "old_runtime_count": 19,
+  "unchanged_old_runtime_count": 16,
+  "replaced_upper_runtime_count": 3,
+  "complete_parent_source_binding": {
+    "name": "fixed-fejer-halfwave-demanded-current-runtime-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-current-runtime-binding.json",
+    "bytes": 65101,
+    "sha256": "931425f12d5386c4880393337c9a34856e33044de6f5dd16f0a103aa3b164ebc",
+    "git_blob_sha": "abde5bcfe45b29e1563233621e0c8feacdb9407f",
+    "publication": "3fa8f98f08649da12ee5b8b9ba5889276285bc84"
+  },
+  "complete_parent_source_delivery": {
+    "bytes": 56928,
+    "sha256": "6c8880e6badc4f0e4ec02eafb224f6d45baaf3943354defa5c445f1e0063a4be",
+    "git_blob_sha": "3989acf5902578635c3b7bcaa9c94b55f6a7dca0",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json",
+    "publication": "3fa8f98f08649da12ee5b8b9ba5889276285bc84"
+  },
+  "complete_parent_reproducers": {
+    "lower_and_selector": {
+      "name": "reproduce_fixed_fejer_halfwave_demanded_lower.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_halfwave_demanded_lower.mjs",
+      "bytes": 72931,
+      "sha256": "0d8413a076108c7aa8b77a05b8428a00010f4c44545bff2225ef9adbc7d9077c",
+      "git_blob_sha": "47ebc67404156fabe84e4ce0ef58b1306b6209eb"
+    },
+    "upper": {
+      "name": "reproduce_fixed_fejer_halfwave_demanded_upper.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_halfwave_demanded_upper.mjs",
+      "bytes": 30979,
+      "sha256": "dcbd9e4c0c782c913e7f6a6411f47aa7265fea6a8e2ae9402d066e298b92429c",
+      "git_blob_sha": "dcbdc9cf4b4cd6dba425942ee69ace7ea03d4859"
+    }
+  },
+  "complete_shared_R729_proof": {
+    "path": "topics/visible-flex-larger-amplitude/results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md",
+    "bytes": 16220,
+    "sha256": "d6104084c6a96651e478ab4c0b7f25124ca5859ae03e49fdb4d3a35c9264c87a",
+    "git_blob_sha": "a66c19196b798957a6f905c23e47b2b500b60dd8",
+    "publication": "f687c963cbc899e211a3d083c12b2f1b7e322d4d"
+  },
+  "complete_original_QP": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullspace_feasible_active_cg_v3.py",
+    "bytes": 26947,
+    "sha256": "fb4ec6b81bcabfd1760178f3cad5f5eea7f7b0708c4c5cf11147ca0d52cc4bb4",
+    "git_blob_sha": "fabfcd7556a634d19e8dac788d5cb95d696b3d5d"
+  },
+  "complete_original_parent_history": {
+    "complete_file": {
+      "name": "fixed-fejer-halfwave-demanded-current-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-current-runtime-binding.json",
+      "bytes": 65101,
+      "sha256": "931425f12d5386c4880393337c9a34856e33044de6f5dd16f0a103aa3b164ebc",
+      "git_blob_sha": "abde5bcfe45b29e1563233621e0c8feacdb9407f",
+      "publication": "3fa8f98f08649da12ee5b8b9ba5889276285bc84"
+    },
+    "json_pointer": "/",
+    "whole_file_required": true
+  },
+  "parent_source_manifest_old22_parameter_reference_is_historical_not_current28_64_live_parameters": true,
+  "exact_parameter_followup_scope": {
+    "physical_parent": "actual complete run28 positive paired-halfwave with demanded arithmetic",
+    "all_157_science_and7_pure_argv_words_to_be_preserved": true,
+    "old_formal_science": 458,
+    "old_formal_pure": 445,
+    "current_live": 64,
+    "R729_formal_science": 575,
+    "R729_formal_pure": 564,
+    "no_new_CLI_or_numerical_parameter": true,
+    "parameter_and_launch_documents": "independent complete follow-up package; no inferred actual source publication"
+  },
+  "source_construction": {
+    "driver_patches": 5,
+    "reader_patches": 11,
+    "launcher_patches": 4,
+    "whole_reverse_parent_driver_reader_launcher_equal": true,
+    "all_original_driver_top_level_non_main_functions_byte_identical": true,
+    "exact_common_slack_rows_source_equivalence": [
+      {
+        "name": "CommonSlackRows",
+        "bytes": 4374,
+        "sha256": "6f7726795fec35064904ebecfaa3574713b2ac85bcefdc8f7984f5f39be92ad6",
+        "exact_equal_R729_integration_parent31": true
+      }
+    ],
+    "retained_complete_pure_functions": {
+      "canonical": {
+        "bytes": 154,
+        "sha256": "7fe46a84349eee09a783ece5decbd3c61a223dae764beba80f48925fe2b5621f"
+      },
+      "frame_reuse_metadata": {
+        "bytes": 6526,
+        "sha256": "ed7afb7e4c04bd441628e176176faf69ac2e9f6793894899cec524895d6b0a26"
+      }
+    },
+    "helper_dependencies": "Only hashlib/json/math/pathlib and the complete original canonical/frame function texts. No NumPy/Torch or scientific import.",
+    "original_reader_function_not_shortened_or_check_removed": true,
+    "reader_maximum_file_size_handled_by_full_source_relocation_not_truncation": true,
+    "driver_optional_new_documentation_line_not_inserted_but_original_driver_documentation_unchanged": true,
+    "new_R729_report_and_pure_paths_separate_from_old_QP_paths": true,
+    "no_AST_compile_fixture_or_science": true
+  },
+  "complete_text_reproduction": {
+    "source": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_halfwave_R729_family.mjs",
+      "bytes": 88329,
+      "sha256": "42bc81cac8d4a9c6c267c64ca916eb7a50d6962662c0b8b6833fdac61e12fadb",
+      "git_blob_sha": "4de97fa40d6c3aa45d0196f5138e4bcdbbaf6db0"
+    },
+    "argv": [
+      "node",
+      "reproduce_fixed_fejer_halfwave_R729_family.mjs",
+      "--source-directory",
+      "<complete-whole-source-directory>",
+      "--generated-directory",
+      "<complete-generated-text-directory>"
+    ],
+    "full_inputs": "Exact complete original28 driver, reader, launcher, binding and source delivery plus exact complete shared R729 kernel; all records and all reversible text patches are in this full source.",
+    "outputs": "Four complete runtime files and complete current runtime binding.",
+    "embedded_data_scope": "Complete source metadata, literal source patches and retained complete function texts; no numerical output, raw field, checkpoint, compressed data or differential raw artifact.",
+    "reproducer_executed_here": false
+  },
+  "mathematical_scope": {
+    "physical_definition": "Exact original run28 positive paired-halfwave (+,-) seed cec7 with full f848 mean, original boundary profile and all demanded rotation/frame arithmetic. No R725 cutoff, R726 Slerp or R728 reversal is introduced.",
+    "seed_mean_base_normal_Q_geometry_and_all_field_sources_unchanged": true,
+    "all_normal_stage_equations_and_all_angular_orders_retained": true,
+    "same_current_full_point_field_formula": true,
+    "future_actual_solutions_or_numerical_words_inherited": false,
+    "restoration_objective": ".5*(tau0+t)^2+.5*mu^2*(dot(z,z)+t*t)",
+    "full_H": "diag(mu^2 I,1+mu^2)",
+    "all_original_typed_rows_retained": true,
+    "metric_QP_unchanged": true,
+    "original_QP_always_runs_first": true,
+    "original_CG_rank_tolerance_unchanged": true,
+    "trigger_phase": "restoration",
+    "trigger_statuses": [
+      "dependent_blocker_at_zero_step",
+      "dependent_blocker_after_feasible_step"
+    ],
+    "dual_initialization": "All nonnegative multipliers are zero; original signed face multipliers are retained only in the original report",
+    "full_sweep_definition": "Visit every augmented row in original row order once",
+    "allocated_full_sweeps": "original maxiter minus original actual CG advances",
+    "original_limit_parameter_unchanged": true,
+    "budget_units_changed_and_declared": true,
+    "candidate_construction": "One new high-dimensional dual candidate after all remaining full sweeps; original and zero candidates are independently retained and read",
+    "optimal_slack_repair": "max(-tau0/(1+mu^2),max((u_i*z-b_i)/beta_i)) for all augmented rows",
+    "selection": "Minimum original finite regularized objective among actual full-C finite-tolerance-feasible candidates; on errors retain a previously verified original or zero direction",
+    "unchanged_outer": "Every existing line trial, Phi call, full geometry scan, appended address, acceptance inequality, damping update and source/point/model guard",
+    "numerical_gap_is_not_outward_certificate": true
+  },
+  "actual_old_QP_report_and_new_direction_scope": {
+    "old_record_qp_complete_untouched": true,
+    "old_face_projected_gradient_is_not_new_dual_stationarity": true,
+    "new_definition_field": "R729_common_slack_recovery_definition",
+    "new_direction_field": "R729_common_slack_fallback",
+    "new_pure_field": "R729_common_slack_recovery",
+    "new_own_point_pure_direction_path": "actual_restoration_directions",
+    "actual_QP_seconds_scope": "The existing outer interval now includes original qp.solve and the recovery work; original qp report remains unchanged and kernel-owned seconds are separate.",
+    "fallback_acceptance_is_not_nonlinear_acceptance": true
+  },
+  "original_physics_and_algorithm_scope": {
+    "seed": [
+      "scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_reference.py",
+      "cec7f1a297851c43bb5db4174d3a15d7d1a40eb1683b145d1f845aff732d10f0"
+    ],
+    "seed_mean": [
+      "scripts/resume_20261126/supported_smooth_triangle_seed_mean_jets.py",
+      "f8487dfe917e76dae12e3ba5667f66423ada305c077160d606d6f6aea6dc3917"
+    ],
+    "endpoint": [
+      "scripts/resume_20261126/fixed_fejer_paired_halfwave_demanded_normal_lift.py",
+      "fbb17bbce55d6d100eeaa14cf29438ec00538b216d9a2aecb314d2376b44aee0"
+    ],
+    "positive_first_negative_second_paired_halfwave": true,
+    "R725_cutoff_used": false,
+    "R726_Slerp_used": false,
+    "R728_reversed_polarity_used": false,
+    "adaptive_restoration_policy_used": false,
+    "all_original_variables_domains_rows_32stages_line_search_budgets_and_acceptance_retained": true,
+    "original_QP_first_retained": true,
+    "only_dependent_blocker_restoration_fallback": true
+  },
+  "complete_immutable_parent_function_records": {
+    "canonical": {
+      "bytes": 154,
+      "sha256": "7fe46a84349eee09a783ece5decbd3c61a223dae764beba80f48925fe2b5621f"
+    },
+    "frame_reuse_metadata": {
+      "bytes": 6526,
+      "sha256": "ed7afb7e4c04bd441628e176176faf69ac2e9f6793894899cec524895d6b0a26"
+    }
+  },
+  "original_common_slack_rows_same_whole_text": [
+    {
+      "name": "CommonSlackRows",
+      "bytes": 4374,
+      "sha256": "6f7726795fec35064904ebecfaa3574713b2ac85bcefdc8f7984f5f39be92ad6",
+      "exact_equal_R729_integration_parent31": true
+    }
+  ],
+  "family_boundary": {
+    "run28_complete_final_or_typed_not_used_as_run33_input": true,
+    "cross_source_restart_not_implemented_or_claimed": true,
+    "independent_initial_mode_not_blocked_by_optional_future_restart_contract": true,
+    "accurate_descendants_need_explicit_new_source_binding": true,
+    "no_field_or_certificate_values_inherited": true
+  },
+  "future_actual": {
+    "source_publication": null,
+    "run_id": null,
+    "attempt": null,
+    "job_id": null,
+    "source_commit": null,
+    "input_hashes": null,
+    "model_identity": null,
+    "full_point": null,
+    "original_QP_status": null,
+    "recovery_attempt": null,
+    "recovery_adopted": null,
+    "dual_stationarity": null,
+    "numerical_gap": null,
+    "nonlinear_acceptance": null,
+    "complete_report": null,
+    "final_checkpoint": null,
+    "typed_history": null
+  },
+  "evidence_scope": {
+    "whole_source_texts_read": true,
+    "complete_literal_forward_and_reverse_construction_performed_in_JavaScript": true,
+    "scientific_functions_evaluated": false,
+    "Python_AST_compile_fixture_import_or_scientific_execution": false,
+    "ref_queue_request_or_running_source_mutation": false,
+    "new_admission_gate": false
+  },
+  "complete_git_recovery": "Recover every complete artifact by its recorded Git blob; UTF-8 byte count and SHA-256 are whole-file identities. Original shared sources and their complete reproducer parents remain named by full fixed records, never by an inferred current path.",
+  "self_path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-common-slack-complete-source-delivery.json",
+  "total_artifact_count_including_manifest": 8,
+  "total_new_bytes_excluding_manifest": 398902,
+  "manifest_bytes": 18278,
+  "total_new_bytes_including_manifest": 417180,
+  "all_artifacts_below100000_bytes": true
+}
