@@ -489,3 +489,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:09:39 UTC — 33已读新规后完整原科学重启
 
 旧33已由完整64705B日志证两input0后真pull遇根§16异常，science未启；现同原workflow更换request/parent为visible-larger-resume-20261128-33-retry-section16，新job重做两个完整input并执行原whole science。五件净31081B，完整138角色/21runtime、全部61原request键、157/7词、575/564/64live与原预算不变，source/inspect守卫不动；当前完整root/topic规则已精确绑定60e476a。whole纯读62854B须本次自身science自然返回后同ID排。未虚构新run/source/model/point。 双README云核至`bfd502553ebc66f59aa6c4005665a1265fd96fdc`无变（非pull）。
+
+## 2026-11-28 10:11:26 UTC — 33规则恢复后新runner实际启动
+
+993d07普通push真实触发run46133839513/1、job140944661119，research10:10:37Z开始，官方in_progress；此刻完整索引/本次input输出尚未读回，source/model/point仍未知，不借旧33结果。原全科学/预算、同ID自然返后whole pure保持。 双README云核至`d5ed7e9d177c0441c5fd4b1279873783717bf707`无变（非pull）。
