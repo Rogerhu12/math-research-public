@@ -51,6 +51,8 @@ R1160中一般q的b(q⁻¹T′q)仍要从同一实际有限Galois/Belyi quotient
 
 [R1157 §11](results/R1157-original-integral-SV-Manin-triangle-filling.md)进一步将27项变成真实两切线比，选非零T0∈E[5]使第三交点3T0−2Bj与全部Bj+E[2]分离，涵盖所有rank1。准确常数Ri(T0−Bj)保留；真三线并发时用−Σord(g)[u]，化为参考线∩E的三个Bloch值，度数/Weil关系的实际根修正仍保。good SS时切线系数与这些常数整、参考线可选横截整线；modp才并发或同线的坏参数仍未删。改动已固定global filling须保原root/五项gauge，不能借单个局部H¹消失。
 
+[R1157 §12](results/R1157-original-integral-SV-Manin-triangle-filling.md)已支付原Qp-good-SS二同源四线的全部坏参数阶：选约化exact orderM=p²−p+1的T0，其Fp²共轭三点共线，取实际三次闭点提升；无需加入E[M]，x(3T0)∉Fp²。原Ep各非零参数/差同阶1/(p²−1)、leading比在Fp²；三label determinant的一次项不能消，全同label为Vandermonde×unit阶3。全部线值、α_i和七行(u,1−u)精确阶表保重数/常数，每坏项经S/J有精确阶1/(p²−1)，故全部R†(u)=R_{u^p}(u)落§13浅域，ε=0首p修正仍保。没有取v=u，也没有构造同一真实Ep Frobenius。CM时Q=[α]P覆盖全部rank2，可给整形式源u/1−u=z^j unit；z→z^p一般不保Ep理想，FL/moment比较继续。更换旧E5分解仍保原有限根/五项gauge，非局部唯一性。
+
 ### 原实际 finite Frobenius 与尚待原 F0 中央读数
 
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。

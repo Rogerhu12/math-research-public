@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原二同源所有SS四线参数的精确阶（已证明）**：[R1157 §12](results/R1157-original-integral-SV-Manin-triangle-filling.md)三次辅助闭点防全部leading抵消，真实determinant/线值/α及七行双阶表覆盖所有依赖与独立点对；每坏参数阶为1/(p²−1)，全部R†原有限读取已适用。共同形式/真实Ep比较与全ordered权仍保，不以逐项读取冒F0。
+
 - **原Darboux的完整边界与固定次数递推（已证明）**：[R1154 §14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)精确Eν是前ν至最高ν jet同构，完整formal τ缺陷给原Vν和所有weighted补项；固定ν阶数递推保τ0/±1及全部清分母边界。两个scalar边界乘积仍保，未宣原minor或good-mask闭合。
 
 - **原e/K4的同一quadric源两读数（已证明）**：[原genus4 §15.4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)共同主部c0与原Dixon算子锁定e/K4⇔B及(U/v)DB的两个指定Laurent槽同零；norm最高边界精确为(ρ²−1)/(b0²δ²)单位。第六层b6保为不同cubic moment，未借顶unit排两低读数。
