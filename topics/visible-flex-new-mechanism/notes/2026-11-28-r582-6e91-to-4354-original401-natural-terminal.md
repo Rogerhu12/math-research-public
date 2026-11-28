@@ -31,8 +31,9 @@ job08:25:33–09:05:45 UTC，run于09:05:46自然 success。
 
 新增6次完整 metric 接受。最后实际97q为
 4354ee43ae0a98bbffac485c27f826b82507acd18d999a9cf4534cbda430c9f5。
-p=.181、stage0、metric phase、trust2不变；same material identity为
-0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991。
+p=.181、stage0、metric phase、trust2不变。原390运行的新材料网格（62878个 Hermite 端点）为
+f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c。
+上一6e91来源的材料网格为 0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991。
 
 原390 coarse在完整优化中发现并加入11个缺失径向峰，当前已经构造和使用
 401×1536 coarse；fine从16296扩到16312×3072，所有旧fine点保留。

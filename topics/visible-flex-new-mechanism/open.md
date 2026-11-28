@@ -12,7 +12,7 @@
 
 [原390自然终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)run46125750420/source4482fcc2新增2370.262664079秒/6接受，实际同p.181的4354已合格401coarse/16312×3072 fine：η3.266724887865865e−5，physical0，working4.56e−12。原全部祖先/10J130块82值/11fullfine及未完115块费用保持，旧59a4资格不转。
 
-末raw df3e原coarse违规，但其真实半步c13d已有严格改善可能和coarse资格；fine只读115块/14720点且无任何可重用prefix值/峰/范数存档。不能伪补剩1592，不能无证据当拒绝。[原401实际续接](notes/2026-11-28-r582-4354-original401-continuation.md)经原warm callback先为同c13d做必要完整fine，4354同p/q/grid的已付baseline复用；原optimizer/门/峰交换和p.8/末η1e−7目标全不改。随后继续真实原完整求解。
+末raw df3e原coarse违规，但其真实半步c13d已有严格改善可能和coarse资格；fine只读115块/14720点且无任何可重用prefix值/峰/范数存档。不能伪补剩1592，不能无证据当拒绝。[原401实际续接](notes/2026-11-28-r582-4354-original401-continuation.md)经原warm callback先为同c13d做必要完整fine，4354同p/q/grid的已付baseline复用；原optimizer/门/峰交换和p.8/末η1e−7目标全不改。随后继续真实原完整求解。实际新入口曾误绑祖先0d材料SHA而在求解前退出（run46131881286）；现按原390 FINAL与相同stdin纠正为实际f60be03b，完整97q/coarse/fine/pending与科学参数不改。
 
 ## O2b-B：同86da固定E的真实mean联立系统
 

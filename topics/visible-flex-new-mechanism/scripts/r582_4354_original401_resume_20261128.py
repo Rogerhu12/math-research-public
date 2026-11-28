@@ -64,7 +64,7 @@ def load_input(raw, digest):
             or retained['q_identity']['binary64_sha256'] != '4354ee43ae0a98bbffac485c27f826b82507acd18d999a9cf4534cbda430c9f5'
             or not retained['qualified_on_this_fine_grid'] or not retained['scan']['complete_fine_scan']
             or retained['scan']['radial_grid_identity'] != fine_id or retained['scan']['theta_nodes'] != 3072
-            or state['source_actual_material_mesh_sha256'] != '0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991'):
+            or state['source_actual_material_mesh_sha256'] != 'f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c'):
         raise ValueError('the accepted 4354 baseline or actual library differs')
     raw_trial = incoming['last_raw_backend_callback']
     pending = incoming['actual_pending_physical_half_step']

@@ -4,7 +4,7 @@
 
 ## 已读规则与完成条件
 
-公开最近实际pull/双README差异检查至 **f2964ad346ecd9e72a42ec01b57748081525a8cf**，根16已读执行；私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，仅根新增15已读。两处均要求所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守，无下级；课题README未变。首次全读b0865cd9，QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **6a4c3649fba8e7259c9672f88c10ff6d1c7dc7b0**，根16已读执行；私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，仅根新增15已读。两处均要求所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守，无下级；课题README未变。首次全读b0865cd9，QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时，变则读diff执行并记SHA。每结论即push；NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核，根15不存可重算大日志/数组；必要真实续接输入例外。全部原失败、未完及费用沿来源保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -12,9 +12,9 @@
 
 ## A：真实4354／先闭c13d原401资格
 
-[原390终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)run46125750420/source4482fcc2：2370.262664079秒、6接受；实际97q4354ee43、同p.181/0d材料，401coarse/16312×3072 fineη3.266724887865865e−5、physical0、trust2。全部费用和10J130块82值留链。
+[原390终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)run46125750420/source4482fcc2：2370.262664079秒、6接受；实际97q4354ee43、同p.181/实际f60材料，401coarse/16312×3072 fineη3.266724887865865e−5、physical0、trust2。全部费用和10J130块82值留链。
 
-[实际401后继](notes/2026-11-28-r582-4354-original401-continuation.md)先闭同c13d半步：coarse已付，但原fine115块/14720点未存可复用prefix，必要完整fine且旧费不删；不能丢弃或假接受。4354同态baseline复用，旧a938不重放。run46131346389/source70ac98b3在新根规则检查退出，无科学；更新已读规则后source3ed0af40重启。变量g、p.8/末η1e−7及宏观未达。
+[实际401后继](notes/2026-11-28-r582-4354-original401-continuation.md)先闭同c13d半步：coarse已付，但原fine115块/14720点未存可复用prefix，必要完整fine且旧费不删；不能丢弃或假接受。4354同态baseline复用，旧a938不重放。run46131346389因新根规则退出；run46131881286/source3ed0af40又在输入校验退出，入口误写祖先0d材料SHA，实际原390/4354为f60be03b。现已准确修复，不改科学stdin；两次均无新fine/接受。变量g、p.8/末η1e−7及宏观未达。
 
 ## B：同86da固定E的1566列真实mean联立
 
@@ -22,7 +22,7 @@
 
 [R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)真实mean、全F/rG/周期位置六jet链已证；[实际求解](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)run46128314775/source24c1ee59，08:59:14启动，1472角+94mean全1566列，950work→1728fine，全行QR/SVD、真实高度/双Y差分，18000秒含6000末读出预留。活动来源不改。
 
-[R648](results/R648-complete-unsolved-mean-true-tail-connection-and-position-bounds.md)全真内尾R/G、全F/G的S、η≤3S+S²及正平面Jac界已证。只有固定seed用κW；trial不除小mean。消费者复用同对象/paid receipt，完整pre-tanh/样条/forced及七类旧源误差保留。R649/R650后继从现成对象消费，不重复ODE/root/J/FFT。R617只排固定有限精确根；τ1非宏观、[硬trace](notes/2026-11-28-r618-hard-total-trace-actual-model.md)/[Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)及旧.85条件预算保留，同E可达性欠。
+[R648](results/R648-complete-unsolved-mean-true-tail-connection-and-position-bounds.md)全真内尾R/G、全F/G的S、η≤3S+S²及正平面Jac界已证。只有固定seed用κW；trial不除小mean。消费者复用同对象/paid receipt，完整pre-tanh/样条/forced及七类旧源误差保留。R649/R650后继从现成对象消费，不重复ODE/root/J/FFT。R617范围/τ1非宏观/[硬trace](notes/2026-11-28-r618-hard-total-trace-actual-model.md)/[Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)/旧.85条件预算保留，同E可达性欠。
 
 ## C：B030真实430／外部关停后的原全资格续接
 
@@ -48,7 +48,7 @@
 
 ## F：准确小q双核族后的有限角与厚度
 
-旧真平尾/全频逆/严格端口见[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)：run46123270834/source95b8760b，参考1/3<β0<3/8及某真平背景β>1/4，不转新profile。[R642](results/R642-rotated-tail-reference-inverse.md)倾角参考与[R644](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)完整coupled逆/准确二次误差已给真正小q环带；θ=βq²+O(q³)，冻结q的相位族同g、外帽固定、整像dH≥aβq²/4>0。真尾Q/D共同邻域及帽姿态已证，**无有效q0/宏观角/reach比例**，不重做局部结论。
+[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)旧真平尾/全频逆/严格β>1/4（run46123270834/source95b8760b）不转新profile。[R642](results/R642-rotated-tail-reference-inverse.md)/[R644](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)已给真正小q环带、全真尾共同邻域/姿态；θ=βq²+O(q³)，冻结q相位族同g/外帽固定/整像dH≥aβq²/4>0。无有效q0/宏观角/reach比例，不重做局部结论。
 
 [R647](results/R647-positive-liouville-gauge-finite-morse-profile.md)新(2,3)/(3,5)激发核、s11/5/η²37/100/B3/100、正σ与全r_X>0；额外157/198零模仍欠。四τ负高度1/2的[实际有限输入](notes/2026-11-28-r647-positive-liouville-finite-input-scope.md)run46129968826已自然结束，仅样本/普通求积，不授真平尾或有限角。新有限切口/全频无额外核/真平接合/宏观帽半径继续，不把小颈样本κD接近门槛当候选。
 

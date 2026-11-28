@@ -402,3 +402,7 @@
 ## 2026-11-28 09:47:30 UTC：R641自然终态与实际固定物理权重续接
 
 已读完整原完成日志解析所得终态及三份新source/范围；44绑定（含已读新README）、AST/原源payload和全部参数静态核对。完整17接受物理c797752d及scalar P root/fine真实复用，末未闭trial/104前沿和所有历史费用保留。新工作行固定源8H*²/L*乘Ar及其完整Jac，全隐式DL锥不误用末形状坐标；中心活动坐标准确零，完整同目标Armijo/原绝对门。原6恢复/17接受不播，变化曲线新冻结fine。发布terminal note、三source、scope、必要request与workflow，未声称数值根。B430实际续接已run46132003244/sourcef176c0d52fef4ca6a15dd4a83e3c2c5504284792，09:46:06启动；运行中不读实时科学日志。
+
+## 2026-11-28 09:50:43 UTC：修正A401入口误用的祖先材料身份
+
+run46131881286/job140938638149/source3ed0af40b61fa5fcb4fcd6ce63432f3b54105176于09:45:18在load_input退出，规则两库已通过；无新fine/接受。原390 FINAL与完整科学stdin实际材料网格均为f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c；入口误用了上一6e91的0d222bd1。现在只改准确身份字面量及相应两notes/三绑定，全部60源绑定与AST静态通过；完整339189B stdin仍67ca5469144dc76dff4d19c8ee42550ad2cfb816105c09d9d2bf1d80803251f0，原资格/全部参数不变。完成日志220752B、SHAcd425ad2673906dccda1fa575405e2145292235cc4b760a7669b92cdbf0acabd存scratch。旧错误已明确更正，不能拿祖先网格身份冒当前实际来源。
