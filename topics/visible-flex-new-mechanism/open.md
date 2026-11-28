@@ -28,7 +28,7 @@ R617仅排固定有限pre/post的精确非圆根，R610仅排纯有限角带；�
 
 [完整外部关停终态](notes/2026-11-28-r566-55be-to-430-runner-shutdown-terminal.md)run46127678618/source54cc47b6：真实1906全部闭合（13672新点评价/63.36477403秒），原904复用；43015466完整接受η.1929414276608794/g0，原1810×3072及2810峰资格保持。
 
-原5physical/11working pending随后已应用，真正库为906coarse/1814fine、2025physical/631working；原1810资格不得冒成1814。尾部1J/90块/56.86794秒和所有工作值/native/Powell费用完整记录；runner收到shutdown外部中断，无FINAL不编造最终elapsed。后继从同430及真实新库继续，旧完整H可作原允许启发式，新H/J仅hash不假恢复。旧904/1906都不重做，旧309b8的未执行8635仍0重放。真实下一QP保存必要小型H/pending状态，仍须原全部资格与strict改善。
+原5physical/11working pending随后已应用，真正库为906coarse/1814fine、2025physical/631working；原1810资格不得冒成1814。尾部1J/90块/56.86794秒和所有工作值/native/Powell费用完整记录；runner收到shutdown外部中断，无FINAL不编造最终elapsed。后继从同430及真实新库继续，旧完整H可作原允许启发式，新H/J仅hash不假恢复。旧904/1906都不重做，旧309b8的未执行8635仍0重放。真实下一QP保存必要小型H/pending状态，仍须原全部资格与strict改善。[实际430公开范围](notes/2026-11-28-r566-430-shutdown-resume-scope.md)已备齐：同原全循环/20参数、2400秒，必要新J重建如实计费，旧coarse选行与已完成定位不重放。
 
 ## O4：原完整边值问题及两种真实边界障碍
 

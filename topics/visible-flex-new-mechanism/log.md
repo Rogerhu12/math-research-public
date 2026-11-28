@@ -394,3 +394,7 @@
 ## 2026-11-28 09:45 UTC：读新根代理规则，原401科学前退出后同输入重启
 
 公开实际pull09:43:21至fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d，私库09:38:41至2bea2888397db073ec71e3aec8e59e51c4b90d83；仅各自根README新增所有subagent显式gpt-6.2-astra/ultra，两个完整diff已读立即执行，课题README无变。当前三子代理均指定该模型/强度；逐个确认未派下级，当前树亦无下级。原401 run46131346389/job140936954485/source70ac98b359ba5077b8e1e9e8a0e4b3aee6690db6于09:37:54在公开规则检查报新根blob后退出，没有进入科学入口。完成日志206203B，SHA84c737ac06b6f98184aef5fe7f68a370c86c3fa3c2e0d07b22cfd8f0291edb99；仅scratch保存。原4354/c13d、原全部参数/绑定/费用不变，只将request的已读规则commit/blob改为实际新版本后再次启动。
+
+## 2026-11-28 09:48 UTC：真实430与关停后已执行新库的公开续算
+
+完成阅读430入口与55be原driver的差异及workflow；正常for outer AST完全相同，68项source绑定、原20参数和必要stdin字节已静态核对。新scope直接恢复真实430及已执行906/1814、2025/631库，旧1906/904/coarse选行不重做，1810旧资格不转新网；旧完整H/23pending仅原允许启发式，新H/J不假恢复。原新J尾费用和未知最终elapsed保留，新必要J再次如实计费；下一真实QP仅序列化现成小H/pending。全部原门/原trust/原2400秒不改。规则metadata已更新至两库实际已读新增代理条款；发布source、必要压缩request、scope与workflow，不存原可重算日志。HANDOFF压缩至现有完整note链接，不删旧义务。
