@@ -1190,3 +1190,231 @@ The high even role $R=p-s$ is the original odd-$s$ row, with its original extern
 This is a class-level source for the constant layer of every such row. It does not assert that a missing row has zero centered polynomial, that it vanishes at either member of a proposed pair, or that a pair's Newton recurrence is stable under multiplication by these constants. Euler factors can vanish and have not been inverted. The original pair-product-zero and sum-zero cases, the missing principal role, and every other good-mask condition remain in force. The outstanding problem is a real relation between these same $Q_s$ rows that acts on the two-point difference; (OC.2) alone does not provide it.
 
 No mathematical program was executed. This is a complete paper source comparison, not a numerical nonvanishing test. Root checked the original GN.37--41 Jacobian, Wilson factors and normalizations; o1 independently checked the auxiliary smoothing and full index range. The unhalved Euler generating function is stated explicitly above.
+
+## 14. 先作原 Tate 收缩的全奇列与完整 Serre 对角
+
+日期：2026-11-28。会话：Astra-serre-24b8836b-20261126；o2_high_coefficient。
+
+**已证明的范围。** 本节把 §13 的常数源扩到总 $p$ 次层的全部非 principal 内部列。高指标处先在实际点上作原 CM Weil 收缩，随后只在纯 Tate 系数中取幂；不使用高阶 $\operatorname{Sym}^d$ 的 $d!$ projector，也不反除已经被 $p$ 整除的二项式。结果给完整有限 Serre 多项式，保留原 principal 常数与两条 $p$ 极补偿。它没有证明 good-mask 的共同纤维已被排除。
+
+保持同一个原 Gaussian 模型、微分和 Weil 规范，记
+$$
+p\equiv3\pmod4,\quad p>37,\quad m_0=(p-1)/2,
+\qquad \beta=-\delta\in\mathbf F_p^\times.
+$$
+$C$ 仍是 (GN.20) 的实际 Weil 单位；特别 $C^2=-4c_\omega^2$，偶次幂均在 $\mathbf F_p$ 中。以下 $E_r=r![t^r]\operatorname{sech}t$。
+
+令 $\mathscr K_p$ 表示原 $\mathscr K(T,U)=\sigma(T+U)/(\sigma(T)\sigma(U))$ 在特征零中的总 $p$ 次齐次层，并置
+$$
+\mathfrak c_s=[T^{p-s}U^s]\mathscr K_p(T,U),
+\qquad 2\le s\le p-2.
+\tag{CD.1}
+$$
+这不是 R1116 的总 $p-4$ 次层记号 $c_s$。这里的内部系数均 $p$ 整，且
+$\mathfrak c_s=\mathfrak c_{p-s}$；§14.4 给出直接的整性证明。
+
+本节的主公式是
+$$
+\boxed{\quad
+\mathfrak c_s=
+\frac{\beta E_{s-1}}{2sC^{s-1}}B_{p-s},
+\qquad 3\le s\le p-2,\quad s\text{ 奇},\quad s\ne m_0.
+\quad}
+\tag{CD.2}
+$$
+不反除任何 Euler 或 Bernoulli 数。特别，(CD.2) 经对称性支付全部偶内部列，惟原 principal 对 $s=m_0,m_0+1$ 另行保留。
+
+### 14.1. 先在实际点上收缩，不经过高对称幂
+
+令 $r=s-1$，所以 $r$ 为偶数，$2\le r\le p-3$。在同一个 CM 点上考虑真正的源
+$$
+\mathsf Q_r=
+\frac1{\kappa_{2r}(\mathfrak a)}
+\operatorname{Cor}_{E[p]^\times}
+ \bigl(\kappa(\theta_{\mathfrak a}(P))
+             \otimes q_{[i]}(P)^r\bigr)
+\in H^1(F,\mathbf F_p(s)),
+\quad
+\kappa_{2r}(\mathfrak a)=\mathfrak a^2-\mathfrak a^{-2r}.
+\tag{CD.3}
+$$
+这里 $q_{[i]}(P)=e_p(P,[i]P)$ 是原实际点上的 Weil 值，所有点、范数和原根规范都与 R1164、R1179、R1181 相同。先取原 CM 数域上的这个类，再限制到同一未分歧二次 $p$-adic 底 $F$；(CD.3) 写的是其限制，后面的全局 norm 比较仍由原源作出。
+
+取 $\mathfrak a\equiv1\pmod {12}$ 且模 $p$ 为 primitive residue。准确有
+$$
+\kappa_{2r}(\mathfrak a)=0
+\quad\Longleftrightarrow\quad
+2r+2=2s\equiv0\pmod{p-1}
+\quad\Longleftrightarrow\quad s=m_0
+\tag{CD.4}
+$$
+于本节范围成立。因此 (CD.3) 正好排除 (CD.4)，不能通过另选辅助数避开这个异常。它对应实际缺席的角色 $R=p-s=(p+1)/2$。
+
+实际 source 的整实现可只从既有四次系数开始。R1167 的同一个原 $H^0$ 类为
+$$
+x_P=-\beta z^p(1+\Gamma_p)\omega-zg\eta,
+\qquad e=p^2-1,\quad u=z^e,\quad g=u-p,
+\quad\Gamma_p=\gamma_p(g).
+$$
+原 $q_{[i]}^2$ 对 $\omega^2\eta^2$ 的收缩系数是 $C^2/6$。在实际 $x_P^4$ 中，该单项系数为
+$6\beta^2z^{2p+2}g^2(1+\Gamma_p)^2$。因此先通过 R1163--R1166 已付的四次 coefficient/Weil morphism，得到真正的纯 Tate(2) $H^0$ 类
+$$
+x_{q(P)^2}=C^2\beta^2z^{2p+2}g^2(1+\Gamma_p)^2.
+$$
+再取此类的 $r/2$ 次 Tate 乘积，准确给
+$$
+\boxed{\quad
+x_{q(P)^r}=(C\beta)^r z^{(p+1)r}g^r(1+\Gamma_p)^r.
+\quad}
+\tag{CD.5}
+$$
+这里只有原低阶单位 $6$。后面的乘积全部已是纯 Tate，最高总 twist 为 $r+1=s\le p-2$；Tsuji/原有限 cone 的合法范围一直保持。这里没有把高 $d=2r$ 对称幂先实现后投影，也没有用 $\binom{2r}{r}^{-1}$ 推回 (CD.5)。原 $H^0$ 点类不承受 R1177 的 $H^1$ 负号。
+
+原 theta distribution 的常数仍在全点加权和中消失。确实 $q(cP)^r=c^{2r}q(P)^r$，且本节的偶 $r$ 不等于 $(p-1)/2$，所以可以用标量重标证明 $\sum_{P\ne0}q(P)^r=0$。同根 distribution 遂支付 (CD.3) 的辅助独立性，保其实际 norm，而不把 tensor 槽内的 norm 改成 norm 的乘积。
+
+### 14.2. 原全点 trace 的纯 Tate normal 读取
+
+设 $L_{\mathfrak a}(z)=\sum\ell_jz^j$ 是同一 theta 正 Kummer 第二槽去掉共同常数和 $[z]$ 后的整部分。共同项由上述全点 augmentation 消失，正如 R1166/R1168。置
+$$
+\nu_r=(p+1)r<e,\qquad
+M_s=e-\nu_r=(p+1)(p-s).
+\tag{CD.6}
+$$
+原全点集是第一层 tame orbit，所以 actual trace 是 $e$ 倍零 $e$-block，不另作平均。$z^{\nu_r}L_{\mathfrak a}$ 的零块从 $u$ 开始。乘 (CD.5) 后，第二槽的 normal 常数为零，而指定 normal $s=r+1$ 项恰为
+$$
+y_s=
+\frac e{\kappa_{2r}(\mathfrak a)}
+ (C\beta)^r s!\,\ell_{M_s}.
+\tag{CD.7}
+$$
+零块中的 $u^a$ 只有 $a=1$ 能进入这项；$\Gamma_p$ 的正项具有 normal 次数至少 $p$，严格高于 $s$。这些结论在完整乘法与 trace 之后使用。
+
+对纯 Tate(s)，R1168 (1168.6)--(1168.9) 的同一收缩是
+$y_0+(-1)^s\sigma(y_s)/s!$。其证明也适用于本节全部 $s\le p-2$：源较高 normal 在 divided Frobenius 后被 $p$ 杀掉，输出的正 $\Gamma_{hp}$ 经合法 normal gauge 消去。因为 $s$ 奇、$e=-1\pmod p$，两号相消；又 $C^r,\beta^r\in\mathbf F_p$，没有另一个半线性因子。
+
+在原有限 logarithm 窗 $M_s<e$，
+$$
+\ell_{M_s}=\frac{\mathfrak a^{M_s}-\mathfrak a^2}{M_s}G_{M_s},
+\qquad M_s\equiv-s\pmod p,\quad
+M_s\equiv-2r\pmod{p-1}.
+$$
+$M_s$、$M_s-1$ 都是 $p$ 单位；因此 R1168 §5 的整 Laurent 证明在此同样给 $G_{M_s}$ 整。Frobenius-log 项不贡献，因为 $p\nmid M_s$。平滑因子准确相消，得到
+$$
+\boxed{\quad
+S(\mathsf Q_r)=\frac{(C\beta)^r}{s}G_{M_s},
+\qquad
+\Phi(\mathsf Q_r)=-\frac{(C\beta)^r}{s}G_{M_s}.
+\quad}
+\tag{CD.8}
+$$
+第二式才是 R1177 的实际 Frobenius 坐标。没有把第一层全点和除以 $e$、$2$ 或高阶 factorial。
+
+### 14.3. 全短 Appell 端点与原 CM norm
+
+R1116 (1116.26) 已付 $1\le j\le p-3$ 的完整函数域身份。这里只需再补 $j=p-2,p-1$：Appell 定义仍只用阶乘 $<p$，以及权 $\le p-1$ 的 Gaussian 输入；可能新增的 $G_{p-1}$ 由 CM 角色恒为零，其余权都 $\le p-3$。完整 Appell 展开只有 $C_1=\zeta$ 能给负极，故这两步的极阶分别至多三和二。导数递推给差为无极的 $p$ 次幂函数，即常数；两个 $j$ 的 $\mu_4$ 角色均非平凡，常数为零。
+
+所以在所需全范围仍有
+$$
+\mathcal C_j^{\rm F}(\Psi)
+=(-1)^{j-1}j!\beta^{j-1}D^{p-j-1}x,
+\qquad 1\le j\le p-1.
+\tag{CD.9}
+$$
+其中 $4\mid j$ 的常数早由 R1116 §7.1 的原全短反射锁定；没有新增一个未定常数。
+
+取 $j=s+1$、$\mathcal J_{s+1}=[v^{p-s}]C_{s+1}(v)$。共同 $\tau,x,y,\Psi$ 上的完整敏感度仍从 $p^2-p+j-2$ 开始；目标 $N=p(p-s)$ 与之的正距离是 $(s-1)(p+1)$。只有零 Appell-shift 项进入正 multiple-$p$ 指数，原下降阶乘为 $1/(j-1)!$。故
+$$
+G_{M_s}=-\frac{\mathcal J_{s+1}}{(s+1)\beta^s},
+\qquad
+\Phi(\mathsf Q_r)=\frac{C^r\mathcal J_{s+1}}{s(s+1)\beta}.
+\tag{CD.10}
+$$
+在新增末端 $s=p-2$，这里仅直接读取 $D^0x=x$ 的 $v^{2p}$ 系数，仍严格在同一精度内。$Z-\zeta$ 从 $v^p$ 开始，对所读 $v^{p-s}\le p-3$ 的完整 Appell 系数无贡献；不把高极各单项分别换元。
+
+现在消费 R1181 与本篇 §13.3 的实际单位范数证明。它在每个非平凡偶 Teichmüller 分量 $\omega^{-r}$、$0<r<p-1$ 都成立；本节额外保留 (CD.4) 的 smoothing 排除。原点集、$\mu_4$ descent、全嵌入 logarithm、root kernel 与实际 norm-one orbit 均未改变。由未乘 $1/2$ 的有限和生成函数
+$$
+\sum_{a=0}^{p-1}(-1)^ae^{(2a+1)t}
+=\frac{1+e^{2pt}}{2\cosh t}
+$$
+在次数 $r<p-1$ 的读取，仍得实际 class identity
+$$
+\mathsf Q_r=\frac{E_r}{2}\gamma_s.
+$$
+R1180 §9 给同一正 physical 校准
+$\Phi(\gamma_s)=(s-1)!B_{p-s}/s$，直到 $s=p-2$ 都已支付。结合 (CD.10)，且
+$\mathcal J_{s+1}=(s+1)!\mathfrak c_s$，即证 (CD.2)。
+
+### 14.4. 含 principal 与首 $p$ 边界的完整多项式
+
+先在原特征零 lift 取系数、微分和整除，再约化，定义
+$$
+\boxed{\quad
+Z_p(T,U)=\frac1T\partial_U^{[3]}
+             \bigl(TU\mathscr K_p(T,U)\bigr)\pmod p.
+\quad}
+\tag{CD.11}
+$$
+它是总次数 $p-2$ 的真正整多项式。为核准全部边界，令 $\mathscr K^{\rm lo}$ 用原 sigma 的权 $\le p-3$ 输入生成。在所读层，准确有
+$$
+TU\mathscr K_p
+=(TU\mathscr K^{\rm lo})_{p+2}
+-\frac{G_{p+1}}{p+1}
+\bigl((T+U)^{p+2}-(T+U)(T^{p+1}+U^{p+1})\bigr).
+\tag{CD.12}
+$$
+唯一非整输入是 $G_{p+1}$，且 $pG_{p+1}=\beta$。
+内部 $2\le s\le p-2$ 的二项式 $\binom{p+2}{s+1}$ 被 $p$ 整除，故 (CD.1) 确整。
+在 (CD.11) 中，$s=0,1$ 被三次 Hasse 导数杀掉。$s=p-1$ 的非整系数为 $-(p+2)G_{p+1}/2$，再乘 $\binom p3$ 给 $-\beta/3$；$s=p$ 的系数为 $-G_{p+1}$，乘 $\binom{p+1}3$ 给 $+\beta/6$。低核在这两列的整系数被二项式中的 $p$ 杀掉。原 $T=0$ principal 已在 (CD.12) 的完整括号中严格消失，才可除以 $T$。
+
+因此，若 $b_s=\binom{s+1}3$，完整式是
+$$
+Z_p=
+\sum_{s=2}^{p-2}b_s\mathfrak c_sT^{p-s}U^{s-2}
+-\frac\beta3TU^{p-3}+\frac\beta6U^{p-2}.
+\tag{CD.13}
+$$
+令
+$$
+I_p=\{s:3\le s\le p-2,\ s\text{ 奇},\ s\ne m_0\},
+\qquad \mathfrak c_{\rm pr}=\mathfrak c_{m_0}.
+$$
+由于 $b_{p-s}=-b_s$、$b_{m_0}=1/16$，(CD.2) 将 (CD.13) 完整化为
+$$
+\boxed{\begin{aligned}
+Z_p(T,U)={}&
+\frac\beta{12}\sum_{s\in I_p}
+ \frac{(s^2-1)E_{s-1}B_{p-s}}{C^{s-1}}
+ \bigl(T^{p-s}U^{s-2}-T^sU^{p-s-2}\bigr)\\
+&+\frac{\mathfrak c_{\rm pr}}{16}
+ \bigl(T^{m_0+1}U^{m_0-2}-T^{m_0}U^{m_0-1}\bigr)\\
+&-\frac\beta3TU^{p-3}+\frac\beta6U^{p-2}.
+\end{aligned}}
+\tag{CD.14}
+$$
+此式没有未说明的低半段系数。$\mathfrak c_{\rm pr}$ 是原缺席 principal 列，未由 (CD.2) 支付，也没有被 Euler 商置零。两条 $\beta$ 项是完整原源的边界，不可用只取内部商的多项式代替它们。
+
+### 14.5. 精确保留 actual mask 的对角条件
+
+现在假定原两个参数 $\eta,\eta'$ 属于同一 coarse component，并具有相同的全部 actual good 标签；两 twist 仍仅按 R1135 §10 的已付运输处理。$\eta$ 与 $-\eta$ 本来表示同一 coarse 点，不将它们另算成两点。令
+$$
+\Delta\mathfrak c_s=[T^{p-s}U^s]
+ \bigl((\cosh(\eta TU)-\cosh(\eta'TU))\mathscr K\bigr)_p.
+$$
+这是原 centered 差；其支持为 $2\le s\le p-2$，对称于 $s\leftrightarrow p-s$。因此 $\Delta Z_p$ 没有 (CD.14) 最后一行，但仍保留其 principal 差。
+
+对 $3\le s<m_0$ 的奇数行，实际 forced 角色 $R=p-s$ 与 (CD.2) 准确给
+$$
+\mathfrak c_s\,\Delta\mathfrak c_s=0.
+\tag{CD.15}
+$$
+对 $m_0<s\le p-2$ 的奇数行，置 $R=p-s$，则 $R$ 是原低偶角色。R1128 (1128.8) 的出现判据必须保留；完整无反除写法是
+$$
+\bigl(1-B_{p+1-2R}^{\,p-1}\bigr)
+ \mathfrak c_s\,\Delta\mathfrak c_s=0.
+\tag{CD.16}
+$$
+确实若这个出现 Bernoulli 数非零，括号为零；若它为零且 $B_R$ 为单位，原角色实际 good，故差为零；若 $B_R=0$，则 (CD.2) 已使 $\mathfrak c_s=0$。这没有添加任何观察量，也没有反除 Euler 因子。
+
+(CD.15)--(CD.16) 不能合并成所有内部对角积均为零。缺席 principal、出现判据的非零分支以及完整 Fay 的跨次数乘积都仍在。R1183 的完整 binary Serre 配对虽可作用于 (CD.14)，但非退化性本身不支付这个指定 mask 的余核。后继所需仍是一个真正作用于上述同一差分源的恒等式或闭性，而不是将完整矩的消失加到原假设中。
+
+本节全为纸面证明，没有数学程序执行。o1 独立核对了先 Tate 收缩后的范围、$e/\sigma$ 与 factorial 抵消；(CD.4) 的真实 principal 异常已明确保留。

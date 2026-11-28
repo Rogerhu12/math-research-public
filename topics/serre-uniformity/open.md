@@ -122,7 +122,7 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
-[R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全奇3≤s≤(p−3)/2有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]；完整aux norm/FL/Appell敏感度/未归一Bol已付，Euler不假unit，bad仅c0零。当前用f_s(0)·(f_s(η)−f_s(η′))=0保全部原奇行，继续同一Fay p-band对角及真实p极边界，不添mask。
+[R1179 §14](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，付全部奇3≤s≤p−2、s≠m₀=(p−1)/2的总p层系数c_s=βE_(s−1)Bp−s/(2sC^(s−1))；不除高Sym阶乘/Euler。真实smoothing恰在m₀失效，principal保留。完整Z_p=T⁻¹∂_U^[3](TU K_p)含principal/16及−βTU^(p−3)/3+βU^(p−2)/6两carry。原高forced行c_sΔc_s=0；低偶R=p−s仍乘(1−B_(p+1−2R)^(p−1))，缺席行及跨次数Fay未删，完整mask共同纤维继续。
 
 R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T5²均保原尺度；它不是Δlow。R1135两twist统一z∈Fp，actual-good代数仅d非零平方余对待排；真实向量场闭性未付。R1127/29的跨盘unit及线性多nonconstant不代盘内高度/注入。
 
