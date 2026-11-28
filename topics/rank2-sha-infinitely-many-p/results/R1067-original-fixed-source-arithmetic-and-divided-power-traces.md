@@ -1221,3 +1221,471 @@ $$
 (CF4)是曲率的一个二次子式，也不是新的线性$p$曲率。
 应用固定联络代数性或AQ密度之前，仍须证明
 原全Sha坏输入确实消掉所需的完整带权子式、补偿项及所有Galois分量。
+
+## 117. 真实邻曲线的两次变形分离第五深槽的一项
+
+**已证明。** 取全部$p>211$惰性素数，仍用原固定$E_{17}$、
+完整$M$、两变量Tate源及§113的$\mathcal H,J,\mathcal K,\mathcal L,h_n$。
+若通常全$\Sha(E_{17}/\mathbf Q)[p^\infty]$无限，除旧五槽外还有
+$$
+ \boxed{\quad
+       h_{q+2p-2}U_2(e)=0,\qquad
+       \mathcal H^{p-1}\mathcal L U_2(e)=0 ,
+       \quad}                                                 \tag{CG1}
+$$
+其中$q=p^2$，$e$为通用向量扩张的恒等点，
+$$
+ U_j=\sum_t I_t\,\tau_{-\widetilde T_t}^{\,*}F_j,\qquad
+ F_2=Z^2-x,\quad F_3=Z^3-3xZ-2y .
+$$
+这里先保物理整数$I_t=-\omega_K\varepsilon(t)
+-\bar\omega_K\bar\varepsilon(t)$，再按真实$\mu_6$权分支。
+第一条准确选择$\bar\varepsilon$支，第二条选择$\varepsilon$支。
+所有点、外部系数及Frobenius一起运输。
+
+特别第一条与(CC1)的第五槽合用给
+$$
+ \sum_t\bar\varepsilon(t)\,
+ Z\left[2h_{q+2p-2}Z+
+              c^{-1}\bigl(h_{p+1}F_2\bigr)^p\right]
+             (-\widetilde P_t)=0 .                            \tag{CG2}
+$$
+(CG1)中的第一式不是只由五槽的形式联立所得：
+以下使用原$M$在真实循环邻商上的有限变形。
+(CG2)仍保两个项的总和；本节没有把任一项单独置零，
+也未证明AQ全部曲率或主目标。
+
+### 117.1 保留Tate扭转的绝对微分多给一个边界系数
+
+先在物理$E_{17}$使用112.5的真实$[-p]$-LT塔。
+写$\Phi=\mathbf Q_{p^2}$，$Q_j$为原范数相容本原点，
+$z=s(Q_2)$、$t=s(Q_1)=[-p]z=-pz+z^q$。
+由(CB8)，坏情形的完整当地类属于$I^3P$。
+整个$103^2-103[g_{103}]$在$(p,I)$处为单位，
+所以去除此实际算子后仍保$I^3$；有限Shapiro只除驯群阶。
+令$r_2$为原$e_\tau[M(Q_2)]$，或仅在外部系数施Frobenius后的
+$e_{\tau^p}[M(Q_2)]$。
+
+在模$p^2$的第二层，真野群为$C_p^2$。
+其未扭增广理想记$\mathfrak J$。
+原扭转生成元是$d^{-1}[d]-1$或$\bar d^{-1}[d]-1$；
+因$d\in1+p\mathcal O$，它们均属于$\mathfrak J+p$。
+$d\equiv1\bmod p^2$在本层及系数中同时为一。因此
+$$
+ r_2\in(\mathfrak J^3+p\mathfrak J^2)P_2\pmod{p^2},           \tag{CG3}
+$$
+$P_2$为实际单位Kummer张量；非平凡驯分量已消去赋值商。
+
+取两个独立方向$h,l\in\mathbf F_q$，其实际野元记$G_h,G_l$。
+置
+$$
+ N_h=\sum_{i=0}^{p-1}G_h^i,\quad T_l=G_l-1,\quad
+ L_l=\sum_{i=1}^{p-1}\frac{(-1)^{i-1}}iT_l^i .
+$$
+这些分母全为$p$单位。
+$N_h(G_h-1)=0$，而
+$T_l^p=-\sum_{i=1}^{p-1}\binom piT_l^i\in p\mathfrak J$。
+所以对$r\ge p-3$，(CG3)严格给
+$$
+                    N_hL_l^r r_2\in p\mathfrak J P_2
+                                      \pmod{p^2}.             \tag{CG4}
+$$
+这里没有把原Tate扭转先模$p$丢掉。
+
+真实Eisenstein方程为$t(z)^{q-1}-p=0$，
+其分歧指数和different分别有
+$$
+ e=v_z(p)=q(q-1),\qquad
+ v_z(\mathfrak D)=e+q(q-2)>e+1 .
+$$
+故绝对微分$\Omega_{\mathcal O_{\Phi_2}/\mathcal O_\Phi}$
+再模$pz$是自由的一元
+$(\mathcal O_{\Phi_2}/(pz))\,dz$。
+野元固定未分歧系数且$gz=z+O(z^2)$。
+对任意整单位$V$，
+$gV/V\in1+z^2\mathcal O_{\Phi_2}$，
+故$d\log(gV/V)\in z\Omega$。
+(CG4)于是给实际绝对$d\log$属于$pz\Omega$；
+模$p^2$的Kummer误差同样落在$pz\Omega$。
+允许固定未分歧扩域以分裂全部标记时，
+different及这一结论均不改变。
+
+还须将此绝对微分准确改为邻商的固定$t$微分。
+若$L_l^r=\sum_j b_jG_l^j$，用独立变量$z,t$书写原全源
+$$
+ \mathscr F(z,t)=
+ \sum_{a\in\mathbf F_q^\times}\sum_{i,j}
+ \omega(a)^{-\chi}b_j
+ \log M_\theta\!\left(
+     [\omega(a)]Q(z)-[\omega(a)(ih+jl)]Q(t)\right),
+ \quad \chi=1\ \text{或}\ p .                                \tag{CG5}
+$$
+$\theta^6=17$，原CRT的固定可逆标量始终随$Q_j$运输。
+对数本身仅作求导，两偏导皆整。
+$t=[-p]z$时，(CG5)恰为(CG4)的实际单位张量，
+因为$G_h^iG_l^j$在$p^2$挠点上为$1+p(ih+jl)$。
+原$m_1=0$给$\partial_t\mathscr F(0,0)=0$，
+故$\partial_t\mathscr F(z,t(z))\in z\mathcal O_{\Phi_2}$。
+又$t'(z)=-p+qz^{q-1}\in p\mathcal O_{\Phi_2}$，所以
+$$
+       \partial_z\mathscr F(z,t(z))\in pz\mathcal O_{\Phi_2}.
+                                                               \tag{CG6}
+$$
+这一额外的$z$来自绝对微分和原首对数零；
+不能由相对$\Omega_{\Phi_2/\Phi_1}$的不同理想擅自取得。
+
+### 117.2 真循环邻商及截断对数的全部精度
+
+在$E_1:y^2=x^3+1$工作。对惰性$p$，
+$17$在$\mathbf F_{p^2}$有六次根，因为$(p+1)/6$为整数；
+Hensel提升给$\theta\in\mathcal O_\Phi^\times$。
+故六次模型运输只乘共同单位，未另加$(17/p)=1$限制。
+
+令$S=Q(t)$、$C_a=\langle[ah]S\rangle$，
+$\phi_a:E_1\to E_{C_a}$为真循环商，
+$c_{\phi,a}$由$\phi_a^*\omega_a=c_{\phi,a}\omega$定义。
+其赋值为$v_t(c_{\phi,a})=p-1$。
+置$u_a=s_a(\phi_a([-al]S))$，
+则$v_t(u_a)=p$，它生成双对偶核。
+令$M_a=\operatorname{Norm}_{\phi_a}M_\theta$、
+$f_a=D_a\log M_a$。范数在$O$取值为一：
+原$M_\theta(-P)=M_\theta(P)^{-1}$使非零核点两两相消。
+
+对任意整函数，平移$u_a$的小于$p$次Taylor项均整，
+且$1/n!$在$n<p$为单位。
+实际截断群环对数因而满足
+$$
+ \frac{L_l}{u_a}
+   \equiv \frac{\ell_{a,<p}(u_a)}{u_a}\,D_a
+                  \pmod{u_a^{p-1}\operatorname{End}},
+                                                               \tag{CG7}
+$$
+其中$\ell_{a,<p}$是实际不变对数的小于$p$次截断，
+绝非整个挠点对数（后者为零）。
+两边均整，取任意$r\le p-1$次方不再损失这个相对精度。
+先做原$N_h$范数，再应用(CG7)，(CG6)成为
+$$
+ \sum_a\omega(a)^{1-\chi}c_{\phi,a}
+      \ell_{a,<p}(u_a)^r
+       (D_a^r f_a)(\phi_a([\omega(a)]Q(z)))
+                          \in pz\mathcal O_{\Phi_2}.           \tag{CG8}
+$$
+省去的误差至少有$t$阶$p-1+pr+p(p-1)$，
+对$r\ge p-3$严格高于$e+1$换算成$t$的界，故不污染以下窗口。
+
+取$r=p-1-j$，$j=0,1,2$。
+(CG8)的共同首因子为$t^{p-1+pr}$。
+除去它和已展示的单位后，
+$e-q(p-1+pr)=jpq$，因此可读到$z^{jpq}$，包括边界。
+所有剩余系数在这个窗口可约到特征$p$，
+并可取$t=z^q$：被消去的$p$项均带正$z$次幂。
+保留完整Teichmüller和后，许可原指数恰为
+$$
+ \begin{array}{ll}
+ \chi=1:& n=jp+d(q-1),\quad 0\le n\le jpq,\\
+ \chi=p:& n=jp+p-1+d(q-1),\quad 0\le n\le jpq,
+ \end{array}\qquad d\ge0 .                                    \tag{CG9}
+$$
+后续只使用这些实际界内的系数。
+
+### 117.3 邻曲线的外标量在所需两级没有未知补偿
+
+标号核$C_a$在$t\mapsto nt$、$n\in\mathbf F_p^\times$下不变，
+故其商及所有素于$p$标记定义于$t^{p-1}$的整环。
+选特殊纤维与原相对Frobenius一致的短模型，
+再以唯一$1\bmod t$的六次根归一为
+$$
+                         E_A:y^2=x^3+Ax+1 .
+$$
+在模$t^{2p+1}$的范围，$p=0$且对偶微分为零。
+光滑相对曲线中微分为零的映射经相对Frobenius分解；
+余下为度一同构。由特殊纤维及归一，准确有
+$\widehat\phi=-\operatorname{Fr}$、$\phi=-V_A$，
+其源为$E_{A^p}=E_1$，因为这里$A^p=0$。
+于是
+$$
+ c_\phi=-H(A),\qquad
+ H(A)=[x^{p-1}](x^3+Ax+1)^{(p-1)/2}.
+$$
+写$p=6n_0-1$，则
+$$
+ H(A)=H_1A+O(A^4),\qquad
+ H_1=\frac{(3n_0-1)!}{(2n_0-1)!(n_0-1)!}\ne0\bmod p .
+$$
+
+原$\zeta\in\mu_6$把$C_a$送到$C_{\zeta a}$，
+在商模型上由特殊Frobenius决定其标量为$\zeta^p$；
+$B=1$的归一使这一标量没有未知连续单位。
+故$A$和$c_\phi$随$t\mapsto\zeta t$的权为$\zeta^{p-1}$。
+结合$\mathbf F_p^\times$不变性，
+其$t$指数必须是$k(p-1)$且$k\equiv1\bmod3$。
+核多项式首项及$v_t(c_\phi)=p-1$遂给固定$\kappa\ne0$使
+$$
+ A_a=\kappa(ah)^{p-1}t^{p-1}+O(t^{4(p-1)}).                    \tag{CG10}
+$$
+同样，$\ell_{a,<p}(u_a)$在$\mathbf F_p^\times$下权一、
+在$\mu_6$下权$p$。其首项为
+$$
+ c_0a^p(l^p-h^{p-1}l)t^p,\qquad c_0\ne0 ,
+$$
+下一许可相对指数为$3(p-1)>2p$。
+$h,l$独立保证括号非零。因此在(CG9)的$j=2$窗口，
+外部$c_\phi,\ell^r$只贡献已知非零首项；
+实际变形仅需保$A,A^2$。
+
+用$M_A$表示除子为真实$\phi_A(T_t)$、
+$O$值为一的函数。素于$p$的挠截面唯一提升，
+而$\sum I_tT_t=0$也唯一提升，故此函数存在且唯一；
+它恰为上述实际范数，未另选同除子源。
+将
+$$
+ \mathscr V_A(P)=
+   (\mathcal H_A^r f_A)(-V_A^\natural P)
+           =F^{(0)}(P)+AF^{(1)}(P)+A^2F^{(2)}(P)+\cdots
+$$
+代回(CG8)。
+每个$k=0,1,2$的外部$a$指数由
+$A_a^k$与$z$系数相加，恰给(CG9)同一许可总指数；
+其贡献为
+$$
+ \kappa^k(h^{p-1})^k
+         [z^{\,n-qk(p-1)}]F^{(k)}(Q(z)).
+$$
+$h^{p-1}$遍历$\mu_{p+1}$，$p+1>2$，
+所以Vandermonde分离使三个$k$各自为零。
+这一步保完整角向和，仅分离真实的邻商参数。
+
+
+### 117.4 通用扩张上的实际Gauss–Manin抬升
+
+以下把两个变形系数完整算出。本段$f,U_j$先取实际初始$\operatorname{Fr}_pT_t$标记，117.7再统一搬回。置
+$$
+ \Delta=4A^3+27,\quad \omega=dx/(2y),\quad
+ \eta=dZ+x\omega,\quad \mathcal H=D-xJ .
+$$
+令$\partial_A^0$固定$x,Z$，并令
+$\partial_A^0y=x/(2y)$。逐项微分给
+$$
+ \begin{pmatrix}\partial_A^0\omega\\
+                 \partial_A^0(x\omega)\end{pmatrix}
+ =
+ C\begin{pmatrix}\omega\\x\omega\end{pmatrix}
+       +d\begin{pmatrix}R_\omega\\R_\eta\end{pmatrix},
+\quad
+ C=\frac1\Delta
+       \begin{pmatrix}-A^2&9/2\\3A/2&A^2\end{pmatrix},
+$$
+其中
+$$
+ R_\omega=\frac{-3A-A^2x-\tfrac92x^2}{\Delta y},
+ \qquad
+ R_\eta=\frac{\tfrac92+\tfrac32Ax-A^2x^2}{\Delta y}.
+$$
+定义实际基方向抬升
+$$
+ \mathcal T=\partial_A^0+
+       (C_{01}Z-R_\omega)\mathcal H+
+       (C_{11}Z-R_\eta)J .                                    \tag{CG11}
+$$
+Cartan公式给
+$$
+ \mathcal L_{\mathcal T}\omega=C_{00}\omega+C_{01}\eta,\quad
+ \mathcal L_{\mathcal T}\eta=C_{10}\omega+C_{11}\eta,
+$$
+以及
+$$
+ [\mathcal T,\mathcal H]=-C_{00}\mathcal H-C_{10}J,\qquad
+ [\mathcal T,J]=-C_{01}\mathcal H-C_{11}J.                      \tag{CG12}
+$$
+$\mathcal T$是抬升$\partial_A$的群型导子，
+不是纤维内的平移不变向量场。
+
+这里可直接检查正则性和群型，毋须猜测一个形式热算子。
+在有限图有
+$$
+ \begin{aligned}
+ \mathcal T x&=2C_{01}yZ+(6A+2A^2x+9x^2)/\Delta,\\
+ \mathcal T y&=C_{01}(3x^2+A)Z+
+                       (\tfrac{27}2x+3A^2)y/\Delta,\\
+ \mathcal T Z&=(C_{11}-xC_{01})Z-C_{01}y .
+ \end{aligned}
+$$
+故$y=0$处没有极。在$O$图
+$t=-x/y,\ V=Z-1/t$，有$1/t-xt=O(t^3)$，而
+$$
+ C_{01}Z-R_\omega
+   =C_{01}V+C_{01}(1/t-xt)-A^2t/\Delta-3At/(\Delta x)
+$$
+正则，$\mathcal Tt|_{t=0}=C_{01}V$；代入$\mathcal TV$
+也正则并在$e$为零。
+特征零中，两真不变形式的群律与上述Lie导数说明：
+两因子上$\mathcal T$之和与乘法后$\mathcal T$之差，
+其两个不变坐标的相对微分为零，且在$e$为零，
+故差为零。该恒等式在$\mathbf Z[1/(6\Delta)]$的整有理式中成立，
+所以可在每个本节$p$约化。
+
+还需付出与实际$-V_A^\natural$的自然性。
+在特征$p$，其源$E_{A^p}^\natural$的基方向为固定坐标的$\partial_A$；
+所有群律系数为$p$次方，故它同样群型。
+此导子与目标$\mathcal T$沿$-V_A^\natural$之差，
+是到目标Lie代数的群同态，其两个坐标为全局正则函数，
+且竖次数至多一。
+
+所需的常数结论在特征$p$有明确次数限制：
+非平凡$\mathbf G_a$扩张的全局正则函数，若竖次数$d<p$，
+则最高系数是底椭圆曲线上的常数$c$；
+下一系数的粘合差给$d\,c$倍的非零扩张类。
+$d$可逆，故$c=0$，降次即只剩常数。
+因此上述差为常数，并由恒等点处零而消失。
+相同论证或素于$p$的挠阶可逆性，
+说明全部规范挠截面对$\mathcal T$水平。
+这给真实$V_A^\natural$和全部移动标记的自然性。
+求导先在完整特征$p$通用族中进行，再在$A=0$取值；
+没有把$\partial_A$错误定义在商环$k[A]/A^3$上。
+
+### 117.5 原范数函数的两条完整热方程
+
+在每个移动挠点$\widetilde T_t(A)$附近，
+群型$\mathcal T$与其平移相容。
+$M_A$的阶为$I_t$，而$\mathcal Tt=C_{01}V+O(t)$，
+故$\mathcal T\log M_A$的极部为$I_tC_{01}V/t$。
+同一图中$F_2=Z^2-x$的唯一极部为$2V/t$。
+逐物理标记相减后，
+$$
+ \mathcal T\log M_A-\frac{C_{01}}2
+             \sum_t I_t\tau_{-\widetilde T_t(A)}^*F_2
+$$
+全局正则，竖次数至多二。
+上面的次数引理使它为常数；
+在$e$，$M_A(O)=1$给左首项零，
+而$I_{-t}=-I_t$、$F_2$偶使全迹零。
+故有准确恒等式
+$$
+                 \mathcal T\log M_A=(C_{01}/2)U_2(A).          \tag{CG13}
+$$
+
+在$A=0$，
+$C_{00}=C_{10}=C_{00}'=C_{01}'=0$，
+$C_{01}=1/6$，但$C_{10}'=1/18$不能删去。
+又$J\log M=Jf=0$，其中$f=D\log M$。
+直接由(CG11)得到
+$$
+ \mathcal T_0=\partial_A^0+
+       \frac{Z+x^2/y}{6}\mathcal H-\frac1{6y}J,\qquad
+ \mathcal T_0F_2
+     =-\frac{xZ^2+2yZ+x^2}{3}
+     =\frac19\mathcal H F_3 .
+$$
+因此
+$$
+ \mathcal T f|_0=\frac1{12}\mathcal H U_2,\qquad
+ \mathcal T^2f|_0=\frac1{108}\mathcal H^2 U_3 .
+$$
+对任意$r$，二次交换中可能留下的项为
+$-rC_{10}'\mathcal H^{r-1}Jf$，确因$Jf=0$而消失。
+真实范数拉回的三个系数遂准确为
+$$
+ \boxed{\begin{aligned}
+ F^{(0)}&=\iota^*(\mathcal H^r f),\\
+ F^{(1)}&=\frac1{12}\iota^*(\mathcal H^{r+1}U_2),\\
+ F^{(2)}&=\frac1{216}\iota^*(\mathcal H^{r+2}U_3).
+ \end{aligned}}                                                \tag{CG14}
+$$
+$216$包含Taylor二次系数的$2$。
+初始$M_A$的标记其实为$\operatorname{Fr}_pT_t$，
+故这些式子先用于整套Frobenius后的$U_j$；
+117.7统一搬回原标记。
+
+这也校正一个容易误判的中间项：
+$xZ^2+2yZ+x^2=-\mathcal HF_3/3$，
+并非独立的新第四权函数。
+二次变形自身不能据此宣称给出AQ倒数曲率。
+
+### 117.6 边界内的两条一次变形准确分离裸深项
+
+取$j=2$、$r=p-3$、原外嵌入$\chi=1$。
+在(CG9)中取
+$$
+ n_1=(2p-1)q+1=2p+(2p-1)(q-1),\qquad
+ n_2=2pq=2p+2p(q-1).
+$$
+两者确在已付的边界内。
+一次变形减去$q(p-1)$后，其真实指数分别为
+$m_1=pq+1$、$m_2=q(p+1)$。
+由(CC0)的紧椭圆核读者及(CG14)，得到
+$$
+ \begin{aligned}
+ \mathcal H^{p-2}(\mathcal L-e_p\mathcal H)J U_2(e)&=0,\\
+ h_{q+p}\mathcal H^{p-2}U_2(e)&=0 .
+ \end{aligned}                                                \tag{CG15}
+$$
+第一式用$h_qJ U_2=(\mathcal L-e_p\mathcal H)J U_2$：
+$J^2U_2=2\sum I_t=0$，所以$JU_2$为底函数，
+其$\mathcal H^p$为零，而$\mathcal K^p=-\mathcal H$。
+
+现在逐项核完整Artin–Hasse分解，不能只取形式最高幂。
+为简记写$H=\mathcal H,K=\mathcal K,L=\mathcal L$，
+$N=q+2p-2$。
+在$H^{p-2}U_2$上，$h_{q+p}$的不含$L$部分由
+$(i,j)=(0,p+1),(p,p),(2p,p-1)$贡献：
+$$
+       -e_{p+1}HK+c e_p^2JH+0 .
+$$
+第三项含$J^2U_2$，以后各项亦为零；
+含$L$部分为$LK-ce_pLJ$。
+而(CC2)给完整$h_NU_2$。
+两者相减准确为
+$$
+ \left(h_{q+p}H^{p-2}-h_N\right)U_2
+   =c(e_{2p-2}-e_p)H^{p-2}(L-e_pH)J U_2 .                    \tag{CG16}
+$$
+(CG15)同时杀右边与左边第一项，
+故$h_NU_2(e)=0$，即(CG1)第一式。
+没有要求$e_{2p-2}-e_p$为单位。
+
+### 117.7 另一真实系数嵌入给单独的第二AH迹
+
+在同一个(CG3)–(CG9)证明中改取$\chi=p$。
+仍取$j=2,k=1$，一次变形的三个许可指数为
+$$
+ m_0=2p,\qquad m_1=(p-1)q+p+1,\qquad m_2=pq+p .
+$$
+对应原指数均为$m_i+q(p-1)\le2pq$，
+且模$q-1$为$3p-1$，与(CG9)完全一致。
+(CC0)和Artin–Hasse逐项分解分别给
+$$
+ \begin{aligned}
+ h_2H^{p-2}U_2&=-cJU_2/2,\\
+ c h_{q-p+1}H^{p-2}JU_2
+       &=c e_{p-1}H^{p-1}K^{p-1}JU_2,\\
+ h_{q+1}H^{p-2}U_2
+       &=H^{p-1}LU_2+c e_pJU_2
+          -c e_{p+1}e_{p-1}H^{p-1}K^{p-1}JU_2 .
+ \end{aligned}
+$$
+三个真实值均为零，且$c,e_{p-1}$为单位，
+所以先消前两项，再得$H^{p-1}LU_2(e)=0$。
+
+最后核标记和外系数相位。
+先在包含所有素于$p$标记的未分歧整环计算，
+始终使用有理整数$I_t$。
+绝对剩余Frobenius$\sigma$将每个$T_t,X_t$一起送到
+$\operatorname{Fr}_pT_t,X_t^p$，
+故初始完整$U_j^F=\sigma(U_j)$。
+$E_1,H,J,K,L,h_n$均在$\mathbf F_p$下降，
+因而可对整个真实等式施$\sigma^{-1}$，将全部标记同时搬回。
+即使单个标记不在$\mathbf F_{p^2}$，这一论证仍成立。
+$\theta$也一起运输；其特殊纤维$\sigma\theta/\theta\in\mu_6$，
+不是擅设物理周期为实数。
+
+此后才分$I_t$。
+$h_NF_2$的$\mu_6$权为$u^{-N-2}=u$，
+故只留$I_t$的$\bar\varepsilon$支；
+$H^{p-1}LF_2$的权为$u^{-(p-1+q+2)}=u^{-1}$，
+故只留$\varepsilon$支。
+共同非零常数$-\omega_K,-\bar\omega_K$可消。
+§113取$P_t=-T_t$；$F_2$偶且$N$奇，所以$h_NF_2$奇，
+将全部$T_t$同时换成$P_t$只给共同负号，零条件不变。
+第一式因此与原(CC1)确切合并为(CG2)。
+这里没有取得任意改权的独立消失，
+尤其没有付出R1073 §34所需的全部$\sigma$曲率条件。

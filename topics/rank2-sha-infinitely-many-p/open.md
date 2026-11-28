@@ -241,3 +241,7 @@
 ### R1067 §112.7：普通双位下降与两型共同的素数指标界
 
 已证明：同一物理M及固定m_p在普通a_p≠1时也有t=corank Sha≤v_p(m_p)−1。真实两位互反使当地类额外含I，完整étale范数保1−α⁻¹[gα]⁻¹；未分歧扩张可有p次数，以H¹_unr=0的Kummer限制单射下降。与惰性CB9合并，若主目标失败，则密度一素数均有m_p∈p³。跨p矛盾仍未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §117：真实邻商两次变形分离原第五深槽
+
+已证明：保留模p²的Tate扭转与绝对p·z微分，原首野测试准确读到2pq边界；真循环邻商的两级参数和群型Gauss–Manin热方程保全部移动标记。由真实一次变形分别得裸h_{q+2p−2}U₂(e)=0及H^{p−1}L U₂(e)=0，两实际外嵌入选原barε/ε支。第五槽的其余两项仍是完整和，AQ全σ与跨p非零未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
