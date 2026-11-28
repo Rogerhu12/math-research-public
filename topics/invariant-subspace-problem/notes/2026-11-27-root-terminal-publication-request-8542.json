@@ -1,23 +1,19 @@
 {
-  "message": "ISP R150: exclude the entire Phi D2 infinity and prove the whole W H198 finite length; start full original W values",
-  "parentCommit": "16e9ac17b1b34e5d83f30537e505ce4a6eb7f820",
+  "message": "ISP R150: prove exact Phi six by two scalars and centered W bounds; start six complete original Phi values",
+  "parentCommit": "353c9bf9cb7f7ea8009438779453e6e8227b2399",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-whole-D2-highest-direction-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-D2-infinity-original-weight-cofactor-unit-execution-8542.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-highest-D2-zero-five-weight-support.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-H198-native-P164-finite-intersection-and-original-length.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-H198-vs-native-P164-fixed-integral-model-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-full-original-values-first-mean-reduction-twenty-two-model-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-full-original-values-first-mean-reduction-twenty-two-model-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-full-values-twenty-two.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-whole-D2-exclusion-and-W-H198-length-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-whole-D2-exclusion-and-W-H198-length-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-whole-D2-exclusion-and-W-H198-length-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-whole-D2-exclusion-and-W-H198-length-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-original-N1-slope-exact-six-by-two-presentation-and-three-eighth-degree-scalars.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-N1-slope-exact-six-by-two-mean-presentation-8542-execution.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-H198-centered-slope-monic-square-and-original-value-degree-bounds.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-slope-full-original-values-twelve-new-rows-eighteen-two-model-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-slope-full-original-values-twelve-new-rows-eighteen-two-model-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-full-values-eighteen-two.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-exact-six-two-and-full-values-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-exact-six-two-and-full-values-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -27,6 +23,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-full-values-twenty-two.yml"
+    "invariant-subspace-8542-phi-full-values-eighteen-two.yml"
   ]
 }
