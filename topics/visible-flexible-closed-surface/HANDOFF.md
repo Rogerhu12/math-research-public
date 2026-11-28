@@ -60,7 +60,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 <!-- 2ecf-target-curvature --> [R254](results/R254-sharp-fixed-field-warp-radius-floor.md)/[R255](results/R255-sharp-two-angle-invariant-target-metric-floor.md)给固定场的目标半径/任意共同SPD目标锐下界；实际首span见证要求改X，不排新构造。
 
-<!-- 2ecf-live-m12-refinement --> [h503首次LM −9，原源/注入保留；单线程映射带重试。](notes/2026-11-28-2ecf-m12-h503-original-LM-sigkill.md)
+<!-- 2ecf-live-m12-refinement --> [h503全6036径向×1536角单带组装并接受α1，训练峰4.94403e−10，独立与后验尚待。](notes/2026-11-28-2ecf-m12-h503-retained-full-Gram-accepted-step.md)
 
 <!-- 2ecf-live-frozen --> [冻结α10的M24→32精确零嵌入及首真步；G11 metric .153906、κ30.825，held仍不足。](notes/2026-11-28-2ecf-frozen-alpha10-first-Fourier-refinement.md)
 
@@ -68,4 +68,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:47:41 UTC；已读公开 main `a3c58553c4591e6ddc97a493fcc12af2085a12a6`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:48:34 UTC；已读公开 main `97789c379c8b1320634d00787f8699fab769bf9c`，根/课题 README 逐差无变化。
