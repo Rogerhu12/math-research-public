@@ -73,3 +73,9 @@
 - 新一般k原P证明f整：读取c0b1f13真实原恢复，只用已闭k±4/−2排三次头零；P02/D/G36首项全保，所有原Gram和σ整。完整零阶NB=PB、NC=PC=0，准备新正阶原N/P输入，无旧83e重门。
 - 58ebb5c全文根读：k−2 ellunit μpole先排L3，q2给(L−1)C3，R6给(L−1)²L³R5，两个完整整式除法迫L79/305而余823非零，故只能L1；其新两jet尚待actual，不预报。
 - finiteμ唯一(3/5,−2)新局部、Phi不同原极化结构及Haar实际混合平方源继续，普通ISP未完成。
+
+2026-11-29 02:11 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2155实际main 204fed7d1abd97a34717f086c7165708797a34d5，run46173744701/job141067696164；18:03:38 UTC pull 141aa313464968d42beb541b15a6f4937cb72719两README无变，私库QUEUE进行中核回。
+- 166f actual run46173434775/job141066781704完整5records与aaa1正式稿根读；0.662619788秒/39164KiB/0，3100B stdout SHA4ed4ff…准确。A首x4系数−2/3，B首x3系数38，规范小参数hash匹配，前阶QQ零及全整隐函数付齐。
+- 整ellunit μpole关闭，k−2只剩finite(3/5,−2)新2×2Jac方向；新一般k物理f已整，完整4个singleton首阶/三固定6阶原来源目标首次120秒/1GiB，源958f1b/input04cf18，旧投影不重跑。
+- 18:07:06 UTC实际终端pwd复探仍No usable execution environment，记录1807并将下次改19:07，Actions真实部分clone/pull/rebase继续。Phi新完整极化小式待发布，Haar实际双源继续，普通ISP未完成。
