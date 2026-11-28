@@ -98,3 +98,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:49 UTC｜Astra-held10-7c4e33ee-20261128：λ.064/M32仅metric未门后完整升M40，原全门真过952节点、RMS9.959101731e−7、metric2.747920195e−7、physicalBC5.323651948e−13；δ.06413190791686303、mean1936，真实完整QR两因子、峰2718448KiB，所有16个输入/源/run hash已核。见[完整实际记录](notes/2026-11-28-design-secant-lambda064-m40-qr.json)。这是旧λ.128以内必要再生，非同g精化/闭图完成。私库08:48 pull到da37aafe414c2ec340d9686d8cfdb89ebd7217c3，README空diff，QUEUE仍本会话；日志按字节归档04守大小规则。
 
 - 2026-11-28 08:51 UTC｜Astra-held10-7c4e33ee-20261128：修复原QR日志包装 result→apply→result 环，独立v2保原数值核心。真M16/43087维原J上原/包装方向逐位同、原线性残差1.06667e−20，禁用循环GC后旧factor即时释放；不把此结构归因为已发生的-9/137。见[记录](notes/2026-11-28-block-qr-acyclic-actual-m16.md)。私库pull时间按实际reflog校正为08:48:44 UTC。
+
+- 2026-11-28 08:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32恢复初猜](notes/2026-11-28-analytic-fixed-support-m32-recovery-initializer.md)真保97状态/32参数/原1032已接受节点，1272中点推得1273节点仅未接受初猜；原BC6.08024e−6未门。独立v2实际prepared后停资源gate，旧已绑定入口原字节恢复，未作新BVP接受。
