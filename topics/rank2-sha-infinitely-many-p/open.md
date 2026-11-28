@@ -133,3 +133,7 @@
 ### R1073 §32：普通完整degree390原矩的有理微分与连通挠点全迹
 
 已证明：在同一普通来源上以V²的真实Miller式消尽sigma和形式对数尾，原ŝ_{p−1}模p²准确成为全局有理微分的O留数；付所有极及纯不可分约化迹整性，转为全部非零π挠点的一个未删项域迹。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §97：原普通完整除法式与所有权统一精度代数盖
+
+已证明：真实非单位π除法多项式给原完整ŝ_{p−1}模p²及全零除子乘子；π^N代数盖以Hurwitz整环同时控制所有权至p^{5N}，得到原G′的任意精度充要有限检验，不把有限值非零外推为中央非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

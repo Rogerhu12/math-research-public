@@ -1815,3 +1815,129 @@ Glasnik Matematički 51(71) (2016), 335–343，
 不是只适用于一型椭圆对数的 Theorem 2.1。上面的扩张、对数域、
 子群稠密性和共轭标量方向均已在原模型中支付。此处没有把 $p$ 进
 系数视作代数权，也没有从非代数值推断模 $p$ 单位。
+
+## 97. 非单位 CM Frobenius 的完整普通除法式与任意精度代数盖
+
+取 R981 (41)–(45) 的原普通模型 $E_B:y^2=x^3+B$，写
+$\widehat\Phi(z)=\sigma_B(z)^cP(x(z))=\sum_m\widehat s_mz^m$，
+$c=390$，$P$ 含全部原清分母和物理 $B$ 次幂。证明也适用于同形式、
+原点阶至少六的其它原来源。取实际 CM Frobenius
+$\pi=\psi_B(\mathfrak p)$，$[\pi]$ 在所选位约化为 $p$ 次坐标
+Frobenius，$v_{\mathfrak p}(\pi)=1$，$h=(p-1)/2$。
+对原曲线变量 $P_0$ 定义
+$$
+ F_\pi(x)=\frac{\sigma_B(\pi z)}{\sigma_B(z)^p},\qquad
+ A_\pi(x)=x([\pi]P_0)F_\pi(x)^2,\qquad x=x(P_0).
+$$
+原等边 CM 准周期及奇水平半特征使 $F_\pi$ 为偶椭圆函数，
+仅 $O$ 有 $p-1$ 阶极，首项 $\pi x^h$；它就是这个规范的
+真实除法多项式。$A_\pi$ 在非原点的极被 $F_\pi^2$ 消去，
+首项为 $x^p$。取反序多项式
+$$
+ A^*(X)=X^pA_\pi(1/X),\qquad
+ F^*(X)=\pi^{-1}X^hF_\pi(1/X).
+$$
+以 $\tau=x^{-1/2}$ 的原切向分支写
+$z=L(\tau)$、$\gamma=\sqrt{1+B\tau^6}$、
+$S(\tau)=\tau^cP(\tau^{-2})$。原两位系数有完整式
+$$
+ \boxed{\quad
+ \widehat s_{p-1}\equiv
+ [\tau^{p-1}]\frac{S(\tau)}{\gamma}\,
+   A^*(\tau^2)^{(p^2-c)/(2p)}F^*(\tau^2)^{-p}\pmod{p^2}.
+ \quad} \tag{BM1}
+$$
+原单位质量为零已给 $\widehat s_{p-1}\in p\mathcal O$；
+所以先算完整(BM1)再除 $p$，给原
+$\widehat s_{p-1}/p\bmod p$，不对个别项提前除法。
+
+令 $\tau_\pi=x([\pi]P_0)^{-1/2}$ 取切向 $\pi\tau$ 的分支，
+$H(\tau)=\sigma_B(L(\tau))/\tau$。$H$ 常数为一，正次项从六次起，
+且
+$$
+ \frac{\tau_\pi}{\pi\tau}
+       =\frac{F^*(\tau^2)}{\sqrt{A^*(\tau^2)}},\qquad
+ H(\tau)^p=\frac{H(\tau_\pi)}{\sqrt{A^*(\tau^2)}},\qquad
+ L(\tau_\pi)=\pi L(\tau). \tag{BM2}
+$$
+$F_\pi=\pi\prod_{T\in(E[\pi]-\{O\})/\{\pm1\}}(x-x_T)$。
+普通高度一形式群给每个 $x_T$ 的赋值 $-2/(p-1)$；
+对各初等对称系数计数，再用系数在原未分歧基域中，得到
+$F_\pi$ 整、除常数外各系数被 $\pi$ 整除，常数为单位。
+又
+$A_\pi=\prod_{[\pi]U=R_B}(x-x_U)$，
+$R_B=(0,\sqrt B)$，可在未分歧扩张内取根。这 $p$ 个相异
+横坐标全约化于零，所以 $A_\pi$ 整且 $A^*\equiv1\bmod p$。
+$F^*$ 只可能在最高 $X^h$ 项有分母。
+
+$\tau_\pi\equiv\tau^p\bmod p$，而 $S$ 阶至少六，故(BM1)
+只用其它因子次数不超过 $p-7$ 的短窗。在该窗内，最高
+$F^*$ 项不会进入，$H(\tau_\pi)\equiv1\bmod p^6$，
+$L(\tau_\pi)/\tau_\pi\equiv1\bmod p^6$。
+这里可使用原普通 sigma 整性；短窗内也可从
+$\zeta(L)'=-xL'$、$L'=1/\gamma$ 的积分逐项得到所需整性，
+所入分母小于 $p$。由(BM2)作 $c/p$ 次及 $-p$ 次幂，
+前者在对数中只损一位，有限指数展开的阶乘分母为单位。
+最后在准确原留数
+$\widehat s_{p-1}=\operatorname{Res}\widehat\Phi(L)
+d\tau/(\gamma L^p)$ 中代入，给(BM1)。
+没有把某个点的 $K_\pi$ 或单一补偿格替换整个 $P$。
+
+同一原截面还有特征零的准确有理乘子
+$$
+ \begin{aligned}
+ U_{\Phi,\pi}(P_0)
+ &=\frac{\widehat\Phi(\pi z)}{\widehat\Phi(z)^p}
+   =F_\pi(x)^c\frac{P(x([\pi]P_0))}{P(x(P_0))^p},\\
+ \pi^{-1}D\log U_{\Phi,\pi}
+ &=cK_\pi+(D\log P)([\pi]P_0)-\bar\pi D\log P .
+ \end{aligned} \tag{BM3}
+$$
+它保留原整个零除子及重数。普通约化的最后一行是
+$cH_p+(D\log P)^p-a_pD\log P$，并非孤立的单点曲率。
+
+### 所有权同时的除幂整性及完整有限检验
+
+令 $\mathcal H=\{\sum_{j\ge0}a_jz^j/j!:a_j\in\mathcal O\}$。
+对 $N\ge1$ 取 $A_N=A_{\pi^N}$，在有限代数盖
+$Y_N^{2p^N}=A_N(x)$ 上选 $Y_N\sim1/z$ 的原分支。则
+$$
+ \boxed{\quad
+ \widehat\Phi(z)-P(x(z))Y_N(z)^{-c}\in p^{5N}\mathcal H .
+ \quad} \tag{BM4}
+$$
+证明如下。$\tau(z)\in\mathcal H$，因为它的除幂系数就是原整局部
+参数在不变整导子下的迭代值。$H$ 在普通原坐标中整，所以
+$H(\tau(z))\in1+\mathcal H_{\ge6}$；从 $H'/H$ 在除幂系数中积分，
+得到 $\log H(\tau(z))\in\mathcal H_{\ge6}$。
+在(BM2)换用 $\pi^N$，有准确商
+$$
+ \frac{\widehat\Phi(z)}{P(x(z))Y_N(z)^{-c}}
+     =H(\tau(\pi^Nz))^{c/p^N}.
+$$
+右边对数的第 $j$ 个除幂系数含
+$c\pi^{Nj}/p^N$，$j\ge6$，故全被 $p^{5N}$ 整除。
+指数的除幂系数是整系数 Bell 多项式，右边及其逆都属于
+$1+p^{5N}\mathcal H$。另一方面
+$\widehat\Phi=S(\tau(z))H(\tau(z))^c\in\mathcal H$，
+所以相减给(BM4)。该控制对所有 $j$ 同时成立，没有按权另付阶乘损失。
+
+对 $k\ge1$ 取
+$m=(p-1)p^{k-1}$、$N=\lceil2k/5\rceil$，则原普通中央有充要有限检验
+$$
+ \widehat G'_{B,p}(0)\in p^k\mathcal O
+ \quad\Longleftrightarrow\quad
+ D^m(P(x)Y_N^{-c})(O)\in p^{2k}\mathcal O. \tag{BM5}
+$$
+确实 $T_m=(1+p)^m-1$ 的赋值是 $k$。
+原有界整单位测度及 $\widehat G(0)=0$ 给
+$\widehat G(T_m)\equiv T_m\widehat G'(0)\bmod p^{2k}$。
+因 $p-1\mid m$，这是单位域 $x^m$ 矩；完整矩是
+$m!\widehat s_m$ 乘原普通周期的 $m$ 次方，该因子为单位。
+删去的 $p\mathbf Z_p$ 部分含 $p^m$，且 $m\ge2k$，
+所以不影响判据。最后用(BM4)的第 $m$ 个除幂系数，
+$5N\ge2k$，得到(BM5)。
+
+原完整中央非零等价某个 $k$ 违反右侧整除。这里建立了同一个
+$\pi$ 除法代数塔的任意精度母量；没有把有限阶代数值非零或
+(BM3)单行恒等式当作无穷素数的中央非零证明。
