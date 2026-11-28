@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `16cba5fa45a2f8d63513b7429c5094c62a0e0387`（2026-11-28 15:42 UTC）。
+- 最近实际pull后双README已读锚 `e9083c90000316e09cd6efda8cae908bd5bf0bb3`（2026-11-28 15:42 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
 - 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`；断线时只传小文本，不是假称本地pull。恢复后的实际pull已收齐所有回退提交。
 - 根§12直接推进，不加审批；§15只存源/参数/hash/小结果，不存可再生数据；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论先pull核规则再push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
@@ -20,7 +20,7 @@
 
 新q=warp=.012的λ0/M8真接受，λ.002的M8/M16原metric失败；[M24真接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)615点/mean1168、metric1.40754e−7，run21d676daa…/raw3bc1c050…。[λ.004](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)factor1/solve6后child−9/父3，无新解；nodal0fdf914d…保留，不推断OOM或数学失败。完整原状态见[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)。
 
-[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)只付新核心条件预算，未跑新BVP；不同b不得混作λ割线。[高k旧两级profile筛除](notes/2026-11-28-design-higher-k-old-profile-screen.md)已用实际BigInt排除k=.4/.5的所选经典支，k=.45直接继承R57；仅属R5/C³支，不扩大为任意C²不可能。[R87单缓坡](results/R87-single-gentle-ramp-half-curvature-held-window.md)改首升速为0→9/20一段，k=.5/S=.675/b=.3/α=.8；原盒50 Bernstein段付首周期|X|<1.34、首圆片K<12.3且保护窗已耗尽，给条件H/held/reach比例。新profile/独立校准源已发布，[原盒首真线性扫](notes/2026-11-28-design-single-gentle-linear-first-return.md)五点同号、exit2，非无根证明；[r≤1.15新盒](notes/2026-11-28-design-single-gentle-r115-extension.md)实际50盒通过、支撑≥.0978059，继续真线性校准；无λ1。
+[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)只付新核心条件预算，未跑新BVP；不同b不得混作λ割线。[高k旧两级profile筛除](notes/2026-11-28-design-higher-k-old-profile-screen.md)已用实际BigInt排除k=.4/.5的所选经典支，k=.45直接继承R57；仅属R5/C³支，不扩大为任意C²不可能。[R87单缓坡](results/R87-single-gentle-ramp-half-curvature-held-window.md)改首升速为0→9/20一段，k=.5/S=.675/b=.3/α=.8；原盒50 Bernstein段付首周期|X|<1.34、首圆片K<12.3且保护窗已耗尽，给条件H/held/reach比例。新profile/独立校准源已发布，[原盒首真线性扫](notes/2026-11-28-design-single-gentle-linear-first-return.md)五点同号、exit2，非无根证明；[r≤1.15新盒](notes/2026-11-28-design-single-gentle-r115-extension.md)实际50盒通过、支撑≥.0978059。[新真线性根](notes/2026-11-28-design-single-gentle-linear-root-actual.md)δ=.06809451565377872/r=1.1349085942296453，原core_z/core_R=−5.2781e−13、真exit0；旧五点不重算。现接此新profile原λ0/M8全BVP，未有新接受或λ1。
 
 [Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)实际POST403缺actions=write，无run；不绕权限。真实λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)和[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
