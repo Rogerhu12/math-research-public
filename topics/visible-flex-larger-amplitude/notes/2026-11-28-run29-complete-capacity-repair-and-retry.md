@@ -521,3 +521,56 @@
   }
 ]
 ```
+
+## 2026-11-28 05:58:53 UTC — 29重试双输入真实返回及R726新模型初始统计
+
+新run46112781312/1两输入均实际0：maker5.849011372999996s/sourcec736b49a；reference299.10227606399997s/source2477aaa56afade38965197209b695b4564ea06a7，完整报告84975B/09767cd5a3aff75868ec10ee2066d15cea50c070671b2117462b73fae37bb3fb。reference894879/212eb5fd、carrier205842/84060403，新的locations106771/0c29cb14、provenance223955/5b0477fd及binding35712/f743e599身份和完整全部命令/metrics保在固定分卷。原input accuracy_reached=false、whole_tail=true/unresolved_tail_dropped=false保持；必要输入生成0不代精度或闭场证书。
+
+新科学实际source `b0a08bf069a5d1ade7fbb94446940a6bd6ea4031`、launcher `36a7a0a286c7a983cdec7bc1ed19299c1ec57901df7d0daea707e20891e412c1`、PID3641。05:50:06.398807Z返回初始统计，actual driver `58630a875941be3612947e724aa25d9556b903c5ee1c392ff79f8def974e2813`，actual model `d3d295815f0d81553c3aafadb5c009213d9b5ff5d16a33b664de13bf3e155207`，当前/初点全7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，Phi584.1837411149863/Gram.41789030951309936、accepted0。坐标与旧族相同不代表同物理场，当前R726新model明确不同。至05:53:31初始完整geometry/六族/K/接受/report均未返；不回填26或旧29结果。
+
+当前数学观察原对象如下；传输观察另有41个尚未生成字段的原observation_errors，完整固定索引保全部，不把math observer_failures=0冒全部selector已齐。
+
+```json
+{
+  "math_at": "2026-11-28T05:50:06.398807+00:00",
+  "math_event": "initial-statistics-returned",
+  "math_driver": "58630a875941be3612947e724aa25d9556b903c5ee1c392ff79f8def974e2813",
+  "math_model": "d3d295815f0d81553c3aafadb5c009213d9b5ff5d16a33b664de13bf3e155207",
+  "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_Phi": 584.1837411149863,
+  "initial_Gram": 0.41789030951309936,
+  "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "current_Phi": 584.1837411149863,
+  "current_Gram": 0.41789030951309936,
+  "current_state": "initial statistics returned; no accepted direction",
+  "accepted_directions": 0,
+  "complete_report": false,
+  "stop_reason": null,
+  "observer_failures": 0
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 58915,
+    "sha256": "c74222741591ad02e54f1760007c219d11fe406de12b1e68d6766cc2891dd4b9",
+    "git_blob_sha": "898d2279d41085845e2a9a69cd2e3b24cd3badf9",
+    "fixed_commit": "560d5f3d390cdc1004e18e1a0ceb52b81132d963",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1-part-001.md",
+    "bytes": 16611,
+    "sha256": "25c84a3a81168b955a68ad7f718b30884694bf8cd78755d7c09fe05932aaae0a",
+    "git_blob_sha": "2eac3b681206203f1c20500a379a464467d5aba6",
+    "fixed_commit": "560d5f3d390cdc1004e18e1a0ceb52b81132d963",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
