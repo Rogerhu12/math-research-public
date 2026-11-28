@@ -142,6 +142,22 @@ def curvature(J):
     gauss=(l*n-m*m)/area
     return np.abs(tr)/2+np.sqrt(np.maximum(0,tr*tr/4-gauss)),area
 
+def physical_geometry(grid,x):
+    J,_,_,_=grid.jets(x)
+    P=J[:,0]
+    normal=np.cross(J[:,2],J[:,1])
+    area=np.linalg.norm(normal,axis=-1)
+    support=np.sum(P*normal,axis=-1)/area
+    i,j=np.unravel_index(np.argmin(support),support.shape)
+    return dict(minimumOutwardSupport=float(support.min()),
+                minimumAbsoluteHeight=float(np.abs(P[...,2]).min()),
+                heightRange=[float(P[...,2].min()),float(P[...,2].max())],
+                minimumAxialDerivative=float(J[:,1,:,2].min()),
+                maximumOriginNorm=float(np.linalg.norm(P,axis=-1).max()),
+                minimumArea=float(area.min()),
+                leastSupportAtPrefixParameterAndNativeTheta=[float(grid.t[i]*grid.source.S),float(grid.u[j])],
+                scope="finite actual physical prefix; global radial offsets remain in the source metadata")
+
 class Grid:
     def __init__(self,source,eta,spans,modes,radial,angles,shift,metric):
         if 2*modes>=angles:
@@ -386,12 +402,13 @@ def main(a):
         # arrays; background evaluation itself uses sixteen radial rows.
         Q=Grid(source,a.eta,spans,modes,max(360,nrad+97),max(320,nang+128),True,metric)
         independent=Q.report(oldX.ravel())
+        independent_geometry=physical_geometry(Q,oldX.ravel())
         state=a.out.with_name(a.out.stem+"-stage"+str(number+1)+".npz")
         save_state(state,oldX,spans,modes,metric,a.eta)
         row=dict(stage=number+1,spans=spans,modes=modes,metricChosenThisStage=number==0,
                  fixedContinuousMetricSinceStage=1,sourceS=source.S,initialTraining=initial,
                  checks=verification,accepted=accepted,lsmr=diagnostics,
-                 finalTraining=final_training,finalIndependent=independent,stateSHA256=digest(state))
+                 finalTraining=final_training,finalIndependent=independent,independentPhysicalGeometry=independent_geometry,stateSHA256=digest(state))
         history.append(row)
         summary=dict(eta=a.eta,actualEntrySHA256=digest(__file__),activeEntrySourceCommit=os.environ.get("R262_ENTRY_SOURCE_COMMIT"),sourceFieldSHA256=source.source_sha,historicalSourceBytesMatched=source.source_sha==HISTORICAL,
                      actualStages=[{k:v for k,v in r.items() if k not in ("accepted","lsmr")}|

@@ -37,7 +37,9 @@ def main():
            "2ecf-r262-physical-axial-shortening.py",
            "2ecf-r262-three-arcs-shortened-prefix-v2.py",
            "2ecf-r262-three-arcs-fixed-metric-refinement.py",
-           "2ecf-r262-all-original-rings-three-arcs-sleeve.py")
+           "2ecf-r262-all-original-rings-three-arcs-sleeve.py",
+           "2ecf-r262-all-original-rings-affine-height-design.py",
+           "2ecf-r262-three-arcs-frozen-height-and-metric-refinement.py")
     for name in names:
         src=scripts/name
         if not src.exists():
@@ -94,7 +96,7 @@ def main():
         target=out/("all-original-rings-low"+low[1:]+".json")
         code=pub.py("2ecf-r262-all-original-rings-three-arcs-sleeve.py",
                     "--scripts",a.scripts,"--comparison",a.scripts/names[0],
-                    "--work",a.work,"--low",low,"--out",target,allow_failure=True)
+                    "--work",a.work,"--low",low,"--steps","0","--out",target,allow_failure=True)
         if code:
             pub.publish("R262-all-original-rings-low"+low[1:]+"-exit",
                         "保全每一原圈并重新分配中央柱高度的新物理源退出 "+str(code)+"。",[target])
@@ -103,6 +105,40 @@ def main():
             pub.publish("R262-all-original-rings-true-sleeve-low"+low[1:],
                         "这一独立输入保全每个原截圈，前置真 .78 圆弧柱，在原前缀内用两侧平坦的速度分配收回高度；原无限尾及平盘物理位置保持。完整六 jet、未拟目标和所选正目标下的实际空间步分别列出，不与前一切除构造合并接受计数。"+
                         pub.compact(scalar_report(q)),[target,target.with_suffix(".npz")])
+
+    chosen=[]
+    for sleeve,low in ((".78",".25"),(".66",".25"),(".66",".35")):
+        key="c"+sleeve[1:]+"-low"+low[1:]
+        target=out/("affine-height-"+key+".json")
+        code=pub.py("2ecf-r262-all-original-rings-affine-height-design.py",
+                    "--scripts",a.scripts,"--comparison",a.scripts/names[0],
+                    "--work",a.work,"--full-sleeve",sleeve,"--low",low,"--out",target,allow_failure=True)
+        if code:
+            pub.publish("R262-true-full-affine-height-"+key+"-exit",
+                        "真实全原圈高度/径向目标联合线性设计退出 "+str(code)+"；没有完整结果。",[target])
+            continue
+        q=pub.obj(target)
+        pub.publish("R262-true-full-affine-height-"+key,
+                    "所有原圈保留，真实两导和全部材料角进入带固定总高度的有符号Rayleigh线性设计；之后对该实际空间重算完整Gram并执行XYZ/正目标步。c=.66 的新中央使用R310的.350至.650锥缩窗定义，外部几何各自仍待连续证明。"+
+                    pub.compact(scalar_report(q)),[target,target.with_suffix(".npz")])
+        k=float(q["finalIndependent"]["curvature"])
+        score=float(q["finalIndependent"]["peak"])+.02*max(0.,k-8.69)
+        chosen.append((score,target))
+    if chosen:
+        _,parent=min(chosen)
+        target=out/(parent.stem+"-fixed-h1.json")
+        code=pub.py("2ecf-r262-three-arcs-frozen-height-and-metric-refinement.py",
+                    "--scripts",a.scripts,"--comparison",a.scripts/names[0],
+                    "--physical-source",a.scripts/"2ecf-r262-all-original-rings-affine-height-design.py",
+                    "--work",a.work,"--parent",parent.with_suffix(".npz"),"--out",target,allow_failure=True)
+        if code:
+            pub.publish("R262-affine-height-frozen-refinement-exit",
+                        "真实高度和两径向目标均固定的空间加密退出 "+str(code)+"。",[parent,target])
+        else:
+            q=pub.obj(target)
+            pub.publish("R262-affine-height-and-metric-true-frozen-refinement",
+                        "父态按已声明的独立误差与有限曲率代价选择；整高度分配、两条g和完整中央幅度均保留，只作真实Boehm/角频空间细化。"+
+                        pub.compact(scalar_report(q)),[parent,parent.with_suffix(".npz"),target,target.with_suffix(".npz")])
 
 if __name__=="__main__":
     main()
