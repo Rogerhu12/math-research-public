@@ -336,3 +336,7 @@ R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四
 ### R1072 §13：所有中央有限矩的原权二oldform配对
 
 任意s=2i的原模p^s完整矩阵像线、wild原整数代表u²给真实权二theta，特征零全部q展开准确等于36M_i f_E17(p^s z)。完整右ideal、primitive深s祖先及原X^-父点支付所有系数；同层Petersson配对商就是原整数M_i，故p^(2i−1)不整除的有限证书被原权二配对精确实现。未以复配对非零或固定本征线替代p进中央检出。 [同编号全文](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1073 §§1–2：固定E65/E8125原类配对及有限中央证书
+
+固定E65与E8125=5³E65的原Hecke角色差是(Na/5)，实际390导子及5/双13 uniformizer值全部保留。同一原E1单位类精确给A_b(tν)=L_bν/L_1ν，两个真实范数支P±=(A65±A8125)/2。完整奇层Lagrange整余式D_i,±≡[T²]P± modp^i，因此两固定曲线至少一条原中央非零恰某有限证书vp(D)<i；若无穷p检出，固定二元族可用鸽巢。未证明该无穷检出。 [完整证明](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
