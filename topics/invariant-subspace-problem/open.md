@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-fu-u-three-half-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-B-I6-first-hk-loww-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)及[四原NP/NV核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保。仅ABQδPf，旧848/578/整Δ0撤回；Δ0全留。[新整t0排除](results/R150-appendix-unit211-entire-tzero-half-total-weight-and-hk-exclusion.md)全原mean/NP迫ell半、值矩迫λ半，再完整第五列物理秩矛盾；付t/z无需Phi/W/Pf或D非零。续t非零原图。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/[四原NP核](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)保，旧848/578/整Δ0撤回。[整t0](results/R150-appendix-unit211-entire-tzero-half-total-weight-and-hk-exclusion.md)全原矩/第五列秩排空，付t/z；[旧S0三源静核](notes/2026-11-28-hk-Szero-true-original-static-source-audit-8542.md)付S。dc888新Loww与E1/EBo固定z投影首次180秒4GiB，不倒NV/Δ/D；整个Δ0仍保。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头给1,T,z非自由；旧错链/bf3冻。[整t0](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)与[整A0](results/R150-appendix-unit211-Phi-zero-true-Azero-second-linear-and-whole-curve-exclusion.md)仅当前D非零全闭。fd9保B/G。[整B有理图](results/R150-appendix-unit211-Phi-zero-true-Bzero-rational-and-exact-six-by-two-model.md)/[C2原排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-slope-quadratic-complete-original-exclusion.md)已成；6cde全头I6十二×二0.367565秒/0，H3未倒，三cofactorλ9/9/10仅必要。a15c末JSON exit1保。[fu整u=3/2排除](results/R150-appendix-unit211-Phi-zero-fu-entire-u-three-half-original-exclusion.md)用两原均值，72ms QQ独立返回；只fu付2u−3。
+真四头给1,T,z非自由，旧错链/bf3冻；当前D非零t0/A0已闭。fd9保B/G。[整B原I6十二×二](results/R150-appendix-unit211-Phi-zero-true-Bzero-whole-original-I6-twelve-by-two.md)全头胶合含H3零，C2已整排，0.367565秒/0；qλ度(2,1,0)，三cofactorλ9/9/10仅必要，未称B空。a15c末JSON exit1保。[fu整u=3/2排除](results/R150-appendix-unit211-Phi-zero-fu-entire-u-three-half-original-exclusion.md)两原均值短证，72ms QQ独立返回；只fu付2u−3。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
