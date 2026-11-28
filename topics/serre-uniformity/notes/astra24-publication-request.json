@@ -1,35 +1,39 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-hahn-common-weight-20261128",
-  "request_id": "hc36-actual-Hahn-common-weight-and-pointvalue-20261128",
-  "message": "serre: identify original Hahn common-weight moments and exact Dixon point value",
-  "last_read_rules_commit": "deaac635928fb9420c1a9350c0ce41ca001673f1",
+  "source_branch": "serre-astra24-publish-cuspidal-deck-rank-20261128",
+  "request_id": "r1205-original-cuspidal-deck-rank-20261128",
+  "message": "serre: determine original cuspidal deck rank and integral Cartier-kernel basis",
+  "last_read_rules_commit": "a0234dec6fd1fc405169b6c60063143c4212af10",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "9862266ad6ad50436e16a823fddcf07198df4340",
+  "previous_request_git_blob": "38965d9107926d4429dc55f824868d9767b7af71",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md",
-      "previous_git_blob": "40b1398045a5a3b6ada6bac514377058e0ecedcc"
+      "path": "topics/serre-uniformity/results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-cuspidal-deck-rank.md",
+      "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "0b064d39fda16050b9a9284c935a76e8c69d0ead"
+      "previous_git_blob": "0aee9c978b3be2ee1999668dcbac32e4fe37b54c"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "a55db932f5376c77342156097e2ad7adbeacf6db"
+      "previous_git_blob": "1986df482ab0133598f19814e1032d78fc0332c1"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "1d3cda62fc3ade3045eff1665eef6eb2816285c9"
+      "previous_git_blob": "fba31183d069b27e81b6368b9a11e71ddd848214"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "b342785215fa7ddf58b8327e6e5a83787695e015"
+      "previous_git_blob": "0ce82fe10a3c5350bf81010ad94de06cbce3377a"
     }
   ]
 }
