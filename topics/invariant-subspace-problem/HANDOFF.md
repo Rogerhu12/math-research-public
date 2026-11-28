@@ -7,12 +7,12 @@
 - **规矩8/15/16：** 只保源/定义/run/SHA；旧编码仅runner临时历史输入。[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。根README新规16已读fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d/99c5ad8，今后新派显式gpt-6.2-astra/ultra。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 1c5816c595228da5cf79808708eb2c3482de3533（2026-11-28 19:22:09 UTC，Actions run46180764988实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46180764988-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 19:22:08 UTC/f133647a65407ade452fb03d3b2da2a45b214043，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 4ac46737b2bd1d952c6abd5bfb06299a7af21d26（2026-11-28 19:24:14 UTC，Actions run46180954379实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46180954379-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 19:24:13 UTC/b9a78ad3ae7e66de19e416410a07f22c6d9f65f7，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 19:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。20:07再探，旧故障保归档。
-- **终端断开后远端已读：** 3bb3466dfbb9355f41eadcf3ffa452ecbbc7c129（2026-11-28 19:21:36 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 5fecb1cf7d89346b65bd579da4397002a2bb3c54（2026-11-28 19:23:43 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-W-delta-ell-Phi-zero-complements-2245-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-Phi-global-second-head-five-generators-2250-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，整Δ0/ellhalf闭。** 权像维数≤1/8184保。新[完整NV–Loww91及Δ余图恢复](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)abd714唯一8.428479614秒/0，P(72,19,9)/总91原两源返；AΔ[t]/(NV,L)=AΔ/(P)，t唯一、明列单权纤维≤2且约化，U0另计。权共同分量/原空性开。
-- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ45/u5、同σ16/C10、4×28及小σ5/6头保。新[B2∩ell3/2全闭](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-complete-original-exclusion.md)c8e84唯一真6.470644042秒/0，四次矩域/原u二次/真t²保全部重数，128原列及整个A[t]三mean乘子返1。仅第二头付ell−3/2；一般权/第一头/两Q冻范围保。
+- **Phi错链冻，旧真闭支保。** B2∩ell3/2已全闭。新[全B2五生成](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-global-four-head-unit-and-five-generator-algebra.md)完整N♯=NV+2fE2，四原三次头det=2P02mδ(3−2ell)全单位；三次降二后E2消σ²给1,λ,σ,λ²,λσ，真t²延拓十生成，非free/非充分、几何D逆不属有限模。第一头/两Q冻，继续完整原值。
 
 ### rankH3原ess6
 

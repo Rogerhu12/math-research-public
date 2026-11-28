@@ -32,7 +32,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-29-results-before-W-internal-positive-u-closure-2200-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-29-results-before-Phi-global-second-head-five-generators-2250-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：正确Phi全第二头的显示四原头单位及五生成](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-global-four-head-unit-and-five-generator-algebra.md)：新完整N♯=NV+2fE2及显示det=2P02mδ(3−2ell)，所有三次降到二次后E2消σ²，给整个原必要商五生成；原t²延拓十生成，非自由、非充分，无新执行。
 
 - [R150：δ正阶的ell零与Phi零两个整个原支排除](results/R150-appendix-unit211-W-b0-internal-delta-positive-ell-zero-and-Phi-zero-original-exclusion.md)：完整q2/R6估值排ell任意正阶；Phi零U3/4只用原二次余式及非零整数262，无Phi逆。两个补图全mu值与极点均保，无新执行。
 
@@ -93,23 +97,3 @@
 - [R150：W/b0 正e、k首值−2中心的正ell排除与整位移](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md)：原b0/q2/R6完整覆盖λ所有估值，vℓ>0迫D/K同阶2vℓ但R6项阶4vℓ/6vℓ不合；得到v(k+2)≥ve。Z=(k+2)/e真整，余ell单位/极点未闭。独立纸证无新执行。
 
 - [R150：W/b0 整个负k射线的原q2/R6/完整N5排除](results/R150-appendix-unit211-W-b0-entire-negative-k-ray-original-q2-R6-N5-exclusion.md)：u非零的整μ和全部pole、u0的所有u+2/k首项相消均覆盖；U1/2 pole由N5首值−1，u0两中心由唯一极项/301非零排除。纸证无新执行，当前仅余三条权ray及内部/分母DVR边界。
-
-- [R150：正确Phi全权原首一t²、精确十列及第二NV头自由四元环境](results/R150-appendix-unit211-Phi-zero-corrected-whole-monic-t-quadratic-exact-ten-columns-and-four-generator-NV-head.md)：两真均值二次头在旧系数环上显示Bézout1，γO本身旧单位；原三mean与I6精确理想等式/四列和十列来源完整。第二NV头再叠原首一σ2，保全部重根和原剩余条件；纸证无新执行或排空。
-
-- [R150：W/b0 正e射线的原λ估值与两个极点中心](results/R150-appendix-unit211-W-b0-positive-e-ray-original-lambda-valuation-and-two-pole-centers.md)：原b0/q2/R6在k首值≠−2上排λ0/正估值，极点迫k首值4；因此全部极点只余−2/4。原短除余49/64于1009非零，保M首值0及全部未闭深中心。无新执行或整ray排除。
-
-- [R150：第二完整NV t头的原首一σ二次与四列呈示](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-original-monic-sigma-and-four-columns.md)：旧ellδ首一化完整第二矩，第三矩与完整NV有显示一次余式；同σ实际2×4呈示保所有头零、D0和t变量。纸面原身份，无新执行或排空；物理商不冒称自由，续真实原均值输入。
-
-- [R150：完整NV第一t头的原小三次、三个标量与冻结gcd边界](results/R150-appendix-unit211-Phi-zero-corrected-first-NV-t-head-original-cubics-scalars-and-frozen-gcd-boundary.md)：e362唯一120.073936225秒/−14；原Gram完整NV小三次、E2首一λ2、两个短除及三个原σ标量6/5/6均已完整返回。只σ6首种子，不是共同gcd；无合并/最终三原cover/排空，原120秒门冻结转新输入。
-
-- [R150：W/b0正k的e首值负一全分层原排除](results/R150-appendix-unit211-W-b0-positive-k-e-minus-one-complete-original-valuation-exclusion.md)：vu与vk全部比例、μ零/整值/各极点均由原q2/R6/N5覆盖，最后Z=bar(kμ)须同时满足R6三次及Z=−4/−16，矛盾。结合一般中心与E1论文关闭整个正k射线；仅余其它四ray和内部/整权模型，不宣全W空性。
-
-- [R150：W/b0正k的e首值一中心由原D/M身份排除](results/R150-appendix-unit211-W-b0-positive-k-e-one-center-original-D-over-M-exclusion.md)：原q2直接给D=M[A*A2−ellQ(3−4λ)]/(4uQδell)，分母旧已付。E1时S首值3/8、γ=vM>−a，vK=−2a；R6两项γ−4a与3γ−2a严格不同，所有M高阶相消皆含，无新计算。
-
-- [R150：W/b0正k射线仅余e首值±1的完整原值证明](results/R150-appendix-unit211-W-b0-positive-k-ray-only-e-plus-minus-one-original-centers.md)：原b0/q2先付λ剩余中心，R6必要二次P(E)=27E²−103E−22；完整NV的f常数系数N5及原尺度使最低项−224U⁵(E+5)为零，与P(−5)=159矛盾。保E±1，不将N5当物理f0，无新运行。
-
-- [R267：实际根曲线的同源Beta系数与每个非零列本性](results/R267-appendix-actual-Laurent-beta-coefficients-and-every-nonzero-column-essential-singularity.md)：合法算子参数代入、所有有限恒零块提取及余尾全旗强*单位，给负Laurent系数a^α binom(α,r)C^(h+1)V^rH_r与H_r→T*的O(1/r)界。每个固定非零p最终各负系数非零，故实际曲线每列本性；不付费用下界或排强子列。
-
-- [R150：正确Phi同σ两个N/P–NV五次原交叉与原t十次式](results/R150-appendix-unit211-Phi-zero-corrected-same-sigma-NP-NV-crosses-and-original-t-decic.md)：唯一run46164341750，4.844514676秒/0，完整σ身份、两普通三均值迹、固定三原cofactor全部返回。C10双次82/51、t10/总97/26511项，最终三个乘子分母均1；H87整零面未删，未降公共权曲线45或宣称空性。
-
-- [R150：W/b0整个负e、零k赋值射线原q2/R6排除](results/R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md)：原b0与完整q2自行排任意λ的v(2λ−3)≤0，原系数付vT=−a/2；R6的MK²估值−7a而另一项≥−5a矛盾。k首值−1/−2、D/A*/m首值零均保，独立纸证不冒称初项程序全格单位；其余五ray仍开。
