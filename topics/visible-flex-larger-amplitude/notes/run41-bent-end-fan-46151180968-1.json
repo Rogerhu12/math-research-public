@@ -277,18 +277,18 @@
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run41-bent-end-fan-46151180968-1/field/summary.json",
-      "bytes": 41259,
-      "sha256": "c82577541623965d1d93769b6e8d80dd713c687f402a9d6308e32214d579a89c"
+      "bytes": 41254,
+      "sha256": "f499c165d7fab3d22f43481a8305c2c767f05b41589728a50f6584f71ff66d87"
     },
     "complete_small_json": {
-      "elapsed_seconds": 7610.866591286999,
+      "elapsed_seconds": 7732.126090717,
       "in_progress": {
-        "call": 48,
-        "cost": 0.03237341416871819,
+        "call": 65,
+        "cost": 0.032126196654652,
         "design": "omega-shortened-cap",
         "knot_index": 10,
         "phase": 0.9817477042468103,
-        "point_sha256": "fe42a2e5c31de233a1b3b5a5246dc8baf236cce7c67664040892ef3d1492866d",
+        "point_sha256": "8ad084bac802606a291b7ac7505052921e9e2698f4ea68c6162bdc59b8660c6b",
         "stage": 7
       },
       "numpy": "2.3.5",
@@ -2802,6 +2802,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:45:38Z",
-  "observed_utc": "2026-11-28T15:52:40Z",
+  "observed_utc": "2026-11-28T15:54:43Z",
   "original_scalar_line_count": 38
 }
