@@ -48,4 +48,4 @@ root独占main；exact_analysis_ultra、strong_geometry_ultra、m12_solver_ultra
 14:34 UTC本执行器失联，后续重试仍unavailable；小文本API与Actions继续。旧根/workspace/scratch/2ecfcd6930d6及partial clones保留，恢复先literal pull并读README差。原2400字节未恢复，60d6d3c/a8069be仅明确来源恢复记录。最新API核至8d4b508d0846e2940d65be8b15338f0421b82133，根/题README无变化，API不冒literal pull；最新两库真实pull见下行。
 <!-- 2ecf-rules --> 本机停摆前最后真实pull：2026-11-28 14:30:28 UTC，公开a8bb8583083f13d9aaafb0366447b8e5911acc45，根/题README无差异。
 
-<!-- 2ecf-actions-rules --> Actions run 46167097874/1：真实 pull/rebase 2026-11-28 16:49:14 UTC；公开已读 906c1746ea728fb40ab49321cbac7c6a9c953eca，根/课题 README 无变化。 私库真实 pull 2026-11-28 16:49:07 UTC、已读 2fd0c0a03cdd322fd033edd64b17fff978f43386，私根无变化。
+<!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 17:02:19 UTC；公开已读 0c3525c61c31a37d59bfc63c954ec193923795b2，根/课题 README 无变化。 私库真实 pull 2026-11-28 17:02:18 UTC、已读 b3df81747668623675e1eb0f3d38b18fb4422dcc，私根无变化。
