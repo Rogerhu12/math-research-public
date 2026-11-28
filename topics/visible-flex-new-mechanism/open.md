@@ -166,3 +166,5 @@ R631 run46133637169接b7e0真实宏观路线源6673.02691023秒/51接受119拒�
 [完整终态](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261队列完整裁决并接受，旧30468不重播；本次2370.380567539秒，counts.accepted_metric_steps=7。现81q cb8b…，outer51真2031×3072+4701定位峰η.18196698661；outer52已需2039径，资格不能迁移，当前trust.6757621765。全J/自然返回未伪造，费用及不同辅助epigraph保留。
 
 **R734后续。** 对[原非解析母线](results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md)运行真实区间端口并保留全部逐胞journal，从准确下一键续接；仅实际certified_tail_port且f(cut)非零才授归一两jet。中央双核/真实二阶j1耦合、全角非线性修正、原固定g精化和全时几何仍未闭，有限O(q²)不冒完成。
+
+**R732后续。** [.100真实新源](results/R732-stronger-source-pulses-and-the-physical-three-curl-disc.md)的整个端盘仍须解三个Cartesian闭性分量，保持相位范围及同一个g，在degree3→5后继续实际加级；真重建位置的全点全时Gram≤1e−6及同g自然精化、曲率、含未知盘全部法球/直径仍未闭。首运行只授各实际有限网读数，不能以已给源/柱资格代替未知盘，亦不借R733或R736参数。

@@ -43,3 +43,5 @@
 - [R714 自然终态：原4261队列已闭与真实outer52状态](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261已全闭；保留cb8b…81q，outer52的2039需求不能借2031资格。
 
 **R734.** [真实二进非解析平领与衰减半频方向](results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md)：确切w上固定j≥2有唯一真实稳定线，完整Cartesian零应变和C²两jet拼帽；原固定g有限q残差O(q²)。[首公开区间工单](notes/2026-11-28-r734-true-dyadic-tail-scope.md)为两边j2/3完整实际胞；非线性闭壳及j1帽倾仍未授。
+
+**R732.** [提高真实脉冲基线的两盘源与自由全盘三curl](results/R732-stronger-source-pulses-and-the-physical-three-curl-disc.md)：实际新g的全部既给边弦、已给混法球、源法管及完整Cartesian材料标成立，负Gauss预算更正；真实位置由三curl重建。首[公开求解工单](notes/2026-11-28-r732-physical-three-curl-disks-scope.md)完整30→63列、八相位，实际全盘同g与连续全壳资格仍待实证。

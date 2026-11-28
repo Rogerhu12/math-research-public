@@ -1,0 +1,66 @@
+name: visible-flex full physical three-curl disks on the stronger source
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r732-physical-three-curl-disks-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r732-physical-three-curl-disks-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 110
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r732-physical-three-curl-disks-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r732_compensated_pulses.py
+            /topics/visible-flex-new-mechanism/scripts/r732_closed_ring.py
+            /topics/visible-flex-new-mechanism/scripts/r732_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_fields.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_qualification.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py
+            /topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R732-stronger-source-pulses-and-the-physical-three-curl-disc.md
+            /topics/visible-flex-new-mechanism/results/R730-all-collar-chords-and-the-negative-Gauss-area-of-a-mirrored-cylinder-cap.md
+            /topics/visible-flex-new-mechanism/results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md
+            /topics/visible-flex-new-mechanism/results/R724-comoving-central-crowns-and-four-outer-pulses.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r732-physical-three-curl-disks-scope.md
+            /.github/workflows/visible-r732-physical-three-curl-disks-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and run the bound physical input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r732-physical-three-curl-disks-20261128.json
+          --lane actual-physical-disks
+      - name: Preserve the original paid state and exact next operation
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r732-physical-three-curl-disks-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r732-paid-state/
+          retention-days: 30
+          if-no-files-found: error
