@@ -291,3 +291,7 @@ R748证明9116B/8982fae4…及完整六jet源1809B/94724585…全文核读刊入
 ## 2026-11-28 13:52:27 UTC — 34半步完整几何拒绝、四分试点启动
 
 原固定索引 a76443ffc21bf79feb648c6c414577a47069f0fc / 52547B / 7856142c7f1721dc3f048c01fea3cc0881d98587247b96fc901707950b82f2da 根完整读取。[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432/job140949157288：原全预算/139角色，accepted0；半步ea4bb111完整reachg300537.3169553407拒；四分8d07925e原trial已启，统计/完整几何未返。自然返才pure66120。 完整原math_event逐字段入ownnote；旧source/model/point/原budget均保，不混借同坐标，不把后续trial当接受点；自然science未返，pure未启。 双README云核至`fe02f23f796bfa10dfb93f8ee49fac02cd28b990`无变（非pull）。
+
+## 2026-11-28 13:58:43 UTC — 35半步完整几何拒绝、四分原统计返回
+
+固定原索引 a5a8e03bc5e4ec769716356854d5cbe67f2255a2 / 55201B / d91a93463e3c94ca9febbb418e1e8ac91b29534650c51623fd68779a4ca5ef1a，半步65983a0完整reachg903.6815803516885拒，四分af5eac51 Phi26772.13565593149/Gram1.4353037688805468、完整几何未返。当前仍原7e06/accepted0；139角色/1,333,370 outer全自由及全部预算不变。完整原math字段入ownnote。此次连接恢复已先核main，33/34此前提交确实落地、不重推；35当时未落地，现续完。H只省三处job重复字样，完整job身份仍各ownnote/固定旧H/原实际索引。 双README云核至`d311a308790f71bbe64b4f5d78f5a9cf91a24170`无变（非pull）。
