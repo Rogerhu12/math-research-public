@@ -122,7 +122,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)非圆core正宽准确Gram、core对全像两向.126球、柱内.18球和移动接口全jets；拼接宽未数值包围，非实际J923输入。
 
 [R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)全角同g带/内部.16球；[实际补发46139111288/1](notes/r734-actual-Hermite-46139111288-1.json) success，T*=1.1294006338228755e−5、原415片无未知、合作前缀0；raw与首run全SHA同，发布故障已修。
-[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)从零特征差给非合作逐叶比较及T†，max(T†,T*)双侧.16球。完整415片×32叶程序已刊，另从真实已达合作片接R734精确比较；新run待查，不把更长同g带冒全像reach。
+[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)全415片13280叶[实际46139897443/1](notes/r738-actual-gap-46139897443-1.json) success：同g全角双侧C²浸入半宽≥.5384265521561006，固定矩形段≥.264316681320779且II≤5；全有序.16球只证半宽1/200。初T†=.0004922365060485215；末充分比较不确不证物理解失效，未付外段/全闭面。
 
 [R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷每m≥2非零帽平坦线性核，恰一径向线/实parity；未有限积分或双端匹配。
 [R736](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md)同g单帽全三Gram含零模的兼容任意有限非线性阶；振幅平坦误差不证固定非零幅度收敛。

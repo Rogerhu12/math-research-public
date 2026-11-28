@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`1c59d0e9309e6a7875d2d7cfc42205434168cb2a`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`8ae1cb3f3a17b3ae296a299d57735288fa0ffcc9`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
 
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
@@ -41,7 +41,7 @@ R724–728完整证明/源参保results；R728真实w含高度项，最终seed4�
 
 [R737](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md)新设计metric得两帽固定、闭C²精确等距非全等端点对，reach≥.046/D<1.5/grip≥.9；小ε未付.2D位移，连续同g路径及cut数值复现未付，原g求解独立。
 
-[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)原真核非合作延拓已证：两特征差从零起，负耦合只付∫A_-|W|，全角梯度初<64；给逐叶向外比较和T†=min(w,.001,k₀/[2(1+B₃)])，max(T†,T*)保双侧带内.16球。完整实际程序现刊：415片×32闭叶、起点递推不确再24级，另从真实已达点接合作比较；新run待查。全域reach/接帽/强held未付。
+[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)非合作差值/角梯度比较已[实际全415片13280叶](notes/r738-actual-gap-46139897443-1.json)返：run46139897443/1 success，全角双侧同g浸入半宽≥.5384265521561006（215整片）；固定矩形段≥.264316681320779且II≤5；全双侧全部有序对.16法球半宽仅已证1/200。末失效仅充分比较不确；无完整F数组/全闭合/强held新证。
 
 [R739](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md)Hu真同g相位族的双对称轴物理发展半径配对，给有限全像held下界及精确一阶法速。附论仅证δhold>0时reach/D上确界1/2；q₀未知，不冒.2D。须找到有限真解并付全部厚度/精化，原R690求解继续。
 

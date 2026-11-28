@@ -6,7 +6,7 @@
 
 - **R739（已证明，真同g族的有限全像位移判据）**：[发展后双轴测量与弱位移的reach极限](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md) — Hu真非线性图的两轴物理半径由一维积分给出，按相同物理半径配对，连局部斜率费用与完整固定壳距离给有限held下界；真实m=2法速给δhold=2|q|‖Wα‖∞+O(q²)。附论仅在位移正的弱类证明全时reach/D上确界1/2；未给满足.2D的finite field或实际mesh，原metric主线继续。
 
-- **R738（已证明，原真核非合作延拓）**：[两特征差、角梯度及逐叶延拓](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md) — 完整同角差满足 ∂s(kaW)−cKUVkaW=K(UV)θ，W初为零、带权角导<64，负耦合只付∫A_-|W|；给逐闭叶向外有理比较及无条件T†=min(w,.001,k₀/[2(1+B₃)])≥min(w,.001,10T*)。max(T†,T*)保全双侧.16球；更长前缀/穿K=0/接帽/全域reach和强held未付。
+- **R738（已证明，原真核非合作延拓）**：[两特征差、角梯度及逐叶延拓](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md) — 完整同角差满足 ∂s(kaW)−cKUVkaW=K(UV)θ，W初为零、带权角导<64，负耦合只付∫A_-|W|；给逐闭叶向外有理比较及无条件T†=min(w,.001,k₀/[2(1+B₃)])≥min(w,.001,10T*)。[实际46139897443/1](notes/r738-actual-gap-46139897443-1.json) 全415片13280叶返：同g全角双侧浸入至.5384265521561006（215整片），原矩形至.264316681320779且II≤5；全部双侧有序.16球半宽仅1/200。比较不确不证物理失效；外段/穿K=0/接帽/全域reach/强held未付。
 
 - **R737（已证明，新设计度量的闭面等距端点对）**：[双帽匹配与有限精确等距非全等对](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md) — 原深谷稳定线的项目角无界绕行，连续择真实cut使圆肩赤道 $W=0$，镜像得两p4帽固定的全闭非刚无穷小弯曲。固定小 $\epsilon\ne0$ 的 $F_*\pm\epsilon Y$ 精确共享 $g_\epsilon$，均闭 $C^2$ 嵌入、reach $\ge.046>.03D$、$D<1.5$、grip $\ge.9$、两像及欧氏商距离正。新metric只在两末段保R690；未证贯穿等距路径、$.2D$ held或cut的数值复现。
 
