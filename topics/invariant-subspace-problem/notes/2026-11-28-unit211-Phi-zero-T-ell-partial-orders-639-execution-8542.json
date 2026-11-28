@@ -1,0 +1,202 @@
+{
+  "schema": "isp-original-Phi-two-transverse-partial-orders-and-frozen-time-boundaries-v1",
+  "date_taipei": "2026-11-28",
+  "cases": [
+    {
+      "case": "T_zero",
+      "job_id": 140850296441,
+      "elapsed_seconds": 120.07485091499998,
+      "max_child_rss_kib": 286808,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "ec002c824f27d2bd2d39961aae5b87a51d9355d2",
+          "before": "6675ad500a18a84dca4c2fe0ea5fecf45355eb83",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-28T03:31:52.478372+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46103274354",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "6675ad500a18a84dca4c2fe0ea5fecf45355eb83",
+      "source_exit_code": -14,
+      "source_git_blob": "eeae1ca81f477a93c539e22faef3a463324d9cfd",
+      "source_sha256": "332fc4d176a3395441e3ed651ee2917890081345b023d5596138ee7946a14a17",
+      "stdout_bytes": 15553,
+      "stdout_sha256": "9004b3d714e0b83c27c2d2324f9df75ca4e95199f1c9b2bb2661a47a1eb37447",
+      "stop_reason": null,
+      "completed_rounds": [
+        {
+          "round": 1,
+          "seconds": 15.186626188000005,
+          "precisionBefore": 17,
+          "precisionAfter": 16,
+          "extractedOrderBefore": 0,
+          "extractedOrderAfter": 11,
+          "rank": 11,
+          "nullity": 11,
+          "completeEH0Returns": 968,
+          "fullZeroRowJetDivisionReturns": 242,
+          "nextConstantMatrix": {
+            "rows": 22,
+            "columns": 22,
+            "maximumParameterDegree": 102,
+            "sha256": "f7d6ac8317ad29d8f153ab946a6f0957a37fea4918fd94030ba6f4e29e13a9b7"
+          },
+          "determinantPrecisionAtLeast": 27
+        },
+        {
+          "round": 2,
+          "seconds": 53.75915660199999,
+          "precisionBefore": 16,
+          "precisionAfter": 15,
+          "extractedOrderBefore": 11,
+          "extractedOrderAfter": 14,
+          "rank": 19,
+          "nullity": 3,
+          "completeEH0Returns": 968,
+          "fullZeroRowJetDivisionReturns": 66,
+          "nextConstantMatrix": {
+            "rows": 22,
+            "columns": 22,
+            "maximumParameterDegree": 188,
+            "sha256": "cfccc8f7a841904faaf367a9c59d3e376d6595e1cf452cc71fbee0d09719570f"
+          },
+          "determinantPrecisionAtLeast": 29
+        }
+      ],
+      "completed_lower_order": 14,
+      "published_modular_upper_order": 16,
+      "target_not_completed": true,
+      "frozen": true
+    },
+    {
+      "case": "ell_zero",
+      "job_id": 140850301932,
+      "elapsed_seconds": 120.053103015,
+      "max_child_rss_kib": 303344,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "ec002c824f27d2bd2d39961aae5b87a51d9355d2",
+          "before": "4fe19dd455732e2e12814bff1d38939279a2bb0f",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-28T03:31:55.035738+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46103275741",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "4fe19dd455732e2e12814bff1d38939279a2bb0f",
+      "source_exit_code": -14,
+      "source_git_blob": "b77cd836795dfc94db6be25b3daad96555e1e41d",
+      "source_sha256": "1ec0b3548a85eefaac21e56996aede30dde88bad19ea56a1a76f6f7323540283",
+      "stdout_bytes": 21576,
+      "stdout_sha256": "2ecb36ce755ad9714fb86bfe5add106d55960bfa730d61fb56d42c13149e7233",
+      "stop_reason": null,
+      "completed_rounds": [
+        {
+          "round": 1,
+          "seconds": 12.868784298999998,
+          "precisionBefore": 26,
+          "precisionAfter": 25,
+          "extractedOrderBefore": 0,
+          "extractedOrderAfter": 11,
+          "rank": 11,
+          "nullity": 11,
+          "completeEH0Returns": 968,
+          "fullZeroRowJetDivisionReturns": 242,
+          "nextConstantMatrix": {
+            "rows": 22,
+            "columns": 22,
+            "maximumParameterDegree": 86,
+            "sha256": "c1a304124bd9ade1a335f84103c9617dec6c1bca67dbc87a13fcc4d03d19d683"
+          },
+          "determinantPrecisionAtLeast": 36
+        },
+        {
+          "round": 2,
+          "seconds": 17.556668692999992,
+          "precisionBefore": 25,
+          "precisionAfter": 24,
+          "extractedOrderBefore": 11,
+          "extractedOrderAfter": 16,
+          "rank": 17,
+          "nullity": 5,
+          "completeEH0Returns": 968,
+          "fullZeroRowJetDivisionReturns": 110,
+          "nextConstantMatrix": {
+            "rows": 22,
+            "columns": 22,
+            "maximumParameterDegree": 103,
+            "sha256": "c5379daf47507bc8614414c7b1e71a4f0b4cd7a8935f8161640deb7c10ec6693"
+          },
+          "determinantPrecisionAtLeast": 40
+        },
+        {
+          "round": 3,
+          "seconds": 27.10124708100001,
+          "precisionBefore": 24,
+          "precisionAfter": 23,
+          "extractedOrderBefore": 16,
+          "extractedOrderAfter": 21,
+          "rank": 17,
+          "nullity": 5,
+          "completeEH0Returns": 968,
+          "fullZeroRowJetDivisionReturns": 110,
+          "nextConstantMatrix": {
+            "rows": 22,
+            "columns": 22,
+            "maximumParameterDegree": 188,
+            "sha256": "b7d42dbe7918f18d486d57b35c5628d6735ec98664dd861139856002a46af86b"
+          },
+          "determinantPrecisionAtLeast": 44
+        }
+      ],
+      "completed_lower_order": 21,
+      "published_modular_upper_order": 25,
+      "target_not_completed": true,
+      "frozen": true
+    }
+  ],
+  "mathematics": {
+    "phi_T": "Q+4u-4",
+    "phi_ell": "Q-2(u-1)(u-2)",
+    "completed_exact_QQ_divisors": [
+      "(Q+4u-4)^14",
+      "(Q-2(u-1)(u-2))^21"
+    ],
+    "combined_with_previously_paid_divisors": [
+      "u^4",
+      "(u-1)^30"
+    ],
+    "pairwise_coprime_primitive_factors": true,
+    "complete_remaining_polynomial_true_u_degree": 639,
+    "true_QQ_Q2_and_mod1009_degree": 639,
+    "removed_additional_u_degree": 56,
+    "mod_leading_coefficient_divisor": 201,
+    "mod_leading_coefficient": 636,
+    "T_remaining_mod_order": 2,
+    "ell_each_root_remaining_mod_order": 4,
+    "no_exact_order16_or25_claim": true,
+    "no_other_bad_block_removed": true,
+    "no_whole_Phi_exclusion": true
+  },
+  "freeze": {
+    "raise_time": false,
+    "shorter_jet_restart": false,
+    "replay_same_two_gates": false,
+    "different_mathematical_inputs_only": true
+  }
+}

@@ -1,15 +1,16 @@
 {
-  "message": "ISP R150: entire Lhalf original D F101 cover and normalized length2424",
-  "parentCommit": "42dd57198381cf3cdfe2808c32581c5260d8e564",
+  "message": "ISP R150: true T14 ell21 factors and rank639; first individual NP full V highest input",
+  "parentCommit": "3faba88eda2f6f1249c2507e0060bbc5f7d8aa84",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-Lhalf-original-D-F101-cover-and-normalized-length.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-Lhalf-original-D-F101-cover-actual-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-Lhalf-F101-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-Lhalf-F101-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-T-ell-partial-orders-639-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-individual-NP-full-V-highest-five-source-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-individual-NP-full-V-highest-five-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-individual-highest-five.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-individual-highest-five.yml"
+  ]
 }

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 / Phi 真T14、ell21及完整639次整模型：** [完整下界与冻结边界](results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md)。两原曲线真QQ核运输分别付14/21，合此前u⁴/(u−1)^30给保度639/LC636；精确16/25未证，余坏块全保。唯一两次120秒计时失败冻结，不改短jet续跑。
+
 - **R150 / 整Lhalf原D的F101覆盖与规范长度2424：** [完整原返回](results/R150-appendix-unit211-W-entire-Lhalf-original-D-F101-cover-and-normalized-length.md)。整个二次域求原六行目标，仅最终已约系数分母G140剥原paid得到F101；全6坐标与6个L整除返回，恢复所有中间极点/分歧。原权202、均值1212、规范2424，全部有限纤维仍待原值排空。
 
 - **R150 / Phi 真(u−1)^30因子与完整695模型：** [证明及冻结边界](results/R150-appendix-unit211-Phi-zero-u-minus-one-thirtieth-factor-695-model-and-frozen-memory-boundary.md)。四轮QQ核完整付30阶下界，合先前u⁴给695次整模型；精确39未证，余九模重数保。唯一71.641秒/−6内存失败冻结，不加内存或缩jet重跑。
