@@ -241,3 +241,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 07:54 UTC — visible-exact-astra-b0d5a16-20261128：ABNC应用完整BNC.14于run46117248905/1全7成功对象，真96 target coordinate joint error<.001383111，全192observations/96exact rationals/五整费/双mean保。whole actual70893B/2df0e900…、execution36848B/081c3c4b…、238输入与原validator通过；old_scientific_target_calls及old_completed_targets_recomputed均0，legacy old_numerical_producers_called=1准确指一次必要carrier恢复，未改记0。它不是完整Theta列，全部高频/phase/height/fullSchur另付。
 
 2026-11-28 07:57 UTC — visible-exact-astra-b0d5a16-20261128：WMA实际全14完成，whole actual12593B/587ec4c2…、execution8924B/1b022e58…，145输入/原UACT21/WMT完整validator全过。新fullTheta error6.95796177721855…<6.957962，保850旧候选及有限.31698的原scope；所有96行/2048head/4Gram/全model1048576及无限tail实际齐，科学60秒、旧targets0。BFP完整后只替同global槽，尚不授全Schur。H96容量修复0ed00cf19已启动run46123190757/1。
+
+2026-11-28 08:08 UTC — visible-exact-astra-b0d5a16-20261128：SC首次科学执行前，原同一次complete_TC_column_errors已返回的全部96×(d,z,e)现与waist96同文件保存，保完整P224/TC正负/jointmath及receiver身份和逐项读回。原pure、三个自然目标、科学参数全未变，0科学调用；columns预算45000→85000、publication250000→290000，独立reserve120000不动。3文件AST、完整shape元数据准入及67016-byte占位预算通过；CFC可直接用首次全e96，未预报SC成功。

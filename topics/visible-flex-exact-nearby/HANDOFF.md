@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 07:58:03 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:07:40 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至62de25c019a922ec661de5da59f5fbd9b69d0087；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至d2aef4fd745c2136aa66ce7cd116dc0365542c61（07:28确认pull已完成且README无差异），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至e5296e90b3317017d4195527f67ad1a1a3979afd；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至d2aef4fd745c2136aa66ce7cd116dc0365542c61（07:28确认pull已完成且README无差异），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9新增128件无引用旧JSON仅去字符串外ASCII空白；whole receipt notes/2026-11-28-legacy-native-metadata-whitespace-ninth.json，69521B/97dacd0d…；gross838380B/net768859B，原件7588478671c1f733a31225fce654008d3c5b5a75完整保留、科学0。每次pull重核新引用。META1–8全部账保此前H和原receipt；第8批842c46826净753508B不重做。
 
@@ -44,4 +44,5 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 SREG/SRH同一selection已有E4224连续/E4000<2^-49999998，exact prioris64..2204/source3938，原两大常数与高forcing义务保。SDIF/HL/HLP/SHL真实A0/L²响应、H8193方向C1与逐base余项已付，不授rough-source onto或L²operator连续。SHT/GVC完整片scalar/vector C²和oneλ/world/mean保，GHX非whole闭面。SCAP M(γ,fBγ)至q1165 C1、原97反馈τ<2^-31223196/cut<2^-31223185；CPA193两门/高cut(cC+1)及所有完整scope保前页与open。
 
 必须继续：真正侧low193及58→224→32→PN56/CXN6；TC全真列/physical signed square/cross；finite/high和两mean/ν/phase/height全Schur。随后同态H1/fullmean/true residual0/core C0，NG门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12、γA0/H8193准入、qν−Z负窗≤.005、第四Robin/腰/真phase；完整D² tame与可求和增广迭代；全B/C/Cmean、height/span/holonomy/位置周期/同world frame/腰反射/两regular caps。全部实际完成才一次冻结参数并验收族。
-当前并行：actual_inverse推进全空间Θ receiver与ν具体signed列；alternative_route推进TC96 height实际载体/owner；cap_world推进TF真source接58→224→32；root推进TC96完整height行。各自独占新文件，root负责公共索引与统一提交推送，不停在中间结果。
+SC首次执行前已被动保全同一次原pure返回的全部96×(d,z,e)及全receiver身份；数学/三个目标不动，columns整文件85000、publication290000，reserve120000不变；0科学，见notes/2026-11-28-SC-passive-complete-root96-records.md。CFC直接接原e96。
+当前并行：actual_inverse推进DCP与整对象ν消费者；alternative_route推进CFC完整有限列；cap_world推进PWA/NG；root统一审查、登记及推送并推进全逆。各自独占文件，不停在中间结果。

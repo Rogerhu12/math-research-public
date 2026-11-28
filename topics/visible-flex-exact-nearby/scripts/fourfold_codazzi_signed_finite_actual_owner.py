@@ -25,6 +25,10 @@ FILES = {'state': 'actual-signed-finite-state.json',
          'columns': 'complete-true-waist-column-errors96.json',
          'physical_primitive96': 'complete-true-physical96-gate.json',
          'declared_incoming_cosine96': 'complete-true-incoming96-gate.json'}
+ROOT_FIELDS = ('low_odd96_and_moving_mean_root_error_upper',
+               'high_root_mixed_error_upper',
+               'complete_physical_root_error_upper')
+MAXIMUM_COLUMNS_BYTES = 85000
 PARAMETERS = {
     'arithmetic_bits': 320, 'public_digits': 60, 'private_digits': 80,
     'complete_columns': 96, 'complete_rows': 96, 'independent_density_means': 2,
@@ -206,6 +210,28 @@ def validate_result(document, name, manifest_sha, input_identity):
                     == {'column_%03d'%j for j in range(1, 97)}
                 and document['independent_density_means'] == 2,
                 'all96 true PDE waist-column error bounds')
+        require(set(document['complete_root_error_records'])
+                    == {'column_%03d'%j for j in range(1, 97)}
+                and all(set(row) == set(ROOT_FIELDS)
+                        and all(isinstance(row[key], dict)
+                                and set(row[key]) == {'ball'}
+                                and isinstance(row[key]['ball'], str) for key in ROOT_FIELDS)
+                        for row in document['complete_root_error_records'].values()),
+                'all96 complete original low/mean, high/mixed and physical root bounds')
+        receipt = document['passive_root_record_identity']
+        require(receipt['kind'] == 'SC_same_single_computed_root96_records_v1'
+                and receipt['complete_columns'] == 96
+                and receipt['whole_original_P224_actual_sha256'] == input_identity['P224_actual_sha256']
+                and receipt['whole_original_TC_positive_sha256'] == input_identity['TC_positive_sha256']
+                and receipt['whole_original_TC_negative_sha256'] == input_identity['TC_negative_sha256']
+                and len(receipt['whole_original_joint_math_sha256']) == 64
+                and receipt['original_received_gains'] == document['original_received_gains']
+                and receipt['same_single_complete_TC_column_errors_call'] is True
+                and receipt['root_formula'] == 'sqrt(d_j^2+z_j^2)'
+                and receipt['complete_nonzero_P224_source_indices'] == [1, 2, 7]
+                and receipt['additional_scientific_calls'] == 0
+                and receipt['new_natural_targets'] == 0,
+                'passive full root records preserve the same complete receiver and producer identity')
     else:
         require(name in ('physical_primitive96', 'declared_incoming_cosine96')
                 and document['receiver'] == name
@@ -328,6 +354,10 @@ def main():
             validate_result(document, name, args.manifest_sha, input_identity)
             raw = canonical(document)
             require(0 < len(raw) < 95000, 'one complete small SC natural conclusion')
+            if name == 'columns':
+                require(len(raw) <= MAXIMUM_COLUMNS_BYTES
+                        == manifest['operation']['maximum_columns_bytes'],
+                        'one whole waist/root96 conclusion within the actual report budget')
             atomic(out/FILES[name], raw)
             saved = parse((out/FILES[name]).read_bytes())
             require(saved == document, 'whole SC natural result readback')
@@ -357,15 +387,34 @@ def main():
             api, full_table, residual_columns, gains['CR'], gains['CO'], gains['C2'])
         column_doc = common(TARGETS[0])
         column_doc.update(true_full_waist_column_errors_proved=True, independent_density_means=2,
-                          complete_column_error_records={},
+                          complete_column_error_records={}, complete_root_error_records={},
                           exact_positive_nonzero_ports=[1, 2, 7],
                           full224_admitted=True, original_received_gains=data['receiver_records'])
+        column_doc['passive_root_record_identity'] = {
+            'kind': 'SC_same_single_computed_root96_records_v1', 'complete_columns': 96,
+            'whole_original_P224_actual_sha256': input_identity['P224_actual_sha256'],
+            'whole_original_TC_positive_sha256': input_identity['TC_positive_sha256'],
+            'whole_original_TC_negative_sha256': input_identity['TC_negative_sha256'],
+            'whole_original_joint_math_sha256': specs['joint_math']['sha256'],
+            'original_received_gains': copy.deepcopy(data['receiver_records']),
+            'same_single_complete_TC_column_errors_call': True,
+            'root_formula': 'sqrt(d_j^2+z_j^2)',
+            'complete_nonzero_P224_source_indices': [1, 2, 7],
+            'additional_scientific_calls': 0, 'new_natural_targets': 0,
+        }
         originals = []
         for row in computed:
             name = 'column_%03d'%row['column']
             record, point = new_record(row['complete_waist_column_error_upper'])
             column_doc['complete_column_error_records'][name] = record
             originals.append((('complete_column_error_records', name), point))
+            # These are already returned by the SAME pure call above.
+            # Save every original root component without another evaluation.
+            column_doc['complete_root_error_records'][name] = {}
+            for key in ROOT_FIELDS:
+                record, point = new_record(row[key])
+                column_doc['complete_root_error_records'][name][key] = record
+                originals.append((('complete_root_error_records', name, key), point))
         saved_columns = save_result('columns', column_doc, originals)
         errors = [old_upper(saved_columns['complete_column_error_records']['column_%03d'%j])
                   for j in range(1, 97)]

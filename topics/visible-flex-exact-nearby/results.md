@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SC完整root96保存接口](notes/2026-11-28-SC-passive-complete-root96-records.md)：首次执行前被动保存同一次原pure返回的全部96×(d,z,e)，同全P224/TC正负/receiver身份及旧waist96整体读回；原数学和三个目标不变、0科学调用。未宣称SC实际成功。
+
 - [WMA：同一全Θ实际误差<6.957962](results/R149-supplement-actual-complete-weighted-model-Theta-receiver.md)：run46122573619/1全14目标已成、全145输入和原UACT21/newWMT validator过；actual12593B/587ec4c2…、execution8924B/1b022e58…。所有96×8192/2048、4个全Gram和原model1..1048576及无限尾齐，旧科学0；完整global候选由850.945862…改善到6.9579617772…，原候选和finite-only .31698保。只在BFP19整成功后替其同一global槽，不冒ν整列/全Schur。
 
 - [ABNC：真正target-normalized strictν的实际完整列](results/R147-supplement-actual-complete-target-normalized-strict-nu-column.md)：run46117248905/1全7目标/192observations成功，全部96 exact rational centres+whole joint error<.001383111；五整费、真phase、两mean保。原238输入/validator准入；actual70893B/2df0e900…、execution36848B/081c3c4b…。必要旧carrier恢复1次、旧科学0；该列是E96^{a*}B⁻¹Fν，不能补零称完整Θν，也不授fullSchur。

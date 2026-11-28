@@ -423,7 +423,9 @@ def main():
             'and all seven actual JC records precede this arithmetic.  Original carriers are '
             'necessarily rematerialized with their complete original hashes; no old residual, '
             'norm, KAM, or JC target runs again.  The new objects contain96 true full waist-column '
-            'error bounds and both entire signed96 matrices with honest sufficient inverse-gate '
+            'error bounds, every original low/mean, high/mixed and combined root96 bound passively '
+            'saved from the same single column-error call, and both entire signed96 matrices '
+            'with honest sufficient inverse-gate '
             'outcomes.  Both physical density means are retained in the receiver.  The full mean, '
             'phase, nu and high-eliminated Schur problem and nonlinear closed-family completion '
             'remain separate obligations.  Complete private arrays are not published.\n').encode()
