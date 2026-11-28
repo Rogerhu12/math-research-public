@@ -5,7 +5,7 @@
 ## 规则与来源
 
 - 最近实际pull后双README已读锚 `141333184d3c1f6ff10c4ea2b2103e3ccb9f96bb`（2026-11-28 14:19 UTC）。
-- 集成回退核main `ec8505bf8685c84cfdd6c9e0816bbffbbd22ae2c`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
+- 集成回退核main `1d6d29bece831d30b5a657b68406db6ba7c937a9`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
 - 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。公/私库至少每小时pull，每次对已读锚核双README差异并立即遵守，H记录SHA。
 - 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
 - [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[早期详细快照](notes/2026-11-28-handoff-details-before-compact.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
@@ -22,7 +22,7 @@
 
 [完整CSR前置映射M16核](notes/2026-11-28-design-csr-prefactor-mmap-complete-m16.md)已证原J/方向/残差逐位同，仅存储执行。[v6 pre-J中断](notes/2026-11-28-design-factor-mmap-m48-prej-interruption.md)无J/solve，不归因OOM。v7全映射/v8仅CSR保原门、无新BVP；双路watcher已exit130，35次未启。
 
-新q=warp=.012路径：[λ0/M8已接受](notes/2026-11-28-design-small-q012-lambda000-actual.md)，603点/metric1.13318e−8；λ.002/M8/M16原metric8.20161e−6/2.06188e−6失败。M24首−9后完整615点恢复真exit0（14:15:50UTC）：RMS9.974606331e−7/metric1.407536802e−7/BC1.94201e−15，mean1168，run21d676daa…。续λ.004/M24真−9（14:21:24，父3，后代全回收），完整QR factor1/solve6后无raw/RMS/metric；615×73完整pre-J节点0fdf914d…保留。RHS16+每个已接受chord节点保存后继仅备、未spawn。固定k=.2有独立O(λ)强迫；小q不作10%完成/同g精化。
+新q=warp=.012：[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受；λ.002的M8/M16原metric失败。[M24真实接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)：615节点/mean1168、metric1.407536802e−7，run21d676daa…/raw3bc1c050…。完整nodal ef8e0342…恢复后14:15:50UTC真0，RSS518732KiB。续λ.004真−9（14:21:24，父3，后代全收），factor1/solve6后无raw/RMS/metric；完整pre-J节点0fdf914d…保留。RHS16+每accepted chord节点保存仅备、未spawn。小q不作10%或同g精化，固定k仍有O(λ)强迫。
 
 [Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)和[显式冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)已备；实际POST403缺actions=write、v3无run，不绕权限，继续本地。真λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)及[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
