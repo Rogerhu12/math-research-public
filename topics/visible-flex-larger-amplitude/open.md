@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 19–32终态与各自README核查异常保固定全文和[独立日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)。不重做登记结论；自然science返回才whole pure，trial不作accepted/final，异source/model不借同坐标费用。
 
-[33](notes/2026-11-28-run33-section16-retry.md) 46133839513/job140944661119：原全预算/138角色，accepted0；全步/半步reach拒，四分1ea6125统计Phi693.2773822139695/Gram.4068851236763789，完整几何待。自然返才pure62854。
+[33](notes/2026-11-28-run33-section16-retry.md) 46133839513/job140944661119：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432/job140949157288：原全预算/139角色，accepted0；全步b36a1d完整reachg630003.3274714495拒；半步ea4bb111统计Phi64186.528482859125/Gram2.9404923519415433，完整几何待。自然返才pure66120。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293/job140957485768：139角色/1,333,370 outer全自由及原全预算，accepted0；全步reach拒，半步65983a0统计Phi172140.83283801825/Gram4.592806585851207，完整几何待。自然返才pure74162。
 

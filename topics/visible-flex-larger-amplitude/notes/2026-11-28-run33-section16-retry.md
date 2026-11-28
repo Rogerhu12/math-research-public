@@ -462,3 +462,65 @@ The reproducer reads the complete original request and queue by their Git identi
   }
 ]
 ```
+
+## 33四分完整几何拒绝、八分原统计返回
+
+根独立完整读取固定原观测 [原完整索引](https://github.com/Rogerhu12/math-research-public/blob/a76443ffc21bf79feb648c6c414577a47069f0fc/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md)，完整 60399B / SHA256 `780972948402f32ca6104ef370f0c7f499dd02e298918bfa45eecc9703ef6eb7` / Git `c3e8f1e7c4c55a53a325ee3841ecf62c270e006b`。真实观察时间 2026-11-28T13:47:22Z，科学源 `bffd5bbf0e5b5be0ded252f50613e2ca88489558`，原PID 3463。
+
+[33](notes/2026-11-28-run33-section16-retry.md) 46133839513/job140944661119：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
+
+原科学自然返回前不运行pure；accepted仍0、current仍原7e06e86e，当前trial不冒accepted/完整终态。全部已登记更早点、初值、角色、预算、原残差及未知保上文，原runner未重启或削预算。
+
+```json
+{
+  "math_at": "2026-11-28T13:35:24.880663+00:00",
+  "math_event": "trial-statistics-returned",
+  "math_driver": "a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3",
+  "math_model": "61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7",
+  "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_Phi": 681.6517423825408,
+  "initial_Gram": 0.4061652531176999,
+  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_violation": 0.5305849371949052,
+  "initial_geometry_complete": true,
+  "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "current_Phi": 681.6517423825408,
+  "current_Gram": 0.4061652531176999,
+  "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "current_violation": 0.5305849371949052,
+  "current_geometry_complete": true,
+  "current_state": "initial statistics returned; no accepted direction",
+  "trial_point": "2fba4ebf33f0dc5426a6fadb660e8dd2638e7d468942493454e148e7df682313",
+  "trial_Phi": 687.4074461474393,
+  "trial_Gram": 0.4064776966221723,
+  "trial_accepted": null,
+  "accepted_directions": 0,
+  "complete_report": false,
+  "stop_reason": null,
+  "observer_failures": 0,
+  "current_g_reach": 0.5305849371949052,
+  "current_g_body_diameter": -0.03813552733778258,
+  "current_g_distance_plus": 0.11391238912344381,
+  "current_g_distance_minus": -3.0936337267043594,
+  "current_g_cap_diameter": -0.06715131487906445,
+  "current_g_height_floor": -1.0411715967426867,
+  "previous_completed_trial_point": "1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e",
+  "previous_completed_trial_g": 3.3892706625394684,
+  "previous_completed_trial_accepted": false,
+  "previous_completed_trial_maximum_families": "reach",
+  "previous_completed_trial_Phi": 693.2773822139695,
+  "previous_completed_trial_Gram": 0.4068851236763789,
+  "current_K": 12.32709940409259,
+  "current_D_point_lower": 4.117175466515689,
+  "current_K_cell": 885,
+  "current_K_u": 0.8306046932331322,
+  "current_K_phi": 1.5707963267948966,
+  "current_K_branch": 1,
+  "current_K_s": 2.1573631007205925,
+  "trial_alpha": 0.125,
+  "trial_phase": "restoration",
+  "current_distance_plus_phi": 1.5707963267948966
+}
+```
