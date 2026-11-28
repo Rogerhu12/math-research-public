@@ -1,0 +1,31 @@
+name: Serre new weighted Legendre joint probe
+on:
+  push:
+    paths:
+      - '.github/workflows/serre-legendre-weighted-probe.yml'
+      - 'topics/serre-uniformity/scripts/legendre_weighted_probe.py'
+      - 'topics/serre-uniformity/notes/legendre-weighted-probe-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/legendre_weighted_probe.py
+            /topics/serre-uniformity/notes/legendre-weighted-probe-request.json
+      - name: Compute only the newly defined weighted quantities
+        env:
+          PYTHONUNBUFFERED: '1'
+        run: >-
+          python topics/serre-uniformity/scripts/legendre_weighted_probe.py
+          --request topics/serre-uniformity/notes/legendre-weighted-probe-request.json

@@ -734,3 +734,7 @@
 ### 2026-11-28 09:42 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1154 §11付原三次finite-log的Bernoulli端点及三个带真实范围的shifted kernels；完整指定Legendre权重得到Cν(q)+(3/8)Bp−3D2。root核有限插值/Faulhaber、所有尾项索引与原三矩展开，旧1–10逐字保留后即推。
 - Cν(Qν)与D2的真实关系仍开，不把无权Bp−3单位当指定minor单位；继续联合消去，无数学执行。
+
+### 2026-11-28 09:46 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 新增课题外共享文件.github/workflows/serre-legendre-weighted-probe.yml及本课题script/request，原因：仅在本公开Actions计算新R1154§11指定Cν(Qν)/D2，判断两条具体恒等式/单位目标是否值得继续。1000<p<1100,p3mod4，至多8素数；不重跑旧41/47或端值窗口。
+- 仅提交源/参数，输出只留Actions日志，随后登记run/hash和结论；未在本地/V8执行数学。root继续实际中央运输，无等待门。
