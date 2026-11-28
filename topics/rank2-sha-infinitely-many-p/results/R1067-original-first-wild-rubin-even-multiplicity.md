@@ -1286,3 +1286,306 @@ $$
 physical $p^{-m}$ 和 $[p]$ 框架。
 它为含质量的更深比较提供明确的有限行，但本节没有将
 $\dot G_r$ 直接认作原 $J'_S$，也没有证明(58)与原坏条件冲突。
+
+## 16. 原混合权比值的解析单位：先固定 CM-pair 图，再作相消
+
+本节加强§4的逐权赋值式。所插值的是两条原来源完成全部公共
+非单位因子相消后的比值，保持原 $\mathcal A_p$ 的整基；
+并不插值单条未正规化的 usual 临界值序列。
+
+### 16.1 比较标量由原图定义，不由非零 Hall 值求商
+
+继续固定同一 $\nu_r^{-1}$。在§4.1的两条路径中，使用
+Kato §15.8 的同一个 CM tensor 构造、§15.9 的共同
+$(34\delta p^2)$ CM-pair，以及两模型原始 Néron/Betti 基。
+从已固定的 $F_\vartheta^*\xi_{17}=\mathcal A_p\xi_1$ 出发，
+tensor、特化、dual exponential 与两张比较图给
+$$
+ \mathcal A_p(x_m)\,\mathscr E_{1,\nu_r,m}
+      =\epsilon_r(m)\,\mathscr E_{17,\nu_r,m},
+ \qquad m>0,\quad d\mid m .
+ \tag{59}
+$$
+这里 $\epsilon_r(m)$ 的定义是两条实际一维 tensor 路径中
+基向量的比较标量，方向由(59)固定。它在对椭圆单位类取值以前
+已经定义；即使某条 Hall 值为零，也不以该值作除数。
+§4.2的整格证明给 $\epsilon_r(m)\in\mathcal O_F^\times$。
+
+为追踪随权的费用，先在两图中共同提出并取消：
+$p^2$-CM-pair 的 Betti/Tate 因子
+$p^{-2(2m+1)}$、(22)的整个 $1/p$ 投影、同一个分歧 Artin
+基及其 de Rham/Gauss period、共同临界 Tate/Gamma 因子，
+以及同一个 auxiliary smoothing。
+这些取消在原秩一 tensor 图中进行，未将任何一项单独称作单位。
+$p$ 处两个未分歧参数相同；$\nu_r$ 分歧后本地 $L$-因子均为1。
+参考的 $17$ primitive Euler 因子仍准确乘回 $18/17$。
+
+下面按实际箭头列出剩余的有限对象。置
+$\mathfrak f_0=(34\delta)$，取原 ray-class CM-pair 的共同
+定义域 $K(\mathfrak f_0)$；必要时一并含原 $\vartheta$ 模型同构。
+由于 $h_K=1$，
+$$
+ G_0=\operatorname{Gal}(K(\mathfrak f_0)/K)
+      \simeq(\mathcal O_K/\mathfrak f_0)^\times/\mu_6,
+ \qquad |G_0|=(6\cdot288)/6=288 .
+$$
+实际使用的局部下降群是它的分解子群；完整 $G_0$ 可在全部
+$p$-adic embedding 的直积上作用，二者给同一条 CM 线。
+这些固定非 $p$ 域及原模型扩张在 $p>211$ 非分歧。
+$p^2$ 层和 $\nu_r^{-1}$ 线并未放入这个群：它们正是上一段
+已经同保、同消的公共因子。
+
+对原 CM-pair 的 $g$ 字，令 $\phi_g$ 为定义其 Galois 作用的
+相容 CM 同源，并记
+$\phi_g^*\omega^g=c_g\omega$、$n_g=\deg\phi_g$。
+理想代表可取与 $p$ 互素；于是该同源在原 good 模型的微分
+格上是同构，$c_g,n_g$ 均为当前位单位。
+改变代表必须同时改 principal CM 标量、微分与 Hecke 角色；
+它仍是同一个原箭头。下面的 $R_g$ 记录这一有限标记
+在所选 embedding 基中的实际置换，未添加任意矩阵。
+
+| 原箭头 | 固定基中的全部权依赖 |
+|---|---|
+| 原 ray-class CM 线 | Kato §15.8 的 $\operatorname{coLie}(E)^{\otimes(2m+1)}$，连同原 Hecke descent；每个 $g$ 的系数由 $c_g^{2m+1}$ 和 $\psi_j(\mathfrak b_g)^{\pm(2m+1)}$ 给出，有限角色在 $6\mid m$ 支上固定 |
+| Betti/Tate 基 | 原 $\beta_j^{\otimes(2m+1)}\otimes\zeta^m$；$p^2\beta_j$ 的公共非单位费用已先消，余基变换为固定单位的 $2m+1$ 次幂 |
+| 原 Néron 微分与模型 | $F_\vartheta^*\omega_{17}=\vartheta^{-1}\omega_1$，以及共同非 $p$ CM-pair 到各原模型的真实同源微分倍率；均只取同一单位的 $2m+1$ 次幂 |
+| Tate/Norm 与非 $p$ 下降 | $m$ 次 twist 给固定 Norm 单位的 $m$ 次幂；原下降是 $|G_0|^{-1}\sum_g\rho_{j,m}(g)$，没有 $p$ 分母 |
+| 原 signed 类与整基 | $\xi_j$、$F_\vartheta^*$ 及 $\xi_1$ 的 $\Lambda$-基一次固定；本篇不逐权换基。若作一次固定 signed 整基变换，只产生该同一 $\Lambda^\times$ 的评价 |
+| 临界值与 theta 平方 | 两图共同的 $\delta^m m!$ 已先消；全权平方中的 $6\kappa_0 17^{-m}$ 和模型 $\vartheta^{2m-12}$ 在§16.3明列；参考 $18/17$ 保回原 primitive 值 |
+
+因此，所有非 $p$ primitive 比较是在固定有限标记空间上，
+由以下系数及其相容矩阵的乘积、限制和逆构成：
+$$
+ \alpha^{\,2m+1},\qquad \beta^m,\qquad
+ P_j(m)=\frac1{|G_0|}\sum_{g\in G_0}
+       D_{j,g}(m)R_g,\qquad
+ [D_{j,g}(m)]_{\iota\iota}
+       =\zeta_{j,g,r,\iota}\,
+        \alpha_{j,g,\iota}^{\,2m+1}\beta_{j,g,\iota}^{\,m} .
+ \tag{60}
+$$
+这里 $\iota$ 指所用全部 $p$-adic embedding 的矩阵位置。
+每个 $\alpha_{j,g,\iota}$ 具体由表中同源微分与
+$\psi_j(\mathfrak b_g)$ 在该位置的单位倍率按原箭头取商得到；
+$\beta_{j,g,\iota}$ 具体是该位置的 Norm/Tate 倍率。
+$\zeta_{j,g,r,\iota}$ 保固定有限角色。
+这些系数可以随位置改变；(60)未将不同共轭错认成共同标量。原箭头反向时取其逆。
+不需要数值求这些倍率，就能从各自定义确认：它们是固定在
+同一个非分歧域 $L_0$ 中的单位；没有随 $m$ 重新选择的 period。
+若有限 $\nu_r$ 的相位仍写在(60)，它只是固定系数，导数为0。
+
+$P_j(m)$ 是原秩一 CM descent 的真正幂等元。
+由于 $|G_0|$ 是单位，取不变部分是整格的直和因子；
+原 good CM-pair 的 primitive 线因有限 étale 下降而自由秩一。
+因此在任一合法正权，原矩阵均有一个单位的秩一 minor。
+选取该实际 minor 只为在固定标记坐标中读取原 primitive 基，
+并不更换该基。§16.2用模 $p$ 恒定性把同一个 minor 运到
+整个权盘和 $t=0$；所以锚点不依赖一个非零 Hall 值，也不
+依赖未给出的 $m=0$ 临界值。
+
+还需排除一个特别重要的遗漏：modular 比较是否留下
+Betti/étale 的相对 CM period。这里可以逐式消去，不需
+Kato §15.11 末未证明的相容性。
+令 $a_m$、$b_m$ 分别为
+[Lei--Loeffler--Zerbes, pp.9--10, Lemma 2.26(a)、(b)](https://antoniolei.com/wp-content/uploads/2014/09/critical.pdf)
+的两个映射，$s_m$ 为给定的 de Rham 映射。
+作者没有断言 $a_m=b_m$，本篇也不用这个等式。
+令 $e_\psi(\gamma_m)$ 表示(21)的同一完整 CM--Artin 类，
+已带上同一个临界 Tate twist。Theorem 2.28及Kato(15.16.1)给
+$$
+ a_m e_\psi(\gamma_m)=z^{\mathrm{Kato}}_{\,b_m\gamma_m}.
+$$
+对左边施 dual exponential，用(a)的定义性图，得到
+$s_m(\exp^*e_\psi(\gamma_m))$。
+这里以及下一式，只比较 Kato 临界值定理给出的代数 CM 向量：
+记它为 $y_m$，其所选 $p$-adic 嵌入正是
+$\exp^*e_\psi(\gamma_m)$ 的原代数基坐标。
+先在原 period 定义的代数线上作图交换，之后分别取既定的
+复嵌入和 $p$-adic 嵌入；并未定义一个将一般
+$\mathbf C_p$ 系数映入 $\mathbf C$ 的映射。
+整个 $\theta_{\chi,f}^{\pm}$ 有限和/符号投影和同一个
+CM--Artin 基在两个图中逐项保持。
+再用(b)的复 period 图
+$\operatorname{per}_f\circ s_m=b_m\circ\operatorname{per}_\psi$，
+Kato Theorem 12.5(1)准确给
+$$
+ b_m\!\left(\operatorname{per}_\psi(y_m)\right)
+   =\mathcal E_{\mathrm{common}}(m)\,
+       L_{\mathrm{primitive}}(m)\,b_m(\gamma_m).
+$$
+这里有限角色的和、正负投影及公共 Artin 基都按原图同取。
+现在将同一个 $b_m$ 逆施于两边，得到纯 CM tensor 的
+period 身份。没有出现 $b_m^{-1}a_m$：
+$a_m$ 已由 de Rham 自然性变成 $s_m$，
+而 $s_m$ 随后由复图变成同一个 $b_m$。
+若 $s_m$ 改乘任意标量，两图及 Kato 标签同时改变，
+上述两步仍逐项相消。
+
+余下 $\operatorname{per}_\psi$ 正是 Kato §15.8 的原椭圆
+period map 的 $2m+1$ 次 tensor；它的模型、Betti、微分和
+有限下降已经逐项列在表中。因此不存在另一个未标记的
+$a/b$ 相对 period，可以藏成任意逐权单位。
+所用原始身份见
+[Kato, 印刷 pp.256--265，§15.8--15.9、Lemma 15.11、
+(15.16.1)](https://numdam.org/item/AST_2004__295__117_0.pdf)。
+这完成(60)对本篇两条原图的穷尽，不调用该 LLZ 论文后面的
+ordinary $D_{\mathrm{cris}}$ 结论。
+
+### 16.2 固定有限矩阵的解析延拓和整导数
+
+共同增大原 $M$ 的 prime-to-$p$ 因子一次，使它还倍于(60)
+全部 $\alpha,\beta,\alpha_{j,g,\iota},\beta_{j,g,\iota}$，
+以及下方实际出现的 $\vartheta^{-4}$ 在 $L_0$ 剩余域中的阶。
+记增大的数仍为 $M=\Delta b_M$。
+这不能仅凭 $\Delta$ 完成，因为 $L_0/L$ 可能是非平凡非分歧扩张。
+若新增因子为 $e_2$，则
+$H_{\rm new}(t)=H_{\rm old}(e_2t)$、
+$b_{\rm new}=e_2b_{\rm old}$，所以所有
+$H^{(k)}(0)/b_M^k$ 保持原值。仍是同一合法权支。
+
+现在每个(60)的幂准确写作固定 $m=0$ 值乘
+$\exp(Mt\log\alpha)$ 或 $\exp(2Mt\log\alpha)$。
+这些固定单位在 $L_0$，故其 principal log 属于
+$p\mathcal O_{L_0}$。固定 ramified $\nu_r$ 相位对 $t$ 的导数为0，
+并未用其 log 来代替这个估值。
+所以全部原矩阵在 $\mathcal O_F\langle t\rangle$ 上定义，
+模 $p$ 等于其 $t=0$ 的矩阵。
+
+在合法正权 $m=M$，表中的 primitive 线给一个实际单位 minor。
+其剩余类和 $t=0$ 相同，故这个同一 minor 在整闭盘可逆。
+幂等及原比较等式也先在整数权成立，再由解析唯一性成立于整盘。
+以该坐标在同一原秩一线上读取(59)的标量，得到唯一实际族
+$$
+ \boxed{
+ \epsilon_r^{\rm an}(t)\in\mathcal O_F\langle t\rangle^\times,\qquad
+ \epsilon_r^{\rm an}(k)=\epsilon_r(Mk),\qquad
+ \frac{(\epsilon_r^{\rm an})^{(j)}(t)}{b_M^j}
+        \in p^j\mathcal O_F\langle t\rangle\quad(j\ge1).
+ }
+ \tag{61}
+$$
+右端 $\epsilon_r(Mk)$ 指(59)的整数权标量；左端是由原固定
+矩阵实际构造的解析延拓。
+
+导数界可逐运算检验：每次对单位幂求导并除 $b_M$，
+准确产生 $\Delta\log\alpha$ 或 $2\Delta\log\alpha$，
+属于 $p\mathcal O_{L_0}$；有限和、乘积保持这个分级。
+对单位 minor 的逆，逐次微分
+$a(t)a(t)^{-1}=1$，整数 Leibniz 系数给同样的 $p^j$ 下界。
+这也支付全部逆矩阵。若改变原 signed 整基，所乘的是一份固定
+$\Lambda^\times$，其在 $x_r(t)$ 的取值和各阶归一导数有同样性质，
+不是每个整数权重新选择的单位。本篇则始终用(2)的原基。
+
+### 16.3 两份 raw Hall germ 上的精确整平方比较
+
+对 degree 2 参考以完全相同的 W/N 构造记 $G_{2,17r}(t)$；
+其 mass 为原 $H_{2,17r}(0)$。该值为单位，(24)--(27)以及
+(G5)给
+$G_{2,17r}(t)-G_{2,17r}(0)\in\mathfrak m_F\mathcal O_F\langle t\rangle$，
+所以它在当前闭盘是解析单位。相位中心仍是原实际中心。
+
+N11在两条 $E_1$ 来源上、对同一个 $m=Mk$ 准确给
+$$
+ \mathscr D^{(1)}_{N,r_N,m}
+       =\sqrt d\,p^{-m+pm/\Delta}G_{N,r_N}(k).
+ \tag{62}
+$$
+两边的整数指数由 $\Delta\mid m$ 保证。
+这是 cover 导数和正规化后再返回 physical 导数的恒等式；
+两来源取比时这些 $p$ 幂完全相消。
+目标回到原 $E_{17}$ 还有
+$\mathscr D^{(17)}_{34,r,m}
+ =\vartheta^{m-6}\mathscr D^{(1)}_{34,r,m}$。
+代入(19)、(59)，把全部已知原尺度并在一起，得
+$$
+ \boxed{
+ \begin{aligned}
+ \mathcal A_p(x_r(t))
+   &=\mathcal U_r(t)
+       \left(\frac{G_{34,r}(t)}{G_{2,17r}(t)}\right)^2,\\
+ \mathcal U_r(t)
+   &=\frac{6\kappa_0}{17^2}\,
+        (\vartheta^{-4})^{Mt}\epsilon_r^{\rm an}(t)
+        \in\mathcal O_F\langle t\rangle^\times,\\
+ \mathcal U_r^{(j)}(t)/b_M^j
+   &\in p^j\mathcal O_F\langle t\rangle
+           \qquad(j\ge1).
+ \end{aligned}}
+ \tag{63}
+$$
+$\kappa_0=2^7\,3^3\,7^2\,17^2$。
+$(\vartheta^{-4})^{Mt}$ 使用刚固定的同一 Teich 分量。
+其系数来自
+$17^{-m}\vartheta^{2m-12}=17^{-2}\vartheta^{-4m}$，
+没有再乘一次模型费用。
+
+先在每个正整数 $t=k$ 由原图和全权平方得到(63)，
+再由两侧真实 Tate 解析性和整数点的稠密性延拓。
+参考是单位，故这一步从未除目标 Hall 值。
+所有 point 单位 $u_*$ 已由 raw $G$ 的定义准确消去；
+(63)也没有把复 period 作为任意标量嵌入 $\mathbf C_p$。
+
+## 17. 含非零 Hall 质量的准确导数门
+
+本节只是(63)在原整 $\mathcal A_p$ 上的必要后果，
+不将它自动视为与旧有限行独立。
+记
+$$
+ \partial=b_M^{-1}d/dt,\qquad
+ F(t)=G_{34,r}(t)/G_{2,17r}(t),\qquad
+ s=1/(p-1).
+$$
+由 $x_r(0)=t_r$、$v_pt_r=s$ 及
+$\partial^j x_r(0)
+ =\nu_r(\gamma)(\Delta\log q_{\rm ac})^j$，
+每个 $j\ge1$ 有准确赋值 $j$。
+原 $\mathcal A_p(T)=T^{2e}B(T)$、$B\in\mathcal O[[T]]$ 给
+$$
+ v_p\partial^j(\mathcal A_p\circ x_r)(0)
+       \ge j+(2e-j)s,\qquad 0\le j\le2e .
+ \tag{64}
+$$
+这是同一个整函数的有限链式求导，阶乘只增加估值；
+没有把 $x_r'(0)$ 当作单位。
+
+结合(61)、(63)，前两阶严格成为
+$$
+ \boxed{
+ \begin{aligned}
+ v_p F(0)&\ge e s,\\
+ v_p\{F(0)\partial F(0)\}
+      &\ge1+(2e-1)s,\\
+ v_p\{(\partial F(0))^2+F(0)\partial^2F(0)\}
+      &\ge2+(2e-2)s .
+ \end{aligned}}
+ \tag{65}
+$$
+例如第二阶中，
+$\partial\mathcal U/\mathcal U\in p\mathcal O_F$、
+$\partial^2\mathcal U/\mathcal U\in p^2\mathcal O_F$；
+第一阶已得的 $F\partial F$ 界保证这两项均深于
+显示的第二阶门。因此不能遗漏 $\mathcal U$ 导数，但也无需
+把它错误设为常数。
+
+若写 $g_j=\partial^jG_{34,r}(0)$、
+$r_j=\partial^jG_{2,17r}(0)$，则
+$$
+ \begin{aligned}
+ F(0)&=g_0/r_0,\\
+ \partial F(0)&=(g_1-g_0r_1/r_0)/r_0,\\
+ \partial^2F(0)
+ &=\{g_2-2g_1r_1/r_0
+          +g_0(2(r_1/r_0)^2-r_2/r_0)\}/r_0 .
+ \end{aligned}
+ \tag{66}
+$$
+$r_0$ 是已经支付的实际单位。特别 $g_0=H_r(0)$，
+无论是否为零都保留在(66)中。$g_1$ 的同源有限返回是(56)--(58)，
+而参考的所有导数仍由其原 $\Theta_2$、norm-$17r$ Hall 和
+完整连接计算，不能另选低参数。
+
+(65)是以后测试高精度同源行的准确接口。
+只知 $J'_p(0)=0$ 时有 $e\ge2$，从而得到(65)相应下界；
+没有因此得到 $g_0=0$。最低阶约束若已由原 Hall 的有限系数
+自动满足，必须按其真实范围记录。新的 forcing 仍须在同一个
+完整来源中证明某条更深关系与这些必要条件不相容。

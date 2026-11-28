@@ -74,7 +74,7 @@ R1067§§9–14进一步给physical首jet整界及同一actual整Hall源P_H：�
 
 **R1067§14.1范围收紧：**实际M0/C、M1/C在首挠点的μ_d固定域，其值群1/(p−1)；旧L3/N11与完整Bell尾已无条件给M1−M0∈p，即Uq a_Δ−p a0∈p²。因此exactHall0下(49)和R1068(B25a)的额外p不是相对whole原来源新增forcing，不能拿它重复计收益。继续原p²组合、全部高角和非零高赋值含H0行的实际来源核算。
 
-R1067§15（53）–（58）已付actual δ_k的1≤k≤p−2全Bell差分界及完整含质量二矩行，native M2保ℓ_q的1/p费用。exactHall0分支的a_Δ≥3−1/(p−1)仍不由bad提供；下一核原CM-pair比较标量的真实权依赖与更深同源关系。已发现若干低阶导数门由原Hall自动满足，不能重复计forcing。
+R1067§15（53）–（58）已付actual δ_k的1≤k≤p−2全Bell差分界及完整含质量二矩行，native M2保ℓ_q的1/p费用。exactHall0分支的a_Δ≥3−1/(p−1)仍不由bad提供；§§16–17已从真正Kato两图/非p288下降逐embedding单位幂付原比较标量的解析性及归一各阶p^j导数界；A(x)=U(G34/G2,17r)²准确保模型/p²/Artin/Gamma/原参考。完整含H0导数门仍只是必要条件；浅层已发现自动相消，不计forcing。下一用真正whole Gaussian shift、全部tame块及更深同源关系。
 
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 

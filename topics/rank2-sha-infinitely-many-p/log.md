@@ -480,3 +480,10 @@ actual双pull run46073965457/job140896631806：公开2026-11-28 06:47:01 UTC至e
 原R1067追加§15（53）–（58）。root/geometry全文核R1062(G2–G5)全Bell、整数点差分杀低度和余整数性、每有限Δj的F_H下降，得δ_k≥k−(k−1)/(p−1)，1≤k≤p−2；连接p^(p−2)保准确上限。全无穷log尾给dotG−(2M1−M2/2−3M0/2)≥3−2/(p−1)，原M2严格坐标返a_2Δ−Δℓ_q a_Δ，vℓ_q=−1及两个Wilson单位皆保。exact0的a_Δ≥3−1/(p−1)只作零分支后果，不作bad主门；随后几何已识别浅层自动相消，继续更深而不包装成突破。整文49395B/hash6fd47fbf8e053531ac7b2d7cfd02fec58939069fc889099c37de77d45a0d3c29；追加5591B/hash976bdd28860d06e14423850cf56e85fe0ecfe536bd3e8a20154eca108b82d1d3。纯手证无本地数学计算。
 
 actual双pull run46073965457/job140897168980：公开2026-11-28 06:49:25 UTC至798c6aafe8d4761e051a64b74987d9049eb2bd63，私库2026-11-28 06:49:29 UTC至94c4b6e535b3929bb8e57b8974c6c71b7bafa655；四README/QUEUE/三旧gzip同blob，认领不变。日志14887B/hashf77b6efcbfc9439aacbb17aeb8f475e5a3f2b06c6ca2d8e3e826d453a42cd4eb，库存3208/45662413B/tree9b8f1e8493b82503c7f186ca96fbcf12045c4e70，无>5MB。cyclic/content真PASS回执已推9b0b665ccf080e7528ad9d711ab0344b29c15082；v15于06:50:10UTC仍step4 in_progress，无原数学终态。H旧R1062–66仅压缩接续文字，全部证明与精确旧边界仍在open/索引/归档。
+
+
+## 2026-11-28 07:03 UTC — 原 Kato 两图的实际整单位族
+
+R1067追加§§16–17（59）–（66），由原两条CM-pair基向量图而非Hall值商定义ε_m。root核LLZ2.24–2.28的a→de Rham s→complex b→同b逆，不假a=b、不把Cp映入C；先用代数临界向量再取两既定嵌入。原G0阶288的nonp下降每embedding均保指定单位线性幂/固定矩阵，合法正权primitive minor经modp恒定延至0，M补θ^-4等全部residue。p²/1/p投影/Artin/Gamma先保后同消；raw G的共同physical p幂消得精确U=(6κ0/17²)(θ^-4)^(Mt)ε及U^(j)/b_M^j∈p^j。原A整除T^(2e)给含H0、参考Norm17r所有导数的必要门；没有把自动低阶包装新forcing或造exactHall0。整文63484B/hash443f33eca16c3c4dfac38db5b0152bae306751c8a28273ad113c8d9fd76d6da9；追加14089B/hash5da990b0552eb8ad03d4cdba4ce167a1da9f97dc188424b9d9f12496230a9286。纯手证，无新增数学运行。
+
+推前actual双pull run46073965457/job140899268384：公开2026-11-28 06:58:45 UTC至63ef4198fdb9a16db85f3fb14608b812ad495cee，私库2026-11-28 06:58:50 UTC至f87491e21cb37dd27bcf478b09d6652bcfd7456f；四README与上次同blob，QUEUE本题行不变，三旧gzip未变。日志14887B/hashb7fd7e68d07555831ee962f11d1cec4caeb4711d4fe5a9f99c28d71da7e81281，库存3208/45670401B/tree389835e293c2219f0e7ee530cf42b85694ac8121。v15最近06:58:24仍step4/日志BlobNotFound，尚无原终门。已推§15 a8e438d08d8a716d2d11e2aaf8cebb8c84775ea5；下一共同Gaussian的真实全块shift，不在单字上改善已付精确半径。
