@@ -28,6 +28,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi全权原首一t²、精确十列及第二NV头自由四元环境](results/R150-appendix-unit211-Phi-zero-corrected-whole-monic-t-quadratic-exact-ten-columns-and-four-generator-NV-head.md)：两真均值二次头在旧系数环上显示Bézout1，γO本身旧单位；原三mean与I6精确理想等式/四列和十列来源完整。第二NV头再叠原首一σ2，保全部重根和原剩余条件；纸证无新执行或排空。
+
 - [R150：W/b0 正e射线的原λ估值与两个极点中心](results/R150-appendix-unit211-W-b0-positive-e-ray-original-lambda-valuation-and-two-pole-centers.md)：原b0/q2/R6在k首值≠−2上排λ0/正估值，极点迫k首值4；因此全部极点只余−2/4。原短除余49/64于1009非零，保M首值0及全部未闭深中心。无新执行或整ray排除。
 
 - [R150：第二完整NV t头的原首一σ二次与四列呈示](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-original-monic-sigma-and-four-columns.md)：旧ellδ首一化完整第二矩，第三矩与完整NV有显示一次余式；同σ实际2×4呈示保所有头零、D0和t变量。纸面原身份，无新执行或排空；物理商不冒称自由，续真实原均值输入。
