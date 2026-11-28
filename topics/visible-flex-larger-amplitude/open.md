@@ -141,3 +141,5 @@ R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770
 [R780](notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)：新g完整曲帽/末领/中央准确，四硬中央/平领迹被直母线延拓排精确。23源/四原PID各三层7+6相完整预算照原发；改变真迹的新方向继续，实际待返。
 
 [53/R790](notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)：27源保44完整原22源/五粗两族各4/8/16共11stage及双全末网；同12物理jet加4逆坐标、原精度/全恢复，真实加速和点待返；44/45不动。
+
+[R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54三维自由port可修。

@@ -43,3 +43,5 @@
 - [R780](R780-exact-curved-caps-closed-spatial-fold-and-normalized-whole-rolls.md)：新非零曲岛初g，两整帽/末领和中央折片全g，整正速环归一支付gss；硬中央与平末领全迹C²不相容，四原族均明限。[23源四完整三层研究](../notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)全预算正常执行；新输入须释放/改变真迹。
 
 - [R790](R790-twelve-physical-jets-and-transported-inverse-collar-coordinates.md) / [53完整启动](../notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)：同R761物理12材料jet加4逆坐标，原精度分组控制/原Newton与全flow恢复；保44原22源、五粗两族各4/8/16共11阶段/双全末网。改浮点路径不预称加速，44/45原工作不动。
+
+- [R791](R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)及[全九图六jet](../scripts/resume_20261126/r791_prebent_lever_waist_two_jets.py)：真实新初弯.10→.65、长腰两头闭球，整reach≥.104、D<3.22、握径≥.648、全像held>.652、含反射商距>0。仅真实腰纵向g欠<.096，初K双符号胞保持；真1e−6修复必须移动至少一腰口>.015。非圆空间全场后续仍待付。
