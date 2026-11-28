@@ -1,4 +1,4 @@
-name: Rank2 original shadow with complete adaptive endpoint graphs
+name: Rank2 original shadow with complete degree13 two-chart endpoint graphs
 on:
   push:
     branches: [main]
@@ -45,6 +45,16 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-adaptive-scalar-graph-shadow-v17.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_adaptive_dixon_solver.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_adaptive_scalar_graph.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-short-global-graph-shadow-v18-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-short-global-graph-shadow-v18.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-short-global-graph-shadow-v18.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_production_binding.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_field.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_kernel.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_popov.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_multichain.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_outer.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_global.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -78,4 +88,4 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
           set -euo pipefail
-          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-adaptive-scalar-graph-shadow-v17.py
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-short-global-graph-shadow-v18.py

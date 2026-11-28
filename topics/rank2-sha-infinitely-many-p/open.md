@@ -384,3 +384,7 @@ source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713的
 ### R1073 §6：三个固定有理函数的全Katz与有限群环原身份
 
 固定原G_k由七乘法及完整6/390角色平移给出，所有真层L值为同一G的完整点轨道；全p核迹给ψG=−G/p、g=pG+G∘[p]及原整Katz测度。保归一(−p)^−s、平凡项(1+p^−1)、反号层及真实参考，全部有限群环严格满足D_b,s=65A_bD_1,s。原中央坏遂迫每层同一来源T四次整除；未从ψ0或全层身份宣称中央非零。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1071 §12：短厚纤维完整两图的生产接续
+
+R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四完整图，全部后理想原X与既有下游均保；实际Sage线程与凭据边界由host验证。既有heavy group取消关闭，等待v17；尚无实际生产返回。 [完整生产来源](notes/2026-11-28-original-short-global-graph-production-v18.md)。
