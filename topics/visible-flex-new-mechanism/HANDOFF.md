@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **79f2e40be82914638cbab31dfa4105d3001f8094**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **76b89a74392a4edd1d157e54c4b676de5855806a**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -14,13 +14,13 @@
 
 [真实终态/缓存错误](notes/2026-11-28-r582-4354-to-4883-material-qualified-terminal.md)run46132385483/source56c35c4c：2448.401499015秒/4接受，4883c34e/p.181/trust2，16321×3072 fineη3.254953368627478e−5、物理违反2.446e−10；407coarse+5pending→412。末dd8445完整拒，10J/130块/12fine全付但原生数组未存。
 
-本次0d材料hash含节点+6jets，不同旧4354的f60；outer0误借旧fine已否定，c13d仅在新0d判拒，原f60的115块未存prefix/未闭债保留。outer1/2真实新baseline后4接受有本身0d资格。[实际后继](notes/2026-11-28-r582-4883-material412-continuation.md)先5点扩库/新fine；guard以材料+p/q/grid共同复用，旧dd8445不warm重播，原驱动全部接受门保持。必要重建计费；p.8/末η1e−7/固定g/宏观仍欠。
+本次0d材料（节点+6jets）不同旧f60；outer0旧fine误借无效，原f60 c13d的115块未存债保留。outer1/2新baseline后4接受有本身资格。[实际后继](notes/2026-11-28-r582-4883-material412-continuation.md)先5点扩库/新fine；guard以材料+p/q/grid共同复用，旧dd8445不warm重播，原驱动全部接受门保持。必要重建计费；p.8/末η1e−7/固定g/宏观仍欠。
 
 ## B：86da固定E／1566列真实mean与R658源差
 
 [R643真终态](notes/2026-11-28-r643-1566-0d9a-rule-terminal.md)run46128314775/source24c1ee59：3310.24427324秒/2接受0d9a753f，workη2.21791e−7；完整1566列3J/3QR付，根16退出。第三方向整/半步拒、quarter d1f8保存而联合场未完。[后继](notes/2026-11-28-r643-0d9a-coupled-mean-continuation.md)run46134171516/sourcebc779996先判quarter，再必要重建未存J；同方向跳过旧已判步，全950work→1728fine/双位置末读及原费保持。target86da/H.5188903877153482/amp1e−5/τ1不变；R618旧5400秒/0接受与Y差分15/16债见原note。
 
-R648/R650/R649/R653完整尾/三jet/离解曲率/C²接缝消费者已备，只接现成对象，不扩大R617/τ1/trace/Pμ/旧.85范围。[R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)准确M25与真无穷端差全尾0…3/W<e−1000、连接C<e−2090/A<e−2080；真实display缩放与[各模分母阈值](notes/2026-11-28-r658-actual-display-gauge-and-denominator-threshold.md)给条件归一差<e−2000，有限域差与省略真尾分列。尚无真实有限ODE误差使分母阈值成立，forced自己的C商另欠；7源误差一行不删。R663继续从现有dense作方向角/连续残差，不重ODE/root。
+R648/R650/R649/R653完整尾/三jet/离解曲率/C²接缝消费者已备，只接现成对象，不扩大R617/τ1/trace/Pμ/旧.85范围。[R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)准确M25与真无穷端差全尾0…3/W<e−1000、连接C<e−2090/A<e−2080；真实display缩放与[各模分母阈值](notes/2026-11-28-r658-actual-display-gauge-and-denominator-threshold.md)给条件归一差<e−2000，有限域差与省略真尾分列。尚无真实有限ODE误差使分母阈值成立，forced自己的C商另欠；7源误差一行不删。R663从现有dense作方向角/连续残差，不重ODE/root。
 
 ## C：B030真f2dda／容量4096
 
@@ -56,7 +56,9 @@ R655/[R662](results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.m
 
 R657 [实际终态](notes/2026-11-28-r657-wide-neck-taper-natural-terminal.md)run46134876257/source3895f33a：1.396136929秒/6新ODE/108几何/46正根；严格G使旧2及4/8全规范排除7/22，16/32/64容许。64模实际a最宽.09840949；宽根最低转面κ38.5643、内禀必要门样本未排除其他像，但自有核心端口1.42e−21不是有限角。
 
-R659 [真实有限输入](notes/2026-11-28-r659-direct-finite-tilt-latitude-scope.md)从首求值固定a.075/b.22/sinθ.36，完整单位切向纬圈、中心与全部Jac列；零净高度有符号初坡、全部奇角体列/真C²端姿。设计→fine≤1e−6才冻结同一个513角E，再自然精化、1025参考与径/角交叉读出；1100秒含120末读出。只取得初始范围，完整固定g/全点几何/法管欠付。R659自然终态run46136199153已完，正消费真实结果，尚未授新资格。
+R659 [真实有限输入](notes/2026-11-28-r659-direct-finite-tilt-latitude-scope.md)从首求值固定a.075/b.22/sinθ.36，完整单位切向纬圈、中心与全部Jac列；零净高度有符号初坡、全部奇角体列/真C²端姿。设计→fine≤1e−6才冻结同一个513角E，再自然精化、1025参考与径/角交叉读出；1100秒含120末读出。只取得初始范围，完整固定g/全点几何/法管欠付。R659自然终态run46136199153已完：144接受，fineη.01698539/κ117.45498，无冻结；完整曲率约束后继R669准备中。
+
+[R665](results/R665-end-tangent-and-length-cost-for-finite-tilt.md)给真径向测地线端转向长度门，排除精确1.01倍裸弦超额设计；R659种子独立母线有余长，实际中心/度量须重新付门，不代二维相容。
 
 ## G：完整闭面和全时门仍欠
 
