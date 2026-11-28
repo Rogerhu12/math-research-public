@@ -326,3 +326,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:37:27 UTC — 23首个观测试点统计实际返回，策略效果尚未知
 
 23首观测试点d86d真实统计Phi3825.0583176123996/Gram.6460503022350718；current仍初/accepted0，试步几何/接受/策略效果未知，完整科学未自然返回。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`60c70d75fe152d9d751ba9a545f3692f12d4102a`无变（非pull）。
+
+## 2026-11-28 02:38:02 UTC — 24两完整输入与初始完整六族几何实际返回
+
+24原两input实际exit0，完整源参/11输出身份及accuracyfalse保原分卷；新science0f0bb/PID3575/model9e2d7初场Phi886.6498886846562/Gram.47296582169113244，六族返/reach.6122924171813162/distplus.0608650756788609正、余四负，accepted0。与22初场工作值比较不推出单调几何，科学未自然返回。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`eb0421846d6b8b7c822d3a481839efb6a8fed244`无变（非pull）。

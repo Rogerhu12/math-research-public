@@ -343,3 +343,36 @@ science+pure两步完整序列116887B，全四步125008B，均超过原95000B队
   ]
 }
 ```
+
+## 2026-11-28 02:38:02 UTC — 24两完整输入与初始完整六族几何实际返回
+
+两个原完整输入均实际exit0。maker source89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60、commit8decf21006c44bb59333c2fb206b3a30e2c0fc78，6.1998849119999875s（内部.8076674750000024）；原零F/J/root保持。其report65338B/c8036ed9e533bccdd3418eebfeb1a256bbe71e6f6db2f1f84e2fb2c03327bec3，完整四输出/参数/输入保分卷。
+
+reference sourcee7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb、commitd9242b9ad78b013559e279db8ba56893b3aba2eb，520.511098864s（内部516.9905767549999）；report84970B/6169356bde9f81328cd9892ce8a02fa3d373da9823e14ff05b0c7b9439ebd918。reference894879B/212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb、carrier205842B/84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e；本run locations106771B/4358d8c93d5dc96494ada0053b6d4a5cb9c5c40a9faa04d098a5761ae174066f、provenance223955B/a63817f2fa1ae9f57b93a3b7f87f6d74f3b91de2e8232d0b8e3bf581e739e788、binding35712B/7d0ee242deca6ce894a4832557e15454cb0cf57b9fa134170c385af21b44978c。M160/J923/P7377/N2048、高1.947054437068418，2218叶且accuracy_reached=false、whole_tail=true；全输出字节未作为raw读入或跨run复用。
+
+science实际commit0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5、launcher6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c、PID3575、driver095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec。初/current点7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，实际model9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e，与22的model不同。Phi886.6498886846562、max_relative_gram .47296582169113244。normal完整几何事件02:27:57，数学current-geometry-returned02:30:02.868208+00:00。
+
+六族：reach+.6122924171813162、body_diameter−.03620012039332832、distance_plus+.0608650756788609、distance_minus−3.0936337267043594、cap_diameter−.06715131487906445、height_floor−1.0411715967426867。仍两个正族，不可行；accepted0、reportfalse，02:31:05Z未有trial/决定。较22 b1/2初场Phi/Gram/reach工作违量都大，而distance_plus较低，只是两已执行初场比较，不推出曲率或reach单调性。全部缺值错误和whole原小进度身份保固定完整索引。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 61652,
+    "sha256": "4c449672d1c4680dc9092fbf5709b2c451f82c582156439fb8141630a87e769a",
+    "git_blob_sha": "9fa91d6ed1710f4ba425c92cfb41866b356386dc",
+    "fixed_commit": "17ed6ccae50001659c1bb8cf549075a538778f65",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1-part-001.md",
+    "bytes": 16607,
+    "sha256": "abfac2cecef0c019439b3ce6c5cbff5bb273009907fea2992b182ffde185adbd",
+    "git_blob_sha": "c1e68f6d4819b1fdf4f4668d11e14570c93016ed",
+    "fixed_commit": "17ed6ccae50001659c1bb8cf549075a538778f65",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

@@ -115,13 +115,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；700e真实g2.5419057471738853拒，下一1b3b统计返。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2，两input0；model6f3ae32/初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985，reach.5305849371949052/distplus.11391238912344381仍正、余四负；trial97fbb Phi681.6511710299278/Gram.4061652579029476，几何/决定未知。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 46094430214/1，01:42:05Z启动，两input0；b31c/f2a9/PID3652/model0abfbf/初7e06/六族返/g.968424994209506，accepted0；triald86d Phi3825.0583176123996/Gram.6460503022350718，几何/策略未知。 |
-| [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 46096380016/1、02:05:58Z/head431b54a；仅沿22宽度b1/2→5/8。官方启动，输入/新场完整读取待续。 |
+| [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 46096380016/1、02:05:58Z/head431b54a；仅沿22宽度b1/2→5/8。两input0；science0f0bb/PID3575/model9e2d7/初7e06/accepted0，Phi886.6498886846562/Gram.47296582169113244，六族返/reach.6122924171813162及distplus.0608650756788609仍正；trial未返。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。22初场g/Phi/Gram较19低但distplus较大，只是工作值比较。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)完整条件及未知排序保，不推曲率/reach单调性。
 
 ### 新机制与未付后继
 
-[完整dk缓存源](computations/complete-curvature-pullback-cache-source-delivery.json)两variant已刊，同完整key/纯数值/64MiB；原全行保，尚无hit或加速实际结果，不改变trial几何。[25全11件](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊：137角色4对改/133原对保，19runtime（原18加显式selector）；driver/reader完整主体保，新增位置observer。[完整新传输](computations/complete-geometry-location-observation-and-transport-delivery.json)原48live全保+16真实标量/共64，未缩科学预算；完整参数/启动继续，实际结果仍空。
+[25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)137pair中4对改/133保、19runtime；dk缓存原全部行及科学主体保。[64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48+16实际标量。完整参数/启动正接，尚无hit/场/加速结果；全原描述保旧open。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波准确均值/两角根/中央导数与位置jet账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/全部接合/两根扰动/真实shape分解已证。ε1/8把显式转向系数15/b降至64/(7b)，高阶代价与存在假设保；不推wholeK/reach，新seed正实施。
 

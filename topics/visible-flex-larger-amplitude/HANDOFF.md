@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`60c70d75fe152d9d751ba9a545f3692f12d4102a`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`eb0421846d6b8b7c822d3a481839efb6a8fed244`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -45,7 +45,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [ret60第二子批](computations/legacy-exact-generated-outputs-retention-60-part2-complete-delivery.json)33旧输出毛1303692B/5全保全件283691B/净1020001B；61源/269输入/32原resource及全部argv/失败/条件结论/原SHA/确切Git恢复齐。加首批19项净1929467B，未重复。ret59及前链保；活输入/未知/parent91/ports/Nelder不猜删。root接真实求解；construction续容量，solver等价加速，geometry新cutoff。
 
-[24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)实际46096380016/1/job140828543967，02:05:58Z/head431b54a启动；两input/场待返。全137/18源同22，仅宽度变；原预算与完整pure续接保。
+[24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)实际46096380016/1/job140828543967，两input0；science0f0bb/PID3575/model9e2d7，初7e06/g.6122924171813162/六族返/accepted0，trial未返。全137/18源同22，仅宽度变；原预算与完整pure续接保。
 
 <!-- visible-larger-parallel-19:start -->
 Actions19：[run 46076669320/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46076669320)；[全阶段记录](notes/2026-11-27-public-actions-46076669320-1.md)。running；已返2，exit=未返。
