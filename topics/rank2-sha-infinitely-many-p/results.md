@@ -548,3 +548,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §108：原M首野完整行经循环商及Miller互反降到全驯支撑
 
 已证明：每方向先对原p线真范数，线性/平方整权给次数(p²−1)/8及≤(p²−1)/4的实际Miller函数。Weil互反保原全f支撑；每条Fp线一个函数、原n^-2/n^-3角权及Teich(n)精确保留。div差为pD时即使D非主，完整驯评价仍真为L₂内p次幂。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §104附记：固定短列表全精度关系阶统一有界
+
+已证明：同一固定M、同一固定整数列表的原p^(k+1)挠值若有p^k次幂关系，系数向量的加法阶至多一个仅依列表的C_A，既不随p也不随k增长。使用完整原实挠轨、高度隙和孤立零极；未把全角向长和当固定支撑。[同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。

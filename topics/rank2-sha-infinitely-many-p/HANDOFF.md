@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 17:44:21 UTC按根规则8小文本备用通道读公开main ce2709464a4113fd70209ceb37b5ef08977d1ff8、私库main 386e0ebbebb14fcdbf7cc9a06b370d0d9c3b8b18；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE b4fcbac8fc1e480d3873746916982436d2a9ecce本题认领仍进行中。
+- 2026-11-28 17:45:45 UTC按根规则8小文本备用通道读公开main ef4bcb7f2b238e8a74792bac7b61e9e210268e44、私库main 675ba565d66f21773b6ce4885e38c2ef9fb27ac1；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 188b35605092a9b5032f9098f761d533e9728937本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -32,7 +32,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 §§80–97保G(T)=X(T)^p、DH=−x/c_p−s^(p−1)、q-Frob重标t→−pt、全倒数点非挠及七进因子5；AST/Bost单母量非零不代四槽。完整四槽是原N rem D顶次系数，degD≤6p²+12p+880；ordinary π盖/全390源和每k检出仍缺跨p非抵消。
 §98原交换子−1无损读p^k/Tate；§99 AH主等式给整Z₀=0、唯一Z/U、z₁≠0⇔a₂≠0及真实PT/Bockstein。§100固定103全源给原MW两列参考读者；R303已原位更正辅助因子ℓ²+ℓ。§101所有k在同一p+1邻曲线且保全部Tate校正，函数域非幂不代评价。
 §102 strict准确余秩s−1、p-parity给A_Z≤2足够；全Sha有限⇔Xstr,(U)循环。允许z₁=0,z₂≠0及a₂=0。§103纯log奇偶二行在预选惰性参考素分别保1/δ坐标；完整χ的野块d_j=max(0,p^(j−1)−r_p)，µ零只给r_p有限。
-§104全f与真实Kato源合成唯一M∈Q(E17)，div M=ΣI_t[T_t]、M(O)=1、M(−P)=M(P)^−1；二变量保103²−103[g103]整体unit、系数ε(p)^j(1+ω)/6。所有好CM Frobenius Norm M=M；固定短列表在K^ab模p独立不代增长的完整角向和。§105原JLK二变量det给真全Sha无限⇒全部六个混合二次全球jet每k整零；惰性用Λ定理、ordinary用已证全Ω定理保双p位。仅为系数截断像零，非I³H¹整除。§106同一六次相位/CRT付全惰性p各h迹，真Sha无限迫原五格B₂/B₃/Bp+1/Bp+2/B2p+1各零；BD1各row的H混项不删，未等价全曲率。§107六权全形式倍支撑≥(p²−1)(p²−2p)，整数迹≥(p²−p)(p²−2p)；短列表独立需另用M真实除子，不能凭形式倍收尾。§108用M真实除子及Weil互反，把完整首野行降到每条p线一个Miller函数的全驯评价，保n^-2/n^-3和Teich(n)；未付全和非零。完整第三评价未付。
+§104全f与真实Kato源合成唯一M∈Q(E17)，div M=ΣI_t[T_t]、M(O)=1、M(−P)=M(P)^−1；二变量保103²−103[g103]整体unit、系数ε(p)^j(1+ω)/6。所有好CM Frobenius Norm M=M；固定短列表在K^ab模p独立；其任意p^k关系的系数向量阶有统一界C_A，均不代增长的完整角向和。§105原JLK二变量det给真全Sha无限⇒全部六个混合二次全球jet每k整零；惰性用Λ定理、ordinary用已证全Ω定理保双p位。仅为系数截断像零，非I³H¹整除。§106同一六次相位/CRT付全惰性p各h迹，真Sha无限迫原五格B₂/B₃/Bp+1/Bp+2/B2p+1各零；BD1各row的H混项不删，未等价全曲率。§107六权全形式倍支撑≥(p²−1)(p²−2p)，整数迹≥(p²−p)(p²−2p)；短列表独立需另用M真实除子，不能凭形式倍收尾。§108用M真实除子及Weil互反，把完整首野行降到每条p线一个Miller函数的全驯评价，保n^-2/n^-3和Teich(n)；未付全和非零。完整第三评价未付。
 
 ## 原中央与完整全层：R1070/R1072
 
