@@ -185,3 +185,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:07:32 UTC — 29真重试实际接受bc818；下一ba2b仅统计
 
 29真重试实际bc818 accepted1，Phi584.8125864670693/Gram.4179453237576573，distance_plus .13820228685007474唯一正最大、reachg−.03475313540129943。下一ba2b alpha1仅自己的639.0000028432506/.4228270554378207统计，geometry/acceptance/report未返；全六族/K/位置/原错误/请求保，不借当前几何冒试点。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`be0934bab97cad4c80a34e10f87377c931c61f51`无变（非pull）。
+
+## 2026-11-28 07:08:06 UTC — R728 完整seed再生器及最终4件总表
+
+已刊完整证明最终23587B/3a268/c70f（edef5755）与seed53384B/c6fc/111435（d8cb4767）的最终整包补齐：Node逐项10处whole文本正反再生7937B/e4ef058b及完整总表19374B/7ce94a，共新增27311B；四件104282B。父R726整文件、原共享mean及18方法接口全保，真实中央极性固定−1，源/值/模型不冒旧场。总表标明当前来源和未来actual null；不继承旧准确根、geometry、normal或完成。见[完整总表](computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json)。完整31全族/参数另包待刊跑，非以seed替全部运行体。双README云核至`413b1acefec0eba365ac9ae1b4e25289dd900253`无变（非pull）。

@@ -1,0 +1,373 @@
+{
+  "schema": "complete-R728-reversed-spherical-halfwave-minimal-scientific-input-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "prepared_date": "2026-11-28",
+  "state": "complete independent seed/proof/source reconstruction protected; seed and final proof already published; full scientific cascade is a separate active task",
+  "complete_artifacts": [
+    {
+      "name": "fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+      "bytes": 53384,
+      "sha256": "c6fc04db9223981e1829620613c71de4c0bec93813ec0eeaf5f8ef7770217e86",
+      "git_blob_sha": "11143579520b9509d4d95323052743031f317e6b",
+      "role": "independent_R728_reversed_spherical_halfwave_seed"
+    },
+    {
+      "name": "R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md",
+      "path": "topics/visible-flex-larger-amplitude/results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md",
+      "bytes": 23587,
+      "sha256": "3a26814cfcf960be2a7c78ed92a00cf24f10c683f01a36daf85cea7e2b82f36e",
+      "git_blob_sha": "c70f38f8e0cc7c1e21aa245861db73cf673411ac",
+      "role": "complete_R728_proof"
+    },
+    {
+      "name": "reproduce_fixed_fejer_R728_reversed_seed.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_reversed_seed.mjs",
+      "bytes": 7937,
+      "sha256": "e4ef058b8a5d32b86bab3f7a60bd10c20cd349cb757783e828f2d8eae8ae23c7",
+      "git_blob_sha": "4a1578a3580267851be05bfed8c66b7a922c0598",
+      "role": "complete_R728_seed_text_reproducer"
+    }
+  ],
+  "artifact_count_excluding_manifest": 3,
+  "artifact_count_including_manifest": 4,
+  "manifest": {
+    "name": "fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json",
+    "bytes": 19374,
+    "sha256_and_git_blob": "provided by the external whole delivery record; not circularly embedded"
+  },
+  "total_new_artifact_bytes_including_manifest": 104282,
+  "all_new_artifacts_below_100000_bytes": true,
+  "complete_source_parent": {
+    "name": "fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+    "bytes": 52457,
+    "sha256": "176484582f7bdd83d0efe300d4ce7efe868df9d50a29310d7fb3aedce9d0f20a",
+    "git_blob_sha": "231bad2fba5f80ade672703114fe5bd776512baf"
+  },
+  "complete_shared_mean": {
+    "role": "seed_mean",
+    "name": "fixed_fejer_R726_spherical_seed_mean_jets.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R726_spherical_seed_mean_jets.py",
+    "bytes": 48226,
+    "sha256": "2513e4b0b8e6f895e4b9a53da2d938bb109937a3ab577e09c67558e37d128d23",
+    "git_blob_sha": "9f7ea1805326a317a281e8c3f6c7cb6ef9709890"
+  },
+  "complete_shared_reference": {
+    "name": "fixed_fejer_axisymmetric_reference.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+    "bytes": 60335,
+    "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+    "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c"
+  },
+  "complete_original_R726_scientific_binding": {
+    "file": {
+      "bytes": 55517,
+      "sha256": "6e5480838f54ecb50ce8baa085ebabed37504a3ba759d1ed958ec28c6d9df059",
+      "git_blob_sha": "159d8c56b1b966cf5de5d19bceec68db3630144b",
+      "name": "fixed-fejer-r726-current-complete-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-current-complete-runtime-binding.json"
+    },
+    "registry_json_pointer": "/complete_source_role_registry",
+    "runtime_json_pointer": "/current_complete_runtime_sources",
+    "whole_file_required": true,
+    "role_count": 137,
+    "runtime_count": 23,
+    "publication_commit": "7acb89983fe616fbba85cef74811625b357942e4"
+  },
+  "selected_computational_parent": {
+    "file": {
+      "name": "fixed-fejer-r726-demanded-current-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-demanded-current-runtime-binding.json",
+      "bytes": 69976,
+      "sha256": "00416682b3758b6e9643d6b99b32131e1bee5efca8cd31f18b377685f116e44e",
+      "git_blob_sha": "71efdafb5398d026cd421ea198cfce4fc812632e"
+    },
+    "whole_file_required": true,
+    "registry_json_pointer": "/complete_source_role_registry",
+    "runtime_json_pointer": "/current_complete_runtime_sources",
+    "role_count": 137,
+    "runtime_count": 23,
+    "scope": "R726 plus demanded coefficient/frame2 implementation; the complete physical seed/mean definitions remain the actual R726 parent",
+    "publication_status": "remote protected at coordination; no publication or actual run30 inferred",
+    "source_delivery": {
+      "name": "fixed-fejer-r726-demanded-complete-source-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r726-demanded-complete-source-delivery.json",
+      "bytes": 38462,
+      "sha256": "b836392f6f00234e2c39bd55ddfe79b6ec556754aaaee5f715bd7892cfb545b6",
+      "git_blob_sha": "5b6a3a368a0c14dcead145809bf4a5782c855d49"
+    }
+  },
+  "exact_source_interface": {
+    "basename": "fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+    "SCHEMA": "complete-fixed-fejer-R728-reversed-spherical-boundary-paired-halfwave-meridian-seed-reference-v1",
+    "working_definition_schema": "R728-reversed-spherical-boundary-paired-halfwave-reference-working-definition-v1",
+    "radial_plan_schema": "complete-R728-reversed-spherical-boundary-paired-halfwave-seed-radial-plan-v1",
+    "profile_schema": "complete-equal-central-intervals-reversed-paired-halfwave-profile-v1",
+    "fixed_source_parameter": {
+      "name": "PHYSICAL_CENTRAL_POLARITY",
+      "value": -1
+    },
+    "new_physical_definition_fields": {
+      "proof_result": "R728",
+      "source_fixed_global_polarity": -1,
+      "source_parameter_depends_on_angle_mean_direction_or_outer_point": false
+    },
+    "model_and_working_definition_field": {
+      "source_fixed_global_central_polarity": -1
+    },
+    "physical_signs_in_radial_discovery_order": [
+      -1,
+      1
+    ],
+    "ctor": "SupportedUnitMeridianJet(problem, prepared, *, expected_bundle_sha256=None, seed_parameters=None, mean_kernel_module=None, cache_directory=None)",
+    "SeedParameters_signature_changed": false,
+    "additional_scientific_CLI_words": 0,
+    "mean_kernel_module_keyword_changed": false,
+    "complete_fixed_reference_guard_unchanged": true,
+    "complete_mean2513_source_and_schema_guard_unchanged": true,
+    "all_support_epsilon_delta_and_budget_guards_unchanged": true,
+    "proof_whole_source": {
+      "name": "R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md",
+      "path": "topics/visible-flex-larger-amplitude/results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md",
+      "bytes": 23587,
+      "sha256": "3a26814cfcf960be2a7c78ed92a00cf24f10c683f01a36daf85cea7e2b82f36e",
+      "git_blob_sha": "c70f38f8e0cc7c1e21aa245861db73cf673411ac",
+      "role": "complete_R728_proof"
+    },
+    "proof_is_scientific_runtime_gate": false
+  },
+  "mathematical_change": {
+    "old_signs": [
+      1,
+      -1
+    ],
+    "new_signs": [
+      -1,
+      1
+    ],
+    "only_numerical_expression_changed": "SupportedUnitMeridianJet._cutoff_and_profile selects the complete source-fixed opposite pair signs",
+    "full_expression_before": "sign = 1. if index == 0 else -1.",
+    "full_expression_after": "sign = float(PHYSICAL_CENTRAL_POLARITY if index == 0 else -PHYSICAL_CENTRAL_POLARITY)",
+    "accurate_seed_difference": "Fminus-Fplus=-2*A(s,lambda)*w; A>=0; prefix plateau ell*J; exact zero before first and after second central interval",
+    "exact_distance_difference": "|Fminus-q|^2-|Fplus-q|^2=4*A*w dot(q-C)",
+    "all_six_jet_difference": "R728 equations (16)-(17), including every angular derivative and complete prefix",
+    "unchanged_exact_mean_equation": "Lc*v+integral_E S_chi(T0,N(v))-K",
+    "root_invariance_scope": "same already-existing accurate positive root branch of the identical complete equation; not inherited source/model evidence",
+    "scalar_amplitude_full_twelve_piece_rule_unchanged": true,
+    "all_eight_R725_internal_boundary_cuts_unchanged": true,
+    "all_six_physical_pieces_per_central_interval_unchanged": true,
+    "mean_quadrature_domain_nodes_order_weights_and_tail_definition_unchanged": true,
+    "outer_whole_cell_gauss_and_partial_integration_unchanged": true,
+    "exact_total_endpoint_and_two_angular_mean_closure_unchanged_under_stated_hypotheses": true,
+    "seed_positions_angular_jets_working_closure_Q_calibration_normal_roots_not_inherited": true,
+    "induced_Gram_principal_curvature_whole_D_reach_and_marked_or_unmarked_equivalence_not_claimed": true
+  },
+  "whole_text_construction": {
+    "complete_parent_bytes": 52457,
+    "new_complete_source_bytes": 53384,
+    "explicit_sequential_edits": 10,
+    "forward_matches_complete_new_sha": true,
+    "reverse_matches_complete_parent_sha": true,
+    "exact_qualified_method_text": {
+      "scope": "whole qualified class-method text spans; not AST or scientific execution",
+      "method_count": 18,
+      "unchanged": [
+        "SeedParameters.definitions",
+        "SeedReferenceFailure.__init__",
+        "SupportedUnitMeridianJet._fail",
+        "SupportedUnitMeridianJet._compare",
+        "SupportedUnitMeridianJet._width",
+        "SupportedUnitMeridianJet._carrier",
+        "SupportedUnitMeridianJet._affine_point",
+        "SupportedUnitMeridianJet._region",
+        "SupportedUnitMeridianJet._scaled_coordinate",
+        "SupportedUnitMeridianJet._scalar",
+        "SupportedUnitMeridianJet._chart",
+        "SupportedUnitMeridianJet._means",
+        "SupportedUnitMeridianJet._radial",
+        "SupportedUnitMeridianJet.evaluate",
+        "SupportedUnitMeridianJet.metadata"
+      ],
+      "changed": [
+        "SupportedUnitMeridianJet.__init__",
+        "SupportedUnitMeridianJet._cutoff_and_profile",
+        "SupportedUnitMeridianJet._prepare_plan"
+      ]
+    },
+    "unchanged_top_level_functions": [
+      "_S5",
+      "_S5_prime",
+      "_profile",
+      "_flat_cutoff_polynomial_jets",
+      "boundary_cutoff_exact_jets",
+      "boundary_cutoff_working_jets",
+      "boundary_cutoff_definition"
+    ],
+    "standalone_reproducer_executed": false,
+    "AST_or_compilation_executed": false,
+    "scientific_evaluation_executed": false,
+    "scope": "complete V8 source text construction only; the full MJS is supplied for exact file reconstruction, not as a scientific or admission gate"
+  },
+  "complete_reproduction": {
+    "source": {
+      "name": "reproduce_fixed_fejer_R728_reversed_seed.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_reversed_seed.mjs",
+      "bytes": 7937,
+      "sha256": "e4ef058b8a5d32b86bab3f7a60bd10c20cd349cb757783e828f2d8eae8ae23c7",
+      "git_blob_sha": "4a1578a3580267851be05bfed8c66b7a922c0598",
+      "role": "complete_R728_seed_text_reproducer"
+    },
+    "argv": [
+      "node",
+      "{repo}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_reversed_seed.mjs",
+      "--source-directory",
+      "{whole-parent-source-directory}",
+      "--generated-directory",
+      "{generated-directory}"
+    ],
+    "entire_input": {
+      "name": "fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R726_spherical_halfwave_meridian_reference.py",
+      "bytes": 52457,
+      "sha256": "176484582f7bdd83d0efe300d4ce7efe868df9d50a29310d7fb3aedce9d0f20a",
+      "git_blob_sha": "231bad2fba5f80ade672703114fe5bd776512baf"
+    },
+    "entire_output": {
+      "name": "fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+      "bytes": 53384,
+      "sha256": "c6fc04db9223981e1829620613c71de4c0bec93813ec0eeaf5f8ef7770217e86",
+      "git_blob_sha": "11143579520b9509d4d95323052743031f317e6b",
+      "role": "independent_R728_reversed_spherical_halfwave_seed"
+    },
+    "all_forward_and_reverse_edits_literal_in_reproducer": true,
+    "whole_output_written_and_parent_rehashed_by_reproducer": true,
+    "no_fragment_only_runtime": true,
+    "no_generated_target_root_or_field_values": true
+  },
+  "required_complete_scientific_cascade": [
+    {
+      "roles": [
+        "meridian",
+        "new_moment_input",
+        "reference_calibration"
+      ],
+      "required": "Derive complete independent base/Q/calibration sources from the chosen computational parent, with exact new seed/profile/schema identity. Recompute all actual initial closure/calibration values in the public run. Original old-Q origin and all full variables remain."
+    },
+    {
+      "roles": [
+        "closure_values",
+        "analytic_J3",
+        "analytic_frame",
+        "frame_C1",
+        "stage_matrices",
+        "adjacent_matrices",
+        "detached_meridian_values",
+        "endpoint",
+        "root_packets"
+      ],
+      "required": "Propagate all complete seed/base/normal dependencies through existing exact method/source bindings. Keep every original 32-stage equation, full frame/implicit derivatives, coefficient policy, cache point ownership, complete snapshots and packet failure semantics. Do not borrow old roots or caches."
+    },
+    {
+      "roles": [
+        "analytic_J3_binding",
+        "envelope_transfer"
+      ],
+      "required": "Update actual model/profile/sign/schema validators and full pure source pins. Preserve all complete historical schemas, 13-member requirements and typed/history obligations. Do not accept old positive-first fields as new negative-first fields by stripping physical model fields."
+    },
+    {
+      "roles": [
+        "geometry_selector",
+        "geometry",
+        "batched_geometry_binding"
+      ],
+      "required": "Repin both actual endpoint and meridian helper in the complete curvature-cache selector; propagate its whole identity into geometry and pure cache binding. Preserve full reach/distance/body/cap/height computation, all material observations and full current source-pair guards."
+    },
+    {
+      "roles": [
+        "driver",
+        "reader",
+        "launcher"
+      ],
+      "required": "Use complete new current registry and source identities, exact physical model diagnostics and a fresh output namespace. Preserve all original scientific arguments, full selectors, live observations, independent pending CLI and all external obligations. No new numerical budget reduction."
+    },
+    {
+      "roles": [
+        "seed_mean",
+        "scalar_progress"
+      ],
+      "required": "These existing complete bodies may be shared byte-for-byte if their actual caller/binding guards permit it. The mean equation and observer mathematics are unchanged; the final complete family must record the actual shared whole identities."
+    }
+  ],
+  "complete_accurate_successor_requirements": [
+    "Use the new full model and selected immutable point/report; no mutable progress as fee input.",
+    "Explicitly bind the new reversed pair definition and update any exact signs == [1,-1] guard to this independent declared [-1,+1] family.",
+    "The R726 exact Slerp and R727 mean mathematics stay the same, but source/seed/model attribution must be rebuilt from all actual inputs.",
+    "Exact radial T/Ts and both angular jets, and every central primitive transverse integral, must receive the opposite pair sign. A tangent-only relabeling would be wrong.",
+    "All exact support/boundary/halfwave cuts, complete tail, full-circle cells, 32 stages and original budgets remain.",
+    "Rebuild leaf/domain/closed/R723/P-U/mesh current source guards and actual same-point bindings; no old chord/global/acute booleans and no old certified fields inherited."
+  ],
+  "actual_source_context_only": {
+    "file": {
+      "name": "2026-11-28-public-actions-46112781312-1.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+      "bytes": 54453,
+      "sha256": "e45300467d9831e18a101f391b1febc5772d1a58cdc4509c74522b896f4fc377",
+      "git_blob_sha": "40181e1584e7eb7cfcb2780917d271c47bb0aaa7"
+    },
+    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
+    "scientific_input_allowed": false,
+    "scope": "real finite initial R726 observation motivates this independent candidate; it is not an immutable field or accurate root/geometry certificate",
+    "current_reach": -0.03483574522714061,
+    "current_distance_plus": 0.1399812067124947,
+    "distance_hotspot_material_location_reported": false
+  },
+  "future_actual": {
+    "run_id": null,
+    "run_attempt": null,
+    "current_family_binding": null,
+    "current_model_identity_sha256": null,
+    "current_full_point_sha256": null,
+    "actual_field_report": null,
+    "actual_root_or_geometry_evidence": null,
+    "new_comparison_result": null
+  },
+  "independent_family_already_published": false,
+  "refs_queues_or_active_runs_modified": false,
+  "published_minimal_components": {
+    "seed": {
+      "whole_file": {
+        "name": "fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+        "bytes": 53384,
+        "sha256": "c6fc04db9223981e1829620613c71de4c0bec93813ec0eeaf5f8ef7770217e86",
+        "git_blob_sha": "11143579520b9509d4d95323052743031f317e6b",
+        "role": "independent_R728_reversed_spherical_halfwave_seed"
+      },
+      "publication_commit": "d8cb4767aece72c6cec25f15f573950132ed50c8"
+    },
+    "final_proof": {
+      "whole_file": {
+        "name": "R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md",
+        "path": "topics/visible-flex-larger-amplitude/results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md",
+        "bytes": 23587,
+        "sha256": "3a26814cfcf960be2a7c78ed92a00cf24f10c683f01a36daf85cea7e2b82f36e",
+        "git_blob_sha": "c70f38f8e0cc7c1e21aa245861db73cf673411ac",
+        "role": "complete_R728_proof"
+      },
+      "publication_commit": "edef57558f257fda998b876ac6c819cb1b2b6539"
+    },
+    "previous_published_proof": {
+      "bytes": 23311,
+      "sha256": "7732e31f7a221fba8ccab97dbe9dfba22c04feca0dde0599b21e9c6da1b617de",
+      "git_blob_sha": "fb5a93293114b95fdecffc02951b97cb5c055ba4",
+      "publication_commit": "d8cb4767aece72c6cec25f15f573950132ed50c8",
+      "retained_as_history": true
+    },
+    "final_proof_change_scope": "Only target-domain scope clarified: distance to the full baseline S0, not distance from a fixed witness to every phase surface. All mathematical formulas and complete seed bytes unchanged.",
+    "reproducer_and_this_manifest_publication_commit": null
+  }
+}
