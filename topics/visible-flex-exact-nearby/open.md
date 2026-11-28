@@ -198,3 +198,6 @@ AGCS：run46132087372/1实际成功；76whole/2606796B、70 stages、5源码绑�
 
 
 RRM：完整相位C0..9的上三角正残差传播、阻尼A/k矩及真实seam费用逐式成立；保共同gap/完整角格/实际零频，A2七角所需label10不由原GCS9冒领；尚无全域测量。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GSV：176原whole/10624293B、169germ/626scalar格/220compact模型，全193原方向坐标含mean；用gamma_delta q_delta=gamma sqrt(q²−delta T w′)保小差，全signed mode卷积。只对名义cubic求r导，真实速度扰动仅按whole值传播；无BLAS数组依赖。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
