@@ -192,3 +192,4 @@
 - [R319](results/R319-adjacent-low-ports-0350-central-belt-with-true-cubic-return.md)（已证明）R317同实双臂配c=.350新真实中央，.235平带/.100分段三次回窗/.015原领；221184闭盒K<8.65、支撑>.58082，真实肩球δAr<.010，中央全reach≥.115。整形变见证沿同实R317，外场/g按新.350入口另付。
 - [R320：非平面闭中心、完整精确平坦条带及真实混合Cauchy数据](results/R320-nonplanar-closed-center-and-exact-flat-strip.md)（已证明）：全条嵌入、κ<7.717021545，条带held>.684；新外接闭面的误差与reach另付。
 - [R321：保持全实臂同位的两矩母线及更缓的物理Cauchy剖面](results/R321-two-moment-adjacent-ports-and-physical-Cauchy-derivatives.md)（已证明）：真.040窗、全曲率<5.16807、中央reach≥.115；全域(N/κ)两导<8761.54，旧真实点>48252.33；外核按自身场继续。
+- [R322：四种真法角宽度的全域权衡及.060新入口](results/R322-two-moment-width-tradeoff-and-060-physical-inlet.md)（已证明）：.060位置剖面两导严格改善、中央全reach保持；.120自身排厚度比例，只推进单一.060实际外核。

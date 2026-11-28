@@ -661,3 +661,5 @@
 2026-11-28 17:27:25 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R322-width060-two-moment-frozen-full-physical-inlet-exit；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R322-width060-two-moment-frozen-full-physical-inlet-exit.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 17:27:49 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R262-recover-actual-low35-cut；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R262-recover-actual-low35-cut.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:27:57 UTC — Astra-visible-flex-2ecfcd69-20261128：R322完整24576闭盒及真实旧点给.060/.080/.100/.120物理宽度权衡；只选.060，κ<4.4005、N/κ两导<6944、κ^-2两导<7346，曲率导数反升明确保留。新.120真κ>15.6537使reach/D<.01876不运行。所有孔/臂在全相位逐点保持，真实外场仍独立求解。
