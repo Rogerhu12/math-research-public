@@ -1,0 +1,97 @@
+{
+  "scope": "Bounded scalar snapshot of the first actual full .128/M48 CSR factor and Newton direction. No accepted Newton step, BVP convergence or physical metric acceptance is asserted.",
+  "recorded_utc": "2026-11-28T10:02:42.926874+00:00",
+  "actual_output": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-csr-streamed-qr-m48-20261128/attempt-000",
+  "target_lambda": 0.128,
+  "modes": 48,
+  "complete_nodal_pointer_sha256": "1be175ec04998c2b06cef91812cc3e1580cb55963d721afa699f16fbfc85a0d3",
+  "complete_nodal_sha256": "cfac99229ce26c75d57b14f61031a21e6cb69eca74dd458e353101aa8ad4c009",
+  "actual_complete_CSR_assembly": {
+    "event": "complete_CSR_assembly_return",
+    "elapsed": 277.5036805130003,
+    "n": 145,
+    "m": 952,
+    "k": 48,
+    "stored_entries": 46673744,
+    "radial_temporary_block": 16,
+    "sparse_format": "csr",
+    "complete_rows_have_uniform_stored_width": 338,
+    "index_dtype": "<i4",
+    "final_storage_bytes": 560637284,
+    "old_COO_index_arrays_created": false,
+    "all_original_stored_zeros_retained": true,
+    "input_COO_indices_were_none": true,
+    "original_block_formula_operation_order_preserved": true,
+    "original_parameter_middle_update_preserved": true,
+    "final_storage_shared_with_result": true,
+    "seconds": 3.2641514480001206,
+    "maximum_rss_kib": 1191448
+  },
+  "first_factor_and_solve": [
+    {
+      "event": "factor_start",
+      "seconds": 277.5195035979996,
+      "maximum_rss_kib": 1191448,
+      "factor": 1,
+      "n": 145,
+      "m": 952,
+      "k": 48,
+      "matrix_nonzeros": 46673744
+    },
+    {
+      "event": "factor_return",
+      "seconds": 285.11968461299875,
+      "maximum_rss_kib": 1639448,
+      "factor": 1,
+      "stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.529531969006053e-06,
+        "solve_calls": 0,
+        "maximum_componentwise_backward_error": 0.0,
+        "maximum_normwise_backward_error": 0.0,
+        "refinement_steps": 0,
+        "stored_factor_bytes": 693709000
+      }
+    },
+    {
+      "event": "solve_return",
+      "seconds": 286.585749631,
+      "maximum_rss_kib": 1644144,
+      "factor": 1,
+      "stats": {
+        "equations": 138088,
+        "state_size": 145,
+        "nodes": 952,
+        "parameters": 48,
+        "internal_nodes_eliminated": 950,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 2.529531969006053e-06,
+        "solve_calls": 1,
+        "maximum_componentwise_backward_error": 1.0,
+        "maximum_normwise_backward_error": 1.1602327868554542e-28,
+        "refinement_steps": 2,
+        "stored_factor_bytes": 693709000
+      }
+    }
+  ],
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_budget_driver.py": "49689d7ae5cc3ba8013700eeab1cc7f2683d96296fcee9d3a52201d6563e38e3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/direct_csr_collocation.py": "91c3df497777f96d762d4b41c9fdc40c038e8905413650b6bc3c7cd8f64f33da",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_assembly_driver.py": "c74394153c0741e469eb55f360dff29e6ea8c0ad9752a431166e6d4fe2647ea4",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_csr_memory_budget.py": "92054e63aaa598383cf80d5209027f80370ad398a31510509765b283908fd2c1",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_qr_dispatch_v4.py": "e1ee49cd2989552ee41a69aadc73d9600bdfd7c801ff4e3027760306e38d6e87"
+  },
+  "backward_error_scope": "maximum_normwise_backward_error is the original normalized backward diagnostic; it is not the absolute original-matrix residual. The componentwise diagnostic equal to1 is kept.",
+  "absolute_original_matrix_residual_recorded": false,
+  "all_original_parameters_and_equations_retained": true,
+  "original_all_nonlinear_and_physical_gates_still_required": true,
+  "complete_surface": false
+}

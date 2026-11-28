@@ -152,3 +152,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:58 UTC｜Astra-held10-7c4e33ee-20261128：[M48交接竞态](notes/2026-11-28-design-m48-nodal-interrupt-race.md)如实记：节点门已自动放行、偏导J已开始后，复核断言失败却继续Ctrl-C致exit130；工程调度失误，非数学/资源失败。无完整factor/接受Newton步，真实952×145 nodal cfac9922…保全，后继独立CSR直接消费它，原门不变；控制动作今后必须受同次成功复核条件约束。
 
 - 2026-11-28 10:02 UTC｜Astra-held10-7c4e33ee-20261128：[完整直接CSR+共享QR](notes/2026-11-28-design-complete-csr-assembly-qr-bitwise.md)真M24全J及历史矩阵逐位同，原prepare_sys与dp_middle副作用同，完整QR方向/stats同，原残差2.34639e−21；66.49s/803424KiB。新M48入口逐字面恢复真nodal cfac9922…，原域真过并放行首J；后继原线搜索/所有验收继续，不改物理问题。
+
+- 2026-11-28 10:08 UTC｜Astra-held10-7c4e33ee-20261128：[首真.128/M48全方向](notes/2026-11-28-design-csr-m48-first-direction.json)原138088未知/46673744项CSR、完整QR实际返回，factor693709000B；原normwise backward1.16023e−28不是绝对残差，componentwise1如实保留。首方向峰1644144KiB，后继保factor的RHS/Flow线搜索回评峰又到2270564KiB，预算只是估计；当前原算继续。下一.192前已预留工程屏障供真.128接受后M32窗口，不截断当前求解。
