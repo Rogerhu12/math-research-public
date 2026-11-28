@@ -135,6 +135,6 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 
 ### 容量和继续标准
 
-[ret58](computations/legacy-request-identity-retention-58-complete-delivery.json)34旧包装净76119B，全原值/145源/30workflow/21结论及byte-reader精确恢复保。ret57净200328B、ret56净1356698B、53–55及更早全部恢复链保旧完整open；不把这些批次的纯包装范围改成全局数值删除禁令。根15允许整理完整可再生旧数据，保原结论、完整源参/run/SHA/恢复映射；未知或活输入/parent91/ports/Nelder不猜删。
+[ret59](computations/legacy-exact-generated-outputs-retention-59-complete-delivery.json)精退85完整可再生数值中间件/派生输出净860388B，全24源、原配置/资源/run、82输入、30证据、原消费者与精确Git恢复保；30已知SHA256、55历史未知保null且全blob/bytes确定，不造SHA。R73远项修正、R97第五窗口未知、三胞元旧硬pin、R148线性范围和signed46后续未付均保。ret58/57/56与更早全账仍在原完整open/各ledger；根15允许此类再生输出退存，原源码/参数/证明不退，未知或活输入/parent91/ports/Nelder不猜删。
 
 README全部标准未完成；时长、阶段、失败和输入困难不是终点。新raw只runner/scratch，保全可复现代码/配方/真实运行与SHA，继续真实求解和全部固定目标精化。
