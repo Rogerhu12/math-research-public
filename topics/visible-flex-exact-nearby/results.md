@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGNF：全有限真非局部与独立mean实际完成](results/R149-supplement-actual-complete-finite-genuine-nonlocal-and-mean-rows.md)：真46150791569/1全1136组/16slab/97..2²⁰/two signs/两真列成功；2754B38ef9f41…与43whole全准入。两J/五mean/typed g1H⁻²ᐟ³+g2保，无额外J；原Ai natural .102516/common1.271201，双列 .202863/2.515496，非local/全∞/全inverse。新strict-cut可只组合原完整行。
+
 - [AGPM：全变截断势与复频格实际完成](results/R149-supplement-actual-full-variable-cutoff-and-complex-frequency-slabs.md)：真46151659061/1全52×256=13312闭格/4contours16arcs成功，whole1278Bf7616d0d…；real B lower208.61567607679524且whole complex<276，九原transverse上界及3435857/3868281B私件双SHA保。真实partial cutoff/势非零translation不删，GTW新ordinary receiver接续。
 
 - [MSS：完整物理1424两端打靶及四源首发](results/R149-supplement-full-physical-multiple-shooting-with-dyadic-signed-propagators.md)：全1425×193 square，97/96块，dyadic U/V/P/R/S与原两边界，11392局部block+4边界、完整signed产品后二端2850weighted rows统一θ<1才授逆；四source193/193/193/128的HS/op/triangle和signed真实残差全保。原89whole packets仅精确恢复，1335新缺格；120whole/21history首发，实际三target仍待。

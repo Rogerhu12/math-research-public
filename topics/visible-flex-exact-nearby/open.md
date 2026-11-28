@@ -168,3 +168,6 @@ MSS：全1425×193 square，97/96块，dyadic U/V/P/R/S与原两边界，11392�
 
 
 AGPM：真46151659061/1全52×256=13312闭格/4contours16arcs成功，whole1278Bf7616d0d…；real B lower208.61567607679524且whole complex<276，九原transverse上界及3435857/3868281B私件双SHA保。真实partial cutoff/势非零translation不删，GTW新ordinary receiver接续。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+AGNF：真46150791569/1全1136组/16slab/97..2²⁰/two signs/两真列成功；2754B38ef9f41…与43whole全准入。两J/五mean/typed g1H⁻²ᐟ³+g2保，无额外J；原Ai natural .102516/common1.271201，双列 .202863/2.515496，非local/全∞/全inverse。新strict-cut可只组合原完整行。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
