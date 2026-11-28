@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 附录：原个别N/P与完整V五次原提升及十五生成补图](results/R150-appendix-unit211-Phi-zero-original-individual-NP-and-full-V-fifth-degree-lift-and-fifteen-generator-cover.md)：真极化/原Gram同点返回；Cλ⁵降为次数(4,3,3)，C5补图十五生成、固定权纤维长≤15，C5零集与物理D开保留。唯一run46103882263成功，不登记全Phi有限或排空。
+
 - **R267 / 同一定量P的精确幂费用和Neumann预算：** [完整证明](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)。同尾正来源、实现原C^r权范数的真实同柱给log(-log||P^n||)/n^(3/2)→log16/48；混合幂同付。全尺度解析逆费用任意1+ε，未知普通Q只上界；联合来源忠实性和平方根仍另付。
 
 - **R150 / Phi 真T14、ell21及完整639次整模型：** [完整下界与冻结边界](results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md)。两原曲线真QQ核运输分别付14/21，合此前u⁴/(u−1)^30给保度639/LC636；精确16/25未证，余坏块全保。唯一两次120秒计时失败冻结，不改短jet续跑。
