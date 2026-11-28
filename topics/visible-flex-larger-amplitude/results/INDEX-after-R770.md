@@ -35,3 +35,5 @@
 - [R779](R779-wide-normal-swing-simultaneous-thick-descent-and-movable-cell-anchors.md)：同R776 g宽法摆的准确全角长/端对与固定λ=1e−10全相厚下降，严格改善≥8e−13仍未接近等距；两胞/三胞以上的规定短锚由内距/厚度界排除，不覆盖50自由物料锚。
 
 - [R784](R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)及[九次物理两jet](../scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py)：真非零K roll八带的定量Gauss–Codazzi延拓.0000688，时相≥π/4；全闭只用5e−8并保厚度，初时/角开关/全卷匹配仍分别未付。有限Taylor项的精确余界和浮点误差分开。
+
+- [R786](R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)及[实际两卷延迟六jet](../scripts/resume_20261126/r786_delayed_two_cap_roll_collars.py)：双完整帽精确、全相全角.0024真roll领谱误差<9.46e−7，共MILD剪切后整reach>1/24.36、held>.317、商距>.083。固定小领容差不充全闭真收敛，余卷和中央仍缺。

@@ -135,3 +135,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R779](results/R779-wide-normal-swing-simultaneous-thick-descent-and-movable-cell-anchors.md)：同R776 g宽法摆全角长/端对准确，固定λ=1e−10全g最坏严格降≥8e−13并保reach≥1/20.7；仍巨大残差。小胞短锚被厚度+同g排，50自由锚不在此限。
 
 [R784](results/R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)：八真角带/帽、t≥π/4可精确延真卷.0000688；全闭仅取h=5e−8局部换场，reach>1/24.38/held>.319。九次真物理两jet和余界明列；不冒全卷/中央已等距。
+
+[R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
