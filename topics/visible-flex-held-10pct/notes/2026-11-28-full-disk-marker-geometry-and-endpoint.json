@@ -1,0 +1,120 @@
+{
+  "session": "Astra-held10-7c4e33ee-20261128",
+  "date_UTC": "2026-11-28",
+  "status": "proved_analytic_new_full_disk_marker_family_and_exact_geometry_transfer",
+  "new_design": true,
+  "original_R82_query_changed_or_relabelled": false,
+  "theorem": "R86: replace only the two full flat disks by the stated exact rational graphs, preserve all existing R82 whole geometry budgets, and multiply the R84 endpoint tensor norm squared gap by exactly 51200",
+  "actual_source_inputs": {
+    "published_commit": "4cbd74a0b22de4345fee878d9e06de97dd14c102",
+    "R82_small_record": {
+      "path": "topics/visible-flex-held-10pct/notes/2026-11-28-tail-actual-marked-column-closed-geometry.json",
+      "sha256": "d966ce31e136a7c74dddad64e549d02cee5392016f8350d9b75960cc786d635e"
+    },
+    "R83_small_record": {
+      "path": "topics/visible-flex-held-10pct/notes/2026-11-28-actual-closed-third-activity-and-separation.json",
+      "sha256": "d435200a5a1a8361cda6c05c7d4ba0a049391fd58cb809a9c96c8d54e7e9661f"
+    },
+    "actual_old_geometry_report_sha256": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c",
+    "actual_old_query_sha256": "877e68d97868524ed3cde4bca1090fbe8a4a207370e7b6c761da2b5963378cab",
+    "complete_bundle_sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98",
+    "raw_full_height_packet_sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c",
+    "entire_mean_sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9",
+    "true_absolute_height_sha256": "7c015155273dcd4cb05eab3f53b2aae2469f2254f26e14fc2661e5b7e1b1baf0"
+  },
+  "source_plane_identity": {
+    "basis": "Actual R82 execution checks marker_radius=Fraction(rCuff)/2 and exact metadata equality; ActualClosedMapV2 uses a=cap.cuff and ClosedM3Map.disk_jets domain x*x+y*y<=a*a",
+    "full_flat_disk_radius_exact": "900719925474099/18014398509481984",
+    "disk_height": "same R80 true background primitive plus same exact half-column; never an interval midpoint",
+    "all_time_disk_boundary_Cartesian_two_jets_shared": true
+  },
+  "Python_entry": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_full_disk_marker.py",
+    "sha256": "6bdee23d100270d8a46340eee70324090c167fa185e75041dfd75cbb044e6ee3",
+    "git_blob_sha": "0849fcbd86e85bb663fdf935c5aa68a5a57658d0",
+    "bytes": 14610,
+    "defined_classes": [
+      "FullDiskBudgetMarker",
+      "ActualClosedFullDiskMarker"
+    ],
+    "exact_epsilon_preserved_as_Fraction": true,
+    "original_canonical_class_not_subclassed_or_modified": true,
+    "original_model_constructed_under_its_original_canonical_gate": true,
+    "new_model_does_not_delegate_old_canonical_marker_labels": true,
+    "compilation_executed": false,
+    "numerical_evaluator_executed": false,
+    "new_query_executed": false,
+    "reason_no_runtime_claim": "No usable execution environment; these are source definitions and a mathematical replacement proof, not a new Python process return."
+  },
+  "exact_scalar_entry": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/full_disk_marker_exact_certificate.mjs",
+    "sha256": "f079041bd109da0d9dd7b14e2ba88e7a9d9857c495c673b7e64c1228ac92de7b",
+    "git_blob_sha": "1edd666c38ddb7e4eb87cf3e11e3f91a67000181",
+    "bytes": 6332,
+    "imported_endpoint_source_sha256": "f23439e4bd82bc070565e129fe2494ab93ee49d2542521e9eaee6595c1186024",
+    "execution": "Actually evaluated in functions V8 with BigInt; imported R84 function text was supplied from its frozen source, without Node or executor.",
+    "returned_successfully": true,
+    "full_result": {
+      "status": "R86_exact_scalar_transfer_and_endpoint_consequence_passed",
+      "construction": "New exact fixed graph on both full flat disks; all R82 activity unchanged",
+      "old_source_commit": "4cbd74a0b22de4345fee878d9e06de97dd14c102",
+      "old_geometry_sha256": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c",
+      "old_query_sha256": "877e68d97868524ed3cde4bca1090fbe8a4a207370e7b6c761da2b5963378cab",
+      "radius_exact": "900719925474099/18014398509481984",
+      "epsilon_exact": "118059162071741075/1180591620717411303424",
+      "epsilon_definition": "1600 times the old literal epsilon, in exact rational arithmetic",
+      "epsilon_numerator_bits": 57,
+      "binary64_epsilon_is_not_the_definition": true,
+      "original_canonical_source_and_query_unchanged": true,
+      "original_canonical_constructor_rejects_new_parameters": true,
+      "cap_height_interval_exact": [
+        "515025517766074683339/590295810358705651712",
+        "515025517782317318091/590295810358705651712"
+      ],
+      "cap_gradient_norm_upper_exact": "118059162071741075/2459565876494606336",
+      "cap_curvature_upper_exact": "908651950243594409045550694400/90144042682896272963324429089",
+      "cap_support_lower_exact": "11572032991100515760577443952916694493032188887349/13318237636536160417563211664803602207055483502592",
+      "cap_radius_squared_upper_exact": "66561006931594323279894576755696670570145/87112285931760246646623899502532662132736",
+      "whole_radius_upper_exact": "2685290058999727/2251799813685248",
+      "whole_diameter_upper_exact": "2685290058999727/1125899906842624",
+      "whole_support_lower_exact": "722838986087113/1125899906842624",
+      "whole_curvature_upper_exact": "123/10",
+      "whole_reach_lower_exact": "10/123",
+      "whole_reach_over_D_lower_exact": "11258999068426240/330290677256966421",
+      "new_B3_over_pi_exact": "13998404638611254212623666174712635286563549894961210216932628461899109379165204591012809285/62712852780978517895608383855916439787406073922570186977199694826986172393044506470664569811604999241728",
+      "B3_multiplier_exact": "51200",
+      "endpoint_tensor_gap_strict_lower_exact": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/32108980623861001162551492534229217171151909848355935732326243751416920265238787312980259743541759611764736000000",
+      "endpoint_tensor_gap_requested_exact": "359/10000000000000000",
+      "endpoint_tensor_gap_positive_margin_exact": "21560304547483595397377221919367054592057082281670757582757729908630911558415051880792058752609247437949/313564263904892589478041919279582198937030369612850934885998474134930861965222532353322849058024996208640000000000000000",
+      "new_metric": "R82 target off the two flat disks; dx^2+dy^2+df_new^2 on them",
+      "new_target_fixed_for_every_phase": true,
+      "boundary_f_df_D2f_exactly_zero": true,
+      "changed_target_is_not_old_problem_refinement": true,
+      "new_Python_map_evaluator_executed": false,
+      "new_full_numerical_query_or_mesh_executed": false,
+      "numerical_Hausdorff_lower_bound_or_multiplier_claimed": false,
+      "complete_tail_metric_or_lambda_one_claimed": false,
+      "README_completion_claimed": false
+    }
+  },
+  "independent_read_only_review": {
+    "agent": "analytic_construction",
+    "confirmed": "252/25 curvature budget, unchanged activity A, exact B3 gain, whole-geometry transfer and fixed phase disk metric",
+    "exact_parameter_issue_identified_and_resolved": "epsilon numerator has 57 bits; code keeps 1600*Fraction(old_epsilon) as the mathematical input. Its binary64 cache is evaluation-only.",
+    "new_numerical_probe": false
+  },
+  "scope": {
+    "complete_new_family_defined_analytically": true,
+    "all_phase_C2_embedding_and_reach_proved_by_existing_R23_and_exact_transfer": true,
+    "exact_boundary_two_jets_preserved": true,
+    "old_target_changed_only_on_fixed_disks": true,
+    "one_new_target_for_every_phase": true,
+    "new_full_numerical_query_claimed": false,
+    "numerical_Hausdorff_bound_or_multiplier_claimed": false,
+    "old_fixed_problem_refinement_claimed": false,
+    "full_tail_metric_claimed": false,
+    "final_coupled_physical_H_claimed": false,
+    "lambda_one_or_held_claimed": false,
+    "README_completion_claimed": false
+  }
+}

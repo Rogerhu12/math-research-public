@@ -1,59 +1,56 @@
 # HANDOFF — Astra-held10-7c4e33ee-20261128
 
-**进行中，未完成：仍无满足本题全部10%标准的真实闭族。** 接 Astra-held10-06bbeb39-20261126；root管Git/H/open/log/results，三代理管源与运行。终端现unavailable，依根§8回退集成小文本，继续解析工作；未知进程不冒作返回。
+**进行中，未完成：尚无满足全部10%标准的真实闭族。** 接 Astra-held10-06bbeb39-20261126；root管Git/H/open/log/results，三代理管各自源与运行。执行环境现已恢复，恢复终端Git与真实数值计算。先前未知终态不冒作返回。
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `141333184d3c1f6ff10c4ea2b2103e3ccb9f96bb`（2026-11-28 14:19 UTC）。
-- 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
-- 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。15:00UTC终端不可用未能pull；集成实读私main `6bba30b9e9a9d0b8dffa1c4cae800206b096d7b6`，对14:00锚双README空diff，QUEUE仍本会话进行中。恢复即pull。
-- 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
-- [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
+- 最近实际pull后双README已读锚 `cf3a6003dcf40a003623f358caea0b2f60641d62`（2026-11-28 15:26 UTC）。
+- 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
+- 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`；断线时只传小文本，不是假称本地pull。恢复后的实际pull已收齐所有回退提交。
+- 根§12直接推进，不加审批；§15只存源/参数/hash/小结果，不存可再生数据；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论先pull核规则再push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
+- [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)保全旧前沿；本轮较早细节见[15:11前H](notes/2026-11-28-handoff-before-new-profile.md)及[恢复前H](notes/2026-11-28-handoff-before-r86-r87.md)，不重做已登记结论。
 
 ## 完成标准不降格
 
-连通闭C²嵌入及C²连续族；同一完整g/物理profile/chart/mean/时间域；H有内点、diamH≥.2D，整像δhold≥.1D，全E(3)含反射δE>0，全时reach≥.03D。全曲面全时metric≤1e−6，并在固定问题的角谱/径向/时间精化中继续下降至机器或求解容差。真多t小网格与复现入口、严格存在性缺口说明，完成后再改善比例。λ<1没有准确圆弧H，改变δ/mean的design不算同g精化。
+连通闭C²嵌入及C²连续族；同一完整g/物理profile/chart/mean/时间域；H有内点且diamH≥.2D，整像δhold≥.1D，全E(3)含反射δE>0，全时reach≥.03D。全曲面全时metric≤1e−6，固定问题角谱/径向/时间精化继续下降到机器或求解容差；真多t小网格复现及严格存在性差距说明。λ<1没有准确圆弧H；换δ/mean/profile/标记是设计，不是同g精化。完成后继续改善比例。
 
 ## 1. 设计到真实 λ1
 
-[历史λ.128/M48](notes/2026-11-28-design-previous-frontier.json)是旧run45821850836/sourcea0151c8…，不是本地接受。当前q=.06本地只恢复到λ.064/M40/run05e9ad77…；M48全952×145 nodal e889dd15…保留，几路映射执行均未取得新BVP。旧成功/失败、精确来源和存储细节见[压缩前H](notes/2026-11-28-handoff-before-new-profile.md)，不重做。
+[历史λ.128/M48](notes/2026-11-28-design-previous-frontier.json)来自旧run45821850836；本地q=.06恢复仅到λ.064/M40/run05e9ad77…，不是λ1。旧失败与完整M48初猜来源见上述归档，不原样重跑。
 
-新q=warp=.012：[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受；λ.002的M8/M16原metric失败。[M24真实接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)：615节点/mean1168、metric1.407536802e−7，run21d676daa…/raw3bc1c050…。完整nodal ef8e0342…恢复后14:15:50UTC真0，RSS518732KiB。[续λ.004真−9](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)（14:21:24，父3，后代全收），factor1/solve6后无raw/RMS/metric；完整pre-J节点0fdf914d…保留。RHS16+每accepted chord节点保存仅备、未spawn。小q不作10%或同g精化。下一真实新输入为[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，保S=.5/k=.2/α=.45；真旧锚A<.1，只付新核心条件预算，未跑。新b下先取得两个λ锚，不能混b作λ割线。
+新q=warp=.012的[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受，λ.002的M8/M16原metric失败；[M24接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)615点/mean1168，metric1.407536802e−7，run21d676daa…/raw3bc1c050…，14:15:50UTC真0。[λ.004续算](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)factor1/solve6后child−9/父3，无raw/RMS/metric，不推断OOM或数学失败；完整nodal0fdf914d…仍在。RHS16与accepted-chord保存入口已备，未启动。
 
-[Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)和[显式冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)已备；实际POST403缺actions=write、v3无run，不绕权限，继续本地。真λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)及[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
+[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)只付新核心条件预算，未跑新BVP；不同b不得混作λ割线。高k新路线须先避开R57的旧两级profile障碍，不能仅用核心数表。当前新单缓坡profile的严格标量证书与独立校准入口已准备，实际校准恢复后继续。
 
-## 2. 当前 λ.002 真 raw-H 尾与 .12 cut 图
+[Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)实际POST403缺actions=write，无run；不绕权限。真实λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)和[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
-新879点λ.002/M24源run1ad16826…、physical b9a61ae8…；[原完整fullH/J/heightJ/audit](notes/2026-11-28-tail-actual-complete-fullH.md)实际已返：1152段/55344未知，residual3.652377089e−10，1776项heightJ有限，packet81f6eb0f…。state同[明确单ULP初猜](notes/2026-11-28-tail-one-ulp-initializer.md)，normalizedFullDefect1.964293876e−5原样保留，离散metric不替连续证书。
+## 2. 当前 λ.002 真 raw-H 闭图
 
-[完整C²定义](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)bundle3b312be5…：170 planar+25 height模、18460 spans（28段原有额外驻点）、1153边界/1151相邻两jet/完整global mean全核。旧stage0+105段保原字节，新增1046段；181组件/179anchor有SHA sidecar，不倒改旧construction说明。
+新879点λ.002/M24源run1ad16826…/physicalb9a61ae8…；[原fullH/J/heightJ/audit](notes/2026-11-28-tail-actual-complete-fullH.md)已返：1152段/55344未知，residual3.65238e−10，1776项heightJ有限，packet81f6eb0f…。normalizedFullDefect1.964293876e−5保留，离散metric不替连续证书。
 
-[原全几何终态](notes/2026-11-28-tail-original-full-geometry-terminal.md)TTY43666/exit2，遍1152/18460+deep；原metric已过17644 spans，余816上界未付，不是实际误差下界。Kmax10.017503096，仅stage82内门10未过；deep metric≤1.462e−29、K≤8.00001，全尾平面投影单射/共享两jet接深盘已证。同场[真实w Taylor](notes/2026-11-28-tail-true-w-taylor-first-certificate.md)先付16/24全32span，v2 TTY95938真exit130，60段/491文件原字节保留；[新storage_v3](notes/2026-11-28-tail-metric-storage-v3-preservation.md)只改小写入门为16MiB+实际写量，metric仍1e−6。79580最后确认61段完成，之后断线，终态未知。
+[完整C²定义](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)bundle3b312be5…含170平面/25高度模、18460 spans、1153边界/1151共享两jet、完整global mean161eec0d…；旧源字节保全。原全几何TTY43666/exit2遍全域，metric已过17644 spans，余816待补；Kmax10.017503096，stage82内部K<10仍false；deep metric≤1.462e−29、K≤8.00001，完整投影单射与接深盘已付。
 
-[全尾真实半径恒等](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)已证c=Rc=5404319552844595/18014398509481984、r(R)=R/r′1/r″0；同完整谱/mean/两jet。只属当前raw-H，不搬旧界。
+[真实w Taylor](notes/2026-11-28-tail-true-w-taylor-first-certificate.md)的v2真exit130保全60段；[storage_v3](notes/2026-11-28-tail-metric-storage-v3-preservation.md)只改小写入资源门，metric仍1e−6。旧TTY79580返回码未知；恢复后实际无对应活进程，durable记录确认62完整stage(0–61)，stage62空；不称完整metric通过。尾代理从首未完成段续算，原collector SHA4a2a799b…已恢复，尚不宣称其收总成功。
 
-[R79](results/R79-actual-width012-cut-prefix-continuous-metric-geometry.md)真实.12 cut的82叶与未改补集全metric<99/1e8、support>.6445、radius<1.19001、K≤123/10。[.04/.01真实点反例](notes/2026-11-28-actual-short-cut-point-obstructions.md)已排两旧宽度；所有图入口须显式--cut-width .12。
+同场[完整半径恒等](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)已付c=Rc=5404319552844595/18014398509481984及r(R)=R/r′1/r″0。R79实际.12 cut完整前缀metric<99/1e8、K≤123/10；.04/.01已有真实点反例，所有图显式--cut-width .12。R80付整尾/deep/平盘绝对几何和真pole。R81付双尾第三通量≤.0053322091642946075。
 
-[R80](results/R80-actual-complete-tail-absolute-geometry.md)已付同cut原点全1152段/deep/平盘的绝对几何与真pole区间：K≤10.017503096、support≥.77104143；ell=marker=0，与R79/R82同源。stage82旧K<10 false保留。
+[R82全时闭图](results/R82-actual-marked-closed-family-all-time-geometry.md)取query字面半柱长binary(.0025)与正canonical帽，C²连续嵌入，D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123，reach/D>.03408815。总ell不是精确1/200。
 
-[正柱/帽真查询](notes/2026-11-28-actual-width012-cylinder-marker-query.md)TTY95236/child0，中央柱比较实际执行，采样差只作诊断。[R82全时闭图几何](results/R82-actual-marked-closed-family-all-time-geometry.md)已证同query字面half=.0025、canonical正帽的C²连续嵌入闭族：D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123、reach/D>.03408815。实际总ell是binary(.0025)的2倍，非精确1/200；仍无λ1握持/同g精化，metric另付，δE见R83。
+[R83](results/R83-actual-closed-third-activity-and-euclidean-separation.md)同965叶全前缀真第三矩与R81/真实ell合成ReA3∈[.1392755359019308,.15002395770094334]，付δE>0；[R84](results/R84-actual-endpoint-third-tensor-separation.md)准确C3/z/y对称给指定0、9/20端点I3差>7e−19。
+[R86新完整圆盘标记](results/R86-full-disk-marker-with-unchanged-geometry-budget.md)令半径2r0、准确Fraction幅度1600ε0，公共Cartesian两jet保持，新帽K≤10.08，原D/support/reach全界不变；端点I3差准确51200倍且>3.59e−14。只在固定双盘改目标g，不冒同g精化；新Python尚未执行，BigInt标量证书已真返回。
 
-[R83](results/R83-actual-closed-third-activity-and-euclidean-separation.md)同.12全965叶第三矩真返（438.449s/242188KiB），接[R81](results/R81-actual-complete-tail-third-activity-flux-bound.md)整尾与字面总ell，Re A3∈[.1392755359019308,.15002395770094334]。正B3/R67付δE>0；[R84](results/R84-actual-endpoint-third-tensor-separation.md)完整镜面/三重对称消去低权，真BigInt给I3(0)−I3(9/20)>7e−19，指定端点全E(3)不全等；不是Hausdorff数值界。最终coupled须独立绑candidate_H；generic8outer轻watcher57014真exit1/ENOSPC，从未native/J/子启动，无最终physical-H。
+最终coupled仍须独立绑candidate_H；generic8outer watcher57014真exit1/ENOSPC，从未native/J/子启动，无最终physical-H。
 
-## 3. 同一 g 精化
+## 3. 同一 g 与完整 DN
 
-[原支持族同g M24](notes/2026-11-28-analytic-original-fixed-support-actual-refinement.md)仍唯一实锚：1032点、RMS1.99629e−7/metric6.53252e−7。[六jet比较](notes/2026-11-28-analytic-fixed-support-complete-c2-comparisons.md)Fss差2.65435e−4不称Cauchy。[M32 v5−9](notes/2026-11-28-analytic-fixed-support-m32-v5-signal9.md)无接受；全1497×97/p32/scale31末dedd80ae…经原RHS恢复为initial8c4305b8…，逐位同。v7/v8映射入口仅备，未跑，不称fullDN精化。
+[原支持族同g M24](notes/2026-11-28-analytic-original-fixed-support-actual-refinement.md)仍唯一实际锚：1032点，RMS1.99629e−7/metric6.53252e−7。[六jet比较](notes/2026-11-28-analytic-fixed-support-complete-c2-comparisons.md)Fss差2.65435e−4，不称Cauchy。M32 v5−9无接受；完整1497×97/p32末state经原RHS恢复为initial8c4305b8…，不是新解。v7/v8仅备。
 
-真正fixed actual-DN五源已备：唯一真实7a λ1首锚、固定最终δ/profile/chart/gauge/mean/时间、原support未知与完整H/J/audit/8outer；origin/source两冻结树分别绑定，无实际λ1输入。自有KIND的Cartesian/continuous/closed/mesh四reader亦已备；九源仅本地落盘未推，无λ1实输入，不改标签伪过旧7a。
+fixed actual-DN五源及Cartesian/continuous/closed/mesh四reader已恢复本地，尚未推/未取得真实λ1；不能换标签伪过7a。
+[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)付原完整64191维Robin→真实DN的rank≤24更新、fixed-g 25维联合块和8outer精确非线性剩余；[补充](results/R85-supplement-complete-residual-and-small-block-validation.md)给真实完整回代误差和literal小块验证。
+[冷CSR逐列V入口](notes/2026-11-28-analytic-complete-terminal-response-basis-entry.md)已发布，恢复后可实际运行。旧J snapshot c9c4906f…与accepted raw4f503380…未经完整mesh/scale/坐标核同，至多frozen chord；新port-only初猜必须显式保全部原残差/域/8outer门。S、χN和新方向目前未实测。
 
-[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)已付完整原Robin→真DN的rank≤M更新、25维fixed-g联合块及8outer精确剩余。旧J c9c4906f…与accepted raw4f503380…未核同点，只能frozen chord；gauge q与physical q严格区分。[全残差补充](results/R85-supplement-complete-residual-and-small-block-validation.md)给逐列回代放大与小块字面逆合同；冷CSR逐列V源仅备未跑。S/χN/方向未实测，不充逆证书。
+## 4. 资源与继续
 
-## 4. 已付范围
+work根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。恢复时RAM可用约8.6GiB、磁盘约92MiB。完整冷CSR/factor/旧CSC双hardlink及accepted raw仍在；angular gzip保留。释放只在真无损重建/逐字SHA关系已核后做，旧输入不覆盖，无Library/Release上传。root先保R86/R87再继续R88定量Hausdorff；设计校准新profile、解析跑全24列、尾补剩余真实metric并继续新帽界。
 
-旧R53–R78全部范围查[索引](results.md)及继承H/open，不重做。λ.064的R76–R78不混入λ.002；R71/72非完整BVP逆。准确λ1 H、最终场全时几何、固定g精化、多t小网格继续。
-
-## 5. 字节、运行与继续
-
-work根为 `/workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work`，现不可访问。原E gzip/XOR与冷angular均有原SHA恢复manifest，永久base保留；同SHA硬链不能覆盖。当前λ.002 angular为矩积分恢复过、gzip仍在；断线前CSC双hardlink/CSR/angular均未释放，restorer仅落源未执行。大geometry128MiB门不改，metric小写入后继单列16MiB合同；无Library上传。
-
-每个子题完成即接open下一项；无时间或阶段停止。继续真实λ1→原完整DN/共同两jet→闭图全部比例→同g谱/径向/时间精化。发布器只amend本会话唯一未推提交，失败即停；历史82c217的H锚元数据错误已明确更正于log，不重写已推历史。
+每完成一个子题立即接open下一项；无时间或阶段停止。准确λ1→完整DN/公共两jet→全部闭图比例→固定g谱/径向/时间精化仍为实际完成链。所有旧R53–R81范围见[索引](results.md)和归档，不重做。
