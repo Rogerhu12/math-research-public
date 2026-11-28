@@ -254,3 +254,24 @@ node reproduce_fixed_fejer_halfwave_R729_run33_complete_launch.mjs --source-dire
 这是源/参数的可重建规则，不是科学运行的额外AST、fixture或benchmark步骤。本地没有执行再生器、Python、AST或F/J/root，没有修改任何ref/queue/request活文件，也没有触发workflow。所有附件是独立UTF8完整Git blob，可按记录精确恢复。
 
 后续root普通发布时，可另附实际main、request触发、官方run/job及真正输入返回。准备时的null与已刊共享源的历史身份保持原文；未来partial观察和complete结果必须各有自身point/source，不能由这份准备文推断。
+
+## 2026-11-28 09:35:18 UTC — 全21件实际发布及官方run33启动
+
+完整source8/参数6/launch7已于普通提交3ff5795e46cc5a2b50f0ba27d6c747a00bc54d03一次全部刊入main，共21件925632B（题内923413B，7796B共享pure helper此前已随28刊入，未重复改字）。全部完整源码、参数、原61request键、原peer/失败、三个完整再生器与说明/总表均保；原prepared null字段仍按准备时的历史含义读取，不反写为虚构的事前运行。
+
+官方 /actions/runs?head_sha=3ff5795e46cc5a2b50f0ba27d6c747a00bc54d03 与 /actions/runs/46130690181/jobs 已真实返回：
+
+| 字段 | 本次值 |
+|---|---|
+| run/attempt | 46130690181/1 |
+| workflow | .github/workflows/visible-larger-20261128-parallel33.yml |
+| head | 3ff5795e46cc5a2b50f0ba27d6c747a00bc54d03 |
+| run created/started | 2026-11-28T09:29:16Z |
+| job | 140934949073 |
+| job started | 2026-11-28T09:29:18Z |
+| research step started | 2026-11-28T09:30:05Z |
+| 当前官方状态 | in_progress；conclusion=null |
+
+[官方运行](https://github.com/Rogerhu12/math-research-public/actions/runs/46130690181)。安装/checkout阶段已成功不代科学完成；当前两个输入的source/report、科学detached source/PID、model/point/最终typed/R729触发与采用均待本次自己的完整记录，不用28或32相同输入数值填空。
+
+原三步整queue80264B/SHA256230b6ab4a1c2dbf43edc522d466f4fa30d9571d880a38a3f9287204c5043f480，parent/active同visible-larger-resume-20261128-33，finishfalse，三个script均有完整topics/visible-flex-larger-amplitude/前缀。whole pure62838B已由完整70074B ready原step形成，7 argv/564正式读数原字保，只有科学自然返回后再同ID排；不将136410B science+pure或143009B全四步队列硬塞到95000B接口，也不删字段凑队列。全157科学词、原458/445映射、现575/564、64live、4/64/15、32stage和全部源/变量/观察/数值预算不变。

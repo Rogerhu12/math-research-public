@@ -433,3 +433,7 @@ science/pure ready、binding、完整再生器、原note及总表六同路径完
 ## 2026-11-28 09:29:08 UTC — 33完整正半波R729三包及实际启动请求
 
 source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28刊过的7796B shared pure helper原字共享；原28物理机制/137来源对完整保持，仅增同一已刊R729 allrow kernel为138角色，21runtime全部可用。三完整初步骤80264B/230b6ab4a1c2dbf43edc522d466f4fa30d9571d880a38a3f9287204c5043f480；science157词、pure7词，全部原458/445正式与64live保，新575/564读数；原4/64/15、两μ.01、32stage、全域/变量/积分预算不减。原QP先运行，只有两个原dependent状态触发原目标/全行共同slack fallback，剩余64为完整坐标扫而非CG advances。active/parent均visible-larger-resume-20261128-33；不拿28 final/typed当初值，不继承任何别run几何。两input与science在新runner执行，whole pure62838B自然science返后再同ID排。三manifest e61d0cadb352470a95a6ecc87b2b923131e09c7b/0c4c502566125f92e7872ad8029cafcab533134d/61b5d57237db921586d23ce11c3a093b06e20790保全源参、所有61请求键、peer/原错误和再生。题外新增.github/workflows/visible-larger-20261128-parallel33.yml只为本课题完整公开计算；350min admission/360min workflow/30sec容量等待全保。此次为真实push触发请求，官方run/模型/点/新算法结果仍待实际返回，不以文件齐备冒运行成功。 双README云核至`a40481eaadbb5b4fc6e970502760dd0375d7ba51`无变（非pull）。
+
+## 2026-11-28 09:35:18 UTC — 33官方真实run及全包原预算启动记录
+
+官方确认33 run46130690181/1、job140934949073、head3ff5795e46cc5a2b50f0ba27d6c747a00bc54d03，research09:30:05Z开始、in_progress/conclusion null。全21件源参已同刊，三整step脚本均完整topic前缀；whole pure62838仅science自然返后接，原所有参数/域/预算保。自己的input/model/point/typed/R729归因未返，不以安装成功或文件齐冒科学成功。28修复后自身source689954/PID14760已真实开始，model/点仍等待。 双README云核至`bf6b828e02c0f1074e6e5a306716957239936398`无变（非pull）。
