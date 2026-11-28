@@ -1,0 +1,301 @@
+{
+  "schema": "isp-W-H198-full-original-twenty-two-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "run_id": 46090310802,
+  "job_id": 140809432890,
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-full-original-values-first-mean-reduction-twenty-two-model-8542.py",
+  "budget": {
+    "seconds": 180,
+    "address_space_gib": 4
+  },
+  "driver": {
+    "elapsed_seconds": 128.939929339,
+    "max_child_rss_kib": 711164,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "353c9bf9cb7f7ea8009438779453e6e8227b2399",
+        "before": "cf8f664bb19a76713f0c946fcb78973861961015",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:53:54.742954+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46090310802",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "cf8f664bb19a76713f0c946fcb78973861961015",
+    "source_exit_code": 0,
+    "source_git_blob": "cea5061e1c944129af4c14f6cb53089ecdbebee1",
+    "source_sha256": "f6f07b2f3fdb50f59565ef6501cbc2121d5882ce7cb32f7d17a4a1d2d139b6a1",
+    "stdout_bytes": 23563,
+    "stdout_sha256": "c7f8ebfdf4f6fa7384e9b57cb7c0ee28b5be57be37df5a355aa057c2cd38547f",
+    "stop_reason": null
+  },
+  "mathematical_records": [
+    {
+      "stage": "new_exact_original_I6_ten_by_two_completed",
+      "basis": [
+        "1",
+        "Z"
+      ],
+      "formalRows": 10,
+      "allThreeOriginalMeanQuadraticsAndN1Recovered": true,
+      "qZActuallyReturnedAsCombinationOfThreeSubstitutedMeans": true,
+      "exactI6OverExplicitH198Complement": true,
+      "originalNSPSAndTheirZMultiplesRetained": true,
+      "noFreenessOfOriginalQuotientAssumed": true,
+      "noOldFifteenCofactorOrNormExecuted": true,
+      "claimExcluded": false,
+      "seconds": 61.699310708999995
+    },
+    {
+      "stage": "new_complete_original_eleven_equation_twenty_by_two_model",
+      "exactRing": "A_W[H198^-1][lambda]",
+      "actualRowCount": 20,
+      "basis": [
+        "1",
+        "Z"
+      ],
+      "originalElevenEquations": [
+        "E1",
+        "EBe",
+        "EBo",
+        "N1",
+        "NS",
+        "PS",
+        "qT4",
+        "R6",
+        "Nlow",
+        "Plow",
+        "entire_Vlow"
+      ],
+      "exactOriginalI11QuotientByMonicQZAndTenLinearGenerators": true,
+      "allTenZProductsActuallyReturned": true,
+      "allOriginalValueDAGsFirstUseOnlyThreeMeanRules": true,
+      "physicalDNonzeroScopeForPublishedFullValueEquivalenceRetained": true,
+      "noDInverseOrDNormInverseUsedInNewAlgebra": true,
+      "noUnpaidLambdaLeadingOrWeightContentRemoved": true,
+      "entireH198ZeroBranchRetained": true,
+      "noFreeOriginalModuleAssumed": true,
+      "finalExpandedLargeOriginalMultipliersNotClaimed": true,
+      "sourceDAGOperations": 82,
+      "wholeWExcluded": false,
+      "seconds": 111.777074914
+    },
+    {
+      "stage": "new_full_value_two_column_original_cofactor_returned",
+      "name": "moment_and_entire_original_N4V",
+      "labels": [
+        "original_R6",
+        "original_entire_Vlow"
+      ],
+      "cancelledOnlyBothActualMultiplierContent": {
+        "degrees": [
+          8,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 16,
+        "terms": 69,
+        "bytes": 1925,
+        "sha256": "0c675b3d0f732e60114a3a1bab0807f59d525e0df253fe0a800e62a56a27270b"
+      },
+      "originalScalar": {
+        "degrees": [
+          96,
+          131,
+          0,
+          0,
+          11,
+          0
+        ],
+        "totalDegree": 184,
+        "terms": 94388,
+        "bytes": 7549617,
+        "sha256": "b63157207e01999e3c62ab5fc9df1449732ee6e17fc82b03d7585d6876bbd9df"
+      },
+      "bothColumnProductsReturned": true,
+      "completeCommonFactorZeroFibrePreserved": true,
+      "allUnpaidHeadsAndContentRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 113.839446891
+    },
+    {
+      "stage": "new_full_value_two_column_scalar_paid_normalization",
+      "name": "moment_and_entire_original_N4V",
+      "definition": {
+        "degrees": [
+          76,
+          106,
+          0,
+          0,
+          11,
+          0
+        ],
+        "totalDegree": 149,
+        "terms": 61868,
+        "bytes": 4345967,
+        "sha256": "8ac3f173169d4ee706e2bc6fbd174b9c48f472c8288e27b2751bc7c612a98dee"
+      },
+      "paidFactorLabels": [
+        [
+          "e",
+          2
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          1
+        ],
+        [
+          "old_H",
+          2
+        ]
+      ],
+      "explicitH198ComplementRemovals": 1,
+      "finalBothOriginalColumnProductsReturned": true,
+      "allOtherWeightAndLambdaLeadingFactorsUnpaid": true,
+      "wholeWExcluded": false,
+      "seconds": 118.78390140900001
+    },
+    {
+      "stage": "new_full_value_two_column_original_cofactor_returned",
+      "name": "both_individual_original_N_P",
+      "labels": [
+        "original_Nlow",
+        "original_Plow"
+      ],
+      "cancelledOnlyBothActualMultiplierContent": {
+        "degrees": [
+          8,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 16,
+        "terms": 69,
+        "bytes": 1925,
+        "sha256": "0c675b3d0f732e60114a3a1bab0807f59d525e0df253fe0a800e62a56a27270b"
+      },
+      "originalScalar": {
+        "degrees": [
+          107,
+          143,
+          0,
+          0,
+          10,
+          0
+        ],
+        "totalDegree": 199,
+        "terms": 104294,
+        "bytes": 8593345,
+        "sha256": "0f68ba641a78d8f391f5f46e27cea919bdd06babfa7507cd6b0dc753efd718e7"
+      },
+      "bothColumnProductsReturned": true,
+      "completeCommonFactorZeroFibrePreserved": true,
+      "allUnpaidHeadsAndContentRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 121.26662889900001
+    },
+    {
+      "stage": "new_full_value_two_column_scalar_paid_normalization",
+      "name": "both_individual_original_N_P",
+      "definition": {
+        "degrees": [
+          80,
+          110,
+          0,
+          0,
+          10,
+          0
+        ],
+        "totalDegree": 153,
+        "terms": 61601,
+        "bytes": 4328706,
+        "sha256": "282b8fe234b82b5070d9af85c0020eb6e8489c4a025fc080fa27b72aa3475a3f"
+      },
+      "paidFactorLabels": [
+        [
+          "e",
+          3
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          1
+        ],
+        [
+          "bc",
+          2
+        ],
+        [
+          "old_H",
+          2
+        ]
+      ],
+      "explicitH198ComplementRemovals": 1,
+      "finalBothOriginalColumnProductsReturned": true,
+      "allOtherWeightAndLambdaLeadingFactorsUnpaid": true,
+      "wholeWExcluded": false,
+      "seconds": 128.823633392
+    },
+    {
+      "stage": "new_H198_complete_original_twenty_two_model_and_value_pairs_finished",
+      "sourceSHA256": "f6f07b2f3fdb50f59565ef6501cbc2121d5882ce7cb32f7d17a4a1d2d139b6a1",
+      "allTwentyRowsActuallyConstructed": true,
+      "noOldC8NormTwelveResultantEighteenModuleOrNativeDeterminantExecuted": true,
+      "noOldSixTwelveColumnFullValueGateReplayed": true,
+      "noCoefficientPayloadCacheEncodedOrSplitOutputWritten": true,
+      "peakRssKiB": 711164,
+      "wholeWExcluded": false,
+      "ordinaryISPClaim": false,
+      "seconds": 128.823879294
+    }
+  ],
+  "scope": {
+    "ring": "A_W[H198^-1][lambda]",
+    "exact_original_I6_ten_by_two": true,
+    "exact_original_I11_twenty_by_two": true,
+    "original_D_nonzero_scope_for_full_value_equivalence_retained": true,
+    "D_inverse_used_in_new_construction": false,
+    "free_original_module_assumed": false,
+    "whole_H198_zero_retained": true,
+    "unpaid_lambda_leading_and_scalar_contents_retained": true,
+    "lambda_content_computation_of_C11_C10": false,
+    "C11_C10_monic_claim": false,
+    "new_resultant_or_norm": false,
+    "whole_W_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "storage": {
+    "source_definitions_run_hash_and_small_receipt_only": true,
+    "recomputable_large_coefficients_saved": false,
+    "encoded_or_split_payload": false,
+    "expanded_final_large_trace_claimed": false
+  }
+}

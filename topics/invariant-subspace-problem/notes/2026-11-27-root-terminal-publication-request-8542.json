@@ -1,15 +1,18 @@
 {
-  "message": "ISP R150: prove the complete original Phi I10 eighteen by two presentation",
-  "parentCommit": "0380fb216676825a02948e7b6bb1e33c27cd08ce",
+  "message": "ISP R150: prove exact full W I11 model and two original scalars; start new centered Phi NSPS cofactor",
+  "parentCommit": "a2777dac6e6a420149681af83f9fc914400396bf",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-complete-original-values-exact-eighteen-by-two-presentation.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-slope-full-original-values-twelve-new-rows-eighteen-two-model-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-complete-original-Phi-I10-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-complete-original-Phi-I10-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-H198-full-original-values-twenty-two-actual-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-centered-original-NSPS-cofactor-content-and-leading-support-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-centered-original-NSPS-cofactor-content-and-leading-support-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-centered-nsps.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-I11-and-new-Phi-NSPS-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-I11-and-new-Phi-NSPS-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +21,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-centered-nsps.yml"
+  ]
 }
