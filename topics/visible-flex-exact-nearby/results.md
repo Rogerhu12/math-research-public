@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GJR：根窗全部576接缝的两真实参考列接收](results/R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md)：原1079 whole中576负侧原缝保全65/193跳及独立均值；以GJS物理跳、GAF两真参考列与原J和SP点注入，在全n≥388接到腰。首发17pins/AST已核，原旧Airy算子不复算；其余1973负侧接口另付。
+
 - [GJS：全负域真实接缝化为两个有向系数](results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md)：同一物理点先加两真ray，所有比值幅和p±分母精确相消，接缝只余B,C两个原cubic一阶跳及独立mean。全3070接口中521同片细分精确零、其余2549逐个保，原V修正C1和两端口不混入；真实数值接收另付。
 
 - [AGIC：全部无穷原输入局部源的实际完成](results/R149-supplement-actual-complete-infinite-genuine-local-collar-source.md)：实际46144088993/1四完整径向格、128角格、全n≥4194308/两真列/两sign完成。D=.09184711485636493、自然腰=.5259830156066113、公共C97=6.52218939352198、ASQ=.5354448409890977；原5.5门false，全部1774B/d4be3220…和private完整SHA保。

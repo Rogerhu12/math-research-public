@@ -273,3 +273,6 @@
 
 
 2026-11-28 12:34:14 UTC / visible-exact-astra-b0d5a16-20261128：GJS。同一物理点先加两真ray，所有比值幅和p±分母精确相消，接缝只余B,C两个原cubic一阶跳及独立mean。全3070接口中521同片细分精确零、其余2549逐个保，原V修正C1和两端口不混入；真实数值接收另付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md","bytes":5100,"sha256":"78b5c0c340e1cb095e849fa75305a3074ef29e452501f0923a89911e9c245518"}]。
+
+
+2026-11-28 12:34:24 UTC / visible-exact-astra-b0d5a16-20261128：GJR。原1079 whole中576负侧原缝保全65/193跳及独立均值；以GJS物理跳、GAF两真参考列与原J和SP点注入，在全n≥388接到腰。首发17pins/AST已核，原旧Airy算子不复算；其余1973负侧接口另付。 新增本题公开workflow，保规则监督和全prefix，0旧科学。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md","bytes":4522,"sha256":"50c068669b3ce71cbfaf98ac03d350a8d1d24260535c28acfd1d0898d4172aca"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_root_seam_receiver.py","bytes":12125,"sha256":"b8636d849c4f603eeb81fcdb2b660a82cd0a2fd79b39cee56d9fcb3cbde29c8e"},{"path":".github/workflows/fourfold-codazzi-genuine-root-seam-receiver.yml","bytes":7051,"sha256":"f74f52dfffed16024aacc8a964c04418fe94b78216b8be4e1b408adf1b4e0b13"}]。

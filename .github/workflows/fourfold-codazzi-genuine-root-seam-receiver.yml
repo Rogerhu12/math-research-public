@@ -1,0 +1,92 @@
+name: Both genuine profile columns at all 576 negative root-window interfaces
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-genuine-root-seam-receiver.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-genuine-root-seam-receiver-20261128
+  cancel-in-progress: false
+jobs:
+  genuine-root-seam-receiver:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 35
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_signed_speed.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/piecewise_real_root_fold_resume_v2_ci/run-43616813816-1/consumers/process.json
+            /topics/visible-flex-exact-nearby/results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_root_seam_receiver.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-whole-genuine-inverse-deformation-on-the-physical-Fourier-space.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-first-Airy-seams-and-six-forcing-windows.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md
+      - name: Verify complete historical inputs and strong source formulas
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          f5e26f67d703a74426b435cc512d6fb4947942dd344f21065568b0ff079bf893  scripts/fourfold_codazzi_true_phase_signed_speed.py
+          6586b4b034a34e733319e039b53852c72db0cdf13634ae9f2735eaf1e1dc38ab  scripts/fourfold_codazzi_true_ratio_live_rules.py
+          fcc08a0e5f8769b0c215ee25e61d6ecaf73c308d14adb24d68b39bc6328833a3  scripts/fourfold_codazzi_true_ratio_prefix.py
+          f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351  notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+          c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64  notes/piecewise_real_root_fold_resume_v2_ci/run-43616813816-1/consumers/process.json
+          5503fe95e15247b2018d96de92908f520f3aa9f7517cc5866e4e53bad7240ea8  results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md
+          b8636d849c4f603eeb81fcdb2b660a82cd0a2fd79b39cee56d9fcb3cbde29c8e  scripts/fourfold_codazzi_genuine_root_seam_receiver.py
+          50c068669b3ce71cbfaf98ac03d350a8d1d24260535c28acfd1d0898d4172aca  results/R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md
+          78b5c0c340e1cb095e849fa75305a3074ef29e452501f0923a89911e9c245518  results/R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md
+          34bccc6e9822771767527918644498e6fcf49b089ec64db6c480b8bf0ef627a9  results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md
+          fcc7a1f89447bb1d6e6c7ea0013a1962d4e61cccb15e6048e45ec99ebdf7e925  results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md
+          e033785f6bea2505d25faaaf9921e86c7709a7ed220d09b58e66094002722ba2  results/R149-supplement-whole-genuine-inverse-deformation-on-the-physical-Fourier-space.md
+          7d6c8f7733d89c59db58820f5952d7c432f11c1f5abe485a3781aef5ef3eab04  results/R133-supplement-actual-first-Airy-seams-and-six-forcing-windows.md
+          95d3abfe8f05a14e15f1570f85b379a06120700c157549e9d1f507ade2ee58aa  results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Receive every original root-window jump in the physical waist
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          root=topics/visible-flex-exact-nearby/scripts
+          python "$root/fourfold_codazzi_true_ratio_live_rules.py" python "$root/fourfold_codazzi_genuine_root_seam_receiver.py" --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/gjr" --receipt "$RUNNER_TEMP/gjr-receipt.json"
+      - name: Retain the complete small result or last natural physical prefix
+        if: always()
+        run: |
+          python - <<'PYEND'
+          import hashlib,json,os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"gjr-receipt.json"
+          if p.is_file():
+              b=p.read_bytes()
+              if not 0<len(b)<100000:raise ValueError("qualified small GJR record")
+              print("GJR_FINAL_SMALL_OR_PREFIX",len(b),hashlib.sha256(b).hexdigest(),b.decode().strip(),flush=True)
+          PYEND
