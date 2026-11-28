@@ -349,3 +349,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:42:05 UTC — RET86：10–14四份终态笔记完整历史引用
 
 [RET86完整对应与恢复表](computations/terminal-run10-14-narrative-retention-86-complete-delivery.json)保四份人写笔记全部非JSON叙述/真栈/失败因果原字，12个重复JSON只转固定0ff96dc0001b35cac2301f942e55292fe0f808ed完整旧文引用；完整old/current身份和可逆文本构造器保。原97286B→34277B，连10500构造器和15690总表净回收36819B（不含本日志）；所有源/参数/raw与run12完整输入说明及13/14独立终态原字保留。更早低重复叙述不因容量目标被裁。 双README云核至`147bba6d5fbde75a30258cb962e3e5b0119af6cb`无变（非pull）。
+
+## 2026-11-28 08:44:46 UTC — 81份历史交付metadata完整JSON仅外空白整理
+
+[完整old/current对应表](computations/complete-delivery-json-lexical-format-delivery.json)与[说明](notes/2026-11-28-complete-delivery-json-lexical-format.md)保固定2d6b45da12fe0deb1809bc0c8e0fc22435cc4390的全部111个候选原件；81个仅删字符串外ASCII空白，30个全字不变跳过。所有键/值/数值token/escapes/顺序/完整源参/预算/失败未知原字保，不parse-reserialize数字。毛省461987B，完整map51078+说明6237+再生器3691后净400981B（不含本日志）。无source/binding/ready/queue/request/实际CLI input/proof/raw/checkpoint改动；所有旧internal bytes/SHA仍指历史whole，旧hash读者先恢复完整旧版，不把当前格式化文本冒旧身份。 双README云核至`021ee858f4b88fd119b1288790d058d1d34bb1d3`无变（非pull）。
