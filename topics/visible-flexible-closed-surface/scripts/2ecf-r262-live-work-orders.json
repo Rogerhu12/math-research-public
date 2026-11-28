@@ -2,46 +2,6 @@
   "schema": "visible-flex-actual-r262-work-orders-v1",
   "orders": [
     {
-      "id": "R319-wider-two-moment-adjacent-actual-original-comparison",
-      "after": [],
-      "script": "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
-      "sources": [
-        "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py"
-      ],
-      "args": [
-        "--scripts",
-        "{S}",
-        "--work",
-        "{W}/original-r262",
-        "--full-sleeve",
-        ".350",
-        "--compare-only",
-        "--out",
-        "{W}/adjacent-two-moment/original-comparison.json"
-      ],
-      "outputs": [
-        "{W}/adjacent-two-moment/original-comparison.json"
-      ],
-      "report": "{W}/adjacent-two-moment/original-comparison.json",
-      "fields": [
-        "schema",
-        "inputSHA",
-        "entrySHA",
-        "comparisonSHA",
-        "cutSHA",
-        "normalPlateau",
-        "normalTransition",
-        "k",
-        "phase",
-        "momentAdjustments",
-        "R317SourceSHA",
-        "axisRadii",
-        "heldRelativeTranslation",
-        "gridComparisons"
-      ],
-      "description": "新的两准确矩轮廓：保持R317低圆口及A圆心、总周长，.012法角过渡拓为.040，通过真实原函数两线性矩求外半径修正。对原完整74项/U0作4096/8192物理位置和两导观察；此前R21近似只指导选择，不代这项实际输入。"
-    },
-    {
       "id": "R262-adjacent-low-ports-actual-full-cut-design",
       "after": [],
       "script": "2ecf-r262-adjacent-low-ports-support-physical-cut.py",
@@ -432,9 +392,7 @@
     },
     {
       "id": "R319-wider-two-moment-actual-full-cut-design",
-      "after": [
-        "R319-actual-0350-frozen-compensated-heat-orbit"
-      ],
+      "after": [],
       "script": "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
       "sources": [
         "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py"
@@ -472,6 +430,254 @@
         "independentPhysicalGeometry"
       ],
       "description": "同一两矩宽法角轮廓的真实全幅.350 cut设计：重新选自己的正g并更新真实XYZ。源身份、圈钟、实际位置/六jets一致；其结果不作为原R317冻结g精化，后继需固定该新g再加密。"
+    },
+    {
+      "id": "R321-two-moment-actual-frozen-full-span-h1",
+      "after": [
+        "R319-wider-two-moment-actual-full-cut-design"
+      ],
+      "script": "2ecf-r262-two-moment-frozen-metric-refinement.py",
+      "sources": [
+        "2ecf-r262-two-moment-frozen-metric-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--parent",
+        "{W}/adjacent-two-moment/full-cut.npz",
+        "--curvature-guide",
+        "8.69",
+        "--out",
+        "{W}/adjacent-two-moment/fixed-h1.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/fixed-h1.json"
+      ],
+      "report": "{W}/adjacent-two-moment/fixed-h1.json",
+      "fields": [
+        "sourceSHA256",
+        "entrySHA256",
+        "physicalSourceSHA256",
+        "fieldSHA256",
+        "parentSHA256",
+        "stateSHA256",
+        "angularModes",
+        "radialSpans",
+        "actualPositionDOFs",
+        "metricDOFs",
+        "knotTransferMaxActual0th1st2nd",
+        "initialTraining",
+        "initialShifted",
+        "initialGeometry",
+        "accepted",
+        "training",
+        "independent",
+        "independentGeometry",
+        "trainingActualSpanCoverage",
+        "trueSpatialMomentCoefficients",
+        "trueNormalEndpointAngles",
+        "R317SourceSHA"
+      ],
+      "description": "R321新.040两矩真实母线自己的g固定后做实际Boehm和角精化。每span独立径行、769加全六个真实法角窗观察，完整原X+C+W与全部新XYZ保持自己的源身份；不当作R317旧g的精化。"
+    },
+    {
+      "id": "R321-two-moment-complete-0350-high-cap-and-arm-image",
+      "after": [
+        "R321-two-moment-actual-frozen-full-span-h1"
+      ],
+      "script": "2ecf-r262-two-moment-high-capped-complete-observer.py",
+      "sources": [
+        "2ecf-r262-two-moment-high-capped-complete-observer.py",
+        "2ecf-adjacent-low-ports-0350-physical-belt.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--definition",
+        "{S}/2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--state",
+        "{W}/adjacent-two-moment/fixed-h1.npz",
+        "--belt",
+        "{S}/2ecf-adjacent-low-ports-0350-physical-belt.py",
+        "--arms",
+        "{S}/2ecf-r299-actual-thick-arms-and-tapered-central-belt-v3.py",
+        "--out",
+        "{W}/adjacent-two-moment/h1-whole-0350.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/h1-whole-0350.json"
+      ],
+      "report": "{W}/adjacent-two-moment/h1-whole-0350.json",
+      "fields": [
+        "sourceSHA256",
+        "stateSHA256",
+        "fieldSHA256",
+        "definitionSHA256",
+        "beltSHA256",
+        "geometry",
+        "initialPhase",
+        "otherPhase",
+        "initialDiameter",
+        "otherDiameter",
+        "initialToOtherHeld",
+        "otherToInitialHeld",
+        "sampledHeldRatio",
+        "sampledHalfDiameterDifferenceRatio",
+        "sampledRequiredReach",
+        "scope"
+      ],
+      "description": "R321实际新裸母线和同位双实臂、R319真实.350三次中央、原完整高帽/实际尾与新prefix作整像有限观察；每个位置都取新两矩定义，整闭连续几何另付。"
+    },
+    {
+      "id": "R321-two-moment-actual-frozen-full-physical-inlet",
+      "after": [
+        "R321-two-moment-actual-frozen-full-span-h1"
+      ],
+      "script": "2ecf-r321-two-moment-inlet-profiles-all-span-banded.py",
+      "sources": [
+        "2ecf-r321-two-moment-inlet-profiles-all-span-banded.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+        "--cut",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--direct-source",
+        "{S}/2ecf-r262-cut-same-metric-banded-direct-newton.py",
+        "--profile-source",
+        "{S}/2ecf-r262-cut-physical-cauchy-inlet-profile-refinement.py",
+        "--parent",
+        "{W}/adjacent-two-moment/fixed-h1.npz",
+        "--steps",
+        "4",
+        "--out",
+        "{W}/adjacent-two-moment/h1-physical-inlet.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/h1-physical-inlet.json"
+      ],
+      "report": "{W}/adjacent-two-moment/h1-physical-inlet.json",
+      "fields": [
+        "entrySHA256",
+        "stateSHA256",
+        "parentSHA256",
+        "fieldSHA256",
+        "physicalSourceSHA256",
+        "cutSHA256",
+        "actualPositionVariables",
+        "actualMetricVariables",
+        "nativeModes",
+        "radialSpans",
+        "initial",
+        "initialSecondary",
+        "initialGuard",
+        "accepted",
+        "attempts",
+        "normalAndRhsAgreement",
+        "finalAngularGuard",
+        "initialIndependent",
+        "independent",
+        "stateUse",
+        "twoMomentCoefficients",
+        "R317PreservedRadiusSourceSHA",
+        "trueTransitionAngleGrids",
+        "coordinateEvaluatorsAgreement"
+      ],
+      "description": "R321自己的新两矩r/r_v/r_vv与.040真窗口，对冻结自己的g加N/k、真入口差、ez/k²三真实列和全带状Newton，完整六jets、四组不同真法角网与全span；新的状态profile身份不混R317。"
+    },
+    {
+      "id": "R321-two-moment-physical-inlet-first-directed-six-jet",
+      "after": [
+        "R321-two-moment-actual-frozen-full-physical-inlet"
+      ],
+      "requires": [
+        "{W}/adjacent-two-moment/h1-physical-inlet.npz"
+      ],
+      "script": "2ecf-r321-actual-profiles-directed-whole-geometry.py",
+      "sources": [
+        "2ecf-r321-actual-profiles-directed-whole-geometry.py",
+        "2ecf-r321-directed-two-moment-normal-angle-and-inlet-jets.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--state",
+        "{W}/adjacent-two-moment/h1-physical-inlet.npz",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+        "--moments",
+        "{S}/2ecf-r321-directed-two-moment-normal-angle-and-inlet-jets.py",
+        "--start",
+        "0",
+        "--count",
+        "1",
+        "--angles",
+        "192",
+        "--depth",
+        "2",
+        "--out",
+        "{W}/adjacent-two-moment/h1-inlet-first-directed.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/h1-inlet-first-directed.json"
+      ],
+      "report": "{W}/adjacent-two-moment/h1-inlet-first-directed.json",
+      "fields": [
+        "schema",
+        "completed",
+        "allSelectedPassed",
+        "wholeOriginalCutPrefixCovered",
+        "physicalProfilesPresent",
+        "fullNativeAnglePeriod",
+        "analyticMomentAudit",
+        "leafUpperRelativeGramExact",
+        "leafUpperRelativeGram",
+        "unresolvedMetricBoxes",
+        "unresolvedGeometryBoxes",
+        "leafUpperOriginAndArmMixedSquares",
+        "unresolvedShapeBoxes",
+        "selected",
+        "closed",
+        "originalFieldSHA256",
+        "stateSHA256",
+        "sourceSHA256",
+        "kernelSHA256",
+        "nativeSourceCells",
+        "commonRefinedRows",
+        "acceptedBoxes",
+        "unresolvedBoxes",
+        "firstUnresolved",
+        "acceptedDirectedMinima",
+        "limits",
+        "sleeveExact",
+        "actualCuffExact",
+        "metricClock",
+        "seconds",
+        "scope"
+      ],
+      "description": "R321新实际三入口列状态的首个原外W单元，全三扇区真实六jet、冻结g、曲率/支撑/高度与两位置条件；解析24阶法角矩重新有向解准确a,b，三入口列自己的链导数。只登记本明列局部闭盒，不冒全外核。"
     },
     {
       "id": "R262-recover-actual-low35-cut",
