@@ -198,3 +198,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原五项的有限 Frobenius 接合已付
 
 [R1155 §10](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)：同一M0,5配置及其实际两变量提升给完整Frob五项式：Σalt BCH中央=0，Σalt ordered中央=e_Ce_D/((1−ξ^p)(1−η^p))。五个ε_i由两个base误差与ℓ1 carry生成，三中间误差不可独立设0。完整Coleman常数、两配置混合wedge消去与强modp nilpotents均已付；未将其当成原theta moment填充已构造。 后继实际四线组合可消费本式；仍须全部逐coset transfer、anti-diagonal correlation及同一moment尺度后才读z12。
+
+
+### 原 Cartier–Serre 三张量及 e/S 数值桥已付
+
+[原genus4 §11](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：原六点全部pth主部给κ–Serre型对角−6r_ab，r_ab为明确单位阶乘；两个真正有限Thomae变换付全部九三元组的循环律，故同一Fermat三张量在Fp²交替。九mixed槽合为同一参数；原数值桥e=δS_n/(ρs)、S_n=−9ρ²A_orig准确，不除这些未知值。σ/Λ、mixed/123循环和原T仍未unit，未由Serre非退化或三形式推e/K4不能同零。 后继只从同一高插入继续，不能假定一般Massey循环/Jacobi律。

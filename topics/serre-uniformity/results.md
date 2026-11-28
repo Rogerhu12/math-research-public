@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Cartier–Serre三张量与e/S完整尺度（已证明）**：[原genus4 §11](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)。原六点全部pth主部给κ–Serre型对角−6r_ab，r_ab为明确单位阶乘；两个真正有限Thomae变换付全部九三元组的循环律，故同一Fermat三张量在Fp²交替。九mixed槽合为同一参数；原数值桥e=δS_n/(ρs)、S_n=−9ρ²A_orig准确，不除这些未知值。σ/Λ、mixed/123循环和原T仍未unit，未由Serre非退化或三形式推e/K4不能同零。
+
 - **原五项的完整有限Frobenius相容式（已证明）**：[R1155 §10](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)。同一M0,5配置及其实际两变量提升给完整Frob五项式：Σalt BCH中央=0，Σalt ordered中央=e_Ce_D/((1−ξ^p)(1−η^p))。五个ε_i由两个base误差与ℓ1 carry生成，三中间误差不可独立设0。完整Coleman常数、两配置混合wedge消去与强modp nilpotents均已付；未将其当成原theta moment填充已构造。
 
 - **原有限Frobenius的完整六重参数变换（已证明）**：[R1155 §9](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)。同一原D的有限Frob对u↦1−u、u↦1/u满足(a,b,h)↦(b,a,ab−h)、(−a,b−a,−h+a²/2)；提升误差分别为ℓ1(u)−ε、−ε/u^(2p)。证明完整保l1²+2u^p l2(u)+2(1−u^p)l2(1−u)=0的Frobenius项，适用于含nilpotents的任意Fp代数，不止有限域点。

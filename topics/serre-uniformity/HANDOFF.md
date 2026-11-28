@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：8decf21006c44bb59333c2fb206b3a30e2c0fc78**（2026-11-28 10:07 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:54 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：3df64f6d50dfb2adf1650fdc7cf201c775d6a377**（2026-11-28 10:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:54 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:54:17 Asia/Taipei，Actions run46095394596/job140825442860，blob:none浅clone后真实pull --rebase至254139af；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:44、pull≤10:54。本地09:55仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Fermat-cross.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Cartier-Serre-tensor.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -32,11 +32,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付H¹(Qp,Heis)↔Fp³的实际finiteFL坐标。p>Ccyc全global像(rx,sy,zxy)，s=T0；零r/s完整七分支保文。rs非零时真实障碍rs h−zab；Gaussian顶为16δ³c_g⁶(rs z12−z x4y8)，cubic顶为16δ³c_g⁶(rs z12−z λA*y7/6)。首数字0只迫u∈p²，不冒whole盘排点；继续实际两个中央组合。
 
-[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)同一canonical cusp的Ξ5,9;14完整Tate奇项及六次幂label判据已付；ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4，原abelian−1支保留。
-
-R1148 §§10–11以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的原γ3/5/9全global基；Θ/Ξ共享γ5的p⁵群、共同cusp判据及密度1/p²全保，局部Bp−3/5/9不据此删。
-
-R1148 §12的实际character界/共同affine lift已付；大Chebotarev不代affine空，继续小素/p-local。
+[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)同一Ξ5,9;14 cusp、完整奇项/六次label及原abelian−1整支已付。已刊Soulé/Kurihara给p>Ccyc=exp(9^(224·9⁴))的原γ3/5/9全global基，局部Bp−3/5/9单位不外推；Θ/Ξ共享γ5、p⁵群与密度1/p²全保。大Chebotarev同时存在affine lift，不能代affine空，继续小素/p-local。
 
 R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)，r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25。原c3/c5、七退化支/完整中央减法沿文。rs非零κ=6/5+3J/(5β3β5)，原F0最高组合与深盘仍开。
 
@@ -50,7 +46,7 @@ R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp�
 
 [原固定Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)§§1–10付D^(p−5)η、原Fermat/同Dixon生成式、Hesse全Frel/Schur谱。normal=12tr(adjQ A²)不等spectral=tr(adjQ)，全Jordan不代指定中列；原双零未排。R1145八带系统仅标量、旧5372/十五Euler/Prym/六CM/normal-FM均只消费，不重跑。
 
-[原genus4 §§6–10](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)Fermat6完整45槽、e0的七维0…4插入/K4尺度及primitive交换已付，A3/A9回原Dixon。§9同一E*:w²=z³−4的H*极p−2、pth补偿与Λ=4^(N−1)[x^N](1−x)^−1/2D_N均付。§10新付真实degree3 genus4商a²=1+2r³,b²=1−2r³的三114交叉槽，σ及(-1)^k相位，完整两极归约给σ=−3δ*/64·终止4F3(1)。σ/Λ未unit，也不等原e/K4；余15 cross/高插入与指定双零继续。
+[原genus4 §§6–11](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)完整Fermat45槽、七维0…4插入/K4、primitive交换及A3/A9回Dixon已付；同一E*的Λ/σ与全部相位沿文。§11付六点主部的κ–Serre对角单位及真实有限Thomae，全部九三元组的三张量在Fp²全交替；九mixed槽合为一参数。原尺度新闭e=δS_n/(ρs)、S_n=−9ρ²A_orig，不除共同值。σ/Λ、mixed/123循环系数及原T仍未unit；高插入与指定e/K4非同时零继续，不由三形式radical/Serre perfectness推非零。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

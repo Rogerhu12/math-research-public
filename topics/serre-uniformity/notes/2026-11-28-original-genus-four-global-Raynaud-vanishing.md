@@ -1341,3 +1341,352 @@ $\omega_*$ 及同一原 Fermat 商：
 本节未证明 $\sigma_p$ 或 $\Lambda_p$ 非零，
 也未把它们等同于原 $e,K_4$，或由此排除 R1137 的双缺陷。
 全部为实际函数域与有限 Cartier 指数的纸面计算，无数学程序执行。
+
+
+## 11. 原 Cartier–Serre 三张量、有限循环律与 e/S 的完整标量
+
+本节取 $K=\mathbf F_{p^2}$，只研究同一 $Z/K$。
+这足以包含 $\mu _6$ 以及正规化坐标排列所需的十二次根；
+原 $e,s,\delta$ 也在此域中。本文的 absolute Cartier 及下述连接
+各对标量取一次 $p$ 次根，二者复合在 $K$ 上线性。
+本节不把这一点推广成任意基域上未经扭曲的三线性断言。
+
+### 11.1. 原 primitive 的全部主部与 Serre 对角型
+
+记 $B_Z^1$ 为 exact 微分层。由 §6 的全 Cartier 零性，
+$H^0(Z,B_Z^1)=H^0(Z,\Omega_Z^1)$。
+exact 序列
+$$
+0\longrightarrow\mathcal O_Z
+ \xrightarrow{F}\mathcal O_Z
+ \xrightarrow{d}B_Z^1\longrightarrow0
+$$
+给一个对标量取 $p$ 次根的连接同构
+$$
+\mathfrak k:H^0(Z,\Omega_Z^1)\longrightarrow H^1(Z,\mathcal O_Z).
+$$
+这里使用 absolute Frobenius 的半线性写法；相对版本的右端带一次
+Frobenius twist。其为同构，是因为常数上的 Frobenius 双射，
+连接映射单射，而两端维数均为十。
+固定 principal-parts 的 Čech 约定，使一个有理 primitive 的
+$p$ 次根主部表示 $\mathfrak k$；若同时采用相反约定，
+以下整个三张量只共同换一个负号。
+
+对 (G4.17) 的同一个 $P_{a,b}$，置
+$$
+r_{a,b}=
+\sum_{i=0}^{bk-1}\frac{(-1)^i\binom{bk-1}{i}}{a+6i}
+=\frac{(bk-1)!}{a(1+a/6)_{bk-1}}
+=\frac{(ak-1)!(bk-1)!}
+ {6((a+b)k-1)!}\in\mathbf F_p^\times.
+\tag{G4.61}
+$$
+中间等式是有限二项式积分恒等式；
+末式只用 $1/6=k$ 于 $\mathbf F_p$。
+所有指标小于 $p$，所以各因子都是单位。
+
+这些 primitive 只在 $y=0$ 的六个点有极。
+无穷点处其各项的阶为 $bp-a-6i\ge6-a-b>0$，
+故没有遗漏无穷主部。
+在 $x=\xi,\ \xi^6=1$ 处，以 $y$ 为参数，
+$x=\xi(1-y^6)^{1/6}$，其 Laurent 指数均为 $-bp+6j$。
+由于 $dP_{a,b}=\omega_{a,b}$ 正则，负指数必须被 $p$ 整除；
+在 $0\le j<bp/6<p$ 的范围内，这只允许 $j=0$。
+准确的唯一负项及其 $p$ 次根是
+$$
+(P_{a,b})_{\rm pp}=r_{a,b}\xi^a y^{-bp},
+\qquad
+L_{a,b}=r_{a,b}\xi^{-a}y^{-b}.
+$$
+又
+$$
+\omega_{d,e}=-x^{d-6}y^{e-1}\,dy.
+$$
+先按 $y$ 的阶、再对六个 $\xi$ 求和，得到完整 Serre 配对
+$$
+\boxed{\quad
+\langle\mathfrak k(\omega_{a,b}),\omega_{d,e}\rangle_{\rm Serre}
+=-6r_{a,b}\,\mathbf 1_{a=d,\ b=e}.
+\quad}
+\tag{G4.62}
+$$
+所以此型的非退化性来自实际六个主部及单位阶乘，
+不是借某个未指定的极化重新选择标量。
+
+定义同一全局三张量
+$$
+\mathscr T(\alpha,\beta,\gamma)=
+\langle\mathfrak k(\beta_Z(\alpha,\beta)),\gamma\rangle_{\rm Serre}.
+\tag{G4.63}
+$$
+它在 $K$ 上三线性，因为前两个输入的 $p^{-2}$ 半线性在
+$\mathbf F_{p^2}$ 上为恒等。
+它首先只已知在前两槽交替；以下真正证明剩余循环律，
+不从 Serre perfectness 自动推断。
+
+若 $\beta_Z(\omega_{a,b},\omega_{d,e})
+=\mathcal B_{ab,de}\omega_{g,h}$，
+则由 (G4.62)
+$$
+\mathscr T(\omega_{a,b},\omega_{d,e},\omega_{g,h})
+=-6r_{g,h}\mathcal B_{ab,de}.
+\tag{G4.64}
+$$
+若第三基向量不是这个实际输出，三张量为零。
+因此一个非零候选三元组的三个 triple 必须逐坐标相加为
+$(6,6,6)$。
+
+### 11.2. 所用变换是有限多项式恒等式
+
+以下全部 $ {}_3F_2(1)$ 均在一个显示的非正整数上参数处终止。
+使用恒等式
+$$
+\boxed{
+ {}_3F_2\!\left(\begin{matrix}-d,a,b\\ c,f\end{matrix};1\right)
+ =
+ \frac{(c-a)_d}{(c)_d}
+ {}_3F_2\!\left(\begin{matrix}-d,a,f-b\\
+                 1+a-c-d,f\end{matrix};1\right).
+}
+\tag{G4.65}
+$$
+这是有限恒等式，并不引用非终止 Thomae 变换。
+自足证明如下：在多项式环中，
+$$
+ {}_2F_1(-d,a;c;t)=
+ \frac{(c-a)_d}{(c)_d}
+ {}_2F_1(-d,a;1+a-c-d;1-t).
+$$
+其在 $t=1$ 的每个导数由有限 Vandermonde 和逐项核准。
+再作用有限线性泛函
+$t^j\mapsto(b)_j/(f)_j$；
+对 $(1-t)^j$，同一 Vandermonde 恒等式给
+$(f-b)_j/(f)_j$，即得 (G4.65)。
+因此只有所显示的有限分母需要核对，尾项或解析收敛没有参与。
+
+### 11.3. 剩余十五槽中的九槽：同一个有限和
+
+设 $N=k-1$、$C_N=\binom{2N+1}{N}$，并记
+$$
+A=\mathcal B_{41,12},\qquad B=\mathcal B_{12,13}.
+$$
+直接在 (G4.19) 中分别使用原范围 $0\le i\le N$
+以及换元 $i=k+j$，得到
+$$
+\begin{aligned}
+A&=\frac{(-1)^NC_N}{4}
+ {}_3F_2\!\left(\begin{matrix}-N,-N,2/3\\
+                      N+2,5/3\end{matrix};1\right),\\
+B&=-\frac{C_N}{2}
+ {}_3F_2\!\left(\begin{matrix}-N,-3N-2,1/3\\
+                      N+2,4/3\end{matrix};1\right).
+\end{aligned}
+\tag{G4.66}
+$$
+对第一式在 (G4.65) 中取 $c=5/3,f=N+2$；
+对第二式取 $c=4/3,f=N+2$。
+由于 $p=6N+5$，两者变换后的有限和都是
+$$
+J_N={}_3F_2\!\left(\begin{matrix}-N,-N,1/2\\
+                         1,N+2\end{matrix};1\right).
+$$
+两个前因子的分子也都化为 $(5/6)_N=(-N)_N$。
+显示的所有下参数、前因子和 $C_N$ 均是单位；
+此处没有将 $J_N$ 宣布为单位，也没有除以它。
+逐前因子比较给
+$$
+A=\frac{(-1)^{N+1}}2
+       \frac{(4/3)_N}{(5/3)_N}\,B.
+$$
+而 (G4.61) 与 Wilson 直接给
+$$
+\frac{r_{4,1}}{r_{1,3}}
+=\frac{((4k-1)!)^2}{(5k-1)!(3k-1)!}
+=\frac{(-1)^{N+1}}2
+       \frac{(4/3)_N}{(5/3)_N}.
+$$
+这里可逐项使用
+$(4N+3)!(2N+1)!=1$、
+$((3N+2)!)^2=(-1)^{N+1}$，没有 Legendre-symbol
+或未指定平方根的余相位。于是准确有
+$$
+\boxed{\quad r_{1,3}\mathcal B_{41,12}
+       =r_{4,1}\mathcal B_{12,13}.\quad}
+\tag{G4.67}
+$$
+这是同一原三元组 $(\omega_{41},\omega_{12},\omega_{13})$
+的真实循环律。
+实际三坐标排列将它运输到全部六个 $114\times123$ 槽和
+三个共享 $1$ 的 $123\times123$ 槽；
+这九槽现在由同一参数及准确单位决定，而不是九个自由值。
+
+### 11.4. 公共椭圆方向的循环律与原 e 的数值桥
+
+设
+$$
+n=2k-1,\qquad
+E=\mathcal B_{22,12},\qquad B_0=\mathcal B_{12,32},
+\qquad C=\binom n{k-1}.
+$$
+(G4.19) 的同一原有限范围给
+$$
+\begin{aligned}
+E&=\frac{(-1)^{k-1}C}{3}
+ {}_3F_2\!\left(\begin{matrix}1-k,-n,1/2\\
+                         k+1,3/2\end{matrix};1\right),\\
+B_0&=-{}_3F_2\!\left(\begin{matrix}-n,-n,k\\
+                         1,k+1\end{matrix};1\right).
+\end{aligned}
+\tag{G4.68}
+$$
+第一式的换元是 $i=k+j$；原分母
+$2+6(k+j)$ 在特征 $p$ 中准确为 $3+6j$，
+所以系数是 $1/3$。
+
+对第二式在 (G4.65) 中使用终止指数 $d=n$，
+$a=-n,b=k,c=k+1,f=1$。
+新上参数 $1-k=-(k-1)$ 在整数中已经使长和截短；
+新下参数 $2-5k$ 模 $p$ 为 $k+1$。
+对第一式使用 $d=k-1,a=-n,b=1/2,c=3/2,f=k+1$。
+新下参数 $3/2-3k$ 模 $p$ 为 $1$，
+新上参数 $k+1/2$ 模 $p$ 为 $-n$。
+两者于是都化为同一个
+$$
+J={}_3F_2\!\left(\begin{matrix}1-k,-n,-n\\
+                         1,k+1\end{matrix};1\right),
+$$
+其两个前因子分别为
+$$
+P_H=\frac{(3k)_n}{(k+1)_n},\qquad
+P_E=\frac{(n+3/2)_{k-1}}{(3/2)_{k-1}}.
+$$
+变换前后所有下参数直到原有限上界均非零；
+特别 $n+3/2$ 的所需因子模 $p$ 正是
+$-(k-1),\ldots,-1$。
+因此两个前因子皆单位，但仍不除以 $J$。
+
+Wilson 逐项消去前因子给
+$$
+-\frac{3(-1)^{k-1}}{C}\frac{P_H}{P_E}
+=\frac{(3k-1)!(4k-1)!}{(5k-1)!(2k-1)!}
+=\frac{r_{3,2}}{r_{2,2}}.
+$$
+例如完全约化只需
+$(5k-2)!k!=(-1)^{k-1}$、
+$(5k-1)!(k-1)!=(-1)^k$、
+$((3k-1)!)^2=(-1)^k$。
+于是，不论共同和是否为零，都有
+$$
+\boxed{\quad r_{3,2}\mathcal B_{22,12}
+        =r_{2,2}\mathcal B_{12,32}.\quad}
+\tag{G4.69}
+$$
+
+现在严格接回原 $S=S_n$。
+(G4.11)、(G4.20) 与 absolute Cartier 给
+$$
+\mathcal B_{22,12}=-c^n e/\delta,\qquad
+\mathcal B_{12,32}=-c^n S/s.
+$$
+第二式也可直接由原非交替有限和
+$H_n=2^nS_n$ 核准；这里 $c^n/s=2^n$。
+为核这个相位，$\kappa^p=-\kappa$、$n$ 为奇数，故 $\kappa^n s\in\mathbf F_p$；由 $3n=p-2$、$s^3=-3s$、$\kappa=3s$，其立方恰为一。$\mathbf F_p$ 的立方映射双射，故 $\kappa^n=1/s$，即得所述 $c=2/\kappa$ 的身份。
+代入 (G4.69)，得到先前 (G4.13) 的完整数值增强：
+$$
+\boxed{\quad
+ e=\frac{\delta}{s}\,
+ \frac{(2k-1)!(5k-1)!}{(3k-1)!(4k-1)!}\,S_n.
+\quad}
+\tag{G4.70}
+$$
+所有阶乘都是原素数下的单位。这个比值还能完全约简。
+事实上
+$$
+\frac{r_{3,2}}{r_{2,2}}
+=\frac{(3k-1)!(4k-1)!}{(2k-1)!(5k-1)!}
+=\frac{(1/3)_k}{(2/3)_k}
+=2^{1-2k}=\rho.
+$$
+给出无需另选立方根的有限证明：Wilson 先将中间阶乘比化为
+$(-1)^k(3k-1)!(k-1)!/((2k-1)!)^2$。
+再用 $3k-1=(p-1)/2=-1/2$ 于 $\mathbf F_p$，
+在 $\binom{3k-1}{k-1}$ 上逐因子作半整数二项式展开，
+得到该比值为
+$-4^{1-k}(2k)/(2k-1)=2^{1-2k}$。
+最后 $(2^{1-2k})^3=2^{2-p}=2$，
+而 $\mathbf F_p$ 上立方映射双射，所以它就是原规范中的 $\rho$。
+
+因此 (G4.70) 的标量正是
+$$
+\boxed{\qquad e=\frac{\delta}{\rho s}S_n,\qquad
+ S_n=-9\rho^2 A_{\rm orig}.
+\qquad}
+\tag{G4.70a}
+$$
+这里 $A_{\rm orig}$ 仅指 (G4.11)–(G4.12) 及 R1126 的原有限和，
+不是 (G4.66) 中暂记为 $A$ 的 mixed 槽。
+第二式来自已付 $e=3\rho s\delta A_{\rm orig}$ 和 $s^2=-3$，
+没有除以 $e,S_n$ 或 $A_{\rm orig}$。
+它严格合并了 R1126 的 $A_{\rm orig},S_n$ 两个输入，
+但没有把其非 CM 目标方向的 $T$ 和一并消去。
+
+因为 $\rho,\delta,S_n$ 在 $\mathbf F_p$ 而 $s^p=-s$，
+(G4.70)–(G4.70a) 准确满足 $e^p=-e$。
+这里确实新付了标量；没有以零性等价冒充数值等式，
+也没有因这个单位前因子就断言 $e$ 或 $S_n$ 非零。
+
+### 11.5. 全十维三张量交替，仍保原指定缺口
+
+逐坐标相加为 $(6,6,6)$ 的无序基三元组只有以下九组：
+
+| 三元组类型 | 组数 | 循环来源 |
+|---|---:|---|
+| 三个不同的 $114$ | $1$ | 实际三坐标轮换 |
+| $222$ 与共享 $2$ 的两个 $123$ | $3$ | (G4.69) 及实际排列 |
+| $114$ 与在其 $4$ 位置共享 $1$ 的两个 $123$ | $3$ | (G4.67) 及实际排列 |
+| 同一三循环中的三个 $123$ | $2$ | 实际三坐标轮换 |
+
+这些三元组都由不同基向量组成。
+其它三元组由字符使三张量为零；唯一字符允许的重复三元组是三个 $222$，其值由前两槽的交替性为零。
+它们对应 §6.4 的全部二十七个可能非零配对槽。
+
+为把排列的相位也付清，在齐次模型
+$X^6+Y^6-Z^6=0$ 上取 $\epsilon^6=-1$。
+例如 $(X,Y,Z)\mapsto(Y,\epsilon Z,\epsilon X)$
+是实际 projective 阶三自动同构。
+它的第三次幂是共同齐次标量，所以在每个三循环基轨道上，
+三个乘子的积是 $1$，给出表中两类直接循环律。
+
+对其它排列也不必猜测相位：
+在 adjunction residue 基
+$X^{a-1}Y^{b-1}Z^{c-1}\operatorname{Res}(\Omega/F)$ 中，
+三个 triple 相加为 $(6,6,6)$ 时，
+一个正规化坐标排列的三个基乘子之积准确为该排列的符号。
+这由 $F\circ g=\lambda F$、
+$g^*\Omega=(\det g)\Omega$ 和三个坐标的六次幂逐项相乘立即给出。
+因此交换上表中后两个基向量的实际 transposition
+恰补出交替的负号。
+(G4.63) 对这些自动同构自然，且在 $\mathbf F_{p^2}$ 上三线性；
+结合前两槽的交替性、(G4.67)、(G4.69)，得到
+$$
+\boxed{\quad
+\mathscr T(\alpha,\beta,\gamma)
+=\mathscr T(\beta,\gamma,\alpha),\qquad
+\mathscr T\in\bigwedge\nolimits^3
+          H^0(Z,\Omega_Z^1)^\vee.
+\quad}
+\tag{G4.71}
+$$
+这是在这个实际 Fermat 曲线上由全部有限槽和主部证明的结果；
+本文没有声称一般 superspecial 曲线上的同名三张量自动交替。
+
+(G4.62)、(G4.67)、(G4.69) 支付了原全十维配对与
+Serre 对偶的真实相容性，并把原十八 cross 中剩余十五槽的九槽
+接为同一个有限和；其余两个 $123$ 三循环仍保留实际系数。
+(G4.70) 给原 $e/S_n$ 的精确单位比例。
+这些结论没有证明共同 $ {}_3F_2$、$\sigma_p$、
+$\Lambda_p$ 或两个三循环系数非零。
+尤其一个三形式可以有 radical，
+不能从 (G4.71) 或 Serre 型的非退化性推出原 $e,K_4$ 不同时为零。
+全部为有限多项式恒等式、原主部及 Serre 留数的纸面证明，
+未执行数学程序或新增素数窗口。
