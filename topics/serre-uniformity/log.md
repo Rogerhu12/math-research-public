@@ -594,3 +594,8 @@
 ### 2026-11-28 — Astra-serre-24b8836b-20261126
 - R1195 将原finite角全部奇参数同时整分包；唯一N可见因子付必要模p同余，Er与p单型投影付充分性，得到完整congruence order，p1mod4二次St一元角保留。
 - 原稳定格的pure型拼接商准确为im(U_r modp)，单型投影保格 iff 此像零；没有把几何特定格损失断言为一。root亲读Mercuri–Schoof完整判据，o2独纸核整order/指数链，完成即推；同β高型log及原两jet继续，无数学程序。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+- R1194 §9 付真正谱导数的唯一偶companion和原e/K4无条件尺度：双零准确为同一点P(1/4)=Q(1/4)=0；完整端点另迫w(0)=0。
+- Casoratian源−v²/a、四个共同零位置及原Wilson–Newton非齐次逆方程全保，标准second-kind源不同不挪互素性。root逐式核正文及原G4.86–87，o2独核谱companion接口，完成即推；继续指定共同零，不跑数学程序。

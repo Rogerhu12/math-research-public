@@ -279,3 +279,228 @@ root 按原 (J.20)、(J.35)–(J.37) 核对了对象和谱权重。
 没有运行数学程序、增加素数窗口或重做已登记的 Hesse 全行列式。
 本篇新增的是原零谱核的 Hahn 扩大与准确无权范数，
 不是有限域上的一般正交多项式简单根论断。
+
+
+## 9. 原谱导数的偶 companion 与完整差分行列式
+
+日期：2026-11-28；o1_theta / root。本节继续同一个原零谱核。以下原来源恒等式已逐式证明；它们不证明原 $e,K_4$ 不同时为零。
+
+### 9.1. 同一个零谱核及其偶 companion
+
+置
+$$
+p=6k-1\ge41,\qquad N=k-1,\qquad \ell=2N+1=2k-1,
+\qquad M=2\ell,
+$$
+并在 $\mathbf F_p[a]$ 上定义
+$$
+\mathcal L h(a)
+=(a+1)(a+2)h(a+3)+(a-1)(a-2)h(a-3)
+ -2(a^2+1)h(a).
+\tag{HC.1}
+$$
+R1194 的准确 Hahn 核记为 $v(a)$，归一为 $v(2)=1$。它是次数恰为 $\ell$ 的奇多项式，并满足 $\mathcal L v=0$。在 $a_j=3j+2$ 上，原 Dixon 短谱递推恰为
+$$
+\lambda q_j(\lambda)+a_j\mathcal L q(\lambda)(a_j)=0,
+\qquad q_{-1}=0,\quad q_0=1;
+\qquad v(a_j)=q_j(0).
+\tag{HC.2}
+$$
+这里 $\mathcal L$ 在序列上的含义是 (HC.1) 的相邻三项；不假设一般 $q_j(\lambda)$ 已来自一个低次 $a$ 多项式。
+
+算子 $\mathcal L$ 保持奇偶与次数，且在 $a^d$ 上的最高系数为
+$$
+9d(d+1)+2=(3d+1)(3d+2).
+$$
+对偶数 $0\le d\le\ell-1$，两个正整数 $3d+1,3d+2$ 均小于 $p$。因此存在唯一偶多项式
+$$
+\boxed{\quad
+w\in\mathbf F_p[a]_{\le\ell-1},\qquad
+\mathcal Lw=-\frac{v(a)}a.
+\quad}
+\tag{HC.3}
+$$
+右侧确为多项式，因为 $v$ 为奇函数。若 $c_\ell=[a^\ell]v$，则
+$$
+\deg w=\ell-1,\qquad [a^{\ell-1}]w=-c_\ell/12.
+\tag{HC.4}
+$$
+这是因为最后的次数对角是
+$(3\ell-2)(3\ell-1)=(p-4)(p-3)=12$。
+
+对 (HC.2) 作真正的谱参数微分，得
+$\mathcal Lq'(0)(a_j)=-v(a_j)/a_j$。原 $j=0$ 行的下邻系数为零，其上邻系数非零；对 $0\le j<\ell$ 的上邻系数也均非零。因此初值及逐行递推准确锁定
+$$
+\boxed{\quad
+q_j'(0)=w(a_j)-w(2)v(a_j),\qquad 0\le j\le\ell.
+\quad}
+\tag{HC.5}
+$$
+本式不把正常参数导数换为谱导数。最高 $j=\ell$ 由最后一条实际递推得到，未丢弃端点。
+
+原完整块已经支付 $q_\ell(\lambda)=u\lambda^\ell$，其中 $u\ne0$；又 $a_\ell=p=0$、$v(0)=0$、$\ell>1$。在 (HC.5) 中代入 $j=\ell$，得到
+$$
+\boxed{w(0)=0.}
+\tag{HC.6}
+$$
+故可唯一写成
+$$
+v(a)=aP(a^2),\qquad w(a)=a^2Q(a^2),
+\qquad \deg P=N,\quad\deg Q=N-1.
+\tag{HC.7}
+$$
+两者最高系数均为单位。
+
+### 9.2. 原 $e,K_4$ 的完整读取
+
+保持原 $E:V^2=U^3+v_0^2$ 的常数 $v_0$、$\delta$，并记
+$\Gamma=(2v_0)^{2k}$。本节把椭圆常数写成 $v_0$，以免与上面的 Hahn 多项式 $v(a)$ 混同。
+
+原 Dixon/Jordan J.26 与原 Fermat 六次 G4.87 已支付
+$$
+e=-\frac{\delta\Gamma}{2v_0}q_N(0),\qquad
+K_4=-\frac{3\delta^2\Gamma}{2v_0^2}q_N'(0).
+$$
+第二式是 G4.87 前已付的无条件第四层身份，不需要预先假设 $e=0$。由于 $a_N=3N+2=-1/2$，(HC.5) 给
+$$
+\boxed{\begin{aligned}
+e&=-\frac{\delta\Gamma}{2v_0}v(-1/2),\\
+K_4&=-\frac{3\delta^2\Gamma}{2v_0^2}
+       \{w(-1/2)-w(2)v(-1/2)\}.
+\end{aligned}}
+\tag{HC.8}
+$$
+全部外因子为原来源的单位。特别
+$$
+\boxed{\quad e=K_4=0
+\iff v(-1/2)=w(-1/2)=0
+\iff P(1/4)=Q(1/4)=0.\quad}
+\tag{HC.9}
+$$
+这是同一个原谱导数的多项式实现；尚未证明 $P,Q$ 在该点没有共同零。
+
+### 9.3. 普通第二类 Hahn 多项式的准确源
+
+令 $b_j=3j+2$，$0\le j\le M$，以及
+$$
+F(a)=\prod_{j=0}^M(a-b_j),\qquad
+S(a)=\frac{F'(a)}{F(a)},\qquad
+W(a)=\sum_{j=0}^M\frac{v(a)-v(b_j)}{a-b_j}.
+\tag{HC.10}
+$$
+$W$ 是实际多项式。两个端点在 $\mathbf F_p$ 中是 $b_0=2$、$b_M=-2$，所以
+$$
+\frac{F(a+3)}{F(a)}=\frac{a+1}{a+2},\qquad
+S(a+3)-S(a)=\frac1{(a+1)(a+2)},
+$$
+$$
+S(a-3)-S(a)=-\frac1{(a-1)(a-2)}.
+\tag{HC.11}
+$$
+对核 $K(a,b)=1/(a-b)$，直接通分给
+$\mathcal L_aK=\mathcal L_bK$：两正移位系数之差分别是
+$(a+b)(a-b+3)$ 和 $(a+b)(a-b-3)$，恰消去中央项。
+格点矩阵真对称，因为
+$(b_j+1)(b_j+2)=(b_{j+1}-1)(b_{j+1}-2)$；两外端项均为零。
+故对 $T(a)=\sum_jv(b_j)/(a-b_j)$，完整有限分部求和给 $\mathcal LT=0$。
+再以 $W=vS-T$ 及 (HC.11) 计算，得到
+$$
+\boxed{\quad \mathcal LW=v(a+3)-v(a-3).\quad}
+\tag{HC.12}
+$$
+所以普通第二类多项式的方程与 (HC.3) 不同；不能把它与 $v$ 的经典互素性用于原 $w$。
+
+### 9.4. 实际 companion 的差分行列式
+
+定义
+$$
+\mathscr C(a)=v(a)w(a+3)-w(a)v(a+3).
+$$
+由 $\mathcal Lv=0$、$\mathcal Lw=-v/a$ 直接相减，得
+$$
+\boxed{\quad
+(a+1)(a+2)\mathscr C(a)
+ -(a-1)(a-2)\mathscr C(a-3)
+=-\frac{v(a)^2}{a}.
+\quad}
+\tag{HC.13}
+$$
+奇偶性与 (HC.4) 还给
+$$
+\mathscr C(-a-3)=\mathscr C(a),\quad
+\deg\mathscr C=2\ell-2,\quad
+[a^{2\ell-2}]\mathscr C=c_\ell^2/4,\quad
+\mathscr C(2)=-1/24.
+\tag{HC.14}
+$$
+最后一式是 (HC.13) 的实际左端点，使用 $v(2)=1$；没有把全无权 Hahn 范数换成原短谱范数。
+
+若原共同零成立，则 $a^2-1/4$ 同时整除 $v,w$，因而
+$$
+(a^2-1/4)((a+3)^2-1/4)\mid\mathscr C(a).
+\tag{HC.15}
+$$
+反之，在 $v(-1/2)=0$ 的分支，原不可约三项递推迫
+$v(5/2)\ne0$（否则两个相邻零将递推回 $v(2)=0$）。所以
+$\mathscr C(-1/2)=0$ 精确等价于 $w(-1/2)=0$。
+
+还可保留一个完全多项式的写法。由 (HC.14) 存在唯一
+$R$ 使 $\mathscr C(a)=R((a+3/2)^2)$；置
+$S_0(z)=(z-1/4)R(z)$。则
+$$
+S_0((a+3/2)^2)-S_0((a-3/2)^2)
+=-aP(a^2)^2,
+\tag{HC.16}
+$$
+且
+$$
+\deg S_0=\ell,\quad S_0(1/4)=0,\quad S_0(49/4)=-1/2.
+$$
+原共同零进一步给 $S_0(1)=S_0(4)=0$。现有次数容许这些零点，故本式不自行产生矛盾。
+
+### 9.5. 同一 Wilson–Newton 基的有限逆方程
+
+以下仅是 (HC.1) 的直接展开，不引用一般 Wilson 多项式识别。令
+$$
+z=a/3,\qquad E_r=(1/3+z)_r(1/3-z)_r.
+$$
+将两次移位的 Pochhammer 比代入并通分，可逐项得到
+$$
+\mathcal LE_r
+=(6r+1)(6r+2)E_r
+ -36r^2(r-2/3)(r-1/6)E_{r-1}.
+\tag{HC.17}
+$$
+在奇 sector 写 $\mathcal L(af)=a\mathcal L_{\rm odd}f$，则
+$$
+\mathcal L_{\rm odd}E_r
+=(6r+4)(6r+5)E_r
+ -36r^2(r+1/3)(r-1/6)E_{r-1}.
+\tag{HC.18}
+$$
+因 $N=(p-5)/6$，(HC.18) 的最后一个次数对角为零。递推给唯一标量 $K\ne0$ 使
+$$
+\frac{v(a)}a
+=K\sum_{r=0}^N p_rE_r,\qquad
+p_r=\frac{(2/3)_r}{(4/3)_r(r!)^2}.
+\tag{HC.19}
+$$
+此有限式的每个 $p_r$ 均为单位。若
+$w=K\sum_{r=0}^Np_rt_rE_r$，(HC.3) 准确等价于
+$$
+\boxed{\quad
+(r+1/6)t_r
+-\frac{(r+5/6)(r+2/3)}{r+4/3}t_{r+1}
+=-\frac1{36(r+1/3)},\qquad
+t_N=-\frac1{12}.
+\quad}
+\tag{HC.20}
+$$
+递推实际在 $r=N-1,\ldots,0$ 向下使用；所有所除因子均为单位。
+在原标记点 $a=-1/2$，$E_r=(1/6)_r(1/2)_r$，因此 (HC.19)–(HC.20) 仍准确读取原两槽。
+这里保留了真实非齐次逆方程，没有把它未经证明认作某一个齐次 Wilson 参数移位。
+
+以上没有数学程序执行，也没有旧素数窗口重跑。偶 companion 的唯一性、最高项和原两个谱 jet 已由 o2_high_coefficient 独立纸核；其余显示式在本文自足推导。下一缺口仍是 (HC.9) 的指定共同零排除，而不是全无权范数或普通第二类多项式的互素性。
+
+
+root 全文逐式核对 HC.1–20，并重读原 G4.86–87 核准无条件 K4 尺度；原核、差分端点、Casoratian 和非齐次 Wilson–Newton 方程均按显示式保留。
