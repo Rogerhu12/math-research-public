@@ -1,0 +1,792 @@
+{
+  "kind": "actual_original_R87_single_gentle_finite_stage",
+  "classification": "accepted",
+  "accepted": true,
+  "serializer_source_sha256": "43b3215825cd6c3401103594dd870440f046de6a7b2a2359e82ba317a1893d8d",
+  "accepted_original_validator_passed": true,
+  "validator_source_sha256": "60877969b981712f6d8c00219ae9eeb02f1e432b41cda4c96159a5b5a50d63bf",
+  "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002/run.json",
+  "run_sha256": "3c456ca9fb73829569074d9baaca4e748fb86e006905f12fa95f6ac4f7d4c2d7",
+  "actual_executed_command": {
+    "trace_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant-dispatch-execution.jsonl",
+    "actual_record": {
+      "event": "subprocess",
+      "requested": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+        "--short-bridge",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--profile",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json",
+        "--chart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json",
+        "--audit-angular",
+        "512",
+        "--nodes",
+        "401",
+        "--max-nodes",
+        "6000",
+        "--tol",
+        "1e-6",
+        "--bc-tol",
+        "1e-7",
+        "--physical-bc-tol",
+        "2e-9",
+        "--port",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/port-M24.json",
+        "--amplitude",
+        ".012",
+        "--warp-reference",
+        ".012",
+        "--modes",
+        "24",
+        "--angular",
+        "768",
+        "--outdir",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002",
+        "--core-module",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+        "--core-config",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-core.json",
+        "--raw-restart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-secant/initial.npz"
+      ],
+      "executed": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py",
+        "--base-driver",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_chord_checkpoint_driver.py",
+        "--rhs-block",
+        "8",
+        "--source-topic",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source",
+        "--short-bridge",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--profile",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json",
+        "--chart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json",
+        "--audit-angular",
+        "512",
+        "--nodes",
+        "401",
+        "--max-nodes",
+        "6000",
+        "--tol",
+        "1e-6",
+        "--bc-tol",
+        "1e-7",
+        "--physical-bc-tol",
+        "2e-9",
+        "--port",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/port-M24.json",
+        "--amplitude",
+        ".012",
+        "--warp-reference",
+        ".012",
+        "--modes",
+        "24",
+        "--angular",
+        "768",
+        "--outdir",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002",
+        "--core-module",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+        "--core-config",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-core.json",
+        "--raw-restart",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-secant/initial.npz"
+      ],
+      "decision": {
+        "modes": 24,
+        "linear_factorization": "complete_block_qr",
+        "numerical_linear_arithmetic_changed": true,
+        "exact_input_core_integral_memo": true,
+        "original_equations_changed": false,
+        "original_acceptance_gates_changed": false,
+        "available_mib_at_dispatch": 7052.8125,
+        "estimated_required_mib": 1150.0317962852102,
+        "memory_wait_count": 0
+      },
+      "executed_source_hashes": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_chord_checkpoint_driver.py": "a4128e1c8129eb6c66f1ce1af43a663bf13ea188ee43515481c413febdecbc77",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53"
+      }
+    },
+    "exact_line_including_newline_sha256": "2f89e70f30cca377202904078cea695d811e95b9c385784970f6958d71b1ef38"
+  },
+  "original_stage_row": {
+    "name": "attempt-002",
+    "homotopy": 0.064,
+    "modes": 24,
+    "accepted": true,
+    "solver_success": true,
+    "error": null,
+    "metric": 1.3449006784643334e-07,
+    "physical_bc_max": 2.5474325252824408e-19,
+    "nodes": 612,
+    "rms": 9.881570807241952e-07,
+    "raw_sha256": "b368075c606081eef13f90758bd9e0ebbff6e94152ea53420c7f5d19f4ef5eb4",
+    "run_sha256": "3c456ca9fb73829569074d9baaca4e748fb86e006905f12fa95f6ac4f7d4c2d7",
+    "physical_sha256": "b94cfc0d79a2d3870deb2e7dbd7899a9db8be27f212471ac0c9d14aa6ff05fd7",
+    "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-001/run.json",
+    "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002/run.json",
+    "returncode": 0,
+    "initializer": {
+      "kind": "unaccepted_cross_mode_full_state_secant",
+      "predictor": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-secant/predictor.json",
+      "predictor_sha256": "5227f659ee374a2d7179b00a9baa7a919df4ad53b8e6e27cd13297d002d28446",
+      "left_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-low-modes/attempt-004/run.json",
+      "right_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-001/run.json",
+      "left_run_sha256": "c4679760593e63b5fb310efd45081fea29d137d0cec6005fa95f749a3cda7b9a",
+      "right_run_sha256": "7b69996a5911a82a0be1f24b44f2a036fd69210b6f1759d12087b7a6591a74d7",
+      "left_modes": 16,
+      "right_modes": 24,
+      "target_lambda": 0.064,
+      "beta": 2.0,
+      "initial_raw_sha256": "c38ce34aca2ab9b0a30b0aba0eefc66f9347b8d50c407aee30b03f915bb116ff",
+      "nodes": 596,
+      "accepted_bvp": false
+    },
+    "original_finite_checks": {
+      "tolerances": true,
+      "solver": true,
+      "rms": true,
+      "physical_bc": true,
+      "solver_and_boundary_pass": true
+    },
+    "complete_saved_initializer": true,
+    "metric_only_failure": false,
+    "domain_newton_stats": {
+      "calls": 2,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0,
+      "accepted_steps": 4,
+      "no_step": 0,
+      "minimum_alpha": 1.0
+    },
+    "domain_error_counts": {},
+    "actual_delta": 0.06809746515753923,
+    "actual_audit_mean_nodes": 1168
+  },
+  "original_sources": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+  },
+  "original_inputs": {
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/port-M24.json": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-secant/initial.npz": "c38ce34aca2ab9b0a30b0aba0eefc66f9347b8d50c407aee30b03f915bb116ff",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-core.json": "12611f5087cb4eaf4f482ff10cf5296b2890b59c47b42f813c95915f20e5b676"
+  },
+  "original_finite_checks": {
+    "tolerances": true,
+    "solver": true,
+    "rms": true,
+    "physical_bc": true,
+    "solver_and_boundary_pass": true
+  },
+  "complete_saved_initializer": true,
+  "physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "held10_multistage_flat_v1",
+    "cycles": 1,
+    "delta": 0.06809451565377872,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4,
+      "peak_fraction": 0.2
+    },
+    "multistage_flat": {
+      "reference_delta": "3/50",
+      "eta": "1/20",
+      "up": [
+        [
+          "0",
+          "9/20",
+          "10/57"
+        ],
+        [
+          "9/20",
+          "9/20",
+          "1/855"
+        ],
+        [
+          "9/20",
+          "0",
+          "4/45"
+        ]
+      ],
+      "down": [
+        [
+          "0",
+          "-1/2",
+          "2/25"
+        ],
+        [
+          "-1/2",
+          "-1/2",
+          "1/25"
+        ],
+        [
+          "-1/2",
+          "0",
+          "2/25"
+        ]
+      ]
+    }
+  },
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "held10_multistage_flat_v1",
+    "cycles": 1,
+    "delta": 0.06809746515753923,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4,
+      "peak_fraction": 0.2
+    },
+    "multistage_flat": {
+      "reference_delta": "3/50",
+      "eta": "1/20",
+      "up": [
+        [
+          "0",
+          "9/20",
+          "10/57"
+        ],
+        [
+          "9/20",
+          "9/20",
+          "1/855"
+        ],
+        [
+          "9/20",
+          "0",
+          "4/45"
+        ]
+      ],
+      "down": [
+        [
+          "0",
+          "-1/2",
+          "2/25"
+        ],
+        [
+          "-1/2",
+          "-1/2",
+          "1/25"
+        ],
+        [
+          "-1/2",
+          "0",
+          "2/25"
+        ]
+      ]
+    }
+  },
+  "core_settings": {
+    "homotopy": 0.064,
+    "curvature_blend": 1,
+    "halfwidth": 0.675,
+    "transition": 0.3,
+    "target_curvature": 0.5,
+    "quadrature_order": 12,
+    "integration_cells": 64,
+    "transition_cells": 24
+  },
+  "modes": 24,
+  "angular": 768,
+  "gauge_q": 0.012,
+  "warp_reference": 0.012,
+  "original_gates": {
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "max_nodes": 6000,
+    "original_outer_budget": 8
+  },
+  "raw_return": {
+    "file": "inner-00.npz",
+    "sha256": "b368075c606081eef13f90758bd9e0ebbff6e94152ea53420c7f5d19f4ef5eb4",
+    "success": true,
+    "status": 0,
+    "message": "The algorithm converged to the desired accuracy.",
+    "nodes": 612,
+    "rms": 9.881570807241952e-07,
+    "parameters": [
+      2.9495037605007485e-06,
+      -6.6732875823093245,
+      -136.56452201525425,
+      -1349.6206999439303,
+      24389.990315786294,
+      26338.94052161134,
+      15349.144862607534,
+      5292.647102302835,
+      -227.13184492972405,
+      -1909.515083719715,
+      -1602.1156954310925,
+      -796.5358493324646,
+      -213.00816645467515,
+      26.599715816777767,
+      60.51145823108865,
+      37.35074934467587,
+      24.473110188468226,
+      24.735914997777325,
+      23.329745673919255,
+      14.954424122718844,
+      3.591846021869862,
+      -2.0292147313498066,
+      -2.555830459008713,
+      3.452001331062924
+    ],
+    "legacy_input_controls": [
+      -0.0009609534118525428,
+      -0.00023598349404235934,
+      -2.798573483403734e-05,
+      2.4389990315786295e-05,
+      2.633894052161134e-05,
+      1.5349144862607534e-05,
+      5.292647102302835e-06,
+      -2.2713184492972408e-07,
+      -1.9095150837197153e-06,
+      -1.6021156954310925e-06,
+      -7.965358493324647e-07,
+      -2.1300816645467515e-07,
+      2.659971581677777e-08,
+      6.051145823108865e-08,
+      3.735074934467587e-08,
+      2.4473110188468228e-08,
+      2.4735914997777326e-08,
+      2.3329745673919258e-08,
+      1.4954424122718844e-08,
+      3.591846021869862e-09,
+      -2.0292147313498066e-09,
+      -2.555830459008713e-09,
+      3.452001331062924e-09
+    ],
+    "actual_core_corrections": [
+      -0.0009609534118525428,
+      -0.00023598349404235934,
+      -2.798573483403734e-05,
+      2.4389990315786295e-05,
+      2.633894052161134e-05,
+      1.5349144862607534e-05,
+      5.292647102302835e-06,
+      -2.2713184492972408e-07,
+      -1.9095150837197153e-06,
+      -1.6021156954310925e-06,
+      -7.965358493324647e-07,
+      -2.1300816645467515e-07,
+      2.659971581677777e-08,
+      6.051145823108865e-08,
+      3.735074934467587e-08,
+      2.4473110188468228e-08,
+      2.4735914997777326e-08,
+      2.3329745673919258e-08,
+      1.4954424122718844e-08,
+      3.591846021869862e-09,
+      -2.0292147313498066e-09,
+      -2.555830459008713e-09,
+      3.452001331062924e-09
+    ],
+    "actual_core_control_meaning": "normal-angle support coefficients",
+    "core_summary": {
+      "core_kind": "material-curvature-flattening",
+      "base_mode": 3,
+      "support_amplitude": 0.012,
+      "physical_parameters": [
+        0.012,
+        -0.0009609534118525428,
+        -0.00023598349404235934,
+        -2.798573483403734e-05,
+        2.4389990315786295e-05,
+        2.633894052161134e-05,
+        1.5349144862607534e-05,
+        5.292647102302835e-06,
+        -2.2713184492972408e-07,
+        -1.9095150837197153e-06,
+        -1.6021156954310925e-06,
+        -7.965358493324647e-07,
+        -2.1300816645467515e-07,
+        2.659971581677777e-08,
+        6.051145823108865e-08,
+        3.735074934467587e-08,
+        2.4473110188468228e-08,
+        2.4735914997777326e-08,
+        2.3329745673919258e-08,
+        1.4954424122718844e-08,
+        3.591846021869862e-09,
+        -2.0292147313498066e-09,
+        -2.555830459008713e-09,
+        3.452001331062924e-09
+      ],
+      "homotopy": 0.064,
+      "curvature_blend": 1.0,
+      "target_curvature": 0.5,
+      "circle_curvature": 0.5,
+      "halfwidth": 0.675,
+      "halfwidth_coordinate": "material-arclength",
+      "transition": 0.3,
+      "compensation_beta": 1.7985194287925867,
+      "exact_perimeter": 6.283185307179586,
+      "curvature_radius_lower": 0.8113607242386612,
+      "curvature_radius_upper": 1.148937423815216,
+      "curvature_lower_bound": 0.870369420711663,
+      "curvature_upper_bound": 1.2324974208461323,
+      "curvature_guard": {
+        "method": "R53-convex-mixture",
+        "lower": 0.870369420711663,
+        "upper": 1.2324974208461323
+      },
+      "quadrature_order": 12,
+      "integration_cells": 64,
+      "transition_cells": 24,
+      "reflection_roundoff": 4.984901380566953e-14,
+      "original_kind": "PlanarSupportCore",
+      "implementation_validation": "not yet executed when source was saved",
+      "scope": "core design only; no full metric, tail, or closed-surface claim"
+    },
+    "candidate_H": [
+      -4.742888682922682e-05,
+      4.1393315381799857e-07,
+      1.6833386723767353e-08,
+      -9.285244276422517e-11,
+      -3.1796915158817133e-12,
+      -2.2679388107511782e-13,
+      1.0709129491608482e-14,
+      -2.4566366553982334e-15,
+      -4.9657899973792585e-17,
+      3.597906264362909e-18,
+      -5.707392563174034e-18,
+      -6.332100206709031e-19,
+      3.9511961881119883e-19,
+      -5.182817457119984e-18,
+      2.3890840622231726e-16,
+      4.0912759604968224e-17,
+      7.48518769255568e-17,
+      7.269162440301856e-17,
+      -2.5321971832176637e-17,
+      -2.670459448593948e-17,
+      -5.309100447127401e-15,
+      2.5868128555818867e-14,
+      -7.63038854824995e-13,
+      -3.001930696399851e-12
+    ]
+  },
+  "physical_sha256": "b94cfc0d79a2d3870deb2e7dbd7899a9db8be27f212471ac0c9d14aa6ff05fd7",
+  "prefix_audit": {
+    "metric_l1": 1.3449006784643334e-07,
+    "flow_defect": 8.61507226145401e-06,
+    "darboux_l1": 0.00041768683914708907,
+    "kappa_sample": 7.13850579247616,
+    "radius_max": 1.0763620067450042,
+    "height_max": 0.8837103386161346,
+    "root_min": 0.0035706163048926376,
+    "chart_rho_min": 0.9039999999999999,
+    "support_amplitude": 0.012,
+    "core": {
+      "core_kind": "material-curvature-flattening",
+      "base_mode": 3,
+      "support_amplitude": 0.012,
+      "physical_parameters": [
+        0.012,
+        -0.0009609534118525428,
+        -0.00023598349404235934,
+        -2.798573483403734e-05,
+        2.4389990315786295e-05,
+        2.633894052161134e-05,
+        1.5349144862607534e-05,
+        5.292647102302835e-06,
+        -2.2713184492972408e-07,
+        -1.9095150837197153e-06,
+        -1.6021156954310925e-06,
+        -7.965358493324647e-07,
+        -2.1300816645467515e-07,
+        2.659971581677777e-08,
+        6.051145823108865e-08,
+        3.735074934467587e-08,
+        2.4473110188468228e-08,
+        2.4735914997777326e-08,
+        2.3329745673919258e-08,
+        1.4954424122718844e-08,
+        3.591846021869862e-09,
+        -2.0292147313498066e-09,
+        -2.555830459008713e-09,
+        3.452001331062924e-09
+      ],
+      "homotopy": 0.064,
+      "curvature_blend": 1.0,
+      "target_curvature": 0.5,
+      "circle_curvature": 0.5,
+      "halfwidth": 0.675,
+      "halfwidth_coordinate": "material-arclength",
+      "transition": 0.3,
+      "compensation_beta": 1.7985194287925867,
+      "exact_perimeter": 6.283185307179586,
+      "curvature_radius_lower": 0.8113607242386612,
+      "curvature_radius_upper": 1.148937423815216,
+      "curvature_lower_bound": 0.870369420711663,
+      "curvature_upper_bound": 1.2324974208461323,
+      "curvature_guard": {
+        "method": "R53-convex-mixture",
+        "lower": 0.870369420711663,
+        "upper": 1.2324974208461323
+      },
+      "quadrature_order": 12,
+      "integration_cells": 64,
+      "transition_cells": 24,
+      "reflection_roundoff": 4.984901380566953e-14,
+      "original_kind": "PlanarSupportCore",
+      "implementation_validation": "not yet executed when source was saved",
+      "scope": "core design only; no full metric, tail, or closed-surface claim"
+    },
+    "inlet": {
+      "position": 0.0,
+      "first": 0.0,
+      "second": 0.0,
+      "metric_l1": 0.0,
+      "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+      "unlifted_projection": {
+        "position": 2.1845337017462768e-09,
+        "first": 1.9567950586369424e-07,
+        "second": 1.7617149706417396e-05,
+        "metric_l1": 5.737167038661776e-09
+      }
+    },
+    "dn_matrix": {
+      "physical_modes": 24,
+      "psi_modes": 24,
+      "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+    },
+    "terminal_height_coeff_max": 4.742888682922682e-05,
+    "physical_bc_max": 2.5474325252824408e-19,
+    "samples_s": 1372,
+    "samples_psi": 1168,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "original_mean_floor": 1168,
+  "domain_newton_stats": {
+    "calls": 2,
+    "rejected_domain_trials": 0,
+    "rejected_merit_trials": 0,
+    "accepted_steps": 4,
+    "no_step": 0,
+    "minimum_alpha": 1.0
+  },
+  "domain_error_counts": {},
+  "seconds": 163.71429839100165,
+  "complete_QR": {
+    "trace": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-block-qr.jsonl",
+    "sha256": "6254d5d20f6884d6f84cde89a8b9df391d4cd1561a6866015ea618d04aa2a896",
+    "factors": 2,
+    "last_return": {
+      "event": "driver_return_or_exception",
+      "seconds": 163.80412055600027,
+      "maximum_rss_kib": 613732,
+      "factor_count": 2,
+      "source_hashes": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_chord_checkpoint_driver.py": "a4128e1c8129eb6c66f1ce1af43a663bf13ea188ee43515481c413febdecbc77",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea"
+      },
+      "complete_surface": false
+    }
+  },
+  "actual_initializer_records": {
+    "secant": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-secant/predictor.json",
+      "sha256": "5227f659ee374a2d7179b00a9baa7a919df4ad53b8e6e27cd13297d002d28446",
+      "record": {
+        "scope": "Unaccepted original-R53 secant using a complete lower-M reference lift.\n\nBoth sources must be real accepted original portable linear-DN design returns.\nOnly the left field is embedded to the right M. Its own lambda, additive delta,\ncomplete support core and computational radial chart define that lift. The\nright saved cubic is evaluated on the union grid, or its own grid if the union\nexceeds its original node budget. No solver, DN, accepted reexpression, cubic\nrefit or physical export is produced. Run in a fresh process: the original\nread-only geometry loader installs source classes globally.\n",
+        "status": "unaccepted_cross_mode_secant_initializer_ready",
+        "record_kind": "unaccepted_cross_mode_nodal_initializer",
+        "accepted_bvp": false,
+        "initializer_is_accepted_solution": false,
+        "solver_invoked": false,
+        "solver_success": null,
+        "physical_metric_gate_paid": false,
+        "physical_boundary_gate_paid": false,
+        "domain_gate_paid": false,
+        "true_tail_paid": false,
+        "fixed_metric_refinement": false,
+        "complete_surface": false,
+        "target_lambda": 0.064,
+        "source_hashes": {
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/material_design_cross_mode_secant_predictor.py": "79ebe59d041a4c9f600345890875237f2b222f8301b8c736c586ab0884ecaae9",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/material_design_secant_predictor.py": "60877969b981712f6d8c00219ae9eeb02f1e432b41cda4c96159a5b5a50d63bf",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/actual_m3_metric_model.py": "0b1dd3e35be3cc51f27a5f1a3fe5437904fa8363ef8bfcdf2d40547c0a860ba8",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/prepare_lifted_mode_restart.py": "c1f7741ee1882bd8413a04f280df759da4165792291f5419b243b7deed2882fe",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/material_design_continue.py": "7f85c3b422416b867a8fd19155583c1e8758fb45729ced1445c290f628360d5d",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20"
+        },
+        "left_lift": {
+          "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-low-modes/attempt-004/run.json",
+          "source_run_sha256": "c4679760593e63b5fb310efd45081fea29d137d0cec6005fa95f749a3cda7b9a",
+          "source_raw_sha256": "b67810b58ce9b724dc991d6591e6f6af0d0dfaf7e7f3461a6493674025548582",
+          "source_physical_sha256": "166542e4e358c0f457cba28b5b6ec21c1ee7975bf33adb0bdb5261a806a6da46",
+          "old_modes": 16,
+          "new_modes": 24,
+          "old_angular": 512,
+          "new_angular": 768,
+          "exact_lift_coefficient": 1,
+          "left_homotopy": 0.016,
+          "preserved_additive_delta": 1.5790258985358025e-06,
+          "actual_delta": 0.06809609467967725,
+          "mean_nodes": 784,
+          "larger_port": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/port-M24.json",
+          "larger_port_sha256": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+          "complete_support_old": {
+            "shape": [
+              16
+            ],
+            "dtype": "<f8",
+            "sha256": "4b29ac369d64f6adcdcf993983a9707aa47f16b114cb8020c21aa6df0e2f733b"
+          },
+          "complete_support_embedded": {
+            "shape": [
+              24
+            ],
+            "dtype": "<f8",
+            "sha256": "a9d19d7cb23f839e7e9fffe585b23ed97928eb22181bd5995d03fce6ee5a192c"
+          },
+          "original_support_scales": {
+            "shape": [
+              15
+            ],
+            "dtype": "<f8",
+            "sha256": "c7be052996aec0b7dddcdd8e7fa8c7a85be09f62730d6ce4e014155d09419908"
+          },
+          "target_support_scales": {
+            "shape": [
+              23
+            ],
+            "dtype": "<f8",
+            "sha256": "34884fe8391b1694db3320bb3958326eb0ad7f0869d70593dbc8436a1fb5ac59"
+          },
+          "actual_common_support_bitwise_equal": true,
+          "actual_common_support_roundtrip_l1": 0.0,
+          "actual_common_support_roundtrip_linf": 0.0,
+          "added_support_coefficients_zero": true,
+          "roundtrip_exact_equality_is_an_acceptance_gate": false,
+          "projection_difference": {
+            "shape": [
+              73
+            ],
+            "dtype": "<f8",
+            "sha256": "0c6160e1d390d651dca677e76c6f0cd5a6838206f893a10a455347c108af11df"
+          },
+          "inlet_projection_change_max": 3.28143909137623e-07,
+          "accepted_bvp": false,
+          "metric_gate_paid": false,
+          "stored_representation": "No new cubic, physical interpolant or accepted run is constructed",
+          "reference_check": {
+            "reference_two_jet_checks": {
+              "position": 3.235456424282834e-16,
+              "psi": 3.3071969636589667e-16,
+              "psi_psi": 4.3377800263110734e-16,
+              "s": 1.616230909959001e-16,
+              "s_psi": 3.141720829878778e-16,
+              "s_s": 2.1474279170302312e-15,
+              "rho": 0.0
+            },
+            "check_s": 102,
+            "check_angular": 2336,
+            "threshold": 1e-07,
+            "meridian_two_jets_checked": true,
+            "reported_jets_scope": "The reported raw reference jets omit the common mean-height term, as in the original transfer",
+            "common_mean_height_scope": "Keeping the same literal left frame, mean rule and primitive origin is a common-reference reconstruction condition; no new mean integral is evaluated here",
+            "mean_height_integral_evaluated": false,
+            "full_cartesian_error_certified": false,
+            "continuous_certificate": false,
+            "accepted_bvp": false
+          }
+        },
+        "left": {
+          "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-low-modes/attempt-004/run.json",
+          "run_sha256": "c4679760593e63b5fb310efd45081fea29d137d0cec6005fa95f749a3cda7b9a",
+          "homotopy": 0.016,
+          "modes": 16,
+          "angular": 512,
+          "actual_delta": 0.06809609467967725,
+          "mean_nodes": 784,
+          "raw_sha256": "b67810b58ce9b724dc991d6591e6f6af0d0dfaf7e7f3461a6493674025548582",
+          "physical_sha256": "166542e4e358c0f457cba28b5b6ec21c1ee7975bf33adb0bdb5261a806a6da46",
+          "nodes": 589,
+          "rms": 9.946888602060816e-07,
+          "metric": 3.2401903824622905e-07,
+          "physical_bc": 6.512606080771448e-17
+        },
+        "right": {
+          "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-001/run.json",
+          "run_sha256": "7b69996a5911a82a0be1f24b44f2a036fd69210b6f1759d12087b7a6591a74d7",
+          "homotopy": 0.032,
+          "modes": 24,
+          "angular": 768,
+          "actual_delta": 0.06809650472554993,
+          "mean_nodes": 1168,
+          "raw_sha256": "20f0c99377b8336dff3b3ab2a334160b890a63b4bcb154e62e6519d080d08427",
+          "physical_sha256": "431aa561e5b0faa12fc88667a79371c544a1659100a2b795a83d9d9d5d72621f",
+          "nodes": 596,
+          "rms": 9.844208005706405e-07,
+          "metric": 1.7519170045267722e-07,
+          "physical_bc": 6.9175300042133e-15
+        },
+        "modes": 24,
+        "angular": 768,
+        "nodes": 596,
+        "secant_beta": 2.0,
+        "grid_rule": "actual_grid_union",
+        "union_nodes": 596,
+        "right_nodes": 596,
+        "max_nodes": 6000,
+        "gauge_q": 0.012,
+        "warp_reference": 0.012,
+        "target_original_mean_nodes": 1168,
+        "source_mean_rules_equal": false,
+        "mean_scope": "Both actual source means remain their original definitions. This is design-state extrapolation; the target mean must be reconstructed and audited from the new target field.",
+        "coordinate": "Common computational t; left original cubic plus its own complete physical lift, right original cubic",
+        "parameter_zero_meaning": "additive delta increment",
+        "remaining_parameters": "Original normal-angle support coordinates in the actual right pscale; not phase controls",
+        "predicted_delta": 0.06809732481729527,
+        "source_nodal_evaluation_roundoff": {
+          "left": 3.3881317890172014e-21,
+          "right": 4.336808689942018e-19
+        },
+        "max_state_increment_from_right": 0.27949963782637743,
+        "max_parameter_increment_from_right": 13289.001022863176,
+        "result": {
+          "initial_raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-002-secant/initial.npz",
+          "initial_raw_sha256": "c38ce34aca2ab9b0a30b0aba0eefc66f9347b8d50c407aee30b03f915bb116ff"
+        },
+        "acceptance_required": "Original portable initial-domain, actual BVP/RMS, physical BC and full metric gates, all recomputed"
+      }
+    }
+  },
+  "all_original_raw_physical_source_input_gates_retained": true,
+  "full_nonlinear_DN_paid": false,
+  "same_g_refinement": false,
+  "source_parameters_at_lambda_one": false,
+  "rigorous_geometry": false,
+  "complete_surface": false
+}
