@@ -6,6 +6,7 @@ import json
 import os
 from pathlib import Path
 import re
+import stat
 import time
 import urllib.error
 import urllib.parse
@@ -52,6 +53,11 @@ def signed_url(aid):
         if e.code not in (301,302,303,307,308):raise OSError('GitHub artifact redirect failed: '+str(e.code)) from None
         address=e.headers.get('Location','')
         e.close()
+    return safe_address(address)
+
+
+def safe_address(address):
+    if not address or any(ord(c)<33 for c in address):raise OSError('invalid artifact address')
     uri=urllib.parse.urlsplit(address)
     name=(uri.hostname or '').lower()
     if (uri.scheme!='https' or uri.username or uri.password or uri.port not in (None,443)
@@ -62,11 +68,33 @@ def signed_url(aid):
 
 
 class RangedArchive(io.RawIOBase):
-    def __init__(self,spec,on_transfer=None):
+    def __init__(self,spec,on_transfer=None,authenticated=False):
         super().__init__()
-        self.provider=artifact_metadata(spec)
+        self.authenticated=authenticated
+        if authenticated:
+            self.provider=artifact_metadata(spec);address=None
+        else:
+            handoff_path=os.environ.get('R754_PARENT_HANDOFF')
+            if not handoff_path:raise ValueError('missing the short-lived read-only artifact handoff')
+            root=Path(os.environ['RUNNER_TEMP']).resolve()
+            path=Path(handoff_path)
+            if not path.is_absolute() or path.parent.resolve()!=root:
+                raise ValueError('original artifact handoff must be directly under RUNNER_TEMP')
+            with os.fdopen(os.open(path,os.O_RDONLY|os.O_NOFOLLOW),'r') as fp:
+                st=os.fstat(fp.fileno())
+                if (not stat.S_ISREG(st.st_mode) or st.st_uid!=os.getuid() or st.st_mode&0o077
+                        or st.st_size>32768):raise ValueError('invalid private artifact handoff')
+                hand=json.load(fp)
+            self.provider=hand['provider']
+            want=dict(artifact_id=int(spec['artifact_id']),official_digest='sha256:'+spec['artifact_sha256'],
+                      bytes=int(spec['artifact_bytes']),run_id=int(spec['run_id']),head_sha=spec['head_sha'])
+            if (self.provider!=want or hand['strong_etag']!=spec['strong_etag']
+                    or hand['consumer_run_id']!=os.environ.get('GITHUB_RUN_ID')
+                    or hand['consumer_attempt']!=os.environ.get('GITHUB_RUN_ATTEMPT','1')):
+                raise ValueError('handoff and immutable original or consumer identity differ')
+            address=safe_address(hand['signed_address'])
         self.length=self.provider['bytes'];self.aid=self.provider['artifact_id']
-        self.pos=0;self.cache=OrderedDict();self.address=None;self.etag=None
+        self.pos=0;self.cache=OrderedDict();self.address=address;self.etag=spec.get('strong_etag')
         self.ranges=0;self.bytes_received=0;self.on_transfer=on_transfer
 
     def seekable(self):return True
@@ -84,7 +112,9 @@ class RangedArchive(io.RawIOBase):
             self.cache.move_to_end(number);return self.cache[number]
         lo=number*BLOCK;hi=min(self.length,lo+BLOCK)-1
         for attempt in range(4):
-            if self.address is None:self.address=signed_url(self.aid)
+            if self.address is None:
+                if not self.authenticated:raise OSError('the original artifact handoff has expired')
+                self.address=signed_url(self.aid)
             headers={'Range':f'bytes={lo}-{hi}','Accept-Encoding':'identity'}
             if self.etag is not None:headers['If-Match']=self.etag
             req=urllib.request.Request(self.address,headers=headers)
@@ -100,7 +130,7 @@ class RangedArchive(io.RawIOBase):
                 break
             except urllib.error.HTTPError as e:
                 status=e.code;e.close()
-                if status in (401,403) and attempt<3:self.address=None;continue
+                if status in (401,403) and self.authenticated and attempt<3:self.address=None;continue
                 if status in (408,429,500,502,503,504) and attempt<3:
                     time.sleep(1+attempt);continue
                 raise OSError('signed artifact range failed: '+str(status)) from None
@@ -147,8 +177,34 @@ if __name__=='__main__':
     args=argparse.ArgumentParser()
     args.add_argument('--metadata',required=True,help='pinned artifact id/size/official digest and run/head')
     args.add_argument('--out',required=True)
+    args.add_argument('--prepare-signed-handoff',action='store_true',
+                      help='authenticated transport step; --out must be a fresh RUNNER_TEMP path')
     a=args.parse_args();spec=json.loads(Path(a.metadata).read_text())
-    with RangedArchive(spec) as original:
+    if a.prepare_signed_handoff:
+        root=Path(os.environ['RUNNER_TEMP']).resolve()
+        output=Path(a.out)
+        if (not output.is_absolute() or output.parent.resolve()!=root or not os.environ.get('GITHUB_RUN_ID','').isdigit()
+                or os.environ.get('GITHUB_REPOSITORY','').lower()!=REPO.lower()):
+            raise ValueError('the private handoff is restricted to the current research workflow')
+        start=time.monotonic();provider=artifact_metadata(spec);url=signed_url(int(spec['artifact_id']))
+        req=urllib.request.Request(url,headers={'Range':'bytes=0-0','If-Match':spec['strong_etag'],
+                                                'Accept-Encoding':'identity'})
+        try:
+            with urllib.request.build_opener(NoRedirect).open(req,timeout=45) as f:
+                if (f.status!=206 or f.headers.get('Content-Range')!='bytes 0-0/'+str(provider['bytes'])
+                        or f.headers.get('ETag')!=spec['strong_etag'] or len(f.read(2))!=1):
+                    raise ValueError('signed original byte probe, size or strong ETag mismatch')
+        except (OSError,urllib.error.HTTPError) as exc:
+            raise OSError('signed artifact byte verification failed') from None
+        data=dict(provider=provider,strong_etag=spec['strong_etag'],signed_address=url,
+                  consumer_run_id=os.environ['GITHUB_RUN_ID'],
+                  consumer_attempt=os.environ.get('GITHUB_RUN_ATTEMPT','1'))
+        with os.fdopen(os.open(output,os.O_CREAT|os.O_EXCL|os.O_WRONLY|os.O_NOFOLLOW,0o600),'w') as f:
+            json.dump(data,f)
+        print(json.dumps(dict(original_artifact=provider['artifact_id'],administrative_seconds=time.monotonic()-start,
+                              bytes_received=1,scientific_evaluations=0,full_zip_downloaded=False)))
+        raise SystemExit(0)
+    with RangedArchive(spec,authenticated=True) as original:
         docs=original_documents(original)
         spec.update(input_identity=docs['terminal']['input_identity'],terminal_sha256=docs['terminal']['sha256'],
                     continuation_sha256=docs['continuation']['sha256'],
