@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-dual-germ-mean-correction-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-corrected-Phi-four-heads-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,11 +178,11 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 此前逐条源、精确运行、全部已成结论和冻结失败保本页首部的完整快照链；下文合并重复登记，不删除任何未返纤维或原算子接口。
 
-### h=k 碰撞：一般有限五坐标环境仍待排空
+### h=k 碰撞：更正原五行，从真必要关系继续
 
-整个 Delta0/J2/P25,3/G2/C4、两 E 的全部 u 头零及 u2 已闭；[当前五坐标环境](results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md)仍只给同点 $(\lambda,u,Q,f,z)$ 的有限代数维数与不同点数均不超过 235170，不包含未恢复的 rho 或个别值。两个 E 无共同曲线，原 Q6 首项全付，原 Delta 恢复同一 f,z。下一必须在此环境返回全部原 Q 与个别 N/P。
+旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整个 u2 原纤维排除](results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md)用整 QQ λ23 域内原 Q 二次 gcd 中物理乘积平方为零，付当前碰撞图的 u−2。λ无穷、有限u支撑0/2及双无穷角没有随仿射排除删除。旧E37/QQ u-gcd门冻结。另 h1/k1 的 ≤6219 候选、ell 首一三次后的 ≤18657 权三元组及自由 t 仍开，5b2 旧门范围保快照。
+首派f33[真五行输入](notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-original-rows-three-cofactors-input-8542.md)，180秒/4GiB、自含，仅ABQδPf坐标图。正确R2、独立W/O/N1及完整N(V)同一z，P1和N4(V)已给原迹推导；三固定cofactor需全三列实际返回，所有Δ0和未付权零留。A/B/Pf零图、仿射与无穷角按独立原来源继续；旧E37/QQ门不重跑，h1/k1候选及自由t接口保前快照。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-f62真0.091190541秒/0，24原系数及四个非零极大头全部返回，59精确除法/全部因式乘回；共同Mn²ellnum³仅content，剩头零面全保，泛型rank3不升全图。仅QδPf坐标图，无旧H1、m、u+Q−1或2ell−3逆；继续真实共同头零与原值，不重播错误门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
+[真四头](results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md)返全部24原系数及因式，原bc/P02单位直接付公共Mn²ellnum³。四头共同零严格等价AB=F8=F10=F9=0；保两整曲线与全部交点，泛型rank3不升全图。仅QδPf坐标图，无旧H1、m、u+Q−1或2ell−3逆；继续真实共同头零与原值，不重播错误门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

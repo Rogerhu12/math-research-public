@@ -1,5 +1,8 @@
 # R150：碰撞图整个 u=2 的四原 Q 纤维排除
 
+> **2026-11-28 更正：本页引用的 compact R2 原必要性已撤回。** 旧三列后的原覆盖与派生单位尚缺正确原式桥梁，本页的原排除、有限性及点数目前不得沿用。参见[原定义更正](../notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。原运行记录保留，新真原输入单独登记。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 ## 1. 结论与准确范围
