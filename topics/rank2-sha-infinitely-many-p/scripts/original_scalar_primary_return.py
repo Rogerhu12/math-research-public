@@ -54,13 +54,15 @@ PREPARATION = None
 RETURN_AUDIT = []
 
 
-def _unchanged_original_methods():
+def _unchanged_original_methods(generic_bindings=None):
     assert ORIGINAL_SESSION.decompose is ORIGINAL_DECOMPOSE
     assert ideal_tools.OriginalAffineIdealEngine.primary_block is ORIGINAL_PRIMARY_BLOCK
     assert ideal_tools.OriginalAffineIdealEngine.infinity_boundary is ORIGINAL_INFINITY_BOUNDARY
     assert ideal_tools.OriginalAffineIdealEngine.ideal_from_rows is ORIGINAL_IDEAL_FROM_ROWS
-    assert support.closed.decompose_complete_ideal is ORIGINAL_GENERIC_DECOMPOSER
-    assert support.closed.decompose_complete_primary_block is ORIGINAL_GENERIC_PRIMARY
+    if generic_bindings is None:
+        generic_bindings = (ORIGINAL_GENERIC_DECOMPOSER, ORIGINAL_GENERIC_PRIMARY)
+    assert support.closed.decompose_complete_ideal is generic_bindings[0]
+    assert support.closed.decompose_complete_primary_block is generic_bindings[1]
 
 
 def _remember(record):
@@ -76,7 +78,12 @@ def complete_scalar_primary_block(engine, ideal, prime_polynomial,
                                   label="complete scalar primary block"):
     """Return exactly the original complete base-prime block, with full gates."""
     started = time.monotonic()
-    _unchanged_original_methods()
+    # The original production projector installs its own complete-primary
+    # wrapper after preparation.  Preserve the CURRENT binding across this
+    # call; do not mistake that unchanged production hook for our mutation.
+    generic_bindings = (support.closed.decompose_complete_ideal,
+                        support.closed.decompose_complete_primary_block)
+    _unchanged_original_methods(generic_bindings)
     # This is the old pinned WHOLE matrix admission test, before even m=0.
     h = support._whole_scalar_basis(engine, ideal)
     R, n = engine.R, engine.dimension
@@ -102,6 +109,7 @@ def complete_scalar_primary_block(engine, ideal, prime_polynomial,
         "infinity_chart": bool(engine.infinity_chart),
         "actual_whole_hnf_equals_h_times_identity": True,
         "generic_hermite_elimination_executed": False,
+        "current_generic_decomposer_bindings_retained": True,
         "original_geometric_computation_claimed": False,
     }
     if exponent == 0:
@@ -123,6 +131,7 @@ def complete_scalar_primary_block(engine, ideal, prime_polynomial,
                 ideal_tools.polynomial_matrix_digest(block.basis),
             "construction_elapsed_seconds": time.monotonic()-started,
         })
+        _unchanged_original_methods(generic_bindings)
         _remember(base_record)
         return block, receipt
 
@@ -234,6 +243,7 @@ def complete_scalar_primary_block(engine, ideal, prime_polynomial,
         "dynamic_original_full_remainder_verified": True,
         "construction_elapsed_seconds": time.monotonic()-started,
     })
+    _unchanged_original_methods(generic_bindings)
     _remember(base_record)
     engine.progress("complete original scalar primary ideal returned directly",
                     label=label, scalar_thickness=m, norm_exponent=exponent,

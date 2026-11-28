@@ -326,3 +326,10 @@ R1050§7对已逐项核实的实际hI输入给同一原primary的完整Bezout返
 R1065 W1–26从原division函数逐项取消实际[p]框架的首p，得B_N,p整单位且常数1；相对Picard与原Hall中心锁定原Miller lift自身整性。每个真正p²新字在该拉回框架直接为整ψ0 Katz dual，无额外p，范数1及正6q/负4q高系数单位均为实际输入；标准degree-Nq框架仍保B有权迹。原全p² old/new、(p^-2−1)旧项、Haar及两3字/fullh保留，W22的完整连接给每阶原有限jet及physical p^-m、无漏j!。唯一dual coset和成对图ξ+=−M^-Tξ−经完整有限p^-2投影及Egorov准确返回，不称有理化投影为整范数1。原Hall负二有限测试、17^-2和全Λ/Λ′不变；新高矩单位仍不付原低canonical或无穷非零。
 
 [完整证明](../results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)，W1–W26；W12保真实框架、W22保整个connection、W23–26保有限图和投影分母。
+
+
+### R1050 §7的软件实际回执
+
+R1050§7的原两向scalar返回v1软件已真实PASS，source32a46d1/run46109303246/job140869032165，结果hash580953e53f7122755247c6ac24362173b42b5d74bdbff94da82e0b1c15930573，完整旧七组仍通过。生产静态审查发现原projector会合法更换generic wrapper；v2只改为每次入口/出口当前引用相同，保旧Engine/session及全部数学门，并新增实际原包装器正文的兼容核验。v2已请求，未返回不记PASS；v13仍唯一heavy。
+
+[原回执与接续](2026-11-28-original-scalar-primary-software-and-production.md)。

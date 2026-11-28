@@ -1,11 +1,11 @@
 {
-  "request_id": "2026-11-28-original-scalar-primary-return-v1",
+  "request_id": "2026-11-28-original-scalar-primary-return-v2-current-projector-binding",
   "kind": "original-scalar-primary-return-software-check",
-  "reason": "Compare the exact complete scalar primary ideal return with the untouched original primary_block. Verify explicit two-way polynomial Bezout matrix products, the dynamic original full remainder, complete HNF, determinant and nonreduced lengths. Cover degree-two irreducible primes over quadratic constants, thicknesses one/two/three, multiple primes, absent-prime and unit branches, five invalid-input refusals, and a rank-306 scalar software fixture with original exponent 918. Bind only the support session subclass and call the full unchanged pinned seven-case support checker, retaining all residue coordinates, embeddings, registry and infinity gates. This check does not execute original geometry or modify the production request.",
+  "reason": "Compare the exact complete scalar primary ideal return with the untouched original primary_block. Verify explicit two-way polynomial Bezout matrix products, the dynamic original full remainder, complete HNF, determinant and nonreduced lengths. Cover degree-two irreducible primes over quadratic constants, thicknesses one/two/three, multiple primes, absent-prime and unit branches, five invalid-input refusals, and a rank-306 scalar software fixture with original exponent 918. Bind only the support session subclass and call the full unchanged pinned seven-case support checker, retaining all residue coordinates, embeddings, registry and infinity gates. This check does not execute original geometry or modify the production request. The v1 software comparison passed publicly in run 46109303246. Production review found that the unchanged original projector legitimately installs its own complete_primary wrapper after preparation. Preserve current generic function identities across each scalar call while retaining fixed Engine/session identities; additionally install the exact pinned original wrapper body in the software check, compare a full original primary return, and verify that no generic wrapper execution is fabricated.",
   "check_script": "scripts/check-original-scalar-primary-return.py",
-  "check_sha256": "7b9d4f528308199e59eb5ca9509e7f7ab6a54a23cc67bd0012112b57e9dc6e6d",
+  "check_sha256": "30cb33209c8d9e11838aaba41255081f3901dd51f95b12b012c2114e1001a591",
   "binding_script": "scripts/original_scalar_primary_return.py",
-  "binding_sha256": "925a3829cc087dec6b0acbeed8cf41afb44014ef3b056cea3b98ad607141113b",
+  "binding_sha256": "d8d4f90b667d2d66346636e69d764207c84de1ebb5d82c4cfa55d4ca7a87c7d3",
   "source_files": [
     "check-original-complete-quadratic-api.py",
     "check-original-scalar-primary-return.py",
@@ -30,11 +30,14 @@
     "original_full_w_basis_transport.py",
     "original_section_ring_embedding.py",
     "original_w_ideal_transport.py",
-    "original_projector_hermite.py"
+    "original_projector_hermite.py",
+    "produce-original-projector-artinian-shadow.py"
   ],
   "math_runs_only_in_public_actions": true,
   "original_geometric_input_executed": false,
   "recomputable_outputs_persisted": false,
-  "source_dependency_scope": "Fixed selector, new checker, pinned old checker, and the exact union of new helper SOURCE_DEPENDENCIES; all unchanged original source files remain in scope.",
-  "software_time_budget_seconds": 420
+  "source_dependency_scope": "Fixed selector, v2 checker, pinned old checker, pinned actual original projector wrapper source, and the exact union of helper SOURCE_DEPENDENCIES; the producer main is not executed.",
+  "software_time_budget_seconds": 420,
+  "previous_software_run_id": 46109303246,
+  "previous_software_result_sha256": "580953e53f7122755247c6ac24362173b42b5d74bdbff94da82e0b1c15930573"
 }

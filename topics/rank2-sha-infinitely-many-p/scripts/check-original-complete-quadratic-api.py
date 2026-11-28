@@ -44,8 +44,8 @@ def _dispatch_fixed_request():
     elif kind == "original-scalar-primary-return-software-check":
         check_name = "check-original-scalar-primary-return.py"
         binding_name = "original_scalar_primary_return.py"
-        check_sha = "7b9d4f528308199e59eb5ca9509e7f7ab6a54a23cc67bd0012112b57e9dc6e6d"
-        binding_sha = "925a3829cc087dec6b0acbeed8cf41afb44014ef3b056cea3b98ad607141113b"
+        check_sha = "30cb33209c8d9e11838aaba41255081f3901dd51f95b12b012c2114e1001a591"
+        binding_sha = "d8d4f90b667d2d66346636e69d764207c84de1ebb5d82c4cfa55d4ca7a87c7d3"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or

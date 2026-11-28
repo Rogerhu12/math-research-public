@@ -14,13 +14,16 @@ if (os.environ.get("GITHUB_ACTIONS") != "true" or
     raise SystemExit("Use only the named public research Actions.")
 
 from contextlib import redirect_stdout
+import ast
 from copy import copy
 import hashlib
 import importlib.util
+import inspect
 import io
 import json
 from pathlib import Path
 import time
+import textwrap
 from sage.all import matrix, vector, identity_matrix
 
 import original_scalar_primary_return as fast
@@ -32,6 +35,8 @@ STARTED = time.monotonic()
 SOFTWARE_TIME_BUDGET_SECONDS = 420
 OLD_CHECK_NAME = "check-original-scalar-base-divisor-support.py"
 OLD_CHECK_SHA256 = "3dd124a953a0a5dc160dd35a3a6ef6a04af11cf0231a947b32053cec40af297c"
+PROJECTOR_NAME = "produce-original-projector-artinian-shadow.py"
+PROJECTOR_SHA256 = "cf58493f4619140d02d28e8a830a0b25376846d14bc3eb2323d52fce66123087"
 
 
 def canonical(value):
@@ -204,6 +209,99 @@ def run_rank_306_scalar_module_case(R, k, eta):
     }
 
 
+
+def check_current_original_projector_binding(engine):
+    """Install the pinned producer's actual wrapper body without running main."""
+    data = (HERE/PROJECTOR_NAME).read_bytes()
+    assert hashlib.sha256(data).hexdigest() == PROJECTOR_SHA256
+    spec = importlib.util.spec_from_file_location(
+        "_scalar_primary_original_projector_binding_check", HERE/PROJECTOR_NAME)
+    assert spec is not None and spec.loader is not None
+    producer = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(producer)
+    assert producer.closed is support.closed
+    source = textwrap.dedent(inspect.getsource(producer.main))
+    parsed = ast.parse(source)
+    assert len(parsed.body) == 1 and isinstance(parsed.body[0], ast.FunctionDef)
+    functions = [node for node in parsed.body[0].body
+                 if isinstance(node, ast.FunctionDef) and
+                 node.name == "complete_original_primary"]
+    assert len(functions) == 1
+    node = functions[0]
+    lines = source.splitlines(keepends=True)
+    original_nested = "".join(lines[node.lineno-1:node.end_lineno])
+    wrapper_source = textwrap.dedent(original_nested)
+    assert textwrap.indent(wrapper_source, "    ") == original_nested
+    # The original nested function closes over records; every other binding
+    # comes from the actual pinned producer.  No synthetic replacement body.
+    factory_source = ("def _make_original_primary_wrapper(records):\n"+
+                      textwrap.indent(wrapper_source, "    ")+
+                      "    return complete_original_primary\n")
+    namespace = dict(vars(producer))
+    exec(compile(factory_source, str(HERE/PROJECTOR_NAME)+
+                 ":exact-original-wrapper-body-check", "exec"), namespace)
+    records = []
+    wrapper = namespace["_make_original_primary_wrapper"](records)
+    assert wrapper.__code__.co_freevars == ("records",)
+    assert wrapper.__globals__["closed"] is producer.closed
+    assert (wrapper.__globals__["decompose_complete_primary_block_with_projectors"] is
+            producer.decompose_complete_primary_block_with_projectors)
+    assert wrapper.__globals__["emit"] is producer.emit
+    R, n, t = engine.R, engine.dimension, engine.R.gen()
+    actual = engine.ideal_from_rows(t**2*engine.identity,
+                                    "software actual wrapper-binding input")
+    reference, reference_receipt = fast.ORIGINAL_PRIMARY_BLOCK(
+        engine, actual, t, "software wrapper-binding reference")
+    generic_before = support.closed.decompose_complete_ideal
+    primary_before = support.closed.decompose_complete_primary_block
+    assert primary_before is fast.ORIGINAL_GENERIC_PRIMARY
+    audit_before = len(fast.scalar_primary_return_audit())
+    calls_before = engine.general_hnf_calls
+    support.closed.decompose_complete_primary_block = wrapper
+    try:
+        assert support.closed.decompose_complete_ideal is generic_before
+        assert support.closed.decompose_complete_primary_block is wrapper
+        engine.forbid_generic_hnf = True
+        try:
+            block, receipt = fast.complete_scalar_primary_block(
+                engine, actual, t, "software current original projector wrapper retained")
+        finally:
+            engine.forbid_generic_hnf = False
+        assert support.closed.decompose_complete_ideal is generic_before
+        assert support.closed.decompose_complete_primary_block is wrapper
+        assert engine.general_hnf_calls == calls_before
+        assert block.basis == reference.basis
+        assert block.determinant == reference.determinant
+        assert block.length == reference.length
+        assert receipt["norm_exponent"] == reference_receipt["norm_exponent"] == 2*n
+        assert len(fast.scalar_primary_return_audit()) == audit_before+1
+        returned = fast.scalar_primary_return_audit()[-1]
+        assert returned["current_generic_decomposer_bindings_retained"]
+        assert not returned["generic_hermite_elimination_executed"]
+        # The scalar helper does not fabricate any generic projector use.
+        assert records == []
+    finally:
+        support.closed.decompose_complete_primary_block = primary_before
+    assert support.closed.decompose_complete_ideal is generic_before
+    assert support.closed.decompose_complete_primary_block is primary_before
+    return {
+        "pinned_original_projector_source_sha256": PROJECTOR_SHA256,
+        "exact_original_wrapper_source_sha256":
+            hashlib.sha256(wrapper_source.encode()).hexdigest(),
+        "actual_pinned_original_projector_wrapper_body_installed": True,
+        "wrapper_source_indentation_round_trip_exact": True,
+        "same_original_decomposer_emit_and_records_closure": True,
+        "current_generic_bindings_equal_at_helper_entry_and_exit": True,
+        "actual_generic_wrapper_call_count": len(records),
+        "generic_wrapper_calls_not_fabricated": True,
+        "same_complete_original_hnf_determinant_and_length": True,
+        "new_return_ran_with_generic_hnf_forbidden": True,
+        "previous_binding_restored_after_check": True,
+        "original_projector_main_executed": False,
+        "actual_new_return": returned,
+    }
+
+
 def main():
     reference = load_pinned_old_checker()
     preparation = fast.prepare_source_bindings()
@@ -315,11 +413,12 @@ def main():
     assert ideal_tools.OriginalAffineIdealEngine.ideal_from_rows is fast.ORIGINAL_IDEAL_FROM_ROWS
     assert support.closed.decompose_complete_ideal is fast.ORIGINAL_GENERIC_DECOMPOSER
     assert support.closed.decompose_complete_primary_block is fast.ORIGINAL_GENERIC_PRIMARY
+    current_wrapper_check = check_current_original_projector_binding(engine)
     # Preserve both original markers in the public output, with no rewriting.
     print(old_stdout, end="", flush=True)
 
     files = tuple(dict.fromkeys(
-        (Path(__file__).name, OLD_CHECK_NAME)+fast.SOURCE_DEPENDENCIES))
+        (Path(__file__).name, OLD_CHECK_NAME, PROJECTOR_NAME)+fast.SOURCE_DEPENDENCIES))
     elapsed = time.monotonic()-STARTED
     assert elapsed < SOFTWARE_TIME_BUDGET_SECONDS
     report = {
@@ -337,6 +436,7 @@ def main():
         "direct_original_primary_comparisons": direct,
         "rejections": refusals,
         "rank_306_software_scalar_return": rank306,
+        "current_original_projector_binding_check": current_wrapper_check,
         "original_seven_case_report_sha256": hashes[0],
         "original_seven_case_check_names": [c["case"] for c in old_report["checks"]],
         "original_checker_main_called_without_source_changes": True,

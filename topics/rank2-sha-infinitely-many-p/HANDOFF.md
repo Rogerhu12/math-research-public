@@ -10,19 +10,19 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际pull、已读规则和认领
 
-readonly run46073965457/job140869205782，source 3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 04:50:16 UTC实际partial clone/pull至a102c6c3e2f607e76443afef4a97db4a611dab97。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 04:50:23 UTC实际至4c9077c30ac1643113dca51fc4c3d7b4ec491da9。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与04:46已读版相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14887B/SHA256 2828548ae53916fd4ffb080cd73e011158b61f4fad9f0defbe860b29e1d608cc；完整库存3185blobs/45163770B，tree248e1756bac808e54eb562ee290385249786082e，无>5MB，三旧必要gzip不变。
-- 旧run46075603971第50attempt startup_failure未冒pull；现run已核workflow逐字相同。每推前新pull；最迟05:50UTC再拉两库。非FF立即实际pull --rebase、读新差异再推，不force。
+readonly run46073965457/job140870459729，source 3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 04:55:46 UTC实际partial clone/pull至de041c7640293c911b0122f61d72e6646406c91f。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 04:55:51 UTC实际至365012d0f355e1794f86da170b2eee27651ed5cc。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与04:50已读版相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14894B/SHA256 4854b06e1fb0d75c6db40512d306591ed55cc8a60d11a48c7e0976dcdace580e；完整库存3186blobs/45198676B，treeadd651961ba633bfa69a004458a3f402c7784be9，无>5MB，三旧必要gzip不变。
+- 旧run第50attempt startup_failure未冒pull；现run workflow逐字相同。每推前新pull；最迟05:55UTC再拉两库。非FF立即实际pull --rebase、读新差异再推，不force。
 - 本地07:20失联；03:44:37实际pull --rebase、04:12环境检查仍无环境；末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
 
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)真实21000s/signal15/exit124；六612及下一306/Frob/maximal已返，四交/Norm/18×9未返。[三项软件PASS](notes/2026-11-27-original-scalar-support-software-and-production.md)不代数学终门。
 [v13](notes/2026-11-27-original-scalar-filtration-v13-production.md)保60旧源码+5新、两char0 pins、29/2453/64/minimal/artinian与全部终门；PREPARED/捕获别名/同商平方/scalar/triangular及R1050非约化d_i/md_i/f_i全保。
-**run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建，最新04:49:25实际in_progress。04:24:01日志GET仍与此前全部已记GET同为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，尾00:18:25到positive scalar base-prime1第222/306列；四种binding已核。八条scalar全HNF/厚长/残域/边界、四交、一般Norm、18×9、九对/all-requested未返。不据相同GET断停滞；4CPU/16GB/21000s，不开第二heavy、不存可重算输出。
+**run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建，最新04:55:28实际in_progress。04:24:01日志GET仍与此前全部已记GET同为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，尾00:18:25到positive scalar base-prime1第222/306列；四种binding已核。八条scalar全HNF/厚长/残域/边界、四交、一般Norm、18×9、九对/all-requested未返。不据相同GET断停滞；4CPU/16GB/21000s，不开第二heavy、不存可重算输出。
 
 ## 原p²全来源与完整临界读者
 
@@ -49,4 +49,4 @@ R1055全A24两trace及E126平方根/五伙伴完整加权行保同R；R824四高
 全部详细式、proof链接和失败边界保在上方逐字H归档、open和本卷；不重做旧输入。
 
 原五固定曲线及E3969的rank≥2/通常全Sha桥已付；联合无穷p canonical J′非零仍主缺口。unitary§16真Hecke反例、R1057辅助q/17有权返回及q单位倍不读p饱和的边界保留。
-O4 ordinary a≤1无穷p、O6固定两点Np/q_p1、O7同Y/216闭边界及所有旧门按open继续。R1050§7已付scalar-primary全U/V返回；两新源码已推32a46d1，固定小软件run46109303246/job140869032165在跑，旧七组/全残域/∞门保留，无结果不记PASS。producer v14候选仅准备，须等小check与v13真终态；唯一heavy继续。子题完成即接实质未闭门，只有达到课题README完整标准才收尾。
+O4 ordinary a≤1无穷p、O6固定两点Np/q_p1、O7同Y/216闭边界及所有旧门按open继续。R1050§7全U/V软件v1真PASS：run46109303246/job140869032165，69.85s，细节见[2026-11-28-original-scalar-primary-software-and-production.md](notes/2026-11-28-original-scalar-primary-software-and-production.md)；现v2修原projector合法绑定的过严断言并请求真软件检查。v14候选须等v2及v13终态，唯一heavy继续。子题完成即接实质未闭门，只有达到课题README完整标准才收尾。

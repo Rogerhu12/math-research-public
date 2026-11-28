@@ -117,9 +117,9 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
 
 [v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新04:49:25实际查询仍为in_progress；04:24:01再次GET与00:37、01:03、01:25、02:01、02:30、02:57、03:21、03:46及04:04相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新04:55:28实际查询仍为in_progress；04:24:01再次GET与00:37、01:03、01:25、02:01、02:30、02:57、03:21、03:46及04:04相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
 
-[R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)现付同一个scalar primary的完整U/V多项式行返回；两新源码只替旧support两个调用点，完整非约化残域及原四交/Norm/18×9门保留。固定software selector/request已推32a46d1，run46109303246/job140869032165实际in_progress，须消费真实PASS/失败；新生产入口仅准备，须等当前v13实际终态和软件结果才接下一唯一heavy。
+[R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)现付同一个scalar primary的完整U/V多项式行返回；两新源码只替旧support两个调用点，完整非约化残域及原四交/Norm/18×9门保留。固定v1软件run46109303246/job140869032165已真实PASS（69.85s），见[完整来源](notes/2026-11-28-original-scalar-primary-software-and-production.md)；v2修原projector合法绑定的过严断言并加实际包装器兼容测试，需消费新回执；新生产入口仅准备，须等当前v13实际终态和软件结果才接下一唯一heavy。
 
 旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
 
