@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`cabc7fca00659ba40d6bc12d6167a194f5efb405`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`c40ac3cd2b0f22ed2b043d0f85f1c980989f0d81`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -30,11 +30,10 @@ R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本�
 
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：46150384106/job140995509084原3×7×9全返，小扇区贯穿双端帽Gram约8e−14；全帽误差8809.79仍未付。原帽K工作370.7886/247.3521与graph界冲突，追加同场Cartesian/SVD测量现触发；原值全保。
 
-[R752新全闭初g](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md)：Y=.37/e=.81/b=1/1024低角长肩支付所有中央点对、全相位、穿越真帽任意初路径的弦长必要条件；D0<3.49/reach>.105/grip≥.72/held>1.521/δE>0。双全圆端同g仍欠，41继续；旧锁中央误差>1.01且须动一点>.194。
+R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g，真空间中央与双独立fan帽各自全同g；全|a|≤2⁻²¹所有中央弦付闭距必要条件。命名小场D0<3.49/reach≥.107/grip≥.72/held>1.521/δE>0，不冒大control几何；双全卷仍欠，41真解。全部旧界及失败范围保[此前H](https://github.com/Rogerhu12/math-research-public/blob/6e6bc85a6888b3331288f19cda8a517709525b48/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
-[R753中央与双帽自由](results/R753-spatial-rectifying-cylinder-and-independent-ruled-cap-fans.md)：真空间rectifying柱与两独立直纹fan帽各自完整精确同R752初g，四缝C²明确；全|a|≤2⁻²¹另付所有中央弦的闭距条件；命名小场reach≥.107/held>1.521/δE>0。三种材料运输、双帽各6位姿及双卷三物理分量供41联合解；整卷同g及大control几何仍欠。
 
-[41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md)：R752固定新g、R753精确中央/双帽，19边界形状位姿加双全卷三物理分量；原五粗及4/8/16结三精化，严格嵌套字典直拷、65独立时间与四缝六jet。六完整件现刊触发，actual待；40原预算不动。
+[41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md) 46151180968/job140997950457/PID2553：五粗全返，选15537e0f omega-shortened-cap，Gram.5255541408830331/K266.9027055；中央/两帽约1e−13、四缝二jet≤2.274e−13，余双卷未付。原4/8/16区间精化继续。
 
 ## 数学范围与完整输入
 
@@ -64,6 +63,6 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull d957f2537d7762e0b326325356bc6c5960a09667
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46151602924-1.json) 双README真pull 845214fe52935e71a65a6fe5b4f08c4c474ded87
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 12071581a715b36833640670ed5780014f73bc44
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull d957f2537d7762e0b326325356bc6c5960a09667

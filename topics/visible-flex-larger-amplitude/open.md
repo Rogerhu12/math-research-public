@@ -117,11 +117,10 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：46150384106/job140995509084原3×7×9全返，小扇区贯穿双端帽Gram约8e−14；全帽误差8809.79仍未付。原帽K工作370.7886/247.3521与graph界冲突，追加同场Cartesian/SVD测量现触发；原值全保。
 
-[R752新全闭初g](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md)：Y=.37/e=.81/b=1/1024低角长肩支付所有中央点对、全相位、穿越真帽任意初路径的弦长必要条件；D0<3.49/reach>.105/grip≥.72/held>1.521/δE>0。双全圆端同g仍欠，41继续；旧锁中央误差>1.01且须动一点>.194。
+R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g，真空间中央与双独立fan帽各自全同g；全|a|≤2⁻²¹所有中央弦付闭距必要条件。命名小场D0<3.49/reach≥.107/grip≥.72/held>1.521/δE>0，不冒大control几何；双全卷仍欠，41真解。全部旧界及失败范围保[此前H](https://github.com/Rogerhu12/math-research-public/blob/6e6bc85a6888b3331288f19cda8a517709525b48/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
-[R753中央与双帽自由](results/R753-spatial-rectifying-cylinder-and-independent-ruled-cap-fans.md)：真空间rectifying柱与两独立直纹fan帽各自完整精确同R752初g，四缝C²明确；全|a|≤2⁻²¹另付所有中央弦的闭距条件；命名小场reach≥.107/held>1.521/δE>0。三种材料运输、双帽各6位姿及双卷三物理分量供41联合解；整卷同g及大control几何仍欠。
 
-[41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md)：R752固定新g、R753精确中央/双帽，19边界形状位姿加双全卷三物理分量；原五粗及4/8/16结三精化，严格嵌套字典直拷、65独立时间与四缝六jet。六完整件现刊触发，actual待；40原预算不动。
+[41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md) 46151180968/job140997950457/PID2553：五粗全返，选15537e0f omega-shortened-cap，Gram.5255541408830331/K266.9027055；中央/两帽约1e−13、四缝二jet≤2.274e−13，余双卷未付。原4/8/16区间精化继续。
 
 19–32原终态及README异常、36–39各全部原阶段自然返回和未付费用，均保[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/c11e0a47491ac945e65cc3c7e24a5ea6a6e16955/topics/visible-flex-larger-amplitude/HANDOFF.md)、原独立日志与各ownnote。39的原11点没有实际flow；39b重生11点全异，三组全148轨线是新冻结b02763f0的真实结果，不混借旧39。
 
