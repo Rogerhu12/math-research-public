@@ -36,11 +36,11 @@ def delta_six(new,old,r,angles,ids):
     return out
 
 
-def transfer(opt,layout,prior,count,elapsed):
+def transfer(opt,layout,prior,count,elapsed,book):
     import numpy as np
     from r726_closed_spinor_fourier import ClosedSpinor
     from r726_paid_half_projection import paid_primitive,source_centroid,material_six
-    from r703_weighted_material_field import Space,Field
+    from r703_weighted_material_field import Space,Field,Rad
     from r703_transported_lattice_anchor import CalibratedGrid
     from r728_paid_spinor_hermite import project,hermite_fits
     from r728_full_spinor_geometry import state,read_curve
@@ -51,47 +51,63 @@ def transfer(opt,layout,prior,count,elapsed):
     if original['run']!=46146623642 or len(original['all_parameters'])!=1604:
         raise ValueError('R687 field is incomplete.')
     before=dict(count)
-    g=CalibratedGrid(original,9,289,12,count)
-    x703=np.array(prior['all_parameters'])
-    A,sh,j703,cold,cleft,old=paid_primitive(Field(Space(12,5),g),x703)
-    Eold=old['e0'].copy()**2
-    count['new_needed_paid_source_native_reconstructions']+=1
-    r=g.r;edge=g.edge_ids
-    source_id=dict(angle_count=289,radial_order=9,outer_spans=12,radial_count=len(r),
+    as_tuple=lambda t:(t.x,t.d,t.dd)
+    def original_field():
+        g=CalibratedGrid(original,9,289,12,count)
+        a,s,j,c,l,old=paid_primitive(Field(Space(12,5),g),np.array(prior['all_parameters']))
+        count['new_needed_paid_source_native_reconstructions']+=1
+        return dict(u=as_tuple(a),shift=as_tuple(s),center=c,left=l,E=old['e0'].copy()**2,
+                    r=g.r,edge=g.edge_ids,guard=g.guard_weights)
+    data=book.once('R703_actual_289_complete_source','source',original_field)
+    r,edge=data['r'],data['edge'];cold,cleft,Eold=data['center'],data['left'],data['E']
+    uold,pold=data['u'],data['shift'];A=Rad(*uold)
+    g=SimpleNamespace(r=r,b=.22,theta=np.arcsin(.27))
+    source_id=dict(angle_count=289,radial_order=9,outer_spans=12,radial_count=len(r),source_run=46151140087,
+                   source_job=140997832329,source_trust=prior['trust'],source_last_accepted_mu=prior['last_accepted_mu'],
                    parameter_count=157,prior_seconds=prior['elapsed_seconds'],prior_counts=prior['counts'],
                    original_R687_run=original['run'],preexisting_R687_counts=original['counts'])
-    # The prior numerical frame and its large intermediate arrays are no longer needed.
-    del old,g.anchor
-    ctarget,length=source_centroid(A,cold,r)
-    za,zb,pr=project(A,layout.K,opt['projection_half_cells'],count)
+    def project_actual():
+        center,length=source_centroid(A,cold,r)
+        za,zb,pr=project(A,layout.K,opt['projection_half_cells'],count)
+        return dict(center=center,length=as_tuple(length),za=as_tuple(za),zb=as_tuple(zb),actual=pr)
+    proj=book.once('R703_half_projection_with_all_radial_jets','source',project_actual)
+    ctarget=proj['center'];length=Rad(*proj['length']);pr=proj['actual']
     fit=np.arange(len(r))%3!=1
-    coeff,herm=hermite_fits(layout.space,r,g.guard_weights,fit,za,zb,ctarget,count)
-    x=layout.pack(coeff)
-    core=ClosedSpinor(layout.K,opt['reference_angles'])
-    st,c,_=state(layout,core,x,r)
-    uold=(A.x,A.d,A.dd);pold=(sh.x,sh.d,sh.dd)
+    def fit_actual():
+        cf,he=hermite_fits(layout.space,r,data['guard'],fit,Rad(*proj['za']),Rad(*proj['zb']),ctarget,count)
+        return layout.pack(cf),he
+    x,herm=book.once('R728_all_three_Hermite_fits','qr',fit_actual)
+    def new_shape():
+        core=ClosedSpinor(layout.K,opt['reference_angles'])
+        st,ctr,_=state(layout,core,x,r,Eold)
+        proposed=Eold+st['complete_RA'][0]
+        return dict(auxiliary_position_jets=st['auxiliary_position_jets'],auxiliary_shift_jets=st['auxiliary_shift_jets'],
+                    E=proposed,center=ctr)
+    st=book.once('R728_source_new_native_curve','read',new_shape);c=st['center']
     source_reads=[]
     for M in opt['source_material_reads']:
-        phi=2*np.pi*np.arange(M)/M
-        oldsix,oread=material_six(r,uold,pold,cold,phi)
-        newsix,nread=material_six(r,st['auxiliary_position_jets'],st['auxiliary_shift_jets'],c,phi)
-        both=np.broadcast_to(phi,(len(r),M))
-        held=np.flatnonzero(~fit);selected=np.flatnonzero(fit)
-        # Changing the source center's one-sided r jet changes only the true radial and double-radial columns.
-        left=[y[edge].copy() for y in oldsix]
-        left[1]+=(cleft[1]-cold[1][edge])[:,None,:]
-        left[3]+=(cleft[2]-cold[2][edge])[:,None,:]
-        eg=SimpleNamespace(r=r[edge],theta=g.theta,b=g.b);ec=tuple(z[edge] for z in cold)
-        row=dict(material_angles=M,old_native_inverse=oread,new_native_inverse=nread,
-                 fitted_six_actual=delta_six(newsix,oldsix,r,phi,selected),
-                 held_out_six_actual=delta_six(newsix,oldsix,r,phi,held),
-                 other_source_center_trace=delta_six([z[edge] for z in newsix],left,r[edge],phi,np.arange(len(edge))),
-                 old_actual_on_prior_E=read_curve(g,oldsix,cold,Eold,both),
-                 new_actual_on_prior_E=read_curve(g,newsix,c,Eold,both),
-                 new_actual_on_own_E=read_curve(g,newsix,c,st['E'],both),
-                 old_other_center_trace_on_prior_E=read_curve(eg,left,ec,Eold[edge],both[edge]))
-        count['source_and_new_native_material_inversions']+=2*len(r)*M
-        source_reads.append(row)
+        def native_comparison():
+            phi=2*np.pi*np.arange(M)/M
+            oldsix,oread=material_six(r,uold,pold,cold,phi)
+            newsix,nread=material_six(r,st['auxiliary_position_jets'],st['auxiliary_shift_jets'],c,phi)
+            both=np.broadcast_to(phi,(len(r),M))
+            held=np.flatnonzero(~fit);selected=np.flatnonzero(fit)
+            # Changing the source center's one-sided r jet changes only the true radial and double-radial columns.
+            left=[y[edge].copy() for y in oldsix]
+            left[1]+=(cleft[1]-cold[1][edge])[:,None,:]
+            left[3]+=(cleft[2]-cold[2][edge])[:,None,:]
+            eg=SimpleNamespace(r=r[edge],theta=g.theta,b=g.b);ec=tuple(z[edge] for z in cold)
+            row=dict(material_angles=M,old_native_inverse=oread,new_native_inverse=nread,
+                     fitted_six_actual=delta_six(newsix,oldsix,r,phi,selected),
+                     held_out_six_actual=delta_six(newsix,oldsix,r,phi,held),
+                     other_source_center_trace=delta_six([z[edge] for z in newsix],left,r[edge],phi,np.arange(len(edge))),
+                     old_actual_on_prior_E=read_curve(g,oldsix,cold,Eold,both),
+                     new_actual_on_prior_E=read_curve(g,newsix,c,Eold,both),
+                     new_actual_on_own_E=(read_curve(g,newsix,c,st['E'],both) if np.all(st['E']>0) else dict(available=False,minimum=float(st['E'].min()))),
+                     old_other_center_trace_on_prior_E=read_curve(eg,left,ec,Eold[edge],both[edge]))
+            count['source_and_new_native_material_inversions']+=2*len(r)*M
+            return row
+        source_reads.append(book.once('R728_native_same_phi_'+str(M),'source',native_comparison))
     target_diff=[float(np.linalg.norm(n-o,axis=-1).max()) for n,o in zip(c,ctarget)]
     emit('paid_source_represented_in_new_chart',source=source_id,counts_before=before,counts=dict(count),
          projected=pr,full_Hermite=herm,center_three_fit_errors=target_diff,
@@ -102,6 +118,16 @@ def transfer(opt,layout,prior,count,elapsed):
 
 def stage(opt):
     io_started=time.monotonic()
+    dest=Path(os.environ['RUNNER_TEMP'])/'r728-r703-natural-final.json'
+    historical=Path(os.environ['RUNNER_TEMP'])/'r728-paid-checkpoint'/'r703-original-final.json'
+    if historical.is_file():
+        raw=historical.read_bytes()
+        if len(raw)!=39163 or hashlib.sha256(raw).hexdigest()!='bd5a52dcc40e31e898d3e02b99e4e5c0d449bfd697ac95faa8a168082c6012b2':
+            raise ValueError('Historical source in the restored checkpoint differs.')
+        dest.write_bytes(raw)
+        print(json.dumps(dict(kind='verified_source_from_restored_checkpoint',new_archive_downloads=0,
+                   administrative_io_seconds=time.monotonic()-io_started,new_scientific_evaluations=0)),flush=True)
+        return
     token=os.environ.get('GITHUB_TOKEN')
     if not token:raise RuntimeError('The public job needs its read-only Actions receipt token.')
     root='https://api.github.com/repos/Rogerhu12/math-research-public'
