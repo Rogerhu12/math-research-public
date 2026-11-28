@@ -28,7 +28,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 原G10=958径×(128+192角)、4291840物理行；G11=668径×256移位角，540原训练外径点。R219充分预算为完整D≤3.2、held≥.64、δE≥.1609、reach≥.097；guide held.65/κ9.5。位置、g、输入改变均不借旧接受/几何。分片、E=1或固定g有限步不代整闭精度/厚度。
 
-<!-- 2ecf-target-curvature --> [R267新gap.92前缀](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)全域metric<5e−10、reach≥5/38；[R281正解析中央](results/R281-positive-support-central-cylinder-at-full-gap.md)给真实大gap非椭圆源；当前p32/r=.25/v=.012进入全位置。
+<!-- 2ecf-target-curvature --> [R267](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)新gap.92前缀；[R281](results/R281-positive-support-central-cylinder-at-full-gap.md)正解析中央；[R283](results/R283-nonelliptic-accurate-rulings-global-reach.md)两新Γ95母线环带全域reach，p32原长≥.222，完整拼接仍另付。
 
 <!-- 2ecf-live-g10 --> [主动约束六步](notes/2026-11-28-2ecf-ridge-active-held-and-curvature-full-steps.md)独立末 .321722/κ16.90235/held .6400646；现在换真正材料u的三维单位速率和严格端位闭合。
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:37:27 UTC；已读公开 main `5ad49e323dc0033f126a65087cfb93b86a7a14fc`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:37:38 UTC；已读公开 main `3175f6232da63a569a48dbe3d9bc6709c4b86c0a`，根/课题 README 逐差无变化。

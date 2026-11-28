@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R283：真实非椭圆母线环带的全域嵌入与双侧reach](results/R283-nonelliptic-accurate-rulings-global-reach.md)（2026-11-28）：两种真实Γ95、三个长度，入口凹边界、出口和全部跨点对均覆盖；p32原长reach≥.222。
+
 - [R282：回折开发端口的独立高度及方向控制](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)（2026-11-28）：完整参数矩形Jacobian>3/50，中央/两新尾/固定帽三分量全时reach≥.097；两个连接带尚待。
 
 - [R281：正解析曲率半径的真实大宽差中央](results/R281-positive-support-central-cylinder-at-full-gap.md)（2026-11-28）：周长2π、A=29/20、gap>1.05、中央κ<6.977、柱reach>.1433；新原生H65节点κ8.33735，完整新连接继续。
