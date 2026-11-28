@@ -1397,3 +1397,24 @@ reach较初值下降且仍正；distance_plus较初值略升且仍正，余四�
   }
 ]
 ```
+
+## 2026-11-28 03:10:54 UTC — 19下一真实试点统计返回，几何未返
+
+同一实际science36304a0df074fcacc324d9c8eda79a5620b6a897/launcherf600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506/PID3240/driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f/model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add，下一trial20d617114ba603edf83e02f342ae26946054cc69a6f99d5f7a9bc474981af45f于2026-11-28T02:54:16.817876+00:00真实返回Phi=3824.990529790781/max_relative_Gram=0.6460480621212836。截至原索引2026-11-28T03:04:39Z，该点geometry及accepted仍未知，所有缺值TypeError保原完整索引，不从Phi下降推接受。
+
+current仍b0f8f2b00d00956db896777f053e196fabc60c9b961f5193e725ddad4f19abee，accepted_directions=3，Phi=3825.0037791222376、Gram=0.6460510001750339，当前六族reach=0.9666075350730359、body_diameter=-0.03813556741003443、distance_plus=0.005865153856709826、distance_minus=-3.0936337267160265、cap_diameter=-0.06715135499349079、height_floor=-1.0411715463143238均为该原current自身返回。reach和distance_plus仍正。alpha、方向编号及完整typed未知。complete_report=false、child_exit_code=null，工作统计不代完整report、全域证书或准确后继输入。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1.md",
+    "bytes": 33424,
+    "sha256": "468b50e5ce637fd502c085f91cf405308bb74265b94aff4dc3eae326719c11c6",
+    "git_blob_sha": "88dbda5a21fc69b66fc460e2f5b53e29c30c30ee",
+    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
