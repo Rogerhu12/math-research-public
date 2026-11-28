@@ -401,3 +401,14 @@ root指出原稿漏付h=2p−1，central据同一R618已证盘修补，geometry�
 root与arithmetic独立静审原A0/A1缓存全调用链、finite/∞键、完整receipt/provenance哈希和原F_y实际旧method；未发现末期字段误拒。完整69源与两char0/全部原参数逐项比对通过，只四新增依赖，helper实际v2/source0a1b…与producer9b1d…级联一致。新request8794B/hashac04d377ee4ad0fd5b25722ddb5069683cbd4995129ede7f907a25b37eaafff2，workflow4248B/hasha99b5d4c91ae397bd6be21a351d153f5587c0136aacb2e1b6761f18c7bb04860。R1063§10此前已推8296b5efefbf5544f4180163054b22fe292efcf9，主数学继续同临界分量完整加法与固定D102/S34关系。
 
 推前实际双pull run46073965457/job140879400805：公开2026-11-28 05:33:35 UTC至7c081de94ccf75ec0e13991cb9689b3c7704ed14，私库2026-11-28 05:33:40 UTC至60c925de975d33eb67531ab01e26e24a087c62e1；四README与05:26同blob、QUEUE未变。日志14893B/hasha4ce50b2c896170d4099fefcbd54bc8793edd2be4aeb74012cf75931a5768d68，库存3195/45373582B/tree9467461d2acad40127436d4cd42d52c8d8f1bb24，无>5MB，三旧必要输入未变。本提交触发生产，未返回不记数学PASS。
+
+
+## 2026-11-28 06:07 UTC — R1067 原第一 wild 偶重数与真实 v15 回执
+
+central完成、root全文独审、geometry独核N2参考/实性/全部Miller返回。新[R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)保原ν_r=χ_r²、Norm17r参考、所有中心及physical导数；同有限Artin线的Kato含p²导子比较保1/p、Gauss、共同p² Tate尺度和m!后取比相消。沿同一合法M p^h准确比较零阶，得ord_(tν)A_p=2ord_0H_r。exactHall0⇒Φp²、λ≥2e+2(p−1)；bad与exactHall0同有才给λ≥2p+2。原bad不迫wild零；主无穷p未完成。
+
+root本次直接取得Kato印p221/256/258/265的Numdam原文检索页；没有把无法完整浏览的18MB PDF说成全文新读。实际μ=0/整基及旧无扭转桥按原登记复用。正文23888B/SHA256 49f8c9e27837099b2496a4652b98b9e7d2f785362feb93ee586363cea01cfba2；没有新数学计算。
+
+readonly run46073965457/job140886058463实际公开06:02:50UTC pull至6750a73f71fbede68a6d7606e4b1d8378ab07ecc，私库06:02:56UTC至82c883f1d29a4becbbb9e25e5020585f6be46ede。四README、QUEUE及三旧必要gzip同blob；日志14893B/hashfbf455bf0235669375f3700bcac8a67b4797cb5472001f734fd2d778b24626d5，库存3198/45440808B/tree58f59fb8c75efea0328aeacc2d2f0a3644ae02bc。
+
+v15唯一heavy实际run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962，05:35:43UTC建立，06:05:27UTC仍step4 in_progress；日志继续BlobNotFound，故不登记bindings或原数学PASS。完整参数/69pins在[生产记录](notes/2026-11-28-original-whole-denominator-software-and-production.md)。06:02本地只读环境探测仍无可用运行环境，未冒称本地pull。

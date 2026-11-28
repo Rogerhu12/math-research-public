@@ -381,3 +381,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 在分母软件v2真实PASS之后，启动v15完整生产：只启用已核的scalar-primary两向Bezout和同一个原MD的官方H/U/全坐标返回；只A0/A1 y0两标签各finite/∞用新分母路径，F_y继续真实旧transpose附加HNF。保原65源/两char0回执、p29/qprecision2453/batch64/minimal/artinian、全部非约化厚度及四交/一般Norm/18×9/九对/all-requested。生产最终额外核八条scalar实际使用和四个同分母图的原函数/engine/ideal缓存身份及全部H/U/CH/XMD；不伪造旧算法回执或提前判数学PASS。仍固定Sage10.6镜像、4CPU/16GB、host21000秒/workflow360分钟，原串行concurrency保持。
 
 [完整实现及固定请求](2026-11-28-original-whole-denominator-software-and-production.md)，§8；数学主目标不由软件PASS或启动成立。
+
+
+## R1067 — 原第一 wild 零点的精确偶重数
+
+[R1067](../results/R1067-original-first-wild-rubin-even-multiplicity.md)（已证明）在原E17/参考E1、同ν_r及全部有限角色中，构造完整Hall权germ并证明ord_(tν)A_p=2ord_0H_r。参考N2必须取Norm17r，原中心和physical导数均保。Kato含p² CM-pair、Artin projector 1/p、Gauss、m!及两处p^-1先留后在同源比值中相消；没有引入未付的解析单位。actualHall=0给Φp²，完整T^(2e)同留，故λ≥2e+2(p−1)；bad加actualHall0才有λ≥2p+2，主无穷非零未闭。

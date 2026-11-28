@@ -65,6 +65,9 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 [R1066](results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)的N1–19与Z1–22已完成同一新字的负权connection和原coherent/fullMaass返回。实际c_q锁住归一，合法共同权支保prime-to-p角色与p深度；完整S_C S_-C=1靠全移位双卷积，非两个E逐项相消。Z21a给原whole already-Maass germ，全部old/finiteh/差2角投影/17^-2/Haar/Λ′保留。各新字inverse矩非零及测试单位均不传给Hall或canonical。下一须证明原tame平均后的真实低系数于无穷p命中，或同一固定有限族的全来源关系强制至少一个canonical非零；原P10 descent在新表达中的等价重述不新增坏行。
 
+
+[R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)现付同一个原第一wild点的偶重数：ord_(tν)A_p=2ord_0H_r，N2/Norm17r参考为单位；全部finiteν、Miller中心、physical导数、Gauss/1/p与含p² CM-pair费用保后相消。exactHall0才迫Φp²及λ≥2e+2(p−1)；中央bad联合该精确零才给λ≥2p+2。下一继续真实λ/低jet约束；不从中央bad、高赋值或Katz整性造wild零。
+
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
 [R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。
@@ -118,7 +121,7 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。同一MD的完整U/坐标复用已通过软件v2；v15现接唯一heavy，全部原F_y专门验收保留。
 
-[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1因immutable失败，v2显式copy并核输入状态；v2 run46112089371/job140877645107已实际PASS，七对照/十拒绝/原F/scalar完整门保留，结果hash5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa。v15已同步真实helper/producer/request pins，本提交触发唯一heavy；不扩大资源或以稀疏/半单影子代全非约化行模。
+[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1因immutable失败，v2显式copy并核输入状态；v2 run46112089371/job140877645107已实际PASS，七对照/十拒绝/原F/scalar完整门保留，结果hash5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa。v15已实际建立run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962；06:05:27UTC仍step4计算，日志BlobNotFound，尚无bindings/原数学回执；不扩大资源或以稀疏/半单影子代全非约化行模。
 
 软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 

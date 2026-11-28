@@ -107,3 +107,10 @@ root已全文/差异审所有候选；arithmetic独立逐链核后绑定、str(F
 69源码pin中旧65全部相同，另四项为已通过的scalar-primary/helper以及新launcher/producer；helper采用v2 0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4。producer与request已同步实际SHA，不使用v1不可变副本。first原job133436977753/run43906594646/head135b50ff04a12c51dd1b9de583a20b2bed19cbed/result5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f；packet原job136215000168/run44714703201/headb688d6ac703fec422a7c864bcdc997cc553185fd/resultd3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915。必要原输入由启动器重新认证后经管道读取，不存可重算矩阵或日志。
 
 本提交触发下一唯一heavy；run/job及实际完成状态随回执更新。官方Hermite保完整U，仍可能有昂贵中间次数；没有预报rank306耗时或放宽资源。推前实际双pull run46073965457/job140879400805：公开2026-11-28 05:33:35 UTC至7c081de94ccf75ec0e13991cb9689b3c7704ed14，私库2026-11-28 05:33:40 UTC至60c925de975d33eb67531ab01e26e24a087c62e1；四README与05:26同blob、QUEUE未变。日志14893B/hasha4ce50b2c896170d4099fefcbd54bc8793edd2be4aeb74012cf75931a5768d68，库存3195/45373582B/tree9467461d2acad40127436d4cd42d52c8d8f1bb24，无>5MB，三旧必要输入未变。
+
+
+## 9. v15 的实际公开任务
+
+对应已经发布的source `e959b4331bb9cd3871c9f05b101d47f2dba9e962`，唯一heavy为[run46112816717](https://github.com/Rogerhu12/math-research-public/actions/runs/46112816717)、job `140879915022`，创建于2026-11-28 05:35:43 UTC。06:05:27 UTC实查：checkout和固定Sage10.6 image成功，原完整计算step4仍in_progress、conclusion=null。标准job-log接口仍返回BlobNotFound，因此尚无可核的bindings、MD返回、四交、一般Norm或18×9末端；这不是一个数学失败回执，也不预填PASS。
+
+source、69源清单及全部参数保持§8的已发布字节。没有并行启动第二个heavy，也没有修改正在运行的来源。备选仅在未挂ref候选中准备真实操作流的完整U恢复和全商方法，未用于本次运行。
