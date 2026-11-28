@@ -24,14 +24,10 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 ## 数学与真新输入
 
-[R751–760](results.md)：旧别名、平带/帽/边界障碍和R758/R760四路全失败已闭；初帽修正有效，全g仍欠。
-[R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：同R757初g规定场全t reach.106/D<3.50、grip.72/held>.739、体积差>.156⇒δE>.004；全帽/负胞g未付。
-[R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：46161216634四路84拟合/72中相、两gauge各39行全返；全g约1.1e5，护领g11=193.701；旧固定护领类失败已闭，原预算/整身份俱保。
-[R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43硬rim>.72；新整帽刚移/四缝准确仅付必要条件，44释共rim全二jet。
-[R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：初reach.132/D<4.386、原基场结论保留；46162184631四整球12层/84拟合72中相全返，free末g.845/.868且K505/271，rigid末g>1/弦价正；这四有限拟合失败，非全自由类否定。
-[R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：同R757 g有符号λκt=κ0令全meridian准确；2+2支96.3%卷面积准确但K>17.2排厚。新2+3低峰中央K<8.84/held>.705、内帽同g/四缝二jet，全过渡费与法管未付；全SO3闭一形式为准确等价，45求实际共场。
-
-[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：严格共动右域保留；46165595977四自然0/12层/24报告全返，末连续g为1.35e5–4.57e5、K约1e5–4e5；离散首边准确不付余边/整roll，四有限拟合失败已闭。
+[751–766完整前态](https://github.com/Rogerhu12/math-research-public/blob/5f011fe35b3e328cd9232698aac7effc43ab9f2f/topics/visible-flex-larger-amplitude/HANDOFF.md)及各原proof/ownnote保完整结论/预算/未付责任，不重做。
+[R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：规定场全t reach.106/D<3.50、握.72/held>.739、δE>.004；余g欠。[R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43硬rim>.72；44释全共rim。
+[R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：四路全返g约1.1e5、护领193.701，失败闭。[R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：四球12层全返，free末g.845/.868、K505/271，rigid g>1；有限拟合失败，初reach.132/D<4.386仍准。
+[R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：2+2面积96.3%准确却K>17.2；2+3低峰K<8.84/held>.705，整过渡/全管欠；SO3闭式仅等价。[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：四支24报告全返，末g1.35e5–4.57e5、K约1e5–4e5；四有限拟合失败，共刚右域证明保留。
 
 [R767–768](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：新固定初g全reach.08/D<2.57、握>.528/中央held>.55；整桥单位速/真实两帽二jet。旧.18硬端斜路<.768却末弦>.784，任何内场g误差>.042，已闭；改真实外边界续做，正相全管/余g仍欠。
 
@@ -41,7 +37,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 ## 全部旧责任
 
-全部旧终态/条件/未访见[results](results.md)/[open](open.md)/原proof、notes和固定H链，已登记不重做。RET100H/I/J/K/L/M逐字恢复已闭生成件，保父/活源参/唯一值；M的46整件ROOT重建bytes/SHA/Git全同，46官方run/91jobs终态核完，21父/7编辑群/原数词全保，净释1047012B。新输入各自重付，每子问题完即下一个。
+全部旧终态/条件/未访见[results](results.md)/[open](open.md)/原proof、notes和固定H链，已登记不重做。RET100H–M保原完整恢复链；[N](notes/2026-11-28-RET100N-complete-closed-parameter-recovery.md)111整件ROOT逐字重建三身份全同，27run/27jobs终态、198完整保护源核完，61父/9编辑文保全，净释2367741B。新输入各自重付，每子问题完即下一个。
 
 33末真pull：2026-11-28 16:09:06 UTC `f0e56017df20980d7adaeb41cf67322aa506f316`，双README无变；官方取消及原末观察见ownnote。
 
@@ -49,10 +45,10 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 并行35规则核查：2026-11-28 16:57:44 UTC，真实pull至`e29e4af88e6769456127b4cfa39b60f56516bf99`，双README无变化。 官方取消/原阶段未返，见35 ownnote。
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull e749cc9c533ad238cf2647b0bb31e9153630ea94
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull d541d52dac7a3572e0a3ccc4f7e39701311760a2
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 02f027bfe6ca83b0f22fa3050456f4d9fbe1e69e
 <!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--r766-publish-->R766 [双卷整周保边与整壳实际](notes/r766-cyclic-ring-46165595977-1-index.json) 双README真pull 51164b05684d069eba92b573472eb73d4f4c9141
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull 70a3bc950b2229e08623eae09224de37e2dd6716
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 02f027bfe6ca83b0f22fa3050456f4d9fbe1e69e
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull e749cc9c533ad238cf2647b0bb31e9153630ea94
