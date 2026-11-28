@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 |---|---|
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 官方cancelled08:39:51Z，原因未知。原science/pure0、a28ae/accepted4；同源restart新accepted0，596a四分之一步reachg.522561396446142拒，8f375八分之一步仅统计，restart未自然返。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0；4e4d八分之一reachg.5858010567846739拒，c283十六分之一步仅统计。 |
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 12d82/accepted3/reachg.6999403610404435/Gram.487646571786265，86e14第四步仅统计。 |
+| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 12d82/accepted3/reachg.6999403610404435/Gram.487646571786265；86e14第四全步reachg.6999403587662889拒，c6928半步仅开始。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | science/pure0；a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518；首QP2advance/dependent-zero。既存标量90/90读取0；准备明确跨source R729续跑，旧guards不改。 |
 | [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | bc818/accepted1/distplus.13820228685007474/reachg−.03475313540129943；eb34四分之一步拒，d24e八分之一步Phi590.9936846129775/Gram.4185091859676928，几何未知。 |
 

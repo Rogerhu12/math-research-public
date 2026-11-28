@@ -377,3 +377,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:07:42 UTC — 32自身完整初geometry与首trial统计
 
 32自身完整初geometry返model78717/accepted0、Gram.822374918515021/reachg.7631911760908718；1ec676首trial自身统计返，几何/接受/R729归因未返。全六族/K/位置和源model均保，不借31，不据点差猜算法归因；H现用各whole note保全31/29详细责任。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)。双README云核至`5a3d224fe3aa2632ee625d658184da647b1d6c96`无变（非pull）。
+
+## 2026-11-28 09:08:29 UTC — 27第四恢复方向全步拒绝与半步开始
+
+27第四恢复全步86e14真实g.6999403587662889但accepted=false；c6928 alpha.5仅trial-start，current仍12d82/accepted3，不推半步统计或final。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`e97b242fe9715bf8f38ceab2924b3cb347514542`无变（非pull）。

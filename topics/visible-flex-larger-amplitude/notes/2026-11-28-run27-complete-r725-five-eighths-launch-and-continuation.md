@@ -1495,3 +1495,24 @@ root终端自07:21失效，实际重置后的唯一探测仍失败。此次云�
   }
 ]
 ```
+
+## 2026-11-28 09:08:29 UTC — 27第四恢复方向全步拒绝与半步开始
+
+固定3a38882e887dae0688835ccd9b1b41c7eb6d24c6的完整索引observed09:01:51Z，仍本次source1547e23955e6f776336030966b6e204fadaca9d0/PID3303/modelc62737af66aaf0883e262a5fb378cedd93c691b50ecd28e67f64c17182a4d187。第四恢复方向的全步86e14ec2db49733e849ff10e8bbd06e3afa6e1d6750ab27155e07d7ce836bd34真实几何完成：最大族reach、g.6999403587662889，Phi748.4181663643479/Gram.487646571787732，accepted=false。虽然g较当前数值略降，原真实接受规则未通过，不能改写成已接受。
+
+08:59:05.612192Z开始同方向alpha.5的c6928f7ada21575c80cd26e8fa1bb8de3f8cbaee60c37287f2a96a976117d15d，只有trial-start，尚无自身Phi/Gram/几何/接受。current仍12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd/accepted3，Phi748.4181663644251/Gram.487646571786265/reachg.6999403610404435；全六族/K/位置/所有未知在本索引完整保。complete_report=false、stop_reason=null、observer_failures0；不把后续trial写成final，仍自然返回后才接整pure47112B。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46105138690-1.md",
+    "bytes": 46000,
+    "sha256": "d3317baf34730bcc88d24421db91ee2038d8af813d95964fb14cc71441bdaf21",
+    "git_blob_sha": "ff9bb7217df4c757b5b8e3267cf641c728463874",
+    "fixed_commit": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
