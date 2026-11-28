@@ -439,3 +439,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1062 §10：实际同核字的共同有限平坦族及全 native 返回
 
 [R1062](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G40）–（G51）在原[p]拉回框架中分离实际中心；theta torsor的v=0归一及两次fppf下降给真正共同J(w,Q)，J−1∈wI_Q，保degree<q的全厚Q代表与μ6/Galois协变。β的Rosati Norm只需2Normβ≡34modp，原指定T′−βT∈E[p]使整个scheme kernel角色准确相同。故原A34,T=A2,T′([β]v)R_T(P(v))，R_T严格为(w⊕Q)^6乘整单位，原C34,T/C2,T′全留。Katz同coset整模块及所有p² carry返原c_m，a_Δ模p²只留R0参考cΔ与pR1参考c_(Δ−1)的完整Hall和；不移中心/外权出和、不将旧自动同余计新增forcing。
+
+
+### 原同一 MD 的逐实际来源返回：固定小软件请求
+
+[完整证明/成本/源码映射](2026-11-28-original-streamed-denominator-return.md)：原完整Popov系数流正向全核P=E MD；逐H行证明完整像并丢坐标，只对实际W_i=(Y MN)_i返C_i/X_i、全核X_i MD=W_i。三处原whole产品改为逐全部行等式，原canonical Y、正负ideal及F_y附加HNF均保；无通用U/全C/全YMN。最终X仍全存、受实际系数预算，整次reverse工作量亦守原600m；不声称总峰内存。34源/420秒、9全比较/15拒错/4真实software端点+2F已固定请求，未回执不记PASS，不改唯一v15。

@@ -61,6 +61,11 @@ def _dispatch_fixed_request():
         binding_name = "original_cyclic_denominator_return.py"
         check_sha = "6113c7b4eb46c00b40cad02028a8e97705e219cbef8175ac5d4e6ed1ef35f396"
         binding_sha = "4ebbe8018347d9bf6269d6e0d83960224bb399fa5ae1998b7d91e3c1ba96fbf1"
+    elif kind == "original-streamed-same-denominator-return-software-check":
+        check_name = "check-original-streamed-denominator-return.py"
+        binding_name = "original_streamed_denominator_return.py"
+        check_sha = "ef03e1cddcfb760d1e0175b9f38e481515b729d0119ba3a464c8b18ad995f927"
+        binding_sha = "e315b6a330df38d370657d1db68a4b3a6ebe161509d92d9b239e6da8c89b542f"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or
