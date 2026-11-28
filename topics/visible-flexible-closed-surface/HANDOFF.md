@@ -43,7 +43,7 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 同prepared[零W独立支前三步](notes/2026-11-28-2ecf-polar-full-prefix-independent-zero-first-three.md)全自然0，自身R14²97.0901→29.9983而κ707.41；零6的第三观察κ2080.489/σ.47118，亦漏峰。[旧稀训练终态及32父态对照](notes/2026-11-28-2ecf-polar-g2-final-steps-independent-sweep-and-dense-input.md)已完成：暖20第三κ69268.25/σ.121675，零10第三κ3631.67；同一明确G3候选成本最低暖3，非新接受。两个旧支自然结束后封存；新G10保原205/第三236全点及各span G10，合958径点。首128角补源1294s真实退出1：逆图残差1.56e−13/括宽8.88e−16碰原5e−14门；正式回执665/753新增行，不把667非零行冒完成，精度修复/恢复进行，G11第四独立源仍在跑。新quadrature单列基线/接受；进入训练的原G3径点不再称新模型的径向独立观察。
 
-[全物理span的W两/三jet预算](notes/2026-11-28-2ecf-polar-continuous-correction-bernstein-budgets.md)已实际付暖3/20的全部系数及准确端迹，只W不冒总曲率。R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不排完整XYZ。被释放前缀已改变，R233原背景证书不借给修正场。强目标held/D≥.2、δE/D≥.05及全时reach仍未完成。
+[全物理span的W两/三jet预算](notes/2026-11-28-2ecf-polar-continuous-correction-bernstein-budgets.md)已实际付暖3/20的全部系数及准确端迹，只W不冒总曲率。R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不排完整XYZ。被释放前缀已改变，R233原背景证书不借给修正场。[完整XYZ+87维log-radius设计](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)的小核全导数/正规跨块实测通过；它明确改变g，生产接受尚无，固定g G10支继续。强目标held/D≥.2、δE/D≥.05及全时reach仍未完成。
 
 ## 文献、同步与复现
 
@@ -53,4 +53,4 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:43:24 UTC；已读公开 main `734b9ce031e3870888a69fdad9e3559cae929d6c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:43:35 UTC；已读公开 main `0801623d32585c7f3c6e38fc8ffb4d211e84be07`，根/课题 README 逐差无变化。
