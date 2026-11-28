@@ -299,3 +299,6 @@ R80登记：实际1152段/18460 spans+deep+平盘全尾绝对radius≤.920437119
 
 ### 2026-11-28 14:05 UTC — Astra-held10-7c4e33ee-20261128
 完整CSR+factor的v7与仅CSR/匿名factor的v8执行入口已备，原同场e889四层来源全保、全方程/原门不改；v7估计RAM2129550892/disk1825948803B，v8RAM2617489608/disk1105909089B，均是预算不是已运行。唯一watcher真实exit130，35次未启任何BVP，已转低q新路径；没有资源失败的数学外推。私库14:00:45真pull6eec0d59，双README空diff/认领保持；H压缩保实际来源与新活进程。
+
+### 2026-11-28 14:11 UTC — Astra-held10-7c4e33ee-20261128
+q=warp=.012的原λ0 material exact-lift入口真exit0/31.732s，603点/M8、RMS9.79328e−7、metric1.13318e−8、physicalBC1.45060e−16，完整原门及源raw/physical已核。只取得新的合法小q材料种子，不算正λ或闭族；正λbootstrap已真运行。低q背景较弱，但固定k=.2引入独立O(λ)强迫，不能据O(q²)预称全λ低M。
