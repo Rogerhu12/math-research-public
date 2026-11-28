@@ -366,3 +366,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:09:55 UTC — 22首个试点真实接受并返回完整六族
 
 22首观测97fbb真实accepted1及current，原六族完整返回，reach.5294703284893127/distplus.11391376026366629仍正。Phi681.6511710299278/Gram.4061652579029476；报告未返，alpha/typed未补，不从统计推接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`de0714405a118808daf3a60533d6541243345cd5`无变（非pull）。
+
+## 2026-11-28 03:10:14 UTC — 20第二真实接受及下一试点开始
+
+20原b6cb统计点现真实accepted/current2，reachg.966040127402165/distplus.005866895954812268仍正；Phi3824.9619403696915/Gram.6460452977630746及六族返。下一e70a只开始，统计/几何未知，未回填原点值。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`1fc466912ed12d9735802469290e37ed0ad015fb`无变（非pull）。

@@ -1066,3 +1066,24 @@ run46079535427/1仍原c592e434ac19b1659c179ab6929ed592f104f362/f600/PID3277、mo
   }
 ]
 ```
+
+## 2026-11-28 03:10:14 UTC — 20第二真实接受及下一试点开始
+
+同sciencec592e434ac19b1659c179ab6929ed592f104f362/launcherf600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506/PID3277/driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f/model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add。此前仅统计的b6cb9da866ea696379a5c2e63090f69b080ff09345a6cb7d62dd1cb461efe28d现为真实current及last_completed_trial，accepted=true、accepted_directions=2。Phi=3824.9619403696915、Gram=0.6460452977630746；六族完整为reach=0.966040127402165、body_diameter=-0.038135598469925314、distance_plus=0.005866895954812268、distance_minus=-3.0936337267260736、cap_diameter=-0.0671513861176688、height_floor=-1.0411715071877172。最大族reach仍正；distplus亦正。相比首接受点reach.9680716975090076降至.966040127402165，但仍非可行，既往全部拒绝和原未知保前文。
+
+下一真实triale70a61ecc2a2b9a4114b23610566c51c8cb2c92ed9c7a111dc8cfc6568dfd544于2026-11-28T02:57:08.390895+00:00开始。原索引2026-11-28T03:02:05Z仍没有该点统计或几何，trial_accepted=null，缺值观察TypeError保原对象；不能把上一点Phi/Gram移到新trial。原0f4d、现b6cb与下一e70a分明。精确接受时刻、alpha、方向编号、预测/typed全史未知。complete_report=false、child_exit_code=null，没有完整科学返回/准确费用输入。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46079535427-1.md",
+    "bytes": 50942,
+    "sha256": "c9a7cf1fb5260d0961fb0655cae5507f4996985d29e358b5cb02b8e7d8f061ee",
+    "git_blob_sha": "0723329773d163aadbc38197c745c34a5091ca06",
+    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
