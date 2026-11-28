@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R740（已证明，有限弯盘的完整闭合几何初场）**：[两种闭肩、整像位移与实际曲率缺口](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md) — 两套每相位闭C²嵌入，固定握盘diam≥.60、全像半转held≥.564、整像D<2.60及含反射欧氏商正；任一点触握盘的有序对全像两向.08法球。原滚肩末环K>40明确不达厚度，替换偏心椭圆的正宽终端柱有R_b/1.01两向球。完整积分生成器已刊；中肩Gram真实角依赖及其余全reach仍未付，不冒同g族或沿用36不同场的读数。
+
 - **R739（已证明，真同g族的有限全像位移判据）**：[发展后双轴测量与弱位移的reach极限](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md) — Hu真非线性图的两轴物理半径由一维积分给出，按相同物理半径配对，连局部斜率费用与完整固定壳距离给有限held下界；真实m=2法速给δhold=2|q|‖Wα‖∞+O(q²)。附论仅在位移正的弱类证明全时reach/D上确界1/2；未给满足.2D的finite field或实际mesh，原metric主线继续。
 
 - **R738（已证明，原真核非合作延拓）**：[两特征差、角梯度及逐叶延拓](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md) — 完整同角差满足 ∂s(kaW)−cKUVkaW=K(UV)θ，W初为零、带权角导<64，负耦合只付∫A_-|W|；给逐闭叶向外有理比较及无条件T†=min(w,.001,k₀/[2(1+B₃)])≥min(w,.001,10T*)。[实际46139897443/1](notes/r738-actual-gap-46139897443-1.json) 全415片13280叶返：同g全角双侧浸入至.5384265521561006（215整片），原矩形至.264316681320779且II≤5；全部双侧有序.16球半宽仅1/200。比较不确不证物理失效；外段/穿K=0/接帽/全域reach/强held未付。

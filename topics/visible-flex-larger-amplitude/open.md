@@ -126,10 +126,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)全角同g带/内部.16球；[实际补发46139111288/1](notes/r734-actual-Hermite-46139111288-1.json) success，T*=1.1294006338228755e−5、原415片无未知、合作前缀0；raw与首run全SHA同，发布故障已修。
 [R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)全415片13280叶[实际46139897443/1](notes/r738-actual-gap-46139897443-1.json) success：同g全角双侧C²浸入半宽≥.5384265521561006，固定矩形段≥.264316681320779且II≤5；全有序.16球只证半宽1/200。初T†=.0004922365060485215；末充分比较不确不证物理解失效，未付外段/全闭面。
 
-[R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷每m≥2非零帽平坦线性核，恰一径向线/实parity；未有限积分或双端匹配。
-[R736](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md)同g单帽全三Gram含零模的兼容任意有限非线性阶；振幅平坦误差不证固定非零幅度收敛。
-[R737](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md)新metric双帽闭C²精确等距非全等端点对及reach/grip；缺贯穿同g路径、.2D held和cut数值。
-[R739](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md)真Hu相位族双轴物理发展/全像held判据；弱正位移reach/D上确界1/2不付.2D，真实finite field与全时厚度待付。
+R735单帽非零平坦线性核、R736全有限兼容阶、R737精确闭面等距端点对与R739真Hu发展/held判据均有[完整证明](results.md)及固定open全责任；未付有限幅收敛、贯穿同g路径、.2D held和cut实际复现。弱正位移reach/D上确界1/2不充强目标。
+
+[R740](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md)两完整闭C²初场每相位嵌入：D<2.60、全像held≥.564、grip≥.60、δE>0，触握盘全部有序对.08球。滚肩末环K>40失败，椭圆替换付正宽末柱R_b/1.01球；中肩角Gram及其他reach未付。[完整生成器](scripts/resume_20261126/r740_rolled_disk_seed.py)现刊，独立36。
 
 ### 准确费用与完整下游
 
