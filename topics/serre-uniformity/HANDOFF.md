@@ -62,6 +62,8 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1197](results/R1197-original-highest-packet-complete-CM-coefficient-flag.md)原最高负packet的全部CM轮廓按从高到低准确等价于T_L(1)…T_L^(2g−2)(1)旗标，各对角为显示原单位；完整Dickson过滤付每层整角像一维，故低极部/全纯及高中心返回均处理。轮廓秩2g−1，核恰T=c(b³−1)^(2g−1)一维；未标为CM算术线，指定C/同β全图列及深盘仍开。
 
+[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
+
 ## 已成、禁止重做与其它入口
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)原完整47Q恰八CM，全部4513 whole盘/高度/全维来源和后到q²审计已成，不重跑47/41/旧端值窗口；run/hash沿原文/归档。
