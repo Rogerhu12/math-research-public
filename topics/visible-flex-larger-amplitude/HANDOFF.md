@@ -31,7 +31,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 32b1ff022eb2bb0b19c8d95bcad41e73df11fc71
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 1f705887c42d784b73f3f67e7831d1e0681125f5
 
 
@@ -58,3 +57,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) f60defdb06d07ae32f6fae71ae1e5bb888076bd9
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 3307355fc53a7953c3269d562fa9ef5b66b2feb6
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 8a4d43aeba5e401a96f5b99c754faa436b8fa2f3
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a6d2af96ad47b4bb66484b43ec23a4c51c256f4a
