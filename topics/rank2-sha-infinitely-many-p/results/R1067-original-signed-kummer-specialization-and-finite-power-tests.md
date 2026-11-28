@@ -423,3 +423,61 @@ $\lambda^{p-2}\prod_{j=1}^{p-2}(p+(1+j)b)\,L_1$。
 皆非零。得 $L_1=0$，再由(AT2)–(AT4)即得(AU1)。
 因 $\Delta$ 型，$\omega_y=d\log y$ 在此嵌入首次可能非零
 之阶已升到 $p+2b-1$；这个单格非零正等价于原首整证书。
+
+## 80. 规范分歧常数与原曲线 Coleman 全微分的有限方向迹
+
+置 $x=v_2,\ \sigma=g_+,\ t=\prod_{i=0}^{p-1}\sigma^ix$，仍取
+$[\pi]x=\pi x+x^q,\pi=-p$。用严格参数将 $E_1$ 形式群送
+到此 LT 群，写 $P(x)$ 为相应的椭圆形式点。令
+$$
+ B(x)\,dx=e_\tau\sum_t\varepsilon(t)\,d\log
+                \Theta_{E_1,(c)}(T_{t,2}+P(x))\pmod p
+           =\sum_{j\ge0} B_j x^{jb}\,dx.                          \tag{AV1}
+$$
+右端用所选剩余域乘法嵌入；式中作为驯指标的 $t$ 与素元 $t$
+各按其上下文。$\varepsilon(-p)=1$，故 $T_{t,2}$ 可以在全和
+里换为 $T_t$。这给单一固定代数 Robert 微分在当前 LT
+参数的驯 Galois 全和与 $\Delta$ 准确投影。令
+$R=72 f_1(c^2-c)(1-\omega)/6\in k^\times$，则
+$$
+ \lambda=h-h^p,\quad \rho=R,\qquad
+ 34R\,a_2=(h-h^p)^{p-3}\,[x^{3pb}](\sigma-1)^{p-1}B(x).         \tag{AV2}
+$$
+这里 $\sigma$ 对函数作用为代入 $[1+p]x$。
+
+证明。令 $\ell$ 为规范 LT 对数，则 $\ell'(0)=1$ 且
+$\ell'(x)=\ell'(\pi x+x^q)(1+(q/\pi)x^{q-1})$；$\ell'$ 是整
+不变微分的系数，故 $\ell'(x)=1\bmod p$。任意 $a\in\mathcal O$
+因而满足 $([a]x)'=a\bmod p$。并且
+$\sigma x=x-x^q+O(x^{q+1})$，由 $[p]x=-x^q\bmod p$ 及形式加法
+可见。更一般 $[1+ph]x=x-hx^q+O(x^{q+1})$。
+在本节各需用的阶数内，$x$ 的有限层导数与形式求导可交换：
+$d_{\Phi_2/\Phi}=q b+q(b-1)>e_2=v_{\Phi_2}(p)=qb$，
+所以 $\Omega^1_{\mathcal O_{\Phi_2}/\mathcal O}/p=
+k[x]dx/(x^{e_2})$。下文各取项指数均 $< e_2$。
+
+因 $\sigma^i$ 的导数均为一，有
+$t'/t=\sum_i(\sigma^i x)^{-1}=(\sigma-1)^{p-1}x^{-1}$。
+一次最低增阶将 $x^m$ 送至 $-m x^{m+b}$，所以右端首项为
+$-x^{-1+(p-1)b}$（用 $(p-1)!=-1\bmod p$）。
+$t$ 的首项是 $x^p$，从而 $t'=-x^{d_0}+\cdots$。
+$\Delta$ 强迫 $t$ 只有指数 $p+jb$，而 $1\le j<p$ 时
+$p+jb\not\equiv0\bmod p$。逐项积分到此阶给
+$$
+ t=x^p-x^{p+(p-1)b}+O(x^{p+pb}).
+$$
+$g_-$ 代入右边，$x^p$ 的首差系数为 $-h^p$，第二项的首
+差系数为 $h$，误差的差阶严格更高。因 $t^q$ 的首项为
+$x^{pq}$，故 $\lambda=h-h^p$。另一方向 $v_1=[\pi]x=x^q\bmod p$。
+以 $t$ 展开 $v_1$，由 $\Delta$、准确 different 及
+$t^p$ 的首项为 $x^q$，必为
+$v_1=t^p+\eta t^{p+(p-1)b}+\text{更高项}$。
+取 $x^{q+p(p-1)b}$ 系数即得 $\eta=1$。这个指标仍小于
+$e_2=qb$，因为 $pb>q$，所以得 $\overline{t^{-d_0}P'(t)}=1$，
+从而 $\rho=R$。
+
+原 $y=N_+r_2$ 的微分拉回 $\Phi_2$ 是
+$\sum_iB(\sigma^ix)dx=(\sigma-1)^{p-1}B(x)dx$。
+(AU1)中两个低格均已为零，故此处首个可能的项是
+$L_2 t^{p+2b-1}(dt/dx)=-L_2 x^{3pb}+\cdots$。
+将此系数代入(AU1)得(AV2)。

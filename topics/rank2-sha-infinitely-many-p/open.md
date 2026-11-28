@@ -29,3 +29,7 @@
 ### R1073 §23：原固定曲线对的首圈负一权与四位完整椭圆Gauss和
 
 已证明：真实Fr预标、B₀水平作用与原参考首圈估值给Ab(ρ⁻¹−1)的同一比值；固定物理F7函数保全390/两13/5，完整p²−1个非零点筛出唯一模类。原中央坏必使同一Taylor模类前四p进位和为0 mod p⁴；尚未证无穷p违背。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §80：规范分歧常数与原Coleman全微分的实际方向迹
+
+已证明：同一严格LT参数给λ=h−h^p与ρ=72f₁(c²−c)(1−ω)/6。原邻点唯一L₂拉回正为原Robert全微分真实p方向迹的x^(3p(p²−1))系数；不同层微分、导数与截断界均由真实different支付。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
