@@ -313,3 +313,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §112附记：当地自由模与三权CW的完整余秩界
 
 已证明：真正Φ的[-p]范数系统保原M、Tate twist、全部f层单位次数及平滑。当地H¹自由使h=s−1的真实系数消失成为I^h整除；三个完整CW权给通常全Sha余秩t≤min(v_p(m_p),v_p(m_{p²+p−1}),1+v_p(m_{p²}))。无穷p使这些赋值足够小仍缺。[同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §112.6：全域首项互反与三个CW权的额外一位
+
+已证明：I^h系数的真正全域提升给每个当地首齐次原像CW₁精确为零，完整ghost同余及外部系数Frobenius使三个整读者额外含p。通常全Sha余秩t≤min(v_p(m_p)−1,v_p(m_{p²+p−1})−1,v_p(m_{p²}))；rank2已关闭原m_p模p非零门，坏情形须p³/p³/p²整除。跨p高位不整除未付。[同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

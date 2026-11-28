@@ -329,6 +329,127 @@ $
 即得(CB7)。这项加强读取同一个完整源，既未更换曲线，
 也未借有限素数测试外推无穷素数；余下仍是跨素数的实际不整除。
 
+### 112.6 全域首齐次项的互反律再给一位整除
+
+上述三个界可以再同时提高一位。沿用$t_p,s,h$和固定有理数列$m_n$，有
+$
+ \boxed{\qquad
+ t_p\le
+ \min\{v_p(m_p)-1,\ v_p(m_{p^2+p-1})-1,\ v_p(m_{p^2})\}.
+ \qquad}                                                       \tag{CB9}
+$
+因$t_p$为偶数，$m_p$或$m_{p^2+p-1}$的赋值至多二，
+或$m_{p^2}$的赋值至多一，均充分推出通常全$\Sha[p^\infty]$有限。
+全Sha无限时，前两项必须被$p^3$整除，第三项必须被$p^2$整除。
+
+#### 同一全域提升的首项，不能用任意当地原像替换
+
+由(BU1)的整提升及系数短正合列，存在
+$
+ \widetilde{\boldsymbol Z}\in H^1(K,I^h\mathbb W)
+$
+映到原$\boldsymbol Z$。将它投到$I^h/I^{h+1}$，
+按$U_+^aU_-^{h-a}$取系数，得到真实全域类
+$\eta_a\in H^1(K,W_0)$，$0\le a\le h$。
+
+置$P=H^1_{\rm loc}$，这是112.5已证的自由$\Lambda_2$模。
+任取分解
+$
+ \operatorname{loc}\boldsymbol Z
+     =\sum_{a=0}^h U_+^aU_-^{h-a}u_a,\qquad u_a\in P .
+$
+模$I^{h+1}P$后各单项式独立，系数基变换给
+$
+                 u_a\bmod IP=\operatorname{loc}\eta_a.          \tag{CB10}
+$
+也可直接用$H^0(\Phi,\mathbb W/I^h)=0$，说明首分次在相应
+$H^1$长正合列中注入，从而核定这个身份。没有断言
+$\boldsymbol Z\in I^hH^1(K,\mathbb W)$，也没有要求当地分解唯一。
+
+§105的互反律适用于每个$\eta_a\otimes\Phi$：
+固定非挠有理点及其$\mathcal O_K$倍在唯一$p$位的非零对数
+张满对偶表示的一维Kummer线。非$p$位的有理Kummer像为零；
+全局Tate互反因而使$\operatorname{loc}\eta_a$正交于这条线。
+当地正交补就是$H^1_f(\Phi,W)$。
+
+在原未共轭的范数单位模型上，$\Gamma$的作用是$d^{-1}[d]$。
+第一Coates–Wiles读者
+$
+ \operatorname{CW}_1(F)
+       =[z]\log F(\ell^{-1}(z))=F'(0)/F(0)
+$
+在这个扭转下的特征为$d/d=1$，所以准确通过$P/IP$。
+Schneider–Venjakob原文
+[Corollary 8.8](https://arxiv.org/pdf/1511.04922)，取$r=1$、
+$\pi_L=-p$，给
+$
+ \exp^*\bigl(\operatorname{cores} u_a\bigr)
+       =(1-\pi_L^{-1})\operatorname{CW}_1(u_a)\,d_1^{\rm dR}.
+$
+这里$d_1^{\rm dR}$为其固定非零de Rham基，勿与对数系数$d_1$混用。
+由(CB10)左边为零，而$1-\pi_L^{-1}\ne0$，故
+$
+                         \operatorname{CW}_1(u_a)=0             \tag{CB11}
+$
+是精确零。此处不需要该Euler因子为整单位。
+
+#### 在整个范数单位格上的三条ghost同余
+
+对任意$F(s)\in\mathcal O[[s]]^\times$，令
+$d_j=[s^j]\log F(s)$；常数项的对数不影响正次系数。
+逐阶Euler乘积
+$F(s)/F(0)=\prod_{r\ge1}(1-e_rs^r)$给
+$
+ p d_p\equiv d_1^p,\qquad q d_q\equiv d_1^q
+                       \pmod p.                               \tag{CB12}
+$
+确实$p d_p=-e_1^p-pe_p$，
+$q d_q=-e_1^q-pe_p^p-qe_q$，而$d_1=-e_1$。
+以112.5的同三个整读者及$n=q+p-1$，由
+$q\ell_q\in p\mathcal O$、$n\equiv-1$、
+$p\ell_q\equiv-1\bmod p$得
+$
+ \mathcal W_p(F)\equiv d_1^p,\qquad
+ \mathcal W_q(F)\equiv d_1^q,\qquad
+ \mathcal W_n(F)\equiv-d_1^p\pmod p.                             \tag{CB13}
+$
+最后一式是
+$pn d_n-n(p\ell_q)(pd_p)\equiv-pd_p$；
+第一项为$p$倍，因为$n$为$p$单位。
+
+这些同余对外部$\mathcal O$张量必须保留正确的半线性。
+若$u=\sum_i a_i[F_i]$，则$q$读者约化为
+$\sum_i\bar a_i\bar d_{1,i}^{\,q}
+ =\overline{\operatorname{CW}_1(u)}$，因为剩余域为$\mathbf F_q$。
+$p,n$读者用于外部系数Frobenius后的$\bar u$，
+约化分别为
+$
+ \sum_i\bar a_i^{\,p}\bar d_{1,i}^{\,p}
+       =\overline{\operatorname{CW}_1(u)}^{\,p},
+ \qquad
+       -\overline{\operatorname{CW}_1(u)}^{\,p}.
+$
+因此(CB11)使每个首项原像的三个实际读者都落在$p\mathcal O$。
+用连续性将有限和推广到完整范数单位张量；未把
+外部系数Frobenius误当成点或Coleman参数的变换。
+
+每个$I$因子的三个实际特征值差仍在$p\mathcal O$。
+对上面齐次次数$h$的分解应用读者，遂得到
+$
+ p m_p,\quad q m_q,\quad pn m_n\quad\in p^{h+1}\mathcal O .
+$
+原整个$103^2-103[g_{103}]$、有限Shapiro及固定常数
+仍按112.5给相同的单位因子。除去左边已显示的$p$次幂，
+再用$h=t_p+1$，即得(CB9)。
+
+这个加强也澄清原搜索门：仅凭已知rank$=2$，
+对本节全部惰性$p>211$已经有
+$m_p,m_{p^2+p-1}\in p\mathbf Z_p$及$m_{p^2}\in\mathbf Z_p$。
+因此先前“找$m_p\bmod p$非零”的充分条件实际不会出现；
+后续应检验上述更高位的真实不整除。
+(CB4)–(CB7)作为必要条件仍正确，但(CB9)给当前较强的有效门。
+尚未由此证明存在无穷多个满足该门的素数。
+
 ## 113. 原第五深槽的椭圆核与第二个整Artin–Hasse算子
 
 **已证明。** 沿§§110–111记$\mathcal H=D_E-xJ$、$J=\partial_Z$、
