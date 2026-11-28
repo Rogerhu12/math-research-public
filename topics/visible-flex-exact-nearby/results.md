@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GMI：完整无穷输入的真实独立物理均值已付](results/R149-supplement-infinite-genuine-physical-mean-through-iterated-circle-derivatives.md)：GNF三幅伴随保全部mean，以全原1/1024幅条和真G.16作64次整圆积分；不对真振荡波假设复角小。|j|≥2^20+1/两sign/双真Airy列含shear的整HS级数严格给pointwise<1e−55、全collar普通L1<4e−61、共同C97<1e−56。34whole/26新Fraction根首次全过，第一行nonlocal仍待。
+
 - [PWA96R：完整真实H96与APHI原runtime后的七目标首发](results/R149-supplement-first-PWA-entry-with-the-entire-actual-H96-and-APHI-runtime.md)：34whole全部原validator过；只对固定APHI三whole与真实run/event使用其原manifest runtime，不伪加Haswell，另外两父原门保。原唯一consumed和七PWA数学不动；接原96dyadic中心、同rho、4负窗/2world/两mean，首次actual结果及CFC待。
 
 - [AH96：原2847闭格之后全96高度七目标实际完成](results/R149-supplement-actual-all96-height-rows-after-the-complete-2847-cells.md)：实际46135898111/1七目标全成、原2847/96列/三类whole载体保；根完整34whole原H96/P96/APHI validator及失败父前后检查全过。actual31652Ba49119d5…、execution43566B73d78ed9…；帽height joint .1387156385/reduced phase .2154269254全保，不能授小真解。PWA共rho→CFC实际新目标待。

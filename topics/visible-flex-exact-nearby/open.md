@@ -168,3 +168,6 @@ AH96：实际46135898111/1七目标全成、原2847/96列/三类whole载体保�
 
 
 PWA96R：34whole全部原validator过；只对固定APHI三whole与真实run/event使用其原manifest runtime，不伪加Haswell，另外两父原门保。原唯一consumed和七PWA数学不动；接原96dyadic中心、同rho、4负窗/2world/两mean，首次actual结果及CFC待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GMI：GNF三幅伴随保全部mean，以全原1/1024幅条和真G.16作64次整圆积分；不对真振荡波假设复角小。|j|≥2^20+1/两sign/双真Airy列含shear的整HS级数严格给pointwise<1e−55、全collar普通L1<4e−61、共同C97<1e−56。34whole/26新Fraction根首次全过，第一行nonlocal仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
