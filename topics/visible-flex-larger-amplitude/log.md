@@ -313,3 +313,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:26:07 UTC — 25同源restart半步拒绝，四分之一步仅统计
 
 25 restart半步cf441自身reachg.5225607841725328、accepted=false；新计数仍0，596a5四分之一步仅自身统计。完整原外层接受责任未改，不从微小g改善猜拒绝原因。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`d3891c92eb0c4f0c5c8bb547051b4256565d6cd4`无变（非pull）。
+
+## 2026-11-28 08:26:12 UTC — 26八分之一步拒绝，十六分之一步仅统计
+
+26的4e4d八分之一步自身reachg.5858010567846739拒，current仍初7e06/accepted0；c283十六分之一步仅返自身统计。全部原行和15试探保，未借用current几何。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`519bcb0b567e9e7bdc4aa090cade95e3ca2999c7`无变（非pull）。

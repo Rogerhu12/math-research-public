@@ -1480,3 +1480,24 @@ adf3c9半步完整几何返回正g5.332641076605335，最大reach，实际拒绝
   }
 ]
 ```
+
+## 2026-11-28 08:26:12 UTC — 26八分之一步拒绝，十六分之一步仅统计
+
+真实46103106086/1仍原source12b76b81c33069a5b657c8d1c75af0b34a97b71d/PID3811，drivere1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd/model4a7e828baef2c9ddb07909fbfb7635e222d5fdb65f2621e00fb57254a8cee423。至08:18:54Z，alpha.125的4e4d06f713063b927677d8da0ae539875131f51161a36ebab5dd66259edcc9ff自身geometry返，最大reachg.5858010567846739、accepted=false；其自身Phi592.7645608955047/Gram.4166270367722804。初始7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47仍current、accepted0，Phi589.1634908944277/Gram.4163254155597059、最大distance_plus.13346402986277572；完整六族/K/位置保本次whole。
+
+下一alpha.0625 trialc283e51d5b21f8f3e87671f9d92e1d2c34f24a667ebdfe6aff0945c991b9726c在08:11:54.238061只返自身Phi590.9577876003335/Gram.41647635913647313；geometry/是否接受未知。原全15 line试探未缩，未把旧current的reachg.006249035762618371借给新trial；science未自然返。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1.md",
+    "bytes": 41703,
+    "sha256": "028ca9a8df8414ca9426c9ce8715f8fd65234dde21befe320337b87d1ff0723a",
+    "git_blob_sha": "f7ffac8865b99ae94f71b93b4e528bb1ad667df6",
+    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
