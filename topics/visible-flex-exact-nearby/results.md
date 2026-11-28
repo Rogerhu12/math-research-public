@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GSW：真实首源到原物理腰和公共输入](results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md)：同实际GSF、原混合传播C_R<2039、支持长1/5000和原左读<.719给终端到腰<.0281。真反向密度H−4/3<1.1，原有序Ni<12.4，故此真实加项common C97<.349；保Ni S相邻则全ordinary高行贡献<.029。其它源、跳和正反馈仍保。
+
 - [AGSF：原完整支持上首个 genuine 秩一源的实际强窗](results/R149-supplement-actual-genuine-rank-one-strong-source.md)：实际46138804158/1 success，全部67支持格及原根条，原J后L²(dr;H−2/3)为.0013509941530745692；晚带1.2993803297064288e−5。原176whole/10624293B与完整科学2254B逐字核验，旧科学和旧phase恢复0。
 
 - [TCF-R：原真实硬终止、3612完整并集和4112缺格首次入口](notes/2026-11-28-TCF-actual-terminal-and-first-missing-fleet.md)：原46117170011唯一job实际11:16:03 failure、父−9且新规则门，三个子退出码未知如实保留；根完整ZIP/四终态和原validator核过。保3612已接受并集，18互斥assignment只补4112缺格，旧科学0；原全96/五窗/四whole数组、每次规则检查与唯一领取保留。
