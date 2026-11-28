@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:13:30 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:16:37 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至60a37fea0f57df6c4dedb5addfd1b975a33ab2cd；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至873f3de50bdd0de637ea6b848cabde76247bfdfa；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9新增128件无引用旧JSON仅去字符串外ASCII空白；whole receipt notes/2026-11-28-legacy-native-metadata-whitespace-ninth.json，69521B/97dacd0d…；gross838380B/net768859B，原件7588478671c1f733a31225fce654008d3c5b5a75完整保留、科学0。每次pull重核新引用。META1–8全部账保此前H和原receipt；第8批842c46826净753508B不重做。
 
@@ -21,7 +21,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 - TC46117170011/1仅续原45928452441全2677/7724 accepted union后的5047缺格；连续1605/游标1605,3788,6000，原四数组/96列/真根/腰不动；当前partial不冒完成。
 - BNC46117248905全7成：192全observations、96exact signed centres/joint<.001383111、双mean保。actual70893B/2df0e900…、execution36848B/081c3c4b…，全238输入通过。必要carrier1、旧science0，旧零目标失败保；target投影不是Θ，见ABNC。
 - BGR46117818798全3成：9216signed Gram、新whole rowerror.096899708197959…；actual8635B/901e3855…、execution30664B/2a8018cd…，原validator过。BNC后继保全96中心/四旧整费/means正向重合，不相减。
-- BFP46118996598全19成：全512/2560/8192/Θ96列，actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；δX≈3.61795987564e−5、原Θjoint≈.03165373429，303输入/原validator全过。全a/mean/PDE/flow/w/alias/globalΘ保；后置新consumer不重旧目标。
+- BFP46118996598全19成：全512/2560/8192/Θ96列，actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；δX≈3.61795987564e−5、原Θjoint≈.03165373429，303输入/原validator全过。全a/mean/PDE/flow/w/alias/globalΘ保；后置新consumer不重旧目标；完整应用R147 ABFP。
 - TF46120139018/1：真low193/1424格/4273全97/96枢轴与四whole maps运行；原η/repair/mean/真根/dr全保，manifest68583B/9bee97cd…（86/21）。仅当前未成cell可4→64细分，非fullDF/CFB。
 - WMT46122573619全14成：145输入/原UACT21 validator过，actual12593B/587ec4c2…、execution8924B/1b022e58…；完整global Θerror<6.957962，原850/finite.31698各scope保。完整96/8192/2048/4Grams/model1..2^20+无限tail均齐，旧science0；见WMA。
 - H96首次46122740303在science前RESERVE120000≠210000失败，0目标；wholelog218380B/3e8c0d84…和原manifest cba22d030/0bf3e4ab保。仅容量合同修复0ed00cf19，manifest61916B/60f1e7ca…（114/51），原7目标/数学不动；46123190757/1运行。全8192/原TC-RHI/C0无界频/waist G96/mean/actualworld保，9新有理比较不重；非truePDE修正。

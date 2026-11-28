@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ABFP：实际完整B前向参数响应与Θν列](results/R147-supplement-actual-full-target-nu-forward-and-Theta-column.md)：BFP46118996598全19成，303全输入/原validator通过；全512-mode trial的真正L2误差3.61795987564e−5、原完整Θ列joint.03165373429，96exact signed中心/全部误差与双mean保。actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；旧科学0，WMT与DCP后继各另付完整新目标。
+
 - [PWA：同物理角GW给出完整竖直小锚](results/R147-supplement-physical-angle-cap-GW-and-small-vertical-world-anchors.md)：同实际帽/λ/raw模型保完整e/E/P/jumps及末端角桥，b端a0<3.649e−6、p0<8.56e−6、a1<.000466、b1<.001417；同NP高度(-.025370374,-.025229626)，H96锚费.00005185H+.000011056G。42新Fraction一次全过；原积分不重，数值kernel/means/world及未知core义务保。
 
 - [LCW：完整已存几何累计值给出的实际帽锚](results/R147-supplement-local-cap-anchors-from-complete-saved-geometry.md)：原7722行native整件恢复核SHA，仅消费同一正积分子段；a0<.001314673、p0<.002603805、a1<.008949、b1<.028185，原NP高度(-.025429,-.025171)。保raw E/P、整体λ、一般world ports与H96整公式；23新有理比较一次全过，旧积分/范数0重算。

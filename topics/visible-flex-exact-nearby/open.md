@@ -151,7 +151,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 - [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)已证明TF到原58→224→32→PN56/CXN6的完整入口；full ΔAL/ΔC/GH/物理Robin与独立mean全付，必须新κB<1。TF完整成功前不生成未来manifest。signed RHS须whole-cell，right97仅一次Θ解权；norm maps和nodes不是signed解。原SC/JF接同schema，无重复入口。
 - TC46117170011/1仅续原2677/7724 whole accepted union后的5047缺格；96列、matrix、waist、四whole arrays不重。SC首次同一次原pure现保全root96 (d,z,e)供CFC，尚无SC actual。
 - UACT45933303391全21有限Θ96坐标逆<12.588/ρ≈.799597509，finite-only .31698非global。WMT46122573619全14实际新global<6.957962，原850候选保；全physical/high/两mean/ν/phase/height Schur未付。
-- BNC46117248905全7/192observations、96exact signed centres+joint<.001383111及双mean全保（ABNC）；它是target坐标，不是完整Θ列。BGR46117818798与BFP46118996598 Actions已success，尚待整actual/全部validator核验；后继只复制全96centres/means与各整费重新正向组合，不从旧upper相减。
+- BNC46117248905全7/192observations、96exact signed centres+joint<.001383111及双mean全保（ABNC）；它是target坐标，不是完整Θ列。BGR46117818798与BFP46118996598全actual/原validator通过，应用见ABGR/ABFP；后继只复制全96centres/means与各整费重新正向组合，不从旧upper相减。
 - AP96全6 finite trial phase joint<.000227442，非true PDE修正。H96首46122740303在science前reserve不符失败，0目标；容量修复后46123190757/1运行7新目标，全部TC/RHI/waist Jacobian/mean/world/C0误差保。完整actual后可用whole canonical/G/H及更强已证anchor重合，不重积分。
 - AWH全referenceν height[-.0253702,-.0252298]及anchor差.031082487a0+.006877446p0；CW给实际锚/固定exterior particular，CG cap moving C0<9.9309e−5。HP仅同NP height-first/physical98 joint<.001663，不授Θ/fullSchur。HN2真strict二阶source/弱二阶解/短height Hessian已付，不授全regular response和tame迭代。
 

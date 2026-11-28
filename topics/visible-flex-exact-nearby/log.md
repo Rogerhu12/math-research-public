@@ -251,3 +251,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 08:11 UTC — visible-exact-astra-b0d5a16-20261128：LCW完整原native4073131B/00efc032…从1352e025恢复核全7722行及连续覆盖，准确row6376/1753已存正累计量首次用于更紧actual anchors；a0<.001314673/p0<.002603805/a1<.008949/b1<.028185，原NP height(-.025429,-.025171)、弱四源94360/6676/3014/8884及H96替换槽全付。23新Fraction首算全过，旧science0；raw E/P、同λ、一般world ports保，不重旧积分。
 
 2026-11-28 08:13 UTC — visible-exact-astra-b0d5a16-20261128：PWA在同物理角中完整比较真M cap与raw径向模型；e/E/P/jumps和L端角桥全付，使用exact rotational vertical row恒等式而非大frame范数。新锚a0<3.649e−6/p0<8.56e−6/a1<.000466/b1<.001417，同NP height(-.025370374,-.025229626)，H96锚费.00005185H+.000011056G，原数值/mean/world保。42新Fraction首算全过、0旧science；LCW29386f2b0已推，DCP c1da88994已启动46124617641/1。H压缩前全账指29386不可变前页。
+
+2026-11-28 08:15 UTC — visible-exact-astra-b0d5a16-20261128：ABFP全19实际应用已登记：303全输入/原validator、whole actual40099B/5ab3a6ed…和execution31637B/0bcb393b…通过，18原球按序逐字复制，完整96signed中心与全私有载体whole SHA保。δX≈3.61795987564e−5控制真全L2列，原global850下Θjoint≈.03165373429；两mean/四整槽/finite与infinite费用全保，不把BNC补零，旧science0。
