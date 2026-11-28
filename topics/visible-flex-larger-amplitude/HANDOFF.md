@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`8647bf79e55505dc3610580f2564b79a1738625d`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`a0a6398fc3c2b422b41f09d89333ba146fded941`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
 科学仅公开Actions；新raw只runner/scratch。保全源参/run/whole输出身份/typed/未知失败；不新增AST/fixture/重跑/审查门，不减目标或预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。根15允许退可完整再生旧数据，保结论/源参/run/SHA/精确恢复；前批包装范围不是全局旧raw禁令。
@@ -34,7 +34,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret64](computations/remaining-early-terminal-public-actions-retention-64-complete-delivery.json)14早期终态输出净200102B，31原返回/25完整argv/15queue/25source/11历史输入版本与43a5固定恢复齐；03发布失败不冒科学退出码，11真input1与发布失败分开。[ret63](computations/early-terminal-public-actions-retention-63-complete-delivery.json)43旧终态净1628109B；ret62/61/60/59及此前全账保总表/旧H。活输入/未知/parent91/ports/Nelder不猜删。
+[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)36旧生成描述净2022421B；7完整canonical/3全差分/纯字节恢复器保全部源参/33case失败未知，固定529e8ba2原字恢复。旧reader须先恢复所需原路径，q098→q106两级别名保。ret64/63及此前全账保各总表/[旧H](https://github.com/Rogerhu12/math-research-public/blob/4ffa58793190c5b10ebc01f3acfbedeec391e679/topics/visible-flex-larger-amplitude/HANDOFF.md)；活输入/唯一状态/parent91/ports/Nelder不猜删。
 root真实数值/启动；construction完整可逆旧描述清理；geometry27全参；solverR726实际Slerp源，均不改活25/26。
 
 <!-- visible-larger-parallel-19:start -->

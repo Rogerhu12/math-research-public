@@ -442,3 +442,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:49:16 UTC — 19既刊原N完整接续
 
 自然science完整后，pure之后排既刊N整38argv/36formal，900s/1024全角/32stage/全径向/原六jet预算不动。队列58432B/987e75dcbc0250a3836f917868e51c3e8f47abbacfae31c83582f74290115881，不删pure或缩字段。首次实际N source_worktree尚未返；同outdir续费必须继其实际绝对--repo，N整体/branch/各准确后继继续独立。双README云核至`8647bf79e55505dc3610580f2564b79a1738625d`无变（非pull）。
+
+## 2026-11-28 03:49:54 UTC — ret65完整旧生成描述逐字保全
+
+36旧描述毛2292948B，7完整新件270527B，净2022421B；7原canonical393081B留树。3全差分卷141332B+纯恢复器5883B，完整provenance85846B、说明14552B、总表22914B齐。原全部43小ASCII正文全读，36逐字重建同原；30原source/140完整参数资源结论/33case失败未知保，529e8ba2da541a95c62056a78e422504263c6f89原字可恢复。旧first-request真实r3输入、optional archive缺件跳过与q098-independent→q106两级恢复责任明确；不能拿r4/canonical替原字段。未读大raw、未科学重跑/AST/新增门，活输入/唯一状态不删。双README云核至`a0a6398fc3c2b422b41f09d89333ba146fded941`无变（非pull）。

@@ -133,5 +133,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 容量与持续求解
 
-[ret64](computations/remaining-early-terminal-public-actions-retention-64-complete-delivery.json)14旧终态输出净200102B，31原返回/25完整argv/15queue/25source/11历史输入版本及43a5固定恢复齐；03发布失败不冒科学退出码，11真input1与发布失败分开。ret63净1628109B及更早完整账保各总表/[旧open](https://github.com/Rogerhu12/math-research-public/blob/4f80adb37306bd625c5e0ab7e4d1ce02dc4a8c65/topics/visible-flex-larger-amplitude/open.md)。whole旧reader逐字恢复；活输入/未知/parent91/ports/Nelder不猜删。
+[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)36旧生成描述净2022421B；7完整canonical/3完整差分/纯字节恢复器全保源参/原命令/33case失败未知，529e8ba2精确恢复。实际旧reader先恢复原路径，q098→q106两级别名保。ret64/63及更早账保各总表/[旧open](https://github.com/Rogerhu12/math-research-public/blob/4ffa58793190c5b10ebc01f3acfbedeec391e679/topics/visible-flex-larger-amplitude/open.md)；不退活输入/唯一状态/未闭合来源。
 README全部标准未完成；时长、阶段、失败和输入困难都不是终点。新raw仅runner/scratch，保全源/配方/run/wholeSHA及真结论，继续求解固定目标。
