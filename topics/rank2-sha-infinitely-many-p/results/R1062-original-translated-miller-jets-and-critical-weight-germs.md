@@ -1768,3 +1768,264 @@ Hall 非消失。它支付的新增内容是原中心的实际共同整函数、
 加法核。要把它用于 canonical 坏或严格
 $v_p\mathrm{Hall}<2/(p-1)$，仍须消费同一个完整读者，
 不能把一次 finite Fourier 改写算作新的中央零。
+
+## 12. 全部 translated 连接的相对单位与无阶乘损失的真实 shift 算子
+
+本节把(G37)与已经单独支付的(G46)结合。
+它不是从 physical 形式比值直接猜核角色。
+先有原实际整下降，再逐项运输原 $[p]$ 框架和全部连接，
+才得到以下完整 translated 恒等式。
+
+### 12.1 原 sigma 框架的逐字返回
+
+记 $\mathscr F_{N,T}(u)$ 为原物理 Lie 变量 $u$ 中的实际
+Miller-translated 来源。它保原 $T$ 的中心，
+且
+$$
+ \mathscr F_{N,T}(0)=b_{N,T}R_N(Q),\qquad Q=pT.
+$$
+这与 R1062(G1)--(G8)及 R1065(W20)--(W22)是同一个 germ。
+置
+$$
+ a_N(w)=\left(\frac{h(w)}{\sigma(z(w))}\right)^N .
+$$
+这些式子首先在原特征零形式环中读。
+W22 的完整连接准确给
+$$
+ \begin{aligned}
+ A_{34,T}(v)
+   &=a_{34}(P(v))\,\mathscr F_{34,T}(p\,z(v)),\\
+ A_{2,T'}([\beta]v)
+   &=a_2([\beta]P(v))\,
+               \mathscr F_{2,T'}(\beta p\,z(v)).
+ \end{aligned}
+ \tag{G64}
+$$
+$[\beta]$ 与 $P$ 交换，$z([\beta]v)=\beta z(v)$；
+没有另一份 $p$、$\delta$ 或参考微分缩放。
+$T'$ 仍为(G59)中的原实际 lift。
+
+在原严格坐标中定义
+$$
+ K_\beta(w)=
+ \frac{[\sigma(z(w))/h(w)]^{34}}
+      {[\sigma(\beta z(w))/h([\beta]w)]^2},\qquad
+ \mathscr T(w)=T_{\rm g}(w_{\rm good}(w)).
+$$
+这里 $w_{\rm good}=x^{-1/2}$ 是原好参数，
+而外部变量 $w$ 始终是严格 LT 坐标。
+由(G33)--(G37)，准确有
+$$
+ \boxed{
+ K_\beta(w)=
+  \frac{\mathscr T(w)^{34}}
+       {\mathscr T([\beta]w)^2}\,
+   V_\beta(w)^{-2}\,
+      \exp\!\left(\frac ep\,\mathcal L(w)\right).
+ }
+ \tag{G65}
+$$
+它及逆在每个严格 $R<R_E$ 闭盘上为 norm $1$ 的解析单位，
+$K_\beta(0)=1$。
+全部原 $E_c$、高 Gaussian 与 $\Gamma$ 在这里保留。
+
+把(G46)代入(G64)，再以特征零形式可逆的
+$u=pz(v)$ 改回物理变量，得到
+$$
+ \boxed{
+ \mathscr F_{34,T}(u)
+  =\mathscr F_{2,T'}(\beta u)\,
+       R_T(v(u))K_\beta(v(u)).
+ }
+ \tag{G66}
+$$
+$R_T(0)$ 恰是左、右两个 actual germs 的常数比。
+这是一条完整来源恒等式，不是只比较 $Z_Q$ 的主项。
+
+### 12.2 同一个 Q 的完整相对单位及准确线性项
+
+置 $h_{0,Q}=R_T(0)$，$v_p(h_{0,Q})=6/\Delta$。
+(G60)显示，将(G66)的相对因子除以这个常数后，
+所有 lift 中心都准确相消，留下只依赖 $Q$ 的共同函数
+$$
+ \boxed{
+ \mathcal U_Q(u)
+   =K_\beta(v(u))J(v(u),Q)\,
+      \frac{f_{34}(v(u)\oplus Q)}{f_{34}(Q)}
+      \frac{f_2([\beta]Q)}
+           {f_2([\beta](v(u)\oplus Q))},
+ \qquad \mathcal U_Q(0)=1.
+ }
+ \tag{G67}
+$$
+原中心并未删除：它完整在 $h_{0,Q}$ 中，并在 Hall 求和时
+继续使用(G59)--(G61)。
+(G67)没有每个点可另选的自由单位。
+
+由(G47)，$R_T(w)/R_T(0)$ 是
+$((w\oplus Q)/Q)^6$ 乘一个首值为1的整单位。
+$|v_Q|=R_E$；所以在每个严格 $|w|\le R<R_E$ 上，
+该式及逆都为 norm $1$。
+再用原 $u\leftrightarrow v$ 等距代换和(G65)，得到
+$$
+ \boxed{
+ \mathcal U_Q,\ \mathcal U_Q^{-1}
+   \in\mathbf C_p\langle u/R\rangle^\times,\quad
+ \|\mathcal U_Q^{\pm1}\|_R=1\quad(R<R_E).
+ }
+ \tag{G68}
+$$
+这次结论针对原完整 translated 比值，
+不是对单独的 $\sigma(u+q)$ 或 Bell 余项赋予新半径。
+若
+$\mathcal U_Q(u)=\sum_{k\ge0}h_{Q,k}u^k$，
+则对所有 $k$ 有
+$$
+ v_p(h_{Q,k})\ge-\frac{k}{\Delta},
+$$
+其逆的普通 Taylor 系数也有同一界。
+此处系数在实际除点域中，不能把分数值群免费改成整数取整。
+
+线性项也可完全锁定。
+由(G44)--(G45)，
+$\partial_w\log J(0,Q)$ 的估值至少为 $5/\Delta$；
+原 $\mu_6$ 型使 $D\log K_\beta(0)=0$。
+所以(G67)精确给
+$$
+ \begin{aligned}
+ D_u\log\mathcal U_Q(0)
+  &=\partial_w\log J(0,Q)
+       +D\log f_{34}(Q)
+       -\beta D\log f_2([\beta]Q)\\
+  &=\frac6{v_Q}
+       +O\!\left(\mathfrak m^{\,5/\Delta}\right).
+ \end{aligned}
+ \tag{G69}
+$$
+这里 $Dv(Q)=1+O(p^2)$，$f_{34}=v^6(1+O(v^6))$，
+$f_2=1+O(v^6)$，均是原严格坐标的实际式子。
+等价地，左侧就是
+$34Z_Q-2\beta Z_{[\beta]Q}
+  +D\log R_S(Q)-\beta D\log x([\beta]Q)$。
+因此最浅的 $1/v_Q$ 项没有被丢掉：
+它进入了一个真实的相对单位，而不是单独用指数估计它。
+
+### 12.3 全部整数权块上的相对算子
+
+取与 R1067 §18 相同的共同代数数
+$\Pi^\Delta=p^p$，记 $b=p/\Pi$。
+对 $r=0,\ldots,\Delta-1$ 置
+$$
+ m_r(t)=r+\Delta t.
+$$
+本节必须保**全部 $\Delta$ 个块**：
+(G67)的普通系数一般不只在 $d$ 的倍数出现，
+所以 $m\mapsto m-k$ 会离开原 $m\in d\mathbf Z$ 的
+$p-1$ 个块。这里只扩展同一实际 translated germ 的
+jet 记账，不增添一份可自由赋零的 automorphic 来源。
+
+参考块在非负整数权的准确值为
+$b^m D^m\mathscr F_{2,T'}(\beta u)|_{u=0}$。
+其原解析表达为
+$$
+ \mathcal G_{2,Q,r}(t)
+   =B_{2,T'}\,a_Q^r\,u_Q^t\,
+          \mathcal F_{2,[\beta]Q}(r+\Delta t),
+ \quad
+ a_Q=b(2\beta Z_{[\beta]Q}),\quad u_Q=a_Q^\Delta.
+$$
+$B_{2,T'}=\mathscr F_{2,T'}(0)$ 是实际单位，
+$a_Q$ 是单位且 $u_Q\in1+\mathfrak m^{\eta}$。
+这些结论沿原 R1062/R1066 的全阶 lemma；
+$\beta^\Delta=17^{p-1}$ 也原样保留。
+因此每块在闭单位 $t$ 盘是真正的整 Tate 函数。
+目标块 $\mathcal G_{34,Q,r}$ 按相同 $b^m$ 定义，
+不另换主指数或 period。
+
+置
+$$
+ \eta=1-\frac1{p-1},\qquad
+ \gamma_{Q,k}=b^k h_{Q,k}.
+$$
+由(G68)，准确有
+$$
+ \boxed{
+ v_p(\gamma_{Q,k})\ge k\eta,\qquad
+ \gamma_{Q,0}=1.
+ }
+ \tag{G70}
+$$
+这里没有 $1/k!$：$h_{Q,k}$ 已经是**普通 Taylor 系数**。
+原物理 Leibniz 公式给的是 $(m)_k h_{Q,k}$，
+不是再次将其改成 $\binom mk h_{Q,k}$。
+
+唯一写
+$r-k=r_k-\Delta\ell_k$，
+$0\le r_k<\Delta$，$\ell_k\ge0$。
+在完整块向量上定义
+$$
+ \boxed{
+ (\mathcal T_Q\mathbf V)_r(t)=
+   \sum_{k\ge0}\gamma_{Q,k}\,
+       (r+\Delta t)_k\,V_{r_k}(t-\ell_k).
+ }
+ \tag{G71}
+$$
+在闭单位盘上，第 $k$ 项的 Gauss 估值至少增 $k\eta$，
+所以一致收敛。
+原 $m\ge0$ 的 Leibniz 公式是有限和；
+随后逐块整数点稠密性给准确全 germ 返回
+$$
+ \boxed{
+ \mathbf{\mathcal G}_{34,Q}
+       =h_{0,Q}\,\mathcal T_Q\mathbf{\mathcal G}_{2,Q}.
+ }
+ \tag{G72}
+$$
+$\mathcal U_Q^{-1}$ 的同一系数界给反向算子。
+利用 $(m)_k(m-k)_l=(m)_{k+l}$ 和全部 carry，
+两重和绝对收敛并回到物理乘积
+$\mathcal U_Q\mathcal U_Q^{-1}=1$；
+故这两个算子真互逆。
+
+若换 $\Pi'=\xi\Pi$、$\xi^\Delta=1$，
+第 $r$ 块乘 $\xi^{-r}$，$\gamma_{Q,k}$ 乘 $\xi^{-k}$。
+因 $k+r_k=r+\Delta\ell_k$，
+(G71)按这个对角变基准确共轭。
+原第0块读者不获得一个新的可选相位。
+
+### 12.4 相对核半径与 whole reader 的准确边界
+
+这个新界确实越过单字 Bell 项的额外阶乘损失。
+在任意闭 $t$ 盘 $|t|\le p^a$、$0\le a<\eta$ 上，
+$r+\Delta t-j$ 的 Gauss 范数至多 $p^a$；
+每项界改成 $k(\eta-a)>0$。
+因此(G71)及其逆都是该盘 Tate 块空间上的有界算子，
+且相对恒等项严格小。
+
+但这个陈述要求**输入向量已经在该盘解析**。
+本节尚未证明所有 shifted reference germs
+$\mathcal G_{2,Q,r}$ 在这个较大盘延拓。
+它证明的是原实际相对核可在这样的盘作用，
+不能把核半径直接改写成
+$G_{34,r}/G_{2,17r}$ 的已付权半径。
+特别单字的原限制(G20)--(G27)不被否定。
+
+原 Hall 读者必须继续使用
+$$
+ \frac1{\sqrt d}\sum_Q
+     \lambda_Q(t)\,h_{0,Q}\,
+        (\mathcal T_Q\mathbf{\mathcal G}_{2,Q})_0(b_Mt)
+$$
+及其指定的全部其它块/有限字运输。
+各 $\mathcal T_Q$ 和 $h_{0,Q}$ 在求和前保留；
+参考的另一份原权 $\lambda'_{[\beta]Q}$ 也不被改成
+$\lambda_Q$。求导时 $\lambda'_Q(t)$、算子本身的导数、
+shifted reference 导数全部在内。
+如果将本式嵌回 R1065(W17)的 whole $p^2$ 来源，
+零字/old 字仍用原式，不给 $Q=0$ 免费套本节非零 $Q$ 的归一。
+
+本节新增的是同一 actual source 的完整 translated 比值、
+实际中心和线性 $\Gamma$ 返回，以及无多余 $k!$ 的可逆相对
+shift 核。它不把单槽零升为整个向量零，
+也不由单位核推原加权 Hall 和非零。

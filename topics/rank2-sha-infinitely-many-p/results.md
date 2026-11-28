@@ -561,3 +561,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1062 §11：实际对称中心的一级下降及 Fermat-17 交换相位
 
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G52）–（G63）在全有限平坦群上显式构造唯一对称 order-p² lift，保张量幂和原正 Schrödinger 方向。实际中心比下降为共同整单位 Cβ(Q)，原 μd-Hall 作用使其为 O_L[W]/(W^p−pW) 中的径向函数；仅此部分可在同一 norm-fibre 提出。J 的真实 commutator 为 E_p^((34−2Normβ)/p)，余类准确等于34q_p(17)，原指定 T′−βT 另给不可删的 ε_Q。完整厚 G[p]×G[p] 加法核返原 Hall 全和；高 jet 不免费满足 P(P(v))=0，不由 Fermat 余类或六重零断言非消失。
+
+
+### R1062 §12：完整 translated 比值及全部整数权块的相对算子
+
+[R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G64）–（G72）将原W20–W22的全部连接、physical p尺度、真实中心和G46整下降逐式合并，给 F34,T(u)=F2,T′(βu)·R_T(v(u))Kβ(v(u))。相对常数完整保留，归一比值及逆在每个strict R_E盘norm1；线性项准确为6/v_Q加深项，未删Γ。普通Taylor系数给归一γ_k≥k(1−1/(p−1))，全部Δ个整数权块和carry以(m)_k卷积，无额外k!；逆核真实返回，换Π按对角共轭。该核可作用于a<1−1/(p−1)的已解析输入，未证明shifted参考向量在此大盘延拓，也未赋whole Hall比值新半径或非零。

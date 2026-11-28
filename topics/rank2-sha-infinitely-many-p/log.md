@@ -71,3 +71,9 @@ run46121926002/job140908102059/source4560405bdc2c3e546551f6866d79c5eb1a9919c5，
 root核R1062§11全scheme对称section的显式c=B/A^((q+1)/2)、q阶和reflection条件，张量幂与原中心乘法律；完整kernel不变性给Cβ的实际一级下降。H14–H16沿原Galois-coherent lifts及平坦性给μd径向不变环，未扩大到principal norm-one群。全部Weil方向、原T′−βT相位、κβ≡34q_p(17)和G62/G63的完整厚输入限制逐式保留。只修G55a显示定界，不改变数学。附节10365B/hashbd1b91f6f140ee7f642ce40edac8ed71078d306df175d251973bd2e188ab9151；全文62638B/hashf5e6d4884cb6dc9999fc95b2182aee21ca0942f0a54e6aa1ad4bda28e0cce38a。不计Fermat余类为已付无穷非零，继续完整bare Katz/Frobenius与translated算子。
 
 推前actual run46073965457/job140910805666：公开2026-11-28 07:47:39 UTC至844a27187b483a0f39503b9d0f96cbd9c6a4a4bd，私库2026-11-28 07:47:44 UTC至7f1396b4a482c9e10e7d20c86f9cb9ed3df18a7f。四README与07:41同blob、QUEUE本题未变；日志14887B/hash5ef4a27e40d5e1bfa51c5745eabeae96e15200036b93b3606398cff8f3208bcb；库存3213/45873503B/tree9db1b4cf84edfc47621a7b70886d0c9109ad4255，无>5MB，三旧必要gzip不变。H记录实际头及已读规则；精简H的软件摘要但完整原文/回执均保。
+
+## 2026-11-28 07:51:49 UTC — 全部 translated 连接与真实相对 shift
+
+root全读R1062§12并回核R1065(W20)–(W22)：u=pz(v)、P(v)=v(u)使所有p/δ恰留；Kβ的Tg/F/Norm分解支付全部sigma连接，R_T/首值的六重零及strict R_E等距代换给全系数界。μ6使J线性Q次数≥5，Dv(Q)=1+O(p²)，故准确线性6/vQ。原参考a_Q/u_Q保全source，所有Δ块而非仅p−1块保任意k carry，物理Leibniz给(m)_k且普通系数不再除k!；双和绝对收敛给真逆和Π共轭。附节8107B/hash77eaa7f2aa8fdee3e4692c5d9b9abfe90f2bb2cfc6bc9cdef389803b39f72fd4；全文70746B/hash797edc67463a668f473befef979b7a359408a68a94dcee9939aef182043d05d9。仅核作用盘，未证明更大输入盘或whole Hall非零。
+
+推前actual run46073965457/job140911632469：公开2026-11-28 07:51:19 UTC至ed94128d96972c6c20d6219805fb69adcf9cea60，私库2026-11-28 07:51:24 UTC至7f89d35136aeea9750e63469c8356d4f51d2cf5a；四README与07:47同blob、QUEUE本题不变，日志14887B/hash9994793881c34bfb184b383617b923183551855e17409d63fe3c31cf1616e2f8，库存3213/45886425B/tree54a43497cd7d085907a24038df5d14f99971dc46。无>5MB，三旧必要gzip不变；H更新actual heads/已读规则。唯一v15未改；未来v16仍未挂ref/未运行。

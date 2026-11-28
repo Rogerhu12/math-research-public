@@ -80,7 +80,7 @@ R1067§§9–14进一步给physical首jet整界及同一actual整Hall源P_H：�
 
 R1067§15（53）–（58）已付actual δ_k的1≤k≤p−2全Bell差分界及完整含质量二矩行，native M2保ℓ_q的1/p费用。exactHall0分支的a_Δ≥3−1/(p−1)仍不由bad提供；§§16–17已从真正Kato两图/非p288下降逐embedding单位幂付原比较标量的解析性及归一各阶p^j导数界；A(x)=U(G34/G2,17r)²准确保模型/p²/Artin/Gamma/原参考。完整含H0导数门仍只是必要条件；浅层已发现自动相消，不计forcing。§18现已付共同Gaussian的全p−1块算子及逆、全部carry和真实参考17^ρ(17^(p−1))^t；原0块比值不能据此删Gaussian。§19现已付同A_p整性的完整p阶Euler读者（73）–（79）：保所有U/参考导数、log^p全尾及唯一r=p+1首连接，最高行返δ_p−pδ_(p+1)/2和真实ρ=p−2负块。没有外推旧高差分界或赋精确零；§20已评价首连接：目标原质量≥1/(p−1)使其在完整平方Euler和中自动变深，不需bad，也不赋两块相等。当前精度真正剩U(M34/M2)²的bare Katz/Frobenius组合及模型Norm费用；下一用R1062§10全kernel共同族和实际中心余class消费它，不重复已自动的首连接或旧Fermat接口。
 
-R1062§11现支付原中心：全scheme唯一对称lift使C34,T/C2,T′=ε_Q Cβ(Q)，Cβ为真实径向整单位；J在全厚一级群的commutator精确为Fermat-17类，原指定lift相位和λ/λ′全保。G62/G63只在G[p²]完整输入成立，高jet仍用G50；下一消费这个实际有限算子和bare Katz/Frobenius，而非假定q_p(17)对无穷p非零。全translated相对核已收到候选，尚在逐式审阅，未赋whole Hall新半径。
+R1062§11现支付原中心：全scheme唯一对称lift使C34,T/C2,T′=ε_Q Cβ(Q)，Cβ为真实径向整单位；J在全厚一级群的commutator精确为Fermat-17类，原指定lift相位和λ/λ′全保。G62/G63只在G[p²]完整输入成立，高jet仍用G50；下一消费这个实际有限算子和bare Katz/Frobenius，而非假定q_p(17)对无穷p非零。§12的全translated相对核现已付：ordinary系数和(m)_k给γ_k≥kη，η=1−1/(p−1)，全Δ块/carry及逆均保；a<η仅是算子可作用范围，shifted参考输入的大盘延拓仍未付，未赋whole Hall新半径。须继续原中心/全外权下的实际Euler或canonical读者，不由单字单位核推加权和非零。
 
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
