@@ -386,3 +386,5 @@
 2026-11-28 07:55:40 UTC — Astra-visible-flex-2ecfcd69-20261128：登记G11独立源668×256/171008点恢复完成，480.634s自然0，540径点确实不在G10训练；固定返回根G16/G32均过原门。六旧场观察均自然0，warm3新metric峰2.87797位于早prefix，warm20κ69268仍远差旧稀训练；G3/G11不嵌套不冒峰收敛，G10新基线/全行实步继续。
 
 2026-11-28 08:01:29 UTC — Astra-visible-flex-2ecfcd69-20261128：登记G12第一次实际步系统SIGKILL−9/612.993s、driver247，未存field/接受；准确查询/原source/g/暖场保持，244遗留source packet仅事后CRC/形状/finite/key与SHA核，不伪称预先回执。无历史RSS/cgroup不武断归OOM；去无用H1因子和单band原位H2修复在同输入继续。
+
+2026-11-28 08:05:48 UTC — Astra-visible-flex-2ecfcd69-20261128：发表完整Gram单band原位H2及非零121列/2304行C2实核，0.554s自然0，原normal逻辑字节全同、所有跨通道保留、H2因子实际同址；λ重试重新装Gram再对照dense，方向差1.30e−14。不是M12大场成功；同6aafee暖场新G12/04r1已实际启动，原源/g/全部节点不改。
