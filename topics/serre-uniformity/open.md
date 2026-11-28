@@ -124,6 +124,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
+[R1179](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原全点Gaussian CM范数给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；真实ray norm/全嵌入/根单位核保全。全部p>37，J_p零当且仅当p|Bp−3，八次中槽零当且仅当p|Bp−5；实际remaining good支中H_p0强迫heat二阶单位。不能替原low c2或删corr，原joint继续。
+
 完整原norm2、Kronecker、两twist、mask、全部高尾及旧端点详见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)；不重算已登记扫描。
 
 [R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)低good支将非对角纤维减到至多一个unordered pair；另一支Δ_low/48仍待非零。§10付两实际下降线全部运输，统一z∈Fp，保S0/P0。§11 actual-good代数为Fp[W²,W(W²−d)]或Fp[W]，导子W²−d；d0/非平方分离Fp点，非零平方余对须actual odd coefficient O_R(d)≠0，向量场闭性未付。

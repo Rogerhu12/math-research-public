@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian中间矩的全素数准确非零判据（已证明）**：[R1179](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原全点Gaussian CM范数给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；真实ray norm/全嵌入/根单位核保全。全部p>37，J_p零当且仅当p|Bp−3，八次中槽零当且仅当p|Bp−5；实际remaining good支中H_p0强迫heat二阶单位。不能替原low c2或删corr，原joint继续。
+
 - **原三个尖点的整唯一性与固定精度Frobenius求解（已证明）**：[R1176](results/R1176-original-integral-cusp-rigidity-and-fixed-precision-Frobenius.md)模p原log H0由负末Hodge线及unit Higgs(d−i)为零，最低留数锁Tate差。给定pureΦ到n+28位，φ1=1+(t−1)^p的已知整δ1与三cusp正则把42未知限制在poly≤6、仅1有极的有限空间；完整ordered ODE/descent矩阵模p列满秩，一次modp^n线性求解唯一。极阶从δ1主部读出，保λ∞/cross/σ与全部Taylor carry；无需未知树深度，未执行数值，原非零继续。
 
 - **原中央齐次差与完整CM剪切缺陷（已证明）**：[R1174 §§17–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)由原Norm全四项展开，Hρ=Wρ−Qρ(X,Y)在对应CM基间满足跨实际同源的齐次式；回预选SS参考给V H=n^(2−ρ)Σtransport e，e准确保c_BCH和Q的shear/Taylor差。Q全有限剪切及最高缺陷零集均自证，单位理想可重建H；未将跨CM齐次式误作参考向量齐次式，未宣H=0或actual非零。
