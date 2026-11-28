@@ -60,6 +60,8 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1195](results/R1195-original-full-integral-normalizer-corner-and-one-p-gluing.md)完整有限角准确为全部奇r的{(x,y)∈Zp²:x≡y modp}乘积，p1mod4另加二次St的一元角。各Er整，U_r=p e_cusp,r e_N满足U²=pU；任意真实稳定格的pure型拼接商恰im(U modp)，指数p^rank，单cusp投影整 iff U modp=0。原几何两行/PS碰撞保全，不把packet单位传给C。
 
+[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同原P=(p−1)D0先整E_m投影后深m²−1；模π^(m²+1)的首列恰由原相对Picard核的m次Čech有限log给出，分母全素于p。完整非约化Frob相容消去该packet首层p-return；同q_C的惯性交织保原β。ψ^a全部特殊尾gap已定，但低次regular消去/全节点仍须运输；指定C上与T_L(1)的楔未付。
+
 ## 已成、禁止重做与其它入口
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)原完整47Q恰八CM，全部4513 whole盘/高度/全维来源和后到q²审计已成，不重跑47/41/旧端值窗口；run/hash沿原文/归档。

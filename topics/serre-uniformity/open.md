@@ -174,6 +174,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1195](results/R1195-original-full-integral-normalizer-corner-and-one-p-gluing.md)完整有限角准确为全部奇r的{(x,y)∈Zp²:x≡y modp}乘积，p1mod4另加二次St的一元角。各Er整，U_r=p e_cusp,r e_N满足U²=pU；任意真实稳定格的pure型拼接商恰im(U modp)，指数p^rank，单cusp投影整 iff U modp=0。原几何两行/PS碰撞保全，不把packet单位传给C。
 
+[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同原P=(p−1)D0先整E_m投影后深m²−1；模π^(m²+1)的首列恰由原相对Picard核的m次Čech有限log给出，分母全素于p。完整非约化Frob相容消去该packet首层p-return；同q_C的惯性交织保原β。ψ^a全部特殊尾gap已定，但低次regular消去/全节点仍须运输；指定C上与T_L(1)的楔未付。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。

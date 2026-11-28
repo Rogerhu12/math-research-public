@@ -46,7 +46,7 @@ def blob(ref, name):
 
 def refresh(request):
     git("pull", "--rebase", "origin", "main")
-    head = git("rev-parse", "origin/main").stdout.strip()
+    head = git("rev-parse", "FETCH_HEAD").stdout.strip()
     stamp = dt.datetime.now(dt.timezone.utc).isoformat()
     actual = {path: blob(head, path) for path in RULES}
     old = request["last_read_rules_commit"]

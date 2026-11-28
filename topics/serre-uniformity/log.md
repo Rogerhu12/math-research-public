@@ -612,3 +612,10 @@
 - 14:37 UTC终端无可用执行环境，待推OC已从完整已核稿恢复；新增本课题publisher脚本及.github/workflows/serre-astra24-publication.yml，准备分支只装小文本，正式main仍实际部分克隆/pull --rebase/逐结论push，拒推立即循环。公开两README只读013ef894后无变；不把API读取冒称pull。
 - H/open压缩前全文逐字归档before-high-packet-log，已登记公式/来源/边界保全。
 - 本push规则：公开Actions真实pull至 e8ec78fa56c8d8e0e08e115844d940d7cf952bed（2026-11-28T14:45:49.687501+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1196：原最高型整packet的同P首列已化为m次Čech有限log，精度π^(m²+1)，全部分母素于p；原degree-p返回通过整E_m与非约化Frob相容在首层消失。完整Picard核/单位提升/自同态自然性、实际q_C惯性交织与原局部全部gap式纸证完成。
+- 保G(b_lift)²、三个CM尾、全部低次数regular消去及正次节点尾；原同C/同β与CM列之楔仍待实际计算。root逐节核，o2核§§3–4，无数学程序执行；主目标仍OPEN，继续原gluing。
+- R1179 §13已真实推6ed0207852d58ce12676ad9de4b7b7b569f18ff7；run46156289944/job141013561845。该次第二pull实际父为1cc5d412cd77239178e31344c0fbd943eb9ab99d；单分支clone的origin/main仍记e8ec78fa，已亲自比较这两个提交，两README无变。publisher现改为每次pull立即读取FETCH_HEAD，修正记录及比较头；不重跑任何数学或已发布结论。
+- 本push规则：待公开Actions实际pull回填。
