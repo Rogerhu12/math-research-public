@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WHN：真邻域 weighted head 响应及全负窗](results/R149-supplement-true-nearby-weighted-head-response-and-negative-readout.md)：同SPN任意无穷A3真扰动ρ≤1e−7，原4650行/4802公共格的weighted functional通过真resolvent比较接收，整head到root/collar/body<11.9B、raw high<30B、outer<.154B。完整负窗≤25.95b+2780B+131a+1.36FB+Eports+1.774e−5+5530ρ；实际匹配端口仍未付。
+
 - [GSW：真实首源到原物理腰和公共输入](results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md)：同实际GSF、原混合传播C_R<2039、支持长1/5000和原左读<.719给终端到腰<.0281。真反向密度H−4/3<1.1，原有序Ni<12.4，故此真实加项common C97<.349；保Ni S相邻则全ordinary高行贡献<.029。其它源、跳和正反馈仍保。
 
 - [AGSF：原完整支持上首个 genuine 秩一源的实际强窗](results/R149-supplement-actual-genuine-rank-one-strong-source.md)：实际46138804158/1 success，全部67支持格及原根条，原J后L²(dr;H−2/3)为.0013509941530745692；晚带1.2993803297064288e−5。原176whole/10624293B与完整科学2254B逐字核验，旧科学和旧phase恢复0。
