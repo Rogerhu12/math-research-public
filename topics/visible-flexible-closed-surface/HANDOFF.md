@@ -16,7 +16,7 @@
 
 **公开run46164243725/job141038130820**于17:20:16 UTC恢复完原4场，末场再次为e3e6640b…；已得c3b6b1ff…粗态与104a884…h1，真正全span独立峰.00750402→.00501448、κ8.66372、support.59541、norm1.89320；临时数组留同job。scripts/2ecf-r262-live-work-orders.json每项后重读当前main：新相邻低口真cut→固定其g每实际span≥6训练/≥9不同径行h1、769普通角+6窄法角窗；整像和原前缀连续位置；真实N/k、原X+C+W口差、ez/k²三列同g更新。06d2六jet消费者覆盖这三列、全部原W/新XYZ和冻结g；首次只算明列外单元，不冒全域。run46168298645的24阶法角矩含严格余项已成功，96测试盒不是全外核证明。
 
-另加正Jackson逆曲率热轨道、真实入口抬升/角依赖高度与一个物理热增益；heat专用状态键，不借旧native/profile证。R321真.040两矩轮廓保持R317圆心/周长及全臂同位，κ<5.16807、N/κ两导<8761.54；run46169273350真原74最大位差.00692926、切差.06968505、κ差.57603095。另单独选择.060更缓真实输入，源/状态/新g均独立；design后再固定新g精化。尚未运行项均不算结果。sources/params/实际SHA随每项推送，失败继续后项。
+另加正Jackson逆曲率热轨道、真实入口抬升/角依赖高度与一个物理热增益；heat专用状态键，不借旧native/profile证。R321真.040两矩轮廓保持R317圆心/周长及全臂同位，κ<5.16807、N/κ两导<8761.54；run46169273350真原74最大位差.00692926、切差.06968505、κ差.57603095。R321实际h1 a02d19c6…同g峰.00761322→.002709185228、κ5.796606；R322 .060 h1 100f7c8b…峰.002697196369但κ7.93770。两者独立g，不混精化。三profile五秒退出已由17:36真缓存证缺依赖，正补源续算；新完整XYZ跨原S直达真T，连曲率约束方向与自身连续几何。尚未运行项均不算结果。sources/params/实际SHA随每项推送，失败继续后项。
 
 **旧真实父场保留**：run46157156458自然完成，其重生原场e3e6640b2fa93677fc3a00334de300fcf1473a2799f7d4561cbe07e695f25d3a不同5778。旧c=.78/low=.35粗538a7ecc…4步峰.02607782；固定g h1 a405277f…峰.01060335、κ7.55033、support.381938、norm1.893607。旧门内13共同径行不独立全径。当前工单还留全门h2/带状Newton/真U0位置/新细g再冻结、.545两low累计形状LP、λ四幅曲率原函数同伦，以及本次实际原尾R249/R253/R252。不得移用5778整闭证书。
 
@@ -46,8 +46,10 @@ root独占main；三子代理exact_analysis_ultra、strong_geometry_ultra、m12_
 
 本执行器14:34 UTC失联；17:26新主机入口恢复，旧session目录/数据不在新视图。已在原路径重新partial/sparse clone（另加depth1），17:32真实pull成功，根/题无差异；原科学数组继续保在Actions，不重生已成功结果。原2400字节未恢复，60d6d3c/a8069be只记来源恢复。API查规则不是literal pull；最新真实两库同步见末行。
 
-最新API已读公开 e0f5d542cdbf51e5276b654d334a5b86bc4e4e95，根/课题README与完整已读版本无差异。
+最新API已读公开 edb2fe6fe42d215fb7fe6e37eb40fab01b4d2360，根/课题README与完整已读版本无差异。
 
-<!-- 2ecf-rules --> 本机恢复后的真实 pull/rebase：2026-11-28 17:33:58 UTC，公开已读 e0f5d542cdbf51e5276b654d334a5b86bc4e4e95，根/课题 README 无变化；新 partial/sparse checkout /workspace/scratch/2ecfcd6930d6/public。
+<!-- 2ecf-rules --> 本机恢复后的真实 pull/rebase：2026-11-28 17:40:33 UTC，公开已读 edb2fe6fe42d215fb7fe6e37eb40fab01b4d2360，根/课题 README 无变化；新 partial/sparse checkout /workspace/scratch/2ecfcd6930d6/public。
 
 <!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 17:40:11 UTC；公开已读 4f78e03483ba3a2e42fc7ba9a1c3d3b2cb827980，根/课题 README 无变化。 私库真实 pull 2026-11-28 17:38:30 UTC、已读 6aba3b0c88270281858b6f07fad28ab55d1cca5f，私根无变化。
+
+私库本机恢复后真实pull：2026-11-28 17:34:52 UTC，已读6218f3aff1a3ee37d4fab13cfa4f7ebf39fe03ff，私根blob1cc6a185…无差异，QUEUE本行仍进行中。
