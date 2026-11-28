@@ -1,0 +1,100 @@
+{
+  "status": "prepared_own_kind_fixed_actual_DN_geometry_consumers_only",
+  "schema": "fixed-actual-DN-geometry-consumers-preparation-v1",
+  "date": "2026-11-28",
+  "source_model_kind": "original_r53_literal_fixed_metric_actual_dn_v1",
+  "source_kind": "accepted_original_support_fixed_metric_actual_dn_physical_height",
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_cartesian_prefix.py": "66196d50d7590ac5ee244a5b7162ee6f0de4231fbc26117c703c842e9ebb8afb",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_prefix_continuous.py": "f0bbe99fa0355c43b680d212c30e61ef5a04af787c2688ebacec042625d854d2",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_closed_map.py": "b667efa7757de5038f321ff91db306dcfa1640c464563959407787aed01e1e18",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_export_closed_mesh.py": "655801c4f99bcb5a6936cae4d6db81b8600c9268276924f5cfbb164994f119cf"
+  },
+  "validation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-actual-geometry-entry-preparation-20261128/validation.json",
+    "sha256": "56ad979c07d631c49523164b836e0808a385dd842436f9d3aac61aefc2a77bbe"
+  },
+  "actual_validation": {
+    "all_four_compile_passed": true,
+    "all_eight_cli_calls_exit_zero": true,
+    "new_reader_import_does_not_precache_original_geometry": true,
+    "five_frozen_numerical_sources_unchanged": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_model.py": "5f5fde082660b02f164a0b8932bed09ca6fa9ecb212d4928768fc8210d8d82a0",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_resources.py": "c19093a00ddff270337dff47cfcd2c5c1ed426eed79d65eb083dfbc66651db15",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_step.py": "a4b21f9fb08c1756b274ceeaa2c89b877ecebfa3bcd64627ebd7940cb5025359",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_acceptance.py": "23501290001a0a01f5aefc0a32772a0a357f87cb86e27f8b1143fd2592e7c93f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_chord_fixed_support_actual_once.py": "23b7ded6ad7791cb032ab0363c4b2e4bceb2be8beb3670cfc4c59289ef641374"
+    },
+    "static_proof_main_entry_replacements_each_unique": [
+      {
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py",
+        "sha256": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+        "counts": {
+          "record, prefix = load_actual_prefix(args.source_run)": 1,
+          "record['physical_sha256']": 1
+        }
+      },
+      {
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py",
+        "sha256": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba",
+        "counts": {
+          "record, prefix = load_actual_prefix(args.source_run)": 1,
+          "record['physical_sha256']": 1
+        }
+      },
+      {
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py",
+        "sha256": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+        "counts": {
+          "verifier=NewMetric(a.tables)": 1
+        }
+      },
+      {
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric.py",
+        "sha256": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+        "counts": {
+          "verifier=CutMetric(args.tables,args.geometry_bundle,out,args.cut_width)": 1,
+          "old_metric=inherit_metric(verifier,args.base_metric,target)": 1,
+          "old_geometry=inherit_geometry(verifier,args.base_geometry,args.base_curvature)": 1
+        }
+      }
+    ]
+  },
+  "source_contract": {
+    "source_run_keeps_own_KIND": true,
+    "old_7a_anchor_recursively_checked": true,
+    "complete_fixed_problem_and_literal_chart_preserved": true,
+    "parameter_zero_meaning": "log(q_actual/q_seed)",
+    "delta_remains_frozen": true,
+    "current_physical_file_sha256_checked": true,
+    "final_saved_physical_H_binding_is_authoritative": true,
+    "raw_H_substitution_for_final_H": false,
+    "source_mean_nodes_and_GL6_preserved": true,
+    "full_true_core_lift_and_center_repair_retained": true,
+    "all_saved_tail_planar_height_and_mean_modes_retained": true,
+    "actual_tail_producer_path_not_relabelled": true,
+    "complete_spectrum_and_representation_provider_paths_bound": true,
+    "old_accepted_original_gate_replaced": false
+  },
+  "representation_contract": {
+    "cartesian_prefix": "same reviewed SharedJetQuintic/GL6 construction, with own fixed=True actual flow",
+    "continuous_proof": "same reviewed interval formulas and loops, independent namespace changes only source initialization/output identity",
+    "cut": "same all-mode complete_cut_coefficients and true FrozenTarget; own physical H and own field tables",
+    "closed_map": "same original atlas, complete tail/collar, literal requested cut width, short cylinder, optional canonical R67 marker",
+    "mesh": "same ring topology, all-mode evaluation, held-frame formula, binary-double PLY and strict 5MB rule"
+  },
+  "actual_numerical_work_executed": {
+    "new_BVP": false,
+    "native_tail_solve": false,
+    "actual_own_KIND_positive_input": false,
+    "continuous_geometry": false,
+    "continuous_metric": false,
+    "closed_map": false,
+    "mesh": false
+  },
+  "new_certificate_inherited_from_another_field": false,
+  "actual_fixed_DN_refinement_accepted": false,
+  "lambda_one_return_created": false,
+  "C2_limit_proved": false,
+  "README_completion_claimed": false
+}
