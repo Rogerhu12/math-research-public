@@ -159,3 +159,6 @@ GDG已付全负域genuine determinant：ΔV/D>1−1e−7、ΔV>1/720、root BΣ<
 
 
 ADCP：run46124617641/1全部18目标成功；322整输入、原validator和原admission全过。全2560/8192/2048加无限tail、96exact signed中心及双mean保，finite-reference joint<.000559991、true Θν joint<.001177993；旧science0。CFC的DCP parent可实际准入，其余SC/H96/PWA96条件仍须真完成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+CRW：同一真实切面标签由原流组合律恢复；ω沿共同漂移正源积分，完整B=D²−b²∂φ²的有符号四槽链式公式保θ、ε、两方向，F的6阶角导只需真实标签至8阶、整方案仍保至9阶。原positive/root/mean/jumps接口保，未授全域数值响应。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

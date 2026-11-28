@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CRW：真实共同漂移的带符号波算子与四支ratio输入](results/R149-supplement-correlated-ray-wave-forcing-and-signed-cut-seed.md)：同一真实切面标签由原流组合律恢复；ω沿共同漂移正源积分，完整B=D²−b²∂φ²的有符号四槽链式公式保θ、ε、两方向，F的6阶角导只需真实标签至8阶、整方案仍保至9阶。原positive/root/mean/jumps接口保，未授全域数值响应。
+
 - [ADCP：全18项实际直接密度逆与Θν列](results/R149-supplement-actual-complete-particular-density-Theta.md)：run46124617641/1全部18目标成功；322整输入、原validator和原admission全过。全2560/8192/2048加无限tail、96exact signed中心及双mean保，finite-reference joint<.000559991、true Θν joint<.001177993；旧science0。CFC的DCP parent可实际准入，其余SC/H96/PWA96条件仍须真完成。
 
 - [GG：同一真实low193的精确正交联合图表与全四源映射](results/R149-supplement-joint-Grassmann-true-low193-and-whole-source-maps.md)：完整非零中心fractional graph、有理Householder、97+96端点/mean、全部1424节点和四whole source covariance；旧81仅三SHA必要载体恢复，后1343格首次order16适应未积分子盒。97/21整输入已核，首次workflow已齐、尚无数值逆结论；不是全无限维正侧逆。
