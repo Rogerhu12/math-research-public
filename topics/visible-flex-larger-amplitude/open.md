@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
 
-[R777](notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)：同R764初g两完整曲帽/真终领误差<1e−6及帽间法球已证；两保留镜帽由整物料路径迫使连续g误差>.40，两三坐标释放支不在此限。21源/四进程、各三层7+6相与十类跨面原预算正常发布；全闭g/管未付，实际未预填。
+[R777](notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)46179547740四exit0：ROOT全30报告/原21输入及三层全相核同；末全Gram2.73358–20.58844，K及端弦未付。独立帽小误差不代全g；完整终态/源参/真pull保，不重跑。
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429真实J幂错误exit1/零stage全保；最小修复后46182901571/PID2804于19:46:47Z真实启动，24输入ROOT全核，7粗已返，三族18stage/三末网原预算继续。
 

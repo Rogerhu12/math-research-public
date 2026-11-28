@@ -51,3 +51,7 @@
 ## R787 — 固定长壁完整两帽和四返回板
 
 [完整证明](R787-preloaded-long-wall-two-complete-caps-and-four-exact-returning-panels.md)与[ROOT全文及原四族记录](../notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新真实长左壁和固定2^-16预载g；全初reach>.1319、D<4.39，握≥1.40；两个完整非平帽及四宽1.30全roll板准确g，两帽有序法球.132。原guide整个晚像held>.90，未给剩余曲肩的全g/晚reach/商距。自由cap采用真实完整逆坐标二jet保证重叠一致。原四分支×三层、7+6相、13图和全物料路径完整公开运行，结果未预填。
+
+## R777 原四族完整终态
+
+[全部原30报告/索引身份](../computations/R777-actual-complete-thirty-reports-and-index.json)及[ROOT原全量复核](../notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)：46179547740/1官方success、四exit0、原21输入/三层7+6相/全11图核同。末层.90 restored两族Gram19.85238/20.58844，retained2.73358/2.78126，真实大K与端弦正价；独立帽<1e−6不支付整面。全原source/系数/失败范围和四次真pull保持，不重跑、不称课题完成。
