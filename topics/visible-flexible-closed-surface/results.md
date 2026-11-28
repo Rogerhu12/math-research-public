@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R265：准确 Γ95/R205 正高度极坐标连接整环带嵌入](results/R265-accurate-weighted-polar-connector-global-embedding.md)（2026-11-28）：六角时钟、自由质量及全闭面积下界均已连续支付，收两端准确六 jets。
+
 - [R264：固定原 cut 排除保持准确 coast 至 .081](results/R264-fixed-cut-excludes-preserved-coast-at-point081.md)（2026-11-28）：精确单位速经线、曲率 ≤1/.097 的必要余长缺口 >.00012322；不排新 S 或新端口。
 
 - [R263：准确仿射 coast 延长及完整前缀 reach](results/R263-prolonged-accurate-affine-coast-and-prefix-reach.md)（2026-11-28）：整段 0.. .24 正则，延长 .07/.08 的整前缀 reach ≥.1013385/.099；与原非仿射后缀目标分开。
