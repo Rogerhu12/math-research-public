@@ -54,7 +54,7 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull d2414100f68ed127210d746d59d064a0c5278eb0
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull cce10c2243e79edb0c79b5bae43be387090614f0
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull bbd8e588b2a94a0e5a4ea3ecf4e2a37f4a7f7442
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 7c740db1217a12feb1d31211059af8b840542882
