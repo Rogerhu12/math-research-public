@@ -1,0 +1,96 @@
+name: Full angular matching of both genuine physical root Cauchy traces
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-genuine-physical-root-Cauchy-matching.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-genuine-full-physical-root-cauchy-matching-20261128
+  cancel-in-progress: false
+jobs:
+  complete-root-matching:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 25
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_collar_reference.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+            /topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exterior_signed_potential_moment.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-exterior-translation-of-both-genuine-first-ray-ratios.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_variable_cutoff_moments.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-exact-root-matched-right-matrix-and-signed-physical-trial-exchange.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-full-angular-genuine-root-trace-matching-on-both-negative-state-rows.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_matched_root_traces.py
+      - name: Verify complete historical inputs and strong source formulas
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7  scripts/fourfold_codazzi_common_radial_potential_budget.py
+          2f7f1b88e411726b9098ce98264d6e7778b03dbc7dbdb557bb6537fd6a16af53  scripts/fourfold_codazzi_correlated_collar_reference.py
+          9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b  scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          6586b4b034a34e733319e039b53852c72db0cdf13634ae9f2735eaf1e1dc38ab  scripts/fourfold_codazzi_true_ratio_live_rules.py
+          fcc08a0e5f8769b0c215ee25e61d6ecaf73c308d14adb24d68b39bc6328833a3  scripts/fourfold_codazzi_true_ratio_prefix.py
+          d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9  notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+          6b6db11ba57bb1273bc84d352fc2318cc69bb982a5a4803e662903932a41cbf1  results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+          9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad  results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md
+          d7ab6241aabc17f85eab1c8c4af49ed8c5f2f45eee85e96080a48f8491ad3e4d  results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+          38c5f45903f17c44bb49552db64cbd46d65b9239cc4ac0392bb687905bc13df5  scripts/fourfold_codazzi_exterior_signed_potential_moment.py
+          d49a5b1701266b2c05e1d0e47d678464db3521e48d828e0c81047440230e0949  results/R149-supplement-signed-exterior-translation-of-both-genuine-first-ray-ratios.md
+          93266089706d71dfa9ee6e5fd48be9cd796354a25b5801f0386d225e4fea2572  results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md
+          f787065335f51c5ea3464eea46a8af70ac6bd6da566564d658a34d6e93d05556  scripts/fourfold_codazzi_variable_cutoff_moments.py
+          2f5b613c16818d631de92b4522c53224c1a5cdc7e9522b3560818294202bc83b  results/R149-supplement-exact-root-matched-right-matrix-and-signed-physical-trial-exchange.md
+          b5aee97bdf7bd38fee6ba4538c121625cb8bb47997e63fe47af7a02a92ee7ec8  results/R149-supplement-full-angular-genuine-root-trace-matching-on-both-negative-state-rows.md
+          a0e05c40b432b55e1eb7a1fde327f7379f46e6398baba4573cb24cd296b15cf8  scripts/fourfold_codazzi_genuine_matched_root_traces.py
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+      - name: Invert the complete physical root trace and match both original genuine Cauchy states
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          root=topics/visible-flex-exact-nearby/scripts
+          python "$root/fourfold_codazzi_true_ratio_live_rules.py" python "$root/fourfold_codazzi_genuine_matched_root_traces.py" --repo "$GITHUB_WORKSPACE" --receipt "$RUNNER_TEMP/grt-receipt.json"
+      - name: Retain the complete small result or last natural physical prefix
+        if: always()
+        run: |
+          python - <<'PYEND'
+          import hashlib,json,os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"grt-receipt.json"
+          if p.is_file():
+              b=p.read_bytes()
+              if not 0<len(b)<100000:raise ValueError("qualified small GRT record")
+              print("GRT_FINAL_SMALL_OR_PREFIX",len(b),hashlib.sha256(b).hexdigest(),b.decode().strip(),flush=True)
+          PYEND

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GRT：两真物理根Cauchy状态的全角匹配首发](results/R149-supplement-full-angular-genuine-root-trace-matching-on-both-negative-state-rows.md)：以完整MF⁻¹MG而非仅Airy根迹作角依赖Lcal；同真D0/J/独立zero-root mean两状态差严格零，δh*=0只对同whole trial。n⁸ᐟ³(Lcal−L)保完整signed两矩阵/真实J0；19whole首次全角Wiener/复频square+23原cells导数0..4首发，真实有向门待。
+
 - [GDM：全真根匹配右矩阵与同物理试探有符号交换](results/R149-supplement-exact-root-matched-right-matrix-and-signed-physical-trial-exchange.md)：原V/SV全15whole资格；N=I−uvᵀ/n²、真实分母保，L=N⁻¹C全n≥388有‖L‖<6/5、‖L−I‖<511n⁻⁴ᐟ³；21新Fraction根首次全过。完整两列γ、独立zero-root mean和δh真物理差保；B2项在同端Green恒等式精确消去，不能删free bulk/jump/mean，正侧Bi尚未付。
 
 - [ASQ25R：真实53种历史整件接收错误后的保真首发](results/R149-supplement-actual-original-DCP53-history-transport-and-signed-column-first-entry.md)：实际ASQ25C reserve前KeyError restore_only、0children/0files/0targets，20382B5eba5710…全保。新transport严格绑定269current/53history五原形状与全Git bytes/SHA/blob、同路径必同bytes；57whole完全反构原14b776manifest，原consumed/concurrency/4目标/means不动。真实科学结果待。

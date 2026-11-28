@@ -153,3 +153,6 @@ GDC真实续成第82格后下一格充分分母失败，转全两端MSS，不授
 
 
 GDM：原V/SV全15whole资格；N=I−uvᵀ/n²、真实分母保，L=N⁻¹C全n≥388有‖L‖<6/5、‖L−I‖<511n⁻⁴ᐟ³；21新Fraction根首次全过。完整两列γ、独立zero-root mean和δh真物理差保；B2项在同端Green恒等式精确消去，不能删free bulk/jump/mean，正侧Bi尚未付。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GRT：以完整MF⁻¹MG而非仅Airy根迹作角依赖Lcal；同真D0/J/独立zero-root mean两状态差严格零，δh*=0只对同whole trial。n⁸ᐟ³(Lcal−L)保完整signed两矩阵/真实J0；19whole首次全角Wiener/复频square+23原cells导数0..4首发，真实有向门待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
