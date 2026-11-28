@@ -767,3 +767,149 @@ f725完整试点的g为.611899231330644，最大族reach，实际拒绝。当前
   }
 ]
 ```
+
+## 2026-11-28 07:59:04 UTC — 24官方取消与最后完整观察
+
+官方jobs接口真实返回run46096380016/1、job140828543967为completed/cancelled，job完成2026-11-28T07:56:19Z，research步骤07:56:13Z结束。原因未返回，保持未知，不由时钟或预算推断。完整science没有自然返回/final/typed，准备的完整pure46587B未在该终态后假排，不能制造同runner父结果。
+
+末完整观察07:53:48Z，source0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5/PID3575、driver095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec/model9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e。current0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07/accepted3，Phi886.6498827366873/Gram.4729659923630599/reachg.6114243730497866，六族/原失败均原完整索引保留。下一90c83f96571608d3fa3dfd12cbf75255fa7dc2d3aa4a7da103cffdc127cc3839先07:33:01.712524Z trial-start、再07:43:55.774617Z自身统计Phi886.6498817180013/Gram.4729660216435627；其几何/接受及未显示alpha未知，不从current补值。末端仍未达README。
+
+保本轮移出的原规则槽，历史真pull事实不删：
+
+<!-- visible-larger-parallel-24:start -->
+Actions24：[run 46096380016/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46096380016)；[全阶段记录](notes/2026-11-28-public-actions-46096380016-1.md)。running；已返2，exit=未返。
+并行24规则核查：2026-11-28 07:53:53 UTC，真实pull至`14122a34bc25110b1e6f953ea35fe4f3933e4fad`，双README无变化。
+<!-- visible-larger-parallel-24:end -->
+
+官方接口本次完整对象：
+
+```json
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 140828543967,
+      "run_id": 46096380016,
+      "workflow_name": "Visible larger amplitude paired half-wave five-eighths comparison 20261128 24",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVt5L2s8AAAAgygkL3w",
+      "head_sha": "431b54a096c89b81637a3634fd99a1dcda0cf487",
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140828543967",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46096380016/job/140828543967",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-28T02:05:59Z",
+      "started_at": "2026-11-28T02:06:00Z",
+      "completed_at": "2026-11-28T07:56:19Z",
+      "name": "Construct the same fixed target and solve the full half-wave width comparison",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T02:06:01Z",
+          "completed_at": "2026-11-28T02:06:02Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T02:06:02Z",
+          "completed_at": "2026-11-28T02:06:10Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T02:06:10Z",
+          "completed_at": "2026-11-28T02:06:16Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T02:06:16Z",
+          "completed_at": "2026-11-28T02:06:47Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 5,
+          "started_at": "2026-11-28T02:06:47Z",
+          "completed_at": "2026-11-28T07:56:13Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2026-11-28T07:56:13Z",
+          "completed_at": "2026-11-28T07:56:13Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-28T07:56:13Z",
+          "completed_at": "2026-11-28T07:56:14Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-28T07:56:14Z",
+          "completed_at": "2026-11-28T07:56:15Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140828543967",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012475,
+      "runner_name": "GitHub Actions 1000012475",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 60261,
+    "sha256": "017f93c978ceeffa42ce4e0d5cba1aba60b985df7e7bce3026f23415dbcc27ec",
+    "git_blob_sha": "c25f04a21eea41d74eb726dab9bc5e56d7873dba",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 59887,
+    "sha256": "ce6360c74a41faa7456dcb555de7398e7b9a689f7d2117c469a0a163c94dc38f",
+    "git_blob_sha": "4c72520338abff45b6f8d8ae20c17356e374ae94",
+    "fixed_commit": "bac04724add48148fe74c389830f36c2fcd99e8e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 59887,
+    "sha256": "73b6e6d418bf1df8a59f364086c5953f2b93a40991c0ecd271f409d7b4dc7650",
+    "git_blob_sha": "ecfb80f065984c9d7738d47e7084e01788eda7b6",
+    "fixed_commit": "62de25c019a922ec661de5da59f5fbd9b69d0087",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
