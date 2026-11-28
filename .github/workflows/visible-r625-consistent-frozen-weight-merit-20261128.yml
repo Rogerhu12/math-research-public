@@ -1,0 +1,126 @@
+name: visible-flex R625 consistent frozen weight merit
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r625-consistent-frozen-weight-merit-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r625-consistent-frozen-weight-merit-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Complete original BVP with consistent frozen W and true slope Armijo
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r620-free-center-full-feedback-bvp-20261127.yml
+            /.github/workflows/visible-r625-actual-interior-height-active-20261127.yml
+            /.github/workflows/visible-r625-consistent-frozen-weight-merit-20261128.yml
+            /.github/workflows/visible-r625-homothetic-true-input-continuation-20261127.yml
+            /.github/workflows/visible-r625-original-quadratic-ray-continuation-20261127.yml
+            /.github/workflows/visible-r625-paid-dense-feasible-continuation-20261127.yml
+            /.github/workflows/visible-r625-paid-feasible-length-continuation-20261127.yml
+            /.github/workflows/visible-r625-paid-gauge-coordinate-continuation-20261127.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r620-free-center-full-feedback-bvp-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-actual-interior-height-active-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-consistent-frozen-weight-merit-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-homothetic-true-input-continuation-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-original-quadratic-ray-continuation-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-paid-dense-feasible-continuation-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-paid-feasible-length-continuation-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r625-paid-gauge-coordinate-continuation-20261127.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r590-staged-trust-first-public-receipt-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r609-true-integral-function-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r620-free-center-full-feedback-bvp-implementation-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r624-compatible-input-to-original-feedback-scope-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-actual-interior-height-active-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-actual-interior-height-original-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-affine-active-row-euclidean-interface-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-dense-feasible-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-feasible-length-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-homothetic-a09-original-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-homothetic-true-input-continuation-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-original-quadratic-ray-continuation-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-paid-feasible-length-continuation-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-paid-gauge-coordinate-continuation-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-paid-gauge-coordinate-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r625-tail-flat-original-feedback-input-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r625-consistent-frozen-weight-merit.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r625-original-ray-natural-terminal.md
+            /topics/visible-flex-new-mechanism/results/R120-G-lineality-of-the-closed-fourth-cost-cone.md
+            /topics/visible-flex-new-mechanism/results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md
+            /topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md
+            /topics/visible-flex-new-mechanism/results/R590-full-history-square-potential-and-c2-update.md
+            /topics/visible-flex-new-mechanism/results/R598-three-rotations-wide-eighteen-block-mother.md
+            /topics/visible-flex-new-mechanism/results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md
+            /topics/visible-flex-new-mechanism/results/R603-prepared-leading-energy-and-speed-two-guide.md
+            /topics/visible-flex-new-mechanism/results/R605-real-memory-coordinates-and-leading-energy-local-flow.md
+            /topics/visible-flex-new-mechanism/results/R609-true-integral-histories-and-kinetic-input.md
+            /topics/visible-flex-new-mechanism/results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md
+            /topics/visible-flex-new-mechanism/results/R619-free-center-leading-energy-and-true-memory-local-flow.md
+            /topics/visible-flex-new-mechanism/results/R620-fixed-width-center-jet-gauge-chart.md
+            /topics/visible-flex-new-mechanism/results/R624-free-center-terminal-constants-and-compatible-analytic-input.md
+            /topics/visible-flex-new-mechanism/results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md
+            /topics/visible-flex-new-mechanism/results/R89-affine-covariance-and-positive-multiple-pair-P1.md
+            /topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_history_positive_square_free_germs_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_staged_trust_collocation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r598_wide_mother_prepared_mass_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r609_true_integral_function_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r612_r614_reduced_function_map_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_free_center_full_feedback_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_original_center_time_jets_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r624_compatible_free_center_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_actual_c2_height_feasibility_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_affine_active_rows_euclidean_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_complete_rows_euclidean_qr_svd_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_consistent_weighted_merit_continuation.py
+            /topics/visible-flex-new-mechanism/scripts/r625_homothetic_true_input_continuation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_original_ray_minimizing_continuation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_paid_dense_feasible_continuation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_paid_feasible_length_continuation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_paid_gauge_coordinate_continuation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_paid_mixed_gauge_chart_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_tail_flat_compatible_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_true_height_active_continuation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Continue actual ray terminal with consistent positive row metric
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+          --request topics/visible-flex-new-mechanism/computations/request-r625-consistent-frozen-weight-merit-20261128.json
+          --lane consistent-frozen-weight

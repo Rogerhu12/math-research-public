@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **e5a152715c5297282697c6b40b72c2ef1cb4f4ca**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
+公开最近实际pull/双README差异检查至 **9ab3509960909d18f9eb4151e3648098a8a4b07f**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -40,6 +40,8 @@ run **45930250772** / job **140280968908** / source **e553b6fb567f73b58b128fd263
 [原射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)：run **45929264941** / job **140277823907**，新增35.473169463999966秒，2接受后12方向请求不可用而自然stall。state **dde0460d…**、19×65/10参数/LD锚保持；fine1153 ruling **3.582856751115203e13**、真十末 **.3097586172447263**，根门未过。
 
 末36方向的未缩行rᵀJd均正，但完整QR求解用正对角W，方向与射线/接受目标失配。新策略把当前完整J给出的W冻结于活动集、射线和同次真实trial，下次接受后重建W，不跨W比较merit。原ODE/真实末/ruling绝对门、物理盒保持；这是新策略，原stall费用保留，不冒旧backend续跑。
+
+[一致W范围及完整下降证明](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)已实现；request-r625-consistent-frozen-weight-merit-20261128本次push触发，trust.09375/λ.008225263339969957明确策略重启，同态fine复用，新接受置pending。
 
 R619/620/624/625/626/627依真实端前提；原母18块576微包、ε1/12000、正势及全历史不变。配点/真实曲线/完整闭pose分清；根后仍须全period/frame/位置/闭面及宏观reach。
 

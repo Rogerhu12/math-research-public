@@ -471,3 +471,5 @@
 - [97q pending357→真实83b0](notes/2026-11-28-r582-pending357-natural-terminal.md)：8metric+4恢复接受，16256×3072 η3.3525727227e−5，下一369库；未过阶段门。
 - [固定E持续分拆首完整场](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：原入口已通，方向坐标门将步长压至3.84e−36；下一用等价背景消去导数，未有fine或根。
 - [十九态原射线自然stall](notes/2026-11-28-r625-original-ray-natural-terminal.md)：2接受后36正导数，定位W方向/未缩行接受失配；统一当前迭代W，原绝对完成门保持。
+
+- [R625同一冻结W的完整求解与真实Armijo](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)：正对角W/齐次活动约束下给完整下降恒等式，实际数值只按原绝对门验根；新策略直接消费dde0。
