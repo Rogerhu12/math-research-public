@@ -1,0 +1,43 @@
+{
+  "schema": "isp-true-Phi-fu-u-two-original-low-unit-receipt-v1",
+  "source": {
+    "sha256": "06d4601d821897a7ec680cb742a0fa0cd7ef1f3c9ecf25dfdf0bb5e4eb45a6cf",
+    "bytes": 3172
+  },
+  "actual": {
+    "schema": "isp-true-Phi-fu-u-two-original-low-unit-v1",
+    "elapsed_milliseconds": 1,
+    "integerPolynomialProducts": 250,
+    "exactRationalPolynomialIdentities": [
+      "true_even_mean_is_minus_Psi_over_two_h_squared",
+      "N0_recovered_lambda_exact_Psi_error",
+      "whole_original_Klambda_compact",
+      "full_original_low_and_even_mean_unit"
+    ],
+    "fullGramReplayed": false,
+    "oldMatrixReplayed": false,
+    "assumptions": "correct Phi f=u; Q,1-Q,theta=2-Q,t are previously paid; odd mean forces t=4",
+    "returnedOriginalIdentity": "Lowl+4*EBe=-2*Q^2/((1-Q)*(Q-2))",
+    "wholeFuUTwoExcluded": true,
+    "wholeFuExcluded": false,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "source_scope": "four exact small rational identities, original theorem sources cited in proof; no full Gram replay",
+  "whole_original_u_two_fu_fiber_excluded": true,
+  "composed_different_point_bounds": {
+    "u": 15,
+    "u_Q": 45,
+    "u_Q_lambda_T_t": 90,
+    "ordered_Gram": 180,
+    "complete_normalized": 360
+  },
+  "remaining_factors": [
+    1,
+    2,
+    3,
+    9
+  ],
+  "whole_fu_excluded": false,
+  "ordinary_ISP_claim": false
+}

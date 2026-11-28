@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确fu的整个u=2原值排除](results/R150-appendix-unit211-Phi-zero-true-fu-entire-u-two-original-low-unit-exclusion.md)：真odd与t单位迫t4，N0保Psi误差，完整Lowλ+4EBe=−2Q²/[(1−Q)(Q−2)]给原单位矛盾；新1ms/250整数乘/四身份。C17余1/2/3/9四整因子、≤45权对/360完整规范不同点。
+
 - [R150：正确Delta的全部Q纤维与1444三参数点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Q-fibers-1444-cover.md)：原Δ三系数若整零则u*=−2H/B且F=G=0，新8/8次QQ Bézout实际1；2ms/49乘/9整除，无额外首项逆。每个722基点至多2个Q，包含全降次纤维；z/Gram/Pf0仍开。
 
 - [R150：全原N4的三个无分母缩放短式](results/R150-appendix-unit211-general-scaled-entire-N4-three-compact-identities.md)：9自由原Gram/value变量，真dual乘法直接返回ell缩放V0/V1的N4/完整极化三式，对A1/f/V/W/t仅一次；6ms/359整数乘/9全零差。无mean/W/Phi或逆，ell0保；当前W低D解释保准确已付范围。
