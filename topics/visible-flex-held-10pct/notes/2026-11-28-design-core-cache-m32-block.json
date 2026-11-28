@@ -1,0 +1,164 @@
+{
+  "scope": "Compare the original R53 evaluator memo on an actual complete state block.\n\nEvery state and parameter column is retained at the selected genuine saved\nnodes.  --points 0 selects the entire saved grid.  No BVP iteration, accepted\nfield or new collocation matrix is produced.  A final isolated-write check\nverifies that mutating a returned array or original output-cache array cannot\nchange the next evaluation.  Actual arrays remain outside Git.\n",
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/original-design-to-016/attempt-001/run.json",
+  "source_run_sha256": "20487a372ac56cbb639a51cd3ad896120497741137cc698f92c4a7fe54a152bd",
+  "actual_snapshot": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/original-design-to-016/attempt-001-transfer/initial.npz",
+  "snapshot_sha256": "6ed6a2b5edc0bfec8eaceac722e14cf68a60cf4e461213e5d1c29964d29d4678",
+  "original_nodes": 879,
+  "evaluated_nodes": 32,
+  "node_selection": "unique linspace integer indices across the actual saved grid",
+  "node_indices_sha256": "7b0425917118c10df92b3acd93d5102a5b27c7e0e3566ad4412cc137844d4da4",
+  "dimension": 97,
+  "parameters": 32,
+  "modes": 32,
+  "radial_block": 16,
+  "complete_rows_and_parameter_columns_evaluated": true,
+  "original_vs_memo_cold": {
+    "rhs": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0,
+      "original_array_sha256": "f9288a9b9481cac2ccf14815919ba8cc092be9953ff82de99f7b32716b9db9b8",
+      "cached_array_sha256": "f9288a9b9481cac2ccf14815919ba8cc092be9953ff82de99f7b32716b9db9b8"
+    },
+    "dy": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0,
+      "original_array_sha256": "9ead2523274906a75aecd5121c6974d53ad819f5863fcc91b063380d490ad164",
+      "cached_array_sha256": "9ead2523274906a75aecd5121c6974d53ad819f5863fcc91b063380d490ad164"
+    },
+    "dp": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0,
+      "original_array_sha256": "06f2a1d68143b6edeb4b9cbca240a06f0ee0947518aff72edccccdf9a3576f21",
+      "cached_array_sha256": "06f2a1d68143b6edeb4b9cbca240a06f0ee0947518aff72edccccdf9a3576f21"
+    }
+  },
+  "original_vs_memo_warm": {
+    "rhs": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0,
+      "original_array_sha256": "f9288a9b9481cac2ccf14815919ba8cc092be9953ff82de99f7b32716b9db9b8",
+      "cached_array_sha256": "f9288a9b9481cac2ccf14815919ba8cc092be9953ff82de99f7b32716b9db9b8"
+    },
+    "dy": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0,
+      "original_array_sha256": "9ead2523274906a75aecd5121c6974d53ad819f5863fcc91b063380d490ad164",
+      "cached_array_sha256": "9ead2523274906a75aecd5121c6974d53ad819f5863fcc91b063380d490ad164"
+    },
+    "dp": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0,
+      "original_array_sha256": "06f2a1d68143b6edeb4b9cbca240a06f0ee0947518aff72edccccdf9a3576f21",
+      "cached_array_sha256": "06f2a1d68143b6edeb4b9cbca240a06f0ee0947518aff72edccccdf9a3576f21"
+    }
+  },
+  "isolated_write_check": {
+    "returned_value_after_isolated_write": true,
+    "original_jets_after_isolated_write": true,
+    "original_theta_after_isolated_write": true,
+    "returned_arrays_writable": true
+  },
+  "times_seconds": {
+    "original_core_evaluate": 6.664091716000257,
+    "memo_cold": 3.936683283000093,
+    "memo_warm": 1.3568782789998295
+  },
+  "maximum_rss_kib": 376012,
+  "actual_memo_stats": {
+    "enabled": true,
+    "hits": 13,
+    "misses": 2,
+    "context_changes": 0,
+    "bypasses": 0,
+    "evictions": 0,
+    "context_key_seconds": 0.005250302999229461,
+    "original_evaluate_seconds": 2.6148732850006127,
+    "copy_seconds": 0.005062363998149522,
+    "max_entries_per_core": 2,
+    "max_bytes_per_core": 134217728,
+    "peak_cached_bytes_one_core": 12451840,
+    "peak_entry_bytes": 9961472,
+    "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+    "complete_instance_state_bound": true,
+    "complete_theta_bytes_bound": true,
+    "original_output_cache_side_effects_restored": true,
+    "returned_arrays_are_independent_writable_copies": true,
+    "quadrature_or_model_changed": false
+  },
+  "actual_fourier_cache_stats": {
+    "hits": 6,
+    "misses": 1,
+    "key_seconds": 0.010623328998917714,
+    "build_seconds": 0.43727369499993074,
+    "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+    "full_basis_and_frequency_bytes_bound": true,
+    "live_flow_or_physical_response_cached": false,
+    "shared_diagnostic_dictionary": false
+  },
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_material_core_cache.py": "028e868f3f66f02f05806213ad30dcf8d4b1047027ccf17ed58fb9bd4e0ae3a0",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea"
+  },
+  "BVP_solver_invoked": false,
+  "global_collocation_matrix_assembled": false,
+  "accepted_field": false,
+  "original_acceptance_gates_changed": false,
+  "snapshot_is_recorded_original_raw_input": true,
+  "resource_v4_block_qr_loader_integration_probe": {
+    "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/core-cache-v4-qr-probe-m32/run.json",
+    "source_run_sha256": "15f8c6357467e20b6b2aa2c77e388da257cf2cc5b87b59a0a36f286dd01ef463",
+    "probe_passed": true,
+    "solver_success": false,
+    "seconds": 21.067523513000197,
+    "original_all_node_domain_check": true,
+    "nodes": 944,
+    "BVP_solver_invoked": false,
+    "QR_factorizations": 0,
+    "cache_provenance_sha256": "7de91c994039f70f43d2922870d8000a717a0fdd2a92e0874518273c2d0dab17",
+    "actual_memo_stats": [
+      {
+        "enabled": true,
+        "hits": 0,
+        "misses": 2,
+        "context_changes": 0,
+        "bypasses": 0,
+        "evictions": 0,
+        "context_key_seconds": 0.0008851989996401244,
+        "original_evaluate_seconds": 6.4380295130004015,
+        "copy_seconds": 0.0012377109997032676,
+        "max_entries_per_core": 2,
+        "max_bytes_per_core": 134217728,
+        "peak_cached_bytes_one_core": 12451840,
+        "peak_entry_bytes": 9961472,
+        "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+        "complete_instance_state_bound": true,
+        "complete_theta_bytes_bound": true,
+        "original_output_cache_side_effects_restored": true,
+        "returned_arrays_are_independent_writable_copies": true,
+        "quadrature_or_model_changed": false
+      }
+    ]
+  },
+  "continuation_execution_handoff": {
+    "old_waiter_status": "cancelled_waiter_before_any_design_BVP",
+    "old_waiter_exit_code": 130,
+    "old_waiter_handoff_sha256": "37c7ca87ae87fda5da1f4dcabd194ae6c34991c6f0ae098d445c23a693d47dfb",
+    "old_waiter_started_BVP": false,
+    "new_waiter_record": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128-handoff.json",
+    "new_waiter_record_sha256_at_capture": "afc50f86b48c17184f6cb70ad4c157199ee110615b8d5c776cdf844f1b91415d",
+    "old_active_bootstrap_changed": false,
+    "new_dispatcher": "scripts/resume_20261128/design/run_design_qr_dispatch.py",
+    "new_dispatcher_sha256": "45a6d1649f25540e381ccc71fc1b79214bfe5903cbc1b8af67ebd029fa485ee2",
+    "new_resources": "resource v4 at every new stage; complete BlockQR additionally at M>=40",
+    "earlier_lambda_recomputed": false
+  },
+  "additional_execution_source_hashes": {
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_fourier_table_cache.py": "85a3482760f4771f97f7f596e56bdd77a6b16774676221ccd236fd43e7322887",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_qr_dispatch.py": "45a6d1649f25540e381ccc71fc1b79214bfe5903cbc1b8af67ebd029fa485ee2",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/resume_design_qr_from_bootstrap.py": "574ca4f19bc6258ef7d015d0797e95311124df954798556e7a0852f699c08579"
+  }
+}

@@ -4,9 +4,10 @@
 The original bootstrap or complete-lift secant controller owns its continuation
 targets, complete-field initializers, physical data, mode raises and every
 acceptance test.  Its portable children below the threshold use the independently
-recorded cached resource v3 driver.  At or above the threshold, the full original
-collocation system is factored by the separate block-QR driver, using resource
-v2 and an explicit radial batch size.  No column or equation is removed.
+recorded resource v4 driver with exact-input core integral memoization.  At or
+above the threshold, the full original collocation system is factored by the
+separate block-QR driver, using resource v4 and an explicit radial batch size.
+No column or equation is removed.
 
 This changes numerical linear arithmetic.  It is not a claim of bit identity or
 an accepted mathematical field.  The block-QR driver records every factor and
@@ -43,8 +44,8 @@ def main():
         'material_design_continue.py' if options.controller == 'bootstrap'
         else 'material_design_lifted_secant_continue.py')
     portable = scripts/'resume_m3/portable_prefix_continue.py'
-    resource = here/'prefix_resource_driver_v3.py'
-    base = here/'prefix_resource_driver_v2.py'
+    resource = here/'prefix_resource_driver_v4.py'
+    base = resource
     qr = here.parent/'prefix_block_qr_driver.py'
     qr_solver = here.parent/'block_qr.py'
     trace = None
@@ -56,7 +57,8 @@ def main():
         trace = out.with_name(out.name+'-dispatch-execution.jsonl')
         files = (Path(__file__).resolve(), source, portable, resource, base, qr,
                  qr_solver, here/'prefix_resource_driver.py',
-                 here/'cached_fourier_tables.py')
+                 here/'prefix_resource_driver_v2.py',
+                 here/'cached_fourier_tables.py', here/'material_core_evaluate_cache.py')
         with trace.open('x') as stream:
             stream.write(json.dumps(dict(event='execution_begin',
                 command=list(sys.argv), original_controller=str(source),
@@ -65,6 +67,7 @@ def main():
                 qr_radial_batch=options.qr_rhs_block,
                 original_equations_changed=False,
                 original_acceptance_gates_changed=False,
+                exact_input_core_integral_memo=True,
                 numerical_linear_arithmetic_changed_above_threshold=True,
                 complete_surface=False))+'\n')
     original_popen = subprocess.Popen
@@ -87,6 +90,7 @@ def main():
             decision = dict(modes=modes,
                 linear_factorization='complete_block_qr' if use_qr else 'original_superlu',
                 numerical_linear_arithmetic_changed=use_qr,
+                exact_input_core_integral_memo=True,
                 original_equations_changed=False,
                 original_acceptance_gates_changed=False)
         if trace is not None:
