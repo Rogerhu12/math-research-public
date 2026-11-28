@@ -52,7 +52,7 @@ Actions34：[run 46135301432/1](https://github.com/Rogerhu12/math-research-publi
 
 <!-- visible-larger-parallel-35:start -->
 Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46137993293)；[全阶段记录](notes/2026-11-28-public-actions-46137993293-1.md)。running；已返2，exit=未返。
-并行35规则核查：2026-11-28 14:16:32 UTC，真实pull至`cd53a85240dfd18843e186ba4de6a9b217982c03`，双README无变化。
+并行35规则核查：2026-11-28 14:21:34 UTC，真实pull至`f6843705382b7d86051e0f76ba39eba60ff3b723`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
 <!--r734-publish-->R734 [完整补录](notes/r734-actual-Hermite-46139111288-1.json)；双README真pull `f0c64cfc0a6eb6e1378c0b42bc38070378fbdcd0`。
 <!--r738-publish-->R738 [415片](notes/r738-actual-gap-46139897443-1.json) 双README真pull a9c5431fa8eef03034309c5cad77f7accac022a0
