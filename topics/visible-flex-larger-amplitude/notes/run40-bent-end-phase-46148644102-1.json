@@ -196,34 +196,34 @@
   "child_pid": 2569,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 3,
-    "utc": "2026-11-28T13:15:52Z",
+    "ordinal": 6,
+    "utc": "2026-11-28T13:16:09Z",
     "original": {
       "event": "stage",
-      "stage": 0,
-      "point": "6fb78b46b0983a07d5183a821ebaf3c2dd691f94a4c40bbec8969d706d9cd2c9",
-      "score": 2818.339538370984,
-      "gram": 9.135032045701506,
-      "K": 38287.37226017895,
-      "support": -1.0637522960275003
+      "stage": 1,
+      "point": "d71c994767568f85358266a339eb1d9ceec0621e0ef3468bc0292c9a99774ee8",
+      "score": 79387977.28696251,
+      "gram": 1929.8482581349583,
+      "K": 1083052464.4066625,
+      "support": -1.1060737573720687
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/field/summary.json",
-      "bytes": 4902,
-      "sha256": "411456a509654d1f5c7594bf53d11492a634e1f0da909be59ec661776266628d"
+      "bytes": 8069,
+      "sha256": "8cf3b16c6c5f4b5e0f3ced251c5ace9f37e700e07e7d39078d6e26c11a2deb5a"
     },
     "complete_small_json": {
-      "elapsed_seconds": 45.30468688299999,
+      "elapsed_seconds": 62.423555835,
       "in_progress": {
         "call": 1,
-        "cost": 42.69633928796229,
-        "design": "offset-cap-only-free",
+        "cost": 9.75489044757972,
+        "design": "legacy-developable-full",
         "knot_index": 1,
         "phase": 0.7853981633974483,
         "point_sha256": "641088987f5f2c244a4a925160ff63e443cd935518f89d1526949d9d65cd953a",
-        "stage": 1
+        "stage": 2
       },
       "numpy": "2.3.5",
       "params_sha256": "d9a5c7e543b187fc6ce00cad5b0ed1661a74ad6c9054d623b0f51675e708b4bd",
@@ -444,6 +444,209 @@
             ]
           },
           "zero_phase_sixjet_difference": 0.0
+        },
+        {
+          "all_time_check": {
+            "K": {
+              "chart": "cap+",
+              "index": 12003,
+              "phase": 1.1780972450961724,
+              "u": 0.2161193300256,
+              "v": 0.4691666666666666,
+              "value": 1083052464.4066625
+            },
+            "area_min": {
+              "chart": "cap+",
+              "index": 12003,
+              "phase": 1.1780972450961724,
+              "u": 0.2161193300256,
+              "v": 0.4691666666666666,
+              "value": 2.339053169327759e-06
+            },
+            "gram": {
+              "chart": "cap+",
+              "index": 12866,
+              "phase": 1.5707963267948966,
+              "u": 2.2561193300256,
+              "v": 0.75,
+              "value": 1929.8482581349583
+            },
+            "max_physical_correction": {
+              "chart": "end-",
+              "index": 10395,
+              "phase": 1.5707963267948966,
+              "u": 4.4630155540114,
+              "v": 0.016893067469889275,
+              "value": 0.2025082879502671
+            },
+            "support": {
+              "chart": "cap-",
+              "index": 17441,
+              "phase": 1.1780972450961724,
+              "u": 4.5930155540114,
+              "v": 0.7191666666666667,
+              "value": -1.1060737573720687
+            }
+          },
+          "check_phase_columns": [
+            "phase",
+            "max_gram",
+            "rms_gram",
+            "max_abs_principal",
+            "min_support"
+          ],
+          "check_phases": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              9.259259259259263,
+              0.1337907860455484
+            ],
+            [
+              0.39269908169872414,
+              161.1832216740281,
+              10.641073929580056,
+              85.63562262266052,
+              0.008142370924729692
+            ],
+            [
+              0.7853981633974483,
+              580.3678383232889,
+              38.23211818053282,
+              15255.553793185674,
+              -1.1060249905378543
+            ],
+            [
+              1.1780972450961724,
+              1202.3576342481977,
+              78.87137757648003,
+              1083052464.4066625,
+              -1.1060737573720687
+            ],
+            [
+              1.5707963267948966,
+              1929.8482581349583,
+              126.83136868840221,
+              84884.89475425522,
+              -1.105409606923716
+            ]
+          ],
+          "coefficient_count_per_phase": 282,
+          "configuration": {
+            "cap_degree": 3,
+            "check": [
+              69,
+              21,
+              15,
+              13
+            ],
+            "degree": 3,
+            "extra_check": false,
+            "id": "all-five-coarse",
+            "inner": 85,
+            "intervals": 2,
+            "max_nfev": 52,
+            "mesh": [
+              27,
+              11,
+              8,
+              7
+            ],
+            "regularizer": 7e-06,
+            "roll_modes": 3,
+            "roll_spans": 3
+          },
+          "design": {
+            "angle": "arc",
+            "central": "free",
+            "id": "offset-cap-only-free",
+            "mode": "cap-only"
+          },
+          "knots": [
+            {
+              "adjoint_abs": 3.469446951953614e-18,
+              "cost": 39.73035058308027,
+              "directional_fd_relative": 1.4460687258060896e-07,
+              "index": 1,
+              "nfev": 52,
+              "njev": 29,
+              "optimality": 54.111464497309655,
+              "phase": 0.7853981633974483,
+              "point_sha256": "1bdac09dd29ddb33fc29e78e5ca80a5baafca8e21e8d44f17d174eaa554e07ba",
+              "status": 0,
+              "train_gram": 580.3678383232889
+            },
+            {
+              "adjoint_abs": 8.440110832452774e-10,
+              "cost": 76.94240560181426,
+              "directional_fd_relative": 1.4361632813928988e-05,
+              "index": 2,
+              "nfev": 25,
+              "njev": 14,
+              "optimality": 21686.32008732866,
+              "phase": 1.5707963267948966,
+              "point_sha256": "0ec40860803ec1b847bf933a8544d7756767a76291eadd43f5a64c17a0c1338d",
+              "status": 3,
+              "train_gram": 1929.8482581349583
+            }
+          ],
+          "npz_bytes": 7314,
+          "npz_sha256": "92e400d02fa152c1745ee645874e4d825151d87b8b244ff39c4c0ff71bca5da7",
+          "point_sha256": "d71c994767568f85358266a339eb1d9ceec0621e0ef3468bc0292c9a99774ee8",
+          "previous_point_sha256": null,
+          "score": 79387977.28696251,
+          "shape": [
+            3,
+            282
+          ],
+          "stage": 1,
+          "time_data_sha256": "0d7d31e13447bbb5b53f61053604003afd523dffb09d2a496ecca66fd551327a",
+          "worst_gram_by_chart": {
+            "cap+": [
+              1929.8482581349583,
+              1.5707963267948966,
+              2.2561193300256,
+              0.75
+            ],
+            "cap-": [
+              1929.7672329356833,
+              1.5707963267948966,
+              2.2561193300256,
+              0.99925
+            ],
+            "cap-cartesian+": [
+              0.0005154852943042124,
+              1.5707963267948966,
+              0.59502,
+              0.0
+            ],
+            "cap-cartesian-": [
+              0.359513280458188,
+              1.5707963267948966,
+              0.59502,
+              0.0
+            ],
+            "cylinder": [
+              4.062795504092159,
+              1.1780972450961724,
+              2.4585222055711,
+              0.71
+            ],
+            "end+": [
+              4.0239445566045,
+              1.5707963267948966,
+              5.3130155540114,
+              0.16273249886461683
+            ],
+            "end-": [
+              3.834628295461223,
+              1.5707963267948966,
+              1.5886193300256,
+              0.16273249886461683
+            ]
+          },
+          "zero_phase_sixjet_difference": 0.0
         }
       ],
       "target": "The R747 common initial physical pullback on every original material point, no masks omitted in verification. This g, material chart and [0,pi/2] are identical in every design and refinement."
@@ -477,6 +680,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:15:06Z",
-  "observed_utc": "2026-11-28T13:16:00Z",
-  "original_scalar_line_count": 3
+  "observed_utc": "2026-11-28T13:16:22Z",
+  "original_scalar_line_count": 6
 }
