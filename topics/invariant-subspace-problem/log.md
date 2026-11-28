@@ -109,3 +109,9 @@
 - 825f负k整稿全文根核：有限μ/T的S0/D0小多项式矛盾，唯一U1/2 pole的jμ4=162再N5余−1；u0以β保分母全相消，μ±1各迫b=a/2或2a并由完整原N5排。所有原f常数定义保持来源，不误加物理f0。
 - 17:07:03 UTC实际pwd复探仍报No usable execution environment，已保存小回执并更新辅助源下次18:07；每轮Actions真部分克隆/pull/rebase/push及两README检查继续，不把API只读当pull。
 - Phi e8f679仅把§2两行孤立单$改$$，全文与25e79比对数学不变。剩余W三ray/内部、新Phi四元原关系、Haar实际列费用继续；普通ISP未完成。
+
+2026-11-29 01:12 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2085实际main 1cc9d7811459f5f6dca62745298ef01bdf883979，run46168967035/job141052791772；17:09:48 UTC pull 4d3e30ca0dea6f5f5b4f7b1cf6837c308036aa33两README无变，私库QUEUE核进行中。
+- 新正e k4pole首次源5716B SHA eb5463c4638bfa434add15bb7d2c3258353bee86fdc4a5bef569af3c67c1a147：E=e,Y=k−4,X=1/(2λ−3)，原q2·X²/Q、R6·X6、完整N5·X5；仅共同点原定义及完整四阶余项乘回，无旧三ray初始理想或gcd尾段。
+- 首次固定120秒/1GiB/外135；只在各分母实际单位后输出四阶式和≥五阶完整余式profile，未执行前不宣称最低面/单位/排空。新增题外workflow .github/workflows/invariant-subspace-8542-w-positive-e-k-four-original-local-jets.yml 仅执行本题源。
+- 新Phi四元原关系、W负e正k联合ray和Haar同列费用并行继续；普通ISP未完成。
