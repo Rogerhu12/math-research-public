@@ -816,3 +816,22 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 05:47:02 UTC — 25后续试步的实际统计返回
+
+真实trial `a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf` 于05:09:31.471972Z仅返回统计Phi=681.6450227773521、Gram=0.40616533555531326。当前仍e147626/accepted3/g.5235597907246015，完整已登记六族和source/model不变。至05:31:20Z该trial的完整geometry、接受和最终report未返，不能把目标统计改善当接受。实际alpha=1，phase=restoration。全部实际原字段、完整请求、进度错误和源/point身份由下面固定whole索引保留；没有读取或改动runner raw，也未中断原child。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 40853,
+    "sha256": "d2e7c1fbff39f1ef12de2f519ad6f7c8b6174d1822ddbeb816305efdca10d084",
+    "git_blob_sha": "740acbd5d551044fe76e30058140b13ac200665e",
+    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
