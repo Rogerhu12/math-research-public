@@ -1,0 +1,253 @@
+{
+  "schema": "complete-legacy-launch-array-metadata-retention55-delivery-v1",
+  "date_utc": "2026-11-28",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "prepared, complete unreferenced text blobs; root alone may publish exact deletion entries",
+  "fixed_restore_commit": "d38bc6187b9a81fc54a2126f3985b131a51d36ed",
+  "fixed_topic_tree_sha": "ac00e2fd9d735a9a7a2cd49a9b3f60eaef5fdb17",
+  "scope": "19 descriptive JSON objects only. No numerical raw/checkpoint/result, source, spec/config/request/ready or active data is retired. The 18 M94/M96 checkpoints and considered numeric reports remain untouched; the optional 2MB objective is not pursued across this boundary.",
+  "artifacts": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-native-parameters.json",
+      "bytes": 87770,
+      "sha256": "eb5266ebcfa0fa930913f0b7d4a55267c51ae88749faa1a549c693e4236c699f",
+      "git_blob_sha": "54d6c848946c3064da9835393834715c8f71c314"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-H-QR-parameters.json",
+      "bytes": 69589,
+      "sha256": "1294b90801a37d0cd7f3057898b3687e467b589683cef45b9bd855ef80d58765",
+      "git_blob_sha": "0510384fd49de492a07e8eff683ddd155decb2ad"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-provenance.json",
+      "bytes": 84480,
+      "sha256": "b6e0413cd30ce33517eea292f5f431fcc2616423be16f4f40fae1305c193dff1",
+      "git_blob_sha": "36997ba69a6106fa33b641182df447859d6dc715"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-legacy-launch-array-metadata-retention55.md",
+      "bytes": 17570,
+      "sha256": "aa2a3f4a359c60006d81d7f557da1089348bea19ab3f833c3ab4dc5fbd914f54",
+      "git_blob_sha": "ec3f03f36f7501090d57d06083851b0bff0437b0"
+    }
+  ],
+  "manifest_path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-complete-delivery.json",
+  "accounting": {
+    "retired_file_count": 19,
+    "gross_removed_bytes": 719337,
+    "complete_records_excluding_manifest_bytes": 259409,
+    "manifest_bytes": 13445,
+    "total_added_bytes": 272854,
+    "net_freed_bytes": 446483,
+    "excluded_M94_M96_numerical_checkpoint_count": 18,
+    "excluded_M94_M96_numerical_checkpoint_bytes": 740159
+  },
+  "complete_provenance_ledger": {
+    "path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-provenance.json",
+    "bytes": 84480,
+    "sha256": "b6e0413cd30ce33517eea292f5f431fcc2616423be16f4f40fae1305c193dff1",
+    "git_blob_sha": "36997ba69a6106fa33b641182df447859d6dc715"
+  },
+  "complete_original_parameter_ledgers": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-native-parameters.json",
+      "bytes": 87770,
+      "sha256": "eb5266ebcfa0fa930913f0b7d4a55267c51ae88749faa1a549c693e4236c699f",
+      "git_blob_sha": "54d6c848946c3064da9835393834715c8f71c314"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-launch-array-metadata-retention-55-H-QR-parameters.json",
+      "bytes": 69589,
+      "sha256": "1294b90801a37d0cd7f3057898b3687e467b589683cef45b9bd855ef80d58765",
+      "git_blob_sha": "0510384fd49de492a07e8eff683ddd155decb2ad"
+    }
+  ],
+  "old_readers_require_exact_Git_recovery": true,
+  "original_guards_relaxed": false,
+  "original_numerical_input_array_result_or_source_bytes_removed": false,
+  "known_original_artifact_availability_and_memory_only_factor_limits_preserved": true,
+  "original_request_bytes_and_saved_wrapper_identity_distinct": true,
+  "source_texts_and_metadata_only": true,
+  "scientific_computation_AST_fixture_or_benchmark_performed": false,
+  "refs_or_queue_written_by_construction": false,
+  "no_new_scientific_gate": true,
+  "fresh_root_publication": "Check the fresh current path/blob/size against every exact entry below. Restore candidates from the fixed commit at their original paths for historical reader replay. Root publishes only an ordinary non-force successor and keeps every unrelated path.",
+  "delete_entries": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "5608cb68dbed10d1c5ba6407b076ef6c387c574c",
+      "expected_old_bytes": 34883,
+      "expected_old_sha256": "59b64f844f1512bfd6231b006dac9267021f82e73217a5cd3b05efc687d49ad0"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "1cfbe32d9d772ee088179888722b8af2a47e888c",
+      "expected_old_bytes": 35607,
+      "expected_old_sha256": "31332ed47465a6c64b3e8a097ee0b0cea273fb665b80c5dc913f59a9d0e5deb7"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "6dcf0b706de6e1aad4a187467d00b94c592e4b9b",
+      "expected_old_bytes": 36719,
+      "expected_old_sha256": "a694333e969f1cc3ae463161ead650d00ae889e7ce9e2c08c378416cfc001357"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "57f6bd95e19eb0c930294e4fa5407c118d4b2483",
+      "expected_old_bytes": 42808,
+      "expected_old_sha256": "19f886ed5baf101ed4cc3b053b9d7a67645578ca1434fe5acd50ef9f81ed6cd5"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "ad57c4f2759fd8df343d149369955ac2fa36e098",
+      "expected_old_bytes": 30254,
+      "expected_old_sha256": "16f19de4c1e1ae3c904106956e278d2bfa92f0fc7e297fa78cced8fb86f6aac4"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43619564953-1-nativesplitprobe/native-same-schedule-split-probe/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "3eb8664f190fa74dea0c564ad405b6abaece084b",
+      "expected_old_bytes": 37544,
+      "expected_old_sha256": "2508f31cd39433df803163573261bf40bfac081d98567a11afadb2d7c647a7e7"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43630351235-1-stage43probe/native-stage43-local-j-probe/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "b6c8021a47f8bf3ebc6595331b72ec187f009fb9",
+      "expected_old_bytes": 34668,
+      "expected_old_sha256": "94cb0563a644eff3aefd5f583946b82ce7efe1955ba6ed1dd04af3c40b2bf0ea"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43636504089-1-directldtrial/native-direct-ld-trial/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "96a4e98f68e3bb89a951f03858132f4b4c5d9053",
+      "expected_old_bytes": 31523,
+      "expected_old_sha256": "0b42015031a38756741f71aae742bf7a1d73cc981003ef6c5ece8fe1a53e54ff"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "9db3218c602b2be65c40353210ad8f14ba5d1c6b",
+      "expected_old_bytes": 31524,
+      "expected_old_sha256": "c0b041c6a7cf989c28c75a2c475a3881f37f7c131af6070841250bf448bce95b"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43640772654-1-original576damped/native-original576-damped-chain-original-trial/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "6366322a1dad7048002bb16bc9cabe28ef4d8155",
+      "expected_old_bytes": 29582,
+      "expected_old_sha256": "9797a0e5ffe1e42af0e74f32b4debf8e4b3d92d5e415b623f652624a40700e62"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43645948199-1-current576native/native-current576-damped/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "61642840c80fcae012973eda5f30fb0bdb49a2d4",
+      "expected_old_bytes": 26382,
+      "expected_old_sha256": "304e534757867aaf762c46bb04e90fe380d36da509158ac5afb4453fb65672d9"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "d0771fe4a4869517ed3e5aa4f65ec9696c37c65a",
+      "expected_old_bytes": 24657,
+      "expected_old_sha256": "27b98db92f65acab8c7516207f231892e3f8a8ce65801c7cc0b14fe88ad995f9"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43668743706-1-modelresponse/actual73-realized-trial/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "72264d17fbb438ce478b19333a12a17e4b60ea1c",
+      "expected_old_bytes": 16495,
+      "expected_old_sha256": "5c3d96e4752e305ff89eb04dd67abc88b37dadbc64c56beaa42fc1c20ba0b9a3"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43675377211-1-current576native/native-word-first-current576/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "269f50acf10d98c87bea4de3aad1386e9e2c9435",
+      "expected_old_bytes": 24576,
+      "expected_old_sha256": "7fb422bc00ad726b16e73c0a00d5d89c6280e163f3b2effab3c8546a010612dd"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43614132961-1-fullhprojection/full-H-warm/full-H-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "22a9bb3d18cec9d8a801bf8e73cc46fe708edcfe",
+      "expected_old_bytes": 38176,
+      "expected_old_sha256": "95e205c7ef90bbfba08817daf248f464a26a88d8ff4ea0f001a6f3909b84f852"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/block-qr-inverse-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "166d960a1911a40487807445d163434a4b35e3f2",
+      "expected_old_bytes": 48724,
+      "expected_old_sha256": "ebf3f6695745aeeff0fcaad0d95707b32999ef6d0e34ed14fb71d68908873fa4"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/full-H-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "8cbe24afca7a1126ebf5095fa2eec82bec7e5cb6",
+      "expected_old_bytes": 46185,
+      "expected_old_sha256": "b6c1906374304f391a8c762df7f499888616a53ed692abb26eb0c43069bf2d3d"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-twelvequeryqr/twelve-query-qr-warm/block-qr-inverse-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "27da1ebcf8d7f2f0184ca9cc57f5f426ed67ee4b",
+      "expected_old_bytes": 85076,
+      "expected_old_sha256": "5678bddb30284ea3419db69c82291ddfa3300976e55c92e660bae413022b0086"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-twelvequeryqr/twelve-query-qr-warm/full-H-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null,
+      "expected_old_git_blob_sha": "3734359a40f24624cd8498571164329da64e53bb",
+      "expected_old_bytes": 63954,
+      "expected_old_sha256": "509fbdb2a82a71511ec1ad85f0d25a03dc03de047624c6bfa43093db5ee07356"
+    }
+  ],
+  "complete_candidate_records_json_pointer": "/candidates in complete_provenance_ledger",
+  "complete_excluded_checkpoint_records_json_pointer": "/exclusions/eighteen_actual_numerical_middle_checkpoints in complete_provenance_ledger",
+  "current_tree_payload_boundary": "The H/QR directories index artifact-only arrays; the exact NPZ paths were already absent from this fixed tree. No array/result payload is being retired, no fresh archive availability is asserted, and the entire original result notes/parameters/recovery contracts remain. Candidate descriptions themselves have fixed exact Git-byte recovery."
+}

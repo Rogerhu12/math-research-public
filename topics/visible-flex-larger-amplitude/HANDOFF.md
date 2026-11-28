@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难均非终点。**
-此前H全部原字/源参数/失败未知保[12d43全文](https://github.com/Rogerhu12/math-research-public/blob/12d43bd3fed736a20e1303c0de6d167fe2ade2f3/topics/visible-flex-larger-amplitude/HANDOFF.md)及其全部a02b/58c6/0c51/4ee986/cc312链；open§1–6及全notes不重做已登记数学。
+此前H完整源/参数/失败/未知及所有原链保[58c09全文](https://github.com/Rogerhu12/math-research-public/blob/58c09c50200448fb244dc7a38134c7f5733e73c2/topics/visible-flex-larger-amplitude/HANDOFF.md)与[12d43全文](https://github.com/Rogerhu12/math-research-public/blob/12d43bd3fed736a20e1303c0de6d167fe2ade2f3/topics/visible-flex-larger-amplitude/HANDOFF.md)及其全部a02b/58c6/0c51/4ee986/cc312链；open§1–6及全notes不重做已登记数学。
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效；15:03及21:33重置后唯一探测均失败，恢复即真pull。云核至`c90162a6fd4848015b4d7d2972f85e13af0492a5`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新diff立刻遵守、至少每小时；活17–21通常5分钟真pull，已读commit末槽全保；终态12–16末槽保各完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效；15:03及21:33重置后唯一探测均失败，恢复即真pull。云核至`49068887c5795dab3172fb0eafd81ffc2e900e33`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新diff立刻遵守、至少每小时；活17–21通常5分钟真pull，已读commit末槽全保；终态12–16末槽保各完整终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并循环、不冒pull/force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出/typed和未知保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立AST/fixture/重跑/审查门，不减科学目标/原预算。
 
@@ -34,13 +34,13 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 当前geometry5730/batch9104/driver10fa/reader8027/launcherf600/inputd892；137角色/18完整源、原120pairs、157/7argv、458/445formal、48live与全部预算不改。18三入口失败及根常量传播遗漏完整保原note；20只恢复μ.001，metric.01；21只width1/2→5/8，maker/reference固定g原数学不动，原5支持CLI与全部external未知责任保。
 [21完整后参](computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json)、[21矩mesh](computations/fixed-fejer-bfiveeighths-complete-moment-mesh-parameter-delivery.json)全刊；19/20全部原ready/源/预算见各全note及[c6fc完整H](https://github.com/Rogerhu12/math-research-public/blob/c6fc7f507e432a35cd4e2e67d11c8679ef97531b/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 [R723完整独立源及19参](computations/R723-directional-closed-grip-R716-complete-delivery.json)、[20 R723参](computations/fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json)已刊1782/3c0d；旧八角色不冒通过，新五角色单列。定理已证不代真实支撑/曲率；R718用marked实际σ，R716独立unmarked外管/正V/非零中心不变量仍待付。R721无Gram/主曲率排序。
-[19/20完整restart](computations/current-bhalf-complete-same-source-restart-delivery.json)仅真complete同源report/匹配全13final、同runner全原输入源/typed/history；partial/accepted-only/packet不足。136共同argv+4原restart词保全预算，原21模式词/peer原义全保；CLI阻尼不会自动继承父末μ。science+pure超过95k，待真正返回后整步分期接，不删参数。
+[19/20全restart](computations/current-bhalf-complete-same-source-restart-delivery.json)仅同runner真complete同源report/全13final及全输入/typed/history；partial/accepted/packet不足，CLI不继承末μ。原136+4词/模式/peer和全预算不减；science+pure超95k，真返回后整接pure。
 [完整续费路径合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：normal同outdir可换step_id，但须首次normal原repo绝对路径/同科学report/snapshot/全绑定。G绑定稳定whole normal与自己首次源路径，N变SHA不可原目录重绑。R723/mesh每次fresh；首次下游可freshrepo但重读原件。现mesh32词无附证；未来R723附证需独立兼容源，旧002eb分支不冒新角色。
 费用须付normal32/1024整圆/922径向+cuts/六jet/全尾/working、上下两帽/mixed/allphase、唯一主副件和晚失败。normal.complete不代连续branch、mean J不代Cu、旧R709 bool真实。实际五t/三级空间/频率/时间/完整mesh仍全待；03–11所有P0/G/typed/未知历史、发现序与失败保全旧链。
 
 ## 容量、分工与继续
 
-ret53精退28可逐字Git恢复旧生成对象净1822833B；ret52/51和所有旧批完整源/全参数/输入/失败/消费者/恢复台账保旧H全链；两canonical及parent91留树，ports/Nelder/活源输入不动。ret54精退18旧生成件净1113720B，全部whole源/请求/科学输入/真实失败及exact Git恢复保全，容量供21完整启动/后参；每fresh树核200MB。
+[ret55完整账](computations/legacy-launch-array-metadata-retention-55-complete-delivery.json)精退19旧描述JSON净446483B；18个M94/M96真检查点及全数值report不退。ret53/54及旧批全部源/参数/输入/失败/消费者/恢复台账保原H链，两canonical/parent91/ports/Nelder/活源全留；每fresh树核200MB。
 root独占refs/queue及实际求解承接；construction容量完整保全，solver原完整QP/恢复实质分析，geometry完整R723可选mesh兼容源。全部原log/open整卷链已保，持续做到README标准。
 
 <!-- visible-larger-parallel-17:start -->
