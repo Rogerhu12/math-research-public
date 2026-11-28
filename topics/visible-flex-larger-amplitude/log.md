@@ -121,3 +121,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:16:28 UTC — 26半步完整几何拒绝及四分之一步统计
 
 26半步adf3c9完整g5.332641076605335/最大reach拒；新5a9e64 alpha.25仅Phi596.4160169241168/Gram.41696260414399655，当前初7e06/accepted0不变。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`130ead2b77bec2825084c69d717175ff432cce01`无变（非pull）。
+
+## 2026-11-28 06:16:33 UTC — 28第二个完整恢复步实际接受
+
+28 0927d本run真实accepted2，Phi681.6473711639321/Gram.40616528955370923，reachg.5237169415657044/distplus.11392286053783374，完整六族仍不可行。K12.271500016996072/Dlower4.117173775187578/cell885/u.9662347571015759/phiπ/2/branch1/s=null；report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`38461005daf79092fc656b7ef62a0c6f41ecaa2a`无变（非pull）。

@@ -811,3 +811,94 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 ]
 ```
+
+## 2026-11-28 06:16:33 UTC — 28第二个完整恢复步实际接受
+
+0927d的完整几何和接受已在本run/model61c654实际返回，接受数2。该结果独立于其它run，不由相近统计推断。完整六族仍有reach和distance_plus正值，report未完成；K的s未投影，保持null。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-demanded-bhalf-first-20261128",
+  "scientific_source_commit": "b1a8554a9d88dc176f7295eab4bed9f73f65e3f2",
+  "scientific_source_sha256": "2a94d33f37356be25fbed93b79b85b4664490b464d7d5fb5acb3edb13db3e22b",
+  "pid": 3331,
+  "observed_utc": "2026-11-28T06:12:40Z",
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "mathematical_observation": {
+    "math_at": "2026-11-28T06:11:31.864450+00:00",
+    "math_event": "current-geometry-returned",
+    "math_driver": "d1c99f555e480a0b37fcefee98e1261033bed0b4bb6a7f681f8da345e5ae46ab",
+    "math_model": "61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7",
+    "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+    "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_Phi": 681.6517423825409,
+    "initial_Gram": 0.40616525311769985,
+    "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_violation": 0.5305849371949052,
+    "initial_geometry_complete": true,
+    "current_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+    "current_Phi": 681.6473711639321,
+    "current_Gram": 0.40616528955370923,
+    "current_geometry_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+    "current_violation": 0.5237169415657044,
+    "current_geometry_complete": true,
+    "current_state": "accepted restoration checkpoint returned; final report not inferred",
+    "trial_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+    "trial_Phi": 681.6473711639321,
+    "trial_Gram": 0.40616528955370923,
+    "trial_geometry_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+    "trial_violation": 0.5237169415657044,
+    "trial_geometry_complete": true,
+    "trial_accepted": true,
+    "accepted_directions": 2,
+    "complete_report": false,
+    "stop_reason": null,
+    "observer_failures": 0,
+    "current_g_reach": 0.5237169415657044,
+    "current_g_body_diameter": -0.038136317601933256,
+    "current_g_distance_plus": 0.11392286053783374,
+    "current_g_distance_minus": -3.0936337271355727,
+    "current_g_cap_diameter": -0.06715165785312127,
+    "current_g_height_floor": -1.0411711655855374,
+    "previous_completed_trial_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+    "previous_completed_trial_g": 0.5237169415657044,
+    "previous_completed_trial_accepted": true,
+    "previous_completed_trial_maximum_families": "reach",
+    "previous_completed_trial_Phi": 681.6473711639321,
+    "previous_completed_trial_Gram": 0.40616528955370923,
+    "current_K": 12.271500016996072,
+    "current_D_point_lower": 4.117173775187578,
+    "current_K_cell": 885,
+    "current_K_u": 0.9662347571015759,
+    "current_K_phi": 1.5707963267948966,
+    "current_K_branch": 1,
+    "current_K_s": null,
+    "trial_K": 12.271500016996072,
+    "trial_K_cell": 885,
+    "trial_K_u": 0.9662347571015759,
+    "trial_K_phi": 1.5707963267948966,
+    "trial_K_branch": 1,
+    "trial_K_s": null,
+    "trial_alpha": 1,
+    "trial_phase": "restoration",
+    "current_distance_plus_phi": 1.5707963267948966
+  }
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1.md",
+    "bytes": 39151,
+    "sha256": "829b47d57439813815e9acc590237dc08c838a34465762e39b7d0bb1b997cf01",
+    "git_blob_sha": "8e1563ca327671b3f98505c7140c2b28837cd497",
+    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
