@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R297：真实出口与全部 128 物理格的连续主曲率](results/R297-actual-432-entire-true-core-continuous-principal-curvature.md)（2026-11-28）：R297真实Γ95出口含弧逆与母线相移，九端差付清；全部128物理格/全部材料角正定性外包+R267，整核及新帽所有相位|κ|<10.41，远层非局部仍另付。
+
 - [R296：实际 432 场的完整新帽、直径与两强比例](results/R296-actual-432-higher-cap-strong-distances-and-sharper-diameter.md)（2026-11-28）：R296 真432与整R293帽，近2500万闭盒及真实帽角点给D≤3.1644，δheld/D>.20607856、δE/D>.05255245；完整法管与同g精度另付。
 
 - [R295：整数极径张量和真实无穷平领的全相位嵌入](results/R295-integer-separated-meridian-tensors-and-the-real-infinite-cuff.md)（2026-11-28）：四张全闭图同时支付双强形变比；最终场 16418688 个非邻闭格对全付，移位实际度量峰 .122886。
