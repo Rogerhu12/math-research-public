@@ -105,8 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 已终态实际计算
 
-[截至RET100E的完整终态表和全部链接](https://github.com/Rogerhu12/math-research-public/blob/dd3eff70a36443229b76901467d4ccd5091c3d42/topics/visible-flex-larger-amplitude/open.md)保19–32每次自身源/模型/点/六族/K/原预算、失败及未知；各完整own note仍在。19science/pure0、N1无report；20–26cancelled；27/28/29/31/32failure。其他run原因不从33借用。25原accepted4、restart0；26/29/31 accepted1，27 accepted3，32 accepted0，末trial统计不冒final。26/27/29/31/32无自然final/typed，whole pure未执行。28原science/pure0而新R729 continuation仅started；其whole final/源比较合同不证明未返新场。[五旧run自身日志归因](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)现已逐条确认真实pull后的README核查异常；未返科学结果保持未知。
-
+[完整旧终态表](https://github.com/Rogerhu12/math-research-public/blob/dd3eff70a36443229b76901467d4ccd5091c3d42/topics/visible-flex-larger-amplitude/open.md)保19–32每次自身全源/模型/点/六族/K/预算/失败未知及own note链接；未返科学结果仍未知。19science/pure0；20–26cancelled原因未知；27/28/29retry/31/32由[各自日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认真pull后README核查异常，非自然科学final。28只有原science/pure0，新R729仅started；26/27/29/31/32无自然final，pure未执行。
 完整[S/core-law90项](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary旧错保留；异source/model不借同坐标结果。
 
 ### 正在执行
@@ -123,13 +122,15 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)：冻结R730全相位reach<.016、D>3.88；水平/帽相对高度各改≤.025仍reach<.0285。仅约束参考及该邻域，不约束任意outer场。
 [R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)：圆肩新参考付帽混合/反向.126球、原末带Gram、正确core jet、D/双held/δE；中央Gram及中央/中央、中央/圆肩reach未付。新源独立34。
 [R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)：真实非圆core/两帽正宽准确Gram，柱内.18球/core对全像两向.126球；移动接口全jets保，core宽未数值包围。
-[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。首run46136563673全415片实际约2秒算完，严格正有理T*、合作前缀0已由自身完整日志恢复；卡在发布容量统计并超时。现原数学不变，以远程树全量metadata修复发布，重算补齐全小report；不替R733拼接宽。
+[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。[实际补发46139111288/1](notes/r734-actual-Hermite-46139111288-1.json) success，T*=1.1294006338228755e−5、原415片无未知、合作前缀0；raw与首run完整SHA相同。原科学不变，发布故障已修；不替R733拼接宽。
 
 [R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷每个m≥2确有非零平坦帽端线性弯曲，完整半周期精确传递/反向连分式证明并给唯一径向线；有限非线性及双端匹配未付。
 
 [R736](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md)强迫逆包含mean及全部有限高模，给同g单帽兼容任意有限非线性阶；误差只对振幅平坦，固定非零幅度/双端尚未付。
 
 [R737](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md)新metric已得两帽全闭精确等距非全等有限端点对及reach/grip，仍缺贯穿同g连续路径、.2D held与cut实际数值。原固定g/34/新圆肩求解独立继续。
+
+[R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)从零特征差给非合作真核逐叶延拓和无条件T†，双侧max(T†,T*)内.16球；实际长前缀与全域/接帽/强held另付。
 
 R724–729源/证明、R726/R727准确核心9件、其N/G11及下游23、R728准确N/G14及下游24完整路径/身份/条件保旧open。R730准确长度/逆弧长核心4及N/G16完整保护，未有actual费用。参考角jet不代实际角向Gram，normal.complete不代连续branch。
 

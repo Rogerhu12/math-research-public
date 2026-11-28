@@ -4,13 +4,15 @@
 
 ## 新增结论
 
+- **R738（已证明，原真核非合作延拓）**：[两特征差、角梯度及逐叶延拓](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md) — 完整同角差满足 ∂s(kaW)−cKUVkaW=K(UV)θ，W初为零、带权角导<64，负耦合只付∫A_-|W|；给逐闭叶向外有理比较及无条件T†=min(w,.001,k₀/[2(1+B₃)])≥min(w,.001,10T*)。max(T†,T*)保全双侧.16球；更长前缀/穿K=0/接帽/全域reach和强held未付。
+
 - **R737（已证明，新设计度量的闭面等距端点对）**：[双帽匹配与有限精确等距非全等对](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md) — 原深谷稳定线的项目角无界绕行，连续择真实cut使圆肩赤道 $W=0$，镜像得两p4帽固定的全闭非刚无穷小弯曲。固定小 $\epsilon\ne0$ 的 $F_*\pm\epsilon Y$ 精确共享 $g_\epsilon$，均闭 $C^2$ 嵌入、reach $\ge.046>.03D$、$D<1.5$、grip $\ge.9$、两像及欧氏商距离正。新metric只在两末段保R690；未证贯穿等距路径、$.2D$ held或cut的数值复现。
 
 - **R736（已证明，单帽兼容全部有限非线性阶）**：[实际深谷的全阶固定帽等距jet](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md) — 稳定线 $\log|y_n|/n^2\to-2\pi$，任意 $\sigma>2\pi$ 的强迫逆保同衰减类、含零模及高模；逐阶解全部三Gram，得到同g/同材料段的兼容任意阶非零形式族及光滑振幅实现，帽全jet固定。误差只按振幅平坦，未证固定非零幅度收敛、另一端闭合或全像大位移。
 
 - **R735（已证明，实际单帽非零线性核）**：[原深谷帽端的平坦无穷小弯曲线](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md) — 实际R690无限振荡尾对每个 $m\ge2$ 均有非零 $C^\infty$ 帽端全jet平坦解；正Hamilton双半周期精确传递与反向连分式给 $e^{-c n^2}$ 稳定线，Wronskian证每个实角parity恰一径向线，能穿越 $a,c>0$ 内区间。$m=0,1$ 固定帽为零；未积分成有限flex，未接非圆core或另一帽。
 
-- **R734（已证明，可算宽公式）**：[同g双曲延拓、真实首片宽与法球](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md) — Gauss–Codazzi对角运输的和权角梯度消去两二次项，正值矩形足够跨真实quintic；合作区比较 $y=a/\sqrt{r^{-2}-a'^2}$。真首两knot给有理 $T_*$ 保证全角双侧等距嵌入带、$|II|\le5$ 与全部带内 $.16$ 球。$T_*$ 与415片实际前缀待公开运行；不替R733拼接宽，不代全域完成。
+- **R734（已证明，可算宽公式）**：[同g双曲延拓、真实首片宽与法球](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md) — Gauss–Codazzi对角运输的和权角梯度消去两二次项，正值矩形足够跨真实quintic；合作区比较 $y=a/\sqrt{r^{-2}-a'^2}$。真首两knot给有理 $T_*$ 保证全角双侧等距嵌入带、$|II|\le5$ 与全部带内 $.16$ 球。[实际完整415片补发](notes/r734-actual-Hermite-46139111288-1.json) 已success，$T_*=1.1294006338228755\times10^{-5}$、合作前缀0；不替R733拼接宽，不代全域完成。
 
 - **R733（已证明，宽度存在）**：[准确非圆核心带与对全闭像法球](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md) — 从真实第一quintic构造全角解析等距带，log cutoff接 $.26$ 高柱、柱内双向 $.18$ 球；中央逐角重解 $S-L_{cap}-L_{core}(\varphi)$ 并保移动接口全部角/混合jet。原末带、双held、$D$、$\delta_E$ 保留；准确core collar每点对全闭像两向 $.126$ 球成立。正宽未数值包围，不是J923实跑输入；中央全域同g/余reach仍未付。
 
