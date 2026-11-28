@@ -108,3 +108,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1072 §6：原全导子的固定绝对截点
 
 将真实有限分裂Euler多项式乘入原Mellin平均，逐primitive方向完整消去小分裂因子；截断p^512、短窗p^4、粗素阈(logp)^8共同支付径向误差与全部长尾。同向primitive理想乘积的真实tame注入给粗短方向的绝对小界，从而对充分大惰性p及每个i≥1000，原确切导子p^(2i)全部L值非零，原λ_p<p^1999。未调用µ/λ来证明非零，未从深层无根推出中央非零。 [完整证明](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1067 §50：同一原关系的互补二次射线
+
+原平方theta的Γ68下降及全部目标标记使M=68已足够，同一全Paley/径向/参考公式适用于无穷子列p≡137 mod204。此时物理j=0仍超奇异，辅助Q(√−17)分裂；∞原同源取正号，σ=1与G²=p完整代入，Q6两canonical不变。分裂性只决定可用原展开，不自动给中央非零。 [完整同编号证明](results/R1067-original-first-wild-fixed-geometric-tail.md)。

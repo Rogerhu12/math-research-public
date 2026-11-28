@@ -1167,3 +1167,41 @@ $E_d=c_d\in p$，从而 $E_{2d}$ 整，且
 $E_{2d}\equiv3\kappa E_d/p\bmod p$，三个常数均已用固定原参考读定。
 $E_{2d}$ 是 $4d$ 物理权，不能把它与 $2d$ 物理权 $E_d$ 混同。
 完整 Gaussian Newton 也在这两个物理权中包含同样两位，故(Q6)不是额外独立坏条件；(P9)给出的则是原两个模函数在全部 $Z$ 变形阶的实际对应。仍需证明原第一种或第二种 canonical 单位在无穷个 $p$ 出现，或用更深 $J'(0)$ 证书。
+
+## 50. $p\equiv137\bmod204$ 上的原 $\sqrt{-17}$ 普通子列
+
+本节仍用原 $f,g,\widetilde P$、三乘积、物理热尺度 $68,4$ 及(127)的共同分子，保留§§29--45原固定水平覆盖和其各个已选择的局部支。另取
+\[
+ p\equiv137\bmod204,\quad M=68,\quad d=p+1,\quad N=d/2,\quad h=N-1.
+\]
+$137$ 与 $204$ 互素，故删去先前固定的有限坏集后仍有无穷个这种素数。此时 $p\equiv-1\bmod3$、$p\equiv1\bmod68$、$p\equiv5\bmod12$，所以物理 $j=0$ 仍超奇异，而 $\chi(-17)=1$，此即§31的 $K'=\mathbf Q(\sqrt{-17})$ 分裂子列。
+
+辅助传输的 level $68$ 足以确定(P1)两个未平方 theta 的共同支。证明只用 $\Theta_f^2,\Theta_f\Theta_g,\Theta_g^2$ 的整权一双格下降。三种双格的判别模都是 even signature，level 整除 $68$，Strömberg Lemma 5.12 的 $\Gamma(68)$ 作用为恒等；固定冻结系数照旧。局部 $\widetilde g(0)=1$ 和(P2)校准所有平方根。故在此选择 $\tau_j=(\tau+68j)/p$，并不缩小原定义 $f,g$ 或固定权三 $\Phi_{f,g}$ 所在的覆盖。
+
+有限相位分别为 $\zeta_p^{jx^2}$、$\zeta_p^{17jy^2}$。$p^{-1}a=a\bmod34$，参考的二标记同样固定。由 $\chi(17)=(p/17)=1$，得到
+\[
+ \epsilon_f=\epsilon_g=1,\qquad \sigma=\chi(-1)=1,\qquad
+ W_\infty=\mathfrak G F(p\tau),\qquad \mathfrak G^2=p .
+\]
+于是用同一 $v_j,v_\infty,C$ 有 $CW=\mathfrak G W,\ C^2=pI$。有限和无限分支所运的 full level 矩阵现在都是单位，因为 $D_f=\operatorname{diag}(1,p)$、$D_\infty=\operatorname{diag}(p,1)$ 在模 $68$ 全为 $I$。选源 $M$-标记为指定原目标标记在相对 Frobenius 下的唯一逆像。这次无限同源按原复格取 $z\mapsto pz$，其微分因子为 $+p\lambda_\infty/\lambda_s$，正是 $\mathfrak G^2\lambda_\infty/\lambda_s$。相同的 $\epsilon_f\epsilon_g=1$ 同时给混合平方。因此全部带标记商都有同一特殊 Frobenius，不出现逐支未识别的 level 或相位。Reed--Solomon 核、$g(0)=1$ 和 $P^2-L^{2h}$ 的零数论证原样固定共同计号。
+
+(P3)在此为 $b_rb_{r+d}=p$，(P4)仍给准确半数单位与半数一位 $p$。$\sigma$ 的改变已在
+\[
+ u_j=b_{-2j-1}/(\epsilon\sigma\mathfrak G y_*^N)
+      =b_{-2j-1}/(\mathfrak G y_*^N)
+\]
+中保留；所用 $u_j/u_0$ 不变。(P5)--(P8)只用原 CM 域在 $p$ 的未分歧二次性、其 canonical lift 和原 Hasse 简单零，故整旋转框架、估值 $v_p(\mathfrak c)=1$、$c_N=E_N,c_d=E_d$ 均成立。在(G6)的估值核验本子列取 $e=5$，$B/t$ 在 $t^d$ 范围同样整。由此前的全变形证明，(P9)、(P13)--(P15)对这个 $\sigma=1$ 的实际 $u_0$ 全部成立。最后 $17^N\equiv17$，所以同一参考证明仍给
+\[
+ \kappa=p[t^d]A\equiv-(pc_\sigma)^2,\qquad
+ \mathfrak c/p\equiv-1/\kappa,\qquad
+ \gamma\mathsf a_pu_0\,\mathfrak c/p\equiv-\mathsf b_p\pmod p .
+\]
+特别当 $g_1\in p$，本子列也准确有
+\[
+ {j_1\over p^2}\equiv{2\mathsf b_p\over\gamma^2}
+ \left({E_d\over p}-{E_{2d}\over3\kappa}\right),\qquad
+ {j_2\over p^2}\equiv{\mathsf b_p\over\gamma^2}
+ \left({E_{2d}\over3\kappa}-{E_d\over2p}\right)\pmod p,
+ \qquad E_{2d}={(4d)!\over68^{2d}(2d)!}\alpha_{4d}.
+\]
+这里的 $K'$ 分裂性规定哪些原 harmonic 格点展开可以进一步使用；它本身没有推出这个中央差非零。
