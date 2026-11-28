@@ -287,3 +287,7 @@ R748证明9116B/8982fae4…及完整六jet源1809B/94724585…全文核读刊入
 ## 2026-11-28 13:52:21 UTC — 33四分完整几何拒绝、八分原统计返回
 
 原固定索引 a76443ffc21bf79feb648c6c414577a47069f0fc / 60399B / 780972948402f32ca6104ef370f0c7f499dd02e298918bfa45eecc9703ef6eb7 根完整读取。[33](notes/2026-11-28-run33-section16-retry.md) 46133839513/job140944661119：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。 完整原math_event逐字段入ownnote；旧source/model/point/原budget均保，不混借同坐标，不把后续trial当接受点；自然science未返，pure未启。 双README云核至`74122e3f5bd6956e6665686ce0f8fdab930d8928`无变（非pull）。
+
+## 2026-11-28 13:52:27 UTC — 34半步完整几何拒绝、四分试点启动
+
+原固定索引 a76443ffc21bf79feb648c6c414577a47069f0fc / 52547B / 7856142c7f1721dc3f048c01fea3cc0881d98587247b96fc901707950b82f2da 根完整读取。[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432/job140949157288：原全预算/139角色，accepted0；半步ea4bb111完整reachg300537.3169553407拒；四分8d07925e原trial已启，统计/完整几何未返。自然返才pure66120。 完整原math_event逐字段入ownnote；旧source/model/point/原budget均保，不混借同坐标，不把后续trial当接受点；自然science未返，pure未启。 双README云核至`fe02f23f796bfa10dfb93f8ee49fac02cd28b990`无变（非pull）。
