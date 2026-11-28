@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `e9083c90000316e09cd6efda8cae908bd5bf0bb3`（2026-11-28 15:42 UTC）。
+- 最近实际pull后双README已读锚 `50dc4e9cbbca5f001e6ce7180895c34847bc26be`（2026-11-28 15:43 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
 - 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`；断线时只传小文本，不是假称本地pull。恢复后的实际pull已收齐所有回退提交。
 - 根§12直接推进，不加审批；§15只存源/参数/hash/小结果，不存可再生数据；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论先pull核规则再push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
@@ -52,6 +52,6 @@ fixed actual-DN五源及Cartesian/continuous/closed/mesh四reader已恢复本地
 
 ## 4. 资源与继续
 
-work根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。恢复时RAM可用约8.6GiB、磁盘约92MiB。完整冷CSR/factor/旧CSC双hardlink及accepted raw仍在；angular gzip保留。释放只在真无损重建/逐字SHA关系已核后做，旧输入不覆盖，无Library/Release上传。R86/R87/R88已登记；设计校准新profile、解析跑全24列、尾补剩余真实metric并继续新帽界。
+work根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。恢复时RAM可用约8.6GiB、磁盘约92MiB。完整CSR/factor/raw保留；[旧CSC真实逐字重建](notes/2026-11-28-analytic-cold-csc-exact-reconstruction.md)后先存manifest再释两冷hardlink共82.25MB，CSR仍原SHA。angular由tail单独管理；旧源不覆盖，无Library/Release上传。R86/R87/R88已登记；设计校准新profile、解析跑全24列、尾补剩余真实metric并继续新帽界。
 
 每完成一个子题立即接open下一项；无时间或阶段停止。准确λ1→完整DN/公共两jet→全部闭图比例→固定g谱/径向/时间精化仍为实际完成链。所有旧R53–R81范围见[索引](results.md)和归档，不重做。

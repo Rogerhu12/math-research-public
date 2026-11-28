@@ -1,0 +1,478 @@
+{
+  "status": "exact_cold_CSC_hardlinks_released_CSR_fully_retained",
+  "actual_tool_session": 60771,
+  "actual_tool_exit_code": 0,
+  "manifest_path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-m24-csc-lossless-reconstruction-20261128-a/manifest.json",
+  "manifest_sha256": "a24db070d55d89988960c77ecea5b91a1c2f1da3edd59c4bfd55fc32cad0b51d",
+  "manifest": {
+    "schema": "held10-cold-M24-CSC-from-complete-CSR-exact-v1",
+    "status": "exact_cold_CSC_hardlinks_released_CSR_fully_retained",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/reconstruct_cold_m24_csc_archive.py",
+      "sha256": "1a66de2b5c9a17dbf2692715698d13fa05b7dd32f893ffa0dd00f48f232c2bcc",
+      "bytes": 12458
+    },
+    "retained_CSR": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csr-m24-20261128/actual_direct_csr.npz",
+      "sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c",
+      "bytes": 80510270
+    },
+    "original_CSC_paths": [
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m24-check/actual_jacobian.npz",
+        "sha256": "28abf787e7f94ea3424ee1e0d2a9fc5839589698920c5872d3459674d382fe53",
+        "bytes": 82251436
+      },
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csc-m24-20261128/actual_direct_csc.npz",
+        "sha256": "28abf787e7f94ea3424ee1e0d2a9fc5839589698920c5872d3459674d382fe53",
+        "bytes": 82251436
+      }
+    ],
+    "original_shared_inode": {
+      "device": 65040,
+      "inode": 435100,
+      "nlink": 2,
+      "allocated_bytes": 82251776
+    },
+    "original_CSC_zip": {
+      "members": [
+        {
+          "name": "indices.npy",
+          "file_size": 43650008,
+          "compressed_size": 2431893,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 2171420453,
+          "header_offset": 0,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "indptr.npy",
+          "file_size": 256896,
+          "compressed_size": 138256,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 109606962,
+          "header_offset": 2431954,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "format.npy",
+          "file_size": 131,
+          "compressed_size": 69,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 4257538897,
+          "header_offset": 2570270,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "shape.npy",
+          "file_size": 144,
+          "compressed_size": 75,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 3327284048,
+          "header_offset": 2570399,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "data.npy",
+          "file_size": 87299888,
+          "compressed_size": 79680545,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 4071700310,
+          "header_offset": 2570533,
+          "extra_hex": "",
+          "comment_hex": ""
+        }
+      ],
+      "archive_comment_hex": "",
+      "decoded_member_bytes": 131207067
+    },
+    "retained_CSR_zip": {
+      "members": [
+        {
+          "name": "indices.npy",
+          "file_size": 43650008,
+          "compressed_size": 329533,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 625590274,
+          "header_offset": 0,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "indptr.npy",
+          "file_size": 256896,
+          "compressed_size": 147537,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 2420909385,
+          "header_offset": 329594,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "format.npy",
+          "file_size": 131,
+          "compressed_size": 69,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 2541011875,
+          "header_offset": 477191,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "shape.npy",
+          "file_size": 144,
+          "compressed_size": 75,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 3327284048,
+          "header_offset": 477320,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "data.npy",
+          "file_size": 87299888,
+          "compressed_size": 80032458,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 3219527358,
+          "header_offset": 477454,
+          "extra_hex": "",
+          "comment_hex": ""
+        }
+      ],
+      "archive_comment_hex": "",
+      "decoded_member_bytes": 131207067
+    },
+    "versions": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "zlib_compiled": "1.3.2",
+      "zlib_runtime": "1.3.2",
+      "scipy_save_npz_source_sha256": "3b477f5a01d18147939fec09f38ada7dc01195a2dd2b5c98b27566dcebe6bae4",
+      "scipy_load_npz_source_sha256": "44ac71033b7f7feed5fa0eb4ee092aabd889c377954afbf6a05b65641863861f"
+    },
+    "canonical_operation": "load_npz(CSR).tocsc(copy=True); save_npz(BytesIO, CSC, compressed=True)",
+    "encoding_parameters": {
+      "compressed": true,
+      "seekable_output": true
+    },
+    "scope": "Exact reversible encoding relation only; no new matrix or mathematical comparison",
+    "files_released": [
+      "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m24-check/actual_jacobian.npz",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csc-m24-20261128/actual_direct_csc.npz"
+    ],
+    "source_CSR_deleted": false,
+    "created_unix": 1795880225.8411922,
+    "reconstruction": {
+      "complete_CSR_storage": {
+        "shape": [
+          64191,
+          64191
+        ],
+        "nnz": 10912470,
+        "data_dtype": "<f8",
+        "indices_dtype": "<i4",
+        "indptr_dtype": "<i4",
+        "stored_array_bytes": 131206408
+      },
+      "MemAvailable_before_bytes": 7126990848,
+      "obsolete_CSR_released_before_encoding": true,
+      "malloc_trim_after_release": true,
+      "encoding": "scipy.sparse.save_npz(BytesIO, csr.tocsc(copy=True), compressed=True)",
+      "output_bytes": 82251436,
+      "output_sha256": "28abf787e7f94ea3424ee1e0d2a9fc5839589698920c5872d3459674d382fe53",
+      "observed_process_maxrss_kib": 356880,
+      "estimated_peak_budget_bytes": 419430400,
+      "estimate_is_not_a_guarantee": true,
+      "full_J_recomputed": false,
+      "second_large_disk_file_written": false
+    },
+    "exact_archive_bytes_reproduced": true,
+    "regenerated_zip_metadata": {
+      "members": [
+        {
+          "name": "indices.npy",
+          "file_size": 43650008,
+          "compressed_size": 2431893,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 2171420453,
+          "header_offset": 0,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "indptr.npy",
+          "file_size": 256896,
+          "compressed_size": 138256,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 109606962,
+          "header_offset": 2431954,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "format.npy",
+          "file_size": 131,
+          "compressed_size": 69,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 4257538897,
+          "header_offset": 2570270,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "shape.npy",
+          "file_size": 144,
+          "compressed_size": 75,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 3327284048,
+          "header_offset": 2570399,
+          "extra_hex": "",
+          "comment_hex": ""
+        },
+        {
+          "name": "data.npy",
+          "file_size": 87299888,
+          "compressed_size": 79680545,
+          "compress_type": 8,
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "flag_bits": 0,
+          "create_system": 3,
+          "create_version": 45,
+          "extract_version": 45,
+          "external_attr": 25165824,
+          "internal_attr": 0,
+          "CRC": 4071700310,
+          "header_offset": 2570533,
+          "extra_hex": "",
+          "comment_hex": ""
+        }
+      ],
+      "archive_comment_hex": "",
+      "decoded_member_bytes": 131207067
+    },
+    "seconds": 5.081267193003441,
+    "retained_CSR_second_sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c",
+    "restore_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/reconstruct_cold_m24_csc_archive.py",
+      "restore",
+      "--manifest",
+      "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-m24-csc-lossless-reconstruction-20261128-a/manifest.json"
+    ],
+    "retained_CSR_final_sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c",
+    "released_allocated_bytes": 82251776,
+    "original_names_absent": true,
+    "fresh_disk_free_bytes": 712142848
+  },
+  "no_other_cold_data_released": true,
+  "scientific_matrix_recomputed": false
+}
