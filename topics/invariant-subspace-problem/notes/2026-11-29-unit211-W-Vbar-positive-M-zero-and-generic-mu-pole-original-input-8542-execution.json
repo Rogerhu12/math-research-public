@@ -1,0 +1,701 @@
+{
+  "schema": "isp-new-original-Vbar-two-targets-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "scope": "Vbar-positive original W/b0: all M-positive centers excluded and mu integral; finite mu original chart not yet excluded",
+  "source": {
+    "basename": "2026-11-29-unit211-W-Vbar-positive-M-zero-and-generic-mu-pole-original-input-8542.py",
+    "git_blob": "7fe1a0f64a101b1c980345d8f379d2ffdf1fe7cd",
+    "bytes": 12100,
+    "sha256": "a8c1245ff75f96f6e0ad0ebe133af4f8de382ec9f5daf0a016350c978d3e9640"
+  },
+  "limits": {
+    "inner_seconds": 30,
+    "address_space_bytes": 268435456,
+    "outer_seconds": 45
+  },
+  "actual_driver": {
+    "elapsed_seconds": 0.08535021399998755,
+    "max_child_rss_kib": 39484,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ad390edced8aa031e9081c3e0c7fb591c9e4e660",
+        "before": "41d53fe1b3de06af0e4b6f5fdd484ac57df522a4",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T19:13:51.291380+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46180054993",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "41d53fe1b3de06af0e4b6f5fdd484ac57df522a4",
+    "source_exit_code": 0,
+    "source_git_blob": "7fe1a0f64a101b1c980345d8f379d2ffdf1fe7cd",
+    "source_sha256": "a8c1245ff75f96f6e0ad0ebe133af4f8de382ec9f5daf0a016350c978d3e9640",
+    "stdout_bytes": 9864,
+    "stdout_sha256": "885a3105763557280a1e51f7925923b005a45b12d0567688fd8cc83c3b384d64",
+    "stop_reason": null
+  },
+  "run_id": 46180054993,
+  "job_id": 141087354966,
+  "stdout_reconstructed_and_matched": true,
+  "mathematical_records": [
+    {
+      "fullSamePointN5": true,
+      "independentFixedTargets": [
+        "M_zero_finite_mu_D_K_F",
+        "M_unit_mu_pole_q2_R6_N5"
+      ],
+      "originalProfiles": [
+        {
+          "denominator": {
+            "bytes": 44,
+            "degrees": [
+              2,
+              0
+            ],
+            "sha256": "abf1d5d4661aaa55a78526e43e5f44652e22ae811dc4b8b7e8d5cd736e6f9f6e",
+            "terms": 3,
+            "totalDegree": 2
+          },
+          "numerator": {
+            "bytes": 131,
+            "degrees": [
+              3,
+              2
+            ],
+            "sha256": "c9e22e3d84bcaf6ac4e64e080a5bf90d6f42ef41b8355e5ada4cdb09eb83dd6a",
+            "terms": 9,
+            "totalDegree": 5
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 64,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "9a24cd0e46308116b8ae8764a95bf9ff80aad63a4c95ad28f2cf74ccf69a419e",
+            "terms": 4,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 258,
+            "degrees": [
+              5,
+              3
+            ],
+            "sha256": "b0fcccaa2d6829472a6fe2f9beae9ede9c3f8f33564d1fc9607a2fe8490e3fc8",
+            "terms": 16,
+            "totalDegree": 8
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 44,
+            "degrees": [
+              2,
+              0
+            ],
+            "sha256": "abf1d5d4661aaa55a78526e43e5f44652e22ae811dc4b8b7e8d5cd736e6f9f6e",
+            "terms": 3,
+            "totalDegree": 2
+          },
+          "numerator": {
+            "bytes": 270,
+            "degrees": [
+              5,
+              2
+            ],
+            "sha256": "27779cc130723965ce5769de7cf3b43bb83c59845b398b6297d2a6a458c018c8",
+            "terms": 17,
+            "totalDegree": 7
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 128,
+            "degrees": [
+              6,
+              0
+            ],
+            "sha256": "315dc47df4a68db519bbd3321bdb7e40c05f3c30e58c34d09963dea1268f46c4",
+            "terms": 7,
+            "totalDegree": 6
+          },
+          "numerator": {
+            "bytes": 1481,
+            "degrees": [
+              12,
+              6
+            ],
+            "sha256": "fb9d6a0405e6f9ae269f2be3176163985c41767dbecd9e30c4642f2a1d4c5c07",
+            "terms": 70,
+            "totalDegree": 18
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 172,
+            "degrees": [
+              8,
+              0
+            ],
+            "sha256": "94f96a6c9bee0ee487464fa6de23b438c7ddd9f9e82238f2df0347706f50999b",
+            "terms": 9,
+            "totalDegree": 8
+          },
+          "numerator": {
+            "bytes": 1543,
+            "degrees": [
+              13,
+              5
+            ],
+            "sha256": "a0180846f592501d8b6d4d1f15b1513c3b07a27f92bf5b6d1107083cc1ff8578",
+            "terms": 71,
+            "totalDegree": 17
+          }
+        }
+      ],
+      "paidFourCenters": [
+        "L=0",
+        "L=1/4",
+        "L=1/2",
+        "L=7/4"
+      ],
+      "physicalFZeroNotAssumed": true,
+      "seconds": 0.004740337999976418,
+      "stage": "new_Vbar_finite_weight_complete_original_definitions"
+    },
+    {
+      "actualTwoOriginalMultipliers": [
+        {
+          "denominator": {
+            "bytes": 44,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "720924e88658d710ca51301c1bce345c3b073fb8fa4665b5817237fc23d3b7c6",
+            "terms": 3,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 561,
+            "degrees": [
+              8,
+              2
+            ],
+            "sha256": "39f44f5d5bcb4dbc5295fe3ac02c54ad73bb2edc80428471693528b7e5b51c9c",
+            "terms": 27,
+            "totalDegree": 10
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 28,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "9c4c62eedfd89359a49a3f75811faf06424fb160481c8d59ffbbb8624141cbf9",
+            "terms": 2,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 332,
+            "degrees": [
+              7,
+              1
+            ],
+            "sha256": "672b47bce00d372dc191ff29b1cee0eb340f3a0f663b88b3df21e7a1af7f88ae",
+            "terms": 16,
+            "totalDegree": 8
+          }
+        }
+      ],
+      "allFiveCoordinatesReturned": true,
+      "determinant": {
+        "bytes": 341,
+        "degrees": [
+          19,
+          0
+        ],
+        "sha256": "0878616820cb4940efc27b53441b0fdab1ab6c2425c18a251a98b495e69bdcd2",
+        "terms": 13,
+        "totalDegree": 19
+      },
+      "exactCapacities": [
+        2,
+        3
+      ],
+      "removedOnlyPreviouslyPaidSupport": {
+        "bytes": 132,
+        "degrees": [
+          13,
+          0
+        ],
+        "sha256": "3c7406cea3780b404c3fafea4a1f1cd27fa4d309f639c660e7dad0d70e5816c2",
+        "terms": 7,
+        "totalDegree": 13
+      },
+      "scalar": {
+        "bytes": 140,
+        "degrees": [
+          6,
+          0
+        ],
+        "sha256": "c989c720b5cd9b9a8dbb9cfd438ec9767dde7f56ca21e6ebe0857048db29d584",
+        "terms": 7,
+        "totalDegree": 6
+      },
+      "seconds": 0.008896896999999626,
+      "stage": "new_M_zero_complete_D_K_fixed_scalar_return"
+    },
+    {
+      "actualAllOriginalMultiplierProfiles": [
+        {
+          "denominator": {
+            "bytes": 44,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "720924e88658d710ca51301c1bce345c3b073fb8fa4665b5817237fc23d3b7c6",
+            "terms": 3,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 718,
+            "degrees": [
+              9,
+              2
+            ],
+            "sha256": "2685d6f45d14c843a4b5ab8a699c4d94d04a46526e6d4bfa1277d978440c28c0",
+            "terms": 30,
+            "totalDegree": 11
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 28,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "9c4c62eedfd89359a49a3f75811faf06424fb160481c8d59ffbbb8624141cbf9",
+            "terms": 2,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 428,
+            "degrees": [
+              8,
+              1
+            ],
+            "sha256": "bdd65f9d476fe33527e5c8cf52d94ddfd265306f6bba1b6ea64dd28a90cfcb8a",
+            "terms": 18,
+            "totalDegree": 9
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 13,
+            "degrees": [
+              0,
+              0
+            ],
+            "sha256": "398a4bfd58b29e0e70cc948b8ac1a6fe11ea357fa17399f38462280363ce79d8",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "bytes": 85,
+            "degrees": [
+              5,
+              0
+            ],
+            "sha256": "871a38b6d0f3202772fda2df9cd20cbd7deca642e1cf8b5e3c92548d03669d34",
+            "terms": 6,
+            "totalDegree": 5
+          }
+        }
+      ],
+      "allOriginalCoefficientsReturnedModulo1009": true,
+      "exactJointGcd": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "excludesWholeNamedChart": true,
+      "originalProfiles": [
+        {
+          "denominator": {
+            "bytes": 44,
+            "degrees": [
+              2,
+              0
+            ],
+            "sha256": "abf1d5d4661aaa55a78526e43e5f44652e22ae811dc4b8b7e8d5cd736e6f9f6e",
+            "terms": 3,
+            "totalDegree": 2
+          },
+          "numerator": {
+            "bytes": 131,
+            "degrees": [
+              3,
+              2
+            ],
+            "sha256": "c9e22e3d84bcaf6ac4e64e080a5bf90d6f42ef41b8355e5ada4cdb09eb83dd6a",
+            "terms": 9,
+            "totalDegree": 5
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 64,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "9a24cd0e46308116b8ae8764a95bf9ff80aad63a4c95ad28f2cf74ccf69a419e",
+            "terms": 4,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 258,
+            "degrees": [
+              5,
+              3
+            ],
+            "sha256": "b0fcccaa2d6829472a6fe2f9beae9ede9c3f8f33564d1fc9607a2fe8490e3fc8",
+            "terms": 16,
+            "totalDegree": 8
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 13,
+            "degrees": [
+              0,
+              0
+            ],
+            "sha256": "398a4bfd58b29e0e70cc948b8ac1a6fe11ea357fa17399f38462280363ce79d8",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "bytes": 38,
+            "degrees": [
+              2,
+              0
+            ],
+            "sha256": "83cc3bb5f91db816bff206f2b076a517e7a692ec1c6459e8d9f3c87f46a47742",
+            "terms": 3,
+            "totalDegree": 2
+          }
+        }
+      ],
+      "paidSupport": {
+        "bytes": 54,
+        "degrees": [
+          4,
+          0
+        ],
+        "sha256": "de6ecb235b0f6b84a60338df4cc6837f7ec6581e08db2ddcc1c07102fc5eb6d0",
+        "terms": 4,
+        "totalDegree": 4
+      },
+      "paidSupportPower": 0,
+      "remainingNecessaryLPolynomial": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "removedPaidSupport": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "returnedTarget": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "scalarProfiles": [
+        {
+          "bytes": 29,
+          "degree": 6,
+          "sha256": "b5e954db2514b07c7db4ffd5c2958e88a4290272b3c4a49db07041f368b61fa8",
+          "terms": 7
+        },
+        {
+          "bytes": 10,
+          "degree": 2,
+          "sha256": "bf63f8f6373d37fab2171a4ae645c297adcfb9fc32e5b39dc7f4a87d26dbc537",
+          "terms": 3
+        }
+      ],
+      "seconds": 0.011798830999993015,
+      "stage": "new_M_zero_finite_mu_complete_original_Bezout_return",
+      "statistics": {
+        "cofactorCoordinates": 5,
+        "exactPolynomialDivisionProducts": 70,
+        "finiteFieldBezoutChecks": 3,
+        "finiteFieldDivisions": 5,
+        "fullOriginalReturns": 5,
+        "pIntegralChecks": 10,
+        "paidSupportProducts": 25
+      }
+    },
+    {
+      "actualAllOriginalMultiplierProfiles": [
+        {
+          "denominator": {
+            "bytes": 13,
+            "degrees": [
+              0,
+              0
+            ],
+            "sha256": "398a4bfd58b29e0e70cc948b8ac1a6fe11ea357fa17399f38462280363ce79d8",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "bytes": 199,
+            "degrees": [
+              10,
+              0
+            ],
+            "sha256": "721f190d56504009ce75e80e9ea5fa0ee9a4d3f7356b2e6316679ca540b0c17f",
+            "terms": 11,
+            "totalDegree": 10
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 13,
+            "degrees": [
+              3,
+              0
+            ],
+            "sha256": "88be10863a58ae44ecf24d5eda3cc1e458547e7a8c64dce903b4f106f51275b9",
+            "terms": 1,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "bytes": 243,
+            "degrees": [
+              10,
+              0
+            ],
+            "sha256": "c515dbc02930ed53c7d4933ab54ccfaff40e7db051ecc94f1bb10b1306f655cb",
+            "terms": 11,
+            "totalDegree": 10
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 13,
+            "degrees": [
+              0,
+              0
+            ],
+            "sha256": "398a4bfd58b29e0e70cc948b8ac1a6fe11ea357fa17399f38462280363ce79d8",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "bytes": 2,
+            "degrees": [
+              -1,
+              -1
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0,
+            "totalDegree": -1
+          }
+        }
+      ],
+      "allOriginalCoefficientsReturnedModulo1009": true,
+      "exactJointGcd": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "excludesWholeNamedChart": true,
+      "originalProfiles": [
+        {
+          "denominator": {
+            "bytes": 44,
+            "degrees": [
+              2,
+              0
+            ],
+            "sha256": "abf1d5d4661aaa55a78526e43e5f44652e22ae811dc4b8b7e8d5cd736e6f9f6e",
+            "terms": 3,
+            "totalDegree": 2
+          },
+          "numerator": {
+            "bytes": 97,
+            "degrees": [
+              5,
+              0
+            ],
+            "sha256": "c994cf310457f35722f133e312a9b103316325b78c7359fbfb29d210d0d12c49",
+            "terms": 6,
+            "totalDegree": 5
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 128,
+            "degrees": [
+              6,
+              0
+            ],
+            "sha256": "315dc47df4a68db519bbd3321bdb7e40c05f3c30e58c34d09963dea1268f46c4",
+            "terms": 7,
+            "totalDegree": 6
+          },
+          "numerator": {
+            "bytes": 206,
+            "degrees": [
+              12,
+              0
+            ],
+            "sha256": "d286b511dc650d097b2b044d9d1566d7d08d8cdb0b77d69ad76a18dda37f5cc8",
+            "terms": 10,
+            "totalDegree": 12
+          }
+        },
+        {
+          "denominator": {
+            "bytes": 172,
+            "degrees": [
+              8,
+              0
+            ],
+            "sha256": "94f96a6c9bee0ee487464fa6de23b438c7ddd9f9e82238f2df0347706f50999b",
+            "terms": 9,
+            "totalDegree": 8
+          },
+          "numerator": {
+            "bytes": 228,
+            "degrees": [
+              12,
+              0
+            ],
+            "sha256": "25d2d5bd86ccfef7a985b76ade3f010ff9bd9e0e965ea2c23353eeb4a0ec6276",
+            "terms": 11,
+            "totalDegree": 12
+          }
+        }
+      ],
+      "paidSupport": {
+        "bytes": 85,
+        "degrees": [
+          6,
+          0
+        ],
+        "sha256": "3f412883ffa2ef3bb16284213709b87c81fceef0851c6000492d790a4942cd41",
+        "terms": 6,
+        "totalDegree": 6
+      },
+      "paidSupportPower": 0,
+      "remainingNecessaryLPolynomial": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "removedPaidSupport": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "returnedTarget": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "scalarProfiles": [
+        {
+          "bytes": 25,
+          "degree": 5,
+          "sha256": "b8785c3cff4e66244c55db8240b0ac75b8f3baeebc0223c821d0465c3b43e4b3",
+          "terms": 6
+        },
+        {
+          "bytes": 39,
+          "degree": 9,
+          "sha256": "c443481914e1a3402b0f95ff099cd70756e8e4a8e77fcd0f04fc6be78233d236",
+          "terms": 10
+        },
+        {
+          "bytes": 45,
+          "degree": 10,
+          "sha256": "76fe4daac69bdde90b433966251fc3c491d04450bc4f1c5925ee8d1aa5f54f8d",
+          "terms": 11
+        }
+      ],
+      "seconds": 0.0150192349999827,
+      "stage": "new_M_unit_mu_pole_complete_original_Bezout_return",
+      "statistics": {
+        "cofactorCoordinates": 5,
+        "exactPolynomialDivisionProducts": 98,
+        "finiteFieldBezoutChecks": 7,
+        "finiteFieldDivisions": 16,
+        "fullOriginalReturns": 9,
+        "pIntegralChecks": 26,
+        "paidSupportProducts": 53
+      }
+    },
+    {
+      "noCoefficientCacheWritten": true,
+      "noGenericFiniteMuTargetExecuted": true,
+      "noOldGateReplayed": true,
+      "noOtherInternalDenominatorClaim": true,
+      "ordinaryISPClaim": false,
+      "seconds": 0.015220415999976922,
+      "sourceSHA256": "a8c1245ff75f96f6e0ad0ebe133af4f8de382ec9f5daf0a016350c978d3e9640",
+      "stage": "new_Vbar_two_fixed_original_targets_finished",
+      "statistics": {
+        "cofactorCoordinates": 5,
+        "exactPolynomialDivisionProducts": 98,
+        "finiteFieldBezoutChecks": 7,
+        "finiteFieldDivisions": 16,
+        "fullOriginalReturns": 9,
+        "pIntegralChecks": 26,
+        "paidSupportProducts": 53
+      }
+    }
+  ],
+  "preexecution_dispatch_repair": {
+    "status": "pushed-dispatch-incomplete",
+    "sourceCommit": "a0f968bd9e04140f683997bd199a04d747d44695",
+    "publishedCommit": "0316baaf324d5e6d556df1db3d372d507ab32e8d",
+    "runId": "46179811748",
+    "runAttempt": "1",
+    "lastRulesReadCommit": "f0c1a0d555e94f5976b2d6efad0406898e64bc1a",
+    "error": "Dispatch outside the authorized ISP workflow prefix",
+    "workflow": "invariant-subspace-8542-w-vbar-positive-M-zero-and-mu-pole.yml",
+    "mathematicalExecutionStarted": false,
+    "sourceStillUnexecuted": true,
+    "repair": "Use the existing authorized lowercase workflow name pattern; do not alter the dispatch guard."
+  },
+  "payload_policy": "Only profiles and small metadata; no coefficient cache or encoded payload."
+}
