@@ -1,0 +1,272 @@
+{
+  "schema": "r775-spatial-ring-phase-design-v1",
+  "fixed_metric": "One exact R772 coherent F0, equivalently the complete R775 phase-zero map, on the original full material sphere. R775 middle angular payments and the nonplanar base are not an assertion about fitted positive phases.",
+  "defining_order": 20,
+  "geometry": {
+    "R775": "34e8e03a88b56f92c239d0d38220f30fc8dfe1bc9c31b0b1ec91eb78bd1a3dfd",
+    "R772": "2afabacdbcf7d60c708bdceece3b3e994c6097abe1a911aa456a404c823521d6",
+    "axial_floor_slack": 0.008,
+    "floor": "F_Y = ymin(t)-.008 sin(t) + (Fbase_Y-ymin(t)+.008 sin(t)) (sqrt(1+s^2)+s), exact R775 ymin(t) from the actual complete left disk. All physical phase-zero corrections vanish.",
+    "hard_heads": "Every point of both complete rigidly moved/stationary head charts is fixed to the R775 pose; interior fields meet both through second order.",
+    "free_left": "The entire left head including its rim and disk has a real three-channel field; the axial floor still enforces the final complete image above the initial left extreme by more than .315.",
+    "right_grip": "entire right rounded head and terminal disk"
+  },
+  "families": {
+    "hard_heads": [
+      [
+        "physical",
+        {
+          "heads": "both",
+          "seed": []
+        }
+      ],
+      [
+        "upper-window",
+        {
+          "heads": "both",
+          "seed": [
+            [
+              [
+                "window",
+                0,
+                0,
+                0
+              ],
+              0,
+              0.032
+            ],
+            [
+              [
+                "window",
+                5,
+                1,
+                1
+              ],
+              2,
+              -0.024
+            ],
+            [
+              [
+                "window",
+                3,
+                0,
+                1
+              ],
+              1,
+              0.023
+            ]
+          ]
+        }
+      ],
+      [
+        "return-turn",
+        {
+          "heads": "both",
+          "seed": [
+            [
+              [
+                "corner",
+                2,
+                0,
+                1
+              ],
+              2,
+              0.033
+            ],
+            [
+              [
+                "window",
+                1,
+                1,
+                1
+              ],
+              0,
+              -0.027
+            ],
+            [
+              [
+                "window",
+                4,
+                0,
+                0
+              ],
+              1,
+              -0.037
+            ]
+          ]
+        }
+      ]
+    ],
+    "free_left": [
+      [
+        "physical",
+        {
+          "heads": "right",
+          "seed": []
+        }
+      ],
+      [
+        "free-rim",
+        {
+          "heads": "right",
+          "seed": [
+            [
+              [
+                "rim",
+                0,
+                1,
+                0
+              ],
+              0,
+              0.034
+            ],
+            [
+              [
+                "world",
+                0,
+                0,
+                1
+              ],
+              2,
+              -0.024
+            ],
+            [
+              [
+                "window",
+                0,
+                0,
+                1
+              ],
+              1,
+              0.041
+            ]
+          ]
+        }
+      ],
+      [
+        "signed-shoulder",
+        {
+          "heads": "right",
+          "seed": [
+            [
+              [
+                "window",
+                2,
+                1,
+                0
+              ],
+              1,
+              -0.04
+            ],
+            [
+              [
+                "window",
+                3,
+                0,
+                1
+              ],
+              2,
+              0.03
+            ],
+            [
+              [
+                "rim",
+                1,
+                0,
+                1
+              ],
+              0,
+              -0.023
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.7,
+    "area_weight": 3,
+    "curvature_bound": 20,
+    "curvature_weight": 0.024,
+    "jac_chunk": 32,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.03,
+    "step_tangent": 0.2,
+    "line_trials": 9,
+    "pair_weight": 0.5,
+    "worst_pairs": 144,
+    "distinct_material_distance": 0.018,
+    "chord_smoothing": 0.0004,
+    "radius": 0.0465,
+    "neighbor_ranks": [
+      2,
+      4,
+      7,
+      10,
+      16,
+      24,
+      36,
+      50,
+      70,
+      96
+    ]
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 24,
+    "nv": 14,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 5,
+    "check_ns": 33,
+    "check_nv": 19,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 20,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 25,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 28,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 35,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 38,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 47,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "Each coarse physics start is on the true R775 finite field. The two independent endpoint conditions have three actual coarse candidates each and their own complete 4/8/16 time-frequency and space refinements. The whole pointwise floor is part of the definition of the physical field, not a test at a few points.",
+    "The full three Gram entries, logarithmic area barrier, four true directional normal curvatures, and both signs of ordered normal chords enter the actual Gauss-Newton objective. Ordered chord training uses the largest active current violations in a changing nearest-neighbor set across all charts. The independent terminal computes its own complete finite pair data.",
+    "The true R775 pointwise floor and right grip persist for the intended integral field; all-phase injectivity, quantitative reach, terminal quotient and every fitted strain require their own evidence. No optimizer result inherits the geometric classification of an analytic initial field.",
+    "All positive phases in the report are finite quadrature/grid samples. Raw coefficient NPZs and two sets of seven PLYs are written by the same final runner only."
+  ]
+}

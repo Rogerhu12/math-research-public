@@ -9,3 +9,5 @@
 - [R773：R772固定度量下的横环与分离类刚性](R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)。无标记刚性横环只可整刚体；任意平行平面简单横环不能轴向收缩；从恒等连续的平移分离类亦刚性。一般真内收.30要求sup|II_xe|>.31。均为明确受限类/必要条件，未否定48或49的真正非分离全场。
 
 - [R775：同R772初g的真正空间补偿横环](R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)，[完整六jet生成器](../scripts/resume_20261126/r775_nonplanar_compensated_section_two_jets.py)。全闭全相C²嵌入/定握、整held>.32、体积差>.02且δE>0；整环单位速、全部发展帽与头以及真实非零K角子带全g。两余窗/轴层的xx/xe及reach≥.03D尚欠，工作求积不当严格证书。
+
+- [49：同R772 g的真实空间横环完整拟合](../notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)。两完整头约束族各三初点及4/8/16全细化；整像轴向底限直接入场，原完整Gram/曲率/面积/法球弦和双69相/七网原预算，实际结果待返。
