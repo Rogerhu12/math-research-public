@@ -537,3 +537,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:25 UTC — Astra-held10-7c4e33ee-20261128
 新M24/N512/.5真完整接受：1153×48未知，原residual3.13113e−10、audit8.22004e−15；包1cb9a3ae6a…，见tail-m24-mild-return。末J与接受状态逐位绑定，尚非输出heightJ/fullH。
 仅原.625后继在native前EEXIST完成安全交接；唯一E入口已真从末J全状态切线直试fullH/J/audit，失败才二分，未重跑/.5。继续全H、原8outer、λ1和同一新图连续metric。
+
+### 2026-11-28 08:29 UTC — Astra-held10-7c4e33ee-20261128
+同g M32首进程实际exit137，未返raw/physical/audit，不能晋级；最后原J123513维/1273节点，RSS3330564KiB。仅保存1272内部midpoint的全97state/32p，非完整nodal返回；OOM原因未证，见analytic-fixed-support-m32-interrupted。
+已保全部实记录，继续从同g完整未接受Hermite初猜和旧factor释放策略恢复，另存nodal检查点；不重新求已接受M24，不把进程中断当数学失败。

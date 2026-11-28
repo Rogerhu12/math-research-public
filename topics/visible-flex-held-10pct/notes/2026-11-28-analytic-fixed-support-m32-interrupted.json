@@ -1,0 +1,74 @@
+{
+  "status": "actual_fixed_support_M32_process_returned_137_without_solver_return",
+  "exit_code": 137,
+  "signal": "SIGKILL",
+  "observed_tool_session": 94023,
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-v1/run.json",
+  "source_run_status": "running_original_fixed_support_BVP",
+  "solver_success": false,
+  "finite_linear_candidate_pass": false,
+  "raw_solver_return_exists": false,
+  "physical_export_exists": false,
+  "source_anchor": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m24-radial-v2/run.json",
+  "source_anchor_sha256": "1516564940efc197b43881be4c6dee1c44adef42f9b108308f36eb659c637d94",
+  "last_saved_state": {
+    "state_components": 97,
+    "parameters": 32,
+    "points": 1272,
+    "first_t": 5.208333333333334e-05,
+    "last_t": 0.99984375,
+    "kind": "interior_collocation_midpoint_values_not_complete_nodal_return"
+  },
+  "last_observed_completed_adaptive_iteration": {
+    "iteration": 4,
+    "nodes": 1209,
+    "rms_displayed": "3.93e-07",
+    "boundary_residual_displayed": "4.32e-12",
+    "new_nodes": 64,
+    "displayed_values_are_rounded": true
+  },
+  "last_factor_nodes": 1273,
+  "last_factor_equations": 123513,
+  "last_factor_parameters": 32,
+  "last_factor_nonzeros": 27913938,
+  "maximum_observed_rss_kib": 3330564,
+  "last_observed_solve_seconds": 1155.155047323,
+  "memory_event_files": {
+    "/sys/fs/cgroup/memory.events": false,
+    "/sys/fs/cgroup/memory.current": false,
+    "/sys/fs/cgroup/memory.max": false,
+    "/sys/fs/cgroup/memory.peak": false
+  },
+  "OOM_cause_confirmed": false,
+  "exit_cause_beyond_SIGKILL_unknown": true,
+  "files": {
+    "literal-adapter-events.jsonl": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-v1/literal-adapter-events.jsonl",
+      "sha256": "4f33d8185218a9873aff30fd30b064d49dc3f2bfc52eb7a3c92f4dd4218e26cc",
+      "bytes": 12785
+    },
+    "last-jac-input.npz": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-v1/last-jac-input.npz",
+      "sha256": "e89f01c9fd40662dc1978d1244f72ea5cf5517ccad7d4b379ba786c234ec947b",
+      "bytes": 968071
+    },
+    "prepared-initial.npz": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-v1/prepared-initial.npz",
+      "sha256": "76b1a91bf6737eb132bbc9590fe06a9bde115601e5ed73ee82e25c8d5ac80170",
+      "bytes": 655274
+    },
+    "events.jsonl": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-v1/events.jsonl",
+      "sha256": "0b73889f9ccff2b82c6cf79f22b406a72ed898c4ea4eebe380d85f6909b9f398",
+      "bytes": 2105
+    },
+    "run.json": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-v1/run.json",
+      "sha256": "d364dcd6a725b39fad5cbf8105dddfe8139e9f1bd537491651a147ad3f9dacb4",
+      "bytes": 17162
+    }
+  },
+  "current_accepted_fixed_g_anchor_remains": "M24 tol2e-7/1032 nodes",
+  "recovery_is_still_required": true,
+  "recovery_policy": "Same frozen physical problem; full saved midpoint states may form an explicitly unaccepted initial guess; do not relabel them as a complete nodal return."
+}
