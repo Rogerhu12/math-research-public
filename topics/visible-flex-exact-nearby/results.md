@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ19：固定旋转附近的真几何系数与移动实模型 jets](results/R149-supplement-fixed-rotation-geometric-coefficient-and-moving-real-model-jets.md)：真实radial intrinsic/full angular u,v及有限部分scalar ξ=−V/2，给强piecewise Banach邻域中真几何jet与moving实基。原g*<1.28在|ξ−ξ*|≤1/32时全g<4/3、weighted费×≤25/24；真实a旋转/commutators和每阶损失保，不能外推未付PDE余项。
+
 - [WHN：真邻域 weighted head 响应及全负窗](results/R149-supplement-true-nearby-weighted-head-response-and-negative-readout.md)：同SPN任意无穷A3真扰动ρ≤1e−7，原4650行/4802公共格的weighted functional通过真resolvent比较接收，整head到root/collar/body<11.9B、raw high<30B、outer<.154B。完整负窗≤25.95b+2780B+131a+1.36FB+Eports+1.774e−5+5530ρ；实际匹配端口仍未付。
 
 - [GSW：真实首源到原物理腰和公共输入](results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md)：同实际GSF、原混合传播C_R<2039、支持长1/5000和原左读<.719给终端到腰<.0281。真反向密度H−4/3<1.1，原有序Ni<12.4，故此真实加项common C97<.349；保Ni S相邻则全ordinary高行贡献<.029。其它源、跳和正反馈仍保。

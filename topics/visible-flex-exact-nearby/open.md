@@ -330,3 +330,6 @@ GSW：同实际GSF、原混合传播C_R<2039、支持长1/5000和原左读<.719�
 
 
 WHN：同SPN任意无穷A3真扰动ρ≤1e−7，原4650行/4802公共格的weighted functional通过真resolvent比较接收，整head到root/collar/body<11.9B、raw high<30B、outer<.154B。完整负窗≤25.95b+2780B+131a+1.36FB+Eports+1.774e−5+5530ρ；实际匹配端口仍未付。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ19：真实radial intrinsic/full angular u,v及有限部分scalar ξ=−V/2，给强piecewise Banach邻域中真几何jet与moving实基。原g*<1.28在|ξ−ξ*|≤1/32时全g<4/3、weighted费×≤25/24；真实a旋转/commutators和每阶损失保，不能外推未付PDE余项。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

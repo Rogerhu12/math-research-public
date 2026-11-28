@@ -216,3 +216,6 @@
 
 
 2026-11-28 11:40:04 UTC / visible-exact-astra-b0d5a16-20261128：WHN。同SPN任意无穷A3真扰动ρ≤1e−7，原4650行/4802公共格的weighted functional通过真resolvent比较接收，整head到root/collar/body<11.9B、raw high<30B、outer<.154B。完整负窗≤25.95b+2780B+131a+1.36FB+Eports+1.774e−5+5530ρ；实际匹配端口仍未付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-true-nearby-weighted-head-response-and-negative-readout.md","bytes":6224,"sha256":"46f8b80cb02fd5b9ede68bd0ec4838f8dacbf29155a13f7b521d46233f1454ee"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_nearby_weighted_head_saved_bounds.py","bytes":8301,"sha256":"a7fc2b32a68991fad7017751d5beaa635e0acdbf5c562139f4fd484b51afad36"},{"path":"topics/visible-flex-exact-nearby/notes/2026-11-28-WHN-complete-saved-consequence.json","bytes":2363,"sha256":"3d280913d53b56d90f1079acf91f0a9e7f5e895abaadcf2a6a8ebfdb530ecc0f"}]。
+
+
+2026-11-28 11:41:07 UTC / visible-exact-astra-b0d5a16-20261128：ASQ19。真实radial intrinsic/full angular u,v及有限部分scalar ξ=−V/2，给强piecewise Banach邻域中真几何jet与moving实基。原g*<1.28在|ξ−ξ*|≤1/32时全g<4/3、weighted费×≤25/24；真实a旋转/commutators和每阶损失保，不能外推未付PDE余项。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-fixed-rotation-geometric-coefficient-and-moving-real-model-jets.md","bytes":11816,"sha256":"9b3a464c5b5c9c207f052e80e6f77b940e5e870fe1eb61ee2aaf6308e87a52bb"}]。
