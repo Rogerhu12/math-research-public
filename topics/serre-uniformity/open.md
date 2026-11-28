@@ -67,6 +67,8 @@ R1160中一般q的b(q⁻¹T′q)仍要从同一实际有限Galois/Belyi quotient
 
 [R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2参数的实际阶/leading单位和full-level SS共同log-smooth提升仍须逐项支付，未当field Frobenius或F0数值。
 
+[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已为原CM的全部形式参数给一个共同ψ：R=O_F[[z]]，σ作用coeff、z→z^p；R1157的u/1−u=z^m unit使所有边界同时保留，完整Rψ三槽先证明整。N<p时，good-unit用L=log(u/c),M=log((1−u)/(1−c))得h=h_c+b_cL+∫M dL；near0 t=z^m a的三槽为(A,−L1,−L2)，A=−κ(a0)+log(a/a0)，near1/∞用实际S/J给完整乘积/半平方。边界∞仍可有κ²/2，不删原constant carry；同五配置关系整地约化。只付源形式jet，未把完整moment或实际torsion高nilpotents截在12。ψ不保Ep理想；简单g=z^(p²−1)−p已有ψ(g^r/r!)/p^r|g0≡(−1)^r/r!，所以不能只见p误差便删。真实根塔/log/crystalline与FL比较继续。
+
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
 ### 原完整 47：已完成，只消费

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原全CM形式来源的共同Frobenius与整jet（已证明）**：[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)同一个ψ同时保全部参数边界，四种corner的三槽在取jet前整；N<p有限式保原常数carry、五项和有序半平方。实际Ep理想/FL比较仍须支付，具体PD normal项说明仅p误差不能被随意删。
+
 - **原二同源所有SS四线参数的精确阶（已证明）**：[R1157 §12](results/R1157-original-integral-SV-Manin-triangle-filling.md)三次辅助闭点防全部leading抵消，真实determinant/线值/α及七行双阶表覆盖所有依赖与独立点对；每坏参数阶为1/(p²−1)，全部R†原有限读取已适用。共同形式/真实Ep比较与全ordered权仍保，不以逐项读取冒F0。
 
 - **原Darboux的完整边界与固定次数递推（已证明）**：[R1154 §14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)精确Eν是前ν至最高ν jet同构，完整formal τ缺陷给原Vν和所有weighted补项；固定ν阶数递推保τ0/±1及全部清分母边界。两个scalar边界乘积仍保，未宣原minor或good-mask闭合。

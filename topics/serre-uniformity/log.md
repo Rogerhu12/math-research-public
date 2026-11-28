@@ -135,3 +135,8 @@
 ### 2026-11-28 12:15 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1157 §12付原全n2 SS四线精确阶：三次闭点、非Fp²的x(3T0)、所有det/α及七行双阶表，全部坏R†落浅读取。root核Frob/三次点、leading两行kernel、dual Wronskian和全部表，并亲读Sutherland原讲义；o2独核，完整即推。
 - 保原常数/重数/根gauge与第二输入v=u^p；共同CM形式源含rank2，但ψ不保Ep理想，真实FL/moment继续。H前态逐字归档后压缩，无数学执行。
+
+
+### 2026-11-28 12:22 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1155 §14付原CM全部四线参数的同一形式ψ、取jet前整性与N<p四corner完整公式；常数carry、ordered半平方及同五项保全。root纸推，o2核全部安全jet；完成即推。
+- 真Ep/FL比较仍保，具体g=z^(p²−1)−p的PD归一给非零normal项，不能因误差有p便删；未截真实torsion高nilpotents，无数学执行。

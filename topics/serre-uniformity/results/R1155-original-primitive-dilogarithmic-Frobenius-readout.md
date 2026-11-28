@@ -1478,3 +1478,285 @@ $pe/(p^2-1)<1/3$，对 $p>37$ 落入第一入口。
 本节为纸面证明，无数学程序执行。
 o2_high_coefficient 独立核准浅退化 Eulerian 修正、
 中央三次项的符号和全部尾估值。
+
+
+## 14. 原全部 CM 形式参数的共同提升与整有限 jet
+
+本节使用 [R1157 §12](R1157-original-integral-SV-Manin-triangle-filling.md)
+已经支付的原三次辅助点和全部参数阶。
+在原 Gaussian/cubic CM 参考曲线上，固定一个非零 $p$-点作
+$\mathcal O_{CM}/p=\mathbb F_{p^2}$ 模的生成元，
+并为每个标记 $\alpha$ 固定一个 CM 整数提升。
+实际形式端点为
+$P(z),[\alpha]P(z),[1+\alpha]P(z)$。
+这包括 $\mathbb F_p$-rank two 的点对。
+
+取一个有限未分歧域 $F/\mathbb Q_p$，包含 CM、二扭点、
+三次辅助点及参考线交点的全部系数，令
+$$
+\mathcal R=\mathcal O_F[[z]],\qquad
+\psi|_{\mathcal O_F}=\sigma,\qquad \psi(z)=z^p,
+\tag{1155.77}
+$$
+其中 $\sigma$ 是原未分歧的 $p$-power Frobenius。
+$z$ 是原 elliptic formal-group 的整参数，不在此改成完整形式 logarithm。
+所有标记、直线和归一常数均先固定，
+然后在同一个环上应用这一 $\psi$。
+
+**已证明：** 原四线来源的所有参数在这个共同提升下
+同时给整的 Frobenius 三槽；
+它们在任意 $N<p$ 的次数范围内都有下面的明确有限公式。
+所支付的是这个实际形式来源的矩阵，
+并非已经识别到原有限 $E[p]$ moment 或其 Fontaine–Laffaille 读数。
+
+### 14.1. 全部边界由同一个提升同时保留
+
+R1157 (1157.47)–(1157.53) 的 divisor 因子先给精确的整 $z$ 幂，
+不只是一个点处的赋值；非零首项再使剩余因子为整单位。
+所以每个原四线参数都满足
+$$
+u=z^m a(z),\qquad 1-u=z^n b(z),\qquad
+a,b\in\mathcal R^\times,\qquad m,n\in\{-1,0,1\}.
+\tag{1155.78}
+$$
+线归一中的有正阶的 $\alpha_i$ 也保留其整幂和单位因子。
+特别，没有一个更低 $z$ 次项仅因含因子 $p$ 被悄悄删除。
+
+在 $\mathcal R[1/z]$ 中直接计算
+$$
+\frac{\psi(u)}{u^p}
+ =\frac{\psi(a)}{a^p}\in1+p\mathcal R,\qquad
+\frac{1-\psi(u)}{(1-u)^p}
+ =\frac{\psi(b)}{b^p}\in1+p\mathcal R.
+\tag{1155.79}
+$$
+这里 $\sigma(c)\equiv c^p\bmod p$，
+所以 $\psi(a)\equiv a^p\bmod p$，
+且 $a^p,b^p$ 在 $\mathcal R$ 中可逆。
+两个商的整性同时成立，包括 $m$ 或 $n$ 为负的情形；
+负的 $z$ 幂在商中准确相消。
+这使用一个共同的 $\psi$，没有对每个 primitive 重新指定误差。
+
+定义原同一 KZ frame 中的矩阵
+$$
+R_\psi(u)=G(u)D_pG(\psi(u))^{-1}.
+\tag{1155.80}
+$$
+若 $u$ 近零，则 $u\in z\mathcal R$，
+$1-u^p$ 为整单位。
+原 $\operatorname{Li}_r^\dagger(u)=
+\sum_{p\nmid j}u^j/j^r$ 是 $\mathcal R$ 中的级数。
+置 $\alpha=(\psi(u)/u^p-1)/p\in\mathcal R$，
+原短运输中的两个增量是 $p\alpha$、
+$pu^p\alpha/(1-u^p)$。
+两个 log 除 $p$ 后的系数均整；
+中央第 $j$ 项除 $p^2$ 后的系数为
+$p^{j-2}/(jr)$ 乘一个整项，$1\le r<j$，
+且 $j-2-v_p(jr)\ge0$。
+所以整个矩阵的三个坐标都属于 $\mathcal R$。
+
+若 $u,1-u$ 都为 $\mathcal R$ 单位，
+同一个结论由 §5 的完整 Eulerian 展开和 §8 的完整短运输得到：
+Eulerian 尾逐项至少含 $p^j$，两分母都是整单位，
+故在 $p$-完备的 $\mathcal R$ 中收敛。
+若 $1-u$ 近零或 $u$ 有极，
+分别对 $1-u$、$u^{-1}$ 使用前一段，
+再用 (1155.76) 的**完整** $S,J$ 群映射。
+由 (1155.79)，变换后的第二输入仍是同一 $\psi$ 的像。
+因此在全部四类参数上都有
+$$
+\boxed{\qquad R_\psi(u)\in\mathcal H(\mathcal R).\qquad}
+\tag{1155.81}
+$$
+这一整性是在取 jet 之前证明的。
+所以不能误把含 $z^{-1}$ 的原参数先代进
+$\mathcal R/(p,z^{N+1})$；先构造 (1155.80)，再约化其整坐标。
+
+### 14.2. 单位参数的任意安全阶 jet
+
+以下所有等式在
+$$
+\mathcal R_N=\mathcal R/(p,z^{N+1}),\qquad 0\le N<p
+$$
+中读取。每次积分只除 $1,\ldots,N$，均为单位。
+
+先取 $u,1-u\in\mathcal R^\times$，
+$c=u(0)$，于是 $c,1-c\in\mathcal O_F^\times$。
+用这个**实际**常数计算
+$$
+w_c=c^p,\qquad \varepsilon_c=\frac{\sigma(c)-c^p}{p}.
+$$
+原常数矩阵的约化是
+$$
+\begin{aligned}
+a_c&=-\frac{\varepsilon_c}{w_c},\\
+b_c&=\frac{\varepsilon_c-\ell_{1,p}(c)}{1-w_c},\\
+h_c&=-\frac{\ell_{2,p}(c)}{1-w_c}
+     -\frac{\varepsilon_c^2}{2w_c(1-w_c)}.
+\end{aligned}
+\tag{1155.82}
+$$
+这里 $w_c\bmod p=\bar c^{\,p}$，不擅自把它改为 $\bar c$，
+也不假定 $c$ 是 Teichmüller lift。
+
+令
+$$
+L(z)=\log\frac{u(z)}c,\qquad
+M(z)=\log\frac{1-u(z)}{1-c},
+$$
+并只保次数至 $N$。
+两个 log 的参数均在 $1+z\mathcal R$ 中，
+故这些有限截断是整的。
+完整 jet 恰为
+$$
+\boxed{
+R_\psi(u)\equiv\mathcal H\left(
+a_c+L,\ b_c+M,\
+h_c+b_cL+\int_0^z M(t)\,dL(t)
+\right)\quad\bmod(p,z^{N+1}).}
+\tag{1155.83}
+$$
+
+证明可在特征零先计算，随后使用 (1155.81) 约化。
+因 $N<p$，有
+$\psi(u(z))=\sigma(c)+O(z^p)$；
+故正次数至 $N$ 的第二输入没有变化。
+两个 abelian 槽分别增加 $L,M$。
+中央坐标的导数则准确为
+$(b_c^{\rm exact}+M)\,dL$，
+其中 $b_c^{\rm exact}$ 是原常数矩阵的未约化第二槽。
+积分的常数由 $z=0$ 的同一矩阵固定。
+这给 (1155.83)，其常数约化由 (1155.82) 给出。
+特别，$b_cL$ 和所有二次有序项仍保留。
+
+### 14.3. 三种坏参数的明确 jet 和边界常数
+
+令
+$$
+t=z^m a(z),\qquad m\ge1,\qquad a\in\mathcal R^\times,\qquad a_0=a(0).
+$$
+定义这个单位首项的实际 carry 和有限 log
+$$
+\kappa(a_0)=\frac{\sigma(a_0)/a_0^p-1}{p}\bmod p,\qquad
+A_a(z)=-\kappa(a_0)+\log\frac{a(z)}{a_0}.
+$$
+并置
+$$
+L_r(t)=\sum_{j=1}^{N}\frac{t^j}{j^r}
+ \quad\bmod(p,z^{N+1}),\qquad r=1,2.
+$$
+当 $m>1$ 时，超出所需次数的项自然为零。
+
+三个坏域的全部 jet 是
+$$
+\boxed{\begin{array}{c|c}
+\text{原参数}&R_\psi\text{ 的三槽}\\ \hline
+u=t&
+\mathcal H(A_a,-L_1(t),-L_2(t))\\[2pt]
+u=1-t&
+\mathcal H(-L_1(t),A_a,L_2(t)-A_aL_1(t))\\[2pt]
+u=t^{-1}&
+\mathcal H(-A_a,-L_1(t)-A_a,L_2(t)+A_a^2/2).
+\end{array}}
+\tag{1155.84}
+$$
+所有等式都是同一第二输入 $\psi(u)$ 的结果。
+
+对第一行，$\log z$ 项在
+$\log t-p^{-1}\log\psi(t)$ 中严格相消。
+正次数小于 $p$ 时，
+$\log\psi(a)=\log\sigma(a_0)+O(z^p)$，
+故第一槽就是 $A_a$。
+而 $\psi(t)$ 的阶至少为 $p$，
+其 $\operatorname{Li}_2$ 与 $\log(1-\psi(t))$ 的正次数
+都至少为 $p$。
+原中央坐标可准确写成
+$$
+-\operatorname{Li}_2(t)
++p^{-2}\operatorname{Li}_2(\psi(t))
+-p^{-1}a_\psi(t)\log(1-\psi(t)).
+$$
+所以至次数 $N$ 只留下 $-L_2(t)$；
+第二槽同样只留下 $-L_1(t)$。
+没有对高次数项的系数整性作猜测：
+整性已由 §14.1 的完整矩阵另行支付。
+后两行再分别使用实际 $S,J$，给显示的全部乘积和半平方。
+
+尤其在边界 $z=0$，
+$$
+\boxed{\begin{array}{c|c}
+u\to0&(-\kappa(a_0),0,0)\\
+u\to1&(0,-\kappa(a_0),0)\\
+u\to\infty&(\kappa(a_0),\kappa(a_0),\kappa(a_0)^2/2).
+\end{array}}
+\tag{1155.85}
+$$
+所以即使某 Bloch specialization 把 $[0],[1],[\infty]$ 记作零，
+也不能逐项删掉这些实际有序 Frobenius 边界。
+它们的 BCH 中央常数为零，与有序中央常数可能非零并不冲突。
+
+### 14.4. 同一配置的关系与原有限读取范围
+
+$\psi$ 是固定环同态，故原所有乘法关系、线关系、
+分母和五点配置都同时被它保持。
+若一份真实五点配置的五个参数及补参数都具有
+(1155.78) 的形式，那么 §10 的完整 Coleman 身份与
+(1155.81) 允许直接在 $\mathcal R_N$ 中约化：
+$$
+\sum_i s_i\left(h_i-\frac12a_i b_i\right)=0,\qquad
+\sum_i s_i h_i=C_\psi D_\psi,
+\tag{1155.86}
+$$
+其中
+$C_\psi=\log(1-\xi)-p^{-1}\log\psi(1-\xi)$，
+$D_\psi=\log(1-\eta)-p^{-1}\log\psi(1-\eta)$。
+这些量也是整的，且是同一配置的实际数值。
+没有将五个 carry 各自改为零。
+
+对已给定的有限有序矩阵乘法、逆元及整系数群态射，
+现在约化到 $\mathcal R_N$ 确实与运算交换；
+不会再出现 §13 浅退化坐标误差被负赋值放大的问题。
+本陈述只消费**已经给出的整系数**运算，
+不由此猜测 moment 的 de Rham 标架或 FL 尺度也没有损失。
+全部原根相位、四线/五项 gauge、真实 finite Cor 仍按原程序保留。
+
+由 (1155.82)–(1155.84)，每个原参数的这个形式 $N$-jet
+只需其单位部分至次数 $N$ 的模 $p$ 系数，
+以及实际常数/单位首项的模 $p^2$ carry。
+例如 §11–12 的单 primitive 比较所用形式次数十二满足 $12<p$，
+无须为了这些形式 jet 引入完整形式 logarithm 的首个 $p$ 分母。
+这没有删除真实 $p$-torsion 上更高次数的 nilpotents：
+从形式 jet 到该真实值的箭头仍须单独证明，不能据此把完整 moment 读数截在次数十二。
+
+### 14.5. 与真实 $E[p]$ 塔之间保留的准确比较
+
+(1155.77) 一般不保持原 $E[p]$ 的定义理想。
+因此 (1155.83)–(1155.84) 不能单靠代入一个 $p$-点，
+就被称作该有限标记塔上的 field Frobenius 或原 $F_0$。
+固定 CM 整数提升的选择也不能在尚未完成这一步时被随意更换；
+不同提升在 $E[p]$ 上相同，不代表其整个形式来源相同。
+
+“理想的误差含一个 $p$”本身不足以省去比较。
+仅在具有同一 tame 指数 $e=p^2-1$ 的简单整模型中取
+$g=z^e-p$，仍以 $\psi(z)=z^p,\psi(p)=p$，就有
+$$
+\psi(g)\big|_{g=0}=p^p-p.
+$$
+对 $1\le r<p$，在允许的 divided-power 归一中准确得到
+$$
+\left.\frac{\psi(g^r/r!)}{p^r}\right|_{g=0}
+ =\frac{(p^{p-1}-1)^r}{r!}
+ \equiv\frac{(-1)^r}{r!}\not\equiv0\pmod p.
+\tag{1155.87}
+$$
+这是一个完整的误差计算，说明未经支付的整格归一可以看见
+该 normal 方向；它没有声称原四十三格必然采用此项。
+真正后继是原根塔/共同 log 或 crystalline realization 的比较，
+包括所有 moment 权和可能的除 $p$，
+而不是把这一差称为一个已经消失的余链。
+
+本节由原完整 KZ 矩阵、R1157 的精确 divisor 因子、
+形式环同态及安全次数的积分逐式证明。
+没有数学程序执行。
+
+独立纸核：o2_high_coefficient 核准 (1155.83)–(1155.85) 的全部常数、积分号、$S/J$ 中央补项与 $N<p$ 的范围；原 $E[p]$ 比较没有作为本节输入。
