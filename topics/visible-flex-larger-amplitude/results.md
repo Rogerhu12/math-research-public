@@ -4,6 +4,7 @@
 
 ## 新增结论
 
+- **R765**：[完整有符号卷发展与整球SO(3)可积方程](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)。常比2+2支>96.3%卷面积准确但中心K>17.2排厚；同g低峰2+3支中央K<8.84、held>.705、全meridian与内帽准确、四缝二jet。新场全过渡metric/全reach仍欠；[真实全九图源码](scripts/resume_20261126/r765_signed_ratio_closed_two_jets.py)，45实际整面投影与共场LS继续。
 - **R764**：[真曲率长预卷带、全相嵌入与初厚度](results/R764-corrugated-pre-rolls-and-free-boundary-whole-caps.md)，[四整球全11图/十二层原求解](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)。新g初reach.132/D<4.386，held≥.88、两支体积alternative；全s端弦必要费已付，两预带全g/全t reach未付，解放原硬护领。
 - **R762**：[正弧长全三项判据与双坐标C²物理场](results/R762-positive-meridian-arclength-and-two-coordinate-crown-fields.md)，[完整四路预算与12冻结源](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)。护领恒等，坐标变换不付几何；真全Gram与两份独立gauge-only公开执行，原固定护领残差仍须释放。
 - **44（全部真实边界自由的新联合实际求解）**：[两整卷/双帽/共rim全时间求解](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)直接在同R757初g上联合所有正训练相位，五完整入口、两家族各4/8/16和各65相/七整网，22冻结输入。共有圈A/B/C三向二jet、完整内部场全参与，真Gram/曲率/面积/三维法球收费；右握保持原世界固定，R761几何证书不借给修正点。实际尚待原自然返回。

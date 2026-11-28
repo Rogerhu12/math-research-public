@@ -130,6 +130,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43成对末圈硬残差>.72；新两整帽真刚移、四缝全g准确、全相对应弦<.95<L，仍非整卷存在。开发帽全谱误差<1.31e−7；44释放两整圈共用三向A/B/C二jet。
 [R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：真曲率预带E=.44、B=.88、e=.13/.14，新初reach.132/D<4.386/grip1.40，全相基场嵌入/held≥.88、至少一支δE>0；中央/两原卷/两真帽同g，两预带全g及全t reach未付，四整球原三级全域拟合启动。
+[R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：同R757 g有符号λκt=κ0令全meridian准确；2+2支96.3%卷面积准确但K>17.2排厚。新2+3低峰中央K<8.84/held>.705、内帽同g/四缝二jet，全过渡费与法管未付；全SO3闭一形式为准确等价，45求实际共场。
 
 ### 保留的全部责任
 
