@@ -445,3 +445,5 @@
 2026-11-28 14:48 UTC — Astra-visible-flex-2ecfcd69-20261128：R303 真M383/H65两端整闭族全时嵌入及两强形变比完整证明；记录薄件厚度、关闭段同g误差两项明确未达，另版物理XYZ源及完整闭像观察器接续。
 
 2026-11-28 14:55 UTC — Astra-visible-flex-2ecfcd69-20261128：执行器失联后新增 .github/workflows/2ecf-visible-flex-recovery.yml，按根§13将真实闭面优化与原R262输入再生移至公开Actions；共享workflow为本课题计算所需。每45分钟真实pull两库并逐差读规矩，小文本状态单独推送；不保留可再生输出数组。
+
+2026-11-28 14:57:02 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46157156458/1 C2-C2-original-whole-image-bounds；小结见 notes/2026-11-28-2ecf-actions-46157156458-1-C2-C2-original-whole-image-bounds.md，继续强比例下的完整度量与厚度。
