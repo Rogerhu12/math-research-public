@@ -1,0 +1,129 @@
+{
+  "execution": {
+    "runtime": "functions.exec JavaScript V8 BigInt",
+    "date_UTC": "2026-11-28",
+    "source_path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/certify_higher_k_old_profile_screen.mjs",
+    "source_git_blob": "de9f1086b2f6c1d9e44b66e24580e975730fbe83",
+    "source_function_executed": "certificate",
+    "only_replaced_trailing_console_log_with_return": true,
+    "node_CLI_executed": false,
+    "python_or_BVP_executed": false,
+    "old_R57_interval_integration_repeated": false
+  },
+  "status": "exact_scalar_screen_completed",
+  "hypotheses": "Old R55 two-up-ramp profile, r in [21/20,11/10], exact metric, complete accurate circular Cauchy data, R5/R57 C3 classical uniqueness. No arbitrary C2 impossibility claimed.",
+  "full_BVP_or_interval_field_solver_run": false,
+  "sources": {
+    "read_commit": "6da577d085d4b8a6e22e3523e10752ad6f4ae42a",
+    "R55_git_blob": "4f5cd600faa9f7ba2b80aac7ccaa2af7301152d7",
+    "R57_git_blob": "3c7022188f2556af4a0099a87b61cd82d8d7eea1"
+  },
+  "common_budget": {
+    "D_upper": "67251/25000",
+    "H_width": "27/50",
+    "each_sweep_margin": "1/200",
+    "weighted_support_radius_upper": "2/3",
+    "old_core_curvature_upper": "3/1",
+    "pi_lower": "333/106",
+    "pi_upper": "22/7",
+    "sqrt3_lower": "433/250"
+  },
+  "rows": [
+    {
+      "id": "k040",
+      "parameters": {
+        "k": "2/5",
+        "S": "29/50",
+        "b": "9/20",
+        "alpha": "61/100"
+      },
+      "compensated_window_integral": "161/100",
+      "material_domain_margin_using_pi_lower": "91/5300",
+      "core_curvature_upper": "149434/12835",
+      "core_curvature_margin": "16873/25670",
+      "held_lower": "428344278167/1575000000000",
+      "held_absolute_margin": "4662978167/1575000000000",
+      "H_diameter_lower": "3368439/6250000",
+      "H_absolute_margin": "5889/6250000",
+      "planning_scalar_gates_passed": true,
+      "current_profile_classical_reach_excluded": true,
+      "obstruction": {
+        "kind": "new_exact_Cauchy_Schwarz_instance_of_R55_R57",
+        "second_ramp_t": "301/640",
+        "velocity": "7/25",
+        "root_margin": "51/625",
+        "chi0_squared_upper": "29744/407835",
+        "chi1_squared_upper": "3311/55080",
+        "chi0_upper": "271/1000",
+        "chi1_upper": "123/500",
+        "chi0_bound_square_margin": "41562047/81567000000",
+        "chi1_bound_square_margin": "138883/344250000",
+        "protected_margin": "63/1000",
+        "curvature_squared_lower": "854296875/2970308",
+        "curvature_squared_excess": "262901875/26732772"
+      }
+    },
+    {
+      "id": "k045",
+      "parameters": {
+        "k": "9/20",
+        "S": "31/50",
+        "b": "2/5",
+        "alpha": "69/100"
+      },
+      "compensated_window_integral": "41/25",
+      "material_domain_margin_using_pi_lower": "36/1325",
+      "core_curvature_upper": "146943/12040",
+      "core_curvature_margin": "1149/12040",
+      "held_lower": "3036998884917/11200000000000",
+      "held_absolute_margin": "24154084917/11200000000000",
+      "H_diameter_lower": "215468559/400000000",
+      "H_absolute_margin": "265359/400000000",
+      "planning_scalar_gates_passed": true,
+      "current_profile_classical_reach_excluded": true,
+      "obstruction": {
+        "kind": "direct_application_of_registered_R57_not_new_integral_execution",
+        "second_ramp_t": "533/800",
+        "velocity": "173/500",
+        "registered_chi_upper": "49427/100000",
+        "protected_margin": "12573/100000",
+        "curvature_squared_lower": "64072265625/226005494",
+        "curvature_squared_excess": "11636655625/2034049446"
+      }
+    },
+    {
+      "id": "k050",
+      "parameters": {
+        "k": "1/2",
+        "S": "27/40",
+        "b": "3/10",
+        "alpha": "4/5"
+      },
+      "compensated_window_integral": "33/20",
+      "material_domain_margin_using_pi_lower": "153/2120",
+      "core_curvature_upper": "3857/314",
+      "core_curvature_margin": "13/785",
+      "held_lower": "535357/1968750",
+      "held_absolute_margin": "46043/15750000",
+      "H_diameter_lower": "2153439/4000000",
+      "H_absolute_margin": "1407/4000000",
+      "planning_scalar_gates_passed": true,
+      "current_profile_classical_reach_excluded": true,
+      "obstruction": {
+        "kind": "new_exact_Cauchy_Schwarz_instance_of_R55_R57",
+        "second_ramp_t": "137/160",
+        "velocity": "41/100",
+        "root_margin": "819/10000",
+        "chi0_squared_upper": "29744/664335",
+        "chi1_squared_upper": "48224/236925",
+        "chi0_upper": "53/250",
+        "chi1_upper": "113/250",
+        "chi0_bound_square_margin": "1423403/8304187500",
+        "chi1_bound_square_margin": "451813/592312500",
+        "protected_margin": "11/1000",
+        "curvature_squared_lower": "1139062500/3974971",
+        "curvature_squared_excess": "314135000/35774739"
+      }
+    }
+  ]
+}

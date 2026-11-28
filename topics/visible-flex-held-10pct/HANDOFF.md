@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `cf3a6003dcf40a003623f358caea0b2f60641d62`（2026-11-28 15:26 UTC）。
+- 最近实际pull后双README已读锚 `6b2794aaa6a494638f32477b530be4fb89da004e`（2026-11-28 15:28 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
 - 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`；断线时只传小文本，不是假称本地pull。恢复后的实际pull已收齐所有回退提交。
 - 根§12直接推进，不加审批；§15只存源/参数/hash/小结果，不存可再生数据；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论先pull核规则再push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
@@ -20,7 +20,7 @@
 
 新q=warp=.012的[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受，λ.002的M8/M16原metric失败；[M24接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)615点/mean1168，metric1.407536802e−7，run21d676daa…/raw3bc1c050…，14:15:50UTC真0。[λ.004续算](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)factor1/solve6后child−9/父3，无raw/RMS/metric，不推断OOM或数学失败；完整nodal0fdf914d…仍在。RHS16与accepted-chord保存入口已备，未启动。
 
-[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)只付新核心条件预算，未跑新BVP；不同b不得混作λ割线。高k新路线须先避开R57的旧两级profile障碍，不能仅用核心数表。当前新单缓坡profile的严格标量证书与独立校准入口已准备，实际校准恢复后继续。
+[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)只付新核心条件预算，未跑新BVP；不同b不得混作λ割线。[高k旧两级profile筛除](notes/2026-11-28-design-higher-k-old-profile-screen.md)已用实际BigInt排除k=.4/.5的所选经典支，k=.45直接继承R57；仅属R5/C³支，不扩大为任意C²不可能。当前新单缓坡profile的严格标量证书与独立校准入口已准备，实际校准恢复后继续。
 
 [Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)实际POST403缺actions=write，无run；不绕权限。真实λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)和[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
