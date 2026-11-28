@@ -718,3 +718,379 @@ $\mathfrak a_2=\mathfrak a_3=0$ 的精确恒等。
 因此不能把新的 localized 表达式额外计作与全部原 Newton
 必要行独立的 forcing。它提供的是一个已付来源的非线性返回，
 而不是假定坏条件对任意乘法封闭。
+
+## 27. 同一原半权热来源的 Riccati 系数与两行共同分子
+
+本节把(114)--(117)的两条实际 Gaussian 槽，返回同一个固定
+水平质量函数和同一 Gauss--Manin 方程的两个有限系数。
+其用途是给出保全部阶乘和所需三位精度的可执行输入；
+没有把这次返回本身当成新的 canonical 必要零行。
+
+取 $p>211,\ p\equiv5\pmod6$，仍记 $d=p+1$、
+$N=d/2$。本节另要求 $p$ 是
+[固定代数水平格](../notes/2026-11-16-algebraic-horizontal-theta-frame-and-original-divided-rows.md)
+§5 的好素数：即排除该文已经固定、先于 $p$ 的有限整模型坏集
+$\Sigma_{\rm flat}$。这里不新增随 $p$ 选择的 cover、分母或来源。
+以下所有求导和整性都在同一个所选好整模型及其原 CM 点进行；
+没有把这个有限坏集未经计算改称为空。
+
+### 27.1 原 $S_{34}$ 的固定水平质量
+
+物理曲线及参数导子分别为
+$$
+ y^2=x^3-\frac{g_2x}{4}-\frac{g_3}{4},\qquad
+ L_2=6g_3\partial_{g_2}+\frac{g_2^2}{3}\partial_{g_3}.
+$$
+固定 $P:(g_2,g_3)=(0,-4)$，所以物理纤维是本续证§26的
+$E_1:y^2=x^3+1$。原截面准确为
+$$
+ \begin{aligned}
+ S_1(z)&=\sigma_1(z)^{34}R_S(x(z)),\\
+ R_S(x)&=\frac{x^2}{7}(x^3+1)(x^3-8)
+                   (7x^6-4x^3+16),\\
+ S_1(z)&=z^6+O(z^{12})\in z^6\mathbf Q[[z^6]] .
+ \end{aligned}
+ \tag{118}
+$$
+$\sigma_1$、原 $c_\sigma$ 和§26的 $g_1,g_2,\gamma$ 均不改变。
+特别本节参数 $g_2$ 与 Gaussian 第二槽 $g_2$ 是两种对象；
+在同时出现时第二槽写作 $g_{2,p}$。
+
+令 $\mathscr V_{34}=H^0(E,\mathcal O(34O))$，使用 R855 的完整
+连接
+$$
+ \mathcal H_{34}R
+   =\mathcal LR-\frac{33}{2}xR-\frac{D_z^2R}{68}.
+$$
+在上述固定有限 étale 覆盖上取原水平基 $h_{34,a}$，
+其质量为 $f_{34,a}=\varepsilon_{34}(h_{34,a})$。
+先在固定点 $\widetilde P$ 展开整个原向量
+$R_S=\sum_a\gamma_a h_{34,a}|_{\widetilde P}$，再固定这些
+代数常数 $\gamma_a$，定义
+$$
+ R_S^{\rm flat}=\sum_a\gamma_a h_{34,a},\qquad
+ \mathfrak f=\sum_a\gamma_a f_{34,a}.
+ \tag{119}
+$$
+这正是该笔记(37)--(42)的原 $S$ 提升。
+它不是在参数曲线上把一个恒等零质量的向量随意冻结，
+也不是任取一个具有三阶零点的函数。
+R855 的完整热递推给所有 $r\ge0$ 的准确等式
+$$
+ \begin{gathered}
+ \mathsf T_0=1,\quad \mathsf T_1=L_2,\qquad
+ \mathsf T_{r+1}
+  =L_2\mathsf T_r-\frac{r(2r-1)}{24}g_2\mathsf T_{r-1},\\
+ D_z^{2r}S_1(0)=68^r(\mathsf T_r\mathfrak f)(\widetilde P).
+ \end{gathered}
+ \tag{120}
+$$
+此处是全物理 jet 身份；$L_2$ 在形成算子时对所有参数完整求导。
+尤其
+$\mathfrak f(P)=L_2\mathfrak f(P)=L_2^2\mathfrak f(P)=0$、
+$L_2^3\mathfrak f(P)=90/34^3$。
+
+### 27.2 同一 Riccati 方程的完整形式解
+
+在参数曲线 $g_2^3-27g_3^2=-432$ 上，用实际加性流参数 $s$
+表示 $P_s$，即
+$$
+ P_0=\widetilde P,\qquad \frac{d}{ds}=L_2.
+$$
+$s$ 不是物理变量 $z$，也不是§26的 Newton 权变量。
+置 $a(s)=g_2(P_s)/12$，并取下列两个唯一的特征零形式解：
+$$
+ \begin{gathered}
+ \mathsf A''+a\mathsf A=0,\qquad
+ \mathsf B''+a\mathsf B=0,\\
+ (\mathsf A(0),\mathsf A'(0))=(1,0),\qquad
+ (\mathsf B(0),\mathsf B'(0))=(0,1),\\
+ \mathsf b=\mathsf B/s,\qquad
+ \mathsf R=\mathsf A/\mathsf b,\qquad
+ \ell=\log\mathsf R,\qquad
+ v=\mathsf B/\mathsf A=s/\mathsf R .
+ \end{gathered}
+ \tag{121}
+$$
+所有常数项为一的幂、平方根及对数均按这个固定常数项取支。
+这些是固定的真实周期方程解，不把 $\mathsf A,\mathsf B$ 声称为
+固定代数函数。
+
+为同时支付半权乘法，给任意固定 $k\in\mathbf Q$ 定义
+$$
+ \mathsf T^{(k)}_0=1,\quad\mathsf T^{(k)}_1=L_2,\qquad
+ \mathsf T^{(k)}_{r+1}
+   =L_2\mathsf T^{(k)}_r-r(r+k-1)a\mathsf T^{(k)}_{r-1}.
+ \tag{122}
+$$
+$k=1/2$ 时准确等于(120)，因为
+$r(r-\tfrac12)a=r(2r-1)g_2/24$。
+本式也是修正 Serre 算子的原正规式，所用规范是
+$E_4=12g_2$。无需调用全局权过滤定理即可证明以下全形式身份：
+$$
+ \boxed{
+ \begin{aligned}
+ \mathcal K_f^{(k)}(v)
+   &:=
+     \sum_{r\ge0}(\mathsf T_r^{(k)}f)(P)\frac{v^r}{r!}
+       =\mathsf A(s(v))^k f(P_{s(v)}),\\
+ (\mathsf T_r^{(k)}f)(P)
+   &=r!\,[s^r]\!
+       \left\{f(P_s)\mathsf b(s)^{k-2}
+                      \mathsf R(s)^{r+k-1}\right\}.
+ \end{aligned}
+ }
+ \tag{123}
+$$
+
+证明如下。递推(122)的指数母函数满足
+$$
+ (1+av^2)\partial_v\mathcal K
+     =L_2\mathcal K-kav\mathcal K,\qquad
+ \mathcal K(P,0)=f(P).
+$$
+从 $(P,v_0)$ 出发的特征曲线上，令
+$\lambda(s)=\mathsf B(s)-v_0\mathsf A(s)$。
+则 $v(s)=-\lambda(s)/\lambda'(s)$ 满足
+$v'=-1-av^2$，且
+$d\log\lambda'/ds=av$。
+当 $v_0=\mathsf B(s_*)/\mathsf A(s_*)$ 时，
+$v(s_*)=0$。Wronskian
+$\mathsf A\mathsf B'-\mathsf A'\mathsf B=1$
+又给 $\lambda'(s_*)=1/\mathsf A(s_*)$。
+沿同一特征曲线积分便得第一式。
+这是形式唯一解的计算，不要求选择任何新的复数或 $p$ 进周期。
+最后
+$dv=ds/\mathsf A^2$，故
+$$
+ [v^r]\mathcal K
+  =\operatorname{Res}_{s=0}
+      f(P_s)\mathsf A^{r+k-1}\mathsf B^{-r-1}\,ds,
+$$
+代 $\mathsf B=s\mathsf b$ 即为第二式，符号及 $r!$ 都已固定。
+
+### 27.3 所需窗口的真实整性与三重型
+
+这里分别证明底层代数函数和两个连接解的整性，
+不把 $L_2^p=0$ 直接移给非代数的 $\mathsf A,\mathsf B$。
+
+参数曲线写成
+$Y^2=X^3+16$，其中 $X=g_2/3,Y=g_3$，
+则 $L_2X=2Y,L_2Y=3X^2$。
+在 $p\equiv5\pmod6$ 时该曲线的 Hasse 系数为零，故
+$L_2^p=0$ 于其特征 $p$ 函数域。
+在原固定 étale 覆盖上导子延拓唯一，$L_2^p$ 仍为零。
+因此在§27.1的局部整模型 $\mathcal R$ 上，
+$L_2^p\mathcal R\subset p\mathcal R$。
+若 $n=up+j<p^2$、$0\le j<p$，迭代这个整算子即给
+$$
+ L_2^n\mathcal R\subset p^u\mathcal R,\qquad
+ v_p(n!)=u.
+ \tag{124}
+$$
+所以每个原整函数 $f$ 的实际流展开 $f(P_s)$
+在所有 $n<p^2$ 的系数都整。
+这尤其适用于 $a(s)$ 和 $\mathfrak f(P_s)$。
+这里的原系数域及固定点、基变换已包括在 $\Sigma_{\rm flat}$ 的
+既定整模型中；没有按 $p$ 临时选择 $f$。
+
+原流方程 $g_2'=6g_3,\ g_3'=g_2^2/3$ 在三次单位 $\omega$ 下给
+$$
+ a(\omega s)=\omega a(s),\qquad
+ \mathsf A(\omega s)=\mathsf A(s),\qquad
+ \mathsf B(\omega s)=\omega\mathsf B(s).
+ \tag{125}
+$$
+这些式子也可由常微分方程的唯一形式解逐系数证明。
+令 $Y=\sum Y_ns^n$；两周期解的递推为
+$$
+ (n+2)(n+1)Y_{n+2}=-\sum_{i+j=n}a_iY_j .
+$$
+在 $p$ 以下所有非零分母均为单位。
+第一对含 $p$ 的分母对应 $Y_p,Y_{p+1}$。
+由(125)，$\mathsf A_p=0$；$\mathsf A_{p+1}$ 是其第一个
+可能带 $p$ 分母的系数。
+对 $\mathsf B$，这两个次数都不是 $1\bmod3$，
+所以 $\mathsf B_p=\mathsf B_{p+1}=0$ 精确成立。
+次数 $p+2$ 的分母又是单位。因此
+$$
+ \begin{gathered}
+ [s^j]\mathsf A\in\mathcal O_F\quad(0\le j\le p),\\
+ [s^j]\mathsf B\in\mathcal O_F\quad(0\le j\le p+2),\qquad
+ [s^j]\mathsf b\in\mathcal O_F\quad(0\le j\le d).
+ \end{gathered}
+ \tag{126}
+$$
+这没有声称 $\mathsf A_{p+1}$ 整。
+
+由(118)、(120)、(123)，
+$\mathcal K_{\mathfrak f}^{(1/2)}(v)$ 只含 $v^{3j}$。
+再用(125)、$v(\omega s)=\omega v(s)$，准确得到
+$$
+ \mathfrak f(P_s)\in s^3\overline{\mathbf Q}[[s^3]],\qquad
+ [s^3]\mathfrak f(P_s)=15/34^3.
+$$
+因此本节所需 $\mathsf R,\ell$ 最多到 $d-3=p-2$；
+它们在这个窗口全部整，且 $\ell\in s^3\mathcal O_F[[s^3]]$
+在此有限意义下成立。
+取对数只除以至多 $\lfloor(d-3)/3\rfloor<p$ 的整数。
+半整数二项式系数在奇素数处整，所以
+$\mathsf b^{-3/2}$、$\mathsf b^{-2}$ 也保持所示整窗。
+$\mathsf A_d$ 的潜在首分母乘以 $\mathfrak f$ 后最早在 $s^{d+3}$，
+严格不入本次两系数。
+
+### 27.4 两个固定系数和完整三位共同分子
+
+定义
+$$
+ \begin{gathered}
+ \mathsf F(s)=\mathfrak f(P_s)\mathsf b(s)^{-3/2},\qquad
+ \mathsf F_2(s)=\mathsf F(s)\mathsf R(s)^{1/2},\\
+ E_N=[s^N]\mathsf F(s)\exp(p\ell(s)/2),\qquad
+ E_d=[s^d]\mathsf F_2(s)\exp(p\ell(s)),\\
+ \mathsf a_p=\frac{p\,68^N N!}{d!},\qquad
+ \mathsf b_p=\frac{p\,68^d d!}{(2d)!}.
+ \end{gathered}
+ \tag{127}
+$$
+$\mathsf F,\mathsf F_2,\mathsf R$ 是同一固定函数与同一周期方程形成的
+特征零形式函数；$p$ 只进入显示的指数、下标和阶乘。
+由 $v_p(d!)=1,\ v_p((2d)!)=2,\ v_p(N!)=0$，
+$\mathsf a_p,\mathsf b_p$ 都是单位。
+它们在需要的精度使用完整值，而非先任意约成一个 Legendre 符号。
+
+(120)、(123)分别给
+$\alpha_d=68^NN!E_N/d!$ 与
+$\alpha_{2d}=68^dd!E_d/(2d)!$。
+用同一个 $\gamma=34pc_\sigma$，遂有准确式
+$$
+ \boxed{
+ g_1=\frac{\mathsf a_pE_N}{p},\qquad
+ g_{2,p}=\frac{p\mathsf b_pE_d-\gamma\mathsf a_pE_N}{p^2}.
+ }
+ \tag{128}
+$$
+第二式的两项先合成原共同分子，然后再除 $p^2$。
+它包含原 $-34c_\sigma\alpha_d$，没有少一次 Gaussian。
+R614 的真实整性保证该共同分子在 $p^2\mathcal O_F$ 中。
+
+以下是足够且可直接使用的有限精度：
+$$
+ \begin{aligned}
+ E_N&\equiv
+  [s^N]\mathsf F\!
+       \left(1+\frac p2\ell+\frac{p^2}{8}\ell^2\right)
+                                      \pmod{p^3\mathcal O_F},\\
+ E_d&\equiv
+  [s^d]\mathsf F_2(1+p\ell)
+                                      \pmod{p^2\mathcal O_F}.
+ \end{aligned}
+ \tag{129}
+$$
+证明中所有实际参与的 $\ell^j$ 至多满足
+$3j\le d-3$，所以 $j<p$、$j!$ 为单位。
+前式余下的 $j\ge3$ 各项在 $p^3$，
+后式余下的 $j\ge2$ 各项在 $p^2$。
+前节已证明系数本身整，故没有借无界形式指数的系数界。
+由(128)，(129)准确决定 $g_1\bmod p^2$ 和
+$g_{2,p}\bmod p$；共同分子误差在 $p^3$，除 $p^2$ 后恰在 $p$。
+只保前式的一次 $\ell$ 项一般不足以读出第二槽。
+
+### 27.5 与同一 canonical 第二位、二阶首位相认
+
+在原首层失败 $g_1\in p$ 时，(128)给 $E_N\in p^2$。
+又因 $g_{2,p}$ 整，必有 $E_d\in p$。
+置两条真实整系数
+$$
+ X_p=\mathsf a_pE_N/p^2,\qquad
+ Y_p=\mathsf b_pE_d/p .
+$$
+它们分别是原 $g_1/p$ 和原 $\alpha_{2d}$；
+这里后者的整性只在上述首层失败范围内使用。
+(115)和(128)遂准确成为
+$$
+ \boxed{
+ \frac{j_1}{p^2}\equiv
+       \frac{2\gamma X_p-Y_p}{\gamma^2},\qquad
+ \frac{j_2}{p^2}\equiv
+       \frac{Y_p-\gamma X_p}{\gamma^2}\pmod p .
+ }
+ \tag{130}
+$$
+因此(117)恰为
+$(2\gamma X_p-Y_p)(Y_p-\gamma X_p)=0\bmod p$。
+真正 $J'(0)=0$ 所给的是
+$2\gamma X_p-Y_p=0\bmod p$；
+没有把 $X_p$ 与 $Y_p$ 分别赋零。
+等价地，该第二位使用原共同分子
+$2\gamma\mathsf a_pE_N-p\mathsf b_pE_d\bmod p^3$。
+这与§26是同一来源的两种完整表示，
+不是以固定函数的首三阶非零代替本次指定高系数的非零。
+
+## 28. 两半权来源的全卷积及真实权一周期
+
+本节记录(123)给出的完整乘法；它不提供一个可以省去 mixed
+项的平方规则。对同一参数曲线上的任意两个实际函数 $f,g$，
+$$
+ \boxed{
+ \mathsf T_r^{(k+l)}(fg)
+   =\sum_{j=0}^r\binom rj
+        (\mathsf T_j^{(k)}f)(\mathsf T_{r-j}^{(l)}g).
+ }
+ \tag{131}
+$$
+证明直接在(123)第一式中相乘：
+$\mathsf A^kf\cdot\mathsf A^lg=\mathsf A^{k+l}fg$，
+再比较指数母函数的系数。
+这在整个参数 germ 成立，故包含 $L_2$ 对全部参数的作用。
+
+可取 $f=\mathfrak f$，并取 $g$ 为原 degree2 参考
+$\Theta_2(z)=\sigma_1(z)^2x(z)$ 在同一固定覆盖和同一 $P$
+上的准确水平质量；它由原参考向量的水平坐标构造，
+且 $g(P)=1$。
+则两条 $k=1/2$ 的完整热核之积恰为 $k=1$ 的核：
+$$
+ \mathcal K_{\mathfrak f}^{(1/2)}(v)
+ \mathcal K_g^{(1/2)}(v)
+   =\mathcal K_{\mathfrak fg}^{(1)}(v)
+   =\mathsf A(s(v))\mathfrak f(P_{s(v)})g(P_{s(v)}).
+ \tag{132}
+$$
+这里的物理因子分别为原 $68^r$ 和 $4^r$；
+(131)先在各自真实热规范中形成全卷积。
+不能把它直接改成 $S_1(z)\Theta_2(z)$ 的同一条物理 Taylor 行，
+也不能把全卷积改成 $r=N$ 的逐项乘积。
+
+令 $\zeta=\mathsf A/\mathsf B=1/v$。
+Wronskian给 $d\zeta=-ds/\mathsf B^2$。
+故权一的 $r=d=p+1$ 行准确是
+$$
+ \boxed{
+ \frac{\mathsf T_d^{(1)}(\mathfrak fg)(P)}{d!}
+  =-\operatorname{Res}_{s=0}
+        \mathfrak f(P_s)g(P_s)\mathsf A(s)\,
+                          \zeta(s)^p\,d\zeta(s).
+ }
+ \tag{133}
+$$
+负号和整数 $p$ 次幂均来自同一个变元替换。
+这确实把两半权核放到“原代数函数乘真实秩二周期”的权一读者。
+但 $\mathsf A$ 和 $\zeta$ 是(121)的指定水平 GM 解，
+不是固定代数 cover 上可以自由施加 Frobenius 的标量函数。
+若要把(133)进一步认成 crystalline 配对，仍须证明
+**该**周期框架、Frobenius 初值和整个 mixed 卷积的整比较；
+本节未作这种替换。
+
+作为正常化交叉核，(122)与
+Ahlgren--Raum--Richter,
+*Theta Cycles of Modular Forms Modulo $p^2$*,
+[arXiv:2604.06049v1](https://arxiv.org/pdf/2604.06049)
+(1.9) 在 $k=1/2,1$ 的系数一致。
+本文的(123)、(131)已由原微分方程自行证明，
+不调用该文只对 scalar modular forms 给出的全局 filtration 定理，
+也不把全局 $q$-展开非零迁移成原 CM 点的单位。
+
+本节与§27均未运行数学程序。
+当前可直接消费的新输入是(127)--(130)的同源有限系数、
+共同 $p^2$ 分子和明确精度，以及(131)--(133)保全 mixed 项的真实权一返回。
+四个原 canonical 坏条件的共同不相容性仍须额外证明。

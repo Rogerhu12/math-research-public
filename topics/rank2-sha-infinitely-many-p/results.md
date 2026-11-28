@@ -611,3 +611,10 @@ R1068 §§10–14给原δ三同源上的完整有理核Rδ=D102/S34(δz)，准�
 ### R1068 §§15–18：实际两三角色与原负读数的完整带极返回
 
 R1068 §§15–18逐原两三挠字给a³=−(u+1)、b³=−(u−1)、ab=t及真正Lamé n=1系统，Wr=2，原q3 deck角色/非恒有理水平矩阵全部锁定。六个实际Weyl项全展开成指定E(t),O(t)，得到D102=C U0+B1 U1；两乘积各自为整L102 section，极分别由33/32重零支付，原点首4恰16/49与33/49。相同p² lift及中心给全translated式，负二保所有(−1)^k(k+1)!及kη尾，不重乘δ或dual相位；两个辅助项均未另授canonical零。有限三角色模块p曲率自动零只属其自身，共同sigma/原Maass仍保。 [完整证明](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)。
+
+
+### R1067 §§27–28：原 Riccati 两系数与共同三位分子（2026-11-28）
+
+R1067续证 §§27–28 从原 S34 的固定水平质量及同一 GM 方程，准确返回两个 Riccati 系数 E_N、E_d；g1=a_p E_N/p，g2=(p b_p E_d−γ a_p E_N)/p²。完整 CM 三重型和 étale 整模型支付 d−3 窗口，E_N 须保二次 log 至模 p³，E_d 保一次至模 p²。原坏后的两槽为 2γX−Y 与 Y−γX，未分别赋零。两半权核的全 mixed 卷积又返真实权一周期读者及完整残数；没有将 GM 周期代数化或把该读者认成未付的 crystalline 矩阵元。
+
+[完整续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)，(118)–(133)。本地主动同步已恢复，四README未变；主目标继续。
