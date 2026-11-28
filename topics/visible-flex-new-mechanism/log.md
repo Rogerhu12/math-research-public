@@ -274,3 +274,7 @@
 ### 2026-11-28 07:55 UTC — R631从实际新核心自动推进宏观μ1
 
 完整读新driver/两RHS QR/真位置消费者后发布；35源绑定和必要输入一致。新增题外.github/workflows/visible-r631-radius080-macro-core-design-20261128.yml，原全部列/行保留，5小时科学范围实际推进，不以小μ或首J结束。末完整fine若已付直接复用；所有新计算/未完费用照记。H的D节压至原完整来源，不撤原条件。
+
+### 2026-11-28 07:56 UTC — R636显式合法输入直接求原完整BVP
+
+两新source全文核对，33绑定与完整传递链一致；原求解器仅增加背景序列化元数据，不改目标/完整Jac/接受。新增题外.github/workflows/visible-r636-explicit-two-end-original-bvp-20261128.yml触发本公开Actions；活动R632不取消、不重做或抹费用，继续真余端/ruling。

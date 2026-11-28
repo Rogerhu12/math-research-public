@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **5885d9f5f587071790ed31e5bc40aadbc36eeb39**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **831dc6641f91cf998bca8135b6e72b718cfa823a**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -45,7 +45,7 @@ R617排固定有限pre/post精确非圆根，增长响应仍可用；τ1当前j2
 
 64×16/1153点，fine128×16/2305点冻结同shape/α/L/八中心A/三规范；不重锚或重拟合。原ODE1e−7/十末1e−8/ruling1e−7门不改；3300/180秒、48步只是可续段。R619–627、原18块576微包/ε1/12000/全正势保持；根后period/frame/闭pose/宏观reach仍欠。
 
-[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P=0必U>16/225，须改相对h形状。[R636](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)已给全程原盒内显式C²输入，P/动能两端准确零、B₂<0合法；余两端/ruling欠。新实现用准确多项式背景+原257扰动，不冒旧样条规则已包含背景。
+[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P=0必U>16/225，须改相对h形状。[R636](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)已给全程原盒内显式C²输入，P/动能两端准确零、B₂<0合法；余两端/ruling欠。[实际新范围](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)本次push触发，准确背景+原257扰动，首完整链复用，fine保同背景及全部常数；不重旧R632活动范围。
 
 ## 几何及新构造
 
