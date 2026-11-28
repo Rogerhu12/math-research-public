@@ -172,6 +172,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1193](results/R1193-original-highest-primitive-packet-and-simple-Cauchy-CM-jet.md)原p11mod12最高primitive r=m的τ_m+PS_(m−1)整角已付；负deck首中心唯一η=T_L db/(uA_p)，T_L(1)=(2A_p(1)/m)Σλ_sρ_sL_s/(1−s)。原CM首normal=2m，完整投影为κ_hi T_L(1)d(x^(g−1)y)；同p³盘除ε^m后整Tate轮廓degree≤(p−5)/6，packet顶系数非零。指定C/同β的楔及整尺度仍须实际比较。
 
+[R1195](results/R1195-original-full-integral-normalizer-corner-and-one-p-gluing.md)完整有限角准确为全部奇r的{(x,y)∈Zp²:x≡y modp}乘积，p1mod4另加二次St的一元角。各Er整，U_r=p e_cusp,r e_N满足U²=pU；任意真实稳定格的pure型拼接商恰im(U modp)，指数p^rank，单cusp投影整 iff U modp=0。原几何两行/PS碰撞保全，不把packet单位传给C。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
