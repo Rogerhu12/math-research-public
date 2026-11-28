@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **67c5b4f845a1b9fcdce1e6d6a6b46fdc412c119a**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **3de595f9f34a6776d0637cf4d75026f015dbf7a5**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff、立即执行、记SHA。每结论即push，NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核；根15只存源/参数/run/hash及真正必要续接输入。全部失败、未完和费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -42,7 +42,7 @@ R632/R636的原盒/18块576微包/全正势/全历史保持，ODE/ruling/history
 
 [R641终态](notes/2026-11-28-r641-three-end-natural-terminal.md)17接受c797752d，Ar−.18801974/ruling1.66777e14，同态fine已付，末P括号0叶/104前沿不冒拒绝。[固定物理Ar续接](notes/2026-11-28-r641-fixed-physical-center-resume-scope.md)source389c5029保256列、固定8H*²/L*权重、真中心/全DL锥、原trust.03125；旧root/fine/6恢复/17步不重播，3300秒含180末读出，旧λ留账。
 
-R651四个真实停留时长的仿射四端图/非零Vandermonde已证。[首次正时长求解](notes/2026-11-28-r651-positive-rest-time-original-input-scope.md)source d7878cdb：300秒含65严格积分保留，原四连续密度/有理逆/全物理盒/L自己支付。四端通过仍须释放plateau求全ruling。R654释放/移动时间真隐式链已备，root待读；R656定向K/R修正由同代理继续，不反复同随机扫描。
+R651 [连续四端正输入已获](notes/2026-11-28-r651-certified-positive-four-end-actual-terminal.md)，run46132556094/source d7878cdb：.058493371秒、71候选、16球积分，四τ均正、L4.769735604，原全物理盒严格闭合；真实四端由准确V逆同时为零，完整ruling未付。R654释放所有旧停留及接点jets、当前四控制/移动时间全链已证；[实际全ruling范围](notes/2026-11-28-r654-positive-source-full-ruling-actions-scope.md)只补新C³短collar积分差，接全256列/18块/全正势/原绝对门和固定2305点fine。原V不代新q控制，未闭局部盒保前沿；R656暂停，未作科学。
 
 ## E：R=.8宏观核心实际51接受后续
 

@@ -101,3 +101,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R643 实际0d9a与原d1f8未决四分之一步
 
 [自然终态及直接后继](notes/2026-11-28-r643-0d9a-coupled-mean-continuation.md)保留原2接受/3完整J/3全行QR、实际1566q、下一λ1.11111e−9和全数值费用。先完成已付尾但联合场未完的d1f8，使用原2.5094163732265944e−8预测及接受判据；如拒，必要重建未保存因子，并比较谱/函数限步/基点/半步/四分之一步身份后接cut3。原同86da目标、950work→1728fine、实际mean/双位置末读不变。工作η2.21791e−7不授fine、连续误差、宏观运动或reach。
+
+### R654 从已获连续四端正输入求完整 ruling
+
+[R651真实输入](notes/2026-11-28-r651-certified-positive-four-end-actual-terminal.md)已实际闭合四连续偶端、正时长及全部原盒，取代上文“尚未取得”的状态。[R654](results/R654-released-rest-shapes-moving-time-four-end-implicit-chart.md)释放全部256全局形状和旧接点jets；四τ由当前完整Eτ解，所有移动时间/η/A/加速度项不删。实际公开范围仅对C³新collar付差积分，复用源b球；其后保18块正势/两ruling/原绝对门，固定q/τ/八中心/三gauge作2305点fine。原解析plateau不能直接作为非平凡完整反馈根，当前仍需真ruling、ODE/history/period/pose/闭面宏观；R656额外四端搜索暂停未执行。
