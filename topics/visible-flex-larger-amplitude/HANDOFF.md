@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`a0a6398fc3c2b422b41f09d89333ba146fded941`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`c5be3d5556d8a4f5d1200574567d30d764e4b72c`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
 科学仅公开Actions；新raw只runner/scratch。保全源参/run/whole输出身份/typed/未知失败；不新增AST/fixture/重跑/审查门，不减目标或预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。根15允许退可完整再生旧数据，保结论/源参/run/SHA/精确恢复；前批包装范围不是全局旧raw禁令。
@@ -25,7 +25,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 23=46094430214 | 全波b1/2恢复policy；d86d/accepted1/g.9679630392005256；下一87c076仅统计。 |
 | 24=46096380016 | 半波b5/8；a464/accepted1/g.6117804556256119；六族返仍不可行。 |
 | 25=46099929359 | 11e66/accepted1/g.5294703284893127；K12.318076128726846/cell885/phiπ/2，s实际null；不冒22同point。 |
-| 26=46103106086 | 03:29:40Z从a6c9c101启动，job140849792210；R725 b1/2/ε1/8实际新场待返。 |
+| 26=46103106086 | 两input0；科学PID3811/source12b76b8；R725 b1/2/ε1/8新model/场未返。 |
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数/位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解全证。ε1/8显式15/b→64/(7b)，不推wholeK，高阶及存在条件保。[26完整24源](computations/fixed-fejer-r725-complete-scientific-source-delivery.json)137pair18变119保/22runtime；全epsilon/八cut/Q/校准真变。[26参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)保157/7词、458/445formal、64live、5CLI+13external。[完整启动](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)初队列74270B；science+pure118380B，须自然返后整接pure52340B。19完整report自然返；20–26未返，进度不是准确费输入。
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet/跨机制扰动全证。显式θ替2tan(θ/2)不推wholeK；新Slerp源实施中，不混25/26或继承旧凸势/校准。27拟同R725源b5/8全参数独立计算，旋转/第二角等价候选另保，未宣称加速。

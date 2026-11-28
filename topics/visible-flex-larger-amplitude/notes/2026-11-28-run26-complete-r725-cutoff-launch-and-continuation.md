@@ -394,3 +394,141 @@ This confirms a real independent execution start, not a scientific field, accept
   }
 }
 ```
+
+## 2026-11-28 03:50:39 UTC — 26两个真实输入及新源码子进程
+
+26两个完整原input已自然exit0。maker实际source4160b24ebc4a77bd4f3f556a0ebd77b44f472a7d，report65321B/20b275caa2971bda9808eb564acd5f3bdc065a1a02f8900995af13508218b6c6；reference实际source db42002c66a76120b619209415b4fa2fdc6bf68d，report84965B/c877a0ca18cb2b073abb279ebf75a6e521c0dd85f81f3e6d973f13dc44088e56。全部原命令、输出身份/指标/缺项保固定完整part；reference894879B/212eb5、carrier205842B/840604与既往实际字节相同不等于新场相同，locations/provenance/binding带本run真实身份。
+
+新科学子进程PID3811、实际source checkout12b76b81c33069a5b657c8d1c75af0b34a97b71d，实际入口launcher0673232700619911d4ab3c8fbe36c579bb52dc19f4e4e27eb84aa8e7ff7ff734。其声明driver e1d3仍与实际观察到的launcher分开；截至03:40:48Z，两个正常进度文件尚不存在，原FileNotFoundError全保。没有math_model/point/均值/校准/几何返回，不补旧25模型；exit null、自然返回未观察。下面完整活动对象与两个input的真实时长/summary状态保。
+
+```json
+{
+  "active": {
+    "step_id": "complete-fixed-fejer-r725-bhalf-first-20261128",
+    "scientific_source_commit": "12b76b81c33069a5b657c8d1c75af0b34a97b71d",
+    "scientific_source_sha256": "0673232700619911d4ab3c8fbe36c579bb52dc19f4e4e27eb84aa8e7ff7ff734",
+    "pid": 3811,
+    "observations": {},
+    "complete_small_progress_file_identities": [],
+    "observation_errors": [
+      {
+        "report": "fixed-fejer-r725-bhalf-first/actual-normal-evaluation-progress.json",
+        "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-r725-bhalf-first/actual-normal-evaluation-progress.json'"
+      },
+      {
+        "report": "fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json",
+        "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-r725-bhalf-first/actual-mathematical-progress.json'"
+      }
+    ],
+    "child_exit_code": null,
+    "child_natural_return_not_observed": true,
+    "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+    "observation_identity_sha256": "595249c31b87c3b8068c277dffb4b9226ce647da3a1bc3ecda87a6b587334037",
+    "observed_utc": "2026-11-28T03:40:48Z"
+  },
+  "input_status": [
+    {
+      "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "state": "completed",
+      "returncode": 0,
+      "seconds": 6.187592959,
+      "source_commit": "4160b24ebc4a77bd4f3f556a0ebd77b44f472a7d",
+      "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+      "summary_errors": [],
+      "missing_outputs": [],
+      "outputs": [
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-r690-inputs/report.json",
+          "sha256": "20b275caa2971bda9808eb564acd5f3bdc065a1a02f8900995af13508218b6c6",
+          "bytes": 65321
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+          "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+          "bytes": 4334
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+          "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+          "bytes": 144306
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+          "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+          "bytes": 40488
+        }
+      ]
+    },
+    {
+      "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run26",
+      "state": "completed",
+      "returncode": 0,
+      "seconds": 578.258992014,
+      "source_commit": "db42002c66a76120b619209415b4fa2fdc6bf68d",
+      "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "summary_errors": [],
+      "missing_outputs": [],
+      "outputs": [
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/report.json",
+          "sha256": "c877a0ca18cb2b073abb279ebf75a6e521c0dd85f81f3e6d973f13dc44088e56",
+          "bytes": 84965
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/reference.npz",
+          "sha256": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+          "bytes": 894879
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/observations.npz",
+          "sha256": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+          "bytes": 205842
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/locations.json",
+          "sha256": "f4bb2942c38344fc551ce3725545992f81716ad8e76885e915d88d4040e994e2",
+          "bytes": 106771
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/supplied-location-provenance.json",
+          "sha256": "1eac4bfe1f4e116a0dffa230a088278bc50ea54a6112dbfdee9e693de5f9a397",
+          "bytes": 223955
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/fixed-target-definition.json",
+          "sha256": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+          "bytes": 30919
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46103106086-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
+          "sha256": "c3f6d3b286e78def905ffb7bca781cfb23fe565a1fe2156609bb3d4340abef36",
+          "bytes": 35712
+        }
+      ]
+    }
+  ]
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1.md",
+    "bytes": 36663,
+    "sha256": "23943336cd7008fac6e4d7566714198e4250882809bb5cd17f031de3cd0dede1",
+    "git_blob_sha": "b9da3dc5ba5ac940f2803f07a66e64eeeacaa2a1",
+    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46103106086-1-part-001.md",
+    "bytes": 16595,
+    "sha256": "1a53b663c74da66f8a26a4d93f22ad798cd573f8d62ed7a22ed2e20397d0577f",
+    "git_blob_sha": "7680be56a3aecbc3ffa147de1e12a6ac0f95b322",
+    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

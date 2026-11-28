@@ -446,3 +446,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:49:54 UTC — ret65完整旧生成描述逐字保全
 
 36旧描述毛2292948B，7完整新件270527B，净2022421B；7原canonical393081B留树。3全差分卷141332B+纯恢复器5883B，完整provenance85846B、说明14552B、总表22914B齐。原全部43小ASCII正文全读，36逐字重建同原；30原source/140完整参数资源结论/33case失败未知保，529e8ba2da541a95c62056a78e422504263c6f89原字可恢复。旧first-request真实r3输入、optional archive缺件跳过与q098-independent→q106两级恢复责任明确；不能拿r4/canonical替原字段。未读大raw、未科学重跑/AST/新增门，活输入/唯一状态不删。双README云核至`a0a6398fc3c2b422b41f09d89333ba146fded941`无变（非pull）。
+
+## 2026-11-28 03:50:39 UTC — 26两个真实输入及新源码子进程
+
+26两完整input自然exit0，report65321B/20b275ca与84965B/c877a0ca；新科学PID3811/source12b76b81/launcher06732327。03:40:48原两个FileNotFound保，actual math_model/point/几何未知，不冒25字段。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`c5be3d5556d8a4f5d1200574567d30d764e4b72c`无变（非pull）。
