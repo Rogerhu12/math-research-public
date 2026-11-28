@@ -31,13 +31,13 @@
 
 [硬总trace完整消元及核心同周长路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已给可实施公式：保旧/compact/tail共1449自由列，A(P−P0*−B0x)+B(T(P)−P1*−B1x)固定真正总端量；新增j2是从属控制。当前τ1接受态准确嵌回，先完成六jets/Jacobian/mean/tail/位置消费，再沿支撑Minkowski插值得到的同一Pμ小步求连接。有限谱精化评价同一完整路径，不能每层换宏观目标；未有全连接根或全空间一致逆。
 
-## O2b-C：B030真实d59fa与剩余8635峰
+## O2b-C：B030真实d59fa，以已知违反推进原库交换
 
 [cc117原自然终态](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：run45930250772/job140280968908/sourcee553b6fb，2370.3419954749997秒，5metric+1restore、18J/1320块、48coarse/15fine/14完整localizer。真实d59fa5cf…在1672×3072及2467已闭峰上η.1966187824246114、物理V0。
 
 当前840coarse/1682fine/1882物理/380work，pending物理与working各1；g5.42723195661168e−5/e.010054272319566116有准确原记录，trust.45050811767578125/geometry，原trust后决策未做。H签名20757…已属于restoration，不借旧cc117输入的metric505f语义。
 
-末309b8dbc…未接受；原完整coarse/fine/nested已经付费，13100峰已闭4465、剩8635，原partial/末态/q/1682网/oracle吻合。下一仅继续8635、合并旧4465再按原门决定，不重闭峰；准确margin、pending、H与完整旧费用保持。相同geometry语义可用H，若恢复成功回metric按原helper重置，不冒完整workspace已保存。
+末309b8dbc…的已闭4465峰中已有curvature_plus=4.805549391305973e−6>e0+1e−8，单个真实违反即否定原合取接受门。[新已知违反早退策略](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)据此拒绝并从d59fa应用现有pending各1；8635剩余括号完整保留为未执行，不重付该已知失败trial。原outer15/16累计5metric+1restore相同，末outer0接受且有pending，完成原trust后决策为保持.45050811767578125。未来库序列可能与补完8635不同，不能冒原partial逐步重演；每个新接受仍需完整coarse/fine/nested/localizer。准确margin、H和全部旧费用保持；恢复成功回metric仍按原helper重置，不冒完整workspace已保存。
 
 此线设计g仍在变，不与R618 target合并；[固定圆参考接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)要求全部源/mean/高度/轴/primitive一致，新δ/α/K须本场支付。
 

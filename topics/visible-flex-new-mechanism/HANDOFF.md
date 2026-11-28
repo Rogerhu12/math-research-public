@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **a53aaa2608a713a41de664b192a40c252130cf3a**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
+公开最近实际pull/双README差异检查至 **53cf8f53637bf0f61b589834d663c79cdd95b321**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -33,13 +33,13 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 [硬总trace与凸核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已证：保1449自由列，以A/B从属lift准确固定全部P0=P、P1=T(P)，释放原缺j2但不让优化抹掉指定核心；当前τ1态可函数恒等嵌回。由当前凸核心到R579的同周长支撑插值给完整固定目标Pμ及导数，仍同E；正在接入六jets/mean/全位置/tail，未求宏观连接根。
 
-## C：B030真实d59fa及309b8的剩余8635括号
+## C：B030真实d59fa，以已付违反拒绝309b8后续进
 
 [cc117原自然终态](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：run **45930250772** / job **140280968908** / sourcee553b6fb，新增2370.3419954749997秒；5metric+1restore接受、18J/1320方向块、15fine/14完整localizer。
 
 真实保留 **d59fa5cf…**，已合格1672×3072峰η **.1966187824246114**/物理V0；当前840coarse/1682fine/1882物理/380work、pending各1，旧1672资格不转。准确g **5.42723195661168e−5**、e **.010054272319566116**、trust **.45050811767578125**、geometry phase。H签名20757…已为restoration，非旧metric505f；恢复成功转metric时按原语义reset。
 
-末未接受trial **309b8dbc…**的完整coarse/fine/nested已付，13100峰已闭4465，**剩8635**；原partial与末态同q/网格/oracle。后继只补剩余并合并4465，再按原门接受或拒绝，不重已闭工作；完整输入、H/准确margin/费用保留。此静态设计未授固定g或宏观闭族。
+末trial **309b8dbc…**已付4465峰内的curvature_plus=4.805549391305973e−6超过e0+1e−8，已足以否定原接受门。[新已知违反早退](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)直接拒绝，保d59fa应用两pending；**8635余队列保留为未执行**，不再花费、不标已闭。outer16实际0接受且有pending，原trust后决策应保持.45050811767578125。后续新trial仍需全部原完整门；未来交换序列可与穷尽余队列不同。完整输入/H/准确margin/费用保留，新request由本次push触发。此静态设计未授固定g或宏观闭族。
 
 ## D：十九态BVP真实dde0，统一求解权重
 
