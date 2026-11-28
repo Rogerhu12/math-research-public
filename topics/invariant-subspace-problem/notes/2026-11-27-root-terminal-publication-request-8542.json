@@ -1,18 +1,21 @@
 {
-  "message": "ISP R150: entire original bipartite Gram jets force value discriminant zero",
-  "parentCommit": "8f713572e31f8c50cb0ff0436453427394d0f32f",
+  "message": "ISP R150: W entire t-zero V2-zero original exclusion; first complementary original projections",
+  "parentCommit": "b4b35ac4489b9eb5d411a885072e403ce3373a2b",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-original-bipartite-Gram-jets-force-value-discriminant-zero.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-original-bipartite-Gram-two-jet-identities-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-original-bipartite-Gram-two-jet-identities-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-original-bipartite-jets-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-original-bipartite-jets-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-original-bipartite-jets-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-original-bipartite-jets-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-t-zero-mean-branches-and-V2-zero-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-V2-zero-full-original-quadratic-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-V2-zero-original-two-column-QQ-Bezout-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-V2-zero-complete-original-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-V2-nonzero-same-original-fixed-projections-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-t-zero-V2-nonzero-same-original-fixed-projections-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-w-t-zero-complement.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-four-heads-whole-common-zero-original-return-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-tzero-V2zero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-tzero-V2zero-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,5 +24,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-t-zero-complement.yml"
+  ]
 }
