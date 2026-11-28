@@ -24,6 +24,8 @@
 
 ## 新增结论
 
+- [R12：无零因子完整交换子仍允许本性平方曲线](results/R12-appendix-zero-divisor-free-commutant-essential-square-curve-boundary.md)：双边紧拟幂零权移的全部交换子由矩阵递推严格证明交换且无零因子；P(z)=T³+zT²与奇X²=P(s²)每参数准亲和、全J对称及γ关系齐备，X仍有无穷负Laurent项。其超不变尾不满足原全旗准亲和，不当作原Haar结论。
+
 - [R150：正确h=k权像维数至多一、8184曲线包络与相对六生成](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)：旧两个完整原N/P不可约核总次数93/88且不伴随，平坦复扩张保正则列；一般Pf首一t³再添ρ²=δ给固定权长度≤6。包络可空，不作有限点数或全局几何局部化有限性。
 
 - [R150：正确Phi的QQ已付矩阵精除与公共gcd双次界(5,51)](results/R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md)：b0ef31唯一14.598634407秒/0，完整条目尺度给F=Qs⁴(-L)^15F*、G=s⁸δ^48KwMn⁸(2L−Q)^4G*；新商总度≤409/633，完整固定双轴保度给QQ共同gcd≤(5,51)。曲线及孤立交点均保。
