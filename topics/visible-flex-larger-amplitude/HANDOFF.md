@@ -51,8 +51,8 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r769-publish-->R769 [全滚段与两真帽的四整球十二层实际](notes/r769-meridian-whole-46169013968-1-index.json) 双README真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee
 <!--r771-publish-->R771 [全子午凸坐标两整球六层实际](notes/r771-convex-meridian-46171324381-1-index.json) 双README真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull e3bc01eaf55fc763bed1d6b8f9b78544a2ded09a
 
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-whole-46174642286-1-index.json) [每次双README真读](notes/r774-shared-pose-whole-46174642286-1-reads.json) 4f16bee240fab6f1afb6b565b009f6a9a72c66ae
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 18f615c941b4e18e503d1ba028437b891fab5d85
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 0a57b845ffbf7815b1640701f2398eeb74b85f36
