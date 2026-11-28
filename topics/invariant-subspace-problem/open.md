@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-positive-e-original-centers-2075-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-monic-t2-2080-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088与U0另3保。负e及正k整ray已由原q2/R6/
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[正确Phi全权10生成/每权≤9](results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md)、QQ公共总45/u5、F*=−QdetM1及同σ16/C10保。第一头e362唯一120.073936225秒/130724KiB/−14，原6/5/6已返、合并gcd与最终cover未返，固定目标冻结。新[第二NV头原首一σ2及四列](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-original-monic-sigma-and-four-columns.md)在旧ellδ单位上付完整E2/E3/NV来源、t系数整支为零及exact 2×4呈示；仅自由二次环境，物理商不冒称自由。未执行新范数或gcd、无新头逆，原t及所有均值/值保留。续不同原均值全权t²头的单位合成与真实呈示；两Q旧内存门仍冻，整Phi空性/头零继续。
+正确Phi全权10/每权≤9、QQ公共总45/u5、F*=−QdetM1、同σ16/C10与第二NV头首一σ2/四列保。新[全权原首一t²、exact十列与四元环境](results/R150-appendix-unit211-Phi-zero-corrected-whole-monic-t-quadratic-exact-ten-columns-and-four-generator-NV-head.md)由真Rcal/EBo二次头显示Bézout1，且γO旧单位：I3=(qt,rR,rBe)，I6=(qt,五条一次原余式)，在A[λ,T]上exact 2×10。第二NV头先σ2再t2给真正自由四元必要环境，完整原商不假自由。尚无新系数执行/判空/长度改进；续同点完整原关系。第一头e362 120.073936225秒/−14仅三式6/5/6及首种子，合并gcd/cover未返，目标与旧两Q内存门均冻结；所有未闭权头、均值和值继续。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
