@@ -72,7 +72,7 @@
 | run42-bent-fermi-phase-46154734602-1-stage-04-return.json | 8481 | `b776e3be839c0ba3bbb3e45e8b379e72fa59c7ba71487b5297f981ddb83889be` | `61161a86e2bea66293acc13ed65efc43c9a146bd` |
 | run42-bent-fermi-phase-46154734602-1-stage-05-return.json | 12203 | `ab72cc7a2db4672cc9b2c1f72986c056251f2d86484f2ce023eb2838104990f7` | `ee25d0b5c2e5cfd8b0bce3ed81abc5006c77d858` |
 | run42-bent-fermi-phase-46154734602-1-stage-06-return.json | 17928 | `776e6aaa99030a7e82c246491ddaac131a20c5149903de5ac8f016ddd506f565` | `894e416bd418709fa66f9ee38e0a2af93abb0162` |
-| run42-bent-fermi-phase-46154734602-1-stage-07.json | 29401 | `4a4949ae9ef14d8e771d1448a5aec650b02261bc7308ac383977f2ca2b3c55bd` | `b58dd2af6d502c18bbcf1a6d3989ff85ada87b93` |
+| run42-bent-fermi-phase-46154734602-1-stage-07-return.json | 29401 | `4a4949ae9ef14d8e771d1448a5aec650b02261bc7308ac383977f2ca2b3c55bd` | `b58dd2af6d502c18bbcf1a6d3989ff85ada87b93` |
 
 五粗按原组合score选择stage2的plateau-free-pose；不是挑metric较好的一列后换点。三个精化均继承这个设计及同一R752固定g。
 

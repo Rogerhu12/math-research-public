@@ -431,3 +431,7 @@ Astra-larger-e4e2a2bf-20261126：同固定g原stage6真点7b56ad6c的9×1549/全
 ## 2026-11-28 15:44:57 UTC — 42全部原八阶段、同点69相与七整面网格均真实返回，科学失败
 
 ROOT已逐件取11原完整小返回并核全身份、官方46154734602/1/job141008777374自然success/child0。五粗+4/8/16和29cefe末全点69相/七网均已执行；精化Gram5.5219→8.2600→16.5550→24.8333，裸初场Jacobi校准未付、负J/角增量与guard保原值。完整mesh拓扑χ2连通、有限不同网格Gram22.8785/K430.22/逆法弦247.02，并非连续reach/嵌入证。所有8阶段完整closed-point身份、末物理/map/phase/NPZ、7压缩PLY和原11完整报告的bytes/SHA256/Git写入ownnote，raw按根§15留原runner。原预算未裁，已闭失败不重做，43–45/新真g继续。 双README云核至`53cfdc4891126959edb6b74e9422b39d8476f91f`无变（非pull）。
+
+## 2026-11-28 15:45:38 UTC — 42末阶段原返回路径更正
+
+更正42 ownnote完整原文身份表中stage07文件名为实际固定HEAD路径 run42-bent-fermi-phase-46154734602-1-stage-07-return.json；此前表中漏-return，原29401B/SHA256 4a4949ae…/Git b58dd2af…身份及全部数值没有改变。当前11件保留路径逐项与main元数据同。 双README云核至`e05ebcb8fa67d9398ed7cbc0a6563a779166d92e`无变（非pull）。
