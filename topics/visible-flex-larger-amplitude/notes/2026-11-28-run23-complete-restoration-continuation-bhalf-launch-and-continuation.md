@@ -645,3 +645,22 @@ The complete official run object and complete returned job wrapper are preserved
   }
 ]
 ```
+
+## 2026-11-28 06:00:45 UTC — 23后续完整试步拒绝及新试点开始
+
+6a101d6ee5d83220f9cf41720fec04d108d451e5996d346bbb3b14d488f9d836已完整几何返回，最大违约.9815551189995484、最大族reach，previous_completed_trial_accepted=false。原Phi3824.6264079942416/Gram.6461163646720337归这条已完成旧trial；不能将观察对象残留的latest_trial_statistics数值绑到新trial。当前仍87c076/accepted2/g.9678293850088526，完整旧六族保。新491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55于05:47:33.604533Z只是trial-start，截至05:49:22其统计/几何/接受未被本轮观察确认，alpha与方向号不猜。原whole索引保全部字段及其不同point作用域。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+    "bytes": 51859,
+    "sha256": "eaa37cc30735f742be7aae929aa323110da34e6b943a753d6b356d4703955bd2",
+    "git_blob_sha": "80b1f14bf08e2f759072e7b10c9c634a1d91b0cc",
+    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

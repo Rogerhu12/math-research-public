@@ -73,3 +73,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:00:39 UTC — 22第三个完整恢复步实际接受
 
 22 b34824实际accepted3，Phi681.6470516175362/Gram.40616529581758637，reachg.5235597907246015/distplus.11392305204890485。完整六族仍不可行，report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`7a0ad1d4021f55467beeea22b0fad9bd3a7a7551`无变（非pull）。
+
+## 2026-11-28 06:00:45 UTC — 23后续完整试步拒绝及新试点开始
+
+23 6a101完整g.9815551189995484/最大reach拒；当前87c076/accepted2/g.9678293850088526。491dae仅开始，原6a101统计不绑新trial，alpha/方向号未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`916dddfb8f8e40fa0e993abaeef9888267da33e4`无变（非pull）。
