@@ -150,13 +150,13 @@ R1205 已付同一原纯尖点格的底空间恰为 $\ker\mathfrak c=\operatorna
 
 但 R1196 的 $\mathcal V_m$ 是同一原点差经过全部有限 Čech log、三个支持尾、节点反馈和全图 Serre 配对后的读数。原曲线分量上一形式 exact 不等于这整个图上的 de Rham 类为零。尤其 (1206.8) 的 $p$ 阶主部在微分后不可见，而在原 Frobenius/Čech 过渡中仍须逐项追踪。
 
-本篇没有据此宣布 $\mathcal V_m|_{\ker\mathfrak c}$ 为零或非零，没有将 CM 端点的函数值零替代全部 CM normal 列，也没有将 R1201 的 packet 单位传给指定 $C$ 或完整 MW 消去空间。后续计算使用 (1206.3) 的实际原函数降低同源配对，而必须保留 (1206.8) 的全部主部与原支持尾。
+本篇没有据此宣布 $\mathcal V_m|_{\ker\mathfrak c}$ 为零或非零，没有将 CM 端点的函数值零替代全部 CM normal 列，也没有将 R1208 更正后的 packet 单位传给指定 $C$ 或完整 MW 消去空间。后续计算使用 (1206.3) 的实际原函数降低同源配对，而必须保留 (1206.8) 的全部主部与原支持尾。
 
 ## 来源与核验
 
 - [R1193](R1193-original-highest-primitive-packet-and-simple-Cauchy-CM-jet.md)：同一 Igusa 函数域、自然 deck 与中心微分。
 - [R1200](R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)：原 $\tau_s$、$\gamma$ 和 SS 参数规范。
-- [R1201](R1201-original-highest-packet-kernel-log-unit.md)：原 Jacobi 方程与已付 packet 单位。
+- [R1201](R1201-original-highest-packet-kernel-log-unit.md)：原 Jacobi 方程与 SS 单位；完整 packet 单位按 R1208 的 node 更正读取。
 - [R1204](R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)：实际 PS 返回 $-3\gamma^2\mathscr DT$ 及其 Cartier 核。
 - [R1205](R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)：原纯尖点的准确底空间。
 - R1196、R1197、R1199：原完整有限 log、CM 旗标和全图配对的范围。

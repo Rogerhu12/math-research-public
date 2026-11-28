@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-CM-section-lock.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-CM-node-log-correction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -150,11 +150,11 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
 
-[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。原逐点相位由R1200锁定，CM核全和单位由R1201支付；指定C整运输仍开。
+[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像、低a/high-normal交叉及opposite无关性保持。§6删除支持node的步骤已由R1208更正；原SS和仍有效，但完整V必须加入同一CM静态边界。
 
-[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Igusa character的Poincaré一阶类经relative F固定ε，原η′的t′⁻¹ primitive锁τ=B²、C²=γ²/B^(2p)及全部SS的同一ν。完整reference收缩成为有限多项式算子P_m，degree≤3m−3；同T*全图值准确为−mc₀νΣP_m(s)/(r_s^(2g+1)A′_s²)。μ3完整轨道消去λ₀，仅留λ₁=−6b/r的P₁∈k[b³]。其SS简单极部零 iff rP₁′+mb²P₁≡0 modA；新公开run46164785591在p59/71/83给27/33/39个非零简单极部，故逐点消失的全称路线已否。完整V/ν=43/13/54仅为有限证据，保全部simple改做原trace/求积；[运行与边界](notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md)，不扩大扫描。
+[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)同一relative F/Poincaré primitive锁τ=B²、C²=γ²/B^(2p)、共同ν；完整有限算子P_m与全SS和准确保留。μ3消λ₀，λ₁全simple极部不能删；run46164785591在59/71/83的27/33/39非零simple及SS/ν=43/13/54仍有效，旧V标签由R1208更正为SS部分，不重跑或扩扫。
 
-[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
+[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)同一Jacobi求积权1、CM端点32及有限RC多项式原函数给SS和准确32m c_mν/binom(m,n)²；保全部simple极部。该式旧称完整V的接口已由R1208补node，完整值改为−8·2^mν/binom(m,n)²。一般pure/指定C两列仍开。
 
 [R1202–1203](results.md)原最高负deck实际整Ω满足UΩ∈pΛ，qΓ整分裂；全normal/临界jet/centre已付。PS临界Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]秩一平方零，完整framing与群和常数保全。同底lift经π^−pU可改变generic底；其真实返回已由R1204读取，不先定义lift独立A(L)。
 
@@ -166,7 +166,7 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1207](results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md)原c₁的CM μ₃在实际p基中为原C_ns矩阵；连同原H₆六标记运输和framing，其组合固定整CM截面。R1021的精确eigen参数/模p线性作用给(I−ζ)(α,β)=0，两个特征值差为unit，迫一个Cartan坐标在整个O/(p)精确0。因此V=0、U=±c/2，原三个支持CM截面全模p锁在Q，原H_k(c_ξ)=0。此为包含nilpotents的锁点；twister/node/G(b_lift)²与完整Čech仍须合并，不恢复撤回的CM秩零商。
 
-**当前优先审计：** R1199 §6 从centre普通开平凡化直接延到CM node的步骤可能漏掉模π单位g₀；affine H¹(IO)=0只保证提升既定模I frame，不保证这个node frame与之相容。正按原G(b_lift)²/x^(ma)和twister核g₀及全图补项。核清前只消费R1201的SS有限和单位，不消费其等于完整V_m(T*)的接口；R1202–07的独立格/返回/原函数/截面结论不受此待核影响。
+[R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
 
 ## O5：原固定 Y 的有效断点
 

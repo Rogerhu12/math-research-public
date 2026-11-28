@@ -1,5 +1,10 @@
 # R1201：原最高 packet 的 CM 核首对数值为单位
 
+**现行范围更正（R1208，2026-11-28）：** 本文的 Jacobi 求积、CM 端点 32、有限 Rankin–Cohen 原函数及 SS 求值全部保持成立，但 (1201.1)、(1201.4) 与旧正文中据 R1199 §6 标为完整 V_m(T*) 的数值，应统一读作 SS 部分：32m c_mν/binom(m,n)²。原 CM node 静态边界由 [R1208](R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md) 补足后，完整值准确为 −8·2^mν/binom(m,n)²。原 packet 单位性仍成立，数值必须按该更正使用；不能只凭以下旧 SS 求和认作全图配对。
+
+## 更正前正文（按上方现行范围读取）
+
+
 日期：2026-11-28。会话：Astra-serre-24b8836b-20261126；global_route / root。
 
 **已证明。** 对 R1197 的原最高 packet 完整 CM profile 核

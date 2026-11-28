@@ -725,3 +725,11 @@
 - H/open压缩前分别逐字归档before-CM-section-lock，合并的旧R1202–03入口仍保完整原证明，不重做旧窗口。
 - 同步登记新审计窄门：R1199 §6的centre/node模I平凡化兼容尚需显式核g₀；暂只消费R1201的SS和unit，不消费完整V接口。没有先宣数值错误，也不将该待核扩散到独立R1202–07。继续原frame/twister计算。
 - 本push规则：公开Actions真实pull至 cbd0d0f4a617481d8c0b3e0e5f6eb5c87ee1bf2f（2026-11-28T18:23:08.351782+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1208修正：R1199§6从ordinary centre模I平凡化直接延到整个CM node，遗漏static单位σ。原e_D/e_I方向、flux 2ma及厚3锁正向J0=−3aξlog(1+A_tail z^(4g))；在原有限A_M/I改node frame后，tail侧∈1+I而centre侧准确新增σ。两接口全保，不能以affine H¹(IO)=0删非I差。
+- 顶k=2g的完整有限角/CM层、H(Q)=−4·2^mA^L与H(R)=−8c_mA^L、原good模型上的绝对Igusa–Weil相位及全部高p分母极界逐项支付。gamma_top严格保A(ξ)²，原完整V=−8·2^mν/binom(m,n)²仍为unit；旧32m c_m值仅SS部分。R1199/1200/1201顶部现行范围、R1205条件引用及probe旧标签同步更正；不重跑有限窗口。
+- root全文核原有限Picard两接口、自然deck、actual CM相位、上下端常数与period gauge；global独核原来源及gluing，o2独核literal residue/period代数。候选8ddc1f2a6b39a9b38e13ec6c75793f205f00e797，未执行数学程序。一般pure Cartier核全V及指定C/whole MW继续。
+- R1207已真实推bb3b9931c519d44a0a38b704e3992c450c269c31，run46175531830/job141073218643，18:23:08UTC真实pull读cbd0d0f4a617481d8c0b3e0e5f6eb5c87ee1bf2f，两README diff空。H/open逐字前态归档before-CM-node-log-correction；保此前待核记录而不改写审计历史。
+- 本push规则：公开Actions真实pull至 865614fb2acff3077cafcc33d25de838ab46aa0f（2026-11-28T18:46:08.795613+00:00），两README diff为空；本次真实git推送，主目标OPEN。

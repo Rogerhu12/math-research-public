@@ -1,43 +1,71 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-CM-section-lock-20261128",
-  "request_id": "r1207-original-CM-nonreduced-section-20261128",
-  "message": "serre: lock the actual CM section on the complete nonreduced constant tail",
-  "last_read_rules_commit": "a00f5001f868d9fb7eb751f9d9508cba82d32b60",
+  "source_branch": "serre-astra24-publish-CM-node-log-correction-20261128",
+  "request_id": "r1208-original-CM-node-corrected-log-20261128",
+  "message": "serre: correct original CM node boundary and complete highest-kernel log unit",
+  "last_read_rules_commit": "cbd0d0f4a617481d8c0b3e0e5f6eb5c87ee1bf2f",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "490b1cf4e192ed23542e6ef5941f957e17486f6f",
+  "previous_request_git_blob": "56ed0ed78f7c9e4b2560a32bd0cba928da6eb313",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md",
+      "path": "topics/serre-uniformity/results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md",
       "previous_git_blob": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-CM-section-lock.md",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-CM-node-log-correction.md",
       "previous_git_blob": null
     },
     {
-      "path": "topics/serre-uniformity/open-archive-2026-11-28-before-CM-section-lock.md",
+      "path": "topics/serre-uniformity/open-archive-2026-11-28-before-CM-node-log-correction.md",
       "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "6f5b7afea38939bc4774178a2e31ae3feb575ade"
+      "previous_git_blob": "662121fd3323d6f81cf1f03299975d95a4666316"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "42b8e4b1d349748032cbe2a4f2aadb551787f991"
+      "previous_git_blob": "f18ae8f543aeefa5852a893d3af53354c6dd8f4d"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "810e14485c83d756788a41c658cca7b6c7719e18"
+      "previous_git_blob": "403bd73d70a47059ab534478a87b97832b3ae6d1"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "4e7719259310b558883eabce2177e51a52231c62"
+      "previous_git_blob": "7e91b5779fffec2e6175a46f4bedb95ebceae747"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md",
+      "previous_git_blob": "f4577f93a68cb0a150aca77cb872aa3692bd4af1"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md",
+      "previous_git_blob": "4a46c40f17b458d4b8578a43e14f6887a9cf47bf"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R1201-original-highest-packet-kernel-log-unit.md",
+      "previous_git_blob": "2f9196cdc9d4606e254b55a84231acb1e0988914"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md",
+      "previous_git_blob": "b17780ed435388f7f766eb6bfd3905c87fd1df5f"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md",
+      "previous_git_blob": "9d8a7cf8193bd0144a443570d77073102060b72e"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R1206-original-PS-return-explicit-primitive-and-p-poles.md",
+      "previous_git_blob": "c4bd5504234f8114c6107b7c929ff4b583c9909a"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md",
+      "previous_git_blob": "11c9dd1d34774d75b12c9521abaceefdc64bf4cc"
     }
   ]
 }
