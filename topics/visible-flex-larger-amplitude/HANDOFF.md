@@ -60,5 +60,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)：同R781初g三族18冻结源/18原阶段/三终各69相七网；右内握直径.36、真实帽开发释放rim、所有近2r材料对厚弦+谱曲率+全Gram共同求，原预算启动，未来数值未返。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a1ada65fca2f77740f7021e4337c6a2840f211e7
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 680f430ff4c4497502d6dbab8ef0cba3a4557513
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull e47d78ba01dc853f0846da46de6852d071249c3f
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull e50efe205ec98e97298a2d54e5125a62880f61af
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull e519c4d0cb07989f6cdeade93546f1a19f555999
