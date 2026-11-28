@@ -399,3 +399,10 @@ R1064§11由原µ×按两平方根反对称构造真实quadratic测度ν，并�
 R1065对原H34/H102用实际[p]v=pv−v^(p²)和完整Newton迹证明ψf=A0+(p²−1)A_(p²−1)/p；只乘p即得整g=p(1−φψ)f及唯一primitive Galois–Katz测度。完整标量扩张支付非有理除点测试，g(Q)−g(0)=pf(Q)精确返回同一Hall；正质量为全高共振和，负type4质量准确零，原wild中心和d/p² Haar不删。实际负二系数F_Q(−2)/(102Z_Q)²及whole全部外权另保。前五层µ(c_k)/p模p逐项返原系数，严格单Hall门等价原µ_+(c1^(p+1))估值恰2；这是同source的明确矩门，未证明无穷p命中。
 
 [完整证明](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)，K1–K29；两次Cartier只在原p依赖形式盘使用，原Zp flat测度与本Galois dual不混同。
+
+
+### R1064 §§12–13：原核平均、无损单位读者及全系数精度
+
+R1064§12用同一个primitive Cartier-dual生成元证明完整q项核平均恰为原测度pOL部分，ψ为限制后p^-1 pushforward；原A(Q_E)的1−φψ准确等于原Zp单位cut，精确等距且无新增p损。负二与完整log−E斜率测试范数分别≤1、p^-1，全部Λ′原样保留。有限F普通LT函数若来自有限固定Qp子线的Fourier测度只能为常数，故不混同新Katz对象。§13保全部κ/γ/17/whole h，以同一r_n构造真F-Tate编码H_enc，区别其与H(logG v)；真实正权读者有精确数字和成本，原完整斜率有限转置只付O(logN)额外加权精度，不制造新canonical零或Smith收益。
+
+[完整证明](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，R36–R51；两条实际输入路径分别构造，未以ordinary盘或ψ=0代来源识别。

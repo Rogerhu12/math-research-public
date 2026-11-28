@@ -858,3 +858,382 @@ measure 延拓。这个 Dirac 输入不满足本题实际的全 Galois/Miller
 来源约束；它只说明那些额外约束必须实际进入证明。
 原 quadratic lift(G5)始终是已建立的正对象，原 full heat 完成
 及其同 canonical 读者的全部连接仍按明确缺口保留。
+
+
+## 12. 原 whole 测度的实际 LT 迹、单位域投影与同一临界读者
+
+本节的输入始终是原 R1059/R1060 已经存在的 whole bounded
+$\mathbf Z_p$-测度，而不是从任意普通 LT 幂级数反推出来的测度。
+因此它与一般整幂级数的 $p(1-\varphi\psi)$ 清分母构造须分开。
+本节给原负二值及完整斜率一个准确的有界测试空间。
+
+### 12.1. 原 primitive dual 生成元支付整个核平均
+
+继续同一个实际 $G$、$t'_E$ 及 $Q_E$。设 $q=p^2$，
+$\varphi f=f\circ[p]$，并以标准 normalized trace 定义 $\psi$；
+等价地，在整个 LT 开盘上
+$$
+ (\varphi\psi f)(v)
+      =\frac1q\sum_{T\in G[p]}f(v+_G T).
+$$
+这是实际 $q$ 项 trace，既不改成 CM 主单位的 Möbius 作用，
+也不把 centered $Q_2$ germ 的某个群作用直接称为 root rotation。
+
+原 $t'_E$ 是 Cartier-dual Tate 模的生成元。因此它模 $p$
+的分量非零，完美 Cartier 配对使 $Q_E|_{G[p]}$ 是一个非平凡
+$\mu_p$-值字符。其像为全部 $\mu_p$，每个值有 $p$ 个原像。
+由完整 $\mathcal O_L$ 作用，对 $x\in\mathcal O_L$ 有
+$$
+ \boxed{\quad
+ \frac1q\sum_{T\in G[p]}Q_E([x]T)
+       =\mathbf1_{p\mathcal O_L}(x).
+ \quad}                                                     \tag{R36}
+$$
+确实，$x\in p\mathcal O_L$ 时每项为1；
+否则 $[x]$ 在 $G[p]$ 上可逆，原非平凡字符求和为零。
+这也说明
+$(T,\bar x)\mapsto Q_E([x]T)$
+给 $G[p]\times\mathcal O_L/p\mathcal O_L$ 的非退化
+$\mathbf F_p$-双线性配对。这里保留实际 primitive 生成元；
+若先把它乘 $p$，(R36)就不再成立。
+
+令 $\nu$ 是一个已经给出的 $\mathbf C_p$-值 bounded 测度。
+利用实际形式群同态，不在 torsion 点使用裸
+$\exp(\varpi_E\log_G)$ 级数，逐个有限项与测度积分交换可得
+$$
+ \begin{aligned}
+ (\varphi\psi)\mathcal F_E(\nu)
+  &=\mathcal F_E(\nu|_{p\mathcal O_L}),\\
+ (1-\varphi\psi)\mathcal F_E(\nu)
+  &=\mathcal F_E(\nu|_{\mathcal O_L^\times}).
+ \end{aligned}                                               \tag{R37}
+$$
+由 Fourier 单射性或再次以字符核直接计算，
+$$
+ \boxed{\quad
+ \psi\mathcal F_E(\nu)
+   =\mathcal F_E\!\left((p^{-1})_*
+                    (\nu|_{p\mathcal O_L})\right).
+ \quad}                                                     \tag{R38}
+$$
+右边的 $p^{-1}$ 只是把支撑在 $p\mathcal O_L$ 的测度送回
+$\mathcal O_L$；没有给任意点使用非整乘法的 pushforward。
+特别，(R37)的第二项严格属于 $\ker\psi$。
+
+### 12.2. 与原单个 $Q$ 盘的 root 投影完全相认
+
+取本篇原来源 $\nu=\iota_*\mu$，其中
+$\iota:\mathbf Z_p\hookrightarrow\mathcal O_L$，
+$f(v)=A(Q_E(v))$。
+由(R36)中每个 $\mu_p$ 值的原像数恰为 $p$，
+$$
+ \boxed{\quad
+ (\varphi\psi)f(v)
+   =\frac1p\sum_{\zeta\in\mu_p}A(\zeta Q_E(v)),\qquad
+ (1-\varphi\psi)f
+   =A^\times(Q_E),
+ \quad}                                                     \tag{R39}
+$$
+其中
+$A^\times(Q)=\int_{\mathbf Z_p^\times}Q^x\,d\mu(x)$。
+另一方面
+$p\mathcal O_L\cap\iota(\mathbf Z_p)=\iota(p\mathbf Z_p)$，
+所以两种证明给出同一个原单位截断。
+
+(R39)是先构造实际 Cartier-dual 提升后得到的等式。
+它没有把 R1058 中某个同中心 Möbius 变换误认成
+$Q\mapsto\zeta Q$，也没有把书版 $\Omega$ 换成任意 ST period。
+
+测度限制是收缩，(R31)又是等距，因此
+$$
+ \boxed{\quad
+ \|(1-\varphi\psi)f\|
+    =\|\mu|_{\mathbf Z_p^\times}\|,\qquad
+ \|\varphi\psi f\|
+    =\|\mu|_{p\mathbf Z_p}\|,\qquad
+ \|\psi f\|\le\|\mu\|.
+ \quad}                                                     \tag{R40}
+$$
+对这个实际像，$1-\varphi\psi$ 本身已经整且收缩。
+一般 $F$-系数整函数需要乘 $p$ 才能保证
+$p(1-\varphi\psi)f$ 整，与本式并不矛盾：本式使用了原
+bounded 测度和(R36)的全核抵消，而不是只逐 trace 项估值。
+
+### 12.3. 负二值和全 log–$\mathcal E$ 斜率是有界测试
+
+在 $\mathcal O_L^\times$ 上，取与原 $\mathbf Z_p$ 分量一致的
+Teich 分解 $x=\omega_L(x)\langle x\rangle$。
+因为 $L/\mathbf Q_p$ 不分歧且 $p>2$，
+$v_p(\log\langle x\rangle)\ge1$。
+对原 $C$，$v_p(C)=2$，且
+$\mathcal E(z)=\sum_{r\ge1}(r+1)(r-1)!z^r$，故
+$v_p(\mathcal E(C/x))\ge2$。
+定义全单位域上的连续、局部 $L$-解析测试
+$$
+ \begin{aligned}
+ b_0(x)&=x^{-2},\\
+ b_1(x)&=x^{-2}
+       \{\log\langle x\rangle-\mathcal E(C/x)\}.
+ \end{aligned}
+ \qquad
+ \|b_0\|=1,\quad \|b_1\|\le p^{-1}.                         \tag{R41}
+$$
+对 $f^\times=(1-\varphi\psi)f$，以(R37)的实际测度定义
+$\mathscr L_a(f^\times)=\int b_a\,d(\nu|_{\mathcal O_L^\times})$。
+它们是该 Fourier 像上的有界线性泛函，其范数分别至多
+$1,p^{-1}$。限制回原子线，恰得到
+$$
+ \begin{aligned}
+ \mathscr L_0(f^\times)
+   &=\mathcal M_A(-2),\\
+ \mathscr L_1(f^\times)
+   &=\mathcal M_A'(-2).
+ \end{aligned}                                               \tag{R42}
+$$
+这是 R1059(A14) / R1060(18)的完整测试；
+并未以 $x^{-2}\log\langle x\rangle$ 代替它，也没有对
+$e^{CL}$ 的全测度有界性作假设。
+
+对全部实际字 $i$，仍分别保留 $\mu_i,C_i,\Lambda_i$。
+原斜率因此准确为
+$$
+ \boxed{\quad
+ \mathcal S=\sum_i
+  \left\{\Lambda_i'(-2)\mathscr L_{0,i}(f_i^\times)
+       +\Lambda_i(-2)\mathscr L_{1,i}(f_i^\times)\right\},
+ \quad}                                                     \tag{R43}
+$$
+并有逐字算子界
+$\max\{|\Lambda_i'(-2)|,p^{-1}|\Lambda_i(-2)|\}$。
+各字的 Haar、finite/Artin、period 及 marked 外权均仍在其原位置。
+若某一步实际运输到不同的 $\kappa_i\mathbf Z_p$ 子线，
+须按(R22)一起运输测试；不能把不同字的测试差异合并掉。
+本段不宣称这些泛函在任意 $\ker\psi$ 函数上已经按同一
+measure 对象定义。
+
+### 12.4. 识别原 Hall 来源时必须保留的系数域门
+
+上述接口可直接用于同一个 $f=A(Q_E)$。它不是将任意
+$F$-系数普通 LT 函数认成这类输入的依据。
+
+事实上，设 $F/L$ 有限，$f$ 是系数在 $F$ 的普通 LT 盘函数，
+并且确有 bounded $\mu$ 使 $f=A(Q_E)$。对 $\sigma\in G_F$，
+由(R7)、Fourier 自然性和单射性，
+$$
+ \sigma f=f
+ \quad\Longrightarrow\quad
+ \sigma(\iota_*\mu)
+       =(\tau_E(\sigma)^{-1})_*(\iota_*\mu).                  \tag{R44}
+$$
+左测度的支撑仍在 $\mathbf Z_p$ 子线。CM 开像使
+$\tau_E(\sigma)$ 可在足够深的 $\mathcal O_L^\times$ 开子群中
+取值，尤其可选它不属于 $\mathbf Q_p^\times$。
+两条相应 $\mathbf Q_p$ 直线只交于零，故(R44)迫
+$\iota_*\mu$ 支持于零，因而 $f$ 为常数。
+
+同理，若一个有限 $F$-系数普通 LT 函数的 Fourier 测度
+支持于有限条固定 $\mathbf Q_p$ 直线，可取深
+$\tau_E(\sigma)$ 避开这有限组直线之间的全部比值，
+仍得其支撑只能是零。这里可先把有限条线的代数参数收入 $F$；
+没有将无限 Galois 轨道缩成有限群。
+
+所以，非恒定的有限域 ordinary-LT Hall 函数不能仅凭
+$\psi=0$ 或若干相同低矩，直接改称原单一 $\mathbf Z_p$
+测度的提升。真正的完整 tensor、不同 Galois dual 对象或
+全 seesaw 返回仍须逐来源支付。此范围与一般 Katz
+$\ker\psi$ 返回相容，并不否定它。
+
+
+## 13. 同一原 whole 正权序列的有界编码、实际系数成本与变量区分
+
+本节给一个可交给普通 LT 盘理论的实际 $F$-系数函数，
+同时把它与 §12 的已知 measure 提升严格分开。
+所有数据仍来自同一个原来源，没有重新归一任何正权槽。
+
+### 13.1. 全部内在 CM jets 与显示的 $\kappa,\gamma,17$ 因子
+
+固定 R1060 的一个实际字 $i$，暂省 $i$。
+原(2)、(9)–(12)给
+$$
+ \begin{aligned}
+ R_n
+   &=p^{2n}\kappa^n\Omega^{3+2n}
+                 (\mathcal D_3^nf)(E,\omega),\\
+ r_n:=\Omega^{-3-2n}R_n
+   &=(p^2\kappa)^n(\mathcal D_3^nf)(E,\omega)\\
+   &=\left(\frac{17}{2}p^2\kappa\right)^n
+                       n!(n+2)!\,h_n.
+ \end{aligned}                                               \tag{R45}
+$$
+这里 $h_n$ 是原完整 $h_\infty$、finite word、Haar 与
+coherent 核在 $Z^nW^{n+2}$ 槽的 graded 代数化。
+具体地，原复 $\gamma$ 先按
+$\gamma^{-1}H_{\rm an}(Z/\gamma,W/\gamma)$
+完成该槽的 $\gamma^{-3-2n}$ 缩放，再取代数嵌入；
+没有把复 $\gamma$ 本身嵌入 $\mathbf C_p$。
+$-6\delta$ 图源、原 Gaussian 常数、两个极化、全
+$p^{-2}$ 矩阵和每个真实 tame word 仍在 $h_n$ 中。
+(R45)的 $17/2$、$\kappa^n$、$p^{2n}$ 都显示保留。
+因此不纯 graded 或一般 marked 来源也没有被替成一个裸
+$D_{102}S_{34}$ 乘积。
+
+R1062§7.5 已支付：在包含同一模型、level、CM splitting
+及所有固定代数系数的一个有限完备域 $F$ 上，内在连接及
+其全部迭代均定义，故本式所有 $r_n\in F$。
+这一域论证使用原 whole jet，不单独代数化未积分的
+$h_\infty$ 被积项。
+
+### 13.2. 实际 bounded 编码及精确形式回代
+
+令 $M$ 满足 $v_p(m_n)\ge M$ 对所有 $n\ge0$。
+原 Maass 系数整且 $v_p(C)=2$，故 $v_p(R_n)\ge M$。
+记 $\tau=p/(p^2-1)$，并定义
+$$
+ \mathscr H(z)=\sum_{n\ge0}r_n\frac{z^n}{n!},\qquad
+ H_{\rm enc}(v):=\sum_{n\ge0}r_n\frac{v^n}{n!}.
+$$
+前者的 $z$ 是原指数生成的辅助参数；后者是在选定整
+LT 坐标 $v$ 上逐系数编码的一个新函数。精确数字和给
+$$
+ \boxed{\quad
+ v_p([v^n]H_{\rm enc})
+    \ge M+3\tau+\frac n{p+1}
+                     +\frac{s_p(n)}{p-1}.
+ \quad}                                                     \tag{R46}
+$$
+其中 $s_p(0)=0$。证明只需
+$v_p(\Omega)=-\tau$ 及
+$v_p(n!)=(n-s_p(n))/(p-1)$。
+所以 $H_{\rm enc}\in F\langle v\rangle$，并在开半径
+$R_*=p^{1/(p+1)}$ 上有 bounded 加权系数范数。
+本式尚不证明其在该外边界为 Tate。
+
+这不是遗失来源的任意序列：令 $L$ 为原 $Q$ 盘原点的
+形式对数，R1060(13)的全部 Maass 费用给
+$$
+ \boxed{\quad
+ (1-CL)^{-3}
+ A\!\left(\exp\frac L{1-CL}\right)
+      =\Omega^3\mathscr H(\Omega^2L).
+ \quad}                                                     \tag{R47}
+$$
+它在形式原点及实际共同的小收敛盘上成立。
+全 $Q$ 盘的 bounded 来源仍是已经存在的 $A$；
+不靠此右侧复合另造一个全盘延拓。
+每个不同字分别使用自己的原 $C,\Omega,\kappa$。
+
+### 13.3. 普通 Taylor 坐标不是原 LT 不变导数
+
+设 $\ell_G(v)$ 是选定整 LT 形式群的对数，切向归一为1，
+$\omega_G=d\ell_G$。
+$H_{\rm enc}$ 的普通 Taylor 系数确为 $r_n/n!$，
+但不据此声称
+$D_G^nH_{\rm enc}(0)=r_n$ 对全部 $n$ 成立，其中
+$D_G=(\ell_G')^{-1}d/dv$。
+
+如果需要以不变导数编码该同一序列，必须另作实际形式代换
+$$
+ H_{\rm inv}(v):=\mathscr H(\ell_G(v)),\qquad
+ D_G^nH_{\rm inv}(0)=r_n.                                   \tag{R48}
+$$
+在原严格 LT 模型中 $\ell_G(v)=v+O(v^{p^2})$，所以
+$H_{\rm inv}\equiv H_{\rm enc}\pmod {v^{p^2}}$；
+这只是一段明确的有限窗。
+$\ell_G$ 在全开单位盘上并非有界，所以(R46)本身不证明
+$H_{\rm inv}$ 全盘 bounded。原 graded Maass 方向也未由此
+改称椭圆曲线的形式 Lie 方向。
+普通 LT 盘的函数定理可以用于已构造的 $H_{\rm enc}$，
+但所附原读者是下面的系数泛函，不能偷换成
+$D_G$、LT 权参数或原中央 $j$。
+
+### 13.4. 原正权读者与负二逼近的准确成本
+
+在半径 $R_*$ 的 bounded 加权系数空间上，
+原第 $n$ 行就是
+$$
+ \ell_n(H_{\rm enc})
+     =\Omega^{3+2n}n![v^n]H_{\rm enc}=R_n.
+$$
+该系数泛函在这个空间上的算子范数准确为
+$$
+ \boxed{\quad
+ \|\ell_n\|=p^{\,3\tau+s_p(n)/(p-1)}.
+ \quad}                                                     \tag{R49}
+$$
+这是
+$|\Omega^{3+2n}n!|R_*^{-n}$ 的直接化简；
+等号可用单项式测试，不主张该单项式必来自原 theta source。
+
+例如沿真正趋于 $-2$ 的正整数序列
+$n_l=-2+(p^2-1)p^l$、$l\ge1$，其数字和为
+$(l+2)(p-1)-2$，故
+$\|\ell_{n_l}\|=p^{3\tau+l+2-2/(p-1)}$。
+若原实际分量还要求额外有限同余，仍使用那个合法子列；
+(R49)逐个整数不变，不为缩短表达更换原有限角色。
+这说明从 bounded $H_{\rm enc}$ 到负二极限并非免费有界；
+极限的存在与值仍由原 whole $A$ / R1056 支付。
+
+### 13.5. 同一个完整斜率的有限返回与对数级精度损失
+
+原 R1060(19)–(23)已经给整多项式读者
+$W_H(x)=\sum_{n=0}^{N_H}w_{H,n}x^n$，
+并保留两个外权及全 Maass：
+$v_p(w_{H,n})\ge\nu-e_H$，
+其中
+$\nu=\min\{v_p(\Lambda(-2)),v_p(\Lambda'(-2))\}$、
+$e_H=\lfloor\log_pJ\rfloor$ 按原最小 $J$ 定义。
+把原逆 Maass 式代入，不改任何槽，得
+$$
+ \begin{aligned}
+ \sum_{n=0}^{N_H}w_{H,n}m_n
+   &=\sum_{\ell=0}^{N_H}
+                   B^{\rm enc}_{H,\ell}[v^\ell]H_{\rm enc},\\
+ B^{\rm enc}_{H,\ell}
+   &=\frac{\Omega^{3+2\ell}}{(\ell+2)!}
+       \sum_{n=\ell}^{N_H}
+          w_{H,n}
+          \frac{n!(n+2)!}{(n-\ell)!}
+                    (-C)^{n-\ell}.
+ \end{aligned}                                               \tag{R50}
+$$
+(R45)的 $\kappa,\gamma,17$ 因子此时已在
+$[v^\ell]H_{\rm enc}$ 中；(R50)不在另一 frame 上重新定它们。
+这与 R1060 的二维有限转置完全同源，而非新假设的几何 cross。
+
+置
+$d_N=\max_{0\le\ell\le N_H}s_p(\ell)/(p-1)$。
+由 $c_r(n)C^r$ 整，(R49)给此有限泛函在 $R_*$ 加权空间的界
+$$
+ \boxed{\quad
+ \|\mathscr B_H^{\rm enc}\|
+     \le p^{\,e_H-\nu+3\tau+d_N},\qquad
+ d_N\le1+\lfloor\log_p N_H\rfloor\quad(N_H\ge1).
+ \quad}                                                     \tag{R51}
+$$
+因此，若仅需原前 $N_H+1$ 个系数，并且这些系数的误差满足
+$$
+ v_p(\Delta[v^\ell]H_{\rm enc})
+   \ge M+3\tau+\frac{\ell}{p+1}
+                     +H+e_H+d_N
+ \quad(0\le\ell\le N_H),
+$$
+则(R50)的误差至少为 $M+\nu+H$，
+与原 whole 测度的(R1060(21))精度相容。
+证明是逐项将上式与
+$v_p(B^{\rm enc}_{H,\ell})
+ \ge\nu-e_H-(3+2\ell)\tau+v_p(\ell!)$
+相加，再用数字和恒等式；全有限和不额外损失项数。
+多字情形按各自原 $M_i,\nu_i,\Omega_i$ 及
+$\min_i(M_i+\nu_i)$ 合并。若 $B^{\rm enc}_{H,\ell}$ 本身也以近似值输入，
+仍逐项保 R1060(25) 的 $\Delta B\,a$、$B\,\Delta a$ 和
+$\Delta B\,\Delta a$ 三项；这里没有将原 $\Omega_i$ 或外权当作免费精确数。
+
+这里得到的是实际同源编码中的有限精度账本；
+因两侧都保原全前缀和同一 $W_H$，它没有产生新的
+canonical 零行或 Smith 主项。
+尤其对 $H_{\rm enc}$ 作一般 Katz 投影以后，不能直接改用
+§12 的原单位域测试；§12 的无损结论要求输入本来就是
+$A(Q_E)$。若要把两条路径合并，仍须支付这一实际来源识别，
+而不能只利用它们同属普通 LT 盘或同一个 $\ker\psi$。
+
+本附录是同一原来源的纸笔证明与有限重排，无新增数学执行。

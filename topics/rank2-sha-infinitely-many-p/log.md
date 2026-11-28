@@ -285,3 +285,15 @@ central写K1–K29，root全文核完整有限自由迹、p而非p²清分母、
 
 推前actual readonly run46073965457/job140862811868：公开2026-11-28 04:23:27 UTC至b9b3992909f05f4b633fd63c2ffbc940da8ba348；私库2026-11-28 04:23:32 UTC至469d1bec5f623c1d58cd3468180d6641bb95eae1。四README与04:17已读版相同，QUEUE本会话进行中未变。日志14887B/hash535e8217ad833005630e9aee78ca84d914b2dd5fb7b07dae59f1488ed6c9a6c1；库存3180blobs/45036164B/tree0402dcb31e09ddac5b3f25e72e206cd2642b2853，无>5MB、三旧必要gzip不变。R1064§11已推a3f656aa12d8f340a77799c7930f5d33270ecc83；本次逐字归档旧H至notes/2026-11-28-handoff-before-actual-hall-katz-return.md，9493B/hash1de8e326f7a6a64f883d0f50f5cf5cd77bcdb325697b1656667d3d750fcfcb94，压缩旧R梗概但全部归档链/未闭门保留。
 v13 04:23:19仍in_progress；04:24:01日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、末222/306，无数学终门。根查R700/R707已给固定分母/3/4高度界，R714/R717/R721/R723已给原Cartier和高度二窗；不重复这些输入。继续真正全tensor、原负二/斜率的bounded测试和未完成heavy终门。
+
+
+## 2026-11-28 04:29 UTC：actual ψ 单位截取与同一原斜率的精度
+
+R1064§12用同一个primitive Cartier-dual生成元证明完整q项核平均恰为原测度pOL部分，ψ为限制后p^-1 pushforward；原A(Q_E)的1−φψ准确等于原Zp单位cut，精确等距且无新增p损。负二与完整log−E斜率测试范数分别≤1、p^-1，全部Λ′原样保留。有限F普通LT函数若来自有限固定Qp子线的Fourier测度只能为常数，故不混同新Katz对象。§13保全部κ/γ/17/whole h，以同一r_n构造真F-Tate编码H_enc，区别其与H(logG v)；真实正权读者有精确数字和成本，原完整斜率有限转置只付O(logN)额外加权精度，不制造新canonical零或Smith收益。
+
+arith给R36–R51，root全文核primitive核配对、全部q项与原p项抵消、ψ的实际限制/缩放、单位测试与Λ′、CM开像的有限子线支撑门、H_enc的不变导数区别及R50逆Maass阶乘。R49数字和、R51误差逐式消去，保全部原whole输入；没有把任意普通LT函数套入原测试。无新数学执行。
+
+推前实际dual pull run46073965457/job140863469121：公开2026-11-28 04:26:09 UTC至3ba2c999a2233adc11d68e27468ef007bdef0679；私库2026-11-28 04:26:15 UTC至df17c5ddee3af531d9611029ffb961c8d4ce5d86。四README与04:23已读版相同，QUEUE本会话认领未变；日志14886B/hash0224116c7305d99b4cd46b96376e48c80bfb155aa6031429a2569bf5cb19b641。库存3182blobs/45066245B/treed711b3becde64e73e2581f878d0d8103d6d91a10，无>5MB，三旧必要gzip不变。原H±的Katz完整返回已推74ddb96741637d7a3618afe7bf5f4cc87d754318。
+geometry继续同一双Katz tensor、真实E0/E17/A4周期/槽倍率及完整critical germ；central继续真实theta连接，均不重做旧Cartier窗。root检查v13 scalar whole-primary返回的实际通用HNF费用，拟用完整Bezout双向行返回优化同一已验证hI输入；不改数学门、不启动第二heavy，未执行的新实现不记PASS。
+
+本次首次ref更新在04:28:58返回GitHub GraphQL执行错误，远端head同时前进；未称推送成功。立即尝试本地pull --rebase仍无环境，随即实际CI重拉：run46073965457/job140864182027，公开2026-11-28 04:29:08 UTC至676d4ab94af01f74f84ea6ca98a3f130e93077e6、私库2026-11-28 04:29:14 UTC至7d48af9935d0470959341faa4925ff912d647c90。四README与04:26相同，QUEUE未变，topic库存/全部旧必要输入未变；新日志14886B/hashb737e44e16764375ff4b4e686a4e845192e08fabba946e8e8580b780bbf9095a。更新H的实际读头后不force重推。
