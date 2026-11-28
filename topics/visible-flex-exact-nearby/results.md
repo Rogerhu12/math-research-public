@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [FHC：真实cut与选定远端高度的完整物理反馈](results/R149-supplement-selected-far-height-feedback-through-the-true-physical-cut.md)：全物理cut DC≤.11，所有高even迹≤3.6 Sbody；已知真选定基点SCAP两入域实际支付。WHN的height项可由1.360002Fext+2^-31223182完整独立变量和代替；必须另算同全正逆的单位height行及t<1，保显式cut变分、Z、共同world/两means。
+
 - [NPG：真非线性邻域的完整正侧物理逆接收](results/R149-supplement-nonlinear-neighbourhood-physical-inverse-and-received-columns.md)：真实无穷p的low变化≤112000ρ、high→low raw≤8500ρ/rough≤8.8e6ρ；原全193/独立97+96、两mean、所有源跳保。GG真图后独立验body、两个完整physical门并送同源signed解至WHN负窗；70000三角迹费含真Qδ+p。实际GG和global matched输入尚待。
 
 - [ASQ20：所有原物理96列的真有限坐标恢复](results/R149-supplement-actual-low-coordinate-recovery-on-complete-physical-columns.md)：同原UACT两个73728B whole dyadic方阵，实际CFC全96×96中心D以完整整数乘法形成XD；真半径≤2.694e+.17min(HS,Schur)。原10目标、所有phase/mean/cross保，SC/H96R/PWA未全前不运行。另接真实H96R原validator和PWA原自然校验桥，规则16独立审读凭据不放松。
