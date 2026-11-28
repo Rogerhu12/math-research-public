@@ -51,10 +51,10 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r769-publish-->R769 [全滚段与两真帽的四整球十二层实际](notes/r769-meridian-whole-46169013968-1-index.json) 双README真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee
 <!--r771-publish-->R771 [全子午凸坐标两整球六层实际](notes/r771-convex-meridian-46171324381-1-index.json) 双README真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull df9158623426311c6e931bbb6bcb1582e1a249b5
 
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
 
 [R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 6fa4f6d7938ebfcf0d007569266a704518c6d03a
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4ce6265f87578e1254a35deece0104ab05f1616f
+<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 7b98cfc0d6a8b97b1101566b3a5642dc25d76aeb
