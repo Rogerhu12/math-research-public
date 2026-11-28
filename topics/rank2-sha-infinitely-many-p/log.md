@@ -175,3 +175,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第6次）：公开2026-11-28 13:10:27 UTC到d541cd812c7dd43cca182690d771d38c34b13b30，私库2026-11-28 13:10:22 UTC到92aab8307bc9feeafe44b70914bd7fd9c4aa592f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3269/47219176B/tree656ad33e9e04d89f675729b6e49e6e00803195b4，无>5MB。
 
 推送前实际本地双pull（本次发布第7次）：公开2026-11-28 13:10:43 UTC到2a697ce765bf0d56f8d8c3c4d850cdc1eac98d82，私库2026-11-28 13:10:35 UTC到226602ff50f8eb52c1135583709be900e71703c1；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3269/47219176B/tree656ad33e9e04d89f675729b6e49e6e00803195b4，无>5MB。
+
+## 2026-11-28 13:10:48 UTC：R1071 §16：全部原九点的四次商与厚拉回
+
+根逐核F17的W9与实际无有理2挠、三个源映射和所有九点、当前与旧E呈示不同度、scheme-theoretic四倍拉回及c/c²取消。保完整原Miller单位/厚Norm，并清楚保留旧分割未下降的门。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:10:58 UTC到9ee934c6cbdd3860e1dc812c907aa0a5651d95d2，私库2026-11-28 13:10:53 UTC到6315a1faec68199b7eef64dfbfc7ce8834cc6b19；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3269/47231234B/treed3708198fb03201c1962990706a9c7de8b616026，无>5MB。

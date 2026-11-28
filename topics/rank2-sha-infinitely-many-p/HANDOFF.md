@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 13:10:43 UTC实际pull --rebase，读取main 2a697ce765bf0d56f8d8c3c4d850cdc1eac98d82；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:10:35 UTC实际pull --rebase至226602ff50f8eb52c1135583709be900e71703c1；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:10:58 UTC实际pull --rebase，读取main 9ee934c6cbdd3860e1dc812c907aa0a5651d95d2；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:10:53 UTC实际pull --rebase至6315a1faec68199b7eef64dfbfc7ce8834cc6b19；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3269/47219176B/tree656ad33e9e04d89f675729b6e49e6e00803195b4；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3269/47231234B/treed3708198fb03201c1962990706a9c7de8b616026；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -24,7 +24,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)source84917b3eab61681c70cf8f01112139eb0b6288df/run46139352999/job140961628765。根13:00首次取得同代理前缀2101953B/SHA30dfd00a545a3308f9360603c86a6c85b0eb050269b26b0f11e43fb3dadebd6f，至12:47:08.5388279Z；80实际文件/76请求pins、F/P同次独立读者及22RESULT/SHA均核。真T两图10HNF后正在完整∞纤维86/306；尚无A端点/四outer/后门PASS。固定29/shadow/artinian/2453/batch64/minimal/preflightfalse/4CPU16GB21000s/Sage10.6禁网只读不变。
 [短图软件](notes/2026-11-28-original-short-global-graph-software.md)source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713实际PASS9.166759972s；43pins、8+14全图及全部拒绝、真二次域/π²/δ0尾由根/代理各核，原失败边界保留，不代306生产。
 [v18](notes/2026-11-28-original-short-global-graph-production-v18.md)source702f361f1cf4725a870a1740a34688e75b2bc469/run46147595142，13:02:18创建，13:03读pending/零job，同heavy group不取消v17。85pins及六个同软件模块逐字接回原端点/两图/后理想全X及既有全部下游；独立host核Sage后实际线程/无凭据。尚无新85pins/F/P实际运行或生产PASS。
-[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)保原单RHS/完整LaurentX/post-ideal双理想全X；原极度2256、重建>4512。§§9/14原U17完整尖点关系给两直接有限图唯一无穷单极、负2255/正2256/U1；A0有限公共零1415、无穷1、总1416，单j缓存≤1251846。§§10–12 G13维1164、306行ρ≤13/Σ3120、总度21厚纤维准确回两图及全s饱和；完整多链/原域/全outer。§13原A0逐常数Frob固定，Ni/Di真实降F29，完整交叉乘积及两图回嵌付同一原图；好π可度≤3，总厚度21/22，不能移用原D的det或单位。有限图Popov每个历史附块都≤18度，非RSS保证。§15实际A4商给Z=X0(1156)度564函数、t0唯一薄三倍极，反图负2253/正2256/U3及全20次帽。V4全九点下降继续；不是生产PASS。
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)保原单RHS/完整LaurentX/post-ideal双理想全X；原极度2256、重建>4512。§§9/14原U17完整尖点关系给两直接有限图唯一无穷单极、负2255/正2256/U1；A0有限公共零1415、无穷1、总1416，单j缓存≤1251846。§§10–12 G13维1164、306行ρ≤13/Σ3120、总度21厚纤维准确回两图及全s饱和；完整多链/原域/全outer。§13原A0逐常数Frob固定，Ni/Di真实降F29，完整交叉乘积及两图回嵌付同一原图；好π可度≤3，总厚度21/22，不能移用原D的det或单位。有限图Popov每个历史附块都≤18度，非RSS保证。§15实际A4商给Z=X0(1156)度564函数、t0唯一薄三倍极，反图负2253/正2256/U3及全20次帽。§16全部九点同降V4，四交39840→9960、原点=[4]商点、5/7保持；原xout的c因子全消。旧T/v/辅助分割须重建完整厚块，不逐块冒称四次方；不是生产PASS。
 
 ## 原两/三位与三个实际目标：R1067
 

@@ -196,3 +196,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1071 §15：原A4商和反图三倍极的完整回接
 
 三条原映射逐特征零等变下降到X0(289)，两个物理端点在Z=X0(1156)均为度564。Y→Z忘3度4非Galois；u=(t⁴+18t²−27)/(8t³)及各完整纤维给反图负2253/正2256/U3、配对20次帽。原商整基尚未执行。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
+
+### R1071 §16：全部原九点的四次商与厚拉回
+
+实际F17和两个端点同降V4商，当前四交度39840→9960且九点均为商点[4]推回，5/7 Tate的4为单位。原xout的c因子全消，非约化拉回Norm须保multiplicity；旧T/v/辅助分割不逐项下降，18×9仍逐块付。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
