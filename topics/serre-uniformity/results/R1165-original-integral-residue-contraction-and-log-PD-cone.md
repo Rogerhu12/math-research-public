@@ -443,3 +443,208 @@ $e$-block 与逐层 precision 公式取得 $m_{b,j,n}$。
 T. Tsuji, *On p-adic nearby cycles of log smooth families*, Bulletin de la Société Mathématique de France **128** (2000), 529–575，[正式原文](https://www.numdam.org/article/BSMF_2000__128_4_529_0.pdf)，§2 尤其 pp.539–543 的 PD mapping fibre、(2.5)–(2.7) 及 Appendix Lemma A2（p.562）的实际 symbol。本篇使用的整 comparison 范围与 R1163 相同。
 
 §§1–4 的收缩、§§6–8 的链身份及精度由正文自足证明。它们不需要 ordinary 假设，也不把分歧域误装成带 field Frobenius 的未分歧底。全文无数学程序执行。
+
+
+## 10. 同一两开集上的 actual Frobenius 与明确的第二槽
+
+本节进一步实现 §6 所需的一个实际 chain Frobenius。所有构造在原 $\mathcal E/\mathcal O$ 的 $p$-adic completions 上进行，并共享同一 base $\psi(z)=z^p$。这不是在 $\mathcal O_L$ 上选择 field Frobenius。
+
+### 10.1 整个 affine $U$ 的显式 Newton lift
+
+写
+$$
+f(x)=x^3+Ax+B,\qquad
+d=4A^3+27B^2=-\Delta/16\in\mathcal O^\times,
+$$
+$$
+C(x)=6Ax^2-9Bx+4A^2,\qquad
+D(x)=-18Ax+27B .
+$$
+逐项相乘得到整 Bezout identity
+$$
+C(x)f'(x)+D(x)f(x)=d.
+\tag{1165.34}
+$$
+因此不必把整个 $U$ 再拆成 $y$-unit 与 $f'$-unit 两块。
+
+以下将 $A,B,d,C,D$ 全部施原 $\sigma$ 后用下标 $\sigma$ 表示。在
+$\widehat{\mathcal O(U)}$ 中从 $X_0=x^p,Y_0=y^p$ 开始。若当前残差为
+$$
+R=Y^2-f_\sigma(X),
+$$
+置
+$$
+a=-\frac{C_\sigma(X)}{d_\sigma},\qquad
+b=\frac{D_\sigma(X)Y}{2d_\sigma},\qquad
+J=1+\frac{D_\sigma(X)}{d_\sigma}R .
+$$
+由 (1165.34)，$J=a\,\partial_XR+b\,\partial_YR$。初始 $R\in p\mathcal O(U)$，故 $J\in1+p\widehat{\mathcal O(U)}$ 为单位。作实际 Newton 步
+$$
+(X,Y)\longmapsto
+ \left(X-\frac{aR}{J},\,Y-\frac{bR}{J}\right).
+\tag{1165.35}
+$$
+新残差在旧残差的平方理想中。于是 $k$ 步后残差属于
+$p^{2^k}\widehat{\mathcal O(U)}$，坐标逐步 $p$-收敛，极限给
+$$
+\Phi_U(x)=X,\qquad \Phi_U(y)=Y,\qquad
+\Phi_U|_{\mathcal O}=\sigma.
+\tag{1165.36}
+$$
+只使用 $2,d_\sigma,J$ 的单位逆。所得 map 在模 $p$ 为原 absolute Frobenius，不改变原曲线方程。
+
+$X$ 始终在 $[-1]$ 下为 even，$Y$ 始终为 odd；残差及 $J$ 都为 even。因此 $\Phi_U$ 与原 involution 严格相容。它的 pullback 在 relative one-forms 上被 $p$ 整除，因为 $\Phi_U(x)\equiv x^p,\Phi_U(y)\equiv y^p\bmod p$。
+
+### 10.2 原点 chart 的实际 lift
+
+在 projective $Y\ne0$ chart 取
+$$
+t=-x/y,\qquad s=-1/y,\qquad
+s=t^3+At s^2+Bs^3.
+\tag{1165.37}
+$$
+可将 §1 的 $V$ 取在
+$$
+1-2At s-3Bs^2\ne0,\qquad 1-Bs^2\ne0
+$$
+的 affine open 中。它包含整条 $O$，在 $[-1]$ 下稳定，$t$ 是 étale coordinate 且只有 $O$ 这一零除子。
+
+令 $\Phi_V(t)=t^p$。从 $s^p$ 开始，针对
+$$
+S-t^{3p}-\sigma(A)t^pS^2-\sigma(B)S^3=0
+$$
+作通常一变量 Hensel iteration；导数在 $V$ 上为单位。因此得到唯一与 $s^p$ 模 $p$ 相同的 $\Phi_V(s)$。这定义 actual $\sigma$-semilinear lift $\Phi_V$，仍与 $[-1]$ 相容。
+
+在 $\widehat{U\cap V}$，两 lifts 都落在同一 target étale $t$ chart：相关分母模 $p$ 是原单位的 $p$ 次幂。两 lifts 的所有函数值模 $p$ 相同。
+
+### 10.3 overlap 的 actual 整同伦
+
+记
+$$
+T_0=\Phi_U(t),\qquad T_1=\Phi_V(t),\qquad
+T_\lambda=T_0+\lambda(T_1-T_0).
+$$
+因为 $T_1-T_0\in p\widehat{\mathcal O(U\cap V)}$，用 (1165.37) 的 étale lifting 唯一求得 $S_\lambda$，在 $\lambda=0$ 为 $\Phi_U(s)$、在 $\lambda=1$ 为 $\Phi_V(s)$。其系数是 restricted $p$-adic series，且 $\lambda^m$ 的增量系数含 $p^m$。这直接来自在单位导数处的整 implicit power-series expansion；没有除 $m!$。
+
+由此得到实际 family $\Phi_\lambda$。对 relative one-form 定义
+$$
+I(\alpha)=\int_0^1
+        \iota_{\partial/\partial\lambda}\Phi_\lambda^*\alpha\,d\lambda .
+\tag{1165.38}
+$$
+这是一个整的显式 series。确实若 $\alpha=b(t,s)\,dt$，被积式为
+$$
+(T_1-T_0)\Phi_\lambda(b)
+       =\sum_{m\ge0}b_m\lambda^m,\qquad b_m\in p^{m+1}\widehat{\mathcal O(U\cap V)}.
+$$
+逐项积分的系数 $b_m/(m+1)$ 仍在 $p\widehat{\mathcal O(U\cap V)}$，因为
+$m+1-v_p(m+1)\ge1$，且这个下界趋于无穷。因此
+$$
+I(\Omega^1)\subset p\widehat{\mathcal O(U\cap V)},\qquad
+I(df)=\Phi_V(f)-\Phi_U(f),
+$$
+$$
+dI(\alpha)=\Phi_V(\alpha)-\Phi_U(\alpha).
+\tag{1165.39}
+$$
+最后一式使用 relative 曲线上的 $d\alpha=0$；一般形式写成
+$\Phi_V-\Phi_U=dI+Id$。原 base coefficients 由共同 $\psi$ 运输，所以 $I$ 为相同的 semilinear operator。它也保持 odd 部分。
+
+模 $p^a$ 实际取值时，只需保留
+$m+1-v_p(m+1)<a$ 的项；其余整尾全部在 $p^a$。这是一条完整尾界，不是有限采样。若还需除 $p^i$，先相应提高 $a$。
+
+### 10.4 整个 relative Čech complex 的 chain Frobenius
+
+在 (1165.4) 的同一两开集 complex 上，定义
+$$
+\boxed{
+\begin{aligned}
+F_0(f_U,f_V)
+ &=\bigl(\Phi_Uf_U,\Phi_Vf_V\bigr),\\
+F_1(\alpha_U,\alpha_V,h)
+ &=\bigl(\Phi_U\alpha_U,\Phi_V\alpha_V,\
+                     \Phi_Uh+I\alpha_V\bigr),\\
+F_2(\beta)&=\Phi_U\beta .
+\end{aligned}}
+\tag{1165.40}
+$$
+第一处 $\Phi_Uh$ 是在实际 overlap 上的 restriction，$I\alpha_V$ 的正号不可删。
+
+对 degree zero，
+$$
+\Phi_U(f_V-f_U)+I(df_V)
+       =\Phi_Vf_V-\Phi_Uf_U .
+$$
+对 degree one，(1165.39) 给
+$$
+\begin{aligned}
+d_1F_1(\alpha_U,\alpha_V,h)
+ &=\Phi_V\alpha_V-\Phi_U\alpha_U
+                    -d(\Phi_Uh+I\alpha_V)\\
+ &=\Phi_U(\alpha_V-\alpha_U-dh).
+\end{aligned}
+$$
+所以 $Fd=dF$，全部 signs 直接验证。
+
+$\operatorname{Fil}^1_H\mathcal C$ 的输入只有 forms；(1165.39) 与各 $\Phi_i$ 的 form-divisibility 共同给
+$$
+F(\operatorname{Fil}^1_H\mathcal C)\subset p\mathcal C.
+\tag{1165.41}
+$$
+虽然 $I\alpha_V$ 位于 Čech function 槽，它仍有这个所需的 $p$。因此与原 $S$ 的 convolution filtration 合并后，
+$$
+F(\operatorname{Fil}^r\mathcal C_S)\subset p^r\mathcal C_S
+\quad(0\le r\le p-2).
+\tag{1165.42}
+$$
+degree-zero function 部分用 $\psi(\operatorname{Fil}^rS)\subset p^rS$；form 部分用
+$\psi(\operatorname{Fil}^{r-1}S)\subset p^{r-1}S$ 加 (1165.41)。
+
+这给实际 divided chain map，而不仅是 cohomology 的强可除性。各 lifts 在几何变量上与 base $z$ 无关，故延伸到底 log complex 时保
+$\mathcal N F=pF\mathcal N$，并令 $F(d\log z)=p\,d\log z$。tensor degrees 的 usual Koszul signs 与 §5 相同。
+
+### 10.5 实际矩阵和 $Q_r$ 的两个 residue
+
+(1165.40) 使原 coefficient Frobenius
+$$
+\Phi_M=\pi F_1\iota
+\tag{1165.43}
+$$
+成为一份有明确源的 residue 公式。其两列分别由
+$$
+F_1\iota(\omega)=
+       (\Phi_U\omega,\Phi_V\omega,I\omega),
+$$
+$$
+F_1\iota(\eta)=
+       (\Phi_U\eta,\Phi_V\eta_V,\
+                 \Phi_U(t^{-1})+I\eta_V)
+\tag{1165.44}
+$$
+代入 (1165.6) 得到。没有重新挑选一个仅满足 Frobenius polynomial 的矩阵。
+
+对 $\beta\in\mathcal C^2$，用 §3 的同一主部消元写
+$H_2\beta=(-b_U,b_V,0)$。则 §6 的 actual correction 为
+$$
+\boxed{
+\begin{aligned}
+Q_r(\beta)=p^{-r}\bigg\{
+ &-\operatorname{Res}_O\left(
+       \frac{\Phi_U b_U}{t}+(I b_V)\eta_V\right)\omega\\
+ &+\operatorname{Res}_O\bigl((I b_V)\omega\bigr)\eta
+ \bigg\}.
+\end{aligned}}
+\tag{1165.45}
+$$
+在其余 relative degrees，$Q_r=0$。式中除法的整性来自
+(1165.42) 和 $H$ 保滤过，不是看见两个单独的 rational residues 后再猜其整性。
+
+因此 (1165.21) 的 $+Q_r\alpha$ 在这个 actual model 中已经有明确计算式。单个 coefficient torsor 的几何 degree 为一，所以其相应 $H^0$ 系数只用第一槽的 $\pi$；这不使含 theta、中央 primitive 或 higher tensor 的所有 correction 自动为零。
+
+本节没有宣称 (1165.40) 对同一曲线上的全部 Čech cup product 严格 multiplicative。原 external products 可用实际 tensor maps；与原 ambient syntomic product 的比较仍须保其明确 product homotopies，不能因 cohomology 上相容便删除指定中央项。
+
+### 10.6 与原来源的准确接口
+
+(1165.35)–(1165.45) 已实现原两开集的一份 actual geometric Frobenius、overlap homotopy、coefficient matrix 及其 cone correction。R1164 的实际 line units 必须按原 embedding/PD comparison 送入这份模型；若另一个实际 lift 先被使用，要随同其 change-of-lift homotopy 一起送入。原 Frob normalization、Poincaré coefficient、closed-point Cor 和所有 ordered root corrections 保持原定义。
+
+至此不能再将“缺少两开集 Frobenius 的实际 chain source”列为未付。尚须付的是原特定 symbols 到该源的实际比较并执行所需的 normal/residue 读取；本节不把算法公式宣称为已经得到的原 $F_0$ 数值。全部为纸面证明，无数学程序执行。

@@ -2,7 +2,7 @@
 
 - **原全Gaussian行的Cartier读数与低jet消补（已证明）**：[R1161 §§8–9](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)原有理Legendre微分锁δP^p=P^(2p)δP，真实θ-cycle给全部Q_s的Cartier身份；原每行化为指定2p系数，并只在该读取中严格消finite-log误差。四个实际多项式逆的低jet保未知p次补偿后准确读取，joint/mask非零仍继续。
 
-- **原几何系数的整留数收缩与log-PD cone（已证明）**：[R1165](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原ω/xω系数由两residue直接读取，单位首项主部消元给完整filtered、p连续收缩；tensor后覆盖原全部projectors。保底N和正确form Frobenius，actual chain F的+Qα及ordered −βδ均明确，normal双对角/γp carry/有限precision商全给。继续原embedding/Frob-overlap与F0实值。
+- **原几何系数的整留数收缩与log-PD cone（已证明）**：[R1165](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原ω/xω系数由两residue直接读取，单位首项主部消元给完整filtered、p连续收缩；tensor后覆盖原全部projectors。保底N和正确form Frobenius，actual chain F的+Qα及ordered −βδ均明确，normal双对角/γp carry/有限precision商全给。§10进一步实现U全局Newton、V的Hensel及p-small overlap积分，actual chain F和Φ_M/Q两residue已给；继续原ambientPD/source比较及F0实值。
 
 - **原系数的同根Miller与整Čech来源（已证明）**：[R1164](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)实际[N]pushout及刚化Poincaré line锁第一槽Weil的inverse根，弦函数给精确加法/全p塔；prime-to-p pull/trace保微分尺度与norm原点。原theta scalar symbol及closed-point Cor准确给all-vector矩，全部ρ/ordered同伦保留。§§9–12进一步给实际PD–Čech cocycle、μN root-symbol、全部lift/chord/层间同伦与有限精度，保ordered −βδ；§13给SS实际两frame及完整vertical divisor，先在NP=0消完再lift；继续原Frob/refinement与normal/F0数值。
 
