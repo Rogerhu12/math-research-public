@@ -213,3 +213,13 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第7次）：公开2026-11-28 13:17:49 UTC到2afaaa5f570238fe1c342d384b70c23471294b04，私库2026-11-28 13:17:44 UTC到1b7e9968e2f16c726ae90487c42321f4c745c6e7；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
 
 推送前实际本地双pull（本次发布第8次）：公开2026-11-28 13:18:08 UTC到9d2e6c88623a42b351b65e9bf5eb502631839253，私库2026-11-28 13:18:00 UTC到00780d7173f7261f8a1747bf2331ce082452e6bd；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+## 2026-11-28 13:18:14 UTC：R1073 §8：原权一来源的整Morava恒等式
+
+根已读Katz Serre–Tate 1.1.3/Th1.2.1与Gross–Hopkins period/action原文，逐核实际微分a_C、Fr偶层、全部有限角色、无限不同准典点与有界WPT；不混用全局同源和局部p-divisible作用。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:18:23 UTC到032c056ccfc669b78e16f49d0bccd50487c01ede，私库2026-11-28 13:18:19 UTC到37bc27ed0576340358eb4406ccd8a9f535f2d6bb；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47273075B/tree60a3e1a34b8ad67fa69b0c717ca18b37cdaf6cf8，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:18:37 UTC到3d9c5c20834e4c3321352f6fc3737fb085138772，私库2026-11-28 13:18:33 UTC到77c45b7d15168b10dc06cd863356d7f231700b7a；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47273075B/tree60a3e1a34b8ad67fa69b0c717ca18b37cdaf6cf8，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:18:50 UTC到7cf4bf58d218b5b4897240f1168b204ade258853，私库2026-11-28 13:18:46 UTC到ad4b1fec3d05fe2c4cb8570e449ca630fc653494；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47273075B/tree60a3e1a34b8ad67fa69b0c717ca18b37cdaf6cf8，无>5MB。

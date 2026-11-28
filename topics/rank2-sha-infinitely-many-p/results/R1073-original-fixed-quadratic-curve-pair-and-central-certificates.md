@@ -238,3 +238,49 @@ $$v_p(M_{N-1}(h_b))\ge\lfloor(N-1)\tau\rfloor=N\tau-1.$$
 对 $N=d p^a$、$a$ 充分大，实际 $v_p(M_N(G_1))=N\tau-1$：$\mu_{g_1}$ 支撑于单位，且 $g_1(0)=(p+1)G_1(0)$ 为单位。取任一 primitive $\xi_0$。$Y=X(\xi)^d/p^p$ 的单位剩余类在 $\mathbb T^\times$ 上恒定，因为 $X(u\xi_0)=uX(\xi_0)$ 且 $u^d\equiv1\bmod p$；由 Galois 等变其剩余类在 $\mathbf F_{p^2}^\times$。$Y^{p^a}$ 在单位上一致趋近其剩余 Teichmüller 提举的 $p^a$ 次方（该提举可随 $a$ 在有限两值中交替）；这是固定 $Y(\xi_0)$ 与所有 $u^d\in1+p\mathcal O$ 的一致估计。在单位外用零延拓，调用支撑及整 Galois 对偶，得 $\mu_{g_1}(X^N)/p^{N\tau}$ 在大 $a$ 时为单位。由 $M_N(g_1)=(p+p^N)M_N(G_1)$ 得上式。因而
 $$\frac{M_N(G_b)}{65 M_N(G_1)}\equiv\mathcal A_b(\eta^N-1)\pmod{p^a}\qquad(N=d p^a,\ a\text{ 充分大}).\tag{N}$$
 (M)中 $v_p(N)=a$ 只支付了一阶。二阶系数仍由上一节全(F)精度读出；(N)自身不能把 $\eta^N-1$ 的二次项和有界误差分开。
+
+## 8. 三个原权一来源与同一整 Morava 盘的完整恒等式
+
+保留前述(A)–(I)，写 $E=E_1$、$c=390$。全水平结构 $\alpha:\mathcal O_K/c\buildrel\sim\over\to E[c]$ 取 $a\mapsto[a]Q_c$，参考 $c_1=6$ 由同一水平结构下推。对任何具此水平结构的椭圆曲线、非零不变微分 $\kappa$，定义
+$$ f_k(E',\alpha',\kappa)=
+ \sum_{a\in(\mathcal O_K/c_k)^\times}\epsilon_k(a)^{-1}
+ F_{7,(E',\kappa)}(\alpha'_{c_k}(a)),\qquad k=1,65,8125.\tag{P1}$$
+这里不要求 $E'$ 有 CM，$a$ 用固定水平结构标记。七除点函数的对数导数随微分换基 $\kappa\mapsto u\kappa$ 乘 $u^{-1}$。因此这是真正的权一模形式在非尖点模空间上的正则截面：可在通用椭圆曲线局部微分框架中使用七除法多项式的有理对数导数；其水平极在七挠点，而所有被评价点阶为 $c_k$，互素。由固定有限呈示清除固定有限集后，在每个好特征及正规通用族上均正则。其在本文的完整形式邻域的整有界性只用这个结论，无需尖点增长估计。原三个 $G_k(0)=f_k(E,\alpha,\omega_E)$。
+
+取循环子群 $C\subset E[p^s]$，$|C|=p^s$，$q_C:E\to E_C=E/C$。先取唯一 $q_C^*\kappa_C=\omega_E$ 的代数微分。七乘法有理函数在任意该同源下满足
+$$\sum_{R\in C}F_{7,E}(P+R)=F_{7,(E_C,\kappa_C)}(q_CP).\tag{P2}$$
+两边的极集相同。对每个 $q_C(P)\in E_C[7]$，有且仅有一个 $R\in C$ 使 $P+R\in E[7]$；$q_C$ 在七挠点上是同构，零与非零留数分别匹配，归一微分使留数相等。差是奇常数，所以为零。记 $F_{k,C}=f_k(E_C,q_C\alpha,\kappa_C)$，则逐项平移给 $\sum_{R\in C}G_k(R)=F_{k,C}$。
+
+对 $g\in\Gamma_{s-1}$，所有 $z$ 满足 $\ell_s(z)=g$ 的点 $[z]Q_{p^s}$，按其生成的循环子群分为恰 $p+1$ 份。确因全几何原点参数为 $(\mathcal O_K/p^s)^\times$，同一生成子群的轨道为 $(\mathbf Z/p^s)^\times$；该核在 $\ker\ell_s$ 中的商等于 $\mu_{p^2-1}/\mu_{p-1}$。令 $Y_{k,s}(g)$ 为此 $p+1$ 个 $F_{k,C}$ 的全和。对 $s\ge2$，取父 $C\mapsto pC$ 逐个双射到 $g$ 之父的 $p+1$ 个子群（相同的 Teich 代表模有理标量在各层不同）。因 $C$ 的生成元集合为 $C\setminus pC$，故 (G) 中 $[g^{-1}]$ 的未除系数为
+$$ H_{k,s}(g)=Y_{k,s}(g)-Y_{k,s-1}(g\bmod\Gamma_{s-2}).\tag{P3}$$
+$s=1$ 的父重复 $p+1$ 次，得 $H_{k,1}=Y_{k,1}-(p+1)G_k(0)=(-p-1)G_k(0)$，故三个 $Y_{k,1}=0$。若 $s\ge3$ 奇，(B)及 Li–Xu 的负根号使 (G) 在所有新 primitive 角色上为零。其完整 Fourier 逆与层间推前于是给每个 $g$ 的 $(-p)^{-s}H_{k,s}(g)=p^{-1}(-p)^{-(s-1)}H_{k,s-1}(\bar g)$。代入(P3)得到 $Y_{k,s}(g)=Y_{k,s-2}(\bar{\bar g})$。所以
+$$ Y_{k,s}(g)=0\ (s\text{ 奇}),\qquad H_{k,s}(g)=Y_{k,s}(g)\ (s\text{ 偶}).\tag{P4}$$
+全体真参考也满足此式，其平凡处仍是(H)的 $1+p^{-1}$。
+
+### 在同一整变形盘正面比较两个原 Rubin 元素
+
+在包含固定水平结构和 $K_p$ 的有限非分歧整数扩张 $W$ 上工作，必要时扩大剩余域以定义全部特殊纤维标记。偶数 $s$ 时循环子群在好模型的有限平坦闭包有连通特殊纤维（$E$ 超奇异），因此原商同源约化为相对 Frobenius $\operatorname{Fr}^s$ 后接唯一同构。用该同构标记目标曲线的约化为 $E^{(p^s)}=E$ 的特殊纤维。实际 $E/\mathbf F_p$ 的 Frobenius 满足 $\operatorname{Fr}^2=[-p]$，故 $q_C\alpha$ 的约化为 $[(-p)^{s/2}]\alpha$。把水平结构改为
+$\alpha'_C=q_C\alpha\circ[(-p)^{-s/2}\bmod c]$，其约化即固定 $\bar\alpha$。这不改变任何 $F_{k,C}$：$\epsilon_k(-p)=\epsilon_k(-1)\epsilon_k(p)=1$。所有偶层的三个曲线来源由此全落在同一带全水平结构的光滑形式邻域。$\bar\alpha$ 含完整至少三级水平，故没有模堆叠的自同构歧义。
+
+由 Serre–Tate 变形等价，该邻域亦为带标记的一维高度二 $p$-可除群 $X=\widehat E$ 的变形盘 $\operatorname{Spf}W[[u]]$；选原 canonical 提升为 $u=0$。令 $\Omega$ 为通用不变微分的任一整自由基，使其在 $0$ 等于原 $\omega_E$。把 (P1) 记为此框架中的 $f_k(u)\in W[[u]]$。此有界性来自整通用椭圆曲线的七除点式和固定水平，绝不在全盘使用水平 Gauss–Manin 坐标。实际点记为 $u_C$，定义 $a_C$ 由
+$$q_C^*\Omega(u_C)=a_C\omega_E,\qquad F_{k,C}=a_C f_k(u_C).\tag{P5}$$
+$|a_C|$ 不能删除。其准确赋值为
+$$ v_p(a_C)=\sum_{j=1}^{s}\frac{(p-1)p^{j-1}}{(p^2-1)p^{2(j-1)}}=
+\frac{p}{p^2-1}(1-p^{-s}).\tag{P6}$$
+确实整形式同源在任何整参数上 Weierstrass 的秩就是 $p^s$（特殊纤维纯不可分），其 distinguished 核多项式根为 $v_R$、$R\in C$，且余下是整单位；原点导数的赋值是全体 $R\ne0$ 的 $v_p(v_R)$ 之和。准确阶 $p^j$ 的每个点的赋值是上一节 $r_j$ 给出的 $1/((p^2-1)p^{2(j-1)})$。
+
+每个 $t\in\mathcal O_{K_p}^\times$ 在 $\bar X$ 上有 CM 自同构。改变标记的通用性质给变形盘自同构 $\Phi_t$ 和唯一相容的通用 $p$-可除群同构
+$U_t:X_u\to X_{\Phi_t(u)}$，其特殊纤维是 $[t]$；可逐 Artin 整层取通用标记再取逆极限，形式群同态的刚性保证相容。它们固定原 canonical 点，那里 $U_t=[t]$。写
+$$ U_t^*\Omega(\Phi_t(u))=d_t(u)\Omega(u),\qquad
+ \mathcal T_t f=(d_t(u)/t) f(\Phi_t(u)).\tag{P7}$$
+$d_t\in W[[u]]^\times,d_t(0)=t$，这给有界的群作用；有理 $t\in\mathbf Z_p^\times$ 在所有变形上本就为标量，故 $\mathcal T_t=I$。准典提升上的 $q_{tC}\circ[t]$ 正好经 $q_C$ 下降为 $p$-可除群同构 $X_C\to X_{tC}$；其约化与 $\operatorname{Fr}^s$ 交换，因为偶数 $s$ 的 $\operatorname{Fr}^s$ 是标量，故其约化恰为 $[t]$。于是它就是 (P7) 在 $u_C$ 的同构。特别
+$$ \Phi_t(u_C)=u_{tC},\quad t a_{tC}=a_C d_t(u_C),\quad
+ F_{k,tC}=a_C\,(\mathcal T_t f_k)(u_C).\tag{P8}$$
+这同时支付了点标记和全部同源微分比；没有把随 $C$ 的 Hodge 基逐条设一。
+
+记 $P_\Delta=(p+1)^{-1}\sum_{t\in\mu_{p^2-1}/\mu_{p-1}}\mathcal T_t$，有理标量作恒等使陪集代表无关。取 $\ell(\eta)=\gamma$、$\eta\in1+p\mathcal O_{K_p}$，依此前群环取向。$\Phi_\eta$ 固定零；其切线乘子模 $p$ 为1，因为单位作用连续，pro-$p$ 群到有限剩余域乘法群的连续特征平凡（亦见下节特征零的准确乘子）。$d_\eta(0)/\eta=1$。因此在每个严格闭 $r<1$ 有 $\|\mathcal T_\eta-I\|_r<1$：对 $f\circ\Phi-f$ 用 $r^{-1}\|\Phi-u\|_r$，乘法框架用 $\|d_\eta/\eta-1\|_r$，整高阶尾各至多 $r$。$\mathcal A_b(\mathcal T_\eta-I)$ 在每个此盘收敛；因全部系数和作用的整界为一，结果在整个开盘仍是 $W[[u]]$。
+
+由(P4),(P5),(P8)，(I)在每个偶层每个 $C$ 除去同一个非零 $(p+1)a_C$ 给出下式在 $u_C$ 的准确等式。它有无穷不同的该类点：$X_C$ 的有理自同态代数是 $K_p$，因为它与原群同源，且形式对数导数嵌入交换域、$T_p$ 嵌入 $M_2(\mathbf Q_p)$，含 $K_p$ 的交换代数即 $K_p$。相对原有理 Tate 空间，$X_C$ 的格为 $\mathcal O_{K_p}+p^{-s}v\mathbf Z_p$，$v$ 是单位。其乘子环为 $\mathbf Z_p+p^s\mathcal O_{K_p}$（乘 $v^{-1}$ 定标后直接算）；反向包含也成立，因为 $m+p^s a$ 保存 $C$，可从原整群下降。故不同 $s$ 的整自同态环判别式不同。所有点都在开盘。离散赋值整数环的非零有界幂级数只有有限个开盘零，遂得
+$$\boxed{P_\Delta f_b=65\,\mathcal A_b(\mathcal T_\eta-I)P_\Delta f_1
+\quad\text{在 }W[[u]],\quad b=65,8125.}\tag{P9}$$
+它比较同一原全模形式来源及同一 $\Gamma$ 的有界函数。R1065/R1066 的 Hall–Katz 第一挠层负二测试没有这个同源变形盘恒等式。此前物理 $E_1$ 盘中沿有理单位的 Volkenborn 算子含 $z h_b$；在(P9)有理单位从循环子群的定义已整除，所余 $p+1$ 是同源轨道而本来可逆，故无需该误差。

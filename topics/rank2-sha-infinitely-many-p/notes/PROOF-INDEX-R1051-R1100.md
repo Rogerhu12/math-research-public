@@ -714,3 +714,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1073 §7：全盘原Volkenborn差的整可除性
 
 三固定G_k真实有理下降；开形式盘Volkenborn差精确为log_E·h，h整且ψh=−h。原全权读者保N M_(N−1)h和准确period损失，不能把首阶精度冒称中央二阶精度。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §8：原权一来源的整Morava恒等式
+
+固定全水平权一来源、全部p^s循环商和原微分给PΔ f_b=65A_b(Tη−1)PΔ f1。作用来自p-divisible群，非全局椭圆自同构；完整准典点无限与有界WPT证明整盘身份，原反号层保留。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
