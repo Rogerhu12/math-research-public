@@ -112,16 +112,13 @@ R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留
 
 R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36点非零；不能由此赋P2(T)非零或删全native连接项。后继仍用实际非齐次配对及同M高尾。
 
-## O厚点：唯一原完整 v13，持续消费真实终门
+## O厚点：消费 v13 真实终态，完成同一原分母返回
 
-[v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
+v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。下一同一MD的完整U/坐标复用仅准备，全部原F_y专门验收保留，当前无heavy。
 
-[v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新04:55:28实际查询仍为in_progress；04:24:01再次GET与00:37、01:03、01:25、02:01、02:30、02:57、03:21、03:46及04:04相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一准备固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。必须先消费真实软件比较，随后接下一唯一heavy；不扩大资源或以稀疏/半单影子代全非约化行模。
 
-[R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)现付同一个scalar primary的完整U/V多项式行返回；两新源码只替旧support两个调用点，完整非约化残域及原四交/Norm/18×9门保留。固定v1软件run46109303246/job140869032165已真实PASS（69.85s），见[完整来源](notes/2026-11-28-original-scalar-primary-software-and-production.md)；v2修原projector合法绑定的过严断言并加实际包装器兼容测试，需消费新回执；新生产入口仅准备，须等当前v13实际终态和软件结果才接下一唯一heavy。
-
-旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
+软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 
 ## O4、O6、O7与所有其它原门
 

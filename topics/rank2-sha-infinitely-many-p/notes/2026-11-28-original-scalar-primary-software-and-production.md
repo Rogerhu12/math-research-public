@@ -36,14 +36,18 @@ v2实际源码：
 | check-original-scalar-primary-return.py | 23325 | 30cb33209c8d9e11838aaba41255081f3901dd51f95b12b012c2114e1001a591 |
 | check-original-complete-quadratic-api.py | 9547 | d8bd86142724f5ce36c9628ec5c4e4ea5591f62facd006ef38c256cfa85f337d |
 
-固定request为2026-11-28-original-scalar-primary-return-v2-current-projector-binding，3346B/SHA256 c56ab4a7d3d6a76a1ec4db216d918632031c5eb1a76dc4f48e9acfcb13ab128f；25个源含新checker实际读取的原projector文件。只更新已明确白名单分支的实际两个SHA，不放宽任意脚本入口。该v2检查本次提交请求，未收到真回执前不记PASS。
+固定request为2026-11-28-original-scalar-primary-return-v2-current-projector-binding，3346B/SHA256 c56ab4a7d3d6a76a1ec4db216d918632031c5eb1a76dc4f48e9acfcb13ab128f；25个源含新checker实际读取的原projector文件。只更新已明确白名单分支的实际两个SHA，不放宽任意脚本入口。该v2检查已真实PASS：source2f48aae169de25457b405bb313fdb1d081c372a3，[公开run46109939554](https://github.com/Rogerhu12/math-research-public/actions/runs/46109939554)/job140871011216，2026-11-28 05:00:12 UTC输出后工作流success。新结果SHA256 82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6，旧七组结果7a9498adf81200f5eb0f62a9b847fcf5f751299c67f8cb57008e4d7fb11d91d6；完整日志59924B/hash69748f45202709ee68e6047481c5bd39c4986abc273cbf2a09b5a6113f22b8e8，不入仓。
 
-## 3. 原唯一生产运行
+root重核两原结果字符串hash、source/run和全部源pins；六个原primary比较、五拒绝、未改旧七组及实际projector包装器兼容均通过。包装器正文hashd585250ae7eb965803047671590a52149f6d9faaeae68fd9e86398573e5d5a4f；实际generic记录0、producer.main未执行，未伪称生产几何。软件主体68.862840787秒，rank306返回32.021213060秒。
 
-v13仍为run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816；2026-11-28 04:55:28 UTC实际状态in_progress，未返回全部数学终门。原60旧+5新pins、两char0输入回执和29/2453/64/minimal/artinian以及全部数学门不改。
+## 3. 原生产的真实终态
 
-v14只准备候选；须消费v13实际终态和本次v2软件回执后，才发布下一唯一heavy请求。新实现应只增加本次实际scalar返回证据，保全八条原T/v、四交、一般Norm、18×9、九对和all-requested终门，不能将未跑的旧generic projector次数填为已执行。
+v13已于2026-11-28 05:00:05 UTC到达21000秒限额并以signal15/exit124结束；九个非零scalar纤维阶段已返，实际耗时转到A0的完整分母MD Hermite，四交/Norm/18×9等终门未返。详见[完整终态与接续](2026-11-28-v13-terminal-and-whole-denominator-return.md)。当前没有heavy运行。
+
+原scalar-only v14候选已完整静态审读，但实际终日志表明还需改进同一个完整MD返回。下一生产保两个char0 pins、29/2453/64/minimal/artinian与全部原数学门；完整使用审计只记录实际执行，不将旧generic projector计数填为已发生。
 
 ## 4. 本次实际同步
 
 推前readonly run46073965457/job140870459729：公开2026-11-28 04:55:46 UTC至de041c7640293c911b0122f61d72e6646406c91f，私库2026-11-28 04:55:51 UTC至365012d0f355e1794f86da170b2eee27651ed5cc。四README与04:50已读版完全同blob，QUEUE本会话认领未变。日志14894B/hash4854b06e1fb0d75c6db40512d306591ed55cc8a60d11a48c7e0976dcdace580e；完整库存3186blobs/45198676B/treeadd651961ba633bfa69a004458a3f402c7784be9，无>5MB，三旧必要输入不变。原规则身份和认领详见 [HANDOFF](../HANDOFF.md)。
+
+后继消费终态与v2 PASS前的实际双pull为2026-11-28 05:00:52/05:00:58 UTC，完整heads、四README和库存见[本次终态记录§5](2026-11-28-v13-terminal-and-whole-denominator-return.md)。

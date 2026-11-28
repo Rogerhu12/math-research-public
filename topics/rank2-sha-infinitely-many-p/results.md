@@ -441,3 +441,10 @@ R1065 W1–26从原division函数逐项取消实际[p]框架的首p，得B_N,p�
 R1050§7的原两向scalar返回v1软件已真实PASS，source32a46d1/run46109303246/job140869032165，结果hash580953e53f7122755247c6ac24362173b42b5d74bdbff94da82e0b1c15930573，完整旧七组仍通过。生产静态审查发现原projector会合法更换generic wrapper；v2只改为每次入口/出口当前引用相同，保旧Engine/session及全部数学门，并新增实际原包装器正文的兼容核验。v2已请求，未返回不记PASS；v13仍唯一heavy。
 
 [完整脚本、参数、回执与范围](notes/2026-11-28-original-scalar-primary-software-and-production.md)；这是实现核验，不新增原几何或无穷p结论。
+
+
+### 原厚几何 v13 实际终态与 scalar-primary v2 回执
+
+v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。下一同一MD的完整U/坐标复用仅准备，全部原F_y专门验收保留，当前无heavy。
+
+[完整终态、原参数和接续范围](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)；实现核验不代数学终门或无穷p证明。
