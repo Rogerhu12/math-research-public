@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-N1-exact-six-by-two-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-Azero-first-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [正确Phi A=0第一原线性支完整排除](results/R150-appendix-unit211-Phi-zero-true-Azero-first-linear-branch-exclusion.md)：原E1−EW的两因子保全；第一支均值分λ=−1/ξ=−uλ，两端完整NS非零或F4/S11 QQ Bézout1。170ms，第二线性支仍留。
 
 - [正确Phi的N1单一新斜率与精确六×二原呈示](results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md)：fd9实际1.946327612秒/0，唯一新G(18,10)/136项；其余因子为已付−L/−Mn。UABG补图精确原理想，无λ逆，全部头零保。首派整B0新有理图。
 
@@ -67,5 +69,3 @@
 - [原Haar全整数幂的函数正序交换子必零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)：对任意有界T，用真实标量WOT返回和正望远镜端点证明[C^r,T]有一个锥符号即0；全部有限放大和aC^r+bI同。双侧正半交换锥精确等于正交换锥，不自动传给无格结构的普通子商。
 
 - [同P快速整函数逆源及全部原旗的最大闭分式场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)：明确>4次系数衰减支付实际级数；同Q归一dyadic幂与Jensen/Poisson付所有非零分子全旗quasi。最大图本身作为原旗支付真实参数核心、自然和积闭包、同循环空间；忠实场由零阶奇偶排平方根，场外来源仍开。
-
-- [Phi原paid行列内容与完整729维整权模型](results/R150-appendix-unit211-Phi-zero-original-paid-contents-and-complete-integral-weight-model-729.md)：d457实际8.488759866秒/0，全484身份/924除返；U_u60/Q32/总64，真QQ及固定模均729。37块保全部重数；282/291/156只作实际模块分类，不删除QQ分量。

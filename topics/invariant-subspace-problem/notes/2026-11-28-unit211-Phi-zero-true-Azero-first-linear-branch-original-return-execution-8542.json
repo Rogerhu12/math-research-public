@@ -1,0 +1,81 @@
+{
+  "schema": "isp-true-Phi-Azero-first-linear-branch-complete-original-return-v1",
+  "sourceBlob": "b51011405fa503911b34031cdb627b6b440ba5cc",
+  "sourceSHA256": "5bbae7da8a21afec411666f9d2695bd33b58853f364c44dccda191b7148559de",
+  "sourceBytes": 14154,
+  "elapsedMilliseconds": 170,
+  "integerPolynomialProducts": 5577,
+  "fullOriginalChecks": [
+    "b1_actual_f",
+    "b1_P02_odd",
+    "b1_P02_identity",
+    "b1_E0",
+    "b1_true_germ_minus_weighted_mean",
+    "b1_N0",
+    "b1_Pjet",
+    "b1_mean_conjugacy",
+    "b1_N1_odd",
+    "b1_NS_odd",
+    "b1_PS_odd",
+    "b1_exact_mean_linear_product",
+    "new_same_point_N1_plus_s_mean_linear"
+  ],
+  "returnedLinearDivisions": 60,
+  "case1": {
+    "lambda": "-1",
+    "a": "4u-3",
+    "remainingOriginalMean": "(2u-3)(u-1)(7u-9)",
+    "u": "9/7",
+    "exactNSNonzero": [
+      "93636/16807"
+    ],
+    "excluded": true
+  },
+  "case2": {
+    "a": "-u*lambda",
+    "linear": "(2u^2-7u+4)lambda+3u-4",
+    "entireHeadZeroQQBezout1": true,
+    "exactRemainingQuartic": [
+      16,
+      -24,
+      9,
+      -4,
+      2
+    ],
+    "wholeQuarticIdentityReturned": true,
+    "stages": [
+      {
+        "originalRow": 3,
+        "originalDegree": 11,
+        "gcdDegree": 0,
+        "bezoutDegrees": [
+          10,
+          3
+        ]
+      }
+    ],
+    "remainingGCD": [
+      "1"
+    ],
+    "excluded": true
+  },
+  "rationalStatistics": {
+    "arithmetic": 26746,
+    "products": 2557,
+    "divisions": 8
+  },
+  "firstLinearBranchExcluded": true,
+  "secondLinearBranchNotYetExcluded": true,
+  "ordinaryISPClaim": false,
+  "earlierUnpublishedImplementationFailures": [
+    {
+      "sourceSHA256": "af1ee5e1388a7c0d1eb70aca072a01418739d86b776f8746ec484a0168688008",
+      "failure": "assert E1=0 instead of the established source E1-(bEB+cEC)=0; no exclusion returned"
+    },
+    {
+      "sourceSHA256": "0faa175a9ef45eb1d6dd539abfb1e6cf23d95eaf3be99ad60c4cc857367d35b0",
+      "failure": "variadic polynomial prod called with an array; TypeError before any new terminal branch result"
+    }
+  ],
+  "noResourceBoundaryRepeated": true
+}
