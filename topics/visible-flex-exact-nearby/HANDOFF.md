@@ -1,15 +1,14 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 05:37:25 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:36 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至608067b4cfdc703bbd7790b8784529d8406f9403（root blob282e86b03385d3b6245ce7100ae2e2af7b103c2d/topic7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无diff）；每次刷新核两README，至少每小时。私库04:54:50 UTC API刷新304232f86c0bd6aab3826a3fe1d7dfe92140b117，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:54 UTC。
-03:00前磁盘满后terminal失联，04:30 probe仍无环境；按根规8仅GitHub集成<100KB文本。root协调唯一main writer lease，最新父/force=false/expected_sha；拒旧父即读最新head重base再推至成功。原source35ff439e后GF六件旧排版未commit，恢复时不得重复；缓存迁移无成功回执。令牌只CLI，不写文件或提交；无AGENTS。
-科学仅Actions，旧成功禁重；本地仅证明/静态/metadata/新saved有理组合。规12不加审批复核门，结论成即推，root LOG不动。topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。第5批45934384748/c264c5e6净省737184B；第6批45940225760/c92c87d9净省736134B（gross805556−receipt69422），128新旧JSON只删字符串外空白，11537当前source/manifest全引用排除。第6receipt SHA c796f5562473709a77dfb0717ceec39bb74d383bb29ef4629a61b8fc4acb474a；原完整baseline/五旧批不动，科学0。
-
-META7唯一新128未引用旧JSON空白批已提交，科学0、未先报节省；容量cb15c05e全14352files/199417071B，须先释放后启动BFP22及保BNC/WMR输出。
+本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至6d5d087d1918e4a172ff2acccbdf461a5d1faefc；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
+本次终端可用，依根规8用终端git commit/push；非快进立即pull --rebase再推至成功，禁止force。令牌只CLI、不落文件；未发现AGENTS。前会话完整状态/失败记录保公开b0865cd9同路径和其递归来源，未撤任何数学义务。成功科学计算不重跑；继续缺域时消费完整已保存cells。规12不加审批复核门，结论成即推，root LOG不动。
+topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。META7已由9e7aba99d提交；本次初始topic14359files/198758161B，约1.24MB余量，不重复旧压缩。前6批完整账保上一不可变H。
+接手实际终态：SL45917913526已结束，signed充分门未过；TC45928452441保存2677/7724完整cells、连续1605，whole有限matrix仍成；BNC45941963989恢复历史文件路径失败、0新数学目标。WMR45942597362四目标已成（真实reference高度ν列负），详情由新actual结果登记。并行继续TC缺域、BNC恢复、实际cap R→L；这些均不授最终全逆或闭曲面族。
 
 ## 同一对象与验收
 
