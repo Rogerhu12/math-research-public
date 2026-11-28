@@ -1,17 +1,16 @@
 {
-  "message": "ISP: exclude entire positive-e k-four pole center by three complete original tangent cones",
-  "parentCommit": "69fe0cca2b22703eb9dbcb0b5a8b76ae1207b570",
+  "message": "ISP: freeze first second-NV-head four-generator original twenty-column input",
+  "parentCommit": "840d272ba4fbd3fc85fc56e1b30e9206bf1a106c",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-e-k-four-pole-complete-original-tangent-cone-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-positive-e-k-four-pole-three-original-local-jets-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-k-four-original-tangent-exclusion-2100-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-k-four-original-tangent-exclusion-2100-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-W-k-four-original-tangent-exclusion-2100-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-W-k-four-original-tangent-exclusion-2100-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-t-head-original-four-generator-columns-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-t-head-original-four-generator-columns-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-second-nv-t-head-four-generator-columns.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-first-Phi-second-head-four-generator-2105-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-Phi-second-head-four-generator-2105-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-second-nv-t-head-four-generator-columns.yml"
+  ]
 }

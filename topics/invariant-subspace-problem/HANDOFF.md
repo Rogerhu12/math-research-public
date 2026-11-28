@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 092b7de111af3e48d50ffc113ea1a8c921b95e0c（2026-11-28 17:20:00 UTC，Actions run46169866032实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46169866032-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 17:19:59 UTC/8004c93299816701f83ed24b0a3c890cce570114，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 17:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。18:07再探，旧故障保归档。
-- **终端断开后远端已读：** 69fe0cca2b22703eb9dbcb0b5a8b76ae1207b570（2026-11-28 17:19:32 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 840d272ba4fbd3fc85fc56e1b30e9206bf1a106c（2026-11-28 17:21:12 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-W-k-four-original-tangent-exclusion-2100-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-first-Phi-second-head-four-generator-2105-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，整Δ0/ellhalf闭。** 权像维数≤1/8184保。新[完整NV–Loww91及Δ余图恢复](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)abd714唯一8.428479614秒/0，P(72,19,9)/总91原两源返；AΔ[t]/(NV,L)=AΔ/(P)，t唯一、明列单权纤维≤2且约化，U0另计。权共同分量/原空性开。
-- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ公共总45/u5、同σ16/C10保。新[全权原首一t2与十真列](results/R150-appendix-unit211-Phi-zero-corrected-whole-monic-t-quadratic-exact-ten-columns-and-four-generator-NV-head.md)由两真mean头Bézout1给exact I6，γO旧单位；第二NV头叠首一σ2成自由4环境，原物理商非自由。第一头gcd/两Q冻，续新完整四元关系。
+- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ公共总45/u5、同σ16/C10保。新全权首一t2/exact I6十列及第二头自由4环境已纸付；d20becf/e91a首次120秒/1GiB待返：七真原式、20同点列、三个固定4阶七原cofactor。第一头gcd/两Q冻，物理商非自由/未空。
 
 ### rankH3原ess6
 
