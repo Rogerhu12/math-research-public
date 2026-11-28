@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **6960f2e7e1d9b228f2049b1a2fd4ccf6de22ceab**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **da7b3a9c425c08bbe5880b44b152e96c5f014301**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -17,6 +17,8 @@
 **R750 已启动 run46174873079。** head **c8c285fee6c7317c8d14749b71d25e703fef1802**。[固定R743同g的两真边环带](notes/2026-11-28-r750-first-true-two-edge-annulus-scope.md)，327/1368全列、完整三curl及真实相对位置，2400秒；给定件全部弦/法球/Dref纸证已成，未知环带原场与全连续门仍开。原Pss/Gauss有限读数不授连续资格。
 
 **R746 原7步自然终态已登记。** [14全J/10689列与真实末圆角失格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，run46172869144/job141064971057，2339.03675621秒；只0相位fit，.2已付qualification但curl/metric/曲率仍失败，原next forced_sleeve保持。六次资格1854.982037943秒不得重付。3.4GB/2024成员原artifact15276016206和四原元数据SHA已绑定，R754以330/1371全列及真宽轴候选接续原q。
+
+**R754 首嵌套原盘工单已装订。** [同一R746固定g的全330/1371列与宽轴真候选](notes/2026-11-28-r754-first-original-disk-nested-wide-field.md)，首1800秒；原7步/14J/六资格按精确原件复用，新场/补行/完整谱另费。原末圆角大峰所在区域的宽轴curl严格零，整个两网仍实测；未付资格明列。原3.4GB父工件只206定域惰性读取，凭据不进科学文件。
 
 **R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。
 

@@ -183,3 +183,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 18:58:54 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R746原7步自然终态
 
 **R746 原7步自然终态已登记。** [14全J/10689列与真实末圆角失格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，run46172869144/job141064971057，2339.03675621秒；只0相位fit，.2已付qualification但curl/metric/曲率仍失败，原next forced_sleeve保持。六次资格1854.982037943秒不得重付。3.4GB/2024成员原artifact15276016206和四原元数据SHA已绑定，R754以330/1371全列及真宽轴候选接续原q。
+
+## 2026-11-28 19:01:44 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R754原盘嵌套首工单
+
+**R754 首嵌套原盘工单已装订。** [同一R746固定g的全330/1371列与宽轴真候选](notes/2026-11-28-r754-first-original-disk-nested-wide-field.md)，首1800秒；原7步/14J/六资格按精确原件复用，新场/补行/完整谱另费。原末圆角大峰所在区域的宽轴curl严格零，整个两网仍实测；未付资格明列。原3.4GB父工件只206定域惰性读取，凭据不进科学文件。

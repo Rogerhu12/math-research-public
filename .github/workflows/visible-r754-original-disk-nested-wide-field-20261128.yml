@@ -1,0 +1,95 @@
+name: visible-flex nested original disk with wide physical fields
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r754-original-disk-nested-wide-field-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r754-original-disk-nested-wide-field-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r754-original-disk-nested-wide-field-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r732_compensated_pulses.py
+            /topics/visible-flex-new-mechanism/scripts/r732_closed_ring.py
+            /topics/visible-flex-new-mechanism/scripts/r732_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_fields.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_qualification.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py
+            /topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py
+            /topics/visible-flex-new-mechanism/scripts/r733_inserted_meridian.py
+            /topics/visible-flex-new-mechanism/scripts/r733_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r740_weak_material_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r740_material_rotation_space.py
+            /topics/visible-flex-new-mechanism/scripts/r740_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r742_native_tsqr.py
+            /topics/visible-flex-new-mechanism/scripts/r743_early_material_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r743_native_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r746_physical_core_seed.py
+            /topics/visible-flex-new-mechanism/scripts/r746_native_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R746-an-exact-planar-core-seed-on-the-early-long-S-source.md
+            /topics/visible-flex-new-mechanism/results/R743-an-early-long-reverse-meridian-and-all-forced-sleeve-chords.md
+            /topics/visible-flex-new-mechanism/results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md
+            /topics/visible-flex-new-mechanism/results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md
+            /topics/visible-flex-new-mechanism/results/R730-all-collar-chords-and-the-negative-Gauss-area-of-a-mirrored-cylinder-cap.md
+            /topics/visible-flex-new-mechanism/results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md
+            /topics/visible-flex-new-mechanism/results/R724-comoving-central-crowns-and-four-outer-pulses.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r746-early-long-s-physical-core-first-scope.md
+            /.github/workflows/visible-r746-early-long-s-physical-core-20261128.yml
+            /topics/visible-flex-new-mechanism/scripts/r754_broad_seed.py
+            /topics/visible-flex-new-mechanism/scripts/r754_nested_rotation.py
+            /topics/visible-flex-new-mechanism/scripts/r754_augmented_operator.py
+            /topics/visible-flex-new-mechanism/scripts/r754_tsqr_reuse.py
+            /topics/visible-flex-new-mechanism/scripts/r754_parent_archive.py
+            /topics/visible-flex-new-mechanism/scripts/r754_nested_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r754_ranged_zip.py
+            /topics/visible-flex-new-mechanism/scripts/r750_rigid_annulus.py
+            /topics/visible-flex-new-mechanism/results/R754-the-nested-original-disk-and-exact-householder-subtree-transfer.md
+            /topics/visible-flex-new-mechanism/computations/r746-original-completed-parent-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r754-first-original-disk-nested-wide-field.md
+            /.github/workflows/visible-r754-original-disk-nested-wide-field-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Verify the one completed parent then pull current rules and solve the full nested disk
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/r754_ranged_zip.py
+          --launch-driver
+          --metadata topics/visible-flex-new-mechanism/computations/r746-original-completed-parent-20261128.json
+          --out r754-paid-state/parent-transport.json
+          --request topics/visible-flex-new-mechanism/computations/request-r754-original-disk-nested-wide-field-20261128.json
+          --lane actual-physical-disks
+      - name: Preserve every new physical field column factor and exact next operation
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r754-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r754-paid-state/
+          retention-days: 30
+          if-no-files-found: error
