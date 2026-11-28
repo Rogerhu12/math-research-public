@@ -605,3 +605,5 @@
 2026-11-28 17:02:02 UTC — Astra-visible-flex-2ecfcd69-20261128：V55真实35联合角变量48次接受，独立角伸长112.5→.15406，但整谱.68335945、κ14.884、端位实际修正.20294仍大；完整E/F/G和guide均保留，转实际非平面中心及全三维Cauchy入口。
 
 2026-11-28 17:02:18 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 rules-read-170218；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-rules-read-170218.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:02:55 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46168298645/1 R317-direct-normal-moments；小结见 notes/2026-11-28-2ecf-actions-46168298645-1-R317-direct-normal-moments.md，继续强比例下的完整度量与厚度。
