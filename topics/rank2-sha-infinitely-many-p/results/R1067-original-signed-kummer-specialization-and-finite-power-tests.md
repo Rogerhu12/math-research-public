@@ -696,3 +696,46 @@ $$ L_{p-1}=\frac{G^2-x^p}{2c_p},\qquad
  L_{p-2}=\frac{G^3-3x^pG-2y^p}{3c_p^2}.\tag{AZ6}$$
 这里 $L_{p-1}$ 以所示权及唯一主部定义，$L_{p-2}$ 如§83。由
 $G=s^{-p}+c_ps+O(s^{5p})$、$x=s^{-2}+O(s^4)$、$y=-s^{-3}+O(s^3)$，两右端各有准确的单一负幂主部。(AZ3)、(AZ6)在每个原固定 $T_t$ 上只用 $X(T_t),x(T_t),y(T_t)$ 的 Frobenius 像及 $c_p$；仍未算尽(AY2)中 $B^pg+C^p$ 的全驯贡献。
+
+## 85. 原固定曲线的精确 Cartier 校正及第二次 Frobenius 退根
+
+沿(AZ4)。全局微分 $Gx\omega$ 仅 $O$ 可有极点，其留数为零。由(AZ6)的首窗，只有 $G$ 的 $s^{-p},c_ps$ 两项可贡献，故
+$$ [s^{p-1}]x+c_p=0.$$
+[R301 (12)–(13)](R301-jzero-inert-analytic-half-factor-and-exact-first-denominator.md)的原有理系数给 $c_p\in\mathbf F_p^\times$，所以 $a_0=c_p^{-1}$。实际上整个 $k((s))$ 中有
+$$ \boxed{DH=-x/c_p-s^{p-1}.}\tag{BA1}$$
+
+为证此式，严格 LT 的整不变微分满足
+$$ \ell'(s)=(1-p s^b)\ell'(-ps+s^q).$$
+常数为一，模 $p^2$ 迭代得
+$$ \ell'(s)=1-pE(s)\pmod{p^2},\qquad
+ E(s)=\sum_{j\ge0}s^{q^jb}.$$
+每一固定次数仅有限项。记 $f_\alpha(s)=[\alpha]s$，由
+$\ell'(f_\alpha)f_\alpha'=\alpha\ell'(s)$ 得
+$$ (f_\alpha'-\alpha)/p
+       =\alpha\bigl(E(f_\alpha)-E(s)\bigr)\pmod p.$$
+两边乘 $ds$ 后施 Cartier。左边在 $s^{pn-1}$ 的系数为
+$n[s^{pn}](f_\alpha-\alpha s)$，所以其 Cartier 正是
+$d((f_\alpha-\alpha s)^{1/p})$，其中先模 $p$ 约化再取根。右边第一项为 $f_\alpha^*(E(s)ds)$，而
+$$ C(E(s)ds)=s^{p-1}ds,$$
+因为只有 $j=0$ 的 $q^jb+1$ 被 $p$ 整除。由自然性和系数的 $p$ 根，以 $\alpha$ 表示剩余标量、$\bar\alpha$ 表示有限域共轭，精确得到
+$$ D((f_\alpha-\alpha s)^{1/p})
+       =\alpha f_\alpha^{p-1}-\bar\alpha s^{p-1}.$$
+结合(AZ4)，$V^*=DH+x/c_p+s^{p-1}$ 满足
+$\alpha V^*(f_\alpha)=\bar\alpha V^*(s)$。
+
+取奇整数 $\alpha=1+2p$，两侧标量模 $p$ 都等于一。其特征 $p$ 形式端同态仍有无限阶：任意正幂与恒等之差来自非零 $\mathcal O$ 标量，而形式端乘以非零标量不为零。由(AZ5)，$V^*$ 正规且常数为零；若非恒定，则 $k((s))/k((V^*))$ 为有限扩张，$f_\alpha$ 却给它无限多个不同自同构，矛盾。因此 $V^*=0$，证明(BA1)的全形式域等式。
+
+令 $A,B$ 为(AY2)的实际函数。其主部分别为
+$$\begin{aligned}
+ A&=-s^{-(q+p-1)}+s^{-p}-x^pH+O(1),\\
+ B&=2s^{-(q+2p-1)}-3s^{-2p}-2y^pH+O(1).
+\end{aligned}$$
+第一式由 $U_1=x^qg+A^p$、$g=s+H^p$ 及 $U_1$ 的三个主部取 $p$ 根；第二式由 $DU_2=2y^qg+B^p$ 和 $U_2$ 的准确一导同样得到。
+
+对偶指标 $p+1$，选任一偶函数 $L_{p+1}$ 实现唯一主部 $s^{-(p+1)}$，常数另外指定；$p+2,2p+1$ 如§83。逐项代(BA1)，比较全部主部得
+$$\begin{aligned}
+ DA&=-L_{p+1}^p+x^{p+1}/c_p+L_{p+1}+\kappa_A,\qquad \kappa_A\in k,\\
+ DB&=2L_{p+2}^p+2xy^p/c_p-2L_{2p+1}.
+\end{aligned}\tag{BA2}$$
+确实 $x^ps^{p-1}$ 唯一主部为 $s^{-(p+1)}$，
+$y^ps^{p-1}$ 唯一主部为 $-s^{-(2p+1)}$。首式主部相同只差常数；次式全奇，差常数为零。这些真实 $O(p)$ 极阶函数仍须在完整原17驯泛函内评价。

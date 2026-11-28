@@ -53,3 +53,7 @@
 ### R1067 §84：原全部驯点的固定代数zeta值与CM等变窗
 
 已证明：原G的全局加法及CM除函数极部给G(T)=X(T)^p，逐点保原17而非只一个加权和；实际p根H的CM等变窗及两个低极阶函数由固定G/x/y准确表示。原B/C全驯贡献仍未付非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §85：完整Cartier校正与实际第二次Frobenius退根
+
+已证明：全局Gxω留数付c_p=−[s^(p−1)]x∈Fp×；LT微分模p²的Cartier及无限阶CM不变性把有限窗加强为DH=−x/c_p−s^(p−1)全盘等式。原A/B导数遂准确降到O(p)极阶，保κ_A及全原驯评价。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
