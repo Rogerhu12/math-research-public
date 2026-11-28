@@ -1,0 +1,159 @@
+{
+  "schema": "isp-W-H198-native-integral-nondivisibility-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "runId": 46089073211,
+  "jobId": 140805495228,
+  "driver": {
+    "elapsed_seconds": 11.840896530000009,
+    "max_child_rss_kib": 90232,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "73d062e38fd4d05330867da403d6ef0c5e299592",
+        "before": "73d062e38fd4d05330867da403d6ef0c5e299592",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:39:57.022125+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46089073211",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "73d062e38fd4d05330867da403d6ef0c5e299592",
+    "source_exit_code": 0,
+    "source_git_blob": "b9d649fb933c4545a09ce0cdab73877cea41e9db",
+    "source_sha256": "fa703c6466eb776425ccec39125477555e118b2aea48c3c5289ed7c01c414a64",
+    "stdout_bytes": 3341,
+    "stdout_sha256": "43bd11896fb6fe44ee5de0162e41c94d60e01a930aa6c487458ff5a12315ac5c",
+    "stop_reason": null
+  },
+  "mathematicalRecords": [
+    {
+      "stage": "new_entire_H198_original_definitions_reconstructed",
+      "fixedPrime": 1009,
+      "fixedK": 3,
+      "exactOriginalNativeMatrix": {
+        "bytes": 1728830,
+        "sha256": "e5b3bc078fecd6d472d62bcba5ec831e10a2f88a8feaf51beb15ba816a9da9cf"
+      },
+      "exactH198Definition": {
+        "degrees": [
+          14,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 25,
+        "terms": 198,
+        "bytes": 6434,
+        "sha256": "3569ba450503ee36acfed6f3ef047c3a08cf1735c3f95028a7c6b0f9b060db82"
+      },
+      "completeQQH198IrreducibilityFromPublishedFactorTheorem": true,
+      "allNativeOriginalRowProductsAndN1CoordinateProductsReturned": true,
+      "oldQQNativeDeterminantAndOldH198FactorizationNotExecuted": true,
+      "entireH198ZeroFibreStillRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 11.551730008999982
+    },
+    {
+      "stage": "new_H198_native_fixed_p_integral_model",
+      "allFullQQNativeMatrixCoefficientDenominatorsArePUnits": true,
+      "allFullH198CoefficientDenominatorsArePUnits": true,
+      "H198IsPPrimitive": true,
+      "specializedH198Degree": 14,
+      "checkedRationalCoefficients": 41148,
+      "genericH198DegreeInE": 14,
+      "noGenericOrSpecializedLeadingCoefficientInverted": true,
+      "exactGaussScope": "H|det over QQ would give p-integral quotient and specialize multiplicatively",
+      "fixedPrime": 1009,
+      "fixedK": 3,
+      "noOriginalWeightOrGeometricZeroFibreExcluded": true,
+      "seconds": 11.76288028899998
+    },
+    {
+      "stage": "new_H198_native_actual_nondivisibility_test",
+      "fixedPrime": 1009,
+      "fixedK": 3,
+      "actualNativeSpecializedDeterminant": {
+        "degree": 195,
+        "bytes": 758,
+        "sha256": "0179d02b56ccce48191cc508b74dee78fadccc9fee71bdcc46e84c51f215f62c"
+      },
+      "exactSpecializedH198": {
+        "degree": 14,
+        "bytes": 58,
+        "sha256": "723fdda68a76f8b97d6bb72b4a3c440f8802be0d9ed79fbb96ea1a5d75a0d3a7"
+      },
+      "exactQuotient": {
+        "degree": 181,
+        "bytes": 715,
+        "sha256": "91f85d98074889de512aab7b244d38e23fb45a70a20775cc770504856cfcbdf5"
+      },
+      "exactRemainder": {
+        "degree": 13,
+        "bytes": 55,
+        "sha256": "9f080c7c1e47fef98779c339e720aea523cd6badc42f2d39b390d9a7c477900f"
+      },
+      "exactBareissDivisionProducts": 55,
+      "quotientTimesHPlusRemainderActuallyReturned": true,
+      "nonzeroRemainder": true,
+      "remainderLeadingCoefficient": 540,
+      "noCoefficientArrayPayloadWritten": true,
+      "testOnlyQQDivisibilityNotMultivariateQQEmptiness": true,
+      "seconds": 11.763871074999997
+    },
+    {
+      "stage": "new_entire_H198_finite_original_weight_intersection",
+      "H198DoesNotDivideQQNativeDeterminant": true,
+      "H198DoesNotDivideQQP164": true,
+      "H198P164QQCoprimeByPublishedH198Irreducibility": true,
+      "H198TotalDegree": 25,
+      "P164TotalDegree": 164,
+      "fullAffineWeightSchemeLengthBound": 4100,
+      "existingSixMeanGeneratorBoundOverWeightAlgebra": 24600,
+      "fixedCompleteOriginalSevenCoordinateSchemeLengthBound": 49200,
+      "fullSevenCoordinateDefinition": "e,k,rho,x,y,t,zeta in the fixed original W normalization",
+      "exactRhoRule": "rho^2=1-Q",
+      "exactZetaRecovery": "zeta=(T+u*K/(2*(u-ell)*D))/ell",
+      "originalDAndUminusEllAndEllUnitScopeRetained": true,
+      "localizingAnAlreadyFiniteArtinAlgebraDoesNotIncreaseLength": true,
+      "allRemainingOriginalIndividualValueConditionsStillRequired": true,
+      "noSixGeneratorFreenessAssumed": true,
+      "entireH198OriginalBranchExcluded": false,
+      "wholeWExcluded": false,
+      "noP164IrreducibilityOrSquarefreeClaim": true,
+      "seconds": 11.763897224000004
+    },
+    {
+      "stage": "new_H198_native_integral_model_finished",
+      "sourceSHA256": "fa703c6466eb776425ccec39125477555e118b2aea48c3c5289ed7c01c414a64",
+      "actualNewFixedIntegralModelReturned": true,
+      "noOldQQDeterminantNormOrModuleGateReplayed": true,
+      "noEncodedSplitOrRecomputableCoefficientCacheWritten": true,
+      "peakRssKiB": 90232,
+      "ordinaryISPClaim": false,
+      "seconds": 11.76403615999999
+    }
+  ],
+  "scope": {
+    "H198ZeroExcluded": false,
+    "H198UnitAdded": false,
+    "multivariateQQEmptyClaim": false,
+    "QQNondivisibilityByPPrimitiveGauss": true,
+    "nonreducedAffineLength": true,
+    "weightLength": 4100,
+    "meanLength": 24600,
+    "completeFixedSevenCoordinateLength": 49200,
+    "physicalDNonzeroScope": true,
+    "old6aadbExecuted": false,
+    "publisherNetworkFailureNotMathematicalFailure": true,
+    "largeDataSaved": false
+  }
+}
