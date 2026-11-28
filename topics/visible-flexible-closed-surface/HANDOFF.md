@@ -31,7 +31,7 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 首场field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`；第二场field `201de8909dc707c7d91749d812585233d49120c076468e9f2aebe97271114aed`。两场各自 R226/R236、准确 Bernstein/Fourier 全覆盖与全时 R249/R253 法管/嵌入/固定H/含反射非全等均已实付，没有互借系数。原三角 metric 界及粗 reach 界保留原失守字段，不代表真实几何失败。[首场六阶段](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)及[C2实际步/角谱](notes/2026-11-28-2ecf-m12-first-c2-actual-step-and-spectrum.md)有真实两微窗/所有祖先；未正则 normal 相对1.0065e−4/.001416均不是收敛。
 
-[R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)保材料二jet局部抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)保source-cross-Gram，第二场487元/684子片/447.013s真0；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)对前缀/尾分别支付CX。M48/N768实步已返独立N1536峰6.07253082e−10，完整后验正在实际消费；G12/G14密求积同场后继已开始，未改变487物理片或736径向列。角频与实际物理空间加密、原g/完整相位区间及真实源必须保持，有限观察和较小正规残差不替代#5。
+[R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)保材料二jet局部抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)保source-cross-Gram，第二场487元/684子片/447.013s真0；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)对前缀/尾分别支付CX。M48/N768实步已返独立N1536峰6.07253082e−10，完整后验正在实际消费；[G12/G14真源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)已987.291s自然0，新增8554准确查询、真独立/祖先union10730点；同场后继已开始，未改变487物理片或736径向列。角频与实际物理空间加密、原g/完整相位区间及真实源必须保持，有限观察和较小正规残差不替代#5。
 
 [R250](results/R250-full-finite-tail-smooth-source-regularization.md)已完整准确规整18552原span/18551源内缝，所有原节点Q两jet零。加到指定已发表R245场后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322与含反射非全等保持；Qss<.0006474256，不是新Newton接受或#5。[准确Q查询/独立源消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)已实际完成5177查询/204窗/88非零行；合成最高新增Qss误差<2.313e−20，原端口/546诊断保持。新X+C+Q源身份独立，连续几何须显式加Q，不能静默替换活动X+C。
 
@@ -53,4 +53,4 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:42:37 UTC；已读公开 main `ee126fd9f759da399884b000c25342d48d25f42b`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:43:12 UTC；已读公开 main `8f51d02e2491483a003777ea8eedb7aa16a2b671`，根/课题 README 逐差无变化。
