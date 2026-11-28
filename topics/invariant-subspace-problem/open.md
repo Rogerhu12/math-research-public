@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-entire-delta-integral-unit-2265-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-flat-curve-norm-separation-2270-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar I/F、closureF=I、Q*/Ω桥及每非零列本性保。全增生Pθ平方分子已排；同Y²=CP²必P⁴∈closureCA，非实际可除。共同幂准亲和Rn同列对全部Reθ>0紧集norm逼近Pθ，显式Pθ∈closureF\CA保。新[实际范数理想/全乘子/共同逆核心](results/R12-appendix-actual-norm-ideal-full-multipliers-quasimultipliers-and-common-inverse-core.md)B=closure(L C′)原范数收缩BAI，M(B)=C′等距且保固定放大；L、CL、Pθ及RnPθ真在Ω(B)，非用Hilbert稠密像替代范数主理想稠密。∩C^kB对任意固定有限组整数逆是共同原图核；任意Ω分母给全原旗quasi与最大Hilbert闭商、Ran分母图核。C⁻¹=L/(CL)非regular；假如u²=Cv²则同域根自动regular，但存在仍开，Q*未知Ω未偷付。原平方源、普通格及closureF=全平坦继续。
+原Haar I/F、closureF=I、同列强桥及每非零列本性保。全增生Pθ平方分子已排；同Y²=CP²必P⁴∈closureCA。B=closure(L C′)真收缩BAI、M(B)=C′等距保放大；L/CL/Pθ/RnPθ真Ω，∩C^kB给有限组整数逆共同图核；C逆非regular，平方源存在未付。新[旧等权全曲线与范数稠密主理想分离](results/R267-appendix-original-flat-curve-and-norm-dense-principal-ideal-separation.md)：同原Z的有界uν满足Luν单位、Fνuν→0，完整0/1/2翻位及UHF carry余项全付，得dist(L,G C′)≥1/M0>0，G=Q*/T(z)/P(z)/X(s)每固定参数。故这些旧分母在B上乘子像不稠密；全旗准亲和和共同幂仍真，不排平方分子或闭根。新加权块来源正研究真正Ω分母，普通格/一般flat平方来源继续。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。

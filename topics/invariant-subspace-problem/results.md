@@ -36,6 +36,8 @@
 
 ## 新增结论
 
+- [R267：整个旧等权平坦曲线与范数稠密主理想的严格分离](results/R267-appendix-original-flat-curve-and-norm-dense-principal-ideal-separation.md)：保原Haar/carry，构造Z有界的翻位向量使Luν单位而G uν→0，故dist(L,G C′)≥1/M0；Q*/T/P/X每固定参数都不在B上生成稠密乘子像，旧全旗准亲和不变，无不存平方根声明。
+
 - [R150：W/b0整个delta正阶边界排除及1009整单位性](results/R150-appendix-unit211-W-b0-entire-delta-positive-exclusion-and-1009-integral-unit.md)：b2a唯一真10.529501826秒/0，同mu完整三原返回S²⁴，七个剩余补图以已刊原证明覆盖，得v(delta)=0；不宣其他内部分母已付。
 
 - [R150：W/b0整个Vbar正阶边界排除及1009整单位性](results/R150-appendix-unit211-W-b0-entire-Vbar-positive-exclusion-and-1009-integral-unit.md)：fbf84唯一实际0.160428316秒/0，完整q2/R6/N5的29/29/48三标量回传原单位1；与全部ell/特殊L/M深/mu极点覆盖相接，得v(Vbar)=0，其他内部边界仍保。
