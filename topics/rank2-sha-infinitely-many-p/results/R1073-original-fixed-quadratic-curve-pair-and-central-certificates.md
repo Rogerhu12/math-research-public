@@ -203,3 +203,38 @@ $$\boxed{D_{b,s}=\frac{390}{c_1}\mathcal A_b(\gamma-1)D_{1,s}\quad(b=65,8125;\ s
 这里的 $\gamma$ 取有限层像，整幂级数在 $p$ 进群环中收敛。$(-p)^{-s}$、原参考、反号零层和初次 $(1+p^{-1})$ 均保留。若 $[T^2]\mathcal A_b=0$，已证 $\operatorname{ord}_0\mathcal A_b=2\operatorname{ord}_0\widehat J_{b,p}$ 遂给 $\mathcal A_b=T^4K_b$, $K_b\in\mathcal O[[T]]$；(I)要求每一层的同一完整有理点轨道为 $(\gamma-1)^4$ 作用于 $(390/c_1)K_bD_{1,s}$。这些关系没有给出某一充分大 $p$ 的 (F) 首次非零精度。
 
 Li–Xu [作者原版Th.3.11(ii)](https://arxiv.org/html/2502.12648v1#S3.SS3.SSS1.Thmtheorem3)，相应[期刊Th.3.12(ii)](https://doi.org/10.1016/j.jnt.2026.06.001)。Berger 模块、$\mathbf e_Q$ 与严格形式坐标按 R1065 §§2–3；BKO、BHKO 及 Néron 周期按前文归一。
+
+## 7. 三原有理函数的共同有理下降与整 Volkenborn 误差
+
+保留固定来源(A)–(I)。置 $\omega=(-1+\sqrt{-3})/2$、$u_0=\bar\varpi_1/\varpi_1=(1-\omega)/(1-\bar\omega)=-\omega$。有
+$$ \frac{\theta_k G_k}{1-\omega}\in\mathbf Q(E_1).\tag{J} $$
+确实，$\sigma\in G_K$ 在 $E_1[c_k]$ 及 $E_k[c_k]$ 的 CM 作用分别记 $s_1,s_k\in(\mathcal O_K/c_k)^\times$。前文的 CM 射线有限角色关系 $\epsilon_k(s_k)=1$ 来自好位 Frobenius 的 $\psi_k(\mathfrak q)$ 生成元及 Chebotarev。令 $u_\sigma=\theta_k^\sigma/\theta_k\in\mu_6$。因 $(x,y)\mapsto(u_\sigma^2x,u_\sigma^3y)$ 在不变微分上乘 $u_\sigma^{-1}$，比较实际 $F_{\theta_k}$ 共轭得 $s_k=u_\sigma^{-1}s_1$，故 $\epsilon_k(s_1)=u_\sigma^{-1}$。直接在(A)重标得 $G_k^\sigma=\epsilon_k(s_1)G_k$。复共轭使 $Q_c\mapsto[u_0]Q_c$，且 $\epsilon_k(\bar a)=\overline{\epsilon_k(a)}$ 由有理曲线的 Hecke 角色得来；$F_7$ 是实际有理除点对数导数。故 $\overline{G_k}=u_0^{-1}G_k$；$\overline{1-\omega}=u_0^{-1}(1-\omega)$ 证明(J)。
+
+### 原核轨道的开盘延拓及恰当的整误差
+
+记 $q=p^2,d=q-1,r_j=p^{-1/(d q^{j-1})}$，取 R1065 的 $E_1$ 严格坐标 $[p]v=pv-v^q$，$z(v)=\log_E(v)$ 以不变微分定标。对 $a\in\mathcal O_{K_p}^\times$ 写 $S_af(P)=f([a]P)$。选实际 $\ell(a)=\gamma$ 的 $\eta\in1+p\mathcal O_{K_p}$，取 $\beta=1+p$。置
+$$B_k=d^{-1}\sum_{t\in\mu_d} S_tG_k,\qquad
+ V_k=\lim_{m\to\infty}p^{-m}\sum_{j=0}^{p^m-1} S_\beta^j B_k.\tag{K}$$
+平凡及所有反号源均已经(G)–(I)单独检验。此处(K)系数域可取 $K_p(E_1[c_k])$（有限非分歧，因为好约化和 $p\nmid c_k$），并合先前 $\theta_k\in K_p$。所有 $B_k$ 系数整，且 $\psi$ 与各单位拉回交换。
+
+给第 $s$ 挠半径的 Tate 算子范数 $\|\cdot\|_{r_s}$。$\|[p^s]v\|_{r_s}=p^{-1}r_1$，因为 $[p]$ 将各 $r_i$ ($i>1$) 送 $r_{i-1}$，恰在 $r_1$ 时两项同范数，Gauss 范数取最大值。等式可逐次用 $[p]$ 的盘满射，或用缩放化简后非常数多项式之复合仍非常数。形式群加法的整估计和 $v_p(\beta^{p^{s-1}}-1)=s$ 给
+$$\|S_\beta^{p^{s-1}}-I\|_{r_s}\le r_s^{-1}\|[p^s]v\|_{r_s}
+\le p^{-1}r_1/r_s.$$
+对一般幂级数用幂差分解得同一算子范数。先作 $p^{s-1}$ 项平均，代价至多 $p^{s-1}$；余下平均按 R1070 §6 的 $\sum_{j\ge0}(-1)^j D^j/(j+1)$，其中 $D=S_\beta^{p^{s-1}}-I$ 的上界足以使整个尾算子范数至多一。因此(K)在每个 $r_s$ 收敛，$\|V_k\|_{r_s}\le p^{s-1}$。同样 $\|S_\eta-I\|_{r_s}\le r_s^{-1}\|[p]v\|_{r_s}<1$，故全部整 Rubin 系数的 $\mathcal A_b(S_\eta-I)$ 在每个这样的盘上收敛且范数至多一。
+
+在任一准确 $p^s$ 挠点 $P$，$B_k$ 后的 $\beta$ 平均在 $p^{s-1}$ 次后稳定；$V_k(P)$ 正是 $((q-1)p^{s-1})^{-1}$ 乘以 $\ker\ell_s$ 的完整原轨道和。(I) 用 $[\ell_s(z)^{-1}]$ 这一选向，乘 $[\gamma]$ 遂对应 $S_\eta$，得
+$$\Delta_b:=V_b-65\mathcal A_b(S_\eta-I)V_1=0\quad\text{于全部 } E_1[p^\infty].$$
+原点由 $V_b(0)=\mathcal A_b(0)=0$ 单验。$z$ 的所有零恰为这些简单挠点：$[p^m]v$ 最终进入 $z$ 的等距小盘，且不变微分处处非零。故商 $h_b=\Delta_b/z$ 在每个 $r_s$ 盘解析（可在有限扩域逐零 Weierstrass 整除再下降）。通过 $z([p^s]v)=p^s z(v)$ 与小盘内 $z$ 等距得 $\|z\|_{r_s}=p^{s-1}r_1$。Gauss 范数乘性于是给
+$$\boxed{\Delta_b=z h_b,\quad \|h_b\|_{r_s}\le r_1^{-1},\quad h_b\in\mathcal O_{K_p(E[c_b])}[[v]],\quad \psi h_b=-h_b.}\tag{L}$$
+整性用 $s\to\infty$、非分歧系数和 $r_1^{-1}<p$。末式来自 $\psi G_k=-G_k/p$ 和 $\psi(zh)=z\psi(h)/p$；在任一所需较小盘对有限核迹取连续极限即可。$h_b$ 也是 $\psi$-integral，故 R1065 的 Berger 对偶给实际整 Galois–Katz 泛函；此处没有断言它支撑于单位。$h_b([t]P)=t^{-1}h_b(P)$ 对 $t\in\mu_d$。
+
+### 原不变导数的全权等式
+
+记 $M_N(f)=\partial_{\omega_1}^N f(0)$。对每个 $N>0$、$d\mid N$，在 $z$ 的收敛小盘逐项求导即得
+$$b_N\{M_N(G_b)-65\mathcal A_b(\eta^N-1)M_N(G_1)\}
+  =N M_{N-1}(h_b),\qquad b_N=\frac{N\log\beta}{\beta^N-1}\in\mathbf Z_p^\times.\tag{M}$$
+平均的特征值由有限等比和除 $p^m$ 真取极限，$S_\eta$ 对 $z^N$ 的特征值是 $\eta^N$。因此 (M) 的右侧保留了(L)式可能出现的一阶误差。更具体，由 $h_b$ 的整 Katz 泛函，$M_{N-1}(h_b)=\mu_{h_b}(X^{N-1})$，其中 $X(\xi)=\mathbf t'_\xi(0)$；这是在对数坐标用 $\mathbf t_\xi=\exp(X(\xi)z)$ 回到实际有限 Taylor 系数。$v_p(X(\xi))\ge\tau=p/(p^2-1)$ 给
+$$v_p(M_{N-1}(h_b))\ge\lfloor(N-1)\tau\rfloor=N\tau-1.$$
+对 $N=d p^a$、$a$ 充分大，实际 $v_p(M_N(G_1))=N\tau-1$：$\mu_{g_1}$ 支撑于单位，且 $g_1(0)=(p+1)G_1(0)$ 为单位。取任一 primitive $\xi_0$。$Y=X(\xi)^d/p^p$ 的单位剩余类在 $\mathbb T^\times$ 上恒定，因为 $X(u\xi_0)=uX(\xi_0)$ 且 $u^d\equiv1\bmod p$；由 Galois 等变其剩余类在 $\mathbf F_{p^2}^\times$。$Y^{p^a}$ 在单位上一致趋近其剩余 Teichmüller 提举的 $p^a$ 次方（该提举可随 $a$ 在有限两值中交替）；这是固定 $Y(\xi_0)$ 与所有 $u^d\in1+p\mathcal O$ 的一致估计。在单位外用零延拓，调用支撑及整 Galois 对偶，得 $\mu_{g_1}(X^N)/p^{N\tau}$ 在大 $a$ 时为单位。由 $M_N(g_1)=(p+p^N)M_N(G_1)$ 得上式。因而
+$$\frac{M_N(G_b)}{65 M_N(G_1)}\equiv\mathcal A_b(\eta^N-1)\pmod{p^a}\qquad(N=d p^a,\ a\text{ 充分大}).\tag{N}$$
+(M)中 $v_p(N)=a$ 只支付了一阶。二阶系数仍由上一节全(F)精度读出；(N)自身不能把 $\eta^N-1$ 的二次项和有界误差分开。

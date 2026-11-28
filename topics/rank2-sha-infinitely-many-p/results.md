@@ -208,3 +208,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §57：两个原秩零单位与任意精度有限对数读者
 
 实际U=(A3/A5)/(A3/A5)(0)有唯一归一平方根R；三目标导数保真实Y′和J′两个分量。BKO Th3.16与完整全层Lagrange给R′的任意p精度有限全局elliptic-unit对数读者，未将其极限冒称有限全局对数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1073 §7：全盘原Volkenborn差的整可除性
+
+三固定G_k真实有理下降；开形式盘Volkenborn差精确为log_E·h，h整且ψh=−h。原全权读者保N M_(N−1)h和准确period损失，不能把首阶精度冒称中央二阶精度。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

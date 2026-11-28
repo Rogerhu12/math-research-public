@@ -7,15 +7,15 @@
 固定E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。有限p、变曲线、条件接口均不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库且至少每小时；非FF立即两库pull --rebase、查四README差异并记已读commit，再推直到成功，不force。令牌仅命令行/进程，不入文件/提交/API。
 全部数学仅公开Actions，4CPU/16GB/6h，账户至多20并发。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则15禁存可重算log/数据/矩阵，只留源/参数/run/hash/必要原输入。独立结论新R，同结论续同号；不设冻结/额外复核门。公开16/私库15要求子代理显式gpt-6.2-astra/ultra，09:47起已全遵守。
-[整理前完整H](notes/2026-11-28-handoff-before-v18-and-descended-graphs.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)，登记结论不重做。
+[整理前完整H](notes/2026-11-28-handoff-before-fixed-pair-full-horizontal-readers.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)，登记结论不重做。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 13:11:29 UTC实际pull --rebase，读取main 787bdad4428fb4051a8f9898f644fd270e55d839；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:11:24 UTC实际pull --rebase至e35ee1ec06de51a21c0cdd08dc5f849a5f03d319；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:18:08 UTC实际pull --rebase，读取main 9d2e6c88623a42b351b65e9bf5eb502631839253；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:18:00 UTC实际pull --rebase至00780d7173f7261f8a1747bf2331ce082452e6bd；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3270/47246894B/tree54daca784e14882fa84a55408121cbead992e623；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -28,11 +28,9 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 原两/三位与三个实际目标：R1067
 
-[R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[§§37起](results/R1067-original-first-wild-fixed-geometric-tail.md)保原Kato/ν/physical/参考。g1=aEN/p、g2=(pbEd−γaEN)/p²，全f/mixed、EN三位/Ed两位及−3aIp/γ尾不可删。固定两I12完整边界给T/p²全V整和唯一Π度≤p−1。全Paley/Singer/标记/∞号、Γ68与参考RS付κ=−(pcσ)²、c/p=−1/κ、γa u0c/p=−b，Q6返原第四物理权；互补p137mod204亦成立。全Z首剩余r≤h同构、后段核(1−x)^(h+1)；j1坏/j2单位的R4与首剩余相容，须真高位及全球来源。
-§52真实冻结f17为九条有标记17同源，µ3三轨道{∞,14,7}/{13,3,5}/{1,8,16}，九线独立、目标端环O17。每支原degree34和全Tate尾，原Jp=3Σ三个原读者，不赋各支Selmer身份。
-§53实际Vélu/微分给c_D=17c+e_D、r_D∈1+pO；九质量非零，J[H]=r_D^u I。J′/3=B1(logV1)′+B2(logV2)′，必须保目标导数，整数权是真系数比。
-§54实际半核集稳定于F=Q√17；G_F全置换三个物理Zi，L=F(Bi)为S3、二次子域FK，Bi/Bj非有理。惯性p、F分裂时实际Frob是反射，原中央为Qp²/Qp迹(V3)，迹零不代分量零。有限全局代数对数身份仍待证明。
-§55实际三格最短向量和同一三循环给充分大d的c_i两两不同；真实Gaussian加权Gwt=ΣBi logri对全部充分大惰性好p非零且超越。原J′/3=Gwt+ΣI_i′，目标总导数精确抵消仍须排除；整数权非零的p进极限不自动非零。[§56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)真实Kummer/DFT给9Zi=S1+ω^iaH3+ω^-ibH5，a/b=17^(1/6)/(3+√17)>0。§57实际rank0比U=R²，三目标导数保Y′/J′；全层有限对数读者到任意精度，极限尚非有限全局period。
+[R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[§§37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[§56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。全部Kato/ν/physical/参考不变。g1=aEN/p、g2=(pbEd−γaEN)/p²；全f/mixed、EN三位/Ed两位及−3aIp/γ不可删。I12原边界给T/p²全V整与唯一Π度≤p−1；原κ=−(pcσ)²、c/p=−1/κ，径向Q6回原第四权，互补p137mod204。首剩余后段核(1−x)^(h+1)容许坏j1、单位j2，须真高位。
+§§52–55九标记17同源分三个真实Zi，J=3Σr_i^u I_i；同一S3域、惯性反射迹与全部目标导数保留。真实Gaussian加权Gwt=ΣBi logri在充分大好p非零且超越，但原J′/3=Gwt+ΣI_i′仍可能精确抵消。有限整数权非零不自动传到p进导数。
+§56原Kummer/DFT给9Zi=S1+ω^iaH3+ω^-ibH5，a/b=17^(1/6)/(3+√17)>0；§57实际rank0比U=R²，三目标导数保Y′/J′，全层有限对数读者到任意精度，极限尚非有限全局period。
 
 ## 原中央与完整全层：R1070/R1072
 
@@ -41,7 +39,8 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 固定曲线对：R1073
 
-[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)§§1–4固定E65/E8125，原角色比(Na/5)、完整390导子/5/双13。同一E1真A_b=L_bν/L1ν，P±=(A65±A8125)/2。全奇层Lagrange Di,±整且≡P±,2modp^i，某i检出恰一条原中央非零。真CM实下降给u_b=θ_bA_b,2∈Zp；(5/p)=−1时P±,2估值皆为两曲线最小值，无抵消。S=T²/(1+T)实节点给有理Rbi和固定Q√5范数证书，Yang正性不代p进非零。§5原signed参考U单位清全变层L分母，固定七乘法给统一D；正整数I_bi≡−DU0u_bmodp^i，固定范数Ni=5I65²−I8125²最终非零，vpNi<2i恰检出。现界|Ni|≤Cp^(20i)仍不足。§6三个固定G_k全七乘法/原角色给全p核迹、整Katz来源与全部有限群环D_b,s=65A_bD_1,s；保平凡项、反号层及原参考。Morava整恒等与固定dR/PF继续，所有残项保留。
+[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125秩≥2，完整390导子/5/双13及同一E1原A_b全保。§§1–4角色比(Na/5)、P±配对和全部Lagrange；θ_bA_b,2∈Zp，(5/p)=−1时P±两估值同为原最小值，无抵消。S=T²/(1+T)读有理范数；正性不代p非零。§5同参考U和七乘法统一D给正整数I_bi≡−DU0u_bmodp^i；Ni=5I65²−I8125²最终非零，vpNi<2i恰检出，现|Ni|≤Cp^(20i)不足。§6三个固定G_k全p核迹/整Katz/所有有限角色给D_b,s=65A_bD_1,s，保平凡项与反号奇层。
+§7全盘Volkenborn差=log_E·h，h整/ψh=−h；原全权等式保全部N M_(N−1)h，首阶逼近不代二阶。
 
 ## 其它门、更正与接续
 

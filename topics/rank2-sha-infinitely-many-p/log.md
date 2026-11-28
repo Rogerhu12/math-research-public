@@ -193,3 +193,23 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 根逐核两个原秩零Rubin来源与Hermite临界权相消、三目标精确一阶矩阵、全部有限层Lagrange；实读BKO2024 Th3.16的两个符号读者，保其rank1特例限制和未来special-weight说明，未替换原中央或原全局类。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:11:29 UTC到787bdad4428fb4051a8f9898f644fd270e55d839，私库2026-11-28 13:11:24 UTC到e35ee1ec06de51a21c0cdd08dc5f849a5f03d319；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47246894B/tree54daca784e14882fa84a55408121cbead992e623，无>5MB。
+
+## 2026-11-28 13:15:56 UTC：R1073 §7：全盘原Volkenborn差的整可除性
+
+根逐审原有理Galois下降、所有核轨道/开盘范数、整Volkenborn尾与Weierstrass可除及ψ规范，保原权导全误差。完整旧H逐字归档，同一证明索引及历史边界不丢。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:16:16 UTC到782ba15f4cf4f1ffc75e1019afcb918876dd9de4，私库2026-11-28 13:16:03 UTC到cd86802d77c48714bbe9939845755f2f6df8571e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:16:29 UTC到36f50a5f9d430d41ded4e156ed1e1b900cb2ef95，私库2026-11-28 13:16:25 UTC到159702a7db0bd24a5dbe39f2c3723ee962a73b7d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:16:43 UTC到7b580db50176a7db0e270865c130f941d391b12b，私库2026-11-28 13:16:38 UTC到94960de2ff2c5bfe60f70b1e24b51df378ad2f35；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 13:17:02 UTC到5dc017c76d917ff4a70f1d6c6f24cc36026df3ec，私库2026-11-28 13:16:58 UTC到53d4cba710a1123c76141c17a524420cf3dbfc68；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第5次）：公开2026-11-28 13:17:15 UTC到dfe59f42ba4a81ab166f11bb92f5fc2238126aed，私库2026-11-28 13:17:11 UTC到01b6d3a55d0b89bb2a237c6bdbfa0c1c686f362b；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第6次）：公开2026-11-28 13:17:34 UTC到af809c86e116c4374496b4fb41c2e54ab29039fa，私库2026-11-28 13:17:25 UTC到ae5140803c71f9f475bc4ea155584cfc9fabc8a3；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第7次）：公开2026-11-28 13:17:49 UTC到2afaaa5f570238fe1c342d384b70c23471294b04，私库2026-11-28 13:17:44 UTC到1b7e9968e2f16c726ae90487c42321f4c745c6e7；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
+
+推送前实际本地双pull（本次发布第8次）：公开2026-11-28 13:18:08 UTC到9d2e6c88623a42b351b65e9bf5eb502631839253，私库2026-11-28 13:18:00 UTC到00780d7173f7261f8a1747bf2331ce082452e6bd；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3270/47254765B/tree3a605a9a9dfedc568d554b1992c3ffb921ec842a，无>5MB。
