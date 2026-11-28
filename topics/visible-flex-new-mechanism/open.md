@@ -77,3 +77,9 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R651 真正正时长的四原偶端输入
 
 [R651](results/R651-four-true-even-ends-affine-rest-time-chart.md)以实际物理运动段及四个静止高度给E=b+Vτ；显式行列式不为零，零目标唯一τ=−V⁻¹b。原盒内满秩例已证，但正时长零目标尚未取得。[实际公开求解](notes/2026-11-28-r651-positive-rest-time-original-input-scope.md)保原四密度，搜索三高度经过顺序及可选真实k往返；正候选以有理参数、128位Arb原过渡积分、准确有理逆同时核验τ>0、原h/k/η/γ/υ盒与L。四端图只作原全ruling的新输入，原R641等各自状态/费用不借用；后继必须释放静止段内部及接口，不能把全局解析反馈根假定含非平凡开plateau。
+
+### R652 全线准确无额外核与真实taper端线的有限匹配
+
+[R652](results/R652-quadratic-travel-excited-double-kernel-with-uniform-gap.md)用s=(684+95√55)/632同时给准确j2/3激发核、排除所有其他整数零、全频统一gap及加权参考逆；行程π√55/8，小除数由二次整数范数支付。这不自动转给有限裁切/平尾组装。[R647实际终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)的低采样曲率仍有很小内帽；确切2a/D上界判断已注明需真半径包围，真平帽接合还受积分曲率必要条件。
+
+[新真实taper匹配范围](notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md)放开有限第一模Cauchy数据、改负组件高度1/8；Hu两种实际入口、线性log径向taper的Kummer正则解和小坡度suffix比较给真正平尾的两条极限射影线。两未知边界参数解双三次式，600组有限匹配共享6个完整传递ODE；只报普通根/正性/曲率与帽半径估计。真横截包围/有限N/组装全部频率/有限非线性角/全像与reach继续自己支付，不继承旧R637的β或旧R647几何。

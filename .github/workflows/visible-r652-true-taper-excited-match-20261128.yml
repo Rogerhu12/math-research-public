@@ -1,0 +1,49 @@
+name: visible-flex taper matched excited Morse center
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r652-true-taper-excited-match-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r652-true-taper-excited-match-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: True taper natural lines and finite excited kernel matching
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r652-true-taper-excited-match-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r652-true-taper-excited-match-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r652_true_taper_excited_match_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R652-quadratic-travel-excited-double-kernel-with-uniform-gap.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r647-finite-profile-actions-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and evaluate the new finite input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r652-true-taper-excited-match-20261128.json
+          --lane taper-excited-match

@@ -4,7 +4,7 @@
 
 ## 已读规则与完成条件
 
-公开最近实际pull/双README差异检查至 **b4ccac31bf07b42cc60a888a24a5c775feded1e7**，根16已读执行；私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，仅根新增15已读。两处均要求所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守，无下级；课题README未变。首次全读b0865cd9，QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **bbec54bfa5622b32a5ebac2d256d310c9cc714b8**，根16已读执行；私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，仅根新增15已读。两处均要求所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守，无下级；课题README未变。首次全读b0865cd9，QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时，变则读diff执行并记SHA。每结论即push；NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核，根15不存可重算大日志/数组；必要真实续接输入例外。全部原失败、未完及费用沿来源保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -14,7 +14,7 @@
 
 [原390终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)run46125750420/source4482fcc2：2370.262664079秒、6接受；实际97q4354ee43、同p.181/实际f60材料，401coarse/16312×3072 fineη3.266724887865865e−5、physical0、trust2。全部费用和10J130块82值留链。
 
-[实际401后继](notes/2026-11-28-r582-4354-original401-continuation.md)先闭同c13d半步：coarse已付，但原fine115块/14720点未存可复用prefix，必要完整fine且旧费不删；不能丢弃或假接受。4354同态baseline复用，旧a938不重放。run46131346389因新根规则退出；run46131881286/source3ed0af40又在输入校验退出，入口误写祖先0d材料SHA，实际原390/4354为f60be03b。现已准确修复，不改科学stdin；两次均无新fine/接受。变量g、p.8/末η1e−7及宏观未达。
+[实际401后继](notes/2026-11-28-r582-4354-original401-continuation.md)先闭同c13d半步：coarse已付，但原fine115块/14720点未存可复用prefix，必要完整fine且旧费不删；不能丢弃或假接受。4354同态baseline复用，旧a938不重放。两次启动退出及误写祖先材料SHA已在原note更正；实际4354为f60be03b，source56c35c4c同stdin重启。待读真实新field receipt，不同材料不得复用fine资格。变量g、p.8/末η1e−7及宏观未达。
 
 ## B：同86da固定E的1566列真实mean联立
 
@@ -52,7 +52,9 @@ R646给同一真实μ1有限P的全域组合Taylor球误差2e−5及可接续消
 
 R637旧真平尾/全频逆/严格β>1/4（run46123270834/source95b8760b）不转新profile。R642/R644已给真正小q环带、全真尾共同邻域/姿态；θ=βq²+O(q³)，冻结q相位族同g/外帽固定/整像dH≥aβq²/4>0。无有效q0/宏观角/reach比例，不重做局部结论。
 
-R647新(2,3)/(3,5)激发核、s11/5/η²37/100/B3/100、正σ与全r_X>0；额外157/198零模仍欠。四τ负高度1/2的[实际有限输入](notes/2026-11-28-r647-positive-liouville-finite-input-scope.md)run46129968826已自然结束，仅样本/普通求积，不授真平尾或有限角。新有限切口/全频无额外核/真平接合/宏观帽半径继续，不把小颈样本κD接近门槛当候选。
+R647四τ有限输入run46129968826已自然完成4.665778048秒；[终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)只有普通求积/样本，τ.95采样κD32.756但小帽比例不足且平帽接合继续耗半径，不授reach/有限角。其额外157/198零模不转新背景。
+
+R652新代数s=(684+95√55)/632已准确只留j2/3核，行程π√55/8及全频统一非零谱隙/加权逆已证。[下一实际输入](notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md)自由有限σ/ψ1 Cauchy数据、核心高度1/8、两条真实Hu尾经w=C|log(r/rtip)|taper的正则极限线；600组有限匹配、共享6次传递ODE，780秒。原全线谱不等于新组装全频，未包围根/有限N/有限角/真reach；采样直径和曲率明确estimate。继续实际宽颈与全像位移。
 
 ## G：同一离解位置的全时几何
 

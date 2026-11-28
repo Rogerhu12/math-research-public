@@ -217,3 +217,7 @@
 ## R651：四个真实偶端的正物理停留时长图
 
 [完整证明](results/R651-four-true-even-ends-affine-rest-time-chart.md)在实际C²运动之间插入四个真实静止段，原四偶端准确为b+Vτ。四率在1,y,1/y,1/y²基底的三角系数给显式非零Vandermonde行列式、有理拉格朗日逆与真实长度公式；原盒内L=9/2的满秩输入成立。零目标仍须τ非负/原长度盒，未声称原点在局部像内。[首次公开范围](notes/2026-11-28-r651-positive-rest-time-original-input-scope.md)直接搜真实物理参数，并对正候选包围原四连续积分，再以准确有理逆证明时长/原盒；完整历史、全ruling及闭曲面仍待。
+
+## R652：准确双激发核的全频间隔及宽颈有限端线输入
+
+[完整证明](results/R652-quadratic-travel-excited-double-kernel-with-uniform-gap.md)取代数s=(684+95√55)/632，离散能级零条件的有理/无理部分同时消失当且仅当(j,N)=(2,3),(3,5)。行程π√55/8具有显式整数小除数下界；非零能级用L=16N²−55j²整数隔离和有限二次数域范数给统一正gap，加权参考逆无新的高角损失。[R647自然终态](notes/2026-11-28-r647-finite-profile-actions-terminal.md)四τ共4.665778048秒，最佳有限样本仍小颈，不授几何资格。[新公开范围](notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md)用真实Hu自然线经过显式taper的极限，放开有限Cauchy数据、H=1/8，搜索600组两模匹配；有限N、组装全频和宏观非线性仍未闭。

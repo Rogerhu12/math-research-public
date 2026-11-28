@@ -1,0 +1,65 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r652-true-taper-excited-match-v1",
+  "public_rules_read_commit": "bbec54bfa5622b32a5ebac2d256d310c9cc714b8",
+  "private_rules_read_commit": "2bea2888397db073ec71e3aec8e59e51c4b90d83",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r652_true_taper_excited_match_20261128.py",
+  "workflow": ".github/workflows/visible-r652-true-taper-excited-match-20261128.yml",
+  "common_parameters": {
+    "max_seconds": 780
+  },
+  "lanes": {
+    "taper-excited-match": {}
+  },
+  "scope": {
+    "actual_R647_terminal_run": 46129968826,
+    "fixed_R652_center_s": "(684+95*sqrt(55))/632",
+    "central_height": "1/8",
+    "left_natural_start": "initial resistance",
+    "right_natural_start": "first mass block",
+    "left_taper_lengths": [
+      "1/32",
+      "1/8",
+      "1/4",
+      "1/2"
+    ],
+    "right_taper_travel_over_pi": "sqrt(2)/k",
+    "right_denominators": [
+      12,
+      8,
+      6,
+      4,
+      3
+    ],
+    "finite_cauchy_parameters_free": true,
+    "all_frequency_after_assembly": false,
+    "actual_finite_N": false,
+    "nonlinear_solved": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r652_true_taper_excited_match_20261128.py": "51314c195f721e604629fcc32c0f9bc1fb6c85b0279b72bd485e4e4f66ebcfc4",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/results/R652-quadratic-travel-excited-double-kernel-with-uniform-gap.md": "a8dee1b8173c1ac46facaad53819ba2847ecd7bb3df20addc46ae5331db6be17",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r647-finite-profile-actions-terminal.md": "1d129c61a8a6322986e1076cd7442a87b9c1fbec5e93b9fbe7e31a83237a2eb1",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r652-true-flat-tail-taper-matching-scope.md": "56ac40bf9fe351bbdc1c87ecc89f907d2ec3e86aa1ec0908552260473ec4dd89",
+    ".github/workflows/visible-r652-true-taper-excited-match-20261128.yml": "b16fbf0ccb87cfa21bb8a7d4ce4f9ecf02e9c4b5508157f053015e305afa19f4"
+  }
+}
