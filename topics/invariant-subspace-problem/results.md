@@ -6,6 +6,12 @@
 
 ## 新增结论
 
+- [R150：十八个原关系列与全Phi非零纯权必要行列式](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)：304e真10.557245755秒/0；9种子及9真实倍的深1来源，Γ^5清系数及h极点，adj恒等式给F∈I10，实际模满秩只证同F非零；整F/H42曲线继续。
+
+- [R150：完整P164原整模型七单位块、两整余块与泛型长度≤8](results/R150-appendix-unit211-W-P164-integral-original-model-seven-units-and-generic-length-eight.md)：18ac真11.524541746秒/0，全部重数/原132列保；两次有限Nakayama给A≤8生成、QQ(k)长≤8，规范全坐标≤16。未全返1或付权零维。
+
+- [R12：原Haar有限头精确吸收与完整临界根图pair](results/R12-appendix-exact-haar-head-absorption-and-critical-root-graph-pair.md)：完整head↔tail源及K^[L]迹范数趋0；下一2N头确解有限平方关系，线性角度恰δ/(2μ)||Π+−Π−||<1/2；无限图相容及原闭根仍开。
+
 - [R150：Phi 三真实头互素及至多798个六次头例外权对](results/R150-appendix-unit211-Phi-zero-whole-three-heads-coprimality-and-798-sixth-head-exceptional-weights.md)：5883真3.881622428秒/0，H42/H19与C*的QQ互素和H42完整QQ不可约返回；例外外每权≤18，Δ补图≤12。未判共同零纤维为空。
 
 - [R12：Walsh真闭图坐标及同carry的小迹类角度解](results/R12-appendix-actual-walsh-graph-coordinates-and-small-trace-class-angle-solution.md)：全Julia四块与原前缀迹范数来源给唯一BY−YA=−HKG，全部根分支共同界√(2a0)+40e^−1070；临界低块及非线性同源费用仍开，不去掉缺陷因子。

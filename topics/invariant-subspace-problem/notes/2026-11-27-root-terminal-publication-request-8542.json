@@ -1,17 +1,18 @@
 {
-  "message": "ISP R150: record W complete-primary obstruction and start genuine Phi eighteen-column weight source",
-  "parentCommit": "8c7bd48eb9c9768db9be89a8aa191173406671dc",
+  "message": "ISP: prove the Phi original weight determinant, W generic length eight, and exact Haar head absorption",
+  "parentCommit": "ed43db082cc269af1ef160769e51b1f6254a78d5",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-monic-six-eighteen-original-columns-and-nonzero-weight-determinant-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-monic-six-eighteen-original-columns-and-nonzero-weight-determinant-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-finite18-columns.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-complete-original-local-1164-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-original18-and-W-primary-return-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-original18-and-W-primary-return-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-monic-six-eighteen-original-columns-execution-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-P164-integral-original-model-seven-units-and-generic-length-eight.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-original-local1164-seven-units-two-residuals-actual-receipt-8542.json",
+    "topics/invariant-subspace-problem/results/R12-appendix-exact-haar-head-absorption-and-critical-root-graph-pair.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-weight-W-eight-Haar-exact-pair-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-weight-W-eight-Haar-exact-pair-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +21,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-finite18-columns.yml"
-  ]
+  "dispatchWorkflows": []
 }
