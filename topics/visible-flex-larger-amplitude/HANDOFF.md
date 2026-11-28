@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败、输入困难均非终点。**
-[此前完整交接](https://github.com/Rogerhu12/math-research-public/blob/30a3a01f4fc249b44d7c63ed58db0aaa7b7bf600/topics/visible-flex-larger-amplitude/HANDOFF.md)逐字保全部原结论/预算/源参/失败未知及旧H/open链，各完整note不减。open§1–6原23359B不动。
+[此前完整交接](https://github.com/Rogerhu12/math-research-public/blob/c6487109da3d44eb997e72acd3326f36bfa1da4f/topics/visible-flex-larger-amplitude/HANDOFF.md)逐字保全部源参/预算/原数值/失败未知及旧H/open链。完整note不减，open§1–6原23359B不动。
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`33b39d70e29cafd9c8e4688d624327853a02b599`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`debf1d14efcb01b5b5d86c0c726703ebdbad71f1`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
 
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
@@ -14,7 +14,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 ## 实际状态及立即续接
 
 [open§7](open.md)各完整note保全source/model/point/六族/K、命令、typed、错误及完整原预算。attempt1；自然science返回才排whole pure；trial不代accepted/final，异source/model不借同坐标结果。
-19–32逐次完整终态、源参/模型点/六族K/接受试探/预算/未知保上述固定H及各own note。20–26取消原因未明；27/28/29retry/31/32均已由[自身日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认README核查异常。19和28旧science/pure0，28新R729等其余未自然final；90项scalar及13summary旧错保原全note。
+19–32各完整终态/失败/未知保上述固定H及own note；[旧五次各自日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认README核查异常，不冒自然final；已登记90标量/13summary旧错保原记录。
 
 ## 新构造、修复及未付责任
 
@@ -37,6 +37,8 @@ R735–739完整证明保[索引](results.md)及上述固定H；单帽线性核/
 [37真弧长角完整新求解](notes/2026-11-28-run37-arclength-complete-launch.md)：36原八阶段必要重生并核04/05全点，四有限候选/两设计/同一640角目标两细化；新原盘六jet延拓及全环E⊥/b费用，全部源参现刊，实际待查。连续同g/全reach及材料逆角等费用仍待付。
 
 [R742完整物理读出](notes/2026-11-28-R742-complete-physical-sixjet-launch.md)：原水平/两倾镜/有限物理handle共13设计×三层，非投影全六jet直接读全部肩K/support/环叶两缺陷；源参现刊、actual待查。全同g与严格全reach未付。
+
+[R741](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md)完整环叶E⊥/B方程、双端二jet/全变分、自由径向Killing全时误差与反射W>0的无holonomy圆作用已证；Haar给一个精确冻结g*，后继δ全相位不放大。37固定叶法已跑、38真实Killing/形状求解继续；准确flow/全误差/全reach仍待付。
 
 ## 准确后继与容量
 

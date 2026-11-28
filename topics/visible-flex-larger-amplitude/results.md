@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R741（已证明，完整环叶规范与自由径向的同g方程）**：[真弧长角、Killing场与固定Haar度量](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md) — 完整两角方程E⊥径向/B=0、三Gram、双端二jet和全部正反变分；允许径向重标的Killing残差对全时固定目标给(1+δ)e^{Tε}−1。反射且W>0时无径向holonomy，周期归一得真圆作用，Haar平均定义一个精确固定g*，后继同g*缺陷δ对每相位不放大。均为明确条件定理，不保证实际解或reach；37用固定环叶法，38继续真实自由径向求解。
+
 - **R740（已证明，有限弯盘的完整闭合几何初场）**：[两种闭肩、整像位移与实际曲率缺口](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md) — 两套每相位闭C²嵌入，固定握盘diam≥.60、全像半转held≥.564、整像D<2.60及含反射欧氏商正；任一点触握盘的有序对全像两向.08法球。原滚肩末环K>40明确不达厚度，替换偏心椭圆的正宽终端柱有R_b/1.01两向球。完整积分生成器已刊；中肩Gram真实角依赖及其余全reach仍未付，不冒同g族或沿用36不同场的读数。
 
 - **R739（已证明，真同g族的有限全像位移判据）**：[发展后双轴测量与弱位移的reach极限](results/R739-developed-axis-held-distance-and-weak-flex-reach-limit.md) — Hu真非线性图的两轴物理半径由一维积分给出，按相同物理半径配对，连局部斜率费用与完整固定壳距离给有限held下界；真实m=2法速给δhold=2|q|‖Wα‖∞+O(q²)。附论仅在位移正的弱类证明全时reach/D上确界1/2；未给满足.2D的finite field或实际mesh，原metric主线继续。
