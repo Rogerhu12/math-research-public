@@ -60,8 +60,6 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD normal/两开集residue SDR及原raw/primed theta已付。xP=−b_Ez^p(1+γp)ω−zgη，Z=𝔟(A,A)−H；全部高carry、fixed CM α、primitive尺度、exact/shear及同陪集Cor沿原文/逐字前态保全，不重列未付。
 
-[R1159–60](results.md)actual Norm群图给原ordered/BCH跨同源功能式，ψ_i⁻¹为ω_i↦ω/2、η_i↦η−e_iω/2。原J_n/算术B_n及三个整未平滑来源已给；一般Frob共轭路径仍须实读，非单点v_n倍数。
-
 [R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS未分歧Aut相容CM参考、全μ6外辅助族ordinary源与Π0/Π2双线性RHS已付，保vertical γp及真PD特化。新增Qρ权(k−l)/[2(k+l+2)]；Hρ=Wρ−Qρ(X,Y)只在对应CM基间齐次，回预选参考仍有全shear/Δ的已知e，V H=n^(2−ρ)Σtransport e。最高剪切缺陷零当且仅当一输入零或X∝ω⁴,Y∝ω⁸；不强加于actual X/Y，不宣H=0。最低Tate符号与原非零继续。
 
 (1174.58)的e=c_BCH−Q_actual(Xj+ΔX,Yj+ΔY)+Q_ref(Xj,Yj)，不是删去商曲线对参考点的差；Q_s=e^(sN)Q(e^(−sN)X,e^(−sN)Y)保完整有限shear。最高C0系数=(9k−5l+4)/[(k+l+2)(k+l+3)]，p>37精确零分类自证；此分类没有给actual moments增加任何消失条件。
@@ -168,7 +166,7 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 ## O4：原 Abel 像与真正高度
 
-[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md) 的实际 Q 简单商 C 已有 dim=2f、rank=f、MW=F₀β、原 c₁ Abel 首 jet 非零；未付 p 整首项赋值/统一半径，须同 β 的 Coleman/晶体两列和尾项。R1010 原 X₁ 非CM投影非挠（全 p≥10¹⁸,p5mod6；p11mod12可431），不能移到变化 X_d 或代候选排除。
+[R1182](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)在R1011原Q简单半秩商C/F₀/β上，以同β′两列交错首项ℓ_m(logβ′)、有理超平面的几何半稳定及已刊有效界付v_q(a_m)<B；Néron整微分给全尾≥−v_q(r)。原分支v_q(b−1)≥a+B+ceil(log_q(m+1))整盘仅c₁，含q=p坏约化。a、原商模型/分母/点高度仍有实际依赖，须统一控制并比较候选深度，不能据此宣首项unit或固定盘排点。R1010原X₁非CM投影非挠范围仍为p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推变化X_d。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 

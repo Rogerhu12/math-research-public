@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原半秩商的有效首项估值与完整深盘（已证明）**：[R1182](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)固定原C/F₀/β，Q有理超平面满足几何半稳定；同β′两列交错首项ℓ_m(logβ′)由FP已刊界给v_q(a_m)<B，Néron整微分给全部尾≥−v_q(r)。原分支v_q(b−1)≥a+B+ceil(log_q(m+1))仅c₁，含q=p坏约化；模型/同源尺度/点高度全保，未宣统一p或覆盖固定候选盘。
+
 - **十二次原矩的绝对Bernoulli尺度（已证明，R1179 §12.4）**：[GN.47](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)同一physical字典给J8=−175680βBp−7/C⁶、T7=8235Bp−7/(4C⁶)，含零支；原synt中槽为2898720Bp−7/C⁶，physical取负后恢复−61γ7/2。保原mask，Hankel与两点余核桥继续。
 
 - **全部非平凡偶局部角色的绝对比较（已证明，R1180 §9）**：[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp、真实trace/e与合法PD gauge，付所有奇r=3,…,p−2的物理F_r=γ^(r−1)ℓ_(p−r)。原未平均γ_r局部值为(r−1)!Bp−r/r；特别γ7为720Bp−7/7。U_E=γ_E²、η★=1全部坏支，不需generic SS/β非零；保σγ=−γ、root phase及原角色出现条件，不新增global源。
