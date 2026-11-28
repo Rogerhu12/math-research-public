@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [BPF：全负区真逆矩阵变形的物理全频算子界](results/R149-supplement-whole-genuine-inverse-deformation-on-the-physical-Fourier-space.md)：原whole势支撑与真实ρ²角导给Tφ<7e−7；共同物理T水平集积分及完整矩阵几何级数给全频n²(B−Hinv) L2算子<1/4500、普通dr L2<1/315000、L1<1/22500000。physical n≥262144的H−4/3→L2费<1/18000000，均值/低泄漏全保；其余Airy/反馈不赋同数。
+
 - [ASQ10：实际65536截断全部坐标误差与完整物理余项](results/R149-supplement-practical-high-cut-with-paid-coordinate-errors.md)：同一原图经可逆约束行变换在J65536的全high距离<1/8+23Cphys；真实v的L2→Wiener和原UACT正系数和付alpha A0<1.421、w∞<2.51。Cphys保真WPL全输出/正侧回馈，≤1/32才逆、≤1/64才<1/2；实际Cphys/有限块仍未赋。
 
 - [ASQ9：原完整腰补的精确稀疏消元和迹类尾](results/R149-supplement-arithmetic-sparsification-and-trace-ideal-of-physical-waist.md)：原J=2^4608内同时safe块收缩<1/4、逆4/3，保留rank<2^1126；真实二次无理数可精确Euclidean寻址，无频率大数组。原高尾homogeneous核迹<2^-27、coupled在明确A+门下<2^-26；完整低块/物理列/Θ/mean/world及full determinant仍待。
