@@ -81,3 +81,65 @@ $$\boxed{
  =\frac{2592N_C}{\delta\beta_C}\,
    \log_{E_{16}}\!\left(P_{C,D}-P_C\right)\ne0.} \tag{AC5}$$
 等式中把 Fermat 点经上式送 $E_{16}$，以 $\omega_{16}$ 的正式对数取值。两点落在同一剩余盘，故普通原函数差等于该正式对数。这里所有非挠断言均逐个实际 $C,D$；固定 $\chi_b$ 的代数线性组合和(W8)的完整权一二重积分尚需另证。
+
+## 21. 两个原角色首圈分部积分中的真实有限椭圆端项非零
+
+设 $d=p+1,h=130p$，$p\equiv5\bmod6$。沿(AB1),(AC1)–(AC5)。记
+$$ K_C=\frac{2592\cdot130}{\delta\beta_C},\quad
+ h_C(w)=\frac{1}{w\mathcal F_{\delta C}(-w)},\quad
+ j_C(v)=\log_{E_{16}}(P_C(v)-P_C(0)). \tag{AD1}$$
+此 $j_C$ 是固定 Fermat 模型的正规椭圆对数，不是此前原 Rubin 的 $j_m$。首圈所在稍大闭盘内各点都在同一好约化剩余盘，故这是真解析原函数。由(AC4)，
+$\mathcal F_C\,d\log w=K_Ch_C\,dj_C$。$h_C$ 只在 $v=0$ 有一阶极：用母三级同源的 $a_\delta=q_\delta^*\omega(v')/\omega(v)$ 写成
+$6\delta/[vQ(v)a_\delta(v)G_{\delta C}(v')]$。其中 $Q$ 无零，两个同源素于 $p$，$G_{\delta C}$ 是原分量非尖点的单位。故 $h_Cj_C$ 处处正则，在零的值是 $\mathcal F_C(0)/K_C$。
+
+### 端点的全部微分与实际射影标签
+
+令 $M$ 是(K2)实际特殊 Frobenius 的 prime-to-$p$ 标记矩阵。将原标签 $(C,D)$ 送 $I=(M^{-1}C,D)$，这是 $E_1[h]$ 中原130开循环加上一个 $p$ 线。设
+$$ F_I=f_3(E_1/I,q_I\alpha_3 M_3^{-1},\kappa_I),\qquad q_I^*\kappa_I=\omega_E.$$
+原 $\alpha_3$ 的参数自始取定；$h\equiv-1\bmod3$，加 $M_3^{-1}$ 后确在原 Weil 分量，故值均非零。令 $a_D=q_D^*\omega(v_D)/\omega_E$。逐同源复合给 $F_I=a_D G_C(v_D)$。
+
+母 $\delta$ 同源在 $v_D$ 处的标记满足
+$q_{\delta,v_D}\circ q_D=q_{\delta D}\circ[-\delta]$，采用右边的归一商同构来识别。两边核相同，右边的特殊纤维为 $\mathrm{Fr}[-\delta]=[\delta]\mathrm{Fr}$，正好是左边的特殊标记；prime-to-$p$ 三级标记在该目标约化已固定，有限 étale 性给同一延拓。130线上 $\delta,-\delta$ 的射影像相同，且 $M^{-1}\delta C=\delta M^{-1}C$。微分因而有
+$a_\delta(v_D)a_D=-\delta a_{\delta D}$。在(K2)的记号 $q_D^* e'_1=B e_0$（$B$ 是对所有核线相同的非零 crystalline 常数），从(W8)首圈 $P=0$ 得 $a_D=B\,v_D Q(v_D)/6$。所以
+$$ h_C(v_D)=-B/F_{\delta I},\qquad
+ r_C(v_D)=-F_{\delta I}/F_I,\qquad
+ P_{C,D}=(\lambda_I,-\beta_C F_{\delta I}/F_I).
+ \tag{AD2}$$
+$\lambda_I$ 用上述实际三级标记评价。全 $\mu_3$ 原物理轨道并未删除。确实 $\mathcal F_{uC}(u^2w)=\mathcal F_C(w)$，(AC2)和三级 deck 给 $\lambda_{uC}(u^2w)=u^2\lambda_C(w)$，而 $\beta,\mu$ 不变。Fermat 自同构 $(X,Y)\mapsto(u^2X,Y)$ 在差点上为 $[u^2]$（其原点平移为3挠，微分为 $u^2$）。在首圈源核的相应置换是 $D\mapsto\bar uD$，这是 $\mathrm{Fr}\,a=\bar a\,\mathrm{Fr}$ 的反转。因 $h_{uC}(u^2w)=u^{-2}h_C(w)$，(AD1)端点的 $K_Ch_Cj_C$ 恰在这些三元轨道恒等。删去 $h_C$ 的裸椭圆对数全轨道和反而为零。
+
+因此在 $I_2$ 处选固定一条线，等价于在原 $C_2=M_2I_2$ 处取固定线。其余自由标签构成
+$$ H_h=T_5\times T_{13}\times T_p,\qquad
+ |H_h|=6\cdot12\cdot(p+1),$$
+其中前两项与(Z2)相同，$T_p=\mathbf F_{p^2}^\times/\mathbf F_p^\times$。后续回到原完整216时取三份这些代表。要求 CM Artin 元在模24上为1，可由 CRT 仍遍取此群的全部平移：选 $\alpha\in\mathcal O_K$ 模24为1，模 $5,13,p$ 取任意给定单位剩余，理想 $(\alpha)$ 的 $\psi_1$ 矫正因子为1（$\mathfrak f_1=2\delta$）。所以 $\alpha_3,\mu_8$ 均不动。在原中心 $r_C(0)=u_{\delta C}/u_C$、$\lambda_C(0)$ 真按 $C$ 平移，故 $\beta_C$ 在选定2线的全部代表上同一。由(AD2)实际 $P_I:=P_{C,D}$ 也按 $I$ 作纯平移，先固定 $M_3$ 再运输 $q_I\alpha_3 M_3^{-1}$。旧点 $P_C$ 在同一类 Artin 作用下仍在旧点集合中；$T_p$ 的单独平移可选模 $24\cdot5\cdot13$ 为1，固定所有旧点。
+
+### 归一真实三级值的倒数在唯一环类呈指数主项
+
+取原复格 $\varpi_1\mathcal O_K$。商格为 $(\varpi_1/h)L_I$，$L_I=h\mathcal O_K+\mathbf Z v_I$，$v_I\bmod h$ 处处单位，余线类型固定。选最短非零 $\alpha\in L_I$ 并补成缩减格基 $\alpha,\gamma$。$\tau=\gamma/\alpha$ 属标准基本域，且 $\operatorname{Im}\tau=\sqrt3 h/(2N\alpha)$，$N\alpha\le h$ 由 $\operatorname{Im}\tau\ge\sqrt3/2$。$\alpha\bmod3$ 非零，因为 $h$ 与3互素，若 $\alpha/3\in\mathcal O_K$ 则也在 $L_I$，与最短矛盾。在此基的 Tate 尖点处，原三级标记的乘法线为 $M_3\langle\alpha\bmod3\rangle$：在 $L_I/3$ 上标签 $a$ 对应 $h M_3^{-1}a$，短基标出乘法方向。$M_3$ 保持根基线 $\mathbf F_3\delta$，所以该尖点为 $c_0$ 当且仅当 $\delta\mid\alpha$。
+
+在有限多三级标记的基本域上，(Z3)以后的除子计算给一致复估计。在 $c_0$ 的首 Fourier 项是非零常数乘 $e^{2\pi i\tau/3}$，其余尖点的首项为非零常数；在基本域紧部没有零。因此在 $c_0$ 型
+$$ |1/F_I|\asymp \frac{|\alpha|}{h}
+ \exp\!\left(\frac{\pi\sqrt3 h}{3N\alpha}\right),$$
+在其余型 $|1/F_I|\ll |\alpha|/h$。各常数与 $p,I$ 无关：标记变化及 $M_3$ 只在有限群中，$|\varpi_1|$ 已纳入常数，微分的尺度为 $|\varpi_1\alpha|/h$。
+
+$c_0$ 型最小可能 $N\alpha=3$，恰由 $\alpha=u\delta,\ u\in\mu_6$ 给出。因 $\delta$ 为模 $h$ 单位，只属于唯一射影标签，六个全局单位在 $H_h$ 恰为同一类（固定二线得到唯一代表）。该格确以 $\delta$ 某单位倍为最短：若有范数1单位亦落其中，其与 $\delta$ 的基行列式须为 $h$ 的整数倍，但其绝对值至多2且非0。其他 $c_0$ 型均 $N\alpha\ge4$。故唯一项下界为 $c h^{-1}\exp(\pi\sqrt3 h/9)$，全体余项上界为 $O(h^{1/2}\exp(\pi\sqrt3 h/12))$，已包含 $|H_h|=O(h)$ 项。对充分大 $p$，该项严格压倒所有余项绝对值之和。平移 $I\mapsto\delta I$ 或对各项乘任意根单位不改变此优势。特别对于任一原 $b$，有限向量
+$$ b_I=\chi_b(C)^{-1}\beta_C^{-1}/F_{\delta I}\quad(I=(M^{-1}C,D))
+ \tag{AD3}$$
+在 $\mathbf C[H_h]$ 的所有角色上的 Fourier 系数均非零。这是代数非零，故每个 $p$ 进嵌入也保留。
+
+### 对真实有限端项的非零与它在原二阶中的位置
+
+在 $E_{16}(\overline K)\otimes_{\mathbf Z}\mathbf Q$ 的 $K$ 向量空间中除去全部旧 $P_C$ 的 $K$ 跨度。$P_I$ 模此跨度并非全零。事实上固定同一 $C$、令 $D_1\ne D_2$，对应两 $j$ 环类不同（固定二线已去掉单位重复），两点同约化。按(AC5)的主理想三次论证，若其差为挠点，阶只含2和3，故同约化将迫两点相等，矛盾。单独 $T_p$ 平移固定所有旧点并移动这些 $P_I$，所以至少一个新像非零。由前述真实 Artin 移动，正则表示 $K[H_h]$ 到这些新像跨度的映射具有平移不变的核（先在实际点上作用，再扩标量，不对指数系数作 Galois 共轭）。
+
+固定非阿基米德代数嵌入，Fuchs–Pham 的椭圆对数线性独立定理说明 $K$ 上无关的 $E_{16}$ 代数点模挠之对数，在 $\overline{\mathbf Q}$ 上仍线性无关。可把全有限点集取同一整数倍进入足够小的正式盘，$K=\operatorname{End}^0(E_{16})$。因此若 $\sum_I b_I\log_{E_{16}}(P_I-P_{C(I)})=0$，则在上述新像的 $\overline{\mathbf Q}$ 扩标量中系数向量 (AD3) 属于关系核。其每个 Fourier 分量非零，故其所有纯平移张成整个正则表示，将迫全部新像零，矛盾。乘回(AD2)的非零公共 $B$、$K_C$ 的共同有理部分及三元轨道数，得到对两个原角色均有
+$$ \boxed{\,L_b^{\rm end}:=
+ \sum_{C\in\mathcal C,D}\chi_b(C)^{-1}K_C h_C(v_D)j_C(v_D)\ne0
+ \quad(p\text{ 充分大且惰性}).\,}\tag{AD4}$$
+定理原文 Fuchs–Pham, *Some applications of the p-adic analytic subgroup theorem*, [Theorem 2.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)。
+
+末将端项放回原(W8)。令 $A_b(s)$ 为 (AD4) 的同一全和，但端点改为 $v=\pi X(Y)$ 的全部 $Y^d=-s/\kappa$；令 $B_b(s)$ 为这些端点下从0出发的 $\int\sum_C\chi_b(C)^{-1} K_C j_C\,dh_C$ 的全和。两个函数均过收敛，因为后一个微分在0的留数是 $-\sum\chi_b^{-1}G_C(0)=0$，其余点正则；前一和在0的值也由同一原零质量消去。逐项分部积分准确为 $I_{f_b}(s)=A_b(s)-B_b(s)$。特别
+$$ A_b(0)=B_b(0)=0,\qquad A_b(1)=B_b(1)=L_b^{\rm end}\ne0 .\tag{AD5}$$
+若 $\Theta=ds/s+d\,ds/(1-s)$，实际二阶标量仍为
+$$65 f_1(0)(d\log\rho)^2[T^2]\mathcal A_b
+ =-\int_0^1(A_b(s)-sL_b^{\rm end})\Theta
+  +\int_0^1(B_b(s)-sL_b^{\rm end})\Theta .\tag{AD6}$$
+(AD5)使两个被积函数分别正则。有限代数点的原端项已被直接证明非零，同时也证明包含移动权 $dh_C$ 的整项在首端确实不能删除；(AD6)中两次正则积分的差尚未因此决定。

@@ -344,3 +344,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §72：同一原单位的整双变量LT Robert比较
 
 原平移列在完整整Kummer模恰为−H/(12J)乘实际c=103平滑Robert列，H及J均整可逆；p⁻ʲ驯基点付真实逐层范数，eτ杀对数的全部p幂根核。整个T⁻¹及反圆特化后准确返回AL4乘子，中央高阶零仍未排除。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1073 §21：两个原χ权的真实首层椭圆端项非零
+
+原δ/Frobenius微分给真实h_C(v_D)=−B/F_{δI}；在完整72(p+1)环类上，倒数三级值唯一范数3尖点指数主项使所有Fourier系数非零。真实Artin稳定关系核及Fuchs–Pham付两个原加权端项非零；两条完整正则积分余项及移动dh_C保持，未代canonical中央。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

@@ -467,3 +467,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:02:01 UTC到cc6d1d6875bd632b7fb7c52e91d9d94058b3ca81，私库2026-11-28 14:01:57 UTC到6056ba3f1afa7f81bcde7f9ac7039c2f5bdc1745；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47616425B/treed09e97c84dc0a80fe4e98768cb10e9369c9af34c，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:02:14 UTC到93d5c3121f31e58271f21938d41e2130af6ff522，私库2026-11-28 14:02:10 UTC到6056ba3f1afa7f81bcde7f9ac7039c2f5bdc1745；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47616425B/treed09e97c84dc0a80fe4e98768cb10e9369c9af34c，无>5MB。
+
+## 2026-11-28 14:02:19 UTC：R1073 §21：两个原χ权的真实首层椭圆端项非零
+
+根核真实δ/Fr反转和核线D↦bar(u)D、完整μ3轨道权与裸log零；CRT取Artin模24固定及原2线72(p+1)纯平移，最短格向量范数3唯一且余项至多指数1/12。原点差非挠通过旧点跨度商和Tp作用，Fuchs–Pham Th2.1全关系扩标量而非逐点相加；分部积分在0消全留数，在1保非零边界和两完整余项。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:02:31 UTC到a37c2b6df20073bab1161a06db12152249583384，私库2026-11-28 14:02:25 UTC到429e2ab1ff825dea5a0057484641823a1262e354；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47625058B/tree51fd8760da4e9ccf2f5689ecf9a1704713b113d8，无>5MB。
