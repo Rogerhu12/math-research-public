@@ -65,7 +65,7 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull cf93a19b1265bdfc4a4c22bb3ee7c03771fdfc28
 <!--r762-publish-->R762 [双帽正弧长与四路真实拟合](notes/r762-gauged-crown-46161216634-1-index.json) 双README真pull c9a75159677e9fbacb855e315d210e5164965797
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 5ff9224ce8d83a254a245ba4ce54e7530f5ed09e
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 4af119e543f7972bb318763a285f7a0158ddfd94
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull 1c48956e6b4bfa40a6db66464ac3f6e79da088ed
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 8dee7ca26e7c7911d8d7d4636ad1c3331f6216a7
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull d038086770dd934cbbc1d85e870b4850da6a8e4f
