@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`a2eadfd2794af4963bb1e7b25512bfcabcee8e4b`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活24–29/31通常5分钟真pull，末槽保已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`f7315bfef55efbeb4ee00ff1e28992c4b4ce54c2`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活24–29/31通常5分钟真pull，末槽保已读commit。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15仅退完整闭源旧生成输出，留全源参/结论/固定恢复，不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口明示，继续加强比例。有限点、开放片或条件论证不算完成。
@@ -33,7 +33,7 @@ R724半波、R725固定b三片端层、R726球面端层正根、R727非急角全
 
 R726/R727准确核心9件已刊25d72，N/G11及闭/P-U/矩/mesh23完整保护；全Slerp尾/真根E1E2/原cuts责任保。R728准确N/G14件683627B已保护（manifest blob57f4482c360f6072ee6e5a3594a22f7d813abd0e），真实反号h/h_s/前缀；geometry继续完整下游，不继旧证书。
 [准确续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N原绝对repo/canonical/output，N变G新目录/稳定全report，R723/mesh fresh；P同canonical整块，U最终同wholeN。packet全report、restart同runner13final/typed；normal.complete不代全branch。全32stage/角/六jet/尾/两帽/mixed/全phase/晚失败、R718与R716独立、五t/15mesh/三级真精化全待付。
-[RET81完整账](computations/legacy-four-publication-receipts-retention-81-complete-delivery.json)及80–65/q090/Hermite保全源参/原结果失败/固定Git恢复；ret74 canonical留树。[87份旧JSON空白整理](computations/complete-retention-json-lexical-format-delivery.json)保全部原token；原whole-hash reader先按f687整Git恢复，当前字节用映射。Nelder原f7d0源未闭，仍留；不拿现7b7代它。construction继续闭旧generated，31/32实际求解优先，旧reader先恢复whole原路径。
+[RET81完整账](computations/legacy-four-publication-receipts-retention-81-complete-delivery.json)及80–65/q090/Hermite保全源参/原结果失败/固定Git恢复；ret74 canonical留树。[87份旧JSON空白整理](computations/complete-retention-json-lexical-format-delivery.json)保全部原token；及[96旧note空白整理](computations/historical-notes-complete-json-lexical-format-delivery.json)；旧whole reader分别按f687/9eb3整Git恢复，现字节按各表。Nelder原f7d0源未闭，仍留；不拿现7b7代它。construction继续闭旧generated，31/32实际求解优先，旧reader先恢复whole原路径。
 
 
 

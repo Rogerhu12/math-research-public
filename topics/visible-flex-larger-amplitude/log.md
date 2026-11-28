@@ -265,3 +265,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:53:17 UTC — 31真实公开运行、两完整输入返回及独立science启动
 
 31真实run46122200592/job140908938124，原maker/reference整输入0，whole文件与各自source完整保。science dfbbc306/PID4131实际启动，07:49:26自身两progress文件尚未出现，原错误与未知如实留；不冒输入ref model为当前科学场。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`a2eadfd2794af4963bb1e7b25512bfcabcee8e4b`无变（非pull）。
+
+## 2026-11-28 07:57:12 UTC — 96历史note JSON只整理字符串外空白
+
+完整读102份旧notes metadata，96份只删JSON字符串外四类空白、6份原字不写，所有原数字token/字符串/键序/数组序/字段/参数/失败/未知保。毛减458116B，完整old/current映射46910B、完整再生器3705B、说明3276B，文件净减404225B（另计本条/H/open）。固定whole原字9eb3fd8d960b61be6ea2440a47580f15923ac0ed；RET81等旧selection whole身份按该历史版本恢复，未冒当前SHA。科学源/活queue/request/原数值参数不改、未读大raw或编码搬运。见[完整总表](computations/historical-notes-complete-json-lexical-format-delivery.json)。双README云核至`f7315bfef55efbeb4ee00ff1e28992c4b4ce54c2`无变（非pull）。
