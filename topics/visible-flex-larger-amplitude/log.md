@@ -451,3 +451,7 @@ ROOT逐字执行正式restore/originalRequestText两完整函数，5独立父+7�
 ## 2026-11-28 16:07:45 UTC — 45全部源/参数普通触发：真实整面旋转可积与全时空共同形状
 
 ROOT已全文读45 main/fields/system/params/observer/workflow，26科学输入、22imports/两export、26现有父及完整request/manifest身份与原argv逐项核同。7原粗含已严格排厚常比2+2对照，ratio三粗/reference三粗各独立4/8/16，总13阶段，各末同点65相加七整网时刻并集。全部正相位共同场、极旋转与真实原g三个协变Hessian/法球位置二次LS，原两block4/5/6/7步不裁；逐真点测旋转外微分、低秩计数、物理与旋转四缝/极图及握，source power8仅标签实窄四次已明记。末真Gram、厚度和准确等距仍未知，不借R761或R765局部证；actual null待真实run入口。原公开py3.12.14/np2.3.5/scipy1.17/JAX.7.1与所有原预算普通刊触发。首次发布循环中真实V8重置；已查当时remote无45，不重复启动，恢复同一8完整blob和dbbe2c未推commit内8642B原ownnote继续freshHEAD普通整合；真实pwd复探No usable execution environment，仍按根§8云回退，非git pull。 双README云核至`dd9da18170dd70307b6736792d725d7b902bcb9e`无变（非pull）。
+
+## 2026-11-28 16:16:07 UTC — R762原四路与两正弧长检查全部返回，固定护领全g失败
+
+七份原件逐字核取于1bfa1b4d6126ca5f5884005d0b86ae00abcd631e；官方46161216634/1 job141028730635全部success。84拟合/72中相、两gauge39行，原nfev12/20/30俱全；全g106287–110362、护领193.701，末弦价>.21955。换坐标material vv改善未支付frame22或全g；完整失败/来源/whole identities见ownnote，继续R764/R766。 双README云核至`c49673aba5a16029112f028a6ede9de83730389e`无变（非pull）。

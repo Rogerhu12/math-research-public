@@ -26,7 +26,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 [R751–760](results.md)：旧别名、平带/帽/边界障碍和R758/R760四路全失败已闭；初帽修正有效，全g仍欠。
 [R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：同R757初g规定场全t reach.106/D<3.50、grip.72/held>.739、体积差>.156⇒δE>.004；全帽/负胞g未付。
-[R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：46161216634四路/两gauge全返，换坐标保持同像；真护领g11仍193.701，末全g约1.1e5，原全部budget保留，ROOT补全note中。
+[R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：46161216634四路84拟合/72中相、两gauge各39行全返；全g约1.1e5，护领g11=193.701；旧固定护领类失败已闭，原预算/整身份俱保。
 [R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43硬rim>.72；新整帽刚移/四缝准确仅付必要条件，44释共rim全二jet。
 [R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：真曲率预带E=.44、B=.88、e=.13/.14，新初reach.132/D<4.386/grip1.40，全相基场嵌入/held≥.88、至少一支δE>0；中央/两原卷/两真帽同g，两预带全g及全t reach未付，四整球原三级全域拟合启动。
 [R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：同R757 g有符号λκt=κ0令全meridian准确；2+2支96.3%卷面积准确但K>17.2排厚。新2+3低峰中央K<8.84/held>.705、内帽同g/四缝二jet，全过渡费与法管未付；全SO3闭一形式为准确等价，45求实际共场。
@@ -66,7 +66,7 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull cf93a19b1265bdfc4a4c22bb3ee7c03771fdfc28
 <!--r762-publish-->R762 [双帽正弧长与四路真实拟合](notes/r762-gauged-crown-46161216634-1-index.json) 双README真pull c9a75159677e9fbacb855e315d210e5164965797
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 3cbedb75a5478402fdf3672686af578494b7a1ea
-<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull d4fec0f8cf4a75ddabb840fa21c04d15fbcd36da
-<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 569d2017495995009fa2455dbf0ab5f4591c8a6f
+<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
+<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
