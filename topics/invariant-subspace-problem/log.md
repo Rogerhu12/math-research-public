@@ -57,3 +57,8 @@
 - 新同P最大商闭根定理：明确CP/ CY/ PY交换，Y²=CP²直接付闭稳定域；R267的Wn∈原多项式范数闭包和收缩强单位付RanP图核心、J自伴、唯一性及全部原旗上的闭图返回。无实际Y，非存在定理。
 - fdaea唯一首派180秒/4GiB：整个QQ(k)二次权代数的双数四维族，完整I6、同N1/qZ、五个D清分母原值及全部真权逆返回；只有成功满射再合旧≤4可付泛型D0。旧P/chi身份沿用且系数单位重新实际支付，不重跑旧primary/det。
 - 新增.github/workflows/invariant-subspace-8542-W-QQ-dual-family.yml仅本题必要首派。公私库真实pull/rebase及拒推循环继续；未完成普通ISP。
+
+2026-11-28 10:19 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 1135 run46097382430/job140831761193已真实推送fed3b413b660054b822a73bc74ca4382c77cc193；公pull6f5452638d68745cfb299928a0ccadd421a1e724（02:18:31 UTC）、私pull11e61b2d789c9bc3a7f2728b7e1216e5a67993c6（02:18:30）及QUEUE均真实核验，规则无变。数学结论已发表，但大写W的workflow名未通过现有小写路径校验，尚无数学执行。只改正确小写w-qq-dual-family并删未派发旧名，不改校验；以下仍是同源唯一首次运行。
+- 655新原一阶Schur唯一首派120秒/1GiB：同H0 SHA及真H1，固定旧14主元列/小minor仅定义完整核；14阶双向乘回、352核坐标、8阶新函数域秩。s给原度≤786+s，s3才合旧模789付保度；任何Q主元/内容零纤维均保留，不重跑旧22rank/模det。
+- 新增.github/workflows/invariant-subspace-8542-phi-kernel-schur.yml及改名w-qq-dual-family仅本题必要首派；未改任何授权、权限校验或规则。普通ISP未完成。

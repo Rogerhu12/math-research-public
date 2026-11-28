@@ -4,7 +4,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: isp-8542-W-QQ-dual-family
+  group: isp-8542-w-qq-dual-family
   cancel-in-progress: false
 jobs:
   exact:
