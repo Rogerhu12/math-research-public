@@ -259,3 +259,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 
 固定曲面两个I12边界的常系数rigid/log比较，加真实光滑proper相对H¹及自然Frobenius，给同一E−的F[E−]=p²υ[E(e)]；g特征排除零处自由常数，准确返回T=W P5(xp)−p²υPe。完整Ip从T2/p²已整低窗回到原全f。7p首分母的阶乘与CM常数准确消去，整个A共振段至<11p+4均可除p²；下一首双分母单位再次相消先给p，不据此宣称全图p²整或canonical非零。全球比较仅多删固定有限坏素数，逐系数段仍对原全部好p成立。 [同编号全文](results/R1067-original-first-wild-fixed-geometric-tail.md)。
 继续全图整除p²及同一原primitive的有限极部返回，保全EN三位/Ed两位。
+
+### R1071 实现：完整单右端坐标图的独立软件 PASS
+
+原32源固定请求在公开run46137528591/job140956064113、source4bb9fbcebbb160796da11f08c5d2b7eef4741b44完成。root和代理独立逐完整终日志核8个完整图比较、两厚例必要细化、2次已造ideal后多项式部分篡改及2次真实预算拒绝、真二次底素/模块转置，实际7.582517183秒。完整log31915B、fixture296B、public4645B及各SHA和全部来源保于运行注；不存可重算输出。软件输入PASS，不代306生产或通常全Sha。 [完整运行来源](notes/2026-11-28-original-adaptive-scalar-graph-software.md)。

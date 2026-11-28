@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:56:36 UTC实际pull --rebase，读取main 740865deb9a3e1e1b18f0a9fd3fede4510fb01b7；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:56:26 UTC实际pull --rebase至00d80ff883c8c7bba0fba7905ac9cb08b49dd7fe；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:01:06 UTC实际pull --rebase，读取main 8d3a63432329f3597f3aaf3f3f7b8f111375ac9d；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:01:00 UTC实际pull --rebase至61229e25489c6f4ae2f1826008e2e1257b3e8eba；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3232/46466765B/treee73130b2384569f3af636d9fb2a89d594227277d；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3238/46559525B/tree8020b5ebaab650a9bffa0b3794c63db575acb6d6；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -43,7 +43,7 @@ R1052只杀原未改动whole flat与外权导数；旧full54/六线/ψ4共同F�
 ## 原厚点的新完整算法
 
 [R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)完整证明原单右端D·W=qN、逐原坐标Y核≤306列终止、全Laurent窗/多项式部分X和低次残量返回；原2256双极度、总度>4512，所有全内外门及旧F_y保留。
-[独立小软件来源](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：4新源码加3适配已核32pins/manifest8457723b6818e2329ad7912cefdc2604292cd605ca106f0c6f6d69faef6638d6；仅公开420秒、4CPU/16GB小fixture，独立concurrency。实际push匹配只有complete-quadratic-api工作流，不触发heavy。待真实8比较/2外门篡改/2预算拒绝/真二次底素转置全日志；尚无软件或306生产PASS。
+[独立小软件来源](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：4新源码加3适配已核32pins/manifest8457723b6818e2329ad7912cefdc2604292cd605ca106f0c6f6d69faef6638d6；仅公开420秒、4CPU/16GB小fixture，独立concurrency。实际push匹配只有complete-quadratic-api工作流，不触发heavy。独立小软件已实际PASS：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183秒；root与代理各核终log31915B/82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309及全部8比较/4实际拒绝/二次底素转置/32pins。完整payload哈希见来源注。306生产尚无新PASS。
 
 ## 其它实际门与接续
 
