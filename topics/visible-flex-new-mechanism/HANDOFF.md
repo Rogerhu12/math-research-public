@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **331c0d0b37e15a6dca76e699e3ccffb40f38b2a2**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **0a9488697f668d6be0d98ac1928ccfef8e2f6df7**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -56,7 +56,7 @@ R655/[R662](results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.m
 
 R657 [实际终态](notes/2026-11-28-r657-wide-neck-taper-natural-terminal.md)run46134876257/source3895f33a：1.396136929秒/6新ODE/108几何/46正根；16/32/64模容许7/22，64模最宽a.09840949；参考转面κ38.5643、有限端口1.42e−21不作有限角资格，内禀必要门未排除其他像。
 
-R659 [真实有限输入](notes/2026-11-28-r659-direct-finite-tilt-latitude-scope.md)从首点评价固定a.075/b.22/sinθ.36，全部单位纬圈/中心列/真C²端姿。run46136199153实际144接受/810参数，fineη.01698539/κ117.45498，无冻结；R669准备从实态约束曲率继续。必须fine≤1e−6后冻结同一个513角E，再自然精化/1025源参考及独立径角读出，设计轨迹不冒同g。
+[R659真终态](notes/2026-11-28-r659-finite-angle-actual-terminal.md)run46136199153：147.440342538秒/144接受/810参数，fineη.01698539/κ117.45498，无冻结。[R669实际后继](notes/2026-11-28-r669-actual-finite-tilt-reach-continuation-scope.md)从完整810实态与真trust.001004653续全列QR/SVD，加入真实两κ/双轴法向/R665含中心长度，固定32径向spans；不重旧144步。fine≤1e−6且物理筛选过后才冻513角E，继续同g精化/1025参考/独立径角读出；有限网不授连续全点。
 
 [R665](results/R665-end-tangent-and-length-cost-for-finite-tilt.md)真实经线端转向门排除精确1.01倍裸弦超额设计；R659种子独立母线有余长，真实中心/度量须新付门。[R667](results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md)已有真正C²厚宏观闭族及两个准确同g端点；中间相位误差最佳仍>.05，最佳共同中点g经线又短于真实裸弦。不能当等距路径或冻结该g；须非圆纬圈与真实余长。
 

@@ -1,0 +1,57 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "private_rules_read_commit": "d2b1280654639f0dbebe67c2ee9b8afca9987aeb",
+  "schema": "r669-actual-finite-tilt-reach-continuation-v1",
+  "public_rules_read_commit": "0a9488697f668d6be0d98ac1928ccfef8e2f6df7",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py",
+  "workflow": ".github/workflows/visible-r669-actual-finite-tilt-reach-continuation-20261128.yml",
+  "common_parameters": {
+    "max_seconds": 1900,
+    "geometry": "topics/visible-flex-new-mechanism/computations/r669-actual-tilt-curvature-continuation-20261128.json"
+  },
+  "lanes": {
+    "actual-tilt-reach-continuation": {}
+  },
+  "scope": {
+    "previous_R659_run": 46136199153,
+    "original_continuation_state": 810,
+    "previous_scientific_seconds": 147.440342538,
+    "physical_curvature_and_normals": true,
+    "true_endpoint_tangent_length": true,
+    "complete_original_jacobian_columns": true,
+    "no_radial_promotion": true,
+    "old_science_replayed": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py": "d792ba39faf98cbf0c9ffa9b4da784d9866d3805ebc26b6ff165513895919147",
+    "topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py": "3d0f09b79e574251634157b515eee7555855e7f6ef6f606e1486f1ad092a65a5",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r669-actual-tilt-curvature-continuation-20261128.json": "1d789649f7b1804b1116f4e1f1ada175027e032d697eca8234f1f1d628140e5c",
+    "topics/visible-flex-new-mechanism/computations/r659-natural-810-parameters-for-r669-20261128.json": "b316dabcab7dcd567341a6fae9ab34dc91197ad62bf93594989726176fea467a",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r669-actual-finite-tilt-reach-continuation-scope.md": "af88f7a0c190bf5444d75408dbafd060c0c854d20dde5173975fa84ec18acf91",
+    "topics/visible-flex-new-mechanism/results/R669-complete-physical-constraint-differential-for-the-actual-tilted-annulus.md": "c97738ef7c5a84a612c242dd9b14835279cb1f166682c4dac93652fec7bbeab4",
+    "topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md": "0587a98a884e99be1fff5e523128727d161d24ca754648d63941d42ce672785f",
+    "topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md": "528425da5f18c1e7e8db3b1a9432c8b1f13c695cada031090f05917b10eabea1",
+    "topics/visible-flex-new-mechanism/results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md": "7eff8683b540b8b71c054113e3de028b0c871e115a9871b1925a5e84770e1ab2",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r659-finite-angle-actual-terminal.md": "99b6c599cf4ae878c40ad28866517f07b2588924e0a0535a243cf1c0048aa9d8",
+    ".github/workflows/visible-r669-actual-finite-tilt-reach-continuation-20261128.yml": "d754a3050d312735ef187fd056de8054fafc3c20662b63b6d638581f69eb517a"
+  }
+}

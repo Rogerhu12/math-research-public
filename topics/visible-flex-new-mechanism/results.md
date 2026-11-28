@@ -293,3 +293,7 @@
 ## R667：完整厚宏观闭族、两精确等距端点与中间度量缺陷
 
 [完整证明](results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md)给显式C²转动圆纬圈、两端完整二jet及真实全曲率<31.1；由R662和同一实际刚件取得全时reach≥.03、D<1、固定开握持≥.201和不对齐整像≥.3。相位0/π的同材料闭面准确同度量，但全相位最优共同度量误差仍>.05、<.1003；其中点旋转g的经线长<.151又低于所需裸弦>.152。已取得真实宏观双端，连续等距路径未取得，后继必须开放非圆纬圈并设计真实余长。
+
+## R659 真实自然终态与 R669 全物理约束续算
+
+[真实终态](notes/2026-11-28-r659-finite-angle-actual-terminal.md)144接受/144完整J、147.440342538秒；810维末态最细η.0169853909、κ117.45498、闭合.001181607，无冻结。升阶误差下降而边界曲率上升，不把径向加自由度当厚度支付。[R669完整微分](results/R669-complete-physical-constraint-differential-for-the-actual-tilted-annulus.md)使用真实广义主曲率、两法向、实际中心与R665长度的全部列；[直接后继](notes/2026-11-28-r669-actual-finite-tilt-reach-continuation-scope.md)同32径向spans/真实末trust继续，峰值与积分双重行、原全QR/SVD/试步，物理与fine通过后才冻结同g再精化。

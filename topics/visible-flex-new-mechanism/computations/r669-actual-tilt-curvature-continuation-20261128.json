@@ -1,0 +1,62 @@
+{
+  "input_state": "topics/visible-flex-new-mechanism/computations/r659-natural-810-parameters-for-r669-20261128.json",
+  "T": 0.03,
+  "curvature_guard": 0.92,
+  "normal_guard": 0.22,
+  "curvature_weight": 0.7,
+  "normal_weight": 1.0,
+  "peak_weight": 0.14,
+  "length_weight": 1.0,
+  "length_guard": 0.0005,
+  "promotion_trust": 0.01,
+  "max_trust": 0.6,
+  "reserve_seconds": 120,
+  "work_goal": 2e-11,
+  "freeze_metric": 1e-06,
+  "reference_azimuths": 513,
+  "check_reference_azimuths": 1025,
+  "final_order": 13,
+  "final_angles": 385,
+  "stages": [
+    {
+      "modes": 12,
+      "spans": 32,
+      "work_order": 5,
+      "work_angles": 97,
+      "curvature_weight": 0.7,
+      "iterations": 100,
+      "fine_order": 9,
+      "fine_angles": 241
+    },
+    {
+      "modes": 12,
+      "spans": 32,
+      "work_order": 7,
+      "work_angles": 113,
+      "curvature_weight": 1.2,
+      "iterations": 80,
+      "fine_order": 10,
+      "fine_angles": 257
+    },
+    {
+      "modes": 14,
+      "spans": 32,
+      "work_order": 7,
+      "work_angles": 113,
+      "curvature_weight": 1.2,
+      "iterations": 96,
+      "fine_order": 11,
+      "fine_angles": 321
+    }
+  ],
+  "extra_fixed_stage": {
+    "modes": 16,
+    "spans": 32,
+    "work_order": 7,
+    "work_angles": 129,
+    "curvature_weight": 1.2,
+    "iterations": 72,
+    "fine_order": 12,
+    "fine_angles": 353
+  }
+}

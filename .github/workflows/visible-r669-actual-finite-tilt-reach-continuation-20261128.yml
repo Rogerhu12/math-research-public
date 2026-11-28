@@ -1,0 +1,55 @@
+name: visible-flex actual finite tilt and constrained curvature
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r669-actual-finite-tilt-reach-continuation-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r669-actual-finite-tilt-reach-continuation-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue true finite-tilt field with physical reach constraints
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r669-actual-finite-tilt-reach-continuation-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r669-actual-finite-tilt-reach-continuation-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r669-actual-tilt-curvature-continuation-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r659-natural-810-parameters-for-r669-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r669-actual-finite-tilt-reach-continuation-scope.md
+            /topics/visible-flex-new-mechanism/results/R669-complete-physical-constraint-differential-for-the-actual-tilted-annulus.md
+            /topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md
+            /topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md
+            /topics/visible-flex-new-mechanism/results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r659-finite-angle-actual-terminal.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and evaluate the new finite input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r669-actual-finite-tilt-reach-continuation-20261128.json
+          --lane actual-tilt-reach-continuation
