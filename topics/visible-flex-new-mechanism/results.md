@@ -539,3 +539,7 @@
 ## R630首次实际参考端口及有限径向分支
 
 [已完Actions结果](notes/2026-11-28-r630-morse-port-actions.md)给50位截断β≈.355319296364837的非零候选；小ν分支虽降半径比却暴露有限左buffer和巨大高度。只作新输入方向，非真尾或非线性/宏观证书；原source/run/成本/输出hash已记。
+
+## R634：真P端的严格高度能量门槛
+
+[完整证明](results/R634-true-P-end-needs-quantitative-height-energy.md)给Volterra二次型、严格HS阈值及U>16/225；四偶共同根进一步K>1+64/56169。整体高度或曲率幅值缩放不能替代相对高度形状变化，仅必要条件，非ruling根。

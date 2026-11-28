@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **4560405bdc2c3e546551f6866d79c5eb1a9919c5**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **df5a7aca34ec803c347198d05f8e03b6bdaa3e18**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -47,7 +47,7 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 [R632真实入口](notes/2026-11-28-r632-true-hermite-original-bvp-scope.md)本次push触发：65节点C² h/κ、257shape，α²=(1+U/L²)/∫κ²消真实动能端；η/八A/六rho全积分，三真端和完整ruling入同一merit/完整Jac。必要旧fine重建输出全attainer并作为新h/k输入，高度整体缩至Bernstein上界2.85，再重新支付全部物理盒。真端已达后用切向+真实恢复保门；LD常规范全离解链保留，绝对门不改。
 
-64×16对齐分片；fine128×16固定同一shape、α、八中心A、三规范，不重新求α或锚尾。原65点十九态ODE/HS从已付完整场重组。预算3300/预留180秒、48步只作可续执行界限。旧14段/绑定失败/60步费用全保，非旧17模族重命名。R619–627真端前提、原母18块576微包/ε1/12000/全正势仍保持；根后还欠period/frame/闭pose/宏观reach。
+64×16对齐分片；fine128×16固定同一shape、α、八中心A、三规范，不重新求α或锚尾。原65点十九态ODE/HS从已付完整场重组。预算3300/预留180秒、48步只作可续执行界限。旧14段/绑定失败/60步费用全保，非旧17模族重命名。R619–627真端前提、原母18块576微包/ε1/12000/全正势仍保持；根后还欠period/frame/闭pose/宏观reach。[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)已证真P=0非零支必有U>16/225，整体h或κ缩放不能改变P零性质；据此正构造显式新真端输入。
 
 ## 几何及新构造
 
@@ -55,9 +55,9 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 R33相位族保全时几何，本题允许δE=0；真正缺口是大非圆核心到开圆帽的完整旋转度量连接。R565/R579宏观充分预算已付，连接尚欠；现有同轴两圆领相位模块不积累末帽姿态。
 
-[R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)已证同一光滑正w的真实全平二、三双核：中心谱4/9的调参Jac=45/16，两真实尾经有限高M层和有限宽平滑后仍准确匹配。完整二阶m1端口β趋15/8，某有限参数β>1；这是二阶系数，不是有限倾角或宏观闭族。继续解非线性三矩兼容、双共振及真实帽刚体参数；高M可能损直径/reach，须另付有限参数几何。
+[R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)：同一正全平w的真2/3双核，中心谱4/9/Jac45/16；有限高M层接真尾并平滑后完整β→15/8，某有限β>1。仅二阶系数，有限角/宏观闭族与高M几何未付。
 
-[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已证未解平面度量的准确曲率三矩（用自身等温P）、固定3维投影的非线性消元、自由内帽0/1模逆及非奇异双核有限块。左尾须用准确旋转背景高度，非只加βr；真实全尾/特征返回仍欠，不能套Hu旧背景结论。
+[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)：未解度量准确三曲率矩及投影消元、自由帽0/1模逆、非奇异双核有限块已证；左尾用准确旋转背景。真全尾/状态相关返回仍须支付。
 
 [R631](results/R631-thick-core-at-radius-four-fifths.md)给新R=.8/ε=.05厚核心：ρ∈(.14,17.153)、核心球<1.032，完整闭面若支付同球/条带.37/reach.062则δ/D≥105/344>.3。全程核心u<21.442、|P|<230；这是新设计g输入，不能跨用旧.85资格。[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)已实现新外段/字典/真实模式，尚未运行；1130维初值仅H非零。[硬P/本身路径](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)已实现1451列（含H及真F2），设计可调E；宏观候选后冻结g精化。
 
