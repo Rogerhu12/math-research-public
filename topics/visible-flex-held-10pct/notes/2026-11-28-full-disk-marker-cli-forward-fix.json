@@ -1,0 +1,82 @@
+{
+  "status": "R86_current_documented_constructor_CLI_fixed_and_actually_returned_zero",
+  "observed_UTC": "2026-11-28T15:49:38.645723+00:00",
+  "old_R86_source_sha256": "6bdee23d100270d8a46340eee70324090c167fa185e75041dfd75cbb044e6ee3",
+  "current_R86_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_full_disk_marker.py",
+    "sha256": "220564b2d4b47a693abaa5b9c2dc13062532eb4fd983a00659d58398cc06fefd",
+    "bytes": 14610
+  },
+  "exact_source_difference": "Move flush=True from json.dumps(...) to the enclosing print(...).",
+  "all_mathematical_class_ASTs_exactly_unchanged": true,
+  "only_one_source_line_changed": true,
+  "old_R86_public_history_modified": false,
+  "first_observed_failure": {
+    "actual_family": "independent R89 class copied the original R86 output call",
+    "session_id": 71378,
+    "actual_returncode": 1,
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_sharp_full_disk_marker.py",
+      "sha256": "e44cbdaab91969e0bdfeec432a5e6c52126c9b6d6219cbca0e22c91233200f96",
+      "bytes": 15421
+    },
+    "constructor_report_written_before_console_failure": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/actual-constructor.json",
+      "sha256": "2a671d98686d759e47db6f0aba93a48e5a9a5123c19f6b12779b8fb757ec7e0f",
+      "bytes": 6661
+    },
+    "console": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/constructor-console.log",
+      "sha256": "2283eecc51ce0395a0ebb88fb2e45a968c135bc019a8845613559030dd84773a",
+      "bytes": 831
+    },
+    "error": "TypeError: JSONEncoder.__init__() got an unexpected keyword argument flush",
+    "mathematical_constructor_actually_returned": true,
+    "R86_historical_execution_falsely_inferred": false
+  },
+  "R86_current_actual_revalidation": {
+    "session_id": 97179,
+    "actual_returncode": 0,
+    "constructor_report": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/R86-current-actual-constructor.json",
+      "sha256": "7ef58cfe6bbc095f0f4f003a59849505cca650855a804377e358aba3b6b93d38",
+      "bytes": 4016
+    },
+    "console": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/R86-current-constructor-console.log",
+      "sha256": "fee7fc6b835c07b39a04f0ce180876f26971a1a0fd5437129b35f28e8b893f66",
+      "bytes": 213
+    },
+    "full_1152_stage_node_index": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/R86-current-verified-node-index.json",
+      "sha256": "e9cb47aef29e77e2c2e5af2a335e942c8933ae2a952b31fed37883ab25e0911b",
+      "bytes": 1209077
+    }
+  },
+  "R89_independent_correct_CLI": {
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_sharp_full_disk_marker_cli_v2.py",
+      "sha256": "d42c160ffb60d03cda3ff57399191cb582e4bf2be9058d0bbcc4916c479c82cd",
+      "bytes": 1963
+    },
+    "session_id": 90707,
+    "actual_returncode": 0,
+    "constructor_report": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/actual-constructor-cli-v2.json",
+      "sha256": "f1edf2d8ef335ad4cc23062a9f94427722fe232f690b2f78c3675cd225f94ce4",
+      "bytes": 6993
+    },
+    "console": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/constructor-cli-v2-console.log",
+      "sha256": "63970671249a61ce5625551035d1b2f48bde8f4c36580a53de2a07c1cd816ffd",
+      "bytes": 208
+    },
+    "full_1152_stage_node_index": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/sharp-full-disk-marker-20261128-a/verified-node-index-cli-v2.json",
+      "sha256": "e9cb47aef29e77e2c2e5af2a335e942c8933ae2a952b31fed37883ab25e0911b",
+      "bytes": 1209077
+    }
+  },
+  "native_BVP_activity_or_continuous_metric_recomputed": false,
+  "README_completion_claimed": false
+}

@@ -289,7 +289,7 @@ def main():
         report['new_full_numerical_query_or_mesh_claimed'] = False
         args.out.parent.mkdir(parents=True, exist_ok=True)
         args.out.write_text(json.dumps(report, indent=2, allow_nan=False)+'\n')
-        print(json.dumps(dict(output=str(args.out.resolve()), sha256=sha(args.out)), flush=True))
+        print(json.dumps(dict(output=str(args.out.resolve()), sha256=sha(args.out))), flush=True)
     finally:
         model.close()
 
