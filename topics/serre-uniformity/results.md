@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原第一层CM挠点的完整PD系数（已证明）**：[R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)实际first-slot系数恰−b_E z^p(1+γp)ω−zgη。原Miller translation norm与同时计入O/P的外环留数锁标量/符号，完整CM尾界排除p²危险项；所有d4/8/12 pure powers的normal系数明确，继续原theta/中央同陪集实际读取。
+
 - **原第一层theta moment的实际tame迹输入（已证明）**：[R1166 §§9–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)严格整trace保无log/base-log两槽不同e因子，与全部F/Q和ordered修正交换。原系数的tame trace-zero使theta leading项在完整矩后消失；d4/8实际输入锁为W⁻¹=−1/(z³y(P(z)))，原k_d(2)和全部normal块保留，无新根或平均。
 
 - **原全Gaussian行的有限唯一逆与完整forcing（已证明）**：[R1161 §10](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)实际Sym^s的−N_s p-curvature锁一维核/余核，低偶Q_s(0)障碍保全；所有centered系数准确读为指定唯一逆的单位三角低jets。相邻算子关系保真实source，继续原mask的真正跨行和两点分离。

@@ -67,6 +67,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1166 §§1–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)原ambient E⊂P²的p幂F、geometric PD normal/两开集SDR、I_PD=R1165 I及复合第二槽π_EΠβ+(π_EQ_n+Q_EΠ)α均付。external product保H=(0,(−1)^kQ1α·π2δ)，指定primitive T h−H；SS W_n=U_n，原H0的A/B两residue及Nx0、Φx/p=x准确。第一层实际tame embedding S_L=⊕_(j<e)z^jS_F，g=u−p=ze−p；σζ=ζp使ψτ=τψ，N_z=eN_u，dlogu=e dlogz。actual Cor在无log槽是e·第0块，在log槽是第0块·dlogu，全F/Q/ordered传递同源，两个L因子保持same-coset求和。原d4/8/12的H0无trivial tame character，故Tr x_P^[d]=0；只在完整moment后消theta实际leading与z幂。d4/8取原c2，W=−z³y(P(z))，4[θ₂]=[Δ/(16y⁴)]精确给V₂=W⁻¹，无新第四根；k4=63/16、k8=1023/256皆unit。原Mtilde_(d,1)=k_d⁻¹(A_(d,0)dlogu,eB_(d,0))，A/B为x_P^[d]NlogV₂与x_P^[d]p⁻¹log(V₂^p/ψV₂)的第0 e-block，全部g-normal保留。第一层1−p^d≡1不删除高层same-root gauge；继续实际系数和中央F0，非两个Norm的乘积。
 
+[R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)已实算原第一层xP=−b_E z^p(1+γp(g))ω−zgη；b_E为原Cartier unit，两符号/标量由同Miller外环residue锁定：−c1−p/t(P)=p(E(P)−1/t(P))，整尾含CM排除p²危险项。原pure power完整系数d!/(d−k−h)!·b_E^(d−k)·ξ^j z^jγ_(hp+k)，j=pd−(p−1)k，无额外moment d!。继续与原W⁻¹/中央actual primitives相乘、same-coset Cor及F0。
+
 ### 原完整 47：已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。

@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：d04058984763feb313956f93b3218c57e6bc6bc3**（2026-11-28 15:05 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 14:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：3ac4ec92cfa162051eb2674cfa3f6d0dfb6ec88c**（2026-11-28 15:09 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:01 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull：2026-11-28 14:21:47 Asia/Taipei，Actions run46116227337/job140890566799，blob:none浅clone后真实pull --rebase至7f1461be；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤15:11、pull≤15:21。本地14:21仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull：2026-11-28 15:01:56 Asia/Taipei，Actions run46119282678/job140899977242，blob:none浅clone后真实pull --rebase至fa034088且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤15:51、pull≤16:01。本地15:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
 root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-ambient-PD-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
@@ -36,15 +36,16 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1166 §§1–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)原ambient normal/Čech SDR、实际I_PD=I、复合+Q及ordered primitive T h−H全付；SS W_n=U_n，H0两residue准确。新增原第一层tame S_L=⊕z^jS_F：trace无log槽e·第0块，log槽第0块·dlogu；全F/Q/Cor同源。Tr x_P^[d]=0后才消theta leading/幂项，原d4/8输入恰k_d(2)⁻¹Tr[x_P^[d]C(W⁻¹)]，W=−z³y(P(z))，无新根。继续实际normal与原中央F0，所有same-coset/ordered修正保留。
 
+[R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)已实算原第一层xP=−b_E z^p(1+γp(g))ω−zgη；b_E为原Cartier unit，两符号/标量由同Miller外环residue锁定：−c1−p/t(P)=p(E(P)−1/t(P))，整尾含CM排除p²危险项。原pure power完整系数d!/(d−k−h)!·b_E^(d−k)·ξ^j z^jγ_(hp+k)，j=pd−(p−1)k，无额外moment d!。继续与原W⁻¹/中央actual primitives相乘、same-coset Cor及F0。
+
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé双缺陷⇔P,Q含x²，约后degree≤N−2/contact2N−1；全部首余项/P_N单位、Pell W非零但W0未unit。[原Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保全Hesse/Schur/Jordan，normal=12tr(adjQ A²)非spectral，指定中列未cyclic。R1145及旧窗口/Prym只消费。
 
 [原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
 
-[quadric续篇 §§1–8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I和全kernel给a3=2ρδK4/b0−4vα、α=−2ρe/(b0δ)，原P³有序槽及P²W已定标。高Lamé零模Z的全上下分裂给R0=g/U^(m+1)、K=UDR0、DK=1+v²R0/U，C R0=ρe/(vδ)，e0下C(Ψ³K)=−ρδK4。Z的unit不代任一半段。
+[quadric续篇 §§1–8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I及高Lamé完整分裂锁全部P³有序槽/P²W、R0=g/U^(m+1)、K=UDR0。e检测R0有界primitive，K4检测同K第三插入，全部尺度在原文。§8 e=K4=0 iff D^(p−5)K=0；M0=K²−v²R0²、DM0=2K，高极全消且五阶有界链保非齐次norm D⁶M4−2。继续三极二次限制/最后五阶余项；首项、Jordan存在性和高Z单位都不代σ/Λ/T非零。
 
-§8新增**e=K4=0 iff D^(p−5)K=0**：M0=K²−v²R0²的全部高极相消，DM0=2K；C M0=−v²e/(δzN U′)，保真实第三类。e0 iff唯一有界M1，自动积分M2后C M2=ρK4/(3δ²)；K40 iff有界M3，自动M4，K=D⁵M4/2。全部极≤(m−1−j)(Q+−Q)，首2τ^(j+2)/(j+2)!；完整norm式保D⁶M4−2常数，首τ⁶/360不代无解。继续同一三极有理函数的二次限制，σ/Λ/T仍未unit。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
