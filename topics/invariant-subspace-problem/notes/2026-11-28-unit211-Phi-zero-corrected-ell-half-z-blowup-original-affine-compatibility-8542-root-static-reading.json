@@ -1,0 +1,32 @@
+{
+  "schema": "isp-root-static-new-input-review-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourceBlob": "f77b3eb1163c1606c4eddc4e7f4e8a8c3d920b2d",
+  "inputBlob": "bb4d17555b91ccef41c4fad34ab33f4756f4c344",
+  "fullSourceAndInputRead": true,
+  "newCoordinates": "tau=r*z with the previously paid physical z unit",
+  "necessaryPrefix": {
+    "sourceBlob": "6ee987687964a48e1d4ffec6abf1230018de5263",
+    "bytes": 6013,
+    "sha256": "17df64c95494142eaae3d137442d464bdc87d7f0d881ca41d0910d50b6abdba9",
+    "endsBefore": "monomials="
+  },
+  "checks": [
+    "First three raw means separately check epsilon degree<=1 and exact divisibility by z after substitution.",
+    "N1 epsilon squared is explicitly retained; raw NS/PS remain complete.",
+    "New affine determinant and nine conic/cubic fixed substitutions return full six-source polynomial identities without head inverses.",
+    "Common cancellation divides all actual multipliers and target together and returns the full identity.",
+    "Fixed QQ(u)[r] xgcd preserves all actual coefficient denominators and back-substitutes ten rows into six original sources.",
+    "Unblow positive z power includes the extra inverse z from each of the first three lines.",
+    "Final cancellation is only common to the six actual original multipliers and pure-u right side; old paid support alone is stripped.",
+    "QQ factorization occurs only after the full positive-z original target. Old C20 comparison uses the same monic pure-u four-index representation."
+  ],
+  "budget": {
+    "sourceSeconds": 120,
+    "addressSpaceGiB": 1,
+    "driverSeconds": 135
+  },
+  "executionPending": true,
+  "noOldProofGateReplayed": true,
+  "ordinaryISPClaim": false
+}
