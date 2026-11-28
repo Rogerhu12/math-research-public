@@ -57,5 +57,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R780](notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)：新g完整曲帽/末领/中央准确，四硬中央/平领迹被直母线延拓排精确。23源/四原PID各三层7+6相完整预算照原发；改变真迹的新方向继续，实际待返。
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 0e1806cce9cd0befc77da83e24d9c471e5998311
-<!--r780-publish-->R780 [每次双README真读](notes/r780-exact-crowns-normalized-rolls-46183309461-1-reads.json) c985f6ae12cff7a19f8cd7a43bc05740a124fc2f
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 83f72b2d9cb13b639c61007c4010faf00bace817
+<!--r780-publish-->R780 [每次双README真读](notes/r780-exact-crowns-normalized-rolls-46183309461-1-reads.json) 435cc23908c804cb9cb1b6846d3f44752e3301ef
