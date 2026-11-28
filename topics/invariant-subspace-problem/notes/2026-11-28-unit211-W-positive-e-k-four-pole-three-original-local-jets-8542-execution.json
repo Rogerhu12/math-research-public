@@ -1,0 +1,233 @@
+{
+  "schema": "isp-original-local-jet-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-28-unit211-W-positive-e-k-four-pole-three-original-local-jets-8542.py",
+  "execution": {
+    "elapsed_seconds": 0.3468771900000007,
+    "max_child_rss_kib": 42804,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8a62659e732a4289b94dc5a2c8d9878f18dd07b9",
+        "before": "8a62659e732a4289b94dc5a2c8d9878f18dd07b9",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T17:13:32.063693+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46169312729",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8a62659e732a4289b94dc5a2c8d9878f18dd07b9",
+    "source_exit_code": 0,
+    "source_git_blob": "dbe928f3d984b0d24fa1e0876bbe5e0f2f5d2325",
+    "source_sha256": "eb5463c4638bfa434add15bb7d2c3258353bee86fdc4a5bef569af3c67c1a147",
+    "stdout_bytes": 4854,
+    "stdout_sha256": "54a4508e4a0b71872fbd6d3695754206b6663a90071dae481e62549c96402223",
+    "stop_reason": null
+  },
+  "mathematicalRecords": [
+    {
+      "variables": [
+        "E=e",
+        "Y=k-4",
+        "X=(2*lambda-3)^(-1)"
+      ],
+      "originalSourceBlob": "47281af16fdd0ad7500ecda377c3cb9f9d65e725",
+      "originalSourceSHA256": "e356e79c8570b34ef3d041f828a3906006d82bc813b3719ef606e7ce068cbfe8",
+      "originalScales": [
+        "q2*X^2/Q",
+        "R6*X^6",
+        "complete_N5*X^5"
+      ],
+      "noPhysicalFZero": true,
+      "noDInverse": true,
+      "noLambdaHeadInverse": true,
+      "exactContext": "QQ[E,Y,X]",
+      "targetOrder": 4,
+      "noOldRayExecutionOrGcd": true,
+      "stage": "new_positive_e_k_four_mu_pole_original_equations",
+      "seconds": 0.1184376570000012
+    },
+    {
+      "label": "q2_X2_over_Q",
+      "numerator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          10,
+          9,
+          2
+        ],
+        "totalDegree": 18,
+        "terms": 279,
+        "sha256": "2eb623c8e0cf590bf6bc2dbb9b8ab492faa0a5ce54632ca028f6af164af985ba"
+      },
+      "denominator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          5,
+          8,
+          0
+        ],
+        "totalDegree": 13,
+        "terms": 54,
+        "sha256": "e7b576d9b7f502f5d85eb51efe0317c202edeac45645ecb43caf5580084393aa"
+      },
+      "denominatorAtOrigin": "279936",
+      "denominatorUnitAt1009": true,
+      "constantTerm": "0",
+      "coefficientsIntegralAt1009": true,
+      "jetProfile": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          4,
+          4,
+          2
+        ],
+        "totalDegree": 4,
+        "terms": 25,
+        "sha256": "ce510cddb0f39e8f95b095dc2512f852c9ce4e43230aa62b9e11f1df8fb5f345"
+      },
+      "exactRemainderNumerator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          10,
+          12,
+          2
+        ],
+        "totalDegree": 18,
+        "terms": 306,
+        "sha256": "e98654723dde7f52dc51f0633ed427311fe289b3727a4e7b36c3eb9db1c7a691"
+      },
+      "originalTaylorRemainderOrderAtLeastFive": true,
+      "allCoordinatesRetained": true,
+      "stage": "new_complete_original_local_jet",
+      "seconds": 0.12776254699999967
+    },
+    {
+      "label": "R6_X6",
+      "numerator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          21,
+          21,
+          6
+        ],
+        "totalDegree": 40,
+        "terms": 2996,
+        "sha256": "bc7969ae4e39b2958e6d124dd920a3f590492d6cc14422c3d64233ca14862c7e"
+      },
+      "denominator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          12,
+          20,
+          0
+        ],
+        "totalDegree": 32,
+        "terms": 273,
+        "sha256": "d9c67ba5d535e6788365b33732964b4dfb8a7200f16be06f4925202d49955d66"
+      },
+      "denominatorAtOrigin": "25389989167104",
+      "denominatorUnitAt1009": true,
+      "constantTerm": "0",
+      "coefficientsIntegralAt1009": true,
+      "jetProfile": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          4,
+          4,
+          4
+        ],
+        "totalDegree": 4,
+        "terms": 31,
+        "sha256": "b2b137ff9df26578ddbb16d49391fb2f76aa2bfd88c3689d2df259dd3ac227ef"
+      },
+      "exactRemainderNumerator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          21,
+          24,
+          6
+        ],
+        "totalDegree": 40,
+        "terms": 3058,
+        "sha256": "c88dc761897686adb49198b1d71a317b82cbcf4e795701b8bc5b533aa217f6a1"
+      },
+      "originalTaylorRemainderOrderAtLeastFive": true,
+      "allCoordinatesRetained": true,
+      "stage": "new_complete_original_local_jet",
+      "seconds": 0.20543357700000087
+    },
+    {
+      "label": "complete_N5_X5",
+      "numerator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          21,
+          22,
+          5
+        ],
+        "totalDegree": 40,
+        "terms": 2726,
+        "sha256": "d92583ac63c2669beeb038efc2aeed19489e27a1c4da1de557b6ccb567ed0e6a"
+      },
+      "denominator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          13,
+          21,
+          0
+        ],
+        "totalDegree": 32,
+        "terms": 304,
+        "sha256": "28ab3a837250f9101f4faf359c3c6fe75c68dab0c78e707c91fc31631fc5e552"
+      },
+      "denominatorAtOrigin": "-33853318889472",
+      "denominatorUnitAt1009": true,
+      "constantTerm": "0",
+      "coefficientsIntegralAt1009": true,
+      "jetProfile": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          4,
+          4,
+          4
+        ],
+        "totalDegree": 4,
+        "terms": 31,
+        "sha256": "cc172682709b6b5a0bdd0f3beb6dbcd677c6cc0ff876ededda93a2d80cb79d79"
+      },
+      "exactRemainderNumerator": {
+        "zero": false,
+        "degrees_E_Y_X": [
+          21,
+          25,
+          5
+        ],
+        "totalDegree": 40,
+        "terms": 2775,
+        "sha256": "6579df2b39d1b464cda92c2f5bf9160a95668011b1c6c6e642ce4cefe09193ca"
+      },
+      "originalTaylorRemainderOrderAtLeastFive": true,
+      "allCoordinatesRetained": true,
+      "stage": "new_complete_original_local_jet",
+      "seconds": 0.2780117400000002
+    },
+    {
+      "noEmptinessClaim": true,
+      "noAdditionalExecution": true,
+      "budgetSeconds": 120,
+      "budgetBytes": 1073741824,
+      "stage": "new_positive_e_k_four_local_input_completed",
+      "seconds": 0.2780742469999993
+    }
+  ],
+  "completeOrderFourFormulasInImmutableJobLog": true,
+  "printedFormulaOmission": "No coefficient cache. Source regenerates all exact formulas; the proof displays the three quadratic parts.",
+  "ordinaryISPComplete": false
+}
