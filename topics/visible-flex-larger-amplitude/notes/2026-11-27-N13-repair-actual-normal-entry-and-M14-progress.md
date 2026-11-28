@@ -11,78 +11,7 @@ run46028002241/1、job140604269042 的16:54:21索引11929B，whole SHA256 9bb112
 现有小进度完整对象如下，包括小文件whole身份和两次有界逐字相同读取；未删原计数：
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-angular-N4096-base-bound-independent-20261127",
-  "scientific_source_commit": "e8cd0e5fc5a86c946dc41a53f3ff5e878dbbb6fc",
-  "scientific_source_sha256": "8d76bc9bf5dddee1f423e73f5e2c5e84b2b13cc507f5c84fa85a4626df16a27a",
-  "pid": 5232,
-  "observations": {
-    "fixed-fejer-angular-N4096-base-bound-independent/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-27 16:54:20 UTC",
-      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "stage": null,
-      "scope_order": 2,
-      "scope_angles": 1,
-      "cached_angle_roots": 1321,
-      "observer_scientific_calls": 0,
-      "scientific_complete_inferred": false,
-      "closure_logical_requests": 91389,
-      "closure_logical_returns": 91389,
-      "closure_logical_failures": 0,
-      "closure_original_attempts": 19686,
-      "closure_original_returns": 19686,
-      "closure_original_failures": 0,
-      "closure_original_angle_jet_requests": 208405,
-      "closure_original_angle_jet_returns": 208405,
-      "closure_cache_hits": 71703,
-      "closure_cache_hit_angle_jets": 485678,
-      "closure_cache_misses": 1404,
-      "closure_forced_original_requests": 18282,
-      "closure_forced_stage_rereads": 17728,
-      "closure_forced_endpoint_rereads": 554,
-      "closure_bypass_no_scope": 0,
-      "closure_bypass_caller_environment": 0,
-      "closure_bypass_current_environment": 0,
-      "closure_bypass_tensor_or_data_tracking": 0,
-      "closure_bypass_optional_failure": 0,
-      "closure_binding_failures": 0,
-      "closure_key_checks": 73107,
-      "closure_point_word_checks": 1109,
-      "closure_stored_values": 1404,
-      "closure_optional_cache_failures": 0,
-      "closure_scopes_started": 555,
-      "closure_scopes_closed": 554,
-      "closure_scopes_with_exception": 0,
-      "closure_scopes_disabled_at_entry": 0,
-      "closure_scope_stage_completions": 17728,
-      "closure_progress_writes": 1113,
-      "closure_progress_write_failures": 0,
-      "closure_progress_events": 1113,
-      "closure_peak_cache_entries": 3,
-      "closure_peak_cache_bytes": 3264,
-      "closure_immutable_point_entry_checks": 555,
-      "closure_immutable_point_key_checks": 73107,
-      "closure_immutable_point_exit_checks": 554,
-      "closure_original_closure_seconds": 334.4989256789954,
-      "closure_binding_and_key_seconds": 22.28554097399865
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-angular-N4096-base-bound-independent/actual-normal-evaluation-progress.json",
-      "bytes": 3320,
-      "sha256": "b79b473dd0b2e3faf4f387630ed6f6cfbe11084c86060cfa1c21c3878961ee17",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "5a0e8e10357d672e9e7833cf9fa07c4a4e83a70e2454aa57f0a88f67d20a6286",
-  "observed_utc": "2026-11-27T16:54:20Z"
-}
+{"step_id":"complete-fixed-fejer-angular-N4096-base-bound-independent-20261127","scientific_source_commit":"e8cd0e5fc5a86c946dc41a53f3ff5e878dbbb6fc","scientific_source_sha256":"8d76bc9bf5dddee1f423e73f5e2c5e84b2b13cc507f5c84fa85a4626df16a27a","pid":5232,"observations":{"fixed-fejer-angular-N4096-base-bound-independent/actual-normal-evaluation-progress.json":{"phase":"normal_chain_enter","at":"2026-11-27 16:54:20 UTC","point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","stage":null,"scope_order":2,"scope_angles":1,"cached_angle_roots":1321,"observer_scientific_calls":0,"scientific_complete_inferred":false,"closure_logical_requests":91389,"closure_logical_returns":91389,"closure_logical_failures":0,"closure_original_attempts":19686,"closure_original_returns":19686,"closure_original_failures":0,"closure_original_angle_jet_requests":208405,"closure_original_angle_jet_returns":208405,"closure_cache_hits":71703,"closure_cache_hit_angle_jets":485678,"closure_cache_misses":1404,"closure_forced_original_requests":18282,"closure_forced_stage_rereads":17728,"closure_forced_endpoint_rereads":554,"closure_bypass_no_scope":0,"closure_bypass_caller_environment":0,"closure_bypass_current_environment":0,"closure_bypass_tensor_or_data_tracking":0,"closure_bypass_optional_failure":0,"closure_binding_failures":0,"closure_key_checks":73107,"closure_point_word_checks":1109,"closure_stored_values":1404,"closure_optional_cache_failures":0,"closure_scopes_started":555,"closure_scopes_closed":554,"closure_scopes_with_exception":0,"closure_scopes_disabled_at_entry":0,"closure_scope_stage_completions":17728,"closure_progress_writes":1113,"closure_progress_write_failures":0,"closure_progress_events":1113,"closure_peak_cache_entries":3,"closure_peak_cache_bytes":3264,"closure_immutable_point_entry_checks":555,"closure_immutable_point_key_checks":73107,"closure_immutable_point_exit_checks":554,"closure_original_closure_seconds":334.4989256789954,"closure_binding_and_key_seconds":22.28554097399865}},"complete_small_progress_file_identities":[{"path":"fixed-fejer-angular-N4096-base-bound-independent/actual-normal-evaluation-progress.json","bytes":3320,"sha256":"b79b473dd0b2e3faf4f387630ed6f6cfbe11084c86060cfa1c21c3878961ee17","two_complete_bounded_reads_agreed":true}],"observation_errors":[],"child_exit_code":null,"child_natural_return_not_observed":true,"observations_are_not_a_completed_step_or_a_scientific_certificate":true,"observation_identity_sha256":"5a0e8e10357d672e9e7833cf9fa07c4a4e83a70e2454aa57f0a88f67d20a6286","observed_utc":"2026-11-27T16:54:20Z"}
 ```
 
 ## 2. M14：仍无自然科学返回
@@ -90,78 +19,7 @@ run46028002241/1、job140604269042 的16:54:21索引11929B，whole SHA256 9bb112
 run46028184571/1、job140604893652 的16:54:05小索引11529B，whole SHA256 3c0060e6558670f0a0fb65b5245ed00150285c7d252b1051dafb3560e6a29ad3，Git blob0fdc1033093763cfe90e11dc3187645f617262bc，来自同一固定notes树。sourcecommit a9ab24c38efa6a56c17f5285fc8c8f7a5f886709、launcher596e、PID4009。返回集仍只有原两必要输入；本次point与初期不同不构成接受或改进证据。
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-frequency-M320-independent-first-20261127",
-  "scientific_source_commit": "a9ab24c38efa6a56c17f5285fc8c8f7a5f886709",
-  "scientific_source_sha256": "596e137f6e381a2fdbc882a559a30b664c6e985095867535f3b32d7fa61c417c",
-  "pid": 4009,
-  "observations": {
-    "fixed-fejer-frequency-M320-independent-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-27 16:53:55 UTC",
-      "point": "f4c3ac9921088bbe03ee881355e874b7aaddb4553fca4bce7c7df04e091aac27",
-      "stage": null,
-      "scope_order": 2,
-      "scope_angles": 8,
-      "cached_angle_roots": 513,
-      "observer_scientific_calls": 0,
-      "scientific_complete_inferred": false,
-      "closure_logical_requests": 230831,
-      "closure_logical_returns": 230831,
-      "closure_logical_failures": 0,
-      "closure_original_attempts": 59416,
-      "closure_original_returns": 59416,
-      "closure_original_failures": 0,
-      "closure_original_angle_jet_requests": 402156,
-      "closure_original_angle_jet_returns": 402156,
-      "closure_cache_hits": 171415,
-      "closure_cache_hit_angle_jets": 574863,
-      "closure_cache_misses": 11320,
-      "closure_forced_original_requests": 38247,
-      "closure_forced_stage_rereads": 37088,
-      "closure_forced_endpoint_rereads": 1159,
-      "closure_bypass_no_scope": 9849,
-      "closure_bypass_caller_environment": 0,
-      "closure_bypass_current_environment": 0,
-      "closure_bypass_tensor_or_data_tracking": 0,
-      "closure_bypass_optional_failure": 0,
-      "closure_binding_failures": 0,
-      "closure_key_checks": 182735,
-      "closure_point_word_checks": 2319,
-      "closure_stored_values": 11320,
-      "closure_optional_cache_failures": 0,
-      "closure_scopes_started": 1160,
-      "closure_scopes_closed": 1159,
-      "closure_scopes_with_exception": 0,
-      "closure_scopes_disabled_at_entry": 0,
-      "closure_scope_stage_completions": 37088,
-      "closure_progress_writes": 2324,
-      "closure_progress_write_failures": 0,
-      "closure_progress_events": 2324,
-      "closure_peak_cache_entries": 98,
-      "closure_peak_cache_bytes": 112320,
-      "closure_immutable_point_entry_checks": 1160,
-      "closure_immutable_point_key_checks": 182735,
-      "closure_immutable_point_exit_checks": 1159,
-      "closure_original_closure_seconds": 705.7600723460527,
-      "closure_binding_and_key_seconds": 60.83666421993371
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-frequency-M320-independent-first/actual-normal-evaluation-progress.json",
-      "bytes": 3370,
-      "sha256": "bcef4c9338cb5ae48bb5ca910858cdb40c0b4edad5108a1b38b1a503d7f551a3",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "fce1b424e1b48850c0025ed4e1592f229ccc6c6bb2381eb724e31a7d8455dd22",
-  "observed_utc": "2026-11-27T16:54:03Z"
-}
+{"step_id":"complete-fixed-fejer-frequency-M320-independent-first-20261127","scientific_source_commit":"a9ab24c38efa6a56c17f5285fc8c8f7a5f886709","scientific_source_sha256":"596e137f6e381a2fdbc882a559a30b664c6e985095867535f3b32d7fa61c417c","pid":4009,"observations":{"fixed-fejer-frequency-M320-independent-first/actual-normal-evaluation-progress.json":{"phase":"normal_chain_enter","at":"2026-11-27 16:53:55 UTC","point":"f4c3ac9921088bbe03ee881355e874b7aaddb4553fca4bce7c7df04e091aac27","stage":null,"scope_order":2,"scope_angles":8,"cached_angle_roots":513,"observer_scientific_calls":0,"scientific_complete_inferred":false,"closure_logical_requests":230831,"closure_logical_returns":230831,"closure_logical_failures":0,"closure_original_attempts":59416,"closure_original_returns":59416,"closure_original_failures":0,"closure_original_angle_jet_requests":402156,"closure_original_angle_jet_returns":402156,"closure_cache_hits":171415,"closure_cache_hit_angle_jets":574863,"closure_cache_misses":11320,"closure_forced_original_requests":38247,"closure_forced_stage_rereads":37088,"closure_forced_endpoint_rereads":1159,"closure_bypass_no_scope":9849,"closure_bypass_caller_environment":0,"closure_bypass_current_environment":0,"closure_bypass_tensor_or_data_tracking":0,"closure_bypass_optional_failure":0,"closure_binding_failures":0,"closure_key_checks":182735,"closure_point_word_checks":2319,"closure_stored_values":11320,"closure_optional_cache_failures":0,"closure_scopes_started":1160,"closure_scopes_closed":1159,"closure_scopes_with_exception":0,"closure_scopes_disabled_at_entry":0,"closure_scope_stage_completions":37088,"closure_progress_writes":2324,"closure_progress_write_failures":0,"closure_progress_events":2324,"closure_peak_cache_entries":98,"closure_peak_cache_bytes":112320,"closure_immutable_point_entry_checks":1160,"closure_immutable_point_key_checks":182735,"closure_immutable_point_exit_checks":1159,"closure_original_closure_seconds":705.7600723460527,"closure_binding_and_key_seconds":60.83666421993371}},"complete_small_progress_file_identities":[{"path":"fixed-fejer-frequency-M320-independent-first/actual-normal-evaluation-progress.json","bytes":3370,"sha256":"bcef4c9338cb5ae48bb5ca910858cdb40c0b4edad5108a1b38b1a503d7f551a3","two_complete_bounded_reads_agreed":true}],"observation_errors":[],"child_exit_code":null,"child_natural_return_not_observed":true,"observations_are_not_a_completed_step_or_a_scientific_certificate":true,"observation_identity_sha256":"fce1b424e1b48850c0025ed4e1592f229ccc6c6bb2381eb724e31a7d8455dd22","observed_utc":"2026-11-27T16:54:03Z"}
 ```
 
 ## 3. 继续的实际责任

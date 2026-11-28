@@ -60,17 +60,7 @@
 以下为原实际命令数组，不以省略号替代参数：
 
 ```json
-[
-  "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
-  "-u",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0001-167d7c1a5813-97051366b05a/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
-  "--repo",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0001-167d7c1a5813-97051366b05a",
-  "--outdir",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs",
-  "--panels",
-  "128"
-]
+["/opt/hostedtoolcache/Python/3.12.14/x64/bin/python","-u","/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0001-167d7c1a5813-97051366b05a/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py","--repo","/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0001-167d7c1a5813-97051366b05a","--outdir","/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs","--panels","128"]
 ```
 
 ### 完整实际输出
@@ -132,37 +122,7 @@
 ### 完整实际命令
 
 ```json
-[
-  "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
-  "-u",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
-  "--repo",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879",
-  "--fixed-input",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
-  "--fixed-input-report",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/report.json",
-  "--node-report",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
-  "--scalar-input",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
-  "--manifest",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json",
-  "--outdir",
-  "/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference",
-  "--angles",
-  "2048",
-  "--seed-integration-order",
-  "8",
-  "--panels",
-  "128",
-  "--scalar-leaf-count",
-  "2218",
-  "--scalar-integral-tolerance",
-  "1e-18",
-  "--scalar-tail-cutoff",
-  "1/8"
-]
+["/opt/hostedtoolcache/Python/3.12.14/x64/bin/python","-u","/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py","--repo","/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879","--fixed-input","/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz","--fixed-input-report","/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/report.json","--node-report","/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json","--scalar-input","/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json","--manifest","/home/runner/work/_temp/visible-larger-research-46011377225-1/followup-sources/0002-a73af5287d15-6e7fc7dc6879/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json","--outdir","/home/runner/work/_temp/visible-larger-research-46011377225-1/research/fixed-fejer-reference","--angles","2048","--seed-integration-order","8","--panels","128","--scalar-leaf-count","2218","--scalar-integral-tolerance","1e-18","--scalar-tail-cutoff","1/8"]
 ```
 
 ### 完整实际输出
@@ -223,78 +183,7 @@
 这里保留完整有界观察对象，避免把累计计数、尚未完成的 scope 或瞬时阶段改写成最终结果：
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-immutable-point-first-20261127-run12",
-  "scientific_source_commit": "a3df4eae39988724cca2cc3c38927e583c24eb2e",
-  "scientific_source_sha256": "0c1ff0aa2de30fcd490efb4bddd1972613c0f0afb1257d1af0170ac7e60bb5bf",
-  "pid": 3347,
-  "observations": {
-    "fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-27 14:09:27 UTC",
-      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "stage": null,
-      "scope_order": 2,
-      "scope_angles": 1,
-      "cached_angle_roots": 578,
-      "observer_scientific_calls": 0,
-      "scientific_complete_inferred": false,
-      "closure_logical_requests": 29640,
-      "closure_logical_returns": 29640,
-      "closure_logical_failures": 0,
-      "closure_original_attempts": 6890,
-      "closure_original_returns": 6890,
-      "closure_original_failures": 0,
-      "closure_original_angle_jet_requests": 95574,
-      "closure_original_angle_jet_returns": 95574,
-      "closure_cache_hits": 22750,
-      "closure_cache_hit_angle_jets": 216636,
-      "closure_cache_misses": 455,
-      "closure_forced_original_requests": 6435,
-      "closure_forced_stage_rereads": 6240,
-      "closure_forced_endpoint_rereads": 195,
-      "closure_bypass_no_scope": 0,
-      "closure_bypass_caller_environment": 0,
-      "closure_bypass_current_environment": 0,
-      "closure_bypass_tensor_or_data_tracking": 0,
-      "closure_bypass_optional_failure": 0,
-      "closure_binding_failures": 0,
-      "closure_key_checks": 23205,
-      "closure_point_word_checks": 391,
-      "closure_stored_values": 455,
-      "closure_optional_cache_failures": 0,
-      "closure_scopes_started": 196,
-      "closure_scopes_closed": 195,
-      "closure_scopes_with_exception": 0,
-      "closure_scopes_disabled_at_entry": 0,
-      "closure_scope_stage_completions": 6240,
-      "closure_progress_writes": 395,
-      "closure_progress_write_failures": 0,
-      "closure_progress_events": 395,
-      "closure_peak_cache_entries": 3,
-      "closure_peak_cache_bytes": 3264,
-      "closure_immutable_point_entry_checks": 196,
-      "closure_immutable_point_key_checks": 23205,
-      "closure_immutable_point_exit_checks": 195,
-      "closure_original_closure_seconds": 98.69234995399972,
-      "closure_binding_and_key_seconds": 5.847501323000529
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json",
-      "bytes": 3296,
-      "sha256": "594af9df3abb359e0404ea5bc5e5df9fc69c190f8f7601b793a06f0708ca383a",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "37442ef78a2b02dee34e4faf9f9f07a256275256b8336bbab6a3a0ea8cdd606b",
-  "observed_utc": "2026-11-27T14:09:28Z"
-}
+{"step_id":"complete-fixed-fejer-immutable-point-first-20261127-run12","scientific_source_commit":"a3df4eae39988724cca2cc3c38927e583c24eb2e","scientific_source_sha256":"0c1ff0aa2de30fcd490efb4bddd1972613c0f0afb1257d1af0170ac7e60bb5bf","pid":3347,"observations":{"fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json":{"phase":"normal_chain_enter","at":"2026-11-27 14:09:27 UTC","point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","stage":null,"scope_order":2,"scope_angles":1,"cached_angle_roots":578,"observer_scientific_calls":0,"scientific_complete_inferred":false,"closure_logical_requests":29640,"closure_logical_returns":29640,"closure_logical_failures":0,"closure_original_attempts":6890,"closure_original_returns":6890,"closure_original_failures":0,"closure_original_angle_jet_requests":95574,"closure_original_angle_jet_returns":95574,"closure_cache_hits":22750,"closure_cache_hit_angle_jets":216636,"closure_cache_misses":455,"closure_forced_original_requests":6435,"closure_forced_stage_rereads":6240,"closure_forced_endpoint_rereads":195,"closure_bypass_no_scope":0,"closure_bypass_caller_environment":0,"closure_bypass_current_environment":0,"closure_bypass_tensor_or_data_tracking":0,"closure_bypass_optional_failure":0,"closure_binding_failures":0,"closure_key_checks":23205,"closure_point_word_checks":391,"closure_stored_values":455,"closure_optional_cache_failures":0,"closure_scopes_started":196,"closure_scopes_closed":195,"closure_scopes_with_exception":0,"closure_scopes_disabled_at_entry":0,"closure_scope_stage_completions":6240,"closure_progress_writes":395,"closure_progress_write_failures":0,"closure_progress_events":395,"closure_peak_cache_entries":3,"closure_peak_cache_bytes":3264,"closure_immutable_point_entry_checks":196,"closure_immutable_point_key_checks":23205,"closure_immutable_point_exit_checks":195,"closure_original_closure_seconds":98.69234995399972,"closure_binding_and_key_seconds":5.847501323000529}},"complete_small_progress_file_identities":[{"path":"fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json","bytes":3296,"sha256":"594af9df3abb359e0404ea5bc5e5df9fc69c190f8f7601b793a06f0708ca383a","two_complete_bounded_reads_agreed":true}],"observation_errors":[],"child_exit_code":null,"child_natural_return_not_observed":true,"observations_are_not_a_completed_step_or_a_scientific_certificate":true,"observation_identity_sha256":"37442ef78a2b02dee34e4faf9f9f07a256275256b8336bbab6a3a0ea8cdd606b","observed_utc":"2026-11-27T14:09:28Z"}
 ```
 
 没有从缓存数量推断全角或完整场已经可行，没有从某一 point 摘要推断该点被接受，没有将进度读取当作新的 F/J/root 计算。

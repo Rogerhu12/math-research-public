@@ -29,94 +29,7 @@ normal.complete不代连续角branch，mean J不代Cu，R709 bool和R722真实�
 ## 全部完整身份
 
 ```json
-{
-  "controller": {
-    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel25_geometry_locations.py",
-    "bytes": 19995,
-    "sha256": "4bbac0cd1bb116205b4f94b8bc544e102bd522af9abb697327a8eb9b6f984562",
-    "sha": "e792c8368fc4e0a4a50d693f9a836b44ae662f34",
-    "git_blob_sha": "e792c8368fc4e0a4a50d693f9a836b44ae662f34"
-  },
-  "followups": {
-    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py",
-    "bytes": 32763,
-    "sha256": "444f57b28c695fbcd0fbfc03237b8c7a56dedccc97a64873b7dae083de5dbb12",
-    "sha": "4b72d0565d3f3fd797dd8bf45e48310cad8226d2",
-    "git_blob_sha": "4b72d0565d3f3fd797dd8bf45e48310cad8226d2"
-  },
-  "workflow": {
-    "path": ".github/workflows/visible-larger-20261128-parallel25.yml",
-    "bytes": 2243,
-    "sha256": "8aa5c6d7559ffb2423647d882871fc299f089c37ba9e887c49c092511cca32c9",
-    "sha": "1d84eaebe57edbf3d341606f9205ed0d85d2d86a",
-    "git_blob_sha": "1d84eaebe57edbf3d341606f9205ed0d85d2d86a"
-  },
-  "queue": {
-    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json",
-    "bytes": 74384,
-    "sha256": "343faccb7a2872331de9a3ba6607ac1d62ec831cdd88fc2b8defa62a6aadfcf4",
-    "sha": "1b97e5b22477bb7e34146654c9ebd256f58a5d53",
-    "git_blob_sha": "1b97e5b22477bb7e34146654c9ebd256f58a5d53"
-  },
-  "request": {
-    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-25.json",
-    "bytes": 32579,
-    "sha256": "fcd2d24e51d49fadd33d74734c89494f25b8ff6963b7be04b64a7192c2337119",
-    "sha": "fcd05bc1cdcae41249d2ff946787e42d3a1f07bb",
-    "git_blob_sha": "fcd05bc1cdcae41249d2ff946787e42d3a1f07bb"
-  },
-  "parameter_delivery": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json",
-    "name": "fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json",
-    "bytes": 13918,
-    "sha256": "9aa9b2c5b0f28aa5d7ece59374dd1eadd5c551a21b96104cd697ef37a8f2ee27",
-    "sha": "cf18d6e464448e2a555cd0f7063fba66c08d68a5",
-    "git_blob_sha": "cf18d6e464448e2a555cd0f7063fba66c08d68a5"
-  },
-  "parameter_binding": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-binding.json",
-    "name": "fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-binding.json",
-    "bytes": 36381,
-    "sha256": "25a945db36d4073b3706da8d0fea90b9fbc3661126834fdaf2bdd694007a2a49",
-    "sha": "608dd30ced3c17417d61de2af37c644689a3ac24",
-    "git_blob_sha": "608dd30ced3c17417d61de2af37c644689a3ac24"
-  },
-  "science": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-science-complete-ready.json",
-    "name": "fixed-fejer-paired-halfwave-dk-cache-bhalf-science-complete-ready.json",
-    "bytes": 72494,
-    "sha256": "3b26dda806f4a70a28c31721c2b27e9a228e53579864b32754701d68fb7eedcd",
-    "sha": "d125adb6de02b975d29d428886a9230e01731d59",
-    "git_blob_sha": "d125adb6de02b975d29d428886a9230e01731d59"
-  },
-  "pure": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json",
-    "name": "fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json",
-    "bytes": 58591,
-    "sha256": "8a52cf078f41e5d9b6081fbd41ca601b207646cabb6e34b53b4865a59d6e1e62",
-    "sha": "f4a8af980ed367180148407da7e878ec337a38bd",
-    "git_blob_sha": "f4a8af980ed367180148407da7e878ec337a38bd"
-  },
-  "source_delivery": {
-    "bytes": 30196,
-    "sha": "421977ba260ad7b31215c268ecd17f0c8314fc80",
-    "sha256": "4679db9388bf966a353f07a3a95af138bc80542e1e10a3d8151909e8572c8e10",
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json"
-  },
-  "runtime_binding": {
-    "bytes": 51709,
-    "sha": "38f781117d79710e72947cb8f8f0ecb258f0dabb",
-    "sha256": "d449d0a54b69b23c598234a28fede12917473ce7058e9d8815ba8b524c6f869f",
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-curvature-cache-current-runtime-binding.json"
-  },
-  "location_transport": {
-    "path": "topics/visible-flex-larger-amplitude/computations/complete-geometry-location-observation-and-transport-delivery.json",
-    "bytes": 6029,
-    "sha256": "099219af952a3beef3e14ce50692bbd05a2e397d773c1a582a959d69de302156",
-    "sha": "e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1",
-    "git_blob_sha": "e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1"
-  }
-}
+{"controller":{"path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel25_geometry_locations.py","bytes":19995,"sha256":"4bbac0cd1bb116205b4f94b8bc544e102bd522af9abb697327a8eb9b6f984562","sha":"e792c8368fc4e0a4a50d693f9a836b44ae662f34","git_blob_sha":"e792c8368fc4e0a4a50d693f9a836b44ae662f34"},"followups":{"path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py","bytes":32763,"sha256":"444f57b28c695fbcd0fbfc03237b8c7a56dedccc97a64873b7dae083de5dbb12","sha":"4b72d0565d3f3fd797dd8bf45e48310cad8226d2","git_blob_sha":"4b72d0565d3f3fd797dd8bf45e48310cad8226d2"},"workflow":{"path":".github/workflows/visible-larger-20261128-parallel25.yml","bytes":2243,"sha256":"8aa5c6d7559ffb2423647d882871fc299f089c37ba9e887c49c092511cca32c9","sha":"1d84eaebe57edbf3d341606f9205ed0d85d2d86a","git_blob_sha":"1d84eaebe57edbf3d341606f9205ed0d85d2d86a"},"queue":{"path":"topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json","bytes":74384,"sha256":"343faccb7a2872331de9a3ba6607ac1d62ec831cdd88fc2b8defa62a6aadfcf4","sha":"1b97e5b22477bb7e34146654c9ebd256f58a5d53","git_blob_sha":"1b97e5b22477bb7e34146654c9ebd256f58a5d53"},"request":{"path":"topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-25.json","bytes":32579,"sha256":"fcd2d24e51d49fadd33d74734c89494f25b8ff6963b7be04b64a7192c2337119","sha":"fcd05bc1cdcae41249d2ff946787e42d3a1f07bb","git_blob_sha":"fcd05bc1cdcae41249d2ff946787e42d3a1f07bb"},"parameter_delivery":{"path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json","name":"fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json","bytes":13918,"sha256":"9aa9b2c5b0f28aa5d7ece59374dd1eadd5c551a21b96104cd697ef37a8f2ee27","sha":"cf18d6e464448e2a555cd0f7063fba66c08d68a5","git_blob_sha":"cf18d6e464448e2a555cd0f7063fba66c08d68a5"},"parameter_binding":{"path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-binding.json","name":"fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-binding.json","bytes":36381,"sha256":"25a945db36d4073b3706da8d0fea90b9fbc3661126834fdaf2bdd694007a2a49","sha":"608dd30ced3c17417d61de2af37c644689a3ac24","git_blob_sha":"608dd30ced3c17417d61de2af37c644689a3ac24"},"science":{"path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-science-complete-ready.json","name":"fixed-fejer-paired-halfwave-dk-cache-bhalf-science-complete-ready.json","bytes":72494,"sha256":"3b26dda806f4a70a28c31721c2b27e9a228e53579864b32754701d68fb7eedcd","sha":"d125adb6de02b975d29d428886a9230e01731d59","git_blob_sha":"d125adb6de02b975d29d428886a9230e01731d59"},"pure":{"path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json","name":"fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json","bytes":58591,"sha256":"8a52cf078f41e5d9b6081fbd41ca601b207646cabb6e34b53b4865a59d6e1e62","sha":"f4a8af980ed367180148407da7e878ec337a38bd","git_blob_sha":"f4a8af980ed367180148407da7e878ec337a38bd"},"source_delivery":{"bytes":30196,"sha":"421977ba260ad7b31215c268ecd17f0c8314fc80","sha256":"4679db9388bf966a353f07a3a95af138bc80542e1e10a3d8151909e8572c8e10","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json"},"runtime_binding":{"bytes":51709,"sha":"38f781117d79710e72947cb8f8f0ecb258f0dabb","sha256":"d449d0a54b69b23c598234a28fede12917473ce7058e9d8815ba8b524c6f869f","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-curvature-cache-current-runtime-binding.json"},"location_transport":{"path":"topics/visible-flex-larger-amplitude/computations/complete-geometry-location-observation-and-transport-delivery.json","bytes":6029,"sha256":"099219af952a3beef3e14ce50692bbd05a2e397d773c1a582a959d69de302156","sha":"e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1","git_blob_sha":"e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1"}}
 ```
 
 ## 来源和规则
@@ -134,291 +47,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 官方完整run对象：
 
 ```json
-{
-  "id": 46099929359,
-  "name": "Visible larger amplitude complete half-wave curvature cache and locations 20261128 25",
-  "node_id": "WFR_kwLOVt5L2s8AAAAKu8UZDw",
-  "head_branch": "main",
-  "head_sha": "007348e5c8bd943a13704d7761cf9d4d6b06fea6",
-  "path": ".github/workflows/visible-larger-20261128-parallel25.yml",
-  "display_title": "Launch complete independent halfwave curvature reuse and returned-loc…",
-  "run_number": 1,
-  "event": "push",
-  "status": "in_progress",
-  "conclusion": null,
-  "workflow_id": 433356137,
-  "check_suite_id": 124713358680,
-  "check_suite_node_id": "CS_kwDOVt5L2s8AAAAdCX7VWA",
-  "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359",
-  "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46099929359",
-  "pull_requests": [],
-  "created_at": "2026-11-28T02:49:28Z",
-  "updated_at": "2026-11-28T02:49:31Z",
-  "actor": {
-    "login": "Rogerhu12",
-    "id": 199914264,
-    "node_id": "U_kgDOC-pzGA",
-    "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/Rogerhu12",
-    "html_url": "https://github.com/Rogerhu12",
-    "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-    "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-    "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-    "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-    "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-    "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false
-  },
-  "run_attempt": 1,
-  "referenced_workflows": [],
-  "run_started_at": "2026-11-28T02:49:28Z",
-  "triggering_actor": {
-    "login": "Rogerhu12",
-    "id": 199914264,
-    "node_id": "U_kgDOC-pzGA",
-    "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/Rogerhu12",
-    "html_url": "https://github.com/Rogerhu12",
-    "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-    "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-    "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-    "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-    "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-    "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false
-  },
-  "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/jobs",
-  "logs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/logs",
-  "check_suite_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124713358680",
-  "artifacts_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/artifacts",
-  "cancel_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/cancel",
-  "rerun_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/rerun",
-  "previous_attempt_url": null,
-  "workflow_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433356137",
-  "head_commit": {
-    "id": "007348e5c8bd943a13704d7761cf9d4d6b06fea6",
-    "tree_id": "488386e6ca62029add8a8cd0020017ba08183ad7",
-    "message": "Launch complete independent halfwave curvature reuse and returned-location run25",
-    "timestamp": "2026-11-28T02:49:24Z",
-    "author": {
-      "name": "Boyang Hu",
-      "email": "2538238358@qq.com"
-    },
-    "committer": {
-      "name": "Boyang Hu",
-      "email": "2538238358@qq.com"
-    }
-  },
-  "repository": {
-    "id": 1457408986,
-    "node_id": "R_kgDOVt5L2g",
-    "name": "math-research-public",
-    "full_name": "Rogerhu12/math-research-public",
-    "private": false,
-    "owner": {
-      "login": "Rogerhu12",
-      "id": 199914264,
-      "node_id": "U_kgDOC-pzGA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Rogerhu12",
-      "html_url": "https://github.com/Rogerhu12",
-      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "html_url": "https://github.com/Rogerhu12/math-research-public",
-    "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
-    "fork": false,
-    "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
-    "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
-    "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
-    "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
-    "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
-    "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
-    "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
-    "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
-    "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
-    "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
-    "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
-    "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
-    "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
-    "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
-    "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
-  },
-  "head_repository": {
-    "id": 1457408986,
-    "node_id": "R_kgDOVt5L2g",
-    "name": "math-research-public",
-    "full_name": "Rogerhu12/math-research-public",
-    "private": false,
-    "owner": {
-      "login": "Rogerhu12",
-      "id": 199914264,
-      "node_id": "U_kgDOC-pzGA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Rogerhu12",
-      "html_url": "https://github.com/Rogerhu12",
-      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "html_url": "https://github.com/Rogerhu12/math-research-public",
-    "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
-    "fork": false,
-    "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
-    "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
-    "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
-    "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
-    "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
-    "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
-    "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
-    "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
-    "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
-    "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
-    "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
-    "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
-    "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
-    "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
-    "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
-  }
-}
+{"id":46099929359,"name":"Visible larger amplitude complete half-wave curvature cache and locations 20261128 25","node_id":"WFR_kwLOVt5L2s8AAAAKu8UZDw","head_branch":"main","head_sha":"007348e5c8bd943a13704d7761cf9d4d6b06fea6","path":".github/workflows/visible-larger-20261128-parallel25.yml","display_title":"Launch complete independent halfwave curvature reuse and returned-loc…","run_number":1,"event":"push","status":"in_progress","conclusion":null,"workflow_id":433356137,"check_suite_id":124713358680,"check_suite_node_id":"CS_kwDOVt5L2s8AAAAdCX7VWA","url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359","html_url":"https://github.com/Rogerhu12/math-research-public/actions/runs/46099929359","pull_requests":[],"created_at":"2026-11-28T02:49:28Z","updated_at":"2026-11-28T02:49:31Z","actor":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"run_attempt":1,"referenced_workflows":[],"run_started_at":"2026-11-28T02:49:28Z","triggering_actor":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"jobs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/jobs","logs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/logs","check_suite_url":"https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124713358680","artifacts_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/artifacts","cancel_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/cancel","rerun_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/rerun","previous_attempt_url":null,"workflow_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433356137","head_commit":{"id":"007348e5c8bd943a13704d7761cf9d4d6b06fea6","tree_id":"488386e6ca62029add8a8cd0020017ba08183ad7","message":"Launch complete independent halfwave curvature reuse and returned-location run25","timestamp":"2026-11-28T02:49:24Z","author":{"name":"Boyang Hu","email":"2538238358@qq.com"},"committer":{"name":"Boyang Hu","email":"2538238358@qq.com"}},"repository":{"id":1457408986,"node_id":"R_kgDOVt5L2g","name":"math-research-public","full_name":"Rogerhu12/math-research-public","private":false,"owner":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/Rogerhu12/math-research-public","description":"Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces","fork":false,"url":"https://api.github.com/repos/Rogerhu12/math-research-public","forks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/forks","keys_url":"https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Rogerhu12/math-research-public/teams","hooks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/hooks","issue_events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}","events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/events","assignees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}","branches_url":"https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}","tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/tags","blobs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}","trees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}","languages_url":"https://api.github.com/repos/Rogerhu12/math-research-public/languages","stargazers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/stargazers","contributors_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contributors","subscribers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscribers","subscription_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscription","commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}","git_commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}","comments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}","issue_comment_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}","contents_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}","compare_url":"https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Rogerhu12/math-research-public/merges","archive_url":"https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Rogerhu12/math-research-public/downloads","issues_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}","pulls_url":"https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}","milestones_url":"https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}","notifications_url":"https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}","releases_url":"https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}","deployments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/deployments"},"head_repository":{"id":1457408986,"node_id":"R_kgDOVt5L2g","name":"math-research-public","full_name":"Rogerhu12/math-research-public","private":false,"owner":{"login":"Rogerhu12","id":199914264,"node_id":"U_kgDOC-pzGA","avatar_url":"https://avatars.githubusercontent.com/u/199914264?v=4","gravatar_id":"","url":"https://api.github.com/users/Rogerhu12","html_url":"https://github.com/Rogerhu12","followers_url":"https://api.github.com/users/Rogerhu12/followers","following_url":"https://api.github.com/users/Rogerhu12/following{/other_user}","gists_url":"https://api.github.com/users/Rogerhu12/gists{/gist_id}","starred_url":"https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rogerhu12/subscriptions","organizations_url":"https://api.github.com/users/Rogerhu12/orgs","repos_url":"https://api.github.com/users/Rogerhu12/repos","events_url":"https://api.github.com/users/Rogerhu12/events{/privacy}","received_events_url":"https://api.github.com/users/Rogerhu12/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/Rogerhu12/math-research-public","description":"Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces","fork":false,"url":"https://api.github.com/repos/Rogerhu12/math-research-public","forks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/forks","keys_url":"https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Rogerhu12/math-research-public/teams","hooks_url":"https://api.github.com/repos/Rogerhu12/math-research-public/hooks","issue_events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}","events_url":"https://api.github.com/repos/Rogerhu12/math-research-public/events","assignees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}","branches_url":"https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}","tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/tags","blobs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}","trees_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}","languages_url":"https://api.github.com/repos/Rogerhu12/math-research-public/languages","stargazers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/stargazers","contributors_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contributors","subscribers_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscribers","subscription_url":"https://api.github.com/repos/Rogerhu12/math-research-public/subscription","commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}","git_commits_url":"https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}","comments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}","issue_comment_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}","contents_url":"https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}","compare_url":"https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Rogerhu12/math-research-public/merges","archive_url":"https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Rogerhu12/math-research-public/downloads","issues_url":"https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}","pulls_url":"https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}","milestones_url":"https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}","notifications_url":"https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}","releases_url":"https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}","deployments_url":"https://api.github.com/repos/Rogerhu12/math-research-public/deployments"}}
 ```
 
 官方完整jobs对象：
 
 ```json
-{
-  "jobs": [
-    {
-      "id": 140839831948,
-      "name": "Construct the same fixed target and solve the complete half-wave with exact dk reuse",
-      "status": "in_progress",
-      "conclusion": null,
-      "run_id": 46099929359,
-      "logs_url": null,
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "in_progress",
-          "conclusion": null,
-          "number": 4
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "pending",
-          "conclusion": null,
-          "number": 5
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "pending",
-          "conclusion": null,
-          "number": 9
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "pending",
-          "conclusion": null,
-          "number": 10
-        }
-      ]
-    }
-  ]
-}
+{"jobs":[{"id":140839831948,"name":"Construct the same fixed target and solve the complete half-wave with exact dk reuse","status":"in_progress","conclusion":null,"run_id":46099929359,"logs_url":null,"steps":[{"name":"Set up job","status":"completed","conclusion":"success","number":1},{"name":"Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262","status":"completed","conclusion":"success","number":2},{"name":"Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065","status":"completed","conclusion":"success","number":3},{"name":"Install the recorded numerical and automatic differentiation dependencies","status":"in_progress","conclusion":null,"number":4},{"name":"Execute public research and publish independent compact records","status":"pending","conclusion":null,"number":5},{"name":"Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065","status":"pending","conclusion":null,"number":9},{"name":"Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262","status":"pending","conclusion":null,"number":10}]}]}
 ```
 
 ## 2026-11-28 03:09:13 UTC — 25两个完整输入及初场六族/真实曲率位置返回
@@ -438,24 +73,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 43021,
-    "sha256": "27f717a48869e0f2c26737d645ad3a2b6a0d9008b3f1b1003168a7e73c0ae064",
-    "git_blob_sha": "fcd0e4c6ff808f6060e97a68dadad7279af10ab9",
-    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-001.md",
-    "bytes": 16607,
-    "sha256": "52d95b858d41f856836e745354b4466eaf44abec9a0f1dd3d5db2b4fb9c1ad5f",
-    "git_blob_sha": "b77a136e0c5aee403152e46b6ecc32d1de224d37",
-    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":43021,"sha256":"27f717a48869e0f2c26737d645ad3a2b6a0d9008b3f1b1003168a7e73c0ae064","git_blob_sha":"fcd0e4c6ff808f6060e97a68dadad7279af10ab9","fixed_commit":"4e37ab47ceeb4d753297742a00b077d28baeb71e","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-001.md","bytes":16607,"sha256":"52d95b858d41f856836e745354b4466eaf44abec9a0f1dd3d5db2b4fb9c1ad5f","git_blob_sha":"b77a136e0c5aee403152e46b6ecc32d1de224d37","fixed_commit":"4e37ab47ceeb4d753297742a00b077d28baeb71e","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 03:47:41 UTC — 25第一真实接受及实际曲率热点
@@ -465,81 +83,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 真实K12.318076128726846/D_point_lower4.117175205471979；K热点cell885/u.8306046932331322/phi1.5707963267948966/branch1，current_K_s与trial_K_s实际为null，不继初场s。真实trial_alpha1、phase restoration；current distance+热点phi同π/2。六g reach.5294703284893127、distance+.11391376026366629仍正。source870e11a、driver7883、model6f3ae32保持。report=false，缓存命中/总速度/准确证书未据此推出，原完整数学对象保。
 
 ```json
-{
-  "math_at": "2026-11-28T03:37:02.280458+00:00",
-  "math_event": "current-geometry-returned",
-  "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-  "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-  "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 681.6517423825409,
-  "initial_Gram": 0.40616525311769985,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.5305849371949052,
-  "initial_geometry_complete": true,
-  "current_point": "11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727",
-  "current_Phi": 681.6511710299278,
-  "current_Gram": 0.4061652579029476,
-  "current_geometry_point": "11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727",
-  "current_violation": 0.5294703284893127,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727",
-  "trial_Phi": 681.6511710299278,
-  "trial_Gram": 0.4061652579029476,
-  "trial_geometry_point": "11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727",
-  "trial_violation": 0.5294703284893127,
-  "trial_geometry_complete": true,
-  "trial_accepted": true,
-  "accepted_directions": 1,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.5294703284893127,
-  "current_g_body_diameter": -0.038135649309102404,
-  "current_g_distance_plus": 0.11391376026366629,
-  "current_g_distance_minus": -3.0936337267606984,
-  "current_g_cap_diameter": -0.06715135970511843,
-  "current_g_height_floor": -1.0411715403912758,
-  "previous_completed_trial_point": "11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727",
-  "previous_completed_trial_g": 0.5294703284893127,
-  "previous_completed_trial_accepted": true,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 681.6511710299278,
-  "previous_completed_trial_Gram": 0.4061652579029476,
-  "current_K": 12.318076128726846,
-  "current_D_point_lower": 4.117175205471979,
-  "current_K_cell": 885,
-  "current_K_u": 0.8306046932331322,
-  "current_K_phi": 1.5707963267948966,
-  "current_K_branch": 1,
-  "current_K_s": null,
-  "trial_K": 12.318076128726846,
-  "trial_K_cell": 885,
-  "trial_K_u": 0.8306046932331322,
-  "trial_K_phi": 1.5707963267948966,
-  "trial_K_branch": 1,
-  "trial_K_s": null,
-  "trial_alpha": 1,
-  "trial_phase": "restoration",
-  "current_distance_plus_phi": 1.5707963267948966
-}
+{"math_at":"2026-11-28T03:37:02.280458+00:00","math_event":"current-geometry-returned","math_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","math_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","math_source":"4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94","math_target":"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9","initial_point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","initial_Phi":681.6517423825409,"initial_Gram":0.40616525311769985,"initial_geometry_point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","initial_violation":0.5305849371949052,"initial_geometry_complete":true,"current_point":"11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727","current_Phi":681.6511710299278,"current_Gram":0.4061652579029476,"current_geometry_point":"11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727","current_violation":0.5294703284893127,"current_geometry_complete":true,"current_state":"accepted restoration checkpoint returned; final report not inferred","trial_point":"11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727","trial_Phi":681.6511710299278,"trial_Gram":0.4061652579029476,"trial_geometry_point":"11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727","trial_violation":0.5294703284893127,"trial_geometry_complete":true,"trial_accepted":true,"accepted_directions":1,"complete_report":false,"stop_reason":null,"observer_failures":0,"current_g_reach":0.5294703284893127,"current_g_body_diameter":-0.038135649309102404,"current_g_distance_plus":0.11391376026366629,"current_g_distance_minus":-3.0936337267606984,"current_g_cap_diameter":-0.06715135970511843,"current_g_height_floor":-1.0411715403912758,"previous_completed_trial_point":"11e66fe9e9d58f9073550020434855266cb603bd72940ca901014cf1de018727","previous_completed_trial_g":0.5294703284893127,"previous_completed_trial_accepted":true,"previous_completed_trial_maximum_families":"reach","previous_completed_trial_Phi":681.6511710299278,"previous_completed_trial_Gram":0.4061652579029476,"current_K":12.318076128726846,"current_D_point_lower":4.117175205471979,"current_K_cell":885,"current_K_u":0.8306046932331322,"current_K_phi":1.5707963267948966,"current_K_branch":1,"current_K_s":null,"trial_K":12.318076128726846,"trial_K_cell":885,"trial_K_u":0.8306046932331322,"trial_K_phi":1.5707963267948966,"trial_K_branch":1,"trial_K_s":null,"trial_alpha":1,"trial_phase":"restoration","current_distance_plus_phi":1.5707963267948966}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 38990,
-    "sha256": "d4b63b55c7d3a31b1392086319864cdfc7a747852e016a30b5376e7ef7dab795",
-    "git_blob_sha": "5a4d83088adda51a4070ce9794759a28054dd723",
-    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":38990,"sha256":"d4b63b55c7d3a31b1392086319864cdfc7a747852e016a30b5376e7ef7dab795","git_blob_sha":"5a4d83088adda51a4070ce9794759a28054dd723","fixed_commit":"9d4df9a9ef341a72b6f8976141e64cf61caaaaf8","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 04:38:39 UTC — 25第二真实恢复接受与完整六族
@@ -547,154 +97,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 25当前0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98、accepted2；Phi681.6473711639321/Gram.40616528955370923，reachg.5237169415657044、distplus.11392286053783374仍正。K12.271500016996072、Dlower4.117173775187578，热点cell885/u.9662347571015759/phiπ/2/branch1/s=null。全六族与下一e147626c统计完整如下；下一geometry/accepted截至04:31:00未返，整report未返。原同22数值的首接受不覆盖新point，未推速度或全域几何。
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-first-20261128",
-  "scientific_source_commit": "870e11a12df457bac9c538b8a4ec054d93cd572d",
-  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
-  "pid": 3219,
-  "observations": {
-    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 04:30:56 UTC",
-      "point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "cached_angle_roots": 513,
-      "closure_original_returns": 101456,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T04:30:35.471525+00:00",
-      "math_event": "trial-statistics-returned",
-      "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 681.6517423825409,
-      "initial_Gram": 0.40616525311769985,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.5305849371949052,
-      "initial_geometry_complete": true,
-      "current_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
-      "current_Phi": 681.6473711639321,
-      "current_Gram": 0.40616528955370923,
-      "current_geometry_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
-      "current_violation": 0.5237169415657044,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "trial_Phi": 681.6470516175361,
-      "trial_Gram": 0.40616529581758637,
-      "trial_accepted": null,
-      "accepted_directions": 2,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.5237169415657044,
-      "current_g_body_diameter": -0.038136317601933256,
-      "current_g_distance_plus": 0.11392286053783374,
-      "current_g_distance_minus": -3.0936337271355727,
-      "current_g_cap_diameter": -0.06715165785312127,
-      "current_g_height_floor": -1.0411711655855374,
-      "previous_completed_trial_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
-      "previous_completed_trial_g": 0.5237169415657044,
-      "previous_completed_trial_accepted": true,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 681.6473711639321,
-      "previous_completed_trial_Gram": 0.40616528955370923,
-      "current_K": 12.271500016996072,
-      "current_D_point_lower": 4.117173775187578,
-      "current_K_cell": 885,
-      "current_K_u": 0.9662347571015759,
-      "current_K_phi": 1.5707963267948966,
-      "current_K_branch": 1,
-      "current_K_s": null,
-      "trial_alpha": 1,
-      "trial_phase": "restoration",
-      "current_distance_plus_phi": 1.5707963267948966
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3387,
-      "sha256": "65821c37c523813dc961ba725b0a3831def81fd45cdbde27f630854a83badf3c",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 13473,
-      "sha256": "99b2e9572060987b171e0cf1127ac0430ac30f288b82c38a25a8ec9d6ee9cf90",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.maximum_absolute_principal_curvature",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.returned_locations.curvature.cell",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.returned_locations.curvature.u",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.returned_locations.curvature.phi",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.returned_locations.curvature.branch",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.returned_locations.curvature.s",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "7a8e95d4ee7292b88d210470a0a467e5f43343630888888972c4de154b17b6d7",
-  "observed_utc": "2026-11-28T04:30:58Z"
-}
+{"step_id":"complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-first-20261128","scientific_source_commit":"870e11a12df457bac9c538b8a4ec054d93cd572d","scientific_source_sha256":"804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe","pid":3219,"observations":{"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json":{"phase":"normal_chain_enter","at":"2026-11-28 04:30:56 UTC","point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","cached_angle_roots":513,"closure_original_returns":101456,"closure_logical_failures":0},"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json":{"math_at":"2026-11-28T04:30:35.471525+00:00","math_event":"trial-statistics-returned","math_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","math_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","math_source":"4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94","math_target":"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9","initial_point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","initial_Phi":681.6517423825409,"initial_Gram":0.40616525311769985,"initial_geometry_point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","initial_violation":0.5305849371949052,"initial_geometry_complete":true,"current_point":"0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98","current_Phi":681.6473711639321,"current_Gram":0.40616528955370923,"current_geometry_point":"0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98","current_violation":0.5237169415657044,"current_geometry_complete":true,"current_state":"accepted restoration checkpoint returned; final report not inferred","trial_point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","trial_Phi":681.6470516175361,"trial_Gram":0.40616529581758637,"trial_accepted":null,"accepted_directions":2,"complete_report":false,"stop_reason":null,"observer_failures":0,"current_g_reach":0.5237169415657044,"current_g_body_diameter":-0.038136317601933256,"current_g_distance_plus":0.11392286053783374,"current_g_distance_minus":-3.0936337271355727,"current_g_cap_diameter":-0.06715165785312127,"current_g_height_floor":-1.0411711655855374,"previous_completed_trial_point":"0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98","previous_completed_trial_g":0.5237169415657044,"previous_completed_trial_accepted":true,"previous_completed_trial_maximum_families":"reach","previous_completed_trial_Phi":681.6473711639321,"previous_completed_trial_Gram":0.40616528955370923,"current_K":12.271500016996072,"current_D_point_lower":4.117173775187578,"current_K_cell":885,"current_K_u":0.9662347571015759,"current_K_phi":1.5707963267948966,"current_K_branch":1,"current_K_s":null,"trial_alpha":1,"trial_phase":"restoration","current_distance_plus_phi":1.5707963267948966}},"complete_small_progress_file_identities":[{"path":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json","bytes":3387,"sha256":"65821c37c523813dc961ba725b0a3831def81fd45cdbde27f630854a83badf3c","two_complete_bounded_reads_agreed":true},{"path":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","bytes":13473,"sha256":"99b2e9572060987b171e0cf1127ac0430ac30f288b82c38a25a8ec9d6ee9cf90","two_complete_bounded_reads_agreed":true}],"observation_errors":[{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.point_sha256","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.positive_physical_g","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.complete","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.maximum_absolute_principal_curvature","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.returned_locations.curvature.cell","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.returned_locations.curvature.u","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.returned_locations.curvature.phi","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.returned_locations.curvature.branch","error":"TypeError: 'NoneType' object is not subscriptable"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","field":"latest_trial_geometry.returned_locations.curvature.s","error":"TypeError: 'NoneType' object is not subscriptable"}],"child_exit_code":null,"child_natural_return_not_observed":true,"observations_are_not_a_completed_step_or_a_scientific_certificate":true,"observation_identity_sha256":"7a8e95d4ee7292b88d210470a0a467e5f43343630888888972c4de154b17b6d7","observed_utc":"2026-11-28T04:30:58Z"}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 40852,
-    "sha256": "aed295b902a23d67abc68a9da30591eeda49e7c6fde8f020026b8405d82a18e4",
-    "git_blob_sha": "4325f1a545e386c197a2d31db51ec295451c91ce",
-    "fixed_commit": "7a8d853e1e795ba584980e72f23968d7cae537ef",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":40852,"sha256":"aed295b902a23d67abc68a9da30591eeda49e7c6fde8f020026b8405d82a18e4","git_blob_sha":"4325f1a545e386c197a2d31db51ec295451c91ce","fixed_commit":"7a8d853e1e795ba584980e72f23968d7cae537ef","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 05:05:57 UTC — 25第三个恢复步实际接受及曲率位置
@@ -704,117 +113,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 完整原观察含实际source/PID/driver/model/target/initial/current/trial、全部六物理族、原normal进度和每一观察错误如下。工作几何complete仅指该有限步骤；没有whole准确界或README完成。完整全量report与child自然返回仍未观察。
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-first-20261128",
-  "scientific_source_commit": "870e11a12df457bac9c538b8a4ec054d93cd572d",
-  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
-  "pid": 3219,
-  "observations": {
-    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_scope_closed",
-      "at": "2026-11-28 04:54:36 UTC",
-      "point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "cached_angle_roots": 1441,
-      "closure_original_returns": 126603,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T04:56:14.913562+00:00",
-      "math_event": "current-geometry-returned",
-      "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 681.6517423825409,
-      "initial_Gram": 0.40616525311769985,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.5305849371949052,
-      "initial_geometry_complete": true,
-      "current_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "current_Phi": 681.6470516175361,
-      "current_Gram": 0.40616529581758637,
-      "current_geometry_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "current_violation": 0.5235597907246015,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "trial_Phi": 681.6470516175361,
-      "trial_Gram": 0.40616529581758637,
-      "trial_geometry_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "trial_violation": 0.5235597907246015,
-      "trial_geometry_complete": true,
-      "trial_accepted": true,
-      "accepted_directions": 3,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.5235597907246015,
-      "current_g_body_diameter": -0.038136386569002756,
-      "current_g_distance_plus": 0.11392305204890485,
-      "current_g_distance_minus": -3.093633727173847,
-      "current_g_cap_diameter": -0.06715168866958865,
-      "current_g_height_floor": -1.0411711268457509,
-      "previous_completed_trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
-      "previous_completed_trial_g": 0.5235597907246015,
-      "previous_completed_trial_accepted": true,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 681.6470516175361,
-      "previous_completed_trial_Gram": 0.40616529581758637,
-      "current_K": 12.270228137176547,
-      "current_D_point_lower": 4.1171736275838065,
-      "current_K_cell": 885,
-      "current_K_u": 0.9662347571015759,
-      "current_K_phi": 1.5707963267948966,
-      "current_K_branch": 1,
-      "current_K_s": null,
-      "trial_K": 12.270228137176547,
-      "trial_K_cell": 885,
-      "trial_K_u": 0.9662347571015759,
-      "trial_K_phi": 1.5707963267948966,
-      "trial_K_branch": 1,
-      "trial_K_s": null,
-      "trial_alpha": 1,
-      "trial_phase": "restoration",
-      "current_distance_plus_phi": 1.5707963267948966
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3400,
-      "sha256": "ab17066db20fcf576bd593fb3f1313038f7944ae45b9bf4abb84acae3314e6db",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 15574,
-      "sha256": "f81407971906b3a741f6bf5552b6a85fad39604e6795703214accd83b00d058d",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "b9a27bd569d1ba0753b996fd114948ced882ccfbd2a5085555d1f2b96b76a8a7",
-  "observed_utc": "2026-11-28T05:01:07Z"
-}
+{"step_id":"complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-first-20261128","scientific_source_commit":"870e11a12df457bac9c538b8a4ec054d93cd572d","scientific_source_sha256":"804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe","pid":3219,"observations":{"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json":{"phase":"normal_chain_scope_closed","at":"2026-11-28 04:54:36 UTC","point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","cached_angle_roots":1441,"closure_original_returns":126603,"closure_logical_failures":0},"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json":{"math_at":"2026-11-28T04:56:14.913562+00:00","math_event":"current-geometry-returned","math_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","math_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","math_source":"4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94","math_target":"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9","initial_point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","initial_Phi":681.6517423825409,"initial_Gram":0.40616525311769985,"initial_geometry_point":"7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47","initial_violation":0.5305849371949052,"initial_geometry_complete":true,"current_point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","current_Phi":681.6470516175361,"current_Gram":0.40616529581758637,"current_geometry_point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","current_violation":0.5235597907246015,"current_geometry_complete":true,"current_state":"accepted restoration checkpoint returned; final report not inferred","trial_point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","trial_Phi":681.6470516175361,"trial_Gram":0.40616529581758637,"trial_geometry_point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","trial_violation":0.5235597907246015,"trial_geometry_complete":true,"trial_accepted":true,"accepted_directions":3,"complete_report":false,"stop_reason":null,"observer_failures":0,"current_g_reach":0.5235597907246015,"current_g_body_diameter":-0.038136386569002756,"current_g_distance_plus":0.11392305204890485,"current_g_distance_minus":-3.093633727173847,"current_g_cap_diameter":-0.06715168866958865,"current_g_height_floor":-1.0411711268457509,"previous_completed_trial_point":"e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf","previous_completed_trial_g":0.5235597907246015,"previous_completed_trial_accepted":true,"previous_completed_trial_maximum_families":"reach","previous_completed_trial_Phi":681.6470516175361,"previous_completed_trial_Gram":0.40616529581758637,"current_K":12.270228137176547,"current_D_point_lower":4.1171736275838065,"current_K_cell":885,"current_K_u":0.9662347571015759,"current_K_phi":1.5707963267948966,"current_K_branch":1,"current_K_s":null,"trial_K":12.270228137176547,"trial_K_cell":885,"trial_K_u":0.9662347571015759,"trial_K_phi":1.5707963267948966,"trial_K_branch":1,"trial_K_s":null,"trial_alpha":1,"trial_phase":"restoration","current_distance_plus_phi":1.5707963267948966}},"complete_small_progress_file_identities":[{"path":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json","bytes":3400,"sha256":"ab17066db20fcf576bd593fb3f1313038f7944ae45b9bf4abb84acae3314e6db","two_complete_bounded_reads_agreed":true},{"path":"fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json","bytes":15574,"sha256":"f81407971906b3a741f6bf5552b6a85fad39604e6795703214accd83b00d058d","two_complete_bounded_reads_agreed":true}],"observation_errors":[],"child_exit_code":null,"child_natural_return_not_observed":true,"observations_are_not_a_completed_step_or_a_scientific_certificate":true,"observation_identity_sha256":"b9a27bd569d1ba0753b996fd114948ced882ccfbd2a5085555d1f2b96b76a8a7","observed_utc":"2026-11-28T05:01:07Z"}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 38994,
-    "sha256": "e1a1ccef636b085abb291b265f7ff560dbf9e7c103e3dbca6b4b265435043123",
-    "git_blob_sha": "a52fd8617cfa0391322bece62fa5aae6ed8b83c7",
-    "fixed_commit": "7e0683e820718743a3a62cc475bc465eb60f36e7",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":38994,"sha256":"e1a1ccef636b085abb291b265f7ff560dbf9e7c103e3dbca6b4b265435043123","git_blob_sha":"a52fd8617cfa0391322bece62fa5aae6ed8b83c7","fixed_commit":"7e0683e820718743a3a62cc475bc465eb60f36e7","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 05:47:02 UTC — 25后续试步的实际统计返回
@@ -824,16 +129,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 40853,
-    "sha256": "d2e7c1fbff39f1ef12de2f519ad6f7c8b6174d1822ddbeb816305efdca10d084",
-    "git_blob_sha": "740acbd5d551044fe76e30058140b13ac200665e",
-    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":40853,"sha256":"d2e7c1fbff39f1ef12de2f519ad6f7c8b6174d1822ddbeb816305efdca10d084","git_blob_sha":"740acbd5d551044fe76e30058140b13ac200665e","fixed_commit":"6678c474e2abe0e650bb9eda35d04e23acc55964","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 05:54:37 UTC — 25科学自然返回与原完整pure同runner接续
@@ -845,98 +141,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 只有科学已自然返回后，才以既刊完整pure ready的唯一step原对象替换当前完整队列，仍使用active parent_request_id=visible-larger-resume-20261128-25，所有7词、445 formal selectors、源/输入/输出与预算不变。旧3step queue74384B在固定全原身份保留；新pure-only完整46860B/57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee，finish_when_done保原false，同一个公开runner读自己whole report，不重建已完成科学、不转移raw、不取消child。根继续研究当前全场而非在本阶段退出。
 
 ```json
-{
-  "schema": "actual-run25-science-complete-and-same-runner-pure-continuation-v1",
-  "actual_run": "46099929359/1",
-  "actual_scientific_source_commit": "870e11a12df457bac9c538b8a4ec054d93cd572d",
-  "actual_scientific_launcher_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
-  "actual_returncode": 0,
-  "actual_seconds": 9668.217378869,
-  "actual_stop": "declared_restoration_budget; actual_violation_remains_and_is_not_accepted",
-  "actual_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-  "actual_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "actual_Phi": 681.6450227773521,
-  "actual_Gram": 0.40616533555531326,
-  "actual_accepted_restoration_steps": 4,
-  "actual_complete_report": true,
-  "whole_report": {
-    "path": "/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-first/report.json",
-    "sha256": "c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4",
-    "bytes": 51804983
-  },
-  "whole_command_record": {
-    "path": "/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-first-command.json",
-    "sha256": "10518e5852f407ac985ecd8a25b14fff940b0b20b10ad7acb2e3e93e108ebe59",
-    "bytes": 50683
-  },
-  "actual_final_bundle_sha256": "de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f",
-  "complete_current_six_constraints": {
-    "six_g_current_reach": 0.5225620087197518,
-    "six_g_current_body_diameter": -0.03813680394177532,
-    "six_g_current_distance_plus": 0.11392426792936117,
-    "six_g_current_distance_minus": -3.0936337274168686,
-    "six_g_current_cap_diameter": -0.0671518843209028,
-    "six_g_current_height_floor": -1.0411708808898954
-  },
-  "actual_geometry_complete_final_point_reads": {
-    "union_locations": 1496,
-    "original_point_reads": 1496,
-    "original_loop_complete": true,
-    "root_preparation_status": "returned"
-  },
-  "complete_old_three_step_queue": {
-    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json",
-    "bytes": 74384,
-    "sha": "1b97e5b22477bb7e34146654c9ebd256f58a5d53",
-    "sha256": "343faccb7a2872331de9a3ba6607ac1d62ec831cdd88fc2b8defa62a6aadfcf4",
-    "ref": "6577954e3cf1f11c921823df02a0251e13f52d10"
-  },
-  "complete_prepared_pure": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json",
-    "bytes": 58591,
-    "sha": "f4a8af980ed367180148407da7e878ec337a38bd",
-    "sha256": "8a52cf078f41e5d9b6081fbd41ca601b207646cabb6e34b53b4865a59d6e1e62",
-    "ref": "6577954e3cf1f11c921823df02a0251e13f52d10"
-  },
-  "complete_new_pure_only_queue": {
-    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json",
-    "bytes": 46860,
-    "sha256": "57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee",
-    "sha": "8a4f196f583235cbf0495982383f205227c5e9a3"
-  },
-  "entire_pure_step_unchanged": true,
-  "pure_args_count": 7,
-  "complete_original_formal_selectors": 445,
-  "same_actual_runner_local_report_required": true,
-  "raw_data_transferred": false,
-  "old_completed_step_journal_and_reports_retained": true,
-  "active_child_cancelled": false,
-  "new_pure_actual_source_or_return": null,
-  "whole_feasible_field_claimed": false
-}
+{"schema":"actual-run25-science-complete-and-same-runner-pure-continuation-v1","actual_run":"46099929359/1","actual_scientific_source_commit":"870e11a12df457bac9c538b8a4ec054d93cd572d","actual_scientific_launcher_sha256":"804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe","actual_returncode":0,"actual_seconds":9668.217378869,"actual_stop":"declared_restoration_budget; actual_violation_remains_and_is_not_accepted","actual_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","actual_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","actual_Phi":681.6450227773521,"actual_Gram":0.40616533555531326,"actual_accepted_restoration_steps":4,"actual_complete_report":true,"whole_report":{"path":"/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-first/report.json","sha256":"c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4","bytes":51804983},"whole_command_record":{"path":"/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-first-command.json","sha256":"10518e5852f407ac985ecd8a25b14fff940b0b20b10ad7acb2e3e93e108ebe59","bytes":50683},"actual_final_bundle_sha256":"de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f","complete_current_six_constraints":{"six_g_current_reach":0.5225620087197518,"six_g_current_body_diameter":-0.03813680394177532,"six_g_current_distance_plus":0.11392426792936117,"six_g_current_distance_minus":-3.0936337274168686,"six_g_current_cap_diameter":-0.0671518843209028,"six_g_current_height_floor":-1.0411708808898954},"actual_geometry_complete_final_point_reads":{"union_locations":1496,"original_point_reads":1496,"original_loop_complete":true,"root_preparation_status":"returned"},"complete_old_three_step_queue":{"path":"topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json","bytes":74384,"sha":"1b97e5b22477bb7e34146654c9ebd256f58a5d53","sha256":"343faccb7a2872331de9a3ba6607ac1d62ec831cdd88fc2b8defa62a6aadfcf4","ref":"6577954e3cf1f11c921823df02a0251e13f52d10"},"complete_prepared_pure":{"path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-pure-complete-ready.json","bytes":58591,"sha":"f4a8af980ed367180148407da7e878ec337a38bd","sha256":"8a52cf078f41e5d9b6081fbd41ca601b207646cabb6e34b53b4865a59d6e1e62","ref":"6577954e3cf1f11c921823df02a0251e13f52d10"},"complete_new_pure_only_queue":{"path":"topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-25.json","bytes":46860,"sha256":"57f069ddfbaad7897e4a8c97cba7555dc75e4070afb59d411d85b16584fc5cee","sha":"8a4f196f583235cbf0495982383f205227c5e9a3"},"entire_pure_step_unchanged":true,"pure_args_count":7,"complete_original_formal_selectors":445,"same_actual_runner_local_report_required":true,"raw_data_transferred":false,"old_completed_step_journal_and_reports_retained":true,"active_child_cancelled":false,"new_pure_actual_source_or_return":null,"whole_feasible_field_claimed":false}
 ```
 
 完整固定原证据：
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 34174,
-    "sha256": "85aa15720cb2883218d83d429875558899ea976a1adf4c05a807a6af5ac91515",
-    "git_blob_sha": "c9d691e523bf41aacfc812f3b68b4e77bf6e93ca",
-    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
-    "scope": "Complete original index/stage volume: full request, all 439 returned science scalars, all 19 summary errors, source, full command, input and output identities."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-001.md",
-    "bytes": 54364,
-    "sha256": "22b34e03950874dc536958c1790acc1fd032a5d7dd167e30d81d7acb36d1aacd",
-    "git_blob_sha": "1378240607367436af10107e965bb2aea69bfa20",
-    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
-    "scope": "Complete original index/stage volume: full request, all 439 returned science scalars, all 19 summary errors, source, full command, input and output identities."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":34174,"sha256":"85aa15720cb2883218d83d429875558899ea976a1adf4c05a807a6af5ac91515","git_blob_sha":"c9d691e523bf41aacfc812f3b68b4e77bf6e93ca","fixed_commit":"fa4b2c2988b5d1e8f00770a045d4b172dc361961","scope":"Complete original index/stage volume: full request, all 439 returned science scalars, all 19 summary errors, source, full command, input and output identities."},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-001.md","bytes":54364,"sha256":"22b34e03950874dc536958c1790acc1fd032a5d7dd167e30d81d7acb36d1aacd","git_blob_sha":"1378240607367436af10107e965bb2aea69bfa20","fixed_commit":"fa4b2c2988b5d1e8f00770a045d4b172dc361961","scope":"Complete original index/stage volume: full request, all 439 returned science scalars, all 19 summary errors, source, full command, input and output identities."}]
 ```
 
 ## 2026-11-28 06:04:00 UTC — 25完整pure实际返回与同源终点续跑边界
@@ -950,53 +161,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 下一真实输入将是同一runner的完整原报告与13成员final。已刊run13 restart不能直接换名字冒25 source/model；当前25源码原分支已确认允许完整同source的不可行final继续，完整参数接续由独立来源说明给出。此刻仅保实际pure结果，不宣称尚未启动的新步骤已执行。
 
 ```json
-{
-  "pure_returncode": 0,
-  "pure_seconds": 313.30434169100045,
-  "actual_pure_outputs": [
-    {
-      "path": "/home/runner/work/_temp/visible-larger-research-46099929359-1/research/postprocess/fixed-fejer-paired-halfwave-dk-cache-bhalf-first-readout.json",
-      "sha256": "f85786788a9a5a56279eaec742e8e1c851efe3a6e72e7f6a442855a788c617a1",
-      "bytes": 8554125
-    }
-  ],
-  "actual_report": "c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4",
-  "actual_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-  "actual_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-  "actual_target": "d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160",
-  "actual_final_bundle": "de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f",
-  "actual_final_mu": 0.01,
-  "actual_envelope_typed_memory": 13,
-  "actual_envelope_typed_memory_hash": "b0f7d5a2346b27ada6e6619877da8d2c3ad05ab1f6345dfd00405356d3f86ed3",
-  "actual_packet_outer": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "actual_packet_cache": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "actual_packet_complete": true,
-  "actual_cross_point_backfill": false,
-  "actual_stop": "declared_restoration_budget; actual_violation_remains_and_is_not_accepted"
-}
+{"pure_returncode":0,"pure_seconds":313.30434169100045,"actual_pure_outputs":[{"path":"/home/runner/work/_temp/visible-larger-research-46099929359-1/research/postprocess/fixed-fejer-paired-halfwave-dk-cache-bhalf-first-readout.json","sha256":"f85786788a9a5a56279eaec742e8e1c851efe3a6e72e7f6a442855a788c617a1","bytes":8554125}],"actual_report":"c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4","actual_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","actual_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","actual_target":"d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160","actual_final_bundle":"de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f","actual_final_mu":0.01,"actual_envelope_typed_memory":13,"actual_envelope_typed_memory_hash":"b0f7d5a2346b27ada6e6619877da8d2c3ad05ab1f6345dfd00405356d3f86ed3","actual_packet_outer":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","actual_packet_cache":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","actual_packet_complete":true,"actual_cross_point_backfill":false,"actual_stop":"declared_restoration_budget; actual_violation_remains_and_is_not_accepted"}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 34351,
-    "sha256": "174d1323c2684b5f788f066040739c6c18a7723c85ac27bd56e7c1a5e4d5eadd",
-    "git_blob_sha": "52bf00e80345b8c7713a70eda4512e76e4344126",
-    "fixed_commit": "4969cfa0b12514b1466b4b916e5e877f26d95d48",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-002.md",
-    "bytes": 33046,
-    "sha256": "b58b50d80400b671df9aa22b993e54ea9e7bed29b3d6052961ebe37dacbf3064",
-    "git_blob_sha": "9614c809d95c25d757c0406b9f168cb6094541f1",
-    "fixed_commit": "4969cfa0b12514b1466b4b916e5e877f26d95d48",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":34351,"sha256":"174d1323c2684b5f788f066040739c6c18a7723c85ac27bd56e7c1a5e4d5eadd","git_blob_sha":"52bf00e80345b8c7713a70eda4512e76e4344126","fixed_commit":"4969cfa0b12514b1466b4b916e5e877f26d95d48","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-002.md","bytes":33046,"sha256":"b58b50d80400b671df9aa22b993e54ea9e7bed29b3d6052961ebe37dacbf3064","git_blob_sha":"9614c809d95c25d757c0406b9f168cb6094541f1","fixed_commit":"4969cfa0b12514b1466b4b916e5e877f26d95d48","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 06:16:13 UTC — 25完整同源续跑实际启动
@@ -1004,41 +175,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原run46099929359/1的完整restart-01 science已被原controller实际领取，执行source f250c57887597755b6aa9cc67afa7e1da9c8959f，原launcher SHA804bb61c不变，PID12394。首次06:13:51Z观察尚无两份progress，两个FileNotFoundError完整保留；这属于早期未生成文件，不据此宣布失败或确认已经成功装入父场。新的初统计、typed实际读取、final和接受结果全部仍未知。
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128",
-  "scientific_source_commit": "f250c57887597755b6aa9cc67afa7e1da9c8959f",
-  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
-  "pid": 12394,
-  "observed_utc": "2026-11-28T06:13:51Z",
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "mathematical_observation": null,
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json",
-      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json'"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json",
-      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json'"
-    }
-  ]
-}
+{"step_id":"complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128","scientific_source_commit":"f250c57887597755b6aa9cc67afa7e1da9c8959f","scientific_source_sha256":"804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe","pid":12394,"observed_utc":"2026-11-28T06:13:51Z","child_exit_code":null,"child_natural_return_not_observed":true,"mathematical_observation":null,"observation_errors":[{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json","error":"FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json'"},{"report":"fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json","error":"FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json'"}]}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 35927,
-    "sha256": "96fc519207cb49037f83a3b17e1d7d676d2211f6db86656678d7321474d10db5",
-    "git_blob_sha": "7833b98bfb99f3f25e36247c9a9f29a27b919c08",
-    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":35927,"sha256":"96fc519207cb49037f83a3b17e1d7d676d2211f6db86656678d7321474d10db5","git_blob_sha":"7833b98bfb99f3f25e36247c9a9f29a27b919c08","fixed_commit":"fec2ee37e0befe693af53f92b3b12bf91b83305f","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 06:23:13 UTC — 25同源续跑在真实父点的normal进度返回
@@ -1046,66 +189,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原restart-01在06:18:56Z实际观察到normal进度进入真实父完整点a28ae的求根；这是同point的实际normal返回进度，尚未返回新初统计/几何或接受。math仍prepared，accepted=0/report=false。完整原47提取错误保在固定索引；prepared本身不宣称成功读入，normal的具体point单独作为真实运行观察登记。未来四方向、final及pure仍未知。
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128",
-  "scientific_source_commit": "f250c57887597755b6aa9cc67afa7e1da9c8959f",
-  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
-  "pid": 12394,
-  "observed_utc": "2026-11-28T06:18:56Z",
-  "observations": {
-    "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 06:18:52 UTC",
-      "point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-      "cached_angle_roots": 480,
-      "closure_original_returns": 7860,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T06:13:57.178544+00:00",
-      "math_event": "prepared",
-      "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "current_state": "prepared; no field read or acceptance inferred",
-      "accepted_directions": 0,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json",
-      "bytes": 3300,
-      "sha256": "793f8027ac60967c471c47234b373bb579dd43384fc0d2ba92a5a8ad84fe5e49",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json",
-      "bytes": 1692,
-      "sha256": "36cb4d0935bcfc9f563bcdc58e077841e32edc6c0bf84c79bf30aa000b04a7d4",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_error_count": 47
-}
+{"step_id":"complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128","scientific_source_commit":"f250c57887597755b6aa9cc67afa7e1da9c8959f","scientific_source_sha256":"804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe","pid":12394,"observed_utc":"2026-11-28T06:18:56Z","observations":{"fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json":{"phase":"normal_chain_enter","at":"2026-11-28 06:18:52 UTC","point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","cached_angle_roots":480,"closure_original_returns":7860,"closure_logical_failures":0},"fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json":{"math_at":"2026-11-28T06:13:57.178544+00:00","math_event":"prepared","math_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","math_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","math_source":"4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94","math_target":"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9","current_state":"prepared; no field read or acceptance inferred","accepted_directions":0,"complete_report":false,"stop_reason":null,"observer_failures":0}},"complete_small_progress_file_identities":[{"path":"fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json","bytes":3300,"sha256":"793f8027ac60967c471c47234b373bb579dd43384fc0d2ba92a5a8ad84fe5e49","two_complete_bounded_reads_agreed":true},{"path":"fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json","bytes":1692,"sha256":"36cb4d0935bcfc9f563bcdc58e077841e32edc6c0bf84c79bf30aa000b04a7d4","two_complete_bounded_reads_agreed":true}],"observation_error_count":47}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 48449,
-    "sha256": "8c0a824be3d35f19ef63387ce5892975a93a0ce99d7505de69706cee15b0bfa4",
-    "git_blob_sha": "3a0b7a372528535898f23872d36e56b6e2ffe210",
-    "fixed_commit": "838e3575df13d5869479db4198769baff7685cac",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":48449,"sha256":"8c0a824be3d35f19ef63387ce5892975a93a0ce99d7505de69706cee15b0bfa4","git_blob_sha":"3a0b7a372528535898f23872d36e56b6e2ffe210","fixed_commit":"838e3575df13d5869479db4198769baff7685cac","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 06:29:56 UTC — 25续跑在真实父点的初始统计已返回
@@ -1113,48 +203,13 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 同run restart-01的自身初统计已实际返回：完整点a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf，Phi681.6450227773521、Gram.40616533555531326，与前完整终点的直接观察相同。新调用accepted=0，父调用accepted4保在父报告，不相加冒当前计数。新初几何尚未返回，旧父g不会回填；full report/final/pure仍未知。
 
 ```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128",
-  "scientific_source_commit": "f250c57887597755b6aa9cc67afa7e1da9c8959f",
-  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
-  "pid": 12394,
-  "observed_utc": "2026-11-28T06:23:58Z",
-  "new_actual_observation": {
-    "math_at": "2026-11-28T06:19:14.424630+00:00",
-    "math_event": "initial-statistics-returned",
-    "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-    "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-    "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
-    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-    "initial_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-    "initial_Phi": 681.6450227773521,
-    "initial_Gram": 0.40616533555531326,
-    "current_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-    "current_Phi": 681.6450227773521,
-    "current_Gram": 0.40616533555531326,
-    "current_state": "initial statistics returned; no accepted direction",
-    "accepted_directions": 0,
-    "complete_report": false,
-    "stop_reason": null,
-    "observer_failures": 0
-  },
-  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
-}
+{"step_id":"complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128","scientific_source_commit":"f250c57887597755b6aa9cc67afa7e1da9c8959f","scientific_source_sha256":"804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe","pid":12394,"observed_utc":"2026-11-28T06:23:58Z","new_actual_observation":{"math_at":"2026-11-28T06:19:14.424630+00:00","math_event":"initial-statistics-returned","math_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","math_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","math_source":"4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94","math_target":"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9","initial_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","initial_Phi":681.6450227773521,"initial_Gram":0.40616533555531326,"current_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","current_Phi":681.6450227773521,"current_Gram":0.40616533555531326,"current_state":"initial statistics returned; no accepted direction","accepted_directions":0,"complete_report":false,"stop_reason":null,"observer_failures":0},"all_other_fields_and_errors":"Preserved in the entire original immutable evidence file below; no stale trial object is rebound."}
 ```
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 47407,
-    "sha256": "dc4e2c33d0b67728c0a3a49a9396fcfef0b88bd2993a1b53588c588a1864bcfc",
-    "git_blob_sha": "50ea87175ba5da9cec10ba5b2a5f84d519853279",
-    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":47407,"sha256":"dc4e2c33d0b67728c0a3a49a9396fcfef0b88bd2993a1b53588c588a1864bcfc","git_blob_sha":"50ea87175ba5da9cec10ba5b2a5f84d519853279","fixed_commit":"405ab36831ff0c73112428b55debed613c5352e8","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 07:07:13 UTC — 25同源续跑自身初几何及b4d1试点统计实返
@@ -1164,51 +219,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 06:57:04.492431Z出现新的真实试点 b4d1d9645c45970536d6b4141b122fc21617e3749cd0697104188e43c58200ca，restoration alpha1，自己的Phi681.6450177984617/Gram.40616533565287705。其几何、是否接受以及完整报告未返回；不拿当前a28ae几何填试点。
 
 ```json
-{
-  "math_at": "2026-11-28T06:57:04.492431+00:00",
-  "math_event": "trial-statistics-returned",
-  "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
-  "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-  "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "initial_Phi": 681.6450227773521,
-  "initial_Gram": 0.40616533555531326,
-  "initial_geometry_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "initial_violation": 0.5225620087197518,
-  "initial_geometry_complete": true,
-  "current_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "current_Phi": 681.6450227773521,
-  "current_Gram": 0.40616533555531326,
-  "current_geometry_point": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
-  "current_violation": 0.5225620087197518,
-  "current_geometry_complete": true,
-  "current_state": "initial statistics returned; no accepted direction",
-  "trial_point": "b4d1d9645c45970536d6b4141b122fc21617e3749cd0697104188e43c58200ca",
-  "trial_Phi": 681.6450177984617,
-  "trial_Gram": 0.40616533565287705,
-  "trial_accepted": null,
-  "accepted_directions": 0,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.5225620087197518,
-  "current_g_body_diameter": -0.03813680394177532,
-  "current_g_distance_plus": 0.11392426792936117,
-  "current_g_distance_minus": -3.0936337274168686,
-  "current_g_cap_diameter": -0.0671518843209028,
-  "current_g_height_floor": -1.0411708808898954,
-  "current_K": 12.262152585881132,
-  "current_D_point_lower": 4.117172734319764,
-  "current_K_cell": 885,
-  "current_K_u": 0.9662347571015759,
-  "current_K_phi": 1.5707963267948966,
-  "current_K_branch": 1,
-  "current_K_s": null,
-  "trial_alpha": 1,
-  "trial_phase": "restoration",
-  "current_distance_plus_phi": 1.5707963267948966
-}
+{"math_at":"2026-11-28T06:57:04.492431+00:00","math_event":"trial-statistics-returned","math_driver":"7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910","math_model":"6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef","math_source":"4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94","math_target":"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9","initial_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","initial_Phi":681.6450227773521,"initial_Gram":0.40616533555531326,"initial_geometry_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","initial_violation":0.5225620087197518,"initial_geometry_complete":true,"current_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","current_Phi":681.6450227773521,"current_Gram":0.40616533555531326,"current_geometry_point":"a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf","current_violation":0.5225620087197518,"current_geometry_complete":true,"current_state":"initial statistics returned; no accepted direction","trial_point":"b4d1d9645c45970536d6b4141b122fc21617e3749cd0697104188e43c58200ca","trial_Phi":681.6450177984617,"trial_Gram":0.40616533565287705,"trial_accepted":null,"accepted_directions":0,"complete_report":false,"stop_reason":null,"observer_failures":0,"current_g_reach":0.5225620087197518,"current_g_body_diameter":-0.03813680394177532,"current_g_distance_plus":0.11392426792936117,"current_g_distance_minus":-3.0936337274168686,"current_g_cap_diameter":-0.0671518843209028,"current_g_height_floor":-1.0411708808898954,"current_K":12.262152585881132,"current_D_point_lower":4.117172734319764,"current_K_cell":885,"current_K_u":0.9662347571015759,"current_K_phi":1.5707963267948966,"current_K_branch":1,"current_K_s":null,"trial_alpha":1,"trial_phase":"restoration","current_distance_plus_phi":1.5707963267948966}
 ```
 
 完整观测错误、全部原请求/源角色/预算/输入与原返回身份由下面固定整索引保留；原parentreport及13个final/typed13沿已刊完整同源续跑包。不改变本子进程、参数或预算，真实自然返回后才接完整pure。
@@ -1216,16 +227,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 42279,
-    "sha256": "dd8c950e4da04eb7061bba5124525fa24cffb2ad355151bf7a471763434e59c7",
-    "git_blob_sha": "8f1910da435c4c9d4a06c2a40637b90a639ec909",
-    "fixed_commit": "52c90c05f4974a1f50d4ed358634c04a01a627b6",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":42279,"sha256":"dd8c950e4da04eb7061bba5124525fa24cffb2ad355151bf7a471763434e59c7","git_blob_sha":"8f1910da435c4c9d4a06c2a40637b90a639ec909","fixed_commit":"52c90c05f4974a1f50d4ed358634c04a01a627b6","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 07:49:39 UTC — 25同源续跑全步被拒、半步自身统计返回
@@ -1235,16 +237,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 41188,
-    "sha256": "59ca14e1cd12caa7c7876e6deb12398b0e136a029799c4015368db673cab0f00",
-    "git_blob_sha": "5f4927d0b6656538b29cd17a7708c22265ec583e",
-    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":41188,"sha256":"59ca14e1cd12caa7c7876e6deb12398b0e136a029799c4015368db673cab0f00","git_blob_sha":"5f4927d0b6656538b29cd17a7708c22265ec583e","fixed_commit":"48ce66d0585eacc472027355e9674100aebb41a5","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 08:26:07 UTC — 25同源restart半步拒绝，四分之一步仅统计
@@ -1256,16 +249,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 41189,
-    "sha256": "87b70ea97abd1374100f5ce4028fa0680a6ba6977bbc0c16cd1f84b01d09815e",
-    "git_blob_sha": "97380cc6b159c1baff187a5172ab1a9065fae786",
-    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":41189,"sha256":"87b70ea97abd1374100f5ce4028fa0680a6ba6977bbc0c16cd1f84b01d09815e","git_blob_sha":"97380cc6b159c1baff187a5172ab1a9065fae786","fixed_commit":"81ab3893dbff4e248adc6c3e97ebd928a03c196e","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```
 
 ## 2026-11-28 09:07:04 UTC — 25同run续跑的官方取消与最后完整观察
@@ -1273,103 +257,7 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 官方 GET https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359/jobs 返回 attempt1/job140839831948 completed/cancelled，completed_at=2026-11-28T08:39:51Z；科学执行步08:39:43Z cancelled。响应没有原因；不从时长、停滞或父run猜原因。以下保全部响应字段及所有步骤。
 
 ```json
-{
-  "total_count": 1,
-  "jobs": [
-    {
-      "id": 140839831948,
-      "run_id": 46099929359,
-      "workflow_name": "Visible larger amplitude complete half-wave curvature cache and locations 20261128 25",
-      "head_branch": "main",
-      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359",
-      "run_attempt": 1,
-      "node_id": "CR_kwDOVt5L2s8AAAAgyrVJjA",
-      "head_sha": "007348e5c8bd943a13704d7761cf9d4d6b06fea6",
-      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140839831948",
-      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46099929359/job/140839831948",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2026-11-28T02:49:29Z",
-      "started_at": "2026-11-28T02:49:30Z",
-      "completed_at": "2026-11-28T08:39:51Z",
-      "name": "Construct the same fixed target and solve the complete half-wave with exact dk reuse",
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1,
-          "started_at": "2026-11-28T02:49:31Z",
-          "completed_at": "2026-11-28T02:49:31Z"
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2,
-          "started_at": "2026-11-28T02:49:31Z",
-          "completed_at": "2026-11-28T02:49:39Z"
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3,
-          "started_at": "2026-11-28T02:49:39Z",
-          "completed_at": "2026-11-28T02:49:44Z"
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 4,
-          "started_at": "2026-11-28T02:49:44Z",
-          "completed_at": "2026-11-28T02:50:05Z"
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "completed",
-          "conclusion": "cancelled",
-          "number": 5,
-          "started_at": "2026-11-28T02:50:05Z",
-          "completed_at": "2026-11-28T08:39:43Z"
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "skipped",
-          "number": 9,
-          "started_at": "2026-11-28T08:39:43Z",
-          "completed_at": "2026-11-28T08:39:43Z"
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 10,
-          "started_at": "2026-11-28T08:39:43Z",
-          "completed_at": "2026-11-28T08:39:44Z"
-        },
-        {
-          "name": "Complete job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 11,
-          "started_at": "2026-11-28T08:39:44Z",
-          "completed_at": "2026-11-28T08:39:44Z"
-        }
-      ],
-      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140839831948",
-      "labels": [
-        "ubuntu-latest"
-      ],
-      "runner_id": 1000012502,
-      "runner_name": "GitHub Actions 1000012502",
-      "runner_group_id": 0,
-      "runner_group_name": "GitHub Actions"
-    }
-  ]
-}
+{"total_count":1,"jobs":[{"id":140839831948,"run_id":46099929359,"workflow_name":"Visible larger amplitude complete half-wave curvature cache and locations 20261128 25","head_branch":"main","run_url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46099929359","run_attempt":1,"node_id":"CR_kwDOVt5L2s8AAAAgyrVJjA","head_sha":"007348e5c8bd943a13704d7761cf9d4d6b06fea6","url":"https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140839831948","html_url":"https://github.com/Rogerhu12/math-research-public/actions/runs/46099929359/job/140839831948","status":"completed","conclusion":"cancelled","created_at":"2026-11-28T02:49:29Z","started_at":"2026-11-28T02:49:30Z","completed_at":"2026-11-28T08:39:51Z","name":"Construct the same fixed target and solve the complete half-wave with exact dk reuse","steps":[{"name":"Set up job","status":"completed","conclusion":"success","number":1,"started_at":"2026-11-28T02:49:31Z","completed_at":"2026-11-28T02:49:31Z"},{"name":"Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262","status":"completed","conclusion":"success","number":2,"started_at":"2026-11-28T02:49:31Z","completed_at":"2026-11-28T02:49:39Z"},{"name":"Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065","status":"completed","conclusion":"success","number":3,"started_at":"2026-11-28T02:49:39Z","completed_at":"2026-11-28T02:49:44Z"},{"name":"Install the recorded numerical and automatic differentiation dependencies","status":"completed","conclusion":"success","number":4,"started_at":"2026-11-28T02:49:44Z","completed_at":"2026-11-28T02:50:05Z"},{"name":"Execute public research and publish independent compact records","status":"completed","conclusion":"cancelled","number":5,"started_at":"2026-11-28T02:50:05Z","completed_at":"2026-11-28T08:39:43Z"},{"name":"Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065","status":"completed","conclusion":"skipped","number":9,"started_at":"2026-11-28T08:39:43Z","completed_at":"2026-11-28T08:39:43Z"},{"name":"Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262","status":"completed","conclusion":"success","number":10,"started_at":"2026-11-28T08:39:43Z","completed_at":"2026-11-28T08:39:44Z"},{"name":"Complete job","status":"completed","conclusion":"success","number":11,"started_at":"2026-11-28T08:39:44Z","completed_at":"2026-11-28T08:39:44Z"}],"check_run_url":"https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140839831948","labels":["ubuntu-latest"],"runner_id":1000012502,"runner_name":"GitHub Actions 1000012502","runner_group_id":0,"runner_group_name":"GitHub Actions"}]}
 ```
 
 末完整索引固定3a38882e887dae0688835ccd9b1b41c7eb6d24c6，observed08:34:59Z，source f250c57887597755b6aa9cc67afa7e1da9c8959f/PID12394，driver7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910、model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef。原science/pure0和父accepted4独立保；restart-01新accepted仍0，当前a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf，Phi681.6450227773521/Gram.40616533555531326/reachg.5225620087197518；全六族、K12.262152585881132、D_point_lower4.117172734319764及准确热点/未知全保原索引。
@@ -1379,14 +267,5 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
 ```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
-    "bytes": 41187,
-    "sha256": "45c225c2b52da148ec25c116fd40684e62e57fd15052cad4449a42e6a68c0e87",
-    "git_blob_sha": "5b78bc523489b271d859e5f2b4925a0d3b14abae",
-    "fixed_commit": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
+[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md","bytes":41187,"sha256":"45c225c2b52da148ec25c116fd40684e62e57fd15052cad4449a42e6a68c0e87","git_blob_sha":"5b78bc523489b271d859e5f2b4925a0d3b14abae","fixed_commit":"3a38882e887dae0688835ccd9b1b41c7eb6d24c6","scope":"Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."}]
 ```

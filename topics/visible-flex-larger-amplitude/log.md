@@ -529,3 +529,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:43:58 UTC — R734实际首片宽及全415片协作前缀计算
 
 新增公开workflow .github/workflows/visible-larger-r734-exact-core.yml（课题外，为本题精确标量计算）。完整r734_exact_core_and_prefix.py经原maker/FullHold及五源固定身份恢复原accepted；所有实际调用依赖为标准库，hold仅检查hash不导入数值模块。全415片五谓词含重根/端点严格符号，48有理二分，raw全行只runner、完整小结回main。无F/J/normal计算，无完成声称。 双README云核至`f9554cce91f00d3d80a859a1526d19dfb3fdd6fb`无变（非pull）。
+
+## 2026-11-28 10:44:25 UTC — RET100B：只删完整历史JSON围栏外空白
+
+14项已终态历史whole notes共133个合法完整对象/数组仅删字符串外SP/TAB/CR/LF，保每个原数值token/键次序/escape/错误/null和所有人工prose；完整ledger5990B及逐文件再生器3747B含旧/新三身份、固定409235e恢复，净60886B。active33retry/34、35准备、所有request/queue/science/proof/独立JSON均未改。 双README云核至`612cebd64b2e06da4a3486345c8c7b0691988363`无变（非pull）。
