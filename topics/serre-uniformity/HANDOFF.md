@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：0afc1812edd26aac51cd78e2ea2ce4202fd8dc4d**（2026-11-28T19:57:45Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：f676d43154b59c5ac2b89a90cdfde1289b67ca22**（2026-11-28T20:00:39Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 真实部分clone与各次pull/readme/旧提交恢复沿log及逐字归档。数学程序仅本公开仓库Actions；本地/V8只作文本、git、metadata。新workflow已按用户授权CLI发布，既有publisher路径边界未改。root管main/H/open/index/log；子研究只candidate。新派代理按根规则16用gpt-6.2-astra/ultra。每条结论即推，非快进立即pull --rebase再推至成功。
 
@@ -47,6 +47,8 @@ H<10KB、open<30KB、各MD<100KB、topic<200MB；不存可重算raw/artifact/Rel
 [R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原T₀=b²r^(n−1)实际高PS返回给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²，p≡2mod3迫全支非零。完整V(C(T₀))=γ²2^mν45343/(35840Q0²)为unit，V|ker𝔠本原。§7同一原CM profile恰二次且w²unit；b²的首CM值−41/4，得到(V,首CMλ)aggregate单位minor。仍未付F0-balanced/指定C/whole-MW法向单位。
 
 [R1211](results/R1211-original-whole-highest-character-projector-integrality.md)q整性扩到全部最高σ权m²的Γ_all。新增centre h1·db/u在SS产生normal m、pole m的unit，higher h只低pole；高PS同次数界排除。故Γ_all=qΓ_all⊕(1−q)Γ_all，正deck πdb/u方向仍保。不能照搬负底单射或宣布整个R-Hodge/BT整分裂；继续原Π/Φ/极化与正例外方向。
+
+[R1212](results/R1212-original-arithmetic-quadratic-twist-and-highest-Frobenius.md)两平方类ε是actual Jac的(1,−1)自同构；原Hecke满足Tℓε=(ℓ/p)εTℓ，Galois满足σε=χ_p(σ)εσ，χ_p对应Q(√−p)。完整G-multiplicity的Vm/V1真为χ_p twist并保δ、CM/nonCM；回N固定线只作有理比较。原最高gap直接Čech给Ff_h=−A_sω_h/4；τ=B²归一后α纯置换s→s^p，Π²=−p，B(f̃_s,f̃_t)=3γ²B_s²·1_(t=s^p)/2，k双线性且B(δv,w)=B(v,δw)。只付generic ambient完美Gram；ker𝔠限制及actual pure Lie/whole MW单位继续。
 
 ## 其它入口与禁止重做
 

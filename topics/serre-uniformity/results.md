@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原算术二次变换与最高尾Frobenius完整规范（已证明，R1212）**：[R1212](results/R1212-original-arithmetic-quadratic-twist-and-highest-Frobenius.md)两平方类ε是actual Jac的(1,−1)自同构；原Hecke满足Tℓε=(ℓ/p)εTℓ，Galois满足σε=χ_p(σ)εσ，χ_p对应Q(√−p)。完整G-multiplicity的Vm/V1真为χ_p twist并保δ、CM/nonCM；回N固定线只作有理比较。原最高gap直接Čech给Ff_h=−A_sω_h/4；τ=B²归一后α纯置换s→s^p，Π²=−p，B(f̃_s,f̃_t)=3γ²B_s²·1_(t=s^p)/2，k双线性且B(δv,w)=B(v,δw)。只付generic ambient完美Gram；ker𝔠限制及actual pure Lie/whole MW单位继续。
+
 - **原literal双和全部安全相邻源的完整有限运输（已证明，R1194 §9.12）**：[R1194 §9.12](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)保持同一p=6N+5的literal W_K，全部0≤j≤N准确有W_(N+j)=(-1)^j C_N/(1/2)_j·Σ_(n=0)^N(n+2/3)_j c_n Δ_+^j h_n。先Q中完整Whipple；首邻唯一unit端项与首p共振边界抵消。一般j的真实balanced Saalschütz伴随及T_j对偶付全Green式，外端两个p零×至多一p极严格在pZp。h只读到2N，j=N+1不延；这给WZ全部安全shift的同原Newton矩接口，不宣两jet非同时零。
 
 - **原非标量CM辅助付principal与完整总p对角（已证明，R1179 §15）**：[R1179 §§14–15](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，现付全部奇3≤s≤p−2的c_s=βE_(s−1)Bp−s/(2sC^(s−1))，包括m₀=(p−1)/2。新取原CM α≡1 mod12、n=Nα非平方，真实一般isogeny θ_α有κ=n−n^(−m₀+1)=2n单位；全ray norm/同根/全嵌入与原normal保同一常数。先K后restrict原局部F，不添2。完整Z_p已统一含principal及−βTU^(p−3)/3+βU^(p−2)/6两carry；不除Euler/Bernoulli。principal差仍无mask，低偶R仍乘原(1−B_(p+1−2R)^(p−1))；完整Fay/邻行与actual共同纤维继续。

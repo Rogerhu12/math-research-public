@@ -804,3 +804,10 @@
 - root独立逐式核DA1–10（全部Pochhammer、有限算子交换、外边及末系数）；o2此前核j1。候选94abe2816ad84efe860d8f80e1eebf7768433593、blob b7f0e0588eb1c566588a719915f9eefa5cc130bd；旧R1194前缀逐字保留，完整53251B。无数学程序、无新prime窗，不将同源运输或旁unit代e/K4非同时零。
 - R1179 §15已真实推0f0e663890dcefce1f26799964f95fb0bb2e10f4；19:54:58UTC真实pull读80d92e98a5d3bb9f817e8580ab41a381b6a8c7b3，双README diff空。H压缩前逐字归档before-all-Hahn-adjacent。WZ run46182457620仍运行，按真实证书回执继续。
 - 本push规则：本地真实pull至 0afc1812edd26aac51cd78e2ea2ce4202fd8dc4d（2026-11-28T19:57:45Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1212：原full-six/full-p两平方类并集的ε给实际Jac代数自同构。全部Hecke pull–trace与Galois按同一χ_p交织，有限Vm/V1比较已提升至完整multiplicity的算术twist，保自然δ和CM/nonCM；原N固定线回收仅在特征零，不声称p-unit。
+- 同原highest gap [z⁻¹]由affine函数G=X^((m−1)/2)Y完整Čech计算给Ff=−Aω/4；canonical τ=B²与真α运输给具体ambient Gram 3γ²B_s²/2·1_(t=s^p)。Π²=−p、F²=−pα²及B的k双线性、δ自伴全部区分，未将ambient perfect误作ker𝔠或实际pureLie perfect。global/root独立逐式核，root亲重读R1036及R1200原来源；无数学程序。
+- R1194 §9.12已真实推13710fc81db576296bc4e5091149cd3672dc07eb；19:57:45UTC真实pull读0afc1812edd26aac51cd78e2ea2ce4202fd8dc4d，两README diff空。o2后到独核DA.9–10/一般j外边PASS：balanced参数、共轭有限算子、低端及p²×p⁻¹均准确；不额外扩大generic-K Whipple审计范围。
+- 本push规则：本地真实pull至 f676d43154b59c5ac2b89a90cdfde1289b67ca22（2026-11-28T20:00:39Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
