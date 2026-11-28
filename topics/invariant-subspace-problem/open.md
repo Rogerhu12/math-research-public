@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-full-two-column-exclusion-2190-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-five-original-unique-center-2195-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保。五ray和正e整k−2已闭。一般k λunit/f及Gram整/±4闭；新860063五原q/P/P1/R6/N5准确6×18实际0.430858720秒/40908KiB/0，108列坐标/18cofactor坐标/25全五源返回，固定新标量L56/59/42；首联合1009 Bézout只余L−3/4（7B摘要精确识别[756,1]），q在此为3(μ+2)²/8，故仅(3/4,−2)继续完整singleton新中心，未排空。内部u正阶567c实际0.025592954秒/38292KiB/0，R3/E5 gcd1及d³完整三源证书成；合已纸排各层整u支正式稿在写。无旧射线/首阶结式门重放，其余内部/DVR继续。
+W旧闭支/≤616824、b0≤23088与U0另3保。五ray/正e整k−2闭。新[完整五原六元呈示及唯一权中心](results/R150-appendix-unit211-W-b0-positive-e-generic-k-five-original-six-generator-presentation-and-one-residue-center.md)860真0.430858720秒/40908KiB/0，准确18列108坐标、三cofactor18坐标及25次五源返；标量L56/59/42首联合1009只余L−3/4，原q迫μ−2。实际选定scalar中P0/P1乘子零，未处理f相容。新该已迫中心完整PB0/(NB−PB)/e，仅必要Gram定义设L3/4µ−2，物理f自由；固定一对Fp[f]全原Bézout首次30秒/256MiB，无已成门重跑。内部u三原567c真0.025592954秒/38292KiB/0给R3/E5 gcd1、d³完整三源，整支稿已成待推；其余内部DVR继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

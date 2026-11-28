@@ -1,14 +1,18 @@
 {
-  "message": "ISP: prove complete two-column source cost and exclude the accretive complex denominator family",
-  "parentCommit": "37aa561afb7b70379a1488fa792579df651bf46f",
+  "message": "ISP: return exact five-original six-generator module and the unique positive-e residue center",
+  "parentCommit": "b30c290c42c366f3eaccfaebb6500e2ade231d1c",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R12-appendix-full-two-column-quartic-source-cost-and-accretive-denominator-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Haar-full-two-column-exclusion-2190-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Haar-full-two-column-exclusion-2190-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-positive-e-generic-k-five-original-six-generator-presentation-and-one-residue-center.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-positive-e-generic-k-five-original-six-generator-joint-input-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-positive-e-generic-k-only-L-three-quarter-mu-minus-two-singleton-input-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-positive-e-generic-k-only-L-three-quarter-mu-minus-two-singleton-input-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-w-positive-e-unique-center-complete-singletons.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-five-original-unique-center-2195-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-five-original-unique-center-2195-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +21,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-positive-e-unique-center-complete-singletons.yml"
+  ]
 }

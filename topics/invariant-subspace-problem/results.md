@@ -32,6 +32,8 @@
 
 ## 新增结论
 
+- [R150：正e一般k的完整五原6×18及唯一剩余中心](results/R150-appendix-unit211-W-b0-positive-e-generic-k-five-original-six-generator-presentation-and-one-residue-center.md)：实际0.430858720秒/0返回18列、三固定六阶和全五原模Bézout，只余L3/4、μ−2、k−8；物理f条件未检验，不称一般k或整个射线排空。
+
 - [R12：全两列四次来源费用与增生复杂分母族排除](results/R12-appendix-full-two-column-quartic-source-cost-and-accretive-denominator-exclusion.md)：保完整回绕F0/F1，纯尾Q⁴费用≤28η||Y||⁴/c²；同一Y的polylog运输与Qtail强*I矛盾，整个Reθ>0增生分母类无有界平方分子，亦排稳定根域包含其实际像。一般flat与未知旗商仍开。
 
 - [R150：正确Phi第二头的小首一lambda三次、准确3×6和两个sigma原必要式](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-three-by-six-and-two-sigma-scalars.md)：唯一实际0.172618653秒/0，σ5/6总16/25及全部三原乘子完整返回，六最终分母1；两头10/19未付，无联合gcd或排空。
