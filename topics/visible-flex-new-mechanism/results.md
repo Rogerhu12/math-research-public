@@ -45,3 +45,5 @@
 **R734.** [真实二进非解析平领与衰减半频方向](results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md)：确切w上固定j≥2有唯一真实稳定线，完整Cartesian零应变和C²两jet拼帽；原固定g有限q残差O(q²)。[首公开区间工单](notes/2026-11-28-r734-true-dyadic-tail-scope.md)为两边j2/3完整实际胞；非线性闭壳及j1帽倾仍未授。
 
 **R732.** [提高真实脉冲基线的两盘源与自由全盘三curl](results/R732-stronger-source-pulses-and-the-physical-three-curl-disc.md)：实际新g的全部既给边弦、已给混法球、源法管及完整Cartesian材料标成立，负Gauss预算更正；真实位置由三curl重建。首[公开求解工单](notes/2026-11-28-r732-physical-three-curl-disks-scope.md)完整30→63列、八相位，实际全盘同g与连续全壳资格仍待实证。
+
+**R733.** [真实全周S与方向负Gauss](results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md)：完整新源reach>.10、负Gauss方向供给>4、全参考D<3.11；活动常κ S准确同g并付所有活动S互球。原强基线常κ末圆角>11.3明确不授法管；弱源对应<10.30但仍未全盘。独立强源接口保留未执行，R740用真弱源/更完整空间继续。
