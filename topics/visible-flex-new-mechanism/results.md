@@ -547,3 +547,7 @@
 ## R635：双核端口w²项的准确边界消去
 
 [完整证明](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)给全导数与真实flux界面抵消；真实平尾和Morse全线参考的完整w²端口准确为零。严格非零工作缩为β0，有限cut与设计缩放的适用范围仍明确保留。
+
+## R633：真实全平Morse双核与全域共同参考逆
+
+[完整证明](results/R633-flat-ended-morse-double-kernel-global-reference.md)把左正规Morse截段接上同一真实双平尾；四正区控制保径向Cauchy数据后，两紧支撑参数恢复二/三双核。逐项支付全部整数频率、中心j²损失及尾Robin组装，得到共同加权逆；非线性状态相关返回/校正和本背景非零端口仍待支付。
