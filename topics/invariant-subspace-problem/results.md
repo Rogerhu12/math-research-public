@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：正确h=k整ellhalf的五原Q目标与完整六次u支持](results/R150-appendix-unit211-hk-ell-half-original-five-Q-cofactors-and-entire-sextic-u-cover.md)：首次6.111232795秒/0，真dual八行和五固定Sylvester全回，整K2[u]g12最终回八原式；正QQ范数是不可约六次四重。仅必要u覆盖，所有Q纤维与重数保，不宣整ellhalf排空。
+
 - [R150：正确h=k全Pf固定谱图的原首一t三次与三生成](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)：完整N0/P1仿射消去f/V，真均值与Loww四个最高系数在整权环生成单位，显示幂零提升后由(J−Q)/4得到矛盾；原理想含首一t³，1,t,t²全权生成，无新ellhalf/Δ/Φ/D逆。各权纤维长度≤3，权支撑与物理空性仍开。
 
 - [R150：正确Phi全部最高方向排除与全权二十二生成](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md)：真均值/完整Loww/R6的最高系统在整权环保幂零排空；(2,2,6)正则序列和固定45行degree8满射给未几何局部化必要代数22个指定单项式全权生成，旧392例外全部纳入。原值空性和权曲线仍开。
