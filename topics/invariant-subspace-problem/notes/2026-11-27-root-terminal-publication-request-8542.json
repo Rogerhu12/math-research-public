@@ -1,24 +1,20 @@
 {
-  "message": "ISP: prove complete Loww collision fibers and 8664 normalized point cover",
-  "parentCommit": "e5296e90b3317017d4195527f67ad1a1a3979afd",
+  "message": "ISP: construct two closed factors on the exact common stable Haar domain",
+  "parentCommit": "b279106bb406f604efc200c0a0de283d900e2429",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Loww-fibers-8664-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-fixed-u-seventeen-lambda-cover-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-fixed-u-seventeen-lambda-cover-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-fixed-u-seventeen-lambda-cover-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-hk-fixed-seventeen-lambda.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-full-NV-D-lowered-quartic-namespace-first-failure-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-full-NV-D-lowered-quartic-first-failure-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-full-NV-paid-M-quartic-original-two-columns-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-full-NV-paid-M-quartic-original-two-columns-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-full-NV-paid-M-quartic-original-two-columns-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-w-nv-paid-m-quartic.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-hk-Loww-8664-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-hk-Loww-8664-8542.md",
+    "topics/invariant-subspace-problem/results/R12-appendix-actual-haar-same-stable-domain-two-closed-factors.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-same-domain-two-closed-factors-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-constant-original-fiber-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-constant-original-fiber-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-large-constant-original-fiber-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-phi-b-complete-factor-34.yml",
+    ".github/workflows/invariant-subspace-8542-phi-b-complete-factor-40.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-same-domain-factors-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-same-domain-factors-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -28,7 +24,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-hk-fixed-seventeen-lambda.yml",
-    "invariant-subspace-8542-w-nv-paid-m-quartic.yml"
+    "invariant-subspace-8542-phi-b-complete-factor-34.yml",
+    "invariant-subspace-8542-phi-b-complete-factor-40.yml"
   ]
 }
