@@ -22,7 +22,7 @@
 
 固定原g的真实M8径向32→64→128/M12频率轨迹接上此实际G12终点；与旧实际L12>1.95883e−8准确比较，真实误差再次下降>9.79415倍。旧M14回升、M15/M16失败及LSMR平台保留。已满足基础数值加密条件，未证明无限序列C2极限。原phase解析恒等式覆盖全部t，非三帧推断。
 
-R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。其他M32/C2/M48-G6/M64/h503各有自己的结果，不互借证书。[h503全部7阶段自然0](notes/2026-11-28-2ecf-m12-h503-all-stages-true-ancestor-union.md)，11178点祖先union峰4.944023e−10，旧R236界5.41753e−5仍未过；其首次−9无新场的事实留档。
+R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](notes/2026-11-28-2ecf-m12-h503-all-stages-true-ancestor-union.md)及其他有限分支各自留档，不互借证书。
 
 ## 强幅度：真正位置和当前分支
 
@@ -38,7 +38,7 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 <!-- 2ecf-new-material-clock --> [R268](results/R268-strictly-convex-physical-meridian-clock.md)后[加长S的M36全部三态](notes/2026-11-28-2ecf-strong-positive-clock-complete-M36.md)真0，G11最佳own2 .154567/κ15.045。
 
-[R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)原极坐标连接连续嵌入；R266单调高度射线TV缺口/R269逐圈相似必要障碍限定各自前提，不排全位置新解。原87α、仅后缀36α、冻结design3与新S均有独立own/baseline；改变g/源/基底不得借旧接受或几何。[设计3实际四步](notes/2026-11-28-2ecf-h65-frozen-design-three-sextic-four-actual-steps.md)及[实际整圈归一更坏](notes/2026-11-28-2ecf-hf64-frozen-metric-actual-ring-arclength-and-scale.md)保留。
+[R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)原极坐标连接连续嵌入；R266单调高度射线TV缺口/R269逐圈相似必要障碍限定各自前提，不排全位置新解。改变g/源/基底不得借旧接受或几何；旧失败均按各notes保留。
 
 <!-- 2ecf-new-material-ports --> [ΔS .025真实端口及双轴全角场](notes/2026-11-28-2ecf-strong-new-length-R205-axis-fields.md)：半弯两轴可控，但真实二维G11 .305104/κ28.262，未闭合强目标。
 
@@ -46,7 +46,7 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 <!-- 2ecf-R271-components --> [R271](results/R271-gap092-three-complete-components-and-all-pairs-reach.md)：真实新前缀和两尾帽三个紧分量全相位reach≥.097；完整连接带仍待加入，不宣称全闭完成。
 
-<!-- 2ecf-HF-new-length --> [HF新正长度旋转度量](notes/2026-11-28-2ecf-strong-hf-new-diagonal-positive-length.md)实得ΔS .0059476005，G11 .12160747/κ28.82482。
+<!-- 2ecf-HF-new-length --> [新正长度g双钟后三次完整XYZ](notes/2026-11-28-2ecf-strong-hf-two-clocks-three-full-XYZ-steps.md)：原成本下降，G11 .187979/κ19.8488，未过。
 
 <!-- 2ecf-HF-both-material-clocks --> [新g的双材料钟实际接受](notes/2026-11-28-2ecf-strong-hf-two-material-clocks-on-new-metric.md)在冻结实际源上使G11 .12160747→.10837466，仍κ28.779。
 
@@ -54,10 +54,10 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 ## 工作位置与接续
 
-公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R271已付三分量全部近点；R272已付原HF64全核/两非对称帽的嵌入与强形状比例；R273留给strong实际上弯盘/加长喉/全空间变形，R274留给m12全角共同目标界。优先继续真实强度量/曲率求解，几何新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
+公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong实际新尾/喉，m12完整位置与共同度量，exact从含负K的准确圆形起点延拓；每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
 源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:32:03 UTC；已读公开 main `768a3b8669e5b25745d6114750be368ecb400008`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:43:42 UTC；已读公开 main `8c147cd0ba1dfa6aaad61a4fd79bf85c7d77d5da`，根/课题 README 逐差无变化。

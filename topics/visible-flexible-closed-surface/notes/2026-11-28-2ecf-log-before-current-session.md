@@ -1,0 +1,319 @@
+# 课题日志
+
+此前完整日志（逐字保留）：[接续前日志](2026-11-26-6a65-log-before-current-takeover.md)。下文从本会话2026-11-26接续开始；旧结论与失败记录没有删除。
+
+- 2026-11-26 05:24 UTC｜Astra-visible-flex-6a65e705-20261126：接手公开课题并读根/课题规矩、H/open/log及相关notes；私库QUEUE认领已推c778518。ENOSPC后部分克隆移至/tmp，真实pull成功；从R208/R211已推检查点续算，并并行推进固定g误差修正和完整核心几何，尚未完成。
+
+- 2026-11-26 05:30 UTC｜Astra-visible-flex-6a65e705-20261126：R211原保存初值真实两次接受并自然exit0；降低缓存后保全1025列/106920行。曲率改善而metric峰升至.452084，登记有限结果/重生入口；继续metric峰惩罚及新外段长度设计，不算完成。
+
+- 2026-11-26 05:35 UTC｜Astra-visible-flex-6a65e705-20261126：证明R213完整切向兼容算子、独立mean/端口、弱应力sup下界与全II法向方程；复/实投影已明确。继续当前M12实际弱矩/法向修正及完整大振幅求解，不把线性条件当存在。
+
+- 2026-11-26 05:41 UTC｜Astra-visible-flex-6a65e705-20261126：证明并实现保端口两jet的真实外段伸长，五个真实基线后Δ=.02第一步接受；metric≈.428779、κ≈13.16355仍不合格，随后exit137无第二态。保存源码/参数/哈希，不保存可复算数组；继续完整metric峰与几何求解。
+
+- 2026-11-26 05:55 UTC｜Astra-visible-flex-6a65e705-20261126：R214完整证明切口切向强制板宽及有理A阈值，当前真实态已越过；登记gap1中央安全界及新文献定量缺口。旧环境失联/tmp丢失后新环境重新部分克隆/pull，双README未变，小文本恢复并继续真实求解。
+
+- 2026-11-26 06:02 UTC｜Astra-visible-flex-6a65e705-20261126：保存完整四次metric链及已实跑六次接受（末metric=.254268、κ=13.17164），恢复四个小源码并区分旧执行与新源码身份。冷重生只恢复继续输入；全域metric/几何尚未合格，继续求解。
+
+- 2026-11-26 06:04 UTC｜Astra-visible-flex-6a65e705-20261126：R213应力指导的真实C² Cartesian up补丁已实跑，恢复版同g12弱矩降至约3.53e−20、同点metric略降；完整粗metric<4.4e−8，24hex定义参数永久保存。下一继续全域几何与更多实际修正，不把局部矩清零或观测加密当G5完成。
+
+- 2026-11-26 06:12 UTC｜Astra-visible-flex-6a65e705-20261126：R215完整新帽放宽核板宽至.895并保D≤3.2/δE≥.1609/R=.097，全部原核输入仍须实付；Fraction8极点与21预算真0。新gap1/Δ=.05完整value真0，held改善但metric=.729182/κ24.52988，继续其完整LM。
+
+- 2026-11-26 06:17 UTC｜Astra-visible-flex-6a65e705-20261126：R216以73源cells/5角片全有理二jets和管体积矩预算，支付真实X+W全时reach/held/H/含反射δE及metric粗界；未借R114尖界，未付G5。继续真实Φ复合与更多径向/切向修正。
+
+- 2026-11-26 06:18 UTC｜Astra-visible-flex-6a65e705-20261126：新增本题专用.github/workflows/visible-flex-6a65-metric-20261126.yml及逐进程控制器，因环境失盘和完整长续算需要使用公共Actions；每接受真实pull核规矩后push小结论，原始数组仅runner临时区。触发60步请求，未冒启动为完成。
+
+- 2026-11-26 06:31 UTC｜Astra-visible-flex-6a65e705-20261126：gap1/Δ=.05/R215新支3次完整LM真实exit0接受，积分显降但峰metric=.738971、κ17.01381、held.625174仍欠；β=.35长度提前分配保A/Z却恶化，未采用。原支公开Actions45767322734已实际第9步，继续局部新空间与峰行，未把有限下降当完成。
+
+- 2026-11-26 06:34 UTC｜Astra-visible-flex-6a65e705-20261126：真实恢复全部512模局部Φ后，W full复合抬峰；582维实际切向补偿将完整Gram能量约减半，峰仍略高于原Φ。保存三次真实exit0/源blob/哈希，未冒投影矩消除为完整下降，继续更大位置空间及全端口右逆。
+
+- 2026-11-26 06:35 UTC｜Astra-visible-flex-6a65e705-20261126：R217完整重付R215同帽的Aq≥1.36/Z≥.52窗口，八极点与全部held余量有效，核心条件仍欠；保存β=.35真实失败value/旧新高度迁移身份。继续已运行峰行与局部31新列，不以工具定理收尾。
+
+- 2026-11-26 06:38 UTC｜Astra-visible-flex-6a65e705-20261126：原六态同场73659点真0观察metric=.255816/κ13.92450；当前六态与新gap第三态R207分解真0，均值仅解释2.49%/19.43%，不足消去角向峰。保存两入口/输入输出哈希，不把观察当接受，继续实际新增空间求解。
+
+- 2026-11-26 06:42 UTC｜Astra-visible-flex-6a65e705-20261126：应用既有R208真插1/24，J33→34新增31列；新baseline后3次完整1056列/108042行LM均真0接受，R².07808446→.07216933但后两步峰回升。保存新空间/实际步及邻题最新inverse-design真实边界；继续角向扩展与全域几何。
+
+- 2026-11-26 06:45 UTC｜Astra-visible-flex-6a65e705-20261126：42固定峰点保全部旧行/1025列，新链真FD核后3次LM真0，原metric峰.738971→.266700、原q也降；κ17.7761/held.616856仍欠，Z接近真实guide下界。保存完整实际拒/接受，接准确R137新flat段供应器与接口，不改旧域冒通过。
+
+- 2026-11-26 06:56 UTC｜Astra-visible-flex-6a65e705-20261126：查真实job发现原CI第20数学接受后CAS发布失败，纠正静态running误报；实际fetch/cherry-pick原efbe93de恢复第20小报告。旧publisher补精确ref-lock/incorrect-old-value重试识别并核6类消息；21–60未发生，本地强支/新同job配方继续。
+
+- 2026-11-26 07:00 UTC｜Astra-visible-flex-6a65e705-20261126：R218完整证明准确flat参考的全角normal Green/两完整源矩/端迹与常数，保真实ruling流和角耦合；明确切向holonomy及开领/高阶输入，反例阻止把局部矩当完整可解。准确R137供应器与实际全Gram方向继续。
+
+- 2026-11-26 07:11 UTC｜Astra-visible-flex-6a65e705-20261126：R219真正换低宽帽c=.79/h=.86，证明Z[.40,.53]、W.895下全部强比例；八极点/22有理预算实际真0，球包改按平移后全棱锥支付，未借失效旧界。接新内部窗[.41,.52]的明确新闭面设计，核心全域条件仍欠。
+
+- 2026-11-26 07:25 UTC｜Astra-visible-flex-6a65e705-20261126：两支全角K7→11零注入保全部旧列，各3次全参数LM均真0；原峰.246113，强支峰迁移至.279133/κ14.25784（76755点观察），仍未合格。保存新空间源码、末态哈希与实际回执，R219新帽/N128/84点baseline已真0，继续实际全列求解。
+
+- 2026-11-26 07:28 UTC｜Astra-visible-flex-6a65e705-20261126：四独立径向应力48×96真拟合及1024角复核均exit0，所选弱矩降至1e−19但原完整Gram峰变坏；1164切向真实补偿仍不胜原Phi。记录四次实际回执及可再生入口，转完整Gram/全周期端口。
+
+- 2026-11-26 07:30 UTC｜Astra-visible-flex-6a65e705-20261126：原Phi完整Gram Schur方向/四档真实复合均exit0，能量5.964e−22→5.369e−22但峰1.4593e−10→1.4798e−10，未采用；支撑外原误差不受紧支撑场影响。保存真实算子/回执，继续同g准确flat参考及完整端口。
+
+- 2026-11-26 07:29 UTC｜Astra-visible-flex-6a65e705-20261126：真R219新帽/N128/84峰点重建baseline后3次1553列LM均真0，metric .27913→.18383而κ升15.136；152915点同场真0观察κ15.294，held.623708仍欠。保存新完整供应器/实际回执，继续两真实峰驱动的R208全列新空间。
+
+- 2026-11-26 07:33 UTC｜Astra-visible-flex-6a65e705-20261126：真实强截面R137首先focus失败，明确水平投影后v=.003/L=.35新准确形式coast实际exit0并输出完整两端口；有限κ7.499/held1.007，接口Xss差9.23仍欠，未冒准确闭合。保存新供应器/失败输入/真实哈希，继续非flat接口。
+
+- 2026-11-26 07:35 UTC｜Astra-visible-flex-6a65e705-20261126：R220已证明原M12同g非圆精确affine参考与全角/全径向Green域，8192整数向外区间实际exit0含准确弧长余项；D>.8288、κ<2.6961，完整端迹未接。登记证明/源码/真实回执，继续完整plateau及非flat接口。
+
+- 2026-11-26 07:38 UTC｜Astra-visible-flex-6a65e705-20261126：R219真实metric/κ两峰选3有理新结，完整R208全列J33→36；新baseline后三次1694列LM均真0，κ降13.689但metric仍.192962、held.624026，未合格。保存具体插结与实际哈希，继续完整K19角空间及新Cauchy输入。
+
+- 2026-11-26 07:40 UTC｜Astra-visible-flex-6a65e705-20261126：R137完整两端口构成C2 Hermite初场并实际全E/F/G四批LM；右段82→204列仍失败，加密暴露旧κ1202，最终metric近1，未借局部coast冒闭合。保源码/新g/真实失败，转准确中央Cauchy入口。
+
+- 2026-11-26 07:46 UTC｜Astra-visible-flex-6a65e705-20261126：新增本题公共workflow及具体同job配方（R219已见3→实际观察→R20820），每次pull把SHA写H独立行并普通push；真实NFF/H冲突/已发布HEAD回放通过，未冒数学结果。后继严格消费实际state/observer，触发后核真实run/job，继续研究。
+
+- 2026-11-26 07:50 UTC｜Astra-visible-flex-6a65e705-20261126：更正R220旧图Xss Horner初项30→20，真实端口及两连续域重新exit0，数学参考/决定性有理行流不变，明确保存初次错误身份。新公共run45778054176/job139766458381实际in_progress；继续M12固定g ramp与强支。
+
+- 2026-11-26 07:57 UTC｜Astra-visible-flex-6a65e705-20261126：从真实中央柱保II开领推进新负K ramp，1637 RHS自然exit0，实际metric<4.31e−13、κ7.553；接准确形式coast端差<5.84e−10，显著改善先前错误入口但未准确闭合。保存新g/实际供应器，继续完整真尾及全局warm。
+
+- 2026-11-26 07:59 UTC｜Astra-visible-flex-6a65e705-20261126：把R220方法用于整个原physical up plateau新入口，8192全角区间实际真0证D>.7814、κ<2.7604及Green常数；同g端迹差仍在，修正版old-Xss依赖已真实重跑。保存完整段入口/源码，继续真实M12中央ramp和非flat接合。
+
+- 2026-11-26 08:06 UTC｜Astra-visible-flex-6a65e705-20261126：同R219/J36/N128/84点K11→19完整零注入真0，2846列/226238行首LM拒全步后收半步，R².03210829、metric.1921304、κ13.03759、held.622856仍欠。保存完整入口/真实OS回执身份，转新Cauchy全局输入并保云端原强支续算。
+
+- 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：原M12同g首ramp的三档实际C2图已到metric 2.14436e−10→4.31484e−12→3.66688e−12，κ5.11272；中央全三端迹准确，未覆盖正K及闭图。继续准确coast拼接和完整位置BVP。
+
+- 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：邻题R571真实run45777456573自然success，但线性端口C/A≈−3.48e−5、导数未稳定、单位核二jets巨大，有限宏观分支及全点对reach未构造。只消费显式连接/线性接口，继续本题完整核。
+
+- 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：强前缀L=.18/v=.15后3条实际Cauchy尾均exit0但在正K早段metric>1e−5而未到cut；准确coast未挽救角补余。保存失败真实身份，已换全局单位T边值输入。
+
+- 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：新中央/Cauchy/coast/Hermite/R205全half真C2函数和完整弧长两jet已出；flatcut新g S=1.0815625、base.height=.889483892。warm02 SHA3675506a…b5c0，G≈1e−15但右metric1.458/κ1309，未合格；根正消费完整R201拟合。
+
+- 2026-11-26 08:11 UTC｜Astra-visible-flex-6a65e705-20261126：右长度.8/.95/1三条完整新基线真0，metric略降而面积谷/κ/held同时恶化，不替换L=.75。保存实际新g/完整两jet/哈希，根1788列新warm拟合已真0并实跑value；另接已有非退化强态后段。H压缩并保原历史链接/CI标记/读规矩SHA。
+
+- 2026-11-26 08:13 UTC｜Astra-visible-flex-6a65e705-20261126：实际重建Cauchy新g的完整R201/R205/R219供应器，J38/K11/N128/1788列含一阶导数LS及230490行baseline均真0。metric1.4554/κ14332暴露面积谷；保全部源码/定义参数/哈希，首全列LM正在运行，另换非退化旧后段输入。
+
+- 2026-11-26 08:19 UTC｜Astra-visible-flex-6a65e705-20261126：R221登记原M12真实ramp出口→准确整coast，6838整数叶证明D>.500627/U_t>.477172/κ<5.628725并给严格arc余项；完整角函数三端迹真C2接合，三档metric仅记有限观察。保存四源/回执，继续全自由端口正K BVP，未将局部证书冒闭族完成。
+
+- 2026-11-26 08:23 UTC｜Astra-visible-flex-6a65e705-20261126：新Cauchy全1788列首LM自然exit0，六真试步后lambda.01/alpha.25总目标接受，但metric1.455→14.09；κ四次项约8e9压倒metric76，不作为好核。保存坏接受真实身份，改消费已非退化后段融合及明确新曲率启动目标。
+
+- 2026-11-26 08:27 UTC｜Astra-visible-flex-6a65e705-20261126：真实非退化后段全90截面重新拟合1788列，并明确新tau1e6曲率启动定义；reference/fit/fullvalue三进程真0，metric2.483/κ51.876/held.644946。三处真实完整参数方向FD误差约1e−10，首完整LM在跑；不同目标不混比，原R211不改。
+
+- 2026-11-26 08:42 UTC｜Astra-visible-flex-6a65e705-20261126：同job强支R208/J36真实20步+157541点observer完成，17个新接受，metric.185644/κ观察13.86048仍欠。已核实际末态/observer两SHA并发严格匹配K19零注入后12步请求；只扩角基，N128/84点/真实帽和guide保持，等待真实消费而非把发包计结果。发布使用独立稀疏worktree，原数值源码工作区保留。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：完整自然周长 rho 初值和真实 value
+
+- [新完整模型](2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)明确短base和全部rho一jet拟合，1788参数、J38/K11/N128。实际reference/fit真0；首value被SIGKILL，监控重试真0，115.055s，完整metric.885019/κ28.74355/held.625658，总R².902330。所有真实退出与hash已记；无normal、无接受、无连续证书。
+- 补记前条已推的[长前缀旧强尾段完整移植](2026-11-26-6a65-geometry-cauchy-strong-transplant.md)：真实C2/单调时钟/完整角弧长两jets，96×128，metric2.46038/κ50.5869/held.645147。原3717571e8提交已含源码/note/H；此处补log索引，并将时钟十进制下界改为保守严格下界，未改变算法或数值。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：真实短 Cauchy 前缀与完整后段
+
+- [短前缀完整输入](2026-11-26-6a65-geometry-short-cauchy-transplant.md)实际重新积分191模/768角的.06 ramp/.05坡与.02 coast，中央完整两jet及尾端真实C2；明确S9^5/S9^6新g。完整96×128真0表metric2.36130/κ31.8966/held.651446。诊断显示人为径向缩放恶化曲率/面积；后续自然周长输入另记，不称同g加密。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：完整 raw 几何的自然周长新 g
+
+- [自然周长供应器](2026-11-26-6a65-geometry-transplant-natural-perimeter-metric.md)从同一完整位置两jets积分a/as/ass并做全角弧长反参，去掉人为径向缩放，保留几何集合/曲率。96×128实际exit0，metric.879462/κ27.6939/最小归一面积.884532/held.625736；E/F仍欠。完整rho已由后一实际value独立消费，不将这里的新g记成原g加密；原件仅scratch。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：自由正 K 位置 BVP 与实际双 seam
+
+- [完整位置BVP及回传](2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)保持原M12共同g/材料chart；5096自由度、两端完整迹自由，真实J/JT及H1预条件，G8训练后独立G10×768峰由6.126e−10到3.8004e−11。随后真实signed coast+两完整C2 seam却将首ramp峰抬至5.1657e−9，故不采用为全域改善。signed公式与原R137条件明确，首次整数域检验未付门槛，不能继承另一curve证书；继续全域联动接口。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：按真实端迹换成 .14 旧入口
+
+- [唯一更早入口备选](2026-11-26-6a65-geometry-earlier-port-natural-metric.md)由真实位置/速度/加速度迹比较选择；新14截面与全135×512来源真实导出，完整96×128自然周长输入19.430s真0。metric.595298/κ17.40278/held.626390，未合格；主要E峰转到物理时钟加速中段，正在做保同几何的明确重参数，不重复无方向扫参。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：纯物理时钟后完整 rho 拟合及 value
+
+- [全部1788列新输入](2026-11-26-6a65-physical-clock-full-fit-and-value.md)真实reference/fit/value均0；301210行，metric.39368564/κ18.63050/held.6263963，总R².2159071。是改g后重新实算，不把raw观察充有限值或同g收敛。
+- .18旧输入首完整normal已真返回314.878s，随后321.914s SIGKILL(-9)，无trial/末态/接受；实际RSS末峰245792KiB，原因未证，继续核完整线性求解临时内存。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：恢复原 M12 尾的准确积分端点
+
+- [定点流式消费原定义](2026-11-26-6a65-exact-tail-endpoint-streaming.md)：24已知历史blob、80.73MB、18552span/141系数，逐块Git SHA1/SHA256/共有行核验，Fraction准确积分/径向归一。实际176.184s exit0，只有23KB端点缓存留scratch；未保存raw块。只是恢复既有尾定义，不算新尾解；r=.6共切线明确为内部接口，真正全域仍须延到平领。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：同一几何的严格物理时钟及剩余 E/F
+
+- [角独立全局时钟](2026-11-26-6a65-geometry-exact-physical-clock.md)严格单调并保两侧完整C2端口/真tail；位置集合、曲率、held/reach几何量不变（不意味着已知reach下界），新单位meridian目标明确改g。实际96×128转换0，metric.389776/κ17.40278，曲率逐行误差≤7.11e−15。剩余E全角不恒定、F主谐波非均值，不能靠再改标量时钟或角平移支付；进入真实全位置求解。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：真实 K19 末态与新 Cauchy 同 job 入口
+
+- [K19十二次真实接受及恢复入口](2026-11-26-6a65-cauchy-same-job-recovered-transition.md)：当前CI父态与157541点observer都真0，密观察metric.1890794/κ13.02914仍欠。新明确source/recipe从实际末态重生短Cauchy、.14入口、自然周长、纯clock、完整rho fit/value，再完整LM；Node语法及错误recipe拒绝实际0，组合新数值结果尚未发生。
+- 09:18本地pure-clock normal capture真-9/160.282s，无normal或末态；随后环境失盘，09:38真实重克隆/pull恢复，双README未变。失联期间API读不冒literal pull；旧本地raw/未公开源身份不复用。同job仍实际in_progress，继续真正完整求解。
+
+- 2026-11-26 09:44 UTC｜Astra-visible-flex-6a65e705-20261126：新source 28c629a0627 已公开；严格匹配当前9ada2ac0父态/7c11d591观察，发送同job完整Cauchy新输入及12次尝试配方。实际controller parse_plan通过；请求不计新基线/接受，等真实同runner消费并继续核验。
+
+- 2026-11-26 09:48 UTC｜Astra-visible-flex-6a65e705-20261126：R222完整证明固定周长中央gap单调区间、固定位置条件held预算及保留角耦合的ramp必要积分门槛。Fraction完整版真实exit0/11盒，旧baseline已失用显式recorded-input，不伪造身份；gap1.05/v.045只作新输入，正实际重建prefix。
+
+- 2026-11-26 09:50 UTC｜Astra-visible-flex-6a65e705-20261126：R223完整证明原M12全尾到真正平领的共同C2材料图、严格单调界、完整H/H_q链式与全局修正端迹。保原g，不锁内部r=.6，不把坐标长冒弧长；全尾实际消费/求解继续，未冒接口引理为完成。
+
+- 2026-11-26 09:58 UTC｜Astra-visible-flex-6a65e705-20261126：新增本题专用.github/workflows/6a65-m12-fixed-g-joint-prefix.yml与topic小请求，将环境失联未完成的完整同g前缀移公共Actions，保15386列/全部行及独立观察；raw不发布，每pull写独立H规矩SHA，等待真实run结果。R222/R223数学分隔符按根规矩4统一为美元格式，无数学改动。
+
+- 2026-11-26 10:02 UTC｜Astra-visible-flex-6a65e705-20261126：修正本题M12 workflow的job级runner.temp上下文，改用首shell step实际RUNNER_TEMP。首run45796927002实际failure且jobs为空，无数学执行；新提交重新触发，源码/方程/参数不变，继续核真实启动。
+
+- 2026-11-26 10:04 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap1.05/v.045完整前缀](2026-11-26-6a65-geometry-coupled-gap-prefix.md)监控41.103s真实exit0，1637RHS/M191；ramp κ9.6363、Γ95 coast κ8.8926，实际C2消费metric2.65953e−9，有限角观察不冒连续证书。保存新种子/两端口/回执SHA及独立镜轴核对，继续接实际尾和完整fit。
+
+- 2026-11-26 10:27 UTC｜Astra-visible-flex-6a65e705-20261126：[R224](../results/R224-gap105-v045-entire-coast-continuous-domain.md)消费实际gap1.05/v.045 Γ95完整曲线，以96bit整数/2048角闭块×全母线域证明D>.9719、U_t>.9657、.1949<κ<8.893，16.017s真实exit0。准确a0/g不取周长中点；arc严格余项2.6167e−6未冒微小误差证书，ramp/后段/全闭reach继续。
+
+- 2026-11-26 10:31 UTC｜Astra-visible-flex-6a65e705-20261126：[M12实际首步和同g下一档](2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)完整run45797640490真success，独立metric7.97402e−9→8.05624e−10。现仅提高order48/N768/G8/1600LSMR，保158单元和全部物理源，独立G10/N1536；新请求不冒实际新结果，继续核真实运行。
+
+- 2026-11-26 10:32 UTC｜Astra-visible-flex-6a65e705-20261126：[R206共享准备恢复版](2026-11-26-6a65-solver-shared-memory-recovered-v2.md)新51维完整fixture真0：两存储输入×四λ、22342标量逐位一致，输入哈希不变，越带非零拒绝保持。源码/有限报告身份完整，未冒实际1788维normal或新的曲面LM；压缩H保CI两marker。
+
+- 2026-11-26 10:34 UTC｜Astra-visible-flex-6a65e705-20261126：[完整Cauchy源oracle](2026-11-26-6a65-geometry-cauchy-source-oracle.md)保原factory/全z/A/Z/primitive与真S+.48尾，六jets+三mixed jets直接消费；明确zero新probe实际1.42s exit0，deep差≤8.22e−15、非节点FD≤2.63e−11、真cuff两jet恒等。没有CI state或新fullvalue/接受，实际同job全场消费继续。
+
+- 2026-11-26 10:37 UTC｜Astra-visible-flex-6a65e705-20261126：[M12原g真正全半体入口](2026-11-26-6a65-m12-entire-half-cold-entry.md)完整prepare真0，362元35378列2859精确查询；原末两span/141系数小核对全有理三迹零差、物理六jets≤2.23e−16。独立55min whole workflow触发：r=.6内部自由、真cuff固定，raw只RUNNER_TEMP；新完整求解仍待实际回执。
+
+- 2026-11-26 10:44 UTC｜Astra-visible-flex-6a65e705-20261126：[R225](../results/R225-gap105-strict-perimeter-and-normalization.md)同Γ95连续J四阶导数<194.391636、8192点严格Simpson证明准确总周长半宽<3.738e−13，两统一比例曲线集合差<5.618e−13；25.418s真实exit0。角反参/完整C2误差不从该集合界偷渡，继续完整输入。
+
+- 2026-11-26 10:48 UTC｜Astra-visible-flex-6a65e705-20261126：M12同g第二档run45802097600真success/438.416s，独立G10/N1536 metric4.63936e−10、κ5.1127246793；LSMR1600仍stop7。新请求仅同空间上限6400，增加正规残差等原生诊断，保持全部物理源与参数，等待真实执行。
+
+- 2026-11-26 10:51 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap短窗完整消费器](2026-11-26-6a65-geometry-cauchy-short-window.md)显式两端完整C2/自然周长两jet/实际后段与真cuff；仅两次新zero接口probe真0，不借CI状态。端迹通过、角mixed FD2.11e−7限制如实保留，正式实际输入仍需同job重算。
+
+- 2026-11-26 10:52 UTC｜Astra-visible-flex-6a65e705-20261126：[强支完整Cartesian点链](2026-11-26-6a65-solver-strong-cartesian-complete-interface.md)实际16点×13行/两τ/1412同源标量核对真0；对原R191/R210差≤1.70e−15、J/JT≤2.70e−16。保完整Gram第三行、曲率及全部七几何行，非真实曲面baseline/接受；完整stream与同job消费继续。
+
+- 2026-11-26 11:06 UTC｜Astra-visible-flex-6a65e705-20261126：[R226](../results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)对实际M12中央残差先精确相减后积分，连续角偏移<1.268e−10；完整501源cell/10chart片和准确bridge下确定reference全metric<7.667e−8、全时reach/D>.03120330、held/D>.05278322、δE>0。真0/9.059s、10项有理预算全真；任意actual solver W六jet消费器已备，未借未知field。
+
+- 2026-11-26 11:15 UTC｜Astra-visible-flex-6a65e705-20261126：[R227](../results/R227-new-gap-first15-native-ramp-gram-certificate.md)对新gap实际保存全部768系数作准确实部配对、signed整数卷积、Bernstein及全高频尾预算；前15真实quintic格全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s实际exit0。原生目标包含椭圆角因子；末coast修复格/normalized完整链与曲率仍未付，继续下一项。
+
+- 2026-11-26 11:31 UTC｜Astra-visible-flex-6a65e705-20261126：6400同空间真实结果未降峰，API普通快进c5e6c354触发仅径向80→160的run45810358787，其他物理/频率/求积不变；补R221–R227已发表证明索引。11:20第三失联后11:28恢复，真实ls证旧/tmp丢失，11:29部分clone/pull至df25f421真0、双README未变；cold未推提交不冒运行，恢复源码并继续actual whole/Cauchy/Cartesian。
+
+- 2026-11-26 11:34 UTC｜Astra-visible-flex-6a65e705-20261126：[R228](../results/R228-new-gap-first15-native-own-curvature.md)同R227实际全系数场的真单位法向与正交shape谱，96bit区间/960全域盒/0分裂证自身κ<9.866914；失盘前自然0/32.228s，源码恢复后SHA逐字一致，丢失报告不伪造。结果索引已同步；继续准确角primitive/normalized与末coast接合。
+
+- 2026-11-26 11:40 UTC｜Astra-visible-flex-6a65e705-20261126：恢复完整Cartesian分支，v1/v2/adapter逐字同SHA，新stream/recipe有独立真实175列全行fixture0。新增本题.github/workflows/6a65-cartesian-independent-cold.yml以在实际新完整Cauchy输入上跑7760列/13行LM及密观察；逐阶段普通push且raw不发布。仅触发请求不冒接受，旧长run source002不动。
+
+- 2026-11-26 11:50 UTC｜Astra-visible-flex-6a65e705-20261126：[R229](../results/R229-new-gap-first15-exact-integral-normalization.md)完成前15格准确积分归一化全链，角逆、中心/比例两导数、实际二阶曲率预算给metric<4.112e−6、κ<9.868，0.208s真实exit0；保准确椭圆初值/中央C2，不冒末格、有限求积consumer或闭reach。接着改进正确去均值primitive及准确coast接合。
+
+- 2026-11-26 11:54 UTC｜Astra-visible-flex-6a65e705-20261126：[R230](../results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)付整个原M12源的连续C_X<4461.108，全部24blob/18552尾微span及真实collar/2569prefix格/M64接头/完整65chart片，711.882s+37.015s实际0。reference-only297点峰1.96721e−8揭旧Gauss漏峰；实际W六jets、全时传递及同场微span入口已备，继续启动完整消费。
+
+- 2026-11-26 11:59 UTC｜Astra-visible-flex-6a65e705-20261126：[R231](../results/R231-first15-full-frequency-normalization-primitive.md)同R229准确场用正确q/a去均值和全频1/|k|保留抵消，完整椭圆解析尾及实际均值缩放两导数全部计入；全前15格metric<2.936e−7、自身κ<9.867915，239.682s真实exit0/RSS74400KiB。末格及新f0 coast盒继续，不冒全ramp或whole。
+
+- 2026-11-26 12:01 UTC｜Astra-visible-flex-6a65e705-20261126：保原whole有限配置，rev2增加R230/R226实际W连续几何、原微span观察及同场三相位完整STL。新STL入口W0参考实际8.814s真0，均匀材料角反解/完整两帽/所有边反向双入射/float32固定帽及三文件读回均通过；正式32尾圈/learned场须新CI实际回执。raw不发布，逐pull立即核双README包括冲突时。
+
+- 2026-11-26 12:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R232](../results/R232-new-gap-complete-accurate-terminal-port-bounds.md)完整准确coast P/V/A及角两导差由2048全角盒/六阶Taylor/完整反参证明，127.191s真0；新准确f0整coast已重新消费，末短格须继续支付放大。同步真实whole run45815969723、强第9步和open当前入口；旧日志逐字移入链接归档以保持单MD<100KB。
+
+- 2026-11-26 12:11 UTC｜Astra-visible-flex-6a65e705-20261126：[独立Cartesian v3](2026-11-26-6a65-solver-cartesian-v3-nonzero-resume-check.md)新增自身checkpoint及matching observer续态，完整非零向量/固定g/source/全部13行及basis/grid/recipe/run身份不变，拒步保向量与计数。实际52非零列传承和17个身份拒绝真0，仅接口fixture，不冒新Cauchy或LM；下一实际同job消费者。
+
+- 2026-11-26 12:24 UTC｜Astra-visible-flex-6a65e705-20261126：[R233](../results/R233-entire-ramp-accurate-coast-normalization.md)同Γ95有符号arc差与全频primitive，付准确非多项式端口在最后短格的完整放大和归一化链；整16格metric<6.100e−7、κ<9.867915、准确两端C2。2.472s/24.252s真0，明确两类中心区别；继续真实后段全核，不冒闭reach/准确等距。
+
+- 2026-11-26 12:26 UTC｜Astra-visible-flex-6a65e705-20261126：[source003显式合同](2026-11-26-6a65-solver-source003-composite-contract.md)恢复两完整消费者及受标记dispatcher：原Cauchy真实value/尝试/观察保持，独立Cartesian全13行另计；raw只同runner，独立小note本地commit交父普通pull/push。仅静态接线，draft不是active后继；等待真实父末态与matching observer再绑定，不热改source002。
+
+- 2026-11-26 12:28 UTC｜Astra-visible-flex-6a65e705-20261126：[冷启动独立首接受](2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)run45812620369子进程1073.140s真实exit0，全13行7760列、α1，完整R²69144.79→16795.95；metric2.38717/denseκ171535.8仍不合格。LSMR80/stop7未称收敛，独立计数1不加原Cauchy；结束job raw不借续态，继续同身份缓存及多步真实求解。
+
+- 2026-11-26 12:33 UTC｜Astra-visible-flex-6a65e705-20261126：[R234](../results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)run45815969723真实同一W通过全时reach/D>.03105876、held/D>.05278322、含反射δE>0，并真生成三份4471284B完整STL；全7stage1578.303s真0。连续metric三角界4.862155e−6未达门槛；micro峰1.93343e−8仍元190，继续保旧节点/旧观察的h档，不冒完成。
+
+- 2026-11-26 12:35 UTC｜Astra-visible-flex-6a65e705-20261126：[原元190同g加密](2026-11-26-6a65-m12-element190-source-aligned-h-preparation.md)仅插66原源simple knots，362→428元、35378→41846列，旧网格全保；追加8个旧G8点使观察是真超集。后缀准确恢复12.904s/最终prepare13.835s真0，3791准确queries；rev3完整10stage+STL请求已写，真实新solve待返回，不预报下降。
+
+- 2026-11-26 12:38 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap完整短窗源](2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)同R233 master、独立sourceKind/自然g，53504点×13行自己的baseline301.650s真0；metric2.48947、窗口κ89407.07/minarea9.618e−5不合格。端口六jets实核、窗口外真尾保持；继续只在(b,S)独立修正并更新open实际入口，不借长job状态或接受数。
+
+- 2026-11-26 12:41 UTC｜Astra-visible-flex-6a65e705-20261126：[真实多步发布接口](2026-11-26-6a65-solver-cartesian-multistep-publisher-check.md)本地bare Git实造NFF/H冲突再成功push，并在第三真实pull遇README差异后先发布SHA/未审H再停数值；0.387s真0。控制器保每步真非零state/observer、13行、独立计数及45min规则检查；仅接口核验，无新科学接受，v4缓存续接另立身份。
+
+- 2026-11-26 12:47 UTC｜Astra-visible-flex-6a65e705-20261126：[v4严格固定源缓存](2026-11-26-6a65-solver-cartesian-v4-direct-source-cache.md)双真实oracle自然0、requests12/1，源数组逐值相同/只读及13身份篡改拒绝，1.219s真0；完整方程/全部7760列/13行/试步不变。新增显式bootstrap/350min workflow，首进程前与每45min核规则、初始20次实际尝试、已见首接受只作重生；触发不冒新的科学接受，source003仍v2不热改。
+
+- 2026-11-26 12:51 UTC｜Astra-visible-flex-6a65e705-20261126：[source003真实匹配发包](2026-11-26-6a65-source003-actual-Cauchy12-matched-activation.md)原长run第12态357097cc…d9d224与最终observer5e66d0be…44f4f7已实际返回；209969点metric.2639876841/κ27.02188092不合格。只此时绑定新sourcec0661016，原完整Cauchy1尝试后独立v2 Cartesian；不热改、未冒新执行，继续核实际消费。
+
+- 2026-11-26 13:02 UTC｜Astra-visible-flex-6a65e705-20261126：[cached实际浅历史失败](2026-11-26-6a65-solver-cached-job-shallow-history-failure.md)run45823011528首pull错误重放已公开trigger，数值阶段尚未开始；拒绝跨题冲突覆盖。局部Git回放真实复现exit1，补全祖先后仅重放自有scalar并普通push真0/0.378s；rev4只修历史检查新触发，科学v4/原source003不热改。
+
+- 2026-11-26 13:04 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap全周期前三步](2026-11-26-6a65-geometry-gap-window-first-three-complete-cartesian-steps.md)保完整已证prefix/旧tail与自然g，2400列全13行、缓存688.113s自然0，三次真α1接受68.666s/exit0；R²11887.44→1590.99、metric积分509.56→14.74。末metric/held回退、κ45472.56完整保留，192角非嵌套不能代最坏值；不冒目标完成，继续实际求解。
+
+- 2026-11-26 13:05 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap同模型4–6步](2026-11-26-6a65-geometry-gap-window-steps-four-six-and-escaped-peak.md)保持2400列/全13行，60.207s自然0、三次α1接受，训练R²降25.2528/κ2614.99；192角同场观察却测κ291549.99，明确不能称曲率已合格。保真实末态，下一把两完整组纳入新联合求积基线；同步cached修复后actual run45825253169，并校正前条登记时间为实际提交13:04。
+
+- 2026-11-26 13:07 UTC｜Astra-visible-flex-6a65e705-20261126：[R236](../results/R236-local-bernstein-angular-continuous-metric-budget.md)完整局部Bernstein/Jensen/角平方范数/中央修正与96bit向外包界，独立人工场两阶段23.096s真0、新metric2.19659e−6如实false；不是旧cc306实际场新界。rev4保428元同配置/全部旧检查，显式同job重生并消费本验证器；workflow补全trigger祖先、9段bash语法真0，未冒新solve结果。
+
+- 2026-11-26 13:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R235](../results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)完整Gram/Gauss第三迹引理支付反射M=0与K<0，原node18551完整有理Ax<−1.68/Az<−.0077；当前C4不能准确消跳但不排C2趋零。显式全Fourier C2局部补丁消本圈jump、原基线metric<2.572125e−8、消费者0.091s真0，未偷加CI；更新open真实3条主线，R236实际run45826114835已启动。
+
+- 2026-11-26 13:16 UTC｜Astra-visible-flex-6a65e705-20261126：点算子源核清minImmersion=|Xs×Xu|²/a²，是目标归一化Gram行列式；更正新gap基线/前三步/4–6三note误称面积元，所有数值/状态/接受不变。同步source003原尝试818.216s真0、α.25/R².1076995485（rho仍设计，不冒同g），新cached source value239.542s+observer401.093s真0，继续v4实际求解。
+
+- 2026-11-26 13:24 UTC｜Astra-visible-flex-6a65e705-20261126：[首原源h真实下降](2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)run45821092388全10stage2390.296s真0，428元41846列/全步接受/800LSMR仍stop7；原297同点峰1.93343e−8→3.96742e−10约48.73倍、旧观察超集4.21683e−9。实际全时reach/D>.03105610/held>.05278322/δE>0及三完整STL再过，metric粗界4.870781e−6仍false；新热点176决定下一h，H压缩保全部实际入口。
+
+- 2026-11-26 13:26 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap联合前三步](2026-11-26-6a65-geometry-gap-window-two-grid-first-three.md)两个完整源组各.5权/1711424行/2400列共用同一可逆列坐标，真实伴随7.28e−15；LSMR80→160明示，自身R²19005.898→95.3056，第三全步拒/.5真接受，114.117s自然0。joint3+旧6共9，κ27408.66/metric近1仍坏，固定前缀非零metric和guide常数不能冒全域收敛，继续同模型。
+
+- 2026-11-26 13:34 UTC｜Astra-visible-flex-6a65e705-20261126：R237准确own-zero短窗全域角速>.4097证明完成；同Γ95出口全角2048整数盒43.037s及整窗有理预算.211s真0，保准确自然半径与接口完整两jet。未借给literal求积、后续Cartesian场或二维浸入；继续其真实完整求解。
+
+- 2026-11-26 13:35 UTC｜Astra-visible-flex-6a65e705-20261126：R238任意非正交端切向的空间长度必要界证明完成，完整保球面端帽非重叠条件与准确g适用范围。当前四轴有限代入真0，真实S−b=.795674仍有约.040318长轴余量；未排输入，不冒存在或新数学接受，继续完整求解。
+
+- 2026-11-26 13:37 UTC｜Astra-visible-flex-6a65e705-20261126：新gap同g联合第4–6次完整接受122.478s真0，R²95.3056→9.60305/κ3396.25；第5全步拒、半步接受，metric.999291与小Gram行列式仍欠。固定区13行只读2.610s真0成本1.6862e−8，未扣真实目标；继续同一第六态和完整空间扩展。
+
+- 2026-11-26 13:38 UTC｜Astra-visible-flex-6a65e705-20261126：新gap固定g联合第7–9次真实接受227.397s自然0，R²9.60305→8.67816/κ1198.39，累计15但metric.999148/η.00088936仍坏。第9 LSMR160/stop7、1及.5真拒、.25接受；已接完整旧系数Boehm转移和M24真实空间增广，不以观察加点冒加密。
+
+- 2026-11-26 13:40 UTC｜Astra-visible-flex-6a65e705-20261126：R239完整Cartesian精确径向块带结构、全部13行角通道主块及保原λSobolev的增广预条件证明完成。区别物理J与已有变坐标operator，不删跨角耦合、不称新实现已改善；另名实现准备并继续真实v4和新gap求解。
+
+- 2026-11-26 13:44 UTC｜Astra-visible-flex-6a65e705-20261126：强长run45778054176实际13:38completed/cancelled，日志13:38:36明确终止；原第13次Cauchy接受保留。下游仅原observer累计进度及版本probe0，无独立Cartesian实验退出或发布，不能补造接受；分开继续实际cached v4、新gap与完整h分支。
+
+- 2026-11-26 13:46 UTC｜Astra-visible-flex-6a65e705-20261126：新gap同g真空间增广2400→5292列，旧knots/Boehm全六jets转移明确核后重算自身基线；三次完整接受282.278s真0，累计18，R²3.57579/κ635.719/metric.995495仍坏。均LSMR160/stop7、实际α.5/.5/1，继续明确新增面积行的完整模型，未以离散正面积冒连续浸入。
+
+- 2026-11-26 13:49 UTC｜Astra-visible-flex-6a65e705-20261126：第二热点实际准备428→487元/47628列，保旧66加59原节点；两代G8、全部原查询和旧297准确点逐项保留，另249点。发布rev5完整11stage/同场STL/R236入口及90min冻结源码/45min规则监督；真实本地Git/格式预算全0，三个完整绑定scalar件，未冒新场通过。
+
+- 2026-11-26 13:53 UTC｜Astra-visible-flex-6a65e705-20261126：R240完整证明正则二维图的倒面积平方连续有限成本排秩亏，付C2 Lipschitz、零点积分发散、边界扇形及完整固定g J/JT；谱metric误差≤.5新增行零。未把离散成本冒连续证明，当前14行实际求解继续。
+
+- 2026-11-26 14:04:45 UTC｜Astra-visible-flex-6a65e705-20261126：R241登记实际h428同场R236核10.738s真0、连续metric≤8.086781e−7通过，与全时reach/held/含反射δE及三完整STL共同成立；不冒#5机器容差或强目标。13:55执行器不可用后仅小全文API保存，双README blob核未变，不冒literal pull；实际h487继续。
+
+- 2026-11-26 14:17:52 UTC｜Astra-visible-flex-6a65e705-20261126：保存同g/5292列完整14行面积算子与非零FD/JT核；实际2次α.5接受，总20，R14²2.97189115/metric.994814/κ679.312仍不合格。第三normal未返批次外部−9，303.309s，原因未证；源码和事实分别落note。精简H保全部规则及历史链接；CLI停机期间按实际预期头非force API发布。
+
+- 2026-11-26 14:18:04 UTC｜Astra-visible-flex-6a65e705-20261126：面积分支后继单步真实2.488s/RSS220624外部−9，只重建同态基线，无normal/新接受，累计仍20；原因未证。单独保存退出事实，不用缺失收据补造SHA，改持续执行入口。
+
+- 2026-11-26 14:18:28 UTC｜Astra-visible-flex-6a65e705-20261126：R239精确角通道径向块完整实现、全13行与旧λS增广damp=0保原方程。91列非零有限核真0，块误差5.86e−16、物理方向差1.67e−15、增广伴随1.42e−15；未称7760列改善或新非线性接受，另名v5继续。
+
+- 2026-11-26 14:19:40 UTC｜Astra-visible-flex-6a65e705-20261126：45825253169真实13:34:59 failure：完整首步与密观察已返回但仅重生旧cold，重复自身同文H marker导致随后发布失败，无第二步。保存实际日志SHA、最小publisher修复及真实bare-Git NFF/规则变化核0；不借结束raw。
+
+- 2026-11-26 14:20:09 UTC｜Astra-visible-flex-6a65e705-20261126：发布v5独立新源入口/配方/工作流：精确通道块保原λS和完整13行/7760列，20真实尝试预算、自己的源/cache/计数、逐步完整observer；原冻结活动源不改。新bootstrap/workflow尚未本地执行，runner先编译，再按实际退出登记；不提前称启动成功或接受。
+
+- 2026-11-26 14:26:07 UTC｜Astra-visible-flex-6a65e705-20261126：发布gap1.05独立完整冷入口，真生prefix/zero/cache后同g全13→14行/5292列实际求解，6/9/3/12仅预算不借旧接受。单进程一步、逐实际状态普通push、45min规则核；预算后同job保raw及严格绑定续算口，拒绝后不盲续。新编排先CI编译，未预报运行成功。
+
+- 2026-11-26 14:29:49 UTC｜Astra-visible-flex-6a65e705-20261126：R242完整证明已登记并入results索引：q>1倒面积成本在已付Lipschitz/密度/扇形前提下给显式正面积界，q2系数9/512；q<1光滑秩亏有限成本反例付临界性，并给完整q2 J/JT。当前有限训练数值不代入连续界，继续真实新目标。
+
+- 2026-11-26 14:40:44 UTC｜Astra-visible-flex-6a65e705-20261126：本地恢复后实查旧/tmp目录不存在，重建部分clone并真实pull，双README逐差均空；转回CLI普通发布。H压缩并保各历史note/marker；v5与gap105新job均已编译和各自源生成真0，后继完整步骤仍按真实回执登记。
+
+- 2026-11-26 14:43:16 UTC｜Astra-visible-flex-6a65e705-20261126：R243完整零误差角频嵌入证明已入results并索引，四新数学源发布。66非零系数独立六jets差0/端迹0/实际CLI与reader全0，物理梯度恢复差1.09e−16；首轮np.bool序列化失败已据实修正重跑。原M12新M48场尚未执行。
+
+- 2026-11-26 14:48:01 UTC｜Astra-visible-flex-6a65e705-20261126：发布R242对应独立q2面积算子/研究入口。147非零列/17248行真实有限核exit0/.852s，全FD1.84e−10、JT7.21e−16，阈值广义导数一致；原13行保持。未消费5292列实际研究态，研究接受0，活动q1源不改。
+
+- 2026-11-26 15:00:16 UTC｜Astra-visible-flex-6a65e705-20261126：R244完整H带状装配及保原λS的精确谱界直接登记/索引，λ=η白化、λ0无正下界写明。新91非零列实际核0，H误差3.85e−16/同方程方向差1.50e−15；未有生产非线性接受。重新准确应用根第15条，新CI改小Markdown结论+输出SHA，不再发布完整可重算报告或分件。
+
+2026-11-26 15:10 UTC — Astra-visible-flex-6a65e705-20261126：登记R245，h487全11stage/STL/R236真0；同g独立峰降至9.83953e−10，连续metric<8.211825e−7/全时reach通过，LSMR800仍到限。更新gap真实30接受与面积回落；停止新入口的完整可重算报告分件，继续M48暖续及q2完整H真实新job。
+
+2026-11-26 15:15:05 UTC — Astra-visible-flex-6a65e705-20261126：发布同job h487→M48/N768真实暖续完整入口，保同g/原λ0和全部祖先、两微窗、连续几何/STL；新版仅MD实际结论和输出SHA，根第15条不存全报告。新增本题外 .github/workflows/6a65-m12-h487-angular-warm.yml 以启动真实计算；继续查run并推进大幅度新输入。
+
+2026-11-26 15:17:43 UTC — Astra-visible-flex-6a65e705-20261126：发布双grid/q2完整H真实126列核（H差2.82e−16、同λS方向差2.42e−15）与保原14行/5292列的独立生产入口；实际大场未执行。M48 run45847254548已进数学，v5真实9接受但密观察κ706111；继续新全H实际job。H移除已结束作业的重复规则marker，历史仍在16171a96，不删活动marker。
+
+2026-11-26 15:20:39 UTC — Astra-visible-flex-6a65e705-20261126：发布新epoch gap/q2完整H cold；同job重生6+9+3+12后40次真实新尝试，原λS/全5292列不变，新接受独计、MD+输出SHA、同job等待合法后继。新增题外 .github/workflows/6a65-gap105-q2-full-normal-cold.yml 触发实际计算；继续非折叠新输入与M48。
+
+2026-11-26 15:22:51 UTC — Astra-visible-flex-6a65e705-20261126：发表新polar完整源码/六个位置jets与同g 97×128全13行基线，实际188.363s真0；metric.991492/κ747.809/σ.0923802，粗网格漏峰如实纠正，未记优化接受。继续正高度重分配、完整Cartesian入口及连续端口假设。
+
+2026-11-26 15:24:05 UTC — Astra-visible-flex-6a65e705-20261126：登记R246完整有条件构造证明，准确两阶端迹/六jets/连接自嵌入与面积Gram界；真R205右端全角b30≥(49519/49600)zs已付。继续左端与clock连续界、真实高度重分配及完整XYZ求解，不冒全闭目标。
+
+2026-11-26 15:27:08 UTC — Astra-visible-flex-6a65e705-20261126：发布M12专用完整耦合角基三Gram H消费者及77非零列实际核（H差1.41e−15、伴随9.53e−16）；η仅用于P，原λ0/damp0保留，新物理normal恢复已核，未冒大场改善。继续当前M48和后继真实预条件入口。
+
+2026-11-26 15:29:19 UTC — Astra-visible-flex-6a65e705-20261126：发表固定g/端口/高度积分的正控制重分配；同97×128全13行真实126.798s/0，κ747.809→104.978、σ.092380→.246551、R²113.773→96.8415，metric仍.939401。继续完整XYZ/q2全H新初场与连续端口条件，不冒LM接受或完整解。
+
+2026-11-26 15:33:46 UTC — Astra-visible-flex-6a65e705-20261126：发表v5全20步实际批次与全部输出SHA；缓存续接有效但末独立κ1.1746e7、Gram3.00287e−6、全20线性到限。发送绑定末state/observer/源/规则的release包，只结束旧采样runner；主题继续新q2全H/全XYZ与原M12加密。
+
+2026-11-26 15:41:46 UTC — Astra-visible-flex-6a65e705-20261126：发布独立同输入M12完整H预条件M48真实入口，eta1e−6仅右坐标、lambda0不变、全观察/连续/STL保留；不等待或借另run未返回场。新增题外 .github/workflows/6a65-m12-h487-full-normal.yml 触发实际计算；v5已于15:34:01自然success释放，未合格结论不变。
+
+2026-11-26 15:43:23 UTC — Astra-visible-flex-6a65e705-20261126：纠正新q2 cold own-zero摘要误套两训练网格的文字，285.285s真0/0接受与输出身份保留；缺嵌套字段改称摘要未列出。明确旧max1 normal缩放不等于小梯度真相对残差，数值冻结源不改；新M12全H run45851669566已真实setup。
+
+2026-11-26 15:45:31 UTC — Astra-visible-flex-6a65e705-20261126：登记gap q1实际30接受/全部自然0及每步报告SHA；末metric.990636/κ584.069/σ.0910967未合格，后六面积步不能称面积改善。发送严格末state/prepared/run/request绑定release，继续独立q2全H与polar输入；H删除已实际结束v5旧marker，历史已保。
+
+2026-11-26 15:46:24 UTC — Astra-visible-flex-6a65e705-20261126：登记R247正高度控制锐点预算及无反射法曲率必要条件；真实单点.746955s自然0给.437387<.785395，代入仅浮点证据。源码/输出SHA保留，继续完整XYZ；新polar192角cache实际inverse失败已明确，不冒完整baseline。
+
+2026-11-26 15:55:28 UTC — Astra-visible-flex-6a65e705-20261126：登记R248完整C2支撑扩大/端口自由/准确旧场包含及原H2正定性证明，最终非零5292→12789真核0/.830959s，756有理比较全等。q1严格释放已actual success；q2新run实际failure原因待核，继续stable polar新输入和原M12真实加密。
+
+2026-11-26 15:58:00 UTC — Astra-visible-flex-6a65e705-20261126：登记polar192角真实inverse失败及稳定另源实修，原门槛5e−14/完整六jets保持，v2第一组真实181.535s成功、第二组进行。q2远端实际失败原因已定位root修改活动MD引发prepare发布冲突，缓存完成但LM0，不借结束raw；继续独立polar及M12。
+
+2026-11-26 15:59:46 UTC — Astra-visible-flex-6a65e705-20261126：发表q2远端真实失败结论与日志/缓存SHA：源prepare1149.335s已完成，root ab2cd23e修改活动MD引发并发rebase冲突，失败回写又遇未结束rebase；LM0，不能冒算法失败或继续用结束raw。后继独立勘误/严格未发表摘要恢复，继续polar实际新输入。
+
+2026-11-26 16:02:32 UTC — Astra-visible-flex-6a65e705-20261126：按根15普通清理79个已结束/可重算完整输出共1,304,555B，逐字哈希全核；保5参数/全部源码与实际结论，15相对链接改固定历史地址，不改写历史。旧45803041361有限结果单独保真，不借后续连续证书；继续新polar实际LM及M12。
+
+2026-11-26 16:04:20 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2实际两cache/assemble/完整新baseline及全部source/报告SHA，两组半权5292列/434560行R²97.051245、κ104.978、metric.939401，baseline接受0。完整H求解入口v1/v2与真normal诊断发布；首LM真实accepted1另记，lm02同态进行，未达完成。
+
+2026-11-26 16:07:36 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第1完整5292列/434560行真实接受及输出SHA，0/51.719838s；R²75.58254663、κ88.73245945下降而metric峰1.43230255上升。全H两档各LSMR1/stop2且真normal约1e−14至2e−15，原lambdaS/同g保持；立即真实后继，未冒非线性或连续完成。
+
+2026-11-26 16:07:47 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第2完整5292列/434560行真实接受及输出SHA，0/75.867476s；R²69.40294969、κ79.63669427下降而metric峰1.79312403上升。全H两档各LSMR1/stop2且真normal约1e−14至2e−15，原lambdaS/同g保持；立即真实后继，未冒非线性或连续完成。
+
+2026-11-26 16:13:09 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第三完整实际接受/自然0，R²49.87011752、κ64.47053下降但metric峰1.83600258仍升，面积sigma .492390910。保持同g/原完整目标及真实态SHA；第四步已继续，后续第三观察不能借训练网格。
+
+2026-11-26 16:14:12 UTC — Astra-visible-flex-6a65e705-20261126：发布新actual-ledger Markdown publisher及真实bare-Git并发回放，0/.864s；实际NFF后下一Git命令pull，已发生摘要冲突仅撤严格唯一未发表本run提交，保上游独立正文，重新渲染当前实际ledger后普通推。拒外部未发表提交且现场不变；不冒数学进展，不重生旧结束run。
+
+2026-11-26 16:15:33 UTC — Astra-visible-flex-6a65e705-20261126：发表原M12准确径向/角向暖转移消费接口及非零有限核，内部.454441s自然0/408有理六jet比较；明确保存舍入误差连续界，不把binary64保存说成零误差。只消费R196/R208/R226/R236/R243，不重复新理论编号；真实h509生产接线继续。
+
+2026-11-26 16:16:57 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第四实际完整接受/自然0，R²43.96533813、面积项0/σ.691586918；metric峰2.40162578及κ68.42805771均升，未掩盖。真物理normal2.16e−15，原目标/同g保持，立即非零续步和独立观察。
+
+2026-11-26 16:17:57 UTC — Astra-visible-flex-6a65e705-20261126：发布h509/M48第三热点17阶段完整暖续请求，真实487→509源节点准备和非零存储六jet核已有，尚不冒大场下降。新增题外 .github/workflows/6a65-m12-h509-nested-full-normal.yml 窄触发；保同g/完整H/lambda0/三微窗/所有祖先/连续核/STL及45min真pull，新run待核。
+
+2026-11-26 16:21:53 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第5次完整实际接受/自然0，R²20.44112512、metric峰1.89470147、κ46.68199297；真物理normal4.21e−15，仍不合格且固定prefix待偿。保持同g/全行全列非零续步，独立观察已启动；h509新run45857469750已实际进入数学。
+
+2026-11-26 16:22:13 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第6次完整实际接受/自然0，R²5.710998257、metric峰1.31892686、κ37.16139358；真物理normal1.66e−15，仍不合格且固定prefix待偿。保持同g/全行全列非零续步，独立观察已启动；h509新run45857469750已实际进入数学。
+
+2026-11-26 16:27:58 UTC — Astra-visible-flex-6a65e705-20261126：登记polar v2第7个同源全模型真实接受及SHA，自然0/25.665614s；R²2.473717284、metric1.05379666、κ43.72610087，成本及metric下降但曲率峰上升。完整normal8.39e−16；不冒连续完成，真实续步/新独立观察/完整prefix源补算并行。
+
+2026-11-26 16:28:09 UTC — Astra-visible-flex-6a65e705-20261126：登记polar v2第8个同源全模型真实接受及SHA，自然0/37.105559s；R²1.120557600、metric.928416906、κ30.26384106，成本/metric/曲率峰下降。完整normal1.70e−15；不冒连续完成，真实续步/新独立观察/完整prefix源补算并行。
+
+2026-11-26 16:34:14 UTC — Astra-visible-flex-6a65e705-20261126：登记polar v2第9个完整真实接受及实际自然退出/SHA，R14²0.5999875577、metric峰0.8266844267、κ28.82310539、σ0.9150620601；成本/metric/曲率峰均降。全物理normal1.57e-15；不冒连续完成，继续实际非零续步、独立观察及全前缀新空间。
+
+2026-11-26 16:34:26 UTC — Astra-visible-flex-6a65e705-20261126：登记polar v2第10个完整真实接受及实际自然退出/SHA，R14²0.2423952057、metric峰0.5561139694、κ57.62795214、σ0.9121781873；成本和metric下降但κ峰升到57.63。全物理normal1.62e-15；不冒连续完成，继续实际非零续步、独立观察及全前缀新空间。
+
+2026-11-26 16:34:38 UTC — Astra-visible-flex-6a65e705-20261126：登记polar v2第11个完整真实接受及实际自然退出/SHA，R14²0.2188892138、metric峰0.6357568323、κ32.99525007、σ0.9148921924；成本小降但metric峰升，κ峰下降。全物理normal1.06e-15；不冒连续完成，继续实际非零续步、独立观察及全前缀新空间。
+
