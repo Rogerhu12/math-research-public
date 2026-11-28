@@ -160,13 +160,1512 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:48:26Z",
-  "phase": "scientific-entry",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2774,
   "child_returncode": null,
-  "latest_observed_scalar_line": null,
-  "scientific_summary": null,
+  "latest_observed_scalar_line": {
+    "ordinal": 6,
+    "utc": "2026-11-28T12:48:48Z",
+    "original": {
+      "event": "stage",
+      "stage": 5,
+      "source": "equal-unmodified",
+      "Killing": 19.716094960740683,
+      "K": 10.49976530254824,
+      "base_gram": null,
+      "point_sha256": "85c39fca5ec27c34df13c7f8d313b1f2d468630b9ee46842c3f48b3534f5a383"
+    }
+  },
+  "scientific_summary": {
+    "file": {
+      "path": "/home/runner/work/_temp/run39-bent-body-killing-46146451800-1/field/summary.json",
+      "bytes": 30947,
+      "sha256": "8e99cc5f5b1e60e7d6f9de7a0a6c9d2bef80f1dcedb3adc28610cc2d993719fb"
+    },
+    "complete_small_json": {
+      "elapsed_seconds": 12.348304896000002,
+      "imports": {
+        "bent_body_ambient.py": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3",
+        "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+        "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+        "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+        "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+        "r745_equal_meridian_jacobi_two_jets.py": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a"
+      },
+      "in_progress": {
+        "call": 1,
+        "cost": 11.589643295848944,
+        "design": "equal-unmodified",
+        "material_sha256": "11572cb1c53779726bac27ca9bfcb70391249b601de1303ae50631be2b361cde",
+        "physical_sha256": "2a1e550e81f6ce2ffbd8469ac4002d0e426bb3321e0dfb541b0f9dcb743b9d2a",
+        "stage": 6
+      },
+      "numpy": "2.3.5",
+      "params_sha256": "6a3264161732a9e18ae7b3347344ef51a268292864d02b5b1f10e16894bc0eec",
+      "schema": "whole-embedded-body-Killing/v1",
+      "scipy": "1.17.0",
+      "scope": "Whole physical chart grids in both symmetry halves, full ends and caps; global material field, target, support and curvature. All extrema and finite-time bounds evaluated here are sampled, not rigorous. No success claim follows from a small training objective.",
+      "source_sha256": "41f3b38d47fe4fabe69513056dbc9146d8bd44e0a30f12feddfeff0c61532e2a",
+      "stages": [
+        {
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 1.301289245899,
+              "coordinate_2": -0.7155833333333333,
+              "physical_grid_index": 1417,
+              "side": "upper_profile",
+              "value": 18.664781555738266
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.7955205228003,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 8102,
+              "side": "upper_profile",
+              "value": 9.259259259259274
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13842,
+              "side": "upper_profile",
+              "value": 7101.606356646856
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13842,
+              "side": "upper_profile",
+              "value": 7.025618366995098e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 5.166561568401,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 5217,
+              "side": "lower_profile",
+              "value": 0.1337907860455483
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 1.301289245899,
+                  "coordinate_2": -0.7155833333333333,
+                  "physical_grid_index": 1417,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 18.664781555738266,
+                "max_abs_principal": 6.9045992386588875
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.4906614340904,
+                  "coordinate_2": 0.8888888888888888,
+                  "physical_grid_index": 13268,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 3.522648056548885,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 2.2055205228003,
+                  "coordinate_2": 0.07733909240629493,
+                  "physical_grid_index": 8496,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 9.507937761659617,
+                "max_abs_principal": 9.259259259259274
+              }
+            },
+            "rms_Killing": 2.3489079845929326
+          },
+          "configuration": {
+            "check": [
+              71,
+              25,
+              12,
+              10
+            ],
+            "field_degree": 7,
+            "field_iterations": 280,
+            "id": "fixed-thick-full-body",
+            "inner": 0,
+            "metric_weight": 0,
+            "nfev": 0,
+            "regularizer": 0,
+            "shape_degree": 3,
+            "train": [
+              37,
+              13,
+              7,
+              6
+            ]
+          },
+          "design": {
+            "field_width": 0.16,
+            "gap": 1,
+            "geometry": "equal",
+            "id": "equal-Jacobi-wide"
+          },
+          "kind": "unchanged_full_physical_body",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 20.87876437359611,
+                "iterations": 280,
+                "max_current_op": 19.701111166420286,
+                "normal_residual": 0.0027013832528833734,
+                "residual": 5.053869934659726
+              },
+              {
+                "code": 7,
+                "condition_estimate": 35.929397355375414,
+                "iterations": 280,
+                "max_current_op": 13.995303109974445,
+                "normal_residual": 0.0020984999349685815,
+                "residual": 9.110332591440107
+              },
+              {
+                "code": 7,
+                "condition_estimate": 129.25618963580413,
+                "iterations": 280,
+                "max_current_op": 11.338994805622214,
+                "normal_residual": 0.0009842406290268397,
+                "residual": 9.53589073941322
+              }
+            ]
+          },
+          "material_count": 90,
+          "material_sha256": "c86102c9952a26aa4a041a2eaf4c15bbd5ca360c74388ccd52aefb7a7c3d9f68",
+          "npz_bytes": 1382,
+          "npz_sha256": "5baaaaaa2fef8fbd6a2561fcf65f23586654df198bcfe32fb0a052082d0ed5a6",
+          "physical_count": 18,
+          "physical_sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+          "point_sha256": "91bfe98a01e206ca1c0a453048f29cda4b76296a71ed23fb249c8999cae86fff",
+          "score": 4.187463615492634,
+          "stage": 0,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.333242437536,
+              "coordinate_2": -0.6666666666666667,
+              "physical_grid_index": 1886,
+              "side": "lower_profile",
+              "value": 11.33899480562218
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.7955205228003,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 2857,
+              "side": "upper_profile",
+              "value": 9.259259259259274
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4823,
+              "side": "upper_profile",
+              "value": 7101.606356646856
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4823,
+              "side": "upper_profile",
+              "value": 7.025618366995098e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 5.166561568401,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 1848,
+              "side": "lower_profile",
+              "value": 0.1337907860455483
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.333242437536,
+                  "coordinate_2": -0.6666666666666667,
+                  "physical_grid_index": 1886,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 11.33899480562218,
+                "max_abs_principal": 6.904599238658887
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 7.7776452214066,
+                  "coordinate_2": 0.8,
+                  "physical_grid_index": 5199,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 3.2227427169428493,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 6.166561568401,
+                  "coordinate_2": 0.08507300164692441,
+                  "physical_grid_index": 3492,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 9.3645021832098,
+                "max_abs_principal": 9.259259259259274
+              }
+            },
+            "rms_Killing": 2.1779798498207974
+          },
+          "unextended_polar_field_Killing_max": 15.499603496189
+        },
+        {
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.5860362511729,
+              "coordinate_2": -0.88225,
+              "physical_grid_index": 5456,
+              "side": "lower_profile",
+              "value": 19.581735136615304
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.7955205228003,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 8102,
+              "side": "upper_profile",
+              "value": 9.259259259259274
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13842,
+              "side": "upper_profile",
+              "value": 7328.81769981922
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13842,
+              "side": "upper_profile",
+              "value": 7.025618366995098e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 5.166561568401,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 5217,
+              "side": "lower_profile",
+              "value": 0.1337907860455483
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.5860362511729,
+                  "coordinate_2": -0.88225,
+                  "physical_grid_index": 5456,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 19.581735136615304,
+                "max_abs_principal": 6.9045992386588875
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.0,
+                  "coordinate_2": 0.6666666666666666,
+                  "physical_grid_index": 13200,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 4.108834283919858,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 2.2277210308231,
+                  "coordinate_2": 0.04640345544377695,
+                  "physical_grid_index": 8510,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 10.526027622996263,
+                "max_abs_principal": 9.259259259259274
+              }
+            },
+            "rms_Killing": 2.3085156856706
+          },
+          "configuration": {
+            "check": [
+              71,
+              25,
+              12,
+              10
+            ],
+            "field_degree": 7,
+            "field_iterations": 280,
+            "id": "fixed-thick-full-body",
+            "inner": 0,
+            "metric_weight": 0,
+            "nfev": 0,
+            "regularizer": 0,
+            "shape_degree": 3,
+            "train": [
+              37,
+              13,
+              7,
+              6
+            ]
+          },
+          "design": {
+            "field_width": 0.1,
+            "gap": 1,
+            "geometry": "equal",
+            "id": "equal-Jacobi-medium"
+          },
+          "kind": "unchanged_full_physical_body",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 34.108594997444655,
+                "iterations": 280,
+                "max_current_op": 21.159872346191772,
+                "normal_residual": 0.0019961479400816082,
+                "residual": 4.933841701393023
+              },
+              {
+                "code": 7,
+                "condition_estimate": 116.65759263563874,
+                "iterations": 280,
+                "max_current_op": 14.464345161551337,
+                "normal_residual": 0.002118507111129823,
+                "residual": 8.497669096431318
+              },
+              {
+                "code": 7,
+                "condition_estimate": 84.71654254588519,
+                "iterations": 280,
+                "max_current_op": 13.205111430655021,
+                "normal_residual": 0.0016289476329780016,
+                "residual": 9.912595905510985
+              }
+            ]
+          },
+          "material_count": 90,
+          "material_sha256": "e46f9a4e471b411a3f47483c8fc8671f0fc85f23aeeb8909506fae4e4bee959a",
+          "npz_bytes": 1382,
+          "npz_sha256": "486f944a4ad1b5b5a63bfd664fae5f6166d1789e7d735751c3358a147aa1cbbf",
+          "physical_count": 18,
+          "physical_sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+          "point_sha256": "ba3020ef494160317f71aa9d70042906f1f94ef0fc2fe9a5a093d17381303e0d",
+          "score": 4.220903694121283,
+          "stage": 1,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 2.8888396536653,
+              "coordinate_2": 0.6666666666666665,
+              "physical_grid_index": 918,
+              "side": "upper_profile",
+              "value": 13.205111430655018
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.7955205228003,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 2857,
+              "side": "upper_profile",
+              "value": 9.259259259259274
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4823,
+              "side": "upper_profile",
+              "value": 7328.81769981922
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4823,
+              "side": "upper_profile",
+              "value": 7.025618366995098e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 5.166561568401,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 1848,
+              "side": "lower_profile",
+              "value": 0.1337907860455483
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 2.8888396536653,
+                  "coordinate_2": 0.6666666666666665,
+                  "physical_grid_index": 918,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 13.205111430655018,
+                "max_abs_principal": 6.904599238658887
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.0,
+                  "coordinate_2": 0.6000000000000001,
+                  "physical_grid_index": 4624,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 4.117761776728911,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 2.2221843489733,
+                  "coordinate_2": 0.05671533443128294,
+                  "physical_grid_index": 2996,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 10.194524035798638,
+                "max_abs_principal": 9.259259259259274
+              }
+            },
+            "rms_Killing": 2.233733473014486
+          },
+          "unextended_polar_field_Killing_max": 22.82719087557421
+        },
+        {
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 1.301289245899,
+              "coordinate_2": -0.7155833333333333,
+              "physical_grid_index": 1417,
+              "side": "upper_profile",
+              "value": 18.59436517075452
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.7955205228003,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 8102,
+              "side": "upper_profile",
+              "value": 9.259259259259274
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13842,
+              "side": "upper_profile",
+              "value": 7107.309414690087
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13842,
+              "side": "upper_profile",
+              "value": 7.025618366995098e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 5.166561568401,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 5217,
+              "side": "lower_profile",
+              "value": 0.1337907860455483
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 1.301289245899,
+                  "coordinate_2": -0.7155833333333333,
+                  "physical_grid_index": 1417,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 18.59436517075452,
+                "max_abs_principal": 6.9045992386588875
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.4906614340904,
+                  "coordinate_2": 0.8888888888888888,
+                  "physical_grid_index": 13268,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 3.5459250991055216,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 2.2055205228003,
+                  "coordinate_2": 0.07733909240629493,
+                  "physical_grid_index": 8496,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 9.48929478803053,
+                "max_abs_principal": 9.259259259259274
+              }
+            },
+            "rms_Killing": 2.3524916302235903
+          },
+          "configuration": {
+            "check": [
+              71,
+              25,
+              12,
+              10
+            ],
+            "field_degree": 7,
+            "field_iterations": 280,
+            "id": "fixed-thick-full-body",
+            "inner": 0,
+            "metric_weight": 0,
+            "nfev": 0,
+            "regularizer": 0,
+            "shape_degree": 3,
+            "train": [
+              37,
+              13,
+              7,
+              6
+            ]
+          },
+          "design": {
+            "field_width": 0.16,
+            "gap": 0,
+            "geometry": "equal",
+            "id": "equal-unmodified"
+          },
+          "kind": "unchanged_full_physical_body",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 24.403581672357273,
+                "iterations": 280,
+                "max_current_op": 19.720805972539864,
+                "normal_residual": 0.002618897642233923,
+                "residual": 5.049420026306595
+              },
+              {
+                "code": 7,
+                "condition_estimate": 32.13999695890617,
+                "iterations": 280,
+                "max_current_op": 13.982363937372886,
+                "normal_residual": 0.002158526940851465,
+                "residual": 9.095861549315618
+              },
+              {
+                "code": 7,
+                "condition_estimate": 385.5495693550252,
+                "iterations": 280,
+                "max_current_op": 11.317011401196126,
+                "normal_residual": 0.001013682654050272,
+                "residual": 9.571261270314208
+              }
+            ]
+          },
+          "material_count": 90,
+          "material_sha256": "e5aa2dababe88e7f95474fb565e5bf78bbaf56b7bcfa5a44fbcf555ec2ed7574",
+          "npz_bytes": 1382,
+          "npz_sha256": "24210eb9d3eeb1b792ce941b88074d4f9cb7bb7b2fba84f7547065fcdb2064c8",
+          "physical_count": 18,
+          "physical_sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+          "point_sha256": "f1938c396f3bae403a7526a875c2ce00b49c9045918f3d4b1a8882d3ab2184b4",
+          "score": 4.184945873207873,
+          "stage": 2,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.333242437536,
+              "coordinate_2": -0.6666666666666667,
+              "physical_grid_index": 1886,
+              "side": "lower_profile",
+              "value": 11.317011401196133
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.7955205228003,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 2857,
+              "side": "upper_profile",
+              "value": 9.259259259259274
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4823,
+              "side": "upper_profile",
+              "value": 7107.309414690087
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4823,
+              "side": "upper_profile",
+              "value": 7.025618366995098e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 5.166561568401,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 1848,
+              "side": "lower_profile",
+              "value": 0.1337907860455483
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.333242437536,
+                  "coordinate_2": -0.6666666666666667,
+                  "physical_grid_index": 1886,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 11.317011401196133,
+                "max_abs_principal": 6.904599238658887
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 7.7776452214066,
+                  "coordinate_2": 0.8,
+                  "physical_grid_index": 5199,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 3.249100963831502,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 6.166561568401,
+                  "coordinate_2": 0.08507300164692441,
+                  "physical_grid_index": 3492,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 9.337108226923602,
+                "max_abs_principal": 9.259259259259274
+              }
+            },
+            "rms_Killing": 2.1821168681536527
+          },
+          "unextended_polar_field_Killing_max": 15.499603496189
+        },
+        {
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 1.8963712361158,
+              "coordinate_2": 0.8677499999999999,
+              "physical_grid_index": 2110,
+              "side": "upper_profile",
+              "value": 14.775084889590195
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.0204998810064,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 7550,
+              "side": "upper_profile",
+              "value": 9.259259259259272
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13122,
+              "side": "upper_profile",
+              "value": 6014.768317881805
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13122,
+              "side": "upper_profile",
+              "value": 7.04231831957803e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 2.2561193300256,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 2303,
+              "side": "upper_profile",
+              "value": 0.1337907860455484
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 1.8963712361158,
+                  "coordinate_2": 0.8677499999999999,
+                  "physical_grid_index": 2110,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 14.775084889590195,
+                "max_abs_principal": 6.904599238658892
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.5162601322212,
+                  "coordinate_2": 1.0,
+                  "physical_grid_index": 12791,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 2.9830298366350867,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 1.699212506988,
+                  "coordinate_2": 0.0005,
+                  "physical_grid_index": 8099,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 8.228962188988554,
+                "max_abs_principal": 9.259259259259272
+              }
+            },
+            "rms_Killing": 2.5530739722859774
+          },
+          "configuration": {
+            "check": [
+              71,
+              25,
+              12,
+              10
+            ],
+            "field_degree": 7,
+            "field_iterations": 280,
+            "id": "fixed-thick-full-body",
+            "inner": 0,
+            "metric_weight": 0,
+            "nfev": 0,
+            "regularizer": 0,
+            "shape_degree": 3,
+            "train": [
+              37,
+              13,
+              7,
+              6
+            ]
+          },
+          "design": {
+            "field_width": 0.16,
+            "gap": 0.0004,
+            "geometry": "horizontal",
+            "id": "horizontal-gap-wide"
+          },
+          "kind": "unchanged_full_physical_body",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 32.44516490266667,
+                "iterations": 280,
+                "max_current_op": 20.191100335434733,
+                "normal_residual": 0.0018844508762129758,
+                "residual": 5.677810164523125
+              },
+              {
+                "code": 7,
+                "condition_estimate": 43.04386605318957,
+                "iterations": 280,
+                "max_current_op": 14.395009293014798,
+                "normal_residual": 0.002587355820511883,
+                "residual": 9.925035215046254
+              },
+              {
+                "code": 7,
+                "condition_estimate": 35.68869061540955,
+                "iterations": 280,
+                "max_current_op": 11.409213484514154,
+                "normal_residual": 0.0012371271473472735,
+                "residual": 10.779258464280778
+              }
+            ]
+          },
+          "material_count": 90,
+          "material_sha256": "bb1d628146b12aba6afb92781922ac620065d38c97edf2a65b2b6d51899f5607",
+          "npz_bytes": 1382,
+          "npz_sha256": "fcfe3570ad76fcbd726aee807860e688afd7c242bf73609e4e8f8db01ff12972",
+          "physical_count": 18,
+          "physical_sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+          "point_sha256": "50c6d440d50c6ab1e56f0eca7eb33a6d5fa6789cca88f30cf2aad60f739fc416",
+          "score": 4.026244926178077,
+          "stage": 3,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.1074768072703,
+              "coordinate_2": 0.8333333333333333,
+              "physical_grid_index": 1943,
+              "side": "lower_profile",
+              "value": 11.409213484514162
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.0204998810064,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 2670,
+              "side": "upper_profile",
+              "value": 9.259259259259272
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4575,
+              "side": "upper_profile",
+              "value": 6014.768317881805
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4575,
+              "side": "upper_profile",
+              "value": 7.04231831957803e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 2.2561193300256,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 792,
+              "side": "upper_profile",
+              "value": 0.1337907860455484
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.1074768072703,
+                  "coordinate_2": 0.8333333333333333,
+                  "physical_grid_index": 1943,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 11.409213484514162,
+                "max_abs_principal": 6.904599238658892
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.0204998810064,
+                  "coordinate_2": 0.8,
+                  "physical_grid_index": 4419,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 2.9073672292719026,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 5.6749742303003,
+                  "coordinate_2": 0.08507300164692441,
+                  "physical_grid_index": 3360,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 8.348968541704318,
+                "max_abs_principal": 9.259259259259272
+              }
+            },
+            "rms_Killing": 2.405187813669768
+          },
+          "unextended_polar_field_Killing_max": 15.499603496188964
+        },
+        {
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 1.8963712361158,
+              "coordinate_2": 0.8677499999999999,
+              "physical_grid_index": 2110,
+              "side": "upper_profile",
+              "value": 14.78462747086926
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.0204998810064,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 7550,
+              "side": "upper_profile",
+              "value": 9.259259259259272
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13122,
+              "side": "upper_profile",
+              "value": 6087.957099307268
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 13122,
+              "side": "upper_profile",
+              "value": 7.04231831957803e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 2.2561193300256,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 2303,
+              "side": "upper_profile",
+              "value": 0.1337907860455484
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 1.8963712361158,
+                  "coordinate_2": 0.8677499999999999,
+                  "physical_grid_index": 2110,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 14.78462747086926,
+                "max_abs_principal": 6.904599238658892
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.5162601322212,
+                  "coordinate_2": 1.0,
+                  "physical_grid_index": 12791,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 2.9277548533512094,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 1.6006331424241,
+                  "coordinate_2": 0.03093563696251797,
+                  "physical_grid_index": 8069,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 8.24494494925567,
+                "max_abs_principal": 9.259259259259272
+              }
+            },
+            "rms_Killing": 2.5443777309375815
+          },
+          "configuration": {
+            "check": [
+              71,
+              25,
+              12,
+              10
+            ],
+            "field_degree": 7,
+            "field_iterations": 280,
+            "id": "fixed-thick-full-body",
+            "inner": 0,
+            "metric_weight": 0,
+            "nfev": 0,
+            "regularizer": 0,
+            "shape_degree": 3,
+            "train": [
+              37,
+              13,
+              7,
+              6
+            ]
+          },
+          "design": {
+            "field_width": 0.16,
+            "gap": 0,
+            "geometry": "horizontal",
+            "id": "horizontal-original"
+          },
+          "kind": "unchanged_full_physical_body",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 130.67971043012682,
+                "iterations": 280,
+                "max_current_op": 20.204161737111182,
+                "normal_residual": 0.0018761382303265986,
+                "residual": 5.677150858334362
+              },
+              {
+                "code": 7,
+                "condition_estimate": 70.64384870066048,
+                "iterations": 280,
+                "max_current_op": 14.264813424969649,
+                "normal_residual": 0.0023302626523042003,
+                "residual": 9.914059425164375
+              },
+              {
+                "code": 7,
+                "condition_estimate": 65.32210362568551,
+                "iterations": 280,
+                "max_current_op": 11.619345881986817,
+                "normal_residual": 0.0013034698804770027,
+                "residual": 10.755858472648733
+              }
+            ]
+          },
+          "material_count": 90,
+          "material_sha256": "053e967f48a18d623349d25d030680d5b6c81a48ab96f9d0a2988e834ab908e0",
+          "npz_bytes": 1382,
+          "npz_sha256": "ae0481606c2aafcea5abe487d2e35ee15c53a10a447e8c37f0627647f0488dba",
+          "physical_count": 18,
+          "physical_sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+          "point_sha256": "386aec2bb6d281732d6b4881fd3f122a16bd9b22c27017319a29b5ae1e319de9",
+          "score": 4.024399131818042,
+          "stage": 4,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.1074768072703,
+              "coordinate_2": 0.8333333333333333,
+              "physical_grid_index": 1943,
+              "side": "lower_profile",
+              "value": 11.619345881986849
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.0204998810064,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 2670,
+              "side": "upper_profile",
+              "value": 9.259259259259272
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 0,
+              "side": "upper_profile",
+              "value": 0.0
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4575,
+              "side": "upper_profile",
+              "value": 6087.957099307268
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 4575,
+              "side": "upper_profile",
+              "value": 7.04231831957803e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 2.2561193300256,
+              "coordinate_2": -1.0,
+              "physical_grid_index": 792,
+              "side": "upper_profile",
+              "value": 0.1337907860455484
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.1074768072703,
+                  "coordinate_2": 0.8333333333333333,
+                  "physical_grid_index": 1943,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 11.619345881986849,
+                "max_abs_principal": 6.904599238658892
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.0204998810064,
+                  "coordinate_2": 0.8,
+                  "physical_grid_index": 4419,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 2.8551276847771923,
+                "max_abs_principal": 2e-10
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 1.3241606537367,
+                  "coordinate_2": 0.08507300164692441,
+                  "physical_grid_index": 2810,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 8.381355800418401,
+                "max_abs_principal": 9.259259259259272
+              }
+            },
+            "rms_Killing": 2.396435892122856
+          },
+          "unextended_polar_field_Killing_max": 15.499603496188964
+        },
+        {
+          "adjoint_abs": 1.5959455978986625e-16,
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 6.8937474870241,
+              "coordinate_2": -0.7374615384615384,
+              "physical_grid_index": 7063,
+              "side": "lower_profile",
+              "value": 19.716094960740683
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 0.9613591427396,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 8946,
+              "side": "upper_profile",
+              "value": 10.49976530254824
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 3.2510528896564,
+              "coordinate_2": 0.7240769230769233,
+              "physical_grid_index": 3471,
+              "side": "upper_profile",
+              "value": 0.019532878095282678
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 15269,
+              "side": "upper_profile",
+              "value": 7393.520149943625
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 15269,
+              "side": "upper_profile",
+              "value": 7.043560053357652e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 1.3776670967245,
+              "coordinate_2": -0.8,
+              "physical_grid_index": 1574,
+              "side": "upper_profile",
+              "value": 0.058553345321524945
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 6.8937474870241,
+                  "coordinate_2": -0.7374615384615384,
+                  "physical_grid_index": 7063,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 19.716094960740683,
+                "max_abs_principal": 9.709889174325426
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.0,
+                  "coordinate_2": 0.6000000000000001,
+                  "physical_grid_index": 14532,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 3.6432794873211733,
+                "max_abs_principal": 0.14097297135545242
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 5.9570545905581,
+                  "coordinate_2": 0.07089416803910367,
+                  "physical_grid_index": 10826,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 8.5557584548157,
+                "max_abs_principal": 10.49976530254824
+              }
+            },
+            "rms_Killing": 2.1723291792192
+          },
+          "configuration": {
+            "check": [
+              79,
+              27,
+              13,
+              11
+            ],
+            "field_degree": 8,
+            "field_iterations": 300,
+            "id": "actual-body-design-1",
+            "inner": 70,
+            "metric_weight": 0,
+            "nfev": 44,
+            "regularizer": 2e-05,
+            "shape_degree": 5,
+            "train": [
+              43,
+              15,
+              8,
+              7
+            ]
+          },
+          "design": {
+            "field_width": 0.16,
+            "gap": 0,
+            "geometry": "equal",
+            "id": "equal-unmodified"
+          },
+          "finite_diff_relative": 2.3669441325554249e-07,
+          "kind": "free_actual_shape_and_vector",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 23.95994793344227,
+                "iterations": 300,
+                "max_current_op": 19.830074274317113,
+                "normal_residual": 0.0020354856725559615,
+                "residual": 4.840516099530168
+              },
+              {
+                "code": 7,
+                "condition_estimate": 15.993095842500692,
+                "iterations": 300,
+                "max_current_op": 13.760212691627055,
+                "normal_residual": 0.002904287350743974,
+                "residual": 8.339602686091753
+              },
+              {
+                "code": 7,
+                "condition_estimate": 109.461516911259,
+                "iterations": 300,
+                "max_current_op": 10.699423391480131,
+                "normal_residual": 0.002749033219685601,
+                "residual": 9.035681155687586
+              }
+            ]
+          },
+          "material_count": 125,
+          "material_sha256": "9593a7b61ba4be3ff81322e21edfb4f986d7c8f0169ddff4792628fb9355b14d",
+          "nfev": 44,
+          "njev": 34,
+          "npz_bytes": 1902,
+          "npz_sha256": "1f83e3ec6d87b4329f21543ec93e78ffa4b2b1582b9fa1cc38096382d6891218",
+          "optimality": 0.42611794044681073,
+          "physical_count": 48,
+          "physical_sha256": "ccde5ae9d97630d12e2372513453b518fb2d14eed72c31496b1a06efb862d6f0",
+          "point_sha256": "85c39fca5ec27c34df13c7f8d313b1f2d468630b9ee46842c3f48b3534f5a383",
+          "previous_material_sha256": "e5aa2dababe88e7f95474fb565e5bf78bbaf56b7bcfa5a44fbcf555ec2ed7574",
+          "previous_physical_sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+          "score": 5.135406361532848,
+          "solver_cost": 11.256394795327235,
+          "solver_status": 0,
+          "stage": 5,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 2.8681681713493,
+              "coordinate_2": -0.7142857142857143,
+              "physical_grid_index": 1020,
+              "side": "upper_profile",
+              "value": 10.699423391480122
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 7.2660260340849,
+              "coordinate_2": 0.16964600329384882,
+              "physical_grid_index": 4119,
+              "side": "lower_profile",
+              "value": 10.486072826679138
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 3.2505905941959,
+              "coordinate_2": -0.7142857142857143,
+              "physical_grid_index": 1265,
+              "side": "upper_profile",
+              "value": 0.019558351145432813
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 5558,
+              "side": "upper_profile",
+              "value": 7393.520149943625
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 3.0565205228003,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 5558,
+              "side": "upper_profile",
+              "value": 7.043560053357652e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 7.0748148226616,
+              "coordinate_2": -0.55,
+              "physical_grid_index": 2632,
+              "side": "lower_profile",
+              "value": 0.09353544343718417
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 2.8681681713493,
+                  "coordinate_2": -0.7142857142857143,
+                  "physical_grid_index": 1020,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 10.699423391480122,
+                "max_abs_principal": 9.709889174325426
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.0,
+                  "coordinate_2": 0.5,
+                  "physical_grid_index": 5314,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 3.580157524598897,
+                "max_abs_principal": 0.14078269533850155
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 2.3555205228003,
+                  "coordinate_2": 0.04861314379824252,
+                  "physical_grid_index": 3430,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 8.169533458011768,
+                "max_abs_principal": 10.486072826679138
+              }
+            },
+            "rms_Killing": 2.0776575036957796
+          }
+        }
+      ]
+    }
+  },
   "whole_runner_field_files": null,
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
@@ -194,5 +1693,7 @@
     "OMP_NUM_THREADS": "1",
     "MKL_NUM_THREADS": "1"
   },
-  "child_started_utc": "2026-11-28T12:48:36Z"
+  "child_started_utc": "2026-11-28T12:48:36Z",
+  "observed_utc": "2026-11-28T12:49:03Z",
+  "original_scalar_line_count": 6
 }
