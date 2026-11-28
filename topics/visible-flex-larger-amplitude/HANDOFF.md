@@ -39,7 +39,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 02182f1d1cbc3df8225023fd7df7ebe89775a125
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 92a4ae24bc930324feeeaff7beac528602edeccc
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 2931f7834c7708757ecfde8874dd8b2430a0f4e3
 
 <!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
 
@@ -58,3 +57,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [49/R774已闭完整结果及R784–786全部原证明](results/INDEX-after-R770.md)：所有原报告、点/源参/预算/真pull和范围未减；旧导航完整保[7e975前态](https://github.com/Rogerhu12/math-research-public/blob/7e9758e066a242d9d362cac388969c9941d68017/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
 [R780](notes/2026-11-28-R780-complete-crowns-and-four-normalized-roll-studies.md)：新g完整曲帽/末领/中央准确，四硬中央/平领迹被直母线延拓排精确。23源/四原PID各三层7+6相完整预算照原发；改变真迹的新方向继续，实际待返。
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 0e1806cce9cd0befc77da83e24d9c471e5998311
