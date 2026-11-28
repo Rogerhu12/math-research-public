@@ -40,7 +40,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 3386f5bfc7645c3c2239916db02d3a15c86ba1c8
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 2b581e3cfb8fb905e9ab2c14bf40599320c575c7
 
 [R782](results/R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：同R781 g整rim位置/横向一阶迹夹持，在局部统一角解析二基本形类内全柱刚性；穿K零/变号亦成立。一般C²、自由真rim或无统一解析界的近等距序列不覆盖。平帽内握的角解析限制与非解析完整发展帽另证。
 <!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
@@ -50,3 +49,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R785](results/R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)：同R781 g双完整帽各四真实MILD扇，xi≤.02，共全空间剪切逐对支付reach≥1/24.36>.03D、held>.320、含反射商距>.086及真.18内握。终相同一中央点原g缺陷>.24；下一全场必须纠正。
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 795f30b106ddb9e1a387022d30aa4dd4bb35d788
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull f0931320e91357b3f5f61adf1f10d0e932358688
