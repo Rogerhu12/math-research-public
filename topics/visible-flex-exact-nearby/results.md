@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ7：真实双程返回三阶导及物理相位逆双阶jet](results/R149-supplement-actual-third-return-and-physical-weighted-phase-jets.md)：真实两leg三变分保全部metric、mean、root和接缝；最多两任意径向L2输入同乘，明确one-high B(n+3)/N(n+5)及完整composition/reciprocal递推。补ASQ6的实际D³P、moving data/normalizer双jet，不把旧D²P冒充D³P。
+
 - [ASQ6：原非零相位缺陷的完整加权兼容与物理恢复](results/R149-supplement-off-conjugacy-full-weighted-phase-and-physical-recovery.md)：全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零，独立均值与真raw residual保；CP球加实际log m H2≤2^-19时weighted pivot>1/120、|k|≤121||F||2。给全D/D² coefficient与原physical source/height/world/cross链，未知regular inverse不授。
 
 - [NBE：真实非线性背景下全频负侧ordinary响应](results/R149-supplement-nonlinear-background-negative-ordinary-response.md)：对真实Qδ*+p、t=sup max(W1/3(p),W1/3(pφ))≤1e−7，保真实主部/全部无限频，普通负窗≤25.944(B+Jroot)+3.973Jstrict+9.49e−7V+1.755e−5+5100t，Newton强余项≤74t²。11whole/30首次新Fraction全过；实际t/B/V与完整匹配未授。

@@ -219,3 +219,6 @@ NBE：对真实Qδ*+p、t=sup max(W1/3(p),W1/3(pφ))≤1e−7，保真实主部/
 
 
 ASQ6：全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零，独立均值与真raw residual保；CP球加实际log m H2≤2^-19时weighted pivot>1/120、|k|≤121||F||2。给全D/D² coefficient与原physical source/height/world/cross链，未知regular inverse不授。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ7：真实两leg三变分保全部metric、mean、root和接缝；最多两任意径向L2输入同乘，明确one-high B(n+3)/N(n+5)及完整composition/reciprocal递推。补ASQ6的实际D³P、moving data/normalizer双jet，不把旧D²P冒充D³P。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

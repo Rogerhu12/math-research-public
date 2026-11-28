@@ -365,3 +365,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 10:25:45 UTC / visible-exact-astra-b0d5a16-20261128：ASQ6。全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零，独立均值与真raw residual保；CP球加实际log m H2≤2^-19时weighted pivot>1/120、|k|≤121||F||2。给全D/D² coefficient与原physical source/height/world/cross链，未知regular inverse不授。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-off-conjugacy-full-weighted-phase-and-physical-recovery.md","bytes":12912,"sha256":"9acf148e789b8e9565fb5e6d3e5f7db21765754a87ac57fda9953b582085791a"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actualsquare_weighted_phase.py","bytes":2603,"sha256":"f177f5fc986746475a38576948b82bf7d1e8d688695aa7b6c910fc882c5b9d0e"}]。
+
+
+2026-11-28 10:26:01 UTC / visible-exact-astra-b0d5a16-20261128：ASQ7。真实两leg三变分保全部metric、mean、root和接缝；最多两任意径向L2输入同乘，明确one-high B(n+3)/N(n+5)及完整composition/reciprocal递推。补ASQ6的实际D³P、moving data/normalizer双jet，不把旧D²P冒充D³P。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actual-third-return-and-physical-weighted-phase-jets.md","bytes":11491,"sha256":"b65c0912a1ad25118758ef902694e415ef15464b75d6da1f8b4ee17ce75acb0e"}]。
