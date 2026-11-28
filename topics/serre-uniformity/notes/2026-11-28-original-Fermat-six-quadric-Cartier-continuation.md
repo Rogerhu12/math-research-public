@@ -967,3 +967,190 @@ $$
 后继若要据 (Q.34) 排除共同零，必须处理这个实际 $114$ 项，
 不能只凭两个 $123$ 项的消失把整条扭曲源置零。
 本节为纸面函数域证明，无数学程序执行。
+
+
+## 10. 第六混合层的有界原函数及原 Picard 第七 jet
+
+本节将原 $\mathfrak b_6$ 接到同一个
+$\phi(R)=\Phi(U^m)(R)=U(R)H_p(U(R)^3)$。
+只在显示的分支使用有界积分：先假设 $e=0$，亦即 $\alpha=0$；
+最后比较第七 jet 时再加 $K_4=0$。
+本节不证明 $\mathfrak b_6$ 为单位。
+
+### 10.1. 六次积分的实际有限空间
+
+由 (Q.1)，$\mathcal B\in U K[U^3]_{\le N}$，
+且极阶至多 $p-3$。
+这里 $K$ 是包含已固定原相位的完美常数域。
+在 $\alpha=0$ 时，可以唯一构造下面的链，
+其中第二个原函数的常数按第三步指定：
+$$
+\begin{array}{c|c|c}
+j&\mathcal J_j\text{ 所在空间}&
+ \operatorname{pole}_O(\mathcal J_j)\le\\ \hline
+0&U K[U^3]_{\le N},\quad\mathcal J_0=\mathcal B&p-3\\
+1&VU^2K[U^3]_{\le N-1}&p-4\\
+2&K[U^3]_{\le N}&p-5\\
+3&VUK[U^3]_{\le N-1}&p-6\\
+4&U^2K[U^3]_{\le N-1}&p-7\\
+5&VK[U^3]_{\le N-1}&p-8\\
+6&UK[U^3]_{\le N-1}&p-9
+\end{array}
+\qquad
+D\mathcal J_j=\mathcal J_{j-1}.
+\tag{Q.36}
+$$
+
+第一步不能仅从形式积分推断。
+实际导子为
+$$
+D(VU^{3j+2})
+ =(6j+7)U^{3j+4}+(6j+4)v^2U^{3j+1}.
+$$
+它从表中的第 1 空间单射到第 0 空间，像的余维为一。
+这两个空间中的微分都只在 $O$ 有小于 $p$ 阶的极，
+所以 Cartier 输出全纯。
+Cartier 杀掉导子的像，而原
+$C_{\rm rel}(U\omega)=-\delta\omega'\ne0$，
+故像恰好是该 Cartier 泛函的核。
+(Q.2) 的 $\alpha=0$ 因此准确支付 $\mathcal J_1$ 的存在和唯一性。
+
+第二步使用 $D(U^{3j})=6jVU^{3j-1}$，暂留一个常数。
+第三步使用
+$$
+D(VU^{3j+1})
+ =(6j+5)U^{3j+3}+(6j+2)v^2U^{3j}.
+$$
+其非恒定系数构成一个可逆三角矩阵；
+故第二步的常数有且只有一个选择，使结果落在这个像中。
+最后三步依次使用
+$$
+\begin{aligned}
+D(U^{3j+2})&=(6j+4)VU^{3j+1},\\
+D(VU^{3j})&=(6j+3)U^{3j+2}+6jv^2U^{3j-1},\\
+D(U^{3j+1})&=(6j+2)VU^{3j}.
+\end{aligned}
+$$
+$j=0$ 时中式的第二项为零。
+所有使用的对角因子均非零且严格小于 $p$。
+这证明的是同一原 $\mathcal B$ 的全函数链及完整极点界；
+没有引入别处的 $p$ 次极，也没有把形式局部原函数当成有界全局原函数。
+
+### 10.2. 第六层的精确 Laurent 读数
+
+置 $\mathcal J=\mathcal J_6$、$\beta_{\mathcal J}\omega'
+=C_{\rm rel}(\mathcal J\omega)$。
+六次分部积分和 (Q.36) 给
+$$
+\mathfrak b_6=6!\delta^6\beta_{\mathcal J}.
+$$
+因为 $\mathcal J\in UK[U^3]$、极阶至多 $p-9$，
+(Q.4) 中同一个单极点留数证明合法：
+$$
+\beta_{\mathcal J}=-\delta[\tau^{-2}]\mathcal J.
+$$
+另一方面 $D^6\mathcal J=\mathcal B$，
+故
+$[\tau^{-8}]\mathcal B=7![\tau^{-2}]\mathcal J$。
+于是
+$$
+\boxed{\qquad
+e=0\ \Longrightarrow\
+\mathfrak b_6
+ =-\frac{\delta^7}{7}[\tau^{-8}]\mathcal B.
+\qquad}
+\tag{Q.37}
+$$
+这里的 $\tau$ 是本篇开头的同一 exact 参数，
+不是跨过首个不整项后再约化的特征零参数。
+
+同一有界链还给出真实的后续低层，而不需要额外假设 $K_4=0$：
+$$
+\boxed{
+\frac{C_{\rm rel}(\Psi^r\mathcal B\omega)}{\omega'}
+=
+\begin{cases}
+\mathfrak b_6,&r=6,\\
+0,&r=7,\\
+-28\mathfrak b_6U',&r=8,\\
+168\mathfrak b_6V',&r=9
+\end{cases}
+\qquad(e=0).
+}
+\tag{Q.38}
+$$
+确切地，分部积分给
+$r!/(r-6)!\cdot\delta^6 C_{\rm rel}(\Psi^{r-6}\mathcal J\omega)$；
+再使用 (Q.5) 已付的同一 $UK[U^3]$ 留数规则即可。
+所需阶乘至多 $9!$，本题范围全部安全。
+本式没有越过所列的插入范围。
+
+### 10.3. 同一个 $\Phi(U^m)$ 的第七 jet
+
+现在加上 $K_4=0$。
+由原 $H_p(0)$、$H_p'(0)$ 的尺度，
+$\phi$ 在 $-Q$ 的消失阶至少七。
+记
+$$
+t_7=D_R^7\phi(-Q).
+$$
+原完整 kernel 微分恒等式
+$C_T(\Psi(T)f(T)K(T,R)\omega_T)
+=(D_R+h_Z(R))t_f(R)\,\omega_Z$
+可以在这里连续使用七次。
+因为 $\phi,D_R\phi,\ldots,D_R^6\phi$ 在 $-Q$ 全为零，
+全部较低阶的第三类补偿均消失，准确留下
+$$
+C_{\rm rel}(\Psi^7x^{-1}\omega)=x't_7\omega'.
+$$
+这里仍用 (Q.6) 中的原 $\nu=x^{-1}\omega=x^pF_Q\omega$；
+不能先删第三类项再对任意源宣称这个等式。
+
+利用同一 Cartier–导子身份，
+前七个零读数逐次给
+$D^{p-1}x^{-1}=\cdots=D^{p-7}x^{-1}=0$。
+第七次 Leibniz 展开中仅余一项，
+因 $\binom{p-1}{7}=-1$，有
+$$
+D^{p-8}x^{-1}
+ =\frac{x^p t_7}{7!\delta^7}.
+$$
+在 $O$ 的原不分歧支 $x(O)=1$ 上，
+$x^{-1}(\tau)=x(-\tau)$，且 $p-8$ 为奇。
+再用 Wilson 的 $(p-8)!=1/7!$，得到
+$$
+[\tau^{p-8}]x=-\frac{t_7}{\delta^7}.
+$$
+
+原 (G4.100) 的完整负主部为
+$$
+\mathcal B
+ =c_*\tau^{-p}(x-x^{-1})+\text{在 }O\text{ 正则的项},
+\qquad c_*=-\frac{\rho}{b_0\delta}.
+$$
+由于 $p-8$ 为奇，
+$[\tau^{-8}]\mathcal B=2c_*[\tau^{p-8}]x$。
+与 (Q.37) 合并，准确得到
+$$
+\boxed{\qquad
+e=K_4=0\ \Longrightarrow\
+D_R^7\Phi(U^m)(-Q)
+ =-\frac{7b_0\delta}{2\rho}\,\mathfrak b_6.
+\qquad}
+\tag{Q.39}
+$$
+所有读数均严格低于 $p$；这里没有新增坐标或 Frobenius 相位。
+
+若写 $H_p(X)=\sum H_{p,j}X^j$，
+在这个分支上还可等价写成
+$$
+\mathfrak b_6
+ =\frac{2^{12}\cdot3^2\cdot5\,\rho v^7}{b_0\delta}\,H_{p,2},
+$$
+因为 $D_RU(-Q)=-2v$。
+这只把原第六混合层识别为下一允许的 Picard 系数。
+(Q.14) 的正常方向单位、$\mathfrak b_6$ 及这个第七 jet
+仍是不同的读取；没有据该单位把本节的未证非零补上。
+全部证明是实际有限空间、原 kernel 和全函数的纸面计算，
+无数学程序执行。第六层至第七 jet 的尺度已由
+o2_high_coefficient 独立纸核。

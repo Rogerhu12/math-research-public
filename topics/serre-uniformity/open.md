@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-second-central-reading.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-seventh-Picard-jet.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -114,15 +114,11 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 原A=xP12+x⁻¹P32、B=xP12−x⁻¹P32满足DA=vB/U−2/b0、DB=vA/U；B=Σt_jU^(3j+1)且所有t_j单位。F=P12P32=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0=ρ²/(b0²δ²)，W=F−P²顶系数(ρ²−1)/(b0²δ²)unit。α=C_rel(Bω)/ω′=−2ρe/(b0δ)，ΨrB第1…5层及第6层−5αU′³+b6全保；b6=8δ³C(Rcal³Bω)/ω′是不同源，不换名K4。原45槽、九mixed及七维消失范围沿归档，σ/Λ/T仍未unit。
 
-[quadric续篇 §§1–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)三个实际单位三角矩阵给A=D³I、poleI≤p−3；原全kernel保4ve，故a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4=2ρδK4/b0−4vα，原双零恰α=a3=0。e0时两个absolute有序P³Piωj均为ρK4 h*/(b0⁴δ²)，一般式保±2αV；C(P²Wh*)=−a3h*/(3b0³δ³)。原D_R⁴t(−Q)及a3准确相同，Leibniz给120C(U³I)/ω′+48v²βI=vα+2δ/b0。
+[quadric续篇 §§1–10](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)给同一原A=D³I及a3=2ρδK4/b0−4vα；双零恰α=a3=0。原kernel保4ve，absolute有序P³Piωj及C(P²Wh*)精确尺度、完整高Lamé二次变换和上下半段见[逐字前态](open-archive-2026-11-28-before-seventh-Picard-jet.md)及原文，不重算。
 
-同一高Lamé零模Z=(Vp(J+−J−)−v(J++J−))/Up，deg p−1，完整二次变换G(4w(1−w))=(1−w)^(4k−1)+w^(4k−1)保共振高项；Z=4zN g+2b0zN U^(m+1)B/v且C_rel(Zω)=−2vω′。R0=g/U^(m+1)满足C(R0ω)=ρeω′/(vδ)，e0 iff唯一有界H0∈VU^(−3k+2)K[U³]_(≤k−2)、DH0=R0，首τ⁵/20。K=UDR0有DK=1+v²R0/U，C(Ψ³K)/ω′=3v²e/(2zN)−b0a3/2；e0下恰−ρδK4。高unit和双零强迫C(U³I)=δ/(60b0)没有给矛盾。
+R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40 iff相应M3存在；M0=K²−v²R0²、DM0=2K后有完整五次有界链，K=D⁵M4/2。因此 **e=K4=0 ⇔ D^(p−5)K=0**。原二次限制v²(D⁵M4)²−U²(D⁶M4−2)²=4v²D⁴M4保非齐次2。全S3 primitive交换保p次补偿；114交叉源的Cartier单位不能删掉双零后残存的114项。
 
-[同续篇 §8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)进一步保真正二次关系M0=K²−v²R0²=Σ2a_j g_j U^(a_j+1)/(a_j+1)，a_j=−3k+1+3j，全部高极相消且DM0=2K。其C_rel为−v²e/(δzN U′)，不是全纯常数。e0 iff唯一M1∈VU^(−3k+3)K[U³]_(≤k−2)满足DM1=M0；随后逐项积分M2∈U^(−3k+4)K[U³]_(≤k−2)，其C=ρK4ω′/(3δ²)。K40 iff唯一M3∈VU^(−3k+5)K[U³]_(≤k−3)存在，再积分M4∈U^(−3k+6)K[U³]_(≤k−3)。整个链极≤m−1−j、O首2τ^(j+2)/(j+2)!，K=D⁵M4/2，故
-
-**e=K4=0 ⇔ D^(p−5)K=0**。
-
-所有箭头由实际空间三角矩阵支付，不用一般低极exact积分。完整二次限制为v²(D⁵M4)²−U²(D⁶M4−2)²=4v²D⁴M4，非齐次常数二保留。现在继续同一V有理子域/三极界与此norm式，仍须排除实际链；不以首τ⁶/360、全Jordan或旁列单位代原两jet。旧窗口不重跑。
+§10在e0时以六个具体有限空间付D⁶J=B、poleJ≤p−9，b6=−δ⁷[τ⁻⁸]B/7；后续插入r6..9为b6、0、−28b6U′、168b6V′。双零时完整七次kernel/Leibniz给D_R⁷Φ(U^m)(−Q)=−7b0δ b6/(2ρ)，等价b6=2¹²·3²·5ρv⁷H_{p,2}/(b0δ)。原Q14强迫120C(U³I)/ω′+48v²βI=vα+2δ/b0仍须与同一链比较，未证b6或两jet非零。继续三极norm/同源交叉源，旧窗口不重跑。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 

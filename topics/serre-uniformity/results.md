@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Fermat第六混合层与第七Picard jet（已证明）**：[quadric续篇 §10](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)e0时六个实际有限空间给D⁶J=B、poleJ≤p−9及b6=−δ⁷[τ⁻⁸]B/7；双零下完整七次kernel读取锁定D_R⁷Φ(U^m)(−Q)=−7b0δ b6/(2ρ)，保全部相位与有界性。该下一系数仍未证unit，原Q14强迫源及两jet继续。
+
 - **原Gaussian四次矩中槽与低权二阶源（已证明）**：[高窗 §10](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)共同整截断τ坐标及F4完整有限差将真实误差抬至p²−p+2，支付G_(p²−2p−3)=−J_p/(4β³)。原heat给J_p=∂²H_p/6−13aH_p/18，M4中槽为−J_p/(2β)；首p进位−8β及全部安全卷积保留，顶槽与联合非零继续。
 
 - **原超奇异Brandt格的两个Hecke共同核（已证明）**：[R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)晶体整格保原倒向同源，Bℓ=ℓ^dTℓ；具体有限整序提升至权14/10的p-new形式，Saito/Caruso惯性界排ω¹⁴⊕ω⁻¹及ω¹²⊕ω⁻³，故余有限算子族生成单位理想。一般原Z0有实际s¹⁴提升依赖；有限格实现与足够实际辅助素数尚需证明，未据非齐次方程宣Z0=0。
