@@ -28,7 +28,7 @@ jobs:
           git remote add origin https://github.com/Rogerhu12/math-research-public.git
           git sparse-checkout init --no-cone
           git sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md' '/topics/invariant-subspace-problem/HANDOFF.md' '/topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-8542.py' '/topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json'
-          timeout 120s git fetch --no-tags --filter=blob:none --depth=2 origin "$ISP_PIN"
+          timeout 120s git fetch --no-tags --filter=blob:none --depth=3 origin "$ISP_PIN"
           git checkout -b prepared FETCH_HEAD
           printf 'ISP_PREPARED_DIR=%s\n' "$PWD" >> "$GITHUB_ENV"
       - name: Actual main pull and immediate non-fast-forward rebase retries
