@@ -976,3 +976,217 @@ $8235=3^3\cdot5\cdot61$，
 而 $p>37,\ p\equiv3\bmod4$ 排除了 $p=61$，
 所以这也精确恢复 (GN.44) 的全素数零判据。
 本节不改变原 good-mask 或 (GN.46) 与原两点余核之间尚待证明的联系。
+
+## 13. 原 Gaussian 全奇行常数层的同源 CM 范数
+
+日期：2026-11-28。会话：Astra-serre-24b8836b-20261126；o2_high_coefficient / root。
+
+**纸面结论。** 本节把前三个互补矩扩至 R1161 的全部原奇数行，保留同一个 $Q_s=G_{2s}$。所得式把 Bernoulli-bad 指标变成对应行在原 CM 参数零点的准确零值。它不把这一零值传给任意参数，不添加缺席行，也不证明原共同纤维已被排除。
+
+以下沿 R1161、本篇前文采用归一 Gaussian 模型 $y^2=x^3-x/48$、原微分，以及同一个有限 Legendre 对
+$$
+p\equiv3\pmod4,\quad p>37,\qquad
+P=P_\nu,\quad a=P'(0),\quad
+V=W_{\nu-1}-P\mathcal L_p,\quad q=1-w^2,
+$$
+$$
+\mathscr R(F)=[w^{p-1}]\frac Fq,\qquad
+Q_s(w)=G_{2s}(-1/48,-w/864),
+$$
+$$
+\mathfrak M_s(c)=\mathscr R\bigl(P^{s-2}Q_s(V+cP)^s\bigr).
+\tag{OC.1}
+$$
+The notation $a$ in this section is the Legendre unit $P'(0)$, not the Weierstrass coefficient $-1/48$.
+Let $C$ be the same intrinsic Weil unit as in (GN.20), so that contraction by $q_{[i]}^r$ on the middle monomial has coefficient $C^r/\binom{2r}{r}$. The original Gaussian Cartier constant is $\beta=-a/2$.
+
+For every odd index in the actual ambient range,
+$$
+3\le s\le\frac{p-3}{2},\qquad r=s-1,
+$$
+put $E_r=r![T^r]\operatorname{sech}T$. No assertion that $E_r$ is a unit is made. The exact formula is
+$$
+\boxed{\quad
+\mathfrak M_s(0)=
+-\frac{E_{s-1}(s-1)!}
+ {2^{s+1}(2s-1)!C^{s-1}}\,B_{p-s}.
+\quad}
+\tag{OC.2}
+$$
+All displayed denominators are $p$-units. In particular, the implication
+$$
+B_{p-s}=0\pmod p\quad\Longrightarrow\quad\mathfrak M_s(0)=0
+\tag{OC.3}
+$$
+holds without dividing by $E_{s-1}$ or $B_{2s}$. The converse requires the extra condition $E_{s-1}\ne0$ and is not used here.
+
+### 13.1 The actual point moment in the full required range
+
+Set $d=2r=2s-2\le p-5$. Use the same positive Kummer, pointed coefficient, and full nonzero-$p$-point sum as in R1147/R1164/R1168:
+$$
+\mathsf M_d=
+\frac1{\kappa_d(\mathfrak c)}\operatorname{Cor}_{E[p]^\times}
+ \bigl(\kappa(\theta_{\mathfrak c}(P))\otimes P^d\bigr),\qquad
+\kappa_d(\mathfrak c)=\mathfrak c^2-\mathfrak c^{-d}.
+\tag{OC.4}
+$$
+Choose the original auxiliary $\mathfrak c\equiv1\pmod{12}$ with primitive residue modulo $p$. It is distinct from the deformation parameter $c$ in (OC.1). Since $d+2=2s\le p-3$, its $\kappa_d(\mathfrak c)$ is a unit. This also makes the actual theta function descend through the CM $\mu_4$ action, as in this paper and R1181; a theta value is not treated as ray-rational before this descent.
+
+Auxiliary independence in this enlarged range does not use the dimension-one geometric cohomology argument available in weights $6,10,14$. Instead use the actual theta distribution
+$$
+\frac{\theta_{\mathfrak b}(P)^{\mathfrak c^2}}
+ {\theta_{\mathfrak b}(\mathfrak cP)}
+ =\lambda\frac{\theta_{\mathfrak c}(P)^{\mathfrak b^2}}
+ {\theta_{\mathfrak c}(\mathfrak bP)}.
+$$
+The common constant disappears from the full point sum because $\sum_{P\ne0}P^d=0$. One can prove this last equality by homothety by a scalar whose $d$th power differs from one. Reindexing $P\mapsto\mathfrak cP$ multiplies the moment by $\mathfrak c^{-d}$, and similarly for $\mathfrak b$. Thus the two normalized moments in (OC.4) agree. Actual norm maps, rather than products of norms in two tensor slots, are used throughout.
+
+The required coefficient projector has denominator $d!$, and the abelian syntomic realization has weight $d+1$. The entire Fontaine--Laffaille width used here is at most $d+2\le p-3$. Thus the same integral coefficient construction and abelian contraction as R1163/R1168 apply: all tensor projectors, divided-Frobenius indices and relevant factorials remain strictly below $p-1$. No class-two extension or higher-weight geometric-cohomology dimension assertion is needed.
+
+For clarity, the R1168 middle-slot computation can also be repeated directly with this auxiliary $\mathfrak c$. In the normalized formal theta unit $V_{\mathfrak c}$,
+$$
+[z^m]\log V_{\mathfrak c}
+ =\frac{\mathfrak c^m-\mathfrak c^2}{m}G_m
+ \qquad(0<m<p^2-1).
+$$
+The actual midpoint index is
+$$
+m_s=(p+1)(p-s),\qquad
+m_s\equiv-d\pmod{p-1},\quad m_s\equiv-s\pmod p.
+\tag{OC.5}
+$$
+Hence $\mathfrak c^{m_s}-\mathfrak c^2=-\kappa_d(\mathfrak c)$ modulo $p$, and $m_s\equiv-s$ cancels the original smoothing factor exactly. The logarithm Frobenius correction has no contribution at this index because $p\nmid m_s$. In the PD contraction the middle normal index is $r+1=s<p-2$; the positive normal output carry starts at $p$ and is eliminated by the same legitimate normal homotopy as in R1168. The actual syntomic middle coefficient is consequently
+$$
+S_{d,r}=\binom{2r}{r}\frac{\beta^r}{r+1}G_{m_s}.
+\tag{OC.6}
+$$
+The physical Frobenius coefficient is $-S_{d,r}$, by R1177. There is no new normalization of the coefficient basis.
+
+### 13.2 Appell reflection at the required midpoint
+
+Write $j=s+1\le(p-1)/2$ and
+$$
+\mathcal J_{s+1}=[v^{p-s}]C_{s+1}(v).
+$$
+The proof of the original Gaussian Appell identity extends throughout $1\le j\le(p-1)/2$:
+$$
+\mathcal C_j^{\rm F}(\Psi)
+ =(-1)^{j-1}j!\beta^{j-1}D^{p-j-1}x.
+\tag{OC.7}
+$$
+Here is the required range check. The finite Appell definition uses Hurwitz weights at most $j\le p-3$, so it is $p$-integral. In the original common coordinate $\tau$,
+$\Psi=Z^p-\beta\tau+O(\tau^{p^2})$. The only negative term in the full Appell expansion comes from $C_1=\zeta$ and has pole order at most $p-j+1$. The derivative recurrence therefore proves (OC.7) up to a constant. The nontrivial $\mu_4$ characters kill that constant; for $4\mid j$ the full-range reflection in R1116 §7.1,
+$G_{p+1-j}=(j-1)!\beta^{1-j}G_j$, and Wilson's formula lock both constants to $-j!G_j$.
+
+The complete sensitivity, using $\partial_z\mathcal C_j=j\mathcal C_{j-1}$ before changing coordinates, is exactly the same as in G2.51--52: the error starts at degree $p^2-p+j-2$. The present reading has degree
+$$
+N=p(p-s),\qquad
+(p^2-p+j-2)-N=(s-1)(p+1)>0.
+$$
+Thus no individual high-pole monomial is changed to a different coordinate, and no unproved higher sigma coefficient is reduced. Only the zero Appell-shift term contributes to the positive multiple-$p$ index $N$. The descending coefficient in $D^{p-j-1}x$ is $1/(j-1)!$. Consequently
+$$
+\boxed{\quad
+G_{m_s}=-\frac{\mathcal J_{s+1}}{(s+1)\beta^s}.
+\quad}
+\tag{OC.8}
+$$
+Combining (OC.6), the physical minus sign, and the middle contraction gives
+$$
+\bigl(q_{[i]}^r\bigr)_*\mathsf M_d
+ =\frac{C^r\mathcal J_{s+1}}{s(s+1)\beta}
+\quad\text{in the fixed physical local coordinate.}
+\tag{OC.9}
+$$
+
+### 13.3 The same CM norm, with its entire Euler factor
+
+The integral unit comparison of R1181 §§1--5 applies on the Teichmüller component $\omega^{-r}$ for every even $0<r<p-1$. All extension characters on that component are nontrivial and even; the $p$-primary root kernel has character $\omega$, which is different. The weighted operator uses no $p$-power character idempotent. Thus the original theta norm and all-point factor remain exactly those of R1181, not an equality of only one complex logarithm.
+
+At the first layer, the finite Gaussian coefficient is
+$$
+\frac12\sum_{a=0}^{p-1}(-1)^a(2a+1)^r
+ =\frac{E_r}{2}\pmod p.
+$$
+Indeed the generating function of the sum **before multiplication by $1/2$** is
+$(1+e^{2pT})/(2\cosh T)$, which reduces to $\operatorname{sech}T$ through degree $r<p-1$; all factorials in this assertion are units. The displayed outer factor $1/2$ remains. The norm-one orbit degree and the full nonzero-point sum have the same cancelling factor four as earlier in this paper. The actual class identity is
+$$
+\boxed{\quad
+\bigl(q_{[i]}^r\bigr)_*\mathsf M_{2r}
+ =\frac{E_r}{2}\gamma_{r+1}.
+\quad}
+\tag{OC.10}
+$$
+Restriction back from $\mathbf Q(i,\zeta_p)$ is injective on this $H^1$: the relevant coefficient character is $\omega^{r+1}$, nontrivial since $r+1=s<p-1$. This step neither divides a high-layer ray degree nor assumes that the circular-unit index is a unit.
+
+The exact physical local calibration in R1180 §9 is
+$$
+\operatorname{loc}(\gamma_s)=\frac{(s-1)!}{s}B_{p-s}.
+$$
+Substitution in (OC.9)--(OC.10) yields
+$$
+\boxed{\quad
+\mathcal J_{s+1}
+ =\frac{\beta(s+1)(s-1)!E_{s-1}}{2C^{s-1}}B_{p-s}.
+\quad}
+\tag{OC.11}
+$$
+The cases $s=3,5,7$ are respectively the already published $-4$, $360$ and $-175680$ factors. No extra sign is applied to the already physical circular coordinate.
+
+### 13.4 Unnormalized Bol transport to the actual row
+
+This last step must not divide $B_{2s}$ when $s$ varies. Put $h=p+1-2s$, so $4\le h\le p-5$, and retain the unnormalized integral Eisenstein polynomial
+$$
+g_h=-\frac{B_h}{2h}+\sum_{n\ge1}\sigma_{h-1}(n)q_{\rm T}^n,
+\qquad G_{2s}=\frac{2g_{2s}}{(2s-1)!}.
+$$
+With the original $\mathcal X=2R$ and Serre derivative $\mathsf S$, the exact fixed-weight Bol identity is
+$$
+\mathcal X^hG_{2s}
+ =\frac{2^{3-2s}}{(2s-1)!}
+ \left(A\mathsf Sg_h+\frac h{12}Bg_h\right).
+\tag{OC.12}
+$$
+The commutator $[\partial_H,\mathcal X^h]$ vanishes on weight $2s$ because $2s+h-1=p$. On $q$-coefficients, the identity is
+$n^h\sigma_{2s-1}(n)=n\sigma_{p-2s}(n)$; both sides are zero for $p\mid n$. The two sides have the same weight. The fixed-weight integral triangular basis in $\Delta,E_4,E_6$ proves their equality, exactly as in R1161. No normalized $E_{2s}$ with a possibly nonunit Bernoulli denominator is introduced.
+
+In the original finite coordinate $\xi=P/(a^2V)$, let $f=aV$. Then
+$$
+\frac{dw}{q}=f^2d\xi,\quad E=f^4,\quad F=-wf^6,
+\quad A=-a\xi,\quad B-HA=-6a.
+$$
+Homogeneity gives the actual Jacobian identity
+$$
+\mathfrak M_s(0)=a^{-2}[\xi^{p+1-s}]
+ G_{2s}(E(\xi),F(\xi)).
+\tag{OC.13}
+$$
+Along this coordinate the bracket in (OC.12) is
+$(-6a)(\xi\partial_\xi+h)g_h/12$. Reading degree $s$, with
+$(p+1-s)!=(s-2)!^{-1}$, gives
+$$
+[\xi^{p+1-s}]G_{2s}
+ =-\frac{2^{3-2s}}{(2s-1)!}
+ \frac{(-6a)(s-1)!}{12}\,g_h^{(s)}(0).
+$$
+The same original heat recurrence and Wilson factors as in GN.41, now with $s<p/2$, give
+$$
+\mathcal J_{s+1}
+ =\frac{(s+1)(s-1)!}{2^{s-1}}g_h^{(s)}(0).
+$$
+All factors of $(h)_s$ are units: they lie in the actual interval from $h$ through $p-s$. Therefore
+$$
+\boxed{\quad
+\mathfrak M_s(0)=
+\frac{2^{1-s}}{a(s+1)(2s-1)!}\mathcal J_{s+1}.
+\quad}
+\tag{OC.14}
+$$
+Equations (OC.11), (OC.14), and $\beta=-a/2$ prove (OC.2).
+
+### 13.5 Exact scope for the original mask
+
+The high even role $R=p-s$ is the original odd-$s$ row, with its original external units still those of R1161. When $B_{p-s}$ is nonzero it is one of the actual forced good rows. When that Bernoulli value is zero, (OC.3) gives a genuine zero of that same row at $c=0$.
+
+This is a class-level source for the constant layer of every such row. It does not assert that a missing row has zero centered polynomial, that it vanishes at either member of a proposed pair, or that a pair's Newton recurrence is stable under multiplication by these constants. Euler factors can vanish and have not been inverted. The original pair-product-zero and sum-zero cases, the missing principal role, and every other good-mask condition remain in force. The outstanding problem is a real relation between these same $Q_s$ rows that acts on the two-point difference; (OC.2) alone does not provide it.
+
+No mathematical program was executed. This is a complete paper source comparison, not a numerical nonvanishing test. Root checked the original GN.37--41 Jacobian, Wilson factors and normalizations; o1 independently checked the auxiliary smoothing and full index range. The unhalved Euler generating function is stated explicitly above.

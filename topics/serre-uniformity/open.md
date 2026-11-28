@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-hahn-extension.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-high-packet-log.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -12,7 +12,7 @@
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域及小惯性C³仍未全关。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)good≥floor(p/16)+3，forced Ω(p/logp)，原候选O(p^1.5logp)；惰性CM不推Q-CM。[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)圆单位/导子/判别式已成，小aux仍太大。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)原abelian −1整支保留。
 
-[R1131–50](results.md)原DVR/Fricke/odd-K/整K₂/Manin/Hecke/p-norm、四cusp矩、proper修正杯积和完整Heis塔均已付，准确公式沿[本次逐字前态](open-archive-2026-11-28-before-hahn-extension.md)。未修正proper杯积仍非零；MW d0/1与B16/Bp−15门、完整β角色/cross/phase不删。R1147唯一p⁴²源及compatible p^n塔不提升原有限Cartan I；原43格幅14与λ∞=21(1+p⁴)/11仍保。
+[R1131–50](results.md)原DVR/Fricke/odd-K/整K₂/Manin/Hecke/p-norm、四cusp矩、proper修正杯积和完整Heis塔均已付，准确公式沿[本次逐字前态](open-archive-2026-11-28-before-high-packet-log.md)。未修正proper杯积仍非零；MW d0/1与B16/Bp−15门、完整β角色/cross/phase不删。R1147唯一p⁴²源及compatible p^n塔不提升原有限Cartan I；原43格幅14与λ∞=21(1+p⁴)/11仍保。
 
 R1148同一canonical cusp φ_h(Ξ5,9;14)、全global H¹L3/5/9生成及共享γ5的p⁵群已付；p>C_cyc=exp(9^(224·9⁴))只给全局生成，共同cusp密度1/p²。原局部Bernoulli单位仍开；ℓ>p⁸全部affine labels可实现，不把大Chebotarev素数代affine空。原abelian−1整支与全部端点常数沿原文保留。
 
@@ -118,6 +118,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
+[R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全部原奇3≤s≤(p−3)/2准确有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]。全点aux-independent真实范数、FL范围、Appell完整敏感度及无Bernoulli分母Bol均已付；Euler E_(s−1)不假定单位。bad指标只迫同一行在c0零，未补缺席行或宣两点差零；继续实际全mask关系。
+
 R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=8235Bp−7/(4C⁶)，包含零支。当前原桥可写Y=P²/V²，H=Λ(Y)，V_minor=Λ(XY)，U_minor=Λ(XY²)；仍须排Λ(Y)=0且Λ(XY)=3BΛ(XY²)，不能仅用1/X上的非退化矩阵代替。
 
 [R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原J4/J6/J8与T3/T5/T7全部准确Bernoulli尺度见§12.4。bad Bp−7/good Bp−5下Λ=R(wPV³·)、X=P²V²的Hankel det=−T5²单位；它非Δlow，H_p0后heat二阶unit仍不代原joint。实际Y桥、全部mask/余核继续。
@@ -160,13 +162,9 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 ## O4：原 Abel 像与真正高度
 
-[R1182–86](results.md)原半秩C/F₀/β的FP首项v_q(a_m)<B及全尾≥−v_q(r)，含坏q=p。原t=b−1=p³w、rU_r∈Λ；m≤M_X=2(g−n)+1，事前B_*、N_*=B_*+floor(log_p M_X)及log截2N_*决定本原hλ/e_m。深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原H_br、实际M/K/E_L及implicit D^(2r−1)/(64A²)^r系数界见原文与逐字前态，所有模型/商/Néron尺度保留。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。
+[R1182–90](results.md)原半秩C/β的FP首项、全尾、CM高度、implicit系数、同C小q*及双向同源/挠点网格模型均已付，全部常数及真实格沿原文/逐字前态。原t=p³w、rU_r∈Λ，m≤2(g−n)+1；事前B_*及log截2N_*，N_*=B_*+floor(log_p M_X)。本原深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原形式倍数M_form=2p(p−1)，FP可取2p^s(p−1)，s_exp/δL不删。任意实际B⊂J有pΛ_sat⊂diΛ_B⊂Λ_sat、e_sat−1≤e_B≤e_sat；至多一p格损失不代指定jet单位。
 
-[R1187–88](results.md)已付同C的小实际q*、双向同源次数与挠点网格模型/平衡Ω，保原β/MW线；全部界与真实尺度沿原文及最新归档。原J模型、环境格及按实际商重算的p³ jets仍保。
-
-[R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
-
-[R1190](results/R1190-original-one-p-Neron-Lie-lattice-bound.md)原e0 tame半稳定扩域上，finite-flat formal核/真实ω商与VZ s=1给p余切包含；全n闭性、Smith及tame固定点下降得pΛ_sat⊂diΛ_B⊂Λ_sat，任意实际B⊂J均适用。环境形式深a+1的B点进入B深a；同β/Ω/首项有e_sat−1≤e_B≤e_sat。仅格损失至多1，未付指定jet或候选覆盖。
+R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。原J模型、全部M/K/E_L/H_br、implicit D^(2r−1)/(64A²)^r及商/Néron尺度保留。
 
 [R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
 
