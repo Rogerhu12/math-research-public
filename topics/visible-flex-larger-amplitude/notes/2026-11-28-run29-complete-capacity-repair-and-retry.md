@@ -828,3 +828,24 @@
   }
 ]
 ```
+
+## 2026-11-28 08:26:18 UTC — 29真重试四分之一步拒绝，八分之一步已开始
+
+真实46112781312/1仍sourceb0a08bf069a5d1ade7fbb94446940a6bd6ea4031/PID3641、driver58630a875941be3612947e724aa25d9556b903c5ee1c392ff79f8def974e2813/modeld3d295815f0d81553c3aafadb5c009213d9b5ff5d16a33b664de13bf3e155207。至08:19:54Z，四分之一步eb34e240b1a6306d87e3170455db359fd7f889ae319e171a6693d0ff54520691已返自身Phi597.3269395838249/Gram.41913628317708684和geometry最大reachg4.794466481111248、accepted=false。当前仍bc818314e615936a46d485711daf1c0212f171118d2f3fc2f3af02a67656f74e、accepted1，其自身Phi584.8125864670693/Gram.4179453237576573、distance_plus.13820228685007474/reachg−.03475313540129943；全六族/K/位置逐项保本次whole索引。
+
+下一alpha.125 triald24e84a406b8ea1b9754b48cf29d4cafa3de97ef28b29df13cabce1736ab9549在08:13:31.903262仅trial-start；本次索引没有它的统计/geometry/接受，全部保未知。完整实际重试ID/parent不变，未将原capacity失败或日志诊断run算science。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 53856,
+    "sha256": "8f0614b32c2b22b26f72c4bb9f0bf018393c1665699c34f2be637e95053c35fe",
+    "git_blob_sha": "3ed08335483f1e7a3c9bce833026884bea1d89f3",
+    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

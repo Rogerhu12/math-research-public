@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`519bcb0b567e9e7bdc4aa090cade95e3ca2999c7`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活25–29/31通常5分钟真pull，末槽保已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`d9be3bd38ede883ebd941d2563a48c93fe3a3aa3`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活25–29/31通常5分钟真pull，末槽保已读commit。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15仅退完整闭源旧生成输出，留全源参/结论/固定恢复，不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口明示，继续加强比例。有限点、开放片或条件论证不算完成。
@@ -18,7 +18,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 25原science/pure0，a28ae accepted4仍不可行。[同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)在46099929359/1原ID启f250c578/PID12394；父全report c1be/13final de44/typed13保。restart-01新accepted0；b4d1 reachg.5225595596253128拒，cf441半步reachg.5225607841725328拒，596a5四分之一步仅统计；父4不冒新计数。整science58022B，自然返后同ID整pure46891B；全源参/140/7、458/445/64live及新4/64/15保，不搬跨run raw。
 
-29原46110194444容量failure/科学未启，[完整真重试记录](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)保全。真run46112781312/1 sourceb0a08/PID3641/modeld3d295；bc818 accepted1/distplus.13820228685007474，ba2b/4b4c reachg22.107165815378092/10.324385214244415均拒，eb34四分之一仅开始。整queue74379B已修parent/ID visible-larger-resume-20261128-29-retry1，自然返后同ID整pure46915B。46111548660只日志诊断。
+29原46110194444容量failure/科学未启，[完整真重试记录](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)保全。真run46112781312/1 sourceb0a08/PID3641/modeld3d295；bc818 accepted1/distplus.13820228685007474，全/半/四分之一步均拒；eb34 reachg4.794466481111248，d24e八分之一步仅开始。整queue74379B已修parent/ID visible-larger-resume-20261128-29-retry1，自然返后同ID整pure46915B。46111548660只日志诊断。
 
 ## 新机制与已备完整输入
 

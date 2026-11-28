@@ -317,3 +317,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:26:12 UTC — 26八分之一步拒绝，十六分之一步仅统计
 
 26的4e4d八分之一步自身reachg.5858010567846739拒，current仍初7e06/accepted0；c283十六分之一步仅返自身统计。全部原行和15试探保，未借用current几何。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`519bcb0b567e9e7bdc4aa090cade95e3ca2999c7`无变（非pull）。
+
+## 2026-11-28 08:26:18 UTC — 29真重试四分之一步拒绝，八分之一步已开始
+
+29真重试eb34四分之一步自身reachg4.794466481111248拒，current仍bc818/accepted1；d24e八分之一步只trial-start，无自身统计/几何。原ID/parent和全预算继续。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`d9be3bd38ede883ebd941d2563a48c93fe3a3aa3`无变（非pull）。
