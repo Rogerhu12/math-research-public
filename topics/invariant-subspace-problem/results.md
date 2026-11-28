@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [R150：Phi 原 N1 斜率补图精确六行两列及三个原八次标量](results/R150-appendix-unit211-Phi-zero-original-N1-slope-exact-six-by-two-presentation-and-three-eighth-degree-scalars.md)：e797完整I4双向同构与稳定关系、三个真实来源λ8；H19交补图每权≤12，整斜率零及头/内容保留。
+
+- [R150：W 无新逆中心坐标与原值次数界](results/R150-appendix-unit211-W-H198-centered-slope-monic-square-and-original-value-degree-bounds.md)：纯权仿射平移给两个坐标对λ一次、首一平方两个系数对λ≤2；新完整原值配对≤11/10，不改变旧cofactor或重启旧门。
+
 - [R150：整个 Phi D2=0 最高方向的原一元 Bézout 排除](results/R150-appendix-unit211-Phi-zero-whole-D2-highest-direction-original-exclusion.md)：三原纯权 cofactor 在 QQ[u] 全来源 gcd 恰为已付 (u−1)^10(u−2)^8，五候选整纤维全闭；物理 D0 与整 Phi 不由此关闭。
 
 - [R150：W 整 H198 与原 P164 的有限交及完整七坐标长度](results/R150-appendix-unit211-W-entire-H198-native-P164-finite-intersection-and-original-length.md)：固定 p1009,k3 真余式、完整 p 整/本原给 H 不整除 P164；权/均值/全坐标长度≤4100/24600/49200，包含重数，尚未判空。
