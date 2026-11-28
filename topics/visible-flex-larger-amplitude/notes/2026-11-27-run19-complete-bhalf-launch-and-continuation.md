@@ -1355,3 +1355,24 @@ reach较初值下降且仍正；distance_plus较初值略升且仍正，余四�
   "observed_utc": "2026-11-28T01:13:47Z"
 }
 ```
+
+## 2026-11-28 02:08:21 UTC — 19第二次真实接受与下一观测试点开始
+
+同science36304a0df074fcacc324d9c8eda79a5620b6a897/PID3240、driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f、model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add。原01:09开始的b6a0615856730517089d5656c8d3cd79eeef9255b81dd9d13189925d072c98d3现已真实accepted/current，accepted_directions=2，完整几何已返；Phi3825.0041260383055/Gram.6460509597730772。六族为reach+.9674426000792542、body_diameter−.038135567160281214、distance_plus+.005865141983896982、distance_minus−3.093633726715951、cap_diameter−.06715135473990153、height_floor−1.041171546633114；最大reach，仍不可行。精确接受时刻/alpha/方向号没有公开返回，不由计数推造。
+
+下一trial b0f8f2b00d00956db896777f053e196fabc60c9b961f5193e725ddad4f19abee于01:58:28.902393+00:00实际开始，02:04:12Z索引尚无其统计、几何或决定。原b622/7af04拒绝及中间b90d未知照实保前文；complete_report=false、child_exit_code=null。完整原active含六族/错误、whole小进度身份保固定索引。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1.md",
+    "bytes": 33785,
+    "sha256": "bc65ee7844be479085a2d06a63af2219a85bcbb5ef9f99e85d89fc75bbba3c6d",
+    "git_blob_sha": "9495ec4b4d5317b4d53aa8b3a6e9ca6205d5e636",
+    "fixed_commit": "dbbcd99a1c6c15f25224f57424985d8ac2ccf01c",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
