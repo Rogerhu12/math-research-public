@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ14：原百万完整WMA头在真实有符号逆中的同一范数](results/R149-supplement-original-WMA-head-on-the-true-signed-waist-inverse.md)：从原WMA完整14目标/139current逐字节及blob/6历史整件receipt读取同一signed实坐标，原1..1048576全部头的I G<.573；并非只前1023，原两私载体不重建，旧算术0。
+
 - [GRQ：真实四分支首比值的整域固定标签求积入口](results/R149-supplement-fixed-label-whole-first-ratio-quadrature-and-real-reflection.md)：从实际GCS/GPR两完整成功原载体同SHA恢复，保同一正E、原cut四符号反射/共同标签/全均值/6角导数，首次积分全物理域R、a1、b1；最多4500闭子格，原子整件前缀及下一格continuation、15分钟独立README规则监督。新科学尚未运行成功；并未支付完整genuine高频强迫算子。
 
 - [GRR：原完整Grassmann图的必要整件恢复合同](results/R149-supplement-whole-signed-response-graph-carrier-recovery.md)：只可在GG原2/2 whole成功后恢复实际1424两向flow、1425真图节点和97/96完整frame；原81三SHA、exact1424 frame文件index、所有graph写入/live index/journal全部相同才消费。后1343旧四source covariance不重算，原mean/full193/whole真实图保持；尚无实际GG成功。
