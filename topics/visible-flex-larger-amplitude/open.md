@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-[本次更新前完整open](https://github.com/Rogerhu12/math-research-public/blob/9a499d4dd76a513e7ca25e069350ddb95f400711/topics/visible-flex-larger-amplitude/open.md)与[完整H](https://github.com/Rogerhu12/math-research-public/blob/9a499d4dd76a513e7ca25e069350ddb95f400711/topics/visible-flex-larger-amplitude/HANDOFF.md)保存全部原字及更早链；§1–6原23359B不动。各whole note中的源/参数/完整命令/实际model/point/六族/K位置/typed/原错误/null均继续有效，不因摘要省写而取消。M160/J923/N2048/32stage、全部变量/角径向域/原预算保持；trial不冒accepted，输入成功不冒全场，异model不借同坐标结果。未达README。
+[本次更新前完整open](https://github.com/Rogerhu12/math-research-public/blob/9a499d4dd76a513e7ca25e069350ddb95f400711/topics/visible-flex-larger-amplitude/open.md)与[完整H](https://github.com/Rogerhu12/math-research-public/blob/9a499d4dd76a513e7ca25e069350ddb95f400711/topics/visible-flex-larger-amplitude/HANDOFF.md)保存全部原字及更早链；§1–6原23359B不动。各whole note保全部源参/预算/实际model/point/六族/K/typed/错误与未知。M160/J923/N2048/32stage、全部变量/角径向域/原预算保持；trial不冒accepted，输入成功不冒全场，异model不借同坐标结果。未达README。
 
 ### 已终态实际计算
 
@@ -124,6 +124,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)已证真实S∈(2.37,2.38)、κ0=binary.2、η1/32、ξmax3/4、单宽脉冲k6的唯一长度根、全角两jet/逆弧长六jet、闭参考嵌入/全相位、安全锥双held与D≤4.2。仅径向unit，不代角向Gram、同固定g、reach或非全等。完整五物理源/接口11件已刊；正常build5件以全父源+209全patch在每个detached worktree物化17整源，139角色/24runtime和全部原守卫保。34完整参数已刊42f7，内部157/7、外162/12，632/625字段包含原575/564及64live和真实构建记录；完整启动7件已刊、三step83441B；新actual待返。
 
 [R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)现已证：冻结R730参考有真实平帽法向弦，全部相位reach<.016、D>3.88；同点水平与帽相对高度各改≤.025仍reach<.0285。全平帽必要法球条件给末端领口的具体设计要求；不约束任意outer新场，不取消34完整求解。[R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)新参考已付全部帽混合/反向.126球、原末带Gram、core jet、D/双held/δE；中央Gram与中央/中央、中央/圆肩reach仍待付。新源/输入/费用独立，不改34。
+[R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)同闭参考核心正宽准确Gram、柱内.18球与core对全像两向.126球已付；移动接口全jets保，宽尚未数值包围。
 
 ### 准确费用与完成责任
 

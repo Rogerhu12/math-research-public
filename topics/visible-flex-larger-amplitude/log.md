@@ -513,3 +513,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:27:49 UTC — 34完整R730/R729公开实际启动请求
 
 34完整7件202915B（topic200697B）与已刊参数42f7/源码8fb792接通；三整step含两个原完整input及完整science，active/parent同visible-larger-resume-20261128-34，队83441B/9020e55bde60fff31c3aee4d56cea1ca17a95402132a31474d9a7bba6e9d1a56；正式632/625、64live、内157/7/外162/12以及全部原4/64/15/32stage/域/预算保留。新版双README已读56c35c，360minworkflow/350min预算/30秒容量原样；每step完整物化17源后走原guard。whole pure66120B只本次science自然返后排。题外新增.github/workflows/visible-larger-20261128-parallel34.yml为本课题公开计算；这是实际触发请求，run/source/model/point/新算法结果仍待自身返回，不把R731参考上界移给outer场。 双README云核至`80e5d0d4d701807013e6e0bad00ddb2f74bd31f5`无变（非pull）。
+
+## 2026-11-28 10:31:53 UTC — R733真实非圆核心准确度量与全像混合球
+
+完整18663B证明从实际第一quintic解非特征全角同g Cauchy系统，直接验证三Gram；log cutoff保持柱曲率<4.5，给柱全两向.18球、core对全像两向.126球。中央逐角Λ=S−Lcap−Lcore(φ)根和移动material接口全混合jets明确，保持完整闭C²/强held/D/δE与R732末带。core宽仅正存在，尚无数值包围，未把它当实际J923输入/全域解；已按真实FullHold Fraction语义核首系数严格2c2/w²=k0，无工作浮点coeff偷换。 双README云核至`12cd72d84df91a464d4d01faed764b1661af228f`无变（非pull）。
