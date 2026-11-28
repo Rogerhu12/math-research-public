@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 原实际任务持续
 
-[33](notes/2026-11-28-run33-section16-retry.md) 46133839513：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
+[33](notes/2026-11-28-run33-section16-retry.md)46133839513：原138角色/预算，accepted0；八分2fba4ebf完整reachg1.1962609898472558拒；十六分1f0c5699原trial已启，统计/几何待；自然返后pure62854。
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原139角色/预算，accepted0；半步reachg300537.3169553407拒；四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496，完整几何待，原pure66120待自然返。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：原139角色/1,333,370 outer全自由，accepted0；四分af5eac51完整reachg603.7537475106277拒；八分498c3dca原trial已启，统计/几何待，pure74162待自然返。
 
