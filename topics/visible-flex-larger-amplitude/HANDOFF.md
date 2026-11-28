@@ -48,4 +48,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r738-publish-->R738 [415片](notes/r738-actual-gap-46139897443-1.json) 双README真pull a9c5431fa8eef03034309c5cad77f7accac022a0
 <!--run36-bent-disk-->36 [实测](notes/run36-bent-disk-46141466656-1.json) 双README真pull 04a84e37dd4e5046ea8e95b2d012a62fb6da4872
 <!--run37-bent-disk-arclength-->37 [实测](notes/run37-bent-disk-arclength-46142745238-1.json) 双README真pull 7cbc888f2f2ce772dcf3c99fe45dd0da3d6c0f29
-<!--run38-bent-disk-killing-->38 [实测](notes/run38-bent-disk-killing-46145189191-1.json) 双README真pull 8c760d3a123eda3602e7d139a5c46f6d24ad8c0b
+<!--run38-bent-disk-killing-->38 [实测](notes/run38-bent-disk-killing-46145189191-1.json) 双README真pull 5b13b91a1b3b8114f8f6e03d9407504057673970

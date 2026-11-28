@@ -166,33 +166,33 @@
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 11,
-    "utc": "2026-11-28T12:33:26Z",
+    "ordinal": 12,
+    "utc": "2026-11-28T12:35:45Z",
     "original": {
       "event": "stage",
-      "stage": 10,
+      "stage": 11,
       "kind": "alternate_shape_and_material",
       "design": "horizontal",
-      "relative_Killing": 1012.8243522626879,
+      "relative_Killing": 451.1261985284906,
       "frozen_gram": null,
-      "curvature": 10229726.202662598,
-      "support": -1.0805948852464615
+      "curvature": 133100968.27340028,
+      "support": -0.8987852717158792
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/summary.json",
-      "bytes": 24313,
-      "sha256": "91009b556270c5fac186c94259229926ae99e0a0fd6bc825f90df55c58e4de1a"
+      "bytes": 26256,
+      "sha256": "a4039ad4436718284616fa7c93c56aad89071bcc7ef588f45812a65067254aff"
     },
     "complete_small_json": {
-      "elapsed_seconds": 23.700797934,
+      "elapsed_seconds": 162.751671278,
       "in_progress": {
         "call": 1,
-        "cost": 4.97385272299621,
+        "cost": 1.9636165128001568,
         "kind": "physical_Killing",
-        "shape_sha256": "360cdbca7820ba80cc8e6c6a0c33865a20efe166cf4077ae12f15d9f4615c466",
-        "stage": 11
+        "shape_sha256": "b14366c44ff17f7eb4cb7b06bcea230765a6368ea3faed76c41c419cbcb3c83d",
+        "stage": 12
       },
       "numpy": "2.3.5",
       "params_sha256": "49d65de32d08824e6721f8a9163fb13c209118b483645b668520da9baa8af087",
@@ -1317,6 +1317,100 @@
             "support_min": -0.7615932381751911,
             "upper_height_min": 1.3877787807814457e-17
           }
+        },
+        {
+          "adjoint_abs": 5.9396931817445875e-15,
+          "angular_speed_control_lower": 0.18000000000000005,
+          "check": {
+            "Killing_op_max": 451.1261985284906,
+            "Killing_rms": 7.926070198373935,
+            "area_min": 8.623594444697919e-05,
+            "check_shape": [
+              150,
+              448
+            ],
+            "clock_min_sample": 0.43681988592526444,
+            "max_abs_principal": 133100968.27340028,
+            "opposite_witness_to_upper": 0.8035951778284829,
+            "origin_radius": 1.2215035855203664,
+            "support_min": -0.8987852717158792,
+            "upper_height_min": 1.3877787807814457e-17
+          },
+          "configuration": {
+            "angular": 128,
+            "check_angular": 448,
+            "check_radial": [
+              30,
+              99,
+              23
+            ],
+            "field_iterations": 580,
+            "id": "alternating-physical-2",
+            "lsmr": 150,
+            "max_feval": 85,
+            "mode": 14,
+            "radial": [
+              16,
+              43,
+              11
+            ],
+            "regularizer": 4e-06,
+            "spans": [
+              4,
+              12,
+              3
+            ]
+          },
+          "cost": 2.758594588119648,
+          "design": {
+            "extra": 0.54,
+            "id": "horizontal",
+            "parameters": {
+              "end_height": 0.025,
+              "gamma": 0,
+              "height": 0.17,
+              "join": 0.025,
+              "left_handle": 0,
+              "shift": 0.12
+            }
+          },
+          "directional_fd_relative": 9.47352070853448e-08,
+          "field_count": 566,
+          "field_rescale": 0.5776947212645449,
+          "field_sha256": "99a4365cbe80760490aac9cd5d56dd1c4ea6a70ec84a8e37e275772aaf059bcd",
+          "kind": "alternate_shape_and_material",
+          "linear_solve": {
+            "condition_estimate": 285.8470470291391,
+            "iterations": 580,
+            "linear_norm": 4.776414040793008,
+            "status": 7
+          },
+          "nfev": 85,
+          "njev": 63,
+          "npz_bytes": 11886,
+          "npz_sha256": "eed1eac56bbd4815fed432dc07f3c0fed8e80d491d6034e23fdc5e70181137e6",
+          "optimality": 115.13564582742546,
+          "point_sha256": "6a95c8ea1b302df77f7b8ef67330d01a2fe368459b03ebec4b40357710b47cd9",
+          "score": 34.28589094345776,
+          "shape_count": 850,
+          "shape_sha256": "4d8320486aebad84f27866fb386b9cd107e5fa1eb2f0d21b7ab7b9679c46b1e3",
+          "solver_status": 0,
+          "stage": 11,
+          "train": {
+            "Killing_op_max": 2222.9767826881753,
+            "Killing_rms": 39.2849665044133,
+            "area_min": 3.876382430831883e-05,
+            "check_shape": [
+              68,
+              128
+            ],
+            "clock_min_sample": 0.4374045833542566,
+            "max_abs_principal": 218718824.88723844,
+            "opposite_witness_to_upper": 0.8035925198331335,
+            "origin_radius": 1.2215041541668432,
+            "support_min": -0.757173942869598,
+            "upper_height_min": 1.3877787807814457e-17
+          }
         }
       ]
     }
@@ -1349,6 +1443,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:33:02Z",
-  "observed_utc": "2026-11-28T12:33:30Z",
-  "original_scalar_line_count": 11
+  "observed_utc": "2026-11-28T12:35:51Z",
+  "original_scalar_line_count": 12
 }
