@@ -317,3 +317,7 @@
 ## R670：真固定开盘、全闭reach和严格等距双端
 
 [完整证明](results/R670-fixed-flat-grip-reach-and-two-exact-closed-endpoints.md)真实四次平肩将正则二模接入完整平盘，并在中央开盘令位移严格为零；cosh段端符号经C²接边保留，得到完整闭参考的非刚无穷小场。所有近远弦类给reach≥.16a、D<4.9a、固定开盘直径>1.00a。F±εY准确共享g+ε²(dY)²，充分小非零ε时两端保厚度/握持；未对齐像差为正但不宏观，且没有连续同g路径。单profile旋相又受真实平盘四谐波障碍，必须换实际输入。
+
+## R671：R667端度量的饱和母线锁定两离散刚帽姿态
+
+[完整证明](results/R671-saturated-material-meridian-and-discrete-twist-of-the-exact-endpoint-metric.md)对任意同R667端度量的C²等距环带，反向两条长b−a的材料母线共同强制C=0、Qe_y=e_y并逐点为直线。其真Gauss曲率−ω′²迫法向扭转速度全段同号且模为|ω′|，因此内刚帽只能为Ry(±θ)，连续族无法连接两端。该排除不局限圆纬圈或图，不影响R659/R669自由设计g；新固定g须有真实非饱和长度或改变刚接圈假设。
