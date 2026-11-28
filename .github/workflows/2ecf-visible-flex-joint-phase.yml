@@ -1,0 +1,41 @@
+name: 2ecf true joint phases and thick closed geometry
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/2ecf-visible-flex-joint-phase.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    strategy:
+      fail-fast: false
+      matrix:
+        task: [r299_joint]
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      M12_RECOVERY_TOKEN: ${{ github.token }}
+      MR_TOKEN: ${{ secrets.MR_TOKEN }}
+    steps:
+      - name: Partial clone and literal main pull
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --sparse --single-branch --branch main "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          git sparse-checkout set topics/visible-flexible-closed-surface
+          before_rules=$(git rev-parse HEAD)
+          git pull --rebase origin main
+          git diff "$before_rules" origin/main -- README.md topics/visible-flexible-closed-surface/README.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install numerical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Continue the actual research with hourly rule checks
+        run: python topics/visible-flexible-closed-surface/scripts/2ecf-public-actions-research-runner.py --task ${{ matrix.task }}

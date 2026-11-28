@@ -253,9 +253,63 @@ def r262():
     report=obj(p)
     publish("R262-new-small-input-actual-XYZ","真正改变中央输入后，对完整原前缀及正径向目标执行真实 XYZ 更新；原尾及帽保持各自定义。结果："+compact(report.get("summary",report)),[p,p.with_suffix(".npz")])
 
+def r299_joint():
+    S=SOURCE/"scripts"
+    W=WORK/"joint"
+    W.mkdir()
+    field=W/"r299-m383-h65.json"
+    py("2ecf-r299-short-phase-positive-curvature-arc-cauchy.py","--scripts",S,"--modes","383","--nodes","65","--length",".06","--speed",".006","--out",field)
+    proof=W/"true-ramp-second-jets.json"
+    code=py("2ecf-r299-whole-ramp-second-jets-and-true-central-simpson.py","--field",field.with_suffix(".npz"),"--quarter","2048","--out",proof,allow_failure=True)
+    geom=W/"C3-true-wide-closing-and-cap.json"
+    if not code:
+        code=execute(["node",S/"2ecf-r303-wide-closing-and-cap-directed.cjs","--ramp",proof,"--out",geom],allow_failure=True)
+    if not code and geom.exists():
+        g=obj(geom)
+        publish("C3-actual-whole-local-curvature","真实本次 H65 的全部径格、准确中央、末端三迹及两阶角导直接进入宽关闭段/完整帽的定向矩阵。新 field 身份只来自本次数据；是否同时满足已有整像覆盖的空间垫量如表。闭核的非局部法球由正文解析论证另行合成。"+
+                compact({k:g[k] for k in ("fieldSHA256","allLocalPiecesCertified","bindsPublishedShapeCover","shapeCoverEnvelope","rampPrincipalAbsoluteUpper","curvatureUpper","gate","remainder","cap","closedReachRadius")}),
+                [field,field.with_suffix(".npz"),proof,geom])
+    else:
+        publish("C3-actual-local-curvature-exit","本次真实入口/关闭段合成退出 "+str(code)+"；未登记未通过的全闭 reach。",[field,field.with_suffix(".npz"),proof,geom])
+    common=["--scripts",S,"--solver",S/"2ecf-r303-reconstructed-full-closure-xyz.py","--field",field.with_suffix(".npz"),
+            "--length",".58","--cap-radius",".94","--cap-height",".32"]
+    coarse=W/"C3-joint-phases.json"
+    code=py("2ecf-r303-joint-active-material-phase-xyz.py",*common,"--out",coarse,
+            "--deltas",".0009765625",".00390625",".015625",".0625",".125",".25",".375",".5",allow_failure=True)
+    if not code:
+        q=obj(coarse)
+        rows=[{k:v for k,v in t.items() if k!="accepted"}|{"acceptedSteps":len(t["accepted"])} for t in q["results"]]
+        publish("C3-true-whole-active-phase-XYZ","一次样条跨过整个真 .06 ramp 出口，使全部真实中间端迹参与空间求解；中央及帽端的两 jets 保持。固定同一初相真实诱导 g，所有实际相位与插值相位均单独观察。"+
+                compact(dict(parameters=q["parameters"],results=rows,definedFamily=q["definedFamily"])),[coarse,*W.glob("C3-joint-phases-phase*.npz")])
+        seed=W/"C3-joint-phases-phase1.npz"
+        fine=W/"C3-joint-finer.json"
+        fine_code=py("2ecf-r303-joint-active-material-phase-xyz.py",*common,"--out",fine,"--deltas",".0009765625",
+                    "--spans","16","--ramp-spans","8","--modes","12","--angles","128","--radial","50",
+                    "--steps","24","--seed-state",seed,allow_failure=True)
+        if not fine_code:
+            p=obj(fine)
+            publish("C3-same-input-true-joint-refinement","实际旧小相位系数经准确 Boehm 和零角频补入更大空间；同一连续初相度量及全部物理参数保持。"+
+                    compact(dict(results=[{k:v for k,v in t.items() if k!="accepted"}|{"acceptedSteps":len(t["accepted"])} for t in p["results"]],definedFamily=p["definedFamily"])),
+                    [fine,*W.glob("C3-joint-finer-phase*.npz")])
+        else:
+            publish("C3-joint-finer-exit","同输入真精化退出 "+str(fine_code)+"；没有未完成的精度结论。",[coarse])
+    else:
+        publish("C3-joint-phases-exit","全活动段实际相位求解退出 "+str(code)+"。",[coarse])
+    design=W/"C3-multiphase-design.json"
+    code=py("2ecf-r303-joint-multiphase-initial-metric-design.py",*common,
+            "--joint",S/"2ecf-r303-joint-active-material-phase-xyz.py","--out",design,
+            "--deltas",".03125",".125",".25",".5","--curvature-guide","8.65","--steps","20",allow_failure=True)
+    if not code:
+        p=obj(design)
+        publish("C3-true-initial-and-multiphase-metric-design","该项真实改变初相和各相位共同寻找同一诱导度量，和前两项固定旧初相 g 区分。初相全域空间位移的准确有理控制界来自真实已存系数；有限曲率导引和相位观察不代全时 reach 或精确等距。"+
+                compact({k:p[k] for k in ("parameters","phases","variables","initialFullObservations","finalSameMetricObservations","genuineIntermediatePhases","initialWNormRigorousUpper")}|{"acceptedSteps":len(p["accepted"])}),
+                [design,*W.glob("C3-multiphase-design-phase*.npz")])
+    else:
+        publish("C3-multiphase-design-exit","共同新度量/初相设计退出 "+str(code)+"；未登记未完成状态。",[design])
+
 if __name__=="__main__":
     p=argparse.ArgumentParser()
-    p.add_argument("--task",choices=("r299","r262"),required=True)
+    p.add_argument("--task",choices=("r299","r262","r299_joint"),required=True)
     a=p.parse_args()
     git("config","user.name","Astra-visible-flex-2ecfcd69-20261128")
     git("config","user.email","41898282+github-actions[bot]@users.noreply.github.com")
