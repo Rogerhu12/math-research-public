@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-original-valuations-1960-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-ten-nine-1970-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)及[整ellhalf](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)已闭：41453唯一7.864830096秒/40940KiB/0，g12=h3⁴，完整K6同Q八原返U⁴后全四重提升，当前碰撞付2ell−1。[一般fixed-(λ,T)/Pf首一t³](results/R150-appendix-unit211-general-fixed-spectrum-Pf-chart-original-monic-t-three-corollary.md)纸面推论现刊：任意纯参数weighted N/P目标，四原最高头单位→原三次/1,t,t²生成；真实cN/cP明列，无碰撞/Δ/Φ/2ell−1假设。Pf0、余权碰撞及完整原排空均保留。
+[整正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)与[整ellhalf](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)闭；一般[fixed-(λ,T)/Pf原monic t³](results/R150-appendix-unit211-general-fixed-spectrum-Pf-chart-original-monic-t-three-corollary.md)保。新[完整NV–Loww首一ζ³范数](notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-input.md)e9bd30首次180秒4GiB已派：同t两源、3真列/伴随/全lift，原tv−1=−Loww/c0付t逆，全部Δ/Tnum/Norm零保。旧dc888两投影不重放，未预记非零曲线/空性。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088及U0另3、同h/Loww/cb71/2f7fd I6/J7保，10a
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[正确Phi原I6全权13生成](results/R150-appendix-unit211-Phi-zero-corrected-original-N1-highest-unit-and-whole-I6-thirteen-generators.md)及独立22稿保。[完整Vlow第二支持](results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md)079cc唯一3.530707191秒/0：G14非零/总≤730，F双次402/222，G的Q371/u642..643，QQ gcd双次≤41/68。新[QQ已付条目精除](notes/2026-11-28-unit211-Phi-zero-corrected-QQ-paid-entry-minimum-assignment-two-supports-8542-input.md)b0ef31首次120秒1GiB已派；仅两矩阵各提取正幂才比较新商双轴，旧det/gcd不重跑、不删模因子。曲线/孤立交点及所有余Phi保留。
+[正确Phi原I6全权10生成/每权≤9](results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md)现刊：第三均值CI对偶杀degree4，原固定30→15满射；10指定生成、纤维≤9，非全局9生成。旧13/22及F444/G730保。b0ef31唯一14.598634407秒/81096KiB/0精提QQ权因子，商F总≤409/双次368,206；商G总≤633/u593..594,Q302；完整固定双轴及整闭Gauss给QQ gcd双次≤5/51。公共曲线/孤立交点仍保，正式稿在写，后续换真正新来源。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

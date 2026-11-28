@@ -1,13 +1,17 @@
 {
-  "message": "ISP: construct an entire odd target and an actual norm-square source family",
-  "parentCommit": "9a986dc2fbeac56f4c60412533b25a617dcc9435",
+  "message": "ISP: sharpen Phi to ten generators and nine per fiber; dispatch new original HK norm",
+  "parentCommit": "42abdfed7a7160fc1364b907b05ef42580face79",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R267-appendix-all-factor-complex-parameter-odd-target-and-norm-square-source.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Haar-entire-odd-target-1965-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-hk-nv-loww-inverse-t-norm.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-ten-nine-1970-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-ten-nine-1970-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-hk-nv-loww-inverse-t-norm.yml"
+  ]
 }
