@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`4e9655966fa8476ad9027bbbf686b70407377d94`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活25–29/31–32通常5分钟真pull，末槽保已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`1a7d9db8e39def8503a4b5ff4e47af8cf016b94f`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活25–29/31–32通常5分钟真pull，末槽保已读commit。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15仅退完整闭源旧生成输出，留全源参/结论/固定恢复，不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口明示，继续加强比例。有限点、开放片或条件论证不算完成。
@@ -25,7 +25,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 R724半波、R725固定b三片端层、R726球面端层正根、R727非急角全残差冠/全逆/C²接合的完整证明保results；不冒全域根或准确费用。
 [R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)已证条件F±=C±Aw/六jet/全前缀/见证差与轴上平面性；真实w含高度项，不借K热点或旧证书。[最终seed4件](computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json)已刊a9075d；负首段seed c6fc、proof3a268；全screen/normal/Gram/K/reach仍待付。
 
-**31完整执行闭包已刊**：[启动/接续](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)保本次全23runtime/137角色/真实反号及全原三步。activeID/parent同visible-larger-resume-20261128-31，三整步65162B/157词458formal64live，4/64/15及全原预算保；自然science返后同ID整pure46851B。真实run46122200592/job140908938124，两输入0；science dfbbc306/PID4131，model78717/初7e06，accepted0/Gram.822374918515021，已返reachg.7631911760908718/distplus−.09518118442527368；337dc首步仅统计。源/参数/launch三完整总表及12份非运行再生/重复ready共481099B整blob已保在note，稍后继续刊；实际运行所需源和全部原参数已齐，未假称所有39文件已main。
+**31完整执行闭包已刊**：[启动/接续](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)保本次全23runtime/137角色/真实反号及全原三步。activeID/parent同visible-larger-resume-20261128-31，三整步65162B/157词458formal64live，4/64/15及全原预算保；自然science返后同ID整pure46851B。真实run46122200592/job140908938124，两输入0；science dfbbc306/PID4131，model78717/初7e06，accepted0/Gram.822374918515021，已返reachg.7631911760908718/distplus−.09518118442527368；337dc首步仅统计。源/参数/launch三总表及12非运行件481099B现已补刊，本次三包39文件全部main；原执行源参不变。
 
 [R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)已证全行对偶收敛/可行恢复/gap；25/28首QP2advance/Pg远超tol、具体阻挡行未知。[32完整启动](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)全源8+参数6+launch7已刊，138角色/24runtime；157/7与原458/445保、现575/564和64live，原4/64/15不缩。原QP保，两dependent状态才触发；新旧方向/计数分开、不混31。active/parent同visible-larger-resume-20261128-32，整三步78678B已排，真science返后整pure61349B；实际run/场待观察。
 

@@ -325,3 +325,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:27:51 UTC — RET84：六份终态人写笔记保全原叙述，重复嵌入记录固定全文引用
 
 [RET84完整交付与逐块对应表](computations/terminal-run19-24-narrative-retention-84-complete-delivery.json)把19–24六份终态人写笔记的119个重复JSON嵌入改为固定a7ee59c79535235b4161da7780b77556e9760940完整原件的精确引用；全部非JSON原文、数值表、公式、源参链接、接受/拒绝、时间顺序和错误/未知逐字保留。新增终态导读区分历史running与实际终态；六路径仍在。完整文本构造器保原whole身份和逐字逆恢复，三个19/21独立终态证据原字保留。六原474586B→176430B，连构造器17568和总表53098，净回收227490B（不含本日志）；不改科学source/参数/request/ready/raw/checkpoint。旧whole-hash读者须恢复完整旧版，当前新note有独立身份。RET83及更早全来源和恢复链仍保各自总表。 双README云核至`4e9655966fa8476ad9027bbbf686b70407377d94`无变（非pull）。
+
+## 2026-11-28 08:28:31 UTC — 31完整三包39文件全部刊至main
+
+补刊此前已完整保护的12件非运行再生/重复ready/完整交付表及说明（481099B），连8591已刊27件，本次31三包39文件全部main。[完整记录](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)保逐文件whole身份。实际执行源/所有参数/队列/运行ID和已观察数学值未变；准备null仍按历史作用域保。完整source、参数和launch三份总表均现可按原路径取回。 双README云核至`1a7d9db8e39def8503a4b5ff4e47af8cf016b94f`无变（非pull）。

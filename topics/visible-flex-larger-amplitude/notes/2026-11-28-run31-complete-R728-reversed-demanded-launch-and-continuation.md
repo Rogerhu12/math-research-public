@@ -243,3 +243,95 @@ request46194B / SHAce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761
   }
 ]
 ```
+
+## 2026-11-28 08:28:31 UTC — 三包剩余12件全部完整补刊
+
+原8591fc4c0ce0a3e4ec26e9e1d0728f95b5b28d48已刊实际执行闭包27件，本次再把以下12个完整非运行再生/ready/交付/说明文件（合481099字节）普通提交到main。至此本次三包39文件全部在main；所有已运行source、参数、队列、父ID及科学数据原字不变。这不改变历史准备记录中的null，也不把补刊时间当实际执行源码时间。全23runtime/137角色、157/7词与458/445/64live、原预算保持；实际结果仍以自己的whole index为准，初始reach正和Gram高的事实不变。
+
+```json
+[
+  {
+    "role": "intermediate_lower_complete_source_reproducer",
+    "name": "reproduce_fixed_fejer_r726_demanded_lower.mjs",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_r726_demanded_lower.mjs",
+    "bytes": 74410,
+    "sha256": "a29b3bf127596eba9c1d2251afe2445d9dae376ff786507fd07194683944ca46",
+    "git_blob_sha": "4629de32eafe14c8457f2d2a8203e7247ece660a"
+  },
+  {
+    "role": "intermediate_upper_complete_source_reproducer",
+    "name": "reproduce_fixed_fejer_r726_demanded_upper.mjs",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_r726_demanded_upper.mjs",
+    "bytes": 30947,
+    "sha256": "fc18552a9616928c4d5d0caad8d0e43d4022d10a14616bfe048797717c10636d",
+    "git_blob_sha": "3220153dab32b2742f8ee81772afccdd20c50e9c"
+  },
+  {
+    "role": "current_complete_source_reproducer",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_demanded_family.mjs",
+    "bytes": 69141,
+    "sha256": "eec4ae51b7a83ebc10b1ec3f39be24570509def85e21538d7bfc65407b84988b",
+    "git_blob_sha": "e2523d56f2c5796ae2e2470c882acd6b186c4872"
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-complete-source-delivery.json",
+    "bytes": 40338,
+    "git_blob_sha": "182b065be81e7f9c0e8fdc84b82d22c2da494fed",
+    "sha256": "5d7d7c0e8fb3c104e797ebe97c98fc6f7fc1c9efa4ce996b54b3b51ac3d35284"
+  },
+  {
+    "role": "science",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-bhalf-science-complete-ready.json",
+    "bytes": 65507,
+    "sha256": "efb605cc5451bea73cd25c660201f346c0e7de644f4a4cfa29102db2a69c3444",
+    "git_blob_sha": "21f5eb7d1b53244b4695809955a0fae8e5fa59f0"
+  },
+  {
+    "role": "pure",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-bhalf-pure-complete-ready.json",
+    "bytes": 53783,
+    "sha256": "ef6e6bf414d4d1665bc6b7c1706a3d8668fce398cfc33d6b2d11201294376fb8",
+    "git_blob_sha": "1c854be4fde79088727f8e8590bc7cd8a856bb67"
+  },
+  {
+    "role": "reproducer",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_demanded_run31_parameters.mjs",
+    "bytes": 14273,
+    "sha256": "b37e4730a08a61efbac598ce0a9ce2824c50758b969bd811366c46ae79b113a0",
+    "git_blob_sha": "fc02f90ab6351e503c0c932780b144aca83c70f3"
+  },
+  {
+    "role": "note",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run31-R728-reversed-demanded-complete-bhalf-parameters.md",
+    "bytes": 26151,
+    "sha256": "6f1a610385c41835e0742050436801015913288b6fc2bc74bd8df397f5bf56c6",
+    "git_blob_sha": "c1a707e22aaf83c69dcda76ff8a3b94043091e75"
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-bhalf-complete-parameter-delivery.json",
+    "bytes": 17702,
+    "git_blob_sha": "c14c51b73df42435cb2ab22b0915fae25492dadf",
+    "sha256": "b07d7a6fa46a463db25b100fa76fb0ac09880ce6eec43ec9e2013220183dcb7a"
+  },
+  {
+    "role": "reproducer",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_run31_complete_launch.mjs",
+    "bytes": 50691,
+    "sha256": "6ff0a7464848c6e32f1fcb361f9b103b491ccd889b649df9ddddbaf7c7de1eb8",
+    "git_blob_sha": "d86425af1630bdface6a3617cc4408805b2e7882"
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-run31-complete-launch-delivery.json",
+    "bytes": 15378,
+    "git_blob_sha": "6f977ae807765441c82b6cd9d0a4f1589a813aa3",
+    "sha256": "a82b3ede897d1f3ed8fc264208c78c46f5cd792ca1afefc3089b9d608b3cd091"
+  },
+  {
+    "role": "note",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run31-R728-reversed-demanded-complete-launch-preparation.md",
+    "bytes": 22778,
+    "sha256": "f2feb4f2e5c217eef3ab372925cd55ac5d2bea8136797b64d47b6299e5388e82",
+    "git_blob_sha": "5d2467cab9523ecb38a03185a47b2d8b490f9441"
+  }
+]
+```
