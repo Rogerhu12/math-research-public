@@ -47,7 +47,6 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 并行35规则核查：2026-11-28 16:57:44 UTC，真实pull至`e29e4af88e6769456127b4cfa39b60f56516bf99`，双README无变化。 官方取消/原阶段未返，见35 ownnote。
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 0d4fc710a23b0752666f5c52e9b8bdb66c68e348
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull ca5a16791799a5b2d62ab67d9feb20b53b5d34bf
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 
 [R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：同R764 g全经线唯一B>0凸根、全gvv/两端/固定领准确，.42整像δE≥.0315；两支各3层可行形变+十一图全场原预算启动，余g/正相管欠。
@@ -69,3 +68,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r771-publish-->R771 [全子午凸坐标两整球六层实际](notes/r771-convex-meridian-46171324381-1-index.json) 双README真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull d4aca5b156092fa01b267c65ffc2417127e8350d
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 972c34f4fc96413a654e530542facd65c88074ad
