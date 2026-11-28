@@ -633,3 +633,10 @@
 - 同b0原CM支第五/七槽−13θ₀⁵/40、−149θ₀⁷/1680为单位，gap类尺度完整保留；最高槽写成原Q_p有限系数但未宣unit。root亲读Messing V1.6/1.10/2.1并核R1021的target Frobenius方向/W系数，o2纸核两数/反演/次数界，无数学程序。
 - R1197已真实推e52f409b02bedcb54d9d8ea744002a618edc2265，run46159375565/job141023019493。继续实际regular消去、全图Serre配对、同β/指定C，不将raw节点单位替成完成标准。
 - 本push规则：公开Actions真实pull至 aa1a38971ff461e54428b9898eadf4e9d09e5689（2026-11-28T15:24:28.623412+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1199：原最高packet全部generic normal层由完整Dickson角的一维像和实际centre/node Taylor锁定；Θψ=−ψ²给所有低a/high-normal交叉的准确配对，完整有限收缩以显示递推消去opposite-line选择。
+- 对原CM轮廓核T*，三支持尾此前全层零，补足node同源单位/flux后centre–node frame一致，其余相对Picard过渡在1+I，故全支首层贡献零；同P完整V_m(T*)为全SS有限和。原ν_s∈μ_m明确保留，未宣unit；root/global逐式纸核，无数学程序，继续实际值/同C。
+- R1198已真实推6f91bdf14d9bb787f5b2da3029bf017126def258，run46159675499/job141023972103。H/open/近100KB索引压缩前逐字存before-highest-kernel-pairing，旧链接在同目录保持有效；所有来源/边界保全。
+- 本push规则：待公开Actions实际pull回填。
