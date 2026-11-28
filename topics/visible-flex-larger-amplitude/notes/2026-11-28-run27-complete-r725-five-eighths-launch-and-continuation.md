@@ -1455,3 +1455,22 @@ root终端自07:21失效，实际重置后的唯一探测仍失败。此次云�
   }
 ]
 ```
+
+## 2026-11-28 07:49:56 UTC — 27的12d82全步自身统计返回
+
+真实run46105138690/1、source1547e23955e6f776336030966b6e204fadaca9d0/PID3303、drivere1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd/modelc62737af66aaf0883e262a5fb378cedd93c691b50ecd28e67f64c17182a4d187。第三个trial12d82f1cacc8ef12f5b76dc3586109d7a4eb0ef3e70d62539f8650088f28becd、alpha1，于07:16:50.064590Z真实返回Phi748.4181663644251/Gram.487646571786265；至07:41:04Z自己几何与接受仍未知。current仍939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29、accepted2、Phi748.4181748571943/Gram.48764641101863465/reachg.7001895470631601。全六族/K/位置、全部误差与原参数保整索引，不混trial/current或以统计代几何。完整science尚未返，原pure整47112B待其自然返回。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46105138690-1.md",
+    "bytes": 45636,
+    "sha256": "4da9b3f68a9101b5a1f65d9c087118b74e4d7cee67b765186dd9bb302ccf601e",
+    "git_blob_sha": "e503dd0f64b17450e617f97f8d5be41ebefc5fd3",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

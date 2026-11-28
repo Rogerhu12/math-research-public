@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 086003/accepted3/g.6114243730497866/distplus.06086507728771828。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 原science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同run续跑新accepted0，b4d1 reachg.5225595596253128拒，cf441半步仅统计。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0/g.13346402986277572；5a9e四分之一reachg2.1657936243197677拒，4e4d八分之一仅统计。 |
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 939ea/accepted2/g.7001895470631601；12d82 alpha1仅开始。 |
+| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 939ea/accepted2/g.7001895470631601；12d82 alpha1仅自身统计748.4181663644251/.487646571786265。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | science0/10456.963s，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同run整pure46813B已排。 |
 | [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | bc818/accepted1/distplus.13820228685007474/reachg−.03475313540129943；ba2b/4b4c reachg22.107165815378092/10.324385214244415拒，eb34四分之一仅开始。 |
 
