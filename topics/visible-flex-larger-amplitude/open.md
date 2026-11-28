@@ -116,6 +116,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 33–35全部初值与拒绝点、角色、model/driver/原预算见各完整note；原science自然返后才原whole pure，异model不借坐标费用。
 
+[44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)：22冻结科学输入、同R757g，5粗+两家族各4/8/16；全时间联合Gram/曲率/法球，真两卷两帽共享A/B/C二jet、各终点65相/七整网，原双L-BFGS预算普通触发，修正场全几何仍欠。
+
 ### 当前数学与新输入
 
 [R752–756](results.md)：旧中央平带母线/原平帽准确阻碍已证；R754全42行失败，R755只有条件性测地判据。全原proof范围保。

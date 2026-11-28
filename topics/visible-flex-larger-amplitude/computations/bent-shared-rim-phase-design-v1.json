@@ -1,0 +1,198 @@
+{
+  "schema": "paired-track-shared-rim-same-metric-joint-search/v1",
+  "source_sha256": {
+    "r748_developable_axial_caps.py": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46",
+    "r747_offset_arclength_closed_two_jets.py": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+    "r746_axial_translation_closed_two_jets.py": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+    "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+    "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+    "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+    "bent_end_phase_fields.py": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+    "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+    "r752_delayed_turn_closed_two_jets.py": "762717cc9bd895893b9538683a588217d2f8fc4f236f997a3120880acbe161c6",
+    "bent_end_phase.py": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701",
+    "r757_curved_profile_two_jets.py": "059a8340b44cd22dd7ee568f1d2df5c5e06b8a1dc9e4a3a461fdad6975835e0e",
+    "r757_delayed_metric.py": "347b29514d4f78847d35e9e2c338f9127750985762249fcfaa0067d490e3f4a1",
+    "r757_curved_rectifying_closed_two_jets.py": "feb58d10fe8f4dae6fb08e395c56ff4851b9707eddd2ac07d1f6c5acc17a1651",
+    "bent_curved_hard_end_fields.py": "28493b189b67a12393a8aa0c1cd1fa67a1c6f6e8a298a531766395a74766f94b",
+    "r759_paired_curvature_tracks.py": "99a147fc713a5ba29bb19472bb0249c9a3ee81534e39af44de9eb56ca0e005e7",
+    "r761_paired_tube_safe_nonflat_caps.py": "42dccb7122e76b74a1fa5222d06fc2a6ddee7ce16779c9b05f4287a330a3893f",
+    "r763_translated_caps_and_shared_rim.py": "94d1e741fdff5d09df06bf7ea2173989232a82611f11743027d11cc66c3f1fd1",
+    "bent_shared_rim_fields.py": "1640e90ef01bb03cd99ae1fb866d66348ed8af33543685573f26c5a4572f1bf9"
+  },
+  "export_sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+  "export_geometry_sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "jax": "0.7.1",
+    "jaxlib": "0.7.1",
+    "jax_enable_x64": true
+  },
+  "designs": [
+    {
+      "id": "translated-rim-23",
+      "group": "released",
+      "cap": "translated",
+      "angle": 0.78,
+      "ramp_cells": 2,
+      "shorten": 0.23
+    },
+    {
+      "id": "translated-rim-37",
+      "group": "released",
+      "cap": "translated",
+      "angle": 0.795,
+      "ramp_cells": 2,
+      "shorten": 0.37
+    },
+    {
+      "id": "developed-rim-22",
+      "group": "released",
+      "cap": "developed",
+      "angle": 0.78,
+      "ramp_cells": 2,
+      "shorten": 0.32,
+      "development": 0.22
+    },
+    {
+      "id": "tube-safe-78",
+      "group": "tube",
+      "cap": "tube",
+      "angle": 0.78,
+      "ramp_cells": 2
+    },
+    {
+      "id": "tube-safe-795",
+      "group": "tube",
+      "cap": "tube",
+      "angle": 0.795,
+      "ramp_cells": 2
+    }
+  ],
+  "physics": {
+    "fixed_tensor": "R757 initial closed metric at every one of the 9 charts, including both true nonflat caps; no target refitting or width/hold shrink under space/time refinement.",
+    "gram_weight": 12,
+    "gram_peak": 3.2,
+    "bend_weight": 1.8,
+    "bend_peak": 0.22,
+    "area_weight": 8,
+    "pair_weight": 1.3,
+    "curvature_cap": 9.4,
+    "tube_radius": 0.105,
+    "rim_weight": 3,
+    "algorithm": "All positive phases in one natural-cubic coefficient solve, two full L-BFGS blocks with newly rescanned 3D ordered chord pairs, exact linear shape adjoint and JAX differentiated physical metric/principal curvatures/pair costs. Independent corrected whole-body validation and terminal mesh on both branches."
+  },
+  "mesh_times": [
+    0,
+    0.2617993877991494,
+    0.5235987755982988,
+    0.7853981633974483,
+    1.0471975511965976,
+    1.3089969389957472,
+    1.5707963267948966
+  ],
+  "coarse": {
+    "id": "coarse-whole",
+    "mesh": [
+      25,
+      9,
+      8,
+      7
+    ],
+    "check": [
+      51,
+      15,
+      12,
+      12
+    ],
+    "intervals": 2,
+    "check_extra": false,
+    "radial_degree": 3,
+    "turn_degree": 2,
+    "roll_modes": 3,
+    "rim_modes": 4,
+    "cap_degree": 3,
+    "regularizer": 0.000005,
+    "maxiter_per_block": 30,
+    "pair_count": 1536
+  },
+  "refinements": [
+    {
+      "id": "same-g-1",
+      "mesh": [
+        35,
+        13,
+        10,
+        10
+      ],
+      "check": [
+        67,
+        21,
+        16,
+        15
+      ],
+      "intervals": 4,
+      "check_extra": true,
+      "radial_degree": 4,
+      "turn_degree": 3,
+      "roll_modes": 5,
+      "rim_modes": 6,
+      "cap_degree": 4,
+      "regularizer": 0.000003,
+      "maxiter_per_block": 35,
+      "pair_count": 2048
+    },
+    {
+      "id": "same-g-2",
+      "mesh": [
+        49,
+        17,
+        13,
+        12
+      ],
+      "check": [
+        91,
+        29,
+        20,
+        18
+      ],
+      "intervals": 8,
+      "check_extra": true,
+      "radial_degree": 6,
+      "turn_degree": 5,
+      "roll_modes": 7,
+      "rim_modes": 8,
+      "cap_degree": 6,
+      "regularizer": 0.0000015,
+      "maxiter_per_block": 42,
+      "pair_count": 3072
+    },
+    {
+      "id": "same-g-3",
+      "mesh": [
+        65,
+        21,
+        16,
+        15
+      ],
+      "check": [
+        121,
+        39,
+        26,
+        22
+      ],
+      "intervals": 16,
+      "check_extra": true,
+      "radial_degree": 9,
+      "turn_degree": 7,
+      "roll_modes": 9,
+      "rim_modes": 11,
+      "cap_degree": 8,
+      "regularizer": 8e-7,
+      "maxiter_per_block": 50,
+      "pair_count": 4096
+    }
+  ]
+}

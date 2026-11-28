@@ -1,6 +1,6 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续至README全部完成；阶段/时长/失败/输入不足均非终点。** 本次只缩导航，[28065完整前态](https://github.com/Rogerhu12/math-research-public/blob/28065af277e54c6a63382d852c2dc8de36095cec/topics/visible-flex-larger-amplitude/HANDOFF.md)及其中51c/70c/84197/222c链逐字保所有源参/预算/数值/条件/失败未知，proof/ownnote不减。
+Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续至README全部完成；阶段/时长/失败/输入不足均非终点。** 本次只缩导航，[8c0b完整前态](https://github.com/Rogerhu12/math-research-public/blob/8c0b7d6a5e8da93c9c69d6a89538b159df5fe211/topics/visible-flex-larger-amplitude/HANDOFF.md)及其中51c/70c/84197/222c链逐字保所有源参/预算/数值/条件/失败未知，proof/ownnote不减。
 
 ## 规则与目标
 
@@ -17,16 +17,14 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing
 [41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8区间7b56ad6c全33相，Gram.48152123/K226.25305/support.00583465，原16区间继续。
 [42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：五粗+4/8/16全部原预算返，末29cefe10真实69相并集/七整mesh已返待本note补全；stage末Gram24.83327失败，原R756中央障碍保。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：73efa30c冻结21科学输入真PID2592；同R757g保7移相+3成对、两家族各4/8/16和各65相/七网。差分射线保历史校准，原移相号障碍/成对末rim角费未隐。
+[44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)：22冻结科学输入、同R757g，5粗+两家族各4/8/16；全时间联合Gram/曲率/法球，真两卷两帽共享A/B/C二jet、各终点65相/七整网，原双L-BFGS预算普通触发，修正场全几何仍欠。
 [R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：旧Python3.14/np2.2.6跨256KiB原地破坏g已实证，原raw保；真实K3.9124/2.6101但g8809.79未付，已闭不重跑。
 
 33–35全部初值/model/driver/点/预算及拒绝保各ownnote；trial非接受/final，异model不借同坐标费用。
 
 ## 数学与当前新输入
 
-[R752–756](results.md)：旧中央平带母线/原平帽准确阻碍已证；R754全42行失败，R755只有条件性测地判据。全原proof范围保。
-[R757](results/R757-curved-section-and-nonflat-caps-on-a-fixed-closed-metric.md)：全弯剖面/非平双帽真初g三源已刊；初reach.108，命名小场reach.107/grip.72/held1.519/正商距。非平fan交叉项/卷g未付。
-[R759](results/R759-elliptic-rim-sign-and-paired-curvature-tracks.md)：正K条II同号排七移相准确极限；新成对负胞旋控中央准确、两卷vv/sv准确、.78/j2 held>.739，全角行/帽g仍欠。
-[R758](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)：46156613563四路84拟合+72中相全返失败，末metric约2.85e5；R760物理Hessian证初K>21000排所需初reach，旧输入不重做。
+[R752–759](results.md)：旧中央/平帽/正K边界障碍和R758原初厚度失败全已登记；R757真新初g及R759配对轨道为43–44父，全部范围/原值见proof、ownnote和固定旧H，已登记不重做。
 [R760](notes/2026-11-28-R760-cartesian-caps-and-four-full-fits.md)：真Cartesian初帽/低曲率右墙，新初reach.132/D<4.01/grip1.40，活动两卷/曲领全相同g；46158942274原四路全返待ownnote补，末metric约1.1e5仍败，继续改全帽/全卷。
 [R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：同R757初g的全闭成对场全相reach.106/D<3.50，.78/j2 grip.72/held>.739、真实体积差>.156⇒δE>.004。全帽g与负胞角行未付，法管仅覆规定场。
 
@@ -59,11 +57,11 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 021cf43027ec887382feda1c9b7f49e406d7660b
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 双README真pull c4c854f728d235424eac3fc4301597665f039d24
+<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 7a2542b712ce3838d28b152be7c849e9170f13ca
 <!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
 <!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 834e4d3031b88caea3da121c582306cca49c1c9c
 <!--r758-publish-->R758 [双弯帽四项实际拟合](notes/r758-curved-crown-46156613563-1-index.json) 双README真pull e34c3291c61540ba09c2c2361a24467e6782144a
-<!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d
-<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 7a2542b712ce3838d28b152be7c849e9170f13ca
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 021cf43027ec887382feda1c9b7f49e406d7660b
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull b787a739e56fd76d3b90a20191620c3358938cb1
+<!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d

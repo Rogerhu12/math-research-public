@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **44（全部真实边界自由的新联合实际求解）**：[两整卷/双帽/共rim全时间求解](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)直接在同R757初g上联合所有正训练相位，五完整入口、两家族各4/8/16和各65相/七整网，22冻结输入。共有圈A/B/C三向二jet、完整内部场全参与，真Gram/曲率/面积/三维法球收费；右握保持原世界固定，R761几何证书不借给修正点。实际尚待原自然返回。
+
 - **R763（已证明：末圈定量障碍与共有边界的完整释放）**：[真实末rim度量/测地曲率与自由二jet](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)及[两整帽实际基线](scripts/resume_20261126/r763_translated_caps_and_shared_rim.py)给43三个成对启动最后相位在原角控制范围内不可由内部/pose消除的周向相对误差>.72。新两整帽刚移基线在四缝全g准确，所有相位每根对应弦<.95<L，仍不冒嵌入等距卷存在。开发整帽的法向延伸全谱误差<1.31e−7但非精化零极限。两卷/两帽整圈共用A,B,C三个三向二jet，后继44实际求完整全g与几何。
 
 - **R761（已证明：同初g的新完整厚形变与有限刚体商差）**：[全法管、真正帽材料流与体积证据](results/R761-paired-track-global-tube-and-positive-volume-gap.md)及[完整物理六jet](scripts/resume_20261126/r761_paired_tube_safe_nonflat_caps.py)用平面反向法线对排除、两整roll法偏移单射和两完整帽图degree-one投影，证明全相reach≥.106/D<3.50。命名.78/j2有固定grip≥.72、整初像held>.739；实际围体积差>.156与全管给含反射δE>.004。整个中央和两roll的vv/sv同g，负胞ss及全帽g仍未付；该严格几何属于规定完整场，不外借到自由优化点。
