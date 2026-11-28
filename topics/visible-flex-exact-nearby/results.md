@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ4：真正CFC签名方块与完整高尾交叉](results/R149-supplement-actualsquare-CFC-physical-cross-and-tail-budget.md)：在w=Mbar x、Θw=0中完整腰行(I+K)w+Xc+gk=f作可逆row变换，得到+ΘX的真实96²块。精确保PKQ/PX/Pg/Pf和全部source；J>512时PX≤δX使块误差≤eΘ+BΘχJδX/(1−χJ)。保q/J−1与scalar反馈，不用观察表代全逆。
+
 - [ASQ3：真正selected基点的全raw共轭恢复](results/R149-supplement-actualsquare-raw-conjugacy-recovery-at-selected-base.md)：在实际Qδ*,g=H⁻¹处完整E=E′=0，原regular式独立a；全nonmean a在graph空间D_Ra∈H^(s+1)用全Fourier逆恢复，保17倍单导损失、phase mean和真实external sources。非线性normalizer的DN·R不因E=0而消；off-base项另付。
 
 - [ASQ2：真实selected far graph和单一高度原点](results/R149-supplement-actualsquare-selected-far-graph-and-height-span.md)：同真selected尾部fB=FB wγ，完整切迹微分T=FB Vγ P⊥DCQ；whole函数图行消元为A+BT与f−Be，全部source/world读出同回代。joined界面只有一个共同λ，span为输出或独立兼容条件；不能将旧97-row小费冒成任意WOB逆。

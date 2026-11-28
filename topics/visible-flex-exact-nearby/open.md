@@ -177,3 +177,6 @@ ASQ2：同真selected尾部fB=FB wγ，完整切迹微分T=FB Vγ P⊥DCQ；whol
 
 
 ASQ3：在实际Qδ*,g=H⁻¹处完整E=E′=0，原regular式独立a；全nonmean a在graph空间D_Ra∈H^(s+1)用全Fourier逆恢复，保17倍单导损失、phase mean和真实external sources。非线性normalizer的DN·R不因E=0而消；off-base项另付。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ4：在w=Mbar x、Θw=0中完整腰行(I+K)w+Xc+gk=f作可逆row变换，得到+ΘX的真实96²块。精确保PKQ/PX/Pg/Pf和全部source；J>512时PX≤δX使块误差≤eΘ+BΘχJδX/(1−χJ)。保q/J−1与scalar反馈，不用观察表代全逆。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

@@ -314,3 +314,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 09:56:13 UTC / visible-exact-astra-b0d5a16-20261128：ASQ3。在实际Qδ*,g=H⁻¹处完整E=E′=0，原regular式独立a；全nonmean a在graph空间D_Ra∈H^(s+1)用全Fourier逆恢复，保17倍单导损失、phase mean和真实external sources。非线性normalizer的DN·R不因E=0而消；off-base项另付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actualsquare-raw-conjugacy-recovery-at-selected-base.md","bytes":4713,"sha256":"7fcfc17283c421c792dbacdfaa8fe73f6768fa9e7ff4d29e667b9b7799920a3c"}]。
+
+
+2026-11-28 09:57:12 UTC / visible-exact-astra-b0d5a16-20261128：ASQ4。在w=Mbar x、Θw=0中完整腰行(I+K)w+Xc+gk=f作可逆row变换，得到+ΘX的真实96²块。精确保PKQ/PX/Pg/Pf和全部source；J>512时PX≤δX使块误差≤eΘ+BΘχJδX/(1−χJ)。保q/J−1与scalar反馈，不用观察表代全逆。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actualsquare-CFC-physical-cross-and-tail-budget.md","bytes":5936,"sha256":"2389b0f50851670dca8057b76ed5cd505738a599206d46010e17f03ac6a083dc"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actualsquare_physical_cross.py","bytes":2153,"sha256":"793c042640b3ef9401fcaa57de36b7082973e1dc85cf3474f8cbc5387023144e"}]。
