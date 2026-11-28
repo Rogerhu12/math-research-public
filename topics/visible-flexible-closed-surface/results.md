@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R257：准确全前缀的全局嵌入](results/R257-accurate-whole-prefix-global-embedding.md)（2026-11-28）：椭圆梯度流局部正向，1024严格角盒付末圈横截/高度/角导，边界度数0/1/0给整环带单射；中央与反射C2接合。未付±.097非局部法管、后缀或全闭面。
+
 - [R256：准确固定前缀的位置、法向与投影预算](results/R256-accurate-fixed-prefix-envelope-normal-tilt-and-projection.md)（2026-11-28）：R233/R232全前缀宽<.484、球<1.538、排球>.96999；.097偏移局部无焦、椭圆柱投影定向>.004。未付整体单射或非局部法球，literal源不互借。
 
 - [R255：两角任意共同SPD目标的锐误差](results/R255-sharp-two-angle-invariant-target-metric-floor.md)（2026-11-28）：最优为(L−1)/(L+1)，两第一形式的算术均值取到；多角给必要下界，保共同坐标变换。五实际场G11全部角对仍有.12以上浮点见证，不排改变位置或角重标。

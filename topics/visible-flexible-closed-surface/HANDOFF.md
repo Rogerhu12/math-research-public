@@ -58,7 +58,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 <!-- 2ecf-background-depth --> [原背景depth8](notes/2026-11-28-2ecf-original-background-depth8-extension.md)已自然0，原36profile不变，仅补36个原剖面；完整72profile供全尾部使用。
 
-<!-- 2ecf-target-curvature --> [R256](results/R256-accurate-fixed-prefix-envelope-normal-tilt-and-projection.md)准确prefix位置/局部无焦/投影定向>.004已付，非局部reach尚未；literal场须另绑。
+<!-- 2ecf-target-curvature --> [R257](results/R257-accurate-whole-prefix-global-embedding.md)准确R233/R232整个prefix全局嵌入已证；[R256](results/R256-accurate-fixed-prefix-envelope-normal-tilt-and-projection.md)局部.097无焦。非局部法球/后段与literal差仍待。
 
 <!-- 2ecf-live-m12-refinement --> [h503全6036径向×1536角单带组装并接受α1，训练峰4.94403e−10，独立与后验尚待。](notes/2026-11-28-2ecf-m12-h503-retained-full-Gram-accepted-step.md)
 
@@ -70,4 +70,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:49:40 UTC；已读公开 main `39fd65859eb857e90355f62efea80caaca43147d`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:52:23 UTC；已读公开 main `8fb792e78b0cb67e37177a4a590fd3424e279cb2`，根/课题 README 逐差无变化。
