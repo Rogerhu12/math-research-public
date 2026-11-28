@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi 完整原十式的精确十八行两列呈示](results/R150-appendix-unit211-Phi-zero-complete-original-values-exact-eighteen-by-two-presentation.md)：8c21真10.941668497秒/0，六新原值保个别B/C N/P与整个N4(V)，三mean来源DAG、单次坐标变化及完整模生成均付；整斜率零等未付面留。附最高缩放不能借旧零孤立均值排除的准确断点。
+
 - [R150：Phi 原 N1 斜率补图精确六行两列及三个原八次标量](results/R150-appendix-unit211-Phi-zero-original-N1-slope-exact-six-by-two-presentation-and-three-eighth-degree-scalars.md)：e797完整I4双向同构与稳定关系、三个真实来源λ8；H19交补图每权≤12，整斜率零及头/内容保留。
 
 - [R150：W 无新逆中心坐标与原值次数界](results/R150-appendix-unit211-W-H198-centered-slope-monic-square-and-original-value-degree-bounds.md)：纯权仿射平移给两个坐标对λ一次、首一平方两个系数对λ≤2；新完整原值配对≤11/10，不改变旧cofactor或重启旧门。
