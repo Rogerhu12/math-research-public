@@ -57,3 +57,9 @@ At the 2026-11-28 13:00 UTC preparation checkpoint, the public account reported 
 ## 5. Actual push and pending run
 
 The successful activation source is `702f361f1cf4725a870a1740a34688e75b2bc469`, pushed at 2026-11-28 13:02:14 UTC after one non-fast-forward rejection and immediate actual pulls/rebases of both repositories. All four README blobs were unchanged. The actual push run is [46147595142](https://github.com/Rogerhu12/math-research-public/actions/runs/46147595142), attempt 1, created `2026-11-28T13:02:18Z`. At 13:02:23 UTC its status was `pending`; at 13:03:25 UTC the jobs endpoint returned an empty list. It waits in the existing heavy group behind v17. These metadata establish its identity, not source authentication or execution of any mathematical gate.
+
+## 6. 实际解除排队
+
+v17在2026-11-28 17:02 UTC终止后，本run已经进入执行，实际job为 **141050876340**。根随后独立读到steps 1–3均success、第4步in_progress；此前pending记录是历史状态，不能继续当成当前状态。曾尝试查询取消接口但取消POST没有执行，本run从未被记为已取消。本次未修改或重启该run。
+
+固定source仍为`702f361f1cf4725a870a1740a34688e75b2bc469`。启动状态不替代85源认证、两份F/P输入、实际端点、post-ideal或终态PASS。v17的明确32,000,000输出系数门及已完成范围见[终态记录](2026-11-28-original-adaptive-scalar-graph-production-v17.md#6-实际终态完整回执和输出门)。

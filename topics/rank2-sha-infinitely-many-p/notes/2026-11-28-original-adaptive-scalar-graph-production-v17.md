@@ -174,3 +174,17 @@ or the two PASS-reader returns; those remain to be consumed from the real log.
 最后可读行是 `entire original infinity fiber contribution` 的 `whole first Hermite column extracted`，真 completed_columns=86/306，pivot_degree=2，remaining_determinant_degree=440，maximum_left_degree_seen=612，proved_global_left_degree_bound=1837，附块界/已见附块均null，累计elapsed_seconds=5184.882625158、该次reduction_elapsed_seconds=13.595093863999864。该前缀只见新adaptive binding的构造登记，内值实际 instances=0；没有首A端点单rhs实际返回、四端点完成、四个厚交、18×9 Norm、九对或最后 all_requested_original_acceptance_gates_completed。
 
 根在2026-11-28 13:00:22 UTC独立读取同一实际前缀，按原UTF-8重算所有22对RESULT/SHA，并逐80个固定source Git blob重算路径映射11935B/SHA313cdba894ecfab373bed5f78f5e292656352323b11d1640ca127e541e5bb522，完全一致。根亦核两个真实F/P认证行、原reader退出0及消费者同envelope。未保存完整可重算日志。
+
+## 6. 实际终态、完整回执和输出门
+
+公开run [46139352999](https://github.com/Rogerhu12/math-research-public/actions/runs/46139352999)、job 140961628765、source `84917b3eab61681c70cf8f01112139eb0b6288df` 的第4步现为completed/failure。完整日志原UTF-8为 **4126140 B**，SHA256 `3abb0ede78b8c3f5ccd05885f48ef9e63849977f0f89bfdf09a1e9723d33f552`；根与子代理均独立获取并核对。原PASS reader退出0，offline solver退出1；host末条明确为pipeline incomplete，没有数学PASS。
+
+根按每一行原RESULT payload字节重算全部摘要：此前12种唯一RESULT/SHA仍各一对，另有22对完整native行回执，全数匹配。按日志原序将22个native SHA各加LF，1430 B的摘要为 `382f5ff42d09c56607e86c53b956e76d03ed6ba7a9bfc13687b74f505e057e73`。22条由T和v各两图、每图五条（分母算子像、完整分母投影、全配对分子、零理想、极理想），再各一个完整无穷纤维贡献组成。它们不包含A端点的post-ideal检查，不据此宣称全生产已完成。
+
+14:41:25.3455463 UTC，首个原仿射单右端实际返回：分子/分母cap均2256，finite_modulus_degree及lift_digits均4513，prime_linear_dimension=612，residue_degree=1，actual_normalization_weight=2256，scalar_denominator_degree=2255，whole_original_row_identity_verified=true。原位置SHA为 `86f71068290941f86fb478ed928f33eb15b5cd81b4d837e6d996b3f7c66a77bb`，被拒位置为 `7193baf7a3fcf26863994276396c7ed3d95258e4c0cda797aed0c3f0e79a4901`。固定源的`scripts/original_adaptive_scalar_graph.py`第181–185行准确检查 **W M_D=q N**，即在原代数中的W D=q N；不能误写成只求D的逆。该完整源22104 B、SHA256 `b6e5c9a2ad61a9314bac08b0ce221f15076feabd70a7d5b51c86688519df7ede`，根重新读源并核hash。
+
+14:44:45和15:06:30 UTC两次细化由原拒绝行0、46分别纳入原坐标0、1。末次direct_product_call=343，时间17:01:41.7397464 UTC。17:02:28.0414312 UTC程序明确捕获Python MemoryError，elapsed_seconds=20510.703139827；原错误为“实际完整X超过配置的最终输出系数预算”。17:02:39 UTC host返回1。触发栈为原adaptive helper的_selected、zero_pole_ideals、compute、scan第239行。
+
+从该固定源第218–239行可准确推断：scan先对H全部306行取真实x多项式部，逐行验证残量，累计每个坐标的len(p.list())；任一非零残量均提前返回，32,000,000门只在整轮之后触发。因此最后H的全部306个配对身份xM_D=hM_N已经通过原残量证，而实际X总系数格超过32,000,000。精确总数未打印，不能编造；scan没有成功返回完整X/H，该端点两理想及其post-ideal、后续四outer、厚交、18×9 Norm、九对和最终整生产PASS均未完成。这里的身份结论来自实际执行位置与固定源控制流，不能提升为未返回的完整对象证书。
+
+本次是显式软件输出预算失败；没有系统OOM/退出137证据，也未达到21000秒计算时限。不重新运行这份已知会触门的v17。已经部署的v18/v19使用原short_graph_outer的完整逐行解码、哈希和计数，没有这个总格门；它们仍各须真实跑完全套生产检查。完整可重算日志未入库。
