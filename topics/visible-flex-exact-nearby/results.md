@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [FR1：同一真实射线首比值的一阶径向强迫](results/R149-supplement-first-order-genuine-ray-ratio-by-signed-wave-integration.md)：准确W=LσL−σ+σ(bρ−bdφ)∂φ，把四支首R变为U=R−cL−w0；G和E_G从比值接收/还原准确消去。六角体源只要A1六角/同点omega八阶及真实一次r导，端项在真缝连续抵消，GCS非零初值和后续物理跳保。
+
 - [ASQ8：选定真实相位子系统的可求和解析迭代](results/R149-supplement-selected-physical-phase-fibre-summable-analytic-iteration.md)：对每个完整physical对称z且L2_r A_(1/1024)≤2^-33000，真实Q*+z+k h^a、nu*+k存在全lift精确conjugacy；实际pivot、complex tube、Cauchy M=2^6000、e(n+1)≤e(n)²及k/g/g′绝对可求和全证。原均值/NP真实regular缺陷保，仅phase fibre，非最终固定metric flex。
 
 - [ASQ7：真实双程返回三阶导及物理相位逆双阶jet](results/R149-supplement-actual-third-return-and-physical-weighted-phase-jets.md)：真实两leg三变分保全部metric、mean、root和接缝；最多两任意径向L2输入同乘，明确one-high B(n+3)/N(n+5)及完整composition/reciprocal递推。补ASQ6的实际D³P、moving data/normalizer双jet，不把旧D²P冒充D³P。

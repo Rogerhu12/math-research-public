@@ -225,3 +225,6 @@ ASQ7：真实两leg三变分保全部metric、mean、root和接缝；最多两�
 
 
 ASQ8：对每个完整physical对称z且L2_r A_(1/1024)≤2^-33000，真实Q*+z+k h^a、nu*+k存在全lift精确conjugacy；实际pivot、complex tube、Cauchy M=2^6000、e(n+1)≤e(n)²及k/g/g′绝对可求和全证。原均值/NP真实regular缺陷保，仅phase fibre，非最终固定metric flex。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+FR1：准确W=LσL−σ+σ(bρ−bdφ)∂φ，把四支首R变为U=R−cL−w0；G和E_G从比值接收/还原准确消去。六角体源只要A1六角/同点omega八阶及真实一次r导，端项在真缝连续抵消，GCS非零初值和后续物理跳保。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

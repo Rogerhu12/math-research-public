@@ -371,3 +371,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 10:26:11 UTC / visible-exact-astra-b0d5a16-20261128：ASQ8。对每个完整physical对称z且L2_r A_(1/1024)≤2^-33000，真实Q*+z+k h^a、nu*+k存在全lift精确conjugacy；实际pivot、complex tube、Cauchy M=2^6000、e(n+1)≤e(n)²及k/g/g′绝对可求和全证。原均值/NP真实regular缺陷保，仅phase fibre，非最终固定metric flex。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-selected-physical-phase-fibre-summable-analytic-iteration.md","bytes":10863,"sha256":"334bbee162d0e3de0f7d3f88f0de8dad8c9474d432b1d6b5657501c2e167764a"}]。
+
+
+2026-11-28 10:26:21 UTC / visible-exact-astra-b0d5a16-20261128：FR1。准确W=LσL−σ+σ(bρ−bdφ)∂φ，把四支首R变为U=R−cL−w0；G和E_G从比值接收/还原准确消去。六角体源只要A1六角/同点omega八阶及真实一次r导，端项在真缝连续抵消，GCS非零初值和后续物理跳保。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-first-order-genuine-ray-ratio-by-signed-wave-integration.md","bytes":4398,"sha256":"bb46a7d7fa520b99b39328369634988bc19cb79ce3a92be8df2712f834b34d29"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_first_ratio_first_order.py","bytes":2638,"sha256":"c79ddae79bd11f44aa1892e9f3549defec53f08b876175ba1bfd19e7268ae075"}]。
