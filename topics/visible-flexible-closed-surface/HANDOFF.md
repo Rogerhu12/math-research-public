@@ -1,6 +1,6 @@
 # 交接：可见且有厚度的闭曲面等距弯曲
 
-维护会话 **Astra-visible-flex-2ecfcd69-20261128**。**进行中，尚未达到README全部完成标准，继续工作。** 基础候选固定为 G12/M48 field5778bee4…：全前缀与真inner collar已达原B，全部有限尾仍在计算。强幅度另有真实新构造，不互借证书。
+维护会话 **Astra-visible-flex-2ecfcd69-20261128**。**进行中，尚未达到README全部完成标准，继续工作。** 基础候选固定为 G12/M48 field5778bee4…：全前缀与全部18552有限尾/真inner collar已达原B；全闭合成发现前缀材料总长的一ulp端点差，正按真源补付。强幅度另有真实新构造，不互借证书。
 
 ## 目标、规则与认领
 
@@ -24,7 +24,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-total-prefix --> [完整原前缀](notes/2026-11-28-2ecf-m12-complete-original-prefix-total-Gram.md)：158 元素/2800 叶全角全时 U<1.235521e−9。
 
-<!-- 2ecf-total-tail --> [整个原内collar](notes/2026-11-28-2ecf-true-inner-collar-total-Gram.md)104片U<1.957403e−9<B；[原尾50单元](notes/2026-11-28-2ecf-tail-correlated-C4-adaptive-cover.md)已过，全部18552有限尾正三路继续。
+<!-- 2ecf-total-tail --> 全18552有限尾/19041相关Gram片已自然0，U=1.999999606565e−9<B；真inner collar104片U<1.957403e−9。整闭合成尚须补前缀 .15 与 manifest 真cuff差1/2^55；不能直接并证。
 
 <!-- 2ecf-background-depth --> [原背景depth8](notes/2026-11-28-2ecf-original-background-depth8-extension.md)已自然0，原36profile不变，仅补36个原剖面；完整72profile供全尾部使用。
 
@@ -60,7 +60,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-r261-prefix --> [R261](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)：强同g物理H65前缀全域低于2e−9，自身整带reach>.1013；接真实后缀。
 
-<!-- 2ecf-r265-polar --> [R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)原准确连接已嵌入；[新HF64×80](notes/2026-11-28-2ecf-strong-accurate-hermite-fourier-position-with-literal-W.md)保6615W、准确端口及同g，G11 metric .143431819/κ28.8152，真优化/连续证继续。
+<!-- 2ecf-r265-polar --> [HF64真位置](notes/2026-11-28-2ecf-strong-accurate-hermite-fourier-position-with-literal-W.md)经[保向径钟](notes/2026-11-28-2ecf-strong-hf-true-radial-material-clock.md)同g独立G11 .14343→.12051、图像保持；真实6615 XYZ形状继续。
 
 <!-- 2ecf-r266-ray --> [R266](results/R266-accurate-polar-ray-metric-and-radius-variation.md)：原侧射线单调高度时径向TV缺口>.19574768；已有XYZ通过高度转向绕开此前提，仍未全域等距。
 
@@ -68,6 +68,6 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 ## 工作位置与接续
 
-公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
+公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix及全部18552原尾已完，按完整实际场修正一ulp材料图接口后合成；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:03:00 UTC；已读公开 main `6565f666877ddd1a5bc03fe0b9e9a313f8906052`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:13:43 UTC；已读公开 main `33252b4026a7d3dc2689d04191136264e0d8425d`，根/课题 README 逐差无变化。
