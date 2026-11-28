@@ -564,3 +564,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §111：同两个固定Kronecker函数的三条完整除幂迹
 
 已证明：原B′p+1、B′2p+1、B′₃分别精确等于F₂/F₃在同一固定通用扩张上的Ξ、Ξ²、Ξ²D^(p−1)全标记迹；阶乘模p³补偿和原ν₀₂逐点项全部支付，未把四条相关行当独立不消失。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §112：原全域有限驯特化与固定有理序列的素数指标
+
+已证明：全部p>211惰性素数，真实系数I³提升在有限驯点特化为p³倍原完整Kummer单位。物理E₁₇严格LT及正确单位对数界给全Sha无限⇒m_p、m_{p²}、e_{p²}均被p整除，并给m_p/p+m_{p²+p−1}≡0。任一相应不整除即足够；跨p无穷非零仍缺。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
