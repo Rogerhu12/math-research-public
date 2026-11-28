@@ -256,3 +256,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:43 UTC — 真实owned session身份保持至全部后代清理
 
 新增课题外v3 workflow对应worker及helper，修正v2先poll/reap后丢失孙进程身份的实际失败支路；WNOWAIT保leader PID/start/SID/UID，先对原PGID/同SID已核pidfd清理，再wait/reap。一次明确人工生命周期小核真exit0：正常分支无信号，故意孤儿新PGID/忽略TERM经TERM→KILL清除后保leader原退出7；不称数学事件。root完整审helper与v3差异；数值方程/冻结树/原门不变，尚未dispatch。见 [记录](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)。
+
+## 2026-11-28 12:49 UTC — 真λ1原7a返回的独立来源/几何/mesh/活动矩接线
+
+原7a支持M≤64、真实动态mean与完整fullH/J/audit/8outer；其真实字段不同于memo loader，不能改标签。root逐行审新接受合同并对照原7a执行/来源/physical绑定，另审5个几何/半径/闭图/mesh/积分差异；保原代数、全模、原尾/heldframe/拓扑/大小门。最终physical-H是唯一尾输入，raw H不能替代；六源只准备、无真λ1输入或新增数值测试。真正fixed-g actual-DN仍需独立模型/原门，不以design外迭代冒充。见 [来源入口](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与 [mesh/矩接线](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)。
