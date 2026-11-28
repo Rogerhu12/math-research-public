@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar全旗/有限头图/同P最大根与真核心/P⁺紧支配保正文及快照。[定量同P](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)付逆log=r^(4+o1)及严格超r⁴；[整逆场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)付全旗quasi/最大核心/忠实闭包场，无该族根。[同P精确幂与Neumann预算](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)给log(-log||P^n||)/n^1.5→log16/48及解析逆对数任意1+ε；下界保同尾同柱，未知Q只继承上界。[正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)保全幂任意T，无格Q不外推。联合来源忠实性另证，继续场外Y²=CP²；旧AT/AM门不重开。
+原Haar全旗/有限头图/同P最大根与真核心/P⁺紧支配保正文及快照。[逆费用](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)为r^(4+o1)且逐平坦p超r⁴；[旧整逆场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)无根。[同P幂费](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)双log/n^1.5→log16/48、解析逆对数任意1+ε，未知Q仅上界。[联合解析场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)以L^q Jensen及真实同P逆付全旗quasi/最大图核心/忠实性；P超越旧场、e^P非旧场(P)，该联合场仍无根。[全幂正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)不外推无格Q。续场外复Y²=CP²，旧AT/AM门不重开。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
