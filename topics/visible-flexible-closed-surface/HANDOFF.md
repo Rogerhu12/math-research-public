@@ -6,13 +6,13 @@
 
 同一g上的连通闭C2嵌入连续族，点点固定有内H，按全闭面直径D：diamH/D≥.2、held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并在固定几何/g/相位范围上真正加密到原求解容差。基础完成后继续held/D≥.2、δE/D≥.05。原终值B=2e−9、旧实际L12>1.95883e−8沿[既有G5合成](notes/2026-11-10-78718-fixed-g-refinement-composition.md)，不另加stationarity或伪时间积分门。样本/normal/网格均不能替代完整终值。
 
-本轮部分clone后真实pull，已完整读根/题README、旧H/open并依索引读log/相关notes/results。根/题完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`；私根完整读于`db8c308d5df4b018c12e225e2267064403f20208`。私库QUEUE认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。私库最近真实pull 2026-11-28 08:19:11 UTC，已读`051364d2fc21702857df7b02dbdb4ec16e0d8d42`根差无变化、认领仍在。
+本轮部分clone后真实pull，已完整读根/题README、旧H/open并依索引读log/相关notes/results。根/题完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`；私根完整读于`db8c308d5df4b018c12e225e2267064403f20208`。私库QUEUE认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。私库最近真实pull 2026-11-28 09:18:06 UTC，已读`15fe66c4883af521488edf8ca0f9af680c9d6928`根差无变化、认领仍在。
 
-每次literal pull立刻看根/题README差，至少每小时；只读差并即时遵守，记本H。拒推立刻pull--rebase再推循环，不能force/改已发表历史。每完整结论一推。root独占main，代理只写同级scratch。Git只收源码/参数/小结论/哈希；完整可重算数组/报告/STL不入Git或Release。不写根LOG。H<10KB、单MD<100KB、open保持短；results.md已接近上限，不再追加。
+每次literal pull立刻看根/题README差，至少每小时；只读差并即时遵守，记本H。拒推立刻pull--rebase再推循环，不能force/改已发表历史。每完整结论一推。root独占main，代理只写同级scratch；2026-11-28按用户指令全部子代理显式用gpt-6.2-astra接续。Git只收源码/参数/小结论/哈希；完整可重算数组/报告/STL不入Git或Release。不写根LOG。H<10KB、单MD<100KB、open保持短；results.md已接近上限，不再追加。
 
 ## 继承事实，不重做
 
-原CI45847254548/45851669566/45857469750早已自然结束，均LSMR800/stop7，不是待返；H1有限几何已过，两fullH旧界失守不证明曲面失败。丢盘原输入已按原配方恢复，恢复不算优化。旧H/open及CI完整来源见 `notes/2026-11-28-2ecf-{handoff-inherited-20261126,open-inherited-history}.md`。[旧无缓存重演](notes/2026-11-28-2ecf-m12-obsolete-replay-cancelled.md)已取消130，六输入阶段保留；没有保存的旧field不重演。文献Hu2611.00534v1小幅周期未给本题比例；Ghomi2611.17269配对/不可数非刚性不自动给连续弯曲。
+旧CI均早已LSMR800/stop7自然结束；H1有限几何已过，两fullH旧界失守不证明曲面失败。原输入恢复不算优化。旧H/open及CI完整来源见 `notes/2026-11-28-2ecf-{handoff-inherited-20261126,open-inherited-history}.md`。[旧无缓存重演](notes/2026-11-28-2ecf-m12-obsolete-replay-cancelled.md)已取消130，六输入阶段保留；没有保存的旧field不重演。文献Hu2611.00534v1小幅周期未给本题比例；Ghomi2611.17269配对/不可数非刚性不自动给连续弯曲。
 
 ## M12原固定g：已保存实际场
 
@@ -29,7 +29,7 @@
 
 [G12/G14扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询保原g；旧[LM SIGKILL−9](notes/2026-11-28-2ecf-m12-g12-sigkill-and-preserved-input.md)无field，OOM无证。[单band核](notes/2026-11-28-2ecf-m12-one-band-complete-gram-fixture.md)通过后，[G12 04r1](notes/2026-11-28-2ecf-m12-g12-single-band-actual-field.md)6阶段全真0，field5778bee4…、独立/10730祖先union同峰，RSS1,563,640KiB。它仅积分加密。[G12自身全几何/三STL](notes/2026-11-28-2ecf-m12-g12-full-geometry-and-closed-meshes.md)亦真0，held/D>.052783098；原R249全局reach界未过而R253区域转移过，旧失守字段保留。
 
-M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整142784列，待共同独立观察；不是未返G12子场。随后按实际诊断做真物理h，保全部旧knots/source/祖先观察。[J落盘完整normal](notes/2026-11-28-2ecf-m12-disk-physical-normal-and-passive-span-probe.md)核已通过，不删物理行列。当前全域metric仍未到B；prefix/tail正在直接计算完整X+C+W的相关Gram，不能继续靠固定d0+三角界冒终值。全时间由原orbit解析覆盖。
+M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实际物理加密保原g、全源及祖先观察。当前B主证固定使用M48/G12场5778…，prefix/tail直接计算完整X+C+W相关Gram，不能靠固定d0三角界冒终值；全时间由原orbit解析覆盖。
 
 <!-- 2ecf-m12-diagnostic --> [实际nonlinear梯度被动核](notes/2026-11-28-2ecf-m12-actual-nonlinear-gradient-probe.md)已0；[准确query父链核](notes/2026-11-28-2ecf-m12-exact-query-extension-parent-chain.md)已0，新h必须保完整实际祖先身份；原活动入口冻结。
 
@@ -39,7 +39,7 @@ M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整1427
 
 ## 强幅度：完整密训练和独立观察
 
-完整12789位置列=87×147。旧稀G2已结束，完整[32父态扫](notes/2026-11-28-2ecf-polar-g2-final-steps-independent-sweep-and-dense-input.md)和[原位峰核](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)证实漏峰：warm20独立κ69268、σ.1217，不是缓存错。旧G3排序不借给新成本。
+完整12789位置列=87×147；旧稀G2/G3结论已归档，[独立真观察](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)证实漏峰，旧排序不借新成本。
 
 [G10源失败/恢复](notes/2026-11-28-2ecf-polar-G10-source-failure-and-primitive-audited-recovery.md)、[一致arc审计/分块恢复](notes/2026-11-28-2ecf-polar-consistent-arc-audit-and-split-source-recovery.md)均保真实失败和正式行。新[完整G10/四基线](notes/2026-11-28-2ecf-polar-G10-complete-source-four-baselines-and-parent-choice.md)958径点×(128+192)、4291840全行，prepared de75e963…，自身新R²选zero6=9.49114。[G11完整源/观察](notes/2026-11-28-2ecf-polar-G11-complete-source-and-six-actual-observations.md)668×256半格角，其中540径点不在G10；其[先前433行失败恢复](notes/2026-11-28-2ecf-polar-G11-source-failure-and-433-row-recovery.md)独立保留。G3进入训练后不再算径向独立。
 
@@ -56,8 +56,10 @@ M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整1427
 
 <!-- 2ecf-total-tail --> [原尾17478全cell](notes/2026-11-28-2ecf-m12-tail17478-correlated-total-Gram.md)×全角总Gram真0/61.084s，U<9.715674e−10<B。24原块准确核回，全V/W/真u保留，背景uniform余差单付；其余有限尾/内端闭合继续。
 
+<!-- 2ecf-background-depth --> [原背景depth8](notes/2026-11-28-2ecf-original-background-depth8-extension.md)已自然0，原36profile不变，仅补36个原剖面；完整72profile供全尾部使用。
+
 ## 工作位置
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:06:05 UTC；已读公开 main `d18ff02d19cf818e3bd7dd9c1f084cbd3aa93bf3`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:20:14 UTC；已读公开 main `645566f16c86519de4d0fd22a97d6d70fbe229be`，根/课题 README 逐差无变化。
