@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-common-flags-W-N1-slope-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-fifteen-two-column-first-input-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -184,17 +184,15 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [整个 u2 原纤维排除](results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md)用整 QQ λ23 域内原 Q 二次 gcd 中物理乘积平方为零，付当前碰撞图的 u−2。λ无穷、有限u支撑0/2及双无穷角没有随仿射排除删除。旧E37/QQ u-gcd门冻结。另 h1/k1 的 ≤6219 候选、ell 首一三次后的 ≤18657 权三元组及自由 t 仍开，5b2 旧门范围保快照。
 
-### W：全原均值的规范六生成元与未付值条件
+### W：全原均值、H198两生成图与完整值条件
 
-整个 D27/J19/λ3/2/G36 已闭，同一 F=Fp(S)全域唯一。原 qF(Fp)、六 Gram、q3/r2/R6、全部个别 N/P/NV 必须同点保留；Bi/H411/L1/A143/几何D/旧C13及新一次头零没有成为单位。首一S³三列环境不是仅权参数三点数界，旧十二原行/NS-NV的λ9/13、权头51/69与50/64等全部必要条件保快照；9105未执行不重派。
+整D27/J19/λ3/2/G36/K7已闭，Fp唯一、三原均值规则全W可用。[规范六生成元](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)及[原物理λ仿射身份](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)保留；χ首一λ6、精确十五行商、本原P8已付，330a六范数未返门冻。
 
-[规范头整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)已付全权rank4及15最大子式单位理想，具体1,λ,S,λ²,λS,S²全局生成。H265是QQ不可约总30次，k23首一的权局部化已付；e方向k+3未付，保所有原零支，不假任意几何局部化保持对权环有限。
+[全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W原native必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：全付六原规则/18乘法与55商积给P双度97/123、总164，包含整H265零；仅必要条件，未称不可约或排空。8222只rank4、7168只两步41商积且无det，两180秒门冻结；成功源和准确失败保正文/快照。
+[H198原N1坐标与首一平方](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)：178b真2.541453184秒，ΔN余QQ不可约H198（14,19；总25、198项）。整个H198零留；H≠0有双侧Z坐标和首一Z²全部I4迹，(1,Z)两生成但原商不冒称自由。新ecf383首次180秒/4GiB：将全部15原关系逐系数换为两列，含NS/PS四乘积；仅作N1*x/N1*y与NS/PS两对新常数cofactor，未付内容/λ头及H0均留，待实际返回。
 
-[整H265有限原环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)：e747固定p1009,k3的真实非零余式经Gauss及H不可约性付H∤P；整H0权长≤4920、均值≤29520。双二次七坐标≤118080，完整HA/HB与当前D≠0、ell−u单位使ζ唯一，原商≤59040。保全部重数与原值，Artin局部化只删分量，未判H空。
-
-[原物理λ四头](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)的双向坐标及完整仿射身份保留；共同降秩必落K7，现随整K7关闭，固定三原均值规则在全部余W可用。
+原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
 ### Phi：整 H1 已闭，转全图首头三生成与原值层
 
@@ -202,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [原NV/F6最高行与21生成图](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)：999ac真4.083557464秒/58608KiB/0，完整原NV7/F6/N1最高行秩依次1/2/3，最后Ce0五来源三系数返；C为78/52、2611项，仅剥已付Q及(Qell)²，C*为74/49、2403项。原L=βNV rNV+λβF6 rF6+λ⁵βN1 rN1给Cλ7低6/5/5，C*≠0有首一λ21和≤21权模生成，不假设自由；整C*=0是该表示例外而非原解必要方程。原P6在H19≠0图可首一6，故有限性剩余缺口限H19=C*=0完整交集，尚无gcd/投影；续原支持和个别NP，不重放旧bb35/P6/P9门。
 
-[整H1原图完整排除](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，QQ F5同点全原式/四cofactor、10整单位及原Dixon左核返；S418正则证F5|P201，真实φ5幂1识别整块，已付有限循环商与整点section使C5≅O5、D真0。合此前全部块，整H1含旧b0排空。旧Gram20零返回保持原历史，不重播。继续当前全Phi首头图的完整NV/个别NP、λ首项零及原权支持；一般D0碰撞图仍独立开放。
+[整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -216,10 +214,9 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 
 
-[整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的泛型唯一方向及a0/r1r0零、无穷和重根保留；当前有限原环境见上，不代个别值返回。
+
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
 一对加四独立[全九维S1已证](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)，原S2严格迹保正文。[指定原S2来源余量](results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md)：9f120真180.048256493秒，最大单独位减pair来源h的五闭域全部严格正，支付完整上下费用和交叉项；仅n1参数完成，零chamber返回，n2/3未到，rankone后门冻结。整个S2/七位glue、同W费用和原Haar不变格桥仍开；不拆n1续跑。
 
-整K7闭，全W三原规则、χ首一λ6/十五行商/本原P8保正文，330a六范数门冻。[原N1的H198曲线及两生成元](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)：178b真2.541453184秒，两个全图坐标身份及完整QQ分解返，ΔN=−e⁴(e+1)²H198/(288D_N)。H198是QQ不可约纯权曲线（14,19；总25、198项），整零图未付。仅H≠0有原双侧Z坐标、首一Z²的完整I4迹和(1,Z)两生成；原商不冒称自由。续完整NS/PS、个别值及整个H0；未付λ头、旧q3/r2/R6保留。

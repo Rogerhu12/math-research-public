@@ -7,12 +7,12 @@
 - **数据规矩8/15：** 本会话可重算编码/分片已从main移除，只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。旧输入仅终端临时读取，不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** c9df0b1778a4d56d4add15a39af7d289fc90489a（2026-11-28 00:18:55 UTC，Actions run46087183786实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46087183786-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 00:18:54 UTC/50bbc6ab4613f14b9fec6bc2c54e4c40262e6087，根README diff无变。公私均部分克隆blob:none。
-- **终端断开：** 约07:20 UTC起不可用，约22:00复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `05aaa27cd9d2683dbe72acdc906184d3112a3916`（2026-11-28 00:18:26 UTC）；只读检查不冒称实际pull。
+- **最近实际 pull / 已读规则提交：** a2d2798c54e07800f9665ec5ab71cd1973bfee81（2026-11-28 00:25:32 UTC，Actions run46087765779实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46087765779-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 00:25:29 UTC/8317a02b50dd7e380638fa7bd7c69c6308f7a2e6，根README diff无变。公私均部分克隆blob:none。
+- **终端断开：** 约07:20 UTC起不可用，00:03复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
+- **终端断开后远端已读：** `99c0924a78a0d3deffdc6a1b11591e5bd035623b`（2026-11-28 00:21:45 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-moving-finite-root-graph-obstruction-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-W-fifteen-two-column-first-input-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -29,7 +29,7 @@
 - S0/Lt0全闭：615次QQ覆盖与全部退化面；9d0c真163.601秒/0，源/回执/旧失败保总定理与归档。
 - 一般LS只续未付T/权面，旧D≠0排除不传h=k。P1双零整支已闭，仅付(Pf,Pt)非同时零；Delta0合法付Phi，原四值准确为首一二次/三一次，六投影值式与四Gram必要性不升级，原70017734/ea0ffae2完整来源保档。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **W整D27/J19/λ3/2/G36/K7闭，原λ三生成。** 旧P164/H265交权长≤4920、七坐标≤59040；χ首一6/十五行商/本原P8保正文，330a六范数门冻。[H198两生成元](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)：178b真2.541453184秒/0，原ΔN余QQ不可约H198（14,19；总25），整H0留；H≠0双侧Z坐标、首一Z²完整I4迹成。续完整NS/PS和H0，q3/r2/R6/个别NP/NV开。
+- **W整D27/J19/λ3/2/G36/K7闭，原λ三生成。** 旧P164/H265权长≤4920、七坐标≤59040，χ首一6/十五行商/P8保正文，330a六范数冻。[H198两生成](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)原ΔN与首一Z²全迹已付，整H0留。新ecf383首次180秒/4GiB：全15行转两列含NS/PS四乘积，两固定原对cofactor，未付内容/头全留；待返，个别NP/NV继续。
 - **Q=1−u整个原图已闭，全局付u+Q−1。** 全QQ/模根/三整域返回、准确源和冻结失败保总证及归档。
 - **旧D≠0值图等权b=c全闭，仅该图付ell−u；W另付k+2/Q−2。** 824次覆盖及末m半QQ单位保总定理/归档，旧600秒门不重放。
 
