@@ -1,0 +1,177 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "date": "2026-11-28",
+  "scope": "corrected Phi, original D nonzero, entire alpha zero excluded",
+  "run_id": "46132362524",
+  "job_id": 140940111592,
+  "elapsed_seconds": 0.43317033800000004,
+  "max_child_rss_kib": 42736,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "6a4c3649fba8e7259c9672f88c10ff6d1c7dc7b0",
+      "before": "6a4c3649fba8e7259c9672f88c10ff6d1c7dc7b0",
+      "rules_git_blobs": {
+        "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T09:50:58.229414+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "6a4c3649fba8e7259c9672f88c10ff6d1c7dc7b0",
+  "source_exit_code": 0,
+  "source_git_blob": "eb6c92dcc2b5c1395cebfaaca4024bed9b9b523d",
+  "source_sha256": "610fec2409090215538d62bf9f701b399ac2dcf72b9f2d6760319d1eb4f4168e",
+  "stdout_bytes": 7536,
+  "stdout_sha256": "3422d552ff6a27a99eea6730844533c7ed2848bfdca9f1bfa786af77a4806c1f",
+  "stop_reason": null,
+  "mathematical_last_seconds": 0.3639760350000003,
+  "complete_factorization": [
+    {
+      "factor": {
+        "coefficientBytes": 8,
+        "degree": 1,
+        "sha256": "65262326e5ebbb4b87059ad3110cca2a0bc7a9222c93ac25c558dee70e3c011e"
+      },
+      "multiplicity": 12
+    },
+    {
+      "factor": {
+        "coefficientBytes": 10,
+        "degree": 1,
+        "sha256": "a112131a39c07f36a12be19f4ef549f7f5c85961c5183c953ec95ef7351ed967"
+      },
+      "multiplicity": 24
+    },
+    {
+      "factor": {
+        "coefficientBytes": 71,
+        "degree": 6,
+        "sha256": "dcca3f220315ca19e76de8d28b4fa3732f406fcf827f49af2bf9429e25a7b4ca"
+      },
+      "multiplicity": 1
+    }
+  ],
+  "factor_names": [
+    "u-2",
+    "u-3/2",
+    "monic degree-six U42 quotient"
+  ],
+  "same_Q_gcd_degree_chains": [
+    [
+      9,
+      4,
+      4,
+      4
+    ],
+    [
+      9,
+      4,
+      4,
+      4
+    ],
+    [
+      9,
+      1,
+      1,
+      1
+    ]
+  ],
+  "whole_factor_results": [
+    {
+      "factor": {
+        "coefficientBytes": 8,
+        "degree": 1,
+        "sha256": "65262326e5ebbb4b87059ad3110cca2a0bc7a9222c93ac25c558dee70e3c011e"
+      },
+      "factorIndex": 0,
+      "newCompleteNormalizedPointUpperBound": 0,
+      "newWeightPointUpperBound": 0,
+      "paidPrimaryRemovalSteps": 1,
+      "reason": "all same Q components violate original units",
+      "seconds": 0.33256781000000046,
+      "stage": "new_alpha_constant_fiber_result",
+      "statistics": {
+        "VProductCoordinateReturns": 0,
+        "constantInverseReturns": 9,
+        "denominatorInverseReturns": 0,
+        "newColumnCombinationCoordinates": 0,
+        "newTargetCombinationCoordinates": 0,
+        "qBezoutReturns": 5,
+        "qShortDivisionReturns": 13
+      },
+      "wholePhysicalFiberExcluded": true
+    },
+    {
+      "factor": {
+        "coefficientBytes": 10,
+        "degree": 1,
+        "sha256": "a112131a39c07f36a12be19f4ef549f7f5c85961c5183c953ec95ef7351ed967"
+      },
+      "factorIndex": 1,
+      "newCompleteNormalizedPointUpperBound": 0,
+      "newWeightPointUpperBound": 0,
+      "paidPrimaryRemovalSteps": 1,
+      "reason": "all same Q components violate original units",
+      "seconds": 0.3418633530000008,
+      "stage": "new_alpha_constant_fiber_result",
+      "statistics": {
+        "VProductCoordinateReturns": 0,
+        "constantInverseReturns": 10,
+        "denominatorInverseReturns": 0,
+        "newColumnCombinationCoordinates": 0,
+        "newTargetCombinationCoordinates": 0,
+        "qBezoutReturns": 5,
+        "qShortDivisionReturns": 13
+      },
+      "wholePhysicalFiberExcluded": true
+    },
+    {
+      "factor": {
+        "coefficientBytes": 71,
+        "degree": 6,
+        "sha256": "dcca3f220315ca19e76de8d28b4fa3732f406fcf827f49af2bf9429e25a7b4ca"
+      },
+      "factorIndex": 2,
+      "newCompleteNormalizedPointUpperBound": 0,
+      "newWeightPointUpperBound": 0,
+      "paidPrimaryRemovalSteps": 1,
+      "reason": "all same Q components violate original units",
+      "seconds": 0.36391430299999783,
+      "stage": "new_alpha_constant_fiber_result",
+      "statistics": {
+        "VProductCoordinateReturns": 0,
+        "constantInverseReturns": 13,
+        "denominatorInverseReturns": 0,
+        "newColumnCombinationCoordinates": 0,
+        "newTargetCombinationCoordinates": 0,
+        "qBezoutReturns": 5,
+        "qShortDivisionReturns": 16
+      },
+      "wholePhysicalFiberExcluded": true
+    }
+  ],
+  "original_paid_support": "u*Q*(1-Q)*(u-1)*K*L*Mn*A*(u*Q-L)*theta",
+  "every_whole_gcd_divides_original_paid_support": true,
+  "entire_alpha_zero_excluded": true,
+  "whole_Phi_excluded": false,
+  "V_matrix_stage_entered": false,
+  "positive_D_target_stage_entered": false,
+  "pre_execution_block": {
+    "run_id": 46132031771,
+    "job_id": 140939093888,
+    "utc": "2026-11-28T09:46:39.717616+00:00",
+    "stage": "driver.pull_and_read_rules, before mathematical Popen",
+    "error": "RuntimeError: README changed: root must read exact differences before continuing",
+    "source_started": false,
+    "mathematical_exit_code": null,
+    "mathematical_receipt": false,
+    "old_rule_baseline_updated_after_root_read_actual_differences": true,
+    "mathematical_source_unchanged": true,
+    "resource_budget_unchanged": true
+  },
+  "no_coefficient_payload_saved": true
+}
