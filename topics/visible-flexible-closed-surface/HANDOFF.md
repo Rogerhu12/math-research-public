@@ -34,7 +34,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-<!-- 2ecf-live-stadium --> [R301 核相似与真实平盘重裁](results/R301-core-only-similarity-and-exact-flat-recut-with-unscaled-caps.md)，完整帽尺度另定；真新核与原平环六 jet、完整 G10/G11 和独立点对均已核验。 R301 精确：只放大整个平盘闭核且用原半径重裁、原尺度 R293 真帽。实 λ=1.1、额外 .032 平环及近0.9亿独立切球最小 .10078938，metric .23973529 尚远。
+<!-- 2ecf-live-stadium --> [R301 强形状上的真实正径向新度量](notes/2026-11-28-2ecf-scaled-stadium-new-positive-radial-metric.md)，64 个完整参数、全原行及独立新材料比较。 R301 真实空间冻结、64 个径向正目标参数重设，新 S 增 .00339061223，独立 metric .23973529→.15807610，近对与 held 的空间像完全同一。 连续厚度尚待，后续真实2400XYZ继续。
 
 <!-- 2ecf-r285-loop --> [R285](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md) 支付真实全尾到中央的非刚性二次模闭合。回路总高可调，小幅真实图误差为正二次量，消去该项及强尺寸指标仍待。
 
@@ -58,4 +58,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:29:54 UTC；已读公开 main `c6042e9d5bdbc46a169a749a8ad9744da22a2f88`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
