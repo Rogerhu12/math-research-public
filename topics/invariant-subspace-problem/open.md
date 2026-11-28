@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头给1,T,z非自由，旧错链/bf3冻；当前D非零t0/A0闭，fd9保B/G。[整B十二×二](results/R150-appendix-unit211-Phi-zero-true-Bzero-whole-original-I6-twelve-by-two.md)含H3零，C2已排；a15c末JSON失败保。新780d1.547025秒/0给315次必要权覆盖，整零纤维保；b8cfe整fu单y0.207064秒/0，三cofactor同一(6,3)曲线，未付有限/空，正式核稿中。[fu整u=3/2](results/R150-appendix-unit211-Phi-zero-fu-entire-u-three-half-original-exclusion.md)已闭，只有fu付2u−3。
+真四头给1,T,z非自由，旧错链/bf3冻；当前D非零t0/A0闭，fd9保B/G。整B十二×二含H3零、C2已排；[真C315原理想覆盖](results/R150-appendix-unit211-Phi-zero-true-Bzero-C315-original-ideal-weight-cover.md)780d1.547025秒/0，C^22∈I6，至多315不同权点，全部原λ/f/t纤维保，未排空；a15c末JSON失败保。b8cfe整fu单y.207064秒/0，三cofactor同(6,3)曲线，未付有限/空，核稿中；fu整u3/2已闭，仅fu付2u−3。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

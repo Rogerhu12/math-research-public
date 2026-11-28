@@ -1,0 +1,90 @@
+{
+  "schema": "isp-correct-Phi-whole-B-C315-original-ideal-cover-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46116342060,
+  "job_id": 140890933158,
+  "source_commit": "7bf3f16bc523bca10b395570a1bb632916b8966c",
+  "source_git_blob": "780d2b77b58853a60a44ad324498c83cc24d3cf0",
+  "source_sha256": "d92d18281bc185205073c600e588f99cd7f8d53ac2d2aaf0833fc738a7683e63",
+  "source_bytes": 10017,
+  "source_exit_code": 0,
+  "elapsed_seconds": 1.5470253340000006,
+  "max_child_rss_kib": 43412,
+  "resource_seconds": 120,
+  "resource_memory_bytes": 1073741824,
+  "stdout_bytes": 4931,
+  "stdout_sha256": "9b22881f84ab3fb438033f355b15f8e61ed8e083cfd64141429e66fe3682156d",
+  "rules_reads": [
+    {
+      "after": "ba9c766f01c2b90166a7f5c0b86c058e490f4a89",
+      "before": "7bf3f16bc523bca10b395570a1bb632916b8966c",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T06:23:14.630325+00:00"
+    }
+  ],
+  "actual_result": {
+    "allEdgeTwoCoordinateReturns": true,
+    "annihilatedOriginalUnitPower": 0,
+    "clearedDAGExponent": 22,
+    "everyRetainedWeightZeroFiberKept": true,
+    "exactDAGNodes": 97,
+    "finalTwoCoordinateReturn": true,
+    "genericQuotientDimension": 0,
+    "noPhysicalDInverted": true,
+    "ordinaryISPClaim": false,
+    "paidPartTimesRetainedCoverReturned": true,
+    "pureXDenominatorLCM": {
+      "degrees": [
+        344,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "e4e0d4f52477c7b7cb5eb8f5a8ebfc0626bd93901dda3dae9a10826bf86e1b6c",
+      "terms": 339
+    },
+    "reachableDAGNodes": 24,
+    "retainedUnpaidCover": {
+      "degrees": [
+        315,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "f9d865032e9c7e22851ca083b939729970e6d57a3c285d4edc010eeb29636b4f",
+      "terms": 316
+    },
+    "seconds": 1.5119097499999974,
+    "stage": "new_B_actual_original_positive_unit_cover",
+    "statistics": {
+      "edgeCoordinateReturns": 170,
+      "fullPolynomialDivisions": 304,
+      "originalOmegaShortDivisions": 2,
+      "seedCoordinateReturns": 24,
+      "targetCoordinateReturns": 2,
+      "zeroRowCoordinateReturns": 20
+    },
+    "strictOriginalConclusion": "retained_cover^N*(lambda*t*Dval)^n belongs to the correct original I6 in the stated paid ring",
+    "wholeBExcluded": false,
+    "wholePhiExcluded": false
+  },
+  "originalInputRows": 12,
+  "weakPopovBasisDegrees": [
+    0,
+    0
+  ],
+  "leadingCancellations": 95,
+  "targetPower": 0,
+  "strict_original_conclusion": "C(x)^22 belongs to the corrected original I6 over the previously paid B weight ring; degree(C)=315",
+  "different_u_Q_weight_point_bound": 315,
+  "complete_geometric_point_bound": null,
+  "all_C_zero_fibers_retained": true,
+  "no_new_positive_unit_assumption_needed_for_n_zero": true,
+  "ordinary_ISP_claim": false
+}
