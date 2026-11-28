@@ -16,7 +16,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-index-before-hk-Artin-scope-first-W-three-fields-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-before-hk-unique-Q-1860-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：独立P判别式、同Q唯一约化与2394维Artin包络](results/R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md)：首次0.053066027秒/0，新112次判别式QQ因子最高31，故两个谱域的P可分；原四阶Q结式的旧支持全为DVR单位，Smith一阶赋值给同Q gcd恰一次。必要权基≤399约化，比值/Gram包络≤2394，另添U0≤7182；未计算显式u/Q或原八z，未判空。
 
 - [R150：整个W/b0的原t参数首一λ二次与精确两列环境](results/R150-appendix-unit211-W-entire-b0-original-t-parameter-monic-lambda-two-and-exact-I4.md)：纯权原三均值组合直接给λ²−a(t)λ−b(t)，t度1/2；保一般W的−bcΦt恢复项及既有整Lhalf付款，与旧(λ,f)图双向。原I4八行、I6十二行均在首一环境中精确，原商不假定自由；无新执行或排空主张。
 
@@ -77,13 +81,3 @@
 - [R150：F99 首次整个常数域 u-gcd 的真实截止与冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)：180.077303773秒118780KiB/−14；仅原P单式三次规范化完成，联合P/M gcd与后继均未返，整个F99/F300保。
 
 - [R150：正确 Phi 的两六次首项及 434 个共同权支持](results/R150-appendix-unit211-Phi-zero-corrected-two-sextic-heads-434-common-weights.md)：实际2.242327711秒/0，两整QQ残余互素；用独立全图u单位去除u后，H31/H14给≤434权长度。所有特殊权原纤维保留，界外固定权长度≤18。
-
-- [R267：固定共同分子、实际分母与奇倍率切口收缩](results/R267-appendix-fixed-numerator-actual-denominators-and-odd-cut-contractions.md)：YN QN=Pt、DN QN²=C⁻¹P2t；奇倍率有收缩比值及强*误差。若实际QN有强子列极限即构原闭稳定根，原even费用与强紧性仍开。
-
-- [R150：全 W 同一个 f 的纯 lambda,T 原 I6／I11 与 b0 23088 点](results/R150-appendix-unit211-W-pure-weight-f-head-exact-lambda-T-original-ideal.md)：已付整头给双向原理想，整个Vlow由N5精确替换且无D逆；整b0规范不同点5772×2×2，旧46176保。首次新同f十一式与F99原纤维分开执行。
-
-- [R150：W 原 I4 六行、整个 f 头支付及唯一恢复](results/R150-appendix-unit211-W-original-I4-six-rows-entire-paid-f-head-and-unique-recovery.md)：2.732694879秒/0，原hf+a全返回；两个剩余因子精确为2e+1与旧整G36，支付后整W唯一f=−g及四纯值坐标原条件成立。三pair/三norm全返，均不冒称充分或空。
-
-- [R150：正确 Φ 的整个 α=0 原支排除](results/R150-appendix-unit211-Phi-zero-true-entire-alpha-zero-original-exclusion.md)：0.433170338秒/0，U42完整1/1/6三QQ域同Q gcd为4/4/1，全部整除原已付单位；12/24重数经幂零提升保全，当前物理D非零图可支付α。
-
-- [R150：正确整个 Φ 的精确十五列 I6 与两原六次](results/R150-appendix-unit211-Phi-zero-corrected-whole-original-I6-fifteen-by-three-and-two-sextics.md)：2.910171339秒/0；完整NSPS、两个原overlap与四动作缺陷给准确商同构，两六次原cofactor保全部头零；任一头开图上的原必要代数十八生成。
