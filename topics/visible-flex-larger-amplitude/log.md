@@ -163,3 +163,7 @@
 ## 2026-11-28 12:34:44 UTC — 33 半步完整reach拒绝与四分之一步实际启动
 
 半步8e3194c153c542c010e1f54cb0f0b4b0d24b8f1f6da3d3a288215630f4771cb0的完整最大族reach费用7.789641579575506、trial_accepted=false；原Phi705.3748228317756/Gram.4078179189091087不变。随后alpha.25真实点1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e于12:28:56Z开始，统计/完整几何尚未返。accepted_directions=0，当前仍原7e06；不冒新可行点，不启动pure。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-section16-retry.md)。双README云核至`18a4d39be1e73f6a249fe6c20cc51cd4ab8c486c`无变（非pull）。
+
+## 2026-11-28 12:34:55 UTC — 34 首个恢复全步实际统计返回
+
+alpha1试探点b36a1d76718f3a4679bd75fb6cf879ad8b7f7b702253b3b5a28328b25300e1e3于12:02:31Z真实返回Phi94493.88817291798、Gram6.837434750273205。完整试探几何/接受与否仍未返；当前仍原7e06、accepted0，原初始完整reachg4033.8205903217813/K33159.051287192604不借给trial。全部原预算不改，自然science结束才whole pure。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R730-R729-run34-complete-launch.md)。双README云核至`faa3b92e2ee6c9c8e475bb2d1689b2882dae6b75`无变（非pull）。
