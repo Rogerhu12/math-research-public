@@ -462,3 +462,10 @@ R1066 N1–19从原严格c_q恒等式固定c1^Δ/p^p的Teich部分为1，保真�
 针对v13真实A0 MD瓶颈，新隔离helper以固定Sage10.6官方完整HNF返回实际U·MD=H与全部反向余数；同一次原Y完整preimage后，以C·H=Y·MN、X=C·U、X·MD=Y·MN返回同一完整配对图。仅A0/A1 y0两个标签使用，F_y真实旧attached-HNF门不改。七组全X/Y/HNF/厚长比较、十拒绝及原绑定/scalar兼容已请求固定27源公开软件检查，未返不记PASS。新回执明确旧算法未执行，未预报rank306性能或数学终门。
 
 [完整实现证明、源码与范围](notes/2026-11-28-original-whole-denominator-software-and-production.md)。
+
+
+### 同一分母软件的真实失败及私有副本修补
+
+原分母软件v1 run46111621787/job140876205973真实failure：首个新image在反序前因Sage矩阵不可变拒绝，未得到PASS。v2仅将私有scratch/快照改为明确copy，checker另核caller mutability与真实不同对象；全部完整图、十拒绝及原F/scalar门保留。固定27源/420秒新请求已发，生产v15仍未活动。
+
+[完整记录与新源码hash](notes/2026-11-28-original-whole-denominator-software-and-production.md)，§6。

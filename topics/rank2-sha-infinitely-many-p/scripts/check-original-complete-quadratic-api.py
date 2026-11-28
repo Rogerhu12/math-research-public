@@ -49,8 +49,8 @@ def _dispatch_fixed_request():
     elif kind == "original-function-field-denominator-return-software-check":
         check_name = "check-original-function-field-denominator-return.py"
         binding_name = "original_function_field_denominator_return.py"
-        check_sha = "266e53526f771bf7746fe97f5a9006a8980cdf8a676c83e01b932ee5f719a013"
-        binding_sha = "11875739148b591c1b4faf725d13970682bc7e8af6bf613a26e1e55a56fd9242"
+        check_sha = "07b8e39757e998a91b64c2114253ec6072ebdb19ab53aeed58b3dea625c090eb"
+        binding_sha = "0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or

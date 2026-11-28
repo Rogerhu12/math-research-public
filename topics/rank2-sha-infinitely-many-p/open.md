@@ -118,7 +118,7 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。下一同一MD的完整U/坐标复用仅准备，全部原F_y专门验收保留，当前无heavy。
 
-[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件比较须消费真实回执，随后接下一唯一heavy；不扩大资源或以稀疏/半单影子代全非约化行模。
+[完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1在私有矩阵反序因immutable失败，v2显式copy并核输入状态；须消费新真实回执，随后接下一唯一heavy；不扩大资源或以稀疏/半单影子代全非约化行模。
 
 软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 

@@ -30,7 +30,7 @@ import original_scalar_base_divisor_support as scalar_support
 HERE = Path(__file__).resolve().parent
 STARTED = time.monotonic()
 SOFTWARE_TIME_BUDGET_SECONDS = 420
-DENOMINATOR_HELPER_SHA256 = "11875739148b591c1b4faf725d13970682bc7e8af6bf613a26e1e55a56fd9242"
+DENOMINATOR_HELPER_SHA256 = "0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4"
 OLD_FIXTURE_NAME = "check-original-scalar-base-divisor-support.py"
 OLD_FIXTURE_SHA256 = "3dd124a953a0a5dc160dd35a3a6ef6a04af11cf0231a947b32053cec40af297c"
 SCALAR_PRIMARY_SHA256 = "d8d4f90b667d2d66346636e69d764207c84de1ebb5d82c4cfa55d4ca7a87c7d3"
@@ -75,14 +75,16 @@ def compare_full_graph(name, N, D, expected_H=None, expect_descent=None,
                        numerator_nonsingular=True):
     deadline()
     R, n = D.base_ring(), D.nrows()
-    original_N, original_D = matrix(R, N), matrix(R, D)
+    original_N, original_D = copy(N), copy(D)
     old_X, old_Y, old_receipt = fast.ORIGINAL_GRAPH(
         N, D, progress=quiet, label="software reference "+name)
     before = len(fast.denominator_return_audit())
+    original_mutability = (N.is_immutable(), D.is_immutable())
     new_X, new_Y, new_receipt = fast.paired_graph_with_same_denominator_image(
         N, D, progress=quiet, label="software official "+name)
     assert len(fast.denominator_return_audit()) == before+1
     assert N == original_N and D == original_D
+    assert (N.is_immutable(), D.is_immutable()) == original_mutability
     assert new_X == old_X and new_Y == old_Y
     assert new_X*D == new_Y*N and old_X*D == old_Y*N
     assert new_Y.is_hermite()
@@ -150,6 +152,7 @@ def compare_full_graph(name, N, D, expected_H=None, expect_descent=None,
         "entire_Y_equal_to_original_paired_graph": True,
         "whole_saturated_graph_equal_by_same_canonical_Y_and_unique_X": True,
         "every_original_source_coordinate_retained": True,
+        "input_mutability_unchanged_by_new_return": True,
         "numerator_operator_sha256": ideal_tools.polynomial_matrix_digest(N),
         "denominator_operator_sha256": ideal_tools.polynomial_matrix_digest(D),
         "full_X_sha256": ideal_tools.polynomial_matrix_digest(new_X),
@@ -367,14 +370,14 @@ def main():
         require_rejection(lambda: fast.verify_complete_denominator_return(
             D, H, identity_matrix(R, 3)), "wrong_complete_transform"),
         require_rejection(lambda: session.divide(
-            matrix(R, D), H, progress=quiet), "different_denominator_object"),
+            copy(D), H, progress=quiet), "different_denominator_object"),
         require_rejection(lambda: session.divide(
             D, identity_matrix(R, 3), progress=quiet), "nonintegral_full_source"),
         require_rejection(lambda: session.divide(
             D, identity_matrix(wrong_ring, 3), progress=quiet), "wrong_source_ring"),
     ]
     # A same-object mutation is also rejected; no hash-only admission is used.
-    mutable_D = matrix(R, D)
+    mutable_D = copy(D)
     mutated = fast.SameDenominatorImageSession()
     mutated.image(mutable_D, progress=quiet, label="software mutation refusal")
     mutable_D[0, 0] += 1

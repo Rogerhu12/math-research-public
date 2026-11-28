@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线或条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非FF立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，只留脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。
-[整理前完整H](notes/2026-11-28-handoff-before-v13-terminal.md)逐字保存全部旧参数、结论边界、失败与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
+[整理前完整H](notes/2026-11-28-handoff-before-denominator-workspace-fix.md)逐字保存全部旧参数、结论边界、失败与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140875615341，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 05:17:37 UTC实际partial clone/pull至19f7a05ff66b0bb6038f8eb2237409a17c9b3c6b。根/课题已读blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 05:17:43 UTC实际至bfe95e2d6be57102eec6a58fcceeecbf976e3e17。根/课题已读blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与05:12已读版相同。QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际heads不以旧request baseline替代。
-- 日志14889B/hash77248820129e31e3a9cce1cc85293f9a9dadb2b239f76afa483116818414e7f5；完整库存3190blobs/45271839B，tree1629553fc4ad39f90ee6cba49e5a9bd59d41eb25，无>5MB，三旧必要gzip未变。
-- 每推前新pull；最迟06:17UTC再拉两库。旧run第50attempt startup_failure不冒pull；现run workflow逐字相同。非FF立即实际pull --rebase、检查差异再推，不force。
+readonly run46073965457/job140876684554，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 05:22:07 UTC实际partial clone/pull至30da3bbaaf7282b565986876be1fdc7d80dece23。根/课题已读blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 05:22:12 UTC实际至bb579f0f8b3be9c7323c05a94023380ece571046。根/课题已读blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与05:17已读版相同。QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际heads不以旧request baseline替代。
+- 日志14887B/hash060d958704ee1138cdda80fa818ab63393629d6d4d57a3405b2a399682b846c9；完整库存3193blobs/45327408B，tree55a0f86ba676e30744afa18fa5f2414e0e9816cd，无>5MB，三旧必要gzip未变。
+- 每推前新pull；最迟06:22UTC再拉两库。旧run第50attempt startup_failure不冒pull；现run workflow逐字相同。非FF立即实际pull --rebase、检查差异再推，不force。
 - 本地自2026-11-27 07:20失联，最近2026-11-28 04:28:58实际pull仍无环境；末本地07:12至1cf10ac。API/实际CI pull/本地分记。
 
 ## v13 真实终态、软件 v2 与下一完整分母返回
@@ -24,7 +24,7 @@ readonly run46073965457/job140875615341，source3bd753e5d0f0cd071d0ba615c9774695
 T完整零/极1836、v完整零/极612已返；九个非零scalar-base阶段全部保非约化维数及各四closed components：T正3×612、负有限2×612、负无穷612，v正2×306、负无穷612；108尖点/54分支原断言已过。**最终八条使用审计、四交、一般Norm、18×9、九对/all-requested未返。**
 实际瓶颈是A0 y0的MD完整Hermite：rank306、次数16，初次整Popov仅28.729s/detdegree3670；逐列重置tail到189/306，41770410次add/15143s，未完成。两char0 pins、65源、29/2453/64/minimal/artinian及全部原门不变；当前无heavy。
 [R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)全U/V的scalar-primary软件v1/v2均真PASS。v2 source2f48aae169de25457b405bb313fdb1d081c372a3/run46109939554/job140871011216，05:00:12UTC返回；新结果82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。68.862840787s、rank30632.021213060s，六对照/五拒绝/旧七组及实际projector包装器均通过；未执行原生产main。详见[软件记录](notes/2026-11-28-original-scalar-primary-software-and-production.md)。
-[同一分母软件请求](notes/2026-11-28-original-whole-denominator-software-and-production.md)已发布：固定Sage10.6官方reversed_hermite_form返回完整H=U·MD与动态全余数；原Y=preimage(H,MN)，同一次H返回C·H=Y·MN，X=C·U并完整核X·MD=Y·MN。仅原A0 y0/A1 y0 direct endpoint标签用此法，各原finite/∞全保；F_y下游要求原MD^T附加HNF，仍走旧graph/原验收。只改单次两callsite，不作跨矩阵缓存或伪造reduction。固定27源/420秒检查含七组全图、十拒绝及scalar兼容，未返不记PASS。下一v15候选保65旧pins+4新/两char0及全门；先消费软件再接唯一heavy。
+[同一分母软件](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 source80bf30b3ea0382e8ee0871ce7f57d286aa37630b/run46111621787/job140876205973，05:20:55UTC在首个image反序因immutable失败，未返HNF/PASS。v2显式copy私有scratch/快照并核caller状态；helper22771B/0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4，固定27源/420秒请求已发。仍实际H=U·MD/全余数、原Y preimage、CH=YMN、X=CU及XMD=YMN；只两A0/A1标签，各finite/∞保留，F_y继续真实旧attached-HNF门。七组全图/十拒绝/scalar兼容均保；v15候选69源保65旧pins/两char0/原输入和全门，须先消费新软件回执。
 
 ## 已付实际来源及主要缺口
 

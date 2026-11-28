@@ -52,7 +52,7 @@ image仍返回H,None,receipt，原attached is None断言不改。新division回�
 
 输出固定为RANK2_FUNCTION_FIELD_DENOMINATOR_API_RESULT及RANK2_FUNCTION_FIELD_DENOMINATOR_API_SHA256。实际PASS仍须消费；未返回不记PASS。
 
-## 5. 源码、官方来源与本次同步
+## 5. 首次提交源码、官方来源与当时同步
 
 官方固定源码：[Sage10.6 function-field Hermite](https://github.com/sagemath/sage/blob/10.6/src/sage/rings/function_field/hermite_form_polynomial.pyx)，git blob cec29e022e3e699d1a3d0b555fbee83647c9fb6c，6979B/SHA256 e5ebac6e452f93aa85657c3c13671dc12468230c3aa975a414c3a1795464b63f。root已全文核实际操作与U返回。[矩阵反序API](https://doc.sagemath.org/html/en/reference/matrices/sage/matrix/matrix0.html#sage.matrix.matrix0.Matrix.reverse_rows_and_columns)只用于准确实现上述J操作。
 
@@ -64,3 +64,21 @@ image仍返回H,None,receipt，原attached is None断言不改。新division回�
 | original-complete-quadratic-api-request.json | 3041 | fc7c246d0f4f6452eba4a1589efdfb6b77e29d9780fc17a8d47e79411161880d |
 
 固定request2026-11-28-original-function-field-denominator-return-v1，共27源码。推前actual run46073965457/job140875615341：公开2026-11-28 05:17:37 UTC至19f7a05ff66b0bb6038f8eb2237409a17c9b3c6b，私库2026-11-28 05:17:43 UTC至bfe95e2d6be57102eec6a58fcceeecbf976e3e17；四README与05:12已读版同blob，QUEUE本会话认领未变。日志14889B/hash77248820129e31e3a9cce1cc85293f9a9dadb2b239f76afa483116818414e7f5；库存3190blobs/45271839B/tree1629553fc4ad39f90ee6cba49e5a9bd59d41eb25，无>5MB，三旧必要gzip未变。只保脚本、参数、run/hash与必要原输入，不存可重算日志/矩阵。
+
+
+## 6. v1 的真实软件失败与 v2 私有工作矩阵
+
+[公开run46111621787](https://github.com/Rogerhu12/math-research-public/actions/runs/46111621787)/job140876205973，source80bf30b3ea0382e8ee0871ce7f57d286aa37630b，于2026-11-28 05:20:55 UTC在首个非素域fixture的新image入口失败。固定selector、源码hash、官方库元数据/版本与native准备已通过；reversed_input.reverse_rows_and_columns()实际抛ValueError：matrix is immutable。完整日志25225B/hash4f9ba0e727e98074d36e26d81b813be6d259559aff6c94678d174f0902778fe4，不入仓。没有新HNF完整返回或软件PASS。
+
+原因是Sage的同环matrix(R,M)构造在此保留不可变状态，不能把它当私有可变副本。v2显式使用copy(rows)作独立快照，核对象不同后只冻结该快照；work、reversed_input、H_native、U_native和同环返回均用copy。反序前明确核私有工作矩阵可变。原算术、官方算法、每项U/余数/HNF/CH/XMD门完全不改。
+
+checker的输入快照、故意不同对象及可变修改用例也改用copy，并在每次新graph调用前后核输入mutability不变。七组比较、十拒绝、原F路径及scalar兼容全部继续，未删除失败用例。v2仍27源/420秒固定公开请求，未回执不记PASS。
+
+| v2 文件 | 字节数 | SHA256 |
+|---|---:|---|
+| original_function_field_denominator_return.py | 22771 | 0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4 |
+| check-original-function-field-denominator-return.py | 21827 | 07b8e39757e998a91b64c2114253ec6072ebdb19ab53aeed58b3dea625c090eb |
+| check-original-complete-quadratic-api.py | 9947 | d1a02a57c7be6acb3108fae9f788de6038dd557fc91f30d4267c368a11fc25aa |
+| original-complete-quadratic-api-request.json | 3680 | 16033ed5cc6575b5ab6b52aab4991abf200cd6530db6d8232e6f332bfb37b8e1 |
+
+request为2026-11-28-original-function-field-denominator-return-v2-private-mutable-workspaces。推前实际双pull run46073965457/job140876684554：公开2026-11-28 05:22:07 UTC至30da3bbaaf7282b565986876be1fdc7d80dece23，私库2026-11-28 05:22:12 UTC至bb579f0f8b3be9c7323c05a94023380ece571046；四README与05:17同blob、QUEUE未变。日志14887B/hash060d958704ee1138cdda80fa818ab63393629d6d4d57a3405b2a399682b846c9；库存3193/45327408B/tree55a0f86ba676e30744afa18fa5f2414e0e9816cd，无>5MB，三旧必要输入不变。原H逐字保于[本次归档](2026-11-28-handoff-before-denominator-workspace-fix.md)。当前无heavy；下一v15所有helper pins同步此真实修补版本后，仍须先消费软件回执。

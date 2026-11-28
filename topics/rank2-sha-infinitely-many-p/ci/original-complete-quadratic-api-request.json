@@ -1,11 +1,11 @@
 {
-  "request_id": "2026-11-28-original-function-field-denominator-return-v1",
+  "request_id": "2026-11-28-original-function-field-denominator-return-v2-private-mutable-workspaces",
   "kind": "original-function-field-denominator-return-software-check",
-  "reason": "Compare the entire polynomial paired graph with the untouched original implementation, using Sage 10.6's official function-field reversed Hermite routine with its actual full U matrix. Verify U*MD=H and every original row's exact dynamic remainder, then use the same H/U in this graph only: C*H=Y*MN, X=C*U, X*MD=Y*MN. Keep the original complete preimage, all source coordinates and full nonreduced lengths. Exercise nonprime quadratic coefficients, nontrivial polynomial transforms, exact prime descent, repeated irreducible factors, units, a zero numerator, and invalid full-matrix returns. Bind only the A0 y0 and A1 y0 direct endpoint labels; the actual F label still executes the original attached-transpose-HNF path. Retain the previously verified scalar-primary helper. This request is a small software check, with no original geometric computation or rank-306 performance claim.",
+  "reason": "Compare the entire polynomial paired graph with the untouched original implementation, using Sage 10.6's official function-field reversed Hermite routine with its actual full U matrix. Verify U*MD=H and every original row's exact dynamic remainder, then use the same H/U in this graph only: C*H=Y*MN, X=C*U, X*MD=Y*MN. Keep the original complete preimage, all source coordinates and full nonreduced lengths. Exercise nonprime quadratic coefficients, nontrivial polynomial transforms, exact prime descent, repeated irreducible factors, units, a zero numerator, and invalid full-matrix returns. Bind only the A0 y0 and A1 y0 direct endpoint labels; the actual F label still executes the original attached-transpose-HNF path. Retain the previously verified scalar-primary helper. This request is a small software check, with no original geometric computation or rank-306 performance claim. The first public software run 46111621787 failed before the new official Hermite computation because same-ring matrix construction retained immutability. Use explicit private copy() matrices for the snapshot, reversed workspace and returned workspaces; preserve every caller matrix's mutability. The checker additionally verifies caller mutability and uses explicit distinct copies in its object-identity and mutation refusals. All arithmetic algorithms and complete return checks are unchanged.",
   "check_script": "scripts/check-original-function-field-denominator-return.py",
-  "check_sha256": "266e53526f771bf7746fe97f5a9006a8980cdf8a676c83e01b932ee5f719a013",
+  "check_sha256": "07b8e39757e998a91b64c2114253ec6072ebdb19ab53aeed58b3dea625c090eb",
   "binding_script": "scripts/original_function_field_denominator_return.py",
-  "binding_sha256": "11875739148b591c1b4faf725d13970682bc7e8af6bf613a26e1e55a56fd9242",
+  "binding_sha256": "0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4",
   "source_files": [
     "check-original-complete-quadratic-api.py",
     "original_scalar_primary_return.py",
@@ -39,5 +39,7 @@
   "original_geometric_input_executed": false,
   "recomputable_outputs_persisted": false,
   "source_dependency_scope": "Fixed selector, the reviewed denominator checker and helper, the pinned original scalar fixture, the full inherited original triangular/support dependencies, the fixed complete quadratic backend, and the already verified scalar-primary helper.",
-  "software_time_budget_seconds": 420
+  "software_time_budget_seconds": 420,
+  "previous_software_run_id": 46111621787,
+  "previous_software_status": "failure-before-first-new-Hermite-return"
 }

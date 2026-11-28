@@ -13,7 +13,7 @@ if (os.environ.get("GITHUB_ACTIONS") != "true" or
     raise SystemExit("Use only the named public research Actions.")
 
 import ast
-from copy import deepcopy
+from copy import copy, deepcopy
 import hashlib
 import inspect
 from pathlib import Path
@@ -160,28 +160,30 @@ class SameDenominatorImageSession:
         R, k, n = _admit_square_polynomial_matrix(rows)
         report = progress or _report
         started = time.monotonic()
-        original = matrix(R, rows)
+        original = copy(rows)
+        assert original is not rows
         original.set_immutable()
         lowered, lowered_attached, scalar, descent = (
             descent_owner._entire_prime_subfield_inputs(original, None))
         assert lowered_attached is None and scalar == k.one()
-        work = lowered if descent["applied"] else matrix(R, original)
+        work = lowered if descent["applied"] else copy(original)
         S = work.base_ring()
         report("official full denominator Hermite return start",
                label=label, original_rows=n, original_columns=n,
                original_entry_degree=max(int(f.degree()) for f in original.list()),
                exact_prime_descent=bool(descent["applied"]),
                attached_block=False)
-        reversed_input = matrix(S, work)
+        reversed_input = copy(work)
+        assert not reversed_input.is_immutable()
         reversed_input.reverse_rows_and_columns()
         U_reversed = OFFICIAL_FUNCTION(reversed_input, transformation=True)
         assert U_reversed.base_ring() is S
         assert U_reversed.nrows() == U_reversed.ncols() == n
         # If J is the reversal matrix: B=J M J, B'=V B,
         # then H=J B' J and U=J V J satisfy U M=H.
-        H_native = matrix(S, reversed_input)
+        H_native = copy(reversed_input)
         H_native.reverse_rows_and_columns()
-        U_native = matrix(S, U_reversed)
+        U_native = copy(U_reversed)
         U_native.reverse_rows_and_columns()
         if descent["applied"]:
             H = matrix(R, n, n, [
@@ -200,7 +202,7 @@ class SameDenominatorImageSession:
                 "official_full_transform_product_verified_in_original_ring": True,
             })
         else:
-            H, U = matrix(R, H_native), matrix(R, U_native)
+            H, U = copy(H_native), copy(U_native)
             descent["unchanged_original_field_backend_used"] = True
         determinant = verify_complete_denominator_return(original, H, U)
         assert rows == original
