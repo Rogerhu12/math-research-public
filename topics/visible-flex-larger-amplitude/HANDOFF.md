@@ -67,4 +67,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。 [49完整两族](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)15源/六初点+双4/8/16及双终网启动，真全像位移底限直接入场。
 <!--r769-publish-->R769 [全滚段与两真帽的四整球十二层实际](notes/r769-meridian-whole-46169013968-1-index.json) 双README真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee
-<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 3d08b9d51015a3e43f364e9164c8f887d2289917
+<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull eb9296506b31f689a6bf830abba242500009b5ea
