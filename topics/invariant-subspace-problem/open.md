@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-same-sigma-decic-2035-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-actual-Beta-2040-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar I/F与closureF=I开，原全旗quasi/γ单列桥、entire P及奇X²→P0保。新[固定原平方分母与Ω列](results/R267-appendix-fixed-original-denominator-and-norm-square-vacuum-source.md)从实际首偶幂构造有界Q*且P0=CQ*²，付O(|s|²)范数平方误差及同原Ω列的全矩误差；F+=√2(I+C/c)^−1送Ω到U固定e+，故该列任一强收敛子列给原超不变空间，且其范数有严格正下界。没有上界、紧性或Q*H入根域结论；全交换/J对称/全空间quasi的本性反检验不付全旗原情形，继续实际同列费用。
+原Haar I/F与closureF=I开；固定原Q*、P0=CQ*²、O(|s|²)范数平方误差、Ω列正下界及强子列充分桥保。新[实际同源Beta与每非零列本性](results/R267-appendix-actual-Laurent-beta-coefficients-and-every-nonzero-column-essential-singularity.md)付算子参数代入/有限恒零块提取，余尾T*=T_hat(−V)有全旗真实强*单位；H_r→T*的O(1/r)范数误差使每同p的全部充分负Laurent系数非零。原曲线的可去/有限极点分支因此关闭；不把非零系数变成CV^r费用下界，也不排稀疏强子列。实际Ω列上界/紧性与真正不同平方来源继续。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
