@@ -63,3 +63,88 @@ run46137993293/1、science source2c8739ed67bac0b11332646db652f2a317e85ea5/PID343
   }
 ]
 ```
+
+## 2026-11-28 12:35:00 UTC — 35 初始完整几何与首全步实际统计返回
+
+source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reachg601.642125582291，K4938.754785337882，Dpoint lower4.067382378593245，最坏cell0/u.16939530676686776/phi1.4971652489763858/branch1/s.00021174413345858472；其余五族和所有完整字段原样列下。alpha1试探点5f0a7844ae793e2ab676df827283410ed300d1db6dcbbe850fd734946a7bfedb于12:12:03Z实际统计Phi6298065.183785643/Gram11.226395028133968；其完整几何/接受仍未返，accepted0，当前仍初始点。自然science返才whole pure74162，139角色/24runtime及全部原预算不减。
+
+本run原完整实际observation（未将进度报告作最终科学report）：
+
+```json
+{
+  "scientific_source_commit": "2c8739ed67bac0b11332646db652f2a317e85ea5",
+  "pid": 3435,
+  "observed_utc": "2026-11-28T12:30:50Z",
+  "observations": {
+    "fixed-fejer-r732-R729-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 12:30:46 UTC",
+      "point": "5f0a7844ae793e2ab676df827283410ed300d1db6dcbbe850fd734946a7bfedb",
+      "cached_angle_roots": 873,
+      "closure_original_returns": 45709,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-r732-R729-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T12:12:03.378981+00:00",
+      "math_event": "trial-statistics-returned",
+      "math_driver": "82fc9d2442094753a0fe32700cb748a3dd9be3e299d94017d03c6ad8cba92866",
+      "math_model": "726006e0e25a49c0dc2810d9e86250f669e3099905118fb237cdf9a51cd332ae",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 25127.568861304877,
+      "initial_Gram": 0.8838253080334753,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 601.642125582291,
+      "initial_geometry_complete": true,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 25127.568861304877,
+      "current_Gram": 0.8838253080334753,
+      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_violation": 601.642125582291,
+      "current_geometry_complete": true,
+      "current_state": "initial statistics returned; no accepted direction",
+      "trial_point": "5f0a7844ae793e2ab676df827283410ed300d1db6dcbbe850fd734946a7bfedb",
+      "trial_Phi": 6298065.183785643,
+      "trial_Gram": 11.226395028133968,
+      "trial_accepted": null,
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 601.642125582291,
+      "current_g_body_diameter": -0.061260403403895936,
+      "current_g_distance_plus": -0.09518118442527368,
+      "current_g_distance_minus": -2.4277891830203853,
+      "current_g_cap_diameter": -0.06715131487906445,
+      "current_g_height_floor": -1.0411715967426867,
+      "current_K": 4938.754785337882,
+      "current_D_point_lower": 4.067382378593245,
+      "current_K_cell": 0,
+      "current_K_u": 0.16939530676686776,
+      "current_K_phi": 1.4971652489763858,
+      "current_K_branch": 1,
+      "current_K_s": 0.00021174413345858472,
+      "trial_alpha": 1,
+      "trial_phase": "restoration",
+      "current_distance_plus_phi": 1.5707963267948966
+    }
+  }
+}
+```
+
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46137993293-1.md",
+    "bytes": 56137,
+    "sha256": "8a21bfdfe47bb6e27541ce10238da60bc2e8ed63bcb38064c4cd7c27677d32c8",
+    "git_blob_sha": "aa2e73ff66e4d736f2d06d122be9ec6af7721e9a",
+    "fixed_commit": "6775094a799a57a92cfa6aed274d4335850a3cc6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
