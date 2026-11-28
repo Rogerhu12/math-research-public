@@ -159,3 +159,7 @@
 ## 2026-11-28 12:33:24 UTC — RET100H 完整闭分支参数精确重建与容量释放
 
 只退17件原09/10已终止分支的旧完整生成参数，共1636496B；原3父、6native生成器、原queue/失败记录及33–38全部活科学和准确下游保留。4件完整manifest/可执行重建/两个语义编辑组163966B已逐字核取；根用3父和原reconstruct逐个恢复17件全部UTF8字节、SHA256和Git blob，17/17三身份相同，净释放1472530B。并未将未执行分支声称执行、亦无科学重跑。完整历史run/终态未知、路径、命令、参数、原Git恢复和53件活文件保护见[manifest](computations/ret100h-closed-branch-parameter-recovery.json)。 双README云核至`c16799f28f2a38885046cc091747c85d25b32227`无变（非pull）。
+
+## 2026-11-28 12:34:44 UTC — 33 半步完整reach拒绝与四分之一步实际启动
+
+半步8e3194c153c542c010e1f54cb0f0b4b0d24b8f1f6da3d3a288215630f4771cb0的完整最大族reach费用7.789641579575506、trial_accepted=false；原Phi705.3748228317756/Gram.4078179189091087不变。随后alpha.25真实点1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e于12:28:56Z开始，统计/完整几何尚未返。accepted_directions=0，当前仍原7e06；不冒新可行点，不启动pure。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-section16-retry.md)。双README云核至`18a4d39be1e73f6a249fe6c20cc51cd4ab8c486c`无变（非pull）。

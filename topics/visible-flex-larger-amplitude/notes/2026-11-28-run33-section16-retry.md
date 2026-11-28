@@ -354,3 +354,92 @@ The reproducer reads the complete original request and queue by their Git identi
   }
 ]
 ```
+
+## 2026-11-28 12:34:44 UTC — 33 半步完整reach拒绝与四分之一步实际启动
+
+半步8e3194c153c542c010e1f54cb0f0b4b0d24b8f1f6da3d3a288215630f4771cb0的完整最大族reach费用7.789641579575506、trial_accepted=false；原Phi705.3748228317756/Gram.4078179189091087不变。随后alpha.25真实点1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e于12:28:56Z开始，统计/完整几何尚未返。accepted_directions=0，当前仍原7e06；不冒新可行点，不启动pure。
+
+本run原完整实际observation（未将进度报告作最终科学report）：
+
+```json
+{
+  "scientific_source_commit": "bffd5bbf0e5b5be0ded252f50613e2ca88489558",
+  "pid": 3463,
+  "observed_utc": "2026-11-28T12:31:23Z",
+  "observations": {
+    "fixed-fejer-halfwave-R729-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 12:31:20 UTC",
+      "point": "1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e",
+      "cached_angle_roots": 112,
+      "closure_original_returns": 95060,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-halfwave-R729-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T12:28:56.764354+00:00",
+      "math_event": "trial-start",
+      "math_driver": "a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3",
+      "math_model": "61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 681.6517423825408,
+      "initial_Gram": 0.4061652531176999,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.5305849371949052,
+      "initial_geometry_complete": true,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 681.6517423825408,
+      "current_Gram": 0.4061652531176999,
+      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_violation": 0.5305849371949052,
+      "current_geometry_complete": true,
+      "current_state": "initial statistics returned; no accepted direction",
+      "trial_point": "1ea6125f071aaaab54948955e1d596a926817432986cbe97e0f88ed477f99a3e",
+      "trial_accepted": null,
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.5305849371949052,
+      "current_g_body_diameter": -0.03813552733778258,
+      "current_g_distance_plus": 0.11391238912344381,
+      "current_g_distance_minus": -3.0936337267043594,
+      "current_g_cap_diameter": -0.06715131487906445,
+      "current_g_height_floor": -1.0411715967426867,
+      "previous_completed_trial_point": "8e3194c153c542c010e1f54cb0f0b4b0d24b8f1f6da3d3a288215630f4771cb0",
+      "previous_completed_trial_g": 7.789641579575506,
+      "previous_completed_trial_accepted": false,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 705.3748228317756,
+      "previous_completed_trial_Gram": 0.4078179189091087,
+      "current_K": 12.32709940409259,
+      "current_D_point_lower": 4.117175466515689,
+      "current_K_cell": 885,
+      "current_K_u": 0.8306046932331322,
+      "current_K_phi": 1.5707963267948966,
+      "current_K_branch": 1,
+      "current_K_s": 2.1573631007205925,
+      "trial_alpha": 0.25,
+      "trial_phase": "restoration",
+      "current_distance_plus_phi": 1.5707963267948966
+    }
+  }
+}
+```
+
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md",
+    "bytes": 60752,
+    "sha256": "6bcb41ada4ff7c201268a9b6444f8e0ad8cbdf5b55c527c3553e53101bbb4013",
+    "git_blob_sha": "3dc17f11c89899924d245c75466c5ca92e34b656",
+    "fixed_commit": "6775094a799a57a92cfa6aed274d4335850a3cc6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
