@@ -245,23 +245,22 @@
   "child_pid": 2768,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 11,
-    "utc": "2026-11-28T13:15:23Z",
+    "ordinal": 35,
+    "utc": "2026-11-28T13:16:23Z",
     "original": {
-      "event": "stage",
-      "stage": 10,
-      "source": "equal-Jacobi-wide",
-      "Killing": 21.843355779610228,
-      "K": 11.039126718936426,
-      "base_gram": 0.049137335317733115,
-      "point_sha256": "0ab31f4881f9e2354670f7c2851dcd0427eb736063845f98a07e0eec825dc0f9"
+      "event": "true_material_flow",
+      "stage": 6,
+      "seed": "actual_part_rolled_heads",
+      "point_sha256": "fb9c86f18bd57e41b5572017670ec0fa9bfe3b2024ae462311b37303192b851c",
+      "peak_error": 516.7549014103174,
+      "errors": null
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run39b-bent-body-flow-46148134174-1/field/summary.json",
-      "bytes": 10852,
-      "sha256": "c338dac4dbe4ecabfb2ed81c995bc1111cf45cb204774924354af4d56aa1259f"
+      "bytes": 29709,
+      "sha256": "7354cfdc684fe180f6a975f377311b19b98cdb4396925f367de6e93c783f7489"
     },
     "complete_small_json": {
       "actual_replay": {
@@ -561,8 +560,13 @@
         }
       },
       "certificate": null,
-      "elapsed_seconds": 385.165361121,
+      "elapsed_seconds": 437.31430077699997,
       "full_result": null,
+      "in_progress": {
+        "completed_addresses": 24,
+        "last_seed": "actual_part_rolled_heads",
+        "stage": 6
+      },
       "original_attempt": "1",
       "original_child_returncode": 0,
       "original_observation": {
@@ -585,12 +589,770 @@
           "errors": 0,
           "frozen_target_physical_sha256": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7",
           "material_sha256": "e01497a0f16c3e234be56708d8f55ae0bfc051d397c786c7c07320f20b3446ba",
+          "maximum_address_label": "actual_check_max_Killing",
+          "maximum_observed_relative_gram_error": 2150.246171967102,
+          "maximum_phase": 3.141592653589793,
           "physical_sha256": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7",
           "planned_named_addresses": 24,
           "point_sha256": "fb9c86f18bd57e41b5572017670ec0fa9bfe3b2024ae462311b37303192b851c",
-          "points": [],
+          "points": [
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 2.1255205228003278,
+                "coordinate_2": -0.09
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 3.800935816878453e-14,
+                "marked_world": 3.1667214319276487e-15,
+                "reference_tangent": 3.811494440141181e-14,
+                "reference_world": 3.1739509714820504e-15,
+                "relative_eigenvalues": 7.583562828970336e-14
+              },
+              "crossings": 0,
+              "detail_bytes": 50138,
+              "detail_sha256": "911fdbebef1b25cebae457af5f796446111db48fc84c28c4d6d8da4ef8934830",
+              "elapsed": 4.699441856000021,
+              "final_error": 8.881784197001252e-16,
+              "nfev": [
+                437,
+                887
+              ],
+              "parent_basis_max": 0.0,
+              "peak_error": 1.1102230246251565e-15,
+              "peak_t": 2.650718801466388,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "upper_grip"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 1.9909405228003278,
+                "coordinate_2": 0.13308999999999999
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 3.7694623690036446e-14,
+                "marked_world": 4.462717665494196e-15,
+                "reference_tangent": 3.7704291968816653e-14,
+                "reference_world": 4.462717665494196e-15,
+                "relative_eigenvalues": 7.528630176712886e-14
+              },
+              "crossings": 0,
+              "detail_bytes": 50527,
+              "detail_sha256": "ab504b13bcf800729bebbea8724c6c00f0fc75208ad591e392780412e043176f",
+              "elapsed": 5.021431370000016,
+              "final_error": 1.2212453270876722e-15,
+              "nfev": [
+                437,
+                887
+              ],
+              "parent_basis_max": 0.0,
+              "peak_error": 1.4432899320127035e-15,
+              "peak_t": 2.356194490192345,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "upper_marker_slope"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 2.485520522800328,
+                "coordinate_2": 0.28
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 9.929865082103693e-14,
+                "marked_world": 1.4310388271273627e-14,
+                "reference_tangent": 9.936422417058393e-14,
+                "reference_world": 1.4310388271273627e-14,
+                "relative_eigenvalues": 7.646753264314876e-14
+              },
+              "crossings": 0,
+              "detail_bytes": 49660,
+              "detail_sha256": "f2dfff7fddca17d39cd64104e08f782e543503d4103e19e5da59036ab441d0f7",
+              "elapsed": 4.834453921999966,
+              "final_error": 4.440892098500626e-16,
+              "nfev": [
+                437,
+                887
+              ],
+              "parent_basis_max": 0.0,
+              "peak_error": 8.881784197001252e-16,
+              "peak_t": 0.4908738521234052,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "upper_bend"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 5.686561568400984,
+                "coordinate_2": -0.29
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 8.061416530864003e-14,
+                "marked_world": 1.4488304127766423e-14,
+                "reference_tangent": 8.062575248415477e-14,
+                "reference_world": 1.4488304127766423e-14,
+                "relative_eigenvalues": 7.654301382374176e-14
+              },
+              "crossings": 0,
+              "detail_bytes": 49472,
+              "detail_sha256": "73e1f353af37ecf574f31b4556e4d85c17296f939b8d43ee05dbd3f0c1ef1bac",
+              "elapsed": 5.311679254000012,
+              "final_error": 1.1102230246251565e-15,
+              "nfev": [
+                437,
+                887
+              ],
+              "parent_basis_max": 0.0,
+              "peak_error": 1.4432899320127035e-15,
+              "peak_t": 3.043417883165112,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "lower_bend"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 2.175520522800328,
+                "coordinate_2": 0.996
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 9.136522140907055e-07,
+                "marked_world": 2.0903880834105463e-09,
+                "reference_tangent": 9.139702406100794e-07,
+                "reference_world": 2.0897248368547563e-09,
+                "relative_eigenvalues": 1.5972956850700224e-06
+              },
+              "crossings": 0,
+              "detail_bytes": 50087,
+              "detail_sha256": "473bd4fc9d8ed9082fea9d8f881b95e09ed11c5524c778d92c99a6acef8986d7",
+              "elapsed": 7.030821494000008,
+              "final_error": 0.219680238994997,
+              "nfev": [
+                686,
+                1355
+              ],
+              "parent_basis_max": 6.38378239159465e-16,
+              "peak_error": 0.219680238994997,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "upper_y_rim"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 6.316561568400983,
+                "coordinate_2": -0.996
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 4.929983856054324e-06,
+                "marked_world": 8.152352489660182e-10,
+                "reference_tangent": 4.907766334147874e-06,
+                "reference_world": 8.117273828937582e-10,
+                "relative_eigenvalues": 1.3242220638361649e-05
+              },
+              "crossings": 0,
+              "detail_bytes": 49763,
+              "detail_sha256": "c0302a8ce8d33593c773e27f46a7eed13997a6b072d32ddccabe9c938581aa07",
+              "elapsed": 7.390299521000031,
+              "final_error": 2.144717274456953,
+              "nfev": [
+                779,
+                1373
+              ],
+              "parent_basis_max": 3.9968028886505635e-15,
+              "peak_error": 2.144717274456953,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "lower_y_rim"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 3.155520522800328,
+                "coordinate_2": 0.0009765625
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.865972319840146e-05,
+                "marked_world": 5.247408057612623e-09,
+                "reference_tangent": 1.8625854663754863e-05,
+                "reference_world": 5.321744420410662e-09,
+                "relative_eigenvalues": 0.0002745698863519932
+              },
+              "crossings": 0,
+              "detail_bytes": 49730,
+              "detail_sha256": "061c9f76266ab1bb7ad53d15560e6ff0823ded323b5546de35304a7644bc776c",
+              "elapsed": 12.066483955000024,
+              "final_error": 32.661257493866586,
+              "nfev": [
+                1391,
+                2267
+              ],
+              "parent_basis_max": 8.881784197001252e-15,
+              "peak_error": 53.21171817965747,
+              "peak_t": 1.9634954084936207,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "right_meridian"
+            },
+            {
+              "address": {
+                "chart": "end+",
+                "coordinate_1": 1.397753955504223,
+                "coordinate_2": 0.09698322187749382
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 2.9186743205101978e-05,
+                "marked_world": 6.125080601646568e-09,
+                "reference_tangent": 2.974938446431216e-05,
+                "reference_world": 6.286825737984161e-09,
+                "relative_eigenvalues": 0.00011683969613318502
+              },
+              "crossings": 4,
+              "detail_bytes": 50398,
+              "detail_sha256": "3c90c3b751a7cc648077be3640033d80000704b01d217d25433f6e7e16bf46dd",
+              "elapsed": 16.22742891500002,
+              "final_error": 6.061340981796968,
+              "nfev": [
+                2302,
+                2947
+              ],
+              "parent_basis_max": 1.1546319456101628e-14,
+              "peak_error": 7.6267843067690535,
+              "peak_t": 2.945243112740431,
+              "seam_position_max": 4.577566798522237e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 5.7343986494198036e-15,
+              "seed": "head_+"
+            },
+            {
+              "address": {
+                "chart": "cap-center+",
+                "coordinate_1": 0.595,
+                "coordinate_2": 0.0
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 7.847576871976775e-07,
+                "marked_world": 6.992737589503814e-10,
+                "reference_tangent": 8.250372157537718e-07,
+                "reference_world": 6.605933869629342e-10,
+                "relative_eigenvalues": 1.8381350157312536e-06
+              },
+              "crossings": 1,
+              "detail_bytes": 49424,
+              "detail_sha256": "97b4bc40ac6706ee22e02e87b19efd1cf4be0cb17c0bf5d71181d1f6c951c48a",
+              "elapsed": 6.599197240000024,
+              "final_error": 8.359181685387782,
+              "nfev": [
+                826,
+                1345
+              ],
+              "parent_basis_max": 1.942890293094024e-15,
+              "peak_error": 10.229402568385012,
+              "peak_t": 1.5707963267948966,
+              "seam_position_max": 1.2412670766236366e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 2.3316758947741574e-15,
+              "seed": "cap_center_+"
+            },
+            {
+              "address": {
+                "chart": "cap+",
+                "coordinate_1": 6.413224031137023,
+                "coordinate_2": 0.54
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.5313835389730492e-05,
+                "marked_world": 9.940132167099486e-09,
+                "reference_tangent": 1.5052559657342341e-05,
+                "reference_world": 9.823924630925396e-09,
+                "relative_eigenvalues": 5.259942271556254e-05
+              },
+              "crossings": 3,
+              "detail_bytes": 50110,
+              "detail_sha256": "33c3b89a1adfb03b584a0c1e1bcb79cdb9d7c70f166f7050ea287a7928a64de0",
+              "elapsed": 11.19438869999999,
+              "final_error": 1.1102121251285255,
+              "nfev": [
+                1307,
+                2348
+              ],
+              "parent_basis_max": 2.831068712794149e-15,
+              "peak_error": 23.97880223113303,
+              "peak_t": 2.061670178918302,
+              "seam_position_max": 5.715222817774257e-16,
+              "seam_tangent_max": 1.5700924586837752e-16,
+              "seam_velocity_max": 2.3088902282403703e-15,
+              "seed": "cap_interior_+"
+            },
+            {
+              "address": {
+                "chart": "tube",
+                "coordinate_1": 0.6851735076001093,
+                "coordinate_2": 1.1704010032938488,
+                "probe_initial_signed_outward_speed": 0.4771262491757763
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 6.070267721921696e-07,
+                "marked_world": 4.5654661562290196e-10,
+                "reference_tangent": 5.960933054124601e-07,
+                "reference_world": 4.351411423682666e-10,
+                "relative_eigenvalues": 9.36640402079289e-07
+              },
+              "crossings": 2,
+              "detail_bytes": 49291,
+              "detail_sha256": "8dc2bf78bbbd0ee14f90a608c1ac9bd34a9b8e32eb62ad2bdbe906b4f84e3fa4",
+              "elapsed": 5.864789697999981,
+              "final_error": 0.8563592815194685,
+              "nfev": [
+                927,
+                1440
+              ],
+              "parent_basis_max": 1.226796442210798e-14,
+              "peak_error": 3.5991719468333248,
+              "peak_t": 1.2762720155208536,
+              "seam_position_max": 2.2887833992611187e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 1.2815744444133687e-15,
+              "seed": "seam_+positive_outward"
+            },
+            {
+              "address": {
+                "chart": "cart+",
+                "coordinate_1": 0.9551561251487699,
+                "coordinate_2": 0.19062698338593348,
+                "probe_initial_signed_outward_speed": -0.5478670176399485
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.1339507235499386e-06,
+                "marked_world": 3.500390769840293e-09,
+                "reference_tangent": 1.1888547030432917e-06,
+                "reference_world": 3.3990770642607043e-09,
+                "relative_eigenvalues": 3.735999959703524e-06
+              },
+              "crossings": 1,
+              "detail_bytes": 50368,
+              "detail_sha256": "111453ddd2f20f772345397e2202b234e139f02b6479faabbb3e834640c19d4b",
+              "elapsed": 7.151083709000034,
+              "final_error": 1.3717563445468937,
+              "nfev": [
+                814,
+                1345
+              ],
+              "parent_basis_max": 4.6629367034256575e-15,
+              "peak_error": 2.1832477698763775,
+              "peak_t": 2.748893571891069,
+              "seam_position_max": 2.2887833992611187e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 4.331166785204477e-15,
+              "seed": "seam_+negative_outward"
+            },
+            {
+              "address": {
+                "chart": "end-",
+                "coordinate_1": 1.397753955504223,
+                "coordinate_2": 0.09698322187749382
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.7413576687020604e-06,
+                "marked_world": 2.3351809372856435e-09,
+                "reference_tangent": 1.7634754769080247e-06,
+                "reference_world": 2.3087363124345434e-09,
+                "relative_eigenvalues": 5.059384329422717e-06
+              },
+              "crossings": 0,
+              "detail_bytes": 49948,
+              "detail_sha256": "9113563c8299213e6b27bea98ce1057fdf38734d01b16ee82bb0757afae20466",
+              "elapsed": 10.728838414999984,
+              "final_error": 7.746362315414437,
+              "nfev": [
+                1217,
+                2000
+              ],
+              "parent_basis_max": 1.1546319456101628e-14,
+              "peak_error": 7.908092555998984,
+              "peak_t": 2.061670178918302,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "head_-"
+            },
+            {
+              "address": {
+                "chart": "cap-center-",
+                "coordinate_1": 0.595,
+                "coordinate_2": 0.0
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 6.885162916397301e-07,
+                "marked_world": 7.505139073350826e-09,
+                "reference_tangent": 6.592031789718406e-07,
+                "reference_world": 6.883293078410867e-09,
+                "relative_eigenvalues": 9.555452249735629e-07
+              },
+              "crossings": 1,
+              "detail_bytes": 48433,
+              "detail_sha256": "04470d98429c1619fa902f43d97759668e5132bcba070ab56fb105aea49e3cb5",
+              "elapsed": 5.139525510999988,
+              "final_error": 109.44525738062171,
+              "nfev": [
+                709,
+                1366
+              ],
+              "parent_basis_max": 1.942890293094024e-15,
+              "peak_error": 109.44525738062171,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 4.996003610813204e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 5.577516625281135e-17,
+              "seed": "cap_center_-"
+            },
+            {
+              "address": {
+                "chart": "cap-",
+                "coordinate_1": 6.413224031137023,
+                "coordinate_2": 0.54
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 3.4858868219940396e-06,
+                "marked_world": 2.4700807547954212e-09,
+                "reference_tangent": 3.5245505692852293e-06,
+                "reference_world": 2.331088511767281e-09,
+                "relative_eigenvalues": 1.9189615706478727e-05
+              },
+              "crossings": 1,
+              "detail_bytes": 49929,
+              "detail_sha256": "ec679df74e4bbfeaf125f0185a6e8abd2f036cd2e262cfc914a3ce4355c38e6a",
+              "elapsed": 10.392751450000048,
+              "final_error": 6.6435954028452056,
+              "nfev": [
+                1261,
+                1975
+              ],
+              "parent_basis_max": 2.831068712794149e-15,
+              "peak_error": 6.9778713740939615,
+              "peak_t": 3.043417883165112,
+              "seam_position_max": 4.577566798522237e-16,
+              "seam_tangent_max": 1.5700924586837752e-16,
+              "seam_velocity_max": 1.7556361476676574e-15,
+              "seed": "cap_interior_-"
+            },
+            {
+              "address": {
+                "chart": "tube",
+                "coordinate_1": 4.111041045600656,
+                "coordinate_2": -1.1704010032938488,
+                "probe_initial_signed_outward_speed": 0.5478670176399485
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 5.98154971301703e-07,
+                "marked_world": 7.759711219428645e-10,
+                "reference_tangent": 5.346486248914119e-07,
+                "reference_world": 6.914237446985188e-10,
+                "relative_eigenvalues": 1.3386332185532497e-06
+              },
+              "crossings": 2,
+              "detail_bytes": 48928,
+              "detail_sha256": "b2b82c6fc01cea8d7ee55fed6560dded5ad8247481f49ea5926b8ba466fa4f7f",
+              "elapsed": 3.7554660480000166,
+              "final_error": 28.20966951899699,
+              "nfev": [
+                663,
+                1242
+              ],
+              "parent_basis_max": 1.9984014443252818e-15,
+              "peak_error": 28.20966951899699,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 5.551115123125783e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 4.9961982471058284e-15,
+              "seed": "seam_-positive_outward"
+            },
+            {
+              "address": {
+                "chart": "cart-",
+                "coordinate_1": -1.0085595373617242,
+                "coordinate_2": -0.07351772325777789,
+                "probe_initial_signed_outward_speed": -0.4771262491757763
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 7.109092876688015e-07,
+                "marked_world": 2.9953877446378493e-10,
+                "reference_tangent": 6.67577313237694e-07,
+                "reference_world": 2.756121072233701e-10,
+                "relative_eigenvalues": 1.5034271613924766e-06
+              },
+              "crossings": 1,
+              "detail_bytes": 50743,
+              "detail_sha256": "5de7993abe9bdc86c5215d9d284a926eff9a1d93d5096a171e7d4bfc0625e646",
+              "elapsed": 8.724663723000049,
+              "final_error": 2.4399900928596825,
+              "nfev": [
+                1003,
+                1621
+              ],
+              "parent_basis_max": 6.217248937900877e-15,
+              "peak_error": 3.044140649735601,
+              "peak_t": 2.1598449493429825,
+              "seam_position_max": 8.671119018262734e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 4.910462595695867e-16,
+              "seed": "seam_-negative_outward"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 2.5512849671346,
+                "coordinate_2": -0.9058,
+                "physical_grid_index": 2866,
+                "side": "upper_profile",
+                "value": 12.990667194817615
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 2.779944406797063e-05,
+                "marked_world": 1.5196615492463977e-09,
+                "reference_tangent": 2.8478095344959623e-05,
+                "reference_world": 1.428817763572218e-09,
+                "relative_eigenvalues": 0.0025009395594759068
+              },
+              "crossings": 0,
+              "detail_bytes": 49908,
+              "detail_sha256": "910dd0a00c7ef5d4761cbdc8045730798962f0038fbc7b141f33df23d71dcd3a",
+              "elapsed": 13.587578148999967,
+              "final_error": 2150.246171967102,
+              "nfev": [
+                1637,
+                2453
+              ],
+              "parent_basis_max": 3.730349362740526e-14,
+              "peak_error": 2150.246171967102,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "actual_check_max_Killing"
+            },
+            {
+              "address": {
+                "chart": "cap+",
+                "coordinate_1": 3.0565205228003,
+                "coordinate_2": 0.009,
+                "physical_grid_index": 18315,
+                "side": "upper_profile",
+                "value": 6960.358040960515
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.167391200491607e-06,
+                "marked_world": 8.925744874448497e-10,
+                "reference_tangent": 1.2270325978488632e-06,
+                "reference_world": 8.428149462785236e-10,
+                "relative_eigenvalues": 2.6405768827729374e-06
+              },
+              "crossings": 1,
+              "detail_bytes": 49968,
+              "detail_sha256": "32c32408c0e15bd0e87d439d3c873390eeb419159c3f54bf741945e1add57ae4",
+              "elapsed": 6.799847057000022,
+              "final_error": 8.806070214929694,
+              "nfev": [
+                784,
+                1372
+              ],
+              "parent_basis_max": 3.9968028886505635e-15,
+              "peak_error": 10.331301402232443,
+              "peak_t": 1.5707963267948966,
+              "seam_position_max": 4.47545209131181e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 1.6238503602928819e-15,
+              "seed": "actual_check_max_material_chart_speed"
+            },
+            {
+              "address": {
+                "chart": "end+",
+                "coordinate_1": 5.8039767834341,
+                "coordinate_2": 0.0005,
+                "physical_grid_index": 12633,
+                "side": "lower_profile",
+                "value": 11.227976848213851
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.029335750022441e-05,
+                "marked_world": 2.5805116712928916e-09,
+                "reference_tangent": 1.0072344822810077e-05,
+                "reference_world": 2.5585568771668515e-09,
+                "relative_eigenvalues": 0.0007894077453915906
+              },
+              "crossings": 0,
+              "detail_bytes": 49623,
+              "detail_sha256": "b550a4881f7195536a13bcaaf78b2cfe7b5ead654d68ba7a339f6412efe01ad8",
+              "elapsed": 8.672146404999978,
+              "final_error": 1636.0074554560101,
+              "nfev": [
+                1025,
+                1559
+              ],
+              "parent_basis_max": 3.597122599785507e-14,
+              "peak_error": 1941.9868837872314,
+              "peak_t": 2.454369260617026,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "actual_check_max_abs_principal"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 6.7978548384144,
+                "coordinate_2": -0.8391333333333334,
+                "physical_grid_index": 8114,
+                "side": "lower_profile",
+                "value": 0.06682581568429151
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 1.1407056878175038e-05,
+                "marked_world": 2.3912680368676346e-09,
+                "reference_tangent": 1.1084116097759064e-05,
+                "reference_world": 2.5214646785525177e-09,
+                "relative_eigenvalues": 0.00014720906179390477
+              },
+              "crossings": 0,
+              "detail_bytes": 49831,
+              "detail_sha256": "c340985bddf55484ea5c2f77424311e9a052d6331cf0ded933d058fa980ad1ea",
+              "elapsed": 13.296234748000018,
+              "final_error": 39.044555118446446,
+              "nfev": [
+                1586,
+                2378
+              ],
+              "parent_basis_max": 1.509903313490213e-14,
+              "peak_error": 40.04406850128248,
+              "peak_t": 1.8653206380689396,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "actual_check_min_support"
+            },
+            {
+              "address": {
+                "chart": "cylinder",
+                "coordinate_1": 2.5512849671346,
+                "coordinate_2": -0.9058,
+                "physical_grid_index": 2866,
+                "side": "upper_profile"
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 2.779944406797063e-05,
+                "marked_world": 1.5196615492463977e-09,
+                "reference_tangent": 2.8478095344959623e-05,
+                "reference_world": 1.428817763572218e-09,
+                "relative_eigenvalues": 0.0025009395594759068
+              },
+              "crossings": 0,
+              "detail_bytes": 49814,
+              "detail_sha256": "880ca0e9fe6851aa87c2b4ebee470353e5f38df4ad9a5b39f5a2c57cdc47d94d",
+              "elapsed": 12.59986556900003,
+              "final_error": 2150.246171967102,
+              "nfev": [
+                1637,
+                2453
+              ],
+              "parent_basis_max": 3.730349362740526e-14,
+              "peak_error": 2150.246171967102,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "actual_part_cylinder"
+            },
+            {
+              "address": {
+                "chart": "cap+",
+                "coordinate_1": 0.0,
+                "coordinate_2": 0.5,
+                "physical_grid_index": 17398,
+                "side": "upper_profile"
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 2.9529175749170423e-07,
+                "marked_world": 1.6137025983347017e-09,
+                "reference_tangent": 2.7855022167382034e-07,
+                "reference_world": 1.5221772304373784e-09,
+                "relative_eigenvalues": 3.782077740683243e-07
+              },
+              "crossings": 1,
+              "detail_bytes": 49529,
+              "detail_sha256": "c364112778f3cd70c9508499d77c6fd91b3feefa04fccb07cd3a6a6453f90e6e",
+              "elapsed": 6.226406671999996,
+              "final_error": 0.48968211930433936,
+              "nfev": [
+                829,
+                1369
+              ],
+              "parent_basis_max": 5.9396931817445875e-15,
+              "peak_error": 0.8668095405167023,
+              "peak_t": 0.7853981633974483,
+              "seam_position_max": 2.2887833992611187e-16,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 4.331166785204477e-15,
+              "seed": "actual_part_flat_caps"
+            },
+            {
+              "address": {
+                "chart": "end+",
+                "coordinate_1": 2.2802273157763,
+                "coordinate_2": 0.0,
+                "physical_grid_index": 10851,
+                "side": "upper_profile"
+              },
+              "coarse_fine_max": {
+                "marked_tangent": 0.000831238356232538,
+                "marked_world": 1.7828588140496784e-08,
+                "reference_tangent": 0.000839585755398893,
+                "reference_world": 1.7984567147706727e-08,
+                "relative_eigenvalues": 0.03628742488360456
+              },
+              "crossings": 0,
+              "detail_bytes": 49502,
+              "detail_sha256": "b60351e07cafce2a4a1e4901e3fe0aefa3b8b63c1f355560a04e3a9eac1cab48",
+              "elapsed": 9.191959538999981,
+              "final_error": 516.7549014103174,
+              "nfev": [
+                1265,
+                2081
+              ],
+              "parent_basis_max": 2.1316282072803006e-14,
+              "peak_error": 516.7549014103174,
+              "peak_t": 3.141592653589793,
+              "seam_position_max": 0.0,
+              "seam_tangent_max": 0.0,
+              "seam_velocity_max": 0.0,
+              "seed": "actual_part_rolled_heads"
+            }
+          ],
           "same_exact_original_candidate_and_target": false,
           "stage": 6
+        },
+        {
+          "coordinate_provenance": "independent full replay point",
+          "errors": 0,
+          "frozen_target_physical_sha256": "b02763f0acb44549e51a580c09c4cf62b88c177e5f760733a2e4a0d0908d0eb7",
+          "material_sha256": "a14df3eab0b77405d42560bf8e2106ade4d204bb242516bf0e35a46a27d77965",
+          "physical_sha256": "a004caeb17b2a6d754c36d9f7d0d5a7cfd5a17be9dc5d090375da7854095a825",
+          "planned_named_addresses": 25,
+          "point_sha256": "5a2e0518c90891362e3e6d68954170f2e6f15a3f368626320a5fa79a2ad3300c",
+          "points": [],
+          "same_exact_original_candidate_and_target": false,
+          "stage": 9
         }
       ],
       "status": "integrating_actual_selected_and_both_fixed_fields"
@@ -624,6 +1386,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:09:05Z",
-  "observed_utc": "2026-11-28T13:15:31Z",
-  "original_scalar_line_count": 11
+  "observed_utc": "2026-11-28T13:16:24Z",
+  "original_scalar_line_count": 35
 }
