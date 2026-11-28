@@ -266,3 +266,10 @@ R1060§4.1把同一inverse-Maass精确写成真实p-adic cross Gaussian：β_i=�
 R1053§12将原M=1参数Z在α=δ(4+ω)的全部39核点逐点定清：零集恰为kerδ，其余36点非零。原十三核的定向fπ、真实λ_U及两种±S addition给两个固定resultant，坏素因子仅含原小集及19、31、43；p>13^4的既定范围全适用。保原ρ_pc_p=1、完整torsion模型与全部分母，不据此给P2(T)单位、降二挠极帽或拆canonical trace零。
 
 [完整证明](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)，(Z1)–(Z9)。
+
+
+### R1054 §10：原六阶 CM 相位和完整 Weyl/Jacobi 字
+
+R1054§10把原全p⁴坐标核精确识别为六阶CM单位t0=(1+δ)/2的Weil算子。字配对中K=p^-1ρ+(t0)，实际Haar配对中K=p^-2(1⊗ρ+)C_Haar；negative标签的系数是p^-1ϑ^-1(t0)。全部p²个Weyl词逐常数/u/v系数重现原mixed相位，原p-local平移/调制、CRT及逆arch Jacobi保全中心和Gaussian。真实[p]*L_N及负δ拉回/原两3挠词全部保，未将各词赋canonical零，也未把完整circle投影后的核冒作固定曲面上的全局theta截面。
+
+[完整证明](results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)，(52)–(65)。

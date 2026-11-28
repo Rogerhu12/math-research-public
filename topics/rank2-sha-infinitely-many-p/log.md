@@ -99,3 +99,15 @@ R1053§12将原M=1参数Z在α=δ(4+ω)的全部39核点逐点定清：零集恰
 root直接重读R887(51)–(61)及R1053定向fπ，手核λ_U、Q余式、全部±S坐标与Z7；arithmetic独立纸核P线性余式及两个Norm。只消费原已登记transport，本条新增全部36点的实际非零和完整零集；无数学程序执行。同时将R1053及R1060已有独立行公式的Markdown单美元定界改为双美元，数学内容不变。
 
 推前actual readonly run46075603971/job140825198519/source e5309ee152260aa4aef389c7d5d68bac1cf8b116：公开2026-11-28 01:53:03 UTC至e0f9972ec3e6dbd5b3511d6cc3740f4a9f8dc66b，私库2026-11-28 01:53:07 UTC至c192c559e58f0138eaca7f862a94fa641931d587。四README与01:46已读版相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14887B/hash0b5836dd30f7b16048071c522d33b92f13a81e20f3a3ee610193071e22a0ce2a；库存3168/44650022B/treee1531deaf11da60b53797bb84e2cf71bfc976571，无>5MB及三旧必要gzip未变。
+
+
+## 2026-11-28 02:07:33 UTC：原六阶 CM 核、全部 Weyl 字和 Haar/Jacobi 归一
+
+R1054§10把原全p⁴坐标核精确识别为六阶CM单位t0=(1+δ)/2的Weil算子。字配对中K=p^-1ρ+(t0)，实际Haar配对中K=p^-2(1⊗ρ+)C_Haar；negative标签的系数是p^-1ϑ^-1(t0)。全部p²个Weyl词逐常数/u/v系数重现原mixed相位，原p-local平移/调制、CRT及逆arch Jacobi保全中心和Gaussian。真实[p]*L_N及负δ拉回/原两3挠词全部保，未将各词赋canonical零，也未把完整circle投影后的核冒作固定曲面上的全局theta截面。
+
+root独核正canonical矩阵、Gauss+1和旧球、负标签/矩阵转置、两W中心乘法、每个常数/u/v相位及Haar体积。CRT保持全部非p真实稳定子，global rational Heisenberg的inverse arch作用保完整Gaussian。新增文字限定全局线丛逐未投影h字使用，避免将全circle后的双核直接当固定曲面的全局截面。全纸证，无数学执行。
+
+推前actual readonly run46075603971/job140827990225：公开2026-11-28 02:04:00 UTC至71c06864d36756d6073a73d9baa389624cd4e628；私库2026-11-28 02:04:07 UTC至6282cab55764fd54da848e3e09805a3c21059bf8。四README与01:53已读版相同，QUEUE及本会话认领未变。日志14893B/hash23ddb8618e91d20a69bc2bd6fd9b3f79d7120c94b063f234db74e58391553aea；库存3168/44657869B/tree48c8995de9444ab06fa35cec58880ee2a52eae76，无>5MB，三旧必要gzip不变。02:01:15 v13仍in_progress，02:01日志仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，没有新增终门。旧H逐字存notes/2026-11-28-handoff-before-full-weil-pd-return.md，不删历史记录。
+
+
+本条首次ref更新02:07:41UTC返GraphQL错误，attempt e8412eb37421adaef404ea50f776ecb8904f313b与新main真实diverged，未误报成功。立即本地pull --rebase仍无环境，继以CI实际双pull job140829012692：公开2026-11-28 02:07:49 UTC至fb8a3545dbcff0dd03bd91b8b83a644a193d4a4c；私库2026-11-28 02:07:54 UTC至0b7dbce2a2c268765338ee3e00da53475046920e。四README与02:04已读版相同，QUEUE与topic inventory tree 48c8995de9444ab06fa35cec58880ee2a52eae76均未变。新日志14887B/hashf77e892d99b817a888241b7b5af8914ed356432fa8580e586626f62151b525e3，继续按新main非force推送。

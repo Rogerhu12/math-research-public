@@ -983,3 +983,333 @@ $n_{\rm univ}\ge3$ 的不同半径断言。
 Definition5.7 的全局求和和 Theorem7.1 的 Heegner 条件仍另保。
 
 原文链接：[Chan §6–7](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A307E84FB65A00F04D142EEAB168B2EE/S2050509420000213a.pdf/period_identities_of_cm_forms_on_quaternion_algebras.pdf)、[Kriz 2018 §2.4](https://arxiv.org/pdf/1805.03605)、[AI2024](https://ems.press/content/serial-article-files/48931)。原双 Hermite 固定坐标与全 tame 来源见[来源证明](../notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)。
+
+
+## 10. 原新矩阵的绝对 CM 相位、完整 Weyl 和与真实 Jacobi 字
+
+本节继续使用(19)、(24)的全部实际坐标、加性角色与 Haar。
+它将该矩阵识别为一个有绝对相位的有限 Weil 算子，并把其
+$p^2$ 项 coevaluation 写成真实 Heisenberg 平移。
+这里的平移先发生在原完整 theta kernel 内；不把它称为
+原 degree34 line bundle 的自同构，也不对平移后的各字赋予
+新的 canonical 中央零。
+
+### 10.1 正线的 CM 矩阵与绝对号
+
+原两条 rank-one 坐标是
+$u=A+\delta r$、$v=B+\delta s$；
+它们的 canonical momenta 分别为 $-51A$、$+51B$。
+在**正线**的列坐标 $(s,51B)^T$ 中，乘 $\delta$ 和乘
+$t_0=(1+\delta)/2=1+\omega$ 的矩阵严格为
+$$
+ D_+=
+ \begin{pmatrix}0&1/51\\-153&0\end{pmatrix},
+ \qquad
+ M_+=\frac{I+D_+}{2}
+ =
+ \begin{pmatrix}1/2&1/102\\-153/2&1/2\end{pmatrix}.
+ \tag{52}
+$$
+例如 $t_0(B+\delta s)=(B-3s)/2+\delta(B+s)/2$，
+直接给(52)。其 determinant 为1，
+$M_+^2-M_++I=0$、$M_+^3=-I$；
+$t_0^2=\omega$、$t_0^3=-1$。
+所有分母均在当前 $R=\mathbf Z/p^2\mathbf Z$ 中可逆。
+
+写 $\zeta=\psi_p(1/p^2)$，
+$q(A,B)=51(A^2-4AB+B^2)/2$。
+对 $\left(\begin{smallmatrix}a&b\\c&d\end{smallmatrix}\right)$
+的本题正 Schrödinger 规范，其 unit-$b$ kernel 是
+$p^{-1}\zeta^{(dA^2-2AB+aB^2)/(2b)}$。
+代入(52)得到
+$$
+ \boxed{\quad
+ \rho_+(t_0)_{A,B}=p^{-1}\zeta^{q(A,B)} .
+ \quad}
+ \tag{53}
+$$
+这里的相位已由原模型确定，而非重新选择 Weil 延拓。
+确切地，对任意 $u\in R^\times$，
+写 $x=x_0+pk$ 并先求全部 $k$ 和，得到
+$\sum_{x\bmod p^2}\zeta^{ux^2}=p$；
+所以本层 unit quadratic Gauss 归一为 $+1$。
+另有不依赖平方根选择的完整旧球核对：
+$$
+ \begin{aligned}
+ (\rho_+(t_0)v_0)(A)
+ &=p^{-1}\zeta^{51A^2/2}
+       \sum_{b\bmod p}\zeta_p^{-102Ab}\\
+ &=v_0(A).
+ \end{aligned}
+ \tag{54}
+$$
+当 $p\mid A$ 时平方相位也是1。
+这与§5、§8的原未分歧 splitting 和旧球锚完全一致。
+
+以原配对
+$\langle e_A^-,e_B^+\rangle=\delta_{A,B}$ 识别
+$\mathcal S_-=\mathcal S_+^\vee$。
+令
+$\mathcal C=\sum_A e_A^-\otimes e_A^+$ 为其 coevaluation。
+若 $u^-\otimes v^+$ 对应算子
+$w\mapsto\langle u^-,w\rangle v^+$，
+tensor 的系数矩阵要转置；由于 $q(A,B)=q(B,A)$，
+这里转置不改变(53)，但不能将其改成逆矩阵。准确有
+$$
+ \boxed{
+ K=\frac1p(1\otimes\rho_+(t_0))\mathcal C,\qquad
+ K_\vartheta=
+ \frac{\vartheta^{-1}(t_0)}p\,\mathcal C_\vartheta ,
+ \quad
+ \mathcal C_\vartheta
+ =(P_{-,\vartheta}\otimes
+   P_{+,\vartheta^{-1}})\mathcal C .
+ }
+ \tag{55}
+$$
+本式使用(29)的**负线标签** $\vartheta$。
+若改用正线标签 $\theta=\vartheta^{-1}$，系数才写为
+$p^{-1}\theta(t_0)$。它只依赖 tame 分量。
+旧分量
+$\mathcal C_0=p^{-1}v_0\otimes v_0$
+给 $K_0=p^{-2}v_0\otimes v_0$，准确回(25)。
+这给各有限 paired 字的绝对系数，不声称其全局投影非零。
+
+这里还要区分字坐标配对与实际 Haar 配对。
+原 $\operatorname{vol}(\mathbf Z_p)=1$，而每个
+$A/p+p\mathbf Z_p$ 的体积为 $p^{-1}$，所以
+$$
+ \langle f_-,f_+\rangle_{\rm Haar}
+    =p^{-1}\sum_A f_-(A)f_+(A),\qquad
+ \mathcal C_{\rm Haar}=p\mathcal C,\qquad
+ K=p^{-2}(1\otimes\rho_+(t_0))\mathcal C_{\rm Haar}.
+ \tag{55a}
+$$
+因而(55)的 $p^{-1}$ 不能不经比较便用于另一种几何或 Serre
+配对。下方完整 Weyl 和的 $p^{-2}$ 已使用全部这些费用。
+
+### 10.2 固定正负 Weyl 定义后的全部 p² 项
+
+在同一实际字基上定义
+$$
+ \begin{aligned}
+ W_+(a,b)f(A)&=\zeta^{\,b(A-a/2)}f(A-a),\\
+ W_-(a,b)f(A)&=\zeta^{-b(A-a/2)}f(A-a).
+ \end{aligned}
+ \tag{56}
+$$
+因此 $W_-(a,b)=W_+(a,b)^{-T}$。
+负号来自真实负 Hermitian 模；它不是把两个 physical
+Weil pairings 同向认同。正线的参数 $b$ 是 canonical momentum，
+而负线相同参数 $b$ 对应 canonical momentum $-b$。
+
+对 $a,b\bmod p$，$W_\pm(a,b)v_0$ 给两组互为对偶、
+配对值为 $p$ 的基。完整求和严格给
+$$
+ \mathcal C=\frac1p\sum_{a,b\bmod p}
+ W_-(\widetilde a,\widetilde b)v_0
+ \otimes W_+(\widetilde a,\widetilde b)v_0 .
+ \tag{57}
+$$
+两侧须使用同一对实际 lift。
+改变 lift 会在两个因子中产生相反的中心相位，完整 tensor
+不变。直接核对也很短：两个支撑先迫
+$A\equiv B\equiv a\bmod p$，再对 $b$ 求和迫 $A=B\bmod p^2$；
+留下的系数恰为1。
+
+原 Egorov 恒等式
+$\rho_+(M)W_+(v)\rho_+(M)^{-1}=W_+(Mv)$，
+连同(54)，将(55)变成
+$$
+ \boxed{
+ K=\frac1{p^2}\sum_{v\in\mathbf F_p^2}
+       W_-(\widetilde v)v_0
+       \otimes W_+(M_+\widetilde v)v_0 .
+ }
+ \tag{58}
+$$
+$M_+\widetilde v$ 必须先在 $R^2$ 中实际计算；
+不能独立约化两个因子的 lift 而删除中心相位。
+
+一个无需留下 lift 费用的精确参数化是：
+取 $a,c=0,\ldots,p-1$，在 $R$ 中置
+$b_-=51(2c-a)$、$b_+=51(c-2a)$。
+于是 $M_+(a,b_-)^T=(c,b_+)^T$，故
+$$
+ \boxed{
+ K=\frac1{p^2}\sum_{a,c\bmod p}
+ W_-\bigl(a,51(2c-a)\bigr)v_0
+ \otimes
+ W_+\bigl(c,51(c-2a)\bigr)v_0 .
+ }
+ \tag{59}
+$$
+为固定两个容易混淆的符号，令
+$A=a+pu$、$B=c+pv$。
+该唯一非零 summand 的总指数为
+$$
+ \begin{aligned}
+ &-b_-(A-a/2)+b_+(B-c/2)\\
+ &\quad=
+ \frac{51}{2}(a^2-4ac+c^2)
+ +51p(a-2c)u+51p(c-2a)v\\
+ &\quad=q(A,B)\pmod{p^2}.
+ \end{aligned}
+ \tag{60}
+$$
+第一行的负线指数有负号，第二因子仍用正线指数。
+常数及 $u,v$ 两个系数分别核回原(19)，所以没有遗漏
+一个额外 $\zeta$ 或 $1/p$。
+(59)是完整 $p^2$ 项和；它没有把 $p^4$ 个原矩阵坐标删掉，
+而是用每项的整个厚支撑同时返回全部这些坐标。
+
+### 10.3 这些字确实是原来源的 Heisenberg/Jacobi 平移
+
+先在原局部 Schwartz 模型中把有限字还原，而不猜一个
+sigma 平移常数。基 $e_A$ 对应
+$ {\bf1}_{A/p+p\mathbf Z_p}$，$v_0$ 对应
+$ {\bf1}_{\mathbf Z_p}$。
+对 $\epsilon=\pm1$ 定义完整 Heisenberg 算子
+$$
+ (\mathsf H_{\epsilon,p}(q,\xi)\phi)(x)
+   =\psi_p\!\left(\epsilon\,\xi(x-q/2)\right)\phi(x-q).
+ \tag{61}
+$$
+取 $q=a/p,\xi=b/p$，(61)在每个原 coset 上准确给(56)。
+平移、调制和中心 $-\epsilon ab/(2p^2)$ 都保留。
+它的乘法律为
+$\mathsf H_\epsilon(v)\mathsf H_\epsilon(v')
+ =\psi(\epsilon(\xi q'-q\xi')/2)\mathsf H_\epsilon(v+v')$，
+所以正负两条中心 character 相反，正是(57)所需配对。
+(61)不是只有相同支撑而未定相位的向量识别。
+
+还须保全原 theta 积分中的 $h$。
+固定其中一个实际 $h$ 和当前原 CM/tame 字，令
+$\Psi_{\epsilon,h}$ 为原整球向量经过该处**全部** Weil 运输后的
+全局 Schwartz 函数。
+通过原 Egorov 关系，先把(61)的参数运输成
+$v_{\epsilon,h}$；不能先穿过 $h$ 后仍使用未运输的参数。
+在当前有限层，$v_{\epsilon,h}$ 只涉及实际有限 residue 字。
+
+取一个 rational lift $(q_h,\xi_h)$：
+其 $p$ 分量在这个有限模型上实现 $v_{\epsilon,h}$，
+其余有限分量属于 $\Psi_{\epsilon,h}$ 的真实 Heisenberg 稳定子。
+这样的 lift 由 CRT 给出：先取一个 prime-to-$p$ 整数，
+使其倍数的平移和调制都固定原所有非 $p$ Schwartz；
+再在模 $p^2$ 指定原参数。
+完整有限 $h$ 类型的交仍是开稳定子。
+这里没有删除任何非 $p$ 作用，稳定性是在实际原向量上使用的。
+
+全局 theta functional 对 rational Heisenberg 群不变：
+平移用 $x\mapsto x+q_h$ 重标整个有理和，
+调制和中心用全局加性角色在 $\mathbf Q$ 上平凡。
+因而得到准确的 Jacobi 返回
+$$
+ \boldsymbol\Theta\!\left(
+   \mathsf H_{\epsilon,p}(v_{\epsilon,h})\Psi_{\epsilon,h}
+ \right)
+ =
+ \boldsymbol\Theta\!\left(
+   \mathsf H_{\epsilon,\infty}(-q_h,-\xi_h)
+         \Psi_{\epsilon,h}
+ \right).
+ \tag{62}
+$$
+右边在实际无穷 Schwartz 函数上的作用完全显式：
+$$
+ \bigl(\mathsf H_{\epsilon,\infty}(-q_h,-\xi_h)
+            \Psi_{\epsilon,h,\infty}\bigr)(x)
+ =
+ e^{-2\pi i\epsilon\xi_h(x+q_h/2)}
+       \Psi_{\epsilon,h,\infty}(x+q_h).
+ \tag{63}
+$$
+所以平移、Gaussian、coherent 参数及中心相位都在同一个式子中。
+若使用原 $(r,s)$ 的 Hermite Gaussian，就将该**整个**
+Gaussian/coherent 函数代入(63)，再作原完整 $h$ 积分。
+若先改变 arch polarization，则先运输其完整 Schwartz，
+不能把任意新 CM 点重新当作原 $\tau=\omega$ 的已分离 Gaussian。
+不同 CRT lift 给同一(62)，原因仍是完整 theta automorphy，
+不是略去一个可能的符号。
+
+几何上，(62)是原 theta-group/Jacobi 特征的作用。
+对原对称刚性化线丛 $\mathcal L_N$，
+共同 $p$ 覆盖上的线丛为
+$[p]^*\mathcal L_N\simeq\mathcal L_N^{\,p^2}$；
+原 $v_0$ 字是 $[p]^*s$。
+这里变量按原覆盖写为 $z=pz'$；没有将 $s(pz')$ 的首项
+重新归一，其所有真实 $p$ 幂仍保留。
+(56)作用在该 degree-$Np^2$ 线丛上，平移点属于实际
+$E[p^2]$，其 $[p]$ 像才是底层 $E[p]$ 特征。
+在原解析模型中也可直接看到：
+把原周期格换成 $p\Lambda$ 后，原 $1/p$ characteristic
+在这条覆盖上具有阶 $p^2$。
+其 theta-group lift 由(61)--(63)确定，故相应的
+Miller/刚性化费用也必须保留。
+
+特别，本题负来源的原三挠平移、$\delta$ 拉回与正来源
+不能同向混为一条 degree34 截面。
+对负来源中每一条已经支付的实际 section，严格使用
+$$
+ [p]^*[\delta]^*=[\delta]^*[p]^*,\qquad
+ \tau_T^*[\delta]^*
+       =[\delta]^*\tau_{[\delta]T}^{\,*}.
+ \tag{64}
+$$
+所以负侧覆盖上的点 $T$ 送回34层时是 $[\delta]T$，
+而不是未经转换的同一个 $T$。
+原两条三挠字及各自的 Miller 规范先完整运输，再按原来源相加。
+(64)没有删掉它们或把 $D_{102}$ 换成一个裸 $D_{34}$。
+这里的全局线丛与覆盖身份逐个未取完整无穷圆周投影的实际
+$h$ 字及其真实框架使用，再保留原整个 $h$ 积分。
+圆周投影后的双核不因此自动成为某个固定椭圆曲面乘积上的
+全局 theta 截面；不能据后者的几何非零跳过这个投影。
+
+由于 $p\nmid N$，一般的底层 $E[p]$ 平移并不属于
+$\mathcal G(\mathcal L_N)$；
+本节从未把(59)当成固定 $\mathcal L_{34}$ 的自同构和。
+
+### 10.4 同一个全局来源的完整返回
+
+记 $\mathfrak T_{\rm orig}$ 为原 binary theta 经已付换极化后的
+整个线性 theta 操作：包括全部非 $p$ Schwartz、原 $h$ 积分、
+实际 arch 运输、full2/full9、Artin/Cor 和所有原 fixed toric
+projectors。其输入仍是两条 rank-one 有限函数的 tensor，
+不是两个已经分别取过总 period 的标量。
+由(59)--(63)，准确有
+$$
+ \boxed{
+ W_p=\frac1{p^2}\sum_{a,c\bmod p}
+ \mathfrak T_{\rm orig}\!\left(
+  W_-\bigl(a,51(2c-a)\bigr)v_0
+   \otimes
+  W_+\bigl(c,51(c-2a)\bigr)v_0
+ \right).
+ }
+ \tag{65}
+$$
+每个 summand 的真实 theta/Jacobi 输入由(61)--(64)规定。
+原 bounded bad 输入则仍为 $-w_0+W_p$；
+其旧项的号和所有 $p^{-2}$ 均未改变。
+
+(65)先是完整 finite-Schwartz 恒等式，继而是原 theta 来源的
+恒等式。因此可逐个非负整数 Maass 权、逐个 coherent 系数
+以及 R1060 的**完整有限**转置使用它。
+在这些操作中必须保原 $h$、$\Lambda(-2),\Lambda'(-2)$、
+$\Omega_i,\kappa_i$ 和全部 $C_i$ 修正；
+不能把冻结外权换成第 $n$ 槽的另一份外权。
+同样，本节不从整个来源已知有界推出每个被单独切出的
+rank-one factor 在同一圆盘上有界。
+负端点和斜率的收敛仍按 R1056/R1059/R1060 的整个实际输入处理。
+
+本节的新结论是(55)的绝对 CM phase、(59)--(60)的完整厚
+Weyl 和以及(61)--(65)的实际 theta/Jacobi 来源。
+全局 $t_0$ 若要从(55)的一处有限分量移往其它分量，须同时
+运输其 arch、tame、source character 与原 $h$；
+不能仅因 $t_0\in\mu_6$ 就将 $\vartheta^{-1}(t_0)$ 删除。
+coevaluation 的进一步整体 isogeny/addition 返回也须作用在
+上述真正 $[p]$ 线丛与全部 Miller 上。
+这些后继尚不由(65)产生新的 canonical 坏条件。
+
+本节为同一原矩阵的纸笔恒等式；没有数学执行，也没有重新计算
+任何有限谱或原厚交作业。
