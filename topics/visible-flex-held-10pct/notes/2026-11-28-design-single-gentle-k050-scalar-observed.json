@@ -1,0 +1,233 @@
+{
+  "record_kind": "actually_executed_exact_scalar_certificate_and_prepared_new_physical_input",
+  "execution": {
+    "date_UTC": "2026-11-28",
+    "runtime": "functions.exec JavaScript V8 BigInt",
+    "function": "certificate",
+    "source_path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/certify_single_gentle_ramp_k050.mjs",
+    "source_git_blob": "c31234d65dae4ccfc77be5162632a824ebcd185d",
+    "only_trailing_console_log_replaced_with_return": true,
+    "node_CLI_executed": false,
+    "Python_source_compiled": false,
+    "linear_calibration_executed": false,
+    "BVP_or_Jacobian_executed": false,
+    "tail_executed": false,
+    "no_array_artifact_created": true,
+    "terminal_unavailable_no_retry_probe": true
+  },
+  "source_derivation": {
+    "method": "The R55 polynomial/Bernstein algorithm is reused for genuinely new six-stage profile coefficients and rhi=11/10; no old field bound transferred",
+    "read_commit": "6da577d085d4b8a6e22e3523e10752ad6f4ae42a",
+    "R55_scalar_source_git_blob": "9ea468d84ae33955795db6e5dd221186f0746537",
+    "R54_git_blob": "920bd501c8e83673606efb87bfd54ac363eafdf0",
+    "R67_git_blob": "366262c1429b59f1ea15fd50d90040c93398c6e9",
+    "multistage_provider_git_blob": "f64b5528b1ca0da88f097e9f77bf8687f18ec736",
+    "R53_core_source_git_blob": "1c3b5f164be8d4680b8bcbaf5cee9176c90bde3a"
+  },
+  "scalar_result": {
+    "status": "proved_by_exact_rational_arithmetic",
+    "scope": "new single-up-ramp m3 reference first up/down cycle only; no BVP, tail, exact C2/C3 solution or full surface inferred",
+    "delta_ref": "3/50",
+    "r_interval": [
+      "21/20",
+      "11/10"
+    ],
+    "up_stages": [
+      [
+        0,
+        "9/20",
+        "10/57"
+      ],
+      [
+        "9/20",
+        "9/20",
+        "1/855"
+      ],
+      [
+        "9/20",
+        0,
+        "4/45"
+      ]
+    ],
+    "down_stages": [
+      [
+        0,
+        "-1/2",
+        "2/25"
+      ],
+      [
+        "-1/2",
+        "-1/2",
+        "1/25"
+      ],
+      [
+        "-1/2",
+        0,
+        "2/25"
+      ]
+    ],
+    "up_area": "3/50",
+    "up_length": "227/855",
+    "down_length": "1/5",
+    "period": "398/855",
+    "core_curvature": "1/2",
+    "protected_halfwidth": "27/40",
+    "first_ramp_reference_peak_acceleration": "27/10",
+    "first_ramp_area": "3/76",
+    "arcsine_lower_six_terms": "2180010198706569/1971200000000000",
+    "characteristic_squared_lower": "10032938318092048295325634587051/21967683584000000000000000000000",
+    "characteristic_square_margin": "23912485132048295325634587051/21967683584000000000000000000000",
+    "protected_curvature_squared_upper": "129600/931",
+    "protected_curvature_square_margin": "1125099/93100",
+    "envelope_squared_radius": "4489/2500",
+    "n3_radius_factor_squared_upper": "1936/1323",
+    "core_and_held_budget": {
+      "weighted_support_radius_upper": "2/3",
+      "halfwidth": "27/40",
+      "transition": "3/10",
+      "target_curvature": "1/2",
+      "phase_endpoint": "4/5",
+      "compensated_window_integral": "33/20",
+      "core_curvature_upper": "3857/314",
+      "core_curvature_margin": "13/785",
+      "H_width": "27/50",
+      "each_sweep_margin": "1/200",
+      "H_interval_offsets": [
+        "13/100",
+        "67/100"
+      ],
+      "H_diameter_lower": "2153439/4000000",
+      "H_absolute_margin": "1407/4000000",
+      "held_lower": "535357/1968750",
+      "held_absolute_margin": "46043/15750000",
+      "D_upper": "67251/25000",
+      "H_ratio_lower": "717813/3586720",
+      "held_ratio_lower": "2141428/21184065"
+    },
+    "protected_circle_support_lower": "1659/19000",
+    "protected_circle_support_margin": "3/9500",
+    "conditional_complete_geometry": {
+      "unmarked_uninserted_D_upper": "67/25",
+      "unmarked_support_lower": "87/1000",
+      "full_curvature_upper": "123/10",
+      "column_lengths": [
+        "1/200",
+        "1/100"
+      ],
+      "marker_D_cost_upper": "1/25000",
+      "final_D_upper": "67251/25000",
+      "post_column_support_lower": "41/500",
+      "reach_lower": "10/123",
+      "support_focus_gap": "43/61500",
+      "reach_absolute_margin": "184381/307500000",
+      "reach_ratio_lower": "250000/8271873",
+      "all_full_surface_hypotheses_still_unpaid": true
+    },
+    "boxes": 50,
+    "minimum_Bernstein_gap": "255651723153109/7164045000000000",
+    "relative_metric_1e6_envelope_gap": "255638859393907/7164045000000000",
+    "pieces": [
+      {
+        "piece": "upstroke",
+        "boxes": 1,
+        "minimum_gap": "1061901173/22387640625"
+      },
+      {
+        "piece": "down acceleration 0",
+        "boxes": 8,
+        "minimum_gap": "40205774138993/895505625000000"
+      },
+      {
+        "piece": "down acceleration 1",
+        "boxes": 8,
+        "minimum_gap": "255651723153109/7164045000000000"
+      },
+      {
+        "piece": "down acceleration 2",
+        "boxes": 8,
+        "minimum_gap": "47341504965833/895505625000000"
+      },
+      {
+        "piece": "down coast",
+        "boxes": 1,
+        "minimum_gap": "1258555334/22387640625"
+      },
+      {
+        "piece": "down relaxation 0",
+        "boxes": 8,
+        "minimum_gap": "159634253/1827562500"
+      },
+      {
+        "piece": "down relaxation 1",
+        "boxes": 8,
+        "minimum_gap": "66717872485793/895505625000000"
+      },
+      {
+        "piece": "down relaxation 2",
+        "boxes": 8,
+        "minimum_gap": "50196457/716404500"
+      }
+    ]
+  },
+  "prepared_configs": [
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/single_gentle_k050_profile_initial.json",
+      "sha": "65d4779ce58b2176140e3fa4f8c4833cd4f5c05d"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json",
+      "sha": "a08526f489ddecf78778ccafcc6f5e423d231023"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda002.json",
+      "sha": "da0cbd8c612c712d05b4f840d757760efd8f2a01"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/single_gentle_k050_design.json",
+      "sha": "0392fd319b7af92317112d3c352dbe66b6ee4834"
+    }
+  ],
+  "prepared_linear_entry": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/calibrate_single_gentle_profile.py",
+    "sha": "155a17836fce524da8d54e68a164880c6b0fde7e"
+  },
+  "proof": {
+    "path": "topics/visible-flex-held-10pct/results/R87-single-gentle-ramp-half-curvature-held-window.md",
+    "sha": "0cc5154db9bbce366ed34608024410710a47eea9",
+    "prepared_blob_sha": "131dad6dcc413e4b5d3c615747dd75399adb0331"
+  },
+  "independent_formula_review": {
+    "reviewer": "/root/analytic_construction",
+    "read_only": true,
+    "numerical_repetition": false,
+    "checked": [
+      "reference areas and durations",
+      "flat-ramp endpoint C3 matching",
+      "r monotonicity of lower characteristic bound",
+      "protected circle Km and Kc bounds",
+      "new protected-circle support lower bound"
+    ],
+    "Bernstein_boxes_rerun_by_reviewer": false
+  },
+  "unchanged_scope_restrictions": [
+    "R5 forced circle interpretation requires exact metric, complete accurate circle Cauchy data and its C3 classical uniqueness assumptions",
+    "Characteristic exhaustion does not prove later circles disappear or fill the positive-K boundary uniqueness gap",
+    "Only the first cycle has the new continuous radius certificate",
+    "Only the protected first circle strip has the new explicit curvature/support bounds",
+    "Complete prefix, bridge, true DN, tail, cap, shared C2, full-time bounds and fixed-final-g convergence still unpaid",
+    "All new numerical entries and JSON parameter configurations are prepared, not executed"
+  ],
+  "interface_audit": {
+    "audited_main_source_ref": "6da577d085d4b8a6e22e3523e10752ad6f4ae42a",
+    "audited_7a_and_chord_ref": "b616d6577b7b6e46a4abef4775358aa83eecc108",
+    "generic_profile_table_provider": true,
+    "portable_core_profile_inputs_parameterized": true,
+    "accepted_original_has_no_fixed_k_S_gate": true,
+    "lambda_secant_requires_common_profile_and_other_core_settings": true,
+    "old_calibrate_and_check_hardcode_old_profile_and_are_not_modified": true,
+    "old_profile_budget_box_label_not_a_R87_proof": true,
+    "lambda_one_chord_requires_actual_lambda_one_blend_one_M_at_most_64": true,
+    "no_existing_old_field_geometry_bound_reused": true
+  },
+  "publication_format_only_change": "Root converted mathematical delimiters to repository-required dollar syntax; scalar source/configs and original computation unchanged."
+}

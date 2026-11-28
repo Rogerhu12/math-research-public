@@ -1,0 +1,53 @@
+{
+  "direction": "outward",
+  "vu": 0.45,
+  "vd": 0.5,
+  "ramp": 0.4,
+  "ramp_eta": 0.05,
+  "ramp_law": "held10_multistage_flat_v1",
+  "cycles": 1,
+  "delta": 0.0645,
+  "prefix_bridge": {
+    "kind": "turn_plateau_v1",
+    "curvature": 4,
+    "peak_fraction": 0.2
+  },
+  "multistage_flat": {
+    "reference_delta": "3/50",
+    "eta": "1/20",
+    "up": [
+      [
+        "0",
+        "9/20",
+        "10/57"
+      ],
+      [
+        "9/20",
+        "9/20",
+        "1/855"
+      ],
+      [
+        "9/20",
+        "0",
+        "4/45"
+      ]
+    ],
+    "down": [
+      [
+        "0",
+        "-1/2",
+        "2/25"
+      ],
+      [
+        "-1/2",
+        "-1/2",
+        "1/25"
+      ],
+      [
+        "-1/2",
+        "0",
+        "2/25"
+      ]
+    ]
+  }
+}

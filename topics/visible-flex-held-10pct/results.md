@@ -229,3 +229,7 @@ R85补充：[原完整回代误差及小块验证](results/R85-supplement-comple
 ## R86. 完整真圆盘的更强固定标记及原几何预算保持
 
 [完整证明](results/R86-full-disk-marker-with-unchanged-geometry-budget.md)。原双平盘上取准确半径2r0、幅度1600ε0，公共Cartesian两jet及全相位固定新盘度量明确；新帽K≤10.08且半径/支撑优于原全图预算，故R82的D与reach/D界原样成立。准确帽矩与指定端点I3差增至51200倍，I3差>3.59e−14；非Hausdorff倍数、非原g精化。BigInt已执行，新Python入口尚未运行。
+
+## R87. 单缓坡新轮廓与半曲率长握持窗
+
+[完整证明](results/R87-single-gentle-ramp-half-curvature-held-window.md)。取k=1/2、S=27/40、b=3/10、α=4/5并真正更换上升轮廓；首圆片Km²≤129600/931、保护传播窗在首升速内耗尽，50 Bernstein盒给首周期|X|<1.34。明确新输入下的条件H/held/reach比例，原核心支持参数须A≤2/3；完整新非圆BVP/DN/闭图和固定g精化继续。

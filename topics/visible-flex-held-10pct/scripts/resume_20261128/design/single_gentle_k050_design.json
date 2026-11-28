@@ -1,0 +1,39 @@
+{
+  "schema": "held10-R87-single-gentle-k050-design-v1",
+  "status": "new_physical_input_prepared_scalar_proof_only",
+  "physical_problem_finally_frozen": false,
+  "BVP_or_linear_calibration_executed": false,
+  "delta_initial_is_uncalibrated": "129/2000",
+  "profile": "scripts/resume_20261128/design/single_gentle_k050_profile_initial.json",
+  "core_lambda_zero": "scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json",
+  "core_lambda002": "scripts/resume_20261128/design/material_single_gentle_k050_lambda002.json",
+  "mathematical_parameters": {
+    "n": 3,
+    "k": "1/2",
+    "S": "27/40",
+    "b": "3/10",
+    "phase_endpoint": "4/5",
+    "H_width": "27/50",
+    "sweep_end_slack": "1/200",
+    "delta_ref": "3/50",
+    "r_interval": [
+      "21/20",
+      "11/10"
+    ],
+    "weighted_support_radius_bound": "2/3"
+  },
+  "numeric_parameter_storage": "The original Python constructors store the JSON numbers as binary64. R87 states the exact rational design and strict budgets; no finite quadrature/binary64 field is declared an exact geometric realization.",
+  "proposed_input": {
+    "gauge_q": 0.012,
+    "warp_reference": 0.012,
+    "previous_true_inputs_only_as_unaccepted_new_profile_guesses": true
+  },
+  "new_geometric_requirements": {
+    "original_port_physical_background_may_be_reused_if_unchanged": true,
+    "old_tail_response_may_not_be_reused_as_new_DN": true,
+    "new_complete_prefix_and_tail_required": true,
+    "new_metric_curvature_support_radius_proof_required": true,
+    "freeze_final_selected_g_before_refinements": true
+  },
+  "old_gates_not_changed": true
+}

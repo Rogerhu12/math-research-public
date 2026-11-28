@@ -76,6 +76,7 @@
     "fixed_problem_refinement_claimed": false,
     "README_completion_claimed": false
   },
-  "publication_format_only_change": "Root converted math delimiters to the repository-required $ and $$; no mathematical or numerical source changed.",
-  "published_proof_sha256": "2b83296d9d8db957df0848fdc9e211828112dd5c22c4d6f9342d28f37f9f916c"
+  "publication_format_only_change": "Initial delimiter conversion was followed in the R86 commit by converting line-alone single dollars to double dollars. This metadata records that actual proof byte hash; mathematics, input and scalar computation are unchanged.",
+  "published_proof_sha256": "e8b7b72275813f2a814ccec6d252dd09f88b46ee479f3021abb196717fb87bc1",
+  "previous_published_proof_sha256": "2b83296d9d8db957df0848fdc9e211828112dd5c22c4d6f9342d28f37f9f916c"
 }
