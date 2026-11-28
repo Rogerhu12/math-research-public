@@ -10,7 +10,7 @@
 
 旧repo路径消失后已重新真实部分克隆，终端可用；各次pull/readme检查和旧提交恢复沿逐字归档与log，不重演已推结论。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-CM-section-lock.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-CM-node-log-correction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -43,19 +43,13 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E全裂；全部primitive槽整分裂，u=[F0:E]时Lie/Tate维2u/4u。同β和原有理Abel首向量逐嵌入横截，未给单位。
 
-[R1193–1201](results.md)原最高packet=τ_m+PS_(m−1)，首中心η=T db/(uA)、全部CM旗标秩n且核T*=−r^n；原有限log、SS全normal及相位τ=B²、C²=γ²/B^(2p)、统一ν均保。R1201的SS有限和准确32m c₀ν/binom(m,n)²为unit；其完整V解释正核下述node frame。保simple极部，不扩扫描。
+[R1193–1201](results.md)原最高packet=τ_m+PS_(m−1)，首中心η=T db/(uA)、CM旗标秩n且核T*=−r^n。原有限log、SS全normal及canonical τ=B²、C²=γ²/B^(2p)、统一ν均保。R1201的SS和32m c_mν/binom(m,n)²正确；其完整V解释现由R1208更正。保simple极部，不扩扫描。
 
-**当前优先审计：** R1199 §6 从centre普通开平凡化直接延到CM node的步骤可能漏掉模π单位g₀；affine H¹(IO)=0只保证提升既定模I frame，不保证这个node frame与之相容。正按原G(b_lift)²/x^(ma)和twister核g₀及全图补项。核清前只消费R1201的SS有限和单位，不消费其等于完整V_m(T*)的接口；R1202–07的独立格/返回/原函数/截面结论不受此待核影响。
+[R1202–1205](results.md)原实际最高负deck整Ω有UΩ∈pΛ；PS临界Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N矩阵[[1/4,1/8],[−1/2,−1/4]]。真实π^−pU返回C(T)=−3γ²𝒟T，𝒟T=rT″−4b²T′−9bT/4；imC=ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠1unit。原full-p两平方类组件的ε函数及自然δ重数付rank qΓ=n、λ0，bot:qΓ/pqΓ≅ker𝔠，高PS返回给实际整基。若𝔠(T*)=0可传R1208完整unit，否则不能将T*作pure底；指定C/whole MW仍开。
 
-[R1202–1203](results.md)原每个负deck最高权实际整Ω有UΩ∈pΛ，故qΓ整分裂；同底lift差π^(e0−p)Ψ仍可经π^−pU返回。全normal/临界jet/centre排除已付；PS临界模Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]，Frobenius交换与全部群和常数已核。不能先定义lift独立A(L)，指定C两列及whole MW仍开。
+[R1206–1207](results.md)显示f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，SS完整主部−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)全保，CM/∞正则消失。实际six/p-level/framing组合在整个O/(p)锁CM section V0/U±c/2，H_k(cξ)=0仅k≤n；顶k=n+1另由R1208读值。exactness和锁点不删除完整gluing。
 
-[R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ，实际特征零multiplicity已由R1205核为n、λ=0；𝔠(T*)未宣单位，不将packet值传C/whole MW。
-
-[R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
-
-[R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
-
-[R1207](results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md)原c₁的CM μ₃在实际p基中为原C_ns矩阵；连同原H₆六标记运输和framing，其组合固定整CM截面。R1021的精确eigen参数/模p线性作用给(I−ζ)(α,β)=0，两个特征值差为unit，迫一个Cartan坐标在整个O/(p)精确0。因此V=0、U=±c/2，原三个支持CM截面全模p锁在Q，原H_k(c_ξ)=0。此为包含nilpotents的锁点；twister/node/G(b_lift)²与完整Čech仍须合并，不恢复撤回的CM秩零商。
+[R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
 
 ## 已成、禁止重做与其它入口
 

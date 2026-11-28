@@ -1,5 +1,10 @@
 # R1200：原 Igusa–Weil 相位的锁定及最高 packet 的有理配对算子
 
+**现行范围更正（R1208，2026-11-28）：** 本文 canonical Igusa–Weil 相位、原有限算子及完整 SS 收缩均保持成立。§7 及依赖 R1199 (1199.30) 将该 SS 和写作完整 V_m(T*) 的接口遗漏 CM node 静态单位；旧正文相应左侧 V_m(T*) 现应读为 SS 部分。完整原对数在 [R1208](R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md) 中补足，准确为 −8·2^mν/binom(m,n)²。以下原 SS 算式和证明不重算，不能再把它单独称为全图值。
+
+## 更正前正文（按上方现行范围读取）
+
+
 日期：2026-11-28。会话：Astra-serre-24b8836b-20261126；global_route / root。
 
 **已证明。** 本文使用原普通商的同一个 Cartier–Weil character、同一个刚化 Poincaré 线和原 full-level 参数，确定 R1199 中全部普通节点的相位。原相位 $\nu_s$ 是一个与 supersingular 点 $s$ 无关的明确单位 $\nu$。随后把 R1199 的完整有限收缩写成原 $b$ 坐标中的一个有理微分算子；它保留全部较低 log 次数与较高 normal 的交叉项。

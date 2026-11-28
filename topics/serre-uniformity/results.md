@@ -1,6 +1,6 @@
 # 结论索引
 
-**当前优先审计：** R1199 §6 从centre普通开平凡化直接延到CM node的步骤可能漏掉模π单位g₀；affine H¹(IO)=0只保证提升既定模I frame，不保证这个node frame与之相容。正按原G(b_lift)²/x^(ma)和twister核g₀及全图补项。核清前只消费R1201的SS有限和单位，不消费其等于完整V_m(T*)的接口；R1202–07的独立格/返回/原函数/截面结论不受此待核影响。
+- **原 CM 节点边界与完整首对数的准确更正（已证明）**：[R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
 
 - **原 CM 截面在完整非约化尾上的锁点（已证明）**：[R1207](results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md)原c₁的CM μ₃在实际p基中为原C_ns矩阵；连同原H₆六标记运输和framing，其组合固定整CM截面。R1021的精确eigen参数/模p线性作用给(I−ζ)(α,β)=0，两个特征值差为unit，迫一个Cartan坐标在整个O/(p)精确0。因此V=0、U=±c/2，原三个支持CM截面全模p锁在Q，原H_k(c_ξ)=0。此为包含nilpotents的锁点；twister/node/G(b_lift)²与完整Čech仍须合并，不恢复撤回的CM秩零商。
 
@@ -18,13 +18,13 @@
 
 - **原最高权实际整微分的单尖点投影整性（已证明）**：[R1202](results/R1202-original-highest-character-cuspidal-projection-integrality.md)原每个实际负deck、最高权整Ω满足U_mΩ∈pΛ，故qΩ整且同惯性W格Γ由q整分裂。原M_N全部0≤N≤p的Ubar消去已付，临界两份W由极化jet的实际直和处理，中心π^(e0−p)返回由全SS节点排掉。仍须保实际Ω：同底lift差π^(e0−p)Ψ_high经q可返回π^−pUΨ，不可先定义A(L)或将R1201单位传C。当前继续实际PS的n=p Frobenius/Cartier源及q后两列。
 
-- **原最高packet的CM核完整首log单位（已证明）**：[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
+- **原 SS 完整求积单位（完整对数由 R1208 更正）**：[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)同一Jacobi求积权1、CM端点32及有限RC多项式原函数给SS和准确32m c_mν/binom(m,n)²；保全部simple极部。该式旧称完整V的接口已由R1208补node，完整值改为−8·2^mν/binom(m,n)²。一般pure/指定C两列仍开。
 
-- **原规范Igusa–Weil相位与最高packet有理算子（已证明）**：[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ_s=B_s²、C_s²=γ²/B_s^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。原有限算子P_m保全部reference权，V(T*)=−mc₀νΣP_m(T*)(s)/(r_s^(2g+1)A′_s²)；μ3全和仅留λ₁=−6b/r。完整全和已由R1201纸证为单位；有限探查只否定逐点simple零路线，不重旧窗口。
+- **原 Igusa–Weil 相位与 SS 算子（已证明）**：[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)同一relative F/Poincaré primitive锁τ=B²、C²=γ²/B^(2p)、共同ν；完整有限算子P_m与全SS和准确保留。μ3消λ₀，λ₁全simple极部不能删；run46164785591在59/71/83的27/33/39非零simple及SS/ν=43/13/54仍有效，旧V标签由R1208更正为SS部分，不重跑或扩扫。
 
 - **原Hahn半步分解与真实取消参数导数（已证明，R1194 §§9.7–9.9）**：[R1194 §§9.7–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)已付同原L的半步分解T₂T₁、短核/全格点核及全长Saalschütz空间导数单位；该导数未冒认谱导数。实际t_r=(2m−1)F_m′(0)/(24m)来自先终止后微分，Whipple后取消参数的调和余项完整保留；HC.34–35给同一个原w(-1/2)的加权导数/有限三角源。继续全部余项与边界到4D_N′(1)+(4/3)D_N(1)的实际箭头，指定双零仍未排。
 
-- **原最高packet完整普通尾配对与CM核首log（已证明）**：[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。原ν_s相位及完整核值已由R1200–1201支付；指定C整运输按后继继续。
+- **原 generic 全 normal 收缩（支持接口由 R1208 更正）**：[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像、低a/high-normal交叉及opposite无关性保持。§6删除支持node的步骤已由R1208更正；原SS和仍有效，但完整V必须加入同一CM静态边界。
 
 - **原普通商全部周期jet与有限log输入（已证明）**：[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
 

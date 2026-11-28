@@ -462,6 +462,6 @@ $\lambda=1$，可用本篇实际 $\mathscr C$ 修正提升，把每一个原底�
 - R1021、R1199 (1199.14)：整个非约化模 $p$ 的原 full affine 图及真正 $z=V^{-1},W_s=\pi_0V$。
 - R1198 (1198.4)、R1200：原 Hasse／Gauss–Manin 方程和同一 Cartier–Weil 节点相位。
 - R1203：原 $\bar U=-iq_2/4$ 及正规化子固定二维空间的准确矩阵；正文没有重新定标。
-- R1201：同一个 Jacobi 方程、Rodrigues 公式及已成的最高 packet kernel 单位。
+- R1201：同一个 Jacobi 方程、Rodrigues 公式与 SS 求值；完整最高 packet kernel 单位按 R1208 的 CM node 更正读取。
 
 全文为纸面证明，未执行数学程序或重扫素数窗口。o2_high_coefficient 独立核过 (1204.17)–(1204.22) 的反演、正确 Hasse 方程、全部节点尺度及二对角单位；几何来源和商上的量词按正文单独支付。
