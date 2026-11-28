@@ -117,6 +117,6 @@ jobs:
         env:
           MR_TOKEN: ${{ secrets.MR_TOKEN }}
         run: >-
-          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_gzip_stdin_20261127.py
           --request topics/visible-flex-new-mechanism/computations/request-r566-0449-working2048-resume-20261128.json.gz
           --lane rounded-core-B030-actual0449-working2048
