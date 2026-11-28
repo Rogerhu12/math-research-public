@@ -1,35 +1,43 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-Hahn-Beta-pairing-20261128",
-  "request_id": "ha24-original-Hahn-Beta-pairing-20261128",
-  "message": "serre: transport original Hahn spectral derivative to exact finite Beta pairing",
-  "last_read_rules_commit": "f84a2f1a31a65c4ff756b7b0bf81ef08bcee3776",
+  "source_branch": "serre-astra24-publish-complete-RC-CM-contraction-20261128",
+  "request_id": "r1209-original-complete-RC-CM-20261128",
+  "message": "serre: compute complete original RC CM contraction and endpoint log",
+  "last_read_rules_commit": "3431f4ce7c94fb04ade4c96ee6875d3416e51418",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "6e337de9196c7a63cb1ba04302976cbfa45fef1d",
+  "previous_request_git_blob": "757071e69ab3da40cb5934e0b4d2fd203321dac7",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md",
-      "previous_git_blob": "3e171a96ab7af2acfffa4d977784312dadaa8da1"
+      "path": "topics/serre-uniformity/results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-complete-RC-CM.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/open-archive-2026-11-28-before-complete-RC-CM.md",
+      "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "9c907d38a929e341b641ba57dcdb536c2654c94b"
+      "previous_git_blob": "5924669977573f19c80ffb4e937126ee0c6a1525"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "4924410790ed8b79c63f79e9664e9227b1bf50c9"
+      "previous_git_blob": "c8e4f70d09342fceee1f9f26f18d347d04b66d54"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "4c26cc96324ab80b8d714c6ac0d4620f4735fee8"
+      "previous_git_blob": "6a7eeb89d3796d2ec856817504fe481ef95c0e72"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "62998c21eb7fcfd75c54911c2b3e081fab83545f"
+      "previous_git_blob": "f8128a0fbbc5abc9ea1f829e8551163a175096bd"
     }
   ]
 }
