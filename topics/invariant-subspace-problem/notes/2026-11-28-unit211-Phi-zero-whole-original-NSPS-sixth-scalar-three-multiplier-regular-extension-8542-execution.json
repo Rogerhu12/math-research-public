@@ -1,0 +1,233 @@
+{
+  "schema": "isp-Phi-whole-original-NSPS-sixth-scalar-v1",
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "run": 46092124809,
+  "job": 140815217715,
+  "execution": {
+    "elapsed_seconds": 2.343511191000001,
+    "max_child_rss_kib": 50952,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "68a7f9237a3ef469db4f3770e1660c69e4b94584",
+        "before": "68a7f9237a3ef469db4f3770e1660c69e4b94584",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T01:15:06.458039+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46092124809",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "68a7f9237a3ef469db4f3770e1660c69e4b94584",
+    "source_exit_code": 0,
+    "source_git_blob": "24ec668e3008a6ccceae628d563b94ba77ebb4da",
+    "source_sha256": "5d799b07f23bcc8bd00a2c210416926bbe648869723eb39eeee7c8b0f2b00277",
+    "stdout_bytes": 2969,
+    "stdout_sha256": "501358ea2732933d5370ef2b2fa3d65ff0a3b0775244bd613f94ebfa74d2c021",
+    "stop_reason": null
+  },
+  "originalMultiplierReturn": {
+    "sourceScope": "current Phi=0,D!=0, entire first head already excluded",
+    "scalarDefinition": {
+      "degrees": [
+        53,
+        27,
+        6,
+        0,
+        0
+      ],
+      "totalDegree": 58,
+      "terms": 5716,
+      "bytes": 230174,
+      "sha256": "f4ce16cd647975b8a431dabd5006289b475402096c92a2fb1c12897c4afd033c"
+    },
+    "multipliers": [
+      {
+        "label": "NS",
+        "allDenominatorOldPaid": true,
+        "multiplier": {
+          "numerator": {
+            "degrees": [
+              47,
+              24,
+              3,
+              0,
+              0
+            ],
+            "totalDegree": 51,
+            "terms": 2854,
+            "bytes": 109194,
+            "sha256": "492ae983ed7ceaf6ded952ced87310602eae2d473fd730143a46d553aec13ea8"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 0,
+            "terms": 1,
+            "bytes": 18,
+            "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+          }
+        },
+        "retainedPoleSupport": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 0,
+          "terms": 1,
+          "bytes": 18,
+          "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+        },
+        "removedOnlyOldWholePhiWeights": []
+      },
+      {
+        "label": "PS",
+        "allDenominatorOldPaid": true,
+        "multiplier": {
+          "numerator": {
+            "degrees": [
+              48,
+              25,
+              3,
+              0,
+              0
+            ],
+            "totalDegree": 52,
+            "terms": 2873,
+            "bytes": 110514,
+            "sha256": "68dfccac792c3900f80c7b84449704a31e75ebdb4bd5edbc562b9d0aecb811c9"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 0,
+            "terms": 1,
+            "bytes": 18,
+            "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+          }
+        },
+        "retainedPoleSupport": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 0,
+          "terms": 1,
+          "bytes": 18,
+          "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+        },
+        "removedOnlyOldWholePhiWeights": []
+      },
+      {
+        "label": "original_N1",
+        "allDenominatorOldPaid": true,
+        "multiplier": {
+          "numerator": {
+            "degrees": [
+              43,
+              24,
+              4,
+              0,
+              0
+            ],
+            "totalDegree": 48,
+            "terms": 3031,
+            "bytes": 114231,
+            "sha256": "ebcae6fcd47d4ccf606bfc7f456ba5b4966abfe7791e49009271898b66e8ec17"
+          },
+          "denominator": {
+            "degrees": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 1,
+            "terms": 1,
+            "bytes": 18,
+            "sha256": "8a81fcdaee821548c2dcca4b536dfdedda3b7ad85284c7d8f8ff46f3c6214faa"
+          }
+        },
+        "retainedPoleSupport": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 0,
+          "terms": 1,
+          "bytes": 18,
+          "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+        },
+        "removedOnlyOldWholePhiWeights": [
+          {
+            "unit": "Q",
+            "passes": 1
+          }
+        ]
+      }
+    ],
+    "noSlopeInverseAllowedInNewRegularityTest": true,
+    "actualThirdMultiplierReturned": true,
+    "allOldWeightRegular": true,
+    "stage": "new_actual_three_original_multipliers_whole_weight_regularity",
+    "seconds": 2.1902557899999984
+  },
+  "conclusion": {
+    "exactOriginalScalar": {
+      "degrees": [
+        53,
+        27,
+        6,
+        0,
+        0
+      ],
+      "totalDegree": 58,
+      "terms": 5716,
+      "bytes": 230174,
+      "sha256": "f4ce16cd647975b8a431dabd5006289b475402096c92a2fb1c12897c4afd033c"
+    },
+    "allThreeOriginalCoefficientIdentitiesReturned": true,
+    "actualIdentity": "mu*NS+nu*PS-k*N1_remainder=C6 modulo three original means",
+    "originalNSPSDAGNodes": [
+      1518,
+      1535
+    ],
+    "noSlopeInverseInAnyFinalOriginalCoefficient": true,
+    "wholeSlopeZeroLocusNowCoveredForThisScalar": true,
+    "entireExistingUnpaidTrueLeadingLocusStillRetained": true,
+    "noNewCofactorContentHeadOrLargeProjectionGate": true,
+    "lambdaDegree": 6,
+    "lambdaDegreeSixLeadingOpenNecessaryLengthAtMost": 18,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false,
+    "peakRSSKiB": 50952,
+    "stage": "new_entire_Phi_actual_NSPS_sixth_scalar_original_ideal",
+    "seconds": 2.3152563639999997
+  }
+}

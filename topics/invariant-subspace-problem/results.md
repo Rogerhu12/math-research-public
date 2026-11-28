@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [R150：整个 Phi 的原 NS/PS 六次标量及三乘子正则延拓](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)：24ec真2.343511191秒/0，最后N1乘子分母仅Q，C6完整覆盖Δ0；H42补图每权≤18，额外Δ补图≤12，整首项零仍留。
+
+- [R150：P164 保次数整特化、无竖直分量与秩97局部权模型](results/R150-appendix-unit211-W-native-P164-integral-specialization-no-vertical-component-and-local-weight-model.md)：e4bcc真11.412102491秒/0，固定195=98+97及三QQ商241次完整Bézout1，给真P无纯k内容；A上首一e97环境自由，后续原商/权单位未冒付。
+
 - [R12：原 Haar 全 Walsh 块的秩一 carry、迹类来源与闭块根](results/R12-appendix-actual-walsh-block-trace-class-carry-and-closed-diagonal-roots.md)：原C=D+K全部矩阵元、K迹类、精确循环相似费、真实闭稳定块根及RK/KR迹类域完整付出；同一实际相邻carry的主根线性Sylvester无有界修正。
 
 - [R12：全部 Walsh 循环块根分支的同源 Sylvester 发散](results/R12-appendix-all-walsh-block-root-branches-same-carry-sylvester-divergence.md)：cyclotomic代数范数给所有Fourier系数统一下界，全部分支的同一相邻carry实际元仍发散；保非线性X²、其它闭域与真实原旗。
