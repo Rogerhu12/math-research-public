@@ -696,3 +696,123 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 05:05:57 UTC — 25第三个恢复步实际接受及曲率位置
+
+当前e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf真实accepted3，Phi681.6470516175361/Gram.40616529581758637；reachg.5235597907246015、distanceplus.11392305204890485仍正。K12.270228137176547、D点下界4.1171736275838065、cell885/u.9662347571015759/phiπ/2/branch1，s仍null，不沿28的新s。原trial alpha1/restoration；04:56:14.913562 current geometry返回，05:01:07观察尚无完整report/自然退出。
+
+完整原观察含实际source/PID/driver/model/target/initial/current/trial、全部六物理族、原normal进度和每一观察错误如下。工作几何complete仅指该有限步骤；没有whole准确界或README完成。完整全量report与child自然返回仍未观察。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-first-20261128",
+  "scientific_source_commit": "870e11a12df457bac9c538b8a4ec054d93cd572d",
+  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
+  "pid": 3219,
+  "observations": {
+    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_scope_closed",
+      "at": "2026-11-28 04:54:36 UTC",
+      "point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "cached_angle_roots": 1441,
+      "closure_original_returns": 126603,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T04:56:14.913562+00:00",
+      "math_event": "current-geometry-returned",
+      "math_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
+      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+      "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 681.6517423825409,
+      "initial_Gram": 0.40616525311769985,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.5305849371949052,
+      "initial_geometry_complete": true,
+      "current_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "current_Phi": 681.6470516175361,
+      "current_Gram": 0.40616529581758637,
+      "current_geometry_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "current_violation": 0.5235597907246015,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "trial_Phi": 681.6470516175361,
+      "trial_Gram": 0.40616529581758637,
+      "trial_geometry_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "trial_violation": 0.5235597907246015,
+      "trial_geometry_complete": true,
+      "trial_accepted": true,
+      "accepted_directions": 3,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.5235597907246015,
+      "current_g_body_diameter": -0.038136386569002756,
+      "current_g_distance_plus": 0.11392305204890485,
+      "current_g_distance_minus": -3.093633727173847,
+      "current_g_cap_diameter": -0.06715168866958865,
+      "current_g_height_floor": -1.0411711268457509,
+      "previous_completed_trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+      "previous_completed_trial_g": 0.5235597907246015,
+      "previous_completed_trial_accepted": true,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 681.6470516175361,
+      "previous_completed_trial_Gram": 0.40616529581758637,
+      "current_K": 12.270228137176547,
+      "current_D_point_lower": 4.1171736275838065,
+      "current_K_cell": 885,
+      "current_K_u": 0.9662347571015759,
+      "current_K_phi": 1.5707963267948966,
+      "current_K_branch": 1,
+      "current_K_s": null,
+      "trial_K": 12.270228137176547,
+      "trial_K_cell": 885,
+      "trial_K_u": 0.9662347571015759,
+      "trial_K_phi": 1.5707963267948966,
+      "trial_K_branch": 1,
+      "trial_K_s": null,
+      "trial_alpha": 1,
+      "trial_phase": "restoration",
+      "current_distance_plus_phi": 1.5707963267948966
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3400,
+      "sha256": "ab17066db20fcf576bd593fb3f1313038f7944ae45b9bf4abb84acae3314e6db",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-paired-halfwave-dk-cache-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 15574,
+      "sha256": "f81407971906b3a741f6bf5552b6a85fad39604e6795703214accd83b00d058d",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "b9a27bd569d1ba0753b996fd114948ced882ccfbd2a5085555d1f2b96b76a8a7",
+  "observed_utc": "2026-11-28T05:01:07Z"
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 38994,
+    "sha256": "e1a1ccef636b085abb291b265f7ff560dbf9e7c103e3dbca6b4b265435043123",
+    "git_blob_sha": "a52fd8617cfa0391322bece62fa5aae6ed8b83c7",
+    "fixed_commit": "7e0683e820718743a3a62cc475bc465eb60f36e7",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
