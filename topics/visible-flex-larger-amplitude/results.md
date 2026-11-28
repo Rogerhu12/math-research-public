@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R737（已证明，新设计度量的闭面等距端点对）**：[双帽匹配与有限精确等距非全等对](results/R737-two-cap-matching-and-exact-finite-closed-isometric-pair.md) — 原深谷稳定线的项目角无界绕行，连续择真实cut使圆肩赤道 $W=0$，镜像得两p4帽固定的全闭非刚无穷小弯曲。固定小 $\epsilon\ne0$ 的 $F_*\pm\epsilon Y$ 精确共享 $g_\epsilon$，均闭 $C^2$ 嵌入、reach $\ge.046>.03D$、$D<1.5$、grip $\ge.9$、两像及欧氏商距离正。新metric只在两末段保R690；未证贯穿等距路径、$.2D$ held或cut的数值复现。
+
 - **R736（已证明，单帽兼容全部有限非线性阶）**：[实际深谷的全阶固定帽等距jet](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md) — 稳定线 $\log|y_n|/n^2\to-2\pi$，任意 $\sigma>2\pi$ 的强迫逆保同衰减类、含零模及高模；逐阶解全部三Gram，得到同g/同材料段的兼容任意阶非零形式族及光滑振幅实现，帽全jet固定。误差只按振幅平坦，未证固定非零幅度收敛、另一端闭合或全像大位移。
 
 - **R735（已证明，实际单帽非零线性核）**：[原深谷帽端的平坦无穷小弯曲线](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md) — 实际R690无限振荡尾对每个 $m\ge2$ 均有非零 $C^\infty$ 帽端全jet平坦解；正Hamilton双半周期精确传递与反向连分式给 $e^{-c n^2}$ 稳定线，Wronskian证每个实角parity恰一径向线，能穿越 $a,c>0$ 内区间。$m=0,1$ 固定帽为零；未积分成有限flex，未接非圆core或另一帽。
