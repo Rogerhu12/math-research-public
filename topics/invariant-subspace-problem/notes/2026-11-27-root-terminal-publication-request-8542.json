@@ -1,24 +1,17 @@
 {
-  "message": "ISP: exclude complete B terminal quadratic and stage new original fu and scaled V inputs",
-  "parentCommit": "1d1ec944b457eeb38a85423e305a43f457688394",
+  "message": "ISP: prove true fu centered monic quadratic and full original two mean source",
+  "parentCommit": "7588478671c1f733a31225fce654008d3c5b5a75",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-quadratic-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-terminal-quadratic-original-return-8542.execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-terminal-original-multiplier-cancellation-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-terminal-original-multiplier-cancellation-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-terminal-original-multiplier-cancellation-8542.source-review.json",
-    ".github/workflows/invariant-subspace-8542-phi-fu-terminal-multipliers.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-scaled-entire-V-first-qT4-pair-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-scaled-entire-V-first-qT4-pair-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-scaled-entire-V-first-qT4-pair-8542.source-review.json",
-    ".github/workflows/invariant-subspace-8542-w-scaled-entire-v.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-hourly-0726-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-B-terminal-quadratic-complete-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-B-terminal-quadratic-complete-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-fu-centered-v-monic-quadratic-and-two-mean-source.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-centered-v-two-mean-identities-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-centered-v-two-mean-identities-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-centered-v-two-mean-identities-8542-source-review.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-fu-centered-v-quadratic-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-fu-centered-v-quadratic-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -27,8 +20,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-fu-terminal-multipliers.yml",
-    "invariant-subspace-8542-w-scaled-entire-v.yml"
-  ]
+  "dispatchWorkflows": []
 }

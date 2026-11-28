@@ -81,3 +81,8 @@
 - fu新c585终端18原乘子首派120秒1GiB：全12坐标反传、完整Ψ短除与三个必要adj原乘子，最终约分后分母一次LCM；root/r150全文静核，db5f未执行草稿qreduce接序在首派前修正，不登记actual失败。
 - W新2d722首派180秒4GiB：完整ell缩放N4三输入、六个ell²恢复及首个qT4/Vlow αχ pair；旧reducer及支持表不改，不重R6/Nlow/Plow或十行/三scalar。两新workflow变更记本题log。
 - 07:26:36 UTC每小时存储元数据检查：本题129708286B、无≥100KB Markdown，H9717B/open29666B；仅读树元数据，不搬运可重算载荷。
+
+2026-11-28 15:30 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 真fu两mean以x=u+t/4、ξ=−u(t−2)/(4θ)全中心化：4Qθδ EBo=s[Hf v²+4Qθ(2u−3)]，Hf整图单位、无u/m逆，给固定权全纤维首一v²。
+- 完整even/odd消去v²给QΨ=2θHf EBe−δPn EBo/s；新V8两纯权身份实际2ms，源1f1b5a/8bc3...，不冒充完整Gram运行；root/r150全文独立核两mean尺度及原恢复。
+- 每权至多2个(λ,T,t,x,y)，ρ两根、simple值首项b ell二次全保，结合已登记261权对得2088完整规范不同点界，非scheme长度/存在或排空。新c585实际C17一次/rad16已返，下一条正式记录收紧权覆盖。

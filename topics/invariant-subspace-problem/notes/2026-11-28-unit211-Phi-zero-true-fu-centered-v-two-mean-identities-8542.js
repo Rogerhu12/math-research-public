@@ -1,0 +1,31 @@
+(()=>{"use strict";
+const start=Date.now();
+const Z=()=>new Map(), c=n=>n?new Map([["0,0",BigInt(n)]]):Z();
+const mon=(i,j,n=1n)=>new Map([[i+","+j,BigInt(n)]]);
+const add=(a,b)=>{const r=new Map(a);for(const [k,v] of b){const z=(r.get(k)||0n)+v;if(z)r.set(k,z);else r.delete(k);}return r;};
+const sc=(a,n)=>new Map([...a].map(([k,v])=>[k,v*BigInt(n)]).filter(x=>x[1]));
+const sub=(a,b)=>add(a,sc(b,-1));
+const mul=(a,b)=>{let r=Z();for(const [k,v] of a)for(const[l,w]of b){const x=k.split(",").map(Number),y=l.split(",").map(Number),z=[x[0]+y[0],x[1]+y[1]].join(",");const val=(r.get(z)||0n)+v*w;if(val)r.set(z,val);else r.delete(z);}return r;};
+const pow=(a,n)=>{let r=c(1);for(let i=0;i<n;i++)r=mul(r,a);return r;};
+const sum=(...xs)=>xs.reduce(add,Z());
+const u=mon(1,0),Q=mon(0,1),one=c(1),s=sub(u,one),h=sub(sc(u,2),c(3));
+const L=sub(Q,sc(mul(s,sub(u,c(2))),2)),theta=sub(u,L),delta=sub(one,Q);
+const C2=sub(sum(sc(s,2),Q),sc(L,2));
+const d=sum(sc(pow(u,2),4),sc(u,-11),c(8));
+const e=sc(mul(s,pow(sub(u,c(2)),2)),4);
+const D=sub(sub(pow(Q,2),mul(d,Q)),e);
+const Pn=sum(mul(sub(sc(L,2),Q),pow(theta,2)),sc(mul(mul(sub(mul(u,Q),L),u),theta),2),sc(mul(mul(delta,pow(u,2)),Q),-1));
+const H=sub(mul(mul(theta,C2),D),mul(h,Pn));
+const Psi=sum(pow(Q,3),mul(sum(sc(pow(u,2),-10),sc(u,24),c(-15)),pow(Q,2)),mul(sum(sc(pow(u,4),32),sc(pow(u,3),-152),sc(pow(u,2),276),sc(u,-228),c(72)),Q),sum(sc(pow(u,6),-32),sc(pow(u,5),224),sc(pow(u,4),-672),sc(pow(u,3),1104),sc(pow(u,2),-1040),sc(u,528),c(-112)));
+const qdeg=a=>Math.max(-1,...[...a.keys()].map(k=>+k.split(",")[1]));
+const qcoef=(a,n)=>new Map([...a].filter(([k])=>+k.split(",")[1]===n).map(([k,v])=>[k.split(",")[0]+",0",v]));
+let rem=H,quo=Z();
+while(rem.size&&qdeg(rem)>=3){const n=qdeg(rem)-3,term=mul(qcoef(rem,qdeg(rem)),mon(0,n));quo=add(quo,term);rem=sub(rem,mul(term,Psi));}
+const flat=a=>[...a].sort((a,b)=>a[0].localeCompare(b[0])).map(([k,v])=>[k,v.toString()]);
+const identical=(a,b)=>sub(a,b).size===0;
+if(!identical(H,sum(mul(quo,Psi),rem)))throw Error("full polynomial division failed");
+const oldD=sum(mul(mul(sub(one,L),delta),u),sc(mul(sub(mul(u,Q),L),theta),-1));
+const denD= sum(mul(mul(sub(Q,L),delta),u),sc(mul(sub(mul(u,Q),L),theta),-1));
+if(!identical(denD,mul(s,D)))throw Error("D identity failed");
+return {milliseconds:Date.now()-start,checks:2,theta:flat(theta),oddCoefficient:flat(D),evenCoefficientNumerator:flat(Pn),meanCompatibility:flat(H),psiQuotient:flat(quo),psiRemainder:flat(rem)};
+})()
