@@ -26,7 +26,7 @@
 | C2第二场，72128列 | 8.05757388e−10 | ≤9.976475574e−7 | R253>.03114830 | >.05278314 |
 | M48第三场，107456列 | N1536 6.07253082e−10 | [局部cross](notes/2026-11-28-2ecf-m12-local-p-slope-cross-gram.md)≤9.963039080e−7 | [完整R253](notes/2026-11-28-2ecf-m12-m48-full-geometry-and-closed-meshes.md)>.03116477 | >.05278311 |
 
-首场field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`；第二 `201de8909dc707c7d91749d812585233d49120c076468e9f2aebe97271114aed`；第三 `6aafee941eefdada991efa93316f89f9ddbdcd57f05c8bf33a51d19fe74e3d61`。各自身证书不互借，旧三角界失守字段保留。见[首实场](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)、[C2实步/角谱](notes/2026-11-28-2ecf-m12-first-c2-actual-step-and-spectrum.md)、[第二场完整cross](notes/2026-11-28-2ecf-m12-c2-second-full-cross-gram.md)。前两场未正则normal相对1.0065e−4/.001416，仍不能叫收敛。
+[M48全部7阶段真实返回及重生命令](notes/2026-11-28-2ecf-m12-c2-m48-actual-angular-refinement.md)已登记，微窗/全祖先均同场真0；角加密降低独立误差，不当真h加密。首场field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`；第二 `201de8909dc707c7d91749d812585233d49120c076468e9f2aebe97271114aed`；第三 `6aafee941eefdada991efa93316f89f9ddbdcd57f05c8bf33a51d19fe74e3d61`。各自身证书不互借，旧三角界失守字段保留。见[首实场](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)、[C2实步/角谱](notes/2026-11-28-2ecf-m12-first-c2-actual-step-and-spectrum.md)、[第二场完整cross](notes/2026-11-28-2ecf-m12-c2-second-full-cross-gram.md)。前两场未正则normal相对1.0065e−4/.001416，仍不能叫收敛。
 
 [R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)支付材料二jet抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)支付完整source-cross-Gram；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)用自身前缀/尾p分别乘CX。两合格场[三时刻完整闭网格](notes/2026-11-28-2ecf-m12-two-certified-fields-complete-closed-meshes.md)均真0，每份44714顶点/89424面，完整真cuff/帽/固定H；有限网格不替代连续证明或#5。
 
@@ -50,4 +50,4 @@
 
 11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:05:55 UTC；已读公开 main `59e990f2ce095c7669a65d2f2c61552bda61c2e8`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:08:06 UTC；已读公开 main `a7ee59c79535235b4161da7780b77556e9760940`，根/课题 README 逐差无变化。
