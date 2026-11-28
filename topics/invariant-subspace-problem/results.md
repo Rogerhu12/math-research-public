@@ -1,10 +1,14 @@
 # 已得结果
 
+> **优先更正（2026-11-28）：** 旧 compact 二重点均值平方错误已确认。凡沿错误 R2/Rbar 的原必要性、有限性或排除声明，以[更正与撤回范围](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)为准；旧矩阵运行记录不能继续充当原题证明。
+
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
 本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-positive-commutators-first-Phi-coefficients-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [R150：W 整Lhalf完整原理想排除](results/R150-appendix-unit211-W-entire-Lhalf-complete-original-exclusion.md)：F101完整QQ五因子及重数全回，正确原七行四整模型12/12/204/816满射、双逆/原D目标返回；一整因子被已付C9排除。当前物理D≠0图可付L与2ell−1。原链与十三单位均确认正确vm，无compact错误依赖；余W继续。
 
 - **优先更正／撤回原题推论：** [unit211二重点平方错误、真实R2与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。旧compact E1误用d1²；新七变量原乘法20ms/11零差付真R2。沿错误Rbar的Phi首头/H1/三生成/H42/C5/583等原必要性与排除撤回，45篇已加警示；旧定义矩阵实际记录保留。等单值compact后继亦隔离，正确W链及十三原单位/Haar/R271不受此错。
 

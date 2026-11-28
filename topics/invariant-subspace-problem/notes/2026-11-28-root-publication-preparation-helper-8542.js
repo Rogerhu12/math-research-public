@@ -11,6 +11,7 @@ for(let i=0;i<rr.length;i++){if(rr[i].status!=="fulfilled")throw Error("read "+i
 const time=ds[0].current_time,tree=JSON.parse(ds[1].content).tree.sha;
 if(ds[2].sha!=="282e86b03385d3b6245ce7100ae2e2af7b103c2d"||ds[3].sha!=="5fbd905291dd044c88d35bd9c07ac0e586ff795a"){store("isp_changed_rules_read",{head,time,root:ds[2],topic:ds[3]});throw Error("README changed; inspect only differences before continuing");}
 let h=ds[4].content,o=ds[5].content,ix=ds[6].content,log=ds[7].content;
+if(spec.indexNotice&&!ix.includes(spec.indexNotice))ix=ix.replace(/\n/,()=>"\n\n"+spec.indexNotice+"\n");
 if(spec.resultLeaf&&ix.includes("("+spec.resultLeaf+")")){store("isp_last_published",{head,alreadyPresent:true,name:spec.message});text({alreadyPresent:true,head,name:spec.message});return;}
 const files=(spec.files||[]).map(f=>({...f}));
 if(spec.archiveResults){files.push({path:base+spec.archiveResults,content:ix});const at=ix.indexOf("## 新增结论\n\n");if(at<0)throw Error("results archive marker absent");let intro=ix.slice(0,at).replace(/\[完整索引快照\]\([^)]*\)/,"[完整索引快照]("+spec.archiveResults+")");const entries=ix.slice(at+"## 新增结论\n\n".length).split(/\n\n(?=- )/);ix=intro+"## 新增结论\n\n"+entries.slice(0,30).join("\n\n").trimEnd()+"\n";}
