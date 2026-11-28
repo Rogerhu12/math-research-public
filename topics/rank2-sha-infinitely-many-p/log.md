@@ -537,3 +537,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 14:23:53 UTC到28bbf08e17ea867f69aff88f20b9305879644f9b，私库2026-11-28 14:23:48 UTC到2ae4326386f756a8ec3ae3aeb18baa44e9fb5e5c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
 
 推送前实际本地双pull（本次发布第5次）：公开2026-11-28 14:24:06 UTC到e0a4f90cc65f760a253973ede1bbc911ec8f0c56，私库2026-11-28 14:24:02 UTC到cc45ce4c53bdf4124f58e2717687c693a0affc1f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2，无>5MB。
+
+## 2026-11-28 14:24:45 UTC：R1071 §21：原四标量图直接完整返回及v19实际生产部署
+
+根/代理分别核四标量helper、原完整outer body和组合producer/host/workflow差异，95实际源码/原85逐字/40已执行子集与静态import闭包全匹配，AST/JSON/YAML/bash语法过。真实unit单位因子、完整N/D及MN/MD、Bézout双包含和两独立全X回核均保；旧20HNF27分16仅旧成本。新增课题外独立workflow为实际数学执行且不触发旧v18；14:13:47账号17运行/0队列，主目标未完成。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:24:56 UTC到8c119597428802e810e867608ad7e546abbd247e，私库2026-11-28 14:24:52 UTC到3a8366462ccc7f17d7440618378e55cc21b5fbe9；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47700763B/treeb64923b4794701c6e74d181005a948f7a936867b，无>5MB。

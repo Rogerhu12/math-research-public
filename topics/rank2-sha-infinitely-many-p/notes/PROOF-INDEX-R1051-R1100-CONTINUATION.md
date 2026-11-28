@@ -113,3 +113,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §78：原秩零单位定标的三个真实邻点微分系数
 
 参考原E1的同规范Robert列付Z^(p−3)y=17a₂r₁⁰；真实different把r₁⁰的首非零dlog定位d₀=(p−1)p²。原a₂模p准确由同一邻点dlog的m=p,p+b,p+2b三项读出，末项乘子−λ^(p−3)/2非零而前两项未删。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1071 §21：原四标量图直接完整返回及v19实际生产部署
+
+复用R1050真T/v恒等式，在原306全坐标/真实unit和原MN/MD上直接付互素Bézout图及双HNF；完整原投影body、内外两独立全X和所有后续原门保留。合并已付G3模块成95pin v19独立workflow，尚未取得本实现或1156/306生产PASS。 [同编号全文](../results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。

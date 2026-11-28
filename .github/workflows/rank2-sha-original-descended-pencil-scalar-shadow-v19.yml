@@ -1,0 +1,101 @@
+name: Rank2 original shadow with descended G3 endpoint pencils and complete T-v scalar graphs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-descended-pencil-scalar-shadow-v19.yml'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-triangular-artinian-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-triangular-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-triangular-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-linear-fiber-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_linear_fiber_frobenius.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-projector-artinian-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-projector-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-projector-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_projector_hermite.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-native-row-artinian-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-native-row-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-native-row-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_native_pair_reset.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_native_polynomial_rows.pyx'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-complete-quadratic-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-complete-quadratic-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-complete-quadratic-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_complete_quadratic_returns.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_complete_quadratic_polynomials.pyx'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-scalar-filtration-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-scalar-filtration-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-scalar-filtration-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_native_complete_return_binding.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_current_idempotent_square.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_scalar_base_divisor_support.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-same-denominator-hermite-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-same-denominator-hermite-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-same-denominator-hermite-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_scalar_primary_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_function_field_denominator_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-streamed-denominator-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-streamed-denominator-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-streamed-denominator-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_streamed_denominator_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_cyclic_denominator_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_row_operation_right_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-adaptive-scalar-graph-shadow-v17-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-adaptive-scalar-graph-shadow-v17.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-adaptive-scalar-graph-shadow-v17.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_adaptive_dixon_solver.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_adaptive_scalar_graph.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-short-global-graph-shadow-v18-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-short-global-graph-shadow-v18.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-short-global-graph-shadow-v18.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_production_binding.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_field.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_kernel.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_popov.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_multichain.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_outer.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_short_graph_global.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-descended-pencil-scalar-shadow-v19-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_descended_pencil_binding.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_descended_pencil_kernel.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_descended_pencil_physical.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_descended_pencil_returns.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_descended_pencil_sections.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_direct_scalar_fraction_graph.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_shadow_local_divisor_tools.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-descended-pencil-scalar-shadow-v19.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-descended-pencil-scalar-shadow-v19.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: rank2-original-descended-pencil-scalar-shadow-v19
+  cancel-in-progress: false
+jobs:
+  original-triangular-artinian-shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows
+            topics/rank2-sha-infinitely-many-p/scripts
+            topics/rank2-sha-infinitely-many-p/ci
+          persist-credentials: false
+      - name: Pull the pinned Sage 10.6 image
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb
+      - name: Authenticate both original PASS receipts and compute all original thick shadow gates
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-descended-pencil-scalar-shadow-v19.py

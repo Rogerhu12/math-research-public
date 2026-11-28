@@ -7,15 +7,15 @@
 固定E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。有限p、变曲线、条件接口均不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库且至少每小时；非FF立即两库pull --rebase、查四README差异并记已读commit，再推直到成功，不force。令牌仅命令行/进程，不入文件/提交/API。
 全部数学仅公开Actions，4CPU/16GB/6h，账户至多20并发。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则15禁存可重算log/数据/矩阵，只留源/参数/run/hash/必要原输入。独立结论新R，同结论续同号；不设冻结/额外复核门。公开16/私库15要求子代理显式gpt-6.2-astra/ultra，09:47起已全遵守。
-[整理前完整H](notes/2026-11-28-handoff-before-exact-signed-kummer-power-tests.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
+[整理前完整H](notes/2026-11-28-handoff-before-parallel-v19-production.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；两库pack逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128和/tmp/rank2-0b097461-private-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 14:24:06 UTC实际pull --rebase，读取main e0a4f90cc65f760a253973ede1bbc911ec8f0c56；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 14:24:02 UTC实际pull --rebase至cc45ce4c53bdf4124f58e2717687c693a0affc1f；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 14:24:56 UTC实际pull --rebase，读取main 8c119597428802e810e867608ad7e546abbd247e；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 14:24:52 UTC实际pull --rebase至3a8366462ccc7f17d7440618378e55cc21b5fbe9；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3288/47693361B/tree2f20d3be3d3d886b3fdb615fb5114f560021c7d2；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3288/47700763B/treeb64923b4794701c6e74d181005a948f7a936867b；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -25,7 +25,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 [v18](notes/2026-11-28-original-short-global-graph-production-v18.md)source702f361f1cf4725a870a1740a34688e75b2bc469/run46147595142；14:02根读pending，same heavy group，85pins/全原下游已核但未运行，未付生产PASS。
 [短图软件](notes/2026-11-28-original-short-global-graph-software.md)run46145004405/job140978975713/source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3实际PASS9.166759972s，43pins/全部域与拒绝由根代理各核；不代306生产。
 [R1071 §§1–16](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)、[§17起](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)保原全N/D与post-ideal完整X。§17实际Z1156属127、G3维228/1483项、972乘积秩840及高A/B2095项已付；§18三正规化总缺864、真étale四盖，旧18×9未自动四次方；§19原F G2维162/937项、四minor交39840→9960和物理W244待实做。§20真W3=W2+uW2及每端八全W8返回。
-[G3软件](notes/2026-11-28-original-descended-g3-pencil-software.md)40pins实际PASS4.774745981s：sourcec5ac865e508ff7e4f6ead488e8ce8d54ac95787b/run46151076917/job140997639248，根/代理完整log61834B/74bcf2b05078a2bac3fd5688b5b228b719669b1937f3e78752b4823369d2d863与attach均核；不代1156/306。四T/v全标量图候选已根读，真实生产仍待执行。
+[G3软件](notes/2026-11-28-original-descended-g3-pencil-software.md)40pins实际PASS4.774745981s：sourcec5ac865e508ff7e4f6ead488e8ce8d54ac95787b/run46151076917/job140997639248，根/代理完整log61834B/74bcf2b05078a2bac3fd5688b5b228b719669b1937f3e78752b4823369d2d863与attach均核；不代1156/306。§21四T/v完整Bézout图已接原全返回；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)95pins独立workflow部署，待真实run/四端点/终门，未记PASS。
 
 ## 原两/三位与三个实际目标：R1067
 
@@ -39,7 +39,8 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 固定曲线对：R1073
 
-[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125秩≥2、完整390角色/5/双13/同E1参考。§§1–6真实P±和全Lagrange/正整数全层，范数大小界仍不足；三原G_k全p核迹、整Katz/所有有限角色保平凡及奇层。§§7–12完整Volkenborn误差、Morava盘、PF/Hasse三位及78父源；父源未赋rank1。§§13–14同一三级祖源/216同源/72环类，正确Weil分量的24次幂鉴别式比及72单位乘法独立，两个单位权导非零但未等于水平Ab2。§15真首层全端点/过收敛二次积分准确读65f1(0)(dlogρ)²Ab2；奇分支先作Frobenius重标。§16τ=u²/130，真正目标首导非零，完整二阶保T2、logτ·T1、log²质量三项，尚待原中央非零。§17原Fr预标的外端全Hecke迹杀全部正dj次数，零次中央仍待付。§18相反Weil分量原f3/f_b/G_C全零，未经重标奇层逐商真零；参考不混用。§19真δ整胚芽和四Δ完整p范数恢复72单位log首层迹，保M⁻¹C及原分量。§20原混积等于固定E16的2592N/(δβ)点log，每个首端点差非挠；§21完整72(p+1)Fourier唯一复主项付两个原χ加权首端椭圆log非零；AD6仍有两个完整正则积分，未付中央。§22全9标记付β=1和真实Fermat反演；H±及其±h·dμ全保，商坐标仍带同一变动水平周期。
+[原§§1–16](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)、[17起](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)保固定E65/E8125秩≥2、完整390角色/5/双13/原E1及两canonical二阶；旧P±/Lagrange/全层/Volkenborn/PF精度见归档，不重做。§§13–16同一三级/216商/72环类，单位乘法独立及单位权导非零，但完整二阶含T2、logτT1和log²质量，τ=u²/130。
+§17真实Fr预标后的全Hecke迹杀外端所有正dj次数，中央常数仍缺；§18相反Weil分量及原未经重标奇层逐商为零，参考不混。§19母δ全胚芽/四Δ全p范数付同圈72单位log迹。§20原混积=固定E16的2592N/(δβ)点log，原点/首端点差皆非挠。§21完整72(p+1)Fourier唯一复主项付两个原χ加权h_C首端log非零，但AD6的两完整正则积分仍可抵消；裸μ3 log和是零。§22真全9标记付β=1、Fermat反演、H±及±h·dμ，仍保同一变动水平周期，未付中央。
 
 ## 其它门、更正与接续
 

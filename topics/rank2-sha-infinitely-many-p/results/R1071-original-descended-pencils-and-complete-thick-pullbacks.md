@@ -132,3 +132,41 @@ $$t^9\phi^*h=t^3(t^6\phi^*h_0)+\frac{t^4+18t^2-27}{8}(t^6\phi^*h_1).$$
 x同式。这只用原k[t]标量乘法，完整地给原W₁₂的物理坐标；权12的精确倒序再给s³φ*h、s³φ*x。先逐行核原N a=D c，再付完整612paired rows、四HNF与后理想全X。真实M₂(1156)仍是同一个PARI源、306窗饱和后延长到2449，180个W₁的W₄返回也照保；上述节省未删除任何原源身份或接受门。
 
 本节证明只简化同一个已付G₃的物理返回，不新设独立数学结论编号。对应独立软件的真实范围与待付项见[运行记录](../notes/2026-11-28-original-descended-g3-pencil-software.md)；未从静态实现主张原306运行成功。
+
+## 21. 原T与v四条完整标量图的直接投影与后理想全行返回
+
+R1050§§4–7 已证明两图的真标量分式、零极理想、无穷边界和完整厚层。此处只确定原生产的四条完整 paired graph、独立前后逐行实际返回，以及可以从真实调用中删除的通用消元。现有 scalar_primary_return 帮助器作用于已得理想的支撑层，原 v18 endpoint selector 只选择 A0/A1 两个非标量函数。核查这两个固定入口、原 triangular_artinian_values.zero_pole_ideals、R1050、v17/18 请求与近期生产记录，没有找到已经为下面四条 T/v 图执行同源专用投影与 post-ideal 全行返回的记录。
+
+## 输入身份与原图
+
+原 fraction_bridge.py:207–244 的 model.unit 只有一个非零权0坐标，其值是任意非零原常数 e；有限基与反图都要运行时从实际 unit 取 e，不能以1代替。原 chart_pair:168–192 在同一权重和同一共同 M 下作每坐标 s 反转并完整回核。公式在 original_ys_equation_transport.py:151–164，geometry_transport.py:77–95,140–143 按 T有限、T无穷、v有限、v无穷调用原两图 direct_complete_divisor。每图构成一个完整 paired graph、两个全多项式理想，合计4图8理想。早期主除子四次无穷边界、后续 support 四边界加九因子各仍按原调用执行。其余 A0/A1 四实际端点、原 F_y 两附块、厚交/Miller及终门不受该选择器影响。
+
+每次先核六函数、物理 function、同一 model/affine/embedding、同一真实 engine/ring/field/chart、同一 N,D 对象及306完整基。取 n=N_i/e、d=D_i/e，每个原坐标逐一验证 N=n·1_A、D=d·1_A，原实际乘法算子也独立按矩阵全等验 M_N=nI、M_D=dI。再根据 R1050 核原标量 n/d 等于该 chart 的物理公式 a/b，即 n b=d a、gcd(a,b)=1。四图中这些不是用理想长度或谱猜的性质。
+
+设 g=gcd(n,d) 首一，令 β=lc(d/g)^−1，取 C=β(n/g)，B=β(d/g)。两条原多项式除法均返回商、零余数并乘回原源。B 首一，C 仍含原单位因子。用同一 R 的 xgcd 得 αB+γC=1。对所有原306元行向量 h,x，等式 hM_N=xM_D 等价于 Ch=Bx；于是
+h=B(αh+γx)，x=C(αh+γx)。
+反向任一 z∈R^306 代 h=Bz、x=Cz 直接满足原方程，且因非零 B 唯一。此为完整多项式模双包含，也保全共同非单位 g，不用分式域秩。全负投影 H=B I，正投影 G=monic(C) I；H 配对的完整 X 仍是 C I，原正 HNF 与 X 用明确的非零首系数及其逆双向返回。物理长度如下（次序为正、负）：
+
+| 原图 | 当前全部正、负商长 | 射影度 |
+|---|---:|---:|
+| T 有限 | 1836，1224 | 1836 |
+| T 反图 | 1224，1836 | 1836 |
+| v 有限 | 612，0 | 612 |
+| v 反图 | 612，612 | 612 |
+
+## 真实生产 API
+
+在原 endpoint 模块 factory 之前只把 EndpointSession 换成其子类，保原函数对象精确选择。每个非 T/v 对象完整委托既有 selected，四条新源不进入原 A0/A1 的四次 SELECTED 统计。对 T/v 运行原已固定 original_short_graph_outer.projected_pair_after_proof 完整源体，唯一增加的是获取实际 M_N,M_D 后的全矩阵等于 nI,dI 门。现场比原模块 SHA 并作唯一文本反替换。两处投影在该函数专属 globals 选择直接模块证明；实际核全部输入矩阵、独立正负两向标量变换、原动态完整 Hermite 余数。该函数的不可变 source 在原 ring 重新复制 H,B,C，对每个实际 h 的每个坐标作原多项式精确除 B、逐项零余数/乘回，得到原完整 C·(h/B)。第二次现存 ideal 的 observer 另建一套独立不可变源。原 public graph_scan、require_outer_row、original_operator_product、_ideal_from_certified_basis 以及两次原乘法算子构造均保留；构造两原 ideal 后重新比每个完整原 N,D、MN,MD，306对逐项比较旧/新 X、正 HNF membership、完整行哈希及全矩阵哈希。最终另核四条真实 context/cache/engine/function/ideal对象、raw operators/完整X=CI、13条 support 的原消费者记录；早期四条仍由原 geometry.infinity_boundary 调用。新集未消耗原13审计的任何条目。
+
+## 实际成本证据与范围
+
+同源 v16 完整公开日志 4,026,180B，SHA 52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0。自每条图第一条 denominator operator HNF start 至同一图的完整负HNF certified 的实测窗口如下。前后另有原乘法算子和原早边界操作，不混入这四段。
+
+| 原图 | 第一条 generic graph start (UTC) | 负HNF结束 (UTC) |
+|---|---|---|
+| T finite | 09:38:09.9443948 | 09:45:02.7923630 |
+| T inverse | 09:45:38.2215823 | 09:52:45.9951295 |
+| v finite | 09:54:30.4546438 | 10:00:52.3927207 |
+| v inverse | 10:01:22.0440218 | 10:08:15.8118860 |
+
+每图旧日志真实出现5条 generic module starts，分别是 denominator operator image、whole final source basis、all paired numerators、zero ideal、pole ideal。合计20次一般消元，四图合计约27分16秒。新版以完整标量源双向等式支付投影与完整行返回，仍须实际执行原矩阵构造、动态余数、逐项内外验证/摘要、两真实理想及后续。原窗口不是新版本已省下的时间；真实重作业未执行。独立 G3 小软件和早期 primary PASS 都没有执行这个新 selector。源码及组合95pin生产已按[实际v19记录](../notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)部署；运行结果仍须读取真实公开Actions，尚未记生产PASS。
