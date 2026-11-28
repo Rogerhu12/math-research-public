@@ -142,19 +142,7 @@ R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 
-[R1193/R1195](results.md)最高r=m负首中心为T_L db/(uA_p)，T_L∈k[b³],deg<m−1，simple-Cauchy及完整首CM层κ_hi T_L(1)dF已付。全有限角只有τ_r+PS_(r−1)整分包；pure型拼接准确im(U_r modp)，不能把packet单位自动传给指定C。全部原节点尺度沿原文。
-
-[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同P先整E_m投影后，首列可在π^(m²+1)读m次原Čech有限log，完整非约化Frob相容排该层p-return。实际q_C/β及全部ψ^a gap保留，低a regular消去和正次节点反馈仍进入真正全图配对。
-
-[R1197](results/R1197-original-highest-packet-complete-CM-coefficient-flag.md)原最高负packet的全部CM轮廓按从高到低准确等价于T_L(1)…T_L^(2g−2)(1)旗标，各对角为显示原单位；完整Dickson过滤付每层整角像一维，故低极部/全纯及高中心返回均处理。轮廓秩2g−1，核恰T=c(b³−1)^(2g−1)一维；未标为CM算术线，指定C/同β全图列及深盘仍开。
-
-[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
-
-[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像、低a/high-normal交叉及opposite无关性保持。§6删除支持node的步骤已由R1208更正；原SS和仍有效，但完整V必须加入同一CM静态边界。
-
-[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)同一relative F/Poincaré primitive锁τ=B²、C²=γ²/B^(2p)、共同ν；完整有限算子P_m与全SS和准确保留。μ3消λ₀，λ₁全simple极部不能删；run46164785591在59/71/83的27/33/39非零simple及SS/ν=43/13/54仍有效，旧V标签由R1208更正为SS部分，不重跑或扩扫。
-
-[R1201](results/R1201-original-highest-packet-kernel-log-unit.md)同一Jacobi求积权1、CM端点32及有限RC多项式原函数给SS和准确32m c_mν/binom(m,n)²；保全部simple极部。该式旧称完整V的接口已由R1208补node，完整值改为−8·2^mν/binom(m,n)²。一般pure/指定C两列仍开。
+[R1193–1201](results.md)原最高整packet的simple-Cauchy首中心、完整CM旗标及其一维核T*=−r^n、m次有限Čech log和same-target有限PD均付；实际点/μ3/全部normal与simple极部保留。R1200锁canonical τ=B²、C²=γ²/B^(2p)及统一ν，R1201的Jacobi权1/CM端点32/有限RC给SS和32m c_mν/Q0²。R1199§6曾删支持node的步骤及完整V数值已由R1208更正，旧SS探针59/71/83与simple27/33/39只消费不重跑。各原公式、source/run/hash详见本次逐字前态及R1193–1201；一般全配对现由R1209付，pure返回和指定C/whole MW继续。
 
 [R1202–1203](results.md)原最高负deck实际整Ω满足UΩ∈pΛ，qΓ整分裂；全normal/临界jet/centre已付。PS临界Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]秩一平方零，完整framing与群和常数保全。同底lift经π^−pU可改变generic底；其真实返回已由R1204读取，不先定义lift独立A(L)。
 
@@ -168,11 +156,13 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
 
+[R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
 
 ## O6：其它全局路线与永久边界
 
-完整旧分支见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
+完整旧分支见[逐字前态](open-archive-2026-11-28-before-complete-RC-CM.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
 

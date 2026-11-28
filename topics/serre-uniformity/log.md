@@ -741,3 +741,12 @@
 - 原e=0下同一w(−1/2)与K₄准确等于HA.22的指定Beta配对I(MZ)乘已付单位；Z三阶强迫和M四阶真实伴随同时登记，首次共振次数2N+1不纳入安全I。没有用一般非退化、强迫单位或点值身份导数替代共同零排除。候选294725a2d5832663e4e5a64eb3b406990cf83c89仅追加原文件，旧前缀逐字保持；root全文纸核HA.13–24，含第二条HA.16和原K₄尺度，无数学执行。
 - R1208已真实推abfa4a3a2d9061e7005ec7b5cb1d633ea43989cc，run46177591292/job141079695668，18:46:08UTC真实pull读865614fb2acff3077cafcc33d25de838ab46aa0f，规则双diff空。本地18:52:24UTC真实pull读f84a2f1a31a65c4ff756b7b0bf81ef08bcee3776，两README diff空；R1207本地稿与已推逐字cmp一致。
 - 本push规则：公开Actions真实pull至 3431f4ce7c94fb04ade4c96ee6875d3416e51418（2026-11-28T18:55:10.586327+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1209：同一good CM target的有限PD延至m+1<p，actual quotient锁t=cξW^m；全部混合normal系数由真实最高pole及完整一维Em角读取，不把尚有低层的Ω/π^N直接约化。general RC低阶primitive给I(S)=0，Jacobi Cauchy误差精确是同一个F。
+- 同源SS表达保6/t singular RC，全部regular terms与三个支持CM analytic terms按2m!+3m(m−2)!=0逐项相消；原static node仍给R1208顶修正，得到V_m(S)=−8·2^mν e_n(S)/A1。实际DT的E=−(tT/A)″，全部返回单位和底/原格边界仍保。
+- 候选0d71fbbce0a9b835df0133e6cb7d25a390af3eee；root全文逐式核general RC次数、Gauss比、ramification、两部分factorials、CM phase及static正号，仅将full-framing本原根记为η以免与CM三次根ζ撞符号。o2独核CM完整收缩，未执行数学程序。R1210实际pure返回单位独立继续，不将本篇当whole-MW排点。
+- R1194 §9.11已真实推f4ea26f17ac3c96baecc29e1ebb1d172731a9e03，run46178386004/job141082175233，18:55:10UTC真实pull读3431f4ce7c94fb04ade4c96ee6875d3416e51418，两README diff空。H/open压缩前逐字归档before-complete-RC-CM；所有已付source和旧审计记录保全。
+- 本push规则：待公开Actions真实pull、核两README差异并写入实际提交；主目标OPEN，继续原pure、实际极化和全MW比较。

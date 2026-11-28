@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原全列 RC–CM 消去与完整端点读数（已证明，R1209）**：[R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
+
 - **原 CM 节点边界与完整首对数的准确更正（已证明）**：[R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
 
 - **原 CM 截面在完整非约化尾上的锁点（已证明）**：[R1207](results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md)原c₁的CM μ₃在实际p基中为原C_ns矩阵；连同原H₆六标记运输和framing，其组合固定整CM截面。R1021的精确eigen参数/模p线性作用给(I−ζ)(α,β)=0，两个特征值差为unit，迫一个Cartan坐标在整个O/(p)精确0。因此V=0、U=±c/2，原三个支持CM截面全模p锁在Q，原H_k(c_ξ)=0。此为包含nilpotents的锁点；twister/node/G(b_lift)²与完整Čech仍须合并，不恢复撤回的CM秩零商。
