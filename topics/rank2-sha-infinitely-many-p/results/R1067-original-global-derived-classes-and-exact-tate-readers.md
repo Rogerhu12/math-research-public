@@ -502,3 +502,89 @@ $S_D(Z+\phi_{a,1}T_{t,3})$的原权张量和，其函数域模$p$ Kummer类非�
 $12(c^2-1)\varepsilon(t)\ne0\bmod p$。
 
 这保留全驯张量，但尚未施外部$a$的反圆合成，也未证明原指定$Z$的算术求值仍非幂。故不据函数域结论宣称(BQ1)在原局部域非零；跨$p$主缺口仍须继续。
+
+## 102. 通常全Sha的严格控制、循环模等价及更弱的全域三行门
+
+保持§§98–100的原$E=E_{17}$、$K=\mathbb Q(\sqrt{-3})$、惰性$p>211$及$(17/p)=1$。$U=\gamma-1$、$\Phi=K_p$、$\mathcal O=\mathcal O_\Phi$；$Z$始终是目标模型的同一全域标准椭圆单位类。用§100固定103的真实系统及corestriction，除$b=103^2-103$，保留原$T_E^{-1}(1)$基。$\mathscr D=\Lambda_{(U)}$及$A,B,A_Z,X_{\rm str}$沿§99。
+
+置$s=\operatorname{corank}_{\mathcal O}\operatorname{Sel}_{p^\infty}(E/K)$。原R294和R303(27)给
+\[
+ s=2+\operatorname{corank}_{\mathbb Z_p}\Sha(E/\mathbb Q)[p^\infty]
+   =\operatorname{corank}_{\mathbb Z_p}\operatorname{Sel}_{p^\infty}(E/\mathbb Q).
+\]
+其中$K/\mathbb Q$的两味分解与$E$及其$-3$扭转之间的原三同源保留，未改成只看一味。
+
+固定根数为$+1$，这里补原典核对以免由秩预设奇偶：对$\alpha=17$，Várilly-Alvarado的Lemma 4.1给$W_2=-1$、$W_3=+1$，因为$v_2(\alpha)=v_3(\alpha)=0$、$\alpha_3=8\bmod9$；Proposition 4.3给$v_{17}(\Delta)=2$、$e=6$时$W_{17}=(-1/17)=+1$。其余有限位良好，$W_\infty=-1$，故全根数为正。这里只用该论文无条件的局部根数公式，不用其关于有理点稠密性的条件定理：[原刊Lemma 4.1、Propositions 4.3–4.4](https://msp.org/ant/2011/5-5/ant-v5-n5-p04-s.pdf)。Nekovář，*On the parity of ranks of Selmer groups IV*，Theorem 1(a)，取$k=k_0=k'=\mathbb Q$，给每个当前$p$的$s$为偶数；见[作者全文](https://webusers.imj-prg.fr/~jan.nekovar/pu/parity4app.pdf)。这是$p^\infty$-Selmer奇偶定理，不假设$\Sha$有限。
+
+### 基域严格群的准确余秩控制
+
+基域strict群是usual Selmer在唯一$p$位的局部Kummer像之核。该像的$\mathcal O$余秩恰一：当地Kummer线至多一维，原有理非挠点$P_{17}$的非零形式对数及CM倍达到一。对$v\nmid p$，$E(K_v)\otimes\mathbb Q_p/\mathbb Z_p=0$。有
+\[
+ \dim_\Phi\bigl((X_{\rm str}/UX_{\rm str})\otimes_{\mathcal O}\Phi\bigr)
+                         =s-1. \tag{BR1}
+\]
+
+证明。全域与$p$位的$E(D_\infty)[p^\infty]$及
+$E(D_{\infty,p})[p^\infty]$均为零：反圆塔为pro-$p$，原惰性惯性的非平凡tame标量在剩余Tate格上仍存在。膨胀限制在全域给到不变量的同构，在$p$位给单射。所以塔上strict不变量有基域提升，并且其$p$位限制为零。
+
+其它有限位只需固定有限$S$。每个$v\nmid p$的$H^1(K_v,E[p^\infty])$有限；由$H^i(K_v,V)=0$及局部对偶、紧Tate格的有限生成性可得。因而下降到基域strict至多有有限余核。$S$外好约化处的未分歧条件沿未分歧塔由惯性群识别保持。取对偶再有理化即得(BR1)。全域或当地的$H^2$没有被假定为零；所用的是上述不变量消失和非$p$位的有限误差。
+
+把有限长$\mathscr D$-模$X_{{\rm str},\mathscr D}$写成
+$\bigoplus_i\mathscr D/U^{e_i}$，每个$e_i\ge1$，(BR1)给其项数$s-1$，§99主特征等式给总长度$A$。于是
+\[
+ \boxed{\quad
+ s-1\le A\le A_Z,\qquad
+ \Sha(E/\mathbb Q)[p^\infty]\text{有限}
+ \ \Longleftrightarrow\
+ X_{{\rm str},\mathscr D}\text{循环}
+ \ \Longleftrightarrow\
+ \operatorname{Fitt}_{1,\Lambda}(X_{\rm str})\not\subset(U).
+ \quad} \tag{BR2}
+\]
+循环模在这里非零，因为$s\ge2$。Fitting等价是DVR上最小生成元数的通常判据。余秩零的$\Sha[p^\infty]$有限，沿用通常Selmer的有限余生成性，不把“有限”加强为“零”。
+
+特别地，**$A_Z\le2$已经足够**：由$s\le3$且$s$偶、$s\ge2$，得$s=2$。这比原$a_2\ne0$充分门弱。若§99的真实$z_1=0$，$U$长正合列给唯一整全域写法
+$Z=U^2Z''$，置$z_2=Z''|_0$。同样的基变换单射、非$p$位有理jet消失及整$H^1$无$p$挠给
+\[
+ z_2\ne0\quad\Longleftrightarrow\quad A_Z=2
+                   \qquad\text{（在 }z_1=0\text{ 支）}.
+\]
+此时$1\le B\le A\le2$，而
+$\operatorname{ord}_U\mathcal A_p=A_Z+B$由R303(6)为偶数，故
+$A=B=2$、$\operatorname{ord}_U\mathcal A_p=4$。因此原局部二次系数可以为零，而主任务的通常全$\Sha[p^\infty]$仍有限。
+
+反过来，通常$\Sha[p^\infty]$无限迫$s\ge4$，于是$A_Z\ge3$，且$Z$在**整个整全域**Iwasawa $H^1$中可除$U^3$。为核最后的整性，先在$\mathscr D$清去分母；该分母在$\Phi[U]/U^3$中可逆，故截断类有理为零。有限整jet的$H^1$无$p$挠，因为剩余tame型没有不变量；所以整截断也为零，再用$U^3$长正合列。此处不以仅局部为零替代全域整除。
+
+### 同一103源在全部整精度的完整三行
+
+对$k\ge1$取$j=k+1$、$L_j=K(\mathfrak fp^j)$、$\mathfrak f=(34\delta)$及
+$R_k=(\mathcal O/p^k)[U]/U^3$。记§100同一原单位为$u_j$。按
+$\psi_{17}((x))=x/\varepsilon(x)$，把真全射线群写成
+\[
+ G_j=\frac{(\mathcal O_K/\mathfrak f)^\times
+                  \times(\mathcal O_K/p^j)^\times}{\mu_6},
+\]
+以$[t,a]$标号，反圆指数为$s(a)$。原截断限制至$L_j$，在§100的同一对偶基下准确为
+\[
+ \mathcal Y_k=b^{-1}\sum_{[t,a]\in G_j}
+   \varepsilon(t)a^{-1}(1+U)^{-s(a)}[t,a]u_j
+ \in
+ \bigl(L_j^\times/(L_j^\times)^{p^k}\bigr)
+            \otimes_{\mathbb Z/p^k}R_k . \tag{BR3}
+\]
+三行权依次是$1,-s(a),\binom{-s(a)}2$。$\varepsilon(u)=u$使完整Tate系数对角$\mu_6$相容；$s(1+p^j\mathcal O)\subset p^k\mathbb Z_p$且$2$可逆保证提升无关。证明直接用§100的整平滑除法及Mackey的$\operatorname{res}\operatorname{cor}$；cyclotomic$(1)$已在真单位Kummer中，没有第二个范数权。
+
+在$W_{R_k}$上，$d=[1,-1]\in G_j$作用为$-1$，反圆和cyclotomic作用则为一。$G_j$阿贝尔，故$H^1(G_j,W_{R_k})=0$，限制到$L_j$仍单射。这里$L_j$平凡化整个$W_{R_k}$，并未借全域$H^2$消失。
+
+全域整$H^1_{\rm Iw}/U^3$由$U^3$正合列单射到截断系数的$H^1$；后者是有限生成$\mathcal O$模，所有模$p^k$检测将它分离。结合上段的有理阶与整$U^3$可除性，得到
+\[
+ \boxed{\quad
+  (\exists k\ge1:\ \mathcal Y_k\ne0)
+       \ \Longleftrightarrow\ A_Z\le2
+       \ \Longrightarrow\
+          \Sha(E/\mathbb Q)[p^\infty]\text{有限}.
+ \quad} \tag{BR4}
+\]
+若$z_1=0$，常项和一次项已全为零，原二次项是$b z_2\bmod p^k$的限制（未除$b$的Mackey式）或$z_2$的限制（如(BR3)）。
+
+所以在每个实际坏$p$，三个完整全域幂条件必须对**所有**$k$同时成立。仅在$p$位为幂是较弱的旧当地坏条件。还须对无穷$p$排除这个全域三行同时消失，或直接证明(BR2)的循环性；本节没有用更弱门本身宣称已完成。

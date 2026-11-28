@@ -520,3 +520,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §101：全部整精度的实际循环邻点与Tate校正
 
 已证明：每个原局部Kummer二次测试准确写在同一p+1条导子p的CM邻曲线；沿全部实主单位方向展开保所有Tate校正，并给导子p^d的实际范数。第二精度首校正有明确加权函数与全驯函数域非幂性，未把它替代指定点或全反圆和的非零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §102：严格模循环等价与原全域阶至多二的更弱充分门
+
+已证明：基域strict余秩准确为s−1，usual全Sha[p∞]有限等价于Xstr在(U)处循环。原根数及无条件p-parity给s偶，故原全域Z的U阶≤2已足够；z1=0,z2≠0允许局部a2=0。固定103全源的三行、全部p^k Kummer证书准确检测此门，全域H²未假定消失。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
