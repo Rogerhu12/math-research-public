@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`d58b1a12e0bafdc59acc60696c0d72d8f66c80b6`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`04959b53f761e4328f1419deea632aaf1eb48f92`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–25通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -41,7 +41,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret61首批](computations/legacy-outward-outputs-retention-61-part1-complete-delivery.json)11旧显式步长轨道净322796B；完整旧源/参数/原失败与Git恢复保，早期执行sourceSHA未知不填。ret60两批净1929467B/ret59及前链保；活输入/未知/parent91/ports/Nelder不猜删。root真求解；construction容量，solver等价加速，geometry R725新全源。
+[ret61第二批](computations/legacy-generated-results-retention-61-part2-complete-delivery.json)12旧派生净395445B；精确复原4a6全源、原参数/资源/真实失败/完整Git恢复齐。首批11净322796B及原未知sourceSHA界保。ret60两批净1929467B/ret59及前链保；活输入/未知/parent91/ports/Nelder不猜删。root真求解；construction容量，solver等价加速，geometry R725新全源。
 
 [24半波b5/8](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)实际46096380016/1/job140828543967，两input0；science0f0bb/PID3575/model9e2d7，初7e06/g.6122924171813162/六族返/accepted0，trial未返。全137/18源同22，仅宽度变；原预算与完整pure续接保。
 

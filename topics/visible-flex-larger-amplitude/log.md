@@ -350,3 +350,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:50:29 UTC — 25官方真实启动
 
 run46099929359/1、workflow433356137、job140839831948，head007348e5c8bd943a13704d7761cf9d4d6b06fea6，于02:49:28Z实际created/start/in_progress。checkout/setup成功，依赖安装中、原研究步骤pending；input/model/point/geometry仍未返，完整官方对象保25note，无重复启动。双README云核至`d58b1a12e0bafdc59acc60696c0d72d8f66c80b6`无变（非pull）。
+
+## 2026-11-28 03:01:02 UTC — ret61第二独立子批及完整原4a6源恢复
+
+[五完整件](computations/legacy-generated-results-retention-61-part2-complete-delivery.json)192265B保12旧派生报告全部参数/原资源argv/真实有限结果和失败/整字恢复；毛587710B、净395445B。原4a6 flat源7006B以精确文字逆变换命中两原报告SHA，未运行；原f669/6be版本独立保，missing执行信息仍null。fresh逐path/blob/size相等才普通删除，q096/q098未闭屏幕和活输入不碰。双README云核至`04959b53f761e4328f1419deea632aaf1eb48f92`无变（非pull）。

@@ -135,6 +135,6 @@ normal.complete不代连续branch，mean J不代Cu，R709 bool保真；R722三�
 
 ### 容量和完成标准
 
-[ret61首批](computations/legacy-outward-outputs-retention-61-part1-complete-delivery.json)11显式maxstep旧轨道：毛395487B/三全件72691B/净322796B。原完整6798B源、全部config与重构argv、实际成功/异常、有限结论和全字恢复17ed齐；未记录的早期执行sourceSHA/原shell/环境仍null，不以后来cf163源冒替。旧reader须恢复完整原对象和输入。ret60两批净1929467B、ret59及此前完整链保旧open/各总表；未知/活输入/parent91/ports/Nelder不猜删。
+[ret61第二批](computations/legacy-generated-results-retention-61-part2-complete-delivery.json)12旧派生：毛587710B/5全件192265B/净395445B；复原7006B/4a6完整源命中原两报告SHA，全源参/资源/有限与失败结论/输入603214和输出17ed精确恢复保。原false/未知不补。首批11件净322796B及ret60两批净1929467B/ret59前链保完整旧open与各总表；旧reader先恢复整字输入，活输入/未知/parent91/ports/Nelder不猜删。
 
 README全部标准未完成；时长、阶段、失败和输入困难不是终点。新raw只runner/scratch，保可复现全源码/配方、run/whole SHA及真实结论，继续真正求解和全部固定目标精化。
