@@ -115,3 +115,9 @@
 - 新正e k4pole首次源5716B SHA eb5463c4638bfa434add15bb7d2c3258353bee86fdc4a5bef569af3c67c1a147：E=e,Y=k−4,X=1/(2λ−3)，原q2·X²/Q、R6·X6、完整N5·X5；仅共同点原定义及完整四阶余项乘回，无旧三ray初始理想或gcd尾段。
 - 首次固定120秒/1GiB/外135；只在各分母实际单位后输出四阶式和≥五阶完整余式profile，未执行前不宣称最低面/单位/排空。新增题外workflow .github/workflows/invariant-subspace-8542-w-positive-e-k-four-original-local-jets.yml 仅执行本题源。
 - 新Phi四元原关系、W负e正k联合ray和Haar同列费用并行继续；普通ISP未完成。
+
+2026-11-29 01:16 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2090实际main 8a62659e732a4289b94dc5a2c8d9878f18dd07b9，run46169278229/job141053752814；17:13:11 UTC pull e6311674b3b58bc45cb7077a80485d5d01e3883f两README无变，私库QUEUE核进行中，新局部输入dispatch204。
+- 正e k−2正ell子支新纸证：Ast/Q与C*/Q首值3，q2排λpole并给A2/ell原整返回；D/ell²=−4λbar²/9和K/ell²=−λbar均单位，R6两阶不合。若v(k+2)<ve则原ell必正阶，故位移Z整。
+- 新dbe928 k4pole唯一run46169312729/job141053873646真0.346877190秒/42804KiB/0，17:13:32.063693 UTC实际pull源8a62659两README无变；三个完整四阶式及≥五阶原余式全返、分母与系数均1009整，stdout4854B SHA54a4508e4a0b71872fbd6d3695754206b6663a90071dae481e62549c96402223。
+- 局部式的二次同点切锥正在显示纸核，不以已返jet冒称原空性。负e正k联合ray、Phi四元同点源、Haar原列费用继续；普通ISP未完成。
