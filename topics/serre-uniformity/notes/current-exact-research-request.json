@@ -1,32 +1,32 @@
 {
   "readme_sha256": {
-    "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
-    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    "root": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+    "topic": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5"
   },
-  "rules_last_read_commit": "870b797170b94046c25ab4209722265aa8637174",
-  "execution_attempt": "R998 fixed second original end column only, j=1. New exact cusp rational, original P10, complete factorizations and finite bad-factor classification. R993 is completed; no old prime window or j=0 constant is rerun.",
+  "rules_last_read_commit": "d7d544d4b8eb6403cf880938986f26f667a7a8f1",
+  "execution_attempt": "R1200 new complete highest-packet kernel contraction only. Exact p=59,71,83; no previously registered prime window or p=41/47 computation is repeated.",
   "computations": [
     {
-      "name": "original-second-end-column-cusp",
-      "script": "original_second_end_column_cusp_consumer.py",
-      "script_sha256": "b4a76a3dd37088c7dab1f8083723b0d51f123f566b3d485226070a82a524062b",
+      "name": "original-highest-kernel-complete-SS-contraction",
+      "script": "original_highest_kernel_contraction.py",
+      "script_sha256": "803cb1d9805c50f671e38d8da03e827b1d70a949ec25d1305003e9ae86d46f20",
       "arguments": [
-        "--seconds",
-        "30",
-        "--output",
-        "/tmp/serre-second-end-column-cusp.json"
+        "--primes",
+        "59",
+        "71",
+        "83"
       ],
-      "wrapper_timeout_seconds": 45
+      "wrapper_timeout_seconds": 600
     }
   ],
-  "source_sha256": {
-    "results/R968-full-level-mixed-CM-jet-and-critical-factor.md": "186efc0cb109befcce458f931779802027d30193cfec687131f8fda5e10ccaaa",
-    "results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md": "ee4e728d30dd08f9a40c3de54fc8660574c9ee8d04c4383f77a420d7076b7c1d",
-    "notes/R998-original-second-end-column-execution-method.md": "ec9edd293d1a44fd35f4f70a89bfce6d62fcc0e02e639d4ecb839ff8f2eb67ca"
-  },
-  "runtime": "Python standard library only: exact Fraction arithmetic and complete trial division; public repository Actions only.",
-  "storage": "Stdout plus runner /tmp scratch only; no artifacts, Releases, committed raw reports, sigma arrays, or prime window.",
-  "fixed_scope": "Original b=7,a=p-13,h=p-10; complete R968 zeta terms including unit-orbit zeros; independent integer ODE cusp channel; two original P10 channels; only the four resulting fixed integer numerators/denominators are factored.",
-  "acceptance": "Consumer total <=30 seconds including hashing, arithmetic, scratch and stdout; all exact-route comparisons and complete factor/primality certificates must pass, with final timing within budget, exit zero and successful job. The true bad-factor lists may be nonempty. Outer wrapper timeout is 45 seconds.",
-  "mathematical_boundary": "Only global cusp nonzero-space scope, never CM marked unit or G-stability. The original mod6 label and modp representative remain distinct."
+  "source_sha256": {},
+  "mathematical_sources": [
+    "R1199 complete generic pairing and kernel log, main f859aba50bc796b203689e1f4ed30ad7949ead95",
+    "R1200 canonical phase and rational operator, published with this request; equations 1200.20,1200.23–31,1200.34"
+  ],
+  "runtime": "Python standard library; exact F_p^2 with i^2=-1 and dual numbers for d/db. Mathematical execution only in this public GitHub Actions workflow.",
+  "storage": "Stdout summary and hashes only. No raw output, artifacts, Releases, or recomputable SS arrays are saved in the repository.",
+  "fixed_scope": "Three primes, the original monic Q_p ODE, every simple SS root, reference weights, both lambda=-6/r and lambda=-6b/r components. Read the new full V/nu, actual simple-pole conditions and kernel Cartier coefficient.",
+  "acceptance": "All original SS roots must be included, all denominators units, final output and zero exit required. Values may vanish. No nonzero value is assumed as a success condition.",
+  "mathematical_boundary": "Exploratory finite exact values; no all-prime nonvanishing, specified C projection, whole-disc exclusion, or Serre completion."
 }

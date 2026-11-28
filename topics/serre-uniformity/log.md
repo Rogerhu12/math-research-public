@@ -646,3 +646,10 @@
 - R1194 §§9.7–9.9：原算子半步分解和全格点空间导数已付；实际非齐次companion系数准确接到终止4F3参数导数，Whipple后的完整调和余项及原标记值三角边界均保留。指定双零和旧Dixon单位桥接仍开，继续同一源。
 - root逐式纸核HC.25–35并亲读Rahman1981印刷页920式2.4–2.5；无数学程序。R1199已真实推f859aba50bc796b203689e1f4ed30ad7949ead95，run46161885851/job141030799356；最高核全图值继续从Cartier–Weil绝对相位和SS有限和求解。
 - 本push规则：公开Actions真实pull至 d7d544d4b8eb6403cf880938986f26f667a7a8f1（2026-11-28T16:08:50.883007+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1200：同原Poincaré刚化/η′ primitive/relative F锁全部节点平方尺度和同一ν；完整reference收缩给有理b算子及同T*全图有限和，μ3只在完整配对后消λ₀。全和非零、指定C整运输及深盘仍开。
+- root亲读Ulmer1990 PDF2–4及原R1165/R1023，核source/target、两个p指数和全部r因子；纸证完成即推。新增脚本及current-exact-research请求只在本公开Actions探新p59/71/83全SS收缩/简单极部，不重旧窗口，当前未取得运行结果。
+- R1194 §§9.7–9.9已真实推f0e56017df20980d7adaeb41cf67322aa506f316，run46163535982/job141035937121。继续剩余λ₁的全称求值及原w调和余项；主目标OPEN。
+- 本push规则：公开Actions真实pull至 2ebeed378a69b4d27eed21625d9fa0ef2f0227d9（2026-11-28T16:22:09.675690+00:00），两README diff为空；本次真实git推送，主目标OPEN。
