@@ -84,3 +84,9 @@
 - 原Haar全因子同参数稿现刊：逐柱局部一致强*与Cauchy系数付P范数entire，实际前缀C幂×单位及尾强单位付包括z0的全旗quasi，系数界cK^j/j!；未假有限乘积norm收敛。
 - 明确穿孔X(s)=C B(s)T(s²)、X²=P(s²)、γX=iX(is)，范数平方趋P0且P0非零γ奇；有限极点首Laurent系数平方零给原超不变，可去矛盾。剩余本性/同PtΩ强列未付，未将P0换成C。
 - Phi新QQ提取run46158891405 outer已完成，内层数学回执下一步读取；不以outer成功冒称QQ无共同曲线。10生成/纤维≤9新纯纸面推论已读待独立登记；HK新NV/Loww源继续。
+
+2026-11-28 23:22 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 1965实际main 6de1a50bf0833e370f621cf779f41a87deec1f31，run46159294050/job141022786750成功；Haar同参数原来源已推，公私真实pull与规则/QUEUE核验均保。
+- 新Phi纯纸面10/9推论独立刊：CI第三mean r非零，socle配对杀degree4且rA1≠0；固定15目标全环Nakayama→10指定生成，总次过滤/associated graded→每权长度≤9。根将k范围明确为任意素理想剩余域，无新单位或执行。
+- b0ef31唯一run46158891405/job141021539125实际14.598634407秒81096KiB/0；37记录全读，F提Qs⁴(-L)^15，G提s⁸δ^48KwMn⁸(2L−Q)^4，商支持共同gcd双次≤5/51。stdout SHA52db2329234169c3d75c67ea6c2bc34dc4df2ae01e2759b8036c22ebe9838357；余曲线保，正式稿在写。
+- 新HK e9bd30/25d3ea3e首次180秒4GiB/外195，完整NV和Loww原两源范数；tv−1原身份与三次几何式把P·t³接回纯权P。新增题外workflow invariant-subspace-8542-hk-nv-loww-inverse-t-norm.yml仅派本题新输入；不重旧E1/Loww、EBo/Loww或individual值门。
