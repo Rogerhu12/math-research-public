@@ -181,3 +181,42 @@ $$ d\lambda_C/\mu_C^2=-dX_0/Z. \tag{AE7}$$
 $$ H_{C,+}=\frac{3Z}{2(X_0^3-1)\mathcal G},\qquad
  H_{C,-}=\frac{3}{2(X_0^3-1)\mathcal G}.\tag{AE8}$$
 直接代入 $b_C=(Z+1)\mathcal G/2$ 和 $Z^2-1=4(X_0^3-1)/3$ 即可。由此正号积分 $H_{C,+}dj_C$ 的椭圆平方根 $Z$ 消去，负号留下一个 $1/Z$。两者都保留同一移动的 Hesse 水平周期 $\mathcal G$，(AD6)所需两整积分的比较仍待支付。
+
+## 23. 实际首圈的负一权及固定椭圆有理函数的四位 Gauss 和
+
+沿本R1073原先规定的充分大好惰性素数及全部固定有限排除集，保留(P9),(Q1),(R1),(W8),(K1)及(AD2)的全部标记。这里 $d=p+1,q=p^2$，$B_0(v)=vQ(v)/6$，$w=B_0/P$，$B$ 单独表示原晶体反对角常数 $q_D^*e'_1=B e_0$，$\rho_t=t/\bar t$，$\rho=\rho_\eta$。由(Q1)的真实水平作用在原首闭盘先得
+$$ B_0(v)(\mathcal T_t f)(v)=\rho_t^{-1}(B_0f)(\Phi_t(v)).\tag{AF1}$$
+等式只须在 $w$ 有限处以 $w(\Phi_t v)=\rho_t w(v)$、$P(v)\mathcal T_t f(v)=(Pf)(\Phi_t v)$ 验证，再在整盘延拓；$\Phi_t$ 整且固定0，保此盘。$P(v_D)=0$ 的全部 $d$ 个首圈点已由(W8)实辨。其标记下 $\Phi_t(v_D)=v_{\bar tD}$：准典提升的态射由源的 $[\bar t]$ 经 $q_D$ 下降，特殊纤维 $\mathrm{Fr}\,[\bar t]=[t]\mathrm{Fr}$，按(P7)的刚性它正是所标 $U_t$。这里只用 $p$ 可除群的同构。特别 $\eta$ 固定每个 $D$，Teich 商 $\Delta=\mu_{q-1}/\mu_{p-1}$ 正则置换全部首线。
+
+置 $F^{\rm corr}_{k,D}=f_k(E_1/D,q_D\alpha M^{-1},\kappa_D)$，$q_D^*\kappa_D=\omega_E$；$M$ 是原特殊 Frobenius 在 $c_k$ 水平上的实际矩阵。于是 $F^{\rm corr}_{k,D}=a_D f_k(v_D)=B(B_0f_k)(v_D)$。取任意基线 $D_*$，在(P9)应用(AF1)，给真确的固定负一权
+$$ \mathscr S_{k,p}=\sum_{t\in\Delta}\rho_t^{-1} F^{\rm corr}_{k,\bar tD_*},
+ \qquad \boxed{\mathscr S_{b,p}=65\,\mathcal A_b(\rho^{-1}-1)\mathscr S_{1,p}.} \tag{AF2}$$
+换 $D_*$ 只同时改变三个和的同一单位相位。确实 $B_0P_\Delta f$ 在 $v_D$ 取得 $(dB)^{-1}$ 倍该和，每个 $\mathcal T_\eta-I$ 在这一点对 $B_0 f$ 作标量 $\rho^{-1}-1$；严格盘上的有界收敛允许整 $\mathcal A_b$ 逐项作用。
+
+参考和准确满足 $v_p(\mathscr S_{1,p})=1/d$。因 $\Phi_t'(0)=\rho_t$、$\Phi_t$ 整、$v_p(v_D)=1/d$，有 $v_{\bar tD}/v_D\equiv\rho_t\bmod\mathfrak m$；(R5)给 $B_0(v_D)/v_D\equiv1/6$，而 $f_1(v_D)\equiv f_1(0)\ne0\bmod\mathfrak m$。所以 $\mathscr S_{1,p}/(B v_{D_*})\equiv d f_1(0)/6$。又 $v_p(a_D)=1/d$ 是(P6)的首层，故 $B=a_D/B_0(v_D)$ 是单位。这付掉全部样本、参考和相位可能的分母。
+
+### 原物理曲线上一个固定真有理函数
+
+任取非零 $Q_*\in D_*$。为各 $k=1,65,8125$ 写 $c_1=6,c_b=390$，$Q_{c_k}$ 如(A)。因为模 $c_k$ 的 $M^{-1}$ 是反线性的可逆映射，存在唯一 $m_{k,p}\in(\mathcal O_K/c_k)^\times$ 使 $M^{-1}a=m_{k,p}\bar a$。置
+$$\begin{aligned}
+ \widetilde G_k(X)&=\sum_{a\in(\mathcal O_K/c_k)^\times}\epsilon_k(\bar a)^{-1}
+          F_7(X+[a]Q_{c_k}),\\
+ \lambda_{k,p}&=\epsilon_k(\bar m_{k,p}).
+\end{aligned}\tag{AF3}$$
+这三个 $\widetilde G_k$ 都固定且保留原 $2,3,5$ 及两个 $13$；$\lambda_{k,p}$ 是明确由原 Frobenius 重标产生的根单位。由(P2)及上述换标逐项有 $F^{\rm corr}_{k,D}=\lambda_{k,p}\sum_{R\in D}\widetilde G_k(R)$。当 $h=\bar t$ 时 $\rho_t^{-1}=\rho_h$；零点在全和的系数是非平凡角色之和，故为零。每条线的 $p-1$ 个非零点均应计入，各点权相同。于是
+$$ \boxed{\mathscr S_{k,p}=\lambda_{k,p}
+   \sum_{h\in\mathbf F_{p^2}^\times}[h]_{\rm T}^{\,1-p}
+                       \widetilde G_k([h]Q_*) .}\tag{AF4}$$
+$[h]_{\rm T}$ 为其 Teich 提升，点上的 $[h]$ 是原 CM 模 $p$ 作用。$\widetilde G_k$ 在原点形式盘整，由(A)的固定水平极与好约化论证；其 $\mu_6$ 变换是 $\widetilde G_k([u]X)=u^{-2}\widetilde G_k(X)$，因为 $\epsilon_k(u)=u^{-1}$。特别三个源在物理原点本身均零，秩零参考的首圈非零由(AF2)付出。
+
+取 R663/R1065 在**物理** $E_1$ 上的严格整坐标 $Z$，$[-p](Z)=-pZ+Z^q$、$[u](Z)=uZ$ 对 $u\in\mu_{q-1}$，令 $z_*=Z(Q_*)$，$z_*^{q-1}=p$。写 $g_{k,n}=[Z^n]\widetilde G_k$，均整。完整有限 Fourier 正交性将(AF4)变成
+$$\begin{aligned}
+ \mathscr S_{k,p}&=\lambda_{k,p}(q-1)z_*^{p-1}\mathscr R_{k,p},\\
+ \mathscr R_{k,p}&=\sum_{j\ge0}p^j\,g_{k,p-1+j(q-1)}. 
+\end{aligned}\tag{AF5}$$
+严格坐标及其 Taylor 数可以依赖 $p$，原有理函数本身不变。这里选择的是 $p-1\bmod(q-1)$ 的唯一完整模类，未将任意 Gauss 伙伴置零。由 $v_p(z_*^{p-1})=1/d$ 及参考估值得 $\mathscr R_{1,p}\in W^\times$。故对每条真实目标
+$$ \mathcal A_b(\rho^{-1}-1)
+ =\frac{\lambda_{b,p}}{65\lambda_{1,p}}\frac{\mathscr R_{b,p}}{\mathscr R_{1,p}}.\tag{AF6}$$
+已证原 $\mathcal A_b$ 至少含 $T^2$；若 $[T^2]\mathcal A_b=0$ 则实际 Rubin 平方使它含 $T^4$。由于 $v_p(\rho^{-1}-1)=1$，必有
+$$ \boxed{\ \sum_{j=0}^{3}p^j\,g_{b,p-1+j(p^2-1)}=0\bmod p^4.\ }\tag{AF7}$$
+无条件同一个和模 $p^2$ 已为零，任一条在模 $p^4$ 违背(AF7)就给该 $p$ 的真实通常全 Sha 有限证书。两个目标的共同坏会使二条固定有理函数各满足(AF7)。旧 R1065/1066 为 degree34、102 的负二测试；此处是固定曲线对的原 $T=-1+\rho^{-1}$ 值、原参考的准确单位和非平凡首层驯角色。迄今尚未证明(AF7)在无穷 $p$ 上违背。

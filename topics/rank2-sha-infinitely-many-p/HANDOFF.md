@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 14:51:22 UTC按根规则8小文本备用通道读公开main 7b58e8b82e5d04b1124683b3e8acdc3f2793a75f、私库main e3525fda13e8c5d2d8e94ae4dec8b29695b29065；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题认领仍进行中。
+- 2026-11-28 14:52:24 UTC按根规则8小文本备用通道读公开main da7bed4972575f9b424af2ea2b4245cf75c693ad、私库main 0506cfa8bc3b86f5b42fa39f6697cee12adc3e1d；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -39,7 +39,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 固定曲线对：R1073
 
 [原§§1–16](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)、[17起](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)保固定E65/E8125秩≥2、完整390角色/5/双13/原E1及两canonical二阶；旧P±/Lagrange/全层/Volkenborn/PF精度见归档，不重做。§§13–16同一三级/216商/72环类，单位乘法独立及单位权导非零，但完整二阶含T2、logτT1和log²质量，τ=u²/130。
-§17真实Fr预标后的全Hecke迹杀外端所有正dj次数，中央常数仍缺；§18相反Weil分量及原未经重标奇层逐商为零，参考不混。§19母δ全胚芽/四Δ全p范数付同圈72单位log迹。§20原混积=固定E16的2592N/(δβ)点log，原点/首端点差皆非挠。§21完整72(p+1)Fourier唯一复主项付两个原χ加权h_C首端log非零，但AD6的两完整正则积分仍可抵消；裸μ3 log和是零。§22真全9标记付β=1、Fermat反演、H±及±h·dμ，仍保同一变动水平周期，未付中央。
+§17真实Fr预标后的全Hecke迹杀外端所有正dj次数，中央常数仍缺；§18相反Weil分量及原未经重标奇层逐商为零，参考不混。§19母δ全胚芽/四Δ全p范数付同圈72单位log迹。§20原混积=固定E16的2592N/(δβ)点log，原点/首端点差皆非挠。§21完整72(p+1)Fourier唯一复主项付两个原χ加权h_C首端log非零，但AD6的两完整正则积分仍可抵消；裸μ3 log和是零。§22真全9标记付β=1、Fermat反演、H±及±h·dμ，仍保同一变动水平周期，未付中央。§23真首圈负一权=固定F7全Gauss和，参考单位付四位坏条件；尚缺无穷p违背。
 
 ## 其它门、更正与接续
 

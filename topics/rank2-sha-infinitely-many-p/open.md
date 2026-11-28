@@ -25,3 +25,7 @@
 ### R1067 §79：原中央消去低二格，单个实际邻点微分系数读原二阶
 
 已证明：原驯中央L值消失使真实Robert列可由U₂表示，真实Norm仍落U₂并由Cartier消L₀；原一次Kummer矩为零及可逆分次乘子再消L₁。原a₂模p准确为−λ^(p−3)/(34ρ)倍同一邻点dlog的唯一L₂，不预断该系数非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §23：原固定曲线对的首圈负一权与四位完整椭圆Gauss和
+
+已证明：真实Fr预标、B₀水平作用与原参考首圈估值给Ab(ρ⁻¹−1)的同一比值；固定物理F7函数保全390/两13/5，完整p²−1个非零点筛出唯一模类。原中央坏必使同一Taylor模类前四p进位和为0 mod p⁴；尚未证无穷p违背。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
