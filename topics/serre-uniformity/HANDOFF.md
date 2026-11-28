@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：6a40be69d528d336c8aa40d018bd40113cd46b3a**（2026-11-28 16:48 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：1e7aff790ec7da20d588ec8faf42283531558dd5**（2026-11-28 16:52 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 16:27:06 Asia/Taipei，Actions run46125850781/job140920159380，blob:none浅clone后真实pull --rebase至887df1e0且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤17:17、pull≤17:27。本地16:26仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-second-central-reading.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-third-central-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -28,13 +28,15 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n从k+1起、J0=0及a=N_u y。最高corr完整nonlinear SDR给BCH=−R_ZJ；R1168 §§8–9已继续实读全部所需J：设B_kl=A4,k A8,l−Σ_iA′i,4,k A′i,8,l，则BCH=Σ(k−l)B_kl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换系数(k+1)/(k+l+2)。所有rank1/rank2、原根/同陪集Cor保留；不再有未定U读数，未宣单位。继续原未平滑J_n/B_n与Π2/4。
 
-[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)完整SDR/原M_d/中央ordered gauge均付。§§10–11直接读原V′_i：c_dk=binom(d,k)b_E^k/(k+1)、m=p²−1−pd+(p−1)k，A_dk=(4−2⁻d)c_dkG_m，A′i,dk=c_dk(2σG_m(E/C_i)−2⁻dG_m)。quotient用原Vélu微分归一，非套同CM基；ΣA′=A。B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ_iσG_i,mσG_i,n}，同核不拆。高G整性已付，继续原未平滑/Π2/4/全局减法，未宣单位。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原全部cone SDR/非线性ordered gauge与CM moments已付；V′_i直接读商曲线G并保Vélu微分、σ、同i相关。B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}；高G整性及全部raw/primed尺度详原文/前态，未宣单位。
 
 [原Gaussian高窗 §§1–11](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整Appell反射C_j^F(Ψ)=(−1)^(j−1)j!β^(j−1)D^(p−j−1)x（j≤10）及共同整τ误差付所有端点。原M_d=−β⁻¹Σ_(i偶)d!/(d−i)!·f_(i+1)^(p−d−1,0)ω^iη^(d−i)，d4/8全部槽仅用G_(p−5)/G_(p−9)的安全heat列；含原H_p/J_p/d1/c3。critical p列carry、完整低乘积及actual good-mask不删，联合非零仍开。
 
-[R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2的degree8 S/U源乘Weil²及Fil12/全部normal已付，BCH权(k−l)/(2(k+l+2))作用R1168同核B_kl与实际Π2(Uk,Ul)。中心同源n⁻²使V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2全p>37单位。完整h2=(hCorr+J+B)/v保原局部算术项；Π4/λ与F0继续。
+[R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2 degree8 S/U×Weil²、Fil12及全部normal读数已付，BCH权(k−l)/(2(k+l+2))作用同核B_kl的Π2。V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2全p>37单位；原J/B局部读值仍保。
 
 [R1170](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格的Bℓ=ℓ^dTℓ保原归一；具体整Hecke序提升及半稳定惯性界给最高/Π2余有限算子族单位理想。只对有限格成立；原Z0一般有s¹⁴提升差，须以同abelian中央差或完整affine常数实现，且补足实际辅助素数族，不能直接令Z0=0。
+
+[R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
