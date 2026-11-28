@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140871590641，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 05:00:52 UTC实际partial clone/pull至b97f9db98409b6e4c2e8c1476865f72cefc7714c。根/课题已读blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 05:00:58 UTC实际至9b2e2b8318d7be2b97fde04f7eab3a528a79479a。根/课题已读blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与04:55已读版相同。QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际heads不以旧request baseline替代。
-- 日志14889B/hash25813c0930995a9d513ca8279837ff12134aad8137865a795166efa2d4d44fd3；完整库存3187blobs/45214876B，tree3cf673e99b3dbde47e0acc0ff047a273f05dc0ac，无>5MB，三旧必要gzip未变。
-- 每推前新pull；最迟06:00UTC再拉两库。旧run第50attempt startup_failure不冒pull；现run workflow逐字相同。非FF立即实际pull --rebase、检查差异再推，不force。
+readonly run46073965457/job140874442664，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 05:12:45 UTC实际partial clone/pull至345fc610eaa131b092ca6d0316ff5a6b4ef70c7d。根/课题已读blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 05:12:50 UTC实际至a801d83bd511459dfd09d7596ff0d72fdef51f08。根/课题已读blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与05:00已读版相同。QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际heads不以旧request baseline替代。
+- 日志14887B/hash600f9ce58dd8e4399ff84853565f8ae0c2ea39071a7997f3fe3cfe0043ae3b64；完整库存3189blobs/45233235B，tree82ca86456306f64fa49bbc5c17c7356dc67b4de0，无>5MB，三旧必要gzip未变。
+- 每推前新pull；最迟06:12UTC再拉两库。旧run第50attempt startup_failure不冒pull；现run workflow逐字相同。非FF立即实际pull --rebase、检查差异再推，不force。
 - 本地自2026-11-27 07:20失联，最近2026-11-28 04:28:58实际pull仍无环境；末本地07:12至1cf10ac。API/实际CI pull/本地分记。
 
 ## v13 真实终态、软件 v2 与下一完整分母返回
@@ -40,7 +40,7 @@ R1061原反CM图、(34,102)极化、全p⁴/Miller中心、全部Z_Q jets、野�
 - I18a/K20a–b明确E17→E0的17^-2，或c0^(0)=ϑ^-10c0、L±=ϑell±；原局部K20不改。所有period/中心/Haar不得以p单位为由漏掉。
 - T1–20付原整完成tensor、β0=612ωκ_A^-1ϖ²、Gaussian测试单位和mixed D_G heat，真gauge的floor费用及双units支撑全保。T19–20返回whole B_r(j)/斜率，logU*在µ_F外；mixed heat不直接冒coherent乘法。
 - W1–26付原[p]框架B(0)=1整单位、实际Miller整lift及中心、所有核角色。各真正p²新字直接为整ψ0 dual、norm1，正6q/负4q系数单位；标准degree-Nq框架保B加权迹。W22完整connection/physical p^-m、old/new与(p^-2−1)旧项、对偶coset图ξ+=−M^-Tξ−、全部h及原负二/Λ′全保。q^-1有限投影只在有理化格。
-中央N1–19和geometry Z1–22已交完整R1066候选，root正在全文审：由实际c_q锁c1^Δ/p^p主单位，完整逆connection同一合法正权序列返回负二和斜率；真coherent S_-C/完整Maass S_C在整个平移germ相逆，必须全卷积且保旧/h/Λ′。未推前不把候选记成已证结果；两个agent继续主无穷联合canonical非零，不重复单字非零或旧Cartier窗。
+[R1066](results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)N1–19现付实际c_q锁c1^Δ/p^p主单位、完整逆connection的1+p^(p−2)统一Tate界；同一合法正权序列保p^(-p p^h)/physical p²，准确返回Miller负二/斜率和各新字裸逆矩非零。Z1–22在原完成整tensor的Cp扩张付全移位gauge、共同分支及coherent S_-C/完整Maass S_C的绝对收敛双卷积逆；不是E(t)+E(-t)=0。Z21a明辨ordinary新族与原already-Maass germ，保old/Haar/17^-2/fullh/全部Λ′及实际flat极限。主严格Hall门仍开；两个agent继续原有限角/source关系与低系数，不重复单字非零、纯P10等价重述或旧Cartier窗。
 
 ## 其它原门与继续方向
 

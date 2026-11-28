@@ -340,3 +340,10 @@ R1050§7的原两向scalar返回v1软件已真实PASS，source32a46d1/run4610930
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。下一同一MD的完整U/坐标复用仅准备，全部原F_y专门验收保留，当前无heavy。
 
 [来源与完整范围](2026-11-28-v13-terminal-and-whole-denominator-return.md)。
+
+
+## R1066 — 实际新字的负权、整个连接与双 Gaussian 返回
+
+R1066 N1–19从原严格c_q恒等式固定c1^Δ/p^p的Teich部分为1，保真正p^(-p p^h)及physical p²，以完整a_N逆连接构造1+p^(p−2)中的统一Tate测试。同一合法正整数序列准确返回全部Miller负二值和斜率，log与连接导数均保；只给每个实际新字裸逆矩的确切非零估值。Z1–22在同一完成整tensor及真实Cp标量扩张上付共同单位基/全移位gauge界，原coherent S_-C与完整Maass S_C经绝对收敛双卷积严格互逆。端点、整个log−E及两外权/旧项/Haar/17^-2/fullh均返回；finite正权raw与flat极限仍区别。新ordinary移位族不冒原already-Maass germ，Z21a明确全式。原严格Hall单位门和无穷canonical联合非零仍未完成。
+
+[完整证明](../results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)。S_C/S_-C只在本文实际一致有界移位族上作全卷积，不外推一般测度heat或把可逆测试的值判为单位。

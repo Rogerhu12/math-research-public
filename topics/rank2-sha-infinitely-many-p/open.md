@@ -47,7 +47,7 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 [R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)现付原book/dual-LT精确单位、全Galois方向及actual whole µ的全LT盘lift。完整Maass和log−E读者保留；有限F真正bounded字符函数的所有trace-dual坐标返测度；§10结合已发表Fourier等距消去最终different损，actual lift精确等距。§11已构造原单位测度的等距quadratic lift，付P10单位restriction、负一次/负二次低矩、完整Möbius及局部热作用范围；一般Dirac反例不排原actualsource。下一继续原fullMaass来源的全盘/ψ整性与准确下降；普通LT系数固定不是ST扭曲下降，去period完成矩候选若真LA分布反迫flat整分量零。Colović全文已核；本二次域无损返回由BSS加Berger等距已付。原Mahler前缀有明确affinoid精度。§12现付actual A(Q_E)的完整ψ核平均与原单位cut、负二/全log−E及Λ′的无损有界测试；它只用于已有原测度的Fourier像。§13保同一whole系数的F-Tate编码、数字和读者成本与完整斜率有限精度；ordinary H±不因此被认作原单Q提升，实际tensor/连接仍须支付。
 
 
-[R1065](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)现已构造两份原H±的真正整Katz primitive测度，完整p核迹只需一个p；K20a/b与I18a另显写E17→E0整列的17^-2固定因子（c0^(0)、L±），不改严格估值门；原wild中心、正质量高共振和、负type4质量零、非基域点的完成tensor测试及d/p² Haar均已支付。实际负二有限测试和前五层逐项返原Hall/原Newton，准确严格门为v_p µ_+(c1^(p+1))=2，等价原s_(p+1)单位。§§8–12现付同一整tensor、实际612ω Gaussian及整个B_r(j)/全斜率测试，模型/p-Haar/period/外权全部保留。Gaussian在Fourier侧为mixed D_G heat，与coherent乘法仍待实际Weil交织；Katz整性及primitive支撑本身未给该矩等号。W1–26现付真正p²新Weyl列的整框架/原Miller lift、无额外p的ψ0 dual、完整kernel character、唯一coset及原成对反CM图，全部old/new/Haar/finite jet/physical p^-m通过原连接返回；正6q/负4q高系数单位不代严格低矩。下一以此实际新dual/完整连接和全h解Gaussian交织及canonical非零，不能把finite-F普通LT函数直接当原单Q提升。R714/R717/R721/R723已有Cartier/Artin–Hasse首窗与有理极帽，不重复登记。
+[R1065](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)现已构造两份原H±的真正整Katz primitive测度，完整p核迹只需一个p；K20a/b与I18a另显写E17→E0整列的17^-2固定因子（c0^(0)、L±），不改严格估值门；原wild中心、正质量高共振和、负type4质量零、非基域点的完成tensor测试及d/p² Haar均已支付。实际负二有限测试和前五层逐项返原Hall/原Newton，准确严格门为v_p µ_+(c1^(p+1))=2，等价原s_(p+1)单位。§§8–12现付同一整tensor、实际612ω Gaussian及整个B_r(j)/全斜率测试，模型/p-Haar/period/外权全部保留。该Gaussian在Fourier侧为mixed D_G heat；真正coherent乘法的另一方向现由R1066的逆矩/全移位收缩支付，Katz整性及primitive支撑仍未给该矩等号。W1–26现付真正p²新Weyl列的整框架/原Miller lift、无额外p的ψ0 dual、完整kernel character、唯一coset及原成对反CM图，全部old/new/Haar/finite jet/physical p^-m通过原连接返回；正6q/负4q高系数单位不代严格低矩。R1066现用此actual新dual和完整连接支付全Gaussian交织；下一消费原有限角/source关系争取canonical非零，不能把finite-F普通LT函数直接当原单Q提升。R714/R717/R721/R723已有Cartier/Artin–Hasse首窗与有理极帽，不重复登记。
 
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 
@@ -62,6 +62,8 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 按原范围保留；参考 \(R_3(0),R_5(0)\) 非零不能单独补上述接合。原坏点
 \(O_D=(1-p^{-2})G-\lambda_D^*I_D/p^2\)
 仍留原 \(G\) 边界；完整 incoming 范数零不删 outward。所有有限2/3/17、wild两陪集、full9和完整权都保留。
+
+[R1066](results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)的N1–19与Z1–22已完成同一新字的负权connection和原coherent/fullMaass返回。实际c_q锁住归一，合法共同权支保prime-to-p角色与p深度；完整S_C S_-C=1靠全移位双卷积，非两个E逐项相消。Z21a给原whole already-Maass germ，全部old/finiteh/差2角投影/17^-2/Haar/Λ′保留。各新字inverse矩非零及测试单位均不传给Hall或canonical。下一须证明原tame平均后的真实低系数于无穷p命中，或同一固定有限族的全来源关系强制至少一个canonical非零；原P10 descent在新表达中的等价重述不新增坏行。
 
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 

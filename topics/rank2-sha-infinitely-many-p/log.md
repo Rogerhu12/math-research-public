@@ -354,3 +354,12 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 原MD初次整Popov仅28.729秒，后续逐列重置整tail耗15143秒；下一工程针对实际瓶颈，完整H=U·MD、C·H=Y·MN与X·MD=Y·MN都要返回，不改目标行模。F_y下游仍要求原transpose HNF，故仅两direct endpoint用新路径，旧F门不删。官方Sage10.6源已全文读；候选尚未执行，不据API名宣称性能。
 
 推前actual双pull run46073965457/job140871590641：公开05:00:52 UTC至b97f9db98409b6e4c2e8c1476865f72cefc7714c，私库05:00:58 UTC至9b2e2b8318d7be2b97fde04f7eab3a528a79479a；四README与04:55同blob、QUEUE未变。日志14889B/hash25813c0930995a9d513ca8279837ff12134aad8137865a795166efa2d4d44fd3；库存3187/45214876B/tree3cf673e99b3dbde47e0acc0ff047a273f05dc0ac，三旧必要输入不变、无>5MB。原H9907B/hash35775e35a55be96cad111b9589b72a4b60846def712667f856f81ad23640823a逐字归档至notes/2026-11-28-handoff-before-v13-terminal.md。R1066实际负权连接及全Gaussian germ已收到完整稿，root审读后按结论推；主目标仍未完成，继续。
+
+
+## 2026-11-28 05:16 UTC：R1066 同一新来源的完整负权与 Gaussian 返回
+
+R1066 N1–19从原严格c_q恒等式固定c1^Δ/p^p的Teich部分为1，保真正p^(-p p^h)及physical p²，以完整a_N逆连接构造1+p^(p−2)中的统一Tate测试。同一合法正整数序列准确返回全部Miller负二值和斜率，log与连接导数均保；只给每个实际新字裸逆矩的确切非零估值。Z1–22在同一完成整tensor及真实Cp标量扩张上付共同单位基/全移位gauge界，原coherent S_-C与完整Maass S_C经绝对收敛双卷积严格互逆。端点、整个log−E及两外权/旧项/Haar/17^-2/fullh均返回；finite正权raw与flat极限仍区别。新ordinary移位族不冒原already-Maass germ，Z21a明确全式。原严格Hall单位门和无穷canonical联合非零仍未完成。
+
+root全文审中央N稿和geometry Z稿，回读R588(3/4/8)、R639(11–13)、R663严格坐标/原对数、R1061(C5/C13)及R1060(1–3/16b/18)。逐项核c_q号与q!单位、floor/ceil真格、全部connection/falling factorial、共同Δe1p^e分支及two physical p费用；Z21a补清原M_A是already-Maass，不能将新ordinary M_T直接代末式。完整双卷积后保Λ′，并明确T_i展开原p处输入不再额外投影。central另审finiteh/common frame/差2角投影，尾界保持；整germ不从有限raw正权免费外推flat。
+
+完整文件33377B/hasha25f6d2f8d1fb09cb804ddb46bbe1cea2cbdb18fd042d8680785cb054fa185e4。此前实际终态及软件回执已推cc3304c76d4b470a398b2de6896dad1598ef76b7。推前actual pull run46073965457/job140874442664：公开2026-11-28 05:12:45 UTC至345fc610eaa131b092ca6d0316ff5a6b4ef70c7d，私库2026-11-28 05:12:50 UTC至a801d83bd511459dfd09d7596ff0d72fdef51f08；四README与05:00同blob、QUEUE未变。日志14887B/hash600f9ce58dd8e4399ff84853565f8ae0c2ea39071a7997f3fe3cfe0043ae3b64；库存3189blobs/45233235B/tree82ca86456306f64fa49bbc5c17c7356dc67b4de0，三旧必要输入不变、无>5MB。当前无heavy；arith继续针对真实MD的完整U/同H坐标返回，软件先核全部旧门。主目标继续，不以本篇中间结果结束。
