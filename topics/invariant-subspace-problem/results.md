@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-hk-entire-tzero-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-whole-circle-shifted-roots-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [原移位根的整圆周费用与全部连续复路径](results/R12-appendix-actual-shifted-roots-whole-circle-cost-and-continuous-complex-paths.md)：固定实际来源与左右任意固定有界正则器整圆周超幂费；单全尾有界移位根全分类。原一手最小模输入已核，保稀疏点/随动源及任意闭根开放；首派α0整二次域。
 
 - [整个原t0迫半总权，整个h=k的t0物理排除](results/R150-appendix-unit211-entire-tzero-half-total-weight-and-hk-exclusion.md)：新七自由mean身份与已刊全f/t NP，完整值矩迫λ半/h=k=w0，原第五列rank2对rank≥4矛盾。1ms/170乘法，无遮Phi/W/Pf/D非零借用。γ180秒尾失败如实冻结。
 
@@ -67,5 +69,3 @@
 - **R150 / Phi 真T14、ell21及完整639次整模型：** [完整下界与冻结边界](results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md)。两原曲线真QQ核运输分别付14/21，合此前u⁴/(u−1)^30给保度639/LC636；精确16/25未证，余坏块全保。唯一两次120秒计时失败冻结，不改短jet续跑。
 
 - **R150 / 整Lhalf原D的F101覆盖与规范长度2424：** [完整原返回](results/R150-appendix-unit211-W-entire-Lhalf-original-D-F101-cover-and-normalized-length.md)。整个二次域求原六行目标，仅最终已约系数分母G140剥原paid得到F101；全6坐标与6个L整除返回，恢复所有中间极点/分歧。原权202、均值1212、规范2424，全部有限纤维仍待原值排空。
-
-- **R150 / Phi 真(u−1)^30因子与完整695模型：** [证明及冻结边界](results/R150-appendix-unit211-Phi-zero-u-minus-one-thirtieth-factor-695-model-and-frozen-memory-boundary.md)。四轮QQ核完整付30阶下界，合先前u⁴给695次整模型；精确39未证，余九模重数保。唯一71.641秒/−6内存失败冻结，不加内存或缩jet重跑。
