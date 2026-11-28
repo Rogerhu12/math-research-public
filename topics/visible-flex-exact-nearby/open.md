@@ -189,3 +189,6 @@ TCF：只在TC真实terminal后从全accepted union严格补集分配完整cells
 
 
 GTP：同算子/physical S/97Θ/mean/四whole maps到原58→224→32的完整转接已证，真实κB及边界二块门各须执行；新kind/全actual/execution/97current/21history与九源严格准入。原TF失败不改标；实际GG成功前ready=false，PN56/CXN6仍须全部实际输入。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GSR：同δ*完整三次残差和参数导数先保577含mean行，原base乘α一次、两个连续修补、全部原行保。两列真实BVP右97只一次Θ还原，全部格Peano16有向signed包含到cut.9与整个[.85,.95] ordinary P低/shell，source_roles=()不重四旧norm。原family/high/边界和负窗仍须完成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
