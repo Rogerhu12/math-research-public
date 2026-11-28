@@ -207,3 +207,6 @@ RPH1：原root holomorphic完整majorant推出真实根片|P−phi|<1/4000000、
 
 
 GPR：GPR首次完整新目标：真实GCS whole11131542B/9af56c23…；176原整输入，全部原径向缝/两射线/共同gap，连续piecewise Hermitian dyadic comparison，原角圆周全residual+9jets及真实spacetime H1；140MBprivate整件读回，未预报数值门。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+NHT：原7721全行tail正预算与完整compact metric参数导给全[0,25/8]、|j|≥97真实ν源H1/3<1.254870e−9，Newton<1.17560e−19；完整已知负窗费用降至1.760e−5。13whole/21新Fraction首次全过，receipt2241B/7eb693b8…；0旧science，未知high反馈/真根边界仍保。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

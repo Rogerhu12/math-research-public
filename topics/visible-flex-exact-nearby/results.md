@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NHT：整域真实选定成员的完整高Newton与ν源](results/R149-supplement-selected-complete-high-Newton-and-nu-from-the-Z-tail.md)：原7721全行tail正预算与完整compact metric参数导给全[0,25/8]、|j|≥97真实ν源H1/3<1.254870e−9，Newton<1.17560e−19；完整已知负窗费用降至1.760e−5。13whole/21新Fraction首次全过，receipt2241B/7eb693b8…；0旧science，未知high反馈/真根边界仍保。
+
 - [GPR：两真射线完整连续比较与时空H1首入口](results/R149-supplement-continuous-two-ray-comparison-and-integrated-physical-H1-error.md)：GPR首次完整新目标：真实GCS whole11131542B/9af56c23…；176原整输入，全部原径向缝/两射线/共同gap，连续piecewise Hermitian dyadic comparison，原角圆周全residual+9jets及真实spacetime H1；140MBprivate整件读回，未预报数值门。
 
 - [RPH1：真实根片完整标签H1](results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md)：原root holomorphic完整majorant推出真实根片|P−phi|<1/4000000、|Pphi−1|≤1/93750、归一化angle H1<1/90000；原root零值和完整真实短片保，不延拓到未付严格全域。
