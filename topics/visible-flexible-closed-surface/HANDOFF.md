@@ -30,7 +30,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R271-components --> [R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)长短两真端方向独立、完整三分量reach≥.097；R273/R282旧尾仍可用。两完整连接的新metric/法管均另付。
 
-<!-- 2ecf-r278-Minkowski --> [R291](results/R291-embedded-infinite-low-cuff-strong-shape-family.md) 给同一低帽 g 的完整新嵌入族，同时有两项强形变比例；两实际步的移位峰 .8264763、κ31.932，定量 reach 与强度量仍待。
+<!-- 2ecf-r278-Minkowski --> [R289 四次物理稀疏步](notes/2026-11-28-2ecf-r289-sparse-physical-positions-and-native-query.md) 给实际移位整核 .122989024、κ11.506422；完整深部 .08107583、κ10.16060，已存确切 XYZ 与物理材料查询。
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:44:08 UTC；已读公开 main `c5ac865e508ff7e4f6ead488e8ce8d54ac95787b`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:46:31 UTC；已读公开 main `28ab462cf748b12d2ca495396ab5bf6a432c47f9`，根/课题 README 逐差无变化。
