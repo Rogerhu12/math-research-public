@@ -1,0 +1,88 @@
+name: visible-flex R080 canonical macro core design
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r631-radius080-macro-core-design-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r631-radius080-macro-core-design-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Solve new R080 connection and advance the actual canonical macro core
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r631-radius080-macro-core-design-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r631-radius080-macro-core-design-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r571_milder_seed_outer_jets_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_body_forced_j4_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_exact_knot_height_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_finite_height_turning_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_function_space_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r594_eight_mode_weak_height_bvp_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r594_paid_weak_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r600_factored_high_mode_jets_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r602_eleven_mode_core_completed_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r606_compact_response_height_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r606_paid_full_spectrum_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r606_weighted_majorant_observation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r613_actual_position_height_operator_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_complete_row_qr_svd_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_full_position_height_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_position_defect_linearization_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r615_position_majorant_observation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r615_shared_coefficient_position_observation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_convex_core_input_path_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fixed_metric_numerical_chain_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fourier_centered_mean_chain_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fourier_centered_model_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_growing_post_fixed_metric_height_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_hard_total_trace_model_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_split_reference_mean_chain_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_stable_coordinate_model_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r631_complete_two_rhs_qr_svd_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r631_radius080_convex_core_input_path_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r631_radius080_design_consumers_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r631_radius080_design_factory_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r631_radius080_hard_trace_design_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r631_radius080_macro_core_design_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull both rule sets and run the complete new-radius static design
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r631-radius080-macro-core-design-20261128.json
+          --lane r631-radius080-macro-core-design
+      # New R=.8 reference and genuine reconstructed fields; no R085 root transfer.
+      # Full H/W/E and true F2 static design, all 1451 initial free columns.
+      # Full connection solve and automatic mu -> 1, complete J48/64/96 dictionaries.
+      # One complete two-RHS QR supplies Newton and the real core-path predictor.
+      # Every original row and singular direction retained; no normal equations.
+      # Streamed complete J passes are recomputed and charged, not cached for free.
+      # Actual public pull and exact double-README comparison every 55 minutes.
+      # Full fine and two direct-position stencil observations; no completion claim.
