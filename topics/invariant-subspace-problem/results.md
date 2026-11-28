@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R267：实际根曲线的同源Beta系数与每个非零列本性](results/R267-appendix-actual-Laurent-beta-coefficients-and-every-nonzero-column-essential-singularity.md)：合法算子参数代入、所有有限恒零块提取及余尾全旗强*单位，给负Laurent系数a^α binom(α,r)C^(h+1)V^rH_r与H_r→T*的O(1/r)界。每个固定非零p最终各负系数非零，故实际曲线每列本性；不付费用下界或排强子列。
+
 - [R150：正确Phi同σ两个N/P–NV五次原交叉与原t十次式](results/R150-appendix-unit211-Phi-zero-corrected-same-sigma-NP-NV-crosses-and-original-t-decic.md)：唯一run46164341750，4.844514676秒/0，完整σ身份、两普通三均值迹、固定三原cofactor全部返回。C10双次82/51、t10/总97/26511项，最终三个乘子分母均1；H87整零面未删，未降公共权曲线45或宣称空性。
 
 - [R150：W/b0整个负e、零k赋值射线原q2/R6排除](results/R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md)：原b0与完整q2自行排任意λ的v(2λ−3)≤0，原系数付vT=−a/2；R6的MK²估值−7a而另一项≥−5a矛盾。k首值−1/−2、D/A*/m首值零均保，独立纸证不冒称初项程序全格单位；其余五ray仍开。
