@@ -41,3 +41,7 @@
 
 [诊断源码及真实回执](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)55513真exit0/remaining0/95.853s/510184KiB。保原全部1185节点/97状态/p32，原collocation/RMS/BC→物理quintic→2518×1552原audit/order6 mean，仅径向batch细为4/8，无J/BVP/native或旧.128重审。RMS.00792274554、物理BC4.62439e−8均未门；metric三条目原FFT_l1最大.00026738003。最坏G在原节点923/s.67851474、ψ频bin96、物理θ=π；原常数系数与全部左端Y逐位同，此点G不依赖径向quintic导数。当前未收敛，既不等同历史1.25e−6平台，也不单凭入口G误差归GL。物理输出明确unaccepted、原hash与全部参数完整保留，未作tail/accepted来源。20732只在诊断真join后由同97ec启动独立新存储续算；H按其实际launch更新。上一存储准备条目中的诊断范围现由本终态明确，不再记活算。
 
+## 2026-11-28 — R98 真同场前缀/切口/柱的有理时间常数入口
+
+[三源及小回执](notes/2026-11-28-tail-r98-rational-time-jet-entry.md)直接复用已冻完整source/mean/Hermite/cut消费器，不重建旧角0..3表；新全support有理κ0..3/Γ5与实际投影/端点/全部cut模支付新增角四阶。有限逆角Taylor majorant保完整混合jet，仅需e/e′/e″；同实际目标正半径归一化得M₂/Mg₂/Vg1，Fraction/dyadic平方根上界经整数不等式核。真3compile/help0及独立114项精确代数0（8个形式带符号角图×12项混合jet及其余关系）；没有假accepted场/BVP/J/native/core位置重算。修正note第四导式单个缺失‘+’，数学源与已付checker未动。只有完整prefix/cut/柱覆盖入口，整尾、深collar、Cartesian盘逐项pending、whole_surface恒false；无实际own fixed输入或新数值常数。下一全尾/盘入口继续，当前主算转完整Jac/CSR分块，H已同步20732前CSR真实终态。
+

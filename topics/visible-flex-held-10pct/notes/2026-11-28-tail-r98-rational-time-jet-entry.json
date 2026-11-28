@@ -1,0 +1,82 @@
+{
+  "status": "implemented_and_exact_algebra_checked_not_actual_field_executed",
+  "sources": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/rational_time_jet_bounds.py",
+      "sha256": "2fe82629e52bc916e2624403b111ca021290c8f57aa55791b9a2ff8511b3e3af",
+      "bytes": 11805
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_prefix_time_bounds.py",
+      "sha256": "ae5f674c2b3717df16f4522be18f94ab6f2973d9fc8ec302c7abcb467ee19086",
+      "bytes": 17987
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/check_rational_time_jet_bounds.py",
+      "sha256": "a72104791a0cd8f9b5a22654f4285824297e89a19a2e6007d4985ced28be6968",
+      "bytes": 6289
+    }
+  ],
+  "note": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-r98-rational-time-jet-entry.md",
+    "sha256": "4a7b62a61126459c97d1e10b3ca32d0f2089d5f7304b66a8a45410fe032a3e9c",
+    "bytes": 7082
+  },
+  "actual_algebra_receipt": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/rational-time-jet-20261128/algebra.json",
+    "sha256": "5aadef4085d88b95da38f46f12635692c036f2d8351d605c7a15b73d42ddc7ca",
+    "bytes": 6112
+  },
+  "actual_checker_status": "exact_new_time_majorant_algebra_checks_passed",
+  "exact_check_count": 114,
+  "formal_signed_chart_cases": 8,
+  "formal_derivatives_per_case": 12,
+  "compile_returncodes": [
+    0,
+    0,
+    0
+  ],
+  "provider_help_returncode": 0,
+  "actual_commands": [
+    "python -m py_compile topics/visible-flex-held-10pct/scripts/resume_20261128/tail/rational_time_jet_bounds.py topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_prefix_time_bounds.py topics/visible-flex-held-10pct/scripts/resume_20261128/tail/check_rational_time_jet_bounds.py",
+    "python topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_prefix_time_bounds.py --help",
+    "python topics/visible-flex-held-10pct/scripts/resume_20261128/tail/check_rational_time_jet_bounds.py --out /workspace/scratch/7c4e33ee17de/held10-tail-preparation/rational-time-jet-20261128/algebra.json"
+  ],
+  "same_field_data_providers": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_complete_prefix_c2.py",
+      "sha256": "70069b8367d80063f3ef085d2e3a41e68c0cca7a6c85408bd3ab95cb18a03a86",
+      "bytes": 29769
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/prefix_physical_theta_c2_bounds.py",
+      "sha256": "f45298d263a09cca3b015b8f61fdfed2033167180867d667574cdd018cae560c",
+      "bytes": 8150
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_c2.py",
+      "sha256": "1808a976bf4082fbe9b339fb24fdd7b87f3d29d36be05d15bcfdb7c7f24cc00e",
+      "bytes": 40027
+    }
+  ],
+  "scientific_arrays_in_git": false,
+  "actual_own_fixed_input_executed": false,
+  "new_BVP_or_native_calls": 0,
+  "old_tail_or_mean_rebuilt": false,
+  "old_angular_orders_relabelled": false,
+  "whole_surface_time_constants_certified": false,
+  "numerical_field_constants": null,
+  "implemented_future_coverage": [
+    "upper_prefix_and_cut",
+    "lower_reflected_prefix_and_cut",
+    "central_cylinder"
+  ],
+  "pending_full_field_coverage": [
+    "upper_complete_finite_tail",
+    "lower_reflected_complete_finite_tail",
+    "upper_deep_collar",
+    "lower_reflected_deep_collar",
+    "upper_cartesian_marker_disk",
+    "lower_cartesian_marker_disk"
+  ]
+}
