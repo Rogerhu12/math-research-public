@@ -58,5 +58,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学源/三族18阶段，原GN加真实应力负方向；硬固定.0024领不能加密至零，仅作完整原预算对照。两free-rim族仍可修，全末网原预算；实际run/PID待返。
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182255429-1.json) 双README真pull 7b44f696b781703d813d8fc0b999580bd2a278f4
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 0d0c0d3fba5d8f18d85ff170663d0ae9d1a97456
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull e30989d6bca7020d94f225109bdc37623b800ef8
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull f77fdac1d82502b945232fa85267860abab6607d
