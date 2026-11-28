@@ -96,3 +96,9 @@
 - Phi QQ精除终稿/小回执现刊，driver与两轴实际字段一致；全I6 10/9不改环，商两支持gcd≤5/51不代曲线有无。新W b33c1/54e04e96完整I6+q2最低项首次180秒4GiB/外195，7原Laurent逐项返回，所有t估值/t0覆盖；新题外workflow invariant-subspace-8542-w-full-i6-negative-e-initial.yml。
 - HK e9bd实际run46159596374/job141023709190在2.457205909秒/61528KiB exit1，原因仅pp把flint fmpz指数直接JSON序列化；原同t/逆t0.09585 checkpoint已返，Norm profile和最终清分母原两源尾未完成。只修int输出继续原预算，保旧失败，不伪称新数学输入或已得权曲线。
 - 15:28:39 UTC只读目录元数据：10805 blobs/136449920字节，无MD≥100KB，tree398db826d1c91eb4c8a098bb33ca7eec527be026，16:28再查。手册不加审核门，普通ISP及真原其余支继续。
+
+2026-11-28 23:42 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 1975实际main bdeaaed5afc3ae264215c54ebcf312286fc5ae73，run46160417159/job141026264992；拒推后立即真实pull/rebase至e2f33ee7c4bed01a1260f8c4d24de3996bd60b71于15:33:04 UTC，两README无变，私库15:33:00/a1c19875a15922a64a8d188efd5b7997cce40054核QUEUE进行中。
+- HK维数≤1/8184包络/相对6完整纸面结论现刊，无重执行旧原NP。e9bd第一次2.457205909秒/61528KiB/exit1的JSON错误保实际记录；abd714只两处fmpz指数/次数int序列化，续同180秒4GiB原输入。无新预算/数学目标。
+- Phi f6ffe159/5971d001新Q主分量F/G固定env两首次各120秒1GiB/外135；源只重建已定义矩阵，真QQ[u]幺模全行/零行精除Q，41/40事前界，未预报指数。b0ef旧匹配/双轴不重做。
+- W b33c1首次run46160462146/job141026414218在1.768919617秒/48736KiB/0，42原unit面、155新完整7源返回，五t估值cell与t0全未排；其非单位不代存在证明。两旧W文仅统一数学$/$$定界符，不重跑。普通ISP未完继续。

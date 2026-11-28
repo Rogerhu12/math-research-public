@@ -1,0 +1,102 @@
+{
+  "schema": "isp-hk-full-NV-Loww-first-JSON-profile-failure-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "job_id": 141023709190,
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46159596374/job/141023709190",
+  "execution": {
+    "elapsed_seconds": 2.4572059090000025,
+    "max_child_rss_kib": 61528,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "2c12a08a06949ed99cb68ac4560efa6008145743",
+        "before": "2c12a08a06949ed99cb68ac4560efa6008145743",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T15:23:26.074454+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46159596374",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "2c12a08a06949ed99cb68ac4560efa6008145743",
+    "source_exit_code": 1,
+    "source_git_blob": "e9bd30f0ceb6c2b123a0c4a2528b99b73a6f3ac2",
+    "source_sha256": "25d3ea3e3726b88a6cf5c831aa0228923226fab6c01d12d2e3a4fb0c2b97b8c2",
+    "stdout_bytes": 2114,
+    "stdout_sha256": "ed623f8e621142ed75f985e9f45190c9ae41ae8bd96b663da62d9b6d3f749e39",
+    "stop_reason": null
+  },
+  "actual_math_records": [
+    {
+      "dependency_prefix_bytes": 4540,
+      "skipped_old_top_level_statements": [
+        12,
+        13,
+        14,
+        114,
+        116,
+        119
+      ],
+      "NV_provenance": {
+        "source_blob": "bb534b16c2858c7cec98c5358ca105758e736e67",
+        "source_sha256": "00d513d603f862ef6b484176fe4d9da3b766e0047d46a87ec8f575622aa8ca14",
+        "complete_original_identity": "Q*N4((1,w,h,h))=2*NV"
+      },
+      "Loww_provenance": {
+        "source_blob": "dc888d6c09612271a1767c164c0632511f265d00",
+        "completed_identity": "Loww=NS-PS+EW2",
+        "frozen_targets_not_replayed": [
+          "Res_t(E1,Loww)",
+          "Res_t(EBo,Loww)"
+        ]
+      },
+      "original_NV_degree": 1,
+      "Loww_degree": 3,
+      "complete_NV_affine_identity_returned": true,
+      "constant_Loww_is_old_paid_unit": true,
+      "inverse_t_original_identity_returned": "t*v-1=-Loww/c0",
+      "no_Delta_Tnum_or_Loww_top_inverse": true,
+      "stage": "new_complete_NV_and_Loww_same_t_input",
+      "seconds": 0.09585084400000099
+    }
+  ],
+  "error": {
+    "type": "TypeError",
+    "message": "Object of type fmpz is not JSON serializable",
+    "function": "pp",
+    "original_line": 81,
+    "called_from_line": 183,
+    "failing_expression": "json.dumps([[list(m),str(c)] for m,c in sorted(p.to_dict().items())])"
+  },
+  "scope": {
+    "completed_logged": "Complete same-t original NV and Loww; c0 old unit and t*v-1=-Loww/c0.",
+    "inferred_only_from_trace_position": "The traceback at the Norm profile call is after the source's three multiplication-column, three adjugate-coordinate and full polynomial lift assertions. This is not a separately emitted mathematical checkpoint or saved coefficient profile.",
+    "not_returned": [
+      "Norm coefficient profile",
+      "complete two-original-source back-substitution and denominator clearing",
+      "primitive two-source scalar",
+      "paid-stripped weight support"
+    ],
+    "no_reported_norm_degree_or_support": true,
+    "no_emptiness_or_new_finiteness": true,
+    "classification": "Engineering serialization error, not timeout, out-of-memory, or a failed mathematical assertion.",
+    "retry_scope": "Same unfinished input; only pp exponent and degree serialization become explicit Python int. All mathematical definitions/assertions, parameter prefix and 180-second/4-GiB/195-second outer budget unchanged.",
+    "no_old_target_replayed": true
+  },
+  "correction": {
+    "basename": "2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542.py",
+    "bytes": 10014,
+    "sha256": "039f4dd37cbe91d03c12465c62b637f177fee7bf227b39e9335833ddd3f52fda",
+    "old_source_blob": "e9bd30f0ceb6c2b123a0c4a2528b99b73a6f3ac2",
+    "only_changes": [
+      "Canonical exponent tuple: list(m) -> [int(e) for e in m].",
+      "Degree profile: list(p.degrees()) -> [int(e) for e in p.degrees()]."
+    ]
+  },
+  "ordinary_ISP_claim": false
+}

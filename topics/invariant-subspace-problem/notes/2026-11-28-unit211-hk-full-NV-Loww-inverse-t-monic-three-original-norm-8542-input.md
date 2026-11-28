@@ -2,7 +2,7 @@
 
 日期：2026-11-28。会话：Astra-ISP-8542378f-20261127。
 
-**尚未执行。** 本输入只定义第一次完整 NV 与完整 Loww 的同点三维乘法范数。没有预记非零范数、权曲线、有限性或排空。旧 E1–Loww、EBo–Loww 两个固定投影继续冻结。
+**同一未完成输入的工程修复版，修订源尚未执行。** 原 e9bd 唯一首次在 pp 的 fmpz 指数 JSON 序列化处 exit 1；完整来源及准确范围见同 stem 的 first-JSON-failure.md 与 first-JSON-failure.json。修订仅将 pp 指数、degree 显式转成 Python int，全部数学和原预算不变。本输入定义完整 NV 与完整 Loww 的同点三维乘法范数。没有预记非零范数、权曲线、有限性或排空。旧 E1–Loww、EBo–Loww 两个固定投影继续冻结。
 
 ## 1. 当前原图、来源及查重边界
 
@@ -273,8 +273,8 @@ AST 仅移除旧顶层时钟/资源调用、旧顶层 assert 和旧 say 输出�
 
 2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542.py。
 
-源码 SHA256：25d3ea3e3726b88a6cf5c831aa0228923226fab6c01d12d2e3a4fb0c2b97b8c2。
+源码 SHA256：039f4dd37cbe91d03c12465c62b637f177fee7bf227b39e9335833ddd3f52fda。
 
-UTF-8：9990 字节。唯一首次预算 **180 秒 / 4 GiB，外层 195 秒**。
+UTF-8：10014 字节。唯一首次预算 **180 秒 / 4 GiB，外层 195 秒**。
 
 仅保源码、参数定义、次数/项数/字节数/SHA、小回执及准确完成范围。没有系数载荷、编码分片或矩阵缓存。若触界，仅登记最后完整 checkpoint，冻结该目标，不恢复、不换序、不加时重算。

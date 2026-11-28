@@ -78,8 +78,8 @@ def paid_den(p):
     assert int(rem.total_degree())==0
     COUNTS['paid_denominator_checks']+=1
 def pp(p):
-    data=json.dumps([[list(m),str(c)] for m,c in sorted(p.to_dict().items())],separators=(',',':')).encode()
-    return {'zero':not bool(p),'degrees_lambda_u_Q':list(p.degrees()),
+    data=json.dumps([[[int(e) for e in m],str(c)] for m,c in sorted(p.to_dict().items())],separators=(',',':')).encode()
+    return {'zero':not bool(p),'degrees_lambda_u_Q':[int(e) for e in p.degrees()],
             'total_degree':int(p.total_degree()),'terms':len(p.to_dict()),
             'canonical_bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}
 def rp(r):
