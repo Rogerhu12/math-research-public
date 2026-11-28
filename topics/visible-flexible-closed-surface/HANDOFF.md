@@ -30,7 +30,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 [R261](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)原强g准确H17→H33→H65真正h加密，全域H65 U<6.535566e−10、κ<9.805926、全前缀reach>.1013；真端口b差3/2^58已用S5材料图支付。R259/R263原前缀短coast reach及R264原cut/S排硬保到.081保留。
 
-<!-- 2ecf-target-curvature --> [R267新gap.92](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)：新实际源64格/真Γ95端口metric<5e−10、κ<7.6、含边界reach≥5/38。该图自己的周长/g不得冒原g精化。
+<!-- 2ecf-target-curvature --> [R267新gap.92前缀](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)全域metric<5e−10、reach≥5/38；[R281新解析中央](results/R281-positive-support-central-cylinder-at-full-gap.md)周长2π、gap>1.05、中央κ<6.977、reach>.1433，真H65节点κ8.33735。各自不同g/新源。
 
 <!-- 2ecf-live-g10 --> [高弯新尾四次真5292位置步](notes/2026-11-28-2ecf-ridge-physical-rays-four-actual-positions.md)：G11 own2 .521712/κ16.4606/held .640188；后两步失held，继续真主动约束及新尾设计。
 
@@ -63,4 +63,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:10:17 UTC；已读公开 main `ecb09f468aa52737fe305f712f905015064afd3c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:10:27 UTC；已读公开 main `a087a415ad72ba2d111bd4d1317276d1f7cc970b`，根/课题 README 逐差无变化。
