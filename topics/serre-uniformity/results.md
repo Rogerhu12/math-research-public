@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原中央齐次差与完整CM剪切缺陷（已证明）**：[R1174 §§17–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)由原Norm全四项展开，Hρ=Wρ−Qρ(X,Y)在对应CM基间满足跨实际同源的齐次式；回预选SS参考给V H=n^(2−ρ)Σtransport e，e准确保c_BCH和Q的shear/Taylor差。Q全有限剪切及最高缺陷零集均自证，单位理想可重建H；未将跨CM齐次式误作参考向量齐次式，未宣H=0或actual非零。
+
 - **原全部合法辅助族的ordinary源与显式中央右端（已证明）**：[R1174 §§11–16](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)变量CM三角的实际整raw塔先排人工水平惯性；真实henselian log(p,z)比较保全部根与products。保vertical γp后合法gauge给β_ord=β0+ψβ2/2及first0，固定类中唯一；实际u↦z^e特化保PD carry。原Π0/Π2相关双线性式延至整个ℓ⁶≠1辅助族，接R1173/1171给全部affine RHS并有限重建两个中央槽；不宣全p^r ordinary或最低Tate符号/非零。
 
 - **原完整43维Frobenius的可终止全局有限读取（已证明）**：[R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低Eis residue连Tate常数一起锁定，全部几何Teich点的原整格给Gauss界；Legendre三边界与KT定理付明确D(m)=2pm+6(p+1)。实际affine/horizontal/S3 descent的有限线性候选树保真解，每条无限分支因linearD仍dagger，唯一性保证目标精度投影有限成为单点；pure输入由明确−1 fibre矩阵与同算法取得。包括λ∞/全部中央，无外部未知γ5位；未运行数值计算，原非零与全局排除继续。

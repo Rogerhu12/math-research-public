@@ -1101,3 +1101,325 @@ R1170/R1171 已证明这两个余有限辅助族的算子理想为一。
 也没有在各层分别选 primitive 后假定存在兼容整塔。
 全塔先由原 R1156–1158 存在并支付水平延伸；
 新 ordinary 结论精确限于其模 $p$ 层。
+
+
+## 17. 原二次相关项的积分及真正的齐次差
+
+本节继续只取 $\rho=0,2$，并只在已经付清的第一层
+有限读取中工作。为免与 R1158 的 filling 多项式混同，
+另定义一个依赖实际 CM 基的双线性 map
+$$
+\begin{aligned}
+\mathcal Q_{\rho,E}(U_k^{(4)},U_l^{(8)})
+ &=\frac{k-l}{2(k+l+2)}
+       \Pi_\rho(U_k^{(4)},U_l^{(8)}),\\
+\mathcal Q^{\rm ord}_{\rho,E}
+ &=\mathcal Q_{\rho,E}+\frac12\Pi_\rho .
+\end{aligned}
+\tag{1174.43}
+$$
+所以第二行的系数是 $(k+1)/(k+l+2)$。
+这两项分别用于 BCH 和 ordered 坐标，以下先写 BCH。
+令
+$$
+X(E)=\mathsf A_4(E),\qquad Y(E)=\mathsf A_8(E),\qquad
+\mathcal H_\rho(E)
+ =W_\rho(E)-\mathcal Q_{\rho,E}(X(E),Y(E)).
+\tag{1174.44}
+$$
+这是实际中央值减去一份已知二次式；没有宣称该差为零。
+
+### 17.1 对应 CM 基中的准确同源因子
+
+对实际循环 $n$-同源 $\phi_C:E\to E/C$，
+两端使用通过同一个 CM embedding 运输的基。
+§8 已付
+$$
+\psi_C^{-1}\omega_C=n^{-1}\omega,\qquad
+\psi_C^{-1}\mu_C=\mu .
+$$
+由于 $U_k^{(d)}=\omega^k\mu^{d-k}$，输入两槽的
+缩放是 $n^{-k-l}$。$\rho$ 次配对后的输出含
+$k+l-\rho$ 个 $\omega$，所以
+$$
+\begin{aligned}
+&\mathcal Q_{\rho,E}
+ \left(\operatorname{Sym}^4\psi_C^{-1}x,\
+       \operatorname{Sym}^8\psi_C^{-1}y\right)\\
+&\hspace{12mm}
+ =n^{-\rho}\operatorname{Sym}^{12-2\rho}\psi_C^{-1}
+        \mathcal Q_{\rho,E/C}(x,y).
+\end{aligned}
+\tag{1174.45}
+$$
+这里的 $n^{-\rho}$ 是原 paired Tate 因子。
+尤其 $\rho=2$ 时不能省去它。
+$\Pi_\rho/2$ 本身满足同式，故 ordered 版本也成立。
+
+### 17.2 用实际 Norm 展开，而不是删掉 crossed 项
+
+记 $a=n^{-4},b=n^{-8}$，并把实际商曲线的值送回
+$E$ 的基，记为 $X_C,Y_C$。
+原指定 Norm trivialization 给
+$$
+\sum_C X_C=(n+a)X,\qquad
+\sum_C Y_C=(n+b)Y.
+\tag{1174.46}
+$$
+这是 R1159 §5 的同一 whole-group 身份在 Hodge 点的
+读取，使用原 same-root quotient；不以仅有
+$H^1$ 类的 Norm 等式替换它。
+
+由 (1174.41)，相关项的双线性输入为
+$$
+(n^2-a)(n^2-b)X\otimes Y
+ -\sum_C(nX_C-aX)\otimes(nY_C-bY).
+$$
+保留全部四项，再用 (1174.46)，恰成为
+$$
+(n^4+n^{-11})X\otimes Y-n^2\sum_C X_C\otimes Y_C,
+\tag{1174.47}
+$$
+因为
+$$
+(n^2-a)(n^2-b)+nb(n+a)+na(n+b)-(n+1)ab
+ =n^4+nab.
+$$
+因此 (1174.42)、(1174.45) 给出
+$$
+\begin{aligned}
+W_{\rho,n}^{\rm corr}(E)
+={}&(n^4+n^{-11})
+       \mathcal Q_{\rho,E}(X(E),Y(E))\\
+ &-n^{2-\rho}\sum_C
+       \operatorname{Sym}^{12-2\rho}\psi_C^{-1}
+       \mathcal Q_{\rho,E/C}(X(E/C),Y(E/C)).
+\end{aligned}
+\tag{1174.48}
+$$
+减去原实际中央功能方程，便得
+$$
+\boxed{\quad
+(n^4+n^{-11})\mathcal H_\rho(E)
+-n^{2-\rho}\sum_C
+       \operatorname{Sym}^{12-2\rho}\psi_C^{-1}
+         \mathcal H_\rho(E/C)=0 .
+\quad}
+\tag{1174.49}
+$$
+对 $n=2$ 及 §11 的全部辅助素数族都成立。
+ordered 坐标减 $\mathcal Q^{\rm ord}$ 给**同一个**
+$\mathcal H_\rho$，因为两边同时减掉 $\Pi_\rho(X,Y)/2$。
+
+(1174.49) 是跨实际 CM 提升的齐次式。
+这些提升的 CM embeddings 可以不同；它们尚不是
+一个只依赖特殊纤维的有限格向量。
+因此不能直接对 (1174.49) 使用 R1170，得出
+$\mathcal H_\rho=0$。下一节准确保留这个差别。
+
+## 18. 同一二次式的完整剪切缺陷
+
+把参考基固定为 $(\omega,\mu)$，令
+$$
+N_d=\omega\frac{\partial}{\partial\mu}
+ \quad\text{作用于 }\operatorname{Sym}^d,
+\qquad
+\mu_s=\mu+s\omega .
+$$
+在 $(\omega,\mu_s)$ 定义的 map 送回原基后，记为
+$\mathcal Q_{\rho,s}$。其准确表达为
+$$
+\mathcal Q_{\rho,s}(X,Y)
+ =e^{sN_{12-2\rho}}\,
+       \mathcal Q_{\rho,0}(e^{-sN_4}X,e^{-sN_8}Y).
+\tag{1174.50}
+$$
+全部 exponential 是有限多项式；展开中每个 factorial
+的下标至多十二，因而 $p>37$ 时均为单位。
+该式只作 coefficient 基变换，不在其中另施一次
+$\sigma$。实际半线性 Frobenius 已由 R1171 的
+$\Delta$ 保留。
+
+令
+$$
+\mathcal C_\rho(X,Y)
+ =N_{12-2\rho}\mathcal Q_{\rho,0}(X,Y)
+   -\mathcal Q_{\rho,0}(N_4X,Y)
+   -\mathcal Q_{\rho,0}(X,N_8Y).
+\tag{1174.51}
+$$
+$\Pi_\rho$ 对原 symplectic shear 等变。
+故若 $K=k+l$，直接相减相邻的两个有理系数得到
+$$
+\boxed{\begin{aligned}
+\mathcal C_\rho(U_k^{(4)},U_l^{(8)})
+={}&\frac{1}{(K+2)(K+3)}
+ \bigl[
+ -(4-k)(l+1)\Pi_\rho(U_{k+1}^{(4)},U_l^{(8)})\\
+&\hspace{29mm}
+ +(8-l)(k+1)\Pi_\rho(U_k^{(4)},U_{l+1}^{(8)})
+ \bigr].
+\end{aligned}}
+\tag{1174.52}
+$$
+越界下标的对应项以其零系数解释。
+同一式也是 $\mathcal Q^{\rm ord}$ 的剪切缺陷，
+因为 $\Pi_\rho/2$ 的缺陷为零。
+
+有限变化还可写成
+$$
+\begin{aligned}
+\mathcal Q_{\rho,s}(X,Y)-\mathcal Q_{\rho,0}(X,Y)
+  =\int_0^s e^{vN_{12-2\rho}}\,
+   \mathcal C_\rho(e^{-vN_4}X,e^{-vN_8}Y)\,dv .
+\end{aligned}
+\tag{1174.53}
+$$
+这是有限多项式积分，不是一个新的 analytic path。
+(1174.50) 的非零项对 $s$ 的次数至多
+$12-\rho$；这是由总 $\omega$ 次数得出。
+所以 (1174.53) 也只除小于 $p$ 的整数。
+
+### 18.1 最高缺陷的精确零条件
+
+对 $\rho=0$，(1174.52) 合并为
+$$
+\mathcal C_0(U_k^{(4)},U_l^{(8)})
+ =\frac{9k-5l+4}{(K+2)(K+3)}
+       U_{K+1}^{(12)}.
+\tag{1174.54}
+$$
+$K=12$ 时分子为零，故没有不存在的第十三次
+$\omega$ 基向量。
+
+**引理。** 若 $p>37$，对非零 $X\in\operatorname{Sym}^4$
+和 $Y\in\operatorname{Sym}^8$，
+$$
+\mathcal C_0(X,Y)=0
+\quad\Longleftrightarrow\quad
+X=c\,\omega^4,\quad Y=d\,\omega^8
+\quad(c,d\ne0).
+\tag{1174.55}
+$$
+零输入当然也使缺陷为零。
+
+证明。写
+$X=\mu^4x(z)$、$Y=\mu^8y(z)$，这里
+$z=\omega/\mu$ 只是 polynomial 记号，
+$\deg x\le4,\deg y\le8$。
+(1174.54) 中每个 $(K+2)(K+3)$ 都是单位，
+所以缺陷为零等价于
+$$
+9z x'(z)y(z)-5z x(z)y'(z)+4x(z)y(z)=0.
+\tag{1174.56}
+$$
+在代数闭包中，对任一非零根 $\alpha$，令 $a,b$
+为 $x,y$ 的零重数。最低非零项迫
+$9a-5b=0\bmod p$。
+但 $0\le a\le4,0\le b\le8$，
+故 $-40\le9a-5b\le36$。
+$p>37$ 是素数，故 $p\ge41$，这个同余只能是
+整数等式。由 $(9,5)=1$ 得 $a=5j,b=9j$，
+次数界迫 $a=b=0$，与它是根矛盾。
+
+因此 $x=c z^k,y=d z^l$。代 (1174.56) 得
+$9k-5l+4=0\bmod p$；其整数值在 $[-36,40]$，
+仍无模 $p$ 假解。$0\le k\le4,0\le l\le8$
+内唯一解是 $k=4,l=8$。这给 (1174.55)。
+
+例如仅作为系数检验，若取 $X=c\mu^4,Y=d\mu^8$，
+则
+$$
+[s]\mathcal Q_{0,s}(X,Y)=\frac{2cd}{3}\omega\mu^{11}.
+\tag{1174.57}
+$$
+这不是把该例的 $c,d$ 认作原 actual coefficients。
+它明确显示即使原曲线上某个 first-lift increment
+为零，移动 CM opposite line 的二次式也未必不变。
+若使用 R1149 的 $\mu_s=\mu-s\omega$ convention，
+(1174.57) 相应反号。
+
+## 19. 只含剪切与原 Taylor 增量的有限仿射右端
+
+现在回到原自同构相容参考集 $\mathcal E_i$。
+记
+$$
+H_{\rho,i}
+ =W_{\rho,i}-\mathcal Q_{\rho,i}(X_i,Y_i).
+$$
+原自同构在实际 CM 基上对角作用，(1174.43) 与其
+等变，所以这个参考向量确属于 R1170 的同一个
+有限 Brandt 格。
+
+对实际商 $\mathcal Q_{i,C}=\mathcal E_i/C$，
+令 $j=j(C)$，按 R1171 的模 $p^2$ 标记给
+$\xi_{i,C}$、$\Delta X_j,\Delta Y_j$ 及
+$c^{\rm BCH}_{\rho,j}(\xi_{i,C})$。
+将商曲线所带的**运输 CM 基**送回第 $j$ 个参考
+coefficient 格，在该格中记其 map 为
+$\mathcal Q_{\rho,j,C}$。
+
+这个 map 完全由实际 coefficient 资料决定：
+先保实际微分单位缩放，再对
+$\mu\mapsto\mu+s\omega$ 使用 (1174.50)。
+对偶基的对角单位缩放不产生额外缺陷。
+不能把 $\mathcal Q_{\rho,j,C}$ 默认成
+$\mathcal Q_{\rho,j}$；其中 $s$ 也不能只由约化
+$j$-值猜出。
+
+定义已知增量
+$$
+\boxed{\begin{aligned}
+e_{\rho,i,C}
+={}&c^{\rm BCH}_{\rho,j}(\xi_{i,C})\\
+&-\mathcal Q_{\rho,j,C}
+      (X_j+\Delta X_j,\ Y_j+\Delta Y_j)
++\mathcal Q_{\rho,j}(X_j,Y_j).
+\end{aligned}}
+\tag{1174.58}
+$$
+这里 $c^{\rm BCH}$ 使用 R1171 的
+$\Delta Z-\Pi_\rho(\Delta X,\Delta Y)/2
+ +(\Pi_\rho(X_j,\Delta Y)-\Pi_\rho(\Delta X,Y_j))/2$；
+全部都是已付的原有限矩阵式，不含待求的 $W_{\rho,j}$。
+采用 ordered 规范时，同时把 $c$ 和 $\mathcal Q$
+换成 ordered 版本，(1174.58) 的值不变。
+
+实际商曲线于是满足
+$$
+\mathcal H_\rho(\mathcal Q_{i,C})
+ =H_{\rho,j}+e_{\rho,i,C}
+$$
+（仍先按同一标记比较 coefficient 格）。
+把它代入 (1174.49)，便得到真正有限的系统
+$$
+\boxed{\quad
+\bigl((n^4+n^{-11})-n^{2-\rho}T_n^{(12-2\rho)}\bigr)
+     \mathbf H_\rho
+ =n^{2-\rho}\sum_C
+     \operatorname{Sym}^{12-2\rho}\psi_C^{-1}e_{\rho,i,C}.
+\quad}
+\tag{1174.59}
+$$
+右边不再含原 raw correlation 的另外一份输入，
+只保二次式的实际剪切及原 reference-to-quotient
+Taylor 增量。它也不需要数值化新的 Galois path。
+R1170/R1171 的单位理想给这个有限参考向量的唯一
+有限线性重建；随后
+$W_{\rho,i}=H_{\rho,i}+\mathcal Q_{\rho,i}(X_i,Y_i)$。
+
+(1174.59) 不是齐次的参考点方程。
+(1174.55) 只分类任意两个向量的一个系数缺陷，
+没有断言原 $X_i,Y_i$ 落在其零集，也没有断言
+全部实际 $e_{\rho,i,C}$ 为零。
+因此此缩减不把 $W_\rho$ 或 ordered $Z_\rho$
+设成一个未经比较的二次函数。
+
+本三节的实际输入是已经发布的 (1174.42)、
+R1159 的完整 Norm 群态射、R1169 的 paired Tate
+因子和 R1171 的原仿射增量。
+新内容为 (1174.49) 的跨 CM 齐次差、完整的
+(1174.50)–(1174.56) 剪切公式，以及
+(1174.58)–(1174.59) 不漏参考增量的有限右端。
+没有执行数学计算，也没有据此宣称原
+global-subtracted 中央组合非零。

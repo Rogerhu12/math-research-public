@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-global-finite-reconstruction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-fixed-precision-cusp-rigidity.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -60,7 +60,9 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1159–60](results.md)actual Norm群图给原ordered/BCH跨同源功能式，ψ_i⁻¹为ω_i↦ω/2、η_i↦η−e_iω/2。原J_n/算术B_n及三个整未平滑来源已给；一般Frob共轭路径仍须实读，非单点v_n倍数。
 
-[R1174 §§1–16](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS有未分歧Aut相容CM参考；全μ6外辅助族的同一raw塔经实际henselian比较、完整vertical γp gauge得唯一ordinary/first0代表，u↦z^e真PD特化保源。Bkl=A4kA8l−Σ同C A′C4kA′C8l；Π0/Π2 corr BCH=Σ(k−l)BklΠr/[2(k+l+2)]，ordered换(k+1)/(k+l+2)。κ/Φ单位消去，R1173+实际Δ给全族RHS和有限Brandt重建；shear/σ全保，最低Tate符号与非零继续。
+[R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS未分歧Aut相容CM参考、全μ6外辅助族ordinary源与Π0/Π2双线性RHS已付，保vertical γp及真PD特化。新增Qρ权(k−l)/[2(k+l+2)]；Hρ=Wρ−Qρ(X,Y)只在对应CM基间齐次，回预选参考仍有全shear/Δ的已知e，V H=n^(2−ρ)Σtransport e。最高剪切缺陷零当且仅当一输入零或X∝ω⁴,Y∝ω⁸；不强加于actual X/Y，不宣H=0。最低Tate符号与原非零继续。
+
+(1174.58)的e=c_BCH−Q_actual(Xj+ΔX,Yj+ΔY)+Q_ref(Xj,Yj)，不是删去商曲线对参考点的差；Q_s=e^(sN)Q(e^(−sN)X,e^(−sN)Y)保完整有限shear。最高C0系数=(9k−5l+4)/[(k+l+2)(k+l+3)]，p>37精确零分类自证；此分类没有给actual moments增加任何消失条件。
 
 [原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全部原/三quotient高槽降至低heat，σ/CM gauge/odd–odd及p carry保全；Fay只需核阶≤2p+15。原奇列由A=uC2、B=u(C4+12a/5)给，完整norm与pA_p=−2β强迫a[v^(p−2)](u²A+u)=β。H_p0后保所有低卷积，两个已付corr配对为−11a(b4a8−11a4b8)/(768β²)；实际mask不要求corr零，原joint/未平滑排除继续。
 
