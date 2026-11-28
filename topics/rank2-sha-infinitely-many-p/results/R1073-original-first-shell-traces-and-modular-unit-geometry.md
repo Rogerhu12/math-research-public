@@ -1215,3 +1215,108 @@ $$
 $\Sha(E_B/\mathbf Q)[p^\infty]$ 有限。
 该迹保留原全部 degree390 系数和全部非零 $\pi$ 挠点；
 无穷素数上赋值恰一仍待证明。
+
+## 33. 普通原完整一阶导数的全精度固定挠层留数
+
+保持(AO1)全部物理规范、原 $E_B$、$F=[\pi]$、
+$V=[\bar\pi]$、$t=-x/y$。对 $k\ge1$ 取
+$m=(p-1)p^{k-1}$、$r=2k$、$v=\bar\pi^r$，并定义
+$$
+ \begin{aligned}
+ H_r&=t^{Np^r}\psi_v^NP_B(x(V^rP)),\qquad
+ \psi_v=\frac{\sigma_B(vz)}{\sigma_B(z)^{p^r}},\\
+ J_m(U)&=\left[(\ell(U)/U)^{-m-1}\right]_{\le m-6}.
+ \end{aligned} \tag{AP1}
+$$
+如(AO2)，$V^r$ 在整模型上 étale，$\psi_v$ 是首系数 $v$
+的整 Miller 多项式，$x(V^rP)\psi_v^2$ 整。
+因此 $H_r$ 在 $O$ 有六阶零，唯一可能的极是三个非零二挠点。
+
+若 $\omega_B=\sum d_iU^i\,dU$，则 $d_i$ 整且 $d_0=1$，
+$[U^i]\ell(U)/U=d_i/(i+1)$。
+因为 $v_p(i+1)\le i/(p-1)$，满足
+$v_p(c_i)\ge-i/(p-1)$ 的幂级数格对乘法与常数一逆元封闭。
+$m$ 的 $p$ 进数位和是 $p-1$，故
+$$
+ v_p(m!)=\frac m{p-1}-1
+       =\left\lfloor\frac{m-6}{p-1}\right\rfloor,\qquad
+ m!J_m\in\mathcal O[U]. \tag{AP2}
+$$
+最后一步也使用本地系数赋值为整数；对 $i\le m-6$，
+$c_i$ 的整赋值下界正由显示的阶乘付清。
+
+仍只使用原单个 $F$，取全局有理微分
+$$
+ \mathcal D_k=\pi^{m+1}H_r\,F^*
+       \left(\frac{m!J_m(t)}{t^{m+1}}\right)\omega_B. \tag{AP3}
+$$
+$z=\ell(t)$、$t_F=t(FP)$、$\ell(t_F)=\pi z$。
+因 $H_r$ 六阶零，在特征零中按 $t_F$ 截断至 $m-6$ 精确保留
+所需留数，所以
+$$
+ \operatorname{Res}_O\mathcal D_k
+       =m![z^m]H_r(t(z)). \tag{AP4}
+$$
+这里是特征零的等式，不仅是模 $p$ 近似。
+
+在除幂整环
+$\mathcal H=\{\sum a_jz^j/j!:a_j\in\mathcal O\}$ 内，
+$t(z)$ 属零常数理想，因为 $a_j=(D^jt)(O)$，
+$D=\omega_B^{-1}d$ 是整不变场且 $t$ 在 $O$ 整正则。
+于是 $H_r(t(z))$ 和
+$A(z)=H_\sigma(t(z))$ 都在 $\mathcal H$，$A(0)=1$。
+由 $A'/A\in\mathcal H$ 并逐除幂积分，
+$\log A\in\mathcal H$ 且常数为零。
+指数中的整数 Bell 多项式，或直接用
+$rj-v_p(j!)\ge r$，给 $A^{Np^r}\equiv1\bmod p^r\mathcal H$。
+原准确 Miller 身份
+$\widehat\Phi_B(\bar\pi^rz)=H_r(t(z))A(z)^{Np^r}$
+遂逐除幂系数给出
+$$
+ \operatorname{Res}_O\mathcal D_k
+      \equiv\bar\pi^{rm}m!\widehat s_{B,m}\pmod{p^{2k}}. \tag{AP5}
+$$
+该估计同时控制高权，并非先截低阶再猜测尾项。
+
+$\deg J_m\le m-6$ 使 $J_m(t)t^{-m-1}$ 在 $t=\infty$ 至少
+有七阶零，故(AP3)的可能极仍只有(AO3)列出的相同支撑。
+非零二挠处留数属于 $p^{m+1}\mathcal O$。
+对 $S=O,(0,\pm\sqrt B)$，$F^*\omega_B=\pi\omega_B$ 及
+有限平坦函数迹给
+$$
+ \sum_{FT=S}\operatorname{Res}_T\mathcal D_k
+ =\pi^m\operatorname{Res}_S
+ \left((\operatorname{Tr}_FH_r)
+                 \frac{m!J_m(t)}{t^{m+1}}\omega_B\right)
+ \in p^{m+1}\mathcal O. \tag{AP6}
+$$
+$H_r$ 在这些点的整原象邻域正则，$F$ 的特殊纤维纯不可分，
+故 $\operatorname{Tr}_FH_r\in p\mathcal O$，其余由(AP2)保证整性。
+
+取(AO6)中同一个非零 $T\in E_B[\pi]$、$k_0=K_{\mathfrak p}$。
+$O$ 之外的连通核始终为同一 Galois 轨道；又 $m+1\ge2k$，
+所以
+$$
+ -\operatorname{Tr}_{k_0(T)/k_0}\operatorname{Res}_T\mathcal D_k
+       \equiv\bar\pi^{rm}m!\widehat s_{B,m}\pmod{p^{2k}}. \tag{AP7}
+$$
+取 $T_m=(1+p)^m-1$，其赋值为 $k$。
+原 $\widehat G(0)=0$、系数全整，故
+$\widehat G(T_m)\equiv T_m\widehat G'(0)\bmod p^{2k}$。
+非单位矩属于 $p^m\mathcal O$，单位矩正是
+$\widehat G(T_m)$；原普通周期 $\Omega_{p,B}$ 和 $\bar\pi$ 均为单位。
+因此得到完整充要检验
+$$
+ \boxed{\quad
+ \widehat G'_{B,p}(0)\in p^k\mathcal O
+ \quad\Longleftrightarrow\quad
+ \operatorname{Tr}_{k_0(T)/k_0}\operatorname{Res}_T\mathcal D_k
+          \in p^{2k}\mathcal O .
+ \quad} \tag{AP8}
+$$
+
+原普通首导数非零等价某个 $k$ 违反右端整除。每个固定 $p$ 的
+所有精度都使用同一 $E_B$、同一非零 $\pi$ 挠轨、同一极支撑及
+全部原 $P_B$；$V^r$ 和有理微分的极阶随精度增长。
+这没有升到新的连通挠层，也没有丢弃高阶精度；无穷多个不同
+$p$ 存在这样一层仍须证明。
