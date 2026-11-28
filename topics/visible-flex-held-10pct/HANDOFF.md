@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `bcac7fe839fd88a78ba215eadd0169d318b090cf`（2026-11-28 13:09 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `cf1f39cfadf7a3ee6d0711f406c5bf9d3541dd50`（2026-11-28 13:11 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -29,7 +29,7 @@
 
 [真stage0完整谱界](notes/2026-11-28-tail-actual-fullH-stage0.md)：170 planar+25 height，连续metric≤3.60000e−8、K≤8.17731，13.757s；只有stage0。[整批逐写门](notes/2026-11-28-tail-geometry-stream-disk-gate.md)后余段−9保89段；chunk v1真返16段后bookkeeping AttributeError，v2已保这105段从1046继续，不重算stage0。原chunk导出已完整1152段，bundle SHA `3b312be5…`，所有既付段未重算；TTY43666现续原全尾连续认证。全部公共两jet/同global mean与128MiB逐写门不改；deep collar/投影单射/全证书和8outer仍欠。默认图查询独立JSON修复后真exit0，42尾点有限；全尾连续认证从stage16有metric上界未过，非实际误差下界，正诊断。
 
-完整bundle后用[真实半径恒等入口](notes/2026-11-28-analytic-complete-tail-radius-identity-entry.md)；c=Rc=.3的同场身份须全部核过，stage0不能代替。后继[严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过；最终coupled physical H须独立绑定 `binding['candidate_H']`，不能搬变场尾证书。
+[全尾半径恒等实际通过](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)：1152段/完整谱/同mean/全部共享两jet真核，原索引逐字同；c=Rc=5404319552844595/18014398509481984，定义上r(R)=R，无逆图转移罚项。14.684s/child0，仅原raw-H场，不是8outer。后继[严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过；最终coupled physical H须独立绑定 `binding['candidate_H']`，不能搬变场尾证书。
 
 ### Fixed g 与活动矩
 
@@ -41,7 +41,7 @@
 
 - 新879点λ=.002未cut前缀/桥：[R73](results/R73-new-common-cartesian-prefix-continuous-geometry.md) support>.6445、norm<1.1901、area>.2974、K≤123/10；[R74](results/R74-same-new-cartesian-prefix-continuous-metric.md)1467叶×1536扇区，全metric<99/1e8，十组定义数组同图。旧x图二阶跳不得回用；唯一R图、真实R53 lift、完整mean1168保留。
 - 真952点λ=.064/M40：[R76](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)1041408盒全过、K≤123/10；[R77](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)1433叶×3072扇区覆盖全角/全phase，严格metric<98773/1e11。原137保1328叶，续105叶只92.332s，原叶逐字节同；均仅前缀/桥，非尾/cut/闭面。
-- 完整[cut区间入口](notes/2026-11-28-new-prefix-cut-interval-entry.md)保全部模/完整mean、真实ap/app和0..3阶，75位代数核已付；[真coupled连续入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)分别入门。完整bundle已到，同场cut真执行TTY60969进行中。物理R重参用[R75](results/R75-inverse-radius-background-only-tail-transfer.md)，同场e=0须全身份核，旧R62数值不可搬。
+- 完整[cut区间入口](notes/2026-11-28-new-prefix-cut-interval-entry.md)保全部模/完整mean、真实ap/app和0..3阶，75位代数核已付；[真coupled连续入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)分别入门。首cut TTY60969真exit0但未证（20叶、depth28、bound9.900000017e−7），正查点区间与角余项，未降门。物理R重参用[R75](results/R75-inverse-radius-background-only-tail-transfer.md)，同场e=0须全身份核，旧R62数值不可搬。
 - R53/R54/R58/R59/R63/R65/R68/R70–R72均已证，详细适用域见历史快照与results，不重证。R71条件数不是完整BVP逆，R72响应不是严格Schur逆。R67三阶矩与两个柱长处理全E(3)含反射；前缀C²差不是全闭Cauchy。
 - [实际binary k预算](notes/2026-11-28-analytic-binary-core-curvature-held-budget.md)：真闭图D0≤2.68、K≤12.3、support≥.087时，经R67帽/短柱可达D≤2.69004、H径>.2D、held>.1D、reach>.03D。这是条件窗，真实λ1与闭族仍欠。[完整闭图网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)已备，held分支须真λ1；不造输入。
 
