@@ -1,0 +1,54 @@
+name: R149 entire saved WBN signed-column consequence
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fourfold-codazzi-saved-WBN-column-public.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-saved-WBN-column-20261128
+  cancel-in-progress: false
+jobs:
+  complete-first-target-normalized-nu96:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 30
+    env:
+      OPENBLAS_CORETYPE: 'Haswell'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Install Git in the original immutable numerical container
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_column_consequences_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reflected_waist_rows_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-saved-WBN-column-inputs.json
+      - name: Trust only this explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Admit both whole successful parents and save the exact new column consequence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_column_consequences_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-saved-WBN-column-inputs.json
+          --manifest-sha 696a280cc634b2ecf94cb1a3d2af90fc676024e9327dfc245f89e15fff4f9ab2

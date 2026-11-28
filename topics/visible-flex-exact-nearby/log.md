@@ -255,3 +255,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 08:15 UTC — visible-exact-astra-b0d5a16-20261128：ABFP全19实际应用已登记：303全输入/原validator、whole actual40099B/5ab3a6ed…和execution31637B/0bcb393b…通过，18原球按序逐字复制，完整96signed中心与全私有载体whole SHA保。δX≈3.61795987564e−5控制真全L2列，原global850下Θjoint≈.03165373429；两mean/四整槽/finite与infinite费用全保，不把BNC补零，旧science0。
 
 2026-11-28 08:16 UTC — visible-exact-astra-b0d5a16-20261128：ABGR全3实际应用已登记：完整signed96×96 Gram1087491B/11256cd9…、new norm1.03260516394及rowerror.096899708197959…全实际保存。actual8635B/901e3855…、execution30664B/2a8018cd…通过原validator，236输入资格保；三个新球及全whole choices原样留，旧.857445102…候选仍在。BNC合法后继使用row新费加四旧整费，不从旧joint相减，0旧science。
+
+2026-11-28 08:18 UTC — visible-exact-astra-b0d5a16-20261128：WBN两个全成功父件已按完整原validator/同数学身份准入；17件manifest 9071B/696a280cc634b2ecf94cb1a3d2af90fc676024e9327dfc245f89e15fff4f9ab2，5份独立saved-consumer源无数值库、无旧carrier恢复。WMT14 与 BFP19 的同一完整 global Θ 槽，以两份 whole 候选的较小上端替换；BFP 原其他三个 particular 费用、完整δX、全部96 exact rational signed中心和两mean逐字保持。新增workflow唯一push首算1目标，尚不预报actual。

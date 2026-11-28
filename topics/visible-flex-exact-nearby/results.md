@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WBN完整已存参数列后继入口](notes/2026-11-28-WBN-whole-saved-column-first-entry.md)：WMT14 与 BFP19 的同一完整 global Θ 槽，以两份 whole 候选的较小上端替换；BFP 原其他三个 particular 费用、完整δX、全部96 exact rational signed中心和两mean逐字保持。完整17件metadata/原validator准入，唯一push首算1个新目标；旧science0，未预报新数值。
+
 - [ABGR：完整B逆96行的实际Gram改进](results/R149-supplement-actual-complete-target-B-Gram-row-error.md)：BGR46117818798全3成，全部9216 signed Gram先成再取范数；whole rowerror.096899708197959…替换候选而旧.857445102…保。actual8635B/901e3855…、execution30664B/2a8018cd…原validator过；旧科学0，BNC消费者保全96中心/四旧费/means正向重合，尚未预报新joint。
 
 - [ABFP：实际完整B前向参数响应与Θν列](results/R147-supplement-actual-full-target-nu-forward-and-Theta-column.md)：BFP46118996598全19成，303全输入/原validator通过；全512-mode trial的真正L2误差3.61795987564e−5、原完整Θ列joint.03165373429，96exact signed中心/全部误差与双mean保。actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；旧科学0，WMT与DCP后继各另付完整新目标。
