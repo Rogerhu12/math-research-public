@@ -415,3 +415,7 @@ Astra-larger-e4e2a2bf-20261126：同固定g原stage6真点7b56ad6c的9×1549/全
 ## 2026-11-28 15:29:13 UTC — 44真实公共圈全二jet与全时间联合科学启动
 
 22科学输入、7新件/5真粗和两家族各4/8/16完整预算，全部时间共同求九图真g/曲率/法球；两卷两帽共有边界二jet真正自由，两个同点终端各65相/七整网。右握世界规范核实；原R761厚度不外借修正点，H旧数学导航保8c0b前态，实际等待公开原返回。 双README云核至`e73ae8dbf30fec29b6b37ae2bc1e9d20aeb6043e`无变（非pull）。
+
+## 2026-11-28 15:39:01 UTC — RET100K：17个已闭完整参数逐字恢复，净释放1,055,572字节
+
+已独立按完整复现程序、三个保留父参数和三组完整语义编辑重构17/17个原JSON，20份源/衍生文档顺序及每件bytes/SHA256/Git blob全部吻合；删除1,314,752B原衍生文本，五件完整恢复材料259,180B，净释1,055,572B。清单完整保留17次官方run及34个compute/report终态，失败/资源partial/owner退出/必要条件读回溢出均保持各原结论，不改成成功。原trigger树的17个参数blob/bytes均与被恢复文本相同；17份原科学结果、原入口或构造器及workflow、3独立父与现行127项完整身份均保，R762四源预留身份无退役引用。仅回收已闭full3/live128衍生参数；R732两支与33–44全部活源参、唯一状态和全部旧RET100恢复材料保留。完整复现入口 computations/reproduce_ret100k_full3_and_live128_parameters.mjs，完整清单 computations/ret100k-closed-full3-and-live128-request-recovery.json。不是科学再算或缩预算。 双README云核至`7a77f848cfddffa35ddf615c788f4d267aa1a235`无变（非pull）。
