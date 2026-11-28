@@ -1,0 +1,50 @@
+{
+  "paperBlob": "6b0eeda159a8ae5b93d095b4b93a956609f2b613",
+  "receiptBlob": "8443bdd3d1686c3196a980d7c63a039563c0f372",
+  "sourceBlob": "bcb71ff5af8cc5634c18887e1ca00a0524e66d18",
+  "runId": 46139964727,
+  "jobId": 140963509239,
+  "entireActualLogRead": true,
+  "entirePaperAndReceiptRead": true,
+  "actualReceipt": {
+    "elapsed_seconds": 0.9084643390000018,
+    "max_child_rss_kib": 44604,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "before": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:27:37.457458+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46139964727",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+    "source_exit_code": 0,
+    "source_git_blob": "bcb71ff5af8cc5634c18887e1ca00a0524e66d18",
+    "source_sha256": "bd14e7724b688d596d51207ac859143321a7526407b9c702a3641dbeb1d957b4",
+    "stdout_bytes": 5114,
+    "stdout_sha256": "9d3138af168dafca7a5ce0eba042468bacfd2dd84047460e15743c8d082c68a8",
+    "stop_reason": null
+  },
+  "checks": [
+    "Actual source exit0 and final completion read, not inferred from workflow success",
+    "All correct entire ell-half original parameters and independent old units retained; no withdrawn compact E1 chain",
+    "Actual scalar degrees(u,lambda)=(31,6),(25,6),monic lambda gcd2 with complete five-seed and three-coordinate return",
+    "All30 original columns and full six-coordinate container retained; rank4 gives only QQ(u) unlocalized quotient dimension2",
+    "First target z^1 used4 original columns; all three full lambda-polynomial identities returned",
+    "Complete denominator Gamma has degree138 and old-unit residual C degree114; all60 actual denominators retained and division checked",
+    "Gamma*g original source and Gamma times final multipliers yield Gamma^2*z in original I6; old-unit stripping gives C^2*z",
+    "Physical old t and Q units imply C(u)=0 and at most114 distinct weight pairs; all corresponding lambda/value fibers remain",
+    "Higher z targets and the D target sequence were not entered; no whole ell-half exclusion, global freeness, or full-point count",
+    "All table SHA values, counters, resource values and source/pull records match actual receipts"
+  ],
+  "ordinaryISPClaim": false
+}

@@ -1,0 +1,191 @@
+{
+  "schema": "isp-corrected-Phi-entire-ell-half-positive-original-target-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46139964727,
+  "job_id": 140963509239,
+  "source_git_blob": "bcb71ff5af8cc5634c18887e1ca00a0524e66d18",
+  "source_sha256": "bd14e7724b688d596d51207ac859143321a7526407b9c702a3641dbeb1d957b4",
+  "input_git_blob": "9771b53c6e2fff72901650df728c4788995f80ce",
+  "driver": {
+    "elapsed_seconds": 0.9084643390000018,
+    "max_child_rss_kib": 44604,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "before": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:27:37.457458+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46139964727",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+    "source_exit_code": 0,
+    "source_git_blob": "bcb71ff5af8cc5634c18887e1ca00a0524e66d18",
+    "source_sha256": "bd14e7724b688d596d51207ac859143321a7526407b9c702a3641dbeb1d957b4",
+    "stdout_bytes": 5114,
+    "stdout_sha256": "9d3138af168dafca7a5ce0eba042468bacfd2dd84047460e15743c8d082c68a8",
+    "stop_reason": null
+  },
+  "mathematics": {
+    "weight_curve": "ell=1/2, Q=4(u-1)(u-2)",
+    "new_scalar_profiles": [
+      {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "lambdaDegree": 6,
+        "numerator": {
+          "degrees": [
+            31,
+            0,
+            6,
+            0,
+            0
+          ],
+          "sha256": "483a3334d2e0b048f4a55bbd9fbbf09bc859ab700885d40cfabd1a7383e05162",
+          "terms": 221,
+          "totalDegree": 36
+        }
+      },
+      {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "lambdaDegree": 6,
+        "numerator": {
+          "degrees": [
+            25,
+            0,
+            6,
+            0,
+            0
+          ],
+          "sha256": "d02752ae5022541e8f69b49d46580dd44e305747f2833168f2033823f3187532",
+          "terms": 182,
+          "totalDegree": 31
+        }
+      }
+    ],
+    "new_monic_lambda_gcd": {
+      "denominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "lambdaDegree": 2,
+      "numerator": {
+        "degrees": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "sha256": "adf7bee40d6805fa6746553993b7881ddbcd7d2b571a8926e6a3171de8eda3d7",
+        "terms": 3,
+        "totalDegree": 2
+      }
+    },
+    "original_g_seed_multiplier_denominator": {
+      "degrees": [
+        106,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "de816538404add6f7b8e0036fa03f14e2d083053b0db1a93e5f8a9e788953d15",
+      "terms": 107,
+      "totalDegree": 106
+    },
+    "finite_coordinate_dimension": 6,
+    "original_columns": 30,
+    "rank_over_QQ_u": 4,
+    "generic_unlocalized_I6_quotient_dimension": 2,
+    "actual_target": "z^1",
+    "original_columns_used": 4,
+    "final_denominator_lcm": {
+      "degrees": [
+        138,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "01bc0236821b0b66a1bbac8a57d9095fb4a8fc4ec916dbc149db4b2e85fe23f0",
+      "terms": 139,
+      "totalDegree": 138
+    },
+    "retained_cover": {
+      "degrees": [
+        114,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "9d0dac7a7b80c570233f4e08388c6d57b343fb2e674bb7ed7308702f7b52a33f",
+      "terms": 115,
+      "totalDegree": 114
+    },
+    "denominator_count": 60,
+    "clearing_exponent": 2,
+    "exact_claim": "C(u)^2 z belongs to original I6 on the entire ell=1/2 curve over its OLD paid weight ring.",
+    "physical_consequence": "Since z=Q t is already a physical unit, all remaining physical points have C(u)=0. At most 114 distinct weight pairs; all corresponding lambda/value fibers retained.",
+    "whole_ell_half_excluded": false,
+    "physical_D_positive_power_sequence_entered": false,
+    "exact_counters": {
+      "newCofactorCoordinates": 6,
+      "newFinalPolynomialCoordinates": 3,
+      "newFiniteInputDivisionCoordinates": 90,
+      "newFiniteMatrixCoordinates": 24,
+      "newGcdOriginalCoordinates": 3,
+      "newLambdaDivisionProducts": 101,
+      "newTargetReductionCoordinates": 3,
+      "newTargetSpanCoordinates": 6
+    },
+    "mathematical_seconds": 0.8643496960000014,
+    "mathematical_max_rss_kib": 44336
+  },
+  "boundary": {
+    "no_assumed_gcd_coefficients_or_boundary_identification": true,
+    "no_generic_rank_to_whole_fiber_exclusion": true,
+    "no_inverse_of_z_D_or_D_norm": true,
+    "all_unpaid_pure_u_zero_fibers_retained": true,
+    "no_coefficient_payload_saved": true,
+    "ordinary_ISP_claim": false
+  }
+}

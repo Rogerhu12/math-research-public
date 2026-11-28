@@ -7,12 +7,12 @@
 - **规矩8/15/16：** 只保源/定义/run/SHA；旧编码仅runner临时历史输入。[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。根README新规16已读fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d/99c5ad8，今后新派显式gpt-6.2-astra/ultra。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 787ed9c0b0294c30934c9defca3eb847beb205bd（2026-11-28 11:32:55 UTC，Actions run46140381462实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46140381462-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 11:32:55 UTC/70bd9033df2bf73ca7d126f33b80716e7a6fdb02，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 60c9ec4f5b8d25b9eb2e20db884987d6d38d26e1（2026-11-28 11:35:08 UTC，Actions run46140557879实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46140557879-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 11:35:07 UTC/39b82634b640651281039bd35665a9fb9cf32a91，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 11:04 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。12:04再探，旧故障保归档。
-- **终端断开后远端已读：** 787ed9c0b0294c30934c9defca3eb847beb205bd（2026-11-28 11:32:36 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 4fc6d56752eb0c9dda579a934d6c31f2e53b66b1（2026-11-28 11:34:49 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-W-six-NP-quartics-actual-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-ell-half-z-C114-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -37,7 +37,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，真Pf全域已核。** 八原源付Pf，Δ0再付Φ；C1/C2/C4真Gram闭，旧错R/cofactor冻。正确17阶只余F99/F300各一次，≤399基点、整个Δ0≤4788不同规范点。ad00整K99首试180.077秒118780KiB/−14冻结，仅参数及单P三次返；P/M联合u-gcd、同Q/原八z均未返。F99/F300与Δ非零全保，换真新输入。
-- **Phi错链撤回，真t0/A0/B0/fu/α0全闭。** 错链/bf3/d825冻，d0χ6/8/8保。真I6十五×三；共同头权≤434，非零F∈I6权度≤444；434外有限18权生成、特殊权有限C[λ]三生成，ρ/h1首一二次给规范图维≤1。05c1四原行16.084秒/0、27辅助列及两λ10返。bcb整ell=1/2新同λ模块/z或D正幂首次120秒1GiB待返；全部纯u极点保，尚非有限/空。
+- **Phi错链撤回，真t0/A0/B0/fu/α0全闭。** 错链/bf3/d825冻，d0χ6/8/8保。真I6十五×三；头权≤434，非零F权度≤444，434外有限18权生成/特殊权C[λ]三生成及ρ/h1二次给规范图维≤1。05c1四原行/27列/两λ10返。新bcb整ell=1/2在0.908秒/0返gλ2、6×30秩4及C114²z∈I6；至多114权对，全部λ/值纤维保。续终端原十五乘子合并，不称整支空。
 
 ### rankH3原ess6
 
