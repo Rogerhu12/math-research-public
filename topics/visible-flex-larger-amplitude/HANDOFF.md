@@ -63,3 +63,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull db5063157272312d66e328e89398acfb21785348
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 936b08ccfd9a8283fb8a3047f0fe704d7a4dbdf8
 <!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 834e4d3031b88caea3da121c582306cca49c1c9c
+<!--r760-publish-->R760 [双弯帽四项实际拟合](notes/r760-curved-crown-46158942274-1-index.json) 双README真pull 1fbeb5eb23c7fac635099ca9b0616859bfe1d30d
