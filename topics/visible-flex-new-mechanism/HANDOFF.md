@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **e4b8533d475bac67a8baa44ff74ca4ca9f443cd6**。私库最近实际终端 pull 为 **2026-11-28 17:17:47 UTC / d7a497b7d3f2c1628ff69deeb97817a02f997473**，根未变、QUEUE仍为本会话进行中。17:09再次满盘后原工作目录消失；17:14起在新临时目录重新部分克隆，17:16/17:17两库实际pull恢复。所有失败pull不冒成功，公开原计算与收据继续有效。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
+公开最近成功的终端 pull/双 README 检查为 **affd51261b4e0f16baa82b58498c0c0e049c33ab**。私库最近实际终端 pull 为 **2026-11-28 18:06:16 UTC / 72c2ee707abe44ac1e4441f2519aca22a9e88537**，根未变、QUEUE仍为本会话进行中。17:09再次满盘后原工作目录消失；17:14起在新临时目录重新部分克隆，17:16/17:17两库实际pull恢复。所有失败pull不冒成功，公开原计算与收据继续有效。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。子代理三位均 **gpt-6.2-astra / ultra**，已逐一确认无下级代理。每条结论即推；NFF立刻pull/rebase查规则重推到成功。仅公开Actions执行科学；本地仅纸证、源码和已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数组。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -14,7 +14,7 @@
 
 [R731](results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md)已排有限分段解析平外领旋转g的非同轴准确解；未排任意C²非解析极限，也未给统一有限误差地板，不冒R728通过或全局不可能。
 
-**R734真非解析尾。** [论文](results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md)给真实dyadic母线、固定j≥2稳定线及C²两jet拼零；一阶方向的有限q Gram残差为O(q²)。[首公开工单](notes/2026-11-28-r734-true-dyadic-tail-scope.md)绑定W=1/32、两侧j2/3、84位向外区间及完整实际胞，1000秒分配/深9/宽.025，首run46164643330/job141039363519/head df08b6a9be5cd73386323f253b7e56ac27fcd906已自然完成四个certified端口，均f(cut)=1；3.074050073秒/8558单元，详[真终态](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)。原artifact15270773103/ZIP SHA3fea0c6612e098159a5ea42540810a60ca4b215285a638b2ea8ea6001bf953a9保存全journal。每一步与有序前缀留tail.jsonl，后续从原键续接；只有实际certified_tail_port及非零f归一才授端口。j≥2不冒j1倾帽；中央双核和二阶真实β由R735继续，有限幅全余项未闭。
+**R734 真非解析尾已认证。** [原四个certified端口/8558键](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)，3.074050073秒；原job141039363519、artifact15270773103及精确journal身份保持。只有非零归一的真实端口授边界，一阶方向不冒有限q根；所有同键后续只读，完整前记录在归档交接。
 
 **R735真双核已认证、薄源失格。** run46169883888/job141055685754已17:21:03自然完成；32370新单元/18.573390051秒，原8558键不重算，真共同零盒、全β∈[3.32984289,3.33480649]及j4/5/6非共振均过。但reach/D<1.936879e−30，非有限q根。详[原终态与费用](notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md)。artifact15272573362/11354192B/d8b35d403a38fdebdc57837c49fe380b88b5f04b5d45e927788070c5fe35386e；R738只读其334公共幅，负胞/厚中央另付。
 
@@ -37,6 +37,8 @@
 本首盘前逐字交接见 [截至 R738 首工单](handoff-through-R738-first-launch-20261128.md)。其中 R716–719 恢复稿/环境债、R739/R741 逐字恢复身份、所有原失败和付费均保留，详原链接，不冒仍有丢失字节。
 
 ## 完成门和继续
+
+**R745 首真实厚双谷工单。** [绑定自然端线与全射击范围](notes/2026-11-28-r745-first-bound-thick-two-valley-input.md)：原R738全负胞、R735高模/全帽账只读；新三个宽肩/两正谷、完整双列/SVD、四面真包围及完整有号β逐项付费。首2200秒，有限角/完整同g族仍开。
 
 **R747 首实际全盘（run46172916971/head 4656d931b0676975b151c9a454fb16f4a80fe56b）。** [真实负曲率保护带与物理肩框种子的首次实际全盘求解](notes/2026-11-28-r747-negative-guard-physical-seed-first-scope.md)：固定 R742 材料、R747 种子；10 相位/3与5次全部 210/651 列、完整 TSQR/SVD、实际重建及六 jet。首次 2400 秒/8 次迭代，`r747-paid-state` 原态逐键保费，不移旧材料资格。已启动相应公开首run，尚未读取活日志或取得连续完成。
 

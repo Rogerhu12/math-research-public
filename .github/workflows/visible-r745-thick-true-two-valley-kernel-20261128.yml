@@ -1,0 +1,110 @@
+name: visible-flex actual thick two-valley shooting and complete signed caps
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r745-thick-true-two-valley-kernel-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r745-thick-true-two-valley-kernel-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+      R745_REQUEST: topics/visible-flex-new-mechanism/computations/request-r745-thick-true-two-valley-kernel-20261128.json
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r745-thick-true-two-valley-kernel-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r687_darboux_frame_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py
+            /topics/visible-flex-new-mechanism/scripts/r703_real_material_mass_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r703_transported_lattice_anchor.py
+            /topics/visible-flex-new-mechanism/scripts/r703_weighted_material_field.py
+            /topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py
+            /topics/visible-flex-new-mechanism/scripts/r726_paid_half_projection.py
+            /topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r728_full_spinor_geometry.py
+            /topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_hermite.py
+            /topics/visible-flex-new-mechanism/scripts/r728_paid_spinor_input.py
+            /topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py
+            /topics/visible-flex-new-mechanism/scripts/r735_paid_tail_beta_envelope.py
+            /topics/visible-flex-new-mechanism/scripts/r738_deep_cap_bounds.py
+            /topics/visible-flex-new-mechanism/scripts/r738_macro_spline_space.py
+            /topics/visible-flex-new-mechanism/scripts/r738_negative_tail_and_macro_source.py
+            /topics/visible-flex-new-mechanism/scripts/r738_paid_true_native_input.py
+            /topics/visible-flex-new-mechanism/scripts/r738_real_macro_reference.py
+            /topics/visible-flex-new-mechanism/scripts/r738_whole_material_macro_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r735_actual_two_port_match.py
+            /topics/visible-flex-new-mechanism/scripts/r738_import_completed_r735_cap_rows.py
+            /topics/visible-flex-new-mechanism/scripts/r738_restore_completed_r735_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r734_completed_members_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r738-actual-wide-collar-macro-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r735-actual-two-port-match-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r738-fixed-material-macro-correction-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md
+            /topics/visible-flex-new-mechanism/results/R738-broad-dyadic-collars-with-thick-macroscopic-phase-geometry.md
+            /topics/visible-flex-new-mechanism/results/R737-thick-macroscopic-spinor-seed-with-true-dyadic-collars.md
+            /topics/visible-flex-new-mechanism/results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md
+            /topics/visible-flex-new-mechanism/results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md
+            /topics/visible-flex-new-mechanism/results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md
+            /topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md
+            /topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md
+            /.github/workflows/visible-r738-wide-collar-fixed-metric-20261128.yml
+            /topics/visible-flex-new-mechanism/scripts/r745_three_broad_valleys.py
+            /topics/visible-flex-new-mechanism/scripts/r745_shooting_and_actual_response.py
+            /topics/visible-flex-new-mechanism/scripts/r745_true_valley_enclosure.py
+            /topics/visible-flex-new-mechanism/scripts/r745_true_cap_beta_envelope.py
+            /topics/visible-flex-new-mechanism/scripts/r745_signed_true_cell_beta.py
+            /topics/visible-flex-new-mechanism/scripts/r745_completed_source_and_paid_units.py
+            /topics/visible-flex-new-mechanism/scripts/r745_full_thick_double_kernel_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/restore_completed_r738_inputs_20261128.py
+            /topics/visible-flex-new-mechanism/results/R745-three-broad-shoulders-two-positive-valleys-and-actual-kernel-matching.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r745-real-valley-shoot-and-signed-cap-scope.md
+            /topics/visible-flex-new-mechanism/computations/r745-three-broad-valleys-20261128.json
+            /.github/workflows/visible-r745-thick-true-two-valley-kernel-20261128.yml
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r745-first-bound-thick-two-valley-input.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Restore the exact naturally completed shared source
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/restore_completed_r738_inputs_20261128.py
+          --request topics/visible-flex-new-mechanism/computations/request-r745-thick-true-two-valley-kernel-20261128.json
+      - name: Pull both current rule sources and solve the real two-valley material
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r745-thick-true-two-valley-kernel-20261128.json
+          --lane actual-thick-two-valley
+      - name: Preserve every new paid segment column and directed interval leaf
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r745-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/r745-paid/
+          retention-days: 30
+          if-no-files-found: error
