@@ -2,7 +2,7 @@
   "schema": "visible-larger-run52-complete-mild-cap-stress-delivery-v1",
   "repository": "Rogerhu12/math-research-public",
   "topic": "topics/visible-flex-larger-amplitude",
-  "status": "Complete frozen independent source and scientific launch contract. Every actual run, point and result requires an actual public return.",
+  "status": "Complete Run52 initial source failure retained. The complete original scientific budget is prepared for a new public run with the supported physical jet multiplication.",
   "complete_new_files": [
     {
       "role": "script",
@@ -16,9 +16,9 @@
       "role": "mild_fields",
       "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_mild_cap_pullback_fields.py",
       "name": "bent_mild_cap_pullback_fields.py",
-      "bytes": 4906,
-      "sha256": "9e56b842ba3483f8e3bb829e76bb6ff3cda90d4a707c8c90080710e6ad1b4943",
-      "git_blob_sha": "bbd83abce4f885a06eded9edb91e4262e1e9b635"
+      "bytes": 4948,
+      "sha256": "b9efe959aa574cb77c3f2cdd3748cbd28dfe544fc5c0e83350c2285f14944cf5",
+      "git_blob_sha": "cbc8cd6f96e07cdb8a34b5a802f5fb23ad2df349"
     },
     {
       "role": "stress_system",
@@ -33,8 +33,8 @@
       "path": "topics/visible-flex-larger-amplitude/computations/bent-mild-cap-stress-phase-design-v1.json",
       "name": "bent-mild-cap-stress-phase-design-v1.json",
       "bytes": 7878,
-      "sha256": "6ca805a1145a45a072685915e796858501b68a1aa709ab0b9dca90315a23248c",
-      "git_blob_sha": "f49679bba4d280a12f630ee86797fd4dbf3b7586"
+      "sha256": "dc4160e8ea069181d877387374b5ba2d1d574283b9b1390f74d15d42f78d6b4f",
+      "git_blob_sha": "4dfd1983b099a883a23095ae820e50712ae7eb08"
     },
     {
       "role": "Complete Run52 three-index public controller",
@@ -53,12 +53,12 @@
       "git_blob_sha": "52f426ab0a3e47cc140e1c5ec1ff1f766070a6c1"
     },
     {
-      "role": "Complete frozen Run52 moderate-cap stress request",
+      "role": "Complete Run52 post-failure recovery request for all original 18 stages",
       "path": "topics/visible-flex-larger-amplitude/computations/run52-mild-cap-stress-request.json",
       "name": "run52-mild-cap-stress-request.json",
-      "bytes": 29810,
-      "sha256": "68235f0f3af6ecfbc19ca7c48206634671e00f27448374d1ad52623609dd357b",
-      "git_blob_sha": "886c69e73edd700a6c70b6fc6ffdbf72e7439262"
+      "bytes": 33441,
+      "sha256": "2b2efd29dde800fe4403429b2e7095d75a4c4e460a0697bd6c66ca46850dd6f7",
+      "git_blob_sha": "4320d4b44f890b52ff9279c92163df72753bab04"
     }
   ],
   "complete_retained_scientific_parent_sources": [
@@ -90,9 +90,9 @@
       "role": "r784",
       "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py",
       "name": "r784_first_nonlinear_cap_continuation.py",
-      "bytes": 2206,
-      "sha256": "ac0dfb597b43b41c8ffae355c554896fee4318d181853bb9039018af478b3bb3",
-      "git_blob_sha": "fe17815420685a57f8e26a65549ccca7d70c200e"
+      "bytes": 2235,
+      "sha256": "50613a463ed2a1389de44b8259eb20a76ae3848013f5a20549cf63651e923c7a",
+      "git_blob_sha": "3078f1b5e5947ef445a219a75254a226fe21e687"
     },
     {
       "role": "circular_fields",
@@ -240,9 +240,9 @@
         "role": "mild_fields",
         "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_mild_cap_pullback_fields.py",
         "name": "bent_mild_cap_pullback_fields.py",
-        "bytes": 4906,
-        "sha256": "9e56b842ba3483f8e3bb829e76bb6ff3cda90d4a707c8c90080710e6ad1b4943",
-        "git_blob_sha": "bbd83abce4f885a06eded9edb91e4262e1e9b635"
+        "bytes": 4948,
+        "sha256": "b9efe959aa574cb77c3f2cdd3748cbd28dfe544fc5c0e83350c2285f14944cf5",
+        "git_blob_sha": "cbc8cd6f96e07cdb8a34b5a802f5fb23ad2df349"
       },
       "stress_system": {
         "role": "stress_system",
@@ -257,8 +257,8 @@
         "path": "topics/visible-flex-larger-amplitude/computations/bent-mild-cap-stress-phase-design-v1.json",
         "name": "bent-mild-cap-stress-phase-design-v1.json",
         "bytes": 7878,
-        "sha256": "6ca805a1145a45a072685915e796858501b68a1aa709ab0b9dca90315a23248c",
-        "git_blob_sha": "f49679bba4d280a12f630ee86797fd4dbf3b7586"
+        "sha256": "dc4160e8ea069181d877387374b5ba2d1d574283b9b1390f74d15d42f78d6b4f",
+        "git_blob_sha": "4dfd1983b099a883a23095ae820e50712ae7eb08"
       },
       "geometry_source": {
         "role": "geometry_source",
@@ -288,9 +288,9 @@
         "role": "r784",
         "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py",
         "name": "r784_first_nonlinear_cap_continuation.py",
-        "bytes": 2206,
-        "sha256": "ac0dfb597b43b41c8ffae355c554896fee4318d181853bb9039018af478b3bb3",
-        "git_blob_sha": "fe17815420685a57f8e26a65549ccca7d70c200e"
+        "bytes": 2235,
+        "sha256": "50613a463ed2a1389de44b8259eb20a76ae3848013f5a20549cf63651e923c7a",
+        "git_blob_sha": "3078f1b5e5947ef445a219a75254a226fe21e687"
       },
       "circular_fields": {
         "role": "circular_fields",
@@ -464,7 +464,7 @@
     "geometry": {
       "R781": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
       "R783": "c89fbdea0dd140bc75d386282ef36414df8d11b5d0168ab33fcf4a523f58c4d3",
-      "R784": "ac0dfb597b43b41c8ffae355c554896fee4318d181853bb9039018af478b3bb3",
+      "R784": "50613a463ed2a1389de44b8259eb20a76ae3848013f5a20549cf63651e923c7a",
       "R785": "662de6e25b3ac3bfe093878a358f01e938223c27beb5a362657f425638bcb23c",
       "R786": "a4e1dd542e89c729ac90c944303f49738bb03abccc19a9ea3efe8fb67ddc2c0d",
       "initial_diameter": "The R781 D(0), frozen at defining quadrature order 20 in the reach-chord objective.",
@@ -789,7 +789,7 @@
       },
       {
         "name": "bent_mild_cap_pullback_fields.py",
-        "git_blob_sha": "bbd83abce4f885a06eded9edb91e4262e1e9b635"
+        "git_blob_sha": "cbc8cd6f96e07cdb8a34b5a802f5fb23ad2df349"
       },
       {
         "name": "bent_mild_cap_stress_system.py",
@@ -797,7 +797,7 @@
       },
       {
         "name": "bent-mild-cap-stress-phase-design-v1.json",
-        "git_blob_sha": "f49679bba4d280a12f630ee86797fd4dbf3b7586"
+        "git_blob_sha": "4dfd1983b099a883a23095ae820e50712ae7eb08"
       },
       {
         "name": "r786_delayed_two_cap_roll_collars.py",
@@ -813,7 +813,7 @@
       },
       {
         "name": "r784_first_nonlinear_cap_continuation.py",
-        "git_blob_sha": "fe17815420685a57f8e26a65549ccca7d70c200e"
+        "git_blob_sha": "3078f1b5e5947ef445a219a75254a226fe21e687"
       },
       {
         "name": "bent_circular_free_ring_fields.py",
@@ -909,5 +909,98 @@
     "body_moments": null,
     "complete_meshes": null,
     "strict_certificate": null
-  }
+  },
+  "original_failed_attempt": {
+    "source": "b394d7a2421fcd0c0909b044810a0f10f93d0656",
+    "run": "46182255429",
+    "attempt": "1",
+    "job": "141094222643",
+    "official": "failure",
+    "child_pid": 2658,
+    "child_exit": 1,
+    "frozen_inputs": 24,
+    "completed_stages": 0,
+    "returned_scientific_points": 0,
+    "observed_failure": "Stage 0 basis construction tried to exponentiate a two-jet object by the integer 4. The R742 J class supports multiplication. Its unsupported power operator raised TypeError.",
+    "original_field": {
+      "role": "mild_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_mild_cap_pullback_fields.py",
+      "name": "bent_mild_cap_pullback_fields.py",
+      "bytes": 4906,
+      "sha256": "9e56b842ba3483f8e3bb829e76bb6ff3cda90d4a707c8c90080710e6ad1b4943",
+      "git_blob_sha": "bbd83abce4f885a06eded9edb91e4262e1e9b635"
+    },
+    "original_companion": {
+      "role": "r784",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py",
+      "name": "r784_first_nonlinear_cap_continuation.py",
+      "bytes": 2206,
+      "sha256": "ac0dfb597b43b41c8ffae355c554896fee4318d181853bb9039018af478b3bb3",
+      "git_blob_sha": "fe17815420685a57f8e26a65549ccca7d70c200e"
+    },
+    "original_parameters": {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-mild-cap-stress-phase-design-v1.json",
+      "name": "bent-mild-cap-stress-phase-design-v1.json",
+      "bytes": 7878,
+      "sha256": "6ca805a1145a45a072685915e796858501b68a1aa709ab0b9dca90315a23248c",
+      "git_blob_sha": "f49679bba4d280a12f630ee86797fd4dbf3b7586"
+    },
+    "original_request": {
+      "role": "First attempt request",
+      "path": "topics/visible-flex-larger-amplitude/computations/run52-mild-cap-stress-request.json",
+      "name": "run52-mild-cap-stress-request.json",
+      "bytes": 29810,
+      "sha256": "68235f0f3af6ecfbc19ca7c48206634671e00f27448374d1ad52623609dd357b",
+      "git_blob_sha": "886c69e73edd700a6c70b6fc6ffdbf72e7439262"
+    },
+    "original_delivery": {
+      "role": "First attempt whole delivery",
+      "path": "topics/visible-flex-larger-amplitude/computations/run52-complete-mild-cap-stress-source-and-launch-delivery.json",
+      "name": "run52-complete-mild-cap-stress-source-and-launch-delivery.json",
+      "bytes": 40456,
+      "sha256": "a6b1d5b36eac66c96d632a6758bc884b53ef75a8f9c6cb0c37ad18de85b959ff",
+      "git_blob_sha": "0f32295b46dc52308de482e989dc90adec305687"
+    },
+    "original_report": {
+      "path": "topics/visible-flex-larger-amplitude/notes/run52-mild-cap-stress-46182255429-1.json",
+      "bytes": 24030,
+      "sha256": "2706d1d39e198aa667ac2f838b512091f5d9c8928e9c68da5bdc03c7a74ace52",
+      "git_blob_sha": "e3dd7542b272a2a9a866b452ffae595ad181ba65"
+    },
+    "original_summary": {
+      "path": "topics/visible-flex-larger-amplitude/notes/run52-mild-cap-stress-46182255429-1-summary.json",
+      "bytes": 5579,
+      "sha256": "44db0c9b3f8b9a8e901ecd7a6e4f4c0ea11c1be207f829a59300e28fb701b965",
+      "git_blob_sha": "c6e4f3bac268b297b99f081ddae15f836cd7dc5e"
+    },
+    "original_source_and_original_result_retained": true,
+    "full_scientific_recovery": "Run all 18 original stages and the three full same-point geometry exports from the original start. At stage 0 the fourth positive-part power is formed by J multiplication. The ninth-order finite R784 term, which the first process did not reach, now uses the same supported multiplication. The parameter file binds the corrected companion."
+  },
+  "complete_corrected_scientific_files": [
+    {
+      "role": "mild_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_mild_cap_pullback_fields.py",
+      "name": "bent_mild_cap_pullback_fields.py",
+      "bytes": 4948,
+      "sha256": "b9efe959aa574cb77c3f2cdd3748cbd28dfe544fc5c0e83350c2285f14944cf5",
+      "git_blob_sha": "cbc8cd6f96e07cdb8a34b5a802f5fb23ad2df349"
+    },
+    {
+      "role": "r784",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py",
+      "name": "r784_first_nonlinear_cap_continuation.py",
+      "bytes": 2235,
+      "sha256": "50613a463ed2a1389de44b8259eb20a76ae3848013f5a20549cf63651e923c7a",
+      "git_blob_sha": "3078f1b5e5947ef445a219a75254a226fe21e687"
+    },
+    {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-mild-cap-stress-phase-design-v1.json",
+      "name": "bent-mild-cap-stress-phase-design-v1.json",
+      "bytes": 7878,
+      "sha256": "dc4160e8ea069181d877387374b5ba2d1d574283b9b1390f74d15d42f78d6b4f",
+      "git_blob_sha": "4dfd1983b099a883a23095ae820e50712ae7eb08"
+    }
+  ]
 }

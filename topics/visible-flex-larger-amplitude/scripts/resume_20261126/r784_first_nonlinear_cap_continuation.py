@@ -43,7 +43,8 @@ def add_ninth_jet(field, chart, u, b, phase, order):
     beta = (ca*a0 - a0/np.sqrt(2.) - .08*.06/2)*k
     cb,sb = trig(beta)
     alpha4 = 2.5/(shear.base.RH*shear.SM**3)
-    lead = weight*(v**9)*(alpha4**2/(18.*a0))/(J(k)*sa*sa)
+    v2=v*v;v4=v2*v2;v8=v4*v4
+    lead = weight*(v8*v)*(alpha4**2/(18.*a0))/(J(k)*sa*sa)
     tx = np.array([1.,0.,-1.,0.])[quadrant]
     tz = np.array([0.,1.,0.,-1.])[quadrant]
     delta = gather([-lead*sb*tx,lead*cb,-lead*sb*tz],int(np.sum(use)))

@@ -74,7 +74,8 @@ def basis(chart,u,v,F,keys,d,order=20):
             q=(x-(2*i+1)/6)/.146
             raw=1-q*q
             positive=unary(raw,np.maximum(raw.v,0.),(raw.v>0.).astype(float),np.zeros_like(raw.v))
-            col=(positive**4)*trig(m*th)[tr]
+            squared=positive*positive
+            col=(squared*squared)*trig(m*th)[tr]
         elif tag=="roll" and chart.startswith("end") and (chart[-1]=="+")==bool(i):
             col=roll_window*trig(m*th)[tr]
         else:col=J(0.)

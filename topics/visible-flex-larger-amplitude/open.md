@@ -139,4 +139,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770.md)，不重做。
 
-[52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学源/三族18阶段，原GN加真实应力负方向；硬固定.0024领不能加密至零，仅作完整原预算对照。两free-rim族仍可修，全末网原预算；实际run/PID待返。
+[52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429/PID2658实际exit1、零科学阶段，J幂运算错误。仅两同多项式乘法修正及身份重签，24源/18阶段/三末网全部原预算恢复；硬帽正误差范围不变，新实际待返。

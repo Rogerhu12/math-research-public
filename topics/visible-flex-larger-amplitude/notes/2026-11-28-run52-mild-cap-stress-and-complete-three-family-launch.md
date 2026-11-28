@@ -56,3 +56,23 @@ ROOT逐字读过新物理三源、完整参数、观察主管与workflow，并�
 | `computations/run52-complete-mild-cap-stress-source-and-launch-delivery.json` | 40456 | `a6b1d5b36eac66c96d632a6758bc884b53ef75a8f9c6cb0c37ad18de85b959ff` | `0f32295b46dc52308de482e989dc90adec305687` |
 
 原README、所有证明、源参及原预算继续有效。该启动不填未返数值，也不因R785/R786参考场的厚度与宏观位移已证就把拟合结果当作同一场。ROOT的这次小文本发布使用根README授权的云端fallback；不是本地git pull。
+
+## 首次真实失败与同一科学任务的完整恢复
+
+首次实际[46182255429/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46182255429)，job141094222643，source=b394d7a2421fcd0c0909b044810a0f10f93d0656，官方completed/failure。ROOT独立核24个actual_frozen_inputs逐一等于原请求、summary全部24源身份同原件。实际PID2658在19:39:09Z启动、19:39:12Z自然exit1；stage0 hard_heads-mild-short刚进入basis构造，完整返回stage数0、科学点文件0、末网0。
+
+真正返回的trace指出bent_mild_cap_pullback_fields.py原77行positive**4对R742的J对象调用未实现的幂运算，TypeError。未完成的科学预算不作数学不收敛。原完整actual报告24030B/Git e3dd7542b272a2a9a866b452ffae595ad181ba65/SHA256 2706d1d39e198aa667ac2f838b512091f5d9c8928e9c68da5bdc03c7a74ace52；原summary5579B/Git c6e4f3bac268b297b99f081ddae15f836cd7dc5e/SHA256 44db0c9b3f8b9a8e901ecd7a6e4f4c0ea11c1be207f829a59300e28fb701b965，固定发布f4799f3f1749a0dcdba3a11faae4aa1a8f81d9a5。原stdout/stderr完整2093B/SHA256 1910909452b2bb393ac8548dbb5c216ed69a6a12d66b9ca120d336314ce3d5fd留runner，实际终trace保报告。原冻结初D=1.3531720815298758及所需半径.040595162445896275仅为该初场数值，不是完整科学结果。
+
+ROOT已全文读修正两源并核逐行差异：positive**4仅改为squared=positive*positive、squared*squared；尚未触达的R784同型v**9改为v2=v*v、v4=v2*v2、v8=v4*v4及v8*v。J原乘法已经携带实际六slot乘积法则，二者仍是同一明确四次/九次多项式，没有改动任何物理参数、裁剪宽、支撑、步长、解算容差或预算。R784实际有限项的证明范围保持。
+
+参数文件唯一变化为R784源SHA；所有24新actual输入、请求的direct_input_lineage以及manifest的mathematics列表一致，全部引用已逐项核同。original_failed_attempt专段保最初两源、参数、请求、manifest、run/job/PID/exit与原报告完整身份。主管和workflow不变，正常原入口重新执行九个粗起点和三族各4/8/16、共18阶段及三次全部原末验证；不以修复为由缩减工作，也不新增fixture/准入运行。新run与实际结果仍待自然返回。
+
+| 完整替换件 | 字节 | SHA256 | Git blob |
+|---|---:|---|---|
+| scripts/resume_20261128/bent_mild_cap_pullback_fields.py | 4948 | b9efe959aa574cb77c3f2cdd3748cbd28dfe544fc5c0e83350c2285f14944cf5 | cbc8cd6f96e07cdb8a34b5a802f5fb23ad2df349 |
+| scripts/resume_20261126/r784_first_nonlinear_cap_continuation.py | 2235 | 50613a463ed2a1389de44b8259eb20a76ae3848013f5a20549cf63651e923c7a | 3078f1b5e5947ef445a219a75254a226fe21e687 |
+| computations/bent-mild-cap-stress-phase-design-v1.json | 7878 | dc4160e8ea069181d877387374b5ba2d1d574283b9b1390f74d15d42f78d6b4f | 4dfd1983b099a883a23095ae820e50712ae7eb08 |
+| computations/run52-mild-cap-stress-request.json | 33441 | 2b2efd29dde800fe4403429b2e7095d75a4c4e460a0697bd6c66ca46850dd6f7 | 4320d4b44f890b52ff9279c92163df72753bab04 |
+| computations/run52-complete-mild-cap-stress-source-and-launch-delivery.json | 45323 | b5d841e0ea226d7144c1c03a7550f304cef948687ab2830f23785606e614be8a | 0a610d900a56ebc1567fc4a2e3e3893a3c8234e5 |
+
+原首次真实pull为19:39:12Z至7b44f696b781703d813d8fc0b999580bd2a278f4，双README核同；root本次云读非pull。前述硬固定领的严格正误差对照范围继续有效。
