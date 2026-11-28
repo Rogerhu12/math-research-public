@@ -17,3 +17,7 @@
 ## 2026-11-28 05:38:31 UTC — 29新独立runner官方启动及完整控制器身份
 
 新46112781312/1、workflow433424103/head6678于05:35:16Z实际启动，job140879807850于05:35:19Z开始、研究step05:35:52Z运行。新索引46806B确认全request d5e405ec/修复controller abf54a1；05:36:11暂无返回步骤，原双输入0不移新runner。open完整旧数值/措辞保6678固定原件，§1–6不动。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`849da689e15c7cac2c5f2b03f5e4cec9f318d31b`无变（非pull）。
+
+## 2026-11-28 05:39:03 UTC — 28第一个完整恢复步实际接受及六族曲率位置
+
+28 11e66实际accepted1，Phi681.6511710299278/Gram.4061652579029476，reachg.5294703284893127/distplus.11391376026366629。K12.318076128726846/Dlower4.117175205471979/cell885/u.8306046932331322/phiπ/2/branch1，s实际null不从初点回填。全部六族/原身份保，完整report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`d7211cbe7e00ffde8c7bd986f7b1c5155ceaaffc`无变（非pull）。
