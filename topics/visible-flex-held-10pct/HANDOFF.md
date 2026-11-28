@@ -5,7 +5,7 @@
 ## 规则与来源
 
 - 最近实际pull后双README已读锚 `141333184d3c1f6ff10c4ea2b2103e3ccb9f96bb`（2026-11-28 14:19 UTC）。
-- 集成回退核main `9f56e454673620c2b21ccc04c9f0a623db8596a0`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
+- 集成回退核main `ec8505bf8685c84cfdd6c9e0816bbffbbd22ae2c`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
 - 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。公/私库至少每小时pull，每次对已读锚核双README差异并立即遵守，H记录SHA。
 - 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
 - [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[早期详细快照](notes/2026-11-28-handoff-details-before-compact.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
@@ -50,9 +50,11 @@
 
 真正fixed actual-DN五源已备：唯一真实7a λ1首锚、固定最终δ/profile/chart/gauge/mean/时间、原support未知与完整H/J/audit/8outer；origin/source两冻结树分别绑定，无实际λ1输入。自有KIND的Cartesian/continuous/closed/mesh四reader亦已备；九源仅本地落盘未推，无λ1实输入，不改标签伪过旧7a。
 
-## 4. 旧结论不重做
+[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)已付完整原Robin→真DN的rank≤M更新、25维fixed-g联合块及8outer精确剩余。旧J c9c4906f…与accepted raw4f503380…未核同点，只能frozen chord；gauge q与physical q严格区分。小S/χN/方向均未实测，不充作λ1或逆证书。
 
-R73/R74付当前原未cut前缀，R76/R77付λ.064/M40连续前缀；[R78](results/R78-lambda064-complete-prefix-third-activity-moment.md)该λ.064/mean1936的1035格第三矩满足1571879/10^7<A3p<1572603/10^7，该场尾/cut仍欠，不混λ.002。R53–R75的精确范围查[索引](results.md)与继承H/open；R71/72非完整BVP逆。当前λ1 H、最终场全时几何、固定g精化、多t小网格继续。
+## 4. 已付范围
+
+旧R53–R78全部范围查[索引](results.md)及继承H/open，不重做。λ.064的R76–R78不混入λ.002；R71/72非完整BVP逆。准确λ1 H、最终场全时几何、固定g精化、多t小网格继续。
 
 ## 5. 字节、运行与继续
 

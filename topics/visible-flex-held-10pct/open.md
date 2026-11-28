@@ -16,6 +16,8 @@
 
 两侧须同一完整g、真实primitive、字面源mean、完整高度非零模与零模。R12/R14已证明精确高度二jet+度量一jet的Cartesian接缝机制；实际仍须同一两jet，不能用小残差、单侧formalRR或不同mean代替。R58–R62旧λ.002场连续界、旧.25尾cell7/deep及若干stage不重铺；新场单独付连续界。本次R73已付新879点源的最终Cartesian前缀/短桥连续几何（support>.6445、norm<1.1901、K≤12.3）；R74又付同图全连续metric<99/1e8，准确三重协变覆盖全角/全相位；更高真设计λ=.064/M40的R76几何与[R77同图完整连续metric](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)也已付，后者1433叶×3072扇区角格、全角/全phase严格<99/1e8；全部定义身份已核。[R79](results/R79-actual-width012-cut-prefix-continuous-metric-geometry.md)现已付同λ=.002原raw-H场width=.12完整cut前缀：82叶与未改补集全metric<99/1e8、K≤123/10；.04/.01已有真实点反例。[R80](results/R80-actual-complete-tail-absolute-geometry.md)已付同cut原点的实际完整尾/deep/平盘绝对几何（ell=marker=0）：radius≤.92043712、support≥.77104143、K≤10.017504；[R82](results/R82-actual-marked-closed-family-all-time-geometry.md)又付同字面正柱/规范帽整闭图全时C²嵌入与reach/D>.03408815。[R83](results/R83-actual-closed-third-activity-and-euclidean-separation.md)又付同图完整第三活动矩实部>.1392755与含反射δE>0；完整尾metric、最终physical-H和λ1继续。
 
+[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)已给完整系统真实末端行的rank≤M更新和fixed-g的25维联合块，保所有原未知/域门/8outer。实际小S、完整回代和χN尚须计算；现成J与accepted H的输入不同，未经同点核对只能作frozen chord。优先利用这些全量列响应减少重复大J，不冒称旧Robin χL已支付fullDN固定g可逆。
+
 ## 3. 同一完整问题的精化
 
 冻结最终δ、全部轮廓/warp校准、核心或声明的同一未知函数空间、源Cartesian mean/primitive、尾背景和完整时间域。R53原支持族与完整baseline+零phase是不同的合法未知空间，须选定并如实说明。旧actual-refine KIND/1168分支不覆盖新高M/新mean；只改标签不合格。
