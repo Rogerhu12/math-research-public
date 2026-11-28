@@ -1,0 +1,122 @@
+{
+  "session": "Astra-held10-7c4e33ee-20261128",
+  "date_UTC": "2026-11-28",
+  "status": "actual_storage_handoff_and_exact_source_preservation_not_complete_metric",
+  "preservation_scope": "New small transcription from actual earlier tool returns; source itself reconstructed byte-identically. Scratch certificates and earlier notes are not retranscribed as identical bytes.",
+  "source": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_storage_v3.py",
+    "sha256": "b627b46fe8e75bb1672bb6d2de0a7e2e7d3d3c99e799d7fa22d01c9ccbae4e55",
+    "bytes": 21213,
+    "git_blob_sha": "8428aa90a9e163309b6fe99f48eb35371933008e",
+    "actually_executed_before_environment_loss": true,
+    "exact_reconstruction_verified_in_functions": true
+  },
+  "unchanged_mathematical_controller": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_v2.py",
+    "sha256": "ad10604269a322d33f26f5e9e926d68d06b6ca8f836437ecf0ed585384abd115",
+    "retrieval_commit": "6da577d085d4b8a6e22e3523e10752ad6f4ae42a"
+  },
+  "unchanged_complete_geometry_bundle_sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98",
+  "complete_original_span_inventory": 18460,
+  "complete_stage_inventory": 1152,
+  "requested_metric_gate_exact": "1/1000000",
+  "strict_gate": true,
+  "original_metric_passed_spans_reused": 17644,
+  "original_unpaid_spans": 816,
+  "previously_paid_Taylor_seed_spans": 32,
+  "pending_new_spans_at_v2_start": 784,
+  "predecessor": {
+    "session_id": 95938,
+    "outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-a",
+    "actual_returncode": 130,
+    "interruption": "Owned Ctrl-C only after fresh evidence of the 128 MiB disk-write wait; no mathematical rejection",
+    "old_contract_sha256": "317ed25a71372be77e78620e276f9acd7d1318400f0ad0bd3ac2351b166d6cda",
+    "complete_stages_before_interrupt": 60,
+    "complete_stage_ids": "0..59",
+    "partial_stage": 60,
+    "partial_original_spans_durably_passed": [
+      0
+    ],
+    "preserved_proof_files": 491,
+    "all_preserved_files_after_exit_same_SHA_and_size": true,
+    "old_summary_running_label_is_historical_not_evidence_of_live_process": true
+  },
+  "successor": {
+    "session_id": 79580,
+    "outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-b",
+    "actual_start_observed": true,
+    "contract_sha256": "978022ec9f015508f8368bae64d63fce637dab58750cbf70b0500627137c09db",
+    "independent_storage_reserve_mib": 16,
+    "pending_serialized_bytes_reserved_in_addition": true,
+    "unchanged_original_large_geometry_reserve_mib": 128,
+    "old_complete_stage_certificates_reused_without_Gram_or_Taylor": 60,
+    "old_partial_stage_leaf_60_0_reused": true,
+    "first_new_durable_leaf": {
+      "stage": 60,
+      "original_span": 1,
+      "metric_upper_display_only": 1.9278740223136813e-7,
+      "actual_gate_passed": true
+    },
+    "last_confirmed_complete_stages": 61,
+    "last_confirmed_stage_ids": "0..60",
+    "last_confirmed_stage60_spans": 16,
+    "after_executor_unavailable": "unknown",
+    "final_returncode": null,
+    "complete_metric_claimed": false
+  },
+  "actual_small_receipts": {
+    "before": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/before-interrupt.json",
+      "sha256": "1cdb6a91c143556ed72da035734887114659c378240c54cf5af5eeeb0bebc9e3",
+      "bytes": 136039
+    },
+    "terminal": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/terminal.json",
+      "sha256": "16660c299e4dc3e8e3ac64d0f0802780dc6bcfeb042693bb90a4e1a371543b76"
+    },
+    "actual_successor_start": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/successor-actual-start.json",
+      "sha256": "329488114329e926c3072f911a72696da7b5c223d98159b9cd04f48ccb24614f"
+    }
+  },
+  "earlier_scratch_note_sha256": "673b93652666890fd71402981b7146e1635c9eb7f10ddc77c31020cea7f10e05",
+  "exact_math_inheritance": "Old/new contracts must agree after removing only schema, controller source and disk guard; actual terminal130 and all frozen original proof bytes are checked; whole field, full Fourier spectrum, full Gram products, w/w_R/w_RR bounds and strict target unchanged.",
+  "reproduction_argv_not_claimed_as_byte_identical_spawn_record": [
+    "python",
+    "-u",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_storage_v3.py",
+    "--geometry-bundle",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "--constants",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+    "--normalization-certificate",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-normalization-reuse.json",
+    "--original-certificate-dir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001",
+    "--original-certificate-dir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001",
+    "--reuse-taylor-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-span15-20261128-a/summary.json",
+    "--reuse-taylor-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-spans0-14-20261128-a/summary.json",
+    "--reuse-taylor-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage16-all-20261128-a/summary.json",
+    "--max-depth",
+    "3",
+    "--quadratic-mode-cutoff",
+    "12",
+    "--disk-reserve-mib",
+    "16",
+    "--inherit-v2-terminal",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/terminal.json",
+    "--outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-b"
+  ],
+  "excluded_claims": {
+    "complete_1152_stage_metric": false,
+    "full_closed_metric": false,
+    "lambda_one": false,
+    "fixed_problem_refinement": false,
+    "README_completion": false
+  }
+}
