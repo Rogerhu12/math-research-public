@@ -126,7 +126,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。 [49完整两族](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)15源/六初点+双4/8/16及双终网启动，真全像位移底限直接入场。
 
-[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：真整双斜折片全g/K<1/.132，规定中心的任意整帽刚体被>.005链隙排除；两真整球+全片+全角区间四任务21源原预算启动，闭球余g/全管仍欠。
+[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：46174642286原fold/全区间完整返，两规定刚帽被严格正弦超额排；两整球exit1无完整层。仅修五返值误解六项，18源/两支全部三层7+6相原预算恢复，成功两项不重算。
 
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
 

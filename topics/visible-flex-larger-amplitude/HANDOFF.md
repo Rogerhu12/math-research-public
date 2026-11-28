@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI）。**未完成，持续至全部README标�
 
 ## 规则与完成标准
 
-root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`b39cbf57943470c6f004b2a9c01bee7cbad0a925`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`392f30e4f4da781290da18741d95b045ddf9d3bf`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE，每结论普通推，NFF即时rebase或终端失效freshHEAD整合重推直到成功；禁force/冒pull/令牌入件。仅公开Actions科学，不增fixture/AST/准入、不缩原预算。先metadata，禁整读≥100KB/binary；题≤200MB，单件<5MB，MD<100KB，H<10KB，open<30KB。根§15raw留runner、保完整源参/run/整身份；活输入/父/唯一状态不退。
 完成：闭连通C²嵌入、全t强C²、一个固定g；D=diam整F0，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6；同g/参/全t真空间频率时间精化至机器/原容差、多时刻整mesh，再提高三比值。
 
@@ -31,7 +31,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。 [49完整两族](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)15源/六初点+双4/8/16及双终网启动，真全像位移底限直接入场。
 
-[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：真整双斜折片全g/K<1/.132，规定中心的任意整帽刚体被>.005链隙排除；两真整球+全片+全角区间四任务21源原预算启动，闭球余g/全管仍欠。
+[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：46174642286原fold/全区间完整返，两规定刚帽被严格正弦超额排；两整球exit1无完整层。仅修五返值误解六项，18源/两支全部三层7+6相原预算恢复，成功两项不重算。
 
 ## 全部原责任与恢复
 
@@ -51,10 +51,10 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r769-publish-->R769 [全滚段与两真帽的四整球十二层实际](notes/r769-meridian-whole-46169013968-1-index.json) 双README真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee
 <!--r771-publish-->R771 [全子午凸坐标两整球六层实际](notes/r771-convex-meridian-46171324381-1-index.json) 双README真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 1ad5d0e476ea12e95abe62fd11b7f74d15caaa6d
+<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull df9158623426311c6e931bbb6bcb1582e1a249b5
 
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
 
 [R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-whole-46174642286-1-index.json) [每次双README真读](notes/r774-shared-pose-whole-46174642286-1-reads.json) 4f16bee240fab6f1afb6b565b009f6a9a72c66ae
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 1ad5d0e476ea12e95abe62fd11b7f74d15caaa6d
-<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull df9158623426311c6e931bbb6bcb1582e1a249b5

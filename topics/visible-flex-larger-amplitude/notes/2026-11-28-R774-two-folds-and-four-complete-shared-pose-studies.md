@@ -29,3 +29,37 @@
 启动、冻结前、每2700秒、终态与拒推后的每次真实pull均立即追加完整commit/UTC/阶段/活PID到独立reads.json，并更新HANDOFF链接；不等科学新值。普通拒推立即pull --rebase整合重推，双README变化仅读差异并遵新规则。root终端不可用时云核不是pull。
 
 课题未完成。全g固定参数加密收敛、全t嵌入/定量reach以及最后同场全部几何需真实完整结果；局部构造、必要障碍或运行结束均不是收尾依据。
+
+
+## 原46174642286/1真实返回及两支原预算恢复
+
+原source/触发30fa2dccd9e30806d4f4b13347dc64aefad2ca02，job141070479804，2026-11-28 18:13:10Z启动、18:13:59Z官方failure。四子进程监督步骤成功结束，而最终发布步骤在完整记录两非零exit后如实返回failure。ROOT已核官方run/job、21份实际冻结源身份，以及固定1362734f69f11a8eade488e47de0006fe8763823的全部四个完整报告/规则账。
+
+|完整文件|bytes|SHA256|Git blob|
+|---|---:|---|---|
+|notes/r774-shared-pose-whole-46174642286-1-index.json|3481|39d3f7888a15930ddf1183ebf0a6b48495e8ce6cc7590335555b36a0f72997f5|e5d4dcee7fb3de4b28c54c1d438259923615f31c|
+|notes/r774-shared-pose-whole-46174642286-1-fold.json|45418|2c9f81f91553755efa7b5f67a0ad879ba440c454757aad6f384041c8fc10df23|5ca1fe833f8a157d75148e2b56c0164bb120f657|
+|notes/r774-shared-pose-whole-46174642286-1-interval.json|22171|b4ac296b6e1d62e94d52a747050721dd0877b34815de40cf7abbe96010129979|649c1e1310568bc4ddceb5d4678e4a6061eb9103|
+|notes/r774-shared-pose-whole-46174642286-1-reads.json|694|4323dfa1b4f58fbc520a50348eff1cdbcca32636123a1f175390639ddb6a3a42|17daceead4b588396d82e3a63f10114b70783dbd|
+
+两整球left/common实际exit=1，均无完整geometry或拟合level，不能当数学失败或原预算已执行。已执行的定版geom.state明确只返回grid/Q/gamma/shift/info五项，而原prices用六变量解包；ROOT直接比对新的9046B完整solver与原9052B全文，唯一科学改动为该行改取state(...)[-1]。此处源码确定错误与已观察非零exit分开；未取回的原stderr不伪造。新公开入口仅恢复这两支原完整预算，不重复下面两项已完成的工作。
+
+### 完整双折片已返回
+
+三完整space/time/G层分别返回8、13、25相（第一层额外加入实际接合时间），末相分别806/1974/4402个真点。最高层theta=.9、lambda=.30459457915162325；整片G11/G12/G22误差为3.3306690738754696e−16/2.233456475320139e−16/1.1102230246251565e−15，主曲率峰6.8527454823842024、面积最小.9999999999999996。全有序样本的法球半径.14592691390565385仍只是样本读数。真正同符号上/下终端需要的平移差.6245843602898146，不能把这些准确局部片直接刚接到同一个整帽。三层完整所有四frame和相位成本保原45418B报告，局部结论不冒闭壳。
+
+### 完整连续区间工作已返回
+
+三层全部自然完成。粗层尚有一个相位闭合根未包围，后两层全相闭合根均获包围；最高512×2048×2048层gamma0∈[.3335610351562499,.33833593750000013]，全gamma上界1.3663041992187503。最高层两名义帽的整个3D端弦超长上确界分别被包围于[.39951034028750937,.41342832236928223]、[.12514048190952617,.14121663830098155]；严格正下界来自右四时钟墙theta/.9最后一格的指定真物料格，故两指定刚帽方案已排除。原4角平方超额的全域上界分别−.07439079320677615、−.0522399249816785，两个常见四角检查全过仍不足。所有正/负/未知箱、零未证根与局部段账均保整22171B报告；未知符号格不作已通过。
+
+### 真规则账与两新原任务
+
+原三次已实际pull/读双README：18:13:15.063407Z至30fa2dccd9e30806d4f4b13347dc64aefad2ca02，18:13:24.364439Z至9b8dcc4753228a54a897301f76ee727a34cb294f，18:13:57.306841Z至4f16bee240fab6f1afb6b565b009f6a9a72c66ae，完整账如上。
+
+|新增完整源|bytes|SHA256|Git blob|
+|---|---:|---|---|
+|topics/visible-flex-larger-amplitude/scripts/resume_20261126/solve_r774_shared_pose_complete_spheres_retry.py|9046|21efc4866186759ce98b77841c916af52213a085efdb82cd34b4df3aab955306|e65ff1fb5f2b793ba91e3f72435bd41cb2ecdcb1|
+|topics/visible-flex-larger-amplitude/scripts/resume_20261126/run_r774_two_failed_shared_pose_studies.py|15093|5ca7af086b9452838c429018ca816bca223ed961343dbe933760294f45d3efe1|a0d5fcbf62a9be255e4c5bdc2d0cfb85942cf696|
+|.github/workflows/visible-larger-r774-two-original-complete-fit-recovery.yml|4660|b67eeb39e1e9ce5fbae4fddfff56abdd46ff9c44742e2711c0942e740d060bc9|935b093bbdf1e191edb7c0e4d71b7dc6e9399796|
+
+新控制冻结18份完整源；原通用14父、真实完整中心/帽和publish父保持原身份。每支仍执行原三层全部7拟合+6中相、整指南与十一图全三向拟合/独立复读、原12/20/30 nfev和12/16/20 LSMR上限、原355分钟job和每2700秒真规则账。两原exit1、两成功独立报告身份固定嵌入新index；成功折片/区间不重算。新run/PID/科学结果待实际自然返回，不写预计值。
