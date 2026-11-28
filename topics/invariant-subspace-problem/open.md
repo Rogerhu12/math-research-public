@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[H198原N1坐标与首一平方](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)：178b真2.541453184秒，ΔN余QQ不可约H198（14,19；总25、198项），整零留；H≠0双侧Z坐标、首一Z²有I4迹，原商不冒称自由。新ecf383真14.074930164秒/93644KiB/0，全15原关系含NS/PS四乘积准确转两列；N1*x/N1*y及NS/PS各返原C6（30/40/6、5548项；42/54/6、10570项），λ内容皆常数，首项仍未付。续整H198/P164及完整原R6/NP/NV，不把两必要scalar作整图排空。
+[H198原坐标/首一平方](results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md)及[完整15×2/两本原λ6](results/R150-appendix-unit211-W-H198-complement-exact-fifteen-two-columns-and-two-primitive-sextics.md)已成：ecf383真14.074930164秒/0，全NS/PS及四乘积保留；两C6为30/40/6及42/54/6，λ内容常数但头未付，原商不假自由。整不可约H198（总25）零保留；新b9d649固定p1009/k3原整模型首派，若真非零余式才付H∤P164及4100权长度/49200完整七坐标界。全部原个别R6/NP/NV继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[原NV/F6最高行与21生成图](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)：999ac真4.083557464秒/0，NV7/F6/N1最后Ce0全来源返，原Cλ7低6/5/5；C*74/49、2403项，补图首一λ21/≤21生成，整C*零为模型例外。P6在H19≠0首一6，故有限性缺口限H19=C*=0。新47aaa首次120秒/1GiB求完整QQ交支持；新321647首次60秒/1GiB从D2=0/F6迫ell半,t1，整Q=4(u−1)(u−2)四原top₂作QQ(u)[s]全来源并清最终C(u)。所有例外曲线/原个别NP留，不重启旧bb35/P6/P9。
+[原NV/F6的21生成图](results/R150-appendix-unit211-Phi-zero-whole-first-head-highest-original-NV-F6-filtered-lift-and-twenty-one-generators.md)已付C*补图首一λ21/≤21生成，C*74/49整曲线留；P6在H19≠0首一6。47aaa首次QQ交支持待返。[整D2=0最高方向](results/R150-appendix-unit211-Phi-zero-highest-D2-zero-five-weight-support.md)：321647真0.120667964秒/0，ell半/t1与整Q=4(u−1)(u−2)；四原式C16清回，仅剥u1²/u2⁶/δ，C6完整F4·F1²，候选权对≤5。五个整s纤维/其它最高方向及原个别NP留，续既有原头的同点返回，不倒置D2，不重启旧门。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
