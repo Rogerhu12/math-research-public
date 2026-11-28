@@ -521,3 +521,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:09 UTC — Astra-held10-7c4e33ee-20261128
 原bootstrap真过.016/M32后无损接新完整割线，.032/M32又真全门（947点/metric6.69488e−7）；实际V4 cache717hit/9miss，现.064。详见design-bootstrap-to-secant-actual及design-secant-lambda032-m32。
 纠正旧执行provenance：python -u使旧bootstrap未被资源wrapper拦截，实际原portable，数学返回不变；只修已停恢复入口供未来再生，不重复已接受场。尚未超原.128，不称fixedg或闭图。
+
+### 2026-11-28 08:09 UTC — Astra-held10-7c4e33ee-20261128
+真design锚→同g fixedM24的完整六组Cartesian jets比较已返：3294截面、N1024/2048、同mean1168真原函数；位置差9.73e−8而Fss差2.65435e−4，明确不是Cauchy或连续误差上界。
+见analytic-fixed-support-complete-c2-comparisons/逐字JSON/原compare窄适配；Gauss6→12只观察差，memo本次0hit不称提速。继续同g M32谱精化及后续全图问题。

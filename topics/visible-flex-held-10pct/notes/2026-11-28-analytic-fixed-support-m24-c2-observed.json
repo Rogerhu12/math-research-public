@@ -1,0 +1,696 @@
+{
+  "scope": "Compare two fixed-metric m3 branch fields in one common material chart.\n\nThis reports finite sampled C2 differences, not a continuous certificate or\na proven Cauchy sequence.  The vertical mean rule is identical in both maps.\nPosition uses the same declared finite mean's true primitive, numerically\nevaluated with positive per-cell Gauss rules; the difference of two rules is\na diagnostic, not an integration error bound.  Derivatives use the analytic\nintegrand jets, not derivatives of the quadrature algorithm.\n\nCore coefficient l1_0/l1_2/l1_4 differences are also evaluated exactly as\nrationals of the two literal binary coefficient vectors.  They do not bound\nuncomputed Fourier tails of an unknown exact solution.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_literal_compare.py",
+    "--first-run",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "--second-run",
+    "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m24-radial-v2/run.json",
+    "--out",
+    "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-design-to-m24-c2.json",
+    "--angular",
+    "1024",
+    "2048",
+    "--mean-nodes",
+    "1168",
+    "--radial-count",
+    "151",
+    "--height-orders",
+    "6",
+    "12",
+    "--batch",
+    "8"
+  ],
+  "status": "evaluated",
+  "source_sha256": "741f948ff89a95144b33fce2885e83701740a25ca14723f2f3d615eeea9a7729",
+  "source_runs": [
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m24-radial-v2/run.json"
+  ],
+  "source_run_sha256": [
+    "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+    "1516564940efc197b43881be4c6dee1c44adef42f9b108308f36eb659c637d94"
+  ],
+  "physical_sha256": [
+    "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+    "e5aba07d52b2526d70bcff43fe87aa84ebdb14a391075cda72fdec4344585460"
+  ],
+  "fixed_problem": {
+    "frozen_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "held10_multistage_flat_v1",
+      "cycles": 1,
+      "delta": 0.06413464112662924,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4,
+        "peak_fraction": 0.2
+      },
+      "multistage_flat": {
+        "reference_delta": "3/50",
+        "eta": "1/20",
+        "up": [
+          [
+            "0",
+            "13/100",
+            "104/1425"
+          ],
+          [
+            "13/100",
+            "9/20",
+            "128/2025"
+          ],
+          [
+            "9/20",
+            "9/20",
+            "13024/346275"
+          ],
+          [
+            "9/20",
+            "0",
+            "4/45"
+          ]
+        ],
+        "down": [
+          [
+            "0",
+            "-1/2",
+            "2/25"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1/25"
+          ],
+          [
+            "-1/2",
+            "0",
+            "2/25"
+          ]
+        ]
+      }
+    },
+    "physical_tail_parameters": {
+      "rCut": 0.3,
+      "wCut": 0.08,
+      "width": 0.25,
+      "curvatureBound": 8,
+      "orientation": 1,
+      "prefixR": 2,
+      "prefixEnd": 15,
+      "prefixReturnStart": 8,
+      "protectCell": 160,
+      "slopeCap": 0.02,
+      "capTransition": 2,
+      "calibrationSteps": 512,
+      "warpSteps": 16,
+      "cuspAwareQuadrature": true,
+      "quadratureTolerance": 2e-10,
+      "capMode": "cut-preserving",
+      "valleyControls": [
+        4.625,
+        2.8125,
+        4.0625,
+        5,
+        5.25,
+        4.0625,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pulseCaps": [
+        [
+          0.4,
+          0.02
+        ]
+      ],
+      "valleyCaps": [
+        0.1
+      ],
+      "maxCachedBetas": 1,
+      "warpWeightLevels": [
+        [
+          1,
+          0.5,
+          3,
+          0.05,
+          1
+        ]
+      ],
+      "spacing": 3
+    },
+    "physical_tail_cut": {
+      "radius": 0.3,
+      "backgroundSlope": 0.08000000000000027,
+      "backgroundSecond": -1.866666666666673,
+      "E": 1.0064,
+      "Ep": -0.2986666666666687,
+      "_prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4,
+        "peak_fraction": 0.2
+      }
+    },
+    "angular_chart": {
+      "scope": "Normalized linear m3 f/a; numerical chart only, frozen when used in one design.",
+      "reference_profile": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "delta": 0.06105743211811398,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "knots": [
+        0.0,
+        0.015625,
+        0.03125,
+        0.046875,
+        0.0625,
+        0.078125,
+        0.09375,
+        0.109375,
+        0.125,
+        0.140625,
+        0.15625,
+        0.171875,
+        0.1875,
+        0.203125,
+        0.21875,
+        0.234375,
+        0.25,
+        0.265625,
+        0.28125,
+        0.296875,
+        0.3125,
+        0.328125,
+        0.34375,
+        0.359375,
+        0.375,
+        0.390625,
+        0.40625,
+        0.421875,
+        0.4375,
+        0.453125,
+        0.46875,
+        0.484375,
+        0.5,
+        0.515625,
+        0.53125,
+        0.546875,
+        0.5625,
+        0.578125,
+        0.59375,
+        0.609375,
+        0.625,
+        0.640625,
+        0.65625,
+        0.671875,
+        0.6875,
+        0.703125,
+        0.71875,
+        0.734375,
+        0.75,
+        0.765625,
+        0.78125,
+        0.796875,
+        0.8125,
+        0.828125,
+        0.84375,
+        0.859375,
+        0.875,
+        0.890625,
+        0.90625,
+        0.921875,
+        0.9375,
+        0.953125,
+        0.96875,
+        0.984375,
+        1.0
+      ],
+      "values": [
+        1.0000000000000002,
+        0.9914931219075893,
+        0.9621786754407384,
+        0.9128968086364748,
+        0.8453479507925499,
+        0.7677988944063824,
+        0.6914752242528818,
+        0.6180868901311614,
+        0.5556814864724477,
+        0.50422786196538,
+        0.4626641709967019,
+        0.42970145404367865,
+        0.40585661118818234,
+        0.39276664402576544,
+        0.3908392980632771,
+        0.3985243910288028,
+        0.40725237505623835,
+        0.41435432889557905,
+        0.41007697111004354,
+        0.39354164133289327,
+        0.3658346993047048,
+        0.33201025328691497,
+        0.29870844771839344,
+        0.26659642080177504,
+        0.23608757367209354,
+        0.20745403833409054,
+        0.1808600064640913,
+        0.15638923139375754,
+        0.13406668659218843,
+        0.11387494765721545,
+        0.0957661302326964,
+        0.07967028098935638,
+        0.06550107091480722,
+        0.05315953945929295,
+        0.04253652101815536,
+        0.03351427086804152,
+        0.02596770334755971,
+        0.01976556109224576,
+        0.014771747421690764,
+        0.010846970672197703,
+        0.007850766155913442,
+        0.005643875642692896,
+        0.004090869723542138,
+        0.0030627751247909478,
+        0.002439257428649607,
+        0.0021094693006008807,
+        0.0019698517694571984,
+        0.0019168462796705095,
+        0.0018708885765420001,
+        0.0018217768736855419,
+        0.0017691749535487218,
+        0.0017126970500595138,
+        0.0016518983720004428,
+        0.0015862633648822352,
+        0.0015151910556056281,
+        0.001437976597530821,
+        0.001353787814773201,
+        0.0012616350900350503,
+        0.0011603322826918034,
+        0.001048445397088481,
+        0.0009242242746538035,
+        0.0007855103777425597,
+        0.0006296102976668439,
+        0.0004531191420535762,
+        0.00022307056775898172
+      ],
+      "final_derivative": -0.02041344067363424
+    },
+    "core_settings": {
+      "homotopy": 0.002,
+      "curvature_blend": 1.0,
+      "halfwidth": 0.5,
+      "transition": 0.2,
+      "target_curvature": 0.2,
+      "quadrature_order": 12,
+      "integration_cells": 64,
+      "transition_cells": 24
+    },
+    "gauge_q": 0.06,
+    "warp_reference": 0.06,
+    "q_branch": [
+      0.055,
+      0.065
+    ],
+    "mean_nodes": 1168,
+    "bc_normalization": 0.02,
+    "terminal_kind": "original_linear_dn",
+    "parameter_zero_meaning": "log(q_actual/q_seed)",
+    "frozen_source_signature": {
+      "portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+      "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+      "--core-module": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+      "--core-config": "5ed9c06fd52c2162304560722f71751287c81497cd15967820e1f223c7283223"
+    }
+  },
+  "finite_candidate_pass": [
+    false,
+    true
+  ],
+  "modes": [
+    24,
+    24
+  ],
+  "q_actual": [
+    0.06,
+    0.06000009614419792
+  ],
+  "core_literal_coefficient_distances": {
+    "l1_0": {
+      "numerator": "29625099203594313",
+      "denominator": "302231454903657293676544",
+      "decimal": 9.802123082469342e-08,
+      "float_upper": 9.802123082469343e-08
+    },
+    "l1_2": {
+      "numerator": "676394954339807007",
+      "denominator": "604462909807314587353088",
+      "decimal": 1.1190015853171574e-06,
+      "float_upper": 1.1190015853171577e-06
+    },
+    "l1_4": {
+      "numerator": "161435303645571861615",
+      "denominator": "604462909807314587353088",
+      "decimal": 0.00026707230671445633,
+      "float_upper": 0.0002670723067144564
+    }
+  },
+  "radial_samples": 3294,
+  "radial_range": [
+    0.0,
+    1.425269704374845
+  ],
+  "coordinate": "common fixed computational (s,psi) chart; identical material Theta",
+  "mean_nodes": 1168,
+  "mean_primitive_origin": 0.0,
+  "mean_primitive_scope": "true primitive of the same fixed finite mean rule; numerical positive-cell Gauss evaluation",
+  "height_orders": [
+    6,
+    12
+  ],
+  "observed_height_quadrature_change": [
+    4.702016553892463e-12,
+    3.143041382713818e-13
+  ],
+  "height_quadrature_error_certified": false,
+  "rows": [
+    {
+      "angular": 1024,
+      "sampled_complete_C2_jet_difference": {
+        "F": 9.732723560418322e-08,
+        "Fs": 3.788348011948168e-07,
+        "Fp": 2.546085542533082e-07,
+        "Fss": 0.0002654342767641062,
+        "Fsp": 9.595189120466655e-07,
+        "Fpp": 9.685665723369779e-07
+      },
+      "peaks": {
+        "F": {
+          "s": 0.0,
+          "psi": 0.0
+        },
+        "Fs": {
+          "s": 0.14904476182830478,
+          "psi": 3.141592653589793
+        },
+        "Fp": {
+          "s": 0.0,
+          "psi": 5.792311455056181
+        },
+        "Fss": {
+          "s": 0.14391749134520093,
+          "psi": 3.11091303783208
+        },
+        "Fsp": {
+          "s": 0.18717829120453128,
+          "psi": 4.595806440505381
+        },
+        "Fpp": {
+          "s": 0.10094665143749727,
+          "psi": 0.0
+        }
+      },
+      "sampled_core_C2_difference": {
+        "position": 9.732814487684038e-08,
+        "first": 3.004319184355266e-07,
+        "second": 3.1327242324376673e-06
+      }
+    },
+    {
+      "angular": 2048,
+      "sampled_complete_C2_jet_difference": {
+        "F": 9.732723560418322e-08,
+        "Fs": 3.788348011948168e-07,
+        "Fp": 2.5460968948185816e-07,
+        "Fss": 0.0002654342767641062,
+        "Fsp": 9.595189120466655e-07,
+        "Fpp": 9.685665723369779e-07
+      },
+      "peaks": {
+        "F": {
+          "s": 0.0,
+          "psi": 0.0
+        },
+        "Fs": {
+          "s": 0.14904476182830478,
+          "psi": 3.141592653589793
+        },
+        "Fp": {
+          "s": 0.0,
+          "psi": 1.6045439041283807
+        },
+        "Fss": {
+          "s": 0.14391749134520093,
+          "psi": 3.11091303783208
+        },
+        "Fsp": {
+          "s": 0.18717829120453128,
+          "psi": 4.595806440505381
+        },
+        "Fpp": {
+          "s": 0.10094665143749727,
+          "psi": 0.0
+        }
+      },
+      "sampled_core_C2_difference": {
+        "position": 9.732814487684038e-08,
+        "first": 3.0043211961162873e-07,
+        "second": 3.1327242324376673e-06
+      }
+    }
+  ],
+  "continuous_C2_bound_certified": false,
+  "same_limit_core_proven": false,
+  "full_closed_surface": false,
+  "elapsed": 112.66679340000064,
+  "adapter_scope": "Compare complete actual prefix fields with one frozen R53 metric.\n\nThis is a narrow adapter to the existing Nov26 complete-C2 comparison. The\nleft field may be the genuine design anchor, evaluated at its actual delta,\nor a genuinely accepted original-support fixed-g return. The right field\nmust be a genuinely accepted literal-chart fixed-g return. A design anchor\nis not relabelled as an independently solved fixed-g run. All six Cartesian\njets, the common mean1168 primitive and literal core coefficients are kept.\nThe results are sampled finite differences, not a Cauchy or closure proof.\n",
+  "adapter_source_sha256": "39494de3d243c67a8fa1e67700844090cac23c66f63b7b1a1882f2e0d30f45e3",
+  "literal_model_source_sha256": "41fb25ca0d92f936f747cfd74066806c0a114d54ee920c4a8d82e081870ba1cf",
+  "original_compare_source_sha256": "741f948ff89a95144b33fce2885e83701740a25ca14723f2f3d615eeea9a7729",
+  "original_main_sha256": "913eab1fcd0eff7bbaeb9c2bc7dde24600d6e526488ac353794125d5bd58b990",
+  "executed_main_sha256": "2b53d50ff1e1154e87809f4f812b113cef619d7923ab6df80aa3ad9bad5df16e",
+  "left_field_kind": "actual_design_anchor_at_its_frozen_delta",
+  "right_field_kind": "original_r53_fixed_support_literal_chart_v1",
+  "source_acceptance": [
+    "accepted_original_design",
+    "accepted_actual_fixed_g_solve"
+  ],
+  "design_anchor_relabelled_as_fixed_solver_return": false,
+  "literal_radial_chart": {
+    "chart_join": 0.347040419608259,
+    "chart_reference_prefix": 0.4946521126011548,
+    "chart_breaks": [
+      0.0,
+      0.0027370054376634236,
+      0.052003103315605044,
+      0.05474010875326846,
+      0.057110620585318836,
+      0.09977983356222556,
+      0.10215034539427592,
+      0.13036082245990463,
+      0.13369435472372546,
+      0.19369793547250047,
+      0.19703146773632138,
+      0.20003164677376012,
+      0.2540348694476577,
+      0.25703504848509645,
+      0.28703683885948394,
+      0.2900370178969227,
+      0.3440402405708202,
+      0.347040419608259,
+      1.0
+    ]
+  },
+  "complete_core_evaluate_cache": {
+    "cache": {
+      "enabled": true,
+      "hits": 0,
+      "misses": 11,
+      "context_changes": 0,
+      "bypasses": 0,
+      "evictions": 3,
+      "context_key_seconds": 0.004064411000399559,
+      "original_evaluate_seconds": 6.668203268001889,
+      "copy_seconds": 0.004388056999232504,
+      "max_entries_per_core": 4,
+      "max_bytes_per_core": 134217728,
+      "peak_cached_bytes_one_core": 11670528,
+      "peak_entry_bytes": 5701632,
+      "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+      "complete_instance_state_bound": true,
+      "complete_theta_bytes_bound": true,
+      "original_output_cache_side_effects_restored": true,
+      "returned_arrays_are_independent_writable_copies": true,
+      "quadrature_or_model_changed": false
+    },
+    "source_sha256": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217"
+  },
+  "original_equations_changed": false
+}
