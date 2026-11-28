@@ -1,0 +1,193 @@
+{
+  "execution": {
+    "elapsed_seconds": 0.07726578999999845,
+    "max_child_rss_kib": 38000,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "676d4ab94af01f74f84ea6ca98a3f130e93077e6",
+        "before": "0f981c7044f02f45ad750451da8f3df0944031db",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T04:29:16.980312+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46107738528",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0f981c7044f02f45ad750451da8f3df0944031db",
+    "source_exit_code": 0,
+    "source_git_blob": "2e03c17a58b54fb8fa9a39b4f3ebf366b8648d60",
+    "source_sha256": "52fd79c92f3baca890d026184e687db573a10a6e896c8a3310d900a9433e4f75",
+    "stdout_bytes": 3224,
+    "stdout_sha256": "632d5ed7d3207979c1cca2e667083234cf61c361254ce85662196c2eddc2103a",
+    "stop_reason": null
+  },
+  "job_id": "140864183090",
+  "records": [
+    {
+      "actualPaidProduct": {
+        "degree": 13,
+        "polynomial": "1024*x^13 + (-9728)*x^12 + 40704*x^11 + (-98432)*x^10 + 151552*x^9 + (-153984)*x^8 + 103168*x^7 + (-43904)*x^6 + 10752*x^5 + (-1152)*x^4",
+        "sha256": "c9535e4f8a3a2f7175dfe903293ae2a8c8501836b358bb82e035cb8d2148d931"
+      },
+      "completeGCD": {
+        "constant": "1/4",
+        "factors": [
+          {
+            "degree": 1,
+            "polynomial": "x",
+            "power": 3,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          {
+            "degree": 1,
+            "polynomial": "2*x + (-3)",
+            "power": 2,
+            "sha256": "14140c0aa838f190b7cced830ecdd570f14f5d14b0fa8fc2997b7e891a6aecf1"
+          },
+          {
+            "degree": 1,
+            "polynomial": "x + (-1)",
+            "power": 3,
+            "sha256": "79d5cff11205f117be585c6d12d682b632868096503e7fb4b798ee52249c60a8"
+          }
+        ],
+        "fullProductReturned": true
+      },
+      "excludedUsingOnlyDeclaredPhysicalUnits": true,
+      "originalThreeTermBezoutReturned": true,
+      "paidGCDRemovedFactors": [
+        {
+          "degree": 8,
+          "polynomial": "x^8 + (-6)*x^7 + 57/4*x^6 + (-67/4)*x^5 + 39/4*x^4 + (-9/4)*x^3",
+          "sha256": "7ff28f108c36a39d7fe235e3fe65a7a329d4082c49a3b5bf66d22771be2e11d4"
+        }
+      ],
+      "remainingCover": {
+        "degree": 0,
+        "polynomial": "1",
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "seconds": 0.0024530889999994088,
+      "stage": "whole_A_original_head_branch",
+      "substitutedDegrees": [
+        8,
+        12,
+        11
+      ]
+    },
+    {
+      "affineDegrees": [
+        {
+          "constant": 8,
+          "linear": 6
+        },
+        {
+          "constant": 10,
+          "linear": 10
+        },
+        {
+          "constant": 9,
+          "linear": 9
+        }
+      ],
+      "fullCombinedOriginalBezoutReturned": true,
+      "monicQuadraticKept": true,
+      "noNormOrCoefficientLeadingTermInverted": true,
+      "originalUCover": {
+        "constant": "1/16",
+        "factors": [
+          {
+            "degree": 1,
+            "polynomial": "x",
+            "power": 3,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          {
+            "degree": 1,
+            "polynomial": "2*x + (-3)",
+            "power": 4,
+            "sha256": "14140c0aa838f190b7cced830ecdd570f14f5d14b0fa8fc2997b7e891a6aecf1"
+          },
+          {
+            "degree": 1,
+            "polynomial": "x + (-1)",
+            "power": 6,
+            "sha256": "79d5cff11205f117be585c6d12d682b632868096503e7fb4b798ee52249c60a8"
+          }
+        ],
+        "fullProductReturned": true
+      },
+      "seconds": 0.005425344999999027,
+      "sixFullOriginalIdentitiesReturned": true,
+      "sixNecessaryDegrees": [
+        16,
+        22,
+        19,
+        18,
+        17,
+        19
+      ],
+      "stage": "whole_B_univariate_cover_from_original_rows"
+    },
+    {
+      "actualOriginalBasisColumnsUsed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        15
+      ],
+      "actualOriginalIdealMatrixColumns": 78,
+      "actualOriginalIdealMatrixRows": 26,
+      "actualRank": 13,
+      "allPrimaryPowersKept": true,
+      "definingEquations": [
+        "full monic original u cover",
+        "whole monic B quadratic"
+      ],
+      "fullTargetColumnReturned": true,
+      "noPhysicalNormInverted": true,
+      "onlyRationalNumberPivotsInverted": true,
+      "originalFiniteAlgebraDimension": 26,
+      "remainingQuotientDimension": 13,
+      "seconds": 0.010519064999996885,
+      "stage": "whole_B_true_finite_original_paid_power_target",
+      "target": "(Q*(1-Q)*(u-1)*K*L*Mn)^(2*degree_u_cover)",
+      "targetPower": 26,
+      "wholeBHeadZeroExcluded": true
+    },
+    {
+      "ABranchExcluded": true,
+      "BBranchExcluded": true,
+      "assumptions": [
+        "Phi=0",
+        "Q*(1-Q)*Pf!=0",
+        "P02!=0",
+        "bc!=0"
+      ],
+      "noWithdrawnOldHeadResultUsed": true,
+      "ordinaryISPClaim": false,
+      "originalPhiExcluded": false,
+      "seconds": 0.010576900000000222,
+      "stage": "corrected_whole_head_zero_final_scope",
+      "totalExactDivisionsReturned": 7,
+      "totalUnivariateBezoutIdentitiesReturned": 11,
+      "wholeCorrectedHeadZeroExcluded": true
+    }
+  ],
+  "scope": "Corrected entire common quadratic head zero set excluded on the stated original chart. The Phi value system remains open."
+}

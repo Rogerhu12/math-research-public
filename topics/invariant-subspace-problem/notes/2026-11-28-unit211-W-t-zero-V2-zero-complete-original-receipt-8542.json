@@ -1,0 +1,117 @@
+{
+  "schema": "isp-small-exact-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "runtime": "functions.exec V8 exact BigInt rational arithmetic",
+  "gitActionsRun": null,
+  "processExitCode": null,
+  "peakRSSKiB": null,
+  "scope": "current physical W, t=0; complete V2=0 weight fiber excluded; complement V2!=0 remains",
+  "stages": [
+    {
+      "source": "2026-11-28-unit211-W-t-zero-V2-zero-full-original-quadratic-return-8542.js",
+      "sourceBytes": 10171,
+      "sourceSHA256": "51f361d924a306f2df1b1ea969688ad527b89ab4baa2650b1c3da9a4736d0658",
+      "innerSeconds": 0.565,
+      "hostWallSeconds": 0.566,
+      "rationalOperations": 1161286,
+      "polynomialOperations": 106700,
+      "exactDivisionReturnCount": 15488,
+      "originalFourMeansZero": true,
+      "originalN0P0P1Returned": true,
+      "completeOriginalThreeRowsReturned": true,
+      "retainedAlgebras": [
+        "QQ(u)[z]/(z^2-(2ell-1))",
+        "rho^2=1-Q"
+      ],
+      "computedScalarGcdDegree": 2,
+      "computedScalarGcdDefinition": "u^2",
+      "allOriginalRowSmallDefinitionSHA256": "1fefc1fa9fd20d845efe9395767a16b275d8a82227fc69da8bc4b8866a4e9c61",
+      "physicalDDefinitionSHA256": "9b2ec826b10aa5b52ecb6b878e4ee230b7bf5f705e47a28902da29102b6fe0ef",
+      "noRootSelected": true
+    },
+    {
+      "source": "2026-11-28-unit211-W-t-zero-V2-zero-original-two-column-QQ-Bezout-8542.js",
+      "sourceBytes": 4179,
+      "sourceSHA256": "4e437b6efef677251d9be190dc779a1b3bbeed4053802fda41462aec1c2008ed",
+      "stage": "new_original_two_column_cofactor_and_complete_QQ_Bezout",
+      "seconds": 0.001,
+      "entireQuadZRetained": true,
+      "originalTwoCofactorProductsReturned": true,
+      "allTwoOriginalCombinationColumnsReturned": true,
+      "displayedIntegerBezoutReturned": true,
+      "QQgcdDegree": 0,
+      "BezoutDenominator": 2208,
+      "originalTarget": "-2*(3*u-2)",
+      "claimWhole_t0_f_u_V2_zero_Excluded": true
+    }
+  ],
+  "exactParameterDefinitions": {
+    "Q": "2(u-1)(u-2)",
+    "ell": "u/((u-1)(u-2))",
+    "e": "u-1",
+    "k": "2u-4",
+    "geometry": "f=u,t=0,x=u+(1+z)/2,y=(1+z)/2",
+    "twoScalarPolynomials": [
+      "u^4-4u^3+23u^2-20u+4",
+      "u^6+2u^5-35u^4+160u^3-200u^2+96u-16"
+    ],
+    "integerBezoutTarget": 2208
+  },
+  "paperMeanIdentities": "proved by direct expansion in theorem; not claimed as extra specialized execution",
+  "noOldGateReplayed": true,
+  "noCoefficientOrMatrixCacheSaved": true,
+  "allUnpaidComplementRetained": "V2!=0 and g*(V2-uQ)^2-M*V2^2=0, with unique w and all original N/P still required",
+  "lastKnownActualRepositoryPull": {
+    "timeUTC": "2026-11-28 03:53:05.970221",
+    "commit": "bc65a667609ad2cb227f69b06a35467bf9be86f3",
+    "rootAndTopicReadmeUnchanged": true,
+    "owner": "root"
+  },
+  "originalRowNormalizationConfirmation": {
+    "scope": "existing first actual output only, no Gram execution",
+    "firstSourceBlob": "170b0c3bb3b878aea28b2b9b4da317fe2d406326",
+    "firstSourceSHA256": "51f361d924a306f2df1b1ea969688ad527b89ab4baa2650b1c3da9a4736d0658",
+    "firstRawOriginalRowsDefinitionSHA256": "1fefc1fa9fd20d845efe9395767a16b275d8a82227fc69da8bc4b8866a4e9c61",
+    "identities": [
+      "N1=(2u^3/(3u-2))*n(z)",
+      "NS=(2u^3/(3u-2)^2)*s(z)",
+      "PS=(2u/(3u-2)^2)*r(z)"
+    ],
+    "checks": [
+      {
+        "originalRow": "N1",
+        "zDegree": 0,
+        "crossProductIdenticallyZero": true
+      },
+      {
+        "originalRow": "N1",
+        "zDegree": 1,
+        "crossProductIdenticallyZero": true
+      },
+      {
+        "originalRow": "NS",
+        "zDegree": 0,
+        "crossProductIdenticallyZero": true
+      },
+      {
+        "originalRow": "NS",
+        "zDegree": 1,
+        "crossProductIdenticallyZero": true
+      },
+      {
+        "originalRow": "PS",
+        "zDegree": 0,
+        "crossProductIdenticallyZero": true
+      },
+      {
+        "originalRow": "PS",
+        "zDegree": 1,
+        "crossProductIdenticallyZero": true
+      }
+    ],
+    "allSixTrue": true,
+    "originalGramExecutedAgain": false,
+    "onlyExistingFirstReturnCoefficientsUsed": true
+  }
+}
