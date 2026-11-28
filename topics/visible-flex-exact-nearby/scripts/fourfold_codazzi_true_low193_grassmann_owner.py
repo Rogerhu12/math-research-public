@@ -183,7 +183,10 @@ def main():
         "all original18 admission checks retained")
     gates = admission_names+GATE_SUFFIX
     restore = import_pinned(root, specs["original81_restore"], "_GG_original81_restore")
-    original = restore.admit_complete_original(*(core.read_spec(root, specs[k]) for k in
+    # The original checkpoint contract hashes the complete raw JSON bytes.
+    # The preceding pure admission has already verified every current spec;
+    # core.read_spec returns decoded text, which is not that byte contract.
+    original = restore.admit_complete_original(*((root/specs[k]["path"]).read_bytes() for k in
         ("original_TF_failure_actual","original_TF_failure_execution","original_TF_manifest")))
     validator = import_pinned(root, specs["grassmann_validator"], "_GG_validator")
     bound_sources = manifest["scientific_modules"]+[specs[role] for role in EXPLICIT]

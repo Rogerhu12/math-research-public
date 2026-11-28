@@ -135,4 +135,4 @@ jobs:
           OPENBLAS_NUM_THREADS: '1'
           MKL_NUM_THREADS: '1'
           PYTHONUNBUFFERED: '1'
-        run: python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-grassmann-inputs.json --manifest-sha 5984fb071c110809e0ff2a863932752be0001c18e7cd259a1b11642d7e015a53
+        run: python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-grassmann-inputs.json --manifest-sha e5f106998e4456d951183c05ace1cd2930d67fb7b8ffe207749dba6136799c19
