@@ -1,0 +1,134 @@
+{
+  "schema": "isp-root-partial-execution-and-proof-reading-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "paperSourceBlob": "41a8aaf8c29a8cfeda6e0daf2e8bce355ae84b2f",
+  "sourceBlob": "43638940b02eb65da644a1b2eef4f68c078c4aec",
+  "readFullPaper": true,
+  "actualReceipt": {
+    "elapsed_seconds": 180.07232898700002,
+    "max_child_rss_kib": 267776,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3199b753e8057f3b0632b3df092eae1039a47de7",
+        "before": "9ac4dfef1e4128cfb89ac62bf3c0e382ac38d9d5",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:58:25.500188+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46142342880",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9ac4dfef1e4128cfb89ac62bf3c0e382ac38d9d5",
+    "source_exit_code": -14,
+    "source_git_blob": "43638940b02eb65da644a1b2eef4f68c078c4aec",
+    "source_sha256": "7a732655b5bf64144f91d6992910ceb67563e4125a12246c12dbb83e1f4f1831",
+    "stdout_bytes": 11026,
+    "stdout_sha256": "5c38f813dd86a47433f5e9133c187441192743896554fc3a9c9c3503d0f6faa0",
+    "stop_reason": null
+  },
+  "completed": [
+    {
+      "stage": "new_b0_C2_Loww_complete_original_condition",
+      "label": "pure_lambda_C2_cross",
+      "seconds": 0.9945699080000026,
+      "profile": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          19,
+          24,
+          2,
+          0,
+          0
+        ],
+        "totalDegree": 31,
+        "terms": 1198,
+        "bytes": 33271,
+        "sha256": "e91ebd4d4d732ca803cf7faa9267f162b8b05a2ee84361484fe0dd86a45a1e03"
+      }
+    },
+    {
+      "stage": "new_b0_C2_Loww_complete_original_condition",
+      "label": "complete_Loww_at_same_f",
+      "seconds": 1.7998998979999996,
+      "profile": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          34,
+          41,
+          4,
+          0,
+          0
+        ],
+        "totalDegree": 55,
+        "terms": 5888,
+        "bytes": 202047,
+        "sha256": "2af047cf94933ab01c0060740497b5769e116992dbc6be309fc50c4f79111d38"
+      }
+    },
+    {
+      "stage": "new_b0_C2_and_true_Loww_same_lambda_interface",
+      "seconds": 1.831538731000002
+    },
+    {
+      "stage": "new_b0_C2_Loww_complete_original_condition",
+      "label": "q2_with_complete_Loww_pure_weight",
+      "seconds": 54.218849510999995,
+      "profile": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          92,
+          110,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 142,
+        "terms": 8426,
+        "bytes": 537398,
+        "sha256": "3f7afa85c72dd36f0154c39f99dd6be5764adb0d758a2060d05e8528fade670f"
+      }
+    },
+    {
+      "stage": "new_b0_Loww_fixed_pure_weight_original_return",
+      "label": "q2_with_complete_Loww",
+      "seconds": 54.336530547,
+      "profile": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          92,
+          110,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 142,
+        "terms": 8426,
+        "bytes": 537398,
+        "sha256": "3f7afa85c72dd36f0154c39f99dd6be5764adb0d758a2060d05e8528fade670f"
+      }
+    }
+  ],
+  "paperIdentitiesChecked": [
+    "mu cross v=B1, hence ideal(mu)=ideal(B1), without a cross inverse.",
+    "P=(B0 cross P) cross v follows from v dot P=0 and v dot B0=1.",
+    "B1 cross P=v*Craw; local recovery uses an explicit B1 component unit only.",
+    "Primitive C2 uses returned multiplier scales; it is not silently identified with raw Craw.",
+    "Whole Loww same-f quartic and first q2/Loww F142 have all seven source returns before timeout."
+  ],
+  "frozenBoundary": {
+    "sourceExitCode": -14,
+    "secondProjectionCompleted": false,
+    "secondProjectionInternalStepsKnown": false,
+    "rerunAuthorized": false
+  },
+  "rootTextAddition": "Explicit proof and frozen-boundary status label.",
+  "newFiniteBound": false,
+  "wholeBzeroExcluded": false,
+  "ordinaryISPClaim": false
+}
