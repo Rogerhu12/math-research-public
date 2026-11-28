@@ -501,3 +501,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### 原完整 Popov 商的 cyclic/content 隔离候选
 
 [完整证明与固定请求](notes/2026-11-28-original-complete-cyclic-denominator-return.md)：实际原native Popov及完整系数流保同一行模；全部δ标准单项式/原末基向量的Krylov全矩阵给候选，真实C·P=H、U·M=H及全部原余数返回；失败回同一未除content的原完整算法。全部标量厚度和nilpotents恢复。固定21源/420秒、14全比较/17拒错已请求，尚无PASS；不改唯一v15，也不声称rank306/δ3670性能。
+
+
+### 完整 cyclic/content 软件实际 PASS
+
+[实际回执](notes/2026-11-28-original-complete-cyclic-denominator-return.md#8-实际公开软件回执)：sourceeb0925e9b2cdf34b473dac791c6a1839807e0772/run46118066970/job140896222765，结果7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb；21源全核，14全比较/17拒错含完整96维幂零商、原C/U/余数与全部标量厚度。主体5.736秒；仅固定软件，未执行原rank306几何，不改v15。

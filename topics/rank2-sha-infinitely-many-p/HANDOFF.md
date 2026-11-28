@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140895574813，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 06:42:37 UTC实际partial clone/pull至a0a130784edba0f29dd01e433bb618b030cea173；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 06:42:43 UTC至74cd5834b4dbe061520450ae04a2e179a857880d；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README/QUEUE与06:35同blob，本题认领仍进行中；QUEUE85a452de45b35303c3be02f1e2c39b1bf67b117f，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14887B/hash0103c80bce1604e04c2e3cb4f5831edba6297d5b9330eeba2e939a8aa2c448d3；库存3205/45590199B/treee5c47706b7cdc6e27758076fe426c24b22be67bc；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟07:42UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46073965457/job140896631806，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 06:47:01 UTC实际partial clone/pull至e99ff0e17bbd6aabe8bcddd2711efa661635b5e0；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 06:47:06 UTC至97d4020a076aefb4197fde28609ba22105b7afca；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与06:42同blob；QUEUE85a452de45b35303c3be02f1e2c39b1bf67b117f，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14887B/hash0a9a004e184b7024309585d1fcda57126d6275f84027f457969fd13b90390383；库存3208/45658099B/tree020c1867df81a296165b181d025c43a7d56e63ab；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟07:47UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日06:30:29实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
@@ -25,7 +25,8 @@ readonly run46073965457/job140895574813，source3bd753e5d0f0cd071d0ba615c9774695
 [同一分母软件与生产](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 immutable失败；v2真PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa；七完整图/十拒绝/原F/scalar均过，非原几何或rank306性能。helper22771B/0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4；U·MD=H/全余数、原Y/CH/XMD全保，仅A0/A1各finite/∞，F_y真实旧attached不动。
 **唯一heavy v15已实际建立：run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962，05:35:43UTC创建；06:39:19UTC仍原完整计算step4 in_progress，日志接口BlobNotFound，未登记bindings或数学PASS。**69源保65旧pins/两char0/29/2453/64/minimal/artinian及全原门；producer9b1d3486cb5f12f332329f92b4ff5c4eb4d899dadf9289a1d70d3b3fc56a0f64。final强核四图/八scalar真实使用；4CPU/16GB/21000秒不变。arithmetic继续只读监控。
 
-[行运算全返回](notes/2026-11-28-original-row-operation-right-return.md)软件实际PASS：run46115906757/job140889570559/source6a66c83280acabda86b56744159399ee3ef051c8，结果23db4da527ebb64bc7feb06f8c7d30750bd24de700e653ec8f2200725cde0603。18源hash全核，九完整比较/十三拒绝及原真实Bezout/native均过，4.550秒；非原几何或rank306性能。[完整商候选](notes/2026-11-28-original-complete-cyclic-denominator-return.md)已请求固定21源/420秒软件：14全比较/17拒错、96维幂零商，保实际content全部厚度、完整C/U及同输入回退。未返不记PASS，不改v15；3δ²预算明确不含FFPACK工作区/全多项式。
+[原行运算返回](notes/2026-11-28-original-row-operation-right-return.md)run46115906757/job140889570559真PASS，九全比较/十三拒绝及实际Bezout/native均过。
+[完整商/content](notes/2026-11-28-original-complete-cyclic-denominator-return.md)现真PASS：sourceeb0925e9b2cdf34b473dac791c6a1839807e0772/run46118066970/job140896222765，结果7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb。21源全核、14全比较/17拒错，96维完整幂零商、实际C/U/原余数/content恢复和同M回退均过，5.736秒。仅软件，无306/3670性能或原几何PASS；v15不改。后继同MD入口须诚实分列原full reducer调用与实际tail phases，prime下降针对M0，不谎称原M全素。
 
 ## 已付实际来源及主要缺口
 

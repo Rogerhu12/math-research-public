@@ -466,3 +466,10 @@ actual双pull run46073965457/job140893900600：公开06:35:29UTC至e52a1f9d5f54d
 新增隔离helper/checker，使用原native完整Popov及真实实系数流、全部δ维native Krylov增广返回，再原完整多项式C和逆序U核CP=H、UM=H、全原余数。实际content逐entry除/回乘并恢复h^n和完整长度；非cyclic/非prime/明确native预算均回同一原M全算法。root全文审并修显式存储3δ²、末基为generator或target的准确回执；14全比较/17拒错含96维幂零商和当前真实wrapper。固定21源/420秒请求复用既有workflow，未本地运行；源码hash与完整范围见[记录](notes/2026-11-28-original-complete-cyclic-denominator-return.md)。尚无PASS，v15仍唯一heavy。
 
 推前actual双pull run46073965457/job140895574813：公开2026-11-28 06:42:37 UTC至a0a130784edba0f29dd01e433bb618b030cea173，私库2026-11-28 06:42:43 UTC至74cd5834b4dbe061520450ae04a2e179a857880d。四README/QUEUE/三旧gzip同blob，本题认领不变；日志14887B/hash0103c80bce1604e04c2e3cb4f5831edba6297d5b9330eeba2e939a8aa2c448d3，库存3205/45590199B/treee5c47706b7cdc6e27758076fe426c24b22be67bc，无>5MB。v15于06:39:19仍step4 in_progress/日志BlobNotFound，未见bindings或原数学终门。R1067§14.1范围收紧已推9ab3509960909d18f9eb4151e3648098a8a4b07f；继续真正高差分与含质量主支，不重复计旧forcing。
+
+
+## 2026-11-28 06:49 UTC — 完整 cyclic/content 隔离软件实际 PASS
+
+sourceeb0925e9b2cdf34b473dac791c6a1839807e0772/run46118066970/job140896222765于06:46:10.8243003UTC实际PASS、job success。root/arithmetic独立读取完整日志，root逐字核21源与selector/request；14全矩阵比较、17拒错均过，原96维幂零商实rank96、完整C/U/余数/content厚度及同M回退均返。主体5.736460063999985秒；payload188765B/hash7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb，日志344788B/hashf7986069f5116c13f8f72b158e708cabf5eb16d56bda12359ba2afa668e7b3ae。仅软件，无原几何或306/3670性能，不改v15；后继诚实分列旧full reducer是否调用与实际tail phases。
+
+actual双pull run46073965457/job140896631806：公开2026-11-28 06:47:01 UTC至e99ff0e17bbd6aabe8bcddd2711efa661635b5e0，私库2026-11-28 06:47:06 UTC至97d4020a076aefb4197fde28609ba22105b7afca；四README/QUEUE/三旧gzip同blob，本题认领不变。日志14887B/hash0a9a004e184b7024309585d1fcda57126d6275f84027f457969fd13b90390383，库存3208/45658099B/tree020c1867df81a296165b181d025c43a7d56e63ab。R1067完整Bell高差分及含质量行已手核完成，接着推该证明；主目标继续。

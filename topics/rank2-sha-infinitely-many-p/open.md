@@ -131,7 +131,7 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 
 [原行运算全返回](notes/2026-11-28-original-row-operation-right-return.md)固定18源/420秒软件已实际PASS：run46115906757/job140889570559，结果23db4da527ebb64bc7feb06f8c7d30750bd24de700e653ec8f2200725cde0603；九完整CP/UM/余数比较、十三拒绝与实际Bezout/native全过，未执行原几何或rank306性能。完整Popov商/native循环性条件与D/MD的真实共同content候选保全部nilpotents，实际循环性/content与性能均未宣称，当前v15不改。
 
-[完整Popov商候选](notes/2026-11-28-original-complete-cyclic-denominator-return.md)的固定21源/420秒软件已请求：所有δ标准单项式与Krylov列保幂零厚度，原last vector不cyclic则同M全算法回退；C/U/全原余数、content h^n及全部length恢复。14全比较/17拒错含96维幂零商；未返不记PASS，原v15继续，生产未接新入口。
+[完整Popov商候选](notes/2026-11-28-original-complete-cyclic-denominator-return.md)的固定21源/420秒软件已请求：所有δ标准单项式与Krylov列保幂零厚度，原last vector不cyclic则同M全算法回退；C/U/全原余数、content h^n及全部length恢复。14全比较/17拒错含96维幂零商已实际PASS：run46118066970/job140896222765，结果7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb，21源码hash全核，5.736秒。原v15继续，生产未接新入口；接续须诚实分列原full reducer与实际tail phases，M0下降不冒原M全素。
 
 软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 

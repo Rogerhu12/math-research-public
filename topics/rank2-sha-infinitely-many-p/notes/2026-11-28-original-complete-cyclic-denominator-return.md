@@ -1,4 +1,6 @@
-# 原完整 Popov 商的 native cyclic 返回及标量厚度恢复：隔离软件候选
+# 原完整 Popov 商的 native cyclic 返回及标量厚度恢复
+
+**当前状态：固定隔离软件已实际 PASS，详见§8；§§1–7保留提交前的准确候选与检查范围。原几何及rank306/δ3670性能没有执行。**
 
 本稿说明未绑定生产的 original_cyclic_denominator_return.py。它只接受原完整方阵 M，保留原系数环、原基和全部生成行。没有原 rank 306 几何计算、性能结果或 PASS 声明；当前 v15 不改。
 
@@ -160,3 +162,17 @@ native solve 仍有完整 δ³ 量级工作；Krylov 乘法还保完整 δ²q。
 | ci/original-complete-quadratic-api-request.json | 3013 | 5403859a01e98332776bb58c64c7a99b82fd46c26ca05becbbfdcca490d16dde |
 
 目前v15仍唯一原heavy：run46112816717/job140879915022；06:39:19UTC状态为step4 in_progress、日志BlobNotFound，无原完整数学返回。软件检查完成后消费实际完整日志、全source hashes和全矩阵回执；未完成则根据真实首处故障修复。主目标仍是固定rank≥2曲线于无穷p的通常全Sha有限，软件不替代该目标。
+
+
+## 8. 实际公开软件回执
+
+固定 source `eb0925e9b2cdf34b473dac791c6a1839807e0772`、run46118066970、job140896222765于2026-11-28 06:46:10.8243003 UTC输出PASS，job随后success。root/arithmetic各自读取完整日志；root逐字核全21源hash与上述固定请求及原pins，selector也确核request SHA256。主体5.736460063999985秒。
+
+- 完整结果payload188765B，SHA256 `7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb`。
+- 完整日志344788B，SHA256 `f7986069f5116c13f8f72b158e708cabf5eb16d56bda12359ba2afa668e7b3ae`。
+- 14组完整H/U与原算法/官方算法相等、CP/UM、全部原余数、完整长度及输入状态均通过；17组错误全拒绝。
+- 96维完整幂零商实际Krylov rank96，Matrix_modn_dense_float / linbox_noefd执行，全K·solution返回通过；该次新返回0.117165363秒，native RREF0.003257137秒，reverse-right0.020076554秒。这里只是该固定软件输入，不能外推原306/3670。
+- 两个非cyclic输入实际Krylov秩分别为2/4、0/4，均回同一个未除content的完整原M；非素和明确预算回退亦全通过。二次content例的完整长度23保原15层标量厚度与商长8，单位商例也保完整16层。
+- 实际现行complete_returns包装器安装后的cyclic与非素回退都通过。未新增production bind，原四图/八scalar/F_y和唯一v15不改。
+
+按规则15这里只保脚本、固定参数、run与hash，不保存可重算输出。后继若将本入口接入同MD包装，必须把原完整reducer是否被调用、实际tail-reset phases和M0素域下降范围分别如实记录；不能沿用“旧tail一定未运行”的常量回执。数学主门仍未完成。
