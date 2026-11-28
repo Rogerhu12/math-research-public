@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-seven-row-original-D-module-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-u0-true-QQ-order-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及规范维数≤1已成。原22真789后，[只除旧paid的真729模型](results/R150-appendix-unit211-Phi-zero-original-paid-contents-and-complete-integral-weight-model-729.md)：d457真8.488759866秒/0，全484返，U_u60/Q32/总64，模LC702；完整37primary中eligible282、坏单位291/头零156都保，不能直接删QQ。续真实paid整因子赋值/全原模型。[整H42权点≤23268](results/R150-appendix-unit211-Phi-zero-whole-H42-original-fixed-twelve-intersection-and-23268-weight-bound.md)保；三头同零≤798权的λ纤维、物理D0/余最高支仍开。
+[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及规范维数≤1已成。[真729模型](results/R150-appendix-unit211-Phi-zero-original-paid-contents-and-complete-integral-weight-model-729.md)保完整37primary的282/291/156重数，不能直接删模坏QQ分量。新ccdd u0横截面首派120秒/1GiB，以QQ(Q)原常数核/完整5阶jet付真实整除，模4只给上界；续其它paid整因子。整H42权≤23268、三头同零≤798的λ纤维、物理D0/余最高支留；P6/C6全系数base locus另作新输入。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
