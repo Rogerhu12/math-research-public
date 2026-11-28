@@ -95,3 +95,7 @@ R637/R642/R644/R652的双核、全频gap和真小q族尚无宏观q0；R652已付
 ### R672：实际1566场的全材料度量与离解曲率覆盖
 
 [完整证明/接口](results/R672-actual-1566-material-metric-and-curvature-coverage.md)保实际同86da的完整1566系数、512冻结均值、pre-tanh与全部post/core/forced列。28紧支与61旧五次样条按真结点并集给有理Bernstein值/三jet及字面实现差；连续全环Taylor积分支付真正均值和primitive。带符号度量门|d|+f²/ε≤ε与材料导数振荡控制网格间隙，三径向jet则给R649真实两主曲率；七原源逐字段误差缺一仍开放。旧点2.2179e−7只留约7.7821e−7总余量，没有付全七源或外正则collar，不发独立重建科学。
+
+### R676：固定开握持的有限弯盘与同度量活动整圈领
+
+[完整证明](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)给实际单位速Cartesian弯盘，固定开握持直径≥1.2、全时reach>.23、D≤2、整像差>1.04。活动两弧的真实Gauss–Codazzi在m=pn+tf变量中成统一可解的带f/t耗散系统；刚体过渡片只在双方同Qλ的开区插值，避开n=0两点并给同一个非平整圈领度量，短领仍dH>.5D/reach>.20。真实外桥须同材料终圈Bτ=0、m=0且单侧嵌入，方可反射二jet闭合；必付净总K=2π及闭面全法管/支撑，仍未给闭候选。
