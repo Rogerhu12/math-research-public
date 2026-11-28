@@ -191,3 +191,7 @@ source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reach
 ## 2026-11-28 12:43:16 UTC — 38 十六完整阶段自然返回与同Haar目标实际恶化
 
 46145189191/1、job140979589435、PID2553自然RC0，16阶段418.3603s全返。固定原cache Gram4.6303873878771675→9.607780255855785，密cache4.734943041299708→9.64107391752367；两表差2.4072370923562953，未收敛。完整外层79140B/d2cb112cb9cbebb42296e21c01c93765e8af130354ed7a372038edac648dee9f、summary39564B/fbf438fbd31c3ef1f1a08ea8f229e5dc69b8639b3767911adf924de71ce5748a均保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run38-free-radial-Killing-complete-launch.md)。双README云核至`cdeef31a3ee747b3b36cdeadc23cb65f3466cf8b`无变（非pull）。
+
+## 2026-11-28 12:43:43 UTC — R742 右柄八设计三格自然完成及转移的中区峰
+
+46145500268/1、job140980544503成功，8×3全原科学域已返。右.42的右区K155.2296/133.9818，全峰转中区1341.7930/1163.1151，E⊥角差巨大；未付连续同g/全reach。44726B原report/d89e31cd3048137a0e2ec8350102d40e383b22f6a59f0fac4197289e89b30342及raw445660800B/223e7bfec81e1b3cb3e9cb770cedf10dfe56917e78f2c9455b926ad8c977a4c9完整保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R742-right-handles-complete-launch.md)。双README云核至`7bae4527640989fbc812dba482d0ad2bc1771124`无变（非pull）。
