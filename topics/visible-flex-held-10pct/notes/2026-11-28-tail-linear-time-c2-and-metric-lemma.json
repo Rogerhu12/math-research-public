@@ -1,0 +1,148 @@
+{
+  "schema": "linear-time-C2-and-relative-metric-conditional-proof-v1",
+  "utc": "2026-11-28T19:21:52.419271+00:00",
+  "proof": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-linear-time-c2-and-metric-lemma.md",
+    "sha256": "77c44d2a8faf6f433598f2560d4f4b014ff1be64d5cf44c71082e7ebb9730489",
+    "bytes": 17478
+  },
+  "source_inventory": {
+    "finite_closure/m3_m8_closed_map/closed_m3_map.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/closed_m3_map.py",
+      "sha256": "1444b817abe0d77410f8c9e9b35b0ea14aa5f182767fd2de3d57527a46e51ba1",
+      "bytes": 10113
+    },
+    "finite_closure/m3_m8_closed_map/phase_angle_chart.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py",
+      "sha256": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+      "bytes": 3504
+    },
+    "finite_closure/m3_m8_closed_map/m3_shared_prefix.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py",
+      "sha256": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+      "bytes": 18597
+    },
+    "resume_20261128/tail/actual_cartesian_prefix.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py",
+      "sha256": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+      "bytes": 17958
+    },
+    "resume_20261128/tail/actual_closed_map_v2.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py",
+      "sha256": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5",
+      "bytes": 19723
+    },
+    "resume_20261128/geometry/cartesian_prefix_metric_tables.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py",
+      "sha256": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba",
+      "bytes": 11427
+    },
+    "resume_20261128/geometry/cartesian_prefix_cut_metric.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric.py",
+      "sha256": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+      "bytes": 26696
+    },
+    "resume_20261128/geometry/cartesian_prefix_interval_geometry.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py",
+      "sha256": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+      "bytes": 17949
+    },
+    "resume_20261128/analytic/material_circle_phase_contract.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_circle_phase_contract.py",
+      "sha256": "dd09438764416d7e6e1f0093dda4b6146d412ca82d3df846703add4315bde2c9",
+      "bytes": 2909
+    },
+    "resume_20261128/analytic/qr_fixed_actual_closed_map.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_closed_map.py",
+      "sha256": "ea1bd53b8a5ff8c23f68d1c08e49f47f688345050556ccd04277d31afd2afbc5",
+      "bytes": 6033
+    },
+    "resume_m3/r53_validated_material_core.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/r53_validated_material_core.py",
+      "sha256": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+      "bytes": 21350
+    },
+    "resume_20261126/warm_phase_validated_core.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_phase_validated_core.py",
+      "sha256": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+      "bytes": 18568
+    }
+  },
+  "algebra_checker": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/verify_linear_time_c2_algebra.py",
+    "sha256": "67bf22d23f4862f80c2c098b32a478a5fb7cf98db643e68d8df8a71d2a64900c",
+    "bytes": 6225
+  },
+  "actual_algebra_receipt": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/linear-time-c2-lemma-20261128/algebra.json",
+    "sha256": "0cd5a13340e351dcc7e9abda106c642a20a740924413da2e630ea672ca56c6ec",
+    "bytes": 1850
+  },
+  "actual_algebra_result": {
+    "schema": "exact-linear-time-C2-algebra-only-v1",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/verify_linear_time_c2_algebra.py",
+      "sha256": "67bf22d23f4862f80c2c098b32a478a5fb7cf98db643e68d8df8a71d2a64900c"
+    },
+    "actual_argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/verify_linear_time_c2_algebra.py",
+      "--out",
+      "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/linear-time-c2-lemma-20261128/algebra.json"
+    ],
+    "sympy_version": "1.14.0",
+    "checks": {
+      "Peano_kernel_integral": true,
+      "Peano_maximum_one_eighth": true,
+      "full_Gram_convex_combination_identity": true,
+      "full_Gram_perturbation_identity": true,
+      "support_curvature_material_first": true,
+      "support_curvature_material_second": true,
+      "support_curvature_material_third": true,
+      "nonic_window_first": true,
+      "nonic_window_second": true,
+      "nonic_window_third": true,
+      "nonic_window_reflection": true,
+      "nonic_window_half_integral": true,
+      "window_third_derivative_coarse_constant": true,
+      "window_endpoint_two_sided_four_jets": true,
+      "complete_blended_curvature_first": true,
+      "complete_blended_curvature_second": true,
+      "complete_blended_curvature_third": true,
+      "complete_curve_fourth_derivative": true,
+      "complete_curve_fifth_derivative": true,
+      "Cartesian_disk_generator_is_affine": true
+    },
+    "passed": true,
+    "uses_exact_integer_rational_symbolic_arithmetic": true,
+    "actual_field_loaded": false,
+    "new_numerical_or_native_solve": false,
+    "actual_time_constants_paid": false,
+    "global_metric_certified": false,
+    "global_embedding_or_reach_certified": false,
+    "complete_surface": false
+  },
+  "mathematical_scope": [
+    "fixed material charts and same g",
+    "exact affine alpha(t)=Omega*t",
+    "Banach C2 time interpolation error <=h^2*M2/8",
+    "endpoint Gram identity and error <=eta+h^2*Vg1^2/4",
+    "complete core Gamma5 bound from original full support and nonic window",
+    "all saved tail modes and global mean retained"
+  ],
+  "unpaid_actual_scope": [
+    "new final lambda-one fixed-field numerical M2 and Vg1",
+    "spatial same-g refinement/C2 limit",
+    "all-time embedding and quantitative reach for interpolated fields",
+    "full completion gates"
+  ],
+  "current_angular_tables_highest_order": 3,
+  "core_derivative_supplied_by_current_tables": 4,
+  "core_derivative_required_in_general_for_complete_C2_time_second": 5,
+  "existing_tail_low_order_reader_called_above_order_two": false,
+  "actual_field_loaded": false,
+  "new_numerical_or_native_solve": false,
+  "old_numerical_bounds_reused": false,
+  "cap_metric_or_source_changed": false,
+  "complete_surface": false
+}

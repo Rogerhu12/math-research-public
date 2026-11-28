@@ -44,6 +44,8 @@
 
 [R97](results/R97-complete-prefix-c2-in-common-physical-material-angle.md)已付同一物理材料角的全prefix/cut有限对传递，包含真核心、全模/mean和逆chart混合两jet；实际同g pair及其完整真实tables/cut数据仍须计算，有限差不能冒Cauchy或精确存在。
 
+[R98](results/R98-linear-time-refinement-complete-c2-and-relative-metric.md)已付同一完整真实场的线性时间插值 C² 误差、相对 Gram 误差和显式 Γ5/角四阶责任；现有角表只至三阶，不能直接当作 M₂。待实际 own-fixed 场支付 M₂/Mg₂/Vg1，并保同帽/柱/时间域；分段线性时间不自动保嵌入或 reach。
+
 至少给固定问题的频率、径向和时间精化，完整度量误差持续下降到机器或求解容差，不能用设计λ/δ变化冒充。R63/R69及actual-tail-C²比较器只给结构/有限差，不自动给C² Cauchy或精确解存在。对严格存在还有完整可求和/逆界责任；数值完成须按README说明此差距。
 
 ## 4. 完整闭面与全时比例

@@ -17,3 +17,9 @@
 ## 2026-11-28 — 同M两源合同与完整六jet分块的真实恢复
 
 [两次工程终态及当前真启动](notes/2026-11-28-design-r87-two-source-lift-engineering-handoffs.md)精确保留14227同M合同exit1、73980左完整lift接受后右worker−9/空stderr且owner真join，皆未启.256；不归因或数学排除。独立helper v2补同M原合同，v3仅把原参考几何16节点批改2、保全原样本/3104角/六jet/1e−7门，经源/hash核复用已完成左包。右lift真0/9.273s/544460KiB/最大差3.44214e−15，完整β2割线1185×97初猜eebe2267…；80642自19:15:28.413 UTC真进.256/M32原BVP，原metric observer恰一次装在实际模块，只读原audit数组、不重算旧audit/J。五新源及全部真实小回执入库，未知−9不改成OOM。另19:19:02 UTC私库实际pull到5d146903e36f71c8137ab5137195d1f3d90055d7，双README空diff、QUEUE仍本会话进行中；H已登记。
+## 2026-11-28 — R98 同一完整场的时间加密证明及结果索引补齐
+
+[R98](results/R98-linear-time-refinement-complete-c2-and-relative-metric.md)完整证明 Banach C² 的非负 Green 核误差 h²M₂/8，以及归一化端点 Gram 的准确负半定修正，给相对度量 η+h²Vg1²/4。明确逐条目误差到 operator 范数须作2倍或行和转换。原 held 旋转/相位平移直接展开，Cartesian 固定帽的水平生成元二阶空间导数为零；全前缀中心修复则需真实 Γ5，原三阶角表不能越级。全谱尾角三/四阶须直接用全部频率，未调用越界API。原20项精确符号恒等式已真实全过；本次不重复执行、不代入未知新 λ1 场。原note/JSON保留其原SHA，正式证明单独登记，并补齐此前已证明 R95–R97 的新增结论索引。没有全时嵌入、reach、真实固定g收敛或完成声明。
+
+当前77523已真child−9/owner247/剩余0；完整CSR与原QR constructor已返而factor转存未完。H同步真实终态及完整97ec恢复点，资源与首次未接受场诊断继续。
+

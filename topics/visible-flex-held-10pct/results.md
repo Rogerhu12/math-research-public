@@ -2,6 +2,11 @@
 
 ## 新增结论
 
+- [R95：真实核心归一化的正权逆角平均](results/R95-actual-core-normalization-from-positive-inverse-average.md)。已证明真实 beta 的完整一维严格包围与有限 Gauss 差；历史实际系数实例已付，新 λ1 全图仍须另算。
+- [R96：完整三重帽 Hessian 的二变量 PSD 证书](results/R96-complete-marker-hessian-two-variable-psd.md)。已证明完整有理帽的 Hessian 范数不超过23/10，准确 Bernstein 证书已实核；新帽参数及全图责任不自动支付。
+- [R97：同物理材料角的完整前缀与切口 C² 比较](results/R97-complete-prefix-c2-in-common-physical-material-angle.md)。已证明保全真核心、全模、mean、中心、切口和逆角图两jet的有限对传递；没有真实新 pair 或 Cauchy 声明。
+- [R98：线性时间加密的完整 C² 与相对度量界](results/R98-linear-time-refinement-complete-c2-and-relative-metric.md)。已证明同一完整场的 h²M₂/8 插值界、端点 Gram 恒等式及显式时间导数预算；实际新场常数、嵌入与 reach 仍须支付。
+
 - [R1：温和椭圆核心的 10% 条件几何窗口](results/R1-mild-ellipse-ten-percent-geometry-window.md)。已证明的条件预算：若完整连接器满足所列尺寸、支撑、曲率与等距条件，则 held/D≥0.10336、Hdiam/D≥0.20672、reach/D≥0.03307；连接器和非全等性尚未实现，非完成结果。
 - [R2：Gauss–Codazzi 的平面圆领边界条件](results/R2-gauss-codazzi-flat-collar-boundary.md)。已证明：实际周期浸入满足 a′=-1、L=M=N=0 的末端自动为可C²接平盘的圆；明确混合型系统与正则/退化端的区别。尚未解出两端连接器。
 
