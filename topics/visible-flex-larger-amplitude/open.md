@@ -117,15 +117,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 新完整参考与同g费用
 
-R724–743全部明确范围与实际失败保[结果索引](results.md)及固定全文。R738同g浸入半宽≥.5384265521561006而.16双向法球只证.005；R740/R742的完整闭弯盘付宏观held/grip，但中央Gram和全reach仍未付。R741给自由径向Killing/全时误差、反射W>0圆作用和一次精确Haar目标；38实际近似仍需全域误差。R743中心体矩和标记条件付δE正性，微小标记机制的商距上界不得冒宏观去刚体变形。
-
-[R744](results/R744-closed-extruded-bent-disk-global-reach-and-curvature-gap.md)完整厚闭参考全相位reach≥.108、D<3.40/held≥.719/grip>.689/δE>0，六jet全刊；所有所列法图仍有贯穿平周期带Killing障碍，过渡环同g未付。
-[R745](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md)新等长倾镜闭参考，带标t=0真实子午Jacobi全周期返回；全相位D<3.45/held≥.717/grip≥.75/reach≥.108，0<δE≤.002。三标记已离y=0，完整source现刊；二维同g/圆端Killing与真精化仍未付。
-
+R724–745完整源参/条件/失败未知保[结果索引](results.md)和[固定旧open](https://github.com/Rogerhu12/math-research-public/blob/9724f4e7681f004d749048ccef3ab947c05f8e92/topics/visible-flex-larger-amplitude/open.md)。R738同g浸入半宽.5384265521561006而.16双向球只证.005；R744/745全闭厚像已付但二维同g未付；R741自由Killing/Haar和R743商距条件均保原范围，不能冒宏观商距或真全时解。
 
 [R746](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md)绕y圆握持与全周期平移：D0<3.40、全t reach≥.107/held≥1.521/grip≥1.40，无标记真体积差得0<δE≤.0012。完整柱同g，两端/盖真实可变但命名cap Gram>1e−3；40继续真全t，完整source现刊。
 
 [R747](results/R747-offset-ring-arclength-transport-and-the-physical-end-cost.md)新Ω_d材料规范与原R746共初g/全闭图，真端ss行准确、另两行由转角差显式给出；整圆握端含帽领全同g。全锁柱在曲→直入口无C⁴等距续接，C²的v^(5/2)三行leading可解；非圆端全非线性仍需真正物理自由。完整源现刊。
+
+[R748](results/R748-developable-physical-caps-and-a-global-axial-tube.md)两完整真帽developable，legacy全t准确同初g；一共同物理场全闭reach>.105/D0<3.40/held>1.521/grip≥1.40，C²非C³帽法向germ给0<δE<.000475。中央活动带与双圆端同g仍待；额外C³场可动帽，仅正帽中心一阶jet保germ。
 
 ### 完整准确下游与完成责任
 

@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`82c217115f3d263a02cd57d566d3d1d9f6b866c0`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`e5b76fa29efb8db8cf535eda34c8a518a1564de4`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -25,11 +25,12 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 [R747](results/R747-offset-ring-arclength-transport-and-the-physical-end-cost.md)新Ω_d材料规范与原R746共初g/全闭图，真端ss行准确、另两行由转角差显式给出；整圆握端含帽领全同g。全锁柱在曲→直入口无C⁴等距续接，C²的v^(5/2)三行leading可解；非圆端全非线性仍需真正物理自由。完整源现刊。
 
+[R748](results/R748-developable-physical-caps-and-a-global-axial-tube.md)两完整真帽developable，legacy全t准确同初g；一共同物理场全闭reach>.105/D0<3.40/held>1.521/grip≥1.40，C²非C³帽法向germ给0<δE<.000475。中央活动带与双圆端同g仍待；额外C³场可动帽，仅正帽中心一阶jet保germ。
+
 ## 数学范围与完整输入
 
-[本批前完整H](https://github.com/Rogerhu12/math-research-public/blob/b3400522289fc6fe8270e0acc214c2d5870795ee/topics/visible-flex-larger-amplitude/HANDOFF.md)、[完整索引](results.md)及各proof/note逐字保全部R724–745结论/来源/失败未知，不重做登记内容。R738真同g浸入半宽≥.5384265521561006，.16双向法球只证.005；R740/R742宏观闭弯盘仍欠中央Gram/reach。R741自由Killing、反射圆作用/Haar与全时误差均为条件定理；R743标记/体矩判据及δE上界不冒宏观商距。
-R744完整全相位厚参考reach≥.108/D<3.40/held≥.719/grip>.689/δE>0，所列法图仍有贯穿平带Killing障碍。R745唯一等长倾镜根与带标t=0完整Jacobi返回，全相位reach≥.108/D<3.45/held≥.717/grip≥.75/0<δE≤.002；标记离y=0，二维同g/圆端Killing未付。两完整发生器已main，39真实动全端盖。
-R726–730全部旧准确包保护，R732完整准确13件与下游14件已main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit及7步骤原预算不变；待35自然science/whole pure后的同点完整费用。RET100H精确恢复17旧闭分支，净释1472530B，不退活输入。
+全部R724–747来源/条件/数值/失败未知保[固定完整H](https://github.com/Rogerhu12/math-research-public/blob/9724f4e7681f004d749048ccef3ab947c05f8e92/topics/visible-flex-larger-amplitude/HANDOFF.md)、[结果索引](results.md)及完整proof/note，不重做。R738同g浸入半宽.5384265521561006而.16双向球只证.005；R744/745已付全厚闭像但未付二维同g，R741自由Killing/Haar仍需条件，R743微小商距不冒宏观。
+R726–730准确包保护；R732全13+14件main，139源/922cells/32stage/六jet/N38/52G8/22、900秒/1Mleaf/192bit及7步原预算不减，待35自然science/whole pure同点费用。RET100H已净释1472530B，不退活输入。
 
 <!-- visible-larger-parallel-33:start -->
 Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。

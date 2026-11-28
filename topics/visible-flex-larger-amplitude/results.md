@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R748（已证明，完整真端帽精确等距弯曲与全像厚度）**：[全帽developable场与完整法管](results/R748-developable-physical-caps-and-a-global-axial-tube.md) — 一共同空间Tφ作用于完整R746/R747闭像，legacy两完整端帽对同初g每t精确等距，含所有接缝/中心；R747规范只保帽物理等距，材料运输费用另列。全t reach>.105、D0<3.40、held>1.521、单握≥1.40；C²非C³真实帽法向germ与初C³像不全等，0<δE<.000475。后来C³修正只要该点一阶jet保留即可维持正商距，毋须冻结整个帽。中央活动带和双圆端完整同g仍未付，40继续实际全时求解。
+
 - **R747（已证明，共同初g的全闭offset弧长运输与端层费用）**：[真实环弧长材料规范](results/R747-offset-ring-arclength-transport-and-the-physical-end-cost.md) — Ω_d(s)=s−dΘ(s)严格可逆，在两完整端环准确付ss行，sv/vv误差由唯一转角差Θ(S)−Θ(s)−θ完全表出；真圆握持面连帽内领全同g。全cap无极中心atlas与旧R746共t=0物理场/固定g，二者每t完整像相同；reach≥.107等几何保。平行平面切片不能续接曲→直入口，全锁柱C⁴续接有Gauss阶次矛盾；C² v^(5/2)给三行leading真补偿但不冒完整非线性或固定宽度。两端/帽及中央实际物理自由继续求解。
 
 - **R746（已证明，圆柱握持、全周期平移与真实活动端盖）**：[圆握持及物理自由闭端](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md) — 真实相位0…π/2、D0<3.40、全相位diam<3.403/reach≥.107、整像held≥1.521、固定握持diam≥1.40；整个周期中央柱严格同g，材料生成元为全局常平移，避开平带旋转monodromy。两端和两帽均真实变形，无标记也由严格实体体积差得0<δE≤.0012。原命名cap在一真点已有Gram误差>1e−3，完整端g三行未付；三物理自由接口可动全端与接缝，40继续真全t求解。
