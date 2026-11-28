@@ -2098,3 +2098,264 @@ associatedness 和中央 Hodge 常数”这一门。
 本节全部为纸面证明，无数学程序执行。
 
 root 亲读 Vologodsky 作者全文 §3.9、Theorems 15/42–44/50、Corollary 51 及已刊记录，并亲读 Colmez–Fontaine Proposition 3.4 / Theorem A。逐项核 Lang 规约、严格扩张、N²/有序半平方、Bst 中的两个实际对偶箭头与原 whole path 刚化；原 finite moment/四十三格与 PD carries 仍保持所列边界。无数学程序执行。
+
+
+## 16. 原强可除格在真实扭点上的有限 PD 法向窗口
+
+本节消费原严格 Lubin–Tate 坐标，不重新登记其构造。
+新增的是：在原 Fontaine–Laffaille 范围内，完整的 PD
+Frobenius 读取有一个精确的有限法向窗口；写在适配滤过的
+原整基中时，可以逐项指出哪些系数留下、哪些系数必然消失。
+这一结论适用于已经识别的原强可除格。
+它没有先假定 §15 的每一个 rational raw dilogarithm
+表达已经是该格的一组整坐标。
+
+### 16.1. 已有的原严格坐标与实际 PD 环
+
+记 $q=p^2$、$e=q-1$。
+[R712 §2](R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)
+及 [R978](R978-original-Robert-coordinate-and-pure-Hurwitz-mirror.md)
+已在原 CM formal group 上给出 tangent-one 整坐标 $z$，使
+$$
+[-p](z)=-pz+z^q,\qquad [a](z)=az\quad(a\in\mu_e).
+$$
+非零原 $p$-torsion 点的坐标 $\varpi$ 因而满足
+$\varpi^e=p$，是等式而非 leading 同余。
+严格坐标改变的高次项仍按 R985–986 保留，不能把这个 $z$
+与原任一短 elliptic-log jet 在全部次数上认作相同。
+
+同一坐标构造适用于本篇的 Gaussian 或 cubic good
+supersingular reference：原约化满足
+$[-p]=\operatorname{Frob}_{p^2}$，故原整参数中的
+$[-p](T)\equiv T^q\bmod p$、导数为 $-p$。
+R712 的逐系数构造只用这两条性质。
+每步唯一未知的系数乘 $(-p)^n-(-p)$；
+其 valuation 为一，而误差在 residue field
+$\mathbf F_q$ 上由 $h(T^q)=h(T)^q$ 被 $p$ 整除。
+因此得到同一个严格整同构，原 group law 和 CM action
+由唯一性一起运输。这里只延用该已登记的论证与原 tangent，
+不增加一个独立 period 或新的 Cartan 标记。
+
+令 $F/\mathbb Q_p$ 未分歧并包含所需原常数及
+$\mu_e$，$\mathcal O=\mathcal O_F$，$\sigma$ 为其
+$p$-Frobenius。先在原 $\mathbf F_{p^2}$ 模型构造上述坐标，
+再对更大的未分歧 $F$ 作基变换；不把较大 residue field
+的 $q$ 次幂误当恒等。
+置
+$$
+g=z^e-p,\qquad
+S=\left(\mathcal O[z,\gamma_r(g):r\ge1]\right)^\wedge_p,
+\qquad \gamma_r(g)=g^r/r!.
+\tag{1155.96}
+$$
+这是在 $\operatorname{Frac}(\mathcal O)[z]$ 内的实际 PD
+代数的 $p$ 完备化，因而无 $p$ 挠。
+它带有实际 maps
+$$
+\psi|_{\mathcal O}=\sigma,\quad \psi(z)=z^p,\qquad
+\operatorname{ev}:S\longrightarrow\mathcal O_L,\quad
+z\longmapsto\varpi,\quad \gamma_r(g)\longmapsto0\ (r>0),
+$$
+其中 $L=F(\varpi)$。
+这里 $\operatorname{ev}\circ\psi$ 不是
+$\mathcal O_L$ 的 field Frobenius。
+
+这些 maps 的整性可直接检查。因为
+$g^p=p!\gamma_p(g)$，
+$$
+\psi(g)=(g+p)^p-p\in pS.
+$$
+故 $\psi(\gamma_r(g))=\psi(g)^r/r!$ 属于 $S$；
+$p^r/r!$ 整且其 valuation 随 $r$ 趋向无穷。
+写 $c=\psi(g)/p$，有
+$$
+\boxed{\quad
+\operatorname{ev}(c)=p^{p-1}-1=:c_0,\qquad c_0\equiv-1\bmod p.
+\quad}
+\tag{1155.97}
+$$
+保留这个 $-1$ 正是 (1155.87) 的原法向 carry。
+
+### 16.2. 唯一的整法向展开与完整尾界
+
+作为 $\mathcal O$ 模，未完备的 (1155.96) 有基
+$$
+z^j\gamma_r(g),\qquad 0\le j<e,\quad r\ge0.
+\tag{1155.98}
+$$
+证明是用 $z^e=g+p$ 反复降低 $z$ 的次数，并用
+$\gamma_r(g)\gamma_s(g)=\binom{r+s}{r}\gamma_{r+s}(g)$。
+这些变换的系数均整，故显示的元素张成原代数。
+它们在 $\operatorname{Frac}(\mathcal O)[z]$ 中最高次数
+$er+j$ 互异，故线性独立。
+完备后每个元素有唯一展开，系数在 $r\to\infty$ 时
+$p$-进趋零。通常的 $\mathcal O[[z]]$ 也映入 $S$，
+因为 $z^{ep}=(g+p)^p\in pS$。
+
+$\operatorname{Fil}^aS$ 为 $r\ge a$ 的基元素的闭包；
+当 $a\le0$ 时取整个 $S$。
+对整数 $0\le a\le p-2$，下列尾界对**全部**
+$r>a$ 成立：
+$$
+\boxed{\qquad
+r-a-v_p(r!)\ge1.
+\qquad}
+\tag{1155.99}
+$$
+若 $r<p$，它就是 $r-a\ge1$。
+若 $r\ge p$，由
+$v_p(r!)\le r/(p-1)$，有
+$r-v_p(r!)\ge p-1$（左边为整数），再用 $a\le p-2$。
+因此并没有只检查 $r<p$ 后漏掉更高 divided powers。
+
+由 (1155.97) 立即得到
+$$
+\operatorname{ev}\!\left(\frac{\psi(\gamma_r(g))}{p^a}\right)
+=\frac{p^{r-a}c_0^r}{r!}.
+$$
+对 $r=a$ 其模 $p$ 值为 $(-1)^a/a!$；
+对每个 $r>a$ 则在 $p\mathcal O_L$ 中。
+这给 PD-filtration 的完整尾控制，不只给一个孤立的单位例子。
+
+### 16.3. 原适配滤过整基中的精确读取公式
+
+现在令 $M$ 是一个实际强可除 Fontaine–Laffaille
+$\mathcal O$ 格，权在 $[0,h]$，其中 $h\le p-2$。
+选择适配其整滤过的基 $e_b$，写
+$$
+w_b=\max\{i:e_b\in\operatorname{Fil}^iM\},\qquad
+F_b=p^{-w_b}\varphi_M(e_b)\in M .
+$$
+原强可除生成条件使 $(F_b)_b$ 也为 $\mathcal O$ 基：
+每个 $\varphi_i(e_b)$ 是 $p^{w_b-i}F_b$，
+所有这些像生成 $M$，故显示的同数目列本身生成且成基。
+
+在 $M_S=S\otimes_{\mathcal O}M$ 上使用实际卷积滤过
+$$
+\operatorname{Fil}^iM_S
+=\sum_b\operatorname{Fil}^{\max(0,i-w_b)}S\,e_b .
+$$
+给定 $0\le i\le h$，其任一元有唯一的完整展开
+$$
+x=\sum_b\sum_{j=0}^{e-1}
+       \sum_{r\ge\max(0,i-w_b)}
+ a_{b,j,r}z^j\gamma_r(g)e_b,\qquad a_{b,j,r}\in\mathcal O.
+\tag{1155.100}
+$$
+$\varphi_{M_S}$ 使用 $\psi$ 与原 $\varphi_M$。
+逐基读取，有严格的整等式
+$$
+\operatorname{ev}\!\left(
+ p^{-i}\varphi_{M_S}
+ (a z^j\gamma_r(g)e_b)\right)
+=\sigma(a)\varpi^{pj}
+ \frac{p^{r+w_b-i}c_0^r}{r!}\,F_b.
+\tag{1155.101}
+$$
+若 $w_b>i$，所有这些项模 $p$ 都为零。
+若 $w_b\le i$，(1155.99) 说明只有
+$r=i-w_b$ 可能留下。
+此外 $\mathcal O_L=\mathcal O[\varpi]$、
+$\varpi^e=p$；所以 $pj\ge e$ 的项也在 $p\mathcal O_L$
+中，准确等价于 $j\ge p$。
+
+因此完整窗口为
+$$
+\boxed{
+\begin{aligned}
+\operatorname{ev}\!\left(p^{-i}\varphi_{M_S}(x)\right)
+\equiv
+\sum_{b:\,w_b\le i}
+ \frac{(-1)^{\,i-w_b}}{(i-w_b)!}
+ \sum_{j=0}^{p-1}
+ \sigma(a_{b,j,i-w_b})\,\varpi^{pj}F_b
+ \pmod {p\,(\mathcal O_L\otimes M)} .
+\end{aligned}}
+\tag{1155.102}
+$$
+它同时保原 normal degree 与实际 torsion nilpotents；
+不是只将 $z$ 截到十二，也没有把 $\varpi$ 约为零。
+
+还有一个准确的零判据。$(F_b)_b$ 为整基，而
+$1,\varpi^p,\ldots,\varpi^{p(p-1)}$ 在
+$\mathcal O_L/p$ 上对 residue field 线性独立，
+因为这些指数均小于 $e$ 且互异。
+所以 (1155.102) 为零，当且仅当
+$$
+a_{b,j,i-w_b}\equiv0\pmod p
+\quad\text{对所有 }w_b\le i,\ 0\le j<p.
+\tag{1155.103}
+$$
+这是整个向量的判据，不把它误用为某个未经投影校准的
+中央单坐标的非零性。
+
+### 16.4. 原二次结构、角色与已给态射
+
+公式 (1155.102) 是真正的
+$\operatorname{ev}\circ p^{-i}\varphi$，不是另选的截断算子。
+因此对原 filtered tensor 元 $x\in\operatorname{Fil}^i$、
+$y\in\operatorname{Fil}^j$，只要 $i+j\le p-2$，
+$$
+\operatorname{ev}\!\left(p^{-(i+j)}\varphi(x\otimes y)\right)
+=
+\operatorname{ev}\!\left(p^{-i}\varphi x\right)
+ \otimes
+\operatorname{ev}\!\left(p^{-j}\varphi y\right).
+\tag{1155.104}
+$$
+分量中的 divided-power 二项式系数正来自实际乘法，
+故原 ordered Heisenberg 中央交叉项仍完整保持。
+同样，任何已经构造的整 filtered Frobenius morphism
+都与 (1155.102) 相容。
+对某个 raw finite transfer，必须先证明它确给这样的
+原整态射；本节不以一句“有限求和”绕过该接口，
+也没有反除标记 cover 的 degree。
+
+原 tame $\mu_e$ 作用保持 $g$，法向 degree 因此没有
+隐藏的角色偏移。$\psi$ 在常数上施 $\sigma$，
+故字符 projector 随之作 $\chi\mapsto\chi^p$ 的运输。
+显示的 $\varpi^{pj}$ 正保留这一方向。
+如果实际权还带 $M$ 的角色，必须一起运输 $F_b$；
+不能只对 scalar 幂求和后忽略 coefficient action。
+
+### 16.5. 对原四十三格的已付范围与剩余实际输入
+
+R1147 §§14–15 给的是原 stable lattice 的强可除格，
+对偶规范的权区间为 $[0,14]$。
+其完整至多二次 tensor 结构在 $[0,28]$，
+而 $p>37$ 保 $28<p-2$。
+所以 (1155.96)–(1155.104) 可直接用于这个
+**已经识别的格**及其实际 quadratic maps。
+
+本节由此把原 PD 操作所需信息缩到明确有限表：
+每个 filtration degree $i$ 只需
+$r=i-w_b\le i$ 与 $0\le j<p$ 的真正 normal coefficients。
+超出该表的全部 PD 尾均有 (1155.99) 的统一整界，
+没有遗漏 $r\ge p$ 的 factorial 分母。
+但这张表仍来自原强可除展开 (1155.100)。
+
+R1147 §§17–20 已构造兼容 all-vector moments、
+原最高整塔及有限系数 jet。
+§15 又给每个原 raw primitive 的 rational
+$B_{\rm st}$ comparison。
+这些结论仍不允许把 raw classical-dilogarithm 表达的
+形式系数直接标为 (1155.100) 的 $a_{b,j,r}$：
+它们是否处在此原整格、其同根/中央 gauge 怎样进入
+normal 展开，仍须实际识别。
+R985 的高坐标 Frobenius carry 同样不能删去。
+因此现在继续的是这组**明确有限的原 normal 输入**
+及原 $F_0$ 读取；不再需要为已知强可除元逐个猜测
+任意高的 PD 尾会否回流。
+
+### 来源与自足范围
+
+严格坐标、原 torsion relation 及两块精度沿
+R712 §2、R978、R985–986 消费，未重做旧算术窗口。
+一般严格同构的 primary 规范也已亲读
+Milne, [*Class Field Theory*](https://www.jmilne.org/math/CourseNotes/CFT.pdf),
+I.2 Lemma 2.11、Propositions 2.12/2.14、Corollary 2.16；
+以及 Kedlaya 的
+[Proposition 4.6.7 / Corollary 4.6.8](https://kskedlaya.org/cft/sec_lubin-tate.html)。
+本节的新 PD 基、全尾界、适配基窗口、零判据及 tensor 相容性
+均由显示的整代数等式自证，不借未刊 period 或 ordinary
+测度定理。全部为纸面证明，无数学程序执行。

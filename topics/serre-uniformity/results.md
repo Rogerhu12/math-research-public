@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原强可除格的有限PD法向窗口（已证明）**：[R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原LT扭点环的唯一整展开及完整factorial尾界给精确读取：适配权w_b时只留r=i−w_b、j<p，保全部ϖ^(pj)；全向量零 iff这些原normal系数全零。43格及二次tensor的r≤14/28明确，原ordered乘法/角色/已给整态射相容。raw rational dilog到该原整展开的识别和F0仍继续。
+
 - **原两jet的完整二次有界链（已证明）**：[quadric续篇 §8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)M0=K²−v²R0²的精确高极消去和原第三类e读取，给两次实际Cartier障碍及五次有界primitive；原e=K4=0准确等价D^(p−5)K=0。全部极界、首项和非齐次norm保留，链无解仍须证明。
 
 - **原连续moment的有限整jet（已证明）**：[R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)零Dirac模商规范认到增广理想，截断log/exp给秩90的前十二次对称幂整系数，原单槽d!与双槽i!j!及所有过渡准确保留。只有限化实际系数，不删原中央period/PD比较。

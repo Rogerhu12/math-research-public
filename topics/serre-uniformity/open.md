@@ -77,6 +77,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付原任意有限分歧L及所有坏u的rational半稳定associatedness。Lang唯一规约Φ=diag(p⁻²,p⁻¹,1)σ、Lie N=(vp u,vp(1−u),0)，但N²和有序半平方保留；全部局部Heis torsor均半稳定。Vologodsky已刊Th43/44的实际Bst中间箭头及其对偶先给原fiber比较，同一whole path与good基点2刚化锁G_st=(logu,log(1−u),−Li2u)；坏点不冒crystalline BK log。实际f(T)的log PD包及T↦Tp保全部carry，不令OL含假场Frob。R1147 §§17–19现给实际连续moment及原最高整塔，未任选有限Ep标签的TpE提升；剩余是同一来源的period/PD/monodromy比较及原43格读取，F0/z12未付。
 
+[R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)自足给原强可除格的**完整有限PD法向窗口**。沿R712/R978原严格LT坐标，e=p²−1、g=z^e−p、S=(O[z,γ_r(g)])^∧p，ev(ψg/p)=p^(p−1)−1≡−1。z^jγ_r(g)（j<e）为唯一整展开基；对0≤a≤p−2，所有r>a满足r−a−vp(r!)≥1，包括r≥p。适配FL基e_b权w_b、F_b=p^−w_bφe_b成整基，ev p^−iφx≡Σ_(w_b≤i)(−1)^(i−w_b)/(i−w_b)!·Σ_(j<p)σ(a_b,j,i−w_b)ϖ^(pj)F_b；全向量零 iff这些a全0modp。原43格权0..14、二次tensor0..28均适用，原tensor/已给整态射与角色χ→χ^p准确相容。此只有限化**原强可除展开**；R1147有限moment系数jet不自动等于function jet，raw rational dilog尚须同源识别其整normal系数、根/中央gauge及实际F0，R985高坐标carry不能删。
+
 ## O1：原两 jet 的实际临界非零
 
 完整已付来源/公式/run见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)及其归档链，禁止重算窗口。
