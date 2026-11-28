@@ -1,0 +1,657 @@
+{
+  "schema": "isp-correct-Phi-t-entire-Vlow-two-original-octics-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46151922972,
+  "job_id": 141000216528,
+  "source_file": "2026-11-28-unit211-Phi-zero-corrected-t-complete-Vlow-two-original-cofactors-8542.py",
+  "source_blob": "dec77452e4631b4370e72d1b9491da01e35547b3",
+  "input_blob": "8ed23d7bee59bd70387a55f62abedadd11c3a5a6",
+  "records": [
+    {
+      "allExistingCoefficientProfilesMatched": true,
+      "noOldRawWeightedReturnOrCenteredOrSexticOrHeadProofGateExecuted": true,
+      "noSlopeInverseDefined": true,
+      "onlyNecessaryOriginalCoefficientAndTraceDefinitions": true,
+      "originalRows": [
+        "N1",
+        "NS",
+        "PS"
+      ],
+      "seconds": 0.21372294500000066,
+      "stage": "necessary_original_t_mean_and_three_row_parameters_defined"
+    },
+    {
+      "actualGeometryDegree": 5,
+      "allThreeEntireN4CoefficientsRetained": true,
+      "completeOriginalScaledN4CoefficientDegrees": [
+        3,
+        2,
+        1
+      ],
+      "fullVlow": {
+        "denominator": {
+          "degrees": [
+            14,
+            15,
+            0,
+            0,
+            0
+          ],
+          "sha256": "b063e03438e74a965f39bf0a5095f14007ff5890b0f10e2209bab22447136aeb",
+          "terms": 140,
+          "totalDegree": 24
+        },
+        "numerator": {
+          "degrees": [
+            27,
+            16,
+            5,
+            5,
+            5
+          ],
+          "sha256": "d480bee064e223238ab69eee31d93d6eff5cabc9301c6defa7d62a8d062db988",
+          "terms": 11783,
+          "totalDegree": 33
+        }
+      },
+      "noIndividualComponentOrPhiMultipleSubstitution": true,
+      "originalMomentDGeometryDegree": 2,
+      "originalMomentKGeometryDegree": 3,
+      "originalSource": "D*ell^2*N4(Vphys)+Z1*H/(2m)-D*Z2*q/M",
+      "physicalDOnlyMultipliedNeverInverted": true,
+      "seconds": 0.48809136100000217,
+      "stage": "new_complete_original_Vlow_in_t_f_V_defined",
+      "topTotalDegreeFiveNumerator": {
+        "degrees": [
+          27,
+          15,
+          5,
+          5,
+          5
+        ],
+        "sha256": "d099a754840ad408466f6560fbabde2d8f6119ed2a0e6b8f36f08c53e169a05a",
+        "terms": 3623,
+        "totalDegree": 33
+      }
+    },
+    {
+      "allH6H8AndH28WeightZeroFibersIncluded": true,
+      "allOriginalI6ConditionsRetained": true,
+      "coefficientProfiles": [
+        {
+          "denominator": {
+            "degrees": [
+              26,
+              19,
+              0,
+              0,
+              0
+            ],
+            "sha256": "4cce9ea52333f3f14b158de38ff5c51167f4b703a11f578eead9fdf8dbc04bed",
+            "terms": 264,
+            "totalDegree": 36
+          },
+          "numerator": {
+            "degrees": [
+              39,
+              23,
+              5,
+              0,
+              0
+            ],
+            "sha256": "baa8cd4b46098d259783d15a7012b550bdb2a29bee95c12912e0b9a5e5c4aee7",
+            "terms": 3274,
+            "totalDegree": 45
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              26,
+              18,
+              0,
+              0,
+              0
+            ],
+            "sha256": "3c96f8e3acaba122b29c9e4d4041a59f9b13e6900809f07e552b043dc4d9a66d",
+            "terms": 241,
+            "totalDegree": 35
+          },
+          "numerator": {
+            "degrees": [
+              37,
+              22,
+              4,
+              0,
+              0
+            ],
+            "sha256": "9e6cb8870a5c0853b910076ba0c2bd0f6059338f53b302ead34889237ceec108",
+            "terms": 2412,
+            "totalDegree": 43
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              26,
+              17,
+              0,
+              0,
+              0
+            ],
+            "sha256": "fa87b93b001e1131e543fbc34b1989c59c353a9376807a9211532f9a93e5b641",
+            "terms": 241,
+            "totalDegree": 34
+          },
+          "numerator": {
+            "degrees": [
+              36,
+              21,
+              4,
+              0,
+              0
+            ],
+            "sha256": "8e60199f7e082e438cad0c4d324811a2fc70163562429f7b162382397ead1cbe",
+            "terms": 2249,
+            "totalDegree": 41
+          }
+        }
+      ],
+      "coefficientTBounds": [
+        5,
+        4,
+        4
+      ],
+      "exactAuxiliaryIdeal": "I7=I6+(Vlow)",
+      "noFreeThreeGeneratorAlgebraAssumed": true,
+      "oldWholeThreeMeanHeadOnly": true,
+      "ordinaryRawIdentityReturned": true,
+      "originalIdentity": "Vlow=rVlow*(1,f,V)+nuVlow*(Rcal,EBe,EBo)",
+      "originalMeanMultipliers": [
+        {
+          "denominator": {
+            "degrees": [
+              25,
+              16,
+              0,
+              0,
+              0
+            ],
+            "sha256": "d0def8194fbc6a4f12b338c11e590e4028eefa00a219963757959cac4849f91a",
+            "terms": 218,
+            "totalDegree": 32
+          },
+          "numerator": {
+            "degrees": [
+              34,
+              19,
+              3,
+              3,
+              3
+            ],
+            "sha256": "49fefa081ac7e56f470dd6ce144cf6961855574ae17f8894c106619fe5f44353",
+            "terms": 5574,
+            "totalDegree": 37
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              25,
+              17,
+              0,
+              0,
+              0
+            ],
+            "sha256": "25a4537c3cad7b4329d0864ca2268793fac7e78a8ed3de55bb538df469d468ac",
+            "terms": 218,
+            "totalDegree": 33
+          },
+          "numerator": {
+            "degrees": [
+              36,
+              19,
+              3,
+              3,
+              3
+            ],
+            "sha256": "514dda66b71ce89dec7666122405e1a9e3678c1389d273c18982eaf278e2f895",
+            "terms": 6271,
+            "totalDegree": 39
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              26,
+              17,
+              0,
+              0,
+              0
+            ],
+            "sha256": "96da8ed63f9050dbc20f7030ce610a3bfcfc33e4e5e2b364caa8aafe3db58861",
+            "terms": 218,
+            "totalDegree": 34
+          },
+          "numerator": {
+            "degrees": [
+              37,
+              21,
+              3,
+              3,
+              3
+            ],
+            "sha256": "138f75340324708b253dd03e3c571678740e3745148ebe440ac36c3f70d1d929",
+            "terms": 6978,
+            "totalDegree": 40
+          }
+        }
+      ],
+      "rawTotalGeometryDegreeUpperBound": 5,
+      "seconds": 1.1569707050000062,
+      "stage": "new_complete_Vlow_true_t_three_generator_original_return",
+      "tDegrees": [
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "actualScalarDenominator": {
+        "degrees": [
+          2,
+          4,
+          0,
+          0,
+          0
+        ],
+        "sha256": "95745ff4a78cfa74c3e5d5f95aa2ba34b2743cc7bfb077e22c18de0d72b7448b",
+        "terms": 10,
+        "totalDegree": 5
+      },
+      "actualScalarNumerator": {
+        "degrees": [
+          60,
+          36,
+          8,
+          0,
+          0
+        ],
+        "sha256": "b210cb63564ccb509230fc6dc84f3c1c22f9386461e71d40835e666be7266f7d",
+        "terms": 11329,
+        "totalDegree": 71
+      },
+      "actualThreeMultiplierCommonContent": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "allCommonContentAndNewLeadingZeroFibersRetained": true,
+      "allOldSlopeAndH28ZeroLociIncluded": true,
+      "completeThreeOriginalCoordinatesReturned": true,
+      "label": "original_N1_NS_complete_Vlow",
+      "necessaryPolynomial": {
+        "degrees": [
+          60,
+          36,
+          8,
+          0,
+          0
+        ],
+        "sha256": "7be3f86635bb87c309fc15c6b386303624c0ca951e8578dce37d490fc925d3ea",
+        "terms": 11329,
+        "totalDegree": 71
+      },
+      "noDOrSlopeOrNewLeadingInverse": true,
+      "normalizedThreeCoordinateOriginalReturn": true,
+      "originalRows": [
+        "N1",
+        "NS",
+        "Vlow"
+      ],
+      "originalSourceByExactMeanTraces": true,
+      "seconds": 2.376878915000006,
+      "stage": "new_complete_full_NV_t_original_scalar_return",
+      "tDegree": 8,
+      "tDegreeUpperBound": 8,
+      "threePrimitiveOriginalMultipliers": [
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              52,
+              31,
+              6,
+              0,
+              0
+            ],
+            "sha256": "b239e16b73f24b747fb57fabaa08b1a01c1f60de7d2287df27948a79cc4f6d86",
+            "terms": 6563,
+            "totalDegree": 60
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              52,
+              30,
+              5,
+              0,
+              0
+            ],
+            "sha256": "14d3a755e761b5ec04b2afd119393e2a80c48c66a67bbd33f6629ff5af5578db",
+            "terms": 5480,
+            "totalDegree": 60
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              45,
+              29,
+              3,
+              0,
+              0
+            ],
+            "sha256": "e112fe0515018709bbc0c446971903d1c85a9fb79fb3893588017eae28fb7760",
+            "terms": 2805,
+            "totalDegree": 56
+          }
+        }
+      ],
+      "trueTLeadingNumerator": {
+        "degrees": [
+          60,
+          30,
+          0,
+          0,
+          0
+        ],
+        "sha256": "c3308082837a31eb7f495da4ea41e422a950f977ffc9eaca0158aa90b1edf1bb",
+        "terms": 1135,
+        "totalDegree": 63
+      },
+      "wholePhiExcluded": false
+    },
+    {
+      "actualScalarDenominator": {
+        "degrees": [
+          2,
+          4,
+          0,
+          0,
+          0
+        ],
+        "sha256": "95745ff4a78cfa74c3e5d5f95aa2ba34b2743cc7bfb077e22c18de0d72b7448b",
+        "terms": 10,
+        "totalDegree": 5
+      },
+      "actualScalarNumerator": {
+        "degrees": [
+          64,
+          38,
+          8,
+          0,
+          0
+        ],
+        "sha256": "3e2cec273f602e5618b8bc8838f353455579c5e10e4f853667f2346f900136d3",
+        "terms": 12661,
+        "totalDegree": 75
+      },
+      "actualThreeMultiplierCommonContent": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "allCommonContentAndNewLeadingZeroFibersRetained": true,
+      "allOldSlopeAndH28ZeroLociIncluded": true,
+      "completeThreeOriginalCoordinatesReturned": true,
+      "label": "original_N1_PS_complete_Vlow",
+      "necessaryPolynomial": {
+        "degrees": [
+          64,
+          38,
+          8,
+          0,
+          0
+        ],
+        "sha256": "5d36181cbdf2fec8a58faea9dae5688cbd00e7a3c2430b74e5e9ace407ca4b5b",
+        "terms": 12661,
+        "totalDegree": 75
+      },
+      "noDOrSlopeOrNewLeadingInverse": true,
+      "normalizedThreeCoordinateOriginalReturn": true,
+      "originalRows": [
+        "N1",
+        "PS",
+        "Vlow"
+      ],
+      "originalSourceByExactMeanTraces": true,
+      "seconds": 3.67083126,
+      "stage": "new_complete_full_NV_t_original_scalar_return",
+      "tDegree": 8,
+      "tDegreeUpperBound": 8,
+      "threePrimitiveOriginalMultipliers": [
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              56,
+              33,
+              6,
+              0,
+              0
+            ],
+            "sha256": "2706e34ee3e3b384d7896459a6871707e1c5294a2314fb3eb8b96aa169e04118",
+            "terms": 7456,
+            "totalDegree": 64
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              56,
+              32,
+              5,
+              0,
+              0
+            ],
+            "sha256": "ef72f223612aab3ac781fc31c39b15140a010e6ae399e84b40fedb25b302a281",
+            "terms": 6242,
+            "totalDegree": 64
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              49,
+              31,
+              3,
+              0,
+              0
+            ],
+            "sha256": "b39dea12c2b02214482ad9bb66b1ff940cc61cea3b21a9581a5cedb5a5a7b59f",
+            "terms": 3257,
+            "totalDegree": 60
+          }
+        }
+      ],
+      "trueTLeadingNumerator": {
+        "degrees": [
+          64,
+          32,
+          0,
+          0,
+          0
+        ],
+        "sha256": "c7ce415c3c2eebf5cba7673e78dad2d467a2cbb9b405418df26121c83e6c9fc0",
+        "terms": 1275,
+        "totalDegree": 67
+      },
+      "wholePhiExcluded": false
+    },
+    {
+      "allOriginalI6AndEntireVlowRetained": true,
+      "noCoefficientPayloadOrCacheOrChunksSaved": true,
+      "noExternalDependency": true,
+      "noNewWholeHeadUnitOrFinitePointClaim": true,
+      "noOldWeightedScalarOrGlobalSixMultiplierOrH28GateReplayed": true,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 58964,
+      "seconds": 3.6743685060000004,
+      "sourceSHA256": "0800a0f6ba0cad4cc4ddc7a592525c198bcc213bfa36df568ec0e9301b8f4335",
+      "stage": "new_correct_t_complete_Vlow_two_original_scalar_input_finished",
+      "statistics": {
+        "exactDivisionProducts": 184,
+        "newFixedCofactorCoordinates": 6,
+        "newOriginalScalarSupportReturns": 6,
+        "newVlowCoordinates": 3,
+        "newVlowRawMeanReturns": 1,
+        "newVlowReductionSteps": 18,
+        "parameterReductionSteps": 14
+      }
+    }
+  ],
+  "driver": {
+    "elapsed_seconds": 3.755020567999999,
+    "max_child_rss_kib": 58964,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c3e2f5d48781f6a9850afa9d36c724299bae4406",
+        "before": "53649d1575a460810c42229e6b9fdad16e3e5158",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T13:54:34.219627+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46151922972",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "53649d1575a460810c42229e6b9fdad16e3e5158",
+    "source_exit_code": 0,
+    "source_git_blob": "dec77452e4631b4370e72d1b9491da01e35547b3",
+    "source_sha256": "0800a0f6ba0cad4cc4ddc7a592525c198bcc213bfa36df568ec0e9301b8f4335",
+    "stdout_bytes": 8502,
+    "stdout_sha256": "ce4bdebf8e91e25ab10fb62ff80df040f32775b7787e57d835631969f8b14c7f",
+    "stop_reason": null
+  },
+  "rules": [
+    {
+      "after": "c3e2f5d48781f6a9850afa9d36c724299bae4406",
+      "before": "53649d1575a460810c42229e6b9fdad16e3e5158",
+      "rules_git_blobs": {
+        "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T13:54:34.219627+00:00"
+    }
+  ],
+  "scope": {
+    "ordinaryISPClaim": false,
+    "wholePhiExcluded": false,
+    "exactAuxiliaryIdeal": "I7=I6+(Vlow)",
+    "allOriginalI6ConditionsRetained": true,
+    "entireIsolatedN4Source": true,
+    "ordinaryRawVlowMeanTraceReturned": true,
+    "geometricDOnlyMultiplied": true,
+    "allSlopeAndH28AndNewHeadZeroFibersRetained": true,
+    "newGlobalHeadPayment": false,
+    "newFinitePointBound": false,
+    "oldWrongCompactNotRestored": true
+  },
+  "artifact_policy": {
+    "profilesOnly": true,
+    "noCoefficientPayload": true,
+    "noChunksOrEncodedCoefficientData": true
+  }
+}
