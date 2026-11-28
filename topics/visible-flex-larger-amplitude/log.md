@@ -409,3 +409,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:16:59 UTC — R730完整基座、Q与冻结参考校准的真实来源分支
 
 六完整件162777B同刊：base40854B/b9c787340021b5736f2796f2b84a1c25cb4b0ce96333eb98f543b1e8923ce267、literal Q37575B/4e72d300388372ae9fa43ba1795be9ad3ed17805a45fd0c407c4f16ed4aa4d1b、calibration11895B/7650bbd18c856d70164a8b76eab22d63231d401cff91bf63f8b0bd5019b010fd及完整可逆再生46442B、接口12416B、总表13595B/3b9b7b9be86aa42215994c17721df6ebd68b42a0992aff2bd78eb338bda6966d/blob141b18e1cb08e83cd0da9d78a886e7fa7ff00084。完整五物理源与31数学父、32 R729算法父明确，不改名冒同一物理。Q保18 literal/两泡/12完整定义字段与原provenance，严格验证真实length-definition；base全field/J/J*/norm原后段保，ctor/model真适配；校准必须新算working primitive残差，不继旧Slerp/半波数组或证书。未执行本包科学/AST；solver继续所有endpoint/packet/lower/upper，geometry独立推进真实长度/反弧长准确费用。 双README云核至`ba54f9c6d2fc2c4bd7bf5bd6f00d2fa5f4782661`无变（非pull）。
+
+## 2026-11-28 09:19:13 UTC — 28实际队列路径拒绝与保持守卫的完整前缀修复
+
+官方索引09:13:43Z在科学前报告Step script must be a Python file inside the declared topic；原ready遗漏topic前缀。只给science script加topics/visible-flex-larger-amplitude/，完整queue74418B/065274258571ceb8821556880ad9cafe7905b8c1f699c7b15d67c5681df416fb，原142参数词、587/64读数、完整parent/scope/输出/预算一律不动，原helper守卫不改。下一whole pure同样完整修正为63205B但未排入，保持自然返后才接。全部原错误/原包/旧队列和完整索引固定身份保本次同名note新增段；六既存阶段0不冒新的第7阶段成功。 双README云核至`1d99782d5e98dee105d3fc946241f91971045e70`无变（非pull）。
