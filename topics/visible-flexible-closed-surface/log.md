@@ -464,3 +464,5 @@
 2026-11-28 09:34:47 UTC — Astra-visible-flex-2ecfcd69-20261128：All 87 target coefficients and all radial functions remain fixed. The 12,789 coefficients of the step-four coarse Cartesian field extend by exact zero insertion to 16,965 coefficients. G10 and shifted G11 baseline statistics agree identically with the coarse field. All six directly evaluated G11 jet difference maxima are zero. The finer space then accepted its own first update at length 0.5 after rejecting length 1.
 
 2026-11-28 09:35:01 UTC — Astra-visible-flex-2ecfcd69-20261128：An actual 18,480-row, 125-column fixture restricted the eight stored log-radius coefficients to five free ones (first three locked), leaving all 120 Cartesian coefficients active. The assembled principal normal matched explicit JᵀJ + λS to 3.19865e-16 relative, Cartesian/radius cross block to 2.86952e-16, and the independently evaluated normal solve residual was 8.64742e-16.
+
+2026-11-28 09:35:13 UTC — Astra-visible-flex-2ecfcd69-20261128：固定场的任意角目标半径 sharp metric 下界及共同半径的精确可行区间；四个G10最差目击处目标重设计独自无可见余量，四个G11独自最多改善0.000697。

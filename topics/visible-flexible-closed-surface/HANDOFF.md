@@ -58,7 +58,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 <!-- 2ecf-background-depth --> [原背景depth8](notes/2026-11-28-2ecf-original-background-depth8-extension.md)已自然0，原36profile不变，仅补36个原剖面；完整72profile供全尾部使用。
 
-<!-- 2ecf-target-curvature --> [新增保存α7的piecewise prefix目标K证界；仅该α与原显式scalar片，source rounding/base seams/connector-tail和位置reach均未付，不移借给后续α。](notes/2026-11-28-2ecf-polar-saved-design-prefix-target-curvature-bound.md)
+<!-- 2ecf-target-curvature --> [R254](results/R254-sharp-fixed-field-warp-radius-floor.md)已证固定场任意目标半径锐下界；四场有限见证要求移动X，不排新嵌入/联动设计。
 
 <!-- 2ecf-live-m12-refinement --> [h503首次LM −9，原源/注入保留；单线程映射带重试。](notes/2026-11-28-2ecf-m12-h503-original-LM-sigkill.md)
 
@@ -68,4 +68,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:35:06 UTC；已读公开 main `e1d5b232ff160eca3001ef6abe3f0eec3205cbaf`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:35:52 UTC；已读公开 main `bc212bcbb780c143a71ad70002cb702e79c33db0`，根/课题 README 逐差无变化。
