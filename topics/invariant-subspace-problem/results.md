@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R150：正确 Φ 的整个 α=0 原支排除](results/R150-appendix-unit211-Phi-zero-true-entire-alpha-zero-original-exclusion.md)：0.433170338秒/0，U42完整1/1/6三QQ域同Q gcd为4/4/1，全部整除原已付单位；12/24重数经幂零提升保全，当前物理D非零图可支付α。
+
 - [R150：正确整个 Φ 的精确十五列 I6 与两原六次](results/R150-appendix-unit211-Phi-zero-corrected-whole-original-I6-fifteen-by-three-and-two-sextics.md)：2.910171339秒/0；完整NSPS、两个原overlap与四动作缺陷给准确商同构，两六次原cofactor保全部头零；任一头开图上的原必要代数十八生成。
 
 - [R150：整个 W b0 的两原曲线、5772 权长度与 46176 完整不同点](results/R150-appendix-unit211-W-entire-b0-two-original-curves-5772-weights-46176-normalized-points.md)：5.531909013秒/0，新C74/D78完整QQ互素；原q2系数的单位组合保全部首项退化，同f首一二次和唯一值恢复给完整点界，仍未逐个排空。

@@ -1,20 +1,18 @@
 {
-  "message": "ISP: prove corrected whole Phi exact fifteen-column I6 and two sextics; start actual head support",
-  "parentCommit": "0e9b873530712a48f83c83cac79bbbfa5bf45829",
+  "message": "ISP: exclude entire corrected Phi alpha zero by full constant fields and original units",
+  "parentCommit": "bfbd69181c869a0805160cf6edffd9ac2043d9a3",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-whole-original-I6-fifteen-by-three-and-two-sextics.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-fifteen-column-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-fifteen-column-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-two-sextic-heads-whole-weight-support-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-two-sextic-heads-whole-weight-support-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-two-sextic-heads-whole-weight-support-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-phi-two-sextic-heads.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-whole-I6-fifteen-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-I6-fifteen-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-entire-alpha-zero-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-alpha-zero-U42-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-entire-alpha-zero-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-terminal-availability-probe-1004-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-preparer-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-entire-alpha-zero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-entire-alpha-zero-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,7 +21,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-two-sextic-heads.yml"
-  ]
+  "dispatchWorkflows": []
 }
