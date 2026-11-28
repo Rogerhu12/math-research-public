@@ -1,0 +1,43 @@
+{
+  "status": "actual_same_map_complete_tail_third_activity_bound",
+  "observed_utc": "2026-11-28T14:09:44.961020+00:00",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_third_activity_flux_bound.py",
+    "sha256": "2dcaf9cfde8a6923c0ac0e32a81ae7f5356d12025239b467c7ad7ab3a94767f7"
+  },
+  "actual_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-third-activity-bound-20261128-a/summary.json",
+    "sha256": "9757dea791dde44307d1a590ee5d0319f0e57400217f43c822475571888a6334"
+  },
+  "placement": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a/summary.json",
+    "sha256": "b001a374546aaad59ed3167a12d6ae2233e91f0429e70b421235f1ee53c24d2e"
+  },
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "prefix_source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "actual_cut_certificate": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/summary.json",
+    "sha256": "39ac427fb4cfcfcd0803cf3f49af1d0c631e9e665067e8ca586cbff942a4a97c"
+  },
+  "finite_stage_count": 1152,
+  "literal_span_count": 18460,
+  "complete_deep_collar_and_plain_disks_included": true,
+  "complete_injective_planar_projection": true,
+  "physical_R_exact_identity": true,
+  "horizontal_radius_upper": 0.3001775548434044,
+  "absolute_height_upper": 0.8701647193200611,
+  "two_reflected_tail_third_flux_absolute_upper": 0.0053322091642946075,
+  "pi_upper_exact": "22/7",
+  "bound_formula": "4*pi_upper*Z*r_star^5/5",
+  "activity_combination": "A3(ell)=A3_prefix(0)+A3_tail(0)+ell*m3; use this unshifted tail bound with the same actual prefix/core output.",
+  "scope": "lambda=.002, q=.06, M24/N512 original raw-H factor1, ell=marker=0",
+  "fixed_marker_contribution_excluded": true,
+  "no_existing_geometry_or_moment_recomputed": true,
+  "no_prefix_activity_or_noncongruence_claim": true
+}

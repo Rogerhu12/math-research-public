@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `7277dc31452a91e09e2df95d4e52b3ece836305f`（2026-11-28 14:12 UTC）。
+- 最近实际pull后双README已读锚 `abdf446016d912cd61c0959647132b3efda68407`（2026-11-28 14:17 UTC）。
 - 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。公/私库至少每小时pull，每次对已读锚核双README差异并立即遵守，H记录SHA。
 - 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
 - [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[早期详细快照](notes/2026-11-28-handoff-details-before-compact.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
@@ -21,7 +21,7 @@
 
 [完整CSR前置映射M16核](notes/2026-11-28-design-csr-prefactor-mmap-complete-m16.md)43087维原J方向/分母/残差/消零三数组/stats逐位同，6.256s/208540KiB；仅存储执行。v6 [真实pre-J中断](notes/2026-11-28-design-factor-mmap-m48-prej-interruption.md)30次门全拒，13:23 child−9前没有J/QR/solve/Newton，不归因OOM。新[v7全映射](notes/2026-11-28-design-prefactor-mapped-recovery-preparation.md)/[v8仅CSR映射](notes/2026-11-28-design-csr-only-recovery-preparation.md)保全部原门，尚无新BVP；双路资源watcher实际exit130，35次均未启动。
 
-已转新二维路径：复用真实q=warp=.012/M8输入，[λ0材料入口已真实接受](notes/2026-11-28-design-small-q012-lambda000-actual.md)（603点/metric1.13318e−8）；[λ.002/M8](notes/2026-11-28-design-small-q012-lambda002-m8-metric-gate.md)实际metric8.20161e−6未过；[M16](notes/2026-11-28-design-small-q012-lambda002-m16-metric-gate.md) metric2.061882202e−6也未过，TTY52727现同λ升M24，目标先λ1后q/warp回.06。固定k=.2带独立O(λ)强迫，不能预称低q全λ只需低M。小q结果不作10%完成。
+已转新二维路径：复用真实q=warp=.012/M8输入，[λ0材料入口已真实接受](notes/2026-11-28-design-small-q012-lambda000-actual.md)（603点/metric1.13318e−8）；[λ.002/M8](notes/2026-11-28-design-small-q012-lambda002-m8-metric-gate.md)实际metric8.20161e−6未过；[M16](notes/2026-11-28-design-small-q012-lambda002-m16-metric-gate.md) metric2.061882202e−6也未过，TTY52727首M24在完整QR首solve后−9，无raw/RMS/metric；真615点nodal正恢复，目标先λ1后q/warp回.06。固定k=.2带独立O(λ)强迫，不能预称低q全λ只需低M。小q结果不作10%完成。
 
 [Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)和[显式冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)已备；实际POST403缺actions=write、v3无run，不绕权限，继续本地。真λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)及[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 
@@ -41,7 +41,7 @@
 
 [正柱/规范帽真查询](notes/2026-11-28-actual-width012-cylinder-marker-query.md)TTY95236/child0、28.316s，ell=.0025、canonical正幅约6.25e−8；42尾点有限，中央柱六jet检查实际执行max2.731e−15、cut max5.290e−16，只是诊断。旧marker_strength=0属另一旧帽，不代表无canonical帽。整图reach/metric/δE/held/收敛仍另付。
 
-root正用同一.12修补前缀积分完整第三活动矩，TTY78151，work `held10-analytic-work/lambda002-width012-complete-third-moment-20261128`；每实际叶flush/fsync，不与R78的λ.064混用。tail接同场尾通量及帽柱整图界。最终coupled图仍须独立绑定binding.candidate_H，当前无原8outer最终physical-H，不挪raw-H证书。
+root同一.12修补前缀完整第三矩TTY78151已真exit0/438.449s：965格全覆，A3p∈[.14370646820229896,.14379042097194986]、m3∈[.18025537278529638,.18026551293977527]，每叶fsync；work `held10-analytic-work/lambda002-width012-complete-third-moment-20261128`。[R81](results/R81-actual-complete-tail-third-activity-flux-bound.md)同场两尾/deep/平盘通量绝对值≤.0053322091642946075，正用query字面总ell合成活动系数。最终coupled图仍须独立绑定binding.candidate_H；当前无原8outer最终physical-H，不挪raw-H证书。
 
 ## 3. 同一 g 精化
 

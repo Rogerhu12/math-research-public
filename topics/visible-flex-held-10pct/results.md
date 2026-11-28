@@ -203,3 +203,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R80. 实际完整 full-H 尾的绝对几何
 
 [完整证明](results/R80-actual-complete-tail-absolute-geometry.md)。同R79原点的1152段/18460 spans与deep/平盘，半径≤.9204371195066212、support≥.7710414327607057、K≤10.017503096013616；ell=marker=0，完整metric独立续付。
+
+## R81. 实际完整尾的第三活动通量界
+
+[完整证明](results/R81-actual-complete-tail-third-activity-flux-bound.md)。同R79/R80原λ.002/M24完整1152段、18460 spans、deep和双平盘，真实投影单射与高度/半径界给两个反射尾的复第三通量绝对值≤.0053322091642946075；未加柱/帽，供同场前缀与字面总柱长合成，不重算原几何。
