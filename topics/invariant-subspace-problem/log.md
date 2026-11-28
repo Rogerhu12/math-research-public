@@ -99,3 +99,8 @@
 - 新W唯一输入ecf383：全原15×2同构保三个均值/N1/NS/PS及各同点乘积，变换det=ΔN只在已命名H198补图。新两对2×2常数目标共同取消实际乘子因子，全部未付内容/λ头及H0保留，首次180秒/4GiB。
 - 不执行旧χ范数/12阶结式/18行module/大权行列式。课题外仅必要工作流 .github/workflows/invariant-subspace-8542-w-fifteen-two-columns.yml；open同主题条目合并并保完整快照，未关闭其它接口。
 - 公私实际pull和README差异检查继续记录；ordinary ISP未完成，继续原输入。
+
+2026-11-28 08:28 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新结论：原尾/所有实际非零旗子商的移位解析q根在任一完整射线上，每个固定非零源及固定左右P都无有限多项式费用界；自含零阶整函数/完整2π PL证明付齐，严格limsup，转真正随动非局部来源。
+- 新Phi两个独立首次输入：321647从原D2=0缩至整ell半/t1权曲线，四原最高式QQ(u)[s]全Bézout及最后分母清回，60秒/1GiB；47aaa从既有两个原支持作QQ gcd，120秒/1GiB。只保源码/定义/小回执，历史P6载荷仅runner临时取。
+- W ecf383真实14.074930164秒/0全15×2及两λ本原C6返回，正式结果稿续推，整H198零与未付头/个别值保留。两新Phi工作流 .github/workflows/invariant-subspace-8542-phi-d2-infinity.yml 和 invariant-subspace-8542-phi-highest-intersection.yml 为必要课题外改动；公私pull/规则差异继续记录。
