@@ -1,0 +1,337 @@
+{
+  "scope": "Actual complete M16 shooting linear-system probe only; every A entry and original boundary retained; no native JVP, nonlinear solve or new accepted field.",
+  "background": {
+    "scope": "Measure full-node GMRES convergence using actual stored J and background blocks.\n\nThis is a feasibility probe for an eventual native literal-JVP predictor. The\nactual stored complete stage Jacobians are still used in every matrix product;\nno native JVP implementation, nonlinear solve or new tail acceptance is claimed.\nThe preconditioner integrates all independent background 2x2 mode blocks on\nthe original frozen RK/cusp grid and retains every node and boundary row.\n",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_background_preconditioner.py",
+      "sha256": "459625384a45f20efcbb6a033393652e4e064b208a0fe2aa242452e223f3ba57"
+    },
+    "predictor_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+      "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+    },
+    "actual_native_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+      "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+    },
+    "M": 16,
+    "stages": 1152,
+    "unknowns": 36896,
+    "nonlinear_unknowns_or_boundary_rows_dropped": false,
+    "background_zero_state_blocks": "All modes; literal frozen coefficients, original RK4/cusp steps, original output portRatio",
+    "preconditioner_nnz": 110640,
+    "preconditioner_factor_nnz": 184148,
+    "background_seconds": 1.8061363400001937,
+    "preconditioner_factor_seconds": 0.08718209299968294,
+    "gmres_seconds": 1.1440155899999809,
+    "gmres_info": 5,
+    "gmres_inner_iterations": 200,
+    "all_stage_matrix_products": 205,
+    "gmres_relative_tolerance": 1e-12,
+    "gmres_restart": 40,
+    "gmres_max_restart_cycles": 5,
+    "final_original_linear_residual_linf": 0.9999999990776007,
+    "final_relative_rhs_residual_linf": 0.9999999990776007,
+    "original_full_J_normwise_backward_error": 5.617269754983775e-10,
+    "original_backward_error_gate_passed": false,
+    "native_JVP_implemented": false,
+    "stored_complete_actual_J_used": true,
+    "nonlinear_solve_invoked": false,
+    "predictor_accepted": false,
+    "complete_surface": false,
+    "gmres_relative_residual_history_summary": {
+      "count": 200,
+      "first": [
+        0.9999999998568772,
+        0.9999999997993262,
+        0.9999999997951255,
+        0.9999999997907363,
+        0.9999999997848109
+      ],
+      "last": [
+        0.9999999995388056,
+        0.9999999995388056,
+        0.9999999995388056,
+        0.9999999995388056,
+        0.9999999995388056
+      ]
+    }
+  },
+  "background_zero_check": {
+    "scope": "Check the proposed 2x2 background blocks against the unchanged native J.\n\nFive original frozen stages retain every coefficient/grid byte and have their\ncomplete initial state set to literal zero solely to check the background\npreconditioner algebra. These are explicit zero-background test inputs, not\naccepted nonlinear tail data or an attempt to reduce the original problem.\n",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_background_zero_blocks.py",
+      "sha256": "5f76f831eec3e13eb1120d88ab25d197573cb5097ab2ed5bb6839f54b676fc0f"
+    },
+    "predictor_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+      "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+    },
+    "actual_native_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+      "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+    },
+    "preconditioner_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/background-preconditioner-m16-20261128-a/summary.json",
+      "sha256": "924e0cceb7e9831677325e4fd83d583a7ef8eeab91e455106a99b23e0f983fb5"
+    },
+    "native_executable": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+    },
+    "input": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/background-preconditioner-zero-check-20261128-a/zero-background-input.bin",
+      "sha256": "25891f82936b6c87ec2f8e4778aef69f9616c8899ffc1410e0e4d5e1e8b08626"
+    },
+    "output": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/background-preconditioner-zero-check-20261128-a/zero-background-output.bin",
+      "sha256": "221a9905a86f7d33a708c6df22f7f2c797f712269d4999b258b50c532aaac764"
+    },
+    "selected_stages": [
+      0,
+      22,
+      80,
+      813,
+      1151
+    ],
+    "original_grid_and_coefficients_retained": true,
+    "explicit_zero_state_probe": true,
+    "wall_seconds": 2.357231963999766,
+    "rows": [
+      {
+        "stage": 0,
+        "maximum_absolute_difference": 0.0,
+        "maximum_scale_normalized_difference": 0.0,
+        "maximum_original_entry": 2176757.658051784
+      },
+      {
+        "stage": 22,
+        "maximum_absolute_difference": 0.0,
+        "maximum_scale_normalized_difference": 0.0,
+        "maximum_original_entry": 4538215903.000803
+      },
+      {
+        "stage": 80,
+        "maximum_absolute_difference": 0.0,
+        "maximum_scale_normalized_difference": 0.0,
+        "maximum_original_entry": 18810286.058971792
+      },
+      {
+        "stage": 813,
+        "maximum_absolute_difference": 0.0,
+        "maximum_scale_normalized_difference": 0.0,
+        "maximum_original_entry": 29832270.00072725
+      },
+      {
+        "stage": 1151,
+        "maximum_absolute_difference": 0.0,
+        "maximum_scale_normalized_difference": 0.0,
+        "maximum_original_entry": 1.0013701166624882
+      }
+    ],
+    "maximum_scale_normalized_difference": 0.0,
+    "nonlinear_tail_accepted": false
+  },
+  "actual_mode_band": {
+    "scope": "Test stronger preconditioners against the complete saved actual shooting J.\n\nMode bands are used ONLY inside the preconditioner. Every matrix product and\nfinal residual uses every entry of the true complete stored J, every shooting\nunknown, and every original boundary row. This produces no nonlinear accepted\nfield and does not implement or benchmark a native matrix-free JVP.\n",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_modal_band_preconditioner.py",
+      "sha256": "7e124c41db23b91bd7504f3c73c07d321aac34893724cbcdbeed978f80536289"
+    },
+    "predictor_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+      "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+    },
+    "actual_native_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+      "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+    },
+    "M": 16,
+    "stages": 1152,
+    "unknowns": 36896,
+    "complete_actual_matrix_used_for_every_operator": true,
+    "all_boundary_rows_retained": true,
+    "native_JVP_implemented": false,
+    "predictor_accepted": false,
+    "rows": [
+      {
+        "mode_bandwidth": 15,
+        "all_modes_in_preconditioner": true,
+        "preconditioner_only_cross_mode_entries_dropped": false,
+        "P_nnz": 1216560,
+        "LU_nnz": 2118565,
+        "factor_seconds": 0.11860157000046456,
+        "gmres_seconds": 0.017551711999658437,
+        "gmres_info": 0,
+        "inner_iterations": 2,
+        "all_actual_matrix_products": 4,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          5.627463280412865e-09,
+          8.147516866768447e-23
+        ],
+        "residual_history_last": [
+          5.627463280412865e-09,
+          8.147516866768447e-23
+        ],
+        "final_original_longdouble_residual_linf": 2.7175701688975096e-09,
+        "relative_rhs_residual_linf": 2.7175701688975096e-09,
+        "original_normwise_backward_error": 1.4173622519769987e-27,
+        "original_backward_error_gate_passed": true,
+        "preconditioner_solve_relative_rhs_residual_linf": 1.2978213798391108e-09
+      },
+      {
+        "mode_bandwidth": 0,
+        "all_modes_in_preconditioner": true,
+        "preconditioner_only_cross_mode_entries_dropped": true,
+        "P_nnz": 110640,
+        "LU_nnz": 184148,
+        "factor_seconds": 0.01850888599983591,
+        "gmres_seconds": 0.3220626980000816,
+        "gmres_info": 3,
+        "inner_iterations": 120,
+        "all_actual_matrix_products": 123,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          0.999999999854853,
+          0.9999999998426479,
+          0.9999999998416201,
+          0.9999999998015371,
+          0.9999999997751419
+        ],
+        "residual_history_last": [
+          0.9999999982520997,
+          0.9999999982520937,
+          0.9999999982520902,
+          0.9999999982518278,
+          0.9999999982511933
+        ],
+        "final_original_longdouble_residual_linf": 0.9999999965047058,
+        "relative_rhs_residual_linf": 0.9999999965047058,
+        "original_normwise_backward_error": 1.490294582094353e-10,
+        "original_backward_error_gate_passed": false,
+        "preconditioner_solve_relative_rhs_residual_linf": 3.1311279019737547e-10
+      },
+      {
+        "mode_bandwidth": 2,
+        "all_modes_in_preconditioner": true,
+        "preconditioner_only_cross_mode_entries_dropped": true,
+        "P_nnz": 377904,
+        "LU_nnz": 1474323,
+        "factor_seconds": 0.08674588499980018,
+        "gmres_seconds": 1.388304658999914,
+        "gmres_info": 3,
+        "inner_iterations": 98,
+        "all_actual_matrix_products": 101,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          0.9999999953906554,
+          0.9999999707981673,
+          0.9999994321180434,
+          0.9999895729954005,
+          0.9999813023937664
+        ],
+        "residual_history_last": [
+          1.3047291863821351e-08,
+          1.1916928446645382e-08,
+          1.0041327173670354e-08,
+          8.032200452768864e-09,
+          5.872735716262353e-09
+        ],
+        "final_original_longdouble_residual_linf": 3.6302822081779595e-08,
+        "relative_rhs_residual_linf": 3.6302822081779595e-08,
+        "original_normwise_backward_error": 1.893391760322911e-26,
+        "original_backward_error_gate_passed": true,
+        "preconditioner_solve_relative_rhs_residual_linf": 2.9329896880424265e-09
+      },
+      {
+        "mode_bandwidth": 4,
+        "all_modes_in_preconditioner": true,
+        "preconditioner_only_cross_mode_entries_dropped": true,
+        "P_nnz": 608304,
+        "LU_nnz": 1532453,
+        "factor_seconds": 0.09633789899999101,
+        "gmres_seconds": 0.0461974250001731,
+        "gmres_info": 0,
+        "inner_iterations": 14,
+        "all_actual_matrix_products": 16,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          0.9999996759044908,
+          0.9998634369588836,
+          0.9955412941611483,
+          0.9403797487903104,
+          0.45307302554907564
+        ],
+        "residual_history_last": [
+          5.388447127740188e-07,
+          2.6828625554485904e-08,
+          9.371248913414558e-10,
+          2.960268521426126e-10,
+          3.5906242274825405e-11
+        ],
+        "final_original_longdouble_residual_linf": 5.731635610572994e-09,
+        "relative_rhs_residual_linf": 5.731635610572994e-09,
+        "original_normwise_backward_error": 2.9893630896783964e-27,
+        "original_backward_error_gate_passed": true,
+        "preconditioner_solve_relative_rhs_residual_linf": 2.6572375411149096e-09
+      }
+    ],
+    "status": "all_complete_matrix_preconditioner_probes_returned"
+  },
+  "resource_observation": {
+    "scope": "Resource-only replay of the identical already measured M16 complete-matrix algebra probe; no additional nonlinear/native solve or acceptance claim.",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_modal_band_preconditioner.py",
+      "--repo",
+      "/workspace/scratch/7c4e33ee17de/math-research-public",
+      "--predictor-summary",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+      "--outdir",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/modal-preconditioner-m16-resource-20261128-b"
+    ],
+    "returncode": 0,
+    "wall_seconds": 5.2482566520002365,
+    "child_user_seconds": 3.151946,
+    "child_system_seconds": 0.30746799999999996,
+    "child_maxrss_kib": 302800,
+    "linux_ru_maxrss_units": "KiB",
+    "log": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/modal-preconditioner-m16-resource-20261128-b.log",
+      "sha256": "fe73631382cfc26006c8143f8d5bc2a1c4c21530b849905545686eaee57472bb"
+    }
+  },
+  "resource_replay_algebra_scalars_identical": true,
+  "records": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/background-preconditioner-m16-20261128-a/summary.json",
+      "sha256": "924e0cceb7e9831677325e4fd83d583a7ef8eeab91e455106a99b23e0f983fb5"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/background-preconditioner-zero-check-20261128-a/summary.json",
+      "sha256": "0e99823e071c56e8bab79fe27244c69fbd2231e776e88d6638a4c266ea1baaf8"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/modal-preconditioner-m16-20261128-a/summary.json",
+      "sha256": "15e1562ed5f12db9aadb915b004039522587a7551977aae38f214082ba2fee77"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/modal-preconditioner-m16-resource-20261128-b/summary.json",
+      "sha256": "b372aaeeb28e43245f7e844c471ba36298af604536aeebe7763d9530275ff292"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/modal-preconditioner-m16-resource-20261128-b.json",
+      "sha256": "e31fcc1772c7b9e742cd39ce05f4dd36de55fed2506a4cb4baf361c5ec6fc5ac"
+    }
+  ],
+  "complete_surface": false
+}

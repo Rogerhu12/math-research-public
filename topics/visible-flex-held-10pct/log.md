@@ -104,3 +104,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[λ.128/M40完整割线进程](notes/2026-11-28-design-lambda128-process-interruption.json)在第一完整QR方向返回后child−9，无raw/physical/audit；终止原因未知，不能判数学失败。旧控制器已自动分到.096，活算保持，其下一次启动前有显式目录屏障。独立后继不会用信号/MemoryError作λ二分。
 
 - 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[真M40解析δ适配](notes/2026-11-28-design-analytical-delta-adapter-m40.json)16真实节点全121×161列：RHS/dy/其余参数列逐位同，δ列相对FD差7.866e−10；[V5完整加载](notes/2026-11-28-design-v5-loader-probe-m40.json)952节点初始域真过、22.56s/510832KiB，无BVP/J/factor。新入口保完整nodal快照和资源退出，未来显式选择独立无环QR v2；不称新Newton已通过。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[完整literal方向方程](notes/2026-11-28-tail-literal-jvp-structure.md)保δL0与全部K+2分量。[真M16/36896未知预条件实测](notes/2026-11-28-tail-gmres-preconditioner-actual.md)：零背景块原native5段核数值差0，但完整系统200步停滞；实际±4模带P且完整A不删项14步info0，真实LD残差5.73164e−9。P依赖已付完整J，不称新native或非线性接受。
