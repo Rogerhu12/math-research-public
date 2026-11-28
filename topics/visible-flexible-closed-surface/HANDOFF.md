@@ -40,6 +40,8 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 [R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)原极坐标连接连续嵌入；R266单调高度射线TV缺口/R269逐圈相似必要障碍限定各自前提，不排全位置新解。原87α、仅后缀36α、冻结design3与新S均有独立own/baseline；改变g/源/基底不得借旧接受或几何。[设计3实际四步](notes/2026-11-28-2ecf-h65-frozen-design-three-sextic-four-actual-steps.md)及[实际整圈归一更坏](notes/2026-11-28-2ecf-hf64-frozen-metric-actual-ring-arclength-and-scale.md)保留。
 
+<!-- 2ecf-new-material-ports --> [ΔS .025真实端口及双轴全角场](notes/2026-11-28-2ecf-strong-new-length-R205-axis-fields.md)：半弯两轴可控，但真实二维G11 .305104/κ28.262，未闭合强目标。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R271已付三分量全部近点；R272留给exact统一势全核/加帽几何。优先继续真实强度量/曲率求解，几何新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -48,4 +50,4 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:25:49 UTC；已读公开 main `a5573259d36953a18cb36b9302ffab813bad16bd`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:26:00 UTC；已读公开 main `c4ec8ad9d11d1e702d2f447d4d691be256d6e4af`，根/课题 README 逐差无变化。
