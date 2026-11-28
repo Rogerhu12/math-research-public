@@ -7,29 +7,30 @@
 固定E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。有限p、变曲线、条件接口均不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库且至少每小时；非FF立即两库pull --rebase、查四README差异并记已读commit，再推直到成功，不force。令牌仅命令行/进程，不入文件/提交/API。
 全部数学仅公开Actions，4CPU/16GB/6h，账户至多20并发。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则15禁存可重算log/数据/矩阵，只留源/参数/run/hash/必要原输入。独立结论新R，同结论续同号；不设冻结/额外复核门。公开16/私库15要求子代理显式gpt-6.2-astra/ultra，09:47起已全遵守。
-[整理前完整H](notes/2026-11-28-handoff-before-complete-kummer-spectral-specialization.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
+[整理前完整H](notes/2026-11-28-handoff-before-exact-signed-kummer-power-tests.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
 
 ## 实际同步、已读规则、认领
 
-本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；公共pack已逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 14:07:11 UTC实际pull --rebase，读取main 5a79778af13eed02b18636db30ac6b2a58ba4a14；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 14:07:06 UTC实际pull --rebase至721fc92d5e1bec81f365321849a90bbefe3a2510；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；两库pack逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128和/tmp/rank2-0b097461-private-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
+- 公开2026-11-28 14:13:18 UTC实际pull --rebase，读取main 470e14a5af1ecaceae962748668446a467c94dd0；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 14:13:14 UTC实际pull --rebase至16ad5fb1ffc09661d25d1c327ba3832655b15c6e；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3286/47657850B/tree66c7b39b38a51b7f42377cd5ef92ac48befad1d3；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
 
-[v16终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)run46126639698/job140922574854为真800万transcript预算MemoryError，非OS OOM；无端点/outer/PASS，详情不重跑。
-[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)source84917b3eab61681c70cf8f01112139eb0b6288df/run46139352999/job140961628765。根13:00首次取得同代理前缀2101953B/SHA30dfd00a545a3308f9360603c86a6c85b0eb050269b26b0f11e43fb3dadebd6f，至12:47:08.5388279Z；80实际文件/76请求pins、F/P同次独立读者及22RESULT/SHA均核。可见前缀记真T两图10HNF及∞纤维86/306；未刷新不能证明当前停在该行；尚无A端点/四outer/后门PASS。固定29/shadow/artinian/2453/batch64/minimal/preflightfalse/4CPU16GB21000s/Sage10.6禁网只读不变。
-[短图软件](notes/2026-11-28-original-short-global-graph-software.md)source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713实际PASS9.166759972s；43pins、8+14全图及全部拒绝、真二次域/π²/δ0尾由根/代理各核，原失败边界保留，不代306生产。
-[v18](notes/2026-11-28-original-short-global-graph-production-v18.md)source702f361f1cf4725a870a1740a34688e75b2bc469/run46147595142，13:02:18创建，13:03读pending/零job，同heavy group不取消v17。85pins及六个同软件模块逐字接回原端点/两图/后理想全X及既有全部下游；独立host核Sage后实际线程/无凭据。尚无新85pins/F/P实际运行或生产PASS。
-[R1071 §§1–16](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)及[§17起](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)保原全N/D、LaurentX及post-ideal双理想完整X。旧G13维1164/总厚度21、原域完整多链；两端有限负2255/正2256/U1，反图负2253/正2256/U3，历史paired帽18/20。A4/V4给Z1156属127、原九点同降、四交39840→9960；旧T/v和18×9分块未自动四次方。§17同q/−4log frame、真G3维228/1483项、972乘积秩840，全两截面回612paired rows；原Artin0/2的高A/B2095项已付。§18三正规化总缺864及真étale四盖；§19原F G2维162/937项和四真实minor厚交，物理W244待执行。四理想待实际返回。§20用真W3=W2+uW2及每端八个全W8返回；[独立G3软件](notes/2026-11-28-original-descended-g3-pencil-software.md)40pins实际PASS：source c5ac865e508ff7e4f6ead488e8ce8d54ac95787b/run46151076917/job140997639248，4.774745981s；根/代理全log 61834B/74bcf2b05078a2bac3fd5688b5b228b719669b1937f3e78752b4823369d2d863及完整attach均核，不代1156/306。
+[v16终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)为800万transcript预算MemoryError，非OS OOM，无端点/outer/PASS，不重跑。
+[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)source84917b3eab61681c70cf8f01112139eb0b6288df/run46139352999/job140961628765。14:03根读API仍in_progress，完整可见前缀2101953B/SHA30dfd00a545a3308f9360603c86a6c85b0eb050269b26b0f11e43fb3dadebd6f，至12:47:08.5388279Z；同前缀不证明当前卡在该行。80实际文件/76pins、同次F/P及22RESULT/SHA已核，尚无实际端点/四outer/PASS。全部run参数与原硬件/禁网只读见原note。
+[v18](notes/2026-11-28-original-short-global-graph-production-v18.md)source702f361f1cf4725a870a1740a34688e75b2bc469/run46147595142；14:02根读pending，same heavy group，85pins/全原下游已核但未运行，未付生产PASS。
+[短图软件](notes/2026-11-28-original-short-global-graph-software.md)run46145004405/job140978975713/source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3实际PASS9.166759972s，43pins/全部域与拒绝由根代理各核；不代306生产。
+[R1071 §§1–16](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)、[§17起](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)保原全N/D与post-ideal完整X。§17实际Z1156属127、G3维228/1483项、972乘积秩840及高A/B2095项已付；§18三正规化总缺864、真étale四盖，旧18×9未自动四次方；§19原F G2维162/937项、四minor交39840→9960和物理W244待实做。§20真W3=W2+uW2及每端八全W8返回。
+[G3软件](notes/2026-11-28-original-descended-g3-pencil-software.md)40pins实际PASS4.774745981s：sourcec5ac865e508ff7e4f6ead488e8ce8d54ac95787b/run46151076917/job140997639248，根/代理完整log61834B/74bcf2b05078a2bac3fd5688b5b228b719669b1937f3e78752b4823369d2d863与attach均核；不代1156/306。四T/v全标量图候选已根读，真实生产仍待执行。
 
 ## 原两/三位与三个实际目标：R1067
 
-[原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)；所有旧槽/精度/原模型见归档，不重做。EN三位/Ed两位首剩余仍容许坏j1。九17标记的三实际中心给J=3Σr_i^uI_i，Gaussian Gwt非零且三中心比模固定S-unit秩2，但J′/3=Gwt+ΣI_i′的完整过收敛余积分仍可抵消；复阶2/(p−1)只排有限覆盖代数化。
-§§62–65原3024K严格范数相容，全p挠真S,p-unit；原b⊗V17的289真实平移全保Ci/参考逆，偶log奇矩零不代原Rubin。§66原1008D同样严格范数，Klein值无Teich，Hall保G因子。§§67–68真wild Kummer及全部原AH3加权逐纤维log非零，未与J′等同。§69原全驯dlog准确回Hecke中央L/R716 Hall平方，尚未证明其非零。§70全除子Poincaré对角=C*u(j)Jp(j)²，二阶2C*u(0)Jp′²，原κ0/双周期/θ⁻¹³全付。§71完整f与τ⁻¹型的平凡/首wild Kummer非零，M=p的ε(p)保留。§72同一列在整双变量LT模恰−H/(12J)乘原Robert列；完整T⁻¹后回AL4，仍容许中央高阶零。§73所有双变量有限角色非零，真实d_j下降Φ_j后给τ型域正规基；整行列式和中央谱特化未付。
+[原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56–73](results/R1067-original-three-target-units-and-integral-isotropic-source.md)、[74起](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)；所有旧槽/精度/原模型见归档，不重做。EN三位/Ed两位首剩余仍容许坏j1。九17标记的三实际中心给J=3Σr_i^uI_i，Gaussian Gwt非零且三中心比模固定S-unit秩2，但J′/3=Gwt+ΣI_i′的完整过收敛余积分仍可抵消；复阶2/(p−1)只排有限覆盖代数化。
+§§62–65原3024K严格范数相容，全p挠真S,p-unit；原b⊗V17的289真实平移全保Ci/参考逆，偶log奇矩零不代原Rubin。§66原1008D同样严格范数，Klein值无Teich，Hall保G因子。§§67–68真wild Kummer及全部原AH3加权逐纤维log非零，未与J′等同。§69原全驯dlog准确回Hecke中央L/R716 Hall平方，尚未证明其非零。§70全除子Poincaré对角=C*u(j)Jp(j)²，二阶2C*u(0)Jp′²，原κ0/双周期/θ⁻¹³全付。§71完整f与τ⁻¹型的平凡/首wild Kummer非零，M=p的ε(p)保留。§72同一列在整双变量LT模恰−H/(12J)乘原Robert列；完整T⁻¹后回AL4，仍容许中央高阶零。§73所有双变量有限角色非零，真实d_j下降Φ_j后给τ型域正规基；§74全CW/绝对周期给d^ac=6fH^ac A_p ξ1，原中央坏恰T³整除并自动T⁴；所有有限角色非零未排除它。
 
 ## 原中央与完整全层：R1070/R1072
 

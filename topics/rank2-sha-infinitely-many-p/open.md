@@ -552,3 +552,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1073 §22：真实全九标记付绝对相位与两原权反演
 
 母δ商的实际三级标记经全9同Weil分量确定β_C=1；原Fermat反演准确为(−λ/μ,1/μ)，全部差点log反号。原两角色给H±=(1±μ)h/2及真实额外±h·dμ，固定商3Z²=4X³−1保同一变动水平周期，未产生额外canonical坏行。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §74：完整原Robert类准确回同一signed中央系数
+
+同一完整Tate/反圆投影精确为r^ac=72f(c²−c)Fθ*ξ17及d^ac=6fH^ac A_p ξ1；所有有限CW读者的符号、绝对因子、实际Betti/Tate及primitive Euler同留。原中央坏等价d^ac∈T³V*且自动升T⁴，有限层域正规基未排除此整除。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

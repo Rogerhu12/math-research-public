@@ -491,3 +491,11 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:06:56 UTC到a48fed2d4e889dac6c5bf706553ebbd23fc06f74，私库2026-11-28 14:06:52 UTC到dd3e2469f77055fb0bc584da4089b1aef4cc2853；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec，无>5MB。
 
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 14:07:11 UTC到5a79778af13eed02b18636db30ac6b2a58ba4a14，私库2026-11-28 14:07:06 UTC到721fc92d5e1bec81f365321849a90bbefe3a2510；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec，无>5MB。
+
+## 2026-11-28 14:12:50 UTC：R1067 §74：完整原Robert类准确回同一signed中央系数
+
+根读BKO原刊(2.1)–(2.9)、Th2.1、Prop3.1(3.3)及Definition3.13，核导子pʲ对应n+1、barψ/实际理想η与R716倒角色、ε(pʲ)与πʲ符号、平凡读者s0=0。Yan–Zhu§1.2.1逐式核不变dlog，无额外tame因子且不搬其逆κ约定；R303原Betti/Tate/θ微分恰消。每个有限读者全零由两signed交零付类等式，再以整基ξ1读T³。私库848个pack共146023373B已逐字hash核迁tmp并检查HEAD/README/QUEUE，未动远端。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:13:05 UTC到e14d69d8fbc101270a48c094d457e4a63011348e，私库2026-11-28 14:12:55 UTC到6b91001b227e31fa54615941e7510f684baf3277；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47657850B/tree66c7b39b38a51b7f42377cd5ef92ac48befad1d3，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:13:18 UTC到470e14a5af1ecaceae962748668446a467c94dd0，私库2026-11-28 14:13:14 UTC到16ad5fb1ffc09661d25d1c327ba3832655b15c6e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47657850B/tree66c7b39b38a51b7f42377cd5ef92ac48befad1d3，无>5MB。

@@ -1784,3 +1784,7 @@ $\Phi[G_j]$ 模。扩到分裂域以后，每个特征线恰一次；
 便给(AO1)。另一外部嵌入连同 $\varepsilon,\tau,\beta$ 共轭，
 给相应共轭特征空间的同一结论。两者不声称张量模的一个
 元素能同时成为两个分量上的整自由基。
+
+## 同一R1067的后续证明
+
+§74起见[原signed Kummer特化及有限幂测试](R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。保§66起的p>211、K惰性及(17/p)=1原范围，同一原类与canonical二阶不变。
