@@ -1,0 +1,248 @@
+{
+  "schema": "isp-original-b0-whole-face-fixed-eight-first-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_utc": "2026-11-28",
+  "run_id": "46126392724",
+  "job_id": "140921825207",
+  "driver": {
+    "elapsed_seconds": 1.6863977530000014,
+    "max_child_rss_kib": 48572,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "492ad39544838857deb807bcaeb5520d5e1b18ed",
+        "before": "492ad39544838857deb807bcaeb5520d5e1b18ed",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T08:33:54.087736+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46126392724",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "492ad39544838857deb807bcaeb5520d5e1b18ed",
+    "source_exit_code": 0,
+    "source_git_blob": "7ea83a3e60ecb8a57b1e02470730e63ba56a1b89",
+    "source_sha256": "a11fa3741692def8a90a04324378be92531c6e55569da596c59321e8b4116677",
+    "stdout_bytes": 6580,
+    "stdout_sha256": "612f2a1074ccad398ab76cadbbf8f8aebe3f7e2625ad9187c597ec930ffea4ac",
+    "stop_reason": null
+  },
+  "budget": {
+    "inner_seconds": 180,
+    "address_space_bytes": 4294967296,
+    "outer_seconds": 195
+  },
+  "math": {
+    "scope": "current W original distinct singleton values, physical D nonzero, entire b0=0",
+    "original_input_recovery": "Astar unit only on b0=0; T=-u*Q*ell*(3-2*lambda)/Astar; original C4 with physical D gives aDelta=0; retain full R6",
+    "input_records": [
+      {
+        "label": "original_aDelta_quadratic",
+        "raw": {
+          "zero": false,
+          "degrees_e_k_lambda": [
+            11,
+            9,
+            2
+          ],
+          "totalDegree": 19,
+          "terms": 255,
+          "bytes": 4331,
+          "sha256": "d43231e858a11f1ed383ad22c1973a7510a00b504ce53f6c77ab93c373dae93d"
+        },
+        "necessary": {
+          "zero": false,
+          "degrees_e_k_lambda": [
+            7,
+            9,
+            2
+          ],
+          "totalDegree": 15,
+          "terms": 163,
+          "bytes": 2778,
+          "sha256": "88bf8a85f29cbe0aa6c11c63d322e08f95777247596dc82858df9047c4d54ed8"
+        },
+        "fullClearingProductReturned": true,
+        "onlyPaidSupportRemoval": [
+          {
+            "paidSupport": "e",
+            "gcdLayers": 1
+          },
+          {
+            "paidSupport": "u",
+            "gcdLayers": 3
+          }
+        ],
+        "coefficientDenominatorsPaidOnThisWholeBranch": true,
+        "allLambdaLeadingZeroFibersKept": true,
+        "stage": "new_entire_b0_zero_original_lambda_input",
+        "seconds": 0.020813841999999028
+      },
+      {
+        "label": "original_R6",
+        "raw": {
+          "zero": false,
+          "degrees_e_k_lambda": [
+            21,
+            21,
+            6
+          ],
+          "totalDegree": 40,
+          "terms": 2603,
+          "bytes": 60751,
+          "sha256": "3ffaecd877bce903f72fa47cb402ed79d1ed4ea545152a99b5646aeb9f8a54ab"
+        },
+        "necessary": {
+          "zero": false,
+          "degrees_e_k_lambda": [
+            13,
+            15,
+            6
+          ],
+          "totalDegree": 29,
+          "terms": 1141,
+          "bytes": 24221,
+          "sha256": "92840a3ef63d3a606929f43dd88e7eb5d02a5f27407ac6fe3dfddaec531e4421"
+        },
+        "fullClearingProductReturned": true,
+        "onlyPaidSupportRemoval": [
+          {
+            "paidSupport": "u",
+            "gcdLayers": 5
+          },
+          {
+            "paidSupport": "whole_ell_zero",
+            "gcdLayers": 3
+          }
+        ],
+        "coefficientDenominatorsPaidOnThisWholeBranch": true,
+        "allLambdaLeadingZeroFibersKept": true,
+        "stage": "new_entire_b0_zero_original_lambda_input",
+        "seconds": 0.04735140100000024
+      }
+    ],
+    "raw_resultant": {
+      "result": {
+        "zero": false,
+        "degrees_e_k_lambda": [
+          64,
+          84,
+          0
+        ],
+        "totalDegree": 124,
+        "terms": 4077,
+        "bytes": 203451,
+        "sha256": "86511dda8479808aa3a17623606f490ef2e7c9b1057a9c784790385f4795c910"
+      },
+      "allFiniteCommonLambdaRootsCovered": true,
+      "allLambdaLeadingZerosKept": true,
+      "noOriginalBranchExclusionYet": true,
+      "stage": "new_entire_b0_zero_original_weight_resultant",
+      "seconds": 1.506848853000001
+    },
+    "retained": {
+      "necessary": {
+        "zero": false,
+        "degrees_e_k_lambda": [
+          43,
+          53,
+          0
+        ],
+        "totalDegree": 78,
+        "terms": 1697,
+        "bytes": 66020,
+        "sha256": "cb5eaec8695f8bd013bc5023f6d083c070881799ce57362dac81df0e2844069f"
+      },
+      "onlyPaidSupportRemoval": [
+        {
+          "paidSupport": "k",
+          "gcdLayers": 6
+        },
+        {
+          "paidSupport": "Vbar",
+          "gcdLayers": 1
+        },
+        {
+          "paidSupport": "M",
+          "gcdLayers": 2
+        },
+        {
+          "paidSupport": "whole_ell_zero",
+          "gcdLayers": 2
+        },
+        {
+          "paidSupport": "Astar_paid_only_on_entire_b0_zero",
+          "gcdLayers": 12
+        }
+      ],
+      "fullOriginalClearingProductReturned": true,
+      "allUnpaidWeightFactorsKept": true,
+      "wholeB0FaceExcluded": false,
+      "stage": "new_entire_b0_zero_retained_original_weight_curve",
+      "seconds": 1.6006706249999993
+    },
+    "complete_factorization": {
+      "factors": [
+        {
+          "multiplicity": 1,
+          "factor": {
+            "zero": false,
+            "degrees_e_k_lambda": [
+              43,
+              53,
+              0
+            ],
+            "totalDegree": 78,
+            "terms": 1697,
+            "bytes": 63059,
+            "sha256": "0ae3e9daca7eda26a7e7e1e33bb5f3457080f98e871f489fcd7dddf1f5295770"
+          }
+        }
+      ],
+      "completeQQFactorProductReturned": true,
+      "noMultivariateGcdOrModularEmptinessInference": true,
+      "allUnpaidFactorZeroFibersRemain": true,
+      "wholeB0FaceExcluded": false,
+      "stage": "new_entire_b0_zero_complete_QQ_weight_factorization",
+      "seconds": 1.611468378999998
+    },
+    "completion": {
+      "sourceSHA256": "a11fa3741692def8a90a04324378be92531c6e55569da596c59321e8b4116677",
+      "statistics": {
+        "exactDivisionProducts": 223,
+        "bareissProducts": 140,
+        "paidSupportProducts": 83,
+        "factorProductReturns": 1
+      },
+      "allAstarZeroCasesAlreadyCoveredOnThisFace": true,
+      "noAstarPaymentOutsideB0Face": true,
+      "currentWComplementStillRetained": true,
+      "ordinaryISPClaim": false,
+      "noCoefficientCachePayloadOrChunksSaved": true,
+      "peakRSSKiB": 48572,
+      "stage": "new_entire_b0_zero_first_input_complete",
+      "seconds": 1.611638125999999
+    },
+    "all_lambda_leading_zero_fibers_retained": true,
+    "all_intermediate_bareiss_pivot_zero_fibers_retained": true,
+    "paid_removal_counts_are_gcd_layers_not_whole_factor_exponents": true,
+    "whole_b0_face_excluded": false,
+    "finite_weight_set_claim": false,
+    "ordinary_isp_claim": false
+  },
+  "storage": {
+    "coefficient_payload_saved": false,
+    "large_matrix_saved": false,
+    "source_plus_parameter_definitions_and_hashes_only": true
+  },
+  "verification": {
+    "inner_log_read_directly": true,
+    "original_successful_gates_replayed": false,
+    "new_gate_only_fixed_two_six_original_lambda_resultant": true
+  }
+}
