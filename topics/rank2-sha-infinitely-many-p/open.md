@@ -8,7 +8,7 @@
 
 [R1067 §§98–111](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)及[§112起](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)保原完整Tate源。较弱充分门已经是原全域阶A_Z≤2或真实二变量六个混合二次jet至少一项非零；不必坚持a₂模p单位。全Sha无限迫六jet每k整零，并在全部好惰性p迫原五个分离槽同时零。普通固定θ分裂列保两p位完整范数，M的两个整系数亦须零。
 
-同一M∈Q(E17)给固定有理数列A(z)=log M(P_E(z))=Σm_n z^n、m₁=0。§112已付真实I³系数提升、有限驯点特化、全部Teich精度、物理LT与分歧对数损失。§112.6现以全域首齐次项互反/CW₁=0加强为t=corank Sha≤min(v_p(m_p)−1,v_p(m_{p²+p−1})−1,v_p(m_{p²}))；由偶性，前两赋值任一≤2或第三≤1即足够。rank2已使m_p、m_{p²+p−1}在pZp且m_{p²}整，原m_p模p非零门处处关闭。优先证明无穷不同p违反坏情形的p³/p³/p²整除。§§110–113也已将五槽全写在同一固定通用向量扩张，但固定表达本身不保证非零。
+同一M∈Q(E17)给固定有理数列A(z)=log M(P_E(z))=Σm_n z^n、m₁=0。§112已付真实I³系数提升、有限驯点特化、全部Teich精度、物理LT与分歧对数损失。§112.6现以全域首齐次项互反/CW₁=0加强为t=corank Sha≤min(v_p(m_p)−1,v_p(m_{p²+p−1})−1,v_p(m_{p²}))；由偶性，前两赋值任一≤2或第三≤1即足够。rank2已使m_p、m_{p²+p−1}在pZp且m_{p²}整，原m_p模p非零门处处关闭。§112.7普通a_p≠1也给t≤v_p(m_p)−1；例外a_p=1仅O(√X)。若主目标失败，同一个固定m_p在密度一素数须被p³整除。优先排除这个两种分裂型共同的高整除，或证明无穷惰性p违反p³/p³/p²条件。§§110–113也已将五槽全写在同一固定通用向量扩张，但固定表达本身不保证非零。
 
 原Y_k=0⇔p^k|a₂及实际邻点dlog读者仍有效；不能用有限角色非零、单一乘子或曲率补偿非零替代完整目标。[新形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)证明五槽乃至整个χ分量加Cartier/µ6仍不够推出AQ倒数读者为零，缺χ^(p+2)型；必须补原固定源的真实跨角色关系，而非再次形式联立。
 
@@ -237,3 +237,7 @@
 ### R1067 §116：两固定Heisenberg联络的真曲率子式
 
 已证明：同一E₁上d+A₁、d+Aₓ保−dlogx/2及−ω/−xω；两型真p曲率满足Ψ₁₁₃Ψₓ₂₃−Ψₓ₁₃Ψ₁₂₃−x^p=g^pG。完整极、Cartier、µ6及ordinary Kπ识别已付。原M^-3由实际T_t的x平移乘积精确给出；该子式是二次式，未冒称整个联络p曲率消失。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §112.7：普通双位下降与两型共同的素数指标界
+
+已证明：同一物理M及固定m_p在普通a_p≠1时也有t=corank Sha≤v_p(m_p)−1。真实两位互反使当地类额外含I，完整étale范数保1−α⁻¹[gα]⁻¹；未分歧扩张可有p次数，以H¹_unr=0的Kummer限制单射下降。与惰性CB9合并，若主目标失败，则密度一素数均有m_p∈p³。跨p矛盾仍未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

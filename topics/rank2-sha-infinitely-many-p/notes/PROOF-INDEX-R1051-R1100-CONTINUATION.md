@@ -333,3 +333,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1071/v18：实际运行中前缀已独立取得
 
 根18:55取得2101845B真实前缀，核13单次及10native RESULT原串摘要；原85pins/89文件、F/P、实际runtime均已核。仅central T两图原全行及∞列82/306已回，完整四交/九pairs/终门仍缺。[实际回执](2026-11-28-original-short-global-graph-production-v18.md)。
+
+### R1067 §112.7：普通双位下降与两型共同的素数指标界
+
+已证明：同一物理M及固定m_p在普通a_p≠1时也有t=corank Sha≤v_p(m_p)−1。真实两位互反使当地类额外含I，完整étale范数保1−α⁻¹[gα]⁻¹；未分歧扩张可有p次数，以H¹_unr=0的Kummer限制单射下降。与惰性CB9合并，若主目标失败，则密度一素数均有m_p∈p³。跨p矛盾仍未付。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

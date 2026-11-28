@@ -450,6 +450,175 @@ $m_p,m_{p^2+p-1}\in p\mathbf Z_p$及$m_{p^2}\in\mathbf Z_p$。
 (CB4)–(CB7)作为必要条件仍正确，但(CB9)给当前较强的有效门。
 尚未由此证明存在无穷多个满足该门的素数。
 
+### 112.7 普通双位的真实下降与同一素数指标的一致余秩界
+
+**已证明。** 仍用(CB2)的物理曲线$E_{17}$、同一个$M$和同一个有理数列$m_n$。设$p>211$在$K$分裂，$a_p(E_{17})\ne1$。则
+$
+ \boxed{\qquad
+ t_p=\operatorname{corank}_{\mathbf Z_p}\Sha(E_{17}/\mathbf Q)[p^\infty]
+       \le v_p(m_p)-1 .
+ \qquad}                                                       \tag{CB14}
+$
+因此$v_p(m_p)\le2$足以推出该通常全$p$初级部分有限；若它无限，则$m_p\in p^3\mathbf Z_p$。本节不要求$p$在固定标记域或六次扭转域完全分裂。
+
+#### 两个普通位的方向和全域首项
+
+写$p=\mathfrak p\bar{\mathfrak p}$，取实际Hecke Frobenius
+$
+ \pi=\psi_{17}(\mathfrak p),\qquad
+ \alpha=\bar\pi,\qquad \pi\alpha=p.
+$
+在$\mathfrak p$完成$\Phi=\mathbf Q_p$，$\pi$为均匀化元，$\alpha$为单位，
+$\alpha\bmod p=a_p\bmod p$。由Hasse界及$p>211$，
+$\alpha\equiv1\bmod p$等价于$a_p=1$，故$\alpha-1$为单位。
+固定$\rho=\rho_{\mathfrak p}$。原系数在增广处为
+$W_0=\rho^{-1}(1)=\rho_{\bar{\mathfrak p}}$；
+它在$\mathfrak p$是Frobenius值$\alpha$的未分歧权零表示。
+Tate对偶$V=\rho_{\mathfrak p}$在该位是形式群分量。
+不要把$W_0$在另一位的一维有限条件误置于本位。
+
+令$s=2+t_p$、$h=s-1$。§105及112.5已经给真实全域提升
+$
+ \widetilde{\boldsymbol Z}\in H^1(K,I^h\mathbb W)
+$
+和首齐次全域类$\eta_a\in H^1(K,W_0)$。
+本位残余$H^0(W_0)=0$，因为$\alpha-1$为单位；
+残余$H^2(W_0)=0$，因为对偶$V$的惯性具有满的非平凡驯角色。
+局部Euler特征给残余$H^1$维数一。
+对每个有限长$\Lambda_2$商重复112.5的分次提升、长度比较，
+得到实际当地模及全部整系数基变换
+$
+ P=H^1(\Phi,\mathbb W)\simeq\Lambda_2,\qquad
+ P/IP=H^1(\Phi,W_0).
+$
+特别$P/IP$无$p$挠。
+
+对每个$\eta_a$，与原非挠有理点的$V$-Kummer类应用全域Tate互反。
+非$p$位的有理局部上同调为零；在$\bar{\mathfrak p}$，
+$V$为非平凡未分歧权零分量，其有限Kummer像为零。
+在$\mathfrak p$，该点的非零形式对数张满$H^1_f(\Phi,V)$。
+故$\operatorname{loc}_{\mathfrak p}\eta_a$属于其正交补
+$H^1_f(\Phi,W_0)$；后者是零，因为$W_0$未分歧且$\alpha\ne1$。
+这先给有理零，再由$P/IP$无$p$挠给整零。
+按(CB10)的同一首分次识别，得到额外的一次真实当地理想整除
+$
+                 \operatorname{loc}_{\mathfrak p}\boldsymbol Z
+                     \in I^{h+1}P=I^sP .                      \tag{CB15}
+$
+这一步只在已证自由的当地模上进行，没有将全域$H^1$误作自由模。
+将另一变量投为一后，像属于真实一变量模的$T^s$。
+
+#### 保住另一普通位的全范数，再下降到真实LT塔
+
+§109的(BY1)先在完整双位射线层做真实范数。
+以$P_j$记其原$\pi^j$形式坐标，原单位张量精确为
+$
+ \Theta_j\!\left(M([\alpha^j]P_j)\right)
+       -\Theta_j\!\left(M([\alpha^{j-1}]P_j)\right).             \tag{CB16}
+$
+这里$\Theta_j$含原全部角向权$w^{-1}[g_w]^{-1}$；
+公式先保留整个未分歧层，未预先删除另一普通位。
+取$Q_j=[\alpha^j]P_j$，则$[\pi]Q_{j+1}=Q_j$。
+实际$\varepsilon(\pi)=1$，(BT6)给
+$\operatorname{Norm}_{[\pi]}M=M$，
+所以$(M(Q_j))_j$是真正的$\pi$-LT范数相容系统。
+以$\Theta([d]u)=d[g_d]\Theta(u)$重标(CB16)，得到完整算子
+$
+                (1-\alpha^{-1}[g_\alpha]^{-1})
+                    \Theta_j(M(Q_j)).                        \tag{CB17}
+$
+其增广为$1-\alpha^{-1}$，是整群环单位。
+固定辅助算子$103^2-103[g_{103}]$及原常数也始终保留。
+
+须特别核清从全射线完成到
+$\Phi_j=\Phi(E[\pi^j])$的下降。
+$\Phi_j/\Phi$是完全分歧的真实LT塔。
+固定$\mathfrak f$层只产生次数除$288$的未分歧扩张，
+此部分可用两边同时res/corestr并消去单位次数。
+但是另一支$\alpha^j$挠点可以再产生含$p$幂次数的未分歧扩张；
+**整个全射线完成相对$\Phi_j$的次数不一定是$p$单位。**
+
+这里改用精确的限制单射，不除该次数。
+固定$k$并取$j\ge k$。在$\Phi_j$上，
+$\rho_{\mathfrak p}\bmod p^k$平凡，而
+$\chi_{\mathrm{cyc}}=\rho_{\mathfrak p}\rho_{\bar{\mathfrak p}}$，
+所以$\mu_{p^k}$是未分歧模块，其算术Frobenius为$\alpha$。
+于是
+$
+ H^1_{\mathrm{unr}}(\Phi_j,\mu_{p^k})
+       =\mu_{p^k}/(\alpha-1)\mu_{p^k}=0.
+$
+对任意有限未分歧扩张$L/\Phi_j$，
+限制核由inflation包含在这个未分歧上同调群中，故
+$
+ H^1(\Phi_j,\mu_{p^k})
+       \longrightarrow H^1(L,\mu_{p^k})
+       \quad\hbox{单射}.                                     \tag{CB18}
+$
+(CB16)–(CB17)的右边本已定义于$\Phi_j$。
+在共同全层比较实际Shapiro等式后，(CB18)对每个$k$
+把等式和相应的模$p^k$消失降回$\Phi_j$；
+取相容极限恢复真实LT模中的身份。
+取群环恒等系数只除驯群阶$p-1$，绝不除野群阶或未分歧$p$次数。
+这同时保住(CB15)的一变量$T^s$整除。
+
+#### 物理坐标的一项完整Coates–Wiles读者
+
+物理参数$t=-x/y$的$[\pi]$级数模$p$为$t^p$。
+真实LT级数$\pi s+s^p$与之有唯一导数一整严格同构$u(s)$。
+如112.2的逐阶论证，分母$\pi^n-\pi$赋值一，
+模$p$的误差由$\mathbf F_p$ Frobenius相容性保证可除；
+因此$u(s)\in\mathbf Z_p[[s]]$，没有额外周期尺度。
+物理不变对数为
+$
+ \ell(s)=z(u(s))
+      =s+\ell_1s^p+O(s^{2p-1}),\qquad
+             \ell_1=(\pi-\pi^p)^{-1}.
+$
+对任意真正范数单位的Coleman函数$F(s)\in\mathbf Z_p[[s]]^\times$，
+记$\beta_n=n[s^n]\log F(s)$。全部$\beta_n$整，故
+$
+ \mathcal W_p(F)
+   :=p[z^p]\log F(\ell^{-1}(z))
+     =\beta_p-p\ell_1\beta_1\in\mathbf Z_p                    \tag{CB19}
+$
+是整个单位格上的整连续读者；这里$p\ell_1$是单位。
+范数单位与Coleman级数的识别仍取112.5所引
+Schneider–Venjakob，Theorem 2.2、Remark 2.3，
+只在真正的$\Phi$及其$\pi$-LT塔应用。
+
+原Tate扭转使$\Lambda$的$[g_d]$在未扭范数单位上作$d^{-1}[d]$。
+所以(CB19)的实际权为$d^{p-1}$；
+对主单位$d$，$d^{p-1}-1\in p\mathbf Z_p$。
+原驯分量是$e_\tau$，而$p\equiv1\bmod(p-1)$，
+故该读者准确落在原源上。
+(CB17)在此权取值$1-\alpha^{-p}$，模$p$仍为$1-\alpha^{-1}$；
+完整平滑算子取值$103^2-103^p$，模$p$为$103^2-103$。
+两者及原固定$(1+\omega_K)/6$、有限驯Shapiro次数均为单位。
+
+真实源的Coleman函数就是$M(u(s))$。
+代回物理对数，(CB19)读数准确为$p\,m_p$，
+没有CM周期、Frobenius错位或人为删去的$\beta_1$。
+因此(CB15)给
+$
+                     p\,m_p\in p^s\mathbf Z_p.
+$
+除去这个明确的$p$并用$s=t_p+2$，即得(CB14)。
+
+#### 两种分裂型合用的范围
+
+结合(CB9)，同一个充分条件$v_p(m_p)\le2$
+适用于全部$p>211$惰性素数以及所有$a_p\ne1$的普通素数。
+普通例外$a_p=1$满足CM范数等式
+$
+                         4p=1+3b^2,\qquad b\in\mathbf Z.
+$
+故$p\le X$的例外数为$O(\sqrt X)$，在素数中密度为零。
+若主目标失败而通常全$\Sha[p^\infty]$只对有限多个$p$有限，
+那么固定序列必须在密度一的素数集合满足$m_p\in p^3\mathbf Z_p$。
+这是一条准确的剩余必要条件；本节尚未排除它，
+也未把密度一的必要条件当成无穷非零的证明。
+
 ## 113. 原第五深槽的椭圆核与第二个整Artin–Hasse算子
 
 **已证明。** 沿§§110–111记$\mathcal H=D_E-xJ$、$J=\partial_Z$、

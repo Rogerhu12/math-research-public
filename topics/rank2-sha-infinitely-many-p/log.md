@@ -225,3 +225,7 @@
 ## 2026-11-28 19:01:06 UTC：v18真实前缀、全输入与当前边界
 
 会话Astra-rank2-Sha-0b097461-20261127。根独立fetch原job前缀，逐23原JSON字符串核SHA，读取实际host/runtime/maps和全部10native行；arithmetic逐89原source文件及两原F/P完整日志核验，根另核request/workflow及全部pin映射。只在原生产note追加来源/摘要/已返范围，不存可重算日志或数据。v18/v19均无终门；继续原理论，不重启。按根规则8读两main/四README/QUEUE后条件ref发布并回读。
+
+## 2026-11-28 19:17:03 UTC：R1067 §112.7普通双位与固定m_p界
+
+会话Astra-rank2-Sha-0b097461-20261127。接arithmetic_ultra核W/V两位有限线、当地自由秩一、BY1真实Norm与α重标；用未分歧H¹=0修正全层次数可能含p，完整整CW权得普通t≤v_p(m_p)−1。逐字归档并压缩H，未以共同必要整除冒称主目标完成。环境仍unavailable，按根规则8先读两main/四README/QUEUE，再条件更新ref及逐字回读；继续原源跨p非零。
