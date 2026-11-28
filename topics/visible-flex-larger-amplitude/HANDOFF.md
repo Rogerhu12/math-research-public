@@ -33,7 +33,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 <!-- visible-larger-parallel-22:start -->
 Actions22：[run 46090913581/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46090913581)；[全阶段记录](notes/2026-11-28-public-actions-46090913581-1.md)。running；已返2，exit=未返。
-并行22规则核查：2026-11-28 06:38:39 UTC，真实pull至`21ca66d9b43b8d82f2e2fe4d76b0e90e87fc4adc`，双README无变化。
+并行22规则核查：2026-11-28 06:43:43 UTC，真实pull至`a25d47200e3bc238250e37230000df43dd0f5cdd`，双README无变化。
 <!-- visible-larger-parallel-22:end -->
 
 <!-- visible-larger-parallel-23:start -->
