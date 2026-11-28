@@ -1,0 +1,48 @@
+{
+  "scope": "Acyclic logging wrapper on the complete saved actual M16 collocation matrix; no new BVP or geometric acceptance.",
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver.py": "dec63ac01d7ff9a17e6f3066a460d0ef8b9f1599635b9260937fb32ed9b23e56",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v2.py": "bf0e84959c2014f7c4a8e42bea2d985788b8eb30af05dd8821d43b9b28fea149",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr.py": "ad93895f46ca1acfca45a1e43245513d7d4bbedc43c3526c764584ffc2ce9bb5"
+  },
+  "actual_matrix_sha256": "a9d655651b6170f1eb8097fe61606dc7a89b40fd181b042ef8e1af305fad4bef",
+  "actual_residual_sha256": "5adf39dd101f6adcd8ec57e7a89337bd6ce034e124fca887a2c3cfd22fafe423",
+  "actual_source_summary_sha256": "3a44c9d73bfdf408a5bd77f729adeb5383c7e3e0941996d0ea6f679456640fba",
+  "matrix_shape": [
+    43087,
+    43087
+  ],
+  "matrix_nnz": 4911918,
+  "n": 49,
+  "nodes": 879,
+  "k": 16,
+  "same_factor_original_and_wrapped_directions_bitwise_identical": true,
+  "factor_alive_while_wrapper_owned": true,
+  "factor_released_immediately_with_cyclic_gc_disabled": true,
+  "original_matrix_residual_max": 1.066670079402443e-20,
+  "event_records": [
+    {
+      "event": "solve_return",
+      "factor": 1,
+      "stats": {
+        "equations": 43087,
+        "state_size": 49,
+        "nodes": 879,
+        "parameters": 16,
+        "internal_nodes_eliminated": 877,
+        "levels": 10,
+        "minimum_relative_R_diagonal": 0.00013001025635714594,
+        "solve_calls": 2,
+        "maximum_componentwise_backward_error": 1.0,
+        "maximum_normwise_backward_error": 2.4970900493918317e-29,
+        "refinement_steps": 4,
+        "stored_factor_bytes": 73397884
+      }
+    }
+  ],
+  "wall_seconds": 2.9387121939998906,
+  "maximum_rss_kib": 348416,
+  "resource_interruptions_causally_explained": false,
+  "new_BVP_invoked": false,
+  "complete_surface": false
+}
