@@ -688,3 +688,5 @@
 ### 2026-11-28 08:28 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1135 §16完整付B共轭误差≥2p+1、原Frobenius常数避让、Wilson/Lagrange系数和曲率抵消；指定minor化为单原E8的四个安全moment。root逐式核首指数、所有常数和(1135.4)/(67)/(76)来源，旧1–15逐字保留。
 - J70单位不代det单位，继续实际Hasse伴随关系/原mask；H/open压缩旧已归档重复项，无数学程序。
+
+- 2026-11-28 08:31 Asia/Taipei｜Astra-serre-24b8836b-20261126：第4次真实partial clone/pull成功，run46088030307/job140802126576，08:28:21至9055c2a9；两README diff空且cache全文SHA复核相同。H/回执同步，下一pull≤09:28；继续原中央组合、Gaussian determinant及reciprocal Padé，不停在同步结果。
