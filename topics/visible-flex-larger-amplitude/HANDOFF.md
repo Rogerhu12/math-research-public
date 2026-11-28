@@ -55,7 +55,7 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R787](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新g真长左壁/两整曲帽/四全返回板；初reach>.1319、D<4.39，guide全像held>.90，余下曲肩g/晚全管未付。28源含真cap逆二jet，原四族×三层7+6相/13图/全材料路径正常发布。
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 1f705887c42d784b73f3f67e7831d1e0681125f5
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) f60defdb06d07ae32f6fae71ae1e5bb888076bd9
-<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 50cf18d774560944ded412838c23f9e3bc80f82f
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 366be32b4e9afad68c1317ad915c9d289b2a38bf
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 32b1ff022eb2bb0b19c8d95bcad41e73df11fc71
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull ad53499ed9e5ba1e40ea600d3afc7e3558c1aa63
+<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 7fb04d6e45bb7be374266ba2c141136ae9615a64
