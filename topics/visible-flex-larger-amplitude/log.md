@@ -510,3 +510,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:35:47 UTC — 28完整按需半波独立启动
 
 六全件149940B：controller19995/164f4a7a只换27四槽literal，workflow2211/be22c050五literal组保原partial clone/依赖/350min/真实pull。request32737/5918c367保51完整父key、53当前key及全source/params/15external；真正数学参数父25，27仅transport。queue74634/2761c59b全6/26/157词，reference只id27→28，science+pure118751/all4 126872超95000，真自然返后整接pure52347，不删selector/预算。完整source3fa8、params68fd已刊；S5半波与全部原数学保，仅按需旋转/同branch角2复用，无速度/结果宣称。19终态失败和26新geometry完整后证保，official run/job/输入/model/point皆待返。H/open旧容量全措辞保ee53固定原件，open§1–6原字不动。双README云核至`7a8d853e1e795ba584980e72f23968d7cae537ef`无变（非pull）。
+
+## 2026-11-28 04:37:14 UTC — 28官方实际启动与研究步骤确认
+
+46108296054/1，workflow433411412/job140865899880，04:35:57Z从cf2e5c85真实启动，研究step实际in_progress。完整官方run/jobs原对象保存，当前未冒输入/model/point/费用。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`081c83a6c080b3a4ba8b1341986bbb0af1a61bbe`无变（非pull）。
