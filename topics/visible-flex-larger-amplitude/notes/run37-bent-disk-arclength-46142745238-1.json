@@ -390,31 +390,31 @@
   "child_pid": 2840,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 26,
-    "utc": "2026-11-28T12:07:29Z",
+    "ordinal": 33,
+    "utc": "2026-11-28T12:07:49Z",
     "original": {
       "event": "arc_objective",
       "call": 16,
-      "norm": 0.23460464029281947,
-      "angle_residual": 0.9811993749781791
+      "norm": 0.018809804524711444,
+      "angle_residual": 0.07015603341636525
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/summary.json",
-      "bytes": 8299,
-      "sha256": "82cd1284157094752d64b1ee69f0a180ca4cc6c283db2953d6708c7084fe48ce"
+      "bytes": 10265,
+      "sha256": "02b7561548cde2153ef19a3aa40e79e75a8558b48b3459072d62eedf6a652de8"
     },
     "complete_small_json": {
-      "elapsed_seconds": 84.01074999100001,
+      "elapsed_seconds": 114.31623412300002,
       "ellipse_source_sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
       "in_progress": {
-        "call": 1,
-        "cost": 1.1590488869771276,
-        "design": "horizontal-r740-ellipse",
-        "layer": "arc-design-1",
-        "stage": 3,
-        "x_sha256": "75abca2ac8d7b640b51f50243735ad4115cea4bea162a1644e88770b3c601715"
+        "call": 22,
+        "cost": 0.00016408340139618951,
+        "design": "tilt44-lift-parent05",
+        "layer": "arc-design-2",
+        "stage": 4,
+        "x_sha256": "3e6569533b00e110fb0bebb1a4dc7aff1f538b187da704d0b8918f28fe728570"
       },
       "numpy": "2.3.5",
       "params_sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c",
@@ -461,6 +461,7 @@
       "schema": "bent-disk-canonical-angle/v1",
       "scipy": "1.17.0",
       "scope": "Approximate full-shoulder solutions. Canonical angle primitive uses sampled Fourier integration. Only the exact central disk and algebraic reflection framework are prescribed; no continuum embedding, reach, exact solution, or refinement convergence is presumed.",
+      "selected_coarse_stage": 0,
       "source_sha256": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6",
       "stages": [
         {
@@ -665,6 +666,73 @@
             "p0_relative_max": 0.0
           },
           "x_sha256": "f6c4ff44bddd4e753ca33bb598cf4d79d45dc928b1fa5f1568b8ee88419efe47"
+        },
+        {
+          "adjoint_abs": 4.163336342344337e-17,
+          "check": {
+            "K_sample_max": 12519.863345528633,
+            "arclength_cross_speed_max": 0.6367244314984689,
+            "gauged_max_relative": 4.859081606036521,
+            "gauged_rms": 0.25488387703200177,
+            "min_angular_speed": 0.003686027132154634,
+            "min_projected_speed_squared": 0.0019840931323420173,
+            "min_signed_equator_height": 0.0,
+            "normal_speed_angular_scatter_max": 3.036515523405411,
+            "origin_radius_sample_max": 1.4113653367613057,
+            "original_coordinate_gram_max": 23.735859918646284,
+            "p0_relative_max": 0.0
+          },
+          "coefficient_count": 202,
+          "configuration": {
+            "angular": 96,
+            "check_angular": 384,
+            "check_radial": 61,
+            "id": "arc-design-1",
+            "lsmr_iterations": 100,
+            "max_evaluations": 90,
+            "mode": 10,
+            "radial": 25,
+            "regularizer": 8e-06,
+            "spans": 6
+          },
+          "cost": 0.010793679812381902,
+          "design": {
+            "angle": 0,
+            "equator_radius": 0.99,
+            "height": 0.17,
+            "id": "horizontal-r740-ellipse",
+            "length": 1.02,
+            "seed": "ellipse"
+          },
+          "elapsed": 14.253021606000004,
+          "exact_disk_support_formula_float": 0.09615223689149766,
+          "exact_unmarked_disk_K_bound_formula_float": 6.904599238658886,
+          "finite_difference_relative": 1.8052623179105606e-09,
+          "frozen_target_source_x_sha256": null,
+          "minimum_support": -0.04523672836878079,
+          "nfev": 80,
+          "njev": 51,
+          "optimality": 0.005489313297861246,
+          "sample_witness_to_upper_shoulder": 0.7550695441414167,
+          "score": 331.1412886737833,
+          "solver_status": 3,
+          "source_x_sha256": null,
+          "stage": 3,
+          "start_x_sha256": "75abca2ac8d7b640b51f50243735ad4115cea4bea162a1644e88770b3c601715",
+          "train": {
+            "K_sample_max": 5.065433971577515e+18,
+            "arclength_cross_speed_max": 0.5894211586870631,
+            "gauged_max_relative": 0.4685578698857764,
+            "gauged_rms": 0.12186904191406647,
+            "min_angular_speed": 5.006446368582845e-10,
+            "min_projected_speed_squared": 0.03594233048080057,
+            "min_signed_equator_height": 0.0,
+            "normal_speed_angular_scatter_max": 2.095203098880627,
+            "origin_radius_sample_max": 1.4071655280951105,
+            "original_coordinate_gram_max": 23.387310731615464,
+            "p0_relative_max": 0.0
+          },
+          "x_sha256": "b9e790d452a86bce2b992c95f85858ebb9f4bbb6ed6c011dba059a621c2e60c2"
         }
       ]
     }
@@ -697,6 +765,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:06:00Z",
-  "observed_utc": "2026-11-28T12:07:31Z",
-  "original_scalar_line_count": 26
+  "observed_utc": "2026-11-28T12:07:59Z",
+  "original_scalar_line_count": 33
 }
