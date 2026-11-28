@@ -1,0 +1,16 @@
+# R149 AGJR. Actual reception of all 576 genuine negative root-window interfaces
+
+**已证明：原根窗全部576个非零接口的真实两列到腰上界。** Apply [GJR](R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md) to the complete original interfaces, using the signed physical jumps of [GJS](R149-supplement-two-signed-coefficients-for-every-genuine-negative-interface.md). Both genuine reference columns, both input signs and every $n=4|j|\ge388$ remain included. The $65$- and $193$-component slopes and their independent stored mean are retained at the same original interface; the exact zero seams do not need an additional bound.
+
+The first public execution [46145341825/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46145341825), event `7b7df2b5be516cf945fea0f7efe74a8287dcafe9`, job `140980060424`, completed successfully at 2026-11-28 12:36:02 UTC. The exact executable, source pins and runtime are in `.github/workflows/fourfold-codazzi-genuine-root-seam-receiver.yml`. All 576 natural subpieces completed. The complete original input receipt covers 176 whole files and 10624293 bytes, SHA256 `3b1555c2f4693eb109dd1e1d4a881c567fbd15a99cfe7500bbb0ea9e6896a22f`; the original entire seam input has SHA256 `871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642`. The full target plan has SHA256 `b541f4f4fb1011c1da8270b8883ad1bd336e191fdb9f5f0e707b5944eeabb290`.
+
+The [whole conclusion](../notes/genuine_root_window_seams_ci/run-46145341825-1/whole-scientific-conclusion.json) has 1210 bytes and SHA256 `47348f89fa2dd8b19c2a5dab4d3719c4ef2adf6f883d36e5d4c43035df6f8f0e`. Its complete private gzip has 514156 bytes, SHA256 `b818ef8486cd49d81beb4fa08fccc8c3d4d76b2b7e9603ebab4fefe088c906af`; all 919507 uncompressed bytes have SHA256 `e65b18c0603bdf19c8d1c486d9e0911176b6292d3bc906fd6ebbf5872aaf4111`. [Root admission](../notes/genuine_root_window_seams_ci/run-46145341825-1/root-whole-admission.json) binds the actual successful run and job to both byte-identical final records in the entire 78768-byte log archive, SHA256 `3e05d3e2a0b7799f25afa09d97c74602d268f345eeb618a7e4820f743d8ce9fb`. No old scientific target was recomputed.
+
+The sum of the actual mixed source bounds is $2.0673760869834316\times10^{-8}$. GJR applies the original point receivers, with $2039$ in the strong root window and $192$ on its strict complement, then the physical reflection factor $.719$. The resulting entire natural-input-to-physical-waist sum is $3.0268093634969226\times10^{-5}$. The original common input factor $12.4$ gives
+\[
+ C_{97}^{\mathrm{root\ interfaces}}
+ \le0.00037532436107361845<0.000376.
+\]
+The stored sufficient bounds `under_one` and `under_one_tenth` are both true. Each interface contributes once. These are sums of valid operator bounds, so no independence between different interface values has been assumed.
+
+The other 1973 nonzero negative interfaces, the independent physical endpoints, all ordinary bulk terms and their nonlocal mean corrections still have to be received. This conclusion closes precisely the root-window interface contribution. It does not supply the full negative inverse, positive feedback, matched regular solution or the required closed flexible family.

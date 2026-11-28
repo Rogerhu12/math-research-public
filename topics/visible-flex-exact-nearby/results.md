@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGJR：576根窗真实接缝全部实际完成](results/R149-supplement-actual-all-576-genuine-root-window-interface-operators.md)：实际46145341825/1于12:36:02成功，全576/两真列/全n≥388/独立均值完成。原mixed和2.0673760869834316e−8，自然物理腰3.0268093634969226e−5，公共C97≤.00037532436107361845<.000376；1210B/47348f89…和完整私件SHA保。外域1973及全部bulk/端口待。
+
 - [GLW：真实终端列的有符号Laurent与原物理频移接收](results/R149-supplement-signed-Laurent-terminal-column-and-physical-shift-reception.md)：同112原件新16闭径向格/全97..2^20输入，在±128有向Laurent系数与完整1/512条余上计算真Ai/Bi终端两列，保右根剪切、两sign、所有物理输出与均值。固定移位对全输入先max，再和；近输出用完整HS正尾、远输出Schur，原J/2039/.719/Ni各一次，97..1023另存原自然单列。26pins/四源AST核，首次公开workflow待实际。
 
 - [GIV：原无穷整源两Airy行共同18/25改进](results/R149-supplement-actual-sharpened-infinite-source-from-both-Airy-root-values.md)：正Laplace与两个根值精确证明全两行幅共同<18/25；GIC原四格每项同乘且开平方合后仍只乘一次。原实际整无穷D<.0661300、自然腰<.378708、公共C97<4.6960、ASQ<.38553，10新Fraction全过，0旧格重算；完整局部之外仍待。

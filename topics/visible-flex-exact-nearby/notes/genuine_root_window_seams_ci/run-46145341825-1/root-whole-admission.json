@@ -1,0 +1,47 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T12:36:02Z",
+        "conclusion": "success",
+        "head_sha": "7b7df2b5be516cf945fea0f7efe74a8287dcafe9",
+        "id": 140980060424,
+        "name": "genuine-root-seam-receiver",
+        "started_at": "2026-11-28T12:34:40Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "7b7df2b5be516cf945fea0f7efe74a8287dcafe9",
+      "id": 46145341825,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T12:34:37Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T12:36:02Z"
+    },
+    "jobs_API": {
+      "bytes": 2784,
+      "sha256": "9b333a4cfccf6e8f14d3039cdf4ffaa314a1f595041648ea554765b4db532b91"
+    },
+    "observed_at": "2026-11-28T12:40:17.340121+00:00",
+    "run_API": {
+      "bytes": 13329,
+      "sha256": "84c57c0afa6d2ce6774382652a77f129dbd5f098cc075633fd060df8dc20c5ee"
+    }
+  },
+  "all_576_original_root_window_interfaces": true,
+  "byte_identical_final_markers": 2,
+  "full_physical_inverse_proved": false,
+  "kind": "root_entire_actual_GJR_admission_v1",
+  "outer_1973_negative_interfaces_received": false,
+  "scientific_targets_rerun": 0,
+  "whole_log_archive": {
+    "bytes": 78768,
+    "sha256": "3e05d3e2a0b7799f25afa09d97c74602d268f345eeb618a7e4820f743d8ce9fb"
+  },
+  "whole_scientific": {
+    "bytes": 1210,
+    "sha256": "47348f89fa2dd8b19c2a5dab4d3719c4ef2adf6f883d36e5d4c43035df6f8f0e"
+  }
+}
