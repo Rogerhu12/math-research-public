@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：首291f394实际整几何reach违约16.64809拒步；半步8e3194 Phi705.37482/Gram.40781792，19:34Z几何/接受未返、接受0。原140角色/32stage继续，无整体加速证。
 
 [49](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)46174104900已12原阶段/双69相七网全部完成；ROOT核15源/全报告及预算。末整网g10.24803/5.56421、K211074.6/285.917，未达标；最后真pull9a6240a1，原身份全保。
-[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：46174642286原fold/全区间完整返，两规定刚帽被严格正弦超额排；两整球exit1无完整层。仅修五返值误解六项，18源/两支全部三层7+6相原预算恢复，成功两项不重算。
+[R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：原fold/连续区间及两恢复整球已完整，46175515918/1 success、18源/12全报告/三层7+6相ROOT核齐。最高g38032/10506282与K195614/6.11e10未达标，原失败和全部身份保留。
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
 

@@ -12,7 +12,7 @@
 
 - [49完整原终态](../notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)：15源、十二原阶段、两末各69相七闭网均实际完整返回；ROOT逐件三身份/源/预算核同。最高独立层Gram3.84934/2.22102，整网10.24803/5.56421，曲率211074.6/285.917，有限细化失败。所有原点/NPZ/mesh身份保完整报告。
 
-- [R774：真实完整双斜折与单帽共同刚体四对障碍](R774-two-oblique-developable-folds-and-the-common-cap-centroid-test.md)。真实平物料整片全g准确；任意整帽刚体在规定中心下被>.005质心链隙排除；[两整球、独立折片、完整角区间四原任务](../notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)保全部预算，闭球余Gram/全管仍欠。
+- [R774完整原研究与恢复终态](../notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：原fold/连续区间已完整，恢复两整球12报告/18实际源/三层7+6相ROOT独立核齐。最高Gram38032.0/10506282.3、曲率195613.6/6.10986e10，有限细化失败；所有原身份与限定保留。
 
 - [R776：新固定g的全相短映射厚闭球](R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)，[完整九图六jet](../scripts/resume_20261126/r776_short_inward_tube_and_spatial_corners.py)。整g_t≤g0故所有物料端对弦弱短；各法层及混图全管reach≥.05、D<1.55、握≥.68/held>.323、δE≥.020。余曲角角长未准；另一个全角长准确的非平伴随场需重付xx/xe及全管，不能借短参考的几何。
 
