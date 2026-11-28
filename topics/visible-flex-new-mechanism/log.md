@@ -422,3 +422,7 @@ run46131881286/job140938638149/source3ed0af40b61fa5fcb4fcd6ce63432f3b54105176于
 ## 2026-11-28 10:04:22 UTC：R653真实外缘C²接柱与全缺陷正图门
 
 已读全文与consumer；手工核对q/L端迹、稳定速度式、N_r与R=a_r−Kθ端值、sqrt(E)S有限缺陷、真实A0/曲率、Laurent二次卷积及均值级数余项。原forced/core/tanh/Gaussian/plateau来源逐类保留；AST/冻结R649依赖SHA通过，无本地科学。发布两新文件及完整范围，不把未解trial当等距解，不把某一开collar存在当成数值全域覆盖。
+
+## 2026-11-28 10:06:29 UTC：R631真实b7e0及原宏观路径直接续算
+
+已读完整terminal/scope/source，40绑定和全部AST通过；恢复原μ0/J48/q b7e0/λ1e−14、955work1739fine及原24 P/Pdot，原完整非线性/QR/advance loop不改。原52ndJ虽已付但无数组，必要重建计费，既有51接受/119拒绝不重播；原完整FINAL79963B/d0d227e9dadff13b71f9e85e4ac102af018e34fcbde4f61e794c24fbde0f3ab2仅作为必要80917B输入绑定。更新根16后继续18000秒含1800末读出与55分规则pull，不声称μ1或宏观完成。

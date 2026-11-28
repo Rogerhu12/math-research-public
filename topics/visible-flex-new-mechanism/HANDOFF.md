@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **74d582e76b62a1149822eb51cb5f08e02e9f3cb1**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **f2881505ae340e9bda34766ad142be72f1fb7a46**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff、立即执行、记SHA。每结论即push，NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核；根15只存源/参数/run/hash及真正必要续接输入。全部失败、未完和费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -48,7 +48,7 @@ R651四个真实停留时长的仿射四端图/非零Vandermonde已证。[首次
 
 R631/R640固定R=.8、ε.05、球1.032/reach.062预算；[原实际范围](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run46123435005/source5761da2f已自然结束6673.02691023秒，因第二次小时pull读到新根16而RuleChange保存退出，非数学失败。
 
-实际q b7e0720e，μ仍0/J48/work，51接受/119拒绝，η2.4867080594570708e−5，S1.26263e−5；52个完整1451列J已付，末J无QR且数组未保存，51次完整双RHS分解全留账。无完成finite stage、无final geometry readout。fixed_metric_ultra从同checkpoint/λ1e−14续μ→1及1451→1707→2219全列，不重原输入选择/51步；必要重建J如实付费。设计E可变，最后必须冻结同g精化。
+实际q b7e0720e，μ仍0/J48/work，51接受/119拒绝，η2.4867080594570708e−5，S1.26263e−5；52个完整1451列J已付，末J无QR且数组未保存，51次完整双RHS分解全留账。无完成finite stage、无final geometry readout。[真实b7e0续接](notes/2026-11-28-r631-b7e0-macro-continuation.md)已备：同checkpoint/λ1e−14续μ→1及1451→1707→2219全列，复用已付P/Pdot，不重原输入选择/51步；必要同态重建和末J如实付费。[完整终态](notes/2026-11-28-r631-macro-b7e0-rule-terminal.md)保全源。设计E可变，最后必须冻结同g精化。
 
 R646同一实际μ1有限P的全域误差2e−5组合Taylor球消费者已备，尚无μ1输入；原升阶样本1e−4不能替该门，不重拟P。R640核心位置/宏观余量只在此门真通过后消费。
 

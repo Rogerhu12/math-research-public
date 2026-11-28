@@ -229,3 +229,7 @@
 ## R653：真实离解外缘C²接自身竖柱及完整边缘缺陷
 
 [完整证明](results/R653-actual-normalized-vertical-cylinder-seam-and-positive-collar.md)核对原所有basis及forced三阶代价、固定e与seedζ隐式二阶，得到真实通量C的C¹/O(1/δ)类。α>1/2使真实弧长Yss/Zss和混合二阶正好接柱，柱曲率是实际−1/(R A0 v0)，没有把A0误设1。完整边缘D0/F0/G0保留sqrt(E)S的有限值；显式v_min−Δ给正图开邻域。相应全模消费者先合并同一Laurent模再取界，复用真A或用零模和无限级数尾，保所有原源误差；不授数值collar宽度/主体reach。
+
+## R631真实51接受b7e0及规则更新后同路径继续
+
+[完整终态](notes/2026-11-28-r631-macro-b7e0-rule-terminal.md)6673.02691023秒在新根16检查后保存，真实μ0/J48的b7e0工作η2.48671e−5，51接受/119拒绝，无完成阶段或末读出。52个完整J/51双RHS因子及全部重构费用留链，末J矩阵未保存。[后继](notes/2026-11-28-r631-b7e0-macro-continuation.md)从相同q/P/Pdot/原路径/λ1e−14续全部1451→1707→2219列、全行完整因子与原μ/fine接受，必要重建如实付费，不重原输入选择/51步。
