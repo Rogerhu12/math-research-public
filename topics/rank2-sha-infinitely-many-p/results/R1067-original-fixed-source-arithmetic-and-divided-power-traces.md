@@ -776,3 +776,136 @@ $Y_{j,R}^{-}=u^{-2}Y_{j,R}^{-}$。
 (CD6)付出了原固定源的全精度平移关系。
 它本身尚未把不同Teichmüller权之间的倒数曲率读者识别；
 这仍须使用真实固定函数及后续完整算子比较。
+
+## 115. 真实δ平移的协变导子与完整倒数曲率的固定短窗
+
+本节继续§§110–114，在同一$E_1:y^2=x^3+1$及其通用向量扩张上工作。
+置
+$$
+ \mathcal H=D-xJ,\quad J=\partial_Z,\quad
+ F_2=Z^2-x,\quad F_3=Z^3-3xZ-2y,\quad
+ g=y/x,\quad \mathcal B=\mathcal H-g .
+$$
+在固定双覆盖$\lambda^2=x$上，
+$\mathcal B=\lambda\mathcal H\lambda^{-1}$。
+这是同一个固定平方根联络的协变导子，非另选形式乘子。
+
+### 两个真δ平移的完整函数身份
+
+取$R=(0,1)$、$-R=(0,-1)$。
+两点的规范向量扩张抬升分别为$(R,0)$、$(-R,0)$；
+这正是原代数完成$\zeta$值$X(R)=X(-R)=0$。
+其群律斜率为$m_\pm=(y\mp1)/x$，故
+$$
+ \tau_{\pm R}^*F_2-F_2=2Zm_\pm+2x,
+ \qquad
+ \tau_{\pm R}^*F_3-F_3
+       =3Z^2m_\pm+6xZ+3y\pm1.                                \tag{CE1}
+$$
+这是特征零的有理函数身份。直接把
+$Z'=Z+m_\pm$、$x'=m_\pm^2-x$、
+$y'=-y+m_\pm(2x-m_\pm^2)$代入即可核对，所有常数都保留。
+
+定义真实标记泛函
+$$
+ \mathscr L(V)=\sum_t\varepsilon(t)V(\widetilde P_t),
+ \qquad P_t=-T_t,\quad \widetilde P_t=(P_t,X_t).
+$$
+原文中在$-\widetilde P_t$评价的同权全和等于
+$-\mathscr L(V)$，由$t\mapsto-t$重标得到；不影响以下消失关系。
+§114的真实$[\delta]$推除子为零给
+$$
+       \mathscr L(V+\tau_R^*V+\tau_{-R}^*V)=0                 \tag{CE2}
+$$
+对在所需标记处正则的每个有理$V$成立。
+这也在规范挠抬升上成立，因为该抬升与挠点群法相容。
+
+$\mathcal BZ=-x-gZ$、$\mathcal BF_2=\mathcal B(Z^2)-y$，
+所以(CE1)–(CE2)给
+$$
+ \boxed{\qquad
+ \mathscr L\!\left(\mathcal O\mathcal BZ\right)
+       =\frac34\mathscr L(\mathcal O F_2),\qquad
+ \mathscr L\!\left(\mathcal O\mathcal BF_2\right)
+       =\frac12\mathscr L(\mathcal O F_3).
+ \qquad}                                                     \tag{CE3}
+$$
+这里$\mathcal O$是任何与这两个真平移交换的算子，
+特别包括前节所有$\mathcal H,J,\Xi,\mathcal K,\mathcal L$
+的实际整组合；先在特征零取身份，再按已付整性约化。
+对于$\bar\varepsilon$全和同理。
+因此原$F_2,F_3$的完整迹确实接到了这个固定协变导子；
+没有把一个$\mu_6$权直接冒充另一个权。
+
+### 同一个倒数函数在两个δ点的全部留数
+
+取惰性$p=6n-1>211$、$h=(p-1)/2=3n-1$。
+沿(BG2)记
+$$
+ S_{n-1}(v)=\sum_{j=0}^{n-1}\binom{-1/2}{j}v^j,\qquad
+ G=D^{p-2}x,\qquad DG=c .
+$$
+在同一固定双覆盖上令
+$Q(P)=(x(P)^{-1},y(P)/\lambda(P)^3)$，则
+$$
+ J_p(P):=\lambda(P)G(Q(P))
+          =-y\,x^{-h}S_{n-1}(x^3)                            \tag{CE4}
+$$
+是真正$E_1$上的有理函数；同时改$\lambda$的号会改$Q$为$-Q$，
+所以乘积不变。除两个非零$\delta$点外它无极；
+在$O$处它为正阶正则函数。
+两商不变微分给$D_Q=-\lambda D$，于是
+$$
+                         (D-g)J_p=-c.                        \tag{CE5}
+$$
+这里$G$是在倒数点的真实值，未套用原挠点的固定性。
+
+用相同的原$P_t,X_t,\varepsilon(t)$定义
+$$
+ \eta_X=-\sum_t\varepsilon(t)X_t^2\kappa_{P_t}
+       =\varphi_X(x)\,\omega,\qquad
+ \varphi_X(x)=\sum_t\frac{\varepsilon(t)X_t^2y_t}{x-x_t}.
+                                                                    \tag{CE6}
+$$
+原$\kappa_{P_t}$在$P_t$的留数为$-1$，故$\eta_X$留数为
+$+\varepsilon(t)X_t^2$。全常数
+$\sum_t\varepsilon(t)X_t^3$由$\mu_6$权消失；
+带$y(P)$的部分由$t,-t$配对消失，所以(CE6)没有遗漏全纯项。
+$\eta_X$在$O$和$\pm R$都正则。
+此外$\mu_6$重标准确给
+$$
+                       \varphi_X(x)=x\,R_X(x^3),              \tag{CE7}
+$$
+其中$R_X$是特征零中已固定的有理函数，
+系数属于一个固定数域，不依赖$p$。
+它在$x^3$的原$\mu_6$轨道标记处只有简单极。
+(CE6)中先合并同轨六项即可构造它，未新增随$p$变化的输入。
+
+完整倒数曲率标量为
+$$
+              r_p=\sum_t\varepsilon(t)X_t^2J_p(P_t).
+$$
+它正是$J_p\eta_X$在全部原标记处的留数和。
+在$R$及$-R$以$x$为真实局参，(CE4)和
+$\omega=dx/(2y)$使
+$$
+       J_p\eta_X=-\tfrac12 x^{-h}S_{n-1}(x^3)\varphi_X(x)\,dx .
+$$
+两处留数相同，且$O$没有留数。因此全局留数定理准确给
+$$
+ \begin{aligned}
+ r_p
+  &=[x^{h-1}]S_{n-1}(x^3)\varphi_X(x)\\
+  &=[v^{n-1}]S_{n-1}(v)R_X(v)
+   =\boxed{\ [v^{(p-5)/6}]\frac{R_X(v)}{\sqrt{1+v}}\ }\pmod p .
+ \end{aligned}                                                \tag{CE8}
+$$
+最后一项取常数为一的平方根；只读至$n-1$，
+所以截断$S_{n-1}$与完整$(1+v)^{-1/2}$恰好一致。
+这些分母的指标均小于$p$，约化合法。
+两个δ留数的因子$1/2$已经合并，式中没有遗漏倍数或总号。
+
+(CE3)是原完整来源的真平移身份，(CE8)是原完整带权曲率和的真短窗。
+它们尚未证明全Sha坏会使(CE8)为零：
+$\mathcal B$的原整除幂算子及全部混项仍须接合，
+而AQ密度应用还须保持其全Galois分量与普通处的真实权。
