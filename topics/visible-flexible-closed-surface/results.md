@@ -174,3 +174,4 @@
 - [R221：原M12 ramp生成的准确coast与C2接合](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)：由原实际端迹定义准确ruling参考，完整连续域与Hermite两jet接合已付；后续整个共同前缀、真正全尾及加密仍须实际求解。
 
 - [R220：同一M12 g的非圆精确affine参考及连续Green域](results/R220-m12-exact-affine-reference-and-continuous-green-domain.md)：准确有理Hermite/Fourier截面及准确弧长归一，8192全角dyadic区间实跑证D>.8288、U_t>.7893、非零κ∈(.5725,2.6961)及R218真实Green常数；完整端迹未接，非闭图完成。
+- [R305：两张紧凑 p32 真闭像的全角强形变比例](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md)（已证明）：192/396 两个实际场分别 held/D>.2149993/.2091312、δE/D>.0511992/.0508668，完整 D≤3.1644；嵌入、reach、同g容差仍另付。
