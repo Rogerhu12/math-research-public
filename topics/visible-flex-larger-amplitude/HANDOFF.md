@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`71cc6bb0ce6c463784e58f9ff7b6aed5ee853c1d`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活22–29通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`130ead2b77bec2825084c69d717175ff432cce01`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活22–29通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull，令牌仅CLI。所有根规矩及完整发布/观测工具责任保旧H。
 仅公开Actions科学；新raw只runner/scratch。保全源参/run/whole身份/typed/失败未知，无新AST/fixture/重跑/审查门或缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退可完整再生旧数据，保结论/全源参/恢复，不删活输入或唯一状态。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D=闭F0整像直径。同g/参数/t空间/频率/时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口须明示，继续加强比例。有限点/开放片/条件论证非完成。
