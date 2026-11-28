@@ -54,3 +54,8 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 <!--r766-publish-->R766 [双卷整周保边与整壳实际](notes/r766-cyclic-ring-46165595977-1-index.json) 双README真pull 51164b05684d069eba92b573472eb73d4f4c9141
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull a30c73fc2ce98d215e75821d251fa6aee50f4d4d
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 163bb97bcc7fdafdd4baa16961fc11c78a58ece4
+
+<!-- visible-larger-parallel-47:start -->
+Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46171090151)；[全阶段记录](notes/2026-11-28-public-actions-46171090151-1.md)。running；已返0，exit=未返。
+并行47规则核查：2026-11-28 17:34:22 UTC，真实pull至`9bcfe4e4923eb02b1aaca16b243f326c67c8cafc`，双README无变化。
+<!-- visible-larger-parallel-47:end -->
