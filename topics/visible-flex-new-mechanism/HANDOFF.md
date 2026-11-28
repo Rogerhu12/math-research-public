@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **887df1e07dcb058fb749d63bb96c764cbad414f0**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **2e40994de7431e54a9303ffe4b5652cafdc66cab**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -25,7 +25,7 @@
 
 [前split原费用](notes/2026-11-28-r618-split-first-complete-state-terminal.md)继续保留。[背景消去自然终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197/job140895158286/source19de4da3于08:11:30结束，新增5400.048500946秒；0接受、1全1473列J/1472自由列QR、2方向/14真实拒绝。保原response19519575…和固定target86da8c60…/H.5188903877153482/amp1e−5/τ1。
 
-真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。R643正改用真实mean高度/斜率与未除均值系数的联立转角/位置方程，保同E/真帽/全角；不再把已定位问题仅归背景消减。
+真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；实际实现继续。
 
 R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬trace及模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)和[连续Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)保原列/从属核心迹；同E可达性欠，.85/R579仅条件预算。
 
@@ -50,8 +50,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 ## E：R=.8实际宏观核心自动推进在算
 
-[R631准确核心](results/R631-thick-core-at-radius-four-fifths.md)给ε.05、ρ∈(.14,17.153)、核心球<1.032；完整闭面若付同球/strip.37/reach.062/开盘.22，则δ/D≥105/344>.3。只是条件核心预算。
-[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)重建外段/字典/强迫，只复用R无关内尾，不转旧.85资格；[硬核心](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)保1451列含H和真实F2。
+[R631核心](results/R631-thick-core-at-radius-four-fifths.md)固定R=.8/ε.05，当前球1.032/reach.062预算保持，严格核心精化见R640。[硬核模型](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)保1451列、真实H/F2；.85旧资格不移用。
 
 [实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。完整J48/64/96、全部原行列，同J两RHS预测/求根、自动μ→1；fine及真Y双差分保留，已付fine复用。18000秒含1800末预留，每55分实际public pull查规则并恢复同source；主会话继续私库每小时pull。设计E可变，工作η1e−7/宏观fine2e−9只是阶段门；取得候选后冻结g精化，有限P误差/完整几何待付。
 
