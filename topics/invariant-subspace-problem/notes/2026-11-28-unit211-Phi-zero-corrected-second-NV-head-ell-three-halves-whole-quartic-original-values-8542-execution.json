@@ -1,0 +1,352 @@
+{
+  "schema": "isp-original-fiber-execution-small-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "scope": "Corrected physical Phi only: B2=0 AND ell=3/2; entire intersection excluded, no whole Phi or whole ell=3/2 claim",
+  "run_id": 46179464150,
+  "job_id": 141085521543,
+  "run_attempt": 1,
+  "source": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542.py",
+    "git_blob": "c8e84e799c516e8d5fba5b88268440dcbd2b306d",
+    "sha256": "e9939ac41af3e0a5ef9080ef008519dc65cccb45fe1cd30f22a24d80767acfcb"
+  },
+  "input": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542-input.md",
+    "git_blob": "c8cff464cb3c73c49fff58afde945492e6318fe7",
+    "sha256": "625602cbd2297b767bc6e53a15334d44916239015da0afb498d363b4cfb6dc54"
+  },
+  "limits": {
+    "inner_seconds": 120,
+    "address_space_bytes": 1073741824,
+    "outer_seconds": 135,
+    "dependencies": []
+  },
+  "actual_driver": {
+    "elapsed_seconds": 6.4706440420000035,
+    "max_child_rss_kib": 39672,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "949f09ab8fa42f99f9c27367ad11a25bb843fda4",
+        "before": "5699f32c124a5a9c2ca57bf6305eb6a7cadbd01c",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T19:07:18.730294+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46179464150",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "5699f32c124a5a9c2ca57bf6305eb6a7cadbd01c",
+    "source_exit_code": 0,
+    "source_git_blob": "c8e84e799c516e8d5fba5b88268440dcbd2b306d",
+    "source_sha256": "e9939ac41af3e0a5ef9080ef008519dc65cccb45fe1cd30f22a24d80767acfcb",
+    "stdout_bytes": 5445,
+    "stdout_sha256": "581a769739aec06680794e655317293e48f3058ddcc577a21adb82bb40c79f39",
+    "stop_reason": null
+  },
+  "stdout_independently_reconstructed": true,
+  "mathematical_records": [
+    {
+      "P4": {
+        "bytes": 30,
+        "coefficients": 5,
+        "degree": 4,
+        "sha256": "f99a2fe6211b1cd0d5be20ac15699c06fffb9492b1377fd5278fca889b7a2e34"
+      },
+      "exactMomentIdentityReturned": true,
+      "exactYUnitIdentityReturned": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "bytes": 30,
+            "coefficients": 5,
+            "degree": 4,
+            "sha256": "f99a2fe6211b1cd0d5be20ac15699c06fffb9492b1377fd5278fca889b7a2e34"
+          }
+        }
+      ],
+      "oppositeRhoChoiceOnlyInterchangesOriginalSingletonLabels": true,
+      "scope": "B2 AND ell=3/2 in corrected physical Phi only",
+      "seconds": 0.0004339149999879055,
+      "stage": "new_B2_ell_three_halves_complete_moment_quartic_defined"
+    },
+    {
+      "Kdegree": 4,
+      "allOrdinaryUCoefficientsReturned": true,
+      "exactScale": "H=(2u-3)(u-3); H*complete_NV=2(2u-3)*G(u)",
+      "factor": 0,
+      "multiplicity": 1,
+      "noTZeroSpecialization": true,
+      "rawScaledNV": {
+        "Kdegree": 4,
+        "bytes": 185,
+        "sha256": "2e4a3d9f3a0127327107431c0185fadd46caba16cb4252ac9458324f91432c8b",
+        "tDegree": 0,
+        "uDegree": 3
+      },
+      "seconds": 0.023470661999994036,
+      "stage": "new_complete_scaled_Gram_NV_weight_polynomial_returned",
+      "weightPolynomial": {
+        "Kdegree": 4,
+        "bytes": 131,
+        "sha256": "63867f0a3a6953542346ee791876fea8b37e780eccb5d2dcd3305f16ab3e106c",
+        "uDegree": 2
+      }
+    },
+    {
+      "Kdegree": 4,
+      "actualRawColumns": 128,
+      "dimension": 16,
+      "factor": 0,
+      "goodU": {
+        "Kdegree": 4,
+        "bytes": 169,
+        "sha256": "2e85aeba28c148d72cc91b0dbed8d1a86678d3c4fdc2f5269d4d4329bdee06ee",
+        "uDegree": 2
+      },
+      "monicT": {
+        "Kdegree": 4,
+        "bytes": 1026,
+        "sha256": "8aced3effc7efca638bf0ef84254c3df8c1d9821aa2f95361b6400c22572bed6",
+        "tDegree": 2,
+        "uDegree": 1
+      },
+      "multiplicity": 1,
+      "noDInverse": true,
+      "originalU": {
+        "Kdegree": 4,
+        "bytes": 169,
+        "sha256": "2e85aeba28c148d72cc91b0dbed8d1a86678d3c4fdc2f5269d4d4329bdee06ee",
+        "uDegree": 2
+      },
+      "paidPrimaryRemovals": [],
+      "rawLabels": [
+        "true_dual_E1",
+        "complete_EB",
+        "complete_EC",
+        "complete_N1",
+        "complete_NB",
+        "complete_NC",
+        "complete_PB",
+        "complete_PC"
+      ],
+      "rawProfiles": [
+        {
+          "Kdegree": 4,
+          "bytes": 1343,
+          "sha256": "0ec8a88a407633334b483ff809700c2d94153417bb511c341df649b118bf7ed6",
+          "tDegree": 2,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 1256,
+          "sha256": "e8205ca86a526ca205e98dfe6baa7ff6d268f56e3bb5b8e300ef9262b9e3ffeb",
+          "tDegree": 2,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 1266,
+          "sha256": "3f8dff9381f13d1e7be46ea1a83ec317b0286a6fe94706e25592fd5848153178",
+          "tDegree": 2,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 1486,
+          "sha256": "7350f289ba38e267bfb7aa7bf955ac60d9a4e42e158589a88c67149549deb61f",
+          "tDegree": 2,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2126,
+          "sha256": "fdaaebf71f76d2a54ca6170f6de059073e222b6b66b47acb5fbe21976b137eb3",
+          "tDegree": 3,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2148,
+          "sha256": "797f0a34cee1a7b1a89e0e92fc0b8db2f860181206259e1aefb241950ab31fc1",
+          "tDegree": 3,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2662,
+          "sha256": "8597fd277f8d0b22424660a93b6adb1e4b8bcc6734f159f0a4465cab0fdf798a",
+          "tDegree": 3,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2702,
+          "sha256": "64305a50dc6f7c3a372505a4f95c5d536aa44269737302e626836de84729fa29",
+          "tDegree": 3,
+          "uDegree": 1
+        }
+      ],
+      "retainsAllUAndTMultiplicities": true,
+      "seconds": 6.162337111999989,
+      "stage": "new_whole_quartic_u_and_original_t_finite_algebra",
+      "uDegree": 2
+    },
+    {
+      "actualEightOriginalMultipliers": [
+        {
+          "Kdegree": 4,
+          "bytes": 4214,
+          "sha256": "ccfb3f7744684de9b87f129346b75a28e80e4e9aa6ee82cba65ae18935e2461d",
+          "tDegree": 1,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 4215,
+          "sha256": "97590eba0ffec800f2240d2d476b591fd27db9c072b4e3a4263d85e2b527a03a",
+          "tDegree": 1,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 4218,
+          "sha256": "751e8a27b04d37d1139a1fd7c6175e6d422eedbcb68ce9cb550df07e8175ce6d",
+          "tDegree": 1,
+          "uDegree": 1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tDegree": -1,
+          "uDegree": -1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tDegree": -1,
+          "uDegree": -1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tDegree": -1,
+          "uDegree": -1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tDegree": -1,
+          "uDegree": -1
+        },
+        {
+          "Kdegree": 4,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tDegree": -1,
+          "uDegree": -1
+        }
+      ],
+      "constantMultiplicity": 1,
+      "dimension": 16,
+      "entireOriginalTPolynomialReturned": true,
+      "factor": 0,
+      "goodU": {
+        "Kdegree": 4,
+        "bytes": 169,
+        "sha256": "2e85aeba28c148d72cc91b0dbed8d1a86678d3c4fdc2f5269d4d4329bdee06ee",
+        "uDegree": 2
+      },
+      "noInverseOfPhysicalTOrFminusUOrD": true,
+      "originalU": {
+        "Kdegree": 4,
+        "bytes": 169,
+        "sha256": "2e85aeba28c148d72cc91b0dbed8d1a86678d3c4fdc2f5269d4d4329bdee06ee",
+        "uDegree": 2
+      },
+      "rank": 16,
+      "seconds": 6.400088757999995,
+      "stage": "new_whole_constant_factor_original_positive_target_returned",
+      "statistics": {
+        "fieldInverseReturns": 5778,
+        "finalEightOriginalReturns": 1,
+        "finiteAlgebraInverseReturns": 158,
+        "monicTOriginalReturns": 1,
+        "polynomialDivisionReturns": 49571,
+        "rationalVectorReturns": 17,
+        "rawColumnReturns": 128,
+        "scaledGramNVReturns": 1
+      },
+      "target": "[lambda*D*t*(f-u)]^n",
+      "targetPower": 0,
+      "targetProfile": {
+        "Kdegree": 4,
+        "bytes": 9,
+        "sha256": "fa6193df8caef09f0207842c35ed8f41d7a777c8db282a2ce907eaecf8b51582",
+        "tDegree": 0,
+        "uDegree": 0
+      }
+    },
+    {
+      "allConstantAndUPrimaryMultiplicitiesAccountedFor": true,
+      "closedFactors": [
+        0
+      ],
+      "constantFactors": 1,
+      "excludesWholeNamedIntersection": true,
+      "noOldGateReplayed": true,
+      "noWholePhiClaim": true,
+      "onlySecondHeadAndEllThreeHalves": true,
+      "seconds": 6.400159822999996,
+      "stage": "new_B2_ell_three_halves_original_finite_input_complete",
+      "statistics": {
+        "fieldInverseReturns": 5778,
+        "finalEightOriginalReturns": 1,
+        "finiteAlgebraInverseReturns": 158,
+        "monicTOriginalReturns": 1,
+        "polynomialDivisionReturns": 49571,
+        "rationalVectorReturns": 17,
+        "rawColumnReturns": 128,
+        "scaledGramNVReturns": 1
+      },
+      "unresolved": []
+    }
+  ],
+  "conclusion": {
+    "constant_field_degree": 4,
+    "constant_factors": 1,
+    "constant_multiplicity": 1,
+    "u_degree": 2,
+    "paid_primary_removals": [],
+    "t_degree": 2,
+    "qq_dimension": 16,
+    "actual_raw_columns": 128,
+    "rank": 16,
+    "target_power": 0,
+    "final_nonzero_original_multipliers": [
+      "true_dual_E1",
+      "complete_EB",
+      "complete_EC"
+    ],
+    "original_eight_source_polynomial_identity_returned": true,
+    "whole_named_intersection_excluded": true,
+    "remaining_second_head_weights_retained": true,
+    "whole_phi_exclusion": false
+  },
+  "unexecuted_draft": {
+    "git_blob": "a9070b121cb508ee452ceb6ff2dff3242ceae9aa",
+    "status": "never executed; not an actual failed run"
+  },
+  "payload_policy": "Profiles and exact execution metadata only; no coefficient payload or cached algebra artifacts."
+}

@@ -34,6 +34,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi第二NV头与ell=3/2的整个交集排除](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-complete-original-exclusion.md)：c8e84唯一实际6.470644042秒/0，完整四次矩域、原u二次和真t²的16维包络保全部重数；128原列返回后整个A[t]三mean乘子返1，只在第二头支付ell−3/2。
+
 - [R12：增生分母的实际共同全部幂准亲和范数逼近](results/R12-appendix-accretive-sources-norm-approximated-by-common-power-quasiaffinities.md)：加权Pauli界、完整carry及原增生能量给同L范数误差；可和尾积真实支付全C幂除商和全旗准亲和，同列对全部Reθ>0复逆幂在紧集范数逼近，显式Pθ∈closureF\CA；不推平方分子。
 
 - [R150：δ正阶、Astar任意正阶的整个原支排除](results/R150-appendix-unit211-W-b0-internal-delta-positive-Astar-entire-original-valuation-exclusion.md)：完整原N5/T⁵的线性项和准确余项理想，结合原q2/R6覆盖mu恰零、正阶、单位及任意极点；两个Astar剩余根同时排除，无新执行。delta的一般有限mu仍保。
