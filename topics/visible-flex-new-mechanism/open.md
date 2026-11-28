@@ -111,3 +111,8 @@ R631 run46133637169接b7e0真实宏观路线源6673.02691023秒/51接受119拒�
 
 [真实盘及完整证明](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md)在v=.202与.952截下无孔盘，左右镜像/上下半转给其余三盘。新X0按固定材料横截面/纵截断和真实负领定义；Yλ0给全幅正则初场及四开边完整实际相对SO3框，无旧环周期或独立冠移。β=R dX0、K=∂sβ_t−∂tβ_s，b′=−∫K，b两端0；P=O+∫β_s−wb准确接四边真实开带/二jet，实际导数误差和同g误差由真全域curl控制。C¹_s/C²_v的实际源/边场给有限非零残差P C²，未借旧BPoly正则；薄领改存h⁴Q并给精确缩放Gauss–Codazzi/框架ODE。完整curl根或连续≤1e−6及same-g精化、所有含窗法弦/全时几何仍须R729实求，不以merit或边位置闭合代通过。
 
+
+### R716：已付有限条带的规范共结及世界轴心差
+
+[完整证明与独立重构消费者](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md)从原BPoly的准确二进制有理系数生成共有0/1/2端迹，保内部四点和真实直延。原单点选择/双侧迹/反射异结分别付改量，世界零阶额外含规范h*与R705二进制h_bin差；新母线的C²不冒原有限场C²。位置字段2:5的真实M30/M31/M32与全部截止Hessian可条件支付同片、异片和已注册真帽，原源/目标度量改量分开。新 r716_canonical_paid_strip_recovered.py 为独立重构，12,060B/83de2a0a65b34da6514be8a8ee8217b870413c9c651fecc2dee9097cf2d07b58，未运行；原丢失稿SHA仍只标原身份。不要单独复跑已知失败相位来生成重复资格，未来消费自然已付真实字段。
+
