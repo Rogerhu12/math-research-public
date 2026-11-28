@@ -467,3 +467,6 @@ R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/900719925
 
 ### 2026-11-28 18:09 UTC — Astra-held10-7c4e33ee-20261128
 发布真实QR fixed完整场时间精化诊断入口231a6726…：同源/同完整g/全谱/均值/physical-H/固定相位域及站点，线性时间样条作用全空间两jet，直接算插值族的目标相对metric与原有限场误差下限，不把只增采样点说成收敛。仅compile/help真0，无真实阳性或连续证书。主线旧λ0实际已812点后工具Ctrl-C/exit1，内部child码/cleanup未知；保全最新未接受状态继续同F解析support。
+
+### 2026-11-28 18:12 UTC — Astra-held10-7c4e33ee-20261128
+原λ0 support FD污染真实定位并给独立同F修复：固定材料u的全部F/Ft/Ftt参数链式导数接原完整analytic installer，保state/δFD/RHS/BC/域/所有验收。原765七节点真核exit0、256角×8系数×3jet×3h真实72组报告实存，h1e−7最差rel3.97178e−9；低2列相消和截断误差保留，第二核工具终态未知不补造。新driver043bae30…已compile/help交design从最新812未接受状态续算，不冒新accepted。旧H完整归档后压缩。
