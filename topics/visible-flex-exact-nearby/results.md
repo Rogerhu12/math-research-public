@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GCD：真实频率依赖整算子的四复盘接收](results/R149-supplement-five-halves-contour-bound-for-the-true-frequency-dependent-forcing.md)：保原Ψ_n/两sign/两真列/真正相位，仅幅与B_j在ζ=97/|j|上全纯。真H^V两次有序换元精确含所有势；原97、98..101、102..122、123..∞输入正交，经Cauchy与对角Parseval得到全算子费sqrt(C0²+25C1²/16+64C2²/39+9C3²/5)<5maxC/2。不假设不同输出正交、不把每列区间当同一个左乘子。
+
 - [ASQ25C：两真实成功父件后的三列物理接收首发](results/R149-supplement-first-actual-parent-entry-for-the-three-signed-physical-columns.md)：已绑定ASQ23真3073/两目标及DCP18实际全件；immutable manifest14b776d3…、首workflowc20e5851…全文/所有SHA核，接原8192/4096全signed残差、96坐标、三列/两mean，322和184/32原输入不动。宽parent误差全保，实际新四目标待。
 
 - [GJOR：原外缝入口整文件大小错误的实际修复](results/R149-supplement-actual-exterior-seam-input-size-failure-and-first-repaired-entry.md)：实际GJO46147231505/1 step8 TypeError：st_size属性误作调用，原完整输入/14shards/CPU/whole SHA已过，step9 scientific skipped，0新格。只删两个括号，source新5026B033393a8…；全87971B ZIP b2db80cc…保，46pins新首次入口待。
