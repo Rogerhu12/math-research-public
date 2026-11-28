@@ -7,12 +7,12 @@
 - **数据规矩8/15：** 本会话可重算编码/分片已从main移除，只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。旧输入仅终端临时读取，不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** ecb0788abe96ca3dcbeab61f10d0a41fd3d54dd7（2026-11-28 08:37:39 UTC，Actions run46126672859实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46126672859-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 08:37:38 UTC/c66f053e516d9eb14fbdeda432c4ebf295097c05，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 95f8de55264e1bf1ef3d8de6308631847c953eb4（2026-11-28 08:41:09 UTC，Actions run46126917219实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46126917219-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 08:41:07 UTC/5c24095fccf132afa5e5b6091018a293dcc8a03d，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 08:05 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `ecb0788abe96ca3dcbeab61f10d0a41fd3d54dd7`（2026-11-28 08:37:08 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `efc15190fd40e21625ec8a3169a5a5f23d5a496f`（2026-11-28 08:40:26 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Haar-dyadic-stable-domain-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-hk-Pf-full-static-audit-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -36,7 +36,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
-- **h=k错链撤回。** f33/bb534真；t0/S0/对称u1闭。新正确17阶实际3.066秒/0，716→470，因子1^19/2^14/4^6/99/300，406λ且≤470基点；全Q≤2/Loww z≤3/两ρ给≤5640完整规范点。原点/Pf0续核；旧848/578/dc888禁借。
+- **h=k错链撤回，真Pf全域已核。** 四等权前置源含F96后四整域，四T0/JQ直接源真vm、无循环；可付T0(J−Q)。t0/S0/对称u1闭。正确17阶716→470，因子1^19/2^14/4^6/99/300；整个Δ0≤470基点、Q2/z3/两ρ给≤5640规范点。候选原排空/Δ非零继续；旧848/578/dc888禁借。
 - **Phi错链撤回，真t0/A0/fu全闭。** U^27非自由、bf3冻；t/z/A/η可付。B二次闭，余34/40≤74；d825首一λ6/408、480必要环境返，内存−6整矩阵门冻。新f7四原行/qω固定norm各三坐标+Bézout，两域首次120秒1GiB。22a整α0原V首一2首次待返；一般G开。
 
 ### rankH3原ess6
