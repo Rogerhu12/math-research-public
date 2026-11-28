@@ -1907,3 +1907,213 @@ $\sigma_p$ 仍是 (G4.56)/(G4.60) 的有限和，尚未证明非零；
 它也未被等同于原 $e,K_4$ 或 $\Lambda_p$。
 后续若要从 (G4.78) 控制高插入，仍须保留完整 primitive 与其 $p$ 次幂修正。
 全部为同一函数域上的纸面计算，未执行数学程序或新增素数窗口。
+
+
+## 13. 规范 primitive 的全函数锁定与无条件第四插入
+
+本节继续 §12 的同一 $b_0=\gamma/v$、$\sqrt\gamma$ 与三平移标记。
+把原 $E$ 上的规范函数记为 $\Psi$，保持
+$d\Psi=\delta\omega_E$、$\Psi(\pm Q)=0$ 及唯一的 $pO$ 极。
+它不是 §9 的 $H_*$；后者满足 $dH_*=z^m\omega_*$。
+下面先在函数域中付清二者各自的作用，再读取高插入。
+
+### 13.1. 原 $P_{2,2}$ 没有剩余的未知 $p$ 次平移
+
+为区分原函数与基点，以 $T\in E$ 记 (G4.74) 的基映射，
+仍令 $P=P_{2,2}$。在 $\mathcal X$ 上置
+$$
+\mathcal H_j=R_j^p\pi_j^*H_*,
+\qquad j\in\{0,+,-\},
+$$
+其中 $\pi_j$ 是 (G4.78)，$H_*$ 正是 (G4.45)。
+因为 $z=A_j^2=R_j^{-2}$、$\pi_j^*\omega_*=A_jh_*$ 及 $2m+1=p$，
+准确有 $d\mathcal H_j=h_*$。
+
+这些函数都下降到原 $E$。
+确实，$V_4$ 的每个元素把 $R_j,A_j,D_{\mathcal X}A_j$ 同时按相同符号改变；
+$H_*$ 对 $w$ 为奇，而 $p$ 为奇数，所以 $R_j^p\pi_j^*H_*$ 不变。
+在 $R_j=0$ 处，$H_*$ 的极阶为 $p-2$，乘后恰有至少二阶零；
+在 $R_j=\infty$ 处，$H_*$ 在 $z=0,w=\pm2i$ 为非零有限值。
+因此在基曲线 $E$ 上，
+$\mathcal H_j$ 只有 $T=-jQ$ 处至多 $p$ 阶极。
+
+由 $\omega_E=-b_0h_*$，函数
+$-\Psi(T+jQ)/(b_0\delta)$ 有相同导数和同一极界。
+其差导数为零；在完美底域的一变量函数域中，差为 $p$ 次幂。
+该 $p$ 次根至多有一个简单极，而椭圆曲线上 $L(Q)=K$，
+所以差只能是常数。
+在 $T+jQ=Q$ 处，两者都为零，固定这个常数。
+故完整的函数身份是
+$$
+\boxed{\mathcal H_j=-\frac{\Psi(T+jQ)}{b_0\delta}.}
+\tag{G4.79}
+$$
+
+原 $P$ 也下降到这个 $E$：其显示式只含 $r^2,W$。
+它在 $Z$ 上唯一可能的极为 $y=0$，
+极阶至多 $2p$；(G4.75) 的 $U_{\rm old}$ 在这些点有四阶极，
+所以到原旧 $E$ 的 ramification index 为二，
+$P$ 在该 $E$ 上只有 $O$ 处至多 $p$ 阶极。
+同样的导数及 $L(O)=K$ 论证适用。
+在 $x=0$ 的原 $Q$ 处，$P$ 与 $\Psi$ 都为零。
+因此
+$$
+\boxed{
+P=\mathcal H_-=-\frac{\Psi(U_{\rm old},V_{\rm old})}{b_0\delta}.}
+\tag{G4.80}
+$$
+这增强了 §7 中仅写作“相差 $p$ 次幂”的来源；
+不是在低层消失后才允许替换的等式。
+
+### 13.2. 三平移之间的全部 $p$ 次补偿
+
+原规范加法律为
+$\Psi(T+Q)=\Psi(T)+((V-v)/U)^p$、
+$\Psi(T-Q)=\Psi(T)+((V+v)/U)^p$。
+这里 $\Psi(\pm Q)=0$，且 slope 的系数严格为一。
+又 $b_0^p=-b_0$、$\delta^p=\delta$。
+所以 (G4.79)–(G4.80) 给
+$$
+\boxed{
+P=\mathcal H_j+B_j^p,\qquad
+B_0=\frac{V+v}{b_0\delta U},\quad
+B_+=\frac{2v}{b_0\delta U},\quad B_-=0.}
+\tag{G4.81}
+$$
+这三个修正是在同一原函数域中的明确函数。
+
+它们还固定 (G4.33) 的实际常数。
+坐标交换 $\iota(x,y)=(y,x)$ 在基 $E$ 上为 $(U,V)\mapsto(U,-V)$，
+故由 (G4.79) 有 $\iota^*P=-\mathcal H_+$。
+与 (G4.35) 比较，得到
+$$
+\boxed{
+r_1=\frac{2}{b_0^2\delta},\qquad
+B_0=r_1\frac{x^4}{y^2},\quad
+B_+=\frac{r_1}{x^2y^2},\quad B_-=0.}
+\tag{G4.82}
+$$
+没有除以任何待证的 Cartier 系数。
+
+### 13.3. 三个 $114$ 方向的完整前四层
+
+在同一个 $E_*$ 上，(G4.45) 使
+$H_*\omega_*=\tfrac12A_N(z^3)\,dz$，
+其次数小于 $p-1$，所以 Cartier 为零。
+同样
+$H_*^3\omega_*=\tfrac12(z^3-4)A_N(z^3)^3\,dz$；
+多项式次数为 $9N+3<2p-1$，而指数全为三的倍数，
+故唯一可能的 $p-1$ 指数也不存在。
+因此
+$$
+C(H_*\omega_*)=C(H_*^3\omega_*)=0.
+$$
+§9 已付 $C(H_*^2\omega_*)=\Lambda_pz\omega_*$。
+第四层只有 $O$ 处至多四阶极；
+$z\mapsto\zeta z$ 下输入角色为 $\zeta$，absolute Cartier 将它变为
+$\zeta^{1/p}=\zeta^2$。在 $L(4O)\omega_*$ 的基
+$\omega_*,z\omega_*,w\omega_*,z^2\omega_*$ 中，只有 $z\omega_*$ 有这个角色，
+故先写为 $C(H_*^4\omega_*)=\Theta_pz\omega_*$。
+
+用 (G4.81) 的 $j=0$ 展开第四次幂，并保留第二层，得到
+$$
+C(P^4\lambda_0)
+=\Theta_pr^2\lambda_0+6B_0^2\Lambda_p\lambda_0.
+$$
+另一方面 (G4.38) 的同一原读取是
+$6r_1^2\Lambda_p x^2y^{-4}\lambda_0$。
+代入 $B_0=r_1x^4/y^2$，使用 $1-x^6=y^6$，
+两式比较准确给出
+$$
+\boxed{C(H_*^4\omega_*)=6r_1^2\Lambda_pz\omega_*.}
+\tag{G4.83}
+$$
+这个比较只消去非零有理函数 $r^2\lambda_0$，未除以 $\Lambda_p$。
+
+因此对于三个原生成元 $\lambda_j$，二项展开的全部低项成为
+$$
+\boxed{
+\begin{aligned}
+C(P^r\lambda_j)&=0&& (r=0,1),\\
+C(P^2\lambda_j)&=\Lambda_p\lambda_j,\\
+C(P^3\lambda_j)&=3B_j\Lambda_p\lambda_j,\\
+C(P^4\lambda_j)&=6\Lambda_p(B_j^2+r_1^2R_j^2)\lambda_j.
+\end{aligned}}
+\tag{G4.84}
+$$
+这里都是 absolute Cartier；(G4.81) 的 $B_j^p$ 正好在输出成为 $B_j$。
+第三、四层通常有极，不能被十维全纯字符表删掉。
+特别 $B_-=0$ 的那条第三层确为零，但其第四层仍保留
+$6r_1^2R_-^2\Lambda_p\lambda_-$。
+
+### 13.4. 原 $A_3,A_9$ 与 $e,K_4$ 的无条件身份
+
+先明确 $K_4\in\mathbf F_p$，不把 relative 系数擅作绝对标量。
+R1061.72 中 $R$ 的系数都在 $\mathbf F_p$；
+将 $v$ 换成 $-v$，其完整分子等于将 $V$ 换成 $-V$，
+因为总前因子次数 $8N+8$ 为偶数。
+所读 $V^{p-1}$ 次数也为偶数，所以 $K_4$ 被 Frobenius 固定。
+原 $e^p=-e$ 则继续保持。
+
+R1061 §19.4 的完整相对式，在删除任何 $e$ 项之前，是
+$$
+C_{\rm rel}(F_Q\Psi^4\omega)
+=\{4(v-V')e+4\delta^2K_4\}\omega'.
+$$
+由 (G4.80)、
+$\omega_{1,2}=-\nu/b_0$、
+$\nu=\eta^pF_Qh$ 和 $u=-b_0\omega_{3,2}$，
+转换为 absolute Cartier 后准确得到
+$$
+C(P^4\omega_{1,2})
+=\frac{4c^{2k-2}}{\delta^4}
+ \{(v+V_{\rm old})e+\delta^2K_4\}\omega_{3,2}.
+\tag{G4.85}
+$$
+这里 $(v-V')e$ 取 $p$ 次根后是 $(v+V)e$；
+同时 $b_0^{1-5/p}=-b_0^{-4}=c^{2k-2}$。
+这两处符号都来自实际 Frobenius，未将 relative 标架混为普通双线性。
+
+令 $t=x^6$。原 $V_{\rm old}=v(1+t)/(1-t)$，
+所以与 (G4.29) 的两个完整 Cartier 指数比较，得到
+$$
+\boxed{
+A_9=-\frac{4c^{2k-2}}{\delta^2}K_4,\qquad
+A_3=\frac{4c^{2k-2}}{\delta^2}K_4
+       +\frac{8vc^{2k-2}}{\delta^4}e.}
+\tag{G4.86}
+$$
+本式不要求 $e=0$。
+其和仍为已付的 $4r_1^3E_1$：
+代入 (G4.82)、$E_1=-c^{2k-1}e/\delta$ 及 $vc=-4$
+即可逐项核准，没有新增独立的非零输入。
+
+最后把它接回两个原短谱块，而不改用一个辅助变量导数。
+令 $\Gamma=(2v)^{2k}$。
+由 (G4.40) 的 $A_9=3q_N'(0)/2$，
+再用 $(2vc)^{2k-2}=2^{p-5}=1/16$，有
+$$
+\boxed{
+K_4=-6\delta^2(2v)^{2k-2}q_N'(0).}
+$$
+结合原 Dixon/Jordan 的 J.24–J.27 及 R1076.13，完整地得到
+$$
+\boxed{
+\begin{aligned}
+q_N(0)&=\frac{\delta}{2\Gamma}r_N(0),\\
+q_N'(0)+\frac{2v^2}{3\delta^3}q_N(0)
+ &=\frac{\delta}{2\Gamma}r_N'(0).
+\end{aligned}}
+\tag{G4.87}
+$$
+这是两个原零谱 jet 的准确一阶标架补偿。
+仅在 $e=0$ 时，中间的 $q_N(0)$ 项才消失，
+还原旧 J.27；本节没有把 (G4.87) 外推成整个谱多项式的指数变换。
+
+(G4.80)–(G4.87) 支付实际 canonical primitive、三平移的全部
+$p$ 次修正和不附 $e=0$ 前提的第四层身份。
+原共同消失问题仍等价于这两个指定谱 jet 的共同消失，
+未因新的单位前因子、三条椭圆映射或旁支 $\Lambda_p$ 而得到排除。
+全部为纸面函数恒等式、有限极界及既有相对 Cartier 来源的精确比较。
+
+本节 root 逐式核准下降、唯一极界与零点常数，重读 R1061 §§19.4、21.5 和 R1076.13，核定全部 relative/absolute 符号、三条亚纯补偿及一阶谱标架。o2 独核无条件第四层尺度；没有数学程序执行。
