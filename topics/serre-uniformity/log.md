@@ -241,3 +241,8 @@
 ### 2026-11-28 14:21 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1164 §13付actual SS两整frame、原Miller完整vertical divisor及原点unit刚化；参数改换保c0与同根unit ratios，先用NP=0相消再取PD lifts。root全文核normality/vertical阶及两点相遇时的fractional line，o2核主要几何式，完整即推。
 - 原第二open为E\(O∪P)，真实Čech refinement及Frobenius comparison仍保；继续原normal/F0。14:21本地仍无执行环境，已请求下一次公开Actions实际pull，无数学程序执行。
+
+
+### 2026-11-28 14:23 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1161 §§8–9付原δP的精确restricted power、全actual Eisenstein θ-cycle/Cartier身份、所有原行的指定2p读取及finite-log误差严格界；四个原有界逆的低jet在保p次补偿后也准确读出。root全文纸核常数域/权/局部阶及rν<p，o1独核，完整即推。
+- 原两点差仍消费真实Q_s/actual-good mask，未宣行空间闭合或joint单位，继续原共同纤维；无数学程序执行。

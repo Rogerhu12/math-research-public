@@ -475,3 +475,311 @@ missing-principal 的完整低卷积和首 $p$ carry 都继续存在。
 $\eta^2\ne\eta'^2$ 时至少一个 (1161.17) 的差非零，
 或证明一个能分离该点对的操作真实保留这些原行。
 本篇没有宣称这一目标已完成；全部推导为纸面证明，无数学程序执行。
+
+
+## 8. 同一 Legendre 导子的完整 Cartier 规范
+
+本节将 §6 的实际 weighted moment 送入一个确定的 Cartier 投影。
+仍用 $q=1-w^2$、$D=q\,d/dw$、$P=\mathsf P_\nu$、
+$a=a_\nu$，并置
+$$
+\delta_P=P^2D,\qquad \alpha=\frac{dw}{qP^2}.
+$$
+以下 $\alpha'$ 表示相对 Frobenius 目标上的同一微分，
+不是对 $\alpha$ 求导。所有 pullback 都只作用于显示的
+**函数系数**；不把微分的 Frobenius pullback 当作非零微分。
+
+### 8.1. 原有理微分给出的精确 restricted power
+
+原 Legendre 第二多项式 $W=\mathsf W_{\nu-1}$ 满足
+$$
+q(PW'-WP')=P^2-1.
+$$
+这个有理多项式恒等式可由同一 Legendre 方程和
+$P'(0)=a,\ W(0)=a^{-1}$ 定准；也由 R1154 的原
+$P,W$ 递推直接得到。因此
+$$
+\boxed{\qquad
+\alpha=\frac{dw}{q}-d\!\left(\frac WP\right),
+\qquad
+C_{\rm rel}(\alpha)=\frac{dw'}{q'}.
+\qquad}
+\tag{1161.21}
+$$
+第二式使用 exact 微分的 Cartier 为零，以及
+$C_{\rm rel}(dw/(1-w^2))=dw'/(1-w'^2)$。
+在 $w=\pm1$，$\alpha$ 的留数仍分别为 $-1/2,1/2$，
+没有将这两个实际极点删除。
+
+为同时核准导子公式，给一个一般的函数域证明。
+设 $\delta=v(w)\,d/dw$、$\alpha_\delta=dw/v$，
+且 $\delta^p=c\delta$。
+交换 $\delta$ 与 $\delta^p$ 得 $\delta c=0$。
+在相对常数域上，$\delta$ 的像维数为 $p-1$。
+两个算子
+$$
+\delta^{p-1}-c,\qquad
+v^p\left(\frac d{dw}\right)^{p-1}\circ v^{-1}
+$$
+都杀掉这个像，且最高阶系数同为 $v^{p-1}$；
+所以它们相等。
+再用 $(p-1)!=-1$ 的标准 Cartier 取系数式，得到
+$$
+\boxed{\qquad
+F_{\rm rel}^*\!
+ \left(\frac{C_{\rm rel}(h\alpha_\delta)}
+                  {\alpha_\delta'}\right)
+   =ch-\delta^{p-1}h .
+\qquad}
+\tag{1161.22}
+$$
+这里只对右边的相对 Frobenius 常数作系数下降，
+不要求底域的任意参数有 literal $p$ 次根。
+
+将 $h=1$ 与 (1161.21) 代入 (1161.22)，准确得到
+$$
+\boxed{\qquad
+\delta_P^{\,p}=P^{2p}\delta_P,\qquad
+F_{\rm rel}^*\!
+ \left(\frac{C_{\rm rel}(h\alpha)}{\alpha'}\right)
+ =P^{2p}h-\delta_P^{\,p-1}h .
+\qquad}
+\tag{1161.23}
+$$
+这将 R1154 §16 中仅需非零的 restricted-power 系数
+完全定为 $P^{2p}$。它不是说 $\delta_P$ 对原 actual-good
+行空间已经给出了一个闭合的操作。
+
+### 8.2. 每个真实 Eisenstein 权重的 Cartier 身份
+
+在权为 $k$ 的模形式上，记原 Katz 导子为
+$$
+\mathscr T M=A\mathfrak d M+\frac{k}{12}BM .
+$$
+它的权为 $k+p+1$，其 $q$ 展开是 $q\,dM/dq$。
+将 $M$ 限制到 $E_4=1,E_6=-w$，写为 $Q(w)$。
+Euler 同权式以及
+$A=-P,\ B=-6DP+wP$ 给
+$$
+\mathfrak dM\big|_{(1,-w)}
+ =\frac12DQ+\frac{k}{12}wQ,\qquad
+\mathscr TM\big|_{(1,-w)}
+ =-\frac12\bigl(PDQ+k(DP)Q\bigr).
+$$
+于是对原 $Q_s$，逐次保留变化后的权
+$2s+n(p+1)\equiv2s+n\bmod p$，得到
+$$
+\boxed{\qquad
+\delta_P^n(P^{2s}Q_s)
+ =(-2)^nP^{2s+n}
+       \bigl(\mathscr T^nG_{2s}\bigr)\big|_{(1,-w)} .
+\qquad}
+\tag{1161.24}
+$$
+没有在每次作用后继续误用初始权 $2s$。
+
+原 Eisenstein 系数满足
+$\sigma_{2s-1}(pm)\equiv\sigma_{2s-1}(m)\bmod p$。
+因此 $\mathscr T^{p-1}G_{2s}$ 的展开恰是
+$G_{2s}(q)-G_{2s}(q^p)$，包括零常数项。
+以下两项和左边的整数权都为 $p^2-1+2s$，
+所以 §2 的固定权展开原则给
+$$
+\mathscr T^{p-1}G_{2s}
+ =A^{p+1}G_{2s}
+   -A^{p+1-2s}G_{2s}^{\,p}.
+$$
+实际范围 $2\le s\le(p-3)/2$ 保证
+$p+1-2s\ge4$；两次 $A$ 的幂均为偶数。
+合并 (1161.23)、(1161.24)，得完整有理微分身份
+$$
+\boxed{\qquad
+C_{\rm rel}\!\left(
+ P^{2s-2}Q_s(w)\frac{dw}{q}\right)
+       =Q_s(w')\frac{dw'}{q'}.
+\qquad}
+\tag{1161.25}
+$$
+具体地，若 $h=P^{2s}Q_s$，则
+$$
+\delta_P^{p-1}h=P^{2p}(h-Q_s^p),
+$$
+所以 (1161.23) 的右边正是
+$P^{2p}Q_s^p$，没有另一个常数或 holomorphic 补项。
+
+在 $w=0$ 读取 (1161.25) 给
+$$
+\mathscr R(P^{2s-2}Q_s)=Q_s(0).
+\tag{1161.26}
+$$
+例如实际偶 $s$ 的最高 coarse 系数准确为
+$\kappa^sQ_s(0)$。这只是原系数的值，
+并未证明每个 $Q_s(0)$ 都是单位。
+对于奇 $s$，(1161.26) 的两边由奇偶性均为零，
+不能把它替换成原带 $V$ 的最高奇行读数。
+
+## 9. 每条原行的单一 Cartier 读取及安全误差界
+
+为书写全局有理式，暂取原有限对象的指定多项式代表
+$$
+V=W-P\mathcal L_p,\qquad
+\mathcal L_p=\sum_{j=0}^{(p-3)/2}\frac{w^{2j+1}}{2j+1}.
+$$
+不在中途把它换成 characteristic-zero 的无限对数。
+定义
+$$
+Y_\eta=V+\kappa\eta P,\qquad
+Z_\eta=\frac{Y_\eta}{P},\qquad
+\mathcal M_s(\eta)=
+ \mathscr R(P^{s-2}Q_sY_\eta^s).
+$$
+原行差 (1161.16) 正是同一单位因子乘
+$\mathcal M_s(\eta)-\mathcal M_s(\eta')$。
+由 (1161.21) 及
+$\mathcal L_p'=(1-w^{p-1})/q$，有精确的有理函数式
+$$
+\boxed{\qquad
+\delta_P Z_\eta=-1+P^2w^{p-1}.
+\qquad}
+\tag{1161.27}
+$$
+显示的最后一项没有在函数域中消失。
+
+### 9.1. 原 weighted moment 的 $2p$ 次系数
+
+令
+$$
+h_s=P^{2s}Q_sZ_\eta^s=P^sQ_sY_\eta^s.
+$$
+则 $h_s\alpha=P^{s-2}Q_sY_\eta^s\,dw/q$，
+所以其相对 Cartier 在 $w'=0$ 的常数系数就是
+$\mathcal M_s(\eta)$。
+由于 $\operatorname{ord}_0h_s\ge s\ge2$，
+(1161.23) 中 $P^{2p}h_s$ 不贡献 $w^{2p}$。
+另一方面，$P=aw+O(w^3)$；
+在 $C_{\rm rel}(h_s\alpha)/\alpha'$ 中
+$w'^2$ 的系数准确为 $a^2\mathcal M_s(\eta)$。
+因此
+$$
+\boxed{\qquad
+\mathcal M_s(\eta)
+ =-\frac1{a^2}[w^{2p}]
+       \delta_P^{p-1}(P^{2s}Q_sZ_\eta^s).
+\qquad}
+\tag{1161.28}
+$$
+这可以在把 $\eta$ 看作独立底参数的相对 Cartier 中证明；
+不对 $\eta$ 擅自取 Frobenius 逆。
+原标记中的 $\kappa$、$N_R$ 仍由 §§5–6 保留。
+
+### 9.2. 仅在这一指定读取中排除首个有限对数误差
+
+把 $Z$ 先看作独立变量，在
+$\mathbf F_p((w))[Z]$ 上赋予
+$\operatorname{ord}w=1,\operatorname{ord}Z=-1$。
+设
+$$
+\mathcal D_0=\delta_P-\partial_Z,\qquad
+\mathcal E=P^2w^{p-1}\partial_Z .
+$$
+代入 $Z=Z_\eta$ 后，真正的 $\delta_P$ 作用是
+$\mathcal D_0+\mathcal E$。
+$\mathcal D_0$ 将赋值提高至少一，
+$\mathcal E$ 将赋值提高至少 $p+2$。
+而输入 $P^{2s}Q_sZ^s$ 的赋值至少为 $s$。
+在 $p-1$ 次作用的展开中，只要一个词含 $\mathcal E$，
+其最终赋值至少为
+$$
+s+(p+2)+(p-2)=2p+s>2p.
+$$
+这也包括 $\delta_P$ 随后微分误差系数的情形；
+不需要假设两个误差算子可交换。
+
+只有 $\delta_P$ 与 $\partial_Z$ 在 $\mathcal D_0$ 内可交换。
+用
+$\binom{p-1}{j}(-1)^j=1$，得到真实读取
+$$
+\boxed{
+\begin{aligned}
+\mathcal M_s(\eta)
+ =-\frac1{a^2}[w^{2p}]
+ \sum_{j=0}^{s}
+   s(s-1)\cdots(s-j+1)\,
+   \delta_P^{p-1-j}(P^{2s}Q_s)\,
+   Z_\eta^{\,s-j}.
+\end{aligned}}
+\tag{1161.29}
+$$
+$j=0$ 的下降阶乘为一。
+所有阶乘指标均小于 $p$；
+本式不除 Bernoulli 数，也不添加任何缺席行。
+
+(1161.29) 是 (1161.28) 的准确有限计算规则，
+不是把 (1161.27) 的误差从所有恒等式中删掉。
+若改变 $V$ 的代表一个 $w^p$ 倍数，
+(1161.28) 的被微分输入变化的赋值至少为 $p+s$，
+作用后至少为 $2p+s-1>2p$；
+所以结果仍是原 $\mathbf F_p[w]/(w^p)$ 中的同一读数。
+这里出现的 $2p$ 次系数来自已定义的有理 Legendre 函数，
+不是延伸一个尚未证明整性的原 $\sigma$ 或 torsion logarithm jet。
+
+### 9.3. 原多项式余项的低 jet 不含未知 Frobenius 修正
+
+同一精确导子还给 R1154 §16 的四个实际多项式逆
+一个无需解未知 Frobenius 常数的读取。
+对 $r=1,2,3$，若该节的实际有界解满足
+$\mathcal S_rH=T$，定义
+$$
+\mathcal I_r(T)=
+ P^{r-2p}\delta_P^{p-r-2}(P^{r+2}T).
+$$
+由 (1154.92)，
+$P^{r+2}T=\delta_P^{r+1}(H/P^r)$ 在 $\delta_P$ 的像中。
+(1161.23) 因而证明
+$\mathcal S_r\mathcal I_r(T)=T$，所以
+$$
+H-\mathcal I_r(T)=P^r u(w)^p
+\quad\text{对某个 }u(w)\in\mathbf F_p(w).
+$$
+这里没有将 $u$ 任意设为零。
+
+在 $P$ 的每个简单根处，
+$\delta_P^{p-r-2}(P^{r+2}T)$ 的零阶至少为 $p$。
+故 $\mathcal I_r$ 的极阶至多 $p-r$，
+从而 $u$ 的极阶至多一。
+在原 Gaussian 点 $w=0$，写
+$u=c/w+u_{\rm reg}$。
+因 $r\nu<p$，$w^{-p}P^r$ 的全部项均为负次；
+而 $P^r u_{\rm reg}^p$ 的零阶至少为 $r$。
+所以全部 $0\le j<r$ 的所需低 jet 都不受该修正影响：
+$$
+\boxed{\qquad
+[w^j]H
+ =\frac1{a^2}[w^{2p+j}]
+       P^r\delta_P^{p-r-2}(P^{r+2}T),
+\qquad 0\le j<r.
+\qquad}
+\tag{1161.30}
+$$
+最后一步使用
+$P^{-2p}=a^{-2}w^{-2p}+O(1)$；
+其余项乘分子后的零阶至少为 $p+r$，不进入读取。
+
+因此 (1161.30) 同时适用于原
+$H_1(0),H_7(0)$、$H_2'(0)$、
+$H_3(0),[w^2]H_3$。
+其中 $H_7$ 的源仍是
+$[wP^7]_{\deg<p}-[wP^7]_{\deg<p}(1)$，
+不能改成完整 $wP^7-1$。
+将这些值代入 (1154.95)、(1154.99)，就是同一原
+$\mathsf h,\mathbf B_\nu,\mathbf U_\nu,\mathbf V_\nu$
+和 Bernoulli 系数 $3/8$，没有换一个未加权的检测。
+
+以上新身份固定了原 Eisenstein 权重、相对 Cartier 系数、
+低 jet 的 Frobenius 修正范围和有限对数误差的确切起阶。
+它们尚未证明不同的 $\eta^2,\eta'^2$ 必被
+(1161.18) 的 actual-good 子集分离；
+特别不由 $\delta_P$ 的 restricted power 推出该子集封闭。
+后继仍须处理原两点差以及同一 $Q_s$，
+不能把 (1161.25) 的单个最高系数或 (1161.30) 的存在性
+替代指定 weighted minor 的非零。全部为纸面推导，无数学程序执行。

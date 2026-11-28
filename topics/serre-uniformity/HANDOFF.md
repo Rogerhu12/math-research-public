@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：7f1461be61218bf028a8efc9a1f1660692d9a9a6**（2026-11-28 14:21 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：311e9f40c12e871e022300b554cdde9d3fa8f491**（2026-11-28 14:23 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 13:36:52 Asia/Taipei，Actions run46112877438/job140880105085，blob:none浅clone后真实pull --rebase至30e8ea86；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤14:26、pull≤14:36。本地13:36仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -52,7 +52,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)真实Legendre/finite-log/Jacobi全部weighted边界、四低jet和3/8 Bernoulli项均付。原ξ=P/(a²V)、forcing6a²、Hasse负号及自足Xp按open/原文；p1019仅否无条件旁零，不扩扫。端点unit不代原v−3a⁶bu，joint继续。
 
-[R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)现付**全部原实际行**到同一固定ν的真实运输。Bol Θ^m g_j=A∂g_m+(m/12)Bg_m（m=p+1−j），Wilson反射不除Bernoulli；j=2s、原η及N_R完整保留。令Q_s=G_(2s)(−1/48,−w/864)、κ²=−1/(12aν⁴aG)，原行差=N_R 2^sδ(2s−1)!/s!·R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。仅even幂存活，形成Fp[η²]的T_s；两twist及missing principal沿原source。s3精确回H_p，δβG=12ε_r aν²aG。全mask共同纤维等价所有实际T_s相等；不再把这个运输列为未付，仍须用真实Q_s权重排除非对角对，未宣mask闭合或joint非零。
+[R1161 §§1–9](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全部原actual-good行的Bol/Wilson/同Pν,Vν运输及N_R、η、κ尺度已付；共同纤维恰所有T_s(η²)相等。§§8–9由α=dw/q−d(W/P)锁δP^p=P^(2p)δP，真实θ-cycle给C(P^(2s−2)Q_s dw/q)=Q_s dw′/q′。每行是−a⁻²[w^(2p)]δP^(p−1)(P^(2s)Q_sZη^s)，finite-log误差仅该读取中严格消；四原多项式逆的低j<r也有准确2p+j读式，未知P^r u^p不入低jet。继续同一mask/真实Q_s两点分离和joint，未宣闭合/非零；全部旧尺度沿原文。
 
 
 ## 已成、禁止重做与其它入口

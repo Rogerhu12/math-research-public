@@ -133,11 +133,9 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §§15–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²和完整有限Ramanujan，E2′保6a²ξp−1。四moment准确为h=−[ξp−4]E6、B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；minor=a²(v−3a⁶bu)。Sym¹/²/³唯一多项式逆保全部forcing，四权归四低jet；同Legendre无穷分支仅消无权m3的q项，m3=M30−3Bp−3/8，所以h0下真joint为Bp−3=8(M30+r3−3BνUν)/3，未反除D2。§17带符号A(1,−w)=−P、Aγ=−aξ、Bγ=−a(6+ξE2)；自足Xp=A²X+ACZ/6+C²∂H/6先保H^p再以整数权排除，其流读取a²(6∂H+kξ+ξ²∂ξ)保临界零。全部展开及端点单位沿原文/逐字归档，不替原joint。
 
-[R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)现将**每一条原actual-good行**准确送入同一固定Pν/Vν。安全偶j、m=p+1−j满足Θ^m g_j=A∂g_m+(m/12)Bg_m，固定weight三角整q基给自足Bol；同原流A=−δu、C=−δ，Wilson给全jet反射。对原s（偶s=R、奇s=p−R）及Q_s(w)=G_(2s)(−1/48,−w/864)、κ²=−1/(12aν⁴aG)，
+[R1161 §§1–9](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全部原actual-good行已准确送入同一Pν/Vν：Bol Θ^m g_j=A∂g_m+(m/12)Bg_m、Wilson及真实η/N_R/κ保全，原行差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]；仅even幂存活，形成原T_s(η²)。两twist/missing principal及s2/3尺度全沿原文，完整共同纤维 iff全部actual s的T_s相等。
 
-原行差 = N_R·2^sδ(2s−1)!/s! · R[P^(s−2)Q_s(w){(V+κηP)^s−(V+κη′P)^s}]。
-
-κ来自临时四次根但仅even i存活，T_s(Z)=Σ_(h≥1)binom(s,2h)(κ²Z)^h R(P^(s+2h−2)Q_sV^(s−2h))在Fp中。原两twist/实际η、N_R、缺席principal及所有cutoff均保，s2/3分别回原affine和H_p且δβG=12ε_r aν²aG。**已付运输不重做**：完整共同纤维等价全部实际s的T_s(η²)=T_s(η′²)。待付是同一真实子集至少一差非零；Q_s随s的实际权、原Bernoulli mask和S0/P0边界仍不能删，未宣行空间算子闭合。原变化次数Jacobi路线也未被无依据等同；本篇给的是另一条已完整定标的全行入口。
+§§8–9进一步锁α=dw/(qP²)=dw/q−d(W/P)，故δP^p=P^(2p)δP。真实θ-cycle按每步变化权给C_rel(P^(2s−2)Q_s dw/q)=Q_s(w′)dw′/q′。每行M_s=−a⁻²[w^(2p)]δP^(p−1)(P^(2s)Q_sZη^s)，δPZη=−1+P²w^(p−1)；error每次升阶p+2，只在此读取中严格消，未改全函数。原S_r H=T的低j<r由a⁻²[w^(2p+j)]P^rδP^(p−r−2)(P^(r+2)T)准确读出：未知P^r u^p保留，但根处简单极及rν<p使其不入低jet；H7仍用真实截断源，joint的3/8 Bernoulli项不删。待付是同一真实mask的两点差至少一项非零，不能由restricted power宣闭合或用最高单系数代weighted minor。
 
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
