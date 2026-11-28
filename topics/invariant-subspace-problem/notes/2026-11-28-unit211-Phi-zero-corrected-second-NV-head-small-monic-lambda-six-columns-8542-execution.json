@@ -1,0 +1,553 @@
+{
+  "schema": "isp-corrected-Phi-second-NV-head-small-monic-lambda-six-columns-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "completed unique first mathematical execution; no scalar gcd or exclusion",
+  "source": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-second-NV-head-small-monic-lambda-six-columns-8542.py",
+    "git_blob": "999dcfdc3059ee6a9465f03ed555a20574fbf9a2",
+    "sha256": "11521b5532c7202582c3419dcb0a3b4283c8f72c092ad95422317b5d8512ec57",
+    "bytes": 11148,
+    "commit": "0b44296ab3ed26324259769b4adfd3f998b723d6",
+    "input_blob": "1039f52a839a9d4e2a5c43e0ed400e4c9e8dc811"
+  },
+  "actions": {
+    "run_id": 46176081967,
+    "job_id": 141074969574,
+    "run_attempt": 1,
+    "workflow": "invariant-subspace-8542-phi-small-monic-lambda-six-columns.yml"
+  },
+  "driver_receipt": {
+    "elapsed_seconds": 0.17261865300000068,
+    "max_child_rss_kib": 39956,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e7b0285b6d381b065814ac5456ab6ac3eb44c85a",
+        "before": "0b44296ab3ed26324259769b4adfd3f998b723d6",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T18:29:07.335218+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46176081967",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0b44296ab3ed26324259769b4adfd3f998b723d6",
+    "source_exit_code": 0,
+    "source_git_blob": "999dcfdc3059ee6a9465f03ed555a20574fbf9a2",
+    "source_sha256": "11521b5532c7202582c3419dcb0a3b4283c8f72c092ad95422317b5d8512ec57",
+    "stdout_bytes": 13858,
+    "stdout_sha256": "31807a6bd81b2b93d951bfeccf9759f0df395101bbbe8fa799f7cfe4072e527c",
+    "stop_reason": null
+  },
+  "independently_read_full_inner_records": 5,
+  "stdout_reconstructed_and_sha256_verified": true,
+  "last_mathematical_seconds": 0.11060766999999672,
+  "all_actual_stage_names": [
+    "new_original_monic_lambda_cubic_and_small_complete_NV_definitions",
+    "new_exact_same_point_three_by_six_original_columns",
+    "new_prescribed_three_original_sigma_scalar_returned",
+    "new_prescribed_three_original_sigma_scalar_returned",
+    "new_second_head_small_monic_lambda_three_by_six_input_complete"
+  ],
+  "original_definition_profiles": [
+    {
+      "denominator": {
+        "degrees": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "sha256": "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+        "terms": 1,
+        "totalDegree": 1
+      },
+      "numerator": {
+        "degrees": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "sha256": "33c188ceb72d8ce5f2d6c944758aabf9fb2e41c9d3bf64a9e54718a090f6b9e6",
+        "terms": 29,
+        "totalDegree": 5
+      }
+    },
+    {
+      "denominator": {
+        "degrees": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "sha256": "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+        "terms": 1,
+        "totalDegree": 1
+      },
+      "numerator": {
+        "degrees": [
+          2,
+          2,
+          3,
+          3
+        ],
+        "sha256": "8c502d711cc4495e64c01295a41d68d4f70cac4da846f33fa84c10e45b34cb75",
+        "terms": 53,
+        "totalDegree": 6
+      }
+    },
+    {
+      "denominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "numerator": {
+        "degrees": [
+          7,
+          3,
+          3,
+          3
+        ],
+        "sha256": "84ae855aaccd03d7ef6654ccbe66efe240a5013851d5701cdf5300803616d0c9",
+        "terms": 220,
+        "totalDegree": 11
+      }
+    }
+  ],
+  "monic_lambda_cubic_profile": {
+    "denominator": {
+      "degrees": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "sha256": "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+      "terms": 1,
+      "totalDegree": 1
+    },
+    "numerator": {
+      "degrees": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "sha256": "2eda33a15ffa21267012237faf59efcf34f2e1584a4b6386d19088ed4ab20729",
+      "terms": 41,
+      "totalDegree": 6
+    }
+  },
+  "complete_NV_scale_profile": {
+    "denominator": {
+      "degrees": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+      "terms": 1,
+      "totalDegree": 0
+    },
+    "numerator": {
+      "degrees": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "sha256": "eea0739601afd1bbf683953f25c41175c98555b03c29dcb2dfe5a71cdd037fbf",
+      "terms": 7,
+      "totalDegree": 4
+    }
+  },
+  "six_original_column_sigma_degrees": [
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      4,
+      3,
+      2
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      4,
+      3,
+      2
+    ],
+    [
+      5,
+      4,
+      3
+    ]
+  ],
+  "selected_groups": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      3,
+      4
+    ]
+  ],
+  "scalar_returns": [
+    {
+      "group": [
+        0,
+        1,
+        3
+      ],
+      "sigma_degree_upper_bound": 5,
+      "actual_sigma_degree": 5,
+      "scalar_profile": {
+        "degrees": [
+          12,
+          5,
+          0,
+          5
+        ],
+        "sha256": "5020a4cd05dbe94d0114486f282aca2a29989a87d58c67e90025cd03a29fca69",
+        "terms": 225,
+        "totalDegree": 16
+      },
+      "sigma_head_profile": {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "numerator": {
+          "degrees": [
+            9,
+            5,
+            0,
+            0
+          ],
+          "sha256": "67a86db7d07d81eb65e8d2481046876d35b6e288351184b7bf8b1f6668885f4f",
+          "terms": 47,
+          "totalDegree": 10
+        }
+      },
+      "all_three_original_multiplier_profiles": [
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              10,
+              4,
+              1,
+              3
+            ],
+            "sha256": "bb2f750d4ec17af2da65f000600bc157725d14f59f0eed85a104e503ccbb1471",
+            "terms": 219,
+            "totalDegree": 13
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              10,
+              4,
+              0,
+              2
+            ],
+            "sha256": "0863357918cd719d34b4451e3a66b89a7cc68d838584f6ba06e621d8a2d0ba47",
+            "terms": 90,
+            "totalDegree": 12
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              8,
+              3,
+              0,
+              2
+            ],
+            "sha256": "e93b60d0c0430240ab6e53d678f029ac4faa4e36a703834d079dd02d6d1bf0c9",
+            "terms": 67,
+            "totalDegree": 10
+          }
+        }
+      ],
+      "common_of_all_three_multipliers": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "cleared_denominator_profile": {
+        "degrees": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "sha256": "875abbde7c4c59b317d1b6c8671febad51d210a9de7456fe6aab1dc197cbf808",
+        "terms": 1,
+        "totalDegree": 2
+      },
+      "old_paid_removed_profile": {
+        "degrees": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sha256": "c38f6d5f84a75b04b41752eb8d8382813e2789c4f7bf79bcf398c828ca2a9e38",
+        "terms": 2,
+        "totalDegree": 2
+      },
+      "actual_final_denominators_all_constant_one": true,
+      "complete_original_identity_returned": true
+    },
+    {
+      "group": [
+        0,
+        3,
+        4
+      ],
+      "sigma_degree_upper_bound": 6,
+      "actual_sigma_degree": 6,
+      "scalar_profile": {
+        "degrees": [
+          18,
+          9,
+          0,
+          6
+        ],
+        "sha256": "3aa8313b2740576418bc73fc51cead93f5d3fd0d9b50d29088dcf42cb4e706fd",
+        "terms": 626,
+        "totalDegree": 25
+      },
+      "sigma_head_profile": {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "numerator": {
+          "degrees": [
+            18,
+            9,
+            0,
+            0
+          ],
+          "sha256": "e6da2d440c8c130a171102a01f5fbbdb7eddc5a1d1340d281a6f658e86fa721b",
+          "terms": 118,
+          "totalDegree": 19
+        }
+      },
+      "all_three_original_multiplier_profiles": [
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              16,
+              8,
+              2,
+              4
+            ],
+            "sha256": "37438846011bb94190d77781cccbb7e72fbbda090587f547f3dd789567ad97dd",
+            "terms": 909,
+            "totalDegree": 21
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              16,
+              7,
+              1,
+              3
+            ],
+            "sha256": "27be85bca8f8e61a6757221ff0c57793925a3a5bc71ed19a77933bd8d4ac18e5",
+            "terms": 510,
+            "totalDegree": 19
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              14,
+              7,
+              1,
+              3
+            ],
+            "sha256": "4663b15894affab8ca489ef4cac05e91223dffd3cf4196372507c5b89924ad8d",
+            "terms": 383,
+            "totalDegree": 17
+          }
+        }
+      ],
+      "common_of_all_three_multipliers": {
+        "degrees": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "sha256": "413c727cfa5b37c646cd32f41b5e29dfb5790b26a06bf5b1fb35c6e8b4862b62",
+        "terms": 2,
+        "totalDegree": 1
+      },
+      "cleared_denominator_profile": {
+        "degrees": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "sha256": "875abbde7c4c59b317d1b6c8671febad51d210a9de7456fe6aab1dc197cbf808",
+        "terms": 1,
+        "totalDegree": 2
+      },
+      "old_paid_removed_profile": {
+        "degrees": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sha256": "c38f6d5f84a75b04b41752eb8d8382813e2789c4f7bf79bcf398c828ca2a9e38",
+        "terms": 2,
+        "totalDegree": 2
+      },
+      "actual_final_denominators_all_constant_one": true,
+      "complete_original_identity_returned": true
+    }
+  ],
+  "final_statistics": {
+    "exactProducts": 2629,
+    "finalOldPaidDenominators": 6,
+    "monicOriginalReturns": 2,
+    "newCofactorCoordinates": 6,
+    "newColumnCoordinates": 18,
+    "newMonicDivisions": 6,
+    "newOriginalColumns": 6,
+    "threeOriginalFullReturns": 10
+  },
+  "scope": {
+    "exact_subsystem": "E2,E3,complete original NV on the entire second NV t-head, with original E0/N0/P1 recovery",
+    "exact_module": "cokernel of new 3x6 matrix over old-weight[sigma], in genuine monic lambda3 ambient algebra",
+    "current_weight_denominators": "Q, u-1, Q+4(u-1); original coordinate scope unchanged",
+    "all_unpaid_sigma_heads_retained": true,
+    "no_scalar_gcd_factorization_resultant_prime_or_new_unit": true,
+    "physical_t_and_remaining_original_means_and_values_retained": true,
+    "entire_second_head_excluded": false,
+    "entire_Phi_excluded": false,
+    "ordinary_ISP_claim": false,
+    "no_old_twenty_or_eight_column_gate_replayed": true
+  }
+}
