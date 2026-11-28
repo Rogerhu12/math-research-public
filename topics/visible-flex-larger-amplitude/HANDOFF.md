@@ -56,5 +56,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 674ce5c6a6c445199fa9cf2ced7882497631f418
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 4a3d340c051d6f131baa4972d3136c5e34d783de
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 385c1b7cc0852f414beb4a6744ff202589ec1c8c
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 821da5316f73dc4e7144a86a1261beed881ba9b9
