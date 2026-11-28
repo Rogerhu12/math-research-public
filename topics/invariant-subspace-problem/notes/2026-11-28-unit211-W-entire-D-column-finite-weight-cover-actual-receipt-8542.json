@@ -1,0 +1,415 @@
+{
+  "schema": "isp-original-D-column-cancellation-and-finite-cover-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "entire current W original paid weight chart, physical D != 0; all Lhalf=0, H198=0 and unpaid leading-zero fibres retained",
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-D-two-column-cancellation-first-finite-k-cover-8542.py",
+    "gitBlob": "a29b26b6f5bee924ea7f4ee8e35f76d60ae08fd3",
+    "bytes": 19002,
+    "sha256": "d325a48ae84c1142eed3a1d087670d2e2a139425c4e5d74bd97b8e36a40470c8",
+    "executedNecessaryPrefix": {
+      "path": "2026-11-28-unit211-W-entire-native-NSPS-y-t-fixed-six-original-determinant-8542.py",
+      "bytes": 8074,
+      "sha256": "1dbb8a70ac77f5d531339ca26b5a60b8b3c3cc9a37e41eb54808063c11490878"
+    },
+    "limits": {
+      "seconds": 180,
+      "addressSpaceBytes": 4294967296
+    },
+    "oldQQDeterminantReplayed": false,
+    "oldNormOrPrimaryReplayed": false
+  },
+  "execution": {
+    "runId": 46099681457,
+    "jobId": 140839055797,
+    "workflow": "invariant-subspace-8542-w-d-column-k-cover.yml",
+    "driver": {
+      "elapsed_seconds": 13.166233636999998,
+      "max_child_rss_kib": 94152,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "7e527749e2bac983d21846051d560f7c36c694de",
+          "before": "0a352d576d8b8df88813e67ac27bd2c862b00e18",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-28T02:46:31.873873+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46099681457",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "0a352d576d8b8df88813e67ac27bd2c862b00e18",
+      "source_exit_code": 0,
+      "source_git_blob": "a29b26b6f5bee924ea7f4ee8e35f76d60ae08fd3",
+      "source_sha256": "d325a48ae84c1142eed3a1d087670d2e2a139425c4e5d74bd97b8e36a40470c8",
+      "stdout_bytes": 7593,
+      "stdout_sha256": "ce1c3755cd0d8934c0787383011d56e61bbdf60d673724fc720751bcc40f076b",
+      "stop_reason": null
+    }
+  },
+  "trueStages": [
+    {
+      "stage": "new_entire_W_simultaneous_two_column_D_cancellation",
+      "originalKernelColumns": [
+        [
+          1,
+          "1/2",
+          "1/2",
+          0,
+          "1/4",
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "constantColumnTransformationDeterminant": 1,
+      "exactLhalf": "4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8)",
+      "allBaseRowsAndOriginalDTargetForwardReverseProductsReturned": true,
+      "QQExactColumnDivisionReturns": 26,
+      "originalDTargetMeanTraceReturned": true,
+      "DTargetPaidDenominator": {
+        "degrees": [
+          11,
+          15
+        ],
+        "totalDegree": 22,
+        "terms": 109,
+        "bytes": 3155,
+        "sha256": "0b63aa2e51ac3f71129c4cfaec89f7eebeab5e970b596ded1705cb80d2a8ff6c"
+      },
+      "deflatedDTarget": {
+        "degrees": [
+          13,
+          16
+        ],
+        "terms": 844,
+        "bytes": 25106,
+        "sha256": "e7e829c407e24ee4fc695ec69587456b3c5a2860471df2d4800df85610d3650c"
+      },
+      "deflatedBaseRowProfiles": [
+        {
+          "degrees": [
+            28,
+            37
+          ],
+          "terms": 4152,
+          "bytes": 158116,
+          "sha256": "fa43ab09b6963cb55860d35a0f51cf1f4f5ee78fe8217b3a3d4023d097556bb3"
+        },
+        {
+          "degrees": [
+            28,
+            37
+          ],
+          "terms": 4146,
+          "bytes": 157093,
+          "sha256": "f2edb84f54fbd0a629da762e09008cb8146468d89d7084857f6492609cf517a0"
+        },
+        {
+          "degrees": [
+            36,
+            49
+          ],
+          "terms": 6843,
+          "bytes": 287894,
+          "sha256": "4b7acfeafb11eb8e7f11d385530193038ab41c54bbe30f4393bf06fd090ebc42"
+        },
+        {
+          "degrees": [
+            40,
+            54
+          ],
+          "terms": 8655,
+          "bytes": 384683,
+          "sha256": "1e571f4033c6e314f99523f1a9529a11c53216155b57f178bd30a4e19864b12d"
+        },
+        {
+          "degrees": [
+            36,
+            49
+          ],
+          "terms": 6837,
+          "bytes": 286308,
+          "sha256": "7fde87b4cbf2fad00f400d75c7f96d48136ebba7ee0860461584c648b2a181bc"
+        },
+        {
+          "degrees": [
+            40,
+            54
+          ],
+          "terms": 8655,
+          "bytes": 382741,
+          "sha256": "a421c44341c3699d41d345e2ad889c64caa944a22a3ade483995c651c6acf203"
+        }
+      ],
+      "universalOriginalCofactorIdentity": "det(N)*d=dprime*adj(N)*M",
+      "noLhalfInverse": true,
+      "entireLhalfZeroRetained": true,
+      "noH198OrOtherNewHeadInverse": true,
+      "originalDTargetValidOnEntireCurrentW": true,
+      "oldQQNativeDeterminantNotReplayed": true,
+      "wholeWExcluded": false,
+      "seconds": 11.410195647999998
+    },
+    {
+      "stage": "new_original_D_cofactor_complete_fixed_integral_weight_model",
+      "fixedPrime": 1009,
+      "fixedK": 3,
+      "newFullDTargetDeterminant": {
+        "degree": 191,
+        "bytes": 727,
+        "sha256": "be30bff656a185a2fe7efa23175d1e1e8a285fcee26f97a765d457bf4e866c31"
+      },
+      "newPprimeMonicResidue": {
+        "degree": 93,
+        "bytes": 364,
+        "sha256": "a4299c51c7278f5b39c5e46f6a0a768378ac0a333a63162ffab772097dc3caab"
+      },
+      "paidRemovedDegree": 98,
+      "paidRemovedHistory": [
+        [
+          "e",
+          11
+        ],
+        [
+          "u",
+          3
+        ],
+        [
+          "distinct_p_q",
+          11
+        ],
+        [
+          "W_paid_leading",
+          3
+        ],
+        [
+          "P02",
+          6
+        ],
+        [
+          "bc",
+          6
+        ],
+        [
+          "whole_original_J19",
+          8
+        ],
+        [
+          "whole_original_C9",
+          7
+        ]
+      ],
+      "exactQQDefinition": "Pprime=P164/Lhalf^2; Lhalf^2 divides P164 by the new column identities and the returned native-weight units in the full QQ dual family",
+      "exactQQDegrees": [
+        93,
+        119
+      ],
+      "exactQQTotalDegree": 158,
+      "allNewColumnCoefficientsPIntegral": true,
+      "fullNewDeterminantDivisionReturns": 55,
+      "PprimeAndLhalfCoprimeInThisCompleteResidue": true,
+      "entirePprimeResidueSquarefree": true,
+      "noOldPQQDeterminantOrSevenPrimaryReturnReplayed": true,
+      "physicalDUnitNecessaryEquation": "Pprime(e,k)=0",
+      "entireLhalfZeroRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 11.693638428999996
+    },
+    {
+      "stage": "new_selected_QQ_original_D_cofactor_row",
+      "id": 0,
+      "spec": [
+        "comm",
+        0,
+        1,
+        4
+      ],
+      "pContentNormalizationExponent": 0,
+      "fullOriginalSixMultiplierProductReturned": true,
+      "allActualRowAndDColumnDivisionsReturned": true,
+      "newDeflatedQQRow": {
+        "degrees": [
+          30,
+          41
+        ],
+        "terms": 4775,
+        "bytes": 186207,
+        "sha256": "3c51635281b8312c2c352bdc4463fd4dd9f6de09d0a603bd12898a4985493f17"
+      },
+      "requiredPaidRowScaleReturned": true,
+      "noLhalfInverseInQQIdentity": true,
+      "wholeWExcluded": false,
+      "seconds": 12.868018289999995
+    },
+    {
+      "stage": "new_original_D_cofactor_complete_residue_gcd_drop",
+      "index": 0,
+      "rowId": 0,
+      "originalSpec": [
+        "comm",
+        0,
+        1,
+        4
+      ],
+      "replacedBaseRow": 0,
+      "QQDeterminantDegreeBounds": [
+        210,
+        284
+      ],
+      "exactDeterminantDefinition": "baseN with one selected full QQ deflated original row replacement",
+      "actualResidue": {
+        "degree": 92,
+        "bytes": 357,
+        "sha256": "ce1a4e7fcc8549b792bac0abe0a84b594fd3a90e266378f90a5ad26fb68d0cf2"
+      },
+      "remainingFullGcdDegree": 0,
+      "universalWholeOriginalDTarget": true,
+      "allModularBezoutProductsReturned": true,
+      "fullQQMinorDefinedWithoutExpandingItsDeterminant": true,
+      "temporaryPivotZeroFibresRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 12.869156152999999
+    },
+    {
+      "stage": "new_original_D_cofactor_entire_residue_Bezout_one",
+      "completePprimeDegree": 93,
+      "newMinorAttempts": 1,
+      "trueCompleteBezoutDefinition": {
+        "bytes": 734,
+        "sha256": "23b1a8c1a0c8ce6eae4768ac05a56bdf4ad1c9eaaab5c3d084efbbdcb5bbed63"
+      },
+      "allUsefulQQMinors": [
+        {
+          "index": 0,
+          "rowId": 0,
+          "originalSpec": [
+            "comm",
+            0,
+            1,
+            4
+          ],
+          "replacedBaseRow": 0,
+          "QQDeterminantDegreeBounds": [
+            210,
+            284
+          ],
+          "exactDeterminantDefinition": "baseN with one selected full QQ deflated original row replacement",
+          "actualResidue": {
+            "degree": 92,
+            "bytes": 357,
+            "sha256": "ce1a4e7fcc8549b792bac0abe0a84b594fd3a90e266378f90a5ad26fb68d0cf2"
+          },
+          "remainingFullGcdDegree": 0,
+          "universalWholeOriginalDTarget": true
+        }
+      ],
+      "allSelectedQQRows": [
+        {
+          "id": 0,
+          "spec": [
+            "comm",
+            0,
+            1,
+            4
+          ],
+          "pContentNormalizationExponent": 0,
+          "fullOriginalSixMultiplierProductReturned": true,
+          "allActualRowAndDColumnDivisionsReturned": true,
+          "newDeflatedQQRow": {
+            "degrees": [
+              30,
+              41
+            ],
+            "terms": 4775,
+            "bytes": 186207,
+            "sha256": "3c51635281b8312c2c352bdc4463fd4dd9f6de09d0a603bd12898a4985493f17"
+          },
+          "requiredPaidRowScaleReturned": true
+        }
+      ],
+      "noMultivariableGcdEmptinessClaim": true,
+      "nonverticalQQCommonCurveExclusionOnly": true,
+      "finiteWeightFibresStillRequired": true,
+      "wholeWExcluded": false,
+      "seconds": 12.869330812999998
+    }
+  ],
+  "finalActualStage": {
+    "stage": "new_nonzero_pure_k_original_D_cover_fixed_definition",
+    "seconds": 13.08671622,
+    "coefficientModel": "Pprime=P164/Lhalf^2, primitive p1009 normalization, a(k)=lc_e(Pprime)",
+    "selectedColumns": {
+      "QQMinorIndex": 0,
+      "eMonomialExponents": "every integer from 0 through 92",
+      "pseudoremainderLeadingPowers": "118+j for the column with exponent j"
+    },
+    "selectedQQMinorAndEMonomialColumnsDefinitionSHA256": "0e90ddcbb2e437cd0d47b5b6be8a1341ed350cdf9eee4d7ffbc661f513449f0c",
+    "actualModularCoefficientMatrixRank": 93,
+    "actualAllOriginalSelectedInverseCoordinateProducts": 8649,
+    "actualSelectedModularMatrixDefinition": {
+      "bytes": 33870,
+      "sha256": "ecd4d4f8207e13c317adff6b2cb76bb6b332f47544bf624f7e35f9cc429ec5aa"
+    },
+    "actualInverseDefinition": {
+      "bytes": 33940,
+      "sha256": "f4d1aaaeab0b409b1a7cdfaf53e0c430bfd18fd7e9c4ceaca3eb7a47f0f6b4a3"
+    },
+    "sourceDefined93OrderCoverDegreeUpperBound": 1841400,
+    "QQExactColumnDivisionReturns": 28,
+    "exactModularPolynomialDivisionReturns": 110,
+    "fullPIntegralCoefficientChecks": 109454,
+    "actualCompleteResidueCoefficientInverses": 31,
+    "sourcePeakRssKiB": 93384
+  },
+  "completedPaperConsequencesWithoutFurtherExecution": {
+    "originalIdealIdentity": "det(N)*b_D*D = dprime*adj(N)*Theta*F6 - det(N)*tau*F4",
+    "noLhalfInverse": true,
+    "entireLhalfZeroRetained": true,
+    "exactNewNecessaryCurve": "Pprime=P164/Lhalf^2",
+    "exactBidegree": [
+      93,
+      119
+    ],
+    "exactTotalDegree": 158,
+    "actualNewOriginalCofactor": "Qstar=det(Nstar); Nstar replaces native row0 by the exactly column-deflated and paid-normalized row4 of Mx*My-My*Mx",
+    "newCofactorBidegreeUpperBound": [
+      210,
+      284
+    ],
+    "commonPositiveEDegreeFactorExcludedBy": "the returned full univariate Bezout1 and the locally monic integral Pprime model over Z_(1009)[k]_(1009,k-3)",
+    "fixedPureKCover": "det Sylvester_e,(93,210)(Pprime,Qstar)",
+    "fixedSylvesterSize": 303,
+    "fixedPureKCoverNonzero": true,
+    "exactPureKCoverDegreeUpperBound": 51402,
+    "allLeadingZeroFibresRetained": true,
+    "QQCoefficientExpansionPerformed": false,
+    "allAllowedWeightSchemeLengthUpperBound": 51402,
+    "wholeCurrentWMeanSchemeLengthUpperBound": 308412,
+    "wholeFixedSevenCoordinateOriginalSchemeLengthUpperBound": 616824,
+    "schemeLengthMethod": "bidegree Bezout in P1xP1 after removing only paid pure-k content, then whole native six generation, monic rho square, unique zeta and Artin localization",
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false,
+    "allFiniteOriginalFibresRemain": true
+  },
+  "completeProof": {
+    "suggestedPath": "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md",
+    "gitBlob": "86d763d8d8d1f14631318a61258bf5cf06560a94",
+    "bytes": 13631,
+    "sha256": "831678b62953fd401027b3a46738591a08feda3f02a347113f856db82668e79d"
+  },
+  "noRecomputableCoefficientCacheEncodedOrSplitPayload": true
+}
