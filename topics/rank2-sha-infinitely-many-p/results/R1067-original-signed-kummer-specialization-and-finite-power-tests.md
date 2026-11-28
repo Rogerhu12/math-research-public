@@ -548,3 +548,74 @@ $\binom{2b}{p-2}(p-2)/2=-1\bmod p$，其中已计幂和与符号。
 $-B_{p+1}+B_2$，另有的 $j=1$ 项为零。由(AU1)和(AV2)证明中
 的准确最低阶，整个迹在 $x^{3pb}$ 前各项皆零，故得
 $B_{p+1}=B_2$。代回三行之和即给(AW1)。
+
+## 82. 原四格余数在固定 $E_1$ 特殊纤维上为全驯挠点的一个 Frobenius 图像和
+
+本节 $\mathrm F$ 为 $E_1:y^2=x^3+1$ 特殊纤维上的 $p$ 次
+幂 Frobenius，$\omega=dx/(2y)$，$f=34\delta,\ f_1=2\delta$。
+对每个 $a\in\Delta,\ i\in\mathbf F_p$，任取
+$d_{a,i}\in\mathcal O_K$ 满足
+$d_{a,i}\equiv a(1+pi)\bmod p^2$ 且 $d_{a,i}\equiv1\bmod f$。
+可由 CRT 任取非零提升。置
+$$
+ W(P)=-\frac{y(P)}{x(P)}
+       \left(\frac{y(\mathrm F^3 P)}{y(\mathrm F P)}-1\right).
+$$
+则(AV2)等价于全代数点的等式
+$$
+ \boxed{\quad
+ 34 f_1(1-\omega_K)\,a_2=
+ -\frac{(h-h^p)^{p-3}}{b}
+  \sum_{a,i,t} a^{-1}\varepsilon(t)
+   \sum_{R\in E_1[d_{a,i}]} W(-T_t+R)
+            \quad\text{于 }k.\quad}                               \tag{AX1}
+$$
+$\omega_K=(-1+\delta)/2$ 以免和微分混淆，标记 $T_t$ 均指同一
+primitive $f$ 挠点的好约化，$a^{-1}$ 指剩余域标量。
+所有点 $-T_t+R$ 保有原 $17$ 部分，故 $x(P)$ 与
+$y(\mathrm F P)$ 都不为零。不存在因选模型或点而漏掉的极点项。
+
+具体地，在固定特征零曲线上取有理微分
+$$
+ \nu=\sum_t\varepsilon(t)
+       \frac{y(P)-y(T_t)}{x(P)-x(T_t)}\,\omega .
+$$
+$\zeta$ 加法式给它等于 $\sum_t\varepsilon(t)X(P+T_t)\omega$：
+$\sum_t\varepsilon(t)=0$，而 $\sum_t\varepsilon(t)X(T_t)=0$
+由实际 $L(E_{17},1)=0$。$\nu$ 只有 $-T_t$ 处的单极，
+留数为 $\varepsilon(t)$。$\Theta_c$ 的固定标记全微分准确
+等于 $12(c^2-[c]^*)\nu$，由(AN2)与 $cT_t=T_t$ 得到。
+这些函数在当前好约化处定义良好，所有不同 $T_t$ 保持不同。
+在 $E_1/\overline k$ 上组成有理微分
+$$
+ \Omega_p=b^{-1}\sum_{a,i}a^{-1}[d_{a,i}]^*\nu .
+$$
+在 $O$ 的原 LT 参数 $s$ 中，至 $s^{3pb}ds$ 为止，这给出
+完整的 $\Delta$ 投影及 $g_+$ 方向迹：两 CM 标量模 $p^2$
+相合同其形式端同态的差为 $O(s^{q^2})$，且相应导数均为该
+标量模 $p$；此窗口严格小于 $q^2-1$。$12(c^2-[c]^*)\Omega_p$
+在该窗口即(AV2)的实际 $\sum_iB(\sigma^is)ds$。
+$\Omega_p$ 在窗口内因 $\Delta$ 只容许 $s^{m-1}ds,\ 
+m\equiv1\bmod b$。若其首非零项在这样的 $m$，
+$12(c^2-[c]^*)$ 在该项乘 $12(c^2-c^m)=12(c^2-c)$，是单位；
+所以整个 $\Omega_p$ 在 $s^{3pb}$ 前的系数均为零，且
+$$
+ 34 f_1(1-\omega_K)a_2
+    =(h-h^p)^{p-3}[s^{3pb}](\Omega_p/ds)
+$$
+由 $R=12 f_1(c^2-c)(1-\omega_K)$ 及(AV2)给出。
+因所有更低项均零，此系数对任一同向切线的严格参数相同。
+
+在特殊纤维上有恒等有理函数
+$W=-(y/x)(y^{p(q-1)}-1)$。它仅 $O$ 为极点：
+$x=0$ 时 $y^2=1$，而 $y^{p(q-1)}-1$ 可被 $x^3$ 整除。
+在 $u=-x/y$ 处首项是 $u^{-3pb-1}$，
+且 $\omega/du(0)=1$。因此
+$\operatorname{Res}_O(W\Omega_p)=[s^{3pb}](\Omega_p/ds)$。
+每个 $[d_{a,i}]$ 均可分、étale，
+$[d_{a,i}]^{-1}(-T_t)=-T_t+E_1[d_{a,i}]$；
+其各点处留数是 $a^{-1}\varepsilon(t)/b$，
+重合点按有理微分的加法计全部重数。
+对 $W\Omega_p$ 用完备曲线全局留数定理即得(AX1)。
+此式同时证明右侧与各 CRT 提升无关；它的跨素数非零
+仍需控制这个完整加权点和。

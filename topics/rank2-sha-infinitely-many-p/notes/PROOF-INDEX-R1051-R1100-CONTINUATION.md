@@ -133,3 +133,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §81：四个原标记Robert系数准确给出中央模p方向迹
 
 已证明：原LT加法的首非线性项与群律付σ_i/x到Y^(2p+1)；原中央与Cartier给B₀=B₁=0，低迹再给B_(p+1)=B₂。全3pb迹准确为−B_(2p+1)+2B_(p+2)−B₃−2B₂，不将任一槽非零当全和非零。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §82：原中央余数的固定导子Frobenius全点和
+
+已证明：真实未平滑第三类微分保完整17导子，CRT升至p²保全原LT窗口；全局留数定理把a₂准确化为固定E1特殊纤维上的完整加权同源逆像和，W以Frob³/Frob写出。其在E上的度仍随p，跨p非零尚缺。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
