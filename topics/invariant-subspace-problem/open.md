@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W原D有限覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)保P′e93/k119、权长≤51402/规范≤616824含全重数。1616[七行触界](notes/2026-11-28-unit211-W-seven-row-e-module-first-timeout-8542.md)未成Popov/D目标、11083非cover，冻结。[F101原D身份](results/R150-appendix-unit211-W-entire-Lhalf-original-D-F101-cover-and-normalized-length.md)结合8e57唯一真23.034741738秒/0已关闭整Lhalf：五个QQ整因子一支由原单位排，其余全原七行rank12/12/204/816，双逆及D目标返回；有限整Nakayama恢复重数。续L补图，不重放本支。
+[全W原D有限覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)保P′e93/k119、权长≤51402/规范≤616824含全重数。1616七行Popov触界冻结。[整Lhalf完整原排除](results/R150-appendix-unit211-W-entire-Lhalf-complete-original-exclusion.md)：F101五QQ因子一支原单位排，其余全原七行rank12/12/204/816、双逆与D目标返；有限整Nakayama恢复全重数。原native及13单位均追到正确vm，未承继错compact；当前物理图可付L和2ell−1，续其补图。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-当前从真Rbar及同一个原Gram重新建立必要条件，所有尚未独立支付的头与权零面均保留；不重播错误旧门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
+首派自含f62真四二次头，120秒/1GiB，仅QδPf坐标图；全部24原系数/四极大子式/分母返回，不用旧H1、m、u+Q−1或2ell−3逆。若四头全零只报rank≤2，保所有零面；不重播错误旧门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
