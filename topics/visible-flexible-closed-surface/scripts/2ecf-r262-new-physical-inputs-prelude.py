@@ -36,7 +36,8 @@ def main():
     names=("2ecf-r262-three-circular-arcs-material-comparison.py",
            "2ecf-r262-physical-axial-shortening.py",
            "2ecf-r262-three-arcs-shortened-prefix-v2.py",
-           "2ecf-r262-three-arcs-fixed-metric-refinement.py")
+           "2ecf-r262-three-arcs-fixed-metric-refinement.py",
+           "2ecf-r262-all-original-rings-three-arcs-sleeve.py")
     for name in names:
         src=scripts/name
         if not src.exists():
@@ -86,6 +87,22 @@ def main():
             pub.publish("R262-true-three-arcs-frozen-physical-refinement",
                         "选择两次已公布完整设计中独立谱峰较小者，保留两条整连续正目标；对每个真实物理单元插入中点，角模式18到30，实际Boehm包含后只更新空间。"+
                         pub.compact(scalar_report(q)),[parent,parent.with_suffix(".npz"),target,target.with_suffix(".npz")])
+
+    # A second physical construction retains every original radial ring and
+    # redistributes the added sleeve height inside the original prefix.
+    for low in (".25",".35"):
+        target=out/("all-original-rings-low"+low[1:]+".json")
+        code=pub.py("2ecf-r262-all-original-rings-three-arcs-sleeve.py",
+                    "--scripts",a.scripts,"--comparison",a.scripts/names[0],
+                    "--work",a.work,"--low",low,"--out",target,allow_failure=True)
+        if code:
+            pub.publish("R262-all-original-rings-low"+low[1:]+"-exit",
+                        "保全每一原圈并重新分配中央柱高度的新物理源退出 "+str(code)+"。",[target])
+        else:
+            q=pub.obj(target)
+            pub.publish("R262-all-original-rings-true-sleeve-low"+low[1:],
+                        "这一独立输入保全每个原截圈，前置真 .78 圆弧柱，在原前缀内用两侧平坦的速度分配收回高度；原无限尾及平盘物理位置保持。完整六 jet、未拟目标和所选正目标下的实际空间步分别列出，不与前一切除构造合并接受计数。"+
+                        pub.compact(scalar_report(q)),[target,target.with_suffix(".npz")])
 
 if __name__=="__main__":
     main()

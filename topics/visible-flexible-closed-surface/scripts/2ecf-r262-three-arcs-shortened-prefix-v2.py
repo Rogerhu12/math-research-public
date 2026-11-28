@@ -146,7 +146,7 @@ def make_grid(micro,src,geo,orig,a,nrad,nang,shift,metric=None):
     residual,err,_=micro.gram(old,1.,1.,rr)
     baseline=dict(peak=float(err.max()),curvature=float(micro.curvature(old)[0].max()))
     lens=[]
-    for r in (0.,c,c+d,X,src.S):
+    for r in (0.,c,c+d,a.lift_end,src.S):
         i=np.argmin(abs(q-r));j=base[i]
         lens.append(dict(q=float(q[i]),oldHeight=[float(old[i,0,:,2].min()),float(old[i,0,:,2].max())],newHeight=[float(j[0,:,2].min()),float(j[0,:,2].max())],oldHorizontalDistanceToUnitSleeve=float(np.linalg.norm(old[i,0,:,:2]-base[0,0,:,:2],axis=-1).max()),oldAxialAcceleration=float(np.linalg.norm(old[i,3],axis=-1).max()),newZqRange=[float(j[1,:,2].min()),float(j[1,:,2].max())]))
     baseline["changedSourceZqRange"]=[float(base[:,1,:,2].min()),float(base[:,1,:,2].max())]
